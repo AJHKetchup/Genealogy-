@@ -6,10 +6,4 @@
 
 ## Queued Pages
 
-### Page 269
-
-- Recommended action: `spot-check`
-- Conversion confidence: `medium`
-- Family relevance: `none`
-- Quality flags: possible_table_layout_loss
-- Matched family context: none
+No pages queued for reread.

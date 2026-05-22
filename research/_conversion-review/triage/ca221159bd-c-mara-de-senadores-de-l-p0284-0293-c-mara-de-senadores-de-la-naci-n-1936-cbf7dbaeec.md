@@ -10,7 +10,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
 | 2 | none | high | pass | none | none |
-| 286 | none | medium | spot-check | many_uncertain_readings | none |
+| 286 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |

@@ -3,63 +3,63 @@ type: proof_review
 role: claim_reviewer
 task_id: proof-review:research/_staging/claims/CHUNK-3d3ab761209f-P0001-01-atomic-claims.md
 staged_draft: research/_staging/claims/CHUNK-3d3ab761209f-P0001-01-atomic-claims.md
-reviewer: postconv-proof-review-20260522004058403
+reviewer: postconv-proof-review-20260522025927189
 review_date: 2026-05-22
-canonical_readiness: hold
+canonical_readiness: revise
 ---
 
 # Proof Review: CHUNK-3d3ab761209f-P0001-01 Atomic Claims
 
 ## Blockers
 
-- Raw source image is not available at the path cited by the staged draft and conversion: `raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png`. The `raw/sources` directory currently contains only `.gitkeep`.
-- No page-image cache is available in the cited conversion job directory; it contains `page-markdown`, `work-orders`, `manifest.json`, and `README.md`, but no `page-images` directory. Image-only review of handwriting, crop completeness, and marginal/emendation text could not be performed.
-- Hold image-sensitive claims pending restored source/page image: ca514-004 (`Calle Sanegueso`), ca514-007 and ca514-010 where that street recurs, ca514-011 (`Benjamin Utiera`), and ca515-012 (`Neira=emendado= vale=`).
-- Hold canonical identity merges for named parents/declarants. The same-entry links are plausible, but the draft provides only this register page and no external identity reconciliation for Jose del Carmen/Jose del C. Pulgar, Mercedes Riquelme, Pedro Pablo Neira, Juana de Dios Amagada de Pulgar, or Carmen Ulloa.
-- Do not promote the negative-father claim ca514-005 beyond the scope of this registration. The conversion supports that the father field says `Se ignora`, but this is not wider evidence that the father was unknown in all contexts.
+- Revise before canonical promotion: the staged draft cites `raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0001-chunk-01.md`, but that exact referenced chunk file is unavailable. The same directory contains `page-0172-chunk-01.md`, which carries a different chunk id and different facts.
+- Revise before canonical promotion: the referenced converted file `raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md`, the conversion job page Markdown, and the restored page image do not support many core staged claims.
+- Do not promote the staged child-name and birth-event claims for entries 513-515 as written. The available conversion/page image conflict with the staged draft on principal names, birth dates/times, places, and some parent facts.
+- Do not promote the record 514 negative-father claim ca514-005. The referenced conversion and visible image support a named father field, not `Se ignora`.
+- Do not promote image-sensitive claims ca514-004, ca514-007, ca514-010, ca514-011, ca515-011, and ca515-012 from this staged draft. The visible source does not support `Calle Sanegueso`, `Benjamin Utiera`, `Ignacio Soto`, or the staged record 515 witness/emendation set as written.
+- A separate chunk file at `raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513-codex/page-0001-chunk-01.md` carries `chunk_id: CHUNK-3d3ab761209f-P0001-01` and matches the staged draft more closely, but it conflicts with the referenced converted file and restored page image. Treat it as a provenance conflict, not as sufficient support for canonical promotion.
 
 ## Scores
 
-- source_quality_score: 0.82
-- conversion_confidence_score: 0.74
-- evidence_quantity_score: 0.78
-- agreement_score: 0.96
-- identity_confidence_score: 0.64
-- claim_probability: 0.80
+- source_quality_score: 0.86
+- conversion_confidence_score: 0.42
+- evidence_quantity_score: 0.70
+- agreement_score: 0.28
+- identity_confidence_score: 0.38
+- claim_probability: 0.36
 - relevance_level: high
-- relevance_confidence: 0.92
-- canonical_readiness: hold
+- relevance_confidence: 0.90
+- canonical_readiness: revise
 
 ## Claim Review
 
 | Claim id(s) | Judgment | Claim probability | Notes |
 | --- | --- | ---: | --- |
-| ca513-001 through ca513-008 | supported_from_conversion | 0.86 | The converted file and chunk directly contain entry number, child name/sex, registration date, birth date/time/place, father, mother, nationality, occupation, and domicile facts. Ready for claim drafting after image restoration; identity merges remain separate. |
-| ca513-009 and ca513-010 | revise_before_canonical | 0.78 | The conversion supports `Jose del C. Pulgar` as compareciente/father with age, occupation, and domicile. Treat equivalence to `Jose del Carmen Pulgar` as a same-entry inference, not a resolved identity merge. |
-| ca513-011 | supported_low_genealogical_value | 0.82 | The conversion supports that the compareciente was known to the officer. This is better as a source note than a canonical genealogical claim. |
-| ca514-001 through ca514-003 | supported_from_conversion | 0.86 | The converted file and chunk directly support child name/sex, registration date, and birth date/time. |
-| ca514-004, ca514-007, ca514-010 | hold_image_check | 0.68 | `Sanegueso` is present in the conversion, but the conversion itself flags the street name as unusual. Do not normalize or promote this street reading until the page image is available. |
-| ca514-005 | supported_limited_scope | 0.84 | The father field is transcribed as `Se ignora`. Promote only as a statement about this registration, not as a broader biological or legal conclusion. |
-| ca514-006, ca514-008, ca514-009 | supported_from_conversion | 0.82 | The conversion supports Mercedes Riquelme as mother/declarant, her request that her name be recorded, and the no-signature statement. Maintain literal wording for the legal phrase. |
-| ca514-011 | hold_image_check | 0.58 | Ignacio Soto is plainly supported by the conversion, but `Benjamin Utiera` is explicitly flagged as difficult. Hold the witness surname until image review. |
-| ca515-001 through ca515-008 | supported_from_conversion | 0.86 | The converted file and chunk directly support child name/sex, registration date, birth date/time/place, named father and mother, nationality, occupation, and domicile facts. Avoid expanding `Santiago` beyond the literal place/domicile wording. |
-| ca515-009 and ca515-010 | revise_before_canonical | 0.80 | Pedro Pablo Neira is listed as father and compareciente with age, occupation, and domicile. Same-entry equivalence is likely, but age-derived identity conclusions should wait for canonical identity review. |
-| ca515-011 | supported_low_genealogical_value | 0.78 | Witness names are supported by the conversion, but witness tracking should only be promoted if relevant to the research objective. |
-| ca515-012 | hold_image_check | 0.62 | The emendation note is transcribed in the conversion, but it is exactly the kind of marginal/official text that should be checked against the image before promotion. |
+| ca513-001 | revise | 0.35 | The staged name `Jose Luis Pulgar Amagada` is not supported by the referenced converted file. The restored image does support a Pulgar child entry, but the given names and surname reading need a fresh transcription decision. |
+| ca513-002 | supported_limited | 0.86 | Entry 513 registration date of 22 July 1889 is supported by the referenced conversion and image. |
+| ca513-003 | revise | 0.30 | The staged birth date/time, 26 June 1889 at 4:30 p.m., conflicts with the referenced conversion and visible image, which support a different June date/time reading. |
+| ca513-004 through ca513-010 | mixed_revise | 0.58 | Calle Colon, Jose del Carmen Pulgar, Juana de Dios Amagada de Pulgar, and Jose del C. Pulgar are broadly visible/supported, but the staged mother occupation wording and some same-entry identity uses should be revised against the supported conversion/image before promotion. |
+| ca513-011 | supported_low_genealogical_value | 0.80 | The compareciente identity note is supported as a source note, not as a substantive genealogical claim. |
+| ca514-001 through ca514-004 | revise | 0.28 | The staged Riquelme Aviles/Sanegueso claims conflict with the referenced conversion and page image, which show different name/place readings. |
+| ca514-005 | not_supported | 0.08 | The staged `Se ignora` father claim is not supported by the referenced conversion or restored image. |
+| ca514-006 through ca514-010 | revise | 0.34 | Mercedes Riquelme as mother/declarant, age 21, and seamstress are supported, but the staged legal phrase, no-signature phrasing, and Sanegueso domicile conflict with the referenced conversion/image. |
+| ca514-011 | not_supported_as_written | 0.20 | The restored image and referenced conversion support different witness readings than `Benjamin Utiera` and `Ignacio Soto`. |
+| ca515-001 through ca515-010 | revise | 0.30 | The staged Neira Ulloa/Laura de la Cruz claims conflict with the referenced conversion and restored image, which support different principal names, birth date/time/place, parents, occupations, and declarant details. |
+| ca515-011 | not_supported_as_written | 0.20 | The staged witness names are not supported by the referenced conversion/page image. |
+| ca515-012 | not_supported_as_written | 0.22 | The staged `Neira=emendado=vale=` note is not supported as written by the referenced conversion/page image for the displayed record 515. |
 
 ## Evidence Strengths
 
-- The staged draft, converted file, and chunk agree on the shared source metadata: Los Angeles, Chile civil birth register, page 172, entries 513-515, dated July 1889.
-- The draft's literal-support excerpts are present in the converted Markdown and assigned chunk, with no detected mismatch between the staged claims and the available transcription.
-- The source type is strong for birth-event facts and for declared parent/declarant information because it is a civil birth register entry close in time to each birth.
-- The draft preserves uncertainty appropriately for record 514's unusual street name, difficult witness surname, identity reconciliation, and record 515's emendation note.
+- The source itself is a civil birth register page, which is a strong source type for birth-registration facts when the transcription is stable.
+- The restored page image is now available at `raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/page-images/page-0001.png`, so the earlier image-availability blocker is resolved.
+- A few staged details have partial support in the visible source, especially entry 513's registration date, Calle Colon, Jose del Carmen/Jose del C. Pulgar, Juana de Dios Amagada de Pulgar, and entry 514's Mercedes Riquelme age/occupation/declarant role.
 
 ## Review Judgment
 
-The atomic claims are mostly well supported by the converted Markdown and chunk. Core registration, birth-event, parent-name, declarant, occupation, nationality, domicile, and witness facts can be treated as high-probability staged claims from the conversion.
+The staged atomic-claims draft is relevant to the cited source, but it is not canonically ready. The main problem is not a narrow handwriting uncertainty; it is a provenance and agreement failure among the staged draft, its cited chunk path, the referenced converted file, the conversion job page Markdown, and the restored source image.
 
-Canonical readiness remains `hold` because the visible source image is unavailable. This prevents independent review of difficult handwriting, marginal/emendation text, and crop completeness. Claims requiring identity reconciliation should also be revised or held before canonical promotion so same-entry name variants and declarant/parent equivalence are not overextended into merged identities.
+canonical_readiness: revise
 
 ## Next Action
 
-Restore or regenerate the page image, then re-check `Sanegueso`, `Benjamin Utiera`, the record 515 `Neira` emendation, and bottom-crop completeness. After image review, promote only literal registration-scoped claims first; send identity-linking claims for separate person/relationship review.
+Revise the staged draft from the restored page image and the authoritative converted/page Markdown, or repair the provenance chain if a different image/transcription was intended. After that, rerun claim extraction/review rather than promoting selected claims from this draft.

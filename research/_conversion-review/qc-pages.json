@@ -53,10 +53,12 @@
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
       "page": 5,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "medium",
       "family_relevance": "high",
-      "quality_flags": [],
+      "quality_flags": [
+        "explicit_reread_needed"
+      ],
       "matched_terms": [
         "Arturo",
         "Dario",
@@ -88,10 +90,12 @@
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
       "page": 7,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "medium",
       "family_relevance": "high",
-      "quality_flags": [],
+      "quality_flags": [
+        "explicit_reread_needed"
+      ],
       "matched_terms": [
         "Arturo",
         "Dario",
@@ -10403,12 +10407,10 @@
       "chunk_manifest": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-ed64c3556a/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json",
       "page": 269,
-      "recommended_action": "spot-check",
-      "conversion_confidence": "medium",
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
       "family_relevance": "none",
-      "quality_flags": [
-        "possible_table_layout_loss"
-      ],
+      "quality_flags": [],
       "matched_terms": [],
       "suspicious_readings": []
     },
@@ -10611,12 +10613,10 @@
       "chunk_manifest": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-cbf7dbaeec/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json",
       "page": 286,
-      "recommended_action": "spot-check",
-      "conversion_confidence": "medium",
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
       "family_relevance": "none",
-      "quality_flags": [
-        "many_uncertain_readings"
-      ],
+      "quality_flags": [],
       "matched_terms": [],
       "suspicious_readings": []
     },
@@ -19312,11 +19312,9 @@
       "page": 1,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "family_relevance": "none",
       "quality_flags": [],
-      "matched_terms": [
-        "Starting"
-      ],
+      "matched_terms": [],
       "suspicious_readings": []
     },
     {
@@ -19324,15 +19322,11 @@
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json",
       "page": 2,
-      "recommended_action": "spot-check",
-      "conversion_confidence": "medium",
-      "family_relevance": "medium",
-      "quality_flags": [
-        "possible_table_layout_loss"
-      ],
-      "matched_terms": [
-        "Starting"
-      ],
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
+      "family_relevance": "none",
+      "quality_flags": [],
+      "matched_terms": [],
       "suspicious_readings": []
     },
     {
@@ -19411,7 +19405,7 @@
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
-      "page": 2,
+      "page": 7,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "none",
@@ -19435,13 +19429,11 @@
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
-      "page": 4,
-      "recommended_action": "spot-check",
-      "conversion_confidence": "medium",
+      "page": 9,
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
       "family_relevance": "none",
-      "quality_flags": [
-        "possible_table_layout_loss"
-      ],
+      "quality_flags": [],
       "matched_terms": [],
       "suspicious_readings": []
     },
@@ -19461,7 +19453,7 @@
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
-      "page": 6,
+      "page": 11,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "none",
@@ -20968,13 +20960,11 @@
       "page": 97,
       "recommended_action": "spot-check",
       "conversion_confidence": "medium",
-      "family_relevance": "medium",
+      "family_relevance": "none",
       "quality_flags": [
         "many_uncertain_readings"
       ],
-      "matched_terms": [
-        "Starting"
-      ],
+      "matched_terms": [],
       "suspicious_readings": []
     },
     {
@@ -21058,13 +21048,11 @@
       "page": 104,
       "recommended_action": "spot-check",
       "conversion_confidence": "medium",
-      "family_relevance": "medium",
+      "family_relevance": "none",
       "quality_flags": [
         "many_uncertain_readings"
       ],
-      "matched_terms": [
-        "start"
-      ],
+      "matched_terms": [],
       "suspicious_readings": []
     },
     {
@@ -23945,16 +23933,14 @@
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375.codex.md",
       "chunk_manifest": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/manifest.json",
-      "page": 357,
+      "page": 7,
       "recommended_action": "spot-check",
       "conversion_confidence": "medium",
-      "family_relevance": "medium",
+      "family_relevance": "none",
       "quality_flags": [
         "possible_ocr_garbage_token"
       ],
-      "matched_terms": [
-        "Starting"
-      ],
+      "matched_terms": [],
       "suspicious_readings": []
     },
     {
@@ -27459,7 +27445,7 @@
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
       "chunk_manifest": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 7,
+      "page": 10,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "none",
@@ -27471,7 +27457,7 @@
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
       "chunk_manifest": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 8,
+      "page": 11,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "none",
@@ -27483,7 +27469,7 @@
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
       "chunk_manifest": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 9,
+      "page": 12,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "none",
@@ -28572,13 +28558,11 @@
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225.codex.md",
       "chunk_manifest": "raw/chunks/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225/manifest.json",
-      "page": 224,
-      "recommended_action": "spot-check",
-      "conversion_confidence": "medium",
+      "page": 24,
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
       "family_relevance": "none",
-      "quality_flags": [
-        "possible_table_layout_loss"
-      ],
+      "quality_flags": [],
       "matched_terms": [],
       "suspicious_readings": []
     },
@@ -29167,12 +29151,10 @@
       "chunk_manifest": "raw/chunks/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/manifest.json",
       "page": 298,
-      "recommended_action": "spot-check",
-      "conversion_confidence": "medium",
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
       "family_relevance": "none",
-      "quality_flags": [
-        "possible_table_layout_loss"
-      ],
+      "quality_flags": [],
       "matched_terms": [],
       "suspicious_readings": []
     },
@@ -30234,13 +30216,11 @@
       "converted_file": "raw/converted/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33.codex.md",
       "chunk_manifest": "raw/chunks/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33/manifest.json",
-      "page": 26,
-      "recommended_action": "spot-check",
-      "conversion_confidence": "medium",
+      "page": 1,
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
       "family_relevance": "none",
-      "quality_flags": [
-        "possible_ocr_garbage_token"
-      ],
+      "quality_flags": [],
       "matched_terms": [],
       "suspicious_readings": []
     },
@@ -47737,7 +47717,7 @@
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125.codex.md",
       "chunk_manifest": "raw/chunks/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/manifest.json",
-      "page": 123,
+      "page": 23,
       "recommended_action": "spot-check",
       "conversion_confidence": "medium",
       "family_relevance": "none",
@@ -52926,13 +52906,11 @@
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125.codex.md",
       "chunk_manifest": "raw/chunks/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125/manifest.json",
-      "page": 105,
-      "recommended_action": "spot-check",
-      "conversion_confidence": "medium",
+      "page": 5,
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
       "family_relevance": "none",
-      "quality_flags": [
-        "many_uncertain_readings"
-      ],
+      "quality_flags": [],
       "matched_terms": [],
       "suspicious_readings": []
     },
@@ -59182,16 +59160,14 @@
       "converted_file": "raw/converted/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75.codex.md",
       "chunk_manifest": "raw/chunks/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
-      "page": 53,
+      "page": 52,
       "recommended_action": "spot-check",
       "conversion_confidence": "medium",
-      "family_relevance": "medium",
+      "family_relevance": "none",
       "quality_flags": [
         "many_uncertain_readings"
       ],
-      "matched_terms": [
-        "people"
-      ],
+      "matched_terms": [],
       "suspicious_readings": []
     },
     {
@@ -67717,7 +67693,7 @@
       "converted_file": "raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0376-0400-r4749-11c-17499-5398-pages-376-400.codex.md",
       "chunk_manifest": "raw/chunks/caf1c3ebcf-r4749-11c-17499-5398-p0376-0400-r4749-11c-17499-5398-pages-376-400-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0376-0400-r4749-11c-17499-5398-pages-376-400/manifest.json",
-      "page": 376,
+      "page": 1,
       "recommended_action": "spot-check",
       "conversion_confidence": "medium",
       "family_relevance": "none",
