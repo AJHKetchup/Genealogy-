@@ -17,12 +17,11 @@ Each run refreshes generated indexes, rebuilds the family tree view, builds the 
 python -m historic_doc_ingest.genealogy_wiki site --root . --out site --wiki-only
 ```
 
-Then it enables/configures GitHub Pages for Actions builds, uploads the generated `site/` directory as a Pages artifact, and deploys it with GitHub's official Pages actions:
+Then it force-publishes the generated `site/` directory to the `gh-pages` branch and attempts to point GitHub Pages at that branch:
 
 ```powershell
-actions/configure-pages@v5
-actions/upload-pages-artifact@v4
-actions/deploy-pages@v4
+git push --force origin gh-pages
+gh api repos/<owner>/<repo>/pages
 ```
 
 Expected production URL:
@@ -34,5 +33,7 @@ https://ajhketchup.github.io/Genealogy-/
 The public site intentionally skips `research/` pages and converted-source pages. Research dashboards, source packets, conversion QA, staging drafts, and queue state remain in the repository and hosted agent outputs; reviewed wiki material is what gets published for family-facing exploration.
 
 Cloudflare Worker configs remain in `cloudflare/wiki-site/` as optional fallback infrastructure, but the default hosted deploy is GitHub Pages because it avoids Cloudflare entitlement failures and rotating Cloudflare tokens.
+
+If GitHub Pages has not been enabled yet, the workflow tries to enable it using `PAGES_ADMIN_TOKEN`, then `CODEX_SECRET_UPDATE_TOKEN`, then the default `GITHUB_TOKEN`. The `gh-pages` branch still updates even when the Pages API refuses enablement, so adding a token with repository administration/pages permission turns the same long-term workflow on without another architecture change.
 
 The site is generated from durable Markdown and JSON state. Do not hand-edit generated `site/` output; change the wiki/research Markdown or the generator instead.
