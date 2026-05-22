@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 104 | critical | low | reread-page | none | Juan, Luis, chile |
-| 105 | high | high | pass | none | Arriagada, Arturo, chile |
-| 106 | medium | high | pass | none | chile |
-| 107 | critical | low | reread-page | none | Luis, chile |
-| 108 | critical | low | reread-page | none | Arriagada, Juan, Luis, chile |
-| 109 | medium | high | pass | none | Arturo, chile |
-| 110 | high | high | pass | none | Arturo, Luis, Mercedes, chile |
-| 111 | critical | low | reread-page | none | Arturo, Luis, chile |
-| 112 | critical | low | reread-page | none | Luis, chile |
-| 113 | critical | low | reread-page | none | Arriagada, Juan, chile |
-| 114 | medium | high | pass | none | Arturo, chile |
-| 115 | medium | high | pass | none | Luis, chile |
-| 116 | critical | low | reread-page | none | Luis, chile |
-| 117 | medium | high | pass | none | Luis, chile |
-| 118 | critical | low | reread-page | none | Juan, Luis, chile |
-| 119 | critical | low | reread-page | none | Arturo, Juan, chile |
-| 120 | critical | low | reread-page | none | Arturo, Juan, Luis, chile |
-| 121 | medium | high | pass | none | Luis, chile |
-| 122 | medium | high | pass | none | chile |
-| 123 | medium | high | pass | none | Luis, chile |
+| 104 | none | high | pass | none | none |
+| 105 | medium | high | pass | none | Arriagada, Arturo |
+| 106 | none | high | pass | none | none |
+| 107 | none | high | pass | none | none |
+| 108 | medium | high | pass | none | Arriagada |
+| 109 | medium | high | pass | none | Arturo |
+| 110 | medium | high | pass | none | Arturo, Mercedes |
+| 111 | medium | high | pass | none | Arturo |
+| 112 | none | high | pass | none | none |
+| 113 | medium | high | pass | none | Arriagada |
+| 114 | medium | high | pass | none | Arturo |
+| 115 | none | high | pass | none | none |
+| 116 | none | high | pass | none | none |
+| 117 | none | high | pass | none | none |
+| 118 | none | high | pass | none | none |
+| 119 | medium | high | pass | none | Arturo |
+| 120 | medium | high | pass | none | Arturo |
+| 121 | none | high | pass | none | none |
+| 122 | none | high | pass | none | none |
+| 123 | none | high | pass | none | none |

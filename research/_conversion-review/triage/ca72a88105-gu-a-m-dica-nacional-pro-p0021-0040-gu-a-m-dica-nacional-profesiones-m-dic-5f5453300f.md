@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 21 | critical | low | reread-page | none | Dios, Juan, Luis, chile |
-| 22 | critical | low | reread-page | none | Juan, Luis, chile |
-| 23 | critical | low | reread-page | none | Arriagada, Arturo, Juan, Luis, chile |
-| 24 | critical | low | reread-page | none | Andes, Carmen, Juan, Luis, chile |
-| 25 | critical | low | reread-page | none | Juan, Luis, chile |
-| 26 | critical | low | reread-page | none | Juan, Luis, chile |
-| 27 | critical | low | reread-page | none | Andes, Arturo, Juan, Luis, chile |
-| 28 | critical | low | reread-page | none | Juana, Luis, chile |
-| 29 | high | high | pass | none | Arturo, Carmen, Luis, chile |
-| 30 | critical | low | reread-page | none | Arturo, Juan, Luis, chile |
-| 31 | critical | low | reread-page | none | Arturo, Juan, Luis, chile |
-| 32 | high | high | pass | none | Arturo, Luis, chile |
-| 33 | high | high | pass | none | Andes, Carmen, chile |
-| 34 | critical | low | reread-page | none | Juan, Luis, chile, last, name |
-| 35 | critical | low | reread-page | none | Juan, Luis, Smith, chile |
-| 36 | critical | low | reread-page | none | Juan, Luis, chile |
-| 37 | critical | low | reread-page | none | Arriagada, Juan, Luis, chile |
-| 38 | critical | low | reread-page | none | Arturo, Juan, Luis, Riquelme, chile |
-| 39 | critical | low | reread-page | none | Andes, Arturo, Carmen, Juan, Luis, Riquelme, chile |
-| 40 | critical | low | reread-page | none | Juan, Luis, chile |
+| 21 | none | high | pass | none | none |
+| 22 | none | high | pass | none | none |
+| 23 | medium | high | pass | none | Arriagada, Arturo |
+| 24 | medium | high | pass | none | Andes, Carmen |
+| 25 | none | high | pass | none | none |
+| 26 | none | high | pass | none | none |
+| 27 | medium | high | pass | none | Andes, Arturo |
+| 28 | critical | low | reread-page | none | Juana |
+| 29 | medium | high | pass | none | Arturo, Carmen |
+| 30 | medium | high | pass | none | Arturo |
+| 31 | critical | low | reread-page | none | Arturo |
+| 32 | medium | high | pass | none | Arturo |
+| 33 | medium | high | pass | none | Andes, Carmen |
+| 34 | none | high | pass | none | none |
+| 35 | medium | high | pass | none | Smith |
+| 36 | none | high | pass | none | none |
+| 37 | medium | high | pass | none | Arriagada |
+| 38 | critical | low | reread-page | none | Arturo, Riquelme |
+| 39 | critical | low | reread-page | none | Andes, Arturo, Carmen, Riquelme |
+| 40 | none | high | pass | none | none |

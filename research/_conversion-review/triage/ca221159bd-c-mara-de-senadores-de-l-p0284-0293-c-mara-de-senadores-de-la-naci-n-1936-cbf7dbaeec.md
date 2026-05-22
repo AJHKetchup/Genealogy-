@@ -8,13 +8,13 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | medium | high | pass | none | date, last |
-| 2 | medium | high | pass | none | List |
+| 1 | none | high | pass | none | none |
+| 2 | none | high | pass | none | none |
 | 286 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
-| 5 | medium | high | pass | none | date |
+| 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
-| 7 | medium | high | pass | none | List, Segundo |
+| 7 | medium | high | pass | none | Segundo |
 | 8 | none | high | pass | none | none |
 | 9 | medium | high | pass | none | Segundo |
 | 10 | none | high | pass | none | none |

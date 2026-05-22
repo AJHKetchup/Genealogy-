@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | medium | high | pass | none | last |
+| 1 | none | high | pass | none | none |
 | 2 | none | high | pass | none | none |
-| 3 | medium | high | pass | none | chile |
-| 4 | medium | high | pass | none | name |
-| 5 | medium | high | pass | none | chile |
-| 6 | medium | high | pass | none | chile, name |
-| 7 | medium | high | pass | none | Segundo, last |
-| 271 | medium | high | pass | none | chile, name |
+| 3 | none | high | pass | none | none |
+| 4 | none | high | pass | none | none |
+| 5 | none | high | pass | none | none |
+| 6 | none | high | pass | none | none |
+| 7 | medium | high | pass | none | Segundo |
+| 271 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |
-| 12 | medium | high | pass | none | name |
+| 12 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
-| 14 | medium | high | pass | none | chile, date |
-| 15 | critical | low | reread-page | none | Segundo, chile, last |
+| 14 | none | high | pass | none | none |
+| 15 | critical | low | reread-page | none | Segundo |
 | 16 | medium | high | pass | none | Segundo |
-| 17 | medium | high | pass | none | Segundo, chile |
-| 18 | critical | low | reread-page | none | Segundo, chile, last |
-| 19 | medium | high | pass | none | chile |
-| 20 | medium | high | pass | none | chile, name |
+| 17 | medium | high | pass | none | Segundo |
+| 18 | critical | low | reread-page | none | Segundo |
+| 19 | none | high | pass | none | none |
+| 20 | none | high | pass | none | none |

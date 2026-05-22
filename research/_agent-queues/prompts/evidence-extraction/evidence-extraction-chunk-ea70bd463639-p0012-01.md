@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
 - Page range: 12-12
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Dios, chile, chunk, date
-- Evidence priority: `12` (family_relevance:critical, qc:pass,reread-page, matched_terms)
+- Family relevance: `none`
+- Matched family terms: none
+- Evidence priority: `4012` (family_relevance:none, qc:pass, deferred_until_family_relevant)
 
 
 

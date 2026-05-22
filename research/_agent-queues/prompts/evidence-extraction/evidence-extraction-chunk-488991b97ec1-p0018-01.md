@@ -11,18 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/R4946-12-33387-8070.pdf`
 - Page range: 18-18
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Juan, chunk
-- Evidence priority: `100018` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
-
-## QC Hold
-
-- Status: `blocked_needs_reread`
-- Blocked pages: 18
-- Page reread queue: `research/_conversion-review/page-queues/cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75-codex.md`
-- Suspected readings: `research/_conversion-review/corrections/cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75-codex.md`
-
-Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
+- Family relevance: `none`
+- Matched family terms: none
+- Evidence priority: `4018` (family_relevance:none, qc:pass, deferred_until_family_relevant)
 
 
 

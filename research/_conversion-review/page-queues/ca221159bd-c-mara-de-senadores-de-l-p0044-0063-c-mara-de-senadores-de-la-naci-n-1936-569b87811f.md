@@ -18,6 +18,6 @@
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
+- Family relevance: `high`
 - Quality flags: none
-- Matched family context: date
+- Matched family context: none

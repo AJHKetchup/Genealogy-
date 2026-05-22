@@ -11,18 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
 - Page range: 3-3
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Carmen, Juan, List, chile, chunk
-- Evidence priority: `100003` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
-
-## QC Hold
-
-- Status: `blocked_needs_reread`
-- Blocked pages: 3
-- Page reread queue: `research/_conversion-review/page-queues/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-sess-7eeb2e683b.md`
-- Suspected readings: `research/_conversion-review/corrections/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-sess-7eeb2e683b.md`
-
-Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
+- Family relevance: `medium`
+- Matched family terms: Carmen
+- Evidence priority: `2003` (family_relevance:medium, qc:pass, matched_terms)
 
 
 

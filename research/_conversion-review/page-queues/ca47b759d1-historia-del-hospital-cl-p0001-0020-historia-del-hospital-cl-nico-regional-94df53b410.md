@@ -6,53 +6,21 @@
 
 ## Queued Pages
 
-### Page 3
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dios, Juan, chile
-
-### Page 4
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan
-
 ### Page 7
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
+- Family relevance: `high`
 - Quality flags: none
-- Matched family context: Dios, Juan, chile
+- Matched family context: none
 
 ### Page 9
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
+- Family relevance: `high`
 - Quality flags: none
-- Matched family context: Juan, chile
-
-### Page 10
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Andes, Dios, Juan, Segundo, chile
-
-### Page 11
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dios, Juan, chile
+- Matched family context: none
 
 ### Page 12
 
@@ -66,38 +34,22 @@
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
+- Family relevance: `high`
 - Quality flags: none
-- Matched family context: Dios, Juan
+- Matched family context: none
 
 ### Page 16
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
+- Family relevance: `high`
 - Quality flags: none
-- Matched family context: Juan
-
-### Page 18
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, List, Riquelme, Segundo, chile
-
-### Page 19
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dios, Juan, List, chile
+- Matched family context: none
 
 ### Page 20
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
+- Family relevance: `high`
 - Quality flags: none
-- Matched family context: Dios, Juan, List, chile
+- Matched family context: none

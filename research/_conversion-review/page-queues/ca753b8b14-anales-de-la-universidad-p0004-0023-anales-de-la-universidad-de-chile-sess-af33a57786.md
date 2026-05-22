@@ -12,20 +12,12 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arriagada, Pulgar, chile
-
-### Page 13
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, chile
+- Matched family context: Arriagada, Pulgar
 
 ### Page 21
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
+- Family relevance: `high`
 - Quality flags: none
-- Matched family context: Juan, Luis, chile
+- Matched family context: none

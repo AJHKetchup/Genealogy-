@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
 - Page range: 74-74
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Arturo, Luis, Mercedes, Riquelme, chile, chunk
-- Evidence priority: `74` (family_relevance:critical, qc:reread-page, matched_terms)
+- Family relevance: `high`
+- Matched family terms: Arturo, Mercedes, Riquelme
+- Evidence priority: `1074` (family_relevance:high, qc:pass, matched_terms)
 
 
 

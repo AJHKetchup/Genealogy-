@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
 - Page range: 174-174
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Juan, Mercedes, chile, chunk
-- Evidence priority: `174` (family_relevance:critical, qc:reread-page, matched_terms)
+- Family relevance: `medium`
+- Matched family terms: Mercedes
+- Evidence priority: `2174` (family_relevance:medium, qc:pass, matched_terms)
 
 
 

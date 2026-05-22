@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 1137-1137
 - Staging area: `research/_staging`
 - Family relevance: `medium`
-- Matched family terms: Soler, chunk
+- Matched family terms: Soler
 - Evidence priority: `3137` (family_relevance:medium, qc:pass, matched_terms)
 
 

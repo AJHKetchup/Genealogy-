@@ -11,41 +11,11 @@
   Reason: near match to known family context term `Dario`
   Verification target: reread the page image or exact region before using this in a claim.
 
-- Literal converted text: `Juan`
-  Suspected reading: `Juana`
-  Reason: near match to known family context term `Juana`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Puga`
-  Suspected reading: `Pulgar`
-  Reason: near match to known family context term `Pulgar`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Juan`
-  Suspected reading: `Juana`
-  Reason: near match to known family context term `Juana`
-  Verification target: reread the page image or exact region before using this in a claim.
-
 - Literal converted text: `Julia`
   Suspected reading: `Juana`
   Reason: near match to known family context term `Juana`
   Verification target: reread the page image or exact region before using this in a claim.
 
-- Literal converted text: `Puga`
-  Suspected reading: `Pulgar`
-  Reason: near match to known family context term `Pulgar`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Berta`
-  Suspected reading: `Birth`
-  Reason: near match to known family context term `Birth`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Juan`
-  Suspected reading: `Juana`
-  Reason: near match to known family context term `Juana`
-  Verification target: reread the page image or exact region before using this in a claim.
-
 - Literal converted text: `Solar`
   Suspected reading: `Soler`
   Reason: near match to known family context term `Soler`
@@ -56,52 +26,7 @@
   Reason: near match to known family context term `Carmen`
   Verification target: reread the page image or exact region before using this in a claim.
 
-- Literal converted text: `Puga`
-  Suspected reading: `Pulgar`
-  Reason: near match to known family context term `Pulgar`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Juan`
-  Suspected reading: `Juana`
-  Reason: near match to known family context term `Juana`
-  Verification target: reread the page image or exact region before using this in a claim.
-
 - Literal converted text: `Solar`
   Suspected reading: `Soler`
   Reason: near match to known family context term `Soler`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Berta`
-  Suspected reading: `Birth`
-  Reason: near match to known family context term `Birth`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Puga`
-  Suspected reading: `Pulgar`
-  Reason: near match to known family context term `Pulgar`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Juan`
-  Suspected reading: `Juana`
-  Reason: near match to known family context term `Juana`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Puga`
-  Suspected reading: `Pulgar`
-  Reason: near match to known family context term `Pulgar`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Carmela`
-  Suspected reading: `Carmen`
-  Reason: near match to known family context term `Carmen`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Juan`
-  Suspected reading: `Juana`
-  Reason: near match to known family context term `Juana`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Juan`
-  Suspected reading: `Juana`
-  Reason: near match to known family context term `Juana`
   Verification target: reread the page image or exact region before using this in a claim.

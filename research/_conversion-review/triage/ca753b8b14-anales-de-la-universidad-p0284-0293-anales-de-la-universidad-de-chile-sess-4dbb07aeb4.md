@@ -8,13 +8,13 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | medium | high | pass | none | date |
-| 285 | medium | high | pass | none | chile, name |
-| 3 | medium | high | pass | none | List |
-| 4 | medium | high | pass | none | last, name |
+| 1 | none | high | pass | none | none |
+| 285 | none | high | pass | none | none |
+| 3 | none | high | pass | none | none |
+| 4 | none | high | pass | none | none |
 | 5 | medium | high | pass | none | Segundo |
-| 6 | high | high | pass | none | chile, last, name |
-| 290 | medium | high | pass | none | chile |
+| 6 | none | high | pass | none | none |
+| 290 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
 | 9 | medium | high | pass | none | Segundo |
-| 10 | medium | high | pass | none | chile |
+| 10 | none | high | pass | none | none |

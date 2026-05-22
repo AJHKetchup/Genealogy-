@@ -6,93 +6,29 @@
 
 ## Queued Pages
 
-### Page 1
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dios, Juan, chile
-
-### Page 4
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dios, Juan, List, chile
-
-### Page 5
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dios, Juan
-
-### Page 6
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dios, Juan, Juana, List
-
 ### Page 27
 
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
+- Recommended action: `spot-check`
+- Conversion confidence: `medium`
+- Family relevance: `medium`
 - Quality flags: explicit_reread_needed
-- Matched family context: Mercedes, name
-
-### Page 8
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dios, Juan, chile
-
-### Page 11
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dios, Juan, List
+- Matched family context: Mercedes
 
 ### Page 12
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
+- Family relevance: `high`
 - Quality flags: none
-- Matched family context: Dios, Juan, chile, last
-
-### Page 13
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, chile
+- Matched family context: none
 
 ### Page 14
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
+- Family relevance: `high`
 - Quality flags: none
-- Matched family context: Dios, Juan, Luis
-
-### Page 15
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, chile, last
+- Matched family context: none
 
 ### Page 36
 
@@ -100,28 +36,20 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Juan, Luis
+- Matched family context: Arturo
 
 ### Page 37
 
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
+- Recommended action: `spot-check`
+- Conversion confidence: `medium`
+- Family relevance: `none`
 - Quality flags: explicit_reread_needed
-- Matched family context: Dios, Juan, chile, name
-
-### Page 18
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dios, Juan, chile
+- Matched family context: none
 
 ### Page 39
 
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
+- Recommended action: `spot-check`
+- Conversion confidence: `medium`
+- Family relevance: `none`
 - Quality flags: explicit_reread_needed
-- Matched family context: Dios, Juan, name
+- Matched family context: none

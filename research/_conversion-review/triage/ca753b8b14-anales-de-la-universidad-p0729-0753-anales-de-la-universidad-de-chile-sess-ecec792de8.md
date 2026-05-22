@@ -8,28 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 729 | medium | high | pass | none | chile |
-| 730 | medium | high | pass | none | Segundo, chile |
-| 731 | critical | low | reread-page | none | chile |
-| 732 | critical | low | reread-page | none | Segundo, chile |
-| 733 | medium | high | pass | none | chile |
-| 734 | medium | high | pass | none | Segundo, chile |
-| 735 | medium | high | pass | none | chile |
-| 736 | medium | high | pass | none | chile |
-| 737 | medium | high | pass | none | chile |
-| 738 | medium | high | pass | none | chile |
-| 739 | medium | high | pass | none | chile |
-| 740 | medium | high | pass | none | chile |
-| 741 | medium | high | pass | none | chile |
-| 742 | medium | high | pass | none | chile |
-| 743 | medium | high | pass | none | chile |
-| 744 | medium | high | pass | none | chile |
-| 745 | medium | high | pass | none | chile |
-| 746 | medium | high | pass | none | chile |
-| 747 | medium | high | pass | none | chile |
-| 748 | medium | high | pass | none | chile |
-| 749 | medium | high | pass | none | chile |
-| 750 | medium | high | pass | none | chile |
-| 751 | medium | high | pass | none | chile |
-| 752 | medium | high | pass | none | chile |
-| 753 | medium | high | pass | none | chile |
+| 729 | none | high | pass | none | none |
+| 730 | medium | high | pass | none | Segundo |
+| 731 | high | low | reread-page | none | none |
+| 732 | critical | low | reread-page | none | Segundo |
+| 733 | none | high | pass | none | none |
+| 734 | medium | high | pass | none | Segundo |
+| 735 | none | high | pass | none | none |
+| 736 | none | high | pass | none | none |
+| 737 | none | high | pass | none | none |
+| 738 | none | high | pass | none | none |
+| 739 | none | high | pass | none | none |
+| 740 | none | high | pass | none | none |
+| 741 | none | high | pass | none | none |
+| 742 | none | high | pass | none | none |
+| 743 | none | high | pass | none | none |
+| 744 | none | high | pass | none | none |
+| 745 | none | high | pass | none | none |
+| 746 | none | high | pass | none | none |
+| 747 | none | high | pass | none | none |
+| 748 | none | high | pass | none | none |
+| 749 | none | high | pass | none | none |
+| 750 | none | high | pass | none | none |
+| 751 | none | high | pass | none | none |
+| 752 | none | high | pass | none | none |
+| 753 | none | high | pass | none | none |

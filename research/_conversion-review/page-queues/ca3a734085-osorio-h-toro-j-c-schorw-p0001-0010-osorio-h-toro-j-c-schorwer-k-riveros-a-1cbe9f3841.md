@@ -10,17 +10,9 @@
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
+- Family relevance: `high`
 - Quality flags: none
-- Matched family context: Dios, Juan, chile, knowledge
-
-### Page 3
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dios, Juan, chile, name
+- Matched family context: none
 
 ### Page 4
 
@@ -28,20 +20,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Dios, Juan, Pulgar, chile, time
-
-### Page 5
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Birth, Juan, Luis, chile, future, mother
-
-### Page 6
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dios, Juan, Rows, chile, student
+- Matched family context: Pulgar

@@ -9,27 +9,27 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
-| 2 | medium | high | pass | none | chile, name |
+| 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
-| 5 | medium | high | pass | none | date |
-| 509 | medium | high | pass | none | chile |
-| 7 | critical | low | reread-page | none | Juan, Luis |
-| 511 | medium | high | pass | none | chile |
-| 512 | medium | high | pass | none | chile |
-| 10 | medium | high | pass | none | date |
-| 514 | medium | high | pass | none | chile |
-| 12 | medium | high | pass | none | date |
-| 516 | medium | high | pass | none | Luis, chile |
-| 14 | medium | high | pass | none | Luis, date |
-| 518 | medium | high | pass | none | Luis, chile |
-| 519 | medium | high | pass | none | chile |
-| 17 | medium | high | pass | none | date |
-| 521 | medium | high | pass | none | chile |
-| 522 | medium | high | pass | none | chile |
-| 20 | medium | high | pass | none | date |
-| 21 | critical | low | reread-page | none | Juan, Luis, chile, date |
-| 525 | critical | low | reread-page | none | chile |
-| 526 | critical | low | reread-page | none | Juan, Luis, chile |
-| 24 | critical | low | reread-page | none | Luis |
-| 528 | medium | high | pass | none | Luis, chile |
+| 5 | none | high | pass | none | none |
+| 509 | none | high | pass | none | none |
+| 7 | none | high | pass | none | none |
+| 511 | none | high | pass | none | none |
+| 512 | none | high | pass | none | none |
+| 10 | none | high | pass | none | none |
+| 514 | none | high | pass | none | none |
+| 12 | none | high | pass | none | none |
+| 516 | none | high | pass | none | none |
+| 14 | none | high | pass | none | none |
+| 518 | none | high | pass | none | none |
+| 519 | none | high | pass | none | none |
+| 17 | none | high | pass | none | none |
+| 521 | none | high | pass | none | none |
+| 522 | none | high | pass | none | none |
+| 20 | none | high | pass | none | none |
+| 21 | none | high | pass | none | none |
+| 525 | high | low | reread-page | none | none |
+| 526 | none | high | pass | none | none |
+| 24 | none | high | pass | none | none |
+| 528 | none | high | pass | none | none |

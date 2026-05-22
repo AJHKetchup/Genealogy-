@@ -8,4 +8,4 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | high | high | pass | none | Dario, List, Pulgar, chile |
+| 1 | medium | high | pass | none | Dario, Pulgar |

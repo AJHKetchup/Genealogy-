@@ -8,11 +8,11 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 40 | medium | high | pass | none | List |
-| 2 | medium | high | pass | none | List |
-| 3 | medium | high | pass | none | date |
+| 40 | none | high | pass | none | none |
+| 2 | none | high | pass | none | none |
+| 3 | none | high | pass | none | none |
 | 4 | high | low | reread-page | none | none |
-| 5 | critical | low | reread-page | none | date |
+| 5 | high | low | reread-page | none | none |
 | 6 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
 | 8 | medium | high | pass | none | Segundo |
@@ -21,10 +21,10 @@
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
-| 14 | medium | high | pass | none | last |
-| 15 | medium | high | pass | none | List |
+| 14 | none | high | pass | none | none |
+| 15 | none | high | pass | none | none |
 | 16 | medium | high | pass | none | Arturo |
-| 17 | medium | high | pass | none | Dios |
-| 18 | medium | high | pass | none | date |
-| 19 | medium | high | pass | none | List |
+| 17 | none | high | pass | none | none |
+| 18 | none | high | pass | none | none |
+| 19 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |

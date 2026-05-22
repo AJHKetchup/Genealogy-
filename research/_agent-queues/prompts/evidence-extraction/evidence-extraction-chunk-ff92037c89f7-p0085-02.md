@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
 - Page range: 85-85
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Juan, chile, chunk
-- Evidence priority: `85` (family_relevance:critical, qc:reread-page, matched_terms)
+- Family relevance: `none`
+- Matched family terms: none
+- Evidence priority: `4085` (family_relevance:none, qc:pass, deferred_until_family_relevant)
 
 
 

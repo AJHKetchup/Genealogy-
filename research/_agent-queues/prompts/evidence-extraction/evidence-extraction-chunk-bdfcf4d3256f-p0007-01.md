@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf`
 - Page range: 7-7
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Luis, chile, chunk, date, last, name, student, time
-- Evidence priority: `1007` (family_relevance:high, qc:pass, matched_terms)
+- Family relevance: `none`
+- Matched family terms: none
+- Evidence priority: `4007` (family_relevance:none, qc:pass, deferred_until_family_relevant)
 
 
 

@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 510 | medium | high | pass | none | List, Luis |
-| 225 | high | high | pass | none | List, Luis, chile, date, name |
-| 3 | critical | low | reread-page | none | Luis, chile, name |
-| 4 | medium | high | pass | none | chile, date |
-| 5 | critical | low | reread-page | none | Entry, Juan, chile, date, last |
-| 229 | medium | high | pass | none | chile |
-| 7 | critical | low | reread-page | none | Juan, chile |
-| 8 | critical | low | reread-page | none | Juan, Luis, chile |
-| 232 | critical | low | reread-page | none | Arturo, List, Luis, Smith, chile |
-| 10 | medium | high | pass | none | chile, date |
-| 234 | medium | high | pass | none | chile |
-| 235 | medium | high | pass | none | chile |
-| 13 | medium | high | pass | none | date |
-| 14 | high | high | pass | none | chile, date, last, name |
-| 15 | high | high | pass | none | Luis, chile, date |
-| 239 | medium | high | pass | none | chile |
-| 240 | medium | high | pass | none | chile |
-| 18 | medium | high | pass | none | date |
-| 19 | critical | low | reread-page | none | Luis |
-| 20 | high | high | pass | none | List, Luis, Riquelme, date |
+| 510 | none | high | pass | none | none |
+| 225 | none | high | pass | none | none |
+| 3 | none | high | pass | none | none |
+| 4 | none | high | pass | none | none |
+| 5 | none | high | pass | none | none |
+| 229 | none | high | pass | none | none |
+| 7 | none | high | pass | none | none |
+| 8 | none | high | pass | none | none |
+| 232 | medium | high | pass | none | Arturo, Smith |
+| 10 | none | high | pass | none | none |
+| 234 | none | high | pass | none | none |
+| 235 | none | high | pass | none | none |
+| 13 | none | high | pass | none | none |
+| 14 | none | high | pass | none | none |
+| 15 | none | high | pass | none | none |
+| 239 | none | high | pass | none | none |
+| 240 | none | high | pass | none | none |
+| 18 | none | high | pass | none | none |
+| 19 | none | high | pass | none | none |
+| 20 | medium | high | pass | none | Riquelme |

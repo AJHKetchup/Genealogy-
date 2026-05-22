@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
 - Page range: 51-51
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Andes, Arturo, Luis, chile, chunk
-- Evidence priority: `1051` (family_relevance:high, qc:pass, matched_terms)
+- Family relevance: `medium`
+- Matched family terms: Andes, Arturo
+- Evidence priority: `2051` (family_relevance:medium, qc:pass, matched_terms)
 
 
 

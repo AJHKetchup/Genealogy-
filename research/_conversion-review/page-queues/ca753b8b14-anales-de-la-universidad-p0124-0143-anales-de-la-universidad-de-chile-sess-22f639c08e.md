@@ -6,18 +6,10 @@
 
 ## Queued Pages
 
-### Page 141
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, chile
-
 ### Page 143
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Luis, Mercedes, chile
+- Matched family context: Mercedes

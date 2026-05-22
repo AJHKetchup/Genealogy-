@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf`
 - Page range: 8-8
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Arturo, chile, chunk, student
-- Evidence priority: `1008` (family_relevance:high, qc:pass, matched_terms)
+- Family relevance: `medium`
+- Matched family terms: Arturo
+- Evidence priority: `2008` (family_relevance:medium, qc:pass, matched_terms)
 
 
 

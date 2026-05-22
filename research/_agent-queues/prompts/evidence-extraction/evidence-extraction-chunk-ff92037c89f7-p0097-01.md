@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
 - Page range: 97-97
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Luis, chile, chunk
-- Evidence priority: `1097` (family_relevance:high, qc:pass, matched_terms)
+- Family relevance: `none`
+- Matched family terms: none
+- Evidence priority: `4097` (family_relevance:none, qc:pass, deferred_until_family_relevant)
 
 
 

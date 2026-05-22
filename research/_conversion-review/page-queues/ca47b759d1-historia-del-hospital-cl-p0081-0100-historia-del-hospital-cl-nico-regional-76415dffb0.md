@@ -12,7 +12,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Dios, Juan, chile, last
+- Matched family context: Arturo
 
 ### Page 3
 
@@ -20,31 +20,15 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Dios, Entry, Juan, Pulgar, chile
-
-### Page 5
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dios, Juan, chile
+- Matched family context: Arturo, Pulgar
 
 ### Page 86
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
-- Family relevance: `medium`
+- Family relevance: `none`
 - Quality flags: explicit_reread_needed
-- Matched family context: chile, name
-
-### Page 7
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan
+- Matched family context: none
 
 ### Page 90
 
@@ -52,44 +36,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: explicit_reread_needed
-- Matched family context: Juana, Segundo, name
-
-### Page 11
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, Luis
-
-### Page 13
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan
-
-### Page 14
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dios, Juan, chile
-
-### Page 16
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dios, Juan, Luis, chile
-
-### Page 98
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Carmen, Juan, List, date, name
+- Matched family context: Juana, Segundo

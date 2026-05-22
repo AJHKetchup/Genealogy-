@@ -8,28 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 454 | medium | high | pass | none | chile |
-| 2 | medium | high | pass | none | last |
+| 454 | none | high | pass | none | none |
+| 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
-| 4 | medium | high | pass | none | Smith, name |
-| 5 | medium | high | pass | none | List |
+| 4 | medium | high | pass | none | Smith |
+| 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
-| 7 | medium | high | pass | none | chile |
-| 8 | medium | high | pass | none | List, last |
+| 7 | none | high | pass | none | none |
+| 8 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
-| 10 | high | high | pass | none | chile, last, name |
+| 10 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
-| 467 | medium | high | pass | none | chile |
-| 468 | medium | high | pass | none | chile |
-| 469 | medium | high | pass | none | chile |
-| 17 | medium | high | pass | none | last |
-| 18 | medium | high | pass | none | chile, name |
-| 472 | medium | high | pass | none | chile |
-| 20 | medium | high | pass | none | name |
+| 467 | none | high | pass | none | none |
+| 468 | none | high | pass | none | none |
+| 469 | none | high | pass | none | none |
+| 17 | none | high | pass | none | none |
+| 18 | none | high | pass | none | none |
+| 472 | none | high | pass | none | none |
+| 20 | none | high | pass | none | none |
 | 21 | none | high | pass | none | none |
-| 22 | medium | high | pass | none | name |
-| 476 | medium | high | pass | none | chile |
-| 24 | medium | high | pass | none | chile, name |
+| 22 | none | high | pass | none | none |
+| 476 | none | high | pass | none | none |
+| 24 | none | high | pass | none | none |
 | 25 | none | high | pass | none | none |

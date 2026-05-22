@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 1-1
 - Staging area: `research/_staging`
 - Family relevance: `critical`
-- Matched family terms: Andes, Dario, John, Juan, List, Mercedes, Passenger, Pulgar, chile, chunk, date, england, future, intended, last, name
+- Matched family terms: Andes, Dario, Mercedes, Passenger, Pulgar, england, intended, residence
 - Evidence priority: `-699` (family_relevance:critical, qc:reread-page, matched_terms, proof_review_revision)
 
 

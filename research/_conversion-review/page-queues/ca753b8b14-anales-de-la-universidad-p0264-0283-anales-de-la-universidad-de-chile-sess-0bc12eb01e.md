@@ -12,7 +12,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Segundo, chile, last
+- Matched family context: Segundo
 
 ### Page 18
 
@@ -20,4 +20,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Segundo, chile, last
+- Matched family context: Segundo

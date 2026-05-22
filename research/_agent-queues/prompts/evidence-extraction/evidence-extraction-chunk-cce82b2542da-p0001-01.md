@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/R4749-11C-17499-5398.pdf`
 - Page range: 1-1
 - Staging area: `research/_staging`
-- Family relevance: `medium`
-- Matched family terms: Jose, chunk
-- Evidence priority: `102001` (family_relevance:medium, qc:spot-check, matched_terms, blocked_by_conversion_qc)
+- Family relevance: `none`
+- Matched family terms: none
+- Evidence priority: `104001` (family_relevance:none, qc:spot-check, blocked_by_conversion_qc)
 
 ## QC Hold
 

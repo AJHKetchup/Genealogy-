@@ -1,11 +1,11 @@
 ﻿{
     "created":  "2026-05-22",
     "queue":  "proof-review",
-    "task_count":  524,
+    "task_count":  544,
     "status_counts":  {
-                          "done":  118,
-                          "todo":  360,
-                          "released":  46
+                          "done":  122,
+                          "todo":  375,
+                          "released":  47
                       },
     "tasks":  [
                   {
@@ -294,42 +294,6 @@
                       "role":  "claim_reviewer"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-cl-stage-chunk-d6a12b291d94-p0172-01-514-declarant-spouse-md.md",
-                      "queue":  "proof-review",
-                      "staged_draft":  "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-declarant-spouse.md",
-                      "role":  "claim_reviewer",
-                      "task_id":  "proof-review:research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-declarant-spouse.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
-                  },
-                  {
-                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-cl-stage-chunk-d6a12b291d94-p0172-01-514-father-md.md",
-                      "queue":  "proof-review",
-                      "staged_draft":  "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-father.md",
-                      "role":  "claim_reviewer",
-                      "task_id":  "proof-review:research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-father.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
-                  },
-                  {
-                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-cl-stage-chunk-d6a12b291d94-p0172-01-514-mother-md.md",
-                      "queue":  "proof-review",
-                      "staged_draft":  "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-mother.md",
-                      "role":  "claim_reviewer",
-                      "task_id":  "proof-review:research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-mother.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
-                  },
-                  {
-                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-cl-stage-chunk-d6a12b291d94-p0172-01-514-registration-date-md.md",
-                      "queue":  "proof-review",
-                      "staged_draft":  "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-registration-date.md",
-                      "role":  "claim_reviewer",
-                      "task_id":  "proof-review:research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-registration-date.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
-                  },
-                  {
                       "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-cl-stage-chunk-d6a12b291d94-p0172-01-515-birth-date-place-md.md",
                       "queue":  "proof-review",
                       "staged_draft":  "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-515-birth-date-place.md",
@@ -386,7 +350,7 @@
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T00:40:59Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -396,13 +360,13 @@
                       "task_id":  "proof-review:research/_staging/claims/CHUNK-3d3ab761209f-P0001-01-atomic-claims.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T00:40:58Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T12:24:01Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -412,13 +376,13 @@
                       "task_id":  "proof-review:research/_staging/claims/chunk-8daffb98e793-p0002-01-001-virginio-gomez-birth-year.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T12:24:00Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T13:48:35Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -428,13 +392,13 @@
                       "task_id":  "proof-review:research/_staging/claims/chunk-8daffb98e793-p0005-01-001-enrique-gonzalez-pastor-birth-date.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T13:48:35Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T13:52:55Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -444,13 +408,13 @@
                       "task_id":  "proof-review:research/_staging/claims/chunk-8daffb98e793-p0005-01-005-enrique-gonzalez-pastor-death-month.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T13:52:55Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T15:17:09Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -460,13 +424,13 @@
                       "task_id":  "proof-review:research/_staging/claims/chunk-a048d567968b-p0001-02-001-dario-saturna-project-weekend.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T15:17:08Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:49:51Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T17:47:26Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -476,7 +440,23 @@
                       "task_id":  "proof-review:research/_staging/claims/chunk-a048d567968b-p0001-03-004-dario-pulgar-mother-tongue-spanish.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T17:47:25Z",
-                      "released_at":  "2026-05-22T17:49:51Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
+                      "role":  "claim_reviewer"
+                  },
+                  {
+                      "skill":  "genealogy-proof-review",
+                      "note":  "restored proof-review page image asset; rerun review",
+                      "updated_at":  "2026-05-22T18:18:18Z",
+                      "started_at":  "2026-05-22T17:49:58Z",
+                      "queue":  "proof-review",
+                      "released_by":  "post-conversion-review-assets",
+                      "staged_draft":  "research/_staging/claims/chunk-a048d567968b-p0001-04-005-jim-carney-vancouver-hometown-expo-86.md",
+                      "completed_at":  "2026-05-22T17:51:38Z",
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-a048d567968b-p0001-04-005-jim-carney-vancouver-hometown-expo-86-md.md",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-a048d567968b-p0001-04-005-jim-carney-vancouver-hometown-expo-86.md",
+                      "status":  "released",
+                      "claimed_at":  "2026-05-22T17:49:58Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
@@ -498,7 +478,7 @@
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T07:41:52Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -508,13 +488,13 @@
                       "task_id":  "proof-review:research/_staging/claims/claim-chunk-3f469b56e502-p0001-01-correspondence-continued.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T07:41:52Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T08:50:30Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -524,13 +504,13 @@
                       "task_id":  "proof-review:research/_staging/claims/claim-chunk-3f469b56e502-p0002-01-circulation-range.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T08:50:30Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T12:34:18Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -540,13 +520,13 @@
                       "task_id":  "proof-review:research/_staging/claims/cl-chunk-a2273412e7b1-p0001-01-dario-pulgar-expropriation-event.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T12:34:18Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T12:41:42Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -556,13 +536,13 @@
                       "task_id":  "proof-review:research/_staging/claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-adult-passenger-andes.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T12:41:41Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T10:58:16Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -572,13 +552,13 @@
                       "task_id":  "proof-review:research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-513-birth-date-place.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T10:58:16Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T13:25:43Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -588,13 +568,13 @@
                       "task_id":  "proof-review:research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-513-declarant.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T13:25:43Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T13:34:33Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -604,13 +584,13 @@
                       "task_id":  "proof-review:research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-514-birth-date-place.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T13:34:33Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T15:14:47Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -620,13 +600,13 @@
                       "task_id":  "proof-review:research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-515-child-name.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T15:14:47Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T15:40:03Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -636,7 +616,7 @@
                       "task_id":  "proof-review:research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-birth-date-time.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T15:40:03Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
@@ -806,21 +786,6 @@
                   },
                   {
                       "skill":  "genealogy-proof-review",
-                      "agent":  "postconv-proof-review-20260522174957974",
-                      "updated_at":  "2026-05-22T17:51:38Z",
-                      "started_at":  "2026-05-22T17:49:58Z",
-                      "queue":  "proof-review",
-                      "note":  "post-conversion controller start",
-                      "staged_draft":  "research/_staging/claims/chunk-a048d567968b-p0001-04-005-jim-carney-vancouver-hometown-expo-86.md",
-                      "completed_at":  "2026-05-22T17:51:38Z",
-                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-a048d567968b-p0001-04-005-jim-carney-vancouver-hometown-expo-86-md.md",
-                      "task_id":  "proof-review:research/_staging/claims/chunk-a048d567968b-p0001-04-005-jim-carney-vancouver-hometown-expo-86.md",
-                      "status":  "done",
-                      "claimed_at":  "2026-05-22T17:49:58Z",
-                      "role":  "claim_reviewer"
-                  },
-                  {
-                      "skill":  "genealogy-proof-review",
                       "agent":  "postconv-proof-review-20260522113117296",
                       "updated_at":  "2026-05-22T11:32:22Z",
                       "started_at":  "2026-05-22T11:31:17Z",
@@ -907,6 +872,21 @@
                       "task_id":  "proof-review:research/_staging/claims/chunk-b8f4f0490a36-p0001-01-007-mother-attributes.md",
                       "status":  "done",
                       "claimed_at":  "2026-05-22T12:32:10Z",
+                      "role":  "claim_reviewer"
+                  },
+                  {
+                      "skill":  "genealogy-proof-review",
+                      "agent":  "postconv-proof-review-20260522182221849",
+                      "updated_at":  "2026-05-22T18:24:43Z",
+                      "started_at":  "2026-05-22T18:22:22Z",
+                      "queue":  "proof-review",
+                      "note":  "post-conversion controller start",
+                      "staged_draft":  "research/_staging/claims/chunk-bdfcf4d3256f-p0004-01-001-dario-pulgar-surgeon.md",
+                      "completed_at":  "2026-05-22T18:24:43Z",
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-bdfcf4d3256f-p0004-01-001-dario-pulgar-surgeon-md.md",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-bdfcf4d3256f-p0004-01-001-dario-pulgar-surgeon.md",
+                      "status":  "done",
+                      "claimed_at":  "2026-05-22T18:22:22Z",
                       "role":  "claim_reviewer"
                   },
                   {
@@ -1870,6 +1850,66 @@
                       "role":  "claim_reviewer"
                   },
                   {
+                      "skill":  "genealogy-proof-review",
+                      "agent":  "postconv-proof-review-20260522181932670",
+                      "updated_at":  "2026-05-22T18:20:52Z",
+                      "started_at":  "2026-05-22T18:19:33Z",
+                      "queue":  "proof-review",
+                      "note":  "post-conversion controller start",
+                      "staged_draft":  "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-declarant-spouse.md",
+                      "completed_at":  "2026-05-22T18:20:52Z",
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-cl-stage-chunk-d6a12b291d94-p0172-01-514-declarant-spouse-md.md",
+                      "task_id":  "proof-review:research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-declarant-spouse.md",
+                      "status":  "done",
+                      "claimed_at":  "2026-05-22T18:19:32Z",
+                      "role":  "claim_reviewer"
+                  },
+                  {
+                      "skill":  "genealogy-proof-review",
+                      "agent":  "postconv-proof-review-20260522182424242",
+                      "updated_at":  "2026-05-22T18:25:26Z",
+                      "started_at":  "2026-05-22T18:24:24Z",
+                      "queue":  "proof-review",
+                      "note":  "post-conversion controller start",
+                      "staged_draft":  "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-father.md",
+                      "completed_at":  "2026-05-22T18:25:26Z",
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-cl-stage-chunk-d6a12b291d94-p0172-01-514-father-md.md",
+                      "task_id":  "proof-review:research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-father.md",
+                      "status":  "done",
+                      "claimed_at":  "2026-05-22T18:24:24Z",
+                      "role":  "claim_reviewer"
+                  },
+                  {
+                      "skill":  "genealogy-proof-review",
+                      "agent":  "postconv-proof-review-20260522182630460",
+                      "updated_at":  "2026-05-22T18:27:55Z",
+                      "started_at":  "2026-05-22T18:26:30Z",
+                      "queue":  "proof-review",
+                      "note":  "post-conversion controller start",
+                      "staged_draft":  "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-mother.md",
+                      "completed_at":  "2026-05-22T18:27:55Z",
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-cl-stage-chunk-d6a12b291d94-p0172-01-514-mother-md.md",
+                      "task_id":  "proof-review:research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-mother.md",
+                      "status":  "done",
+                      "claimed_at":  "2026-05-22T18:26:30Z",
+                      "role":  "claim_reviewer"
+                  },
+                  {
+                      "skill":  "genealogy-proof-review",
+                      "agent":  "postconv-proof-review-20260522182830250",
+                      "updated_at":  "2026-05-22T18:29:53Z",
+                      "started_at":  "2026-05-22T18:28:30Z",
+                      "queue":  "proof-review",
+                      "note":  "post-conversion controller start",
+                      "staged_draft":  "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-registration-date.md",
+                      "completed_at":  "2026-05-22T18:29:53Z",
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-cl-stage-chunk-d6a12b291d94-p0172-01-514-registration-date-md.md",
+                      "task_id":  "proof-review:research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-registration-date.md",
+                      "status":  "done",
+                      "claimed_at":  "2026-05-22T18:28:30Z",
+                      "role":  "claim_reviewer"
+                  },
+                  {
                       "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-conflicts-cf-stage-chunk-4127185dc97c-p0172-01-conversion-conflicts-md.md",
                       "queue":  "proof-review",
                       "staged_draft":  "research/_staging/conflicts/CF-STAGE-CHUNK-4127185dc97c-P0172-01-conversion-conflicts.md",
@@ -2005,6 +2045,15 @@
                       "skill":  "genealogy-proof-review"
                   },
                   {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-source-packets-chunk-759f8ddf442b-p0028-01-juana-diaz-munoz-medical-guide-listing-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/source-packets/chunk-759f8ddf442b-p0028-01-juana-diaz-munoz-medical-guide-listing.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/source-packets/chunk-759f8ddf442b-p0028-01-juana-diaz-munoz-medical-guide-listing.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
                       "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-source-packets-chunk-8daffb98e793-p0002-01-osorio-anatomy-concepcion-page-2-md.md",
                       "queue":  "proof-review",
                       "staged_draft":  "research/_staging/source-packets/chunk-8daffb98e793-p0002-01-osorio-anatomy-concepcion-page-2.md",
@@ -2091,6 +2140,15 @@
                       "staged_draft":  "research/_staging/source-packets/chunk-b8f4f0490a36-p0001-01-entry-172-jose-del-carmen-segundo-pulgar-arriagada.md",
                       "role":  "claim_reviewer",
                       "task_id":  "proof-review:research/_staging/source-packets/chunk-b8f4f0490a36-p0001-01-entry-172-jose-del-carmen-segundo-pulgar-arriagada.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-source-packets-chunk-bdfcf4d3256f-p0004-01-osorio-anatomy-concepcion-pulgar-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/source-packets/chunk-bdfcf4d3256f-p0004-01-osorio-anatomy-concepcion-pulgar.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/source-packets/chunk-bdfcf4d3256f-p0004-01-osorio-anatomy-concepcion-pulgar.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   },
@@ -2340,7 +2398,7 @@
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T01:07:53Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -2350,13 +2408,13 @@
                       "task_id":  "proof-review:research/_staging/conflicts/CHUNK-3d3ab761209f-P0001-01-conflict-candidates.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T01:07:52Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T00:38:11Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -2366,13 +2424,13 @@
                       "task_id":  "proof-review:research/_staging/source-packets/chunk-37cac508f847-p0005-01-cv-dario-arturo-pulgar.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T00:38:11Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T01:22:47Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -2382,13 +2440,13 @@
                       "task_id":  "proof-review:research/_staging/source-packets/chunk-37cac508f847-p0006-01-cv-dario-arturo-pulgar.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T01:22:47Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T01:24:08Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -2398,7 +2456,7 @@
                       "task_id":  "proof-review:research/_staging/source-packets/chunk-37cac508f847-p0007-01-cv-dario-arturo-pulgar.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T01:24:08Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
@@ -2431,6 +2489,60 @@
                       "status":  "done",
                       "claimed_at":  "2026-05-22T04:57:21Z",
                       "role":  "claim_reviewer"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-01af64f0c097-p0011-01-001-medico-cirujano-title-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/claims/chunk-01af64f0c097-p0011-01-001-medico-cirujano-title.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-01af64f0c097-p0011-01-001-medico-cirujano-title.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-01af64f0c097-p0011-01-002-title-conferral-date-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/claims/chunk-01af64f0c097-p0011-01-002-title-conferral-date.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-01af64f0c097-p0011-01-002-title-conferral-date.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-759f8ddf442b-p0028-01-001-juana-diaz-munoz-name-listing-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/claims/chunk-759f8ddf442b-p0028-01-001-juana-diaz-munoz-name-listing.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-759f8ddf442b-p0028-01-001-juana-diaz-munoz-name-listing.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-759f8ddf442b-p0028-01-002-juana-diaz-munoz-address-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/claims/chunk-759f8ddf442b-p0028-01-002-juana-diaz-munoz-address.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-759f8ddf442b-p0028-01-002-juana-diaz-munoz-address.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-759f8ddf442b-p0028-01-003-juana-diaz-munoz-city-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/claims/chunk-759f8ddf442b-p0028-01-003-juana-diaz-munoz-city.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-759f8ddf442b-p0028-01-003-juana-diaz-munoz-city.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-759f8ddf442b-p0031-01-001-directory-listing-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/claims/chunk-759f8ddf442b-p0031-01-001-directory-listing.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-759f8ddf442b-p0031-01-001-directory-listing.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-8daffb98e793-p0002-01-004-virginio-gomez-hospital-director-1917-md.md",
@@ -2573,6 +2685,15 @@
                       "staged_draft":  "research/_staging/claims/chunk-a048d567968b-p0001-04-006-jim-carney-thirteen-years-habitat-programme.md",
                       "role":  "claim_reviewer",
                       "task_id":  "proof-review:research/_staging/claims/chunk-a048d567968b-p0001-04-006-jim-carney-thirteen-years-habitat-programme.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-bdfcf4d3256f-p0004-01-002-dario-pulgar-anatomy-activity-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/claims/chunk-bdfcf4d3256f-p0004-01-002-dario-pulgar-anatomy-activity.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-bdfcf4d3256f-p0004-01-002-dario-pulgar-anatomy-activity.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   },
@@ -3785,7 +3906,7 @@
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T00:40:58Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -3795,13 +3916,13 @@
                       "task_id":  "proof-review:research/_staging/claims/chunk-37cac508f847-p0005-01-occupational-claims.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T00:40:57Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T01:25:30Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -3811,7 +3932,7 @@
                       "task_id":  "proof-review:research/_staging/claims/chunk-37cac508f847-p0007-01-occupational-claims.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T01:25:30Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
@@ -3896,6 +4017,33 @@
                       "claimed_at":  "2026-05-22T01:02:26Z",
                       "released_at":  "2026-05-22T02:07:18Z",
                       "role":  "claim_reviewer"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-conflicts-chunk-01af64f0c097-p0011-01-middle-initial-watch-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/conflicts/chunk-01af64f0c097-p0011-01-middle-initial-watch.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/conflicts/chunk-01af64f0c097-p0011-01-middle-initial-watch.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-conflicts-chunk-759f8ddf442b-p0028-01-juana-diaz-munoz-conversion-and-identity-watch-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/conflicts/chunk-759f8ddf442b-p0028-01-juana-diaz-munoz-conversion-and-identity-watch.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/conflicts/chunk-759f8ddf442b-p0028-01-juana-diaz-munoz-conversion-and-identity-watch.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-conflicts-chunk-759f8ddf442b-p0031-01-address-alignment-watch-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/conflicts/chunk-759f8ddf442b-p0031-01-address-alignment-watch.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/conflicts/chunk-759f8ddf442b-p0031-01-address-alignment-watch.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-conflicts-chunk-8daffb98e793-p0002-01-conflict-candidates-md.md",
@@ -4654,6 +4802,24 @@
                       "skill":  "genealogy-proof-review"
                   },
                   {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-source-packets-chunk-01af64f0c097-p0011-01-dario-j-pulgar-arriagada-medico-cirujano-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/source-packets/chunk-01af64f0c097-p0011-01-dario-j-pulgar-arriagada-medico-cirujano.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/source-packets/chunk-01af64f0c097-p0011-01-dario-j-pulgar-arriagada-medico-cirujano.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-source-packets-chunk-759f8ddf442b-p0031-01-arturo-escobillana-guzman-medical-directory-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/source-packets/chunk-759f8ddf442b-p0031-01-arturo-escobillana-guzman-medical-directory.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/source-packets/chunk-759f8ddf442b-p0031-01-arturo-escobillana-guzman-medical-directory.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
                       "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-source-packets-sp-chunk-a2273412e7b1-p0001-01-resolucion-283-expropriation-pulgar-md.md",
                       "queue":  "proof-review",
                       "staged_draft":  "research/_staging/source-packets/sp-chunk-a2273412e7b1-p0001-01-resolucion-283-expropriation-pulgar.md",
@@ -4753,7 +4919,7 @@
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T01:41:03Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -4762,13 +4928,13 @@
                       "task_id":  "proof-review:research/_staging/conflicts/chunk-37cac508f847-p0006-01-conflict-candidates.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T01:41:03Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T01:41:05Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -4778,13 +4944,13 @@
                       "task_id":  "proof-review:research/_staging/conflicts/chunk-37cac508f847-p0007-01-conflict-candidates.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T01:41:04Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T01:09:09Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -4794,13 +4960,13 @@
                       "task_id":  "proof-review:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-37cac508f847-P0004-01-no-direct-conflict.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T01:09:09Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T01:04:31Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -4810,13 +4976,13 @@
                       "task_id":  "proof-review:research/_staging/identity/chunk-37cac508f847-p0005-01-identity-candidates.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T01:04:31Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T01:38:57Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -4826,13 +4992,13 @@
                       "task_id":  "proof-review:research/_staging/identity/chunk-37cac508f847-p0006-01-identity-candidates.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T01:38:57Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T01:38:59Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -4842,13 +5008,13 @@
                       "task_id":  "proof-review:research/_staging/identity/chunk-37cac508f847-p0007-01-identity-candidates.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T01:38:58Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T01:06:35Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -4858,13 +5024,13 @@
                       "task_id":  "proof-review:research/_staging/identity/ID-STAGE-CHUNK-37cac508f847-P0004-01-dario-cv-subject.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T01:06:34Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T01:11:44Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -4874,13 +5040,13 @@
                       "task_id":  "proof-review:research/_staging/identity-analysis/identity-analysis-chunk-37cac508f847-p0005-01-dario-pulgar.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T01:11:44Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T01:13:01Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -4890,7 +5056,7 @@
                       "task_id":  "proof-review:research/_staging/identity-analysis/identity-analysis-chunk-3d3ab761209f-p0001-01-birth-register-identity-conflicts.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T01:13:01Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
@@ -4926,6 +5092,15 @@
                       "claimed_at":  "2026-05-22T00:39:36Z",
                       "released_at":  "2026-05-22T02:02:23Z",
                       "role":  "claim_reviewer"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-759f8ddf442b-p0031-01-002-possible-address-locality-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/claims/chunk-759f8ddf442b-p0031-01-002-possible-address-locality.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-759f8ddf442b-p0031-01-002-possible-address-locality.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-8daffb98e793-p0002-01-003-virginio-gomez-germany-scholarship-md.md",
@@ -5063,6 +5238,33 @@
                       "skill":  "genealogy-proof-review"
                   },
                   {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-relationships-chunk-01af64f0c097-p0011-01-no-relationship-stated-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/relationships/chunk-01af64f0c097-p0011-01-no-relationship-stated.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/relationships/chunk-01af64f0c097-p0011-01-no-relationship-stated.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-relationships-chunk-759f8ddf442b-p0028-01-no-family-relationship-stated-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/relationships/chunk-759f8ddf442b-p0028-01-no-family-relationship-stated.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/relationships/chunk-759f8ddf442b-p0028-01-no-family-relationship-stated.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-relationships-chunk-759f8ddf442b-p0031-01-no-relationship-stated-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/relationships/chunk-759f8ddf442b-p0031-01-no-relationship-stated.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/relationships/chunk-759f8ddf442b-p0031-01-no-relationship-stated.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
                       "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-relationships-chunk-8daffb98e793-p0002-01-no-family-relationship-stated-md.md",
                       "queue":  "proof-review",
                       "staged_draft":  "research/_staging/relationships/chunk-8daffb98e793-p0002-01-no-family-relationship-stated.md",
@@ -5140,6 +5342,15 @@
                       "staged_draft":  "research/_staging/relationships/chunk-a048d567968b-p0001-04-no-family-relationship-stated.md",
                       "role":  "claim_reviewer",
                       "task_id":  "proof-review:research/_staging/relationships/chunk-a048d567968b-p0001-04-no-family-relationship-stated.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-relationships-chunk-bdfcf4d3256f-p0004-01-no-family-relationship-stated-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/relationships/chunk-bdfcf4d3256f-p0004-01-no-family-relationship-stated.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/relationships/chunk-bdfcf4d3256f-p0004-01-no-family-relationship-stated.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   },
@@ -5425,7 +5636,7 @@
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T08:59:21Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -5435,13 +5646,13 @@
                       "task_id":  "proof-review:research/_staging/claims/claim-chunk-3f469b56e502-p0003-01-circulation-range.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T08:59:20Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T01:02:28Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -5451,13 +5662,13 @@
                       "task_id":  "proof-review:research/_staging/relationships/chunk-37cac508f847-p0005-01-relationship-candidates.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T01:02:27Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T01:36:51Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -5467,13 +5678,13 @@
                       "task_id":  "proof-review:research/_staging/relationships/chunk-37cac508f847-p0006-01-relationship-candidates.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T01:36:51Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T01:36:53Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -5483,13 +5694,13 @@
                       "task_id":  "proof-review:research/_staging/relationships/chunk-37cac508f847-p0007-01-relationship-candidates.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T01:36:51Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T01:02:29Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -5499,13 +5710,13 @@
                       "task_id":  "proof-review:research/_staging/relationships/CHUNK-3d3ab761209f-P0001-01-relationship-candidates.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T01:02:28Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T01:04:30Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -5515,13 +5726,13 @@
                       "task_id":  "proof-review:research/_staging/relationships/REL-STAGE-CHUNK-37cac508f847-P0004-01-no-family-relationship.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T01:04:30Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T05:36:34Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -5531,13 +5742,13 @@
                       "task_id":  "proof-review:research/_staging/relationships/REL-STAGE-CHUNK-5f9286fc64f6-P0004-01-no-family-relationship.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T05:36:34Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T05:41:04Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -5547,13 +5758,13 @@
                       "task_id":  "proof-review:research/_staging/relationships/REL-STAGE-CHUNK-5f9286fc64f6-P0006-01-no-family-relationship.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T05:41:04Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T05:43:18Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -5563,13 +5774,13 @@
                       "task_id":  "proof-review:research/_staging/relationships/REL-STAGE-CHUNK-5f9286fc64f6-P0007-01-no-family-relationship.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T05:43:18Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T05:44:47Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -5579,13 +5790,13 @@
                       "task_id":  "proof-review:research/_staging/relationships/REL-STAGE-CHUNK-5f9286fc64f6-P0008-01-no-family-relationship.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T05:44:46Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-22T17:42:16Z",
+                      "updated_at":  "2026-05-22T18:18:18Z",
                       "started_at":  "2026-05-22T05:46:15Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -5595,7 +5806,7 @@
                       "task_id":  "proof-review:research/_staging/relationships/REL-STAGE-CHUNK-5f9286fc64f6-P0009-01-no-family-relationship.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-22T05:46:15Z",
-                      "released_at":  "2026-05-22T17:42:16Z",
+                      "released_at":  "2026-05-22T18:18:18Z",
                       "role":  "claim_reviewer"
                   },
                   {

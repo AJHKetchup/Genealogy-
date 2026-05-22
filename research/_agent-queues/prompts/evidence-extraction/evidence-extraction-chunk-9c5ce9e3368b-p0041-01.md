@@ -5,15 +5,15 @@ Use `$genealogy-claim-extraction`.
 ## Assignment
 
 - Role: `evidence_extractor`
-- Chunk: `raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0041-chunk-01.md`
+- Chunk: `raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-sess-fdb1369d5a/page-0041-chunk-01.md`
 - Converted source: `raw/converted/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43.codex.md`
-- Chunk manifest: `raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/manifest.json`
+- Chunk manifest: `raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-sess-fdb1369d5a/manifest.json`
 - Original source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
 - Page range: 41-41
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: List, chile, chunk, date, last
-- Evidence priority: `1041` (family_relevance:high, qc:pass, matched_terms)
+- Family relevance: `none`
+- Matched family terms: none
+- Evidence priority: `4041` (family_relevance:none, qc:pass, deferred_until_family_relevant)
 
 
 

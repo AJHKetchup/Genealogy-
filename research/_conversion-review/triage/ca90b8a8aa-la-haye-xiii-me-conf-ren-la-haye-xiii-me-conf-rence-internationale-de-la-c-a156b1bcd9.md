@@ -8,4 +8,4 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | medium | high | pass | none | last |
+| 1 | none | high | pass | none | none |

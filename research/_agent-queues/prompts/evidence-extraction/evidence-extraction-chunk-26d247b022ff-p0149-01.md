@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 149-149
 - Staging area: `research/_staging`
 - Family relevance: `high`
-- Matched family terms: Andes, Arriagada, Juana, Luis, chile, chunk
+- Matched family terms: Andes, Arriagada, Juana
 - Evidence priority: `1149` (family_relevance:high, qc:pass, matched_terms)
 
 

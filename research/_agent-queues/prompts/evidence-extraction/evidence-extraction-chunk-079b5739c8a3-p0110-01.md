@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
 - Page range: 110-110
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Arturo, Luis, Mercedes, chile, chunk
-- Evidence priority: `1110` (family_relevance:high, qc:pass, matched_terms)
+- Family relevance: `medium`
+- Matched family terms: Arturo, Mercedes
+- Evidence priority: `2110` (family_relevance:medium, qc:pass, matched_terms)
 
 
 

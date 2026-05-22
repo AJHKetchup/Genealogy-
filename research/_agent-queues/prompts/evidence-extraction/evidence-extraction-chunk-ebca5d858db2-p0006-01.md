@@ -11,18 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
 - Page range: 6-6
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Cesar, List, chunk
-- Evidence priority: `100006` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
-
-## QC Hold
-
-- Status: `blocked_needs_reread`
-- Blocked pages: 6
-- Page reread queue: `research/_conversion-review/page-queues/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-9dc370a2b4.md`
-- Suspected readings: `research/_conversion-review/corrections/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-9dc370a2b4.md`
-
-Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
+- Family relevance: `medium`
+- Matched family terms: Cesar
+- Evidence priority: `2006` (family_relevance:medium, qc:pass, matched_terms)
 
 
 

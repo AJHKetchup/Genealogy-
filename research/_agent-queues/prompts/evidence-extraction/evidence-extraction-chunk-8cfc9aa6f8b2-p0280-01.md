@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/S179-34-6.pdf`
 - Page range: 280-280
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Cesar, chunk, last
-- Evidence priority: `1280` (family_relevance:high, qc:pass, matched_terms)
+- Family relevance: `medium`
+- Matched family terms: Cesar
+- Evidence priority: `2280` (family_relevance:medium, qc:pass, matched_terms)
 
 
 

@@ -8,13 +8,13 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | high | high | pass | none | Luis, chile, name |
-| 2 | critical | low | reread-page | none | Dios, Juan, chile, knowledge |
-| 3 | critical | low | reread-page | none | Dios, Juan, chile, name |
-| 4 | critical | low | reread-page | none | Dios, Juan, Pulgar, chile, time |
-| 5 | critical | low | reread-page | none | Birth, Juan, Luis, chile, future, mother |
-| 6 | critical | low | reread-page | none | Dios, Juan, Rows, chile, student |
-| 7 | high | high | pass | none | Luis, chile, date, last, name, student, time |
-| 8 | high | high | pass | none | Arturo, chile, student |
-| 9 | high | high | pass | none | chile, england, name, time |
-| 10 | high | high | pass | none | List, chile, knowledge, name, permanent |
+| 1 | none | high | pass | none | none |
+| 2 | high | low | reread-page | none | none |
+| 3 | none | high | pass | none | none |
+| 4 | critical | low | reread-page | none | Pulgar |
+| 5 | none | high | pass | none | none |
+| 6 | none | high | pass | none | none |
+| 7 | none | high | pass | none | none |
+| 8 | medium | high | pass | none | Arturo |
+| 9 | medium | high | pass | none | england |
+| 10 | none | high | pass | none | none |

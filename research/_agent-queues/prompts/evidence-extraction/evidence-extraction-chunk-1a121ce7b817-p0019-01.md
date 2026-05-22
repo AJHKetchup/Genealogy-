@@ -11,18 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
 - Page range: 19-19
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Dios, Juan, chile, chunk
-- Evidence priority: `100019` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
-
-## QC Hold
-
-- Status: `blocked_needs_reread`
-- Blocked pages: 19
-- Page reread queue: `research/_conversion-review/page-queues/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-sess-f1527f214c.md`
-- Suspected readings: `research/_conversion-review/corrections/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-sess-f1527f214c.md`
-
-Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
+- Family relevance: `none`
+- Matched family terms: none
+- Evidence priority: `4019` (family_relevance:none, qc:pass, deferred_until_family_relevant)
 
 
 

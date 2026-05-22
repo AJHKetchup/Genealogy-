@@ -6,10 +6,4 @@
 
 ## Queued Pages
 
-### Page 14
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, List, date
+No pages queued for reread.

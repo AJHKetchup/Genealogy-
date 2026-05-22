@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/S179-34-6.pdf`
 - Page range: 202-202
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Passenger, chunk, time
-- Evidence priority: `1202` (family_relevance:high, qc:pass, matched_terms)
+- Family relevance: `medium`
+- Matched family terms: Passenger
+- Evidence priority: `2202` (family_relevance:medium, qc:pass, matched_terms)
 
 
 

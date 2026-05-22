@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
 - Page range: 9-9
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Andes, chile, chunk, date, intended, name
-- Evidence priority: `1009` (family_relevance:high, qc:pass, matched_terms)
+- Family relevance: `medium`
+- Matched family terms: Andes, intended
+- Evidence priority: `2009` (family_relevance:medium, qc:pass, matched_terms)
 
 
 

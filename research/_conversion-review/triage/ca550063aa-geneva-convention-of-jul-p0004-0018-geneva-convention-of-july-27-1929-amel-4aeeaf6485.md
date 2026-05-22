@@ -8,18 +8,18 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 4 | high | high | pass | none | List, date, name, permanent |
-| 2 | medium | high | pass | none | List, permanent |
-| 6 | medium | high | pass | none | List, permanent |
-| 4 | medium | high | pass | none | date |
+| 4 | none | high | pass | none | none |
+| 2 | none | high | pass | none | none |
+| 6 | none | high | pass | none | none |
+| 4 | none | high | pass | none | none |
 | 5 | medium | high | pass | none | intended |
-| 6 | high | high | pass | none | name, permanent, time |
-| 7 | medium | high | pass | none | last, time |
-| 8 | medium | high | pass | none | time |
-| 9 | medium | high | pass | none | last, time |
-| 10 | medium | high | pass | none | name, time |
-| 11 | medium | high | pass | none | date, time |
-| 12 | medium | high | pass | none | date, name |
-| 13 | medium | high | pass | none | List |
-| 14 | high | high | pass | none | Pulgar, chile, date |
+| 6 | none | high | pass | none | none |
+| 7 | none | high | pass | none | none |
+| 8 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
+| 10 | none | high | pass | none | none |
+| 11 | none | high | pass | none | none |
+| 12 | none | high | pass | none | none |
+| 13 | none | high | pass | none | none |
+| 14 | medium | high | pass | none | Pulgar |
 | 15 | none | high | pass | none | none |

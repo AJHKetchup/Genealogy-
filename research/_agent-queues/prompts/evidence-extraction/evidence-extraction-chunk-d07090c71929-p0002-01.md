@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/ACICR_B_CR_177_001_002.pdf`
 - Page range: 2-2
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: List, chunk, date
-- Evidence priority: `101002` (family_relevance:high, qc:spot-check, matched_terms, blocked_by_conversion_qc)
+- Family relevance: `none`
+- Matched family terms: none
+- Evidence priority: `104002` (family_relevance:none, qc:spot-check, blocked_by_conversion_qc)
 
 ## QC Hold
 

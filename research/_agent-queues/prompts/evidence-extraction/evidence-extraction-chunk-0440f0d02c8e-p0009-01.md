@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf`
 - Page range: 9-9
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Andes, Dios, Juan, Segundo, chile, chunk
-- Evidence priority: `9` (family_relevance:critical, qc:reread-page, matched_terms)
+- Family relevance: `high`
+- Matched family terms: Andes, Segundo
+- Evidence priority: `1009` (family_relevance:high, qc:reread-page, matched_terms)
 
 
 

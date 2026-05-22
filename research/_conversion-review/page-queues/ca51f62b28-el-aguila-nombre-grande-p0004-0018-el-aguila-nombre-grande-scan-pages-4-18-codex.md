@@ -10,17 +10,9 @@
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
+- Family relevance: `high`
 - Quality flags: none
-- Matched family context: Jose, date
-
-### Page 4
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dario, Dios, Juan, Pulgar
+- Matched family context: none
 
 ### Page 14
 
@@ -28,12 +20,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Dario, Pulgar, chile, date, name
-
-### Page 12
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dios, chile, date
+- Matched family context: Dario, Pulgar

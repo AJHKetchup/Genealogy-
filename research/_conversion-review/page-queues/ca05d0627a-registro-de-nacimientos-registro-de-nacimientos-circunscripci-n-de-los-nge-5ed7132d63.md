@@ -12,4 +12,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Birth, Carmen, Dios, Entry, Jose, Juan, Juana, Mercedes, Pulgar, Riquelme, Rows, Soler, chile, date, juan soler, mercedes riquelme, mother, name
+- Matched family context: Carmen, Juana, Mercedes, Pulgar, Riquelme, Soler, juan soler, mercedes riquelme

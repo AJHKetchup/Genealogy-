@@ -9,27 +9,27 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
-| 2 | medium | high | pass | none | chile |
-| 3 | critical | low | reread-page | none | Juan, chile |
+| 2 | none | high | pass | none | none |
+| 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
-| 5 | medium | high | pass | none | chile |
-| 6 | medium | high | pass | none | chile, name |
+| 5 | none | high | pass | none | none |
+| 6 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
-| 8 | medium | high | pass | none | name |
-| 9 | medium | high | pass | none | Luis |
-| 10 | medium | high | pass | none | chile, name |
-| 11 | medium | high | pass | none | Luis, chile |
-| 365 | medium | high | pass | none | chile, name |
+| 8 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
+| 10 | none | high | pass | none | none |
+| 11 | none | high | pass | none | none |
+| 365 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
 | 14 | medium | high | pass | none | Cesar |
-| 15 | medium | high | pass | none | chile |
-| 16 | medium | high | pass | none | name |
-| 17 | medium | high | pass | none | chile |
-| 371 | medium | high | pass | none | chile, name |
-| 19 | medium | high | pass | none | Dios, chile |
+| 15 | none | high | pass | none | none |
+| 16 | none | high | pass | none | none |
+| 17 | none | high | pass | none | none |
+| 371 | none | high | pass | none | none |
+| 19 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |
-| 21 | medium | high | pass | none | chile, last |
-| 22 | medium | high | pass | none | chile, name |
-| 23 | medium | high | pass | none | chile |
-| 24 | medium | high | pass | none | Dios |
+| 21 | none | high | pass | none | none |
+| 22 | none | high | pass | none | none |
+| 23 | none | high | pass | none | none |
+| 24 | none | high | pass | none | none |
 | 25 | none | high | pass | none | none |

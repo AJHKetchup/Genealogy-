@@ -6,77 +6,13 @@
 
 ## Queued Pages
 
-### Page 21
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dios, Juan, Luis, chile
-
-### Page 22
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, Luis, chile
-
-### Page 23
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Arriagada, Arturo, Juan, Luis, chile
-
-### Page 24
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Andes, Carmen, Juan, Luis, chile
-
-### Page 25
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, Luis, chile
-
-### Page 26
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, Luis, chile
-
-### Page 27
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Andes, Arturo, Juan, Luis, chile
-
 ### Page 28
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juana, Luis, chile
-
-### Page 30
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Arturo, Juan, Luis, chile
+- Matched family context: Juana
 
 ### Page 31
 
@@ -84,39 +20,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Juan, Luis, chile
-
-### Page 34
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, Luis, chile, last, name
-
-### Page 35
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, Luis, Smith, chile
-
-### Page 36
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, Luis, chile
-
-### Page 37
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Arriagada, Juan, Luis, chile
+- Matched family context: Arturo
 
 ### Page 38
 
@@ -124,7 +28,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Juan, Luis, Riquelme, chile
+- Matched family context: Arturo, Riquelme
 
 ### Page 39
 
@@ -132,12 +36,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Andes, Arturo, Carmen, Juan, Luis, Riquelme, chile
-
-### Page 40
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, Luis, chile
+- Matched family context: Andes, Arturo, Carmen, Riquelme

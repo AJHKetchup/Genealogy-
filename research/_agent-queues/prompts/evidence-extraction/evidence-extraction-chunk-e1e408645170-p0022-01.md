@@ -11,18 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/S519bis-26-4.pdf`
 - Page range: 22-22
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Arturo, Juan, chunk
-- Evidence priority: `100022` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
-
-## QC Hold
-
-- Status: `blocked_needs_reread`
-- Blocked pages: 22
-- Page reread queue: `research/_conversion-review/page-queues/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex.md`
-- Suspected readings: `research/_conversion-review/corrections/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex.md`
-
-Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
+- Family relevance: `medium`
+- Matched family terms: Arturo
+- Evidence priority: `2022` (family_relevance:medium, qc:pass, matched_terms)
 
 
 

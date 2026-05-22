@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 24 | critical | low | reread-page | none | Juan, chile |
-| 25 | critical | low | reread-page | none | chile |
-| 26 | critical | low | reread-page | none | chile |
-| 27 | medium | high | pass | none | Luis, chile |
-| 28 | critical | low | reread-page | none | Juan, chile |
-| 29 | medium | high | pass | none | chile |
-| 30 | high | high | pass | none | Arturo, Juana, chile |
-| 31 | medium | high | pass | none | chile |
-| 32 | medium | high | pass | none | Luis, chile |
-| 33 | medium | high | pass | none | chile |
-| 34 | medium | high | pass | none | chile |
-| 35 | medium | high | pass | none | chile |
-| 36 | medium | high | pass | none | Arturo, chile |
-| 323 | medium | high | pass | none | chile, date |
-| 38 | medium | high | pass | none | chile |
-| 39 | medium | high | pass | none | chile |
-| 40 | critical | low | reread-page | none | Juan, chile |
-| 41 | medium | high | pass | none | chile |
-| 19 | high | high | pass | none | List, date, last |
-| 43 | medium | high | pass | none | chile |
+| 24 | none | high | pass | none | none |
+| 25 | high | low | reread-page | none | none |
+| 26 | high | low | reread-page | none | none |
+| 27 | none | high | pass | none | none |
+| 28 | high | low | reread-page | none | none |
+| 29 | none | high | pass | none | none |
+| 30 | medium | high | pass | none | Arturo, Juana |
+| 31 | none | high | pass | none | none |
+| 32 | none | high | pass | none | none |
+| 33 | none | high | pass | none | none |
+| 34 | none | high | pass | none | none |
+| 35 | none | high | pass | none | none |
+| 36 | medium | high | pass | none | Arturo |
+| 323 | none | high | pass | none | none |
+| 38 | none | high | pass | none | none |
+| 39 | none | high | pass | none | none |
+| 40 | none | high | pass | none | none |
+| 41 | none | high | pass | none | none |
+| 19 | none | high | pass | none | none |
+| 43 | none | high | pass | none | none |

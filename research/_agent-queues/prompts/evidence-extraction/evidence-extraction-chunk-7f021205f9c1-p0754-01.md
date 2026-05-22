@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
 - Page range: 754-754
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Luis, chunk
-- Evidence priority: `754` (family_relevance:critical, qc:reread-page, matched_terms)
+- Family relevance: `high`
+- Matched family terms: none
+- Evidence priority: `1754` (family_relevance:high, qc:reread-page)
 
 
 

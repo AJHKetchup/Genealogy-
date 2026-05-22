@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
 - Page range: 75-75
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Luis, Riquelme, Tulio, chile, chunk
-- Evidence priority: `1075` (family_relevance:high, qc:pass, matched_terms)
+- Family relevance: `medium`
+- Matched family terms: Riquelme, Tulio
+- Evidence priority: `2075` (family_relevance:medium, qc:pass, matched_terms)
 
 
 

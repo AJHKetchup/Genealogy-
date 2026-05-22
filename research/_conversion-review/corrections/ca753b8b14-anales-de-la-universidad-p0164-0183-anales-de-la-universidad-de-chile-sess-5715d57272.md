@@ -6,21 +6,6 @@
 
 ## Suspected Readings
 
-- Literal converted text: `Darío`
-  Suspected reading: `Dario`
-  Reason: near match to known family context term `Dario`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Juan`
-  Suspected reading: `Juana`
-  Reason: near match to known family context term `Juana`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Juan`
-  Suspected reading: `Juana`
-  Reason: near match to known family context term `Juana`
-  Verification target: reread the page image or exact region before using this in a claim.
-
 - Literal converted text: `Juan`
   Suspected reading: `Juana`
   Reason: near match to known family context term `Juana`
@@ -36,62 +21,12 @@
   Reason: near match to known family context term `Andes`
   Verification target: reread the page image or exact region before using this in a claim.
 
-- Literal converted text: `Juan`
-  Suspected reading: `Juana`
-  Reason: near match to known family context term `Juana`
-  Verification target: reread the page image or exact region before using this in a claim.
-
 - Literal converted text: `Puga`
   Suspected reading: `Pulgar`
   Reason: near match to known family context term `Pulgar`
   Verification target: reread the page image or exact region before using this in a claim.
 
-- Literal converted text: `Juan`
-  Suspected reading: `Juana`
-  Reason: near match to known family context term `Juana`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Juan`
-  Suspected reading: `Juana`
-  Reason: near match to known family context term `Juana`
-  Verification target: reread the page image or exact region before using this in a claim.
-
 - Literal converted text: `Puga`
   Suspected reading: `Pulgar`
   Reason: near match to known family context term `Pulgar`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `David`
-  Suspected reading: `Dario`
-  Reason: near match to known family context term `Dario`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Juan`
-  Suspected reading: `Juana`
-  Reason: near match to known family context term `Juana`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Puga`
-  Suspected reading: `Pulgar`
-  Reason: near match to known family context term `Pulgar`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `David`
-  Suspected reading: `Dario`
-  Reason: near match to known family context term `Dario`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Juan`
-  Suspected reading: `Juana`
-  Reason: near match to known family context term `Juana`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Juan`
-  Suspected reading: `Juana`
-  Reason: near match to known family context term `Juana`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Juan`
-  Suspected reading: `Juana`
-  Reason: near match to known family context term `Juana`
   Verification target: reread the page image or exact region before using this in a claim.

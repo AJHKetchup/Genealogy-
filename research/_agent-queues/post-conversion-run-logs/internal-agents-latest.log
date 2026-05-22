@@ -5,89 +5,9 @@ Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\sourc
 Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
 source-relevance sync-review-holds | summary
 {
-  "review_count": 183,
-  "candidate_count": 28,
-  "changed_count": 0,
-  "feedback_path": "research/_agent-queues/source-relevance-feedback.json"
-}
-source-relevance restore-review-assets | summary
-{
-  "target_count": 12,
-  "restored_raw": 0,
-  "skipped_raw": 0,
-  "restored_page_images": 0,
-  "released_tasks": [],
-  "errors": [],
-  "blockers": []
-}
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Wrote 812 conversion QC artifact(s)
-Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\conversion-qa.json
-Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\evidence-extraction.json
-Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\source-usability.json
-Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
-source-relevance sync-review-holds | summary
-{
-  "review_count": 184,
-  "candidate_count": 28,
-  "changed_count": 0,
-  "feedback_path": "research/_agent-queues/source-relevance-feedback.json"
-}
-source-relevance restore-review-assets | summary
-{
-  "target_count": 12,
-  "restored_raw": 0,
-  "skipped_raw": 0,
-  "restored_page_images": 0,
-  "released_tasks": [],
-  "errors": [],
-  "blockers": []
-}
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Wrote 812 conversion QC artifact(s)
-Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\conversion-qa.json
-Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\evidence-extraction.json
-Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\source-usability.json
-Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
-source-relevance sync-review-holds | summary
-{
-  "review_count": 185,
-  "candidate_count": 29,
-  "changed_count": 1,
-  "feedback_path": "research/_agent-queues/source-relevance-feedback.json"
-}
-source-relevance restore-review-assets | summary
-{
-  "target_count": 12,
-  "restored_raw": 0,
-  "skipped_raw": 0,
-  "restored_page_images": 1,
-  "released_tasks": [
-    "proof-review:research/_staging/claims/chunk-a048d567968b-p0001-03-004-dario-pulgar-mother-tongue-spanish.md"
-  ],
-  "errors": [],
-  "blockers": []
-}
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Wrote 812 conversion QC artifact(s)
-Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\conversion-qa.json
-Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\evidence-extraction.json
-Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\source-usability.json
-Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
-source-relevance sync-review-holds | summary
-{
-  "review_count": 187,
+  "review_count": 188,
   "candidate_count": 30,
-  "changed_count": 1,
+  "changed_count": 0,
   "feedback_path": "research/_agent-queues/source-relevance-feedback.json"
 }
 source-relevance restore-review-assets | summary
@@ -100,11 +20,115 @@ source-relevance restore-review-assets | summary
   "errors": [],
   "blockers": []
 }
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
+Wrote 812 conversion QC artifact(s)
+Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\conversion-qa.json
+Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\evidence-extraction.json
+Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\source-usability.json
+Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
+source-relevance sync-review-holds | summary
+{
+  "review_count": 189,
+  "candidate_count": 30,
+  "changed_count": 0,
+  "feedback_path": "research/_agent-queues/source-relevance-feedback.json"
+}
+source-relevance restore-review-assets | summary
+{
+  "target_count": 12,
+  "restored_raw": 0,
+  "skipped_raw": 0,
+  "restored_page_images": 0,
+  "released_tasks": [],
+  "errors": [],
+  "blockers": []
+}
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
+Wrote 812 conversion QC artifact(s)
+Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\conversion-qa.json
+Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\evidence-extraction.json
+Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\source-usability.json
+Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
+source-relevance sync-review-holds | summary
+{
+  "review_count": 189,
+  "candidate_count": 30,
+  "changed_count": 0,
+  "feedback_path": "research/_agent-queues/source-relevance-feedback.json"
+}
+source-relevance restore-review-assets | summary
+{
+  "target_count": 12,
+  "restored_raw": 0,
+  "skipped_raw": 0,
+  "restored_page_images": 0,
+  "released_tasks": [],
+  "errors": [],
+  "blockers": []
+}
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
+Wrote 812 conversion QC artifact(s)
+Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\conversion-qa.json
+Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\evidence-extraction.json
+Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\source-usability.json
+Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
+source-relevance sync-review-holds | summary
+{
+  "review_count": 191,
+  "candidate_count": 30,
+  "changed_count": 0,
+  "feedback_path": "research/_agent-queues/source-relevance-feedback.json"
+}
+source-relevance restore-review-assets | summary
+{
+  "target_count": 12,
+  "restored_raw": 0,
+  "skipped_raw": 0,
+  "restored_page_images": 0,
+  "released_tasks": [],
+  "errors": [],
+  "blockers": []
+}
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
+Wrote 812 conversion QC artifact(s)
+Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\conversion-qa.json
+Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\evidence-extraction.json
+Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\source-usability.json
+Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
+source-relevance sync-review-holds | summary
+{
+  "review_count": 192,
+  "candidate_count": 30,
+  "changed_count": 0,
+  "feedback_path": "research/_agent-queues/source-relevance-feedback.json"
+}
+source-relevance restore-review-assets | summary
+{
+  "target_count": 12,
+  "restored_raw": 0,
+  "skipped_raw": 0,
+  "restored_page_images": 0,
+  "released_tasks": [],
+  "errors": [],
+  "blockers": []
+}
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
 Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
 Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
 post-conversion-controller | summary
 {
-    "started":  "2026-05-22T17:42:17Z",
+    "started":  "2026-05-22T18:18:19Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "dry_run":  false,
     "allow_promotion":  false,
@@ -123,128 +147,156 @@ post-conversion-controller | summary
                                          "todo":  200
                                      },
                    "evidence-extraction":  {
-                                               "done":  11,
-                                               "in_progress":  1,
-                                               "todo":  4648,
-                                               "blocked_needs_reread":  175
+                                               "done":  14,
+                                               "todo":  589,
+                                               "deferred_low_relevance":  4134,
+                                               "blocked_needs_reread":  98
                                            },
                    "identity-analysis":  {
-                                             "todo":  104,
+                                             "todo":  107,
                                              "done":  3
                                          },
                    "proof-review":  {
-                                        "done":  118,
-                                        "todo":  360,
-                                        "released":  46
+                                        "done":  122,
+                                        "todo":  375,
+                                        "released":  47
                                     },
                    "wiki-promotion":  {
                                           "disabled_requires_allow_promotion":  1
                                       }
                },
-    "active_workers_before":  2,
+    "active_workers_before":  1,
     "active_workers_after":  3,
     "launched":  [
                      {
-                         "worker":  "postconv-proof-review-20260522174403529",
-                         "pid":  2000,
+                         "worker":  "postconv-proof-review-20260522181932670",
+                         "pid":  2880,
                          "task_ids":  [
-                                          "proof-review:research/_staging/claims/chunk-a048d567968b-p0001-03-002-dario-pulgar-chile-film-distribution.md"
+                                          "proof-review:research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-declarant-spouse.md"
                                       ],
                          "queue":  "proof-review",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260522174403529.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522174403529.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522174403529.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522174403529.last.md",
-                         "started":  "2026-05-22T17:44:04Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260522181932670.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522181932670.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522181932670.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522181932670.last.md",
+                         "started":  "2026-05-22T18:19:33Z"
                      },
                      {
-                         "worker":  "postconv-evidence-extraction-20260522174404365",
-                         "pid":  6028,
+                         "worker":  "postconv-evidence-extraction-20260522181933645",
+                         "pid":  3212,
                          "task_ids":  [
-                                          "evidence-extraction:CHUNK-a048d567968b-P0001-04"
+                                          "evidence-extraction:CHUNK-bdfcf4d3256f-P0004-01"
                                       ],
                          "queue":  "evidence-extraction",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-evidence-extraction-20260522174404365.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522174404365.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522174404365.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522174404365.last.md",
-                         "started":  "2026-05-22T17:44:05Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-evidence-extraction-20260522181933645.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522181933645.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522181933645.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522181933645.last.md",
+                         "started":  "2026-05-22T18:19:34Z"
                      },
                      {
-                         "worker":  "postconv-evidence-extraction-20260522174405893",
-                         "pid":  4572,
+                         "worker":  "postconv-evidence-extraction-20260522181934822",
+                         "pid":  6896,
                          "task_ids":  [
-                                          "evidence-extraction:CHUNK-b986d37e685d-P0002-01"
+                                          "evidence-extraction:CHUNK-01af64f0c097-P0011-01"
                                       ],
                          "queue":  "evidence-extraction",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-evidence-extraction-20260522174405893.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522174405893.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522174405893.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522174405893.last.md",
-                         "started":  "2026-05-22T17:44:07Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-evidence-extraction-20260522181934822.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522181934822.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522181934822.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522181934822.last.md",
+                         "started":  "2026-05-22T18:19:36Z"
                      },
                      {
-                         "worker":  "postconv-proof-review-20260522174725676",
-                         "pid":  6316,
+                         "worker":  "postconv-proof-review-20260522182221849",
+                         "pid":  2424,
                          "task_ids":  [
-                                          "proof-review:research/_staging/claims/chunk-a048d567968b-p0001-03-004-dario-pulgar-mother-tongue-spanish.md"
+                                          "proof-review:research/_staging/claims/chunk-bdfcf4d3256f-p0004-01-001-dario-pulgar-surgeon.md"
                                       ],
                          "queue":  "proof-review",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260522174725676.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522174725676.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522174725676.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522174725676.last.md",
-                         "started":  "2026-05-22T17:47:26Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260522182221849.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522182221849.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522182221849.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522182221849.last.md",
+                         "started":  "2026-05-22T18:22:22Z"
                      },
                      {
-                         "worker":  "postconv-proof-review-20260522174957974",
-                         "pid":  9900,
+                         "worker":  "postconv-proof-review-20260522182424242",
+                         "pid":  3592,
                          "task_ids":  [
-                                          "proof-review:research/_staging/claims/chunk-a048d567968b-p0001-04-005-jim-carney-vancouver-hometown-expo-86.md"
+                                          "proof-review:research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-father.md"
                                       ],
                          "queue":  "proof-review",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260522174957974.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522174957974.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522174957974.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522174957974.last.md",
-                         "started":  "2026-05-22T17:49:58Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260522182424242.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522182424242.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522182424242.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522182424242.last.md",
+                         "started":  "2026-05-22T18:24:24Z"
                      },
                      {
-                         "worker":  "postconv-evidence-extraction-20260522174958565",
-                         "pid":  1280,
+                         "worker":  "postconv-evidence-extraction-20260522182424862",
+                         "pid":  7752,
                          "task_ids":  [
-                                          "evidence-extraction:CHUNK-a048d567968b-P0001-03"
+                                          "evidence-extraction:CHUNK-759f8ddf442b-P0028-01"
                                       ],
                          "queue":  "evidence-extraction",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-evidence-extraction-20260522174958565.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522174958565.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522174958565.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522174958565.last.md",
-                         "started":  "2026-05-22T17:50:00Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-evidence-extraction-20260522182424862.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522182424862.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522182424862.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522182424862.last.md",
+                         "started":  "2026-05-22T18:24:26Z"
                      },
                      {
-                         "worker":  "postconv-proof-review-20260522175232645",
-                         "pid":  2000,
+                         "worker":  "postconv-proof-review-20260522182630460",
+                         "pid":  1676,
                          "task_ids":  [
-                                          "proof-review:research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-child-name-sex.md"
+                                          "proof-review:research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-mother.md"
                                       ],
                          "queue":  "proof-review",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260522175232645.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522175232645.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522175232645.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522175232645.last.md",
-                         "started":  "2026-05-22T17:52:33Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260522182630460.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522182630460.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522182630460.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522182630460.last.md",
+                         "started":  "2026-05-22T18:26:31Z"
+                     },
+                     {
+                         "worker":  "postconv-proof-review-20260522182830250",
+                         "pid":  8504,
+                         "task_ids":  [
+                                          "proof-review:research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-registration-date.md"
+                                      ],
+                         "queue":  "proof-review",
+                         "codex":  "C:\\npm\\prefix\\codex.cmd",
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260522182830250.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522182830250.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522182830250.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260522182830250.last.md",
+                         "started":  "2026-05-22T18:28:30Z"
+                     },
+                     {
+                         "worker":  "postconv-evidence-extraction-20260522182830841",
+                         "pid":  7396,
+                         "task_ids":  [
+                                          "evidence-extraction:CHUNK-759f8ddf442b-P0031-01"
+                                      ],
+                         "queue":  "evidence-extraction",
+                         "codex":  "C:\\npm\\prefix\\codex.cmd",
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-evidence-extraction-20260522182830841.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522182830841.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522182830841.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260522182830841.last.md",
+                         "started":  "2026-05-22T18:28:32Z"
                      }
                  ],
     "blockers":  [
 
                  ],
-    "finished":  "2026-05-22T17:54:07Z"
+    "finished":  "2026-05-22T18:31:37Z"
 }

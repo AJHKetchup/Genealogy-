@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 101 | medium | medium | spot-check | explicit_reread_needed | name |
-| 2 | medium | high | pass | none | List, chile |
-| 3 | high | high | pass | none | List, Riquelme, chile |
-| 4 | high | high | pass | none | List, Riquelme, chile |
-| 105 | critical | low | reread-page | explicit_reread_needed | Arriagada, Dios, Juan, Pulgar, Riquelme, name |
-| 106 | critical | low | reread-page | explicit_reread_needed | Juan, name |
-| 7 | high | high | pass | none | Arriagada, List, date, name |
-| 8 | medium | high | pass | none | John, name |
-| 9 | critical | low | reread-page | none | Entry, Juan, Luis, chile |
-| 10 | medium | high | pass | none | chile |
-| 111 | high | high | pass | none | Arriagada, Jose, List, name |
-| 112 | medium | high | pass | none | List |
-| 13 | critical | low | reread-page | none | Arturo, John, Juan, Riquelme |
-| 114 | medium | medium | spot-check | explicit_reread_needed | name |
-| 15 | medium | high | pass | none | List |
-| 16 | medium | high | pass | none | List |
-| 17 | high | high | pass | none | Entry, List, date |
-| 18 | high | high | pass | none | List, date, name |
-| 19 | critical | low | reread-page | none | Dios, Juan, chile, last |
-| 20 | critical | low | reread-page | none | Juan |
+| 101 | none | medium | spot-check | explicit_reread_needed | none |
+| 2 | none | high | pass | none | none |
+| 3 | medium | high | pass | none | Riquelme |
+| 4 | medium | high | pass | none | Riquelme |
+| 105 | critical | low | reread-page | explicit_reread_needed | Arriagada, Pulgar, Riquelme |
+| 106 | none | medium | spot-check | explicit_reread_needed | none |
+| 7 | medium | high | pass | none | Arriagada |
+| 8 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
+| 10 | none | high | pass | none | none |
+| 111 | medium | high | pass | none | Arriagada |
+| 112 | none | high | pass | none | none |
+| 13 | critical | low | reread-page | none | Arturo, Riquelme |
+| 114 | none | medium | spot-check | explicit_reread_needed | none |
+| 15 | none | high | pass | none | none |
+| 16 | none | high | pass | none | none |
+| 17 | none | high | pass | none | none |
+| 18 | none | high | pass | none | none |
+| 19 | high | low | reread-page | none | none |
+| 20 | high | low | reread-page | none | none |

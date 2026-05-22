@@ -11,18 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
 - Page range: 7-7
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Juan, Luis, chile, chunk
-- Evidence priority: `100007` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
-
-## QC Hold
-
-- Status: `blocked_needs_reread`
-- Blocked pages: 7
-- Page reread queue: `research/_conversion-review/page-queues/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dic-ecfbecbd95.md`
-- Suspected readings: `research/_conversion-review/corrections/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dic-ecfbecbd95.md`
-
-Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
+- Family relevance: `none`
+- Matched family terms: none
+- Evidence priority: `4007` (family_relevance:none, qc:pass, deferred_until_family_relevant)
 
 
 

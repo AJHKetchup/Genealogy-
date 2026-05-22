@@ -11,18 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/S179-34-6.pdf`
 - Page range: 15-15
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Registration, chunk, residence
-- Evidence priority: `100015` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
-
-## QC Hold
-
-- Status: `blocked_needs_reread`
-- Blocked pages: 15
-- Page reread queue: `research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75-codex.md`
-- Suspected readings: `research/_conversion-review/corrections/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75-codex.md`
-
-Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
+- Family relevance: `medium`
+- Matched family terms: residence
+- Evidence priority: `2015` (family_relevance:medium, qc:pass, matched_terms)
 
 
 

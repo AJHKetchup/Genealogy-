@@ -6,10 +6,4 @@
 
 ## Queued Pages
 
-### Page 1
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Birth, Carmen, Entry, Juan, Luis, Registration, chile, date, name
+No pages queued for reread.

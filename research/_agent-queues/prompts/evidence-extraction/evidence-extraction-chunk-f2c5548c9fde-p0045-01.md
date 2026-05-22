@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
 - Page range: 45-45
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Arturo, Juan, Juana, Luis, chile, chunk
-- Evidence priority: `45` (family_relevance:critical, qc:reread-page, matched_terms)
+- Family relevance: `medium`
+- Matched family terms: Arturo, Juana
+- Evidence priority: `2045` (family_relevance:medium, qc:pass, matched_terms)
 
 
 

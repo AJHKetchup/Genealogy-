@@ -8,22 +8,22 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | critical | low | reread-page | none | last |
-| 245 | medium | high | pass | none | chile |
-| 246 | medium | high | pass | none | chile |
-| 247 | medium | high | pass | none | chile |
+| 1 | high | low | reread-page | none | none |
+| 245 | none | high | pass | none | none |
+| 246 | none | high | pass | none | none |
+| 247 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
-| 6 | medium | high | pass | none | chile, date |
+| 6 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
-| 8 | medium | high | pass | none | List, date |
-| 9 | medium | high | pass | none | last |
-| 253 | medium | high | pass | none | chile |
-| 254 | critical | low | reread-page | none | Juan, Luis, chile |
+| 8 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
+| 253 | none | high | pass | none | none |
+| 254 | none | high | pass | none | none |
 | 255 | high | low | reread-page | none | none |
-| 13 | medium | high | pass | none | date |
-| 14 | critical | low | reread-page | none | Entry, Juan, Luis, chile, date |
-| 258 | critical | low | reread-page | none | chile |
-| 16 | medium | high | pass | none | date |
+| 13 | none | high | pass | none | none |
+| 14 | high | low | reread-page | none | none |
+| 258 | high | low | reread-page | none | none |
+| 16 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |

@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 1-1
 - Staging area: `research/_staging`
 - Family relevance: `high`
-- Matched family terms: Dios, Juan, chile, chunk, grandfather
+- Matched family terms: grandfather
 - Evidence priority: `101001` (family_relevance:high, qc:reread-page, matched_terms, blocked_by_conversion_qc)
 
 ## QC Hold

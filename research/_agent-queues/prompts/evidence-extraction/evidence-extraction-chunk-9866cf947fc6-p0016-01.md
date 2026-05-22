@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
 - Page range: 16-16
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Cesar, List, chunk
-- Evidence priority: `1016` (family_relevance:high, qc:pass, matched_terms)
+- Family relevance: `medium`
+- Matched family terms: Cesar
+- Evidence priority: `2016` (family_relevance:medium, qc:pass, matched_terms)
 
 
 

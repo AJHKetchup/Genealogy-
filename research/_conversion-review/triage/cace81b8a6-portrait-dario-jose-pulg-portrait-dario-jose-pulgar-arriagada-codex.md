@@ -8,4 +8,4 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | high | high | pass | none | Arriagada, Dario, Jose, Pulgar |
+| 1 | high | high | pass | none | Arriagada, Dario, Pulgar |

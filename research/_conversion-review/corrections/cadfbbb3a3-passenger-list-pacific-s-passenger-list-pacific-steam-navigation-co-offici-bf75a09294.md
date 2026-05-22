@@ -6,7 +6,7 @@
 
 ## Suspected Readings
 
-- Literal converted text: `PASSENGERS`
+- Literal converted text: `Passengers`
   Suspected reading: `Passenger`
   Reason: near match to known family context term `Passenger`
   Verification target: reread the page image or exact region before using this in a claim.

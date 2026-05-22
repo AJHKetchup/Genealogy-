@@ -11,18 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
 - Page range: 14-14
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Juan, List, chunk, date
-- Evidence priority: `100014` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
-
-## QC Hold
-
-- Status: `blocked_needs_reread`
-- Blocked pages: 14
-- Page reread queue: `research/_conversion-review/page-queues/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-81883a1a9b.md`
-- Suspected readings: `research/_conversion-review/corrections/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-81883a1a9b.md`
-
-Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
+- Family relevance: `none`
+- Matched family terms: none
+- Evidence priority: `4014` (family_relevance:none, qc:pass, deferred_until_family_relevant)
 
 
 

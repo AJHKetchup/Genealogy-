@@ -6,77 +6,13 @@
 
 ## Queued Pages
 
-### Page 41
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, Luis, Riquelme, chile
-
 ### Page 2
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Carmen, Juan, List, Luis
-
-### Page 44
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Arturo, Carmen, Juan, chile
-
-### Page 45
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Arturo, Juan, Juana, Luis, chile
-
-### Page 46
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, Luis, Smith, chile
-
-### Page 48
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, Luis, Riquelme, chile
-
-### Page 49
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Arturo, Carmen, Juan, Luis, chile
-
-### Page 51
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Arturo, Heinz, Juan, Luis, chile
-
-### Page 52
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Carmen, Juan, Luis, chile
+- Matched family context: Carmen
 
 ### Page 53
 
@@ -84,7 +20,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Dios, Juan, chile
+- Matched family context: Arturo
 
 ### Page 55
 
@@ -92,44 +28,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Carmen, Juan, List, chile
-
-### Page 16
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Alexander, Juan, Riquelme, name
-
-### Page 57
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, Luis, Smith, chile
-
-### Page 58
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, chile
-
-### Page 59
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Juan, Luis, chile
-
-### Page 60
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Arturo, Juan, Luis, chile
+- Matched family context: Arturo, Carmen

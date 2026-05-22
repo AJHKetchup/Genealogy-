@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 184 | medium | high | pass | none | Luis, chile |
-| 2 | medium | high | pass | none | date |
-| 3 | medium | high | pass | none | Luis, Mercedes |
-| 187 | high | high | pass | none | List, Luis, chile, date, permanent, student |
-| 5 | medium | high | pass | none | List, Luis |
-| 475 | high | high | pass | none | Luis, chile, date, name, permanent |
-| 190 | medium | high | pass | none | Luis, chile |
-| 191 | medium | high | pass | none | Arturo, chile |
-| 192 | critical | low | reread-page | none | Arturo, Luis, chile |
-| 193 | critical | low | reread-page | none | Luis, chile |
-| 194 | medium | high | pass | none | Luis, chile |
-| 195 | critical | low | reread-page | none | Luis, chile |
-| 196 | medium | high | pass | none | Luis, chile |
-| 197 | medium | high | pass | none | chile |
-| 198 | medium | high | pass | none | chile |
-| 199 | critical | low | reread-page | none | Juan, Luis, chile |
-| 200 | critical | low | reread-page | none | Juan, chile |
-| 201 | critical | low | reread-page | none | Juan, Juana, Luis, chile |
-| 202 | critical | low | reread-page | none | Juan, chile |
-| 20 | critical | low | reread-page | none | Jose, Juan, List, Luis |
+| 184 | none | high | pass | none | none |
+| 2 | none | high | pass | none | none |
+| 3 | medium | high | pass | none | Mercedes |
+| 187 | none | high | pass | none | none |
+| 5 | none | high | pass | none | none |
+| 475 | none | high | pass | none | none |
+| 190 | none | high | pass | none | none |
+| 191 | medium | high | pass | none | Arturo |
+| 192 | medium | high | pass | none | Arturo |
+| 193 | none | high | pass | none | none |
+| 194 | none | high | pass | none | none |
+| 195 | none | high | pass | none | none |
+| 196 | none | high | pass | none | none |
+| 197 | none | high | pass | none | none |
+| 198 | none | high | pass | none | none |
+| 199 | none | high | pass | none | none |
+| 200 | none | high | pass | none | none |
+| 201 | medium | high | pass | none | Juana |
+| 202 | none | high | pass | none | none |
+| 20 | none | high | pass | none | none |

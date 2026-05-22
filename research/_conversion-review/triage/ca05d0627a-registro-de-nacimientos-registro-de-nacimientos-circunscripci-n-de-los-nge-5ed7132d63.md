@@ -8,4 +8,4 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | critical | low | reread-page | none | Birth, Carmen, Dios, Entry, Jose, Juan, Juana, Mercedes, Pulgar, Riquelme, Rows, Soler, chile, date, juan soler, mercedes riquelme, mother, name |
+| 1 | critical | low | reread-page | none | Carmen, Juana, Mercedes, Pulgar, Riquelme, Soler, juan soler, mercedes riquelme |

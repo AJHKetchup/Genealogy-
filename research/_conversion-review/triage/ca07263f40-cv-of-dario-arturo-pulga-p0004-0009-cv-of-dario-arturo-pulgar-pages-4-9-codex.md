@@ -8,9 +8,9 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 4 | high | medium | reread-page | explicit_reread_needed | Arturo, Dario, Entry, List, Pulgar, date |
-| 5 | high | high | pass | none | Arturo, Dario, Entry, Pulgar, date, england, name |
-| 6 | high | medium | reread-page | explicit_reread_needed | Arturo, Dario, Entry, Pulgar, date, name |
-| 7 | high | high | pass | none | Arturo, Dario, Entry, Pulgar, date, name |
-| 8 | high | high | pass | none | Arturo, Dario, Entry, Pulgar, chile, date, name |
-| 9 | high | high | pass | none | Arturo, Dario, List, Pulgar, chile, date |
+| 4 | high | medium | reread-page | explicit_reread_needed | Arturo, Dario, Pulgar |
+| 5 | high | high | pass | none | Arturo, Dario, Pulgar, england |
+| 6 | high | medium | reread-page | explicit_reread_needed | Arturo, Dario, Pulgar |
+| 7 | high | high | pass | none | Arturo, Dario, Pulgar |
+| 8 | high | high | pass | none | Arturo, Dario, Pulgar |
+| 9 | high | high | pass | none | Arturo, Dario, Pulgar |

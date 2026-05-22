@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 490 | critical | low | reread-page | none | Juan, List |
-| 2 | critical | low | reread-page | none | Juan, Luis |
-| 3 | critical | low | reread-page | none | Carmen, Juan, List |
-| 4 | critical | low | reread-page | none | Juan, List, Luis |
-| 5 | critical | low | reread-page | none | Juan, Luis |
-| 6 | critical | low | reread-page | none | Juan, Luis, date |
-| 7 | critical | low | reread-page | none | Dios, Juan, List, Luis, chile |
-| 211 | critical | low | reread-page | none | Dios, Juan, List, Luis, chile, permanent |
-| 9 | medium | high | pass | none | List, Luis |
-| 213 | high | high | pass | none | Arturo, Luis, chile |
-| 214 | high | high | pass | none | Arturo, Luis, chile, date |
-| 215 | high | high | pass | none | List, Luis, chile, date, name |
-| 13 | critical | low | reread-page | none | Juan |
-| 14 | critical | low | reread-page | none | Juan, chile, date |
-| 15 | critical | low | reread-page | none | Juan, Luis, chile |
-| 16 | critical | low | reread-page | none | Juan, List |
-| 17 | critical | low | reread-page | none | Mercedes, name |
-| 18 | medium | high | pass | none | List, Luis |
-| 19 | medium | high | pass | none | List, chile |
-| 223 | critical | low | reread-page | none | Juan, List, Luis, chile, date, name |
+| 490 | none | high | pass | none | none |
+| 2 | none | high | pass | none | none |
+| 3 | medium | high | pass | none | Carmen |
+| 4 | none | high | pass | none | none |
+| 5 | none | high | pass | none | none |
+| 6 | none | high | pass | none | none |
+| 7 | none | high | pass | none | none |
+| 211 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
+| 213 | medium | high | pass | none | Arturo |
+| 214 | medium | high | pass | none | Arturo |
+| 215 | none | high | pass | none | none |
+| 13 | none | high | pass | none | none |
+| 14 | none | high | pass | none | none |
+| 15 | none | high | pass | none | none |
+| 16 | none | high | pass | none | none |
+| 17 | critical | low | reread-page | none | Mercedes |
+| 18 | none | high | pass | none | none |
+| 19 | none | high | pass | none | none |
+| 223 | none | high | pass | none | none |

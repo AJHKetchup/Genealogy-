@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
 - Page range: 87-87
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Carmen, Juan, Luis, chile, chunk
-- Evidence priority: `87` (family_relevance:critical, qc:reread-page, matched_terms)
+- Family relevance: `medium`
+- Matched family terms: Carmen
+- Evidence priority: `2087` (family_relevance:medium, qc:pass, matched_terms)
 
 
 

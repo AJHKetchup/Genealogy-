@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf`
 - Page range: 106-106
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Arriagada, Entry, John, Juan, List, chunk, date, name
-- Evidence priority: `106` (family_relevance:critical, qc:reread-page, matched_terms)
+- Family relevance: `medium`
+- Matched family terms: Arriagada
+- Evidence priority: `2106` (family_relevance:medium, qc:spot-check, matched_terms)
 
 
 

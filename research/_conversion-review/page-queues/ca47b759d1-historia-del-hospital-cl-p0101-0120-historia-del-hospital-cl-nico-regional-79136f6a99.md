@@ -10,9 +10,9 @@
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
-- Family relevance: `medium`
+- Family relevance: `none`
 - Quality flags: explicit_reread_needed
-- Matched family context: name
+- Matched family context: none
 
 ### Page 105
 
@@ -20,23 +20,15 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: explicit_reread_needed
-- Matched family context: Arriagada, Dios, Juan, Pulgar, Riquelme, name
+- Matched family context: Arriagada, Pulgar, Riquelme
 
 ### Page 106
 
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
+- Recommended action: `spot-check`
+- Conversion confidence: `medium`
+- Family relevance: `none`
 - Quality flags: explicit_reread_needed
-- Matched family context: Juan, name
-
-### Page 9
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Entry, Juan, Luis, chile
+- Matched family context: none
 
 ### Page 13
 
@@ -44,28 +36,28 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, John, Juan, Riquelme
+- Matched family context: Arturo, Riquelme
 
 ### Page 114
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
-- Family relevance: `medium`
+- Family relevance: `none`
 - Quality flags: explicit_reread_needed
-- Matched family context: name
+- Matched family context: none
 
 ### Page 19
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
+- Family relevance: `high`
 - Quality flags: none
-- Matched family context: Dios, Juan, chile, last
+- Matched family context: none
 
 ### Page 20
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
+- Family relevance: `high`
 - Quality flags: none
-- Matched family context: Juan
+- Matched family context: none

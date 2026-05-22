@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/S519bis-26-4.pdf`
 - Page range: 2-2
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: chunk, date, name
-- Evidence priority: `100002` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
+- Family relevance: `high`
+- Matched family terms: none
+- Evidence priority: `101002` (family_relevance:high, qc:reread-page, blocked_by_conversion_qc)
 
 ## QC Hold
 

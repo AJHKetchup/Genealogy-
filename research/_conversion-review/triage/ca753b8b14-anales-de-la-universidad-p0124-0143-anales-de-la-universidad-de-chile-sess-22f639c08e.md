@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 124 | medium | high | pass | none | chile |
-| 125 | medium | high | pass | none | Luis, chile |
-| 126 | high | high | pass | none | Juana, Luis, chile |
-| 127 | medium | high | pass | none | Luis, chile |
-| 128 | medium | high | pass | none | Luis, chile |
-| 129 | medium | high | pass | none | chile |
-| 130 | medium | high | pass | none | chile |
-| 131 | medium | high | pass | none | chile |
-| 132 | medium | high | pass | none | chile |
-| 133 | medium | high | pass | none | chile |
-| 134 | medium | high | pass | none | chile |
-| 135 | medium | high | pass | none | chile |
-| 136 | medium | high | pass | none | chile |
-| 137 | medium | high | pass | none | chile |
-| 138 | medium | high | pass | none | chile |
-| 139 | medium | high | pass | none | chile |
-| 140 | medium | high | pass | none | chile |
-| 141 | critical | low | reread-page | none | Juan, chile |
-| 142 | medium | high | pass | none | chile |
-| 143 | critical | low | reread-page | none | Luis, Mercedes, chile |
+| 124 | none | high | pass | none | none |
+| 125 | none | high | pass | none | none |
+| 126 | medium | high | pass | none | Juana |
+| 127 | none | high | pass | none | none |
+| 128 | none | high | pass | none | none |
+| 129 | none | high | pass | none | none |
+| 130 | none | high | pass | none | none |
+| 131 | none | high | pass | none | none |
+| 132 | none | high | pass | none | none |
+| 133 | none | high | pass | none | none |
+| 134 | none | high | pass | none | none |
+| 135 | none | high | pass | none | none |
+| 136 | none | high | pass | none | none |
+| 137 | none | high | pass | none | none |
+| 138 | none | high | pass | none | none |
+| 139 | none | high | pass | none | none |
+| 140 | none | high | pass | none | none |
+| 141 | none | high | pass | none | none |
+| 142 | none | high | pass | none | none |
+| 143 | critical | low | reread-page | none | Mercedes |

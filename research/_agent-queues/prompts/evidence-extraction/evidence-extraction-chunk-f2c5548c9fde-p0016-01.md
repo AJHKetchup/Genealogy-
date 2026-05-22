@@ -11,18 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
 - Page range: 16-16
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Alexander, Juan, Riquelme, chile, chunk, name
-- Evidence priority: `100016` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
-
-## QC Hold
-
-- Status: `blocked_needs_reread`
-- Blocked pages: 16
-- Page reread queue: `research/_conversion-review/page-queues/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dic-8fbd29c654.md`
-- Suspected readings: `research/_conversion-review/corrections/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dic-8fbd29c654.md`
-
-Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
+- Family relevance: `medium`
+- Matched family terms: Alexander, Riquelme
+- Evidence priority: `2016` (family_relevance:medium, qc:pass, matched_terms)
 
 
 

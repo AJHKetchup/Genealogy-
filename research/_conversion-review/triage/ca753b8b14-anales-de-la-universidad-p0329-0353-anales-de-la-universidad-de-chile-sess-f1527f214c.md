@@ -8,28 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | critical | low | reread-page | none | Juan, chile, last |
+| 1 | none | high | pass | none | none |
 | 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
-| 5 | medium | high | pass | none | chile |
-| 6 | medium | high | pass | none | chile |
-| 7 | medium | high | pass | none | last |
-| 8 | medium | high | pass | none | chile |
-| 337 | medium | high | pass | none | chile, name |
+| 5 | none | high | pass | none | none |
+| 6 | none | high | pass | none | none |
+| 7 | none | high | pass | none | none |
+| 8 | none | high | pass | none | none |
+| 337 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
-| 11 | medium | high | pass | none | name |
-| 12 | critical | low | reread-page | none | Juan, chile, last |
+| 11 | none | high | pass | none | none |
+| 12 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
-| 15 | medium | high | pass | none | chile, name |
-| 16 | medium | high | pass | none | chile |
-| 17 | medium | high | pass | none | Segundo, chile |
-| 18 | critical | low | reread-page | none | Dios, Juan |
-| 19 | critical | low | reread-page | none | Dios, Juan |
-| 20 | medium | high | pass | none | Dios |
-| 21 | medium | high | pass | none | Dios |
+| 15 | none | high | pass | none | none |
+| 16 | none | high | pass | none | none |
+| 17 | medium | high | pass | none | Segundo |
+| 18 | none | high | pass | none | none |
+| 19 | none | high | pass | none | none |
+| 20 | none | high | pass | none | none |
+| 21 | none | high | pass | none | none |
 | 22 | none | high | pass | none | none |
-| 23 | medium | high | pass | none | name |
+| 23 | none | high | pass | none | none |
 | 24 | none | high | pass | none | none |
-| 25 | medium | high | pass | none | chile |
+| 25 | none | high | pass | none | none |

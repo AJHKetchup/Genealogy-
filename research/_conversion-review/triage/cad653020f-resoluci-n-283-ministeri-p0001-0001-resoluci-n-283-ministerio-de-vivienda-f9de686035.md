@@ -8,4 +8,4 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | critical | low | reread-page | none | Arriagada, Luis, Pulgar, chile, date |
+| 1 | critical | low | reread-page | none | Arriagada, Pulgar |

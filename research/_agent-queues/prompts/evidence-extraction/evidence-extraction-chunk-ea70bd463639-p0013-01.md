@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
 - Page range: 13-13
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Dario, Pulgar, chunk
-- Evidence priority: `1013` (family_relevance:high, qc:pass, matched_terms)
+- Family relevance: `medium`
+- Matched family terms: Dario, Pulgar
+- Evidence priority: `2013` (family_relevance:medium, qc:pass, matched_terms)
 
 
 

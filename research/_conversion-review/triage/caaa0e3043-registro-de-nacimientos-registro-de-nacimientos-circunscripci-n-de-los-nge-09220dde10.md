@@ -8,4 +8,4 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | critical | low | reread-page | none | Birth, Carmen, Entry, Juan, Luis, Registration, chile, date, name |
+| 1 | medium | high | pass | none | Carmen |

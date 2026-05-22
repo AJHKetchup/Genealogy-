@@ -9,5 +9,5 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
-| 2 | medium | high | pass | none | chile |
+| 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |

@@ -8,28 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | high | high | pass | none | chile, last, name |
-| 380 | medium | high | pass | none | Segundo, chile |
-| 3 | medium | high | pass | none | name |
+| 1 | none | high | pass | none | none |
+| 380 | medium | high | pass | none | Segundo |
+| 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
-| 5 | medium | high | pass | none | last |
+| 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
-| 385 | high | high | pass | none | Segundo, chile, name |
-| 8 | critical | low | reread-page | none | chile |
-| 9 | medium | high | pass | none | chile |
-| 10 | critical | low | reread-page | none | chile, last |
-| 11 | medium | high | pass | none | Segundo, chile |
-| 12 | medium | high | pass | none | chile, last |
-| 13 | medium | high | pass | none | chile |
-| 14 | medium | high | pass | none | chile |
-| 15 | high | high | pass | none | Luis, last, name |
-| 16 | medium | high | pass | none | chile |
-| 395 | medium | high | pass | none | chile |
-| 18 | critical | low | reread-page | none | Juan, last |
-| 397 | critical | low | reread-page | none | chile |
-| 20 | medium | high | pass | none | chile |
-| 399 | medium | high | pass | none | chile |
-| 22 | critical | low | reread-page | none | Mercedes, chile |
-| 23 | medium | high | pass | none | last, name |
+| 385 | medium | high | pass | none | Segundo |
+| 8 | high | low | reread-page | none | none |
+| 9 | none | high | pass | none | none |
+| 10 | high | low | reread-page | none | none |
+| 11 | medium | high | pass | none | Segundo |
+| 12 | none | high | pass | none | none |
+| 13 | none | high | pass | none | none |
+| 14 | none | high | pass | none | none |
+| 15 | none | high | pass | none | none |
+| 16 | none | high | pass | none | none |
+| 395 | none | high | pass | none | none |
+| 18 | none | high | pass | none | none |
+| 397 | high | low | reread-page | none | none |
+| 20 | none | high | pass | none | none |
+| 399 | none | high | pass | none | none |
+| 22 | critical | low | reread-page | none | Mercedes |
+| 23 | none | high | pass | none | none |
 | 24 | none | high | pass | none | none |
-| 25 | medium | high | pass | none | chile, name |
+| 25 | none | high | pass | none | none |

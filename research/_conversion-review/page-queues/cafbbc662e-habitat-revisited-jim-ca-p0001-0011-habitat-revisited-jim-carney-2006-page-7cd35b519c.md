@@ -10,9 +10,9 @@
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
+- Family relevance: `high`
 - Quality flags: none
-- Matched family context: chile, name, time
+- Matched family context: none
 
 ### Page 4
 
@@ -20,7 +20,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Dario, mother
+- Matched family context: Dario
 
 ### Page 5
 
@@ -28,4 +28,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Pulgar, name, time
+- Matched family context: Pulgar

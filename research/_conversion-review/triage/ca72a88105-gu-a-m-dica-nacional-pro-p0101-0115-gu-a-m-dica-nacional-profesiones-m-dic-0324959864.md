@@ -8,18 +8,18 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 101 | critical | low | reread-page | none | Juan, chile |
-| 102 | critical | low | reread-page | none | Arturo, Juan, Luis, Smith, chile |
-| 103 | critical | low | reread-page | none | Juan, Luis, Riquelme, chile |
-| 104 | critical | low | reread-page | none | Juan, Luis, chile |
-| 105 | critical | low | reread-page | none | Arturo, Juan, Luis, Pulgar, chile |
-| 106 | critical | low | reread-page | none | Juan, Riquelme, chile |
-| 107 | critical | low | reread-page | none | Andes, Arturo, Entry, Juan, List, chile |
-| 108 | critical | low | reread-page | none | Arturo, Juan, chile |
-| 9 | critical | low | reread-page | none | List, Luis, chile |
-| 10 | high | high | pass | none | Arturo, Entry, List, name |
-| 11 | critical | low | reread-page | none | Arriagada, Juan, Luis, Riquelme, chile |
-| 12 | critical | low | reread-page | none | Arriagada, Arturo, Juan, List |
-| 13 | critical | low | reread-page | none | Arriagada, Juan, Luis, date |
-| 114 | critical | low | reread-page | none | Arturo, Juan, Luis, chile |
-| 115 | critical | low | reread-page | none | Juan, Luis, chile |
+| 101 | none | high | pass | none | none |
+| 102 | critical | low | reread-page | none | Arturo, Smith |
+| 103 | medium | high | pass | none | Riquelme |
+| 104 | none | high | pass | none | none |
+| 105 | medium | high | pass | none | Arturo, Pulgar |
+| 106 | medium | high | pass | none | Riquelme |
+| 107 | medium | high | pass | none | Andes, Arturo |
+| 108 | medium | high | pass | none | Arturo |
+| 9 | none | high | pass | none | none |
+| 10 | medium | high | pass | none | Arturo |
+| 11 | critical | low | reread-page | none | Arriagada, Riquelme |
+| 12 | critical | low | reread-page | none | Arriagada, Arturo |
+| 13 | medium | high | pass | none | Arriagada |
+| 114 | medium | high | pass | none | Arturo |
+| 115 | none | high | pass | none | none |

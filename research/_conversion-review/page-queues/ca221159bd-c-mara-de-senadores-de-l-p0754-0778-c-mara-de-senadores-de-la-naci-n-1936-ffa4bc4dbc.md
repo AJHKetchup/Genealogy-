@@ -10,9 +10,9 @@
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
+- Family relevance: `high`
 - Quality flags: none
-- Matched family context: Luis
+- Matched family context: none
 
 ### Page 755
 
@@ -28,7 +28,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Luis, Segundo
+- Matched family context: Segundo
 
 ### Page 767
 
@@ -66,9 +66,9 @@
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
+- Family relevance: `high`
 - Quality flags: none
-- Matched family context: Dios
+- Matched family context: none
 
 ### Page 776
 
