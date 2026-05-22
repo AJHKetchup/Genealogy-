@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
 - Page range: 776-776
 - Staging area: `research/_staging`
-- Family relevance: `medium`
+- Family relevance: `critical`
 - Matched family terms: Segundo, chunk
-- Evidence priority: `2776` (family_relevance:medium, qc:pass, matched_terms)
+- Evidence priority: `776` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

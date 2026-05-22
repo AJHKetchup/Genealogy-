@@ -12,7 +12,7 @@
 - Conversion confidence: `medium`
 - Family relevance: `medium`
 - Quality flags: explicit_reread_needed
-- Matched family context: maternal
+- Matched family context: maternal, name
 
 ### Page 7
 
@@ -20,7 +20,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Dios, Juan, Juana
+- Matched family context: Dios, Juan, Juana, chile
 
 ### Page 10
 
@@ -28,36 +28,36 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Segundo
+- Matched family context: List, Segundo
 
 ### Page 71
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
-- Family relevance: `none`
+- Family relevance: `medium`
 - Quality flags: explicit_reread_needed
-- Matched family context: none
+- Matched family context: name
 
 ### Page 13
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `high`
+- Family relevance: `critical`
 - Quality flags: none
-- Matched family context: none
+- Matched family context: List
 
 ### Page 15
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `high`
+- Family relevance: `critical`
 - Quality flags: none
-- Matched family context: none
+- Matched family context: last
 
 ### Page 18
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `high`
+- Family relevance: `critical`
 - Quality flags: none
-- Matched family context: none
+- Matched family context: chile

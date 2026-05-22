@@ -8,8 +8,8 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | high | pass | none | none |
-| 2 | none | high | pass | none | none |
+| 1 | medium | high | pass | none | List |
+| 2 | medium | high | pass | none | List |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
@@ -24,7 +24,7 @@
 | 14 | none | high | pass | none | none |
 | 15 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
-| 17 | none | high | pass | none | none |
+| 17 | medium | high | pass | none | List |
 | 18 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |

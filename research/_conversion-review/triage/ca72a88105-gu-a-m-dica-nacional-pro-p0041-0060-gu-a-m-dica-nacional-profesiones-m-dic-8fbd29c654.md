@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 41 | critical | low | reread-page | none | Juan, Luis, Riquelme |
-| 2 | critical | low | reread-page | none | Carmen, Juan, Luis |
-| 43 | medium | high | pass | none | Arriagada |
-| 44 | critical | low | reread-page | none | Arturo, Carmen, Juan |
-| 45 | critical | low | reread-page | none | Arturo, Juan, Juana, Luis |
-| 46 | critical | low | reread-page | none | Juan, Luis, Smith |
-| 47 | medium | high | pass | none | Heinz, Luis |
-| 48 | critical | low | reread-page | none | Juan, Luis, Riquelme |
-| 49 | critical | low | reread-page | none | Arturo, Carmen, Juan, Luis |
-| 50 | medium | high | pass | none | Arturo, Luis |
-| 51 | critical | low | reread-page | none | Arturo, Heinz, Juan, Luis |
-| 52 | critical | low | reread-page | none | Carmen, Juan, Luis |
-| 53 | critical | low | reread-page | none | Arturo, Dios, Juan |
-| 54 | medium | high | pass | none | Arturo, Luis |
-| 55 | critical | low | reread-page | none | Arturo, Carmen, Juan |
-| 16 | critical | low | reread-page | none | Alexander, Juan, Riquelme |
-| 57 | critical | low | reread-page | none | Juan, Luis, Smith |
-| 58 | critical | low | reread-page | none | Juan |
-| 59 | critical | low | reread-page | none | Juan, Luis |
-| 60 | critical | low | reread-page | none | Arturo, Juan, Luis |
+| 41 | critical | low | reread-page | none | Juan, Luis, Riquelme, chile |
+| 2 | critical | low | reread-page | none | Carmen, Juan, List, Luis |
+| 43 | medium | high | pass | none | Arriagada, chile |
+| 44 | critical | low | reread-page | none | Arturo, Carmen, Juan, chile |
+| 45 | critical | low | reread-page | none | Arturo, Juan, Juana, Luis, chile |
+| 46 | critical | low | reread-page | none | Juan, Luis, Smith, chile |
+| 47 | high | high | pass | none | Heinz, Luis, chile |
+| 48 | critical | low | reread-page | none | Juan, Luis, Riquelme, chile |
+| 49 | critical | low | reread-page | none | Arturo, Carmen, Juan, Luis, chile |
+| 50 | high | high | pass | none | Arturo, Luis, chile |
+| 51 | critical | low | reread-page | none | Arturo, Heinz, Juan, Luis, chile |
+| 52 | critical | low | reread-page | none | Carmen, Juan, Luis, chile |
+| 53 | critical | low | reread-page | none | Arturo, Dios, Juan, chile |
+| 54 | high | high | pass | none | Arturo, Luis, chile |
+| 55 | critical | low | reread-page | none | Arturo, Carmen, Juan, List, chile |
+| 16 | critical | low | reread-page | none | Alexander, Juan, Riquelme, name |
+| 57 | critical | low | reread-page | none | Juan, Luis, Smith, chile |
+| 58 | critical | low | reread-page | none | Juan, chile |
+| 59 | critical | low | reread-page | none | Juan, Luis, chile |
+| 60 | critical | low | reread-page | none | Arturo, Juan, Luis, chile |

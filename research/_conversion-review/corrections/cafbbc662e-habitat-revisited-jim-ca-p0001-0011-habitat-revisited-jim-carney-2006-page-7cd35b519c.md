@@ -6,9 +6,19 @@
 
 ## Suspected Readings
 
+- Literal converted text: `Andreas`
+  Suspected reading: `Andes`
+  Reason: near match to known family context term `Andes`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Carney`
   Suspected reading: `Carmen`
   Reason: near match to known family context term `Carmen`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Andreas`
+  Suspected reading: `Andes`
+  Reason: near match to known family context term `Andes`
   Verification target: reread the page image or exact region before using this in a claim.
 
 - Literal converted text: `Jane`

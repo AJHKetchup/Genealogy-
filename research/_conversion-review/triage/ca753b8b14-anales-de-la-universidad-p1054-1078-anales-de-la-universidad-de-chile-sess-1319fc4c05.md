@@ -8,28 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1054 | none | high | pass | none | none |
-| 1055 | none | high | pass | none | none |
-| 1056 | high | low | reread-page | none | none |
-| 1057 | none | high | pass | none | none |
-| 1058 | none | high | pass | none | none |
-| 1059 | none | high | pass | none | none |
-| 1060 | none | high | pass | none | none |
-| 1061 | medium | high | pass | none | Segundo |
-| 1062 | none | high | pass | none | none |
-| 1063 | none | high | pass | none | none |
-| 1064 | none | high | pass | none | none |
-| 1065 | none | high | pass | none | none |
-| 1066 | none | high | pass | none | none |
-| 1067 | none | high | pass | none | none |
-| 1068 | none | high | pass | none | none |
-| 1069 | none | high | pass | none | none |
-| 1070 | none | high | pass | none | none |
-| 1071 | none | high | pass | none | none |
-| 1072 | none | high | pass | none | none |
-| 1073 | none | high | pass | none | none |
-| 1074 | none | high | pass | none | none |
-| 1075 | none | high | pass | none | none |
-| 1076 | medium | high | pass | none | Segundo |
-| 1077 | high | low | reread-page | none | none |
-| 1078 | none | high | pass | none | none |
+| 1054 | medium | high | pass | none | chile |
+| 1055 | medium | high | pass | none | chile |
+| 1056 | critical | low | reread-page | none | chile |
+| 1057 | medium | high | pass | none | chile |
+| 1058 | medium | high | pass | none | chile |
+| 1059 | medium | high | pass | none | chile |
+| 1060 | medium | high | pass | none | chile |
+| 1061 | medium | high | pass | none | Segundo, chile |
+| 1062 | medium | high | pass | none | chile |
+| 1063 | medium | high | pass | none | chile |
+| 1064 | medium | high | pass | none | chile |
+| 1065 | medium | high | pass | none | chile |
+| 1066 | medium | high | pass | none | chile |
+| 1067 | critical | low | reread-page | none | chile |
+| 1068 | medium | high | pass | none | chile |
+| 1069 | medium | high | pass | none | chile |
+| 1070 | medium | high | pass | none | chile |
+| 1071 | medium | high | pass | none | chile |
+| 1072 | medium | high | pass | none | chile |
+| 1073 | medium | high | pass | none | chile |
+| 1074 | medium | high | pass | none | chile |
+| 1075 | medium | high | pass | none | chile |
+| 1076 | medium | high | pass | none | Segundo, chile |
+| 1077 | critical | low | reread-page | none | chile |
+| 1078 | medium | high | pass | none | chile |

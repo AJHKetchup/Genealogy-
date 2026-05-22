@@ -8,28 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | high | pass | none | none |
-| 2 | medium | high | pass | none | date |
-| 3 | none | high | pass | none | none |
-| 537 | none | high | pass | none | none |
-| 608 | none | high | pass | none | none |
-| 6 | none | high | pass | none | none |
-| 610 | medium | high | pass | none | Segundo |
-| 611 | none | high | pass | none | none |
-| 612 | none | high | pass | none | none |
+| 1 | medium | high | pass | none | Andes, chile |
+| 2 | high | high | pass | none | chile, date, last |
+| 3 | medium | high | pass | none | chile |
+| 537 | medium | high | pass | none | chile |
+| 608 | medium | high | pass | none | chile |
+| 6 | medium | high | pass | none | last |
+| 610 | medium | high | pass | none | Segundo, chile |
+| 611 | medium | high | pass | none | chile |
+| 612 | medium | high | pass | none | chile |
 | 10 | none | high | pass | none | none |
-| 614 | none | high | pass | none | none |
-| 12 | none | high | pass | none | none |
-| 13 | none | high | pass | none | none |
-| 14 | none | high | pass | none | none |
+| 614 | medium | high | pass | none | chile |
+| 12 | medium | high | pass | none | chile |
+| 13 | medium | high | pass | none | chile |
+| 14 | medium | high | pass | none | chile |
 | 15 | none | high | pass | none | none |
-| 619 | none | high | pass | none | none |
-| 620 | none | high | pass | none | none |
-| 621 | none | high | pass | none | none |
-| 19 | none | high | pass | none | none |
-| 20 | none | high | pass | none | none |
+| 619 | medium | high | pass | none | chile |
+| 620 | medium | high | pass | none | chile |
+| 621 | medium | high | pass | none | chile |
+| 19 | medium | high | pass | none | chile |
+| 20 | medium | high | pass | none | chile |
 | 21 | none | high | pass | none | none |
-| 22 | none | high | pass | none | none |
-| 626 | none | high | pass | none | none |
-| 627 | none | high | pass | none | none |
-| 25 | none | high | pass | none | none |
+| 22 | medium | high | pass | none | chile, last |
+| 626 | medium | high | pass | none | chile |
+| 627 | medium | high | pass | none | chile |
+| 25 | medium | high | pass | none | chile |

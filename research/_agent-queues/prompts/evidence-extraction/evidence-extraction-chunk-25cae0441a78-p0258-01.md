@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
 - Page range: 258-258
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: chunk
-- Evidence priority: `1258` (family_relevance:high, qc:reread-page, matched_terms)
+- Family relevance: `critical`
+- Matched family terms: chile, chunk
+- Evidence priority: `258` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

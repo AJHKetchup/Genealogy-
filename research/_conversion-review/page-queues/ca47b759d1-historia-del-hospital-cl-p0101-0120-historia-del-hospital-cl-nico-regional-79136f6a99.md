@@ -10,9 +10,9 @@
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
-- Family relevance: `none`
+- Family relevance: `medium`
 - Quality flags: explicit_reread_needed
-- Matched family context: none
+- Matched family context: name
 
 ### Page 105
 
@@ -20,7 +20,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: explicit_reread_needed
-- Matched family context: Arriagada, Dios, Juan, Pulgar, Riquelme
+- Matched family context: Arriagada, Dios, Juan, Pulgar, Riquelme, name
 
 ### Page 106
 
@@ -28,7 +28,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: explicit_reread_needed
-- Matched family context: Juan
+- Matched family context: Juan, name
 
 ### Page 9
 
@@ -36,7 +36,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Entry, Juan, Luis
+- Matched family context: Entry, Juan, Luis, chile
 
 ### Page 13
 
@@ -50,9 +50,9 @@
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
-- Family relevance: `none`
+- Family relevance: `medium`
 - Quality flags: explicit_reread_needed
-- Matched family context: none
+- Matched family context: name
 
 ### Page 19
 
@@ -60,7 +60,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Dios, Juan
+- Matched family context: Dios, Juan, chile, last
 
 ### Page 20
 

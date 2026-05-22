@@ -6,6 +6,11 @@
 
 ## Suspected Readings
 
+- Literal converted text: `ANTES`
+  Suspected reading: `Andes`
+  Reason: near match to known family context term `Andes`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `ARRIGADA`
   Suspected reading: `Arriagada`
   Reason: near match to known family context term `Arriagada`
@@ -21,9 +26,9 @@
   Reason: near match to known family context term `Juana`
   Verification target: reread the page image or exact region before using this in a claim.
 
-- Literal converted text: `PULGA`
-  Suspected reading: `Pulgar`
-  Reason: near match to known family context term `Pulgar`
+- Literal converted text: `ENERO`
+  Suspected reading: `Entry`
+  Reason: near match to known family context term `Entry`
   Verification target: reread the page image or exact region before using this in a claim.
 
 - Literal converted text: `PULGARA`

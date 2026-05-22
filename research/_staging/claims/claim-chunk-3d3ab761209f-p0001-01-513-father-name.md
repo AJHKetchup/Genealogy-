@@ -1,5 +1,6 @@
 ---
 type: claim
+status: draft
 claim_type: parentage
 subject: "entry 513 Pulgar Amagada child (given name unresolved)"
 predicate: "had father named"
@@ -14,8 +15,8 @@ confidence: medium
 promotion_recommendation: hold_for_conversion_qa
 ---
 
-Literal support: "**Nombre del padre.**<br>José del Carmen Pulgar"
+Literal support: `Nombre del padre. Jose del Carmen Pulgar`.
 
-Conversion confidence / QA concern: assigned chunk and converted file agree on the father name, but the child's name/date conflict should be resolved before canonical linking.
+Conversion confidence / QA concern: father name is stable across the assigned chunk, converted Markdown, and source image. The claim remains held because the child identity label is not promotion-ready.
 
-Uncertainty: identity merge with any existing Jose del Carmen Pulgar requires proof review.
+Uncertainty: identity merge with any existing Jose del Carmen Pulgar requires proof review; do not use the declarant abbreviation alone as separate identity proof.

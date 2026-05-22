@@ -11,9 +11,18 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/S522bis-29-3.pdf`
 - Page range: 17-17
 - Staging area: `research/_staging`
-- Family relevance: `medium`
-- Matched family terms: chunk
-- Evidence priority: `2017` (family_relevance:medium, qc:pass, matched_terms)
+- Family relevance: `critical`
+- Matched family terms: chunk, last
+- Evidence priority: `100017` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
+
+## QC Hold
+
+- Status: `blocked_needs_reread`
+- Blocked pages: 17
+- Page reread queue: `research/_conversion-review/page-queues/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75-codex.md`
+- Suspected readings: `research/_conversion-review/corrections/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75-codex.md`
+
+Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
 
 
 

@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | critical | low | reread-page | none | Dios, Juan |
-| 2 | none | high | pass | none | none |
+| 1 | critical | low | reread-page | none | Dios, Juan, chile |
+| 2 | medium | high | pass | none | chile |
 | 3 | none | high | pass | none | none |
-| 4 | critical | low | reread-page | none | Dios, Juan |
+| 4 | critical | low | reread-page | none | Dios, Juan, List, chile |
 | 5 | critical | low | reread-page | none | Dios, Juan |
-| 6 | critical | low | reread-page | none | Dios, Juan, Juana |
-| 27 | critical | low | reread-page | explicit_reread_needed | Mercedes |
-| 8 | critical | low | reread-page | none | Dios, Juan |
-| 9 | high | high | pass | none | Dios, Entry, Segundo, date |
-| 10 | medium | high | pass | none | Luis |
-| 11 | critical | low | reread-page | none | Dios, Juan |
-| 12 | critical | low | reread-page | none | Dios, Juan |
-| 13 | critical | low | reread-page | none | Juan |
+| 6 | critical | low | reread-page | none | Dios, Juan, Juana, List |
+| 27 | critical | low | reread-page | explicit_reread_needed | Mercedes, name |
+| 8 | critical | low | reread-page | none | Dios, Juan, chile |
+| 9 | high | high | pass | none | Dios, Entry, List, Segundo, date |
+| 10 | medium | high | pass | none | Luis, name |
+| 11 | critical | low | reread-page | none | Dios, Juan, List |
+| 12 | critical | low | reread-page | none | Dios, Juan, chile, last |
+| 13 | critical | low | reread-page | none | Juan, chile |
 | 14 | critical | low | reread-page | none | Dios, Juan, Luis |
-| 15 | critical | low | reread-page | none | Juan |
+| 15 | critical | low | reread-page | none | Juan, chile, last |
 | 36 | critical | low | reread-page | none | Arturo, Juan, Luis |
-| 37 | critical | low | reread-page | explicit_reread_needed | Dios, Juan |
-| 18 | critical | low | reread-page | none | Dios, Juan |
-| 39 | critical | low | reread-page | explicit_reread_needed | Dios, Juan |
+| 37 | critical | low | reread-page | explicit_reread_needed | Dios, Juan, chile, name |
+| 18 | critical | low | reread-page | none | Dios, Juan, chile |
+| 39 | critical | low | reread-page | explicit_reread_needed | Dios, Juan, name |
 | 40 | none | high | pass | none | none |

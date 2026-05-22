@@ -8,13 +8,13 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | medium | high | pass | none | Dios |
-| 2 | medium | high | pass | none | Dios |
+| 1 | medium | high | pass | none | Dios, chile |
+| 2 | medium | high | pass | none | Dios, name |
 | 3 | none | high | pass | none | none |
-| 4 | none | high | pass | none | none |
-| 5 | critical | low | reread-page | none | Segundo |
-| 6 | none | high | pass | none | none |
+| 4 | medium | high | pass | none | name |
+| 5 | critical | low | reread-page | none | Segundo, chile, last |
+| 6 | medium | high | pass | none | chile, name |
 | 7 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
-| 9 | none | high | pass | none | none |
+| 9 | medium | high | pass | none | List |
 | 10 | none | high | pass | none | none |

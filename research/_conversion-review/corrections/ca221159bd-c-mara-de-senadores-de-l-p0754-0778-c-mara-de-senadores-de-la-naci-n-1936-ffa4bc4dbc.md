@@ -6,9 +6,19 @@
 
 ## Suspected Readings
 
+- Literal converted text: `Aires`
+  Suspected reading: `Andes`
+  Reason: near match to known family context term `Andes`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `dado`
   Suspected reading: `Dario`
   Reason: near match to known family context term `Dario`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Antes`
+  Suspected reading: `Andes`
+  Reason: near match to known family context term `Andes`
   Verification target: reread the page image or exact region before using this in a claim.
 
 - Literal converted text: `David`
@@ -16,7 +26,37 @@
   Reason: near match to known family context term `Dario`
   Verification target: reread the page image or exact region before using this in a claim.
 
+- Literal converted text: `Aires`
+  Suspected reading: `Andes`
+  Reason: near match to known family context term `Andes`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Aires`
+  Suspected reading: `Andes`
+  Reason: near match to known family context term `Andes`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Aires`
+  Suspected reading: `Andes`
+  Reason: near match to known family context term `Andes`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Aires`
+  Suspected reading: `Andes`
+  Reason: near match to known family context term `Andes`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Cestaa`
   Suspected reading: `Cesar`
   Reason: near match to known family context term `Cesar`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Aires`
+  Suspected reading: `Andes`
+  Reason: near match to known family context term `Andes`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Aires`
+  Suspected reading: `Andes`
+  Reason: near match to known family context term `Andes`
   Verification target: reread the page image or exact region before using this in a claim.

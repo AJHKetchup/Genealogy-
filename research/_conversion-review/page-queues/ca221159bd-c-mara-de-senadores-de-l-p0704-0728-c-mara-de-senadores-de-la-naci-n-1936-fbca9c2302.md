@@ -6,7 +6,23 @@
 
 ## Queued Pages
 
-### Page 722
+### Page 704
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none
+
+### Page 717
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Luis
+
+### Page 19
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`

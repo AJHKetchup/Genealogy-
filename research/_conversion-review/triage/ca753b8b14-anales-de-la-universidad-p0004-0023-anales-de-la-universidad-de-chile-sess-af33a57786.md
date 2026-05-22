@@ -9,22 +9,22 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
-| 5 | medium | high | pass | none | Jose |
+| 5 | medium | high | pass | none | Jose, chile |
 | 3 | none | high | pass | none | none |
+| 7 | medium | high | pass | none | chile |
+| 5 | medium | high | pass | none | chile, intended |
+| 9 | medium | high | pass | none | chile |
 | 7 | none | high | pass | none | none |
-| 5 | none | high | pass | none | none |
-| 9 | none | high | pass | none | none |
-| 7 | none | high | pass | none | none |
-| 11 | critical | low | reread-page | none | Arriagada, Pulgar |
-| 12 | medium | high | pass | none | Luis |
-| 13 | critical | low | reread-page | none | Juan |
-| 14 | none | high | pass | none | none |
-| 15 | medium | high | pass | none | Luis |
-| 16 | none | high | pass | none | none |
-| 17 | none | high | pass | none | none |
-| 18 | none | high | pass | none | none |
-| 19 | none | high | pass | none | none |
-| 20 | none | high | pass | none | none |
-| 21 | critical | low | reread-page | none | Juan, Luis |
-| 22 | none | high | pass | none | none |
-| 23 | none | high | pass | none | none |
+| 11 | critical | low | reread-page | none | Arriagada, Pulgar, chile |
+| 12 | medium | high | pass | none | Luis, chile |
+| 13 | critical | low | reread-page | none | Juan, chile |
+| 14 | medium | high | pass | none | chile |
+| 15 | medium | high | pass | none | Luis, chile |
+| 16 | medium | high | pass | none | chile |
+| 17 | medium | high | pass | none | chile |
+| 18 | medium | high | pass | none | chile |
+| 19 | medium | high | pass | none | chile |
+| 20 | medium | high | pass | none | chile |
+| 21 | critical | low | reread-page | none | Juan, Luis, chile |
+| 22 | medium | high | pass | none | chile |
+| 23 | medium | high | pass | none | chile |

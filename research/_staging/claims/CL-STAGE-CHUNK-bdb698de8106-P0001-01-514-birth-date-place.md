@@ -2,9 +2,9 @@
 type: claim
 status: draft
 claim_type: birth
-subject: Riquelme Juan Teodoro
+subject: "entry 514 child identity unresolved"
 predicate: born
-object: "1889-07-23 at 10:00 a.m.; Calle Saneguin"
+object: "converted transcript says 1889-07-23 at 10:00 a.m.; Calle Saneguin; image-reviewed child name/place are disputed"
 source: raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png
 source_packet: research/_staging/source-packets/SP-STAGE-CHUNK-bdb698de8106-P0001-01-los-angeles-birth-register-1889-page-172.md
 converted_file: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md
@@ -26,7 +26,7 @@ Lugar. Calle Saneguin
 
 ## Conversion Confidence / QA Concern
 
-Medium. The converted `Uncertain Or Illegible` note says `Calle Saneguin` is uncertain and may be `Sanequin` or a similar variant.
+Low for promotion. The converted `Uncertain Or Illegible` note says `Calle Saneguin` is uncertain and may be `Sanequin` or a similar variant. Proof-review revision also asks for targeted image QA on the `Fecha i lugar del nacimiento` field before any registration-scoped birth claim is promoted.
 
 ## Uncertainty
 

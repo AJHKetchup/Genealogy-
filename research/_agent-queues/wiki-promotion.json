@@ -3,7 +3,7 @@
     "queue":  "wiki-promotion",
     "task_count":  1,
     "status_counts":  {
-                          "todo":  1
+                          "disabled_requires_allow_promotion":  1
                       },
     "tasks":  [
                   {
@@ -13,7 +13,7 @@
                       "ready_review_count":  1,
                       "role":  "wiki_promoter",
                       "task_id":  "wiki-promotion:reviewed-ready:4afc3eb0ab70",
-                      "status":  "todo",
+                      "status":  "disabled_requires_allow_promotion",
                       "skill":  "genealogy-proof-review"
                   }
               ]

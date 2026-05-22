@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 84 | critical | low | reread-page | none | Arturo, Luis |
-| 85 | critical | low | reread-page | none | Juan |
-| 86 | critical | low | reread-page | none | Dios, Juan, Luis |
-| 87 | critical | low | reread-page | none | Juan, Luis |
-| 88 | none | high | pass | none | none |
-| 89 | critical | low | reread-page | none | Juan, Luis |
-| 90 | medium | high | pass | none | Luis |
-| 91 | critical | low | reread-page | none | Juan, Luis |
-| 92 | critical | low | reread-page | none | Juan, Luis |
-| 93 | critical | low | reread-page | none | Luis |
-| 94 | critical | low | reread-page | none | Arturo, Luis |
-| 95 | critical | low | reread-page | none | Juan |
-| 96 | critical | low | reread-page | none | Arriagada |
-| 97 | medium | high | pass | none | Arturo, Mercedes |
-| 98 | none | high | pass | none | none |
-| 99 | critical | low | reread-page | none | Luis |
-| 100 | critical | low | reread-page | none | Juan |
-| 101 | medium | high | pass | none | Arriagada |
-| 102 | medium | high | pass | none | Arturo, Luis |
-| 103 | critical | low | reread-page | none | Luis |
+| 84 | critical | low | reread-page | none | Arturo, Luis, chile |
+| 85 | critical | low | reread-page | none | Juan, chile |
+| 86 | critical | low | reread-page | none | Dios, Juan, Luis, chile |
+| 87 | critical | low | reread-page | none | Juan, Luis, chile |
+| 88 | medium | high | pass | none | chile |
+| 89 | critical | low | reread-page | none | Juan, Luis, chile |
+| 90 | medium | high | pass | none | Luis, chile |
+| 91 | critical | low | reread-page | none | Juan, Luis, chile |
+| 92 | critical | low | reread-page | none | Juan, Luis, chile |
+| 93 | critical | low | reread-page | none | Luis, chile |
+| 94 | critical | low | reread-page | none | Arturo, Luis, chile |
+| 95 | critical | low | reread-page | none | Juan, chile |
+| 96 | critical | low | reread-page | none | Arriagada, chile |
+| 97 | high | high | pass | none | Arturo, Mercedes, chile |
+| 98 | medium | high | pass | none | chile |
+| 99 | critical | low | reread-page | none | Luis, chile |
+| 100 | critical | low | reread-page | none | Juan, chile |
+| 101 | medium | high | pass | none | Arriagada, chile |
+| 102 | high | high | pass | none | Arturo, Luis, chile |
+| 103 | critical | low | reread-page | none | Luis, chile |

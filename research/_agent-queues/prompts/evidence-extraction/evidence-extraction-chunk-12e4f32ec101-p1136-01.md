@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/S522bis-29-3.pdf`
 - Page range: 1136-1136
 - Staging area: `research/_staging`
-- Family relevance: `medium`
+- Family relevance: `high`
 - Matched family terms: chunk
-- Evidence priority: `3136` (family_relevance:medium, qc:pass, matched_terms)
+- Evidence priority: `2136` (family_relevance:high, qc:reread-page, matched_terms)
 
 
 

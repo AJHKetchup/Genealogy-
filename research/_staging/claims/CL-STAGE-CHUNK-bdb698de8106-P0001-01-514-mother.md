@@ -2,7 +2,7 @@
 type: claim
 status: draft
 claim_type: parent
-subject: Riquelme Juan Teodoro
+subject: "entry 514 child identity unresolved"
 predicate: mother
 object: Mercedes Riquelme
 source: raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png
@@ -27,7 +27,7 @@ Domicilio. Calle Saneguin
 
 ## Conversion Confidence / QA Concern
 
-High for the mother's name, nationality, and occupation; place spelling remains a QA concern.
+Medium for the mother's name, nationality, and occupation; the child identity and place spelling remain QA concerns.
 
 ## Uncertainty
 

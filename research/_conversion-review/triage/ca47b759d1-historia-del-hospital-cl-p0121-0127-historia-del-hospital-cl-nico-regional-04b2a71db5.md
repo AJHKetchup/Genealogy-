@@ -8,10 +8,10 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | high | pass | none | none |
+| 1 | medium | high | pass | none | chile |
 | 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 124 | none | high | pass | none | none |
-| 5 | none | high | pass | none | none |
-| 6 | critical | low | reread-page | none | Arturo, Luis |
+| 5 | medium | high | pass | none | List |
+| 6 | critical | low | reread-page | none | Arturo, Luis, chile |
 | 7 | none | high | pass | none | none |

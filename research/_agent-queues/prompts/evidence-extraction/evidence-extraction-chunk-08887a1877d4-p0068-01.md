@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/S495-2-2.pdf`
 - Page range: 68-68
 - Staging area: `research/_staging`
-- Family relevance: `high`
+- Family relevance: `critical`
 - Matched family terms: Dios, Luis, chunk
-- Evidence priority: `1068` (family_relevance:high, qc:pass, matched_terms)
+- Evidence priority: `68` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

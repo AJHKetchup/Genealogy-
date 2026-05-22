@@ -11,9 +11,18 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
 - Page range: 16-16
 - Staging area: `research/_staging`
-- Family relevance: `medium`
+- Family relevance: `high`
 - Matched family terms: chunk
-- Evidence priority: `2016` (family_relevance:medium, qc:pass, matched_terms)
+- Evidence priority: `101016` (family_relevance:high, qc:reread-page, matched_terms, blocked_by_conversion_qc)
+
+## QC Hold
+
+- Status: `blocked_needs_reread`
+- Blocked pages: 16
+- Page reread queue: `research/_conversion-review/page-queues/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-ffa4bc4dbc.md`
+- Suspected readings: `research/_conversion-review/corrections/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-ffa4bc4dbc.md`
+
+Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
 
 
 

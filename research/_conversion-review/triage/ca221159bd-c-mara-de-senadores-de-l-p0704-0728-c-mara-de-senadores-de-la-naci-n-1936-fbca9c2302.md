@@ -8,7 +8,7 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 704 | none | high | pass | none | none |
+| 704 | high | low | reread-page | none | none |
 | 705 | none | high | pass | none | none |
 | 706 | none | high | pass | none | none |
 | 707 | none | high | pass | none | none |
@@ -18,15 +18,15 @@
 | 711 | none | high | pass | none | none |
 | 712 | none | high | pass | none | none |
 | 713 | none | high | pass | none | none |
-| 714 | medium | high | pass | none | date |
-| 12 | none | high | pass | none | none |
+| 714 | medium | high | pass | none | List, date |
+| 12 | medium | high | pass | none | name |
 | 716 | none | high | pass | none | none |
-| 717 | medium | high | pass | none | Luis |
+| 717 | critical | low | reread-page | none | Luis |
 | 718 | none | high | pass | none | none |
 | 719 | none | high | pass | none | none |
 | 720 | medium | high | pass | none | Segundo |
 | 721 | none | high | pass | none | none |
-| 722 | critical | low | reread-page | none | date |
+| 19 | critical | low | reread-page | none | date |
 | 723 | none | high | pass | none | none |
 | 724 | none | high | pass | none | none |
 | 725 | medium | high | pass | none | Luis |

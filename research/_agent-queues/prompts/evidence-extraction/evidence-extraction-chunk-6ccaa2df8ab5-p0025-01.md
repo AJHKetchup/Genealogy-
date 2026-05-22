@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 25-25
 - Staging area: `research/_staging`
 - Family relevance: `critical`
-- Matched family terms: Entry, chunk
+- Matched family terms: Entry, List, chunk, name, permanent
 - Evidence priority: `100025` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
 
 ## QC Hold

@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf`
 - Page range: 101-101
 - Staging area: `research/_staging`
-- Family relevance: `medium`
-- Matched family terms: Riquelme, chunk
-- Evidence priority: `2101` (family_relevance:medium, qc:spot-check, matched_terms)
+- Family relevance: `high`
+- Matched family terms: Riquelme, chile, chunk, name
+- Evidence priority: `1101` (family_relevance:high, qc:spot-check, matched_terms)
 
 
 

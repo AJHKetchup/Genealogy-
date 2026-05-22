@@ -3,7 +3,7 @@ type: relationship_candidate
 relationship_type: negative_evidence_parent_child
 child: "Juan Bautista Riquelme"
 parents: []
-source_packet: "research/_staging/source-packets/CHUNK-3d3ab761209f-P0001-01-source-packet.md"
+source_packet: "research/_staging/source-packets/sp-chunk-3d3ab761209f-p0001-01-los-angeles-birth-register-page-172.md"
 confidence: medium_high
 promotion_recommendation: do_not_promote
 ---

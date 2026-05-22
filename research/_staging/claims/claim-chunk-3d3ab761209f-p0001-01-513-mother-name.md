@@ -1,5 +1,6 @@
 ---
 type: claim
+status: draft
 claim_type: parentage
 subject: "entry 513 Pulgar Amagada child (given name unresolved)"
 predicate: "had mother named"
@@ -10,12 +11,12 @@ source_packet: "research/_staging/source-packets/sp-chunk-3d3ab761209f-p0001-01-
 chunk: "raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513-codex/page-0001-chunk-01.md"
 chunk_id: "CHUNK-3d3ab761209f-P0001-01"
 page_reference: "image page 1; register page 172; entry 513"
-confidence: medium
+confidence: low
 promotion_recommendation: hold_for_conversion_qa
 ---
 
-Literal support: "**Nombre de la madre.**<br>Juana de Dios Amagada de Pulgar"
+Literal support: image review most likely reads `Nombre de la madre. Juana de Dios Amagada de Pulgar`.
 
-Conversion confidence / QA concern: the converted file transcribes the mother as Juana de Dios Amador de Pulgar, conflicting with assigned chunk `Amagada`. Verify image before promotion.
+Conversion confidence / QA concern: assigned chunk reads `Juana de Dios Amagada de Pulgar`; converted Markdown reads `Juana de Dios Amador de Pulgar`. The image appears to support `Amagada`, but the surname is image-sensitive and should be verified from a targeted crop before promotion.
 
-Uncertainty: married-name form may not represent birth surname.
+Uncertainty: the `de Pulgar` form is a married-name style in the register and should not be treated as proof of birth surname without corroborating evidence.

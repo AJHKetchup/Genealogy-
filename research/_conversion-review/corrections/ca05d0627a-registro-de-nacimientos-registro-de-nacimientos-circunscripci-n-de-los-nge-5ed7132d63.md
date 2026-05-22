@@ -10,8 +10,3 @@
   Suspected reading: `Juana`
   Reason: near match to known family context term `Juana`
   Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Jara`
-  Suspected reading: `Juana`
-  Reason: near match to known family context term `Juana`
-  Verification target: reread the page image or exact region before using this in a claim.

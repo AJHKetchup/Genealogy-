@@ -2,8 +2,8 @@
 type: relationship_candidate
 status: draft
 relationship_type: child_parent
-child: Riquelme Juan Teodoro
-parents: [Belisario Riquelme, Mercedes Riquelme]
+child: "entry 514 child identity unresolved"
+parents: ["converted transcript says Belisario Riquelme; image review says father not stated", "Mercedes Riquelme"]
 source_packet: research/_staging/source-packets/SP-STAGE-CHUNK-bdb698de8106-P0001-01-los-angeles-birth-register-1889-page-172.md
 source: raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png
 converted_file: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md
@@ -26,7 +26,7 @@ Nombre de la madre. Mercedes Riquelme
 
 ## Conversion Confidence / QA Concern
 
-Low. Targeted image review appears to read `Se ignora` in the father field and a child name closer to `Riquelme / Juan Bautista`, conflicting with the converted parent set.
+Low. Targeted image review appears to read `Se ignora` in the father field and a child name closer to `Riquelme / Juan Bautista`, conflicting with the converted parent set. Treat this as a conflict candidate, not as a tree relationship.
 
 ## Uncertainty
 

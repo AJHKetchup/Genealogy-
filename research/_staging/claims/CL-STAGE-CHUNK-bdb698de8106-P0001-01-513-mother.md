@@ -2,9 +2,9 @@
 type: claim
 status: draft
 claim_type: parent
-subject: Isolina del Carmen Jose
+subject: "entry 513 child identity unresolved"
 predicate: mother
-object: Juana de Dios Amador de Pulgar
+object: "converted transcript says Juana de Dios Amador de Pulgar; image review favors Juana de Dios Amagada/Amador de Pulgar unresolved"
 source: raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png
 source_packet: research/_staging/source-packets/SP-STAGE-CHUNK-bdb698de8106-P0001-01-los-angeles-birth-register-1889-page-172.md
 converted_file: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md
@@ -25,7 +25,7 @@ Nombre de la madre. Juana de Dios Amador de Pulgar
 
 ## Conversion Confidence / QA Concern
 
-Medium. Image review supports a mother reading close to `Juana de Dios Amagada/Amador de Pulgar`, but the surname and child identity require conversion QA before canonical use.
+Low for the exact surname, medium for a mother field headed `Juana de Dios ... de Pulgar`. Image review supports a reading close to `Juana de Dios Amagada/Amador de Pulgar`, but the surname and child identity require conversion QA before canonical use.
 
 ## Uncertainty
 

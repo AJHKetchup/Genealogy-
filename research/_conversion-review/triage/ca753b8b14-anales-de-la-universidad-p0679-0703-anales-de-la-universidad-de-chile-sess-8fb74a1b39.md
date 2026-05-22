@@ -13,23 +13,23 @@
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
-| 6 | none | high | pass | none | none |
-| 685 | none | high | pass | none | none |
+| 6 | medium | high | pass | none | chile, last |
+| 685 | medium | high | pass | none | List, chile |
 | 8 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
-| 11 | none | high | pass | none | none |
-| 690 | none | high | pass | none | none |
-| 13 | none | high | pass | none | none |
+| 11 | medium | high | pass | none | chile |
+| 690 | medium | high | pass | none | chile |
+| 13 | medium | high | pass | none | List, last |
 | 14 | none | high | pass | none | none |
 | 15 | none | high | pass | none | none |
-| 16 | none | high | pass | none | none |
-| 17 | medium | high | pass | none | date |
+| 16 | medium | high | pass | none | last |
+| 17 | medium | high | pass | none | chile, date |
 | 18 | none | high | pass | none | none |
-| 19 | none | high | pass | none | none |
+| 19 | medium | high | pass | none | chile, last |
 | 20 | none | high | pass | none | none |
-| 21 | medium | high | pass | none | Segundo |
-| 22 | none | high | pass | none | none |
-| 23 | medium | high | pass | none | Dios |
-| 24 | none | high | pass | none | none |
+| 21 | medium | high | pass | none | Segundo, chile |
+| 22 | medium | high | pass | none | chile |
+| 23 | medium | high | pass | none | Dios, chile |
+| 24 | medium | high | pass | none | chile |
 | 25 | none | high | pass | none | none |

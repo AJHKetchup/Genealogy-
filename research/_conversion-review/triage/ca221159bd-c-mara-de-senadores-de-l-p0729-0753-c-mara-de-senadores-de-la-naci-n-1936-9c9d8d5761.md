@@ -20,7 +20,7 @@
 | 738 | none | high | pass | none | none |
 | 739 | medium | high | pass | none | Segundo |
 | 740 | none | high | pass | none | none |
-| 741 | medium | high | pass | none | Segundo |
+| 741 | critical | low | reread-page | none | Segundo |
 | 14 | medium | high | pass | none | Luis |
 | 743 | medium | high | pass | none | Dios |
 | 744 | none | high | pass | none | none |
@@ -29,7 +29,7 @@
 | 747 | none | high | pass | none | none |
 | 748 | none | high | pass | none | none |
 | 749 | medium | high | pass | none | Luis |
-| 750 | none | high | pass | none | none |
+| 750 | medium | high | pass | none | Andes, chile |
 | 751 | high | low | reread-page | none | none |
 | 24 | none | high | pass | none | none |
 | 753 | medium | high | pass | none | Segundo |

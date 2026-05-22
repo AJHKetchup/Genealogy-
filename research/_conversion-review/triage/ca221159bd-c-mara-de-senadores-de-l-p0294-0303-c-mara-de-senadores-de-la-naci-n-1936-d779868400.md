@@ -9,12 +9,12 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
-| 2 | none | high | pass | none | none |
+| 2 | medium | high | pass | none | last |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
 | 299 | none | high | pass | none | none |
 | 7 | high | high | pass | none | Arturo, Registration, date |
 | 301 | none | high | pass | none | none |
-| 9 | medium | high | pass | none | date |
-| 10 | critical | low | reread-page | none | Segundo |
+| 9 | medium | high | pass | none | List, date |
+| 10 | critical | low | reread-page | none | Segundo, last |

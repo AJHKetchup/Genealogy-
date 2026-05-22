@@ -11,12 +11,12 @@
 | 1 | none | high | pass | none | none |
 | 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
-| 4 | none | high | pass | none | none |
+| 4 | medium | high | pass | none | last |
 | 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
-| 7 | none | high | pass | none | none |
+| 7 | medium | high | pass | none | List |
 | 8 | none | high | pass | none | none |
-| 9 | none | high | pass | none | none |
+| 9 | medium | high | pass | none | last |
 | 10 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |

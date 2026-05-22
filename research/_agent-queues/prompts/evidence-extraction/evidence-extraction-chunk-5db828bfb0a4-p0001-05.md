@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 1-1
 - Staging area: `research/_staging`
 - Family relevance: `high`
-- Matched family terms: Alexander, Arturo, Carmen, Juan, Luis, Riquelme, Smith, chunk
+- Matched family terms: Alexander, Arturo, Carmen, Juan, List, Luis, Riquelme, Smith, chile, chunk, last, name
 - Evidence priority: `1001` (family_relevance:high, matched_terms)
 
 

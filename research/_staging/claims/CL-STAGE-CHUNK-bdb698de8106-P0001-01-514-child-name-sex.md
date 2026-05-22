@@ -2,9 +2,9 @@
 type: claim
 status: draft
 claim_type: identity
-subject: Riquelme Juan Teodoro
+subject: "entry 514 child identity unresolved"
 predicate: registered_name_and_sex
-object: "Registered in birth entry 514; sex Masculino"
+object: "converted transcript says Riquelme Juan Teodoro; image review favors Riquelme / Juan Bautista; sex Masculino"
 source: raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png
 source_packet: research/_staging/source-packets/SP-STAGE-CHUNK-bdb698de8106-P0001-01-los-angeles-birth-register-1889-page-172.md
 converted_file: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md

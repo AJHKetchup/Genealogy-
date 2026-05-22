@@ -14,6 +14,14 @@
 - Quality flags: none
 - Matched family context: Luis
 
+### Page 755
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none
+
 ### Page 766
 
 - Recommended action: `reread-page`
@@ -22,6 +30,38 @@
 - Quality flags: none
 - Matched family context: Luis, Segundo
 
+### Page 767
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none
+
+### Page 16
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none
+
+### Page 770
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none
+
+### Page 773
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none
+
 ### Page 774
 
 - Recommended action: `reread-page`
@@ -29,3 +69,19 @@
 - Family relevance: `critical`
 - Quality flags: none
 - Matched family context: Dios
+
+### Page 776
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Segundo
+
+### Page 778
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none

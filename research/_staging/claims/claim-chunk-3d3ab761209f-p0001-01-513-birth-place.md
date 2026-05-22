@@ -1,5 +1,6 @@
 ---
 type: claim
+status: draft
 claim_type: place
 subject: "entry 513 Pulgar Amagada child (given name unresolved)"
 predicate: "was born at"
@@ -14,8 +15,8 @@ confidence: medium
 promotion_recommendation: hold_for_conversion_qa
 ---
 
-Literal support: "**Lugar.**<br>Calle Colon"
+Literal support: `Lugar. Calle Colon`.
 
-Conversion confidence / QA concern: assigned chunk and converted file agree on Calle Colon for entry 513, but entry-level transcription conflict remains.
+Conversion confidence / QA concern: assigned chunk, converted Markdown, and source image align on the birth-place field, but the claim remains held because the entry 513 child identity and birth date/time fields have unresolved conversion conflicts.
 
-Uncertainty: retain source spelling; do not modernize to accented form without place review.
+Uncertainty: retain source spelling `Colon`; do not modernize or geocode from this extraction.

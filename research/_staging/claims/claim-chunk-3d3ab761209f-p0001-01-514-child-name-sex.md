@@ -14,7 +14,7 @@ confidence: medium
 promotion_recommendation: hold_for_conversion_qa
 ---
 
-Literal support: source image shows the entry 514 child-name field as `Riquelme` over `Juan Bautista`; sex field reads `Masculino`. Assigned chunk reads `Riquelme Aviles / Juan Bautista`; converted Markdown reads `Rigoberto Juan Bautista`.
+Literal support: source image shows the entry 514 child-name field as `Riquelme` over `Juan Bautista`; sex field reads `Masculino`. Assigned chunk reads `Riquelme Aviles / Juan Bautista`; current converted Markdown reads `Riquelme Juan Teodoro`.
 
 Conversion confidence / QA concern: revised after source-image review because `Aviles` is not visibly supported in the child-name field. The child-name field still conflicts with the converted Markdown, so keep this claim on hold until conversion QA accepts the source-image reading.
 

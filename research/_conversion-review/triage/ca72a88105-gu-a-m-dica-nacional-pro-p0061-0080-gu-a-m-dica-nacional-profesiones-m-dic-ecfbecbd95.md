@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 61 | critical | low | reread-page | none | Juan, Luis |
-| 62 | critical | low | reread-page | none | Juan, Luis |
-| 63 | critical | low | reread-page | none | Carmen, Juan, Luis |
-| 64 | critical | low | reread-page | none | Carmen, Juan, Luis |
-| 65 | critical | low | reread-page | none | Arturo, Juan, Luis, Riquelme |
-| 66 | critical | low | reread-page | none | Arturo, Juan, Luis |
-| 7 | critical | low | reread-page | none | Juan, Luis |
-| 68 | high | high | pass | none | Arturo, Luis, Riquelme |
-| 69 | medium | high | pass | none | Arturo, Luis |
-| 70 | critical | low | reread-page | none | Arturo, Juana |
-| 71 | medium | high | pass | none | Carmen, Luis |
-| 72 | critical | low | reread-page | none | Arriagada, Arturo, Juan, Luis |
-| 73 | critical | low | reread-page | none | Arturo, Entry, Juan, Luis |
-| 74 | critical | low | reread-page | none | Arturo, Luis, Mercedes, Riquelme |
-| 75 | high | high | pass | none | Luis, Riquelme, Tulio |
-| 76 | critical | low | reread-page | none | Arturo, John, Juan, Luis |
+| 61 | critical | low | reread-page | none | Andes, Juan, Luis, chile |
+| 62 | critical | low | reread-page | none | Andes, Juan, Luis, chile |
+| 63 | critical | low | reread-page | none | Carmen, Juan, Luis, chile |
+| 64 | critical | low | reread-page | none | Carmen, Juan, Luis, chile |
+| 65 | critical | low | reread-page | none | Arturo, Juan, List, Luis, Riquelme, chile, name |
+| 66 | critical | low | reread-page | none | Andes, Arturo, Juan, Luis, chile |
+| 7 | critical | low | reread-page | none | Juan, Luis, chile |
+| 68 | high | high | pass | none | Arturo, Luis, Riquelme, chile |
+| 69 | high | high | pass | none | Arturo, Luis, chile |
+| 70 | critical | low | reread-page | none | Arturo, Juana, chile |
+| 71 | high | high | pass | none | Carmen, Luis, chile |
+| 72 | critical | low | reread-page | none | Arriagada, Arturo, Juan, Luis, chile |
+| 73 | critical | low | reread-page | none | Arturo, Entry, Juan, List, Luis, chile, name |
+| 74 | critical | low | reread-page | none | Arturo, Luis, Mercedes, Riquelme, chile |
+| 75 | high | high | pass | none | Luis, Riquelme, Tulio, chile |
+| 76 | critical | low | reread-page | none | Arturo, John, Juan, Luis, chile |
 | 17 | critical | low | reread-page | none | Arriagada, Arturo, Juan, Luis, Pulgar |
-| 78 | medium | high | pass | none | Carmen |
+| 78 | high | high | pass | none | Andes, Carmen, chile |
 | 19 | critical | low | reread-page | none | Juan, Luis, Riquelme |
-| 80 | critical | low | reread-page | none | Heinz, Juan, Luis, Riquelme |
+| 80 | critical | low | reread-page | none | Heinz, Juan, Luis, Riquelme, chile |

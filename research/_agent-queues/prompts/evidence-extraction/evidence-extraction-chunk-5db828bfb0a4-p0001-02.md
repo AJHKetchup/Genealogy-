@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 1-1
 - Staging area: `research/_staging`
 - Family relevance: `high`
-- Matched family terms: Arturo, Carmen, Entry, Juan, Juana, Luis, Smith, chunk
+- Matched family terms: Arturo, Carmen, Entry, Juan, Juana, List, Luis, Smith, chile, chunk, name
 - Evidence priority: `1001` (family_relevance:high, matched_terms)
 
 

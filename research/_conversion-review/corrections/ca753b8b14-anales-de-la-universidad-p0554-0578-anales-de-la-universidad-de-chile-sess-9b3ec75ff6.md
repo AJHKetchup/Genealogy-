@@ -6,6 +6,11 @@
 
 ## Suspected Readings
 
+- Literal converted text: `Antes`
+  Suspected reading: `Andes`
+  Reason: near match to known family context term `Andes`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `crear`
   Suspected reading: `Cesar`
   Reason: near match to known family context term `Cesar`
@@ -14,4 +19,9 @@
 - Literal converted text: `cursar`
   Suspected reading: `Cesar`
   Reason: near match to known family context term `Cesar`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `ANALES`
+  Suspected reading: `Andes`
+  Reason: near match to known family context term `Andes`
   Verification target: reread the page image or exact region before using this in a claim.

@@ -8,4 +8,4 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | medium | high | pass | none | Pulgar, date |
+| 1 | high | high | pass | none | Passenger, Pulgar, chile, citizenship, date, name, permanent |

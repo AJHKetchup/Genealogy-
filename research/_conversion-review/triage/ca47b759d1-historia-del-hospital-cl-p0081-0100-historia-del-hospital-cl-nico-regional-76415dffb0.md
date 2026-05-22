@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | high | pass | none | none |
-| 2 | critical | low | reread-page | none | Arturo, Dios, Juan |
-| 3 | critical | low | reread-page | none | Arturo, Dios, Entry, Juan, Pulgar |
-| 4 | none | high | pass | none | none |
-| 5 | critical | low | reread-page | none | Dios, Juan |
-| 86 | none | medium | spot-check | explicit_reread_needed | none |
+| 1 | medium | high | pass | none | chile |
+| 2 | critical | low | reread-page | none | Arturo, Dios, Juan, chile, last |
+| 3 | critical | low | reread-page | none | Arturo, Dios, Entry, Juan, Pulgar, chile |
+| 4 | medium | high | pass | none | chile |
+| 5 | critical | low | reread-page | none | Dios, Juan, chile |
+| 86 | medium | medium | spot-check | explicit_reread_needed | chile, name |
 | 7 | critical | low | reread-page | none | Juan |
 | 8 | medium | high | pass | none | Luis |
-| 9 | none | high | pass | none | none |
-| 90 | critical | low | reread-page | explicit_reread_needed | Juana, Segundo |
+| 9 | medium | high | pass | none | last |
+| 90 | critical | low | reread-page | explicit_reread_needed | Juana, Segundo, name |
 | 11 | critical | low | reread-page | none | Juan, Luis |
 | 12 | medium | high | pass | none | Arturo, Segundo |
 | 13 | critical | low | reread-page | none | Juan |
-| 14 | critical | low | reread-page | none | Dios, Juan |
+| 14 | critical | low | reread-page | none | Dios, Juan, chile |
 | 15 | none | high | pass | none | none |
-| 16 | critical | low | reread-page | none | Dios, Juan, Luis |
-| 17 | medium | high | pass | none | Luis |
-| 98 | critical | low | reread-page | none | Carmen, Juan, date |
-| 19 | medium | high | pass | none | Carmen, Entry |
-| 20 | none | high | pass | none | none |
+| 16 | critical | low | reread-page | none | Dios, Juan, Luis, chile |
+| 17 | medium | high | pass | none | Luis, chile |
+| 98 | critical | low | reread-page | none | Carmen, Juan, List, date, name |
+| 19 | high | high | pass | none | Carmen, Entry, List, name |
+| 20 | medium | high | pass | none | List |

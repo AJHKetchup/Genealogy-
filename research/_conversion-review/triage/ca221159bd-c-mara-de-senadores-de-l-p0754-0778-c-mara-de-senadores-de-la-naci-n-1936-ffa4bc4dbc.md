@@ -9,7 +9,7 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 754 | critical | low | reread-page | none | Luis |
-| 755 | none | high | pass | none | none |
+| 755 | high | low | reread-page | none | none |
 | 756 | medium | high | pass | none | Luis |
 | 757 | medium | high | pass | none | Luis, Segundo |
 | 5 | none | high | pass | none | none |
@@ -21,15 +21,15 @@
 | 764 | medium | high | pass | none | Segundo |
 | 765 | none | high | pass | none | none |
 | 766 | critical | low | reread-page | none | Luis, Segundo |
-| 767 | none | high | pass | none | none |
+| 767 | high | low | reread-page | none | none |
 | 768 | none | high | pass | none | none |
-| 16 | none | high | pass | none | none |
-| 770 | none | high | pass | none | none |
+| 16 | high | low | reread-page | none | none |
+| 770 | high | low | reread-page | none | none |
 | 771 | none | high | pass | none | none |
 | 772 | none | high | pass | none | none |
-| 773 | none | high | pass | none | none |
+| 773 | high | low | reread-page | none | none |
 | 774 | critical | low | reread-page | none | Dios |
 | 775 | none | high | pass | none | none |
-| 776 | medium | high | pass | none | Segundo |
+| 776 | critical | low | reread-page | none | Segundo |
 | 777 | medium | high | pass | none | Segundo |
-| 778 | none | high | pass | none | none |
+| 778 | high | low | reread-page | none | none |

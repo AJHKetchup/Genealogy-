@@ -11,9 +11,18 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/S179-34-6.pdf`
 - Page range: 4-4
 - Staging area: `research/_staging`
-- Family relevance: `medium`
-- Matched family terms: Segundo, chunk
-- Evidence priority: `2004` (family_relevance:medium, qc:pass, matched_terms)
+- Family relevance: `critical`
+- Matched family terms: Segundo, chunk, last
+- Evidence priority: `100004` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
+
+## QC Hold
+
+- Status: `blocked_needs_reread`
+- Blocked pages: 4
+- Page reread queue: `research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300-codex.md`
+- Suspected readings: `research/_conversion-review/corrections/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300-codex.md`
+
+Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
 
 
 

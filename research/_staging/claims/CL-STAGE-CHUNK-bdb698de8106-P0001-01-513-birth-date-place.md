@@ -2,9 +2,9 @@
 type: claim
 status: draft
 claim_type: birth
-subject: Isolina del Carmen Jose
+subject: "entry 513 child identity unresolved"
 predicate: born
-object: "1889-07-22 at 4:00 a.m.; Calle Colon"
+object: "converted transcript says 1889-07-22 at 4:00 a.m.; Calle Colon; image-reviewed birth date/time is disputed"
 source: raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png
 source_packet: research/_staging/source-packets/SP-STAGE-CHUNK-bdb698de8106-P0001-01-los-angeles-birth-register-1889-page-172.md
 converted_file: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md
@@ -26,8 +26,8 @@ Lugar. Calle Colon
 
 ## Conversion Confidence / QA Concern
 
-Medium-high for the birth details, but tied to the child identity that needs QA because of the name/sex issue.
+Low for promotion. The assigned converted/chunk transcript gives the literal support above, but proof-review revision notes and image review conflict on the child identity, birth date, and birth time. Retain `Calle Colon` only as a converted-transcript reading until targeted conversion QA confirms the row.
 
 ## Uncertainty
 
-`El mismo` refers to the registration date column, 22 July 1889.
+Do not attach this birth event to a canonical child. `El mismo` in the converted transcript refers to the registration date column, 22 July 1889, but the visible-source reading may instead require a corrected literal transcription.

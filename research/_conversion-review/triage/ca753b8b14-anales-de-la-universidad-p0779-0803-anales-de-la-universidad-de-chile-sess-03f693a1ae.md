@@ -8,28 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 779 | medium | high | pass | none | John |
-| 780 | none | high | pass | none | none |
-| 781 | none | high | pass | none | none |
-| 782 | none | high | pass | none | none |
-| 783 | none | high | pass | none | none |
-| 784 | none | high | pass | none | none |
-| 785 | none | high | pass | none | none |
-| 786 | none | high | pass | none | none |
-| 787 | none | high | pass | none | none |
-| 788 | none | high | pass | none | none |
-| 789 | none | high | pass | none | none |
-| 790 | none | high | pass | none | none |
-| 791 | none | high | pass | none | none |
-| 792 | none | high | pass | none | none |
-| 793 | none | high | pass | none | none |
-| 794 | none | high | pass | none | none |
-| 795 | none | high | pass | none | none |
-| 796 | none | high | pass | none | none |
-| 797 | none | high | pass | none | none |
-| 798 | none | high | pass | none | none |
-| 799 | none | high | pass | none | none |
-| 800 | none | high | pass | none | none |
-| 801 | none | high | pass | none | none |
-| 802 | medium | high | pass | none | Segundo |
-| 803 | none | high | pass | none | none |
+| 779 | medium | high | pass | none | John, chile |
+| 780 | medium | high | pass | none | chile |
+| 781 | medium | high | pass | none | chile |
+| 782 | medium | high | pass | none | chile |
+| 783 | medium | high | pass | none | chile |
+| 784 | medium | high | pass | none | chile |
+| 785 | medium | high | pass | none | chile |
+| 786 | medium | high | pass | none | chile |
+| 787 | medium | high | pass | none | chile |
+| 788 | medium | high | pass | none | chile |
+| 789 | medium | high | pass | none | chile |
+| 790 | medium | high | pass | none | chile |
+| 791 | medium | high | pass | none | chile |
+| 792 | medium | high | pass | none | chile |
+| 793 | medium | high | pass | none | chile |
+| 794 | medium | high | pass | none | chile |
+| 795 | medium | high | pass | none | chile |
+| 796 | medium | high | pass | none | chile |
+| 797 | medium | high | pass | none | chile |
+| 798 | medium | high | pass | none | chile |
+| 799 | medium | high | pass | none | chile |
+| 800 | medium | high | pass | none | chile |
+| 801 | medium | high | pass | none | chile |
+| 802 | medium | high | pass | none | Segundo, chile |
+| 803 | medium | high | pass | none | chile |

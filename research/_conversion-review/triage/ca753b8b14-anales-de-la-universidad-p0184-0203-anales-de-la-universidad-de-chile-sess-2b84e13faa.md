@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 184 | medium | high | pass | none | Luis |
+| 184 | medium | high | pass | none | Luis, chile |
 | 2 | medium | high | pass | none | date |
 | 3 | medium | high | pass | none | Luis, Mercedes |
-| 187 | medium | high | pass | none | Luis, date |
-| 5 | medium | high | pass | none | Luis |
-| 475 | medium | high | pass | none | Luis, date |
-| 190 | medium | high | pass | none | Luis |
-| 191 | medium | high | pass | none | Arturo |
-| 192 | critical | low | reread-page | none | Arturo, Luis |
-| 193 | critical | low | reread-page | none | Luis |
-| 194 | medium | high | pass | none | Luis |
-| 195 | critical | low | reread-page | none | Luis |
-| 196 | medium | high | pass | none | Luis |
-| 197 | none | high | pass | none | none |
-| 198 | none | high | pass | none | none |
-| 199 | critical | low | reread-page | none | Juan, Luis |
-| 200 | critical | low | reread-page | none | Juan |
-| 201 | critical | low | reread-page | none | Juan, Juana, Luis |
-| 202 | critical | low | reread-page | none | Juan |
-| 20 | critical | low | reread-page | none | Jose, Juan, Luis |
+| 187 | high | high | pass | none | List, Luis, chile, date, permanent, student |
+| 5 | medium | high | pass | none | List, Luis |
+| 475 | high | high | pass | none | Luis, chile, date, name, permanent |
+| 190 | medium | high | pass | none | Luis, chile |
+| 191 | medium | high | pass | none | Arturo, chile |
+| 192 | critical | low | reread-page | none | Arturo, Luis, chile |
+| 193 | critical | low | reread-page | none | Luis, chile |
+| 194 | medium | high | pass | none | Luis, chile |
+| 195 | critical | low | reread-page | none | Luis, chile |
+| 196 | medium | high | pass | none | Luis, chile |
+| 197 | medium | high | pass | none | chile |
+| 198 | medium | high | pass | none | chile |
+| 199 | critical | low | reread-page | none | Juan, Luis, chile |
+| 200 | critical | low | reread-page | none | Juan, chile |
+| 201 | critical | low | reread-page | none | Juan, Juana, Luis, chile |
+| 202 | critical | low | reread-page | none | Juan, chile |
+| 20 | critical | low | reread-page | none | Jose, Juan, List, Luis |

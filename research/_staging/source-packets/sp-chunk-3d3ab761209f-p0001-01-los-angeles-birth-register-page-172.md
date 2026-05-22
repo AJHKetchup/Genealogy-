@@ -11,6 +11,7 @@ chunk_id: "CHUNK-3d3ab761209f-P0001-01"
 page_reference: "image page 1; register page 172; entries 513-515"
 jurisdiction: "Circunscripcion de Los Anjeles, num. 1o de La Laja"
 record_type: "civil birth register"
+family_relevance: critical
 promotion_recommendation: hold_for_conversion_qa
 ---
 
@@ -18,31 +19,29 @@ promotion_recommendation: hold_for_conversion_qa
 
 ## Source Identity
 
-This packet describes a civil birth register page from Los Anjeles, num. 1o de La Laja, Chile, dated July 1889. The assigned chunk transcribes entries 513, 514, and 515 on register page 172.
+This packet describes one image of a civil birth-register page headed page 172, Los Anjeles, num. 1o de La Laja, Chile. The assigned chunk is `CHUNK-3d3ab761209f-P0001-01` and covers visible entries 513, 514, and 515.
 
 ## Literal Support
 
-- Image-reviewed page heading: `Paj. 172`
-- Image-reviewed register heading: `1889.-Rejistro de NACIMIENTOS en la Circunscripcion de Los Anjeles, num. 1o de La Laja`
-- Entries visible in the image and represented in the assigned chunk: `513`, `514`, and `515`
-- Entry 514 father field: `Se ignora`
-- Entry 515 emendation note: `Neira=emendado=` and `vale=`
+- Page heading visible in image: `Paj. 172`
+- Register heading visible in image: `1889.-Rejistro de NACIMIENTOS en la Circunscripcion de Los Anjeles, num. 1o de La Laja`
+- Entry numbers visible in image and assigned chunk: `513`, `514`, `515`
+- Entry 513 registration date visible in image: `Julio veintidos de mil ochocientos ochenta i nueve`
+- Entry 513 child field visible in image: surname line begins `Pulgar Ama...`; given-name line begins `Jose ...`; sex reads `Masculino`
+- Entry 513 father field visible in image: `Jose del Carmen Pulgar`
+- Entry 513 mother field visible in image: `Juana de Dios Amagada de Pulgar` is the best current image-reviewed reading, but the surname remains image-sensitive
 
 ## Conversion Confidence And QA Concern
 
-Use this packet only after conversion QA or proof review. The assigned chunk and converted file disagree materially on the names, dates, places, parent fields, and official signature for entries 513-515. Image review in this revision supports the assigned chunk over the assembled converted Markdown for the largest identity conflicts, including entry 514's father field, but it does not fully settle all readings.
+`hold_for_conversion_qa`: the source image, assigned chunk, and assembled converted Markdown disagree materially. The assigned chunk generally aligns better with the visible source image for entry 513 than the assembled converted Markdown, but several readings remain too uncertain for canonical promotion without a targeted crop or formal conversion correction.
 
-Remaining QA concerns:
+Material conflicts to preserve:
 
-- Entry 513 child given name and maternal surname are image-sensitive and should not be normalized beyond the literal visible reading without a targeted crop.
-- Entry 514 child surname should be held as source-visible `Riquelme`; assigned-chunk `Aviles`, first witness surname, and street/place readings remain uncertain.
-- Entry 515 mother-field claims are blocked by the bottom crop; the available image supports the child/father/emendation area but not the full lower mother details.
-- Officer-signature support should remain limited to what is visibly legible.
+- Entry 513 child name: assigned chunk reads `Pulgar Amagada / Jose Luis`; converted Markdown reads `Isolina del Carmen / Jose`; image supports `Pulgar Ama...` and `Jose ...` but not a confident full normalized child name.
+- Entry 513 birth date/time: assigned chunk reads `Junio veinte i seis ... cuatro i media`; converted Markdown reads `El mismo veinte dos ... cuatro de la manana`; image appears to support `Junio veinte i dos ... cuatro i media ... tarde`, but the time line is faint.
+- Entry 513 mother surname: assigned chunk reads `Amagada`; converted Markdown reads `Amador`; image most likely supports `Amagada`, but this should be rechecked from a crop before promotion.
+- Entry 513 officer signature: derivative layers disagree; do not create a promotable official-name claim from this packet.
 
 ## Uncertainty
 
-Do not normalize spelling, street names, or Chilean surname parsing until proof review resolves the chunk-vs-converted transcription conflict. Do not promote entry 515 mother claims from this source packet without a complete lower image or formal correction note.
-
-## Promotion Recommendation
-
-`hold_for_conversion_qa`: the source packet is useful as a revised staging and QA record, but the extraction still has material conversion conflicts and a bottom-crop limitation.
+Do not normalize spelling, surname sequence, given-name completion, or Chilean parent identity from this packet until conversion QA reconciles the derivative transcripts against the source image. This packet is a staging and QA record, not a promotion-ready source packet.

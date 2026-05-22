@@ -2,7 +2,7 @@
 type: claim
 status: draft
 claim_type: parent
-subject: Isolina del Carmen Jose
+subject: "entry 513 child identity unresolved"
 predicate: father
 object: Jose del Carmen Pulgar
 source: raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png
@@ -25,7 +25,7 @@ Nombre del padre. José del Carmen Pulgar
 
 ## Conversion Confidence / QA Concern
 
-Medium. Image review supports the father field as `José del Carmen Pulgar` or similar, but the converted child-name reading for entry 513 conflicts materially with the image. Hold parentage until conversion QA resolves the child identity.
+Medium for the father-name field, low for a promotable parent-child link. Image review supports the father field as `José del Carmen Pulgar` or similar, but the converted child-name reading for entry 513 conflicts materially with the image. Hold parentage until conversion QA resolves the child identity.
 
 ## Uncertainty
 

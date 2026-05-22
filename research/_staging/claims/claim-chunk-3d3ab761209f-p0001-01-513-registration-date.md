@@ -1,5 +1,6 @@
 ---
 type: claim
+status: draft
 claim_type: event
 subject: "Birth entry 513 for the Pulgar Amagada child (given name unresolved)"
 predicate: "was registered on"
@@ -14,8 +15,8 @@ confidence: medium
 promotion_recommendation: hold_for_conversion_qa
 ---
 
-Literal support: "Julio veinte i dos de mil ochocientos ochenta i nueve"
+Literal support: `Julio veintidos de mil ochocientos ochenta i nueve`.
 
-Conversion confidence / QA concern: the assigned chunk and converted file agree on the registration date for entry 513, but broader entry-level conflicts remain.
+Conversion confidence / QA concern: assigned chunk, converted Markdown, and image review agree on the entry 513 registration date. This claim is still held because the proof-review revision requested provenance cleanup and the same entry has unresolved child-name and birth-date conflicts.
 
-Uncertainty: normalized date supplied from Spanish literal wording.
+Uncertainty: normalized date supplied from the Spanish literal wording; keep the claim attached to entry 513 rather than a resolved person identity until QA is complete.

@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/R4946-12-33387-8070.pdf`
 - Page range: 135-135
 - Staging area: `research/_staging`
-- Family relevance: `medium`
-- Matched family terms: Segundo, chunk
-- Evidence priority: `2135` (family_relevance:medium, qc:pass, matched_terms)
+- Family relevance: `critical`
+- Matched family terms: Andes, Segundo, chunk
+- Evidence priority: `135` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

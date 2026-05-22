@@ -3,7 +3,7 @@ type: relationship_candidate_overview
 task_id: evidence-extraction:CHUNK-3d3ab761209f-P0001-01
 chunk_id: CHUNK-3d3ab761209f-P0001-01
 status: draft
-source_packet: "research/_staging/source-packets/CHUNK-3d3ab761209f-P0001-01-source-packet.md"
+source_packet: "research/_staging/source-packets/sp-chunk-3d3ab761209f-p0001-01-los-angeles-birth-register-page-172.md"
 promotion_recommendation: hold_for_conversion_qa
 ---
 

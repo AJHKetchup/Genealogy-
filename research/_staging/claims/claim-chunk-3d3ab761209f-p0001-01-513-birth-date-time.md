@@ -1,5 +1,6 @@
 ---
 type: claim
+status: draft
 claim_type: vital
 subject: "entry 513 Pulgar Amagada child (given name unresolved)"
 predicate: "was born on"
@@ -14,8 +15,8 @@ confidence: low
 promotion_recommendation: hold_for_conversion_qa
 ---
 
-Literal support: image review supports the date line as `Junio veinte i dos` rather than the assigned chunk's `Junio veinte i seis`; the time appears to read `a las cuatro i media ... tarde`, but the written line is faint and should be checked against a targeted crop before promotion.
+Literal support: image review appears to support `Junio veinte i dos de mil ochocientos ochenta i nueve, a las cuatro i media ... tarde`.
 
-Conversion confidence / QA concern: revised from the assigned chunk after source-image review. The assigned chunk gives `Junio veinte i seis ... a las cuatro i media de la tarde`; the assembled converted file gives `veinte i dos ... a las cuatro i veinte de la tarde`. The image appears to support the converted file on the day (`veinte i dos`) but not on the minute reading (`cuatro i media ... tarde` appears more likely than `cuatro i veinte de la tarde`). Keep this claim on hold until a targeted conversion-QA note or proof review accepts the corrected date/time.
+Conversion confidence / QA concern: assigned chunk reads `Junio veinte i seis ... a las cuatro i media de la tarde`; converted Markdown reads `El mismo veinte dos ... a las cuatro de la manana`. The image appears closer to `veinte i dos` and `cuatro i media ... tarde`, but the time phrase is faint and should be verified from a targeted crop.
 
-Uncertainty: the subject identity remains tied to the held entry-513 child-name reading, and the time phrase is not secure enough for canonical promotion.
+Uncertainty: normalized date and time are supplied only as a draft interpretation of the literal Spanish reading. Hold for conversion QA before canonical promotion.

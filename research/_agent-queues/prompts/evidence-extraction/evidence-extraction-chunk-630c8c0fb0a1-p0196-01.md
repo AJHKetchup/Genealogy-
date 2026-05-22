@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/R4946-12-33387-8070.pdf`
 - Page range: 196-196
 - Staging area: `research/_staging`
-- Family relevance: `medium`
-- Matched family terms: Carmen, chunk
-- Evidence priority: `2196` (family_relevance:medium, qc:pass, matched_terms)
+- Family relevance: `high`
+- Matched family terms: Andes, Carmen, chunk
+- Evidence priority: `1196` (family_relevance:high, qc:pass, matched_terms)
 
 
 

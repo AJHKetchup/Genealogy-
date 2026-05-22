@@ -8,28 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 904 | none | high | pass | none | none |
-| 905 | none | high | pass | none | none |
-| 906 | none | high | pass | none | none |
-| 907 | medium | high | pass | none | Arturo |
-| 908 | critical | low | reread-page | none | Juan, Luis |
-| 909 | none | high | pass | none | none |
-| 910 | none | high | pass | none | none |
-| 911 | critical | low | reread-page | none | Segundo |
+| 904 | medium | high | pass | none | chile |
+| 905 | medium | high | pass | none | chile |
+| 906 | medium | high | pass | none | chile |
+| 907 | critical | low | reread-page | none | Arturo, chile |
+| 908 | critical | low | reread-page | none | Juan, Luis, chile |
+| 909 | medium | high | pass | none | chile |
+| 910 | medium | high | pass | none | chile |
+| 911 | critical | low | reread-page | none | Segundo, chile |
 | 9 | none | high | pass | none | none |
-| 913 | none | high | pass | none | none |
-| 914 | high | low | reread-page | none | none |
-| 915 | none | high | pass | none | none |
-| 916 | none | high | pass | none | none |
-| 917 | medium | high | pass | none | Luis |
-| 918 | none | high | pass | none | none |
-| 919 | medium | high | pass | none | Luis |
-| 920 | none | high | pass | none | none |
-| 921 | none | high | pass | none | none |
-| 922 | none | high | pass | none | none |
-| 923 | none | high | pass | none | none |
-| 924 | critical | low | reread-page | none | Juan, Luis |
-| 925 | none | high | pass | none | none |
-| 926 | none | high | pass | none | none |
-| 927 | critical | low | reread-page | none | Juan |
-| 928 | none | high | pass | none | none |
+| 913 | medium | high | pass | none | chile |
+| 914 | critical | low | reread-page | none | chile |
+| 915 | medium | high | pass | none | chile |
+| 916 | medium | high | pass | none | chile |
+| 917 | medium | high | pass | none | Luis, chile |
+| 918 | medium | high | pass | none | chile |
+| 919 | medium | high | pass | none | Luis, chile |
+| 920 | medium | high | pass | none | chile |
+| 921 | medium | high | pass | none | chile |
+| 922 | medium | high | pass | none | chile |
+| 923 | medium | high | pass | none | chile |
+| 924 | critical | low | reread-page | none | Juan, Luis, chile |
+| 925 | medium | high | pass | none | chile |
+| 926 | medium | high | pass | none | chile |
+| 927 | critical | low | reread-page | none | Juan, chile |
+| 928 | medium | high | pass | none | chile |

@@ -8,28 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 529 | medium | high | pass | none | Luis, Segundo |
-| 530 | none | high | pass | none | none |
-| 3 | medium | high | pass | none | date |
-| 4 | medium | high | pass | none | Entry |
-| 533 | medium | high | pass | none | Riquelme |
-| 6 | high | high | pass | none | Entry, Juana, date |
-| 7 | medium | high | pass | none | date, time |
-| 8 | medium | high | pass | none | Luis, date |
+| 529 | high | high | pass | none | Luis, Segundo, chile |
+| 530 | medium | high | pass | none | chile |
+| 3 | medium | high | pass | none | chile, date |
+| 4 | critical | low | reread-page | none | Entry, List, Rows |
+| 533 | medium | high | pass | none | Riquelme, chile |
+| 6 | high | high | pass | none | Entry, Juana, date, last |
+| 7 | high | high | pass | none | date, last, time |
+| 8 | high | high | pass | none | Luis, chile, date |
 | 9 | medium | high | pass | none | date |
 | 10 | none | high | pass | none | none |
-| 11 | medium | high | pass | none | Dios, date |
+| 11 | critical | low | reread-page | none | Dios, date |
 | 12 | medium | high | pass | none | date |
-| 541 | none | high | pass | none | none |
-| 14 | medium | high | pass | none | date |
-| 543 | high | high | pass | none | Dario, Luis, date |
-| 544 | medium | high | pass | none | Segundo |
-| 545 | none | high | pass | none | none |
-| 546 | none | high | pass | none | none |
-| 547 | none | high | pass | none | none |
+| 541 | medium | high | pass | none | chile |
+| 14 | medium | high | pass | none | List, date |
+| 543 | high | high | pass | none | Andes, Dario, Luis, chile, date |
+| 544 | medium | high | pass | none | Segundo, chile |
+| 545 | medium | high | pass | none | chile |
+| 546 | medium | high | pass | none | chile |
+| 547 | medium | high | pass | none | chile |
 | 20 | medium | high | pass | none | Entry, date |
 | 21 | medium | high | pass | none | date |
 | 22 | none | high | pass | none | none |
-| 23 | medium | high | pass | none | date |
-| 24 | none | high | pass | none | none |
-| 553 | none | high | pass | none | none |
+| 23 | medium | high | pass | none | chile, date |
+| 24 | medium | high | pass | none | chile |
+| 553 | medium | high | pass | none | chile |

@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
 - Page range: 1098-1098
 - Staging area: `research/_staging`
-- Family relevance: `medium`
-- Matched family terms: Dios, chunk
-- Evidence priority: `3098` (family_relevance:medium, qc:pass, matched_terms)
+- Family relevance: `high`
+- Matched family terms: Dios, chile, chunk
+- Evidence priority: `2098` (family_relevance:high, qc:pass, matched_terms)
 
 
 

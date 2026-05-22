@@ -8,18 +8,18 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | critical | low | reread-page | none | Jose, date |
+| 1 | critical | low | reread-page | none | Jose |
 | 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | critical | low | reread-page | none | Dario, Dios, Juan, Pulgar |
 | 5 | medium | high | pass | none | Pulgar, date |
-| 6 | none | high | pass | none | none |
+| 6 | medium | high | pass | none | Andes, chile |
 | 10 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |
-| 12 | none | high | pass | none | none |
-| 13 | critical | low | reread-page | none | Dario, date |
-| 11 | critical | low | reread-page | none | Dario, Pulgar, date |
-| 15 | medium | high | pass | none | Dios |
+| 12 | medium | high | pass | none | chile |
+| 13 | medium | high | pass | none | Dario, Pulgar |
+| 14 | critical | low | reread-page | none | Dario, Pulgar, chile, date, name |
+| 15 | medium | high | pass | none | Dios, chile |
 | 16 | medium | high | pass | none | date |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |

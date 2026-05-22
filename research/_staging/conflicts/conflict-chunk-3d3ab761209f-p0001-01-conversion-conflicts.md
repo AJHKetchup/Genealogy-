@@ -1,7 +1,7 @@
 ---
 type: conflict_candidate
 status: draft
-source_packet: "research/_staging/source-packets/CHUNK-3d3ab761209f-P0001-01-source-packet.md"
+source_packet: "research/_staging/source-packets/sp-chunk-3d3ab761209f-p0001-01-los-angeles-birth-register-page-172.md"
 source: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png"
 converted_file: "raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md"
 chunk: "raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513-codex/page-0001-chunk-01.md"
@@ -27,14 +27,14 @@ The source image is available and supports the assigned chunk more than the asse
 
 ## Material Conflicts
 
-- Entry 513 child: assigned chunk has `Pulgar Amagada / Jose Luis`; converted file has `Isidoro del Carmen Diaz`. The image supports a `Pulgar Ama...` surname line and a given-name line beginning `Jose ...`, but it does not securely support `Jose Luis`; the given-name line still needs targeted QA.
-- Entry 513 birth: assigned chunk has 26 June 1889 at 4:30 p.m.; converted file has 22 June 1889 at 4:20 p.m. The image appears to support 22 June 1889 and likely 4:30 p.m., while the exact time phrase remains uncertain enough for QA.
+- Entry 513 child: assigned chunk has `Pulgar Amagada / Jose Luis`; converted file has `Isolina del Carmen / Jose`. The image supports a `Pulgar Ama...` surname line and a given-name line beginning `Jose ...`, but it does not securely support the complete assigned-chunk name; the given-name line still needs targeted QA.
+- Entry 513 birth: assigned chunk has 26 June 1889 at 4:30 p.m.; converted file has 22 June 1889 at 4:00 a.m. The image appears to support 22 June 1889 and likely 4:30 p.m., while the exact time phrase remains uncertain enough for QA.
 - Entry 513 mother: assigned chunk has `Juana de Dios Amagada de Pulgar`; converted file has `Juana de Dios Amador de Pulgar`; image review supports the Pulgar family row but the maternal surname should remain QA-sensitive.
-- Entry 514 child: assigned chunk has `Riquelme Aviles / Juan Bautista`; converted file has `Rigoberto Juan Bautista`; source image supports `Riquelme / Juan Bautista` and does not visibly support `Aviles`.
-- Entry 514 father: assigned chunk and image have `Se ignora`; converted file places `Mercedes Riquelme` in the father field.
-- Entry 514 witness/place: assigned chunk has `Benjamin Utiera` and `Calle Sanegueso`; converted file has `Benjamin Utrosa`, `Ignacio Jara`, and `Calle Panquehue`; image does not fully settle these readings in this pass.
+- Entry 514 child: assigned chunk has `Riquelme Aviles / Juan Bautista`; converted file has `Riquelme Juan Teodoro`; source image supports `Riquelme / Juan Bautista` and does not visibly support `Aviles`.
+- Entry 514 father: assigned chunk and image have `Se ignora`; converted file gives `Belisario Riquelme`.
+- Entry 514 witness/place: assigned chunk has `Benjamin Utiera`, `Ignacio Soto`, and `Calle Sanegueso`; converted file has `Benjamin Utrosa`, `Ignacio Jara`, and `Calle Saneguin`; image does not fully settle these readings in this pass.
 - Entry 515 child and father: assigned chunk and visible image support `Neira Ulloa / Laura de la Cruz` and father/declarant `Pedro Pablo Neira`; converted file has `Rosa Elvira del Carmen` and father `Pedro Pablo Leiva`.
-- Entry 515 mother: assigned chunk has `Carmen Ulloa`; converted file has `Carmen Leiva`; available image does not visibly confirm the full lower mother field.
+- Entry 515 mother: assigned chunk has `Carmen Ulloa`; current converted file does not preserve a mother name in the entry 515 mother field; available image does not visibly confirm the full lower mother field.
 
 ## Literal Support
 

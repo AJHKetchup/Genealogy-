@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 44 | critical | low | reread-page | none | Arturo, Juan |
-| 45 | critical | low | reread-page | none | Juan, Luis |
-| 46 | critical | low | reread-page | none | Arturo, Juan, Luis |
-| 47 | high | low | reread-page | none | none |
-| 48 | medium | high | pass | none | Luis |
-| 49 | none | high | pass | none | none |
-| 50 | medium | high | pass | none | Arturo |
-| 51 | medium | high | pass | none | Arturo, Luis |
-| 52 | none | high | pass | none | none |
-| 53 | medium | high | pass | none | Arturo, Luis |
-| 54 | critical | low | reread-page | none | Juan, Luis |
-| 55 | none | high | pass | none | none |
-| 56 | critical | low | reread-page | none | Juan, Luis |
-| 57 | none | high | pass | none | none |
-| 58 | critical | low | reread-page | none | Juan, Luis |
+| 44 | critical | low | reread-page | none | Arturo, Juan, chile |
+| 45 | critical | low | reread-page | none | Juan, Luis, chile |
+| 46 | critical | low | reread-page | none | Arturo, Juan, Luis, chile |
+| 47 | critical | low | reread-page | none | chile |
+| 48 | medium | high | pass | none | Luis, chile |
+| 49 | medium | high | pass | none | chile |
+| 50 | medium | high | pass | none | Arturo, chile |
+| 51 | high | high | pass | none | Andes, Arturo, Luis, chile |
+| 52 | medium | high | pass | none | chile |
+| 53 | high | high | pass | none | Arturo, Luis, chile |
+| 54 | critical | low | reread-page | none | Juan, Luis, chile |
+| 55 | medium | high | pass | none | chile |
+| 56 | critical | low | reread-page | none | Juan, Luis, chile |
+| 57 | medium | high | pass | none | chile |
+| 58 | critical | low | reread-page | none | Juan, Luis, chile |
 | 16 | medium | high | pass | none | Arriagada, Segundo |
-| 60 | critical | low | reread-page | none | Arturo, Juana, Mercedes, Segundo |
-| 61 | medium | high | pass | none | Segundo |
-| 62 | none | high | pass | none | none |
-| 63 | critical | low | reread-page | none | Luis, Segundo |
+| 60 | critical | low | reread-page | none | Arturo, Juana, Mercedes, Segundo, chile |
+| 61 | medium | high | pass | none | Segundo, chile |
+| 62 | medium | high | pass | none | chile |
+| 63 | critical | low | reread-page | none | Luis, Segundo, chile |

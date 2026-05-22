@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 510 | medium | high | pass | none | Luis |
-| 225 | medium | high | pass | none | Luis, date |
-| 3 | critical | low | reread-page | none | Luis |
-| 4 | medium | high | pass | none | date |
-| 5 | critical | low | reread-page | none | Entry, Juan, date |
-| 229 | none | high | pass | none | none |
-| 7 | critical | low | reread-page | none | Juan |
-| 8 | critical | low | reread-page | none | Juan, Luis |
-| 232 | high | high | pass | none | Arturo, Luis, Smith |
-| 10 | medium | high | pass | none | date |
-| 234 | none | high | pass | none | none |
-| 235 | none | high | pass | none | none |
+| 510 | medium | high | pass | none | List, Luis |
+| 225 | high | high | pass | none | List, Luis, chile, date, name |
+| 3 | critical | low | reread-page | none | Luis, chile, name |
+| 4 | medium | high | pass | none | chile, date |
+| 5 | critical | low | reread-page | none | Entry, Juan, chile, date, last |
+| 229 | medium | high | pass | none | chile |
+| 7 | critical | low | reread-page | none | Juan, chile |
+| 8 | critical | low | reread-page | none | Juan, Luis, chile |
+| 232 | critical | low | reread-page | none | Arturo, List, Luis, Smith, chile |
+| 10 | medium | high | pass | none | chile, date |
+| 234 | medium | high | pass | none | chile |
+| 235 | medium | high | pass | none | chile |
 | 13 | medium | high | pass | none | date |
-| 14 | medium | high | pass | none | date |
-| 15 | medium | high | pass | none | Luis, date |
-| 239 | none | high | pass | none | none |
-| 240 | none | high | pass | none | none |
+| 14 | high | high | pass | none | chile, date, last, name |
+| 15 | high | high | pass | none | Luis, chile, date |
+| 239 | medium | high | pass | none | chile |
+| 240 | medium | high | pass | none | chile |
 | 18 | medium | high | pass | none | date |
 | 19 | critical | low | reread-page | none | Luis |
-| 20 | high | high | pass | none | Luis, Riquelme, date |
+| 20 | high | high | pass | none | List, Luis, Riquelme, date |

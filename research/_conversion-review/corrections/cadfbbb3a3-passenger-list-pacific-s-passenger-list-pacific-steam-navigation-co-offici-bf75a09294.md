@@ -6,6 +6,16 @@
 
 ## Suspected Readings
 
+- Literal converted text: `PASSENGERS`
+  Suspected reading: `Passenger`
+  Reason: near match to known family context term `Passenger`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `AGES`
+  Suspected reading: `Andes`
+  Reason: near match to known family context term `Andes`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `South`
   Suspected reading: `Smith`
   Reason: near match to known family context term `Smith`

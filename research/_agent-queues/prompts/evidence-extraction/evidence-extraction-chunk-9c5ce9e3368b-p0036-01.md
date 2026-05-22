@@ -5,14 +5,14 @@ Use `$genealogy-claim-extraction`.
 ## Assignment
 
 - Role: `evidence_extractor`
-- Chunk: `raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0036-chunk-01.md`
+- Chunk: `raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-sess-fdb1369d5a/page-0036-chunk-01.md`
 - Converted source: `raw/converted/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43.codex.md`
-- Chunk manifest: `raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/manifest.json`
+- Chunk manifest: `raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-sess-fdb1369d5a/manifest.json`
 - Original source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
 - Page range: 36-36
 - Staging area: `research/_staging`
 - Family relevance: `high`
-- Matched family terms: Arturo, chunk, date
+- Matched family terms: Arturo, chile, chunk
 - Evidence priority: `1036` (family_relevance:high, qc:pass, matched_terms)
 
 

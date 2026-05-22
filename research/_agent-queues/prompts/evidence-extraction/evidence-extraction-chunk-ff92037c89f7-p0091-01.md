@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 91-91
 - Staging area: `research/_staging`
 - Family relevance: `high`
-- Matched family terms: Luis, Soler, chunk
+- Matched family terms: Luis, Soler, chile, chunk
 - Evidence priority: `1091` (family_relevance:high, qc:pass, matched_terms)
 
 

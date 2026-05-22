@@ -10,21 +10,21 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
 | 2 | none | high | pass | none | none |
-| 3 | critical | low | reread-page | none | Dios, Juan |
+| 3 | critical | low | reread-page | none | Dios, Juan, chile |
 | 4 | critical | low | reread-page | none | Juan |
-| 5 | none | high | pass | none | none |
-| 6 | medium | high | pass | none | date |
-| 7 | critical | low | reread-page | none | Dios, Juan |
-| 8 | medium | high | pass | none | Dios, Segundo |
-| 9 | critical | low | reread-page | none | Juan |
-| 10 | critical | low | reread-page | none | Dios, Juan, Segundo |
-| 11 | critical | low | reread-page | none | Dios, Juan |
+| 5 | medium | high | pass | none | List, chile |
+| 6 | high | high | pass | none | chile, date, name |
+| 7 | critical | low | reread-page | none | Dios, Juan, chile |
+| 8 | high | high | pass | none | Dios, Segundo, chile |
+| 9 | critical | low | reread-page | none | Juan, chile |
+| 10 | critical | low | reread-page | none | Andes, Dios, Juan, Segundo, chile |
+| 11 | critical | low | reread-page | none | Dios, Juan, chile |
 | 12 | high | low | reread-page | none | none |
-| 13 | none | high | pass | none | none |
-| 14 | none | high | pass | none | none |
+| 13 | medium | high | pass | none | chile |
+| 14 | medium | high | pass | none | chile |
 | 15 | critical | low | reread-page | none | Dios, Juan |
 | 16 | critical | low | reread-page | none | Juan |
-| 17 | none | high | pass | none | none |
-| 18 | critical | low | reread-page | none | Juan, Riquelme, Segundo |
-| 19 | critical | low | reread-page | none | Dios, Juan |
-| 20 | critical | low | reread-page | none | Dios, Juan |
+| 17 | medium | high | pass | none | List, chile |
+| 18 | critical | low | reread-page | none | Juan, List, Riquelme, Segundo, chile |
+| 19 | critical | low | reread-page | none | Dios, Juan, List, chile |
+| 20 | critical | low | reread-page | none | Dios, Juan, List, chile |

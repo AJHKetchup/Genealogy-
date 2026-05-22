@@ -20,15 +20,15 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis, date
+- Matched family context: Juan, Luis, chile, date
 
 ### Page 525
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `high`
+- Family relevance: `critical`
 - Quality flags: none
-- Matched family context: none
+- Matched family context: chile
 
 ### Page 526
 
@@ -36,7 +36,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis
+- Matched family context: Juan, Luis, chile
 
 ### Page 24
 

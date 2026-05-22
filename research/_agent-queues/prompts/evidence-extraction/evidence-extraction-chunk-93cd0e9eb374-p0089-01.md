@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/R4946-12-33387-8070.pdf`
 - Page range: 89-89
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Luis, Segundo, chunk
-- Evidence priority: `1089` (family_relevance:high, qc:pass, matched_terms)
+- Family relevance: `critical`
+- Matched family terms: Luis, Segundo, chile, chunk
+- Evidence priority: `89` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 
