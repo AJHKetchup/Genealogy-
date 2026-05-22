@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-22T00:21:50Z",
+  "updated": "2026-05-22T00:38:51Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -57084,13 +57084,15 @@
       "released_at": "2026-05-19T18:43:39Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0980": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:43:51Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-22T00:38:51Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:22:53Z",
       "started_at": "2026-05-19T18:22:53Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:43:51Z"
+      "released_at": "2026-05-19T18:43:51Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-22T00:38:51Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0981": {
       "status": "released",
