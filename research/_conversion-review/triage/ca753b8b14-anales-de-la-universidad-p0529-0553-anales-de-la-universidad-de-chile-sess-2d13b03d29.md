@@ -10,26 +10,26 @@
 | --- | --- | --- | --- | --- | --- |
 | 529 | medium | high | pass | none | Luis, Segundo |
 | 530 | none | high | pass | none | none |
-| 3 | none | high | pass | none | none |
+| 3 | medium | high | pass | none | date |
 | 4 | medium | high | pass | none | Entry |
 | 533 | medium | high | pass | none | Riquelme |
-| 6 | medium | high | pass | none | Entry, Juana |
-| 7 | none | high | pass | none | none |
-| 8 | medium | high | pass | none | Luis |
-| 9 | none | high | pass | none | none |
+| 6 | high | high | pass | none | Entry, Juana, date |
+| 7 | medium | high | pass | none | date, time |
+| 8 | medium | high | pass | none | Luis, date |
+| 9 | medium | high | pass | none | date |
 | 10 | none | high | pass | none | none |
-| 11 | medium | high | pass | none | Dios |
-| 12 | none | high | pass | none | none |
+| 11 | medium | high | pass | none | Dios, date |
+| 12 | medium | high | pass | none | date |
 | 541 | none | high | pass | none | none |
-| 14 | none | high | pass | none | none |
-| 543 | medium | high | pass | none | Dario, Luis |
+| 14 | medium | high | pass | none | date |
+| 543 | high | high | pass | none | Dario, Luis, date |
 | 544 | medium | high | pass | none | Segundo |
 | 545 | none | high | pass | none | none |
 | 546 | none | high | pass | none | none |
 | 547 | none | high | pass | none | none |
-| 20 | medium | high | pass | none | Entry |
-| 21 | none | high | pass | none | none |
+| 20 | medium | high | pass | none | Entry, date |
+| 21 | medium | high | pass | none | date |
 | 22 | none | high | pass | none | none |
-| 23 | none | high | pass | none | none |
+| 23 | medium | high | pass | none | date |
 | 24 | none | high | pass | none | none |
 | 553 | none | high | pass | none | none |

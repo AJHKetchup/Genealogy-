@@ -19,7 +19,7 @@
 | 9 | none | high | pass | none | none |
 | 10 | critical | low | reread-page | none | Segundo |
 | 71 | none | medium | spot-check | explicit_reread_needed | none |
-| 12 | none | high | pass | none | none |
+| 12 | medium | high | pass | none | date |
 | 13 | high | low | reread-page | none | none |
 | 14 | none | high | pass | none | none |
 | 15 | high | low | reread-page | none | none |

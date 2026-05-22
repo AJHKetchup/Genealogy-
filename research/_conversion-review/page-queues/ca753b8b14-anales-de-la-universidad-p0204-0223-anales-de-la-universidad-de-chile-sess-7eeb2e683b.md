@@ -52,7 +52,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis
+- Matched family context: Juan, Luis, date
 
 ### Page 7
 
@@ -84,7 +84,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan
+- Matched family context: Juan, date
 
 ### Page 15
 
@@ -116,4 +116,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis
+- Matched family context: Juan, Luis, date

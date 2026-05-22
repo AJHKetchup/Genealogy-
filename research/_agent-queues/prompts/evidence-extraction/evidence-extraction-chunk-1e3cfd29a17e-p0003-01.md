@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/ACICR_B_CR_177_001_002.pdf`
 - Page range: 3-3
 - Staging area: `research/_staging`
-- Family relevance: `medium`
-- Matched family terms: Entry, chunk
-- Evidence priority: `2003` (family_relevance:medium, qc:pass, matched_terms)
+- Family relevance: `high`
+- Matched family terms: Entry, chunk, date
+- Evidence priority: `1003` (family_relevance:high, qc:pass, matched_terms)
 
 
 

@@ -8,9 +8,9 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | high | pass | none | none |
-| 2 | none | high | pass | none | none |
-| 3 | none | medium | spot-check | possible_table_layout_loss | none |
+| 1 | medium | high | pass | none | time |
+| 2 | medium | high | pass | none | time |
+| 3 | medium | medium | spot-check | possible_table_layout_loss | time |
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |

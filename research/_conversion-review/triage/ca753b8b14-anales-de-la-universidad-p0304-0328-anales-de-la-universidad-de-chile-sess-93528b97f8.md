@@ -12,8 +12,8 @@
 | 2 | none | high | pass | none | none |
 | 3 | medium | high | pass | none | Luis |
 | 4 | none | high | pass | none | none |
-| 5 | critical | low | reread-page | none | Dios |
-| 6 | none | high | pass | none | none |
+| 5 | critical | low | reread-page | none | Dios, date |
+| 6 | medium | high | pass | none | date |
 | 310 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
@@ -29,7 +29,7 @@
 | 19 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |
 | 21 | medium | high | pass | none | Luis |
-| 22 | none | high | pass | none | none |
+| 22 | medium | high | pass | none | date |
 | 23 | none | high | pass | none | none |
-| 327 | none | high | pass | none | none |
+| 327 | medium | high | pass | none | date |
 | 25 | medium | high | pass | none | Mercedes |

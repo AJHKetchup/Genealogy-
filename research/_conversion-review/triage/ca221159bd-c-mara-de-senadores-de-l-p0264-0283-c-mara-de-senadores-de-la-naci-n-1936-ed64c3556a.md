@@ -19,7 +19,7 @@
 | 9 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
 | 11 | critical | low | reread-page | none | Juan |
-| 12 | none | high | pass | none | none |
+| 12 | medium | high | pass | none | date |
 | 276 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
 | 15 | none | high | pass | none | none |

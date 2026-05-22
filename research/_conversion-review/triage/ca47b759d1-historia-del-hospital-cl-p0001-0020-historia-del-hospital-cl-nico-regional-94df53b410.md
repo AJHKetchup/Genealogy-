@@ -13,7 +13,7 @@
 | 3 | critical | low | reread-page | none | Dios, Juan |
 | 4 | critical | low | reread-page | none | Juan |
 | 5 | none | high | pass | none | none |
-| 6 | none | high | pass | none | none |
+| 6 | medium | high | pass | none | date |
 | 7 | critical | low | reread-page | none | Dios, Juan |
 | 8 | medium | high | pass | none | Dios, Segundo |
 | 9 | critical | low | reread-page | none | Juan |

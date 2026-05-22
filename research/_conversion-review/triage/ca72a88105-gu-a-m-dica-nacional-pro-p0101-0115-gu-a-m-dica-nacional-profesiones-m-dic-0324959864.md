@@ -20,6 +20,6 @@
 | 10 | medium | high | pass | none | Arturo, Entry |
 | 11 | critical | low | reread-page | none | Arriagada, Juan, Luis, Riquelme |
 | 12 | critical | low | reread-page | none | Arriagada, Arturo, Juan |
-| 13 | critical | low | reread-page | none | Arriagada, Juan, Luis |
+| 13 | critical | low | reread-page | none | Arriagada, Juan, Luis, date |
 | 114 | critical | low | reread-page | none | Arturo, Juan, Luis |
 | 115 | critical | low | reread-page | none | Juan, Luis |

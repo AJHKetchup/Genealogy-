@@ -16,7 +16,7 @@
 | 6 | critical | low | reread-page | none | Dios, Juan, Juana |
 | 27 | critical | low | reread-page | explicit_reread_needed | Mercedes |
 | 8 | critical | low | reread-page | none | Dios, Juan |
-| 9 | high | high | pass | none | Dios, Entry, Segundo |
+| 9 | high | high | pass | none | Dios, Entry, Segundo, date |
 | 10 | medium | high | pass | none | Luis |
 | 11 | critical | low | reread-page | none | Dios, Juan |
 | 12 | critical | low | reread-page | none | Dios, Juan |

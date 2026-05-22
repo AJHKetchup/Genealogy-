@@ -19,8 +19,8 @@
 | 9 | medium | high | pass | none | Segundo |
 | 10 | critical | low | reread-page | none | Dios, Juan |
 | 11 | none | high | pass | none | none |
-| 12 | none | high | pass | none | none |
-| 13 | none | high | pass | none | none |
+| 12 | medium | high | pass | none | date |
+| 13 | medium | high | pass | none | date |
 | 14 | none | high | pass | none | none |
 | 15 | critical | low | reread-page | none | Segundo |
 | 16 | critical | low | reread-page | none | Dios, Juan |

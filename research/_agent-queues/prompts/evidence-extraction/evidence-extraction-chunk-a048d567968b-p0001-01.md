@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Habitat Revisited, Jim Carney, 2006.pdf`
 - Page range: 1-1
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Dario, Pulgar, chunk
-- Evidence priority: `1001` (family_relevance:high, qc:reread-page, matched_terms)
+- Family relevance: `critical`
+- Matched family terms: Dario, Pulgar, chunk, time
+- Evidence priority: `1` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

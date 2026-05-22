@@ -14,7 +14,7 @@
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
 | 299 | none | high | pass | none | none |
-| 7 | medium | high | pass | none | Arturo, Registration |
+| 7 | high | high | pass | none | Arturo, Registration, date |
 | 301 | none | high | pass | none | none |
-| 9 | none | high | pass | none | none |
+| 9 | medium | high | pass | none | date |
 | 10 | critical | low | reread-page | none | Segundo |

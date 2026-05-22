@@ -14,7 +14,7 @@
 | 4 | medium | high | pass | none | Riquelme |
 | 105 | critical | low | reread-page | explicit_reread_needed | Arriagada, Dios, Juan, Pulgar, Riquelme |
 | 106 | critical | low | reread-page | explicit_reread_needed | Juan |
-| 7 | medium | high | pass | none | Arriagada |
+| 7 | medium | high | pass | none | Arriagada, date |
 | 8 | medium | high | pass | none | John |
 | 9 | critical | low | reread-page | none | Entry, Juan, Luis |
 | 10 | none | high | pass | none | none |
@@ -24,7 +24,7 @@
 | 114 | none | medium | spot-check | explicit_reread_needed | none |
 | 15 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
-| 17 | medium | high | pass | none | Entry |
-| 18 | none | high | pass | none | none |
+| 17 | medium | high | pass | none | Entry, date |
+| 18 | medium | high | pass | none | date |
 | 19 | critical | low | reread-page | none | Dios, Juan |
 | 20 | critical | low | reread-page | none | Juan |

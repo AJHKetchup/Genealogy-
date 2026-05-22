@@ -10,9 +10,9 @@
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `high`
+- Family relevance: `critical`
 - Quality flags: none
-- Matched family context: none
+- Matched family context: time
 
 ### Page 5
 
@@ -20,4 +20,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Pulgar
+- Matched family context: Pulgar, time

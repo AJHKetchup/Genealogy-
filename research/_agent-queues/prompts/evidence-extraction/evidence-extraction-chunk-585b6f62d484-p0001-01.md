@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Passenger and Crew Lists, The National Archives at Washington, D.C.; NAI Number 2848504; Record Group Title Records of the Immigration and Naturalization Service, 1787–2004.png`
 - Page range: 1-1
 - Staging area: `research/_staging`
-- Family relevance: `medium`
-- Matched family terms: Pulgar, chunk
-- Evidence priority: `2001` (family_relevance:medium, qc:pass, matched_terms)
+- Family relevance: `high`
+- Matched family terms: Pulgar, chunk, date
+- Evidence priority: `1001` (family_relevance:high, qc:pass, matched_terms)
 
 
 

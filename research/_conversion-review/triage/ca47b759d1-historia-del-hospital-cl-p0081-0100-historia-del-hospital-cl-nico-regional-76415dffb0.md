@@ -25,6 +25,6 @@
 | 15 | none | high | pass | none | none |
 | 16 | critical | low | reread-page | none | Dios, Juan, Luis |
 | 17 | medium | high | pass | none | Luis |
-| 98 | critical | low | reread-page | none | Carmen, Juan |
+| 98 | critical | low | reread-page | none | Carmen, Juan, date |
 | 19 | medium | high | pass | none | Carmen, Entry |
 | 20 | none | high | pass | none | none |

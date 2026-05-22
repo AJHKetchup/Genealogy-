@@ -21,10 +21,10 @@
 | 34 | none | high | pass | none | none |
 | 35 | none | high | pass | none | none |
 | 36 | medium | high | pass | none | Arturo |
-| 323 | none | high | pass | none | none |
+| 323 | medium | high | pass | none | date |
 | 38 | none | high | pass | none | none |
 | 39 | none | high | pass | none | none |
 | 40 | critical | low | reread-page | none | Juan |
 | 41 | none | high | pass | none | none |
-| 19 | none | high | pass | none | none |
+| 19 | medium | high | pass | none | date |
 | 43 | none | high | pass | none | none |

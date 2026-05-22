@@ -13,18 +13,18 @@
 | 3 | critical | low | reread-page | none | Carmen, Juan |
 | 4 | critical | low | reread-page | none | Juan, Luis |
 | 5 | critical | low | reread-page | none | Juan, Luis |
-| 6 | critical | low | reread-page | none | Juan, Luis |
+| 6 | critical | low | reread-page | none | Juan, Luis, date |
 | 7 | critical | low | reread-page | none | Dios, Juan, Luis |
 | 211 | critical | low | reread-page | none | Dios, Juan, Luis |
 | 9 | medium | high | pass | none | Luis |
 | 213 | medium | high | pass | none | Arturo, Luis |
-| 214 | medium | high | pass | none | Arturo, Luis |
-| 215 | medium | high | pass | none | Luis |
+| 214 | high | high | pass | none | Arturo, Luis, date |
+| 215 | medium | high | pass | none | Luis, date |
 | 13 | critical | low | reread-page | none | Juan |
-| 14 | critical | low | reread-page | none | Juan |
+| 14 | critical | low | reread-page | none | Juan, date |
 | 15 | critical | low | reread-page | none | Juan, Luis |
 | 16 | critical | low | reread-page | none | Juan |
 | 17 | critical | low | reread-page | none | Mercedes |
 | 18 | medium | high | pass | none | Luis |
 | 19 | none | high | pass | none | none |
-| 223 | critical | low | reread-page | none | Juan, Luis |
+| 223 | critical | low | reread-page | none | Juan, Luis, date |

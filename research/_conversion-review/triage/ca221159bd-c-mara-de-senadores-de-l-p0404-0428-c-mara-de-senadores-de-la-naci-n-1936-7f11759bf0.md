@@ -11,9 +11,9 @@
 | 1 | none | high | pass | none | none |
 | 2 | none | high | pass | none | none |
 | 406 | none | high | pass | none | none |
-| 4 | none | high | pass | none | none |
-| 408 | none | high | pass | none | none |
-| 409 | none | high | pass | none | none |
+| 4 | medium | high | pass | none | date |
+| 408 | medium | high | pass | none | date |
+| 409 | medium | high | pass | none | date |
 | 7 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
 | 412 | none | high | pass | none | none |
@@ -24,10 +24,10 @@
 | 14 | none | medium | spot-check | possible_table_layout_loss | none |
 | 15 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
-| 17 | none | high | pass | none | none |
+| 17 | medium | high | pass | none | date |
 | 18 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |
-| 20 | none | high | pass | none | none |
+| 20 | medium | high | pass | none | date |
 | 21 | none | high | pass | none | none |
 | 22 | none | high | pass | none | none |
 | 23 | none | high | pass | none | none |

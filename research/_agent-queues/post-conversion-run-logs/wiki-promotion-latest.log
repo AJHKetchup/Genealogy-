@@ -5,7 +5,7 @@ Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\sourc
 Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
 source-relevance sync-review-holds | summary
 {
-  "review_count": 166,
+  "review_count": 171,
   "candidate_count": 28,
   "changed_count": 0,
   "feedback_path": "research/_agent-queues/source-relevance-feedback.json"
@@ -13,16 +13,20 @@ source-relevance sync-review-holds | summary
 source-relevance restore-review-assets | summary
 {
   "target_count": 12,
-  "restored_raw": 0,
+  "restored_raw": 1,
   "skipped_raw": 0,
-  "restored_page_images": 0,
-  "released_tasks": [],
+  "restored_page_images": 3,
+  "released_tasks": [
+    "proof-review:research/_staging/claims/chunk-a048d567968b-p0001-02-001-dario-saturna-project-weekend.md"
+  ],
   "errors": [],
   "blockers": []
 }
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
 post-conversion-controller | summary
 {
-    "started":  "2026-05-22T13:57:25Z",
+    "started":  "2026-05-22T15:19:30Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "dry_run":  false,
     "allow_promotion":  true,
@@ -41,30 +45,43 @@ post-conversion-controller | summary
                                          "todo":  200
                                      },
                    "evidence-extraction":  {
-                                               "done":  12,
-                                               "todo":  4660,
+                                               "done":  13,
+                                               "todo":  4659,
                                                "blocked_needs_reread":  156
                                            },
                    "identity-analysis":  {
-                                             "todo":  95,
+                                             "todo":  100,
                                              "done":  3
                                          },
                    "proof-review":  {
-                                        "done":  102,
-                                        "todo":  343,
-                                        "released":  41
+                                        "done":  105,
+                                        "todo":  351,
+                                        "released":  43
                                     },
                    "wiki-promotion":  {
-                                          "blocked_no_reviewed_ready":  1
+                                          "todo":  1
                                       }
                },
     "active_workers_before":  0,
-    "active_workers_after":  0,
+    "active_workers_after":  1,
     "launched":  [
-
+                     {
+                         "worker":  "postconv-wiki-promotion-20260522152107826",
+                         "pid":  1836,
+                         "task_ids":  [
+                                          "wiki-promotion:reviewed-ready:fd529fc696e2"
+                                      ],
+                         "queue":  "wiki-promotion",
+                         "codex":  "C:\\npm\\prefix\\codex.cmd",
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-wiki-promotion-20260522152107826.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522152107826.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522152107826.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522152107826.last.md",
+                         "started":  "2026-05-22T15:21:08Z"
+                     }
                  ],
     "blockers":  [
 
                  ],
-    "finished":  "2026-05-22T13:58:46Z"
+    "finished":  "2026-05-22T15:24:14Z"
 }

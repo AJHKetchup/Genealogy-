@@ -8,14 +8,14 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | high | low | reread-page | none | none |
+| 1 | critical | low | reread-page | none | time |
 | 2 | medium | high | pass | none | Dario, Pulgar |
 | 3 | none | high | pass | none | none |
 | 4 | medium | high | pass | none | Dario |
-| 5 | critical | low | reread-page | none | Pulgar |
+| 5 | critical | low | reread-page | none | Pulgar, time |
 | 6 | none | high | pass | none | none |
-| 7 | medium | high | pass | none | Dario, Pulgar |
-| 8 | medium | high | pass | none | Dario, supplied |
+| 7 | high | high | pass | none | Dario, Pulgar, time |
+| 8 | high | high | pass | none | Dario, parents, supplied, time |
 | 9 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
-| 11 | none | high | pass | none | none |
+| 11 | medium | high | pass | none | time |

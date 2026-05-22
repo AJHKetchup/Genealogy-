@@ -1,0 +1,23 @@
+---
+type: claim
+status: draft
+claim_type: nationality_or_identity_descriptor
+subject: "Dario Pulgar"
+predicate: "was described as"
+object: "Chiliean/Canadian"
+source: "raw/sources/Habitat Revisited, Jim Carney, 2006.pdf"
+source_packet: "research/_staging/source-packets/chunk-a048d567968b-p0001-01-habitat-revisited-dario-pulgar.md"
+converted_file: "raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md"
+chunk: "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-page-7cd35b519c/page-0001-chunk-01.md"
+chunk_id: CHUNK-a048d567968b-P0001-01
+page_reference: "assigned page 1; support appears in converted page 2 text embedded in this chunk"
+confidence: medium
+promotion_recommendation: hold_for_conversion_qa
+---
+
+# Claim: Dario Pulgar Nationality Descriptor
+
+- Literal support: `allocating Central America to Chiliean/Ca-` / `nadian Dario Pulgar`.
+- Normalized reading for review: The line break indicates `Chiliean/Canadian Dario Pulgar`; spelling is preserved as converted.
+- Conversion confidence/QA concern: medium. The text is legible in the assigned chunk, but the controller flagged `reread-page` and the relevant support appears in later-page text inside a page-1 chunk.
+- Uncertainty: Medium for exact spelling and page reference until proof review checks the PDF/page image. This is an identity descriptor, not a vital-record nationality proof.

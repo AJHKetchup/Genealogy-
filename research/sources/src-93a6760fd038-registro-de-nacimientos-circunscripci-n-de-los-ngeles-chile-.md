@@ -38,6 +38,10 @@ See linked source packet and converted source artifacts.
 | --- | --- | --- | --- | --- |
 | [[claims/chunk-b8f4f0490a36-p0001-01-003-birth-date-time]] | [[people/jose-del-carmen-segundo-pulgar-arriagada]] | draft | high | [[claims/chunk-b8f4f0490a36-p0001-01-003-birth-date-time]] |
 | [[claims/chunk-b8f4f0490a36-p0001-01-004-birth-place]] | [[people/jose-del-carmen-segundo-pulgar-arriagada]] | draft | high | [[claims/chunk-b8f4f0490a36-p0001-01-004-birth-place]] |
+| [[claims/chunk-b8f4f0490a36-p0001-01-001-child-birth-name]] | [[people/jose-del-carmen-segundo-pulgar-arriagada]] | draft | high | [[claims/chunk-b8f4f0490a36-p0001-01-001-child-birth-name]] |
+| [[claims/chunk-b8f4f0490a36-p0001-01-002-child-sex]] | [[people/jose-del-carmen-segundo-pulgar-arriagada]] | draft | high | [[claims/chunk-b8f4f0490a36-p0001-01-002-child-sex]] |
+| [[claims/chunk-b8f4f0490a36-p0001-01-005-registration-date]] | [[people/birth-registration-entry-172-for-jose-del-carmen-segundo-pulgar-arriagada]] | draft | high | [[claims/chunk-b8f4f0490a36-p0001-01-005-registration-date]] |
+| [[claims/chunk-b8f4f0490a36-p0001-01-007-mother-attributes]] | [[people/juana-arriagada-de-pulgar]] | draft | high | [[claims/chunk-b8f4f0490a36-p0001-01-007-mother-attributes]] |
 
 ## Image/Layout Notes
 

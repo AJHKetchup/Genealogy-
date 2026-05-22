@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
 - Page range: 722-722
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: chunk
-- Evidence priority: `101722` (family_relevance:high, qc:reread-page, matched_terms, blocked_by_conversion_qc)
+- Family relevance: `critical`
+- Matched family terms: chunk, date
+- Evidence priority: `100722` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
 
 ## QC Hold
 

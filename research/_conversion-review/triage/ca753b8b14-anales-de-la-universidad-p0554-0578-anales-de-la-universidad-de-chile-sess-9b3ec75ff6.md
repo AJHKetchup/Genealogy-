@@ -11,25 +11,25 @@
 | 1 | none | high | pass | none | none |
 | 555 | high | high | pass | none | Arriagada, Luis, Segundo |
 | 556 | medium | high | pass | none | Luis |
-| 4 | none | high | pass | none | none |
+| 4 | medium | high | pass | none | date |
 | 558 | none | high | pass | none | none |
 | 559 | none | high | pass | none | none |
 | 560 | none | high | pass | none | none |
 | 561 | none | high | pass | none | none |
 | 562 | medium | high | pass | none | Segundo |
 | 563 | medium | high | pass | none | Luis |
-| 11 | none | high | pass | none | none |
-| 565 | medium | high | pass | none | Luis, Segundo |
-| 13 | none | high | pass | none | none |
+| 11 | medium | high | pass | none | date |
+| 565 | high | high | pass | none | Luis, Segundo, date |
+| 13 | medium | high | pass | none | date |
 | 567 | none | high | pass | none | none |
 | 15 | medium | high | pass | none | Luis |
 | 569 | none | high | pass | none | none |
 | 570 | high | low | reread-page | none | none |
 | 571 | high | low | reread-page | none | none |
 | 19 | none | high | pass | none | none |
-| 20 | none | high | pass | none | none |
+| 20 | medium | high | pass | none | date |
 | 21 | none | high | pass | none | none |
 | 575 | none | high | pass | none | none |
 | 576 | none | high | pass | none | none |
-| 24 | none | high | pass | none | none |
+| 24 | medium | high | pass | none | date |
 | 25 | medium | high | pass | none | Luis |

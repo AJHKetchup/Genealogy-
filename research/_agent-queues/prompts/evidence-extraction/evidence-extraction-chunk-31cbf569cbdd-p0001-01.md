@@ -12,8 +12,8 @@ Use `$genealogy-claim-extraction`.
 - Page range: 1-1
 - Staging area: `research/_staging`
 - Family relevance: `high`
-- Matched family terms: Cesar, Entry, chunk
-- Evidence priority: `1001` (family_relevance:high, qc:spot-check, matched_terms)
+- Matched family terms: Cesar, Entry, chunk, date
+- Evidence priority: `1001` (family_relevance:high, qc:reread-page, matched_terms)
 
 
 

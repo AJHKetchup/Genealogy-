@@ -8,4 +8,4 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | critical | low | reread-page | none | Dario, Luis, Pulgar |
+| 1 | critical | low | reread-page | none | Dario, Luis, Pulgar, date |

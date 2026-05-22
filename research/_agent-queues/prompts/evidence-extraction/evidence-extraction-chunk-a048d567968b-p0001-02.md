@@ -11,10 +11,20 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Habitat Revisited, Jim Carney, 2006.pdf`
 - Page range: 1-1
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Dario, Pulgar, chunk
-- Evidence priority: `1001` (family_relevance:high, qc:reread-page, matched_terms)
+- Family relevance: `critical`
+- Matched family terms: Dario, Pulgar, chunk, time
+- Evidence priority: `-699` (family_relevance:critical, qc:reread-page, matched_terms, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/chunk-a048d567968b-p0001-02-001-dario-saturna-project-weekend-proof-review.md` | `research/_staging/claims/chunk-a048d567968b-p0001-02-001-dario-saturna-project-weekend.md` | `hold_for_conversion_qa` | Complete the existing conversion QA and identity-review task for `CHUNK-a048d567968b-P0001-02`: reread the original PDF/source page for the Saturna passage, confirm the correct page reference, and verify whether the first-name `Dario` in this passage should be linked to Dario Pulgar. Keep this staged claim out of canonical folders until that review is complete. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Done When

@@ -21,7 +21,7 @@
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
-| 14 | none | high | pass | none | none |
+| 14 | medium | high | pass | none | date |
 | 15 | critical | low | reread-page | none | Segundo |
 | 16 | medium | high | pass | none | Segundo |
 | 17 | medium | high | pass | none | Segundo |

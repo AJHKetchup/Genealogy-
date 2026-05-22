@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
 - Page range: 2-2
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: chunk
-- Evidence priority: `1002` (family_relevance:high, qc:reread-page, matched_terms)
+- Family relevance: `critical`
+- Matched family terms: chunk, date
+- Evidence priority: `2` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

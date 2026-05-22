@@ -17,6 +17,12 @@
 
 - [[people/jose-del-carmen-segundo-pulgar-arriagada]]
 
+- [[people/birth-registration-entry-172-for-jose-del-carmen-segundo-pulgar-arriagada]]
+
+- [[people/juana-arriagada-de-pulgar]]
+
+- [[people/dario-pulgar-child-passenger-age-11]]
+
 ## Branches
 
 ## Families

@@ -12,7 +12,7 @@
 - Conversion confidence: `medium`
 - Family relevance: `high`
 - Quality flags: explicit_reread_needed
-- Matched family context: Arturo, Dario, Entry, Pulgar
+- Matched family context: Arturo, Dario, Entry, Pulgar, date
 
 ### Page 6
 
@@ -20,7 +20,7 @@
 - Conversion confidence: `medium`
 - Family relevance: `high`
 - Quality flags: explicit_reread_needed
-- Matched family context: Arturo, Dario, Entry, Pulgar
+- Matched family context: Arturo, Dario, Entry, Pulgar, date
 
 ### Page 6
 
@@ -28,4 +28,4 @@
 - Conversion confidence: `medium`
 - Family relevance: `high`
 - Quality flags: possible_table_layout_loss
-- Matched family context: Arturo, Dario, Entry, Pulgar
+- Matched family context: Arturo, Dario, Entry, Pulgar, date

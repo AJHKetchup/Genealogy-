@@ -11,10 +11,10 @@
 | 1 | medium | high | pass | none | Luis |
 | 2 | critical | low | reread-page | none | Dios, Juan, knowledge |
 | 3 | critical | low | reread-page | none | Dios, Juan |
-| 4 | critical | low | reread-page | none | Dios, Juan, Pulgar |
+| 4 | critical | low | reread-page | none | Dios, Juan, Pulgar, time |
 | 5 | critical | low | reread-page | none | Birth, Juan, Luis |
 | 6 | critical | low | reread-page | none | Dios, Juan |
-| 7 | medium | high | pass | none | Luis |
+| 7 | high | high | pass | none | Luis, date, time |
 | 8 | medium | high | pass | none | Arturo |
-| 9 | none | high | pass | none | none |
+| 9 | medium | high | pass | none | time |
 | 10 | medium | high | pass | none | knowledge |

@@ -12,23 +12,23 @@
 | 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
-| 5 | none | high | pass | none | none |
+| 5 | medium | high | pass | none | date |
 | 509 | none | high | pass | none | none |
 | 7 | critical | low | reread-page | none | Juan, Luis |
 | 511 | none | high | pass | none | none |
 | 512 | none | high | pass | none | none |
-| 10 | none | high | pass | none | none |
+| 10 | medium | high | pass | none | date |
 | 514 | none | high | pass | none | none |
-| 12 | none | high | pass | none | none |
+| 12 | medium | high | pass | none | date |
 | 516 | medium | high | pass | none | Luis |
-| 14 | medium | high | pass | none | Luis |
+| 14 | medium | high | pass | none | Luis, date |
 | 518 | medium | high | pass | none | Luis |
 | 519 | none | high | pass | none | none |
-| 17 | none | high | pass | none | none |
+| 17 | medium | high | pass | none | date |
 | 521 | none | high | pass | none | none |
 | 522 | none | high | pass | none | none |
-| 20 | none | high | pass | none | none |
-| 21 | critical | low | reread-page | none | Juan, Luis |
+| 20 | medium | high | pass | none | date |
+| 21 | critical | low | reread-page | none | Juan, Luis, date |
 | 525 | high | low | reread-page | none | none |
 | 526 | critical | low | reread-page | none | Juan, Luis |
 | 24 | critical | low | reread-page | none | Luis |

@@ -12,12 +12,12 @@ chunk: "raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-ci
 chunk_id: CHUNK-b8f4f0490a36-P0001-01
 page_reference: "page 1; register page 58; entry 172"
 confidence: high
-promotion_recommendation: promote_after_review
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Relationship Candidate: Child To Mother
 
 - Literal support: `**Nombre.** Jose del Carmen Segundo Pulgar Arriagada`; `**Nombre de la madre** Juana Arriagada de Pulgar`.
-- Conversion confidence/QA concern: image reread completed 2026-05-22; the visible entry 172 mother field and assigned chunk support this relationship. The converted Markdown file's entry 172 is a conflicting Oswaldo Burgos/Concepcion de la Cruz entry, so the converted file itself is not reliable literal support for this relationship. The remaining within-row QA issue concerns the father's possible suffix, not this mother-child relationship.
-- Uncertainty: Low for the stated mother-child relationship; review separately whether the canonical mother identity should use the recorded married style `de Pulgar` or a maiden-name form.
+- Conversion confidence/QA concern: assigned chunk supports this relationship, but the converted Markdown file's entry 172 is a conflicting Oswaldo Burgos/Concepcion de la Cruz entry, and the original source image/page image could not be located in this checkout for direct verification during this revision.
+- Uncertainty: Low for the stated mother-child relationship in the assigned chunk; high for promotion readiness until conversion QA reconciles the missing image and conflicting converted Markdown. Review separately whether the canonical mother identity should use the recorded married style `de Pulgar` or a maiden-name form.
 

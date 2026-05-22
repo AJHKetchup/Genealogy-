@@ -8,11 +8,11 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | high | pass | none | none |
+| 1 | medium | high | pass | none | date |
 | 2 | none | high | pass | none | none |
 | 286 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
-| 5 | none | high | pass | none | none |
+| 5 | medium | high | pass | none | date |
 | 6 | none | high | pass | none | none |
 | 7 | medium | high | pass | none | Segundo |
 | 8 | none | high | pass | none | none |

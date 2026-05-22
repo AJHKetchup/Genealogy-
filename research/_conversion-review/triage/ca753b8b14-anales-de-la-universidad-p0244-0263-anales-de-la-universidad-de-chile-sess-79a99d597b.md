@@ -13,17 +13,17 @@
 | 246 | none | high | pass | none | none |
 | 247 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
-| 6 | none | high | pass | none | none |
+| 6 | medium | high | pass | none | date |
 | 7 | none | high | pass | none | none |
-| 8 | none | high | pass | none | none |
+| 8 | medium | high | pass | none | date |
 | 9 | none | high | pass | none | none |
 | 253 | none | high | pass | none | none |
 | 254 | critical | low | reread-page | none | Juan, Luis |
 | 255 | none | high | pass | none | none |
-| 13 | none | high | pass | none | none |
-| 14 | critical | low | reread-page | none | Entry, Juan, Luis |
+| 13 | medium | high | pass | none | date |
+| 14 | critical | low | reread-page | none | Entry, Juan, Luis, date |
 | 258 | high | low | reread-page | none | none |
-| 16 | none | high | pass | none | none |
+| 16 | medium | high | pass | none | date |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |

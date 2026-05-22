@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 172-172
 - Staging area: `research/_staging`
 - Family relevance: `critical`
-- Matched family terms: Birth, Carmen, Dios, Juan, Juana, Mercedes, Pulgar, Registration, Riquelme, chunk, mercedes riquelme
+- Matched family terms: Birth, Carmen, Dios, Juan, Juana, Mercedes, Pulgar, Registration, Riquelme, chunk, date, mercedes riquelme
 - Evidence priority: `99472` (family_relevance:critical, qc:reread-page, matched_terms, proof_review_revision, blocked_by_conversion_qc)
 
 ## QC Hold
@@ -34,6 +34,7 @@ Previous proof review found staged outputs for this chunk were not yet promotion
 | `research/_staging/reviews/proof-review-CL-STAGE-CHUNK-bdb698de8106-P0001-01-513-declarant-postconv-proof-review-20260522132543215.md` | `research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-513-declarant.md` | `hold` | Hold for conversion QA. Ask QA to verify entry 513 against the page image, repair the cited chunk path/id, and reconcile whether the declarant profession should be read as `Agricultor` or `Jornalero`. The name `José del C. Pulgar`, role `Padre`, age 47, and domicile `Calle Colon` have direct visible support, but the complete atomic claim should remain staged until the conversion conflict is resolved. |
 | `research/_staging/reviews/proof-review-CL-STAGE-CHUNK-bdb698de8106-P0001-01-514-birth-date-place-postconv-proof-review-20260522133432835.md` | `research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-514-birth-date-place.md` | `hold_for_conversion_qa` | Run targeted conversion QA against the source image for entry 514's `Fecha i lugar del nacimiento` field. After QA, replace this staged claim with an image-supported, registration-scoped birth date/time/place claim before any canonical promotion. |
 | `research/_staging/reviews/proof-review-CL-STAGE-CHUNK-bdb698de8106-P0001-01-514-declarant-postconv-proof-review-20260522134447745.md` | `research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-514-declarant.md` | `revise_or_hold` | Hold for conversion QA before canonical promotion. Ask QA to repair the stale chunk path/id, reconcile entry 514 against the page image, and specifically verify whether the declarant line after `Madre` reads a no-signature note rather than a spouse statement. Any revised claim should not state `Esposa de Juan Soler` unless that wording is visibly supported by the source. |
+| `research/_staging/reviews/proof-review-CL-STAGE-CHUNK-bdb698de8106-P0001-01-514-registration-date-postconv-proof-review-20260522151013138.md` | `research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-514-registration-date.md` | `hold` | Hold this claim for conversion QA/provenance cleanup. After the source packet and staged draft point to the correct current chunk path and chunk id, this registration-date claim can likely be promoted with high confidence, provided the corrected derivative layer still preserves the visible date reading. |
 
 When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 

@@ -9,11 +9,11 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 184 | medium | high | pass | none | Luis |
-| 2 | none | high | pass | none | none |
+| 2 | medium | high | pass | none | date |
 | 3 | medium | high | pass | none | Luis, Mercedes |
-| 187 | medium | high | pass | none | Luis |
+| 187 | medium | high | pass | none | Luis, date |
 | 5 | medium | high | pass | none | Luis |
-| 475 | medium | high | pass | none | Luis |
+| 475 | medium | high | pass | none | Luis, date |
 | 190 | medium | high | pass | none | Luis |
 | 191 | medium | high | pass | none | Arturo |
 | 192 | critical | low | reread-page | none | Arturo, Luis |
