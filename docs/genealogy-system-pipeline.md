@@ -196,7 +196,7 @@ Storage deaccession is allowed only when:
 - Implemented: page-level source-prep tasks.
 - Implemented: Docling rough discovery.
 - Implemented: cloud source-prep workflow runs Docling baseline conversion on all queued pages in the scan window, extracts Docling picture images, passes usable Docling pages forward, and automatically routes unusable pages to Gemini elevation.
-- Implemented: high-throughput cloud source-prep schedule every five minutes with parallel Docling baseline and parallel Gemini fallback settings targeting 8,000 pages/hour when capacity and API limits allow.
+- Implemented: cloud source-prep remains available through manual dispatch and raw-source pushes, but the scheduled conversion loop is disabled while the project focuses on hosted internal research from existing conversions. This prevents the internal wiki population loop from spending provider API work on document conversion unless conversion is explicitly requested.
 - Implemented: cloud source-prep push triggers are limited to source-prep inputs and conversion code so internal research/dashboard commits do not restart document conversion.
 - Implemented: Gemini Lite/Pro conversion routing.
 - Implemented: parallel Gemini page conversion.
