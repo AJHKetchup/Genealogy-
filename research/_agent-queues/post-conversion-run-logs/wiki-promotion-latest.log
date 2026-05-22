@@ -5,26 +5,24 @@ Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\sourc
 Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
 source-relevance sync-review-holds | summary
 {
-  "review_count": 136,
-  "candidate_count": 27,
+  "review_count": 166,
+  "candidate_count": 28,
   "changed_count": 0,
   "feedback_path": "research/_agent-queues/source-relevance-feedback.json"
 }
 source-relevance restore-review-assets | summary
 {
   "target_count": 12,
-  "restored_raw": 1,
+  "restored_raw": 0,
   "skipped_raw": 0,
-  "restored_page_images": 1,
-  "released_tasks": [
-    "proof-review:research/_staging/claims/cl-chunk-a2273412e7b1-p0001-01-dario-pulgar-expropriation-event.md"
-  ],
+  "restored_page_images": 0,
+  "released_tasks": [],
   "errors": [],
   "blockers": []
 }
 post-conversion-controller | summary
 {
-    "started":  "2026-05-22T12:36:40Z",
+    "started":  "2026-05-22T13:57:25Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "dry_run":  false,
     "allow_promotion":  true,
@@ -43,18 +41,18 @@ post-conversion-controller | summary
                                          "todo":  200
                                      },
                    "evidence-extraction":  {
-                                               "todo":  4664,
-                                               "done":  18,
-                                               "blocked_needs_reread":  154
+                                               "done":  12,
+                                               "todo":  4660,
+                                               "blocked_needs_reread":  156
                                            },
                    "identity-analysis":  {
-                                             "done":  3,
-                                             "todo":  83
+                                             "todo":  95,
+                                             "done":  3
                                          },
                    "proof-review":  {
-                                        "done":  76,
-                                        "todo":  321,
-                                        "released":  37
+                                        "done":  102,
+                                        "todo":  343,
+                                        "released":  41
                                     },
                    "wiki-promotion":  {
                                           "blocked_no_reviewed_ready":  1
@@ -68,5 +66,5 @@ post-conversion-controller | summary
     "blockers":  [
 
                  ],
-    "finished":  "2026-05-22T12:38:03Z"
+    "finished":  "2026-05-22T13:58:46Z"
 }

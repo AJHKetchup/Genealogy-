@@ -44,3 +44,15 @@ No public gallery items have been promoted yet.
 
 - The public tree should grow from people and relationships first.
 - Source packets and conversion chunks belong in the research backroom unless attached to a person, event, place, or family story.
+
+## Evidence Snapshot
+
+<!-- BEGIN AUTO-GENERATED PERSON EVIDENCE -->
+
+Generated from reviewed evidence. Possible and probable items stay labeled until stronger evidence is accepted.
+
+### Family Links
+
+- Grandparent: Dario Arturo Pulgar-Smith (family_supplied; confidence: 9; evidence: [[relationships/dario-arturo-pulgar-smith-maternal-grandfather-of-alexander-john-heinz]]).
+
+<!-- END AUTO-GENERATED PERSON EVIDENCE -->

@@ -1,6 +1,6 @@
 {
   "created": "2026-05-22T01:02:23Z",
-  "updated": "2026-05-22T11:27:18Z",
+  "updated": "2026-05-22T13:50:37Z",
   "purpose": "Research-to-conversion relevance hints for source-prep model routing.",
   "hints": [
     {
@@ -204,6 +204,27 @@
       ],
       "agent": "post-conversion-review-feedback",
       "id": "source-relevance:fbe1f3d66de3"
+    },
+    {
+      "status": "active",
+      "created": "2026-05-22T13:50:37Z",
+      "updated": "2026-05-22T13:50:37Z",
+      "task_id": "",
+      "job_manifest": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json",
+      "source": "",
+      "source_sha256": "",
+      "converted_file": "",
+      "page": 5,
+      "relevance": "high",
+      "requested_treatment": "pro_with_crops",
+      "reason": "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
+      "entities": [],
+      "matched_terms": [
+        "proof-review-hold",
+        "missing-page-image"
+      ],
+      "agent": "post-conversion-review-feedback",
+      "id": "source-relevance:44e0785954a8"
     }
   ]
 }

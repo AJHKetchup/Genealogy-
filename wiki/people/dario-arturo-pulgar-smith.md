@@ -43,3 +43,15 @@ No public gallery items have been promoted yet.
 
 - Do not automatically merge this person with similarly named source clusters.
 - Records mentioning Dario, Pulgar, Pulgar-Arriagada, or Pulgar-Smith should be attached here only after identity review.
+
+## Evidence Snapshot
+
+<!-- BEGIN AUTO-GENERATED PERSON EVIDENCE -->
+
+Generated from reviewed evidence. Possible and probable items stay labeled until stronger evidence is accepted.
+
+### Family Links
+
+- Grandchild: Alexander John Heinz (family_supplied; confidence: 9; evidence: [[relationships/dario-arturo-pulgar-smith-maternal-grandfather-of-alexander-john-heinz]]).
+
+<!-- END AUTO-GENERATED PERSON EVIDENCE -->

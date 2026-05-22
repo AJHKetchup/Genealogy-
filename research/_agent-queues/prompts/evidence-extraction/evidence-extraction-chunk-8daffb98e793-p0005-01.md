@@ -13,8 +13,18 @@ Use `$genealogy-claim-extraction`.
 - Staging area: `research/_staging`
 - Family relevance: `critical`
 - Matched family terms: Birth, Juan, Luis, chunk
-- Evidence priority: `5` (family_relevance:critical, qc:reread-page, matched_terms)
+- Evidence priority: `-695` (family_relevance:critical, qc:reread-page, matched_terms, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/chunk-8daffb98e793-p0005-01-001-enrique-gonzalez-pastor-birth-date-proof-review.md` | `research/_staging/claims/chunk-8daffb98e793-p0005-01-001-enrique-gonzalez-pastor-birth-date.md` | `hold` | Restore or regenerate the rendered page 5 image, or perform a direct source-page reread from the PDF, then verify the visible wording for the name and date before canonical promotion. If the visible source confirms the sentence, promote as a secondary-source birth-date claim with source-quality limits noted. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Done When

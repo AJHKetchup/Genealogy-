@@ -42,3 +42,22 @@ death_year:
 ## Photos
 
 ## Sources
+
+## Evidence Snapshot
+
+<!-- BEGIN AUTO-GENERATED PERSON EVIDENCE -->
+
+Generated from reviewed evidence. Possible and probable items stay labeled until stronger evidence is accepted.
+
+### Life Facts
+
+| Date | Place | Detail | Confidence | Evidence |
+| --- | --- | --- | ---: | --- |
+|  |  | was born on: 1888-03-08 15:00 | 0.9 | [[claims/chunk-b8f4f0490a36-p0001-01-003-birth-date-time]]; [[source-packets/chunk-b8f4f0490a36-p0001-01-entry-172-jose-del-carmen-segundo-pulgar-arriagada]] |
+|  |  | was born at: Calle de Valdivia, Los Angeles, Circunscripcion de La Laja, Chile | 0.9 | [[claims/chunk-b8f4f0490a36-p0001-01-004-birth-place]]; [[source-packets/chunk-b8f4f0490a36-p0001-01-entry-172-jose-del-carmen-segundo-pulgar-arriagada]] |
+
+### Sources
+
+- [[source-packets/chunk-b8f4f0490a36-p0001-01-entry-172-jose-del-carmen-segundo-pulgar-arriagada]]
+
+<!-- END AUTO-GENERATED PERSON EVIDENCE -->

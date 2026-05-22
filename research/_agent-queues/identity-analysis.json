@@ -1,9 +1,9 @@
 ﻿{
     "created":  "2026-05-22",
     "queue":  "identity-analysis",
-    "task_count":  94,
+    "task_count":  98,
     "status_counts":  {
-                          "todo":  91,
+                          "todo":  95,
                           "done":  3
                       },
     "tasks":  [
@@ -96,6 +96,26 @@
                       "staged_draft":  "research/_staging/identity/chunk-8daffb98e793-p0002-03-no-person-identity-candidate.md",
                       "role":  "identity_researcher",
                       "task_id":  "identity-analysis:research/_staging/identity/chunk-8daffb98e793-p0002-03-no-person-identity-candidate.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-chunk-8daffb98e793-p0005-01-enrique-gonzalez-pastor-identity-candidate-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/identity/chunk-8daffb98e793-p0005-01-enrique-gonzalez-pastor-identity-candidate.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/identity/chunk-8daffb98e793-p0005-01-enrique-gonzalez-pastor-identity-candidate.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-chunk-8daffb98e793-p0005-02-named-persons-identity-caution-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/identity/chunk-8daffb98e793-p0005-02-named-persons-identity-caution.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/identity/chunk-8daffb98e793-p0005-02-named-persons-identity-caution.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   },
@@ -602,6 +622,26 @@
                       "staged_draft":  "research/_staging/conflicts/chunk-8daffb98e793-p0002-03-no-conflict-candidate.md",
                       "role":  "identity_researcher",
                       "task_id":  "identity-analysis:research/_staging/conflicts/chunk-8daffb98e793-p0002-03-no-conflict-candidate.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-8daffb98e793-p0005-01-conversion-and-identity-qa-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-8daffb98e793-p0005-01-conversion-and-identity-qa.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-8daffb98e793-p0005-01-conversion-and-identity-qa.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-8daffb98e793-p0005-02-page-boundary-and-false-positive-terms-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-8daffb98e793-p0005-02-page-boundary-and-false-positive-terms.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-8daffb98e793-p0005-02-page-boundary-and-false-positive-terms.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   },

@@ -42,3 +42,15 @@ death_year:
 ## Photos
 
 ## Sources
+
+## Evidence Snapshot
+
+<!-- BEGIN AUTO-GENERATED PERSON EVIDENCE -->
+
+Generated from reviewed evidence. Possible and probable items stay labeled until stronger evidence is accepted.
+
+### Family Links
+
+- Spouse: Juan Soler (draft; confidence: 8; evidence: [[relationships/rel-stage-chunk-d6a12b291d94-p0172-01-514-mercedes-riquelme-juan-soler-spouse-mercedes-riquelme-juan-soler-spouse]]).
+
+<!-- END AUTO-GENERATED PERSON EVIDENCE -->
