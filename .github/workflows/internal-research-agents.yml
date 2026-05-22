@@ -21,6 +21,16 @@ on:
         required: false
         default: "false"
         type: boolean
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/internal-research-agents.yml"
+      - "scripts/post-conversion-agent-controller.ps1"
+      - "src/historic_doc_ingest/**"
+      - "research/_automation/**"
+  schedule:
+    - cron: "17 * * * *"
 
 concurrency:
   group: internal-research-agents-${{ github.ref }}
@@ -44,9 +54,9 @@ jobs:
       GIT_CONFIG_VALUE_0: "true"
       MAX_WORKERS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.max_workers || '3' }}
       QUEUE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.queue_limit || '12' }}
-      RUN_MINUTES: ${{ github.event.inputs.run_minutes || '45' }}
-      WORKER_TIMEOUT_MINUTES: "35"
-      ALLOW_PROMOTION: ${{ github.event.inputs.allow_promotion || 'false' }}
+      RUN_MINUTES: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_minutes || github.event_name == 'push' && '10' || '45' }}
+      WORKER_TIMEOUT_MINUTES: ${{ github.event_name == 'push' && '10' || '35' }}
+      ALLOW_PROMOTION: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.allow_promotion || github.event_name == 'schedule' && 'true' || 'false' }}
 
     steps:
       - name: Enable Git long paths
@@ -195,6 +205,37 @@ jobs:
           if ($exitCode -ne 0) {
             Write-Warning "Promotion controller exited with $exitCode. Safe outputs and diagnostics will still be published for the next run."
           }
+
+      - name: Release cancelled internal worker leases
+        if: cancelled()
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Continue"
+          $statePath = "research/_agent-queues/post-conversion-controller-state.json"
+          if (-not (Test-Path -LiteralPath $statePath)) {
+            Write-Host "No controller state file to clean."
+            exit 0
+          }
+          $state = Get-Content -LiteralPath $statePath -Raw | ConvertFrom-Json
+          $activeWorkers = @($state.active_workers)
+          foreach ($worker in $activeWorkers) {
+            $taskIds = @($worker.task_ids | ForEach-Object { [string]$_ } | Where-Object { $_ })
+            if ($taskIds.Count -gt 0) {
+              python -m historic_doc_ingest.genealogy_wiki agent-task release @taskIds --root . --agent ([string]$worker.worker) --note "hosted internal-agent run was cancelled before worker drain" --no-refresh
+            }
+          }
+          $now = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
+          $state.updated = $now
+          $state.active_workers = @()
+          if ($null -ne $state.last_summary) {
+            $state.last_summary.active_workers_after = 0
+            if ($null -eq $state.last_summary.blockers) {
+              $state.last_summary | Add-Member -NotePropertyName blockers -NotePropertyValue @()
+            }
+            $state.last_summary.blockers += "hosted internal-agent run was cancelled before worker drain; released active worker leases"
+            $state.last_summary.finished = $now
+          }
+          $state | ConvertTo-Json -Depth 14 | Set-Content -LiteralPath $statePath -Encoding UTF8
 
       - name: Rotate ChatGPT-managed Codex auth secret
         if: always() && env.CODEX_VERIFY_EXIT_CODE == '0'
