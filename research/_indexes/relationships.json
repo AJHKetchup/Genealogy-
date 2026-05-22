@@ -1,6 +1,20 @@
 {
   "relationships": [
     {
+      "id": "chunk",
+      "path": "research/relationships/chunk-b8f4f0490a36-p0001-01-003-child-mother-juana-arriagada-de-pulgar-parent.md",
+      "status": "probable",
+      "relationship_type": "probable_parent",
+      "confidence": 0.97,
+      "calculated_confidence": null,
+      "person_a": "[[people/juana-arriagada-de-pulgar]]",
+      "person_b": "[[people/jose-del-carmen-segundo-pulgar-arriagada]]",
+      "supporting_claims": [],
+      "conflicting_claims": [],
+      "evidence_for": "- Promoted from staged relationship candidate `research/_staging/relationships/chunk-b8f4f0490a36-p0001-01-003-child-mother.md`. - Proof review: `research/_staging/reviews/proof-review-relationship-chunk-b8f4f0490a36-p0001-01-003-child-mother-postconv-proof-review-20260522120159415.md`. - Source packet: [[source-packets/chunk-b8f4f0490a36-p0001-01-entry-172-jose-del-carmen-segundo-pulgar-arriagada]]. - Literal support: `**Nombre.** Jose del Carmen Segundo Pulgar Arriagada`; `**Nombre de la madre** Juana Arriagada de Pulgar`.",
+      "evidence_against": "No conflict was identified for the child name or mother field in the scoped proof review."
+    },
+    {
       "id": "rel",
       "path": "research/relationships/rel-stage-chunk-d6a12b291d94-p0172-01-513-child-parents-jose-del-carmen-pulgar-parent.md",
       "status": "draft",

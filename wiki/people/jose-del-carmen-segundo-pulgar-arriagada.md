@@ -49,6 +49,10 @@ death_year:
 
 Generated from reviewed evidence. Possible and probable items stay labeled until stronger evidence is accepted.
 
+### Family Links
+
+- Parent: Juana Arriagada de Pulgar (probable; confidence: 1; evidence: [[relationships/chunk-b8f4f0490a36-p0001-01-003-child-mother-juana-arriagada-de-pulgar-parent]]).
+
 ### Life Facts
 
 | Date | Place | Detail | Confidence | Evidence |

@@ -16,9 +16,9 @@ canonical_readiness: hold
 
 - The exact staged draft analyzed here is `research/_staging/identity/CHUNK-3d3ab761209f-P0001-01-identity-candidates.md`.
 - Evidence-extraction revision on 2026-05-22 found the raw source image available at `raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png` and performed limited image review. The page image supports the assigned chunk more than the assembled converted Markdown for several principal identity fields, but targeted conversion QA is still required.
-- Image-sensitive readings remain unresolved or only partly resolved: record 513 child given-name line, record 513 mother surname `Amagada` versus `Amador`, record 513 birth time, record 514 witness `Benjamin Utiera`/`Utrosa`, record 514 street `Calle Sanegueso`/`Panquehue`, and record 515 lower mother-field crop completeness.
+- Image-sensitive readings remain unresolved or only partly resolved: record 513 child given-name line, record 513 mother surname `Amagada` versus `Amador`, record 513 birth time, record 514 witness `Benjamin Utiera`/`Utrosa`, record 514 street `Calle Sanegueso`/`Saneguin`, and record 515 lower mother-field crop completeness.
 - No canonical person page was found for `Jose Luis Pulgar Amagada`, `Jose del Carmen Pulgar`, `Juana de Dios Amagada de Pulgar`, `Juan Bautista Riquelme Aviles`, `Mercedes Riquelme`, `Laura de la Cruz Neira Ulloa`, `Pedro Pablo Neira`, or `Carmen Ulloa`. Existing canonical Pulgar material concerns `Dario Arturo Pulgar-Smith` and warns not to automatically merge similarly named Pulgar records.
-- Do not infer a father for record 514. The assigned chunk and image-reviewed father field say `Se ignora`; the assembled converted Markdown conflicts by placing `Mercedes Riquelme` in the father field.
+- Do not infer a father for record 514. The assigned chunk and image-reviewed father field say `Se ignora`; the assembled converted Markdown conflicts by placing `Belisario Riquelme` in the father field.
 
 ## Hypothesis 1: Registration-Scoped Identities, No Canonical Match Yet
 
@@ -136,10 +136,10 @@ Scores:
 - Relationship conflict: record 514 father is explicitly unknown (`Se ignora`). Severity: high against any unsupported father assignment for Juan Bautista Riquelme Aviles, but not final disproof of a later, stronger source.
 - Same-person caution: `José del Carmen Pulgar` and `José del C. Pulgar` are probably the same within record 513. Severity: low within the entry; moderate if used for broader identity merging.
 - Chronology conflict: none found within the converted entries. Parent ages in records 513 and 515 are plausible relative to child birth dates; record 514 mother age 21 is not internally contradictory.
-- Conversion conflict: source packet and reviews describe several principal-name conflicts between the assigned chunk and assembled converted Markdown. Limited image review supports `Se ignora` for record 514's father and the `Neira=emendado= / vale=` note for record 515, but final QA is still needed for `Utiera`/`Utrosa`, `Sanegueso`/`Panquehue`, record 513 child/mother readings, and the crop completeness note.
+- Conversion conflict: source packet and reviews describe several principal-name conflicts between the assigned chunk and assembled converted Markdown. Limited image review supports `Se ignora` for record 514's father and the `Neira=emendado= / vale=` note for record 515, but final QA is still needed for `Utiera`/`Utrosa`, `Sanegueso`/`Saneguin`, record 513 child/mother readings, and the crop completeness note.
 
 ## Recommended Next Action
 
 Keep `research/_staging/identity/CHUNK-3d3ab761209f-P0001-01-identity-candidates.md` on hold. Do not merge people, rename canonical pages, promote facts, or attach record 513 to the canonical `Dario Arturo Pulgar-Smith` page.
 
-Next, run targeted conversion QA from the available source image and, if possible, a complete lower crop for entry 515. Verify the sensitive readings: entry 513 child name, entry 513 mother surname, entry 513 birth date/time, `Benjamin Utiera`/`Utrosa`, `Calle Sanegueso`/`Panquehue`, and `Neira=emendado=vale`. After image QA, reconcile child and parent identities against any relevant canonical Pulgar, Riquelme, Neira, Ulloa, Amagada, or Aviles pages; keep witness-only identities as low-priority leads unless additional corroborating records appear.
+Next, run targeted conversion QA from the available source image and, if possible, a complete lower crop for entry 515. Verify the sensitive readings: entry 513 child name, entry 513 mother surname, entry 513 birth date/time, `Benjamin Utiera`/`Utrosa`, `Calle Sanegueso`/`Saneguin`, and `Neira=emendado=vale`. After image QA, reconcile child and parent identities against any relevant canonical Pulgar, Riquelme, Neira, Ulloa, Amagada, or Aviles pages; keep witness-only identities as low-priority leads unless additional corroborating records appear.

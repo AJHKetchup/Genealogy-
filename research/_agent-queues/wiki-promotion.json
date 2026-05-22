@@ -3,17 +3,17 @@
     "queue":  "wiki-promotion",
     "task_count":  1,
     "status_counts":  {
-                          "disabled_requires_allow_promotion":  1
+                          "blocked_no_reviewed_ready":  1
                       },
     "tasks":  [
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/wiki-promotion/wiki-promotion-reviewed-ready-4afc3eb0ab70.md",
-                      "ready_review_fingerprint":  "4afc3eb0ab70",
+                      "prompt_path":  "research/_agent-queues/prompts/wiki-promotion/wiki-promotion-reviewed-ready-none.md",
+                      "ready_review_fingerprint":  "none",
                       "queue":  "wiki-promotion",
-                      "ready_review_count":  1,
+                      "ready_review_count":  0,
                       "role":  "wiki_promoter",
-                      "task_id":  "wiki-promotion:reviewed-ready:4afc3eb0ab70",
-                      "status":  "disabled_requires_allow_promotion",
+                      "task_id":  "wiki-promotion:reviewed-ready:none",
+                      "status":  "blocked_no_reviewed_ready",
                       "skill":  "genealogy-proof-review"
                   }
               ]

@@ -1,9 +1,9 @@
 ﻿{
     "created":  "2026-05-22",
     "queue":  "identity-analysis",
-    "task_count":  103,
+    "task_count":  105,
     "status_counts":  {
-                          "todo":  100,
+                          "todo":  102,
                           "done":  3
                       },
     "tasks":  [
@@ -126,6 +126,16 @@
                       "staged_draft":  "research/_staging/identity/chunk-a048d567968b-p0001-01-dario-pulgar-identity-candidate.md",
                       "role":  "identity_researcher",
                       "task_id":  "identity-analysis:research/_staging/identity/chunk-a048d567968b-p0001-01-dario-pulgar-identity-candidate.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-chunk-a048d567968b-p0001-03-dario-pulgar-identity-candidate-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/identity/chunk-a048d567968b-p0001-03-dario-pulgar-identity-candidate.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/identity/chunk-a048d567968b-p0001-03-dario-pulgar-identity-candidate.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   },
@@ -682,6 +692,16 @@
                       "staged_draft":  "research/_staging/conflicts/chunk-a048d567968b-p0001-02-page-boundary-and-identity-qa.md",
                       "role":  "identity_researcher",
                       "task_id":  "identity-analysis:research/_staging/conflicts/chunk-a048d567968b-p0001-02-page-boundary-and-identity-qa.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-a048d567968b-p0001-03-page-boundary-and-biographical-qa-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-a048d567968b-p0001-03-page-boundary-and-biographical-qa.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-a048d567968b-p0001-03-page-boundary-and-biographical-qa.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   },

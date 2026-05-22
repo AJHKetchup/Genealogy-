@@ -1,0 +1,24 @@
+{
+  "generated": "2026-05-22T17:25:40",
+  "summary": {
+    "dry_run": false,
+    "source_packets": [],
+    "claims": [],
+    "relationships": [
+      "research/relationships/chunk-b8f4f0490a36-p0001-01-003-child-mother-juana-arriagada-de-pulgar-parent.md"
+    ],
+    "people": [],
+    "people_refreshed": [],
+    "sources": [],
+    "skipped": [
+      {
+        "path": "research/_staging/relationships/chunk-b8f4f0490a36-p0001-01-003-child-mother.md",
+        "reason": "promoted manually after required dry run because promote-staged cannot parse multi-line YAML parents list; scoped to reviewed mother-child relationship only"
+      }
+    ],
+    "task_id": "wiki-promotion:reviewed-ready:4afc3eb0ab70",
+    "worker": "postconv-wiki-promotion-20260522172404608",
+    "review": "research/_staging/reviews/proof-review-relationship-chunk-b8f4f0490a36-p0001-01-003-child-mother-postconv-proof-review-20260522120159415.md",
+    "manifest": "research/_staging/promotions/2026-05-22-172540-promote-staged.json"
+  }
+}

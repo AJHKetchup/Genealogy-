@@ -16,7 +16,7 @@ Chunk/page reference: `raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de
 
 Literal support: assigned chunk: `Nombre del padre. Se ignora`. Image review of entry 514 supports the father field as `Se ignora`.
 
-Conversion confidence / QA concern: the assembled converted file conflicts by placing `Mercedes Riquelme` in the father field. The available source image supports the assigned chunk against that derivative reading for this field, but the conflict should remain documented until the conversion output is corrected or annotated.
+Conversion confidence / QA concern: the assembled converted file conflicts by placing `Belisario Riquelme` in the father field. The available source image supports the assigned chunk against that derivative reading for this field, but the conflict should remain documented until the conversion output is corrected or annotated.
 
 Uncertainty: this is negative evidence from one civil registration only. It supports "no father was declared or identified in this entry"; it does not create a tree relationship and does not disprove later independent evidence.
 

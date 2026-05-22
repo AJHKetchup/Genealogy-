@@ -81,15 +81,19 @@
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
       "page": 4,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "medium",
       "family_relevance": "high",
-      "quality_flags": [],
+      "quality_flags": [
+        "explicit_reread_needed"
+      ],
       "matched_terms": [
         "Arturo",
         "Dario",
+        "Entry",
         "List",
-        "Pulgar"
+        "Pulgar",
+        "date"
       ],
       "suspicious_readings": []
     },
@@ -98,12 +102,10 @@
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
       "page": 5,
-      "recommended_action": "reread-page",
-      "conversion_confidence": "medium",
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
       "family_relevance": "high",
-      "quality_flags": [
-        "explicit_reread_needed"
-      ],
+      "quality_flags": [],
       "matched_terms": [
         "Arturo",
         "Dario",
@@ -167,9 +169,11 @@
       "matched_terms": [
         "Arturo",
         "Dario",
+        "Entry",
         "Pulgar",
         "chile",
-        "date"
+        "date",
+        "name"
       ],
       "suspicious_readings": []
     },
@@ -185,6 +189,7 @@
       "matched_terms": [
         "Arturo",
         "Dario",
+        "List",
         "Pulgar",
         "chile",
         "date"
@@ -222,15 +227,21 @@
       "chunk_manifest": "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json",
       "page": 2,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
         "date",
         "name"
       ],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "sixth",
+          "suspected": "Smith",
+          "reason": "near match to known family context term `Smith`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md",
@@ -19300,13 +19311,15 @@
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json",
       "page": 2,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
+      "recommended_action": "spot-check",
+      "conversion_confidence": "medium",
       "family_relevance": "medium",
-      "quality_flags": [],
+      "quality_flags": [
+        "possible_table_layout_loss"
+      ],
       "matched_terms": [
-        "Entry",
-        "List"
+        "List",
+        "date"
       ],
       "suspicious_readings": []
     },
@@ -19430,10 +19443,12 @@
       "page": 8,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
-        "List"
+        "Entry",
+        "List",
+        "date"
       ],
       "suspicious_readings": []
     },
@@ -19441,23 +19456,19 @@
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
-      "page": 9,
+      "page": 4,
       "recommended_action": "reread-page",
-      "conversion_confidence": "low",
-      "family_relevance": "critical",
-      "quality_flags": [],
+      "conversion_confidence": "medium",
+      "family_relevance": "high",
+      "quality_flags": [
+        "possible_table_layout_loss"
+      ],
       "matched_terms": [
         "Entry",
         "List",
         "date"
       ],
-      "suspicious_readings": [
-        {
-          "literal": "Carte",
-          "suspected": "Carmen",
-          "reason": "near match to known family context term `Carmen`"
-        }
-      ]
+      "suspicious_readings": []
     },
     {
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
@@ -21354,14 +21365,14 @@
       "conversion_confidence": "medium",
       "family_relevance": "high",
       "quality_flags": [
-        "many_uncertain_readings",
-        "explicit_reread_needed"
+        "many_uncertain_readings"
       ],
       "matched_terms": [
-        "Cesar",
         "Entry",
+        "List",
         "Rows",
-        "date"
+        "date",
+        "name"
       ],
       "suspicious_readings": []
     },
@@ -28883,7 +28894,8 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
-        "Jose"
+        "Jose",
+        "date"
       ],
       "suspicious_readings": [
         {
@@ -28969,14 +28981,17 @@
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
       "chunk_manifest": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 6,
+      "page": 9,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
         "Andes",
-        "chile"
+        "chile",
+        "date",
+        "intended",
+        "name"
       ],
       "suspicious_readings": []
     },
@@ -29066,16 +29081,23 @@
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
       "chunk_manifest": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 15,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "page": 12,
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
         "Dios",
-        "chile"
+        "chile",
+        "date"
       ],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Enero",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
@@ -67191,23 +67213,20 @@
       "quality_flags": [],
       "matched_terms": [
         "Birth",
-        "Dios",
+        "Carmen",
         "Entry",
         "Juan",
-        "Juana",
-        "Rows",
-        "chile"
+        "Luis",
+        "Registration",
+        "chile",
+        "date",
+        "name"
       ],
       "suspicious_readings": [
         {
           "literal": "Juan",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
-        },
-        {
-          "literal": "Cármen",
-          "suspected": "Carmen",
-          "reason": "near match to known family context term `Carmen`"
         }
       ]
     },
@@ -67222,23 +67241,20 @@
       "quality_flags": [],
       "matched_terms": [
         "Birth",
-        "Dios",
+        "Carmen",
         "Entry",
         "Juan",
-        "Juana",
-        "Rows",
-        "chile"
+        "Luis",
+        "Registration",
+        "chile",
+        "date",
+        "name"
       ],
       "suspicious_readings": [
         {
           "literal": "Juan",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
-        },
-        {
-          "literal": "Cármen",
-          "suspected": "Carmen",
-          "reason": "near match to known family context term `Carmen`"
         }
       ]
     },

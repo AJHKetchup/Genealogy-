@@ -23,7 +23,7 @@ This note responds to the proof-review holds for staged entry 513 and 514 claims
 
 - Page heading visible in the image: `1889.-Rejistro de NACIMIENTOS en la Circunscripcion de Los Anjeles, num. 1o de La Laja`.
 - Entry 513: the image supports the Pulgar family row, father `Jose del Carmen Pulgar`, domicile `Calle Colon`, male sex, and mother line beginning `Juana de Dios ... de Pulgar`; the child given-name line and maternal surname remain image-sensitive.
-- Entry 513 birth field: image review appears closer to `Junio veinte i dos` than the assigned chunk's `Junio veinte i seis`; the time phrase appears closer to `a las cuatro i media de la tarde` than the assembled converted file's `a las cuatro i veinte de la tarde`, but it should still be checked from a targeted crop.
+- Entry 513 birth field: image review appears closer to `Junio veinte i dos` than the assigned chunk's `Junio veinte i seis`; the time phrase appears closer to `a las cuatro i media ... tarde` than the assembled converted file's `a las cuatro de la manana`, but it should still be checked from a targeted crop.
 - Entry 514: the image supports father field `Se ignora`, mother/declarant `Mercedes Riquelme`, and a male child in the Riquelme row; the child surname suffix, witness surname, and `Lugar` spelling remain QA-sensitive.
 - Entry 515: the visible upper row supports `Neira Ulloa / Laura de la Cruz`, father/declarant `Pedro Pablo Neira`, and right-column note `Neira=emendado= / vale=`, but the lower mother field is not sufficiently visible in the available image.
 
@@ -31,11 +31,11 @@ This note responds to the proof-review holds for staged entry 513 and 514 claims
 
 The assigned chunk and assembled converted Markdown remain materially inconsistent:
 
-- Entry 513 child: assigned chunk `Pulgar Amagada / Jose Luis`; converted Markdown `Isidoro del Carmen Diaz`.
-- Entry 513 birth date/time: assigned chunk `Junio veinte i seis ... a las cuatro i media de la tarde`; converted Markdown `veinte i dos ... a las cuatro i veinte de la tarde`; image review currently favors `Junio veinte i dos` and likely `cuatro i media de la tarde`, but does not settle the time enough for promotion.
+- Entry 513 child: assigned chunk `Pulgar Amagada / Jose Luis`; converted Markdown `Isolina del Carmen / Jose`.
+- Entry 513 birth date/time: assigned chunk `Junio veinte i seis ... a las cuatro i media de la tarde`; converted Markdown `El mismo veinte dos ... a las cuatro de la manana`; image review currently favors `Junio veinte i dos` and likely `cuatro i media ... tarde`, but does not settle the time enough for promotion.
 - Entry 513 mother: assigned chunk `Juana de Dios Amagada de Pulgar`; converted Markdown `Juana de Dios Amador de Pulgar`; image review does not fully settle the surname.
-- Entry 514 child/place/witness: assigned chunk `Riquelme Aviles`, `Calle Sanegueso`, `Benjamin Utiera`; converted Markdown `Rigoberto Juan Bautista`, `Calle Panquehue`, `Benjamin Utrosa`.
-- Entry 514 father: image and assigned chunk support `Se ignora`; converted Markdown places `Mercedes Riquelme` in the father field and should not be used as a father-child relationship from this evidence packet.
+- Entry 514 child/place/witness: assigned chunk `Riquelme Aviles / Juan Bautista`, `Calle Sanegueso`, `Benjamin Utiera`; converted Markdown `Riquelme Juan Teodoro`, `Calle Saneguin`, `Benjamin Utrosa`.
+- Entry 514 father: image and assigned chunk support `Se ignora`; converted Markdown reads `Belisario Riquelme` in the father field and should not be used as a father-child relationship from this evidence packet.
 - Entry 515 mother: assigned chunk `Carmen Ulloa`; converted Markdown `Carmen Leiva`; image crop does not visibly confirm the full lower mother field.
 
 ## Staging Decision

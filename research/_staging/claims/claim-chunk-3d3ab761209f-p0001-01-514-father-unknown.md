@@ -16,6 +16,6 @@ promotion_recommendation: hold_for_conversion_qa
 
 Literal support: assigned chunk and image-visible father field: `Nombre del padre. Se ignora`.
 
-Conversion confidence / QA concern: this is a material conflict with the converted file, which places Mercedes Riquelme in the father field. The available image supports the assigned chunk for this field, but the derivative conflict should remain documented until the conversion output is corrected or annotated.
+Conversion confidence / QA concern: this is a material conflict with the converted file, which places Belisario Riquelme in the father field. The available image supports the assigned chunk for this field, but the derivative conflict should remain documented until the conversion output is corrected or annotated.
 
 Uncertainty: this is negative evidence from the registration only, not proof that no father was later identified.

@@ -3,15 +3,23 @@ type: identity_candidates
 status: draft
 task_id: evidence-extraction:CHUNK-bdb698de8106-P0001-01
 source: raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png
+source_sha256: 05d0627a58615e91315e1e9e2da567034b4f324eb0179240e0f4d5cf985e3545
 source_packet: research/_staging/source-packets/SP-STAGE-CHUNK-bdb698de8106-P0001-01-los-angeles-birth-register-1889-page-172.md
 converted_file: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md
 chunk: raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0001-chunk-01.md
 chunk_id: CHUNK-bdb698de8106-P0001-01
 page_reference: page 1; register page 172
+confidence: low
 promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Identity Candidates
+
+## Shared Source Reference
+
+- Source path: `raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png`
+- Converted file: `raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md`
+- Chunk/page reference: `raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0001-chunk-01.md`, `CHUNK-bdb698de8106-P0001-01`, page 1, register page 172
 
 ## Candidates
 
@@ -26,3 +34,7 @@ promotion_recommendation: hold_for_conversion_qa
 | Entry 515 child: converted `Rosa Elvira del Carmen`; image-reviewed possible `Neira Elvira / Laura de la Cruz...` | Entry 515 child-name field. | Low for converted child-name reading because source image is partial and conflicts. | Do not infer sex or canonical identity. | Hold for conversion QA. |
 | Entry 515 father/declarant: converted `Pedro Pablo Leiva`; image-reviewed possible `Pedro Pablo Neira` | Entry 515 father/declarant field. | Low for converted surname reading. | Source image is partial; surname conflict is material. | Hold for conversion QA. |
 | Witnesses `Benjamin Utrosa`, `Ignacio Jara`, `Jose D. Ramirez H.`, `Santiago Fuentes` | Witness columns in entries 514 and 515. | Medium. | Witness-only mentions should not be merged without corroboration. | Do not promote. |
+
+## Promotion Recommendation
+
+Hold all identity candidates for targeted conversion QA. The only strong action from this pass is negative: do not promote `Belisario Riquelme` or a two-parent relationship for entry 514 while the father field remains in conflict.

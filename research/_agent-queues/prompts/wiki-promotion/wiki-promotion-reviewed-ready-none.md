@@ -14,11 +14,11 @@ $Root = "D:\a\Genealogy-\Genealogy-"
 
 ## Review-Ready Inputs
 
-- No proof-review notes are currently marked canonical_readiness: ready or ready_with_caveats.
+- No proof-review notes are currently marked with promotion-ready canonical_readiness.
 
 ## Rules
 
-- Promote only staged material with explicit review notes showing strong source support, conservative scores, and canonical_readiness: ready.
+- Promote only staged material with explicit review notes showing strong source support, conservative scores, and promotion-ready canonical_readiness, such as ready, ready_with_caveats, ready_for_canonical_claim, ready_with_scope_note, ready_after_review, or ready_for_scoped_promotion.
 - Preserve probability, source quality, conflicts, and uncertainty in canonical pages; promotion is an operational state, not a truth binary.
 - Preserve the distinction between literal transcription and interpretation. Do not convert a suspected reading into canonical fact unless the review says the visible source supports it.
 - Living-family privacy is not a standalone hold for this internal family project; user approval was recorded in research/_automation/post-conversion-architecture.json. Still require reviewed evidence, source support, and conservative confidence/status labels.

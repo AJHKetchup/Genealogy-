@@ -9,15 +9,15 @@ converted_sha256: a048d567968b8a75637cfd97335b19160a7580fb273b37a293712691ec6784
 chunk: "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-page-7cd35b519c/page-0001-chunk-02.md"
 chunk_id: CHUNK-a048d567968b-P0001-02
 chunk_manifest: "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-page-7cd35b519c/manifest.json"
-page_reference: "assigned page 1; body contains converted page metadata/text for pages 4-7"
+page_reference: "chunk manifest assigns page 1; PDF/image reread places support on source pages 4 and 5, with identity context on source pages 2 and 7"
 source_type: memoir
 source_date: "2006"
 family_relevance: critical
 matched_terms:
   - Dario
   - Pulgar
-conversion_confidence: medium
-conversion_qa_concern: "Controller flagged qc:reread-page. The manifest assigns this chunk to page 1, but the chunk body includes literal transcriptions and metadata for later pages. Family-relevant support appears in the converted page 4 and page 5 portions."
+conversion_confidence: medium_high_for_text_low_for_chunk_page_assignment
+conversion_qa_concern: "Controller flagged qc:reread-page. PDF/image reread confirms the family-relevant words, but the assigned chunk and manifest still incorrectly label this later-page material as page 1."
 promotion_recommendation: hold_for_conversion_qa
 ---
 
@@ -25,7 +25,15 @@ promotion_recommendation: hold_for_conversion_qa
 
 This packet stages the family-relevant Dario/Pulgar mentions in assigned chunk `CHUNK-a048d567968b-P0001-02` from Jim Carney's memoir-style account of the Habitat audio-visual program.
 
-The chunk does not state a birth, death, parent, spouse, child, or other kinship relationship. It provides work and social context for a person called `Dario` and a later person called `Pulgar`; prior chunk context identifies `Dario Pulgar`, but this packet preserves the within-chunk uncertainty.
+The chunk does not state a birth, death, parent, spouse, child, or other kinship relationship. It provides work and social context for a person called `Dario` and a later person called `Pulgar`. Original-PDF text extraction identifies `Dario Pulgar` on source page 2 in the same Habitat AV programme context and again on source page 7 as a UN Habitat Secretariat colleague, so the identity link is likely. The two claim passages themselves still use only first name or surname.
+
+## PDF/Image Reread Findings
+
+- Source page 4 image was available and directly confirms the Saturna passage, including page number `4` and the parenthetical names `(Andreas, Dario, Bo-Eric and I)`.
+- Original PDF text extraction confirms the Vancouver group passage on source page 5: `including Pulgar , Gyborg, Jane Weiner, and Barbara Janes ... and myself`.
+- Original PDF text extraction confirms identity context on source page 2: `Chiliean/Canadian Dario Pulgar`.
+- Original PDF text extraction confirms later identity context on source page 7: `notably Dario Pulgar`.
+- The chunk manifest still assigns `CHUNK-a048d567968b-P0001-02` to page 1, so this packet preserves the derivative-transcript/page-assignment disagreement instead of silently correcting raw inputs.
 
 ## Literal Support
 
@@ -44,12 +52,12 @@ air”.
 
 ## Conversion Confidence And QA Concern
 
-Conversion confidence is medium for extraction purposes because the words `Dario` and `Pulgar` are clear in the converted text, but the page assignment is inconsistent with the embedded page metadata and the controller requested `reread-page`.
+Conversion confidence is medium-high for the words `Dario` and `Pulgar` after rereading the available page image and original PDF text. Conversion confidence remains low for the chunk/page assignment because the manifest says page 1 while the support belongs to source pages 4 and 5.
 
 ## Uncertainty
 
-The source packet treats `Dario` and `Pulgar` as likely references to Dario Pulgar based on adjacent document context, but the second passage gives only the surname `Pulgar`. The comma spacing in `Pulgar ,` is preserved from the converted text and should be checked against the PDF.
+The source packet treats `Dario` and `Pulgar` as likely references to Dario Pulgar based on same-document context, but the claim passages themselves do not give the full name. The comma spacing in `Pulgar ,` is present in the original PDF text extraction; the page 5 rendered image was not available in this checkout.
 
 ## Promotion Recommendation
 
-Hold for conversion QA and identity review before canonical promotion. After proof review, this packet may support limited work-context claims for Dario Pulgar.
+Hold for conversion QA before canonical promotion because the source page references need to be reconciled with the chunk manifest/page assignment. After that reconciliation and proof review, this packet may support limited work-context claims for Dario Pulgar.
