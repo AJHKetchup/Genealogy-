@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-22T00:38:51Z",
+  "updated": "2026-05-22T00:40:15Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -6098,12 +6098,12 @@
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0011": {
       "status": "done",
-      "updated_at": "2026-05-21T03:16:56Z",
-      "agent": "source-prep-docling-discovery",
-      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "updated_at": "2026-05-22T00:39:41Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-17T09:12:30Z",
       "started_at": "2026-05-17T09:12:30Z",
-      "completed_at": "2026-05-21T03:16:56Z"
+      "completed_at": "2026-05-22T00:39:41Z"
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0012": {
       "status": "done",
@@ -6116,12 +6116,12 @@
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0013": {
       "status": "done",
-      "updated_at": "2026-05-21T03:11:19Z",
-      "agent": "source-prep-docling-discovery",
-      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "updated_at": "2026-05-22T00:39:37Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-17T09:12:31Z",
       "started_at": "2026-05-17T09:12:31Z",
-      "completed_at": "2026-05-21T03:11:19Z"
+      "completed_at": "2026-05-22T00:39:37Z"
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0014": {
       "status": "done",
@@ -6143,12 +6143,12 @@
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0016": {
       "status": "done",
-      "updated_at": "2026-05-21T03:11:02Z",
-      "agent": "source-prep-docling-discovery",
-      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "updated_at": "2026-05-22T00:39:42Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-17T09:12:31Z",
       "started_at": "2026-05-17T09:12:31Z",
-      "completed_at": "2026-05-21T03:11:02Z"
+      "completed_at": "2026-05-22T00:39:42Z"
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0017": {
       "status": "done",
@@ -6180,25 +6180,23 @@
       "completed_at": "2026-05-21T03:11:11Z"
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0020": {
-      "status": "done",
-      "updated_at": "2026-05-21T03:11:41Z",
-      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "status": "released",
+      "updated_at": "2026-05-22T00:39:53Z",
+      "note": "Gemini output failed source-prep review: possible_ocr_garbage_token",
       "claimed_at": "2026-05-17T09:12:32Z",
       "started_at": "2026-05-17T09:12:32Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:33:20Z",
-      "agent": "source-prep-docling-discovery",
+      "released_at": "2026-05-22T00:39:53Z",
       "completed_at": "2026-05-21T03:11:41Z"
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0021": {
-      "status": "done",
-      "updated_at": "2026-05-21T03:10:50Z",
-      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "status": "released",
+      "updated_at": "2026-05-22T00:39:57Z",
+      "note": "Gemini output failed source-prep review: possible_ocr_garbage_token",
       "claimed_at": "2026-05-17T09:12:32Z",
       "started_at": "2026-05-17T09:12:32Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:33:20Z",
-      "agent": "source-prep-docling-discovery",
+      "released_at": "2026-05-22T00:39:57Z",
       "completed_at": "2026-05-21T03:10:50Z"
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0022": {
@@ -6238,13 +6236,14 @@
       "completed_at": "2026-05-17T09:15:41Z"
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33:p0026": {
-      "status": "done",
-      "updated_at": "2026-05-21T03:12:17Z",
-      "agent": "source-prep-docling-discovery",
-      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "status": "released",
+      "updated_at": "2026-05-22T00:40:00Z",
+      "note": "Gemini output failed source-prep review: possible_ocr_garbage_token",
       "claimed_at": "2026-05-17T09:12:33Z",
       "started_at": "2026-05-17T09:12:33Z",
-      "completed_at": "2026-05-21T03:12:17Z"
+      "completed_at": "2026-05-21T03:12:17Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-22T00:40:00Z"
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33:p0027": {
       "status": "done",
@@ -9293,12 +9292,12 @@
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0026-0050-r4946-12-33387-8070-pages-26-50:p0039": {
       "status": "done",
-      "updated_at": "2026-05-21T05:13:11Z",
-      "agent": "source-prep-docling-discovery",
-      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "updated_at": "2026-05-22T00:40:15Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-17T09:14:15Z",
       "started_at": "2026-05-17T09:14:15Z",
-      "completed_at": "2026-05-21T05:13:11Z"
+      "completed_at": "2026-05-22T00:40:15Z"
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0026-0050-r4946-12-33387-8070-pages-26-50:p0040": {
       "status": "done",
@@ -48238,14 +48237,13 @@
       "completed_at": "2026-05-19T18:35:53Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375:p0357": {
-      "status": "done",
-      "updated_at": "2026-05-21T11:37:47Z",
-      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "status": "released",
+      "updated_at": "2026-05-22T00:39:41Z",
+      "note": "Gemini output failed source-prep review: possible_ocr_garbage_token",
       "claimed_at": "2026-05-19T18:15:14Z",
       "started_at": "2026-05-19T18:15:14Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:35:52Z",
-      "agent": "source-prep-docling-discovery",
+      "released_at": "2026-05-22T00:39:41Z",
       "completed_at": "2026-05-21T11:37:47Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375:p0358": {
@@ -52077,12 +52075,12 @@
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0607": {
       "status": "done",
-      "updated_at": "2026-05-21T08:47:54Z",
-      "agent": "source-prep-docling-discovery",
-      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "updated_at": "2026-05-22T00:39:58Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-19T18:18:47Z",
       "started_at": "2026-05-19T18:18:47Z",
-      "completed_at": "2026-05-21T08:47:54Z"
+      "completed_at": "2026-05-22T00:39:58Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0608": {
       "status": "done",
@@ -65866,10 +65864,12 @@
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0651-0675-r3578-50-5569-5569-jacket5-pages-651-675:p0665": {
       "status": "done",
-      "updated_at": "2026-05-21T05:43:52Z",
-      "agent": "source-prep-docling-discovery",
-      "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-21T05:43:52Z"
+      "updated_at": "2026-05-22T00:39:22Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "completed_at": "2026-05-22T00:39:22Z",
+      "claimed_at": "2026-05-22T00:38:59Z",
+      "started_at": "2026-05-22T00:38:59Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600:p0577": {
       "status": "done",

@@ -181,63 +181,81 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 ```
 
-# Page 607
-
 ## Page Metadata
 
-- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
-- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
-- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
-- Source page: 607
-- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0607.jpg`
-- Conversion method: Docling basic conversion
-- Docling readability status: `rough_ok`
-- Docling readability flags: none
-- Extracted picture images: 0
+- **Page number**: `537`
+- **Source page number**: `607`
+- **Running head**: `NUESTROS PROBLEMAS ECONÓMICOS`
+- **Document title**: `Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.`
 
 ## Layout And Reading Order
 
-Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+The page consists of a single column of text. The reading order is from top to bottom.
+
+- **Region 1**: Header, containing the running head on the left and the page number on the right.
+- **Region 2**: Main text body, a single column of text continuing from the previous page and continuing onto the next.
 
 ## Literal Transcription
 
 ```markdown
-V
+NUESTROS PROBLEMAS ECONÓMICOS 537
 
-ha hecho  cargo,  como  hemos visto,  de la  construcción  y les  en  virtud  del  derecho  general  que  le conceden  las leyes
+ha hecho cargo, como hemos visto, de la construcción y
+explotación de los ferrocarriles llamados a ser los princi-
+pales. El Estado aparece como empresario de ferrocarri-
+les en virtud del derecho general que le conceden las leyes
+constitucionales modernas (la construcción y la explo-
+tación son actos de la administración pública). Los par-
+ticulares, por el contrario, aparecen como empresarios
+sólo en virtud de una concesión especial de construcción
+y explotación hecha por aquél.
 
-explotación  de  los  ferrocarriles llamados  a,  ser  los principales.  El  Estado  aparece  como empresario  de  ferrocarrlconstitucionales modernas  (la  construcción y  la  explo¡tación  son  actos  de la administración  pública). Los  par-| ticulares,  por  el contrario, aparecen  como empresarios sólo  en  virtud  de una concesión  especial  de  construcción iy  explotación  hecha  por  aquél.
-
-El  primer paso  importante dado  en Chile  en materia ¡ de  legislación  ferroviaria  fue  la  promulgación  de  la Ley Eueral de  Ferrocarriles, hecha el  año 1862. Esta  ley, ¡llamada  también  Ley  de Policía de los Ferrocarriles, está aún en la actualidad  en plena  vigencia. Según ¡su  artículo 1.9, los  ferrocarriles construídos  por  el Estado  o  a virtud  de concesión  o  autorización  de éste,  están sujetos a las prescripciones legales relativas a los caminos  públicos.  Según  el artículo 2.2,  los ferrocarriles, como vías  públicas, gozan de  las  servidumbres estable-¡| cidas  por  la ley sobre  los  fundos  colindantes,  sea  para  las ¡'obras  de  construcción,  reparación o  conservación de  la ¡'vía  y sus dependencias, sea  para mantener  expedito  y llibre  el tránsito por  ella.  En seguida  se establecen en  la ley  las  prohibiciones consiguientes:  embarazar  el tráfico Ide  cualquier  modo, hacer  excavaciones en  los terrenos '  colindantes  que  puedan  perjudicar  a  la solidez de  la vía, | construir  edificios  de paja  o  hacer acopio  de  materiales |  Imflamables  cerca  de la vía, construir muros  o  cierros a ¡"menos  de dos metros de distancia de ésta  y  dar  éstos |  salida  sobre ella,  etc.  La  Empresa  puede  solicitar  expro|  plación  forzada  de todo  lo que  entorpezca la línea,  y está obligada  a  cerrar a  su  costa  la vía por  ambos  lados.  En ¡todos  los puntos  en  que  los  ferrocarriles cruzasen  a  nivel
+El primer paso importante dado en Chile en materia
+de legislación ferroviaria fue la promulgación de la Ley
+general de Ferrocarriles, hecha el año 1862. Esta ley,
+llamada también Ley de Policía de los Ferrocarriles,
+está aún en la actualidad en plena vigencia. Según
+su artículo 1.º, los ferrocarriles construídos por el Esta-
+do o a virtud de concesión o autorización de éste, están
+sujetos a las prescripciones legales relativas a los
+caminos públicos. Según el artículo 2.º, los ferrocarriles,
+como vías públicas, gozan de las servidumbres estable-
+cidas por la ley sobre los fundos colindantes, sea para las
+obras de construcción, reparación o conservación de la
+vía y sus dependencias, sea para mantener expedito y
+libre el tránsito por ella. En seguida se establecen en la
+ley las prohibiciones consiguientes: embarazar el tráfico
+de cualquier modo, hacer excavaciones en los terrenos
+colindantes que puedan perjudicar a la solidez de la vía,
+construir edificios de paja o hacer acopio de materiales
+inflamables cerca de la vía, construir muros o cierros a
+menos de dos metros de distancia de ésta y dar éstos
+salida sobre ella, etc. La Empresa puede solicitar expro-
+piación forzada de todo lo que entorpezca la línea, y está
+obligada a cerrar a su costa la vía por ambos lados. En
+todos los puntos en que los ferrocarriles cruzasen a nivel
 ```
 
 ## Images, Captions, And Visual Notes
 
-- No Docling picture regions were detected for this page.
-
-## Translation
-
-No translation was produced by the Docling basic conversion pass.
-
-## Interpretation
-
-No interpretation was produced by the Docling basic conversion pass.
+There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
 
-- Automated readability flags: none
-- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
-
-## Extracted Genealogy Leads
-
-- No genealogy leads were asserted by the Docling basic conversion pass.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-- Basic Docling conversion completed for this page.
-- Rendered page image link recorded.
-- Extracted picture image count: 0.
-- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+The full content of the page has been transcribed. The text is a continuation from the previous page and continues onto the next.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only running text and a page number."
+}
+```
 
 # Page 608
 
