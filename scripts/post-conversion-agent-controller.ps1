@@ -1040,6 +1040,19 @@ function Invoke-Refresh {
     return @("conversion-qc", "agent-queues", "source-status", "source-relevance-review-holds", "source-relevance-review-assets")
 }
 
+function Update-QueueSnapshots {
+    param([object]$Summary)
+    $taskState = Get-TaskStateMap
+    $identityQueue = Write-IdentityAnalysisQueue -TaskState $taskState
+    $reviewQueue = Write-ProofReviewQueue -TaskState $taskState
+    $promotionQueue = Write-PromotionQueue -TaskState $taskState
+    $Summary.queues["conversion-qa"] = Get-QueueStatusCountsFromFile -Path (Join-Path $QueueDir "conversion-qa.json")
+    $Summary.queues["evidence-extraction"] = Get-QueueStatusCountsFromFile -Path (Join-Path $QueueDir "evidence-extraction.json")
+    $Summary.queues["identity-analysis"] = $identityQueue.status_counts
+    $Summary.queues["proof-review"] = $reviewQueue.status_counts
+    $Summary.queues["wiki-promotion"] = $promotionQueue.status_counts
+}
+
 $summary = [ordered]@{
     started = [DateTime]::UtcNow.ToString("s") + "Z"
     root = $Root
@@ -1081,15 +1094,7 @@ try {
             }
             else {
                 $summary.refresh = @(Invoke-Refresh)
-                $taskState = Get-TaskStateMap
-                $identityQueue = Write-IdentityAnalysisQueue -TaskState $taskState
-                $reviewQueue = Write-ProofReviewQueue -TaskState $taskState
-                $promotionQueue = Write-PromotionQueue -TaskState $taskState
-                $summary.queues["conversion-qa"] = Get-QueueStatusCountsFromFile -Path (Join-Path $QueueDir "conversion-qa.json")
-                $summary.queues["evidence-extraction"] = Get-QueueStatusCountsFromFile -Path (Join-Path $QueueDir "evidence-extraction.json")
-                $summary.queues["identity-analysis"] = $identityQueue.status_counts
-                $summary.queues["proof-review"] = $reviewQueue.status_counts
-                $summary.queues["wiki-promotion"] = $promotionQueue.status_counts
+                Update-QueueSnapshots -Summary $summary
             }
         }
         catch {
@@ -1138,6 +1143,14 @@ finally {
     catch {
         $summary.fatal = $true
         $summary.blockers += "worker drain fatal: $($_.Exception.Message)"
+    }
+    if (-not $DryRun -and $activeWorkers.Count -eq 0) {
+        try {
+            Update-QueueSnapshots -Summary $summary
+        }
+        catch {
+            $summary.blockers += "final queue snapshot refresh: $($_.Exception.Message)"
+        }
     }
     try {
         Release-Lock
