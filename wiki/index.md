@@ -5,6 +5,16 @@
 - [[people/alexander-john-heinz|Alexander John Heinz]]
 - [[people/dario-arturo-pulgar-smith|Dario Arturo Pulgar-Smith]]
 
+- [[people/tulio-cesar-luis-jose]]
+
+- [[people/jose-del-carmen-pulgar]]
+
+- [[people/juana-de-dios-amagada-de-pulgar]]
+
+- [[people/mercedes-riquelme]]
+
+- [[people/juan-soler]]
+
 ## Branches
 
 ## Families

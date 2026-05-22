@@ -25,12 +25,12 @@ For entry 513, the image supports the Pulgar family row and male sex, but the ch
 
 The assigned chunk and assembled converted Markdown are derivative transcripts of the same image, but they materially disagree:
 
-- Entry 513 child: assigned chunk `Pulgar Amagada / Jose Luis`; assembled converted Markdown `Tulio Cesar Luis Jose`.
-- Entry 513 birth date/time: assigned chunk `Junio veinte i seis ... a las cuatro i media de la tarde`; assembled converted Markdown `Junio veinte i dos ... a las cuatro i veinte de la mañana`; image review appears closer to `Junio veinte i dos`, while the time phrase still needs targeted review.
+- Entry 513 child: assigned chunk `Pulgar Amagada / Jose Luis`; assembled converted Markdown `Isidoro del Carmen Diaz`.
+- Entry 513 birth date/time: assigned chunk `Junio veinte i seis ... a las cuatro i media de la tarde`; assembled converted Markdown `veinte i dos ... a las cuatro i veinte de la tarde`; image review appears closer to `Junio veinte i dos` and likely `cuatro i media de la tarde`, while the time phrase still needs targeted review.
 - Entry 513 mother: assigned chunk `Juana de Dios Amagada de Pulgar`; assembled converted Markdown `Juana de Dios Amador de Pulgar`.
-- Entry 514 father: assigned chunk and image `Se ignora`; assembled converted Markdown `Belisario Riquelme`.
-- Entry 514 witness/place: assigned chunk `Benjamin Utiera` and `Calle Sanegueso`; assembled converted Markdown `Benjamin Utria` and `Calle San Joaquin`.
-- Entry 515 child/father/mother: assigned chunk `Neira Ulloa / Laura de la Cruz`, `Pedro Pablo Neira`, `Carmen Ulloa`; assembled converted Markdown `Rosa Elvira del Carmen`, `Pedro Pablo Leiva`, `Carmen Fuentes`; available image does not fully confirm the lower mother field.
+- Entry 514 father: assigned chunk and image `Se ignora`; assembled converted Markdown places `Mercedes Riquelme` in the father field.
+- Entry 514 witness/place: assigned chunk `Benjamin Utiera` and `Calle Sanegueso`; assembled converted Markdown `Benjamin Utrosa`, `Ignacio Jara`, and `Calle Panquehue`.
+- Entry 515 child/father/mother: assigned chunk `Neira Ulloa / Laura de la Cruz`, `Pedro Pablo Neira`, `Carmen Ulloa`; assembled converted Markdown `Rosa Elvira del Carmen`, `Pedro Pablo Leiva`, `Carmen Leiva`; available image does not fully confirm the lower mother field.
 
 ## Uncertainty
 

@@ -30,7 +30,7 @@ This packet describes a civil birth register page from Los Anjeles, num. 1o de L
 
 ## Conversion Confidence And QA Concern
 
-Use this packet only after conversion QA or proof review. The assigned chunk and converted file disagree materially on the names, dates, places, parent fields, and official signature for entries 513-515. Image review in this revision supports the chunk over the assembled converted Markdown for the largest identity conflicts, especially entry 514's father field, but it does not fully settle all readings.
+Use this packet only after conversion QA or proof review. The assigned chunk and converted file disagree materially on the names, dates, places, parent fields, and official signature for entries 513-515. Image review in this revision supports the assigned chunk over the assembled converted Markdown for the largest identity conflicts, including entry 514's father field, but it does not fully settle all readings.
 
 Remaining QA concerns:
 

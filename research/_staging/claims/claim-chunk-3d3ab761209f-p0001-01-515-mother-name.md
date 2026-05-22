@@ -16,6 +16,6 @@ promotion_recommendation: hold_for_conversion_qa
 
 Literal support: assigned chunk only: `Nombre de la madre. Carmen Ulloa`.
 
-Conversion confidence / QA concern: the available image does not visibly confirm the lower mother field for entry 515, and the assembled converted file omits the mother name while also disagreeing on the child and father readings. This claim should be treated as an unpromoted transcription-dependent lead.
+Conversion confidence / QA concern: the available image does not visibly confirm the full lower mother field for entry 515, and the assembled converted file reads `Carmen Leiva` while also disagreeing on the child and father readings. This claim should be treated as an unpromoted transcription-dependent lead.
 
 Uncertainty: hold until a complete lower crop, better page image, or formal conversion correction note confirms that entry 515 names `Carmen Ulloa` as mother.

@@ -1,6 +1,48 @@
 {
   "relationships": [
     {
+      "id": "rel",
+      "path": "research/relationships/rel-stage-chunk-d6a12b291d94-p0172-01-513-child-parents-jose-del-carmen-pulgar-parent.md",
+      "status": "draft",
+      "relationship_type": "probable_parent",
+      "confidence": 8.0,
+      "calculated_confidence": null,
+      "person_a": "[[people/jose-del-carmen-pulgar]]",
+      "person_b": "[[people/tulio-cesar-luis-jose]]",
+      "supporting_claims": [],
+      "conflicting_claims": [],
+      "evidence_for": "- Promoted from staged relationship candidate `research/_staging/relationships/REL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-child-parents.md`. - Source packet: [[source-packets/sp-stage-chunk-d6a12b291d94-p0172-01-los-angeles-birth-register-1889-page-172]]. - Literal support: ```text Nombre. Tulio Cesar Luis Jose Nombre del padre. Jose del Carmen Pulgar Nombre de la madre. Juana de Dios Amagada de Pulgar ```",
+      "evidence_against": "No conflicting claims were identified in the promoted staged draft."
+    },
+    {
+      "id": "rel",
+      "path": "research/relationships/rel-stage-chunk-d6a12b291d94-p0172-01-513-child-parents-juana-de-dios-amagada-de-pulgar-parent.md",
+      "status": "draft",
+      "relationship_type": "probable_parent",
+      "confidence": 8.0,
+      "calculated_confidence": null,
+      "person_a": "[[people/juana-de-dios-amagada-de-pulgar]]",
+      "person_b": "[[people/tulio-cesar-luis-jose]]",
+      "supporting_claims": [],
+      "conflicting_claims": [],
+      "evidence_for": "- Promoted from staged relationship candidate `research/_staging/relationships/REL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-child-parents.md`. - Source packet: [[source-packets/sp-stage-chunk-d6a12b291d94-p0172-01-los-angeles-birth-register-1889-page-172]]. - Literal support: ```text Nombre. Tulio Cesar Luis Jose Nombre del padre. Jose del Carmen Pulgar Nombre de la madre. Juana de Dios Amagada de Pulgar ```",
+      "evidence_against": "No conflicting claims were identified in the promoted staged draft."
+    },
+    {
+      "id": "rel",
+      "path": "research/relationships/rel-stage-chunk-d6a12b291d94-p0172-01-514-mercedes-riquelme-juan-soler-spouse-mercedes-riquelme-juan-soler-spouse.md",
+      "status": "draft",
+      "relationship_type": "spouse",
+      "confidence": 8.0,
+      "calculated_confidence": null,
+      "person_a": "[[people/mercedes-riquelme]]",
+      "person_b": "[[people/juan-soler]]",
+      "supporting_claims": [],
+      "conflicting_claims": [],
+      "evidence_for": "- Promoted from staged relationship candidate `research/_staging/relationships/REL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-mercedes-riquelme-juan-soler-spouse.md`. - Source packet: [[source-packets/sp-stage-chunk-d6a12b291d94-p0172-01-los-angeles-birth-register-1889-page-172]]. - Literal support: ```text Mercedes Riquelme Madre Esposa de Juan Soler ```",
+      "evidence_against": "No conflicting claims were identified in the promoted staged draft."
+    },
+    {
       "id": "dario",
       "path": "wiki/relationships/dario-arturo-pulgar-smith-maternal-grandfather-of-alexander-john-heinz.md",
       "status": "family_supplied",

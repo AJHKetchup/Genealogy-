@@ -19,11 +19,11 @@ This is a staging task, not a canonical claim. Use it to reconcile the assigned 
 
 ## Literal Support And QA Findings
 
-- Entry 513 birth date/time: assigned chunk reads `Junio veinte i seis ... a las cuatro i media de la tarde`; converted Markdown reads `Junio veinte i dos ... a las cuatro i veinte de la mañana`; image review appears to support `Junio veinte i dos` and likely `a las cuatro i media ... tarde`, but the time phrase remains faint.
-- Entry 513 child: assigned chunk reads `Pulgar Amagada / Jose Luis`; converted Markdown reads `Tulio Cesar Luis Jose`; source image supports a `Pulgar Ama...` surname line and a given-name line beginning `Jose ...`, but does not settle the full given-name reading enough for promotion.
+- Entry 513 birth date/time: assigned chunk reads `Junio veinte i seis ... a las cuatro i media de la tarde`; converted Markdown reads `veinte i dos ... a las cuatro i veinte de la tarde`; source image appears to support `Junio veinte i dos` and likely `a las cuatro i media ... tarde`, but the time phrase remains faint.
+- Entry 513 child: assigned chunk reads `Pulgar Amagada / Jose Luis`; converted Markdown reads `Isidoro del Carmen Diaz`; source image supports a `Pulgar Ama...` surname line and a given-name line beginning `Jose ...`, but does not settle the full given-name reading enough for promotion.
 - Entry 513 mother: assigned chunk reads `Juana de Dios Amagada de Pulgar`; converted Markdown reads `Juana de Dios Amador de Pulgar`; image review suggests the chunk-side family row but the maternal surname needs a targeted crop.
-- Entry 514 father: image review supports `Se ignora`; the converted Markdown's `Belisario Riquelme` should not be used for a parent-child relationship from this packet.
-- Entry 514 child/witness/street: source image supports `Riquelme / Juan Bautista` without visible `Aviles`; `Benjamin Utiera` versus `Benjamin Utria`, and `Calle Sanegueso` versus `Calle San Joaquin`, remain conversion-QA readings rather than canonical facts.
+- Entry 514 father: image review supports `Se ignora`; the converted Markdown's placement of `Mercedes Riquelme` in the father field should not be used for a parent-child relationship from this packet.
+- Entry 514 child/witness/street: source image supports `Riquelme / Juan Bautista` without visible `Aviles`; `Benjamin Utiera` versus `Benjamin Utrosa`, and `Calle Sanegueso` versus `Calle Panquehue`, remain conversion-QA readings rather than canonical facts.
 - Entry 515: image review supports the `Neira=emendado= / vale=` note and father-area reading, but the lower mother-field area is not sufficiently visible for promoting `Carmen Ulloa` from this image alone.
 
 ## Promotion Recommendation

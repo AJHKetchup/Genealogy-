@@ -16,6 +16,6 @@ promotion_recommendation: hold_for_conversion_qa
 
 Literal support: "**Fecha.**<br>Julio diez i ocho de mil ochocientos ochenta i nueve, a las diez de la mañana<br>**Lugar.**<br>Calle Santiago"
 
-Conversion confidence / QA concern: the converted file gives a different date and omits the place. Verify image before promotion.
+Conversion confidence / QA concern: the converted file gives a materially different date/time and place for entry 515. Verify image and the lower-row crop before promotion.
 
 Uncertainty: do not infer whether Santiago is a street, locality, or shorthand beyond the literal field.

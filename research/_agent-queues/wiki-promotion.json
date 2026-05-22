@@ -3,23 +3,19 @@
     "queue":  "wiki-promotion",
     "task_count":  1,
     "status_counts":  {
-                          "done":  1
+                          "todo":  1
                       },
     "tasks":  [
                   {
                       "skill":  "genealogy-proof-review",
-                      "agent":  "postconv-wiki-promotion-20260522065754228",
                       "updated_at":  "2026-05-22T06:59:31Z",
                       "ready_review_fingerprint":  "d9396652dddc",
-                      "started_at":  "2026-05-22T06:57:54Z",
                       "queue":  "wiki-promotion",
-                      "note":  "post-conversion controller start",
+                      "note":  "requeued because reviewed staged drafts still lack promoted outputs",
                       "ready_review_count":  2,
-                      "completed_at":  "2026-05-22T06:59:31Z",
                       "prompt_path":  "research/_agent-queues/prompts/wiki-promotion/wiki-promotion-reviewed-ready-d9396652dddc.md",
                       "task_id":  "wiki-promotion:reviewed-ready:d9396652dddc",
-                      "status":  "done",
-                      "claimed_at":  "2026-05-22T06:57:54Z",
+                      "status":  "todo",
                       "role":  "wiki_promoter"
                   }
               ]

@@ -14,7 +14,7 @@ confidence: low
 promotion_recommendation: hold_for_conversion_qa
 ---
 
-Literal support: source image shows the entry 513 child-name field beginning with `Pulgar Ama...` on the surname line and a given-name line beginning `Jose ...`; sex field reads `Masculino`. Assigned chunk reads `Pulgar Amagada / Jose Luis`; converted Markdown reads `Tulio Cesar Luis Jose`.
+Literal support: source image shows the entry 513 child-name field beginning with `Pulgar Ama...` on the surname line and a given-name line beginning `Jose ...`; sex field reads `Masculino`. Assigned chunk reads `Pulgar Amagada / Jose Luis`; converted Markdown reads `Isidoro del Carmen Diaz`.
 
 Conversion confidence / QA concern: revised after source-image review. The image supports a Pulgar/Amagada-style surname line and male sex, but it does not securely support the staged subject label `Jose Luis Pulgar Amagada`. Keep this claim on hold until targeted conversion QA reconciles the child-name field from the image, assigned chunk, and converted Markdown.
 

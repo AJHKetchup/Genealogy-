@@ -14,18 +14,18 @@
 - Quality flags: explicit_reread_needed
 - Matched family context: Arturo, Dario, Pulgar
 
+### Page 5
+
+- Recommended action: `reread-page`
+- Conversion confidence: `medium`
+- Family relevance: `high`
+- Quality flags: explicit_reread_needed
+- Matched family context: Arturo, Dario, Pulgar
+
 ### Page 6
 
 - Recommended action: `reread-page`
 - Conversion confidence: `medium`
 - Family relevance: `high`
 - Quality flags: explicit_reread_needed
-- Matched family context: Arturo, Dario, Pulgar, user
-
-### Page 7
-
-- Recommended action: `reread-page`
-- Conversion confidence: `medium`
-- Family relevance: `high`
-- Quality flags: explicit_reread_needed
-- Matched family context: Arturo, Dario, Pulgar, start
+- Matched family context: Arturo, Dario, Pulgar, Starting, user

@@ -40,7 +40,7 @@ Civil birth register page for the Circunscripcion de Los Anjeles, num. 1o de La 
 
 ## Conversion Confidence And QA Concern
 
-Conversion confidence remains mixed. The page image supports the chunk transcription more than the assembled converted Markdown for the principal identities in entries 513-515, but the derivative transcripts still disagree materially. The converted Markdown has alternate readings for the 513 child and mother, 514 child/father/place/witnesses, 515 child/father/mother, and the officer signature. Those disagreements should remain visible until the conversion layer is corrected or formally annotated.
+Conversion confidence remains mixed. The page image supports the chunk transcription more than the assembled converted Markdown for the principal identities in entries 513-515, but the derivative transcripts still disagree materially. The converted Markdown has alternate readings for the 513 child, mother, and birth time; 514 child, father field, place, and witnesses; 515 child, father, and mother; and the officer signature. Those disagreements should remain visible until the conversion layer is corrected or formally annotated.
 
 Image review reduces, but does not eliminate, the previous blocker:
 

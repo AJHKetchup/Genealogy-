@@ -16,7 +16,7 @@ Chunk/page reference: `raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de
 
 Literal support: the assigned chunk states child field `Nombre. Neira Ulloa / Laura de la Cruz` and mother field `Nombre de la madre. Carmen Ulloa`.
 
-Conversion confidence / QA concern: do not promote this mother-child relationship from the current staged evidence. The image reviewed in this pass shows the upper and middle portions of entry 515, including the child and father/declarant areas, but the lower mother-field area is cut off or not sufficiently visible. The assembled converted file also conflicts by omitting a mother name and reading a different child/father identity.
+Conversion confidence / QA concern: do not promote this mother-child relationship from the current staged evidence. The image reviewed in this pass shows the upper and middle portions of entry 515, including the child and father/declarant areas, but the full lower mother-field area is cut off or not sufficiently visible. The assembled converted file also conflicts by reading `Carmen Leiva` as mother and a different child/father identity.
 
 Uncertainty: the relationship may be correct if a complete lower crop confirms the assigned chunk's `Carmen Ulloa` reading, but the available image does not provide enough visible support for tree promotion.
 

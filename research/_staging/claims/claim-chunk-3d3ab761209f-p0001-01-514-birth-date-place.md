@@ -14,7 +14,7 @@ confidence: low
 promotion_recommendation: hold_for_conversion_qa
 ---
 
-Literal support: source image supports `Junio veinte i tres ... a las nueve ... de la mañana`; the place line begins `Calle San...` but the exact street spelling is not secure. Assigned chunk reads `Calle Sanegueso`; converted Markdown reads `Calle San Joaquin`.
+Literal support: source image supports `Junio veinte i tres ... a las nueve ... de la mañana`; the place line begins `Calle San...` but the exact street spelling is not secure. Assigned chunk reads `Calle Sanegueso`; converted Markdown reads `Calle Panquehue`.
 
 Conversion confidence / QA concern: revised after source-image review. The birth date/time is closer to the assigned chunk than the converted Markdown, but the exact place spelling remains conversion-QA work.
 
