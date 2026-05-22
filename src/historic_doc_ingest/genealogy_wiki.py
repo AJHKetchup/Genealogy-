@@ -5218,6 +5218,17 @@ EVIDENCE_OUTPUT_REFERENCE_DIRS = (
     "research/source-packets",
 )
 CHUNK_ID_PATTERN = re.compile(r"CHUNK-[A-Za-z0-9]+-P\d{4}-\d{2}", flags=re.IGNORECASE)
+PROOF_REVIEW_REVISION_TERMS = (
+    "conversion qa",
+    "converted file materially conflicts",
+    "converted file conflicts",
+    "converted file contradicts",
+    "converted file gives a different",
+    "conversion conflict",
+    "transcription conflict",
+    "reconcile the converted",
+    "revise this staged",
+)
 
 
 def collect_evidence_output_types_by_chunk(root: Path) -> dict[str, set[str]]:
@@ -5243,6 +5254,118 @@ def collect_evidence_output_types_by_chunk(root: Path) -> dict[str, set[str]]:
             for chunk_id in chunk_ids:
                 output_types.setdefault(chunk_id.upper(), set()).add(output_type)
     return output_types
+
+
+def proof_review_requests_staging_revision(text: str) -> bool:
+    readiness = normalize_review_readiness(extract_review_canonical_readiness(text))
+    if review_readiness_allows_promotion(readiness):
+        return False
+    lowered = text.lower()
+    if not any(term in lowered for term in PROOF_REVIEW_REVISION_TERMS):
+        return False
+    return any(term in lowered for term in ("next action", "revise", "rerun", "reconcile", "conversion qa"))
+
+
+def proof_review_revision_requests_by_chunk(root: Path) -> dict[str, list[dict[str, str]]]:
+    root = root.resolve()
+    review_dir = root / "research" / "_staging" / "reviews"
+    requests: dict[str, list[dict[str, str]]] = {}
+    if not review_dir.exists():
+        return requests
+    for review_path in sorted(review_dir.glob("*.md")):
+        text = read_text(review_path)
+        if not proof_review_requests_staging_revision(text):
+            continue
+        staged_draft = extract_review_staged_draft(text) or staged_draft_from_proof_review(text)
+        evidence_text = text
+        if staged_draft:
+            staged_path = root / staged_draft
+            if staged_path.exists():
+                evidence_text = f"{text}\n{read_text(staged_path)}"
+        chunk_ids = {chunk_id.upper() for chunk_id in CHUNK_ID_PATTERN.findall(evidence_text)}
+        if not chunk_ids:
+            continue
+        review_rel = review_path.relative_to(root).as_posix()
+        readiness = extract_review_canonical_readiness(text)
+        request = {
+            "review": review_rel,
+            "staged_draft": staged_draft,
+            "canonical_readiness": readiness,
+            "summary": proof_review_revision_summary(text),
+            "fingerprint": hashlib.sha1(f"{review_rel}\n{staged_draft}\n{readiness}\n{text}".encode("utf-8")).hexdigest()[:16],
+        }
+        for chunk_id in chunk_ids:
+            requests.setdefault(chunk_id, []).append(request)
+    return requests
+
+
+def proof_review_revision_summary(text: str) -> str:
+    for heading in ("Next Action", "Review Judgment", "Blockers"):
+        section = extract_section(text, heading).strip()
+        if section:
+            return " ".join(section.split())[:600]
+    lines = [line.strip("- ").strip() for line in text.splitlines() if line.strip()]
+    return " ".join(lines[:6])[:600]
+
+
+def proof_revision_request_fingerprint(requests: list[dict[str, str]]) -> str:
+    joined = "\n".join(sorted(str(request.get("fingerprint", "")) for request in requests))
+    return hashlib.sha1(joined.encode("utf-8")).hexdigest()[:16]
+
+
+def release_evidence_tasks_for_proof_review_revisions(
+    root: Path,
+    evidence_tasks: list[dict[str, object]],
+    task_state: dict[str, dict[str, object]],
+) -> int:
+    requests_by_chunk = proof_review_revision_requests_by_chunk(root)
+    if not requests_by_chunk:
+        return 0
+
+    release_targets: dict[str, tuple[str, list[dict[str, str]]]] = {}
+    for task in evidence_tasks:
+        task_id = str(task.get("task_id", "")).strip()
+        chunk_id = str(task.get("chunk_id", "")).strip().upper()
+        if not task_id or not chunk_id:
+            continue
+        requests = requests_by_chunk.get(chunk_id, [])
+        if not requests:
+            continue
+        state = task_state.get(task_id, {})
+        if str(state.get("status", "")).strip() != "done":
+            continue
+        fingerprint = proof_revision_request_fingerprint(requests)
+        if str(state.get("proof_revision_fingerprint", "")).strip() == fingerprint:
+            continue
+        release_targets[task_id] = (fingerprint, requests)
+
+    if not release_targets:
+        return 0
+
+    with agent_task_state_lock(root):
+        current_state = load_agent_task_state(root)
+        now = utc_timestamp()
+        released_count = 0
+        for task_id, (fingerprint, requests) in release_targets.items():
+            current = dict(current_state.get(task_id, {}))
+            if str(current.get("status", "")).strip() != "done":
+                continue
+            current["status"] = "released"
+            current["released_at"] = now
+            current["updated_at"] = now
+            current["note"] = (
+                "Released because proof review requested staged evidence revision or conversion-QA reconciliation "
+                "before canonical promotion."
+            )
+            current["release_reason"] = "proof_review_revision_request"
+            current["proof_revision_fingerprint"] = fingerprint
+            current["proof_revision_reviews"] = [request["review"] for request in requests]
+            current.pop("agent", None)
+            current_state[task_id] = current
+            released_count += 1
+        if released_count:
+            save_agent_task_state(root, current_state)
+        return released_count
 
 
 def release_evidence_tasks_missing_atomic_outputs(
@@ -5447,12 +5570,17 @@ def write_agent_queues(
         queues["source-prep"] = build_source_prep_agent_tasks(paths.root)
     queues["conversion-qa"] = build_conversion_qa_agent_tasks(paths.root) if include_conversion_qa else []
     queues["evidence-extraction"] = build_evidence_extraction_agent_tasks(paths.root)
+    revised_evidence_count = release_evidence_tasks_for_proof_review_revisions(
+        paths.root,
+        queues["evidence-extraction"],
+        task_state,
+    )
     recovered_evidence_count = release_evidence_tasks_missing_atomic_outputs(
         paths.root,
         queues["evidence-extraction"],
         task_state,
     )
-    if recovered_evidence_count:
+    if revised_evidence_count or recovered_evidence_count:
         task_state = load_agent_task_state(paths.root)
     written = [write_agent_queue(paths.root, queue_dir, name, tasks, task_state) for name, tasks in queues.items()]
     log_message = f"agent-queues | Wrote {len(written)} queue manifest(s)"
@@ -5464,6 +5592,8 @@ def write_agent_queues(
         log_message += f"; released {released_count} stale task(s)"
     if recovered_evidence_count:
         log_message += f"; released {recovered_evidence_count} completed evidence task(s) missing atomic outputs"
+    if revised_evidence_count:
+        log_message += f"; released {revised_evidence_count} evidence task(s) for proof-review revision"
     append_log(paths.research / "log.md", log_message)
     return written
 
@@ -12086,6 +12216,7 @@ def sync_github_database(
 def build_evidence_extraction_agent_tasks(root: Path) -> list[dict[str, object]]:
     tasks: list[dict[str, object]] = []
     qc_blocked_by_source = load_qc_blocked_pages(root)
+    revision_requests_by_chunk = proof_review_revision_requests_by_chunk(root)
     for manifest_path in sorted((root / "raw" / "chunks").glob("*/manifest.json")):
         try:
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
@@ -12129,6 +12260,9 @@ def build_evidence_extraction_agent_tasks(root: Path) -> list[dict[str, object]]
                         "qc_corrections": f"research/_conversion-review/corrections/{source_slug}.md",
                     }
                 )
+            revision_requests = revision_requests_by_chunk.get(chunk_id.upper(), [])
+            if revision_requests:
+                task["proof_review_revision_requests"] = revision_requests[:8]
             task["prompt"] = build_evidence_extraction_agent_prompt(task)
             tasks.append(task)
     return tasks
@@ -12326,6 +12460,31 @@ def build_evidence_extraction_agent_prompt(task: dict[str, object]) -> str:
 
 Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
 """
+    revision_section = ""
+    revision_requests = task.get("proof_review_revision_requests", [])
+    if isinstance(revision_requests, list) and revision_requests:
+        rows = []
+        for request in revision_requests[:8]:
+            if not isinstance(request, dict):
+                continue
+            rows.append(
+                "| "
+                f"`{request.get('review', '')}` | "
+                f"`{request.get('staged_draft', '')}` | "
+                f"`{request.get('canonical_readiness', '')}` | "
+                f"{request.get('summary', '')} |"
+            )
+        revision_section = f"""
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+{chr(10).join(rows)}
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
+"""
     return f"""# Evidence Extraction Task
 
 Use `$genealogy-claim-extraction`.
@@ -12340,6 +12499,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: {task["page_start"]}-{task["page_end"]}
 - Staging area: `{task["staging_dir"]}`
 {hold_section}
+{revision_section}
 
 ## Done When
 

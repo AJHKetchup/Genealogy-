@@ -3287,6 +3287,104 @@ The rendered page image `{image_ref}` is missing, so the claim remains on hold.
     assert calls == []
 
 
+def write_proof_revision_fixture(tmp_path) -> str:
+    init_genealogy_wiki(tmp_path)
+    chunk_id = "CHUNK-ABC123-P0001-01"
+    chunk_dir = tmp_path / "raw" / "chunks" / "example-codex"
+    chunk_dir.mkdir(parents=True, exist_ok=True)
+    chunk_path = chunk_dir / "page-0001-chunk-01.md"
+    chunk_path.write_text(f"# {chunk_id}\n\nExample chunk text.", encoding="utf-8")
+    (chunk_dir / "manifest.json").write_text(
+        json.dumps(
+            {
+                "converted_file": "raw/converted/example.codex.md",
+                "source": "raw/sources/example.png",
+                "source_sha256": "abc123",
+                "chunks": [
+                    {
+                        "chunk_id": chunk_id,
+                        "path": "raw/chunks/example-codex/page-0001-chunk-01.md",
+                        "page_start": 1,
+                        "page_end": 1,
+                    }
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+    staged = tmp_path / "research" / "_staging" / "relationships" / "rel-example.md"
+    staged.parent.mkdir(parents=True, exist_ok=True)
+    staged.write_text(
+        f"""---
+type: relationship_candidate
+chunk_id: {chunk_id}
+promotion_recommendation: hold_for_conversion_qa
+---
+
+Literal support from {chunk_id}.
+""",
+        encoding="utf-8",
+    )
+    review = tmp_path / "research" / "_staging" / "reviews" / "rel-example-review.md"
+    review.parent.mkdir(parents=True, exist_ok=True)
+    review.write_text(
+        f"""---
+type: proof_review
+staged_draft: research/_staging/relationships/rel-example.md
+canonical_readiness: hold
+---
+
+The converted file materially conflicts with the image-reviewed chunk for {chunk_id}.
+
+## Next Action
+
+Run conversion QA, reconcile the converted evidence, and revise this staged relationship before promotion.
+""",
+        encoding="utf-8",
+    )
+    return chunk_id
+
+
+def test_evidence_prompt_includes_proof_review_revision_context(tmp_path) -> None:
+    chunk_id = write_proof_revision_fixture(tmp_path)
+
+    tasks = genealogy_wiki.build_evidence_extraction_agent_tasks(tmp_path)
+    task = next(task for task in tasks if task["chunk_id"] == chunk_id)
+
+    assert task["proof_review_revision_requests"][0]["staged_draft"] == "research/_staging/relationships/rel-example.md"
+    assert "Proof Review Revision Context" in task["prompt"]
+    assert "reconcile the converted evidence" in task["prompt"]
+
+
+def test_proof_review_revision_releases_done_evidence_task_once(tmp_path) -> None:
+    chunk_id = write_proof_revision_fixture(tmp_path)
+    task_id = f"evidence-extraction:{chunk_id}"
+    update_agent_task_state(tmp_path, task_id, "done", agent="worker")
+    tasks = genealogy_wiki.build_evidence_extraction_agent_tasks(tmp_path)
+
+    released = genealogy_wiki.release_evidence_tasks_for_proof_review_revisions(
+        tmp_path,
+        tasks,
+        genealogy_wiki.load_agent_task_state(tmp_path),
+    )
+
+    state = genealogy_wiki.load_agent_task_state(tmp_path)
+    assert released == 1
+    assert state[task_id]["status"] == "released"
+    fingerprint = state[task_id]["proof_revision_fingerprint"]
+
+    state[task_id]["status"] = "done"
+    genealogy_wiki.save_agent_task_state(tmp_path, state)
+    released_again = genealogy_wiki.release_evidence_tasks_for_proof_review_revisions(
+        tmp_path,
+        tasks,
+        genealogy_wiki.load_agent_task_state(tmp_path),
+    )
+
+    assert released_again == 0
+    assert genealogy_wiki.load_agent_task_state(tmp_path)[task_id]["proof_revision_fingerprint"] == fingerprint
+
+
 def test_large_corpus_economy_holds_unrequested_docling_fallback(tmp_path, monkeypatch) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
