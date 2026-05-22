@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-ca0efe600240-P0009-01
+chunk_id: CHUNK-2e3ccb084dd8-P0009-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: ca0efe600240bdf5aa37c6b3067363cfb83601c20af115e102c00106770c8125
+converted_sha256: 2e3ccb084dd8116f54b1a18f89eb78c29c164e4cded791095f7068d91e9a7958
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -14,31 +14,41 @@ part: 1
 ## Page Metadata
 
 - **Page number**: 9
-- **Source document**: CV of Dario Arturo Pulgar.pdf
+- **Source type**: CV
+- **Document author**: Dario Arturo Pulgar
+- **Document title**: CV of Dario Arturo Pulgar
+- **Full source citation**: Pulgar, Dario Arturo. "CV of Dario Arturo Pulgar." N.p., n.d.
+- **Source-to-page confidence**: 5/5
+- **Genealogical relevance**: High
+- **Page contains images**: No
+- **Page contains signatures**: No
+- **Page contains handwriting**: No
 
 ## Layout And Reading Order
 
-The page is a single column of typed text. The content is divided into two sections. The first section lists educational history, formatted with date ranges on the left and institutional details on the right. The second section, titled "LANGUAGES," lists spoken and written languages, also in a two-column format. The reading order is from top to bottom.
+The page is a single column of typewritten text. The content is divided into two sections. The first section continues a list of educational history from a previous page, with date ranges on the left and institutional details on the right. The second section is titled "LANGUAGES" and lists spoken and written languages in a two-column format (label on the left, list of languages on the right). The reading order is top to bottom.
 
 ## Literal Transcription
 
-1967 - 1968 : Stanford University. Stanford, California
-Fulbright Scholarship. M.A. Communications
+```text
+1967 - 1968 :   Stanford University. Stanford, California
+                Fulbright Scholarship. M.A. Communications
 
-1963 - 1966 : Universidad de Concepción, Escuela de Periodismo. Chile
-Journalism
+1963 - 1966 :   Universidad de Concepción, Escuela de Periodismo. Chile
+                Journalism
 
-1960 - 1963 : Universidad de Concepción, Escuela de Derecho. Chile
-Field of Study: Law
+1960 - 1963 :   Universidad de Concepción, Escuela de Derecho. Chile
+                Field of Study: Law
 
-1954 - 1959 : Liceo Enrique Molina. Concepción, Chile
-Humanities, Baccalaureate
+1954 - 1959 :   Liceo Enrique Molina. Concepción, Chile
+                Humanities, Baccalaureate
 
-**LANGUAGES**
+LANGUAGES
 
-Spoken: Spanish, English, French, Italian, and Portuguese
+Spoken:         Spanish, English, French, Italian, and Portuguese
 
-Written: Spanish, English, French
+Written:        Spanish, English, French
+```
 
 ## Images, Captions, And Visual Notes
 
@@ -50,13 +60,10 @@ All text on this page is clear and legible.
 
 ## Completeness Audit
 
-This page is simple and has been fully and accurately transcribed.
+This page has been fully and accurately transcribed.
 
 ## Visual Region Manifest
 
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other meaningful visual elements to crop."
-}
+{"visual_regions": [], "no_visual_regions_reason": "This page consists entirely of typewritten text and contains no images, illustrations, or other meaningful visual elements."}
 ```

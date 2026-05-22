@@ -10,11 +10,14 @@
 
 ## Page Metadata
 - Page number: 4
+- Source publication year: 1950s (implied by content)
 
 ## Layout And Reading Order
-The page contains a title "NUMERO GIGANTE" and "ENERO - FEBRERO" at the top, followed by a handwritten number "666". Below this is a section titled "NOTAS". The main content is divided into two sections: "ALMUERZO" and "MATRIMONIO", each with a descriptive paragraph. A handwritten number "4" is at the bottom center of the page.
+
+The page contains a title, a date range, a section heading "NOTAS", and two subsections: "ALMUERZO" and "MATRIMONIO". The content is presented in a single column.
 
 ## Literal Transcription
+
 NUMERO GIGANTE
 ENERO - FEBRERO
 666
@@ -33,7 +36,7 @@ EL RIO BIO-BIO PERO LA MALA SUERTE LE ENREDÓ LA LIENSA DE NYLON DEL
 CARRETE.
 EL DOCTOR PETERSEN DEBIÓ MARCHARSE A LOS ANGELES A CUMPLIR ALGUNOS C
 COMPROMISOS MARCHÁNDOSE ANTES DE ONCE. EN CAMBIO EL DOCTOR HERMANSEN
-SE QUEDÓ A LA ONCE MARCHÁNDOSE APROXIMADAMENTE A LAS 8 DE LA TARDE '
+SE QUEDÓ A LA ONCE MARCHÁNDOSE APROXIMADAMENTE A LAS 8 DE LA TARDE
 AL FUNDO DEL DOCTOR PETERSEN DONDE SE HOSPEDABA PARA MARCHARSE DOS
 DIAS DESPUES A CONCEPCION A CUMPLIR SUS OBLIGACIONES.
 
@@ -44,22 +47,27 @@ LEOPOLDO PASCUAL BAILAC. NOTAMOSLEAL PRESENCIA DE DOS ANTIGUOS CABALLER
 DON JOSE MARIA Y DON CARLOS DE LA JARA. TAMBIEN AL PRESIDENTE DE LA CORTE
 DE APELACIONES DON LUCAS SANHUEZA Y EL MINISTRO DE LA CORTE SEÑOR
 ESPEJO TAMBIEN AL INGENIERO DE "PROVIN CIA SR PIMENTEL
+
 4
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-- A handwritten number "666" is present at the top left of the page.
 - A handwritten number "4" is present at the bottom center of the page.
 
 ## Uncertain Or Illegible
-- "NOTAMOSLEAL" in the "MATRIMONIO" section might be "NOTAMOS LA".
-- "PROVIN CIA" in the "MATRIMONIO" section might be "PROVINCIAL".
+- "C" in "ALGUNOS C COMPROMISOS" might be part of a word or an abbreviation.
+- "NOTAMOSLEAL" might be "NOTAMOS LEAL".
+- "PROVIN" in "PROVIN CIA" might be part of a word or an abbreviation.
 
 ## Completeness Audit
-The transcription is complete and captures all visible text and handwritten marks on the page.
+The transcription is complete and captures all visible text and layout elements.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. Minor handwritten numbers are transcribed in the literal transcription and described in visual notes."}
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present. Minor marks like page numbers are transcribed."
+}
+```
 
 ## Page Metadata
 Page number: 5
@@ -276,58 +284,56 @@ All visible text and significant handwritten notes on the page have been transcr
 - Page number: 7
 
 ## Layout And Reading Order
-This page contains a single column of typewritten text. A handwritten page number, "7", is at the bottom center of the page. The text is an article about Dr. Virginio Gomes G. There are two handwritten insertions within the text.
-
-The reading order is from top to bottom.
+This page contains a single column of typewritten text. The reading order is from top to bottom. A handwritten page number is present at the bottom of the page.
 
 ## Literal Transcription
+```text
 NUMERO GIGANTE ENERO FEBRERO EL AGUILA
----
+----------------------------------------------------------------
 ESCRIBEN LOS LECTORES
 LA EMPRESA TIENE EL AGRADO DE PUBLICAR UN ARTICULO ESCRITO PARA
 ESTE DIARIO POR EL DR DARIO PULGAR.
----
+---------------------------------
 _EL_DR_VIRGINIO_GOMES__G__
 
 EN CIRCUNSTANSTAS QUE VIAJABA ABORDO DEL BUQUE " ALONDRA" DE LA
 " COMPAÑIA MARITIMA DEL ESTADO "CON RUMBO A MAGALLANES A LA ALTURA
-DE PUERTO MONTT, DESAPARECIÓ MISTERIOSAMENTE ESTE DISTINGUIDO
-FACULTATIVO QUE HONRÓ A LA MEDICINA CHILENA POR SU TALENTO Y POR
+DE PUERTO MONTT, DESAPARECION MISTERIOSAMENTE ESTE DISTINGUIDO
+FACULTATIVO QUE HONRO´ A LA MEDICINA CHILENA POR SU TALENTO Y POR
 SU AMPLIA CULTURA.
-NACIÓ EN LA CUIDAD DE LOS ANGELES, PERTENECIA A UNA RESPETABLE
+NACIO´ EN LA CUIDAD DE LOS ANGELES, PERTENECIA A UNA RESPETABLE
 FAMILIA .
 EN POSECION DE SU TÍTULO FUÉ A EJERCER SU PROFECION EN IQUQUE Y LUEGO
 DESPUES EN CONCEPCION DONDE TUVO UNA DESTACADA Y BRILLANTE
-ACTUACION COMO MÉDICO Y COMO PRINCIPAL FUNDADOR DE LA UNIVERSIDAD
+ACTUACION COMO MEDICO Y COMO PRINCIPAL FUNDADOR DE LA UNIVERSIDAD
 PENQUISTA . DESIGNADO DIRECTOR DEL ANTIGUO HOSPITAL "SAN JUAN DE DIOS
-ALLA POR EL AÑO 1916 TRATÓ DE MODERNISARLO Y CONVERTIRLO EN UN HOSPITAL
+ALLA POR EL AÑO 1916 TRATO´ DE MODERNISARLO Y CONVERTIRLO EN UN HOSPITAL
 CLINICO QUE LLEVABA APAREJADA LA IDEA DE LA FUNDACION EDE UNA E
-ESCUELA DE MEDICINA Y DE LA UNIVERSIDAD QUE ERA SU IDEAL Y A LA CUAL [handwritten insertion above line] que se convirtieron [/handwritten insertion]
-DEDICÓ SUS MAYORES ENERGIAS Y ENTUSIASMOS HASTA SUS DESEOS[handwritten insertion] /EN UNA [/handwritten insertion]
+ESCUELA DE MEDICINA Y DE LA UNIVERSIDAD QUE ERA SU IDEAL Y A LA CUAL {handwritten} que se convirtieron {/handwritten}
+DEDICO´ SUS MAYORES ENERGIAS Y ENTUSIASMOS HASTA SUS DESEOS{handwritten}/{/handwritten}EN UNA
 HERMOSA REALIDAD.
-EL DOCTOR GOMES DEJA UNA HUELLA LUMINOSA Y UN RECUERDO INPERESEDERO
+EL DOCTOR GOMES DEJA UNA HUELLA LUMUNOSA Y UN RECUERDO INPERESEDERO
 POR SUS CONDICIONES DE HOMBRE DE BIEN Y PROFECIONAL DISTINGUIDO Y
-ALTUISTA. NO ANBICIONO FORTUNA ALGUNA; PRODIGIO EL BIEN A MANO LLENA
+ALTUISTA. NO ANBICIONO FORTUNA ALGUNA; PRODIGIO´ EL BIEN A MANO LLENA
 ENTRE SU NUMEROSA CLIENTELA DE TODOS LOS CIRCULOS SOCIALES .
 
-[centered at bottom of page]
-[handwritten] 7 [/handwritten]
+{handwritten} 7 {/handwritten}
+```
 
 ## Images, Captions, And Visual Notes
-There are no images on this page. The page number "7" is handwritten in red ink at the bottom center. There are two handwritten insertions in black ink within the main body of text.
+There are no images on this page. The page consists of typewritten text with two handwritten insertions and a handwritten page number at the bottom.
 
 ## Uncertain Or Illegible
-- The first handwritten insertion, `que se convirtieron`, is somewhat faint but legible.
-- The second handwritten insertion, `/EN UNA`, is clear.
+There are no uncertain or illegible portions of this document.
 
 ## Completeness Audit
-This page has been fully transcribed.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text. There are no photographs, maps, illustrations, or other significant visual elements that would warrant cropping."
+  "no_visual_regions_reason": "This page contains only text and minor handwritten marks, with no significant visual elements like photographs, maps, or illustrations that would warrant cropping."
 }
 ```
 
@@ -396,14 +402,33 @@ The transcription is complete and accurate, capturing all text and the handwritt
 ```
 
 ## Page Metadata
-- Page number: 9
+- task_id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0009`
+- source_id: `el-aguila-nombre-grande-p0004-0018`
+- page_num: 9
+- page_type: `scrapbook_page`
+- source_title: `El Aguila Nombre Grande`
+- original_filename: `El Aguila Nombre Grande Scan.pdf`
+- publication_date: `1956`
+- publication_info: `El Aguila, Enero-Febrero 1956`
+- source_library: `Archivo Histórico de la Compañía de Aceros del Pacífico`
 
 ## Layout And Reading Order
-The page contains two main columns of text. The left column has a title and then a block of text. The right column has a large image with a caption below it, followed by another block of text. Below the text in the right column is a smaller image.
+This is a scrapbook page with typed text and two pasted images. The reading order is as follows:
+1. A header at the top of the page with the publication name and date.
+2. A sub-header "VOLVEMOS ATRAS".
+3. A text block on the upper left, which describes a mountain climbing expedition.
+4. A photograph of a man in uniform, pasted on the upper right, corresponding to the text on the left. The text wraps around the top left of the photograph.
+5. A caption for the photograph, located below the main text block and to the left of the photograph.
+6. A portrait illustration of a man in clerical attire, pasted on the lower left.
+7. A text block to the right of the portrait, describing the anniversary of a newspaper.
+8. A handwritten page number "9" in red ink at the bottom center of the page.
 
 ## Literal Transcription
-UMERO GIGANTE EL AGUILA ENERO FEBRERO
+```markdown
+NUMERO GIGANTE EL AGUILA ENERO FEBRERO
+---
 VOLVEMOS ATRAS
+
 EL 5 DE FEBRERO 29 HOMBRES AL MANDO DEL CAPITAN GAJARDO , - 6 DE ELLOS
 EL MENCIONADO CAPITAN EL VICESARJENTO PRIMERO NEMESIO ZAMORA EL CABO
 ROLANDO GODOY EL FILMADOR VICENTE
@@ -411,110 +436,133 @@ CHIARANDA Y EL INGENIERO WAYNE MILL ER
 ESCALARON EL MONTE "OJOS DEL SALADO,"
 EN LA CORDILLERA DE LOS ANDES SITUADO
 EN LA PROVINCIA DE ATACAMA DEPARTAMENTO
-DE COPIAPO , EL NEVADO MENCIONADO MIDE
+DE COPIAPÓ , EL NEVADO MENCIONADO MIDE
 7084 METROS SOBRE PASANDO AL ACONCAGUA
 POR 29 METROS ./
+
 ( EN LA FOTO ) EL CAPITAN GAJARDO SE
-RECONFOR TA DESPUES DE HABER ESCALADO
+RECONFORTA DESPUES DE HABER ESCALADO
 LA CUMBRE MAS ALTA DE AMERI DA
+
+<hr>
+
+<div class="grid-container" style="grid-template-columns: 1fr 1fr; gap: 1em;">
+<div class="grid-item">
+
+![A halftone portrait of a man in clerical attire, with a cross on his chest.](__IMG_001__)
+
+</div>
+<div class="grid-item">
 
 LA AURORA DE CHILE
 EL 1º DE FEBRERO DE ESTE AÑO SE
-CELEBRO EL 144 ANIVERSARIO DE LA
-FUNDACION DEL PRIMER PERIODICO NACIONAL
-POR FRAY CAMILO HENRIQUEZ EN EL AÑO
-1812 . EL PUEBLO DE CHILE RECIBIO
+CELEBRÓ EL 144 ANIVERSARIO DE LA
+FUNDACION DEL PRIMER PERIÓDICO NACIONAL
+PORFRAY CAMILO HENRIQUEZ EN EL AÑO
+1812 . EL PUEBLO DE C.HILE RECIBIO
 CON GRAN ESTUCIASMOS EL PRIMER NUMERO
-DE ESE DIARIO PARA ALENTAR A LOS HOMBRES
+DE ESE DIARIO PARA ALENTAR A LOS HONBRES
 HACIA SU LIBERTAD - EL DIARIO EL AGUILA
-CELEBRO CON UN COCTEL EN LA ENPRESA EL
+CELEBRÓ CON U N COCTEL EN LA ENPRESA EL
 DIA DE LA PRENSA
 
+</div>
+</div>
+
+<div style="text-align: center;">
 9
+</div>
+```
+*Note: The photograph of Captain Gajardo is not included in the transcription flow as it is positioned to the right of the first text block and its caption. The transcription follows the textual reading order.*
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![nearby-text: LA AURORA DE CHILE
-EL 1º DE FEBRERO DE ESTE AÑO SE
-CELEBRO EL 144 ANIVERSARIO DE LA
-FUNDACION DEL PRIMER PERIODICO NACIONAL
-POR FRAY CAMILO HENRIQUEZ EN EL AÑO
-1812 . EL PUEBLO DE CHILE RECIBIO
-CON GRAN ESTUCIASMOS EL PRIMER NUMERO
-DE ESE DIARIO PARA ALENTAR A LOS HOMBRES
-HACIA SU LIBERTAD - EL DIARIO EL AGUILA
-CELEBRO CON UN COCTEL EN LA ENPRESA EL
-DIA DE LA PRENSA](../extracted-images/page-0009/page-0009-image-01-la-aurora-de-chile-fray-camilo-henriquez.png)
-  - Kind: photograph; label basis: nearby-text; bbox_pct: [50.0, 54.0, 94.0, 90.0]
-  - Source context: The caption refers to 'LA AURORA DE CHILE' and 'FRAY CAMILO HENRIQUEZ'.
-- ![nearby-text: ( EN LA FOTO ) EL CAPITAN GAJARDO SE
-RECONFOR TA DESPUES DE HABER ESCALADO
-LA CUMBRE MAS ALTA DE AMERI DA](../extracted-images/page-0009/page-0009-image-02-capitan-gajardo-after-climbing.png)
-  - Kind: photograph; label basis: nearby-text; bbox_pct: [17.0, 54.0, 45.0, 94.0]
-  - Source context: The caption identifies the person as 'EL CAPITAN GAJARDO'.
+- ![nearby-text: ( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA](../extracted-images/page-0009/page-0009-image-01-capitan-gajardo-recomforta.png)
+  - Kind: photograph; label basis: nearby-text; bbox_pct: [52.5, 14.5, 95.5, 58.5]
+  - Source context: A man in uniform drinking from a cup after a mountain climb.
+- ![nearby-text: LA AURORA DE CHILE ... PORFRAY CAMILO HENRIQUEZ EN EL AÑO 1812 .](../extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-aurora-de-chile.png)
+  - Kind: illustration; label basis: nearby-text; bbox_pct: [5.5, 55.5, 45.5, 85.5]
+  - Source context: Portrait of a man in clerical attire, identified as Fray Camilo Henriquez.
 
-- A black and white photograph shows a man in uniform, identified as Captain Gajardo, seated and drinking from a cup. He is holding a saucer in his left hand.
-- A black and white halftone image shows a portrait of a man, possibly a priest, wearing a dark garment with a cross visible on his chest.
+- **Image 1:** A black and white photograph of a man in a military-style uniform, sitting in an upholstered chair and drinking from a small cup and saucer. The text identifies him as Captain Gajardo. `inline_anchor: __IMG_000__`
+- **Image 2:** A halftone portrait of a man, likely from the 19th century, in what appears to be clerical attire. He has a large cross on his chest. The text identifies him as Fray Camilo Henriquez. `inline_anchor: __IMG_001__`
+- A handwritten page number "9" is written in red ink at the bottom center of the page.
+- The accent marks on both instances of "CELEBRÓ" are handwritten onto the typed text.
 
 ## Uncertain Or Illegible
-- The word "ESTUCIASMOS" in the right column text might be a misspelling of "ENTUSIASMO".
-- The word "ENPRESA" in the right column text might be a misspelling of "EMPRESA".
+- `ESTUCIASMOS` is likely a typo for "ENTUSIASMOS".
+- `HONBRES` is likely a typo for "HOMBRES".
+- `ENPRESA` is likely a typo for "EMPRESA".
+- `PORFRAY` is likely a typo for "POR FRAY".
+- `C.HILE` is typed with a period in the middle.
+- `AMERI DA` appears to be cut off or a typo, likely intended to be "AMERICA".
 
 ## Completeness Audit
-The transcription is complete and captures all visible text and images on the page.
+The transcription of all text and the description of all visual elements on the page are complete.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "IMG_000",
       "kind": "photograph",
-      "bbox_pct": [50.0, 54.0, 94.0, 90.0],
-      "caption_literal": "LA AURORA DE CHILE\nEL 1º DE FEBRERO DE ESTE AÑO SE\nCELEBRO EL 144 ANIVERSARIO DE LA\nFUNDACION DEL PRIMER PERIODICO NACIONAL\nPOR FRAY CAMILO HENRIQUEZ EN EL AÑO\n1812 . EL PUEBLO DE CHILE RECIBIO\nCON GRAN ESTUCIASMOS EL PRIMER NUMERO\nDE ESE DIARIO PARA ALENTAR A LOS HOMBRES\nHACIA SU LIBERTAD - EL DIARIO EL AGUILA\nCELEBRO CON UN COCTEL EN LA ENPRESA EL\nDIA DE LA PRENSA",
+      "bbox_pct": [
+        52.5,
+        14.5,
+        95.5,
+        58.5
+      ],
+      "caption_literal": "( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA",
       "caption_type": "nearby-text",
-      "identity_basis": "source-context",
-      "source_context": "The caption refers to 'LA AURORA DE CHILE' and 'FRAY CAMILO HENRIQUEZ'.",
-      "confidence": 0.8,
-      "suggested_filename": "la_aurora_de_chile_fray_camilo_henriquez"
+      "identity_basis": "caption",
+      "source_context": "A man in uniform drinking from a cup after a mountain climb.",
+      "confidence": "high",
+      "suggested_filename": "capitan-gajardo-recomforta.jpg",
+      "inline_anchor": "__IMG_000__"
     },
     {
-      "region_id": "region_2",
-      "kind": "photograph",
-      "bbox_pct": [17.0, 54.0, 45.0, 94.0],
-      "caption_literal": "( EN LA FOTO ) EL CAPITAN GAJARDO SE\nRECONFOR TA DESPUES DE HABER ESCALADO\nLA CUMBRE MAS ALTA DE AMERI DA",
+      "region_id": "IMG_001",
+      "kind": "illustration",
+      "bbox_pct": [
+        5.5,
+        55.5,
+        45.5,
+        85.5
+      ],
+      "caption_literal": "LA AURORA DE CHILE ... PORFRAY CAMILO HENRIQUEZ EN EL AÑO 1812 .",
       "caption_type": "nearby-text",
-      "identity_basis": "source-context",
-      "source_context": "The caption identifies the person as 'EL CAPITAN GAJARDO'.",
-      "confidence": 0.9,
-      "suggested_filename": "capitan_gajardo_after_climbing"
+      "identity_basis": "caption",
+      "source_context": "Portrait of a man in clerical attire, identified as Fray Camilo Henriquez.",
+      "confidence": "high",
+      "suggested_filename": "fray-camilo-henriquez-aurora-de-chile.jpg",
+      "inline_anchor": "__IMG_001__"
     }
-  ]
+  ],
+  "no_visual_regions_reason": null
 }
 ```
 
 ## Page Metadata
 - Source: `El Aguila Nombre Grande Scan.pdf`
 - Page: `10`
-- Page type: `image`
 
 ## Layout And Reading Order
 The page contains a single large image of a landscape with cattle and a body of water. There is no text on the page other than a handwritten page number at the bottom.
 
 ## Literal Transcription
-(No literal transcription needed for this page, as it is primarily an image.)
+(No literal transcription needed for this page, as it contains only an image and a handwritten page number.)
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hilly-landscape.png)
-  - Kind: photograph; label basis: converter-description; bbox_pct: [6.0, 2.0, 96.0, 98.0]
-  - Source context: The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.
+- ![converter-description: A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-landscape.png)
+  - Kind: photograph; label basis: converter-description; bbox_pct: [6.0, 3.0, 96.0, 97.0]
+  - Source context: A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.
 
-- A color illustration or painting depicts a herd of cattle gathered around a watering hole in a dry, hilly landscape. In the background, a person on horseback is visible on a distant hill.
-- A handwritten number "10" is present at the bottom center of the page.
+The page features a color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.
 
 ## Uncertain Or Illegible
-- The exact medium of the image (painting, illustration, or manipulated photograph) is uncertain without further context.
+- The handwritten number at the bottom of the page appears to be "10", but it is somewhat faded and could potentially be misread.
 
 ## Completeness Audit
 The page contains a single image and a handwritten page number. All visible content has been described.
@@ -526,122 +574,88 @@ The page contains a single image and a handwritten page number. All visible cont
     {
       "region_id": "region_1",
       "kind": "photograph",
-      "bbox_pct": [0.06, 0.02, 0.96, 0.98],
+      "bbox_pct": [0.06, 0.03, 0.96, 0.97],
       "caption_literal": null,
       "caption_type": "converter-description",
       "identity_basis": null,
-      "source_context": "The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.",
+      "source_context": "A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.",
       "confidence": 0.95,
-      "suggested_filename": "cattle_watering_hole_hilly_landscape"
+      "suggested_filename": "cattle_watering_hole_landscape"
     }
-  ]
+  ],
+  "no_visual_regions_reason": null
 }
 ```
 
 ## Page Metadata
-- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0011`
-- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
-- Page: 11
+- Source: `El Aguila Nombre Grande Scan.pdf`
+- Page: `11`
 
 ## Layout And Reading Order
-The document is a single-column typed page. The reading order is as follows:
-1. A header at the top of the page reads: `ERO GIGANTE ENERO FEBRERO EL AGUILA`.
-2. A horizontal line separates the header from the main text.
-3. The main body of text consists of three sections, each with a capitalized and underlined heading:
-    - `CONYINUACIO N DE ACTIVIDADES,`
-    - `LA ELECRISAD EN LOS CANPOS.`
-    - `LA LECHE Y LA CHIPRODAL`
-4. At the bottom left, there is a handwritten note in red ink: `Sigue Pag 12`.
-5. At the bottom right, the page number `11` is typed in red.
+The page contains a single column of text, with a header at the top and a handwritten note at the bottom. The text describes activities related to electricity and milk processing.
 
 ## Literal Transcription
-```text
 ERO GIGANTE ENERO FEBRERO EL AGUILA
----
+___
 CONYINUACIO N DE ACTIVIDADES,
-
-Y MARCO´ CON UN ESTACADO. POCOS DIAS DESPUES JEFES DE LA ENDESA
+Y MARCO CON UN ESTACADO. POCOS DIAS DESPUES JEFES DE LA ENDESA
 REVISARON EL ESTACADO DANDO SU VISTO BUENO DESPUES DE LO CUAL
-EL CONTRATISTA ORDENO´ TIRAR LOS POSTES Y UN PESADO CAMION DE LA
-ENDESA PROSEDIÓ A DEJAR LOS POSTES CERCA, O AL LADO DE LOSHPTOS
-QUE ANTERIORMENTE HABIA HECHO UNA CUADRUILKA DE HOMBRES. LUEGO DESPUES
-COMO NOS INFORMO´ UN PERSONERO DE LA ENPRESA UN TRACTOR CON UN CAMARON
-LLEBO´ LOS POSTES QUE ESTABAN LEJOS A SUS RESPECTIVOS HOYOS Y LUEGO
-NOS EXPLICO´ QUE CON UNA PLUMA PROSEDERI AN A LEVANTAR Y COLOCAR DEND
+EL CONTRATISTA ORDENO TIRAR LOS POSTES Y UN PESADO CAMION DE LA
+ENDESA PROBEDIO A DEJAR LOS POSTES CERCA, O AL LADO DE LOSHOYOS
+QUE ANTERIORMENTE HABIA HECHO UNA CUADRUILLA DE HOMBRES. LUEGO DESPUES
+COMO NOS INFORMO UN PERSONERO DE LA ENPRESA UN TRACTOR CON UN CAMARON
+LLEBO LOS POSTES QUE ESTABAN LEJOS A SUS RESPECTIVOS HOYOS Y LUEGO
+NOS EXPLICO QUE CON UNA PLUMA PROSEDERI AN A LEVANTAR Y COLOCAR DEND
 DE LOS HOYOS LOS POSTES MAS ADELANTE DIJO QUE MAESTROS ESPECIALISAD
 COLOCARIAN LAS CRUSETAS Y COLOCARION LOAS CABLES QUE LLEVAN LA
-ELECTRISIDAD.
-
-LA ELECRISAD EN LOS CANPOS.
-
-LA ELECTRISIDAD PRESTA GRANDES USOS A LOS AGUICULTORES YA SEA EN SUS
-CASA COMO EN LAS FAENAS MÚLTIPLES QUE SE PUEDEN REALISAR CON LA
+ELECTRICIDAD.
+LA ELECRISIDAD EN LOS CANPOS.
+LA ELECTRISIDAD PRESTA GRANDES USOS A LOS AGICULTORES YA SEA EN SUS
+CASA COMO EN LAS FAENAS MULTIPLES QUE SE PUEDEN REALISAR CON LA
 ELECTRISIDAD. NUESTRO VECINO QUE OPTUVO LUZ PRIMERO DE LA LINEA A
-MULCHEN TIENE UN MOLINO QUE FUNCIONA ROTALMENTE A ELECTRISIDAD
-SE ESPERA QUE ESTA LINEA ESTE´ LISTA EN MAYO Y QUISAS EN AGOSTO SE
-PODRA DAR LA LUZ. a
-
+MULCHEN TIENE UN MOLINO QUE FUNCIONA TOTALMENTE A ELECTRISIDAD
+SE ESPERA QUE ESTA LINEA ESTE LISTA EN MAYO Y QUISAS EN AGOSTO SE
+PODRA DAR LA LUZ.
 LA LECHE Y LA CHIPRODAL
-
-EN EL FUNDO ES PRIMERA VEZ QUE SE ENTRGA LECHE A LA CHIPRODAL FABRIC@
+EN EL FUNDO ES PRIMERA VEZ QUE SE ENTRGA LECHE A LA CHIPRODAL FABRIC
 DE LECHE NESTRE. LA LECHERIA DEL FUNDO NO ESTA FORMADA POR, LO CUAL LA
-MATERIA GRASA ES POCA ../ VISITAMOS LA CHOPRODAL SA LLEGAN LOS CAMIO
-NES QUE VIENEN DE TODAS PARTES CARGADOS CON LEGHE. SE ACERCAN A UNA
-PLATAFORMA DONDE BAJAN LOS TARROS Y LOS COLOCAN EN UNA ESPEC..L DE CORRE
+MATERIA GRASA ES POCA ../ VISITAMOS LA CHOPRODAL SA LLEGAN LOS CAMIOS
+NES QUE VIENEN DE TODAS PARTES CARGADOS CON LECHE. SE ACERCAN A UNA
+PLATAFORMA DONDE BAJAN LOS TARROS Y LOS COLOCAN EN UNA ESPECI DE CORRE
 SIN FIN PERO DE FIERRO QUE LOS VA MOVIENDO Y LOS LLEVA DENTRO DE L
 EDIFICIO DONDE LA LECHE ES PESADA Y ENTRA EN GRANDES TUVERIAS QUE
-
 Sigue Pag 12 11
-```
 
 ## Images, Captions, And Visual Notes
-The page is a typed document on aged, yellowish paper. The type is from a mechanical typewriter and shows some inconsistencies in ink darkness. There is a handwritten note, `Sigue Pag 12`, at the bottom left in red ink. The page number `11` at the bottom right is typed, possibly with a red typewriter ribbon. There is some faint text visible in the background, likely bleed-through from the reverse side of the page, but it does not interfere with the legibility of the primary text.
+There are no images or captions on this page.
 
 ## Uncertain Or Illegible
-There are no illegible words on this page. The transcription includes numerous apparent typographical errors present in the original source, which have been transcribed literally. These include:
-- `CONYINUACIO N` for `CONTINUACION`
-- `LOSHPTOS` for `LOS HOYOS`
-- `CUADRUILKA` for `CUADRILLA`
-- `ENPRESA` for `EMPRESA`
-- `LLEBO´` for `LLEVÓ`
-- `PROSEDERI AN` for `PROCEDERIAN`
-- `DEND` for `DENTRO`
-- `ESPECIALISAD` for `ESPECIALIZADOS`
-- `COLOCARION LOAS` for `COLOCARIAN LOS`
-- `ELECTRISIDAD` for `ELECTRICIDAD` (appears multiple times)
-- `ELECRISAD` for `ELECTRICIDAD`
-- `CANPOS` for `CAMPOS`
-- `AGUICULTORES` for `AGRICULTORES`
-- `REALISAR` for `REALIZAR`
-- `OPTUVO` for `OBTUVO`
-- `ROTALMENTE` for `TOTALMENTE`
-- `QUISAS` for `QUIZAS`
-- `ENTRGA` for `ENTREGA`
-- `FABRIC@` where `@` is used for `A`
-- `NESTRE` for `NESTLE`
-- `CHOPRODAL` for `CHIPRODAL`
-- `LEGHE` for `LECHE`
-- `ESPEC..L` for `ESPECIAL`
-- `CORRE` for `CORREA`
-- `TUVERIAS` for `TUBERIAS`
+- `CONYINUACIO N`: The "N" might be part of the word or a separate initial.
+- `PROBEDIO`: Could be "procedió".
+- `LOSHOYOS`: Could be "los hoyos" (two words).
+- `DEND`: Could be "dentro".
+- `AGICULTORES`: Could be "agricultores".
+- `ENPRESA`: Could be "empresa".
+- `CAMARON`: Could be "camión".
+- `LOAS`: Could be "los".
+- `FABRIC`: Could be "fabrica".
+- `CHOPRODAL SA`: Could be "Choprodal S.A.".
+- `CAMIOS NES`: Could be "camiones".
+- `ESPECI`: Could be "especie".
+- `L`: Could be "el".
 
 ## Completeness Audit
-The entire page, including the header, main text, and handwritten notes, has been transcribed. The page is complete.
+The transcription is complete and captures all visible text on the page.
 
 ## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed and handwritten text. There are no photographs, illustrations, maps, or other significant visual elements that would warrant cropping as standalone assets."
-}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
 ## Page Metadata
 - Source: `El Aguila Nombre Grande Scan.pdf`
 - Page: `12`
 
 ## Layout And Reading Order
-The page contains a single column of typewritten text, with a handwritten page number at the bottom right. The text describes industrial processes related to food production and packaging.
+The page contains a single column of typewritten text, with a header at the top and a footer at the bottom. A handwritten page number is present in the bottom right corner.
 
 ## Literal Transcription
 ERO GIGANTE
@@ -651,10 +665,10 @@ ONDE HIERVE POR TIEMPO DETERM NADO LUEGO ENTRA A OTOS ESTANQUES
 ONDE SE ENFRIA LUEGO SE LE ECHA ALMIBAR Y SE REVUELVE DESPUES PASA
 A UNOS COMPARTIMENTOS DONDE SE LLENAN LOS TARROS CON LLECCHE CONDESADA
 YA PREPARADA. LOS TARROS ANTES DE SER LLEBADOS SON DESINFECTADOS POR
-CALOR, LA PIESA DONDE SE LLENAN LOS TARROS HAY QUE MIRARLA DE AFUERA
+CALOR,LA PIESA DONDE SE LLENAN LOS TARROS HAY QUE MIRARLA DE AFUERA
 PARA NO LLEVAR MICROVIOS, LOS TARROS SON HECHOS DE LATA HAY MISMO
 , LOS TARROS SONL TAPADOS EN EL MIS MO LUGAR DONDE SE LLENAN DESPUES DE
-LO CUAL SON LEVADOS A PONERLE LA ETIQUETA "NESTLE" TERMINADO TODAD
+LO CUAL SON LEVADOS A PONERLE LA ETIQUETA "NESTLE # TERMINADO TODAD
 LA OPERACION SON ENBALADOS Y LUEGO SON LEVADOS AL FERROCARRIL CERCANO,
 LA FABRICA DE TARROS
 6Y
@@ -663,7 +677,7 @@ LAS PLANCHAS DE LATA SON CORTADAS EN TRES PEDASOS POR UNA MAQUINA, LUEGO
 PASAN A OTRA QUE LOS CORTA EN TRES NUEVAMENTE Y DESPUES UNA MAQUINA I
 ITALIANA RECIENTEMENTE EN CHILE HACE EL ENVACESE LAS DOS PARTES SON
 PEGADAS HACIENDO EL TARRO Y DE INMEDIATO OTRA PONE UNA TAPA LA DE ABAJO
-LOS TARROS YA TERMINADOS PASAN POR UN ESTERELISADOR Y DEXXXX DE AHI A
+LOS TARROS YA TERMINADOS PASAN POR UN ESTERELISADO Y DEXHXX DE AHI A
 LLENARSE
 LA PANADERIA MODERNA.
 LA ENPRESA VISITO LA PANADERIS MODERNA DE LOS ANGELES DEL SR RINCON
@@ -672,36 +686,38 @@ OTRA LO AMASA; LA MASA PARA LAS AYUYAS PASA A OTRA MAQUINA QUE LA CORTA
 Y LA FESJA CUADRADA DE AHI PASA A UN HORNO A PETROLEO Y SE ENREGA
 AL PUBLICO
 
-CRONICAS POR EL PERIODISTA X
+CRONICAS POR EL PERIODISTA x
 
 12
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+- The page number "12" is handwritten in red ink at the bottom right corner of the page.
 
 ## Uncertain Or Illegible
-- `DETERM NADO`: The space between "DETERM" and "NADO" might indicate a missing letter or an abbreviation.
-- `LLECCHE`: Appears to be a misspelling of "LECHE".
-- `LLEBADOS`: Appears to be a misspelling of "LLEVADOS".
-- `MICROVIOS`: Appears to be a misspelling of "MICROBIOS".
-- `SONL`: Appears to be a misspelling of "SON".
-- `TODAD`: Appears to be a misspelling of "TODA".
-- `ENBALADOS`: Appears to be a misspelling of "EMBALADOS".
-- `6Y`: Unclear meaning, possibly a typo or an abbreviation.
-- `LSAS`: Unclear meaning, possibly a typo or an abbreviation.
-- `PEDASOS`: Appears to be a misspelling of "PEDAZOS".
-- `DEXXXX`: Illegible word, possibly "DESPUES" or similar.
-- `ENPRESA`: Appears to be a misspelling of "EMPRESA".
-- `PANADERIS`: Appears to be a misspelling of "PANADERIA".
-- `PANAN U`: Unclear meaning, possibly a typo or an abbreviation.
-- `FESJA`: Appears to be a misspelling of "FRANJA" or "REJA".
-- `ENREGA`: Appears to be a misspelling of "ENTREGA".
+- `DETERM NADO`: The space between "DETERM" and "NADO" might be a typo or an abbreviation.
+- `LLECCHE`: Could be "LECHE" (milk), with an extra 'C'.
+- `MICROVIOS`: Could be "MICROBIOS" (microbes), with a 'V' instead of 'B'.
+- `SONL`: Could be "SON" (are), with an extra 'L'.
+- `TODAD`: Could be "TODA" (all), with an extra 'D'.
+- `ENBALADOS`: Could be "EMBALADOS" (packaged), with an 'N' instead of 'M'.
+- `6Y`: Appears to be a stray character or number.
+- `LSAS`: Appears to be a stray character or abbreviation.
+- `PEDASOS`: Could be "PEDAZOS" (pieces), with an 'S' instead of 'Z'.
+- `DEXHXX`: This word is largely illegible, possibly a technical term or a typo.
+- `PANAN`: Could be "PAN" (bread), with an extra 'AN'.
+- `FESJA`: Could be "FRANJA" (strip) or "REJA" (grate), or another word.
+- `ENREGA`: Could be "ENTREGA" (delivers), with an 'N' instead of 'NT'.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text on the page.
+The transcription is complete for all visible text on the page.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The handwritten page number is noted in the 'Images, Captions, And Visual Notes' section."
+}
+```
 
 ## Page Metadata
 - Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0013`
@@ -897,12 +913,12 @@ This page has been transcribed in its entirety.
 ```
 
 ## Page Metadata
-- Source: `El Aguila Nombre Grande Scan.pdf`
-- Page: 15
-- Page type: `text`
+- Page number: 15
+- Source publication: El Aguila Nombre Grande
+- Publication date: Enero Febrero 1956
 
 ## Layout And Reading Order
-The page contains a single column of text, likely a newspaper or magazine article, with a header at the top and a page number at the bottom. The text flows continuously from top to bottom.
+The page contains a single column of text, likely an article or news report, with a page number handwritten at the bottom. The text is in Spanish.
 
 ## Literal Transcription
 NUMERO GIGANTE
@@ -911,11 +927,11 @@ CENDIO " LE TOCO A LOS FERROCARRILES "
 SABADO 25 DE FEBRERO SE PRODUJO UN INCENDIO DE GRANDES PROPORCIONES.
 TRATA DE NUESTRO ANTIGUO EDIFICIO DE LA ESTACION DE FERROCARRILES
 L ESTADO . ESTE INCENDIO SE PRODUJO POR LA INFLAMACION DE UNA COCINA
-PARAFINA EN LA FUENTE DE SODA DE DICHO EDIFICIO,
+PARAFINA EN LA FUENTE DE SODA DE DICHO EDIFICIO.
 ON LA AYUDA DE LOS BOMBEROS QUE LLEGARON OPORTUNAMENTE Y DEL PERSONAL
 FERROCARRILES , SE PUDO SALVAR EL EQUIPAJE , TELEFONOS , TWLEGRAFO
 FELIZMENTE NO HUBO DESGRACIAS PERSONALES QUE LAMENTAR
-"" LOS INCENDIOS Y TERREMOTOS , TRAEN EL PROGRESO A LOS PUEBLOS """
+"" LOS INCENDIOS Y TERREMOTOS , TRAEN EL PROGRESO A LOS PUEBLOS ""
 ON LA DESTRUCCION DEL EDIFICIO DE LA ESTACION PODREMOS CONTAR A CORTO PLAS
 CON UN MODERNO Y CONFORTABLE EDIFICIO DIGNO DE LA CAPITAL DE " BIO-BIO "
 DE CADA DIA ESTA TOMANDO MAS IMPORTANCIA EN TODO ORDEN DE COSAS ASI LO
@@ -934,22 +950,19 @@ EL TREN A SU DESTINO HABIA UN INTERVALO DE 10 MINUTOS CON OTRO TREN EL
 QUE PRODUJO LA TRAGEDIA " DIJO EL DIRECTOR DE LOS FF CC ES UNA INDISCUTIBLE
 FALLA HUMANA .
 ESCRIBIO WIMO
-
 15
 
 ## Images, Captions, And Visual Notes
-A handwritten number "15" is present at the bottom center of the page.
+- A handwritten number "15" is present at the bottom center of the page.
 
 ## Uncertain Or Illegible
-None.
+- No uncertain or illegible text.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text and the handwritten page number.
+The transcription is complete and captures all visible text and the handwritten page number.
 
 ## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The handwritten page number is transcribed in the literal transcription."}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present. The handwritten page number is transcribed in the literal transcription."}
 
 ## Page Metadata
 - Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-01c8a5758a91-P0001-01
+chunk_id: CHUNK-23b2269a97df-P0001-01
 source_converted: raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172.codex.md
-converted_sha256: 01c8a5758a910c1d1d0e299905c9a8113530d0f8dd8fee9742552cce99c1c506
+converted_sha256: 23b2269a97df3f6f46f35b0e31112a0c544788f12685bceea234c8bab5504084
 source: raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png
 source_sha256: aa0e304338ce3e1bf5ae9a1c695a405c862eb81fba66361d1874b7ca9da981b2
 source_manifest: raw/codex-conversion-jobs/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172/manifest.json
@@ -12,60 +12,240 @@ part: 1
 ---
 
 ## Page Metadata
-- Task id: `source-prep:caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172:p0001`
-- Model route: `pro_with_crops`
-- Route reasons: research_relevance:high, requested_pro_with_crops, complex_source_type
-- Source: `raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png`
-- Job manifest: `raw/codex-conversion-jobs/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172/manifest.json`
-- Work order: `raw/codex-conversion-jobs/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172/work-orders/page-0001.md`
-- Page: 1
-- Output Markdown target: `raw/codex-conversion-jobs/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172/page-markdown/page-0001.md`
-- External research relevance: `high`
-- External requested treatment: `pro_with_crops`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
-- Quality flags: none
-- Technical reread clues: none
+
+- **Source type:** Civil registration (births)
+- **Source location:** Los Ángeles, Chile
+- **Source language:** Spanish
+- **Date:** 1888
+- **Page numbers:** 58, 59
+- **Entry numbers:** 171-176
 
 ## Layout And Reading Order
-This document is a two-page spread from a birth register. The left page is page 58 and the right page is page 59. Both pages contain a pre-printed table for recording birth registrations. Each page has a header with the page number and register details. The main content consists of three handwritten entries per page, arranged in rows. The reading order is from left to right, top to bottom, starting with page 58, entry 171, and ending with page 59, entry 176.
+
+The document is a two-page spread from a pre-printed birth register. The left page is page 58 and the right page is page 59. Each page contains three birth registration entries, for a total of six entries on the spread (numbers 171 through 176).
+
+The pages are formatted as a table with columns for registration details. The reading order is from left to right, top to bottom, starting with entry 171 on page 58 and ending with entry 176 on page 59. Each entry is read row by row. Handwritten information fills in the pre-printed fields.
 
 ## Literal Transcription
-### Páj. 58
 
-**1888. —Rejistro de NACIMIENTOS en la Circunscripcion de Los Anjeles, núm. 12 de Los Anjeles**
+### **Page 58**
 
-| N.o de la inscripcion | Fecha de la inscripcion | Nombres, sexo del recien nacido | Fecha i lugar del nacimiento | Rejion, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados | Nombres, res., del compareciente | Observaciones de la identidad del compareciente | Firmas del oficial | ANOTACIONES |
+Páj. 58
+
+1888. —Rejistro de NACIMIENTOS en la Circunscripcion de Los Anjeles, núm. 12 de Los Anjeles
+
+| N.o de la inscripcion | Fecha de la inscripcion | Nombres i sexo | Fecha i lugar del nacimiento | Rejion, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados | Nombres, etc., del compareciente | Observaciones de la identidad del compareciente | Firmas del oficial | ANOTACIONES |
 |---|---|---|---|---|---|---|---|---|
-| 171 | Siete de Abril<br>de mil ochocientos ochenta i ocho | Nombres. **José Daniel Reinaldo**<br>Sexo. Hombre. | Fecha.<br>En veinte de Enero<br>de mil ochocientos ochenta<br>i ocho, a las diez<br>de la tarde.<br>Lugar.<br>En esta Subdelegacion. | Nombre del padre<br>**Pedro Basualto**<br>Rejion, nac., prof. i dom.<br>chileno, Pellin,<br>domiciliado en Pellin.<br>Nombre de la madre<br>**Matilde Valdebenito**<br>Rejion, nac., prof. i dom.<br>chilena, Pellin,<br>domiciliada en Pellin. | **Pedro Basualto** | Por los testigos.<br>Edad Veinte i seis años.<br>Prof. Agricultor.<br>Dom. Pellin. | Camilo Sanhueza<br>O. | |
-| 172 | Siete de Abril<br>de mil ochocientos ochenta i ocho | Nombres. **José Francisco**<br>Sexo. Hombre. | Fecha.<br>En veinte de Febrero<br>de mil ochocientos ochenta<br>i ocho, a las diez<br>de la noche.<br>Lugar.<br>En Pellin. | Nombre del padre<br>**Oswaldo Gomez**<br>Rejion, nac., prof. i dom.<br>chileno, Pellin,<br>domiciliado en Pellin.<br>Nombre de la madre<br>**Rosario de la Cruz de la Maza**<br>Rejion, nac., prof. i dom.<br>chilena, Pellin,<br>domiciliada en Pellin. | **Oswaldo Gomez** | Por los testigos.<br>Edad Veinte i seis años.<br>Prof. Empleado.<br>Dom. Pellin. | Camilo Sanhueza<br>O. | |
-| 173 | Siete de Abril<br>de mil ochocientos ochenta i ocho | Nombres. **Telésforo Alejandro**<br>Sexo. Hombre. | Fecha.<br>En dos de Marzo<br>de mil ochocientos ochenta<br>i ocho, a las seis<br>de la mañana.<br>Lugar.<br>En Pellin. | Nombre del padre<br>**Rojerio Canales**<br>Rejion, nac., prof. i dom.<br>chileno, Pellin,<br>domiciliado en Pellin.<br>Nombre de la madre<br>**Juana del C. Rivas**<br>Rejion, nac., prof. i dom.<br>chilena, Pellin,<br>domiciliada en Pellin. | **Juan de Dios Sepulveda** | Por los testigos.<br>Edad Cuarenta i dos años.<br>Prof. Agricultor.<br>Dom. Pellin. | Camilo Sanhueza<br>O. | |
 
 ---
-### Páj. 59
 
-**1888. —Rejistro de NACIMIENTOS en la Circunscripcion de Los Anjeles, núm. 1 de Los Anjeles**
+**Entry 171**
 
-| N.o de la inscripcion | Fecha de la inscripcion | Nombres, sexo del recien nacido | Fecha i lugar del nacimiento | Rejion, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados | Nombres, res., del compareciente | Observaciones de la identidad del compareciente | Firmas del oficial | ANOTACIONES |
+- **N.o de la inscripcion:** 171
+- **Fecha de la inscripcion:** Siete de Abril de mil ochocientos ochenta i ocho
+- **Nombres i sexo:**
+    - **Nombres.** José Daniel Reinaldo
+    - **Sexo.** Varon
+- **Fecha i lugar del nacimiento:**
+    - **Fecha.** El cinco de Abril de mil ochocientos ochenta i ocho, a las diez de la tarde.
+    - **Lugar.** En esta
+- **Rejion, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados:**
+    - **Nombre del padre:** José Daniel Bascur
+    - **Rejion, nacionalidad, profesion i domicilio:** chileno, soltero, agricultor, de este.
+    - **Nombre de la madre:** Tránsito Valdebenito
+    - **Rejion, nacionalidad, profesion i domicilio:** chilena, soltera, de este.
+- **Nombres, etc., del compareciente:**
+    - **[Name]:** Pedro Bascur
+    - **Edad:** Veinte i seis años
+    - **Prof.:** Agricultor
+    - **Dom.:** En esta
+- **Observaciones de la identidad del compareciente:**
+    - **Por los testigos:** [illegible signature]
+- **Firmas del oficial:**
+    - Camilo Luis osorio
+    - Concilio del oficial
+- **ANOTACIONES:** [blank]
+
+---
+
+**Entry 172**
+
+- **N.o de la inscripcion:** 172
+- **Fecha de la inscripcion:** Siete de Abril de mil ochocientos ochenta i ocho
+- **Nombres i sexo:**
+    - **Nombres.** José Miguel
+    - **Sexo.** Varon
+- **Fecha i lugar del nacimiento:**
+    - **Fecha.** El seis de Abril de mil ochocientos ochenta i ocho, a las diez de la noche.
+    - **Lugar.** En esta
+- **Rejion, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados:**
+    - **Nombre del padre:** Oswaldo Burgos
+    - **Rejion, nacionalidad, profesion i domicilio:** chileno, soltero, agricultor, de este.
+    - **Nombre de la madre:** Concepcion de la Cruz
+    - **Rejion, nacionalidad, profesion i domicilio:** chilena, soltera, de este.
+- **Nombres, etc., del compareciente:**
+    - **[Name]:** Oswaldo Burgos
+    - **Edad:** Veinte i seis años
+    - **Prof.:** Empleado
+    - **Dom.:** En esta
+- **Observaciones de la identidad del compareciente:**
+    - **Por los testigos:** [illegible signature]
+- **Firmas del oficial:**
+    - Camilo Luis osorio
+    - Concilio del oficial
+- **ANOTACIONES:** [blank]
+
+---
+
+**Entry 173**
+
+- **N.o de la inscripcion:** 173
+- **Fecha de la inscripcion:** Siete de Abril de mil ochocientos ochenta i ocho
+- **Nombres i sexo:**
+    - **Nombres.** Telésforo Alejandro
+    - **Sexo.** Varon
+- **Fecha i lugar del nacimiento:**
+    - **Fecha.** El seis de Abril de mil ochocientos ochenta i ocho, a las seis de la mañana.
+    - **Lugar.** En esta
+- **Rejion, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados:**
+    - **Nombre del padre:** Jesus Canales
+    - **Rejion, nacionalidad, profesion i domicilio:** chileno, casado, agricultor, de este.
+    - **Nombre de la madre:** Carmen del Carmen del Pino
+    - **Rejion, nacionalidad, profesion i domicilio:** chilena, casada, de este.
+- **Nombres, etc., del compareciente:**
+    - **[Name]:** Jesus Canales
+    - **Edad:** Cuarenta i seis años
+    - **Prof.:** Agricultor
+    - **Dom.:** En esta
+- **Observaciones de la identidad del compareciente:**
+    - **Por los testigos:** Juan de D. Clark
+- **Firmas del oficial:**
+    - Camilo Luis osorio
+    - Concilio del oficial
+- **ANOTACIONES:** [blank]
+
+---
+
+### **Page 59**
+
+Páj. 59
+
+1888. —Rejistro de NACIMIENTOS en la Circunscripcion de Los Anjeles, núm. 1 de Los Anjeles
+
+| N.o de la inscripcion | Fecha de la inscripcion | Nombres i sexo | Fecha i lugar del nacimiento | Rejion, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados | Nombres, etc., del compareciente | Observaciones de la identidad del compareciente | Firmas del oficial | ANOTACIONES |
 |---|---|---|---|---|---|---|---|---|
-| 174 | Nueve de Abril<br>de mil ochocientos ochenta i ocho | Nombres. **Maria Erminda**<br>Sexo. Mujer. | Fecha.<br>En veinte i cuatro de Marzo<br>de mil ochocientos ochenta<br>i ocho, a las diez<br>de la noche.<br>Lugar.<br>En Chacayal. | Nombre del padre<br>**José Rafael Casanova**<br>Rejion, nac., prof. i dom.<br>chileno, Chacayal,<br>domiciliado en Chacayal.<br>Nombre de la madre<br>**Maria del T. Martinez**<br>Rejion, nac., prof. i dom.<br>chilena, Chacayal,<br>domiciliada en Chacayal. | **José Rafael Casanova** | Por los testigos.<br>Edad Veintidos años.<br>Prof. Agricultor.<br>Dom. Chacayal. | Camilo Sanhueza<br>O. | |
-| 175 | Nueve de Abril<br>de mil ochocientos ochenta i ocho | Nombres. **Abel del Cármen**<br>Sexo. Hombre. | Fecha.<br>En veinte i uno de Marzo<br>de mil ochocientos ochenta<br>i ocho, a las diez<br>de la noche.<br>Lugar.<br>En Canihuan. | Nombre del padre<br>**Gumercindo Venegas**<br>Rejion, nac., prof. i dom.<br>chileno, Canihuan,<br>domiciliado en Canihuan.<br>Nombre de la madre<br>**Rosario Sanhueza**<br>Rejion, nac., prof. i dom.<br>chilena, Canihuan,<br>domiciliada en Canihuan. | **Gumercindo Venegas** | Por los testigos.<br>Edad Veinte i seis años.<br>Prof. Empleado.<br>Dom. Canihuan. | Camilo Sanhueza<br>O. | |
-| 176 | Nueve de Abril<br>de mil ochocientos ochenta i ocho | Nombres. **Maria Rafaela**<br>Sexo. Mujer. | Fecha.<br>En veinte i uno de Marzo<br>de mil ochocientos ochenta<br>i ocho, a las diez<br>de la noche.<br>Lugar.<br>En Rincon. | Nombre del padre<br>**Eleuterio Cid**<br>Rejion, nac., prof. i dom.<br>chileno, Rincon,<br>domiciliado en Rincon.<br>Nombre de la madre<br>**Juana de Dios Perez**<br>Rejion, nac., prof. i dom.<br>chilena, Rincon,<br>domiciliada en Rincon. | **Eleuterio Cid** | Por los testigos.<br>Edad Veinte i seis años.<br>Prof. Agricultor.<br>Dom. Rincon. | Camilo Sanhueza<br>O. | |
+
+---
+
+**Entry 174**
+
+- **N.o de la inscripcion:** 174
+- **Fecha de la inscripcion:** Nueve de Abril de mil ochocientos ochenta i ocho
+- **Nombres i sexo:**
+    - **Nombres.** Maria Erminda
+    - **Sexo.** Mujer
+- **Fecha i lugar del nacimiento:**
+    - **Fecha.** El ocho de Abril de mil ochocientos ochenta i ocho, a las diez de la noche.
+    - **Lugar.** En esta
+- **Rejion, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados:**
+    - **Nombre del padre:** José del Carmen Carrasco
+    - **Rejion, nacionalidad, profesion i domicilio:** chileno, casado, agricultor, de este.
+    - **Nombre de la madre:** Maria del Tránsito Valdebenito
+    - **Rejion, nacionalidad, profesion i domicilio:** chilena, casada, de este.
+- **Nombres, etc., del compareciente:**
+    - **[Name]:** José del Carmen Carrasco
+    - **Edad:** Veintidos años
+    - **Prof.:** Agricultor
+    - **Dom.:** En esta
+- **Observaciones de la identidad del compareciente:**
+    - **Por los testigos:** [illegible signature]
+- **Firmas del oficial:**
+    - Camilo Luis osorio
+    - Concilio del oficial
+- **ANOTACIONES:** [blank]
+
+---
+
+**Entry 175**
+
+- **N.o de la inscripcion:** 175
+- **Fecha de la inscripcion:** Nueve de Abril de mil ochocientos ochenta i ocho
+- **Nombres i sexo:**
+    - **Nombres.** Abel del Carmen
+    - **Sexo.** Varon
+- **Fecha i lugar del nacimiento:**
+    - **Fecha.** El ocho de Abril de mil ochocientos ochenta i ocho, a las diez de la noche.
+    - **Lugar.** En esta
+- **Rejion, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados:**
+    - **Nombre del padre:** Gumercindo Venegas
+    - **Rejion, nacionalidad, profesion i domicilio:** chileno, soltero, agricultor, de este.
+    - **Nombre de la madre:** Rosario Venegas
+    - **Rejion, nacionalidad, profesion i domicilio:** chilena, soltera, de este.
+- **Nombres, etc., del compareciente:**
+    - **[Name]:** Gumercindo Venegas
+    - **Edad:** Veinte i seis años
+    - **Prof.:** Empleado
+    - **Dom.:** En esta
+- **Observaciones de la identidad del compareciente:**
+    - **Por los testigos:** [illegible signature]
+- **Firmas del oficial:**
+    - Camilo Luis osorio
+    - Concilio del oficial
+- **ANOTACIONES:** [blank]
+
+---
+
+**Entry 176**
+
+- **N.o de la inscripcion:** 176
+- **Fecha de la inscripcion:** Nueve de Abril de mil ochocientos ochenta i ocho
+- **Nombres i sexo:**
+    - **Nombres.** Maria Rafaela del Carmen
+    - **Sexo.** Mujer
+- **Fecha i lugar del nacimiento:**
+    - **Fecha.** El ocho de Abril de mil ochocientos ochenta i ocho, a las diez de la noche.
+    - **Lugar.** En esta
+- **Rejion, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados:**
+    - **Nombre del padre:** Q. Cirilo en C. G.
+    - **Rejion, nacionalidad, profesion i domicilio:** chileno, casado, agricultor, de este.
+    - **Nombre de la madre:** Maria del Carmen Perez
+    - **Rejion, nacionalidad, profesion i domicilio:** chilena, casada, de este.
+- **Nombres, etc., del compareciente:**
+    - **[Name]:** Q. Cirilo en C. G.
+    - **Edad:** Setenta i cinco años
+    - **Prof.:** Agricultor
+    - **Dom.:** En esta
+- **Observaciones de la identidad del compareciente:**
+    - **Por los testigos:** Claudio Rojas
+- **Firmas del oficial:**
+    - Camilo Luis osorio
+    - Concilio del oficial
+- **ANOTACIONES:** [blank]
+
+---
 
 ## Images, Captions, And Visual Notes
-- At the top of page 58, there is a circular official stamp, partially obscured. It appears to be a seal of the Civil Registry.
-- At the top right of page 59, there is a circular official stamp. The text reads "OFICINA DEL REJISTRO CIVIL" around the perimeter and "LOS ANJELES" in the center.
+
+- At the top right of page 58 and page 59, there is a circular stamp. The text around the circumference reads "OFICINA DEL REXISTRO CIVIL" and "LOS ANJELES". In the center is the Chilean coat of arms.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible portions of this document.
+
+- **Entry 171:** The witness's signature is illegible.
+- **Entry 172:** The witness's signature is illegible.
+- **Entry 174:** The witness's signature is illegible.
+- **Entry 175:** The witness's signature is illegible.
+- **Entry 176:** The name of the father and the declarant is written as "Q. Cirilo en C. G.". This is an unusual notation, possibly an abbreviation or a legal designation, the meaning of which is unclear. The declarant's age is 75, indicating he is not the father.
+- **All Entries:** Below the signature of the official, `Camilo Luis osorio`, is the phrase `Concilio del oficial`. The first word is somewhat difficult to read but appears consistently across all entries.
 
 ## Completeness Audit
-This document has been transcribed in its entirety. All six entries (171-176) across the two-page spread have been fully transcribed.
+
+The transcription covers all six entries (171-176) present on the two-page spread (pages 58 and 59). All handwritten information within these entries has been transcribed.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains standard tabular data, handwritten entries, and official stamps, none of which qualify as significant visual regions for cropping."
+  "no_visual_regions_reason": "The page contains only textual records in a tabular format. The official stamps are standard and adequately described in the visual notes; they do not require individual cropping."
 }
 ```

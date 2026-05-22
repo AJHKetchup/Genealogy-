@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-30e594e1e65e-P0104-01
+chunk_id: CHUNK-0a8efb8051da-P0104-01
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125.codex.md
-converted_sha256: 30e594e1e65eb2c02f000edc1d4b031b92762a53b4738b6d8850d790815319cf
+converted_sha256: 0a8efb8051da0967f66c87018e521c79e358a81885064710072d18ef12ee6ac5
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/manifest.json
@@ -12,31 +12,23 @@ part: 1
 ---
 
 ## Page Metadata
-- Task id: `source-prep:ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125:p0104`
-- Model route: `pro`
-- Route reasons: suspicious_readings, complex_quality_flags
-- Source: `raw/sources/R3016-11A-2905-950.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/work-orders/page-0104.md`
-- Page: 104
-- Output Markdown target: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/page-markdown/page-0104.md`
-- External research relevance: ``
-- External requested treatment: ``
-- External relevance reasons: none
-- Recommended action: `reread-page`
-- Quality flags: many_uncertain_readings
-- Technical reread clues: clear -> Cesar
+
+- **Page number**: 104
+- **Task id**: `source-prep:ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125:p0104`
+- **Source file**: `raw/sources/R3016-11A-2905-950.pdf`
 
 ## Layout And Reading Order
-The document is a pre-printed form with handwritten entries. The reading order is from top to bottom.
 
-1.  A header at the top center of the page reads: "Cette feuille est réservée à l'usage du Registry."
-2.  Below the header is a table for archival information with fields for "ARCHIVES", "SECTION", "FILE", "SERIES", and "SCHEDULE No.".
-3.  Below this box is the title of the form: "Liste des Pièces Contenues."
-4.  The main content is a large table with 22 numbered rows and columns for "Expéditeur", "Date", "Destinataire", "Date", "Index A.B.", "Index C.", and "A classer". Rows 1 through 11 contain handwritten entries; the remaining rows are blank.
-5.  A footer at the bottom of the page reads: "Voir suite: Schedule No:".
+The document is a pre-printed form titled "Liste des Pièces Contenues" (List of Contained Documents), used as a file registry or cover sheet. The reading order is as follows:
+
+1.  A heading at the top of the page: "Cette feuille est réservée à l'usage du Registry."
+2.  A header box with archival details, including printed fields and handwritten entries for ARCHIVES, SECTION, FILE, SERIES, and SCHEDULE No.
+3.  The main title: "Liste des Pièces Contenues."
+4.  A large table with columns for item number (pre-printed 1-22), `Expéditeur` (Sender), `Date`, `Destinataire` (Recipient), `Date`, `Index A.B.`, `C.`, and `A classer` (To be filed). The table contains handwritten entries from row 1 to row 10. Rows 11 to 22 are blank.
+5.  A footer line at the bottom: "Voir suite: Schedule No:"
 
 ## Literal Transcription
+
 Cette feuille est réservée à l'usage du Registry.
 
 | ARCHIVES | SECTION | FILE | SERIES | SCHEDULE No. |
@@ -45,19 +37,19 @@ Cette feuille est réservée à l'usage du Registry.
 
 Liste des Pièces Contenues.
 
-| | Expéditeur | Date | Destinataire | Date | Index<br>A.B. | C. | A<br>classer |
+| | Expéditeur | Date | Destinataire | Date | Index A.B. | C. | A classer |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Comité de la Croix Rouge [?]saskandie[?] et [?] | [illegible] | | | F[?] | 9/2 | ~ |
+| 1 | Comité de la Croix Rouge [?]ssakandie et Voisins | | | | [?] | 9/2 | [?] |
 | 2 | D | 18.4.28 | | | | 1 | |
-| 3 | M. Colban | 19.4.28 | | | 5 | 1 | |
-| 4<br>4a | M. Kiley | 10.10.28 | Dr Jetté | 7.6.28. | [?] | 2 | ~ |
-| 5 | [illegible] | 15.10.28 | | | 3 | | |
-| 6 | J. Commansai[?] | 17.10.28 | | | | | |
-| 7 | Demande de M. Siscar[?] | 7.11.28 | S. A. | 6.11.28. | 4 | | |
-| 8 | Dame Randy | 31.10.28 | | | | | |
-| 9 | | | M. Francis | 7.11.28. | . | | |
-| 10 | M[illegible] | 14.11.28<br>28.11.28 | | | 6 | o | |
-| 11 | - | | | | | | |
+| 3 | M. Colban | 19.4.28 | | | 5 | ~~1~~ | |
+| 4 | | | Dr Jetté | 7.6.28. | 1 | [?] | — |
+| 5 | Dikey<br>[?]achining | 10.10.28<br>15.10.28 | | | 3 | 2 | |
+| 6 | J. [?]mmon[?]ai | 17.10.28 | | | | | |
+| 7 | [?] de [?] de [?]sica[?] | 7.11.28 | S.A.L. | 6.11.28 | 4 | | |
+| 8 | Dame Randy | 3.11.28 | | | | | |
+| 9 | | | M. [?]ranc[?] | [?]11.28 | 1 | | |
+| 10 | [?]i[?]ks | 14.11.28<br>28.11.28 | | | 6 | [?] | |
+| 11 | | | | | | | |
 | 12 | | | | | | | |
 | 13 | | | | | | | |
 | 14 | | | | | | | |
@@ -73,22 +65,31 @@ Liste des Pièces Contenues.
 Voir suite: Schedule No:
 
 ## Images, Captions, And Visual Notes
-The page is a light gray paper form. The top edge is ragged and torn. There is a hole punch on the left side. The handwritten entries are in dark ink. There are no images or illustrations to crop.
+
+The page is a standard archival form. The archival reference numbers in the header box (`11A`, `2905`, `2905/950`) are handwritten. The main table is filled in with cursive handwriting.
+
+In the left margin, between the printed numbers 4 and 5, the number `4a` is handwritten, likely indicating that the entry on line 5 is an insertion.
 
 ## Uncertain Or Illegible
-- **Row 1, Expéditeur**: The text following "Comité de la Croix Rouge" is highly cursive and difficult to decipher. It has been transcribed as `[?]saskandie[?] et [?]`.
-- **Row 1, Date**: The date is completely obscured by scribbling and is illegible.
-- **Row 1, Index A.B.**: The entry appears to be a capital `F` with a mark next to it, transcribed as `F[?]`.
-- **Row 4, Index A.B.**: The entry is a small, unclear symbol.
-- **Row 5, Expéditeur**: The handwriting is a single, illegible word.
-- **Row 6, Expéditeur**: The surname is difficult to read; `Commansai[?]` is a plausible interpretation.
-- **Row 7, Expéditeur**: The surname is difficult to read; `Siscar[?]` is a plausible interpretation.
-- **Row 10, Expéditeur**: The entry begins with a capital `M` followed by an illegible scrawl.
+
+- **Row 1, Expéditeur**: The name `[?]ssakandie` is very difficult to read.
+- **Row 1, Index A.B.**: The entry is a symbol, possibly a dollar sign or a stylized 'S'. Transcribed as `[?]`.
+- **Row 1, A classer**: The entry is a small, illegible squiggle. Transcribed as `[?]`.
+- **Row 4, C.**: The entry is an illegible squiggle. Transcribed as `[?]`.
+- **Row 5, Expéditeur**: The second name, `[?]achining`, is uncertain. The first letter could be 'M'.
+- **Row 6, Expéditeur**: The name `J. [?]mmon[?]ai` is uncertain.
+- **Row 7, Expéditeur**: The name `[?] de [?] de [?]sica[?]` is almost entirely illegible.
+- **Row 9, Destinataire**: The name `M. [?]ranc[?]` is uncertain. It could be `M. Francoeur` or similar.
+- **Row 9, Date**: The first digit(s) of the day are illegible: `[?]11.28`.
+- **Row 10, Expéditeur**: The name `[?]i[?]ks` is uncertain.
+- **Row 10, C.**: The entry is a symbol, a circle with a dot inside. Transcribed as `[?]`.
 
 ## Completeness Audit
-The entire page has been transcribed. All text, including handwritten entries in the form, has been accounted for.
+
+The entire content of the page has been transcribed. All handwritten entries, including those that are uncertain or illegible, have been represented.
 
 ## Visual Region Manifest
+
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains no photographs, illustrations, or other significant visual elements that would warrant cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains no substantial images, photographs, maps, or other visual elements that would warrant cropping as standalone assets. The content is primarily textual and tabular."}
 ```
