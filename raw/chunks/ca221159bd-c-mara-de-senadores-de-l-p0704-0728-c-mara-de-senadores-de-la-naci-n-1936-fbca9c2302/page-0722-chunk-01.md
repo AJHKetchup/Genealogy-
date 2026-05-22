@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f782f81fcfb3-P0722-01
+chunk_id: CHUNK-5c3d791b7d0c-P0722-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728.codex.md
-converted_sha256: f782f81fcfb34f2e3741061f6864a0d9068587c65ccc7e562105ce34d1c11b4e
+converted_sha256: 5c3d791b7d0cf1afde633d50fa5ff002759bc07997f7273b563609561b7c02b4
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/manifest.json
@@ -12,25 +12,26 @@ part: 1
 ---
 
 ## Page Metadata
-- Page number: 722
-- Source publication: Cámara de Senadores de la Nación, 1936.
-- Task ID: `source-prep:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0722`
-- Original page dimensions: 15.7 cm x 23.5 cm
+
+- **Page number**: 722 (inferred from filename, not visible on page)
+- **Document title**: Cámara de Senadores de la Nación, 1936
+- **Document date**: 29 and 30 September 1936
 
 ## Layout And Reading Order
 
-The page features a header with a page number and publication title on the left, and a date on the right. The main content is presented in two columns, read from left to right, top to bottom.
+This page has a two-column layout. The reading order is from top to bottom of the left column, followed by the top to bottom of theright column. A header spans both columns at the top of the page, containing a number on the left (`1314`), the chamber name in the center (`CAMARA DE SENADORES DE LA NACION`), and the date on the right (`Septiembre 29 y 30`).
 
 ## Literal Transcription
 
+```text
 1314 CAMARA DE SENADORES DE LA NACION Septiembre 29 y 30
 
 ria a las limitaciones que la Constitución ha
 establecido».
 
 Por fin, el doctor Colmo, votando en el fa-
-llo que se registra en _Jurisprudencia Argen-
-tina_, tomo X, página 230, precisamente sobre la
+llo que se registra en Jurisprudencia Argen-
+tina, tomo X, página 230, precisamente sobre la
 ley número 5.275, de apertura de las avenidas,
 después de citar a Kent, a González, a Montes
 de Oca, González Calderón y otros autores na-
@@ -98,7 +99,7 @@ algún tiempo.
 En 1900, la Corte resolvió el caso «Casado
 versus Bombal», sobre la validez de la ley provin-
 cial de Santa Fe, de 1881, sobre concesión de
-tierras al Ferrocarril Oeste Santafecino, con
+tierras al Ferrocarril Oeste Santafeecino, con
 el que retornó a su jurisprudencia primitiva.
 
 Hasta aquí la jurisprudencia.
@@ -131,7 +132,7 @@ Joaquín V. González. El doctor González, que
 realizó en esa oportunidad el esfuerzo mayor
 que yo conozco para defender lo que podría-
 mos llamar la teoría de la facultad amplia y
-evolutiva del Congreso para calificar la utili-
+evolutiva der Congreso para calificar la utili-
 dad pública. Abundó, como él era capaz de ha-
 cerlo, en la mención de la legislación extran-
 jera, de los proyectos presentados en otros
@@ -149,19 +150,27 @@ sideración no se había iniciado en los respecti-
 vos países. Citó, así, los casos de expropiación
 de terrenos que no eran indispensables para
 la obra pública de que se trataba, lo que se lla-
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions.
+
+There are no images, photographs, or other significant visual elements on this page. The content is entirely text.
 
 ## Uncertain Or Illegible
-None.
+
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text and layout elements from the provided page image.
+
+The transcription of this page is complete. The text in the right column ends with a hyphenated word (`lla-`), indicating that the sentence continues on the following page.
 
 ## Visual Region Manifest
+
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "This page is primarily text-based and does not contain any substantial images, maps, or diagrams that would warrant cropping as standalone visual assets."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page consists entirely of text with no images, illustrations, or other visual elements suitable for cropping."
+}
 ```
 
 # Page 723

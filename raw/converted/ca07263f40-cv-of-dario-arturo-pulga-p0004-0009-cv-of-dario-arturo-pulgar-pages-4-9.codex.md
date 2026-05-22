@@ -9,31 +9,13 @@
 - Extracted images: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/extracted-images`
 
 ## Page Metadata
-
-- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004`
-- Model route: `pro`
-- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
-- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0004.md`
-- Page: 4
-- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0004.md`
-- External research relevance: `high`
-- External requested treatment: `reread`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
-- Quality flags: explicit_reread_needed
-- Technical reread clues: none
+- Page number: 4
+- Source file: `raw/sources/CV of Dario Arturo Pulgar.pdf`
 
 ## Layout And Reading Order
-
-The page is a single column of text. The reading order is from top to bottom. The content consists of:
-1. The end of a paragraph from the previous page.
-2. A bulleted list with two main points, each with a bolded title. These points contain nested numbered lists.
-3. Two distinct job entries, each with a date, employer, location, and job title in bold, followed by a descriptive paragraph.
+This page is a single column of text. The content is a continuation of a curriculum vitae. The reading order is from top to bottom. The page includes bulleted lists and sections organized by date, with bolded headings for job titles, organizations, and locations.
 
 ## Literal Transcription
-
 approaches in four different Indian Sates and, (iv) review the communications strategy for
 the Productive Projects component of the Millennium Challenge Account programme for the
 northern region of El Salvador while making recommendations for improvements and new
@@ -87,44 +69,29 @@ of communities during blasts that could affect them for safety reasons. Represen
 in dealings with local authorities and community organisations.
 
 ## Images, Captions, And Visual Notes
-
-This page contains only text. There are no images, illustrations, or other visual elements.
+This page is text-only and contains no images, captions, or other visual elements.
 
 ## Uncertain Or Illegible
-
-There are no uncertain or illegible portions of text on this page. The word "aassessing" appears to be a typographical error in the original document but is transcribed as it appears.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-This page has been fully and accurately transcribed. All text content has been captured.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page consists entirely of text and has no images, illustrations, or other visual elements suitable for cropping."
+  "no_visual_regions_reason": "This page is text-only and contains no meaningful visual regions to crop."
 }
 ```
 
 ## Page Metadata
 - Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005`
-- Model route: `pro`
-- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
 - Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0005.md`
 - Page: 5
-- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0005.md`
-- External research relevance: `high`
-- External requested treatment: `reread`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
-- Quality flags: none
-- Technical reread clues: none
 
 ## Layout And Reading Order
-The page consists of a single column of text. The content is a continuation of a curriculum vitae, with entries organized chronologically. Each entry is headed by a year or date range, followed by the name of the organization, location, the individual's role, and a descriptive paragraph. The reading order is from top to bottom.
+The page is a single column of typewritten text, read from top to bottom. It contains five distinct entries from a curriculum vitae. Each entry is structured with a date or date range, followed by the name of an organization, a location, a job title (all in bold), and a descriptive paragraph detailing the work performed.
 
 ## Literal Transcription
 **1999**
@@ -178,17 +145,20 @@ Review implementation of a proposed training programme for the Development of th
 Maracaibo Plain Project. Co-ordinate with the World Bank and Canadian agencies a study tour
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other visual elements on this page. The content is entirely text.
+There are no images, captions, or other visual elements on this page. The page consists entirely of typewritten text.
 
 ## Uncertain Or Illegible
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page has been transcribed in its entirety.
+This page is a complete transcription of all visible text. The final entry on the page is incomplete and presumably continues on the next page of the source document.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of typed text and contains no images, illustrations, or other visual elements."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only typewritten text and does not have any images, illustrations, or other significant visual elements."
+}
 ```
 
 ## Page Metadata
@@ -208,7 +178,7 @@ This page has been transcribed in its entirety.
 - Technical reread clues: none
 
 ## Layout And Reading Order
-The page consists of a single column of typed text. The content is a continuation of a list of professional experiences from a curriculum vitae. Each entry is presented chronologically, starting with an underlined date range, followed by the employer/organization, location, and job title in bold, and concluding with a descriptive paragraph. The reading order is from top to bottom.
+The page consists of a single column of typed text. The content is a continuation of a curriculum vitae, with entries organized chronologically. Each entry begins with an underlined date range, followed by the organization, location, and job title in bold, and then a descriptive paragraph. The reading order is from top to bottom.
 
 ## Literal Transcription
 on irrigation districts and transfer of irrigation infrastructure to water user associations.
@@ -263,29 +233,29 @@ Agricultural Extension and Communication Advisor**
 Establish a Development Support Communication Centre (DSC) in the city of Dikernis, Dakahlia
 
 ## Images, Captions, And Visual Notes
-This page contains only typed text. There are no images, captions, or other visual elements.
+This page contains only typed text. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-The entire content of the page has been transcribed.
+This page has been fully and accurately transcribed.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other distinct visual elements suitable for cropping."
+  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other visual elements suitable for cropping."
 }
 ```
 
 ## Page Metadata
-- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0007`
-- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Page: 7
+- **Page number**: 7 (inferred from filename `p0007`)
+- **Document title**: CV of Dario Arturo Pulgar
+- **Document type**: Curriculum Vitae
 
 ## Layout And Reading Order
-The page is a single column of text. The reading order is from top to bottom. The content is a continuation of a curriculum vitae, with entries organized chronologically by date range. Each entry includes the date, organization, location, job title (in bold), and a description of responsibilities.
+The page is a single column of text. The content is organized chronologically in reverse order, with each entry representing a professional role. Each entry typically includes a date range, the name of the organization, the location, a job title, and a descriptive paragraph. Headings for dates, organizations, locations, and titles are in bold. The reading order is from top to bottom.
 
 ## Literal Transcription
 Governorate and the design and implementation of a modified Training and Visit System of
@@ -340,17 +310,20 @@ EMBRAFILME Audio Visual Centre, and v) prepare a plan of operations of a health
 communication project with special emphasis on rural areas for CIDA in Islamabad, Pakistan
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other visual elements on this page. The page consists entirely of typed text.
+This page contains only text. There are no images, illustrations, stamps, or other visual elements.
 
 ## Uncertain Or Illegible
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page is complete and fully transcribed.
+The transcription is a complete and accurate representation of all text on the page.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other significant visual elements."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page consists entirely of typed text and does not contain any images, illustrations, photographs, or other significant visual elements that would warrant cropping."
+}
 ```
 
 ## Page Metadata
@@ -440,12 +413,15 @@ The entire page has been transcribed.
 ## Page Metadata
 
 - **Page number**: 9
-- **Document type**: Curriculum Vitae
-- **Person(s) mentioned**: Dario Arturo Pulgar
+- **Source page number**: 9
+- **Document title**: CV of Dario Arturo Pulgar
+- **Document language**: en-US
+- **Work order**: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0009.md`
+- **Task id**: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0009`
 
 ## Layout And Reading Order
 
-The page consists of a single column of typed text. The content is divided into two sections. The first section continues a list of educational history, with date ranges on the left and institutional details on the right. The second section is titled "LANGUAGES" and lists spoken and written language proficiency. The reading order is top to bottom.
+The page consists of a single column of typed text. The content is read from top to bottom. The first section lists educational history, with years on the left and details on the right. The second section, titled "LANGUAGES," lists spoken and written languages.
 
 ## Literal Transcription
 
@@ -475,17 +451,17 @@ There are no images, captions, or other visual elements on this page.
 
 ## Uncertain Or Illegible
 
-All text on this page is clear and legible.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-This page has been fully and accurately transcribed.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
 
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other significant visual elements."
+  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other visual elements suitable for cropping."
 }
 ```

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-28d9ef57c96e-P0104-01
+chunk_id: CHUNK-11ddddf8bb53-P0104-01
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125.codex.md
-converted_sha256: 28d9ef57c96e666955552047ab19c3aca70f2f3526a57f078c322851d56326d1
+converted_sha256: 11ddddf8bb53d6f37e9b7c3c38c3d666b2a0166e586b33657ee1f9aeb528af59
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/manifest.json
@@ -12,7 +12,6 @@ part: 1
 ---
 
 ## Page Metadata
-
 - Task id: `source-prep:ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125:p0104`
 - Model route: `pro`
 - Route reasons: complex_quality_flags
@@ -29,38 +28,36 @@ part: 1
 - Technical reread clues: none
 
 ## Layout And Reading Order
+The document is a single-page, pre-printed form with handwritten entries. The reading order is top to bottom.
 
-The document is a pre-printed archival log sheet titled "Liste des Pièces Contenues" (List of Contained Documents). The reading order is as follows:
-1. A header at the top center: "Cette feuille est réservée à l'usage du Registry."
-2. A box containing file metadata with fields for ARCHIVES, SECTION, FILE, SERIES, and SCHEDULE No.
-3. The main title: "Liste des Pièces Contenues."
-4. A table with numbered rows (1-22) and columns for "Expéditeur" (Sender), "Date", "Destinataire" (Recipient), "Date", "Index A.B.", "C.", and "A classer" (To be filed). Rows 1 through 10 contain handwritten entries.
-5. A footer at the bottom: "Voir suite: Schedule No:".
-
-The top edge of the page is torn and worn.
+1.  A centered title at the top of the page.
+2.  A header section containing a table with archival information (ARCHIVES, SECTION, FILE, SERIES, SCHEDULE No.).
+3.  A subtitle, "Liste des Pièces Contenues."
+4.  A large table with columns for "Expéditeur," "Date," "Destinataire," "Date," "Index A.B.," "C.," and "A classer." The table has 22 numbered rows, with handwritten entries in rows 1 through 10.
+5.  A footer line at the bottom with "Voir suite: Schedule No:".
 
 ## Literal Transcription
-
 Cette feuille est réservée à l'usage du Registry.
 
 | ARCHIVES | SECTION | FILE | SERIES | SCHEDULE No. |
-| :--- | :--- | :--- | :--- | :--- |
+|---|---|---|---|---|
 | 1928-1932 | 11A | 2905 | 2905<br>950 | |
 
 Liste des Pièces Contenues.
 
 | | Expéditeur | Date | Destinataire | Date | Index A.B. | C. | A classer |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Comité de la Croix Rouge [?] | [illegible] | | | S[?] | 9/2 | [?] |
-| 2 | D | 18.4.28 | | | | 1 | |
-| 3 | M. Colban | 19.4.28 | | | S | H[?] | [?] |
-| 4 | D. Kiley | 10.10.28 | Dr Jetté[?] | 7.6.28. | [?] | | [?] |
-| 5 | | 15.10.28<br>17.10.28 | | | | 2 | |
-| 6 | J. Cormoran[?] | | | | | | |
-| 7 | Serv. de St. [?] | 7.10.28 | S.A.L. | 5.11.28. | S | 8 | |
-| 8 | Dame Randy | 31.10.28 | | | | | |
-| 9 | [illegible] | | M. Francis[?] | 1.11.28. | F | 5 | [?] |
-| 10 | Mijusko[?] | 14.11.28<br>28.11.28 | | | C | 6 | |
+|---|---|---|---|---|---|---|---|
+| 1 | Comité de la Croix Rouge [?]ssokandie[?] | 16.4.28 | | | S | 9/2 | [squiggle] |
+| 2 | D | 18.4.28 | | | | | |
+| 3 | M. Colban | 19.4.28 | | | S | H | [squiggle] |
+| 4 | | | Dr Jelt[?] | 7.5.28 | | | [squiggle] |
+| 4a | D. Kely | 10.10.28 | | | D | | |
+| 5 | [illegible] | 15.10.28 | | | | | |
+| 6 | J. Camomonzai[?] | 17.10.28 | | | | | |
+| 7 | Demande de M. Sicar[?] | 7.10.28 | S.A.L | 5.11.28 | S | | |
+| 8 | Dame Randy | 3.11.28 | | | | | |
+| 9 | | | M. Franc[?] | 7.11.28 | F | | |
+| 10 | M[?] | 14.11.28<br>28.11.28 | | | S | [illegible] | |
 | 11 | | | | | | | |
 | 12 | | | | | | | |
 | 13 | | | | | | | |
@@ -77,36 +74,28 @@ Liste des Pièces Contenues.
 Voir suite: Schedule No:
 
 ## Images, Captions, And Visual Notes
-
-The top edge of the paper is irregularly torn and worn. The document is a standard printed form with handwritten entries. There are no images, illustrations, or photographs.
+The document is a pre-printed archival log sheet. The top edge of the page is torn and ragged. There is a single hole punch on the left margin. All entries are handwritten in ink.
 
 ## Uncertain Or Illegible
-
-- `[task_id:p0104-r1-c2-w5]`: `[?]` - The last word in "Comité de la Croix Rouge [?]" is illegible due to stylized handwriting.
-- `[task_id:p0104-r1-c3-w1]`: `[illegible]` - The date is too faint to read.
-- `[task_id:p0104-r1-c6-w1]`: `S[?]` - The character in the Index A.B. column could be an 'S' or a '5'.
-- `[task_id:p0104-r1-c8-w1]`: `[?]` - The mark in the "A classer" column is a handwritten squiggle, possibly a checkmark.
-- `[task_id:p0104-r3-c7-w1]`: `H[?]` - The character in the Index C. column could be an 'H' or '11'.
-- `[task_id:p0104-r3-c8-w1]`: `[?]` - The mark in the "A classer" column is a handwritten squiggle, possibly a checkmark.
-- `[task_id:p0104-r4-c4-w2]`: `Jetté[?]` - The surname of the doctor is difficult to read but appears to be "Jetté".
-- `[task_id:p0104-r4-c6-w1]`: `[?]` - The character in the Index A.B. column is a handwritten squiggle.
-- `[task_id:p0104-r4-c8-w1]`: `[?]` - The mark in the "A classer" column is a handwritten squiggle.
-- `[task_id:p0104-r6-c2-w2]`: `Cormoran[?]` - The surname is difficult to read but appears to be "Cormoran".
-- `[task_id:p0104-r7-c2-w4]`: `[?]` - The last word in "Serv. de St. [?]" is illegible.
-- `[task_id:p0104-r9-c2-w1]`: `[illegible]` - The name in the Expéditeur column is illegible.
-- `[task_id:p0104-r9-c4-w2]`: `Francis[?]` - The surname is difficult to read but appears to be "Francis".
-- `[task_id:p0104-r9-c8-w1]`: `[?]` - The mark in the "A classer" column is a handwritten checkmark.
-- `[task_id:p0104-r10-c2-w1]`: `Mijusko[?]` - The name is difficult to read but appears to be "Mijusko".
+- **Row 1, Expéditeur:** The name following "Comité de la Croix Rouge" is very difficult to read: `[?]ssokandie[?]`.
+- **Row 1, A classer:** A handwritten squiggle, possibly an initial or checkmark.
+- **Row 3, A classer:** A handwritten squiggle, possibly an initial or checkmark.
+- **Row 4, Destinataire:** The name is uncertain: `Dr Jelt[?]`.
+- **Row 4, A classer:** A handwritten squiggle, possibly an initial or checkmark.
+- **Row 5, Expéditeur:** The entire entry is illegible.
+- **Row 6, Expéditeur:** The surname is uncertain: `J. Camomonzai[?]`.
+- **Row 7, Expéditeur:** The entry is difficult to read and is interpreted as `Demande de M. Sicar[?]`.
+- **Row 9, Destinataire:** The name is uncertain: `M. Franc[?]`.
+- **Row 10, Expéditeur:** The entry appears to be a single initial, possibly `M[?]`.
+- **Row 10, C.:** The character in this column is illegible, possibly a 'c' or a circle.
 
 ## Completeness Audit
-
-The entire page, including all handwritten entries and pre-printed text, has been transcribed.
+The entire page has been transcribed. All handwritten entries have been captured to the best of my ability, with uncertain readings marked accordingly.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains a standard archival log form with no significant illustrations, photographs, or other visual elements suitable for cropping."
+  "no_visual_regions_reason": "The page contains no photographs, illustrations, or other significant visual elements that would warrant cropping. It is a standard archival form with handwritten text."
 }
 ```

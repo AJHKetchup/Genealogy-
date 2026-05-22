@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-22T07:22:23Z",
+  "created": "2026-05-22T12:31:27Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png",
@@ -8,8 +8,16 @@
   "page": 1,
   "page_image": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/page-images/page-0001.png",
   "output_markdown": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/page-markdown/page-0001.md",
-  "no_visual_regions_reason": "The page contains no substantial visual elements like photographs, maps, or complex illustrations that would warrant cropping. The only visual is a standard office stamp, which has been fully transcribed and described in the notes.",
+  "no_visual_regions_reason": "",
   "visual_regions": [],
-  "skipped_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "stamp-001",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "OFICINA DE LOS ANJELES CHILE",
+      "source_context": "A circular official stamp from the civil registry office in Los Ángeles, Chile."
+    }
+  ],
   "flags": []
 }
