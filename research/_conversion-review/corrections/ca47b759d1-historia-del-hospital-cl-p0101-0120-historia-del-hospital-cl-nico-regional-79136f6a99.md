@@ -11,6 +11,11 @@
   Reason: near match to known family context term `Dario`
   Verification target: reread the page image or exact region before using this in a claim.
 
+- Literal converted text: `DIRECTORES`
+  Suspected reading: `Directory`
+  Reason: near match to known family context term `Directory`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Darío`
   Suspected reading: `Dario`
   Reason: near match to known family context term `Dario`

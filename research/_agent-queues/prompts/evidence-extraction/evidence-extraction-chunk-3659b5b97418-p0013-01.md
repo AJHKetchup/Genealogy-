@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 13-13
 - Staging area: `research/_staging`
 - Family relevance: `medium`
-- Matched family terms: Arriagada
+- Matched family terms: Arriagada, García
 - Evidence priority: `2013` (family_relevance:medium, qc:pass, matched_terms)
 
 

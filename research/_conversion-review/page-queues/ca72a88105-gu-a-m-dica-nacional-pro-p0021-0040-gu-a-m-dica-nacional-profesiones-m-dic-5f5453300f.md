@@ -6,6 +6,14 @@
 
 ## Queued Pages
 
+### Page 21
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: García
+
 ### Page 28
 
 - Recommended action: `reread-page`
@@ -20,7 +28,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo
+- Matched family context: Arturo, García
 
 ### Page 38
 
@@ -28,7 +36,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Riquelme
+- Matched family context: Arturo, García, Riquelme
 
 ### Page 39
 
@@ -36,4 +44,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Andes, Arturo, Carmen, Riquelme
+- Matched family context: Andes, Arturo, Carmen, García, Riquelme

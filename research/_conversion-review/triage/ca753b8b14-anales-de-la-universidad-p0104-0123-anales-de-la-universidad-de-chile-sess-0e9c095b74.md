@@ -11,16 +11,16 @@
 | 104 | none | high | pass | none | none |
 | 105 | medium | high | pass | none | Arriagada, Arturo |
 | 106 | none | high | pass | none | none |
-| 107 | none | high | pass | none | none |
+| 107 | medium | high | pass | none | García |
 | 108 | medium | high | pass | none | Arriagada |
 | 109 | medium | high | pass | none | Arturo |
 | 110 | medium | high | pass | none | Arturo, Mercedes |
-| 111 | medium | high | pass | none | Arturo |
+| 111 | medium | high | pass | none | Arturo, García |
 | 112 | none | high | pass | none | none |
 | 113 | medium | high | pass | none | Arriagada |
 | 114 | medium | high | pass | none | Arturo |
 | 115 | none | high | pass | none | none |
-| 116 | none | high | pass | none | none |
+| 116 | medium | high | pass | none | García |
 | 117 | none | high | pass | none | none |
 | 118 | none | high | pass | none | none |
 | 119 | medium | high | pass | none | Arturo |

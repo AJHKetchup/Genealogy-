@@ -12,7 +12,7 @@
 | 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | medium | high | pass | none | Dario, Pulgar |
-| 5 | medium | high | pass | none | Pulgar |
+| 5 | critical | low | reread-page | none | Pulgar |
 | 9 | medium | high | pass | none | Andes, intended |
 | 10 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |

@@ -18,7 +18,7 @@
 | 1086 | medium | high | pass | none | Segundo |
 | 1087 | medium | high | pass | none | Segundo |
 | 1088 | none | high | pass | none | none |
-| 1089 | none | high | pass | none | none |
+| 1089 | medium | high | pass | none | García |
 | 1090 | none | high | pass | none | none |
 | 1091 | none | high | pass | none | none |
 | 1092 | none | high | pass | none | none |

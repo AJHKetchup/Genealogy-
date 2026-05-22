@@ -28,7 +28,7 @@
 | 796 | none | high | pass | none | none |
 | 797 | none | high | pass | none | none |
 | 798 | none | high | pass | none | none |
-| 799 | none | high | pass | none | none |
+| 799 | medium | high | pass | none | Medical |
 | 800 | none | high | pass | none | none |
 | 801 | none | high | pass | none | none |
 | 802 | medium | high | pass | none | Segundo |

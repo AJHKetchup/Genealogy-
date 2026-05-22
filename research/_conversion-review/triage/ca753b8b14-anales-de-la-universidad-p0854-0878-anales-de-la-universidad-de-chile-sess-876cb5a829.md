@@ -12,7 +12,7 @@
 | 855 | none | high | pass | none | none |
 | 856 | medium | high | pass | none | Smith |
 | 857 | none | high | pass | none | none |
-| 858 | none | high | pass | none | none |
+| 858 | critical | low | reread-page | none | García |
 | 859 | high | low | reread-page | none | none |
 | 860 | none | high | pass | none | none |
 | 861 | none | high | pass | none | none |
@@ -21,8 +21,8 @@
 | 864 | medium | high | pass | none | Juana |
 | 865 | none | high | pass | none | none |
 | 866 | high | low | reread-page | none | none |
-| 867 | none | high | pass | none | none |
-| 868 | medium | high | pass | none | Segundo |
+| 867 | high | low | reread-page | none | none |
+| 868 | critical | low | reread-page | none | Segundo |
 | 869 | none | high | pass | none | none |
 | 870 | none | high | pass | none | none |
 | 871 | none | high | pass | none | none |
@@ -31,5 +31,5 @@
 | 874 | none | high | pass | none | none |
 | 875 | none | high | pass | none | none |
 | 876 | none | high | pass | none | none |
-| 877 | none | high | pass | none | none |
-| 878 | none | high | pass | none | none |
+| 877 | medium | high | pass | none | García |
+| 878 | high | low | reread-page | none | none |

@@ -11,6 +11,11 @@
   Reason: near match to known family context term `Juana`
   Verification target: reread the page image or exact region before using this in a claim.
 
+- Literal converted text: `gara`
+  Suspected reading: `García`
+  Reason: near match to known family context term `García`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Tello`
   Suspected reading: `Tulio`
   Reason: near match to known family context term `Tulio`

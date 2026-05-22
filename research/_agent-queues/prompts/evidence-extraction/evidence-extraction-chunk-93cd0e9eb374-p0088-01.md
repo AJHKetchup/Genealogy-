@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/R4946-12-33387-8070.pdf`
 - Page range: 88-88
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: none
-- Evidence priority: `1088` (family_relevance:high, qc:reread-page)
+- Family relevance: `critical`
+- Matched family terms: garcia
+- Evidence priority: `88` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

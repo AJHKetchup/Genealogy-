@@ -6,6 +6,14 @@
 
 ## Queued Pages
 
+### Page 24
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none
+
 ### Page 25
 
 - Recommended action: `reread-page`
@@ -29,3 +37,11 @@
 - Family relevance: `high`
 - Quality flags: none
 - Matched family context: none
+
+### Page 33
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: larrain

@@ -9,7 +9,7 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 64 | critical | low | reread-page | none | Arturo |
-| 65 | none | high | pass | none | none |
+| 65 | medium | high | pass | none | García |
 | 66 | medium | high | pass | none | Arriagada |
 | 67 | medium | high | pass | none | Carmen, Mercedes |
 | 68 | none | high | pass | none | none |
@@ -18,13 +18,13 @@
 | 71 | none | high | pass | none | none |
 | 72 | critical | low | reread-page | none | Arriagada |
 | 73 | medium | high | pass | none | Arturo |
-| 74 | none | high | pass | none | none |
+| 74 | medium | high | pass | none | García |
 | 75 | critical | low | reread-page | none | Arriagada |
 | 76 | medium | high | pass | none | Mercedes |
 | 77 | none | high | pass | none | none |
-| 78 | none | high | pass | none | none |
+| 78 | medium | high | pass | none | García |
 | 79 | medium | high | pass | none | Arriagada |
 | 80 | medium | high | pass | none | Arturo |
-| 81 | none | high | pass | none | none |
+| 81 | medium | high | pass | none | García |
 | 82 | none | high | pass | none | none |
 | 83 | medium | high | pass | none | Arturo |

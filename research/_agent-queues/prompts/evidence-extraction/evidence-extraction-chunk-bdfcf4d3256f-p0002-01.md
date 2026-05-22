@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf`
 - Page range: 2-2
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: none
-- Evidence priority: `302` (family_relevance:high, qc:reread-page, proof_review_revision)
+- Family relevance: `critical`
+- Matched family terms: Medical
+- Evidence priority: `-698` (family_relevance:critical, qc:reread-page, matched_terms, proof_review_revision)
 
 
 ## Proof Review Revision Context
@@ -23,6 +23,7 @@ Previous proof review found staged outputs for this chunk were not yet promotion
 | Review | Staged draft | Readiness | Requested follow-up |
 | --- | --- | --- | --- |
 | `research/_staging/reviews/proof-review-chunk-8daffb98e793-p0002-01-001-virginio-gomez-birth-year-postconv-proof-review-20260522205636169.md` | `research/_staging/claims/chunk-8daffb98e793-p0002-01-001-virginio-gomez-birth-year.md` | `hold` | Reconcile the page-boundary note and chunk identifier/hash metadata for the page 2 staging materials. If that QA confirms the current page 2-only chunk, this can be promoted as a secondary-source birth-year claim with the limitation that it proves only the year, not a full birth date or family relationship. |
+| `research/_staging/reviews/proof-review-research-staging-claims-chunk-bdfcf4d3256f-p0002-01-001-virginio-gomez-birth-year-postconv-proof-review-20260522222252735.md` | `research/_staging/claims/chunk-bdfcf4d3256f-p0002-01-001-virginio-gomez-birth-year.md` | `hold_for_metadata_qa` | Reconcile the page 2 chunk hash/page-image metadata. If that QA is accepted, promote only the narrow secondary-source birth-year claim for Virginio Gomez, with no full birth date or family relationship inferred from this source. |
 
 When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 

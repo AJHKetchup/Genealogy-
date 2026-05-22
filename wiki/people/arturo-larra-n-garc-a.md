@@ -30,6 +30,7 @@ Generated from reviewed evidence. Possible and probable items stay labeled until
 | Date | Place | Detail | Confidence | Evidence |
 | --- | --- | --- | ---: | --- |
 |  |  | Arturo Larraín García was listed in the July 1959 `Guía Médica Nacional, Profesiones Médicas y Paramedicas` on source page 53, printed page 56. | 9 | [[claims/chunk-f2c5548c9fde-p0053-01-001-arturo-larrain-garcia-directory-listing]]; [[source-packets/chunk-f2c5548c9fde-p0053-01-arturo-larrain-lavin-medical-directory]] |
+|  |  | was listed at locality: Santiago | 0.9 | [[claims/chunk-f2c5548c9fde-p0053-01-003-arturo-larrain-garcia-locality]]; [[source-packets/chunk-f2c5548c9fde-p0053-01-arturo-larrain-lavin-medical-directory]] |
 
 ### Sources
 

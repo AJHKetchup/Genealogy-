@@ -13,7 +13,7 @@
 | 906 | none | high | pass | none | none |
 | 907 | critical | low | reread-page | none | Arturo |
 | 908 | none | high | pass | none | none |
-| 909 | none | high | pass | none | none |
+| 909 | medium | high | pass | none | García |
 | 910 | none | high | pass | none | none |
 | 911 | critical | low | reread-page | none | Segundo |
 | 9 | none | high | pass | none | none |

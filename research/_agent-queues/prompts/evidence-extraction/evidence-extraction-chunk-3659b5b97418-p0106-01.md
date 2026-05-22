@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
 - Page range: 106-106
 - Staging area: `research/_staging`
-- Family relevance: `medium`
-- Matched family terms: Riquelme
-- Evidence priority: `2106` (family_relevance:medium, qc:pass, matched_terms)
+- Family relevance: `critical`
+- Matched family terms: Larraín, Riquelme
+- Evidence priority: `106` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

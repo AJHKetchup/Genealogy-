@@ -38,6 +38,7 @@ See linked source packet and converted source artifacts. The proof reviews prese
 | --- | --- | --- | --- | --- |
 | [[claims/chunk-f2c5548c9fde-p0053-01-001-arturo-larrain-garcia-directory-listing]] | [[people/arturo-larra-n-garc-a]] | draft | 9.0 | [[claims/chunk-f2c5548c9fde-p0053-01-001-arturo-larrain-garcia-directory-listing]] |
 | [[claims/chunk-f2c5548c9fde-p0053-01-004-arturo-lavin-gallegos-directory-listing]] | [[people/arturo-lav-n-gallegos]] | draft | 9.2 | [[claims/chunk-f2c5548c9fde-p0053-01-004-arturo-lavin-gallegos-directory-listing]] |
+| [[claims/chunk-f2c5548c9fde-p0053-01-003-arturo-larrain-garcia-locality]] | [[people/arturo-larra-n-garc-a]] | draft | high | [[claims/chunk-f2c5548c9fde-p0053-01-003-arturo-larrain-garcia-locality]] |
 
 ## Image/Layout Notes
 

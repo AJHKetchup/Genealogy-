@@ -27,6 +27,10 @@
 
 - [[people/arturo-lav-n-gallegos]]
 
+- [[people/virginio-gomez]]
+
+- [[people/dar-o-pulgar-arriagada]]
+
 ## Branches
 
 ## Families

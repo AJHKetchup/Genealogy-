@@ -13,5 +13,5 @@
 | 3 | none | high | pass | none | none |
 | 124 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
-| 6 | medium | high | pass | none | Arturo |
+| 6 | critical | low | reread-page | none | Arturo |
 | 7 | none | high | pass | none | none |

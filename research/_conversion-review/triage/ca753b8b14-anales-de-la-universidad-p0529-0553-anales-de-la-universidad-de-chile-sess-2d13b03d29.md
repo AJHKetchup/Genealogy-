@@ -13,7 +13,7 @@
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
 | 533 | medium | high | pass | none | Riquelme |
-| 6 | medium | high | pass | none | Juana |
+| 6 | medium | high | pass | none | Entries, Juana |
 | 7 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
@@ -26,8 +26,8 @@
 | 544 | medium | high | pass | none | Segundo |
 | 545 | none | high | pass | none | none |
 | 546 | none | high | pass | none | none |
-| 547 | none | high | pass | none | none |
-| 20 | none | high | pass | none | none |
+| 547 | high | low | reread-page | none | none |
+| 20 | medium | high | pass | none | Entries |
 | 21 | none | high | pass | none | none |
 | 22 | none | high | pass | none | none |
 | 23 | none | high | pass | none | none |

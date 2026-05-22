@@ -16,8 +16,8 @@
 | 734 | none | high | pass | none | none |
 | 735 | none | high | pass | none | none |
 | 736 | high | low | reread-page | none | none |
-| 737 | none | high | pass | none | none |
-| 738 | none | high | pass | none | none |
+| 737 | medium | high | pass | none | garcia |
+| 738 | medium | high | pass | none | garcia |
 | 739 | medium | high | pass | none | Segundo |
 | 740 | none | high | pass | none | none |
 | 741 | critical | low | reread-page | none | Segundo |

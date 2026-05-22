@@ -27,7 +27,7 @@
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |
-| 20 | none | high | pass | none | none |
+| 20 | medium | high | pass | none | listing |
 | 21 | none | high | pass | none | none |
 | 22 | none | high | pass | none | none |
 | 23 | none | high | pass | none | none |

@@ -11,6 +11,21 @@
   Reason: near match to known family context term `Cesar`
   Verification target: reread the page image or exact region before using this in a claim.
 
+- Literal converted text: `Director`
+  Suspected reading: `Directory`
+  Reason: near match to known family context term `Directory`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Director`
+  Suspected reading: `Directory`
+  Reason: near match to known family context term `Directory`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Entre`
+  Suspected reading: `Entries`
+  Reason: near match to known family context term `Entries`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `antes`
   Suspected reading: `Andes`
   Reason: near match to known family context term `Andes`

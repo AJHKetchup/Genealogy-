@@ -11,10 +11,20 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
 - Page range: 2-2
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: none
-- Evidence priority: `1002` (family_relevance:high, qc:reread-page)
+- Family relevance: `critical`
+- Matched family terms: Entries
+- Evidence priority: `-698` (family_relevance:critical, qc:reread-page, matched_terms, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/proof-review-claim-chunk-3f469b56e502-p0002-01-circulation-range-postconv-proof-review-20260522224053885.md` | `research/_staging/claims/claim-chunk-3f469b56e502-p0002-01-circulation-range.md` | `hold_for_metadata_reconciliation` | Hold for metadata/conversion QA to reconcile the staged draft, source packet, chunk identifier, and current file hashes. After reconciliation, promote only as scoped source-circulation metadata, with no inferred genealogical identity or relationship. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Done When

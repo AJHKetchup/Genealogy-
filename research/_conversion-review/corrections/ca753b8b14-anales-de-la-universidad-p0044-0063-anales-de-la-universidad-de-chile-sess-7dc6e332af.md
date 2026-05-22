@@ -25,3 +25,13 @@
   Suspected reading: `Soler`
   Reason: near match to known family context term `Soler`
   Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `David`
+  Suspected reading: `Dario`
+  Reason: near match to known family context term `Dario`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Medina`
+  Suspected reading: `Medical`
+  Reason: near match to known family context term `Medical`
+  Verification target: reread the page image or exact region before using this in a claim.

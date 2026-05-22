@@ -8,16 +8,16 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 24 | none | high | pass | none | none |
+| 24 | high | low | reread-page | none | none |
 | 25 | high | low | reread-page | none | none |
 | 26 | high | low | reread-page | none | none |
-| 27 | none | high | pass | none | none |
+| 27 | medium | high | pass | none | García |
 | 28 | high | low | reread-page | none | none |
-| 29 | none | high | pass | none | none |
-| 30 | medium | high | pass | none | Arturo, Juana |
+| 29 | medium | high | pass | none | García |
+| 30 | high | high | pass | none | Arturo, García, Juana |
 | 31 | none | high | pass | none | none |
 | 32 | none | high | pass | none | none |
-| 33 | none | high | pass | none | none |
+| 33 | critical | low | reread-page | none | larrain |
 | 34 | none | high | pass | none | none |
 | 35 | none | high | pass | none | none |
 | 36 | medium | high | pass | none | Arturo |

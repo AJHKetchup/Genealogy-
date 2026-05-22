@@ -28,8 +28,8 @@
 | 18 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |
-| 21 | medium | high | pass | none | Segundo |
-| 22 | none | high | pass | none | none |
-| 23 | none | high | pass | none | none |
+| 21 | medium | high | pass | none | Gallegos, Segundo |
+| 22 | medium | high | pass | none | Gallegos |
+| 23 | critical | low | reread-page | none | Gallegos |
 | 24 | none | high | pass | none | none |
 | 25 | none | high | pass | none | none |

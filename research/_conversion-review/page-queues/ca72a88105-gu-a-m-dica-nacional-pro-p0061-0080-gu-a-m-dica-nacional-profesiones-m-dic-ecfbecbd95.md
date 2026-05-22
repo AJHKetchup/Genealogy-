@@ -6,13 +6,29 @@
 
 ## Queued Pages
 
+### Page 61
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Andes, Gallegos
+
 ### Page 63
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Carmen
+- Matched family context: Carmen, García
+
+### Page 65
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Arturo, Directory, García, Riquelme
 
 ### Page 70
 
@@ -20,7 +36,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Juana
+- Matched family context: Arturo, Gallegos, Juana
 
 ### Page 17
 
@@ -28,4 +44,12 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arriagada, Arturo, Pulgar
+- Matched family context: Arriagada, Arturo, Directory, Entries, Pulgar
+
+### Page 19
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Directory, Entries, Riquelme, listing

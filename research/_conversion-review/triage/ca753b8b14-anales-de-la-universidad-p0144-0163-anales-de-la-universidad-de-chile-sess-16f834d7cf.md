@@ -15,14 +15,14 @@
 | 148 | medium | high | pass | none | Arriagada, Arturo |
 | 149 | high | high | pass | none | Andes, Arriagada, Juana |
 | 150 | medium | high | pass | none | Juana |
-| 151 | medium | high | pass | none | Arturo |
+| 151 | medium | high | pass | none | Arturo, García |
 | 152 | medium | high | pass | none | Arturo |
 | 153 | none | high | pass | none | none |
-| 154 | none | high | pass | none | none |
+| 154 | medium | high | pass | none | García |
 | 155 | none | high | pass | none | none |
 | 156 | none | high | pass | none | none |
 | 157 | none | high | pass | none | none |
-| 158 | none | high | pass | none | none |
+| 158 | medium | high | pass | none | García |
 | 159 | none | high | pass | none | none |
 | 160 | none | high | pass | none | none |
 | 161 | none | high | pass | none | none |

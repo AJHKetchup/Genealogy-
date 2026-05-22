@@ -8,4 +8,4 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | high | high | pass | none | Passenger, Pulgar, citizenship |
+| 1 | high | high | pass | none | Entries, Passenger, Pulgar, citizenship |

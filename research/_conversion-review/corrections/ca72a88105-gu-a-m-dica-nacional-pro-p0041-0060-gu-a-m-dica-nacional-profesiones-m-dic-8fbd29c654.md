@@ -11,9 +11,19 @@
   Reason: near match to known family context term `Juana`
   Verification target: reread the page image or exact region before using this in a claim.
 
+- Literal converted text: `Medina`
+  Suspected reading: `Medical`
+  Reason: near match to known family context term `Medical`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Merced`
   Suspected reading: `Mercedes`
   Reason: near match to known family context term `Mercedes`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Juan`
+  Suspected reading: `Juana`
+  Reason: near match to known family context term `Juana`
   Verification target: reread the page image or exact region before using this in a claim.
 
 - Literal converted text: `Juan`

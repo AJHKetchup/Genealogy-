@@ -17,19 +17,19 @@
 | 385 | medium | high | pass | none | Segundo |
 | 8 | high | low | reread-page | none | none |
 | 9 | none | high | pass | none | none |
-| 10 | high | low | reread-page | none | none |
+| 10 | critical | low | reread-page | none | García |
 | 11 | medium | high | pass | none | Segundo |
 | 12 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
-| 15 | none | high | pass | none | none |
+| 15 | medium | high | pass | none | Larraín |
 | 16 | none | high | pass | none | none |
-| 395 | none | high | pass | none | none |
+| 395 | medium | high | pass | none | Larraín |
 | 18 | none | high | pass | none | none |
 | 397 | high | low | reread-page | none | none |
 | 20 | none | high | pass | none | none |
 | 399 | none | high | pass | none | none |
-| 22 | critical | low | reread-page | none | Mercedes |
+| 22 | critical | low | reread-page | none | Larraín, Mercedes |
 | 23 | none | high | pass | none | none |
 | 24 | none | high | pass | none | none |
 | 25 | none | high | pass | none | none |

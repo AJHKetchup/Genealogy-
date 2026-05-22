@@ -21,7 +21,7 @@
 | 254 | none | high | pass | none | none |
 | 255 | high | low | reread-page | none | none |
 | 13 | none | high | pass | none | none |
-| 14 | high | low | reread-page | none | none |
+| 14 | critical | low | reread-page | none | Entries |
 | 258 | high | low | reread-page | none | none |
 | 16 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |

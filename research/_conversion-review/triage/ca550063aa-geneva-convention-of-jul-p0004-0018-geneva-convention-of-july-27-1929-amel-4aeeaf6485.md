@@ -9,13 +9,13 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 4 | none | high | pass | none | none |
-| 2 | none | high | pass | none | none |
-| 6 | none | high | pass | none | none |
-| 4 | none | high | pass | none | none |
+| 2 | medium | high | pass | none | Medical |
+| 6 | medium | high | pass | none | Medical |
+| 4 | medium | high | pass | none | Medical |
 | 5 | medium | high | pass | none | intended |
 | 6 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
-| 8 | none | high | pass | none | none |
+| 8 | medium | high | pass | none | Medical |
 | 9 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |

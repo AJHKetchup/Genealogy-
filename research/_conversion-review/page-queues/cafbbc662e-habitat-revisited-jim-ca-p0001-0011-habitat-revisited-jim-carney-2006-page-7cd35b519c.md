@@ -14,6 +14,14 @@
 - Quality flags: none
 - Matched family context: none
 
+### Page 2
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Dario, Pulgar
+
 ### Page 4
 
 - Recommended action: `reread-page`

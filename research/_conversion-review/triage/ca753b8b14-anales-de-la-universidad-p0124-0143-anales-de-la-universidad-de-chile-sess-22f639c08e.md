@@ -10,7 +10,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 124 | none | high | pass | none | none |
 | 125 | none | high | pass | none | none |
-| 126 | medium | high | pass | none | Juana |
+| 126 | medium | high | pass | none | García, Juana |
 | 127 | none | high | pass | none | none |
 | 128 | none | high | pass | none | none |
 | 129 | none | high | pass | none | none |

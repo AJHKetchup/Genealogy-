@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 73-73
 - Staging area: `research/_staging`
 - Family relevance: `medium`
-- Matched family terms: Arturo
+- Matched family terms: Arturo, Directory
 - Evidence priority: `2073` (family_relevance:medium, qc:pass, matched_terms)
 
 

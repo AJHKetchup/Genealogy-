@@ -13,3 +13,11 @@
 - Family relevance: `none`
 - Quality flags: possible_table_layout_loss
 - Matched family context: none
+
+### Page 22
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none

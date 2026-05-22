@@ -11,6 +11,11 @@
   Reason: near match to known family context term `Tulio`
   Verification target: reread the page image or exact region before using this in a claim.
 
+- Literal converted text: `Entre`
+  Suspected reading: `Entries`
+  Reason: near match to known family context term `Entries`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Darío`
   Suspected reading: `Dario`
   Reason: near match to known family context term `Dario`

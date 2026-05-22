@@ -9,7 +9,7 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | high | low | reread-page | none | none |
-| 2 | medium | high | pass | none | Dario, Pulgar |
+| 2 | critical | low | reread-page | none | Dario, Pulgar |
 | 3 | none | high | pass | none | none |
 | 4 | critical | low | reread-page | none | Dario |
 | 5 | critical | low | reread-page | none | Pulgar |

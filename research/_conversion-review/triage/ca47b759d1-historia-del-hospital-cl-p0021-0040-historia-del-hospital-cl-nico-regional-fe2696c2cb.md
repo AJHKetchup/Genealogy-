@@ -17,12 +17,12 @@
 | 27 | medium | medium | spot-check | explicit_reread_needed | Mercedes |
 | 8 | none | high | pass | none | none |
 | 9 | medium | high | pass | none | Segundo |
-| 10 | none | high | pass | none | none |
-| 11 | none | high | pass | none | none |
+| 10 | critical | low | reread-page | none | Directory, listing |
+| 11 | medium | high | pass | none | Medical |
 | 12 | high | low | reread-page | none | none |
 | 13 | none | high | pass | none | none |
-| 14 | high | low | reread-page | none | none |
-| 15 | none | high | pass | none | none |
+| 14 | critical | low | reread-page | none | Entries |
+| 15 | critical | low | reread-page | none | Medical |
 | 36 | critical | low | reread-page | none | Arturo |
 | 37 | none | medium | spot-check | explicit_reread_needed | none |
 | 18 | none | high | pass | none | none |

@@ -29,7 +29,7 @@
 | 497 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |
 | 21 | none | high | pass | none | none |
-| 22 | none | high | pass | none | none |
+| 22 | high | low | reread-page | none | none |
 | 23 | none | high | pass | none | none |
 | 24 | none | high | pass | none | none |
 | 25 | none | high | pass | none | none |

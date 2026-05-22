@@ -9,12 +9,12 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
-| 2 | high | low | reread-page | none | none |
+| 2 | critical | low | reread-page | none | Medical |
 | 3 | none | high | pass | none | none |
-| 4 | critical | low | reread-page | none | Pulgar |
-| 5 | none | high | pass | none | none |
-| 6 | none | high | pass | none | none |
-| 7 | none | high | pass | none | none |
-| 8 | medium | high | pass | none | Arturo |
-| 9 | medium | high | pass | none | england |
-| 10 | none | high | pass | none | none |
+| 4 | critical | low | reread-page | none | García, Medical, Pulgar |
+| 5 | medium | high | pass | none | Medical |
+| 6 | medium | high | pass | none | Medical |
+| 7 | critical | low | reread-page | none | García |
+| 8 | medium | high | pass | none | Arturo, Medical |
+| 9 | medium | high | pass | none | Medical, england |
+| 10 | medium | high | pass | none | García, Medical |

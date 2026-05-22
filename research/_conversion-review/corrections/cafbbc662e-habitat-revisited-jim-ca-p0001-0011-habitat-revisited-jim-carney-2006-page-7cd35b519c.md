@@ -16,6 +16,16 @@
   Reason: near match to known family context term `Carmen`
   Verification target: reread the page image or exact region before using this in a claim.
 
+- Literal converted text: `Latin`
+  Suspected reading: `Lavín`
+  Reason: near match to known family context term `Lavín`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Mexican`
+  Suspected reading: `Medical`
+  Reason: near match to known family context term `Medical`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Andreas`
   Suspected reading: `Andes`
   Reason: near match to known family context term `Andes`

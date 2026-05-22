@@ -19,10 +19,10 @@
 | 512 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
 | 514 | none | high | pass | none | none |
-| 12 | none | high | pass | none | none |
+| 12 | medium | high | pass | none | Entries |
 | 516 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
-| 518 | none | high | pass | none | none |
+| 518 | medium | high | pass | none | larrain |
 | 519 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
 | 521 | none | high | pass | none | none |

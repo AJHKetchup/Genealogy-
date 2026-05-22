@@ -15,6 +15,10 @@
 
 - [[sources/src-512ac43dc208-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servi]]
 
+- [[sources/src-7bf08ea3462c-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-o]]
+
+- [[sources/src-5ef517cfb85f-cad653020f-resoluci-n-283-ministeri-p0001-0001-resoluci-n-28]]
+
 ## Source Packets
 
 - [[source-packets/chunk-b8f4f0490a36-p0001-01-entry-172-jose-del-carmen-segundo-pulgar-arriagada]]
@@ -22,6 +26,10 @@
 - [[source-packets/sp-chunk-a4cd3c3e5c16-p0001-01-andes-pulgar-passenger-list]]
 
 - [[source-packets/chunk-f2c5548c9fde-p0053-01-arturo-larrain-lavin-medical-directory]]
+
+- [[source-packets/chunk-bdfcf4d3256f-p0002-01-osorio-anatomy-concepcion-page-2]]
+
+- [[source-packets/sp-chunk-a2273412e7b1-p0001-01-resolucion-283-expropriation-pulgar]]
 
 ## Claims
 
@@ -52,6 +60,12 @@
 - [[claims/chunk-f2c5548c9fde-p0053-01-001-arturo-larrain-garcia-directory-listing]]
 
 - [[claims/chunk-f2c5548c9fde-p0053-01-004-arturo-lavin-gallegos-directory-listing]]
+
+- [[claims/chunk-bdfcf4d3256f-p0002-01-002-virginio-gomez-birth-place]]
+
+- [[claims/chunk-f2c5548c9fde-p0053-01-003-arturo-larrain-garcia-locality]]
+
+- [[claims/cl-chunk-a2273412e7b1-p0001-01-dario-pulgar-expropriation-event]]
 
 ## Relationships
 

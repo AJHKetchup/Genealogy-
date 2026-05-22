@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/S519bis-26-4.pdf`
 - Page range: 20-20
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: none
-- Evidence priority: `101020` (family_relevance:high, qc:reread-page, blocked_by_conversion_qc)
+- Family relevance: `critical`
+- Matched family terms: García
+- Evidence priority: `100020` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
 
 ## QC Hold
 

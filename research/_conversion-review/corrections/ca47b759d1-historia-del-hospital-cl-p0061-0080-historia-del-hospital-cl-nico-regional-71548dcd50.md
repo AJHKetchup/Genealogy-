@@ -11,6 +11,16 @@
   Reason: near match to known family context term `Soler`
   Verification target: reread the page image or exact region before using this in a claim.
 
+- Literal converted text: `Médica`
+  Suspected reading: `Medical`
+  Reason: near match to known family context term `Medical`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Director`
+  Suspected reading: `Directory`
+  Reason: near match to known family context term `Directory`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `SEGUNDA`
   Suspected reading: `Segundo`
   Reason: near match to known family context term `Segundo`

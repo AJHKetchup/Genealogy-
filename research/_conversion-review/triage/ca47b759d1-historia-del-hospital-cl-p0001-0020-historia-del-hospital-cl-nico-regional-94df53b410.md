@@ -15,7 +15,7 @@
 | 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
 | 7 | high | low | reread-page | none | none |
-| 8 | medium | high | pass | none | Segundo |
+| 8 | medium | high | pass | none | García, Segundo |
 | 9 | high | low | reread-page | none | none |
 | 10 | medium | high | pass | none | Andes, Segundo |
 | 11 | none | high | pass | none | none |
@@ -26,5 +26,5 @@
 | 16 | high | low | reread-page | none | none |
 | 17 | none | high | pass | none | none |
 | 18 | medium | high | pass | none | Riquelme, Segundo |
-| 19 | none | high | pass | none | none |
+| 19 | high | low | reread-page | none | none |
 | 20 | high | low | reread-page | none | none |

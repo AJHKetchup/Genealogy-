@@ -14,7 +14,7 @@
 | 167 | none | high | pass | none | none |
 | 168 | none | high | pass | none | none |
 | 169 | none | high | pass | none | none |
-| 170 | critical | low | reread-page | none | Arturo, Carmen |
+| 170 | critical | low | reread-page | none | Arturo, Carmen, García |
 | 171 | medium | high | pass | none | Arturo |
 | 172 | critical | low | reread-page | none | Arturo |
 | 173 | medium | high | pass | none | Arturo |

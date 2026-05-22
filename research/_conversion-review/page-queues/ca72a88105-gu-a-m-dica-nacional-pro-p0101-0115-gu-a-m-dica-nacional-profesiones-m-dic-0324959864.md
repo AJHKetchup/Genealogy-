@@ -12,7 +12,23 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Smith
+- Matched family context: Arturo, García, Smith
+
+### Page 106
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Larraín, Riquelme
+
+### Page 108
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Arturo, García
 
 ### Page 11
 
@@ -20,7 +36,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arriagada, Riquelme
+- Matched family context: Arriagada, García, Riquelme
 
 ### Page 12
 
@@ -28,4 +44,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arriagada, Arturo
+- Matched family context: Arriagada, Arturo, Gallegos, García

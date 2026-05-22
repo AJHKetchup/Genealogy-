@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/S522bis-29-3.pdf`
 - Page range: 185-185
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: none
-- Evidence priority: `1185` (family_relevance:high, qc:reread-page)
+- Family relevance: `critical`
+- Matched family terms: Gallegos
+- Evidence priority: `185` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

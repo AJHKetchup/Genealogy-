@@ -6,6 +6,11 @@
 
 ## Suspected Readings
 
+- Literal converted text: `Larrain`
+  Suspected reading: `Larraín`
+  Reason: near match to known family context term `Larraín`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Antes`
   Suspected reading: `Andes`
   Reason: near match to known family context term `Andes`

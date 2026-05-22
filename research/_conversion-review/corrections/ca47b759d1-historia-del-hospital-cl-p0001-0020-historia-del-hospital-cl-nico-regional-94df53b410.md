@@ -31,6 +31,16 @@
   Reason: near match to known family context term `Pulgar`
   Verification target: reread the page image or exact region before using this in a claim.
 
+- Literal converted text: `Laval`
+  Suspected reading: `Lavín`
+  Reason: near match to known family context term `Lavín`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Laval`
+  Suspected reading: `Lavín`
+  Reason: near match to known family context term `Lavín`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Juan`
   Suspected reading: `Juana`
   Reason: near match to known family context term `Juana`

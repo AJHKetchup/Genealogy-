@@ -12,10 +12,10 @@
 | 225 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
-| 5 | none | high | pass | none | none |
+| 5 | medium | high | pass | none | Entries |
 | 229 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
-| 8 | none | high | pass | none | none |
+| 8 | medium | high | pass | none | García |
 | 232 | medium | high | pass | none | Arturo, Smith |
 | 10 | none | high | pass | none | none |
 | 234 | none | high | pass | none | none |
@@ -26,5 +26,5 @@
 | 239 | none | high | pass | none | none |
 | 240 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
-| 19 | none | high | pass | none | none |
-| 20 | medium | high | pass | none | Riquelme |
+| 19 | medium | high | pass | none | García |
+| 20 | medium | high | pass | none | Riquelme, larrain |

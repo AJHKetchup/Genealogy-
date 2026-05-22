@@ -14,6 +14,14 @@
 - Quality flags: explicit_reread_needed
 - Matched family context: Mercedes
 
+### Page 10
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Directory, listing
+
 ### Page 12
 
 - Recommended action: `reread-page`
@@ -26,9 +34,17 @@
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `high`
+- Family relevance: `critical`
 - Quality flags: none
-- Matched family context: none
+- Matched family context: Entries
+
+### Page 15
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Medical
 
 ### Page 36
 
