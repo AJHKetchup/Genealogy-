@@ -51,12 +51,19 @@ See [[people/parent|Parent Person]].
     assert (output / "research.html").exists()
     assert (output / "graph.html").exists()
     assert (output / "timeline.html").exists()
+    index_html = (output / "index.html").read_text(encoding="utf-8")
+    tree_html = (output / "tree.html").read_text(encoding="utf-8")
     people_html = (output / "people.html").read_text(encoding="utf-8")
     parent_html = (output / "wiki" / "people" / "parent.html").read_text(encoding="utf-8")
     data_js = (output / "assets" / "site-data.js").read_text(encoding="utf-8")
     assert "Child Person" in parent_html
     assert "Parent Person" in people_html
-    assert "probable parent of" in (output / "tree.html").read_text(encoding="utf-8")
+    assert "tree-edge" in tree_html
+    assert "Parent Person" in tree_html
+    assert "Child Person" in tree_html
+    assert "Parent Person" in index_html
+    assert "Child Person" in index_html
+    assert "probable parent of" in tree_html
     assert "../../wiki/people/child.html" in parent_html
     assert "Parent Person" in data_js
     assert '"familyWiki"' in data_js
@@ -110,6 +117,49 @@ The page records the birth of a Pulgar child in a handwritten civil register.
     assert "Agent Queues" in research_html
     assert "Source Library" in sources_html
     assert any((output / "sources").glob("ca12345678-registro-de-nacimientos-1889*.html"))
+
+
+def test_wiki_only_site_uses_relationship_index_for_tree(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    (tmp_path / "wiki" / "people" / "parent.md").write_text(
+        """---
+type: person
+display_name: Indexed Parent
+---
+# Indexed Parent
+""",
+        encoding="utf-8",
+    )
+    (tmp_path / "wiki" / "people" / "child.md").write_text(
+        """---
+type: person
+display_name: Indexed Child
+home_person: true
+---
+# Indexed Child
+""",
+        encoding="utf-8",
+    )
+    genealogy_wiki.create_relationship(
+        root=tmp_path,
+        relationship_id="R001",
+        relationship_type="probable_parent",
+        person_a="[[people/parent]]",
+        person_b="[[people/child]]",
+        status="probable",
+        confidence=8.2,
+    )
+    genealogy_wiki.write_relationship_index(tmp_path)
+
+    output = build_wiki_site(tmp_path, tmp_path / "site", include_research=False)
+
+    tree_html = (output / "tree.html").read_text(encoding="utf-8")
+    index_html = (output / "index.html").read_text(encoding="utf-8")
+    assert "Indexed Parent" in tree_html
+    assert "Indexed Child" in tree_html
+    assert "probable parent of" in tree_html
+    assert "Indexed Parent" in index_html
+    assert not (output / "research" / "relationships" / "r001-people-parent-people-child-probable-parent.html").exists()
 
 
 def test_genealogy_wiki_site_cli(tmp_path) -> None:

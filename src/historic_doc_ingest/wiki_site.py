@@ -512,7 +512,7 @@ def build_site_data(root: Path, pages: list[SitePage], link_map: dict[str, SiteP
     timeline_items.sort(key=lambda item: item["date"])
     deduped_edges = dedupe_edges(graph_edges)
     graph_nodes = build_graph_nodes(page_items, deduped_edges, source_summaries)
-    family_wiki = build_family_wiki(pages, link_map, timeline_items)
+    family_wiki = build_family_wiki(root, pages, link_map, timeline_items)
     dashboard = build_dashboard(root, pages, source_summaries, chunk_stats, queue_summaries, timeline_items)
     presentation = build_presentation(pages, source_summaries, timeline_items, family_wiki)
 
@@ -964,6 +964,7 @@ def timeline_dates_from_fields(page: SitePage, fields: list[str]) -> list[str]:
 
 
 def build_family_wiki(
+    root: Path,
     pages: list[SitePage],
     link_map: dict[str, SitePage],
     timeline_items: list[dict[str, object]],
@@ -1001,7 +1002,12 @@ def build_family_wiki(
         key=lambda page: page.title.lower(),
     )
     people = [family_page_card(page) for page in people_pages]
-    relationships = [relationship_card(page, link_map) for page in relationship_pages]
+    relationships = dedupe_relationship_cards(
+        [
+            *relationship_cards_from_index(root, link_map),
+            *[relationship_card(page, link_map) for page in relationship_pages],
+        ]
+    )
     families = [family_page_card(page) for page in family_pages]
     narratives = [family_page_card(page) for page in narrative_pages]
     events = [family_page_card(page) for page in event_pages]
@@ -1049,6 +1055,7 @@ def relationship_card(page: SitePage, link_map: dict[str, SitePage]) -> dict[str
     person_a = resolve_page_reference(page.frontmatter.get("person_a", ""), link_map)
     person_b = resolve_page_reference(page.frontmatter.get("person_b", ""), link_map)
     return {
+        "path": f"{page.source_root}/{page.vault_rel}",
         "title": page.title,
         "url": page.site_rel,
         "type": relationship_type,
@@ -1059,6 +1066,80 @@ def relationship_card(page: SitePage, link_map: dict[str, SitePage]) -> dict[str
         "personB": person_b,
         "snippet": page.text[:280],
     }
+
+
+def relationship_cards_from_index(root: Path, link_map: dict[str, SitePage]) -> list[dict[str, object]]:
+    payload = load_json(root / "research" / "_indexes" / "relationships.json")
+    records = payload.get("relationships", []) if isinstance(payload, dict) else []
+    if not isinstance(records, list):
+        return []
+    cards: list[dict[str, object]] = []
+    for record in records:
+        if not isinstance(record, dict):
+            continue
+        relationship_type = str(record.get("relationship_type") or "relationship")
+        person_a = resolve_page_reference(str(record.get("person_a") or ""), link_map)
+        person_b = resolve_page_reference(str(record.get("person_b") or ""), link_map)
+        label = relationship_type_label(relationship_type)
+        title = " ".join(
+            part
+            for part in [
+                str(person_a.get("label") or "").strip(),
+                label,
+                str(person_b.get("label") or "").strip(),
+            ]
+            if part
+        )
+        cards.append(
+            {
+                "path": str(record.get("path") or ""),
+                "title": title or prettify_stem(Path(str(record.get("path") or "relationship")).stem),
+                "url": relationship_url_from_path(str(record.get("path") or ""), link_map),
+                "type": relationship_type,
+                "label": label,
+                "status": str(record.get("status") or ""),
+                "confidence": str(record.get("confidence") or ""),
+                "personA": person_a,
+                "personB": person_b,
+                "snippet": str(record.get("evidence_for") or "")[:280],
+            }
+        )
+    return cards
+
+
+def relationship_url_from_path(path: str, link_map: dict[str, SitePage]) -> str:
+    normalized = normalize_link_key(path)
+    candidates = [
+        normalized,
+        normalized.removeprefix("wiki/"),
+        normalized.removeprefix("research/"),
+    ]
+    for candidate in candidates:
+        resolved = link_map.get(candidate)
+        if resolved:
+            return resolved.site_rel
+    return ""
+
+
+def dedupe_relationship_cards(relationships: list[dict[str, object]]) -> list[dict[str, object]]:
+    seen: set[str] = set()
+    output: list[dict[str, object]] = []
+    for relationship in relationships:
+        person_a = relationship.get("personA") if isinstance(relationship.get("personA"), dict) else {}
+        person_b = relationship.get("personB") if isinstance(relationship.get("personB"), dict) else {}
+        key = "|".join(
+            [
+                str(relationship.get("path") or ""),
+                str(relationship.get("type") or ""),
+                str(person_a.get("target") or person_a.get("label") or ""),
+                str(person_b.get("target") or person_b.get("label") or ""),
+            ]
+        )
+        if key in seen:
+            continue
+        seen.add(key)
+        output.append(relationship)
+    return output
 
 
 def resolve_page_reference(value: str, link_map: dict[str, SitePage]) -> dict[str, str]:
@@ -1419,41 +1500,44 @@ def render_home_person_card(home_person: object) -> str:
 
 def render_tree_preview(family_wiki: dict[str, object]) -> str:
     home_person = family_wiki.get("homePerson") if isinstance(family_wiki.get("homePerson"), dict) else None
-    relationships = family_wiki.get("directRelationships", [])
+    relationships = family_wiki.get("relationships", [])
     if not home_person or not isinstance(relationships, list) or not relationships:
         return '<section class="tree-board"><div class="empty-state">No family relationships are ready for the presentation tree yet.</div></section>'
-    ancestor_nodes = []
-    peer_nodes = []
-    descendant_nodes = []
     home_url = str(home_person.get("url") or "")
-    for relationship in relationships:
-        if not isinstance(relationship, dict):
-            continue
-        person_a = relationship.get("personA") if isinstance(relationship.get("personA"), dict) else {}
-        person_b = relationship.get("personB") if isinstance(relationship.get("personB"), dict) else {}
-        rel_type = str(relationship.get("type") or "")
-        if person_b.get("url") == home_url and any(term in rel_type for term in ("parent", "grandfather", "grandmother", "grandparent")):
-            ancestor_nodes.append(render_tree_person(person_a, relationship))
-        elif person_a.get("url") == home_url and any(term in rel_type for term in ("child", "grandchild")):
-            descendant_nodes.append(render_tree_person(person_b, relationship))
-        else:
-            other = person_b if person_a.get("url") == home_url else person_a
-            peer_nodes.append(render_tree_person(other, relationship))
-    ancestor_html = "".join(ancestor_nodes) or '<div class="tree-placeholder">Ancestors will appear here</div>'
-    peer_html = "".join(peer_nodes)
-    descendant_html = "".join(descendant_nodes)
     home_html = render_tree_person(
         {"label": str(home_person.get("title", "")), "url": str(home_person.get("url", ""))},
         {"label": "home person", "status": str(home_person.get("status", "")), "confidence": ""},
         home=True,
     )
+    edges = [render_tree_edge(relationship, home_url) for relationship in relationships[:24] if isinstance(relationship, dict)]
+    remaining = max(0, len(relationships) - len(edges))
+    remaining_html = f'<div class="tree-more">{remaining} more relationship(s) in the evidence list below.</div>' if remaining else ""
     return f"""
-    <section class="tree-board">
-      <div class="tree-generation ancestors">{ancestor_html}</div>
-      <div class="tree-connector" aria-hidden="true"></div>
-      <div class="tree-generation home-row">{home_html}{peer_html}</div>
-      {f'<div class="tree-connector" aria-hidden="true"></div><div class="tree-generation descendants">{descendant_html}</div>' if descendant_html else ''}
+    <section class="tree-board tree-network-board">
+      <div class="tree-generation home-row">{home_html}</div>
+      <div class="tree-network">{"".join(edges)}</div>
+      {remaining_html}
     </section>
+    """
+
+
+def render_tree_edge(relationship: dict[str, object], home_url: str) -> str:
+    person_a = relationship.get("personA") if isinstance(relationship.get("personA"), dict) else {}
+    person_b = relationship.get("personB") if isinstance(relationship.get("personB"), dict) else {}
+    label = str(relationship.get("label") or "connected to")
+    status = str(relationship.get("status") or "").replace("_", " ")
+    confidence = str(relationship.get("confidence") or "")
+    meta = " / ".join(part for part in [status, f"confidence {confidence}" if confidence else ""] if part)
+    home_related = person_a.get("url") == home_url or person_b.get("url") == home_url
+    class_name = "tree-edge home-related-edge" if home_related else "tree-edge"
+    href = str(relationship.get("url") or "#")
+    return f"""
+    <a class="{class_name}" href="{escape_attr(href)}">
+      <span>{html.escape(str(person_a.get("label") or "Unknown person"))}</span>
+      <strong>{html.escape(label)}</strong>
+      <span>{html.escape(str(person_b.get("label") or "Unknown person"))}</span>
+      <small>{html.escape(meta)}</small>
+    </a>
     """
 
 
@@ -1523,9 +1607,10 @@ def render_relationship_cards(relationships: object) -> str:
             f"confidence {relationship.get('confidence')}" if relationship.get("confidence") else "",
         ]
         meta = " | ".join(part for part in meta_parts if part)
+        href = str(relationship.get("url") or "#")
         cards.append(
             f"""
-            <a class="relationship-card" href="{escape_attr(str(relationship.get("url", "#")))}">
+            <a class="relationship-card" href="{escape_attr(href)}">
               <span>{html.escape(str(person_a.get("label") or "Unknown person"))}</span>
               <strong>{html.escape(str(relationship.get("label") or "connected to"))}</strong>
               <span>{html.escape(str(person_b.get("label") or "Unknown person"))}</span>
@@ -2219,6 +2304,10 @@ main {
   background-size: 34px 34px;
   box-shadow: var(--shadow);
 }
+.tree-network-board {
+  min-height: 0;
+  align-items: start;
+}
 .tree-generation {
   display: flex;
   flex-wrap: wrap;
@@ -2261,6 +2350,50 @@ main {
   height: 28px;
   justify-self: center;
   background: var(--teal);
+}
+.tree-network {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+}
+.tree-edge {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
+  min-height: 96px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+}
+.tree-edge:hover {
+  border-color: var(--teal);
+  text-decoration: none;
+}
+.tree-edge span,
+.tree-edge strong {
+  overflow-wrap: anywhere;
+}
+.tree-edge strong {
+  color: var(--teal);
+  text-align: center;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+}
+.tree-edge small {
+  grid-column: 1 / -1;
+  color: var(--muted);
+}
+.home-related-edge {
+  border-color: var(--teal);
+  box-shadow: inset 4px 0 0 var(--teal);
+}
+.tree-more {
+  color: var(--muted);
+  font-weight: 700;
+  text-align: center;
 }
 .family-grid {
   display: grid;

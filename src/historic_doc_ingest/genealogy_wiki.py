@@ -13586,11 +13586,26 @@ def parse_frontmatter(text: str) -> dict[str, str]:
     if not match:
         return {}
     data: dict[str, str] = {}
+    pending_list_key = ""
+    pending_list_values: dict[str, list[str]] = {}
     for line in match.group(1).splitlines():
+        stripped = line.strip()
+        if pending_list_key and stripped.startswith("-"):
+            item = stripped[1:].strip().strip('"').strip("'")
+            if item:
+                pending_list_values.setdefault(pending_list_key, []).append(item)
+            continue
+        pending_list_key = ""
         if ":" not in line:
             continue
         key, value = line.split(":", 1)
-        data[key.strip()] = value.strip().strip('"')
+        key = key.strip()
+        value = value.strip()
+        data[key] = value.strip('"')
+        if not value:
+            pending_list_key = key
+    for key, values in pending_list_values.items():
+        data[key] = json.dumps(values)
     return data
 
 
@@ -13599,6 +13614,10 @@ def parse_listish(value: str) -> list[str]:
     if not value or value == "[]":
         return []
     if value.startswith("[") and value.endswith("]"):
+        with contextlib.suppress(json.JSONDecodeError):
+            parsed = json.loads(value)
+            if isinstance(parsed, list):
+                return [str(item).strip() for item in parsed if str(item).strip()]
         return [item.strip().strip('"').strip("'") for item in value[1:-1].split(",") if item.strip()]
     return [value]
 

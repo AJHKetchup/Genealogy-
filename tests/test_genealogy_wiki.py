@@ -583,7 +583,9 @@ status: draft
 relationship_type: child_parent
 confidence: 8.0
 child: Child Alias
-parents: [Parent Alias]
+parents:
+  - Parent Alias
+  - Second Parent, With Comma
 promotion_recommendation: promote
 ---
 
@@ -630,6 +632,12 @@ The reviewed source supports a spouse relationship.
     assert any(
         "relationship_type: probable_parent" in text
         and "person_a: [[people/parent-alias]]" in text
+        and "person_b: [[people/child-alias]]" in text
+        for text in relationship_texts
+    )
+    assert any(
+        "relationship_type: probable_parent" in text
+        and "person_a: [[people/second-parent-with-comma]]" in text
         and "person_b: [[people/child-alias]]" in text
         for text in relationship_texts
     )
@@ -1404,16 +1412,19 @@ def test_cloud_workflow_refreshes_global_queue_after_source_filtered_run() -> No
     assert "--source \"$RUN_SOURCE\"" in workflow
 
 
-def test_cloud_workflow_has_continuous_schedule() -> None:
+def test_cloud_workflow_avoids_scheduled_api_conversion() -> None:
     workflow_path = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "cloud-source-prep.yml"
     workflow = workflow_path.read_text(encoding="utf-8")
 
     assert "push:" in workflow
     assert "branches:" in workflow
     assert "- main" in workflow
-    assert "schedule:" in workflow
-    assert 'cron: "*/15 * * * *"' in workflow
-    assert "Schedule is paused" not in workflow
+    assert "- \"raw/sources/**\"" in workflow
+    assert "- \".github/workflows/cloud-source-prep.yml\"" not in workflow
+    assert "- \"src/historic_doc_ingest/**\"" not in workflow
+    assert "- \"pyproject.toml\"" not in workflow
+    assert "schedule:" not in workflow
+    assert 'cron: "*/15 * * * *"' not in workflow
     assert "group: cloud-source-prep" in workflow
     assert "cancel-in-progress: false" in workflow
     assert "timeout-minutes: 360" in workflow
