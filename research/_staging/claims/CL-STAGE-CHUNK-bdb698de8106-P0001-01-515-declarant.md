@@ -11,8 +11,8 @@ converted_file: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nac
 chunk: raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0001-chunk-01.md
 chunk_id: CHUNK-bdb698de8106-P0001-01
 page_reference: page 1; register page 172; entry 515
-confidence: 7.0
-promotion_recommendation: revise_before_review
+confidence: 2.0
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Atomic Claim: Entry 515 Declarant
@@ -29,8 +29,8 @@ Dom.
 
 ## Conversion Confidence / QA Concern
 
-Medium. Declarant name and role are present, but age, profession, and domicile in the declarant column are blank.
+Low for the converted surname. Targeted image review appears closer to `Pedro Pablo Neira / Padre`, while the converted text reads `Pedro Pablo Leiva`; record 515 is partial.
 
 ## Uncertainty
 
-Same-person interpretation with the father field is probable within the entry but needs review.
+Hold before creating a canonical person because the entry is incomplete and the surname conflicts with the image-reviewed reading.

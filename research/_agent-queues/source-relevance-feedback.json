@@ -1,6 +1,6 @@
 {
   "created": "2026-05-22T01:02:23Z",
-  "updated": "2026-05-22T02:10:05Z",
+  "updated": "2026-05-22T05:46:09Z",
   "purpose": "Research-to-conversion relevance hints for source-prep model routing.",
   "hints": [
     {
@@ -116,6 +116,29 @@
       ],
       "agent": "post-conversion-review-feedback",
       "id": "source-relevance:21fae774a091"
+    },
+    {
+      "status": "active",
+      "created": "2026-05-22T05:46:09Z",
+      "updated": "2026-05-22T05:46:09Z",
+      "task_id": "",
+      "job_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
+      "source": "",
+      "source_sha256": "",
+      "converted_file": "",
+      "page": 8,
+      "relevance": "high",
+      "requested_treatment": "reread",
+      "reason": "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
+      "entities": [
+        "Dario Arturo Pulgar"
+      ],
+      "matched_terms": [
+        "proof-review-hold",
+        "missing-page-image"
+      ],
+      "agent": "post-conversion-review-feedback",
+      "id": "source-relevance:c82472818507"
     }
   ]
 }

@@ -12,7 +12,7 @@ chunk: raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-cir
 chunk_id: CHUNK-bdb698de8106-P0001-01
 page_reference: page 1; register page 172; entry 513
 confidence: 8.0
-promotion_recommendation: promote_after_review
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Atomic Claim: Entry 513 Father
@@ -25,7 +25,7 @@ Nombre del padre. José del Carmen Pulgar
 
 ## Conversion Confidence / QA Concern
 
-High for the father field, pending review of the child's exact registered name.
+Medium. Image review supports the father field as `José del Carmen Pulgar` or similar, but the converted child-name reading for entry 513 conflicts materially with the image. Hold parentage until conversion QA resolves the child identity.
 
 ## Uncertainty
 

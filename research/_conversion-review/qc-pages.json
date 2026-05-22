@@ -34,13 +34,11 @@
       "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
-      "page": 4,
-      "recommended_action": "reread-page",
-      "conversion_confidence": "medium",
+      "page": 1,
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
       "family_relevance": "high",
-      "quality_flags": [
-        "explicit_reread_needed"
-      ],
+      "quality_flags": [],
       "matched_terms": [
         "Arturo",
         "Dario",
@@ -88,10 +86,12 @@
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
       "page": 7,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "medium",
       "family_relevance": "high",
-      "quality_flags": [],
+      "quality_flags": [
+        "explicit_reread_needed"
+      ],
       "matched_terms": [
         "Arturo",
         "Dario",
@@ -19425,13 +19425,11 @@
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
-      "page": 4,
-      "recommended_action": "spot-check",
-      "conversion_confidence": "medium",
+      "page": 9,
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
       "family_relevance": "none",
-      "quality_flags": [
-        "possible_table_layout_loss"
-      ],
+      "quality_flags": [],
       "matched_terms": [],
       "suspicious_readings": []
     },
@@ -19451,7 +19449,7 @@
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
-      "page": 6,
+      "page": 11,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "none",
@@ -27451,7 +27449,7 @@
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
       "chunk_manifest": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 11,
+      "page": 8,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "none",
@@ -27516,7 +27514,7 @@
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
       "chunk_manifest": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 15,
+      "page": 12,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "none",

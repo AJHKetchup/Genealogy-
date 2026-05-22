@@ -12,7 +12,7 @@ chunk: raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-cir
 chunk_id: CHUNK-bdb698de8106-P0001-01
 page_reference: page 1; register page 172; entry 515
 confidence: 7.0
-promotion_recommendation: revise_before_review
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Atomic Claim: Entry 515 Child Name
@@ -26,8 +26,8 @@ Sexo.
 
 ## Conversion Confidence / QA Concern
 
-Medium. The name is readable in conversion, but the sex field is blank.
+Low for the converted name. Targeted image review shows record 515 is partial and appears closer to `Neira Elvira / Laura de la Cruz...`, conflicting with the converted `Rosa Elvira del Carmen`.
 
 ## Uncertainty
 
-Do not infer sex from the name alone in canonical data.
+Do not infer sex or canonical identity from the converted name until conversion QA resolves the partial row.

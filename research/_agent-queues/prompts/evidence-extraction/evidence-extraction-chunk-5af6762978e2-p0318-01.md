@@ -13,6 +13,7 @@ Use `$genealogy-claim-extraction`.
 - Staging area: `research/_staging`
 
 
+
 ## Done When
 
 - Relevant source packets, atomic claim drafts, relationship candidates, identity/conflict candidates, and research tasks are written under `research/_staging/`.

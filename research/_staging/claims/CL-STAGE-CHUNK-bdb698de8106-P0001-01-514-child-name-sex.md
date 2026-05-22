@@ -11,8 +11,8 @@ converted_file: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nac
 chunk: raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0001-chunk-01.md
 chunk_id: CHUNK-bdb698de8106-P0001-01
 page_reference: page 1; register page 172; entry 514
-confidence: 8.0
-promotion_recommendation: promote_after_review
+confidence: 4.0
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Atomic Claim: Entry 514 Child Name And Sex
@@ -26,8 +26,8 @@ Sexo. Masculino
 
 ## Conversion Confidence / QA Concern
 
-High for name and sex, with name order requiring review before canonical parsing.
+Low for the converted name. Targeted image review appears closer to `Riquelme / Juan Bautista` with `Sexo. Masculino`, creating a material conflict with the converted `Riquelme Juan Teodoro`.
 
 ## Uncertainty
 
-Do not split surnames and given names without proof review.
+Do not create or merge a canonical person from this claim until conversion QA resolves the child name.

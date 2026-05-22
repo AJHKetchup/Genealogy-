@@ -12,7 +12,7 @@ chunk: raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-cir
 chunk_id: CHUNK-bdb698de8106-P0001-01
 page_reference: page 1; register page 172; entry 513
 confidence: 8.0
-promotion_recommendation: promote_after_review
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Atomic Claim: Entry 513 Declarant
@@ -29,7 +29,7 @@ Dom. Calle Colon
 
 ## Conversion Confidence / QA Concern
 
-High for the declarant column. Same-person interpretation with `José del Carmen Pulgar` is probable within the entry but still needs identity review.
+Medium. Image review broadly supports `José del C. Pulgar` as declarant/father in entry 513, but the same row has a material child-name conflict between the converted transcript and the image-reviewed reading. Hold the row for conversion QA before promoting dependent claims.
 
 ## Uncertainty
 

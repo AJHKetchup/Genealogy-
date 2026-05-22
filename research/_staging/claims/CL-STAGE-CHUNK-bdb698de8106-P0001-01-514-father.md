@@ -11,8 +11,8 @@ converted_file: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nac
 chunk: raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0001-chunk-01.md
 chunk_id: CHUNK-bdb698de8106-P0001-01
 page_reference: page 1; register page 172; entry 514
-confidence: 7.5
-promotion_recommendation: promote_after_review
+confidence: 2.0
+promotion_recommendation: do_not_promote
 ---
 
 # Atomic Claim: Entry 514 Father
@@ -25,8 +25,8 @@ Nombre del padre. Belisario Riquelme
 
 ## Conversion Confidence / QA Concern
 
-Medium-high. Nationality, profession, and domicile fields for the father appear blank.
+Low. Targeted image review appears to read `Se ignora` in the father field, conflicting with the converted `Belisario Riquelme`.
 
 ## Uncertainty
 
-Identity merge requires review because few details are provided.
+Do not promote `Belisario Riquelme` as father from this bdb packet unless conversion QA overturns the image-reviewed `Se ignora` reading.

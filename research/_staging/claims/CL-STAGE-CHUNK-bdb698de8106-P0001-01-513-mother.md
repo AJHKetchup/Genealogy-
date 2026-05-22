@@ -12,7 +12,7 @@ chunk: raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-cir
 chunk_id: CHUNK-bdb698de8106-P0001-01
 page_reference: page 1; register page 172; entry 513
 confidence: 8.0
-promotion_recommendation: promote_after_review
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Atomic Claim: Entry 513 Mother
@@ -25,7 +25,7 @@ Nombre de la madre. Juana de Dios Amador de Pulgar
 
 ## Conversion Confidence / QA Concern
 
-High for the mother field, pending review of the child's exact registered name.
+Medium. Image review supports a mother reading close to `Juana de Dios Amagada/Amador de Pulgar`, but the surname and child identity require conversion QA before canonical use.
 
 ## Uncertainty
 

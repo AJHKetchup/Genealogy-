@@ -3,7 +3,7 @@ type: staged_atomic_claims
 task_id: evidence-extraction:CHUNK-3d3ab761209f-P0001-01
 chunk_id: CHUNK-3d3ab761209f-P0001-01
 status: draft
-promotion_recommendation: promote_supported_claims_after_review
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Atomic Claim Drafts: Birth Register Entries 513-515
@@ -12,8 +12,8 @@ promotion_recommendation: promote_supported_claims_after_review
 
 - Source path: `raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png`
 - Converted file: `raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md`
-- Chunk/page reference: `raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0001-chunk-01.md`, CHUNK-3d3ab761209f-P0001-01, page range 1-1, register page 172
-- Conversion confidence / QA concern: high for main tabular facts; record 514 has QA notes for witness surname `Utiera` and street `Sanegueso`; page is cropped at bottom but the three entries are transcribed as complete.
+- Chunk/page reference: `raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513-codex/page-0001-chunk-01.md`, CHUNK-3d3ab761209f-P0001-01, image page 1, register page 172
+- Conversion confidence / QA concern: image review supports the assigned chunk over the assembled converted Markdown for the main identity structure, but the derivative transcripts disagree materially. Record 514 has unresolved witness/street readings. Entry 515 is cropped at the bottom, so mother-field claims remain transcription-dependent and should not be promoted.
 
 ## Record 513: Pulgar Amagada, Jose Luis
 
@@ -57,8 +57,8 @@ promotion_recommendation: promote_supported_claims_after_review
 | ca515-004 | Laura de la Cruz Neira Ulloa was born at Calle Santiago. | "**Lugar.**<br>Calle Santiago" | "Santiago" appears as both place/street and domicile in the entry; do not infer city without review. | Promote after review. |
 | ca515-005 | Pedro Pablo Neira is named as the child's father. | "**Nombre del padre.**<br>Pedro Pablo Neira" | Reconcile with existing Neira identities before canonical merge. | Promote after identity review. |
 | ca515-006 | Pedro Pablo Neira was Chilean, an agriculturist, and domiciled at Santiago. | "**Nac.** Chileno **Prof.** Agricultor<br>**Domicilio.** Santiago" | Domicile wording is "Santiago"; avoid expanding it. | Promote after review. |
-| ca515-007 | Carmen Ulloa is named as the child's mother. | "**Nombre de la madre.**<br>Carmen Ulloa" | Reconcile with existing Ulloa identities before canonical merge. | Promote after identity review. |
-| ca515-008 | Carmen Ulloa was Chilean, occupied in "labores de su sexo", and domiciled at Santiago. | "**Nac.** Chilena **Prof.** Labores de su sexo<br>**Domicilio.** Santiago" | Occupation phrase is period language; preserve literal wording. | Promote after review. |
+| ca515-007 | Carmen Ulloa is named as the child's mother in the assigned chunk. | Assigned chunk: "**Nombre de la madre.**<br>Carmen Ulloa" | The available image does not visibly confirm the lower mother field because entry 515 is cropped at the bottom; converted file omits the mother name. | Hold for conversion QA. |
+| ca515-008 | Carmen Ulloa was Chilean, occupied in "labores de su sexo", and domiciled at Santiago, according to the assigned chunk. | Assigned chunk: "**Nac.** Chilena **Prof.** Labores de su sexo<br>**Domicilio.** Santiago" | Unsupported by the available image in this pass because the lower row is cropped; preserve only as a lead. | Hold for conversion QA. |
 | ca515-009 | Pedro Pablo Neira appeared as declarant for entry 515, identified as the father. | "Pedro Pablo Neira<br>Padre" | Same-entry identity with named father is likely but should be reviewed. | Promote after review. |
 | ca515-010 | Pedro Pablo Neira was 26 years old, an agriculturist, and domiciled at Santiago at the time of registration. | "**Edad.** Veinte i seis Años<br>**Prof.** Agricultor<br>**Dom.** Santiago" | Age belongs to declarant column; if same as father, it supports approximate birth year. | Promote after identity review. |
 | ca515-011 | Rosendo Ramirez H. and Santiago Perez are listed as witnesses for entry 515. | "**Por los testigos:**<br>Rosendo Ramirez H.<br>Santiago Perez" | Accents omitted in conversion; do not normalize names without review. | Promote only if witness tracking is in scope. |

@@ -16,7 +16,7 @@ page_reference: page 1; register page 172
 page_start: 1
 page_end: 1
 entries: [513, 514, 515]
-promotion_recommendation: promote_after_review
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Source Packet: Los Angeles Birth Register, 1889, Page 172
@@ -37,14 +37,23 @@ Páj. 172
 
 The table includes birth registrations numbered `513`, `514`, and `515`.
 
+## Image QA And Derivative-Transcript Conflict
+
+Targeted review of the original image supports the page heading as `Los Anjeles`, `núm. 1º de La Laja`, matching the assigned bdb chunk on that point. The same image review found material conflicts between the assigned converted/chunk transcript and visible record evidence:
+
+- Record 513: the image appears to show a child name closer to `Pulgar ... / José Luis` with `Sexo. Masculino`, not the converted `Isolina del Carmen José`.
+- Record 514: the image appears to show child `Riquelme / Juan Bautista`, father field `Se ignora`, mother/declarant `Mercedes Riquelme`, witnesses probably `Benjamin Utrosa` and `Ignacio Jara`, and a street reading closer to `Calle San...`/`Calle Sanegueso` than the converted `Riquelme Juan Teodoro`, `Belisario Riquelme`, and `Calle Saneguin`.
+- Official signature: the image appears consistent with `Emilio Lininger` or a similar reading, but the surname remains difficult and should not be promoted without proof review.
+- Record 515: only the upper portion is visible in the source image. The image appears to show child `Neira Elvira / Laura de la Cruz...`, father/declarant `Pedro Pablo Neira`, and witnesses beginning with `Jose D. Ramirez H.` and `Santiago Fuentes`; this conflicts with the converted `Rosa Elvira del Carmen` and `Pedro Pablo Leiva`.
+
 ## Conversion Confidence And QA Concern
 
-Overall confidence is medium-high for the tabular structure, dates, principal names, parent fields, and declarant fields. QA concerns remain for record 513 because the child name field reads `Isolina del Carmen` followed by `José` while the sex field says `Masculino`; for record 514 because the place/street is transcribed as `Calle Saneguin`; and for record 515 because sex, birthplace, mother, and some declarant details are blank in the converted table.
+Overall confidence is high for source identity, page 172, the heading `Los Anjeles`, `La Laja`, and the presence of records 513, 514, and a partial 515. Confidence is low for the assigned converted transcript's person-name, parentage, witness, street, and record-completeness readings. Preserve the disagreement between derivative transcript and image-reviewed evidence; do not promote claims from this packet until conversion QA reconciles the bdb converted text with the image.
 
 ## Uncertainty
 
-Do not normalize names, nineteenth-century spelling, or street names before image/proof review. Preserve `Los Anjeles`, `Calle Colon`, and `Calle Saneguin` as transcribed.
+Do not normalize names, nineteenth-century spelling, or street names before conversion QA. Preserve both layers: the assigned bdb converted text and the image-reviewed disagreement notes above.
 
 ## Promotion Recommendation
 
-Promote after proof review as a source packet for the three transcribed civil birth registrations.
+Hold for conversion QA before proof review or canonical promotion. The packet now cites the correct bdb chunk path and chunk ID, but the converted transcript conflicts materially with the source image.

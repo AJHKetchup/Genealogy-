@@ -12,7 +12,7 @@ chunk: raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-cir
 chunk_id: CHUNK-bdb698de8106-P0001-01
 page_reference: page 1; register page 172; entry 515
 confidence: 8.5
-promotion_recommendation: promote_after_review
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Atomic Claim: Entry 515 Registration Date
@@ -25,8 +25,8 @@ Julio veintitres de mil ochocientos ochenta i nueve
 
 ## Conversion Confidence / QA Concern
 
-High for the date.
+Medium. The date field is partly visible, but record 515 is partial in the source image and has material name/surname conflicts with the converted transcript.
 
 ## Uncertainty
 
-None beyond proof review.
+Hold with the entry-level conversion QA issue.

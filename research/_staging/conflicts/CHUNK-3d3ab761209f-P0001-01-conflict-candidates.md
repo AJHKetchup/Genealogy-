@@ -1,9 +1,15 @@
 ---
-type: staged_conflict_candidates
-task_id: evidence-extraction:CHUNK-3d3ab761209f-P0001-01
-chunk_id: CHUNK-3d3ab761209f-P0001-01
+type: conflict_candidate
 status: draft
-promotion_recommendation: hold_for_review
+task_id: evidence-extraction:CHUNK-3d3ab761209f-P0001-01
+source_packet: "research/_staging/source-packets/CHUNK-3d3ab761209f-P0001-01-source-packet.md"
+source: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png"
+converted_file: "raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md"
+chunk: "raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513-codex/page-0001-chunk-01.md"
+chunk_id: "CHUNK-3d3ab761209f-P0001-01"
+page_reference: "image page 1; register page 172; entries 513-515"
+confidence: medium
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Conflict And QA Candidates: Birth Register Entries 513-515
@@ -12,13 +18,27 @@ promotion_recommendation: hold_for_review
 
 - Source path: `raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png`
 - Converted file: `raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md`
-- Chunk/page reference: `raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0001-chunk-01.md`, CHUNK-3d3ab761209f-P0001-01, page range 1-1, register page 172
-- Conversion confidence / QA concern: main entries high; specific QA concerns listed below.
+- Chunk/page reference: `raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513-codex/page-0001-chunk-01.md`, `CHUNK-3d3ab761209f-P0001-01`, image page 1, register page 172
 
-| Candidate id | Candidate issue | Literal support | Uncertainty | Promotion recommendation |
-| --- | --- | --- | --- | --- |
-| conflict-514-father-unknown | Record 514 explicitly states that the father is unknown. | "**Nombre del padre.**<br>Se ignora" | This conflicts with any later claim assigning a father to Juan Bautista Riquelme Aviles unless supported by stronger evidence. | Promote as a conflict/negative-evidence note after review. |
-| qa-514-witness-utiera | Witness surname in record 514 may be misread. | Converted witness text: "Benjamin Utiera"; conversion note: "The surname of the witness in record 514 is transcribed as `Utiera`, but the handwriting is somewhat difficult to read." | The visible source should be checked before creating or merging a witness identity. | Hold pending image review. |
-| qa-514-street-sanegueso | Street name in record 514 is unusual. | Converted location and domicile text: "Calle Sanegueso"; conversion note: "The street name in record 514 is transcribed as `Sanegueso`, which is an unusual spelling. The handwriting is clear, but the name itself is uncommon." | May be a period street name, spelling variant, or conversion/read issue. | Promote only with QA note after image/place review. |
-| qa-515-neira-emendation | Record 515 has a surname emendation note. | "Neira=emendado=<br>vale=<br>Emilio Larenas<br>O. de R. C." | Supports "Neira" as corrected text but should be verified against image before canonical normalization. | Hold for image review before promotion. |
-| qa-page-cropped | The page is cropped at the bottom. | Conversion audit: "The page is from a bound volume and is cropped at the bottom, so there may be additional records on the physical page that are not visible in the image. Three complete records (513, 514, 515) have been transcribed." | Does not undermine the three extracted entries but limits page-level completeness. | Preserve as source packet QA note. |
+## Image-Reviewed Conflict Notes
+
+| Candidate id | Candidate issue | Literal support | Conversion confidence / QA concern | Uncertainty | Promotion recommendation |
+| --- | --- | --- | --- | --- | --- |
+| conflict-514-father-unknown | Entry 514 states that the father was unknown in this registration. | Image-visible father field and assigned chunk: `Nombre del padre. Se ignora`. | The assembled converted file conflicts by naming `Belisario Riquelme`; the image supports the assigned chunk for this field. | This is negative evidence from this registration only. It does not prove biological paternity was unknowable in all sources. | `do_not_promote` as a tree relationship; promote only as a negative-evidence/conflict note after proof review. |
+| qa-514-witness-surname | Entry 514 first witness surname is still uncertain. | Assigned chunk: `Benjamin Utiera`; converted file: `Benjamin Utrosa`; image shows `Benjamin U...` but the final letters are not secure at this extraction resolution. | Keep both derivative readings as competing transcript evidence. | Do not create or merge a witness identity until a targeted crop is reviewed. | `hold_for_conversion_qa` |
+| qa-514-street | Entry 514 street/place reading remains uncertain. | Assigned chunk: `Calle Sanegueso`; converted file: `Calle Saneguin`; image suggests a Calle S... reading but does not fully settle the surname/street form here. | Preserve as a place-reading QA limitation. | Do not normalize to a modern street or attach geocoding from this reading alone. | `hold_for_conversion_qa` |
+| qa-515-neira-emendation | Entry 515 has an image-visible surname emendation note. | Image and assigned chunk: `Neira=emendado=` and `vale=`. | Supports that `Neira` was corrected or validated in the entry, but the converted file conflicts on the child/father surname by reading `Leiva`. | The visible note supports a source-context note; it does not by itself resolve all cropped lower-row details. | `hold_for_conversion_qa` pending proof review of the targeted entry 515 crop. |
+| qa-515-bottom-crop | The available image cuts off the lower portion of entry 515. | Image shows upper/middle portions of entry 515 but not the complete lower mother/domicile area. | The assigned chunk supplies `Carmen Ulloa`, but the image available in this pass does not visibly confirm the full mother field. | Keep mother relationship and mother vital/residence claims on hold unless a complete image or correction note confirms them. | `hold_for_conversion_qa` |
+
+## Material Derivative-Transcript Conflicts
+
+- Entry 513 child: assigned chunk has `Pulgar Amagada / Jose Luis`; converted file has `Isolina del Carmen / Jose`.
+- Entry 513 birth: assigned chunk has 26 June 1889 at 4:30 p.m.; converted file has 22 July 1889 at 4:00 a.m.
+- Entry 513 mother: assigned chunk has `Juana de Dios Amagada de Pulgar`; converted file has `Juana de Dios Amador de Pulgar`; image supports the Pulgar row but the maternal surname remains a QA-sensitive reading.
+- Entry 514 child: assigned chunk has `Riquelme Aviles / Juan Bautista`; converted file has `Riquelme Juan Teodoro`.
+- Entry 514 father: assigned chunk and image have `Se ignora`; converted file has `Belisario Riquelme`.
+- Entry 515 child and parents: assigned chunk has `Neira Ulloa / Laura de la Cruz`, father `Pedro Pablo Neira`, mother `Carmen Ulloa`; converted file has `Rosa Elvira del Carmen`, father `Pedro Pablo Leiva`, no mother name.
+
+## Promotion Recommendation
+
+`hold_for_conversion_qa`: only the negative-evidence conflict for entry 514's father is currently strong enough to carry forward after proof review, and even that should be promoted as a conflict/negative-evidence note rather than a parent-child tree link.

@@ -12,7 +12,7 @@ chunk: raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-cir
 chunk_id: CHUNK-bdb698de8106-P0001-01
 page_reference: page 1; register page 172; entry 513
 confidence: 6.0
-promotion_recommendation: revise_before_review
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Atomic Claim: Entry 513 Child Name And Sex
@@ -25,8 +25,8 @@ promotion_recommendation: revise_before_review
 
 ## Conversion Confidence / QA Concern
 
-Medium. The name presentation is internally odd because `Isolina del Carmen` is usually feminine while the sex is `Masculino`, and `José` may be part of the given name or a misordered/continued text.
+Low for the converted name. Targeted image review appears closer to `Pulgar ... / José Luis` with `Sexo. Masculino`, creating a material conflict with the converted `Isolina del Carmen José`.
 
 ## Uncertainty
 
-Hold for image review before creating a canonical person or normalizing the child's name.
+Hold for conversion QA before creating a canonical person or normalizing the child's name.

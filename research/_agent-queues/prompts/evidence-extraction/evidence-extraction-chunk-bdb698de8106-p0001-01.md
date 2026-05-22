@@ -13,6 +13,17 @@ Use `$genealogy-claim-extraction`.
 - Staging area: `research/_staging`
 
 
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/proof-review-research-staging-source-packets-chunk-3d3ab761209f-p0001-01-source-packet-postconv-proof-review-20260522045504948.md` | `research/_staging/source-packets/CHUNK-3d3ab761209f-P0001-01-source-packet.md` | `revise` | Revise the source packet metadata so the cited chunk path matches `CHUNK-3d3ab761209f-P0001-01`, or revise the packet to match the currently cited `CHUNK-bdb698de8106-P0001-01` evidence path. Then perform targeted image QA for the heading (`Los Anjeles`, `La Laja`), record 514 witness and street readings, the official signature, and the completeness of record 515. Rerun proof review after revision before promotion to canonical claims, relationships, wiki people, or wiki families. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
+
+
 ## Done When
 
 - Relevant source packets, atomic claim drafts, relationship candidates, identity/conflict candidates, and research tasks are written under `research/_staging/`.

@@ -1,36 +1,49 @@
 ---
 type: conflict_candidate
 status: draft
-source_packet: "research/_staging/source-packets/sp-chunk-3d3ab761209f-p0001-01-los-angeles-birth-register-page-172.md"
+source_packet: "research/_staging/source-packets/CHUNK-3d3ab761209f-P0001-01-source-packet.md"
+source: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png"
+converted_file: "raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md"
+chunk: "raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513-codex/page-0001-chunk-01.md"
 chunk_id: "CHUNK-3d3ab761209f-P0001-01"
+page_reference: "image page 1; register page 172; entries 513-515"
+confidence: medium
 promotion_recommendation: hold_for_conversion_qa
 ---
 
-# Conflict And QA Candidates
+# Conversion Conflict Candidates
+
+## Source Reference
 
 Source path: `raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png`
 
 Converted file: `raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md`
 
-Chunk/page reference: `raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513-codex/page-0001-chunk-01.md`, CHUNK-3d3ab761209f-P0001-01, image page 1, register page 172.
+Chunk/page reference: `raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513-codex/page-0001-chunk-01.md`, `CHUNK-3d3ab761209f-P0001-01`, image page 1, register page 172.
+
+## Image-Reviewed Summary
+
+The source image is available and supports the assigned chunk more than the assembled converted Markdown for the principal identity structure. The conflict remains promotion-blocking because the derivative transcripts disagree and because the lower portion of entry 515 is cropped.
 
 ## Material Conflicts
 
-- Entry 513 child: assigned chunk has "Pulgar Amagada / José Luis"; converted file has "Isolina del Carmen / José".
+- Entry 513 child: assigned chunk has `Pulgar Amagada / Jose Luis`; converted file has `Isolina del Carmen / Jose`.
 - Entry 513 birth: assigned chunk has 26 June 1889 at 4:30 p.m.; converted file has 22 July 1889 at 4:00 a.m.
-- Entry 513 mother: assigned chunk has "Juana de Dios Amagada de Pulgar"; converted file has "Juana de Dios Amador de Pulgar".
-- Entry 514 child: assigned chunk has "Riquelme Aviles / Juan Bautista"; converted file has "Riquelme Juan Teodoro".
-- Entry 514 father: assigned chunk has "Se ignora"; converted file has "Belisario Riquelme".
-- Entry 515 child and parents: assigned chunk has "Neira Ulloa / Laura de la Cruz", father Pedro Pablo Neira, mother Carmen Ulloa; converted file has "Rosa Elvira del Carmen", father Pedro Pablo Leiva, no mother name.
+- Entry 513 mother: assigned chunk has `Juana de Dios Amagada de Pulgar`; converted file has `Juana de Dios Amador de Pulgar`; image review supports the Pulgar family row but the maternal surname should remain QA-sensitive.
+- Entry 514 child: assigned chunk has `Riquelme Aviles / Juan Bautista`; converted file has `Riquelme Juan Teodoro`.
+- Entry 514 father: assigned chunk and image have `Se ignora`; converted file has `Belisario Riquelme`.
+- Entry 514 witness/place: assigned chunk has `Benjamin Utiera` and `Calle Sanegueso`; converted file has `Benjamin Utrosa` and `Calle Saneguin`; image does not fully settle these readings in this pass.
+- Entry 515 child and father: assigned chunk and visible image support `Neira Ulloa / Laura de la Cruz` and father/declarant `Pedro Pablo Neira`; converted file has `Rosa Elvira del Carmen` and father `Pedro Pablo Leiva`.
+- Entry 515 mother: assigned chunk has `Carmen Ulloa`; converted file has no mother name; available image does not visibly confirm the lower mother field.
 
 ## Literal Support
 
-The material conflict is between the assigned chunk transcription and the converted Markdown transcription for the same source image and page.
+The conflict is between the assigned chunk transcription, the assembled converted Markdown transcription, and image-reviewed evidence for the same source page. Image-visible high-value readings include the heading `Los Anjeles, num. 1o de La Laja`, entry 514 father field `Se ignora`, and entry 515 emendation note `Neira=emendado= / vale=`.
 
 ## Conversion Confidence And QA Concern
 
-The existence of two divergent transcriptions makes conversion confidence low for canonical promotion, despite many internally coherent fields in the assigned chunk.
+Confidence is medium for the image-supported correction direction and low for immediate canonical promotion. A correction note or proof review should explicitly decide which derivative transcript is authoritative for each field.
 
 ## Uncertainty
 
-Image review is required to determine which transcription is correct before promotion.
+Hold all canonical relationship promotion for this chunk until the conversion conflict is resolved. Entry 514 father unknown can proceed only as negative evidence, not as a relationship. Entry 515 mother remains blocked by the bottom crop.

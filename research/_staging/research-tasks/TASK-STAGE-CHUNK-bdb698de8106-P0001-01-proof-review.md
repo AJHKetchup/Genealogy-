@@ -13,7 +13,8 @@ promotion_recommendation: do_not_promote
 
 # Research Tasks
 
-1. Review the source image for entry 513 to resolve whether the child name is `Isolina del Carmen José`, another ordering, or a transcription/read-order issue, and confirm the recorded sex.
-2. Review entry 514's birthplace/domicile spelling, currently transcribed as `Calle Saneguin`.
-3. Treat `Mercedes Riquelme ... Esposa de Juan Soler` as a separate identity/spouse clue and verify before any spouse linkage.
-4. Review entry 515's blank sex, birthplace, mother, and declarant-detail fields before deciding whether they are truly blank or conversion omissions.
+1. Reconcile the assigned bdb converted transcript against the image-reviewed evidence. The current image review indicates material conflicts in records 513, 514, and 515.
+2. For record 513, verify whether the child name is the converted `Isolina del Carmen José` or the image-visible `Pulgar ... / José Luis` reading; confirm sex `Masculino`.
+3. For record 514, verify child name (`Riquelme Juan Teodoro` versus `Riquelme / Juan Bautista`), father field (`Belisario Riquelme` versus `Se ignora`), witness names, and street reading.
+4. For the official signature, verify whether `Emilio Lininger / O. del R. C.` is the best reading.
+5. For record 515, treat the source image as partial/bottom-cropped and verify whether the image-visible names are `Neira Elvira / Laura de la Cruz...` and `Pedro Pablo Neira`; do not rely on the converted `Rosa Elvira del Carmen` or `Pedro Pablo Leiva` until conversion QA resolves the row.

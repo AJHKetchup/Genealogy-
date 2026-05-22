@@ -11,8 +11,8 @@ converted_file: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nac
 chunk: raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0001-chunk-01.md
 chunk_id: CHUNK-bdb698de8106-P0001-01
 page_reference: page 1; register page 172; entry 515
-confidence: 8.0
-promotion_recommendation: promote_after_review
+confidence: 2.0
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Atomic Claim: Entry 515 Father
@@ -26,8 +26,8 @@ Nac. Chileno Prof. Jornalero
 
 ## Conversion Confidence / QA Concern
 
-High for the father field and occupation.
+Low for the converted surname. Targeted image review appears closer to `Pedro Pablo Neira`, and record 515 is only partially visible in the source image.
 
 ## Uncertainty
 
-The mother's name is blank in the conversion; do not infer a spouse or mother from this father statement.
+Do not promote this father claim until conversion QA reconciles `Leiva` versus `Neira` and confirms the incomplete row.
