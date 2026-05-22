@@ -729,6 +729,17 @@ The literal support is sufficient for cautious promotion.
     assert not summary["skipped"]
 
 
+def test_review_ready_variants_allow_family_facing_promotion() -> None:
+    assert genealogy_wiki.review_readiness_allows_promotion("ready_for_canonical_claim")
+    assert genealogy_wiki.review_readiness_allows_promotion("ready_with_scope_note")
+    assert genealogy_wiki.review_readiness_allows_promotion("ready_for_scoped_promotion")
+    assert genealogy_wiki.review_readiness_allows_promotion("ready_after_review")
+    assert genealogy_wiki.review_readiness_allows_promotion("promote_after_review_for_registration_date_only")
+    assert not genealogy_wiki.review_readiness_allows_promotion("ready_source_metadata")
+    assert not genealogy_wiki.review_readiness_allows_promotion("promote_source_context_only")
+    assert not genealogy_wiki.review_readiness_allows_promotion("ready_to_close_no_conflict_not_for_canonical_promotion")
+
+
 def test_promote_staged_claim_waits_for_revise_review(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     staged_claims = tmp_path / "research" / "_staging" / "claims"

@@ -1547,7 +1547,20 @@ def normalize_review_readiness(value: str) -> str:
 
 def review_readiness_allows_promotion(value: str) -> bool:
     normalized = normalize_review_readiness(value)
-    return normalized in {"ready", "ready_with_caveats", "ready_to_promote", "promote", "approved"}
+    if normalized in {"ready", "ready_with_caveats", "ready_to_promote", "promote", "approved"}:
+        return True
+    blocking_terms = (
+        "source_metadata",
+        "source_context_only",
+        "context_only",
+        "not_for_canonical",
+        "not_for_promotion",
+        "do_not_promote",
+        "close_no_conflict",
+    )
+    if any(term in normalized for term in blocking_terms):
+        return False
+    return normalized.startswith("ready_") or normalized.startswith("promote_after_review")
 
 
 def review_readiness_is_revise(value: str) -> bool:

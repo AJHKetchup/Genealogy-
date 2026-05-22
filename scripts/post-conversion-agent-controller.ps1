@@ -296,7 +296,7 @@ function New-PromotionPrompt {
         $readyLines += "- $($review.staged_draft) ($($review.canonical_readiness); review: $($review.review_file))"
     }
     if ($readyLines.Count -eq 0) {
-        $readyLines = @("- No proof-review notes are currently marked canonical_readiness: ready or ready_with_caveats.")
+        $readyLines = @("- No proof-review notes are currently marked with promotion-ready canonical_readiness.")
     }
     $readySection = ($readyLines -join "`n")
     return @'
@@ -320,7 +320,7 @@ __READY_SECTION__
 
 ## Rules
 
-- Promote only staged material with explicit review notes showing strong source support, conservative scores, and canonical_readiness: ready.
+- Promote only staged material with explicit review notes showing strong source support, conservative scores, and promotion-ready canonical_readiness, such as ready, ready_with_caveats, ready_for_canonical_claim, ready_with_scope_note, ready_after_review, or ready_for_scoped_promotion.
 - Preserve probability, source quality, conflicts, and uncertainty in canonical pages; promotion is an operational state, not a truth binary.
 - Preserve the distinction between literal transcription and interpretation. Do not convert a suspected reading into canonical fact unless the review says the visible source supports it.
 - Living-family privacy is not a standalone hold for this internal family project; user approval was recorded in research/_automation/post-conversion-architecture.json. Still require reviewed evidence, source support, and conservative confidence/status labels.
@@ -353,7 +353,22 @@ function Normalize-ReviewReadiness {
 function Test-ReviewReadyForPromotion {
     param([string]$Value)
     $normalized = Normalize-ReviewReadiness -Value $Value
-    return $normalized -in @("ready", "ready_with_caveats", "ready_to_promote", "promote", "approved")
+    if ($normalized -in @("ready", "ready_with_caveats", "ready_to_promote", "promote", "approved")) {
+        return $true
+    }
+    $blockingTerms = @(
+        "source_metadata",
+        "source_context_only",
+        "context_only",
+        "not_for_canonical",
+        "not_for_promotion",
+        "do_not_promote",
+        "close_no_conflict"
+    )
+    foreach ($term in $blockingTerms) {
+        if ($normalized.Contains($term)) { return $false }
+    }
+    return $normalized.StartsWith("ready_") -or $normalized.StartsWith("promote_after_review")
 }
 
 function Test-StagedDraftCanBePromoted {
