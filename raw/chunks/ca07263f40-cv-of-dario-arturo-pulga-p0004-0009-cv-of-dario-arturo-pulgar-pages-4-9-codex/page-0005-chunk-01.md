@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-5f9286fc64f6-P0005-01
+chunk_id: CHUNK-1940bcca99c5-P0005-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: 5f9286fc64f68655a263b4bdb4967a11dc44095a20ce51edefd242a45fb3809b
+converted_sha256: 1940bcca99c5199ad0c341d9224c37a7ed1e9bcfa0339a4941970a2868027310
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -12,14 +12,19 @@ part: 1
 ---
 
 ## Page Metadata
-- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005`
-- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Page: 5
+
+- task_id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005`
+- page_num: 5
+- source_id: `ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9`
+- source_title: `CV of Dario Arturo Pulgar`
+- source_filename: `CV of Dario Arturo Pulgar.pdf`
 
 ## Layout And Reading Order
-The page is a single column of typewritten text, read from top to bottom. It contains five distinct entries from a curriculum vitae. Each entry is structured with a date or date range, followed by the name of an organization, a location, a job title (all in bold), and a descriptive paragraph detailing the work performed.
+
+The page consists of a single column of typed text. The content is a continuation of a curriculum vitae, with entries organized chronologically. Each entry is headed by a date or date range, followed by the organization, location, role, and a descriptive paragraph. The reading order is from top to bottom.
 
 ## Literal Transcription
+
 **1999**
 
 **National Trust Fund for Protected Areas in Peru (PROFONANPE)**
@@ -57,6 +62,7 @@ contract between the European Commission, Arca Consulting and the Lesotho Highla
 Development Authority.
 
 **1997-1998**
+
 **Klohn Crippen Consultants**
 **Huaraz, Peru**
 **Socio-economic Consultant**
@@ -71,18 +77,22 @@ Review implementation of a proposed training programme for the Development of th
 Maracaibo Plain Project. Co-ordinate with the World Bank and Canadian agencies a study tour
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other visual elements on this page. The page consists entirely of typewritten text.
+
+There are no images, illustrations, or other visual elements on this page. The content is entirely typed text.
 
 ## Uncertain Or Illegible
+
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page is a complete transcription of all visible text. The final entry on the page is incomplete and presumably continues on the next page of the source document.
+
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typewritten text and does not have any images, illustrations, or other significant visual elements."
+  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other visual elements suitable for cropping."
 }
 ```

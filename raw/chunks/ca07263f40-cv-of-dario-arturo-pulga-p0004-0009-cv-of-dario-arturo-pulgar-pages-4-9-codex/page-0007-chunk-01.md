@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-5f9286fc64f6-P0007-01
+chunk_id: CHUNK-1940bcca99c5-P0007-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: 5f9286fc64f68655a263b4bdb4967a11dc44095a20ce51edefd242a45fb3809b
+converted_sha256: 1940bcca99c5199ad0c341d9224c37a7ed1e9bcfa0339a4941970a2868027310
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -12,14 +12,28 @@ part: 1
 ---
 
 ## Page Metadata
+
 - Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0007`
+- Model route: `pro`
+- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
 - Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0007.md`
 - Page: 7
+- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0007.md`
+- External research relevance: `high`
+- External requested treatment: `reread`
+- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
+- Recommended action: ``
+- Quality flags: none
+- Technical reread clues: none
 
 ## Layout And Reading Order
-The document is a single-column text page. The content is organized chronologically in reverse order, with each entry representing a period of employment. Each entry begins with a bolded date range, followed by the bolded name of the organization, location, and job title. A descriptive paragraph follows each set of headings. The reading order is from top to bottom.
+
+The page is a single column of text, continuing a curriculum vitae. The content is organized into sections, each representing a period of employment or consultancy. Each section is headed by a date range, organization, location, and job title in bold text. Following the headings is a paragraph describing the work performed. The reading order is from top to bottom.
 
 ## Literal Transcription
+
 Governorate and the design and implementation of a modified Training and Visit System of
 Extension, coordinating the activities of the Government of Egypt (GOE) extension organisation
 with the project. Ensure liaison with governmental organisations in the agricultural field.
@@ -65,26 +79,30 @@ communication initiatives on world famine and agricultural production and prepar
 for the establishment of a communications unit in the Sahel, ii) design procedures for film and
 video production for the Public Information Division of the Canadian International Development
 Agency (CIDA), iii) review African Development Bank (AfDB) projects in Ivory Coast, Kenya,
-Tanzania, Ethiopia, Malawi, and Lesotho with reference to their communications, extension
+Tanzania, Ethiopia, Malawi and Lesotho with reference to their communications, extension
 approaches and public information, iv) establish a communication centre, appraise proposals
 and prepare a detailed plan of operations including equipment specifications for an
 EMBRAFILME Audio Visual Centre, and v) prepare a plan of operations of a health
 communication project with special emphasis on rural areas for CIDA in Islamabad, Pakistan
 
 ## Images, Captions, And Visual Notes
+
 This page contains only text. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
+
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-The transcription is a complete and accurate representation of all text on the page.
+
+The transcription of this page is complete and accurate. All text content has been transcribed.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page consists entirely of typed text and contains no images, illustrations, signatures, or other visual elements that would warrant cropping."
+  "no_visual_regions_reason": "This page consists entirely of text and has no images, illustrations, or other visual elements suitable for cropping."
 }
 ```
 
