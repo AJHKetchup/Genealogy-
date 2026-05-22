@@ -1336,97 +1336,90 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-# Page 53
-
 ## Page Metadata
 
-- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
-- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
-- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json`
-- Source page: 53
-- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/page-images/page-0053.jpg`
-- Conversion method: Docling basic conversion
-- Docling readability status: `rough_ok`
-- Docling readability flags: none
-- Extracted picture images: 0
+- **Source Title**: Guía Médica Nacional Profesiones Médicas y Paramedicas
+- **Publisher**: Servicio Nacional de Salud
+- **Publication City**: Santiago, Chile
+- **Publication Date**: July 1959
+- **Edition**: First Edition
+- **Page Number**: 56
 
 ## Layout And Reading Order
 
-Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+The page contains a directory listing of medical professionals. The content is arranged in a three-column table format. The columns are:
+1.  Full Name (Last Name, First Name)
+2.  Address
+3.  City
+
+The entries are read row by row, from left to right. At the bottom left of the page is the page number.
 
 ## Literal Transcription
 
-```markdown
-| Lara Lara, Gastón Lara Sazo, Carlos   | Bascuñán Guerrero 864 Cochrane 7'54   | Santiago Concepción   |
-|---------------------------------------|---------------------------------------|-----------------------|
-| Larach Jamiz, César                   | Av. José P. Alessandri 85             | Santiago              |
-| Larach Nazrala, Alejandro             | Moneda 720, Of. 205                   | Santiago              |
-| Larach Nazrala, Elias                 | Rosa Eguiguren 813, Of. 47            | Santiago              |
-| Larenas Barrera, Emilio               | Igualdad 240                          | Parral                |
-| Larenas Ovalle, Alberto               | O'Higgins 630                         | Concepción            |
-| Largo Robledo, Alfonso                | Prat 225                              | Rengo                 |
-| Larraguibel Camus, Hugo               | Gerónimo Vivar 75                     | Santiago              |
-| Larraguibel Moreno, Armando           | Ramón Nieto 920, Of. 301              | Santiago              |
-| Larraín Aguirre, Camilo               | Compañía 1615                         | Santiago              |
-| Larraín Eyzaguirre, Sergio            | República 440                         | Santiago              |
-| Larraín García, Arturo                | Vicuña Mackenna 4, 7' Piso            | Santiago              |
-| Larraín Marín, Eduardo                | Marcoleta 367                         | Santiago              |
-| Larraín Orrego, Augusto               | Avda. Salvador 1231                   | Santiago              |
-| Larraín Vidal, Adriana                | Teatinos 251, Depto. 3                | Santiago              |
-| Larson Dreves, Emilio                 | Pascual Baburiza 564                  | Santiago              |
-| Lastra Bernales, Manuel de la         | Ahumada 236, Of. 309                  | Santiago              |
-| Latorre Agüero, Augusto               | Gral. Gorostiaga 1314                 | Santiago              |
-| Latorre Blanco, Mariano               | Valentín Letelier 1373                | Santiago              |
-| Latorre Offermanns, María Josefina    | Víctor Lamas 280                      | Concepción            |
-| Latorre Troncoso, Gustavo             | Gertrudis Echenique 49                | Santiago              |
-| Lausic Yurició, Vicente               | Constitución 352                      | Illapel               |
-| Laval Manríquez, Enrique              | Lord Cochrane 309                     | Santiago              |
-| Laval Román, Enrique                  | Miguel Claro 278                      | Santiago              |
-| Lavarello Ramírez, Alfredo            | Cáceres 10 A                          | Rancagua              |
-| Lavín Gallegos, Arturo                | Merced 250 В                          | Santiago              |
-| Lavín Gallegos, Claudio               | Victoria 301                          | Cauquenes             |
-| Lavín Gazmuri, Juan de Dios           | Rosal 338                             | Santiago              |
-| Lavín Herrera, Atilio                 | Orompello 182                         | Concepción            |
-| Lazcano Alfonso, Fernando             | Avda. Providencia 109                 | Santiago              |
-| Lazo Cisternas, Pedro A.              | Ibieta 55                             | San Rosendo           |
-| Lazo Izquierdo, Mario                 | Sazié 2360                            | Santiago              |
-| Lazo Méndez, Efraín                   | Profesor Zañartu 299                  | Santiago              |
-| Lea Plaza Jenquel, Hugo               | Pedro de Valdivia 2008                | Santiago              |
-| Lecannelier Rivas, Sergio             | Lincoyán 95                           | Concepción            |
-| Lecaros Matte, Raúl                   | Moneda 1938                           | Santiago              |
-| Leelerc de Vandamme, Claude           | Las Bellotas 260                      | Santiago              |
-| Ledesma Zamora, Arnaldo               | Madrid 962                            | Santiago              |
-| Legarreta Peña, Adela                 | Agustinas 715, Dep. 302               | Santiago              |
-| Legarreta Peña, José                  | Santo Domingo 594, Depto. 2           | Santiago              |
-```
+| Name | Address | City |
+| :--- | :--- | :--- |
+| Lara Lara, Gastón | Bascuñán Guerrero 864 | Santiago |
+| Lara Sazo, Carlos | Cochrane 754 | Concepción |
+| Larach Jamiz, César | Av. José P. Alessandri 85 | Santiago |
+| Larach Nazrala, Alejandro | Moneda 720, Of. 205 | Santiago |
+| Larach Nazrala, Elías | Rosa Eguiguren 813,<br>Of. 47 | Santiago |
+| Larenas Barrera, Emilio | Igualdad 240 | Parral |
+| Larenas Ovalle, Alberto | O'Higgins 630 | Concepción |
+| Largo Robledo, Alfonso | Prat 225 | Rengo |
+| Larraguibel Camus, Hugo | Gerónimo Vivar 75 | Santiago |
+| Larraguibel Moreno, Armando | Ramón Nieto 920, Of. 301 | Santiago |
+| Larraín Aguirre, Camilo | Compañía 1615 | Santiago |
+| Larraín Eyzaguirre, Sergio | República 440 | Santiago |
+| Larraín García, Arturo | Vicuña Mackenna 4, 7º<br>Piso | Santiago |
+| Larraín Marín, Eduardo | Marcoleta 367 | Santiago |
+| Larraín Orrego, Augusto | Avda. Salvador 1231 | Santiago |
+| Larraín Vidal, Adriana | Teatinos 251, Depto. 3 | Santiago |
+| Larson Dreves, Emilio | Pascual Baburiza 564 | Santiago |
+| Lastra Bernales, Manuel de la | Ahumada 236, Of. 309 | Santiago |
+| Latorre Agüero, Augusto | Gral. Gorostiaga 1314 | Santiago |
+| Latorre Blanco, Mariano | Valentín Letelier 1373 | Santiago |
+| Latorre Offermanns, María Josefina | Víctor Lamas 280 | Concepción |
+| Latorre Troncoso, Gustavo | Gertrudis Echenique 49 | Santiago |
+| Lausic Yuricic, Vicente | Constitución 352 | Illapel |
+| Laval Manríquez, Enrique | Lord Cochrane 309 | Santiago |
+| Laval Román, Enrique | Miguel Claro 278 | Santiago |
+| Lavarello Ramírez, Alfredo | Cáceres 10 A | Rancagua |
+| Lavín Gallegos, Arturo | Merced 250 B | Santiago |
+| Lavín Gallegos, Claudio | Victoria 301 | Cauquenes |
+| Lavín Gazmuri, Juan de Dios | Rosal 338 | Santiago |
+| Lavín Herrera, Atilio | Orompello 182 | Concepción |
+| Lazcano Alfonso, Fernando | Avda. Providencia 109 | Santiago |
+| Lazo Cisternas, Pedro A. | Ibieta 55 | San Rosendo |
+| Lazo Izquierdo, Mario | Sazié 2360 | Santiago |
+| Lazo Méndez, Efraín | Profesor Zañartu 299 | Santiago |
+| Lea Plaza Jenquel, Hugo | Pedro de Valdivia 2008 | Santiago |
+| Lecannelier Rivas, Sergio | Lincoyán 95 | Concepción |
+| Lecaros Matte, Raúl | Moneda 1938 | Santiago |
+| Leclerc de Vandamme, Claude | Las Bellotas 260 | Santiago |
+| Ledesma Zamora, Arnaldo | Madrid 962 | Santiago |
+| Legarreta Peña, Adela | Agustinas 715, Dep. 302 | Santiago |
+| Legarreta Peña, José | Santo Domingo 594,<br>Depto. 2 | Santiago |
+| Lehuedé Alvarado, Héctor | Lourdes 749 | Santiago |
+
+56 —
 
 ## Images, Captions, And Visual Notes
 
-- No Docling picture regions were detected for this page.
-
-## Translation
-
-No translation was produced by the Docling basic conversion pass.
-
-## Interpretation
-
-No interpretation was produced by the Docling basic conversion pass.
+There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
 
-- Automated readability flags: none
-- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
-
-## Extracted Genealogy Leads
-
-- No genealogy leads were asserted by the Docling basic conversion pass.
+There are no uncertain or illegible portions of this document.
 
 ## Completeness Audit
 
-- Basic Docling conversion completed for this page.
-- Rendered page image link recorded.
-- Extracted picture image count: 0.
-- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+The entire content of the page has been transcribed. The work order specified page 53, but the page number printed on the provided image is "56". The transcription reflects the content of the image.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of text in a directory format with no images, illustrations, or other visual elements."}
+```
 
 # Page 54
 

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T18:32:48Z",
+  "created": "2026-05-22T23:47:33Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -10,21 +10,6 @@
   "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0006.md",
   "no_visual_regions_reason": "",
   "visual_regions": [],
-  "skipped_regions": [
-    {
-      "region_id": "region_1",
-      "kind": "text",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "6",
-      "source_context": "Handwritten page number."
-    },
-    {
-      "region_id": "region_2",
-      "kind": "text",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Continua a página 11",
-      "source_context": "Handwritten continuation note."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

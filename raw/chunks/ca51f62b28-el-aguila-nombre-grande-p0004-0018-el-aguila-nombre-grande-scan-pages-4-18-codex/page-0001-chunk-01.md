@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-ea70bd463639-P0001-01
+chunk_id: CHUNK-a853ba2002eb-P0001-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: ea70bd463639a6a3e99339c78bb0db71848abdfd60ef151514a993a4ea255fb7
+converted_sha256: a853ba2002ebd767570cd5574d2c33c4abf68d34b5fc21ab5d3eda1189ffc97f
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -13,61 +13,86 @@ part: 1
 
 ## Page Metadata
 - Page number: 4
-- Source publication year: 1950s (implied by content)
+- Publication: NUMERO GIGANTE
+- Date: ENERO - FEBRERO
 
 ## Layout And Reading Order
+The page is a single column of typed text. The reading order is from top to bottom.
 
-The page contains a title, a date range, a section heading "NOTAS", and two subsections: "ALMUERZO" and "MATRIMONIO". The content is presented in a single column.
+1.  `region_0`: Header at the top of the page.
+2.  `region_1`: Handwritten number and a horizontal line.
+3.  `region_2`: "NOTAS" section heading.
+4.  `region_3`: "ALMUERSO" section, including a heading and a paragraph.
+5.  `region_4`: "MATRIMONIO" section, including a heading and a paragraph.
+6.  `region_5`: Handwritten page number at the bottom center.
 
 ## Literal Transcription
+```markdown
+{{region_0}}
+NUMERO GIGANTE ENERO - FEBRERO
+{{/region_0}}
 
-NUMERO GIGANTE
-ENERO - FEBRERO
+{{region_1}}
 666
-NOTAS
+------------------------------------------------------------------------
+{{/region_1}}
 
-ALMUERZO
-EL 1.o DE FEBRERO DEL PRESENTE AÑO EN EL FUNDO LOS CUARTOS SE LLEVÓ A
-EFECTO UN ALMUERZO AL CUAL CONCURRIERON EL DISTINGUIDO FACULTATIVO
+{{region_2}}
+NOTAS
+{{/region_2}}
+
+{{region_3}}
+ALMUERSO
+----------
+EL 1o.DE FEBRERO DEL PRESENTE AÑO EN EL FUNDO LOS CUARTOS SE LLEVÓ A
+EFECTO UN ALMUERSO AL CUAL CONCURRIERON EL DISTINGUIDO FACULTATIVO
 DE CONCEPCION Y DECANO DE LA FACULTAD DE MEDICINA DE LA UNIVERSIDAD
 DE CONCEPCION DR IVAR HERMANSEN ACOMPAÑADO DE SU ESPOSA SRA ANNIE
 PAVON DE HERMANSEN Y DE SUS HIJOS ENRIQUE Y MARIA TERESA HERMANSEN.
-TAMBIEN PUDIMOS APRECIAR LA PRESENCIA DEL EX INTENDENTE DE BIO-BIO
-DR RENE PETERSEN Y SU ESPOSA. DESPUES DE UN ESPLENDIDO ALMUERZO EL
+TANBIEN PUDIMOS APRECIAR LA PRESENCIA DEL EX INTENDENTE DE BIO-BIO
+DR RENE PETERSEN Y SU ESPOSA. DESPUES DE UN ESPLENDIDO ALMUERSO EL
 DOCTOR HERMANSEN DURANTE LA TARDE SE DEDICÓ A LA PESCA DE SALMON EN
 EL RIO BIO-BIO PERO LA MALA SUERTE LE ENREDÓ LA LIENSA DE NYLON DEL
 CARRETE.
-EL DOCTOR PETERSEN DEBIÓ MARCHARSE A LOS ANGELES A CUMPLIR ALGUNOS C
-COMPROMISOS MARCHÁNDOSE ANTES DE ONCE. EN CAMBIO EL DOCTOR HERMANSEN
+EL DOCTOR PETERSEN DEBIÓ MARCHARSE A LOS ANGELES A CUNPLIR ALGUNOS C
+COMPROMISOS MARCHÁNDOSE ANTES DE ONCE. EN CANBIO EL DOCTOR HERMANSEN
 SE QUEDÓ A LA ONCE MARCHÁNDOSE APROXIMADAMENTE A LAS 8 DE LA TARDE
 AL FUNDO DEL DOCTOR PETERSEN DONDE SE HOSPEDABA PARA MARCHARSE DOS
-DIAS DESPUES A CONCEPCION A CUMPLIR SUS OBLIGACIONES.
+DIS DESPUES A CONDCEPCION A CUMPLIR SUS OBLIGACIONES
+{{/region_3}}
 
+{{region_4}}
 MATRIMONIO.
-EL SABADO 14 DE ENERO PASADO SE LLEVÓ AFECTO, PRIVADAMENTE EN LA CASA DE
-LA NOVIA EL MATRIMONIO DE LA SEÑORITA LUCIA ARRIGADA CON EL SEÑOR
+-----------
+EL SABADO 14 DE ENERO PASADO SE LLEVO AFECTO, PRIVADAMENTE EN LA CASA DE
+LA NOVIA EL MATRIMONIO DE LA SEÑORITA LUCIA ARRIAGADA CON EL SEÑOR
 LEOPOLDO PASCUAL BAILAC. NOTAMOSLEAL PRESENCIA DE DOS ANTIGUOS CABALLER
-DON JOSE MARIA Y DON CARLOS DE LA JARA. TAMBIEN AL PRESIDENTE DE LA CORTE
+DON JOSE MARIYA Y DON CARLOS DE LA JARA.TANBIE AL PRESIDENTE DE LA CORTE
 DE APELACIONES DON LUCAS SANHUEZA Y EL MINISTRO DE LA CORTE SEÑOR
-ESPEJO TAMBIEN AL INGENIERO DE "PROVIN CIA SR PIMENTEL
+ESPEJO TANBIEN AL INGENIERO DE PROVIN CIA SR PIMENTEL
+{{/region_4}}
 
+{{region_5}}
 4
+{{/region_5}}
+```
 
 ## Images, Captions, And Visual Notes
-- A handwritten number "4" is present at the bottom center of the page.
+- The number `666` is handwritten in the upper left corner.
+- The page number `4` is handwritten in red ink at the bottom center of the page.
+- In the name `JOSE MARIYA`, there is a handwritten mark, possibly an 'X' or a correction, over the letter 'I'.
 
 ## Uncertain Or Illegible
-- "C" in "ALGUNOS C COMPROMISOS" might be part of a word or an abbreviation.
-- "NOTAMOSLEAL" might be "NOTAMOS LEAL".
-- "PROVIN" in "PROVIN CIA" might be part of a word or an abbreviation.
+- The word `NOTAMOSLEAL` appears to be a typo, possibly for "NOTAMOS LA". It is transcribed as it appears.
+- The word `PROVIN CIA` is typed with a space in the middle. It is transcribed as it appears.
 
 ## Completeness Audit
-The transcription is complete and captures all visible text and layout elements.
+This page is fully transcribed.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present. Minor marks like page numbers are transcribed."
+  "no_visual_regions_reason": "The page contains only typed text and minor handwritten marks (page number, a number in the margin) that are fully described in the transcription and visual notes. There are no photographs, illustrations, or other significant visual elements that would warrant cropping."
 }
 ```

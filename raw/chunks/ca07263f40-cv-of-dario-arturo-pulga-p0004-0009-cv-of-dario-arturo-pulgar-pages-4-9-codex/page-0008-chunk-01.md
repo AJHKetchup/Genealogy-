@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-2e3ccb084dd8-P0008-01
+chunk_id: CHUNK-115bce3ce2e3-P0008-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: 2e3ccb084dd8116f54b1a18f89eb78c29c164e4cded791095f7068d91e9a7958
+converted_sha256: 115bce3ce2e34f097d9cd0801721345fd8c88d662ee95e1d3172ea389467998d
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -15,16 +15,16 @@ part: 1
 
 - task_id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0008`
 - page_number: 8
-- source_id: `CV of Dario Arturo Pulgar.pdf`
+- source_id: `codex:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9`
 
 ## Layout And Reading Order
 
-The page is a single column of text, continuing a curriculum vitae. The content is organized chronologically in reverse order, with each professional experience listed under a heading that includes the date range. Each entry consists of the date range (underlined), the employer's name (bold), the location, the job title (bold), and a descriptive paragraph. The page ends with the heading "EDUCATION". The reading order is from top to bottom.
+The page is a single column of text, continuing a curriculum vitae. The content is organized chronologically by employment period, from most recent to oldest. Each entry includes a date range, employer name and location, job title, and a descriptive paragraph. The page concludes with the heading "EDUCATION". The reading order is from top to bottom.
 
 ## Literal Transcription
 
-**<u>1979 - 1982</u>**
-**United Nations Centre for Human Settlements (HABITAT)**
+<u>1979 - 1982</u>
+United Nations Centre for Human Settlements (HABITAT)
 Nairobi, Kenya
 **Development Support Communications Officer**
 Establish a worldwide distribution system for films produced for Habitat, United Nations
@@ -38,8 +38,8 @@ communication. Carry out pre-feasibility missions in Africa including Uganda, Ta
 Mali and Senegal. Design information and/or training projects using audio-visual means in
 support of rural/urban settlers.
 
-**<u>1974 - 1978</u>**
-**National Film Board of Canada (NFB)**
+<u>1974 - 1978</u>
+National Film Board of Canada (NFB)
 Montreal, Canada
 **Audio Visual Consultant**
 As part of the NFB involvement with the United Nations Conference on Human Settlements
@@ -54,8 +54,8 @@ the production of six documentary films and iii) participate as production assis
 of two documentaries: "Waiting for Fidel" and "I Am an Old Tree" and translating the Spanish
 dialogue into English.
 
-**<u>1972 - 1973</u>**
-**Chile Films**
+<u>1972 - 1973</u>
+Chile Films
 Santiago, Chile
 **General Manager Distribution and Exhibition, Head of International Department**
 Develop a national policy for film distribution and exhibition. Purchase films for theatrical
@@ -64,8 +64,8 @@ Latin American Film Festival, Viña del Mar. Organise a 16mm distribution networ
 cinema units. Establish and maintain contacts with international film organisations. Review films
 for possible purchase. Organise film festivals and retrospective.
 
-**<u>1970 - 1972</u>**
-**Cine, Televisión y Comunicaciones (CITELCO)**
+<u>1970 - 1972</u>
+Cine, Televisión y Comunicaciones (CITELCO)
 Santiago, Chile
 **Producer**
 Direct company operations and produce feature theatrical films and documentaries. Organise
@@ -76,21 +76,21 @@ co-production of documentaries with Italy. Feature films produced include: "La C
 
 ## Images, Captions, And Visual Notes
 
-This page contains only text. There are no images, illustrations, or other visual elements.
+This page contains only text. There are no images, captions, or other visual elements.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this document.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-The entire content of the page has been transcribed. The page ends with the heading "EDUCATION", indicating that this section likely continues on the following page.
+The entire page has been transcribed.
 
 ## Visual Region Manifest
 
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page consists entirely of typed text and does not contain any images, illustrations, or other non-textual visual elements."
+  "no_visual_regions_reason": "This page consists entirely of typed text and contains no images, illustrations, photographs, or other significant visual elements."
 }
 ```

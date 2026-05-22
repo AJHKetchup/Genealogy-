@@ -1,18 +1,29 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-a048d567968b-P0001-04
+chunk_id: CHUNK-afeabe339cde-P0010-01
 source_converted: raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md
-converted_sha256: a048d567968b8a75637cfd97335b19160a7580fb273b37a293712691ec678466
+converted_sha256: afeabe339cdeb92c8c976e51e6210f771447f38484bd9e973054fd6a4c525421
 source: raw/sources/Habitat Revisited, Jim Carney, 2006.pdf
 source_sha256: fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9
 source_manifest: raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json
-page_start: 1
-page_end: 1
-part: 4
+page_start: 10
+page_end: 10
+part: 1
 ---
 
+## Page Metadata
+
+- **Page number**: 10
+- **Source file**: `raw/sources/Habitat Revisited, Jim Carney, 2006.pdf`
+
+## Layout And Reading Order
+
+The page consists of a single column of text. A page number, "10", is located at the top right corner. The reading order is from top to bottom.
+
 ## Literal Transcription
+
 10
+
 By early 1980, with UNCHS more or less operational in Nairobi, Andreas Fuglesang
 was appointed Chief of the Division of Information, Audio-Visual and Information.
 He assembled a team, some local Kenyans (black and white), some young expats
@@ -36,9 +47,9 @@ first six weeks, I met with UNCHS’ Executive Director, Dr. Ramachandran, a man
 incandescent intelligence and energy, and told him I had changed my mind and
 wanted the job on a more permanent basis. I remained in the post until April, 1986,
 when I returned to my hometown, Vancouver, as Commissioner General of the UN
-pavilion at Expo ’86. And that’s another story !!
+pavilion at Expo ‘86. And that’s another story !!
 
-IN THE END – WHY ?
+**IN THE END – WHY ?**
 
 I spent a total of thirteen years on the Habitat programme. I was and still am fre-
 quently asked “What is the value of these global UN conferences ?”, “Do they
@@ -49,6 +60,7 @@ develop and compare solutions to overarching global problems. Responsible min-
 isters gain clout at the cabinet table; issues they represent rise higher on govern-
 ment agendas. Such conferences help establish norms, advancing the goal posts
 of what is considered acceptable behaviour.
+
 The degree to which improvement actually occurs is dependent on the will, prior-
 ities and resources of individual governments – including donor states - who simul-
 taneously must confront and deal with other huge problems.
@@ -62,49 +74,22 @@ form of documents, audio, video tape and film and had to be physically flown
 and shipped across continents and oceans.
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+There are no images, captions, or other visual elements on this page. The page contains only typeset text.
 
 ## Uncertain Or Illegible
-None.
+
+All text on the page is clear and legible.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
+
+The full content of the page has been transcribed.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions present."}
 
-## Page Metadata
-Page number: 11
-
-## Layout And Reading Order
-
-Even so, when was the last time you saw a film or video produced in a developing
-country, by its own people, telling **their** story, **their** way ? Probably not since 1976.
-Think about it.
-
--0-
-
-4884 words. Feb. 26/06, 2006. All rights reserved. Gemini Communications Ltd.
-
-## Literal Transcription
-Even so, when was the last time you saw a film or video produced in a developing
-country, by its own people, telling **their** story, **their** way ? Probably not since 1976.
-Think about it.
-
--0-
-
-4884 words. Feb. 26/06, 2006. All rights reserved. Gemini Communications Ltd.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only typeset text with no images, illustrations, or other visual elements."
+}
 ```

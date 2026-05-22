@@ -10,79 +10,121 @@
 
 ## Page Metadata
 - Page number: 4
-- Source publication year: 1950s (implied by content)
+- Publication: NUMERO GIGANTE
+- Date: ENERO - FEBRERO
 
 ## Layout And Reading Order
+The page is a single column of typed text. The reading order is from top to bottom.
 
-The page contains a title, a date range, a section heading "NOTAS", and two subsections: "ALMUERZO" and "MATRIMONIO". The content is presented in a single column.
+1.  `region_0`: Header at the top of the page.
+2.  `region_1`: Handwritten number and a horizontal line.
+3.  `region_2`: "NOTAS" section heading.
+4.  `region_3`: "ALMUERSO" section, including a heading and a paragraph.
+5.  `region_4`: "MATRIMONIO" section, including a heading and a paragraph.
+6.  `region_5`: Handwritten page number at the bottom center.
 
 ## Literal Transcription
+```markdown
+{{region_0}}
+NUMERO GIGANTE ENERO - FEBRERO
+{{/region_0}}
 
-NUMERO GIGANTE
-ENERO - FEBRERO
+{{region_1}}
 666
-NOTAS
+------------------------------------------------------------------------
+{{/region_1}}
 
-ALMUERZO
-EL 1.o DE FEBRERO DEL PRESENTE AÑO EN EL FUNDO LOS CUARTOS SE LLEVÓ A
-EFECTO UN ALMUERZO AL CUAL CONCURRIERON EL DISTINGUIDO FACULTATIVO
+{{region_2}}
+NOTAS
+{{/region_2}}
+
+{{region_3}}
+ALMUERSO
+----------
+EL 1o.DE FEBRERO DEL PRESENTE AÑO EN EL FUNDO LOS CUARTOS SE LLEVÓ A
+EFECTO UN ALMUERSO AL CUAL CONCURRIERON EL DISTINGUIDO FACULTATIVO
 DE CONCEPCION Y DECANO DE LA FACULTAD DE MEDICINA DE LA UNIVERSIDAD
 DE CONCEPCION DR IVAR HERMANSEN ACOMPAÑADO DE SU ESPOSA SRA ANNIE
 PAVON DE HERMANSEN Y DE SUS HIJOS ENRIQUE Y MARIA TERESA HERMANSEN.
-TAMBIEN PUDIMOS APRECIAR LA PRESENCIA DEL EX INTENDENTE DE BIO-BIO
-DR RENE PETERSEN Y SU ESPOSA. DESPUES DE UN ESPLENDIDO ALMUERZO EL
+TANBIEN PUDIMOS APRECIAR LA PRESENCIA DEL EX INTENDENTE DE BIO-BIO
+DR RENE PETERSEN Y SU ESPOSA. DESPUES DE UN ESPLENDIDO ALMUERSO EL
 DOCTOR HERMANSEN DURANTE LA TARDE SE DEDICÓ A LA PESCA DE SALMON EN
 EL RIO BIO-BIO PERO LA MALA SUERTE LE ENREDÓ LA LIENSA DE NYLON DEL
 CARRETE.
-EL DOCTOR PETERSEN DEBIÓ MARCHARSE A LOS ANGELES A CUMPLIR ALGUNOS C
-COMPROMISOS MARCHÁNDOSE ANTES DE ONCE. EN CAMBIO EL DOCTOR HERMANSEN
+EL DOCTOR PETERSEN DEBIÓ MARCHARSE A LOS ANGELES A CUNPLIR ALGUNOS C
+COMPROMISOS MARCHÁNDOSE ANTES DE ONCE. EN CANBIO EL DOCTOR HERMANSEN
 SE QUEDÓ A LA ONCE MARCHÁNDOSE APROXIMADAMENTE A LAS 8 DE LA TARDE
 AL FUNDO DEL DOCTOR PETERSEN DONDE SE HOSPEDABA PARA MARCHARSE DOS
-DIAS DESPUES A CONCEPCION A CUMPLIR SUS OBLIGACIONES.
+DIS DESPUES A CONDCEPCION A CUMPLIR SUS OBLIGACIONES
+{{/region_3}}
 
+{{region_4}}
 MATRIMONIO.
-EL SABADO 14 DE ENERO PASADO SE LLEVÓ AFECTO, PRIVADAMENTE EN LA CASA DE
-LA NOVIA EL MATRIMONIO DE LA SEÑORITA LUCIA ARRIGADA CON EL SEÑOR
+-----------
+EL SABADO 14 DE ENERO PASADO SE LLEVO AFECTO, PRIVADAMENTE EN LA CASA DE
+LA NOVIA EL MATRIMONIO DE LA SEÑORITA LUCIA ARRIAGADA CON EL SEÑOR
 LEOPOLDO PASCUAL BAILAC. NOTAMOSLEAL PRESENCIA DE DOS ANTIGUOS CABALLER
-DON JOSE MARIA Y DON CARLOS DE LA JARA. TAMBIEN AL PRESIDENTE DE LA CORTE
+DON JOSE MARIYA Y DON CARLOS DE LA JARA.TANBIE AL PRESIDENTE DE LA CORTE
 DE APELACIONES DON LUCAS SANHUEZA Y EL MINISTRO DE LA CORTE SEÑOR
-ESPEJO TAMBIEN AL INGENIERO DE "PROVIN CIA SR PIMENTEL
+ESPEJO TANBIEN AL INGENIERO DE PROVIN CIA SR PIMENTEL
+{{/region_4}}
 
+{{region_5}}
 4
+{{/region_5}}
+```
 
 ## Images, Captions, And Visual Notes
-- A handwritten number "4" is present at the bottom center of the page.
+- The number `666` is handwritten in the upper left corner.
+- The page number `4` is handwritten in red ink at the bottom center of the page.
+- In the name `JOSE MARIYA`, there is a handwritten mark, possibly an 'X' or a correction, over the letter 'I'.
 
 ## Uncertain Or Illegible
-- "C" in "ALGUNOS C COMPROMISOS" might be part of a word or an abbreviation.
-- "NOTAMOSLEAL" might be "NOTAMOS LEAL".
-- "PROVIN" in "PROVIN CIA" might be part of a word or an abbreviation.
+- The word `NOTAMOSLEAL` appears to be a typo, possibly for "NOTAMOS LA". It is transcribed as it appears.
+- The word `PROVIN CIA` is typed with a space in the middle. It is transcribed as it appears.
 
 ## Completeness Audit
-The transcription is complete and captures all visible text and layout elements.
+This page is fully transcribed.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present. Minor marks like page numbers are transcribed."
+  "no_visual_regions_reason": "The page contains only typed text and minor handwritten marks (page number, a number in the margin) that are fully described in the transcription and visual notes. There are no photographs, illustrations, or other significant visual elements that would warrant cropping."
 }
 ```
 
 ## Page Metadata
-Page number: 5
+- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0005`
+- Page: 5
 
 ## Layout And Reading Order
-The page features a large bold title at the top, followed by an introductory paragraph. Below this, there are three images arranged vertically down the left side of the page. Each image has a corresponding caption. The first image (airplane) has its caption directly below it, spanning the width of the image. The second and third images (train and missile) share a multi-paragraph text block to their right, which serves as their combined caption. A handwritten page number "5" is present in the bottom right corner. The right side of the page also contains faint, illegible text, likely from the reverse side of the page or a bleed-through.
+This page is a single-column layout. The reading order is as follows:
+1. A large heading at the top of the page.
+2. A short introductory paragraph.
+3. A photograph of airplanes in a hangar.
+4. A caption for the airplane photograph.
+5. A photograph of a train.
+6. A photograph of a missile launch.
+7. A two-paragraph text block to the right of the train and missile photographs, describing them.
+8. A handwritten page number in the lower right quadrant.
+
+Faint text is visible on the right side of the page, which appears to be bleed-through from the reverse side. This has not been transcribed.
 
 ## Literal Transcription
-.ENGLISH ELECTRIC
+```markdown
+.'ENGLISH ELECTRIC'
+
 DURANTE MI VIAJE A EUROPA TUVE EL AGRADO DE VISITAR LA SUCURSAL
 DE ESTA OFICINA EN BUENOS AIRES Y VER LA FABRICA DE BATERIAS
 REFRIGERADORES Y RADIOS DICE EL DIRECTOR DE ESTE DIARIO
 
+[image-1]
 EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC
 PARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS
+
+[image-2]
+[image-3]
 
 3.600 H.P. EN ESPAÑA. Se están entregando
 60 de estas locomotoras eléctricas, las más
@@ -92,136 +134,128 @@ España. Las primeras conducen rápidamente
 pasajeros y pesados minerales, en una línea con
 una pendiente general de 1 en 50, con curvas
 cerradas, muchos túneles. Las locomotoras
-ENGLISH ELECTRIC —eléctricas o diesel-eléctricas
-—están satisfaciendo los requerimientos espec-
-iales de 29 países.
+ENGLISH ELECTRIC — eléctricas o diesel-eléctricas
+— están satisfaciendo los requerimientos especiales de 29 países.
 
-PROYECTILES MANDADOS—velocidad super-
-sónica, energía atómica—solamente tres
+PROYECTILES MANDADOS, velocidad supersónica, energía atómica — solamente tres de los
 campos en que el trabajo precursor ENGLISH
-ELECTRIC ha traído adelantos de impor-
-tancia. Esta foto muestra el lanzamiento de prueba de
+ELECTRIC ha traído adelantos de importancia.
+Esta foto muestra el lanzamiento de prueba de
 un proyectil mandado ENGLISH ELECTRIC.
 
 5
+```
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
 - ![source-caption: EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC
-PARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS](../extracted-images/page-0005/page-0005-image-01-english-electric-canberra-aircraft-hangar.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [9.9, 33.9, 37.2, 73.0]
-  - Source context: This image shows an aircraft in a hangar, identified as a Canberra built by English Electric.
-- ![source-caption: 3.600 H.P. EN ESPAÑA. Se están entregando
-60 de estas locomotoras eléctricas, las más
-potentes de su tipo jamás construídas en la Gran
-Bretaña, a la Red Nacional de Ferrocarriles de
-España. Las primeras conducen rápidamente
-pasajeros y pesados minerales, en una línea con
-una pendiente general de 1 en 50, con curvas
-cerradas, muchos túneles. Las locomotoras
-ENGLISH ELECTRIC —eléctricas o diesel-eléctricas
-—están satisfaciendo los requerimientos espec-
-iales de 29 países.](../extracted-images/page-0005/page-0005-image-02-english-electric-locomotive-spain.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [47.7, 73.0, 78.3, 84.0]
-  - Source context: This image shows an electric locomotive, identified as one of 60 delivered to Spain by English Electric.
-- ![source-caption: PROYECTILES MANDADOS—velocidad super-
-sónica, energía atómica—solamente tres
-campos en que el trabajo precursor ENGLISH
-ELECTRIC ha traído adelantos de impor-
-tancia. Esta foto muestra el lanzamiento de prueba de
-un proyectil mandado ENGLISH ELECTRIC.](../extracted-images/page-0005/page-0005-image-03-english-electric-missile-launch.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [78.7, 34.0, 98.0, 37.9]
-  - Source context: This image shows a missile launch, described as a test launch of an English Electric guided missile.
+PARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS](../extracted-images/page-0005/page-0005-image-01-page-0005-image-1-canberra-bombers.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [4.5, 19.7, 72.6, 37.5]
+  - Source context: Photograph of Canberra bombers in a hangar.
+- ![nearby-text: 3.600 H.P. EN ESPAÑA. Se están entregando 60 de estas locomotoras eléctricas, las más potentes de su tipo jamás construídas en la Gran Bretaña, a la Red Nacional de Ferrocarriles de España. Las primeras conducen rápidamente pasajeros y pesados minerales, en una línea con una pendiente general de 1 en 50, con curvas cerradas, muchos túneles. Las locomotoras ENGLISH ELECTRIC — eléctricas o diesel-eléctricas — están satisfaciendo los requerimientos especiales de 29 países.](../extracted-images/page-0005/page-0005-image-02-page-0005-image-2-locomotive-7710.png)
+  - Kind: photograph; label basis: nearby-text; bbox_pct: [4.5, 47.7, 72.6, 77.5]
+  - Source context: Photograph of an electric locomotive, number 7710.
+- ![nearby-text: PROYECTILES MANDADOS, velocidad supersónica, energía atómica — solamente tres de los campos en que el trabajo precursor ENGLISH ELECTRIC ha traído adelantos de importancia. Esta foto muestra el lanzamiento de prueba de un proyectil mandado ENGLISH ELECTRIC.](../extracted-images/page-0005/page-0005-image-03-page-0005-image-3-missile-launch.png)
+  - Kind: photograph; label basis: nearby-text; bbox_pct: [4.5, 78.6, 37.5, 99.1]
+  - Source context: Photograph of a missile launch.
 
-The page features three distinct images, each with a caption.
-
-The first image shows a large aircraft, likely a bomber, inside a hangar. Several other aircraft are visible in the background, suggesting a manufacturing or maintenance facility. A person stands near the front of the aircraft.
-The caption for this image is: "EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC PARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS"
-
-The second image depicts a modern electric locomotive, numbered "7710" and marked "RFE", pulling a long train of freight cars on a curved track. The scene appears to be in an industrial or rail yard setting with multiple tracks.
-The caption for this image is part of a larger text block to its right, starting with: "3.600 H.P. EN ESPAÑA. Se están entregando 60 de estas locomotoras eléctricas, las más potentes de su tipo jamás construídas en la Gran Bretaña, a la Red Nacional de Ferrocarriles de España. Las primeras conducen rápidamente pasajeros y pesados minerales, en una línea con una pendiente general de 1 en 50, con curvas cerradas, muchos túneles. Las locomotoras ENGLISH ELECTRIC —eléctricas o diesel-eléctricas— están satisfaciendo los requerimientos especiales de 29 países."
-
-The third image shows a missile launching into the sky, with a plume of smoke or exhaust visible at its base. The missile has fins and a pointed nose cone.
-The caption for this image is the second part of the text block to its right: "PROYECTILES MANDADOS—velocidad supersónica, energía atómica—solamente tres campos en que el trabajo precursor ENGLISH ELECTRIC ha traído adelantos de importancia. Esta foto muestra el lanzamiento de prueba de un proyectil mandado ENGLISH ELECTRIC."
-
-A handwritten number "5" is present in red ink in the bottom right corner of the page.
+- **[image-1]** A black and white photograph showing several bomber airplanes, identified as Canberras, inside a large hangar. A person stands near the plane in the foreground.
+- **[image-2]** A black and white photograph of an electric locomotive, number 7710, with "RFE" on the front, pulling a freight train along a set of tracks.
+- **[image-3]** A black and white photograph of a missile being launched into the sky.
+- The page appears to be a scrapbook-style layout, with text and images cut out and pasted onto the page. The paper is yellowed with age.
+- A handwritten number "5" is present in red ink in the lower right quadrant.
 
 ## Uncertain Or Illegible
-There is faint, illegible text visible on the right side of the page, likely bleed-through from the reverse side. It is not part of the primary content of this page.
+- The character preceding the main heading `'ENGLISH ELECTRIC'` is a dot or period: `.`
 
 ## Completeness Audit
-All visible text and images on the page have been transcribed and described. The layout and reading order have been preserved.
+The transcription is complete and includes all text, images, and handwritten marks on the page. Faint text bleeding through from the reverse side of the page has been noted but not transcribed, as it is not part of this page's content.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "image-1",
       "kind": "photograph",
-      "bbox_pct": [9.9, 33.9, 37.2, 73.0],
+      "bbox_pct": [
+        4.5,
+        19.7,
+        72.6,
+        37.5
+      ],
       "caption_literal": "EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC\nPARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS",
       "caption_type": "source-caption",
-      "identity_basis": null,
-      "source_context": "This image shows an aircraft in a hangar, identified as a Canberra built by English Electric.",
-      "confidence": 0.95,
-      "suggested_filename": "english_electric_canberra_aircraft_hangar.png",
-      "inline_anchor": "EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC\nPARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS"
+      "identity_basis": "none",
+      "source_context": "Photograph of Canberra bombers in a hangar.",
+      "confidence": 100,
+      "suggested_filename": "page-0005-image-1-canberra-bombers.png",
+      "inline_anchor": "[image-1]"
     },
     {
-      "region_id": "region_2",
+      "region_id": "image-2",
       "kind": "photograph",
-      "bbox_pct": [47.7, 84.0, 78.3, 73.0],
-      "caption_literal": "3.600 H.P. EN ESPAÑA. Se están entregando\n60 de estas locomotoras eléctricas, las más\npotentes de su tipo jamás construídas en la Gran\nBretaña, a la Red Nacional de Ferrocarriles de\nEspaña. Las primeras conducen rápidamente\npasajeros y pesados minerales, en una línea con\nuna pendiente general de 1 en 50, con curvas\ncerradas, muchos túneles. Las locomotoras\nENGLISH ELECTRIC —eléctricas o diesel-eléctricas\n—están satisfaciendo los requerimientos espec-\niales de 29 países.",
-      "caption_type": "source-caption",
-      "identity_basis": null,
-      "source_context": "This image shows an electric locomotive, identified as one of 60 delivered to Spain by English Electric.",
-      "confidence": 0.95,
-      "suggested_filename": "english_electric_locomotive_spain.png",
-      "inline_anchor": "3.600 H.P. EN ESPAÑA. Se están entregando\n60 de estas locomotoras eléctricas, las más\npotentes de su tipo jamás construídas en la Gran\nBretaña, a la Red Nacional de Ferrocarriles de\nEspaña. Las primeras conducen rápidamente\npasajeros y pesados minerales, en una línea con\nuna pendiente general de 1 en 50, con curvas\ncerradas, muchos túneles. Las locomotoras\nENGLISH ELECTRIC —eléctricas o diesel-eléctricas\n—están satisfaciendo los requerimientos espec-\niales de 29 países."
+      "bbox_pct": [
+        4.5,
+        47.7,
+        72.6,
+        77.5
+      ],
+      "caption_literal": "3.600 H.P. EN ESPAÑA. Se están entregando 60 de estas locomotoras eléctricas, las más potentes de su tipo jamás construídas en la Gran Bretaña, a la Red Nacional de Ferrocarriles de España. Las primeras conducen rápidamente pasajeros y pesados minerales, en una línea con una pendiente general de 1 en 50, con curvas cerradas, muchos túneles. Las locomotoras ENGLISH ELECTRIC — eléctricas o diesel-eléctricas — están satisfaciendo los requerimientos especiales de 29 países.",
+      "caption_type": "nearby-text",
+      "identity_basis": "none",
+      "source_context": "Photograph of an electric locomotive, number 7710.",
+      "confidence": 100,
+      "suggested_filename": "page-0005-image-2-locomotive-7710.png",
+      "inline_anchor": "[image-2]"
     },
     {
-      "region_id": "region_3",
+      "region_id": "image-3",
       "kind": "photograph",
-      "bbox_pct": [78.7, 34.0, 98.0, 37.9],
-      "caption_literal": "PROYECTILES MANDADOS—velocidad super-\nsónica, energía atómica—solamente tres\ncampos en que el trabajo precursor ENGLISH\nELECTRIC ha traído adelantos de impor-\ntancia. Esta foto muestra el lanzamiento de prueba de\nun proyectil mandado ENGLISH ELECTRIC.",
-      "caption_type": "source-caption",
-      "identity_basis": null,
-      "source_context": "This image shows a missile launch, described as a test launch of an English Electric guided missile.",
-      "confidence": 0.95,
-      "suggested_filename": "english_electric_missile_launch.png",
-      "inline_anchor": "PROYECTILES MANDADOS—velocidad super-\nsónica, energía atómica—solamente tres\ncampos en que el trabajo precursor ENGLISH\nELECTRIC ha traído adelantos de impor-\ntancia. Esta foto muestra el lanzamiento de prueba de\nun proyectil mandado ENGLISH ELECTRIC."
+      "bbox_pct": [
+        4.5,
+        78.6,
+        37.5,
+        99.1
+      ],
+      "caption_literal": "PROYECTILES MANDADOS, velocidad supersónica, energía atómica — solamente tres de los campos en que el trabajo precursor ENGLISH ELECTRIC ha traído adelantos de importancia. Esta foto muestra el lanzamiento de prueba de un proyectil mandado ENGLISH ELECTRIC.",
+      "caption_type": "nearby-text",
+      "identity_basis": "none",
+      "source_context": "Photograph of a missile launch.",
+      "confidence": 100,
+      "suggested_filename": "page-0005-image-3-missile-launch.png",
+      "inline_anchor": "[image-3]"
     }
-  ]
+  ],
+  "no_visual_regions_reason": null
 }
 ```
 
 ## Page Metadata
-Page number: 6
+- `page_number`: 6
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a header at the top, followed by a main section title "ACTIVIDADES", and then three subsections: "LA COSECHA", "LA MADERA Y EL ASERRABERO", and "LA ELECTRICIDAD". There is a handwritten page number and a continuation note at the bottom.
+The page contains a single column of text, with a handwritten note at the bottom. The text is divided into sections with headings.
 
 ## Literal Transcription
-NUMERO GIGANTE ENERO - - FEBRERO EL AGUILA
-___
+NUMERO GIGANTE ENERO - FEBRERO EL AGUILA
+
 ACTIVIDADES
-___
+
 LA COSECHA
-___
-ESTE AÑO CONSTITUYÓ UNA NOVEDAD EN EL FUNDO EL EMPLEO DE COSECHADORA
+ESTE AÑO CONSTITUYO UNA NOVEDAD EN EL FUNDO EL EMPLEO DE COSECHADORA
 AUTOMOTRIS DE LA CORPORACION DE FOMENTO YA QUE EN OTROS AÑOS SE HABIA
 CORTADO A MANO EL TRIGO Y TRILLADO EN UNA MAQUINA TRILLADORA ESTACIONADA
-AUNQUE EL TRIGO ERA POCO SE ENPLEARON 25 HORAS A 3500 PESOS LA HORA.
+AUNQUE EL TRIGO ERA POCO SE EMPLEARON 25 HORAS A 3500 PESOS LA HORA.
 EL DIA 27 DE ENERO LA MAQUINA COMENSO A CORTAR Y TRILLAR MAS O MENOS
 A LAS 2 DE LA TARDE TAMBIEN EL DIA 28 DE 9 A '8 DE LA TARDE Y FINALI
 RON EL DIA 29 EN LA TARDE.
-___
+
 LA MADERA Y EL ASERRABERO
-XXXXXXXXXXXXXX
+XXXXXXXXXXXXX
 EN EL FUNDO LOS CUARTOS HAY GRANDES CANTIDADES DE TERRENO PLANTADAS
-DE PINO; ES ASI COMO ESTE AÑO SU PROPIETARIO DECIDIO EXPLOTAR UNOS
-POCOS; SE CALCULA QUE SALDRAN 50.000 PULGADAS
+DE PINO, ES ASI COMO ESTE AÑO SU PROPIETARIO DECIDIO EXPLOTAR UNOS
+POCOS, SE CALCULA QUE SALDRAN 50.000 PILGADAS
 AL LLEGAR NOSOTROS AL FUNDO, YA HOMBRES ESPECIALISADOS HABIAN VOLTEADO
 TODO LOS PINOS QUE SE ENCONTRABAN APILADOS, DESPUES QUE UN TRACTOR MAN
 A PETROLEO LOS LLEVABA AL LUGAR DONDE ESTARIA EL ASERRADERO LUEGO UN
@@ -229,56 +263,28 @@ DIA SE TRANSLADO AL FUNDO EL ASERRADERO DE PROPIEDAD DE LA INDUSTRIA
 MADERERA TELLERY Y CIA Y RAPIDAMENTE SURGIERON LAS COSAS DE LOS
 OBREROS QUE PRONTO ENPESARON A TRABAJAR. SE ESPERA QUE SE TERMINARA
 DE ASERRAR A FINES DE MARZO.
-___
+
 LA ELECTRICIDAD
 DESPUES DE GRANDES DISCUSIONES LA ENDESA PROSEDIO A
 CONSTRUIR LA LINEA QUE ABASTECERIA A SANTA BARBARA POR SAN CARLOS. LA
 ENDESA ENTREGO LA LINEA U A UN CONTRATISTA, EL SR GRANIFO, INGENIRERO EN
 SANTIAGO Y EN LOS ANGELES OTRO ESPECIALISADO, UN TOPOGRAFO MARCO LA LINEA
-6
-Continua a página 11
+6 Continua en página 11
 
 ## Images, Captions, And Visual Notes
-- A handwritten page number "6" is present at the bottom left of the page.
-- A handwritten note "Continua a página 11" (Continues on page 11) is present at the bottom center of the page.
+A handwritten page number "6" is present at the bottom left of the page.
+A handwritten note "Continua en página 11" is present at the bottom right of the page.
 
 ## Uncertain Or Illegible
-- "3500" could potentially be "35oo" due to the font style, but "3500" is a more plausible numerical value.
-- "TRILLAR" is clear in context, but the 'LL' could be misread as 'T?'.
-- "MARCO" could have an accent mark (Marcó), but it's not clearly visible.
+- `TRILLAR` is partially obscured, but the context suggests this reading.
+- `PILGADAS` is a plausible reading, but could be `PULGADAS`.
+- `INGENIRERO` is likely a misspelling of `INGENIERO`.
 
 ## Completeness Audit
-All visible text and significant handwritten notes on the page have been transcribed.
+The transcription is complete and captures all visible text and handwritten notes on the page.
 
 ## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "region_1",
-      "kind": "text",
-      "bbox_pct": [89.9, 14.9, 93.0, 19.0],
-      "caption_literal": "6",
-      "caption_type": "converter-description",
-      "identity_basis": "converter-identified",
-      "source_context": "Handwritten page number.",
-      "confidence": 0.95,
-      "suggested_filename": "page_number_6"
-    },
-    {
-      "region_id": "region_2",
-      "kind": "text",
-      "bbox_pct": [90.0, 36.0, 93.0, 64.0],
-      "caption_literal": "Continua a página 11",
-      "caption_type": "converter-description",
-      "identity_basis": "converter-identified",
-      "source_context": "Handwritten continuation note.",
-      "confidence": 0.95,
-      "suggested_filename": "continuation_note_page_11"
-    }
-  ]
-}
-```
+{"visual_regions": []}
 
 ## Page Metadata
 - Page number: 7
@@ -339,13 +345,12 @@ This page has been transcribed in its entirety.
 
 ## Page Metadata
 - Page number: 8
-- Source publication year: 1950s
+- Source publication year: 1950s (inferred from content)
 - Source publication title: El Aguila Nombre Grande
-- Source publication part: El Aguila
-- Source publication date: Enero Febrero
+- Source publication date: Enero Febrero (inferred from content)
 
 ## Layout And Reading Order
-The page contains a main article followed by an advertisement. The main article is a narrative account of a trip, signed by "TIMO". The advertisement is for a Chilean benefit agency, promoting a lottery. A handwritten number "8" is present in the bottom right corner.
+The page contains a main article followed by an advertisement. The main article is a narrative account of a trip and acknowledgments. The advertisement promotes a lottery. A handwritten number "8" is present in the bottom right corner.
 
 ## Literal Transcription
 MERO GIGANTE ENERO FEBRERO EL AGUILA
@@ -357,16 +362,16 @@ ERO EL DIRECTOR DECIDIO IRSE ESE MISMO DIA CON SU PRIMA A SU FUNDO
 LA POSADA " TOMAMOS EL NOCTURNO A SANTIAGO Y LUEGO EN SAN ROSENDO
 RANSBORDAMOS A UN AUTOMOTOR DIESEL ,, MIENTRAS TANTO LAS MAQUINAS DE
 SCRIBIR SE ENPAQUETABAN JUNTO CON LOS DEMAS UTILES PARA PRESENTAR E
-STE PERIODICO. LOS MATERIALES PARTIRIAN EN UNA CAMIONETA EL DIA 7 AL
+STE PERIODICO.LOS MATERIALES PARTIRIAN EN UNA CAMIONETA EL DIA 7 AL
 UNDO LOS CUARTOS -- LEGAMOS A LOS ANGELES A LAS 11½ DE LA NOCHE DONDE
 OS ESPERA EL MARIDO DE MI PRIMA EN SU AUTOMOVIL QUIEN BOS TRASLADO A SU
-UNDO YA MENCIONADO, DESPUES DE SUFRIR ALGUNAS DIFICULTADES AUTOMOVILISTIC.
+UNDO YA MENCIONADO,DESPUES DE SUFRIR ALGUNAS DIFICULTADES AUTOMOVILISTIC.
 L FUNDO "LA POSADA" DE 485 HECTAREAS MAS O MENOS EN PARETE REGADO POR
-L CANAL BIO-BIO NORTE. PERMANECI EN ESTE FUNDO DOS DIAS LUEGO ME TRANSLA
+L CANAL BIO-BIO NORTE.PERMANECI EN ESTE FUNDO DOS DIAS LUEGO ME TRANSLA
 ARON AL FUNDO LOS CUARTOS DEL DR PULGAR DONDE ME ESPERABAN LAS MAQUINAS
-PARA LA PREPARACION DE ESTE DIARIO. POR MEDIO DE ESTE SENCILLO ARTICULO
+PARA LA PREPARACION DE ESTE DIARIO.POR MEDIO DE ESTE SENCILLO ARTICULO
 AGO LLEGAR MIS AGRADECIMIENTOS ALOS ESPOSOS BARROS PULGAR POR LAS A
-CIONES QUE MW PRESTARON DURANTE LA ESTADIA EN SU FUNDO.
+IONES QUE MW PRESTARON DURANTE LA ESTADIA EN SU FUNDO.
 TIMO
 ---
 ANUNCIO
@@ -385,6 +390,7 @@ DEL VIGESIMO 100
 NO SE OLVIDE Y HAGALE PUNTA . EL EXITO ES DE LOS DECIDIDOS Y
 CONSTANTES
 ROMO ORMEÑO S. C.
+
 8
 
 ## Images, Captions, And Visual Notes
@@ -394,41 +400,22 @@ A handwritten number "8" is present in the bottom right corner of the page.
 None.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text and the handwritten page number.
+The transcription is complete and accurate.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present on the page. The handwritten page number is noted in the transcription and visual notes."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present on the page. The handwritten page number is transcribed in the literal transcription and noted in visual notes."}
 ```
 
 ## Page Metadata
-- task_id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0009`
-- source_id: `el-aguila-nombre-grande-p0004-0018`
-- page_num: 9
-- page_type: `scrapbook_page`
-- source_title: `El Aguila Nombre Grande`
-- original_filename: `El Aguila Nombre Grande Scan.pdf`
-- publication_date: `1956`
-- publication_info: `El Aguila, Enero-Febrero 1956`
-- source_library: `Archivo Histórico de la Compañía de Aceros del Pacífico`
+- Page number: 9
 
 ## Layout And Reading Order
-This is a scrapbook page with typed text and two pasted images. The reading order is as follows:
-1. A header at the top of the page with the publication name and date.
-2. A sub-header "VOLVEMOS ATRAS".
-3. A text block on the upper left, which describes a mountain climbing expedition.
-4. A photograph of a man in uniform, pasted on the upper right, corresponding to the text on the left. The text wraps around the top left of the photograph.
-5. A caption for the photograph, located below the main text block and to the left of the photograph.
-6. A portrait illustration of a man in clerical attire, pasted on the lower left.
-7. A text block to the right of the portrait, describing the anniversary of a newspaper.
-8. A handwritten page number "9" in red ink at the bottom center of the page.
+The page contains two main columns of text. The left column has a title and then a block of text. The right column has a large image with a caption below it, followed by another block of text. Below the text in the right column is a smaller image.
 
 ## Literal Transcription
-```markdown
-NUMERO GIGANTE EL AGUILA ENERO FEBRERO
----
+UMERO GIGANTE EL AGUILA ENERO FEBRERO
 VOLVEMOS ATRAS
-
 EL 5 DE FEBRERO 29 HOMBRES AL MANDO DEL CAPITAN GAJARDO , - 6 DE ELLOS
 EL MENCIONADO CAPITAN EL VICESARJENTO PRIMERO NEMESIO ZAMORA EL CABO
 ROLANDO GODOY EL FILMADOR VICENTE
@@ -436,110 +423,85 @@ CHIARANDA Y EL INGENIERO WAYNE MILL ER
 ESCALARON EL MONTE "OJOS DEL SALADO,"
 EN LA CORDILLERA DE LOS ANDES SITUADO
 EN LA PROVINCIA DE ATACAMA DEPARTAMENTO
-DE COPIAPÓ , EL NEVADO MENCIONADO MIDE
+DE COPIAPO , EL NEVADO MENCIONADO MIDE
 7084 METROS SOBRE PASANDO AL ACONCAGUA
 POR 29 METROS ./
-
 ( EN LA FOTO ) EL CAPITAN GAJARDO SE
-RECONFORTA DESPUES DE HABER ESCALADO
+RECONFOR TA DESPUES DE HABER ESCALADO
 LA CUMBRE MAS ALTA DE AMERI DA
-
-<hr>
-
-<div class="grid-container" style="grid-template-columns: 1fr 1fr; gap: 1em;">
-<div class="grid-item">
-
-![A halftone portrait of a man in clerical attire, with a cross on his chest.](__IMG_001__)
-
-</div>
-<div class="grid-item">
 
 LA AURORA DE CHILE
 EL 1º DE FEBRERO DE ESTE AÑO SE
-CELEBRÓ EL 144 ANIVERSARIO DE LA
-FUNDACION DEL PRIMER PERIÓDICO NACIONAL
-PORFRAY CAMILO HENRIQUEZ EN EL AÑO
-1812 . EL PUEBLO DE C.HILE RECIBIO
+CELEBRO EL 144 ANIVERSARIO DE LA
+FUNDACION DEL PRIMER PERIODICO NACIONAL
+POR FRAY CAMILO HENRIQUEZ EN EL AÑO
+1812 . EL PUEBLO DE CHILE RECIBIO
 CON GRAN ESTUCIASMOS EL PRIMER NUMERO
-DE ESE DIARIO PARA ALENTAR A LOS HONBRES
+DE ESE DIARIO PARA ALENTAR A LOS HOMBRES
 HACIA SU LIBERTAD - EL DIARIO EL AGUILA
-CELEBRÓ CON U N COCTEL EN LA ENPRESA EL
+CELEBRO CON UN COCTEL EN LA ENPRESA EL
 DIA DE LA PRENSA
 
-</div>
-</div>
-
-<div style="text-align: center;">
 9
-</div>
-```
-*Note: The photograph of Captain Gajardo is not included in the transcription flow as it is positioned to the right of the first text block and its caption. The transcription follows the textual reading order.*
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![nearby-text: ( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA](../extracted-images/page-0009/page-0009-image-01-capitan-gajardo-recomforta.png)
-  - Kind: photograph; label basis: nearby-text; bbox_pct: [52.5, 14.5, 95.5, 58.5]
-  - Source context: A man in uniform drinking from a cup after a mountain climb.
-- ![nearby-text: LA AURORA DE CHILE ... PORFRAY CAMILO HENRIQUEZ EN EL AÑO 1812 .](../extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-aurora-de-chile.png)
-  - Kind: illustration; label basis: nearby-text; bbox_pct: [5.5, 55.5, 45.5, 85.5]
-  - Source context: Portrait of a man in clerical attire, identified as Fray Camilo Henriquez.
+- ![nearby-text: LA AURORA DE CHILE
+EL 1º DE FEBRERO DE ESTE AÑO SE
+CELEBRO EL 144 ANIVERSARIO DE LA
+FUNDACION DEL PRIMER PERIODICO NACIONAL
+POR FRAY CAMILO HENRIQUEZ EN EL AÑO
+1812 . EL PUEBLO DE CHILE RECIBIO
+CON GRAN ESTUCIASMOS EL PRIMER NUMERO
+DE ESE DIARIO PARA ALENTAR A LOS HOMBRES
+HACIA SU LIBERTAD - EL DIARIO EL AGUILA
+CELEBRO CON UN COCTEL EN LA ENPRESA EL
+DIA DE LA PRENSA](../extracted-images/page-0009/page-0009-image-01-la-aurora-de-chile-fray-camilo-henriquez.png)
+  - Kind: photograph; label basis: nearby-text; bbox_pct: [50.0, 54.0, 94.0, 90.0]
+  - Source context: The caption refers to 'LA AURORA DE CHILE' and 'FRAY CAMILO HENRIQUEZ'.
+- ![nearby-text: ( EN LA FOTO ) EL CAPITAN GAJARDO SE
+RECONFOR TA DESPUES DE HABER ESCALADO
+LA CUMBRE MAS ALTA DE AMERI DA](../extracted-images/page-0009/page-0009-image-02-capitan-gajardo-after-climbing.png)
+  - Kind: photograph; label basis: nearby-text; bbox_pct: [17.0, 54.0, 45.0, 94.0]
+  - Source context: The caption identifies the person as 'EL CAPITAN GAJARDO'.
 
-- **Image 1:** A black and white photograph of a man in a military-style uniform, sitting in an upholstered chair and drinking from a small cup and saucer. The text identifies him as Captain Gajardo. `inline_anchor: __IMG_000__`
-- **Image 2:** A halftone portrait of a man, likely from the 19th century, in what appears to be clerical attire. He has a large cross on his chest. The text identifies him as Fray Camilo Henriquez. `inline_anchor: __IMG_001__`
-- A handwritten page number "9" is written in red ink at the bottom center of the page.
-- The accent marks on both instances of "CELEBRÓ" are handwritten onto the typed text.
+- A black and white photograph shows a man in uniform, identified as Captain Gajardo, seated and drinking from a cup. He is holding a saucer in his left hand.
+- A black and white halftone image shows a portrait of a man, possibly a priest, wearing a dark garment with a cross visible on his chest.
 
 ## Uncertain Or Illegible
-- `ESTUCIASMOS` is likely a typo for "ENTUSIASMOS".
-- `HONBRES` is likely a typo for "HOMBRES".
-- `ENPRESA` is likely a typo for "EMPRESA".
-- `PORFRAY` is likely a typo for "POR FRAY".
-- `C.HILE` is typed with a period in the middle.
-- `AMERI DA` appears to be cut off or a typo, likely intended to be "AMERICA".
+- The word "ESTUCIASMOS" in the right column text might be a misspelling of "ENTUSIASMO".
+- The word "ENPRESA" in the right column text might be a misspelling of "EMPRESA".
 
 ## Completeness Audit
-The transcription of all text and the description of all visual elements on the page are complete.
+The transcription is complete and captures all visible text and images on the page.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "IMG_000",
+      "region_id": "region_1",
       "kind": "photograph",
-      "bbox_pct": [
-        52.5,
-        14.5,
-        95.5,
-        58.5
-      ],
-      "caption_literal": "( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA",
+      "bbox_pct": [50.0, 54.0, 94.0, 90.0],
+      "caption_literal": "LA AURORA DE CHILE\nEL 1º DE FEBRERO DE ESTE AÑO SE\nCELEBRO EL 144 ANIVERSARIO DE LA\nFUNDACION DEL PRIMER PERIODICO NACIONAL\nPOR FRAY CAMILO HENRIQUEZ EN EL AÑO\n1812 . EL PUEBLO DE CHILE RECIBIO\nCON GRAN ESTUCIASMOS EL PRIMER NUMERO\nDE ESE DIARIO PARA ALENTAR A LOS HOMBRES\nHACIA SU LIBERTAD - EL DIARIO EL AGUILA\nCELEBRO CON UN COCTEL EN LA ENPRESA EL\nDIA DE LA PRENSA",
       "caption_type": "nearby-text",
-      "identity_basis": "caption",
-      "source_context": "A man in uniform drinking from a cup after a mountain climb.",
-      "confidence": "high",
-      "suggested_filename": "capitan-gajardo-recomforta.jpg",
-      "inline_anchor": "__IMG_000__"
+      "identity_basis": "source-context",
+      "source_context": "The caption refers to 'LA AURORA DE CHILE' and 'FRAY CAMILO HENRIQUEZ'.",
+      "confidence": 0.8,
+      "suggested_filename": "la_aurora_de_chile_fray_camilo_henriquez"
     },
     {
-      "region_id": "IMG_001",
-      "kind": "illustration",
-      "bbox_pct": [
-        5.5,
-        55.5,
-        45.5,
-        85.5
-      ],
-      "caption_literal": "LA AURORA DE CHILE ... PORFRAY CAMILO HENRIQUEZ EN EL AÑO 1812 .",
+      "region_id": "region_2",
+      "kind": "photograph",
+      "bbox_pct": [17.0, 54.0, 45.0, 94.0],
+      "caption_literal": "( EN LA FOTO ) EL CAPITAN GAJARDO SE\nRECONFOR TA DESPUES DE HABER ESCALADO\nLA CUMBRE MAS ALTA DE AMERI DA",
       "caption_type": "nearby-text",
-      "identity_basis": "caption",
-      "source_context": "Portrait of a man in clerical attire, identified as Fray Camilo Henriquez.",
-      "confidence": "high",
-      "suggested_filename": "fray-camilo-henriquez-aurora-de-chile.jpg",
-      "inline_anchor": "__IMG_001__"
+      "identity_basis": "source-context",
+      "source_context": "The caption identifies the person as 'EL CAPITAN GAJARDO'.",
+      "confidence": 0.9,
+      "suggested_filename": "capitan_gajardo_after_climbing"
     }
-  ],
-  "no_visual_regions_reason": null
+  ]
 }
 ```
 
@@ -813,63 +775,53 @@ The page has been transcribed in its entirety. All legible text, including the c
 ```
 
 ## Page Metadata
-
 - Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0014`
-- Model route: `pro`
-- Route reasons: simple_page, prior_max_tokens
 - Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/work-orders/page-0014.md`
 - Page: 14
-- Output Markdown target: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0014.md`
-- External research relevance: ``
-- External requested treatment: ``
-- External relevance reasons: none
-- Recommended action: `gemini_fallback`
-- Quality flags: none
-- Technical reread clues: none
 
 ## Layout And Reading Order
-
 The page is a single column of typewritten text. The reading order is as follows:
-1. A header at the top of the page with the publication name, "EL AGUILA", and date range, "ENERO - FEBRERO".
-2. A section title, "ESCRIBE EL DIRECTOR".
-3. A main article title, "EL FUNDO LOS CUARTOS".
-4. The body of the article, a single block of text.
-5. A horizontal rule separating the article from the footer.
-6. A footer section with publication information and a call to action.
-7. A handwritten signature, "JR. DARIO PULGARA".
-8. Large handwritten text, "EL AGUILA", and the page number, "14", at the bottom of the page.
+1. A header at the top of the page with the publication name and date range.
+2. A sub-heading "ESCRIBE EL DIRECTOR".
+3. A title "EL FUNDO LOS CUARTOS".
+4. The main body of text, consisting of several paragraphs describing the property.
+5. A footer section with information about the publishing company, "EL AGUILA".
+6. Handwritten text at the very bottom, including the publication name, page number, and a signature.
 
 ## Literal Transcription
-
 ```text
-NUMERO GIGANTE ENERO - FEBRERO EL AGUILA
-***
+MERO GIGANTE ENERO - FEBRERO EL AGUILA
+---
 ESCRIBE EL DIRECTOR
+
 EL FUNDO LOS CUARTOS
 
 EL FUNDO LOS CUARTOS PERTENECE COMO YA SE SABE AL DR DARIO PULGAR A,
-DISTINGUIDO FACULTATIVO DE CONCEPCION QUIEN HEREDO´ DE SUS PADRES ESTE
+DISTINGUIDO FACULTATIVO DE CONCEPCION QUIEN HEREDO DE SUS PADRES ESTE
 FUNDO ALLA POR EL AÑO 1917 SE CONPONIA SOLAMENTE DE 300 HECTAREAS QUE
 SIRVIERON PARA AGRANDAR SU FUNDO AL COMPRAR 300 MAS Y JUNTAS FORMARON LA
 SUPERFICIE ACTUAL DE 600 HECTAREAS.
-ESTA´ UBICADO EN LA PROVINCIA DE BIO-BIO A 22 KILOMETROS DE LA CUIDAD
+
+ESTA UBICADO EN LA PROVINCIA DE BIO-BIO A 22 KILOMETROS DE LA CUIDAD
 DE LOS ANGELES, EN EL CAMINO DE SAN CARLOS DE PUREN A SANTA BARBARA;
 DESLINDA AL SUR CON EL RIO BIO-BIO AL NOTE CON EL RIO DUQUILCO OESTE
 CON EL FUNDO " NATALIA " Y AL ESTE CON LOS"FUNDOS"SANTA INES"Y " LAS
 GARZAS " EXSISTEN PLANTACIONES DE PINOS QUE ACTUALMENTE SE EXPLOTAN ./
+
 DESDE EL AÑO 1938 SE RIEGA PARTE CON LAS AGUAS DEL CANAL BIO BIO
 NORTE /
+
 TIENE PRODUCTIVLES VEGAS A ORILLAS DEL BIO BIO Y UÑA MONTAÑA DE
 ROBLES QUE LE DA UN HERMOSO ASPECTO .
+
 DESDE 1952 EXISTE UNA CONFORTABLE CASA PATRONAL Y BUENAS CASA PARA
 EL MAYORDOMO E INQUILINOS; UN ESTABLO PARA 50 VACAS ENTERAMENTE DE
 CONCRETO. EN FUNDO TANBIEN CONSTA CON BODEGAS Y GADPONES TANBIEN DE CO
-NCRETO ../
-DENTRO DE POCO EL FUNDO CONSTARA´ CON LUS ELECTRICA DEL ABANICO EL
-PORVENIR DE ESTE FUNDO SON LOS PINOS Y LA LECHERIA .-
-***
+NCRETO .. /
+
+DENTRO DE POCO EL FUNDO CONSTARA CON LUS ELECTRICA DEL ABANICO EL
+PORVENIR DE ESTE FUNDO SON LOS PINOS Y LA LECHERIA.-
+---
 EL PERIODICO DE LA E NPRESA EDITORA
 EL AGUILA
 
@@ -878,47 +830,36 @@ HAGASE LECTOR
 ESCRIBA A NUESTRA ENPRESA O
 PONGASE EN CONTACTO CON NUESTRO AGENTE PARA TODO
 CHILE
-[handwritten signature] JR. DARIO PULGARA [/handwritten signature]
-[handwritten] EL AGUILA [/handwritten]
-[handwritten] 14 [/handwritten]
+
+[handwritten signature in blue ink] DR. DARIO PULGARA
+
+[handwritten in red crayon] EL AGUILA
+[handwritten in red crayon] 14
 ```
 
 ## Images, Captions, And Visual Notes
-
-There are no images on this page suitable for cropping.
-
-The bottom of the page contains a handwritten signature in red ink: "JR. DARIO PULGARA". Below this, also in red ink, is the large handwritten text "EL AGUILA" and the number "14".
-
-Several small handwritten marks appear within the typed text:
-- An accent mark on `HEREDO´`.
-- A slash after the period in `EXPLOTAN ./`.
-- A slash after `NORTE /`.
-- Two dots and a slash after `NCRETO ../`.
+- At the bottom of the page, there is a signature in blue ink: "DR. DARIO PULGARA".
+- Below the main text and to the left of the signature, "EL AGUILA" is handwritten in large red crayon or pencil.
+- Below "EL AGUILA", the number "14" is handwritten in red crayon or pencil, indicating the page number.
 
 ## Uncertain Or Illegible
-
-There are no uncertain or illegible portions of text on this page.
+- The prefix to the signature is likely "DR." but is somewhat stylized and could be interpreted differently.
 
 ## Completeness Audit
-
-This page has been transcribed in its entirety.
+The full content of the page has been transcribed.
 
 ## Visual Region Manifest
-
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typewritten text with some minor handwritten annotations and a signature. These elements are fully captured by the transcription and do not warrant individual cropping as standalone visual assets."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains no substantial images, photographs, maps, or other visual elements that would warrant cropping as standalone assets. The only visual elements are a signature and some handwritten text, which have been transcribed."}
 ```
 
 ## Page Metadata
-- Page number: 15
-- Source publication: El Aguila Nombre Grande
-- Publication date: Enero Febrero 1956
+- Source: `El Aguila Nombre Grande Scan.pdf`
+- Page: 15
+- Page type: `text`
 
 ## Layout And Reading Order
-The page contains a single column of text, likely an article or news report, with a page number handwritten at the bottom. The text is in Spanish.
+The page contains a single column of text, likely a newspaper or magazine article, with a header at the top and a page number at the bottom. The text flows continuously from top to bottom.
 
 ## Literal Transcription
 NUMERO GIGANTE
@@ -927,11 +868,11 @@ CENDIO " LE TOCO A LOS FERROCARRILES "
 SABADO 25 DE FEBRERO SE PRODUJO UN INCENDIO DE GRANDES PROPORCIONES.
 TRATA DE NUESTRO ANTIGUO EDIFICIO DE LA ESTACION DE FERROCARRILES
 L ESTADO . ESTE INCENDIO SE PRODUJO POR LA INFLAMACION DE UNA COCINA
-PARAFINA EN LA FUENTE DE SODA DE DICHO EDIFICIO.
+PARAFINA EN LA FUENTE DE SODA DE DICHO EDIFICIO,
 ON LA AYUDA DE LOS BOMBEROS QUE LLEGARON OPORTUNAMENTE Y DEL PERSONAL
 FERROCARRILES , SE PUDO SALVAR EL EQUIPAJE , TELEFONOS , TWLEGRAFO
 FELIZMENTE NO HUBO DESGRACIAS PERSONALES QUE LAMENTAR
-"" LOS INCENDIOS Y TERREMOTOS , TRAEN EL PROGRESO A LOS PUEBLOS ""
+"" LOS INCENDIOS Y TERREMOTOS , TRAEN EL PROGRESO A LOS PUEBLOS """
 ON LA DESTRUCCION DEL EDIFICIO DE LA ESTACION PODREMOS CONTAR A CORTO PLAS
 CON UN MODERNO Y CONFORTABLE EDIFICIO DIGNO DE LA CAPITAL DE " BIO-BIO "
 DE CADA DIA ESTA TOMANDO MAS IMPORTANCIA EN TODO ORDEN DE COSAS ASI LO
@@ -950,30 +891,33 @@ EL TREN A SU DESTINO HABIA UN INTERVALO DE 10 MINUTOS CON OTRO TREN EL
 QUE PRODUJO LA TRAGEDIA " DIJO EL DIRECTOR DE LOS FF CC ES UNA INDISCUTIBLE
 FALLA HUMANA .
 ESCRIBIO WIMO
+
 15
 
 ## Images, Captions, And Visual Notes
-- A handwritten number "15" is present at the bottom center of the page.
+A handwritten number "15" is present at the bottom center of the page.
 
 ## Uncertain Or Illegible
-- No uncertain or illegible text.
+None.
 
 ## Completeness Audit
-The transcription is complete and captures all visible text and the handwritten page number.
+The transcription is complete and accurate, capturing all text and the handwritten page number.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present. The handwritten page number is transcribed in the literal transcription."}
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The handwritten page number is transcribed in the literal transcription."}
+```
 
 ## Page Metadata
-- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+- Source: `El Aguila Nombre Grande Scan.pdf`
 - Page: 16
-- Page type: `title-page`
+- Page type: `Title Page`
 
 ## Layout And Reading Order
-The page contains a hand-drawn illustration at the top, followed by handwritten text in the middle and bottom sections. The text appears to be a title and a date.
+The page contains a hand-drawn illustration at the top, followed by handwritten text in the center and bottom of the page. The text appears to be a title and a date.
 
 ## Literal Transcription
-[Hand-drawn illustration of an eagle-like figure with a circle and a square inside its body]
+[Hand-drawn illustration of an eagle-like figure with a circle and "AD" inside its body]
 
 SuPLEMENTO
 Fotografico
@@ -982,11 +926,11 @@ EL AGUILA
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: Hand-drawn illustration of an eagle-like figure with a circle and a square inside its body.](../extracted-images/page-0016/page-0016-image-01-illustration-eagle-like-figure-1956.png)
+- ![converter-description: Hand-drawn illustration of an eagle-like figure with a circle and "AD" inside its body.](../extracted-images/page-0016/page-0016-image-01-hand-drawn-eagle-figure-with-ad-1956.png)
   - Kind: illustration; label basis: converter-description; bbox_pct: [10.0, 23.0, 43.0, 76.0]
-  - Source context: The illustration appears at the top of the page, above the title text.
+  - Source context: The illustration is at the top of the page, above the handwritten text.
 
-- An illustration of an eagle-like figure, drawn in red ink, is present at the top of the page. The figure has a head resembling a bird, wings, and a body with a large circle and a square shape inside it.
+- An illustration of an eagle-like figure, drawn in red, is present at the top of the page. Inside its body, there is a large circle and the letters "AD" are visible.
 
 ## Uncertain Or Illegible
 None.
@@ -999,16 +943,16 @@ The transcription is complete and captures all visible text and the significant 
 {
   "visual_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "vr_1",
       "kind": "illustration",
       "bbox_pct": [10.0, 23.0, 43.0, 76.0],
-      "caption_literal": "Hand-drawn illustration of an eagle-like figure with a circle and a square inside its body.",
+      "caption_literal": "Hand-drawn illustration of an eagle-like figure with a circle and \"AD\" inside its body.",
       "caption_type": "converter-description",
       "identity_basis": null,
-      "source_context": "The illustration appears at the top of the page, above the title text.",
+      "source_context": "The illustration is at the top of the page, above the handwritten text.",
       "confidence": 1.0,
-      "suggested_filename": "illustration_eagle_like_figure_1956.png",
-      "inline_anchor": "An illustration of an eagle-like figure, drawn in red ink, is present at the top of the page. The figure has a head resembling a bird, wings, and a body with a large circle and a square shape inside it."
+      "suggested_filename": "hand-drawn_eagle_figure_with_ad_1956.png",
+      "inline_anchor": "An illustration of an eagle-like figure, drawn in red, is present at the top of the page. Inside its body, there is a large circle and the letters \"AD\" are visible."
     }
   ]
 }

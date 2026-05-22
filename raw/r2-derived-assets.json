@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-22T23:15:08.404283+00:00",
+  "created": "2026-05-22T23:49:40.482659+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -2719,10 +2719,24 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-01-page-0005-image-1-canberra-bombers.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-01-page-0005-image-1-canberra-bombers.png",
+      "bytes": 3567086,
+      "sha256": "c5e28aa88e6ff3a30b3e6f702d7bfa8ea41f03ca0a72638b577f27ae8014802a",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-02-english-electric-locomotive-spain.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-02-english-electric-locomotive-spain.png",
       "bytes": 939497,
       "sha256": "ddcdc0440a6dc89d0e389fb94ea09933858fe552686513dd6cbffdaa66b19d3e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-02-page-0005-image-2-locomotive-7710.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-02-page-0005-image-2-locomotive-7710.png",
+      "bytes": 5519947,
+      "sha256": "f316429831a5b39f96890d84a5d44e481bb649289acd9e02272c763f2a109494",
       "media_type": "image/png"
     },
     {
@@ -2744,6 +2758,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-03-missile-launch-english-electric.png",
       "bytes": 704734,
       "sha256": "5d2fcae33d84ff6fcc680fb1fff4ca2ddc969a2a48ab086add0bf7b62e7979e0",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-03-page-0005-image-3-missile-launch.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-03-page-0005-image-3-missile-launch.png",
+      "bytes": 1416907,
+      "sha256": "94af4bfc2c039f1d9879da9e5c537028116bc2a82439677f26f6e144b6dd491f",
       "media_type": "image/png"
     },
     {
@@ -12151,10 +12172,10 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
-    "skipped": 0,
+    "total_files": 8,
+    "total_bytes": 67238504,
+    "uploaded": 3,
+    "skipped": 5,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,
@@ -12164,9 +12185,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1733,
+      "scanned": 1739,
       "deleted": 0,
-      "skipped": 1733,
+      "skipped": 1739,
       "errors": []
     }
   }
