@@ -17,7 +17,7 @@ Each run refreshes generated indexes, rebuilds the family tree view, builds the 
 python -m historic_doc_ingest.genealogy_wiki site --root . --out site --wiki-only
 ```
 
-Then it uploads the generated `site/` directory as a GitHub Pages artifact and deploys it with GitHub's official Pages actions:
+Then it enables/configures GitHub Pages for Actions builds, uploads the generated `site/` directory as a Pages artifact, and deploys it with GitHub's official Pages actions:
 
 ```powershell
 actions/configure-pages@v5
