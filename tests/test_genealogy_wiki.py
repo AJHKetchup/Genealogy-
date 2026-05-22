@@ -501,6 +501,79 @@ No uncertainty.
     assert lint_genealogy_wiki(tmp_path) == []
 
 
+def test_promote_staged_relationship_candidate_accepts_child_parent_and_spouse(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    staged_relationships = tmp_path / "research" / "_staging" / "relationships"
+    staged_relationships.mkdir(parents=True, exist_ok=True)
+    (staged_relationships / "REL-STAGE-Child-Parent-Alias.md").write_text(
+        """---
+type: relationship_candidate
+status: draft
+relationship_type: child_parent
+confidence: 8.0
+child: Child Alias
+parents: [Parent Alias]
+promotion_recommendation: promote
+---
+
+# Relationship Candidate: Child Alias And Parent Alias
+
+## Literal Support
+
+Child Alias is named with Parent Alias as parent.
+
+## Interpretation
+
+The reviewed source supports parentage.
+""",
+        encoding="utf-8",
+    )
+    (staged_relationships / "REL-STAGE-Spouse-Alias.md").write_text(
+        """---
+type: relationship_candidate
+status: draft
+relationship_type: spouse
+confidence: 8.0
+person_a: Spouse One
+person_b: Spouse Two
+promotion_recommendation: promote
+---
+
+# Relationship Candidate: Spouse One And Spouse Two
+
+## Literal Support
+
+Spouse One is described as spouse of Spouse Two.
+
+## Interpretation
+
+The reviewed source supports a spouse relationship.
+""",
+        encoding="utf-8",
+    )
+
+    promote_staged_drafts(tmp_path)
+
+    relationship_dir = tmp_path / "research" / "relationships"
+    relationship_texts = [path.read_text(encoding="utf-8") for path in relationship_dir.glob("*.md")]
+    assert any(
+        "relationship_type: probable_parent" in text
+        and "person_a: [[people/parent-alias]]" in text
+        and "person_b: [[people/child-alias]]" in text
+        for text in relationship_texts
+    )
+    assert any(
+        "relationship_type: spouse" in text
+        and "person_a: [[people/spouse-one]]" in text
+        and "person_b: [[people/spouse-two]]" in text
+        for text in relationship_texts
+    )
+    tree_text = (tmp_path / "wiki" / "Family Tree.md").read_text(encoding="utf-8")
+    assert "probable parent of" in tree_text
+    assert "spouse of" in tree_text
+    assert lint_genealogy_wiki(tmp_path) == []
+
+
 def test_promote_staged_claim_uses_proof_review_readiness(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     staged_packets = tmp_path / "research" / "_staging" / "source-packets"

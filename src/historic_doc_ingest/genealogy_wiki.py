@@ -2026,7 +2026,9 @@ def promote_staged_relationship(
     if frontmatter.get("type") != "relationship_candidate":
         return []
     relationship_type = frontmatter.get("relationship_type", "")
-    if relationship_type not in {"recorded_parent_child", "parent_child", "probable_parent", "possible_parent"}:
+    parent_candidate_types = {"recorded_parent_child", "parent_child", "child_parent", "probable_parent", "possible_parent"}
+    pair_candidate_types = {"spouse", "disputed_spouse"}
+    if relationship_type not in parent_candidate_types | pair_candidate_types:
         summary_list(summary, "skipped").append(
             {
                 "path": staged_relationship.relative_to(paths.root).as_posix(),
@@ -2034,6 +2036,43 @@ def promote_staged_relationship(
             }
         )
         return []
+    if relationship_type in pair_candidate_types:
+        person_a_name = frontmatter.get("person_a", "")
+        person_b_name = frontmatter.get("person_b", "")
+        person_a = ensure_person_page(paths, person_a_name, summary, dry_run=dry_run)
+        person_b = ensure_person_page(paths, person_b_name, summary, dry_run=dry_run)
+        confidence = frontmatter.get("confidence", "0.0")
+        canonical_relationship_type = "disputed_spouse" if relationship_type == "disputed_spouse" else "spouse"
+        relationship_stem = slug(
+            f"{staged_relationship.stem}-{clean_person_name(person_a_name)}-"
+            f"{clean_person_name(person_b_name)}-{canonical_relationship_type}"
+        )
+        canonical_path = paths.research / "relationships" / f"{relationship_stem}.md"
+        relationship_link = f"[[relationships/{canonical_path.stem}]]"
+        add_staged_reference_mapping(relationship_map, paths, staged_relationship, relationship_link)
+        relationship_text = render_promoted_pair_relationship(
+            person_a=person_a,
+            person_b=person_b,
+            relationship_type=canonical_relationship_type,
+            status=frontmatter.get("status", "draft"),
+            confidence=confidence,
+            staged_path=staged_relationship.relative_to(paths.root).as_posix(),
+            source_packet=lookup_staged_reference(frontmatter.get("source_packet", ""), packet_map),
+            source_text=extract_section(text, "Literal Support"),
+            interpretation=extract_section(text, "Interpretation"),
+            uncertainty=extract_section(text, "Uncertainty"),
+        )
+        return write_promoted_relationship_page(
+            paths,
+            canonical_path,
+            relationship_link,
+            relationship_text,
+            [person_a, person_b],
+            staged_relationship,
+            summary,
+            force=force,
+            dry_run=dry_run,
+        )
     child = frontmatter.get("child", "")
     parents = parse_listish(frontmatter.get("parents", ""))
     child_link = ensure_person_page(paths, child, summary, dry_run=dry_run)
@@ -2132,6 +2171,63 @@ def render_promoted_parent_relationship(
             "## Assertion",
             "",
             f"{parent_link} is represented as a {relationship_type} of {child_link}.",
+            "",
+            "## Evidence For",
+            "",
+            *evidence_lines,
+            "",
+            "## Evidence Against",
+            "",
+            "No conflicting claims were identified in the promoted staged draft.",
+            "",
+            "## Reasoning",
+            "",
+            interpretation or "Promoted from reviewed staged evidence.",
+            "",
+            "## Current Status",
+            "",
+            uncertainty or "No additional uncertainty was recorded in the staged draft.",
+        ]
+    )
+
+
+def render_promoted_pair_relationship(
+    *,
+    person_a: str,
+    person_b: str,
+    relationship_type: str,
+    status: str,
+    confidence: str,
+    staged_path: str,
+    source_packet: str,
+    source_text: str,
+    interpretation: str,
+    uncertainty: str,
+) -> str:
+    evidence_lines = [f"- Promoted from staged relationship candidate `{staged_path}`."]
+    if source_packet:
+        evidence_lines.append(f"- Source packet: {source_packet}.")
+    if source_text:
+        evidence_lines.append(f"- Literal support: {source_text}")
+    return "\n".join(
+        [
+            "---",
+            "type: relationship",
+            f"status: {status or 'draft'}",
+            f"relationship_type: {relationship_type}",
+            f"confidence: {confidence or '0.0'}",
+            f"person_a: {person_a}",
+            f"person_b: {person_b}",
+            "supporting_claims: []",
+            "conflicting_claims: []",
+            "tags: [relationship, promoted]",
+            "---",
+            "",
+            f"# {mermaid_label(person_a)} - {mermaid_label(person_b)}",
+            "",
+            "## Assertion",
+            "",
+            f"{person_a} is represented as {relationship_type} of {person_b}.",
             "",
             "## Evidence For",
             "",
@@ -13186,6 +13282,7 @@ def family_tree_edge_label(relationship_type: str) -> str:
         "probable_parent": "probable parent of",
         "possible_parent": "possible parent of",
         "spouse": "spouse of",
+        "disputed_spouse": "disputed spouse of",
         "child": "child of",
         "sibling": "sibling of",
         "maternal_grandfather": "maternal grandfather of",
