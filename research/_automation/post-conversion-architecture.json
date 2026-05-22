@@ -77,6 +77,7 @@
       "rules": [
         "Prioritize proof review of lineage-bearing relationship, birth/name/registration claim, source-packet, and conflict drafts before career-only claims, source-packet/backroom notes, and negative/no-family relationship notes so the family tree and person pages grow from reviewed evidence first.",
         "Reserve worker slots for evidence extraction even while conversion-QA backlog remains so staged claims and relationships are not starved.",
+        "Evidence-extraction queues rank chunks by family relevance from QC metadata, known wiki names, source/chunk text, and proof-review revision state; low-relevance chunks are deferred until a family clue or revision request makes them useful.",
         "Do not repeatedly release a proof-review task only because an older review mentioned a missing page image if a later review has already verified the restored image.",
         "When proof review holds a staged item because converted text, chunk text, and visible image disagree, requeue the owning evidence-extraction task with the review as revision context instead of letting the hold become a dead end.",
         "Do not claim two tasks that write the same file or same staged draft review.",

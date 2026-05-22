@@ -1115,6 +1115,54 @@ Dario Pulgar is named in this converted source.
     assert extraction_queue["task_count"] >= 1
 
 
+def test_evidence_queue_prioritizes_family_relevant_chunks(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    person = tmp_path / "wiki" / "people" / "Dario Arturo Pulgar.md"
+    person.parent.mkdir(parents=True, exist_ok=True)
+    person.write_text("# Dario Arturo Pulgar\n", encoding="utf-8")
+
+    family_source = tmp_path / "raw" / "converted" / "dario-note.codex.md"
+    family_source.write_text(
+        """# Dario Note
+
+# Page 1
+
+## Literal Transcription
+
+Dario Pulgar is named in this family source.
+""",
+        encoding="utf-8",
+    )
+    low_source = tmp_path / "raw" / "converted" / "treaty.codex.md"
+    low_source.write_text(
+        """# Treaty
+
+# Page 1
+
+## Literal Transcription
+
+The convention names several unrelated plenipotentiaries.
+""",
+        encoding="utf-8",
+    )
+    chunk_converted_markdown(tmp_path, low_source)
+    chunk_converted_markdown(tmp_path, family_source)
+
+    write_agent_queues(tmp_path, include_source_prep=False)
+
+    extraction_queue = json.loads(
+        (tmp_path / "research" / "_agent-queues" / "evidence-extraction.json").read_text(encoding="utf-8")
+    )
+    family_task = next(task for task in extraction_queue["tasks"] if "dario-note" in task["converted_file"])
+    low_task = next(task for task in extraction_queue["tasks"] if "treaty" in task["converted_file"])
+
+    assert extraction_queue["tasks"][0]["task_id"] == family_task["task_id"]
+    assert family_task["status"] == "todo"
+    assert family_task["family_relevance"] in {"medium", "high"}
+    assert "Dario" in family_task["matched_terms"]
+    assert low_task["status"] == "deferred_low_relevance"
+
+
 def test_write_agent_queue_compacts_long_prompt_filenames(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     queue_path = write_agent_queue(

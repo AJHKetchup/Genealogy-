@@ -47,6 +47,7 @@ This dashboard is the restart point for automatic work that is not conversion an
 - Retired local runner: `post-conversion-genealogy-buildout` was removed from the app automation registry because Codex app worktree crons depend on this desktop's process launcher.
 - Diagnosis: Codex can do the queue work; GitHub Actions is the no-PC execution surface.
 - Parallelism: claim a bounded batch of 3 independent queue tasks per run, up to 6 when write paths are disjoint and risk is low.
+- Evidence relevance gate: extraction workers get family-relevant and proof-revision chunks first; low-relevance chunks are deferred until a family clue or review request makes them useful.
 - Promotion separation: scheduled runs keep promotion in a separate one-worker pass so canonical wiki updates do not run in the same worker batch as QA, extraction, or proof review.
 - Conversion fidelity: do not repeat the same source/page/tier once fulfilled; escalate only to a higher tier when relevance or complexity justifies it.
 - Context boundary: outside evidence can ask for a careful reread, but literal transcription changes only when the visible source supports the reading.

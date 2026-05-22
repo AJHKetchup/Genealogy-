@@ -16,7 +16,7 @@ import tempfile
 import threading
 import urllib.error
 import urllib.request
-from collections.abc import Sequence
+from collections.abc import Iterable, Sequence
 from dataclasses import asdict, dataclass, field
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -3721,22 +3721,51 @@ def build_family_context_terms(root: Path) -> dict[str, str]:
 
 
 FAMILY_CONTEXT_STOPWORDS = {
+    "backroom",
+    "branch",
+    "branches",
+    "dashboard",
     "claim",
     "claims",
+    "context",
     "source",
     "sources",
     "packet",
     "family",
     "families",
+    "genealogy",
+    "history",
+    "home",
+    "index",
+    "line",
+    "lines",
+    "narrative",
+    "narratives",
     "person",
+    "people",
+    "profile",
+    "profiles",
+    "research",
     "relationship",
+    "relationships",
     "possible",
     "probable",
     "accepted",
     "draft",
     "event",
     "place",
+    "start",
+    "starting",
+    "story",
+    "stories",
+    "throughline",
+    "throughlines",
+    "timeline",
+    "tree",
     "unknown",
+    "user",
+    "users",
+    "wiki",
     "page",
     "record",
 }
@@ -5282,6 +5311,10 @@ def apply_agent_task_state(task: dict[str, object], state: dict[str, object]) ->
             task[key] = state[key]
 
     base_status = str(task.get("status", "todo"))
+    if state_status == "released" and base_status == "deferred_low_relevance":
+        task["task_state_status"] = state_status
+        task["status"] = "todo"
+        return
     if state_status == "held":
         task["task_state_status"] = state_status
         if source_prep_task_has_explicit_model_request(task):
@@ -5747,6 +5780,8 @@ SOURCE_RELEVANCE_TREATMENTS = ("lite", "pro", "pro_with_crops", "reread")
 SOURCE_RELEVANCE_PAGE_SCOPED_VALUES = {"high", "critical"}
 SOURCE_RELEVANCE_PAGE_SCOPED_TREATMENTS = {"pro", "pro_with_crops", "reread"}
 SOURCE_RELEVANCE_ACTIVE_STATUSES = {"active", "open", "todo"}
+EVIDENCE_RELEVANCE_PRIORITY = {"critical": 0, "high": 1, "medium": 2, "low": 3, "none": 4, "": 5}
+EVIDENCE_EXTRACTION_READY_RELEVANCE = {"critical", "high", "medium"}
 
 
 def source_relevance_feedback_path(root: Path) -> Path:
@@ -11214,6 +11249,138 @@ def load_qc_blocked_pages(root: Path) -> dict[str, dict[int, dict[str, object]]]
     return blocked
 
 
+def load_qc_pages_by_converted_file(root: Path) -> dict[str, dict[int, list[dict[str, object]]]]:
+    qc_pages_path = root / "research" / "_conversion-review" / "qc-pages.json"
+    if not qc_pages_path.exists():
+        return {}
+    try:
+        payload = json.loads(qc_pages_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    pages = payload.get("pages", []) if isinstance(payload, dict) else []
+    if not isinstance(pages, list):
+        return {}
+
+    by_source: dict[str, dict[int, list[dict[str, object]]]] = {}
+    for page in pages:
+        if not isinstance(page, dict):
+            continue
+        converted_file = str(page.get("converted_file", "")).strip()
+        if not converted_file:
+            continue
+        try:
+            page_number = int(page.get("page", 0))
+        except (TypeError, ValueError):
+            continue
+        if page_number < 1:
+            continue
+        by_source.setdefault(converted_file, {}).setdefault(page_number, []).append(page)
+    return by_source
+
+
+def best_evidence_relevance(values: Iterable[str]) -> str:
+    best = ""
+    best_score = EVIDENCE_RELEVANCE_PRIORITY[""]
+    for value in values:
+        normalized = str(value).strip().lower()
+        score = EVIDENCE_RELEVANCE_PRIORITY.get(normalized, EVIDENCE_RELEVANCE_PRIORITY[""])
+        if score < best_score:
+            best = normalized
+            best_score = score
+    return best or "none"
+
+
+def family_context_from_task_text(root: Path, task_text: str, family_terms: dict[str, str]) -> dict[str, object]:
+    matches = find_family_context_matches(task_text.replace("-", " "), family_terms)
+    return {
+        "family_relevance": conversion_family_relevance(matches, []),
+        "matched_terms": matches,
+    }
+
+
+def evidence_priority_context(
+    root: Path,
+    task: dict[str, object],
+    qc_pages_by_source: dict[str, dict[int, list[dict[str, object]]]],
+    family_terms: dict[str, str],
+) -> dict[str, object]:
+    converted_file = str(task.get("converted_file", ""))
+    try:
+        page_start = int(task.get("page_start") or 0)
+    except (TypeError, ValueError):
+        page_start = 0
+    try:
+        page_end = int(task.get("page_end") or page_start or 0)
+    except (TypeError, ValueError):
+        page_end = page_start
+
+    qc_pages: list[dict[str, object]] = []
+    for page_number in range(max(1, page_start), max(page_start, page_end) + 1):
+        qc_pages.extend(qc_pages_by_source.get(converted_file, {}).get(page_number, []))
+
+    relevance_values = [str(page.get("family_relevance", "")) for page in qc_pages]
+    matched_terms: list[str] = []
+    qc_actions: list[str] = []
+    for page in qc_pages:
+        matched_terms.extend(str(term) for term in page.get("matched_terms", []) if str(term).strip())
+        action = str(page.get("recommended_action", "")).strip()
+        if action:
+            qc_actions.append(action)
+
+    source_context = family_context_from_task_text(
+        root,
+        " ".join(
+            [
+                str(task.get("converted_file", "")),
+                str(task.get("source", "")),
+                str(task.get("chunk_path", "")),
+            ]
+        ),
+        family_terms,
+    )
+    relevance_values.append(str(source_context.get("family_relevance", "")))
+    matched_terms.extend(str(term) for term in source_context.get("matched_terms", []) if str(term).strip())
+
+    chunk_path = str(task.get("chunk_path", "")).strip()
+    if chunk_path:
+        chunk_file = Path(chunk_path)
+        if not chunk_file.is_absolute():
+            chunk_file = root / chunk_file
+        try:
+            chunk_text = chunk_file.read_text(encoding="utf-8")
+        except OSError:
+            chunk_text = ""
+        if chunk_text:
+            chunk_context = family_context_from_task_text(root, chunk_text[:20000], family_terms)
+            relevance_values.append(str(chunk_context.get("family_relevance", "")))
+            matched_terms.extend(str(term) for term in chunk_context.get("matched_terms", []) if str(term).strip())
+
+    family_relevance = best_evidence_relevance(relevance_values)
+    relevance_score = EVIDENCE_RELEVANCE_PRIORITY.get(family_relevance, EVIDENCE_RELEVANCE_PRIORITY[""])
+    priority = relevance_score * 1000 + max(page_start, 0)
+    reasons = [f"family_relevance:{family_relevance}"]
+    if qc_actions:
+        reasons.append("qc:" + ",".join(sorted(set(qc_actions))))
+    if matched_terms:
+        reasons.append("matched_terms")
+    if task.get("proof_review_revision_requests"):
+        priority -= 700
+        reasons.append("proof_review_revision")
+    if str(task.get("status", "")).startswith("blocked"):
+        priority += 100000
+        reasons.append("blocked_by_conversion_qc")
+    elif family_relevance not in EVIDENCE_EXTRACTION_READY_RELEVANCE and not task.get("proof_review_revision_requests"):
+        reasons.append("deferred_until_family_relevant")
+
+    return {
+        "family_relevance": family_relevance,
+        "matched_terms": sorted(set(matched_terms))[:16],
+        "qc_recommended_actions": sorted(set(qc_actions)),
+        "evidence_priority": priority,
+        "priority_reasons": reasons,
+    }
+
+
 def load_qc_repair_pages(root: Path) -> dict[str, dict[int, dict[str, object]]]:
     qc_pages_path = root / "research" / "_conversion-review" / "qc-pages.json"
     if not qc_pages_path.exists():
@@ -12312,6 +12479,8 @@ def sync_github_database(
 def build_evidence_extraction_agent_tasks(root: Path) -> list[dict[str, object]]:
     tasks: list[dict[str, object]] = []
     qc_blocked_by_source = load_qc_blocked_pages(root)
+    qc_pages_by_source = load_qc_pages_by_converted_file(root)
+    family_terms = build_family_context_terms(root)
     revision_requests_by_chunk = proof_review_revision_requests_by_chunk(root)
     for manifest_path in sorted((root / "raw" / "chunks").glob("*/manifest.json")):
         try:
@@ -12359,8 +12528,36 @@ def build_evidence_extraction_agent_tasks(root: Path) -> list[dict[str, object]]
             revision_requests = revision_requests_by_chunk.get(chunk_id.upper(), [])
             if revision_requests:
                 task["proof_review_revision_requests"] = revision_requests[:8]
+            priority_context = evidence_priority_context(root, task, qc_pages_by_source, family_terms)
+            task.update(priority_context)
+            if (
+                not blocked_pages
+                and not revision_requests
+                and str(task.get("family_relevance", "")).strip().lower() not in EVIDENCE_EXTRACTION_READY_RELEVANCE
+            ):
+                task["status"] = "deferred_low_relevance"
             task["prompt"] = build_evidence_extraction_agent_prompt(task)
             tasks.append(task)
+    unique_tasks: dict[str, dict[str, object]] = {}
+    for task in tasks:
+        task_id = str(task.get("task_id", "")).strip()
+        if not task_id:
+            continue
+        existing = unique_tasks.get(task_id)
+        if existing is None or int(task.get("evidence_priority", 999999)) < int(
+            existing.get("evidence_priority", 999999)
+        ):
+            unique_tasks[task_id] = task
+
+    tasks = list(unique_tasks.values())
+    tasks.sort(
+        key=lambda task: (
+            int(task.get("evidence_priority", 999999)),
+            str(task.get("converted_file", "")),
+            int(task.get("page_start", 0) or 0),
+            str(task.get("chunk_id", "")),
+        )
+    )
     return tasks
 
 
@@ -12594,6 +12791,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `{task["source"]}`
 - Page range: {task["page_start"]}-{task["page_end"]}
 - Staging area: `{task["staging_dir"]}`
+- Family relevance: `{task.get("family_relevance", "none")}`
+- Matched family terms: {", ".join(str(term) for term in task.get("matched_terms", [])) or "none"}
+- Evidence priority: `{task.get("evidence_priority", "")}` ({", ".join(str(reason) for reason in task.get("priority_reasons", [])) or "no priority reason"})
 {hold_section}
 {revision_section}
 
@@ -12604,6 +12804,7 @@ Use `$genealogy-claim-extraction`.
 - Source packets must be Markdown files under `research/_staging/source-packets/` with YAML frontmatter including `type: source_packet`, `status: draft`, source identity fields, chunk/page references, and `promotion_recommendation`.
 - Atomic claim drafts that may become canonical must be individual Markdown files under `research/_staging/claims/` with YAML frontmatter including `type: claim`, `claim_type`, `subject`, `predicate`, `object`, `source`, `source_packet`, `chunk`, `chunk_id`, `page_reference`, `confidence`, and `promotion_recommendation`. A grouped claim overview can be written as an extra note, but not instead of promotable atomic claim files.
 - Relationship candidates that may become tree links must be individual Markdown files under `research/_staging/relationships/` with YAML frontmatter including `type: relationship_candidate`, `relationship_type`, `person_a`/`person_b` or `child`/`parents`, `source_packet`, `confidence`, and `promotion_recommendation`. If no relationship is stated, write a negative-evidence note with `promotion_recommendation: do_not_promote`.
+- If the chunk has low or no family relevance and no explicit family clue, do not fan out broad historical or official-name claims. Write at most a concise source-scope or negative-evidence note, then stop.
 - Use `promotion_recommendation: promote_after_review` only for drafts that can be promoted after proof review. Use `hold_for_conversion_qa`, `revise_before_review`, or `do_not_promote` for anything that should not flow to the tree yet.
 - No canonical wiki pages are edited by this extraction task.
 """

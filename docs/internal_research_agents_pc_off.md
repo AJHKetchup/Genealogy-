@@ -73,7 +73,7 @@ The controller refreshes deterministic state, then launches bounded Codex worker
 - `proof-review`: score staged drafts for literal support, source quality, conversion confidence, evidence weight, identity confidence, claim probability, relevance, and canonical readiness.
 - `wiki-promotion`: runs only in a separate promotion-only pass and only promotes drafts whose review notes say they are ready.
 
-The controller reserves worker slots across lanes instead of draining the first queue forever. When staged review work exists it is preferred, then identity/evidence extraction, while conversion QA continues in a smaller share of each run. This is what moves the tree from converted sources -> staged claims/relationships -> proof review -> canonical wiki pages.
+The controller reserves worker slots across lanes instead of draining the first queue forever. When staged review work exists it is preferred, then identity/evidence extraction, while conversion QA continues in a smaller share of each run. Evidence-extraction tasks are ranked by family relevance from QA metadata, known wiki names, source/chunk text, and proof-review revision state; low-relevance chunks are deferred instead of spending worker time on broad source trivia. This is what moves the tree from converted sources -> staged claims/relationships -> proof review -> canonical wiki pages.
 
 Before worker launch, the workflow and controller also run:
 
