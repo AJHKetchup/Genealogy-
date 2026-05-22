@@ -4,11 +4,13 @@ This workflow runs the genealogy post-conversion agent stack on GitHub-hosted Wi
 
 It is for internal research and wiki development only. It does not perform external research and does not run source preparation or document conversion.
 
+Automatic schedule and push triggers are paused while source preparation is still the active stage-one gate. Run this workflow manually only after the source-prep backlog is sound enough for post-conversion research.
+
 ## Runner
 
 - Workflow: `.github/workflows/internal-research-agents.yml`
-- Schedule: hourly at minute 17
-- Validation triggers: main-branch pushes to this workflow, the post-conversion controller, project code, or automation contracts
+- Schedule: paused until source prep is complete
+- Validation triggers: manual only while source prep remains the active gate
 - Manual run: GitHub Actions -> Internal Research Agents -> Run workflow
 - Parallelism: defaults to 3 Codex workers, with a queue scan limit of 12
 - Automatic promotion: enabled in a separate one-worker promotion-only pass after ordinary QA/extraction/review
@@ -17,7 +19,7 @@ It is for internal research and wiki development only. It does not perform exter
 - API keys: forbidden for this lane
 - Windows checkout: enables Git `core.longpaths` before checkout because generated chunk paths can exceed the default Windows path limit.
 
-Scheduled and push-triggered GitHub workflows only run from the repository default branch, so this file must be merged to `main` before the PC-off runner is live.
+Manual GitHub workflows only run from the repository default branch, so this file must be merged to `main` before the PC-off runner is available.
 
 ## Required GitHub Secret
 

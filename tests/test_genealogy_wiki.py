@@ -1140,27 +1140,30 @@ def test_cloud_workflow_keeps_docling_progress_when_gemini_preflight_is_blocked(
     ) in workflow
 
 
-def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch() -> None:
+def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_tesseract_ocr() -> None:
     workflow_path = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "cloud-source-prep.yml"
     workflow = workflow_path.read_text(encoding="utf-8")
 
     assert 'PIP_NO_CACHE_DIR: "1"' in workflow
-    assert "EASYOCR_MODULE_PATH: ${{ github.workspace }}/.easyocr" in workflow
-    assert "MODULE_PATH: ${{ github.workspace }}/.easyocr" in workflow
+    assert "EASYOCR_MODULE_PATH" not in workflow
+    assert "MODULE_PATH" not in workflow
     assert "cache: \"pip\"" not in workflow
     assert "Install source-prep queue dependencies" in workflow
     assert 'python -m pip install --no-cache-dir -e ".[pdf]"' in workflow
     assert "Sync latest main before source-prep" in workflow
     assert "git pull --ff-only origin main" in workflow
     assert "Install Docling discovery dependencies" in workflow
-    assert "Prewarm Docling OCR models" in workflow
-    assert 'rm -f "$EASYOCR_MODULE_PATH/model/temp.zip"' in workflow
-    assert 'easyocr.Reader(["en"], gpu=False, verbose=False, download_enabled=True)' in workflow
-    assert "https://download.pytorch.org/whl/cpu" in workflow
-    assert "sudo apt-get install -y tesseract-ocr tesseract-ocr-eng tesseract-ocr-spa tesseract-ocr-fra" in workflow
+    assert "Verify Docling OCR backend" in workflow
+    assert "TesseractCliOcrOptions" in workflow
+    assert "https://download.pytorch.org/whl/cpu" not in workflow
+    assert "easyocr.Reader" not in workflow
+    assert (
+        "sudo apt-get install -y tesseract-ocr tesseract-ocr-eng "
+        "tesseract-ocr-spa tesseract-ocr-fra tesseract-ocr-deu"
+    ) in workflow
     assert 'python -m pip install --no-cache-dir -e ".[discovery,ocr]"' in workflow
     pyproject = (Path(__file__).resolve().parents[1] / "pyproject.toml").read_text(encoding="utf-8")
-    assert "easyocr>=1.7.2" in pyproject
+    assert "easyocr" not in pyproject
     assert "pytesseract>=0.3.10" in pyproject
     assert "--defer-page-images" in workflow
     assert "--no-job-source-copy" in workflow
@@ -1249,8 +1252,8 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert workflow.index("Free runner disk for source-prep cache") < workflow.index("Prepare conversion queue from R2")
     assert workflow.index("Publish restore and queue checkpoint") < workflow.index("Install Docling discovery dependencies")
-    assert workflow.index("Install Docling discovery dependencies") < workflow.index("Prewarm Docling OCR models")
-    assert workflow.index("Prewarm Docling OCR models") < workflow.index("Run Docling baseline on all queued pages")
+    assert workflow.index("Install Docling discovery dependencies") < workflow.index("Verify Docling OCR backend")
+    assert workflow.index("Verify Docling OCR backend") < workflow.index("Run Docling baseline on all queued pages")
 
 
 def test_cloud_source_prep_heartbeat_restores_existing_queue_sources_from_r2(tmp_path, monkeypatch) -> None:
@@ -1817,6 +1820,7 @@ def test_docling_wrapper_keeps_table_structure_enabled() -> None:
 
     assert "pipeline_options.do_table_structure = True" in source
     assert "pipeline_options.do_table_structure = False" not in source
+    assert 'TesseractCliOcrOptions(lang=["eng", "spa", "fra", "deu"])' in source
 
 
 def test_local_visual_region_fallback_extracts_embedded_scan_block(tmp_path) -> None:
@@ -2772,6 +2776,36 @@ def test_gemini_source_prep_skips_pages_without_docling_baseline(tmp_path) -> No
     assert summary["skipped"] == 1
     assert summary["discovery_skipped"] == 1
     assert summary["tasks"][0]["reason"] == "docling_discovery_missing"
+
+
+def test_gemini_source_prep_routes_ocr_garbage_repair_to_flash_first(tmp_path) -> None:
+    route = genealogy_wiki.classify_gemini_source_prep_batch(
+        tmp_path,
+        {
+            "source": "raw/sources/simple-printed-page.pdf",
+            "pages": [{"quality_flags": ["possible_ocr_garbage_token"]}],
+        },
+    )
+
+    assert route["tier"] == "lite"
+    assert route["model"] == genealogy_wiki.GEMINI_SOURCE_PREP_LITE_MODEL
+    assert route["complex"] is False
+    assert "complex_quality_flags" not in route["reasons"]
+
+
+def test_gemini_source_prep_keeps_layout_repairs_on_pro(tmp_path) -> None:
+    route = genealogy_wiki.classify_gemini_source_prep_batch(
+        tmp_path,
+        {
+            "source": "raw/sources/table-page.pdf",
+            "pages": [{"quality_flags": ["possible_table_layout_loss"]}],
+        },
+    )
+
+    assert route["tier"] == "pro"
+    assert route["model"] == genealogy_wiki.GEMINI_SOURCE_PREP_PRO_MODEL
+    assert route["complex"] is True
+    assert "complex_quality_flags" in route["reasons"]
 
 
 def test_relevance_feedback_overrides_rough_docling_discovery(tmp_path, monkeypatch) -> None:

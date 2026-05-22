@@ -23,7 +23,7 @@ The PC-off runner is now the GitHub-hosted workflow:
 .github/workflows/internal-research-agents.yml
 ```
 
-It runs hourly on `windows-latest`. Main-branch pushes that change the workflow, post-conversion controller, project code, or automation contracts run a shorter validation batch; converted/chunked source output pushes do not self-trigger internal research, because the hourly runner is the durable source-to-research bridge. It restores ChatGPT-managed Codex auth from `CODEX_AUTH_JSON_B64` or `CODEX_AUTH_JSON`, refuses provider API keys, launches bounded `codex exec` workers through the controller, waits for them to drain, and commits GitHub-safe research/wiki outputs. Setup details are in `docs/internal_research_agents_pc_off.md`.
+It is manual-only while source prep remains the active stage-one gate. When manually run, it uses `windows-latest`, restores ChatGPT-managed Codex auth from `CODEX_AUTH_JSON_B64` or `CODEX_AUTH_JSON`, refuses provider API keys, launches bounded `codex exec` workers through the controller, waits for them to drain, and commits GitHub-safe research/wiki outputs. Setup details are in `docs/internal_research_agents_pc_off.md`.
 
 Local accelerator, for when the Windows workspace is available:
 

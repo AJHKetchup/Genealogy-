@@ -6128,7 +6128,7 @@ def convert_source_with_docling(
 ) -> str | dict[str, object]:
     try:
         from docling.datamodel.base_models import InputFormat
-        from docling.datamodel.pipeline_options import PdfPipelineOptions
+        from docling.datamodel.pipeline_options import PdfPipelineOptions, TesseractCliOcrOptions
         from docling.document_converter import DocumentConverter, PdfFormatOption
     except ImportError as exc:
         raise RuntimeError("Docling is required for source-prep discovery. Install with the discovery extra.") from exc
@@ -6137,6 +6137,8 @@ def convert_source_with_docling(
     pipeline_options.document_timeout = document_timeout
     if hasattr(pipeline_options, "do_ocr"):
         pipeline_options.do_ocr = use_ocr
+    if use_ocr and hasattr(pipeline_options, "ocr_options"):
+        pipeline_options.ocr_options = TesseractCliOcrOptions(lang=["eng", "spa", "fra", "deu"])
     pipeline_options.do_table_structure = True
     pipeline_options.do_picture_description = False
     pipeline_options.do_picture_classification = False
@@ -8196,7 +8198,6 @@ GEMINI_SOURCE_PREP_COMPLEX_FLAG_TOKENS = (
     "layout_loss",
     "illegible",
     "uncertain",
-    "ocr_garbage",
     "stamp",
     "seal",
     "signature",
@@ -8385,7 +8386,7 @@ def classify_gemini_source_prep_batch(
     pdf_profile = source_prep_gemini_pdf_profile(root, batch)
     profile_flags = [str(flag).lower() for flag in pdf_profile.get("flags", []) or []]
     if profile_flags:
-        if any(flag in profile_flags for flag in ("table_like_layout", "possible_ocr_garbage")):
+        if "table_like_layout" in profile_flags:
             complex_page = True
             reasons.append("pdf_profile_complex")
     elif pdf_profile.get("eligible"):

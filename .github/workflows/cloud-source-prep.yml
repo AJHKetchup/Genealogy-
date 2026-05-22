@@ -115,8 +115,6 @@ jobs:
       PYTHONPATH: src
       PIP_NO_CACHE_DIR: "1"
       PIP_DISABLE_PIP_VERSION_CHECK: "1"
-      EASYOCR_MODULE_PATH: ${{ github.workspace }}/.easyocr
-      MODULE_PATH: ${{ github.workspace }}/.easyocr
       RUN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.limit || '8000' }}
       RUN_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.parallelism || '128' }}
       RUN_RAW_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.raw_limit || '500' }}
@@ -238,31 +236,26 @@ jobs:
           echo "Disk before Docling dependency install:"
           df -h
           sudo apt-get update
-          sudo apt-get install -y tesseract-ocr tesseract-ocr-eng tesseract-ocr-spa tesseract-ocr-fra
-          python -m pip install --no-cache-dir --index-url https://download.pytorch.org/whl/cpu torch torchvision
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-eng tesseract-ocr-spa tesseract-ocr-fra tesseract-ocr-deu
           python -m pip install --no-cache-dir -e ".[discovery,ocr]"
           python -m pip cache purge || true
           echo "Disk after Docling dependency install:"
           df -h
 
-      - name: Prewarm Docling OCR models
+      - name: Verify Docling OCR backend
         if: steps.preflight.outputs.ready == 'true'
         shell: bash
         run: |
-          mkdir -p "$EASYOCR_MODULE_PATH/model"
-          rm -f "$EASYOCR_MODULE_PATH/model/temp.zip"
+          tesseract --version
+          tesseract --list-langs
           python - <<'PY'
-          import os
-          from pathlib import Path
-
           try:
-              import easyocr
+              from docling.datamodel.pipeline_options import TesseractCliOcrOptions
 
-              model_root = Path(os.environ["EASYOCR_MODULE_PATH"])
-              easyocr.Reader(["en"], gpu=False, verbose=False, download_enabled=True)
-              print(f"EasyOCR models are available in {model_root}.")
+              options = TesseractCliOcrOptions(lang=["eng", "spa", "fra", "deu"])
+              print(f"Docling OCR backend: {options}")
           except Exception as exc:
-              raise SystemExit(f"EasyOCR model prewarm failed: {exc}")
+              raise SystemExit(f"Docling Tesseract OCR backend check failed: {exc}")
           PY
 
       - name: Run Docling baseline on all queued pages

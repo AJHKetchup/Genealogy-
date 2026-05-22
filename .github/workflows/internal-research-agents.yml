@@ -21,16 +21,6 @@ on:
         required: false
         default: "false"
         type: boolean
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/internal-research-agents.yml"
-      - "scripts/post-conversion-agent-controller.ps1"
-      - "src/historic_doc_ingest/**"
-      - "research/_automation/**"
-  schedule:
-    - cron: "17 * * * *"
 
 concurrency:
   group: internal-research-agents-${{ github.ref }}
@@ -54,9 +44,9 @@ jobs:
       GIT_CONFIG_VALUE_0: "true"
       MAX_WORKERS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.max_workers || '3' }}
       QUEUE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.queue_limit || '12' }}
-      RUN_MINUTES: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_minutes || github.event_name == 'push' && '10' || '45' }}
-      WORKER_TIMEOUT_MINUTES: ${{ github.event_name == 'push' && '10' || '35' }}
-      ALLOW_PROMOTION: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.allow_promotion || github.event_name == 'schedule' && 'true' || 'false' }}
+      RUN_MINUTES: ${{ github.event.inputs.run_minutes || '45' }}
+      WORKER_TIMEOUT_MINUTES: "35"
+      ALLOW_PROMOTION: ${{ github.event.inputs.allow_promotion || 'false' }}
 
     steps:
       - name: Enable Git long paths

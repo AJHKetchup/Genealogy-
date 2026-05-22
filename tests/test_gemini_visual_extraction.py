@@ -866,12 +866,12 @@ def test_gemini_route_honors_explicit_pro_without_crops(tmp_path) -> None:
     assert route["complex"] is True
 
 
-def test_gemini_route_uses_technical_failure_for_pro_without_crops(tmp_path) -> None:
+def test_gemini_route_uses_layout_failure_for_pro_without_crops(tmp_path) -> None:
     batch = {
         "source": "raw/sources/source.pdf",
         "title": "Simple printed page",
         "first_page": 1,
-        "quality_flags": ["ocr_garbage"],
+        "quality_flags": ["possible_table_layout_loss"],
         "pages": [
             {
                 "page": 1,
