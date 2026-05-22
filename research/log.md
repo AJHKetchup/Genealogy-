@@ -25114,3 +25114,6 @@
 ## [2026-05-22] source-relevance | Restored proof-review assets and released 10 review task(s)
 ## [2026-05-22] source-relevance | Synced 1 proof-review page-image hold hint(s) from 19 review(s)
 ## [2026-05-22] source-relevance | Restored proof-review assets and released 8 review task(s)
+## [2026-05-22] gemini-source-prep | preflight ok
+## [2026-05-22] source-prep-batches | Wrote 1392 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
+## [2026-05-22] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
