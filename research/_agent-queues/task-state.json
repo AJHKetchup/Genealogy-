@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-22T01:37:49Z",
+  "updated": "2026-05-22T01:42:28Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -80000,13 +80000,14 @@
       "completed_at": "2026-05-22T01:25:15Z"
     },
     "proof-review:research/_staging/claims/chunk-37cac508f847-p0006-01-occupational-claims.md": {
-      "status": "done",
-      "updated_at": "2026-05-22T01:25:21Z",
-      "agent": "postconv-proof-review-20260522012408502",
-      "note": "post-conversion controller start",
+      "status": "released",
+      "updated_at": "2026-05-22T01:42:21Z",
+      "note": "hosted internal-agent run was cancelled before worker drain",
       "claimed_at": "2026-05-22T01:24:08Z",
       "started_at": "2026-05-22T01:24:09Z",
-      "completed_at": "2026-05-22T01:25:21Z"
+      "completed_at": "2026-05-22T01:25:21Z",
+      "released_by": "postconv-proof-review-20260522012408502",
+      "released_at": "2026-05-22T01:42:21Z"
     },
     "proof-review:research/_staging/claims/chunk-37cac508f847-p0007-01-occupational-claims.md": {
       "status": "done",
@@ -80044,6 +80045,61 @@
       "agent": "gemini-source-prep",
       "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "held_at": "2026-05-22T01:36:31Z"
+    },
+    "proof-review:research/_staging/relationships/chunk-37cac508f847-p0006-01-relationship-candidates.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:38:13Z",
+      "agent": "postconv-proof-review-20260522013650836",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:36:51Z",
+      "started_at": "2026-05-22T01:36:51Z",
+      "completed_at": "2026-05-22T01:38:13Z"
+    },
+    "proof-review:research/_staging/relationships/chunk-37cac508f847-p0007-01-relationship-candidates.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:38:02Z",
+      "agent": "postconv-proof-review-20260522013651680",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:36:51Z",
+      "started_at": "2026-05-22T01:36:53Z",
+      "completed_at": "2026-05-22T01:38:02Z"
+    },
+    "proof-review:research/_staging/identity/chunk-37cac508f847-p0006-01-identity-candidates.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:40:19Z",
+      "agent": "postconv-proof-review-20260522013857439",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:38:57Z",
+      "started_at": "2026-05-22T01:38:57Z",
+      "completed_at": "2026-05-22T01:40:19Z"
+    },
+    "proof-review:research/_staging/identity/chunk-37cac508f847-p0007-01-identity-candidates.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:40:17Z",
+      "agent": "postconv-proof-review-20260522013858026",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:38:58Z",
+      "started_at": "2026-05-22T01:38:59Z",
+      "completed_at": "2026-05-22T01:40:17Z"
+    },
+    "proof-review:research/_staging/conflicts/chunk-37cac508f847-p0006-01-conflict-candidates.md": {
+      "status": "released",
+      "updated_at": "2026-05-22T01:42:22Z",
+      "note": "hosted internal-agent run was cancelled before worker drain",
+      "claimed_at": "2026-05-22T01:41:03Z",
+      "started_at": "2026-05-22T01:41:03Z",
+      "released_by": "postconv-proof-review-20260522014103544",
+      "released_at": "2026-05-22T01:42:22Z"
+    },
+    "proof-review:research/_staging/conflicts/chunk-37cac508f847-p0007-01-conflict-candidates.md": {
+      "status": "released",
+      "updated_at": "2026-05-22T01:42:22Z",
+      "note": "hosted internal-agent run was cancelled before worker drain",
+      "claimed_at": "2026-05-22T01:41:04Z",
+      "started_at": "2026-05-22T01:41:05Z",
+      "completed_at": "2026-05-22T01:42:11Z",
+      "released_by": "postconv-proof-review-20260522014104119",
+      "released_at": "2026-05-22T01:42:22Z"
     }
   }
 }
