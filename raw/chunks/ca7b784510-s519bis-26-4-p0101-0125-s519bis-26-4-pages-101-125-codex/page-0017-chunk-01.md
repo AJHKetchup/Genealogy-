@@ -1,0 +1,65 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-99a42bb1e267-P0017-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125.codex.md
+converted_sha256: 99a42bb1e2670a7e105ef08933e795a5ebc6d8a9875e0aff3890762141d0a45c
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/manifest.json
+page_start: 17
+page_end: 17
+part: 1
+---
+
+## Page Metadata
+Page: 117
+
+## Layout And Reading Order
+The page contains a typewritten letter in Spanish, followed by a handwritten signature and a short handwritten note. The text is presented in a single column.
+
+## Literal Transcription
+el ingreso de la República Dominicana en la Liga, cuando,
+entre otros, el Delegado de Gran Bretaña hacía oposición
+a la admisión de mi país en el seno de la Institución Gi-
+nebrina. Demás está que le diga que recurro a Ud. porque
+deseo datos absolutamente exactos y no estoy muy seguro de
+los que poseo al respecto. Excuse la molestia !
+Creame su siempre afmo. S.S. y amigo,
+[signature]
+------------------------------------
+Dr. S.E. Paradas,
+Secretario de la Legación,
+Delegado de Estado cerca del I.I.de
+C.I. (S.D.N.), etc.
+
+En la Asamblea hablaron
+Palacios, Zuneta, Feny y [?]
+
+## Images, Captions, And Visual Notes
+The signature of "S.E. Paradas" is present above his typewritten name and title. Below the typewritten text, there is a handwritten note.
+
+## Uncertain Or Illegible
+*   "Feny y [?]" in the handwritten note. The last word is difficult to decipher, possibly "Juez" or "Jues".
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "signature",
+      "bbox_pct": [51.9, 60.9, 59.0, 80.0],
+      "caption_literal": "S.E. Paradas",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "Signature above the typewritten name 'Dr. S.E. Paradas'",
+      "confidence": 0.9,
+      "suggested_filename": "signature_S_E_Paradas.png",
+      "inline_anchor": "signature"
+    }
+  ]
+}
+```

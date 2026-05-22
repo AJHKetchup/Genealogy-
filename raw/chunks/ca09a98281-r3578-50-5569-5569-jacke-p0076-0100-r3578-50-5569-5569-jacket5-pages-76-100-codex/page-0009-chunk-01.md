@@ -1,0 +1,87 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-0c7431cd7d77-P0009-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100.codex.md
+converted_sha256: 0c7431cd7d775a16ff443ec7ba8f8dde22510706bdc74ef36e9a40bdf5ba2e10
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100/manifest.json
+page_start: 9
+page_end: 9
+part: 1
+---
+
+## Page Metadata
+Page number: 84
+Source document page number: 20
+
+## Layout And Reading Order
+
+The page presents text in a single column, primarily consisting of numbered articles and paragraphs in French. A large number "514" is present in the top left, and a smaller page number "20" is in the top right.
+
+## Literal Transcription
+
+514
+20
+
+suffisance de leurs lois pénales, les mesures nécessaires pour
+réprimer, en temps de guerre, tout acte contraire aux dispositions
+de la présente Convention.
+Ils se communiqueront, par l'intermédiaire du Conseil fédéral
+suisse, les dispositions relatives à cette répression, au plus tard
+dans les cinq ans à dater de la ratification de la présente Con-
+vention.
+
+Article 30.
+
+A la demande d'un belligérant, une enquête devra être
+ouverte, selon le mode à fixer entre les parties intéressées, au
+sujet de toute violation alléguée de la Convention; une fois la
+violation constatée, les belligérants y mettront fin et la répri-
+meront le plus promptement possible.
+
+**Dispositions finales.**
+
+Article 31.
+
+La présente Convention, qui portera la date de ce jour, pourra,
+jusqu'au premier février 1930, être signée au nom de tous les
+pays représentés à la Conférence qui s'est ouverte à Genève le
+1er juillet 1929, ainsi que des pays non représentés à cette
+Conférence qui participent aux Conventions de Genève de 1864
+ou de 1906.
+
+Article 32.
+
+La présente Convention sera ratifiée aussitôt que possible.
+Les ratifications seront déposées à Berne.
+Il sera dressé du dépôt de chaque instrument de ratification
+un procès-verbal dont une copie, certifiée conforme, sera remise
+par le Conseil fédéral suisse aux Gouvernements de tous les
+pays au nom de qui la Convention aura été signée ou l'adhésion
+notifiée.
+
+Article 33.
+
+La présente Convention entrera en vigueur six mois après que
+deux instruments de ratification au moins auront été déposés.
+Ultérieurement, elle entrera en vigueur pour chaque Haute
+Partie Contractante six mois après le dépôt de son instrument
+de ratification.
+
+## Images, Captions, And Visual Notes
+
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+
+No uncertain or illegible text was found on this page.
+
+## Completeness Audit
+
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+```

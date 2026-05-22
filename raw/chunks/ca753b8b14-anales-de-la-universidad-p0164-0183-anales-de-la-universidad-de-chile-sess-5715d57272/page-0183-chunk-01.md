@@ -11,8 +11,6 @@ page_end: 183
 part: 1
 ---
 
-# Page 183
-
 ## Page Metadata
 
 - Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`

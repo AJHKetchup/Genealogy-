@@ -11,8 +11,6 @@ page_end: 62
 part: 1
 ---
 
-# Page 62
-
 ## Page Metadata
 
 - Source: `raw/sources/S522bis-29-3.pdf`
@@ -109,9 +107,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 63
-
-## Layout And Reading Order
-The page is presented in a two-column layout. The reading order proceeds down the left column, then down the right column.

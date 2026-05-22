@@ -1,0 +1,106 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-30cef6df8e1e-P0065-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75.codex.md
+converted_sha256: 30cef6df8e1e5dcc65b8185b1d304b54009f5c31f40c094f0e58245e7f27bd40
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75/manifest.json
+page_start: 65
+page_end: 65
+part: 1
+---
+
+## Page Metadata
+- Task id: `source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75:p0065`
+- Page: 65
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Quality flags: `possible_table_layout_loss`
+
+## Layout And Reading Order
+The page contains a single column of text centered vertically on the left half of the page. The content is a list of signatories, organized by country. Each country's name is followed by the indented name(s) of its representative(s). The page number "60" is centered at the top. Faint text from the reverse side of the page is visible on the right but does not interfere with the primary text.
+
+## Literal Transcription
+60
+
+For New Zealand:
+    CLAUD RUSSELL
+
+For South Africa:
+    ERIC H. LOUW
+
+For the Irish Free State:
+    SEAN LESTER
+
+For India:
+    CLAUD RUSSELL
+
+For Bulgaria:
+    D. MIKOFF
+    STEPHAN N. LAFTCHIEFF
+
+For Chile:
+    GMO NOVOA
+    D. PULGAR
+
+For China:
+    C. Y. HSIAO
+
+For Colombia:
+    FRANCISCO JOSÉ URRUTIA
+
+For Cuba:
+    CARLOS DE ARMENTEROS
+    CARLOS BLANCO
+
+For Denmark:
+    HARALD SCAVENIUS
+    GUSTAV RASMUSSEN
+
+For the Dominican Republic:
+    CH. ACKERMANN
+
+For Egypt:
+    MOHAMMED ABDEL MONEIM RIAD
+
+For Spain:
+    Ad Referendum
+    MAURICIO LOPEZ ROBERTS Y TERRY, MARQUÉS DE
+    LA TORREHERMOSA
+
+For Estonia:
+    Dr. LEESMENT
+
+For Finland:
+    A. E. MARTOLA
+
+For France:
+    H. DE MARCILLY
+    J. DU SAULT
+
+For Greece:
+    R. RAPHAËL
+    S. VENISELOS
+
+For Hungary:
+    PAUL DE HEVESY
+
+For Italy:
+    GIOVANNI CIRAOLO
+
+## Images, Captions, And Visual Notes
+The page number "60" is printed at the top center. There is a small, dark circular mark near the top right corner, possibly a hole punch.
+
+## Uncertain Or Illegible
+There are no uncertain or illegible words on this page.
+
+## Completeness Audit
+This page is complete and fully transcribed.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only typed text and a page number, with no significant images, illustrations, or other visual elements that would warrant cropping."
+}
+```

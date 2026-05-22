@@ -1,0 +1,75 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7d841a05ab17-P0005-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250.codex.md
+converted_sha256: 7d841a05ab17b4bff88e90f6b13a66de47cebe2061ebcaaed329f024e68cc125
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250/manifest.json
+page_start: 5
+page_end: 5
+part: 1
+---
+
+## Page Metadata
+Page number: 230
+Source document page number: 7
+Source document total page count: 514
+
+## Layout And Reading Order
+The page presents a single column of text, listing diplomatic representatives or officials for various countries. Each country's section begins with a bolded heading, followed by indented lines detailing the names, titles, and assignments of the individuals. The reading order is top-to-bottom, following these country-specific blocks. Page numbers "7" and "514" appear at the top center and top right, respectively.
+
+## Literal Transcription
+7
+514
+
+Le Président de la République de Finlande:
+M. A. E. Martola, Lieutenant-Colonel, Attaché militaire près
+la Légation de Finlande à Paris;
+
+Le Président de la République Française:
+S. Exc. M. Henri Chaissain de Marcilly, Ambassadeur de
+France à Berne,
+M. Jean Du Sault, Conseiller de l'Ambassade de France à
+Berne;
+
+Le Président de la République Hellénique:
+M. Raphael Raphael, Chargé d'Affaires p. i. de Grèce à Berne,
+M. Sophocle Venizelos, Lieutenant-Colonel, Attaché militaire
+près la Légation de Grèce à Paris;
+
+Son Altesse Sérénissime le Gouverneur de la Hongrie:
+S. Exc. M. Paul de Hevesy, Ministre-Résident, Délégué perma-
+nent du Gouvernement Royal auprès de la Société des
+Nations;
+
+Sa Majesté le Roi d'Italie:
+M. Giovanni Ciraolo, Sénateur du Royaume;
+
+Sa Majesté l'Empereur du Japon:
+S. Exc. M. Isaburo Yoshida, Envoyé extraordinaire et Ministre
+plénipotentiaire du Japon à Berne,
+M. Sadamu Shimomura, Lieutenant-Colonel,
+M. Seizo Miura, Capitaine de Frégate, Attaché naval près l'Am-
+bassade du Japon à Paris;
+
+Le Président de la République de Lettonie:
+S. Exc. M. Charles Duzmans, Envoyé extraordinaire et Ministre
+plénipotentiaire de Lettonie près S. M. le Roi des Serbes,
+Croates et Slovènes, Délégué permanent auprès de la Société
+des Nations,
+S. Exc. M. Oskar Voit, Envoyé extraordinaire et Ministre pléni-
+potentiaire de Lettonie en Suisse, en Allemagne, en Hongrie et
+aux Pays-Bas;
+
+## Images, Captions, And Visual Notes
+The page contains no images or visual elements requiring cropping. The numbers "7" (top center) and "514" (top right) are page identifiers.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions present."}

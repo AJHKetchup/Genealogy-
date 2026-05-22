@@ -1,0 +1,78 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-51d0dddbaf02-P0013-01
+source_converted: raw/converted/cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25.codex.md
+converted_sha256: 51d0dddbaf022245f253fbbf0ffc01f5ac2c5b57d2a7d50a02c7fb4b52f5472f
+source: raw/sources/R3577-50-5569-5569-Jacket1.pdf
+source_sha256: db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb
+source_manifest: raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25/manifest.json
+page_start: 13
+page_end: 13
+part: 1
+---
+
+## Page Metadata
+
+- Task id: `source-prep:cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25:p0013`
+- Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
+- Page: 13
+
+## Layout And Reading Order
+
+The page is a single column of printed text. The reading order is top to bottom.
+
+1.  A centered page number, `— 4 —`, is at the top.
+2.  A centered, all-caps heading, `PROPOSITIONS`, follows.
+3.  The main content consists of several sections, each introduced by a centered country name (`France.`, `Allemagne.`, `Espagne.`) and sometimes an article number (`ARTICLE PREMIER.`, `ARTICLE 2.`).
+4.  The text within each section consists of one or more paragraphs. Some paragraphs begin with the italicized word `Motifs :`.
+
+## Literal Transcription
+
+— 4 —
+
+PROPOSITIONS
+
+**France.**
+
+Un renvoi paraît utile, dans le titre, après le mot « blessés », avec, au bas de la page, la note suivante :
+« Le terme de « blessés » s'applique indistinctement aux victimes de l'action d'une arme de guerre quelconque, y compris l'action offensive éventuelle des gaz de combat. »
+*Motifs :* Il semble, en effet, nécessaire de mentionner, au moins une fois, l'intervention toujours possible, dans l'avenir, des gaz de combat.
+
+ARTICLE PREMIER.
+
+**Allemagne.**
+
+Eclaircir la portée du mot « respectés », en précisant à certains égards le traitement auquel ont droit les blessés et malades.
+Ajouter après les mots « aux armées » les mots « ainsi que les individus qui suivent les armées sans en faire partie, tels que les correspondants et les reporters de journaux, les vivandiers, les fournisseurs ».
+
+ARTICLE 2.
+
+**Allemagne.**
+
+Ajouter à la fin du dernier alinéa, après le mot « interner », les mots « au plus tard jusqu'à la fin des hostilités ».
+
+**Espagne.**
+
+A la fin de l'article, conserver les mots « jusqu'à la fin des hostilités ».
+*Motifs :* Les blessés et malades internés en pays neutre ne doivent pas être restitués à leur pays d'origine avant la fin de la guerre.
+
+## Images, Captions, And Visual Notes
+
+A metal fastener is visible at the bottom left corner, binding the pages of the document.
+
+## Uncertain Or Illegible
+
+There are no uncertain or illegible parts of this page.
+
+## Completeness Audit
+
+This page has been transcribed in its entirety.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only typed text and no significant visual elements like photographs, illustrations, or maps that would warrant cropping."
+}
+```

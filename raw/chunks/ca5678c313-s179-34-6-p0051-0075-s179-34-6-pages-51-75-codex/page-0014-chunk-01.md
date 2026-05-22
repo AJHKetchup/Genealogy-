@@ -1,0 +1,78 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-43656c2efa76-P0014-01
+source_converted: raw/converted/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75.codex.md
+converted_sha256: 43656c2efa768274b3314087a11dfa425dcf29db71eae5f6ab9836c6de612ce5
+source: raw/sources/S179-34-6.pdf
+source_sha256: 5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054
+source_manifest: raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75/manifest.json
+page_start: 14
+page_end: 14
+part: 1
+---
+
+## Page Metadata
+Page number: 64
+
+## Layout And Reading Order
+The page contains a series of numbered articles, likely from a legal or regulatory document, presented in a single column. There are several handwritten annotations, insertions, and strikethroughs throughout the typed text. A handwritten page number is present in the top right corner. A short handwritten note is in the left margin.
+
+## Literal Transcription
+Article 7. Offences against the above articles, ~on provided~ also
+~condition that~ they do not further constitute crimes
+under the Penal Code, shall be punishable by fines of
+from 4 to 10 pesos, or a corresponding term of
+imprisonment.
+
+Article 8. The police
+It shall prohibit the residence of prostitutes in
+cafés, beerhouses, premises licensed for the consumption
+of drink, furnished houses and similar establishments.
+e
+The proprietors of such houses who, after having been
+prostitute's calling fail to expel
+notified of the ~condition of the woman~, ~do not dismiss~
+her, shall be liable to fines of from 4 to 10 pesos, or
+a corresponding term of imprisonment, without prejudice
+present clause
+to the execution of this ~provision~.
+Houses
+_CONCERNING PLACES INHABITED BY PROSTITUTES._
+
+Article 9. The police shall take care that not more than
+two prostitutes ~may~ inhabit the same house, that there
+minors they are
+shall be no juveniles in the house, even if children
+or relatives of the women or of their servants, and that
+no males shall reside in the ~same~ house with them.
+
+Article 19. The police shall give any aid required by the
+women living in these houses to prevent the entry or
+compel the withdrawal of any person attempting to enter
+or remain against the wish of the women.
+
+_CONCERNING THE REGISTERED WOMEN._
+
+Article 20. Besides the register kept by the Medical
+Department, the Chief of Police shall also keep a
+submit the
+register containing the information and any further
+by the former
+information considered necessary for the proper
+execution of police surveillance.
+
+## Images, Captions, And Visual Notes
+- A handwritten page number "62" is present in the top right corner of the page.
+- A handwritten marginal note "See below. ^^" is present in the left margin next to Article 9.
+- Numerous handwritten insertions and strikethroughs are present throughout the typed text, as captured in the literal transcription.
+
+## Uncertain Or Illegible
+No uncertain or illegible text was encountered.
+
+## Completeness Audit
+All visible text, including handwritten annotations, insertions, and strikethroughs, has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams. Minor handwritten notes and page numbers are transcribed in the literal transcription and visual notes sections."}
+```

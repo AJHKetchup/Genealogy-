@@ -1,0 +1,78 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-383178d699a3-P0014-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0226-0250-s522bis-29-3-pages-226-250.codex.md
+converted_sha256: 383178d699a3eba5670be331d33418b93ae1e340af956ccbaa9ed106462f78b1
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0226-0250-s522bis-29-3-pages-226-250/manifest.json
+page_start: 14
+page_end: 14
+part: 1
+---
+
+## Page Metadata
+- Page number: 239
+- Source publication: S522bis-29-3
+- Document type: Genealogy source page
+- Language: English
+
+## Layout And Reading Order
+The page contains a single column of text, starting with a page number in the top right corner. Below the page number is a main heading, followed by a sub-heading in brackets. The main body of text consists of an introductory paragraph and two numbered paragraphs, with the second numbered paragraph being cut off at the bottom of the page.
+
+## Literal Transcription
+18
+
+INDIVIDUAL OPINION BY M. ANZILOTTI.
+[Translation.]
+
+Very much to my regret I do not concur in the opinion
+of the Court and it is my duty to say so. Since, in my
+view, a dissenting opinion should not be a criticism of that
+which the Court has seen fit to say, but rather an exposition
+of the views of the writer, I shall confine myself to indicating
+as briefly as possible what my point of view is and the
+grounds on which it is based.
+
+1.—If the actual terms of the question put are taken and
+if regard is had to the fact that it has its origin in an
+application by the Free City of Danzig for admission to the
+International Labour Organization, the natural inference is
+that this question relates in the first place to the admission
+of the Free City into that Organization.
+
+Since the International Labour Organization is governed by
+Part XIII of the Treaty of Versailles, it is in this Part that
+the provisions dealing with the admission of Members to the
+Organization and prescribing the qualifications required in
+order to become a Member of it, must be sought. The only
+provision relating to the admission of Members and the quali-
+fications required for such admission is paragraph 2 of Article 387,
+according to which “the original Members of the League of
+Nations shall be the original Members of this Organization,
+and hereafter membership of the League of Nations shall
+carry with it membership of the said Organization”. As there
+is no other article of Part XIII of the Treaty of Versailles
+relating directly or indirectly to the membership of the Inter-
+national Labour Organization, it is permissible, *prima facie*, to
+conclude that membership of the Organization is merely the
+corollary of that of Member of the League of Nations.
+
+2.—It should however be observed that the request seems
+to proceed from a different hypothesis, namely, that it would
+be possible for the Free City to become a Member of the
+International Labour Organization independently of its admission
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None. The page is clear and legible.
+
+## Completeness Audit
+All visible text on the page has been transcribed. The last sentence of the second numbered paragraph is incomplete as it continues onto the next page.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+```

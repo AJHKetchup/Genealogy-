@@ -1,0 +1,61 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-283998baec1d-P0002-01
+source_converted: raw/converted/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350.codex.md
+converted_sha256: 283998baec1d7e3d41d10026e1f6f30de2b634f061a43f5268ba85a7289e77da
+source: raw/sources/S179-34-6.pdf
+source_sha256: 5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054
+source_manifest: raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/manifest.json
+page_start: 2
+page_end: 2
+part: 1
+---
+
+## Page Metadata
+Page number: 327
+
+## Layout And Reading Order
+The page consists entirely of a single sepia-toned photograph, centered on a dark background. There is no text on the page.
+
+## Literal Transcription
+There is no text to transcribe on this page.
+
+## Images, Captions, And Visual Notes
+Pipeline-extracted visual crops:
+- ![converter-description: A sepia-toned photograph showing a body of water with land and buildings in the distance. Several figures, possibly men, are standing on the near shore or a dock. One figure appears to be in uniform, and another is holding a long, dark object.](../extracted-images/page-0327/page-0327-image-01-sepia-photo-harbor-figures-distance.png)
+  - Kind: photograph; label basis: converter-description; bbox_pct: [4.5, 10.5, 95.5, 90.0]
+  - Source context: The entire page is dedicated to this photograph.
+
+The page displays a sepia-toned photograph. The image depicts a wide body of water, possibly a harbor or bay, in the foreground and midground. Across the water, a distant shoreline is visible, featuring buildings and trees, suggesting a town or settlement. In the immediate foreground, on what appears to be a dock or a narrow strip of land beside the water, several figures are standing. These figures are somewhat indistinct due to the photograph's age and quality, but they appear to be men. One figure on the far left seems to be wearing a uniform. Another figure in the center is holding or carrying a long, dark object, possibly a pole or a piece of equipment. The sky above is light and clear. There are some light-colored smudges or marks visible on the upper left and upper right areas of the photograph, likely imperfections on the physical print.
+
+## Uncertain Or Illegible
+Not applicable; there is no text on the page.
+
+## Completeness Audit
+All visual content on the page has been described.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "photograph",
+      "bbox_pct": [
+        4.5,
+        10.5,
+        95.5,
+        90.0
+      ],
+      "caption_literal": "A sepia-toned photograph showing a body of water with land and buildings in the distance. Several figures, possibly men, are standing on the near shore or a dock. One figure appears to be in uniform, and another is holding a long, dark object.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-appearance",
+      "source_context": "The entire page is dedicated to this photograph.",
+      "confidence": "high",
+      "suggested_filename": "sepia_photo_harbor_figures_distance",
+      "inline_anchor": null
+    }
+  ],
+  "no_visual_regions_reason": null
+}
+```

@@ -11,8 +11,6 @@ page_end: 283
 part: 1
 ---
 
-# Page 283
-
 ## Page Metadata
 
 - Source: `raw/sources/R4749-11C-17499-5398.pdf`
@@ -83,43 +81,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-
-- page_number: 284
-- page_type: section-divider
-
-## Layout And Reading Order
-
-The page contains a single block of centered text, acting as a section divider. The reading order is top to bottom. Faint text from the preceding page is visible as bleed-through but is not part of this page's content.
-
-## Literal Transcription
-
-<center>
-SESION
-
-DEL DIA
-
-28 DE SEPTIEMBRE
-</center>
-
-## Images, Captions, And Visual Notes
-
-This page is a text-only section divider. There are no images, illustrations, or other visual elements.
-
-## Uncertain Or Illegible
-
-All text on this page is clear and legible.
-
-## Completeness Audit
-
-This page has been fully transcribed.
-
-## Visual Region Manifest
-
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "This page is a simple text-only section divider with no images, illustrations, or other significant visual elements to crop."
-}
-```

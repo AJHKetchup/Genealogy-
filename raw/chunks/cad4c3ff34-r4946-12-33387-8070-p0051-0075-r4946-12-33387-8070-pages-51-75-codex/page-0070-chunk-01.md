@@ -11,8 +11,6 @@ page_end: 70
 part: 1
 ---
 
-# Page 70
-
 ## Page Metadata
 
 - Source: `raw/sources/R4946-12-33387-8070.pdf`
@@ -69,40 +67,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 2.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 71
-
-## Layout And Reading Order
-The page contains typed text in French, followed by a citation in Spanish. A handwritten page number "9" is in the top right corner. A typed page number "-61-" is centered near the top. A diagonal line runs from the top-left to the bottom-right of the page, crossing the text. There is a single hole punch mark on the left side of the page.
-
-## Literal Transcription
-```
-                                                                        9
-                                    -61-
-
-cette feuille sont dans la province de Los Sutagaos et dans
-le Soatá (province de Duitama) et ils l'estiment tellement
-que les chefs encensent, par ce moyen, les idoles."(¹[?]).
-
-'
-(¹[?]) Fernández Piedrahita (Lucas): Historia general
-de las conquistas del Nuevo Reino de Granada, Bogotá, 1881,
-págs 14-15.
-```
-
-## Images, Captions, And Visual Notes
-- A circular hole punch is present on the left side of the page at approximately 10% from the top.
-- A thin, diagonal line runs across the page from the top-left corner (approximately 10% from the top, 10% from the left) to the bottom-right corner (approximately 90% from the bottom, 90% from the right).
-
-## Uncertain Or Illegible
-- `(¹[?])`: The symbol after "idoles." appears to be a superscript '1' followed by another character that is difficult to discern, possibly a '2' or a stylized 'S'.
-- `(¹[?])`: The symbol before "Fernández" appears to be a superscript '1' or a prime mark.
-
-## Completeness Audit
-The transcription is complete.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present. The diagonal line is a minor mark and the hole punch is a common artifact, neither warranting a crop box."}
-```

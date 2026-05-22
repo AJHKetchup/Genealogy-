@@ -1,0 +1,110 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f9fafccda3bd-P0017-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203.codex.md
+converted_sha256: f9fafccda3bd8b21fedad4f67260539c09870f950fd91a895a3d8db6d6232bc3
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json
+page_start: 17
+page_end: 17
+part: 1
+---
+
+## Page Metadata
+Page number: 197
+
+## Layout And Reading Order
+
+— 197 —
+
+haber devuelto dicho talón firmado al interesado o a su repre-
+sentante. Regirá, por lo demás, lo establecido en los artículos
+298 y 318.
+
+Procedimiento en casos de contro-
+versia sobre el número de animales
+a cargarse.
+
+Art. 362. — Cuando el transporte se efectúe por vagón y no
+por cabeza, el jefe de la estación fijará la cantidad máxima
+de animales que puedan caber en cada vehículo, teniendo en
+cuenta la necesidad de evitar el hacinamiento y de asegurar a
+cada animal el espacio suficiente para ir cómodo.
+Si el remitente insistiera en cargar mayor número de ani-
+males, la empresa estará obligada a conducirlos, quedando
+exenta de responsabilidad si hiciera constar en la carta de
+porte su oposición.
+
+Animales de varias especies en un
+mismo vagón. Divisiones a cargo
+del remitente.
+
+Art. 363. — Se permitirá cargar animales de especie dife-
+rente en un mismo vagón, sólo cuando puedan ser colocados
+en espacios divididos.
+La división de los vagones será, en estos casos, por cuenta
+y riesgo del remitente, quien estará obligado a dejar los va-
+gones en destino en las condiciones en que los recibió en pro-
+cedencia.
+
+Anotaciones obligatorias en la car-
+ta de porte.
+
+Art. 364. — Cualesquiera que sean los convenios del trans-
+porte, se anotará en la carta de porte la especie y el número
+de animales a transportarse en cada vehículo.
+
+## Literal Transcription
+— 197 —
+
+haber devuelto dicho talón firmado al interesado o a su repre-
+sentante. Regirá, por lo demás, lo establecido en los artículos
+298 y 318.
+
+Procedimiento en casos de contro-
+versia sobre el número de animales
+a cargarse.
+
+Art. 362. — Cuando el transporte se efectúe por vagón y no
+por cabeza, el jefe de la estación fijará la cantidad máxima
+de animales que puedan caber en cada vehículo, teniendo en
+cuenta la necesidad de evitar el hacinamiento y de asegurar a
+cada animal el espacio suficiente para ir cómodo.
+Si el remitente insistiera en cargar mayor número de ani-
+males, la empresa estará obligada a conducirlos, quedando
+exenta de responsabilidad si hiciera constar en la carta de
+porte su oposición.
+
+Animales de varias especies en un
+mismo vagón. Divisiones a cargo
+del remitente.
+
+Art. 363. — Se permitirá cargar animales de especie dife-
+rente en un mismo vagón, sólo cuando puedan ser colocados
+en espacios divididos.
+La división de los vagones será, en estos casos, por cuenta
+y riesgo del remitente, quien estará obligado a dejar los va-
+gones en destino en las condiciones en que los recibió en pro-
+cedencia.
+
+Anotaciones obligatorias en la car-
+ta de porte.
+
+Art. 364. — Cualesquiera que sean los convenios del trans-
+porte, se anotará en la carta de porte la especie y el número
+de animales a transportarse en cada vehículo.
+
+## Images, Captions, And Visual Notes
+No images, captions, or visual notes are present on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+```

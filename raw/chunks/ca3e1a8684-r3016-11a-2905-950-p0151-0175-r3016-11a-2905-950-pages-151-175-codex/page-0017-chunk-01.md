@@ -1,0 +1,112 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-124146ea8e86-P0017-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0151-0175-r3016-11a-2905-950-pages-151-175.codex.md
+converted_sha256: 124146ea8e86c13d1b6a109fc0b24cae38d6d92e48f62bd233559753f56c6822
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0151-0175-r3016-11a-2905-950-pages-151-175/manifest.json
+page_start: 17
+page_end: 17
+part: 1
+---
+
+## Page Metadata
+Page: 167
+
+## Layout And Reading Order
+The page begins with four Roman numeral headings, each followed by a descriptive paragraph. Below these, there is a two-column list of names and titles. Following the list, there is a single line identifying a "Membre du Comité international". The page concludes with two paragraphs of text and a centered page number at the bottom.
+
+## Literal Transcription
+XIV Étude des mesures propres à diminuer le nombre des disparus en temps de guerre
+(proposé par le Comité international de la Croix-Rouge).
+
+XV Recrutement et formation des infirmières (proposé par le Comité international de
+la Croix-Rouge et la Croix-Rouge italienne).
+
+XVI Proposition de munir le matériel des Sociétés nationales de la Croix-Rouge d'une
+marque d'identité reproduisant le nom et les initiales de la Société à laquelle
+appartient le matériel (proposé par la Croix-Rouge suédoise).
+
+XVII Mode de protection de l'emblème de la Croix-Rouge en tout ce qui touche le
+personnel et le matériel sanitaire des services de santé des parties belligérantes
+(proposé par la Croix-Rouge polonaise).
+
+M. ANDRESEN,
+M. le général BADUEL,
+Son Exc. M. BAHMAN,
+Mme BARBIER HUGO,
+M. le général BAUER,
+M. le lieutenant-colonel VAN BAUM-
+    BERGHEN,
+M. BICKNELL,
+M. le général CHAMPAIN,
+M. le lieutenant-colonel CHAZARO,
+M. von CLEVE,
+M. le colonel COLLINS,
+M. DANEFF,
+M. le médecin-général DEMOLDER,
+M. le colonel DRAUDT,
+M. DRONSART,
+Mlle VAN EEGHEN,
+Mme la comtesse DE GALARD,
+M. DE GLACZ,
+M. le commandant DE GRIPENBERG,
+M. HIGGINS,
+M. ISCHER,
+M. JOSEPHUS JITTA,
+M. KRYŃSKI,
+M. le lieutenant-colonel LA PORTA,
+
+M. LEESMENT,
+M. LÉONARDOFF,
+M. LOZANO,
+M. le médecin-général MAROTTE,
+M. le médecin-major MATSUDA,
+M. DE MEDEIROS,
+Mlle MORALES,
+Mme MORIER,
+Son Exc. MOUHEB PACHA,
+Lady NOVAR,
+M. PAEGLE,
+M. PIERA,
+Mlle SILVA RAMOS,
+Mlle REIMANN,
+Mme DE RUEDA,
+M. le médecin-général SCHRIJVER,
+Mlle SOLARI,
+M. le médecin-général STEINER,
+M. le baron STJERNSTEDT,
+Mme la marquise DI TARGIANI GIUNTI,
+M. le colonel THOMANN,
+Mme VIJASMAN,
+M. le médecin-major VONCKEN,
+Mlle WASSELI,
+M. ZEMBRZUSKI.
+
+Membre du Comité international: M. AUDEOUD.
+
+S. E. le général Röell (premier vice-président). — Je voudrais vous rappeler qu'il est
+d'usage, dans les conférences internationales de la Croix-Rouge, que les délégués qui
+n'auraient pas été désignés expressément comme membres d'une commission, soient invités
+à prendre part aux discussions d'une quelconque des commissions, toutes les fois qu'ils
+le désireraient.
+
+D'autre part, rien dans les usages des conférences ne s'oppose à ce qu'une personne
+désignée comme membre d'une commission collabore aux travaux d'une autre commission
+si elle estime qu'elle est mieux qualifiée pour discuter les questions figurant au programme
+de celle-ci.
+
+— 6 —
+
+## Images, Captions, And Visual Notes
+There are no substantial images or figures on this page. The page number "— 6 —" is centered at the bottom.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected. The page contains only text."}

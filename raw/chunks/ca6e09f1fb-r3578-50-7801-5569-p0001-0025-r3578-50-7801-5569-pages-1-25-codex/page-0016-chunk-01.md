@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f8e8bfaa7093-P0016-01
+chunk_id: CHUNK-c5a4056801e0-P0016-01
 source_converted: raw/converted/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25.codex.md
-converted_sha256: f8e8bfaa70937703a97a9d309ddc652078a2ddb28c6e930562f8713af05deec4
+converted_sha256: c5a4056801e00d7c9d5a07c22140c4b2d04cbc28c449b1eef383fa6fb33e4292
 source: raw/sources/R3578-50-7801-5569.pdf
 source_sha256: 6e09f1fb50a1c564bf4dd51406b9706274a189f3c45ba312a01d5ed069a77b75
 source_manifest: raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json
@@ -11,66 +11,79 @@ page_end: 16
 part: 1
 ---
 
-# Page 16
-
 ## Page Metadata
-
-- Source: `raw/sources/R3578-50-7801-5569.pdf`
-- Source SHA-256: `6e09f1fb50a1c564bf4dd51406b9706274a189f3c45ba312a01d5ed069a77b75`
-- Conversion manifest: `raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json`
-- Source page: 16
-- Page image: `raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-images/page-0016.jpg`
-- Conversion method: Docling basic conversion
-- Docling readability status: `rough_ok`
-- Docling readability flags: none
-- Extracted picture images: 0
+- Page number: 16
+- Publication author: Clemens Plassmann
 
 ## Layout And Reading Order
-
-Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+The page contains a single column of text. The page number `8` is in the top left corner, and the author's name, `Clemens Plassmann`, is in the top right corner. The main body of text follows. Two footnotes are present at the bottom of the page, marked with `¹)` and `²)`. The reading order is from top to bottom.
 
 ## Literal Transcription
+```text
+8 						Clemens Plassmann
 
-```markdown
-vergeltung oder der Erzwingung einer Eechtswiederherstellung, die ihres Zweckes wegen volkergewohnheitsrechtlich. als zulassige
-
+vergelung oder der Erzwingung einer Rechtswiederherstellung,
+die ihres Zweckes wegen völkergewohnheitsrechtlich als zulässige
 Zwangsmittel anerkannt werden.
+   Repressalien an Kriegsgefangenen sind im Weltkriege in
+grossem Umfange verhängt worden. Sie waren ein zweischneidiges
+Schwert, da der Gegner nur zu oft die ihm zur Last gelegten
+Völkerrechtsverletzungen leugnete und seinerseits zu neuen Ver-
+geltungsmassnahmen griff, was wieder Gegenmassnahmen hervor-
+rief. Die Lage der Kriegsgefangenen auf beiden Seiten wurde
+auf diese Weise oft so unerträglich, dass die öffentliche Meinung
+der neutralen Welt die Repressalien an Kriegsgefangenen einmütig
+verurteilte und dass das internationale Rote Kreuz das Verlangen
+auf gänzliche Aufhebung der Repressalien gestellt hat. Ich glaube
+trotzdem nicht, dass die Staaten im Kriege auf diese scharfe Waffe
+verzichten können, der allein es z. B. zu verdanken ist, dass viele
+Tausende deutscher Kriegsgefangener vor Krankheit und Tod in
+einem ungewohnten malariaverseuchten Klima und vor Verwundung
+durch die eigene Artillerie hinter der feindlichen Front be-
+wahrt worden sind ¹). Der Fortfall der Repressalienmöglichkeit nach
+dem Waffenstillstand hat andererseits vor allem unsere kriegsgefan-
+genen Landsleute in Frankreich in eine erschütternde Sklaverei ver-
+setzt. Allerdings wird man die Verhängung von Repressalien an be-
+stimmte Bedingungen knüpfen müssen, ein Gedanke, der wenigstens
+teilweise im Kriege bereits verwirklicht worden ist. Die Hauptkriegs-
+mächte einigten sich nämlich darüber ²), dass Repressalien vorher
+angedroht werden müssten und erst nach Ablauf einer Frist von
+einem Monat durchgeführt werden dürften. Hiebei allein darf
+das künftige Völkerrecht aber nicht stehen bleiben. Repressalien
+an Kriegsgefangenen dürfen m. E. nur zulässig sein für völker-
+rechtliche Verstösse einer Regierung speziell gegen das Kriegs-
+gefangenenrecht. Sie müssen im Verhältnis stehen zu der gerügten
+Rechtsverletzung und dürfen niemals zu offener Barbarei ausarten.
+Da die Auswüchse des Repressalienwesens im Weltkriege haupt-
+sächlich daher rührten, dass über die völkerrechtliche Erlaubtheit
+der mit Repressalien bedrohten Massnahmen Streit herrschte, so
+wird man das Übel an der Wurzel packen, wenn man eine ein-
+wandfreie Feststellung des völkerrechtlichen Charakters dieser
+Massnahmen ermöglicht. Ich halte es deshalb für ausserordentlich
+wichtig, im Kriegsgefangenenrecht eine Instanz zu schaffen, die
+eine solche Feststellung zu treffen befugt ist. Sie liesse sich viel-
+leicht im Anschluss an den Ausbau der Befugnisse der Schutzmacht
+ins Leben rufen. Wenn ein Staat das Kriegsgefangenenrecht ver-
+letzt glaubt, könnte eine Kommission zusammentreten, die sich
 
-Repressalien an Kriegsgefangenen sind im Weltkriege in grossem Umfange verhangt worden Sie waren ein zweisclmeidiges Schwert, da der Gegner nur zu oft die ihm zur Last gelegten Volkerrechtsverletzungen leugnete und seinerseits zu neuen Vergeltungsmassnahmen griff, was wieder Gegenmassnahmen hervorrief. Die Lage der Kriegsgefangenen auf beiden Seiten wurde auf diese Weise oft so unertraglich, dass die offentliche Meinung der neutralen Welt die Repressalien an Kriegsgefangenen einmiitig verurteilte und dass das international Rote Kreuz das Yerlangen auf ganzliche Aufhebung der Repressalien gestellt hat. Icb glaube trotzdem niclit, dass die Staaten im Kriege auf diese scliarfe Waffe verzichten konnen, der allein es z. B. zu verdanken ist, dass viele Tausende deutsclier Kriegsgefangener vor Krankheit und Tod in einem ungewohnten malariaverseuchten Klima und vor Yerwundung und Tod durch die eigene Artillerie liinter der feindlichen Front bewalirt worden sind1). Der Fortfall der Repressalienmoglichkeit nach dem Waffenstillstand hat andererseits vor allem unsere kriegsgefan¬ genen Landsleute in Frankreicli in eine erschiitternde Sklaverei versetzt. Allerdings wird man die Yerhangung von Repressalien an bestimmte Bedingungen kniipfen miissen, ein Gedanke, der wenigstens teilweise im Kriege bereits verwirklicht worden ist. Die Hauptkriegsmachte einigten sich namlich dariiber2), dass Repressalien vorher angedroht werden rniissten und erst nach Ablauf einer Frist von einem Monat durchgefixhrt werden diirften. Hierbei allein darf das kunftige Volkerrecht aber nicht stehen bleiben. Repressalien a,n Kriegsgefangenen diirfen m. E. nur zulassig sein f'iir volkerrechtliche Verstijsse einer Regierung speziell gegen das Kriegsgefangenenrecht. Sie miissen im Verhaltnis stehen zu der gerugten Rechtsverletzung und diirfen niemals zu offener Barbarei ausarten. Da die Auswiichse des Repressalienwesens im Weltkriege hauptsachlich daher riihrten, dass iibef die volkerrechtliche Erlaubtheit der mit Repressalien bedrobten Massnahmen Streit herrschte, so wird man das libel an der Wurzel packen, wenn man eine einwandfreie Feststellung des volkerrechtlichen Charakters dieser Massnahmen ermoglicht. Ich halte es deshalb fiir ausserordentlich wichtig, im Kriegsgefangenenrecht eine Instanz zu schaffen, die eine solche Feststellung zu treffen befugt ist. Sie liesse sich vielleiclit im Anschluss an den Ausbau der Befugnisse der Schutzmacht ins Leben rufen. Wenn ein Staat das Kriegsgefangenenrecht verletzt
-
-glaubt, konnte eine Kommission zusammentreten, die sich
-
-') Vgl. Plassmaun: 'Die deutschen Kriegsgefangenen in Frankreich 1914 bis
-
-1920', Berlin 1921, und Volkerrecht im Weltkrieg.
-
-2) Vgl. weiter unten.
+---
+¹) Vgl. Plassmann: „Die deutschen Kriegsgefangenen in Frankreich 1914
+bis 1920“. Berlin 1921, und Völkerrecht im Weltkrieg.
+²) Vgl. weiter unten.
 ```
 
 ## Images, Captions, And Visual Notes
-
-- No Docling picture regions were detected for this page.
-
-## Translation
-
-No translation was produced by the Docling basic conversion pass.
-
-## Interpretation
-
-No interpretation was produced by the Docling basic conversion pass.
+There are no images, illustrations, or significant visual elements on this page.
 
 ## Uncertain Or Illegible
-
-- Automated readability flags: none
-- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
-
-## Extracted Genealogy Leads
-
-- No genealogy leads were asserted by the Docling basic conversion pass.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
+This page has been fully and accurately transcribed. All text, including the page number, author name, main body, and footnotes, has been captured.
 
-- Basic Docling conversion completed for this page.
-- Rendered page image link recorded.
-- Extracted picture image count: 0.
-- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "This page consists entirely of printed text with no images, illustrations, or other significant visual elements."}
+```
+
+# Page 17

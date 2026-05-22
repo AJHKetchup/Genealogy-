@@ -11,8 +11,6 @@ page_end: 85
 part: 1
 ---
 
-# Page 85
-
 ## Page Metadata
 
 - Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`

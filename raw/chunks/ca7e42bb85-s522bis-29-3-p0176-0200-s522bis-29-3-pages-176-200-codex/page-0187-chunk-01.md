@@ -11,8 +11,6 @@ page_end: 187
 part: 1
 ---
 
-# Page 187
-
 ## Page Metadata
 
 - Source: `raw/sources/S522bis-29-3.pdf`
@@ -90,12 +88,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 796
-Running header: CAMARA DE DIPUTADOS
-Running footer: Septiembre 21
-
-## Layout And Reading Order
-
-The page is laid out in two columns. The content flows from the top of the left column to the bottom, then from the top of the right column to the bottom. The header "796 CAMARA DE DIPUTADOS Septiembre 21" spans across the top of both columns.

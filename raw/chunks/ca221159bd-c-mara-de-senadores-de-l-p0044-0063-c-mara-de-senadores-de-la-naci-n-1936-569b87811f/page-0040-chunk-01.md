@@ -1,0 +1,64 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6dccfc91b3b3-P0040-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63.codex.md
+converted_sha256: 6dccfc91b3b3f801aedf3a41141adda4ccc0ee5d6e25a30ef483034bcc6522ae
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json
+page_start: 40
+page_end: 40
+part: 1
+---
+
+## Page Metadata
+
+- **Source ID**: `ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63`
+- **Page number**: `40`
+- **Original page number**: `40`
+- **Full page image URL**: `https://images.archive.org/details/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/page/n43/mode/1up`
+
+## Layout And Reading Order
+
+The page contains a single column of printed text. The reading order is from top to bottom. The page number is centered at the top. The text is organized into articles, a chapter heading, a subheading, and a list of article summaries followed by the full text of those articles.
+
+## Literal Transcription
+
+— 40 —
+
+Art. 90. — La policía de orden interno de las estaciones y de los trenes se establecerá en un reglamento especial formado por las empresas y aprobado por el P. E. Nacional o Provincial, según que se trate de ferrocarriles nacionales o provinciales.
+
+CAPITULO II
+
+DE LAS FALTAS COMETIDAS POR LAS EMPRESAS
+
+Art. 91. — Responsabilidad por acto u omisiones contrarios a la ley y reglamentos.
+Art. 92. — Multas por infracciones cometidas.
+Art. 93. — Multas en caso de reincidencia.
+
+Art. 91. — Las empresas de ferrocarriles son responsables de los actos u omisiones contrarias a la presente ley y a los reglamentos dictados en su consecuencia, sin poder declinar su responsabilidad en sus empleados.
+
+Art. 92. — Cada infracción cometida por las empresas será castigada con multa de quinientos a diez mil pesos, debiendo considerarse como una infracción distinta cada día que dejen transcurrir sin ponerse en las condiciones de la ley después de la orden que al efecto hubieran recibido de la Inspección gubernativa.
+
+Art. 93. — En caso de reincidencia, la multa autorizada por el artículo anterior se duplicará.
+
+## Images, Captions, And Visual Notes
+
+There are no images, illustrations, or other visual elements on this page.
+
+## Uncertain Or Illegible
+
+There are no uncertain or illegible words on this page.
+
+## Completeness Audit
+
+This page has been transcribed in its entirety.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page consists entirely of printed text with no images, illustrations, or other significant visual elements."
+}
+```

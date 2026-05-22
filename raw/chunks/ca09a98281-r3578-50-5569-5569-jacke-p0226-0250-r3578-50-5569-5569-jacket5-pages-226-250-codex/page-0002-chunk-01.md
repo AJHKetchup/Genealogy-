@@ -1,0 +1,77 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7d841a05ab17-P0002-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250.codex.md
+converted_sha256: 7d841a05ab17b4bff88e90f6b13a66de47cebe2061ebcaaed329f024e68cc125
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250/manifest.json
+page_start: 2
+page_end: 2
+part: 1
+---
+
+## Page Metadata
+Page number: 227
+
+## Layout And Reading Order
+The page contains a single column of text, primarily a list of plenipotentiaries. The text begins with a large number "514" and a smaller number "4" at the top. The main body of text describes the purpose of a convention and then lists the plenipotentiaries appointed by various heads of state or governments, each introduced by a title (e.g., "Le Président du Reich Allemand"). Each plenipotentiary entry is indented.
+
+## Literal Transcription
+514
+4
+
+également animés du désir de diminuer, autant qu'il dépend
+d'eux, les maux inséparables de la guerre et voulant, dans ce
+but, perfectionner et compléter les dispositions convenues à
+Genève, le 22 août 1864 et le 6 juillet 1906, pour l'amélioration
+du sort des blessés et des malades dans les armées en campagne,
+
+ont résolu de conclure une nouvelle Convention à cet effet,
+et ont nommé pour leurs Plénipotentiaires, savoir:
+
+Le Président du Reich Allemand:
+S. Exc. M. Edmund Rhomberg, Dr. en Droit, Ministre en
+disponibilité;
+
+Le Président des Etats-Unis d'Amérique:
+L'Honorable Eliot Wadsworth, ancien Secrétaire adjoint de la
+Trésorerie,
+S. Exc. l'Honorable Hugh R. Wilson, Envoyé extraordinaire et
+Ministre plénipotentiaire des Etats-Unis d'Amérique à Berne;
+
+Le Président Fédéral de la République d'Autriche:
+M. Marc Leitmaier, Dr. en Droit, Conseiller ministériel à la
+Chancellerie fédérale, Département des Affaires étrangères;
+
+Sa Majesté le Roi des Belges:
+M. Paul Demolder, Général Major Médecin, Commandant du
+Service de Santé de la 1re Circonscription militaire,
+M. Joseph de Ruelle, Jurisconsulte du Ministère des Affaires
+étrangères;
+
+Le Président de la République de Bolivie:
+S. Exc. M. Alberto Cortadellas, Ministre-Résident de Bolivie
+à Berne;
+
+Le Président de la République des Etats-Unis du Brésil:
+S. Exc. M. Raoul de Rio-Branco, Envoyé extraordinaire et
+Ministre plénipotentiaire du Brésil à Berne;
+
+Sa Majesté le Roi de Grande-Bretagne, d'Irlande et des
+Territoires Britanniques au delà des Mers, Empereur
+des Indes:
+
+## Images, Captions, And Visual Notes
+There are no substantial images or captions on this page.
+
+## Uncertain Or Illegible
+No uncertain or illegible text was encountered.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+```

@@ -1,0 +1,56 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-43656c2efa76-P0067-01
+source_converted: raw/converted/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75.codex.md
+converted_sha256: 43656c2efa768274b3314087a11dfa425dcf29db71eae5f6ab9836c6de612ce5
+source: raw/sources/S179-34-6.pdf
+source_sha256: 5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054
+source_manifest: raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75/manifest.json
+page_start: 67
+page_end: 67
+part: 1
+---
+
+## Page Metadata
+
+*   **Page:** 67
+*   **Task id:** `source-prep:ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75:p0067`
+*   **Source:** `raw/sources/S179-34-6.pdf`
+*   **Job manifest:** `raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75/manifest.json`
+*   **Work order:** `raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75/work-orders/page-0067.md`
+
+## Layout And Reading Order
+
+The page is a plain cover or divider page. The only content is a handwritten notation in pencil located in the middle-right portion of the page. The reading order is as follows:
+
+1.  Handwritten notation (text_block_1).
+
+## Literal Transcription
+
+<!-- text_block_1; handwritten text in pencil -->
+481/16059/33
+1457
+1430
+
+## Images, Captions, And Visual Notes
+
+This page is a plain, greenish-gray cardstock cover or divider. A white fabric binding strip with three punch holes runs down the left edge.
+
+In the middle-right area, there is a handwritten notation in pencil. The numbers `1457` and `1430` are each individually underlined.
+
+## Uncertain Or Illegible
+
+There are no uncertain or illegible parts of this page.
+
+## Completeness Audit
+
+This page is a simple cover with a single handwritten notation. All content has been transcribed.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page is a simple cover with only a minor handwritten notation, which is fully transcribed in the text. There are no substantial images, illustrations, or photographs to crop."
+}
+```

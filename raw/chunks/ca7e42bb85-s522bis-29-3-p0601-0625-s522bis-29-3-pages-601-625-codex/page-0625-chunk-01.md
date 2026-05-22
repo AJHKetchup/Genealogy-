@@ -11,8 +11,6 @@ page_end: 625
 part: 1
 ---
 
-# Page 625
-
 ## Page Metadata
 
 - Source: `raw/sources/S522bis-29-3.pdf`

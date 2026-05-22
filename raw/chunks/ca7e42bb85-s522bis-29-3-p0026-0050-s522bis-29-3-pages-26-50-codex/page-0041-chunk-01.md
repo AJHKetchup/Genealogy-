@@ -11,8 +11,6 @@ page_end: 41
 part: 1
 ---
 
-# Page 41
-
 ## Page Metadata
 
 - Source: `raw/sources/S522bis-29-3.pdf`
@@ -136,9 +134,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 1.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 42
-
-## Layout And Reading Order
-The page contains a single column of text, which appears to be an article. There are three handwritten annotations on the page: one in the top right corner, and two near the article's title. The reading order is from top to bottom, left to right, starting with the handwritten notes, then the printed title and subtitle, followed by the main body of the article.

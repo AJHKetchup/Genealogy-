@@ -1,0 +1,101 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-0c7431cd7d77-P0095-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100.codex.md
+converted_sha256: 0c7431cd7d775a16ff443ec7ba8f8dde22510706bdc74ef36e9a40bdf5ba2e10
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100/manifest.json
+page_start: 95
+page_end: 95
+part: 1
+---
+
+## Page Metadata
+
+- Task id: `source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100:p0095`
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Page: 95
+
+## Layout And Reading Order
+
+The page is a single column of typeset text. At the top, there are two page numbers, "31" on the left and "514" on the right. The main body of the text lists plenipotentiaries and representatives for various countries. Each country or entity is introduced by a centered heading (e.g., "Pour le Dominion du Canada:"). The names and titles of the representatives are listed below each heading in indented paragraphs. The reading order is sequential from top to bottom.
+
+## Literal Transcription
+
+<center>31</center>
+<center>514</center>
+
+Le Très Honorable sir Horace Rumbold, G. C. M. G., M.V.O.,
+Ambassadeur de Sa Majesté Britannique à Berlin;
+
+<center>Pour le Dominion du Canada:</center>
+
+M. Walter Alexandre Riddell, Conseiller permanent du Gouver-
+nement canadien auprès de la Société des Nations;
+
+<center>Pour le Commonwealth d'Australie:</center>
+
+S. Exc. M. Claud Russell, Envoyé extraordinaire et Ministre
+plénipotentiaire de Sa Majesté Britannique à Berne;
+
+<center>Pour le Dominion de la Nouvelle-Zélande:</center>
+
+S. Exc. M. Claud Russell, Envoyé extraordinaire et Ministre
+plénipotentiaire de Sa Majesté Britannique à Berne;
+
+<center>Pour l'Union de l'Afrique du Sud:</center>
+
+M. Eric Hendrik Louw, Haut-Commissaire de l'Union de l'Afri-
+que du Sud à Londres;
+
+<center>Pour l'Etat Libre d'Irlande:</center>
+
+M. Sean Lester, Représentant de l'Etat Libre d'Irlande auprès
+de la Société des Nations;
+
+<center>Pour l'Inde:</center>
+
+S. Exc. M. Claud Russell, Envoyé extraordinaire et Ministre
+plénipotentiaire de Sa Majesté Britannique à Berne;
+
+<center>Sa Majesté le Roi des Bulgares:</center>
+
+M. Dimitri Mikoff, Chargé d'Affaires de Bulgarie à Berne,
+Représentant permanent du Gouvernement bulgare auprès
+de la Société des Nations,
+M. Stéphane N. Laftchieff, Membre du Conseil d'Administration
+de la Croix-Rouge bulgare;
+
+<center>Le Président de la République du Chili:</center>
+
+M. Guillermo Novoa-Sepulveda, Colonel, Attaché militaire près
+la Légation du Chili à Berlin,
+M. Dario Pulgar-Arriagada, Capitaine du Service de Santé;
+
+<center>Le Président de la République de Chine:</center>
+
+M. Chi Yung Hsiao, Chargé d'Affaires p. i. de Chine à Berne;
+
+<center>Le Président de la République de Colombie:</center>
+
+S. Exc. M. Francisco José de Urrutia, Envoyé extraordinaire
+et Ministre plénipotentiaire de Colombie à Berne;
+
+## Images, Captions, And Visual Notes
+
+There are no images, captions, or other visual elements on this page.
+
+## Uncertain Or Illegible
+
+There are no uncertain or illegible words on this page.
+
+## Completeness Audit
+
+This page is complete and accurately transcribed.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "This page contains only text and no meaningful visual regions."}
+```

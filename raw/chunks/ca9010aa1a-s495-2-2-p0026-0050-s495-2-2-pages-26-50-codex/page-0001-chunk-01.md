@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-38044eb57912-P0001-01
+chunk_id: CHUNK-403d530f79ad-P0001-01
 source_converted: raw/converted/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50.codex.md
-converted_sha256: 38044eb57912bf98bd2647daed11d3aa95e2c9544a6bba80059a98dbeca18f6c
+converted_sha256: 403d530f79ad28ea51960143971a8a02e3ccd1e208ed5c007c5c35c1e6b28893
 source: raw/sources/S495-2-2.pdf
 source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
 source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json
@@ -10,16 +10,6 @@ page_start: 1
 page_end: 1
 part: 1
 ---
-
-# S495-2-2 pages 26-50
-
-## Conversion Metadata
-
-- Source: `raw/sources/S495-2-2.pdf`
-- Source SHA-256: `9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027`
-- Manifest: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json`
-- Conversion method: Codex local vision workbench
-- Extracted images: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images`
 
 ## Page Metadata
 Page number: 26
@@ -147,3 +137,6 @@ Pipeline-extracted visual crops:
 
 ## Uncertain Or Illegible
 None.
+
+## Completeness Audit
+All text and images on the page have been transcribed and described.

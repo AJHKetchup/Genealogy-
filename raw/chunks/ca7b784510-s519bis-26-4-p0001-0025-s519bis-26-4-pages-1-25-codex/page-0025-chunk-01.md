@@ -1,0 +1,75 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9e421c25767c-P0025-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25.codex.md
+converted_sha256: 9e421c25767c189b22fd03aff672b2653e85acd48bafd39c746be68e93d5d491
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json
+page_start: 25
+page_end: 25
+part: 1
+---
+
+## Page Metadata
+Page 25
+
+## Layout And Reading Order
+
+The page contains a single column of text. A page number "10" is centered at the top. The main body of the text follows, ending with a signature and date. There are two circular punch holes on the right side of the page.
+
+## Literal Transcription
+
+<center>— 10 —</center>
+
+habéis ya conseguido grandes cosas; habéis logrado imponer cierta igualdad
+exterior en el sentido de abrir camino a las aptitudes dentro de condiciones
+determinadas y puramente individualistas; habéis encarnado el triunfo de la
+voluntad humana sobre la inercia europea, y habéis llevado a su máxima ex-
+presión actual, la industrialización de la naturaleza. Pero habéis, a la vez,
+extravertido la personalidad de vuestro pueblo, convirtiendo a los hombres
+de la masa en autómatas, en instrumentos mecánicos de producción; y per-
+mitido a los oligarcas capitalistas que asuman la dirección de vuestra energía
+nacional; y esto os llevará al fracaso si no reaccionáis a tiempo. Y vuestro
+fracaso puede ser de consecuencias fatales para el mundo. Puede implicar
+la caída de toda la raza blanca y por tanto de la civilización del Occi-
+dente. Son, pues, supremos los intereses que tenéis en vuestras manos. Es
+necesario que realicéis un esfuerzo heroico, digno de la tradición de vuestro
+pueblo, para imponer una nueva orientación humana. Debéis también re-
+novar la democracia dándole estructura ética y carácter social que ensanche
+el radio de acción de la justicia, despierte los sentimientos colectivos y es-
+timule y permita la ascensión de la personalidad humana.
+    De esta manera podréis robustecer nuestra tendencia renovadora y con-
+tribuir al florecimiento del porvenir que llevamos dentro. Porque nosotros,
+iberos de la América Latina, no hemos realizado nada todavía, pero nos he-
+mos forjado un alma propia y abrigamos el germen de una nueva palabra
+del espíritu. De vosotros, en parte, depende que podamos pronunciar esa pa-
+labra. Reunidos los dos aspectos: el de espíritu y acción, pensamiento y vo-
+luntad, emoción y dinamismo, podremos completar la esfera humana y abrir
+una era fecunda en la evolución del mundo.
+    Si colaboran en esa empresa los *pioneers* de Walt Whitman, los idea-
+listas de Emerson, los irreductibles reformistas de Thoreau, lograremos
+conquistar el porvenir, que reserva, para nosotros, maravillas mucho más es-
+plendorosas que las alcanzadas hasta hoy. Vosotros, explotadores infatiga-
+bles, tenéis una tierra virgen por descubrir y colonizar en el corazón del
+hombre. Vamos a explotar las minas de inagotable riqueza que hay ocultas,
+todavía, en el fondo del espíritu humano.—ALFREDO L. PALACIOS. — Mayo
+13 de 1927.
+
+## Images, Captions, And Visual Notes
+
+There are two circular punch holes visible on the right side of the page, one near the middle and one near the bottom.
+
+## Uncertain Or Illegible
+
+None.
+
+## Completeness Audit
+
+All visible text and significant visual elements have been transcribed or noted.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The punch holes are minor and described in visual notes."}
+```

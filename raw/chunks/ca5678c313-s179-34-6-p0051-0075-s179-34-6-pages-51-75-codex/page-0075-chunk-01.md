@@ -11,8 +11,6 @@ page_end: 75
 part: 1
 ---
 
-# Page 75
-
 ## Page Metadata
 
 - Source: `raw/sources/S179-34-6.pdf`

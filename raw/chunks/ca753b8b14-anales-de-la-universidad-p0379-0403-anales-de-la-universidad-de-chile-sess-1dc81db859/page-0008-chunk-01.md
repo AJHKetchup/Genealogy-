@@ -1,0 +1,71 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-1002cf2a5147-P0008-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403.codex.md
+converted_sha256: 1002cf2a514751dbe60b77eb83c55fb462fe121d8e147ff335730b7bae06e672
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json
+page_start: 8
+page_end: 8
+part: 1
+---
+
+## Page Metadata
+- Page number: 366
+- Source publication year: 1918
+- Source publication title: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
+
+## Layout And Reading Order
+The page presents a single column of text, with a header at the top indicating the section title and page number. The content flows continuously from top to bottom.
+
+## Literal Transcription
+366 MEMORIAS CIENTÍFICAS I LITERARIAS
+---
+Eizaguirre ocupó parte de su tiempo en el ejercicio
+del ministerio eclesiástico como celoso sacerdote que
+era. I siendo la predicación uno de los ministerios
+más fructíferos, i para el cual se reconocía mejores
+aptitudes, predicó mucho en todas partes, i hasta
+dió ejercicios espirituales al clero de una de las dió-
+cesis de Bolivia.
+Los disturbios políticos de esta república, que tra-
+jeron por resultado la caída del presidente Linares
+i la exaltación del jeneral Achá, i quizás algunas di-
+ficultades con que tropezaría de parte del gobierno
+boliviano, no le permitieron llevar a feliz término
+las negociaciones iniciadas, i así se retiró de Bolivia
+sin concluir nada.
+Encaminóse de La Paz al Cuzco, pasando por
+Puno. En el camino sufrió una caída de la mula el
+señor Waddington, secretario de Eizaguirre i tuvo
+que detenerse quince días en Puno (Marzo de 1861).
+El clero, pueblo i las autoridades civiles del Cuzco
+le hicieron una recepción triunfal, i el vicario capitu-
+lar de la diócesis se prestó con todo entusiasmo para
+ayudarle, enviando al clero i pueblo circulares en que
+recomendaba orar por el Padre Santo i contribuir
+con erogaciones para su sostenimiento, i daba noticia
+del Seminario Pío Latino Americano. También en
+esta diócesis predicó Eizaguirre repetidas veces i al
+parecer con bastante fruto espiritual.
+El gobierno de Achá deseó continuar con Eizagui-
+rre las negociaciones iniciadas por éste con el pre-
+sidente Linares; pero, habiéndole llegado noticias
+poco favorables de la estabilidad i firmeza de propó-
+sitos de las autoridades bolivianas, no quiso Eiza-
+guirre volver a Bolivia, i desde el Cuzco regresó a
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None. All text is clearly legible.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions present."}
+```

@@ -1,0 +1,62 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-51d0dddbaf02-P0014-01
+source_converted: raw/converted/cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25.codex.md
+converted_sha256: 51d0dddbaf022245f253fbbf0ffc01f5ac2c5b57d2a7d50a02c7fb4b52f5472f
+source: raw/sources/R3577-50-5569-5569-Jacket1.pdf
+source_sha256: db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb
+source_manifest: raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25/manifest.json
+page_start: 14
+page_end: 14
+part: 1
+---
+
+## Page Metadata
+- Task id: `source-prep:cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25:p0014`
+- Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
+- Page: 14
+
+## Layout And Reading Order
+The page contains a single column of printed text. The reading order is linear, from top to bottom. It begins with a page number, followed by "ARTICLE 3." and its associated text, and then "ARTICLE 4." with its associated text.
+
+## Literal Transcription
+— 5 —
+
+ARTICLE 3.
+
+Après chaque combat, l'occupant du champ de bataille prendra des mesures pour rechercher les blessés et pour les
+faire protéger, ainsi que les morts, contre le pillage et les mauvais traitements.
+L'occupant du champ de bataille veillera à ce que l'inhumation ou l'incinération des morts soit précédée d'un
+examen attentif de leurs cadavres.
+Toutes les fois que les circonstances militaires le permettront, des interruptions de jeu seront convenues pour permettre
+l'exécution de ces mesures.
+
+ARTICLE 4.
+
+Les belligérants se feront connaître réciproquement, dans le plus bref délai possible, le nom des blessés et malades qu'ils
+auront recueillis. Ils se tiendront réciproquement au courant des internements et des mutations, ainsi que des entrées dans les
+hôpitaux, des blessés et des malades tombés en leur pouvoir. Ils s'aviseront, au plus tôt, des décès de prisonniers et de la
+découverte des adversaires tombés sur le champ de bataille, et signaleront les éléments pouvant servir à les identifier ainsi
+que l'emplacement précis des tombes. Dès le début des hostilités, les belligérants organiseront un service officiel des tombes.
+Ils recueilleront tous les objets d'un usage personnel, valeurs, livrets individuels, médailles d'identité, etc., qui seront trouvés
+sur le champ de bataille ou délaissés par les mourants, pour les faire transmettre au plus tôt aux intéressés par les autorités
+de leurs pays.
+Les belligérants prendront soin que les morts soient enterrés honorablement, et que les tombes et monuments des mili-
+taires ensevelis en leur territoire ou en territoire occupé par eux soient traités avec respect, convenablement entretenus, et portent
+toutes les indications propres à faire retrouver les cadavres.
+
+## Images, Captions, And Visual Notes
+There are no images, illustrations, or significant visual elements on this page. There is a single hole punch near the bottom right corner.
+
+## Uncertain Or Illegible
+There are no uncertain or illegible words on this page.
+
+## Completeness Audit
+This page has been transcribed in its entirety.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "This page contains only printed text with no illustrations, photographs, or other significant visual elements."}
+```
+
+# Page 15

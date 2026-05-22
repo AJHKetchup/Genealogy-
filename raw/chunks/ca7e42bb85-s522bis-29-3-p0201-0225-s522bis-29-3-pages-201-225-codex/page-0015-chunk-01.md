@@ -1,0 +1,80 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-57be51e30f3a-P0015-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225.codex.md
+converted_sha256: 57be51e30f3ae0c4b8529a9b76a951aed1282b54d4c53e1293060e4db5680f4e
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225/manifest.json
+page_start: 15
+page_end: 15
+part: 1
+---
+
+## Page Metadata
+- Page number: 7
+
+## Layout And Reading Order
+The page contains a single column of text, starting with a centered heading, followed by a paragraph, a centered Roman numeral, and then several more paragraphs of text. The page number "7" is in the top right corner.
+
+## Literal Transcription
+<pre>
+                                ADVISORY OPINION No. 18                                7
+
+on November 9th, 1920, the collection of international agree-
+ments concluded by or on behalf of the Free City, and lastly
+the collection of decisions rendered by the High Commissioner
+of the League of Nations at Danzig.
+
+                                        I.
+
+The above-mentioned Request for an advisory opinion was
+submitted to the Court in the following circumstances:
+
+As early as the first half of 1929, the Senate of the Free
+City of Danzig would seem to have taken steps with a view
+to the admission of the Free City as a Member of the Inter-
+national Labour Organization.
+
+In fact, the documents submitted to the Court include a
+memorial dated May 11th, 1929, emanating from the Danzig
+Senate and purporting to set forth the considerations which
+actuated the Senate in taking certain steps—to which refer-
+ence is made—with a view to obtaining membership of
+the International Labour Organization. These considerations
+were, in the first place, its wish to adhere to certain agree-
+ments prepared by International Labour Conferences, and in
+the second place its conviction that unless the Free City
+were a Member of the Organization, if it did so adhere, the
+effect of such adhesion would be merely that of a Danzig
+local legislative measure.
+
+However that may be, by a letter dated January 20th,
+1930, the Polish member of the Governing Body of the
+International Labour Office requested the Director of the
+Office to place on the agenda for the forty-seventh Session
+of the Governing Body an item concerning the “request
+of the Free City of Danzig to be allowed to adhere to the
+International Labour Organization”; to this letter the Danzig
+memorandum of May 11th, 1929, was attached.
+
+By a further letter, dated March 27th, 1930, the Polish
+member sent the Director a further memorial by the Senate
+of the Free City, dated March 15th, 1930, setting forth the
+legal grounds on which the Free City based its request for
+admission.
+</pre>
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+```

@@ -1,0 +1,99 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e98c32cb0f9b-P0046-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0026-0050-r4946-12-33387-8070-pages-26-50.codex.md
+converted_sha256: e98c32cb0f9b085f925d5ca2ea18ff2b0155f894f3690716101b46a027f0168f
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0026-0050-r4946-12-33387-8070-pages-26-50/manifest.json
+page_start: 46
+page_end: 46
+part: 1
+---
+
+## Page Metadata
+
+- **Page number**: 46
+- **Document type**: Typed report page
+- **Language**: French
+
+## Layout And Reading Order
+
+The page is vertically oriented. The content consists of a centered page number at the top, followed by six distinct sections of statistical data presented in a tabular format. Each section has a title and presents data in columns for "Hommes" (Men), "Femmes" (Women), and "Total". The reading order is from top to bottom, covering each statistical table in sequence.
+
+## Literal Transcription
+
+- 18 -
+
+| Drogue employée : | Hommes | Femmes | Total |
+|---|:---:|:---:|:---:|
+| Morphine | 15 | 5 | |
+| Gouttes Gallard | 0 | 1 | |
+| Laudanum Sydenham | 0 | 1 | |
+| Gouttes Gallard et laudanum | 0 | 1 | |
+| Narcosil | 1 | 0 | |
+| | 16 | 9 | 25 |
+
+| Maladies : | Hommes | Femmes | Total |
+|---|:---:|:---:|:---:|
+| Ulcère gangréneux | 1 | 0 | |
+| Adhérences | 1 | 0 | |
+| Cancer | 0 | 4 | |
+| Parésie | 0 | 1 | |
+| Vice | 8 | 1 | |
+| Non spécifié | 6 | 3 | |
+| | 16 | 9 | 25 |
+
+| Age : | Hommes | Femmes | Total |
+|---|:---:|:---:|:---:|
+| De 31 à 40 ans | 2 | 1 | |
+| De 41 à 50 ans | 4 | 0 | |
+| De 51 à 60 ans | 0 | 5 | |
+| De 61 à 70 ans | 0 | 0 | |
+| De 71 à 80 ans | 0 | 1 | |
+| Non spécifié | 10 | 2 | |
+| | 16 | 9 | 25 |
+
+| Etat-civil : | Hommes | Femmes | Total |
+|---|:---:|:---:|:---:|
+| Mariés | 6 | 3 | |
+| Veufs | 0 | 2 | |
+| Célibataires | 3 | 2 | |
+| Non spécifié | 7 | 2 | |
+| | 16 | 9 | 25 |
+
+| Acquisition : | Hommes | Femmes | Total |
+|---|:---:|:---:|:---:|
+| Avec licence | 9 | 6 | |
+| Non spécifié | 7 | 3 | |
+| | 16 | 9 | 25 |
+
+| Figurent dans le rapport de 1938 : | 7 | 2 |
+|---|:---:|:---:|
+
+## Images, Captions, And Visual Notes
+
+The page consists entirely of typewritten text organized into a series of tables.
+
+- The page number `- 18 -` is centered at the top.
+- Each table presents statistical data with columns for "Hommes" (Men), "Femmes" (Women), and "Total".
+- In each table, a single horizontal line separates the data rows from the total row.
+- A double horizontal line is typed below each table's total row.
+- The title of the final data section, "Figurent dans le rapport de 1938 :", is underlined.
+
+## Uncertain Or Illegible
+
+There are no uncertain or illegible parts of this document.
+
+## Completeness Audit
+
+The transcription is a complete and accurate representation of all text on the page.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only typewritten text and tables, with no images, illustrations, or other distinct visual elements that would warrant cropping."
+}
+```

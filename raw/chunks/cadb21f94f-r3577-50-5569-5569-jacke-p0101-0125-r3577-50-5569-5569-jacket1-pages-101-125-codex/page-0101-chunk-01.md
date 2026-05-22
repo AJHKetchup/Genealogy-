@@ -11,8 +11,6 @@ page_end: 101
 part: 1
 ---
 
-# Page 101
-
 ## Page Metadata
 
 - Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
@@ -90,42 +88,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 32
-
-## Layout And Reading Order
-
-The page contains a centered page number at the top, followed by a centered article title. Below the title are two paragraphs of text, presented in a single column.
-
-## Literal Transcription
-
-— 32 —
-
-ARTICLE 49.
-
-Les belligérants veilleront à ce que les autorités compétentes usent de la plus grande indulgence dans l’appréciation
-de la question de savoir si une infraction commise par un prisonnier de guerre doit être punie disciplinairement ou judi-
-ciairement.
-
-Ne seront, en particulier, passibles que de peines disciplinaires les prisonniers coupables d’insubordination légère,
-de refus de travailler sans motif légitime, de contraventions à la discipline du camp et de délits de peu de gravité contre
-la propriété.
-
-## Images, Captions, And Visual Notes
-
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-
-None.
-
-## Completeness Audit
-
-The transcription is complete and accurate.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals were detected on this page."}
-```

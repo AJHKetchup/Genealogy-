@@ -11,8 +11,6 @@ page_end: 104
 part: 1
 ---
 
-# Page 104
-
 ## Page Metadata
 
 - Source: `raw/sources/S522bis-29-3.pdf`
@@ -32,7 +30,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## DECLARAGIOTES DE BALFOUR
 
 El jefe de'^ delegaciôn britanica «n la Asamblea de Ginebra hace af'eayiado^special de LA NACION inte¬ rnantes (fcnsfoeraci.otfes sobr« la labor de la Liqa
@@ -125,20 +122,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-
-- **Page number**: 105
-- **Publication**: La Nación
-- **Date**: Inferred from context to be circa 22-23 July 1921.
-- **Language**: Spanish
-
-## Layout And Reading Order
-
-The page is organized into a three-column layout. The content is divided into several thematic sections, indicated by large headings. The primary reading order is column by column, from left to right, top to bottom. However, some articles flow from the bottom of one column to the top of the next, such as the "Reconocimiento de nuevos cónsules extranjeros" article which begins in column 1 and continues at the top of column 2.
-
-The main thematic sections are:
-1.  News from Spain and Morocco (top of all three columns).
-2.  "INFORMACIONES CABLEGRAFICAS" (bottom of columns 1 and 2).
-3.  "AGRICOLAS Y GANADERAS" (middle of column 2).
-4.  "COTIZACIONES DIARIAS" (bottom of column 2).

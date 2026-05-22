@@ -1,0 +1,77 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d9d8a448627d-P0019-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163.codex.md
+converted_sha256: d9d8a448627d06161f3b9a3c897c6938c3df3dc08ccd219e400142d6e4abefe7
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json
+page_start: 19
+page_end: 19
+part: 1
+---
+
+## Page Metadata
+Page number: 159
+
+## Layout And Reading Order
+The page presents a single-column layout with a page number centered at the top. The main content consists of several paragraphs of text, including two numbered articles (Art. 248 and Art. 249) and two bolded subheadings. Text flows from top to bottom.
+
+## Literal Transcription
+
+— 159 —
+
+presas y seis horas en total por cada trasbordo entre empresas
+de distinta trocha.
+El tiempo para el transporte comenzará a contarse desde
+la hora fijada para la salida del respectivo tren.
+Las cargas deberán ser entregadas a más tardar una hora
+antes de la salida de los trenes con los cuales deban ser trans-
+portadas.
+Estos transportes se efectuarán por aquellos trenes que las
+empresas determinen para su realización, a cuyo efecto comu-
+nicarán al público el horario de los mismos, previa aproba-
+ción por la Dirección General de Ferrocarriles.
+Cuando las necesidades del tráfico lo requieran, a juicio de
+dicha Dirección, las empresas establecerán trenes especiales
+de horario para efectuar esos transportes.
+La clasificación en sustancias de primera y segunda cate-
+goría será dispuesta por el Poder Ejecutivo y las nóminas
+correspondientes podrán ser modificadas de oficio o a ins-
+tancia de parte, previo dictamen de la Dirección General de
+Ferrocarriles.
+
+**Rumbo por el cual deben despa-**
+**charse las cargas.**
+
+Art. 248.— Si varias vías uniesen el punto de expedición
+con el de destino, la empresa despachará la carga por la vía
+que mejor le convenga, siempre que no exista pacto expreso
+con el remitente sobre el camino por donde debe efectuarse
+el transporte; quedando, sin embargo, obligada a hacerlo por
+la vía que tenga las tarifas más bajas y condiciones de trans-
+porte más favorables para el remitente.
+
+**Flete a pagar. Casos en que puede**
+**rechazarse un transporte con esta**
+**condición.**
+
+Art. 249.— Las empresas podrán negarse a conducir cargas
+con flete a pagar, cuando sean de fácil deterioro, o su valor
+en destino no baste a cubrir los gastos del transporte, y en
+otros casos especiales dando cuenta a la Dirección General
+de Ferrocarriles.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
+```

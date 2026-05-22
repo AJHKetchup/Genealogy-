@@ -1,0 +1,90 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-3f469b56e502-P0002-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md
+converted_sha256: 3f469b56e5024d7d0328377f23de9b911d9cfe6353b581c4f564b96ca15981f2
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json
+page_start: 2
+page_end: 2
+part: 1
+---
+
+## Page Metadata
+- **Page type:** File cover
+- **Document type:** Routing slip
+- **Language(s):** English, French
+- **Handwritten:** Yes
+- **Stamped:** Yes
+- **Page number:** 2
+
+## Layout And Reading Order
+The document is a pre-printed file cover with handwritten entries. The reading order is as follows:
+1.  A stamped title, "GENERAL AND MISCELLANEOUS", at the top left.
+2.  A series of stamped numbers in boxes at the top right: "50", "5569", "5569".
+3.  A "Sujet" (Subject) section with handwritten French text describing the file's contents.
+4.  A large, three-column circulation log with pre-printed headers ("Transmis à / Referred to" and "Date") and handwritten entries detailing who received the file and when.
+5.  A set of small printed boxes on the right side for related file numbers ("Dossier précédent", "Dossier suivant", "Dossiers connexes").
+
+## Literal Transcription
+```text
+[Stamped text at top left]
+GENERAL AND MISCELLANEOUS
+
+[Stamped numbers in boxes at top right]
+50 | 5569 | 5569
+
+[Handwritten text in "Sujet" section]
+Sujet:
+Conférence Diplomatique (Juillet 1929) appelée à revoir la
+Convention de Genève de 1906 pour l'amélioration du sort des
+blessés et malades dans les armées en campagne et d'élaborer
+un code des prisonniers de guerre.
+
+[Circulation log section]
+| Transmis à Referred to | Date | Transmis à Referred to | Date | Transmis à Referred to | Date |
+|---|---|---|---|---|---|
+
+For previous circulation see within.
+
+| Transmis à<br>Referred to | Date | Transmis à<br>Referred to | Date | Transmis à<br>Referred to | Date |
+|---|---|---|---|---|---|
+| m. Schwartz<br>Legal Dept | 26.5.31 | Marquis Paulucci | 7.10.31 ✓ | <s>M. Paulucci</s> | <s>9.7.31</s> |
+| m. Walters by | 29.5.31 | XIX M. Schwartz<br>Legal Dept | 19.10.31 ✓ | Disarmament | 1.4.32 ✓ |
+| Marquis Paulucci | 30.5.31. ✓ | Marquis Paulucci | 21.10.31 ✓ | m. Walters by | 7.4.32 ✓ |
+| m. Schwartz<br>Legal Dept | 12.6.31. ✓ | XXJ m. Schwartz (Legal) | 1.c.v ✓ | m. Schwartz<br>Legal Dept | 17.5.32 ✓ |
+| XI m. Walters by | 1.7.31. ✓ | Marquis Paulucci | 4.11.31 ✓ | M. Paulucci | 20.5.32 ✓ |
+| XII m. Schwartz<br>Legal Dept | 2.7.31. ✓ | m. Schwartz (Legal) | 12.11.31 ✓ | Disarmament | 21.5.32 ✓ |
+| m. Walters by | 6.7.31 ✓ | XXI m. Schwartz<br>Legal Dept | 29.12.31 ✓ | m. Walters by | 23.5.32 ✓ |
+| m. Schwartz<br>Legal Dept | 8.7.31. ✓ | m. Paulucci | 4.1.32 ✓ | | |
+| <s>m. Walters by</s> | <s>11.7.31.</s> | XXII The Schwartz | 5.3.32 ✓ | Dossier<br>précédent | } No. |
+| XVI m. Schwartz<br>Legal Dept | 11.7.31 ✓ | <s>Disarmt</s> | <s>8.2.32</s> | Dossier<br>suivant | } No. 7801 |
+| XVII m. Schwartz<br>Legal Dept | 15.7.31. ✓ | XXIII m. Schwartz<br>Legal Dept | 11.2.32 ✓ | Dossiers connexes | |
+| Marquis Paulucci | 18.7.31. ✓ | m. Paulucci | 15.2.32 ✓ | | |
+| XIX m. Schwartz<br>Legal Dept | 30.9.31 ✓ | Disarmament | 15.2.32 ✓ | | |
+| | | XXIV m. Schwartz<br>Legal Dept | 29.2.32 ✓ | | |
+```
+
+## Images, Captions, And Visual Notes
+- The document is a file cover on aged, manila-colored cardstock.
+- The text is a mix of pre-printed form fields, stamped text, and handwritten entries in dark ink.
+- Numerous entries in the circulation log are marked with a checkmark (✓) in blue pencil.
+- Three entries in the circulation log have been struck through with a single horizontal line.
+- A blue pencil squiggle appears next to the entry for "Marquis Paulucci" dated "7.10.31".
+
+## Uncertain Or Illegible
+- **`XXJ`**: This Roman numeral prefix may be "XX" with a flourish at the end.
+- **`1.c.v`**: This date is unusually formatted. It might be a poorly written "1.12.31" or an abbreviation.
+- **`The Schwartz`**: This entry is unusual. It may be a misreading of "m. Schwartz".
+
+## Completeness Audit
+The entire page has been transcribed. All printed text, handwritten entries, stamps, and significant markings (checkmarks, strikethroughs) have been included.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page consists of text, handwritten notes, and stamps, with no significant illustrations, photographs, or maps that would be useful as standalone visual assets."
+}
+```

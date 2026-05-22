@@ -1,0 +1,80 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d9920d4f541a-P0004-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450.codex.md
+converted_sha256: d9920d4f541a5acd8ccbd01f429ea44f0c8fab2640eba7d1ef5b6ca299a7c955
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450/manifest.json
+page_start: 4
+page_end: 4
+part: 1
+---
+
+## Page Metadata
+Page number: 429
+
+## Layout And Reading Order
+The page contains two main sections of text, both presented as numbered lists. The first section continues a list from a previous page, starting with item 4. The second section is introduced by a bolded heading and starts a new numbered list from item 1. The content is presented in a single column. A page number is centered at the bottom.
+
+## Literal Transcription
+4) Préparation d'un programme uniforme d'enseigne-
+ment populaire relatif aux mesures de protection et aux
+soins à donner aux gazés.
+
+5) Démarches auprès des gouvernements pour obtenir
+leur appui financier en faveur de l'activité de la Croix-
+Rouge en matière de protection des populations civiles
+contre la guerre chimique.
+
+6) Convocation de la prochaine réunion de la Commis-
+sion internationale d'experts.
+
+7) Préparation de rapports confiés à des experts sur
+certaines questions nécessitant un examen détaillé,
+lesquels seront soumis à la prochaine réunion de la
+Commission.
+
+B. Questions dont l'étude scientifique
+devrait être entreprise par les soins du Comité international
+de la Croix-Rouge
+
+1) Ouverture d'un concours international ayant pour
+objet d'obtenir un plan d'abri idéal contre les gaz.
+
+2) Ouverture d'un concours international ayant pour
+objet de déterminer le réactif idéal susceptible de déceler
+la présence de l'ypérite.
+
+3) Etude d'un type adéquat de ventilateur destiné
+à créer une suppression dans les abris contre les gaz ;
+étude de l'utilisation des moteurs d'usage courant pour la
+mise en action de ces ventilateurs.
+
+4) Etude des vêtements spéciaux et d'un matériel
+adéquat pour les équipes de désinfection.
+
+5) Etude des moyens propres à conserver dans les abris
+contre les gaz puissants, des approvisionnements de subs-
+tances neutralisantes.
+
+6) Examen portant sur la mesure où les aliments
+touchés par les gaz toxiques sont récupérables.
+
+7) Etude des moyens de désinfecter l'eau contaminée.
+
+— 30 —
+
+## Images, Captions, And Visual Notes
+The page contains no images or captions.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+```

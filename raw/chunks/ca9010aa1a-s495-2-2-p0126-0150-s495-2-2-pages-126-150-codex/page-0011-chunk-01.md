@@ -1,0 +1,90 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-c113304eabf6-P0011-01
+source_converted: raw/converted/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150.codex.md
+converted_sha256: c113304eabf6ccdddbcb2d916549210c7bb6026adecb6b61250329601ba0f017
+source: raw/sources/S495-2-2.pdf
+source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
+source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json
+page_start: 11
+page_end: 11
+part: 1
+---
+
+## Page Metadata
+- Page number: 136
+- Source publication: S495-2-2
+- Source type: Magazine/Periodical
+- Language: Spanish
+
+## Layout And Reading Order
+The page presents an advertisement in a single column layout. It begins with a header containing a page number and publication title, followed by an illustration of a typewriter. Below the illustration is a large headline, then several paragraphs of body text detailing the product's features and services. The advertisement concludes with a call to action and company contact information.
+
+## Literal Transcription
+22 RENACIMIENTO
+
+“Compárese el trabajo” es el lema de la Royal
+Typewriter Company. Y está bien escogido
+
+Cualquiera persona que compare el trabajo hecho por máquinas de escribir di-
+tes, siempre escogerá LA ROYAL.
+El mecanógrafo de Ud. hará mejor trabajo y más trabajo en LA ROYAL que en
+cualquier otra máquina.
+LA ROYAL tiene VEINTE DETALLES ESPECIALES PATENTADOS. Pida Ud.
+una demostración gratis a nosotros y llegará inmediatamente nuestro Mr. Harri-
+son Estep para demostrarles la máquina, y entonces conocerá Ud. por sí mismo jus-
+tamente por qué LA ROYAL es la máquina de escribir mejor para Ud. Ud. no quedará
+obligado de ninguna manera pidiendo una demostración.
+Nuestra misión es hacer conocida la máquina. Ella sola se vende.
+Servicio de mecánica:—Toda máquina vendida por nosotros va plenamente ga-
+rantizada y no cobramos a nuestros clientes por cualquier ajuste hecho en la má-
+quina ROYAL. Nuestro taller de reparaciones está bien equipado y atendido perso-
+nalmente por el Administrador de la Casa, quien ha tenido largos años de expe-
+riencia en este trabajo.
+
+Recibimos máquinas usadas de cualesquiera marcas como parte de
+pago para una ROYAL nueva
+Pida una demostración
+
+E. E. HUBER HONDURAS COMPANY.
+TEGUCIGALPA, HONDURAS.
+
+Agentes exclusivos y únicos importadores para la República
+
+## Images, Captions, And Visual Notes
+Pipeline-extracted visual crops:
+- ![nearby-text: “Compárese el trabajo” es el lema de la Royal Typewriter Company.](../extracted-images/page-0136/page-0136-image-01-royal-typewriter-illustration.png)
+  - Kind: illustration; label basis: nearby-text; bbox_pct: [14.0, 25.0, 39.0, 73.0]
+  - Source context: The illustration depicts a Royal typewriter, which is the subject of the advertisement. The headline directly below the image names the product.
+
+The page features a prominent illustration of a Royal brand typewriter. The text surrounding the image serves as its description and advertisement.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and the main image on the page have been transcribed and described.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "illustration",
+      "bbox_pct": [
+        14.0,
+        25.0,
+        39.0,
+        73.0
+      ],
+      "caption_literal": "“Compárese el trabajo” es el lema de la Royal Typewriter Company.",
+      "caption_type": "nearby-text",
+      "identity_basis": "product illustration",
+      "source_context": "The illustration depicts a Royal typewriter, which is the subject of the advertisement. The headline directly below the image names the product.",
+      "confidence": 5,
+      "suggested_filename": "royal_typewriter_illustration"
+    }
+  ]
+}
+```

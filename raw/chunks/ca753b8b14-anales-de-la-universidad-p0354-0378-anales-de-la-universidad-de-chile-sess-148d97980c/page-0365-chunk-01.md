@@ -1,0 +1,79 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-c37b3e8f61d7-P0365-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378.codex.md
+converted_sha256: c37b3e8f61d74da140296b94824e811b73dfb8cc4d16062ee8b34dd8d079a6f8
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json
+page_start: 365
+page_end: 365
+part: 1
+---
+
+## Page Metadata
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Page: 365
+- Page type: `body`
+- Page number: `365`
+- Section: `CARLOS SILVA COTAFOS`
+
+## Layout And Reading Order
+
+The page contains a running head with the author's name and page number, followed by a continuation of a paragraph from the previous page. Below this, there is a section heading `§ XXII`, a sub-heading in quotes, and then several paragraphs of body text. The text flows in a single column.
+
+## Literal Transcription
+
+CARLOS SILVA COTAFOS
+365
+
+obra patriótica Eizaguirre dando a conocer su his-
+toria i procurando que los hombres de letras se preo-
+cupasen de este lejano rincón del mundo.
+
+§ XXII
+
+«El Catolicismo en presencia de sus disidentes»
+
+Pero el deseo de divulgar su _Historia de Chile_, no
+fué el principal objeto de sus frecuentes viajes a
+París. Atraíale a esta ciudad la publicación de una
+nueva obra, fruto de sus largos viajes, i en cuya com-
+posición había consumido los muchos ocios de sus
+navegaciones por mares i ríos, i las estadías en los
+hoteles i hospederías de cuatro continentes. Esta
+obra era _El Catolicismo en presencia de sus disiden-
+tes_. Este título basta para comprender que Eizagui-
+rre, a fuer de sacerdote ilustrado i activo, no había
+perdido su tiempo en satisfacer la curiosidad de ver
+países nuevos, sino ocupado su actividad en prepa-
+rar un libro útil para la iglesia católica de la cual
+era dignísimo ministro.
+
+Casi todos los que saben manejar un poco la plu-
+ma cuando viajan escriben sus viajes o sus impre-
+siones de viaje. Eizaguirre hizo esto mismo: descri-
+bió los países que había recorrido, i refirió lo que le
+había ocurrido; pero, sin limitarse a esto sólo. estu-
+dió también la situación del catolicismo i de las sec-
+tas disidentes en esos países.
+
+He aquí cómo espone él mismo el fin que se pro-
+puso al escribir su Catolicismo:
+
+«¿Cuál es el pensamiento dominante hoi en la so-
+ciedad?
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual content to extract."}
+```

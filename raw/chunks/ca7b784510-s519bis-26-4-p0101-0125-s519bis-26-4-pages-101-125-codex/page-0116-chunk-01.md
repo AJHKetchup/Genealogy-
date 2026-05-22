@@ -1,0 +1,104 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-99a42bb1e267-P0116-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125.codex.md
+converted_sha256: 99a42bb1e2670a7e105ef08933e795a5ebc6d8a9875e0aff3890762141d0a45c
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/manifest.json
+page_start: 116
+page_end: 116
+part: 1
+---
+
+## Page Metadata
+
+- **Page number**: 116
+- **Document type**: Typed letter with handwritten annotations
+- **Date**: 10 November 1935
+- **Sender**: Legation of the Dominican Republic in Paris
+- **Recipient**: Julián Nogueira, General Secretariat of the League of Nations, Geneva
+
+## Layout And Reading Order
+
+The document is a single-column typed letter on official letterhead. The reading order is as follows:
+1.  The letterhead "LEGACION DE LA REPUBLICA DOMINICANA" is at the top left.
+2.  The date "Paris, 10 de Noviembre de 1935." is at the top right.
+3.  The word "Personal." is on the left, below the letterhead.
+4.  The recipient's name and address block is below "Personal."
+5.  The salutation "Mi querido amigo:-" follows.
+6.  The body of the letter consists of four paragraphs.
+7.  There is a handwritten interlinear insertion in the second paragraph.
+8.  There is a handwritten note in the left margin next to the final paragraph.
+9.  There is a longer handwritten note at the bottom of the page.
+
+## Literal Transcription
+
+```text
+LEGACION
+DE LA
+REPUBLICA DOMINICANA
+                                    Paris, 10 de Noviembre de 1935.
+
+Personal.
+
+Sr. Don Julián NOGUEIRA,
+Secretaría General de la Sociedad de las Naciones.
+                                    G i n e b r a.
+
+Mi querido amigo:-
+
+          Me apresuro en llevar a conocimiento de Ud.
+que, en fecha de ayer, hemos recibido un cablegrama del
+Secretario de Estado de Relaciones Exteriores, Dr. Elias
+Brache Hijo, que dice textualmente lo siguiente:
+"REPUBLICA ADHERIDA SANCIONES ITALIA"
+
+          Agrego, que puedo asegurar a Ud. que el re-
+tardo con que hemos respondido se debe, unicamente, a que
+el Presidente Trujillo se encontraba en vacaciones (prescri
+tas por su médico) y, como bien sabe Ud., el régimen presi-
+dencial que tenemos en América ^exige que todo se le someta al
+"Jefe", que es quién resuelve todas las cuestiones de alguna
+trascendencia. En la Constitución que rije en mi país no figura
+el cargo de Ministro (responsable), sólo tenemos Secretarios
+de Estado que actuan unicamente respaldados por el Primer
+Majistrado.
+
+          Ya vé Ud., mi querido amigo, que aunque con
+un retardo algo mortificante, la República Dominicana, cum-
+-ple con las disposiciones suscritas y se coloca del lado
+del Derecho contra la Fuerza.
+
+          Voy ahora, como siempre, a pedir a Ud. un
+favor: Desearía proporcionarle la molestia de que me procu-
+[handwritten in left margin:] for Tcheou Wei
+rara el nombre exacto de aquel Delegado chino que defendió
+
+[handwritten at bottom of page:]
+Enckell (finl.) Cobian, Fenn Med, Urrut, hansen, Parra P.
+afuera Ladburan en VIa Com: Murray - Tcheou Wei - Urr. Ag. Jouveul-Bonin. Fyth
+```
+
+## Images, Captions, And Visual Notes
+
+This page is a typed letter on what appears to be official letterhead. There is a single hole punch on the left side of the page. There are several handwritten annotations: one word, "exige", is inserted between lines in the second paragraph; a note, "for Tcheou Wei", is written in the left margin next to the final paragraph; and a two-line note listing several names is written at the very bottom of the page.
+
+## Uncertain Or Illegible
+
+The handwriting at the bottom of the page is slightly difficult to read, but the following transcription is provided with high confidence:
+- `Enckell (finl.) Cobian, Fenn Med, Urrut, hansen, Parra P.`
+- `afuera Ladburan en VIa Com: Murray - Tcheou Wei - Urr. Ag. Jouveul-Bonin. Fyth`
+
+## Completeness Audit
+
+The entire content of the page, including all typed text and handwritten annotations, has been transcribed.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only text (a typed letter with handwritten notes) and does not have any significant images, illustrations, or diagrams that would warrant cropping as standalone visual assets."
+}
+```

@@ -1,0 +1,60 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-283998baec1d-P0336-01
+source_converted: raw/converted/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350.codex.md
+converted_sha256: 283998baec1d7e3d41d10026e1f6f30de2b634f061a43f5268ba85a7289e77da
+source: raw/sources/S179-34-6.pdf
+source_sha256: 5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054
+source_manifest: raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/manifest.json
+page_start: 336
+page_end: 336
+part: 1
+---
+
+## Page Metadata
+- Task id: `source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0336`
+- Source: `raw/sources/S179-34-6.pdf`
+- Page: 336
+
+## Layout And Reading Order
+The page displays a single, light-colored card with handwritten text in the upper and central right portions, and faint embossed text in the lower left. A small hole is punched in the top right corner of the card. The reading order is from the top-right handwritten text, down to the bottom-right handwritten text, then to the bottom-left embossed text.
+
+## Literal Transcription
+Disco Nacional
+Solo-P
+Talán
+smy
+Il Piccola Flavio
+
+[faint embossed text, bottom left]
+MADE IN U.S.A.
+EASTMAN KODAK CO.
+ROCHESTER, N.Y.
+
+## Images, Captions, And Visual Notes
+The page contains a single card, likely a photographic print or a note card, with handwritten text and a faint embossed manufacturer's mark. A small hole is punched in the top right corner of the card.
+
+## Uncertain Or Illegible
+- The embossed text is very faint, but the transcription provided is the most plausible reading for a common manufacturer's mark on photographic paper.
+
+## Completeness Audit
+The transcription is complete and includes all visible handwritten and embossed text, as well as a note about the hole punch.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "document",
+      "bbox_pct": [10.0, 10.0, 89.0, 89.0],
+      "caption_literal": "A light-colored card with handwritten text and faint embossed text. A small hole is punched in the top right corner.",
+      "caption_type": "converter-description",
+      "identity_basis": null,
+      "source_context": "The entire visible page content is a single card.",
+      "confidence": 0.95,
+      "suggested_filename": "card_with_handwritten_and_embossed_text"
+    }
+  ]
+}
+```

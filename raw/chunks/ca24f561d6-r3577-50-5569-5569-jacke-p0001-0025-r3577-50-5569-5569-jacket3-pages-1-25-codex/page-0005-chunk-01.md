@@ -1,0 +1,109 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b3925f197b4c-P0005-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25.codex.md
+converted_sha256: b3925f197b4ca73a32b363994fca86e1677cfea43b3d1ed7d3823a5c1decfcab
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/manifest.json
+page_start: 5
+page_end: 5
+part: 1
+---
+
+## Page Metadata
+Page number: 5
+
+## Layout And Reading Order
+The page consists of a header with a page number and session date, followed by a single column of text divided into multiple paragraphs. There are no images or other significant visual elements beyond the text.
+
+## Literal Transcription
+4
+SÉANCE DU Ier JUILLET 1929
+
+de fer barbelés, souffrant, parfois, de la faim et du froid et, toujours, de la séparation cruelle de tout
+ce qui leur était cher, ceux qui ont assisté à toutes ces misères, — et je souhaiterais presque qu’ils fussent
+nombreux parmi nous, — ont saisi déjà la grandeur, la beauté, la nécessité du progrès à réaliser, mais
+du même coup aussi les difficultés à surmonter.
+
+La tâche qui nous incombe — pourquoi se le dissimuler ? — est étendue et complexe. Deux grands
+problèmes s’imposent à notre étude, à vrai dire, le programme qui eût pu être dévolu à deux Conférences.
+Mais nous saurons, telle étant notre mission, faire œuvre double.
+
+La connexité étroite entre les deux sujets, d’ailleurs, existe.
+
+Les blessés et malades des forces armées qui tombent au pouvoir de l’adversaire sont prisonniers
+de guerre et, par conséquent, traités comme tels, sous la seule réserve des soins à leur accorder. A leur
+égard, un code des prisonniers de guerre apparaît bien, en quelque sorte, comme le prolongement lo-
+gique, naturel, des engagements conventionnels assurant aux militaires blessés ou malades protection
+et soins. Serait-il raisonnable, défendable, en effet, de soigner les prisonniers blessés et malades pour
+les replonger, à peu près rétablis, dans un régime de captivité, sinon contraire à d’élémentaires principes
+d’humanité, comportant cependant des conditions d’hygiène et d’entretien qui risqueraient de com-
+promettre à nouveau leur santé à peine recouvrée ?
+
+Aussi sommes-nous réunis, cette fois-ci, pour tenter d’instituer un système complet en faveur
+du soldat que le hasard des opérations de guerre conduit, blessé, malade ou valide, en captivité, et
+qui, après avoir combattu vaillamment, — nous devons l’admettre, — a droit à notre sympathie active
+dans sa dure épreuve.
+
+La Conférence qui, en 1906, a revisé la Convention de Genève nous a laissé un instrument remar-
+quable. Elle a travaillé avec méthode, sagacité et clairvoyance ; elle a su mettre au point et compléter
+opportunément les principes consacrés par la première Convention de 1864. Tandis que celle-ci ne
+parlait que des militaires, on leur a assimilé, en 1906, les autres personnes officiellement attachées aux
+armées. La Convention revisée a introduit l’obligation de principe pour le belligérant qui doit abandonner
+à l’adversaire des blessés et des malades, de laisser, au moins provisoirement, avec eux, dans leur propre
+intérêt, du personnel et du matériel sanitaires. Elle se préoccupe aussi des morts en faisant un devoir
+à l’occupant du champ de bataille de les protéger, de procéder à l’examen des cadavres et de chercher
+à assurer leur identification.
+
+D’autre part, l’Acte revisé mentionne pour la première fois et fait expressément participer à ses
+garanties les sociétés de secours volontaires, qui s’étaient constituées et consacrées à leur noble tâche
+dès avant 1906, mais qui, depuis surtout, ont pris un développement inattendu et déployé, à la
+guerre et dans la paix, cette activité magnifique, réparatrice et consolatrice, qui a rendu le nom et
+le signe de la Croix-Rouge populaires entre tous.
+
+Mais les législateurs de 1906 n’ont pas craint d’opérer même un mouvement de recul en revenant,
+bien qu’à regret, sur certaines stipulations introduites dans la première Convention de Genève et qui
+s’inspiraient d’un sentiment de compassion précisément pour les prisonniers de guerre. C’est ainsi
+qu’on disparut de la nouvelle Convention, parce que contraires aux traditions et conceptions d’alors,
+l’obligation de renvoyer dans leur pays les militaires qui, après guérison, seraient reconnus incapables
+de servir et la faculté d’y laisser retourner même les prisonniers valides, à condition qu’ils ne reprissent
+point les armes. Ces idées généreuses, mais d’une mise en pratique malaisée, nous allons avoir à les
+reprendre au cours de nos discussions concernant le traitement des prisonniers de guerre, ce qui démontre
+à nouveau l’interdépendance des deux problèmes dont nous sommes saisis.
+
+La Convention de 1906, œuvre considérable et, nous venons de le voir, essentiellement pratique
+et sincère, a, dès lors, subi, des années durant, l’épreuve du feu. Cette épreuve a-t-elle été victorieuse ?
+Nous inclinons à répondre oui, malgré que nous ne puissions ignorer que l’application de certaines
+dispositions ait donné lieu à d’âpres controverses et que l’exécution de tels engagements se soit révélée
+singulièrement difficile.
+
+Le maintien en vigueur de la Convention ne s’est pourtant, à aucun moment, sérieusement trouvé
+en question, et depuis dix ans que sa revision est à l’ordre du jour, aucune proposition formelle tendant
+à sa refonte complète n’avait été présentée. La question pourrait, néanmoins, venir se poser devant
+nous, et nos délibérations feront sans doute apparaître si le travail de revision auquel nous sommes
+appelés doit plutôt être considéré comme une étape pouvant conduire, dans un avenir prochain, à
+une transformation plus ou moins complète de l’instrument par l’introduction de règles nouvelles
+imposées par les conditions de la guerre moderne.
+
+La revision, telle qu’elle se présente à nous, comporte, d’ailleurs, maints amendements dont la
+discussion dans deux Conférences internationales de la Croix-Rouge a déjà mis en lumière et l’évidence
+de nombreuses propositions non moins intéressantes sont venues
+s’y ajouter à la suite de consultation faite, au cours de la dernière année, auprès des Gouvernements
+eux-mêmes.
+
+## Images, Captions, And Visual Notes
+None.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial images or graphics are present on this page. The page contains only text."}
+```
+
+# Page 6

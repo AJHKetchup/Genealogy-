@@ -1,0 +1,75 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-c4e4cf99a2a2-P0007-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400.codex.md
+converted_sha256: c4e4cf99a2a221d954e2bf10b1ac3839e8e9d7dd62227cbe6118fabf8aa15aed
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400/manifest.json
+page_start: 7
+page_end: 7
+part: 1
+---
+
+## Page Metadata
+- Page number: 15
+
+## Layout And Reading Order
+The page consists of four paragraphs of continuous text in Spanish, preceded by a centered page number at the top. The reading order is strictly top-to-bottom.
+
+## Literal Transcription
+```
+- 15 -
+
+de fecha 13 de Marzo 1919. El Poder Ejecutivo fué en aquel
+momento autorizado a dar su aceptación en principio a la idea
+de la formación de la Sociedad "abriendo un paréntesis que
+permitiría reunir mayor número de elementos de juicio para
+poder apreciar más tarde las ventajas o desventajas de la in-
+corporación definitiva a la Sociedad y de la aceptación del
+tratado". En razón de esta autorización general dada en mo-
+mentos en que el Pacto de la Sociedad de las Naciones no es-
+taba aún en vigor, fué por lo que el Poder Ejecutivo dirigió
+al Ministro Alvear el telegrama fechado el 13 de Marzo. En
+estas circunstancias el Gobierno argentino podía muy bien con-
+siderar el Pacto como un simple proyecto y era lógico que el
+Gobierno diera instrucciones a su Ministro para formular ob-
+servaciones ante la reunión en que debía ser discutida la
+cuestión.
+
+Esto ocurría en Marzo de 1919, pero el 12 de Julio
+el Pacto, definitivamente redactado con las observaciones pre-
+sentadas por los neutrales, fué aprobado por unanimidad en
+sesión plenaria por la Conferencia de la Paz. Huelga decir
+que todavía no estaba en vigor porque faltaba la formalidad
+esencial de la ratificación por parte de los signatarios, pero
+desde luego el tratado estaba concluído y a título de tal fué
+considerado por el Gobierno argentino quien ordenó a su Minis-
+tro en París que hiciera una declaración de adhesión. Sin em-
+bargo, las Cámaras no dieron su conformidad a esta adhesión;
+dichas Cámaras habían ya expresado su voluntad mucho antes de
+la conclusión del tratado y especialmente con motivo de un
+asunto diferente.
+
+La anomalía constitucional fué muy bien comprendida por
+el Dr. Alvear, miembro de la delegación argentina a la Primera
+Asamblea, cuando discutió con sus colegas las instrucciones de
+que era portador el Sr. Pueyrredón, Ministro de Relaciones Ex-
+teriores y primer delegado a la Asamblea.
+
+El artículo 6 de las instrucciones argentinas estaba
+```
+
+## Images, Captions, And Visual Notes
+There are no images, captions, or visual notes on this page.
+
+## Uncertain Or Illegible
+No uncertain or illegible text was found on this page.
+
+## Completeness Audit
+The transcription is complete and accurate, capturing all visible text and layout elements.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+```

@@ -1,0 +1,52 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-283998baec1d-P0021-01
+source_converted: raw/converted/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350.codex.md
+converted_sha256: 283998baec1d7e3d41d10026e1f6f30de2b634f061a43f5268ba85a7289e77da
+source: raw/sources/S179-34-6.pdf
+source_sha256: 5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054
+source_manifest: raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/manifest.json
+page_start: 21
+page_end: 21
+part: 1
+---
+
+## Page Metadata
+- Page number: 346
+- Source file: `raw/sources/S179-34-6.pdf`
+- Source document: `S179-34-6`
+- Type: Telegram form with handwritten notes
+
+## Layout And Reading Order
+The page contains a pre-printed telegram form with handwritten entries. The main body of the message is written horizontally. There are also some numbers written vertically in the middle-left. At the bottom, there is a section of text written upside down.
+
+## Literal Transcription
+```
+Procedencia del telegrama
+D 21/3/11 25 18. 56
+Nº orig. ................... pls. ................... día ................... las ................... Observ. ...................
+Espere estacion
+7 febrero. Adolf
+24
+4.20
+9.6
+17.6
+
+[Text written upside down at the bottom of the page:]
+hasta el [posto?]
+salenda Paraguay
+```
+
+## Images, Captions, And Visual Notes
+The page is a document with handwritten text on a pre-printed form. There are no distinct images or diagrams to crop. The document itself is the primary visual evidence. There are two small holes punched through the left side of the paper, and the paper is creased and worn, especially at the edges.
+
+## Uncertain Or Illegible
+- `D 21/3/11 25 18. 56`: The "56" could potentially be "5b" or "5s", but "56" (minutes) is most plausible in context. The "D 21/3/11" is a handwritten entry for "Procedencia del telegrama" but its exact meaning (e.g., date format, reference number) is uncertain without further context.
+- `[posto?]`: The word after "el" in the inverted text is difficult to read. It appears to be "fosto" or "posto". "Posto" (place/post office) is a plausible interpretation in Spanish.
+- `salenda`: This word in the inverted text is transcribed as it appears, but it is an uncommon Spanish word. It might be a misspelling or an unusual form of "salida" (departure) or "saludo" (greeting).
+
+## Completeness Audit
+All visible text and layout elements have been transcribed. The orientation of the inverted text has been noted.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and minor wear/damage, with no substantial images, maps, or diagrams suitable for cropping as standalone assets."}

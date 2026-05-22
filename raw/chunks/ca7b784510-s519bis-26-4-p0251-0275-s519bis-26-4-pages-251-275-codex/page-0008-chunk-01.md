@@ -1,0 +1,100 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-21cb62d121ae-P0008-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0251-0275-s519bis-26-4-pages-251-275.codex.md
+converted_sha256: 21cb62d121aedd46090d76507ab5a24d7fb3106819e232c1d12dee486e249e25
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0251-0275-s519bis-26-4-pages-251-275/manifest.json
+page_start: 8
+page_end: 8
+part: 1
+---
+
+## Page Metadata
+Page number: 258
+
+## Layout And Reading Order
+The page contains typed text, followed by a handwritten note in the lower left quadrant, enclosed by a drawn line. The reading order is top-to-bottom for the typed text, then the handwritten note.
+
+## Literal Transcription
+-3-
+
+"A opinião do Sr. Macedo Soares é quasi a mesma que eu ahi
+expuz a você, com a differença que elle tem a responsabilidade
+de um Ministro do Exterior".
+
+"Accrescentou que antes da nossa volta, - se é que esta
+se realisará -, seria indispensavel esclarecer a opinião
+sobre a conveniencia da nossa volta e attrahir a attenção ou a
+curiosidade pela SdN".
+
+"De outro modo poderia haver alguma reacção imprevisivel."
+
+"Existe aqui a mais completa ignorancia em tudo o que se
+refere á SdN, mesmo nas classes mais cultas!"
+
+La unica frase positiva que reproduce una cierta esperanza
+personal es la siguiente :
+
+"Estou certo dos resultados que traria essa propaganda
+discreta, conjugada com a boa vontade do Sr. Macedo Soares".
+
+Finalmente debo aggregar que quanto lo expongo en esta carta
+corresponde a mi ver a la ultima recommendação de su carta de
+Vd :
+
+"Em todo o caso, a minha convicção é que a SdN não deve agir
+com precipitação neste assumpto. Pense sobre o caso e escreva-me!"
+
+Le ruego que reflexione sobre lo que le exponho amistosamente
+en estas lineas. Creo que en el fondo estará Vd. de accordo
+commigo; sea así o sea lo contrario, le quedaré muy agradecido si
+me hace llegar sus observaciones.
+
+Le agradeceré también que me indique quales son las Biblio-
+tecas del Brasil y las Instituciones que a su juicio deben recibir
+publicaciones de la Sociedad y que clase de publicaciones deben
+mandarse a cada una de ellas. Le ruego también que no olvide
+el envio de la lista de personalidades y de periodicos que me
+prometió siempre que este servicio que le pido para poder dar
+principio de ejecución a sus consejos no le cause especiales
+molestias.
+
+Hagame el favor de reiterar al Dr. Macedo Soares la
+expresión de mis sentimientos de respeto y affecto y reciba
+un abrazo de su amigo que espera con ansia sus noticias.
+
+Me gustaría, por ejemplo, tener
+la dirección permanente de hombres
+como Arthur Bernardes, Altino
+Arantes, Borges de Medeiros, Anto-
+nio Carlos, etc.
+
+## Images, Captions, And Visual Notes
+A handwritten note is present in the lower left portion of the page, enclosed by a hand-drawn line.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and significant visual elements have been transcribed or noted.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "handwritten-text",
+      "bbox_pct": [19.0, 76.0, 97.0, 93.0],
+      "caption_literal": "Me gustaría, por ejemplo, tener\nla dirección permanente de hombres\ncomo Arthur Bernardes, Altino\nArantes, Borges de Medeiros, Anto-\nnio Carlos, etc.",
+      "caption_type": "nearby-text",
+      "identity_basis": null,
+      "source_context": "Handwritten note at the bottom of the page.",
+      "confidence": 0.95,
+      "suggested_filename": "handwritten_note_258"
+    }
+  ]
+}
+```

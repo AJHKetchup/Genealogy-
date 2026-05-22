@@ -1,0 +1,65 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-51d0dddbaf02-P0004-01
+source_converted: raw/converted/cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25.codex.md
+converted_sha256: 51d0dddbaf022245f253fbbf0ffc01f5ac2c5b57d2a7d50a02c7fb4b52f5472f
+source: raw/sources/R3577-50-5569-5569-Jacket1.pdf
+source_sha256: db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb
+source_manifest: raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25/manifest.json
+page_start: 4
+page_end: 4
+part: 1
+---
+
+## Page Metadata
+- Task id: `source-prep:cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25:p0004`
+- Model route: `pro`
+- Route reasons: pdf_profile_complex
+- Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
+- Job manifest: `raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25/manifest.json`
+- Work order: `raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25/work-orders/page-0004.md`
+- Page: 4
+- Output Markdown target: `raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25/page-markdown/page-0004.md`
+- External research relevance: ``
+- External requested treatment: ``
+- External relevance reasons: none
+- Recommended action: ``
+- Quality flags: none
+- Technical reread clues: none
+
+## Layout And Reading Order
+The document is a single handwritten note on a slip of paper. The reading order is top to bottom.
+
+## Literal Transcription
+```text
+~~Registry~~
+ou par M. Dufour.
+—
+1/ Marquis Paulucci ✓
+2/ Mr Norman White AW
+pour information et
+observations éventuelles.
+
+3/ rendre à la Section
+des Bur. Intaux.
+
+[D. Klun?]
+30/IV
+```
+
+## Images, Captions, And Visual Notes
+This page consists of a single image of a handwritten note on a blue slip of paper. The writing is in black ink. The word "Registry" at the top is crossed out. There is a hole punch below this line. A checkmark follows the name "Marquis Paulucci". The initials "AW" are written next to the name "Mr Norman White". The note is signed at the bottom, followed by the date "30/IV".
+
+## Uncertain Or Illegible
+- The signature at the bottom is difficult to read but may be `D. Klun`. It has been transcribed as `[D. Klun?]`.
+
+## Completeness Audit
+The page has been fully transcribed.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only handwritten text on a slip of paper, with no significant visual elements like photographs, maps, or illustrations that would warrant cropping."
+}
+```

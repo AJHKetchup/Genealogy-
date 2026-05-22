@@ -1,0 +1,67 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2828ca0c157a-P0024-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0351-0375-r3578-50-5569-5569-jacket5-pages-351-375.codex.md
+converted_sha256: 2828ca0c157a528160459b9ba060687b937e94ebbfdf3832baba71943aed2e31
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0351-0375-r3578-50-5569-5569-jacket5-pages-351-375/manifest.json
+page_start: 24
+page_end: 24
+part: 1
+---
+
+## Page Metadata
+Page number: 374
+Source document page number (handwritten): 514
+Source document page number (printed): 151
+
+## Layout And Reading Order
+The page contains a main text block in Dutch, starting with a Roman numeral heading, followed by four paragraphs. A short horizontal rule appears below the last paragraph. Page numbers "151" and "514" are present at the top center and top right, respectively.
+
+## Literal Transcription
+151
+III. ALGEMENE OPMERKINGEN.
+
+De hierboven vastgestelde voorwaarden moeten in het alge-
+meen worden uitgelegd en toegepast in een zoo ruim mogelijken
+geest.
+
+Deze ruime uitlegging moet in het bijzonder worden toegepast
+op de neuropathische en psychopathische toestanden, welke
+veroorzaakt of ongunstig beïnvloed zijn door de oorlogsgebeur-
+tenissen of de gevangenschap zelve (psychasthenie der krijgs-
+gevangenen) evenals op gevallen van tuberculose in alle graden.
+
+Het spreekt vanzelf, dat de kampgeneesheeren en de ge-
+mengde geneeskundige commissies kunnen komen te staan voor
+een menigte gevallen, die niet vermeld zijn bij de onder num-
+mer II gegeven voorbeelden, of voor gevallen, die niet aan die
+voorbeelden zijn aan te passen. De hierboven vermelde voor-
+beelden zijn slechts gegeven als typische voorbeelden; een over-
+eenkomstige lijst van voorbeelden van chirurgische afwijkingen
+is niet opgesteld, omdat, met uitzondering van de gevallen, die
+door hun aard zelf onbetwistbaar zijn (amputaties), het moeilijk
+is, een lijst van bijzondere types samen te stellen; de ervaring
+heeft uitgewezen, dat een overzicht van die bijzondere gevallen
+in de praktijk niet zonder bezwaren was.
+
+Men zal in alle gevallen, welke zich niet geheel aan de ge-
+geven voorbeelden aanpassen, zich bij de beslissing moeten laten
+leiden door den geest der bovenvermelde leidende beginselen.
+
+—
+
+## Images, Captions, And Visual Notes
+A short horizontal rule is present below the main text block.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and the horizontal rule have been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected. The page contains only text and a decorative horizontal rule."}
+```

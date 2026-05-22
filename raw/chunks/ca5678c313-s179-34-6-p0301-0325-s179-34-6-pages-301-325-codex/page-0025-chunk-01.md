@@ -1,0 +1,60 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-418b25296ff8-P0025-01
+source_converted: raw/converted/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325.codex.md
+converted_sha256: 418b25296ff8ff3d3f17f6442c1053d0026df4c4e1961c7e52c354128870dc2f
+source: raw/sources/S179-34-6.pdf
+source_sha256: 5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054
+source_manifest: raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/manifest.json
+page_start: 25
+page_end: 25
+part: 1
+---
+
+## Page Metadata
+Page number: 325
+
+## Layout And Reading Order
+The page consists solely of a single, large photograph of a man, centered on the page. There is no accompanying text, captions, or other markings on this specific page.
+
+## Literal Transcription
+There is no text to transcribe on this page.
+
+## Images, Captions, And Visual Notes
+Pipeline-extracted visual crops:
+- ![converter-description: A black and white portrait photograph of an older man with a mustache, wearing a dark coat, against a background of foliage.](../extracted-images/page-0325/page-0325-image-01-page-0325-portrait-man-foliage-background.png)
+  - Kind: photograph; label basis: converter-description; bbox_pct: [10.0, 5.0, 90.0, 95.0]
+  - Source context: This is the sole content of page 325.
+
+The page displays a black and white portrait-style photograph of an older man. He is shown from the chest up, facing forward, with a mustache and short hair. He is wearing a dark coat with buttons and a scarf or high collar. The background appears to be foliage, possibly a bush or tree. The photograph has a white border.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The page is complete and contains only the described image.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "photograph",
+      "bbox_pct": [
+        10.0,
+        5.0,
+        90.0,
+        95.0
+      ],
+      "caption_literal": "A black and white portrait photograph of an older man with a mustache, wearing a dark coat, against a background of foliage.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-only",
+      "source_context": "This is the sole content of page 325.",
+      "confidence": "high",
+      "suggested_filename": "page-0325-portrait-man-foliage-background.jpg",
+      "inline_anchor": null
+    }
+  ]
+}
+```

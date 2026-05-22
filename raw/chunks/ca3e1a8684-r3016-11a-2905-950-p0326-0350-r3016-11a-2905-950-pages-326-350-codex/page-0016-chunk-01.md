@@ -1,0 +1,83 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2b0d4c261d20-P0016-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350.codex.md
+converted_sha256: 2b0d4c261d206a7ec37b7a5270b96f361987d5f73728cd98e52eb72fd9941afc
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/manifest.json
+page_start: 16
+page_end: 16
+part: 1
+---
+
+## Page Metadata
+Page number: 45
+
+## Layout And Reading Order
+The page consists of a single column of text in French. The text describes the activities of the Red Cross, first generally, then specifically in Canada. There is a page number at the bottom right.
+
+## Literal Transcription
+
+subventionnés à l'aide de dons privés, l'infirmière et le médecin
+étant rétribués par la Société.
+
+Le personnel des centres comprend un médecin, une infir-
+mière et une assistante sociale. Des fiches détaillées donnant des
+renseignements concernant les nourrissons surveillés, sont con-
+servées au centre et les nourrissons malades sont envoyés à la
+consultation.
+
+Afin de développer leur œuvre de propagande parmi les mères,
+les infirmières ont préparé une petite exposition d'hygiène maternelle
+et infantile qui, sous les auspices de la Croix-Rouge, du ministère de
+l'hygiène, des dispensaires d'hygiène de l'enfance de l'Université
+et des centres de protection de l'enfance est devenue une importante
+exposition itinérante. Créée en 1926, l'exposition qui est accompagnée
+d'une infirmière faisant des causeries et des démonstrations d'hygiène
+aux mères, n'a cessé de voyager depuis cette date. Parmi les objets
+exposés figurent des vêtements pour les femmes enceintes, les nour-
+rices et les bébés, le modèle d'une chambre préparée en vue d'un
+accouchement et d'une chambre pour une mère qui allaite son enfant,
+des exemples d'aliments et de leur préparation, des berceaux, des lits,
+des parcs pour bains de soleil, des articles d'hygiène générale et per-
+sonnelle et des publications amusantes et instructives pour enfants
+au-dessous de huit ans.
+
+CANADA.
+
+Dans plusieurs des provinces, la Croix-Rouge prend à sa charge
+le traitement des infirmières visiteuses employées par d'autres institu-
+tions et dirige des services d'hygiène scolaire et d'hygiène sociale
+de la tuberculose. Les assistantes ménagères sont également formées
+par la Croix-Rouge et employées par la municipalité.
+
+Cette société consacre principalement ses efforts, dans le domaine
+de l'hygiène, à la création de postes ruraux d'infirmières visiteuses.
+On distingue trois sortes de postes ruraux :
+
+1. Le poste d'infirmières visiteuses pour soins à domicile. L'infir-
+mière fait des visites et donne des soins à domicile et dans les écoles,
+mais le poste n'est pas installé pour recevoir des malades.
+
+2. Le poste aménagé pour recevoir un ou deux malades, avec
+un service important de soins à domicile.
+
+3. Le poste, dans un village ou une petite ville, qui fait fonction
+d'hôpital.
+
+La création d'un poste sanitaire est toujours précédée d'une
+
+45
+
+## Images, Captions, And Visual Notes
+None.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and a page number, with no substantial images, maps, or diagrams suitable for cropping."}

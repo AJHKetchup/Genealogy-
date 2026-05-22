@@ -1,0 +1,71 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d9d8a448627d-P0012-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163.codex.md
+converted_sha256: d9d8a448627d06161f3b9a3c897c6938c3df3dc08ccd219e400142d6e4abefe7
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json
+page_start: 12
+page_end: 12
+part: 1
+---
+
+## Page Metadata
+Page number: 155
+Original page number: 152
+
+## Layout And Reading Order
+The page contains a single column of text, primarily a continuation of a numbered list of regulations or rules. The page number is centered at the top.
+
+## Literal Transcription
+
+— 152 —
+
+Si el remitente insistiere en su transporte a pesar
+de no encontrarse el embalaje en las condiciones esta-
+blecidas, la empresa efectuará la conducción pero bajo
+la responsabilidad de aquél.
+8º La lana se transportará en fardos, bolsas o dobles lienzos
+y las empresas responderán del número de ellos; pero
+la lana suelta se transportará sin responsabilidad y
+estará sujeta a un peonaje extraordinario en la estación
+de destino, si la empresa se viese en la obligación de
+descargarla o transbordarla.
+9º Las bolsas llenas deberán estar cerradas con hilo de
+atar, excluyéndose el uso de las trenzas de paja, y
+deberán tener orejas o manijas para poder manejarlas.
+10. Las bolsas vacías deberán estar bien atadas entre sí de
+manera que ninguna pueda desprenderse.
+11. Los objetos de metal, no embalados, no podrán tener
+pintura o alquitrán fresco.
+12. La lana, estopa y materias análogas podrán transpor-
+tarse en vagones cubiertos o abiertos tapados con lona.
+13. Los productos animales, propensos a descomponerse,
+como cueros frescos no salados, grasa, huesos y astas,
+se transportarán únicamente (expediciones sueltas) en
+cascos o cajones bien tapados. Los gastos de desinfec-
+ción, que pudieran ser necesarios, serán de cuenta del
+consignatario.
+14. Las materias que fácilmente puedan inflamarse a causa
+de las chispas de la locomotora, como pasto seco, paja,
+junco y serrín, se transportarán únicamente en vagones
+bien tapados.
+15. El alcohol, el aceite, el petróleo y sus derivados, los
+antisárnicos, desincrustantes, pinturas y líquidos simi-
+lares, cuyos envases fuesen de hojalata, deberán estar
+protegidos con esqueletos de madera.
+16. Las demás cargas de peligro tendrán el embalaje deter-
+minado en el capítulo noveno de este Reglamento.
+
+## Images, Captions, And Visual Notes
+There are no images, captions, or substantial visual notes on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}

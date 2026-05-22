@@ -1,0 +1,81 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-8ad364d5a419-P0021-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0201-0225-r3578-50-5569-5569-jacket5-pages-201-225.codex.md
+converted_sha256: 8ad364d5a41979ddf49964deac738977538a584f0b5c763895b5adf86242f8a2
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0201-0225-r3578-50-5569-5569-jacket5-pages-201-225/manifest.json
+page_start: 21
+page_end: 21
+part: 1
+---
+
+## Page Metadata
+Page number: 221
+Source document page number: 13
+Source document total pages: 514
+
+## Layout And Reading Order
+The page contains a single column of text, primarily legal or treaty articles, in French. There are two page numbers at the top: "13" on the left and "514" on the right. The text is structured into articles, with "Article 10.", "Article 11.", and "Article 12." explicitly labeled. The first two paragraphs appear to be a continuation of a previous article (likely Article 9).
+
+## Literal Transcription
+13 514
+
+les aumôniers attachés aux armées, seront respectés et protégés
+en toutes circonstances. S'ils tombent entre les mains de l'en-
+nemi, ils ne seront pas traités comme prisonniers de guerre.
+Les militaires spécialement instruits pour être, le cas échéant,
+employés comme infirmiers ou brancardiers auxiliaires à l'en-
+lèvement, au transport et au traitement des blessés et des ma-
+lades, et munis d'une pièce d'identité, seront au bénéfice du
+même régime que le personnel sanitaire permanent, s'ils sont
+capturés pendant qu'ils remplissent ces fonctions.
+
+Article 10.
+
+Est assimilé au personnel visé à l'alinéa 1er de l'article 9 le
+personnel des sociétés de secours volontaires, dûment reconnues
+et autorisées par leur Gouvernement qui sera employé aux
+mêmes fonctions que celles du personnel visé au dit alinéa, sous
+la réserve que le personnel de ces sociétés sera soumis aux lois
+et règlements militaires.
+Chaque Haute Partie Contractante notifiera à l'autre, soit
+dès le temps de paix, soit à l'ouverture ou au cours des hostilités,
+en tout cas avant tout emploi effectif, les noms des sociétés
+qu'elle aura autorisées à prêter leur concours, sous sa responsa-
+bilité, au service sanitaire officiel de ses armées.
+
+Article 11.
+
+Une société reconnue d'un pays neutre ne pourra prêter le
+concours de son personnel et de ses formations sanitaires à un
+belligérant qu'avec l'assentiment préalable de son propre Gou-
+vernement et l'autorisation du belligérant lui-même.
+Le belligérant qui aura accepté le secours sera tenu, avant
+tout emploi, d'en faire la notification à l'ennemi.
+
+Article 12.
+
+Les personnes désignées dans les articles 9, 10 et 11 ne pour-
+ront être retenues après qu'elles seront tombées au pouvoir de
+la partie adverse.
+Sauf accord contraire, elles seront renvoyées au belligérant
+dont elles relèvent dès qu'une voie sera ouverte pour leur retour
+et que les exigences militaires le permettront.
+En attendant leur renvoi, elles continueront à remplir leurs
+fonctions sous la direction de la partie adverse; elles seront de
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page. The numbers "13" and "514" appear at the top left and top right, respectively, serving as page identifiers.
+
+## Uncertain Or Illegible
+No uncertain or illegible text was found on this page.
+
+## Completeness Audit
+All visible text on the page has been transcribed. The last line of text in Article 12 is cut off at the bottom of the page.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page. The page contains only text and page numbers."}
+```

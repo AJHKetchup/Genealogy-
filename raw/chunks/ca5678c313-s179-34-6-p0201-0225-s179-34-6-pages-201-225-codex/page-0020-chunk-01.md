@@ -1,0 +1,83 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-843936b5e4dc-P0020-01
+source_converted: raw/converted/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225.codex.md
+converted_sha256: 843936b5e4dc8e07eee28c9615e471b4a4189fec83546269c213c5cc4cbf0960
+source: raw/sources/S179-34-6.pdf
+source_sha256: 5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054
+source_manifest: raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225/manifest.json
+page_start: 20
+page_end: 20
+part: 1
+---
+
+## Page Metadata
+- Page number: 220
+- Source page number: #70
+- Document type: Typed report
+- Page format: Single column
+
+## Layout And Reading Order
+The page contains a single column of typed text. The reading order is from top to bottom. A page number `#70` is at the top left. Below it is a parenthetical note `(Montevideo, #9)`. The main text consists of several paragraphs, including two indented descriptive blocks about individuals. Each descriptive block is followed by a decorative separator line. There is a handwritten annotation in the left margin. Two punch holes are present on the left edge of the page.
+
+## Literal Transcription
+```text
+#70
+
+(Montevideo, #9)
+
+even though I admitted that she is but 18 years of age. She said
+"You bring her here tomorrow. I get you fixed up". Inasmuch as the
+house was quite busy, I departed.
+
+     Mlle. 4-M: 5'2" tall; 130 lbs; 30 years of age; light brown
+hair; dark eyes; round face; olive complexion; nice teeth; eyes heavily
+mascaroed; wore a silver-cloth dress.
+
+-----------------x-----------------
+
+Juneal 1926:
+
+     Upon visiting this house the madame, an Italian wom-
+an who speaks English, introduced me to a very pretty Uruguayan girl
+named 10-G who admitted that she is but 18 years of age, and that she
+has been in this business but one week.
+
+     The madame kept prompting the girl as to how to encourage
+me, and then the madame opened the girl's dress and displaying the
+girl's busts requested me to "Feel how hard they are! See, she's
+young! Just one week here from the interior (Of Uruguay).
+
+     As I was about to depart, 10-G gave me her card, whereupon
+I promised to return later.
+
+     10-G: 5'7" tall; 120 lbs; 18 years of age; black hair
+bobbed, curled and parted on left side; dark olive complexion; even
+and white teeth; wore a gray low-cut silk dress.
+
+-----------------x-----------------
+```
+### Marginalia
+```text
+[Handwritten in the left margin, next to the third and fourth paragraphs of the main text:]
+A true copy
+[illegible signature]
+```
+
+## Images, Captions, And Visual Notes
+The document is a typed page, likely a carbon copy, on gray-toned paper. There are two circular punch holes along the left margin. In the left margin, there is a handwritten annotation in cursive script that reads "A true copy" followed by an illegible signature.
+
+## Uncertain Or Illegible
+- The date is transcribed as `Juneal 1926:`. "Juneal" is likely a typo for "June". The year "1926" is faint but appears to be the correct reading.
+- The signature below the handwritten note "A true copy" in the left margin is illegible.
+
+## Completeness Audit
+The transcription is a complete and accurate representation of all text and marginalia on the page.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only typed text and minor handwritten marginalia, with no significant images, illustrations, or photographs that would warrant creating a separate visual region."
+}
+```

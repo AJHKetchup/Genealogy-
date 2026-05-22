@@ -1,0 +1,81 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-dd6d91604b9b-P0012-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175.codex.md
+converted_sha256: dd6d91604b9baf77d52fe019c857cc8826687386e0e4c1bf41d5400e1cec8cef
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/manifest.json
+page_start: 12
+page_end: 12
+part: 1
+---
+
+## Page Metadata
+Page number: 162
+Source publication: S519bis-26-4
+Document title: [Unknown, likely a report or historical account]
+
+## Layout And Reading Order
+The page presents a single column of text. At the top, centered, is the page number "-39-". Below this, the content consists of several paragraphs, with two distinct headings: "Emisiones de sellos.—" and "CONCLUSION", both centered. The text flows continuously from top to bottom.
+
+## Literal Transcription
+
+<center>-39-</center>
+
+tivo, de fecha 28 de noviembre del año 1914, sobre concesión de
+franquicia postal a los periódicos nacionales, se reglamentó el uso
+de esta concesión, exceptuando de ella a los periódicos que se de-
+dican a anuncios o al fomento de empresas particulares de ca-
+rácter mercantil o industrial.
+
+<center>Emisiones de sellos.—</center>
+A principios de octubre el Congreso,
+por una ley derogatoria de la No. 40, ordenó la emisión de sellos
+postales con mi vera efigie al rehusar yo, por consideraciones de
+delicadeza personal, expedir dentro de mi capacidad el decreto de
+emisión correspondiente, teniendo, pues, que intervenir una ley
+de obligatoria promulgación para hacer viable el inmerecido ho-
+menaje con que mis amigos festejaron mi natalicio.
+
+También se hizo otra emisión de sellos postales con motivo
+del centenario del nacimiento del insigne dominicano Fernando
+Arturo de Meriño, dispuesta por decreto del Poder Ejecutivo,
+expedido el 14 de noviembre, en atención a los méritos de quien
+fué honra y gloria del país en las Letras, en la vida pública y a
+la cabeza de la Iglesia Dominicana.
+
+<center>CONCLUSION</center>
+
+He aquí, Señores Representantes, el resumen de la labor ren-
+dida durante el año 1932 por el Poder Ejecutivo, cuya represen-
+tación asumo. Constituye una considerable suma de esfuerzos
+sin paralelo en los anales de la administración pública domini-
+na, si se tiene en cuenta que hubo de tocarme la época de más
+aguda crisis mundial de la historia, como consecuencia de la más
+grande guerra habida en el curso de los tiempos, con la agravan-
+te de los desastrosos efectos del más terrible huracán que ha a-
+zotado esta isla, y que, por la magnitud de los mismos, no pudie-
+ron conjurarse del todo en el año 1931.
+
+No parecía sino que, con tales inconvenientes, casi imposi-
+ble iba a serle al Gobierno cubrir en el año sus obligaciones finan-
+cieras; pero contra todos los obstáculos hube de oponer nuevas
+y mayores economías en los servicios públicos; la intensificación
+del trabajo de los empleados, que podía hacerse sin perjuicio de
+los mismos; la escrupulosa recaudación de fondos y su racional
+aplicación a las más urgentes necesidades del pueblo; la adop-
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page. The page number "-39-" is centered at the top.
+
+## Uncertain Or Illegible
+No uncertain or illegible text was encountered.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page contains only text."}
+```

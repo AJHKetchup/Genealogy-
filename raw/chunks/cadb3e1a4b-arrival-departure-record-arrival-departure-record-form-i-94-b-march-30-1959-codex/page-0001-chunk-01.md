@@ -11,16 +11,6 @@ page_end: 1
 part: 1
 ---
 
-# Arrival-Departure Record, Form I-94 B, March 30, 1959
-
-## Conversion Metadata
-
-- Source: `raw/sources/Arrival-Departure Record, Form I-94 B, March 30, 1959.png`
-- Source SHA-256: `db3e1a4b10817e6fda3e3ece8f55d0717d2806c802660cb9d3e4366affff6d1a`
-- Manifest: `raw/codex-conversion-jobs/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959/manifest.json`
-- Conversion method: Codex local vision workbench
-- Extracted images: `raw/codex-conversion-jobs/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959/extracted-images`
-
 ## Page Metadata
 - Task id: `source-prep:cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959:p0001`
 

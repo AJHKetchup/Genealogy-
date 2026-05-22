@@ -1,0 +1,116 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-3f469b56e502-P0005-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md
+converted_sha256: 3f469b56e5024d7d0328377f23de9b911d9cfe6353b581c4f564b96ca15981f2
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json
+page_start: 5
+page_end: 5
+part: 1
+---
+
+## Page Metadata
+- Task id: `source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25:p0005`
+- Model route: `pro`
+- Route reasons: complex_quality_flags, pdf_profile_complex
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/work-orders/page-0005.md`
+- Page: 5
+- Output Markdown target: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/page-markdown/page-0005.md`
+- External research relevance: ``
+- External requested treatment: ``
+- External relevance reasons: none
+- Recommended action: `gemini_fallback`
+- Quality flags: none
+- Technical reread clues: none
+
+## Layout And Reading Order
+The page is the cover of a government publication. The reading order is from top to bottom.
+1. A handwritten number at the top center.
+2. The main title block, which includes the series number, title, and parties involved.
+3. A purple rectangular stamp on the right side, partially overlapping the title block.
+4. A block of text detailing the signing and ratification dates.
+5. The seal of the U.S. Department of State in the center.
+6. Publication information at the bottom.
+7. A footer with sales information.
+
+## Literal Transcription
+[Handwritten at top center]
+50 /5509/5509
+
+[Printed text within a double-lined border]
+TREATY SERIES, No. 846
+
+PRISONERS OF WAR
+—
+CONVENTION
+BETWEEN THE UNITED STATES OF AMERICA
+AND OTHER POWERS
+—
+
+Signed at Geneva, July 27, 1929.
+Ratification advised by the Senate of the United States, January 7,
+1932.
+Ratified by the President of the United States, January 16, 1932.
+Ratification of the United States of America deposited with the
+Government of Switzerland, February 4, 1932.
+Proclaimed by the President of the United States, August 4, 1932.
+
+[Seal of the U.S. Department of State]
+
+UNITED STATES
+GOVERNMENT PRINTING OFFICE
+WASHINGTON : 1932
+
+[Printed text below the main border]
+For sale by the Superintendent of Documents, Washington, D. C. - - - - - Price 10 cents
+
+[Purple rectangular stamp on the right side, partially overlapping the title block. A faint word "COPY" is stamped diagonally over "RECEIVED IN".]
+RECEIVED IN
+REGISTRY
+19 NOV 1932
+—
+
+## Images, Captions, And Visual Notes
+- **[Seal of the U.S. Department of State]** A circular seal is located in the center of the page. It features an eagle with a shield, holding an olive branch and arrows. The text around the perimeter reads "DEPARTMENT OF STATE * UNITED STATES OF AMERICA *".
+- The page is the cover of a publication titled "TREATY SERIES, No. 846", concerning a convention on Prisoners of War.
+- There is a handwritten number `50 /5509/5509` at the top of the page.
+- A purple rectangular stamp is on the right side, indicating the document was received by the registry on "19 NOV 1932". A faint word "COPY" is also visible on the stamp.
+- A single hole punch is present in the top left corner.
+
+## Uncertain Or Illegible
+- The word "COPY" on the purple stamp is very faint and stamped over other text, making it slightly difficult to read.
+
+## Completeness Audit
+This page has been fully transcribed and all visual elements have been described.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "vr-01",
+      "kind": "seal",
+      "bbox_pct": [
+        38.5,
+        53.5,
+        61.5,
+        67.5
+      ],
+      "caption_literal": "DEPARTMENT OF STATE * UNITED STATES OF AMERICA *",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "page",
+      "confidence": "high",
+      "suggested_filename": "us-department-of-state-seal-p0005.jpg",
+      "inline_anchor": "[Seal of the U.S. Department of State]"
+    }
+  ],
+  "no_visual_regions_reason": null
+}
+```
+
+# Page 6

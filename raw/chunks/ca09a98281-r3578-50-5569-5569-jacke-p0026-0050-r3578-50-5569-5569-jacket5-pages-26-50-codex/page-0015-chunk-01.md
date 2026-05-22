@@ -1,0 +1,101 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-3f28df59cd69-P0015-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50.codex.md
+converted_sha256: 3f28df59cd6992e8a93bb3e1a27ff5409fa48041ac894161f727b3475eaf3fd0
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50/manifest.json
+page_start: 15
+page_end: 15
+part: 1
+---
+
+## Page Metadata
+
+- Page number: 35
+
+## Layout And Reading Order
+
+This page is a single column of printed text. The page number "35" is centered at the top. The text lists representatives from various countries. A circular hole punch mark is visible in the left margin. The reading order is top to bottom.
+
+## Literal Transcription
+
+35
+
+THE PRESIDENT OF THE UNITED STATES OF AMERICA:
+The Honorable Eliot Wadsworth, former Assistant Secretary of
+the Treasury;
+His Excellency the Honorable Hugh R. Wilson, Envoy Extraor-
+dinary and Minister Plenipotentiary of the United States of America
+at Berne;
+
+THE FEDERAL PRESIDENT OF THE REPUBLIC OF AUSTRIA:
+Herr Marc Leitmaier, Doctor of Laws, Ministerial Counselor at the
+Federal Chancellery, Department of Foreign Affairs;
+
+HIS MAJESTY THE KING OF THE BELGIANS:
+M. Paul Demolder, Surgeon General, Chief of the Medical Corps of
+the First Military District,
+M. Joseph de Ruelle, Counselor of the Ministry of Foreign Affairs;
+
+THE PRESIDENT OF THE REPUBLIC OF BOLIVIA:
+His Excellency Sr. Alberto Cortadellas, Minister Resident of
+Bolivia at Berne;
+
+THE PRESIDENT OF THE REPUBLIC OF THE UNITED STATES OF BRAZIL:
+His Excellency Sr. Raoul de Rio-Branco, Envoy Extraordinary and
+Minister Plenipotentiary of Brazil at Berne;
+
+HIS MAJESTY THE KING OF GREAT BRITAIN, IRELAND AND THE BRITISH
+DOMINIONS BEYOND THE SEAS, EMPEROR OF INDIA:
+FOR GREAT BRITAIN AND NORTHERN IRELAND AND ALL PARTS OF
+THE BRITISH EMPIRE WHICH ARE NOT SEPARATE MEMBERS OF
+THE LEAGUE OF NATIONS:
+The Right Honorable Sir Horace Rumbold, G.C.M.G., M.V.O.,
+Ambassador of His Britannic Majesty at Berlin;
+
+FOR THE DOMINION OF CANADA:
+Mr. Walter Alexander Riddell, Permanent Counselor of the Cana-
+dian Government to the League of Nations;
+
+FOR THE COMMONWEALTH OF AUSTRALIA:
+His Excellency Mr. Claud Russell, Envoy Extraordinary and
+Minister Plenipotentiary of His Britannic Majesty at Berne;
+
+FOR THE DOMINION OF NEW ZEALAND:
+His Excellency Mr. Claud Russell, Envoy Extraordinary and
+Minister Plenipotentiary of His Britannic Majesty at Berne;
+
+FOR THE UNION OF SOUTH AFRICA:
+Mr. Eric Hendrik Louw, High Commissioner of the Union of South
+Africa at London;
+
+FOR THE IRISH FREE STATE:
+Mr. Sean Lester, Representative of the Irish Free State to the
+League of Nations;
+
+FOR INDIA:
+His Excellency Mr. Claud Russell, Envoy Extraordinary and
+Minister Plenipotentiary of His Britannic Majesty at Berne;
+
+## Images, Captions, And Visual Notes
+
+There are no images, illustrations, or photographs on this page. A circular hole punch mark is present in the left margin.
+
+## Uncertain Or Illegible
+
+There are no uncertain or illegible words on this page.
+
+## Completeness Audit
+
+This page has been transcribed in its entirety.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page contains only typed text and a page number."
+}
+```

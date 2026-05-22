@@ -11,270 +11,87 @@ page_end: 10
 part: 1
 ---
 
-# Page 10
-
-## Page Metadata
-
-- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
-- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
-- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/manifest.json`
-- Source page: 10
-- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-images/page-0010.jpg`
-- Conversion method: Docling basic conversion
-- Docling readability status: `rough_ok`
-- Docling readability flags: none
-- Extracted picture images: 0
-
-## Layout And Reading Order
-
-Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
-
-## Literal Transcription
-
-```markdown
-Que la Naciôn ha orientado su acciôn continuamente dentro de ese pensamiento fundamental de Gobierno al acordar subsidios para la construcciôn de puentes y caminos en las provincias, siendo también el que informa la disposiciôn del articulo 89 de la Ley N9 5315, que dedica la contribuciôn del 3 % pagada por las empresas ferroviarias a la construcciôn y mantenimiento de puentes y caminos ordinarios de los departamentos y municipios cruzados por las lineas férreas;
-
-## Y considerando :
-
-Que la construcciôn de una red de caminos pavimentados en las condiciones y extension requeridos para servir eficazmente las necesidades de la production agricola, demandarîa la inversion de ingentes sumas de dinero, la ocupaciôn de numerosos brazos que se sustraerian al trabajo y producciôn nacional en sus diversas manifestaciones y una labor de largo tiempo;
-
-Que, en consecuencia, la construcciôn de tal red de caminos constituye una obra que por ahora las provincias y municipios nô estân en condiciones de afrontar, ni aun con la ayuda de la Naciôn, aparté de que no ofreceria una soluciôn inmediata a las dificultades que obstaculizan la intensificaciôn de la producciôn y la obtenciôn de mayores utilidades por los agricultores ;
-
-Que los propôsitos enunciados se podrian obtener desde luego, con la construcciôn y explotaciôn por las municipalidades, empresarios particulares y empresas ferro¬ viarias existentes, de servicios de transportes locales, del sistema llamado 'Decauville', que aparté de no presentar los inconvenientes de los vehîculos pesados, destructores constantes de los caminos, permitirian el mâs râpido y econômico trans¬ porte de los productos agricolas, hasta las estaciones ferroviarias o los pueblos que constituyan centros locales de consumo ;
-
-## El Poder Ejecutivo de la Naciôn-
-
-## Décréta :
-
-Articulo 19 - Autorizase con carâcter precario a las Municipalidades, em¬ presas o personas particulares y empresas ferroviarias que hubieren construido lineas de transportes 'Decauville', a penetrar con ellas, extenderlas y liacer correr sus vehîculos dentro de las zonas de vias y terrenos de estacion de los ferrocarriles de jurisdicciôn nacional y muelles y zonas portuarias, bajo las si-
-
-guientes condiciones:
-
-- a) Haberse puesto de acuerdo el propietario o concesionario de la linea 'Decauville', con la empresa ferroviaria, el propietario o concesionario del Puerto o muelle, o las autoridades portuarias en los de propiedad del Estado, sobre la ubicaciôn y recorrido de la' linea, y la forma y condi¬ ciones de su construcciôn y funcionamiento, siendo entendido que en ningûn caso, la empresa ferroviaria o portuaria estarâ obligada a modificar sus instalaciones para hacer posible el acceso de la linea 'Decauville' ni a incurrir con gastos a su cargo como consecuencia del mismo;
-- b) Presentar a la Direcciôn General de Ferrocarriles el piano de la secciôn de linea a correr por terrenos o zonas sometidas a la jurisdicciôn nacional, con el conforme de la empresa ferroviaria o portuaria, o propietario del muelle, o autoridad portuaria, segun el caso.
-
-Art. 2. - Cuando la linea 'Decauville' no deba cruzar vias férreas ni correr por zona conceptuada peligrosa por la empresa ferroviaria o portuaria, por el propietario del muelle o la autoridad portuaria en su caso, la construcciôn y explo¬ taciôn de la obra se podrâ efectuar inmediatamente de presentado el piano a la Direcciôn General de Ferrocarriles; en caso contrario, no se podrâ construir el cruce o la parte de recorrido por zona conceptuada peligrosa sin la previa aprobaciôn del piano por la Direcciôn General de Ferrocarriles.
-```
-
-## Images, Captions, And Visual Notes
-
-- No Docling picture regions were detected for this page.
-
-## Translation
-
-No translation was produced by the Docling basic conversion pass.
-
-## Interpretation
-
-No interpretation was produced by the Docling basic conversion pass.
-
-## Uncertain Or Illegible
-
-- Automated readability flags: none
-- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
-
-## Extracted Genealogy Leads
-
-- No genealogy leads were asserted by the Docling basic conversion pass.
-
-## Completeness Audit
-
-- Basic Docling conversion completed for this page.
-- Rendered page image link recorded.
-- Extracted picture image count: 0.
-- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-- **Page number**: 11
-- **Source**: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
-- **Task ID**: `source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0011`
-
-## Layout And Reading Order
-This page contains a single column of text. The text begins with a centered page number, followed by several articles of a decree or law. Text from the previous page is visible along the left margin. The reading order is as follows:
-
-1.  **Left Margin Text**: A column of partial words from the previous page, running down the left edge.
-2.  **Main Text Block**: The main content of the page, starting with the page number at the top center.
-
-## Literal Transcription
-```markdown
-***
-<aside class="marginalia-left">
-to
-a-
-as
-os
-
-y
-ri-
-u-
-as
-
-ra
-ni
-ta
-ón
-
-ón
-ro-
-u-
-es-
-as-
-ne
-
-m-
-do
-er
-os
-si-
-
-e-
-el
-el
-li-
-n-
-ar
-ni
-
-on
-al,
-el
-
-er
-el
-o-
-la
-el
-o-
-</aside>
-***
-
-— 7 —
-
-Art. 3º—Dentro de los terrenos o zonas sometidas a la jurisdicción nacional,
-las líneas ‘’Decauville’’ podrán funcionar a tracción eléctrica, mecánica o a sangre,
-no pudiendo exceder la velocidad de diez kilómetros por hora en los terrenos de
-estaciones y puertos.
-
-Art. 4º — Diríjase nota a los Gobiernos de Provincia, incitándolos a favo-
-recer la construcción de líneas de transporte del sistema ‘’Decauville’’, por medio
-de permisos para la utilización de las calles públicas que por su naturaleza lo per-
-mitan, y la liberación de impuestos provinciales y municipales, si los interesados
-lo solicitaren.
-
-Art. 5º — En caso de que las empresas ferroviarias de jurisdicción nacional,
-construyeran líneas ‘’Decauville’’, su construcción y explotación serán totalmente
-independientes de la explotación de la línea férrea nacional y su costo no podrá
-ser incluído en el capital de la empresa respectiva.
-
-Art. 6. — Comuníquese, etc. — IRIGOYEN. — P. Torello.
-```
-
-## Images, Captions, And Visual Notes
-There are no images, illustrations, or other significant visual elements on this page.
-
-## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
-
-## Completeness Audit
-This page has been fully and accurately transcribed.
-
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text and standard page layout elements."
-}
-```
-
-## Page Metadata
-
-- **Page number**: 12
-- **Page number printed on page**: - 8 -
-- **Source language**: es
-- **Handwritten notes**: No
-- **Page quality**: High
-
-## Layout And Reading Order
-
-The page is a single column of printed text. The reading order is from top to bottom.
-
-1.  Page number `- 8 -` at the top center.
-2.  Title: `TÍTULO II`.
-3.  Subtitle: `Disposiciones relativas a los ferrocarriles nacionales`.
-4.  Chapter heading: `CAPÍTULO I`.
-5.  Section heading: `DE LA VÍA Y SU CONSERVACIÓN`.
-6.  An index-like list of articles from 5 to 11, with brief descriptions of their content.
-7.  The full text of Article 5 begins, followed by its first numbered clause.
-
-## Literal Transcription
-
-— 8 —
-
-TÍTULO II
-
-**Disposiciones relativas a los ferrocarriles nacionales**
-
-CAPÍTULO I
-
-DE LA VÍA Y SU CONSERVACIÓN
-
-Art. 5º — Deberes de las empresas:
-
-1º) Mantenimiento de la línea.
-2º) Conservación del tren rodante.
-3º) Telégrafo.
-4º) Iluminación de estaciones y pasos a nivel.
-5º) Servicio de barreras.
-6º) Agujas; cambios.
-7º) Cerrar la vía.
-8º) Barreras y guardaganados.
-9º) Tráfico en calles públicas.
-10.) Alcantarillas y obras de desagüe.
-
-Art. 6º — Trabajos obligatorios para la libre circulación.
-Art. 7º — Reconocimiento del tren rodante.
-Art. 8º — Reconocimiento del material fijo y móvil.
-Art. 9º — Arbitros técnicos.
-Art. 10. — Uniformidad del material.
-Art. 11. — Empleados que atiendan al servicio.
-
-Art. 5º — Son deberes de toda empresa o dirección de fe-
-rrocarril nacional, desde que se abre la línea al servicio pú-
-blico:
-
-1º Mantener siempre el camino en buen estado, de modo
-que pueda ser recorrido sin peligro por los trenes; y
-cuidar, por consiguiente, de la inmediata reparación de
-todos los deterioros que sufriere y de la remoción de
-todos los obstáculos que impidieren el uso regular de la
-vía, debiendo entenderse la misma prescripción respecto
-de los almacenes, depósitos y demás accesorios del ca-
-mino.
-
-## Images, Captions, And Visual Notes
-
-This page contains only text. There are no images, illustrations, or other visual elements.
-
-## Uncertain Or Illegible
-
-There are no uncertain or illegible parts of this page.
-
-## Completeness Audit
-
-This page has been transcribed in its entirety.
-
-## Visual Region Manifest
-
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "This page consists entirely of printed text and contains no images, illustrations, or other visual elements that would be useful as standalone assets."
-}
-```
-
 ## Page Metadata
 - Page number: 13
 - Document page number: 9
 
 ## Layout And Reading Order
 The page contains a single column of printed text. The reading order is top to bottom. At the top center is the document page number "— 9 —". The main text consists of a numbered list (items 2º through 10º) followed by an article (Art. 6º). Along the far left edge, there are partial words from the preceding page, which are transcribed as marginalia.
+
+## Literal Transcription
+```text
+— 9 —
+
+2º Conservar en buen estado el tren rodante que será de
+calidad y cantidad suficiente para suplir a las necesidades del camino, en relación con la actividad ordinaria
+de las comunicaciones entre los diversos pueblos que
+ligare, debiendo sujetarse, en cuanto a la construcción
+de la vía y tren rodante, a los tipos establecidos por el
+Poder Ejecutivo en los respectivos reglamentos.
+
+3º Establecer telégrafos eléctricos y mantenerlos corrientes
+en toda la extensión del camino, para el servicio del
+mismo.
+
+4º Iluminar las estaciones y pasos a nivel desde la puesta
+del sol hasta la llegada del último tren.
+
+5º Establecer la guardia y el servicio de las barreras en
+los pasos a nivel.
+
+6º Asegurar la vigilancia y oportuna maniobra de las
+agujas, en los cambios y cruzamientos de vía.
+
+7º Cerrar el camino en los lugares y en la extensión que
+se determine por el Poder Ejecutivo.
+
+8º Establecer barreras o guardaganados en todos los puntos
+en que los ferrocarriles cruzasen los caminos o calles
+públicas a nivel. Estas barreras deberán cerrarse a la
+aproximación de cada tren, abriéndose después que haya
+pasado para dejar expedito el tráfico.
+
+9º Hacer los trabajos necesarios para dejar expedito el
+tráfico, en las calles o caminos públicos que atravesare
+el ferrocarril.
+
+10º Construir las alcantarillas y obras necesarias para dejar
+libre el desagüe de los terrenos linderos.
+
+Art. 6º — Sin perjuicio de las responsabilidades penales, las
+empresas están obligadas a ejecutar los trabajos necesarios
+para poner la vía en las condiciones del artículo anterior, dentro del término que la Dirección de Ferrocarriles determine;
+pero en caso de urgencia, y cuando aquéllas no diesen cumplimiento a lo ordenado, esta Dirección procederá a la inmediata ejecución de esos trabajos, a costa de la empresa respectiva.
+
+```
+***
+**Marginalia**
+```text
+[Text along the left edge, from the previous page]
+fe-
+pú-
+odo
+y
+de
+de
+la
+cto
+ca-
+```
+
+## Images, Captions, And Visual Notes
+- There is a small, handwritten diagonal mark in the right margin, level with the line beginning "Art. 6º".
+
+## Uncertain Or Illegible
+There are no uncertain or illegible portions of this page.
+
+## Completeness Audit
+This page is fully transcribed.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only printed text and a minor handwritten mark, with no significant visual elements like photographs, illustrations, or maps that would warrant cropping."
+}
+```

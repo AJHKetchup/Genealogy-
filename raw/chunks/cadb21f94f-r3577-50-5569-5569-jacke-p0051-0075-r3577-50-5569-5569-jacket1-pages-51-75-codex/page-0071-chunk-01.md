@@ -11,8 +11,6 @@ page_end: 71
 part: 1
 ---
 
-# Page 71
-
 ## Page Metadata
 
 - Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
@@ -92,38 +90,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page Number: 72
-
-## Layout And Reading Order
-The page contains a single column of text, primarily a legal or regulatory document in French. It includes a page number at the top, followed by a chapter title, an article number, and then the main body of the article.
-
-## Literal Transcription
-```
-                                                                — 17 —
-
-                                Chapitre 3. De la nourriture et de l'habillement des prisonniers.
-
-                                                                ARTICLE 14.
-
-                Les prisonniers de guerre devront recevoir, deux fois par jour au moins, une nourriture suffisante et répondant à
-        leurs besoins. Ils recevront, par surcroît, les moyens de préparer eux-mêmes, le cas échéant, leurs vivres personnels. De
-        l'eau potable en suffisance sera mise à leur disposition. L'usage du tabac sera autorisé.
-                Des prisonniers seront employés aux cuisines.
-                Les mesures disciplinaires collectives portant sur la nourriture sont interdites.
-```
-
-## Images, Captions, And Visual Notes
-This page contains no images or captions.
-
-## Uncertain Or Illegible
-None. The text is clear and legible.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content such as images, maps, or diagrams that would require cropping. It is a text-only page."}
-```

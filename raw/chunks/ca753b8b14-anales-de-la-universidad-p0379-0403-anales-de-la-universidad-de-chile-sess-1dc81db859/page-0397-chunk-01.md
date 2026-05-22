@@ -11,8 +11,6 @@ page_end: 397
 part: 1
 ---
 
-# Page 397
-
 ## Page Metadata
 
 - Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
@@ -78,12 +76,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-- Page number: 398
-- Source publication: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- Source page range: 379-403
-
-## Layout And Reading Order
-
-The page has a running header at the top with the page number on the left and the publication title on the right. Below this, there is a section number, followed by a bolded section title. The main content is a single column of justified text, followed by two footnotes at the bottom, separated by a horizontal line.

@@ -1,0 +1,44 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b30d17c4b45e-P0024-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50.codex.md
+converted_sha256: b30d17c4b45e99bf3f42ea292fcbfbbb354e164459ad07e73e7b0e3dc6c53771
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50/manifest.json
+page_start: 24
+page_end: 24
+part: 1
+---
+
+## Page Metadata
+Page number: 49
+
+## Layout And Reading Order
+The page contains a centered page number at the top, followed by a paragraph of text. Below this, there are faint, illegible lines of text. A hole punch is present in the top-left margin.
+
+## Literal Transcription
+```
+- 9 -
+
+y, finalmente, con un reporte de pren-
+sa anunciando que será presentada a
+las Cortes Constituyentes españolas
+una proposición que «llega a reconocer
+plenitud de derechos políticos a los
+hispanoamericanos».
+
+[illegible faint text, multiple lines]
+```
+
+## Images, Captions, And Visual Notes
+- A hole punch is visible in the top-left corner of the page.
+
+## Uncertain Or Illegible
+The lower two-thirds of the page contain very faint, ghosted, or bleed-through text that is entirely illegible. It appears to be multiple lines of text, but no words or characters can be discerned.
+
+## Completeness Audit
+All legible text on the page has been transcribed. The presence of illegible text and the hole punch have been noted.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content present for cropping."}

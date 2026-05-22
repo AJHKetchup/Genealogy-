@@ -1,0 +1,82 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7380acf0b709-P0022-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket5-pages-101-125.codex.md
+converted_sha256: 7380acf0b7095017754d9d5c725852e8b4c6034b96e46b8687621a49a195f1c7
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket5-pages-101-125/manifest.json
+page_start: 22
+page_end: 22
+part: 1
+---
+
+## Page Metadata
+Page number: 122
+
+## Layout And Reading Order
+The page contains a single column of text, primarily legal or treaty articles, in French. There are page numbers at the top left (514) and top right (58). The text is structured with paragraphs, centered titles (TITRE V, TITRE VI), and centered article numbers (Article 76, Article 77).
+
+## Literal Transcription
+514
+concernant le rapatriement des prisonniers de guerre. Si des
+stipulations à cet égard n'ont pas pu être insérées dans cette
+convention, les belligérants se mettront néanmoins, le plus tôt
+possible, en rapport à cet effet. Dans tous les cas, le rapatrie-
+ment des prisonniers s'effectuera dans le plus bref délai après
+la conclusion de la paix.
+Les prisonniers de guerre qui seraient sous le coup d'une pour-
+suite pénale pour un crime ou un délit de droit commun pour-
+ront toutefois être retenus jusqu'à la fin de la procédure et,
+le cas échéant, jusqu'à l'expiration de la peine. Il en sera de
+même de ceux condamnés pour un crime ou délit de droit
+commun.
+D'entente entre les belligérants, des commissions pourront
+être instituées dans le but de rechercher les prisonniers dispersés
+et d'assurer leur rapatriement.
+
+TITRE V.
+
+Du décès des prisonniers de guerre.
+
+Article 76.
+
+Les testaments des prisonniers de guerre seront reçus et dres-
+sés dans les mêmes conditions que pour les militaires de l'armée
+nationale.
+On suivra également les mêmes règles en ce qui concerne les
+pièces relatives à la constatation des décès.
+Les belligérants veilleront à ce que les prisonniers de guerre
+décédés en captivité soient enterrés honorablement et à ce que
+les tombes portent toutes indications utiles, soient respectées
+et convenablement entretenues.
+
+TITRE VI.
+
+Des bureaux de secours et de renseignements concernant
+les prisonniers de guerre.
+
+Article 77.
+
+Dès le début des hostilités, chacune des Puissances belligé-
+rantes, ainsi que les Puissances neutres qui auront recueilli des
+belligérants, constitueront un bureau officiel de renseignements
+sur les prisonniers de guerre se trouvant sur leur territoire.
+
+58
+
+## Images, Captions, And Visual Notes
+There are no images or substantial visual elements on this page that require cropping.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
+```
+
+# Page 123

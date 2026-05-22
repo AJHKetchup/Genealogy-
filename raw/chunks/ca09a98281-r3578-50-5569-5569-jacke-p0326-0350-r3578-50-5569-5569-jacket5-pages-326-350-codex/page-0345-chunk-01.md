@@ -11,8 +11,6 @@ page_end: 345
 part: 1
 ---
 
-# Page 345
-
 ## Page Metadata
 
 - Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
@@ -32,7 +30,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## Artikel 36.
 
 ■ Elk der oorlogvoerenden zal op gezette tijden hot aantal brieven en briefkaarten vaststellen, dat de krijgsgevangenen van de verschillende categorieen per maand zullen mogen verzenden en zal dit aantal aan den anderen oorlogvoerende mededeelen. Deze brieven en briefkaarten zullen door de post langs den kortsten weg worden overgebracht. Zij zullen noch kunnen worden vertraagd noch kunnen worden achtergehouden uit over-
@@ -89,10 +86,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 346
-Source page numbers: 123, 514
-
-## Layout And Reading Order
-The page contains a single column of text, primarily consisting of numbered articles and their paragraphs, along with section and chapter headings. The page numbers "123" and "514" are present at the top left and top right, respectively.

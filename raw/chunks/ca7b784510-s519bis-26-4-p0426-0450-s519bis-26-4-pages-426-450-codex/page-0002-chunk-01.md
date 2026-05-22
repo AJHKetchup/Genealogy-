@@ -1,0 +1,56 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f6f40978bbb9-P0002-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450.codex.md
+converted_sha256: f6f40978bbb9d5e286a230feaa3a9fc15a422c321902e8f52dc289dbb221bd63
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/manifest.json
+page_start: 2
+page_end: 2
+part: 1
+---
+
+## Page Metadata
+Page number: 427
+
+## Layout And Reading Order
+The page contains a typewritten letter. The date and location are right-aligned at the top. The recipient's address is centered below that. The salutation and body of the letter are left-aligned.
+
+## Literal Transcription
+```
+GINEBRA, 5 de Noviembre 1930.
+
+Sr. D. Pablo A. Pizzurno
+11 de Septiembre 1300
+BUENOS AIRES
+
+Mi estimado amigo:
+
+Acabo de recibir sus líneas de Octubre 5, que lle-
+garon a mis manos casi al mismo tiempo que la noticia de
+su renuncia al puesto que ocupaba en el Consejo Nacional
+de Educación.
+
+No conozco las causas de su decisión que mucho la-
+mento y hasta poder estar en contacto personalmente con
+Vd. en ésa sería quizás inoportuno hacer la gestión que
+Vd. me sugiere con respecto al manual y al Presidente
+del Consejo Nacional de Educación.
+
+Espero pues conversar con Vd. a principios de Di-
+ciembre en ésa y entretanto le ruego acepte las segurida-
+des de mi amistad y consideración.
+```
+
+## Images, Captions, And Visual Notes
+There are no images, captions, or significant visual notes on this page. The two dark circular marks on the left margin appear to be binder holes or similar page artifacts, not part of the document content.
+
+## Uncertain Or Illegible
+No uncertain or illegible text was found on this page.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and minor page artifacts (binder holes) that are not meaningful visual evidence for cropping."}

@@ -1,0 +1,67 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-73b90eb6c597-P0020-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703.codex.md
+converted_sha256: 73b90eb6c5972b667500121db5da319b8e7537ee79d33adfdae519c91ebb5487
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json
+page_start: 20
+page_end: 20
+part: 1
+---
+
+## Page Metadata
+Page number: 628
+Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+## Layout And Reading Order
+The page consists of a single column of text, with a running header at the top. The text is organized into several paragraphs.
+
+## Literal Transcription
+cion de los proyectos para la mejora de sus puertos, sal-
+vara estas dificultades protejiendo el cabotaje nacional
+e imponiendo a los vapores chilenos iguales gravámenes
+que a los trasatlánticos ingleses i alemanes, cargas que
+naturalmente aquéllos no podian soportar.
+Mató con estas medidas las carreras periódicas de bar-
+cos chilenos, algunos de los cuales cambiaron su matrí-
+cula i bandera para hacerse arjentinos.
+La guerra interrumpió casi completamente el tránsito
+de vapores ingleses i en absoluto el de los alemanes.
+I por último, la apertura del Canal de Panamá ha
+desviado por aquella via el tráfico que ántes se hacia
+por el estrecho hácia el Pacífico, contribuyendo tambien
+a disminuir las entradas i facilidades de esportar e im-
+portar al comercio e industrias magallánicas.
+Ya he descrito la importancia que cada dia adquieren
+las rejiones arjentinas merced al capital chileno emigra-
+do de Punta Arenas. Sus puertos, constituidos por cua-
+tro o cinco casas ántes de la creacion de la Aduana en
+Punta Arenas, son hoi grandes ciudades en formacion
+con todos los servicios modernos.
+No obstante, los dichos puertos son mui bajos, incon-
+venientes que detendrán aun durante algunos años la
+muerte de Punta Arenas.
+El servicio de vapores por otra parte que hai entre
+Punta Arenas i los puertos arjentinos, i el mismo servi-
+cio a los del pais no admite comparacion.
+Para atender al primero existe la flota de la casa Me-
+néndez, compuesta de buques de gran tonelaje i apro-
+piados para entrar en los puertos arjentinos (son planos
+de quilla, lo que les permite vararse en la arena i efec-
+tuar cómodamente la carga i descarga).
+
+## Images, Captions, And Visual Notes
+The page contains no images or captions.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
+```

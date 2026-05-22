@@ -1,0 +1,54 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-843936b5e4dc-P0203-01
+source_converted: raw/converted/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225.codex.md
+converted_sha256: 843936b5e4dc8e07eee28c9615e471b4a4189fec83546269c213c5cc4cbf0960
+source: raw/sources/S179-34-6.pdf
+source_sha256: 5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054
+source_manifest: raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225/manifest.json
+page_start: 203
+page_end: 203
+part: 1
+---
+
+## Page Metadata
+- Page: 203
+
+## Layout And Reading Order
+This page contains a single, centered block of typewritten text. A handwritten number, `#30`, is in the top left corner. At the bottom of the page, there is very faint, upside-down handwriting, which appears to be bleed-through or an impression from another document. The reading order is from the handwritten number at the top to the typewritten block in the center.
+
+## Literal Transcription
+```text
+#30
+
+(Montevideo, #5)
+
+     Sr. Ferrando complained of the lack of cooperation between
+governments in Europe and America in the exchange of information re-
+garding the notorious traffickers. He mentioned that as a result of
+the South American Police Conference and agreement of the South
+American Police authorities, they are now furnishing each other with
+information about dangerous characters; he said, however, that not
+much is being done in exchanging information about traffickers.
+     He promised to answer any questions that Major m[?]g[?]z
+Johnson might ask later.
+                         - - - - -xxx- - - - - -
+
+[illegible handwriting, possibly bleed-through from another page]
+```
+
+## Images, Captions, And Visual Notes
+- A handwritten number, `#30`, is located in the upper left corner of the page.
+- At the bottom of the page, there is very faint, upside-down, and possibly mirrored handwriting. It appears to be an impression or bleed-through from another document and is not part of the primary text on this page.
+
+## Uncertain Or Illegible
+- **m[?]g[?]z**: This word, appearing after "Major" and before "Johnson", is poorly typed and difficult to decipher. It may be a middle name, an initial, or a garbled word.
+- **[illegible handwriting, possibly bleed-through from another page]**: The faint text at the bottom of the page is illegible.
+
+## Completeness Audit
+This page has been transcribed in its entirety.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only a block of text and minor marginalia, with no significant images, illustrations, or diagrams that would warrant cropping as standalone visual assets."}
+```

@@ -1,0 +1,87 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-c2e7d7b1d241-P0014-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0226-0250-r3016-11a-2905-950-pages-226-250.codex.md
+converted_sha256: c2e7d7b1d24120a12e5a8e1b0819b0eb784975687d2a6e2c67d91a3325efabe3
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0226-0250-r3016-11a-2905-950-pages-226-250/manifest.json
+page_start: 14
+page_end: 14
+part: 1
+---
+
+## Page Metadata
+Page: 239
+
+## Layout And Reading Order
+The page presents a single column of text, primarily consisting of transcribed dialogue from a meeting, interspersed with a heading and quoted text. The content flows from top to bottom. A page number is centered at the bottom.
+
+## Literal Transcription
+ments afin d'être à même d'interpréter leurs instructions à la lumière de la nouvelle
+situation devant laquelle ils se trouvent en ce moment.
+    J'ai été chargé par mes collègues des quatre Croix-Rouges scandinaves de parler en
+leur nom. Je saisis cette occasion pour les remercier de cette grande marque de confiance
+et de courtoisie.
+    Ce que j'ai à faire, c'est donc de demander simplement un certain nombre de ren-
+seignements et d'éclaircissements sur des points qui pourront à d'aucuns apparaître comme
+des points de détail mais qui, à notre avis, affectent des questions d'une importance de
+principe.
+    Si je demande des éclaircissements au nom de ces quatre Sociétés nationales, ce n'est
+pas dans un esprit de critique et de petitesse, c'est afin de pouvoir ratifier le mot qu'a
+dit tout à l'heure M. le Juge PAYNE quand il a exprimé l'espoir que le document que
+nous avons devant les yeux pourra être adopté à l'unanimité.
+    La conclusion pratique à laquelle j'aboutis est une proposition que je me permets de
+formuler, elle tend à ce que vous, M. le président, vouliez bien demander à la Commission
+s'il lui convient de procéder à une lecture article par article du texte dont nous sommes
+aujourd'hui saisis. Je crois en effet qu'il serait beaucoup plus simple et beaucoup plus
+compréhensible que j'aie l'occasion de formuler mes observations et de poser mes questions
+à l'occasion de chaque article, plutôt que de les présenter en bloc.
+    Je vous prie donc, M. le Président, si vous le trouvez utile, de bien vouloir poser
+cette question à la Commission.
+
+    **M. le Vice-Président Röell**: Je suis certain d'être l'interprète de la Commission
+en donnant satisfaction à la demande de M. HAMMARSKJÖLD. Vous pourrez présenter vos
+observations à chaque article.
+    Auparavant je dois poser à la Commission une question d'ordre. Il est maintenant
+16 heures 45. Voulez-vous commencer l'examen des premiers articles ou bien ajourner la
+séance jusqu'à demain, ou bien encore jusqu'après le thé? Dans ce dernier cas, nous
+pourrions nous réunir de nouveau à six heures.
+
+    **S. E. Ali Akbar Khan Bahman** (Perse): Nous avons encore un quart d'heure avant
+le thé; il me semble que nous pouvons commencer l'examen des premiers articles.
+
+    **M. le Vice-Président Röell**: Nous sommes d'accord. Nous décidons qu'à cinq
+heures la séance sera interrompue. Maintenant je prie M. HAMMARSKJÖLD de faire ses
+observations sur l'article I.
+
+ARTICLE I.
+
+    **M. Hammarskjöld** (Suède): M. le président, il ne s'agit point à cet article de demander
+quelque chose; nous désirons simplement savoir si nous avons bien compris une certaine
+expression se trouvant dans le texte primitif. Il s'agit du mot „délibérante".
+    Les Statuts de la Ligue prévoient à leur article IV:
+    „Each member of the League reserves to itself entire freedom of action at all times
+with reference to its own policies and activities."
+    et plus loin à l'article 7 nous lisons: „No authority shall rest in the League to commit
+or bind any member in any manner whatsoever without the Board of Governors having
+first received from such member its authority to do so."
+    Si je ne me trompe pas, dans le projet antérieur concernant l'unification de la Croix-
+Rouge internationale, des dispositions analogues ont été insérées afin de sauvegarder la
+liberté d'action et de décision des Sociétés nationales. Nous croyons bien interpréter le
+
+— 7 —
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
+
+# Page 240

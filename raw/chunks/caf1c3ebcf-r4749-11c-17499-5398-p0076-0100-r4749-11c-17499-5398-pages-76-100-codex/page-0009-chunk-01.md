@@ -1,0 +1,85 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e30e438b6d0c-P0009-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0076-0100-r4749-11c-17499-5398-pages-76-100.codex.md
+converted_sha256: e30e438b6d0cb10974849930f94d58ec7b7b54f8c190958de3f99de95e5f247c
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0076-0100-r4749-11c-17499-5398-pages-76-100/manifest.json
+page_start: 9
+page_end: 9
+part: 1
+---
+
+## Page Metadata
+Page number: 84
+
+## Layout And Reading Order
+The page contains a single column of typewritten text, primarily legal articles and definitions. There is a circular stamp with a handwritten signature on the left side of the page, overlapping some of the text margin. The text flows from top to bottom.
+
+## Literal Transcription
+− 15 −
+
+///
+
+el pago regular de los salarios que los guardadores o emplea
+dos deban abonar al menor como retribución de servicios o tra
+bajos.−
+
+Art. 43º− Se prohibe cualquier publicación en que apare
+ciere un menor como autor o cómplice de delito, o como víc−
+tima de delito comprendido en el título III del Código Penal
+o que pueda afectar su personalidad moral.− Los directores o
+propietarios de periódicos y los que en cualquier otra forma auto
+rizaren o hicieren esa publicidad serán pasibles de las penas
+de multa hasta la suma de $ 500 m/n., prisión hasta treinta
+días o ambas penas a la vez, sin perjuicio de ser denunciados
+por desobediencia a la autoridad en caso de continuar las cró
+nicas o referencias al hecho o al menor.−
+
+CAPITULO V
+
+Contravenciones a la presente ley
+
+Art. 44º− La autoridad judicial podrá imponer multas has
+ta la suma de $ 500 m/n., prisión hasta 30 días o ambas pe−
+nas a la vez:
+
+a) A los padres, tutores o guardadores que sean cul−
+pables por dolo o negligencia, de malos tratamientos, abando
+no material o moral, cuando los hechos no importen delitos;
+
+b) A los que infrigieren la obligación de abandonar
+pensión por alimentos;
+
+c) A las personas que, teniendo obligación de hacer
+
+///
+
+## Images, Captions, And Visual Notes
+A circular blue ink stamp is present on the left side of the page, partially overlapping the left margin of the text. The stamp reads "MINISTERIO DE RELACIONES EXTERIORES Y CULTO - REPUBLICA ARGENTINA". A handwritten signature in blue ink is visible over the stamp.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and significant visual elements have been transcribed or described.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "region_001",
+      "kind": "stamp",
+      "bbox_pct": [9.9, 71.7, 23.9, 84.9],
+      "caption_literal": "MINISTERIO DE RELACIONES EXTERIORES Y CULTO - REPUBLICA ARGENTINA",
+      "caption_type": "converter-description",
+      "identity_basis": "text-in-image",
+      "source_context": "A circular blue ink stamp with a handwritten signature over it.",
+      "confidence": 0.95,
+      "suggested_filename": "stamp_ministerio_relaciones_exteriores_culto_republica_argentina"
+    }
+  ]
+}
+```

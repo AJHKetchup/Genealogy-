@@ -11,8 +11,6 @@ page_end: 150
 part: 1
 ---
 
-# Page 150
-
 ## Page Metadata
 
 - Source: `raw/sources/R3578-50-5569-5569-Jacket4.pdf`

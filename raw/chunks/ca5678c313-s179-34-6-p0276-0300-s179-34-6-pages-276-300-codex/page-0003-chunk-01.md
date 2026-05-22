@@ -1,0 +1,69 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d1f1f1af2de7-P0003-01
+source_converted: raw/converted/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300.codex.md
+converted_sha256: d1f1f1af2de79f5b9fee0cffb8ebdb41d43a217e2eab31dff2c8c4a7cae306b0
+source: raw/sources/S179-34-6.pdf
+source_sha256: 5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054
+source_manifest: raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/manifest.json
+page_start: 3
+page_end: 3
+part: 1
+---
+
+## Page Metadata
+Page: 278
+
+## Layout And Reading Order
+The page consists of a single column of text. At the top center is a page number or section marker. The main body text is divided into several paragraphs, followed by a section heading, another paragraph, and a footnote at the bottom.
+
+## Literal Transcription
+— 17 —
+
+El virus sifilítico, encontrando un medio virgen, se
+habia hecho más intenso, y al entrar de nuevo en
+Europa en el siglo XVI se le tomó por un mal nuevo,
+y por eso se le llamó mal americano.
+
+Esto que ha pasado con la sífilis ha sucedido con
+muchas enfermedades que se atenúan en la locali-
+dad donde existen desde siglos, y de golpe se exacer-
+ban cuando invaden una localidad donde jamás se
+les ha conocido.
+
+De estas breves consideraciones debemos con-
+cluir que en todas partes y en todas las épocas la
+sífilis ha sido mirada como una enfermedad repug-
+nante, hasta el punto de que en algunos países se
+ponía una marca en sitio visible á los que la padecian,
+para que todos les huyeran, y en otros se les deste-
+rraba del territorio.
+
+Manifestaciones de la sífilis
+
+Una úlcera (llaga) que se presenta casi siempre
+en el frenillo (debajo del balano) después de veinte
+días de haber estado con una mujer enferma; que
+tiene el carácter de ser muy dura al tacto; que es
+profunda, porque come los tejidos con rapidez, es
+lo que se llama el chancro duro, sifilítico ó de Hun-
+ter (1), primera manifestación de la terrible enfer-
+medad de que nos vamos á ocupar.
+
+(1) Nombre del que lo descubrió.
+
+2
+
+## Images, Captions, And Visual Notes
+The page contains no images or significant visual elements other than text.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no substantial visual elements that would require cropping."}
+```

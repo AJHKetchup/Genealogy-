@@ -1,0 +1,85 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-0c7431cd7d77-P0007-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100.codex.md
+converted_sha256: 0c7431cd7d775a16ff443ec7ba8f8dde22510706bdc74ef36e9a40bdf5ba2e10
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100/manifest.json
+page_start: 7
+page_end: 7
+part: 1
+---
+
+## Page Metadata
+Page number: 82
+Source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+
+## Layout And Reading Order
+
+The page contains a single column of text in French. At the top left is the number "514" and at the top right is "18". The text is structured with headings for articles and chapters. The reading order is top-to-bottom, left-to-right within each line.
+
+## Literal Transcription
+
+514 18
+
+Les dispositions du deuxième alinéa de l'article précédent leur
+seront applicables.
+
+Article 24.
+
+L'emblème de la croix rouge sur fond blanc et les mots *croix*
+*rouge* ou *croix de Genève* ne pourront être employés, soit en
+temps de paix, soit en temps de guerre, que pour protéger ou
+désigner les formations et les établissements sanitaires, le
+personnel et le matériel protégés par la Convention.
+Il en sera de même, en ce qui concerne les emblèmes visés
+à l'article 19, alinéa 2, pour les pays qui les emploient.
+D'autre part, les sociétés de secours volontaires visées à
+l'article 10 pourront faire usage, conformément à la législation
+nationale, de l'emblème distinctif pour leur activité humanitaire
+en temps de paix.
+A titre exceptionnel et avec l'autorisation expresse de l'une
+des sociétés nationales de la Croix-Rouge (Croissant-Rouge, Lion
+et Soleil-Rouges), il pourra être fait usage de l'emblème de la
+Convention, en temps de paix, pour marquer l'emplacement de
+postes de secours exclusivement réservés à donner des soins
+gratuits à des blessés ou à des malades.
+
+CHAPITRE VII.
+
+**De l'application et de l'exécution de la Convention.**
+
+Article 25.
+
+Les dispositions de la présente Convention seront respectées
+par les Hautes Parties Contractantes en toutes circonstances.
+Au cas où, en temps de guerre, un belligérant ne serait pas
+partie à la Convention, ses dispositions demeureront néanmoins
+obligatoires entre tous les belligérants qui y participent.
+
+Article 26.
+
+Les commandants en chef des armées belligérantes auront à
+pourvoir aux détails d'exécution des articles précédents, ainsi
+qu'aux cas non prévus, d'après les instructions de leurs Gouver-
+nements respectifs et conformément aux principes généraux
+de la présente Convention.
+
+## Images, Captions, And Visual Notes
+
+There are no images, captions, or other substantial visual elements on this page.
+
+## Uncertain Or Illegible
+
+None.
+
+## Completeness Audit
+
+The transcription is complete and accurate for all visible text on the page.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page. The page consists entirely of text."}
+```

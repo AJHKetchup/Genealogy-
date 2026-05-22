@@ -1,0 +1,108 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6dccfc91b3b3-P0012-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63.codex.md
+converted_sha256: 6dccfc91b3b3f801aedf3a41141adda4ccc0ee5d6e25a30ef483034bcc6522ae
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json
+page_start: 12
+page_end: 12
+part: 1
+---
+
+## Page Metadata
+Page number: 55
+
+## Layout And Reading Order
+The page features a single main column of text, with a page number centered at the top. There is also a partial, narrow column of text visible along the left margin, which appears to be a continuation from a previous page or a parallel column. The reading order is the page number, then the marginal text from top to bottom, followed by the main column text from top to bottom.
+
+## Literal Transcription
+```
+— 51 —
+
+reste
+por
+
+en
+e la
+tua-
+ción
+ava-
+
+eros
+de
+os a
+
+mi-
+ons-
+la
+sin
+la
+rte
+de
+
+ha
+
+an
+do
+del
+la
+
+ca-
+o
+ri-
+e
+
+En la primera hipótesis se ha fijado para la comunicación
+el plazo de 90 días de anticipación a la fecha en que las tarifas
+hayan de ser puestas en conocimiento del público y en la
+segunda los plazos de 40 y 30 días, según se trate de tarifas
+ordinarias o especiales.
+Además se ha consignado que los términos legales de publi-
+cidad podrán ser reducidos por el Poder Ejecutivo o la Direc-
+ción General de Ferrocarriles, según el caso, si fuera de inte-
+rés público.
+Se ha incorporado también al Reglamento el sistema de la
+vigencia provisional de las tarifas cuando no fueran observa-
+das dentro de esos plazos y se ha confirmado el régimen de la
+aprobación tácita por el mero transcurso de los mismos.
+Dos disposiciones han sido dedicadas al régimen de las tari-
+fas de competencia: la primera para el caso de competencia
+entre empresas de ferrocarriles y la segunda para el de com-
+petencia entre los ferrocarriles y otros medios de transporte.
+Para esta última situación se ha establecido que, a fin de
+evitar la pérdida de tráfico, las empresas podrán proponer la
+emisión de una tarifa especial respecto de la cual la Dirección
+deberá pronunciarse dentro del plazo de 15 días, pudiendo, sin
+autorización expresa, ponerse en vigor la tarifa provisionalmen-
+te por un plazo de 30 días, si no hubiera sido observada. Y
+si dentro de este plazo no se dictare resolución aprobándola
+o rechazándola se considerará tácita y definitivamente apro-
+bada.
+La Comisión ha proyectado, además, un artículo según el
+cual toda tarifa especial que no tenga fecha de vencimiento
+no podrá, en principio, ser dejada sin efecto sin previo aviso
+al público con 90 días de anticipación. Pero, teniendo presente
+que lo categórico de ese precepto podría resultar en determi-
+nados casos incompatible con las necesidades reales, se ha agre-
+gado que el P. E. o la Dirección General podrán autorizar la
+reducción o supresión de dicho término si fuese de interés
+público.
+Mediante otra disposición se ha legalizado dándole cabida
+en el Reglamento, la aplicación de las tarifas que las empresas
+```
+
+## Images, Captions, And Visual Notes
+The page contains no images, captions, or other substantial visual content.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed. The text in the left margin is incomplete as it is a partial column cut off by the page edge.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains no images, captions, or other substantial visual content."}
+```

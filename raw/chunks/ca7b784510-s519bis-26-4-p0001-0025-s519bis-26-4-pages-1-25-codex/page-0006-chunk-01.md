@@ -1,0 +1,71 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9e421c25767c-P0006-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25.codex.md
+converted_sha256: 9e421c25767c189b22fd03aff672b2653e85acd48bafd39c746be68e93d5d491
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json
+page_start: 6
+page_end: 6
+part: 1
+---
+
+## Page Metadata
+Page number: 6
+
+## Layout And Reading Order
+The page contains a formal letter, likely from a Senator of Argentina, dated November 5, 1936. The layout includes an embossed seal in the top-left corner, a typed heading "Senador de la Nación" in the top-right, a handwritten signature below the heading, and the main body of the letter typed below the signature. The letter is addressed to Dr. Julián Nogueira in Geneva.
+
+## Literal Transcription
+<img src="raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/page-markdown/media/page-0006-image-1.png" alt="Embossed seal of Argentina" width="150"/>
+Senador de la Nación
+<img src="raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/page-markdown/media/page-0006-image-2.png" alt="Handwritten signature: Alfredo Palacios" width="300"/>
+saluda con su más distinguida consideración al Sr.Consejero de la Secre-
+taría de la Sociedad de las Naciones Dr. Julián Nogueira; se complace en
+expresarle que ha recibido "Revue de la situatiom economique mondiale"y
+le agradece su gentileza.
+Buenos Aires 5 de Noviembre de 1936
+Sr.Consejero de la Secretaría de la Sociedad de las Naciones.
+Dr.Julián Nogueira.
+Ginebra
+
+## Images, Captions, And Visual Notes
+1.  An embossed seal is present in the top-left corner of the page. It depicts the Coat of Arms of Argentina.
+2.  A handwritten signature appears below the typed "Senador de la Nación" heading. The signature reads "Alfredo Palacios".
+
+## Uncertain Or Illegible
+No uncertain or illegible text. The handwritten signature is clearly "Alfredo Palacios".
+
+## Completeness Audit
+The transcription is complete and includes all visible text and relevant visual elements.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "page-0006-image-1",
+      "kind": "seal",
+      "bbox_pct": [9.9, 10.8, 16.0, 16.8],
+      "caption_literal": "Embossed seal of Argentina",
+      "caption_type": "converter-description",
+      "identity_basis": null,
+      "source_context": "Top-left corner of the letterhead.",
+      "confidence": 1.0,
+      "suggested_filename": "embossed_seal_argentina_1936"
+    },
+    {
+      "region_id": "page-0006-image-2",
+      "kind": "signature",
+      "bbox_pct": [22.5, 17.9, 40.0, 24.0],
+      "caption_literal": "Alfredo Palacios",
+      "caption_type": "converter-description",
+      "identity_basis": "source-context",
+      "source_context": "Handwritten signature below 'Senador de la Nación'.",
+      "confidence": 1.0,
+      "suggested_filename": "signature_alfredo_palacios_1936"
+    }
+  ]
+}
+```

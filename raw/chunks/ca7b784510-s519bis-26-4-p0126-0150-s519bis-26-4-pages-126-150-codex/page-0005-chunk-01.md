@@ -1,0 +1,80 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f94569584d46-P0005-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150.codex.md
+converted_sha256: f94569584d46431ffa526b7b53136c14d34ea4af9f70f962e215e996313d2c37
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/manifest.json
+page_start: 5
+page_end: 5
+part: 1
+---
+
+## Page Metadata
+Page number: 130
+Source document page number: 7
+
+## Layout And Reading Order
+The page consists of a single column of text. The page number "-7-" is centered at the top. The text is organized into several paragraphs, with two paragraphs having bolded headings.
+
+## Literal Transcription
+```
+                                                                —7—
+
+efecto he confiado con frecuencia a su cuidado asuntos tan de-
+licados que de otro modo hubieran sido atendidos por mí perso-
+nalmente.
+
+        Es necesario, sin embargo, que una organización definitiva
+sea iniciada cuanto antes para que las Gobernaciones provincia-
+les adquieran el dinamismo que las hará factores de primer or-
+den en el desenvolvimiento de la acción gubernamental. A tal
+fin encamino mis pasos y estoy ahora estudiando las posibilida-
+des de que disponemos para desenvolver de ese modo mi pensa-
+miento.
+
+        **Ayuntamientos.**— Durante el año he tratado de robustecer
+la vida municipal afectada, como es natural, por los efectos de la
+crisis reinante. Por mi indicación, y cumpliendo instrucciones
+precisas, la Secretaría de lo Interior ha mantenido el control de
+la actividad de cada Ayuntamiento y una serie de pequeños pro-
+blemas que dificultaban el desenvolvimiento de algunos munici-
+pios, los cuales han sido resueltos con los consejos y asistencia
+del Gobierno.
+
+        He influído, por medio de la Auditoría Nacional, en la formu-
+lación y ejecución de los presupuestos municipales a tal punto que,
+contrariamente a lo que ocurría con frecuencia en épocas ante-
+riores, la mayor parte de los Ayuntamientos han cerrado sin
+déficits el ejercicio económico de 1932.
+
+        He propiciado cambios esenciales en el personal de algunos
+Ayuntamientos y escogido para llenar las funciones edilicias a
+los ciudadanos más destacados de cada localidad. De este modo
+los Ayuntamientos se están convirtiendo en factores decisivos en
+el desenvolvimiento de la vida comunal.
+
+        **Ejército Nacional.**— Ha sido y sigue siendo constante empe-
+ño mío el mejoramiento progresivo de la institución militar co-
+mo base de la paz y la seguridad del Estado.
+
+        Cuando el Ejército carecía de una buena organización era
+vacilante la existencia de la paz, y la familia dominicana vivía
+en contínuo sobresalto, sin que fuera posible la estabilidad del
+orden y el desenvolvimiento de la vida institucional de la Repú-
+blica. Desde el primer momento de mi investidura comprendí
+la necesidad de dedicar a la organización del Ejército mayores
+```
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page. The page number "-7-" is present at the top center.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}

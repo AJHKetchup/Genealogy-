@@ -11,8 +11,6 @@ page_end: 144
 part: 1
 ---
 
-# Page 144
-
 ## Page Metadata
 
 - Source: `raw/sources/S522bis-29-3.pdf`
@@ -130,19 +128,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-
-- Page number: 145
-- Source-provided page number: 1753
-- Publication volume: 29-3
-- Publication title: Diario de Sesiones de la Cámara de Diputados
-- Publication year: 1921
-- Publication author: Argentina. Congreso de la Nación
-- Publication language: es
-- Source manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/manifest.json`
-- Image asset: `raw/sources/S522bis-29-3.pdf`
-
-## Layout And Reading Order
-
-This page is laid out in two columns. The reading order is the full left column, followed by the full right column.

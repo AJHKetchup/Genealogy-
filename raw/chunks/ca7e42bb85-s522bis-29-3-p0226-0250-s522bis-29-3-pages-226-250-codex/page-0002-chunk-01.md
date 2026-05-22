@@ -1,0 +1,77 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-383178d699a3-P0002-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0226-0250-s522bis-29-3-pages-226-250.codex.md
+converted_sha256: 383178d699a3eba5670be331d33418b93ae1e340af956ccbaa9ed106462f78b1
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0226-0250-s522bis-29-3-pages-226-250/manifest.json
+page_start: 2
+page_end: 2
+part: 1
+---
+
+## Page Metadata
+Page number: 227
+
+## Layout And Reading Order
+The page contains a single column of text. At the top right, there is a page number "12". Above the main text, there is a centered heading "ADVISORY OPINION No. 18". The main content consists of four paragraphs of body text.
+
+## Literal Transcription
+ADVISORY OPINION No. 18
+12
+
+League and giving the guarantee of the League to its consti-
+tution, as provided in Articles 102 and 103 of the Treaty of
+Versailles. At the same time, the Council directed certain
+amendments to be introduced into the constitution, in order
+to make it plain that the provisions of the constitution did
+not override the right of Poland, under Article 104 (6) of
+the Treaty of Versailles, to conduct the foreign relations of
+the Free City.
+
+The precise scope of the protection of the Free City by
+the League and of the guarantee of its constitution have
+not been exhaustively defined.
+
+The general effect of the reports and resolutions adopted
+by the Council of the League, such as those of November 17th,
+1920, and March 2nd, 1921, is to show that the duty of the
+League is to ensure the continued existence of the Free City
+on the footing on which it was established in accordance
+with the Treaty of Versailles, and that it was in order to
+enable the League to achieve this purpose that the Free
+City was placed under its protection and the constitution
+placed under its guarantee. Accordingly, the Council has
+declared that it is bound to ensure orderly, peaceful and stable
+government at Danzig, to protect it from outside aggression
+and to see that without the consent of the League no funda-
+mental change is made in the Treaty of Paris, nor any
+change in the constitution of the Free City. The protection
+of the Free City and the guarantee of its constitution would
+justify such claims. They would not prevent the Free City
+from becoming a Member of the Labour Organization.
+
+No detailed stipulations were inserted in the Treaty of
+Paris regulating the conduct by the Polish Government
+of the foreign relations of the Free City. The principle
+laid down in Article 104 (6) of the Treaty of Versailles was
+repeated. In consequence, many differences of opinion as to
+foreign affairs arose between Poland and the Free City, but
+a practice, which seems now to be well understood by both
+Parties, has gradually emerged from the decisions of the
+High Commissioner and from the subsequent understandings
+
+## Images, Captions, And Visual Notes
+The page contains no images or captions.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+```

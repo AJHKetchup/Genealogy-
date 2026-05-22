@@ -1,0 +1,137 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-03871f48b140-P0016-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150.codex.md
+converted_sha256: 03871f48b1402470001170a55bb5b2c24df93ea4666c71db96c8366029007141
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json
+page_start: 16
+page_end: 16
+part: 1
+---
+
+## Page Metadata
+Page number: 141
+
+## Layout And Reading Order
+The page contains three main sections, each consisting of an illustration followed by its descriptive caption. The illustrations are arranged in a two-column layout on the left side of the page, with the corresponding captions placed to their right.
+1.  Top-left illustration of Asparagus.
+2.  Top-right caption for the Asparagus illustration.
+3.  Middle-right illustration of Crocus.
+4.  Middle-right caption for the Crocus illustration.
+5.  Bottom-left illustration of Hazelnut.
+6.  Bottom-right caption for the Hazelnut illustration.
+
+## Literal Transcription
+(No. 528)
+Espárrago; Espárrago. (Fig. 4-10).
+*Asparagus officinalis* L.
+Familia de las Liliáceas.
+(4, ramo florífero; 5, 6, 7, detalles de la flor; 8, rama fruc-
+tífera; 9, 9', raíces y brotes de la planta; 10, rama del
+a. *acutifolius*).
+(C. I. d. P. M. y E. d. F.).
+
+(No. 559)
+Azafrán de Castilla.
+*Crocus sativus* L.
+Familia de las Irideas.
+(Ph. M.—J. R.—).
+
+(No. 542)
+Avellano.
+*Corylus avellana* L.
+Familia de las Cupulíferas.
+(1, flores masculinas; 2, 3, 4, detalles de la flor masculina; 5, 6, 7,
+8, flor femenina; 9, 10, hojas y fruto; 11, 12, fruto; 13, embrión; 14,
+variedad de hojas).
+(C. I. d. P. M. y E. d. F.).
+
+## Images, Captions, And Visual Notes
+Pipeline-extracted visual crops:
+- ![source-caption: (No. 528)
+Espárrago; Espárrago. (Fig. 4-10).
+*Asparagus officinalis* L.
+Familia de las Liliáceas.
+(4, ramo florífero; 5, 6, 7, detalles de la flor; 8, rama fruc-
+tífera; 9, 9', raíces y brotes de la planta; 10, rama del
+a. *acutifolius*).
+(C. I. d. P. M. y E. d. F.).](../extracted-images/page-0141/page-0141-image-01-asparagus-officinalis-illustration.png)
+  - Kind: labeled_illustration; label basis: source-caption; bbox_pct: [4.5, 9.0, 48.0, 48.0]
+  - Source context: The illustration depicts an Asparagus plant with various numbered parts.
+- ![source-caption: (No. 559)
+Azafrán de Castilla.
+*Crocus sativus* L.
+Familia de las Irideas.
+(Ph. M.—J. R.—).](../extracted-images/page-0141/page-0141-image-02-crocus-sativus-illustration.png)
+  - Kind: labeled_illustration; label basis: source-caption; bbox_pct: [52.5, 24.0, 86.0, 64.0]
+  - Source context: The illustration depicts a Crocus sativus plant with a bulb, flower, and fruit.
+- ![source-caption: (No. 542)
+Avellano.
+*Corylus avellana* L.
+Familia de las Cupulíferas.
+(1, flores masculinas; 2, 3, 4, detalles de la flor masculina; 5, 6, 7,
+8, flor femenina; 9, 10, hojas y fruto; 11, 12, fruto; 13, embrión; 14,
+variedad de hojas).
+(C. I. d. P. M. y E. d. F.).](../extracted-images/page-0141/page-0141-image-03-corylus-avellana-illustration.png)
+  - Kind: labeled_illustration; label basis: source-caption; bbox_pct: [4.5, 52.0, 48.0, 89.0]
+  - Source context: The illustration depicts a Hazelnut (Corylus avellana) plant with various numbered parts including flowers, leaves, and fruit.
+
+The page features three botanical illustrations.
+
+The first illustration, located in the upper-left quadrant, depicts an Asparagus plant. It shows the entire plant with roots, stems, leaves, flowers, and berries, with various parts numbered for identification.
+The second illustration, in the middle-right section, shows a Crocus plant. It features a bulb, leaves, a flower, and a separate depiction of a seed or fruit.
+The third illustration, in the lower-left quadrant, displays a Hazelnut plant. It includes branches with leaves, catkins (male flowers), and nuts, with different parts numbered.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All text and significant visual elements on the page have been transcribed and described.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "labeled_illustration",
+      "bbox_pct": [4.5, 9.0, 48.0, 48.0],
+      "caption_literal": "(No. 528)\nEspárrago; Espárrago. (Fig. 4-10).\n*Asparagus officinalis* L.\nFamilia de las Liliáceas.\n(4, ramo florífero; 5, 6, 7, detalles de la flor; 8, rama fruc-\ntífera; 9, 9', raíces y brotes de la planta; 10, rama del\na. *acutifolius*).\n(C. I. d. P. M. y E. d. F.).",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "The illustration depicts an Asparagus plant with various numbered parts.",
+      "confidence": 0.95,
+      "suggested_filename": "Asparagus_officinalis_illustration.png",
+      "inline_anchor": null
+    },
+    {
+      "region_id": "visual_002",
+      "kind": "labeled_illustration",
+      "bbox_pct": [52.5, 24.0, 86.0, 64.0],
+      "caption_literal": "(No. 559)\nAzafrán de Castilla.\n*Crocus sativus* L.\nFamilia de las Irideas.\n(Ph. M.—J. R.—).",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "The illustration depicts a Crocus sativus plant with a bulb, flower, and fruit.",
+      "confidence": 0.95,
+      "suggested_filename": "Crocus_sativus_illustration.png",
+      "inline_anchor": null
+    },
+    {
+      "region_id": "visual_003",
+      "kind": "labeled_illustration",
+      "bbox_pct": [4.5, 52.0, 48.0, 89.0],
+      "caption_literal": "(No. 542)\nAvellano.\n*Corylus avellana* L.\nFamilia de las Cupulíferas.\n(1, flores masculinas; 2, 3, 4, detalles de la flor masculina; 5, 6, 7,\n8, flor femenina; 9, 10, hojas y fruto; 11, 12, fruto; 13, embrión; 14,\nvariedad de hojas).\n(C. I. d. P. M. y E. d. F.).",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "The illustration depicts a Hazelnut (Corylus avellana) plant with various numbered parts including flowers, leaves, and fruit.",
+      "confidence": 0.95,
+      "suggested_filename": "Corylus_avellana_illustration.png",
+      "inline_anchor": null
+    }
+  ]
+}
+```
+
+# Page 142

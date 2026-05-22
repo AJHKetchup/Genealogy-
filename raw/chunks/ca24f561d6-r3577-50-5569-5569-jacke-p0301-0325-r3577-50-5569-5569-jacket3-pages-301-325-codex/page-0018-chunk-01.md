@@ -1,0 +1,90 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6edb78f9d5b7-P0018-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0301-0325-r3577-50-5569-5569-jacket3-pages-301-325.codex.md
+converted_sha256: 6edb78f9d5b7851f7c213c0be448e883786da277ee1bbe66067a81af2447288b
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0301-0325-r3577-50-5569-5569-jacket3-pages-301-325/manifest.json
+page_start: 18
+page_end: 18
+part: 1
+---
+
+## Page Metadata
+Page number: 318
+
+## Layout And Reading Order
+The page presents a transcript of a meeting, formatted as a single column of text. It follows a speaker-dialogue structure, with each speaker's name (often bolded) followed by their statement. A header at the top right indicates the session date and page number.
+
+## Literal Transcription
+SÉANCE DU 19 JUILLET 1929
+5
+
+**M. le Médecin Général Marotte** (France) :
+Je n'ai pas très bien entendu celui de M. le Secrétaire général.
+
+**M. le Président** :
+Il est de la teneur suivante : « A titre exceptionnel et sous la responsabilité de l'une des
+Sociétés de secours de la Croix-Rouge reconnues, l'usage de l'emblème... etc. pourra être
+autorisé... », c'est-à-dire que finalement, sauf rédaction à retoucher, la condition n'est pas
+que la Société de Croix-Rouge organise elle-même, mais qu'elle ait la possibilité d'autoriser,
+sous sa responsabilité.
+
+**M. le Médecin Général Marotte** (France) :
+Je me rallie à ce texte.
+
+**M. le Président** :
+Veut-on s'exprimer encore à ce sujet ?
+Le texte de la délégation française serait amendé dans le sens formulé par M. le Secrétaire
+général.
+Est-ce que quelqu'un reprend, à son compte, si j'ose m'exprimer ainsi, la proposition
+originelle ? Ce ne paraît pas être le cas.
+Il n'y aurait donc plus que le principe suivant :
+« A titre exceptionnel et sous la responsabilité de l'une des Sociétés de Secours de la
+Croix-Rouge reconnues », et non plus « de toutes les sociétés de secours volontaires visées
+à l'article 10 ».
+Est-ce que la commission est disposée à se prononcer sur un texte ayant cette portée ?
+Il est procédé au vote par assis et levé.
+L'alinéa proposé est adopté.
+
+Articles 29 à 33.
+
+**M. le Président** :
+En ce qui concerne les articles 29 à 33, la rédaction définitive pourra être recherchée
+par le comité de rédaction et vous sera soumise en même temps que l'ensemble du projet
+révisé.
+Cependant, nous venons d'être saisis de la part de la délégation espagnole d'un amende-
+ment au sujet duquel il faudrait pouvoir se prononcer dès maintenant. Il s'agirait d'ajouter
+à l'article 33 la phrase suivante : « D'autre part, cette dénonciation (de la Convention) ne pro-
+duira toutefois pas ses effets au cours d'une guerre dans laquelle serait impliqué l'Etat dé-
+nonçant. En tout cas, la Convention continuera à sortir ses effets jusqu'à la conclusion de
+la paix et, en tout cas, jusqu'à ce que les opérations du rapatriement soient terminées ».
+
+**M. de la Torrehermosa** (Espagne) :
+La commission du Code des prisonniers de guerre a déjà adopté sous le n° 103 un article
+analogue au texte que nous vous proposons maintenant. Cette disposition a pour but d'assurer
+que les Nations ne dénoncent pas le Code au moment où une guerre éclaterait. La délégation
+espagnole estime qu'il y aurait lieu d'introduire la même disposition dans la Convention de
+Genève.
+
+**M. le Président** :
+Je voudrais demander au Marquis de la Torrehermosa, si, dans l'éventualité qu'il envi-
+sage, la Convention ne demeurerait pas en vigueur pendant une année.
+
+**M. de la Torrehermosa** (Espagne) :
+C'est entendu.
+
+## Images, Captions, And Visual Notes
+The page contains no meaningful images or captions.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "The page contains no meaningful images, only text."}
+
+# Page 319

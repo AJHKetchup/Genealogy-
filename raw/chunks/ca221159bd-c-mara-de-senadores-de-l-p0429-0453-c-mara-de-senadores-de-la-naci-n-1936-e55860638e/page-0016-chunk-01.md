@@ -1,0 +1,77 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-456e9450ae01-P0016-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453.codex.md
+converted_sha256: 456e9450ae016657cf20906d671a985ea52070936024ec0dc6717d4476d30971
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453/manifest.json
+page_start: 16
+page_end: 16
+part: 1
+---
+
+## Page Metadata
+Page number: 444
+
+## Layout And Reading Order
+The page contains a single column of text, primarily legal articles, with a page number at the top center and several headings and subheadings.
+
+## Literal Transcription
+— 119 —
+
+Excepciones
+
+Art. 38. Quedan exceptuados de las disposiciones de este
+reglamento los vehículos de sanidad, policía y bomberos, pe-
+ro deberán ajustarse a ellas en cuanto el servicio público que
+desempeñan no haga indispensable contravenirlas.
+
+Art. 39. La maquinaria agrícola que no pueda ajustarse
+a las condiciones establecidas en este capítulo, podrá cir-
+cular por los caminos a marcha precaucional, y sin utilizar
+la zona pavimentada o mejorada.
+
+TITULO III
+
+DE LA PROPIEDAD, HABILITACION E IDENTIFICACION
+DE VEHICULOS
+
+Art. 40. En tanto se instituya el título de propiedad de
+los vehículos automotores, la misma se acreditará en la
+forma que establecen las leyes generales y reglamentacio-
+nes locales vigentes.
+
+Art. 41. Los vehículos que circulen por caminos naciona-
+les deberán obtener su anotación en los registros que es-
+tablezca la Dirección Nacional de Vialidad.
+
+Art. 42. Ese registro se hará en base a la documentación
+que exhiban quienes lo soliciten y que acredite:
+    a) La propiedad del vehículo.
+    b) Su habilitación por las Municipalidades del lugar del
+domicilio del propietario.
+    c) El pago de la patente que corresponda al año de la ins-
+cripción.
+    d) La licencia de conducción expedida a favor del propieta-
+rio o de la persona autorizada por éste para guiar el vehícu-
+lo. En esa licencia, deberá hallarse anotado el vehículo por la
+autoridad que la haya expedido.
+
+Art. 43. Todos los vehículos automotores que circulen por
+los caminos nacionales deberán gestionar su anotación en
+los Registros de la Dirección Nacional de Vialidad, dentro de
+los noventa días contados desde la fecha fijada en el ar-
+tículo 1º.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}

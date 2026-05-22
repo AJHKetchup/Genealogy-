@@ -1,0 +1,121 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e98c32cb0f9b-P0004-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0026-0050-r4946-12-33387-8070-pages-26-50.codex.md
+converted_sha256: e98c32cb0f9b085f925d5ca2ea18ff2b0155f894f3690716101b46a027f0168f
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0026-0050-r4946-12-33387-8070-pages-26-50/manifest.json
+page_start: 4
+page_end: 4
+part: 1
+---
+
+## Page Metadata
+Page: 29
+
+## Layout And Reading Order
+The page contains a formal document with a header, main body text, and a footer-like section. There are handwritten notes and a stamped mark at the top of the page. The text is primarily in French, with one section indicating a translation from Spanish. The content is presented in a single column.
+
+## Literal Transcription
+To Report addres on
+re information
+Coca Leaf.
+(Communiqué au Conseil
+et aux
+Membres de la Société).
+
+LEAGUE OF NATIONS
+REGISTRY
+RECEIVED
+-3 OCT 1940
+
+SOCIETE DES NATIONS
+
+TRAFIC DE L'OPIUM ET AUTRES DROGUES NUISIBLES
+RAPPORTS ANNUELS DES GOUVERNEMENTS POUR 1939
+
+COLOMBIE
+
+Note du Secrétaire général p.i.
+
+Conformément à l'article 21 de la Convention de 1931
+pour limiter la fabrication et réglementer la distribution des
+stupéfiants, le Secrétaire général p.i. a l'honneur de trans-
+mettre aux Etats parties à ladite Convention le rapport sus-
+mentionné. Le rapport est également transmis aux autres Etats,
+ainsi qu'à la Commission consultative du trafic de l'opium et
+autres drogues nuisibles.
+(Pour le formulaire des rapports annuels, voir document O.C.1600)
+
+---
+
+(Traduction de l'espagnol)
+
+MINISTRE DE L'HYGIENE
+ET DE LA
+PREVOYANCE SOCIALE.
+
+---
+
+A. RENSEIGNEMENTS GENERAUX.
+
+I. Lois et publications.-
+
+Au cours de l'année 1939, les dispositions suivantes
+ont été promulguées:
+
+Résolution no 200 (18 mars), autorisant les médecins
+directeurs des léproseries à accorder des licences pour l'usage
+de stupéfiants aux lépreux ayant besoin d'employer celles-ci en
+doses extrathérapeutiques. Cette résolution porte modification
+de la résolution 313 de 1937 qui donnait des facilités aux
+léproseries pour employer des stupéfiants sur les malades en cas
+de besoin, sans avoir à s'adresser aux autorités sanitaires du
+dehors.
+12/33387/8070
+n
+III
+C.139.M.127.1940.XI.
+(O.C./A.R.1939/47)
+(N'existe qu'en français)
+
+Genève, le 17 septembre 1940.
+
+## Images, Captions, And Visual Notes
+- A handwritten note at the top left reads "To Report addres on re information Coca Leaf."
+- A handwritten number "12/33387/8070" is at the top right, with an underlined "n" and "III" below it.
+- A red rectangular stamp is present on the left side of the page, overlapping some text.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and significant visual elements have been transcribed or noted.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "stamp",
+      "bbox_pct": [
+        11.8,
+        14.1,
+        37.1,
+        25.9
+      ],
+      "caption_literal": "LEAGUE OF NATIONS\nREGISTRY\nRECEIVED\n-3 OCT 1940",
+      "caption_type": "source-caption",
+      "identity_basis": null,
+      "source_context": "A red rectangular stamp on the left side of the page.",
+      "confidence": "high",
+      "suggested_filename": "league_of_nations_registry_received_stamp_1940.png",
+      "inline_anchor": null
+    }
+  ]
+}
+```
+
+# Page 30

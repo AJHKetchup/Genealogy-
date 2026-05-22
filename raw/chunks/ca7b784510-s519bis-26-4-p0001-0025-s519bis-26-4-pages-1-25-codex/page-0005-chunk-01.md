@@ -1,0 +1,66 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9e421c25767c-P0005-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25.codex.md
+converted_sha256: 9e421c25767c189b22fd03aff672b2653e85acd48bafd39c746be68e93d5d491
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json
+page_start: 5
+page_end: 5
+part: 1
+---
+
+## Page Metadata
+- Page number: 5
+- Source: S519bis-26-4.pdf
+
+## Layout And Reading Order
+The page presents a formal letter.
+1.  An embossed seal is in the top-left corner.
+2.  To the right of the seal, the sender's title "Senador de la Nación" is printed.
+3.  On the same line, to the right, the date and location "Buenos Aires 20 de Julio de 1937" are printed.
+4.  Below the sender's title, a handwritten signature appears.
+5.  The body of the letter follows, starting to the right of the signature.
+6.  The recipient's address is printed in the bottom-left section of the page.
+
+## Literal Transcription
+
+<img src="raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/visual_regions/page-0005-region-1.png" alt="Embossed seal of Argentina" width="150"/>
+Senador de la Nación Buenos Aires 20 de Julio de 1937
+
+A. Pedro Calamy
+saluda afectuosamente a su amigo Julián
+Nogueira; se complace en agradecerle el libro "Prosperité et Depre-
+ssión".
+
+Sr.Dr. Julián Nogueira
+Genève
+
+## Images, Captions, And Visual Notes
+1.  **Embossed Seal:** In the top-left corner, there is an embossed seal. It depicts the Coat of Arms of Argentina, featuring an oval shield with two clasped hands holding a pike topped with a Phrygian cap, all surrounded by a laurel wreath and topped with a rising sun.
+
+## Uncertain Or Illegible
+- The handwritten signature "A. Pedro Calamy" is a best effort transcription due to the cursive style.
+
+## Completeness Audit
+All visible text and the significant visual element (embossed seal) have been transcribed or described.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "page-0005-region-1",
+      "kind": "seal",
+      "bbox_pct": [9.9, 9.4, 16.9, 16.9],
+      "caption_literal": "Embossed seal of Argentina",
+      "caption_type": "converter-description",
+      "identity_basis": null,
+      "source_context": "Top-left corner of the letter, next to the sender's title.",
+      "confidence": 0.95,
+      "suggested_filename": "embossed_seal_argentina_519bis-26-4_p0005"
+    }
+  ]
+}
+```

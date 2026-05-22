@@ -1,0 +1,74 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-843936b5e4dc-P0010-01
+source_converted: raw/converted/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225.codex.md
+converted_sha256: 843936b5e4dc8e07eee28c9615e471b4a4189fec83546269c213c5cc4cbf0960
+source: raw/sources/S179-34-6.pdf
+source_sha256: 5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054
+source_manifest: raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225/manifest.json
+page_start: 10
+page_end: 10
+part: 1
+---
+
+## Page Metadata
+- Page number: 210
+- Source page number: #70
+- Document type: Typed report or interview transcript
+
+## Layout And Reading Order
+The page consists of a single column of typed text. The reading order is from top to bottom. A page number, `#70`, is present in the top left corner. Three binder holes are visible along the left margin.
+
+## Literal Transcription
+```text
+#70
+
+(Montevideo, Uruguay, S.A., #2)
+
+     of the inmates are recruited through the exploitation activities of
+a man known as Mr. 1-T. He said: "The laws in Uruguay are extreme-
+ly severe on white slavery, and the men in that business are more
+in fear of the lash than of the jail sentence. 1-T makes thousands
+of pesos a year supplying inmates to houses in Brazil and Argentine.
+He operates out of this city. He has agents in Odessa, Warsaw,
+Paris, and other European cities, whom he corresponds with through
+the mails and cables, and carries on his business of importation
+in the same manner as a man engaged in a legitimate enterprise".
+
+     I said: "If the laws are severe and the police are act-
+ive, how can he get away with it?"; he replied "The man walks the
+streets as free as you or I. Before you are in South America long
+you will realize that this entire continent is graft-ridden. 1-T's
+business goes on daily, and he receives a certain amount for each
+woman he brings in. In addition, he receives part of the girls'
+earnings. He is respectably married, has a family, and lives in a
+very fine home".
+
+     I said "It may all be true, but it sounds like a fairy
+tale to me!"; he replied "If your boat were not sailing I would
+introduce you to a 19-year old French girl who has been in a house
+for three months. One of 1-T's agents picked this girl up in a
+small town in France. He made love to her. She ran away from home
+to accompany this fellow to South America. He told her it would be
+impossible for her to sail on the same ship with him. He told her
+that he would leave first and that she should follow. He left and
+she followed in another steamer. The agreement was that he would
+meet her when her steamer reach Uruguay. When she arrived 1-T met
+```
+
+## Images, Captions, And Visual Notes
+The page contains only typed text. A handwritten page number, `#70`, is in the top left corner. Three circular binder holes are present along the left margin.
+
+## Uncertain Or Illegible
+There are no uncertain or illegible parts of this document.
+
+## Completeness Audit
+The full content of the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only typed text and minor marginalia (a page number and binder holes), with no substantial images, illustrations, or other visual elements suitable for individual cropping."
+}
+```

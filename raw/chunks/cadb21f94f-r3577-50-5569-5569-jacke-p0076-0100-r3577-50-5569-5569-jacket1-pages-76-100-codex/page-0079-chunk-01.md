@@ -11,8 +11,6 @@ page_end: 79
 part: 1
 ---
 
-# Page 79
-
 ## Page Metadata
 
 - Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
@@ -106,40 +104,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 1.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 80
-
-## Layout And Reading Order
-The page contains a single column of text, centered horizontally. The page number is at the top center, followed by a chapter title, an article number, and then the main body of the text.
-
-## Literal Transcription
-```
-— 21 —
-
-Chapitre 6. Dispositions spéciales concernant les officiers.
-
-ARTICLE 19.
-
-Dès le début des hostilités, les belligérants sont tenus de se communiquer réciproquement les titres et les grades
-en usage dans leurs armées respectives, en vue d'assurer l'égalité de traitement entre les officiers de grades équivalents.
-Les officiers prisonniers de guerre seront traités avec les égards dus au grade et à l'âge.
-Le port des insignes de grade et des décorations sera autorisé.
-```
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None. All text is clear and legible.
-
-## Completeness Audit
-The transcription is complete and accurate, capturing all text and its layout from the source page.
-
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "No substantial visual content was detected on this page."
-}
-```

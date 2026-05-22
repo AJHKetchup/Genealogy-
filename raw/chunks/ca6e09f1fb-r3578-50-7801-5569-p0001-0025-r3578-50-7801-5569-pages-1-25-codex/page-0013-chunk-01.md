@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f8e8bfaa7093-P0013-01
+chunk_id: CHUNK-c5a4056801e0-P0013-01
 source_converted: raw/converted/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25.codex.md
-converted_sha256: f8e8bfaa70937703a97a9d309ddc652078a2ddb28c6e930562f8713af05deec4
+converted_sha256: c5a4056801e00d7c9d5a07c22140c4b2d04cbc28c449b1eef383fa6fb33e4292
 source: raw/sources/R3578-50-7801-5569.pdf
 source_sha256: 6e09f1fb50a1c564bf4dd51406b9706274a189f3c45ba312a01d5ed069a77b75
 source_manifest: raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json
@@ -11,132 +11,88 @@ page_end: 13
 part: 1
 ---
 
-# Page 13
-
 ## Page Metadata
-
-- Source: `raw/sources/R3578-50-7801-5569.pdf`
-- Source SHA-256: `6e09f1fb50a1c564bf4dd51406b9706274a189f3c45ba312a01d5ed069a77b75`
-- Conversion manifest: `raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json`
-- Source page: 13
-- Page image: `raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-images/page-0013.jpg`
-- Conversion method: Docling basic conversion
-- Docling readability status: `rough_ok`
-- Docling readability flags: none
-- Extracted picture images: 0
+- **Page number**: 13
+- **Publication-specific page number**: 13
+- **Full page number**: 21
+- **File name**: `raw/sources/R3578-50-7801-5569.pdf#page=21`
+- **Task id**: `source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0021`
 
 ## Layout And Reading Order
-
-Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+The page contains a single column of text. The reading order is as follows:
+1.  A running header at the top center of the page.
+2.  The page number in the top right corner.
+3.  The main body of text, which consists of three paragraphs.
+4.  Two footnotes at the bottom of the page, corresponding to superscript numbers in the main text.
 
 ## Literal Transcription
-
 ```markdown
-bedenkt man, dass es sich bei diesen Gefangenen nicht um Soldner handelte, die sich um Geld einem ihnen gleichgiiltig'en Fiirsten verkauft hatten, sondern um Angehorige von Volksheeren, die zum Schutz ihrer Heimat ausgezogen waren.
+Das Kriegsgefangenenrecht und seine Reform 13
 
-Ferner miissen wir uns noch mit der Tatsache der sogenannten Zivilgefangenschaft auseinandersetzen, also der. Zwangsinternierung der dem einen kriegfiihrenden Staat angehorenden Zivilpersonen, die sich auf dem Gebiete der anderen Kriegsmacht aufhalten. Allgemeine volkerrechtliche Abmachungen liber die Stellung dieser Personen lagen bei Beginn des Weltkrieges nicht vor. Die Yolkerrechtswissenschaft gestand ihnen allerdings das Recht. auf Riickkehr in die Heimat im Falle eines Krieges zu, wenn sie nicht im wehrpflichtigen Alter standen Oder spionageverdachtig waren oder Schutzhaft geboten erschien. Diese Stellungnahme stiitzte sich auf den Rousseau'schen Grundsatz des Krieges als eines Kampfes lediglich der Staaten und ihrer bewaffneten Macht. Sie war in der Praxis von Japan ausdriicklich im Russisch-Japanischen Kriege bestatigt worden. Strittig war in der Wissenschaft lediglich die Frage der Zulassigkeit von Massenausweisungen wahrend eines Krieges, der sogenannten Xenelasie, gegen die sich die offentliche Meinung schon rein gefiihlsmassig auflehnen musste und auch aufgelehnt hat, als Frankreich 1870 den Deutschen und als die Tiirkei 1897 den Griechen gegeniiber diese Massnahme durchfiihrte. Durch Yertrage, wie den zwischen Deutschland und Nikaragua von 1896, ist die Massenausweisung iibrigens gelegentlich ausdriicklich ausgeschlossen worden. Im Weltkrieg haben lediglich Belgien, Portugal und Liberia zum Mittel der Massen¬ ausweisung gegriffen, wahrend sich sonst in weitestem Masse die Masseninternierung durchsetzte1). Diese Internierung kann zu einer Kriegsgefangenschaft im Sinne der L.K.O. nicht fuhren. Natiiiiich wird man in der Praxis die internierten Zivilpersonen in vielen Fallen analog den Kriegsgefangenen behandeln, es bleibt aber zu bedenken, dass sie nicht der Militargerichtsbarkeit des Nehmestaates unterworfen sind und dass tatsachlich volkerrechtliche Normen flir ilire Behandlung nicht bestehen. Wenn im Weltkriege die Frage dieser Zivilpersonen eine so grosse Rolle gespielt hat, so ist das auf die immer starker gewordene Durchdringung der einzelnen Lander mit Staatsfremden zuriickzufiihren, welche in dem vorangegangenen Jaiirhundert der Freiziigigkeit und der gesteigerten internationalen Wirtschaftsverflechtung ihre Erklarung findet. Diese starke Durchdringung mit Staatsfremden hat bei Beginn des Weltkrieges die einzelnen Staaten zweifellos vor schwere Entscheidungen gestellt.
+Kriegsgefangenenwesens“ gibt er eine bewundernswert detaillierte,
+von dem liebevollsten Eindringen in die Materie zeugende Über-
+sicht über das Rechtsgebiet. Die I. L. A. hat es auf der Haager
+Konferenz von 1921 unternommen, einen neuen „Entwurf inter-
+nationaler Vorschriften für die Kriegsgefangenenbehandlung“ vor-
+zulegen ¹).
 
-DiesogenanntenZivilgefangenensindalsokeineKriegsgefangenen
+Nach diesen beiden wichtigsten Arbeiten und nach Vorlegung
+des bereits erwähnten Entwurfes der I. L. A. zur Regelung der
+Rechtsverhältnisse der sog. Zivilgefangenen in Stockholm 1924 ist
+die Reform-Bewegung eine Weile nicht weiter gekommen, bis seit
+einiger Zeit nach der Caritas und der Wissenschaft auch die ehe-
+maligen Kriegsgefangenen selbst sich zum Wort gemeldet haben.
+Ihre beiden Hauptorganisationen in Deutschland und Österreich ²)
+haben Ausschüsse zur Reform des Kriegsgefangenenrechts gebildet
+und aus dem Lager der Weltkriegsgegner sind die Bestrebungen
+der Fédération interalliée des anciens combattants zu erwähnen,
+die gleichfalls auf eine Umgestaltung des als unzulänglich erkannten
+Kriegsgefangenenrechts hinzielen. Ich glaube, dass die Hilfe der
+ehemaligen Kriegsgefangenen selbst nicht zu entbehren sein wird,
+wenn man wirklich praktische Arbeit leisten will.
 
-im Sinne der L.K.O. Es bestehen aber ausserordentlich enge Be-
+Praktische Arbeit wird man aber auch nur dann leisten können,
+wenn man sich vor Augen hält, dass eine Gliederung des Kriegs-
+gefangenenrechts nicht zu umgehen ist, eine Gliederung in ein
+allgemeines weltumspannendes und in ein zweistaatliches Recht.
+Dieser Gedanke steckt im Kern bereits in der L. K. O., die in
+Sachen der Nahrung, Unterkunft und Kleidung der Kriegsgefangenen
+für sich nur subsidiäre Geltung beansprucht. Er liegt auch dem
+Entwurf der I. L. A. zugrunde, welcher Konferenzen der Kriegs-
+parteien über Kriegsgefangenenfragen vorsieht, die durch Ver-
+mittlung der Schutzmächte ermöglicht werden sollen. Die neue
+Landkriegsordnung kann unmöglich auf alle Einzelheiten eingehen —
+sie kann nicht festlegen, wieviel Quadratmeter Raum ein General,
+ein Stabsoffizier, ein Feldwebel und ein Soldat beanspruchen kann —
+sie muss die allgemeinen in allen Staaten des Völkerrechtsverbandes
+anzuwendenden Sätze der Kriegsgefangenenbehandlung enthalten.
+Daneben muss sie die Pflicht der Staaten festlegen, schon im
+Frieden Kriegsgefangenenreglements zu erlassen und etwa, dem
+Völkerbund einzureichen und ferner die Pflicht zur Abschliessung
+zweistaatlicher Verträge über Fragen des Kriegsgefangenenrechts,
+die sich infolge der Verschiedenheit der Lebensbedingungen und
+der Rechtsverhältnisse der einzelnen Völker nur für zweistaatliche
+Verträge eignen, muss doch ein Vertrag über die Einrichtung von
 
-*) Ygl. Volkerrecht im Weltkrieg usw.
+---
+¹) Abdruck unten S. 534. — Vgl. The International Law Association: Report
+of the 30th Conference, The Hague 1921 (London, Sweet & Maxwell 1922).
+²) Reichsvereinigung ehemaliger Kriegsgefangener, Berlin, und Bundes-
+vereinigung der ehemaligen österreichischen Kriegsgefangenen, Wien.
 ```
 
 ## Images, Captions, And Visual Notes
-
-- No Docling picture regions were detected for this page.
-
-## Translation
-
-No translation was produced by the Docling basic conversion pass.
-
-## Interpretation
-
-No interpretation was produced by the Docling basic conversion pass.
+There are no images, illustrations, or other significant visual elements on this page.
 
 ## Uncertain Or Illegible
-
-- Automated readability flags: none
-- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
-
-## Extracted Genealogy Leads
-
-- No genealogy leads were asserted by the Docling basic conversion pass.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-- Basic Docling conversion completed for this page.
-- Rendered page image link recorded.
-- Extracted picture image count: 0.
-- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 14
-Source language: German, English (footnote)
-
-## Layout And Reading Order
-The page contains a header with a page number on the left and an author's name on the right. The main content is a single column of text, followed by a footnote at the bottom.
-
-## Literal Transcription
-6 Clemens Plassmann
-
-ziehungen zwischen den Kriegsgefangenen und den internierten
-Zivilpersonen, und diese Beziehungen müssen desto enger werden,
-je mehr die Entwicklung der modernen Kriege auch dem Nicht-
-Soldaten eine Rolle im Kampfe zuschreibt, je mehr die Technik
-und Wissenschaft den Krieg beherrscht und damit die Ansprüche
-an die körperlichen und geistigen Fähigkeiten der Kriegsteilnehmer
-wandelt, je mehr dementsprechend das ganze Volk ohne Unterschied
-von Alter und Geschlecht für den Krieg organisiert wird, wie es
-die französische Heeresreform des Jahres 1927 bereits deutlich
-erkennen lässt. Das Völkerrecht muss diese Entwicklung ver-
-folgen und seine Normen demgemäss einrichten, wenn das Fehlen
-von völkerrechtlichen Vorschriften und Bindungen später nicht
-verhängnisvoll werden soll. Von diesem Standpunkt ausgehend,
-hat die International Law Association es auch für richtig gehalten,
-das neue dornige Gebiet der sogenannten Zivilgefangenen zu be-
-arbeiten und hat in Stockholm im Jahre 1924 trotz ausdrücklicher
-Missbilligung des Instituts der Masseninternierung einen Entwurf
-zur Regelung der Rechtsverhältnisse von internierten Zivilpersonen
-aufgestellt ¹). Ich darf es bei diesem Hinweise bewenden lassen
-und mich weiterhin nur mit dem eigentlichen Kriegsgefangenen-
-recht beschäftigen, das in den meisten Fällen ja doch für die
-Regelung der Rechtsverhältnisse von internierten Zivilpersonen
-massgebend sein wird.
-Die grundlegende Wandlung des Charakters der Kriegs-
-gefangenenarbeit und die Tatsache der Masseninternierung von
-Zivilpersonen im Weltkriege habe ich deshalb vorweg berührt,
-weil sie die Projektion einer geänderten Auffassung vom Wesen
-des Krieges auf das Sondergebiet des Kriegsrechts darstellen.
-Sie zeigen deutlich das Schwächerwerden der Rousseau’schen und
-damit der kontinentalen Auffassung vom Kriege und das Vor-
-dringen des angelsächsischen Standpunktes vom „alien enemy“.
-Dieser wird bei folgerichtiger Weiterentwicklung des Gedankens
-der nation armée in unserem Zeitalter der Technik sich aller
-Wahrscheinlichkeit nach noch stärker durchsetzen. Ich will hier
-nicht werten, sondern lediglich auf eine rückläufige Tendenz auf-
-merksam machen, der man nach den Erfahrungen des Weltkrieges
-bei einer Neuregelung völkerrechtlicher Normen wird Rechnung
-tragen müssen.
-Wenn ich nach diesen Erwägungen allgemeiner Art mich jetzt
-der Wirksamkeit der L. K. O. im Weltkriege zuwende, so beab-
-sichtige ich nicht, in eine Darstellung ihrer unzähligen Verletzungen
-einzutreten. Sie stellen die negative Seite des Problems dar. Bei
-mir müssen die Fragen lauten: Welche Organisationen be-
-fassten sich mit der Überwachung der Handhabung des
-
-¹) Vgl. The International Law Association: Report of the 33rd Conference,
-Stockholm 1924 (London, Sweet & Maxwell Ltd. 1925).
-
-## Images, Captions, And Visual Notes
-No images or captions are present on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-The transcription is complete and includes all visible text on the page, including the header, main body, and footnote.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+```json
+{"visual_regions": [], "no_visual_regions_reason": "This page consists entirely of text with no images, illustrations, or other significant visual elements."}
+```
+
+# Page 22

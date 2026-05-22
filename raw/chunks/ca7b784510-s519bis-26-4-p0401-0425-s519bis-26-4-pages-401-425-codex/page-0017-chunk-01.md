@@ -1,0 +1,47 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-64fd18100c1b-P0017-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425.codex.md
+converted_sha256: 64fd18100c1b4ee36502f101fdace77ad79b756a40fd2d1207447b27ddb2198c
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/manifest.json
+page_start: 17
+page_end: 17
+part: 1
+---
+
+## Page Metadata
+Page number: 417
+
+## Layout And Reading Order
+The page contains a typewritten letter in French, dated July 24, 1931. The letter is addressed to "Monsieur Dufour Féronce" and discusses sending copies of letters to Argentina and Ecuador regarding the distribution of a brochure on education. There is a handwritten note at the top right corner. A faint watermark, "PERFECT", is visible vertically along the left side of the page. Two circular punch holes are present on the left margin.
+
+## Literal Transcription
+Pizzarros[?]
+
+Le 24 Juillet 1931.
+
+Monsieur Dufour Féronce.
+
+Je vous remets ci-joint copies des lettres que
+je viens d'envoyer en Argentine et en Equateur
+concernant la diffusion de la brochure sur l'enseigne-
+ment.
+
+## Images, Captions, And Visual Notes
+1.  **Handwritten note:** At the top right of the page, there is a handwritten word that appears to be "Pizzarros".
+2.  **Watermark:** A faint watermark reading "PERFECT" is visible vertically along the left side of the page, repeated twice.
+3.  **Punch holes:** Two circular punch holes are present on the left margin of the page, one near the top and one near the middle.
+4.  **Underline:** The phrase "Argentine et en Equateur" in the body of the letter is underlined.
+
+## Uncertain Or Illegible
+- `Pizzarros[?]`: The handwritten word at the top right is likely "Pizzarros" but due to handwriting style, there is a slight uncertainty.
+
+## Completeness Audit
+All visible text and significant visual elements on the page have been transcribed or described.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals for cropping. Handwritten note, watermark, and punch holes are described in text."}
+```

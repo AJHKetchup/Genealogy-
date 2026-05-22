@@ -1,0 +1,76 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-dd6d91604b9b-P0021-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175.codex.md
+converted_sha256: dd6d91604b9baf77d52fe019c857cc8826687386e0e4c1bf41d5400e1cec8cef
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/manifest.json
+page_start: 21
+page_end: 21
+part: 1
+---
+
+## Page Metadata
+Page: 171
+
+## Layout And Reading Order
+The page contains a single column of text. A large number '8' is centered at the top of the text block, followed by several paragraphs of narrative text.
+
+## Literal Transcription
+8
+
+campos y fué entonces cuando tomó la denominación de Cámara
+de Comercio, Industria y Agricultura. El nombre varió; pero los
+trabajos siguieron siendo los mismos. Y se explica por qué de
+ese hecho. Santo Domingo era una ciudad de bastante movimien-
+to comercial; pero la falta de buenas comunicaciones terrestres
+la mantenían aislada de otras ricas regiones del país; sus indus-
+trias manufactureras eran pocas y limitadas y su agricultura era
+pobrísima en casi todos sus alrededores. La carretera Duarte que
+la unió al Cibao, de abundante riqueza agrícola; la carretera Mella
+que la enlazó con el Este, la región de los grandes centrales azuca-
+reros, y la carretera Sánchez que la comunicó fácilmente con San
+Cristóbal, Baní, San Juan, tierras bien cultivadas, prósperas y de
+hombres laboriosos, y con la vecina República de Haití, hicie-
+ron rápidamente de Santo Domingo el centro comercial más im-
+portante de la República. La facilidad con que podía vaciar en
+sus mercados la producción agrícola de San Cristóbal, de Baní y
+del Cibao hizo a sus hombres públicos y de negocios preocuparse
+poco por el ensanchamiento de sus agricultura. La extensión de
+la ciudad destruyó muchos huertos que la abastecían de frutas se-
+lectas.
+
+Se verificaron, entonces, cambios importantes en el escena-
+rio político y a la Presidencia de la República fué un hombre or-
+ganizador y laborioso, el Gral. Rafael L. Trujillo Molina, que,
+aunque formado en la milicia, dirigió siempre su vista hacia el
+campo, como a la Jauja de la leyenda, y fomentó con desvelos y
+con cariño varias haciendas, y al lado de este hombre, como su
+más cercano colaborador, ocupó la Secretaría de Estado de Agri-
+cultura y Comercio otro dominicano activo y entusiasta, el señor
+R. César Tolentino, periodista y profesor, pero que siempre ha-
+bía sido un enamorado ferviente de la agricultura y por cuyo au-
+ge luchó constantemente en la prensa y en la Cámara de Comer-
+cio, Industria y Agricultura de Santiago.
+
+El Presidente Trujillo hizo llegar hasta el labriego el eco de
+su clarín invitando a los trabajos reconstructores a todos los domi-
+nicanos. "Este país, decía el Jefe de la Nación, es esencialmente
+agrícola y su salvación descansa en el cultivo de la tierra. Pro-
+ducir para el consumo y para la exportación es laborar por la tran-
+quilidad de la familia y por la paz de la República". Las Cáma-
+
+## Images, Captions, And Visual Notes
+The page contains no images, captions, or visual notes.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+```

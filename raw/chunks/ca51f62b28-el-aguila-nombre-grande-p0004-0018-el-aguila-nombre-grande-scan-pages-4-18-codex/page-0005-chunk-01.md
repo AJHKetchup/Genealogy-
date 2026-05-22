@@ -1,0 +1,79 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-964720ab9d85-P0005-01
+source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
+converted_sha256: 964720ab9d857dbfa09f91abbe8eff0b2ab3cf4845986ce5acaee3ec0d9ce8ed
+source: raw/sources/El Aguila Nombre Grande Scan.pdf
+source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
+source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
+page_start: 5
+page_end: 5
+part: 1
+---
+
+## Page Metadata
+Page number: 8
+
+## Layout And Reading Order
+
+The page consists of two main sections: a narrative text block at the top and an advertisement block at the bottom, separated by a horizontal line. The top section includes a header with publication details and a date. The bottom section is clearly marked as an "ANUNCIO" (Advertisement) and contains details about a lottery and a call to action. A handwritten page number "8" is present in the bottom right corner.
+
+## Literal Transcription
+
+MERO GIGANTE
+ENERO FEBRERO EL AGUILA
+---
+6
+LA EMPRESA DE VACACIONES Y LOS TECNICOS TRABAJANDO.
+
+L 6 DE ENERO LA EMPRESA SALIO A VERANEAR AL FUNDO DEL DR PULGAR,
+ERO EL DIRECTOR DECIDIO´ IRSE ESE MISMO DIA CON SU PRIMA A SU FUNDO
+LA POSADA " TOMAMOS EL NOCTURNO A SANTIAGO Y LUEGO EN SAN ROSENDO
+RANSBORDAMOS A UN AUTOMOTOR DIESEL ,, MIENTRAS TANTO LAS MAQUINAS DE
+SCRIBIR SE ENPAQUETABAN JUNTO CON LOS DEMAS UTILES PARA PRESENTAR E
+STE PERIODICO.LOS MATERIALES PARTIRIAN EN UNA CAMIONETA EL DIA 7 AL
+UNDO LOS CUARTOS -- LEGAMOS A LOS ANGELES A LAS 11½ DE LA NOCHE DONDE
+OS ESPERA EL MARIDO DE MI PRIMA EN SU AUTOMOVIL QUIEN BOS TRASLADO´ A SU
+UNDO YA MENCIONADO,DESPUES DE SUFRIR ALGUNAS DIFICULTADES AUTOMOVILISTIC.
+L FUNDO "LA POSADA" DE 485 HECTAREAS MAS O MENOS EN PARETE REGADO POR
+L CANAL BIO-BIO NORTE.PERMANECI EN ESTE FUNDO DOS DIAS LUEGO ME TRANSLA
+ARON AL FUNDO LOS CUARTOS DEL DR PULGAR DONDE ME ESPERABAN LAS MAQUINAS
+PARA LA PREPARACION DE ESTE DIARIO.POR MEDIO DE ESTE SENCILLONARTICULO
+AGO LLEGAR MIS AGRADECIMIENTOS ALOS ESPOSOS BARROS PULGAR POR LAS A
+CIONES QUE MW PRESTARON DURANTE LA ESTADIA EN SU FUNDO.
+TIMO
+---
+ANUNCIO
+POLLA CHILENA DE BENEFICENCIA
+AGENCIA GENERAL EN LOS ANGELES COLO COLO 411 CASILLA 291
+
+PARA EL DOMINGO 11 DE MARZO HABRA UN SORTEO
+CON UN GORDO DE $$$ 25.000.000 Y MILES DE
+PREMIOS MAS
+CON UNA MODESTA SUMA DE DINERO PODRA UD SER
+UN MILLONARIO PROPORCIONANDOLE ATODA SU FAMILIA
+UNA GRAN FELICIDAD
+
+VALOR DEL ENTERO $ 2.000
+DEL VIGESIMO 100
+NO SE OLVIDE Y HAGALE PUNTA . EL EXITO ES DE LOS DECIDIDOS Y
+CONSTANTES
+ROMO ORMEÑO S. C.
+8
+
+## Images, Captions, And Visual Notes
+A handwritten number "8" in red ink is present in the bottom right corner of the page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and significant visual elements on the page have been transcribed and noted.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "No substantial visuals like portraits, headshots, group photographs, labeled photographs, substantial maps, large illustrations, or source-meaningful diagrams/charts are present. The handwritten page number is noted in the 'Images, Captions, And Visual Notes' section."
+}
+```

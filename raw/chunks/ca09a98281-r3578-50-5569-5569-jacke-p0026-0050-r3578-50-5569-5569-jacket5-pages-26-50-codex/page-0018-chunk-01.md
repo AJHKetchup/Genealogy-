@@ -1,0 +1,103 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-3f28df59cd69-P0018-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50.codex.md
+converted_sha256: 3f28df59cd6992e8a93bb3e1a27ff5409fa48041ac894161f727b3475eaf3fd0
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50/manifest.json
+page_start: 18
+page_end: 18
+part: 1
+---
+
+## Page Metadata
+- Page number: 43
+
+## Layout And Reading Order
+The page contains a single column of printed text. The page number, "38", is centered at the top. The main content consists of a list of countries or rulers, each presented as a capitalized heading. Below each heading is an indented list of one or more individuals, including their titles and affiliations. The reading order is sequential from the top of the page to the bottom.
+
+## Literal Transcription
+38
+
+HER MAJESTY THE QUEEN OF THE NETHERLANDS:
+
+> His Excellency Mr. Willem Isaac Doude van Troostwijk, Envoy
+> Extraordinary and Minister Plenipotentiary of the Netherlands at
+> Berne,
+> Major-General Johan Carl Diehl, Inspector-General of the Medical
+> Corps of the Army, Vice President of the Netherland Red Cross,
+> Mr. Jacob Harberts, Commandant of the General Staff, Professor
+> at the War College;
+
+HIS IMPERIAL MAJESTY THE SHAH OF PERSIA:
+
+> His Excellency M. Anouchirevan Khan Sepahbodi, Envoy Ex-
+> traordinary and Minister Plenipotentiary of Persia at Berne;
+
+THE PRESIDENT OF THE REPUBLIC OF POLAND:
+
+> Colonel Joseph Gabriel Pracki, Medical Corps,
+> Lieutenant-Colonel W. Jerzy Babecki;
+
+THE PRESIDENT OF THE PORTUGUESE REPUBLIC:
+
+> His Excellency Sr. Vasco de Quevedo, Envoy Extraordinary and
+> Minister Plenipotentiary of Portugal at Berne,
+> Sr. Francisco de Calheiros e Menezes, First Secretary of Legation;
+
+HIS MAJESTY THE KING OF RUMANIA:
+
+> His Excellency M. Michel B. Boeresco, Envoy Extraordinary and
+> Minister Plenipotentiary of Rumania at Berne,
+> Colonel Eugene Vertejano, Officer of the General Staff;
+
+HIS MAJESTY THE KING OF THE SERBS, CROATS AND SLOVENES:
+
+> His Excellency M. Ilija Choumenkovitch, Envoy Extraordinary
+> and Minister Plenipotentiary of the Kingdom of the Serbs, Croats and
+> Slovenes at Berne, Permanent Delegate to the League of Nations;
+
+HIS MAJESTY THE KING OF SIAM:
+
+> His Serene Highness, Prince Varnvaidya, Envoy Extraordinary and
+> Minister Plenipotentiary of Siam at London;
+
+HIS MAJESTY THE KING OF SWEDEN:
+
+> His Excellency Mr. Karl Ivan Westman, Envoy Extraordinary and
+> Minister Plenipotentiary of Sweden at Berne;
+
+THE SWISS FEDERAL COUNCIL:
+
+> M. Paul Dinichert, Minister Plenipotentiary, Chief of the Division
+> of Foreign Affairs of the Federal Political Department,
+> Colonel Carl Hauser, Medical Corps, Surgeon General of the Army,
+> M. Anton Züblin, Infantry Colonel unassigned, Attorney,
+> Lieutenant-Colonel Roger de la Harpe, Medical Corps, Surgeon,
+> Major Dietrich Schindler, Judge Advocate General's Department,
+> Professor of International Law at the University of Zürich;
+
+THE PRESIDENT OF THE CZECHOSLOVAK REPUBLIC:
+
+> His Excellency M. Zdeněk Fierlinger, Envoy Extraordinary and
+> Minister Plenipotentiary of Czechoslovakia at Berne;
+
+## Images, Captions, And Visual Notes
+There are no images, captions, or other visual elements on this page. The page consists entirely of printed text.
+
+## Uncertain Or Illegible
+There are no uncertain or illegible words on this page.
+
+## Completeness Audit
+This page has been transcribed in its entirety.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only printed text with no illustrations, photographs, or other significant visual elements."
+}
+```
+
+# Page 44

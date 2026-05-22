@@ -1,0 +1,83 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2b0d4c261d20-P0018-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350.codex.md
+converted_sha256: 2b0d4c261d206a7ec37b7a5270b96f361987d5f73728cd98e52eb72fd9941afc
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/manifest.json
+page_start: 18
+page_end: 18
+part: 1
+---
+
+## Page Metadata
+- Page number: 343
+- Source publication year: Undetermined (not on page)
+- Source publication title: Undetermined (not on page)
+- Language: French
+
+## Layout And Reading Order
+The page contains a single column of text, divided into two main sections with headings "CHINE." and "ÉTATS-UNIS.". The text flows continuously within these sections. A page number "47" is present at the bottom right.
+
+## Literal Transcription
+
+CHINE.
+
+Un certain nombre d'infirmières de la Croix-Rouge chinoise sont
+employées dans l'hygiène industrielle et font des visites à domicile
+aux familles des ouvriers. La Croix-Rouge s'occupe également
+d'hygiène de l'enfance. Durant l'été, des infirmières de la Croix-Rouge
+prêtent leur concours à l'hôpital pour le soin des malades atteints
+du choléra. Elles sont aussi employées à l'Institut de Nanton pour
+baigner les bébés et vacciner les enfants. Les infirmières travaillent
+aussi dans un dispensaire pour femmes et enfants rattaché à un hôpital
+privé. La direction d'une manufacture de tabac ayant fait appel à
+la Croix-Rouge, cette société a mis une infirmière à sa disposition
+pour le travail du dispensaire et pour donner des cours d'hygiène
+aux employés.
+
+ÉTATS-UNIS.
+
+Le service des infirmières visiteuses de la Croix-Rouge américaine,
+désirant développer l'œuvre d'hygiène sociale dans les campagnes
+et les petites villes, envoie des infirmières visiteuses dans toutes les
+localités où le besoin s'en fait sentir. Au 1er janvier 1928, 568 services
+d'infirmières visiteuses comportant 757 infirmières avaient été créés
+et étaient subventionnés, en totalité ou en partie, par les sections
+locales de la Croix-Rouge.
+
+La Croix-Rouge américaine créa les premiers services ruraux
+d'infirmières visiteuses en 1912 et, cette œuvre ayant donné
+d'excellents résultats, elle entreprit, en 1919, de la développer sur
+une grande échelle, la considérant comme l'une des plus importantes
+activités du temps de paix.
+
+Le siège central de la Croix-Rouge américaine indique la ligne de
+conduite à suivre, élabore les programmes, trace les méthodes admi-
+nistratives à suivre, établit les rapports avec les institutions nationales
+et gouvernementales et conclut avec elles les accords relatifs au travail,
+assure aux sections les services d'un personnel compétent, et exerce
+une surveillance générale.
+
+Grâce au comité consultatif d'infirmières visiteuses du siège central
+et au personnel composé en grande partie d'infirmières visiteuses, qui
+est chargé de la surveillance des activités extérieures, la Croix-Rouge
+se trouve en mesure d'aider les infirmières visiteuses des sections
+locales, soit par correspondance, ou bien encore par des entrevues au
+siège central, des publications, des visites à la section locale et un
+système de rapports mensuels.
+
+47
+
+## Images, Captions, And Visual Notes
+None.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and includes all visible text and the page number.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present on the page. The page contains only text and a page number."}

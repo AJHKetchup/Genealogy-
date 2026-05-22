@@ -11,8 +11,6 @@ page_end: 103
 part: 1
 ---
 
-# Page 103
-
 ## Page Metadata
 
 - Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
@@ -88,38 +86,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 104
-Source document page number: 33
-
-## Layout And Reading Order
-The page contains a centered page number, a centered article title, and a block of text. The reading order is top-to-bottom.
-
-## Literal Transcription
-```
-— 33 —
-
-ARTICLE 50.
-
-Les peines disciplinaires, qui pourront être prononcées par les commandants des dépôts de prisonniers de guerre
-ou par les autorités militaires inférieures autres que les tribunaux, seront exclusivement :
-    pour les officiers et assimilés : la réprimande à huis clos, la réprimande en présence d'officiers de grade égal ou supérieur
-présents au dépôt, les arrêts pour trente jours au plus ;
-    pour les sous-officiers et soldats : le blâme infligé à huis clos ou devant le rang, les arrêts pour trente jours au plus.
-La durée d'une même punition ne peut, en aucun cas, dépasser trente jours.
-```
-
-## Images, Captions, And Visual Notes
-There are no substantial images, captions, or visual notes on this page. There are minor tears/creases visible on the bottom right edge of the page, but these are not considered meaningful visual evidence for cropping.
-
-## Uncertain Or Illegible
-All text on the page is clear and legible.
-
-## Completeness Audit
-The transcription is complete and includes all visible text from the page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content like portraits, maps, or diagrams. Minor page imperfections are not cropped."}
-```

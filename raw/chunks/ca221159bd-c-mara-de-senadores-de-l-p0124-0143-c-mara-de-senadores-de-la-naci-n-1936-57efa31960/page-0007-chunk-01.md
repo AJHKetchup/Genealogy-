@@ -1,0 +1,86 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9d4c4f09692c-P0007-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143.codex.md
+converted_sha256: 9d4c4f09692caad31e25fca22667908e3e0fe44e57696c4a1796d053c485070b
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json
+page_start: 7
+page_end: 7
+part: 1
+---
+
+## Page Metadata
+Page number: 127
+
+## Layout And Reading Order
+
+The page contains a single column of text, primarily legal or regulatory articles, with a page number centered at the top. The text is structured with article numbers and headings.
+
+## Literal Transcription
+
+```
+— 127 —
+
+Pasajeros en tren sin parada en la
+estación indicada en su boleto.
+
+Art. 139. — Todo pasajero que tomare un tren que no tu-
+viere parada en la estación indicada en su boleto, deberá dar
+aviso al guardatrén antes de la última estación anterior a la
+misma. En este caso se aplicará lo dispuesto en el artículo
+precedente.
+
+En caso contrario, abonará el importe del pasaje entre la
+estación indicada en el boleto y la primera posterior en que se
+detenga el tren, más el 100 % de recargo.
+
+Cambio de clase.
+
+Art. 140. — Los pasajeros de segunda clase podrán viajar
+en coches de primera, siempre que comuniquen previamente
+al guardatrén su intención de hacerlo, y abonen la diferencia
+del valor del pasaje desde la estación, donde cambiasen de
+clase.
+
+Si el pasajero no cumpliera con el requisito de avisar al
+guardatrén, abonará el importe de la diferencia desde la es-
+tación mencionada en su boleto, más el recargo del 100 % sobre
+el importe de la diferencia.
+
+Pasajeros sin boleto o con boleto
+vencido. Procedimiento.
+
+Art. 141. — Todo pasajero deberá proveerse de su respectivo
+boleto antes de subir al tren.
+
+El pasajero que infrinja esta disposición, viajando sin bo-
+leto o con boleto de fecha vencida, abonará el pasaje desde el
+punto donde haya subido hasta la primera estación donde se
+detenga el tren, más el recargo del 100 % del importe del
+boleto correspondiente a este trayecto. Al llegar a dicha es-
+tación el pasajero deberá abonar un boleto hasta la estación
+de destino.
+
+Si el precio del pasaje hasta la primera estación de parada
+del tren fuese igual al de la siguiente o subsiguiente, los dere-
+```
+
+## Images, Captions, And Visual Notes
+
+None.
+
+## Uncertain Or Illegible
+
+None.
+
+## Completeness Audit
+
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+```

@@ -1,0 +1,87 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7cea9ec2f921-P0006-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425.codex.md
+converted_sha256: 7cea9ec2f921754ce85a61f145f69eee92e63dac780ded16825a8529545077fa
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425/manifest.json
+page_start: 6
+page_end: 6
+part: 1
+---
+
+## Page Metadata
+Page: 406
+
+## Layout And Reading Order
+The page presents a single column of text, starting with a header, followed by a title, date, and several paragraphs of text, some of which are indented and numbered as resolutions or statements. A page number is centered at the bottom.
+
+## Literal Transcription
+COMITÉ INTERNATIONAL
+DE LA CROIX-ROUGE
+
+Annexe N° I.
+
+AUX ÉTATS SIGNATAIRES DE LA CONVENTION DE GENÈVE.
+
+Guerre chimique et bactériologique.
+
+Genève, le 30 juin 1926.
+
+La XIIme Conférence internationale de la Croix-Rouge, réunie à
+Genève en octobre 1925 et à laquelle participaient les délégués de
+39 Gouvernements et de 44 Croix-Rouges nationales, a adopté à
+l'unanimité la résolution suivante :
+
+« La XIIme Conférence internationale de la Croix-Rouge,
+
+« 1º Prend acte, avec une vive satisfaction, du fait que le proto-
+cole de Genève du 17 juin 1925, confirmant et complétant le traité de
+Washington du 6 février 1922 et le traité de Versailles du 28 juin 1919,
+a solennellement condamné la guerre chimique et la guerre bacté-
+riologique.
+
+« Elle émet le vœu que ce protocole soit ratifié le plus rapidement
+possible et que les Etats qui n'y ont pas encore adhéré, le fassent
+dans le plus bref délai.
+
+« 2º Au cas où cette interdiction viendrait à être violée, elle estime
+qu'il est du devoir de la Croix-Rouge de rechercher dès le temps de
+paix, en collaboration avec les autorités civiles et militaires, les moyens
+de protéger et de soigner son personnel, les armées belligérantes et,
+tout spécialement, les populations civiles contre les atteintes de la
+guerre chimique.
+
+« Le Comité international est chargé de se tenir au courant de la
+réalisation de ce programme et d'entrer en rapports avec les Sociétés
+nationales à ce sujet.
+
+« 3º D'une façon générale, la lutte morale et la propagande contre
+l'emploi des poisons de combat et contre la guerre bactériologique,
+de même que la préparation scientifique et technique des meilleurs
+moyens préventifs et thérapeutiques contre de telles méthodes de
+guerre, doivent passer au premier plan des préoccupations de la
+Croix-Rouge internationale et des Croix-Rouges nationales. »
+
+Le Compte rendu de la XIIme Conférence qui vient de paraître
+rappelant les délibérations sur ce sujet, le Comité international de la
+Croix-Rouge porte officiellement cette résolution à la connaissance
+des Gouvernements, en exécution de la décision de la XIIme Confé-
+rence internationale, et se permet d'appuyer chaleureusement le
+
+— 7 —
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
+
+# Page 407

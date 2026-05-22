@@ -1,0 +1,76 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-43656c2efa76-P0011-01
+source_converted: raw/converted/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75.codex.md
+converted_sha256: 43656c2efa768274b3314087a11dfa425dcf29db71eae5f6ab9836c6de612ce5
+source: raw/sources/S179-34-6.pdf
+source_sha256: 5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054
+source_manifest: raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75/manifest.json
+page_start: 11
+page_end: 11
+part: 1
+---
+
+## Page Metadata
+- Page number: 61
+
+## Layout And Reading Order
+The page contains typed text in a single column, formatted as articles with headings. There are several handwritten annotations, including strike-throughs, interlinear insertions, and a circled word. A page number is present in the top right corner.
+
+## Literal Transcription
+Article 12. The Medical Department shall provide registered
+women with a medical booklet which must be shown at every
+inspection. The booklet shall contain the woman's photograph,
+identification marks and all necessary information. After
+every inspection the state of health of the woman shall be
+entered in this booklet, and, in case of sickness, this must be
+specified, stating whether contagious or not.
+
+ISOLATION.
+
+Article 13. Every prostitute suffering from a venereal
+~~disease~~ illness or syphilis in a state of contagio~~n~~ous stage must be sent to
+hospital.
+
+Article 14. For this purpose a syphilitic ward shall be
+installed, the organisation of which will be carried out by the
+National Health Council.
+
+Article 15. The Medical Department shall advise the police
+daily in writing concerning the registered ~~women~~ prostitutes who have to
+be sent to hospital.
+
+GENERAL PROVISIONS.
+
+Article 16. The Medical Department shall publish yearly
+~~sanitary~~ health statistics concerning prostitution.
+
+Article 17. The product of all fines imposed for infractions
+of the present regulations shall be allocated for the support
+and amelioration of the (service) = prophylactic.
+
+PROVISIONAL
+clauses
+PROVISIONS.
+
+Pending the establishment of a syphilitic ward for the
+reception of all prostitutes suffering from syphilis or
+venereal disease as laid down in Article 14 of the present
+59
+
+## Images, Captions, And Visual Notes
+- The number "59" is handwritten in the top right corner of the page.
+- In Article 13, the word "disease" is struck through, and "illness" is handwritten above it. The phrase "ous stage" is handwritten above the word "contagion".
+- In Article 15, the word "prostitutes" is handwritten above the word "women".
+- In Article 16, the word "health" is handwritten above the word "sanitary".
+- In Article 17, the word "service" is circled, and "prophylactic" is handwritten to its right, with an equals sign "=" between them.
+- Below the "PROVISIONAL PROVISIONS." heading, the word "clauses" is handwritten above "PROVISIONS.".
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and handwritten annotations have been transcribed. The last line of text is cut off at the bottom of the page.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals for cropping. All meaningful visual information is captured in the literal transcription and visual notes."}

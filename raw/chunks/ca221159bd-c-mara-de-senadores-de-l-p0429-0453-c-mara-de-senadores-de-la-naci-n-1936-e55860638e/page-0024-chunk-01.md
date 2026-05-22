@@ -1,0 +1,75 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-456e9450ae01-P0024-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453.codex.md
+converted_sha256: 456e9450ae016657cf20906d671a985ea52070936024ec0dc6717d4476d30971
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453/manifest.json
+page_start: 24
+page_end: 24
+part: 1
+---
+
+## Page Metadata
+Page number: 452
+
+## Layout And Reading Order
+The page presents a single column of text, primarily consisting of legal articles and headings. The page number is centered at the top. The content flows from top to bottom, starting with a continuation of an article, followed by a main title, a subtitle, and then a series of new articles.
+
+## Literal Transcription
+— 127 —
+
+a) Detenerse de inmediato;
+b) Dar aviso a la Policía del lugar;
+c) Ofrecer ayuda y proporcionar socorros a las víctimas y
+conducirlas hasta el puesto de auxilio, hospital o domicilio del
+médico más próximo en caso necesario.
+Art. 96. Los propietarios o encargados de garages, talleres
+de reparaciones o estaciones de servicios que reciban o donde
+se lleven vehículos con desperfectos o señales que evidencien
+haber sido afectados por un accidente, darán noticia al puesto
+policial más próximo, dentro de las veinticuatro horas y con
+las características del vehículo y los datos necesarios para in-
+dividualizar al conductor.
+
+TITULO X
+
+USO DEL CAMINO POR CONCESIONARIOS DE SERVI-
+CIOS PUBLICOS.
+
+Art. 97. Los vehículos destinados al servicio privado de trans-
+porte de pasajeros y cargas, gozan de libre circulación en los
+caminos, con sujeción a las normas del presente reglamento.
+Art. 98. Los vehículos destinados a explotar servicios públi-
+cos de transporte de pasajeros o de cargas, sólo podrán cir-
+cular previa concesión especial otorgada por la Dirección Na-
+cional de Vialidad o por las autoridades locales competentes en
+su caso.
+Art. 99. Cuando los servicios hayan de prestarse en caminos
+nacionales y entre dos o más provincias, o entre éstas y la
+Capital Federal, o entre una Provincia y un Territorio Nacio-
+nal, o en los Territorios Nacionales, de modo que el recorrido
+haya de cumplirse dentro de dos o más jurisdicciones, la con-
+cesión será otorgada por la Dirección Nacional de Vialidad, a
+título precario y hasta tanto se dicte la Ley Nacional de Trá-
+fico, y dentro de las condiciones del reglamento que proyecte
+y someta a la aprobación del Poder Ejecutivo.
+Art. 100. Al preparar esa reglamentación, la Dirección Na-
+cional de Vialidad incluirá en ella las disposiciones necesarias
+para la seguridad de las personas, para el uso adecuado del
+camino y el establecimiento de servicios regulares y capaces
+
+## Images, Captions, And Visual Notes
+There are no substantial images or visual elements on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
+```

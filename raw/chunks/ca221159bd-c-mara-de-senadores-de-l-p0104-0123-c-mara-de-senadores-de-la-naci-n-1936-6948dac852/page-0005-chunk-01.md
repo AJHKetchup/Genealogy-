@@ -1,0 +1,74 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b40e6729f957-P0005-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123.codex.md
+converted_sha256: b40e6729f95796966fbd379c47ad9ee6b28f44d5a0777ab1a4d2ab1b2bfc156f
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json
+page_start: 5
+page_end: 5
+part: 1
+---
+
+## Page Metadata
+Page number: 105
+
+## Layout And Reading Order
+The page contains a single column of text. At the top, centered, is the page number "105". Below that, the main content consists of a continuation of a numbered list (starting with item "e)", then "8º", "9º", and "10."), followed by a sub-heading and an article ("Art. 95.").
+
+## Literal Transcription
+— 105 —
+
+del tren, éste podrá seguir la marcha observando pre-
+caución hasta la primera señal que funcione normalmen-
+te, o hasta la primera estación o garita, donde deberá
+parar para poner el hecho en conocimiento del jefe de
+la estación o del señalero.
+e) Tratándose de una señal de parada absoluta no automá-
+tica descompuesta, y en caso de que el conductor del tren
+no tenga conocimiento de dicha anomalía, deberá dete-
+nerse hasta que reciba instrucciones verbales o le hagan
+las señales a mano correspondientes.
+8º Las instalaciones semiautomáticas o las del sistema nor-
+mal controladas por un sistema automático, deben ser
+provistas de dispositivos que impidan que una señal pue-
+da ser puesta en posición de vía libre o de precaución,
+hasta tanto no esté desocupado todo el trecho de vía que
+gobiernan; que asegure la colocación de todos los cam-
+bios afectados en su posición correspondiente; que man-
+tenga a peligro todas las señales antagónicas; y que im-
+pida a la vez que sean movidos los cambios afectados,
+mientras no hayan sido librados por el tren.
+9º Cuando una Sección Block, dotada de señalización auto-
+mática, linde con otra manejada a mano, debe adoptar-
+se un dispositivo que obligue a que la primera señal
+manejada a mano sea puesta a peligro antes de que la
+señal automática que la precede pueda ocupar nueva-
+mente la posición de precaución o la de vía libre.
+10. En los circuitos de vía correspondientes a secciones block
+provistas de señalización automática, ya sea de dos, tres
+o cuatro indicaciones, debe emplearse como norma el sis-
+tema de recubrimiento entero.
+
+Indicaciones de los diferentes brazos
+de los semáforos.
+
+Art. 95. — Cuando un semáforo esté dotado de dos o más
+brazos o luces a diferente altura, el más alto gobernará la vía
+principal y la altura de los demás deberá corresponder a la
+importancia de su respectiva vía.
+
+## Images, Captions, And Visual Notes
+There are no images or significant visual elements on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+```

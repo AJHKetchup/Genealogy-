@@ -1,0 +1,79 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-c37b3e8f61d7-P0006-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378.codex.md
+converted_sha256: c37b3e8f61d74da140296b94824e811b73dfb8cc4d16062ee8b34dd8d079a6f8
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json
+page_start: 6
+page_end: 6
+part: 1
+---
+
+## Page Metadata
+- Page number: 359
+- Source publication: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
+- Source page range: 354-378
+
+## Layout And Reading Order
+
+The page contains a running head with the author's name and page number, followed by a continuous block of text, which includes several quoted paragraphs and ends with a footnote.
+
+## Literal Transcription
+
+CARLOS SILVA CÓTAPOS
+339
+
+irregularidad, i por lo tanto inhabilidad para el ejer-
+cicio del sagrado ministerio.
+
+Sobre la parte que hubiera podido caberle en la
+revolución el arzobispo pedía explicaciones a Eiza-
+guirre. A mas de esto el prelado le hacía los siguien-
+tes cargos:
+
+«Se agrega a lo dicho que tengo datos para juzgar
+que la compañía de hombres de malas ideas le han
+pegado, quizá sin que Ud. lo entienda, algunos resa-
+bios de peligrosa doctrina i sobre esto era mui prin-
+cipalmente sobre lo que yo quería hacerle mis amis-
+tosas moniciones.
+
+«No me parecía bien que Ud. mantuviese relaciones
+íntimas con los que escriben en los periódicos que
+apoyaron a Bilbao cuando escribió contra la relijión.
+Sin hacer Ud. una manifestación pública de que con-
+denaba su liga podía atribuírsele alguna connivencia:
+mas entonces no le quise decir nada, porque oí que
+Ud. había protestado a otros eclesiásticos que repro-
+baba, como era de esperarse, tales publicaciones.
+
+«Lo mismo me sucedió cuando Federico Errázuriz
+lanzó su filípica contra el ministerio sacerdotal, en
+la persona de los párrocos (1), i avanzó algunas pro-
+posiciones de mal sabor en el discurso de su recep-
+ción; i mui principalmente cuando, proponiendo te-
+mas para el premio, quiso hacer alarde de sus perni-
+ciosas creencias acerca del matrimonio de los protes-
+tantes con los católicos. No era posible que una he-
+chura de Ud. en su carrera teolójica i política como
+el dicho Federico, se atreviese a proclamar tales
+ideas contra la voluntad de Ud. Mas, apenas me dijo
+
+(1) Discurso de incorporación a la facultad de teolojía: *Anales
+de la Universidad*, tomo VI, pág. 95.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
+```

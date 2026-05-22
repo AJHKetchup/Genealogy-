@@ -1,0 +1,92 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-0c7431cd7d77-P0025-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100.codex.md
+converted_sha256: 0c7431cd7d775a16ff443ec7ba8f8dde22510706bdc74ef36e9a40bdf5ba2e10
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100/manifest.json
+page_start: 25
+page_end: 25
+part: 1
+---
+
+## Page Metadata
+Page number: 100
+Source document page number: 36
+
+## Layout And Reading Order
+
+The page contains a single column of text, primarily in French. It includes a main body of text with headings, numbered lists, and a footnote at the bottom. Page numbers are present at the top left and top right.
+
+## Literal Transcription
+
+514 36
+
+M. Ivan Manuel Hurtado-Machado, Chargé d'Affaires p. i. de
+Vénézuéla à Berne,
+
+Lesquels, après s'être communiqué leurs pleins pouvoirs,
+trouvés en bonne et due forme, sont convenus de ce qui suit:
+
+**TITRE I.**
+
+**Dispositions générales.**
+
+Article premier.
+
+La présente Convention s'appliquera, sans préjudice des sti-
+pulations du Titre VII:
+
+1) à toutes les personnes visées par les articles 1er, 2 et 3 du
+Règlement annexé à la Convention de La Haye concernant les
+lois et coutumes de la guerre sur terre, du 18 octobre 1907,
+et capturées par l'ennemi;¹
+
+2) à toutes les personnes appartenant aux forces armées des
+parties belligérantes, capturées par l'ennemi au cours d'opéra-
+tions de guerre maritimes ou aériennes, sous réserve des déro-
+gations que les conditions de cette capture rendraient inévitables.
+Toutefois, ces dérogations ne devront pas porter atteinte aux
+principes fondamentaux de la présente Convention; elles pren-
+dront fin dès le moment où les personnes capturées auront
+rejoint un camp de prisonniers de guerre.
+___
+¹ Règlement annexé: Art. 1er. — Les lois, les droits et les devoirs
+de la guerre ne s'appliquent pas seulement à l'armée, mais encore aux
+milices et aux corps de volontaires réunissant les conditions suivantes:
+1° d'avoir à leur tête une personne responsable pour ses subor-
+donnés;
+2° d'avoir un signe distinctif fixe et reconnaissable à distance;
+3° de porter les armes ouvertement et
+4° de se conformer dans leurs opérations aux lois et aux coutumes
+de la guerre.
+Dans les pays où les milices ou des corps de volontaires constituent
+l'armée ou en font partie, ils sont compris sous la dénomination d'armée.
+Art. 2. — La population d'un territoire non occupé qui, à l'approche
+de l'ennemi, prend spontanément les armes pour combattre les troupes
+d'invasion, sans avoir eu le temps de s'organiser conformément à
+l'article premier, sera considérée comme belligérante si elle porte les
+armes ouvertement et si elle respecte les lois et coutumes de la guerre.
+Art. 3. — Les forces armées des Parties belligérantes peuvent se
+composer de combattants et de non-combattants. En cas de capture
+par l'ennemi les uns et les autres ont droit au traitement des prison-
+niers de guerre.
+
+## Images, Captions, And Visual Notes
+
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+
+None.
+
+## Completeness Audit
+
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for region cropping."}
+```

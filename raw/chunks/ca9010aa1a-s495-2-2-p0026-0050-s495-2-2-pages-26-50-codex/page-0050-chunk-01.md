@@ -11,8 +11,6 @@ page_end: 50
 part: 1
 ---
 
-# Page 50
-
 ## Page Metadata
 
 - Source: `raw/sources/S495-2-2.pdf`

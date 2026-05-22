@@ -1,0 +1,81 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-383178d699a3-P0023-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0226-0250-s522bis-29-3-pages-226-250.codex.md
+converted_sha256: 383178d699a3eba5670be331d33418b93ae1e340af956ccbaa9ed106462f78b1
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0226-0250-s522bis-29-3-pages-226-250/manifest.json
+page_start: 23
+page_end: 23
+part: 1
+---
+
+## Page Metadata
+Page: 248
+
+## Layout And Reading Order
+
+The page contains a single column of text. At the top, there is a page number on the left and a heading on the right. Below this, the main content consists of several paragraphs, some of which are numbered. The text flows continuously from top to bottom.
+
+## Literal Transcription
+
+23
+OPINION INDIVIDUELLE DE M. ANZILOTTI
+
+Il s'ensuit que toute discussion sur la compatibilité de telle
+ou telle disposition faisant partie du statut de la Ville libre
+avec la Partie XIII du Traité de Versailles doit assumer comme
+point de départ le fait que la Ville libre se trouverait être
+membre de l'Organisation internationale du Travail, avec le
+consentement de la Pologne et sans opposition de la part des
+organes compétents de la Société des Nations.
+
+8. — Ce consentement semble pouvoir être compris de deux
+manières différentes.
+
+On peut tout d'abord se demander s'il est question seule-
+ment du consentement que la Pologne donnerait à l'admission
+de la Ville libre dans l'Organisation internationale du Travail
+sous réserve de toutes les dispositions actuellement en vigueur.
+La question à résoudre serait alors la suivante: Pareil consente-
+ment aurait-il pour effet de mettre la Ville libre en situation
+de pouvoir participer aux activités de l'Organisation internatio-
+nale du Travail et s'acquitter des obligations qui incombent
+aux membres de celle-ci? Cela revient à se demander si toutes les
+dispositions qui règlent actuellement les rapports entre la Ville
+libre et la Pologne, surtout en ce qui concerne la conduite des
+affaires extérieures, sont compatibles avec les dispositions de
+la Partie XIII du Traité de Versailles. On peut facilement
+admettre qu'il y a des cas dans lesquels cette compatibilité
+est au moins douteuse.
+
+Telle ne semble cependant pas être la question posée. Il
+convient en effet de considérer que cette question se réfère au
+statut juridique spécial de la Ville libre dans son ensemble,
+donc aussi pour autant qu'il admet ou exclut la possibilité de
+changements. Ce point de vue paraît également répondre à la
+manière de voir et aux désirs des intéressés. Il est certain que
+les représentants de la Pologne et de la Ville libre et le Direc-
+teur du Bureau international du Travail ont souligné qu'il ne
+s'agissait pas de trancher un différend, mais d'éclaircir une
+situation juridique douteuse et de chercher une voie qui per-
+mettrait à la Ville libre de bénéficier des avantages de
+l'Organisation internationale du Travail. C'est pourquoi je pense
+que le consentement que la Pologne pourrait donner à l'admis-
+sion de la Ville libre dans cette Organisation doit être envisagé
+à un point de vue plus général.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None. The text is clear and legible.
+
+## Completeness Audit
+The transcription is complete and includes all visible text on the page.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+```

@@ -1,0 +1,72 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d92c05086361-P0005-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478.codex.md
+converted_sha256: d92c05086361b1da01ebe5f0698b04586b5f85d43f840c2864a12262509ea416
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json
+page_start: 5
+page_end: 5
+part: 1
+---
+
+## Page Metadata
+- Page number: 438
+- Header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+## Layout And Reading Order
+The page consists of a single column of text. It begins with a continuation of a paragraph from the previous page, followed by several paragraphs discussing financial results. Towards the bottom, there are two numbered sections, the first of which presents data in a list/table format, and the second is a bibliographic reference.
+
+## Literal Transcription
+438 MEMORIAS CIENTÍFICAS I LITERARIAS
+
+rias del convertidor, el cobre líquido es vaciado en
+los carros para ser conducido hasta el «recibidor»
+de 30 toneladas. Movido por fuerza hidrostática,
+el recibidor va vaciando el cobre en moldes de 4"
+por 24" por 36", que van pasando sucesivamente
+por medio de trasportador. Un chorro de agua enfría
+los moldes, i las barras van cayendo a una «cancha»
+especial.
+    Cada barra pesa cien kilogramos i tiene una lei
+de 99 a 99.5%.
+    La fundición tiene una producción diaria de 40
+a 50 toneladas (5).
+    § 8 Resultados financieros del año 1917.—A estar
+a las informaciones de carácter oficial de la última
+memoria dada a conocer en Estados Unidos (6) «las
+operaciones efectuadas en 1917 fueron por valor de
+13.041.925 dólares i los gastos 6.699.726 dólares,
+dejando una utilidad de 6.342.199 dólares.
+    Otras entradas ascendieron a 876.937 dólares.
+Las contribuciones e intereses absorbieron 1.110.749
+dólares, i 3.245.276 otros castigos (gastos de ma-
+quinarias, reparaciones, de preservación, etc.).
+    El producto neto fué entonces 2.863.111 dólares,
+más 406,621 de reservas de que no hubo necesidad de
+—
+5 El trabajo, en resúmen, de la fundición por día es el siguiente:
+    Toneladas de concentrados......... 350
+    »       de cobre consumidas... 60
+    »       de aceite............. 10
+    »       de ejes convertidos... 150
+    N.º de hombres empleados......... 60
+    Enerjía eléctrica: 1.500 HP..... —
+—
+6. *Mining and Scientific Press*, California, (N.º de Setiembre 7 de
+1918.)
+
+## Images, Captions, And Visual Notes
+There are no images or significant visual elements on this page that require extraction.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+```

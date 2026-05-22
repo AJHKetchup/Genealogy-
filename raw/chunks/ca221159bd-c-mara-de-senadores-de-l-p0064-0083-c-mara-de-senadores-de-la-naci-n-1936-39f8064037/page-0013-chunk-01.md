@@ -1,0 +1,77 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9866cf947fc6-P0013-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83.codex.md
+converted_sha256: 9866cf947fc65a6fd489b11043c32bcc32e2467c9c7cb1a4820c0df54a7e9c93
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json
+page_start: 13
+page_end: 13
+part: 1
+---
+
+## Page Metadata
+- Page number: 76
+- Source publication year: 1936
+
+## Layout And Reading Order
+The page presents a single column of text. At the top center, there is a page number. The content consists of several paragraphs, some introduced by bolded headings, followed by a numbered article and a list of exceptions.
+
+## Literal Transcription
+
+— 73 —
+
+En los furgones de los trenes de pasajeros y mixtos, además
+de esos elementos, un botiquín, una camilla plegadiza y un
+teléfono o velocípedo de vía.
+
+La Dirección General de Ferrocarriles determinará qué
+trenes podrán prescindir de algunos de esos elementos.
+
+Es deber del personal verificar la existencia de los útiles
+reglamentarios y señalar a quien corresponda las faltas even-
+tuales en las locomotoras y en los trenes, sin que dicha falta
+exima al personal de la obligación de despachar o conducir los
+trenes conforme a lo previsto en el artículo 3º.
+
+**“Locomotora titular”. Definición.**
+
+Art. 32.— La locomotora que remolque un tren se desig-
+nará con el nombre de locomotora titular y, en caso de trac-
+ción múltiple, la locomotora titular será la colocada a la ca-
+beza del tren.
+
+Cuando circulen dos locomotoras solas acopladas, la titular
+será la que va adelante.
+
+**Posición de marcha de la locomo-**
+**tora titular.**
+
+Art. 33.— Las locomotoras titulares marcharán con la chi-
+menea hacia adelante y el ténder hacia atrás.
+
+Esta prescripción no se aplicará:
+
+a) Al efectuar maniobras en las estaciones y entre éstas y
+sus playas anexas.
+b) En los trenes de balasto.
+c) En caso de accidente o socorro.
+d) A las locomotoras-tanque o con ténder de tipo especial.
+e) Para facilitar la corrida de trenes vacíos o de trabajo
+a puntos donde o en cuyas inmediaciones no existan mesas
+giratorias u otros medios equivalentes.
+f) Cuando mediare autorización de la Dirección General de
+Ferrocarriles.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on the page."}

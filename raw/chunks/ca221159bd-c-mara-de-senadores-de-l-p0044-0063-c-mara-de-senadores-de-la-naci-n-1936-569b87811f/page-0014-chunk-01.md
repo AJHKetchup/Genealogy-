@@ -1,0 +1,71 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6dccfc91b3b3-P0014-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63.codex.md
+converted_sha256: 6dccfc91b3b3f801aedf3a41141adda4ccc0ee5d6e25a30ef483034bcc6522ae
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json
+page_start: 14
+page_end: 14
+part: 1
+---
+
+## Page Metadata
+Page number: 57
+
+## Layout And Reading Order
+The page consists of a single column of text. A page number is centered at the top. The text flows continuously, with the last paragraph ending mid-word, indicating continuation on the next page.
+
+## Literal Transcription
+— 53 —
+
+La imperfecta redacción de los artículos vigentes en relación
+a los plazos del transporte de haciendas, ha dado lugar a inter-
+pretaciones y fallos judiciales algunas veces contradictorios.
+La Comisión prestó consideración meticulosa a este punto, con-
+vencida de la necesidad de aclarar y sistematizar esas disposi-
+ciones, para evitar perjuicios al público o a las mismas em-
+presas, derivados de aquel inconveniente.
+En virtud de ello ha sometido todos los plazos, sea para
+trenes de horario, para trenes mixtos o para trenes especiales,
+no mediando convención especial de esta última clase, a los
+establecidos en el nuevo artículo 366, ha hecho una excepción
+para los transportes de ganado en trenes de carga, conside-
+rando que por sus propias modalidades o por exigencias de sus
+horarios, no podrían adaptarse a aquellos plazos, y por ello
+los ha aumentado en un 50 % en relación a los de la tabla,
+modificando así la jurisprudencia de Tribunales que le atri-
+buían los plazos para la carga del artículo 222, excesivamente
+amplios.
+Para todos los casos, la Comisión ha decidido que el mo-
+mento a partir del cual correrán los plazos será el del actual
+art. 351º, o sea desde las dos horas de efectuado el embarque
+de la hacienda. Se ha considerado que contar los plazos desde
+las 24 horas, en modo inflexible para todos los casos, sería
+enervar la facultad del Poder Ejecutivo para fijar plazos me-
+nores para el transporte, de acuerdo a la Ley Nº 2873 y al
+Código de Comercio.
+La Comisión contempló la posibilidad de reducir los plazos
+en esta clase de transporte, especialmente en lo que hace a los
+trenes de horario. Pero al profundizar las investigaciones y
+estudios relativos vió que se encontraba frente a un problema
+que no era fácil resolver en forma unilateral, por cuanto las
+empresas están forzadas a adaptarse a las condiciones de fun-
+cionamiento, instalaciones, etc., de los mercados públicos de
+hacienda. El número limitado de horas en que funcionan, dan
+por resultado que frecuentemente quede bloqueada la descarga
+de hacienda, aparte del tiempo requerido por la inspección
+veterinaria. De ahí que muchos trenes llegados en horas tem-
+
+## Images, Captions, And Visual Notes
+None.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed. The last word of the page is hyphenated, indicating the text continues on the subsequent page.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}

@@ -1,0 +1,74 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ebca5d858db2-P0015-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43.codex.md
+converted_sha256: ebca5d858db29c6144565c0587b7ef74675d3c0c84577aa35babaf97b4555dee
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43/manifest.json
+page_start: 15
+page_end: 15
+part: 1
+---
+
+## Page Metadata
+Page number: 34
+
+## Layout And Reading Order
+The page contains a single column of text, primarily legal articles, with a page number centered at the top and a small informational note at the bottom. The reading order is from top to bottom.
+
+## Literal Transcription
+
+— 34 —
+
+Art. 72.— Para resolver los asuntos a que se refieren los
+incisos diez, quince, veinte y veintidós del artículo anterior, se
+formará un Consejo presidido por el Director General de Fe-
+rrocarriles con los jefes de sección creados por el artículo se-
+tenta cuyas resoluciones serán adoptadas por mayoría de votos.
+Formarán quórum tres de los miembros por lo menos, y, en
+los casos de empate, el Presidente tendrá doble voto. Si llegare
+a producirse desacuerdo entre el Director General y la mayoría
+del Consejo, el caso será resuelto por el Ministerio del ramo.
+Art. 73.— La Dirección se halla facultada para requerir de
+las empresas cuantos datos sean necesarios para habilitarla a
+desempeñar sus funciones y cumplir los fines de su institución.
+En consecuencia, la Dirección podrá exigir la comparecencia
+y declaración de testigos y exhibición de los libros, papeles,
+tarifas, contratos, ajustes y documentos relativos a la materia
+de la investigación.
+Los Inspectores de la Dirección General de Ferrocarriles
+tendrán libre acceso en las estaciones, talleres, vías, trenes y
+dependencias de los ferrocarriles nacionales.
+Art. 74.— Toda persona o asociación que se considere agra-
+viada por hechos u omisiones de las empresas en contravención
+a esta ley, puede ocurrir a la Dirección General estableciendo
+brevemente los hechos. La Dirección transmitirá una rela-
+ción de los cargos a la empresa, citándola a satisfacer la queja
+o contestarla por escrito en un plazo que fijará prudencial-
+mente la misma Dirección. Si la empresa, en el plazo señalado,
+reparase el perjuicio alegado, quedará exenta de responsabi-
+lidades hacia el querellante en cuanto a la transgresión especial
+que motivó la queja. Si la empresa no satisficiera el reclamo
+en el término señalado, o hubiera fundado motivo para inves-
+tigar sobre la queja, deberá la Dirección ordenar la investi-
+gación del modo y por los medios que lo juzgue conveniente.
+Ninguna queja se rechazará por razón de ausencia de perjuicio
+directo para el querellante.
+
+Las comunicaciones dirigidas a la Dirección General de Ferrocarriles denun-
+ciando violaciones a la Ley Nº 2873, están exentas de impuesto de papel sellado,
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
+```

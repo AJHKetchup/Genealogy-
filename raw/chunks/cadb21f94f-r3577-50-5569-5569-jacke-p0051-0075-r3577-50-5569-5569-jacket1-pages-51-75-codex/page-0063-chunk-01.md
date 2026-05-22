@@ -11,8 +11,6 @@ page_end: 63
 part: 1
 ---
 
-# Page 63
-
 ## Page Metadata
 
 - Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
@@ -96,42 +94,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 1.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-- Page number: 12
-- Source document: R3577-50-5569-5569-Jacket1.pdf
-- Page type: Text page
-- Language: French
-
-## Layout And Reading Order
-The page contains a centered page number at the top, followed by a centered article title, and then a block of text in a single column.
-
-## Literal Transcription
-
-— 12 —
-
-ARTICLE II.
-
-La surface totale des dortoirs sera calculée à raison d'au moins 3 mètres carrés par occupant. Si les dortoirs compren-
-nent des lits superposés, la surface totale pourra être réduite à 2 mètres carrés par occupant. La hauteur du plafond devra
-être suffisante pour assurer à chaque occupant un cube d'air minimum de 7,50 mètres cubes.
-Les lits se composeront d'une paillasse ou d'un matelas et des couvertures nécessaires, placés sur un chassis au-dessus
-du sol. Les couvertures appartenant aux prisonniers de guerre leur seront laissées en plus de celles fournies par l'adminis-
-tration.
-Dans chaque dépôt, des réfectoires seront installés qui seront garnis de tables et de bancs en quantité suffisante.
-Leur surface sera calculée sur la base de 0,50 mètre carré par homme. Les réfectoires serviront, entre les repas, de salle
-de réunion.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-The transcription is complete and accurate.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page. The page contains only text."}
-```

@@ -1,0 +1,81 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-383178d699a3-P0003-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0226-0250-s522bis-29-3-pages-226-250.codex.md
+converted_sha256: 383178d699a3eba5670be331d33418b93ae1e340af956ccbaa9ed106462f78b1
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0226-0250-s522bis-29-3-pages-226-250/manifest.json
+page_start: 3
+page_end: 3
+part: 1
+---
+
+## Page Metadata
+Page Number: 228
+
+## Layout And Reading Order
+The page consists of a single column of text. The page number "13" is in the top left corner, and "AVIS CONSULTATIF N° 18" is centered at the top. The main content is a series of paragraphs in French.
+
+## Literal Transcription
+13
+AVIS CONSULTATIF N° 18
+ainsi que des accords et arrangements ultérieurs conclus entre
+la Pologne et la Ville libre sous les auspices de la Société
+des Nations.
+
+Il est maintenant communément admis par la Pologne et la
+Ville libre que les droits de la Pologne en matière de conduite
+des relations extérieures de la Ville libre ne sont pas absolus.
+Le Gouvernement polonais n'a pas le droit, contrairement à
+la volonté de la Ville libre, de lui imposer une politique
+déterminée, ni de prendre contre sa volonté des mesures
+visant ses relations extérieures.
+
+En revanche, la Ville libre ne peut inviter la Pologne à
+prendre, relativement aux relations extérieures de la Ville libre,
+des mesures opposées à la politique propre de la Pologne.
+Ainsi que l'a dit le Haut-Commissaire dans sa décision du
+17 décembre 1921, si la Pologne était obligée d'agir ainsi, elle
+se trouverait placée sous la domination de la Ville libre, et
+cette situation n'a certainement pas été envisagée par le Traité
+de Versailles.
+
+Il en résulte que, pour ce qui est des relations extérieures de
+Dantzig, ni la Pologne ni la Ville libre ne sont complètement
+maîtresses de la situation. La Ville libre a le droit de s'occuper
+de ses propres intérêts et de veiller à ce que rien ne soit fait
+qui leur porte préjudice. La Pologne a le droit de veiller à ses
+propres intérêts et de refuser de prendre toute mesure qui leur
+serait contraire.
+
+D'autres décisions du Haut-Commissaire et des accords entre
+la Pologne et la Ville libre ont réglementé la représentation de
+Dantzig aux conférences internationales et la manière selon
+laquelle la correspondance entre la Ville libre et les États
+étrangers doit être transmise. Il a également été entendu que
+si la Ville libre, avec l'approbation du Gouvernement polonais,
+est devenue Partie à une convention qui prévoit une corres-
+pondance ou des relations directes entre les administrations
+techniques des États contractants, l'assentiment donné par la
+Pologne à la Ville libre permettant à celle-ci de devenir Partie
+à la convention implique que la Pologne consent à des commu-
+nications directes entre les organisations techniques de la Ville
+libre et celles des autres États.
+
+Le mode selon lequel l'Organisation internationale du Travail
+exerce sa mission a été, dans ses grandes lignes, décrit à la
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content such as images, diagrams, or complex layouts that would require bounding box extraction."}
+```

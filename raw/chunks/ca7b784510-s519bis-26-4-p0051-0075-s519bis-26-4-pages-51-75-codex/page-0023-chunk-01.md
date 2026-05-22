@@ -1,0 +1,86 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ebdb3f98eef2-P0023-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75.codex.md
+converted_sha256: ebdb3f98eef282918d792917b53b018723d2559997cd943ad45eb95b3d99d060
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75/manifest.json
+page_start: 23
+page_end: 23
+part: 1
+---
+
+## Page Metadata
+- Page number: 73
+
+## Layout And Reading Order
+The page presents a formal letter, typed, with a handwritten annotation at the top right and a handwritten signature at the bottom.
+The reading order is:
+1. Handwritten annotation at the top right.
+2. Printed letterhead (LÉGATION DU MEXIQUE, PARIS).
+3. Date and location of writing.
+4. Recipient's address block.
+5. Salutation.
+6. Body of the letter, consisting of two paragraphs.
+7. Closing remarks.
+8. Handwritten signature.
+9. Typed title of the signatory.
+
+## Literal Transcription
+Pani
+LÉGATION DU MEXIQUE
+PARIS
+
+París, 27 de Febrero de 1930,
+
+Sr. D. Julián Nogueira,
+Société des Nations,
+Ginebra, Suiza.
+
+Muy distinguido señor mío:
+
+El Sr. Pani recibió con toda oportunidad
+las amables cartas de usted fechas en 19, 21 y 23 de los
+corrientes, con las que tan bondadosa cuanto eficazmente
+se ha servido usted darle noticias del estado de nuestro
+amigo Castro Leal. Las muchas atenciones que suponen los
+preparativos de un viaje trasatlántico no le han dejado
+tiempo al Sr. Pani para dar respuesta a esas cartas y pa-
+ra decirle su agradecimiento por cuanto se ha servido us-
+ted hacer en favor de nuestro amigo y para tener al Go-
+bierno Mexicano al corriente del estado del enfermo. Pero
+interpreto exactamente el pensamiento y los deseos del
+Sr. Pani dando a usted las más cumplidas gracias en su
+nombre con estas líneas, amén de que verbalmente él en-
+cargó al Sr. Dr. Buero, con quien tuvo el gusto de hablar,
+fuera interprete para con usted de su agradecimiento.
+
+El Sr. Pani ha salido ayer para México,
+vía New-York, y estará ausente unas cuantas semanas. Que
+da como Encargado de Negocios a.i. el Sr. de la Torre,
+quien le habrá dicho ya, en sus conversaciones telefónicas
+con usted, que se telegrafía oportunamente a la Secreta-
+ría de Relaciones Exteriores las noticias que se sirve us-
+ted comunicar sobre el estado del enfermo.
+
+Sin otro particular, aprovecho esta oca-
+sión para saludar a usted muy atentamente y para reiterar
+me como su Affmo. y S. S.
+_J. M. González de Mendoza_
+Secretario Particular del Ministro:
+
+## Images, Captions, And Visual Notes
+- A handwritten word "Pani" is present at the top right corner of the page.
+- A handwritten signature "_J. M. González de Mendoza_" is present above the typed title "Secretario Particular del Ministro:".
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and significant handwritten elements have been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements like photos, maps, or complex diagrams are present. Handwritten text and signatures are transcribed inline."}
+```

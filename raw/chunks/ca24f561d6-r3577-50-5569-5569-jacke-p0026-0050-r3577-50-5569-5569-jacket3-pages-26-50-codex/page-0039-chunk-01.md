@@ -11,8 +11,6 @@ page_end: 39
 part: 1
 ---
 
-# Page 39
-
 ## Page Metadata
 
 - Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
@@ -32,7 +30,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## Lé Général Marotte
 
 ## (France)
@@ -115,9 +112,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 40
-
-## Layout And Reading Order
-The page features a centered layout with several headings, followed by a main body of text presented as speeches. A stamp is present on the right side of the page, overlapping some of the headings. The page number "I" is in the top right corner.

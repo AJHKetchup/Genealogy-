@@ -1,0 +1,79 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-57be51e30f3a-P0017-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225.codex.md
+converted_sha256: 57be51e30f3ae0c4b8529a9b76a951aed1282b54d4c53e1293060e4db5680f4e
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225/manifest.json
+page_start: 17
+page_end: 17
+part: 1
+---
+
+## Page Metadata
+- Page number: 217
+
+## Layout And Reading Order
+The page consists of a single column of text, with a page number at the top right and a heading centered at the top. The text flows continuously from top to bottom.
+
+## Literal Transcription
+```
+                                                                        8
+                                ADVISORY OPINION No. 18
+
+        In his two letters, the Polish member reserved the right
+to submit to the Governing Body a detailed statement of
+the question at issue, or to give his opinion on the conten-
+tions set forth in the memorials filed on behalf of the Free
+City.
+        The request of Danzig was duly placed on the agenda
+for the forty-seventh Session of the Governing Body, and the
+matter came up for discussion there on February 3rd, 1930.
+On that occasion it was understood that a legal memorandum
+on the question of the admission of the Free City of Danzig
+would be submitted by the Office to the Governing Body
+at its forty-eighth Session.
+        This memorandum has been communicated to the Court
+by the Polish Government; subsequently, the Director of
+the International Labour Office, being apprised of this fact,
+filed with the Court an extract from a letter which he had
+received from the German member of the Governing Body
+and in which certain reservations and observations were made
+in respect of the contents and conclusions of the memorandum
+emanating from the International Labour Office.
+        The Labour Office memorandum submitted that the question
+whether, from the legal point of view, the Free City possessed
+the capacity to become a Member of the Labour Organiz-
+ation should be referred to the Court, which alone was
+capable of solving the difficult legal problem involved. It
+was also submitted that this course could be adopted in
+view of the wide terms of Article 423 of the Versailles Treaty,
+and that the precise terms of the question to be placed before
+the Court might be as follows:
+        “Is the special legal status of the Free City of Danzig
+such as to enable the Free City to become a Member
+of the International Labour Organization?”
+        The matter again came before the Governing Body of the
+International Labour Office at its forty-eighth Session, and,
+on April 26th, 1930, it decided, after a discussion—no member
+voting against the motion—to cause the question set forth
+in the Labour Office memorandum to be submitted to the
+Court for an advisory opinion.
+        Accordingly, the Director of the International Labour Office
+sent to the Secretary-General of the League of Nations the
+```
+
+## Images, Captions, And Visual Notes
+The page contains no images, captions, or other meaningful visual evidence.
+
+## Uncertain Or Illegible
+None. All text is clear and legible.
+
+## Completeness Audit
+The transcription is complete and includes all visible text on the page. The last sentence is cut off at the bottom of the page, as it appears in the source.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+```

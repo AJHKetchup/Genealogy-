@@ -1,0 +1,90 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e30e438b6d0c-P0013-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0076-0100-r4749-11c-17499-5398-pages-76-100.codex.md
+converted_sha256: e30e438b6d0cb10974849930f94d58ec7b7b54f8c190958de3f99de95e5f247c
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0076-0100-r4749-11c-17499-5398-pages-76-100/manifest.json
+page_start: 13
+page_end: 13
+part: 1
+---
+
+## Page Metadata
+Page number: 88
+
+## Layout And Reading Order
+
+The page contains typewritten text in a single column, with a page number in the top right corner. The text includes a chapter heading, article numbers, and indented lists of personnel. A circular stamp is present in the lower-left quadrant of the page. A handwritten signature is partially visible beneath the stamp.
+
+## Literal Transcription
+
+```
+                                                                - 3 -
+
+///
+
+                                CAPITULO II
+
+                        De la organización del tribunal
+
+        Art. 5º- Los tribunales para menores serán unipersonales
+y estarán a cargo de jueces letrados, que deberán reunir las
+mismas condiciones exigidas por las leyes para los jueces or
+dinarios, tener por lo menos 30 años de edad y poseer especia
+les conocimientos en la materia.- Su nombramiento y remoción
+se hará conforme lo dispone la Constitución y las leyes para
+los demás jueces.-
+
+        Art. 6º- Cada tribunal tendrá como auxiliares a los si
+guientes funcionarios y empleados:
+
+                4 Secretarios abogados o escribanos;
+                1 Inspector general de libertad vigilada;
+                1 Subsecretario;
+                5 Oficiales primeros;
+                5 Auxiliares;
+                5 Escribientes;
+                15 Inspectores de libertad vigilada;
+                1 Ordenanza.-
+
+        Art. 7º- Además del personal mencionado en el artículo
+anterior, prestarán servicios en los diversos tribunales pa
+ra menores:
+
+                2 Médicos especialistas en psico-pedagogía;
+                1 Asesor de menores;
+                2 Agentes fiscales.-
+
+                                                                ///
+```
+
+## Images, Captions, And Visual Notes
+
+A circular stamp is present on the left side of the page, containing text around its perimeter and a coat of arms in the center. The text reads "MINISTERIO DE RELACIONES EXTERIORES Y CULTO - REPUBLICA ARGENTINA". A handwritten signature is visible below and partially overlapping the stamp.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and the stamp have been transcribed and described.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "stamp",
+      "bbox_pct": [9.9, 70.9, 18.9, 80.9],
+      "caption_literal": "MINISTERIO DE RELACIONES EXTERIORES Y CULTO - REPUBLICA ARGENTINA",
+      "caption_type": "source-caption",
+      "identity_basis": "text-in-image",
+      "source_context": "A circular stamp on the left side of the page.",
+      "confidence": "high",
+      "suggested_filename": "circular_stamp_ministerio_relaciones_exteriores_culto_republica_argentina"
+    }
+  ]
+}
+```

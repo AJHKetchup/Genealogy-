@@ -1,0 +1,95 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-c4e4cf99a2a2-P0016-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400.codex.md
+converted_sha256: c4e4cf99a2a221d954e2bf10b1ac3839e8e9d7dd62227cbe6118fabf8aa15aed
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400/manifest.json
+page_start: 16
+page_end: 16
+part: 1
+---
+
+## Page Metadata
+Page number: 391
+
+## Layout And Reading Order
+
+The page contains a single column of typewritten text in French, with a handwritten number '1' at the top. The text discusses a summary study divided into three parts, followed by a historical overview of negotiations related to the League of Nations.
+
+## Literal Transcription
+
+```
+Cette étude sommaire peut se diviser en trois parties:
+1) historique;
+2) droit constitutionnel argentin;
+3) droit international.
+
+Au point de vue historique, on peut se reporter d'a-
+bord aux négociations préliminaires de la paix et au rôle
+joué par les neutres vis-à-vis des négociateurs de la dite
+paix.
+
+Avant la signature du traité de Versailles, le Pacte de
+la Société, qui en faisait partie, fut discuté et approuvé
+par la Conférence de la Paix, qui siégea à Paris et qui fut
+composée exclusivement de représentants des Etats belligé-
+rants. Malgré cette dernière circonstance, conforme en tous
+points aux règles classiques du droit international, tous
+ceux qui ont suivi de près les négociations de la paix sa-
+vent que quelques Etats, qui se maintinrent neutres pendant
+la guerre, firent connaître aux Puissances leurs prétentions
+d'être appelés à délibérer avec les Etats ex-belligérants
+sur le projet de Société des Nations. Ces prétentions ne fu-
+rent pas couronnées de succès, mais les belligérants concédé-
+rent aux neutres une conférence privée, à laquelle ils furent
+invités par le Colonel House. A cette conférence privée assis-
+ta le représentant de la République Argentine qui, à cette
+occasion, eut connaissance des grandes lignes constitution-
+nelles du futur Pacte de la Société des Nations. A cette
+conférence privée fut fixée, en termes généraux, la situation
+juridique des nations neutres vis-à-vis du Pacte. Ces nations
+neutres, énumérées taxativement dans un des articles du Pacte,
+pouvaient, si elles le désiraient, accéder sans réserve et
+faire partie de la Société exactement avec les mêmes droits
+et obligations que les autres Etats.
+```
+
+## Images, Captions, And Visual Notes
+
+A handwritten number '1' is present at the top center of the page.
+
+## Uncertain Or Illegible
+
+None.
+
+## Completeness Audit
+
+All visible text and markings on the page have been transcribed.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "handwritten-mark",
+      "bbox_pct": [
+        47.9,
+        5.9,
+        52.9,
+        10.0
+      ],
+      "caption_literal": "1",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-assigned",
+      "source_context": "Handwritten page number or section indicator.",
+      "confidence": 0.95,
+      "suggested_filename": "handwritten_1_391.png",
+      "inline_anchor": null
+    }
+  ]
+}
+```

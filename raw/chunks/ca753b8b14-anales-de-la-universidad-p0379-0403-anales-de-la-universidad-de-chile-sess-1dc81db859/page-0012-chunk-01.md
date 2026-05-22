@@ -1,0 +1,72 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-1002cf2a5147-P0012-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403.codex.md
+converted_sha256: 1002cf2a514751dbe60b77eb83c55fb462fe121d8e147ff335730b7bae06e672
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json
+page_start: 12
+page_end: 12
+part: 1
+---
+
+## Page Metadata
+Page number: 390
+
+## Layout And Reading Order
+The page presents a single column of text. The top of the page contains a header with the page number and publication title. Below this, there is an italicized text block, followed by a section number, a sub-heading, and four paragraphs of main text. The last paragraph is cut off at the bottom of the page.
+
+## Literal Transcription
+370 MEMORIAS CIENTÍFICAS I LITERARIAS
+
+*Historia Eclesiástica de Ducreux, i ya había sido re-*
+*futado en Europa por el P. Prat en su Histoire du*
+*pére Ribadeneira.*
+
+§ XXXVI
+
+Asuntos americanos, pupilos, enfermedades i penas
+
+En Chile continuó Eizaguirre preocupándose del
+Seminario Americano, cuyos procuradores en Amé-
+rica se entendían con él para las remesas de dinero.
+Igualmente sostenía correspondencia con algunos es-
+tudiantes de ese Seminario que le eran adictos. Los
+obispos de Bolivia, Perú, Ecuador i Nueva Granada,
+le escribían con frecuencia, dándole noticias de los
+asuntos políticos i relijiosos más importantes, para
+que él pudiese informar al gobierno pontificio.
+
+Luego tuvo también que intervenir en favor del
+R. P. frai Pedro Gual, eminente relijioso franciscano
+del Perú, nombrado visitador de su orden en varias
+repúblicas, inclusa la de Chile.
+
+Las relaciones de amistad que le ligaban con mu-
+chas familias americanas le obligaron algunas veces
+a prestarse para servir de apoderado a ciertos jóve-
+nes que sus padres enviaban a seguir sus estudios en
+Chile. Una de ellos fué don René Moreno i Salinas,
+para el cual fué Chile su segunda patria.
+
+El año de su llegada fué para Eizaguirre año de
+sufrimientos. Sintióse aquejado de una tenaz afec-
+ción a la garganta, que creyó pudiese dejenerar en
+tisis, i para curarla hubo de trasladarse a la provin-
+cia de Aconcagua, cuyo clima le devolvió la salud
+perdida. A fines del mismo año el pavoroso incendio
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete for all visible text on the page. The last paragraph is cut off at the bottom of the page, as it appears in the source image.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+```

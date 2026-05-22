@@ -11,8 +11,6 @@ page_end: 251
 part: 1
 ---
 
-# Page 251
-
 ## Page Metadata
 
 - Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
@@ -100,35 +98,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 252
-
-## Layout And Reading Order
-
-The page contains a centered text block with two lines of text, framed by horizontal rules.
-
-## Literal Transcription
-
----
-IMPRIMERIE
----
-DU JOURNAL DE GENÈVE
-
-## Images, Captions, And Visual Notes
-
-A hole punch is visible in the top right corner of the page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-The transcription is complete and accurate.
-
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text and a minor hole punch mark, neither of which qualify as substantial visuals for cropping."
-}
-```

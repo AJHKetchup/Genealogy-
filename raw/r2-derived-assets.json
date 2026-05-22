@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-22T01:59:48.336175+00:00",
+  "created": "2026-05-22T02:12:49.372061+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -2695,6 +2695,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-two-calves-in-field.png",
       "bytes": 25678121,
       "sha256": "7e6117b14107370a911c1695331260f09197271778b34721d7d42b375d01b6ad",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-two-calves-in-grassy-field.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-two-calves-in-grassy-field.png",
+      "bytes": 22806348,
+      "sha256": "b492f54c3649ef00013ca579916e2392d94254a525206a0c4d2e32b414d254ca",
       "media_type": "image/png"
     },
     {
@@ -12053,9 +12060,9 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
+    "total_files": 1,
+    "total_bytes": 22806348,
+    "uploaded": 1,
     "skipped": 0,
     "planned": 0,
     "errors": [],
@@ -12066,9 +12073,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1722,
+      "scanned": 1723,
       "deleted": 0,
-      "skipped": 1722,
+      "skipped": 1723,
       "errors": []
     }
   }

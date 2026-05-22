@@ -11,8 +11,6 @@ page_end: 53
 part: 1
 ---
 
-# Page 53
-
 ## Page Metadata
 
 - Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
@@ -87,41 +85,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 54
-Source document page number: 7
-
-## Layout And Reading Order
-
-The page contains a centered page number at the top, followed by a centered article number and title. Below this, there is a single paragraph of text, indented from the left margin.
-
-## Literal Transcription
-
-```
-                                  — 7 —
-
-                                ARTICLE 2.
-
-Les prisonniers de guerre sont au pouvoir du Gouvernement ennemi, mais non des individus ou des corps de troupes
-qui les ont capturés.
-    Ils doivent être traités avec humanité.
-    Les mesures de représailles à leur égard sont interdites.
-```
-
-## Images, Captions, And Visual Notes
-
-There are no substantial images, captions, or other visual elements on this page.
-
-## Uncertain Or Illegible
-
-No uncertain or illegible text was encountered on this page.
-
-## Completeness Audit
-
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```

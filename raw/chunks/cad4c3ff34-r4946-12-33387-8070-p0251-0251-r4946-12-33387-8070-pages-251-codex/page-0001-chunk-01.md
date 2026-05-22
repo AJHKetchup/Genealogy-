@@ -11,16 +11,6 @@ page_end: 1
 part: 1
 ---
 
-# R4946-12-33387-8070 pages 251
-
-## Conversion Metadata
-
-- Source: `raw/sources/R4946-12-33387-8070.pdf`
-- Source SHA-256: `d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d`
-- Manifest: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0251-0251-r4946-12-33387-8070-pages-251/manifest.json`
-- Conversion method: Codex local vision workbench
-- Extracted images: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0251-0251-r4946-12-33387-8070-pages-251/extracted-images`
-
 ## Page Metadata
 ## Layout And Reading Order
 

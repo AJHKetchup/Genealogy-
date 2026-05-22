@@ -1,0 +1,127 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-24abbd62f2a1-P0147-01
+source_converted: raw/converted/cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150.codex.md
+converted_sha256: 24abbd62f2a1425edd9e97e9382682739f5bf889b74b0d5244007c596d9f3372
+source: raw/sources/R3577-50-5569-5569-Jacket1.pdf
+source_sha256: db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb
+source_manifest: raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150/manifest.json
+page_start: 147
+page_end: 147
+part: 1
+---
+
+## Page Metadata
+- Task id: `source-prep:cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150:p0147`
+- Model route: `pro`
+- Route reasons: complex_quality_flags
+- Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
+- Job manifest: `raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150/manifest.json`
+- Work order: `raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150/work-orders/page-0147.md`
+- Page: 147
+- Output Markdown target: `raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150/page-markdown/page-0147.md`
+- External research relevance: ``
+- External requested treatment: ``
+- External relevance reasons: none
+- Recommended action: ``
+- Quality flags: possible_table_layout_loss
+- Technical reread clues: none
+
+## Layout And Reading Order
+The document is a single-page letter on official letterhead. The reading order is as follows:
+1. The letterhead at the top of the page, which includes contact information and the names of two organizations: "SOCIÉTÉ DES NATIONS / LEAGUE OF NATIONS" on the left and "BUREAU INTERNATIONAL DU TRAVAIL / INTERNATIONAL LABOUR OFFICE" on the right.
+2. Various stamps and handwritten annotations are superimposed over the header and in the margins. These include filing numbers, dates, and internal routing notes.
+3. A reference box is located on the left side of the page.
+4. A handwritten note is in the left margin.
+5. The typed date of the letter is on the right side.
+6. The salutation "Monsieur," follows.
+7. The main body of the letter consists of three typed paragraphs.
+8. The recipient's name and address are typed in the bottom left corner.
+9. The letter ends mid-sentence at the bottom of the page.
+
+## Literal Transcription
+[Printed vertically along the left edge]
+3833 I.
+
+[Letterhead]
+TÉLÉPHONE : MT-BLANC 6200
+[Handwritten note, top right] 10105/50/5569 [Boxed] II
+[Circular stamp, top right] SOCIETE DES NATIONS [date in center, faint] 6 FEV 1929
+
+SOCIÉTÉ DES NATIONS
+LEAGUE OF NATIONS
+[Handwritten note, diagonally across header]
+Franklin:
+Mr Mezinier[?]:
+Do you see any objection?
+[Handwritten note, center] AF15
+[Rectangular purple stamp, center]
+LEAGUE OF NATIONS
+REGISTRY
+8-FEV-1929
+
+Adresse Télégraphique : INTERLAB GENÈVE-SUISSE
+BUREAU INTERNATIONAL DU TRAVAIL
+INTERNATIONAL LABOUR OFFICE
+
+GENÈVE
+[Handwritten] h
+
+[Boxed section, left]
+> RD/FC
+> 
+> Please quote Ref. No in reply
+> Dans la réponse prière de rappeler :
+> No D. 612/300
+
+[Handwritten note, left margin]
+I agree
+8/2/29.
+
+-6 FEB. 1929
+
+Monsieur,
+
+Comme nous aurons cette année deux confé-
+rences, l'une en juin et l'autre en octobre, nous avons
+loué le Bâtiment Electoral de mai à fin octobre de ma-
+nière à ne faire qu'une seule installation qui subsis-
+tera dans son ensemble pendant la période d'intersession.
+Le Département politique fédéral nous a
+demandé l'autorisation d'utiliser notre installation
+pour la Conférence des Croix-Rouges qui se tiendra à
+Genève (et durera environ un mois), à partir du 2 juil-
+let 1929. Nous avons accepté, étant donné, d'une part,
+que ceci représente pour nous une diminution du prix de
+location.
+
+Le Département politique fédéral nous de-
+mande actuellement si nous consentirions à leur laisser
+utiliser le mobilier des conférences, bancs, fauteuils,
+etc.. que le Bureau international du Travail possède en
+commun avec la Société des Nations. En ce qui nous con-
+cerne, nous n'y voyons pas d'objection ; toutefois, afin
+de pouvoir leur donner une réponse, je vous serais obligé
+de m'informer si la Société des Nations serait également
+d'accord.
+
+Dans l'affirmative, ce mobilier pourrait
+
+Monsieur HUSTON
+SOCIETE DES NATIONS
+GENEVE
+
+## Images, Captions, And Visual Notes
+The page is a typed letter on aged, slightly torn paper. The letterhead is for both the League of Nations and the International Labour Office. There are multiple handwritten annotations and two ink stamps. A purple rectangular stamp from the "LEAGUE OF NATIONS / REGISTRY" is dated "8-FEV-1929". A circular stamp, also from the "SOCIETE DES NATIONS", is partially obscured but appears to be dated "6 FEV 1929". Handwritten notes include filing numbers, a date of agreement ("I agree / 8/2/29."), and an internal routing question ("Franklin: / Mr Mezinier[?]: / Do you see any objection?").
+
+## Uncertain Or Illegible
+- In the handwritten note at the top of the page, the name following "Mr" is difficult to read. It has been transcribed as "Mezinier[?]".
+- The date in the center of the circular stamp at the top right is faint and partially obscured. It appears to be "6 FEV 1929".
+
+## Completeness Audit
+The transcription captures all visible text, stamps, and handwritten notes on the page. The letter itself is incomplete, as it ends mid-sentence at the bottom of the page ("Dans l'affirmative, ce mobilier pourrait"), suggesting it continues on a subsequent page not included in this image.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains no significant images, illustrations, or photographs that would warrant cropping as standalone visual assets. The content consists of text, stamps, and minor handwritten notes, which are fully captured by the transcription."}
+```

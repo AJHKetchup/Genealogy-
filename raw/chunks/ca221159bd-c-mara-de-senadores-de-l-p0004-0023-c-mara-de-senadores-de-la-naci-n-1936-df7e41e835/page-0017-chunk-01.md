@@ -1,0 +1,74 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-27a310cdc474-P0017-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23.codex.md
+converted_sha256: 27a310cdc474427fd0b958e55c427c6da2a0a8c1f21ffec38592bdd20d5e590b
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/manifest.json
+page_start: 17
+page_end: 17
+part: 1
+---
+
+## Page Metadata
+Page number: 16
+
+## Layout And Reading Order
+The page presents text in a single column. It begins with a page number at the top center. Below that, there is a section of text comprising an article (Art. 25) and a subsequent explanatory paragraph. A main heading "CAPITULO IV" follows, then a subheading "DE LAS CONCESIONES DE LOS FERROCARRILES NACIONALES". This is followed by a numbered list of articles (Art. 26 through Art. 32), each with a brief description. The page concludes with the beginning of two new articles (Art. 26 and Art. 27), which appear to be the full text of the articles previously listed by title.
+
+## Literal Transcription
+— 16 —
+
+Art. 25.—Las empresas están obligadas a combinar sus
+servicios de transportes tanto de viajeros como de mercaderías,
+con las demás líneas enlazadas inmediatamente con ellas, aun-
+que sean de distinta trocha.
+
+Si las empresas no celebrasen los convenios necesarios para
+la combinación, la Dirección de Ferrocarriles fijará un plazo
+perentorio al efecto, transcurrido el cual, la combinación se
+hará como lo determine dicha Dirección, ínterin se resuelva
+la cuestión por árbitros que las empresas nombrarán ante el
+Juez respectivo.
+
+Por Decreto de 28 Junio de 1920, comunicado por circular Nº 34 de 6 Julio
+de 1920, se establece que las empresas ferroviarias que expidan pasajes para com-
+binaciones internacionales, podrán negarse a expedir estos pasajes a las personas
+que no presenten la documentación de identidad exigida por las autoridades de los
+países de destino.
+
+CAPITULO IV
+
+DE LAS CONCESIONES DE LOS FERROCARRILES NACIONALES
+
+Art. 26.—Domicilio legal de las empresas.
+Art. 27.—Representación en la Capital.
+Art. 28.—Gastos de representación en el exterior.
+Art. 29.—Caducidad de concesiones de ferrocarriles.
+Art. 30.—Caducidad de privilegios, impuestos, primas o subvenciones.
+Art. 31.—Gastos hechos por el Gobierno por cuenta de empresas garantidas:
+cobro de gastos hechos por la Dirección.
+Art. 32.—Obligaciones del Gobierno referentes al pago de las garantías a las
+empresas.
+
+Art. 26.—Las empresas que exploten o construyan ferro-
+carriles nacionales, tendrán su domicilio legal en la República.
+Sus libros deberán llevarse en castellano, y serán rubricados
+con arreglo al Código de Comercio.
+Art. 27.—Cualquiera que sea el lugar donde estén situadas
+las Direcciones o Administraciones de las empresas, éstas de-
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+```

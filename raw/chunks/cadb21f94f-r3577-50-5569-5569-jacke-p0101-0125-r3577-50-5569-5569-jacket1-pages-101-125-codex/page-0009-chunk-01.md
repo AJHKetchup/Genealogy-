@@ -1,0 +1,72 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-639aa52cdd91-P0009-01
+source_converted: raw/converted/cadb21f94f-r3577-50-5569-5569-jacke-p0101-0125-r3577-50-5569-5569-jacket1-pages-101-125.codex.md
+converted_sha256: 639aa52cdd9106594cae1b494530823d00f2e20d10eed152c21d552ad57e50b6
+source: raw/sources/R3577-50-5569-5569-Jacket1.pdf
+source_sha256: db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb
+source_manifest: raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0101-0125-r3577-50-5569-5569-jacket1-pages-101-125/manifest.json
+page_start: 9
+page_end: 9
+part: 1
+---
+
+## Page Metadata
+Page number: 109
+Original page number: 35
+
+## Layout And Reading Order
+The page presents a single column of text, primarily composed of numbered articles and their associated "Motifs" (reasons/explanations). The content is structured with article numbers, country names (bolded), and then the specific text or proposed changes, followed by a "Motifs" paragraph for some entries. The page number "- 35 -" is centered at the top.
+
+## Literal Transcription
+```
+— 35 —
+
+ARTICLE 54.
+**Espagne.**
+
+Remplacer les mots « 9 heures du soir » par les mots « jusqu'à 10 heures de la nuit au moins ».
+
+ARTICLES 55 et 56.
+**Hongrie.**
+
+Remplacer partout les mots « officiers punis » par « officiers punis disciplinairement ».
+Motifs : On doit prévenir l'interprétation que les dispositions en question s'appliquent aussi aux punitions infligées
+par les tribunaux.
+
+ARTICLE 56.
+**France.**
+
+Remplacer les trois premières phrases par le texte suivant :
+« Les officiers punis auront l'autorisation de lire et d'écrire. Ils auront la faculté de recevoir des journaux. La récep-
+tion et l'expédition des lettres seront autorisées. Toutefois, les officiers punis pour tentative d'évasion n'auront pas
+le droit d'écrire et d'expédier des lettres pendant toute la durée de leur punition.
+Pour l'ensemble des officiers punis, les colis et les envois d'argent pourront n'être délivrés, etc... » (Le reste sans
+changement.)
+Motifs : Cet article précise le régime auquel sont soumis les officiers punis. Pour les raisons indiquées à propos de
+l'article 48, dernier alinéa, il y aurait lieu de spécifier que les officiers punis pour tentative d'évasion ne sont pas auto-
+risés pendant la durée de leur punition à écrire ou à expédier des lettres.
+
+ARTICLE 57.
+**Pologne.**
+
+Biffer, à l'alinéa 2, la phrase « Si la température est inférieure... sera accordée » et la remplacer par « La température
+du local ne peut pas être inférieure à 10 degrés centigrades. »
+Motifs : L'alinéa 2 prévoit pour les prisonniers arrêtés une double couverture dans le cas où la température est
+inférieure à 7,5 centigrades dans la salle d'arrêt, c'est-à-dire que, d'avance, cet article prévoit comme admissible une
+température inférieure, alors qu'une température plus basse comporte un danger véritable pour la santé des prisonniers.
+```
+
+## Images, Captions, And Visual Notes
+There are no substantial images or captions on this page. There is a slight curl/damage visible at the bottom left corner of the physical page.
+
+## Uncertain Or Illegible
+All text is legible and has been transcribed with high confidence.
+
+## Completeness Audit
+The transcription is complete and includes all visible text from the page.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions present."}
+```

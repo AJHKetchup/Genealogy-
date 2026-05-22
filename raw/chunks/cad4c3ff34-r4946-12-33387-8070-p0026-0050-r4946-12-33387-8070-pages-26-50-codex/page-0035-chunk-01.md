@@ -11,8 +11,6 @@ page_end: 35
 part: 1
 ---
 
-# Page 35
-
 ## Page Metadata
 
 - Source: `raw/sources/R4946-12-33387-8070.pdf`
@@ -72,3 +70,5 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 36

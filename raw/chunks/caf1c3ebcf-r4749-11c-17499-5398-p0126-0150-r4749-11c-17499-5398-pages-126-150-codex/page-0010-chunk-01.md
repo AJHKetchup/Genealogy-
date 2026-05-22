@@ -1,0 +1,125 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f9711d71eff6-P0010-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0126-0150-r4749-11c-17499-5398-pages-126-150.codex.md
+converted_sha256: f9711d71eff6ddcbe2a10a8518ff4a757cb302e1597fb0cfa415c93a486b07ba
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0126-0150-r4749-11c-17499-5398-pages-126-150/manifest.json
+page_start: 10
+page_end: 10
+part: 1
+---
+
+## Page Metadata
+- Page number: 135
+
+## Layout And Reading Order
+The page contains a single column of typed text in French, with a handwritten note and a red stamp in the top-left corner. The text is structured with a main title, subtitle, date, section title, and several paragraphs, including a bulleted list (a-e).
+
+## Literal Transcription
+Original in
+11C.23185.5701
+
+SOCIETE DES NATIONS.
+C.F.E. 554.
+
+COMITE DE LA PROTECTION DE L'ENFANCE.
+
+Douzième session.
+
+27 avril 1936.
+
+ENFANCE ABANDONNEE ET EN DANGER MORAL.
+----------
+
+Le Directeur de la Section des Questions sociales a
+l'honneur de communiquer aux membres et assesseurs du Comité
+de la protection de l'enfance une note du Gouvernement de la
+République argentine sur la situation de l'enfance abandonnée
+et en danger moral.
+
+----------
+
+Le Dr Coll, Président du Patronage national des mineurs,
+a fait savoir ce qui suit en ce qui concerne la République argen-
+tine au sujet des enfants abandonnés ou en danger moral:
+
+a) les articles 36 et 37 du Code pénal prévoient que le
+mineur de 14 ans n'est pas punissable. De 14 à 18 ans, il peut
+être condamné; bien que la peine soit désignée sous le nom d'em-
+prisonnement, le régime qu'elle comporte répond à une notion
+d'éducation et d'enseignement professionnel. De plus, le Code
+pénal argentin autorise la condamnation conditionnelle jusqu'à
+2 ans d'emprisonnement. Dans tous les cas, les mineurs de 18 ans
+peuvent être laissés dans leurs familles, confiés à des personnes
+honnêtes ou remis à des institutions privées.
+
+b) pour la loi argentine, un "enfant" est un mineur de
+14 ans et un "jeune garçon" un mineur de 14 à 18 ans;
+
+c) l'article 14 de la loi 10.903 autorise les juges à
+ne pas prononcer la peine de prison préventive en cas d'infrac-
+tion à la loi pénale et qu'au cas où cette peine est prononcée,
+elle peut être purgée au lieu et de la manière que le juge esti-
+me opportun, les mineurs pouvant être laissés chez leurs parents,
+tuteurs ou gardiens, sous la surveillance du tribunal;
+
+d) en cas d'infraction pénale, le juge assure la pro-
+tection non seulement du mineur délinquant, mais également du
+mineur qui a été victime d'un crime ou d'un délit, si sa situa-
+tion de victime est la conséquence de son abandon matériel ou
+moral;
+
+e) la protection des mineurs est assurée par la Société
+de Bienfaisance s'il s'agit d'enfants abandonnés en bas âge,
+par les Défenseurs des mineurs, s'il s'agit de mineurs abandonnés
+matériellement ou moralement, et par les tribunaux s'il s'agit
+de mineurs délinquants.
+
+Le Patronage national des mineurs a institué un centre
+d'études pour toutes les questions concernant l'enfance, pour la
+réforme des lois et pour le progrès de l'organisation des insti-
+tutions publiques ou privées.
+
+## Images, Captions, And Visual Notes
+- A handwritten note in the top-left corner reads "Original in" followed by the number "11C.23185.5701".
+- A red rectangular stamp is present in the top-left corner, overlapping the handwritten note. The stamp contains the text "SOCIETE DES NATIONS", "ARCHIVES", "SECTION", "-2 MARS 1937-", and "ENTREE".
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and meaningful visual elements on the page have been transcribed or described.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "handwritten-note",
+      "bbox_pct": [4.9, 10.0, 10.0, 20.0],
+      "caption_literal": "Original in\n11C.23185.5701",
+      "caption_type": "source-caption",
+      "identity_basis": null,
+      "source_context": "Handwritten note in the top-left corner of the page.",
+      "confidence": "high",
+      "suggested_filename": "handwritten_note_11C_23185_5701.png",
+      "inline_anchor": null
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "stamp",
+      "bbox_pct": [4.9, 20.0, 24.0, 38.0],
+      "caption_literal": "SOCIETE DES NATIONS\nARCHIVES\nSECTION\n-2 MARS 1937-\nENTREE",
+      "caption_type": "source-caption",
+      "identity_basis": null,
+      "source_context": "Red rectangular stamp in the top-left corner, overlapping the handwritten note.",
+      "confidence": "high",
+      "suggested_filename": "red_stamp_societe_des_nations_2_mars_1937.png",
+      "inline_anchor": null
+    }
+  ]
+}
+```

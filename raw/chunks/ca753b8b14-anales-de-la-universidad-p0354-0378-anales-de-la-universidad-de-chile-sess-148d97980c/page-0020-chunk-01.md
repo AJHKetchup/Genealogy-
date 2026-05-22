@@ -1,0 +1,69 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-c37b3e8f61d7-P0020-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378.codex.md
+converted_sha256: c37b3e8f61d74da140296b94824e811b73dfb8cc4d16062ee8b34dd8d079a6f8
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json
+page_start: 20
+page_end: 20
+part: 1
+---
+
+## Page Metadata
+- Page number: 353
+- Header: CARLOS SILVA COTAPOS
+
+## Layout And Reading Order
+The page consists of a single column of text. It begins with a header "CARLOS SILVA COTAPOS" and the page number "353". Below this, there is a continuous block of text, followed by a section marker "§ XXV". Another block of text follows, with a bolded sub-heading. The page concludes with a footer "8.—ANALES.—SETIEMBRE.—OCTUBRE".
+
+## Literal Transcription
+CARLOS SILVA COTAPOS 353
+les que allanaban por sí solas la mayor parte de las
+dificultades que la prudencia podía prever. Se obli-
+gaba a recorrer a sus propias expensas la América
+latina entera, en busca de alumnos i de rentas para
+la fundación de becas, i a contribuir con su dinero
+i el de los suyos para los demás gastos que la funda-
+ción requería. Comprometía, pues, él su bolsa i su
+vida; porque no ignoraba los peligros que había de
+correr en su proyectado viaje, de parte de los hom-
+bres i de los malsanos climas tropicales.
+
+§ XXV
+
+**Acepta el Papa la fundación, i Eizaguirre se traslada**
+**a América**
+
+Esta proposición hacíala Eizaguirre en Enero de
+1856. Acojióla el Papa Pío IX con entusiasmo i, por
+medio de una carta del Cardenal Secretario de Es-
+tado, recomendó la obra a los obispos americanos
+diciéndoles que se harían mui aceptos al Soberano
+Pontífice si en el gravísimo negocio de que había de
+hablarles Eizaguirre, varón sobremanera digno de
+alabanza por su piedad, celo relijioso i ciencia, coad-
+yuvasen con todo el interés, trabajo i celo que a cada
+cual fuese posible (22 de Enero de 1856).
+Premunido de esta credencial Eizaguirre se tras-
+ladó a Inglaterra, i el 9 de Abril de 1856 zarpó con
+rumbo a Pernambuco.
+Después de visitar las diócesis del Brasil pasó al
+Uruguai y República Arjentina. De ésta, por la via
+fluvial, se dirijió al Paraguai; i de aquí, por tierra, a
+8.—ANALES.—SETIEMBRE.—OCTUBRE
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+```

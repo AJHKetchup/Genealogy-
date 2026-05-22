@@ -1,0 +1,53 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-51a02e552dff-P0002-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350.codex.md
+converted_sha256: 51a02e552dffdff57c67743726a6080810223962b868a578f199ced3485c8e31
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350/manifest.json
+page_start: 2
+page_end: 2
+part: 1
+---
+
+## Page Metadata
+Page: 327
+
+## Layout And Reading Order
+The page contains a typed document in French, formatted as a letter or memo. The date is at the top right. A heading "DISTRIBUTION" is underlined on the left. The main body of the text follows, with a list of documents and a closing request. The text is presented in a single column.
+
+## Literal Transcription
+18 août, 1934.
+
+DISTRIBUTION
+Je vous prie de bien vouloir envoyer à S.E.
+M. Arturo PINTO ESCALIER, Ministre de Bolivie - Bd.
+Artigas 988, Montevideo (Uruguay), les documents sui-
+vants:
+
+Nº 6 du Journal Officiel 1934 (1ère & 2ème parties)
+Journal Officiel de février " " "
+Une collection des documents sur l'embargo
+Une collection des documents sur le différend Bo-
+livie-Paraguay, distribués pendant les mois de juillet
+et août.
+
+Veuillez m'envoyer s.v.p. une collection de
+ces derniers documents.
+
+D'avance merci.
+
+## Images, Captions, And Visual Notes
+There are two circular binder holes visible on the left margin of the page. A faint, light blue vertical line is drawn in the left margin next to the first few lines of the main text.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and significant visual elements on the page have been transcribed or noted.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content to crop. The page contains only text and minor marks (binder holes, faint line) that do not warrant cropping."}
+```

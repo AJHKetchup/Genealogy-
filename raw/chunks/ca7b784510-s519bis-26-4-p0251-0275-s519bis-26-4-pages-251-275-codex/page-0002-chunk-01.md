@@ -1,0 +1,85 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-21cb62d121ae-P0002-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0251-0275-s519bis-26-4-pages-251-275.codex.md
+converted_sha256: 21cb62d121aedd46090d76507ab5a24d7fb3106819e232c1d12dee486e249e25
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0251-0275-s519bis-26-4-pages-251-275/manifest.json
+page_start: 2
+page_end: 2
+part: 1
+---
+
+## Page Metadata
+Page: 252
+
+## Layout And Reading Order
+The page contains a single column of text, starting with a page number at the top, followed by a numbered list item and several paragraphs of text.
+
+## Literal Transcription
+```
+- 2 -
+
+3. Cuba, Bolivie, Paraguay, Equateur, Costa Rica, Gua-
+   temala, Salvador, République Dominicaine, Panamá,
+   Nicaragua, Haïti et Honduras.
+
+     Il est évident que la différence de traitement se-
+rait très grande, puisque les pays du premier groupe se-
+raient élus avec un intervalle de trois ans, ceux du deuxième
+groupe, avec un intervalle éventuel de quinze ans et ceux
+du troisième groupe avec un intervalle éventuel de trente
+trois ans, si le Brésil et Costa Rica étaient Membres de la
+Société. Mais les intervalles sont théoriques pour les
+groupes 2 et 3, parce que l'Assemblée ne serait pas tenue
+de respecter un roulement strict.
+
+     La plupart des Etats de l'Amérique latine ne peu-
+vent pas protester contre l'inégalité de traitement, parce
+que 14 de leurs représentants ont déjà accepté cette inéga-
+lité quand ils ont décidé au cours de l'Assemblée de 1929,
+de diviser les pays de l'Amérique latine en trois groupes
+de 7, 4 et 4 Etats respectivement, de façon que les inter-
+valles pouvaient être normalement de 18 ans pour les uns
+et de 9 ans pour les autres.
+
+     Les intervalles seraient plus courts si le mandat
+de Membre non permanent du Conseil pouvait devenir de deux
+au lieu de trois ans.
+
+     Quant au Brésil, je pense qu'il serait disposé
+à rentrer dans la Société sans insister sur le siège perma-
+nent, d'abord parce que l'entrée du Mexique et l'adhésion
+définitive de l'Argentine ont changé fondamentalement la
+situation de 1926, mais encore parce que la raison invoquée
+alors par le Brésil d'occuper le siège réservé aux Etats-
+Unis devient énormément plus faible étant donné que ce
+pays fait déjà partie du B.I.T., qu'il acceptera bientôt
+le Statut de la Cour et qu'il est question de l'adhésion
+au Pacte parmi les parlementaires à Washington.
+
+     A mon avis, l'essentiel réside dans le fait qu'il
+faut trouver un moyen afin que le Gouvernement du Brésil
+puisse justifier devant lui-même, plus encore que devant
+l'opinion publique, une attitude différente de celle adop-
+tée en 1926. Les Républiques soeurs de l'Amérique pour-
+raient sacrifier un peu de leur prestige en facilitant son
+retour par l'abandon plus ou moins temporaire de leur as-
+piration légitime de collaborer dans le Conseil avec leur
+sagesse à l'organisation politique et juridique du monde.
+```
+
+## Images, Captions, And Visual Notes
+There are no substantial images or captions on this page. The black dot in the margin is a minor mark and not a meaningful visual asset.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and includes all visible text on the page.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for extraction."}
+```

@@ -1,0 +1,87 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b1348c6b8606-P0008-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0276-0300-s519bis-26-4-pages-276-300.codex.md
+converted_sha256: b1348c6b860658765bad85f8fe67ec60b24bcfe0d9652fa46a2cf12a93078116
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0276-0300-s519bis-26-4-pages-276-300/manifest.json
+page_start: 8
+page_end: 8
+part: 1
+---
+
+## Page Metadata
+- Page number: 283
+
+## Layout And Reading Order
+The page contains a single column of typewritten text in French, with a page number centered at the top. There is one handwritten word at the end of the first paragraph.
+
+## Literal Transcription
+- 3 -
+
+Je fis remarquer également au Dr. Paranaguá le danger de trop
+continentaliser les questions politiques parce qu'il est facile
+d'arriver à la formation d'un groupe continental quelconque
+à l'hégémonie d'une des parties ou à une solidarité très
+préjudiciable. Je lui présentai le cas du Brésil en 1926 et lui
+dis que s'il avait alors existé une solidarité continentale,
+il aurait eu 20 % de probabilités dans le sens de convaincre
+le Brésil pour qu'il ne s'en aille pas, et 80 % de probabilités
+dans le sens que d'autres pays se seraient solidarisés avec lui.
+En outre, en Amérique, la tendance à l'hégémonie des Etats-
+Unis avec tous les dangers que cela représente pour les pays
+d'Amérique et pour les autres continents, est indiscutable et
+ce serait, à mon avis, une erreur que de donner à ce fait son
+caractère *officiel*.
+
+Le Dr. Paranaguá croit que le Ministre p.i. des Affaires
+Etrangères, qui est ami de la Société des Nations, n'a pas
+suffisamment d'influence politique pour imposer ses vues et
+qu'il est nécessaire de s'adresser directement au Président
+Getulio Vargas qui, actuellement, a un grand pouvoir. Il serait
+également opportun d'approcher d'autres hommes d'importance et
+d'influence dont il nous enverra la liste une fois qu'il
+sera au Brésil et qu'il aura sondé un peu son opinion.
+
+Le Dr. Paranaguá doit parler avec le Président Getulio
+Vargas de quelques sujets qui intéressent foncièrement le
+Brésil, du point de vue économique et financier, et il saisira
+l'occasion pour aborder la question de la Société des Nations
+et connaître ainsi sa réaction et les possibilités d'action.
+
+Je lui dis que j'avais eu un entretien avec M. Azcarate
+au sujet de la collaboration qu'il pourrait donner au Secrétariat
+pour mieux comprendre le problème du Brésil et il accepta de
+me communiquer ses impressions lorsqu'il pourra les préciser
+clairement, attendant que je lui indique éventuellement ce
+qu'on croira opportun de faire par son intermédiaire ou
+d'autre manière.
+
+Le Dr. Paranaguá part samedi ou dimanche pour
+Londres où il restera 4 ou 5 jours avant de s'embarquer pour le
+Brésil. Entre ses plans figure celui de revenir en Europe avec
+une mission financière de l'Etat de San Pablo dont il est
+originaire. Il emporte avec lui un rapport minutieux sur les
+communications radiophoniques entre l'Europe et l'Amérique et
+entre les pays américains, étant arrivé à la conclusion que
+les quatre grandes Compagnies existantes en Europe et en
+Amérique ont formé un trust contre lequel doivent se défendre
+certains pays américains qui ont de grands intérêts économiques
+et qui peuvent être à la merci de certains cercles financiers
+par la collaboration du trust radio-télégraphique et radio-
+téléphonique auquel il est fait allusion.
+
+## Images, Captions, And Visual Notes
+- A handwritten word "officiel" is inserted at the end of the first paragraph, underlined.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and includes all visible text and the handwritten insertion.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The only visual element is a handwritten word, which has been transcribed inline."}
+```

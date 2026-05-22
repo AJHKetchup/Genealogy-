@@ -11,8 +11,6 @@ page_end: 175
 part: 1
 ---
 
-# Page 175
-
 ## Page Metadata
 
 - Source: `raw/sources/R3016-11A-2905-950.pdf`

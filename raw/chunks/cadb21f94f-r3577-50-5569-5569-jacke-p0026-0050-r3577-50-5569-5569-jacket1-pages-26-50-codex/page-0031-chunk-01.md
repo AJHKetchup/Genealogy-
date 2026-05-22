@@ -11,8 +11,6 @@ page_end: 31
 part: 1
 ---
 
-# Page 31
-
 ## Page Metadata
 
 - Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
@@ -98,45 +96,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page 32
-
-## Layout And Reading Order
-
-The page contains text centered horizontally. It includes a page number at the top, followed by a chapter heading, a sub-heading, and two articles (18 and 19), each with a short paragraph of text.
-
-## Literal Transcription
-
-— 15 —
-
-CHAPITRE VI.
-Du signe distinctif.
-
-ARTICLE 18.
-
-Par hommage pour la Suisse, le signe héraldique de la croix rouge sur fond blanc, formé par interversion des couleurs
-fédérales, est maintenu comme emblème et signe distinctif du service sanitaire des armées.
-
-ARTICLE 19.
-
-Cet emblème figure sur les drapeaux, les brassards, ainsi que sur tout le matériel se rattachant au service sanitaire,
-avec la permission de l'autorité militaire compétente.
-
-## Images, Captions, And Visual Notes
-
-The page contains only text and no images or other significant visual elements.
-
-## Uncertain Or Illegible
-
-No uncertain or illegible text was found on this page.
-
-## Completeness Audit
-
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no substantial images or visual elements that require cropping."}
-```

@@ -11,8 +11,6 @@ page_end: 74
 part: 1
 ---
 
-# Page 74
-
 ## Page Metadata
 
 - Source: `raw/sources/S179-34-6.pdf`
@@ -66,3 +64,5 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 1.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 75

@@ -1,0 +1,72 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-c9266ddde082-P0003-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450.codex.md
+converted_sha256: c9266ddde0824c7b352af52d7ce0cecf6e6710de12e7318e29df20f97e37f6b1
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450/manifest.json
+page_start: 3
+page_end: 3
+part: 1
+---
+
+## Page Metadata
+Page: 428
+
+## Layout And Reading Order
+The page contains a single column of typewritten text in French. A page number is centered at the top. The main body of text consists of three paragraphs.
+
+## Literal Transcription
+```
+                                                               -11-
+
+de la Société des Nations", demande à laquelle le Pré-
+sident aurait répondu "qu'il ignorait la procédure qui
+serait employée pour adresser une telle invitation, bien
+que, à son avis, d'après sa connaissance du texte du
+Pacte, il suffirait de l'adhésion du pays neutre par
+l'intermédiaire de son représentant accrédité à cet effet".
+
+Le 29 avril, le Dr. Alvear fait savoir à son Gou-
+vernement que la Conférence de la Paix a adopté à l'una-
+nimité le Pacte dont il transmet par câblogramme le texte
+intégral, et, dans son désir d'obtenir une adhésion im-
+médiate, il envoie à son gouvernement la dépêche suivante:
+"J'attire l'attention de Votre Excellence, dit-il, sur
+les termes de l'article premier (du Pacte), en vue des-
+quels il conviendrait de faire une déclaration d'adhésion
+de l'Argentine en temps opportun, pour éviter qu'elle ne
+demande d'en faire partie après son entrée en fonction,
+ce qui nous mettrait dans une situation d'éloignement
+volontaire, préjudiciable à notre pays". De cette dépê-
+che découle la conclusion que le Dr. Alvear a oublié que
+le délai de soixante jours accordé aux Etats pour leur
+accession, commençait à courir depuis l'entrée en vigueur
+du traité et que celle-ci ne pouvait avoir lieu avant la
+signature du protocole d'échange des ratifications.
+
+Le 24 mai 1919, le Ministre Alvear envoie la dé-
+pêche suivante à son Gouvernement: "Nous croyons que
+l'adhésion immédiate et sans réserve, de notre pays à la
+Société des Nations s'impose par la voie d'une communica-
+tion qui serait adressée par le Ministre argentin en
+France. La ratification ultérieure de notre Congrès pour-
+rait avoir lieu lorsque les Parlements des principaux
+pays qui sont parties au traité, l'auront à leur tour
+ratifié".
+```
+
+## Images, Captions, And Visual Notes
+No meaningful visual evidence on this page.
+
+## Uncertain Or Illegible
+The word "transmet" in the second paragraph appears slightly smudged or faintly printed, making the initial 't' less clear, but the reading "transmet" is highly probable given the context.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual evidence on this page."}
+```

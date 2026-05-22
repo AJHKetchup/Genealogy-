@@ -11,8 +11,6 @@ page_end: 21
 part: 1
 ---
 
-# Page 21
-
 ## Page Metadata
 
 - Source: `raw/sources/S522bis-29-3.pdf`
@@ -79,16 +77,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-- Page number: 22
-
-## Layout And Reading Order
-The page presents text in a multi-column layout, followed by a centered title, two columns of names, and a final three-line centered statement.
-
-The reading order is:
-1. Three columns of main text, read left-to-right, top-to-bottom.
-2. A date and location at the end of the third column.
-3. A centered title.
-4. Two columns of names, read left-to-right, top-to-bottom.
-5. A final three-line centered statement.

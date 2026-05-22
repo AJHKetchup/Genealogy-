@@ -1,0 +1,76 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ebca5d858db2-P0008-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43.codex.md
+converted_sha256: ebca5d858db29c6144565c0587b7ef74675d3c0c84577aa35babaf97b4555dee
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43/manifest.json
+page_start: 8
+page_end: 8
+part: 1
+---
+
+## Page Metadata
+Page number: 31
+
+## Layout And Reading Order
+The page consists of a single column of text. The page number is centered at the top. The content is structured into articles, with a chapter heading and sub-heading.
+
+## Literal Transcription
+
+— 27 —
+
+objetos, sin culpa suya o de sus agentes, a consecuencia
+del servicio del ferrocarril.
+
+Art. 62. — Las distancias marcadas en los artículos ante-
+riores se contarán horizontalmente desde la línea inferior de
+los taludes del terraplén de los ferrocarriles, desde la superior
+de los desmontes y desde el borde exterior de las cunetas, y a
+falta de éstas, se medirán desde una línea trazada a metro y
+medio del carril exterior de la vía.
+
+Art. 63. — Sin perjuicio de la pena respectiva, los contra-
+ventores a los artículos precedentes estarán obligados a resta-
+blecer las cosas al estado anterior y a responder por todos los
+perjuicios ocasionados. Si en el término señalado por el Juez
+ante quien se entablare la queja, no hubiera el infractor resta-
+blecido las cosas a su estado anterior, podrá hacerlo la empresa
+a costa de aquél, previa autorización del Juez.
+
+CAPÍTULO IV
+
+OBLIGACIONES DE LAS EMPRESAS
+
+Art. 64. — Transporte por empresas combinadas.
+Art. 65. — Responsabilidad de las empresas por actos de sus empleados.
+Art. 66. — Nulidad de cláusulas que exoneren de responsabilidades.
+Art. 67. — Prohibición de convenios sobre tarifas y reparto de utilidades.
+Art. 68. — Casos en que no se permite alterar las tarifas.
+
+Art. 64. — Las empresas combinadas deben ser considera-
+das como una sola empresa para todos los efectos de la contra-
+tación en materia de transporte, sin perjuicio de las acciones
+que puedan corresponder entre sí a las respectivas compañías,
+por consecuencia de las bases de la combinación.
+
+Art. 65. — Es deber de las empresas velar porque todos sus
+empleados sean diligentes e idóneos. Su responsabilidad hacia
+los pasajeros y cargadores por daños resultantes de faltas de
+sus empleados, se extiende a todos los actos ejecutados por
+éstos en desempeño de sus funciones.
+
+## Images, Captions, And Visual Notes
+No meaningful visual content was detected on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual content was detected on this page."}
+```

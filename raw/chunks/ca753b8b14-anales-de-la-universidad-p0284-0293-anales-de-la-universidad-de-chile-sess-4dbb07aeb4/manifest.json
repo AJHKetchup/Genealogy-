@@ -12,14 +12,104 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-2fa9f4b0fc49-P0290-01",
+      "chunk_id": "CHUNK-2fa9f4b0fc49-P0001-01",
       "chunk_number": 1,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-sess-4dbb07aeb4/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 1794,
+      "sha256": "134c84651db87e1abc05d22d5b324de12a277eeeaee7e60145c898568ab09c27"
+    },
+    {
+      "chunk_id": "CHUNK-2fa9f4b0fc49-P0285-01",
+      "chunk_number": 2,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-sess-4dbb07aeb4/page-0285-chunk-01.md",
+      "page_start": 285,
+      "page_end": 285,
+      "part": 1,
+      "chars": 2958,
+      "sha256": "bc0458fb0b820c1fe2e759e1c6dc2e83322cebf14153449cbb6feeb75dd44b57"
+    },
+    {
+      "chunk_id": "CHUNK-2fa9f4b0fc49-P0003-01",
+      "chunk_number": 3,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-sess-4dbb07aeb4/page-0003-chunk-01.md",
+      "page_start": 3,
+      "page_end": 3,
+      "part": 1,
+      "chars": 2629,
+      "sha256": "124b7a52e5522bbd43b0c7ce620268df7672a44ddc771e293c3c038688840b13"
+    },
+    {
+      "chunk_id": "CHUNK-2fa9f4b0fc49-P0004-01",
+      "chunk_number": 4,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-sess-4dbb07aeb4/page-0004-chunk-01.md",
+      "page_start": 4,
+      "page_end": 4,
+      "part": 1,
+      "chars": 2399,
+      "sha256": "d830517b328eab90306831679ca0b3d02a572e33498c7230186599f465978829"
+    },
+    {
+      "chunk_id": "CHUNK-2fa9f4b0fc49-P0005-01",
+      "chunk_number": 5,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-sess-4dbb07aeb4/page-0005-chunk-01.md",
+      "page_start": 5,
+      "page_end": 5,
+      "part": 1,
+      "chars": 2346,
+      "sha256": "4db6b893d9fa1b53dd28966ba671655e8189b4b054fa7e1b8f7b9d1005343b3b"
+    },
+    {
+      "chunk_id": "CHUNK-2fa9f4b0fc49-P0006-01",
+      "chunk_number": 6,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-sess-4dbb07aeb4/page-0006-chunk-01.md",
+      "page_start": 6,
+      "page_end": 6,
+      "part": 1,
+      "chars": 2482,
+      "sha256": "dc7cd007a598b853f7ccc01b8045ce2cbfba28a6f7f641effb4271745582b9b0"
+    },
+    {
+      "chunk_id": "CHUNK-2fa9f4b0fc49-P0290-01",
+      "chunk_number": 7,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-sess-4dbb07aeb4/page-0290-chunk-01.md",
       "page_start": 290,
       "page_end": 290,
       "part": 1,
-      "chars": 11243,
-      "sha256": "969cd0bbfdf1b84c8671ce5ada073df4b29a010fe655d3c817cd0f170adcc7fb"
+      "chars": 4308,
+      "sha256": "fce72179727fd1e8f2d793d1f4f3f5322c579fdb69f45b5606e94d7249fbd9f6"
+    },
+    {
+      "chunk_id": "CHUNK-2fa9f4b0fc49-P0008-01",
+      "chunk_number": 8,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-sess-4dbb07aeb4/page-0008-chunk-01.md",
+      "page_start": 8,
+      "page_end": 8,
+      "part": 1,
+      "chars": 2209,
+      "sha256": "990e8205f03b23b430fbd7ceae2941aee8a3f00c45f4fc478d5bba29ff096869"
+    },
+    {
+      "chunk_id": "CHUNK-2fa9f4b0fc49-P0009-01",
+      "chunk_number": 9,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-sess-4dbb07aeb4/page-0009-chunk-01.md",
+      "page_start": 9,
+      "page_end": 9,
+      "part": 1,
+      "chars": 2257,
+      "sha256": "d5b9bf7a206504b20b01809e3c8cec54b4d8d0c7818da3ec32f7db77f3906e8a"
+    },
+    {
+      "chunk_id": "CHUNK-2fa9f4b0fc49-P0010-01",
+      "chunk_number": 10,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-sess-4dbb07aeb4/page-0010-chunk-01.md",
+      "page_start": 10,
+      "page_end": 10,
+      "part": 1,
+      "chars": 2451,
+      "sha256": "cc293446a8ce889e5a7b38c74dbdc8b28bb88aace39495c80f6031e85967039c"
     }
   ]
 }

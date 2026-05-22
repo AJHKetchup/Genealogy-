@@ -1,0 +1,77 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-4363bd32173b-P0011-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678.codex.md
+converted_sha256: 4363bd32173b1bf6518b5475d89426650b1768c579c1d88a5dae01dc8f8cefe4
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/manifest.json
+page_start: 11
+page_end: 11
+part: 1
+---
+
+## Page Metadata
+Page number: 594
+
+## Layout And Reading Order
+The page consists of a single column of text, primarily detailing railway tariffs and calculations. The content flows from top to bottom.
+
+## Literal Transcription
+594 MEMORIAS CIENTÍFICAS I LITERARIAS
+___
+
+En el ferrocarril del Llano de Maipo las tarifas de pasajeros son de
+$ 0.05 d en primera clase (`d` representa la distancia), y $ 0,025 d en se-
+gunda clase. El precio del transporte por quintal métrico de equipaje es
+de $ 0.070 d, y por carga de gran velocidad de $ 0.065 d. El flete por
+tonelada de carga de pequeña velocidad es: de 1.ª clase, $ 0.50 + 0.12 d
+de 2.ª clase, $ 0.40 + 0.09 d; de 3.ª clase, $ 0.30 + 0.07 d; de 4.ª clase
+$ 0.20 + 0.045 d.
+En el ferrocarril de Rancagua al Teniente (Braden Copper Company
+el precio del transporte de pasajeros se calcula con las siguientes fórmulas
+1.ª clase: $ 0.11 d (`d` representa la distancia en kilómetros); 2.ª clase,
+$ 0.06d. Las tarifas de equipajes son de $ 0.06 d, y las de carga por gran
+velocidad, $ 0.04 d. El flete de transporte de carga por pequeña velocidad
+y por tonelada es: 1.ª clase, $ 0.30 d; 2.ª clase, $ 0.25 d; 3.ª clase, $ 0.20 d;
+4.ª clase, $ 0.15 d. oro de 18 peniques.
+En el ferrocarril de General Cruz a Cartago el precio de conducción de
+pasajeros de primera clase es de $ 0.20 + 0.07 d (`d` es la distancia en kiló-
+metros); en tercera clase es de $ 0.10 + 0.04 d. Las tarifas de equipajes
+por quintal métrico son de $ 0.10 + 0.04 d, y de carga por gran velocidad
+$ 0.05 + 0.03 d. El flete de carga por pequeña velocidad es: primera clase,
+$ 0.05 + 0.22 d; segunda clase, $ 0.05 + 0.17 d; tercera clase, $ 0.05 + 0.15 d;
+cuarta clase, $ 0.05 + 0.13 d en pesos de 18 peniques.
+En el ferrocarril de Concepción a Penco (Compañía Carbonífera de los
+Ríos de Curanilahue) el precio del pasaje es en primera clase de $ 0.15 +
+0.03 d (`d` representa la distancia en kilómetros); en segunda clase es de
+$ 0.05 + 0.014 d. El precio del transporte de equipaje por quintal métrico
+es de $ 0.10 + 0.05 d; de la carga por gran velocidad, $ 0.05 + 0.016 d.
+Las tarifas de carga por pequeña velocidad son: 1.ª clase, $ 0.20 + 0.16 d;
+2.ª clase, $ 0.15 + 0.15 d; 3.ª clase, $ 0.10 + 0.13 d; 4.ª clase, $ 0.10 +
+0.09 d; 5.ª clase, $ 0.05 + 0.06 d; 6.ª clase, 0.05 + 0.057 d, oro de 18 pe-
+niques.
+En la Compañía Arauco Limitada se cobra por el transporte de pa-
+jeros en primera clase, $ 0.05024 por kilómetro; en segunda, $ 0.03694; en
+tercera, $ 0.0238. Las tarifas de equipaje y carga por gran velocidad son:
+de 0 a 40 kilómetros de distancia, $ 0.2178 por cada 10 kilogramos
+de 40 a 80 kms. de distancia, $ 0.2644 por 10 kgs.; distancia mayor de
+80 kms., $ 0.3889 por cada 10 kgs. El flete por tonelada de carga de
+pequeña velocidad es, en la primera clase y en 25 kilómetros de distancia,
+$ 0.84 + 0.1244 d; entre 25 y 50 kms., $ 3.951 + 0.1104 (`d`.–25); en una
+distancia mayor de 50 kms., $ 6.751 + 0.0964 (`d`.–50). Segunda clase
+hasta 25 kms., $ 0.84 + 0.0828 d; entre 25 y 75 kms., $ 2.909 + 0.07 (`d`.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+No uncertain or illegible text was encountered.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
+```

@@ -1,0 +1,82 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-57be51e30f3a-P0020-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225.codex.md
+converted_sha256: 57be51e30f3ae0c4b8529a9b76a951aed1282b54d4c53e1293060e4db5680f4e
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225/manifest.json
+page_start: 20
+page_end: 20
+part: 1
+---
+
+## Page Metadata
+Page: 220
+
+## Layout And Reading Order
+The page presents a single column of text, primarily legal or administrative in nature, with a header at the top indicating a page number and a consultative opinion number. There is one indented block quote. The text flows continuously from top to bottom.
+
+## Literal Transcription
+10 AVIS CONSULTATIF N° 18
+
+dans cette partie du Traité que l'on s'attendrait par consé-
+quent à trouver les dispositions régissant l'admission des
+Membres au sein de l'Organisation et prescrivant les qualités
+requises pour en devenir Membre. Cependant, la seule disposi-
+tion ayant trait aux qualités requises est le deuxième alinéa
+de l'article 387, ainsi conçu :
+
+« Les Membres originaires de la Société des Nations
+seront Membres originaires de cette Organisation, et,
+désormais, la qualité de Membre de la Société des Nations
+entraînera celle de ladite Organisation. »
+
+Il n'est pas impossible que l'intention des Puissances parties
+au Traité de Versailles ait été de faire coïncider la qualité de
+Membre de la Société des Nations et celle de Membre de
+l'Organisation internationale du Travail, et de faire en sorte
+qu'un État ou une communauté ne soit pas Membre de
+l'Organisation internationale du Travail sans être en même
+temps Membre de la Société des Nations. Cette question, toute-
+fois, ne se pose pas à propos du statut juridique spécial de
+Dantzig. Elle n'a pas été traitée dans les exposés écrits ou
+oraux présentés à la Cour, et, par conséquent, la Cour ne l'a
+pas examinée, pour les motifs énoncés plus haut. L'affaire a
+été étudiée uniquement au point de vue de savoir si le statut
+juridique spécial de la Ville libre est compatible avec la qua-
+lité de Membre de l'Organisation internationale du Travail.
+Mais le fait que la Cour a donné sa réponse sur cette base ne
+saurait être interprété comme préjugeant en aucune manière
+de son opinion sur la question plus large, au cas où, à un
+moment quelconque, celle-ci lui serait soumise.
+
+L'existence de la Ville libre de Dantzig résulte du règlement
+de la paix effectué par le Traité de Versailles.
+
+Aux termes de l'article 102, les Principales Puissances alliées
+et associées sont convenues de constituer le territoire défini
+audit article en Ville libre, et ont déclaré que celle-ci serait
+placée sous la protection de la Société des Nations.
+
+Par l'article 103 a été prévue l'élaboration d'une constitution
+pour la Ville libre d'accord avec un Haut-Commissaire à
+désigner par la Société des Nations. Cette constitution devait
+être placée sous la garantie de la Société des Nations.
+
+Aux termes de l'article 104, les Principales Puissances alliées
+et associées se sont engagées à négocier les termes d'une
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present on the page."}
+```

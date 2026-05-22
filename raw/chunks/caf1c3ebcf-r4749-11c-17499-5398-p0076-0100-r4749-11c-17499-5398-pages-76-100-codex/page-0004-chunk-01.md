@@ -1,0 +1,85 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e30e438b6d0c-P0004-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0076-0100-r4749-11c-17499-5398-pages-76-100.codex.md
+converted_sha256: e30e438b6d0cb10974849930f94d58ec7b7b54f8c190958de3f99de95e5f247c
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0076-0100-r4749-11c-17499-5398-pages-76-100/manifest.json
+page_start: 4
+page_end: 4
+part: 1
+---
+
+## Page Metadata
+Page number: 79
+
+## Layout And Reading Order
+The page contains typewritten text in a single column, with a page number in the top right corner. A circular stamp is present on the left side of the page, overlapping some of the text. The text includes a section marked with "c)" and continues with further paragraphs. The page begins and ends with "///" markers.
+
+## Literal Transcription
+```
+                                                                -- 10 --
+
+                                ///
+
+cimiento, el tribunal podrá anticipar su salida, fundando
+la resolución en la desaparición de las causas que motiva-
+ron la internación o en la reforma moral del menor, la capa
+cidad de las personas que lo tendrán a su cargo para dirigir
+su educación, y la situación de ambiente donde vivirá, si de
+todo ello resulta conveniente la salida para su salud y adap
+tación social;
+
+        c) Si el menor, al tiempo de intervenir el tribunal,
+hubiere cumplido quince años de edad y revelare peligrosidad,
+o si acusare perversión moral, impulsividad o tendencia a de
+linquir, será internado en un reformatorio o en sección es-
+pecial de un establecimiento educativo público, por tiempo
+indeterminado.-
+
+        Cuando el menor comprendido en el inciso anterior ha-
+ya cumplido dieciocho años de edad y siempre que hubiera trans
+currido, por lo menos, un año desde su ingreso, si su conduc
+ta pusiere de manifiesto una reforma moral positiva o una
+modificación favorable de su personalidad, visto el informe
+del director del reformatorio, será trasladado a un estable-
+cimiento educativo o eximido del régimen de la sección espe-
+cial, y permanecerá en él hasta los veintiún años de edad.-
+En caso de inadaptación al ambiente de este establecimiento,
+se procederá conforme a lo estatuído en la disposición si-
+guiente.-
+
+        Si al cumplirse la edad y tiempo establecido en el
+
+                                ///
+```
+
+## Images, Captions, And Visual Notes
+A circular stamp is present on the left side of the page, partially obscuring the text. The stamp reads "MINISTERIO DE RELACIONES EXTERIORES Y CULTO - REPUBLICA ARGENTINA" around its circumference, with an emblem in the center.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and the stamp have been transcribed and described.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "stamp",
+      "bbox_pct": [9.9, 9.9, 90.1, 90.1],
+      "caption_literal": "MINISTERIO DE RELACIONES EXTERIORES Y CULTO - REPUBLICA ARGENTINA",
+      "caption_type": "converter-description",
+      "identity_basis": "text-in-image",
+      "source_context": "A circular stamp on the left side of the page.",
+      "confidence": 0.95,
+      "suggested_filename": "circular_stamp_ministerio_de_relaciones_exteriores_y_culto_republica_argentina.png",
+      "inline_anchor": "MINISTERIO DE RELACIONES EXTERIORES Y CULTO - REPUBLICA ARGENTINA"
+    }
+  ]
+}
+```

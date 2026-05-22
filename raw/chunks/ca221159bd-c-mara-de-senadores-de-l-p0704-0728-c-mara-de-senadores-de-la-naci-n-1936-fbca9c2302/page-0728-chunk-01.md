@@ -11,8 +11,6 @@ page_end: 728
 part: 1
 ---
 
-# Page 728
-
 ## Page Metadata
 
 - Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`

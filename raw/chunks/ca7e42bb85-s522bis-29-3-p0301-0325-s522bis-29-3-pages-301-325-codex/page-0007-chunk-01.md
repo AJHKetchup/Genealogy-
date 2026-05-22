@@ -1,0 +1,71 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-5af6762978e2-P0007-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0301-0325-s522bis-29-3-pages-301-325.codex.md
+converted_sha256: 5af6762978e220fe2ac95b7bb689db69f4e84887abad164c9029f30cb1eedd1c
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0301-0325-s522bis-29-3-pages-301-325/manifest.json
+page_start: 7
+page_end: 7
+part: 1
+---
+
+## Page Metadata
+Page number: 307
+
+## Layout And Reading Order
+The page contains a single column of text, starting with a page number at the top, followed by a continuous narrative in Spanish.
+
+## Literal Transcription
+- 9 -
+
+reproducida en las páginas precedentes. Como consecuencia de
+las declaraciones hechas por el Ministro en el momento de nom-
+brar a la delegación, la Comisión de asuntos constitucionales
+del Senado cayó igualmente en el mismo error de principio.
+La Comisión dice, en efecto, en su informe: "Por consiguien-
+te, el Sr. Ministro de Relaciones Exteriores estima que sola-
+mente después de que haya tenido lugar la Asamblea, que debe
+celebrarse el 15 de Noviembre, y en el caso de que los emba-
+jadores que representen a la República suscriban un tratado,
+sería oportuno someter la cuestión al Congreso". La designa-
+ción de "embajadores" y el acuerdo a este efecto son inter-
+pretados por el Poder Ejecutivo con el mismo criterio y el
+mismo alcance que cuando se trata generalmente de enviar cerca
+de naciones amigas embajadores que puedan estar dispuestos a
+discutir un tratado, sin que su nombramiento signifique que
+se ha emitido de antemano una opinión sobre la aceptación o
+repulsa de algún tratado que fuese firmado".
+
+Resulta curioso el hecho de que el negociador argen-
+tino no tenía una idea muy clara a este respecto en el momen-
+to de la discusión presidida por Lord Cecil. En efecto, cuan-
+do los neutrales supieron que el Pacto estaba ya en vigor con
+las pocas enmiendas que la Comisión había aceptado, el Dr.
+Alvear preguntó al Presidente Lord Cecil "cuándo creía él que
+los países neutrales serían invitados a tomar parte en la fun-
+dación de la Sociedad de las Naciones", pregunta a la cual el
+Presidente respondió "que ignoraba el procedimiento que sería
+seguido para dirigir tal invitación, aunque a su juicio y se-
+gún el conocimiento que él tenía del texto del Pacto, basta-
+ría con la adhesión del país neutral por medio de su represen-
+tante acreditado a ese efecto".
+
+El 29 de Abril, el Dr. Alvear hace saber a su Gobierno
+que la Conferencia de la Paz ha adoptado por unanimidad el Pac-
+to del cual transmite el texto íntegro por cable, y en su de-
+
+## Images, Captions, And Visual Notes
+No meaningful images or visual notes are present on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and includes all visible text on the page.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+```

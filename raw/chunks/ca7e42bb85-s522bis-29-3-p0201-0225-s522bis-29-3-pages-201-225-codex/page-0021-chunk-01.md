@@ -1,0 +1,81 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-57be51e30f3a-P0021-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225.codex.md
+converted_sha256: 57be51e30f3ae0c4b8529a9b76a951aed1282b54d4c53e1293060e4db5680f4e
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225/manifest.json
+page_start: 21
+page_end: 21
+part: 1
+---
+
+## Page Metadata
+- Page number: 221
+- Source publication page number: 10
+- Document title: ADVISORY OPINION No. 18
+
+## Layout And Reading Order
+The page consists of a single column of text. A running header "10" is present in the top right corner. The title "ADVISORY OPINION No. 18" is centered at the top. The main content is a series of indented paragraphs, with one section containing a further-indented quoted passage. The text flows continuously from top to bottom.
+
+## Literal Transcription
+```
+                                                                                                10
+                                        ADVISORY OPINION No. 18
+
+        is in that part of the Treaty that one would, therefore, expect
+        to find the rules regulating the admission of Members to the
+        Organization and prescribing the qualification for membership.
+        The only provision however connected with the admission and
+        qualification of Members is the second paragraph of Article 387,
+        which reads as follows :
+                “The original Members of the League of Nations shall
+                be the original Members of this Organization, and here-
+                after membership of the League of Nations shall carry
+                with it membership of the said Organization.”
+        It is not impossible that the intention of the Parties to
+        the Treaty of Versailles was that membership of the League
+        of Nations and membership of the Labour Organization should
+        coincide, and that no State or community should be a Member
+        of the Labour Organization unless it was also a Member of
+        the League. This question, however, is not one which is
+        connected with the special legal status of Danzig. It has not
+        been dealt with in the written statements nor in the oral
+        arguments addressed to the Court, and therefore the Court
+        has not taken it into consideration for the reasons given
+        above. The case has been considered solely from the point
+        of view of whether the special legal status of the Free City
+        is compatible with membership of the Labour Organization.
+        But the fact that the Court has given its answer to the ques-
+        tion upon this basis must not be taken as prejudging in any
+        way its opinion upon the larger question, if at any time that
+        question should be put to it.
+
+        The Free City of Danzig came into being as a result of the
+        peace settlement effected by the Treaty of Versailles.
+        By Article 102, the Principal Allied and Associated Powers
+        agreed to establish the territory there defined as a Free City,
+        and declared that it was to be placed under the protection
+        of the League of Nations.
+        By Article 103, provision was made for the elaboration of
+        a constitution for the Free City in agreement with a High
+        Commissioner to be appointed by the League. This constitu-
+        tion was to be placed under the guarantee of the League.
+        By Article 104, the Principal Allied and Associated Powers
+        pledged themselves to negotiate a treaty, to which Poland
+```
+
+## Images, Captions, And Visual Notes
+No meaningful visual content is present on this page.
+
+## Uncertain Or Illegible
+None. The text is clear and legible.
+
+## Completeness Audit
+All visible text on the page has been transcribed. The last paragraph is incomplete, ending mid-sentence, indicating the content continues on the next page.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual content on this page."}
+```

@@ -1,0 +1,91 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ac35a979870e-P0225-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243.codex.md
+converted_sha256: ac35a979870ed3a29a9cefb88e264bdc8c8a84c0fde22d69792d663547b1cb8a
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json
+page_start: 225
+page_end: 225
+part: 1
+---
+
+## Page Metadata
+- task_id: `source-prep:ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243:p0225`
+- page_num: `225`
+- source_id: `ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243`
+- source_type: `book`
+- source_title: `Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.`
+- page_count_in_source: `20`
+
+## Layout And Reading Order
+The page is a single column of text. The reading order is from top to bottom.
+
+The page begins with a header line containing the session date on the left and the page number on the right.
+
+The main content consists of several sections, each under a bold, centered heading that names a field of law (e.g., "Derecho Constitucional"). Within each section, there are lists of names categorized as either "Propietarios" (principals) or "Suplentes" (alternates).
+
+The first name in a list appears on the same line as its category label. Subsequent names in the same list appear on new lines, indented and prefixed with a "»" symbol.
+
+## Literal Transcription
+```markdown
+SESION DE 14 DE OCTUBRE DE 1918      511
+
+Suplentes: don Alberto Coddou.
+» Lisandro Búrgos.
+
+**Derecho Constitucional**
+
+Propietarios: don Julio Parada Benavente.
+» Edmundo Larénas.
+» Héctor Tapia.
+Suplentes: » Abraham Valenzuela.
+» Jorje Salas.
+
+**Historia Jeneral del Derecho**
+
+Propietarios: don Pablo Vergara.
+» Samuel Guzmán.
+» Luis D. Cruz O.
+Suplentes: » Abraham Melo Peña.
+» Benicio Troncoso.
+
+**Derecho Penal**
+
+Propietarios: don Jorje Salas Bórquez.
+» Clodomiro Acuña.
+» Esteban Iturra.
+Suplentes: » Víctor M. Rioseco.
+» Maximiliano Gajardo.
+
+**Derecho Civil (2.º año)**
+
+Propietarios: don Maximiliano Gajardo.
+» Samuel Guzmán G.
+» Domingo Ocampo.
+Suplentes: » Lisandro Búrgos.
+» Edmundo Larénas.
+
+**Derecho Internacional**
+
+Propietarios: don Abraham Melo Peña.
+» Julio Parada Benavente.
+```
+
+## Images, Captions, And Visual Notes
+There are no images, illustrations, or other significant visual elements on this page. The content is entirely textual.
+
+## Uncertain Or Illegible
+All text on this page is clear and legible.
+
+## Completeness Audit
+This page has been fully and accurately transcribed.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only text and does not have any images, illustrations, or other visual elements suitable for cropping."
+}
+```

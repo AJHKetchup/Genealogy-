@@ -1,0 +1,79 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-383178d699a3-P0018-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0226-0250-s522bis-29-3-pages-226-250.codex.md
+converted_sha256: 383178d699a3eba5670be331d33418b93ae1e340af956ccbaa9ed106462f78b1
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0226-0250-s522bis-29-3-pages-226-250/manifest.json
+page_start: 18
+page_end: 18
+part: 1
+---
+
+## Page Metadata
+Page: 243
+
+## Layout And Reading Order
+The page contains a single column of text, with a page number in the top right corner. The text consists of an opinion, divided into an introductory paragraph, a numbered paragraph, and a concluding paragraph.
+
+## Literal Transcription
+```
+                                                                                                20
+                                INDIVIDUAL OPINION BY M. ANZILOTTI
+
+which case is governed by Article 1 of the Covenant of the
+League of Nations. On the other hand, the Treaty of Versailles
+contains many indications in favour of the interpretation of
+Article 387, paragraph 2, set out above. Mention may be
+made of Article 23, letter _a_, of the Covenant of the League
+of Nations; paragraph 1 of the Preamble to Part XIII;
+Article 392; Article 422, etc.; from all these provisions it
+clearly appears that the International Labour Organization was
+conceived as an association between the Members of the League
+of Nations for the fulfilment of a mission indissolubly bound
+up with the mission of the League itself.
+
+    4.—In this way I reach the conclusion that the hypothesis
+upon which the request proceeds cannot be accepted by the
+Court, because it is in contradiction with the Treaty of Versailles.
+    Having stated this, the Court should, in my opinion,
+have declared that it could not give the opinion for which it
+was asked. To my mind, it is equally inadmissible for the
+Court to comply with a request based on a hypothesis which
+is legally unsound or for the Court to modify the request in
+order to bring it into harmony with what the Court holds
+to be the law in force. It would have been for the Council
+to alter the request in accordance with the Court’s indications,
+if it thought fit to ask for an opinion on the basis of such
+indications.
+    This conclusion also seems indicated by considerations of
+another order. If it be granted that the only way of becom-
+ing a Member of the International Labour Organization is by
+admission to the League of Nations, the question which arises
+is whether the special legal status of the Free City of Danzig
+is such as to enable the Free City to become a Member of the
+League of Nations. Membership of the International Labour
+Organization being merely a necessary consequence of admis-
+sion to the League of Nations, the question put by the request
+would be a preliminary or incidental question in the procedure
+for the admission of the Free City to the League of Nations.
+But the admission of Members is a matter falling within the
+exclusive jurisdiction of the Assembly; it would therefore seem
+that the Assembly alone could ask the Court for an advisory
+opinion on the question thus envisaged.
+```
+
+## Images, Captions, And Visual Notes
+There are no images or significant visual elements on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+```

@@ -11,8 +11,6 @@ page_end: 51
 part: 1
 ---
 
-# Page 51
-
 ## Page Metadata
 
 - Source: `raw/sources/R4946-12-33387-8070.pdf`
@@ -95,25 +93,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-
-- **Page number**: 52
-- **Document title**: Rapport sur l'activité de la Société des Nations
-- **Year**: 1939
-- **Language**: French
-- **Page text quality**: High
-- **Document type**: Report
-- **Table count**: 4
-- **Visual content**: None
-
-## Layout And Reading Order
-
-The page is a single-column document containing several tables with financial data. The reading order is top to bottom.
-
-1.  A page number `- 24 -` is centered at the top.
-2.  A three-column header identifies the locations and groups being reported on: Medellin (men), Asile d'Alienes (men), and Bogota/Lourdes (women).
-3.  The first table, subtitled "(en pesas)", lists monthly costs for the years 1938 and 1939.
-4.  A section titled "RESUME", also subtitled "(en pesos)", provides a summary of costs from 1933 to 1939.
-5.  A final line below the resume table gives the "Coût total de la désintoxication depuis 1933/39".
-6.  The last section, titled "Coût mensuel par malade:", is split into two side-by-side blocks for "BOGOTA" and "MEDELLIN", detailing monthly costs per patient for various periods.

@@ -1,0 +1,81 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f6f40978bbb9-P0444-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450.codex.md
+converted_sha256: f6f40978bbb9d5e286a230feaa3a9fc15a422c321902e8f52dc289dbb221bd63
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/manifest.json
+page_start: 444
+page_end: 444
+part: 1
+---
+
+## Page Metadata
+- Page: 444
+
+## Layout And Reading Order
+The page contains a typewritten letter in Spanish, presented in a single column. The content flows from the date and recipient's address at the top, through a salutation, several paragraphs of body text, and a closing statement at the bottom.
+
+## Literal Transcription
+GINEBRA, 19 de Febrero 1930.
+
+Sr. D. Pablo A. Pizzurno
+11 de Septiembre 1300
+BUENOS AIRES
+
+Distinguido Señor:
+
+Le confirmo mi carta del 11 del ete. en la que le
+anunciaba mis gestiones para obtener la autorización a fin
+de que se enviasen a la Comisión Protectora de Bibliotecas
+Populares, los 300 ejemplares para las Bibliotecas de los
+Institutos de enseñanza secundaria, normal y especial, a
+que Vd. se refería en su carta del 5 de Enero.
+
+Tengo la satisfacción de anunciarle hoy que he obte-
+nido buen éxito en esas gestiones y que después de una dis-
+cusión bastante animada conseguí que se envíen a la Comisión
+mencionada los 300 ejemplares en forma gratuita.
+
+Escribiré hoy al Presidente, Sr. Carlos Vega Belgrano
+anunciando ese envío que será dirigido a la calle Callao 1540,
+sede de la Comisión.
+
+He iniciado también gestiones para obtener una reimpre-
+sión de ese folleto con pequeñas modificaciones de detalle que
+lo pone un poco más al día, pero en una edición más económica
+que la actual, pues ésta cuesta alrededor de 60 céntimos de
+franco, es decir, alrededor de 30 centavos argentinos por ejem-
+plar, y yo quisiera llegar a un precio bastante menor que os-
+cilara alrededor de 10 centavos argentinos por ejemplar. De
+esta manera podría ofrecerse a las Instituciones que lo requie-
+ran, a un precio bajo que no exija un esfuerzo especial dándo-
+lo, naturalmente, al precio exactamente de costo que pague la
+Sociedad por ellos.
+
+Le hago esta advertencia por si puede interesar en el
+ambiente argentino ese folleto en las condiciones a que me re-
+fiero, pues si fuera así y recibiese yo de Vd. una carta alen-
+tadora de que hay adquirentes en la Argentina, me facilitaría
+ello la tarea de obtener lo que persigo.
+
+No he recibido todavía los nuevos datos sobre los muer-
+tos, mutilados, etc. de la guerra, que Vd. me ha pedido, pero
+descuide Vd. que en cuanto los tenga se los remitiré.
+
+Le ruego acepte mis atentos saludos y que no me olvide.
+
+## Images, Captions, And Visual Notes
+The page contains no meaningful images or visual elements beyond the text itself.
+
+## Uncertain Or Illegible
+None. All text is clearly legible.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements such as images, maps, or complex diagrams that would warrant cropping."}
+```

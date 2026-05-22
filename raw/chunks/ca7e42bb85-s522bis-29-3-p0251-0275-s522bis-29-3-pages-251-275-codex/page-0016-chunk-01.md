@@ -1,0 +1,81 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-08fda669f5fb-P0016-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275.codex.md
+converted_sha256: 08fda669f5fba0f78b1ac76e5f3aef6bc9d994dae47a25c6298bbc8233d6b1dd
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275/manifest.json
+page_start: 16
+page_end: 16
+part: 1
+---
+
+## Page Metadata
+- Page number: 266
+- Source: `raw/sources/S522bis-29-3.pdf`
+
+## Layout And Reading Order
+The page contains a single column of text. The page number "32" is located at the top left, followed by the heading "OPINION INDIVIDUELLE DE M. HUBER" at the top center. The main content consists of a continuous block of text.
+
+## Literal Transcription
+```
+32 OPINION INDIVIDUELLE DE M. HUBER
+
+Le veto de la Société des Nations, qui peut intervenir
+aux termes de l'article 6, alinéa 2, de la Convention de Paris,
+est seulement éventuel, comme le refus de la Pologne, et
+ne prive pas en soi la Ville libre de la faculté de devenir
+Membre de l'Organisation internationale du Travail : laissant
+de côté la question de savoir si ce droit de veto est réel-
+lement destiné à trouver son application dans toutes les
+hypothèses, il ne constitue qu'une condition appartenant
+à ce statut spécial. La même observation vaut pour toute
+autre intervention éventuelle de la Société des Nations en
+vertu de son droit de protection.
+
+La difficulté du problème soumis à la Cour réside dans
+les incompatibilités éventuellement existantes entre le statut
+juridique spécial de la Ville libre et les droits et obligations
+qui résulteraient pour elle de sa qualité de Membre de l'Orga-
+nisation. Comme il serait absurde d'admettre une communauté
+qui ne pût participer au fonctionnement, la question de l'ad-
+mission se trouve liée à celle de la participation.
+
+Le fait que la Pologne consentirait éventuellement à deman-
+der à qui de droit, au nom et pour le compte de la Ville
+libre, l'admission de celle-ci, peut être compris de manières
+différentes et exige par suite d'être précisé. Si le consentement
+intervenait à la suite d'une décision rendue en vertu de la
+procédure instituée par l'article 39 de la Convention de Paris,
+il laisserait intact le droit de la Pologne de procéder elle-même,
+pour la Ville libre, à tous actes appartenant à la conduite des
+affaires extérieures que cette dernière voudrait entreprendre
+ou aurait à entreprendre en sa qualité de Membre de l'Organi-
+sation du Travail. Si le droit de la Pologne de se refuser
+à agir pour la Ville libre dépend du caractère de l'acte
+demandé — savoir, s'il est ou non contraire aux intérêts
+importants de l'État polonais — (décisions du Haut-
+Commissaire du 17 décembre 1921 et du Conseil de la Société
+des Nations du 17 mai 1922), la Pologne ne peut en aucun
+cas être obligée à renoncer à son droit de conduire les affaires
+extérieures de la Ville libre. Il importe donc de vérifier
+1º si et dans quelle mesure la participation à l'Organisation
+internationale du Travail rentre dans le domaine des affaires
+extérieures et, partant, du droit de la Pologne; et 2º si et
+dans quelle mesure l'entremise de la Pologne, en vertu de ce
+```
+
+## Images, Captions, And Visual Notes
+No meaningful images, captions, or visual notes are present on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and accurate, capturing all text visible on the page.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The page contains only text."}
+```

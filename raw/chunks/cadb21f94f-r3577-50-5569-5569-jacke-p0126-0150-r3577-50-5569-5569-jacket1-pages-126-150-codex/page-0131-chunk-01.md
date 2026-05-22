@@ -11,8 +11,6 @@ page_end: 131
 part: 1
 ---
 
-# Page 131
-
 ## Page Metadata
 
 - Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
@@ -92,45 +90,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 1.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 132
-
-## Layout And Reading Order
-The page contains legal text, likely from a convention or treaty, presented in a centered, single-column format. It includes a page number, a title, and two articles (Article 90 and Article 91).
-
-## Literal Transcription
-```
-— 47 —
-
-Titre VII.
-
-DE L'APPLICATION DE LA CONVENTION A CERTAINES CATÉGORIES DE CIVILS.
-
-ARTICLE 90.
-
-Les individus qui suivent une armée sans en faire directement partie, tels que les correspondants et les reporters
-de journaux, les vivandiers, les fournisseurs, qui tombent au pouvoir de l'ennemi et que celui-ci juge utile de détenir,
-auront droit au traitement des prisonniers de guerre, à condition qu'ils soient munis d'une légitimation de l'autorité
-militaire de l'armée qu'ils accompagnaient.
-
-ARTICLE 91.
-
-Au cas où les belligérants prendraient, à l'égard des civils mobilisables de la partie adverse se trouvant sur leur terri-
-toire à l'ouverture des hostilités, des mesures restrictives ou privatives de liberté, les individus soumis à ces mesures
-seront considérés comme des prisonniers de guerre et traités comme tels.
-```
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None. All text is clear and legible.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no substantial visual elements that would require cropping."}
-```

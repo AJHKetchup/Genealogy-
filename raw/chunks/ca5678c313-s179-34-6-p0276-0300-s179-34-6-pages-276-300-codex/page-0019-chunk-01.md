@@ -1,0 +1,55 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d1f1f1af2de7-P0019-01
+source_converted: raw/converted/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300.codex.md
+converted_sha256: d1f1f1af2de79f5b9fee0cffb8ebdb41d43a217e2eab31dff2c8c4a7cae306b0
+source: raw/sources/S179-34-6.pdf
+source_sha256: 5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054
+source_manifest: raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/manifest.json
+page_start: 19
+page_end: 19
+part: 1
+---
+
+## Page Metadata
+Page: 294
+
+## Layout And Reading Order
+The page contains a centered header, followed by a left-aligned subtitle, and then a numbered list of twelve items, each describing a document or type of data. The content is presented in a single column.
+
+## Literal Transcription
+OFFICIAL LETTERS, FORMS, DATA, ETC.
+
+URUGUAY, South America:
+
+1. Copies of letters to authorities requesting information, etc.
+2. First Questionnaire to Police Dept. and answers thereto.
+3. Second Questionnaire to Police Dept. (No answers).
+4. Copies of answers (To Questionnaire received by Ministry of
+    Foreign Affairs from League of Nations) prepared by
+    Maj.Johnson and sent to Dr. Luisi.
+5. Questionnaire CL-61-1924 of League of Nations (In French).
+    Also letter of League of Nations, June 15, 1923, on
+    Licensed Houses of Prostitution" (In English).
+6. Affidavit, (in duplicate) of Purser of S.S.Pan America in re
+    misquoted interview with Maj.Johnson, printed in El Dia,
+    July 4, 1924, with copy of newspaper attached thereto.
+7. Copy of El Dia, June 25, 1924, containing article on visit to
+    Health Department, Montevideo.
+8. Photographs of Street Scenes in Red-Light District, Montevideo.
+9. Health Dept. Statistics, Montevideo.
+10. Health Dept. Forms, Montevideo.
+11. Immigration Dept. Forms, Montevideo.
+12. Police Dept. Forms, Montevideo.
+
+## Images, Captions, And Visual Notes
+No substantial images or visual notes are present on this page.
+
+## Uncertain Or Illegible
+None. All text is clearly legible.
+
+## Completeness Audit
+The transcription is complete and accurate, capturing all visible text and its layout on the page.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no substantial images or visual elements that would warrant cropping."}

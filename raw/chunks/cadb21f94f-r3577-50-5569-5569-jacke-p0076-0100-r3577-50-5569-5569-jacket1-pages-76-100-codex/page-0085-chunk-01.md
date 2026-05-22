@@ -11,8 +11,6 @@ page_end: 85
 part: 1
 ---
 
-# Page 85
-
 ## Page Metadata
 
 - Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
@@ -90,39 +88,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 86
-Source document page number: 24
-
-## Layout And Reading Order
-The page contains a centered page number at the top, followed by a chapter heading, an article heading, and a block of text, all centered.
-
-## Literal Transcription
-```
-— 24 —
-
-Chapitre 7. Des ressources pécuniaires des prisonniers.
-
-ARTICLE 23.
-
-La solde des officiers prisonniers de guerre leur sera versée, dès le jour de la capture, par l'Etat au pouvoir duquel
-ils seront tombés, à charge de restitution par l'Etat d'origine à la fin de la captivité.
-Dès l'ouverture des hostilités, les belligérants s'entendront, par voie d'arrangements particuliers, sur le montant de
-la solde à verser aux officiers prisonniers de guerre. A défaut d'entente, cette solde sera celle des officiers de grade corres-
-pondant de l'Etat capteur.
-```
-
-## Images, Captions, And Visual Notes
-This page contains no images or captions.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
-```

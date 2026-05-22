@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-eb46c57caeba-P0001-01
+chunk_id: CHUNK-18c1f711b377-P0001-01
 source_converted: raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md
-converted_sha256: eb46c57caebaaf52cae62c871cb2c92d7afb00ebe06e63a86df9cdad028e5d1c
+converted_sha256: 18c1f711b3778fa81271382e4cbdf3e340fd92c3be053537a2aa70e0340295d6
 source: raw/sources/ACICR_B_CR_177_001_002.pdf
 source_sha256: 35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35
 source_manifest: raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json
@@ -11,22 +11,18 @@ page_end: 1
 part: 1
 ---
 
-# ACICR_B_CR_177_001_002 pages 6-12
-
-## Conversion Metadata
-
-- Source: `raw/sources/ACICR_B_CR_177_001_002.pdf`
-- Source SHA-256: `35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35`
-- Manifest: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json`
-- Conversion method: Codex local vision workbench
-- Extracted images: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/extracted-images`
-
 ## Page Metadata
-Page number: 6
-
+- `task_id`: ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0006
+- `source_page`: 6
+- `source_filepath`: raw/sources/ACICR_B_CR_177_001_002.pdf
+- `conversion_route`: lite
+- `page_type`: text
+- `content_languages`: fr
+- `ocr_quality_notes`: none
+- `visual_elements_notes`: none
+- `visual_elements`: none
 ## Layout And Reading Order
-The page contains a header at the top right and a main body of text formatted as a numbered list. Each item in the list begins with a number, a date, and then the descriptive text. Some items have handwritten marginal notes next to them. The text is in French.
-
+The page contains a list of numbered entries, each with a date and a description. There are also some handwritten marginalia. The reading order is sequential from top to bottom.
 ## Literal Transcription
 CR 177 Conférence diplomatique 6.
 
@@ -44,12 +40,10 @@ de sa réponse.
 offert de soutenir les intérêts et les thèses du CI à prochaine
 conférence diplomatique.
 
-> [Handwritten marginalia] ms., transcr.
-107.- 11.6.29. Note de M. Clouzot sur la participation éventuelle de Mme
+ms., transcr. 107.- 11.6.29. Note de M. Clouzot sur la participation éventuelle de Mme
 Frick-Cramer au travail de la Conférence diplomatique.
 
-> [Handwritten marginalia] ms.
-108.- 13.6.29. Note de M. PDG en réponse à la note ci-dessus.
+ms. 108.- 13.6.29. Note de M. PDG en réponse à la note ci-dessus.
 
 109.- 11.6.29. M. Huber recommande son neveu M. D.Schindler, qui sera un des
 délégués à la Conférence diplomatique
@@ -64,8 +58,7 @@ mettons la copie à Départ. Politique à Berne
 113.- 13.6.29. A.r. à Reichsvereinigung... (100) Remettons document à
 notre délégation à la Conf. diplomatique
 
-> [Handwritten marginalia] fann.
-114.- 13.6.29. Département Politique nous envoie copie de la 1/ qu'il
+tann. 114.- 13.6.29. Département Politique nous envoie copie de la 1/ qu'il
 adresse à M. Thiébaut
 
 115.- 14.6.29. Département Politique demande le No 35 de la revue de novembre
@@ -83,188 +76,14 @@ sa demande à Berne
 
 119.- 14.6.29. Transmettons demande de la CR néerlandaise à Berne
 
-> [Handwritten marginalia] plié
-120.- 15.6.29. CR de Dantzig demande renseignements
+plié 120.- 15.6.29. CR de Dantzig demande renseignements
 
 121.- 15.6.29. Envoyons à M. Dinichert la revue demandée (115)
-
 ## Images, Captions, And Visual Notes
-There are no substantial images or captions on this page. The handwritten marginalia are transcribed in the "Literal Transcription" section.
-
+There are no images or captions on this page.
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
-
+- `(10?)` in entry 111 is uncertain.
 ## Completeness Audit
-All visible text and marginalia on the page have been transcribed.
-
+The transcription is complete and accurate.
 ## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. Minor handwritten notes are transcribed in the literal transcription section."}
-```
-
-## Page Metadata
-Page number: 7
-Source document page-numbering: 7
-
-## Layout And Reading Order
-The page contains a header at the top right with a document identifier and page number. The main content is a two-column layout, with the left column containing a numbered list of entries (122-141) and the right column containing the descriptive text for each entry. There are also three handwritten marginal notes on the left side of the page, aligned with specific entries.
-
-## Literal Transcription
-```
-CR 177 Conférence diplomatique                                                               7.
-
-122.- 16.6.29.     L/ personnelle de M. Cremonési à M. Huber demandant renseigne-
-                   ments sur la constitution de la délégation italienne à la
-                   Conf. dipl.
-123.- 17.6.29.     Remercions M. Dinichert de la copie de sa l/ à M. Thiébaut
-                   (114)
-124.- 17.6.29.     Répondons à CR de Dantzig (120)
-125.- 17.6.29.     Départ. Polit. informe qu'il a envoyé les documents sur
-                   conférence à M. Huber (117)
-126.- 17.6.29.     Mot de M. Des Gouttes remettant une série de documents pour
-                   le président.
-ms., 1 ann         127.- 17.6.29.     M. Huber envoie la copie de la l/ qu'il a adressée le 15.6.
-                   à M. Draudt
-128.- 18.6.29.     Départ. pol. informe qu'il a envoyé un jeu complet des
-                   documents à CR néerlandaise.
-129.- 18.6.29.     Délégation du Nicaragua demande documents.
-130.- 19.6.29.     Remercions Départ. pour envoi documents Huber (125)
-131.- 19.6.29.     Départ. remercie pour la Revue (121)
-132.- 20.6.29.     Demandons à Mme Frick si elle veut faire partie de la
-                   délégation du CI à la Conf. diplomatique.
-ms                 133.- 21.6.29.     M. Huber envoie l/ personnelle (123) de M. Cremonesi avec
-                   prière de répondre.
-134.- 22.6.29.     Extrait d'une l/ de M. Bouvier à M. Huber au sujet de la
-                   nomination de Mme Frick comme 4me membre de la délégation.
-135.- 22.6.29.     M. Georges Cahen à Paris demande renseignements sur PG
-                   (envoyé copie à M. PDG)
-136.- 22.6.29.     M. Jullien photographe demande autorisation pour prendre
-                   photo (avons envoyé copie à M. PDG).
-ms + transcr       137.- 22.6.29.     Note de M. Huber sur conférence diplomatique, au sujet de
-                   sa l/ à M. Draudt (127)
-138.- 24.6.29.     L/ de M. PDG à M. Clouzot au sujet des cartes d'entrée.
-139.- 25.6.29.     Communiqué à la presse
-140.- 25.6.29.     N/ tél. à Mme Frick l'informant qu'elle a été nommée
-                   4me déléguée
-141.- 25.6.29.     Répondons à l/ Cremonesi (122)
-```
-
-## Images, Captions, And Visual Notes
-There are no substantial images or captions on this page.
-- A handwritten note "ms., 1 ann" is present in the left margin next to entry 127.
-- A handwritten note "ms" is present in the left margin next to entry 133.
-- A handwritten note "ms + transcr" is present in the left margin next to entry 137.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text and marginalia on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for region cropping."}
-```
-
-## Page Metadata
-- task_id: `source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0008`
-- page_number: 8
-- version: 1.0.0
-- model_name: `gemini-1.5-pro`
-
-## Layout And Reading Order
-The document is a single-column, typed list of numbered entries. The page number "8." is in the top right corner. Handwritten annotations are present in the left margin next to specific entries. The reading order is from top to bottom.
-
-## Literal Transcription
-```text
-CR 177 Conférence diplomatique
-8.
-
-142.- 25.6.29. Note à M. Huber sur la demande de M. Cremonesi.
-
-ms. + ann.
-143.- 5.6.29. CR siamoise remercie pour envoi brochure Werner sur P.G.
-
-144.- 12.6.29. M. Huber envoie le texte du discours de M. Draudt devant
-le Frauenverein den Deutschen Roteskreuz
-
-145.- 25.6.29. SdN (bibliothèque) demande les documents 1 et 2 présentés à
-la Conférence diplomatique.
-
-146.- 26.6.29. Tél. de Mme Frick: remercie confiance, aurais volontôers
-accepté, mais impossible être Genève avant 8 juillet.
-
-147.- 26.6.29. Répondons à tél. ci-dessus: Votre présence nécessaire surtout
-à partir 8 jusqu'à fin mois. Inscrivons définitivement
-dans délégation.
-
-ms + transcr.
-148.- 26.6.29. Note de M. Huber donnant l'impression de conversations avec
-M. Hammarskjold, Draudt et Fromageot au sujet du Code des PG.
-
-149.- 26.6.29. Mot de M. Des Gouttes envoyant cartes d'entrée pour Conférenc.
-et annonçant l'arrivée de M. Ratzenberger avec liste des
-délégués.
-
-150.- 26.6.29. Informons M. Huber que sa note (137) sera soumise au CI dans
-sa séance du 27.6.
-
-151.- 26.6.29. M. Criaolo informe qu'il est nommé chef de la délégation
-à la Conf. diplomatique. Demande documentation.
-
-152.- 27.6.29. Informons le Département politique que Mme Frick-Cramer fera
-partie de la délégation du CICR
-
-ms.
-153.- 27.6.29. M. Farotte annonce son arrivée et demande documents
-
-154.- 28.6.29. Communiqué sur la 2me revision de la Convention de Genève
-
-155.- 3.7.29. Cercle de la Presse invite un membre, représentant le CI
-à son dîner le 17.7. à l'occasion de la Conférence diplo.
-
-156.- 9.7.29. Tél. de la Liga Kriegsgefangener & deutsche Kriegsfange-
-genen faisant voeux pour Conférence
-
-157.- 10.7.29. Transmettons à Bibliothèque de la SdN documents demandés(145)
-
-158.- 10.7.29. CICR convoque plusieurs dames pour comité réception à l'occa-
-sion de la Conférence diplom.
-
-159.- 10.7.29. Demandons Palais Eynard à Conseil administratif de la Ville
-de Genève pour le 16 juillet
-
-160.- 10.7.29. Répondons à Cercle de la Presse (155) M. Werner représentera
-le CICR
-
-161.- 16.7.29. Reichsvereinigung ehem.Kriegsgefangener confirme tél. '(156)
-```
-
-## Images, Captions, And Visual Notes
-The page is a typed list. There are three handwritten annotations in the left margin:
-- "ms. + ann." is written next to entry 143.
-- "ms + transcr." is written next to entry 148.
-- "ms." is written next to entry 153.
-
-A decorative line or smudge is present below the final line of text (entry 161).
-
-## Uncertain Or Illegible
-There are no uncertain or illegible portions of this document.
-
-## Completeness Audit
-The entire content of the page, including the header, all numbered entries, and all marginalia, has been transcribed.
-
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed text and minor handwritten annotations which have been fully transcribed. There are no images, photographs, or other significant visual elements that would warrant cropping."
-}
-```
-
-## Page Metadata
-- Page number: 9
-- Header: CR 177 Conférence diplomatique
-
-## Layout And Reading Order
-The page consists of a header at the top right, followed by a numbered list of entries. Each entry begins with a number, a date, and then a descriptive text. Some entries have marginal handwritten notes ("plié", "ms", "2 ann", "Carte ms"). There is also a handwritten annotation "CR 177-2" in the right margin next to entry 166.
+{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual regions. It is primarily text-based with some handwritten marginalia that do not warrant cropping."}

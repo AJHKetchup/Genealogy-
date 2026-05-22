@@ -11,16 +11,6 @@ page_end: 1
 part: 1
 ---
 
-# Cámara de Senadores de la Nación, 1936 pages 104-123
-
-## Conversion Metadata
-
-- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
-- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
-- Manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json`
-- Conversion method: Codex local vision workbench
-- Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images`
-
 ## Page Metadata
 - Page number: 101
 - Source publication year: 1936
@@ -267,20 +257,5 @@ All visible text and diagrams on the page have been transcribed and described. T
       "inline_anchor": "Signal Diagram 11 (Vía libre - four aspects):"
     }
   ]
-}
-```
-
-## Page Metadata
-
-```json
-{
-  "page_number": "102",
-  "page_number_source": "image",
-  "page_number_discrepancy": "The page number in the image is '102', but the work order specifies page '105'.",
-  "doc_type": "book",
-  "publication": "Cámara de Senadores de la Nación",
-  "year": "1936",
-  "page_count": 1,
-  "language": "es"
 }
 ```

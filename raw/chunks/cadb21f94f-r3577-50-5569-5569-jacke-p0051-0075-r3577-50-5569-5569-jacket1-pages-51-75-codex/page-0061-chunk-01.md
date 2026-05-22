@@ -11,8 +11,6 @@ page_end: 61
 part: 1
 ---
 
-# Page 61
-
 ## Page Metadata
 
 - Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
@@ -92,48 +90,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 1.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 62
-Original page number: 11
-
-## Layout And Reading Order
-
-The page contains a centered page number at the top, followed by a centered chapter title in italics. Below that is a centered article number in all caps. The main content is a single paragraph of text, left-aligned.
-
-## Literal Transcription
-
-```
-— 11 —
-
-Chapitre premier. De l'installation des dépôts.
-
-ARTICLE 10.
-
-Les prisonniers de guerre seront logés dans des bâtiments ou dans des baraquements présentant toutes les garanties
-désirables d'hygiène et de salubrité. Les locaux devront être entièrement à l'abri de l'humidité, chauffés autant que de
-besoin et suffisamment éclairés, de jour comme de nuit. Toutes précautions devront être prises contre le danger d'incendie.
-Les belligérants prendront des mesures pour assurer aux prisonniers de guerre l'exercice physique nécessaire au
-maintien de leur santé.
-```
-
-## Images, Captions, And Visual Notes
-
-There are no substantial images, captions, or visual notes on this page.
-
-## Uncertain Or Illegible
-
-No uncertain or illegible text was found on this page.
-
-## Completeness Audit
-
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "No substantial visual content was detected on this page."
-}
-```

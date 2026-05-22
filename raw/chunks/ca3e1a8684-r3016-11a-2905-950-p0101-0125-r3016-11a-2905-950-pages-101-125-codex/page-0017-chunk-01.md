@@ -1,0 +1,115 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e3075d669790-P0017-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125.codex.md
+converted_sha256: e3075d669790de6dec004d67ba046f4394754d518a2c268bfa2ac365c729eabb
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/manifest.json
+page_start: 17
+page_end: 17
+part: 1
+---
+
+## Page Metadata
+Page number: 117
+
+## Layout And Reading Order
+The page presents a meeting record in a single column. The content begins with a title and date, followed by a list of attendees organized into three columns. The main body consists of several paragraphs, each detailing a statement or proposal from a named individual, maintaining a clear chronological reading order. Some text is underlined.
+
+## Literal Transcription
+<u>Première Commission</u>
+<u>PREMIERE COMMISSION</u>
+<u>(Deuxième Séance du 24 octobre 1928.)</u>
+
+La séance est ouverte à 3 heures.
+
+<u>Etaient présents:</u>
+
+MM. Amet
+Bouvier
+Cabrera
+Ciraolo
+Conill
+Ewing
+François
+Goldschmidt
+Grieser
+
+MM. Guisan
+Hayakawa
+Petersen
+Kohler
+Kulz
+Laftchieff
+Larrosa
+Mackensie
+Minkema
+
+MM. Motono
+Mlles Ottesen
+Paszkowska
+MM. Pau
+Pearce
+Roell
+Sliupas
+Werner
+Williams
+
+<u>Le Président</u> (Sénateur Ciraolo) prie le <u>Dr. Jitta</u>
+de lire la déclaration préparée par la délégation néerlan-
+daise, au sujet de la Commission spéciale concernant le pro-
+jet Boland.
+
+<u>Le Dr. Jitta</u> lit une déclaration au nom de la
+Croix-Rouge néerlandaise au sujet de la création d'une
+commission technique devant étudier les mesures à pren-
+dre vis-à-vis des victimes des sinistres en mer, et s'oc-
+cuper de la réalisation du Projet Boland.
+
+<u>Le Président</u> propose que la Commission prenne
+une décision au sujet de la création de la Commission spé-
+ciale, mais n'en désigne pas les membres. Il suggère que
+rapporteur de la Première Commission soumette à la Confé-
+rence, en séance plénière, une proposition tendant à la no-
+mination d'une commission technique concernant les sinis-
+tres maritimes, en laissant la nomination des membres aux
+organisations internationales de la Croix-Rouge.
+
+<u>L'Amiral Amet</u> estime que l'extension des mesures
+à prendre demande l'agrément du Gouvernement intéressé. On
+ne saurait choisir des délégués sans entente préalable avec
+les Gouvernements. La Croix-Rouge néerlandaise est entière-
+ment qualifiée pour présenter les propositions.
+
+<u>Le Général Pau</u> propose que l'on ajoute aux déli-
+bérations la proposition tendant à suggérer aux sociétés na-
+tionales de la Croix-Rouge de se préparer à assumer les res-
+ponsabilités qui pourraient leur incomber à la suite de l'a-
+doption du plan.
+
+<u>Le Dr. Jitta</u> se déclare d'accord avec cette propo-
+sition.
+
+<u>Le Président:</u> Il est donc entendu que la résolu-
+tion devra contenir la matière des deux rapports et qu'un
+seul rapporteur sera nommé pour la question concernant les
+victimes de la guerre maritime et la proposition Boland.
+
+<u>M. Werner</u> demande s'il serait possible que la
+Croix-Rouge néerlandaise propose un texte précis de réso-
+lution.
+
+. . .
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+The very bottom of the page contains faint, unidentifiable marks, possibly a partial page number or printer's mark, but they are too indistinct to transcribe.
+
+## Completeness Audit
+All legible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily contains text."}

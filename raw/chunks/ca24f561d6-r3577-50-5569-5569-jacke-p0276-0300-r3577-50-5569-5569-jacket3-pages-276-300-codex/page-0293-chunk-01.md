@@ -11,8 +11,6 @@ page_end: 293
 part: 1
 ---
 
-# Page 293
-
 ## Page Metadata
 
 - Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
@@ -120,31 +118,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-- Page number: 294
-
-## Layout And Reading Order
-The page features a centered block of text, likely a colophon or printer's mark, framed by two horizontal lines. The reading order is sequential, from the top line of text to the bottom.
-
-## Literal Transcription
-```
-IMPRIMERIE
-DU JOURNAL DE GENÈVE
-```
-
-## Images, Captions, And Visual Notes
-- A small, circular hole punch is visible in the top right corner of the page.
-- The right edge of the page exhibits minor tearing and wear.
-- Two thin horizontal lines frame the central text block: one is positioned above "IMPRIMERIE" and the other below "DU JOURNAL DE GENÈVE".
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-The transcription is complete and accurate for all visible text and relevant visual elements on the page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only a small amount of text and minor page artifacts (hole punch, wear, decorative lines) that do not constitute substantial visual assets for cropping."}
-```

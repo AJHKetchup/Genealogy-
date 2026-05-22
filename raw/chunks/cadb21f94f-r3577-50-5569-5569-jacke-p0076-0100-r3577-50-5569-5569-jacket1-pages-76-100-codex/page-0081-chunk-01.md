@@ -11,8 +11,6 @@ page_end: 81
 part: 1
 ---
 
-# Page 81
-
 ## Page Metadata
 
 - Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
@@ -94,43 +92,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 82
-
-## Layout And Reading Order
-
-The page contains a centered page number and article number, followed by four paragraphs of text in a single column.
-
-## Literal Transcription
-
-- 22 -
-
-ARTICLE 20.
-
-Les logements attribués aux officiers prisonniers de guerre devront présenter, quant à la situation et l'installation,
-toutes les garanties désirables au point de vue de l'hygiène et de la salubrité. Il sera tenu compte, dans le choix des bâti-
-ments, de la qualité d'officiers des occupants.
-Les officiers généraux et les officiers âgés seront logés dans des chambres individuelles. Les autres officiers jouiront
-du même traitement autant que faire se pourra.
-Chaque officier disposera d'un lit avec matelas, oreiller, draps et couvertures si le climat l'exige, des ustensiles de
-toilette nécessaires, d'une chaise, d'une table, d'une petite armoire ou commode et d'un portemanteau.
-Les locaux servant aux officiers de réfectoires et de salles de travail et de réunion devront avoir une surface de 0,75
-à 1 mètre carré par tête et une hauteur minimum de 2 m. 50.
-
-## Images, Captions, And Visual Notes
-
-There are no images or captions on this page. The page number "- 22 -" is centered at the top, and "ARTICLE 20." is centered below it.
-
-## Uncertain Or Illegible
-
-None.
-
-## Completeness Audit
-
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for cropping. The page contains only text."}
-```

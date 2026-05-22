@@ -11,16 +11,6 @@ page_end: 1
 part: 1
 ---
 
-# R3016-11A-2905-950 pages 1-25
-
-## Conversion Metadata
-
-- Source: `raw/sources/R3016-11A-2905-950.pdf`
-- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
-- Manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25/manifest.json`
-- Conversion method: Codex local vision workbench
-- Extracted images: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25/extracted-images`
-
 ## Page Metadata
 - Task id: `source-prep:ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25:p0001`
 - Model route: `pro`

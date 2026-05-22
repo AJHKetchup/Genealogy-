@@ -11,8 +11,6 @@ page_end: 37
 part: 1
 ---
 
-# Page 37
-
 ## Page Metadata
 
 - Source: `raw/sources/S522bis-29-3.pdf`
@@ -32,7 +30,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## CELEBRO EL SENADO LA PRIERA SESJON DEL PERIODO ACTUAL
 
 Fijô di'as de reunion ordinaria los martes, jueves y sâbados
@@ -143,11 +140,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 1.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 38
-Source: S522bis-29-3.pdf
-
-## Layout And Reading Order
-
-The page presents a newspaper article with a masthead at the top, followed by two columns of text. A handwritten note is present in the top right corner, outside the main text columns. The left column contains the main headline and several sub-sections, while the right column continues the article.

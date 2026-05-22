@@ -1,0 +1,75 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-3266720e7451-P0016-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25.codex.md
+converted_sha256: 3266720e74514a43efee25d8233a559296924be5785ec99315969932d4c26d50
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/manifest.json
+page_start: 16
+page_end: 16
+part: 1
+---
+
+## Page Metadata
+- Page number: 4
+
+## Layout And Reading Order
+This page is a single column of typed text. There is a typed header in the upper left corner. There are handwritten annotations in the upper right corner, including the page number "- 4 -". The reading order is from the header, to the handwritten notes, and then down the single column of typed text. There are hole punches along the left margin.
+
+## Literal Transcription
+```text
+DIRECCION GENERAL DE MATERNIDAD E INFANCIA
+DEPARTAMENTO NACIONAL DE HIGIENE
+[handwritten] annul [/handwritten]
+
+[handwritten] Rapport [illegible] 1940 [/handwritten]
+[handwritten] - 4 - [/handwritten]
+
+o especialistas, de dentistas y de visitadoras de higiene de competencia comprobada.
+
+La asistencia médicoescolar comprenderá además de los
+servicios en vigor o que se disponga en adelante por el Consejo
+Nacional de Educación, los siguientes:
+a) Exámen y asistencia de los niños en los locales de las escuelas y en las viviendas de los niños en las campañas;
+b) Difusión de instrucciones sobre enfermedades regionales y su profilaxis;
+c) Distribución gratuita de medicamentos.
+
+El personal afectado a los servicios a que se refiere
+este articulo será permanente o temporario y su remuneración se
+fijará por mes o de acuerdo con los servicios efectivamente prestados o en ambas formas, según lo determine en cada caso el Consejo Nacional de Educación.
+
+Artículo 3º.-- El Consejo Nacional de Educación, arbitrará los medios necesarios para asegurar la preparación de los
+maestros de su dependencia, a fin de que puedan practicar curaciones a los niños de su grado, si fueran enfermos de tracoma o
+de otras enfermedades de fácil tratamiento. El servicio sanitario
+a cargo de los maestros, se cumplirá de acuerdo a las instrucciones que recomiende el cuerpo médico del Consejo Nacional de Educación.
+
+Artículo 4º.-- Las escuelas primarias, nacionales y provinciales, serán dotadas por el Consejo Nacional de Educación, de
+un botiquín provisto de medicamentos y de los útiles necesarios
+para curaciones oftálmicas, y otras, y de instrucciones para su
+tratamiento.
+
+Artículo 5º.-- El Consejo Nacional de Educación convendrá con los Gobernadores de provincia, municipios, instituciones
+nacionales y particulares de asistencia social, la obra sanitaria
+a realizar, de acuerdo a las normas de coordinación de esfuerzos
+que se establezcan.
+```
+
+## Images, Captions, And Visual Notes
+- In the top right corner, there is handwritten text. The word "Rapport" is written, followed by an illegible word or initial, and then "1940". Below this, the page number "- 4 -" is written.
+- Below the typed header on the left, the word "annul" is handwritten.
+- There are four hole punches along the left margin of the page.
+
+## Uncertain Or Illegible
+- In the handwritten annotation at the top right, a word or initial between "Rapport" and "1940" is illegible. It may be "M" or "fu".
+
+## Completeness Audit
+This page has been fully transcribed.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only typed text, a small header, and minor handwritten annotations, none of which qualify as substantial visual regions for cropping."
+}
+```

@@ -11,8 +11,6 @@ page_end: 124
 part: 1
 ---
 
-# Page 124
-
 ## Page Metadata
 
 - Source: `raw/sources/S522bis-29-3.pdf`
@@ -96,13 +94,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-- **Page number**: 125
-- **Source identifier**: S522bis-29-3
-- **Original page number**: 1733
-- **Year**: 1921
-- **Title**: CAMARA DE DIPUTADOS
-
-## Layout And Reading Order
-This page is a two-column document. The reading order is from top to bottom of the left column, followed by the top to bottom of the right column.

@@ -1,0 +1,76 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d92c05086361-P0017-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478.codex.md
+converted_sha256: d92c05086361b1da01ebe5f0698b04586b5f85d43f840c2864a12262509ea416
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json
+page_start: 17
+page_end: 17
+part: 1
+---
+
+## Page Metadata
+- Page number: 450
+- Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+## Layout And Reading Order
+The page consists of a single column of text, primarily paragraphs, with a running header and page number at the top.
+
+## Literal Transcription
+dice, la Compañía emplea un Injeniero de Segu-
+ridad con varios ayudantes, cuyo único deber es
+inspeccionar i estudiar todas nuestras operacio-
+
+mina a otra a través de las chimeneas, caserones o cruzados, pero sí
+por las escaleras i pasadizos que están destinados i que se usan con es-
+te fin.
+
+Los deterioros en las escaleras deben avisarse inmediatamente.
+
+Es una seria violación mover una escalera que está en uso como sa-
+lida.
+
+Los fulminantes, dinamita o pedazos de dinamita no se deben de-
+jar botados, i los que se encuentren deben ser inmediatamente devuel-
+tos al polvorín.
+
+Es estrictamente prohibido fumar, llevar una lámpara encendida o
+una vela cuando se están cargando algunos tiros. La lámpara o ve-
+la se debe dejar en sitio seguro. Las lámparas o velas se deben dejar
+afuera del polvorín i no se debe encender fósforos mientras se está
+adentro.
+
+A ningún empleado se le permitirá sacar, o intentar sacar, explosi-
+vos de un tiro «quedado», pero podrá, cuando sea posible, poner un nue-
+vo fulminante. I en caso que esto no sea posible, hágase un hoyo, a una
+distancia de dos piés, al lado, i paralelo al tiro «quedado». Tómese
+mucho cuidado que los hoyos no se junten.
+
+Para colocar las guías en el fulminante deben usarse solo las tena-
+zas especiales. Se prohibe usar los dientes o cuchillos.
+
+Antes de disparar póngase en completo acuerdo con su compañero
+para saber cuál debe volver a prender las guías después de haber da-
+do el aviso.
+
+Los mineros deben profundizar los hoyos o unas partes de ellos si
+han sido dejados o abandonados i que han sido previamente cargados
+con explosivos.
+
+Ud. debe acuñar todos los pedazos de roca o mineral antes que em-
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed. The last line of text is hyphenated and appears to continue on the next page.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions present."}
+```

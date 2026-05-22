@@ -1,0 +1,85 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-299f74ab9ceb-P0018-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0326-0350-r3578-50-5569-5569-jacket5-pages-326-350.codex.md
+converted_sha256: 299f74ab9ceb9adc4b5683f340a12f37185ba7b5caa8f8f1a65b920598954203
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0326-0350-r3578-50-5569-5569-jacket5-pages-326-350/manifest.json
+page_start: 18
+page_end: 18
+part: 1
+---
+
+## Page Metadata
+Page number: 343
+Source file: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+
+## Layout And Reading Order
+
+The page contains a single column of text, structured with headings and numbered articles.
+
+## Literal Transcription
+
+514 120
+
+Artikel 30.
+
+De duur van het dagelijksch werk der krijgsgevangenen, den
+heen- en terugweg inbegrepen, zal niet overmatig mogen zijn en
+zal in geen geval langer mogen zijn dan de werktijd der burger-
+arbeiders van de streek, die voor hetzelfde werk worden ge-
+bezigd. Een etmaal rust per week zal aan iederen gevangene
+moeten worden verleend, bij voorkeur op Zondag.
+
+HOOFDSTUK 3.
+Van verboden werk.
+
+Artikel 31.
+
+De door de krijgsgevangenen verrichte werkzaamheden mogen
+geenerlei rechtstreeksch verband houden met de krijgsverrich-
+tingen. Het is in het bijzonder verboden om gevangenen te ge-
+bruiken bij de fabricatie en het vervoer van wapenen of munitie
+van welken aard ook, evenals bij het vervoer van materieel, dat
+voor de strijdende legers bestemd is.
+
+In geval van schending van de bepalingen van het voorgaande
+lid hebben de gevangenen de vrijheid, na uitvoering of begin
+van uitvoering der opdracht, hunne bezwaren in te dienen door
+tusschenkomst van de vertrouwensmannen, wier werkzaamheden
+bepaald worden in de artikelen 43 en 44 of, bij gebreke van een
+vertrouwensman, door tusschenkomst van de vertegenwoordigers
+der beschermende mogendheid.
+
+Artikel 32.
+
+Het is verboden krijgsgevangenen te gebruiken bij ongezonde
+of gevaarlijke werkzaamheden.
+Elke verzwaring der arbeidsvoorwaarden bij wijze van krijgs-
+tuchtelijken maatregel is verboden.
+
+HOOFDSTUK 4.
+Van de werkploegen.
+
+Artikel 33.
+
+Het regime der werkploegen zal gelijk moeten zijn aan dat
+der gevangenkampen, in het bijzonder wat betreft de hygiëni-
+sche toestanden, de voeding, de verpleging in geval van ongeluk
+of van ziekte, de correspondentie en de ontvangst van pak-
+ketten.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content such as images, maps, or diagrams that would require cropping. The content is entirely textual."}
+```

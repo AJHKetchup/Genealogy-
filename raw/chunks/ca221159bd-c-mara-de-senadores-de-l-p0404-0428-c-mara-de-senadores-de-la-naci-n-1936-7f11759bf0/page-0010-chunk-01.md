@@ -1,0 +1,79 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-88a90eb7eeff-P0010-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428.codex.md
+converted_sha256: 88a90eb7eeffa4681c1ac8e219b0560edeaf4a23aa61a0cde8a0b18c421e7380
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json
+page_start: 10
+page_end: 10
+part: 1
+---
+
+## Page Metadata
+- Page number: 84
+- Source publication year: 1936
+- Source publication description: Cámara de Senadores de la Nación
+
+## Layout And Reading Order
+The page contains a single column of text, primarily a list of numbered regulations or conditions. The page number "— 84 —" is centered at the top. The text flows from paragraph 2° to 8°.
+
+## Literal Transcription
+
+— 84 —
+
+2° Autorízase la propaganda comercial en los vehículos des-
+tinados al transporte colectivo de pasajeros y de acuerdo a
+las siguientes condiciones: a) La propaganda se desarrollará
+únicamente en el interior de los coches y en los boletos que se
+expidan a los pasajeros; b) Será limitada a la fijación o pin-
+tura de avisos en los paneles superiores del fondo y laterales
+del vehículo, en los respaldos de los asientos con tablillas adi-
+cionales y en las manijas y parantes de los coches.
+3° Queda prohibida la fijación y anuncios en los cristales,
+vidrios, ventanillas laterales y parabrisas, como asimismo, en
+el exterior de los coches.
+4° Los afiches y avisos serán colocados en marcos de un
+material corriente, o en placas, a fin de que, cuando hubiese
+necesidad de cambiarlos, no se lesione el interior del vehículo;
+y la parte de papel, cartón o material en que se impriman los
+afiches, serán revestidos de una lámina de celuloide o de mate-
+rial transparente, con el fin de que no se manchen ni se escriba
+en ellos y no desmerezcan la estética del coche.
+5° Para atender la explotación de la propaganda comercial
+en los vehículos destinados al transporte colectivo de pasaje-
+ros, se seguirá el sistema de concesión.
+6° Los interesados en obtener la concesión para explotar la
+propaganda comercial, en los ómnibus, microómnibus y colec-
+tivos, que transitan legalmente por los caminos de jurisdic-
+ción provincial, presentarán al Ministerio de Obras Públicas,
+una solicitud redactada en papel sellado de pesos 5 moneda
+nacional, y que contendrá los siguientes datos: a) Nombre de
+la empresa o de la persona que la represente con poder sufi-
+ciente, en su caso; b) Domicilio legal; c) Línea de transporte
+elegida para la fijación de anuncios; d) Plano demostrativo
+de los modelos de anuncios que se adoptarán y material en que
+estarán construídos; e) Plazo de la concesión.
+7° Los interesados acompañarán con la solicitud a que se
+refiere el artículo anterior, un modelo de contrato suscripto
+entre ellos y las empresas concesionarias de transportes, *ad
+referendum* del Poder Ejecutivo, donde conste especialmente
+la conformidad de dichas empresas, para la explotación de la
+propaganda que se solicite y sus condiciones.
+8° Podrán ser concesionarias: las empresas de publicidad;
+las casas de comercio y particulares que acrediten técnica, eco-
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and includes all visible text from the page.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+```

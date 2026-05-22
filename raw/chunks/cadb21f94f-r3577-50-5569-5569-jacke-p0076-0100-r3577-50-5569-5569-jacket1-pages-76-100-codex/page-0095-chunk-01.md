@@ -11,8 +11,6 @@ page_end: 95
 part: 1
 ---
 
-# Page 95
-
 ## Page Metadata
 
 - Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
@@ -94,50 +92,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 96
-
-## Layout And Reading Order
-
-The page presents text in a single column, centered horizontally. It begins with a page number at the top, followed by a section title, chapter titles, article numbers, and corresponding paragraphs of text.
-
-## Literal Transcription
-
-— 29 —
-
-Section V. Des rapports des prisonniers avec les autorités de l'Etat capteur.
-Chapitre premier. Des plaintes des prisonniers à raison du régime de la captivité.
-
-ARTICLE 43.
-
-Les prisonniers de guerre ont le droit de faire connaître aux autorités militaires sous le pouvoir desquelles ils se
-trouvent leurs requêtes concernant le régime de captivité auquel ils sont soumis.
-Ils ont également le droit de s'adresser librement aux représentants des Puissances protectrices pour leur signaler
-les points sur lesquels ils auraient des plaintes à formuler à l'égard du régime de la captivité.
-
-Chapitre 2. Des représentants des prisonniers vis-à-vis des autorités militaires.
-
-ARTICLE 44.
-
-Dans toute localité où se trouvent au moins dix prisonniers de guerre, ceux-ci seront autorisés à désigner, propor-
-tionnellement à leur nombre, des hommes de confiance chargés de les représenter vis-à-vis des autorités militaires et
-des Puissances protectrices.
-
-## Images, Captions, And Visual Notes
-
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-
-No uncertain or illegible text was found on this page.
-
-## Completeness Audit
-
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page consists entirely of text."}
-```

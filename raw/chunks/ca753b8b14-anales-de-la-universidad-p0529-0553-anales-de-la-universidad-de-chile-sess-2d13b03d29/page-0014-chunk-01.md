@@ -1,0 +1,71 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-1ed41babc26c-P0014-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553.codex.md
+converted_sha256: 1ed41babc26c7a0c97adefb929e8c14d041649b0b33db8a659f425f16176f2d0
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/manifest.json
+page_start: 14
+page_end: 14
+part: 1
+---
+
+## Page Metadata
+Page number: 542
+
+## Layout And Reading Order
+The page begins with a header containing the page number and publication title. Below this is a main block of text, followed by a signature line. A horizontal rule separates this section from the next, which starts with a date subheading. Another block of text follows, leading to a subheading for a list of names, which is presented as a bulleted list using a "»" character.
+
+## Literal Transcription
+150 BOLETIN DE INSTRUCCION PÚBLICA
+
+que en esto debe haber necesariamente algun error u omision,
+pues lo lójico es pensar que, si a este Liceo se le ha permitido cre-
+cer de año en año, hasta darle el 5.º en 1917, ha sido con el fin de
+que este Establecimiento llegue a funcionar con su curso de hu-
+manidades completo.
+La falta del 6.º año significa para nosotros sencillamente que
+nuestros hijos o pupilos deben cortar sus estudios, cuando están
+mas próximos a terminarlos, i despues de haber realizado una lar-
+ga serie de sacrificios. Creemos firmemente, señor Rector, que Ud.
+no habrá contribuido a que esta situacion se produzca, pues co-
+nocemos demasiado su larga i honrosa labor en pro de la juventud
+estudiosa i necesitada, como sabemos que fué Ud. el principal pa-
+trocinador de la creacion de este Liceo, que por lo tanto, le debe
+su existencia: i por esto mismo nos dirijimos a Ud.—casi con la
+seguridad de que nos atenderá—para rogarle encarecidamente se
+sirva ampararnos, patrocinando la peticion que por su interme-
+dio hacemos al Honorable Consejo de Instruccion de que soli-
+cite del señor Ministro de Instruccion la creacion del 6.º año en
+el Liceo de esta ciudad.
+
+VARIAS FIRMAS.
+---
+Sesion de 3 de junio de 1918.
+
+Fué presidida por el señor Rector de la Universidad, don Do-
+mingo Amunátegui Solar; asistieron los señores consejeros, Amu-
+nátegui Solar don Gregorio, Bahamonde, Barros Borgoño, Concha
+Castillo, Espejo, Matte, Trucco i el señor Secretario Jeneral don
+Octavio Maira.
+Previas las formalidades reglamentarias i el juramento reque-
+rido el señor Rector confirió los siguientes títulos i grados:
+
+Licenciados en Leves i Ciencias Políticas:
+
+a don José Miguel Alzérreca del Villar
+» Osvaldo Fuenzalida Correa
+» Manuel González Enríquez
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page. A short horizontal rule is present between the first main text block and the "Sesion de 3 de junio de 1918" subheading.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and structural elements on the page have been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page consists entirely of text and a decorative horizontal rule."}

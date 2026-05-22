@@ -1,0 +1,87 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-180fdfee096b-P0002-01
+source_converted: raw/converted/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33.codex.md
+converted_sha256: 180fdfee096bcd16a196781bb2e491b6176d427fbfc481dccd6c4055c8687aae
+source: raw/sources/R3578-50-7801-5569.pdf
+source_sha256: 6e09f1fb50a1c564bf4dd51406b9706274a189f3c45ba312a01d5ed069a77b75
+source_manifest: raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33/manifest.json
+page_start: 2
+page_end: 2
+part: 1
+---
+
+## Page Metadata
+- Page number: 27
+- Source: R3578-50-7801-5569.pdf
+
+## Layout And Reading Order
+The page features a running head at the top right, including a title and page number. The main content is presented in a single column, consisting of a continuation of a paragraph from the previous page, followed by several numbered articles, each with a subheading and body text. The last paragraph is cut off at the bottom, indicating continuation on the next page.
+
+## Literal Transcription
+Das Kriegsgefangenenrecht und seine Reform 19
+
+dieselbe Besoldung erhalten, wie Offiziere des entsprechenden Dienst-
+grades im Heere des Nehmestaates, vorausgesetzt, dass diese Besoldung
+nicht höher ist als die Besoldung, auf die sie im Heere ihres Heimat-
+staates Anspruch haben. Dieser Sold ist auszuzahlen ohne irgendwelchen
+Abzug wegen der Ausgaben, für die gemäss dem dem vorgehenden Artikel
+der Nehmestaat ihrethalben aufzukommen hat.
+Alle Soldzahlungen an kriegsgefangene Offiziere sind bei Ein-
+stellung der Feindseligkeiten von ihrer Heimatregierung zu erstatten.
+
+Artikel 10 (Artikel 6).
+**Arbeit.**
+Der Nehmestaat darf die Arbeitskraft der Kriegsgefangenen, mit
+Ausnahme der Offiziere, nach ihrem Dienstgrad und ihren Fähigkeiten
+ausnutzen; doch dürfen Kriegsgefangene, die in ihrem eigenen Heere
+den Rang von Unteroffizieren oder Offizierstellvertretern (petty officers)
+einnehmen, lediglich zur Aufsichtstätigkeit herangezogen werden.
+Kein Kriegsgefangener darf in einer Munitionsfabrik oder zu
+Arbeiten verwandt werden, die in unmittelbarer Beziehung zu den
+Kriegsunternehmungen stehen.
+Die Dauer der täglichen Arbeit der Kriegsgefangenen darf nicht
+übermässig sein; jedem Kriegsgefangenen steht ein Ruhetag in der
+Woche zu.
+Kein Kriegsgefangener darf zu Arbeiten herangezogen werden,
+zu denen er körperlich nicht geeignet ist.
+Die Kriegsgefangenen sollen, gleichgültig ob sie für den Staat
+oder für Privatpersonen beschäftigt sind, für die von ihnen geleistete
+Arbeit einen Arbeitslohn erhalten in derselben Höhe, in der die Soldaten
+des nehmestaatlichen Heeres für ähnliche Arbeiten entlohnt werden.
+
+Artikel 11 (Artikel 18).
+**Religiöse Erleichterungen.**
+Es ist Pflicht des Nehmestaates, für die geistigen Bedürfnisse
+seiner Kriegsgefangenen zu sorgen. Sie sollen sich voller Freiheit in
+der Ausübung ihrer Religion erfreuen; jede Erleichterung soll ihnen
+zu diesem Zwecke gestattet werden.
+Kriegsgefangene, die Geistliche und als solche vom Nehmestaat
+anerkannt sind, soll, vorbehaltlich aller besonderen Abmachungen, die
+freie Ausübung ihres Berufes an ihrem eigenen Unterbringungsorte ge-
+stattet werden.
+
+Artikel 12 (Artikel 8).
+**Unterwerfung unter die Militärgesetze usw.**
+Die Kriegsgefangenen unterstehen den Gesetzen, Vorschriften und
+Befehlen, die im Heere des Nehmestaates gelten. Jede Unbotmässigkeit
+rechtfertigt die Anwendung der für erforderlich erachteten Strafmass-
+regeln (abgesehen von der Prügelstrafe und der Dunkelzelle), unter der
+Voraussetzung, dass solche Massregeln einem Heeres-Angehörigen des
+Nehmestaates gegenüber gesetzlich zulässig sind, und unter der weiteren
+
+## Images, Captions, And Visual Notes
+The page contains no images, captions, or other substantial visual content.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete for all visible text on the page. The last paragraph of "Artikel 12" is cut off at the bottom, indicating it continues on the subsequent page.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page is entirely text-based with no meaningful images, diagrams, or other visual elements suitable for cropping."}
+```
+
+# Page 28

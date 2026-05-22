@@ -1,0 +1,138 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-c113304eabf6-P0137-01
+source_converted: raw/converted/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150.codex.md
+converted_sha256: c113304eabf6ccdddbcb2d916549210c7bb6026adecb6b61250329601ba0f017
+source: raw/sources/S495-2-2.pdf
+source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
+source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json
+page_start: 137
+page_end: 137
+part: 1
+---
+
+## Page Metadata
+Page number: 137
+Source publication: S495-2-2
+Task ID: `source-prep:ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150:p0137`
+
+## Layout And Reading Order
+
+The page features a two-column layout. The top of the page has a header "RENACIMIENTO" centered, with the page number "23" in the top right. The main content is an article titled "Una carta para García" which spans both columns. Embedded within the left column, below the initial paragraphs of the article, is an advertisement for "TIENDA DE Cristina Connor" which lists various products. The article continues in the right column after the initial paragraphs in the left column. The advertisement concludes at the bottom of the left column.
+
+## Literal Transcription
+
+RENACIMIENTO
+Una carta para García
+
+Hay un hombre que aparece en el hori-
+zonte de mi memoria como Marte en el
+períhelo, siempre que oigo hablar de la
+guerra de Cuba:
+Cuando se rrompieron las hostilidades
+entre España y los Estados Unidos, ha-
+bía urgencia en comunicarse inmediata-
+mente con el jefe de los insurrectos. Gar-
+
+TIENDA DE
+Cristina Connor
+Edificio del Banco Atlántida
+Teléfono 321.
+Tegucigalpa - Honduras
+
+POSTALES. Tarjetas blancas, de Bau-
+tizo y Matrimoniales. Papel y Tarje-
+tas de Luto. Papel de Oficio. Sobres
+para cartas a $ 8 el millar. Listones y
+Abanicos, última moda.
+CALZADO Tennis para señoritas, ca-
+balleros y niños, blanco y café. Botas
+negras, marca Hamilton, $ 12. Un
+lote de Zapatillas finas para pie pequeño
+(No. 1 y 1½) a $ 11 el par. Sandalias
+Julietas, y Zapatillas blancas de lona.
+PERFUMES y Lociones de la famosa
+casa Houbigant. Corsés para todos
+los gustos, desde $ 3 hasta $ 10.
+MEDIAS de seda artificial, a $ 1.75 el
+par. Toallas de baño, grandes y
+fuertes, a $ 6. Género Organdie en
+varios colores a $ 1.
+TRICOTINA de seda a $ 5 y $ 6.50 va-
+ra. Punto bordado. Velos y Coro-
+nas de Novias. Alhajas falsas y de
+fantasía.
+Gran surtido dr Cremas y Colores, Pol-
+vos, etc.
+MEDIAS de seda fina a $ 3 pesos el par.
+Calcetines para niños y señoritas. Ja-
+bón de teñir. El afamado Jabón
+Woodburg para quitar las ampollas.
+
+Gran surtido de Artículos para Señoras, Seño-
+ritas y niños.
+Todo a prceios sin competencia
+
+23
+cía se hallaba en alguna fortaleza natu-
+ral de las montañas de Cuba, pero nadie
+sabía en donde. No era posible llegar
+a él por correo ni por telégrafo. Sin
+embargo el Presidente necesitaba obte-
+ner su cooperación, y esto inmediata-
+mente.
+¿Qué hacer?
+Alguien dijo al Presidente: Si alguna
+persona puede dar con García es Rowan.
+Se buscó a Rowan y se le entregó una
+carta para llevar a García.
+No tengo especial interés en referir
+aquí cómo Rowan, después de recibir la
+carta y guardarla en una bolsa de cue-
+ro asegurada contra su corazón, desem-
+barca a los cuatro días en la costa de
+Cuba, de noche atraviesa un territorio
+hostil para salir al extremo opuesto de
+la isla al cabo de tres semanas, después
+de haber cumplido su misión.
+El punto que quiero acentuar es este:
+Mc. Kinley dió a Rowan una carta para
+entregar a García; Rowan recibió la car-
+ta y no preguntó: ¿donde podré encon-
+trarlo?
+¡Por Dios vivo! Hay un hombre cuya
+figura debe ser vaciada en bronce inmor-
+tal y su estatua colocada en todos los
+colegios del mundo. No es la instrucción
+del libro la que necesitan los jóvenes, ni
+instrucción acerca de esto o aquello, sino
+un robustecimiento de la columna verte-
+bral que les permita ser leales a la con-
+fianza depositada en ellos, obrar rápida-
+mente, concentrar sus energías, ejecutar
+la obra. Llevar la carta a García.
+El general García no existe ya.
+Pero hay muchos otros Garcías. Quien
+se proponga sacar avante una empresa
+en que necesite la colaboración de mu-
+chos, no puede menos de quedar estupe-
+facto ante la imbecilidad del común de
+los hombres, su incapacidad o su falta
+de voluntad para concentrar la atención
+en un asunto y ejecutarlo.
+La regla general parece ser: colaborar
+
+## Images, Captions, And Visual Notes
+There are no meaningful images or captions on this page.
+
+## Uncertain Or Illegible
+- "períhelo": Appears as "períhelo", possibly a variant or typo for "perihelio". Transcribed as seen.
+- "rrompieron": Appears as "rrompieron", likely a typo for "rompieron". Transcribed as seen.
+- "dr": In "Gran surtido dr Cremas y Colores", appears as "dr", likely an abbreviation or typo for "de". Transcribed as seen.
+- "prceios": In "Todo a prceios sin competencia", appears as "prceios", likely a typo for "precios". Transcribed as seen.
+
+## Completeness Audit
+All visible text on the page has been transcribed, preserving the two-column layout and embedded advertisement.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The page contains only text."}

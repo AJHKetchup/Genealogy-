@@ -1,0 +1,80 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-64fd18100c1b-P0424-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425.codex.md
+converted_sha256: 64fd18100c1b4ee36502f101fdace77ad79b756a40fd2d1207447b27ddb2198c
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/manifest.json
+page_start: 424
+page_end: 424
+part: 1
+---
+
+## Page Metadata
+- Task id: `source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0424`
+- Page: 424
+
+## Layout And Reading Order
+This page contains a single, handwritten letter. The reading order is as follows:
+1. Date and place, top right.
+2. Salutation.
+3. Body of the letter, consisting of two paragraphs.
+4. Closing and signature.
+5. A postscript at the bottom of the page, providing an address and an additional request.
+
+Two binder punch holes are visible along the left margin.
+
+## Literal Transcription
+```text
+Santos, Mbre 10/930
+
+Estimado Sr. Pizzurno:
+
+Como el Sr Teran es hombre
+muy ocupado y no me atrevo a molestarlo
+despues de haber hablado una sola vez
+con el y como Vd es tan amable, me
+tome la libertad de escribirle esta esquela
+para rogarle que le recuerde su pro-
+mesa de hacer un discurso, y otro Vd,
+para el magisterio sobre la organizacion
+de la paz, pues creo Vd que seria oportu-
+no hacerlo durante la visita del Secre
+tario general entre el 26 y 27 del corrte.,
+si la epoca le permite?
+
+Ademas le agradecere que le
+recuerde que no recibi su libro y que
+tengo mucho interes de leerlo.
+
+Perdone el atrevimiento de su
+amigo y servidor que le estrecha muy
+cordialmente la mano.
+
+Julian bu guir[?]
+
+Yo en Mont! Convencion 1462
+Olvidaba pedirle que recuerde al Sr Teran el
+envio del "Monitor" a mi y a la Biblioteca de la Soc
+de la. Naciones y algunos numeros cuando se reproduzcan
+el nuevo texto del manual que ya pedi p el.
+```
+
+## Images, Captions, And Visual Notes
+The page consists of a handwritten letter in purple ink on light-colored paper. There is a short, red pencil underline beneath the name "Sr Teran" in the first paragraph. Two binder holes are present on the left edge of the paper.
+
+## Uncertain Or Illegible
+- The signature is highly stylized and difficult to read with certainty. It has been transcribed as `Julian bu guir[?]`.
+- The month abbreviation `Mbre` in the date is likely for a month ending in "-bre" (e.g., Septiembre, Octubre, Noviembre, Diciembre).
+
+## Completeness Audit
+This page has been fully transcribed. All handwritten text, including the date, salutation, body, closing, signature, and postscript, has been captured. Visual features such as the ink color, underline, and binder holes have been noted.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only handwritten text. The signature is transcribed as part of the letter."
+}
+```

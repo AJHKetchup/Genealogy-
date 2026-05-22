@@ -1,0 +1,78 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-61e72ad58499-P0094-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100.codex.md
+converted_sha256: 61e72ad58499fcda1a10a957f997dd3421ddb7d045fb236fb9187a99a117cb51
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/manifest.json
+page_start: 94
+page_end: 94
+part: 1
+---
+
+## Page Metadata
+- Task id: `source-prep:ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100:p0094`
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Page: 94
+
+## Layout And Reading Order
+The page consists of a single, large table listing hotels and their rates in various Dutch cities. The reading order is from top to bottom, row by row. City names act as section headers within the table.
+
+## Literal Transcription
+| HOTELS. | N. | C. 1<br>Min. | C. 1<br>Max. | C. 2<br>Min. | C. 2<br>Max. | B. 1<br>Min. | B. 1<br>Max. | B. 2<br>Min. | B. 2<br>Max. | P. 1<br>Min. | P. 1<br>Max. | P. 2 | L. | D. |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **ALKMAAR.** | | | | | | | | | | | | | | |
+| de Burg .......... | 24 | — | 3.50 | — | 7.— | — | — | — | — | — | 8.— | — | 2.50 | 3.50 |
+| † Guldenvlies ...... | 14 | 2.50 | 5.— | — | 6.— | — | — | — | — | 4.50 | 5.— | — | 1.50 | 2.50 |
+| Proot * .......... | 24 | 4.— | 5.— | 8.— | 10.— | 5.— | 6.— | 10.— | 12.— | 8.— | — | — | 2.50 | 2.50 |
+| **ALMELO.** | | | | | | | | | | | | | | |
+| de Gouden Leeuw * | 31 | — | 3.50 | — | 7.— | — | — | — | — | — | — | — | 2.50 | — |
+| Grimme .......... | 16 | 2.50 | — | — | — | — | — | — | — | 4.50 | — | — | 1.— | 2.— |
+| Vastert * ........ | 30 | 3.— | 3.50 | 6.— | 7.— | — | — | — | — | — | — | — | 3.— | — |
+| **AMERSFOORT.** | | | | | | | | | | | | | | |
+| Berg * ............ | 35 | — | 3.50 | — | 7.— | — | 4.50 | — | 8.— | — | 7.— | 6.— | 2.— | 3.— |
+| Monopole * ........ | 40 | 3.— | — | 6.— | — | — | — | — | — | — | 6.— | — | 1.50 | 2.— |
+| Nationaal ........ | 9 | — | 3.— | — | 6.— | — | — | — | — | — | 6.— | — | 1.25 | 2.— |
+| de Witte * ........ | 18 | 3.— | — | 6.— | — | — | — | — | — | — | 6.— | — | 1.50 | 1.75 |
+| de Zwaan ........ | 20 | 3.— | — | 6.— | — | — | — | — | — | — | 6.— | — | 1.50 | 2.— |
+| **AMSTERDAM.** | | | | | | | | | | | | | | |
+| American * ........<br>28 Leidscheplein. | 100 | 3.— | 5.— | 6.— | 10.— | 5.50 | 8.— | 10.— | 14.— | — | — | — | 2.50 | 4.50 |
+| Amstel * ..........<br>1 Tulpplein | 182 | 7.75 | 10.75 | 15.50 | 21.50 | 10.75 | 11.75 | 21.— | 26.— | 15.— | 20.— | — | 3.— | 5.— |
+| Boston * ..........<br>93 Leidschekade. | 70 | 3.25 | 4.50 | 7.— | 9.— | — | — | 10.— | 12.— | 7.— | 9.— | — | 2.— | 2.50 |
+| Brack's Doelen * ..<br>24 N. Doelenstraat. | 100 | 6.50 | 9.50 | 13.— | 16.— | 11.50 | 14.— | 19.— | 25.— | 15.— | — | — | 3.— | 4.— |
+| City * ............<br>46 Rembrandtplein | 30 | 4.— | 5.— | — | 10.— | — | — | — | 11.— | 10.— | 12.50 | — | 2.— | 3.— |
+| du Commerce ......<br>45 Kalvestraat. | 50 | 3.— | 5.— | 6.— | 10.— | — | — | — | — | 7.— | 10.— | — | 1.50 | 1.75 |
+| de l'Europe * ......<br>2 Doelenstraat. | 135 | 6.— | 10.— | 16.— | 20.— | 11.50 | 15.— | 21.— | 25.50 | 12.50 | 16.— | 11.50 | 2.50 | 4.— |
+| Fleissig * ........<br>123 Warmoesstraat. | 120 | 3.50 | 4.50 | 7.— | 9.— | 5.— | 6.— | 10.— | 12.— | — | — | — | 1.75 | 1.75 |
+| de Haas * ........<br>23 Tesselschadestr. | 58 | 4.— | 7.50 | 8.— | 16.— | 5.— | 8.50 | 16.— | 20.— | 8.— | 12.— | — | 2.— | 2.75 |
+| Krasnapolsky * ....<br>171 Warmoesstraat. | 135 | 4.50 | 5.50 | 9.— | 11.— | 7.50 | 9.— | 12.50 | 14.— | 9.50 | — | — | 2.— | 3.— |
+| Métropole * ......<br>22 Rembrandtplein. | 28 | 2.50 | 3.— | 5.— | 6.— | 3.25 | 3.75 | 6.50 | 7.50 | 5.— | 6.— | — | 0.90 | 1.50 |
+| Neuf * ............<br>41 Kalverstraat. | 35 | 3.75 | 4.— | — | — | — | — | — | — | — | — | — | 1.50 | 1.75 |
+| des Pays-Bas * ....<br>11 Doelenstraat. | 80 | 8.50 | 9.50 | 14.— | 15.50 | 10.— | 11.— | 18.— | 21.50 | 15.50 | 16.50 | — | 2.50 | 4.50 |
+| Polen * ..........<br>Rokin/Kalverstr. | 85 | 4.— | 7.— | 8.— | 12.— | — | — | — | — | 8.50 | 11.25 | — | 1.75 | 2.50 |
+| de Roemer ........<br>39 Heiligenweg. | 12 | 3.— | — | 6.— | — | — | — | — | — | 6.25 | 7.— | — | 1.50 | 1.75 |
+| de Roode Leeuw *<br>93 Damrak. | 89 | 4.50 | — | 9.— | — | — | — | — | — | — | — | — | 2.— | 3.— |
+| Rotterdam ........<br>14-16 Weesperplein | 45 | 2.50 | 3.— | 5.— | 6.— | — | — | — | — | — | — | — | 1.50 | 1.75 |
+| Schiller * ........<br>28 Rembrandtplein | 110 | 4.50 | 5.50 | 8.— | 9.— | 5.50 | 6.50 | — | 11.50 | 10.— | — | — | 2.50 | — |
+| Stadt Elberfeld * ..<br>141 O.Z. Achterbw. | 50 | 3.— | 4.— | 6.— | 8.— | 4.— | 5.— | 8.— | 10.— | 6.50 | 7.50 | — | 1.75 | 2.50 |
+| Suisse * ..........<br>22-26 Kalverstraat. | 120 | 3.50 | 4.50 | 8.— | 9.— | — | — | — | 11.— | — | 9.— | — | 1.75 | 2.75 |
+| Terminus * ........<br>111 Warmoesstraat | 75 | 3.— | 4.— | 6.— | 8.— | — | — | — | — | 6.— | 7.50 | — | 1.50 | 1.75 |
+| Victoria * ........<br>1 Damrak. | 300 | 4.50 | 10.— | 9.— | 16.— | 11.— | 15.— | 16.— | 25.— | — | — | — | 3.— | 5.— |
+
+## Images, Captions, And Visual Notes
+There are no images, illustrations, or photographs on this page. The page consists entirely of a printed table.
+
+## Uncertain Or Illegible
+The entire page is clearly printed and fully legible.
+
+## Completeness Audit
+This page has been fully and completely transcribed.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only a large table of printed text and has no images, illustrations, or other distinct visual elements."
+}
+```

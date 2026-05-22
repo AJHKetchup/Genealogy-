@@ -1,0 +1,95 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-418b25296ff8-P0007-01
+source_converted: raw/converted/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325.codex.md
+converted_sha256: 418b25296ff8ff3d3f17f6442c1053d0026df4c4e1961c7e52c354128870dc2f
+source: raw/sources/S179-34-6.pdf
+source_sha256: 5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054
+source_manifest: raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/manifest.json
+page_start: 7
+page_end: 7
+part: 1
+---
+
+## Page Metadata
+Page: 307
+
+## Layout And Reading Order
+
+The page contains typewritten text, primarily a list of articles with regulations, presented in a single column. There are a few handwritten annotations in the margins and above the text. The page number "-2-" is centered at the top.
+
+## Literal Transcription
+
+```
+                                                                -2-
+
+the Health Office each time they leave the town;
+                                                                        requires them
+        e) To attend at the Office each time the doctor orders
+to do so,
+        f) To be examined or for any other purpose;
+
+        f) To keep everything ready for a medical visit,
+particularly hot water, disinfectants, speculum, towels, soap
+and good artificial or natural light.
+
+                                Article 14.
+
+        Any woman may ask to be struck off the health register.
+Application must be made before the chief of the Office, who
+shall transmit the petition with all particulars to the
+National Health Board for final decision.
+
+                                Article 15.
+
+        All women failing to be present at a medical visit shall
+be fined one peso the first time and four pesos for the second
+consecutive offence or shall be sentenced to a term of im-
+prisonment.
+
+                                Article 16.
+
+        When they fail to be present at a medical inspection on
+account of ordinary diseases they must notify the fact to the
+Office for the necessary steps to be taken.
+
+                                Article 17.
+
+        For the purpose of relations with the Office and the
+                                                                one
+police, no woman may employ more than/Christian name and
+                                                                health
+surname and even when her real name is entered in her pass-book
+the Office shall endeavour to ensure that no identical names
+are used, but making the woman adopt a name which does not
+yet figure in the register.
+                                "
+                                X       X       X
+        There follows a commentary of the various articles of
+these regulations. In regard to those quoted above the author
+```
+
+## Images, Captions, And Visual Notes
+
+*   Handwritten note "to do so," in the left margin next to point e).
+*   Handwritten note "requires them" in the right margin next to point e).
+*   Handwritten word "one" inserted above the word "Christian" in Article 17.
+*   Handwritten word "health" inserted above the word "pass-book" in Article 17.
+*   Three handwritten 'X' marks are present below the text of Article 17, followed by a typewritten paragraph.
+
+## Uncertain Or Illegible
+
+No uncertain or illegible text.
+
+## Completeness Audit
+
+All visible text and handwritten annotations on the page have been transcribed.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "No substantial visual elements like photos, maps, or complex diagrams are present. All annotations are minor and captured in the transcription."
+}
+```

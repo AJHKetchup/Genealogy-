@@ -1,0 +1,87 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-0675e7384ae3-P0012-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0101-0125-r4749-11c-17499-5398-pages-101-125.codex.md
+converted_sha256: 0675e7384ae375fb8a4fcfdd50e894165d7d0a81e93946a134030ff8aef42a14
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0101-0125-r4749-11c-17499-5398-pages-101-125/manifest.json
+page_start: 12
+page_end: 12
+part: 1
+---
+
+## Page Metadata
+Page number: 112
+
+## Layout And Reading Order
+The page contains a main body of text in a single column, with a Roman numeral header and a sub-header. A red ink stamp is present in the top right corner of the page.
+
+## Literal Transcription
+```
+                                                                II
+
+                                                        ACCION PRIVADA
+
+        Además del aumento de capacidad registrado en algunos es-
+tablecimientos ampliando la obra de protección que realizan, tal co-
+mo lo hizo la Sociedad de Beneficencia de Rosario, inaugurando un
+nuevo pabellón, merecen citarse en este aspecto las siguientes crea
+ciones debidas a la iniciativa privada.
+
+        En la ciudad de Necochea (Pcia. de Buenos Aires), se inau
+guró el 21 de Junio un Dispensario de Lactantes; en la ciudad de
+San Juan se inauguró en Abril ppdo. un Dispensario de la Sociedad
+Copa de Leche y posteriormente se habilitó otro establecimiento si-
+milar bajo la dependencia de la misma institución.- En Abril último
+entra a funcionar la Sociedad de Beneficencia de Jujuy, encaminado
+su acción principal al amparo de la niñez.- En Septiembre 9 se fun-
+da la Sociedad Copa de Leche en la Escuela Normal de Adaptación Re-
+gional, de Olta, provincia de La Rioja y lo mismo sucede el 15 de
+Mayo con la Escuela Normal de Chilecito de aquella Provincia.- En
+Santiago del Estero adquiere forma activa la Cantina Maternal fun-
+dada en 1934, en la ciudad Capital.- Cuenta ella con las secciones:
+Hogar de Madres, puericultura prenatal, cantina de lactantes, canti-
+na infantil pre-escolar y taller de lavado y planchado, encontrándo-
+se en asistencia actualmente 190 personas, entre madres y niños.-
+Constituye la primera obra de esta índole que funciona en la ciudad
+de Santiago del Estero, en la cual la asistencia a la madre y al hi-
+jo quedaba reducida, anteriormente a la labor desplegada por las ma-
+ternidades de sus dos grandes hospitales, la que, sin dejar de ser
+importante, no contemplaba el problema nada más que en la faz médica.
+En virtud de esta creación, las madres y sus hijos recibirán, fuera
+de los cuidados del facultativo, remedios, ropas, alimentos y hasta
+dinero para su mejor atención.-
+```
+
+## Images, Captions, And Visual Notes
+A red rectangular stamp is present in the top right corner of the page. The text within the stamp reads:
+DEPARTAMENTO DE TRABAJO
+BIBLIOTECA
+RECEIVED
+20 JUL 1939
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and meaningful visual elements have been transcribed or described.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "stamp",
+      "bbox_pct": [69.9, 6.9, 90.9, 14.9],
+      "caption_literal": "DEPARTAMENTO DE TRABAJO\nBIBLIOTECA\nRECEIVED\n20 JUL 1939",
+      "caption_type": "source-field",
+      "identity_basis": "literal-text",
+      "source_context": "A red ink stamp in the top right corner of the page.",
+      "confidence": 0.95,
+      "suggested_filename": "stamp_received_20_jul_1939"
+    }
+  ]
+}
+```

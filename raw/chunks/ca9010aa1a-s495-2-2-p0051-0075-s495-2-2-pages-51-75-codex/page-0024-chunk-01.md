@@ -1,0 +1,140 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-3b1fe2b66094-P0024-01
+source_converted: raw/converted/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75.codex.md
+converted_sha256: 3b1fe2b660943006c3c2c70da6491cf292e56f36af3c61a77ed14210d1c9e31e
+source: raw/sources/S495-2-2.pdf
+source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
+source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json
+page_start: 24
+page_end: 24
+part: 1
+---
+
+## Page Metadata
+Page number: 74
+
+## Layout And Reading Order
+The page features a large title on the upper left, followed by a substantial block of descriptive text in a single column on the right side of the page. A large illustration, combining a ship in a circular frame with a map of Baja California and parts of Sonora, occupies the central and right-central portion of the page, visually connecting to the title and the descriptive text. Below the map, on the lower-left, are several smaller blocks of text detailing shipping services and agents. The page number is located at the bottom right. The reading order flows from the top-left title, then to the main text block on the right, then to the lower-left text blocks, and finally the page number.
+
+## Literal Transcription
+LINEA DE NAVEGA-
+CION DEL GOLFO
+DE CALIFORNIA
+
+Como decimos, esta Compañía es la que
+une a los principales puertos de aquellos te-
+rritorios, haciendo que sus valiosas fuentes
+de riqueza puedan explotarse debidamente.
+No son pocas las industrias y comercios que
+se han desarrollado en los últimos tiempos
+debido al magnífico concurso de la Compa-
+ñía de Navegación del Golfo de California.
+Sin embargo, es cierto que la empresa tro-
+pieza aún con serias dificultades para efec-
+tuar sus labores ampliamente, tal como son
+los deseos de los propietarios de la misma.
+Pero no obstante, luchando "contra viento y
+marca", sigue avante.
+Hay un dato que parecerá increíble, sino
+estuviera perfectamente comprobado y es el
+de que esta empresa podrá dar salida a todo
+el algodón que se cosecha en la Baja Cali-
+fornia y cuya producción es de sesenta a
+ochenta mil pacas anuales, en cuanto esté
+terminada la línea del Ferrocarril—la cual
+correrá entre los centros productores y los
+puertos ya mencionados en que hacen es-
+cala los vapores de esta empresa.
+Es Gerente de esta progresista y útil Com-
+pañía marítima el señor don Arnulfo Llie-
+ra, que es también presidente de la Cáma-
+ra Nacional de Comercio y uno de los más
+inteligentes y estimados miembros del co-
+mercio de Mexicali.
+El señor Llera es un hombre entusiasta
+y gran conocedor de los secretos económi-
+cos, pudiéndose citar entre sus más resonan-
+tes aciertos la constitución de la línea de
+navegación a que nos referimos en este in-
+forme y que tan notables ventajas brinda.
+
+Vapores "LA PAZ" y "RIO COLORADO"
+
+Viajes redondos semanariamente entre los
+puertos siguientes:
+Mexicali, B. C., con servicio de automó-
+viles al embarcadero: La Bomba; Río Colo-
+rado; Guaymas, Son.; Santa Rosalía, B. C.;
+La Paz, B. C.; y puntos intermedios.
+
+SERVICIO DE PASAJEROS Y CARGA
+
+Agente General:
+
+ARNULFO LLERA
+P. O. Box 277
+MEXICALI, B. C.
+
+Agente en Guaymas:
+J. C. BEJAR
+
+Agente en Santa Rosalía:
+E. R. GARAYZUR
+
+Agente en Caléxico, Cal.:
+DELTA BRIKERAGE Co.
+
+Muy dignos de elogios son los servicios
+que presta la "Compañía de Navegación del
+Golfo de California", que es la que facilita
+el único medio de transporte y comunica-
+ción directa entre Sonora y Sinaloa y Baja
+California.
+Y contra lo que era de pensarse una
+empresa que tiene un control absoluto sin
+temor de competencias ni rivalidades comer-
+ciales, esta negociación sirve a entera satis-
+facción al público y procura por todos los
+medios a su alcance mejorar siempre sus
+servicios.
+
+74
+
+## Images, Captions, And Visual Notes
+Pipeline-extracted visual crops:
+- ![converter-description: Illustration of a steamship and a map showing the shipping route of the "LINEA DE NAVEGACION DEL GOLFO DE CALIFORNIA" with stops at STA. ROSALIA, GUAYMAS, LA PAZ, and TOPOLOBAMPO.](../extracted-images/page-0074/page-0074-image-01-map-gulf-california-shipping-route.png)
+  - Kind: map; label basis: converter-description; bbox_pct: [20.0, 10.0, 85.0, 85.0]
+  - Source context: The image illustrates the shipping line and its routes, as described in the adjacent text.
+
+A large illustration [inline_anchor: map_gulf_california_shipping_route] depicts a steamship within a circular frame, connected by a dotted line to a map of Baja California and parts of Sonora. The map outlines a shipping route with labeled stops including "STA. ROSALIA", "GUAYMAS", "LA PAZ", and "TOPOLOBAMPO". The word "SONORA" is written vertically along the coast. This visual element illustrates the "LINEA DE NAVEGACION DEL GOLFO DE CALIFORNIA" and its operational area.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and the primary visual element on the page have been transcribed and described.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "map_gulf_california_shipping_route",
+      "kind": "map",
+      "bbox_pct": [
+        20.0,
+        10.0,
+        85.0,
+        85.0
+      ],
+      "caption_literal": "Illustration of a steamship and a map showing the shipping route of the \"LINEA DE NAVEGACION DEL GOLFO DE CALIFORNIA\" with stops at STA. ROSALIA, GUAYMAS, LA PAZ, and TOPOLOBAMPO.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-content",
+      "source_context": "The image illustrates the shipping line and its routes, as described in the adjacent text.",
+      "confidence": "high",
+      "suggested_filename": "map_gulf_california_shipping_route"
+    }
+  ]
+}
+```

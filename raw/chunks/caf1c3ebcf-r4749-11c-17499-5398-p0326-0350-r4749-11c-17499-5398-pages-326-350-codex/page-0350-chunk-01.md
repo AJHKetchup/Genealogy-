@@ -11,8 +11,6 @@ page_end: 350
 part: 1
 ---
 
-# Page 350
-
 ## Page Metadata
 
 - Source: `raw/sources/R4749-11C-17499-5398.pdf`

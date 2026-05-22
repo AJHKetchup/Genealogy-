@@ -1,0 +1,68 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-99a42bb1e267-P0123-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125.codex.md
+converted_sha256: 99a42bb1e2670a7e105ef08933e795a5ebc6d8a9875e0aff3890762141d0a45c
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/manifest.json
+page_start: 123
+page_end: 123
+part: 1
+---
+
+## Page Metadata
+
+- Task id: `source-prep:ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125:p0123`
+- Page: 123
+
+## Layout And Reading Order
+
+The page contains a single column of content. The primary feature is a circular stamp in the upper right quadrant. There is extremely faint, mostly illegible text visible on the page, likely a carbon copy or bleed-through from another document. The reading order proceeds from the top of the page downwards.
+
+## Literal Transcription
+
+[A circular stamp in blue ink is present in the upper right quadrant of the page. The text is arranged in a circle around a central coat of arms.]
+
+**Stamp:**
+LEGACION DE LA REPUBLICA DOMINICANA
+. PARIS .
+
+[Extremely faint, possibly carbon-copied text is visible on the page. Most of it is illegible.]
+
+[Faint text near the top of the page, partially obscured by the stamp:]
+[illegible]
+
+[Faint text below the stamp:]
+[illegible] Molina,
+
+[Faint text further down the page:]
+[illegible]
+
+[A faint circular impression, possibly from the same stamp on an underlying page, is visible in the lower half of the page.]
+
+[Faint text near the bottom of the page:]
+[illegible]
+
+## Images, Captions, And Visual Notes
+
+- **Circular Stamp:** A blue ink stamp is located in the upper right. The text reads "LEGACION DE LA REPUBLICA DOMINICANA" around the top and "PARIS" at the bottom. The center contains the coat of arms of the Dominican Republic.
+- **Faint Text:** The page contains very faint blue text, which appears to be a carbon copy or bleed-through. It is almost entirely illegible due to its faintness and the wrinkling of the paper.
+- **Page Condition:** The paper is significantly wrinkled. There is a single hole punch at the top left corner. The left edge shows signs of being bound.
+
+## Uncertain Or Illegible
+
+- `[illegible]`: The vast majority of the faint text on the page is unreadable. It appears to be a carbon copy or bleed-through from another document, and it is too faint and distorted by wrinkles to be deciphered. The only partially legible word is "Molina,".
+
+## Completeness Audit
+
+The page has been transcribed to the fullest extent possible. All visible markings, including the stamp and the faint, illegible text, have been noted. Due to the extremely poor quality and faintness of the text, a full and accurate transcription is not possible.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The only significant visual element is a standard governmental stamp, the text of which has been transcribed. The rest of the page contains extremely faint, illegible text that does not constitute a meaningful visual region."
+}
+```

@@ -1,0 +1,73 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-73b90eb6c597-P0685-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703.codex.md
+converted_sha256: 73b90eb6c5972b667500121db5da319b8e7537ee79d33adfdae519c91ebb5487
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json
+page_start: 685
+page_end: 685
+part: 1
+---
+
+## Page Metadata
+- Task id: `source-prep:ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703:p0685`
+- Page number: 685
+- Source publication year: 1918
+
+## Layout And Reading Order
+
+The page contains a header at the top with a title and page number. Below the header, the main content consists of a paragraph followed by a numbered list of five points. This is followed by a section introduced by "1.er PUNTO.—" which includes a table-like presentation of monetary values and a paragraph of analysis. Another section, "2.o i 3.er PUNTO.—", introduces a final paragraph. The text flows in a single column.
+
+## Literal Transcription
+
+ESTUDIO DEL TERRITORIO DE MAGALLANES 615
+
+paré convenientemente para hacer de ellos un exámen
+mas claro:
+    1.o Formarse una entrada estraordinaria para cubrir
+el déficit fiscal;
+    2.o Evitar los contrabandos de mercaderías estranje-
+ras que se efectuaban por distintos puertos de la Re-
+pública;
+    3.o Abrir el mercado de la plaza a los productos na-
+cionales;
+    4.o Robustecimiento de la accion chilenizadora; i
+    5.o Disponer de una estadística completa i fidedigna
+de las importaciones i esportaciones habidas por el
+puerto.
+    1.er PUNTO.—Las siguientes son las entradas percibi-
+das por la Aduana desde 1912:
+    1912, $ 305,098.26; 1913, $ 580,523.85; 1914,
+$ 688,565.70; 1915, $ 601,593.95; 1916, $ 766,705.20.
+    De estas sumas habria que descontar anualmente unos
+$ 150,000, por pago de empleados, arriendo de local,
+muelle, etc., es decir, $ 750,000 en los 5 años, que, de-
+ducidos de los $ 2.942,486.96, forman en los mismos 5
+años una entrada líquida de $ 2.192,486.96.
+    Los datos espuestos demuestran una mayor entrada
+anual, pero estas cifras nada significan, ya que su valor
+es relativo a las pérdidas que por otra parte esperi-
+menta el territorio, de las cuales, por desgracia, no
+hai una estadística, pero que se dejan ver con absoluta
+claridad, mediante las consideraciones que mas adelan-
+te haré.
+    2.o i 3.er PUNTO.—Son las principales razones en pro
+del réjimen aduanero.
+    Se decia que el puerto franco del Estrecho orijina-
+ba tales contrabandos en el Norte, que con ellos dis-
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and accurate, capturing all visible text and formatting.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page that would be useful as standalone wiki assets."}
+```

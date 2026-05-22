@@ -1,0 +1,137 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-84e2ec81cd36-P0008-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175.codex.md
+converted_sha256: 84e2ec81cd361b0a39383bc851eb99453457d94ddeb9b2b9470aeee691ef4f29
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175/manifest.json
+page_start: 8
+page_end: 8
+part: 1
+---
+
+## Page Metadata
+Page number: 158
+
+## Layout And Reading Order
+The page features a two-column layout, typical of legislative or parliamentary records. The top of the page includes a header with "1766" on the left, "CAMARA DE DIPUTADO" in the center, and "Septiembre 21" on the right. The main content consists of a transcript of a parliamentary session, with speaker names followed by their statements. The reading order flows down the left column, then down the right column. Indented lines indicate actions taken (e.g., "—Se lee:", "—Se vota y resulta negativa") or descriptions of events.
+
+## Literal Transcription
+1766
+Sr. Presidente (Goyeneche). — Se van a leer
+las partidas
+    —Se lee:
+    "Para la terminación de los pabellones de la Es-
+    cuela normal de profesores, Corrientes".
+    "Para la edificación del Colegio nacional, Corrien-
+    tes".
+Sr. Sánchez de Bustamante. — Debo advertir
+que para el edificio del Colegio nacional no hay
+presupuesto ni planos, de acuerdo con la ley De-
+marchi.
+Sr. González. — Yo le puedo asegurar al se-
+ñor diputado que he estado en la división de
+arquitectura del ministerio de obras públicas de
+la nación, a cargo del ingeniero Ghigliaza, y
+existe el presupuesto y plano de esa obra. Yo he
+tenido ocasión de ver el plano de la obra, y el
+presupuesto lo tiene terminado la oficina.
+Sr. Sánchez de Bustamante. — En el despa-
+cho de la comisión de presupuesto figura como
+partida 13 la Escuela normal de maestras de
+Corrientes con 150.000 pesos y hay otra de
+100.000 pesos para la Escuela monumental del
+centenario.
+Sr. Bermúdez. — Es la de Monte Caseros.
+Sr. Sánchez de Bustamante. — No señor; es
+de Corrientes.
+Sr. Bermúdez. — Es un error de leyenda; es
+en Monte Caseros, de Corrientes.
+    —Se lee:
+    "Para la terminación de los pabellones de la Es-
+    cuela normal de profesores, Corrientes 100.000 pe-
+    sos".
+Sr. Presidente (Goyeneche). — Se va a vo-
+tar.
+    —Se vota y resulta negativa contra 32 votos
+    sobre 81, señores diputados.
+Varios señores diputados. — Que se rectifi-
+que.
+    —Se rectifica y resulta afirmativa de 42
+    votos.
+    —Se lee:
+    "Para la edificación del Colegio nacional, Corrien-
+    tes, 100.000 pesos".
+Sr. Presidente (Goyeneche). — Se va a vo-
+tar.
+    —Resulta negativa.
+
+CAMARA DE DIPUTADO
+Septiembre 21
+Sr. González. — Pido que se rectifique la vo-
+tación.
+Sr. Presidente (Goyeneche). — Se va a rec-
+tificar.
+    —Después de llamar durante unos momen-
+    tos a los señores diputados al recinto para
+    votar:
+Sr. Presidente (Goyeneche). — No se puede
+rectificar la votación, porque un diputado que
+formaba quórum no entra al recinto. De ma-
+nera que prevalece la primera votación
+Sr. González. — No puede ser así...
+Sr. Arnedo. — Pido la palabra.
+En el departamento de relaciones exterio-
+res y culto, como partida 8 acaba de votarse
+la suma de 10.000 pesos para la terminación
+del templo- asilo de la estación Laprida, en la
+provincia de Santiago del Estero. En igualdad
+de condiciones se encuentra el templo de Villa
+La Punta. Me permito solicitar una partida de
+5.000 pesos para la terminación de ese edificio.
+Sr. Presidente (Goyeneche). — La proposi-
+ción del señor diputado corresponde al ítem
+2o. que ya ha sido sancionado. De manera que
+sería una reconsideración.
+Sr. Arnedo. — Con posterioridad se han vo-
+tado otras partidas en el mismo ítem.
+Sr. Fernández (D.) — Se trata de una peque-
+ña partida. Pido que se vote.
+    —Asentimiento.
+Sr. Presidente (Goyeneche). — Habiendo
+asentimiento se va a votar la primera partida
+que propone el señor diputado al ítem 2o
+    —Se vota y resulta afirmativa
+Sr. Presidente (Goyeneche). — Se va a leer
+la segunda partida que ha propuesto el mismo
+señor diputado.
+    —Se lee:
+    "Para reparaciones de la escuela Centenario, de
+    Belén, Santiago del Estero, pesos 2.000".
+    —Después de unos momentos de espera
+Sr. Raffo de la Reta. — ¿Hay número sufi-
+ciente en la casa?
+Sr. Presidente (Goyeneche). — Sí, señor di-
+putado.
+Sr. Raffo de la Reta. — Se podría invitar a
+los señores diputados a que pasaran al recinto.
+Sr. Presidente (Goyeneche). — Se está en
+eso
+    —Pausa.
+
+## Images, Captions, And Visual Notes
+The page contains no images, only text.
+
+## Uncertain Or Illegible
+No uncertain or illegible text was encountered.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements that would require cropping."}
+```
+
+# Page 159

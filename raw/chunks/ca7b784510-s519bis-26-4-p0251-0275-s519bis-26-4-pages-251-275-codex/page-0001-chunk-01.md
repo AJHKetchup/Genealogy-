@@ -1,0 +1,102 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-21cb62d121ae-P0001-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0251-0275-s519bis-26-4-pages-251-275.codex.md
+converted_sha256: 21cb62d121aedd46090d76507ab5a24d7fb3106819e232c1d12dee486e249e25
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0251-0275-s519bis-26-4-pages-251-275/manifest.json
+page_start: 1
+page_end: 1
+part: 1
+---
+
+## Page Metadata
+- Page number: 251
+- Source: `raw/sources/S519bis-26-4.pdf`
+
+## Layout And Reading Order
+The page contains a handwritten note and a date at the top right, followed by a typed heading on the left. The main content is a report or letter, structured into paragraphs, with a section containing five numbered points. The last numbered point is cut off at the bottom of the page.
+
+## Literal Transcription
+Paraguay
+8 janvier, 1935.
+
+SECRETAIRE GENERAL
+
+Je viens de recevoir de Montevideo une lettre de M. Buero
+datée du 27 décembre, en réponse à une lettre que je lui avais
+envoyée par avion à Rio de Janeiro au sujet de l'attitude pro-
+bable du Gouvernement brésilien dans le conflit du Chaco. Les
+renseignements pessimistes que M. Querejazu, de la dé-
+légation bolivienne, m'avait fournis. J'ajoutais que ces ren-
+seignements étaient probablement exagérés à cause de l'état
+d'esprit dans lequel les Boliviens se trouvaient à ce moment,
+et je conseillais à M. Buero de s'entretenir avec l'Ambassadeur
+de l'Uruguay et avec le Ministre de Bolivie à Rio, avant de
+voir M. de Macedo Soares et M. Raoul Fernandes, afin de connaî-
+tre avec plus de précision la véritable situation.
+
+M. Buero m'annonce qu'il a fait ces visites et que la
+conversation avec M. Raoul Fernandes lui a laissé une impres-
+sion tout à fait excellente. Quant à M. de Macedo Soares, il
+a autorisé M. Buero à vous transmettre les points suivants que
+je traduis textuellement d'après le résumé que M. Buero me fait
+parvenir:
+
+"1) Personnellement M. de Macedo Soares continue à main-
+tenir ses opinions entièrement favorables à la rentrée du Bré-
+sil dans la Société. Il n'a rien à corriger aux idées conte-
+nues dans son livre sur cette matière."
+
+"2) En ce qui concerne l'affaire du Chaco, il a convoqué
+dans son bureau au Ministère des Affaires Etrangères les hom-
+mes politiques les plus importants et surtout les chefs des
+groupes au Parlement, parmi lesquels se trouve notre ami M. Raoul
+Fernandes."
+
+"3) Il l'a fait dans le but de préparer l'atmosphère ou,
+pour mieux dire, de transformer l'atmosphère étant donné qu'il
+n'a pas été possible dans un laps de temps trop court de créer
+une conviction contraire à celle qui détermina le retrait du
+pays de la Société."
+
+"4) En ce qui concerne ce problème, le Brésil attend un
+fait nouveau de la part de la Société, fait nouveau qui puisse
+servir de base pour entamer des négociations. Invité à préci-
+ser la portée de cette idée, M. Macedo Soares a été peu expli-
+cite, mais alors je lui ai insinué que les nations latino-
+américaines pouvaient adresser au Brésil une invitation collec-
+tive et unanime. M. de Macedo Soares se déclara d'accord avec
+cette suggestion mais il ajouta que la question de résoudre
+l'affaire sur le siège permanent resterait ouverte. J'ai ré-
+pondu qu'il fallait écarter définitivement l'espoir de revenir
+à la situation de 1926 et que par contre il serait préférable
+d'instituer un système de rotation en vertu duquel l'Argentine
+ou le Brésil serait représenté en tout temps au Conseil. J'ai
+eu l'impression que cette dernière idée lui plaisait et je lui
+ai promis de me mettre en contact avec Rivas Vicuña et Castillo
+Nájera afin d'établir un programme d'action."
+
+"5) Naturellement, nous sommes arrivés à ces conclusions
+après lui avoir exposé d'une façon détaillée (la conférence
+dura deux heures) les points suivants: a) l'entrée des Etats-
+Unis au B.I.T.; b) le développement bureaucratique du Consu-
+lat américain à Genève; c) la demande d'enregistrement du
+traité ou pseudo traité en vertu duquel les Etats-Unis font
+partie de l'Institut du Travail; d) l'existence d'un haut
+fonctionnaire nordaméricain au Secrétariat; e) l'entrée de
+
+## Images, Captions, And Visual Notes
+- At the top right of the page, the word "Paraguay" is handwritten in blue ink.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed. The last line of text, "e) l'entrée de", is cut off at the bottom of the page.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present; handwritten note is transcribed in text."}
+```

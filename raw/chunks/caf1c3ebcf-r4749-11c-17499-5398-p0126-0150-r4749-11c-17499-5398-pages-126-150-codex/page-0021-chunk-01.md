@@ -1,0 +1,77 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f9711d71eff6-P0021-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0126-0150-r4749-11c-17499-5398-pages-126-150.codex.md
+converted_sha256: f9711d71eff6ddcbe2a10a8518ff4a757cb302e1597fb0cfa415c93a486b07ba
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0126-0150-r4749-11c-17499-5398-pages-126-150/manifest.json
+page_start: 21
+page_end: 21
+part: 1
+---
+
+## Page Metadata
+Page number: 146
+Source document page number: 4
+
+## Layout And Reading Order
+
+The page contains a single column of typewritten text. A page number is centered at the top. The text flows continuously from top to bottom.
+
+## Literal Transcription
+
+```
+- 4 -
+
+importance considérable, l'atelier de menuiserie qui a
+servi à construire tous les meubles nécessaires pour la
+colonie, ainsi que pour certaines administrations publiques
+nationales. Il y a une section d'ébénisterie qui fait des
+travaux artistiques. L'atelier de mécanique est destiné
+aux apprentis mécaniciens à qui on enseigne le dessin, la
+réparation et l'ajustage des moteurs, la fabrication d'outils
+pour les ateliers, ets.. Dans l'atelier de ferronnerie se
+font habituellement tous les ouvrages en fer nécessaires
+pour les nouvelles constructions de la colonie; cet atelier
+a effectué une série de travaux artistiques destinés au théâ-
+tre Cervantes, de Buenos-Aires. Il y a lieu également de
+mentionner l'atelier de ferblanterie et de zinguerie, l'ate-
+lier de cordonnerie qui, outre les articles pour l'extérieur
+et les articles de travail, confectionne des articles desti-
+nés à l'usage des élèves; un atelier pour la confection de
+bas y est annexé. L'atelier de mosaïque a déjà effectué des
+travaux remarquables dans ce genre; l'atelier de tuilerie
+et de poterie a une variété considérable de produits; l'ate-
+lier de peinture complète l'activité des ateliers de memmi-
+serie et de poterie; la boulangerie et la fabrique de pâtes
+alimentaires assurent les besoins de la colonie. La colonie
+a une usine pour la production de lumière et de force motrice,
+une blanchisserie mécanique, etc...
+        Il existe d'autres sections de la colonie Gutierrez
+telles que l'<u>hôpital</u>, l'<u>économat</u> qui s'occupe de la distri-
+bution des vivres, le <u>magasin des vivres</u>, et le <u>club des
+employés</u>.
+        Le Patronage national des mineurs a créé sur des
+bases scientifiques une annexe appelée "El Retiro". Cette
+section, construite sur un terrain séparé de la colonie,
+est destinée aux mineurs qui ne s'adaptent pas à la vie
+de famille. Le système cellulaire y est appliqué; il y a
+```
+
+## Images, Captions, And Visual Notes
+The page number "- 4 -" is centered at the top of the page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The page contains only text."
+}
+```

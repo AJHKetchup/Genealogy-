@@ -1,0 +1,92 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-c2e7d7b1d241-P0001-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0226-0250-r3016-11a-2905-950-pages-226-250.codex.md
+converted_sha256: c2e7d7b1d24120a12e5a8e1b0819b0eb784975687d2a6e2c67d91a3325efabe3
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0226-0250-r3016-11a-2905-950-pages-226-250/manifest.json
+page_start: 1
+page_end: 1
+part: 1
+---
+
+## Page Metadata
+Page: 226
+
+## Layout And Reading Order
+The page consists of a single column of text, primarily in French. It appears to be minutes or a report from a conference, detailing nominations, agenda discussions, and commission appointments. The text is structured with headings, subheadings, and indented paragraphs, often indicating speakers or actions. A page number is centered at the bottom.
+
+## Literal Transcription
+
+MANNHEIM, PAU, CIRAOLO, SLIUPAS, COLLINS, COMTE POTOCKI, GARCIA ROSADO, BALS,
+DJOURDJEVITCH, KOHLER, BARANOFF, ITRIAGO. (*Adopté*).
+
+NOMINATION DES SECRÉTAIRES DE LA CONFÉRENCE.
+
+J'ai l'avantage de vous proposer comme secrétaires de la Conférence:
+
+MM. KITTREDGE, BARON DE ROTENHAN, CHAMPAIN, ANDRESEN, FERBER, DE GRIPENBERG,
+THIÉBAUT, FUNCK, VAN SLOOTEN, MEINICH, Mademoiselle ANNA PASZKOWSKA, BARON STJERN-
+STEDT, MM. ISCHER, ESCARDO, ANAYA.
+
+(*Les propositions du Vice-Président sont acceptées*).
+
+PROGRAMME PROVISOIRE DE LA CONFÉRENCE.
+
+Son Exc. le général **Röell** (vice-président). — Le programme provisoire de la Conférence a
+été joint à la lettre circulaire de convocation. La Croix-Rouge néerlandaise n'a pas reçu de sug-
+gestions entraînant des modifications à cet ordre du jour. Je vous propose, en conséquence,
+de l'accepter, en le rendant définitif.
+
+Son Exc. M. **Nolf** (Belgique). — Permettez-moi de vous demander si l'acceptation de l'ordre
+du jour provisoire implique celle de l'ordre des questions. Je vois en effet, sous le numéro
+XVIII, la question de l'organisation internationale de la Croix-Rouge.
+
+Son Exc. le général **Röell** (vice-président). — Il est bien entendu que l'adoption défi-
+nitive de l'ordre du jour n'implique nullement l'ordre dans lequel les questions sont
+énumérées. Je comprends très bien que la question numéro XVIII est très importante,
+et il n'était pas dans notre intention de la faire discuter en dernier lieu.
+
+Son Exc. M. **Nolf** (Belgique). — Je me déclare entièrement satisfait.
+
+NOMINATION DES COMMISSIONS DE LA CONFÉRENCE.
+
+Son Exc. le général **Röell** (vice-président). — Nous abordons la question de la
+nomination des Commissions de la Conférence.
+Selon les suggestions faites par le Comité international de la Croix-Rouge nous avons
+réparti les délégués en quatre Commissions. La Commission spéciale des délégués reste
+constituée.
+
+J'invite le secrétaire général adjoint M. FLUGI D'ASPERMONT à donner lecture des
+différentes propositions faites par le Bureau.
+
+I. COMMISSION POUR LES QUESTIONS D'ORDRE GÉNÉRAL.
+
+(Points III—VI de l'ordre du jour)
+
+Lecture est donnée des propositions du Bureau.
+
+M. le général **Champain** (Indes britanniques; Afrique du Sud). — M. MAUDSLAY ne
+pourra malheureusement assister à la séance. Il m'a télégraphié ce matin.
+
+M. **Meinich** (Norvège). — Je serais très heureux de voir Mademoiselle OTTESEN dans
+cette Commission à la place de M. STEEN. (*Adopté*).
+
+M. **Baranoff** (U. R. S. S.). — Je vous prie de désigner M. SABANINE (*Adopté*).
+
+— 4 —
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content such as photographs, illustrations, maps, or complex diagrams that would require a bounding box. The content is primarily text."}
+```

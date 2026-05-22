@@ -1,0 +1,90 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-eb63a8249d5e-P0013-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0301-0325-s519bis-26-4-pages-301-325.codex.md
+converted_sha256: eb63a8249d5e1bd2ea2df66d852c234b4d606cbe2ff67df390e20ee868e29b28
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0301-0325-s519bis-26-4-pages-301-325/manifest.json
+page_start: 13
+page_end: 13
+part: 1
+---
+
+## Page Metadata
+Page number: 313
+
+## Layout And Reading Order
+
+The page contains typewritten text in French, formatted as a letter or memo. A date is present at the top right. The recipient's name is underlined at the top left. The body of the text consists of several paragraphs and a list of documents. A handwritten annotation appears in the right margin next to one of the paragraphs.
+
+## Literal Transcription
+
+12 Mars 1927.
+
+<u>M. STENCEK,</u>
+
+Comme suite à notre conversation d'aujourd'hui,
+je vous prie de bien vouloir considérer l'opportunité de
+me faire envoyer pour M. Pedro E. PAULET, Délégué du Pérou
+auprès du B.I.T. les documents suivants:
+
+4 exemplaires du Catalogue des documents de la Conférence
+Economique Internationale, et
+
+1 exemplaire de chacun des documents ci-après:
+
+Memorandum sur les Balances des Paiements
+" sur les Finances Publiques
+" sur le Charbon
+" sur l'Industrie du fer et de l'acier
+" sur le Coton
+" sur l'industrie chimique
+" sur l'industrie électro-technique.
+
+M. Paulet voudrait avoir ces documents et les cata-
+logues avec une certaine urgence, puisqu'il prépare en ce
+moment un travail sur le Pérou, du genre de celui qui a été
+préparé par M. Jaramillo pour la Colombie. Il voudrait en-
+voyer son travail à son Gouvernement avec l'exemplaire du
+Memorandum sur les Balances des Paiements et le catalogue.
+
+M. Paulet est depuis quelques mois en correspondan-
+ce avec son Gouvernement et avec des hommes représentatifs
+du Pérou dans le domaine économique et financier, pour faire
+intervenir son pays à la Conférence Economique. Il a reçu
+une lettre très enthousiaste de M. José Balta, ancien Minis-
+tre des Finances et actuel Président de la Commission natio-
+nale pour le charbon et la sidérurgie. Il m'a envoyé cette
+lettre dans laquelle il déclare travailler pour obtenir l'en-
+voi des Membres péruviens à la Conférence. M. Balta espère
+réussir et il donne en tout cas la certitude que M. Paulet
+sera un de ces Membres.
+
+C'est aussi par l'intermédiaire de M. Paulet que
+je me suis mis en contact avec M. Freyre y Santander, Minis-
+tre du Pérou à Londres qui s'intéresse, lui aussi, à la Con-
+férence Economique.
+
+M. Paulet me demande enfin si le Secrétariat serait
+disposé à distribuer son travail sur le Pérou comme on l'a
+fait pour le travail de M. Jaramillo. Dans l'affirmative,
+je vous serais très reconnaissant de me dire à qui M. Paulet
+devrait s'adresser éventuellement pour cette question.
+
+surtout
+
+## Images, Captions, And Visual Notes
+
+A handwritten annotation "surtout" appears in the right margin, next to the paragraph beginning "M. Paulet voudrait avoir ces documents...".
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and accurate. All text and the handwritten annotation have been captured.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams. Minor handwritten annotation is described in text."}
+```

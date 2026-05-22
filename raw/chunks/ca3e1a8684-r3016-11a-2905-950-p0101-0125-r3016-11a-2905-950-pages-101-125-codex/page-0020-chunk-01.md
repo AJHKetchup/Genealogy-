@@ -1,0 +1,103 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e3075d669790-P0020-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125.codex.md
+converted_sha256: e3075d669790de6dec004d67ba046f4394754d518a2c268bfa2ac365c729eabb
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/manifest.json
+page_start: 20
+page_end: 20
+part: 1
+---
+
+## Page Metadata
+- Page number: 120
+- Internal document page number: 4
+
+## Layout And Reading Order
+The page contains a single column of text, primarily composed of several paragraphs discussing a resolution and related actions. A page number is centered at the top.
+
+## Literal Transcription
+```
+- 4 -
+
+Le Sénateur François demande que cette résolution
+soit approuvée à l'unanimité; il demande également aux so-
+ciétés nationales de faire toutes les démarches nécessaires
+pour hâter la réalisation du projet, et notamment d'employer
+tous leurs efforts auprès des Gouvernements pour obtenir les
+ratifications nécessaires, si ceux-ci ne l'ont déjà fait.
+
+Il demande plus particulièrement au Comité inter-
+national de la Croix-Rouge de bien vouloir adresser une
+lettre circulaire aux différents Gouvernements pour qu'ils
+signent et ratifient la Convention, suivant le cas. Il
+prie les parlementaires qui pourraient se trouver à cette
+réunion d'agir auprès de leurs Gouvernements dans le même
+but et d'obtenir que l'Union interparlementaire s'emploie
+dans le même sens.
+
+Le Sénateur François termine en disant qu'il es-
+time que le sort de l'Union internationale de Secours a
+été confié par la Société des Nations au Comité interna-
+tional de la Croix-Rouge et à la Ligue des Sociétés de la
+Croix-Rouge. Il espère que ces organisations pourront se
+rendre des services réciproques pour le plus grand bien
+de l'humanité. (Applaudissements).
+
+M. Werner, au nom du Comité international de la
+Croix-Rouge, (et il est sûr que la Ligue lui permettra
+aussi de parler en son nom), recommande à la Commission
+de voter à l'unanimité la résolution proposée. Puisqu'il
+s'agit d'obtenir des signatures et des ratifications, il
+faut employer à la fois les méthodes de propagande et de
+persuasion. Rien ne pourra produire un effet de persua-
+sion meilleur que cette résolution, une fois qu'elle au-
+ra été votée par la Conférence. Le Comité international
+de la Croix-Rouge et la Ligue sont entièrement d'accord
+pour en recommander le vote.
+
+Quant à la lettre circulaire que M. François dé-
+sire voir adresser aux différents Gouvernements, M. Werner
+déclare qu'il ne manquera pas de soumettre cette proposi-
+tion au Comité international de la Croix-Rouge et à la Li-
+gue; il voudrait pouvoir transmettre en même temps aux
+Etats la résolution votée par la Conférence.
+
+M. Kittredge s'associe complètement aux déclara-
+tions de M. Werner. Les catastrophes qui ont frappé de-
+puis quelque temps les différentes parties du monde sont
+une preuve de la nécessité pour la Croix-Rouge de se dé-
+vouer aux secours en cas de calamités. La Ligue se rend
+parfaitement compte que les Sociétés nationales de la
+Croix-Rouge sont les organisations les plus qualifiées
+pour entreprendre l'oeuvre de secours. L'action de l'U-
+nion internationale de Secours dépend essentiellement de
+l'action de chaque société nationale dans chaque pays.
+Dans le cas d'une grande catastrophe, l'aide internatio-
+nale viendra s'ajouter aux efforts nationaux. La respon-
+sabilité primordiale du secours incombe aux sociétés na-
+tionales de la Croix-Rouge. M. Kittredge désire donc ap-
+puyer les propositions de M. Werner, et demande que l'on
+insiste sur la nécessité pour les sociétés nationales
+d'être suffisamment fortes pour devenir les agents de
+l'Union internationale de Secours.
+```
+
+## Images, Captions, And Visual Notes
+- A page number, "- 4 -", is centered at the top of the page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and layout elements have been transcribed and described.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "No substantial visual content like portraits, maps, or diagrams requiring cropping. The page number is transcribed in the literal transcription."
+}
+```

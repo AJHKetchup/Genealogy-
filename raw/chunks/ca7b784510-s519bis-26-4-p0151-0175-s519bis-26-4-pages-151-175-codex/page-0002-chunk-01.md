@@ -1,0 +1,88 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-dd6d91604b9b-P0002-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175.codex.md
+converted_sha256: dd6d91604b9baf77d52fe019c857cc8826687386e0e4c1bf41d5400e1cec8cef
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/manifest.json
+page_start: 2
+page_end: 2
+part: 1
+---
+
+## Page Metadata
+Page: 152
+
+## Layout And Reading Order
+
+The page presents a single column of text, primarily composed of several paragraphs discussing agricultural colonies and related legislation. A page number, "-29-", is centered at the top. The text flows continuously from top to bottom.
+
+## Literal Transcription
+
+```
+                                                                —29—
+
+        Para acrecentar esta acción de fomento agrícola os sometí
+el proyecto, convertido en ley, según la cual cualquier terreno
+del Estado puede ser cedido por el Poder Ejecutivo en favor de
+dominicanos pobres que deseen dedicarse al cultivo de la tierra,
+mediante contrato que facilite su pago en diez anualidades suce-
+sivas a partir del segundo año de su adquisición.
+
+        Y como no basta al concesionario la posesión del terreno sino
+que necesita medios para instalarse en él y hacerlo producir, el
+Poder Ejecutivo presta al agricultor los auxilios necesarios de
+vivienda, ganado, semillas, aperos y útiles de labranza, que éste
+adquirirá también dentro de las mayores ventajas posibles para
+su pago.
+
+        Siendo el espíritu de esta ley aumentar el número de propie-
+tarios rurales nativos, los terrenos concedidos en virtud de la
+misma están libres de todo impuesto fiscal y municipal durante
+siete años, y son inembargables e intransferibles.
+
+        La disposición de esta ley haciendo inembargables e intrans-
+feribles estas heredades es la creación, dentro de nuestro siste-
+ma institucional, del **Bien de Familia**, vinculación del hombre a
+la tierra, seguridad de techo frente a la adversidad y base de pe-
+queñas propiedades.
+
+        **Colonias Agrícolas.—** Ya en la parte de este informe relati-
+va al Departamento de lo Interior, Policía, Guerra y Marina me
+referí a las Colonias Militares Agrícolas y a las que sólo funcio-
+nan con un administrador militar.
+
+        Os informo aquí del progreso alcanzado en el año con el fun-
+cionamiento de todas las Colonias Agrícolas.
+
+        Es satisfactorio el resultado de estas colonias, y para que se
+comprenda mejor la trascendencia de su labor, por la intensifi-
+cación de los cultivos en ellas fomentados, consigno en este in-
+forme su respectiva capacidad y el mayor número de colonos con
+que han sido atendidos en el año.
+
+        La Colonia de Jamao, de la común de Moca, cuenta con 22,049
+hectáreas y 450 colonos; la de Pedro Sánchez, en el Seibo, con
+607 hectáreas y 300 colonos; la del Bonao, en la provincia de La
+Vega, con 377 hectáreas y 36 colonos; la de Villa Vásquez, en
+Monte Cristi, con 13,000 tareas y 218 colonos; la de Pedernales,
+```
+
+## Images, Captions, And Visual Notes
+
+There are no images or captions on this page. The page number "-29-" is centered at the top.
+
+## Uncertain Or Illegible
+
+No uncertain or illegible text was encountered on this page.
+
+## Completeness Audit
+
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content like images, maps, or diagrams on this page. Only text and a page number."}
+```

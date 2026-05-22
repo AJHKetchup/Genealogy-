@@ -1,0 +1,70 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-dc822c6ec62a-P0009-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50.codex.md
+converted_sha256: dc822c6ec62ae8044ca38b52bb50fd43f5d60b06d4065bd8e96f9449d4be2814
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/manifest.json
+page_start: 9
+page_end: 9
+part: 1
+---
+
+## Page Metadata
+Page 34
+
+## Layout And Reading Order
+The page contains a continuation of a numbered list (Roman numerals X through XVIII), followed by a formal closing statement and two signatures with their titles. The text is presented in a single column. There is a handwritten underline beneath item XVIII.
+
+## Literal Transcription
+X. La Croix-Rouge et la protection des populations civiles contre la guerre chimique
+(proposé par le Comité international de la Croix-Rouge et la Croix-Rouge des Serbes, Croates
+et Slovènes).
+
+XI. L'aviation et la Croix-Rouge (proposé par la Croix-Rouge italienne).
+
+XII. L'Institut International d'étude de matériel sanitaire (proposé par le Comité inter-
+national de la Croix-Rouge).
+
+XIII. Standardisation du matériel sanitaire (proposé par le Comité international de la
+Croix-Rouge).
+
+XIV. Etude des mesures propres à diminuer le nombre des disparus en temps de guerre
+(proposé par le Comité international de la Croix-Rouge).
+
+XV. Recrutement et formation des infirmières (proposé par le Comité international de la
+Croix-Rouge et la Croix-Rouge italienne).
+
+XVI. Proposition de munir le matériel des Sociétés nationales de la Croix-Rouge d'une
+marque d'identité reproduisant le nom et les initiales de la Société à laquelle appartient le
+matériel (proposé par la Croix-Rouge suédoise).
+
+XVII. Mode de protection de l'emblème de la Croix-Rouge en tout ce qui touche au
+personnel et au matériel sanitaire des services de santé des parties belligérantes (proposé par la
+Croix-Rouge polonaise).
+
+XVIII. Organisation internationale de la Croix-Rouge (proposé par le Comité international
+de la Croix-Rouge et nombre de Croix-Rouges nationales).
+
+Veuillez agréer, Monsieur le Ministre, l'expression de notre considération la plus distinguée.
+
+Pour le Comité central de la Croix-Rouge néerlandaise,
+
+HENRI,
+PRINCE DES PAYS-BAS,
+Président,
+G. VAN SLOOTEN,
+Secrétaire général.
+
+## Images, Captions, And Visual Notes
+A handwritten red underline appears beneath the text "Organisation internationale de la Croix-Rouge (proposé par le Comité international de la Croix-Rouge et nombre de Croix-Rouges nationales)" in item XVIII.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and significant visual markings on the page have been transcribed and described.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements present that would be useful as standalone wiki assets. The handwritten underline is described in the 'Images, Captions, And Visual Notes' section."}

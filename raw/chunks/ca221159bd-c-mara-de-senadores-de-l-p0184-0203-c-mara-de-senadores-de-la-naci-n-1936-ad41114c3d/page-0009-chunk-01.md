@@ -1,0 +1,80 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f9fafccda3bd-P0009-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203.codex.md
+converted_sha256: f9fafccda3bd8b21fedad4f67260539c09870f950fd91a895a3d8db6d6232bc3
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json
+page_start: 9
+page_end: 9
+part: 1
+---
+
+## Page Metadata
+Page number: 189
+
+## Layout And Reading Order
+
+The page consists of a single column of text. The page number is centered at the top, enclosed by em dashes. The main content is structured with headings and numbered articles. A small number "7" appears at the bottom left.
+
+## Literal Transcription
+
+— 189 —
+
+La Dirección General de Ferrocarriles procederá a la enu-
+meración de las sustancias que deben considerarse compren-
+didas en la clasificación especificada, y si fuera necesario, esta-
+blecerá oportunamente las demás condiciones especiales a las
+cuales deberá ajustarse el transporte de las mismas.
+Las empresas quedan facultadas para fijar un día de la
+semana para el transporte de estas cargas.
+
+Embalaje de materias explosivas.
+
+Art. 327. — En general, el embalaje se hará en cajas fuertes
+de madera, que cerrarán perfectamente para que no se de-
+rrame el contenido y no deberán reforzarse con ligaduras de
+hierro. Los envases de pólvora podrán ser de metal, con ex-
+clusión del hierro, y no podrán colocarse tornillos, clavos u
+otros accesorios de hierro.
+
+Cartuchos de dinamita.
+
+Art. 328. — Los cartuchos de dinamita deberán estar bien
+atados en paquetes y no podrán estar provistos del fulminante.
+
+Algodón-pólvora y nitrocelulosas.
+
+Art. 329. — El algodón-pólvora y otras nitrocelulosas de-
+berán regarse con un veinte por ciento de agua, por lo menos,
+y estarán bien embalados en fuertes envases a fin de que su
+contenido no sufra fricción.
+
+Rotulado de los envases.
+
+Art. 330. — Los envases con artículos explosivos deberán
+indicar el nombre del contenido en letras claras y con el rótulo
+“Peligro”.
+
+Peso máximo de los bultos.
+
+Art. 331. — El peso bruto de los bultos de pólvora, algodón-
+pólvora, cartuchos y fuegos artificiales, no podrá exceder de
+noventa kilos, y el peso bruto de los envases de dinamita y
+
+7
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page. The page number "189" is centered at the top, enclosed by em dashes. A small number "7" is present at the bottom left corner of the page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and numerical elements on the page have been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The page contains only text and page numbers."}
+```

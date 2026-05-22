@@ -11,8 +11,6 @@ page_end: 1149
 part: 1
 ---
 
-# Page 1149
-
 ## Page Metadata
 
 - Source: `raw/sources/S522bis-29-3.pdf`
@@ -103,10 +101,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 2.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-- **Page number**: 1307
-- **Header**: de 1932 CAMARA DE SENADORES DE LA NACION 1307
-
-## Layout And Reading Order
-This page is a two-column document. The reading order is from the top of the left column to the bottom, then from the top of the right column to the bottom.

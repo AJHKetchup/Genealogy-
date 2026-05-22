@@ -11,8 +11,6 @@ page_end: 131
 part: 1
 ---
 
-# Page 131
-
 ## Page Metadata
 
 - Source: `raw/sources/S522bis-29-3.pdf`
@@ -96,13 +94,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-
-- Task id: `source-prep:ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150:p0132`
-- Source: `raw/sources/S522bis-29-3.pdf`
-- Page: 132
-
-## Layout And Reading Order
-
-This page is a single-page document with a header and two columns of text. The reading order is from the top of the left column to its bottom, followed by the top of the right column to its bottom.

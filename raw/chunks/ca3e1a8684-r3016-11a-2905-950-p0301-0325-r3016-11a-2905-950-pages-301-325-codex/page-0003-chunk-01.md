@@ -1,0 +1,82 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e85e4929cdf9-P0003-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0301-0325-r3016-11a-2905-950-pages-301-325.codex.md
+converted_sha256: e85e4929cdf9ec5f23d26f38cae3c26e5da3ac8dc8f9881fb313490c3e4b0009
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0301-0325-r3016-11a-2905-950-pages-301-325/manifest.json
+page_start: 3
+page_end: 3
+part: 1
+---
+
+## Page Metadata
+Page number: 303
+
+## Layout And Reading Order
+The page contains a single column of French text, primarily discussing the activities and recommendations related to the Red Cross Societies and nursing. A page number "7" is present at the bottom right.
+
+## Literal Transcription
+d'écoles spéciales et la modification des programmes des écoles déjà
+existantes en vue de former des infirmières visiteuses.
+
+La Conférence de Cannes a eu pour résultat la fondation de la
+Ligue des Sociétés de la Croix-Rouge, créée dans le but de développer
+les activités du temps de paix de la Croix-Rouge. Cinquante sociétés
+nationales sont devenues membres de la Ligue; elles ont établi le
+programme de leurs services d'infirmières conformément à celui
+de cette institution, et un grand nombre d'entre elles ont entrepris
+la formation des infirmières professionnelles. La section des Infir-
+mières de la Ligue a collaboré au développement des services d'infir-
+mières de quelques-unes de ces sociétés.
+
+Les deux principales activités de la section des infirmières :
+aide aux différentes sociétés de la Croix-Rouge et création d'un cours
+complémentaire pour infirmières font ressortir la nécessité d'établir
+une collaboration avec les autres organisations qui s'intéressent au
+« nursing ». De plus, les aspects internationaux de son œuvre et
+l'importance croissante de sa partie technique ont révélé le besoin
+de constituer un groupe de conseillers éminents. En conséquence,
+un Comité Consultatif des Infirmières a été créé et formé de déléguées
+des diverses branches du « nursing » et des organisations d'infirmières
+des différents pays, dont quelques-unes sont membres du Conseil
+International des Infirmières.
+
+Ce Comité s'est réuni pour la première fois à l'occasion de la troi-
+sième session du Conseil Général de la Ligue, en avril 1924. Après
+avoir étudié les services d'infirmières de la Croix-Rouge et la façon
+dont la Section des Infirmières pourrait être le plus utile aux sociétés
+nationales, il a formulé les dix recommandations suivantes qui ont
+été soumises au Conseil Général, lors de sa troisième réunion,
+et approuvées par cette assemblée :
+
+1º Que la création et le développement d'un service d'infirmières
+aient une place prépondérante dans le programme des sociétés natio-
+nales de la Croix-Rouge, aussi bien dans les pays où la Croix-Rouge
+s'occupe de questions sanitaires et d'hygiène, que dans ceux où
+le gouvernement et les institutions publiques et privées s'adressent
+à elle pour les aider dans ce domaine.
+
+2º Que les sociétés nationales de la Croix-Rouge s'efforcent de
+démontrer au public, dans leurs pays respectifs, l'importance de
+l'infirmière au point de vue national; qu'elles travaillent au déve-
+loppement des écoles d'infirmières et qu'elles encouragent les femmes
+de bonne éducation à faire des études d'infirmière; qu'elles améliorent
+la situation morale et matérielle des infirmières.
+
+7
+
+## Images, Captions, And Visual Notes
+The page contains no images, captions, or other substantial visual elements beyond the text itself and the page number.
+
+## Uncertain Or Illegible
+No uncertain or illegible text was encountered.
+
+## Completeness Audit
+All visible text and the page number have been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and a page number, with no substantial images, diagrams, or other visual elements that would warrant cropping."}
+```

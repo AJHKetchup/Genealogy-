@@ -1,0 +1,96 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d0faa52007e5-P0006-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket3-pages-76-100.codex.md
+converted_sha256: d0faa52007e56a217385c3a7c16ded06c2d482c977995b3b3a3d26501d9924fb
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket3-pages-76-100/manifest.json
+page_start: 6
+page_end: 6
+part: 1
+---
+
+## Page Metadata
+Page number: 81
+Date: 5 JUILLET 1929
+
+## Layout And Reading Order
+
+The page contains meeting minutes, with a header at the top indicating the session date and page number. The main content consists of a series of speakers and their statements, presented in a dialogue format. Speaker names are bolded and followed by their country in parentheses, with their statements indented below.
+
+## Literal Transcription
+
+SÉANCE DU 5 JUILLET 1929 9
+
+**M. le Président** :
+Nous pouvons considérer la question comme liquidée. Il a été fait un effort méritoire pour
+vous éclairer.
+Si vous le voulez bien, nous allons entrer en matière sur l'article 10.
+(Lecture est donnée de l'article 10)
+A ce propos, la Conférence est déjà saisie d'une proposition du Gouvernement des Etats-
+Unis, remplacée d'ailleurs par un texte quelque peu modifié, qui vous a été distribué.
+La Conférence est également saisie d'une proposition de l'Ordre souverain et militaire de
+Malte ; mais les délégués de cet Ordre ont fait savoir, tout à l'heure, qu'ils préféraient que la
+discussion de leur proposition fût renvoyée à une séance ultérieure.
+A qui puis-je donner la parole ?
+
+**M. Wadsworth (Etats-Unis)** :
+Sur l'amendement américain ou sur l'ensemble de l'article ?
+
+**M. le Président** :
+Sur l'ensemble de l'article, d'une manière générale.
+
+**M. Wadsworth (Etats-Unis)** :
+Peut-être pourrions-nous, tout d'abord, examiner le premier paragraphe et, après seule-
+ment, en venir aux amendements dont il s'agit.
+
+**M. le Président** :
+Je mets en discussion le texte de l'article 10, texte proposé qui correspond entièrement
+au texte actuel de la Convention. Donne-t-il lieu à des remarques ?
+
+**M. Yoshida (Japon)** :
+J'attire l'attention sur le fait qu'il nous paraît préférable de remplacer les mots « sociétés
+de secours volontaire » par « sociétés de la Croix-Rouge ». Une proposition a été faite dans ce
+sens.
+
+**M. Warner (Grande-Bretagne)** :
+Malgré le désir exprimé par l'Ordre souverain de Malte d'ajourner la discussion de sa
+proposition, il n'y a peut-être pas lieu de renvoyer l'examen de l'article 10, soit des autres
+questions qui n'ont pas de relations avec le fond de la proposition des chevaliers de Malte.
+
+**M. le Président** :
+En effet, je ne vois pas de raison péremptoire de surseoir à la discussion de l'article 10,
+notamment de toutes les propositions qui ne touchent d'aucune manière à celle de l'Ordre de
+Malte.
+
+**Le Médecin Général Marotte (France)** :
+C'est au sujet de l'amendement de la délégation du Japon. Je vois des inconvénients
+nombreux à remplacer « sociétés de secours » par « sociétés de la Croix-Rouge ». Il y a des
+sociétés du Croissant rouge, du Soleil, du Lion. En n'employant que l'expression « Sociétés de la
+Croix-Rouge », on aurait l'air d'exclure les autres, alors que l'intention générale est de modifier
+la Convention de Genève en y faisant entrer le Croissant rouge et les autres sociétés nationales.
+
+**M. le Président** :
+Sérions les questions. Comme on a abordé maintenant la discussion de la proposition
+japonaise, nous pourrions la poursuivre et tâcher de la liquider.
+
+## Images, Captions, And Visual Notes
+
+There are no substantial images or captions on this page. A small dark mark or hole is visible near the top-left corner of the page, which appears to be a minor artifact from the scanning or original document.
+
+## Uncertain Or Illegible
+
+No text on this page is uncertain or illegible.
+
+## Completeness Audit
+
+The transcription is complete and includes all visible text from the page.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily contains text, and any minor marks or artifacts are not considered meaningful visual regions for cropping."}
+```
+
+# Page 82

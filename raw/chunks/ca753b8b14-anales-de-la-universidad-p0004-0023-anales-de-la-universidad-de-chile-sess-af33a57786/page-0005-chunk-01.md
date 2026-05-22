@@ -11,99 +11,29 @@ page_end: 5
 part: 1
 ---
 
-# Page 5
-
 ## Page Metadata
-
-- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
-- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
-- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/manifest.json`
-- Source page: 5
-- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-images/page-0005.jpg`
-- Conversion method: Docling basic conversion
-- Docling readability status: `rough_ok`
-- Docling readability flags: none
-- Extracted picture images: 0
+Page number: 8
+Source: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
 
 ## Layout And Reading Order
-
-Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
-
-## Literal Transcription
-
-```markdown
-## REPUBLICA DE CHILE
-
-## ANALES
-
-DE LA
-
-## UNIVERSIDAD
-
-## TOMO CXLII.ANO77.
-
-## SUMARIO
-
-Boletin de Instruccion Publica.- Consejo de Instruccion Publica: Sesionea
-
-de2,9,i 30deSetiembrei de7, 14,21 i 28 de0ctubre.
-
-señor'  ha Rodolfo  dnd  por € qe  a AVEDEA -Moraxa. -Contestacion.  al  señor.  Julio Seredra Molina, por RoDoLFo LENz.Monsenor Jose Ignacio Victor Eizaguirre Portales, por el senior CABLos SILVA CoTAPos.El trabajo i la vida en el mineral 《El Teniente, por el senor ALEJANDRO FUENZALIDA GRANDON.
-
-## SETIEMBRE I OCTUBRE DE 1918
-
-Soo. Lnaprenta Litografia BARCELoNA SANTIAGO-VALPARAISO
-
-1918
-```
-
-## Images, Captions, And Visual Notes
-
-- No Docling picture regions were detected for this page.
-
-## Translation
-
-No translation was produced by the Docling basic conversion pass.
-
-## Interpretation
-
-No interpretation was produced by the Docling basic conversion pass.
-
-## Uncertain Or Illegible
-
-- Automated readability flags: none
-- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
-
-## Extracted Genealogy Leads
-
-- No genealogy leads were asserted by the Docling basic conversion pass.
-
-## Completeness Audit
-
-- Basic Docling conversion completed for this page.
-- Rendered page image link recorded.
-- Extracted picture image count: 0.
-- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 6
-
-## Layout And Reading Order
-This page is entirely blank.
+The page is almost entirely blank. There is no discernible layout or reading order for content intended for this page. Faint, reversed text from the verso (previous page) is visible due to bleed-through.
 
 ## Literal Transcription
-[This page is blank.]
+The page is blank. Extremely faint, reversed text is visible due to bleed-through from the previous page. This text appears to be:
+ANALES
+DE LA UNIVERSIDAD
+DE CHILE
 
 ## Images, Captions, And Visual Notes
-[This page contains no images, captions, or visual notes.]
+The page contains no images, captions, or visual notes intended as content for this page. The faint, reversed text visible is bleed-through from the previous page.
 
 ## Uncertain Or Illegible
-[This page contains no uncertain or illegible text.]
+The faint, reversed text is difficult to read clearly due to its nature as bleed-through, but the words "ANALES", "DE LA UNIVERSIDAD", and "DE CHILE" are reasonably discernible.
 
 ## Completeness Audit
-The page is entirely blank.
+The transcription is complete. The page is almost entirely blank, with only bleed-through text visible.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "This page is entirely blank and contains no meaningful visual content."}
+{"visual_regions": [], "no_visual_regions_reason": "The page is almost entirely blank, with only faint bleed-through text from the previous page, which does not constitute a meaningful visual region for cropping."}
 ```

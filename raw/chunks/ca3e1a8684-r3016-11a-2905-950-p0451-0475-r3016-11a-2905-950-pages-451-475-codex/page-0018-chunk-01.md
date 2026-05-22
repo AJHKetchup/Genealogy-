@@ -1,0 +1,76 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b7518b46e07d-P0018-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0451-0475-r3016-11a-2905-950-pages-451-475.codex.md
+converted_sha256: b7518b46e07d2cbcbaedfa256deed95c47d3273d8ec2fce7212f311165669704
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0451-0475-r3016-11a-2905-950-pages-451-475/manifest.json
+page_start: 18
+page_end: 18
+part: 1
+---
+
+## Page Metadata
+Page number: 468
+
+## Layout And Reading Order
+
+The page features a centered title followed by a single-column, left-aligned list of names and titles. A page number is centered at the bottom.
+
+## Literal Transcription
+
+COMITÉ CENTRAL DE LA CROIX-ROUGE
+NÉERLANDAISE.
+
+S.A.R. le prince des Pays-Bas, président.
+Son Exc. le lieutenant-général jonkheer J. H. Roëll, 1er vice-
+    président.
+M. le général-major N. Schrijver, 2me vice-président.
+M. le Dr G. van Slooten, secrétaire-général.
+M. le baron W. J. van Lynden, trésorier.
+M. le capitaine de vaisseau Dr H. F. Minkema.
+Son Exc. le lieutenant-général J. L. ten Bosch.
+M. le baron W. C. J. J. van Voorst tot Voorst.
+Son Exc. le lieutenant-général baron Roëll van Hazerswoude.
+M. le prof. G. J. W. Kooiemans Beijnen.
+M. le Dr M. Rutgers.
+M. le Dr N. M. Josephus Jitta.
+M. le Dr A. M. Ledeboer.
+M. le Dr A. A. G. Land.
+M. le Dr J. H. E. de Vries.
+M. H. Dronkers.
+M. le pasteur J. Visser.
+M. le baron M. J. P. D. van Harinxma thoe Slooten.
+M. le Dr W. H. Mansholt.
+M. le Dr P. Bijl.
+M. le Dr H. K. Offerhaus.
+M. le Dr M. G. ten Cate.
+M. le Dr J. A. Timmerman.
+M. le jonkheer W. J. M. van* de Poll.
+M. le Dr P. W. M. J. Russel.
+M. le colonel Th. H. L. Leclercq.
+M. le lieutenant-colonel H. Zeeman.
+M. le Dr J. Woltman.
+M. le jonkheer C. H. C. Flugi van Aspermont, secrétaire.
+M. le jonkheer H. Beelaerts van Blokland, secrétaire-adjoint.
+
+— 17 —
+
+## Images, Captions, And Visual Notes
+
+No substantial images or captions are present on this page.
+
+## Uncertain Or Illegible
+
+No uncertain or illegible text was encountered.
+
+## Completeness Audit
+
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and a page number, with no substantial images, diagrams, or other visual elements that would warrant cropping."}
+```

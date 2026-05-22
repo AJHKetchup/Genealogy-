@@ -11,16 +11,6 @@ page_end: 1
 part: 1
 ---
 
-# ACICR_B_CR_177_001_002 pages 1-3
-
-## Conversion Metadata
-
-- Source: `raw/sources/ACICR_B_CR_177_001_002.pdf`
-- Source SHA-256: `35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35`
-- Manifest: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/manifest.json`
-- Conversion method: Codex local vision workbench
-- Extracted images: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images`
-
 ## Page Metadata
 - **task_id**: `source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001`
 - **page_number**: 1

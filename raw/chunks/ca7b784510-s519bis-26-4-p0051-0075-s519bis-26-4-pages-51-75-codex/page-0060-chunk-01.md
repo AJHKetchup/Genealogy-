@@ -1,0 +1,79 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ebdb3f98eef2-P0060-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75.codex.md
+converted_sha256: ebdb3f98eef282918d792917b53b018723d2559997cd943ad45eb95b3d99d060
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75/manifest.json
+page_start: 60
+page_end: 60
+part: 1
+---
+
+## Page Metadata
+
+- **Page number**: 60
+- **Page type**: book
+
+## Layout And Reading Order
+
+The page contains a single column of text. The reading order is from top to bottom. The page number "23" is centered at the top. This is followed by five paragraphs of text, an author's name, and a final parenthetical line indicating the source of the text. A circular hole punch is visible in the left margin.
+
+## Literal Transcription
+
+— 23 —
+
+El señor ingeniero, que es aquel mozo prietito,
+no empistolado, de la revolución maderista y que
+es luego ministro cinco veces, nos ofrece unas
+gentilezas elogiosas.
+
+Ya está bien, ya; aquella sangre que signaba
+el tezontle del zócalo virreinal no fué estéril. Des-
+pués de todo, algo de España se jugaba — y se
+ganaba — allí.
+
+El caracoleo del potro en que jineteaba el señor
+Madero — buen zarape, buen tejano — también
+era algo de España. Charritos de Salamanca fueron
+abuelos del charrito de Coahuila. Potros de yegua-
+das reales en la Nueva España. Mantas extremeñas
+sobre el hombro tostado de la indita fueron el
+primer rebozo.
+
+Y un cantero de Miera picando sillares de la
+Sierra para la iglesia colonial de la hacienda. Una
+iglesia con su Guadalupe en azulejo poblano.
+
+Buena gente. Gente prieta y de ojos negros. El
+ala del espíritu sobre ella. Ala de la paloma cris-
+tiana y del quetzal azteca. Para el espíritu tuvie-
+ron el mismo símbolo. El ala de pluma. El ala de
+pluma de Ariel, que no es el ala de cartílago de
+Calibán.
+
+VICTOR DE LA SERNA
+
+*(El Sol. Madrid, 24 de julio de 1931.)*
+
+## Images, Captions, And Visual Notes
+
+This page consists entirely of printed text. There are no images, illustrations, or other visual elements, apart from a circular hole punch in the left margin.
+
+## Uncertain Or Illegible
+
+There are no uncertain or illegible parts of this page.
+
+## Completeness Audit
+
+The full content of the page has been transcribed.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only printed text and has no images, illustrations, or other significant visual elements."
+}
+```

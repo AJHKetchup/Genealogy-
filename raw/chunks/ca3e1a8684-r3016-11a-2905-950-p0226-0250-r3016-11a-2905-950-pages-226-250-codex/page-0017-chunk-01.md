@@ -1,0 +1,56 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-c2e7d7b1d241-P0017-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0226-0250-r3016-11a-2905-950-pages-226-250.codex.md
+converted_sha256: c2e7d7b1d24120a12e5a8e1b0819b0eb784975687d2a6e2c67d91a3325efabe3
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0226-0250-r3016-11a-2905-950-pages-226-250/manifest.json
+page_start: 17
+page_end: 17
+part: 1
+---
+
+## Page Metadata
+Page number: 242
+
+## Layout And Reading Order
+The page consists of a main title, a subtitle, and several paragraphs of text, presented in a single column. Speakers' names are bolded, and their statements follow. Section titles are centered and bolded. A page number is centered at the bottom.
+
+## Literal Transcription
+**COMMISSION SPÉCIALE DES DÉLÉGUÉS.**
+**Deuxième Séance, mardi 23 octobre, 1928 (suite).**
+
+La séance est reprise à 18 heures sous la présidence de Son Exc. le général RÖELL (vice-président).
+
+M. le colonel **DRAUDT** (Allemagne) — L'honorable délégué suédois, M. HAMMARSKJÖLD, nous a demandé pourquoi nous avons introduit dans le nouveau texte (article III) la mention de la Ligue. C'est une simple question de parallélisme. Si nous n'avons pas parlé du Conseil des Gouverneurs c'est parce qu'il nous a semblé qu'il s'agissait uniquement pour la Ligue d'une question interne. Je ne puis pas vous dire dès maintenant quelle serait l'organe désigné par la Ligue. D'ailleurs cette question n'est nullement urgente.
+
+**ARTICLE IV.**
+
+M. **Hammarskjöld** (Suède) — Nous avons deux observations à présenter.
+La première touche un point que M. le président HUBER a déjà traité dans son exposé introductif, à savoir la suppression du parallélisme en ce qui concerne la représentation réciproque de la Ligue dans le Comité et du Comité dans la Ligue. Cette suppression est un peu pour surprendre du moment que la tendance est plutôt à une égalisation quasi-mécanique, comme nous venons de l'entendre dire par M. le colonel DRAUDT. Si, d'autre part, l'intention est de faire des invitations *ad hoc* au Comité, on ne comprend pas très bien pourquoi la même chose ne peut pas être faite par le Comité. Au deuxième paragraphe, je lis que le Conseil des délégués est composé des délégués des Sociétés nationales reconnues par le Comité international de la Croix-Rouge, des délégués du Comité international de la Croix-Rouge et des délégués de la Ligue des Sociétés de la Croix-Rouge.
+Ma deuxième observation concerne les attributions du Conseil des délégués. A ce propos nous osons exprimer la conviction (que je voudrais cependant bien voir confirmer) ici que l'énumération comprise sous les lettres *a)*, *b)* et *c)* des attributions du Conseil n'est pas restrictive dans ce sens qu'un droit d'initiative du Conseil des délégués soit exclu.
+La situation pourrait en effet se présenter où il serait utile pour le Conseil des délégués de faire également des propositions à la Conférence.
+Sur le premier point, je me contente des remarques que je viens de faire; sur le deuxième point, je serais très reconnaissant si une confirmation pouvait être donnée dans le sens que je viens d'indiquer.
+
+M. **Huber** (C. I. C. R.) — En ce qui concerne la deuxième question, je constate simplement que les lettres *a)*, *b)* et *c)* ne sont que la reproduction des dispositions qui figurent dans le règlement actuel de la Conférence. Je crois qu'il n'a jamais été exclu que la Commission des délégués puisse prendre une initiative afin de faire des propositions à la Conférence. Nous restons donc sur le terrain de la tradition. Il me semble que le Conseil des délégués aura la même liberté d'initiative que la Commission des délégués actuelle.
+
+**ARTICLE V.**
+
+M. **Hammarskjöld** (Suède) — Nous n'avons pas d'observation à présenter.
+
+— 1 —
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+
+# Page 243

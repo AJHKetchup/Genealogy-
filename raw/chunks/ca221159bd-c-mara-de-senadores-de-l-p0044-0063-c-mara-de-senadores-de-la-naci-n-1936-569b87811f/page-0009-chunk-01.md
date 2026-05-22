@@ -1,0 +1,76 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6dccfc91b3b3-P0009-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63.codex.md
+converted_sha256: 6dccfc91b3b3f801aedf3a41141adda4ccc0ee5d6e25a30ef483034bcc6522ae
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json
+page_start: 9
+page_end: 9
+part: 1
+---
+
+## Page Metadata
+Page number: 48
+
+## Layout And Reading Order
+The page consists of a single column of text. The page number "48" is centered at the top of the page, above the main text block. The text is organized into several paragraphs, with some paragraphs starting with an indented first line.
+
+## Literal Transcription
+— 48 —
+
+Contemplando la extensa función de control que la Ley ha
+asignado a la Dirección General de Ferrocarriles, se ha esta-
+blecido que las empresas la informen sobre todos los acciden-
+tes o incidentes, que puedan producirse dentro de la zona de
+los ferrocarriles. Pero al mismo tiempo, con el propósito de
+evitar tramitaciones y gastos relativos innecesarios, se ha cir-
+cunscripto la obligación de complementar los avisos a los casos
+de gravedad actual o potencial, reservándose a dicha Dirección
+la facultad de requerir informaciones amplias en aquellas cir-
+cunstancias que lo juzgare necesario.
+
+El tercer capítulo relativo a los medios y sistemas de seña-
+lización y su funcionamiento, ha sido objeto de un atento exa-
+men. Las enmiendas introducidas a las disposiciones actual-
+mente en vigencia han tenido por objeto modernizarlas y mejo-
+rarlas, acentuando su eficacia para la protección y desarrollo
+rápido y normal del tráfico.
+
+El título II abarca el régimen general del servicio público,
+en cuanto se vincula a las relaciones de las empresas y los usua-
+rios de los ferrocarriles. El aspecto económico asume aquí
+mayor importancia que el técnico, por donde el conjunto de
+disposiciones del título se han reunido bajo el rubro de “Ex-
+plotación económica”.
+
+La importancia y el carácter delicado de las cuestiones, que
+abarca y plantea, es de suyo evidente y la Comisión ha ponde-
+rado cuidadosamente las reformas que ha proyectado, tendien-
+do a respetar los intereses legítimos del público y, simultánea-
+mente, a propender a que no graviten sobre los ferrocarriles
+gravámenes excesivos.
+
+La Comisión ha agrupado en el capítulo I de este título,
+las normas que conciernen al transporte, contemplado en su
+conjunto, es decir, aplicable tanto al servicio de pasajeros como
+a la conducción de las cargas y demás prestaciones accesorias.
+Al proceder así ha juzgado que la ordenación metódica o
+sistemática de las cláusulas reglamentarias sería de utilidad
+para consultas y facilitaría la familiarización del público con
+cuestiones que afectan de cerca los intereses colectivos.
+
+## Images, Captions, And Visual Notes
+- The page number "48" is centered at the top of the page, flanked by two short horizontal dashes.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The page number is transcribed in the literal transcription and noted in visual notes."}
+```

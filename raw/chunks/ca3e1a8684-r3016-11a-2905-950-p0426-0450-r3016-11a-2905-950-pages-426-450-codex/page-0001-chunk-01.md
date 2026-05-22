@@ -1,0 +1,82 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d9920d4f541a-P0001-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450.codex.md
+converted_sha256: d9920d4f541a5acd8ccbd01f429ea44f0c8fab2640eba7d1ef5b6ca299a7c955
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450/manifest.json
+page_start: 1
+page_end: 1
+part: 1
+---
+
+## Page Metadata
+Page number: 426
+
+## Layout And Reading Order
+
+The page presents text in a single column. It contains two main sections, numbered 4) and 5), each with a heading and subsequent paragraphs. Section 5 includes a list of three bullet points (a, b, c). A page number is centered at the bottom.
+
+## Literal Transcription
+
+4) Préparation des tracts populaires.
+
+Dans le but de donner un caractère international à
+l'instruction qui sera donnée aux populations civiles, le
+Comité international de la Croix-Rouge est prié d'élaborer
+des tracts populaires. Ceux-ci devraient être publiés sous
+l'emblème de la Croix-Rouge, dans les différentes lan-
+gues, et être abondamment illustrés.
+
+Dans chaque pays, la diffusion de cet enseignement sera
+assurée par la Croix-Rouge nationale, le corps médical
+et les associations ouvrières.
+
+5) Centralisation de la documentation.
+
+Dans le but de conférer un caractère international aux
+mesures proposées, le Comité international de la Croix-
+Rouge est spécialement qualifié pour centraliser tous les
+renseignements utiles à la protection des populations
+civiles contre la guerre chimique et au traitement des
+gazés, ainsi que pour diffuser les instructions dans toutes
+les Croix-Rouges nationales.
+
+A cet effet, il conviendrait qu'une documentation fût
+réunie et centralisée à Genève, par les soins du Comité
+international de la Croix-Rouge, auquel les Sociétés natio-
+nales de la Croix-Rouge sont priées d'envoyer toutes
+informations et publications relatives à ces objets.
+Cette documentation porterait, entre autres choses
+sur:
+
+*   a) toutes les publications relatives à la protection
+    contre la guerre chimique;
+*   b) tout ce qui se rapporte aux progrès réalisés dans
+    les industries nouvelles, tels que: récupération des
+    solvants volatils, dont les principes sont connexes de
+    ceux de la protection contre les gaz toxiques;
+*   c) les mesures nouvelles employées pour la protection
+    des ouvriers dans les différentes industries où règne
+    une atmosphère délétère.
+
+— 27 —
+
+## Images, Captions, And Visual Notes
+
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+
+No uncertain or illegible text was found on this page.
+
+## Completeness Audit
+
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on the page."}
+```

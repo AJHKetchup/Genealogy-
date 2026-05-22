@@ -1,0 +1,66 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-1a121ce7b817-P0006-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353.codex.md
+converted_sha256: 1a121ce7b817e3b5838d4c6f05836fc741360d99912683cc90bad412f0d0a680
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json
+page_start: 6
+page_end: 6
+part: 1
+---
+
+## Page Metadata
+- Page number: 314
+- Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+## Layout And Reading Order
+The page consists of a single column of text. The running header "MEMORIAS CIENTÍFICAS I LITERARIAS" is at the top right, with the page number "314" at the top left. The main content is a continuous narrative in six paragraphs.
+
+## Literal Transcription
+314 MEMORIAS CIENTÍFICAS I LITERARIAS
+
+colonial por el obispo don Rafael Andreu Guerrero,
+que impetró una mitra para atender a los pescado-
+res de ese lugar, a los cuales supuso completamente
+destituidos de auxilios relijiosos.
+La caravana se componía de los presbíteros don
+Rafael Valentín Valdivieso, don Ignacio Víctor Eiza-
+guirre, don Francisco de Paula Taforó, don Eujenio
+Guzmán, don José Santiago Labarca, don Ramon
+Valentín García, don José Ríos i don Joaquín Vera.
+El Supremo Gobierno tomó de su cuenta los gas-
+tos de los misioneros, i los trasportó a Caldera a
+bordo de la fragata *Chile*, de la armada nacional.
+A pesar de estas facilidades los abnegados sacer-
+dotes de la misión hubieron de soportar no pocas
+mortificaciones. Desde el mismo puerto de Valpa-
+raíso comenzaron éstas: pues en la casa de ejercicios
+del santo frai Andrés Caro, donde se hospedaron,
+tuvieron por todo lecho una tarima de madera.
+La llegada de tan escojida falange de misioneros
+fué acojida por el pueblo de Copiapó con las mayo-
+res muestras de entusiasmo: arcos triunfales i guir-
+naldas de flores adornaban las calles por donde pa-
+saron. Muchos años hacía que en Copiapó no se pre-
+dicaban misiones: i ese pueblo, lleno entonces de viva
+fe i piedad, sentía hondamente su falta.
+Sin pérdida de tiempo se pusieron a la obra los
+ocho misioneros, dando primeramente una misión a
+que concurrió casi todo el pueblo, i después dos co-
+rridas de ejercicios: una para los hombres i otra para
+las mujeres. A ámbas entraron sólo personas de la
+clase pudiente.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and accurate, capturing all visible text and preserving line breaks, spelling, and punctuation.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}

@@ -9,28 +9,14 @@
 - Extracted images: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/extracted-images`
 
 ## Page Metadata
-
-- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004`
-- Model route: `pro`
-- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
-- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0004.md`
-- Page: 4
-- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0004.md`
-- External research relevance: `high`
-- External requested treatment: `reread`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
-- Quality flags: none
-- Technical reread clues: none
+- task_id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004`
+- page_no: 4
+- page_type: `cv`
 
 ## Layout And Reading Order
-
-The page is a single column of typed text. The reading order is from top to bottom. The page begins with the continuation of a paragraph from the previous page. This is followed by two bulleted list items, each with a bolded heading. The remainder of the page consists of two distinct job entries. Each job entry is structured with bolded headings for the date range, employer, location, and job title, followed by a descriptive paragraph.
+This page is a single column of typed text. The reading order is from top to bottom. The page continues a list from the previous page, followed by two bulleted list items, and then two distinct job experience entries.
 
 ## Literal Transcription
-
 approaches in four different Indian Sates and, (iv) review the communications strategy for
 the Productive Projects component of the Millennium Challenge Account programme for the
 northern region of El Salvador while making recommendations for improvements and new
@@ -84,37 +70,28 @@ of communities during blasts that could affect them for safety reasons. Represen
 in dealings with local authorities and community organisations.
 
 ## Images, Captions, And Visual Notes
-
-There are no images, captions, or other visual elements on this page. The page consists entirely of typed text.
+This page contains only typed text. There are no images, illustrations, photographs, or other visual elements.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-This page is fully transcribed and complete.
+This page has been fully and accurately transcribed. It is a complete page from a multi-page document.
 
 ## Visual Region Manifest
-
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other visual elements suitable for cropping."
-}
+{"visual_regions": [], "no_visual_regions_reason": "This page consists entirely of typed text with no images, illustrations, or other visual elements suitable for cropping."}
 ```
 
 ## Page Metadata
 
 - task_id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005`
 - page_num: 5
-- source_id: `ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9`
-- source_title: `CV of Dario Arturo Pulgar`
-- source_filename: `CV of Dario Arturo Pulgar.pdf`
+- source_id: `CV of Dario Arturo Pulgar.pdf`
 
 ## Layout And Reading Order
 
-The page consists of a single column of typed text. The content is a continuation of a curriculum vitae, with entries organized chronologically. Each entry is headed by a date or date range, followed by the organization, location, role, and a descriptive paragraph. The reading order is from top to bottom.
+The page consists of a single column of typed text. The content is organized into sections, each representing a professional engagement. Sections are typically headed by a year or date range. The reading order is from top to bottom.
 
 ## Literal Transcription
 
@@ -171,7 +148,7 @@ Maracaibo Plain Project. Co-ordinate with the World Bank and Canadian agencies a
 
 ## Images, Captions, And Visual Notes
 
-There are no images, illustrations, or other visual elements on this page. The content is entirely typed text.
+There are no images, captions, or other visual elements on this page. The page consists entirely of typed text.
 
 ## Uncertain Or Illegible
 
@@ -179,19 +156,18 @@ There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-This page has been transcribed in its entirety.
+The page is fully transcribed. The final line of text at the bottom of the page is cut off, ending the sentence abruptly.
 
 ## Visual Region Manifest
 
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other visual elements suitable for cropping."
+  "no_visual_regions_reason": "The page contains only typed text and has no meaningful visual regions such as photographs, illustrations, maps, or stamps."
 }
 ```
 
 ## Page Metadata
-
 - Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0006`
 - Model route: `pro`
 - Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
@@ -204,70 +180,78 @@ This page has been transcribed in its entirety.
 - External requested treatment: `reread`
 - External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
 - Recommended action: ``
-- Quality flags: none
+- Quality flags: explicit_reread_needed
 - Technical reread clues: none
 
 ## Layout And Reading Order
-
-The page is a single column of text. The reading order is from top to bottom. The document appears to be a curriculum vitae, with entries for different positions held. Each entry typically includes a date range (underlined), the name of the organization (bold), the location (bold), the job title (bold), and a paragraph describing the responsibilities.
+The page consists of a single column of typed text. The content is a continuation of a list of professional experiences from a curriculum vitae. Each entry is presented chronologically, starting with an underlined date range, followed by the employer/organization, location, and job title in bold, and concluding with a descriptive paragraph. The reading order is from top to bottom.
 
 ## Literal Transcription
-
 on irrigation districts and transfer of irrigation infrastructure to water user associations.
 
 <u>1996 - 1997</u>
-**Deutsche Gesellschaft für Technische Zusammenarbeit (GTZ) - Fondo de Desarrollo Campesino (FDC)**
-**La Paz, Bolivia**
-**Senior Technical Advisor**
-Participate in strategic and policy decisions of the Farmer Development Fund. Assist in the implementation of rural development projects in infrastructure, production support and institutional strengthening. Participate in the Funding, Personnel and Management Committees. Supervise the institutional strengthening of rural financial institutions.
+**Deutsche Gesellschaft für Technische Zusammenarbeit (GTZ) - Fondo de Desarrollo
+Campesino (FDC)
+La Paz, Bolivia
+Senior Technical Advisor**
+Participate in strategic and policy decisions of the Farmer Development Fund. Assist in the
+implementation of rural development projects in infrastructure, production support and
+institutional strengthening. Participate in the Funding, Personnel and Management Committees.
+Supervise the institutional strengthening of rural financial institutions.
 
 <u>1996</u>
-**SNC Lavalin Agriculture**
-**Maracaibo, Venezuela**
-**Consultant**
-Establish a training programme for the Empresa Regional Sistema Hidráulico Planicie de Maracaibo (PLANIMARA) with emphasis in the management and administration of irrigation projects and the transfer of these systems to beneficiaries.
+**SNC Lavalin Agriculture
+Maracaibo, Venezuela
+Consultant**
+Establish a training programme for the Empresa Regional Sistema Hidráulico Planicie de
+Maracaibo (PLANIMARA) with emphasis in the management and administration of irrigation
+projects and the transfer of these systems to beneficiaries.
 
-**Ministry of Social Welfare of Ecuador, Rural Development Secretariat**
-**Quito, Ecuador**
-**Mission Leader**
-Direct the work of a group of consultants in the preparation of feasibility study for a rural development project to be implemented in three areas of the country. The study included establishing beneficiary demands and the design of credit, technical assistance, infrastructure, and production support components.
+**Ministry of Social Welfare of Ecuador, Rural Development Secretariat
+Quito, Ecuador
+Mission Leader**
+Direct the work of a group of consultants in the preparation of feasibility study for a rural
+development project to be implemented in three areas of the country. The study included
+establishing beneficiary demands and the design of credit, technical assistance, infrastructure,
+and production support components.
 
 <u>1994 - 1995</u>
-**Instituto Interamericano de Cooperación para la Agricultura (IICA)**
-**Lima, Perú**
-**Chief Technical Advisor**
-Provide guidance for implementation of the “Promotion of Technology Transfer to the Peasant Communities in the Highland” project funded by IFAD including: a) development and implementation of new methodologies for technology transfer and extension, b) use of communications through community radio stations, Participate in project monitoring, evaluation and training.
+**Instituto Interamericano de Cooperación para la Agricultura (IICA)
+Lima, Perú
+Chief Technical Advisor**
+Provide guidance for implementation of the “Promotion of Technology Transfer to the Peasant
+Communities in the Highland” project funded by IFAD including: a) development and
+implementation of new methodologies for technology transfer and extension, b) use of
+communications through community radio stations, Participate in project monitoring, evaluation
+and training.
 
 <u>1992 - 1993</u>
-**United Nations Children Fund (UNICEF)**
-**Ankara, Turkey**
-**Rural Development Advisor**
-Provide guidance in the implementation of a rural development project in priority provinces and supervise the production of audio-visual materials.
+**United Nations Children Fund (UNICEF)
+Ankara, Turkey
+Rural Development Advisor**
+Provide guidance in the implementation of a rural development project in priority provinces and
+supervise the production of audio-visual materials.
 
 <u>1989-1991</u>
-**SNC Lavalin Incorporated**
-**Egypt**
-**Agricultural Extension and Communication Advisor**
+**SNC Lavalin Incorporated
+Egypt
+Agricultural Extension and Communication Advisor**
 Establish a Development Support Communication Centre (DSC) in the city of Dikernis, Dakahlia
 
 ## Images, Captions, And Visual Notes
-
-This page contains only text. There are no images, captions, or other visual elements.
+This page contains only typed text. There are no images, captions, or other visual elements.
 
 ## Uncertain Or Illegible
-
-There are no uncertain or illegible parts of this document.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-The entire page has been transcribed.
+The entire content of the page has been transcribed.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page is text-only and contains no images, illustrations, maps, or other significant visual elements."
+  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other distinct visual elements suitable for cropping."
 }
 ```
 

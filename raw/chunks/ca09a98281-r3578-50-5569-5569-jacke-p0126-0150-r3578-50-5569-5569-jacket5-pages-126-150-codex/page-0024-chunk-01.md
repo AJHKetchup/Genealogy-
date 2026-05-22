@@ -1,0 +1,86 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7a4c98f3b997-P0024-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket5-pages-126-150.codex.md
+converted_sha256: 7a4c98f3b99792bc3281d70701213b375bbab8125c5d64c938b4e1dc6b5152ab
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket5-pages-126-150/manifest.json
+page_start: 24
+page_end: 24
+part: 1
+---
+
+## Page Metadata
+Page number: 149
+Source page number (handwritten): 514
+Source page number (printed): 85
+
+## Layout And Reading Order
+The page presents text in a single column, structured with article numbers and headings. There are two main articles (7 and 8) followed by a chapter heading and another article (9). Article 8 contains a numbered list.
+
+## Literal Transcription
+
+85
+514
+
+Artikel 7.
+
+De aan de geneeskundige formaties en inrichtingen verschul-
+digde bescherming zal ophouden, als men er gebruik van maakt
+tot het verrichten van voor den vijand nadeelige handelingen.
+
+Artikel 8.
+
+Als redenen, welke eene geneeskundige formatie of inrichting
+de bescherming, door artikel 6 verzekerd, doen verliezen, zullen
+niet worden beschouwd:
+1) het feit, dat het personeel van de formatie of de inrichting
+gewapend is en van zijne wapenen gebruik maakt tot verdediging
+van zich zelf of van zijne gewonden en zijne zieken;
+2) het feit, dat, bij gebrek aan gewapende ziekenverplegers,
+de formatie of de inrichting wordt bewaakt door een piket of door
+schildwachten;
+3) het feit, dat in de formatie of de inrichting draagbare
+wapens en munitie worden gevonden, die aan de gewonden en
+aan de zieken zijn ontnomen en nog niet aan den daartoe be-
+voegden tak van dienst zijn afgeleverd;
+4) het feit, dat zich in de formatie of de inrichting personeel
+en materieel van den veeartsenijkundigen dienst bevinden zonder
+daarvan een integreerend deel uit te maken.
+
+HOOFDSTUK III.
+Van het personeel.
+
+Artikel 9.
+
+Het personeel, uitsluitend aangewend tot het weghalen, het
+vervoeren en het behandelen der gewonden en zieken, alsmede
+met het beheer der geneeskundige formaties en inrichtingen en
+de aan de legers verbonden veldpredikers en aalmoezeniers zullen
+onder alle omstandigheden ontzien en beschermd worden. Indien
+zij in handen van den vijand vallen, zullen zij niet als krijgs-
+gevangenen worden behandeld.
+De militairen, die speciaal zijn opgeleid om, wanneer het ge-
+val zich voordoet, te worden gebruikt als hulpziekenverplegers of
+hulpziekendragers bij het weghalen, het vervoeren en het be-
+handelen der gewonden en zieken, en die van een identiteits-
+bewijs zijn voorzien, zullen, indien zij gevangen genomen worden
+terwijl zij deze werkzaamheden verrichten, aan hetzelfde regime
+onderworpen zijn als het vaste geneeskundige personeel.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for cropping."}
+```
+
+# Page 150

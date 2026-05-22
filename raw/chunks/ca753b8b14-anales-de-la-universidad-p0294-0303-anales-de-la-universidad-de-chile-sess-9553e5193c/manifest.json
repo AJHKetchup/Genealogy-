@@ -18,28 +18,98 @@
       "page_start": 1,
       "page_end": 1,
       "part": 1,
-      "chars": 10529,
-      "sha256": "386b979dbdd271cb6bf6e24fe80657eb5ac2b5c997f6b966eacded42ab7b2076"
+      "chars": 2500,
+      "sha256": "aabf414accba84b78b72187af3affc82af04b1e4c8423e21eaa8fe6eb91082ec"
     },
     {
-      "chunk_id": "CHUNK-e51b6ff143e3-P0001-02",
+      "chunk_id": "CHUNK-e51b6ff143e3-P0002-01",
       "chunk_number": 2,
-      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-sess-9553e5193c/page-0001-chunk-02.md",
-      "page_start": 1,
-      "page_end": 1,
-      "part": 2,
-      "chars": 11706,
-      "sha256": "d1998ff63dd52ced8759a8c26f82339004358aa5740fa8f4dada3b3098911848"
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-sess-9553e5193c/page-0002-chunk-01.md",
+      "page_start": 2,
+      "page_end": 2,
+      "part": 1,
+      "chars": 2297,
+      "sha256": "58b3879f86055d3f1876a471168f6ed12f0091c7291c924023b5149ad5c77d3a"
     },
     {
-      "chunk_id": "CHUNK-e51b6ff143e3-P0001-03",
+      "chunk_id": "CHUNK-e51b6ff143e3-P0003-01",
       "chunk_number": 3,
-      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-sess-9553e5193c/page-0001-chunk-03.md",
-      "page_start": 1,
-      "page_end": 1,
-      "part": 3,
-      "chars": 1960,
-      "sha256": "cbda266b7c5dc3c09da46ac80cb2cdc7abe8f13f79609faa6a5b67ad2c5a00be"
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-sess-9553e5193c/page-0003-chunk-01.md",
+      "page_start": 3,
+      "page_end": 3,
+      "part": 1,
+      "chars": 2221,
+      "sha256": "cc17b2ca8d7980643ac4cd7e669a2923fc90db33edfad532a8e7cb1db22fe228"
+    },
+    {
+      "chunk_id": "CHUNK-e51b6ff143e3-P0004-01",
+      "chunk_number": 4,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-sess-9553e5193c/page-0004-chunk-01.md",
+      "page_start": 4,
+      "page_end": 4,
+      "part": 1,
+      "chars": 2349,
+      "sha256": "1249022e7260ab4fef46c5a5b311ecf91becea838b8d34685fa656e1f94d549c"
+    },
+    {
+      "chunk_id": "CHUNK-e51b6ff143e3-P0005-01",
+      "chunk_number": 5,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-sess-9553e5193c/page-0005-chunk-01.md",
+      "page_start": 5,
+      "page_end": 5,
+      "part": 1,
+      "chars": 2406,
+      "sha256": "b8d8e531f1b2c4f88c29fb9d6b5ece395e64715f70fcecde732bf3dfd0f40727"
+    },
+    {
+      "chunk_id": "CHUNK-e51b6ff143e3-P0006-01",
+      "chunk_number": 6,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-sess-9553e5193c/page-0006-chunk-01.md",
+      "page_start": 6,
+      "page_end": 6,
+      "part": 1,
+      "chars": 2422,
+      "sha256": "b4cdafd9338a94ce583ae6401a82ef06bce93c8579080f23e36a822c660a046d"
+    },
+    {
+      "chunk_id": "CHUNK-e51b6ff143e3-P0007-01",
+      "chunk_number": 7,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-sess-9553e5193c/page-0007-chunk-01.md",
+      "page_start": 7,
+      "page_end": 7,
+      "part": 1,
+      "chars": 2326,
+      "sha256": "b61b38571aac60297c6711e2bf8b0f28d93e5b9d1ffd11c3789b6eca2a19d04b"
+    },
+    {
+      "chunk_id": "CHUNK-e51b6ff143e3-P0008-01",
+      "chunk_number": 8,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-sess-9553e5193c/page-0008-chunk-01.md",
+      "page_start": 8,
+      "page_end": 8,
+      "part": 1,
+      "chars": 2274,
+      "sha256": "3709be35eeb9e693e1a62cc94abff147cbc124ec09bd051b766e743ba14a5177"
+    },
+    {
+      "chunk_id": "CHUNK-e51b6ff143e3-P0009-01",
+      "chunk_number": 9,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-sess-9553e5193c/page-0009-chunk-01.md",
+      "page_start": 9,
+      "page_end": 9,
+      "part": 1,
+      "chars": 2265,
+      "sha256": "3163fb7ff16200b7d1d96a37836e7ed2aa9bae2d97fc2e656fde1d1de6f7e070"
+    },
+    {
+      "chunk_id": "CHUNK-e51b6ff143e3-P0010-01",
+      "chunk_number": 10,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-sess-9553e5193c/page-0010-chunk-01.md",
+      "page_start": 10,
+      "page_end": 10,
+      "part": 1,
+      "chars": 2293,
+      "sha256": "1df10ff4412b27041c81019d9e762271326502e8c1654ee9639da4b7ccbd88c0"
     }
   ]
 }

@@ -1,0 +1,98 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-47cb25925306-P0051-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75.codex.md
+converted_sha256: 47cb25925306e305ea8dc8cc7ef928957e7153658a562e881561abe5e5efcfe5
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75/manifest.json
+page_start: 51
+page_end: 51
+part: 1
+---
+
+## Page Metadata
+
+- Page: 51
+
+## Layout And Reading Order
+
+The page is from the newspaper "LA PRENSA," dated Monday, June 10, 1929. The layout consists of:
+1.  A masthead and a main article title at the top of the page.
+2.  A large, full-width image of a handwritten historical document, which occupies the top half of the page. This document has some handwritten annotations on it.
+3.  A three-column printed article below the image. The article discusses the historical document shown above.
+
+The reading order is from top to bottom: masthead, title, the handwritten document, and then the three columns of the printed article from left to right.
+
+## Literal Transcription
+
+LA PRENSA — Lunes 10 de junio de 1929
+
+**EL DERECHO ARGENTINO SOBRE LAS ISLAS MALVINAS**
+
+***
+
+[Handwritten document begins]
+
+<div id="vr-01"></div>
+
+| 5<br>Exmo. Sor. | | Arg |
+| :--- | :--- | :--- |
+| Muy Sor. mio: Con fha de 4. de Agosto del año proximo pasado, ve Servio V.E. comunicar à mi antecesor el Thte. Gral. D. Juan Joseph de Vertiz, los Rs Resolucion de que viniesen à estas Costas dos Fragatas, dos Bergantines, y algunas Urcas con Tropa, y que regresase una de estas Fragatas, Urca, y el Paquebot S.n Christoval, que se hallavan en Montevideo, quedando alli por consiguiente una de las Fragatas, con la Corbeta Sta. Elena, y el Bergantin Astilla, segun lo confirmò posterior orden comunicada por V.E. con fha de 7. de Nov.e; y estos dos ultimos Buques con el objeto de emplearse en la comunicacion con las Yslas Malvinas, y para lo que ocurriese. | en estas Costas, viendo esta determinacion consiguientes à las anteriores ordenes de S. M. para que subsistiese en estas Yslas una Fragata, relevandose cada año con otra de las que se destinaron à Montevideo, y mas adecuadas à la resolucion de que vean no Fragatas, si no unas pequeñas Embarcaciones con el objeto de mantener la Guarnicion precisa en Malvinas, sostener los Presidarios que halli se destinan, y resguardar los Presidiarios que halli se destinan: En este concepto he consultado la Guarnicion muda en estos ultimos años de veinte y cinco, à treinta Soldados de Marina, del Buque que se destina, y hasta sesenta Plazas en total; incluyendo los oficiales de Guerra, y mar. Soldados, marineros, Grumetes, y Criados, para los quales, y el numero de Presidiarios se conducen à estas Plazas los Viveres, demas, y efectos necesarios à la subsistencia de un año. | de 1785 de relevar en Bergantin Servicio de esta Plaza que halli se ha haviendo sido embiado para mudar al S.n Christoval, y por falta de Buque de Guerra proporcionado, me representò el Cap.n de Navio D.n Francisco Blazquez de Bonssa, que el Berg.n Astilla, carecia de toda capacidad para el efecto; hera debil para aquellos mares, y tan impropio para el destino, como vtil, y comben.te para el que pudiera tener en Europa, por su buen andar, y propiedades; por lo que tratamos de embiar para el año proximo la Corbeta S.ta Elena, reduciendo el numero de su tripulacion à lo indispensable, y acompañandole una Embarcacion de la Plaza, que lleve parte de la leña, y Viveres, respecto à que para el regreso del Berg.n de la misma que halli se halla, era indispensable; pues no puede venir si no un corto numero de gente de la que deve llevarse, y quando fue le acompañaron otros, baxo la condicion de los Viveres con que está subsistiendo la Guarnicion. Este año. | dispuesto que marche à C[?] en proximo mes de Diciembre de este año, podra subsistir alli el de 1785, y acordado con el mismo hacer presente à V.E. las circunstancias que constituyen al Berg.n Astilla con la imposibilidad de alternar con aquella Embarcacion, à efecto de que si S.M. lo tiene por combeniente se sirva disponer su regreso à Europa, y embiar en su lugar otra que pueda relevar à dha Corbeta en el de 1786, y en lo posible, aunque de su clase, capaz de admitir mayor provision de viveres, con lo qual se relevarian sucesivamente una con otra, siendo sus Comandantes naturales, como hasta aqui, Gefes de aquella Ysla como quiera que su Guarnicion se compone unicamente de la del Buque, y su tripulacion, y en la inteligencia de que el mismo Comandante de Marina impondrá à V.E. por menor segun la facultad de las calidades que se requieren en las Embarcaciones que haian de hazer este servicio, por su constitucion, resolviendo S.M. lo que fuese de su Real Agrado.<br><br>Dios Guarde à V.E. muchos años. Buenos Aires 10 de octubre de 1784.<br><br>Exmo Señor<br>B.L.M. de V.E.<br>su mas att.o Serv.or<br>[Signature: Marqs. de Loreto]<br>[Signature: illegible]<br>Exmo Sor. D.n Ant.o Valdes y Bazan. |
+| | Al tratarse para el proximo | Arreglado la Corbeta por el Comandante de Marina, à Cien Yndividuos, tengo | |
+
+[Handwritten document ends]
+
+***
+
+| | | |
+| :--- | :--- | :--- |
+| La circunstancia de cumplirse hoy un siglo de la fecha del decreto por el cual el gobierno argentino erigió el archipiélago de las Malvinas y las is-las adyacentes al cabo de Hornos, en el mar Atlántico en comandancia po-lítica y militar, da actualidad al docu-mento que reproduce nuestro grabado, dirigido por el virrey, marqués de Lo-reto, al gobernador español. | miento de la promesa de Inglaterra a España, una vez obtenida la satisfac-ción exigida por la expulsión de otra guarnición inglesa en 1770. | que regresase una de estas Fragatas, las Urcas y el Paquebot San Christo-val, que se hallaba en Montevideo, quedando allí por consiguiente una de las Fragatas, con la Corbeta Sta. Elena y el Bergantín Ardilla, según lo confir-mó posterior orden comunicada por V. E. con fecha de 7 de Noviembre, y estos dos últimos Buques con el objeto de emplearse en la comunicación con las islas Malvinas, y para lo que ocu-rriese en estas Costas, siendo esta de-terminación consiguiente a las anterio-res órdenes de S. M. para que subsistie-se en dichas islas una Fragata, releván-dose cada año con otra de las que se destinasen a Montevideo, y más ade-cuada a la última Real resolución de que sean no Fragatas, sino más peque-ñas embarcaciones con el objeto de mantener la Guarnizón precisa en Mal-vinas; sostener la posesión de ellas, y resguardar los Presidiarios que ha-lly se destinan. En este concepto ha constado la dicha Guarnicion en estos últimos años de veinte y cinco a trein-ta soldados de Marina, del Buque que se destina, y hasta sesenta plazas en total, incluyendo los oficiales de Gue-rra y mar, soldados, marineros, Gru-metes y Criados, para los cuales, y el número de Presidiarios se conducen de estas playas los víveres, leña y efec-tos necesarios a la subsistencia de un año |
+| En nuestro artículo editorial de ayer, trascribimos y comentamos el texto de dicho decreto, el cual empezaba con estas palabras: Cuando por la glo-riosa revolución del 25 de mayo de 1810 se separaron estas provincias de la dominación de la metrópoli, la Es-paña tenía una posesión material de las islas Malvinas y de todas las que rodean al cabo de Hornos, incluso la que se conoce bajo la denominación de Tierra del Fuego, hallándose justifica-da aquella posesión por el derecho de primer ocupante, por el consentimien-to de las principales potencias de Eu-ropa y por la adyacencia de estas is-las al continente que formaba el vi-rreinato de Buenos Aires, de cuyo go-bierno dependían. | Desde Buenos Aires se enviaban anualmente uno o más buques con fuerzas de relevo y víveres para el establecimiento español en las Malvi-nas. Era este un asunto ordinario de administración y ya no presentaba en esa época ninguna complicación inter-nacional. | |
+| Estas afirmaciones resultan corro-boradas por la comunicación que re-produce el grabado, de fecha 10 de oc-tubre de 1784. Hacía diez años que la guarnición británica de las Malvinas se retiró de las mismas, en cumpli- | Por eso el marqués de Loreto sólo habla al gobierno español acerca de los tipos de buques que convienen pa-ra el servicio de las Malvinas. | |
+| | Bien pudo decir el gobierno argen-tino, en su decreto del 10 de junio de 1829, que “la España tenía una pose-sión material de las islas Malvinas... hallándose justificada aquella posesión por el derecho del primer ocupante, por el consentimiento de las principa-les potencias de Europa”, etcétera. | |
+| | El texto de la nota que reproduce el grabado, es el siguiente: | |
+| | Excmo. señor: | |
+| | Muy señor mío: Con fecha 4 de Agosto del año próximo pasado, se sir-vió V. E. comunicar a mi antecesor, el Tte. Gral. don Juan Joseph de Vertiz, la Real resolución de que viniesen a Montevideo dos Fragatas, dos Bergan-tines y algunas Urcas con Tropa, y | |
+
+## Images, Captions, And Visual Notes
+
+**vr-01**: A large reproduction of a handwritten letter dated 10 October 1784. The letter is from the Marqués de Loreto (Viceroy of the Río de la Plata) and addressed to Antonio Valdés y Bazán (Spanish Minister of the Navy). It discusses the logistical and naval arrangements for the Spanish garrison in the Malvinas Islands (Falkland Islands). The document is annotated with what appear to be archival markings or summaries.
+
+## Uncertain Or Illegible
+
+- In the handwritten document, right column: `dispuesto que marche à C[?] en proximo mes...` The word following `à` is difficult to read.
+- In the handwritten document, signatures: The second signature, a flourish below that of the Marqués de Loreto, is illegible.
+
+## Completeness Audit
+
+The transcription of page 51 is complete. The printed article appears to continue on a subsequent page, but all content visible on this page has been transcribed.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "vr-01",
+      "kind": "document",
+      "bbox_pct": [
+        7.5,
+        14.5,
+        96.5,
+        62.5
+      ],
+      "caption_literal": "documento que reproduce nuestro grabado, dirigido por el virrey, marqués de Loreto, al gobernador español.",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "The image is a reproduction of a handwritten letter. The accompanying printed article identifies it as a communication from the Viceroy, Marqués de Loreto, dated 10 October 1784, concerning the Malvinas Islands.",
+      "confidence": "high",
+      "suggested_filename": "marques-de-loreto-letter-1784.jpg",
+      "inline_anchor": "vr-01"
+    }
+  ],
+  "no_visual_regions_reason": null
+}
+```
+
+# Page 52

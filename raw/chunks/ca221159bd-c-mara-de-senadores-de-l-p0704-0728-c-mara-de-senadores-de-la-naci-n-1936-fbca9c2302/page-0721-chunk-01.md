@@ -11,8 +11,6 @@ page_end: 721
 part: 1
 ---
 
-# Page 721
-
 ## Page Metadata
 
 - Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
@@ -106,13 +104,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-- Page number: 722
-- Source publication: Cámara de Senadores de la Nación, 1936.
-- Task ID: `source-prep:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0722`
-- Original page dimensions: 15.7 cm x 23.5 cm
-
-## Layout And Reading Order
-
-The page features a header with a page number and publication title on the left, and a date on the right. The main content is presented in two columns, read from left to right, top to bottom.

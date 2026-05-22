@@ -11,8 +11,6 @@ page_end: 725
 part: 1
 ---
 
-# Page 725
-
 ## Page Metadata
 
 - Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
@@ -100,9 +98,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 1.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 726
-
-## Layout And Reading Order
-The page is laid out in two columns. The left column contains the page number "1318" and the header "CAMARA DE SENADORES DE LA NACION". The right column contains the header "Septiembre 29 y 30". The main content flows from top to bottom in the left column, then continues from top to bottom in the right column.

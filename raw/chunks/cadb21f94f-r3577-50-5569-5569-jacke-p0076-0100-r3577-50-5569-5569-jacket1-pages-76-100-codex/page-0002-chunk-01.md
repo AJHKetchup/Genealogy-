@@ -1,0 +1,75 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-407356ddc97c-P0002-01
+source_converted: raw/converted/cadb21f94f-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket1-pages-76-100.codex.md
+converted_sha256: 407356ddc97cb747a3727a749cdc418fb051764b118aba8de2c1d7b54dae58e7
+source: raw/sources/R3577-50-5569-5569-Jacket1.pdf
+source_sha256: db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb
+source_manifest: raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket1-pages-76-100/manifest.json
+page_start: 2
+page_end: 2
+part: 1
+---
+
+## Page Metadata
+Page Number: 77
+
+## Layout And Reading Order
+The page contains a single column of text, primarily in French. It begins with a page number centered at the top, followed by a list of items. The rest of the page consists of paragraphs providing instructions or modifications related to specific articles or countries, with some sections bolded or italicized for emphasis.
+
+## Literal Transcription
+```
+— 19 —
+
+1 manteau
+1 costume de travail
+2 chemises
+2 caleçons
+2 paires de chaussettes ou de bas
+2 paires de bottes ou souliers, dont 1 paire peut être remplacée par des pantoufles ou des sabots
+1 serviette par semaine.
+
+Des uniformes réglementaires ou des pièces de vêtements civils fournis par le pays d'origine ou par une société de
+secours ne doivent pas être découpés pour marquer le prisonnier de guerre.
+
+Compléter l'alinéa 2 par un alinéa 3 ainsi conçu :
+« Les hommes de confiance (art. 44) participeront à l'administration des cantines. Une liste des prix des objets
+offerts en vente dans la langue des prisonniers sera affichée bien en vue. Les bénéfices obtenus ne pourront être employés
+qu'au profit des prisonniers de guerre. »
+
+**Hongrie.**
+
+Modifier le commencement de l'alinéa 1er de la manière suivante :
+« L'habillement, les couvertures, le linge et les chaussures correspondant au climat et à la saison seront etc. »
+*Motifs :* La modification du texte est désirable en raison de la diversité des climats.
+
+**Royaume des Serbes, Croates et Slovènes.**
+
+Ajouter entre le premier et le second alinéa le texte suivant : « Toutes les dépenses seront à la charge de l'Etat
+condamné par la Conférence de la Paix. »
+
+ARTICLE 16.
+
+**Allemagne.**
+
+Insérer entre le 1er et le 2e alinéa le texte suivant :
+« Des prisonniers de guerre membres du clergé pourront être autorisés à exercer leur ministère parmi leurs com-
+patriotes. »
+
+Ajouter à l'alinéa 2 la phrase suivante :
+« Pour les sous-officiers et les hommes qui ne sont pas occupés hors du camp on organisera chaque semaine des
+promenades hors du camp sous la surveillance militaire et d'une durée d'au moins deux heures. Le but de ces promenades
+doit être à au moins 4 kilomètres du camp. »
+```
+
+## Images, Captions, And Visual Notes
+The page contains no images or captions.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}

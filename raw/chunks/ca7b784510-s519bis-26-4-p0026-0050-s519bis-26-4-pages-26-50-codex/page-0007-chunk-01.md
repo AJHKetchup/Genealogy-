@@ -1,0 +1,86 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b30d17c4b45e-P0007-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50.codex.md
+converted_sha256: b30d17c4b45e99bf3f42ea292fcbfbbb354e164459ad07e73e7b0e3dc6c53771
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50/manifest.json
+page_start: 7
+page_end: 7
+part: 1
+---
+
+## Page Metadata
+Page: 32
+
+## Layout And Reading Order
+The page presents a formal letter on official letterhead. The letterhead is at the top, followed by the date and location on the right. The recipient's address is on the left, followed by a salutation, the body of the letter in two paragraphs, a closing statement, and a handwritten signature at the bottom right. An embossed seal is visible on the top left.
+
+## Literal Transcription
+<p style="text-align: center;">SECRETARIA DE HACIENDA Y CREDITO PUBLICO</p>
+<p style="text-align: center;">SECRETARIO PARTICULAR</p>
+
+<p style="text-align: right;">México, D.F.</p>
+<p style="text-align: right;">29 de noviembre de 1932.</p>
+
+Sr. Julián Nogueira,
+Sociedad de Naciones,
+Ginebra, Suiza.
+
+Muy distinguido y fino amigo:
+
+He tenido el gusto de recibir su amable car-
+ta del 14 del actual y los documentos que me anunciaba
+usted en su anterior escrito del 21 de octubre.
+
+Me encarga el Sr. Ing. Pani dé a usted las
+más cumplidas gracias por el envío de dicha documenta-
+ción, así como por la que ulteriormente se sirva remi-
+tirle esa institución.
+
+Muy agradecido a su fineza, me complazco en
+saludarle y suscribirme como su amigo y seguro servi-
+dor:
+
+<p style="text-align: right;">[handwritten signature]</p>
+
+## Images, Captions, And Visual Notes
+An embossed seal, likely the national emblem of Mexico, is present in the top-left corner of the page.
+A handwritten signature is present below the closing text.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and meaningful visual elements have been transcribed or noted.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "seal",
+      "bbox_pct": [9.9, 8.9, 16.9, 15.9],
+      "caption_literal": "Embossed seal, likely the national emblem of Mexico.",
+      "caption_type": "converter-description",
+      "identity_basis": null,
+      "source_context": "Top left corner of the letterhead.",
+      "confidence": "high",
+      "suggested_filename": "embossed_seal_mexico_national_emblem"
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "signature",
+      "bbox_pct": [53.0, 67.9, 87.0, 77.0],
+      "caption_literal": "[handwritten signature]",
+      "caption_type": "nearby-text",
+      "identity_basis": null,
+      "source_context": "Below the closing text of the letter.",
+      "confidence": "high",
+      "suggested_filename": "handwritten_signature"
+    }
+  ]
+}
+```
