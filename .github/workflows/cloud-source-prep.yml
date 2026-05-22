@@ -1,15 +1,13 @@
 name: Cloud Source Conversion
 
-# Source preparation owns this workflow. Keep it scheduled until every
-# non-audio/non-video source page is converted or explicitly held.
+# Source preparation is intentionally manual or source-change driven.
+# Do not schedule this workflow from the internal research/wiki pipeline:
+# it can call paid conversion APIs.
 on:
   push:
     branches:
       - main
     paths:
-      - ".github/workflows/cloud-source-prep.yml"
-      - "pyproject.toml"
-      - "src/historic_doc_ingest/**"
       - "raw/sources/**"
   workflow_dispatch:
     inputs:
@@ -89,8 +87,6 @@ on:
         description: "Large-corpus page-task threshold for holding unrequested Gemini fallback"
         required: false
         default: "50"
-  schedule:
-    - cron: "*/15 * * * *"
 concurrency:
   group: cloud-source-prep
   cancel-in-progress: false

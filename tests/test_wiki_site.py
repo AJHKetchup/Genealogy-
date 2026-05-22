@@ -44,6 +44,19 @@ This is a source record label, not a person profile.
 """,
         encoding="utf-8",
     )
+    (tmp_path / "wiki" / "people" / "directory-person.md").write_text(
+        """---
+type: person
+display_name: Directory Person
+status: source_mentioned
+tags: [person, source-mentioned, directory-listing]
+---
+# Directory Person
+
+This page exists only to hold a reviewed source mention.
+""",
+        encoding="utf-8",
+    )
     genealogy_wiki.create_relationship(
         root=tmp_path,
         relationship_id="R001",
@@ -52,6 +65,15 @@ This is a source record label, not a person profile.
         person_b="[[people/child]]",
         status="probable",
         confidence=8.2,
+    )
+    genealogy_wiki.create_relationship(
+        root=tmp_path,
+        relationship_id="R002",
+        relationship_type="possible_sibling",
+        person_a="[[people/parent]]",
+        person_b="[[people/directory-person]]",
+        status="draft",
+        confidence=4.0,
     )
 
     output = build_wiki_site(tmp_path, tmp_path / "site")
@@ -70,12 +92,15 @@ This is a source record label, not a person profile.
     assert "Child Person" in parent_html
     assert "Parent Person" in people_html
     assert "Birth registration entry 172 for Child Person" not in people_html
+    assert "Directory Person" not in people_html
     assert "tree-edge" in tree_html
     assert "Parent Person" in tree_html
     assert "Child Person" in tree_html
+    assert "Directory Person" not in tree_html
     assert "Parent Person" in index_html
     assert "Child Person" in index_html
     assert "Birth registration entry 172 for Child Person" not in index_html
+    assert "Directory Person" not in index_html
     assert "probable parent of" in tree_html
     assert "../../wiki/people/child.html" in parent_html
     assert "Parent Person" in data_js

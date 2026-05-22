@@ -984,20 +984,50 @@ def include_family_person_page(page: SitePage) -> bool:
     return not any(lowered.startswith(prefix) for prefix in NON_PERSON_PRESENTATION_PREFIXES)
 
 
+def include_presentation_person_page(page: SitePage, relationship_targets: set[str]) -> bool:
+    if not include_family_person_page(page):
+        return False
+    if frontmatter_bool(page.frontmatter.get("home_person", "")):
+        return True
+    if str(page.frontmatter.get("relation_to_home") or "").strip():
+        return True
+    target = normalize_link_key(page.vault_rel)
+    if target in relationship_targets:
+        return True
+    status = str(page.frontmatter.get("status") or "").strip().lower().replace("-", "_")
+    tags = str(page.frontmatter.get("tags") or "").strip().lower().replace("-", "_")
+    if status == "source_mentioned" or "source_mentioned" in tags:
+        return False
+    return True
+
+
+def include_presentation_relationship_card(relationship: dict[str, object]) -> bool:
+    status = str(relationship.get("status") or "").strip().lower().replace("-", "_")
+    if status in {"", "draft", "hold", "held", "rejected", "do_not_promote", "blocked"}:
+        return False
+    person_a = relationship.get("personA") if isinstance(relationship.get("personA"), dict) else {}
+    person_b = relationship.get("personB") if isinstance(relationship.get("personB"), dict) else {}
+    return bool(person_a.get("target") and person_b.get("target"))
+
+
+def relationship_person_targets(relationships: list[dict[str, object]]) -> set[str]:
+    targets: set[str] = set()
+    for relationship in relationships:
+        person_a = relationship.get("personA") if isinstance(relationship.get("personA"), dict) else {}
+        person_b = relationship.get("personB") if isinstance(relationship.get("personB"), dict) else {}
+        for person in [person_a, person_b]:
+            target = str(person.get("target") or "")
+            if target.startswith("people/"):
+                targets.add(normalize_link_key(target))
+    return targets
+
+
 def build_family_wiki(
     root: Path,
     pages: list[SitePage],
     link_map: dict[str, SitePage],
     timeline_items: list[dict[str, object]],
 ) -> dict[str, object]:
-    people_pages = sorted(
-        [
-            page
-            for page in pages
-            if page.source_root == "wiki" and page.section == "people" and include_family_person_page(page)
-        ],
-        key=lambda page: (not frontmatter_bool(page.frontmatter.get("home_person", "")), page.title.lower()),
-    )
     relationship_pages = sorted(
         [
             page
@@ -1026,13 +1056,25 @@ def build_family_wiki(
         [page for page in pages if page.source_root == "wiki" and page.section in {"sources", "source-packets"}],
         key=lambda page: page.title.lower(),
     )
-    people = [family_page_card(page) for page in people_pages]
     relationships = dedupe_relationship_cards(
         [
             *relationship_cards_from_index(root, link_map),
             *[relationship_card(page, link_map) for page in relationship_pages],
         ]
     )
+    relationships = [relationship for relationship in relationships if include_presentation_relationship_card(relationship)]
+    relationship_targets = relationship_person_targets(relationships)
+    people_pages = sorted(
+        [
+            page
+            for page in pages
+            if page.source_root == "wiki"
+            and page.section == "people"
+            and include_presentation_person_page(page, relationship_targets)
+        ],
+        key=lambda page: (not frontmatter_bool(page.frontmatter.get("home_person", "")), page.title.lower()),
+    )
+    people = [family_page_card(page) for page in people_pages]
     families = [family_page_card(page) for page in family_pages]
     narratives = [family_page_card(page) for page in narrative_pages]
     events = [family_page_card(page) for page in event_pages]
@@ -1191,7 +1233,7 @@ def direct_relationships_for_home(
         person_b = relationship.get("personB") if isinstance(relationship.get("personB"), dict) else {}
         if person_a.get("url") == home_url or person_b.get("url") == home_url:
             direct.append(relationship)
-    return direct or relationships[:8]
+    return direct
 
 
 def frontmatter_bool(value: str) -> bool:
