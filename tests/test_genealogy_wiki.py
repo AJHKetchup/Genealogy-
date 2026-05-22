@@ -3580,6 +3580,50 @@ Long line two.
     assert "Short page." in chunk_text
 
 
+def test_chunk_converted_markdown_splits_page_metadata_outputs_and_prunes_stale_chunks(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    converted = tmp_path / "raw" / "converted" / "sample.codex.md"
+    converted.write_text(
+        """# Sample Source
+
+## Conversion Metadata
+
+- Source: `raw/codex-conversion-jobs/cj/source/source.pdf`
+- Source SHA-256: `abc123`
+- Manifest: `raw/codex-conversion-jobs/cj/manifest.json`
+
+## Page Metadata
+
+- Page: 4
+
+## Literal Transcription
+
+Gemini page four.
+
+## Page Metadata
+
+- Source page: 5
+
+## Literal Transcription
+
+Docling page five.
+""",
+        encoding="utf-8",
+    )
+    chunk_dir = tmp_path / "raw" / "chunks" / "sample-codex"
+    chunk_dir.mkdir(parents=True)
+    stale_chunk = chunk_dir / "page-0009-chunk-01.md"
+    stale_chunk.write_text("stale", encoding="utf-8")
+
+    manifest = chunk_converted_markdown(tmp_path, converted, output_dir=chunk_dir, max_chars=1000)
+    payload = json.loads(manifest.read_text(encoding="utf-8"))
+
+    assert [chunk["page_start"] for chunk in payload["chunks"]] == [4, 5]
+    assert not stale_chunk.exists()
+    assert "Gemini page four." in (chunk_dir / "page-0004-chunk-01.md").read_text(encoding="utf-8")
+    assert "Docling page five." in (chunk_dir / "page-0005-chunk-01.md").read_text(encoding="utf-8")
+
+
 def test_sync_vault_transcriptions_writes_editable_notes_and_preserves_manual_edits(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     source = tmp_path / "raw" / "sources" / "record.txt"

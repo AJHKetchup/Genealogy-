@@ -3206,6 +3206,7 @@ def chunk_converted_markdown(
     source_path, source_hash, source_manifest = parse_conversion_metadata(text)
     chunks = []
     chunk_number = 1
+    written_chunk_paths: set[Path] = set()
 
     for page_number, page_text in split_page_markdown(text):
         for part_number, chunk_text in enumerate(split_chunk_text(page_text, max_chars), start=1):
@@ -3223,6 +3224,7 @@ def chunk_converted_markdown(
                 chunk_text=chunk_text,
             )
             chunk_path.write_text(content, encoding="utf-8")
+            written_chunk_paths.add(chunk_path.resolve())
             chunks.append(
                 {
                     "chunk_id": chunk_id,
@@ -3236,6 +3238,10 @@ def chunk_converted_markdown(
                 }
             )
             chunk_number += 1
+
+    for stale_chunk in chunk_dir.glob("page-*-chunk-*.md"):
+        if stale_chunk.resolve() not in written_chunk_paths:
+            stale_chunk.unlink()
 
     manifest = {
         "created": date.today().isoformat(),
@@ -4601,6 +4607,27 @@ def extract_markdown_metadata_value(text: str, label: str) -> str:
 
 
 def split_page_markdown(text: str) -> list[tuple[int, str]]:
+    metadata_matches = list(re.finditer(r"^## Page Metadata\s*$", text, flags=re.MULTILINE))
+    if metadata_matches:
+        pages: list[tuple[int, str]] = []
+        for index, match in enumerate(metadata_matches):
+            start = match.start()
+            end = metadata_matches[index + 1].start() if index + 1 < len(metadata_matches) else len(text)
+            page_text = text[start:end].strip()
+            page_number = len(pages) + 1
+            for pattern in (
+                r"^- (?:Source page|Page):\s*`?(\d+)`?\s*$",
+                r"^- page_num:\s*`?(\d+)`?\s*$",
+                r"^- \*\*Page number\*\*:\s*`?(\d+)`?",
+                r":p0*(\d+)`",
+            ):
+                page_number_match = re.search(pattern, page_text, flags=re.MULTILINE | re.IGNORECASE)
+                if page_number_match:
+                    page_number = int(page_number_match.group(1))
+                    break
+            pages.append((page_number, page_text))
+        return pages
+
     matches = list(re.finditer(r"^# Page\s+(\d+)\s*$", text, flags=re.MULTILINE))
     if not matches:
         return [(1, text.strip())] if text.strip() else []
