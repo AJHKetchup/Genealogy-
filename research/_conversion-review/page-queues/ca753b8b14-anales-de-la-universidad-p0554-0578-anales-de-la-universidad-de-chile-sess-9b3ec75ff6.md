@@ -6,10 +6,4 @@
 
 ## Queued Pages
 
-### Page 563
-
-- Recommended action: `spot-check`
-- Conversion confidence: `medium`
-- Family relevance: `medium`
-- Quality flags: duplicate_conversion_contract_sections, possible_table_layout_loss
-- Matched family context: Starting, relationships
+No pages queued for reread.

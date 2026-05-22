@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-22T00:11:59Z",
+  "updated": "2026-05-22T00:21:50Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -78061,24 +78061,28 @@
       "completed_at": "2026-05-21T15:28:59Z"
     },
     "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425-codex-md": {
-      "status": "released",
-      "updated_at": "2026-05-21T21:29:42Z",
-      "note": "Released after no heartbeat/update for at least 360 minutes.",
+      "status": "done",
+      "updated_at": "2026-05-22T00:17:47Z",
+      "note": "post-conversion controller start",
       "claimed_at": "2026-05-21T15:26:44Z",
       "started_at": "2026-05-21T15:26:44Z",
       "released_by": "postconv-conversion-qa-20260521152644158",
       "released_at": "2026-05-21T21:29:42Z",
-      "stale_after_minutes": 360
+      "stale_after_minutes": 360,
+      "agent": "postconv-conversion-qa-20260522001355837",
+      "completed_at": "2026-05-22T00:17:47Z"
     },
     "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450-codex-md": {
-      "status": "released",
-      "updated_at": "2026-05-21T21:29:42Z",
-      "note": "Released after no heartbeat/update for at least 360 minutes.",
+      "status": "done",
+      "updated_at": "2026-05-22T00:20:22Z",
+      "note": "post-conversion controller start",
       "claimed_at": "2026-05-21T15:28:03Z",
       "started_at": "2026-05-21T15:28:03Z",
       "released_by": "postconv-conversion-qa-20260521152802988",
       "released_at": "2026-05-21T21:29:42Z",
-      "stale_after_minutes": 360
+      "stale_after_minutes": 360,
+      "agent": "postconv-conversion-qa-20260522001647939",
+      "completed_at": "2026-05-22T00:20:22Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550:p0529": {
       "status": "done",
@@ -79619,6 +79623,69 @@
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "completed_at": "2026-05-21T17:32:53Z"
+    },
+    "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0151-0175-r3578-50-5569-5569-jacket5-pages-151-175-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-22T00:13:03Z",
+      "agent": "postconv-conversion-qa-20260522000929752",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T00:09:29Z",
+      "started_at": "2026-05-22T00:09:30Z",
+      "completed_at": "2026-05-22T00:13:03Z"
+    },
+    "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket5-pages-276-300-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-22T00:12:37Z",
+      "agent": "postconv-conversion-qa-20260522000930574",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T00:09:30Z",
+      "started_at": "2026-05-22T00:09:31Z",
+      "completed_at": "2026-05-22T00:12:37Z"
+    },
+    "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0351-0375-r3578-50-5569-5569-jacket5-pages-351-375-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-22T00:12:46Z",
+      "agent": "postconv-conversion-qa-20260522000931787",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T00:09:32Z",
+      "started_at": "2026-05-22T00:09:33Z",
+      "completed_at": "2026-05-22T00:12:46Z"
+    },
+    "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-22T00:16:46Z",
+      "agent": "postconv-conversion-qa-20260522001353992",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T00:13:54Z",
+      "started_at": "2026-05-22T00:13:54Z",
+      "completed_at": "2026-05-22T00:16:46Z"
+    },
+    "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-22T00:16:03Z",
+      "agent": "postconv-conversion-qa-20260522001354550",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T00:13:54Z",
+      "started_at": "2026-05-22T00:13:55Z",
+      "completed_at": "2026-05-22T00:16:03Z"
+    },
+    "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-22T00:21:03Z",
+      "agent": "postconv-conversion-qa-20260522001808548",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T00:18:08Z",
+      "started_at": "2026-05-22T00:18:08Z",
+      "completed_at": "2026-05-22T00:21:03Z"
+    },
+    "conversion-qa:raw-converted-ca327c170f-v-p-hist-03583-07a-v-p-hist-03583-07a-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-22T00:21:09Z",
+      "agent": "postconv-conversion-qa-20260522001928577",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T00:19:28Z",
+      "started_at": "2026-05-22T00:19:29Z",
+      "completed_at": "2026-05-22T00:21:09Z"
     }
   }
 }

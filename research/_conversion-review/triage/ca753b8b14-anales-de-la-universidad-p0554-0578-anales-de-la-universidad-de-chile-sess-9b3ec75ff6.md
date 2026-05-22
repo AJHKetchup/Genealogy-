@@ -14,7 +14,8 @@
 | 560 | medium | high | pass | none | relationships |
 | 561 | medium | high | pass | none | relationships |
 | 562 | medium | high | pass | none | relationships |
-| 563 | medium | medium | spot-check | duplicate_conversion_contract_sections, possible_table_layout_loss | Starting, relationships |
+| 563 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
+| 567 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
 | 569 | medium | high | pass | none | relationships |
 | 570 | medium | high | pass | none | relationships |
 | 571 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |

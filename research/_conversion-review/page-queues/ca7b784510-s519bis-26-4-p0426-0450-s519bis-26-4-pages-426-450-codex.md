@@ -6,10 +6,4 @@
 
 ## Queued Pages
 
-### Page 1
-
-- Recommended action: `spot-check`
-- Conversion confidence: `medium`
-- Family relevance: `none`
-- Quality flags: duplicate_conversion_contract_sections, possible_table_layout_loss
-- Matched family context: none
+No pages queued for reread.
