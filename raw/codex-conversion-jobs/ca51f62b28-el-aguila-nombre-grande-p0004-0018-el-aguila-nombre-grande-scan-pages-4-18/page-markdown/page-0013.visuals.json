@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T18:33:02Z",
+  "created": "2026-05-22T04:32:09Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -13,10 +13,10 @@
   "skipped_regions": [
     {
       "region_id": "vr-01",
-      "kind": "table",
+      "kind": "other",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA EMPRESA",
-      "source_context": "A small, printed calendar for February 1956 is glued to the bottom of the page."
+      "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA",
+      "source_context": "A small printed calendar for February 1956, glued to the page."
     }
   ],
   "flags": []

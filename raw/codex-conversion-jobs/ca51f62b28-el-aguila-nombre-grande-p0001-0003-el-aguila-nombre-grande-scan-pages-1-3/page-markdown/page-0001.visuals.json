@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-22T04:14:21Z",
+  "created": "2026-05-22T04:31:50Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -11,13 +11,13 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "vr_1",
       "kind": "photograph",
-      "caption_literal": "A color photograph of two calves in a grassy field. One calf, dark brown/black, is standing and grazing on the left side of the image. The other calf, light grey/white, is lying down on the right side of the image, facing the viewer. There are a few small red and yellow flowers scattered in the grass. The top left corner of the page shows two staples, indicating the page was once bound.",
+      "caption_literal": "A dark brown/black calf stands grazing on the left, while a light gray/white calf lies on the right, facing the viewer. The calves are in a grassy field with a few small flowers.",
       "caption_type": "converter-description",
       "identity_basis": "visual-content",
       "source_context": "The main visual content of the page.",
-      "confidence": "5",
+      "confidence": "1.0",
       "inline_anchor": "",
       "bbox_pct": [
         16.9,
@@ -31,8 +31,8 @@
         5000,
         6638
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-two-calves-in-grassy-field.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-two-calves-in-grassy-field.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-two-calves-in-field.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-two-calves-in-field.png",
       "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/page-images/page-0001.jpg",
       "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
       "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",

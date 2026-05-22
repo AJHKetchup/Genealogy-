@@ -9,14 +9,28 @@
 - Extracted images: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/extracted-images`
 
 ## Page Metadata
-- task_id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004`
-- page_no: 4
-- page_type: `cv`
+
+- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004`
+- Model route: `pro`
+- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
+- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0004.md`
+- Page: 4
+- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0004.md`
+- External research relevance: `high`
+- External requested treatment: `reread`
+- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
+- Recommended action: ``
+- Quality flags: none
+- Technical reread clues: none
 
 ## Layout And Reading Order
-This page is a single column of typed text. The reading order is from top to bottom. The page continues a list from the previous page, followed by two bulleted list items, and then two distinct job experience entries.
+
+The page consists of a single column of typed text. The reading order is from top to bottom. The content is a continuation of a curriculum vitae from the previous page. It includes two bulleted paragraphs describing professional skills or experiences, followed by two distinct job entries. Each job entry is headed by a date range, employer, location, and job title, all in bold, followed by a descriptive paragraph.
 
 ## Literal Transcription
+
 approaches in four different Indian Sates and, (iv) review the communications strategy for
 the Productive Projects component of the Millennium Challenge Account programme for the
 northern region of El Salvador while making recommendations for improvements and new
@@ -70,42 +84,35 @@ of communities during blasts that could affect them for safety reasons. Represen
 in dealings with local authorities and community organisations.
 
 ## Images, Captions, And Visual Notes
-This page contains only typed text. There are no images, illustrations, photographs, or other visual elements.
+
+This page contains only typed text. There are no images, captions, or other visual elements.
 
 ## Uncertain Or Illegible
+
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page has been fully and accurately transcribed. It is a complete page from a multi-page document.
+
+The entire content of the page has been transcribed. The page is fully legible and complete.
 
 ## Visual Region Manifest
+
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "This page consists entirely of typed text with no images, illustrations, or other visual elements suitable for cropping."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other visual elements suitable for cropping."
+}
 ```
 
 ## Page Metadata
-
 - Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005`
-- Model route: `pro`
-- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
 - Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0005.md`
 - Page: 5
-- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0005.md`
-- External research relevance: `high`
-- External requested treatment: `reread`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
-- Quality flags: explicit_reread_needed
-- Technical reread clues: none
 
 ## Layout And Reading Order
-
-The page consists of a single column of text. The content is organized into distinct entries, each marked by a year or date range. The reading order is from top to bottom.
+The page is a single column of typewritten text, read from top to bottom. It contains five distinct entries from a curriculum vitae. Each entry is structured with a date or date range, followed by the name of an organization, a location, a job title (all in bold), and a descriptive paragraph detailing the work performed.
 
 ## Literal Transcription
-
 **1999**
 
 **National Trust Fund for Protected Areas in Peru (PROFONANPE)**
@@ -157,157 +164,115 @@ Review implementation of a proposed training programme for the Development of th
 Maracaibo Plain Project. Co-ordinate with the World Bank and Canadian agencies a study tour
 
 ## Images, Captions, And Visual Notes
-
-There are no images, captions, or other visual elements on this page.
+There are no images, captions, or other visual elements on this page. The page consists entirely of typewritten text.
 
 ## Uncertain Or Illegible
-
-The page is fully legible.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-This page is a complete and accurate transcription of the source image.
+This page is a complete transcription of all visible text. The final entry on the page is incomplete and presumably continues on the next page of the source document.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other visual elements."
+  "no_visual_regions_reason": "The page contains only typewritten text and does not have any images, illustrations, or other significant visual elements."
 }
 ```
 
 ## Page Metadata
-```json
-{
-  "page_number": 6,
-  "page_order_in_source": 6,
-  "source_doc_title": "CV of Dario Arturo Pulgar",
-  "source_doc_page_count": 9,
-  "source_doc_author": null,
-  "source_doc_creation_date": null,
-  "source_doc_last_modified_date": null,
-  "source_doc_producer": "Microsoft® Word 2013",
-  "source_doc_subject": null,
-  "source_doc_version": "1.5",
-  "source_doc_application": "Microsoft® Word 2013",
-  "source_doc_company": null,
-  "source_doc_keywords": null,
-  "source_doc_publication_year": null,
-  "source_doc_publisher": null,
-  "source_doc_rights": null,
-  "source_doc_language": null,
-  "source_doc_isbn": null,
-  "source_doc_issn": null,
-  "source_doc_doi": null,
-  "source_doc_url": null,
-  "source_doc_file_path": "raw/sources/CV of Dario Arturo Pulgar.pdf",
-  "source_doc_file_size_bytes": 103383,
-  "source_doc_sha256": "ca07263f40111111111111111111111111111111111111111111111111111111",
-  "source_doc_md5": "11111111111111111111111111111111",
-  "source_page_image_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/images/page-0006.png",
-  "source_page_image_width": 1275,
-  "source_page_image_height": 1650,
-  "source_page_image_size_bytes": 161919,
-  "source_page_image_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
-  "source_page_image_md5": "11111111111111111111111111111111",
-  "source_page_ocr_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/ocr/page-0006.json",
-  "source_page_ocr_confidence": 99.82,
-  "source_page_hocr_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/hocr/page-0006.html",
-  "source_page_text_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/text/page-0006.txt",
-  "source_page_structured_text_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/structured-text/page-0006.json",
-  "source_page_alto_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/alto/page-0006.xml",
-  "source_page_processed_image_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/processed-images/page-0006.png",
-  "source_page_processed_image_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
-  "source_page_processed_image_md5": "11111111111111111111111111111111"
-}
-```
+- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0006`
+- Model route: `pro`
+- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
+- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0006.md`
+- Page: 6
+- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0006.md`
+- External research relevance: `high`
+- External requested treatment: `reread`
+- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
+- Recommended action: ``
+- Quality flags: none
+- Technical reread clues: none
 
 ## Layout And Reading Order
-The page is a single column of text. It continues a curriculum vitae, listing professional experiences in reverse chronological order. Each entry is a distinct block of text, starting with a bolded date range, followed by a bolded organization name, location, and job title. A paragraph describing the responsibilities and achievements for that role follows. The reading order is from the top of the page to the bottom.
+The document is a single-column text page. The reading order is from top to bottom. The content is structured chronologically, with each entry marked by a date range, followed by the name of the organization, location, job title, and a description of the role.
 
 ## Literal Transcription
 on irrigation districts and transfer of irrigation infrastructure to water user associations.
 
-**1996 - 1997**
-**Deutsche Gesellschaft für Technische Zusammenarbeit (GTZ) - Fondo de Desarrollo**
-**Campesino (FDC)**
-**La Paz, Bolivia**
-**Senior Technical Advisor**
+<u>1996 - 1997</u>
+**Deutsche Gesellschaft für Technische Zusammenarbeit (GTZ) - Fondo de Desarrollo
+Campesino (FDC)
+La Paz, Bolivia
+Senior Technical Advisor**
 Participate in strategic and policy decisions of the Farmer Development Fund. Assist in the
 implementation of rural development projects in infrastructure, production support and
 institutional strengthening. Participate in the Funding, Personnel and Management Committees.
 Supervise the institutional strengthening of rural financial institutions.
 
-**1996**
-**SNC Lavalin Agriculture**
-**Maracaibo, Venezuela**
-**Consultant**
+<u>1996</u>
+
+**SNC Lavalin Agriculture
+Maracaibo, Venezuela
+Consultant**
 Establish a training programme for the Empresa Regional Sistema Hidráulico Planicie de
 Maracaibo (PLANIMARA) with emphasis in the management and administration of irrigation
 projects and the transfer of these systems to beneficiaries.
 
-**Ministry of Social Welfare of Ecuador, Rural Development Secretariat**
-**Quito, Ecuador**
-**Mission Leader**
+**Ministry of Social Welfare of Ecuador, Rural Development Secretariat
+Quito, Ecuador
+Mission Leader**
 Direct the work of a group of consultants in the preparation of feasibility study for a rural
 development project to be implemented in three areas of the country. The study included
 establishing beneficiary demands and the design of credit, technical assistance, infrastructure,
 and production support components.
 
-**1994 - 1995**
-**Instituto Interamericano de Cooperación para la Agricultura (IICA)**
-**Lima, Perú**
-**Chief Technical Advisor**
+<u>1994 - 1995</u>
+**Instituto Interamericano de Cooperación para la Agricultura (IICA)
+Lima, Perú
+Chief Technical Advisor**
 Provide guidance for implementation of the “Promotion of Technology Transfer to the Peasant
 Communities in the Highland” project funded by IFAD including: a) development and
 implementation of new methodologies for technology transfer and extension, b) use of
 communications through community radio stations, Participate in project monitoring, evaluation
 and training.
 
-**1992 - 1993**
-**United Nations Children Fund (UNICEF)**
-**Ankara, Turkey**
-**Rural Development Advisor**
+<u>1992 - 1993</u>
+**United Nations Children Fund (UNICEF)
+Ankara, Turkey
+Rural Development Advisor**
 Provide guidance in the implementation of a rural development project in priority provinces and
 supervise the production of audio-visual materials.
 
-**1989-1991**
-**SNC Lavalin Incorporated**
-**Egypt**
-**Agricultural Extension and Communication Advisor**
+<u>1989-1991</u>
+**SNC Lavalin Incorporated
+Egypt
+Agricultural Extension and Communication Advisor**
 Establish a Development Support Communication Centre (DSC) in the city of Dikernis, Dakahlia
 
 ## Images, Captions, And Visual Notes
 This page contains only text. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
-The transcription of this page is complete and accurate. All text content has been captured.
+The entire content of the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page consists entirely of text and does not contain any images, illustrations, maps, or other visual elements that would be suitable for cropping."
-}
+{"visual_regions": [], "no_visual_regions_reason": "This page consists entirely of typed text and contains no images, illustrations, or other visual elements suitable for cropping."}
 ```
 
 ## Page Metadata
-```json
-{
-  "page_meta": {
-    "task_id": "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0007",
-    "page_num": 7,
-    "source_file": "raw/sources/CV of Dario Arturo Pulgar.pdf"
-  }
-}
-```
+- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0007`
+- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
+- Page: 7
 
 ## Layout And Reading Order
-The page consists of a single column of text. The reading order is from top to bottom. Each entry begins with a bolded date range, followed by a bolded organization, location, and job title, and then a descriptive paragraph.
+The document is a single-column text page. The content is organized chronologically in reverse order, with each entry representing a period of employment. Each entry begins with a bolded date range, followed by the bolded name of the organization, location, and job title. A descriptive paragraph follows each set of headings. The reading order is from top to bottom.
 
 ## Literal Transcription
 Governorate and the design and implementation of a modified Training and Visit System of
@@ -344,7 +309,7 @@ extension communications component with special reference to the concerns of wom
 farmers. In Mali, assist the Village Development Fund Project in the design of methods for
 farmer participation and assist in project implementation start up. In Nicaragua, set up a video
 production and print shop; and in Peru, include in the Alto Mayo Rural Development Project a
-component for bilingual cultural development (Aguaruna - Spanish) and establish a video:print
+component for bilingual cultural development (Aguaruna - Spanish) and establish a video-print
 radio production unit.
 
 **1982-1985**
@@ -355,26 +320,26 @@ communication initiatives on world famine and agricultural production and prepar
 for the establishment of a communications unit in the Sahel, ii) design procedures for film and
 video production for the Public Information Division of the Canadian International Development
 Agency (CIDA), iii) review African Development Bank (AfDB) projects in Ivory Coast, Kenya,
-Tanzania, Ethiopia, Malawi and Lesotho with reference to their communications, extension
+Tanzania, Ethiopia, Malawi, and Lesotho with reference to their communications, extension
 approaches and public information, iv) establish a communication centre, appraise proposals
 and prepare a detailed plan of operations including equipment specifications for an
 EMBRAFILME Audio Visual Centre, and v) prepare a plan of operations of a health
 communication project with special emphasis on rural areas for CIDA in Islamabad, Pakistan
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other visual elements on this page. The content is entirely text.
+This page contains only text. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page has been transcribed in its entirety.
+The transcription is a complete and accurate representation of all text on the page.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text and no images, illustrations, or other significant visual elements."
+  "no_visual_regions_reason": "This page consists entirely of typed text and contains no images, illustrations, signatures, or other visual elements that would warrant cropping."
 }
 ```
 

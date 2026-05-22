@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-71b5d2f58d5e-P0011-01
+chunk_id: CHUNK-7709bac1d25d-P0011-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 71b5d2f58d5e2940877bafb0efee29e15b373eb386ed456fc3b7810946afaaeb
+converted_sha256: 7709bac1d25d5e8d4d39e996bdc08bba0f1c24433c95e291fc6e808aa1619295
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -12,69 +12,64 @@ part: 1
 ---
 
 ## Page Metadata
-Page 14
+- Source: `El Aguila Nombre Grande Scan.pdf`
+- Page: `11`
 
 ## Layout And Reading Order
-The page contains a single column of typed text, likely from a newspaper or magazine article, with a header across the top. Below the main article, there is a short section of promotional text. Several handwritten annotations are present on the page, including a large title, a page number, and a name.
+The page contains a single column of text, with a header at the top and a handwritten note at the bottom. The text describes activities related to electricity and milk processing.
 
 ## Literal Transcription
-MERO GIGANTE ENERO FEBRERO EL AGUILA
----
-ESCRIBE EL DIRECTOR
-EL FUNDO LOS CUARTOS
-EL FUNDO LOS CUARTOS PERTENECE COMO YA SE SABE AL DR DARIO PULGAR A,
-DISTINGUIDO FACULTATIVO DE CONCEPCION QUIEN HEREDO´ DE SUS PADRES ESTE
-FUNDO ALLA POR EL AÑO 1917 SE CONPONIA SOLAMENTE DE 300 HECTAREAS QUE
-SIRVIERON PARA AGRANDAR SU FUNDO AL CONPRAR 300 MAS Y JUNTAS FORMARON LA
-SUPERFICIE ACTUAL DE 600 HECTAREAS.
-ESTA UBICADO EN LA PROVINCIA DE BIO-BIO A 22 KILOMETROS DE LA CUIDAD
-DE LOS ANGELES, EN EL CAMINO DE SAN CARLOS DE PUREN A SANTA BARBARA;
-DESLINDA AL SUR CON EL RIO BIO-BIO AL NOTE CON EL RIO DUQUILCO OESTE
-CON EL FUNDO " NATALIA " Y AL ESTE CON LOS"FUNDOS"SANTA INES"Y " LAS
-GARZAS " EXSISTEN PLANTACIONES DE PINOS QUE ACTUALMENTE SE EXPLOTAN ./
-DESDE EL AÑO 1938 SE RIEGA PARTE CON LAS AGUAS DEL CANAL BIO BIO
-NORTE /
-TIENE PRODUCTIVLES VEGAS A ORILLAS DEL BIO BIO Y UNA MONTAÑA DE
-ROBLES QUE LE DA UN HERMOSO ASPECTO .
-DESDE 1952 EXISTE UNA CONFORTABLE CASA PATRONAL Y BUENAS CASA PARA
-EL MAYORDOMO E INQUILINOS; UN ESTABLO PARA 50 VACAS ENTERAMENTE DE
-CONCRETO. EN FUNDO TAMBIEN CONSTA CON BODEGAS Y GADPONES TAMBIEN DE CO
-NCRETO ../
-DENTRO DE POCO EL FUNDO CONSTARA CON LUS WLECTRICA DEL ABANICO EL
-PORVENIR DE ESTE FUNDO SON LOS PINOS Y LA LECHERIA.
----
-EL PERIODICO DE LA EMPRESA EDITORA
-EL AGUILA
-
-HAGASE LECTOR
-
-ESCRIBA A NUESTRA EMPRESA O
-PONGASE EN CONTACTO CON NUESTRO AGENTE PARA TODO
-CHILE
-JR DARIO PULGARA
-
-[Handwritten, large, red ink, vertically oriented on left side of page:]
-EL AGUILA
-
-[Handwritten, red ink, bottom center:]
-14
+ERO GIGANTE ENERO FEBRERO EL AGUILA
+___
+CONYINUACIO N DE ACTIVIDADES,
+Y MARCO CON UN ESTACADO. POCOS DIAS DESPUES JEFES DE LA ENDESA
+REVISARON EL ESTACADO DANDO SU VISTO BUENO DESPUES DE LO CUAL
+EL CONTRATISTA ORDENO TIRAR LOS POSTES Y UN PESADO CAMION DE LA
+ENDESA PROBEDIO A DEJAR LOS POSTES CERCA, O AL LADO DE LOSHOYOS
+QUE ANTERIORMENTE HABIA HECHO UNA CUADRUILLA DE HOMBRES. LUEGO DESPUES
+COMO NOS INFORMO UN PERSONERO DE LA ENPRESA UN TRACTOR CON UN CAMARON
+LLEBO LOS POSTES QUE ESTABAN LEJOS A SUS RESPECTIVOS HOYOS Y LUEGO
+NOS EXPLICO QUE CON UNA PLUMA PROSEDERI AN A LEVANTAR Y COLOCAR DEND
+DE LOS HOYOS LOS POSTES MAS ADELANTE DIJO QUE MAESTROS ESPECIALISAD
+COLOCARIAN LAS CRUSETAS Y COLOCARION LOAS CABLES QUE LLEVAN LA
+ELECTRICIDAD.
+LA ELECRISIDAD EN LOS CANPOS.
+LA ELECTRISIDAD PRESTA GRANDES USOS A LOS AGICULTORES YA SEA EN SUS
+CASA COMO EN LAS FAENAS MULTIPLES QUE SE PUEDEN REALISAR CON LA
+ELECTRISIDAD. NUESTRO VECINO QUE OPTUVO LUZ PRIMERO DE LA LINEA A
+MULCHEN TIENE UN MOLINO QUE FUNCIONA TOTALMENTE A ELECTRISIDAD
+SE ESPERA QUE ESTA LINEA ESTE LISTA EN MAYO Y QUISAS EN AGOSTO SE
+PODRA DAR LA LUZ.
+LA LECHE Y LA CHIPRODAL
+EN EL FUNDO ES PRIMERA VEZ QUE SE ENTRGA LECHE A LA CHIPRODAL FABRIC
+DE LECHE NESTRE. LA LECHERIA DEL FUNDO NO ESTA FORMADA POR, LO CUAL LA
+MATERIA GRASA ES POCA ../ VISITAMOS LA CHOPRODAL SA LLEGAN LOS CAMIOS
+NES QUE VIENEN DE TODAS PARTES CARGADOS CON LECHE. SE ACERCAN A UNA
+PLATAFORMA DONDE BAJAN LOS TARROS Y LOS COLOCAN EN UNA ESPECI DE CORRE
+SIN FIN PERO DE FIERRO QUE LOS VA MOVIENDO Y LOS LLEVA DENTRO DE L
+EDIFICIO DONDE LA LECHE ES PESADA Y ENTRA EN GRANDES TUVERIAS QUE
+Sigue Pag 12 11
 
 ## Images, Captions, And Visual Notes
-- A large, handwritten title "EL AGUILA" is written vertically in red ink along the left margin of the page.
-- The page number "14" is handwritten in red ink at the bottom center of the page.
-- The name "JR DARIO PULGARA" is handwritten in red ink below the promotional text at the bottom right of the page.
-- There are several small handwritten checkmarks or slashes in the typed text, indicating corrections or emphasis. These are transcribed as `/` or `.` where they appear to be part of the text flow.
+There are no images or captions on this page.
 
 ## Uncertain Or Illegible
-- "CONPONIA" might be "COMPONIA" (a common misspelling).
-- "CUIDAD" might be "CIUDAD" (a common misspelling).
-- "WLECTRICA" might be "ELECTRICA" (a common misspelling).
-- "GADPONES" might be "GALPONES" (a common misspelling).
+- `CONYINUACIO N`: The "N" might be part of the word or a separate initial.
+- `PROBEDIO`: Could be "procedió".
+- `LOSHOYOS`: Could be "los hoyos" (two words).
+- `DEND`: Could be "dentro".
+- `AGICULTORES`: Could be "agricultores".
+- `ENPRESA`: Could be "empresa".
+- `CAMARON`: Could be "camión".
+- `LOAS`: Could be "los".
+- `FABRIC`: Could be "fabrica".
+- `CHOPRODAL SA`: Could be "Choprodal S.A.".
+- `CAMIOS NES`: Could be "camiones".
+- `ESPECI`: Could be "especie".
+- `L`: Could be "el".
 
 ## Completeness Audit
-All visible text and handwritten annotations have been transcribed.
+The transcription is complete and captures all visible text on the page.
 
 ## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were identified. Handwritten notes and marks are transcribed in the text and described in visual notes."}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}

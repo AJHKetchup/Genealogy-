@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-22T04:24:47.116321+00:00",
+  "created": "2026-05-22T04:33:52.419594+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -2693,8 +2693,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-two-calves-in-field.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-two-calves-in-field.png",
-      "bytes": 25678121,
-      "sha256": "7e6117b14107370a911c1695331260f09197271778b34721d7d42b375d01b6ad",
+      "bytes": 22806348,
+      "sha256": "b492f54c3649ef00013ca579916e2392d94254a525206a0c4d2e32b414d254ca",
       "media_type": "image/png"
     },
     {
@@ -2772,6 +2772,20 @@
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-el-capitan-gajardo-drinking-from-cup.png",
       "bytes": 2182400,
       "sha256": "6f4da6b80166ff8990632f77f8b865aacb925322eb43c81b55601a3371b4e7bb",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-la-aurora-de-chile-fray-camilo-henriquez.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-la-aurora-de-chile-fray-camilo-henriquez.png",
+      "bytes": 3290247,
+      "sha256": "65945418893afc1196f662120045f6fb1aacce0a4f7f4d95f7964e258b4f9868",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-capitan-gajardo-after-climbing.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-capitan-gajardo-after-climbing.png",
+      "bytes": 3928686,
+      "sha256": "ab0bf45338e4ac2635416c4bd22ddba635335d9bf85cbf5944967ebccd4a7895",
       "media_type": "image/png"
     },
     {
@@ -12116,10 +12130,10 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
-    "skipped": 0,
+    "total_files": 7,
+    "total_bytes": 66556438,
+    "uploaded": 2,
+    "skipped": 5,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,
@@ -12129,9 +12143,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1731,
+      "scanned": 1733,
       "deleted": 0,
-      "skipped": 1731,
+      "skipped": 1733,
       "errors": []
     }
   }

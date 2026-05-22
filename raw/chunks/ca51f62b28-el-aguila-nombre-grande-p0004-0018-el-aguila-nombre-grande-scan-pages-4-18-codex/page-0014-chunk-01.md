@@ -1,0 +1,88 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7709bac1d25d-P0014-01
+source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
+converted_sha256: 7709bac1d25d5e8d4d39e996bdc08bba0f1c24433c95e291fc6e808aa1619295
+source: raw/sources/El Aguila Nombre Grande Scan.pdf
+source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
+source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
+page_start: 14
+page_end: 14
+part: 1
+---
+
+## Page Metadata
+- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0014`
+- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+- Page: 14
+
+## Layout And Reading Order
+The page is a single column of typewritten text. The reading order is from top to bottom.
+
+The page consists of:
+1. A header with the publication name, "EL AGUILA", and date range, "ENERO - FEBRERO".
+2. A section titled "ESCRIBE EL DIRECTOR" followed by an article titled "EL FUNDO LOS CUARTOS".
+3. A horizontal line separates the main article from the footer.
+4. A footer section with the publication's name, a call to action for readers, and a handwritten signature of "JR. DARIO PULGARA".
+5. At the very bottom of the page, "EL AGUILA" and the page number "14" are handwritten in large red letters/numbers.
+
+## Literal Transcription
+```text
+NUMERO GIGANTE      ENERO - FEBRERO      EL AGUILA
+---
+ESCRIBE EL DIRECTOR
+EL FUNDO LOS CUARTOS
+
+EL FUNDO LOS CUARTOS PERTENECE COMO YA SE SABE AL DR DARIO PULGAR A,
+DISTINGUIDO FACULTATIVO DE CONCEPCION QUIEN HEREDO DE SUS PADRES ESTE
+FUNDO ALLA POR EL AÑO 1917 SE CONPONIA SOLAMENTE DE 300 HECTAREAS QUE
+SIRVIERON PARA AGRANDAR SU FUNDO AL COMPRAR 300 MAS Y JUNTAS FORMARON LA
+SUPERFICIE ACTUAL DE 600 HECTAREAS.
+ESTA UBICADO EN LA PROVINCIA DE BIO-BIO A 22 KILOMETROS DE LA CUIDAD
+DE LOS ANGELES, EN EL CAMINO DE SAN CARLOS DE PUREN A SANTA BARBARA;
+DESLINDA AL SUR CON EL RIO BIO-BIO AL NOTE CON EL RIO DUQUILCO OESTE
+CON EL FUNDO " NATALIA " Y AL ESTE CON LOS"FUNDOS"SANTA INES"Y " LAS
+GARZAS " EXSISTEN PLANTACIONES DE PINOS QUE ACTUALMENTE SE EXPLOTAN ./
+DESDE EL AÑO 1938 SE RIEGA PARTE CON LAS AGUAS DEL CANAL BIO BIO
+NORTE /
+TIENE PRODUCTIVLES VEGAS A ORILLAS DEL BIO BIO Y UÑA MONTAÑA DE
+ROBLES QUE LE DA UN HERMOSO ASPECTO .
+DESDE 1952 EXISTE UNA CONFORTABLE CASA PATRONAL Y BUENAS CASA PARA
+EL MAYORDOMO E INQUILINOS; UN ESTABLO PARA 50 VACAS ENTERAMENTE DE
+CONCRETO. EN FUNDO TANBIEN CONSTA CON BODEGAS Y GADPONES TANBIEN DE CO
+NCRETO .. /
+DENTRO DE POCO EL FUNDO CONSTARA CON LUS ELECTRICA DEL ABANICO EL
+PORVENIR DE ESTE FUNDO SON LOS PINOS Y LA LECHERIA.-
+---
+EL PERIODICO DE LA E NPRESA EDITORA
+EL AGUILA
+
+HAGASE LECTOR
+
+ESCRIBA A NUESTRA ENPRESA O
+PONGASE EN CONTACTO CON NUESTRO AGENTE PARA TODO
+CHILE
+[signature] JR. DARIO PULGARA
+
+[handwritten] EL AGUILA
+[handwritten] 14
+```
+
+## Images, Captions, And Visual Notes
+- **Handwritten Signature:** At the bottom of the page, there is a signature in red ink that reads "JR. DARIO PULGARA".
+- **Handwritten Text:** Below the signature, the words "EL AGUILA" are written in large, red, stylized letters.
+- **Page Number:** Below the handwritten "EL AGUILA", the number "14" is written in red.
+
+## Uncertain Or Illegible
+There are no uncertain or illegible portions of this page.
+
+## Completeness Audit
+This page has been transcribed in its entirety.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains no substantial images, photographs, maps, or other visual elements that would warrant cropping. The only visual elements are a handwritten signature and some handwritten text, which are better captured through transcription and description."
+}
+```

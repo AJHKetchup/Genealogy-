@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-71b5d2f58d5e-P0015-01
+chunk_id: CHUNK-7709bac1d25d-P0015-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 71b5d2f58d5e2940877bafb0efee29e15b373eb386ed456fc3b7810946afaaeb
+converted_sha256: 7709bac1d25d5e8d4d39e996bdc08bba0f1c24433c95e291fc6e808aa1619295
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -12,29 +12,56 @@ part: 1
 ---
 
 ## Page Metadata
-Page Number: 18
+- Source: `El Aguila Nombre Grande Scan.pdf`
+- Page: 15
+- Page type: `text`
 
 ## Layout And Reading Order
-The page contains handwritten text in red ink, centered vertically and horizontally on an aged, discolored paper. The text appears to be a title or introductory information for a document or ledger.
+The page contains a single column of text, likely a newspaper or magazine article, with a header at the top and a page number at the bottom. The text flows continuously from top to bottom.
 
 ## Literal Transcription
-1956
-ENERO
-FERREIO
-JUSTICIA / VIERDAD
-EL AGUILA. _
+NUMERO GIGANTE
+EL " AGUILA " ENERO FEBRERO 1956
+CENDIO " LE TOCO A LOS FERROCARRILES "
+SABADO 25 DE FEBRERO SE PRODUJO UN INCENDIO DE GRANDES PROPORCIONES.
+TRATA DE NUESTRO ANTIGUO EDIFICIO DE LA ESTACION DE FERROCARRILES
+L ESTADO . ESTE INCENDIO SE PRODUJO POR LA INFLAMACION DE UNA COCINA
+PARAFINA EN LA FUENTE DE SODA DE DICHO EDIFICIO,
+ON LA AYUDA DE LOS BOMBEROS QUE LLEGARON OPORTUNAMENTE Y DEL PERSONAL
+FERROCARRILES , SE PUDO SALVAR EL EQUIPAJE , TELEFONOS , TWLEGRAFO
+FELIZMENTE NO HUBO DESGRACIAS PERSONALES QUE LAMENTAR
+"" LOS INCENDIOS Y TERREMOTOS , TRAEN EL PROGRESO A LOS PUEBLOS """
+ON LA DESTRUCCION DEL EDIFICIO DE LA ESTACION PODREMOS CONTAR A CORTO PLAS
+CON UN MODERNO Y CONFORTABLE EDIFICIO DIGNO DE LA CAPITAL DE " BIO-BIO "
+DE CADA DIA ESTA TOMANDO MAS IMPORTANCIA EN TODO ORDEN DE COSAS ASI LO
+SPERAMOS AUN QUE LA EMPRESA DE LOS FERROCARRILES SE ENCUENTRA AVOCADA A
+ARIOS COMPROMISOS QUE AFRONTAR DEBIDO A LA COMPLETA DESORGANISACION EN
+ODO ORDEN . DIOS QUIERA QUE ASI SEA Y QUE PRONTO TENGAMOS UN SERV IODO
+ERROVIARIO COMO LO PIDE "CHILE""
+"" PINCHASO ""
+ATASTROFE
+A PRINCIPIOS DE FEBRERO SE PRODUJO UNA CATASTROFE FERROVIARIA SIMILAR
+A LA DE SAN BERNARDO EL SALDO FUE 24 "MUERTOS " Y UN CENTENAR DE HERIDOS
+EN EL KILOMETRO 7 DEL FERROCARRIL A CARTAGENA SE ENCONTRABA DETENIDO
+UN CONVOY REPLETO DE NIÑOS QUE SE DIRIGIAN A APROVECHAR UN DIA DE SOL.
+ACOMPAÑADOS DE SUS PADRES UN DESPERFECTO DE LOS FRENOS IMPIDIO CONTINUAR
+EL TREN A SU DESTINO HABIA UN INTERVALO DE 10 MINUTOS CON OTRO TREN EL
+QUE PRODUJO LA TRAGEDIA " DIJO EL DIRECTOR DE LOS FF CC ES UNA INDISCUTIBLE
+FALLA HUMANA .
+ESCRIBIO WIMO
+
+15
 
 ## Images, Captions, And Visual Notes
-The entire page consists of handwritten text in red ink on aged paper. There are no distinct images or captions separate from the main text. The word "AGUILA" is underlined.
+A handwritten number "15" is present at the bottom center of the page.
 
 ## Uncertain Or Illegible
-- The word "FERREIO" could potentially be "FEBRERO" given the context of "ENERO" (January), but the handwritten characters strongly resemble "FERREIO".
-- The word "VIERDAD" could potentially be "VERDAD", but the handwritten characters clearly show an 'I' after the 'V'.
+None.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
+The transcription is complete and accurate, capturing all text and the handwritten page number.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements present; the page contains only handwritten text."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The handwritten page number is transcribed in the literal transcription."}
 ```

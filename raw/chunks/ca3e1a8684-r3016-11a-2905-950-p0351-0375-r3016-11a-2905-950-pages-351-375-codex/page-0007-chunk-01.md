@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-c95e5c6af3bd-P0007-01
+chunk_id: CHUNK-bc0f49272d4e-P0007-01
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375.codex.md
-converted_sha256: c95e5c6af3bd0f3ed057421c2a326eae7c6a1a69e736a80caf33f58fe871299e
+converted_sha256: bc0f49272d4efe8d98235ebc3b24f6d12f9f803a324269c2ce9dbe015b0cce2b
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/manifest.json
@@ -13,10 +13,10 @@ part: 1
 
 ## Page Metadata
 - Page number: 357
-- Source publication year: 1935
+- Source publication year: 1929
 - Source publication title: Revue Internationale de la Croix-Rouge
-- Source publication volume/issue: 17
-- Source publication editor: Comité international de la Croix-Rouge
+- Source publication volume/issue: 11
+- Source publication editor: Comité International de la Croix-Rouge
 - Source publication language: French
 
 ## Layout And Reading Order
@@ -56,34 +56,33 @@ Les publications suivantes sont éditées par les sociétés de la
 Croix-Rouge :
 
 ALLEMAGNE.
-* Krankenpflegelehrbuch*, herausgegeben von der medizinischen Abteilung
+. Krankenpflegelehrbuch, herausgegeben von der medizinischen Abteilung
 des Ministeriums.
-* Schwesternlehrbuch zum Gebrauch für Schwestern und Krankenpflege-
+. Schwesternlehrbuch zum Gebrauch für Schwestern und Krankenpflege-
 rinnen.
-* Anatomie für Schwestern*.
-* Das Staatsexamen für männliche und weibliche Krankenpflegepersonen*.
-* Leitfaden der Krankenpflege, Frage und Antwort*.
-* Taschenbuch der Krankenpflege für Krankenpflegerinnenschulen, für
-Aerzte und für die Familie*.
-
-Les infirmières de la Croix-Rouge reçoivent une revue mensuelle, éditée
+. Anatomie für Schwestern.
+. Das Staatsexamen für männliche und weibliche Krankenpflegepersonen.
+. Leitfaden der Krankenpflege, Frage und Antwort.
+. Taschenbuch der Krankenpflege für Krankenpflegerinnenschulen, für
+Aerzte und für die Familie.
+. Les infirmières de la Croix-Rouge reçoivent une revue mensuelle, éditée
 par la directrice des services d'infirmières de la Croix-Rouge. Elles reçoivent
-le *Bulletin d'information* et autres publications de la Croix-Rouge.
+le Bulletin d'information et autres publications de la Croix-Rouge.
 
 ARGENTINE.
-* Enfermeras. Fundación y organización de sus escuelas en la Cruz Roja
-Argentina*.
+. Enfermeras. Fundación y organización de sus escuelas en la Cruz Roja
+Argentina.
 
 61
 
 ## Images, Captions, And Visual Notes
-None
+There are no images or captions on this page.
 
 ## Uncertain Or Illegible
-None
+None.
 
 ## Completeness Audit
-The transcription is complete and accurate.
+The transcription is complete and accurate, capturing all text and preserving the layout.
 
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
