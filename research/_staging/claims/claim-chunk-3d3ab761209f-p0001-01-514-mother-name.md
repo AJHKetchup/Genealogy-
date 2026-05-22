@@ -18,4 +18,4 @@ Literal support: "**Nombre de la madre.**<br>Mercedes Riquelme<br>Pidió se cons
 
 Conversion confidence / QA concern: the assigned chunk and converted file agree on Mercedes Riquelme as mother, but other entry-level conflicts remain.
 
-Uncertainty: the phrase "Pidió se consignara su nombre" may have legal significance and should be preserved.
+Uncertainty: the phrase "Pidió se consignara su nombre" may have legal significance and should be preserved. The assembled converted file's `Esposa de Juan Soler` line is not supported by this image review; do not use this claim as spouse evidence.

@@ -46,6 +46,7 @@ Image review reduces, but does not eliminate, the previous blocker:
 
 - The source image is now available and confirms the heading as `Los Anjeles, num. 1o de La Laja`, not `Los Angeles ... de Julio`.
 - Entry 514's father field is image-supported as `Se ignora`; any claim naming a father from the conflicting converted file should not be promoted from this packet.
+- Entry 514's declarant area is image-supported as `Mercedes Riquelme / Madre` with a non-signature note; the assembled converted file's `Esposa de Juan Soler` reading is not supported by this image review and should not become an identity, spouse, or father claim from this packet.
 - Entry 514 `Aviles`, witness surname, and street/place remain difficult enough to preserve as QA limitations rather than canonical identity/place facts.
 - Entry 515 `Neira=emendado= / vale=` is visible, but the lower part of entry 515 is cropped; the mother details cannot be promoted from this image-reviewed packet.
 - Officer-signature support should be limited to the visible signature area and should not be normalized beyond the legible reading without separate QA.

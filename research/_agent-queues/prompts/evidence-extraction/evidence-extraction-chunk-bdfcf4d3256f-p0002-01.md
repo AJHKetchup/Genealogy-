@@ -13,8 +13,18 @@ Use `$genealogy-claim-extraction`.
 - Staging area: `research/_staging`
 - Family relevance: `high`
 - Matched family terms: none
-- Evidence priority: `1002` (family_relevance:high, qc:reread-page)
+- Evidence priority: `302` (family_relevance:high, qc:reread-page, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/proof-review-chunk-8daffb98e793-p0002-01-001-virginio-gomez-birth-year-postconv-proof-review-20260522205636169.md` | `research/_staging/claims/chunk-8daffb98e793-p0002-01-001-virginio-gomez-birth-year.md` | `hold` | Reconcile the page-boundary note and chunk identifier/hash metadata for the page 2 staging materials. If that QA confirms the current page 2-only chunk, this can be promoted as a secondary-source birth-year claim with the limitation that it proves only the year, not a full birth date or family relationship. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Done When

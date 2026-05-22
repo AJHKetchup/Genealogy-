@@ -5,8 +5,8 @@ Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\sourc
 Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
 source-relevance sync-review-holds | summary
 {
-  "review_count": 198,
-  "candidate_count": 30,
+  "review_count": 210,
+  "candidate_count": 32,
   "changed_count": 0,
   "feedback_path": "research/_agent-queues/source-relevance-feedback.json"
 }
@@ -20,9 +20,11 @@ source-relevance restore-review-assets | summary
   "errors": [],
   "blockers": []
 }
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
+Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
 post-conversion-controller | summary
 {
-    "started":  "2026-05-22T19:04:00Z",
+    "started":  "2026-05-22T21:18:40Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "dry_run":  false,
     "allow_promotion":  true,
@@ -41,31 +43,44 @@ post-conversion-controller | summary
                                          "todo":  200
                                      },
                    "evidence-extraction":  {
-                                               "done":  19,
-                                               "todo":  584,
+                                               "done":  21,
+                                               "todo":  582,
                                                "deferred_low_relevance":  4134,
                                                "blocked_needs_reread":  98
                                            },
                    "identity-analysis":  {
-                                             "todo":  113,
+                                             "todo":  116,
                                              "done":  3
                                          },
                    "proof-review":  {
-                                        "done":  126,
-                                        "todo":  395,
-                                        "released":  48
+                                        "done":  136,
+                                        "released":  43,
+                                        "todo":  407
                                     },
                    "wiki-promotion":  {
                                           "blocked_no_reviewed_ready":  1
                                       }
                },
     "active_workers_before":  0,
-    "active_workers_after":  0,
+    "active_workers_after":  1,
     "launched":  [
-
+                     {
+                         "worker":  "postconv-wiki-promotion-20260522211957454",
+                         "pid":  4584,
+                         "task_ids":  [
+                                          "wiki-promotion:reviewed-ready:8219626b7d28"
+                                      ],
+                         "queue":  "wiki-promotion",
+                         "codex":  "C:\\npm\\prefix\\codex.cmd",
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-wiki-promotion-20260522211957454.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522211957454.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522211957454.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522211957454.last.md",
+                         "started":  "2026-05-22T21:19:58Z"
+                     }
                  ],
     "blockers":  [
 
                  ],
-    "finished":  "2026-05-22T19:05:23Z"
+    "finished":  "2026-05-22T21:24:34Z"
 }

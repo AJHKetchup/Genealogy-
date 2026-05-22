@@ -13,11 +13,15 @@
 
 - [[sources/src-3f6223e0e2c1-ca5a5078ab-passenger-list-royal-mai-passenger-list-royal-mai]]
 
+- [[sources/src-512ac43dc208-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servi]]
+
 ## Source Packets
 
 - [[source-packets/chunk-b8f4f0490a36-p0001-01-entry-172-jose-del-carmen-segundo-pulgar-arriagada]]
 
 - [[source-packets/sp-chunk-a4cd3c3e5c16-p0001-01-andes-pulgar-passenger-list]]
+
+- [[source-packets/chunk-f2c5548c9fde-p0053-01-arturo-larrain-lavin-medical-directory]]
 
 ## Claims
 
@@ -44,6 +48,10 @@
 - [[claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-child-passenger-andes]]
 
 - [[claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-child-student]]
+
+- [[claims/chunk-f2c5548c9fde-p0053-01-001-arturo-larrain-garcia-directory-listing]]
+
+- [[claims/chunk-f2c5548c9fde-p0053-01-004-arturo-lavin-gallegos-directory-listing]]
 
 ## Relationships
 

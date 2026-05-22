@@ -41,6 +41,7 @@ Material conflicts to preserve:
 - Entry 513 birth date/time: assigned chunk reads `Junio veinte i seis ... cuatro i media`; converted Markdown reads `El mismo veinte dos ... cuatro de la manana`; image appears to support `Junio veinte i dos ... cuatro i media ... tarde`, but the time line is faint.
 - Entry 513 mother surname: assigned chunk reads `Amagada`; converted Markdown reads `Amador`; image most likely supports `Amagada`, but this should be rechecked from a crop before promotion.
 - Entry 513 officer signature: derivative layers disagree; do not create a promotable official-name claim from this packet.
+- Entry 514 declarant note: assembled converted Markdown introduces `Esposa de Juan Soler`; the visible source image and assigned chunk instead support the non-signature note `No firma por no saber`. Do not extract a Juan Soler spouse or father identity from this chunk without a separate source.
 
 ## Uncertainty
 

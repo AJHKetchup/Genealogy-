@@ -13,8 +13,19 @@ Use `$genealogy-claim-extraction`.
 - Staging area: `research/_staging`
 - Family relevance: `critical`
 - Matched family terms: Arturo
-- Evidence priority: `53` (family_relevance:critical, qc:reread-page, matched_terms)
+- Evidence priority: `-647` (family_relevance:critical, qc:reread-page, matched_terms, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/proof-review-chunk-f2c5548c9fde-p0053-01-003-arturo-larrain-garcia-locality-postconv-proof-review-20260522210734131.md` | `research/_staging/claims/chunk-f2c5548c9fde-p0053-01-003-arturo-larrain-garcia-locality.md` | `hold_for_conversion_qa` | Keep the claim in staging. Perform conversion QA or restore/render `page-0053.jpg` and visually reread the `Larraín García, Arturo` row to confirm the name, row alignment, address, and locality before any canonical promotion. |
+| `research/_staging/reviews/proof-review-chunk-f2c5548c9fde-p0053-01-006-arturo-lavin-gallegos-locality-postconv-proof-review-20260522210944929.md` | `research/_staging/claims/chunk-f2c5548c9fde-p0053-01-006-arturo-lavin-gallegos-locality.md` | `revise_literal_support_before_promotion` | Keep the claim in staging until the literal-support quote or conversion QA note handles the `Merced 250 B` address character. After that limited cleanup, the locality claim can be considered for canonical promotion only as a scoped 1959 medical-directory locality listing for `Arturo Lavín Gallegos` in `Santiago`. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Done When

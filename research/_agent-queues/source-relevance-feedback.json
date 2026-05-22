@@ -1,6 +1,6 @@
 {
   "created": "2026-05-22T01:02:23Z",
-  "updated": "2026-05-22T17:52:25Z",
+  "updated": "2026-05-22T21:09:37Z",
   "purpose": "Research-to-conversion relevance hints for source-prep model routing.",
   "hints": [
     {
@@ -267,6 +267,48 @@
       ],
       "agent": "post-conversion-review-feedback",
       "id": "source-relevance:7feaa225b08f"
+    },
+    {
+      "status": "active",
+      "created": "2026-05-22T20:54:17Z",
+      "updated": "2026-05-22T20:54:17Z",
+      "task_id": "",
+      "job_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
+      "source": "",
+      "source_sha256": "",
+      "converted_file": "",
+      "page": 4,
+      "relevance": "high",
+      "requested_treatment": "reread",
+      "reason": "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
+      "entities": [],
+      "matched_terms": [
+        "proof-review-hold",
+        "missing-page-image"
+      ],
+      "agent": "post-conversion-review-feedback",
+      "id": "source-relevance:9999388b6c2c"
+    },
+    {
+      "status": "active",
+      "created": "2026-05-22T21:09:37Z",
+      "updated": "2026-05-22T21:09:37Z",
+      "task_id": "",
+      "job_manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json",
+      "source": "",
+      "source_sha256": "",
+      "converted_file": "",
+      "page": 53,
+      "relevance": "medium",
+      "requested_treatment": "reread",
+      "reason": "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
+      "entities": [],
+      "matched_terms": [
+        "proof-review-hold",
+        "missing-page-image"
+      ],
+      "agent": "post-conversion-review-feedback",
+      "id": "source-relevance:3f33776438c3"
     }
   ]
 }

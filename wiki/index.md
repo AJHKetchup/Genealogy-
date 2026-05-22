@@ -23,6 +23,10 @@
 
 - [[people/dario-pulgar-child-passenger-age-11]]
 
+- [[people/arturo-larra-n-garc-a]]
+
+- [[people/arturo-lav-n-gallegos]]
+
 ## Branches
 
 ## Families

@@ -32,6 +32,7 @@ The source image is available and supports the assigned chunk more than the asse
 - Entry 513 mother: assigned chunk has `Juana de Dios Amagada de Pulgar`; converted file has `Juana de Dios Amador de Pulgar`; image review supports the Pulgar family row but the maternal surname should remain QA-sensitive.
 - Entry 514 child: assigned chunk has `Riquelme Aviles / Juan Bautista`; converted file has `Riquelme Juan Teodoro`; source image supports `Riquelme / Juan Bautista` and does not visibly support `Aviles`.
 - Entry 514 father: assigned chunk and image have `Se ignora`; converted file gives `Belisario Riquelme`.
+- Entry 514 declarant note: assigned chunk and image support `No firma por no saber`; converted file gives `Esposa de Juan Soler`. Treat `Juan Soler` as an unsupported derivative reading for this chunk.
 - Entry 514 witness/place: assigned chunk has `Benjamin Utiera`, `Ignacio Soto`, and `Calle Sanegueso`; converted file has `Benjamin Utrosa`, `Ignacio Jara`, and `Calle Saneguin`; image does not fully settle these readings in this pass.
 - Entry 515 child and father: assigned chunk and visible image support `Neira Ulloa / Laura de la Cruz` and father/declarant `Pedro Pablo Neira`; converted file has `Rosa Elvira del Carmen` and father `Pedro Pablo Leiva`.
 - Entry 515 mother: assigned chunk has `Carmen Ulloa`; current converted file does not preserve a mother name in the entry 515 mother field; available image does not visibly confirm the full lower mother field.

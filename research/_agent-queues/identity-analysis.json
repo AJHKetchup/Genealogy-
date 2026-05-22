@@ -1,9 +1,9 @@
 ﻿{
     "created":  "2026-05-22",
     "queue":  "identity-analysis",
-    "task_count":  116,
+    "task_count":  119,
     "status_counts":  {
-                          "todo":  113,
+                          "todo":  116,
                           "done":  3
                       },
     "tasks":  [
@@ -806,6 +806,26 @@
                       "skill":  "genealogy-proof-review"
                   },
                   {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-c8f91e3920e7-p0046-01-conversion-and-scope-watch-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-c8f91e3920e7-p0046-01-conversion-and-scope-watch.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-c8f91e3920e7-p0046-01-conversion-and-scope-watch.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-f2c5548c9fde-p0053-01-conversion-and-identity-watch-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-f2c5548c9fde-p0053-01-conversion-and-identity-watch.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-f2c5548c9fde-p0053-01-conversion-and-identity-watch.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
                       "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conf-chunk-a2273412e7b1-p0001-01-region-source-title-body-md.md",
                       "output_dir":  "research/_staging/identity-analysis",
                       "queue":  "identity-analysis",
@@ -852,6 +872,16 @@
                       "staged_draft":  "research/_staging/conflicts/CONFLICT-STAGE-CHUNK-2b3819b4138e-P0044-01-no-direct-conflict.md",
                       "role":  "identity_researcher",
                       "task_id":  "identity-analysis:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-2b3819b4138e-P0044-01-no-direct-conflict.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conflict-stage-chunk-2b3819b4138e-p0046-01-arturo-e-salazar-name-only-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/CONFLICT-STAGE-CHUNK-2b3819b4138e-P0046-01-arturo-e-salazar-name-only.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-2b3819b4138e-P0046-01-arturo-e-salazar-name-only.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   },

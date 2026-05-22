@@ -1,0 +1,35 @@
+{
+  "generated": "2026-05-22T21:21:42",
+  "summary": {
+    "dry_run": false,
+    "source_packets": [
+      "research/source-packets/chunk-f2c5548c9fde-p0053-01-arturo-larrain-lavin-medical-directory.md"
+    ],
+    "claims": [
+      "research/claims/chunk-f2c5548c9fde-p0053-01-001-arturo-larrain-garcia-directory-listing.md",
+      "research/claims/chunk-f2c5548c9fde-p0053-01-004-arturo-lavin-gallegos-directory-listing.md"
+    ],
+    "relationships": [],
+    "people": [
+      "wiki/people/arturo-larra-n-garc-a.md",
+      "wiki/people/arturo-lav-n-gallegos.md"
+    ],
+    "people_refreshed": [],
+    "sources": [
+      "research/sources/src-512ac43dc208-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servi.md"
+    ],
+    "skipped": [
+      {
+        "path": "python -m historic_doc_ingest.genealogy_wiki promote-staged --root \"D:\\a\\Genealogy-\\Genealogy-\"",
+        "reason": "required dry run was inspected first and would have promoted unrelated staged material; promotion was written narrowly for task wiki-promotion:reviewed-ready:8219626b7d28"
+      }
+    ],
+    "task_id": "wiki-promotion:reviewed-ready:8219626b7d28",
+    "worker": "postconv-wiki-promotion-20260522211957454",
+    "reviews": [
+      "research/_staging/reviews/proof-review-chunk-f2c5548c9fde-p0053-01-001-arturo-larrain-garcia-directory-listing-postconv-proof-review-20260522211409006.md",
+      "research/_staging/reviews/proof-review-chunk-f2c5548c9fde-p0053-01-004-arturo-lavin-gallegos-directory-listing-postconv-proof-review-20260522211617307.md"
+    ],
+    "manifest": "research/_staging/promotions/2026-05-22-212142-promote-staged.json"
+  }
+}
