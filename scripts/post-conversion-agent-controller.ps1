@@ -1154,10 +1154,12 @@ catch {
 finally {
     try {
         $activeWorkers = @(Wait-ForWorkerDrain -Workers $activeWorkers)
+        $summary.active_workers_after = $activeWorkers.Count
     }
     catch {
         $summary.fatal = $true
         $summary.blockers += "worker drain fatal: $($_.Exception.Message)"
+        $summary.active_workers_after = $activeWorkers.Count
     }
     if (-not $DryRun -and $activeWorkers.Count -eq 0) {
         try {
