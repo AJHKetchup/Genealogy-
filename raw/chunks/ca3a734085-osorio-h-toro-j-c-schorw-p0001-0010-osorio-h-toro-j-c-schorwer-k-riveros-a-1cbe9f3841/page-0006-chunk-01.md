@@ -1,15 +1,72 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-3c4018417383-P0001-05
+chunk_id: CHUNK-c4be04efe1d7-P0006-01
 source_converted: raw/converted/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10.codex.md
-converted_sha256: 3c401841738366f0686b39699ef6f2446e93f3577b04e0d3b7cc2092357b32e1
+converted_sha256: c4be04efe1d735e210f6faa95588329f843906c78aed94b1cf8b57dcbcfcdcad
 source: raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf
 source_sha256: 3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16
 source_manifest: raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json
-page_start: 1
-page_end: 1
-part: 5
+page_start: 6
+page_end: 6
+part: 1
 ---
+
+## Page Metadata
+Page number: 654
+
+## Layout And Reading Order
+
+The page begins with a header containing a machine translation notice and publication details. Below this, the main content is presented in two columns of text. Following the text columns, there is a block of four black and white photographs arranged in a 2x2 grid, labeled A, B, C, and D. A single caption describes all four images. The page number "654" is located at the bottom left.
+
+## Literal Transcription
+
+Machine Translated by Google
+OSORIO, H.; TORO, JC; SCHORWER, K.; RIVEROS, A. & CARDENAS, J. Pioneers of a century of anatomical teaching in the city of Concepción. Int. J. Morphol., 38(3):658-658, 2020.
+
+Enrique Solervicens, a medical student from Santiago who was in his
+final year at the San Juan de Dios Hospital. As this course was biannual,
+it occupied a significant part of the timetable of the first and second year
+of the degree (Muñoz, 1993). In the first year, the musculoskeletal
+system was studied and in the second year, the remaining systems and
+apparatus were studied. This course also included theoretical and
+practical activities. The former consisted of lectures accompanied by
+slides, drawings and cadaver preparations made by assistants. The
+practical part of this course was controlled by assistants and consisted
+of each student making a minimum of 25 cadaver preparations for each
+year of this course (Solervicens).
+
+**Venetian Pavilion.** Once the anatomy course for Medicine had begun, the
+new pavilion allowed for the correct development of these courses. Dr.
+Solervicens described it as follows: “*This new pavilion already offered
+certain working comforts, since it had a stepped classroom, a large
+dissection room, a small professor’s room, a small dissection room for
+assistants, a concrete storage room for the corpses, hygienic facilities and
+washrooms*” (Fig. 3). Despite the comforts already described,
+
+Professor Dr. Gonzalez christened this pavilion as the “Venetian Pavilion.”
+This baptism was evidence of the winter in Concepción, as the rains caused
+the property to be completely surrounded by water, so the professor, his
+assistant and the students had to be rescued by horse-drawn carriages.
+The water flooded the outside of the pavilion, rising up to 60 cm because
+there were two open channels; the one that came from Ecuador Park on
+Victor Lamas Street and the one that ran on Edmundo Larenas Street.
+
+In 1927, the Board of Directors of the University of Concepción
+approved the organization of the Schools into Faculties, and Dr.
+
+Alejandro Lipschütz, the above did not consider the interruption of his
+relationship with the University of Chile. From that year onwards, a process
+of consolidation of academic activity by the nascent anatomy unit began. A
+key man in this development was Dr. Enrique Solervicens Castel, who, as
+a result of the departure of Dr.
+
+Gonzalez was in charge of the anatomy course for Medicine, adding the
+anatomy course for Dentistry that he had already been teaching since 1924
+(Muñoz, 1993).
+
+Fig. 3. Anatomy Pavilion 1924 – 1933, christened as the “Venetian Pavilion”. A: Facade, B: Classroom, C: Dissection room, D:
+Dissection performed by students and supervised by assistants (Photographic archive of the University of Concepción AFUdeC).
+654
 
 ## Images, Captions, And Visual Notes
 
@@ -99,8 +156,4 @@ All visible text and images on the page have been transcribed and described.
 }
 ```
 
-## Page Metadata
-Page number: 7
-
-## Layout And Reading Order
-The page begins with a "Machine Translated by Google" header, followed by the article's citation header. The main content is presented in a two-column layout. The left column contains three distinct text blocks, the first two being continuous narrative and the third starting with a bolded section title. The right column contains a table with its caption and footnotes, followed by two more text blocks, the second of which starts with a narrative introduction to a new topic. The page number "655" is located at the bottom right corner.
+# Page 7

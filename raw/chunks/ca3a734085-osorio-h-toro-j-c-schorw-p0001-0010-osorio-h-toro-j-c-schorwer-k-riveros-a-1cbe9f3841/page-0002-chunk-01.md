@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-8daffb98e793-P0002-01
+chunk_id: CHUNK-c4be04efe1d7-P0002-01
 source_converted: raw/converted/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10.codex.md
-converted_sha256: 8daffb98e793c0cade2ce4935f574a7b0a672385cfb90e951e9d5ac5ef13aab9
+converted_sha256: c4be04efe1d735e210f6faa95588329f843906c78aed94b1cf8b57dcbcfcdcad
 source: raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf
 source_sha256: 3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16
 source_manifest: raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json
@@ -10,8 +10,6 @@ page_start: 2
 page_end: 2
 part: 1
 ---
-
-# Page 2
 
 ## Page Metadata
 
@@ -96,67 +94,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-- Page number: 3
-- Source publication: Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.
-- Document type: Journal Article
-
-## Layout And Reading Order
-The page begins with a header indicating machine translation, followed by the article's author and title information. The main content area is dominated by five portrait-style photographs arranged in a 2x3 grid (three on the top row, two on the bottom row, with the third top image being wider). To the right of the bottom two images is a caption for all five photographs. Below the images and caption, the page content continues in two columns of text. A page number is present in the bottom right corner.
-
-## Literal Transcription
-Machine Translated by Google
-
-OSORIO, H.; TORO, JC; SCHORWER, K.; RIVEROS, A. & CARDENAS, J. Pioneers of a century of anatomical teaching in the city of Concepción. Int. J. Morphol., 38(3):650-658, 2020.
-
-A
-B
-C
-
-D
-E
-
-Fig. 1. Pioneering teachers in the development
-of anatomy in Concepción. A: Dr.
-Virginio Gómez Gonzalez. B: Drs. Enrique
-Gonzalez Pastor, C: Maestro Dr. Enrique
-Solervicens Castel. D: Dr. Edgardo Enriquez
-Fröden and E: Dr. Mario Echeverría Monardes.
-
-This context developed links with the coal industry, where he was able
-to verify the deplorable sanitary conditions of the area (Muñoz, 2015).
-Considering that these conditions would be very detrimental to the
-development of the region, Dr. Gomez stated that it was essential for
-the city to have a model Clinical Hospital, which would be staffed by
-professionals trained in the southern area. In light of subsequent
-results, the Hospital had the greatest difficulties. Finally, the earthquake
-that hit the region in 1939 destroyed the San Juan de Dios Hospital,
-which allowed the creation of the Clinical Hospital (Da Costa, 1995).**
-
-The work of the pro-University committee was arduous; it
-formally began in March 1917; it received support from the community,
-which translated into philanthropic contributions from people and
-institutions in the southern area (Da Costa, 2000).
-Finally, and despite countless efforts made by Mr. Molina to have the
-nascent university created as a state institution, on March 17, 1919,
-and performing the duties of acting president of the committee,
-
-Dr. Gómez initiated the activities of the first private university in the
-country (Muñoz, 1993). This fact made possible the aspiration of the
-community of Concepción and the southern region of Chile to have a
-university so that their children would not have to travel to Santiago to
-pursue their studies.
-
-**First Anatomy Course.** In its first year, the University of Concepción
-taught the first courses in Dentistry, Industrial Chemistry, Pharmacy
-and Pedagogy in English, and also added the Law course that was
-already taught at the Liceo de Hombres. The surgeon Dr. Virginio
-Gómez was the first professor of anatomy at the University of
-Concepción.
-
-Even though the University began to operate with 123 students, it was
-immediately established that one of its next priority objectives would
-be the creation of a
-
-651

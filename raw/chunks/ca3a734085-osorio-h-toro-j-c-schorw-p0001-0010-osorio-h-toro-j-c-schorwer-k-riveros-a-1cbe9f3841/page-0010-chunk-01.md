@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-8daffb98e793-P0010-01
+chunk_id: CHUNK-c4be04efe1d7-P0010-01
 source_converted: raw/converted/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10.codex.md
-converted_sha256: 8daffb98e793c0cade2ce4935f574a7b0a672385cfb90e951e9d5ac5ef13aab9
+converted_sha256: c4be04efe1d735e210f6faa95588329f843906c78aed94b1cf8b57dcbcfcdcad
 source: raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf
 source_sha256: 3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16
 source_manifest: raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json
@@ -10,8 +10,6 @@ page_start: 10
 page_end: 10
 part: 1
 ---
-
-# Page 10
 
 ## Page Metadata
 

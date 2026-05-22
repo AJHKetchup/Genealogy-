@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-72b224a28cc0-P0006-01
+chunk_id: CHUNK-ca0efe600240-P0006-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: 72b224a28cc0abba7e0de733f12fd26d55e64f42748d8640656c5d554d1150fa
+converted_sha256: ca0efe600240bdf5aa37c6b3067363cfb83601c20af115e102c00106770c8125
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -13,58 +13,96 @@ part: 1
 
 ## Page Metadata
 
-- Page-of-pages: 9
-- Document-type: cv
-- Document-title: CV of Dario Arturo Pulgar
-- Source-path: `raw/sources/CV of Dario Arturo Pulgar.pdf`
+- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0006`
+- Model route: `pro`
+- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
+- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0006.md`
+- Page: 6
+- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0006.md`
+- External research relevance: `high`
+- External requested treatment: `reread`
+- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
+- Recommended action: ``
+- Quality flags: explicit_reread_needed
+- Technical reread clues: none
 
 ## Layout And Reading Order
 
-The page is a single column of typewritten text. The content is divided into two sections.
-
-The first section lists educational history. Each entry is formatted with a date range on the left, followed by a colon, and then the description of the institution and degree on the right. Some entries have multiple lines of description, which are indented.
-
-The second section is titled "LANGUAGES" and lists spoken and written language proficiency.
-
-The reading order is top to bottom.
+The page contains a single column of text. The content is a continuation of a curriculum vitae, organized chronologically in reverse order. Each entry consists of a date range, an organization name, a location, a job title, and a description of responsibilities. Date ranges are underlined, while organization names, locations, and job titles are in bold. The reading order is from top to bottom.
 
 ## Literal Transcription
 
-1967 - 1968 : Stanford University. Stanford, California
-              Fulbright Scholarship. M.A. Communications
+on irrigation districts and transfer of irrigation infrastructure to water user associations.
 
-1963 - 1966 : Universidad de Concepción, Escuela de Periodismo. Chile
-              Journalism
+<u>1996 - 1997</u>
+**Deutsche Gesellschaft für Technische Zusammenarbeit (GTZ) - Fondo de Desarrollo
+Campesino (FDC)
+La Paz, Bolivia
+Senior Technical Advisor**
+Participate in strategic and policy decisions of the Farmer Development Fund. Assist in the
+implementation of rural development projects in infrastructure, production support and
+institutional strengthening. Participate in the Funding, Personnel and Management Committees.
+Supervise the institutional strengthening of rural financial institutions.
 
-1960 - 1963 : Universidad de Concepción, Escuela de Derecho. Chile
-              Field of Study: Law
+<u>1996</u>
 
-1954 - 1959 : Liceo Enrique Molina. Concepción, Chile
-              Humanities, Baccalaureate
+**SNC Lavalin Agriculture
+Maracaibo, Venezuela
+Consultant**
+Establish a training programme for the Empresa Regional Sistema Hidráulico Planicie de
+Maracaibo (PLANIMARA) with emphasis in the management and administration of irrigation
+projects and the transfer of these systems to beneficiaries.
 
-**LANGUAGES**
+**Ministry of Social Welfare of Ecuador, Rural Development Secretariat
+Quito, Ecuador
+Mission Leader**
+Direct the work of a group of consultants in the preparation of feasibility study for a rural
+development project to be implemented in three areas of the country. The study included
+establishing beneficiary demands and the design of credit, technical assistance, infrastructure,
+and production support components.
 
-Spoken:       Spanish, English, French, Italian, and Portuguese
+<u>1994 - 1995</u>
+**Instituto Interamericano de Cooperación para la Agricultura (IICA)
+Lima, Perú
+Chief Technical Advisor**
+Provide guidance for implementation of the “Promotion of Technology Transfer to the Peasant
+Communities in the Highland” project funded by IFAD including: a) development and
+implementation of new methodologies for technology transfer and extension, b) use of
+communications through community radio stations, Participate in project monitoring, evaluation
+and training.
 
-Written:      Spanish, English, French
+<u>1992 - 1993</u>
+**United Nations Children Fund (UNICEF)
+Ankara, Turkey
+Rural Development Advisor**
+Provide guidance in the implementation of a rural development project in priority provinces and
+supervise the production of audio-visual materials.
+
+<u>1989-1991</u>
+**SNC Lavalin Incorporated
+Egypt
+Agricultural Extension and Communication Advisor**
+Establish a Development Support Communication Centre (DSC) in the city of Dikernis, Dakahlia
 
 ## Images, Captions, And Visual Notes
 
-There are no images, captions, or other visual elements on this page.
+This page contains only text. There are no images, captions, or other visual elements.
 
 ## Uncertain Or Illegible
 
-All text on this page is clear and legible.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-This page is complete and has been fully transcribed.
+The entire content of the page has been transcribed.
 
 ## Visual Region Manifest
 
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page consists entirely of typewritten text with no images, illustrations, or other significant visual elements."
+  "no_visual_regions_reason": "This page contains only text and has no meaningful visual regions to crop."
 }
 ```

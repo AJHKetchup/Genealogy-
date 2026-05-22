@@ -9,28 +9,14 @@
 - Extracted images: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/extracted-images`
 
 ## Page Metadata
-
-- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004`
-- Model route: `pro`
-- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
-- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0004.md`
-- Page: 4
-- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0004.md`
-- External research relevance: `high`
-- External requested treatment: `reread`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
-- Quality flags: none
-- Technical reread clues: none
+- task_id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004`
+- page_no: 4
+- page_type: `cv`
 
 ## Layout And Reading Order
-
-The page consists of a single column of typed text. The reading order is from top to bottom. The content is a continuation of a curriculum vitae from the previous page. It includes two bulleted paragraphs describing professional skills or experiences, followed by two distinct job entries. Each job entry is headed by a date range, employer, location, and job title, all in bold, followed by a descriptive paragraph.
+This page is a single column of typed text. The reading order is from top to bottom. The page continues a list from the previous page, followed by two bulleted list items, and then two distinct job experience entries.
 
 ## Literal Transcription
-
 approaches in four different Indian Sates and, (iv) review the communications strategy for
 the Productive Projects component of the Millennium Challenge Account programme for the
 northern region of El Salvador while making recommendations for improvements and new
@@ -84,38 +70,39 @@ of communities during blasts that could affect them for safety reasons. Represen
 in dealings with local authorities and community organisations.
 
 ## Images, Captions, And Visual Notes
-
-This page contains only typed text. There are no images, captions, or other visual elements.
+This page contains only typed text. There are no images, illustrations, photographs, or other visual elements.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-The entire content of the page has been transcribed. The page is fully legible and complete.
+This page has been fully and accurately transcribed. It is a complete page from a multi-page document.
 
 ## Visual Region Manifest
-
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other visual elements suitable for cropping."
-}
+{"visual_regions": [], "no_visual_regions_reason": "This page consists entirely of typed text with no images, illustrations, or other visual elements suitable for cropping."}
 ```
 
 ## Page Metadata
-
-- task_id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005`
-- page_num: 5
-- source_id: `CV of Dario Arturo Pulgar.pdf`
+- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005`
+- Model route: `pro`
+- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
+- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0005.md`
+- Page: 5
+- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0005.md`
+- External research relevance: `high`
+- External requested treatment: `reread`
+- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
+- Recommended action: ``
+- Quality flags: none
+- Technical reread clues: none
 
 ## Layout And Reading Order
-
-The page consists of a single column of typed text. The content is organized into sections, each representing a professional engagement. Sections are typically headed by a year or date range. The reading order is from top to bottom.
+The page consists of a single column of text. The content is a continuation of a curriculum vitae, with entries organized chronologically. Each entry is headed by a year or date range, followed by the name of the organization, location, the individual's role, and a descriptive paragraph. The reading order is from top to bottom.
 
 ## Literal Transcription
-
 **1999**
 
 **National Trust Fund for Protected Areas in Peru (PROFONANPE)**
@@ -153,7 +140,6 @@ contract between the European Commission, Arca Consulting and the Lesotho Highla
 Development Authority.
 
 **1997-1998**
-
 **Klohn Crippen Consultants**
 **Huaraz, Peru**
 **Socio-economic Consultant**
@@ -168,24 +154,17 @@ Review implementation of a proposed training programme for the Development of th
 Maracaibo Plain Project. Co-ordinate with the World Bank and Canadian agencies a study tour
 
 ## Images, Captions, And Visual Notes
-
-There are no images, captions, or other visual elements on this page. The page consists entirely of typed text.
+There are no images, captions, or other visual elements on this page. The content is entirely text.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-The page is fully transcribed. The final line of text at the bottom of the page is cut off, ending the sentence abruptly.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
-
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed text and has no meaningful visual regions such as photographs, illustrations, maps, or stamps."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of typed text and contains no images, illustrations, or other visual elements."}
 ```
 
 ## Page Metadata
@@ -207,7 +186,7 @@ The page is fully transcribed. The final line of text at the bottom of the page 
 
 ## Layout And Reading Order
 
-The page consists of a single column of text. The reading order is from top to bottom. The content is a continuation of a curriculum vitae, with entries organized chronologically by date ranges. Each entry includes the organization, location, job title, and a description of responsibilities.
+The page contains a single column of text. The content is a continuation of a curriculum vitae, organized chronologically in reverse order. Each entry consists of a date range, an organization name, a location, a job title, and a description of responsibilities. Date ranges are underlined, while organization names, locations, and job titles are in bold. The reading order is from top to bottom.
 
 ## Literal Transcription
 
@@ -265,7 +244,7 @@ Establish a Development Support Communication Centre (DSC) in the city of Dikern
 
 ## Images, Captions, And Visual Notes
 
-There are no images, captions, or other visual elements on this page.
+This page contains only text. There are no images, captions, or other visual elements.
 
 ## Uncertain Or Illegible
 
@@ -273,7 +252,7 @@ There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-This page is fully transcribed.
+The entire content of the page has been transcribed.
 
 ## Visual Region Manifest
 
@@ -285,12 +264,14 @@ This page is fully transcribed.
 ```
 
 ## Page Metadata
-## Layout And Reading Order
+- **Page number**: 7 (inferred from filename `p0007`)
+- **Document title**: CV of Dario Arturo Pulgar
+- **Document type**: Curriculum Vitae
 
-The page contains a single column of text. The content is a continuation of a curriculum vitae, listing professional experiences in chronological order (most recent first). Each entry is structured with dates, the name of the organization, the location, and the job title, followed by a descriptive paragraph. The reading order is from top to bottom.
+## Layout And Reading Order
+The page is a single column of text. The content is organized chronologically in reverse order, with each entry representing a professional role. Each entry typically includes a date range, the name of the organization, the location, a job title, and a descriptive paragraph. Headings for dates, organizations, locations, and titles are in bold. The reading order is from top to bottom.
 
 ## Literal Transcription
-
 Governorate and the design and implementation of a modified Training and Visit System of
 Extension, coordinating the activities of the Government of Egypt (GOE) extension organisation
 with the project. Ensure liaison with governmental organisations in the agricultural field.
@@ -343,41 +324,33 @@ EMBRAFILME Audio Visual Centre, and v) prepare a plan of operations of a health
 communication project with special emphasis on rural areas for CIDA in Islamabad, Pakistan
 
 ## Images, Captions, And Visual Notes
-
-This page contains only text. There are no images, captions, or other visual elements.
+This page contains only text. There are no images, illustrations, stamps, or other visual elements.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-The entire content of the page has been transcribed.
+The transcription is a complete and accurate representation of all text on the page.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page consists entirely of typed text and contains no images, illustrations, or other visual elements."
+  "no_visual_regions_reason": "The page consists entirely of typed text and does not contain any images, illustrations, photographs, or other significant visual elements that would warrant cropping."
 }
 ```
 
 ## Page Metadata
-
-- task_id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0008`
-- page_number: 8
-- source_id: `CV of Dario Arturo Pulgar.pdf`
+- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0008`
+- Page: 8
 
 ## Layout And Reading Order
-
-The page is a single column of text, continuing a curriculum vitae. The content is organized chronologically in reverse order, with each professional experience listed under a heading that includes the date range. Each entry consists of the date range (underlined), the employer's name (bold), the location, the job title (bold), and a descriptive paragraph. The page ends with the heading "EDUCATION". The reading order is from top to bottom.
+This page is a single column of text. The content is organized into sections, each detailing a professional experience. The reading order is from top to bottom. Each experience section begins with a date range, followed by the organization, location, and job title, and then a descriptive paragraph. The page concludes with the heading "EDUCATION".
 
 ## Literal Transcription
-
 **<u>1979 - 1982</u>**
 **United Nations Centre for Human Settlements (HABITAT)**
-Nairobi, Kenya
+**Nairobi, Kenya**
 **Development Support Communications Officer**
 Establish a worldwide distribution system for films produced for Habitat, United Nations
 Conference on Human Settlements. Supervise the production of language versions and release
@@ -392,7 +365,7 @@ support of rural/urban settlers.
 
 **<u>1974 - 1978</u>**
 **National Film Board of Canada (NFB)**
-Montreal, Canada
+**Montreal, Canada**
 **Audio Visual Consultant**
 As part of the NFB involvement with the United Nations Conference on Human Settlements
 identify suitable locations for filming, describing rural and urban problems and attempted
@@ -408,7 +381,7 @@ dialogue into English.
 
 **<u>1972 - 1973</u>**
 **Chile Films**
-Santiago, Chile
+**Santiago, Chile**
 **General Manager Distribution and Exhibition, Head of International Department**
 Develop a national policy for film distribution and exhibition. Purchase films for theatrical
 exhibition. Administer the operation of ten cinemas and a distribution company. Organise the III
@@ -418,7 +391,7 @@ for possible purchase. Organise film festivals and retrospective.
 
 **<u>1970 - 1972</u>**
 **Cine, Televisión y Comunicaciones (CITELCO)**
-Santiago, Chile
+**Santiago, Chile**
 **Producer**
 Direct company operations and produce feature theatrical films and documentaries. Organise
 co-production of documentaries with Italy. Feature films produced include: "La Colonia Penal"",
@@ -427,62 +400,50 @@ co-production of documentaries with Italy. Feature films produced include: "La C
 **EDUCATION**
 
 ## Images, Captions, And Visual Notes
-
-This page contains only text. There are no images, illustrations, or other visual elements.
+This page consists entirely of text. The date ranges for each professional experience are underlined. The organization, location, and job title for each experience are in bold text.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
-
-The entire content of the page has been transcribed. The page ends with the heading "EDUCATION", indicating that this section likely continues on the following page.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page consists entirely of typed text and does not contain any images, illustrations, or other non-textual visual elements."
+  "no_visual_regions_reason": "This page contains only text and does not have any images, illustrations, or other visual elements that would be suitable for cropping."
 }
 ```
 
 ## Page Metadata
 
-- Page-of-pages: 9
-- Document-type: cv
-- Document-title: CV of Dario Arturo Pulgar
-- Source-path: `raw/sources/CV of Dario Arturo Pulgar.pdf`
+- **Page number**: 9
+- **Source document**: CV of Dario Arturo Pulgar.pdf
 
 ## Layout And Reading Order
 
-The page is a single column of typewritten text. The content is divided into two sections.
-
-The first section lists educational history. Each entry is formatted with a date range on the left, followed by a colon, and then the description of the institution and degree on the right. Some entries have multiple lines of description, which are indented.
-
-The second section is titled "LANGUAGES" and lists spoken and written language proficiency.
-
-The reading order is top to bottom.
+The page is a single column of typed text. The content is divided into two sections. The first section lists educational history, formatted with date ranges on the left and institutional details on the right. The second section, titled "LANGUAGES," lists spoken and written languages, also in a two-column format. The reading order is from top to bottom.
 
 ## Literal Transcription
 
 1967 - 1968 : Stanford University. Stanford, California
-              Fulbright Scholarship. M.A. Communications
+Fulbright Scholarship. M.A. Communications
 
 1963 - 1966 : Universidad de Concepción, Escuela de Periodismo. Chile
-              Journalism
+Journalism
 
 1960 - 1963 : Universidad de Concepción, Escuela de Derecho. Chile
-              Field of Study: Law
+Field of Study: Law
 
 1954 - 1959 : Liceo Enrique Molina. Concepción, Chile
-              Humanities, Baccalaureate
+Humanities, Baccalaureate
 
 **LANGUAGES**
 
-Spoken:       Spanish, English, French, Italian, and Portuguese
+Spoken: Spanish, English, French, Italian, and Portuguese
 
-Written:      Spanish, English, French
+Written: Spanish, English, French
 
 ## Images, Captions, And Visual Notes
 
@@ -494,13 +455,13 @@ All text on this page is clear and legible.
 
 ## Completeness Audit
 
-This page is complete and has been fully transcribed.
+This page is simple and has been fully and accurately transcribed.
 
 ## Visual Region Manifest
 
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page consists entirely of typewritten text with no images, illustrations, or other significant visual elements."
+  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other meaningful visual elements to crop."
 }
 ```

@@ -1,15 +1,23 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-3c4018417383-P0001-02
+chunk_id: CHUNK-c4be04efe1d7-P0003-01
 source_converted: raw/converted/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10.codex.md
-converted_sha256: 3c401841738366f0686b39699ef6f2446e93f3577b04e0d3b7cc2092357b32e1
+converted_sha256: c4be04efe1d735e210f6faa95588329f843906c78aed94b1cf8b57dcbcfcdcad
 source: raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf
 source_sha256: 3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16
 source_manifest: raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json
-page_start: 1
-page_end: 1
-part: 2
+page_start: 3
+page_end: 3
+part: 1
 ---
+
+## Page Metadata
+- Page number: 3
+- Source publication: Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.
+- Document type: Journal Article
+
+## Layout And Reading Order
+The page begins with a header indicating machine translation, followed by the article's author and title information. The main content area is dominated by five portrait-style photographs arranged in a 2x3 grid (three on the top row, two on the bottom row, with the third top image being wider). To the right of the bottom two images is a caption for all five photographs. Below the images and caption, the page content continues in two columns of text. A page number is present in the bottom right corner.
 
 ## Literal Transcription
 Machine Translated by Google
@@ -191,10 +199,3 @@ All visible text and images on the page have been transcribed and described.
   ]
 }
 ```
-
-## Page Metadata
-Page 4
-
-## Layout And Reading Order
-
-The page begins with a header containing author names and publication information, followed by a "Machine Translated by Google" banner. Below this, the main content is presented in two columns. The left column contains text describing the Anatomy for Dentistry course, while the right column discusses the practical training for Dentistry students in 1920 and the First Anatomy Pavilion. The text flows from the top of the left column to the bottom, then from the top of the right column to the bottom. Below the main text columns, there is a large image spanning both columns, accompanied by a caption. A page number "652" is at the bottom left.
