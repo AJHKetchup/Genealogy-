@@ -501,6 +501,133 @@ No uncertainty.
     assert lint_genealogy_wiki(tmp_path) == []
 
 
+def test_promote_staged_claim_uses_proof_review_readiness(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    staged_packets = tmp_path / "research" / "_staging" / "source-packets"
+    staged_claims = tmp_path / "research" / "_staging" / "claims"
+    staged_reviews = tmp_path / "research" / "_staging" / "reviews"
+    staged_packets.mkdir(parents=True, exist_ok=True)
+    staged_claims.mkdir(parents=True, exist_ok=True)
+    staged_reviews.mkdir(parents=True, exist_ok=True)
+    (staged_packets / "SP-STAGE-Reviewed.md").write_text(
+        """---
+type: source_packet
+status: draft
+source_id: SP-STAGE-REVIEWED
+source_kind: register
+raw_file: raw/sources/reviewed.png
+---
+
+# Source Packet: Reviewed
+
+## Literal Transcription
+
+Reviewed Person appears in the register.
+
+## Translation
+
+Not needed.
+
+## Interpretation
+
+The entry supports a name claim.
+
+## Uncertain Or Illegible
+
+None.
+""",
+        encoding="utf-8",
+    )
+    claim_path = staged_claims / "CL-STAGE-Reviewed-Person.md"
+    claim_path.write_text(
+        """---
+type: claim
+status: draft
+claim_type: name
+confidence: 8.0
+subject: Reviewed Person
+predicate: recorded_name
+object: Reviewed Person
+source: raw/converted/reviewed.codex.md
+source_packet: research/_staging/source-packets/SP-STAGE-Reviewed.md
+promotion_recommendation: promote_after_review
+---
+
+# Atomic Claim: Reviewed Person
+
+## Literal Source Support
+
+```text
+Reviewed Person
+```
+""",
+        encoding="utf-8",
+    )
+    staged_reviews.joinpath("reviewed-person-proof-review.md").write_text(
+        """---
+type: proof_review
+task_id: proof-review:research/_staging/claims/CL-STAGE-Reviewed-Person.md
+staged_draft: research/_staging/claims/CL-STAGE-Reviewed-Person.md
+canonical_readiness: ready_with_caveats
+---
+
+# Proof Review
+
+The literal support is sufficient for cautious promotion.
+""",
+        encoding="utf-8",
+    )
+
+    summary = promote_staged_drafts(tmp_path)
+
+    assert (tmp_path / "research" / "claims" / "cl-stage-reviewed-person.md").exists()
+    assert (tmp_path / "wiki" / "people" / "reviewed-person.md").exists()
+    assert not summary["skipped"]
+
+
+def test_promote_staged_claim_waits_for_revise_review(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    staged_claims = tmp_path / "research" / "_staging" / "claims"
+    staged_reviews = tmp_path / "research" / "_staging" / "reviews"
+    staged_claims.mkdir(parents=True, exist_ok=True)
+    staged_reviews.mkdir(parents=True, exist_ok=True)
+    staged_claims.joinpath("CL-STAGE-Needs-Revision.md").write_text(
+        """---
+type: claim
+status: draft
+claim_type: name
+confidence: 8.0
+subject: Revision Person
+predicate: recorded_name
+object: Revision Person
+source: raw/converted/revision.codex.md
+promotion_recommendation: promote_after_review
+---
+
+# Atomic Claim: Revision Person
+""",
+        encoding="utf-8",
+    )
+    staged_reviews.joinpath("needs-revision-proof-review.md").write_text(
+        """---
+type: proof_review
+staged_draft: research/_staging/claims/CL-STAGE-Needs-Revision.md
+canonical_readiness: revise
+---
+
+# Proof Review
+
+Revise before promotion.
+""",
+        encoding="utf-8",
+    )
+
+    summary = promote_staged_drafts(tmp_path)
+
+    assert not (tmp_path / "research" / "claims" / "cl-stage-needs-revision.md").exists()
+    assert summary["skipped"][0]["reason"] == "proof review canonical_readiness=revise"
+
+
 def test_source_packet_preserves_transcription_translation_interpretation_sections(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     raw_file = tmp_path / "raw" / "converted" / "record.md"

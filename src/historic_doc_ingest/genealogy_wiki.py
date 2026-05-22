@@ -1287,6 +1287,7 @@ def promote_staged_drafts(
     staged_packets = sorted((paths.staging / "source-packets").glob("*.md"))
     staged_claims = sorted((paths.staging / "claims").glob("*.md"))
     staged_relationships = sorted((paths.staging / "relationships").glob("*.md"))
+    review_readiness = load_review_readiness_by_staged(paths)
 
     packet_map: dict[str, str] = {}
     packet_records: list[dict[str, object]] = []
@@ -1305,16 +1306,19 @@ def promote_staged_drafts(
 
     promoted_claims: list[dict[str, str]] = []
     claim_map: dict[str, str] = {}
+    used_packet_links: set[str] = set()
     for staged_claim in staged_claims:
         text = read_text(staged_claim)
         frontmatter = parse_frontmatter(text)
         if frontmatter.get("type") != "claim":
             continue
-        if not is_stage_eligible_for_promotion(text, frontmatter, include_revise, include_hold):
+        staged_rel = staged_claim.relative_to(paths.root).as_posix()
+        readiness = review_readiness.get(staged_rel, "")
+        if not is_stage_eligible_for_promotion(text, frontmatter, include_revise, include_hold, readiness):
             summary_list(summary, "skipped").append(
                 {
-                    "path": staged_claim.relative_to(paths.root).as_posix(),
-                    "reason": promotion_recommendation(text, frontmatter) or "no promotion recommendation",
+                    "path": staged_rel,
+                    "reason": promotion_block_reason(text, frontmatter, readiness),
                 }
             )
             continue
@@ -1325,6 +1329,8 @@ def promote_staged_drafts(
         subject_name = frontmatter.get("subject", "")
         subject_link = ensure_person_page(paths, subject_name, summary, dry_run=dry_run)
         packet_link = lookup_staged_reference(frontmatter.get("source_packet", ""), packet_map)
+        if packet_link:
+            used_packet_links.add(packet_link)
         source_link = ensure_source_page(
             paths,
             frontmatter.get("source", ""),
@@ -1376,6 +1382,25 @@ def promote_staged_drafts(
         if not isinstance(staged_packet, Path) or not isinstance(canonical_path, Path) or not isinstance(canonical_link, str):
             continue
         packet_text = str(packet_record.get("text", ""))
+        packet_rel = staged_packet.relative_to(paths.root).as_posix()
+        packet_frontmatter = parse_frontmatter(packet_text)
+        packet_readiness = review_readiness.get(packet_rel, "")
+        packet_is_referenced = canonical_link in used_packet_links
+        packet_is_ready = is_stage_eligible_for_promotion(
+            packet_text,
+            packet_frontmatter,
+            include_revise,
+            include_hold,
+            packet_readiness,
+        )
+        if not packet_is_referenced and not packet_is_ready:
+            summary_list(summary, "skipped").append(
+                {
+                    "path": packet_rel,
+                    "reason": promotion_block_reason(packet_text, packet_frontmatter, packet_readiness),
+                }
+            )
+            continue
         packet_text = replace_promoted_references(packet_text, claim_map)
         packet_text = replace_promoted_references(packet_text, packet_map)
         packet_text = update_markdown_frontmatter(packet_text, {"status": "promoted"})
@@ -1397,11 +1422,13 @@ def promote_staged_drafts(
     for staged_relationship in staged_relationships:
         text = read_text(staged_relationship)
         frontmatter = parse_frontmatter(text)
-        if not is_stage_eligible_for_promotion(text, frontmatter, include_revise, include_hold):
+        staged_rel = staged_relationship.relative_to(paths.root).as_posix()
+        readiness = review_readiness.get(staged_rel, "")
+        if not is_stage_eligible_for_promotion(text, frontmatter, include_revise, include_hold, readiness):
             summary_list(summary, "skipped").append(
                 {
-                    "path": staged_relationship.relative_to(paths.root).as_posix(),
-                    "reason": promotion_recommendation(text, frontmatter) or "no promotion recommendation",
+                    "path": staged_rel,
+                    "reason": promotion_block_reason(text, frontmatter, readiness),
                 }
             )
             continue
@@ -1466,11 +1493,13 @@ def normalize_promotion_value(value: str) -> str:
     normalized = value.strip().lower().replace("-", "_").replace(" ", "_")
     if normalized in {"promote", "approved", "ready", "ready_to_promote"}:
         return "promote"
-    if normalized in {"revise", "needs_revision", "needs_review", "review"}:
+    if normalized.startswith("promote_after") or normalized.startswith("promote_supported"):
+        return "promote_after_review"
+    if normalized in {"revise", "needs_revision", "needs_review", "review"} or normalized.startswith("revise"):
         return "revise"
-    if normalized in {"hold", "blocked", "defer"}:
+    if normalized in {"hold", "blocked", "defer"} or normalized.startswith("hold"):
         return "hold"
-    if normalized in {"reject", "rejected", "do_not_promote"}:
+    if normalized in {"reject", "rejected", "do_not_promote"} or normalized.startswith("do_not_promote"):
         return "reject"
     return normalized
 
@@ -1480,15 +1509,108 @@ def is_stage_eligible_for_promotion(
     frontmatter: dict[str, str],
     include_revise: bool,
     include_hold: bool,
+    review_readiness: str = "",
 ) -> bool:
     recommendation = promotion_recommendation(text, frontmatter)
+    readiness = normalize_review_readiness(review_readiness)
+    if readiness:
+        if review_readiness_allows_promotion(readiness):
+            return recommendation != "reject"
+        if review_readiness_is_revise(readiness):
+            return include_revise
+        return include_hold
     if recommendation == "promote":
         return True
+    if recommendation == "promote_after_review":
+        return False
     if recommendation == "revise":
         return include_revise
     if recommendation in {"hold", "reject"}:
         return include_hold
     return False
+
+
+def promotion_block_reason(text: str, frontmatter: dict[str, str], review_readiness: str = "") -> str:
+    recommendation = promotion_recommendation(text, frontmatter)
+    readiness = normalize_review_readiness(review_readiness)
+    if readiness:
+        return f"proof review canonical_readiness={readiness}"
+    return recommendation or "no promotion recommendation"
+
+
+def normalize_review_readiness(value: str) -> str:
+    normalized = value.strip().strip("`").strip().lower().replace("-", "_").replace(" ", "_")
+    return re.sub(r"[^a-z0-9_]", "", normalized)
+
+
+def review_readiness_allows_promotion(value: str) -> bool:
+    normalized = normalize_review_readiness(value)
+    return normalized in {"ready", "ready_with_caveats", "ready_to_promote", "promote", "approved"}
+
+
+def review_readiness_is_revise(value: str) -> bool:
+    normalized = normalize_review_readiness(value)
+    return normalized in {"revise", "needs_revision", "needs_rework"} or normalized.startswith("revise")
+
+
+def load_review_readiness_by_staged(paths: WikiPaths) -> dict[str, str]:
+    review_dir = paths.staging / "reviews"
+    readiness_by_staged: dict[str, str] = {}
+    if not review_dir.exists():
+        return readiness_by_staged
+    for review_path in sorted(review_dir.glob("*.md")):
+        text = read_text(review_path)
+        staged = extract_review_staged_draft(text)
+        readiness = extract_review_canonical_readiness(text)
+        if not staged or not readiness:
+            continue
+        readiness_by_staged[normalize_review_staged_path(staged)] = readiness
+    return readiness_by_staged
+
+
+def extract_review_staged_draft(text: str) -> str:
+    frontmatter = parse_frontmatter(text)
+    staged = frontmatter.get("staged_draft", "")
+    if staged:
+        return staged
+    task_id = frontmatter.get("task_id", "")
+    if task_id.startswith("proof-review:"):
+        return task_id.removeprefix("proof-review:")
+    patterns = (
+        r"(?im)^\s*-\s*Reviewed staged draft:\s*`([^`]+)`",
+        r"(?im)^\s*Reviewed staged draft:\s*`([^`]+)`",
+        r"(?im)^\s*-\s*Review task id:\s*`proof-review:([^`]+)`",
+        r"(?im)^\s*Review task id:\s*`proof-review:([^`]+)`",
+    )
+    for pattern in patterns:
+        match = re.search(pattern, text)
+        if match:
+            return match.group(1).strip()
+    return ""
+
+
+def extract_review_canonical_readiness(text: str) -> str:
+    frontmatter = parse_frontmatter(text)
+    readiness = frontmatter.get("canonical_readiness", "")
+    if readiness:
+        return readiness
+    patterns = (
+        r"(?im)^\s*-\s*canonical_readiness:\s*`?([^`\r\n]+)`?",
+        r"(?im)^\s*canonical_readiness:\s*`?([^`\r\n]+)`?",
+    )
+    for pattern in patterns:
+        match = re.search(pattern, text)
+        if match:
+            return match.group(1).strip()
+    return ""
+
+
+def normalize_review_staged_path(value: str) -> str:
+    normalized = value.strip().strip("`").replace("\\", "/")
+    normalized = normalized.removeprefix("./")
+    if not normalized.endswith(".md"):
+        normalized += ".md"
+    return normalized
 
 
 def add_staged_reference_mapping(mapping: dict[str, str], paths: WikiPaths, staged_path: Path, canonical_link: str) -> None:
@@ -11910,6 +12032,10 @@ Use `$genealogy-claim-extraction`.
 
 - Relevant source packets, atomic claim drafts, relationship candidates, identity/conflict candidates, and research tasks are written under `research/_staging/`.
 - Every draft has source path, converted file, chunk/page reference, literal support, conversion confidence/QA concern, uncertainty, and promotion recommendation.
+- Source packets must be Markdown files under `research/_staging/source-packets/` with YAML frontmatter including `type: source_packet`, `status: draft`, source identity fields, chunk/page references, and `promotion_recommendation`.
+- Atomic claim drafts that may become canonical must be individual Markdown files under `research/_staging/claims/` with YAML frontmatter including `type: claim`, `claim_type`, `subject`, `predicate`, `object`, `source`, `source_packet`, `chunk`, `chunk_id`, `page_reference`, `confidence`, and `promotion_recommendation`. A grouped claim overview can be written as an extra note, but not instead of promotable atomic claim files.
+- Relationship candidates that may become tree links must be individual Markdown files under `research/_staging/relationships/` with YAML frontmatter including `type: relationship_candidate`, `relationship_type`, `person_a`/`person_b` or `child`/`parents`, `source_packet`, `confidence`, and `promotion_recommendation`. If no relationship is stated, write a negative-evidence note with `promotion_recommendation: do_not_promote`.
+- Use `promotion_recommendation: promote_after_review` only for drafts that can be promoted after proof review. Use `hold_for_conversion_qa`, `revise_before_review`, or `do_not_promote` for anything that should not flow to the tree yet.
 - No canonical wiki pages are edited by this extraction task.
 """
 

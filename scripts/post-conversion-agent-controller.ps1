@@ -290,6 +290,15 @@ You are not alone in the codebase. Other workers may be handling separate staged
 }
 
 function New-PromotionPrompt {
+    param([object[]]$ReadyReviews)
+    $readyLines = @()
+    foreach ($review in @($ReadyReviews)) {
+        $readyLines += "- `$($review.staged_draft)` ($($review.canonical_readiness); review: `$($review.review_file)`)"
+    }
+    if ($readyLines.Count -eq 0) {
+        $readyLines = @("- No proof-review notes are currently marked `canonical_readiness: ready` or `ready_with_caveats`.")
+    }
+    $readySection = ($readyLines -join "`n")
     return @"
 # Reviewed Promotion Task
 
@@ -305,6 +314,10 @@ You are a promotion worker for this exact workspace:
 - Review folder: `research/_staging/reviews/`
 - Promotion command: `python -m historic_doc_ingest.genealogy_wiki promote-staged --root "$Root"`
 
+## Review-Ready Inputs
+
+$readySection
+
 ## Rules
 
 - Promote only staged material with explicit review notes showing strong source support, conservative scores, and `canonical_readiness: ready`.
@@ -319,6 +332,100 @@ You are a promotion worker for this exact workspace:
 
 - A promotion manifest exists under `research/_staging/promotions/`, or the task writes a review note explaining why nothing was safe to promote.
 "@
+}
+
+function Get-ReviewFrontmatterValue {
+    param([string]$Text, [string]$Name)
+    $match = [regex]::Match($Text, "(?ms)^---\s*\r?\n(.*?)\r?\n---")
+    if (-not $match.Success) { return "" }
+    $frontmatter = $match.Groups[1].Value
+    $pattern = "(?im)^\s*" + [regex]::Escape($Name) + "\s*:\s*(.+?)\s*$"
+    $valueMatch = [regex]::Match($frontmatter, $pattern)
+    if (-not $valueMatch.Success) { return "" }
+    return $valueMatch.Groups[1].Value.Trim().Trim("`"")
+}
+
+function Normalize-ReviewReadiness {
+    param([string]$Value)
+    return (($Value.Trim().Trim("``").ToLowerInvariant() -replace "[-\s]+", "_") -replace "[^a-z0-9_]", "")
+}
+
+function Test-ReviewReadyForPromotion {
+    param([string]$Value)
+    $normalized = Normalize-ReviewReadiness -Value $Value
+    return $normalized -in @("ready", "ready_with_caveats", "ready_to_promote", "promote", "approved")
+}
+
+function Test-StagedDraftCanBePromoted {
+    param([string]$StagedDraft)
+    $relative = ($StagedDraft -replace "\\", "/").Trim().Trim("``").Trim('"').Trim("'")
+    if ([string]::IsNullOrWhiteSpace($relative)) { return $false }
+    $path = Resolve-UnderRoot -Path $relative
+    if (-not (Test-Path -LiteralPath $path)) { return $false }
+    $text = Get-Content -LiteralPath $path -Raw
+    $type = (Get-ReviewFrontmatterValue -Text $text -Name "type").Trim().ToLowerInvariant()
+    if ($type -notin @("claim", "relationship_candidate", "source_packet", "staged_source_packet")) {
+        return $false
+    }
+    $recommendation = (Get-ReviewFrontmatterValue -Text $text -Name "promotion_recommendation").Trim().ToLowerInvariant()
+    if ($recommendation -in @("reject", "rejected", "do_not_promote")) {
+        return $false
+    }
+    return $true
+}
+
+function Get-ReadyPromotionReviews {
+    $reviewDir = Join-Path $Root "research\_staging\reviews"
+    if (-not (Test-Path -LiteralPath $reviewDir)) { return @() }
+    $ready = @()
+    foreach ($file in (Get-ChildItem -LiteralPath $reviewDir -Filter "*.md" -File | Sort-Object FullName)) {
+        $text = Get-Content -LiteralPath $file.FullName -Raw
+        $staged = Get-ReviewFrontmatterValue -Text $text -Name "staged_draft"
+        if ([string]::IsNullOrWhiteSpace($staged)) {
+            $taskId = Get-ReviewFrontmatterValue -Text $text -Name "task_id"
+            if ($taskId.StartsWith("proof-review:")) {
+                $staged = $taskId.Substring("proof-review:".Length)
+            }
+        }
+        if ([string]::IsNullOrWhiteSpace($staged)) {
+            $match = [regex]::Match($text, "(?im)^\s*-?\s*Reviewed staged draft:\s*``([^``]+)``")
+            if ($match.Success) { $staged = $match.Groups[1].Value.Trim() }
+        }
+        if ([string]::IsNullOrWhiteSpace($staged)) {
+            $match = [regex]::Match($text, "(?im)^\s*-?\s*Review task id:\s*``proof-review:([^``]+)``")
+            if ($match.Success) { $staged = $match.Groups[1].Value.Trim() }
+        }
+        $readiness = Get-ReviewFrontmatterValue -Text $text -Name "canonical_readiness"
+        if ([string]::IsNullOrWhiteSpace($readiness)) {
+            $match = [regex]::Match($text, "(?im)^\s*-?\s*canonical_readiness:\s*``?([^``\r\n]+)``?")
+            if ($match.Success) { $readiness = $match.Groups[1].Value.Trim() }
+        }
+        if ([string]::IsNullOrWhiteSpace($staged) -or -not (Test-ReviewReadyForPromotion -Value $readiness)) { continue }
+        if (-not (Test-StagedDraftCanBePromoted -StagedDraft $staged)) { continue }
+        $ready += [pscustomobject]@{
+            staged_draft = ($staged -replace "\\", "/").Trim().Trim("``")
+            canonical_readiness = $readiness
+            review_file = ConvertTo-RelativePath -Path $file.FullName
+        }
+    }
+    return @($ready)
+}
+
+function Get-PromotionFingerprint {
+    param([object[]]$ReadyReviews)
+    if ($ReadyReviews.Count -eq 0) { return "none" }
+    $joined = (@($ReadyReviews) | Sort-Object staged_draft, review_file | ForEach-Object {
+        "$($_.staged_draft)|$($_.canonical_readiness)|$($_.review_file)"
+    }) -join "`n"
+    $bytes = [System.Text.Encoding]::UTF8.GetBytes($joined)
+    $sha = [System.Security.Cryptography.SHA256]::Create()
+    try {
+        $hashBytes = $sha.ComputeHash($bytes)
+    }
+    finally {
+        $sha.Dispose()
+    }
+    return ([System.BitConverter]::ToString($hashBytes).Replace("-", "").ToLowerInvariant()).Substring(0, 12)
 }
 
 function Write-ProofReviewQueue {
@@ -456,13 +563,17 @@ function Write-IdentityAnalysisQueue {
 function Write-PromotionQueue {
     param([hashtable]$TaskState)
     $promptRoot = Join-Path $QueueDir "prompts\wiki-promotion"
-    $promptPath = Join-Path $promptRoot "wiki-promotion-reviewed-ready.md"
+    $readyReviews = @(Get-ReadyPromotionReviews)
+    $fingerprint = Get-PromotionFingerprint -ReadyReviews $readyReviews
+    $promptPath = Join-Path $promptRoot "wiki-promotion-reviewed-ready-$fingerprint.md"
     $task = [ordered]@{
-        task_id = "wiki-promotion:reviewed-ready"
+        task_id = "wiki-promotion:reviewed-ready:$fingerprint"
         queue = "wiki-promotion"
         role = "wiki_promoter"
         skill = "genealogy-proof-review"
-        status = if ($AllowPromotion) { "todo" } else { "disabled_requires_allow_promotion" }
+        status = if (-not $AllowPromotion) { "disabled_requires_allow_promotion" } elseif ($readyReviews.Count -gt 0) { "todo" } else { "blocked_no_reviewed_ready" }
+        ready_review_count = $readyReviews.Count
+        ready_review_fingerprint = $fingerprint
         prompt_path = ConvertTo-RelativePath -Path $promptPath
     }
     $taskHash = @{}
@@ -478,7 +589,7 @@ function Write-PromotionQueue {
     }
     if (-not $DryRun) {
         New-Item -ItemType Directory -Force -Path $promptRoot | Out-Null
-        New-PromotionPrompt | Set-Content -LiteralPath $promptPath -Encoding UTF8
+        New-PromotionPrompt -ReadyReviews $readyReviews | Set-Content -LiteralPath $promptPath -Encoding UTF8
         Write-JsonFile -Path $PromotionQueuePath -Value $payload -Depth 12
     }
     return $payload
