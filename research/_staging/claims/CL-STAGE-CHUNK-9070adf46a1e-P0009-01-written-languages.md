@@ -1,0 +1,33 @@
+---
+type: claim
+claim_type: language
+status: draft
+task_id: evidence-extraction:CHUNK-9070adf46a1e-P0009-01
+worker: postconv-evidence-extraction-20260522084113546
+subject: Dario Arturo Pulgar
+predicate: writes
+object: Spanish, English, French
+source: raw/sources/CV of Dario Arturo Pulgar.pdf
+source_path: raw/sources/CV of Dario Arturo Pulgar.pdf
+source_packet: research/_staging/source-packets/SP-STAGE-CHUNK-9070adf46a1e-P0009-01-cv-dario-pulgar-page-9.md
+converted_file: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
+chunk: raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0009-chunk-01.md
+chunk_id: CHUNK-9070adf46a1e-P0009-01
+page_reference: page 9
+literal_support: "Written: Spanish, English, French"
+conversion_confidence: high
+conversion_qa_concern: No significant conversion concern for the language line; proof review should still confirm document-level subject attribution.
+uncertainty: Moderate for subject attribution because page 9 does not restate the CV subject name; low for the written language list.
+confidence: high
+promotion_recommendation: promote_after_review
+---
+
+# Claim: Written Languages
+
+Dario Arturo Pulgar is reported in the CV as writing Spanish, English, and French.
+
+## Support
+
+```text
+Written: Spanish, English, French
+```

@@ -1,6 +1,6 @@
 {
   "created": "2026-05-22T01:02:23Z",
-  "updated": "2026-05-22T06:01:14Z",
+  "updated": "2026-05-22T08:54:08Z",
   "purpose": "Research-to-conversion relevance hints for source-prep model routing.",
   "hints": [
     {
@@ -162,6 +162,27 @@
       ],
       "agent": "post-conversion-review-feedback",
       "id": "source-relevance:c0084694c64b"
+    },
+    {
+      "status": "active",
+      "created": "2026-05-22T08:54:08Z",
+      "updated": "2026-05-22T08:54:08Z",
+      "task_id": "",
+      "job_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json",
+      "source": "",
+      "source_sha256": "",
+      "converted_file": "",
+      "page": 2,
+      "relevance": "medium",
+      "requested_treatment": "pro_with_crops",
+      "reason": "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
+      "entities": [],
+      "matched_terms": [
+        "proof-review-hold",
+        "missing-page-image"
+      ],
+      "agent": "post-conversion-review-feedback",
+      "id": "source-relevance:a3cf2cb8850b"
     }
   ]
 }

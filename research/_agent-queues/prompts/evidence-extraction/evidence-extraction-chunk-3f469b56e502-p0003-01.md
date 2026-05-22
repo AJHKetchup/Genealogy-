@@ -13,6 +13,17 @@ Use `$genealogy-claim-extraction`.
 - Staging area: `research/_staging`
 
 
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/conversion-review-note-chunk-3f469b56e502-p0003-01-circulation-endpoints-image-reconciliation.md` | `` | `` |  type: conversion_review_note status: draft task_id: evidence-extraction:CHUNK-3f469b56e502-P0003-01 source_packet: "research/_staging/source-packets/sp-stage-chunk-3f469b56e502-p0003-01-league-of-nations-routing-slip.md" source: "raw/sources/R3578-50-5569-5569-Jacket5.pdf" |
+| `research/_staging/reviews/proof-review-research-staging-claims-claim-chunk-3f469b56e502-p0003-01-circulation-range-postconv-proof-review-20260522085920670.md` | `research/_staging/claims/claim-chunk-3f469b56e502-p0003-01-circulation-range.md` | `hold` | Hold for conversion QA. Verify `31.8.29` and `2.4.31` directly against the page 3 image, then re-review for canonical source-metadata readiness. Do not promote this claim to canonical folders from this review alone. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
+
 
 ## Done When
 

@@ -1,10 +1,10 @@
 ﻿{
     "created":  "2026-05-22",
     "queue":  "identity-analysis",
-    "task_count":  54,
+    "task_count":  69,
     "status_counts":  {
                           "done":  3,
-                          "todo":  51
+                          "todo":  66
                       },
     "tasks":  [
                   {
@@ -166,6 +166,56 @@
                       "skill":  "genealogy-proof-review"
                   },
                   {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-id-stage-chunk-3f469b56e502-p0002-01-administrative-names-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/identity/id-stage-chunk-3f469b56e502-p0002-01-administrative-names.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/identity/id-stage-chunk-3f469b56e502-p0002-01-administrative-names.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-id-stage-chunk-3f469b56e502-p0003-01-administrative-name-mentions-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/identity/id-stage-chunk-3f469b56e502-p0003-01-administrative-name-mentions.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/identity/id-stage-chunk-3f469b56e502-p0003-01-administrative-name-mentions.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-id-stage-chunk-3f469b56e502-p0003-01-no-genealogical-identity-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/identity/id-stage-chunk-3f469b56e502-p0003-01-no-genealogical-identity.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/identity/id-stage-chunk-3f469b56e502-p0003-01-no-genealogical-identity.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-id-stage-chunk-3f469b56e502-p0004-01-no-named-person-identity-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/identity/id-stage-chunk-3f469b56e502-p0004-01-no-named-person-identity.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/identity/id-stage-chunk-3f469b56e502-p0004-01-no-named-person-identity.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-id-stage-chunk-3f469b56e502-p0005-01-no-person-identity-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/identity/id-stage-chunk-3f469b56e502-p0005-01-no-person-identity.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/identity/id-stage-chunk-3f469b56e502-p0005-01-no-person-identity.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
                       "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-id-stage-chunk-4127185dc97c-p0172-01-person-identity-candidates-md.md",
                       "output_dir":  "research/_staging/identity-analysis",
                       "queue":  "identity-analysis",
@@ -262,6 +312,36 @@
                       "staged_draft":  "research/_staging/identity/ID-STAGE-CHUNK-9070adf46a1e-P0006-01-dario-cv-subject.md",
                       "role":  "identity_researcher",
                       "task_id":  "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-9070adf46a1e-P0006-01-dario-cv-subject.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-id-stage-chunk-9070adf46a1e-p0007-01-dario-cv-subject-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/identity/ID-STAGE-CHUNK-9070adf46a1e-P0007-01-dario-cv-subject.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-9070adf46a1e-P0007-01-dario-cv-subject.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-id-stage-chunk-9070adf46a1e-p0008-01-identity-candidates-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/identity/ID-STAGE-CHUNK-9070adf46a1e-P0008-01-identity-candidates.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-9070adf46a1e-P0008-01-identity-candidates.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-id-stage-chunk-9070adf46a1e-p0009-01-dario-pulgar-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/identity/ID-STAGE-CHUNK-9070adf46a1e-P0009-01-dario-pulgar.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-9070adf46a1e-P0009-01-dario-pulgar.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   },
@@ -392,6 +472,46 @@
                       "staged_draft":  "research/_staging/conflicts/conflict-stage-chunk-3f469b56e502-p0001-01-no-direct-conflict.md",
                       "role":  "identity_researcher",
                       "task_id":  "identity-analysis:research/_staging/conflicts/conflict-stage-chunk-3f469b56e502-p0001-01-no-direct-conflict.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conflict-stage-chunk-3f469b56e502-p0002-01-no-direct-conflict-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/conflict-stage-chunk-3f469b56e502-p0002-01-no-direct-conflict.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/conflict-stage-chunk-3f469b56e502-p0002-01-no-direct-conflict.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conflict-stage-chunk-3f469b56e502-p0003-01-no-direct-genealogical-conflict-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/conflict-stage-chunk-3f469b56e502-p0003-01-no-direct-genealogical-conflict.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/conflict-stage-chunk-3f469b56e502-p0003-01-no-direct-genealogical-conflict.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conflict-stage-chunk-3f469b56e502-p0004-01-no-direct-genealogical-conflict-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/conflict-stage-chunk-3f469b56e502-p0004-01-no-direct-genealogical-conflict.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/conflict-stage-chunk-3f469b56e502-p0004-01-no-direct-genealogical-conflict.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conflict-stage-chunk-3f469b56e502-p0005-01-source-metadata-qa-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/conflict-stage-chunk-3f469b56e502-p0005-01-source-metadata-qa.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/conflict-stage-chunk-3f469b56e502-p0005-01-source-metadata-qa.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   },
@@ -562,6 +682,36 @@
                       "staged_draft":  "research/_staging/conflicts/CONF-STAGE-CHUNK-5f9286fc64f6-P0009-01-conflict-candidates.md",
                       "role":  "identity_researcher",
                       "task_id":  "identity-analysis:research/_staging/conflicts/CONF-STAGE-CHUNK-5f9286fc64f6-P0009-01-conflict-candidates.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conf-stage-chunk-9070adf46a1e-p0007-01-conflict-candidates-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/CONF-STAGE-CHUNK-9070adf46a1e-P0007-01-conflict-candidates.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/CONF-STAGE-CHUNK-9070adf46a1e-P0007-01-conflict-candidates.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conf-stage-chunk-9070adf46a1e-p0008-01-conflict-candidates-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/CONF-STAGE-CHUNK-9070adf46a1e-P0008-01-conflict-candidates.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/CONF-STAGE-CHUNK-9070adf46a1e-P0008-01-conflict-candidates.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conf-stage-chunk-9070adf46a1e-p0009-01-conflict-candidates-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/CONF-STAGE-CHUNK-9070adf46a1e-P0009-01-conflict-candidates.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/CONF-STAGE-CHUNK-9070adf46a1e-P0009-01-conflict-candidates.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   }
