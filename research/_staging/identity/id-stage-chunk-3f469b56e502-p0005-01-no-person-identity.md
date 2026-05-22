@@ -1,7 +1,7 @@
 ---
 type: identity_candidate
 status: draft
-identity_type: no_person_identity_stated
+identity_type: no_genealogical_person_stated
 confidence: high
 person: null
 source: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md
@@ -10,35 +10,33 @@ source_packet: research/_staging/source-packets/sp-stage-chunk-3f469b56e502-p000
 chunk: raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25-codex/page-0005-chunk-01.md
 chunk_id: CHUNK-3f469b56e502-P0005-01
 page_reference: "page 5"
-conversion_confidence: high
+conversion_confidence: high_for_printed_text_low_for_exact_handwritten_number
 promotion_recommendation: do_not_promote
-tags: [identity-candidate, negative-evidence, staging, treaty-series, source-context]
+tags: [identity-candidate, negative-evidence, source-context, staging]
 ---
 
-# Identity Candidate: No Person Identity Stated
+# Identity Candidate: No Genealogical Person Stated
 
-## Candidate Identity
+## Candidate Result
 
-This page identifies institutions, governments, and publication metadata, but it does not name an individual person for genealogical identity extraction.
+No genealogical person is named or identified in this assigned chunk. The page identifies a treaty publication, government and registry actions, and source-administrative markings.
 
 ## Literal Support
 
 ```text
+TREATY SERIES, No. 846
+
+PRISONERS OF WAR
+-
 CONVENTION
 BETWEEN THE UNITED STATES OF AMERICA
 AND OTHER POWERS
 ```
 
 ```text
+Signed at Geneva, July 27, 1929.
 Ratification advised by the Senate of the United States, January 7,
 1932.
-Ratified by the President of the United States, January 16, 1932.
-```
-
-```text
-UNITED STATES
-GOVERNMENT PRINTING OFFICE
-WASHINGTON : 1932
 ```
 
 ## Source Path
@@ -49,12 +47,12 @@ WASHINGTON : 1932
 
 ## Conversion Confidence And QA Concern
 
-Reading confidence is high for the printed institutional text. The faint `COPY` stamp and handwritten top-center number do not introduce a person identity.
+Reading confidence is high for the printed title and treaty action text that supports this negative identity assessment. The unresolved handwritten top-center number affects source metadata only and does not create a person identity candidate.
 
 ## Uncertainty
 
-Do not create or merge a person profile from this chunk. Offices such as Senate, President, Government of Switzerland, Registry, and Government Printing Office are institutional actors here.
+This negative identity result applies only to the assigned page 5 chunk. Other pages in the source packet may contain person-specific evidence.
 
 ## Promotion Recommendation
 
-Do not promote.
+Do not promote as a person identity candidate.

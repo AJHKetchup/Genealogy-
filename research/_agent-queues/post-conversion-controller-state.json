@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-05-22T09:25:47Z",
+    "updated":  "2026-05-22T11:03:29Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "max_workers":  1,
     "allow_promotion":  true,
@@ -7,7 +7,7 @@
 
                        ],
     "last_summary":  {
-                         "started":  "2026-05-22T09:24:47Z",
+                         "started":  "2026-05-22T11:02:27Z",
                          "root":  "D:\\a\\Genealogy-\\Genealogy-",
                          "dry_run":  false,
                          "allow_promotion":  true,
@@ -27,16 +27,16 @@
                                                           },
                                         "evidence-extraction":  {
                                                                     "blocked_needs_reread":  141,
-                                                                    "done":  12,
-                                                                    "todo":  4872
+                                                                    "done":  15,
+                                                                    "todo":  4869
                                                                 },
                                         "identity-analysis":  {
                                                                   "done":  3,
-                                                                  "todo":  66
+                                                                  "todo":  70
                                                               },
                                         "proof-review":  {
-                                                             "done":  62,
-                                                             "todo":  247,
+                                                             "done":  66,
+                                                             "todo":  267,
                                                              "released":  33
                                                          },
                                         "wiki-promotion":  {
@@ -51,6 +51,6 @@
                          "blockers":  [
 
                                       ],
-                         "finished":  "2026-05-22T09:25:47Z"
+                         "finished":  "2026-05-22T11:03:29Z"
                      }
 }

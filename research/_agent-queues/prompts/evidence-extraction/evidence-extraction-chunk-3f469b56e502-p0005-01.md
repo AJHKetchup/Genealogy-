@@ -19,6 +19,7 @@ Previous proof review found staged outputs for this chunk were not yet promotion
 
 | Review | Staged draft | Readiness | Requested follow-up |
 | --- | --- | --- | --- |
+| `research/_staging/reviews/conversion-qa-note-chunk-3f469b56e502-p0005-01-handwritten-file-number.md` | `` | `` |  type: conversion_qa_note status: draft qa_type: transcription_revision_check source: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md source_path: raw/sources/R3578-50-5569-5569-Jacket5.pdf |
 | `research/_staging/reviews/proof-review-research-staging-claims-claim-chunk-3f469b56e502-p0005-01-handwritten-file-number-postconv-proof-review-20260522091053102.md` | `research/_staging/claims/claim-chunk-3f469b56e502-p0005-01-handwritten-file-number.md` | `hold` | Send the handwritten number through conversion QA as a transcription revision check. Keep this staged claim on hold, or revise it to a less assertive note that the page contains a handwritten top-center file number with the exact reading unresolved. |
 
 When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
