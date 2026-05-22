@@ -25,7 +25,7 @@
   ],
   "automatic_update_path": {
     "internal_research_agents": ".github/workflows/internal-research-agents.yml",
-    "promotion_gate": "Scheduled runs use a separate wiki_promoter pass with allow_promotion=true; promotion still requires reviewed canonical_readiness=ready.",
+    "promotion_gate": "Scheduled runs use a separate wiki_promoter pass with allow_promotion=true; promotion still requires reviewed canonical_readiness=ready. Promotion refreshes person evidence snapshots from canonical claims and relationships so stub profiles become populated automatically.",
     "presentation_builder": ".github/workflows/wiki-site.yml",
     "builder_command": "python -m historic_doc_ingest.genealogy_wiki site --root . --out site",
     "triggers": [

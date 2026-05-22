@@ -45,7 +45,7 @@
     "trigger_contract": "The site rebuilds on main pushes, hourly at minute 41, and after successful Internal Research Agents runs.",
     "separation_contract": "Public pages are person/tree/narrative first. Converted chunks, source-operation dates, QA queues, staging prompts, and automation internals stay in research.html or the source library.",
     "timeline_contract": "The public timeline includes family events and person facts only, never raw converted source dates or automation dates.",
-    "promotion_contract": "Automatic internal-agent runs perform ordinary QA/extraction/review first, then a separate one-worker promotion-only pass. The promoter may move only review-ready material and must keep uncertainty and probability visible. The promotion queue is based on reviewed staged drafts that still lack their expected canonical outputs, so an earlier empty promotion attempt cannot permanently starve ready family-tree material.",
+    "promotion_contract": "Automatic internal-agent runs perform ordinary QA/extraction/review first, then a separate one-worker promotion-only pass. The promoter may move only review-ready material and must keep uncertainty and probability visible. The promotion queue is based on reviewed staged drafts that still lack their expected canonical outputs, so an earlier empty promotion attempt cannot permanently starve ready family-tree material. Every promotion pass refreshes person evidence snapshots from canonical reviewed claims and relationships, so stub pages backfill from durable proof outputs without one-off manual edits.",
     "pc_dependency": "none for hosted workflow runs",
     "provider_api_keys": "not required"
   },

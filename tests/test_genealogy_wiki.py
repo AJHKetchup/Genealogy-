@@ -350,6 +350,10 @@ No uncertainty.
     assert "research vault" not in person_text
     assert "proof-layer" not in person_text
     assert "family tree view" not in person_text
+    assert "## evidence snapshot" in person_text
+    assert "the record names test person." in person_text
+    assert "test place" in person_text
+    assert "[[claims/cl-stage-test-person-name]]" in person_text
     assert summary["manifest"]
     assert lint_genealogy_wiki(tmp_path) == []
 
@@ -498,6 +502,12 @@ No uncertainty.
     assert "Parent Person" in tree_text
     assert "probable parent of" in tree_text
     assert "draft" not in tree_text
+    child_text = (tmp_path / "wiki" / "people" / "child-person.md").read_text(encoding="utf-8")
+    parent_text = (tmp_path / "wiki" / "people" / "parent-person.md").read_text(encoding="utf-8")
+    assert "## Evidence Snapshot" in child_text
+    assert "Parent: Parent Person" in child_text
+    assert "The register names Parent Person as father of Child Person." in child_text
+    assert "Child: Child Person" in parent_text
     assert lint_genealogy_wiki(tmp_path) == []
 
 

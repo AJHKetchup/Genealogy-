@@ -76,6 +76,8 @@ The controller refreshes deterministic state, then launches bounded Codex worker
 
 The controller reserves worker slots across lanes instead of draining the first queue forever. When staged review work exists it is preferred, then identity/evidence extraction, while conversion QA continues in a smaller share of each run. Evidence-extraction tasks are ranked by family relevance from QA metadata, known wiki names, source/chunk text, and proof-review revision state; low-relevance chunks are deferred instead of spending worker time on broad source trivia. This is what moves the tree from converted sources -> staged claims/relationships -> proof review -> canonical wiki pages.
 
+Each promotion pass also refreshes family-facing person pages from canonical reviewed claims and relationships. The person page update is generated from existing proof outputs, so older stub pages are backfilled automatically on the next hosted promotion run instead of needing a one-off manual edit.
+
 Before worker launch, the workflow and controller also run:
 
 ```powershell
@@ -109,6 +111,8 @@ The `Publish Wiki Site` workflow rebuilds the internal Ancestry-style presentati
 - `research.html`: QA, staging, queues, proof review, source usability, and automation state
 
 Converted chunks, source-operation dates, QA prompts, and agent queue internals stay out of the presentation dashboard. Promoted proof-layer relationships can feed the public tree once their people exist; raw staging and queue internals remain in the research backroom.
+
+Person pages expose a generated evidence snapshot with family links, life facts, confidence/status labels, and source links. This keeps the public wiki person-first while still letting the internal research lane preserve uncertainty.
 
 When proof review holds an item because required page images are missing, the internal controller records a page-level source-relevance hint. The internal workflow then restores the needed raw/page-image assets from R2 for review, while the separate source-prep/conversion workflow can still use the same hint to rerun that page at a higher fidelity when the conversion itself needs improvement.
 

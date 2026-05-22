@@ -1279,6 +1279,7 @@ def promote_staged_drafts(
         "claims": [],
         "relationships": [],
         "people": [],
+        "people_refreshed": [],
         "sources": [],
         "skipped": [],
         "manifest": "",
@@ -1447,6 +1448,7 @@ def promote_staged_drafts(
         summary_list(summary, "relationships").extend(promoted)
 
     if not dry_run:
+        summary_list(summary, "people_refreshed").extend(refresh_person_pages_from_research(paths, summary))
         write_claim_index(paths.root)
         write_relationship_index(paths.root)
         write_relationship_graph(paths.root)
@@ -1980,6 +1982,224 @@ def append_source_claim_row(
     confidence = frontmatter.get("confidence", "")
     row = f"| {claim_link} | {subject_link} | {status} | {confidence} | {claim_link} |"
     append_markdown_section_entry(page_path, "Extracted Claims", row)
+
+
+PERSON_EVIDENCE_START = "<!-- BEGIN AUTO-GENERATED PERSON EVIDENCE -->"
+PERSON_EVIDENCE_END = "<!-- END AUTO-GENERATED PERSON EVIDENCE -->"
+
+
+def refresh_person_pages_from_research(paths: WikiPaths, summary: dict[str, object]) -> list[str]:
+    """Refresh family-facing person evidence blocks from canonical reviewed outputs."""
+    claims = build_claim_index(paths.root)
+    relationships = build_relationship_index(paths.root, claims)
+    person_links: set[str] = set()
+    for claim in claims:
+        person_link = normalized_person_link(claim.subject)
+        if person_link and public_claim_status(claim.status):
+            person_links.add(person_link)
+    for relationship in relationships:
+        if not public_relationship_status(relationship.status):
+            continue
+        for value in [relationship.person_a, relationship.person_b]:
+            person_link = normalized_person_link(value)
+            if person_link:
+                person_links.add(person_link)
+
+    refreshed: list[str] = []
+    for person_link in sorted(person_links, key=lambda value: wikilink_target(value)):
+        page_path = person_page_path(paths, person_link)
+        if page_path is None:
+            continue
+        if not page_path.exists():
+            ensure_person_page(paths, person_link, summary, dry_run=False)
+        if not page_path.exists():
+            continue
+        block = render_person_evidence_block(paths, person_link, claims, relationships)
+        if not block:
+            continue
+        text = read_text(page_path)
+        updated = upsert_generated_person_evidence(text, block)
+        if updated != text:
+            page_path.write_text(updated, encoding="utf-8")
+            refreshed.append(page_path.relative_to(paths.root).as_posix())
+    return refreshed
+
+
+def normalized_person_link(value: str) -> str:
+    if not looks_like_wikilink(value):
+        return ""
+    target = wikilink_target(value)
+    if not target.startswith("people/"):
+        return ""
+    return f"[[{target}]]"
+
+
+def person_page_path(paths: WikiPaths, person_link: str) -> Path | None:
+    if not looks_like_wikilink(person_link):
+        return None
+    target = wikilink_target(person_link)
+    if not target.startswith("people/"):
+        return None
+    return paths.wiki / f"{target}.md"
+
+
+def public_claim_status(status: str) -> bool:
+    return status.strip().lower() not in {"rejected", "do_not_promote"}
+
+
+def public_relationship_status(status: str) -> bool:
+    return status.strip().lower() not in {"rejected", "do_not_promote"}
+
+
+def render_person_evidence_block(
+    paths: WikiPaths,
+    person_link: str,
+    claims: list[ClaimRecord],
+    relationships: list[RelationshipRecord],
+) -> str:
+    person_claims = [
+        claim
+        for claim in claims
+        if public_claim_status(claim.status) and normalized_person_link(claim.subject) == person_link
+    ]
+    person_relationships = [
+        relationship
+        for relationship in relationships
+        if public_relationship_status(relationship.status)
+        and person_link in {normalized_person_link(relationship.person_a), normalized_person_link(relationship.person_b)}
+    ]
+    if not person_claims and not person_relationships:
+        return ""
+
+    lines = [
+        PERSON_EVIDENCE_START,
+        "",
+        "Generated from reviewed evidence. Possible and probable items stay labeled until stronger evidence is accepted.",
+        "",
+    ]
+    if person_relationships:
+        lines.extend(["### Family Links", ""])
+        for relationship in sorted(person_relationships, key=lambda item: (item.relationship_type, item.path)):
+            lines.append(render_person_relationship_line(paths, person_link, relationship))
+        lines.append("")
+    if person_claims:
+        lines.extend(
+            [
+                "### Life Facts",
+                "",
+                "| Date | Place | Detail | Confidence | Evidence |",
+                "| --- | --- | --- | ---: | --- |",
+            ]
+        )
+        for claim in sorted(person_claims, key=lambda item: (item.date or "9999", item.claim_type, item.path)):
+            lines.append(render_person_claim_row(paths, claim))
+        lines.append("")
+        source_lines = person_source_lines(person_claims)
+        if source_lines:
+            lines.extend(["### Sources", "", *source_lines, ""])
+    lines.append(PERSON_EVIDENCE_END)
+    return "\n".join(lines).rstrip()
+
+
+def render_person_relationship_line(paths: WikiPaths, person_link: str, relationship: RelationshipRecord) -> str:
+    person_is_a = normalized_person_link(relationship.person_a) == person_link
+    other_link = relationship.person_b if person_is_a else relationship.person_a
+    other_label = public_person_label(paths, other_link)
+    role = person_relationship_role(relationship.relationship_type, person_is_a)
+    confidence = format_confidence(relationship.confidence)
+    relationship_link = f"[[relationships/{Path(relationship.path).stem}]]"
+    status = relationship.status or "reviewed"
+    return f"- {role}: {other_label} ({status}; confidence: {confidence}; evidence: {relationship_link})."
+
+
+def person_relationship_role(relationship_type: str, person_is_a: bool) -> str:
+    if relationship_type in {"parent_child", "proven_parent", "probable_parent", "possible_parent"}:
+        return "Child" if person_is_a else "Parent"
+    if relationship_type in {"maternal_grandfather", "paternal_grandfather", "maternal_grandmother", "paternal_grandmother", "grandparent"}:
+        return "Grandchild" if person_is_a else "Grandparent"
+    if relationship_type == "grandchild":
+        return "Grandparent" if person_is_a else "Grandchild"
+    if relationship_type in {"spouse", "disputed_spouse"}:
+        return "Spouse"
+    if relationship_type in {"sibling", "possible_sibling"}:
+        return "Sibling"
+    return family_tree_edge_label(relationship_type).title()
+
+
+def render_person_claim_row(paths: WikiPaths, claim: ClaimRecord) -> str:
+    date_value = markdown_table_cell(claim.date)
+    place_value = markdown_table_cell(claim.place)
+    detail = markdown_table_cell(claim.text or claim_detail_from_frontmatter(paths, claim))
+    confidence = format_confidence(claim.confidence)
+    claim_link = f"[[claims/{Path(claim.path).stem}]]"
+    evidence_bits = [claim_link]
+    if claim.source_packet:
+        evidence_bits.append(claim.source_packet)
+    elif claim.source:
+        evidence_bits.append(claim.source)
+    evidence = markdown_table_cell("; ".join(evidence_bits))
+    return f"| {date_value} | {place_value} | {detail} | {confidence} | {evidence} |"
+
+
+def claim_detail_from_frontmatter(paths: WikiPaths, claim: ClaimRecord) -> str:
+    predicate = claim.predicate.replace("_", " ").strip() or claim.claim_type.replace("_", " ").strip() or "claim"
+    object_value = display_reference(paths, claim.object)
+    return f"{predicate}: {object_value}" if object_value else predicate
+
+
+def display_reference(paths: WikiPaths, value: str) -> str:
+    if looks_like_wikilink(value) and wikilink_target(value).startswith("people/"):
+        return public_person_label(paths, value)
+    if looks_like_wikilink(value):
+        target = wikilink_target(value)
+        return target.split("/", 1)[-1].replace("-", " ")
+    return value
+
+
+def person_source_lines(claims: list[ClaimRecord]) -> list[str]:
+    seen: set[str] = set()
+    lines: list[str] = []
+    for claim in claims:
+        source = claim.source_packet or claim.source
+        if not source or source in seen:
+            continue
+        seen.add(source)
+        lines.append(f"- {source}")
+    return lines
+
+
+def upsert_generated_person_evidence(text: str, block: str) -> str:
+    generated_section = f"## Evidence Snapshot\n\n{block}\n"
+    if PERSON_EVIDENCE_START in text and PERSON_EVIDENCE_END in text:
+        pattern = rf"## Evidence Snapshot\s*\n\n?{re.escape(PERSON_EVIDENCE_START)}.*?{re.escape(PERSON_EVIDENCE_END)}"
+        updated = re.sub(pattern, generated_section.rstrip(), text, flags=re.DOTALL)
+        if updated != text:
+            return updated.rstrip() + "\n"
+        start = text.index(PERSON_EVIDENCE_START)
+        end = text.index(PERSON_EVIDENCE_END, start) + len(PERSON_EVIDENCE_END)
+        return (text[:start] + block + text[end:]).rstrip() + "\n"
+    if "## Evidence Snapshot" in text:
+        heading_start = text.index("## Evidence Snapshot")
+        body_start = heading_start + len("## Evidence Snapshot")
+        next_heading = re.search(r"\n## ", text[body_start:])
+        insert_at = body_start + next_heading.start() if next_heading else len(text)
+        before = text[:insert_at].rstrip()
+        after = text[insert_at:].lstrip("\n")
+        combined = f"{before}\n\n{block}\n"
+        return f"{combined}\n{after}" if after else combined
+    return text.rstrip() + "\n\n" + generated_section
+
+
+def markdown_table_cell(value: object) -> str:
+    text = " ".join(str(value or "").split())
+    text = text.replace("|", "\\|")
+    return text or "-"
+
+
+def format_confidence(value: float | None) -> str:
+    if value is None:
+        return "unknown"
+    return f"{value:.1f}".rstrip("0").rstrip(".")
 
 
 def promote_staged_relationship(
