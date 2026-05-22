@@ -8,10 +8,10 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | high | pass | none | none |
+| 1 | critical | low | reread-page | none | Jose |
 | 2 | medium | high | pass | none | Starting |
 | 3 | none | high | pass | none | none |
-| 4 | medium | high | pass | none | Dario, Pulgar |
+| 4 | critical | low | reread-page | none | Dario, Dios, Juan, Pulgar |
 | 5 | medium | high | pass | none | Pulgar |
 | 6 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
@@ -19,7 +19,7 @@
 | 12 | none | high | pass | none | none |
 | 10 | critical | low | reread-page | none | Dario |
 | 14 | critical | low | reread-page | none | Dario, Pulgar |
-| 15 | none | high | pass | none | none |
+| 15 | medium | high | pass | none | Dios |
 | 16 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |

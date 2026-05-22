@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 81 | medium | high | pass | none | Arturo, relationships |
-| 2 | medium | high | pass | none | Arturo |
-| 83 | medium | high | pass | none | relationships |
-| 84 | medium | high | pass | none | relationships |
-| 85 | medium | high | pass | none | relationships |
+| 81 | critical | low | reread-page | none | Arturo, Juan, Luis, Riquelme, relationships |
+| 2 | critical | low | reread-page | none | Arturo, Juan, Tulio |
+| 83 | critical | low | reread-page | none | Carmen, Juan, Luis, relationships |
+| 84 | medium | high | pass | none | Luis, relationships |
+| 85 | critical | low | reread-page | none | Juan, relationships |
 | 86 | medium | high | pass | none | Arturo, relationships |
-| 87 | medium | high | pass | none | relationships |
-| 88 | medium | high | pass | none | Arturo, relationships |
-| 89 | medium | high | pass | none | Arturo, relationships |
-| 90 | medium | high | pass | none | relationships |
-| 91 | medium | high | pass | none | relationships |
-| 92 | medium | high | pass | none | Arturo, relationships |
-| 13 | medium | high | pass | none | Arturo |
-| 94 | medium | high | pass | none | Arturo, relationships |
-| 95 | medium | high | pass | none | Arturo, relationships |
-| 16 | none | high | pass | none | none |
-| 97 | medium | high | pass | none | relationships |
-| 98 | medium | high | pass | none | relationships |
-| 99 | medium | high | pass | none | relationships |
-| 100 | medium | high | pass | none | relationships |
+| 87 | critical | low | reread-page | none | Carmen, Juan, Luis, relationships |
+| 88 | critical | low | reread-page | none | Arturo, Juan, relationships |
+| 89 | critical | low | reread-page | none | Arturo, Juan, Luis, relationships |
+| 90 | critical | low | reread-page | none | Juan, Luis, relationships |
+| 91 | high | high | pass | none | Luis, Soler, relationships |
+| 92 | critical | low | reread-page | none | Arturo, Carmen, Juan, relationships |
+| 13 | critical | low | reread-page | none | Arturo, Juan, Luis |
+| 94 | critical | low | reread-page | none | Arturo, Carmen, Juan, Luis, relationships |
+| 95 | critical | low | reread-page | none | Arturo, Juan, Luis, relationships |
+| 16 | critical | low | reread-page | none | Carmen, Juan |
+| 97 | medium | high | pass | none | Luis, relationships |
+| 98 | critical | low | reread-page | none | Luis, relationships |
+| 99 | medium | high | pass | none | Luis, relationships |
+| 100 | critical | low | reread-page | none | Carmen, Juan, Luis, relationships |

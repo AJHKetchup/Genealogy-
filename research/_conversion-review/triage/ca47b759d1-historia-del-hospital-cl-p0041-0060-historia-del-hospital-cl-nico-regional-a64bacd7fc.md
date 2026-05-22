@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | high | pass | none | none |
-| 42 | none | high | pass | none | none |
-| 43 | medium | high | pass | none | relationships |
-| 4 | none | high | pass | none | none |
-| 5 | none | high | pass | none | none |
-| 6 | none | high | pass | none | none |
-| 7 | none | high | pass | none | none |
-| 8 | none | high | pass | none | none |
+| 1 | high | low | reread-page | none | none |
+| 42 | critical | low | reread-page | none | Dios, Juan |
+| 43 | critical | low | reread-page | none | Dios, Juan, relationships |
+| 4 | critical | low | reread-page | none | Dios, Juan |
+| 5 | critical | low | reread-page | none | Dios, Juan |
+| 6 | medium | high | pass | none | Luis, Riquelme |
+| 7 | high | low | reread-page | none | none |
+| 8 | critical | low | reread-page | none | Dios, Juan |
 | 9 | none | high | pass | none | none |
-| 10 | none | high | pass | none | none |
+| 10 | critical | low | reread-page | none | Dios, Juan |
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 13 | medium | high | pass | none | Starting |
 | 14 | none | high | pass | none | none |
 | 15 | none | high | pass | none | none |
-| 16 | none | high | pass | none | none |
+| 16 | critical | low | reread-page | none | Dios, Juan |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
-| 19 | medium | high | pass | none | History, grandfather |
+| 19 | critical | low | reread-page | none | Dios, History, Juan, grandfather |
 | 60 | medium | high | pass | none | relationships |

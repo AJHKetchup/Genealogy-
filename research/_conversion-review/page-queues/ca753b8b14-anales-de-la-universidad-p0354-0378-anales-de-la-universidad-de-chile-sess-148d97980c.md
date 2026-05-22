@@ -6,4 +6,18 @@
 
 ## Queued Pages
 
-No pages queued for reread.
+### Page 3
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Juan
+
+### Page 11
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Luis

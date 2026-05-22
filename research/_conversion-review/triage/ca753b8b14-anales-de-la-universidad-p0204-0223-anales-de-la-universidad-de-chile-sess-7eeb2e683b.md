@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 490 | none | high | pass | none | none |
-| 2 | none | high | pass | none | none |
-| 3 | none | high | pass | none | none |
-| 4 | none | high | pass | none | none |
-| 5 | none | high | pass | none | none |
-| 6 | none | high | pass | none | none |
-| 7 | none | high | pass | none | none |
-| 211 | none | high | pass | none | none |
-| 9 | none | high | pass | none | none |
-| 213 | medium | high | pass | none | Arturo, relationships |
-| 214 | medium | high | pass | none | Arturo |
-| 215 | high | low | reread-page | none | none |
-| 13 | none | high | pass | none | none |
-| 14 | medium | high | pass | none | History |
-| 15 | none | high | pass | none | none |
-| 16 | none | high | pass | none | none |
-| 17 | none | high | pass | none | none |
-| 18 | none | high | pass | none | none |
+| 490 | critical | low | reread-page | none | Juan |
+| 2 | critical | low | reread-page | none | Juan, Luis |
+| 3 | critical | low | reread-page | none | Carmen, Juan |
+| 4 | critical | low | reread-page | none | Juan, Luis |
+| 5 | critical | low | reread-page | none | Juan, Luis |
+| 6 | critical | low | reread-page | none | Juan, Luis |
+| 7 | critical | low | reread-page | none | Dios, Juan, Luis |
+| 211 | critical | low | reread-page | none | Dios, Juan, Luis |
+| 9 | medium | high | pass | none | Luis |
+| 213 | high | high | pass | none | Arturo, Luis, relationships |
+| 214 | medium | high | pass | none | Arturo, Luis |
+| 215 | critical | low | reread-page | none | Luis |
+| 13 | critical | low | reread-page | none | Juan |
+| 14 | critical | low | reread-page | none | History, Juan |
+| 15 | critical | low | reread-page | none | Juan, Luis |
+| 16 | critical | low | reread-page | none | Juan |
+| 17 | critical | low | reread-page | none | Mercedes |
+| 18 | medium | high | pass | none | Luis |
 | 19 | none | high | pass | none | none |
-| 223 | none | high | pass | none | none |
+| 223 | critical | low | reread-page | none | Juan, Luis |

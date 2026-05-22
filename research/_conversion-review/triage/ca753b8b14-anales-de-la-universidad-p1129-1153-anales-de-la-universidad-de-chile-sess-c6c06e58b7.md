@@ -32,4 +32,4 @@
 | 1150 | medium | high | pass | none | relationships |
 | 1151 | medium | high | pass | none | relationships |
 | 1152 | medium | high | pass | none | relationships |
-| 1153 | medium | high | pass | none | relationships |
+| 1153 | critical | low | reread-page | none | Juan, relationships |

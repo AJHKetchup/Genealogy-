@@ -6,6 +6,22 @@
 
 ## Queued Pages
 
+### Page 1
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Jose
+
+### Page 4
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Dario, Dios, Juan, Pulgar
+
 ### Page 10
 
 - Recommended action: `reread-page`

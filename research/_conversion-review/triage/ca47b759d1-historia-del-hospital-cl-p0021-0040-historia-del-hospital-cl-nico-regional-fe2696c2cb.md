@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | high | pass | none | none |
+| 1 | critical | low | reread-page | none | Dios, Juan |
 | 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
-| 4 | none | high | pass | none | none |
-| 5 | none | high | pass | none | none |
-| 6 | none | high | pass | none | none |
-| 27 | none | medium | spot-check | explicit_reread_needed | none |
-| 8 | none | high | pass | none | none |
-| 9 | none | high | pass | none | none |
-| 10 | none | high | pass | none | none |
-| 11 | high | low | reread-page | none | none |
-| 12 | none | high | pass | none | none |
-| 13 | none | high | pass | none | none |
-| 14 | none | high | pass | none | none |
-| 15 | none | high | pass | none | none |
-| 36 | medium | high | pass | none | Arturo |
-| 37 | none | medium | spot-check | explicit_reread_needed | none |
-| 18 | none | high | pass | none | none |
-| 39 | none | medium | spot-check | explicit_reread_needed | none |
+| 4 | critical | low | reread-page | none | Dios, Juan |
+| 5 | critical | low | reread-page | none | Dios, Juan |
+| 6 | critical | low | reread-page | none | Dios, Juan, Juana |
+| 27 | medium | medium | spot-check | explicit_reread_needed | Mercedes |
+| 8 | critical | low | reread-page | none | Dios, Juan |
+| 9 | medium | high | pass | none | Dios |
+| 10 | medium | high | pass | none | Luis |
+| 11 | critical | low | reread-page | none | Dios, Juan |
+| 12 | critical | low | reread-page | none | Dios, Juan |
+| 13 | critical | low | reread-page | none | Juan |
+| 14 | critical | low | reread-page | none | Dios, Juan, Luis |
+| 15 | critical | low | reread-page | none | Juan |
+| 36 | critical | low | reread-page | none | Arturo, Juan, Luis |
+| 37 | critical | low | reread-page | explicit_reread_needed | Dios, Juan |
+| 18 | critical | low | reread-page | none | Dios, Juan |
+| 39 | critical | low | reread-page | explicit_reread_needed | Dios, Juan |
 | 40 | medium | high | pass | none | relationships |

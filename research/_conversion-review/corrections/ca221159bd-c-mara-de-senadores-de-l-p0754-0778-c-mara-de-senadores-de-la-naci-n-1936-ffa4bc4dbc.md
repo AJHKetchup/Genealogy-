@@ -15,3 +15,8 @@
   Suspected reading: `Dario`
   Reason: near match to known family context term `Dario`
   Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Cestaa`
+  Suspected reading: `Cesar`
+  Reason: near match to known family context term `Cesar`
+  Verification target: reread the page image or exact region before using this in a claim.

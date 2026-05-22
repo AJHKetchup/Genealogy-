@@ -6,6 +6,14 @@
 
 ## Queued Pages
 
+### Page 7
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Juan, Luis
+
 ### Page 514
 
 - Recommended action: `reread-page`
@@ -13,3 +21,35 @@
 - Family relevance: `critical`
 - Quality flags: none
 - Matched family context: relationships
+
+### Page 21
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Juan, Luis, Starting
+
+### Page 525
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: relationships
+
+### Page 526
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Juan, Luis, relationships
+
+### Page 24
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Luis

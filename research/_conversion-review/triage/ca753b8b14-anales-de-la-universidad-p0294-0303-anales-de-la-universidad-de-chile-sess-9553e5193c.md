@@ -8,8 +8,8 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | high | pass | none | none |
-| 2 | none | high | pass | none | none |
+| 1 | medium | high | pass | none | Dios |
+| 2 | medium | high | pass | none | Dios |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |

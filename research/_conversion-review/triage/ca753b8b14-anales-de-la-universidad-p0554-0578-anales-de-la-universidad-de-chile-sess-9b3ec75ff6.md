@@ -9,27 +9,27 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
-| 555 | medium | high | pass | none | relationships |
-| 556 | none | high | pass | none | none |
+| 555 | medium | high | pass | none | Luis, relationships |
+| 556 | medium | high | pass | none | Luis |
 | 4 | none | high | pass | none | none |
 | 558 | medium | high | pass | none | relationships |
 | 559 | medium | high | pass | none | relationships |
 | 560 | medium | high | pass | none | relationships |
 | 561 | medium | high | pass | none | relationships |
 | 562 | medium | high | pass | none | relationships |
-| 563 | medium | high | pass | none | relationships |
+| 563 | medium | high | pass | none | Luis, relationships |
 | 11 | none | high | pass | none | none |
-| 565 | none | high | pass | none | none |
+| 565 | medium | high | pass | none | Luis |
 | 13 | none | high | pass | none | none |
 | 567 | medium | high | pass | none | relationships |
-| 15 | none | high | pass | none | none |
+| 15 | medium | high | pass | none | Luis |
 | 569 | medium | high | pass | none | relationships |
-| 570 | medium | high | pass | none | relationships |
-| 571 | medium | high | pass | none | relationships |
+| 570 | critical | low | reread-page | none | relationships |
+| 571 | critical | low | reread-page | none | relationships |
 | 19 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |
 | 21 | none | high | pass | none | none |
 | 575 | medium | high | pass | none | relationships |
 | 576 | medium | high | pass | none | relationships |
 | 24 | none | high | pass | none | none |
-| 25 | none | high | pass | none | none |
+| 25 | medium | high | pass | none | Luis |

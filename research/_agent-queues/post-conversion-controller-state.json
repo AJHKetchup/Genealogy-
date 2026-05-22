@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-05-22T07:55:41Z",
+    "updated":  "2026-05-22T08:18:03Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "max_workers":  1,
     "allow_promotion":  true,
@@ -7,7 +7,7 @@
 
                        ],
     "last_summary":  {
-                         "started":  "2026-05-22T07:52:41Z",
+                         "started":  "2026-05-22T08:17:02Z",
                          "root":  "D:\\a\\Genealogy-\\Genealogy-",
                          "dry_run":  false,
                          "allow_promotion":  true,
@@ -26,44 +26,31 @@
                                                               "todo":  200
                                                           },
                                         "evidence-extraction":  {
-                                                                    "todo":  4990,
-                                                                    "done":  3,
-                                                                    "blocked_needs_reread":  32
+                                                                    "blocked_needs_reread":  141,
+                                                                    "done":  6,
+                                                                    "todo":  4878
                                                                 },
                                         "identity-analysis":  {
                                                                   "done":  3,
-                                                                  "todo":  46
+                                                                  "todo":  51
                                                               },
                                         "proof-review":  {
-                                                             "done":  36,
-                                                             "todo":  190,
+                                                             "done":  41,
+                                                             "todo":  211,
                                                              "released":  31
                                                          },
                                         "wiki-promotion":  {
-                                                               "todo":  1
+                                                               "blocked_no_reviewed_ready":  1
                                                            }
                                     },
                          "active_workers_before":  0,
-                         "active_workers_after":  1,
+                         "active_workers_after":  0,
                          "launched":  [
-                                          {
-                                              "worker":  "postconv-wiki-promotion-20260522075324133",
-                                              "pid":  6684,
-                                              "task_ids":  [
-                                                               "wiki-promotion:reviewed-ready:d9396652dddc"
-                                                           ],
-                                              "queue":  "wiki-promotion",
-                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-wiki-promotion-20260522075324133.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522075324133.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522075324133.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522075324133.last.md",
-                                              "started":  "2026-05-22T07:53:25Z"
-                                          }
+
                                       ],
                          "blockers":  [
 
                                       ],
-                         "finished":  "2026-05-22T07:55:41Z"
+                         "finished":  "2026-05-22T08:18:03Z"
                      }
 }

@@ -13,5 +13,5 @@
 | 3 | medium | high | pass | none | Starting |
 | 124 | medium | high | pass | none | relationships |
 | 5 | none | high | pass | none | none |
-| 6 | medium | high | pass | none | Arturo, Starting |
+| 6 | critical | low | reread-page | none | Arturo, Luis, Starting |
 | 7 | none | high | pass | none | none |

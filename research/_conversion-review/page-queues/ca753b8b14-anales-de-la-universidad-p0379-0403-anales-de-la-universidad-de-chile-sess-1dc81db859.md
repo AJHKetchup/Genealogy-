@@ -6,4 +6,42 @@
 
 ## Queued Pages
 
-No pages queued for reread.
+### Page 8
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none
+
+### Page 10
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none
+
+### Page 18
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Juan
+
+### Page 397
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: relationships
+
+### Page 22
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Mercedes

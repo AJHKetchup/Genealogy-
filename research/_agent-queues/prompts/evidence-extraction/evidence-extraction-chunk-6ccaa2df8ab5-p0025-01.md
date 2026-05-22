@@ -12,6 +12,15 @@ Use `$genealogy-claim-extraction`.
 - Page range: 25-25
 - Staging area: `research/_staging`
 
+## QC Hold
+
+- Status: `blocked_needs_reread`
+- Blocked pages: 25
+- Page reread queue: `research/_conversion-review/page-queues/ca09a98281-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket5-pages-276-300-codex.md`
+- Suspected readings: `research/_conversion-review/corrections/ca09a98281-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket5-pages-276-300-codex.md`
+
+Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
+
 
 
 ## Done When

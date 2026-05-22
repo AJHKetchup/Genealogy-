@@ -6,6 +6,62 @@
 
 ## Queued Pages
 
+### Page 3
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Dios, Juan
+
+### Page 4
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Juan
+
+### Page 7
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Dios, Juan
+
+### Page 9
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Juan, relationships
+
+### Page 10
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Dios, Juan
+
+### Page 11
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Dios, Juan
+
+### Page 12
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none
+
 ### Page 13
 
 - Recommended action: `reread-page`
@@ -14,10 +70,42 @@
 - Quality flags: none
 - Matched family context: none
 
+### Page 15
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Dios, Juan
+
 ### Page 16
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `high`
+- Family relevance: `critical`
 - Quality flags: none
-- Matched family context: none
+- Matched family context: Juan
+
+### Page 18
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: History, Juan, Riquelme
+
+### Page 19
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Dios, Juan
+
+### Page 20
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Dios, Juan

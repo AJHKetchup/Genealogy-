@@ -21,7 +21,7 @@
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 256 | none | high | pass | none | none |
-| 14 | medium | high | pass | none | Starting |
+| 14 | critical | low | reread-page | none | Juan, Starting |
 | 15 | none | high | pass | none | none |
 | 16 | medium | high | pass | none | Arturo |
 | 17 | none | high | pass | none | none |

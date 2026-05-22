@@ -30,6 +30,6 @@
 | 20 | none | high | pass | none | none |
 | 21 | none | high | pass | none | none |
 | 22 | none | high | pass | none | none |
-| 23 | none | high | pass | none | none |
+| 23 | medium | high | pass | none | Dios |
 | 24 | none | high | pass | none | none |
 | 25 | none | high | pass | none | none |

@@ -9,22 +9,22 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
-| 2 | medium | high | pass | none | Arturo, Starting |
-| 3 | critical | low | reread-page | none | Arturo, Pulgar |
+| 2 | critical | low | reread-page | none | Arturo, Dios, Juan, Starting |
+| 3 | critical | low | reread-page | none | Arturo, Dios, Juan, Pulgar |
 | 4 | none | high | pass | none | none |
-| 5 | none | high | pass | none | none |
+| 5 | critical | low | reread-page | none | Dios, Juan |
 | 86 | none | medium | spot-check | explicit_reread_needed | none |
-| 7 | none | high | pass | none | none |
-| 8 | none | high | pass | none | none |
+| 7 | critical | low | reread-page | none | Juan |
+| 8 | medium | high | pass | none | Luis |
 | 9 | medium | high | pass | none | Starting |
-| 90 | none | medium | spot-check | explicit_reread_needed | none |
-| 11 | none | high | pass | none | none |
+| 90 | critical | low | reread-page | explicit_reread_needed | Juana |
+| 11 | critical | low | reread-page | none | Juan, Luis |
 | 12 | medium | high | pass | none | Arturo, Starting |
-| 13 | none | high | pass | none | none |
-| 14 | none | high | pass | none | none |
+| 13 | critical | low | reread-page | none | Juan |
+| 14 | critical | low | reread-page | none | Dios, Juan |
 | 15 | none | high | pass | none | none |
-| 16 | none | high | pass | none | none |
-| 17 | none | high | pass | none | none |
-| 98 | none | high | pass | none | none |
-| 19 | none | high | pass | none | none |
+| 16 | critical | low | reread-page | none | Dios, Juan, Luis |
+| 17 | medium | high | pass | none | Luis |
+| 98 | critical | low | reread-page | none | Carmen, Juan |
+| 19 | medium | high | pass | none | Carmen |
 | 20 | none | high | pass | none | none |

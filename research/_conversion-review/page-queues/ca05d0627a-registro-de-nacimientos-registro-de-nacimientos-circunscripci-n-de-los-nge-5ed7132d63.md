@@ -6,4 +6,10 @@
 
 ## Queued Pages
 
-No pages queued for reread.
+### Page 172
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Carmen, Dios, Juan, Juana, Mercedes, Pulgar, Riquelme, mercedes riquelme

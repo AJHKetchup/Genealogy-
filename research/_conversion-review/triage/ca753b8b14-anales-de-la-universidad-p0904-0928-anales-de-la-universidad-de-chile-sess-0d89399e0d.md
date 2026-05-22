@@ -12,24 +12,24 @@
 | 905 | medium | high | pass | none | relationships |
 | 906 | medium | high | pass | none | relationships |
 | 907 | medium | high | pass | none | Arturo, relationships |
-| 908 | medium | high | pass | none | relationships |
+| 908 | critical | low | reread-page | none | Juan, Luis, relationships |
 | 909 | medium | high | pass | none | relationships |
 | 910 | medium | high | pass | none | relationships |
-| 911 | medium | high | pass | none | relationships |
+| 911 | critical | low | reread-page | none | relationships |
 | 9 | none | high | pass | none | none |
 | 913 | medium | high | pass | none | relationships |
 | 914 | medium | high | pass | none | relationships |
 | 915 | medium | high | pass | none | relationships |
 | 916 | medium | high | pass | none | relationships |
-| 917 | medium | high | pass | none | relationships |
+| 917 | medium | high | pass | none | Luis, relationships |
 | 918 | medium | high | pass | none | relationships |
-| 919 | medium | high | pass | none | relationships |
+| 919 | medium | high | pass | none | Luis, relationships |
 | 920 | medium | high | pass | none | relationships |
 | 921 | medium | high | pass | none | relationships |
 | 922 | medium | high | pass | none | relationships |
 | 923 | medium | high | pass | none | relationships |
-| 924 | medium | high | pass | none | relationships |
+| 924 | critical | low | reread-page | none | Juan, Luis, relationships |
 | 925 | medium | high | pass | none | relationships |
 | 926 | medium | high | pass | none | relationships |
-| 927 | medium | high | pass | none | relationships |
+| 927 | critical | low | reread-page | none | Juan, relationships |
 | 928 | medium | high | pass | none | relationships |

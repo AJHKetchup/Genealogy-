@@ -14,22 +14,22 @@
 | 4 | none | high | pass | none | none |
 | 5 | medium | high | pass | none | History |
 | 509 | medium | high | pass | none | relationships |
-| 7 | none | high | pass | none | none |
+| 7 | critical | low | reread-page | none | Juan, Luis |
 | 511 | medium | high | pass | none | relationships |
 | 512 | medium | high | pass | none | relationships |
 | 10 | none | high | pass | none | none |
 | 514 | critical | low | reread-page | none | relationships |
 | 12 | none | high | pass | none | none |
-| 516 | medium | high | pass | none | relationships |
-| 14 | medium | high | pass | none | Starting |
-| 518 | medium | high | pass | none | relationships |
+| 516 | medium | high | pass | none | Luis, relationships |
+| 14 | medium | high | pass | none | Luis, Starting |
+| 518 | medium | high | pass | none | Luis, relationships |
 | 519 | medium | high | pass | none | relationships |
 | 17 | none | high | pass | none | none |
 | 521 | medium | high | pass | none | relationships |
 | 522 | medium | high | pass | none | relationships |
 | 20 | none | high | pass | none | none |
-| 21 | medium | high | pass | none | Starting |
-| 525 | medium | high | pass | none | relationships |
-| 526 | medium | high | pass | none | relationships |
-| 24 | none | high | pass | none | none |
-| 528 | medium | high | pass | none | relationships |
+| 21 | critical | low | reread-page | none | Juan, Luis, Starting |
+| 525 | critical | low | reread-page | none | relationships |
+| 526 | critical | low | reread-page | none | Juan, Luis, relationships |
+| 24 | critical | low | reread-page | none | Luis |
+| 528 | medium | high | pass | none | Luis, relationships |

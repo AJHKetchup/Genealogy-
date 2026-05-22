@@ -21,15 +21,15 @@
 | 714 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 716 | medium | high | pass | none | relationships |
-| 717 | medium | high | pass | none | relationships |
+| 717 | medium | high | pass | none | Luis, relationships |
 | 718 | medium | high | pass | none | relationships |
 | 719 | medium | high | pass | none | relationships |
 | 720 | medium | high | pass | none | relationships |
 | 721 | medium | high | pass | none | relationships |
-| 722 | none | high | pass | none | none |
+| 722 | high | low | reread-page | none | none |
 | 723 | medium | high | pass | none | relationships |
 | 724 | medium | high | pass | none | relationships |
-| 725 | medium | high | pass | none | relationships |
-| 23 | none | high | pass | none | none |
-| 727 | medium | high | pass | none | relationships |
-| 728 | medium | high | pass | none | relationships |
+| 725 | medium | high | pass | none | Luis, relationships |
+| 23 | medium | high | pass | none | Luis |
+| 727 | medium | high | pass | none | Luis, relationships |
+| 728 | medium | high | pass | none | Dios, relationships |

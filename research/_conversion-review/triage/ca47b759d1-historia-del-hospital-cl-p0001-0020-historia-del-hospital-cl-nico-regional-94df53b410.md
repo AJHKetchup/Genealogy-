@@ -10,21 +10,21 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | medium | high | pass | none | people |
 | 2 | none | high | pass | none | none |
-| 3 | none | high | pass | none | none |
-| 4 | none | high | pass | none | none |
+| 3 | critical | low | reread-page | none | Dios, Juan |
+| 4 | critical | low | reread-page | none | Juan |
 | 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
-| 7 | none | high | pass | none | none |
-| 8 | none | high | pass | none | none |
-| 9 | medium | high | pass | none | relationships |
-| 10 | none | high | pass | none | none |
-| 11 | none | high | pass | none | none |
-| 12 | none | high | pass | none | none |
+| 7 | critical | low | reread-page | none | Dios, Juan |
+| 8 | medium | high | pass | none | Dios |
+| 9 | critical | low | reread-page | none | Juan, relationships |
+| 10 | critical | low | reread-page | none | Dios, Juan |
+| 11 | critical | low | reread-page | none | Dios, Juan |
+| 12 | high | low | reread-page | none | none |
 | 13 | high | low | reread-page | none | none |
 | 14 | medium | high | pass | none | relationships |
-| 15 | none | high | pass | none | none |
-| 16 | high | low | reread-page | none | none |
+| 15 | critical | low | reread-page | none | Dios, Juan |
+| 16 | critical | low | reread-page | none | Juan |
 | 17 | medium | high | pass | none | Starting |
-| 18 | medium | high | pass | none | History |
-| 19 | none | high | pass | none | none |
-| 20 | none | high | pass | none | none |
+| 18 | critical | low | reread-page | none | History, Juan, Riquelme |
+| 19 | critical | low | reread-page | none | Dios, Juan |
+| 20 | critical | low | reread-page | none | Dios, Juan |

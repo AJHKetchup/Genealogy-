@@ -6,4 +6,18 @@
 
 ## Queued Pages
 
-No pages queued for reread.
+### Page 859
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Juan, Luis, relationships
+
+### Page 866
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Juan, relationships

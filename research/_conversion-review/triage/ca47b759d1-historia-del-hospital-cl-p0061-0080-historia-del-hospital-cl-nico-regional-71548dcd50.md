@@ -14,7 +14,7 @@
 | 64 | medium | medium | spot-check | explicit_reread_needed | maternal |
 | 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
-| 7 | none | high | pass | none | none |
+| 7 | critical | low | reread-page | none | Dios, Juan, Juana |
 | 8 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
@@ -22,9 +22,9 @@
 | 12 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
-| 15 | none | high | pass | none | none |
+| 15 | high | low | reread-page | none | none |
 | 76 | medium | high | pass | none | relationships |
 | 17 | none | high | pass | none | none |
-| 18 | none | high | pass | none | none |
-| 19 | none | high | pass | none | none |
-| 20 | none | high | pass | none | none |
+| 18 | high | low | reread-page | none | none |
+| 19 | medium | high | pass | none | Carmen |
+| 20 | medium | high | pass | none | Riquelme |

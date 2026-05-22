@@ -6,7 +6,67 @@
 
 ## Suspected Readings
 
+- Literal converted text: `Juan`
+  Suspected reading: `Juana`
+  Reason: near match to known family context term `Juana`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Tuvo`
+  Suspected reading: `Tulio`
+  Reason: near match to known family context term `Tulio`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Juan`
+  Suspected reading: `Juana`
+  Reason: near match to known family context term `Juana`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Darío`
   Suspected reading: `Dario`
   Reason: near match to known family context term `Dario`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Juan`
+  Suspected reading: `Juana`
+  Reason: near match to known family context term `Juana`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Juan`
+  Suspected reading: `Juana`
+  Reason: near match to known family context term `Juana`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `CESFAM`
+  Suspected reading: `Cesar`
+  Reason: near match to known family context term `Cesar`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Juan`
+  Suspected reading: `Juana`
+  Reason: near match to known family context term `Juana`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `JUAN`
+  Suspected reading: `Juana`
+  Reason: near match to known family context term `Juana`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Juan`
+  Suspected reading: `Juana`
+  Reason: near match to known family context term `Juana`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Tuvo`
+  Suspected reading: `Tulio`
+  Reason: near match to known family context term `Tulio`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Juan`
+  Suspected reading: `Juana`
+  Reason: near match to known family context term `Juana`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Juan`
+  Suspected reading: `Juana`
+  Reason: near match to known family context term `Juana`
   Verification target: reread the page image or exact region before using this in a claim.

@@ -13,3 +13,19 @@
 - Family relevance: `critical`
 - Quality flags: none
 - Matched family context: Pulgar, relationships
+
+### Page 13
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Juan, relationships
+
+### Page 21
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Juan, Luis, relationships

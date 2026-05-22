@@ -10,21 +10,21 @@
 | --- | --- | --- | --- | --- | --- |
 | 101 | none | medium | spot-check | explicit_reread_needed | none |
 | 2 | none | high | pass | none | none |
-| 3 | medium | high | pass | none | Starting |
-| 4 | medium | high | pass | none | Starting |
-| 105 | critical | low | reread-page | explicit_reread_needed | Pulgar |
-| 106 | none | medium | spot-check | explicit_reread_needed | none |
+| 3 | medium | high | pass | none | Riquelme, Starting |
+| 4 | critical | low | reread-page | none | Riquelme, Starting |
+| 105 | critical | low | reread-page | explicit_reread_needed | Dios, Juan, Pulgar, Riquelme |
+| 106 | critical | low | reread-page | explicit_reread_needed | Juan |
 | 7 | none | high | pass | none | none |
 | 8 | medium | high | pass | none | John |
-| 9 | none | high | pass | none | none |
+| 9 | critical | low | reread-page | none | Juan, Luis |
 | 10 | none | high | pass | none | none |
-| 111 | none | high | pass | none | none |
+| 111 | medium | high | pass | none | Jose |
 | 112 | none | high | pass | none | none |
-| 13 | medium | high | pass | none | Arturo, John |
+| 13 | critical | low | reread-page | none | Arturo, John, Juan, Riquelme |
 | 114 | none | medium | spot-check | explicit_reread_needed | none |
 | 15 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
-| 19 | none | high | pass | none | none |
-| 20 | none | high | pass | none | none |
+| 19 | critical | low | reread-page | none | Dios, Juan |
+| 20 | critical | low | reread-page | none | Juan |

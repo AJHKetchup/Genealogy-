@@ -14,8 +14,8 @@
 | 1032 | medium | high | pass | none | relationships |
 | 1033 | medium | high | pass | none | relationships |
 | 1034 | medium | high | pass | none | relationships |
-| 1035 | medium | high | pass | none | relationships |
-| 1036 | medium | high | pass | none | relationships |
+| 1035 | critical | low | reread-page | none | relationships |
+| 1036 | medium | high | pass | none | Cesar, relationships |
 | 1037 | medium | high | pass | none | relationships |
 | 1038 | medium | high | pass | none | relationships |
 | 1039 | medium | high | pass | none | relationships |
@@ -32,4 +32,4 @@
 | 1050 | medium | high | pass | none | relationships |
 | 1051 | medium | high | pass | none | relationships |
 | 1052 | medium | high | pass | none | relationships |
-| 1053 | medium | high | pass | none | relationships |
+| 1053 | medium | high | pass | none | Cesar, relationships |

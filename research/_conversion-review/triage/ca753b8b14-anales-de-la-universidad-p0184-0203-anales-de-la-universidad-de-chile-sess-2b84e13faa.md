@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 184 | medium | high | pass | none | relationships |
+| 184 | medium | high | pass | none | Luis, relationships |
 | 2 | none | high | pass | none | none |
-| 3 | none | high | pass | none | none |
-| 187 | none | high | pass | none | none |
-| 5 | medium | high | pass | none | History |
-| 475 | none | high | pass | none | none |
-| 190 | medium | high | pass | none | relationships |
+| 3 | medium | high | pass | none | Luis, Mercedes |
+| 187 | medium | high | pass | none | Luis |
+| 5 | medium | high | pass | none | History, Luis |
+| 475 | medium | high | pass | none | Luis |
+| 190 | medium | high | pass | none | Luis, relationships |
 | 191 | medium | high | pass | none | Arturo, relationships |
-| 192 | medium | high | pass | none | Arturo, relationships |
-| 193 | medium | high | pass | none | relationships |
-| 194 | medium | high | pass | none | relationships |
-| 195 | medium | high | pass | none | relationships |
-| 196 | medium | high | pass | none | relationships |
+| 192 | critical | low | reread-page | none | Arturo, Luis, relationships |
+| 193 | critical | low | reread-page | none | Luis, relationships |
+| 194 | critical | low | reread-page | none | Luis, relationships |
+| 195 | critical | low | reread-page | none | Luis, relationships |
+| 196 | medium | high | pass | none | Luis, relationships |
 | 197 | medium | high | pass | none | relationships |
 | 198 | medium | high | pass | none | relationships |
-| 199 | medium | high | pass | none | relationships |
-| 200 | medium | high | pass | none | relationships |
-| 201 | medium | high | pass | none | relationships |
-| 202 | medium | high | pass | none | relationships |
-| 20 | none | high | pass | none | none |
+| 199 | critical | low | reread-page | none | Juan, Luis, relationships |
+| 200 | critical | low | reread-page | none | Juan, relationships |
+| 201 | critical | low | reread-page | none | Juan, Juana, Luis, relationships |
+| 202 | critical | low | reread-page | none | Juan, relationships |
+| 20 | critical | low | reread-page | none | Jose, Juan, Luis |

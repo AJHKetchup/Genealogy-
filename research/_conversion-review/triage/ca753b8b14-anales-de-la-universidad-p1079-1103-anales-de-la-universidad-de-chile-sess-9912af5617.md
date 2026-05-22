@@ -27,9 +27,9 @@
 | 1095 | medium | high | pass | none | relationships |
 | 1096 | medium | high | pass | none | relationships |
 | 1097 | medium | high | pass | none | relationships |
-| 1098 | medium | high | pass | none | relationships |
-| 1099 | medium | high | pass | none | relationships |
-| 1100 | medium | high | pass | none | relationships |
+| 1098 | medium | high | pass | none | Dios, relationships |
+| 1099 | medium | high | pass | none | Dios, relationships |
+| 1100 | medium | high | pass | none | Luis, relationships |
 | 1101 | medium | high | pass | none | relationships |
 | 1102 | medium | high | pass | none | relationships |
 | 1103 | medium | high | pass | none | relationships |

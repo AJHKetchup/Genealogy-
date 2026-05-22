@@ -12,6 +12,15 @@ Use `$genealogy-claim-extraction`.
 - Page range: 172-172
 - Staging area: `research/_staging`
 
+## QC Hold
+
+- Status: `blocked_needs_reread`
+- Blocked pages: 172
+- Page reread queue: `research/_conversion-review/page-queues/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63.md`
+- Suspected readings: `research/_conversion-review/corrections/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63.md`
+
+Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
+
 
 ## Proof Review Revision Context
 
@@ -19,9 +28,13 @@ Previous proof review found staged outputs for this chunk were not yet promotion
 
 | Review | Staged draft | Readiness | Requested follow-up |
 | --- | --- | --- | --- |
+| `research/_staging/reviews/proof-review-CL-STAGE-CHUNK-4127185dc97c-P0172-01-513-declarant.md` | `research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-513-declarant.md` | `hold` | Re-transcribe or QA-reconcile entry 513 from the source image, especially the child-name field and heading/jurisdiction wording. If the declarant and father-name readings remain confirmed after QA, revise/promote only the registration-scoped declarant claim and keep any broader identity linkage for separate identity review. |
+| `research/_staging/reviews/proof-review-research-staging-claims-cl-stage-chunk-4127185dc97c-p0172-01-513-birth-date-place-postconv-proof-review-20260522081049052.md` | `research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-513-birth-date-place.md` | `hold` | Keep the claim on hold for conversion QA. Reconcile entry 513's child-name field against the source image, then revise or rerun staged claims so the supported birth date/time/place is attached only to the person named in the visible source. |
+| `research/_staging/reviews/proof-review-research-staging-claims-cl-stage-chunk-4127185dc97c-p0172-01-513-child-name-sex-postconv-proof-review-20260522081240882.md` | `research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-513-child-name-sex.md` | `hold` | Keep the claim on hold for conversion QA. Reconcile entry 513's child-name field against the source image, then revise or rerun the staged claim so `Masculino` is attached only to the person actually named in the visible register entry. |
 | `research/_staging/reviews/proof-review-research-staging-relationships-rel-stage-chunk-4127185dc97c-p0172-01-513-child-parents-postconv-proof-review-20260522074501392.md` | `research/_staging/relationships/REL-STAGE-CHUNK-4127185dc97c-P0172-01-513-child-parents.md` | `hold` | Keep this staged relationship on hold. Run conversion QA on entry 513 against the source image, focusing on the child name/surname and the mother's full name. After the corrected transcription is available, revise or replace this relationship candidate rather than promoting the current draft. |
 | `research/_staging/reviews/proof-review-research-staging-relationships-rel-stage-chunk-4127185dc97c-p0172-01-514-child-mother-and-father-conflict-postconv-proof-review-20260522074633403.md` | `research/_staging/relationships/REL-STAGE-CHUNK-4127185dc97c-P0172-01-514-child-mother-and-father-conflict.md` | `hold` | Run conversion QA against the source image for entry 514, focusing on the father field, the child name, and the compareciente note. After QA, revise the staged relationship to preserve only the mother-child claim if the visible-source reading remains stable. |
 | `research/_staging/reviews/proof-review-research-staging-relationships-rel-stage-chunk-4127185dc97c-p0172-01-515-child-parents-postconv-proof-review-20260522074851382.md` | `research/_staging/relationships/REL-STAGE-CHUNK-4127185dc97c-P0172-01-515-child-parents.md` | `hold` | Hold this staged relationship for conversion QA. Re-transcribe entry 515 from the image, focusing on the child full name, the father surname, the mother surname, and the father-as-declarant line. Do not promote the combined child-parents relationship until the names are reconciled against visible source evidence. |
+| `research/_staging/reviews/proof-review-research-staging-relationships-rel-stage-chunk-bdb698de8106-p0001-01-513-child-parents-postconv-proof-review-20260522080434083.md` | `research/_staging/relationships/REL-STAGE-CHUNK-bdb698de8106-P0001-01-513-child-parents.md` | `hold_for_conversion_qa` | Hold for conversion QA and revise the staged relationship only after the visible source reading for entry 513's child name/sex is reconciled. Do not promote this draft to canonical relationship folders in its current form. |
 
 When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 

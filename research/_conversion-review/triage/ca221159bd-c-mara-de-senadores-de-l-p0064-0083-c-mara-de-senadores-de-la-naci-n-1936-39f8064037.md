@@ -23,7 +23,7 @@
 | 13 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
 | 15 | none | high | pass | none | none |
-| 16 | none | high | pass | none | none |
+| 16 | medium | high | pass | none | Cesar |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |

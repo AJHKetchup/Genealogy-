@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 64 | critical | low | reread-page | none | Arturo, relationships |
+| 64 | critical | low | reread-page | none | Arturo, Juan, Luis, relationships |
 | 65 | medium | high | pass | none | relationships |
-| 66 | medium | high | pass | none | relationships |
-| 67 | medium | high | pass | none | relationships |
-| 68 | medium | high | pass | none | relationships |
+| 66 | critical | low | reread-page | none | Juan, relationships |
+| 67 | critical | low | reread-page | none | Carmen, Luis, Mercedes, relationships |
+| 68 | critical | low | reread-page | none | Juan, Luis, relationships |
 | 69 | medium | high | pass | none | relationships |
-| 70 | medium | high | pass | none | relationships |
-| 71 | medium | high | pass | none | relationships |
-| 72 | medium | high | pass | none | relationships |
+| 70 | critical | low | reread-page | none | Mercedes, relationships |
+| 71 | critical | low | reread-page | none | Luis, relationships |
+| 72 | critical | low | reread-page | none | Juan, relationships |
 | 73 | medium | high | pass | none | Arturo, relationships |
-| 74 | medium | high | pass | none | relationships |
-| 75 | medium | high | pass | none | relationships |
-| 76 | medium | high | pass | none | relationships |
+| 74 | critical | low | reread-page | none | Luis, relationships |
+| 75 | critical | low | reread-page | none | Juan, Luis, relationships |
+| 76 | medium | high | pass | none | Mercedes, relationships |
 | 77 | medium | high | pass | none | relationships |
-| 78 | medium | high | pass | none | relationships |
-| 79 | medium | high | pass | none | relationships |
+| 78 | critical | low | reread-page | none | Luis, relationships |
+| 79 | critical | low | reread-page | none | Juan, Luis, relationships |
 | 80 | medium | high | pass | none | Arturo, relationships |
-| 81 | medium | high | pass | none | relationships |
-| 82 | medium | high | pass | none | relationships |
-| 83 | medium | high | pass | none | Arturo, relationships |
+| 81 | critical | low | reread-page | none | Luis, relationships |
+| 82 | critical | low | reread-page | none | Juan, Luis, relationships |
+| 83 | critical | low | reread-page | none | Arturo, Juan, Luis, relationships |

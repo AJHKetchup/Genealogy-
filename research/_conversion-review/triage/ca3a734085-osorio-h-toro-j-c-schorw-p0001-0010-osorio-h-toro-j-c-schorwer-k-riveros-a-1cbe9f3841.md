@@ -8,13 +8,13 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | medium | high | pass | none | user |
-| 2 | high | high | pass | none | History, knowledge, people, relationships |
-| 3 | medium | high | pass | none | people |
-| 4 | critical | low | reread-page | none | Pulgar |
-| 5 | medium | high | pass | none | relationships, start |
-| 6 | none | high | pass | none | none |
-| 7 | medium | high | pass | none | relationships |
+| 1 | medium | high | pass | none | Luis, user |
+| 2 | critical | low | reread-page | none | Dios, History, Juan, knowledge, people, relationships |
+| 3 | critical | low | reread-page | none | Dios, Juan, people |
+| 4 | critical | low | reread-page | none | Dios, Juan, Pulgar |
+| 5 | critical | low | reread-page | none | Juan, Luis, relationships, start |
+| 6 | critical | low | reread-page | none | Dios, Juan |
+| 7 | medium | high | pass | none | Luis, relationships |
 | 8 | medium | high | pass | none | Arturo, people |
 | 9 | medium | high | pass | none | people, relationships |
 | 10 | high | high | pass | none | History, knowledge, relationships |

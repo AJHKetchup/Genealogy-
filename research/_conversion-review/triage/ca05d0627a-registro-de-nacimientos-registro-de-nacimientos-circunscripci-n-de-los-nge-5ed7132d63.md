@@ -8,4 +8,4 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 172 | medium | high | pass | none | Pulgar |
+| 172 | critical | low | reread-page | none | Carmen, Dios, Juan, Juana, Mercedes, Pulgar, Riquelme, mercedes riquelme |

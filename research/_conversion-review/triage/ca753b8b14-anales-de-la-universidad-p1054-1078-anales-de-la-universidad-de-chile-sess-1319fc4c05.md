@@ -10,7 +10,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 1054 | medium | high | pass | none | relationships |
 | 1055 | medium | high | pass | none | relationships |
-| 1056 | medium | high | pass | none | relationships |
+| 1056 | critical | low | reread-page | none | relationships |
 | 1057 | medium | high | pass | none | relationships |
 | 1058 | medium | high | pass | none | relationships |
 | 1059 | medium | high | pass | none | relationships |
@@ -31,5 +31,5 @@
 | 1074 | medium | high | pass | none | relationships |
 | 1075 | medium | high | pass | none | relationships |
 | 1076 | medium | high | pass | none | relationships |
-| 1077 | medium | high | pass | none | relationships |
+| 1077 | critical | low | reread-page | none | relationships |
 | 1078 | medium | high | pass | none | relationships |

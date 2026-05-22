@@ -8,11 +8,11 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | high | pass | none | none |
+| 1 | medium | high | pass | none | Luis |
 | 2 | none | high | pass | none | none |
-| 3 | none | high | pass | none | none |
+| 3 | medium | high | pass | none | Luis |
 | 4 | none | high | pass | none | none |
-| 5 | none | high | pass | none | none |
+| 5 | critical | low | reread-page | none | Dios |
 | 6 | none | high | pass | none | none |
 | 310 | medium | high | pass | none | relationships |
 | 8 | none | high | pass | none | none |
@@ -28,8 +28,8 @@
 | 18 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |
-| 21 | none | high | pass | none | none |
+| 21 | medium | high | pass | none | Luis |
 | 22 | none | high | pass | none | none |
 | 23 | none | high | pass | none | none |
 | 327 | none | high | pass | none | none |
-| 25 | none | high | pass | none | none |
+| 25 | medium | high | pass | none | Mercedes |

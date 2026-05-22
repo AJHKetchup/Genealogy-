@@ -8,7 +8,7 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | high | pass | none | none |
+| 1 | critical | low | reread-page | none | Juan |
 | 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
@@ -19,16 +19,16 @@
 | 337 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |
-| 12 | none | high | pass | none | none |
+| 12 | critical | low | reread-page | none | Juan |
 | 13 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
 | 15 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
-| 18 | none | high | pass | none | none |
-| 19 | none | high | pass | none | none |
-| 20 | none | high | pass | none | none |
-| 21 | none | high | pass | none | none |
+| 18 | critical | low | reread-page | none | Dios, Juan |
+| 19 | critical | low | reread-page | none | Dios, Juan |
+| 20 | medium | high | pass | none | Dios |
+| 21 | medium | high | pass | none | Dios |
 | 22 | none | high | pass | none | none |
 | 23 | none | high | pass | none | none |
 | 24 | none | high | pass | none | none |

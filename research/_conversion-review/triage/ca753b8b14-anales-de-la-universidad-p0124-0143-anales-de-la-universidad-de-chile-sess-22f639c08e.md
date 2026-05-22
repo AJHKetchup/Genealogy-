@@ -9,10 +9,10 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 124 | medium | high | pass | none | relationships |
-| 125 | medium | high | pass | none | relationships |
-| 126 | medium | high | pass | none | relationships |
-| 127 | medium | high | pass | none | relationships |
-| 128 | medium | high | pass | none | relationships |
+| 125 | medium | high | pass | none | Luis, relationships |
+| 126 | high | high | pass | none | Juana, Luis, relationships |
+| 127 | medium | high | pass | none | Luis, relationships |
+| 128 | medium | high | pass | none | Luis, relationships |
 | 129 | medium | high | pass | none | relationships |
 | 130 | medium | high | pass | none | relationships |
 | 131 | medium | high | pass | none | relationships |
@@ -25,6 +25,6 @@
 | 138 | medium | high | pass | none | relationships |
 | 139 | medium | high | pass | none | relationships |
 | 140 | medium | high | pass | none | relationships |
-| 141 | medium | high | pass | none | relationships |
+| 141 | critical | low | reread-page | none | Juan, relationships |
 | 142 | medium | high | pass | none | relationships |
-| 143 | medium | high | pass | none | relationships |
+| 143 | critical | low | reread-page | none | Luis, Mercedes, relationships |

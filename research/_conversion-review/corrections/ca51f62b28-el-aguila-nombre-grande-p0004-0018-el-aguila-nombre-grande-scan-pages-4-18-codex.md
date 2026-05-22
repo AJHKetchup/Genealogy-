@@ -6,6 +6,16 @@
 
 ## Suspected Readings
 
+- Literal converted text: `JARA`
+  Suspected reading: `Juana`
+  Reason: near match to known family context term `Juana`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `JUAN`
+  Suspected reading: `Juana`
+  Reason: near match to known family context term `Juana`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `PULGA`
   Suspected reading: `Pulgar`
   Reason: near match to known family context term `Pulgar`

@@ -14,10 +14,34 @@
 - Quality flags: explicit_reread_needed
 - Matched family context: maternal
 
+### Page 7
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Dios, Juan, Juana
+
 ### Page 71
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
 - Family relevance: `none`
 - Quality flags: explicit_reread_needed
+- Matched family context: none
+
+### Page 15
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none
+
+### Page 18
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `high`
+- Quality flags: none
 - Matched family context: none

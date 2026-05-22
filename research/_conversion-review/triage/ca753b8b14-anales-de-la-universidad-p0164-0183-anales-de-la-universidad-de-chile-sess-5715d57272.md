@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 164 | medium | high | pass | none | relationships |
-| 165 | medium | high | pass | none | relationships |
-| 166 | medium | high | pass | none | relationships |
+| 164 | critical | low | reread-page | none | Juan, Luis, relationships |
+| 165 | medium | high | pass | none | Luis, relationships |
+| 166 | critical | low | reread-page | none | Luis, relationships |
 | 167 | medium | high | pass | none | relationships |
 | 168 | medium | high | pass | none | relationships |
 | 169 | medium | high | pass | none | relationships |
-| 170 | medium | high | pass | none | Arturo, relationships |
-| 171 | medium | high | pass | none | Arturo, relationships |
-| 172 | medium | high | pass | none | Arturo, relationships |
+| 170 | critical | low | reread-page | none | Arturo, Carmen, Juan, relationships |
+| 171 | critical | low | reread-page | none | Arturo, Juan, relationships |
+| 172 | high | high | pass | none | Arturo, Luis, relationships |
 | 173 | medium | high | pass | none | Arturo, relationships |
-| 174 | medium | high | pass | none | relationships |
-| 175 | medium | high | pass | none | relationships |
-| 176 | medium | high | pass | none | relationships |
-| 177 | medium | high | pass | none | relationships |
-| 178 | medium | high | pass | none | relationships |
-| 179 | medium | high | pass | none | Arturo, relationships |
-| 180 | medium | high | pass | none | relationships |
+| 174 | critical | low | reread-page | none | Juan, Mercedes, relationships |
+| 175 | critical | low | reread-page | none | Juan, Luis, Mercedes, relationships |
+| 176 | critical | low | reread-page | none | Juan, Luis, relationships |
+| 177 | critical | low | reread-page | none | Juan, Luis, relationships |
+| 178 | critical | low | reread-page | none | Juan, relationships |
+| 179 | critical | low | reread-page | none | Arturo, Juan, relationships |
+| 180 | critical | low | reread-page | none | Juan, relationships |
 | 181 | medium | high | pass | none | relationships |
-| 182 | medium | high | pass | none | relationships |
+| 182 | medium | high | pass | none | Luis, relationships |
 | 183 | medium | high | pass | none | relationships |

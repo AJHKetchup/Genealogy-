@@ -11,7 +11,7 @@
 | 729 | medium | high | pass | none | relationships |
 | 730 | medium | high | pass | none | relationships |
 | 731 | critical | low | reread-page | none | relationships |
-| 732 | medium | high | pass | none | relationships |
+| 732 | critical | low | reread-page | none | relationships |
 | 733 | medium | high | pass | none | relationships |
 | 734 | medium | high | pass | none | relationships |
 | 735 | medium | high | pass | none | relationships |

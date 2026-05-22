@@ -6,7 +6,32 @@
 
 ## Suspected Readings
 
+- Literal converted text: `Juan`
+  Suspected reading: `Juana`
+  Reason: near match to known family context term `Juana`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Historia`
   Suspected reading: `History`
   Reason: near match to known family context term `History`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Juan`
+  Suspected reading: `Juana`
+  Reason: near match to known family context term `Juana`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `saber`
+  Suspected reading: `Soler`
+  Reason: near match to known family context term `Soler`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `JuAN`
+  Suspected reading: `Juana`
+  Reason: near match to known family context term `Juana`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Solis`
+  Suspected reading: `Soler`
+  Reason: near match to known family context term `Soler`
   Verification target: reread the page image or exact region before using this in a claim.

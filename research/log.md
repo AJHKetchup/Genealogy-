@@ -26371,3 +26371,4 @@
 ## [2026-05-22] source-prep-batches | Wrote 1379 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
 ## [2026-05-22] promote-staged | Promoted 0 source packet(s), 0 claim(s), 3 relationship(s)
 ## [2026-05-22] wiki-promotion | Reviewed-ready task wiki-promotion:reviewed-ready:d9396652dddc promoted assigned d6a12b291d94 relationship drafts into 3 canonical relationship pages; manifest research/_staging/promotions/2026-05-22-075419-promote-staged.json. Added proof-review score and caution notes to preserve source quality, probability, uncertainty, and the entry 514 transcription caveat. Required lint was run and failed on existing missing research paths, template/index references, and existing relationship/source page issues.
+## [2026-05-22] source-relevance | Restored proof-review assets and released 28 review task(s)

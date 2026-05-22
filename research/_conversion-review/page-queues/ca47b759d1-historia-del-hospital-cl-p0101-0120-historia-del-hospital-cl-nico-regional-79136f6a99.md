@@ -14,21 +14,45 @@
 - Quality flags: explicit_reread_needed
 - Matched family context: none
 
+### Page 4
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Riquelme, Starting
+
 ### Page 105
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: explicit_reread_needed
-- Matched family context: Pulgar
+- Matched family context: Dios, Juan, Pulgar, Riquelme
 
 ### Page 106
 
-- Recommended action: `spot-check`
-- Conversion confidence: `medium`
-- Family relevance: `none`
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
 - Quality flags: explicit_reread_needed
-- Matched family context: none
+- Matched family context: Juan
+
+### Page 9
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Juan, Luis
+
+### Page 13
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Arturo, John, Juan, Riquelme
 
 ### Page 114
 
@@ -37,3 +61,19 @@
 - Family relevance: `none`
 - Quality flags: explicit_reread_needed
 - Matched family context: none
+
+### Page 19
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Dios, Juan
+
+### Page 20
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Juan
