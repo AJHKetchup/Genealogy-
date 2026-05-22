@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-20",
+  "updated": "2026-05-22",
   "name": "post-conversion-autopilot",
   "purpose": "Coordinate post-conversion genealogy work using the Karpathy LLM Wiki pattern: durable Markdown/JSON state, immutable sources, schema-guided agents, and no provider API keys for the post-conversion lane.",
   "path_note": "C:/Users/Big Al/Documents/New project is a junction to C:/Users/Big Al/Documents/Genealogy; Python may print the resolved target path while operating on the same files.",
@@ -43,7 +43,7 @@
     "trigger_contract": "The site rebuilds on main pushes, hourly at minute 41, and after successful Internal Research Agents runs.",
     "separation_contract": "Public pages are person/tree/narrative first. Converted chunks, source-operation dates, QA queues, staging prompts, and automation internals stay in research.html or the source library.",
     "timeline_contract": "The public timeline includes family events and person facts only, never raw converted source dates or automation dates.",
-    "promotion_contract": "Automatic internal-agent runs perform ordinary QA/extraction/review first, then a separate one-worker promotion-only pass. The promoter may move only review-ready material and must keep uncertainty and probability visible.",
+    "promotion_contract": "Automatic internal-agent runs perform ordinary QA/extraction/review first, then a separate one-worker promotion-only pass. The promoter may move only review-ready material and must keep uncertainty and probability visible. The promotion queue is based on reviewed staged drafts that still lack their expected canonical outputs, so an earlier empty promotion attempt cannot permanently starve ready family-tree material.",
     "pc_dependency": "none for hosted workflow runs",
     "provider_api_keys": "not required"
   },
@@ -166,6 +166,7 @@
       "role": "wiki_promoter",
       "default_status": "disabled_requires_allow_promotion",
       "enabled_by": "scripts/post-conversion-agent-controller.ps1 -AllowPromotion",
+      "source": "generated from proof reviews whose staged drafts are ready and still lack expected canonical promotion outputs",
       "writes": [
         "research/source-packets/",
         "research/claims/",

@@ -374,6 +374,81 @@ function Test-StagedDraftCanBePromoted {
     return $true
 }
 
+function ConvertFrom-ListishValue {
+    param([string]$Value)
+    if ([string]::IsNullOrWhiteSpace($Value)) { return @() }
+    $trimmed = $Value.Trim()
+    if ($trimmed.StartsWith("[") -and $trimmed.EndsWith("]")) {
+        $trimmed = $trimmed.Substring(1, $trimmed.Length - 2)
+    }
+    $parts = @($trimmed -split ",")
+    $items = @()
+    foreach ($part in $parts) {
+        $item = $part.Trim().Trim('"').Trim("'")
+        if (-not [string]::IsNullOrWhiteSpace($item)) { $items += $item }
+    }
+    return @($items)
+}
+
+function Get-CleanPersonNameForPromotion {
+    param([string]$Value)
+    $clean = $Value.Trim()
+    $match = [regex]::Match($clean, '^\[\[([^|\]]+)(?:\|[^\]]+)?\]\]$')
+    if ($match.Success) { $clean = $match.Groups[1].Value }
+    $clean = $clean -replace "^people/", ""
+    $clean = $clean -replace "_", " "
+    if ($clean -match "[/\\]") {
+        $clean = [System.IO.Path]::GetFileNameWithoutExtension($clean)
+    }
+    return ($clean -replace "-", " ").Trim()
+}
+
+function Get-StagedDraftPromotionTargets {
+    param([string]$StagedDraft)
+    $relative = ($StagedDraft -replace "\\", "/").Trim().Trim("``").Trim('"').Trim("'")
+    if ([string]::IsNullOrWhiteSpace($relative)) { return @() }
+    $path = Resolve-UnderRoot -Path $relative
+    if (-not (Test-Path -LiteralPath $path)) { return @() }
+    $text = Get-Content -LiteralPath $path -Raw
+    $type = (Get-ReviewFrontmatterValue -Text $text -Name "type").Trim().ToLowerInvariant()
+    $stem = [System.IO.Path]::GetFileNameWithoutExtension($path)
+    $targets = @()
+    if ($type -eq "claim") {
+        $targets += Join-Path $Root ("research\claims\{0}.md" -f (New-Slug $stem))
+    }
+    elseif ($type -in @("source_packet", "staged_source_packet")) {
+        $targets += Join-Path $Root ("research\source-packets\{0}.md" -f (New-Slug $stem))
+    }
+    elseif ($type -eq "relationship") {
+        $targets += Join-Path $Root ("research\relationships\{0}.md" -f (New-Slug $stem))
+    }
+    elseif ($type -eq "relationship_candidate") {
+        $relationshipType = (Get-ReviewFrontmatterValue -Text $text -Name "relationship_type").Trim().ToLowerInvariant()
+        if ($relationshipType -in @("spouse", "disputed_spouse")) {
+            $personA = Get-CleanPersonNameForPromotion -Value (Get-ReviewFrontmatterValue -Text $text -Name "person_a")
+            $personB = Get-CleanPersonNameForPromotion -Value (Get-ReviewFrontmatterValue -Text $text -Name "person_b")
+            $canonicalType = if ($relationshipType -eq "disputed_spouse") { "disputed_spouse" } else { "spouse" }
+            $targets += Join-Path $Root ("research\relationships\{0}.md" -f (New-Slug "$stem-$personA-$personB-$canonicalType"))
+        }
+        elseif ($relationshipType -in @("recorded_parent_child", "parent_child", "child_parent", "probable_parent", "possible_parent")) {
+            foreach ($parent in (ConvertFrom-ListishValue -Value (Get-ReviewFrontmatterValue -Text $text -Name "parents"))) {
+                $targets += Join-Path $Root ("research\relationships\{0}.md" -f (New-Slug "$stem-$parent-parent"))
+            }
+        }
+    }
+    return @($targets)
+}
+
+function Test-StagedDraftAlreadyPromoted {
+    param([string]$StagedDraft)
+    $targets = @(Get-StagedDraftPromotionTargets -StagedDraft $StagedDraft)
+    if ($targets.Count -eq 0) { return $false }
+    foreach ($target in $targets) {
+        if (-not (Test-Path -LiteralPath $target -PathType Leaf)) { return $false }
+    }
+    return $true
+}
+
 function Get-ProofReviewDraftPriority {
     param([string]$RelativePath)
     $relative = ($RelativePath -replace "\\", "/").ToLowerInvariant()
@@ -444,10 +519,12 @@ function Get-ReadyPromotionReviews {
         }
         if ([string]::IsNullOrWhiteSpace($staged) -or -not (Test-ReviewReadyForPromotion -Value $readiness)) { continue }
         if (-not (Test-StagedDraftCanBePromoted -StagedDraft $staged)) { continue }
+        if (Test-StagedDraftAlreadyPromoted -StagedDraft $staged) { continue }
         $ready += [pscustomobject]@{
             staged_draft = ($staged -replace "\\", "/").Trim().Trim("``")
             canonical_readiness = $readiness
             review_file = ConvertTo-RelativePath -Path $file.FullName
+            expected_outputs = @((Get-StagedDraftPromotionTargets -StagedDraft $staged) | ForEach-Object { ConvertTo-RelativePath -Path $_ })
         }
     }
     return @($ready)
@@ -625,6 +702,16 @@ function Write-PromotionQueue {
     $taskHash = @{}
     foreach ($key in $task.Keys) { $taskHash[$key] = $task[$key] }
     Apply-TaskState -Task $taskHash -TaskState $TaskState | Out-Null
+    $taskHash["ready_review_count"] = $readyReviews.Count
+    $taskHash["ready_review_fingerprint"] = $fingerprint
+    $taskHash["prompt_path"] = ConvertTo-RelativePath -Path $promptPath
+    if ($AllowPromotion -and $readyReviews.Count -gt 0 -and [string]$taskHash["status"] -eq "done") {
+        $taskHash["status"] = "todo"
+        $taskHash["note"] = "requeued because reviewed staged drafts still lack promoted outputs"
+        foreach ($staleField in @("agent", "claimed_at", "started_at", "completed_at")) {
+            if ($taskHash.ContainsKey($staleField)) { $taskHash.Remove($staleField) }
+        }
+    }
     $tasks = @([pscustomobject]$taskHash)
     $payload = [ordered]@{
         created = [DateTime]::UtcNow.ToString("yyyy-MM-dd")
