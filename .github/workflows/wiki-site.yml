@@ -70,4 +70,15 @@ jobs:
           test -n "$CLOUDFLARE_API_TOKEN" || { echo "::error title=Missing Cloudflare Worker deploy token::Add CLOUDFLARE_API_TOKEN. Do not reuse R2_TOKEN_VALUE; R2-only tokens cannot deploy the wiki Worker."; exit 1; }
 
       - name: Deploy to Cloudflare Workers Static Assets
-        run: npx --yes wrangler@latest deploy --config cloudflare/wiki-site/wrangler.jsonc
+        run: |
+          for attempt in 1 2 3; do
+            echo "Cloudflare deploy attempt ${attempt}/3"
+            if npx --yes wrangler@latest deploy --config cloudflare/wiki-site/wrangler.jsonc; then
+              exit 0
+            fi
+            if [ "$attempt" = "3" ]; then
+              echo "::error title=Cloudflare deploy failed::Wrangler deploy failed after 3 attempts."
+              exit 1
+            fi
+            sleep $((attempt * 30))
+          done
