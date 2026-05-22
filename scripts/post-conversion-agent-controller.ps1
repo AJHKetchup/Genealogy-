@@ -693,15 +693,15 @@ function Get-AvailableTasks {
         return @($selected)
     }
 
-    # Avoid starving extraction behind proof/QA backlogs. The canonical tree grows only
-    # after extraction -> proof review -> promotion, so the first worker wave must include evidence.
-    $reviewQuota = 1
+    # Avoid starving extraction behind a large QA backlog. The canonical tree grows only
+    # after extraction -> proof review -> promotion, so each run reserves slots for that path.
+    $reviewQuota = [Math]::Max(1, [int][Math]::Ceiling($QueueLimit * 0.25))
     $evidenceQuota = [Math]::Max(1, [int][Math]::Ceiling($QueueLimit * 0.60))
     $qaQuota = [Math]::Max(1, [int][Math]::Floor($QueueLimit * 0.25))
 
     Add-ReadyTasksFromQueue -QueueName "proof-review" -Limit $reviewQuota
-    Add-ReadyTasksFromQueue -QueueName "evidence-extraction" -Limit $evidenceQuota
     Add-ReadyTasksFromQueue -QueueName "identity-analysis" -Limit 1
+    Add-ReadyTasksFromQueue -QueueName "evidence-extraction" -Limit $evidenceQuota
     Add-ReadyTasksFromQueue -QueueName "conversion-qa" -Limit $qaQuota
     if ($AllowPromotion) {
         Add-ReadyTasksFromQueue -QueueName "wiki-promotion" -Limit 1

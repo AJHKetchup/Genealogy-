@@ -13,7 +13,7 @@
 | 266 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
-| 269 | none | high | pass | none | none |
+| 269 | none | medium | spot-check | possible_table_layout_loss | none |
 | 7 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
