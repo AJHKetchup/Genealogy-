@@ -1,7 +1,7 @@
 ---
 type: relationship_candidate
 relationship_type: parent_child
-child: "Jose Luis Pulgar Amagada"
+child: "entry 513 Pulgar Amagada child (given name unresolved)"
 parents: ["Juana de Dios Amagada de Pulgar"]
 source_packet: "research/_staging/source-packets/sp-chunk-3d3ab761209f-p0001-01-los-angeles-birth-register-page-172.md"
 confidence: medium

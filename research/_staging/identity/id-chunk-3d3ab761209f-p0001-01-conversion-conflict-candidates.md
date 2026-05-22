@@ -16,10 +16,10 @@ Chunk/page reference: `raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de
 
 ## Candidates From Assigned Chunk
 
-- Entry 513 child: Jose Luis Pulgar Amagada, male, born 26 June 1889 at Calle Colon.
+- Entry 513 child: Pulgar Amagada child, given name unresolved; assigned chunk reads Jose Luis, but source image only securely supports a given-name line beginning `Jose ...`.
 - Entry 513 father/declarant: Jose del Carmen Pulgar / Jose del C. Pulgar, Chilean agriculturist, age 47, domiciled Calle Colon.
 - Entry 513 mother: Juana de Dios Amagada de Pulgar, Chilean, domiciled Calle Colon.
-- Entry 514 child: Juan Bautista Riquelme Aviles, male, born 23 June 1889 at Calle Sanegueso.
+- Entry 514 child: Juan Bautista Riquelme, male; assigned chunk adds Aviles, but source image does not visibly support that surname.
 - Entry 514 mother/declarant: Mercedes Riquelme, Chilean seamstress, age 21, domiciled Calle Sanegueso.
 - Entry 515 child: Laura de la Cruz Neira Ulloa, female, born 18 July 1889 at Calle Santiago.
 - Entry 515 father/declarant: Pedro Pablo Neira, Chilean agriculturist, age 26, domiciled Santiago.

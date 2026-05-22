@@ -34,8 +34,8 @@ Civil birth register page for the Circunscripcion de Los Anjeles, num. 1o de La 
 - Image-reviewed page heading: `1889.-Rejistro de NACIMIENTOS en la Circunscripcion de Los Anjeles, num. 1o de La Laja`
 - Register page: `Paj. 172`
 - Visible entries: registration numbers `513`, `514`, and `515`
-- Entry 513 image-supported fields include child surname/name in the Pulgar row, father `Jose del Carmen Pulgar`, mother `Juana de Dios ... de Pulgar`, domicile `Calle Colon`, and officer signature beginning `Emilio ...`.
-- Entry 514 image-supported fields include child `Riquelme / Juan Bautista`, father field `Se ignora`, mother/declarant `Mercedes Riquelme`, and witnesses beginning `Benjamin ...` and `Ignacio ...`.
+- Entry 513 image-supported fields include child surname line beginning `Pulgar Ama...`, a given-name line beginning `Jose ...`, father `Jose del Carmen Pulgar`, mother `Juana de Dios ... de Pulgar`, domicile `Calle Colon`, and officer signature beginning `Emilio ...`.
+- Entry 514 image-supported fields include child `Riquelme / Juan Bautista` without visible `Aviles`, father field `Se ignora`, mother/declarant `Mercedes Riquelme`, and witnesses beginning `Benjamin ...` and `Ignacio ...`.
 - Entry 515 image-supported fields include child `Neira Ulloa / Laura de la Cruz`, father/declarant `Pedro Pablo Neira`, witness names, and right-column note `Neira=emendado= / vale=`.
 
 ## Conversion Confidence And QA Concern
@@ -46,7 +46,7 @@ Image review reduces, but does not eliminate, the previous blocker:
 
 - The source image is now available and confirms the heading as `Los Anjeles, num. 1o de La Laja`, not `Los Angeles ... de Julio`.
 - Entry 514's father field is image-supported as `Se ignora`; any claim naming a father from the conflicting converted file should not be promoted from this packet.
-- Entry 514 witness surname and street/place remain difficult enough to preserve as QA limitations rather than canonical identity/place facts.
+- Entry 514 `Aviles`, witness surname, and street/place remain difficult enough to preserve as QA limitations rather than canonical identity/place facts.
 - Entry 515 `Neira=emendado= / vale=` is visible, but the lower part of entry 515 is cropped; the mother details cannot be promoted from this image-reviewed packet.
 - Officer-signature support should be limited to the visible signature area and should not be normalized beyond the legible reading without separate QA.
 

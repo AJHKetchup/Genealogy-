@@ -1,7 +1,7 @@
 ---
 type: claim
 claim_type: parentage
-subject: "Juan Bautista Riquelme Aviles"
+subject: "Juan Bautista Riquelme"
 predicate: "had mother named"
 object: "Mercedes Riquelme"
 source: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png"

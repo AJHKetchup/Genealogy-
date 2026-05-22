@@ -1,7 +1,7 @@
 ---
 type: claim
 claim_type: vital
-subject: "Juan Bautista Riquelme Aviles"
+subject: "Juan Bautista Riquelme"
 predicate: "was registered as"
 object: "a male child in birth entry 514"
 source: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png"
@@ -14,8 +14,8 @@ confidence: medium
 promotion_recommendation: hold_for_conversion_qa
 ---
 
-Literal support: "**Nombre.**<br>Riquelme Aviles<br>Juan Bautista<br>**Sexo.**<br>Masculino"
+Literal support: source image shows the entry 514 child-name field as `Riquelme` over `Juan Bautista`; sex field reads `Masculino`. Assigned chunk reads `Riquelme Aviles / Juan Bautista`; converted Markdown reads `Rigoberto Juan Bautista`.
 
-Conversion confidence / QA concern: the converted file gives a different child name for entry 514. Verify image before promotion.
+Conversion confidence / QA concern: revised after source-image review because `Aviles` is not visibly supported in the child-name field. The child-name field still conflicts with the converted Markdown, so keep this claim on hold until conversion QA accepts the source-image reading.
 
-Uncertainty: name order follows register format.
+Uncertainty: name order follows register format. Do not promote `Aviles` from this entry unless a targeted crop or corrected transcription supports it.

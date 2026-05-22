@@ -1,7 +1,7 @@
 ---
 type: relationship_candidate
 relationship_type: negative_evidence_parent_child
-child: "Juan Bautista Riquelme Aviles"
+child: "Juan Bautista Riquelme"
 parents: []
 source_packet: "research/_staging/source-packets/CHUNK-3d3ab761209f-P0001-01-source-packet.md"
 confidence: medium_high

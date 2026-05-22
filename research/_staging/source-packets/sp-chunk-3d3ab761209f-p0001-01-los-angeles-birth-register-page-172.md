@@ -34,8 +34,8 @@ Use this packet only after conversion QA or proof review. The assigned chunk and
 
 Remaining QA concerns:
 
-- Entry 513 maternal surname is image-sensitive and should not be normalized beyond the literal staged reading without a targeted crop.
-- Entry 514 first witness surname and street/place readings remain uncertain.
+- Entry 513 child given name and maternal surname are image-sensitive and should not be normalized beyond the literal visible reading without a targeted crop.
+- Entry 514 child surname should be held as source-visible `Riquelme`; assigned-chunk `Aviles`, first witness surname, and street/place readings remain uncertain.
 - Entry 515 mother-field claims are blocked by the bottom crop; the available image supports the child/father/emendation area but not the full lower mother details.
 - Officer-signature support should remain limited to what is visibly legible.
 

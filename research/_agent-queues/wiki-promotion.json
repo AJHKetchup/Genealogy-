@@ -3,18 +3,24 @@
     "queue":  "wiki-promotion",
     "task_count":  1,
     "status_counts":  {
-                          "todo":  1
+                          "done":  1
                       },
     "tasks":  [
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/wiki-promotion/wiki-promotion-reviewed-ready-d9396652dddc.md",
+                      "skill":  "genealogy-proof-review",
+                      "agent":  "postconv-wiki-promotion-20260522065754228",
+                      "updated_at":  "2026-05-22T06:59:31Z",
                       "ready_review_fingerprint":  "d9396652dddc",
+                      "started_at":  "2026-05-22T06:57:54Z",
                       "queue":  "wiki-promotion",
+                      "note":  "post-conversion controller start",
                       "ready_review_count":  2,
-                      "role":  "wiki_promoter",
+                      "completed_at":  "2026-05-22T06:59:31Z",
+                      "prompt_path":  "research/_agent-queues/prompts/wiki-promotion/wiki-promotion-reviewed-ready-d9396652dddc.md",
                       "task_id":  "wiki-promotion:reviewed-ready:d9396652dddc",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-22T06:57:54Z",
+                      "role":  "wiki_promoter"
                   }
               ]
 }

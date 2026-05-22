@@ -1,7 +1,7 @@
 ---
 type: claim
 claim_type: vital
-subject: "Jose Luis Pulgar Amagada"
+subject: "entry 513 Pulgar Amagada child (given name unresolved)"
 predicate: "was registered as"
 object: "a male child in birth entry 513"
 source: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png"
@@ -14,8 +14,8 @@ confidence: low
 promotion_recommendation: hold_for_conversion_qa
 ---
 
-Literal support: "**Nombre.** Pulgar Amagada<br>José Luis<br>**Sexo.**<br>Masculino"
+Literal support: source image shows the entry 513 child-name field beginning with `Pulgar Ama...` on the surname line and a given-name line beginning `Jose ...`; sex field reads `Masculino`. Assigned chunk reads `Pulgar Amagada / Jose Luis`; converted Markdown reads `Tulio Cesar Luis Jose`.
 
-Conversion confidence / QA concern: the assigned chunk supports this claim, and image review supports a `Pulgar ...` surname line and male sex for entry 513, but the given-name line remains difficult at the available resolution. The assembled converted file gives a materially different name, `Tulio Cesar Luis Jose`. Keep this claim on hold until targeted conversion QA reconciles the child-name field from the image and derivative transcripts.
+Conversion confidence / QA concern: revised after source-image review. The image supports a Pulgar/Amagada-style surname line and male sex, but it does not securely support the staged subject label `Jose Luis Pulgar Amagada`. Keep this claim on hold until targeted conversion QA reconciles the child-name field from the image, assigned chunk, and converted Markdown.
 
-Uncertainty: name order is register format; do not split given names and surnames until review. The subject label `Jose Luis Pulgar Amagada` is retained as the assigned-chunk reading, not as a promotion-ready canonical name.
+Uncertainty: name order is register format; do not split given names and surnames until review. The prior label `Jose Luis Pulgar Amagada` is not promotion-ready from the visible source image.

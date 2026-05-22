@@ -1,7 +1,7 @@
 ---
 type: claim
 claim_type: vital
-subject: "Jose Luis Pulgar Amagada"
+subject: "entry 513 Pulgar Amagada child (given name unresolved)"
 predicate: "was born on"
 object: "22 June 1889 at about 4:30 p.m."
 source: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png"

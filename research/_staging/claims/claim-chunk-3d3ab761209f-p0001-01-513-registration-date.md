@@ -1,7 +1,7 @@
 ---
 type: claim
 claim_type: event
-subject: "Birth entry 513 for Jose Luis Pulgar Amagada"
+subject: "Birth entry 513 for the Pulgar Amagada child (given name unresolved)"
 predicate: "was registered on"
 object: "22 July 1889"
 source: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png"

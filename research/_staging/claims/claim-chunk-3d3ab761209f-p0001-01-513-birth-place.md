@@ -1,7 +1,7 @@
 ---
 type: claim
 claim_type: place
-subject: "Jose Luis Pulgar Amagada"
+subject: "entry 513 Pulgar Amagada child (given name unresolved)"
 predicate: "was born at"
 object: "Calle Colon"
 source: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png"

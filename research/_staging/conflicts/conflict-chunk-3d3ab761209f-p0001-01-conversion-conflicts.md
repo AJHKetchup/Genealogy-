@@ -27,10 +27,10 @@ The source image is available and supports the assigned chunk more than the asse
 
 ## Material Conflicts
 
-- Entry 513 child: assigned chunk has `Pulgar Amagada / Jose Luis`; converted file has `Tulio Cesar Luis Jose`. The image supports a `Pulgar ...` surname line more than the converted-file given-name-only reading, but the given-name line still needs targeted QA.
+- Entry 513 child: assigned chunk has `Pulgar Amagada / Jose Luis`; converted file has `Tulio Cesar Luis Jose`. The image supports a `Pulgar Ama...` surname line and a given-name line beginning `Jose ...`, but it does not securely support `Jose Luis`; the given-name line still needs targeted QA.
 - Entry 513 birth: assigned chunk has 26 June 1889 at 4:30 p.m.; converted file has 22 June 1889 at 4:20 a.m. The image appears to support 22 June 1889, while the exact time phrase remains uncertain.
 - Entry 513 mother: assigned chunk has `Juana de Dios Amagada de Pulgar`; converted file has `Juana de Dios Amador de Pulgar`; image review supports the Pulgar family row but the maternal surname should remain QA-sensitive.
-- Entry 514 child: assigned chunk has `Riquelme Aviles / Juan Bautista`; converted file has `Rigoberto Juan Bautista`.
+- Entry 514 child: assigned chunk has `Riquelme Aviles / Juan Bautista`; converted file has `Rigoberto Juan Bautista`; source image supports `Riquelme / Juan Bautista` and does not visibly support `Aviles`.
 - Entry 514 father: assigned chunk and image have `Se ignora`; converted file has `Belisario Riquelme`.
 - Entry 514 witness/place: assigned chunk has `Benjamin Utiera` and `Calle Sanegueso`; converted file has `Benjamin Utria`, `Ignacio Jara`, and `Calle San Joaquin`; image does not fully settle these readings in this pass.
 - Entry 515 child and father: assigned chunk and visible image support `Neira Ulloa / Laura de la Cruz` and father/declarant `Pedro Pablo Neira`; converted file has `Rosa Elvira del Carmen` and father `Pedro Pablo Leiva`.
