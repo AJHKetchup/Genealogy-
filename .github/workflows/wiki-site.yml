@@ -25,23 +25,19 @@ concurrency:
 
 permissions:
   contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  publish-worker:
+  publish-site:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    env:
-      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID || secrets.R2_ACCOUNT_ID }}
-      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-      WRANGLER_SEND_METRICS: "false"
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-
-      - name: Set up Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: "24"
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -64,24 +60,14 @@ jobs:
           PYTHONPATH: src
         run: python -m historic_doc_ingest.genealogy_wiki site --root . --out site --wiki-only
 
-      - name: Build embedded wiki Worker
-        run: node scripts/build-wiki-site-worker.mjs site site-worker/index.mjs
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
 
-      - name: Check Cloudflare deploy credentials
-        run: |
-          test -n "$CLOUDFLARE_ACCOUNT_ID" || { echo "::error title=Missing Cloudflare account id::Add CLOUDFLARE_ACCOUNT_ID, or keep R2_ACCOUNT_ID if it is the Cloudflare account id."; exit 1; }
-          test -n "$CLOUDFLARE_API_TOKEN" || { echo "::error title=Missing Cloudflare Worker deploy token::Add CLOUDFLARE_API_TOKEN. Do not reuse R2_TOKEN_VALUE; R2-only tokens cannot deploy the wiki Worker."; exit 1; }
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
 
-      - name: Deploy to Cloudflare Worker
-        run: |
-          for attempt in 1 2 3; do
-            echo "Cloudflare deploy attempt ${attempt}/3"
-            if npx --yes wrangler@latest deploy --config cloudflare/wiki-site/wrangler.embedded.jsonc; then
-              exit 0
-            fi
-            if [ "$attempt" = "3" ]; then
-              echo "::error title=Cloudflare deploy failed::Wrangler deploy failed after 3 attempts."
-              exit 1
-            fi
-            sleep $((attempt * 30))
-          done
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
