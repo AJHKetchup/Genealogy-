@@ -18,5 +18,5 @@ promotion_recommendation: promote_after_review
 # Claim: Mother's Recorded Attributes
 
 - Literal support: `**Nombre de la madre** Juana Arriagada de Pulgar **Nac** Chilena **Prof** Su sexo **Dom** Calle de Colipí`
-- Conversion confidence/QA concern: high transcription confidence, but queue requested reread-page QA.
+- Conversion confidence/QA concern: image reread completed 2026-05-22; the visible entry 172 mother field supports the converted reading. The remaining conversion QA issue concerns the father's possible suffix, not this claim.
 - Uncertainty: Low for listed nationality and residence; `Su sexo` is retained literally as the occupation/status field and should not be converted to a modern occupation.

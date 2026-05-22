@@ -18,5 +18,5 @@ promotion_recommendation: promote_after_review
 # Claim: Recorded Sex
 
 - Literal support: `**Sexo.** Hombre`
-- Conversion confidence/QA concern: high transcription confidence, but queue requested reread-page QA.
+- Conversion confidence/QA concern: image reread completed 2026-05-22; the visible entry 172 sex field supports the converted reading `Hombre`. The remaining conversion QA issue concerns the father's possible suffix, not this claim.
 - Uncertainty: Low.

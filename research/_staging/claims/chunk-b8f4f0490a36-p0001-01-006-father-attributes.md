@@ -2,7 +2,7 @@
 type: claim
 status: draft
 claim_type: parent_attributes
-subject: "Jose del Carmen Pulgar S."
+subject: "Jose del Carmen Pulgar"
 predicate: "was recorded as father with attributes"
 object: "Chileno; Empleado; resident at Calle de Colipi"
 source: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png"
@@ -11,12 +11,12 @@ converted_file: "raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-na
 chunk: "raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-09220dde10/page-0001-chunk-01.md"
 chunk_id: CHUNK-b8f4f0490a36-P0001-01
 page_reference: "page 1; register page 58; entry 172"
-confidence: high
-promotion_recommendation: promote_after_review
+confidence: medium
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Claim: Father's Recorded Attributes
 
-- Literal support: `**Nombre del padre** Jose del Carmen Pulgar S. **Nac** Chileno **Prof** Empleado **Dom** Calle de Colipí`
-- Conversion confidence/QA concern: high transcription confidence, but queue requested reread-page QA.
-- Uncertainty: Low for listed nationality, occupation, and residence; moderate for interpreting abbreviated `S.`.
+- Literal support: derivative transcript says `**Nombre del padre** Jose del Carmen Pulgar S. **Nac** Chileno **Prof** Empleado **Dom** Calle de Colipí`; image reread supports `Jose del Carmen Pulgar` without a clearly visible final `S.` suffix.
+- Conversion confidence/QA concern: mixed after image reread. Nationality and occupation are readable; father-name suffix requires conversion QA before canonical use.
+- Uncertainty: Low for listed nationality and occupation; moderate for father-name suffix and exact residence spelling.

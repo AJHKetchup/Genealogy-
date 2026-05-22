@@ -8,8 +8,8 @@ converted_file: "raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-na
 chunk: "raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-09220dde10/page-0001-chunk-01.md"
 chunk_id: CHUNK-b8f4f0490a36-P0001-01
 page_reference: "page 1; register page 58; entry 172"
-confidence: high
-promotion_recommendation: promote_after_review
+confidence: medium
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Identity Candidates
@@ -18,33 +18,33 @@ promotion_recommendation: promote_after_review
 
 - Role: child in entry 172.
 - Literal support: `**Nombre.** Jose del Carmen Segundo Pulgar Arriagada **Sexo.** Hombre`
-- Conversion confidence/QA concern: high; reread-page requested by queue.
+- Conversion confidence/QA concern: image reread completed; the child-name field agrees with the derivative transcript.
 - Uncertainty: Low, with spelling/diacritic review recommended.
 
-## Jose del Carmen Pulgar S.
+## Jose del Carmen Pulgar
 
 - Role: father of Jose del Carmen Segundo Pulgar Arriagada.
-- Literal support: `**Nombre del padre** Jose del Carmen Pulgar S.`
-- Conversion confidence/QA concern: high; reread-page requested by queue.
-- Uncertainty: Moderate for the abbreviated `S.` and any identity merge with a fuller canonical name.
+- Literal support: derivative transcript says `**Nombre del padre** Jose del Carmen Pulgar S.`; image reread supports `Jose del Carmen Pulgar` without a clearly visible final `S.` suffix.
+- Conversion confidence/QA concern: mixed after image reread.
+- Uncertainty: Moderate for the exact recorded father name and any identity merge with a fuller canonical name.
 
 ## Juana Arriagada de Pulgar
 
 - Role: mother of Jose del Carmen Segundo Pulgar Arriagada.
 - Literal support: `**Nombre de la madre** Juana Arriagada de Pulgar`
-- Conversion confidence/QA concern: high; reread-page requested by queue.
+- Conversion confidence/QA concern: image reread completed; field agrees with derivative transcript.
 - Uncertainty: Low for the recorded name; review whether canonical identity should use maiden surname only or married style.
 
 ## Ernesto Herrera L.
 
 - Role: informant/compareciente, present at the birth.
 - Literal support: `Ernesto Herrera L. Presente al nacimiento`
-- Conversion confidence/QA concern: high; reread-page requested by queue.
+- Conversion confidence/QA concern: image reread completed; field agrees with derivative transcript.
 - Uncertainty: Moderate for identity beyond this event; no kinship is stated.
 
 ## Emilio Riquelme V.
 
 - Role: civil registration official/signatory.
 - Literal support: `[signature] Emilio Riquelme V.`
-- Conversion confidence/QA concern: high; reread-page requested by queue.
+- Conversion confidence/QA concern: image reread completed; signature agrees with derivative transcript.
 - Uncertainty: Low as official signature; do not treat as family relationship evidence without additional context.

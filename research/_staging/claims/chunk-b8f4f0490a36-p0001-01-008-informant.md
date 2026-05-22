@@ -18,5 +18,5 @@ promotion_recommendation: promote_after_review
 # Claim: Informant
 
 - Literal support: `Ernesto Herrera L. Presente al nacimiento **Edad** Veintiseis años **Prof** Empleado **Dom** Calle de Valdivia`
-- Conversion confidence/QA concern: high transcription confidence, but queue requested reread-page QA.
+- Conversion confidence/QA concern: image reread completed 2026-05-22; the visible entry 172 informant field supports the converted reading. The remaining conversion QA issue concerns the father's possible suffix, not this claim.
 - Uncertainty: Low for informant details; no family relationship to the child is stated.

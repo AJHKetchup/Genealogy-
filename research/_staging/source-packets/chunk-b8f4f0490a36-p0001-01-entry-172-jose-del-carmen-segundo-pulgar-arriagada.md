@@ -2,7 +2,7 @@
 type: source_packet
 status: draft
 task_id: evidence-extraction:CHUNK-b8f4f0490a36-P0001-01
-worker: postconv-evidence-extraction-20260522112201275
+worker: postconv-evidence-extraction-20260522120357153
 source_title: "Registro de Nacimientos, Circunscripcion de Los Angeles, Chile, 1888, Entry No. 172"
 source_type: civil_registration_birth
 source_path: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png"
@@ -25,15 +25,15 @@ matched_terms:
   - Luis
   - Pulgar
   - Riquelme
-conversion_confidence: high
-conversion_qa_concern: "Controller flagged qc:reread-page; verify entry 172 against the original page image before canonical promotion, especially father's suffix 'S.' and exact place/name spellings."
-uncertainty: "Low for the stated birth, parent, and informant facts after transcription review; moderate for expanding abbreviations or normalizing historic spellings."
-promotion_recommendation: promote_after_review
+conversion_confidence: mixed_after_image_reread
+conversion_qa_concern: "Controller flagged qc:reread-page. Original page image was located and reread again on 2026-05-22 for this revision. The child name, sex, dates, birthplace, mother, informant, and official agree with the derivative transcript; the father's name is image-read as 'Jose del Carmen Pulgar' without a clearly visible final 'S.' suffix recorded in the derivative transcript."
+uncertainty: "Low for the stated birth, mother, informant, and child facts after image reread; moderate for the father's final abbreviated element and for normalizing historic spellings/diacritics."
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Source Packet: Birth Registration Entry 172
 
-This packet stages evidence from entry 172 of the 1888 Los Angeles, Chile civil birth register. It directly names the child Jose del Carmen Segundo Pulgar Arriagada and his parents Jose del Carmen Pulgar S. and Juana Arriagada de Pulgar.
+This packet stages evidence from entry 172 of the 1888 Los Angeles, Chile civil birth register. It directly names the child Jose del Carmen Segundo Pulgar Arriagada and his parents. The converted transcript gives the father as `Jose del Carmen Pulgar S.`; image reread supports `Jose del Carmen Pulgar` and does not show a clearly legible final `S.` suffix.
 
 ## Literal Support
 
@@ -47,4 +47,15 @@ Supports birth-name, sex, birth date/time, birth place, registration date, paren
 
 ## QA Notes
 
-The converted transcription states there are no uncertain or illegible portions, but the queue specifically requested rereading the page. Do not expand the father's abbreviated final element `S.` or normalize `Jose` to `José` without image review or a style decision.
+The original image was available at the correctly encoded source path and was reread for entry 172. The reread resolves the prior image-availability blocker for the child-name claim. It leaves a conversion QA concern for the father's name: the derivative transcript includes `S.`, while the visible handwriting appears to read `Jose del Carmen Pulgar` without a clearly visible suffix. Do not promote father-name-dependent claims or combined parent links until conversion QA resolves whether the suffix is present, absent, or uncertain. Do not expand the father's identity or normalize `Jose` to `José` without a separate identity/style decision.
+
+## Image Reread Notes
+
+- Entry 172 is visible on register page 58.
+- The child name reads as `Jose del Carmen Segundo Pulgar Arriagada`, written over three lines.
+- The sex field reads `Hombre`.
+- The birth date/time field reads `Ocho de Marzo de mil ochocientos ochenta i ocho, a las tres de la tarde`.
+- The birthplace field reads `Calle de Valdivia`.
+- The father field is image-read as `Jose del Carmen Pulgar`; the derivative transcript's final `S.` is not clearly visible in the image.
+- The mother field reads `Juana Arriagada de Pulgar`.
+- The informant field reads `Ernesto Herrera L.`, present at the birth, age 26, employed, resident at Calle de Valdivia.

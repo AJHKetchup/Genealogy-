@@ -18,5 +18,5 @@ promotion_recommendation: promote_after_review
 # Claim: Birth Name
 
 - Literal support: `**Nombre.** Jose del Carmen Segundo Pulgar Arriagada`
-- Conversion confidence/QA concern: high transcription confidence, but queue requested reread-page QA.
+- Conversion confidence/QA concern: image reread completed 2026-05-22; the original page image supports the converted child-name field. The remaining conversion QA issue concerns the father's suffix, not this child-name claim.
 - Uncertainty: Low; accents and modern spelling should not be silently normalized before review.

@@ -2,7 +2,7 @@
 type: relationship_candidate
 status: draft
 relationship_type: spouse_or_parental_pair
-person_a: "Jose del Carmen Pulgar S."
+person_a: "Jose del Carmen Pulgar"
 person_b: "Juana Arriagada de Pulgar"
 source_packet: "research/_staging/source-packets/chunk-b8f4f0490a36-p0001-01-entry-172-jose-del-carmen-segundo-pulgar-arriagada.md"
 source: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png"
@@ -11,11 +11,11 @@ chunk: "raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-ci
 chunk_id: CHUNK-b8f4f0490a36-P0001-01
 page_reference: "page 1; register page 58; entry 172"
 confidence: medium
-promotion_recommendation: promote_after_review
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Relationship Candidate: Parents As A Couple
 
-- Literal support: `**Nombre del padre** Jose del Carmen Pulgar S.` and `**Nombre de la madre** Juana Arriagada de Pulgar`
-- Conversion confidence/QA concern: high transcription confidence, but queue requested reread-page QA.
-- Uncertainty: Medium. They are both recorded as parents of the same child and the mother is styled `de Pulgar`, but the entry does not explicitly state a marriage date or marriage event.
+- Literal support: derivative transcript gives father as `Jose del Carmen Pulgar S.`; image reread supports `Jose del Carmen Pulgar` without a clearly visible suffix. Mother is recorded as `Juana Arriagada de Pulgar`.
+- Conversion confidence/QA concern: mixed after image reread because the father's suffix remains a conversion QA issue.
+- Uncertainty: Medium. They are both recorded as parents of the same child and the mother is styled `de Pulgar`, but the entry does not explicitly state a marriage date or marriage event. Keep this relationship clue on hold until father-name QA is resolved; do not treat it as direct marriage-event evidence.

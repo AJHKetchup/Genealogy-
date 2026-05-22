@@ -18,5 +18,5 @@ promotion_recommendation: promote_after_review
 # Claim: Registration Date
 
 - Literal support: `Siete de Abril de mil ochocientos ochenta i ocho`
-- Conversion confidence/QA concern: high transcription confidence, but queue requested reread-page QA.
+- Conversion confidence/QA concern: image reread completed 2026-05-22; the visible entry 172 registration-date field supports the converted reading. The remaining conversion QA issue concerns the father's possible suffix, not this claim.
 - Uncertainty: Low; date normalized from Spanish literal to ISO date.

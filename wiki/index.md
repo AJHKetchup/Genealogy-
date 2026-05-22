@@ -15,6 +15,8 @@
 
 - [[people/juan-soler]]
 
+- [[people/jose-del-carmen-segundo-pulgar-arriagada]]
+
 ## Branches
 
 ## Families

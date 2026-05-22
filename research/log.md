@@ -26376,3 +26376,5 @@
 ## [2026-05-22] source-prep-batches | Wrote 1381 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
 ## [2026-05-22] source-relevance | Restored proof-review assets and released 31 review task(s)
 ## [2026-05-22] source-prep-batches | Wrote 1382 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
+## [2026-05-22] promote-staged | Promoted 1 source packet(s), 2 claim(s), 0 relationship(s)
+## [2026-05-22] wiki-promotion | Reviewed-ready task wiki-promotion:reviewed-ready:ae4ef0c42cb6 promoted birth date/time and birth place claims for Jose del Carmen Segundo Pulgar Arriagada; manifest research/_staging/promotions/2026-05-22-120842-promote-staged.json. Canonical claim pages preserve proof-review scores, claim probabilities, literal support, interpretation, and uncertainty; supporting source packet preserves the father-name suffix QA caveat. Required lint was run after promotion and still fails only on existing missing research paths, template/index references, and existing relationship/source page issues.

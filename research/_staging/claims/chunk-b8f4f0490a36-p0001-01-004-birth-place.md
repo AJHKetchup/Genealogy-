@@ -18,5 +18,5 @@ promotion_recommendation: promote_after_review
 # Claim: Birth Place
 
 - Literal support: `**Lugar.** Calle de Valdivia`
-- Conversion confidence/QA concern: high transcription confidence, but queue requested reread-page QA.
+- Conversion confidence/QA concern: image reread completed 2026-05-22; the visible entry 172 birthplace field supports the converted reading `Calle de Valdivia`. The remaining conversion QA issue concerns the father's possible suffix, not this claim.
 - Uncertainty: Low for street/place as transcribed; broader jurisdiction is supplied by register header.

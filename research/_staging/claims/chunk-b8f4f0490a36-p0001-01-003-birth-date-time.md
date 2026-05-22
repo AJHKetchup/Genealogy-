@@ -18,5 +18,5 @@ promotion_recommendation: promote_after_review
 # Claim: Birth Date And Time
 
 - Literal support: `**Fecha.** Ocho de Marzo de mil ochocientos ochenta i ocho, a las tres de la tarde`
-- Conversion confidence/QA concern: high transcription confidence, but queue requested reread-page QA.
+- Conversion confidence/QA concern: image reread completed 2026-05-22; the visible entry 172 birth date/time field supports the converted reading. The remaining conversion QA issue concerns the father's possible suffix, not this claim.
 - Uncertainty: Low; date normalized from Spanish literal to ISO date, time normalized as 3:00 p.m.

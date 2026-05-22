@@ -1,0 +1,1367 @@
+{
+  "generated": "2026-05-22T12:08:42",
+  "summary": {
+    "dry_run": false,
+    "source_packets": [
+      "research/source-packets/chunk-b8f4f0490a36-p0001-01-entry-172-jose-del-carmen-segundo-pulgar-arriagada.md"
+    ],
+    "claims": [
+      "research/claims/chunk-b8f4f0490a36-p0001-01-003-birth-date-time.md",
+      "research/claims/chunk-b8f4f0490a36-p0001-01-004-birth-place.md"
+    ],
+    "relationships": [],
+    "people": [
+      "wiki/people/jose-del-carmen-segundo-pulgar-arriagada.md"
+    ],
+    "sources": [
+      "research/sources/src-93a6760fd038-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-.md"
+    ],
+    "skipped": [
+      {
+        "path": "research/_staging/claims/chunk-8daffb98e793-p0002-01-001-virginio-gomez-birth-year.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/chunk-8daffb98e793-p0002-01-002-virginio-gomez-birth-place.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/chunk-8daffb98e793-p0002-01-003-virginio-gomez-germany-scholarship.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/chunk-8daffb98e793-p0002-01-004-virginio-gomez-hospital-director-1917.md",
+        "reason": "revise"
+      },
+      {
+        "path": "research/_staging/claims/chunk-8daffb98e793-p0002-01-005-virginio-gomez-hospital-director-1920.md",
+        "reason": "revise"
+      },
+      {
+        "path": "research/_staging/claims/chunk-8daffb98e793-p0002-01-006-enrique-molina-school-rector.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/chunk-b8f4f0490a36-p0001-01-001-child-birth-name.md",
+        "reason": "proof review canonical_readiness=ready_after_review"
+      },
+      {
+        "path": "research/_staging/claims/chunk-b8f4f0490a36-p0001-01-002-child-sex.md",
+        "reason": "proof review canonical_readiness=ready_after_review"
+      },
+      {
+        "path": "research/_staging/claims/chunk-b8f4f0490a36-p0001-01-005-registration-date.md",
+        "reason": "proof review canonical_readiness=promote_after_review_for_registration_date_only"
+      },
+      {
+        "path": "research/_staging/claims/chunk-b8f4f0490a36-p0001-01-006-father-attributes.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/chunk-b8f4f0490a36-p0001-01-007-mother-attributes.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/chunk-b8f4f0490a36-p0001-01-008-informant.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/cl-chunk-a2273412e7b1-p0001-01-dario-pulgar-apparent-property-domain.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/cl-chunk-a2273412e7b1-p0001-01-dario-pulgar-expropriation-event.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/cl-chunk-a2273412e7b1-p0001-01-luis-abarzua-ceballos-commission-member.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/cl-chunk-a2273412e7b1-p0001-01-luis-abarzua-ceballos-occupation.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-adult-age.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-adult-last-uk-address.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-adult-occupation.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-adult-passenger-andes.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-adult-residence-citizenship.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-child-address-residence-citizenship.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-child-age.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-child-passenger-andes.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-child-student.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/cl-chunk-a4cd3c3e5c16-p0001-01-dorothy-pulgar-address-residence-citizenship.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/cl-chunk-a4cd3c3e5c16-p0001-01-dorothy-pulgar-age.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/cl-chunk-a4cd3c3e5c16-p0001-01-dorothy-pulgar-passenger-andes.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/cl-stage-chunk-1940bcca99c5-p0001-01-antamina-head-community-relations.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/cl-stage-chunk-1940bcca99c5-p0001-01-antamina-local-authorities.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/cl-stage-chunk-1940bcca99c5-p0001-01-ibrd-project-documents.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/cl-stage-chunk-1940bcca99c5-p0001-01-ibrd-senior-consultant-2000.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0004-01-antamina-head-community-relations.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0004-01-antamina-local-authorities.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0004-01-ibrd-project-documents.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0004-01-ibrd-senior-consultant-2000.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0005-01-arca-ec-team-leader-1998-1999.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0005-01-klohn-crippen-socioeconomic-consultant-1997-1998.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0005-01-profonanpe-consultant-1999.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0005-01-snc-lavalin-training-consultant.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0005-01-tve-consultant-1999.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0006-01-ecuador-rural-development-mission-leader-1996.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0006-01-gtz-fdc-senior-technical-advisor-1996-1997.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0006-01-iica-chief-technical-advisor-1994-1995.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0006-01-snc-lavalin-ag-extension-advisor-1989-1991.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0006-01-snc-lavalin-consultant-1996.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0006-01-unicef-rural-development-advisor-1992-1993.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0007-01-cida-ethiopia-communication-consultant-1988.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0007-01-fao-training-communication-advisor-1988-1989.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0007-01-independent-communications-consultant-cida-1982-1985.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0007-01-wif-rural-communications-extension-advisor-1986-1987.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0008-01-chile-films-general-manager-1972-1973.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0008-01-citelco-producer-1970-1972.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0008-01-habitat-development-support-communications-officer-1979-1982.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0008-01-nfb-audio-visual-consultant-1974-1978.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0009-01-liceo-enrique-molina-1954-1959.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0009-01-spoken-languages.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0009-01-stanford-ma-communications-1967-1968.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0009-01-universidad-concepcion-law-1960-1963.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0009-01-universidad-concepcion-periodismo-1963-1966.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0009-01-written-languages.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-37cac508f847-P0004-01-antamina-head-community-relations.md",
+        "reason": "proof review canonical_readiness=revise"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-37cac508f847-P0004-01-antamina-local-authorities.md",
+        "reason": "proof review canonical_readiness=revise"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-37cac508f847-P0004-01-ibrd-project-documents.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-37cac508f847-P0004-01-ibrd-senior-consultant-2000.md",
+        "reason": "proof review canonical_readiness=revise"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3f469b56e502-P0007-01-alberto-cortadellas-plenipotentiary.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3f469b56e502-P0007-01-claud-russell-australia-plenipotentiary.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3f469b56e502-P0007-01-claud-russell-new-zealand-plenipotentiary.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3f469b56e502-P0007-01-edmund-rhomberg-plenipotentiary.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3f469b56e502-P0007-01-eliot-wadsworth-plenipotentiary.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3f469b56e502-P0007-01-horace-rumbold-plenipotentiary.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3f469b56e502-P0007-01-hugh-r-wilson-plenipotentiary.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3f469b56e502-P0007-01-joseph-de-ruelle-plenipotentiary.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3f469b56e502-P0007-01-marc-leitmaier-plenipotentiary.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3f469b56e502-P0007-01-paul-demolder-plenipotentiary.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3f469b56e502-P0007-01-raoul-de-rio-branco-plenipotentiary.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-3f469b56e502-P0007-01-walter-alexandre-riddell-plenipotentiary.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-513-birth-date-place.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-513-child-name-sex.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-513-declarant.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-513-father.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-513-mother.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-513-registration-date.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-514-birth-date-place.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-514-child-name-sex.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-514-declarant.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-514-father.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-514-mother.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-514-registration-date.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-515-birth-date-place.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-515-child-name-sex.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-515-declarant.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-515-father.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-515-mother.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-4127185dc97c-P0172-01-515-registration-date.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0004-01-antamina-head-community-relations.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0004-01-antamina-local-authorities.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0004-01-ibrd-project-documents.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0004-01-ibrd-senior-consultant-2000.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0005-01-arca-ec-team-leader-1998-1999.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0005-01-klohn-crippen-socioeconomic-consultant-1997-1998.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0005-01-profonanpe-consultant-1999.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0005-01-snc-lavalin-training-consultant.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0005-01-tve-consultant-1999.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0006-01-ecuador-rural-development-mission-leader-1996.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0006-01-gtz-fdc-senior-technical-advisor-1996-1997.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0006-01-iica-chief-technical-advisor-1994-1995.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0006-01-snc-lavalin-ag-extension-advisor-1989-1991.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0006-01-snc-lavalin-consultant-1996.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0006-01-unicef-rural-development-advisor-1992-1993.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0007-01-cida-communication-consultant-1988.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0007-01-cida-independent-communications-consultant-1982-1985.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0007-01-fao-training-communication-advisor-1988-1989.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0007-01-snc-lavalin-extension-activities-1989-1991.md",
+        "reason": "revise"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0007-01-wif-rural-communications-extension-advisor-1986-1987.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0008-01-chile-films-general-manager-1972-1973.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0008-01-citelco-producer-1970-1972.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0008-01-habitat-development-support-communications-officer-1979-1982.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0008-01-nfb-audio-visual-consultant-1974-1978.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0009-01-liceo-enrique-molina-1954-1959.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0009-01-spoken-languages.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0009-01-stanford-ma-communications-1967-1968.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0009-01-universidad-concepcion-law-1960-1963.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0009-01-universidad-concepcion-periodismo-1963-1966.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-5f9286fc64f6-P0009-01-written-languages.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0004-01-antamina-community-relations-activities.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0004-01-antamina-head-community-relations.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0004-01-ibrd-project-documents.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0004-01-ibrd-senior-consultant-2000.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0005-01-arca-ec-team-leader-1998-1999.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0005-01-klohn-crippen-socioeconomic-consultant-1997-1998.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0005-01-profonanpe-consultant-1999.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0005-01-snc-lavalin-training-consultant.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0005-01-tve-consultant-1999.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0006-01-ecuador-rural-development-mission-leader-1996.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0006-01-gtz-fdc-senior-technical-advisor-1996-1997.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0006-01-iica-chief-technical-advisor-1994-1995.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0006-01-snc-lavalin-ag-extension-advisor-1989-1991.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0006-01-snc-lavalin-consultant-1996.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0006-01-unicef-rural-development-advisor-1992-1993.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0007-01-cida-ethiopia-communication-consultant-1988.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0007-01-fao-training-communication-advisor-1988-1989.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0007-01-independent-communications-consultant-cida-1982-1985.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0007-01-snc-lavalin-extension-activities-1989-1991.md",
+        "reason": "revise"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0007-01-wif-rural-communications-extension-advisor-1986-1987.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0008-01-chile-films-general-manager-1972-1973.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0008-01-citelco-producer-1970-1972.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0008-01-habitat-development-support-communications-officer-1979-1982.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0008-01-nfb-audio-visual-consultant-1974-1978.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0009-01-liceo-enrique-molina-1954-1959.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0009-01-spoken-languages.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0009-01-stanford-ma-communications-1967-1968.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0009-01-universidad-concepcion-law-1960-1963.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0009-01-universidad-concepcion-periodismo-1963-1966.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-9070adf46a1e-P0009-01-written-languages.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-513-birth-date-place.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-513-child-name-sex.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-513-declarant.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-513-father.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-513-mother.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-513-registration-date.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-514-birth-date-place.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-514-child-name-sex.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-514-declarant.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-514-father.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-514-mother.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-514-registration-date.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-515-birth-date.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-515-child-name.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-515-declarant.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-515-father.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-515-registration-date.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-c136e7acf00f-P0001-01-dario-pulgar-a-age.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-c136e7acf00f-P0001-01-dario-pulgar-a-occupation.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-c136e7acf00f-P0001-01-dario-pulgar-a-passenger-arrival.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-c136e7acf00f-P0001-01-dario-pulgar-a-residence-citizenship-destination.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-c136e7acf00f-P0001-01-dorothy-pulgar-age.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-c136e7acf00f-P0001-01-dorothy-pulgar-passenger-arrival.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-c136e7acf00f-P0001-01-luis-lopez-de-romana-passenger.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-birth-date-time.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-birth-place.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-child-name-sex.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-declarant.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-father.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-mother.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-registration-date.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-birth-date-place.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-child-name-sex.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-declarant-spouse.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-father.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-mother.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-registration-date.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-515-birth-date-place.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-515-child-name-sex.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-515-declarant.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-515-father.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-515-mother.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-515-registration-date.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/CL-STAGE-CHUNK-e3855d490602-P0001-01-portrait-depiction.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3d3ab761209f-p0001-01-513-birth-date-time.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3d3ab761209f-p0001-01-513-birth-place.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3d3ab761209f-p0001-01-513-child-name-sex.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3d3ab761209f-p0001-01-513-father-name.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3d3ab761209f-p0001-01-513-mother-name.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3d3ab761209f-p0001-01-513-registration-date.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3d3ab761209f-p0001-01-514-birth-date-place.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3d3ab761209f-p0001-01-514-child-name-sex.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3d3ab761209f-p0001-01-514-father-unknown.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3d3ab761209f-p0001-01-514-mother-name.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3d3ab761209f-p0001-01-515-birth-date-place.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3d3ab761209f-p0001-01-515-child-name-sex.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3d3ab761209f-p0001-01-515-father-name.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3d3ab761209f-p0001-01-515-mother-name.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0001-01-correspondence-continued.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0001-01-file-subject.md",
+        "reason": "proof review canonical_readiness=revise"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0001-01-registry-identifiers.md",
+        "reason": "proof review canonical_readiness=ready_as_source_metadata"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0002-01-circulation-range.md",
+        "reason": "proof review canonical_readiness=hold_for_conversion_qa"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0002-01-file-subject.md",
+        "reason": "proof review canonical_readiness=revise_before_source_metadata_promotion"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0002-01-following-dossier.md",
+        "reason": "proof review canonical_readiness=ready_for_source_metadata_promotion"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0002-01-registry-identifiers.md",
+        "reason": "proof review canonical_readiness=ready_source_metadata"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0003-01-circulation-range.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0003-01-file-subject.md",
+        "reason": "proof review canonical_readiness=ready_for_source_metadata"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0003-01-registry-identifiers.md",
+        "reason": "proof review canonical_readiness=ready_source_metadata"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0004-01-acts-placed-in-registry-safe.md",
+        "reason": "proof review canonical_readiness=promote_source_context_only"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0004-01-file-number-string.md",
+        "reason": "proof review canonical_readiness=ready_source_metadata"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0004-01-registry-date.md",
+        "reason": "proof review canonical_readiness=promote_source_context_only"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0005-01-handwritten-file-number.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0005-01-registry-received-1932-11-19.md",
+        "reason": "proof review canonical_readiness=ready_source_metadata"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0005-01-signed-geneva-1929-07-27.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0005-01-treaty-series-title.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0005-01-us-ratification-proclamation-dates.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0006-01-convention-signed-geneva.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0006-01-french-convention-title.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0006-01-humanitarian-purpose.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/claims/claim-chunk-3f469b56e502-p0006-01-presidential-proclamation.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/chunk-37cac508f847-p0005-01-cv-dario-arturo-pulgar.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/source-packets/chunk-37cac508f847-p0006-01-cv-dario-arturo-pulgar.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/source-packets/chunk-37cac508f847-p0007-01-cv-dario-arturo-pulgar.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/source-packets/CHUNK-3d3ab761209f-P0001-01-source-packet.md",
+        "reason": "proof review canonical_readiness=revise"
+      },
+      {
+        "path": "research/_staging/source-packets/chunk-8daffb98e793-p0002-01-osorio-anatomy-concepcion-page-2.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/sp-chunk-3d3ab761209f-p0001-01-los-angeles-birth-register-page-172.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/source-packets/sp-chunk-a2273412e7b1-p0001-01-resolucion-283-expropriation-pulgar.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/source-packets/sp-chunk-a4cd3c3e5c16-p0001-01-andes-pulgar-passenger-list.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-1940bcca99c5-P0001-01-cv-dario-pulgar-cv-page-4.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-3661a25ff4f5-P0004-01-cv-dario-pulgar-page-4.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-3661a25ff4f5-P0005-01-cv-dario-pulgar-page-5.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-3661a25ff4f5-P0006-01-cv-dario-pulgar-page-6.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-3661a25ff4f5-P0007-01-cv-dario-pulgar-page-7.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-3661a25ff4f5-P0008-01-cv-dario-pulgar-page-8.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-3661a25ff4f5-P0009-01-cv-dario-pulgar-page-9.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-37cac508f847-P0004-01-cv-dario-pulgar-page-4.md",
+        "reason": "proof review canonical_readiness=revise"
+      },
+      {
+        "path": "research/_staging/source-packets/sp-stage-chunk-3f469b56e502-p0001-01-league-of-nations-file-jacket.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/source-packets/sp-stage-chunk-3f469b56e502-p0002-01-league-of-nations-routing-slip.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/source-packets/sp-stage-chunk-3f469b56e502-p0003-01-league-of-nations-routing-slip.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/sp-stage-chunk-3f469b56e502-p0004-01-registry-safe-note.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/source-packets/sp-stage-chunk-3f469b56e502-p0005-01-treaty-series-846-cover.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/sp-stage-chunk-3f469b56e502-p0006-01-proclamation-convention-opening.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-3f469b56e502-P0007-01-convention-plenipotentiaries.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-4127185dc97c-P0172-01-los-angeles-birth-register-1889-page-172.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-5f9286fc64f6-P0004-01-cv-dario-pulgar-page-4.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-5f9286fc64f6-P0005-01-cv-dario-pulgar-page-5.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-5f9286fc64f6-P0006-01-cv-dario-pulgar-page-6.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-5f9286fc64f6-P0007-01-cv-dario-pulgar-page-7.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-5f9286fc64f6-P0008-01-cv-dario-pulgar-page-8.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-5f9286fc64f6-P0009-01-cv-dario-pulgar-page-9.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-9070adf46a1e-P0004-01-cv-dario-pulgar-page-4.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-9070adf46a1e-P0005-01-cv-dario-pulgar-page-5.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-9070adf46a1e-P0006-01-cv-dario-pulgar-page-6.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-9070adf46a1e-P0007-01-cv-dario-pulgar-page-7.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-9070adf46a1e-P0008-01-cv-dario-pulgar-page-8.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-9070adf46a1e-P0009-01-cv-dario-pulgar-page-9.md",
+        "reason": "promote_after_review"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-bdb698de8106-P0001-01-los-angeles-birth-register-1889-page-172.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-c136e7acf00f-P0001-01-highland-loch-pulgar-passenger-list.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-d6a12b291d94-P0172-01-los-angeles-birth-register-1889-page-172.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/source-packets/SP-STAGE-CHUNK-e3855d490602-P0001-01-portrait-victor-manuel-pulgar-arriagada.md",
+        "reason": "hold"
+      },
+      {
+        "path": "research/_staging/relationships/chunk-37cac508f847-p0005-01-relationship-candidates.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/chunk-37cac508f847-p0006-01-relationship-candidates.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/chunk-37cac508f847-p0007-01-relationship-candidates.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/CHUNK-3d3ab761209f-P0001-01-relationship-candidates.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/chunk-8daffb98e793-p0002-01-no-family-relationship-stated.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/chunk-b8f4f0490a36-p0001-01-001-child-parents.md",
+        "reason": "proof review canonical_readiness=partial"
+      },
+      {
+        "path": "research/_staging/relationships/chunk-b8f4f0490a36-p0001-01-002-parents-spousal-clue.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/chunk-b8f4f0490a36-p0001-01-003-child-mother.md",
+        "reason": "proof review canonical_readiness=ready_for_scoped_promotion"
+      },
+      {
+        "path": "research/_staging/relationships/chunk-b8f4f0490a36-p0001-01-004-child-father.md",
+        "reason": "proof review canonical_readiness=hold_for_conversion_qa"
+      },
+      {
+        "path": "research/_staging/relationships/rel-chunk-3d3ab761209f-p0001-01-513-father.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/rel-chunk-3d3ab761209f-p0001-01-513-mother.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/rel-chunk-3d3ab761209f-p0001-01-514-father-negative-evidence.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/rel-chunk-3d3ab761209f-p0001-01-514-mother.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/rel-chunk-3d3ab761209f-p0001-01-515-father.md",
+        "reason": "proof review canonical_readiness=hold_for_conversion_qa"
+      },
+      {
+        "path": "research/_staging/relationships/rel-chunk-3d3ab761209f-p0001-01-515-mother.md",
+        "reason": "proof review canonical_readiness=revise"
+      },
+      {
+        "path": "research/_staging/relationships/rel-chunk-a2273412e7b1-p0001-01-no-family-relationship-stated.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/rel-chunk-a4cd3c3e5c16-p0001-01-child-dario-pulgar-parent-candidate.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/rel-chunk-a4cd3c3e5c16-p0001-01-dario-dorothy-pulgar-spouse-candidate.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/rel-chunk-a4cd3c3e5c16-p0001-01-negative-relationship-evidence.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/rel-stage-chunk-1940bcca99c5-p0001-01-negative-evidence.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-3661a25ff4f5-P0004-01-negative-evidence.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-3661a25ff4f5-P0005-01-no-family-relationship.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-3661a25ff4f5-P0006-01-no-family-relationship.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-3661a25ff4f5-P0007-01-no-relationship-stated.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-3661a25ff4f5-P0008-01-no-family-relationship.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-3661a25ff4f5-P0009-01-no-family-relationship.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-37cac508f847-P0004-01-no-family-relationship.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/rel-stage-chunk-3f469b56e502-p0001-01-negative-evidence.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/rel-stage-chunk-3f469b56e502-p0002-01-negative-evidence.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/rel-stage-chunk-3f469b56e502-p0003-01-no-family-relationship-stated.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/rel-stage-chunk-3f469b56e502-p0004-01-negative-evidence.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/rel-stage-chunk-3f469b56e502-p0005-01-negative-evidence.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/rel-stage-chunk-3f469b56e502-p0006-01-negative-evidence.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-3f469b56e502-P0007-01-no-family-relationships.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-4127185dc97c-P0172-01-513-child-parents.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-4127185dc97c-P0172-01-514-child-mother-and-father-conflict.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-4127185dc97c-P0172-01-515-child-parents.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-5f9286fc64f6-P0004-01-no-family-relationship.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-5f9286fc64f6-P0005-01-no-family-relationship.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-5f9286fc64f6-P0006-01-no-family-relationship.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-5f9286fc64f6-P0007-01-no-family-relationship.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-5f9286fc64f6-P0008-01-no-family-relationship.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-5f9286fc64f6-P0009-01-no-family-relationship.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-9070adf46a1e-P0004-01-no-family-relationship.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-9070adf46a1e-P0005-01-no-family-relationship.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-9070adf46a1e-P0006-01-no-family-relationship.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-9070adf46a1e-P0007-01-no-family-relationship-stated.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-9070adf46a1e-P0008-01-no-family-relationship.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-9070adf46a1e-P0009-01-no-family-relationship.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-bdb698de8106-P0001-01-513-child-parents.md",
+        "reason": "proof review canonical_readiness=hold_for_conversion_qa"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-bdb698de8106-P0001-01-514-child-parents.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-bdb698de8106-P0001-01-515-child-father.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-bdb698de8106-P0001-01-515-no-mother.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-c136e7acf00f-P0001-01-dario-dorothy-pulgar-no-explicit-relationship.md",
+        "reason": "reject"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-child-parents.md",
+        "reason": "canonical relationship exists: research/relationships/rel-stage-chunk-d6a12b291d94-p0172-01-513-child-parents-jose-del-carmen-pulgar-parent.md"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-child-parents.md",
+        "reason": "canonical relationship exists: research/relationships/rel-stage-chunk-d6a12b291d94-p0172-01-513-child-parents-juana-de-dios-amagada-de-pulgar-parent.md"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-child-parents.md",
+        "reason": "proof review canonical_readiness=revise"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-mercedes-riquelme-juan-soler-spouse.md",
+        "reason": "canonical relationship exists: research/relationships/rel-stage-chunk-d6a12b291d94-p0172-01-514-mercedes-riquelme-juan-soler-spouse-mercedes-riquelme-juan-soler-spouse.md"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-d6a12b291d94-P0172-01-515-child-father.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-d6a12b291d94-P0172-01-515-child-parents.md",
+        "reason": "proof review canonical_readiness=hold"
+      },
+      {
+        "path": "research/_staging/relationships/REL-STAGE-CHUNK-e3855d490602-P0001-01-no-family-relationship.md",
+        "reason": "reject"
+      }
+    ],
+    "manifest": "research/_staging/promotions/2026-05-22-120842-promote-staged.json"
+  }
+}

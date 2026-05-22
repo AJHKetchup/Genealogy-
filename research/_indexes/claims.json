@@ -1,3 +1,40 @@
 {
-  "claims": []
+  "claims": [
+    {
+      "id": "chunk",
+      "path": "research/claims/chunk-b8f4f0490a36-p0001-01-003-birth-date-time.md",
+      "status": "draft",
+      "claim_type": "birth_date",
+      "confidence": null,
+      "subject": "[[people/jose-del-carmen-segundo-pulgar-arriagada]]",
+      "predicate": "was born on",
+      "object": "1888-03-08 15:00",
+      "date": "",
+      "place": "",
+      "source": "[[sources/src-93a6760fd038-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-]]",
+      "source_packet": "[[source-packets/chunk-b8f4f0490a36-p0001-01-entry-172-jose-del-carmen-segundo-pulgar-arriagada]]",
+      "relationship": "",
+      "text": "",
+      "supports": [],
+      "conflicts_with": []
+    },
+    {
+      "id": "chunk",
+      "path": "research/claims/chunk-b8f4f0490a36-p0001-01-004-birth-place.md",
+      "status": "draft",
+      "claim_type": "birth_place",
+      "confidence": null,
+      "subject": "[[people/jose-del-carmen-segundo-pulgar-arriagada]]",
+      "predicate": "was born at",
+      "object": "Calle de Valdivia, Los Angeles, Circunscripcion de La Laja, Chile",
+      "date": "",
+      "place": "",
+      "source": "[[sources/src-93a6760fd038-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-]]",
+      "source_packet": "[[source-packets/chunk-b8f4f0490a36-p0001-01-entry-172-jose-del-carmen-segundo-pulgar-arriagada]]",
+      "relationship": "",
+      "text": "",
+      "supports": [],
+      "conflicts_with": []
+    }
+  ]
 }

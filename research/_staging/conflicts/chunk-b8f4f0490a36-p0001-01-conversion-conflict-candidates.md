@@ -8,7 +8,7 @@ converted_file: "raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-na
 chunk: "raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-09220dde10/page-0001-chunk-01.md"
 chunk_id: CHUNK-b8f4f0490a36-P0001-01
 page_reference: "page 1; register page 58; entry 172"
-confidence: medium
+confidence: high
 promotion_recommendation: hold_for_conversion_qa
 ---
 
@@ -17,16 +17,16 @@ promotion_recommendation: hold_for_conversion_qa
 ## Reread-page QA Flag
 
 - Literal support reviewed: entry 172 full row.
-- Conversion confidence/QA concern: converted file says no uncertain or illegible portions, but controller priority includes `qc:reread-page`.
-- Uncertainty: This is a workflow conflict rather than a textual contradiction. Promote facts only after proof review against the image.
-- Promotion recommendation: hold_for_conversion_qa for resolving the QA flag itself.
+- Conversion confidence/QA concern: original image was located and reread on 2026-05-22. Most fields agree with the derivative transcript; father-name suffix remains a textual QA issue.
+- Uncertainty: The prior image-availability blocker is resolved for the child-name claim. Father-name suffix still needs conversion QA.
+- Promotion recommendation: hold_for_conversion_qa for father-name identity decisions.
 
-## Father Name Abbreviation
+## Father Name Suffix Disagreement
 
-- Literal support: `**Nombre del padre** Jose del Carmen Pulgar S.`
-- Conversion confidence/QA concern: high transcription confidence, but `S.` is an abbreviation or initial that should not be expanded from this record alone.
-- Uncertainty: Moderate for matching to any fuller canonical identity.
-- Promotion recommendation: hold_for_conversion_qa for identity merge decisions; use literal name in staged claims.
+- Literal support: derivative transcript states `**Nombre del padre** Jose del Carmen Pulgar S.`; image reread supports `Jose del Carmen Pulgar` and does not show a clearly visible final `S.` suffix.
+- Conversion confidence/QA concern: textual contradiction between derivative transcript and image-reviewed evidence.
+- Uncertainty: Moderate for the exact father name and any canonical identity merge.
+- Promotion recommendation: hold_for_conversion_qa for father-name claims and parent relationship candidates until conversion QA reconciles the suffix.
 
 ## Source Path Encoding Variant
 

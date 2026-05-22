@@ -4,7 +4,7 @@ status: draft
 relationship_type: parent_child
 child: "Jose del Carmen Segundo Pulgar Arriagada"
 parents:
-  - "Jose del Carmen Pulgar S."
+  - "Jose del Carmen Pulgar"
   - "Juana Arriagada de Pulgar"
 source_packet: "research/_staging/source-packets/chunk-b8f4f0490a36-p0001-01-entry-172-jose-del-carmen-segundo-pulgar-arriagada.md"
 source: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png"
@@ -12,12 +12,12 @@ converted_file: "raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-na
 chunk: "raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-09220dde10/page-0001-chunk-01.md"
 chunk_id: CHUNK-b8f4f0490a36-P0001-01
 page_reference: "page 1; register page 58; entry 172"
-confidence: high
-promotion_recommendation: promote_after_review
+confidence: medium
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Relationship Candidate: Child To Parents
 
-- Literal support: `**Nombre.** Jose del Carmen Segundo Pulgar Arriagada` and `**Nombre del padre** Jose del Carmen Pulgar S.` and `**Nombre de la madre** Juana Arriagada de Pulgar`
-- Conversion confidence/QA concern: high transcription confidence, but queue requested reread-page QA.
-- Uncertainty: Low that both parents are stated; moderate for expanding father's abbreviated `S.`.
+- Literal support: `**Nombre.** Jose del Carmen Segundo Pulgar Arriagada`; derivative transcript father field `**Nombre del padre** Jose del Carmen Pulgar S.`; image-read father field `Jose del Carmen Pulgar`; mother field `**Nombre de la madre** Juana Arriagada de Pulgar`.
+- Conversion confidence/QA concern: mixed after image reread because the father's suffix in the derivative transcript is not clearly visible in the image.
+- Uncertainty: Low that both parents are stated; moderate for the father's exact recorded name and any identity merge. Keep this combined parent candidate on hold; use the separate child-mother candidate if a promotable maternal link is needed before father-name QA is resolved.
