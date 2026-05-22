@@ -19,7 +19,7 @@
 | 12 | none | high | pass | none | none |
 | 13 | critical | low | reread-page | none | Dario |
 | 11 | critical | low | reread-page | none | Dario, Pulgar |
-| 12 | critical | low | reread-page | none | Dios |
+| 15 | medium | high | pass | none | Dios |
 | 16 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |

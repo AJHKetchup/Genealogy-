@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-22T13:07:12Z",
+  "created": "2026-05-22T13:36:32Z",
   "purpose": "Source-readiness report for raw source -> LLM-readable source pipeline.",
   "inputs": {
     "source_prep_manifest": "raw/source-prep-manifest.json",
@@ -9,10 +9,10 @@
   "summary": {
     "total_sources": 22,
     "status_counts": {
-      "usable_for_extraction": 3,
+      "usable_with_page_holds": 3,
       "partial_with_page_holds": 13,
+      "usable_for_extraction": 2,
       "partially_usable_for_extraction": 3,
-      "usable_with_page_holds": 2,
       "conversion_in_progress": 1
     }
   },
@@ -21,12 +21,12 @@
       "id": "SRC-35845f12102b",
       "raw_path": "raw/sources/ACICR_B_CR_177_001_002.pdf",
       "media_type": "pdf",
-      "status": "usable_for_extraction",
+      "status": "usable_with_page_holds",
       "source_prep_status": "converted",
       "conversion_job_count": 5,
       "converted_file_count": 5,
       "chunk_manifest_count": 5,
-      "qc_hold_count": 0,
+      "qc_hold_count": 2,
       "source_prep_task_counts": {},
       "page_repair_count": 0,
       "conversion_jobs": [
@@ -80,7 +80,30 @@
         "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex/manifest.json",
         "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/manifest.json"
       ],
-      "qc_holds": []
+      "qc_holds": [
+        {
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md",
+          "page": 2,
+          "recommended_action": "spot-check",
+          "quality_flags": [
+            "possible_table_layout_loss"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": []
+        },
+        {
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
+          "page": 4,
+          "recommended_action": "spot-check",
+          "quality_flags": [
+            "possible_table_layout_loss"
+          ],
+          "matched_terms": [
+            "Entry"
+          ],
+          "suspicious_readings": []
+        }
+      ]
     },
     {
       "id": "SRC-753b8b140d94",
@@ -1227,7 +1250,7 @@
       "conversion_job_count": 59,
       "converted_file_count": 20,
       "chunk_manifest_count": 27,
-      "qc_hold_count": 7,
+      "qc_hold_count": 8,
       "source_prep_task_counts": {},
       "page_repair_count": 0,
       "conversion_jobs": [
@@ -1780,6 +1803,20 @@
           ]
         },
         {
+          "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728.codex.md",
+          "page": 722,
+          "recommended_action": "reread-page",
+          "quality_flags": [],
+          "matched_terms": [],
+          "suspicious_readings": [
+            {
+              "literal": "citar",
+              "suspected": "Cesar",
+              "reason": "near match to known family context term `Cesar`"
+            }
+          ]
+        },
+        {
           "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63.codex.md",
           "page": 4,
           "recommended_action": "reread-page",
@@ -1804,7 +1841,7 @@
       "conversion_job_count": 2,
       "converted_file_count": 1,
       "chunk_manifest_count": 1,
-      "qc_hold_count": 1,
+      "qc_hold_count": 3,
       "source_prep_task_counts": {},
       "page_repair_count": 0,
       "conversion_jobs": [
@@ -1848,6 +1885,39 @@
               "literal": "JARA",
               "suspected": "Juana",
               "reason": "near match to known family context term `Juana`"
+            }
+          ]
+        },
+        {
+          "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
+          "page": 11,
+          "recommended_action": "reread-page",
+          "quality_flags": [],
+          "matched_terms": [
+            "Dario",
+            "Pulgar"
+          ],
+          "suspicious_readings": [
+            {
+              "literal": "PULGARA",
+              "suspected": "Pulgar",
+              "reason": "near match to known family context term `Pulgar`"
+            }
+          ]
+        },
+        {
+          "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
+          "page": 13,
+          "recommended_action": "reread-page",
+          "quality_flags": [],
+          "matched_terms": [
+            "Dario"
+          ],
+          "suspicious_readings": [
+            {
+              "literal": "PULGA",
+              "suspected": "Pulgar",
+              "reason": "near match to known family context term `Pulgar`"
             }
           ]
         }
@@ -2490,14 +2560,18 @@
         {
           "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125.codex.md",
           "page": 104,
-          "recommended_action": "spot-check",
+          "recommended_action": "reread-page",
           "quality_flags": [
             "many_uncertain_readings"
           ],
-          "matched_terms": [
-            "Entry"
-          ],
-          "suspicious_readings": []
+          "matched_terms": [],
+          "suspicious_readings": [
+            {
+              "literal": "clear",
+              "suspected": "Cesar",
+              "reason": "near match to known family context term `Cesar`"
+            }
+          ]
         },
         {
           "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375.codex.md",
@@ -3410,7 +3484,7 @@
       "conversion_job_count": 2,
       "converted_file_count": 2,
       "chunk_manifest_count": 2,
-      "qc_hold_count": 2,
+      "qc_hold_count": 1,
       "source_prep_task_counts": {},
       "page_repair_count": 0,
       "conversion_jobs": [
@@ -3438,22 +3512,6 @@
         "raw/chunks/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33-codex/manifest.json"
       ],
       "qc_holds": [
-        {
-          "converted_file": "raw/converted/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25.codex.md",
-          "page": 1,
-          "recommended_action": "reread-page",
-          "quality_flags": [],
-          "matched_terms": [
-            "Entry"
-          ],
-          "suspicious_readings": [
-            {
-              "literal": "clear",
-              "suspected": "Cesar",
-              "reason": "near match to known family context term `Cesar`"
-            }
-          ]
-        },
         {
           "converted_file": "raw/converted/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25.codex.md",
           "page": 20,
@@ -3979,17 +4037,22 @@
             "Birth",
             "Carmen",
             "Dios",
-            "Entry",
             "Juan",
             "Juana",
             "Mercedes",
             "Pulgar",
+            "Registration",
             "Riquelme",
             "mercedes riquelme"
           ],
           "suspicious_readings": [
             {
               "literal": "Juan",
+              "suspected": "Juana",
+              "reason": "near match to known family context term `Juana`"
+            },
+            {
+              "literal": "Jara",
               "suspected": "Juana",
               "reason": "near match to known family context term `Juana`"
             }

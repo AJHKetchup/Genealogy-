@@ -15,17 +15,22 @@
         "Birth",
         "Carmen",
         "Dios",
-        "Entry",
         "Juan",
         "Juana",
         "Mercedes",
         "Pulgar",
+        "Registration",
         "Riquelme",
         "mercedes riquelme"
       ],
       "suspicious_readings": [
         {
           "literal": "Juan",
+          "suspected": "Juana",
+          "reason": "near match to known family context term `Juana`"
+        },
+        {
+          "literal": "Jara",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
         }
@@ -44,17 +49,22 @@
         "Birth",
         "Carmen",
         "Dios",
-        "Entry",
         "Juan",
         "Juana",
         "Mercedes",
         "Pulgar",
+        "Registration",
         "Riquelme",
         "mercedes riquelme"
       ],
       "suspicious_readings": [
         {
           "literal": "Juan",
+          "suspected": "Juana",
+          "reason": "near match to known family context term `Juana`"
+        },
+        {
+          "literal": "Jara",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
         }
@@ -64,14 +74,17 @@
       "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
-      "page": 1,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
+      "page": 4,
+      "recommended_action": "reread-page",
+      "conversion_confidence": "medium",
       "family_relevance": "high",
-      "quality_flags": [],
+      "quality_flags": [
+        "explicit_reread_needed"
+      ],
       "matched_terms": [
         "Arturo",
         "Dario",
+        "Entry",
         "Pulgar"
       ],
       "suspicious_readings": []
@@ -88,7 +101,6 @@
       "matched_terms": [
         "Arturo",
         "Dario",
-        "Entry",
         "Pulgar"
       ],
       "suspicious_readings": []
@@ -116,16 +128,13 @@
       "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
-      "page": 7,
+      "page": 4,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "high",
+      "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
-        "Arturo",
-        "Dario",
-        "Entry",
-        "Pulgar"
+        "Entry"
       ],
       "suspicious_readings": []
     },
@@ -150,14 +159,17 @@
       "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
-      "page": 9,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
+      "page": 6,
+      "recommended_action": "reread-page",
+      "conversion_confidence": "medium",
       "family_relevance": "high",
-      "quality_flags": [],
+      "quality_flags": [
+        "possible_table_layout_loss"
+      ],
       "matched_terms": [
         "Arturo",
         "Dario",
+        "Entry",
         "Pulgar"
       ],
       "suspicious_readings": []
@@ -191,12 +203,18 @@
       "chunk_manifest": "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json",
       "page": 2,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "sixth",
+          "suspected": "Smith",
+          "reason": "near match to known family context term `Smith`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md",
@@ -18188,13 +18206,13 @@
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json",
       "page": 2,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "medium",
-      "quality_flags": [],
-      "matched_terms": [
-        "Entry"
+      "recommended_action": "spot-check",
+      "conversion_confidence": "medium",
+      "family_relevance": "none",
+      "quality_flags": [
+        "possible_table_layout_loss"
       ],
+      "matched_terms": [],
       "suspicious_readings": []
     },
     {
@@ -18296,21 +18314,27 @@
       "page": 8,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
-      "page": 9,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
-      "quality_flags": [],
-      "matched_terms": [],
+      "page": 4,
+      "recommended_action": "spot-check",
+      "conversion_confidence": "medium",
+      "family_relevance": "medium",
+      "quality_flags": [
+        "possible_table_layout_loss"
+      ],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -18329,7 +18353,7 @@
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
-      "page": 6,
+      "page": 11,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "none",
@@ -18344,9 +18368,11 @@
       "page": 12,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -19968,16 +19994,20 @@
       "chunk_manifest": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/manifest.json",
       "page": 104,
-      "recommended_action": "spot-check",
-      "conversion_confidence": "medium",
-      "family_relevance": "medium",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [
         "many_uncertain_readings"
       ],
-      "matched_terms": [
-        "Entry"
-      ],
-      "suspicious_readings": []
+      "matched_terms": [],
+      "suspicious_readings": [
+        {
+          "literal": "clear",
+          "suspected": "Cesar",
+          "reason": "near match to known family context term `Cesar`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125.codex.md",
@@ -27119,21 +27149,15 @@
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
       "chunk_manifest": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 12,
-      "recommended_action": "reread-page",
-      "conversion_confidence": "low",
-      "family_relevance": "critical",
+      "page": 15,
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
+      "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
         "Dios"
       ],
-      "suspicious_readings": [
-        {
-          "literal": "Enero",
-          "suspected": "Entry",
-          "reason": "near match to known family context term `Entry`"
-        }
-      ]
+      "suspicious_readings": []
     },
     {
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
@@ -29549,20 +29573,17 @@
       "chunk_manifest": "raw/chunks/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json",
       "page": 1,
-      "recommended_action": "reread-page",
-      "conversion_confidence": "low",
-      "family_relevance": "critical",
-      "quality_flags": [],
+      "recommended_action": "spot-check",
+      "conversion_confidence": "medium",
+      "family_relevance": "medium",
+      "quality_flags": [
+        "explicit_reread_needed"
+      ],
       "matched_terms": [
+        "Cesar",
         "Entry"
       ],
-      "suspicious_readings": [
-        {
-          "literal": "clear",
-          "suspected": "Cesar",
-          "reason": "near match to known family context term `Cesar`"
-        }
-      ]
+      "suspicious_readings": []
     },
     {
       "converted_file": "raw/converted/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25.codex.md",

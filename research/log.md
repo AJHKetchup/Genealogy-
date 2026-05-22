@@ -26384,3 +26384,4 @@
 ## [2026-05-22] prepare-sources | Prepared 22 raw source(s)
 ## [2026-05-22] gemini-source-prep | processed 39, completed 29, released 10, held 1, parallelism=8, routes={'pro': 8, 'pro_with_crops': 4, 'lite': 27}, fallback_policy=large_corpus_relevance, dry_run=False
 ## [2026-05-22] source-relevance | Restored proof-review assets and released 33 review task(s)
+## [2026-05-22] source-relevance | Restored proof-review assets and released 34 review task(s)

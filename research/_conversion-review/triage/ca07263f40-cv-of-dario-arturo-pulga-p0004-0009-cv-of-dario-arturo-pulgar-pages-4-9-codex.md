@@ -8,9 +8,9 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | high | high | pass | none | Arturo, Dario, Pulgar |
-| 5 | high | high | pass | none | Arturo, Dario, Entry, Pulgar |
+| 4 | high | medium | reread-page | explicit_reread_needed | Arturo, Dario, Entry, Pulgar |
+| 5 | high | high | pass | none | Arturo, Dario, Pulgar |
 | 6 | high | medium | reread-page | explicit_reread_needed | Arturo, Dario, Entry, Pulgar |
-| 7 | high | high | pass | none | Arturo, Dario, Entry, Pulgar |
+| 4 | medium | high | pass | none | Entry |
 | 8 | high | high | pass | none | Arturo, Dario, Entry, Pulgar |
-| 9 | high | high | pass | none | Arturo, Dario, Pulgar |
+| 6 | high | medium | reread-page | possible_table_layout_loss | Arturo, Dario, Entry, Pulgar |

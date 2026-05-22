@@ -13,7 +13,16 @@ Use `$genealogy-claim-extraction`.
 - Staging area: `research/_staging`
 - Family relevance: `high`
 - Matched family terms: chunk
-- Evidence priority: `1722` (family_relevance:high, qc:reread-page, matched_terms)
+- Evidence priority: `101722` (family_relevance:high, qc:reread-page, matched_terms, blocked_by_conversion_qc)
+
+## QC Hold
+
+- Status: `blocked_needs_reread`
+- Blocked pages: 722
+- Page reread queue: `research/_conversion-review/page-queues/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-fbca9c2302.md`
+- Suspected readings: `research/_conversion-review/corrections/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-fbca9c2302.md`
+
+Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
 
 
 
