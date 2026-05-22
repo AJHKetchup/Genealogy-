@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-22T12:38:14Z",
+  "updated": "2026-05-22T12:58:12Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -52,33 +52,32 @@
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0001": {
       "status": "done",
-      "updated_at": "2026-05-22T12:31:10Z",
+      "updated_at": "2026-05-22T12:55:11Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T02:46:50Z",
       "started_at": "2026-05-16T02:46:50Z",
-      "completed_at": "2026-05-22T12:31:10Z",
+      "completed_at": "2026-05-22T12:55:11Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-19T12:11:01Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0002": {
-      "status": "done",
-      "updated_at": "2026-05-22T12:31:11Z",
-      "note": "Completed by Gemini route pro",
+      "status": "released",
+      "updated_at": "2026-05-22T12:55:12Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
       "claimed_at": "2026-05-16T03:01:17Z",
       "started_at": "2026-05-16T03:01:17Z",
       "completed_at": "2026-05-22T12:31:11Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-22T07:21:36Z",
-      "agent": "gemini-source-prep"
+      "released_at": "2026-05-22T12:55:12Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5:p0005": {
       "status": "done",
-      "updated_at": "2026-05-22T12:31:12Z",
+      "updated_at": "2026-05-22T12:55:11Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T03:29:02Z",
       "started_at": "2026-05-16T03:29:02Z",
-      "completed_at": "2026-05-22T12:31:12Z",
+      "completed_at": "2026-05-22T12:55:11Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-19T12:15:17Z",
       "agent": "gemini-source-prep"
@@ -130,11 +129,11 @@
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3:p0001": {
       "status": "done",
-      "updated_at": "2026-05-22T12:31:49Z",
+      "updated_at": "2026-05-22T12:55:49Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T06:18:28Z",
       "started_at": "2026-05-16T06:18:28Z",
-      "completed_at": "2026-05-22T12:31:49Z",
+      "completed_at": "2026-05-22T12:55:49Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-19T12:12:32Z",
       "agent": "gemini-source-prep"
@@ -293,57 +292,58 @@
     },
     "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004": {
       "status": "done",
-      "updated_at": "2026-05-22T12:30:55Z",
+      "updated_at": "2026-05-22T12:55:06Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route pro",
-      "completed_at": "2026-05-22T12:30:55Z",
+      "completed_at": "2026-05-22T12:55:06Z",
       "claimed_at": "2026-05-22T01:36:25Z",
       "started_at": "2026-05-22T01:36:25Z"
     },
     "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005": {
       "status": "done",
-      "updated_at": "2026-05-22T12:30:59Z",
+      "updated_at": "2026-05-22T12:55:08Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route pro",
-      "completed_at": "2026-05-22T12:30:59Z",
+      "completed_at": "2026-05-22T12:55:08Z",
       "claimed_at": "2026-05-22T01:36:26Z",
       "started_at": "2026-05-22T01:36:27Z"
     },
     "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0006": {
       "status": "done",
-      "updated_at": "2026-05-22T12:30:59Z",
+      "updated_at": "2026-05-22T12:55:05Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route pro",
-      "completed_at": "2026-05-22T12:30:59Z",
+      "completed_at": "2026-05-22T12:55:05Z",
       "claimed_at": "2026-05-22T01:36:27Z",
       "started_at": "2026-05-22T01:36:28Z"
     },
     "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0007": {
       "status": "done",
-      "updated_at": "2026-05-22T12:30:53Z",
+      "updated_at": "2026-05-22T12:54:57Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route pro",
-      "completed_at": "2026-05-22T12:30:53Z",
+      "completed_at": "2026-05-22T12:54:57Z",
       "claimed_at": "2026-05-22T01:36:28Z",
       "started_at": "2026-05-22T01:36:29Z"
     },
     "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0008": {
       "status": "done",
-      "updated_at": "2026-05-22T12:30:53Z",
+      "updated_at": "2026-05-22T12:55:03Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route pro",
-      "completed_at": "2026-05-22T12:30:53Z",
+      "completed_at": "2026-05-22T12:55:03Z",
       "claimed_at": "2026-05-22T07:18:21Z",
       "started_at": "2026-05-22T07:18:22Z"
     },
     "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0009": {
-      "status": "done",
-      "updated_at": "2026-05-22T12:31:10Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route pro_with_crops",
+      "status": "released",
+      "updated_at": "2026-05-22T12:55:00Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
       "completed_at": "2026-05-22T12:31:10Z",
       "claimed_at": "2026-05-22T07:18:22Z",
-      "started_at": "2026-05-22T07:18:23Z"
+      "started_at": "2026-05-22T07:18:23Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-22T12:55:00Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0005": {
       "status": "held",
@@ -782,77 +782,76 @@
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0006": {
       "status": "done",
-      "updated_at": "2026-05-22T12:31:15Z",
+      "updated_at": "2026-05-22T12:55:13Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-22T12:31:15Z",
+      "completed_at": "2026-05-22T12:55:13Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0007": {
       "status": "done",
-      "updated_at": "2026-05-22T12:31:16Z",
+      "updated_at": "2026-05-22T12:55:17Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-22T12:31:16Z",
+      "completed_at": "2026-05-22T12:55:17Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-19T03:13:56Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0008": {
       "status": "done",
-      "updated_at": "2026-05-22T12:31:17Z",
+      "updated_at": "2026-05-22T12:55:17Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-22T12:31:17Z",
+      "completed_at": "2026-05-22T12:55:17Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-19T12:11:02Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0009": {
-      "status": "done",
-      "updated_at": "2026-05-22T12:31:19Z",
-      "note": "Completed by Gemini route lite",
+      "status": "released",
+      "updated_at": "2026-05-22T12:55:17Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-22T05:43:48Z",
-      "completed_at": "2026-05-22T12:31:19Z",
-      "agent": "gemini-source-prep"
+      "released_at": "2026-05-22T12:55:17Z",
+      "completed_at": "2026-05-22T12:31:19Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0010": {
       "status": "done",
-      "updated_at": "2026-05-22T12:31:23Z",
+      "updated_at": "2026-05-22T12:55:22Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-22T12:31:23Z",
+      "completed_at": "2026-05-22T12:55:22Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-19T12:11:07Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0011": {
       "status": "done",
-      "updated_at": "2026-05-22T12:31:22Z",
+      "updated_at": "2026-05-22T12:55:23Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-22T12:31:22Z",
+      "completed_at": "2026-05-22T12:55:23Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0012": {
       "status": "done",
-      "updated_at": "2026-05-22T12:31:21Z",
+      "updated_at": "2026-05-22T12:55:22Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:58Z",
       "started_at": "2026-05-16T18:21:58Z",
-      "completed_at": "2026-05-22T12:31:21Z",
+      "completed_at": "2026-05-22T12:55:22Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-19T12:11:02Z",
       "agent": "gemini-source-prep"
@@ -1902,52 +1901,53 @@
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0004": {
       "status": "done",
-      "updated_at": "2026-05-22T12:31:27Z",
+      "updated_at": "2026-05-22T12:56:04Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T08:42:09Z",
       "started_at": "2026-05-17T08:42:09Z",
-      "completed_at": "2026-05-22T12:31:27Z",
+      "completed_at": "2026-05-22T12:56:04Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:56Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0005": {
       "status": "released",
-      "updated_at": "2026-05-22T12:31:31Z",
+      "updated_at": "2026-05-22T12:55:32Z",
       "note": "Gemini visual crop extraction failed: visual_region_manifest_json_invalid:Expecting value",
       "claimed_at": "2026-05-17T08:42:12Z",
       "started_at": "2026-05-17T08:42:12Z",
       "completed_at": "2026-05-19T18:32:53Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-22T12:31:31Z"
+      "released_at": "2026-05-22T12:55:32Z"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0006": {
       "status": "released",
-      "updated_at": "2026-05-22T12:31:32Z",
+      "updated_at": "2026-05-22T12:55:31Z",
       "note": "Gemini visual crop extraction failed: visual_region_manifest_json_invalid:Expecting value",
       "claimed_at": "2026-05-17T08:42:14Z",
       "started_at": "2026-05-17T08:42:14Z",
       "completed_at": "2026-05-19T18:32:48Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-22T12:31:32Z"
+      "released_at": "2026-05-22T12:55:31Z"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0007": {
-      "status": "released",
-      "updated_at": "2026-05-22T12:32:01Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-22T12:56:06Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-17T08:42:16Z",
       "started_at": "2026-05-17T08:42:16Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-22T12:32:01Z",
-      "completed_at": "2026-05-22T07:23:37Z"
+      "completed_at": "2026-05-22T12:56:06Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0008": {
       "status": "done",
-      "updated_at": "2026-05-22T12:31:35Z",
+      "updated_at": "2026-05-22T12:55:41Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T08:42:19Z",
       "started_at": "2026-05-17T08:42:19Z",
-      "completed_at": "2026-05-22T12:31:35Z",
+      "completed_at": "2026-05-22T12:55:41Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
       "agent": "gemini-source-prep"
@@ -1983,12 +1983,12 @@
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25:p0002": {
       "status": "done",
-      "updated_at": "2026-05-22T12:31:56Z",
+      "updated_at": "2026-05-22T12:55:42Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route pro_with_crops",
       "claimed_at": "2026-05-17T08:42:26Z",
       "started_at": "2026-05-17T08:42:26Z",
-      "completed_at": "2026-05-22T12:31:56Z"
+      "completed_at": "2026-05-22T12:55:42Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25:p0003": {
       "status": "done",
@@ -2333,14 +2333,15 @@
       "completed_at": "2026-05-17T08:43:06Z"
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0001": {
-      "status": "released",
-      "updated_at": "2026-05-22T12:32:31Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-22T12:54:42Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-17T08:42:33Z",
       "started_at": "2026-05-17T08:42:33Z",
-      "completed_at": "2026-05-22T07:23:21Z",
+      "completed_at": "2026-05-22T12:54:42Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-22T12:32:31Z"
+      "released_at": "2026-05-22T12:32:31Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0002": {
       "status": "done",
@@ -2891,110 +2892,107 @@
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0009": {
       "status": "done",
-      "updated_at": "2026-05-22T12:31:50Z",
+      "updated_at": "2026-05-22T12:55:51Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:39Z",
       "started_at": "2026-05-17T09:10:39Z",
-      "completed_at": "2026-05-22T12:31:50Z",
+      "completed_at": "2026-05-22T12:55:51Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-22T05:22:53Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0010": {
       "status": "done",
-      "updated_at": "2026-05-22T12:32:03Z",
+      "updated_at": "2026-05-22T12:56:10Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:41Z",
       "started_at": "2026-05-17T09:10:41Z",
-      "completed_at": "2026-05-22T12:32:03Z",
+      "completed_at": "2026-05-22T12:56:10Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0011": {
-      "status": "done",
-      "updated_at": "2026-05-22T12:31:45Z",
-      "note": "Completed by Gemini route lite",
+      "status": "released",
+      "updated_at": "2026-05-22T12:56:21Z",
+      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
       "claimed_at": "2026-05-17T09:10:44Z",
       "started_at": "2026-05-17T09:10:44Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-22T05:44:37Z",
-      "completed_at": "2026-05-22T12:31:45Z",
-      "agent": "gemini-source-prep"
+      "released_at": "2026-05-22T12:56:21Z",
+      "completed_at": "2026-05-22T12:31:45Z"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0012": {
       "status": "done",
-      "updated_at": "2026-05-22T12:31:54Z",
+      "updated_at": "2026-05-22T12:55:52Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:46Z",
       "started_at": "2026-05-17T09:10:46Z",
-      "completed_at": "2026-05-22T12:31:54Z",
+      "completed_at": "2026-05-22T12:55:52Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-19T03:17:56Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0013": {
-      "status": "done",
-      "updated_at": "2026-05-22T12:32:16Z",
-      "note": "Completed by Gemini route pro",
+      "status": "released",
+      "updated_at": "2026-05-22T12:56:26Z",
+      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
       "claimed_at": "2026-05-17T09:10:50Z",
       "started_at": "2026-05-17T09:10:50Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-22T07:23:11Z",
-      "completed_at": "2026-05-22T12:32:16Z",
-      "agent": "gemini-source-prep"
+      "released_at": "2026-05-22T12:56:26Z",
+      "completed_at": "2026-05-22T12:32:16Z"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0014": {
-      "status": "done",
-      "updated_at": "2026-05-22T12:31:06Z",
-      "note": "Completed by Gemini route pro",
+      "status": "released",
+      "updated_at": "2026-05-22T12:56:27Z",
+      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
       "claimed_at": "2026-05-17T09:10:52Z",
       "started_at": "2026-05-17T09:10:52Z",
       "completed_at": "2026-05-22T12:31:06Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-22T07:23:16Z",
-      "agent": "gemini-source-prep"
+      "released_at": "2026-05-22T12:56:27Z"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0015": {
       "status": "done",
-      "updated_at": "2026-05-22T12:31:57Z",
+      "updated_at": "2026-05-22T12:56:01Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:55Z",
       "started_at": "2026-05-17T09:10:55Z",
-      "completed_at": "2026-05-22T12:31:57Z",
+      "completed_at": "2026-05-22T12:56:01Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0016": {
       "status": "done",
-      "updated_at": "2026-05-22T12:32:00Z",
+      "updated_at": "2026-05-22T12:56:11Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:57Z",
       "started_at": "2026-05-17T09:10:57Z",
-      "completed_at": "2026-05-22T12:32:00Z",
+      "completed_at": "2026-05-22T12:56:11Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0017": {
       "status": "done",
-      "updated_at": "2026-05-22T12:32:11Z",
+      "updated_at": "2026-05-22T12:56:21Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:11:00Z",
       "started_at": "2026-05-17T09:11:00Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-19T12:11:39Z",
-      "completed_at": "2026-05-22T12:32:11Z",
+      "completed_at": "2026-05-22T12:56:21Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0018": {
       "status": "done",
-      "updated_at": "2026-05-22T12:32:01Z",
+      "updated_at": "2026-05-22T12:56:10Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:11:02Z",
       "started_at": "2026-05-17T09:11:02Z",
-      "completed_at": "2026-05-22T12:32:01Z",
+      "completed_at": "2026-05-22T12:56:10Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
       "agent": "gemini-source-prep"
@@ -3013,11 +3011,11 @@
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0006": {
       "status": "done",
-      "updated_at": "2026-05-22T12:32:03Z",
+      "updated_at": "2026-05-22T12:56:12Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:11:02Z",
       "started_at": "2026-05-17T09:11:02Z",
-      "completed_at": "2026-05-22T12:32:03Z",
+      "completed_at": "2026-05-22T12:56:12Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
       "agent": "gemini-source-prep"
@@ -3273,12 +3271,12 @@
     },
     "source-prep:ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513:p0001": {
       "status": "done",
-      "updated_at": "2026-05-22T12:31:27Z",
+      "updated_at": "2026-05-22T12:55:43Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route pro_with_crops",
       "claimed_at": "2026-05-17T09:11:15Z",
       "started_at": "2026-05-17T09:11:15Z",
-      "completed_at": "2026-05-22T12:31:27Z"
+      "completed_at": "2026-05-22T12:55:43Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25:p0006": {
       "status": "done",
@@ -6197,12 +6195,12 @@
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0020": {
       "status": "released",
-      "updated_at": "2026-05-22T12:31:04Z",
+      "updated_at": "2026-05-22T12:55:05Z",
       "note": "Gemini output failed source-prep review: possible_ocr_garbage_token",
       "claimed_at": "2026-05-17T09:12:32Z",
       "started_at": "2026-05-17T09:12:32Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-22T12:31:04Z",
+      "released_at": "2026-05-22T12:55:05Z",
       "completed_at": "2026-05-21T03:11:41Z"
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0021": {
@@ -8490,12 +8488,12 @@
     },
     "source-prep:caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172:p0001": {
       "status": "done",
-      "updated_at": "2026-05-22T12:32:14Z",
+      "updated_at": "2026-05-22T12:56:23Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route pro_with_crops",
       "claimed_at": "2026-05-17T09:13:49Z",
       "started_at": "2026-05-17T09:13:49Z",
-      "completed_at": "2026-05-22T12:32:14Z"
+      "completed_at": "2026-05-22T12:56:23Z"
     },
     "source-prep:cac488badb-r4302-9f-13323-11332-p0001-0025-r4302-9f-13323-11332-pages-1-25:p0004": {
       "status": "done",
@@ -12977,12 +12975,12 @@
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125:p0104": {
       "status": "released",
-      "updated_at": "2026-05-22T12:31:46Z",
+      "updated_at": "2026-05-22T12:55:33Z",
       "note": "Gemini output failed source-prep review: many_uncertain_readings",
       "claimed_at": "2026-05-17T09:45:43Z",
       "started_at": "2026-05-17T09:45:43Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-22T12:31:46Z"
+      "released_at": "2026-05-22T12:55:33Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60:p0058": {
       "status": "done",
@@ -38259,14 +38257,14 @@
       "held_at": "2026-05-22T01:36:37Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0722": {
-      "status": "done",
-      "updated_at": "2026-05-22T12:30:37Z",
+      "status": "held",
+      "updated_at": "2026-05-22T12:51:36Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route pro",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:47Z",
       "started_at": "2026-05-19T11:54:47Z",
       "completed_at": "2026-05-22T12:30:37Z",
-      "held_at": "2026-05-22T01:36:37Z"
+      "held_at": "2026-05-22T12:51:36Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0726": {
       "status": "held",
