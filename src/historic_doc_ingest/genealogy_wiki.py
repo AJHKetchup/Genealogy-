@@ -1733,7 +1733,7 @@ def ensure_person_page(
     if dry_run:
         return link
     page_path.parent.mkdir(parents=True, exist_ok=True)
-    title = clean or stem.replace("-", " ").title()
+    title = title_from_slug(clean) if clean and clean == clean.lower() else clean or title_from_slug(stem)
     content = TEMPLATES["person.md"]
     replacements = {
         "person_id:": f"person_id: {page_path.stem}",
@@ -14450,6 +14450,11 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Also promote staged drafts whose recommendation is hold or reject. Use only for manual recovery.",
     )
+    refresh_people_parser = subparsers.add_parser(
+        "refresh-person-pages",
+        help="Refresh family-facing person pages from canonical reviewed claims and relationships.",
+    )
+    refresh_people_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
 
     claim_parser = subparsers.add_parser("claim", help="Create an atomic genealogy claim page.")
     claim_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
@@ -15005,6 +15010,7 @@ def main(argv: list[str] | None = None) -> int:
             f"claims={len(summary_list(summary, 'claims'))} "
             f"relationships={len(summary_list(summary, 'relationships'))} "
             f"people={len(summary_list(summary, 'people'))} "
+            f"people_refreshed={len(summary_list(summary, 'people_refreshed'))} "
             f"sources={len(summary_list(summary, 'sources'))} "
             f"dry_run={summary['dry_run']}"
         )
@@ -15018,6 +15024,23 @@ def main(argv: list[str] | None = None) -> int:
                 print(f"- {item}")
             if len(skipped) > 25:
                 print(f"- ... {len(skipped) - 25} more")
+        return 0
+
+    if args.command == "refresh-person-pages":
+        paths = WikiPaths(args.root.resolve())
+        summary: dict[str, object] = {"people": [], "people_refreshed": []}
+        refreshed = refresh_person_pages_from_research(paths, summary)
+        created = summary_list(summary, "people")
+        if refreshed or created:
+            write_claim_index(paths.root)
+            write_relationship_index(paths.root)
+            write_relationship_graph(paths.root)
+            generate_tree(paths.root)
+            append_log(
+                paths.research / "log.md",
+                f"refresh-person-pages | Refreshed {len(refreshed)} person page(s), created {len(created)}",
+            )
+        print(f"refresh-person-pages | refreshed={len(refreshed)} created={len(created)}")
         return 0
 
     if args.command == "claim":

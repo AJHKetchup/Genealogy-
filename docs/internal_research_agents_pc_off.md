@@ -78,6 +78,14 @@ The controller reserves worker slots across lanes instead of draining the first 
 
 Each promotion pass also refreshes family-facing person pages from canonical reviewed claims and relationships. The person page update is generated from existing proof outputs, so older stub pages are backfilled automatically on the next hosted promotion run instead of needing a one-off manual edit.
 
+The deterministic backfill command is:
+
+```powershell
+python -m historic_doc_ingest.genealogy_wiki refresh-person-pages --root .
+```
+
+It runs after the promotion-only worker step whenever promotion is allowed and the controller completed cleanly.
+
 Before worker launch, the workflow and controller also run:
 
 ```powershell

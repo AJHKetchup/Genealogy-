@@ -511,6 +511,67 @@ No uncertainty.
     assert lint_genealogy_wiki(tmp_path) == []
 
 
+def test_refresh_person_pages_cli_backfills_existing_canonical_outputs(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    claims = tmp_path / "research" / "claims"
+    relationships = tmp_path / "research" / "relationships"
+    claims.joinpath("cl001-child-birth.md").write_text(
+        """---
+type: claim
+status: probable
+claim_type: birth
+confidence: 8.2
+subject: [[people/child-person]]
+predicate: recorded_birth
+object: Child Person was born.
+date: 1888-03-08
+place: Los Angeles, Chile
+source: [[sources/birth-register]]
+---
+
+# Child Birth
+
+## Claim
+
+The register records Child Person's birth.
+""",
+        encoding="utf-8",
+    )
+    relationships.joinpath("r001-parent.md").write_text(
+        """---
+type: relationship
+status: probable
+relationship_type: probable_parent
+confidence: 8.2
+person_a: [[people/parent-person]]
+person_b: [[people/child-person]]
+supporting_claims: [[claims/cl001-child-birth]]
+conflicting_claims: []
+---
+
+# Parent Relationship
+
+## Evidence For
+
+The register names the parent.
+""",
+        encoding="utf-8",
+    )
+
+    exit_code = genealogy_wiki.main(["refresh-person-pages", "--root", str(tmp_path)])
+
+    assert exit_code == 0
+    child_text = (tmp_path / "wiki" / "people" / "child-person.md").read_text(encoding="utf-8")
+    parent_text = (tmp_path / "wiki" / "people" / "parent-person.md").read_text(encoding="utf-8")
+    assert "## Evidence Snapshot" in child_text
+    assert "The register records Child Person's birth." in child_text
+    assert "Parent: Parent Person" in child_text
+    assert "Child: Child Person" in parent_text
+    assert "refresh-person-pages | Refreshed 2 person page(s), created 2" in (
+        tmp_path / "research" / "log.md"
+    ).read_text(encoding="utf-8")
+
+
 def test_promote_staged_relationship_candidate_accepts_child_parent_and_spouse(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     staged_relationships = tmp_path / "research" / "_staging" / "relationships"
