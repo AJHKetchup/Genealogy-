@@ -5,6 +5,9 @@ on:
     branches:
       - main
     paths:
+      - ".github/workflows/cloud-source-prep.yml"
+      - "pyproject.toml"
+      - "src/historic_doc_ingest/**"
       - "raw/sources/**"
   workflow_dispatch:
     inputs:
@@ -84,6 +87,8 @@ on:
         description: "Large-corpus page-task threshold for holding unrequested Gemini fallback"
         required: false
         default: "50"
+  schedule:
+    - cron: "*/15 * * * *"
 concurrency:
   group: cloud-source-prep
   cancel-in-progress: false
