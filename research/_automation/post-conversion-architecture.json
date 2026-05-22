@@ -10,7 +10,7 @@
     "status": "active_on_default_branch",
     "workflow": ".github/workflows/internal-research-agents.yml",
     "runner": "GitHub-hosted windows-latest",
-    "schedule": "hourly at minute 17, plus main-branch pushes to converted/chunked source outputs or agent/controller code, plus successful Cloud Source Conversion workflow completions",
+    "schedule": "hourly at minute 17 for full internal research runs, plus short validation runs on main-branch pushes to the workflow, post-conversion controller, project code, or automation contracts",
     "auth": "ChatGPT-managed Codex auth restored from CODEX_AUTH_JSON_B64 or CODEX_AUTH_JSON repository secret",
     "provider_api_keys": "forbidden",
     "activation_requirements": [
@@ -60,6 +60,7 @@
       "max_batch_size": 6,
       "rules": [
         "Prefer independent proof-review tasks first when already staged.",
+        "Reserve worker slots for evidence extraction even while conversion-QA backlog remains so staged claims and relationships are not starved.",
         "Do not claim two tasks that write the same file or same staged draft review.",
         "Do not mix wiki promotion with QA, extraction, or proof-review in the same hosted run.",
         "Release unsafe or blocked tasks with a concise blocker instead of guessing."

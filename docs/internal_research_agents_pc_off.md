@@ -8,8 +8,7 @@ It is for internal research and wiki development only. It does not perform exter
 
 - Workflow: `.github/workflows/internal-research-agents.yml`
 - Schedule: hourly at minute 17
-- Source triggers: main-branch pushes to converted Markdown, chunk manifests/chunks, controller code, or this workflow
-- Conversion trigger: successful `Cloud Source Conversion` workflow completions
+- Validation triggers: main-branch pushes to this workflow, the post-conversion controller, project code, or automation contracts
 - Manual run: GitHub Actions -> Internal Research Agents -> Run workflow
 - Parallelism: defaults to 3 Codex workers, with a queue scan limit of 12
 - Automatic promotion: enabled in a separate one-worker promotion-only pass after ordinary QA/extraction/review
@@ -52,8 +51,10 @@ Never commit `auth.json` or paste it into normal issue/PR text. Treat it like a 
 The workflow installs the project and Codex CLI, restores Codex account auth from the secret, verifies the auth is ChatGPT-managed, refuses provider API keys, and runs:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File scripts/post-conversion-agent-controller.ps1 -Root . -RunMinutes 45 -MaxWorkers 3 -QueueLimit 12 -PollSeconds 45 -WaitForWorkers -WorkerTimeoutMinutes 15
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/post-conversion-agent-controller.ps1 -Root . -RunMinutes 45 -MaxWorkers 3 -QueueLimit 12 -PollSeconds 45 -WaitForWorkers -WorkerTimeoutMinutes 35
 ```
+
+Scheduled runs use a 45-minute controller window and a 35-minute worker-drain window. Push validation runs use shorter 10-minute windows so controller/workflow changes can prove Codex startup, worker launch, auth rotation, and publishing without occupying the runner for a full research batch.
 
 The controller refreshes deterministic state, then launches bounded Codex workers for these lanes:
 
@@ -62,6 +63,8 @@ The controller refreshes deterministic state, then launches bounded Codex worker
 - `identity-analysis`: compare same-person, duplicate, name-variant, and conflict candidates without merging canonical people.
 - `proof-review`: score staged drafts for literal support, source quality, conversion confidence, evidence weight, identity confidence, claim probability, relevance, and canonical readiness.
 - `wiki-promotion`: runs only in a separate promotion-only pass and only promotes drafts whose review notes say they are ready.
+
+The controller reserves worker slots across lanes instead of draining the first queue forever. When staged review work exists it is preferred, then identity/evidence extraction, while conversion QA continues in a smaller share of each run. This is what moves the tree from converted sources -> staged claims/relationships -> proof review -> canonical wiki pages.
 
 After workers drain, the workflow commits/pushes GitHub-safe research/wiki state through:
 

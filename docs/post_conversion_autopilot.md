@@ -23,7 +23,7 @@ The PC-off runner is now the GitHub-hosted workflow:
 .github/workflows/internal-research-agents.yml
 ```
 
-It runs hourly on `windows-latest`, after successful cloud conversion completions, and on main-branch pushes that change converted/chunked source outputs or the agent/controller code. It restores ChatGPT-managed Codex auth from `CODEX_AUTH_JSON_B64` or `CODEX_AUTH_JSON`, refuses provider API keys, launches bounded `codex exec` workers through the controller, waits for them to drain, and commits GitHub-safe research/wiki outputs. Setup details are in `docs/internal_research_agents_pc_off.md`.
+It runs hourly on `windows-latest`. Main-branch pushes that change the workflow, post-conversion controller, project code, or automation contracts run a shorter validation batch; converted/chunked source output pushes do not self-trigger internal research, because the hourly runner is the durable source-to-research bridge. It restores ChatGPT-managed Codex auth from `CODEX_AUTH_JSON_B64` or `CODEX_AUTH_JSON`, refuses provider API keys, launches bounded `codex exec` workers through the controller, waits for them to drain, and commits GitHub-safe research/wiki outputs. Setup details are in `docs/internal_research_agents_pc_off.md`.
 
 Local accelerator, for when the Windows workspace is available:
 
@@ -65,6 +65,7 @@ For Codex specifically, the problem observed on 2026-05-17 was the Codex app `wo
 - Prefer a batch of 3 independent queue tasks per run.
 - Allow up to 6 tasks when they have disjoint write paths and are low-risk.
 - Prefer proof-review tasks when staged drafts already exist, because they are independent and do not alter source derivatives.
+- Reserve worker slots for evidence extraction even while conversion-QA backlog remains, so the tree can advance from converted sources into staged claims, relationships, proof review, and promotion.
 - Do not claim multiple tasks that write the same staged draft, same review note, same source packet, or same canonical target.
 - Do not mix promotion into a QA, extraction, or proof-review batch.
 

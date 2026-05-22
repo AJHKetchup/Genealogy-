@@ -539,17 +539,66 @@ function Get-AvailableTasks {
         $queuePaths += @{ name = "wiki-promotion"; path = $PromotionQueuePath }
     }
 
-    $available = @()
+    $tasksByQueue = @{}
     foreach ($queue in $queuePaths) {
+        $ready = @()
         foreach ($task in (Read-QueueTasks -QueueName $queue.name -Path $queue.path)) {
             $taskId = [string]$task.task_id
             $status = [string]$task.status
             if ($activeTaskIds.ContainsKey($taskId)) { continue }
             if ($status -notin @("todo", "released")) { continue }
-            $available += $task
+            $ready += $task
+        }
+        $tasksByQueue[$queue.name] = @($ready)
+    }
+
+    $selected = [System.Collections.ArrayList]::new()
+    $selectedTaskIds = @{}
+    function Add-ReadyTasksFromQueue {
+        param([string]$QueueName, [int]$Limit)
+        if ($Limit -le 0 -or $selected.Count -ge $QueueLimit) { return }
+        if (-not $tasksByQueue.ContainsKey($QueueName)) { return }
+        $taken = 0
+        foreach ($task in @($tasksByQueue[$QueueName])) {
+            if ($selected.Count -ge $QueueLimit -or $taken -ge $Limit) { break }
+            $taskId = [string]$task.task_id
+            if ($selectedTaskIds.ContainsKey($taskId)) { continue }
+            [void]$selected.Add($task)
+            $selectedTaskIds[$taskId] = $true
+            $taken += 1
         }
     }
-    return @($available | Select-Object -First $QueueLimit)
+
+    if ($PromotionOnly) {
+        Add-ReadyTasksFromQueue -QueueName "wiki-promotion" -Limit $QueueLimit
+        return @($selected)
+    }
+
+    # Avoid starving extraction behind a large QA backlog. The canonical tree grows only
+    # after extraction -> proof review -> promotion, so each run reserves slots for that path.
+    $reviewQuota = [Math]::Max(1, [int][Math]::Ceiling($QueueLimit * 0.25))
+    $evidenceQuota = [Math]::Max(1, [int][Math]::Ceiling($QueueLimit * 0.60))
+    $qaQuota = [Math]::Max(1, [int][Math]::Floor($QueueLimit * 0.25))
+
+    Add-ReadyTasksFromQueue -QueueName "proof-review" -Limit $reviewQuota
+    Add-ReadyTasksFromQueue -QueueName "identity-analysis" -Limit 1
+    Add-ReadyTasksFromQueue -QueueName "evidence-extraction" -Limit $evidenceQuota
+    Add-ReadyTasksFromQueue -QueueName "conversion-qa" -Limit $qaQuota
+    if ($AllowPromotion) {
+        Add-ReadyTasksFromQueue -QueueName "wiki-promotion" -Limit 1
+    }
+
+    $fillOrder = @("proof-review", "identity-analysis", "evidence-extraction", "conversion-qa")
+    if ($AllowPromotion) { $fillOrder += "wiki-promotion" }
+    while ($selected.Count -lt $QueueLimit) {
+        $before = $selected.Count
+        foreach ($queueName in $fillOrder) {
+            Add-ReadyTasksFromQueue -QueueName $queueName -Limit 1
+            if ($selected.Count -ge $QueueLimit) { break }
+        }
+        if ($selected.Count -eq $before) { break }
+    }
+    return @($selected)
 }
 
 function Write-WorkerPrompt {
