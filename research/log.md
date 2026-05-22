@@ -23861,3 +23861,6 @@
 ## [2026-05-22] conversion-qc | Wrote 812 QC artifact(s)
 ## [2026-05-22] agent-queues | Wrote 2 queue manifest(s); source-prep queue disabled by post-conversion settings
 ## [2026-05-22] source-status | Wrote research/_indexes/source-usability.json
+## [2026-05-22] gemini-source-prep | preflight ok
+## [2026-05-22] source-prep-batches | Wrote 1449 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
+## [2026-05-22] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
