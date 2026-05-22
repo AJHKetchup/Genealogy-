@@ -987,6 +987,10 @@ def include_family_person_page(page: SitePage) -> bool:
 def include_presentation_person_page(page: SitePage, relationship_targets: set[str]) -> bool:
     if not include_family_person_page(page):
         return False
+    status = str(page.frontmatter.get("status") or "").strip().lower().replace("-", "_")
+    tags = str(page.frontmatter.get("tags") or "").strip().lower().replace("-", "_")
+    if status == "source_mentioned" or "source_mentioned" in tags:
+        return False
     if frontmatter_bool(page.frontmatter.get("home_person", "")):
         return True
     if str(page.frontmatter.get("relation_to_home") or "").strip():
@@ -994,9 +998,7 @@ def include_presentation_person_page(page: SitePage, relationship_targets: set[s
     target = normalize_link_key(page.vault_rel)
     if target in relationship_targets:
         return True
-    status = str(page.frontmatter.get("status") or "").strip().lower().replace("-", "_")
-    tags = str(page.frontmatter.get("tags") or "").strip().lower().replace("-", "_")
-    if status == "source_mentioned" or "source_mentioned" in tags:
+    if status == "stub":
         return False
     return True
 

@@ -57,6 +57,19 @@ This page exists only to hold a reviewed source mention.
 """,
         encoding="utf-8",
     )
+    (tmp_path / "wiki" / "people" / "dario-pulgar-adult-passenger-age-64.md").write_text(
+        """---
+type: person
+display_name: Dario Pulgar (adult passenger, age 64)
+status: stub
+tags: [person]
+---
+# Dario Pulgar (adult passenger, age 64)
+
+This page is an evidence-derived record role, not a family-facing profile.
+""",
+        encoding="utf-8",
+    )
     genealogy_wiki.create_relationship(
         root=tmp_path,
         relationship_id="R001",
@@ -93,14 +106,17 @@ This page exists only to hold a reviewed source mention.
     assert "Parent Person" in people_html
     assert "Birth registration entry 172 for Child Person" not in people_html
     assert "Directory Person" not in people_html
+    assert "Dario Pulgar (adult passenger, age 64)" not in people_html
     assert "tree-edge" in tree_html
     assert "Parent Person" in tree_html
     assert "Child Person" in tree_html
     assert "Directory Person" not in tree_html
+    assert "Dario Pulgar (adult passenger, age 64)" not in tree_html
     assert "Parent Person" in index_html
     assert "Child Person" in index_html
     assert "Birth registration entry 172 for Child Person" not in index_html
     assert "Directory Person" not in index_html
+    assert "Dario Pulgar (adult passenger, age 64)" not in index_html
     assert "probable parent of" in tree_html
     assert "../../wiki/people/child.html" in parent_html
     assert "Parent Person" in data_js
