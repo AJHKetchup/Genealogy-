@@ -2,6 +2,22 @@ name: Publish Wiki Site
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "wiki/**"
+      - "research/**"
+      - "src/historic_doc_ingest/**"
+      - "pyproject.toml"
+      - ".github/workflows/wiki-site.yml"
+  schedule:
+    - cron: "41 * * * *"
+  workflow_run:
+    workflows:
+      - Internal Research Agents
+    types:
+      - completed
 
 concurrency:
   group: wiki-site
