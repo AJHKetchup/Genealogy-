@@ -1,9 +1,9 @@
 {
   "created": "2026-05-22",
   "queue": "source-prep-batches",
-  "task_count": 1441,
+  "task_count": 1443,
   "status_counts": {
-    "needs_reread": 358,
+    "needs_reread": 360,
     "todo": 1083
   },
   "tasks": [
@@ -37,7 +37,7 @@
           "research_relevance": "high",
           "requested_treatment": "pro_with_crops",
           "research_relevance_reasons": [
-            "Proof review hold in research/_staging/reviews/proof-review-research-staging-identity-chunk-3d3ab761209f-p0001-01-identity-candidates.md: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion."
+            "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion."
           ],
           "relevance_feedback_ids": [
             "source-relevance:a5962a5022af"
@@ -83,7 +83,7 @@
           "research_relevance": "high",
           "requested_treatment": "reread",
           "research_relevance_reasons": [
-            "Proof review hold in research/_staging/reviews/SP-STAGE-CHUNK-37cac508f847-P0004-01-cv-dario-pulgar-page-4-proof-review.md: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion."
+            "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion."
           ],
           "research_entities": [
             "Dario Arturo Pulgar"
@@ -132,7 +132,7 @@
           "research_relevance": "high",
           "requested_treatment": "reread",
           "research_relevance_reasons": [
-            "Proof review hold in research/_staging/reviews/proof-review-research-staging-relationships-chunk-37cac508f847-p0005-01-relationship-candidates.md: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion."
+            "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion."
           ],
           "research_entities": [
             "Dario Arturo Pulgar"
@@ -150,6 +150,104 @@
       "repair_reason": "research_relevance_feedback",
       "rough_discovery_status": "error",
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-b828594106c1.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0006",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
+      "source_sha256": "07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
+      "job_id": "CA07263f40-cv-of-dario-arturo-pulga-p0004-0009",
+      "title": "CV of Dario Arturo Pulgar pages 4-9",
+      "first_page": 6,
+      "last_page": 6,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0006"
+      ],
+      "pages": [
+        {
+          "page": 6,
+          "task_id": "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0006",
+          "page_image": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0006.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0006.md",
+          "output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0006.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/extracted-images/page-0006",
+          "media_type": "pdf",
+          "research_relevance": "high",
+          "requested_treatment": "reread",
+          "research_relevance_reasons": [
+            "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion."
+          ],
+          "research_entities": [
+            "Dario Arturo Pulgar"
+          ],
+          "relevance_feedback_ids": [
+            "source-relevance:5e07ab5f5157"
+          ],
+          "matched_terms": [
+            "proof-review-hold",
+            "missing-page-image"
+          ],
+          "rough_discovery_status": "error"
+        }
+      ],
+      "repair_reason": "research_relevance_feedback",
+      "rough_discovery_status": "error",
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-9b6950afe6e4.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0007",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
+      "source_sha256": "07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
+      "job_id": "CA07263f40-cv-of-dario-arturo-pulga-p0004-0009",
+      "title": "CV of Dario Arturo Pulgar pages 4-9",
+      "first_page": 7,
+      "last_page": 7,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0007"
+      ],
+      "pages": [
+        {
+          "page": 7,
+          "task_id": "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0007",
+          "page_image": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0007.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0007.md",
+          "output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0007.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/extracted-images/page-0007",
+          "media_type": "pdf",
+          "research_relevance": "high",
+          "requested_treatment": "reread",
+          "research_relevance_reasons": [
+            "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion."
+          ],
+          "research_entities": [
+            "Dario Arturo Pulgar"
+          ],
+          "relevance_feedback_ids": [
+            "source-relevance:21fae774a091"
+          ],
+          "matched_terms": [
+            "proof-review-hold",
+            "missing-page-image"
+          ],
+          "rough_discovery_status": "error"
+        }
+      ],
+      "repair_reason": "research_relevance_feedback",
+      "rough_discovery_status": "error",
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-e1e7d3229cbd.md"
     },
     {
       "task_id": "source-prep-batch:ca09a98281-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket5-pages-376-400:p0376",
