@@ -25525,3 +25525,4 @@
 ## [2026-05-22] prepare-sources | Prepared 21 raw source(s)
 ## [2026-05-22] source-prep-batches | Wrote 1388 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
 ## [2026-05-22] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-22] gemini-source-prep | preflight ok
