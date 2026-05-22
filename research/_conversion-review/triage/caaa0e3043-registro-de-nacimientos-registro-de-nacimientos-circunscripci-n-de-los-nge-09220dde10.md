@@ -8,4 +8,4 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | critical | low | reread-page | none | Carmen, Jose, Juan, Juana, Luis, Pulgar, Riquelme |
+| 1 | critical | low | reread-page | none | Arriagada, Birth, Carmen, Jose, Juan, Juana, Luis, Pulgar, Registration, Riquelme, Segundo |

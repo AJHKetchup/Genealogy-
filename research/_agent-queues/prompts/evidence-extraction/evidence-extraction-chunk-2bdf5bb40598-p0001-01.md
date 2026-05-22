@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Arrival-Departure Record, Form I-94 B, March 30, 1959.png`
 - Page range: 1-1
 - Staging area: `research/_staging`
-- Family relevance: `medium`
-- Matched family terms: Dario, Pulgar
-- Evidence priority: `2001` (family_relevance:medium, qc:pass, matched_terms)
+- Family relevance: `high`
+- Matched family terms: Dario, Entry, Pulgar, chunk
+- Evidence priority: `1001` (family_relevance:high, qc:pass, matched_terms)
 
 
 

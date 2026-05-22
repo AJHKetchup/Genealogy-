@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 149-149
 - Staging area: `research/_staging`
 - Family relevance: `medium`
-- Matched family terms: John
+- Matched family terms: John, chunk
 - Evidence priority: `2149` (family_relevance:medium, qc:pass, matched_terms)
 
 

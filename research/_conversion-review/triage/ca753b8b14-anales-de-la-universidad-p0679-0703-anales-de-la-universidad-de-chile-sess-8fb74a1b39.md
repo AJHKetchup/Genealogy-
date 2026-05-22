@@ -28,7 +28,7 @@
 | 18 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |
-| 21 | none | high | pass | none | none |
+| 21 | medium | high | pass | none | Segundo |
 | 22 | none | high | pass | none | none |
 | 23 | medium | high | pass | none | Dios |
 | 24 | none | high | pass | none | none |

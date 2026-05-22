@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/S522bis-29-3.pdf`
 - Page range: 54-54
 - Staging area: `research/_staging`
-- Family relevance: `medium`
-- Matched family terms: Juana, Luis
-- Evidence priority: `2054` (family_relevance:medium, qc:pass, matched_terms)
+- Family relevance: `high`
+- Matched family terms: Juana, Luis, chunk
+- Evidence priority: `1054` (family_relevance:high, qc:pass, matched_terms)
 
 
 

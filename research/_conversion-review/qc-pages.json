@@ -12,8 +12,10 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Birth",
         "Carmen",
         "Dios",
+        "Entry",
         "Juan",
         "Juana",
         "Mercedes",
@@ -39,8 +41,10 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Birth",
         "Carmen",
         "Dios",
+        "Entry",
         "Juan",
         "Juana",
         "Mercedes",
@@ -88,6 +92,7 @@
       "matched_terms": [
         "Arturo",
         "Dario",
+        "Entry",
         "Pulgar"
       ],
       "suspicious_readings": []
@@ -106,6 +111,7 @@
       "matched_terms": [
         "Arturo",
         "Dario",
+        "Entry",
         "Pulgar"
       ],
       "suspicious_readings": []
@@ -122,6 +128,7 @@
       "matched_terms": [
         "Arturo",
         "Dario",
+        "Entry",
         "Pulgar"
       ],
       "suspicious_readings": []
@@ -138,6 +145,7 @@
       "matched_terms": [
         "Arturo",
         "Dario",
+        "Entry",
         "Pulgar"
       ],
       "suspicious_readings": []
@@ -189,9 +197,11 @@
       "page": 2,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -261,9 +271,10 @@
       "page": 8,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Dario",
         "Pulgar"
       ],
@@ -664,9 +675,10 @@
       "page": 36,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Dario",
         "Pulgar"
       ],
@@ -679,9 +691,11 @@
       "page": 17,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -895,9 +909,11 @@
       "page": 60,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Birth"
+      ],
       "suspicious_readings": []
     },
     {
@@ -1043,9 +1059,11 @@
       "page": 22,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Registration"
+      ],
       "suspicious_readings": []
     },
     {
@@ -1091,9 +1109,11 @@
       "page": 1,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -1101,15 +1121,22 @@
       "chunk_manifest": "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100/manifest.json",
       "page": 2,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Dario",
         "Pulgar"
       ],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "entity",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100.codex.md",
@@ -1118,9 +1145,11 @@
       "page": 3,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -1325,9 +1354,10 @@
       "page": 95,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Dario",
         "Pulgar"
       ],
@@ -1340,9 +1370,11 @@
       "page": 21,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -1882,12 +1914,20 @@
       "chunk_manifest": "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket5-pages-126-150-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket5-pages-126-150/manifest.json",
       "page": 16,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Entry"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "entity",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket5-pages-126-150.codex.md",
@@ -1896,9 +1936,10 @@
       "page": 142,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Dario",
         "Pulgar"
       ],
@@ -1911,9 +1952,11 @@
       "page": 18,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -2226,10 +2269,12 @@
       "page": 19,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Dario",
+        "Entry",
         "Pulgar"
       ],
       "suspicious_readings": []
@@ -2928,9 +2973,11 @@
       "page": 2,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -2938,15 +2985,22 @@
       "chunk_manifest": "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250/manifest.json",
       "page": 3,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Dario",
         "Pulgar"
       ],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "entity",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250.codex.md",
@@ -2955,9 +3009,11 @@
       "page": 4,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -2979,9 +3035,11 @@
       "page": 6,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -3147,9 +3205,11 @@
       "page": 20,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -3198,9 +3258,11 @@
       "page": 24,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -3258,9 +3320,10 @@
       "page": 4,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Dario",
         "Pulgar"
       ],
@@ -3698,6 +3761,7 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
+        "Entry",
         "Jose"
       ],
       "suspicious_readings": []
@@ -3817,10 +3881,17 @@
       "page": 25,
       "recommended_action": "reread-page",
       "conversion_confidence": "low",
-      "family_relevance": "high",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": [
+        {
+          "literal": "entity",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        },
         {
           "literal": "Some",
           "suspected": "Soler",
@@ -3835,9 +3906,10 @@
       "page": 301,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Dario",
         "Pulgar"
       ],
@@ -4165,9 +4237,10 @@
       "page": 3,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Dario",
         "Pulgar"
       ],
@@ -4881,9 +4954,11 @@
       "page": 12,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -5025,9 +5100,11 @@
       "page": 424,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -6719,9 +6796,11 @@
       "page": 19,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -6961,9 +7040,11 @@
       "page": 19,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -7075,9 +7156,11 @@
       "page": 8,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -7325,9 +7408,11 @@
       "page": 8,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -7497,9 +7582,11 @@
       "page": 2,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -7691,9 +7778,11 @@
       "page": 18,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -7703,9 +7792,11 @@
       "page": 19,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -7739,9 +7830,11 @@
       "page": 2,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -7933,9 +8026,11 @@
       "page": 18,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -7945,9 +8040,11 @@
       "page": 19,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -9846,7 +9943,8 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
-        "Arturo"
+        "Arturo",
+        "Registration"
       ],
       "suspicious_readings": []
     },
@@ -10227,9 +10325,11 @@
       "page": 7,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -10251,9 +10351,11 @@
       "page": 9,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -10350,7 +10452,8 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
-        "Arturo"
+        "Arturo",
+        "Registration"
       ],
       "suspicious_readings": []
     },
@@ -10383,12 +10486,20 @@
       "chunk_manifest": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-d779868400/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json",
       "page": 10,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Segundo"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "saber",
+          "suspected": "Soler",
+          "reason": "near match to known family context term `Soler`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428.codex.md",
@@ -11361,9 +11472,11 @@
       "page": 709,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -11495,9 +11608,11 @@
       "page": 720,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -11751,9 +11866,11 @@
       "page": 739,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -11775,9 +11892,11 @@
       "page": 741,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -11827,9 +11946,11 @@
       "page": 745,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -11931,9 +12052,11 @@
       "page": 753,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -11992,7 +12115,8 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
-        "Luis"
+        "Luis",
+        "Segundo"
       ],
       "suspicious_readings": []
     },
@@ -12075,9 +12199,11 @@
       "page": 764,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -12102,7 +12228,8 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
-        "Luis"
+        "Luis",
+        "Segundo"
       ],
       "suspicious_readings": [
         {
@@ -12235,9 +12362,11 @@
       "page": 776,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -12247,9 +12376,11 @@
       "page": 777,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -12271,9 +12402,11 @@
       "page": 1,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -13752,6 +13885,7 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Pulgar"
       ],
       "suspicious_readings": []
@@ -13892,6 +14026,7 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Pulgar"
       ],
       "suspicious_readings": []
@@ -14739,8 +14874,8 @@
       "suspicious_readings": [
         {
           "literal": "Ariagada",
-          "suspected": "Amagada",
-          "reason": "near match to known family context term `Amagada`"
+          "suspected": "Arriagada",
+          "reason": "near match to known family context term `Arriagada`"
         }
       ]
     },
@@ -18011,6 +18146,7 @@
       "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Dario",
         "Jose",
         "Pulgar"
@@ -18060,11 +18196,13 @@
       "page": 2,
       "recommended_action": "spot-check",
       "conversion_confidence": "medium",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [
         "many_uncertain_readings"
       ],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -18074,9 +18212,11 @@
       "page": 1,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -18086,9 +18226,11 @@
       "page": 2,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -18098,9 +18240,11 @@
       "page": 3,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -18134,9 +18278,11 @@
       "page": 1,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -18146,9 +18292,11 @@
       "page": 7,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -18168,12 +18316,20 @@
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
       "page": 9,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Entry"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "Carte",
+          "suspected": "Carmen",
+          "reason": "near match to known family context term `Carmen`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
@@ -18206,9 +18362,11 @@
       "page": 12,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -18305,6 +18463,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Birth",
         "Juan",
         "Luis"
       ],
@@ -18485,6 +18644,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Birth",
         "Juan",
         "Luis"
       ],
@@ -18614,9 +18774,11 @@
       "page": 4,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -18734,9 +18896,11 @@
       "page": 14,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Registration"
+      ],
       "suspicious_readings": []
     },
     {
@@ -19360,9 +19524,11 @@
       "page": 66,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -19726,9 +19892,11 @@
       "page": 96,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -19836,9 +20004,11 @@
       "page": 5,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Registration"
+      ],
       "suspicious_readings": []
     },
     {
@@ -19848,9 +20018,11 @@
       "page": 106,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -23466,9 +23638,11 @@
       "page": 5,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -23603,9 +23777,11 @@
       "page": 16,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -23760,6 +23936,11 @@
           "literal": "Juan",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
+        },
+        {
+          "literal": "Enero",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
         }
       ]
     },
@@ -23843,7 +24024,8 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
-        "Dios"
+        "Dios",
+        "Segundo"
       ],
       "suspicious_readings": []
     },
@@ -23878,7 +24060,8 @@
       "quality_flags": [],
       "matched_terms": [
         "Dios",
-        "Juan"
+        "Juan",
+        "Segundo"
       ],
       "suspicious_readings": [
         {
@@ -24020,7 +24203,8 @@
       "quality_flags": [],
       "matched_terms": [
         "Juan",
-        "Riquelme"
+        "Riquelme",
+        "Segundo"
       ],
       "suspicious_readings": [
         {
@@ -24119,6 +24303,11 @@
           "literal": "Juan",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
+        },
+        {
+          "literal": "Enero",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
         }
       ]
     },
@@ -24202,7 +24391,8 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
-        "Dios"
+        "Dios",
+        "Segundo"
       ],
       "suspicious_readings": []
     },
@@ -24237,7 +24427,8 @@
       "quality_flags": [],
       "matched_terms": [
         "Dios",
-        "Juan"
+        "Juan",
+        "Segundo"
       ],
       "suspicious_readings": [
         {
@@ -24379,7 +24570,8 @@
       "quality_flags": [],
       "matched_terms": [
         "Juan",
-        "Riquelme"
+        "Riquelme",
+        "Segundo"
       ],
       "suspicious_readings": [
         {
@@ -24550,16 +24742,22 @@
       "chunk_manifest": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-fe2696c2cb/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40/manifest.json",
       "page": 27,
-      "recommended_action": "spot-check",
-      "conversion_confidence": "medium",
-      "family_relevance": "medium",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [
         "explicit_reread_needed"
       ],
       "matched_terms": [
         "Mercedes"
       ],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Enero",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40.codex.md",
@@ -24589,10 +24787,12 @@
       "page": 9,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
-        "Dios"
+        "Dios",
+        "Entry",
+        "Segundo"
       ],
       "suspicious_readings": []
     },
@@ -24670,6 +24870,11 @@
         "Juan"
       ],
       "suspicious_readings": [
+        {
+          "literal": "Entre",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        },
         {
           "literal": "Juan",
           "suspected": "Juana",
@@ -24837,6 +25042,11 @@
       "matched_terms": [],
       "suspicious_readings": [
         {
+          "literal": "Enero",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        },
+        {
           "literal": "cenar",
           "suspected": "Cesar",
           "reason": "near match to known family context term `Cesar`"
@@ -24926,6 +25136,11 @@
       ],
       "suspicious_readings": [
         {
+          "literal": "ENERO",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        },
+        {
           "literal": "JUAN",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
@@ -24993,9 +25208,11 @@
       "page": 9,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -25077,12 +25294,20 @@
       "chunk_manifest": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-a64bacd7fc/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60/manifest.json",
       "page": 15,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Segundo"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "Entre",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60.codex.md",
@@ -25112,9 +25337,11 @@
       "page": 17,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -25175,6 +25402,11 @@
       "matched_terms": [],
       "suspicious_readings": [
         {
+          "literal": "Enero",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        },
+        {
           "literal": "cenar",
           "suspected": "Cesar",
           "reason": "near match to known family context term `Cesar`"
@@ -25264,6 +25496,11 @@
       ],
       "suspicious_readings": [
         {
+          "literal": "ENERO",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        },
+        {
           "literal": "JUAN",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
@@ -25331,9 +25568,11 @@
       "page": 9,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -25415,12 +25654,20 @@
       "chunk_manifest": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60/manifest.json",
       "page": 15,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Segundo"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "Entre",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60.codex.md",
@@ -25450,9 +25697,11 @@
       "page": 17,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -25534,9 +25783,11 @@
       "page": 3,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -25574,9 +25825,11 @@
       "page": 6,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -25630,12 +25883,20 @@
       "chunk_manifest": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-71548dcd50/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80/manifest.json",
       "page": 10,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Segundo"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "SOME",
+          "suspected": "Soler",
+          "reason": "near match to known family context term `Soler`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80.codex.md",
@@ -25668,12 +25929,18 @@
       "chunk_manifest": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-71548dcd50/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80/manifest.json",
       "page": 13,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "SEGUNDA",
+          "suspected": "Segundo",
+          "reason": "near match to known family context term `Segundo`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80.codex.md",
@@ -25811,6 +26078,11 @@
           "literal": "Tuvo",
           "suspected": "Tulio",
           "reason": "near match to known family context term `Tulio`"
+        },
+        {
+          "literal": "Enero",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
         }
       ]
     },
@@ -25826,6 +26098,7 @@
       "matched_terms": [
         "Arturo",
         "Dios",
+        "Entry",
         "Juan",
         "Pulgar"
       ],
@@ -25834,6 +26107,11 @@
           "literal": "Juan",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
+        },
+        {
+          "literal": "Entre",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
         },
         {
           "literal": "Darío",
@@ -25947,7 +26225,8 @@
         "explicit_reread_needed"
       ],
       "matched_terms": [
-        "Juana"
+        "Juana",
+        "Segundo"
       ],
       "suspicious_readings": [
         {
@@ -25988,7 +26267,8 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
-        "Arturo"
+        "Arturo",
+        "Segundo"
       ],
       "suspicious_readings": []
     },
@@ -26117,7 +26397,8 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
-        "Carmen"
+        "Carmen",
+        "Entry"
       ],
       "suspicious_readings": []
     },
@@ -26199,6 +26480,7 @@
         "explicit_reread_needed"
       ],
       "matched_terms": [
+        "Arriagada",
         "Dios",
         "Juan",
         "Pulgar",
@@ -26246,9 +26528,11 @@
       "page": 7,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Arriagada"
+      ],
       "suspicious_readings": []
     },
     {
@@ -26275,6 +26559,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Entry",
         "Juan",
         "Luis"
       ],
@@ -26308,6 +26593,7 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Jose"
       ],
       "suspicious_readings": []
@@ -26397,9 +26683,11 @@
       "page": 17,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -26683,6 +26971,11 @@
         "Jose"
       ],
       "suspicious_readings": [
+        {
+          "literal": "ARRIGADA",
+          "suspected": "Arriagada",
+          "reason": "near match to known family context term `Arriagada`"
+        },
         {
           "literal": "JARA",
           "suspected": "Juana",
@@ -27357,9 +27650,11 @@
       "page": 9,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Registration"
+      ],
       "suspicious_readings": []
     },
     {
@@ -27369,9 +27664,11 @@
       "page": 10,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Registration"
+      ],
       "suspicious_readings": []
     },
     {
@@ -27405,12 +27702,18 @@
       "chunk_manifest": "raw/chunks/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75/manifest.json",
       "page": 13,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "every",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75.codex.md",
@@ -27419,9 +27722,11 @@
       "page": 14,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -27429,12 +27734,20 @@
       "chunk_manifest": "raw/chunks/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75/manifest.json",
       "page": 15,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Registration"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "every",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75.codex.md",
@@ -27479,9 +27792,11 @@
       "page": 69,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Birth"
+      ],
       "suspicious_readings": []
     },
     {
@@ -27747,9 +28062,12 @@
       "page": 14,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Birth",
+        "Registration"
+      ],
       "suspicious_readings": []
     },
     {
@@ -27807,9 +28125,11 @@
       "page": 19,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Registration"
+      ],
       "suspicious_readings": []
     },
     {
@@ -27867,9 +28187,11 @@
       "page": 24,
       "recommended_action": "reread-page",
       "conversion_confidence": "low",
-      "family_relevance": "high",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Birth"
+      ],
       "suspicious_readings": [
         {
           "literal": "June",
@@ -28245,9 +28567,11 @@
       "page": 4,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -28475,9 +28799,11 @@
       "page": 298,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Registration"
+      ],
       "suspicious_readings": []
     },
     {
@@ -28583,9 +28909,11 @@
       "page": 6,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Registration"
+      ],
       "suspicious_readings": []
     },
     {
@@ -28607,9 +28935,11 @@
       "page": 8,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -28699,9 +29029,11 @@
       "page": 15,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -28714,7 +29046,8 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
-        "Jose"
+        "Jose",
+        "Registration"
       ],
       "suspicious_readings": [
         {
@@ -29079,9 +29412,11 @@
       "page": 21,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -29127,9 +29462,11 @@
       "page": 25,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -29183,6 +29520,7 @@
       "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Dario",
         "Jose",
         "Pulgar"
@@ -29199,6 +29537,7 @@
       "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Dario",
         "Jose",
         "Pulgar"
@@ -29222,12 +29561,20 @@
       "chunk_manifest": "raw/chunks/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json",
       "page": 1,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Entry"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "clear",
+          "suspected": "Cesar",
+          "reason": "near match to known family context term `Cesar`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25.codex.md",
@@ -29612,9 +29959,11 @@
       "page": 33,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Registration"
+      ],
       "suspicious_readings": []
     },
     {
@@ -29675,6 +30024,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Arturo",
         "Juan",
         "Luis"
@@ -29972,6 +30322,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan",
         "Luis"
       ],
@@ -30117,9 +30468,11 @@
       "page": 43,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Arriagada"
+      ],
       "suspicious_readings": []
     },
     {
@@ -30541,9 +30894,11 @@
       "page": 43,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Arriagada"
+      ],
       "suspicious_readings": []
     },
     {
@@ -31148,6 +31503,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Arturo",
         "Juan",
         "Luis"
@@ -31171,6 +31527,7 @@
       "quality_flags": [],
       "matched_terms": [
         "Arturo",
+        "Entry",
         "Juan",
         "Luis"
       ],
@@ -31259,6 +31616,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Arturo",
         "Juan",
         "Luis",
@@ -31575,6 +31933,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Arturo",
         "Juan",
         "Luis"
@@ -31598,6 +31957,7 @@
       "quality_flags": [],
       "matched_terms": [
         "Arturo",
+        "Entry",
         "Juan",
         "Luis"
       ],
@@ -31686,6 +32046,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Arturo",
         "Juan",
         "Luis",
@@ -32099,6 +32460,7 @@
       "quality_flags": [],
       "matched_terms": [
         "Carmen",
+        "Entry",
         "Juan"
       ],
       "suspicious_readings": [
@@ -32133,6 +32495,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Luis"
       ],
       "suspicious_readings": [
@@ -32510,6 +32873,7 @@
       "quality_flags": [],
       "matched_terms": [
         "Carmen",
+        "Entry",
         "Juan"
       ],
       "suspicious_readings": [
@@ -32544,6 +32908,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Luis"
       ],
       "suspicious_readings": [
@@ -32731,6 +33096,7 @@
       "quality_flags": [],
       "matched_terms": [
         "Arturo",
+        "Entry",
         "Juan"
       ],
       "suspicious_readings": [
@@ -32786,7 +33152,8 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
-        "Arturo"
+        "Arturo",
+        "Entry"
       ],
       "suspicious_readings": []
     },
@@ -32800,6 +33167,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan",
         "Luis",
         "Riquelme"
@@ -32827,6 +33195,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Arturo",
         "Juan"
       ],
@@ -32848,6 +33217,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan",
         "Luis"
       ],
@@ -33075,6 +33445,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Pulgar"
       ],
       "suspicious_readings": [
@@ -33351,6 +33722,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Pulgar"
       ],
       "suspicious_readings": [
@@ -34092,6 +34464,11 @@
       ],
       "suspicious_readings": [
         {
+          "literal": "Segun",
+          "suspected": "Segundo",
+          "reason": "near match to known family context term `Segundo`"
+        },
+        {
           "literal": "Solar",
           "suspected": "Soler",
           "reason": "near match to known family context term `Soler`"
@@ -34365,9 +34742,12 @@
       "page": 16,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Arriagada",
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -34375,16 +34755,23 @@
       "chunk_manifest": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-sess-7dc6e332af/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63/manifest.json",
       "page": 60,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "high",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
         "Arturo",
         "Juana",
-        "Mercedes"
+        "Mercedes",
+        "Segundo"
       ],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Berta",
+          "suspected": "Birth",
+          "reason": "near match to known family context term `Birth`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63.codex.md",
@@ -34393,9 +34780,11 @@
       "page": 61,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -34420,7 +34809,8 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
-        "Luis"
+        "Luis",
+        "Segundo"
       ],
       "suspicious_readings": [
         {
@@ -34445,6 +34835,11 @@
       ],
       "suspicious_readings": [
         {
+          "literal": "Segun",
+          "suspected": "Segundo",
+          "reason": "near match to known family context term `Segundo`"
+        },
+        {
           "literal": "Solar",
           "suspected": "Soler",
           "reason": "near match to known family context term `Soler`"
@@ -34718,9 +35113,12 @@
       "page": 16,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Arriagada",
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -34728,16 +35126,23 @@
       "chunk_manifest": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63/manifest.json",
       "page": 60,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "high",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
         "Arturo",
         "Juana",
-        "Mercedes"
+        "Mercedes",
+        "Segundo"
       ],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Berta",
+          "suspected": "Birth",
+          "reason": "near match to known family context term `Birth`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63.codex.md",
@@ -34746,9 +35151,11 @@
       "page": 61,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -34773,7 +35180,8 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
-        "Luis"
+        "Luis",
+        "Segundo"
       ],
       "suspicious_readings": [
         {
@@ -34827,6 +35235,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan"
       ],
       "suspicious_readings": [
@@ -34887,9 +35296,11 @@
       "page": 69,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Arriagada"
+      ],
       "suspicious_readings": []
     },
     {
@@ -34929,6 +35340,11 @@
           "literal": "Puga",
           "suspected": "Pulgar",
           "reason": "near match to known family context term `Pulgar`"
+        },
+        {
+          "literal": "Berta",
+          "suspected": "Birth",
+          "reason": "near match to known family context term `Birth`"
         }
       ]
     },
@@ -34942,6 +35358,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan"
       ],
       "suspicious_readings": [
@@ -34949,6 +35366,16 @@
           "literal": "Juan",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
+        },
+        {
+          "literal": "Solar",
+          "suspected": "Soler",
+          "reason": "near match to known family context term `Soler`"
+        },
+        {
+          "literal": "Carmela",
+          "suspected": "Carmen",
+          "reason": "near match to known family context term `Carmen`"
         }
       ]
     },
@@ -34996,6 +35423,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan",
         "Luis"
       ],
@@ -35004,6 +35432,11 @@
           "literal": "Juan",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
+        },
+        {
+          "literal": "Solar",
+          "suspected": "Soler",
+          "reason": "near match to known family context term `Soler`"
         }
       ]
     },
@@ -35012,14 +35445,20 @@
       "chunk_manifest": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0064-0083-anales-de-la-universidad-de-chile-sess-4e374c69b1/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0064-0083-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-64-83/manifest.json",
       "page": 76,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
         "Mercedes"
       ],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Berta",
+          "suspected": "Birth",
+          "reason": "near match to known family context term `Birth`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0064-0083-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-64-83.codex.md",
@@ -35063,6 +35502,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan",
         "Luis"
       ],
@@ -35200,6 +35640,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan"
       ],
       "suspicious_readings": [
@@ -35260,9 +35701,11 @@
       "page": 69,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Arriagada"
+      ],
       "suspicious_readings": []
     },
     {
@@ -35302,6 +35745,11 @@
           "literal": "Puga",
           "suspected": "Pulgar",
           "reason": "near match to known family context term `Pulgar`"
+        },
+        {
+          "literal": "Berta",
+          "suspected": "Birth",
+          "reason": "near match to known family context term `Birth`"
         }
       ]
     },
@@ -35315,6 +35763,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan"
       ],
       "suspicious_readings": [
@@ -35322,6 +35771,16 @@
           "literal": "Juan",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
+        },
+        {
+          "literal": "Solar",
+          "suspected": "Soler",
+          "reason": "near match to known family context term `Soler`"
+        },
+        {
+          "literal": "Carmela",
+          "suspected": "Carmen",
+          "reason": "near match to known family context term `Carmen`"
         }
       ]
     },
@@ -35369,6 +35828,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan",
         "Luis"
       ],
@@ -35377,6 +35837,11 @@
           "literal": "Juan",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
+        },
+        {
+          "literal": "Solar",
+          "suspected": "Soler",
+          "reason": "near match to known family context term `Soler`"
         }
       ]
     },
@@ -35385,14 +35850,20 @@
       "chunk_manifest": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0064-0083-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-64-83-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0064-0083-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-64-83/manifest.json",
       "page": 76,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
         "Mercedes"
       ],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Berta",
+          "suspected": "Birth",
+          "reason": "near match to known family context term `Birth`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0064-0083-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-64-83.codex.md",
@@ -35436,6 +35907,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan",
         "Luis"
       ],
@@ -35783,12 +36255,20 @@
       "chunk_manifest": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-sess-e1cd10513a/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103/manifest.json",
       "page": 96,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Arriagada"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "Solar",
+          "suspected": "Soler",
+          "reason": "near match to known family context term `Soler`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103.codex.md",
@@ -35864,9 +36344,11 @@
       "page": 101,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Arriagada"
+      ],
       "suspicious_readings": []
     },
     {
@@ -36158,12 +36640,20 @@
       "chunk_manifest": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103/manifest.json",
       "page": 96,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Arriagada"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "Solar",
+          "suspected": "Soler",
+          "reason": "near match to known family context term `Soler`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103.codex.md",
@@ -36239,9 +36729,11 @@
       "page": 101,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Arriagada"
+      ],
       "suspicious_readings": []
     },
     {
@@ -36310,6 +36802,7 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Arturo"
       ],
       "suspicious_readings": []
@@ -36356,6 +36849,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan",
         "Luis"
       ],
@@ -36448,6 +36942,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan"
       ],
       "suspicious_readings": [
@@ -36660,6 +37155,7 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Arturo"
       ],
       "suspicious_readings": []
@@ -36706,6 +37202,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan",
         "Luis"
       ],
@@ -36798,6 +37295,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan"
       ],
       "suspicious_readings": [
@@ -37555,6 +38053,7 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Luis"
       ],
       "suspicious_readings": []
@@ -37583,6 +38082,7 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Arturo"
       ],
       "suspicious_readings": []
@@ -37594,9 +38094,10 @@
       "page": 149,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juana",
         "Luis"
       ],
@@ -37867,6 +38368,7 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Luis"
       ],
       "suspicious_readings": []
@@ -37895,6 +38397,7 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Arturo"
       ],
       "suspicious_readings": []
@@ -37906,9 +38409,10 @@
       "page": 149,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juana",
         "Luis"
       ],
@@ -38328,11 +38832,17 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan",
         "Luis",
         "Mercedes"
       ],
       "suspicious_readings": [
+        {
+          "literal": "Puga",
+          "suspected": "Pulgar",
+          "reason": "near match to known family context term `Pulgar`"
+        },
         {
           "literal": "Juan",
           "suspected": "Juana",
@@ -38350,6 +38860,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan",
         "Luis"
       ],
@@ -38358,6 +38869,11 @@
           "literal": "Juan",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
+        },
+        {
+          "literal": "Puga",
+          "suspected": "Pulgar",
+          "reason": "near match to known family context term `Pulgar`"
         },
         {
           "literal": "David",
@@ -38689,11 +39205,17 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan",
         "Luis",
         "Mercedes"
       ],
       "suspicious_readings": [
+        {
+          "literal": "Puga",
+          "suspected": "Pulgar",
+          "reason": "near match to known family context term `Pulgar`"
+        },
         {
           "literal": "Juan",
           "suspected": "Juana",
@@ -38711,6 +39233,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Juan",
         "Luis"
       ],
@@ -38719,6 +39242,11 @@
           "literal": "Juan",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
+        },
+        {
+          "literal": "Puga",
+          "suspected": "Pulgar",
+          "reason": "near match to known family context term `Pulgar`"
         },
         {
           "literal": "David",
@@ -39651,6 +40179,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Entry",
         "Juan"
       ],
       "suspicious_readings": [
@@ -39945,6 +40474,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Entry",
         "Juan"
       ],
       "suspicious_readings": [
@@ -40350,6 +40880,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Entry",
         "Juan",
         "Luis"
       ],
@@ -40366,12 +40897,18 @@
       "chunk_manifest": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-sess-79a99d597b/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/manifest.json",
       "page": 258,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "seguro",
+          "suspected": "Segundo",
+          "reason": "near match to known family context term `Segundo`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263.codex.md",
@@ -40614,6 +41151,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Entry",
         "Juan",
         "Luis"
       ],
@@ -40630,12 +41168,18 @@
       "chunk_manifest": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/manifest.json",
       "page": 258,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "seguro",
+          "suspected": "Segundo",
+          "reason": "near match to known family context term `Segundo`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263.codex.md",
@@ -40776,9 +41320,11 @@
       "page": 7,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -40872,9 +41418,11 @@
       "page": 15,
       "recommended_action": "reread-page",
       "conversion_confidence": "low",
-      "family_relevance": "high",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": [
         {
           "literal": "Darío",
@@ -40890,9 +41438,11 @@
       "page": 16,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -40902,9 +41452,11 @@
       "page": 17,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -40914,9 +41466,11 @@
       "page": 18,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -40998,9 +41552,11 @@
       "page": 5,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -41046,9 +41602,11 @@
       "page": 9,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -41120,12 +41678,20 @@
       "chunk_manifest": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-sess-9553e5193c/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json",
       "page": 5,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Segundo"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "dado",
+          "suspected": "Dario",
+          "reason": "near match to known family context term `Dario`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303.codex.md",
@@ -41244,12 +41810,20 @@
       "chunk_manifest": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json",
       "page": 5,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Segundo"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "dado",
+          "suspected": "Dario",
+          "reason": "near match to known family context term `Dario`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303.codex.md",
@@ -41847,9 +42421,11 @@
       "page": 17,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -42307,9 +42883,11 @@
       "page": 380,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -42367,9 +42945,11 @@
       "page": 385,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -42427,9 +43007,11 @@
       "page": 11,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -43285,7 +43867,8 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
-        "Luis"
+        "Luis",
+        "Segundo"
       ],
       "suspicious_readings": []
     },
@@ -43320,9 +43903,11 @@
       "page": 4,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -43349,6 +43934,7 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
+        "Entry",
         "Juana"
       ],
       "suspicious_readings": []
@@ -43475,9 +44061,11 @@
       "page": 544,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -43523,9 +44111,11 @@
       "page": 20,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -43607,10 +44197,12 @@
       "page": 555,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
-        "Luis"
+        "Arriagada",
+        "Luis",
+        "Segundo"
       ],
       "suspicious_readings": []
     },
@@ -43695,9 +44287,11 @@
       "page": 562,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -43736,7 +44330,8 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
-        "Luis"
+        "Luis",
+        "Segundo"
       ],
       "suspicious_readings": []
     },
@@ -43991,9 +44586,11 @@
       "page": 610,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -44759,9 +45356,11 @@
       "page": 21,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -44833,9 +45432,11 @@
       "page": 730,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -44863,9 +45464,11 @@
       "page": 732,
       "recommended_action": "reread-page",
       "conversion_confidence": "low",
-      "family_relevance": "high",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": [
         {
           "literal": "Solar",
@@ -44893,9 +45496,11 @@
       "page": 734,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -45411,9 +46016,11 @@
       "page": 802,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -45626,9 +46233,11 @@
       "page": 868,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -45859,9 +46468,11 @@
       "page": 911,
       "recommended_action": "reread-page",
       "conversion_confidence": "low",
-      "family_relevance": "high",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": [
         {
           "literal": "Casas",
@@ -45899,12 +46510,18 @@
       "chunk_manifest": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0904-0928-anales-de-la-universidad-de-chile-sess-0d89399e0d/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0904-0928-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-904-928/manifest.json",
       "page": 914,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Enero",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0904-0928-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-904-928.codex.md",
@@ -46126,9 +46743,11 @@
       "page": 1031,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -46174,9 +46793,11 @@
       "page": 1035,
       "recommended_action": "reread-page",
       "conversion_confidence": "low",
-      "family_relevance": "high",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": [
         {
           "literal": "cutar",
@@ -46502,9 +47123,11 @@
       "page": 1061,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -46682,9 +47305,11 @@
       "page": 1076,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -46808,9 +47433,11 @@
       "page": 1086,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -46820,9 +47447,11 @@
       "page": 1087,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -47042,9 +47671,11 @@
       "page": 1130,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -47162,9 +47793,11 @@
       "page": 1140,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -47186,9 +47819,11 @@
       "page": 1142,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -47270,9 +47905,11 @@
       "page": 1149,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -47338,9 +47975,11 @@
       "page": 1154,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -47374,9 +48013,11 @@
       "page": 1157,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -47470,9 +48111,11 @@
       "page": 1165,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -47794,9 +48437,11 @@
       "page": 14,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -47962,12 +48607,18 @@
       "chunk_manifest": "raw/chunks/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50/manifest.json",
       "page": 2,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Enero",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50.codex.md",
@@ -48052,12 +48703,23 @@
       "chunk_manifest": "raw/chunks/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50/manifest.json",
       "page": 9,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Estoy",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        },
+        {
+          "literal": "seguro",
+          "suspected": "Segundo",
+          "reason": "near match to known family context term `Segundo`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50.codex.md",
@@ -48588,9 +49250,11 @@
       "page": 3,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -48670,12 +49334,18 @@
       "chunk_manifest": "raw/chunks/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/manifest.json",
       "page": 10,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Envoy",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125.codex.md",
@@ -49204,9 +49874,11 @@
       "page": 2,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -49432,12 +50104,20 @@
       "chunk_manifest": "raw/chunks/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/manifest.json",
       "page": 19,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Segundo"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "Segun",
+          "suspected": "Segundo",
+          "reason": "near match to known family context term `Segundo`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175.codex.md",
@@ -49839,9 +50519,11 @@
       "page": 24,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -50065,9 +50747,11 @@
       "page": 17,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -50092,6 +50776,7 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
+        "Entry",
         "Jose"
       ],
       "suspicious_readings": []
@@ -50106,7 +50791,8 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
-        "Arturo"
+        "Arturo",
+        "Entry"
       ],
       "suspicious_readings": []
     },
@@ -50146,7 +50832,8 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
-        "Arturo"
+        "Arturo",
+        "Entry"
       ],
       "suspicious_readings": []
     },
@@ -50381,12 +51068,14 @@
       "page": 15,
       "recommended_action": "spot-check",
       "conversion_confidence": "medium",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [
         "encoding_mojibake",
         "many_uncertain_readings"
       ],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -52282,9 +52971,11 @@
       "page": 13,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -52692,36 +53383,54 @@
       "chunk_manifest": "raw/chunks/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/manifest.json",
       "page": 21,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Enero",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450.codex.md",
       "chunk_manifest": "raw/chunks/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/manifest.json",
       "page": 22,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Enero",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450.codex.md",
       "chunk_manifest": "raw/chunks/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/manifest.json",
       "page": 23,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Enero",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450.codex.md",
@@ -52972,9 +53681,11 @@
       "page": 19,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Birth"
+      ],
       "suspicious_readings": []
     },
     {
@@ -53012,13 +53723,19 @@
       "quality_flags": [],
       "matched_terms": [
         "Juan",
-        "Luis"
+        "Luis",
+        "Segundo"
       ],
       "suspicious_readings": [
         {
           "literal": "Juan",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
+        },
+        {
+          "literal": "Enri",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
         }
       ]
     },
@@ -53053,9 +53770,11 @@
       "page": 25,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -53069,13 +53788,19 @@
       "quality_flags": [],
       "matched_terms": [
         "Juan",
-        "Luis"
+        "Luis",
+        "Segundo"
       ],
       "suspicious_readings": [
         {
           "literal": "Juan",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
+        },
+        {
+          "literal": "Enri",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
         }
       ]
     },
@@ -53156,12 +53881,20 @@
       "chunk_manifest": "raw/chunks/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50/manifest.json",
       "page": 8,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Entry"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "ARTERA",
+          "suspected": "Arturo",
+          "reason": "near match to known family context term `Arturo`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50.codex.md",
@@ -53182,9 +53915,11 @@
       "page": 10,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -53513,9 +54248,11 @@
       "page": 56,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -53637,6 +54374,11 @@
       ],
       "suspicious_readings": [
         {
+          "literal": "Entre",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        },
+        {
           "literal": "Juan",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
@@ -53665,7 +54407,8 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
-        "Dios"
+        "Dios",
+        "Segundo"
       ],
       "suspicious_readings": []
     },
@@ -53698,12 +54441,23 @@
       "chunk_manifest": "raw/chunks/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75/manifest.json",
       "page": 68,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "estoy",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        },
+        {
+          "literal": "seguro",
+          "suspected": "Segundo",
+          "reason": "near match to known family context term `Segundo`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75.codex.md",
@@ -53720,6 +54474,11 @@
           "literal": "cular",
           "suspected": "Cesar",
           "reason": "near match to known family context term `Cesar`"
+        },
+        {
+          "literal": "estoy",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
         }
       ]
     },
@@ -53728,24 +54487,36 @@
       "chunk_manifest": "raw/chunks/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75/manifest.json",
       "page": 70,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "estoy",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75.codex.md",
       "chunk_manifest": "raw/chunks/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75/manifest.json",
       "page": 71,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Estoy",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75.codex.md",
@@ -53794,12 +54565,23 @@
       "chunk_manifest": "raw/chunks/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75/manifest.json",
       "page": 75,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Estoy",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        },
+        {
+          "literal": "seguro",
+          "suspected": "Segundo",
+          "reason": "near match to known family context term `Segundo`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100.codex.md",
@@ -53956,12 +54738,18 @@
       "chunk_manifest": "raw/chunks/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/manifest.json",
       "page": 88,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "estoy",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100.codex.md",
@@ -53975,6 +54763,16 @@
       "matched_terms": [],
       "suspicious_readings": [
         {
+          "literal": "estoy",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        },
+        {
+          "literal": "Entre",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        },
+        {
           "literal": "saber",
           "suspected": "Soler",
           "reason": "near match to known family context term `Soler`"
@@ -53986,24 +54784,38 @@
       "chunk_manifest": "raw/chunks/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/manifest.json",
       "page": 90,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "estoy",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100.codex.md",
       "chunk_manifest": "raw/chunks/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/manifest.json",
       "page": 91,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Segundo"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "tuvo",
+          "suspected": "Tulio",
+          "reason": "near match to known family context term `Tulio`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100.codex.md",
@@ -54376,9 +55188,11 @@
       "page": 119,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -54388,9 +55202,11 @@
       "page": 120,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -54434,12 +55250,18 @@
       "chunk_manifest": "raw/chunks/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125/manifest.json",
       "page": 123,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Entre",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125.codex.md",
@@ -54564,12 +55386,23 @@
       "chunk_manifest": "raw/chunks/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/manifest.json",
       "page": 133,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "estoy",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        },
+        {
+          "literal": "seguro",
+          "suspected": "Segundo",
+          "reason": "near match to known family context term `Segundo`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150.codex.md",
@@ -54689,6 +55522,11 @@
       "quality_flags": [],
       "matched_terms": [],
       "suspicious_readings": [
+        {
+          "literal": "seguido",
+          "suspected": "Segundo",
+          "reason": "near match to known family context term `Segundo`"
+        },
         {
           "literal": "saber",
           "suspected": "Soler",
@@ -54845,12 +55683,20 @@
       "chunk_manifest": "raw/chunks/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175/manifest.json",
       "page": 153,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Segundo"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "estoy",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175.codex.md",
@@ -54930,6 +55776,11 @@
       "matched_terms": [],
       "suspicious_readings": [
         {
+          "literal": "Estoy",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        },
+        {
           "literal": "dado",
           "suspected": "Dario",
           "reason": "near match to known family context term `Dario`"
@@ -54971,15 +55822,21 @@
       "chunk_manifest": "raw/chunks/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175/manifest.json",
       "page": 162,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
         "Luis",
         "Mercedes"
       ],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Entre",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175.codex.md",
@@ -54992,7 +55849,8 @@
       "quality_flags": [],
       "matched_terms": [
         "Luis",
-        "Mercedes"
+        "Mercedes",
+        "Segundo"
       ],
       "suspicious_readings": [
         {
@@ -55027,7 +55885,8 @@
       "quality_flags": [],
       "matched_terms": [
         "Juan",
-        "Luis"
+        "Luis",
+        "Segundo"
       ],
       "suspicious_readings": [
         {
@@ -55116,9 +55975,11 @@
       "page": 171,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -55362,9 +56223,11 @@
       "page": 189,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -55422,12 +56285,18 @@
       "chunk_manifest": "raw/chunks/ca7e42bb85-s522bis-29-3-p0176-0200-s522bis-29-3-pages-176-200-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0176-0200-s522bis-29-3-pages-176-200/manifest.json",
       "page": 194,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "estoy",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0176-0200-s522bis-29-3-pages-176-200.codex.md",
@@ -55436,9 +56305,11 @@
       "page": 20,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -55520,9 +56391,11 @@
       "page": 202,
       "recommended_action": "reread-page",
       "conversion_confidence": "low",
-      "family_relevance": "high",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": [
         {
           "literal": "dado",
@@ -55778,12 +56651,18 @@
       "chunk_manifest": "raw/chunks/ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225/manifest.json",
       "page": 223,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "seguido",
+          "suspected": "Segundo",
+          "reason": "near match to known family context term `Segundo`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225.codex.md",
@@ -58846,9 +59725,11 @@
       "page": 603,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -58884,9 +59765,11 @@
       "page": 606,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -58896,9 +59779,11 @@
       "page": 607,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -58946,9 +59831,11 @@
       "page": 611,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -59102,9 +59989,11 @@
       "page": 624,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -59684,9 +60573,11 @@
       "page": 1143,
       "recommended_action": "reread-page",
       "conversion_confidence": "low",
-      "family_relevance": "high",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": [
         {
           "literal": "dado",
@@ -59750,9 +60641,11 @@
       "page": 1148,
       "recommended_action": "reread-page",
       "conversion_confidence": "low",
-      "family_relevance": "high",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": [
         {
           "literal": "duro",
@@ -59780,9 +60673,11 @@
       "page": 1307,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -60121,12 +61016,25 @@
       "chunk_manifest": "raw/chunks/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
       "page": 1,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Segundo"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "Tokio",
+          "suspected": "Tulio",
+          "reason": "near match to known family context term `Tulio`"
+        },
+        {
+          "literal": "dando",
+          "suspected": "Dario",
+          "reason": "near match to known family context term `Dario`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75.codex.md",
@@ -60181,9 +61089,11 @@
       "page": 5,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -60565,9 +61475,11 @@
       "page": 8,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -60826,6 +61738,7 @@
       "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Dario",
         "Jose",
         "Pulgar"
@@ -60842,6 +61755,7 @@
       "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Dario",
         "Jose",
         "Pulgar"
@@ -60870,13 +61784,17 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
+        "Birth",
         "Carmen",
         "Jose",
         "Juan",
         "Juana",
         "Luis",
         "Pulgar",
-        "Riquelme"
+        "Registration",
+        "Riquelme",
+        "Segundo"
       ],
       "suspicious_readings": [
         {
@@ -60896,13 +61814,17 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
+        "Birth",
         "Carmen",
         "Jose",
         "Juan",
         "Juana",
         "Luis",
         "Pulgar",
-        "Riquelme"
+        "Registration",
+        "Riquelme",
+        "Segundo"
       ],
       "suspicious_readings": [
         {
@@ -60992,6 +61914,7 @@
       "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Dario",
         "Jose",
         "Pulgar"
@@ -61812,7 +62735,8 @@
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
-        "Luis"
+        "Luis",
+        "Segundo"
       ],
       "suspicious_readings": []
     },
@@ -61859,9 +62783,11 @@
       "page": 93,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -62073,9 +62999,11 @@
       "page": 135,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -62133,9 +63061,11 @@
       "page": 140,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -62181,9 +63111,11 @@
       "page": 144,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -62315,9 +63247,11 @@
       "page": 155,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -62337,12 +63271,20 @@
       "chunk_manifest": "raw/chunks/cad4c3ff34-r4946-12-33387-8070-p0151-0175-r4946-12-33387-8070-pages-151-175-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0151-0175-r4946-12-33387-8070-pages-151-175/manifest.json",
       "page": 157,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Segundo"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "tubo",
+          "suspected": "Tulio",
+          "reason": "near match to known family context term `Tulio`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/cad4c3ff34-r4946-12-33387-8070-p0151-0175-r4946-12-33387-8070-pages-151-175.codex.md",
@@ -62363,9 +63305,11 @@
       "page": 159,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -62399,9 +63343,11 @@
       "page": 162,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -62445,12 +63391,20 @@
       "chunk_manifest": "raw/chunks/cad4c3ff34-r4946-12-33387-8070-p0151-0175-r4946-12-33387-8070-pages-151-175-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0151-0175-r4946-12-33387-8070-pages-151-175/manifest.json",
       "page": 166,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
-      "matched_terms": [],
-      "suspicious_readings": []
+      "matched_terms": [
+        "Segundo"
+      ],
+      "suspicious_readings": [
+        {
+          "literal": "crear",
+          "suspected": "Cesar",
+          "reason": "near match to known family context term `Cesar`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/cad4c3ff34-r4946-12-33387-8070-p0151-0175-r4946-12-33387-8070-pages-151-175.codex.md",
@@ -62462,7 +63416,8 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
-        "Dios"
+        "Dios",
+        "Segundo"
       ],
       "suspicious_readings": [
         {
@@ -62479,9 +63434,11 @@
       "page": 168,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -62641,9 +63598,11 @@
       "page": 181,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -62749,9 +63708,11 @@
       "page": 190,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -62883,9 +63844,11 @@
       "page": 1,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Registration"
+      ],
       "suspicious_readings": []
     },
     {
@@ -62898,6 +63861,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Luis",
         "Pulgar"
       ],
@@ -62919,6 +63883,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "Luis",
         "Pulgar"
       ],
@@ -62937,9 +63902,11 @@
       "page": 1,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -65939,10 +66906,11 @@
       "page": 1,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "medium",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
         "Dario",
+        "Entry",
         "Pulgar"
       ],
       "suspicious_readings": []
@@ -66046,9 +67014,11 @@
       "page": 3,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Entry"
+      ],
       "suspicious_readings": []
     },
     {
@@ -66655,6 +67625,11 @@
       ],
       "suspicious_readings": [
         {
+          "literal": "Entre",
+          "suspected": "Entry",
+          "reason": "near match to known family context term `Entry`"
+        },
+        {
           "literal": "Juan",
           "suspected": "Juana",
           "reason": "near match to known family context term `Juana`"
@@ -67083,9 +68058,11 @@
       "page": 12,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {
@@ -67526,9 +68503,11 @@
       "page": 298,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "none",
+      "family_relevance": "medium",
       "quality_flags": [],
-      "matched_terms": [],
+      "matched_terms": [
+        "Segundo"
+      ],
       "suspicious_readings": []
     },
     {

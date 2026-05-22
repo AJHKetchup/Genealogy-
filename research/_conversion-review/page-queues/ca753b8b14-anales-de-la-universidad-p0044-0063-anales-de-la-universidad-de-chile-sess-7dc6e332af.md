@@ -62,10 +62,18 @@
 - Quality flags: none
 - Matched family context: Juan, Luis
 
+### Page 60
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Arturo, Juana, Mercedes, Segundo
+
 ### Page 63
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Luis
+- Matched family context: Luis, Segundo

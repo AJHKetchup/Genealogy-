@@ -12,7 +12,7 @@
 | 2 | critical | low | reread-page | none | Dios, Juan, knowledge |
 | 3 | critical | low | reread-page | none | Dios, Juan |
 | 4 | critical | low | reread-page | none | Dios, Juan, Pulgar |
-| 5 | critical | low | reread-page | none | Juan, Luis |
+| 5 | critical | low | reread-page | none | Birth, Juan, Luis |
 | 6 | critical | low | reread-page | none | Dios, Juan |
 | 7 | medium | high | pass | none | Luis |
 | 8 | medium | high | pass | none | Arturo |

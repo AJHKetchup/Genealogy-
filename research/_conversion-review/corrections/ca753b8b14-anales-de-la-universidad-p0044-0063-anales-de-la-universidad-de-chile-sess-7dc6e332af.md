@@ -6,6 +6,11 @@
 
 ## Suspected Readings
 
+- Literal converted text: `Segun`
+  Suspected reading: `Segundo`
+  Reason: near match to known family context term `Segundo`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Solar`
   Suspected reading: `Soler`
   Reason: near match to known family context term `Soler`
@@ -69,6 +74,11 @@
 - Literal converted text: `Juan`
   Suspected reading: `Juana`
   Reason: near match to known family context term `Juana`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Berta`
+  Suspected reading: `Birth`
+  Reason: near match to known family context term `Birth`
   Verification target: reread the page image or exact region before using this in a claim.
 
 - Literal converted text: `Puga`

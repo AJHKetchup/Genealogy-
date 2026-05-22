@@ -19,12 +19,12 @@
 | 69 | medium | high | pass | none | Arturo, Luis |
 | 70 | critical | low | reread-page | none | Arturo, Juana |
 | 71 | medium | high | pass | none | Carmen, Luis |
-| 72 | critical | low | reread-page | none | Arturo, Juan, Luis |
-| 73 | critical | low | reread-page | none | Arturo, Juan, Luis |
+| 72 | critical | low | reread-page | none | Arriagada, Arturo, Juan, Luis |
+| 73 | critical | low | reread-page | none | Arturo, Entry, Juan, Luis |
 | 74 | critical | low | reread-page | none | Arturo, Luis, Mercedes, Riquelme |
 | 75 | high | high | pass | none | Luis, Riquelme, Tulio |
 | 76 | critical | low | reread-page | none | Arturo, John, Juan, Luis |
-| 17 | critical | low | reread-page | none | Arturo, Juan, Luis, Pulgar |
+| 17 | critical | low | reread-page | none | Arriagada, Arturo, Juan, Luis, Pulgar |
 | 78 | medium | high | pass | none | Carmen |
 | 19 | critical | low | reread-page | none | Juan, Luis, Riquelme |
 | 80 | critical | low | reread-page | none | Heinz, Juan, Luis, Riquelme |

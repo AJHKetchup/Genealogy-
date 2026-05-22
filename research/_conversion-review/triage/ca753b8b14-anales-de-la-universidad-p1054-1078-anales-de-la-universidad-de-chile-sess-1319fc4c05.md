@@ -15,7 +15,7 @@
 | 1058 | none | high | pass | none | none |
 | 1059 | none | high | pass | none | none |
 | 1060 | none | high | pass | none | none |
-| 1061 | none | high | pass | none | none |
+| 1061 | medium | high | pass | none | Segundo |
 | 1062 | none | high | pass | none | none |
 | 1063 | none | high | pass | none | none |
 | 1064 | none | high | pass | none | none |
@@ -30,6 +30,6 @@
 | 1073 | none | high | pass | none | none |
 | 1074 | none | high | pass | none | none |
 | 1075 | none | high | pass | none | none |
-| 1076 | none | high | pass | none | none |
+| 1076 | medium | high | pass | none | Segundo |
 | 1077 | high | low | reread-page | none | none |
 | 1078 | none | high | pass | none | none |

@@ -16,5 +16,6 @@ promotion_recommendation: revise_before_review
 
 - Literal support for 1917: `in 1917 he was named Director of the San Juan de Dios Hospital in Concepción`.
 - Literal support for 1920: `In 1920, he was appointed Director of the Hospital San Juan de Dios in Concepción.`
-- Conversion confidence/QA concern: low until reread; controller flagged `qc:reread-page`, and the assigned chunk includes page 3 content after the page 2 transcription.
-- Uncertainty: The statements may represent two separate appointments, a translation/conversion problem, or an article-level chronology issue. Do not promote either directorship date without review.
+- Image reread: The rendered source page 2 image confirms that both date statements are present on page 2.
+- Conversion confidence/QA concern: medium-high for literal wording after image reread; the assigned chunk still includes page 3 content after the page 2 transcription, but that does not affect this page 2 conflict note.
+- Uncertainty: The statements may represent two separate appointments, a machine-translation issue, or an article-level chronology issue. Do not promote either directorship date without review of the cited sources or broader article context.

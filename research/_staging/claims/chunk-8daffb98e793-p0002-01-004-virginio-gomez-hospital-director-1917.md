@@ -18,5 +18,6 @@ promotion_recommendation: revise_before_review
 # Claim: Virginio Gomez Hospital Directorship, 1917
 
 - Literal support: `in 1917 he was named Director of the San Juan de Dios Hospital in Concepción`.
-- Conversion confidence/QA concern: low until reread; the same paragraph also states that in 1920 he was appointed Director of the Hospital San Juan de Dios in Concepcion, creating a chronology conflict or possible duplicate appointment.
+- Image reread: The rendered source page 2 image confirms the 1917 directorship wording.
+- Conversion confidence/QA concern: medium-high for the literal wording after image reread; however, the same paragraph also states that in 1920 he was appointed Director of the Hospital San Juan de Dios in Concepcion, creating a chronology conflict or possible duplicate appointment.
 - Uncertainty: The 1917 and 1920 statements may refer to different appointment actions, but the distinction is not clear in this chunk.

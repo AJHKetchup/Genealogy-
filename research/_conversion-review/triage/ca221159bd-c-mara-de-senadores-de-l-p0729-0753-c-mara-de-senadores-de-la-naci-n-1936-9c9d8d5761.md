@@ -18,13 +18,13 @@
 | 736 | critical | low | reread-page | none | Luis |
 | 737 | none | high | pass | none | none |
 | 738 | none | high | pass | none | none |
-| 739 | none | high | pass | none | none |
+| 739 | medium | high | pass | none | Segundo |
 | 740 | none | high | pass | none | none |
-| 741 | none | high | pass | none | none |
+| 741 | medium | high | pass | none | Segundo |
 | 14 | medium | high | pass | none | Luis |
 | 743 | medium | high | pass | none | Dios |
 | 744 | none | high | pass | none | none |
-| 745 | none | high | pass | none | none |
+| 745 | medium | high | pass | none | Segundo |
 | 746 | none | high | pass | none | none |
 | 747 | none | high | pass | none | none |
 | 748 | none | high | pass | none | none |
@@ -32,4 +32,4 @@
 | 750 | none | high | pass | none | none |
 | 751 | high | low | reread-page | none | none |
 | 24 | none | high | pass | none | none |
-| 753 | none | high | pass | none | none |
+| 753 | medium | high | pass | none | Segundo |

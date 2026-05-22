@@ -12,9 +12,20 @@ Use `$genealogy-claim-extraction`.
 - Page range: 2-2
 - Staging area: `research/_staging`
 - Family relevance: `critical`
-- Matched family terms: Dios, Juan, knowledge
-- Evidence priority: `2` (family_relevance:critical, qc:reread-page, matched_terms)
+- Matched family terms: Dios, Juan, chunk, knowledge
+- Evidence priority: `-698` (family_relevance:critical, qc:reread-page, matched_terms, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/proof-review-claim-chunk-8daffb98e793-p0002-01-001-virginio-gomez-birth-year-postconv-proof-review-20260522122400775.md` | `research/_staging/claims/chunk-8daffb98e793-p0002-01-001-virginio-gomez-birth-year.md` | `hold_for_conversion_qa` | Restore or locate the rendered page 2 source image or raw PDF, reread the specific sentence against the visible source, and then promote only a birth-year claim if the wording is confirmed. Keep full birth date, full name normalization, and any family relationships out of canonical records unless separately supported. |
+| `research/_staging/reviews/proof-review-claim-chunk-8daffb98e793-p0002-01-002-virginio-gomez-birth-place-postconv-proof-review-20260522122744309.md` | `research/_staging/claims/chunk-8daffb98e793-p0002-01-002-virginio-gomez-birth-place.md` | `hold_for_conversion_qa` | Run conversion QA or page-boundary cleanup for `CHUNK-8daffb98e793-P0002-01`. After QA, this claim can be considered for cautious promotion as a literal birth-place claim from a secondary source, with any normalized place value reviewed separately. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Done When

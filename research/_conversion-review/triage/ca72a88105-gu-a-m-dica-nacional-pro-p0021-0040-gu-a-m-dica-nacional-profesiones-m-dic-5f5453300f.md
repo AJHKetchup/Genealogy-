@@ -10,7 +10,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 21 | critical | low | reread-page | none | Dios, Juan, Luis |
 | 22 | critical | low | reread-page | none | Juan, Luis |
-| 23 | critical | low | reread-page | none | Arturo, Juan, Luis |
+| 23 | critical | low | reread-page | none | Arriagada, Arturo, Juan, Luis |
 | 24 | critical | low | reread-page | none | Carmen, Juan, Luis |
 | 25 | critical | low | reread-page | none | Juan, Luis |
 | 26 | critical | low | reread-page | none | Juan, Luis |
@@ -24,7 +24,7 @@
 | 34 | critical | low | reread-page | none | Juan, Luis |
 | 35 | critical | low | reread-page | none | Juan, Luis, Smith |
 | 36 | critical | low | reread-page | none | Juan, Luis |
-| 37 | critical | low | reread-page | none | Juan, Luis |
+| 37 | critical | low | reread-page | none | Arriagada, Juan, Luis |
 | 38 | critical | low | reread-page | none | Arturo, Juan, Luis, Riquelme |
 | 39 | critical | low | reread-page | none | Arturo, Carmen, Juan, Luis, Riquelme |
 | 40 | critical | low | reread-page | none | Juan, Luis |

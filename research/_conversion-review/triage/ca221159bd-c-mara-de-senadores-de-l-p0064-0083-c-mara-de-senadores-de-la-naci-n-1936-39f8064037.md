@@ -9,7 +9,7 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
-| 2 | none | high | pass | none | none |
+| 2 | medium | high | pass | none | Entry |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
@@ -25,6 +25,6 @@
 | 15 | none | high | pass | none | none |
 | 16 | medium | high | pass | none | Cesar |
 | 17 | none | high | pass | none | none |
-| 18 | none | high | pass | none | none |
-| 19 | none | high | pass | none | none |
+| 18 | medium | high | pass | none | Segundo |
+| 19 | medium | high | pass | none | Segundo |
 | 20 | none | high | pass | none | none |

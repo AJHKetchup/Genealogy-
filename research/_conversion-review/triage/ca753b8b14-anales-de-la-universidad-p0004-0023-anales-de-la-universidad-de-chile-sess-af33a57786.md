@@ -15,7 +15,7 @@
 | 5 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
-| 11 | critical | low | reread-page | none | Pulgar |
+| 11 | critical | low | reread-page | none | Arriagada, Pulgar |
 | 12 | medium | high | pass | none | Luis |
 | 13 | critical | low | reread-page | none | Juan |
 | 14 | none | high | pass | none | none |

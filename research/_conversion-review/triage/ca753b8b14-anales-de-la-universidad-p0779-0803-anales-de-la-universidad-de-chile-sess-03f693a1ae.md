@@ -31,5 +31,5 @@
 | 799 | none | high | pass | none | none |
 | 800 | none | high | pass | none | none |
 | 801 | none | high | pass | none | none |
-| 802 | none | high | pass | none | none |
+| 802 | medium | high | pass | none | Segundo |
 | 803 | none | high | pass | none | none |

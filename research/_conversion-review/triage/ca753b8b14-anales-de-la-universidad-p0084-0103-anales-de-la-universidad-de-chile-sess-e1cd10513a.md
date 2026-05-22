@@ -20,11 +20,11 @@
 | 93 | critical | low | reread-page | none | Luis |
 | 94 | critical | low | reread-page | none | Arturo, Luis |
 | 95 | critical | low | reread-page | none | Juan |
-| 96 | none | high | pass | none | none |
+| 96 | critical | low | reread-page | none | Arriagada |
 | 97 | medium | high | pass | none | Arturo, Mercedes |
 | 98 | none | high | pass | none | none |
 | 99 | critical | low | reread-page | none | Luis |
 | 100 | critical | low | reread-page | none | Juan |
-| 101 | none | high | pass | none | none |
+| 101 | medium | high | pass | none | Arriagada |
 | 102 | medium | high | pass | none | Arturo, Luis |
 | 103 | critical | low | reread-page | none | Luis |

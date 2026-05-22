@@ -24,7 +24,7 @@
 | 14 | none | high | pass | none | none |
 | 15 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
-| 17 | none | high | pass | none | none |
+| 17 | medium | high | pass | none | Segundo |
 | 18 | critical | low | reread-page | none | Dios, Juan |
 | 19 | critical | low | reread-page | none | Dios, Juan |
 | 20 | medium | high | pass | none | Dios |

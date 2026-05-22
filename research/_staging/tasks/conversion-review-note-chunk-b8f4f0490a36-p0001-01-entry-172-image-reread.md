@@ -2,7 +2,7 @@
 type: conversion_review_note
 status: draft
 task_id: evidence-extraction:CHUNK-b8f4f0490a36-P0001-01
-worker: postconv-evidence-extraction-20260522120357153
+worker: postconv-evidence-extraction-20260522123418829
 source: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png"
 source_sha256: aa0e304338ce3e1bf5ae9a1c695a405c862eb81fba66361d1874b7ca9da981b2
 converted_file: "raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172.codex.md"
@@ -15,7 +15,7 @@ promotion_recommendation: hold_for_conversion_qa
 
 # Conversion Review Note: Entry 172 Image Reread
 
-The original page image was present at the correctly encoded source path and was reread for entry 172 on register page 58. This revision confirms the prior image-reread conclusion and keeps the derivative-transcript/image disagreement explicit.
+The original page image was present at the correctly encoded source path and was reread for entry 172 on register page 58. This revision confirms the prior image-reread conclusion for worker `postconv-evidence-extraction-20260522123418829` and keeps the derivative-transcript/image disagreement explicit.
 
 ## Agreements With Converted Transcript
 

@@ -10,10 +10,10 @@
 | --- | --- | --- | --- | --- | --- |
 | 144 | medium | high | pass | none | Luis |
 | 145 | critical | low | reread-page | none | Luis |
-| 146 | medium | high | pass | none | Luis |
+| 146 | medium | high | pass | none | Arriagada, Luis |
 | 147 | medium | high | pass | none | Mercedes |
-| 148 | medium | high | pass | none | Arturo |
-| 149 | medium | high | pass | none | Juana, Luis |
+| 148 | medium | high | pass | none | Arriagada, Arturo |
+| 149 | high | high | pass | none | Arriagada, Juana, Luis |
 | 150 | medium | high | pass | none | Juana |
 | 151 | medium | high | pass | none | Arturo |
 | 152 | critical | low | reread-page | none | Arturo, Juan |

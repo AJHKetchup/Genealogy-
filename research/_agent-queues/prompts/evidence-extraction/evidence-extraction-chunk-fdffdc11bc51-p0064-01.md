@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf`
 - Page range: 64-64
 - Staging area: `research/_staging`
-- Family relevance: `medium`
-- Matched family terms: maternal
-- Evidence priority: `2064` (family_relevance:medium, qc:spot-check, matched_terms)
+- Family relevance: `high`
+- Matched family terms: Segundo, chunk, maternal
+- Evidence priority: `1064` (family_relevance:high, qc:spot-check, matched_terms)
 
 
 

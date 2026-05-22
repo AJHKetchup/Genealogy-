@@ -40,9 +40,9 @@
 
 ### Page 27
 
-- Recommended action: `spot-check`
-- Conversion confidence: `medium`
-- Family relevance: `medium`
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
 - Quality flags: explicit_reread_needed
 - Matched family context: Mercedes
 

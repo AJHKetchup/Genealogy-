@@ -12,9 +12,9 @@
 | 285 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
-| 5 | none | high | pass | none | none |
+| 5 | medium | high | pass | none | Segundo |
 | 6 | none | high | pass | none | none |
 | 290 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
-| 9 | none | high | pass | none | none |
+| 9 | medium | high | pass | none | Segundo |
 | 10 | none | high | pass | none | none |

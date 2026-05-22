@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 4-4
 - Staging area: `research/_staging`
 - Family relevance: `high`
-- Matched family terms: Arturo, Dario, Pulgar
+- Matched family terms: Arturo, Dario, Pulgar, chunk
 - Evidence priority: `1004` (family_relevance:high, qc:reread-page, matched_terms)
 
 

@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Geneva Convention of July 27, 1929, Amelioration of the Condition of the Wounded and Sick of Armies in the Field.pdf`
 - Page range: 1-1
 - Staging area: `research/_staging`
-- Family relevance: `none`
-- Matched family terms: none
-- Evidence priority: `4001` (family_relevance:none, deferred_until_family_relevant)
+- Family relevance: `medium`
+- Matched family terms: chunk
+- Evidence priority: `2001` (family_relevance:medium, matched_terms)
 
 
 

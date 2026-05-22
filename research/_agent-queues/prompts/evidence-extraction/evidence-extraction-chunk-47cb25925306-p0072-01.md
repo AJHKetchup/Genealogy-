@@ -12,8 +12,8 @@ Use `$genealogy-claim-extraction`.
 - Page range: 72-72
 - Staging area: `research/_staging`
 - Family relevance: `high`
-- Matched family terms: none
-- Evidence priority: `1072` (family_relevance:high, qc:reread-page)
+- Matched family terms: chunk
+- Evidence priority: `1072` (family_relevance:high, qc:reread-page, matched_terms)
 
 
 

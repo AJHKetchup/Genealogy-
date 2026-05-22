@@ -12,11 +12,12 @@ chunk: "raw/chunks/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-
 chunk_id: CHUNK-8daffb98e793-P0002-01
 page_reference: "source page 2"
 confidence: medium
-promotion_recommendation: hold_for_conversion_qa
+promotion_recommendation: do_not_promote
 ---
 
 # Claim: Virginio Gomez Birth Place
 
 - Literal support: `Dr. Virginio Gómez was born in Los Angeles in 1877.`
-- Conversion confidence/QA concern: low until reread; controller flagged `qc:reread-page`, and page boundaries in the assigned chunk are contaminated.
-- Uncertainty: `Los Angeles` is not normalized to `Los Ángeles, Chile` in this draft, because the claim should preserve the article's literal wording until review.
+- Image reread: The rendered source page 2 image confirms the literal phrase `born in Los Angeles in 1877`.
+- Conversion confidence/QA concern: medium-high for the literal phrase after image reread, but the proof-review revision requested promotion of only the birth-year claim from this sentence.
+- Uncertainty: `Los Angeles` is not normalized to `Los Ángeles, Chile` in this draft, and this secondary article is not a vital record. Keep this place wording as supporting context only unless separately reviewed and requested.

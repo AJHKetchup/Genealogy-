@@ -15,10 +15,10 @@
 | 908 | critical | low | reread-page | none | Juan, Luis |
 | 909 | none | high | pass | none | none |
 | 910 | none | high | pass | none | none |
-| 911 | high | low | reread-page | none | none |
+| 911 | critical | low | reread-page | none | Segundo |
 | 9 | none | high | pass | none | none |
 | 913 | none | high | pass | none | none |
-| 914 | none | high | pass | none | none |
+| 914 | high | low | reread-page | none | none |
 | 915 | none | high | pass | none | none |
 | 916 | none | high | pass | none | none |
 | 917 | medium | high | pass | none | Luis |

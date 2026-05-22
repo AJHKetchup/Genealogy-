@@ -12,11 +12,12 @@ chunk: "raw/chunks/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-
 chunk_id: CHUNK-8daffb98e793-P0002-01
 page_reference: "source page 2"
 confidence: medium
-promotion_recommendation: hold_for_conversion_qa
+promotion_recommendation: do_not_promote
 ---
 
 # Claim: Enrique Molina School Rector
 
 - Literal support: `Mr. Enrique Molina, Rector of the Men's High School of Concepción`.
-- Conversion confidence/QA concern: low until reread; controller flagged `qc:reread-page`.
+- Image reread: The rendered source page 2 image confirms the role wording.
+- Conversion confidence/QA concern: medium-high for the literal wording after image reread, but this occupational context is outside the proof-review follow-up request and should not flow to canonical genealogy records from this task.
 - Uncertainty: The page does not give dates for this role or identify family relationships.

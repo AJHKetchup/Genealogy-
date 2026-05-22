@@ -21,8 +21,8 @@
 | 254 | critical | low | reread-page | none | Juan, Luis |
 | 255 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
-| 14 | critical | low | reread-page | none | Juan, Luis |
-| 258 | none | high | pass | none | none |
+| 14 | critical | low | reread-page | none | Entry, Juan, Luis |
+| 258 | high | low | reread-page | none | none |
 | 16 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |

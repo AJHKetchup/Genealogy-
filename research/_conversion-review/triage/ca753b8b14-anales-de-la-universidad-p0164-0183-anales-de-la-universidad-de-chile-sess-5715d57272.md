@@ -19,8 +19,8 @@
 | 172 | medium | high | pass | none | Arturo, Luis |
 | 173 | medium | high | pass | none | Arturo |
 | 174 | critical | low | reread-page | none | Juan, Mercedes |
-| 175 | critical | low | reread-page | none | Juan, Luis, Mercedes |
-| 176 | critical | low | reread-page | none | Juan, Luis |
+| 175 | critical | low | reread-page | none | Arriagada, Juan, Luis, Mercedes |
+| 176 | critical | low | reread-page | none | Arriagada, Juan, Luis |
 | 177 | critical | low | reread-page | none | Juan, Luis |
 | 178 | critical | low | reread-page | none | Juan |
 | 179 | critical | low | reread-page | none | Arturo, Juan |

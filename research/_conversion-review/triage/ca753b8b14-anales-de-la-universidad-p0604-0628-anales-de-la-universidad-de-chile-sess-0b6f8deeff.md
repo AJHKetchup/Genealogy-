@@ -14,7 +14,7 @@
 | 537 | none | high | pass | none | none |
 | 608 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
-| 610 | none | high | pass | none | none |
+| 610 | medium | high | pass | none | Segundo |
 | 611 | none | high | pass | none | none |
 | 612 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |

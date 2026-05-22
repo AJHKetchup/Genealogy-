@@ -23,8 +23,8 @@
 | 13 | critical | low | reread-page | none | Arturo, Juan, Luis |
 | 94 | critical | low | reread-page | none | Arturo, Carmen, Juan, Luis |
 | 95 | critical | low | reread-page | none | Arturo, Juan, Luis |
-| 16 | critical | low | reread-page | none | Carmen, Juan |
+| 16 | critical | low | reread-page | none | Carmen, Entry, Juan |
 | 97 | medium | high | pass | none | Luis |
-| 98 | critical | low | reread-page | none | Luis |
+| 98 | critical | low | reread-page | none | Arriagada, Luis |
 | 99 | medium | high | pass | none | Luis |
 | 100 | critical | low | reread-page | none | Carmen, Juan, Luis |

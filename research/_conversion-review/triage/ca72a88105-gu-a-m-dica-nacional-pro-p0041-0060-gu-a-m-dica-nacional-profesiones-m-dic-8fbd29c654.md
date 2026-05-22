@@ -10,7 +10,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 41 | critical | low | reread-page | none | Juan, Luis, Riquelme |
 | 2 | critical | low | reread-page | none | Carmen, Juan, Luis |
-| 43 | none | high | pass | none | none |
+| 43 | medium | high | pass | none | Arriagada |
 | 44 | critical | low | reread-page | none | Arturo, Carmen, Juan |
 | 45 | critical | low | reread-page | none | Arturo, Juan, Juana, Luis |
 | 46 | critical | low | reread-page | none | Juan, Luis, Smith |

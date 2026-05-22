@@ -22,7 +22,7 @@
 | 865 | none | high | pass | none | none |
 | 866 | critical | low | reread-page | none | Juan |
 | 867 | none | high | pass | none | none |
-| 868 | none | high | pass | none | none |
+| 868 | medium | high | pass | none | Segundo |
 | 869 | medium | high | pass | none | Luis |
 | 870 | none | high | pass | none | none |
 | 871 | none | high | pass | none | none |

@@ -11,16 +11,16 @@
 | 754 | critical | low | reread-page | none | Luis |
 | 755 | none | high | pass | none | none |
 | 756 | medium | high | pass | none | Luis |
-| 757 | medium | high | pass | none | Luis |
+| 757 | medium | high | pass | none | Luis, Segundo |
 | 5 | none | high | pass | none | none |
 | 759 | none | high | pass | none | none |
 | 760 | none | high | pass | none | none |
 | 761 | none | high | pass | none | none |
 | 762 | none | high | pass | none | none |
 | 763 | none | high | pass | none | none |
-| 764 | none | high | pass | none | none |
+| 764 | medium | high | pass | none | Segundo |
 | 765 | none | high | pass | none | none |
-| 766 | critical | low | reread-page | none | Luis |
+| 766 | critical | low | reread-page | none | Luis, Segundo |
 | 767 | none | high | pass | none | none |
 | 768 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
@@ -30,6 +30,6 @@
 | 773 | none | high | pass | none | none |
 | 774 | critical | low | reread-page | none | Dios |
 | 775 | none | high | pass | none | none |
-| 776 | none | high | pass | none | none |
-| 777 | none | high | pass | none | none |
+| 776 | medium | high | pass | none | Segundo |
+| 777 | medium | high | pass | none | Segundo |
 | 778 | none | high | pass | none | none |

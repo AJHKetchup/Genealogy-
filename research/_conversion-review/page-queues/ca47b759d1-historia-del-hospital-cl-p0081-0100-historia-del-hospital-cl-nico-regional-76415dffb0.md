@@ -20,7 +20,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Dios, Juan, Pulgar
+- Matched family context: Arturo, Dios, Entry, Juan, Pulgar
 
 ### Page 5
 
@@ -52,7 +52,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: explicit_reread_needed
-- Matched family context: Juana
+- Matched family context: Juana, Segundo
 
 ### Page 11
 

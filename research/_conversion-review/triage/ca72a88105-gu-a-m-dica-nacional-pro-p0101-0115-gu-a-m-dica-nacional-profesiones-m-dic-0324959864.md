@@ -14,12 +14,12 @@
 | 104 | critical | low | reread-page | none | Juan, Luis |
 | 105 | critical | low | reread-page | none | Arturo, Juan, Luis, Pulgar |
 | 106 | critical | low | reread-page | none | Juan, Riquelme |
-| 107 | critical | low | reread-page | none | Arturo, Juan |
+| 107 | critical | low | reread-page | none | Arturo, Entry, Juan |
 | 108 | critical | low | reread-page | none | Arturo, Juan |
 | 9 | medium | high | pass | none | Luis |
-| 10 | medium | high | pass | none | Arturo |
-| 11 | critical | low | reread-page | none | Juan, Luis, Riquelme |
-| 12 | critical | low | reread-page | none | Arturo, Juan |
-| 13 | critical | low | reread-page | none | Juan, Luis |
+| 10 | medium | high | pass | none | Arturo, Entry |
+| 11 | critical | low | reread-page | none | Arriagada, Juan, Luis, Riquelme |
+| 12 | critical | low | reread-page | none | Arriagada, Arturo, Juan |
+| 13 | critical | low | reread-page | none | Arriagada, Juan, Luis |
 | 114 | critical | low | reread-page | none | Arturo, Juan, Luis |
 | 115 | critical | low | reread-page | none | Juan, Luis |

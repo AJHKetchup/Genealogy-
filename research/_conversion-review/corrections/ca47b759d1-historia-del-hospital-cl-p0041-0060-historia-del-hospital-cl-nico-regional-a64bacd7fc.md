@@ -6,6 +6,11 @@
 
 ## Suspected Readings
 
+- Literal converted text: `Enero`
+  Suspected reading: `Entry`
+  Reason: near match to known family context term `Entry`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `cenar`
   Suspected reading: `Cesar`
   Reason: near match to known family context term `Cesar`
@@ -31,6 +36,11 @@
   Reason: near match to known family context term `Juana`
   Verification target: reread the page image or exact region before using this in a claim.
 
+- Literal converted text: `ENERO`
+  Suspected reading: `Entry`
+  Reason: near match to known family context term `Entry`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `JUAN`
   Suspected reading: `Juana`
   Reason: near match to known family context term `Juana`
@@ -54,6 +64,11 @@
 - Literal converted text: `tuvo`
   Suspected reading: `Tulio`
   Reason: near match to known family context term `Tulio`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Entre`
+  Suspected reading: `Entry`
+  Reason: near match to known family context term `Entry`
   Verification target: reread the page image or exact region before using this in a claim.
 
 - Literal converted text: `Juan`

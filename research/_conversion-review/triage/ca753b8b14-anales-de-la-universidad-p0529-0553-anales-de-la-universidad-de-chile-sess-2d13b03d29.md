@@ -8,12 +8,12 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 529 | medium | high | pass | none | Luis |
+| 529 | medium | high | pass | none | Luis, Segundo |
 | 530 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
-| 4 | none | high | pass | none | none |
+| 4 | medium | high | pass | none | Entry |
 | 533 | medium | high | pass | none | Riquelme |
-| 6 | medium | high | pass | none | Juana |
+| 6 | medium | high | pass | none | Entry, Juana |
 | 7 | none | high | pass | none | none |
 | 8 | medium | high | pass | none | Luis |
 | 9 | none | high | pass | none | none |
@@ -23,11 +23,11 @@
 | 541 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
 | 543 | medium | high | pass | none | Dario, Luis |
-| 544 | none | high | pass | none | none |
+| 544 | medium | high | pass | none | Segundo |
 | 545 | none | high | pass | none | none |
 | 546 | none | high | pass | none | none |
 | 547 | none | high | pass | none | none |
-| 20 | none | high | pass | none | none |
+| 20 | medium | high | pass | none | Entry |
 | 21 | none | high | pass | none | none |
 | 22 | none | high | pass | none | none |
 | 23 | none | high | pass | none | none |

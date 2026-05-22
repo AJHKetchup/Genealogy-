@@ -20,7 +20,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan
+- Matched family context: Entry, Juan
 
 ### Page 7
 

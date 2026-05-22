@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-05-22T12:11:18Z",
+    "updated":  "2026-05-22T12:38:03Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "max_workers":  1,
     "allow_promotion":  true,
@@ -7,7 +7,7 @@
 
                        ],
     "last_summary":  {
-                         "started":  "2026-05-22T12:06:19Z",
+                         "started":  "2026-05-22T12:36:40Z",
                          "root":  "D:\\a\\Genealogy-\\Genealogy-",
                          "dry_run":  false,
                          "allow_promotion":  true,
@@ -26,45 +26,31 @@
                                                               "todo":  200
                                                           },
                                         "evidence-extraction":  {
-                                                                    "todo":  652,
+                                                                    "todo":  4664,
                                                                     "done":  18,
-                                                                    "deferred_low_relevance":  4028,
-                                                                    "blocked_needs_reread":  138
+                                                                    "blocked_needs_reread":  154
                                                                 },
                                         "identity-analysis":  {
                                                                   "done":  3,
-                                                                  "todo":  81
+                                                                  "todo":  83
                                                               },
                                         "proof-review":  {
-                                                             "done":  73,
+                                                             "done":  76,
                                                              "todo":  321,
-                                                             "released":  35
+                                                             "released":  37
                                                          },
                                         "wiki-promotion":  {
                                                                "blocked_no_reviewed_ready":  1
                                                            }
                                     },
                          "active_workers_before":  0,
-                         "active_workers_after":  1,
+                         "active_workers_after":  0,
                          "launched":  [
-                                          {
-                                              "worker":  "postconv-wiki-promotion-20260522120727823",
-                                              "pid":  8724,
-                                              "task_ids":  [
-                                                               "wiki-promotion:reviewed-ready:ae4ef0c42cb6"
-                                                           ],
-                                              "queue":  "wiki-promotion",
-                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-wiki-promotion-20260522120727823.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522120727823.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522120727823.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522120727823.last.md",
-                                              "started":  "2026-05-22T12:07:28Z"
-                                          }
+
                                       ],
                          "blockers":  [
 
                                       ],
-                         "finished":  "2026-05-22T12:11:18Z"
+                         "finished":  "2026-05-22T12:38:03Z"
                      }
 }

@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/ACICR_B_CR_177_001_002.pdf`
 - Page range: 9-9
 - Staging area: `research/_staging`
-- Family relevance: `none`
-- Matched family terms: none
-- Evidence priority: `4009` (family_relevance:none, qc:pass, deferred_until_family_relevant)
+- Family relevance: `critical`
+- Matched family terms: Entry, chunk
+- Evidence priority: `9` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

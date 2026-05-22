@@ -12,19 +12,19 @@
 | 2 | none | high | pass | none | none |
 | 3 | medium | high | pass | none | Riquelme |
 | 4 | medium | high | pass | none | Riquelme |
-| 105 | critical | low | reread-page | explicit_reread_needed | Dios, Juan, Pulgar, Riquelme |
+| 105 | critical | low | reread-page | explicit_reread_needed | Arriagada, Dios, Juan, Pulgar, Riquelme |
 | 106 | critical | low | reread-page | explicit_reread_needed | Juan |
-| 7 | none | high | pass | none | none |
+| 7 | medium | high | pass | none | Arriagada |
 | 8 | medium | high | pass | none | John |
-| 9 | critical | low | reread-page | none | Juan, Luis |
+| 9 | critical | low | reread-page | none | Entry, Juan, Luis |
 | 10 | none | high | pass | none | none |
-| 111 | medium | high | pass | none | Jose |
+| 111 | medium | high | pass | none | Arriagada, Jose |
 | 112 | none | high | pass | none | none |
 | 13 | critical | low | reread-page | none | Arturo, John, Juan, Riquelme |
 | 114 | none | medium | spot-check | explicit_reread_needed | none |
 | 15 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
-| 17 | none | high | pass | none | none |
+| 17 | medium | high | pass | none | Entry |
 | 18 | none | high | pass | none | none |
 | 19 | critical | low | reread-page | none | Dios, Juan |
 | 20 | critical | low | reread-page | none | Juan |

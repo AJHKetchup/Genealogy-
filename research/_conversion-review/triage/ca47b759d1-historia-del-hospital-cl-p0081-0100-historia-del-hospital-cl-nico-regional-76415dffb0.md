@@ -10,21 +10,21 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
 | 2 | critical | low | reread-page | none | Arturo, Dios, Juan |
-| 3 | critical | low | reread-page | none | Arturo, Dios, Juan, Pulgar |
+| 3 | critical | low | reread-page | none | Arturo, Dios, Entry, Juan, Pulgar |
 | 4 | none | high | pass | none | none |
 | 5 | critical | low | reread-page | none | Dios, Juan |
 | 86 | none | medium | spot-check | explicit_reread_needed | none |
 | 7 | critical | low | reread-page | none | Juan |
 | 8 | medium | high | pass | none | Luis |
 | 9 | none | high | pass | none | none |
-| 90 | critical | low | reread-page | explicit_reread_needed | Juana |
+| 90 | critical | low | reread-page | explicit_reread_needed | Juana, Segundo |
 | 11 | critical | low | reread-page | none | Juan, Luis |
-| 12 | medium | high | pass | none | Arturo |
+| 12 | medium | high | pass | none | Arturo, Segundo |
 | 13 | critical | low | reread-page | none | Juan |
 | 14 | critical | low | reread-page | none | Dios, Juan |
 | 15 | none | high | pass | none | none |
 | 16 | critical | low | reread-page | none | Dios, Juan, Luis |
 | 17 | medium | high | pass | none | Luis |
 | 98 | critical | low | reread-page | none | Carmen, Juan |
-| 19 | medium | high | pass | none | Carmen |
+| 19 | medium | high | pass | none | Carmen, Entry |
 | 20 | none | high | pass | none | none |

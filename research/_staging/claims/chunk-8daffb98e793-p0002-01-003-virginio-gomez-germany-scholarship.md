@@ -12,11 +12,12 @@ chunk: "raw/chunks/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-
 chunk_id: CHUNK-8daffb98e793-P0002-01
 page_reference: "source page 2"
 confidence: medium
-promotion_recommendation: hold_for_conversion_qa
+promotion_recommendation: do_not_promote
 ---
 
 # Claim: Virginio Gomez Germany Scholarship
 
 - Literal support: `Once he received his medical degree, he obtained a scholarship in 1904 to continue his studies in Germany`.
-- Conversion confidence/QA concern: low until reread; controller flagged `qc:reread-page`.
-- Uncertainty: The medical degree date, institution, and scholarship sponsor are not stated in this page extract.
+- Image reread: The rendered source page 2 image confirms the scholarship wording in the same biographical paragraph.
+- Conversion confidence/QA concern: medium-high for the literal sentence after image reread, but this is not a genealogical vital claim and was outside the proof-review follow-up request.
+- Uncertainty: The medical degree date, institution, and scholarship sponsor are not stated in this page extract. Keep as contextual evidence only.

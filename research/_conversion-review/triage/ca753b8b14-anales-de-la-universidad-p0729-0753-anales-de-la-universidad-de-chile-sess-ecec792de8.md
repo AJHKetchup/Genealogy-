@@ -9,11 +9,11 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 729 | none | high | pass | none | none |
-| 730 | none | high | pass | none | none |
+| 730 | medium | high | pass | none | Segundo |
 | 731 | high | low | reread-page | none | none |
-| 732 | high | low | reread-page | none | none |
+| 732 | critical | low | reread-page | none | Segundo |
 | 733 | none | high | pass | none | none |
-| 734 | none | high | pass | none | none |
+| 734 | medium | high | pass | none | Segundo |
 | 735 | none | high | pass | none | none |
 | 736 | none | high | pass | none | none |
 | 737 | none | high | pass | none | none |

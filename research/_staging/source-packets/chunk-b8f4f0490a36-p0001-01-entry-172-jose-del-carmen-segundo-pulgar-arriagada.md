@@ -2,7 +2,7 @@
 type: source_packet
 status: draft
 task_id: evidence-extraction:CHUNK-b8f4f0490a36-P0001-01
-worker: postconv-evidence-extraction-20260522120357153
+worker: postconv-evidence-extraction-20260522123418829
 source_title: "Registro de Nacimientos, Circunscripcion de Los Angeles, Chile, 1888, Entry No. 172"
 source_type: civil_registration_birth
 source_path: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png"
@@ -47,7 +47,7 @@ Supports birth-name, sex, birth date/time, birth place, registration date, paren
 
 ## QA Notes
 
-The original image was available at the correctly encoded source path and was reread for entry 172. The reread resolves the prior image-availability blocker for the child-name claim. It leaves a conversion QA concern for the father's name: the derivative transcript includes `S.`, while the visible handwriting appears to read `Jose del Carmen Pulgar` without a clearly visible suffix. Do not promote father-name-dependent claims or combined parent links until conversion QA resolves whether the suffix is present, absent, or uncertain. Do not expand the father's identity or normalize `Jose` to `José` without a separate identity/style decision.
+The original image was available at the correctly encoded source path and was reread for entry 172. The 2026-05-22 revision reread for worker `postconv-evidence-extraction-20260522123418829` confirms the prior image-reread conclusion: the child-name blocker is resolved, but the father-name suffix remains a conversion QA concern. The derivative transcript includes `S.`, while the visible handwriting appears to read `Jose del Carmen Pulgar` without a clearly visible suffix. Do not promote father-name-dependent claims or combined parent links until conversion QA resolves whether the suffix is present, absent, or uncertain. Do not expand the father's identity or normalize `Jose` to `José` without a separate identity/style decision.
 
 ## Image Reread Notes
 

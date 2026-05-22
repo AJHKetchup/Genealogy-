@@ -16,15 +16,15 @@
 | 6 | medium | high | pass | none | Luis, Riquelme |
 | 7 | high | low | reread-page | none | none |
 | 8 | critical | low | reread-page | none | Dios, Juan |
-| 9 | none | high | pass | none | none |
+| 9 | medium | high | pass | none | Segundo |
 | 10 | critical | low | reread-page | none | Dios, Juan |
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
-| 15 | none | high | pass | none | none |
+| 15 | critical | low | reread-page | none | Segundo |
 | 16 | critical | low | reread-page | none | Dios, Juan |
-| 17 | none | high | pass | none | none |
+| 17 | medium | high | pass | none | Segundo |
 | 18 | none | high | pass | none | none |
 | 19 | critical | low | reread-page | none | Dios, Juan, grandfather |
 | 60 | none | high | pass | none | none |

@@ -2,7 +2,7 @@
 type: source_packet
 status: draft
 task_id: evidence-extraction:CHUNK-8daffb98e793-P0002-01
-worker: postconv-evidence-extraction-20260522115916467
+worker: postconv-evidence-extraction-20260522122744978
 source_title: "Osorio et al., Pioneers of a Century of Anatomical Teaching in the City of Concepcion, Chile"
 source_type: journal_article
 source_path: "raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf"
@@ -18,15 +18,17 @@ matched_terms:
   - Dios
   - Juan
   - knowledge
-conversion_confidence: low_until_reread
-conversion_qa_concern: "Controller flagged qc:reread-page. The assigned chunk is page-0002-chunk-01 but includes a second Page Metadata/Literal Transcription block for page 3, so page boundaries and reading order require QA before promotion. The matched terms appear to be false positives from 'San Juan de Dios Hospital' and generic article text rather than direct family evidence."
-uncertainty: "Low that the page is a secondary journal article about anatomical teaching in Concepcion; moderate for exact extraction from this chunk until the rendered page image/PDF is reread and page 3 contamination is resolved."
-promotion_recommendation: hold_for_conversion_qa
+conversion_confidence: medium_high_for_page_2_sentence_after_image_reread
+conversion_qa_concern: "The rendered page 2 image was located and reread, confirming the biographical sentence about Dr. Virginio Gomez's birth year. The assigned chunk still includes a second Page Metadata/Literal Transcription block for page 3, so page-boundary cleanup remains needed. The matched terms appear to be false positives from 'San Juan de Dios Hospital' and generic article text rather than direct family evidence."
+uncertainty: "Low for the narrow page 2 sentence that states Dr. Virginio Gomez was born in Los Angeles in 1877. Moderate for other biographical, occupational, and identity-normalization uses because the source is a secondary journal article and the chunk contains page 3 contamination."
+promotion_recommendation: promote_after_review
 ---
 
 # Source Packet: Osorio et al. Anatomy Teaching Article, Page 2
 
 This packet stages evidence from the assigned page 2 chunk of a 2020 journal article about anatomical teaching in Concepcion, Chile. The page contains general institutional history and a short biographical paragraph about Dr. Virginio Gomez.
+
+Revision note, 2026-05-22: The rendered page image `raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-images/page-0002.jpg` is present in this workspace and visibly confirms the birth-year sentence. Promotion from this packet is limited to the narrow birth-year claim; all other claims remain contextual, held, or non-promotable as separately staged.
 
 ## Literal Support
 
@@ -38,10 +40,11 @@ This committee was made up of a group of illustrious people from Concepción wit
 
 ## Evidence Scope
 
-The page supports cautious biographical and office-holding claims for Dr. Virginio Gomez and a role/office claim for Enrique Molina. It does not state any parent-child, spouse, sibling, or other family relationship. It is a secondary published article, not a vital record.
+The page supports a narrow, image-confirmed birth-year claim for Dr. Virginio Gomez. Other biographical and office-holding details are staged only as context or unresolved candidates. It does not state any parent-child, spouse, sibling, or other family relationship. It is a secondary published article, not a vital record.
 
 ## QA Notes
 
+- The rendered page 2 image confirms: `Dr. Virginio Gómez was born in Los Angeles in 1877.`
 - The chunk itself contains page 3 material after the page 2 transcription, including a figure caption that may expand `Dr. Virginio Gómez` to `Dr. Virginio Gómez Gonzalez`. Because the assignment page range is 2-2, that page 3 support is not used for promotable page 2 claims.
-- The directorship sentence gives two dates, 1917 and 1920, for apparently similar appointments to San Juan de Dios Hospital in Concepcion. This should be treated as an internal conflict or chronology issue until source QA and cited references are reviewed.
+- The directorship sentence gives two dates, 1917 and 1920, for apparently similar appointments to San Juan de Dios Hospital in Concepcion. The image confirms both date statements as printed/translated, but they remain an internal conflict or chronology issue until cited references are reviewed.
 - The matched terms `Dios` and `Juan` occur in the hospital name `San Juan de Dios`; they are not evidence of a family named Juan or Dios.

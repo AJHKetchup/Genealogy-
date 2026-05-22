@@ -23,8 +23,8 @@
 | 56 | critical | low | reread-page | none | Juan, Luis |
 | 57 | none | high | pass | none | none |
 | 58 | critical | low | reread-page | none | Juan, Luis |
-| 16 | none | high | pass | none | none |
-| 60 | high | high | pass | none | Arturo, Juana, Mercedes |
-| 61 | none | high | pass | none | none |
+| 16 | medium | high | pass | none | Arriagada, Segundo |
+| 60 | critical | low | reread-page | none | Arturo, Juana, Mercedes, Segundo |
+| 61 | medium | high | pass | none | Segundo |
 | 62 | none | high | pass | none | none |
-| 63 | critical | low | reread-page | none | Luis |
+| 63 | critical | low | reread-page | none | Luis, Segundo |

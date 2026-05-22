@@ -20,7 +20,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: explicit_reread_needed
-- Matched family context: Dios, Juan, Pulgar, Riquelme
+- Matched family context: Arriagada, Dios, Juan, Pulgar, Riquelme
 
 ### Page 106
 
@@ -36,7 +36,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis
+- Matched family context: Entry, Juan, Luis
 
 ### Page 13
 

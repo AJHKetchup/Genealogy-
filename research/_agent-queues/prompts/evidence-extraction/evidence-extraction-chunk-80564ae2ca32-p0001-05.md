@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf`
 - Page range: 1-1
 - Staging area: `research/_staging`
-- Family relevance: `medium`
-- Matched family terms: Dios, Juan
-- Evidence priority: `2001` (family_relevance:medium, qc:pass, matched_terms)
+- Family relevance: `high`
+- Matched family terms: Dios, Juan, chunk
+- Evidence priority: `1001` (family_relevance:high, qc:pass, matched_terms)
 
 
 

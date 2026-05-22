@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 1-1
 - Staging area: `research/_staging`
 - Family relevance: `high`
-- Matched family terms: Amagada, Carmen, Dios, Juan, Juana, Luis, Mercedes, Pulgar, Riquelme, mercedes riquelme
+- Matched family terms: Amagada, Birth, Carmen, Dios, Juan, Juana, Luis, Mercedes, Pulgar, Riquelme, chunk, mercedes riquelme
 - Evidence priority: `301` (family_relevance:high, matched_terms, proof_review_revision)
 
 

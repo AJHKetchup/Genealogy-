@@ -13,7 +13,7 @@
 | 706 | none | high | pass | none | none |
 | 707 | none | high | pass | none | none |
 | 708 | none | high | pass | none | none |
-| 709 | none | high | pass | none | none |
+| 709 | medium | high | pass | none | Segundo |
 | 710 | none | high | pass | none | none |
 | 711 | none | high | pass | none | none |
 | 712 | none | high | pass | none | none |
@@ -24,7 +24,7 @@
 | 717 | medium | high | pass | none | Luis |
 | 718 | none | high | pass | none | none |
 | 719 | none | high | pass | none | none |
-| 720 | none | high | pass | none | none |
+| 720 | medium | high | pass | none | Segundo |
 | 721 | none | high | pass | none | none |
 | 722 | high | low | reread-page | none | none |
 | 723 | none | high | pass | none | none |

@@ -9,17 +9,17 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
-| 555 | medium | high | pass | none | Luis |
+| 555 | high | high | pass | none | Arriagada, Luis, Segundo |
 | 556 | medium | high | pass | none | Luis |
 | 4 | none | high | pass | none | none |
 | 558 | none | high | pass | none | none |
 | 559 | none | high | pass | none | none |
 | 560 | none | high | pass | none | none |
 | 561 | none | high | pass | none | none |
-| 562 | none | high | pass | none | none |
+| 562 | medium | high | pass | none | Segundo |
 | 563 | medium | high | pass | none | Luis |
 | 11 | none | high | pass | none | none |
-| 565 | medium | high | pass | none | Luis |
+| 565 | medium | high | pass | none | Luis, Segundo |
 | 13 | none | high | pass | none | none |
 | 567 | none | high | pass | none | none |
 | 15 | medium | high | pass | none | Luis |

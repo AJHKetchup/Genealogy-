@@ -12,7 +12,7 @@
 | 2 | medium | high | pass | none | Dios |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
-| 5 | none | high | pass | none | none |
+| 5 | critical | low | reread-page | none | Segundo |
 | 6 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |

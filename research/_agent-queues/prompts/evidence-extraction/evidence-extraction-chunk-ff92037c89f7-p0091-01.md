@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
 - Page range: 91-91
 - Staging area: `research/_staging`
-- Family relevance: `medium`
-- Matched family terms: Luis, Soler
-- Evidence priority: `2091` (family_relevance:medium, qc:pass, matched_terms)
+- Family relevance: `high`
+- Matched family terms: Luis, Soler, chunk
+- Evidence priority: `1091` (family_relevance:high, qc:pass, matched_terms)
 
 
 

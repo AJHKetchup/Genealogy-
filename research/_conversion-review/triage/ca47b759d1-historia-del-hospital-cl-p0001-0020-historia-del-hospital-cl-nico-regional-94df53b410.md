@@ -15,9 +15,9 @@
 | 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
 | 7 | critical | low | reread-page | none | Dios, Juan |
-| 8 | medium | high | pass | none | Dios |
+| 8 | medium | high | pass | none | Dios, Segundo |
 | 9 | critical | low | reread-page | none | Juan |
-| 10 | critical | low | reread-page | none | Dios, Juan |
+| 10 | critical | low | reread-page | none | Dios, Juan, Segundo |
 | 11 | critical | low | reread-page | none | Dios, Juan |
 | 12 | high | low | reread-page | none | none |
 | 13 | none | high | pass | none | none |
@@ -25,6 +25,6 @@
 | 15 | critical | low | reread-page | none | Dios, Juan |
 | 16 | critical | low | reread-page | none | Juan |
 | 17 | none | high | pass | none | none |
-| 18 | critical | low | reread-page | none | Juan, Riquelme |
+| 18 | critical | low | reread-page | none | Juan, Riquelme, Segundo |
 | 19 | critical | low | reread-page | none | Dios, Juan |
 | 20 | critical | low | reread-page | none | Dios, Juan |

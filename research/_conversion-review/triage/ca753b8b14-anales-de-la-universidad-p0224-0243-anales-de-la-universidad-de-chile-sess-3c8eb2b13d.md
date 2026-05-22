@@ -12,7 +12,7 @@
 | 225 | medium | high | pass | none | Luis |
 | 3 | critical | low | reread-page | none | Luis |
 | 4 | none | high | pass | none | none |
-| 5 | critical | low | reread-page | none | Juan |
+| 5 | critical | low | reread-page | none | Entry, Juan |
 | 229 | none | high | pass | none | none |
 | 7 | critical | low | reread-page | none | Juan |
 | 8 | critical | low | reread-page | none | Juan, Luis |

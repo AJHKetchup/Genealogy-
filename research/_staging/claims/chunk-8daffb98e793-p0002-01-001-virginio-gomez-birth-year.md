@@ -1,7 +1,7 @@
 ---
 type: claim
 status: draft
-claim_type: birth_date
+claim_type: birth_year
 subject: "Virginio Gomez"
 predicate: "was born in"
 object: "1877"
@@ -11,12 +11,13 @@ converted_file: "raw/converted/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-os
 chunk: "raw/chunks/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-1cbe9f3841/page-0002-chunk-01.md"
 chunk_id: CHUNK-8daffb98e793-P0002-01
 page_reference: "source page 2"
-confidence: medium
-promotion_recommendation: hold_for_conversion_qa
+confidence: high
+promotion_recommendation: promote_after_review
 ---
 
 # Claim: Virginio Gomez Birth Year
 
 - Literal support: `Dr. Virginio Gómez was born in Los Angeles in 1877.`
-- Conversion confidence/QA concern: low until reread; controller flagged `qc:reread-page`, and the chunk includes page 3 content despite being assigned to page 2.
-- Uncertainty: The article gives only a year, not a full date; spelling/diacritics and possible full name require identity review.
+- Image reread: The rendered page image at `raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-images/page-0002.jpg` visibly confirms this sentence on source page 2.
+- Conversion confidence/QA concern: medium-high for this narrow birth-year claim after image reread. The assigned chunk still includes page 3 content after the page 2 transcription, so this claim uses only the confirmed page 2 sentence.
+- Uncertainty: The article gives only a year, not a full birth date. This draft does not normalize the person's full name or infer any family relationship.
