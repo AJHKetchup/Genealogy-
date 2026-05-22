@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-22T05:39:11Z",
+  "created": "2026-05-22T07:16:59Z",
   "mode": "source-prep-docling-discovery",
   "dry_run": false,
   "agent": "source-prep-docling-discovery",
@@ -27,15 +27,15 @@
   "extracted_images": 0,
   "skipped": {
     "cached_error": 2,
-    "ocr_limit_reached": 1095
+    "ocr_limit_reached": 1093
   },
   "tasks": [
     {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100:p0092",
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325:p0315",
       "source": "raw/sources/S495-2-2.pdf",
-      "page": 92,
+      "page": 315,
       "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-0092.md",
+      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/page-0315.md",
       "readability_flags": [
         "insufficient_text",
         "insufficient_alpha_text",
@@ -48,18 +48,19 @@
       "docling_error": "Docling hard timeout after 45 seconds.",
       "docling_unusable_reason": "local_ocr_timeout",
       "likely_full_page_scan": true,
-      "text_layer_alpha_chars": 32812,
+      "text_layer_alpha_chars": 32498,
       "text_layer_flags": [
         "encoding_mojibake",
+        "fragmented_short_lines",
         "docling_layout_noise"
       ]
     },
     {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250:p0244",
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275:p0254",
       "source": "raw/sources/S495-2-2.pdf",
-      "page": 244,
+      "page": 254,
       "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/page-0244.md",
+      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-0254.md",
       "readability_flags": [
         "insufficient_text",
         "insufficient_alpha_text",
@@ -72,7 +73,7 @@
       "docling_error": "Docling hard timeout after 45 seconds.",
       "docling_unusable_reason": "local_ocr_timeout",
       "likely_full_page_scan": true,
-      "text_layer_alpha_chars": 33153,
+      "text_layer_alpha_chars": 32534,
       "text_layer_flags": [
         "docling_layout_noise"
       ]
@@ -80,7 +81,7 @@
   ],
   "blockers": [],
   "discovery_state_path": "research/_agent-queues/source-prep-discovery.json",
-  "checkpointed": "2026-05-22T05:40:06Z",
+  "checkpointed": "2026-05-22T07:17:53Z",
   "state_path": "research/_automation/source-prep-docling-state.json",
-  "finished": "2026-05-22T05:40:05Z"
+  "finished": "2026-05-22T07:17:52Z"
 }
