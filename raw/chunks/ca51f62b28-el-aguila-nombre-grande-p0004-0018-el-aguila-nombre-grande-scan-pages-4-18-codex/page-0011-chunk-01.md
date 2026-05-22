@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-51e1f7e8defc-P0011-01
+chunk_id: CHUNK-71b5d2f58d5e-P0011-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 51e1f7e8defc0d0c03514740a8a536b3314c9957608a4211ca0eb2ae79c73b83
+converted_sha256: 71b5d2f58d5e2940877bafb0efee29e15b373eb386ed456fc3b7810946afaaeb
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-22T04:00:16Z",
+  "created": "2026-05-22T04:14:47Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "/home/runner/work/Genealogy-/Genealogy-",
   "r2": {
@@ -33,7 +33,7 @@
       "name": "prepare-sources",
       "status": "ran",
       "detail": {
-        "prepared_sources": 0
+        "prepared_sources": 21
       }
     },
     {
@@ -58,16 +58,16 @@
       "status": "ran",
       "detail": {
         "action": "restore-queued-source-prep-raw",
-        "created": "2026-05-22T04:01:52Z",
+        "created": "2026-05-22T04:16:21Z",
         "queue": "research/_agent-queues/source-prep-batches.json",
         "filters": {
           "source": "",
           "source_sha256": ""
         },
         "unique_sources": 21,
-        "attempted": 21,
-        "restored": 21,
-        "skipped_present": 0,
+        "attempted": 0,
+        "restored": 0,
+        "skipped_present": 21,
         "skipped_limit": 0,
         "unmatched": 0,
         "errors": []
@@ -84,10 +84,10 @@
       "detail": {
         "action": "asset-upload",
         "dry_run": false,
-        "total_files": 0,
-        "total_bytes": 0,
-        "uploaded": 0,
-        "skipped": 0,
+        "total_files": 8,
+        "total_bytes": 69070930,
+        "uploaded": 4,
+        "skipped": 4,
         "planned": 0,
         "errors": [],
         "deleted_disposable": 0,
@@ -97,9 +97,9 @@
             "derived/raw/codex-conversion-jobs/",
             "derived/research/_assets/conversions/"
           ],
-          "scanned": 1727,
+          "scanned": 1731,
           "deleted": 0,
-          "skipped": 1727,
+          "skipped": 1731,
           "errors": []
         }
       }
@@ -109,12 +109,12 @@
   "queues": {
     "source_prep_batches": {
       "path": "/home/runner/work/Genealogy-/Genealogy-/research/_agent-queues/source-prep-batches.json",
-      "task_count": 1388,
+      "task_count": 1387,
       "status_counts": {
-        "needs_reread": 305,
-        "todo": 1083
+        "needs_reread": 306,
+        "todo": 1081
       }
     }
   },
-  "finished": "2026-05-22T04:01:54Z"
+  "finished": "2026-05-22T04:16:27Z"
 }

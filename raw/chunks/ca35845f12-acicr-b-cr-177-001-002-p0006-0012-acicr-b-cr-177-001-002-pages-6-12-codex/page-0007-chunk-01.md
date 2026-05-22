@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-c3bd2a435778-P0007-01
+chunk_id: CHUNK-d80ea59b8cb1-P0007-01
 source_converted: raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md
-converted_sha256: c3bd2a435778c84b218f98b2182f4ddfd2a1d599ae1a49975a37c58d49705937
+converted_sha256: d80ea59b8cb1c3bad3f7a4e0bc62d3ef77f2033ce02e38a5bc02db856f7b1f69
 source: raw/sources/ACICR_B_CR_177_001_002.pdf
 source_sha256: 35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35
 source_manifest: raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json
@@ -15,14 +15,15 @@ part: 1
 - Source: `raw/sources/ACICR_B_CR_177_001_002.pdf`
 - Page: 7
 - Page type: `text`
-- Page number: `7`
+- Page number (source document): `7`
 
 ## Layout And Reading Order
+
 The page contains a list of numbered entries, each with a date and a description. There are also handwritten marginal notes. The reading order is from top to bottom, left to right.
 
 ## Literal Transcription
-CR 177 Conférence diplomatique
-7.
+
+CR 177 Conférence diplomatique 7.
 
 122.- 16.6.29. L/ personnelle de M. Cremonési à M. Huber demandant renseigne-
 ments sur la constitution de la délégation italienne à la
@@ -39,7 +40,7 @@ conférence à M. Huber (117)
 126.- 17.6.29. Mot de M. Des Gouttes remettant une série de documents pour
 le président.
 
-ms., 1 ann. 127.- 17.6.29. M. Huber envoie la copie de la l/ qu'il a adressée le 15.6.
+ms., f ann. 127.- 17.6.29. M. Huber envoie la copie de la l/ qu'il a adressée le 15.6.
 à M. Draudt
 
 128.- 18.6.29. Départ. pol. informe qu'il a envoyé un jeu complet des
@@ -79,7 +80,11 @@ sa l/ à M. Draudt (127)
 141.- 25.6.29. Répondons à l/ Cremonesi (122)
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+- The page number "7." is printed in the top right corner.
+- The header "CR 177 Conférence diplomatique" is printed at the top center.
+- A handwritten note "ms., f ann." appears in the left margin next to entry 127.
+- A handwritten note "ms." appears in the left margin next to entry 133.
+- A handwritten note "ms.+transcr." appears in the left margin next to entry 137.
 
 ## Uncertain Or Illegible
 None.
@@ -88,4 +93,6 @@ None.
 The transcription is complete and accurate.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions present."}
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present; only text and minor handwritten notes."}
+```

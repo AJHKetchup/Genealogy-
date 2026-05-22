@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-bc0f49272d4e-P0012-01
+chunk_id: CHUNK-c95e5c6af3bd-P0012-01
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375.codex.md
-converted_sha256: bc0f49272d4efe8d98235ebc3b24f6d12f9f803a324269c2ce9dbe015b0cce2b
+converted_sha256: c95e5c6af3bd0f3ed057421c2a326eae7c6a1a69e736a80caf33f58fe871299e
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/manifest.json

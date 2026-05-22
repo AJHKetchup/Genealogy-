@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-22T04:01:52.976810+00:00",
+  "created": "2026-05-22T04:16:21.958776+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -2747,6 +2747,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-capitan-gajardo-recomforta.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-capitan-gajardo-recomforta.png",
+      "bytes": 4389406,
+      "sha256": "d16b7cb209769d90d498e001612ae4f432cf96d6fe46abac280801fcb6563f0b",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-captain-gajardo-drinking-after-climb.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-captain-gajardo-drinking-after-climb.png",
       "bytes": 3352631,
@@ -2765,6 +2772,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-el-capitan-gajardo-drinking-from-cup.png",
       "bytes": 2182400,
       "sha256": "6f4da6b80166ff8990632f77f8b865aacb925322eb43c81b55601a3371b4e7bb",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-aurora-de-chile.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-aurora-de-chile.png",
+      "bytes": 4598525,
+      "sha256": "ef0b4f94f776efda93150b1844bee335b25d504081181bf501a45077c2107314",
       "media_type": "image/png"
     },
     {
@@ -2812,8 +2826,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hilly-landscape.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hilly-landscape.png",
-      "bytes": 24874037,
-      "sha256": "3e0c39a1ae4c44e6ff75efb57d9d2dc501dd449e559555c851ddc66e7c31d7cd",
+      "bytes": 24244241,
+      "sha256": "1d8bcd3cc7fc44fbb1f5447671b55cdacbf445e2446a6aba32f9221e02e362bd",
       "media_type": "image/png"
     },
     {
@@ -2845,6 +2859,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-illustration-eagle-like-figure-1956.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-illustration-eagle-like-figure-1956.png",
+      "bytes": 2603405,
+      "sha256": "0f614368fcf3a81f07ae28f62329b943817b5f5e8024bad60a7187104f94e44b",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-stylized-bird-figure-ad-1956.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-stylized-bird-figure-ad-1956.png",
       "bytes": 3811571,
@@ -2870,6 +2891,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-climbers-on-peak.png",
       "bytes": 6823444,
       "sha256": "11326fc627ddd28f8d6ff0bda7f814f27318aa217878e7a31cade2b4b0faa932",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-culmination-of-the-feat-summit-of-el-salado.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-culmination-of-the-feat-summit-of-el-salado.png",
+      "bytes": 6212363,
+      "sha256": "33b7b13ceb7b13ed1f382411e728db86fd20201eb39259d907ce6b834e595fb9",
       "media_type": "image/png"
     },
     {
@@ -2919,6 +2947,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-el-ojos-del-salado-climbers-camp.png",
       "bytes": 5631828,
       "sha256": "055c272c70b9f9eccf1d489b7db40b1f6edcee88c7c24e19503e00fb2365d878",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-expedition-group-with-tent-and-mountains.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-expedition-group-with-tent-and-mountains.png",
+      "bytes": 3609511,
+      "sha256": "13fe85e9662e1277142f2c0f6e916f6e93e237d383df2dad3fef1a38d9e99ddb",
       "media_type": "image/png"
     },
     {
@@ -8942,6 +8977,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0053/page-0053-image-01-page-0053-vr-01-monument.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0053/page-0053-image-01-page-0053-vr-01-monument.png",
+      "bytes": 607131,
+      "sha256": "092060fcc2a036e9f5418f7e83bf840ba5521cc5399c5d2e0c6b387f2bdbee5e",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0054/page-0054-image-01-portrait-se-orita-evelia-verdugo.png",
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0054/page-0054-image-01-portrait-se-orita-evelia-verdugo.png",
       "bytes": 637910,
@@ -12074,10 +12116,10 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
-    "skipped": 0,
+    "total_files": 8,
+    "total_bytes": 69070930,
+    "uploaded": 4,
+    "skipped": 4,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,
@@ -12087,9 +12129,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1727,
+      "scanned": 1731,
       "deleted": 0,
-      "skipped": 1727,
+      "skipped": 1731,
       "errors": []
     }
   }
