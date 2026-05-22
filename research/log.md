@@ -26367,3 +26367,5 @@
 ## [2026-05-22] source-status | Wrote research/_indexes/source-usability.json
 ## [2026-05-22] promote-staged | Promoted 0 source packet(s), 0 claim(s), 0 relationship(s)
 ## [2026-05-22] wiki-promotion | Reviewed-ready promotion task wiki-promotion:reviewed-ready:d9396652dddc wrote no-op manifest research/_staging/promotions/2026-05-22-065904-promote-staged.json. Dry run and real promotion skipped assigned reviewed relationships because the current promoter does not support relationship_candidate types child_parent or spouse; no canonical pages were promoted. Required lint was run and reported existing missing research paths, template/index references, and relationship/source page issues.
+## [2026-05-22] gemini-source-prep | processed 39, completed 32, released 7, held 1, parallelism=8, routes={'pro': 10, 'pro_with_crops': 2, 'lite': 27}, fallback_policy=large_corpus_relevance, dry_run=False
+## [2026-05-22] source-prep-batches | Wrote 1379 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)

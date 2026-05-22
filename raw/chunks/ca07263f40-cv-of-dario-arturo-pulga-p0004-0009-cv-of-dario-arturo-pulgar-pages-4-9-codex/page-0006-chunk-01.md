@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-3661a25ff4f5-P0006-01
+chunk_id: CHUNK-9070adf46a1e-P0006-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: 3661a25ff4f5578e2df2e84660f9ed8b08f69245049d78a5cf3d2b97ec97cab8
+converted_sha256: 9070adf46a1eee1a2b469d6a5354f8ab7458fbd5569592c77e37b56e03122417
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -12,7 +12,6 @@ part: 1
 ---
 
 ## Page Metadata
-
 - Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0006`
 - Model route: `pro`
 - Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
@@ -29,11 +28,9 @@ part: 1
 - Technical reread clues: none
 
 ## Layout And Reading Order
-
-The page contains a single column of text. The content is a continuation of a curriculum vitae, organized chronologically in reverse order. Each entry consists of a date range, an organization name, a location, a job title, and a description of responsibilities. Date ranges are underlined, while organization names, locations, and job titles are in bold. The reading order is from top to bottom.
+The page consists of a single column of typed text. The content is a continuation of a list of professional experiences from a curriculum vitae. Each entry is presented chronologically, starting with an underlined date range, followed by the employer/organization, location, and job title in bold, and concluding with a descriptive paragraph. The reading order is from top to bottom.
 
 ## Literal Transcription
-
 on irrigation districts and transfer of irrigation infrastructure to water user associations.
 
 <u>1996 - 1997</u>
@@ -47,7 +44,6 @@ institutional strengthening. Participate in the Funding, Personnel and Managemen
 Supervise the institutional strengthening of rural financial institutions.
 
 <u>1996</u>
-
 **SNC Lavalin Agriculture
 Maracaibo, Venezuela
 Consultant**
@@ -87,22 +83,18 @@ Agricultural Extension and Communication Advisor**
 Establish a Development Support Communication Centre (DSC) in the city of Dikernis, Dakahlia
 
 ## Images, Captions, And Visual Notes
-
-This page contains only text. There are no images, captions, or other visual elements.
+This page contains only typed text. There are no images, captions, or other visual elements.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
 The entire content of the page has been transcribed.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text and has no meaningful visual regions to crop."
+  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other distinct visual elements suitable for cropping."
 }
 ```

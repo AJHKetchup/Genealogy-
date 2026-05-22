@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-8655e2498da2-P0001-01
+chunk_id: CHUNK-55d1b711faa4-P0001-01
 source_converted: raw/converted/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25.codex.md
-converted_sha256: 8655e2498da23ae332246340319a2dc09ca80c4385914b496ba74fceb850214a
+converted_sha256: 55d1b711faa4ede20dcbe78ecb8c82ad04f4a37c2b8c6a220ead3fc2291091d0
 source: raw/sources/R3578-50-7801-5569.pdf
 source_sha256: 6e09f1fb50a1c564bf4dd51406b9706274a189f3c45ba312a01d5ed069a77b75
 source_manifest: raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json
@@ -12,83 +12,8 @@ part: 1
 ---
 
 ## Page Metadata
-- page_type: folder_cover
-- document_type: archival_file_cover
-- primary_language: fr
-- secondary_language: en
+- Source: `R3578-50-7801-5569.pdf`
+- Page: `1`
 
 ## Layout And Reading Order
-This document is a pre-printed manila folder cover from the League of Nations archives. The layout is a form with designated fields.
-
-1.  At the top left is a handwritten reference number, `R.3578`.
-2.  To its right is a stamped box indicating "ARCHIVES 1928-1932".
-3.  Below are the titles "SOCIÉTÉ DES NATIONS." and "LEAGUE OF NATIONS."
-4.  A large form follows, divided into sections.
-    - The top section has fields for "CLASSEMENT" (with a purple stamp "GENERAL AND MISCELLANEOUS") and "REGISTRY N⁰" (with handwritten numbers).
-    - The middle section has fields for "Expéditeur" (Sender), "Date", and "Sujet" (Subject). The "Sujet" field contains handwritten text.
-    - The bottom section is a routing log table with columns for "Transmis à / Referred to" and "Date". This table contains several handwritten entries.
-    - To the right of the routing log are fields for "Dossier précédent" (Previous file), "Dossier suivant" (Next file), and "Dossiers connexes" (Related files), with some handwritten entries.
-5.  At the very bottom left is a printer's mark.
-
-## Literal Transcription
-[Handwritten in blue ink at top left corner]
-R.3578
-
-[Stamped box at top center]
-ARCHIVES
-1928-1932
-
-SOCIÉTÉ DES NATIONS.
-LEAGUE OF NATIONS.
-
-[Start of pre-printed form]
-
-| CLASSEMENT. [A purple stamp is placed here, reading:] GENERAL AND MISCELLANEOUS | REGISTRY N⁰ |
-| :--- | :--- |
-| | [Handwritten numbers in separate boxes:] 50 | 7801 | 5569 |
-
-| Expéditeur: | Sujet: [Handwritten in black ink] Treatment of Prisoners of War. correspondence with various individuals and associations. |
-| :--- | :--- |
-| Date: | |
-
-[Start of routing table]
-
-| Transmis à<br>Referred to | Date | Transmis à<br>Referred to | Date | Transmis à<br>Referred to | Date |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| [Handwritten:] ~~I Mr. Walters~~ | [Handwritten:] 13.10.28 | | | | |
-| [Handwritten:] ~~II M. Walters~~ | [Handwritten:] 26.2.29 | | | | |
-| [Handwritten:] ~~Social S[ect?]~~ | [Handwritten:] 27.2.29 | | | | |
-| [Handwritten:] ~~Lut. Bureau~~ | [Handwritten:] 28.2.29 | | | | |
-| [Handwritten:] Dame Rachel Crowdy<br>(reg) | [Handwritten:] 3.6.29 | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | Dossier<br>précédent | } No. [Handwritten:] 5569 |
-| | | | | Dossier<br>suivant | } No. [Handwritten:] ouv. |
-| | | | | Dossiers connexes | |
-| | | | | | |
-| | | | | | |
-
-[End of form]
-
-[Printed at bottom left corner]
-10,000 Bertrand 3. 28. No. 15995
-
-## Images, Captions, And Visual Notes
-This is an image of a tan-colored archival folder cover. The form is printed in black ink. Various entries are handwritten in black and blue ink. There is a rectangular stamp at the top indicating the archive dates. A purple ink stamp specifies the classification as "GENERAL AND MISCELLANEOUS". Several entries in the routing log have been struck through with a single diagonal line.
-
-## Uncertain Or Illegible
-- In the routing log, "Social S[ect?]" is uncertain. The second word is abbreviated and unclear, possibly "Sect" for Section.
-- In the routing log, "Lut. Bureau" is uncertain. The first word is an abbreviation and difficult to decipher.
-
-## Completeness Audit
-The entire page has been transcribed.
-
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page consists of a pre-printed form on a folder cover with handwritten entries and stamps. There are no photographs, illustrations, or other complex visual elements that would warrant cropping as standalone assets."
-}
-```
+The page is a pre-printed form with handwritten entries. The top section contains header information for "SOCIÉTÉ DES NATIONS." and "LEAGUE OF NATIONS." with fields for "CLASSEMENT." and "REGISTRY N°". Below this, there are fields for "Expéditeur:", "Sujet:", and "Date:". The main body of the form is a table with columns for "Transmis à / Referred to" and "Date", repeated three times. The bottom right section of the form has fields for "Dossier précédent", "Dossier suivant", and "Dossiers connexes". There is also a small printed note at the very bottom left.

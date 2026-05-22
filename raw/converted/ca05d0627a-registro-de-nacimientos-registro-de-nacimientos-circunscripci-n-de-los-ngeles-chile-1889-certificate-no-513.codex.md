@@ -9,62 +9,59 @@
 - Extracted images: `raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/extracted-images`
 
 ## Page Metadata
-
 - **Page number**: 172
 - **Document type**: Birth Register
 - **Year**: 1889
-- **Location**: Los Ángeles, La Laja, Chile
+- **Location**: Los Ángeles, Chile
 - **Language**: Spanish
+- **Entries on page**: 513, 514, 515
 
 ## Layout And Reading Order
-
-The document is a pre-printed register page with handwritten entries for three birth records, numbered 513, 514, and 515. The page is organized as a table with rows for each record and columns for specific details. The reading order is from left to right, top to bottom, following the records in numerical order. A circular stamp and other official markings are present in the right margin.
+The page is a pre-printed register with handwritten entries, organized as a table with nine columns. The page header contains the page number, year, document type, and location. The main content consists of three birth records, numbered 513, 514, and 515. A circular stamp is present in the top right corner. A narrow column on the far right margin repeats the entry numbers. The reading order is from top to bottom, record by record, with columns read from left to right within each record.
 
 ## Literal Transcription
+**Page Header**
 
-**Páj. 172**
+Páj. 172
 
-1889.—Rejistro de NACIMIENTOS en la Circunscripcion de Los Anjeles, núm. 1º de La Laja.
+1889.—Rejistro de NACIMIENTOS en la Circunscripcion de Los Angeles, núm. 1º de Julio
 
-| N.º de la Inscripcion | Fecha de la Inscripcion | Nombre i sexo | Fecha i lugar del nacimiento | Nombre, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados | Nombre, etc., del compareciente | Comprobacion de la identidad del compareciente | Firma del oficial |
+**Birth Register Table**
+
+| N.° de la<br>Inscripcion | Fecha<br>de la Inscripcion | Nombre i sexo | Fecha<br>i lugar del nacimiento | Nombre, nacionalidad, profesion i domicilio<br>del padre i de la madre, cuando fueren<br>declarados | Nombre, etc., del compareciente | Comprobacion de la<br>identidad del compareciente | Firma del oficial |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **513** | Julio veintidos de mil ochocientos ochenta i nueve | **Nombre.** Tulio Cesar Luis José<br><br>**Sexo** Masculino | **Fecha.** Junio veinte i dos de mil ochocientos ochenta i nueve, a las cuatro i veinte de la mañana<br><br>**Lugar.** Calle Colon | **Nombre del padre.** José del Carmen Pulgar<br>**Nac.** Chileno **Prof.** Agricultor<br>**Domicilio** Calle Colon<br><br>**Nombre de la madre.** Juana de Dios Amagada de Pulgar<br>**Nac.** Chilena **Prof.** Sus labores de casa<br>**Domicilio** Calle Colon | José del C. Pulgar<br>Padre<br>**Edad** Cuarenta i siete Años<br>**Prof.** Agricultor<br>**Dom.** Calle Colon | **Por los testigos:**<br>El compareciente es conocido del oficial.<br><br>**Conocido del oficial.** — | Emilio Lininger<br>O. del R. C. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| **514** | Julio veintidos de mil ochocientos ochenta i nueve | **Nombre.** Rigoberto Juan Bautista<br><br>**Sexo.** Masculino | **Fecha.** Junio veinte i tres de mil ochocientos ochenta i nueve, a las diez de la mañana<br><br>**Lugar.** Calle San Joaquin | **Nombre del padre.** Belisario Riquelme<br>**Nac.** **Prof.**<br>**Domicilio**<br><br>**Nombre de la madre.** Mercedes Riquelme<br>**Nac.** Chilena **Prof.** Costurera<br>**Domicilio** Calle San Joaquin | Mercedes Riquelme<br>Madre<br>Esposa de Juan Soler<br>**Edad** Veintiun Años<br>**Prof.** Costurera<br>**Dom.** Calle San Joaquin | **Por los testigos:**<br>Benjamin Utria<br>Ignacio Jara<br>El primer testigo no sabe firmar<br><br>**Conocido del oficial.** | Emilio Lininger<br>O. del R. C. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| **515** | Julio veintitres de mil ochocientos ochenta i nueve | **Nombre.** Rosa Elvira del Carmen<br><br>**Sexo.** Femenino | **Fecha.** Julio diez i seis de mil ochocientos ochenta i nueve, a las diez de la noche<br><br>**Lugar.** Calle San Joaquin | **Nombre del padre.** Pedro Pablo Leiva<br>**Nac.** Chileno **Prof.** Jornalero<br>**Domicilio** Calle San Joaquin<br><br>**Nombre de la madre.** Carmen Fuentes<br>**Nac.** Chilena **Prof.** Sus labores de casa<br>**Domicilio** Calle San Joaquin | Pedro Pablo Leiva<br>Padre<br>**Edad** Veintiocho Años<br>**Prof.** Jornalero<br>**Dom.** Calle San Joaquin | **Por los testigos:**<br>Jose D. Ramirez<br>Santiago Fuentes<br><br>**Conocido del oficial.** | Emilio Lininger<br>O. del R. C. |
+| **513** | Julio<br>veintidos<br>de mil ochocientos ochenta<br>i nueve | Nombre.<br>Isidoro del Carmen Diaz<br>Sexo<br>Masculino | Fecha.<br>veinte i dos<br>de mil ochocientos ochenta<br>i nueve, a las cuatro<br>i veinte de la tarde<br>Lugar.<br>Calle Colon | Nombre del padre.<br>José del Carmen Pulgar<br>Nac. Chileno Prof. Agricultor<br>Domicilio. Calle Colon<br>Nombre de la madre.<br>Juana de Dios Amador<br>Nac. Chilena Prof. Labandera<br>Domicilio. Calle Colon | José del C. Pulgar<br>Padre<br>Edad. Cuarenta i siete Años<br>Prof. Agricultor<br>Dom. Calle Colon | Por los testigos:<br>El compareciente es<br>Conocido del oficial. — | Emilio Larenas O<br>El oficial |
+| **514** | Julio<br>veintitres<br>de mil ochocientos ochenta<br>i nueve | Nombre.<br>Rigoberto Juan Bautista<br>Sexo.<br>Masculino | Fecha.<br>veinte i tres<br>de mil ochocientos ochenta<br>i nueve, a las diez<br>de la mañana<br>Lugar.<br>Calle Panquehue | Nombre del padre.<br>Mercedes Riquelme<br>Nac. Prof.<br>Nombre de la madre.<br>Mercedes Riquelme<br>Nac. Chilena Prof. Costurera<br>Domicilio. Calle Panquehue | Mercedes Riquelme<br>Madre<br>Esposa de Juan no sabe f<br>Edad. Veintiun Años<br>Prof. Costurera<br>Dom. Calle Panquehue | Por los testigos:<br>Benjamin Utrosa<br>Ignacio Jara<br>El compareciente no sabe firmar<br>Conocido del oficial. — | Emilio Larenas O<br>El oficial |
+| **515** | Julio veintitres<br>de mil ochocientos ochenta<br>i nueve | Nombre.<br>Rosa Elvira del Carmen<br>Sexo.<br>Femenino | Fecha.<br>veinte i dos<br>de mil ochocientos ochenta<br>i nueve, a las diez<br>de la noche<br>Lugar.<br>Calle Panquehue | Nombre del padre.<br>Pedro Pablo Leiva<br>Nac. Chileno Prof. Jornalero<br>Domicilio. Calle Panquehue<br>Nombre de la madre.<br>Carmen Leiva<br>Nac. Chilena Prof. Costurera<br>Domicilio. Calle Panquehue | Pedro Pablo Leiva<br>Padre<br>Edad. Veintiocho Años<br>Prof. Jornalero<br>Dom. Calle Panquehue | Por los testigos:<br>José D. Ramirez H<br>Santiago Fuentes<br>El compareciente no sabe firmar<br>Conocido del oficial. — | Emilio Larenas O<br>El oficial |
 
----
 **Right Margin**
 
-| N.º de la Inscripcion |
-| :--- |
+| |
+|---|
 | **513** |
 | **514** |
 | **515** |
 
-[Circular stamp: OFICINA DE LOS ANJELES CHILE with a coat of arms in the center]
-[Rectangular stamp: ANOTACIONES]
+**Stamp**
+
+[Circular stamp with text around the edge and in the center]
+OFICINA DE LOS ANGELES CHILE
+ANOTACIONES
 
 ## Images, Captions, And Visual Notes
-
-The page is a standard pre-printed civil registration form. The handwritten entries are in a consistent cursive script. In the right margin, next to each record, the corresponding record number is written. There is a circular official stamp for the "OFICINA DE LOS ANJELES CHILE" and a rectangular stamp for "ANOTACIONES".
-
-For record 514, the note "El primer testigo no sabe firmar" (The first witness does not know how to sign) is written, although there are two distinct signatures above it for "Benjamin Utria" and "Ignacio Jara".
+- A circular, purple ink stamp is located in the top right corner of the page, partially overlapping the "Firma del oficial" column header. The text around the circumference reads "OFICINA DE LOS ANGELES CHILE". The word "ANOTACIONES" is in the center.
+- The document is a pre-printed tabular form. All entries are handwritten in cursive script.
 
 ## Uncertain Or Illegible
-
-There are no uncertain or illegible portions of the text.
+- In entry 514, under "Nombre, etc., del compareciente", the line below "Madre" is difficult to read. It appears to be "Esposa de Juan no sabe f[irmar?]", but it is heavily scribbled and uncertain.
 
 ## Completeness Audit
-
-The entire page, including all three birth records (513, 514, 515) and marginalia, has been transcribed.
+The transcription is complete. All text on the page, including the header, three full birth records (513, 514, 515), marginalia, and the stamp, has been transcribed.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains standard official stamps and handwritten signatures which are transcribed or described in the notes. There are no large, standalone visuals like portraits, maps, or illustrations that would warrant individual cropping."
+  "no_visual_regions_reason": "The page contains no substantial visual elements like photographs, maps, or complex illustrations that would warrant cropping. The only visual is a standard office stamp, which has been fully transcribed and described in the notes."
 }
 ```

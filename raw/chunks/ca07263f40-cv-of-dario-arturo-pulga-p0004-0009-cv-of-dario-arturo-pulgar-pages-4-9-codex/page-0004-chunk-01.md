@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-3661a25ff4f5-P0004-01
+chunk_id: CHUNK-9070adf46a1e-P0004-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: 3661a25ff4f5578e2df2e84660f9ed8b08f69245049d78a5cf3d2b97ec97cab8
+converted_sha256: 9070adf46a1eee1a2b469d6a5354f8ab7458fbd5569592c77e37b56e03122417
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -12,6 +12,7 @@ part: 1
 ---
 
 ## Page Metadata
+
 - Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004`
 - Model route: `pro`
 - Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
@@ -24,13 +25,18 @@ part: 1
 - External requested treatment: `reread`
 - External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
 - Recommended action: ``
-- Quality flags: none
+- Quality flags: explicit_reread_needed
 - Technical reread clues: none
 
 ## Layout And Reading Order
-The page is a single column of text. The reading order is from top to bottom. The content continues a list from the previous page, followed by two bulleted sections, and then two distinct job entries.
+
+The page is a single column of text. The reading order is from top to bottom. The content consists of:
+1. The end of a paragraph from the previous page.
+2. A bulleted list with two main points, each with a bolded title. These points contain nested numbered lists.
+3. Two distinct job entries, each with a date, employer, location, and job title in bold, followed by a descriptive paragraph.
 
 ## Literal Transcription
+
 approaches in four different Indian Sates and, (iv) review the communications strategy for
 the Productive Projects component of the Millennium Challenge Account programme for the
 northern region of El Salvador while making recommendations for improvements and new
@@ -84,18 +90,22 @@ of communities during blasts that could affect them for safety reasons. Represen
 in dealings with local authorities and community organisations.
 
 ## Images, Captions, And Visual Notes
+
 This page contains only text. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
+
+There are no uncertain or illegible portions of text on this page. The word "aassessing" appears to be a typographical error in the original document but is transcribed as it appears.
 
 ## Completeness Audit
-The entire content of the page has been transcribed.
+
+This page has been fully and accurately transcribed. All text content has been captured.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text and has no images, illustrations, or other significant visual elements."
+  "no_visual_regions_reason": "This page consists entirely of text and has no images, illustrations, or other visual elements suitable for cropping."
 }
 ```

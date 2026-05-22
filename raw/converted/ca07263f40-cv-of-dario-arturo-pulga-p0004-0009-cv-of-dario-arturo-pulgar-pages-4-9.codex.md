@@ -9,6 +9,7 @@
 - Extracted images: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/extracted-images`
 
 ## Page Metadata
+
 - Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004`
 - Model route: `pro`
 - Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
@@ -21,13 +22,18 @@
 - External requested treatment: `reread`
 - External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
 - Recommended action: ``
-- Quality flags: none
+- Quality flags: explicit_reread_needed
 - Technical reread clues: none
 
 ## Layout And Reading Order
-The page is a single column of text. The reading order is from top to bottom. The content continues a list from the previous page, followed by two bulleted sections, and then two distinct job entries.
+
+The page is a single column of text. The reading order is from top to bottom. The content consists of:
+1. The end of a paragraph from the previous page.
+2. A bulleted list with two main points, each with a bolded title. These points contain nested numbered lists.
+3. Two distinct job entries, each with a date, employer, location, and job title in bold, followed by a descriptive paragraph.
 
 ## Literal Transcription
+
 approaches in four different Indian Sates and, (iv) review the communications strategy for
 the Productive Projects component of the Millennium Challenge Account programme for the
 northern region of El Salvador while making recommendations for improvements and new
@@ -81,34 +87,46 @@ of communities during blasts that could affect them for safety reasons. Represen
 in dealings with local authorities and community organisations.
 
 ## Images, Captions, And Visual Notes
+
 This page contains only text. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
+
+There are no uncertain or illegible portions of text on this page. The word "aassessing" appears to be a typographical error in the original document but is transcribed as it appears.
 
 ## Completeness Audit
-The entire content of the page has been transcribed.
+
+This page has been fully and accurately transcribed. All text content has been captured.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text and has no images, illustrations, or other significant visual elements."
+  "no_visual_regions_reason": "This page consists entirely of text and has no images, illustrations, or other visual elements suitable for cropping."
 }
 ```
 
 ## Page Metadata
-
-- task_id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005`
-- page_num: 5
-- source_id: `CV of Dario Arturo Pulgar.pdf`
+- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005`
+- Model route: `pro`
+- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
+- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0005.md`
+- Page: 5
+- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0005.md`
+- External research relevance: `high`
+- External requested treatment: `reread`
+- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
+- Recommended action: ``
+- Quality flags: none
+- Technical reread clues: none
 
 ## Layout And Reading Order
-
-The page consists of a single column of typed text. The content is organized into sections, each representing a professional engagement. Sections are typically headed by a year or date range. The reading order is from top to bottom.
+The page consists of a single column of text. The content is a continuation of a curriculum vitae, with entries organized chronologically. Each entry is headed by a year or date range, followed by the name of the organization, location, the individual's role, and a descriptive paragraph. The reading order is from top to bottom.
 
 ## Literal Transcription
-
 **1999**
 
 **National Trust Fund for Protected Areas in Peru (PROFONANPE)**
@@ -146,7 +164,6 @@ contract between the European Commission, Arca Consulting and the Lesotho Highla
 Development Authority.
 
 **1997-1998**
-
 **Klohn Crippen Consultants**
 **Huaraz, Peru**
 **Socio-economic Consultant**
@@ -161,28 +178,20 @@ Review implementation of a proposed training programme for the Development of th
 Maracaibo Plain Project. Co-ordinate with the World Bank and Canadian agencies a study tour
 
 ## Images, Captions, And Visual Notes
-
-There are no images, captions, or other visual elements on this page. The page consists entirely of typed text.
+There are no images, captions, or other visual elements on this page. The content is entirely text.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-The page is fully transcribed. The final line of text at the bottom of the page is cut off, ending the sentence abruptly.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
-
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed text and has no meaningful visual regions such as photographs, illustrations, maps, or stamps."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of typed text and contains no images, illustrations, or other visual elements."}
 ```
 
 ## Page Metadata
-
 - Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0006`
 - Model route: `pro`
 - Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
@@ -199,11 +208,9 @@ The page is fully transcribed. The final line of text at the bottom of the page 
 - Technical reread clues: none
 
 ## Layout And Reading Order
-
-The page contains a single column of text. The content is a continuation of a curriculum vitae, organized chronologically in reverse order. Each entry consists of a date range, an organization name, a location, a job title, and a description of responsibilities. Date ranges are underlined, while organization names, locations, and job titles are in bold. The reading order is from top to bottom.
+The page consists of a single column of typed text. The content is a continuation of a list of professional experiences from a curriculum vitae. Each entry is presented chronologically, starting with an underlined date range, followed by the employer/organization, location, and job title in bold, and concluding with a descriptive paragraph. The reading order is from top to bottom.
 
 ## Literal Transcription
-
 on irrigation districts and transfer of irrigation infrastructure to water user associations.
 
 <u>1996 - 1997</u>
@@ -217,7 +224,6 @@ institutional strengthening. Participate in the Funding, Personnel and Managemen
 Supervise the institutional strengthening of rural financial institutions.
 
 <u>1996</u>
-
 **SNC Lavalin Agriculture
 Maracaibo, Venezuela
 Consultant**
@@ -257,55 +263,37 @@ Agricultural Extension and Communication Advisor**
 Establish a Development Support Communication Centre (DSC) in the city of Dikernis, Dakahlia
 
 ## Images, Captions, And Visual Notes
-
-This page contains only text. There are no images, captions, or other visual elements.
+This page contains only typed text. There are no images, captions, or other visual elements.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
 The entire content of the page has been transcribed.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text and has no meaningful visual regions to crop."
+  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other distinct visual elements suitable for cropping."
 }
 ```
 
 ## Page Metadata
-
 - Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0007`
-- Model route: `pro`
-- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
 - Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0007.md`
 - Page: 7
-- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0007.md`
-- External research relevance: `high`
-- External requested treatment: `reread`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
-- Quality flags: explicit_reread_needed
-- Technical reread clues: none
 
 ## Layout And Reading Order
-
-The page consists of a single column of text. The content is a continuation of a curriculum vitae, with distinct entries for different work experiences. Each entry is marked by a date range, followed by the name of the organization, location, job title, and a descriptive paragraph. The reading order is sequential from top to bottom.
+The page is a single column of text. The reading order is from top to bottom. The content is a continuation of a curriculum vitae, with entries organized chronologically by date range. Each entry includes the date, organization, location, job title (in bold), and a description of responsibilities.
 
 ## Literal Transcription
-
 Governorate and the design and implementation of a modified Training and Visit System of
 Extension, coordinating the activities of the Government of Egypt (GOE) extension organisation
 with the project. Ensure liaison with governmental organisations in the agricultural field.
 Organise farmer groups in the area.
 
-<u>1988-1989</u>
+**1988-1989**
 **Food and Agriculture Organisation of the United Nations (FAO)**
 **Ndola, Zambia**
 **Training and Communication Advisor**
@@ -316,7 +304,7 @@ contractors, review communication institutions and prepare proposals for their s
 design village level two-way flow communication programs and prepare monitoring reports of
 projects implementation.
 
-<u>1988</u>
+**1988**
 **Canadian International Development Agency (CIDA)**
 **Ethiopia**
 **Communication Consultant**
@@ -324,7 +312,7 @@ Provide assistance to the Economic Commission for Africa (ECA) in the field of i
 communications. Review ECA information and communication programmes. Prepare a project
 document for strengthening ECA capacity in this field.
 
-<u>1986 - 1987</u>
+**1986 - 1987**
 **Worldview International Foundation (WIF)**
 **Rome, Italy**
 **Rural Communications and Extension Advisor**
@@ -334,10 +322,10 @@ extension communications component with special reference to the concerns of wom
 farmers. In Mali, assist the Village Development Fund Project in the design of methods for
 farmer participation and assist in project implementation start up. In Nicaragua, set up a video
 production and print shop; and in Peru, include in the Alto Mayo Rural Development Project a
-component for bilingual cultural development (Aguaruna - Spanish) and establish a video:print
+component for bilingual cultural development (Aguaruna - Spanish) and establish a video-print
 radio production unit.
 
-<u>1982-1985</u>
+**1982-1985**
 **Independent communications consultant**
 **Canadian International Development Agency**
 As an independent communications consultant: i) head a team of specialists preparing
@@ -352,144 +340,152 @@ EMBRAFILME Audio Visual Centre, and v) prepare a plan of operations of a health
 communication project with special emphasis on rural areas for CIDA in Islamabad, Pakistan
 
 ## Images, Captions, And Visual Notes
+There are no images, captions, or other visual elements on this page. The page consists entirely of typed text.
+
+## Uncertain Or Illegible
+There are no uncertain or illegible words on this page.
+
+## Completeness Audit
+This page is complete and fully transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other significant visual elements."}
+```
+
+## Page Metadata
+
+- task_id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0008`
+- page_number: 8
+- source_id: `codex:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9`
+
+## Layout And Reading Order
+
+The page is a single column of text, continuing a curriculum vitae. The content is organized chronologically by employment period, from most recent to oldest. Each entry includes a date range, employer name and location, job title, and a descriptive paragraph. The page concludes with the heading "EDUCATION". The reading order is from top to bottom.
+
+## Literal Transcription
+
+<u>1979 - 1982</u>
+United Nations Centre for Human Settlements (HABITAT)
+Nairobi, Kenya
+**Development Support Communications Officer**
+Establish a worldwide distribution system for films produced for Habitat, United Nations
+Conference on Human Settlements. Supervise the production of language versions and release
+prints for regional distribution. Grant rights for television broadcasting. Design a film library loan
+and retrieval system. Supervise film distribution operations at the regional level (Africa, Asia,
+Latin America and Western Asia) and provide training. Supervise operations of five regional
+information offices in Amman, Jordan; Bangkok, Thailand; Dakar, Senegal; Mexico City, Mexico
+and Geneva, Switzerland. Prepare project documents in the field of information/social
+communication. Carry out pre-feasibility missions in Africa including Uganda, Tanzania, Niger,
+Mali and Senegal. Design information and/or training projects using audio-visual means in
+support of rural/urban settlers.
+
+<u>1974 - 1978</u>
+National Film Board of Canada (NFB)
+Montreal, Canada
+**Audio Visual Consultant**
+As part of the NFB involvement with the United Nations Conference on Human Settlements
+identify suitable locations for filming, describing rural and urban problems and attempted
+solutions while providing technical assistance to national film crews in Central America and the
+Caribbean and supervise all production stages from scripting to final print for film projects
+prepared and negotiate film/video rights from producing countries that submitted audio-visual
+presentations to the Conference Earlier: i) responsible for 16mm prints sales representing the
+commercial division at marketing planning committees while supervising commercial distribution
+activities by international and Canadian offices ; ii) coordinate a Mexico-Canada agreement for
+the production of six documentary films and iii) participate as production assistant in the making
+of two documentaries: "Waiting for Fidel" and "I Am an Old Tree" and translating the Spanish
+dialogue into English.
+
+<u>1972 - 1973</u>
+Chile Films
+Santiago, Chile
+**General Manager Distribution and Exhibition, Head of International Department**
+Develop a national policy for film distribution and exhibition. Purchase films for theatrical
+exhibition. Administer the operation of ten cinemas and a distribution company. Organise the III
+Latin American Film Festival, Viña del Mar. Organise a 16mm distribution network using mobile
+cinema units. Establish and maintain contacts with international film organisations. Review films
+for possible purchase. Organise film festivals and retrospective.
+
+<u>1970 - 1972</u>
+Cine, Televisión y Comunicaciones (CITELCO)
+Santiago, Chile
+**Producer**
+Direct company operations and produce feature theatrical films and documentaries. Organise
+co-production of documentaries with Italy. Feature films produced include: "La Colonia Penal"",
+"La Expropiación" and "El Realismo Socialista" directed by Raúl Ruiz.
+
+**EDUCATION**
+
+## Images, Captions, And Visual Notes
 
 This page contains only text. There are no images, captions, or other visual elements.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this document.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-The transcription of this page is complete and accurate. All text from the source image has been transcribed.
+The entire page has been transcribed.
 
 ## Visual Region Manifest
 
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "This page is composed entirely of text and contains no images, illustrations, or other significant visual elements."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page consists entirely of typed text and contains no images, illustrations, photographs, or other significant visual elements."
+}
 ```
-
-# Page 8
 
 ## Page Metadata
 
-- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Source SHA-256: `07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424`
-- Conversion manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Source page: 8
-- Page image: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0008.jpg`
-- Conversion method: Docling basic conversion
-- Docling readability status: `rough_ok`
-- Docling readability flags: none
-- Extracted picture images: 0
+- **Page number**: 9
+- **Document type**: Curriculum Vitae
+- **Person(s) mentioned**: Dario Arturo Pulgar
 
 ## Layout And Reading Order
 
-Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+The page consists of a single column of typed text. The content is divided into two sections. The first section continues a list of educational history, with date ranges on the left and institutional details on the right. The second section is titled "LANGUAGES" and lists spoken and written language proficiency. The reading order is top to bottom.
 
 ## Literal Transcription
 
-```markdown
-## 1979 - 1982 United Nations Centre for Human Settlements (HABITAT) Nairobi, Kenya Development Support Communications Officer
+```text
+1967 - 1968 : Stanford University. Stanford, California
+Fulbright Scholarship. M.A. Communications
 
-Establish  a  worldwide  distribution  system  for  films  produced  for  Habitat,  United  Nations Conference on Human Settlements. Supervise the production of language versions and release prints for regional distribution. Grant rights for television broadcasting. Design a film library loan and retrieval  system.  Supervise  film  distribution  operations  at  the  regional  level  (Africa,  Asia, Latin  America  and  Western  Asia)  and  provide  training.  Supervise  operations  of  five  regional information offices in Amman, Jordan; Bangkok, Thailand; Dakar, Senegal; Mexico City, Mexico and Geneva,  Switzerland. Prepare project documents  in the field of information/social communication. Carry out pre-feasibility missions in Africa including Uganda, Tanzania, Niger, Mali  and  Senegal.  Design  information  and/or  training  projects  using  audio-visual  means  in support of rural/urban settlers.
+1963 - 1966 : Universidad de Concepción, Escuela de Periodismo. Chile
+Journalism
 
-## 1974 - 1978 National Film Board of Canada (NFB) Montreal, Canada Audio Visual Consultant
+1960 - 1963 : Universidad de Concepción, Escuela de Derecho. Chile
+Field of Study: Law
 
-As  part  of  the  NFB  involvement  with  the  United  Nations  Conference  on  Human  Settlements Identify  suitable  locations  for  filming,  describing  rural  and  urban  problems  and  attempted solutions while providing technical assistance to national film crews in Central America and the Caribbean  and  supervise  all  production  stages  from  scripting  to  final  print  for  film  projects prepared  and  negotiate  film/video  rights  from  producing  countries  that  submitted  audio-visual presentations to the Conference Earlier: i) responsible for 16mm prints sales representing the commercial division at marketing planning committees while supervising commercial distribution activities by international and Canadian offices , ii) coordinate a Mexico-Canada agreement for the production of six documentary films and iii) participate as production assistant in the making of two documentaries: "Waiting for Fidel" and "I Am an Old Tree" and translating the Spanish dialogue into English.
+1954 - 1959 : Liceo Enrique Molina. Concepción, Chile
+Humanities, Baccalaureate
 
-## 1972 - 1973 Chile Films Santiago, Chile General Manager Distribution and Exhibition, Head of International Department
+LANGUAGES
 
-Develop  a  national  policy  for  film  distribution  and  exhibition.  Purchase  films  for  theatrical exhibition. Administer the operation of ten cinemas and a distribution company. Organise the III Latin American Film Festival, Viña del Mar. Organise a 16mm distribution network using mobile cinema units. Establish and maintain contacts with international film organisations. Review films for possible purchase. Organise film festivals and retrospective.
+Spoken: Spanish, English, French, Italian, and Portuguese
 
-## 1970 - 1972 Cine, Televisión y Comunicaciones (CITELCO) Santiago, Chile Producer
-
-Direct  company operations and produce feature theatrical films and documentaries. Organise co-production of documentaries with Italy. Feature films produced include: "La Colonia Penal"", "La Expropiación" and "El Realismo Socialista" directed by Raúl Ruiz.
-
-## EDUCATION
+Written: Spanish, English, French
 ```
 
 ## Images, Captions, And Visual Notes
 
-- No Docling picture regions were detected for this page.
-
-## Translation
-
-No translation was produced by the Docling basic conversion pass.
-
-## Interpretation
-
-No interpretation was produced by the Docling basic conversion pass.
+There are no images, captions, or other visual elements on this page.
 
 ## Uncertain Or Illegible
 
-- Automated readability flags: none
-- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
-
-## Extracted Genealogy Leads
-
-- No genealogy leads were asserted by the Docling basic conversion pass.
+All text on this page is clear and legible.
 
 ## Completeness Audit
 
-- Basic Docling conversion completed for this page.
-- Rendered page image link recorded.
-- Extracted picture image count: 0.
-- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+This page has been fully and accurately transcribed.
 
-# Page 9
+## Visual Region Manifest
 
-## Page Metadata
-
-- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Source SHA-256: `07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424`
-- Conversion manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Source page: 9
-- Page image: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0009.jpg`
-- Conversion method: Docling basic conversion
-- Docling readability status: `rough_ok`
-- Docling readability flags: none
-- Extracted picture images: 0
-
-## Layout And Reading Order
-
-Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
-
-## Literal Transcription
-
-```markdown
-| 1967 - 1968 : Stanford University. Stanford, California Fulbright Scholarship. M.A. Communications  1963 - 1966 : Universidad de Concepción, Escuela de Periodismo. Chile Journalism  1960 - 1963 : Universidad de Concepción, Escuela de Derecho. Chile Field of Study: Law  1954 - 1959 : Liceo Enrique Molina. Concepción, Chile Humanities, Baccalaureate   |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-## LANGUAGES
-
-Spoken: Spanish, English, French, Italian, and Portuguese Written: Spanish, English, French
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other significant visual elements."
+}
 ```
-
-## Images, Captions, And Visual Notes
-
-- No Docling picture regions were detected for this page.
-
-## Translation
-
-No translation was produced by the Docling basic conversion pass.
-
-## Interpretation
-
-No interpretation was produced by the Docling basic conversion pass.
-
-## Uncertain Or Illegible
-
-- Automated readability flags: none
-- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
-
-## Extracted Genealogy Leads
-
-- No genealogy leads were asserted by the Docling basic conversion pass.
-
-## Completeness Audit
-
-- Basic Docling conversion completed for this page.
-- Rendered page image link recorded.
-- Extracted picture image count: 0.
-- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
