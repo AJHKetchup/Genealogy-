@@ -8,4 +8,4 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 172 | medium | high | pass | none | Pulgar |
+| 1 | medium | high | pass | none | Pulgar |
