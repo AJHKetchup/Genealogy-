@@ -1,8 +1,8 @@
 # Wiki Site Automation
 
-The family-facing wiki is published by `.github/workflows/wiki-site.yml` to Cloudflare Workers Static Assets.
+The family-facing wiki is published by `.github/workflows/wiki-site.yml` to a Cloudflare Worker.
 
-GitHub Pages is not the hosting target for this private repository. The current GitHub plan rejected Pages creation for a private repo, so the durable viewing path is a Cloudflare Worker that uploads the generated `site/` directory as static assets.
+GitHub Pages is not the hosting target for this private repository. The current GitHub plan rejected Pages creation for a private repo, so the durable viewing path is a Cloudflare Worker deployed from GitHub Actions.
 
 The workflow runs without provider model API keys and without the local PC:
 
@@ -17,10 +17,16 @@ Each run refreshes generated indexes, rebuilds the family tree view, builds the 
 python -m historic_doc_ingest.genealogy_wiki site --root . --out site --wiki-only
 ```
 
-and deploys the `site/` folder with:
+The workflow then embeds the small family-facing site into a Worker module with:
 
 ```powershell
-npx --yes wrangler@latest deploy --config cloudflare/wiki-site/wrangler.jsonc
+node scripts/build-wiki-site-worker.mjs site site-worker/index.mjs
+```
+
+and deploys that Worker with:
+
+```powershell
+npx --yes wrangler@latest deploy --config cloudflare/wiki-site/wrangler.embedded.jsonc
 ```
 
 Expected production URL:
@@ -39,5 +45,7 @@ Required GitHub Actions secrets:
 Create `CLOUDFLARE_API_TOKEN` as a Cloudflare user API token that can deploy Workers. Cloudflare's own Workers build token includes Account Settings read, Workers Scripts edit, Workers KV edit, Workers R2 edit, Workers Routes edit, and User Details/Memberships read. The required part for this site deploy is Workers Scripts edit on the account, with account/user read permissions useful for Wrangler diagnostics.
 
 The public site intentionally skips `research/` pages and converted-source pages. Research dashboards, source packets, conversion QA, staging drafts, and queue state remain in the repository and hosted agent outputs; reviewed wiki material is what gets published for family-facing exploration.
+
+The legacy `cloudflare/wiki-site/wrangler.jsonc` Static Assets config is retained for future use, but the default hosted deploy uses `wrangler.embedded.jsonc`. This avoids the Workers Static Assets upload-session entitlement path and keeps the public wiki independent of the local PC.
 
 The site is generated from durable Markdown and JSON state. Do not hand-edit generated `site/` output; change the wiki/research Markdown or the generator instead.

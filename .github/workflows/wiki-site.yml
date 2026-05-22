@@ -64,16 +64,19 @@ jobs:
           PYTHONPATH: src
         run: python -m historic_doc_ingest.genealogy_wiki site --root . --out site --wiki-only
 
+      - name: Build embedded wiki Worker
+        run: node scripts/build-wiki-site-worker.mjs site site-worker/index.mjs
+
       - name: Check Cloudflare deploy credentials
         run: |
           test -n "$CLOUDFLARE_ACCOUNT_ID" || { echo "::error title=Missing Cloudflare account id::Add CLOUDFLARE_ACCOUNT_ID, or keep R2_ACCOUNT_ID if it is the Cloudflare account id."; exit 1; }
           test -n "$CLOUDFLARE_API_TOKEN" || { echo "::error title=Missing Cloudflare Worker deploy token::Add CLOUDFLARE_API_TOKEN. Do not reuse R2_TOKEN_VALUE; R2-only tokens cannot deploy the wiki Worker."; exit 1; }
 
-      - name: Deploy to Cloudflare Workers Static Assets
+      - name: Deploy to Cloudflare Worker
         run: |
           for attempt in 1 2 3; do
             echo "Cloudflare deploy attempt ${attempt}/3"
-            if npx --yes wrangler@latest deploy --config cloudflare/wiki-site/wrangler.jsonc; then
+            if npx --yes wrangler@latest deploy --config cloudflare/wiki-site/wrangler.embedded.jsonc; then
               exit 0
             fi
             if [ "$attempt" = "3" ]; then
