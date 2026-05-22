@@ -377,13 +377,42 @@ function Test-StagedDraftCanBePromoted {
 function Get-ProofReviewDraftPriority {
     param([string]$RelativePath)
     $relative = ($RelativePath -replace "\\", "/").ToLowerInvariant()
-    if ($relative -like "research/_staging/relationships/*") { return 0 }
-    if ($relative -like "research/_staging/claims/claim-*" -or $relative -like "research/_staging/claims/cl-stage-*") { return 1 }
-    if ($relative -like "research/_staging/source-packets/sp-stage-*" -or $relative -like "research/_staging/source-packets/sp-*") { return 2 }
-    if ($relative -like "research/_staging/claims/*") { return 3 }
-    if ($relative -like "research/_staging/source-packets/*") { return 4 }
-    if ($relative -like "research/_staging/identity/*" -or $relative -like "research/_staging/conflicts/*") { return 5 }
-    if ($relative -like "research/_staging/identity-analysis/*") { return 6 }
+
+    $draftText = ""
+    $draftPath = Resolve-UnderRoot -Path $RelativePath
+    if (Test-Path -LiteralPath $draftPath -PathType Leaf) {
+        try {
+            $draftText = Get-Content -LiteralPath $draftPath -Raw
+        }
+        catch {
+            $draftText = ""
+        }
+    }
+    $haystack = "$relative`n$($draftText.ToLowerInvariant())"
+    $lineageSignal = $haystack -match "(\b(birth|born|baptism|marriage|death|parent|parents|child|father|mother|declarant|registration|register|registry|certificate)\b|nacimiento|nacimientos|bautismo|matrimonio|defunc|padre|madre|hijo|hija|record\s+[0-9]+|registro\s+civil)"
+    $negativeSignal = $haystack -match "(no-family-relationship|no\s+family\s+relationship|negative-evidence|no-mother|father-unknown|do\s+not\s+promote|promotion_recommendation:\s*(do_not_promote|reject|rejected))"
+    $careerSignal = $haystack -match "(cv|curriculum|consultant|employment|career|education|university|school|language|antamina|unicef|fao|iica|producer|manager|communications|advisor)"
+
+    if ($relative -like "research/_staging/relationships/*") {
+        if ($negativeSignal) { return 7 }
+        if ($lineageSignal) { return 0 }
+        return 3
+    }
+    if ($relative -like "research/_staging/claims/*") {
+        if ($negativeSignal) { return 7 }
+        if ($lineageSignal) { return 1 }
+        if ($careerSignal) { return 5 }
+        return 4
+    }
+    if ($relative -like "research/_staging/source-packets/*") {
+        if ($lineageSignal) { return 2 }
+        return 6
+    }
+    if ($relative -like "research/_staging/conflicts/*") {
+        if ($lineageSignal) { return 2 }
+        return 6
+    }
+    if ($relative -like "research/_staging/identity/*" -or $relative -like "research/_staging/identity-analysis/*") { return 6 }
     return 9
 }
 

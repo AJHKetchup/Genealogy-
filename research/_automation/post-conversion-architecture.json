@@ -73,7 +73,7 @@
       "preferred_batch_size": 3,
       "max_batch_size": 6,
       "rules": [
-        "Prioritize proof review of atomic relationship and claim drafts before source-packet/backroom notes so the family tree and person pages can grow through reviewed evidence.",
+        "Prioritize proof review of lineage-bearing relationship, birth/name/registration claim, source-packet, and conflict drafts before career-only claims, source-packet/backroom notes, and negative/no-family relationship notes so the family tree and person pages grow from reviewed evidence first.",
         "Reserve worker slots for evidence extraction even while conversion-QA backlog remains so staged claims and relationships are not starved.",
         "Do not repeatedly release a proof-review task only because an older review mentioned a missing page image if a later review has already verified the restored image.",
         "When proof review holds a staged item because converted text, chunk text, and visible image disagree, requeue the owning evidence-extraction task with the review as revision context instead of letting the hold become a dead end.",
