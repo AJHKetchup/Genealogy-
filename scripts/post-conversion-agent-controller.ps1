@@ -254,84 +254,84 @@ function Update-TaskState {
 
 function New-ProofReviewPrompt {
     param([string]$RelativePath)
-    return @"
+    return @'
 # Proof Review Task
 
-Use `$genealogy-proof-review`.
+Use $genealogy-proof-review.
 
 You are a proof-review worker for this exact workspace:
 
-`$Root = "$Root"`
+$Root = "__ROOT__"
 
 You are not alone in the codebase. Other workers may be handling separate staged drafts. Own only this staged draft and do not edit raw sources, converted Markdown, chunks, or canonical wiki pages.
 
 ## Assignment
 
-- Role: `claim_reviewer`
-- Staged draft: `$RelativePath`
-- Output area: `research/_staging/reviews/`
+- Role: claim_reviewer
+- Staged draft: __RELATIVE_PATH__
+- Output area: research/_staging/reviews/
 
 ## Rules
 
 - Read the staged draft and only the referenced converted file, chunk, page image, source packet, QA note, or source page needed to verify it.
 - Check literal support, uncertainty, source reliability, conversion confidence, claim confidence, identity risk, relationship jumps, conflicts, relevance, and claim probability.
-- Treat proof as a scored judgment, not a promoted/not-promoted binary. Include `source_quality_score`, `conversion_confidence_score`, `evidence_quantity_score`, `agreement_score`, `identity_confidence_score`, `claim_probability`, `relevance_level`, `relevance_confidence`, and `canonical_readiness`.
+- Treat proof as a scored judgment, not a promoted/not-promoted binary. Include source_quality_score, conversion_confidence_score, evidence_quantity_score, agreement_score, identity_confidence_score, claim_probability, relevance_level, relevance_confidence, and canonical_readiness.
 - Maintain the hard boundary between verification context and source transcription. "Please double-check whether this is Dario" is allowed; "change this to Dario" is forbidden unless the visible source itself supports that reading.
-- If support is missing or the referenced conversion/chunk is unavailable, mark the item `hold` or `revise`; do not guess.
-- Write a review note under `research/_staging/reviews/` that references this exact staged draft.
-- Do not promote to `research/claims`, `research/relationships`, `wiki/people`, `wiki/families`, or other canonical folders.
+- If support is missing or the referenced conversion/chunk is unavailable, mark the item hold or revise; do not guess.
+- Write a review note under research/_staging/reviews/ that references this exact staged draft.
+- Do not promote to research/claims, research/relationships, wiki/people, wiki/families, or other canonical folders.
 
 ## Done When
 
-- A review note exists under `research/_staging/reviews/`.
-- The note includes probability/evidence scoring plus `canonical_readiness`.
+- A review note exists under research/_staging/reviews/.
+- The note includes probability/evidence scoring plus canonical_readiness.
 - The note lists blockers first, then evidence strengths and next action.
-"@
+'@.Replace("__ROOT__", $Root).Replace("__RELATIVE_PATH__", $RelativePath)
 }
 
 function New-PromotionPrompt {
     param([object[]]$ReadyReviews)
     $readyLines = @()
     foreach ($review in @($ReadyReviews)) {
-        $readyLines += "- `$($review.staged_draft)` ($($review.canonical_readiness); review: `$($review.review_file)`)"
+        $readyLines += "- $($review.staged_draft) ($($review.canonical_readiness); review: $($review.review_file))"
     }
     if ($readyLines.Count -eq 0) {
-        $readyLines = @("- No proof-review notes are currently marked `canonical_readiness: ready` or `ready_with_caveats`.")
+        $readyLines = @("- No proof-review notes are currently marked canonical_readiness: ready or ready_with_caveats.")
     }
     $readySection = ($readyLines -join "`n")
-    return @"
+    return @'
 # Reviewed Promotion Task
 
-Use `$genealogy-proof-review` as the review contract and act as the `wiki_promoter` only for items already reviewed as promotion-ready.
+Use $genealogy-proof-review as the review contract and act as the wiki_promoter only for items already reviewed as promotion-ready.
 
 You are a promotion worker for this exact workspace:
 
-`$Root = "$Root"`
+$Root = "__ROOT__"
 
 ## Assignment
 
-- Role: `wiki_promoter`
-- Review folder: `research/_staging/reviews/`
-- Promotion command: `python -m historic_doc_ingest.genealogy_wiki promote-staged --root "$Root"`
+- Role: wiki_promoter
+- Review folder: research/_staging/reviews/
+- Promotion command: python -m historic_doc_ingest.genealogy_wiki promote-staged --root "__ROOT__"
 
 ## Review-Ready Inputs
 
-$readySection
+__READY_SECTION__
 
 ## Rules
 
-- Promote only staged material with explicit review notes showing strong source support, conservative scores, and `canonical_readiness: ready`.
+- Promote only staged material with explicit review notes showing strong source support, conservative scores, and canonical_readiness: ready.
 - Preserve probability, source quality, conflicts, and uncertainty in canonical pages; promotion is an operational state, not a truth binary.
 - Preserve the distinction between literal transcription and interpretation. Do not convert a suspected reading into canonical fact unless the review says the visible source supports it.
-- Living-family privacy is not a standalone hold for this internal family project; user approval was recorded in `research/_automation/post-conversion-architecture.json`. Still require reviewed evidence, source support, and conservative confidence/status labels.
-- Do not promote drafts with missing converted/chunk evidence, open conversion QA holds, unresolved identity conflicts, low claim probability, or `canonical_readiness` below `ready`.
+- Living-family privacy is not a standalone hold for this internal family project; user approval was recorded in research/_automation/post-conversion-architecture.json. Still require reviewed evidence, source support, and conservative confidence/status labels.
+- Do not promote drafts with missing converted/chunk evidence, open conversion QA holds, unresolved identity conflicts, low claim probability, or canonical_readiness below ready.
 - Run a dry run first and inspect skipped items before any real promotion.
-- After promotion, run `python -m historic_doc_ingest.genealogy_wiki lint --root "$Root"` and update `research/log.md`.
+- After promotion, run python -m historic_doc_ingest.genealogy_wiki lint --root "__ROOT__" and update research/log.md.
 
 ## Done When
 
-- A promotion manifest exists under `research/_staging/promotions/`, or the task writes a review note explaining why nothing was safe to promote.
-"@
+- A promotion manifest exists under research/_staging/promotions/, or the task writes a review note explaining why nothing was safe to promote.
+'@.Replace("__ROOT__", $Root).Replace("__READY_SECTION__", $readySection)
 }
 
 function Get-ReviewFrontmatterValue {
@@ -521,22 +521,22 @@ function Write-ProofReviewQueue {
 
 function New-IdentityAnalysisPrompt {
     param([string]$RelativePath, [string]$Kind)
-    return @"
+    return @'
 # Identity And Conflict Analysis Task
 
-Use `$genealogy-proof-review` as the evidence contract, but act as the `identity_researcher`.
+Use $genealogy-proof-review as the evidence contract, but act as the identity_researcher.
 
 You are an identity/conflict analysis worker for this exact workspace:
 
-`$Root = "$Root"`
+$Root = "__ROOT__"
 
 You are not alone in the codebase. Other workers may be handling separate staged drafts. Own only this staged identity/conflict analysis and do not edit raw sources, converted Markdown, chunks, or canonical wiki pages.
 
 ## Assignment
 
-- Role: `identity_researcher`
-- Staged `$Kind` draft: `$RelativePath`
-- Output area: `research/_staging/identity-analysis/`
+- Role: identity_researcher
+- Staged __KIND__ draft: __RELATIVE_PATH__
+- Output area: research/_staging/identity-analysis/
 
 ## Rules
 
@@ -547,13 +547,13 @@ You are not alone in the codebase. Other workers may be handling separate staged
 - Keep literal source readings separate from interpretation. Family-context hints can justify a double-check, not a silent correction.
 - Preserve multiple hypotheses when identity is uncertain.
 - Score identity confidence, conflict severity, evidence quality, conversion confidence, claim probability, relevance, and canonical readiness.
-- Write one analysis note under `research/_staging/identity-analysis/` that references the exact staged draft.
+- Write one analysis note under research/_staging/identity-analysis/ that references the exact staged draft.
 
 ## Done When
 
-- An identity/conflict analysis note exists under `research/_staging/identity-analysis/`.
+- An identity/conflict analysis note exists under research/_staging/identity-analysis/.
 - The note lists blockers first, then evidence supporting each hypothesis, conflicts, probability/confidence scores, and recommended next action.
-"@
+'@.Replace("__ROOT__", $Root).Replace("__RELATIVE_PATH__", $RelativePath).Replace("__KIND__", $Kind)
 }
 
 function Write-IdentityAnalysisQueue {
