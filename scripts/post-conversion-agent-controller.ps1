@@ -150,11 +150,19 @@ function Resolve-CodexExecutable {
 
 function Invoke-GenealogyWiki {
     param([string[]]$Arguments)
-    $commandOutput = & python -m historic_doc_ingest.genealogy_wiki @Arguments 2>&1
-    $exitCode = $LASTEXITCODE
+    $oldPreference = $ErrorActionPreference
+    try {
+        $ErrorActionPreference = "Continue"
+        $commandOutput = & python -m historic_doc_ingest.genealogy_wiki @Arguments 2>&1
+        $exitCode = $LASTEXITCODE
+    }
+    finally {
+        $ErrorActionPreference = $oldPreference
+    }
     foreach ($line in $commandOutput) { Write-Host $line }
     if ($exitCode -ne 0) {
-        throw "genealogy-wiki failed: $($Arguments -join ' ')"
+        $tail = (($commandOutput | Select-Object -Last 12) -join " | ").Trim()
+        throw "genealogy-wiki failed: $($Arguments -join ' '): $tail"
     }
 }
 

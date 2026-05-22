@@ -5534,6 +5534,15 @@ PAGE_IMAGE_RE = re.compile(
     r"(raw[/\\]codex-conversion-jobs[/\\][^`'\"\s)]+)[/\\]page-images[/\\]page-0*(\d+)\.(?:png|jpe?g)",
     flags=re.IGNORECASE,
 )
+CONVERSION_JOB_MANIFEST_RE = re.compile(
+    r"(raw[/\\]codex-conversion-jobs[/\\][^`'\"\s)]+[/\\]manifest\.json)",
+    flags=re.IGNORECASE,
+)
+CONVERTED_MARKDOWN_RE = re.compile(
+    r"(raw[/\\]converted[/\\][^`'\"\s)]+\.md)",
+    flags=re.IGNORECASE,
+)
+CHUNK_PAGE_RE = re.compile(r"\bCHUNK-[A-Za-z0-9]+-P0*(\d+)-", flags=re.IGNORECASE)
 
 
 def sync_proof_review_hold_feedback(root: Path) -> dict[str, object]:
@@ -5654,7 +5663,17 @@ def proof_review_has_missing_page_image_hold(text: str) -> bool:
         "canonical_readiness" in lowered
         and "hold" in lowered
         and ("page image" in lowered or "page-image" in lowered)
-        and any(term in lowered for term in ("unavailable", "missing", "not present", "could not be performed"))
+        and any(
+            term in lowered
+            for term in (
+                "unavailable",
+                "missing",
+                "not available",
+                "not present",
+                "no page-image",
+                "could not be performed",
+            )
+        )
     )
 
 
@@ -5671,10 +5690,15 @@ def proof_review_hold_asset_targets(root: Path) -> list[dict[str, object]]:
             continue
         staged_draft = staged_draft_from_proof_review(text)
         review_rel = review_path.relative_to(root).as_posix()
-        for match in PAGE_IMAGE_RE.finditer(text):
-            job_dir = match.group(1).replace("\\", "/")
-            job_manifest = f"{job_dir}/manifest.json"
-            page_number = int(match.group(2))
+        target_refs = proof_review_explicit_asset_refs(text)
+        if not target_refs:
+            inference_text = text
+            if staged_draft:
+                staged_path = root / staged_draft
+                if staged_path.exists():
+                    inference_text = f"{text}\n{read_text(staged_path)}"
+            target_refs = proof_review_inferred_asset_refs(root, inference_text)
+        for job_manifest, page_number in target_refs:
             key = (job_manifest, page_number)
             target = targets_by_key.setdefault(
                 key,
@@ -5693,6 +5717,85 @@ def proof_review_hold_asset_targets(root: Path) -> list[dict[str, object]]:
                 staged_drafts.append(staged_draft)
 
     return list(targets_by_key.values())
+
+
+def proof_review_explicit_asset_refs(text: str) -> list[tuple[str, int]]:
+    refs: list[tuple[str, int]] = []
+    seen: set[tuple[str, int]] = set()
+    for match in PAGE_IMAGE_RE.finditer(text):
+        job_dir = match.group(1).replace("\\", "/")
+        page_number = int(match.group(2))
+        ref = (f"{job_dir}/manifest.json", page_number)
+        if ref not in seen:
+            seen.add(ref)
+            refs.append(ref)
+    return refs
+
+
+def proof_review_inferred_asset_refs(root: Path, text: str) -> list[tuple[str, int]]:
+    manifests: list[str] = []
+    seen_manifests: set[str] = set()
+
+    def add_manifest(value: str) -> None:
+        normalized = value.strip().strip("`").replace("\\", "/")
+        if not normalized or normalized in seen_manifests:
+            return
+        seen_manifests.add(normalized)
+        manifests.append(normalized)
+
+    for match in CONVERSION_JOB_MANIFEST_RE.finditer(text):
+        add_manifest(match.group(1))
+
+    for match in CONVERTED_MARKDOWN_RE.finditer(text):
+        converted_rel = match.group(1).replace("\\", "/")
+        converted_path = root / converted_rel
+        try:
+            _, _, source_manifest = parse_conversion_metadata(converted_path.read_text(encoding="utf-8"))
+        except OSError:
+            source_manifest = ""
+        if source_manifest:
+            add_manifest(source_manifest)
+
+    refs: list[tuple[str, int]] = []
+    seen_refs: set[tuple[str, int]] = set()
+    for manifest_rel in manifests:
+        pages = proof_review_page_numbers_for_manifest(root, manifest_rel, text)
+        for page_number in pages:
+            ref = (manifest_rel, page_number)
+            if ref in seen_refs:
+                continue
+            seen_refs.add(ref)
+            refs.append(ref)
+    return refs
+
+
+def proof_review_page_numbers_for_manifest(root: Path, manifest_rel: str, text: str) -> list[int]:
+    manifest_path = root / manifest_rel
+    manifest = read_json_payload(manifest_path, {})
+    manifest_pages = [
+        safe_int(page.get("page"), 0)
+        for page in manifest.get("pages", [])
+        if isinstance(page, dict) and safe_int(page.get("page"), 0) > 0
+    ]
+    if len(manifest_pages) == 1:
+        return manifest_pages
+
+    pages: set[int] = set()
+    for match in CHUNK_PAGE_RE.finditer(text):
+        page_number = int(match.group(1))
+        if not manifest_pages or page_number in manifest_pages:
+            pages.add(page_number)
+
+    for match in re.finditer(r"\bpage(?:\s+range)?\s*[:#-]?\s*0*(\d{1,4})(?:\s*[-–]\s*0*(\d{1,4}))?", text, flags=re.IGNORECASE):
+        start = int(match.group(1))
+        end = int(match.group(2) or start)
+        for page_number in range(start, end + 1):
+            if not manifest_pages or page_number in manifest_pages:
+                pages.add(page_number)
+
+    if pages:
+        return sorted(pages)
+    return sorted(manifest_pages)
 
 
 def restore_proof_review_hold_assets(

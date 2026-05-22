@@ -1737,6 +1737,94 @@ canonical_readiness: hold
     )
 
 
+def test_restore_proof_review_hold_assets_infers_target_from_converted_file(tmp_path, monkeypatch) -> None:
+    init_genealogy_wiki(tmp_path)
+    job_dir = tmp_path / "raw" / "codex-conversion-jobs" / "job-two"
+    job_dir.mkdir(parents=True, exist_ok=True)
+    (job_dir / "manifest.json").write_text(
+        json.dumps(
+            {
+                "source_file": "raw/sources/register-two.png",
+                "source_sha256": "def456",
+                "media_type": "image",
+                "pages": [
+                    {
+                        "page": 1,
+                        "source_page": 1,
+                        "image_path": "raw/codex-conversion-jobs/job-two/page-images/page-0001.png",
+                    }
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+    converted = tmp_path / "raw" / "converted" / "register-two.codex.md"
+    converted.parent.mkdir(parents=True, exist_ok=True)
+    converted.write_text(
+        """# Converted Source
+
+- Source: `raw/sources/register-two.png`
+- Source SHA-256: `def456`
+- Manifest: `raw/codex-conversion-jobs/job-two/manifest.json`
+""",
+        encoding="utf-8",
+    )
+    draft = tmp_path / "research" / "_staging" / "relationships" / "register-two-relationships.md"
+    draft.parent.mkdir(parents=True, exist_ok=True)
+    draft.write_text("# Staged Relationships\n", encoding="utf-8")
+    review = tmp_path / "research" / "_staging" / "reviews" / "register-two-proof-review.md"
+    review.parent.mkdir(parents=True, exist_ok=True)
+    review.write_text(
+        """---
+type: proof_review
+staged_draft: research/_staging/relationships/register-two-relationships.md
+canonical_readiness: hold
+---
+
+# Proof Review
+
+## Blockers
+
+- Converted file: `raw/converted/register-two.codex.md`
+- No page-image cache is available in the cited conversion job directory.
+- Source image review could not be performed.
+""",
+        encoding="utf-8",
+    )
+    update_agent_task_state(
+        tmp_path,
+        "proof-review:research/_staging/relationships/register-two-relationships.md",
+        "done",
+        agent="old-reviewer",
+    )
+
+    png_bytes = (
+        b"\x89PNG\r\n\x1a\n\x00\x00\x00\rIHDR\x00\x00\x00\x01\x00\x00\x00\x01"
+        b"\x08\x02\x00\x00\x00\x90wS\xde\x00\x00\x00\x0cIDATx\x9cc```\x00\x00\x00"
+        b"\x04\x00\x01\xf6\x178U\x00\x00\x00\x00IEND\xaeB`\x82"
+    )
+
+    def fake_restore_raw(root, config, **kwargs):
+        del config, kwargs
+        source = root / "raw" / "sources" / "register-two.png"
+        source.parent.mkdir(parents=True, exist_ok=True)
+        source.write_bytes(png_bytes)
+        return {"restored": 1, "skipped": 0, "errors": []}
+
+    monkeypatch.setattr(genealogy_wiki, "load_raw_cloud_config", lambda root: object())
+    monkeypatch.setattr(genealogy_wiki, "restore_raw_from_cloud", fake_restore_raw)
+
+    summary = restore_proof_review_hold_assets(tmp_path)
+
+    assert summary["restored_page_images"] == 1
+    assert (job_dir / "page-images" / "page-0001.png").exists()
+    task_state = genealogy_wiki.load_agent_task_state(tmp_path)
+    assert (
+        task_state["proof-review:research/_staging/relationships/register-two-relationships.md"]["status"]
+        == "released"
+    )
+
+
 def test_source_prep_fastlane_completes_born_digital_pdf_pages(tmp_path) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
