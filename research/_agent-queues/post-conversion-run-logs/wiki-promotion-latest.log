@@ -5,7 +5,7 @@ Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\sourc
 Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
 source-relevance sync-review-holds | summary
 {
-  "review_count": 193,
+  "review_count": 198,
   "candidate_count": 30,
   "changed_count": 0,
   "feedback_path": "research/_agent-queues/source-relevance-feedback.json"
@@ -22,7 +22,7 @@ source-relevance restore-review-assets | summary
 }
 post-conversion-controller | summary
 {
-    "started":  "2026-05-22T18:31:38Z",
+    "started":  "2026-05-22T19:04:00Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "dry_run":  false,
     "allow_promotion":  true,
@@ -41,19 +41,19 @@ post-conversion-controller | summary
                                          "todo":  200
                                      },
                    "evidence-extraction":  {
-                                               "done":  15,
-                                               "todo":  588,
+                                               "done":  19,
+                                               "todo":  584,
                                                "deferred_low_relevance":  4134,
                                                "blocked_needs_reread":  98
                                            },
                    "identity-analysis":  {
-                                             "todo":  107,
+                                             "todo":  113,
                                              "done":  3
                                          },
                    "proof-review":  {
-                                        "done":  122,
-                                        "todo":  375,
-                                        "released":  47
+                                        "done":  126,
+                                        "todo":  395,
+                                        "released":  48
                                     },
                    "wiki-promotion":  {
                                           "blocked_no_reviewed_ready":  1
@@ -67,5 +67,5 @@ post-conversion-controller | summary
     "blockers":  [
 
                  ],
-    "finished":  "2026-05-22T18:32:54Z"
+    "finished":  "2026-05-22T19:05:23Z"
 }

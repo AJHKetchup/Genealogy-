@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-05-22T18:32:54Z",
+    "updated":  "2026-05-22T19:05:23Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "max_workers":  1,
     "allow_promotion":  true,
@@ -7,7 +7,7 @@
 
                        ],
     "last_summary":  {
-                         "started":  "2026-05-22T18:31:38Z",
+                         "started":  "2026-05-22T19:04:00Z",
                          "root":  "D:\\a\\Genealogy-\\Genealogy-",
                          "dry_run":  false,
                          "allow_promotion":  true,
@@ -26,19 +26,19 @@
                                                               "todo":  200
                                                           },
                                         "evidence-extraction":  {
-                                                                    "done":  15,
-                                                                    "todo":  588,
+                                                                    "done":  19,
+                                                                    "todo":  584,
                                                                     "deferred_low_relevance":  4134,
                                                                     "blocked_needs_reread":  98
                                                                 },
                                         "identity-analysis":  {
-                                                                  "todo":  107,
+                                                                  "todo":  113,
                                                                   "done":  3
                                                               },
                                         "proof-review":  {
-                                                             "done":  122,
-                                                             "todo":  375,
-                                                             "released":  47
+                                                             "done":  126,
+                                                             "todo":  395,
+                                                             "released":  48
                                                          },
                                         "wiki-promotion":  {
                                                                "blocked_no_reviewed_ready":  1
@@ -52,6 +52,6 @@
                          "blockers":  [
 
                                       ],
-                         "finished":  "2026-05-22T18:32:54Z"
+                         "finished":  "2026-05-22T19:05:23Z"
                      }
 }
