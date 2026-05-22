@@ -358,6 +358,42 @@ No uncertainty.
     assert lint_genealogy_wiki(tmp_path) == []
 
 
+def test_promote_staged_claim_skips_record_subject_as_person(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    staged_claims = tmp_path / "research" / "_staging" / "claims"
+    staged_claims.mkdir(parents=True, exist_ok=True)
+    staged_claims.joinpath("CL-STAGE-Entry-Subject.md").write_text(
+        """---
+type: claim
+status: probable
+claim_type: registration
+confidence: 8.0
+subject: Birth registration entry 172 for Test Person
+predicate: registration_date
+object: 1888-04-07
+source: raw/converted/register.codex.md
+promotion_recommendation: promote
+---
+
+# Atomic Claim: Entry Subject
+
+## Literal Source Support
+
+```text
+Entry 172.
+```
+""",
+        encoding="utf-8",
+    )
+
+    summary = promote_staged_drafts(tmp_path)
+
+    assert not (tmp_path / "research" / "claims" / "cl-stage-entry-subject.md").exists()
+    assert not (tmp_path / "wiki" / "people" / "birth-registration-entry-172-for-test-person.md").exists()
+    assert summary["skipped"]
+    assert "not a person-like reference" in summary["skipped"][0]["reason"]
+
+
 def test_promote_staged_parent_candidate_updates_tree(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     staged_packets = tmp_path / "research" / "_staging" / "source-packets"

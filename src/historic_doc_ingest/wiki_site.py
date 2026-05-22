@@ -963,6 +963,27 @@ def timeline_dates_from_fields(page: SitePage, fields: list[str]) -> list[str]:
     return dates
 
 
+NON_PERSON_PRESENTATION_PREFIXES = (
+    "birth registration entry",
+    "death registration entry",
+    "marriage registration entry",
+    "registration entry",
+    "record entry",
+    "certificate no",
+    "certificate number",
+    "source packet",
+    "passenger list",
+    "document page",
+    "page ",
+)
+
+
+def include_family_person_page(page: SitePage) -> bool:
+    title = str(page.frontmatter.get("display_name") or page.title or "").strip()
+    lowered = " ".join(title.lower().split())
+    return not any(lowered.startswith(prefix) for prefix in NON_PERSON_PRESENTATION_PREFIXES)
+
+
 def build_family_wiki(
     root: Path,
     pages: list[SitePage],
@@ -970,7 +991,11 @@ def build_family_wiki(
     timeline_items: list[dict[str, object]],
 ) -> dict[str, object]:
     people_pages = sorted(
-        [page for page in pages if page.source_root == "wiki" and page.section == "people"],
+        [
+            page
+            for page in pages
+            if page.source_root == "wiki" and page.section == "people" and include_family_person_page(page)
+        ],
         key=lambda page: (not frontmatter_bool(page.frontmatter.get("home_person", "")), page.title.lower()),
     )
     relationship_pages = sorted(

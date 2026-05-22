@@ -33,6 +33,17 @@ See [[people/parent|Parent Person]].
 """,
         encoding="utf-8",
     )
+    (tmp_path / "wiki" / "people" / "birth-registration-entry-172-for-child-person.md").write_text(
+        """---
+type: person
+display_name: Birth registration entry 172 for Child Person
+---
+# Birth registration entry 172 for Child Person
+
+This is a source record label, not a person profile.
+""",
+        encoding="utf-8",
+    )
     genealogy_wiki.create_relationship(
         root=tmp_path,
         relationship_id="R001",
@@ -58,11 +69,13 @@ See [[people/parent|Parent Person]].
     data_js = (output / "assets" / "site-data.js").read_text(encoding="utf-8")
     assert "Child Person" in parent_html
     assert "Parent Person" in people_html
+    assert "Birth registration entry 172 for Child Person" not in people_html
     assert "tree-edge" in tree_html
     assert "Parent Person" in tree_html
     assert "Child Person" in tree_html
     assert "Parent Person" in index_html
     assert "Child Person" in index_html
+    assert "Birth registration entry 172 for Child Person" not in index_html
     assert "probable parent of" in tree_html
     assert "../../wiki/people/child.html" in parent_html
     assert "Parent Person" in data_js
@@ -137,6 +150,17 @@ display_name: Indexed Child
 home_person: true
 ---
 # Indexed Child
+""",
+        encoding="utf-8",
+    )
+    (tmp_path / "wiki" / "people" / "birth-registration-entry-172-for-child-person.md").write_text(
+        """---
+type: person
+display_name: Birth registration entry 172 for Child Person
+---
+# Birth registration entry 172 for Child Person
+
+This is a source record label, not a person profile.
 """,
         encoding="utf-8",
     )

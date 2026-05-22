@@ -1328,6 +1328,14 @@ def promote_staged_drafts(
         canonical_link = f"[[claims/{canonical_path.stem}]]"
         add_staged_claim_reference_mapping(claim_map, paths, staged_claim, canonical_link)
         subject_name = frontmatter.get("subject", "")
+        if not is_person_like_reference(subject_name):
+            summary_list(summary, "skipped").append(
+                {
+                    "path": staged_claim.relative_to(paths.root).as_posix(),
+                    "reason": f"claim subject is not a person-like reference: {subject_name}",
+                }
+            )
+            continue
         subject_link = ensure_person_page(paths, subject_name, summary, dry_run=dry_run)
         packet_link = lookup_staged_reference(frontmatter.get("source_packet", ""), packet_map)
         if packet_link:
@@ -1760,6 +1768,32 @@ def ensure_person_page(
     page_path.write_text(content.strip() + "\n", encoding="utf-8")
     append_index_reference(paths.wiki / "index.md", "People", link)
     return link
+
+
+NON_PERSON_SUBJECT_PREFIXES = (
+    "birth registration entry",
+    "death registration entry",
+    "marriage registration entry",
+    "registration entry",
+    "record entry",
+    "certificate no",
+    "certificate number",
+    "source packet",
+    "passenger list",
+    "document page",
+    "page ",
+)
+
+
+def is_person_like_reference(value: str) -> bool:
+    """Return true when a staged subject can safely become a canonical person."""
+    if looks_like_wikilink(value):
+        return wikilink_target(value).startswith("people/")
+    clean = clean_person_name(value)
+    if not clean:
+        return False
+    lowered = " ".join(clean.lower().split())
+    return not any(lowered.startswith(prefix) for prefix in NON_PERSON_SUBJECT_PREFIXES)
 
 
 def clean_person_name(value: str) -> str:
@@ -2229,6 +2263,15 @@ def promote_staged_relationship(
     dry_run: bool,
 ) -> list[str]:
     if frontmatter.get("type") == "relationship":
+        person_values = [frontmatter.get("person_a", ""), frontmatter.get("person_b", "")]
+        if not all(is_person_like_reference(value) for value in person_values):
+            summary_list(summary, "skipped").append(
+                {
+                    "path": staged_relationship.relative_to(paths.root).as_posix(),
+                    "reason": "relationship endpoint is not a person-like reference",
+                }
+            )
+            return []
         person_a = ensure_person_page(paths, frontmatter.get("person_a", ""), summary, dry_run=dry_run)
         person_b = ensure_person_page(paths, frontmatter.get("person_b", ""), summary, dry_run=dry_run)
         relationship_type = frontmatter.get("relationship_type", "possible_parent")
@@ -2272,6 +2315,14 @@ def promote_staged_relationship(
     if relationship_type in pair_candidate_types:
         person_a_name = frontmatter.get("person_a", "")
         person_b_name = frontmatter.get("person_b", "")
+        if not all(is_person_like_reference(value) for value in [person_a_name, person_b_name]):
+            summary_list(summary, "skipped").append(
+                {
+                    "path": staged_relationship.relative_to(paths.root).as_posix(),
+                    "reason": "relationship candidate endpoint is not a person-like reference",
+                }
+            )
+            return []
         person_a = ensure_person_page(paths, person_a_name, summary, dry_run=dry_run)
         person_b = ensure_person_page(paths, person_b_name, summary, dry_run=dry_run)
         confidence = frontmatter.get("confidence", "0.0")
@@ -2308,11 +2359,27 @@ def promote_staged_relationship(
         )
     child = frontmatter.get("child", "")
     parents = parse_listish(frontmatter.get("parents", ""))
+    if not is_person_like_reference(child):
+        summary_list(summary, "skipped").append(
+            {
+                "path": staged_relationship.relative_to(paths.root).as_posix(),
+                "reason": f"relationship candidate child is not a person-like reference: {child}",
+            }
+        )
+        return []
     child_link = ensure_person_page(paths, child, summary, dry_run=dry_run)
     confidence = frontmatter.get("confidence", "0.0")
     canonical_relationship_type = "probable_parent" if float_or_zero(confidence) >= 8.0 else "possible_parent"
     written: list[str] = []
     for parent in parents:
+        if not is_person_like_reference(parent):
+            summary_list(summary, "skipped").append(
+                {
+                    "path": staged_relationship.relative_to(paths.root).as_posix(),
+                    "reason": f"relationship candidate parent is not a person-like reference: {parent}",
+                }
+            )
+            continue
         parent_link = ensure_person_page(paths, parent, summary, dry_run=dry_run)
         supporting_claims = matching_parentage_claims(promoted_claims, child, parent)
         relationship_stem = slug(f"{staged_relationship.stem}-{parent}-parent")
