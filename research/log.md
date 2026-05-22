@@ -26383,3 +26383,4 @@
 ## [2026-05-22] prep-chunk | Wrote raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-09220dde10/manifest.json
 ## [2026-05-22] prepare-sources | Prepared 22 raw source(s)
 ## [2026-05-22] gemini-source-prep | processed 39, completed 29, released 10, held 1, parallelism=8, routes={'pro': 8, 'pro_with_crops': 4, 'lite': 27}, fallback_policy=large_corpus_relevance, dry_run=False
+## [2026-05-22] source-relevance | Restored proof-review assets and released 33 review task(s)

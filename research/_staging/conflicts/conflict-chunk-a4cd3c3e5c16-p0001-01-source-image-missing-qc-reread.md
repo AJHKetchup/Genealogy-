@@ -2,13 +2,13 @@
 type: conflict_candidate
 status: draft
 conflict_type: conversion_qa_blocker
-subject: "Andes passenger list, page 1, Pulgar rows"
+subject: "Andes passenger list, page 1, child Dario Pulgar last UK address"
 source_packet: "research/_staging/source-packets/sp-chunk-a4cd3c3e5c16-p0001-01-andes-pulgar-passenger-list.md"
 confidence: high
 promotion_recommendation: hold_for_conversion_qa
 ---
 
-# Conflict Candidate: Missing Source Image and Reread Requirement
+# Conflict Candidate: Child Dario Pulgar Address Ditto Requires Reread
 
 Source path: `raw/sources/Passenger List, Royal Mail Lines Limited, August 7, 1953.png`
 
@@ -18,7 +18,7 @@ Chunk/page reference: `raw/chunks/ca5a5078ab-passenger-list-royal-mai-passenger-
 
 ## Issue
 
-The controller marked this extraction with `qc:reread-page`, and conversion-review triage lists the page as critical relevance with low confidence and action `reread-page`. The original image was not found at the task's `source_path` during this extraction pass, so image-level verification could not be completed.
+The controller marked this extraction with `qc:reread-page`, and the prior proof review found that the composite child-row claim was not promotion-ready. Local image review now confirms the source image is present, but the child Dario row's column 6 last-UK-address cell is still not clear enough to promote as a ditto mark for `Bedford Corner Hotel, London.`
 
 ## Literal Support
 
@@ -30,20 +30,20 @@ family_relevance: critical
 matched_terms: Dario, John, Juan, Mercedes, Pulgar
 ```
 
-Conversion-review triage:
+Prior proof review:
 
 ```text
-| 1 | critical | low | reread-page | none | Dario, John, Juan, Mercedes, Pulgar |
+The source image does not clearly show a column 6 ditto mark on the child Dario row.
 ```
 
 ## Conversion Confidence And QA Concern
 
-This is a QA blocker for promotion. Draft claims can preserve the extracted evidence, but proof review should not promote them until the page image is restored or reread.
+This is a QA blocker for the child last-UK-address claim only. Draft claims can preserve the image-supported England and Chile fields separately.
 
 ## Uncertainty
 
-The converted Pulgar rows appear coherent, but unverified source-image readings could affect names, ages, ditto marks, or column alignment.
+The converted table renders a ditto mark in the child row address column, but the image-reviewed evidence is weaker for that column than for the child row age, `Student`, England mark, and Chile ditto marks.
 
 ## Promotion Recommendation
 
-Hold for conversion QA.
+Hold the child address claim for conversion QA.

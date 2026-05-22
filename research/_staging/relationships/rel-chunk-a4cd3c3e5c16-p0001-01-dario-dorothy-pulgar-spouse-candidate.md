@@ -32,7 +32,7 @@ The age columns used for both adults are labeled for adults `Accompanied by husb
 
 ## Conversion Confidence And QA Concern
 
-Low. The page is queued for reread and the original image was not available at the recorded path during extraction.
+Low for relationship promotion. Local image review confirms the row grouping, but the record does not explicitly identify Dario and Dorothy as spouses.
 
 ## Uncertainty
 

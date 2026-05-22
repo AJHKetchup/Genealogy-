@@ -9,7 +9,7 @@ chunk: "raw/chunks/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-
 chunk_id: CHUNK-8daffb98e793-P0002-01
 page_reference: "source page 2; chunk also contains page 3 material"
 priority: medium
-promotion_recommendation: revise_before_review
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Research Task: Resolve Chunk Boundary And Directorship Chronology
@@ -18,4 +18,4 @@ promotion_recommendation: revise_before_review
 - Remaining objective: Separate page 3 content from the assigned page 2 chunk and resolve whether the 1917 and 1920 directorship statements represent separate appointments, a machine-translation issue, or an article-level chronology issue.
 - Conversion confidence/QA concern: the chunk includes a second `Page Metadata` section for page 3 and a page 3 figure caption after the page 2 transcription.
 - Uncertainty: Directorship dates and full name form for Dr. Gomez need review before any canonical promotion.
-- Promotion recommendation: the narrow birth-year claim may proceed to proof review; hold or revise all other biographical and occupational claims from this chunk.
+- Promotion recommendation: keep all canonical promotion on hold for conversion QA. The birth-year and literal birthplace wording are visible on page 2, but page-boundary cleanup remains unresolved.

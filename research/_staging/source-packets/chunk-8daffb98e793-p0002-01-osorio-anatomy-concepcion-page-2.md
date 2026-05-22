@@ -2,7 +2,7 @@
 type: source_packet
 status: draft
 task_id: evidence-extraction:CHUNK-8daffb98e793-P0002-01
-worker: postconv-evidence-extraction-20260522122744978
+worker: postconv-evidence-extraction-20260522124143912
 source_title: "Osorio et al., Pioneers of a Century of Anatomical Teaching in the City of Concepcion, Chile"
 source_type: journal_article
 source_path: "raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf"
@@ -18,17 +18,17 @@ matched_terms:
   - Dios
   - Juan
   - knowledge
-conversion_confidence: medium_high_for_page_2_sentence_after_image_reread
-conversion_qa_concern: "The rendered page 2 image was located and reread, confirming the biographical sentence about Dr. Virginio Gomez's birth year. The assigned chunk still includes a second Page Metadata/Literal Transcription block for page 3, so page-boundary cleanup remains needed. The matched terms appear to be false positives from 'San Juan de Dios Hospital' and generic article text rather than direct family evidence."
-uncertainty: "Low for the narrow page 2 sentence that states Dr. Virginio Gomez was born in Los Angeles in 1877. Moderate for other biographical, occupational, and identity-normalization uses because the source is a secondary journal article and the chunk contains page 3 contamination."
-promotion_recommendation: promote_after_review
+conversion_confidence: medium_high_for_visible_page_2_sentence
+conversion_qa_concern: "The rendered page 2 image is present and was reread, confirming the biographical sentence about Dr. Virginio Gomez's birth year and literal birthplace wording. The assigned chunk still includes a second Page Metadata/Literal Transcription block for page 3, so page-boundary cleanup remains needed before any canonical promotion. The matched terms appear to be false positives from 'San Juan de Dios Hospital' and generic article text rather than direct family evidence."
+uncertainty: "Low for the narrow visible page 2 sentence that states Dr. Virginio Gomez was born in Los Angeles in 1877. Moderate for other biographical, occupational, and identity-normalization uses because the source is a secondary journal article and the chunk contains page 3 contamination."
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Source Packet: Osorio et al. Anatomy Teaching Article, Page 2
 
 This packet stages evidence from the assigned page 2 chunk of a 2020 journal article about anatomical teaching in Concepcion, Chile. The page contains general institutional history and a short biographical paragraph about Dr. Virginio Gomez.
 
-Revision note, 2026-05-22: The rendered page image `raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-images/page-0002.jpg` is present in this workspace and visibly confirms the birth-year sentence. Promotion from this packet is limited to the narrow birth-year claim; all other claims remain contextual, held, or non-promotable as separately staged.
+Revision note, 2026-05-22: The rendered page image `raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-images/page-0002.jpg` is present in this workspace and visibly confirms the birth-year and literal birthplace sentence. Canonical promotion remains on hold because the assigned chunk is contaminated with page 3 material and has not had page-boundary cleanup.
 
 ## Literal Support
 
@@ -40,7 +40,7 @@ This committee was made up of a group of illustrious people from Concepción wit
 
 ## Evidence Scope
 
-The page supports a narrow, image-confirmed birth-year claim for Dr. Virginio Gomez. Other biographical and office-holding details are staged only as context or unresolved candidates. It does not state any parent-child, spouse, sibling, or other family relationship. It is a secondary published article, not a vital record.
+The page supports narrow, image-confirmed birth-year and literal birthplace wording for Dr. Virginio Gomez. These remain staged as secondary-source evidence and should not be promoted until conversion/page-boundary QA is resolved. Other biographical and office-holding details are staged only as context or unresolved candidates. It does not state any parent-child, spouse, sibling, or other family relationship. It is a secondary published article, not a vital record.
 
 ## QA Notes
 

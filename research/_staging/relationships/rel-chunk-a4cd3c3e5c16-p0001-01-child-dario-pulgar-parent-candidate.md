@@ -29,11 +29,11 @@ The younger Dario Pulgar may be the child of the adjacent adult Pulgar passenger
 | | " | " Dario | " | | | | | 11 | | | | " | Student | + | ... | " | " |
 ```
 
-The three rows are consecutive Pulgar rows with ditto marks for surname, address, intended residence, and citizenship.
+The three rows are consecutive Pulgar rows with ditto marks for surname, intended residence, and citizenship. The child row address ditto mark is not clear enough on the image for promotion.
 
 ## Conversion Confidence And QA Concern
 
-Low. The page is queued for reread and the original image was not available at the recorded path during extraction.
+Low for relationship promotion. Local image review confirms the row grouping, but the page contains no explicit relationship column or relationship wording.
 
 ## Uncertainty
 

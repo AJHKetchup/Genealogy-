@@ -29,7 +29,7 @@ The passenger list contains two separate Dario Pulgar entries: one adult male ag
 
 ## Conversion Confidence And QA Concern
 
-Low for final promotion because the page is queued for reread and the original source image is missing locally. The internal distinction in the converted table is still strong: the two Dario rows have different age columns and occupations/callings.
+Medium for final promotion after proof review. Local image review confirms two separate Dario Pulgar entries: an adult row with age `64` and occupation/calling `Medical`, and a child row with age `11` and occupation/calling `Student`.
 
 ## Uncertainty
 

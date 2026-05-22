@@ -12,4 +12,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arriagada, Birth, Carmen, Jose, Juan, Juana, Luis, Pulgar, Registration, Riquelme, Segundo
+- Matched family context: Birth, Carmen, Entry, Juan, Luis, Registration

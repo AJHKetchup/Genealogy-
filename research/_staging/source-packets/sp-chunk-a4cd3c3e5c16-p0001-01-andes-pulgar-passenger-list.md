@@ -18,7 +18,7 @@ departure_date: "1953-08-07"
 departure_port: "Southampton"
 destination_region: "South America"
 family_relevance: critical
-promotion_recommendation: hold_for_conversion_qa
+promotion_recommendation: promote_after_review
 ---
 
 # Source Packet Draft: Andes Passenger List, Pulgar Rows
@@ -57,12 +57,14 @@ The table header identifies the repeated ditto in column 2 as port contracted to
 
 ## Conversion Confidence And QA Concern
 
-Conversion confidence is low for promotion because the controller flagged `qc:reread-page`, and the conversion-review triage lists page 1 as critical relevance with low confidence and action `reread-page`. I attempted local image review, but the task's source path is not present in `raw/sources`, so the Pulgar rows could not be verified against the original image in this extraction pass.
+Conversion confidence is mixed. Local image review of `raw/sources/Passenger List, Royal Mail Lines Limited, August 7, 1953.png` confirms the page identity and the main Pulgar row structure, including the child row name by ditto, age `11`, occupation `Student`, the `+` mark in the England subcolumn, and ditto marks in columns 9 and 10 following `Chile`.
+
+The child row's column 6 last-address cell remains a QA concern. The conversion renders a ditto mark for the child Dario address, but the image does not make that mark sufficiently clear for a promotable address claim. Preserve this disagreement instead of silently normalizing the child address to the adult Pulgar address.
 
 ## Uncertainty
 
-Do not infer canonical relationships from this passenger list alone. The adult rows use the age columns for passengers accompanied by a husband or wife, and the three Pulgar rows are consecutive with ditto marks, but the document does not explicitly label Dorothy as Dario's wife or the younger Dario as their child. The handwritten red annotations beside adult ages also need page-image review before any interpretation.
+Do not infer canonical relationships from this passenger list alone. The adult rows use the age columns for passengers accompanied by a husband or wife, and the three Pulgar rows are consecutive with ditto marks, but the document does not explicitly label Dorothy as Dario's wife or the younger Dario as their child. The handwritten red annotations beside adult ages also should not be treated as vital facts without separate interpretation.
 
 ## Promotion Recommendation
 
-`hold_for_conversion_qa`: the Pulgar facts are family-relevant and structured, but should not flow to the tree until the missing source image is restored or located and the page is reread.
+`promote_after_review` for the source packet only. Promote individual child-row claims selectively: age, student occupation, England last-permanent-residence mark, and Chile ditto-mark fields can move after proof review; the child last-UK-address reading should remain held for targeted conversion QA.

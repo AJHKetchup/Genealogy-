@@ -5,7 +5,7 @@ task_id: evidence-extraction:CHUNK-b8f4f0490a36-P0001-01
 source_packet: "research/_staging/source-packets/chunk-b8f4f0490a36-p0001-01-entry-172-jose-del-carmen-segundo-pulgar-arriagada.md"
 source: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png"
 converted_file: "raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172.codex.md"
-chunk: "raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-09220dde10/page-0001-chunk-01.md"
+chunk: "raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172-codex/page-0001-chunk-01.md"
 chunk_id: CHUNK-b8f4f0490a36-P0001-01
 page_reference: "page 1; register page 58; entry 172"
 confidence: high
@@ -17,16 +17,23 @@ promotion_recommendation: hold_for_conversion_qa
 ## Reread-page QA Flag
 
 - Literal support reviewed: entry 172 full row.
-- Conversion confidence/QA concern: original image was located and reread on 2026-05-22. Most fields agree with the derivative transcript; father-name suffix remains a textual QA issue.
-- Uncertainty: The prior image-availability blocker is resolved for the child-name claim. Father-name suffix still needs conversion QA.
+- Conversion confidence/QA concern: original image was located and reread on 2026-05-22. The assigned chunk and image support the Pulgar/Arriagada row, but the converted Markdown file's entry 172 is an unrelated Oswaldo Burgos/Concepcion de la Cruz row. Father-name suffix remains a textual QA issue within the Pulgar/Arriagada row.
+- Uncertainty: The prior image-availability blocker is resolved for the child-name claim. Converted-file mismatch and father-name suffix still need conversion QA.
 - Promotion recommendation: hold_for_conversion_qa for father-name identity decisions.
 
 ## Father Name Suffix Disagreement
 
-- Literal support: derivative transcript states `**Nombre del padre** Jose del Carmen Pulgar S.`; image reread supports `Jose del Carmen Pulgar` and does not show a clearly visible final `S.` suffix.
-- Conversion confidence/QA concern: textual contradiction between derivative transcript and image-reviewed evidence.
+- Literal support: assigned chunk states `**Nombre del padre** Jose del Carmen Pulgar S.`; image reread supports `Jose del Carmen Pulgar` and does not show a clearly visible final `S.` suffix.
+- Conversion confidence/QA concern: textual contradiction between the assigned chunk and image-reviewed evidence.
 - Uncertainty: Moderate for the exact father name and any canonical identity merge.
 - Promotion recommendation: hold_for_conversion_qa for father-name claims and parent relationship candidates until conversion QA reconciles the suffix.
+
+## Converted File Entry 172 Mismatch
+
+- Literal support: converted Markdown file entry 172 states `**Nombres.** José Miguel`, father `Oswaldo Burgos`, and mother `Concepcion de la Cruz`; assigned chunk and image show entry 172 as `Jose del Carmen Segundo Pulgar Arriagada`, father `Jose del Carmen Pulgar`/`Jose del Carmen Pulgar S.`, and mother `Juana Arriagada de Pulgar`.
+- Conversion confidence/QA concern: material mismatch between the converted Markdown file and both the assigned chunk and source image for the same entry number.
+- Uncertainty: High for using the converted Markdown file as support for this task; low that the source image visible in the workspace is the Pulgar/Arriagada entry named by the task source and chunk.
+- Promotion recommendation: hold_for_conversion_qa for any draft that depends on the converted Markdown text itself; image-supported child, mother, and event facts may proceed only with explicit proof review awareness of this mismatch.
 
 ## Source Path Encoding Variant
 
