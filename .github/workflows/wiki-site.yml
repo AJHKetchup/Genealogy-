@@ -62,7 +62,7 @@ jobs:
       - name: Build static wiki site
         env:
           PYTHONPATH: src
-        run: python -m historic_doc_ingest.genealogy_wiki site --root . --out site
+        run: python -m historic_doc_ingest.genealogy_wiki site --root . --out site --wiki-only
 
       - name: Check Cloudflare deploy credentials
         run: |
