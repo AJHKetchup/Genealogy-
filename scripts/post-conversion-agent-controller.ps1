@@ -374,6 +374,19 @@ function Test-StagedDraftCanBePromoted {
     return $true
 }
 
+function Get-ProofReviewDraftPriority {
+    param([string]$RelativePath)
+    $relative = ($RelativePath -replace "\\", "/").ToLowerInvariant()
+    if ($relative -like "research/_staging/relationships/*") { return 0 }
+    if ($relative -like "research/_staging/claims/claim-*" -or $relative -like "research/_staging/claims/cl-stage-*") { return 1 }
+    if ($relative -like "research/_staging/source-packets/sp-stage-*" -or $relative -like "research/_staging/source-packets/sp-*") { return 2 }
+    if ($relative -like "research/_staging/claims/*") { return 3 }
+    if ($relative -like "research/_staging/source-packets/*") { return 4 }
+    if ($relative -like "research/_staging/identity/*" -or $relative -like "research/_staging/conflicts/*") { return 5 }
+    if ($relative -like "research/_staging/identity-analysis/*") { return 6 }
+    return 9
+}
+
 function Get-ReadyPromotionReviews {
     $reviewDir = Join-Path $Root "research\_staging\reviews"
     if (-not (Test-Path -LiteralPath $reviewDir)) { return @() }
@@ -461,6 +474,10 @@ function Write-ProofReviewQueue {
             }
         }
     }
+    $tasks = @($tasks | Sort-Object `
+        @{ Expression = { Get-ProofReviewDraftPriority -RelativePath ([string]$_.staged_draft) } }, `
+        @{ Expression = { if ([string]$_.status -eq "todo") { 0 } elseif ([string]$_.status -eq "released") { 1 } else { 2 } } }, `
+        staged_draft)
 
     $payload = [ordered]@{
         created = [DateTime]::UtcNow.ToString("yyyy-MM-dd")

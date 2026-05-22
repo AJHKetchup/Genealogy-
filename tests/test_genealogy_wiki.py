@@ -3192,6 +3192,101 @@ def test_relevance_feedback_overrides_rough_docling_discovery(tmp_path, monkeypa
     assert gemini_plan["tasks"][0]["route"]["tier"] == "pro"
 
 
+def test_proof_review_hold_targets_ignore_stale_missing_image_hold(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    review_dir = tmp_path / "research" / "_staging" / "reviews"
+    review_dir.mkdir(parents=True, exist_ok=True)
+    staged = "research/_staging/claims/example-claim.md"
+    image_ref = "raw/codex-conversion-jobs/job/page-images/page-0001.jpg"
+
+    (review_dir / "old-hold.md").write_text(
+        f"""---
+type: proof_review
+staged_draft: {staged}
+canonical_readiness: hold
+---
+
+The rendered page image `{image_ref}` is missing, so the claim remains on hold.
+""",
+        encoding="utf-8",
+    )
+    (review_dir / "new-review.md").write_text(
+        f"""---
+type: proof_review
+staged_draft: {staged}
+canonical_readiness: revise
+---
+
+The restored page image is now available at `{image_ref}` and changes this to a content revision.
+""",
+        encoding="utf-8",
+    )
+
+    assert genealogy_wiki.proof_review_hold_asset_targets(tmp_path) == []
+
+
+def test_proof_review_revise_with_partial_image_is_not_missing_image_hold() -> None:
+    text = """---
+type: proof_review
+canonical_readiness: revise
+---
+
+The page image is available, but the lower record is not fully available in the crop.
+"""
+
+    assert genealogy_wiki.proof_review_has_missing_page_image_hold(text) is False
+
+
+def test_restore_proof_review_hold_assets_does_not_release_existing_page_image(tmp_path, monkeypatch) -> None:
+    init_genealogy_wiki(tmp_path)
+    review_dir = tmp_path / "research" / "_staging" / "reviews"
+    review_dir.mkdir(parents=True, exist_ok=True)
+    staged = "research/_staging/claims/example-claim.md"
+    image_ref = "raw/codex-conversion-jobs/job/page-images/page-0001.jpg"
+    manifest = tmp_path / "raw" / "codex-conversion-jobs" / "job" / "manifest.json"
+    source = tmp_path / "raw" / "sources" / "source.png"
+    page_image = tmp_path / image_ref
+    source.parent.mkdir(parents=True, exist_ok=True)
+    source.write_bytes(b"source")
+    page_image.parent.mkdir(parents=True, exist_ok=True)
+    page_image.write_bytes(b"existing-image")
+    manifest.parent.mkdir(parents=True, exist_ok=True)
+    manifest.write_text(
+        json.dumps(
+            {
+                "source_file": "raw/sources/source.png",
+                "media_type": "image",
+                "pages": [{"page": 1, "source_page": 1, "image_path": image_ref}],
+            }
+        ),
+        encoding="utf-8",
+    )
+    (review_dir / "old-hold.md").write_text(
+        f"""---
+type: proof_review
+staged_draft: {staged}
+canonical_readiness: hold
+---
+
+The rendered page image `{image_ref}` is missing, so the claim remains on hold.
+""",
+        encoding="utf-8",
+    )
+    calls = []
+
+    def fake_update_agent_task_states(*args, **kwargs):
+        calls.append((args, kwargs))
+
+    monkeypatch.setattr(genealogy_wiki, "update_agent_task_states", fake_update_agent_task_states)
+
+    summary = restore_proof_review_hold_assets(tmp_path)
+
+    assert summary["target_count"] == 1
+    assert summary["restored_page_images"] == 0
+    assert summary["released_tasks"] == []
+    assert calls == []
+
+
 def test_large_corpus_economy_holds_unrequested_docling_fallback(tmp_path, monkeypatch) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)

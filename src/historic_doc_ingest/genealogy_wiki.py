@@ -5881,11 +5881,20 @@ def staged_draft_from_proof_review(text: str) -> str:
     match = re.search(r"(?mi)^-\s*Staged draft:\s*`?([^`\r\n]+?)`?\s*$", text)
     if match:
         return match.group(1).strip().strip("'\"")
+    match = re.search(r"(?mi)^-\s*Reviewed staged draft:\s*`?([^`\r\n]+?)`?\s*$", text)
+    if match:
+        return match.group(1).strip().strip("'\"")
+    match = re.search(r"(?mi)^-\s*Review task id:\s*`?proof-review:([^`\r\n]+?)`?\s*$", text)
+    if match:
+        return match.group(1).strip().strip("'\"")
     return ""
 
 
 def proof_review_has_missing_page_image_hold(text: str) -> bool:
     lowered = text.lower()
+    readiness = normalize_review_readiness(extract_review_canonical_readiness(text))
+    if readiness and not (readiness == "hold" or readiness.startswith("hold")):
+        return False
     return (
         "canonical_readiness" in lowered
         and "hold" in lowered
@@ -5904,6 +5913,33 @@ def proof_review_has_missing_page_image_hold(text: str) -> bool:
     )
 
 
+def proof_review_resolves_missing_page_image_hold(text: str) -> bool:
+    """Return true when a later review says image availability is no longer the blocker."""
+    if proof_review_has_missing_page_image_hold(text):
+        return False
+    lowered = text.lower()
+    if "page image" not in lowered and "page-image" not in lowered and "raw/page image" not in lowered:
+        return False
+    availability_terms = (
+        "now available",
+        "is available",
+        "are available",
+        "was available",
+        "were available",
+        "is present",
+        "are present",
+        "present and",
+        "viewable",
+        "restored",
+        "matches",
+        "no hold blocker remains",
+    )
+    if any(term in lowered for term in availability_terms):
+        return True
+    readiness = normalize_review_readiness(extract_review_canonical_readiness(text))
+    return review_readiness_allows_promotion(readiness) or review_readiness_is_revise(readiness)
+
+
 def proof_review_hold_asset_targets(root: Path) -> list[dict[str, object]]:
     root = root.resolve()
     review_dir = root / "research" / "_staging" / "reviews"
@@ -5911,11 +5947,20 @@ def proof_review_hold_asset_targets(root: Path) -> list[dict[str, object]]:
     if not review_dir.exists():
         return []
 
+    reviews: list[tuple[Path, str, str]] = []
+    stale_missing_image_holds: set[str] = set()
     for review_path in sorted(review_dir.glob("*.md")):
         text = read_text(review_path)
+        staged_draft = staged_draft_from_proof_review(text)
+        if staged_draft and proof_review_resolves_missing_page_image_hold(text):
+            stale_missing_image_holds.add(normalize_review_staged_path(staged_draft))
+        reviews.append((review_path, text, staged_draft))
+
+    for review_path, text, staged_draft in reviews:
         if not proof_review_has_missing_page_image_hold(text):
             continue
-        staged_draft = staged_draft_from_proof_review(text)
+        if staged_draft and normalize_review_staged_path(staged_draft) in stale_missing_image_holds:
+            continue
         review_rel = review_path.relative_to(root).as_posix()
         target_refs = proof_review_explicit_asset_refs(text)
         if not target_refs:
@@ -6104,6 +6149,8 @@ def restore_proof_review_hold_assets(
             "page": page_number,
             "page_image": page_image,
         }
+        page_image_path = root / page_image if page_image else None
+        page_image_existed_before = bool(page_image_path and page_image_path.exists())
         try:
             regenerated = ensure_source_prep_page_image(root, batch)
         except Exception as exc:
@@ -6126,13 +6173,14 @@ def restore_proof_review_hold_assets(
             )
             continue
 
-        summary["restored_page_images"] = int(summary["restored_page_images"]) + 1
-        staged_drafts = target.get("staged_drafts", [])
-        if isinstance(staged_drafts, list):
-            for staged_draft in staged_drafts:
-                staged_text = str(staged_draft).strip()
-                if staged_text:
-                    task_ids_to_release.append(f"proof-review:{staged_text}")
+        if not page_image_existed_before:
+            summary["restored_page_images"] = int(summary["restored_page_images"]) + 1
+            staged_drafts = target.get("staged_drafts", [])
+            if isinstance(staged_drafts, list):
+                for staged_draft in staged_drafts:
+                    staged_text = str(staged_draft).strip()
+                    if staged_text:
+                        task_ids_to_release.append(f"proof-review:{staged_text}")
 
     task_ids_to_release = sorted(set(task_ids_to_release))
     if task_ids_to_release:

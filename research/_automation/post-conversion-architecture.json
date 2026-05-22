@@ -73,8 +73,9 @@
       "preferred_batch_size": 3,
       "max_batch_size": 6,
       "rules": [
-        "Prefer independent proof-review tasks first when already staged.",
+        "Prioritize proof review of atomic relationship and claim drafts before source-packet/backroom notes so the family tree and person pages can grow through reviewed evidence.",
         "Reserve worker slots for evidence extraction even while conversion-QA backlog remains so staged claims and relationships are not starved.",
+        "Do not repeatedly release a proof-review task only because an older review mentioned a missing page image if a later review has already verified the restored image.",
         "Do not claim two tasks that write the same file or same staged draft review.",
         "Do not mix wiki promotion with QA, extraction, or proof-review in the same hosted run.",
         "Release unsafe or blocked tasks with a concise blocker instead of guessing."
