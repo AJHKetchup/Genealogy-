@@ -3,7 +3,8 @@
   "queue": "evidence-extraction",
   "task_count": 2896,
   "status_counts": {
-    "todo": 2787,
+    "done": 4,
+    "todo": 2783,
     "blocked_needs_reread": 109
   },
   "tasks": [
@@ -12,7 +13,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "todo",
+      "status": "done",
       "chunk_id": "CHUNK-3d3ab761209f-P0001-01",
       "chunk_path": "raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md",
@@ -22,14 +23,20 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-3d3ab761209f-p0001-01.md"
+      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-3d3ab761209f-p0001-01.md",
+      "agent": "postconv-evidence-extraction-20260522003347174",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T00:33:47Z",
+      "started_at": "2026-05-22T00:33:47Z",
+      "completed_at": "2026-05-22T00:37:27Z",
+      "updated_at": "2026-05-22T00:37:27Z"
     },
     {
       "task_id": "evidence-extraction:CHUNK-3d3ab761209f-P0001-01",
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "todo",
+      "status": "done",
       "chunk_id": "CHUNK-3d3ab761209f-P0001-01",
       "chunk_path": "raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513-codex/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md",
@@ -39,14 +46,20 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-3d3ab761209f-p0001-01.md"
+      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-3d3ab761209f-p0001-01.md",
+      "agent": "postconv-evidence-extraction-20260522003347174",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T00:33:47Z",
+      "started_at": "2026-05-22T00:33:47Z",
+      "completed_at": "2026-05-22T00:37:27Z",
+      "updated_at": "2026-05-22T00:37:27Z"
     },
     {
       "task_id": "evidence-extraction:CHUNK-37cac508f847-P0004-01",
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "todo",
+      "status": "done",
       "chunk_id": "CHUNK-37cac508f847-P0004-01",
       "chunk_path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0004-chunk-01.md",
       "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
@@ -56,14 +69,20 @@
       "page_start": 4,
       "page_end": 4,
       "staging_dir": "research/_staging",
-      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-37cac508f847-p0004-01.md"
+      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-37cac508f847-p0004-01.md",
+      "agent": "postconv-evidence-extraction-20260522003348179",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T00:33:48Z",
+      "started_at": "2026-05-22T00:33:49Z",
+      "completed_at": "2026-05-22T00:37:32Z",
+      "updated_at": "2026-05-22T00:37:32Z"
     },
     {
       "task_id": "evidence-extraction:CHUNK-37cac508f847-P0005-01",
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "todo",
+      "status": "done",
       "chunk_id": "CHUNK-37cac508f847-P0005-01",
       "chunk_path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0005-chunk-01.md",
       "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
@@ -73,7 +92,13 @@
       "page_start": 5,
       "page_end": 5,
       "staging_dir": "research/_staging",
-      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-37cac508f847-p0005-01.md"
+      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-37cac508f847-p0005-01.md",
+      "agent": "postconv-evidence-extraction-20260522003349456",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T00:33:49Z",
+      "started_at": "2026-05-22T00:33:50Z",
+      "completed_at": "2026-05-22T00:37:17Z",
+      "updated_at": "2026-05-22T00:37:17Z"
     },
     {
       "task_id": "evidence-extraction:CHUNK-37cac508f847-P0006-01",
