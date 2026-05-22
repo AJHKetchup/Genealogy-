@@ -19,9 +19,8 @@ on:
     types:
       - completed
 
-concurrency:
-  group: wiki-site
-  cancel-in-progress: true
+# Site publishes are intentionally allowed to overlap with research runs.
+# A stale publish check below prevents older site builds from force-pushing gh-pages.
 
 permissions:
   contents: write
@@ -33,6 +32,9 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -55,7 +57,20 @@ jobs:
           PYTHONPATH: src
         run: python -m historic_doc_ingest.genealogy_wiki site --root . --out site --wiki-only
 
+      - name: Check site publish freshness
+        run: |
+          set -euo pipefail
+          latest="$(git ls-remote origin refs/heads/main | cut -f1)"
+          current="$(git rev-parse HEAD)"
+          if [ "$current" != "$latest" ]; then
+            echo "SKIP_SITE_PUBLISH=true" >> "$GITHUB_ENV"
+            echo "Skipping site publish because this run built $current but main is now $latest."
+          else
+            echo "SKIP_SITE_PUBLISH=false" >> "$GITHUB_ENV"
+          fi
+
       - name: Publish site branch
+        if: env.SKIP_SITE_PUBLISH != 'true'
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
@@ -70,6 +85,7 @@ jobs:
           git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages:gh-pages
 
       - name: Configure GitHub Pages for site branch
+        if: env.SKIP_SITE_PUBLISH != 'true'
         env:
           GH_TOKEN: ${{ secrets.PAGES_ADMIN_TOKEN || secrets.CODEX_SECRET_UPDATE_TOKEN || github.token }}
         run: |
