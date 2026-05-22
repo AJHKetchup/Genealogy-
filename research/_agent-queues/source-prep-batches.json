@@ -1,12 +1,69 @@
 {
   "created": "2026-05-22",
   "queue": "source-prep-batches",
-  "task_count": 1383,
+  "task_count": 1384,
   "status_counts": {
-    "needs_reread": 320,
+    "needs_reread": 321,
     "todo": 1063
   },
   "tasks": [
+    {
+      "task_id": "source-prep-batch:ca3e1a8684-r3016-11a-2905-950-p0126-0150-r3016-11a-2905-950-pages-126-150:p0144",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0126-0150-r3016-11a-2905-950-pages-126-150/manifest.json",
+      "job_id": "CA3e1a8684-r3016-11a-2905-950-p0126-0150",
+      "title": "R3016-11A-2905-950 pages 126-150",
+      "first_page": 144,
+      "last_page": 144,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca3e1a8684-r3016-11a-2905-950-p0126-0150-r3016-11a-2905-950-pages-126-150:p0144"
+      ],
+      "pages": [
+        {
+          "page": 144,
+          "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0126-0150-r3016-11a-2905-950-pages-126-150:p0144",
+          "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0126-0150-r3016-11a-2905-950-pages-126-150/page-images/page-0144.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0126-0150-r3016-11a-2905-950-pages-126-150/work-orders/page-0144.md",
+          "output_path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0126-0150-r3016-11a-2905-950-pages-126-150/page-markdown/page-0144.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0126-0150-r3016-11a-2905-950-pages-126-150/extracted-images/page-0144",
+          "media_type": "pdf",
+          "family_relevance": "critical",
+          "matched_terms": [
+            "List",
+            "name"
+          ],
+          "suspicious_readings": [
+            {
+              "literal": "every",
+              "suspected": "Entry",
+              "reason": "near match to known family context term `Entry`"
+            }
+          ],
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "post_conversion_qc_hold",
+      "recommended_action": "reread-page",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca3e1a8684-r3016-11a-2905-950-p0126-0150-r3016-11a-2905-950-pages-126-150-p014-88ec5e7d1e4f.md"
+    },
     {
       "task_id": "source-prep-batch:ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513:p0001",
       "queue": "source-prep-batches",
@@ -478,15 +535,15 @@
             "explicit_reread_needed"
           ],
           "qc_quality_flags": [
-            "many_uncertain_readings"
+            "many_uncertain_readings",
+            "explicit_reread_needed"
           ],
           "family_relevance": "high",
-          "suspicious_readings": [
-            {
-              "literal": "clear",
-              "suspected": "Cesar",
-              "reason": "near match to known family context term `Cesar`"
-            }
+          "matched_terms": [
+            "Cesar",
+            "Entry",
+            "Rows",
+            "date"
           ],
           "rough_discovery_status": "error"
         }
@@ -529,7 +586,10 @@
           "qc_quality_flags": [
             "possible_ocr_garbage_token"
           ],
-          "family_relevance": "none",
+          "family_relevance": "medium",
+          "matched_terms": [
+            "name"
+          ],
           "rough_discovery_status": "rough_ok"
         }
       ],
