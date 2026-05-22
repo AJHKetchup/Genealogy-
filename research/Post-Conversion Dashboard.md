@@ -40,7 +40,7 @@ This dashboard is the restart point for automatic work that is not conversion an
 ## API-Free Automation
 
 - Automation: GitHub-hosted queue-and-agent harness
-- Schedule: minutes 17 and 47 with a 50-minute freshness gate, plus manual dispatch
+- Schedule: minutes 17 and 47 with a 50-minute freshness gate, after successful Cloud Source Conversion runs, plus manual dispatch
 - Execution: Codex CLI with ChatGPT-managed auth from repository secret
 - Provider API dependency: none; provider API keys are forbidden for post-conversion work
 - Active runner: `.github/workflows/internal-research-agents.yml`

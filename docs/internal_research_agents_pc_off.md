@@ -8,6 +8,7 @@ It is for internal research and wiki development only. It does not perform exter
 
 - Workflow: `.github/workflows/internal-research-agents.yml`
 - Schedule: minutes 17 and 47, with a 50-minute freshness gate so delayed GitHub cron ticks get a second chance without duplicate back-to-back work
+- Conversion handoff: runs after successful `Cloud Source Conversion` workflow runs so newly hosted converted chunks can enter QA/extraction without waiting only on cron
 - Validation triggers: short runs on pushes to the workflow, controller, project code, or automation contracts
 - Manual run: GitHub Actions -> Internal Research Agents -> Run workflow
 - Parallelism: defaults to 3 Codex workers, with a queue scan limit of 12

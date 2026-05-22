@@ -10,7 +10,7 @@
     "status": "active_on_default_branch",
     "workflow": ".github/workflows/internal-research-agents.yml",
     "runner": "GitHub-hosted windows-latest",
-    "schedule": "scheduled at minutes 17 and 47 with a 50-minute controller-state freshness gate, so delayed or missed GitHub cron ticks get a second chance without piling up duplicate work; also runs short main-branch push validations for the workflow, post-conversion controller, project code, or automation contracts; every successful hosted run may launch a separate promotion-only worker for reviewed-ready material",
+    "schedule": "scheduled at minutes 17 and 47 with a 50-minute controller-state freshness gate, so delayed or missed GitHub cron ticks get a second chance without piling up duplicate work; also runs after successful Cloud Source Conversion workflow runs and short main-branch push validations for the workflow, post-conversion controller, project code, or automation contracts; every successful hosted run may launch a separate promotion-only worker for reviewed-ready material",
     "auth": "ChatGPT-managed Codex auth restored from CODEX_AUTH_JSON_B64 or CODEX_AUTH_JSON repository secret",
     "provider_api_keys": "forbidden",
     "activation_requirements": [
