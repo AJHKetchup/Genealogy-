@@ -7,12 +7,12 @@
                       },
     "tasks":  [
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/wiki-promotion/wiki-promotion-reviewed-ready-none.md",
-                      "ready_review_fingerprint":  "none",
+                      "prompt_path":  "research/_agent-queues/prompts/wiki-promotion/wiki-promotion-reviewed-ready-d9396652dddc.md",
+                      "ready_review_fingerprint":  "d9396652dddc",
                       "queue":  "wiki-promotion",
-                      "ready_review_count":  0,
+                      "ready_review_count":  2,
                       "role":  "wiki_promoter",
-                      "task_id":  "wiki-promotion:reviewed-ready:none",
+                      "task_id":  "wiki-promotion:reviewed-ready:d9396652dddc",
                       "status":  "disabled_requires_allow_promotion",
                       "skill":  "genealogy-proof-review"
                   }

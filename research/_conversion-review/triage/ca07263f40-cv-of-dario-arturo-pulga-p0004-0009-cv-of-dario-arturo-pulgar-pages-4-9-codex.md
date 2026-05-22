@@ -8,7 +8,7 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | high | high | pass | none | Arturo, Dario, Pulgar |
+| 4 | high | medium | reread-page | explicit_reread_needed | Arturo, Dario, Pulgar |
 | 5 | high | high | pass | none | Arturo, Dario, Pulgar |
 | 6 | high | medium | reread-page | explicit_reread_needed | Arturo, Dario, Pulgar, user |
 | 7 | high | medium | reread-page | explicit_reread_needed | Arturo, Dario, Pulgar, start |

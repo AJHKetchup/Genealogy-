@@ -13,7 +13,7 @@
 | 3 | none | high | pass | none | none |
 | 4 | medium | high | pass | none | Dario, Pulgar |
 | 5 | medium | high | pass | none | Pulgar |
-| 6 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |

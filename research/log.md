@@ -26361,3 +26361,4 @@
 ## [2026-05-22] source-prep-batches | Wrote 1378 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
 ## [2026-05-22] agent-queues | Wrote 2 queue manifest(s); source-prep queue disabled by post-conversion settings; released 2 evidence task(s) for proof-review revision
 ## [2026-05-22] source-relevance | Restored proof-review assets and released 1 review task(s)
+## [2026-05-22] source-relevance | Restored proof-review assets and released 26 review task(s)
