@@ -5,8 +5,8 @@ Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\sourc
 Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
 source-relevance sync-review-holds | summary
 {
-  "review_count": 183,
-  "candidate_count": 28,
+  "review_count": 188,
+  "candidate_count": 30,
   "changed_count": 0,
   "feedback_path": "research/_agent-queues/source-relevance-feedback.json"
 }
@@ -15,18 +15,14 @@ source-relevance restore-review-assets | summary
   "target_count": 12,
   "restored_raw": 0,
   "skipped_raw": 0,
-  "restored_page_images": 1,
-  "released_tasks": [
-    "proof-review:research/_staging/claims/chunk-a048d567968b-p0001-02-001-dario-saturna-project-weekend.md"
-  ],
+  "restored_page_images": 0,
+  "released_tasks": [],
   "errors": [],
   "blockers": []
 }
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
 post-conversion-controller | summary
 {
-    "started":  "2026-05-22T17:22:16Z",
+    "started":  "2026-05-22T17:54:07Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "dry_run":  false,
     "allow_promotion":  true,
@@ -50,38 +46,25 @@ post-conversion-controller | summary
                                                "blocked_needs_reread":  175
                                            },
                    "identity-analysis":  {
-                                             "todo":  102,
+                                             "todo":  104,
                                              "done":  3
                                          },
                    "proof-review":  {
-                                        "done":  115,
-                                        "todo":  351,
-                                        "released":  45
+                                        "done":  118,
+                                        "todo":  360,
+                                        "released":  46
                                     },
                    "wiki-promotion":  {
                                           "blocked_no_reviewed_ready":  1
                                       }
                },
     "active_workers_before":  0,
-    "active_workers_after":  1,
+    "active_workers_after":  0,
     "launched":  [
-                     {
-                         "worker":  "postconv-wiki-promotion-20260522172404608",
-                         "pid":  2688,
-                         "task_ids":  [
-                                          "wiki-promotion:reviewed-ready:4afc3eb0ab70"
-                                      ],
-                         "queue":  "wiki-promotion",
-                         "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-wiki-promotion-20260522172404608.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522172404608.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522172404608.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522172404608.last.md",
-                         "started":  "2026-05-22T17:24:05Z"
-                     }
+
                  ],
     "blockers":  [
 
                  ],
-    "finished":  "2026-05-22T17:27:56Z"
+    "finished":  "2026-05-22T17:55:53Z"
 }

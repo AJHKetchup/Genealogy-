@@ -1,6 +1,6 @@
 {
   "created": "2026-05-22T01:02:23Z",
-  "updated": "2026-05-22T13:50:37Z",
+  "updated": "2026-05-22T17:52:25Z",
   "purpose": "Research-to-conversion relevance hints for source-prep model routing.",
   "hints": [
     {
@@ -225,6 +225,48 @@
       ],
       "agent": "post-conversion-review-feedback",
       "id": "source-relevance:44e0785954a8"
+    },
+    {
+      "status": "active",
+      "created": "2026-05-22T17:49:50Z",
+      "updated": "2026-05-22T17:49:50Z",
+      "task_id": "",
+      "job_manifest": "raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json",
+      "source": "",
+      "source_sha256": "",
+      "converted_file": "",
+      "page": 8,
+      "relevance": "high",
+      "requested_treatment": "reread",
+      "reason": "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
+      "entities": [],
+      "matched_terms": [
+        "proof-review-hold",
+        "missing-page-image"
+      ],
+      "agent": "post-conversion-review-feedback",
+      "id": "source-relevance:60364b7a1942"
+    },
+    {
+      "status": "active",
+      "created": "2026-05-22T17:52:25Z",
+      "updated": "2026-05-22T17:52:25Z",
+      "task_id": "",
+      "job_manifest": "raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json",
+      "source": "",
+      "source_sha256": "",
+      "converted_file": "",
+      "page": 10,
+      "relevance": "high",
+      "requested_treatment": "reread",
+      "reason": "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
+      "entities": [],
+      "matched_terms": [
+        "proof-review-hold",
+        "missing-page-image"
+      ],
+      "agent": "post-conversion-review-feedback",
+      "id": "source-relevance:7feaa225b08f"
     }
   ]
 }

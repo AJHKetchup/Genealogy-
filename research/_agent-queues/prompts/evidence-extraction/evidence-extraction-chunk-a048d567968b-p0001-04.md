@@ -13,8 +13,18 @@ Use `$genealogy-claim-extraction`.
 - Staging area: `research/_staging`
 - Family relevance: `critical`
 - Matched family terms: chile, chunk, last, name, permanent, time
-- Evidence priority: `1` (family_relevance:critical, qc:reread-page, matched_terms)
+- Evidence priority: `-699` (family_relevance:critical, qc:reread-page, matched_terms, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/proof-review-research-staging-claims-chunk-a048d567968b-p0001-04-005-jim-carney-vancouver-hometown-expo-86-postconv-proof-review-20260522174957974.md` | `research/_staging/claims/chunk-a048d567968b-p0001-04-005-jim-carney-vancouver-hometown-expo-86.md` | `hold_for_conversion_qa` | Restore or regenerate the missing rendered page image for converted page 10, then visually verify the sentence about returning to Vancouver as Commissioner General of the UN pavilion at Expo '86 and document/correct the chunk page reference. Keep this claim in staging until that conversion QA is complete. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Done When

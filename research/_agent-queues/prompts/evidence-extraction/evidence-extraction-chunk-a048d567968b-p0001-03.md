@@ -13,8 +13,20 @@ Use `$genealogy-claim-extraction`.
 - Staging area: `research/_staging`
 - Family relevance: `critical`
 - Matched family terms: Dario, Pulgar, chile, chunk, last, mother, name, parents, supplied, time
-- Evidence priority: `1` (family_relevance:critical, qc:reread-page, matched_terms)
+- Evidence priority: `-699` (family_relevance:critical, qc:reread-page, matched_terms, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/chunk-a048d567968b-p0001-03-002-dario-pulgar-chile-film-distribution-proof-review.md` | `research/_staging/claims/chunk-a048d567968b-p0001-03-002-dario-pulgar-chile-film-distribution.md` | `hold_for_conversion_qa` | Complete conversion QA for `CHUNK-a048d567968b-P0001-03`: correct or document the page reference discrepancy between assigned page 1, converted page metadata/page 8, and the visually checked printed page 7. After that, this claim can be reconsidered for canonical promotion as a contextual occupation/role claim with memoir-source attribution. |
+| `research/_staging/reviews/chunk-a048d567968b-p0001-03-004-dario-pulgar-mother-tongue-spanish-proof-review.md` | `research/_staging/claims/chunk-a048d567968b-p0001-03-004-dario-pulgar-mother-tongue-spanish.md` | `hold_for_conversion_qa` | Complete conversion QA for `CHUNK-a048d567968b-P0001-03`: restore or regenerate the missing rendered source image for the converted page 8 passage, visually verify the sentence "His mother tongue was Spanish", and correct or document the page reference discrepancy. Keep this claim in staging until that QA is complete. |
+| `research/_staging/reviews/chunk-a048d567968b-p0001-03-conversion-qa-correction-note.md` | `` | `` |  type: conversion_review_correction status: draft role: evidence_extractor worker: postconv-evidence-extraction-20260522174958565 task_id: evidence-extraction:CHUNK-a048d567968b-P0001-03 |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Done When
