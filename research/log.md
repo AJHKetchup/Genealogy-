@@ -23450,3 +23450,6 @@
 ## [2026-05-21] prepare-sources | Prepared 19 raw source(s)
 ## [2026-05-21] source-prep-batches | Wrote 1450 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
 ## [2026-05-21] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-22] gemini-source-prep | fatal dependency blocker before page conversion
+## [2026-05-22] source-prep-batches | Wrote 1450 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
+## [2026-05-22] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
