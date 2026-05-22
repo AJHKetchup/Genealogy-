@@ -15,9 +15,8 @@ canonical_readiness: hold
 ## Blockers
 
 - The exact staged draft analyzed here is `research/_staging/identity/CHUNK-3d3ab761209f-P0001-01-identity-candidates.md`.
-- The raw source image named by the staged draft and converted file, `raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png`, is not available in the workspace.
-- The expected page image `raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/page-images/page-0001.png` is not available in the workspace.
-- Because visible-source review is blocked, image-sensitive readings remain unresolved: record 514 witness `Benjamin Utiera`, record 514 street `Calle Sanegueso`, record 515 surname/emendation text `Neira=emendado=vale`, and page-bottom crop completeness.
+- Evidence-extraction revision on 2026-05-22 found the raw source image available at `raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png` and performed limited image review. The page image supports the assigned chunk more than the assembled converted Markdown for several principal identity fields, but targeted conversion QA is still required.
+- Image-sensitive readings remain unresolved or only partly resolved: record 513 child given-name line, record 513 mother surname `Amagada` versus `Amador`, record 513 birth time, record 514 witness `Benjamin Utiera`/`Utria`, record 514 street `Calle Sanegueso`/`Calle San Joaquin`, and record 515 lower mother-field crop completeness.
 - No canonical person page was found for `Jose Luis Pulgar Amagada`, `Jose del Carmen Pulgar`, `Juana de Dios Amagada de Pulgar`, `Juan Bautista Riquelme Aviles`, `Mercedes Riquelme`, `Laura de la Cruz Neira Ulloa`, `Pedro Pablo Neira`, or `Carmen Ulloa`. Existing canonical Pulgar material concerns `Dario Arturo Pulgar-Smith` and warns not to automatically merge similarly named Pulgar records.
 - Do not infer a father for record 514. The converted father field says `Se ignora`.
 
@@ -35,7 +34,7 @@ Literal evidence:
 Interpretation:
 
 - This is the leading hypothesis. The converted register supports local identities within entries 513-515, but the current evidence does not prove duplicate-person matches to existing canonical profiles.
-- The civil register is strong evidence for names and declared parent-child relationships inside the page, but identity reconciliation requires image review and comparison with corroborating records or canonical person pages.
+- The civil register is strong evidence for declared parent-child relationships inside the page, but identity reconciliation still requires targeted image QA and comparison with corroborating records or canonical person pages.
 
 Scores:
 
@@ -43,8 +42,8 @@ Scores:
 |---|---:|---|
 | identity_confidence | 0.74 | Strong for registration-scoped identity labels; weak for broader same-person merges. |
 | conflict_severity | 0.30 | No direct duplicate-person conflict found; the main risk is premature canonical attachment. |
-| evidence_quality | 0.76 | Civil birth register transcription is primary-source derived, but the source image is unavailable. |
-| conversion_confidence | 0.72 | Principal table entries are stable across converted file and chunk; image-sensitive readings remain unresolved. |
+| evidence_quality | 0.76 | Civil birth register transcription is primary-source derived, and limited image review is now available, but targeted crop QA remains necessary. |
+| conversion_confidence | 0.54 | The assigned chunk and assembled converted Markdown materially disagree on identity-bearing fields; image review supports the chunk direction for some fields but not all details. |
 | claim_probability | 0.82 | High probability that the staged identities reflect the converted register text. |
 | relevance | 0.90 | Directly relevant to deciding whether the staged identity candidates can move forward. |
 | canonical_readiness | 0.25 | Hold pending image review and identity reconciliation. |
@@ -70,8 +69,8 @@ Scores:
 |---|---:|---|
 | identity_confidence | 0.82 | Same-entry role and contextual details align strongly for the parent/declarant pairs. |
 | conflict_severity | 0.20 | The conflict risk is low within each row but rises if used as a broader merge proof. |
-| evidence_quality | 0.78 | Evidence is direct from the converted civil register, with source-image QA still blocked. |
-| conversion_confidence | 0.74 | Main names are not flagged except record 514 street context and record 515 emendation. |
+| evidence_quality | 0.78 | Evidence is direct from the converted civil register, with limited source-image review now available. |
+| conversion_confidence | 0.60 | Parent/declarant pairings are internally plausible, but child endpoints and derivative-transcript conflicts keep the links on hold. |
 | claim_probability | 0.84 | High probability for same-entry equivalence, not canonical equivalence. |
 | relevance | 0.86 | Important for parent/declarant identity handling and relationship candidates. |
 | canonical_readiness | 0.35 | Hold; useful as staged interpretation but not ready for canonical merge. |
@@ -116,7 +115,7 @@ Literal evidence:
 Interpretation:
 
 - Witness-only mentions are relevant for source context and identity checks but do not justify person creation or merge without corroboration.
-- `Benjamin Utiera` is especially image-dependent and should not be normalized or merged until the original image is restored.
+- `Benjamin Utiera`/`Benjamin Utria` is especially image-dependent and should not be normalized or merged until a targeted crop is reviewed.
 
 Scores:
 
@@ -137,10 +136,10 @@ Scores:
 - Relationship conflict: record 514 father is explicitly unknown (`Se ignora`). Severity: high against any unsupported father assignment for Juan Bautista Riquelme Aviles, but not final disproof of a later, stronger source.
 - Same-person caution: `José del Carmen Pulgar` and `José del C. Pulgar` are probably the same within record 513. Severity: low within the entry; moderate if used for broader identity merging.
 - Chronology conflict: none found within the converted entries. Parent ages in records 513 and 515 are plausible relative to child birth dates; record 514 mother age 21 is not internally contradictory.
-- Conversion conflict: source packet and reviews describe high confidence for principal names, but raw/page image absence prevents final QA for `Utiera`, `Sanegueso`, `Neira=emendado=vale`, and the crop completeness note.
+- Conversion conflict: source packet and reviews describe several principal-name conflicts between the assigned chunk and assembled converted Markdown. Limited image review supports `Se ignora` for record 514's father and the `Neira=emendado= / vale=` note for record 515, but final QA is still needed for `Utiera`/`Utria`, `Sanegueso`/`San Joaquin`, record 513 child/mother readings, and the crop completeness note.
 
 ## Recommended Next Action
 
 Keep `research/_staging/identity/CHUNK-3d3ab761209f-P0001-01-identity-candidates.md` on hold. Do not merge people, rename canonical pages, promote facts, or attach record 513 to the canonical `Dario Arturo Pulgar-Smith` page.
 
-Next, restore or regenerate the missing source/page image and visually verify the sensitive readings: `Pulgar Amagada`, `Benjamin Utiera`, `Calle Sanegueso`, and `Neira=emendado=vale`. After image review, reconcile child and parent identities against any relevant canonical Pulgar, Riquelme, Neira, Ulloa, Amagada, or Aviles pages; keep witness-only identities as low-priority leads unless additional corroborating records appear.
+Next, run targeted conversion QA from the available source image and, if possible, a complete lower crop for entry 515. Verify the sensitive readings: entry 513 child name, entry 513 mother surname, entry 513 birth date/time, `Benjamin Utiera`/`Utria`, `Calle Sanegueso`/`San Joaquin`, and `Neira=emendado=vale`. After image QA, reconcile child and parent identities against any relevant canonical Pulgar, Riquelme, Neira, Ulloa, Amagada, or Aviles pages; keep witness-only identities as low-priority leads unless additional corroborating records appear.

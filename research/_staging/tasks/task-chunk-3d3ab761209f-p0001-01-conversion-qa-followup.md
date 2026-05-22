@@ -21,7 +21,7 @@ Review the original page image and, if possible, a complete lower crop of entry 
 
 - Header image reading: `Los Anjeles, num. 1o de La Laja`; older staged packet text used `Los Angeles ... de Julio`.
 - Entry 514 father field: image and assigned chunk support `Se ignora`; assembled converted Markdown names `Belisario Riquelme`.
-- Entry 514 witness/street: assigned chunk has `Benjamin Utiera` and `Calle Sanegueso`; assembled converted Markdown has `Benjamin Utrosa` and `Calle Saneguin`; image is not sufficiently settled in this pass.
+- Entry 514 witness/street: assigned chunk has `Benjamin Utiera` and `Calle Sanegueso`; assembled converted Markdown has `Benjamin Utria` and `Calle San Joaquin`; image is not sufficiently settled in this pass.
 - Entry 515 emendation: image shows `Neira=emendado=` and `vale=`.
 - Entry 515 mother field: assigned chunk names `Carmen Ulloa`, but the available image crop does not visibly confirm the lower mother-field details.
 

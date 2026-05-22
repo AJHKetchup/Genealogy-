@@ -1,13 +1,30 @@
-Wrote 734 conversion QC artifact(s)
+Wrote 812 conversion QC artifact(s)
 Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\conversion-qa.json
 Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\evidence-extraction.json
 Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\source-usability.json
 Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
+source-relevance sync-review-holds | summary
+{
+  "review_count": 68,
+  "candidate_count": 24,
+  "changed_count": 0,
+  "feedback_path": "research/_agent-queues/source-relevance-feedback.json"
+}
+source-relevance restore-review-assets | summary
+{
+  "target_count": 7,
+  "restored_raw": 0,
+  "skipped_raw": 0,
+  "restored_page_images": 0,
+  "released_tasks": [],
+  "errors": [],
+  "blockers": []
+}
 Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
 Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
 post-conversion-controller | summary
 {
-    "started":  "2026-05-21T14:25:48Z",
+    "started":  "2026-05-22T06:57:10Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "dry_run":  false,
     "allow_promotion":  true,
@@ -16,22 +33,28 @@ post-conversion-controller | summary
     "refresh":  [
                     "conversion-qc",
                     "agent-queues",
-                    "source-status"
+                    "source-status",
+                    "source-relevance-review-holds",
+                    "source-relevance-review-assets"
                 ],
     "queues":  {
                    "conversion-qa":  {
-                                         "done":  38,
-                                         "todo":  206
+                                         "done":  70,
+                                         "todo":  200
                                      },
                    "evidence-extraction":  {
-                                               "todo":  2363,
-                                               "blocked_needs_reread":  130
+                                               "done":  7,
+                                               "todo":  4979,
+                                               "blocked_needs_reread":  32
                                            },
                    "identity-analysis":  {
-
+                                             "done":  3,
+                                             "todo":  40
                                          },
                    "proof-review":  {
-
+                                        "done":  28,
+                                        "todo":  163,
+                                        "released":  30
                                     },
                    "wiki-promotion":  {
                                           "todo":  1
@@ -41,22 +64,22 @@ post-conversion-controller | summary
     "active_workers_after":  1,
     "launched":  [
                      {
-                         "worker":  "postconv-wiki-promotion-20260521142616657",
-                         "pid":  9128,
+                         "worker":  "postconv-wiki-promotion-20260522065754228",
+                         "pid":  6536,
                          "task_ids":  [
-                                          "wiki-promotion:reviewed-ready"
+                                          "wiki-promotion:reviewed-ready:d9396652dddc"
                                       ],
                          "queue":  "wiki-promotion",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-wiki-promotion-20260521142616657.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260521142616657.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260521142616657.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260521142616657.last.md",
-                         "started":  "2026-05-21T14:26:17Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-wiki-promotion-20260522065754228.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522065754228.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522065754228.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522065754228.last.md",
+                         "started":  "2026-05-22T06:57:55Z"
                      }
                  ],
     "blockers":  [
 
                  ],
-    "finished":  "2026-05-21T14:27:48Z"
+    "finished":  "2026-05-22T07:00:11Z"
 }

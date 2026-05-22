@@ -26364,3 +26364,6 @@
 ## [2026-05-22] source-relevance | Restored proof-review assets and released 26 review task(s)
 ## [2026-05-22] source-relevance | Restored proof-review assets and released 27 review task(s)
 ## [2026-05-22] agent-queues | Wrote 2 queue manifest(s); source-prep queue disabled by post-conversion settings; released 1 evidence task(s) for proof-review revision
+## [2026-05-22] source-status | Wrote research/_indexes/source-usability.json
+## [2026-05-22] promote-staged | Promoted 0 source packet(s), 0 claim(s), 0 relationship(s)
+## [2026-05-22] wiki-promotion | Reviewed-ready promotion task wiki-promotion:reviewed-ready:d9396652dddc wrote no-op manifest research/_staging/promotions/2026-05-22-065904-promote-staged.json. Dry run and real promotion skipped assigned reviewed relationships because the current promoter does not support relationship_candidate types child_parent or spouse; no canonical pages were promoted. Required lint was run and reported existing missing research paths, template/index references, and relationship/source page issues.
