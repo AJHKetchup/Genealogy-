@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-8ec1fa12f8d4-P0001-01
+chunk_id: CHUNK-947789362d30-P0001-01
 source_converted: raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md
-converted_sha256: 8ec1fa12f8d49435c6138eba7e02c108b6471668287a8bf71f1598f6f8e9c9d0
+converted_sha256: 947789362d305dd86a15cb74e21b87e1eabf087be1f7d47f03d9981c20337c4a
 source: raw/sources/ACICR_B_CR_177_001_002.pdf
 source_sha256: 35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35
 source_manifest: raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json
@@ -12,19 +12,18 @@ part: 1
 ---
 
 ## Page Metadata
-- Source: `raw/sources/ACICR_B_CR_177_001_002.pdf`
-- Page: 1
-- Page type: `document`
-- Page number (in source file): 1
+- Source: `ACICR_B_CR_177_001_002.pdf`
+- Page: `1`
 
 ## Layout And Reading Order
-The page contains a handwritten page number at the top right, followed by a printed header. Below the header, there is a list of numbered entries, each with a date and a description. Some entries have handwritten marginalia next to them. The content is presented in a single column.
+
+The page contains a list of numbered entries, each with a date and a description of an action or communication. There are also two handwritten marginal notes: "1 ann" and "ms.+transcr." on the left side, and "1 enveloppe" at the bottom left. A handwritten "CR 177-1" is at the top right.
 
 ## Literal Transcription
-```
-CR 177-1
+
 CR 177 CONFERENCE DIPLOMATIQUE
 1.
+
 1.-24.6.28. Transmettons à M. Ratzenberger du Département politique Fédéral à
 Berne 3 exemplaires des "Voeux et Résolutions votés à la XIIme
 Conférence de 1925.
@@ -32,14 +31,16 @@ Conférence de 1925.
 2.- 26.5.28. Envoyons à M. Ratzenberger 3 ex. du No 57 de la Revue
 
 3.- 30.6.28. L/ de M. Boissier à M. Huber au sujet des fonctions du secrétaire
-Général de la Conférence, poste qu'occuperait M. Des Gouttes.
+général de la Conférence, poste qu'occuperait M. des Gouttes.
 
-1 ann 4.- 2.7.28. L/ de M. Motta, informant que la Conférence diplomatique sera
+1 ann
+4.- 2.7.28. L/ de M. Motta, informant que la Conférence diplomatique sera
 convoquée pour la seconde quinzaine de Juin. Envoie note-circulaire
 que le Département adresse aux Etats participants aux Conférences
 de Genève.
 
-ms.+transcr. 5.- 3.7.28. Note de M. Huber concernant la représentation du CI à la Conférence
+ms.+transcr.
+5.- 3.7.28. Note de M. Huber concernant la représentation du CI à la Conférence.
 
 6.- 6.7.28. Répondons à Département politique (4), remercions et collaborerons
 au perfectionnement de la Convention.
@@ -52,9 +53,9 @@ secr. général de la Conférence. Désignerons délégués si Etats
 acceptent que le CI soit invité à participer à Conférence.
 
 9.- 10.7.28. M. Dinichert remercie pour 1/ du 7.7. (8) est heureux de la
-nomination de M. Des Gouttes. Ne pense pas qu'il y ait obstacle
+nomination de N. Des Gouttes. Ne pense pas qu'il y ait obstacle
 à ce que sa fonction de secr. général le prive de sa participation
-aux discussions en commissions.
+aux discussion en commissions.
 
 10.- 31.5.28. M. Motta rappelle n/ 1/ du 14.6.26 étendant à la guerre aérienne
 les principes de la Convention de Genève. Crois devoir proposer au
@@ -77,20 +78,23 @@ Conseil d'administration de l'Académie de droit international.
 se les tirages à part, mais ne doivent pas être mis dans le com-
 merce.
 
-1 enveloppe 16.- 17.10.28. Librairie Hachette informe M. Werner qu'elle va faire imprimer
+1 enveloppe
+16.- 17.10.28. Librairie Hachette informe M. Werner qu'elle va faire imprimer
 le tirage à part de son cours.
-```
 
 ## Images, Captions, And Visual Notes
-No images or captions are present on this page.
+- A handwritten note "CR 177-1" is present at the top right corner of the page.
+- A handwritten note "1 ann" is present in the left margin next to entry 4.
+- A handwritten note "ms.+transcr." is present in the left margin next to entry 5.
+- A handwritten note "1 enveloppe" is present in the left margin next to entry 16.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text and layout elements from the page.
+The transcription is complete and accurate. All text, including handwritten marginalia, has been captured.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals suitable for standalone wiki assets were found on this page. The handwritten notes are minor and captured by transcription."}
 ```
