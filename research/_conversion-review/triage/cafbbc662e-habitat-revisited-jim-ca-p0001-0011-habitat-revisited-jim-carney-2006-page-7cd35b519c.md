@@ -14,7 +14,7 @@
 | 4 | high | high | pass | none | Dario |
 | 5 | high | high | pass | none | Pulgar |
 | 6 | none | high | pass | none | none |
-| 7 | high | high | pass | none | Dario, Dario Pulgar, Pulgar |
+| 7 | high | medium | reread-page | explicit_reread_needed | Dario, Dario Pulgar, Pulgar |
 | 8 | high | high | pass | none | Dario |
 | 9 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |

@@ -6,4 +6,10 @@
 
 ## Queued Pages
 
-No pages queued for reread.
+### Page 7
+
+- Recommended action: `reread-page`
+- Conversion confidence: `medium`
+- Family relevance: `high`
+- Quality flags: explicit_reread_needed
+- Matched family context: Dario, Dario Pulgar, Pulgar
