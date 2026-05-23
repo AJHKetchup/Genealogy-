@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-23T14:56:18Z",
+  "created": "2026-05-23T15:56:26Z",
   "purpose": "Source-readiness report for raw source -> LLM-readable source pipeline.",
   "inputs": {
     "source_prep_manifest": "raw/source-prep-manifest.json",
@@ -9,10 +9,10 @@
   "summary": {
     "total_sources": 20,
     "status_counts": {
-      "usable_with_page_holds": 2,
-      "partial_with_page_holds": 9,
-      "usable_for_extraction": 5,
-      "partially_usable_for_extraction": 4
+      "usable_for_extraction": 6,
+      "partial_with_page_holds": 10,
+      "partially_usable_for_extraction": 3,
+      "usable_with_page_holds": 1
     }
   },
   "sources": [
@@ -20,12 +20,12 @@
       "id": "SRC-35845f12102b",
       "raw_path": "raw/sources/ACICR_B_CR_177_001_002.pdf",
       "media_type": "pdf",
-      "status": "usable_with_page_holds",
+      "status": "usable_for_extraction",
       "source_prep_status": "converted",
       "conversion_job_count": 5,
       "converted_file_count": 5,
       "chunk_manifest_count": 5,
-      "qc_hold_count": 1,
+      "qc_hold_count": 0,
       "source_prep_task_counts": {},
       "page_repair_count": 0,
       "conversion_jobs": [
@@ -79,18 +79,7 @@
         "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex/manifest.json",
         "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/manifest.json"
       ],
-      "qc_holds": [
-        {
-          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md",
-          "page": 2,
-          "recommended_action": "spot-check",
-          "quality_flags": [
-            "possible_table_layout_loss"
-          ],
-          "matched_terms": [],
-          "suspicious_readings": []
-        }
-      ]
+      "qc_holds": []
     },
     {
       "id": "SRC-753b8b140d94",
@@ -1174,7 +1163,7 @@
       "conversion_job_count": 2,
       "converted_file_count": 1,
       "chunk_manifest_count": 1,
-      "qc_hold_count": 1,
+      "qc_hold_count": 2,
       "source_prep_task_counts": {},
       "page_repair_count": 0,
       "conversion_jobs": [
@@ -1202,15 +1191,33 @@
       "qc_holds": [
         {
           "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
-          "page": 13,
+          "page": 1,
+          "recommended_action": "reread-page",
+          "quality_flags": [
+            "explicit_reread_needed"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [
+            {
+              "literal": "ARRIGADA",
+              "suspected": "Arriagada",
+              "reason": "near match to known family context term `Arriagada`"
+            }
+          ]
+        },
+        {
+          "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
+          "page": 14,
           "recommended_action": "reread-page",
           "quality_flags": [],
           "matched_terms": [
-            "Dario"
+            "Dario",
+            "Dario Pulgar",
+            "Pulgar"
           ],
           "suspicious_readings": [
             {
-              "literal": "PULGA",
+              "literal": "PULGARA",
               "suspected": "Pulgar",
               "reason": "near match to known family context term `Pulgar`"
             }
@@ -2109,12 +2116,12 @@
       "id": "SRC-09a982816638",
       "raw_path": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
       "media_type": "pdf",
-      "status": "partially_usable_for_extraction",
+      "status": "partial_with_page_holds",
       "source_prep_status": "partially_converted",
       "conversion_job_count": 31,
       "converted_file_count": 19,
       "chunk_manifest_count": 19,
-      "qc_hold_count": 0,
+      "qc_hold_count": 1,
       "source_prep_task_counts": {},
       "page_repair_count": 0,
       "conversion_jobs": [
@@ -2378,7 +2385,18 @@
         "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0651-0675-r3578-50-5569-5569-jacket5-pages-651-675-codex/manifest.json",
         "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750-codex/manifest.json"
       ],
-      "qc_holds": []
+      "qc_holds": [
+        {
+          "converted_file": "raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md",
+          "page": 2,
+          "recommended_action": "spot-check",
+          "quality_flags": [
+            "many_uncertain_readings"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": []
+        }
+      ]
     },
     {
       "id": "SRC-6e09f1fb50a1",

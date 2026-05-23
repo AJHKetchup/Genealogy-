@@ -1,0 +1,42 @@
+---
+type: conversion_review_correction
+status: draft
+role: evidence_extractor
+worker: postconv-evidence-extraction-20260523154955571
+task_id: evidence-extraction:CHUNK-a048d567968b-P0001-03
+source: "raw/sources/Habitat Revisited, Jim Carney, 2006.pdf"
+source_sha256: fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9
+source_packet: "research/_staging/source-packets/chunk-a048d567968b-p0001-03-habitat-revisited-dario-pulgar.md"
+converted_file: "raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md"
+converted_sha256: a048d567968b8a75637cfd97335b19160a7580fb273b37a293712691ec678466
+chunk: "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11-codex/page-0001-chunk-03.md"
+chunk_id: CHUNK-a048d567968b-P0001-03
+chunk_manifest: "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11-codex/manifest.json"
+page_reference: "assigned page 1 in chunk manifest; family-relevant support appears on rendered page-0007.jpg / printed page 7 and rendered page-0008.jpg / printed page 8"
+literal_support: "page-0007.jpg supports the Dario Pulgar full-name, Chilean descriptor, Chile state film distribution role, and fleeing-after-1973 passage; page-0008.jpg supports `His mother tongue was Spanish`, English/French language context, and Vision Habitat distribution-rights work."
+conversion_confidence: medium
+conversion_qa_concern: "The rendered source images are present and visually support the Dario Pulgar passages, but the derivative chunk manifest still assigns this chunk to page 1 while the evidence belongs to printed/rendered pages 7 and 8. This page-boundary/citation disagreement remains unresolved."
+uncertainty: "Do not use this note to alter the source wording. The text appears visually supported; the blocker is the authoritative page reference and chunk boundary, not the substance of the Dario Pulgar claims."
+promotion_recommendation: hold_for_conversion_qa
+---
+
+# Conversion QA Correction Note
+
+This worker reviewed the staged evidence for `CHUNK-a048d567968b-P0001-03` and did not edit raw sources, converted Markdown, chunk Markdown, or page Markdown.
+
+## Image Review
+
+- `raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/page-images/page-0007.jpg` is present and visually supports the full-name Dario Pulgar paragraph, including the Chilean descriptor, the Chile state film distribution role under Allende, and the statement that he fled after Pinochet's 1973 overthrow of the Allende government.
+- `raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/page-images/page-0008.jpg` is present and visually supports the sentence `His mother tongue was Spanish`, the English/French language context, and the sentence that Dario was primarily occupied with acquiring distribution rights and determining where the off-shore printing materials were.
+
+## Staged Evidence Status
+
+The existing staged source packet, six Dario Pulgar atomic claims, identity candidate, conflict candidate, conversion-QA research task, and negative relationship note satisfy the evidence-extraction packet requirements for this chunk. They correctly keep promotable Dario Pulgar claims on `hold_for_conversion_qa`, and the relationship note remains `do_not_promote` because no kinship relationship is stated.
+
+## Remaining Blocker
+
+The proof-review blocker is only partly resolved. The previously missing `page-0008.jpg` concern is resolved in this checkout, and the mother-tongue sentence is visually supported. The authoritative page citation is still unresolved because the chunk manifest assigns `CHUNK-a048d567968b-P0001-03` to page 1 while the family-relevant evidence is on printed/rendered pages 7 and 8, and the chunk body also includes later page metadata.
+
+## Promotion Recommendation
+
+Keep all promotable Dario Pulgar claims from this chunk in staging with `promotion_recommendation: hold_for_conversion_qa` until conversion/page-boundary QA reconciles the canonical page reference.
