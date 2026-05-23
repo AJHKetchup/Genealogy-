@@ -89,31 +89,42 @@ jobs:
       - name: Configure GitHub Pages for site branch
         if: env.SKIP_SITE_PUBLISH != 'true'
         env:
-          GH_TOKEN: ${{ secrets.PAGES_ADMIN_TOKEN || secrets.CODEX_SECRET_UPDATE_TOKEN || github.token }}
+          PAGES_ADMIN_TOKEN: ${{ secrets.PAGES_ADMIN_TOKEN }}
+          CODEX_SECRET_UPDATE_TOKEN: ${{ secrets.CODEX_SECRET_UPDATE_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          if gh api "repos/${GITHUB_REPOSITORY}/pages" >/dev/null 2>&1; then
-            gh api --method PUT "repos/${GITHUB_REPOSITORY}/pages" \
-              -f "source[branch]=gh-pages" \
-              -f "source[path]=/" \
-              -f build_type=legacy
-          else
-            gh api --method POST "repos/${GITHUB_REPOSITORY}/pages" \
-              -f "source[branch]=gh-pages" \
-              -f "source[path]=/" \
-              -f build_type=legacy
-          fi
-          gh api "repos/${GITHUB_REPOSITORY}/pages" --jq '.html_url'
+          configure_pages() {
+            local token="$1"
+            if GH_TOKEN="$token" gh api "repos/${GITHUB_REPOSITORY}/pages" >/dev/null 2>&1; then
+              GH_TOKEN="$token" gh api --method PUT "repos/${GITHUB_REPOSITORY}/pages" \
+                -f "source[branch]=gh-pages" \
+                -f "source[path]=/" \
+                -f build_type=legacy >/dev/null
+            else
+              GH_TOKEN="$token" gh api --method POST "repos/${GITHUB_REPOSITORY}/pages" \
+                -f "source[branch]=gh-pages" \
+                -f "source[path]=/" \
+                -f build_type=legacy >/dev/null
+            fi
+            GH_TOKEN="$token" gh api "repos/${GITHUB_REPOSITORY}/pages" --jq '.html_url'
+          }
 
-      - name: Verify GitHub Pages endpoint
-        if: env.SKIP_SITE_PUBLISH != 'true'
-        env:
-          GH_TOKEN: ${{ secrets.PAGES_ADMIN_TOKEN || secrets.CODEX_SECRET_UPDATE_TOKEN || github.token }}
-        run: |
-          set -euo pipefail
-          if ! gh api "repos/${GITHUB_REPOSITORY}/pages" --jq '.html_url' > pages-url.txt; then
-            echo "::error title=GitHub Pages is not enabled::The site branch was published, but GitHub Pages is still disabled or this token cannot read it. Add PAGES_ADMIN_TOKEN with repository Administration: read/write permission, or enable Pages once in repository Settings > Pages using branch gh-pages / root."
+          page_url=""
+          for token_name in PAGES_ADMIN_TOKEN CODEX_SECRET_UPDATE_TOKEN GITHUB_TOKEN; do
+            token="${!token_name-}"
+            if [ -z "$token" ]; then
+              continue
+            fi
+            if page_url="$(configure_pages "$token" 2>/tmp/pages-config-error.log)"; then
+              echo "Configured GitHub Pages with ${token_name}."
+              break
+            fi
+            echo "::notice title=GitHub Pages token failed::${token_name} could not configure Pages: $(tail -n 1 /tmp/pages-config-error.log)"
+          done
+
+          if [ -z "$page_url" ]; then
+            echo "::error title=GitHub Pages is not enabled::The site branch was published, but none of PAGES_ADMIN_TOKEN, CODEX_SECRET_UPDATE_TOKEN, or GITHUB_TOKEN could enable Pages. Add PAGES_ADMIN_TOKEN with repository Administration: read/write permission, or enable Pages once in repository Settings > Pages using branch gh-pages / root."
             exit 1
           fi
-          page_url="$(cat pages-url.txt)"
           echo "GitHub Pages configured at ${page_url}"
