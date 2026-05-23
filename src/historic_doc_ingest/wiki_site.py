@@ -192,7 +192,7 @@ def build_wiki_site(root: Path, output: Path | None = None, include_research: bo
     write_text(output / "people.html", render_people_page(data))
     write_text(output / "research.html", render_research_dashboard_page(pages, data))
     write_text(output / "graph.html", render_special_page("Evidence Map", graph_body()))
-    write_text(output / "timeline.html", render_special_page("Family Timeline", timeline_body()))
+    write_text(output / "timeline.html", render_timeline_page(data))
     write_text(output / "collections.html", render_special_page("Collections", collections_body()))
     write_text(output / "sources.html", render_special_page("Source Library", sources_body()))
 
@@ -1980,15 +1980,90 @@ def graph_body() -> str:
     """
 
 
-def timeline_body() -> str:
-    return """
+def render_timeline_page(data: dict[str, object]) -> str:
+    family_wiki = data.get("familyWiki", {}) if isinstance(data.get("familyWiki"), dict) else {}
+    body = f"""
     <section class="page-head">
       <p class="eyebrow">Chronology</p>
       <h1>Family Timeline</h1>
       <p>Family events and person facts only. Source dates, conversion dates, and research-operation dates stay in the source library and backroom dashboards.</p>
     </section>
-    <section id="timeline-list" class="timeline-list"></section>
+    <section id="timeline-list" class="timeline-list">{render_full_timeline(data.get("timeline", []))}</section>
+    <section class="section-heading">
+      <h2>People To Place On The Timeline</h2>
+      <span>Family anchors stay visible while dated claims and events catch up</span>
+    </section>
+    <section id="timeline-anchors" class="timeline-anchor-grid">{render_timeline_anchor_cards(family_wiki)}</section>
     """
+    return render_shell("Family Timeline", body, active="family-timeline")
+
+
+def render_full_timeline(items: object) -> str:
+    if not isinstance(items, list) or not items:
+        return '<div class="empty-state">No dated family events yet. Births, marriages, residences, migrations, deaths, and person-linked story events will appear here after review and promotion.</div>'
+    rows = []
+    for item in items[:200]:
+        if not isinstance(item, dict):
+            continue
+        rows.append(
+            f"""
+            <a class="timeline-item" href="{escape_attr(str(item.get("url", "#")))}">
+              <span class="timeline-date">{html.escape(str(item.get("date", "")))}</span>
+              <span><strong>{html.escape(str(item.get("title", "")))}</strong><br><small>{html.escape(str(item.get("section", "")))} · {html.escape(str(item.get("type", "")))}</small></span>
+            </a>
+            """
+        )
+    return "".join(rows) or '<div class="empty-state">No dated family events yet.</div>'
+
+
+def render_timeline_anchor_cards(family_wiki: dict[str, object]) -> str:
+    people = family_wiki.get("people", []) if isinstance(family_wiki.get("people"), list) else []
+    relationships = family_wiki.get("directRelationships", []) if isinstance(family_wiki.get("directRelationships"), list) else []
+    cards = []
+    for person in people[:10]:
+        if not isinstance(person, dict):
+            continue
+        meta = " | ".join(
+            part
+            for part in [
+                str(person.get("relationToHome") or "").strip(),
+                str(person.get("status") or "").replace("_", " ").strip(),
+            ]
+            if part
+        )
+        cards.append(
+            f"""
+            <a class="timeline-anchor-card" href="{escape_attr(str(person.get("url", "#")))}">
+              <span>Person</span>
+              <strong>{html.escape(str(person.get("title", "")))}</strong>
+              <small>{html.escape(meta or "Awaiting dated life events")}</small>
+            </a>
+            """
+        )
+    for relationship in relationships[:6]:
+        if not isinstance(relationship, dict):
+            continue
+        person_a = relationship.get("personA") if isinstance(relationship.get("personA"), dict) else {}
+        person_b = relationship.get("personB") if isinstance(relationship.get("personB"), dict) else {}
+        title = " ".join(
+            part
+            for part in [
+                str(person_a.get("label") or "").strip(),
+                str(relationship.get("label") or "").strip(),
+                str(person_b.get("label") or "").strip(),
+            ]
+            if part
+        )
+        cards.append(
+            f"""
+            <a class="timeline-anchor-card relationship-anchor" href="{escape_attr(str(relationship.get("url") or "#"))}">
+              <span>Relationship</span>
+              <strong>{html.escape(title)}</strong>
+              <small>{html.escape(str(relationship.get("status") or "").replace("_", " "))}</small>
+            </a>
+            """
+        )
+    return "\n".join(cards) or '<div class="empty-state">No family anchors are ready yet.</div>'
 
 
 def collections_body() -> str:
@@ -2921,6 +2996,35 @@ code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
   border-bottom: 1px solid var(--line);
 }
 .timeline-date { color: var(--clay); font-weight: 800; }
+.timeline-anchor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 12px;
+}
+.timeline-anchor-card {
+  display: flex;
+  min-height: 130px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--teal);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+  box-shadow: 0 8px 20px rgba(21, 26, 35, 0.06);
+}
+.timeline-anchor-card:hover { border-color: var(--teal); text-decoration: none; }
+.timeline-anchor-card span {
+  color: var(--clay);
+  font-size: .76rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.timeline-anchor-card strong { line-height: 1.18; }
+.timeline-anchor-card small { color: var(--muted); }
+.relationship-anchor { border-left-color: var(--gold); }
 .empty-state {
   padding: 28px;
   border: 1px solid var(--line);
@@ -3047,6 +3151,17 @@ SITE_JS = r"""
     target.innerHTML = data.timeline.length
       ? data.timeline.map((item) => `<a class="timeline-item" href="${item.url}"><span class="timeline-date">${escapeHtml(item.date)}</span><span><strong>${escapeHtml(item.title)}</strong><br><small>${escapeHtml(item.section)} &middot; ${escapeHtml(item.type)}</small></span></a>`).join("")
       : '<div class="empty-state">No dated family events yet. Births, marriages, residences, migrations, deaths, and person-linked story events will appear here after review and promotion.</div>';
+    const anchors = document.getElementById("timeline-anchors");
+    if (anchors && data.familyWiki && Array.isArray(data.familyWiki.people)) {
+      const people = data.familyWiki.people.slice(0, 10).map((person) => `<a class="timeline-anchor-card" href="${escapeHtml(person.url || "#")}"><span>Person</span><strong>${escapeHtml(person.title || "")}</strong><small>${escapeHtml(person.relationToHome || person.status || "Awaiting dated life events")}</small></a>`);
+      const relationships = (data.familyWiki.directRelationships || []).slice(0, 6).map((relationship) => {
+        const personA = relationship.personA || {};
+        const personB = relationship.personB || {};
+        const title = [personA.label, relationship.label, personB.label].filter(Boolean).join(" ");
+        return `<a class="timeline-anchor-card relationship-anchor" href="${escapeHtml(relationship.url || "#")}"><span>Relationship</span><strong>${escapeHtml(title)}</strong><small>${escapeHtml(relationship.status || "")}</small></a>`;
+      });
+      anchors.innerHTML = people.concat(relationships).join("") || '<div class="empty-state">No family anchors are ready yet.</div>';
+    }
   }
 
   function renderSources() {

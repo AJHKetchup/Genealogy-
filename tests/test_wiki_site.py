@@ -127,6 +127,10 @@ This page is an evidence-derived record role, not a family-facing profile.
     assert '"familyWiki"' in data_js
     assert '"type": "wikilink"' in data_js
     assert "1888" in data_js
+    timeline_html = (output / "timeline.html").read_text(encoding="utf-8")
+    assert "People To Place On The Timeline" in timeline_html
+    assert "Parent Person" in timeline_html
+    assert "Child Person" in timeline_html
 
 
 def test_wiki_site_surfaces_converted_sources_and_filters_ops_timeline(tmp_path) -> None:

@@ -102,17 +102,20 @@ jobs:
           set -euo pipefail
           tree_url="https://genealogy-wiki-site.ajh-genealogy.workers.dev/tree"
           profile_url="https://genealogy-wiki-site.ajh-genealogy.workers.dev/people/dario-arturo-pulgar-smith"
+          timeline_url="https://genealogy-wiki-site.ajh-genealogy.workers.dev/timeline"
           for attempt in $(seq 1 12); do
             tree_body="$(curl -fsSL "$tree_url" || true)"
             profile_body="$(curl -fsSL "$profile_url" || true)"
+            timeline_body="$(curl -fsSL "$timeline_url" || true)"
             if printf '%s' "$tree_body" | grep -q "Family Tree" \
               && printf '%s' "$tree_body" | grep -q "Alexander John Heinz" \
-              && printf '%s' "$profile_body" | grep -q "Dario Arturo Pulgar-Smith"; then
-              echo "Verified family tree at $tree_url and pretty person profile at $profile_url"
+              && printf '%s' "$profile_body" | grep -q "Dario Arturo Pulgar-Smith" \
+              && printf '%s' "$timeline_body" | grep -q "People To Place On The Timeline"; then
+              echo "Verified family tree at $tree_url, pretty profile at $profile_url, and sparse timeline anchors at $timeline_url"
               exit 0
             fi
             echo "Waiting for deployed family tree to refresh (attempt $attempt/12)."
             sleep 10
           done
-          echo "::error title=Worker site verification failed::The deployed Worker did not return the expected family tree and person profile content."
+          echo "::error title=Worker site verification failed::The deployed Worker did not return the expected family tree, person profile, and timeline anchor content."
           exit 1
