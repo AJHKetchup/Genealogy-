@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "updated": "2026-05-23",
+  "purpose": "Person-first research focus for internal genealogy agents. These are relevance seeds and hypotheses, not canonical assertions.",
+  "home_person": "Alexander John Heinz",
+  "principle": "Start with known family members and build outward through reviewed claims, relationships, events, places, photographs, and context that directly affects their lives.",
+  "focus_people": [
+    {
+      "name": "Alexander John Heinz",
+      "relationship_to_home": "self",
+      "status": "family_supplied_anchor",
+      "aliases": []
+    },
+    {
+      "name": "Dario Arturo Pulgar-Smith",
+      "relationship_to_home": "maternal grandfather",
+      "status": "family_supplied_anchor",
+      "aliases": [
+        "Dario Arturo Pulgar",
+        "Dario Pulgar",
+        "Dario Pulgar-Smith"
+      ],
+      "identity_hypotheses_to_review": [
+        "Dario Jose Pulgar-Arriagada",
+        "Dario Pulgar Arriagada",
+        "Dario Pulgar-Arriagada"
+      ]
+    }
+  ],
+  "focus_families": [
+    "Heinz",
+    "Pulgar",
+    "Pulgar-Smith",
+    "Arriagada"
+  ],
+  "narrative_relevance_cues": [
+    "address",
+    "attended",
+    "birth",
+    "born",
+    "burial",
+    "conference",
+    "convention",
+    "delegate",
+    "delegation",
+    "discussion",
+    "education",
+    "employment",
+    "father",
+    "geneva",
+    "hotel",
+    "household",
+    "immigration",
+    "lodging",
+    "marriage",
+    "minutes",
+    "mother",
+    "occupation",
+    "parent",
+    "photograph",
+    "residence",
+    "session",
+    "ship",
+    "speech",
+    "spoke",
+    "statement",
+    "travel",
+    "witness"
+  ],
+  "context_rule": "Place, institution, delegate, hotel, meeting, or historical context is relevant only when it can be linked to a family member, family event, relationship, photo, or narrative question.",
+  "examples_that_matter": [
+    "Where a family member stayed during a documented trip.",
+    "What meeting, convention, session, or discussion a family member attended.",
+    "What a family member said, wrote, signed, witnessed, or was recorded doing.",
+    "Who appears with a family member when that helps identify a trip, role, relationship, or event.",
+    "What Los Angeles, Chile or another place was like when tied to a specific family birth, residence, work, migration, or record."
+  ],
+  "examples_to_deprioritize": [
+    "Generic source chunks that mention official titles, dates, or places but no family member or clear family event.",
+    "Delegate lists unrelated to a named family member's attendance, table, session, lodging, or role.",
+    "Broad historical essays that cannot answer why a family member was there, what happened to them, or how the setting shaped their life."
+  ]
+}

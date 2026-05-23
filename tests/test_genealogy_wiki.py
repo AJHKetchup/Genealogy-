@@ -1249,6 +1249,21 @@ def test_evidence_queue_prioritizes_family_relevant_chunks(tmp_path) -> None:
     generic = tmp_path / "wiki" / "source-packets" / "Chunk Name Date Chile.md"
     generic.parent.mkdir(parents=True, exist_ok=True)
     generic.write_text("# Chunk Name Date Chile\n", encoding="utf-8")
+    research_generic = tmp_path / "research" / "source-packets" / "Entries Medical Directory Article Passenger.md"
+    research_generic.parent.mkdir(parents=True, exist_ok=True)
+    research_generic.write_text("# Entries Medical Directory Article Passenger\n", encoding="utf-8")
+    source_mentioned_person = tmp_path / "wiki" / "people" / "Arturo Lavin Gallegos.md"
+    source_mentioned_person.write_text(
+        """---
+type: person
+status: source_mentioned
+display_name: Arturo Lavin Gallegos
+---
+
+# Arturo Lavin Gallegos
+""",
+        encoding="utf-8",
+    )
 
     family_source = tmp_path / "raw" / "converted" / "dario-note.codex.md"
     family_source.write_text(
@@ -1304,9 +1319,134 @@ This page says name, date, time, Chile, and chunk but does not name a family mem
     assert family_task["status"] == "todo"
     assert family_task["family_relevance"] in {"medium", "high"}
     assert "Dario" in family_task["matched_terms"]
-    assert not {"chunk", "name", "date", "chile"} & set(terms)
+    assert not {
+        "article",
+        "chunk",
+        "date",
+        "directory",
+        "entries",
+        "medical",
+        "name",
+        "passenger",
+        "chile",
+        "gallegos",
+    } & set(terms)
     assert low_task["status"] == "deferred_low_relevance"
     assert generic_task["status"] == "deferred_low_relevance"
+
+
+def test_evidence_queue_prioritizes_person_linked_narrative_context(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    person = tmp_path / "wiki" / "people" / "Dario Arturo Pulgar.md"
+    person.parent.mkdir(parents=True, exist_ok=True)
+    person.write_text("# Dario Arturo Pulgar\n", encoding="utf-8")
+
+    narrative_source = tmp_path / "raw" / "converted" / "dario-geneva-hotel.codex.md"
+    narrative_source.write_text(
+        """# Dario Geneva Hotel
+
+# Page 1
+
+## Literal Transcription
+
+Dario Pulgar stayed at the hotel during the Geneva convention session and spoke in the discussion.
+""",
+        encoding="utf-8",
+    )
+    name_only_source = tmp_path / "raw" / "converted" / "dario-list.codex.md"
+    name_only_source.write_text(
+        """# Dario List
+
+# Page 1
+
+## Literal Transcription
+
+Dario Pulgar appears in a list of names.
+""",
+        encoding="utf-8",
+    )
+    unrelated_context_source = tmp_path / "raw" / "converted" / "geneva-hotels.codex.md"
+    unrelated_context_source.write_text(
+        """# Geneva Hotels
+
+# Page 1
+
+## Literal Transcription
+
+The hotel hosted several delegates during the convention session.
+""",
+        encoding="utf-8",
+    )
+    chunk_converted_markdown(tmp_path, unrelated_context_source)
+    chunk_converted_markdown(tmp_path, name_only_source)
+    chunk_converted_markdown(tmp_path, narrative_source)
+
+    write_agent_queues(tmp_path, include_source_prep=False)
+
+    extraction_queue = json.loads(
+        (tmp_path / "research" / "_agent-queues" / "evidence-extraction.json").read_text(encoding="utf-8")
+    )
+    narrative_task = next(task for task in extraction_queue["tasks"] if "dario-geneva-hotel" in task["converted_file"])
+    name_only_task = next(task for task in extraction_queue["tasks"] if "dario-list" in task["converted_file"])
+    unrelated_task = next(task for task in extraction_queue["tasks"] if "geneva-hotels" in task["converted_file"])
+
+    assert narrative_task["status"] == "todo"
+    assert narrative_task["family_relevance"] == "high"
+    assert {"hotel", "session", "discussion"} <= set(narrative_task["narrative_cues"])
+    assert "person_linked_narrative_context" in narrative_task["priority_reasons"]
+    assert narrative_task["evidence_priority"] < name_only_task["evidence_priority"]
+    assert unrelated_task["status"] == "deferred_low_relevance"
+
+
+def test_evidence_queue_ignores_stale_generic_qc_family_terms(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    person = tmp_path / "wiki" / "people" / "Dario Arturo Pulgar.md"
+    person.parent.mkdir(parents=True, exist_ok=True)
+    person.write_text("# Dario Arturo Pulgar\n", encoding="utf-8")
+
+    generic_source = tmp_path / "raw" / "converted" / "old-qc-generic.codex.md"
+    generic_source.write_text(
+        """# Old QC Generic
+
+# Page 1
+
+## Literal Transcription
+
+Entries in this article discuss a convention session without naming a family member.
+""",
+        encoding="utf-8",
+    )
+    chunk_converted_markdown(tmp_path, generic_source)
+
+    qc_dir = tmp_path / "research" / "_conversion-review"
+    qc_dir.mkdir(parents=True, exist_ok=True)
+    (qc_dir / "qc-pages.json").write_text(
+        json.dumps(
+            {
+                "pages": [
+                    {
+                        "converted_file": "raw/converted/old-qc-generic.codex.md",
+                        "page": 1,
+                        "family_relevance": "critical",
+                        "matched_terms": ["Entries", "Article"],
+                        "recommended_action": "pass",
+                    }
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    write_agent_queues(tmp_path, include_source_prep=False)
+
+    extraction_queue = json.loads(
+        (tmp_path / "research" / "_agent-queues" / "evidence-extraction.json").read_text(encoding="utf-8")
+    )
+    generic_task = next(task for task in extraction_queue["tasks"] if "old-qc-generic" in task["converted_file"])
+
+    assert generic_task["status"] == "deferred_low_relevance"
+    assert generic_task["family_relevance"] == "none"
+    assert generic_task["matched_terms"] == []
 
 
 def test_write_agent_queue_compacts_long_prompt_filenames(tmp_path) -> None:

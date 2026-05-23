@@ -465,6 +465,35 @@ function Test-StagedDraftAlreadyPromoted {
     return $true
 }
 
+function Get-LineageFocusScore {
+    param([string]$Text)
+    if ([string]::IsNullOrWhiteSpace($Text)) { return 0 }
+    $lower = $Text.ToLowerInvariant()
+    $score = 0
+
+    $rules = @(
+        @{ pattern = "pulgar"; score = 35 },
+        @{ pattern = "dario|dar.?o"; score = 30 },
+        @{ pattern = "arriagada|amagada"; score = 25 },
+        @{ pattern = "pulgar[\s-]*smith"; score = 25 },
+        @{ pattern = "dario\s+(arturo|jose)|dar.?o\s+(arturo|jose)"; score = 25 },
+        @{ pattern = "jos.{0,2}\s+del\s+carmen"; score = 20 },
+        @{ pattern = "juana"; score = 15 },
+        @{ pattern = "padre|madre|father|mother|parent|parents|child|hijo|hija"; score = 15 },
+        @{ pattern = "entry[\s-]*(172|513)|record[\s-]*(172|513)|certificate\s+no\.?\s+513|p0172|no\.?\s+513"; score = 15 }
+    )
+    foreach ($rule in $rules) {
+        if ($lower -match [string]$rule.pattern) {
+            $score += [int]$rule.score
+        }
+    }
+    if ($lower -match "(no-family-relationship|no\s+family\s+relationship|negative-evidence|unrelated|do\s+not\s+promote)") {
+        $score -= 35
+    }
+    if ($score -lt 0) { return 0 }
+    return $score
+}
+
 function Get-ProofReviewDraftPriority {
     param([string]$RelativePath)
     $relative = ($RelativePath -replace "\\", "/").ToLowerInvariant()
@@ -483,27 +512,35 @@ function Get-ProofReviewDraftPriority {
     $lineageSignal = $haystack -match "(\b(birth|born|baptism|marriage|death|parent|parents|child|father|mother|declarant|registration|register|registry|certificate)\b|nacimiento|nacimientos|bautismo|matrimonio|defunc|padre|madre|hijo|hija|record\s+[0-9]+|registro\s+civil)"
     $negativeSignal = $haystack -match "(no-family-relationship|no\s+family\s+relationship|negative-evidence|no-mother|father-unknown|do\s+not\s+promote|promotion_recommendation:\s*(do_not_promote|reject|rejected))"
     $careerSignal = $haystack -match "(cv|curriculum|consultant|employment|career|education|university|school|language|antamina|unicef|fao|iica|producer|manager|communications|advisor)"
+    $focusScore = Get-LineageFocusScore -Text $haystack
 
     if ($relative -like "research/_staging/relationships/*") {
         if ($negativeSignal) { return 7 }
+        if ($focusScore -gt 0) { return -2 }
         if ($lineageSignal) { return 0 }
         return 3
     }
     if ($relative -like "research/_staging/claims/*") {
         if ($negativeSignal) { return 7 }
+        if ($focusScore -gt 0 -and $lineageSignal) { return -1 }
         if ($lineageSignal) { return 1 }
         if ($careerSignal) { return 5 }
         return 4
     }
     if ($relative -like "research/_staging/source-packets/*") {
+        if ($focusScore -gt 0) { return 1 }
         if ($lineageSignal) { return 2 }
         return 6
     }
     if ($relative -like "research/_staging/conflicts/*") {
+        if ($focusScore -gt 0) { return 1 }
         if ($lineageSignal) { return 2 }
         return 6
     }
-    if ($relative -like "research/_staging/identity/*" -or $relative -like "research/_staging/identity-analysis/*") { return 6 }
+    if ($relative -like "research/_staging/identity/*" -or $relative -like "research/_staging/identity-analysis/*") {
+        if ($focusScore -gt 0) { return 0 }
+        return 6
+    }
     return 9
 }
 
@@ -639,6 +676,7 @@ You are not alone in the codebase. Other workers may be handling separate staged
 - Do not merge people, rename canonical pages, or promote facts.
 - Keep literal source readings separate from interpretation. Family-context hints can justify a double-check, not a silent correction.
 - Preserve multiple hypotheses when identity is uncertain.
+- For Pulgar-line work, explicitly compare the evidence for Dario Arturo Pulgar-Smith, Dario Arturo Pulgar, Dario Jose Pulgar-Arriagada, Dario/Dario Pulgar Arriagada, and any Jose/Juana parent candidates when those names appear in the staged draft or existing wiki context. Do not merge them by name alone; rank the hypotheses and name the exact proof-review or promotion step needed next.
 - Score identity confidence, conflict severity, evidence quality, conversion confidence, claim probability, relevance, and canonical readiness.
 - Write one analysis note under research/_staging/identity-analysis/ that references the exact staged draft.
 
@@ -755,6 +793,72 @@ function Read-QueueTasks {
     return @($tasks)
 }
 
+function Get-TaskSearchText {
+    param([object]$Task)
+    $parts = [System.Collections.Generic.List[string]]::new()
+    foreach ($name in @(
+        "task_id",
+        "queue",
+        "staged_draft",
+        "chunk_id",
+        "chunk_path",
+        "converted_file",
+        "source",
+        "family_relevance",
+        "matched_terms",
+        "priority_reasons",
+        "prompt_path"
+    )) {
+        if ($null -eq $Task.PSObject.Properties[$name]) { continue }
+        foreach ($value in (ConvertTo-Array $Task.PSObject.Properties[$name].Value)) {
+            if ($null -ne $value -and -not [string]::IsNullOrWhiteSpace([string]$value)) {
+                $parts.Add([string]$value) | Out-Null
+            }
+        }
+    }
+
+    if ($null -ne $Task.PSObject.Properties["staged_draft"]) {
+        $draftPath = Resolve-UnderRoot -Path ([string]$Task.staged_draft)
+        if (Test-Path -LiteralPath $draftPath -PathType Leaf) {
+            try {
+                $parts.Add((Get-Content -LiteralPath $draftPath -Raw)) | Out-Null
+            }
+            catch {
+                # Dispatch priority can fall back to queue metadata.
+            }
+        }
+    }
+    return ($parts -join "`n")
+}
+
+function Get-TaskDispatchPriority {
+    param([string]$QueueName, [object]$Task)
+    $base = switch ($QueueName) {
+        "wiki-promotion" { 0 }
+        "identity-analysis" { 1000 }
+        "proof-review" { 1200 }
+        "evidence-extraction" { 2000 }
+        "conversion-qa" { 2600 }
+        default { 3000 }
+    }
+    $text = Get-TaskSearchText -Task $Task
+    $focusScore = Get-LineageFocusScore -Text $text
+    $priority = $base - [Math]::Min(900, ($focusScore * 5))
+
+    if ($null -ne $Task.PSObject.Properties["evidence_priority"]) {
+        try {
+            $priority += [int]([double]$Task.evidence_priority / 10)
+        }
+        catch {
+            # Non-numeric priority is ignored.
+        }
+    }
+    if ([string]$Task.status -eq "released") {
+        $priority += 50
+    }
+    return [int]$priority
+}
+
 function Get-ActiveWorkers {
     $state = Read-JsonFile -Path $StatePath -Default ([pscustomobject]@{ active_workers = @() })
     $taskState = Get-TaskStateMap
@@ -817,7 +921,10 @@ function Get-AvailableTasks {
             if ($status -notin @("todo", "released")) { continue }
             $ready += $task
         }
-        $tasksByQueue[$queue.name] = @($ready)
+        $queueNameForSort = [string]$queue.name
+        $tasksByQueue[$queue.name] = @($ready | Sort-Object `
+            @{ Expression = { Get-TaskDispatchPriority -QueueName $queueNameForSort -Task $_ } }, `
+            task_id)
     }
 
     $selected = [System.Collections.ArrayList]::new()
@@ -842,22 +949,25 @@ function Get-AvailableTasks {
         return @($selected)
     }
 
-    # Avoid starving extraction behind a large QA backlog. The canonical tree grows only
-    # after extraction -> proof review -> promotion, so each run reserves slots for that path.
-    $reviewQuota = [Math]::Max(1, [int][Math]::Ceiling($QueueLimit * 0.25))
-    $evidenceQuota = [Math]::Max(1, [int][Math]::Ceiling($QueueLimit * 0.60))
-    $qaQuota = [Math]::Max(1, [int][Math]::Floor($QueueLimit * 0.25))
+    # Keep the lineage loop moving. Converted sources do not help the family tree until
+    # identity and relationship review bridge source names to canonical people.
+    $identityQuota = [Math]::Max(2, [int][Math]::Ceiling($QueueLimit * 0.25))
+    $reviewQuota = [Math]::Max(2, [int][Math]::Ceiling($QueueLimit * 0.25))
+    $evidenceQuota = [Math]::Max(2, [int][Math]::Ceiling($QueueLimit * 0.35))
+    $qaQuota = [Math]::Max(1, [int][Math]::Floor($QueueLimit * 0.15))
 
+    $identityFirst = [Math]::Min(2, $identityQuota)
+    Add-ReadyTasksFromQueue -QueueName "identity-analysis" -Limit $identityFirst
     Add-ReadyTasksFromQueue -QueueName "proof-review" -Limit 1
     Add-ReadyTasksFromQueue -QueueName "evidence-extraction" -Limit $evidenceQuota
-    Add-ReadyTasksFromQueue -QueueName "identity-analysis" -Limit 1
+    Add-ReadyTasksFromQueue -QueueName "identity-analysis" -Limit ([Math]::Max(0, $identityQuota - $identityFirst))
     Add-ReadyTasksFromQueue -QueueName "proof-review" -Limit ([Math]::Max(0, $reviewQuota - 1))
     Add-ReadyTasksFromQueue -QueueName "conversion-qa" -Limit $qaQuota
     if ($AllowPromotion) {
         Add-ReadyTasksFromQueue -QueueName "wiki-promotion" -Limit 1
     }
 
-    $fillOrder = @("evidence-extraction", "proof-review", "identity-analysis", "conversion-qa")
+    $fillOrder = @("identity-analysis", "proof-review", "evidence-extraction", "conversion-qa")
     if ($AllowPromotion) { $fillOrder += "wiki-promotion" }
     while ($selected.Count -lt $QueueLimit) {
         $before = $selected.Count

@@ -6,6 +6,8 @@
   "path_note": "C:/Users/Big Al/Documents/New project is a junction to C:/Users/Big Al/Documents/Genealogy; Python may print the resolved target path while operating on the same files.",
   "entrypoint": "API-free agent harness over durable queues",
   "scoring_model": "research/_automation/evidence-scoring-model.json",
+  "family_research_focus": "research/_automation/family-research-focus.json",
+  "person_first_contract": "Internal research starts with known family members and reviewed family relationships, then expands to source claims, context, places, institutions, and co-participants only when they can support a family-member narrative.",
   "pc_off_runner": {
     "status": "active_on_default_branch",
     "workflow": ".github/workflows/internal-research-agents.yml",

@@ -3928,6 +3928,9 @@ def analyze_conversion_page(
     matched_terms = find_family_context_matches(page_text, family_terms)
     suspicious_readings = find_suspicious_name_readings(page_text, family_terms)
     family_relevance = conversion_family_relevance(matched_terms, suspicious_readings)
+    narrative_cues = find_narrative_relevance_cues(page_text, narrative_relevance_cues(root))
+    if matched_terms and narrative_cues and family_relevance == "medium":
+        family_relevance = "high"
     recommended_action = conversion_recommended_action(flags, family_relevance, suspicious_readings)
     confidence = conversion_confidence(flags, suspicious_readings)
     return {
@@ -3938,6 +3941,7 @@ def analyze_conversion_page(
         "quality_flags": flags,
         "family_relevance": family_relevance,
         "matched_terms": matched_terms,
+        "narrative_cues": narrative_cues,
         "suspicious_readings": suspicious_readings,
         "conversion_confidence": confidence,
         "recommended_action": recommended_action,
@@ -3992,8 +3996,8 @@ def strip_fenced_code_blocks(text: str) -> str:
 
 def build_family_context_terms(root: Path) -> dict[str, str]:
     terms: dict[str, str] = {}
+    add_family_research_focus_terms(root, terms)
     wiki = root / "wiki"
-    research = root / "research"
     candidates = []
     for directory in (
         wiki / "people",
@@ -4003,21 +4007,71 @@ def build_family_context_terms(root: Path) -> dict[str, str]:
         wiki / "identity",
         wiki / "conflicts",
         wiki / "narratives",
-        research / "source-packets",
     ):
         if directory.exists():
             candidates.extend(sorted(directory.rglob("*.md")))
     for path in candidates:
-        add_family_terms_from_text(path.stem.replace("-", " "), terms)
         try:
             text = path.read_text(encoding="utf-8")
         except OSError:
             continue
+        frontmatter = parse_frontmatter(text)
+        if not include_page_in_family_context(path, frontmatter):
+            continue
+        add_family_terms_from_text(path.stem.replace("-", " "), terms)
+        for field in ("display_name", "title", "person_a", "person_b", "subject", "object", "linked_entity"):
+            add_family_terms_from_text(str(frontmatter.get(field, "")), terms)
         for heading in re.findall(r"^#\s+(.+)$", text, flags=re.MULTILINE):
             add_family_terms_from_text(heading, terms)
         for link in extract_wikilinks(text):
             add_family_terms_from_text(link.replace("/", " ").replace("-", " "), terms)
     return terms
+
+
+def load_family_research_focus(root: Path) -> dict[str, object]:
+    path = root / "research" / "_automation" / "family-research-focus.json"
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return payload if isinstance(payload, dict) else {}
+
+
+def add_family_research_focus_terms(root: Path, terms: dict[str, str]) -> None:
+    focus = load_family_research_focus(root)
+    for value in [focus.get("home_person", "")]:
+        add_family_terms_from_text(str(value), terms)
+    for person in focus.get("focus_people", []) if isinstance(focus.get("focus_people", []), list) else []:
+        if not isinstance(person, dict):
+            continue
+        add_family_terms_from_text(str(person.get("name", "")), terms)
+        for key in ("aliases", "identity_hypotheses_to_review"):
+            values = person.get(key, [])
+            if isinstance(values, list):
+                for value in values:
+                    add_family_terms_from_text(str(value), terms)
+    families = focus.get("focus_families", [])
+    if isinstance(families, list):
+        for value in families:
+            add_family_terms_from_text(str(value), terms)
+
+
+def include_page_in_family_context(path: Path, frontmatter: dict[str, str]) -> bool:
+    page_type = str(frontmatter.get("type", "")).strip().lower()
+    status = str(frontmatter.get("status", "")).strip().lower().replace("-", "_")
+    if frontmatter_boolish(frontmatter.get("home_person", "")):
+        return True
+    if str(frontmatter.get("relation_to_home", "")).strip():
+        return True
+    if page_type == "person" and status in {"stub", "source_mentioned", "source_scoped", "context_only"}:
+        return False
+    return True
+
+
+def frontmatter_boolish(value: str) -> bool:
+    return str(value).strip().lower() in {"1", "yes", "true", "y"}
 
 
 FAMILY_CONTEXT_STOPWORDS = {
@@ -4037,6 +4091,9 @@ FAMILY_CONTEXT_STOPWORDS = {
     "history",
     "home",
     "index",
+    "jose",
+    "juan",
+    "juana",
     "line",
     "lines",
     "narrative",
@@ -4053,9 +4110,13 @@ FAMILY_CONTEXT_STOPWORDS = {
     "accepted",
     "analysis",
     "archive",
+    "arturo",
     "birth",
     "born",
+    "carmen",
     "certificate",
+    "child",
+    "children",
     "chile",
     "chilean",
     "chunk",
@@ -4067,6 +4128,7 @@ FAMILY_CONTEXT_STOPWORDS = {
     "detail",
     "details",
     "draft",
+    "entries",
     "entry",
     "event",
     "evidence",
@@ -4074,14 +4136,20 @@ FAMILY_CONTEXT_STOPWORDS = {
     "file",
     "future",
     "generated",
+    "grandfather",
+    "grandmother",
+    "grandparent",
+    "grandparents",
     "knowledge",
     "last",
+    "maternal",
     "mother",
     "name",
     "named",
     "names",
     "page",
     "parents",
+    "paternal",
     "permanent",
     "place",
     "registered",
@@ -4110,6 +4178,28 @@ FAMILY_CONTEXT_STOPWORDS = {
     "wiki",
     "page",
     "record",
+    "records",
+    "adult",
+    "anatomy",
+    "article",
+    "articles",
+    "directory",
+    "directories",
+    "document",
+    "documents",
+    "england",
+    "intended",
+    "list",
+    "listing",
+    "listings",
+    "lists",
+    "medical",
+    "passenger",
+    "passengers",
+    "residence",
+    "residences",
+    "teacher",
+    "teaching",
 }
 
 
@@ -4210,6 +4300,27 @@ def find_family_context_matches(page_text: str, family_terms: dict[str, str]) ->
     return sorted(set(matches))
 
 
+def filter_family_context_matches(matches: Iterable[object], family_terms: dict[str, str]) -> list[str]:
+    valid_terms = {key.lower() for key in family_terms}
+    valid_terms.update(label.lower() for label in family_terms.values())
+    filtered = []
+    unknown_name_terms = []
+    for match in matches:
+        label = str(match).strip()
+        if not label:
+            continue
+        words = [word.lower() for word in re.findall(r"[^\W\d_]{3,}", label, flags=re.UNICODE)]
+        if words and all(word in FAMILY_CONTEXT_STOPWORDS for word in words):
+            continue
+        if label.lower() in valid_terms:
+            filtered.append(label)
+        elif words:
+            unknown_name_terms.append(label)
+    if not filtered and len(set(unknown_name_terms)) >= 2:
+        filtered.extend(unknown_name_terms)
+    return sorted(set(filtered))
+
+
 def find_suspicious_name_readings(page_text: str, family_terms: dict[str, str]) -> list[dict[str, str]]:
     page_words = [
         (match.group(0), match.group(0).lower())
@@ -4301,6 +4412,63 @@ def conversion_family_relevance(matched_terms: list[str], suspicious_readings: l
     if matched_terms:
         return "medium"
     return "none"
+
+
+DEFAULT_NARRATIVE_RELEVANCE_CUES = {
+    "address",
+    "attended",
+    "birth",
+    "born",
+    "burial",
+    "conference",
+    "convention",
+    "delegate",
+    "delegation",
+    "discussion",
+    "education",
+    "employment",
+    "father",
+    "geneva",
+    "hotel",
+    "household",
+    "immigration",
+    "lodging",
+    "marriage",
+    "minutes",
+    "mother",
+    "occupation",
+    "parent",
+    "photograph",
+    "residence",
+    "session",
+    "ship",
+    "speech",
+    "spoke",
+    "statement",
+    "travel",
+    "witness",
+}
+
+
+def narrative_relevance_cues(root: Path) -> list[str]:
+    focus = load_family_research_focus(root)
+    configured = focus.get("narrative_relevance_cues", [])
+    cues = set(DEFAULT_NARRATIVE_RELEVANCE_CUES)
+    if isinstance(configured, list):
+        cues.update(str(cue).strip().lower() for cue in configured if str(cue).strip())
+    return sorted(cues)
+
+
+def find_narrative_relevance_cues(text: str, cues: Iterable[str]) -> list[str]:
+    lower_text = text.lower().replace("-", " ")
+    matches = []
+    for cue in cues:
+        normalized = str(cue).strip().lower()
+        if not normalized:
+            continue
+        if re.search(rf"\b{re.escape(normalized)}\b", lower_text):
+            matches.append(normalized)
+    return sorted(set(matches))
 
 
 def conversion_recommended_action(
@@ -11636,9 +11804,14 @@ def best_evidence_relevance(values: Iterable[str]) -> str:
 
 def family_context_from_task_text(root: Path, task_text: str, family_terms: dict[str, str]) -> dict[str, object]:
     matches = find_family_context_matches(task_text.replace("-", " "), family_terms)
+    narrative_cues = find_narrative_relevance_cues(task_text, narrative_relevance_cues(root))
+    family_relevance = conversion_family_relevance(matches, [])
+    if matches and narrative_cues and family_relevance == "medium":
+        family_relevance = "high"
     return {
-        "family_relevance": conversion_family_relevance(matches, []),
+        "family_relevance": family_relevance,
         "matched_terms": matches,
+        "narrative_cues": narrative_cues,
     }
 
 
@@ -11662,11 +11835,19 @@ def evidence_priority_context(
     for page_number in range(max(1, page_start), max(page_start, page_end) + 1):
         qc_pages.extend(qc_pages_by_source.get(converted_file, {}).get(page_number, []))
 
-    relevance_values = [str(page.get("family_relevance", "")) for page in qc_pages]
+    relevance_values: list[str] = []
     matched_terms: list[str] = []
+    narrative_cues: list[str] = []
     qc_actions: list[str] = []
     for page in qc_pages:
-        matched_terms.extend(str(term) for term in page.get("matched_terms", []) if str(term).strip())
+        qc_terms = filter_family_context_matches(page.get("matched_terms", []), family_terms)
+        suspicious_readings = page.get("suspicious_readings", [])
+        if qc_terms or (isinstance(suspicious_readings, list) and suspicious_readings):
+            relevance_values.append(str(page.get("family_relevance", "")))
+        matched_terms.extend(qc_terms)
+        narrative_cues.extend(
+            str(cue) for cue in page.get("narrative_cues", []) if str(cue).strip()
+        )
         action = str(page.get("recommended_action", "")).strip()
         if action:
             qc_actions.append(action)
@@ -11684,6 +11865,7 @@ def evidence_priority_context(
     )
     relevance_values.append(str(source_context.get("family_relevance", "")))
     matched_terms.extend(str(term) for term in source_context.get("matched_terms", []) if str(term).strip())
+    narrative_cues.extend(str(cue) for cue in source_context.get("narrative_cues", []) if str(cue).strip())
 
     chunk_path = str(task.get("chunk_path", "")).strip()
     if chunk_path:
@@ -11698,6 +11880,7 @@ def evidence_priority_context(
             chunk_context = family_context_from_task_text(root, chunk_text[:20000], family_terms)
             relevance_values.append(str(chunk_context.get("family_relevance", "")))
             matched_terms.extend(str(term) for term in chunk_context.get("matched_terms", []) if str(term).strip())
+            narrative_cues.extend(str(cue) for cue in chunk_context.get("narrative_cues", []) if str(cue).strip())
 
     family_relevance = best_evidence_relevance(relevance_values)
     relevance_score = EVIDENCE_RELEVANCE_PRIORITY.get(family_relevance, EVIDENCE_RELEVANCE_PRIORITY[""])
@@ -11707,6 +11890,9 @@ def evidence_priority_context(
         reasons.append("qc:" + ",".join(sorted(set(qc_actions))))
     if matched_terms:
         reasons.append("matched_terms")
+    if matched_terms and narrative_cues:
+        priority -= 350
+        reasons.append("person_linked_narrative_context")
     if task.get("proof_review_revision_requests"):
         priority -= 700
         reasons.append("proof_review_revision")
@@ -11719,6 +11905,7 @@ def evidence_priority_context(
     return {
         "family_relevance": family_relevance,
         "matched_terms": sorted(set(matched_terms))[:16],
+        "narrative_cues": sorted(set(narrative_cues))[:16],
         "qc_recommended_actions": sorted(set(qc_actions)),
         "evidence_priority": priority,
         "priority_reasons": reasons,
@@ -13078,7 +13265,7 @@ Use `$conversion-qa-triage`.
 ## Done When
 
 - Automatic QC findings have been checked and refined where needed.
-- Family-relevant pages, suspicious readings, likely name drift, table problems, handwriting uncertainty, and missing visual regions are queued under `research/_conversion-review/`.
+- Family-relevant pages, person-linked narrative clues, suspicious readings, likely name drift, table problems, handwriting uncertainty, and missing visual regions are queued under `research/_conversion-review/`.
 - Suspected corrections are documented separately from the converted Markdown.
 - The task does not promote claims or edit canonical wiki pages.
 """
@@ -13137,9 +13324,18 @@ Use `$genealogy-claim-extraction`.
 - Staging area: `{task["staging_dir"]}`
 - Family relevance: `{task.get("family_relevance", "none")}`
 - Matched family terms: {", ".join(str(term) for term in task.get("matched_terms", [])) or "none"}
+- Narrative cues: {", ".join(str(cue) for cue in task.get("narrative_cues", [])) or "none"}
 - Evidence priority: `{task.get("evidence_priority", "")}` ({", ".join(str(reason) for reason in task.get("priority_reasons", [])) or "no priority reason"})
 {hold_section}
 {revision_section}
+
+## Person-First Narrative Contract
+
+- Start with known family members and reviewed family relationships, not source chunks as the main object.
+- Extract claims only when they can support a family member, family relationship, life event, place in a family story, photograph, or narrative question.
+- High-value narrative claims include where a family member stayed, traveled, lived, worked, studied, appeared in a photo, attended a meeting, served as a delegate, spoke, signed, witnessed, or was present for a discussion.
+- Context about a hotel, institution, place, co-delegate, meeting, or historical setting is useful only when it directly explains a family member's experience or a specific family record. Keep broad background as a staged context/research note with an explicit linked family entity, or mark it low relevance.
+- Do not fan out generic claims about all delegates, all places, or all official proceedings unless the chunk ties them to the family member's narrative.
 
 ## Done When
 
