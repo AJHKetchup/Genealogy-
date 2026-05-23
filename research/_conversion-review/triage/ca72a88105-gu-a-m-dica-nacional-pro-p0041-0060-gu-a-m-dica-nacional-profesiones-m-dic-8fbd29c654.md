@@ -20,7 +20,7 @@
 | 50 | none | high | pass | none | none |
 | 51 | medium | high | pass | none | Heinz |
 | 52 | none | high | pass | none | none |
-| 56 | none | high | pass | none | none |
+| 13 | none | high | pass | none | none |
 | 54 | none | high | pass | none | none |
 | 55 | none | high | pass | none | none |
 | 16 | high | high | pass | none | Alexander |
