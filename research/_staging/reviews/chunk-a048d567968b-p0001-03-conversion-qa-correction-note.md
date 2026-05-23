@@ -2,16 +2,18 @@
 type: conversion_review_correction
 status: draft
 role: evidence_extractor
-worker: postconv-evidence-extraction-20260522174958565
+worker: postconv-evidence-extraction-20260523143204380
 task_id: evidence-extraction:CHUNK-a048d567968b-P0001-03
 source: "raw/sources/Habitat Revisited, Jim Carney, 2006.pdf"
 source_packet: "research/_staging/source-packets/chunk-a048d567968b-p0001-03-habitat-revisited-dario-pulgar.md"
 converted_file: "raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md"
-chunk: "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-page-7cd35b519c/page-0001-chunk-03.md"
+chunk: "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11-codex/page-0001-chunk-03.md"
 chunk_id: CHUNK-a048d567968b-P0001-03
 page_reference: "assigned page 1; relevant Dario Pulgar support visually checked on page-0007.jpg and page-0008.jpg"
+literal_support: "page-0007.jpg supports the Dario Pulgar Chilean/Chile film distribution/fleeing-1973 paragraph; page-0008.jpg supports `His mother tongue was Spanish`, English/French language context, and Vision Habitat distribution-rights work."
 conversion_confidence: medium
 conversion_qa_concern: "Rendered source images now include page-0008.jpg, but chunk manifest/page assignment remains inconsistent with the family-relevant page-image evidence."
+uncertainty: "The family-relevant text appears visually supported, but the authoritative citation still cannot be resolved between assigned page 1 and rendered/printed pages 7-8 without conversion/page-boundary QA."
 promotion_recommendation: hold_for_conversion_qa
 ---
 
@@ -31,6 +33,8 @@ The chunk manifest still assigns `CHUNK-a048d567968b-P0001-03` to page 1, while 
 ## Revision Applied
 
 Updated the staged source packet, claims, identity candidate, negative relationship note, conflict note, and QA task to document the visual checks and correct the earlier "converted page 9" references for the mother-tongue/language/Vision Habitat passages to rendered `page-0008.jpg` / printed page 8.
+
+The 2026-05-23 revision also corrected stale staged chunk references from the older `...page-7cd35b519c/page-0001-chunk-03.md` path to the controller-assigned chunk path `raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11-codex/page-0001-chunk-03.md`. This does not resolve the page-boundary problem; it only makes the staged draft paths match the current assignment while preserving the rendered page 7/8 evidence disagreement.
 
 ## Promotion Recommendation
 

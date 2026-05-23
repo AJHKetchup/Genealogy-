@@ -1,58 +1,60 @@
 ---
 type: proof_review
 role: claim_reviewer
-worker: postconv-proof-review-20260523114404592
 task_id: proof-review:research/_staging/identity-analysis/identity-analysis-id-stage-chunk-3661a25ff4f5-p0009-01-dario-pulgar.md
+worker: postconv-proof-review-20260523144244281
 staged_draft: research/_staging/identity-analysis/identity-analysis-id-stage-chunk-3661a25ff4f5-p0009-01-dario-pulgar.md
-review_status: hold
+reviewed_identity_analysis: research/_staging/identity-analysis/identity-analysis-id-stage-chunk-3661a25ff4f5-p0009-01-dario-pulgar.md
+source_packet: research/_staging/source-packets/SP-STAGE-CHUNK-3661a25ff4f5-P0009-01-cv-dario-pulgar-page-9.md
+converted_file: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
+chunk: raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0009-chunk-01.md
+page_image: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0009.jpg
+source_path: raw/sources/CV of Dario Arturo Pulgar.pdf
+page_reference: page 9
+review_status: complete
 canonical_readiness: hold
-reviewed:
-  - research/_staging/identity-analysis/identity-analysis-id-stage-chunk-3661a25ff4f5-p0009-01-dario-pulgar.md
-  - research/_staging/source-packets/SP-STAGE-CHUNK-3661a25ff4f5-P0009-01-cv-dario-pulgar-page-9.md
-  - raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-  - raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0009.md
-  - raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0009.jpg
-  - raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json
-  - wiki/people/dario-arturo-pulgar-smith.md
 ---
 
-# Proof Review: Dario Pulgar CV Page 9 Identity Analysis
+# Proof Review: Dario Pulgar, CV Page 9 Identity Analysis
 
 ## Blockers
 
-- Canonical readiness is `hold`. Page 9 visibly contains education and language entries only; it does not name Dario, Dario Arturo Pulgar, Dario Arturo Pulgar-Smith, parents, spouse, child, grandchild, birth data, or any other direct identity bridge.
-- The identity attachment is document-level, not page-body evidence. The source packet and page metadata identify the source as `CV of Dario Arturo Pulgar`, but the reviewed page image itself cannot independently prove the canonical candidate `Dario Arturo Pulgar-Smith`.
-- The referenced chunk path is unavailable: `raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0009-chunk-01.md` does not exist. The chunk manifest reviewed for that directory omits page 9 and uses `CHUNK-b172546b574e-*` identifiers, not the staged/source-packet `CHUNK-3661a25ff4f5-P0009-01`.
-- The source packet records `converted_sha256: 3661a25ff4f5...`, while the reviewed chunk manifest records `converted_sha256: b172546b574e...`. That metadata mismatch should be reconciled before any canonical promotion.
-- The canonical candidate page is family-supplied and explicitly warns against automatically attaching records mentioning Dario, Pulgar, Pulgar-Arriagada, or Pulgar-Smith without identity review. This page does not resolve the surname variant from `Pulgar` to `Pulgar-Smith`.
+- Page 9 does not name Dario Arturo Pulgar, Dario Arturo Pulgar-Smith, or any other person in the visible page body. The identity attribution is document-level context from the source title/path, source packet, staged draft, and surrounding CV file, not literal page-body evidence.
+- The page gives no birth, death, parent, spouse, child, sibling, grandparent, household, residence, or surname-variant bridge. It cannot by itself attach the education or language facts to the canonical candidate `wiki/people/dario-arturo-pulgar-smith.md`.
+- Metadata identifiers do not fully agree. The source packet and staged assignment use `CHUNK-3661a25ff4f5-P0009-01`, while the referenced chunk front matter says `CHUNK-8685c8504a1b-P0009-01` and carries a different converted SHA. This should be audited before any canonical promotion.
+- The staged draft content itself refers to `research/_staging/identity/ID-STAGE-CHUNK-3661a25ff4f5-P0009-01-dario-pulgar.md`, while this assigned proof-review task names `research/_staging/identity-analysis/identity-analysis-id-stage-chunk-3661a25ff4f5-p0009-01-dario-pulgar.md`. Treat this as a staging-path/alias mismatch to resolve before promotion.
+- No canonical merge, relationship claim, or surname normalization is supported from this page alone.
 
 ## Evidence Strengths
 
-- The page image is present and legible. It supports the converted page-9 transcription for education and language entries, including Stanford University/Fulbright/M.A. Communications for 1967-1968, Universidad de Concepcion journalism for 1963-1966, Universidad de Concepcion law for 1960-1963, Liceo Enrique Molina for 1954-1959, and spoken/written languages.
-- The converted page-level Markdown preserves the visible content well. The source packet's warning about flattened line structure is fair, but the literal content is readable and materially consistent with the image.
-- The staged identity analysis correctly treats canonical attachment as a scored identity-risk question rather than as automatic promotion. Its `hold` conclusion is supported.
-- No relationship claim is supported by page 9, and the staged draft appropriately avoids promoting parent, spouse, child, grandchild, or Pulgar-line relationship inferences from this page.
+- The restored page image is present and readable. Visual review confirms the page contains education entries for 1967-1968 Stanford University/Fulbright/M.A. Communications, 1963-1966 Universidad de Concepcion/Escuela de Periodismo/Journalism, 1960-1963 Universidad de Concepcion/Escuela de Derecho/Law, 1954-1959 Liceo Enrique Molina/Humanities/Baccalaureate, and language entries for spoken and written languages.
+- The chunk literal transcription agrees with the visible page image at the claim level. The source packet accurately warns that some conversion output flattens the list structure, but the restored image resolves the reading order and line breaks.
+- The source is a curriculum vitae file titled/pathed as `CV of Dario Arturo Pulgar`, so it is relevant evidence for a document-level hypothesis about Dario Arturo Pulgar's education and languages.
+- The staged identity analysis correctly keeps canonical readiness on hold rather than promoting page-9 facts to the canonical `Dario Arturo Pulgar-Smith` page.
 
-## Scores
+## Scored Judgment
 
-| metric | score | rationale |
+| score | value | rationale |
 |---|---:|---|
-| source_quality_score | 0.72 | A CV is useful self-reported biographical evidence for education and language history, but it is not a vital or independent identity source. |
-| conversion_confidence_score | 0.86 | The page image is clear and agrees with the page-level Markdown; reduced because the assigned page-9 chunk is missing and related metadata conflicts. |
-| evidence_quantity_score | 0.45 | One page image, one converted page, and one source packet were available; there is no page-body identity statement or independent corroborating source in the reviewed set. |
-| agreement_score | 0.62 | Image, page Markdown, source packet, and staged analysis agree on literal education/language content; chunk and SHA metadata do not agree. |
-| identity_confidence_score | 0.58 | Probable as document-level CV evidence for `Dario Arturo Pulgar`, but weak for attaching to `Dario Arturo Pulgar-Smith` because page 9 lacks a name or bridge. |
-| claim_probability | 0.66 | The staged analysis is probably correct that this is document-level CV-subject evidence, but canonical person attachment remains unproved. |
-| relevance_level | high | The page is directly relevant to the staged identity analysis and potential education/language claims, while relationship relevance is absent. |
-| relevance_confidence | 0.90 | The reviewed materials are the exact page 9 CV materials named in the staged task, except for the missing chunk file. |
-| canonical_readiness | hold | Do not promote or attach to the canonical person until the chunk metadata problem and the `Pulgar`/`Pulgar-Smith` identity bridge are resolved. |
+| source_quality_score | 0.72 | A CV is directly relevant but self-reported and not independently corroborated here. |
+| conversion_confidence_score | 0.93 | Restored page image is legible and agrees with the chunk transcription; only layout flattening is a concern. |
+| evidence_quantity_score | 0.42 | One page supports several education/language facts, but no identity-bearing or relationship evidence. |
+| agreement_score | 0.78 | Source packet, converted file, chunk text, and image agree on page content; metadata identifiers disagree. |
+| identity_confidence_score | 0.64 | Strong document-level attribution to Dario Arturo Pulgar, but page 9 itself has no name and no Pulgar-Smith bridge. |
+| claim_probability | 0.74 | Probable that page 9 reports education/language data for the CV subject; not proved for the canonical person. |
+| relevance_level | high | The page is directly relevant to the staged identity-analysis question and possible education/language claims. |
+| relevance_confidence | 0.92 | The source packet and visible page are clearly the assigned CV page 9. |
+| canonical_readiness | hold | Do not promote until the identity bridge and chunk/staging metadata mismatch are resolved. |
 
-## Judgment
+## Claim-Level Assessment
 
-The staged draft is supported as a cautionary identity/conflict analysis and should remain on hold. Page 9 can support only a limited statement that a document locally identified as `CV of Dario Arturo Pulgar` reports the listed education and language details. The page itself does not prove that the subject is the canonical `Dario Arturo Pulgar-Smith`, and it supports no family relationship.
-
-The missing page-9 chunk and conflicting converted SHA/chunk-id metadata are material review blockers. They do not undermine the legibility of the page image, but they do prevent clean promotion through the staged chunk workflow.
+| claim or hypothesis | support | probability | action |
+|---|---|---:|---|
+| Page 9 reports education and languages for the document-level CV subject `Dario Arturo Pulgar`. | Supported by source title/path, packet context, and visible page content. | 0.74 | Hold for metadata audit and identity bridge before canonical attachment. |
+| Page 9 proves the subject is canonical `Dario Arturo Pulgar-Smith`. | Not literally supported; no `Smith` or `Pulgar-Smith` appears on page 9. | 0.38 | Do not attach to canonical page from this page alone. |
+| Page 9 supports parent, spouse, child, or lineage relationships. | Unsupported; no relationship language appears. | 0.02 | No relationship action. |
+| Page 9 supports merging Dario Arturo Pulgar with Pulgar-Arriagada, child-passenger, or other Dario Pulgar clusters. | Unsupported from this page; only broad name/context comparison exists outside the page. | 0.10 | Keep separate or unresolved pending stronger bridge evidence. |
 
 ## Next Action
 
-Reconcile the chunk workflow for page 9: restore or regenerate `page-0009-chunk-01.md`, align the chunk id and converted SHA metadata, and rerun proof review against the corrected chunk. Separately, review an identity-bearing CV page or another accepted local source that explicitly connects `Dario Arturo Pulgar` with `Dario Arturo Pulgar-Smith` before attaching page-9 education or language facts to the canonical person.
+Keep the staged draft on hold. Audit the `CHUNK-3661a25ff4f5-P0009-01` versus `CHUNK-8685c8504a1b-P0009-01` identifier/SHA mismatch and the staging path mismatch, then review an identity-bearing CV page or other accepted local source that explicitly connects `Dario Arturo Pulgar` to `Dario Arturo Pulgar-Smith`. After that, page 9 can be considered only for CV-reported education and language facts, not for relationships or identity merging.

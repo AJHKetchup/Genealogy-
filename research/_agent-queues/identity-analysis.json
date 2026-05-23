@@ -1,11 +1,27 @@
 ﻿{
     "created":  "2026-05-23",
     "queue":  "identity-analysis",
-    "task_count":  131,
+    "task_count":  132,
     "status_counts":  {
-                          "done":  131
+                          "done":  132
                       },
     "tasks":  [
+                  {
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-23T14:43:27Z",
+                      "agent":  "postconv-identity-analysis-20260523144035352",
+                      "started_at":  "2026-05-23T14:40:35Z",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/identity/chunk-1fd1b0c0a78f-p0014-01-dario-pulgar-identity-candidate.md",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-chunk-1fd1b0c0a78f-p0014-01-dario-pulgar-identity-candidate-md.md",
+                      "completed_at":  "2026-05-23T14:43:27Z",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "task_id":  "identity-analysis:research/_staging/identity/chunk-1fd1b0c0a78f-p0014-01-dario-pulgar-identity-candidate.md",
+                      "status":  "done",
+                      "claimed_at":  "2026-05-23T14:40:35Z",
+                      "role":  "identity_researcher"
+                  },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "post-conversion controller start",

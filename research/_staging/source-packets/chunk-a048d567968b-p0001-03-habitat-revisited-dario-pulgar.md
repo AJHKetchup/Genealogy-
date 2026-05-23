@@ -2,25 +2,24 @@
 type: source_packet
 status: draft
 source_title: "Habitat Revisited, Jim Carney, 2006"
+source: "raw/sources/Habitat Revisited, Jim Carney, 2006.pdf"
 source_path: "raw/sources/Habitat Revisited, Jim Carney, 2006.pdf"
 source_sha256: fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9
 converted_file: "raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md"
 converted_sha256: a048d567968b8a75637cfd97335b19160a7580fb273b37a293712691ec678466
-chunk: "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-page-7cd35b519c/page-0001-chunk-03.md"
+chunk: "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11-codex/page-0001-chunk-03.md"
 chunk_id: CHUNK-a048d567968b-P0001-03
-chunk_manifest: "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-page-7cd35b519c/manifest.json"
-page_reference: "assigned page 1; body contains converted page metadata/text for printed/source pages 7-10; family-relevant support visually checked on page images page-0007.jpg and page-0008.jpg"
+chunk_manifest: "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11-codex/manifest.json"
+page_reference: "assigned page 1; body contains converted page metadata/text for printed/source pages 7-10; family-relevant support visually checked on rendered images page-0007.jpg and page-0008.jpg / printed pages 7 and 8"
 source_type: memoir
 source_date: "2006"
-family_relevance: critical
+family_relevance: high
 matched_terms:
   - Dario
   - Pulgar
-  - chile
   - mother
-  - parents
 conversion_confidence: medium
-conversion_qa_concern: "Controller flagged qc:reread-page. The manifest assigns this chunk to page 1, but the chunk body includes literal transcription and page metadata for later converted pages. Family-relevant support appears on rendered page images page-0007.jpg and page-0008.jpg, while the chunk/page assignment remains unresolved."
+conversion_qa_concern: "The proof-review blocker for a missing page-0008.jpg is cleared in this checkout: page-0008.jpg is present and visually supports the mother-tongue/language and Vision Habitat work passages. The manifest still assigns this chunk to page 1 while the body includes literal transcription and page metadata for later converted pages; the authoritative page citation remains unresolved."
 promotion_recommendation: hold_for_conversion_qa
 ---
 
@@ -56,7 +55,7 @@ where the off-shore printing materials were.
 
 ## Conversion Confidence And QA Concern
 
-Conversion confidence is medium for extraction purposes because the Dario Pulgar text is clear in the converted chunk and has now been visually checked on rendered page images `page-0007.jpg` and `page-0008.jpg`, but the controller requested `reread-page` and the chunk/page boundary remains inconsistent with the assigned page metadata.
+Conversion confidence is medium for extraction purposes because the Dario Pulgar text is clear in the converted chunk and has now been visually checked on rendered page images `page-0007.jpg` and `page-0008.jpg`. The earlier missing-image concern for `page-0008.jpg` is resolved in this checkout, but the chunk/page boundary remains inconsistent with the assigned page metadata.
 
 ## Uncertainty
 

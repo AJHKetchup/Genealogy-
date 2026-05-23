@@ -1,6 +1,6 @@
 {
   "created": "2026-05-22T01:02:23Z",
-  "updated": "2026-05-23T14:01:56Z",
+  "updated": "2026-05-23T14:46:58Z",
   "purpose": "Research-to-conversion relevance hints for source-prep model routing.",
   "hints": [
     {
@@ -337,6 +337,31 @@
       ],
       "agent": "post-conversion-review-feedback",
       "id": "source-relevance:1ec12bed0d55"
+    },
+    {
+      "status": "active",
+      "created": "2026-05-23T14:46:58Z",
+      "updated": "2026-05-23T14:46:58Z",
+      "task_id": "",
+      "job_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
+      "source": "",
+      "source_sha256": "",
+      "converted_file": "",
+      "page": 14,
+      "relevance": "critical",
+      "requested_treatment": "pro_with_crops",
+      "reason": "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
+      "entities": [
+        "Dario Arturo Pulgar",
+        "Dario Arturo Pulgar-Smith",
+        "Alexander John Heinz"
+      ],
+      "matched_terms": [
+        "proof-review-hold",
+        "missing-page-image"
+      ],
+      "agent": "post-conversion-review-feedback",
+      "id": "source-relevance:44f4ab03df2c"
     }
   ]
 }

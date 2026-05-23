@@ -19,7 +19,7 @@ canonical_readiness: hold_for_conversion_page_boundary_qa
 
 - The exact staged conflict draft analyzed here is `research/_staging/conflicts/chunk-a048d567968b-p0001-02-page-boundary-and-identity-qa.md`.
 - Page-boundary QA is the first blocker. The staged draft and source packet report that the assigned chunk is `page_start: 1` / `page_end: 1`, while the chunk body includes converted page metadata and literal transcription for source pages 4, 5, 6, and 7.
-- The source packet reports that source page 4 was visually reread and confirms the Saturna passage naming `Dario`, but source page 5's rendered image was not present in this checkout; the `Pulgar` Vancouver group passage was checked through original PDF text extraction instead.
+- Original PDF text extraction and corrected per-page chunks confirm the Saturna passage naming `Dario` on source page 4 and the Vancouver group passage naming `Pulgar` on source page 5. Local rendered page images for pages 4 and 5 were not present in this checkout.
 - The claim sentences in this chunk name only `Dario` and `Pulgar`. They do not state the full name `Dario Pulgar` in the same sentences and do not state `Arturo`, `Pulgar-Smith`, `Dario Jose`, `Arriagada`, parentage, spouse, child, grandchild, birth date, or death date.
 - Same-source context in the converted file names `Chiliean/Canadian Dario Pulgar` on source page 2 and `Dario Pulgar` on source page 7. That context supports a likely identity inference, but it does not remove the need to label the page-4/page-5 readings as first-name-only and surname-only passages.
 - Existing canonical `wiki/people/dario-arturo-pulgar-smith.md` is family-supplied and explicitly warns not to automatically attach records mentioning `Dario`, `Pulgar`, `Pulgar-Arriagada`, or `Pulgar-Smith`.
@@ -48,7 +48,7 @@ Scores:
 | identity_confidence | 0.84 | Same source, same AV Programme context, and nearby full-name anchors support one Habitat worker. |
 | conflict_severity | 0.24 | Identity conflict is low if scoped to the same source; citation/page-boundary conflict remains high. |
 | evidence_quality | 0.68 | Memoir evidence directly names colleagues in work context, but the claim sentences are partial-name references. |
-| conversion_confidence | 0.58 | Page 4 image and PDF text support the words, but page 5 image and page/chunk assignment remain unresolved. |
+| conversion_confidence | 0.58 | Original-PDF text extraction and corrected per-page chunks support the words, but local page images for pages 4 and 5 and the assigned page/chunk relationship remain unresolved. |
 | claim_probability | 0.86 | Likely same person within the Habitat cluster. |
 | relevance | 1.00 | Directly addresses the staged conflict draft. |
 | canonical_readiness | 0.26 | Hold until conversion/page-boundary QA and proof review. |
@@ -167,7 +167,7 @@ Scores:
 ## Conflicts
 
 - Page-boundary conflict: high. The assigned chunk frontmatter says page 1, but the body contains page 4 and page 5 support for the assigned Dario/Pulgar claims, plus later page text.
-- Source-verification conflict: medium-high. Page 4 was visually confirmed; page 5 was confirmed by original PDF text extraction because the rendered page 5 image was not present in this checkout.
+- Source-verification conflict: medium-high. Pages 4 and 5 were confirmed by original PDF text extraction and corrected per-page chunks, but local rendered page images for pages 4 and 5 were not present in this checkout.
 - Same-person conflict: low within the Habitat source cluster if kept as an inference. Same-document full-name anchors make the `Dario` and `Pulgar` references likely to refer to Dario Pulgar.
 - Duplicate-person risk: moderate-high across Pulgar clusters. The assigned draft should not be merged into `Dario Arturo Pulgar-Smith`, `Dario Arturo Pulgar`, `Dario Jose Pulgar-Arriagada`, `Darío Pulgar Arriagada`, or passenger-list Dario stubs by name alone.
 - Name-variant conflict: moderate. The assigned passages support only `Dario` and `Pulgar`; same-source context supports `Dario Pulgar`; no assigned passage proves `Arturo`, `Pulgar-Smith`, `Jose`, `Arriagada`, or `Pulgar A.`.
@@ -188,4 +188,4 @@ Scores:
 
 Keep `research/_staging/conflicts/chunk-a048d567968b-p0001-02-page-boundary-and-identity-qa.md` on hold. Do not merge people, rename canonical pages, promote facts, or attach these passages to `wiki/people/dario-arturo-pulgar-smith.md`.
 
-The exact next proof-review step is conversion/page-boundary QA for `CHUNK-a048d567968b-P0001-02`: reconcile the authoritative chunk path and source-page references for the source page 4 Saturna `Dario` passage and source page 5 Vancouver `Pulgar` passage; obtain or regenerate the page 5 image through the normal conversion QA workflow; then proof-review the Habitat Dario/Pulgar cluster as a same-source identity inference. Only after that should a separate identity bridge review compare verified Habitat evidence to verified CV evidence for `Dario Arturo Pulgar` and, if supported, to canonical `Dario Arturo Pulgar-Smith`.
+The exact next proof-review step is conversion/page-boundary QA for `CHUNK-a048d567968b-P0001-02`: reconcile the authoritative chunk path and source-page references for the source page 4 Saturna `Dario` passage and source page 5 Vancouver `Pulgar` passage; obtain or regenerate page images for pages 4 and 5 through the normal conversion QA workflow if visual verification is required; then proof-review the Habitat Dario/Pulgar cluster as a same-source identity inference. Only after that should a separate identity bridge review compare verified Habitat evidence to verified CV evidence for `Dario Arturo Pulgar` and, if supported, to canonical `Dario Arturo Pulgar-Smith`.
