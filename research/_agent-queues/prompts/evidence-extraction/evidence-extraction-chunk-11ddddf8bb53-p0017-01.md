@@ -11,20 +11,20 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/R3016-11A-2905-950.pdf`
 - Page range: 17-17
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: chunk
-- Evidence priority: `101017` (family_relevance:high, qc:reread-page, matched_terms, blocked_by_conversion_qc)
-
-## QC Hold
-
-- Status: `blocked_needs_reread`
-- Blocked pages: 17
-- Page reread queue: `research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md`
-- Suspected readings: `research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md`
-
-Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
+- Family relevance: `none`
+- Matched family terms: none
+- Narrative cues: statement
+- Evidence priority: `4017` (family_relevance:none, qc:pass, deferred_until_family_relevant)
 
 
+
+## Person-First Narrative Contract
+
+- Start with known family members and reviewed family relationships, not source chunks as the main object.
+- Extract claims only when they can support a family member, family relationship, life event, place in a family story, photograph, or narrative question.
+- High-value narrative claims include where a family member stayed, traveled, lived, worked, studied, appeared in a photo, attended a meeting, served as a delegate, spoke, signed, witnessed, or was present for a discussion.
+- Context about a hotel, institution, place, co-delegate, meeting, or historical setting is useful only when it directly explains a family member's experience or a specific family record. Keep broad background as a staged context/research note with an explicit linked family entity, or mark it low relevance.
+- Do not fan out generic claims about all delegates, all places, or all official proceedings unless the chunk ties them to the family member's narrative.
 
 ## Done When
 

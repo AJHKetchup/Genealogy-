@@ -1,27 +1,27 @@
 # Source Usability
 
-Generated: 2026-05-23T04:40:10Z
+Generated: 2026-05-23T05:55:05Z
 
 This report answers whether each raw source is ready for LLM extraction, still waiting on conversion, or held only on specific pages that need reread.
 
 ## Summary
 
 - conversion_in_progress: 1
-- partial_with_page_holds: 9
-- partially_usable_for_extraction: 7
-- usable_for_extraction: 5
-- usable_with_page_holds: 2
+- partial_with_page_holds: 10
+- partially_usable_for_extraction: 6
+- usable_for_extraction: 6
+- usable_with_page_holds: 1
 
 ## Sources
 
 | Source | Status | Converted | Chunks | Pages needing repair | QC-held pages |
 | --- | --- | ---: | ---: | ---: | ---: |
-| raw/sources/ACICR_B_CR_177_001_002.pdf | usable_with_page_holds | 5 | 5 | 0 | 1 |
+| raw/sources/ACICR_B_CR_177_001_002.pdf | usable_for_extraction | 5 | 5 | 0 | 0 |
 | raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf | partial_with_page_holds | 37 | 50 | 0 | 1 |
 | raw/sources/Arrival-Departure Record, Form I-94 B, March 30, 1959.png | usable_for_extraction | 1 | 1 | 0 | 0 |
 | raw/sources/CV of Dario Arturo Pulgar.pdf | partially_usable_for_extraction | 1 | 1 | 0 | 0 |
 | raw/sources/Cámara de Senadores de la Nación, 1936.pdf | partial_with_page_holds | 20 | 27 | 0 | 3 |
-| raw/sources/El Aguila Nombre Grande Scan.pdf | partially_usable_for_extraction | 1 | 1 | 0 | 0 |
+| raw/sources/El Aguila Nombre Grande Scan.pdf | partial_with_page_holds | 1 | 1 | 0 | 1 |
 | raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf | partial_with_page_holds | 5 | 8 | 0 | 1 |
 | raw/sources/Habitat Revisited, Jim Carney, 2006.pdf | usable_for_extraction | 1 | 2 | 0 | 0 |
 | raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf | usable_for_extraction | 1 | 2 | 0 | 0 |

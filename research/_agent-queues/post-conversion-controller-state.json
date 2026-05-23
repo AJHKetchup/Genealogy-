@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-05-23T04:43:28Z",
+    "updated":  "2026-05-23T05:58:23Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "max_workers":  3,
     "allow_promotion":  false,
@@ -7,18 +7,14 @@
 
                        ],
     "last_summary":  {
-                         "started":  "2026-05-23T04:14:48Z",
+                         "started":  "2026-05-23T05:30:26Z",
                          "root":  "D:\\a\\Genealogy-\\Genealogy-",
                          "dry_run":  false,
                          "allow_promotion":  false,
                          "promotion_only":  false,
                          "fatal":  false,
                          "refresh":  [
-                                         "conversion-qc",
-                                         "agent-queues",
-                                         "source-status",
-                                         "source-relevance-review-holds",
-                                         "source-relevance-review-assets"
+                                         "skipped_active_workers_at_capacity"
                                      ],
                          "queues":  {
                                         "conversion-qa":  {
@@ -27,282 +23,282 @@
                                                           },
                                         "evidence-extraction":  {
                                                                     "done":  20,
-                                                                    "todo":  139,
-                                                                    "deferred_low_relevance":  4657,
+                                                                    "todo":  137,
+                                                                    "deferred_low_relevance":  4659,
                                                                     "blocked_needs_reread":  28
                                                                 },
                                         "identity-analysis":  {
-                                                                  "todo":  90,
-                                                                  "done":  36
+                                                                  "done":  53,
+                                                                  "todo":  73
                                                               },
                                         "proof-review":  {
-                                                             "done":  157,
-                                                             "todo":  480,
+                                                             "done":  158,
+                                                             "todo":  496,
                                                              "released":  35
                                                          },
                                         "wiki-promotion":  {
                                                                "disabled_requires_allow_promotion":  1
                                                            }
                                     },
-                         "active_workers_before":  1,
+                         "active_workers_before":  3,
                          "active_workers_after":  0,
                          "launched":  [
                                           {
-                                              "worker":  "postconv-identity-analysis-20260523041606911",
-                                              "pid":  5360,
+                                              "worker":  "postconv-identity-analysis-20260523053151474",
+                                              "pid":  7564,
                                               "task_ids":  [
-                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-3661a25ff4f5-P0007-01-dario-cv-subject.md"
+                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-c136e7acf00f-P0001-01-dario-pulgar-a-identity-candidate.md"
                                                            ],
                                               "queue":  "identity-analysis",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523041606911.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523041606911.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523041606911.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523041606911.last.md",
-                                              "started":  "2026-05-23T04:16:07Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523053151474.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523053151474.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523053151474.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523053151474.last.md",
+                                              "started":  "2026-05-23T05:31:52Z"
                                           },
                                           {
-                                              "worker":  "postconv-identity-analysis-20260523041607912",
-                                              "pid":  10096,
+                                              "worker":  "postconv-identity-analysis-20260523053152351",
+                                              "pid":  5220,
                                               "task_ids":  [
-                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-3661a25ff4f5-P0008-01-identity-candidates.md"
+                                                               "identity-analysis:research/_staging/conflicts/chunk-23b2269a97df-p0001-01-conversion-conflict-candidates.md"
                                                            ],
                                               "queue":  "identity-analysis",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523041607912.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523041607912.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523041607912.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523041607912.last.md",
-                                              "started":  "2026-05-23T04:16:09Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523053152351.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523053152351.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523053152351.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523053152351.last.md",
+                                              "started":  "2026-05-23T05:31:53Z"
                                           },
                                           {
-                                              "worker":  "postconv-proof-review-20260523041609223",
-                                              "pid":  4000,
+                                              "worker":  "postconv-proof-review-20260523053153899",
+                                              "pid":  7332,
                                               "task_ids":  [
-                                                               "proof-review:research/_staging/identity-analysis/identity-analysis-chunk-a048d567968b-p0001-01-dario-pulgar.md"
+                                                               "proof-review:research/_staging/identity-analysis/identity-analysis-conf-stage-chunk-3661a25ff4f5-p0005-01-dario-cv-conflict.md"
                                                            ],
                                               "queue":  "proof-review",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260523041609223.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260523041609223.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260523041609223.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260523041609223.last.md",
-                                              "started":  "2026-05-23T04:16:10Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260523053153899.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260523053153899.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260523053153899.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260523053153899.last.md",
+                                              "started":  "2026-05-23T05:31:55Z"
                                           },
                                           {
-                                              "worker":  "postconv-identity-analysis-20260523041946896",
-                                              "pid":  5468,
+                                              "worker":  "postconv-identity-analysis-20260523053537290",
+                                              "pid":  1280,
                                               "task_ids":  [
-                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-3661a25ff4f5-P0009-01-dario-pulgar.md"
+                                                               "identity-analysis:research/_staging/conflicts/chunk-b8f4f0490a36-p0001-01-conversion-conflict-candidates.md"
                                                            ],
                                               "queue":  "identity-analysis",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523041946896.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523041946896.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523041946896.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523041946896.last.md",
-                                              "started":  "2026-05-23T04:19:47Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523053537290.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523053537290.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523053537290.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523053537290.last.md",
+                                              "started":  "2026-05-23T05:35:37Z"
                                           },
                                           {
-                                              "worker":  "postconv-identity-analysis-20260523042152704",
-                                              "pid":  1492,
+                                              "worker":  "postconv-identity-analysis-20260523053755706",
+                                              "pid":  3656,
                                               "task_ids":  [
-                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-5f9286fc64f6-P0005-01-dario-cv-subject.md"
+                                                               "identity-analysis:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-3661a25ff4f5-P0006-01-identity-and-page-qa.md"
                                                            ],
                                               "queue":  "identity-analysis",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523042152704.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523042152704.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523042152704.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523042152704.last.md",
-                                              "started":  "2026-05-23T04:21:53Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523053755706.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523053755706.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523053755706.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523053755706.last.md",
+                                              "started":  "2026-05-23T05:37:56Z"
                                           },
                                           {
-                                              "worker":  "postconv-identity-analysis-20260523042153279",
-                                              "pid":  7628,
+                                              "worker":  "postconv-identity-analysis-20260523053756378",
+                                              "pid":  812,
                                               "task_ids":  [
-                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-5f9286fc64f6-P0006-01-dario-cv-subject.md"
+                                                               "identity-analysis:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-5f9286fc64f6-P0005-01-identity-and-continuation.md"
                                                            ],
                                               "queue":  "identity-analysis",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523042153279.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523042153279.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523042153279.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523042153279.last.md",
-                                              "started":  "2026-05-23T04:21:54Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523053756378.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523053756378.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523053756378.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523053756378.last.md",
+                                              "started":  "2026-05-23T05:37:57Z"
                                           },
                                           {
-                                              "worker":  "postconv-identity-analysis-20260523042400246",
-                                              "pid":  5992,
+                                              "worker":  "postconv-identity-analysis-20260523054011612",
+                                              "pid":  6968,
                                               "task_ids":  [
-                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-5f9286fc64f6-P0007-01-dario-cv-subject.md"
+                                                               "identity-analysis:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-5f9286fc64f6-P0006-01-identity-and-page-qa.md"
                                                            ],
                                               "queue":  "identity-analysis",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523042400246.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523042400246.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523042400246.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523042400246.last.md",
-                                              "started":  "2026-05-23T04:24:00Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523054011612.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054011612.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054011612.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054011612.last.md",
+                                              "started":  "2026-05-23T05:40:12Z"
                                           },
                                           {
-                                              "worker":  "postconv-identity-analysis-20260523042604847",
-                                              "pid":  10056,
+                                              "worker":  "postconv-identity-analysis-20260523054221771",
+                                              "pid":  4364,
                                               "task_ids":  [
-                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-5f9286fc64f6-P0008-01-identity-candidates.md"
+                                                               "identity-analysis:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-5f9286fc64f6-P0007-01-identity-and-continuation.md"
                                                            ],
                                               "queue":  "identity-analysis",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523042604847.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523042604847.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523042604847.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523042604847.last.md",
-                                              "started":  "2026-05-23T04:26:05Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523054221771.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054221771.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054221771.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054221771.last.md",
+                                              "started":  "2026-05-23T05:42:22Z"
                                           },
                                           {
-                                              "worker":  "postconv-identity-analysis-20260523042811089",
-                                              "pid":  2576,
+                                              "worker":  "postconv-identity-analysis-20260523054222357",
+                                              "pid":  6816,
                                               "task_ids":  [
-                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-5f9286fc64f6-P0009-01-dario-cv-subject.md"
+                                                               "identity-analysis:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-9070adf46a1e-P0004-01-no-direct-conflict.md"
                                                            ],
                                               "queue":  "identity-analysis",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523042811089.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523042811089.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523042811089.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523042811089.last.md",
-                                              "started":  "2026-05-23T04:28:11Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523054222357.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054222357.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054222357.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054222357.last.md",
+                                              "started":  "2026-05-23T05:42:24Z"
                                           },
                                           {
-                                              "worker":  "postconv-identity-analysis-20260523042811739",
-                                              "pid":  8196,
+                                              "worker":  "postconv-identity-analysis-20260523054431936",
+                                              "pid":  4932,
                                               "task_ids":  [
-                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-9070adf46a1e-P0005-01-dario-cv-subject.md"
+                                                               "identity-analysis:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-9070adf46a1e-P0006-01-identity-and-page-qa.md"
                                                            ],
                                               "queue":  "identity-analysis",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523042811739.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523042811739.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523042811739.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523042811739.last.md",
-                                              "started":  "2026-05-23T04:28:13Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523054431936.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054431936.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054431936.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054431936.last.md",
+                                              "started":  "2026-05-23T05:44:32Z"
                                           },
                                           {
-                                              "worker":  "postconv-identity-analysis-20260523043155402",
-                                              "pid":  3816,
+                                              "worker":  "postconv-identity-analysis-20260523054639519",
+                                              "pid":  1280,
                                               "task_ids":  [
-                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-9070adf46a1e-P0006-01-dario-cv-subject.md"
+                                                               "identity-analysis:research/_staging/identity/chunk-23b2269a97df-p0001-01-identity-candidates.md"
                                                            ],
                                               "queue":  "identity-analysis",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523043155402.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523043155402.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523043155402.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523043155402.last.md",
-                                              "started":  "2026-05-23T04:31:55Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523054639519.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054639519.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054639519.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054639519.last.md",
+                                              "started":  "2026-05-23T05:46:40Z"
                                           },
                                           {
-                                              "worker":  "postconv-identity-analysis-20260523043155983",
-                                              "pid":  9364,
+                                              "worker":  "postconv-identity-analysis-20260523054640100",
+                                              "pid":  8128,
                                               "task_ids":  [
-                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-9070adf46a1e-P0007-01-dario-cv-subject.md"
+                                                               "identity-analysis:research/_staging/identity/chunk-8daffb98e793-p0002-02-dario-pulgar-identity-candidate.md"
                                                            ],
                                               "queue":  "identity-analysis",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523043155983.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523043155983.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523043155983.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523043155983.last.md",
-                                              "started":  "2026-05-23T04:31:57Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523054640100.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054640100.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054640100.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054640100.last.md",
+                                              "started":  "2026-05-23T05:46:41Z"
                                           },
                                           {
-                                              "worker":  "postconv-identity-analysis-20260523043406481",
-                                              "pid":  10068,
+                                              "worker":  "postconv-identity-analysis-20260523054849131",
+                                              "pid":  5680,
                                               "task_ids":  [
-                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-9070adf46a1e-P0008-01-identity-candidates.md"
+                                                               "identity-analysis:research/_staging/identity/chunk-b8f4f0490a36-p0001-01-entry-172-identity-candidates-20260522150707183.md"
                                                            ],
                                               "queue":  "identity-analysis",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523043406481.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523043406481.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523043406481.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523043406481.last.md",
-                                              "started":  "2026-05-23T04:34:07Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523054849131.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054849131.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054849131.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523054849131.last.md",
+                                              "started":  "2026-05-23T05:48:49Z"
                                           },
                                           {
-                                              "worker":  "postconv-identity-analysis-20260523043612704",
-                                              "pid":  7928,
+                                              "worker":  "postconv-identity-analysis-20260523055057199",
+                                              "pid":  8160,
                                               "task_ids":  [
-                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-9070adf46a1e-P0009-01-dario-pulgar.md"
+                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-1940bcca99c5-P0001-01-dario-cv-subject.md"
                                                            ],
                                               "queue":  "identity-analysis",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523043612704.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523043612704.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523043612704.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523043612704.last.md",
-                                              "started":  "2026-05-23T04:36:13Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523055057199.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523055057199.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523055057199.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523055057199.last.md",
+                                              "started":  "2026-05-23T05:50:57Z"
                                           },
                                           {
-                                              "worker":  "postconv-identity-analysis-20260523043613286",
-                                              "pid":  4504,
+                                              "worker":  "postconv-identity-analysis-20260523055057806",
+                                              "pid":  2156,
                                               "task_ids":  [
-                                                               "identity-analysis:research/_staging/conflicts/conflict-chunk-3d3ab761209f-p0001-01-conversion-conflicts.md"
+                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-3661a25ff4f5-P0004-01-dario-cv-subject.md"
                                                            ],
                                               "queue":  "identity-analysis",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523043613286.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523043613286.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523043613286.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523043613286.last.md",
-                                              "started":  "2026-05-23T04:36:14Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523055057806.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523055057806.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523055057806.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523055057806.last.md",
+                                              "started":  "2026-05-23T05:50:59Z"
                                           },
                                           {
-                                              "worker":  "postconv-identity-analysis-20260523043816731",
-                                              "pid":  4532,
+                                              "worker":  "postconv-identity-analysis-20260523055308110",
+                                              "pid":  5332,
                                               "task_ids":  [
-                                                               "identity-analysis:research/_staging/conflicts/CONF-STAGE-CHUNK-9070adf46a1e-P0007-01-conflict-candidates.md"
+                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-5f9286fc64f6-P0004-01-dario-cv-subject.md"
                                                            ],
                                               "queue":  "identity-analysis",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523043816731.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523043816731.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523043816731.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523043816731.last.md",
-                                              "started":  "2026-05-23T04:38:17Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523055308110.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523055308110.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523055308110.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523055308110.last.md",
+                                              "started":  "2026-05-23T05:53:08Z"
                                           },
                                           {
-                                              "worker":  "postconv-identity-analysis-20260523044020484",
-                                              "pid":  9336,
+                                              "worker":  "postconv-identity-analysis-20260523055515680",
+                                              "pid":  880,
                                               "task_ids":  [
-                                                               "identity-analysis:research/_staging/identity/id-chunk-a2273412e7b1-p0001-01-dario-pulgar-arriagada.md"
+                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-9070adf46a1e-P0004-01-dario-cv-subject.md"
                                                            ],
                                               "queue":  "identity-analysis",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523044020484.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523044020484.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523044020484.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523044020484.last.md",
-                                              "started":  "2026-05-23T04:40:21Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523055515680.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523055515680.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523055515680.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523055515680.last.md",
+                                              "started":  "2026-05-23T05:55:16Z"
                                           },
                                           {
-                                              "worker":  "postconv-identity-analysis-20260523044021063",
-                                              "pid":  4832,
+                                              "worker":  "postconv-identity-analysis-20260523055516277",
+                                              "pid":  7524,
                                               "task_ids":  [
-                                                               "identity-analysis:research/_staging/identity/id-chunk-a4cd3c3e5c16-p0001-01-two-dario-pulgar-entries.md"
+                                                               "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-bdb698de8106-P0001-01-identity-candidates.md"
                                                            ],
                                               "queue":  "identity-analysis",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523044021063.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523044021063.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523044021063.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523044021063.last.md",
-                                              "started":  "2026-05-23T04:40:22Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260523055516277.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523055516277.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523055516277.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260523055516277.last.md",
+                                              "started":  "2026-05-23T05:55:17Z"
                                           }
                                       ],
                          "blockers":  [
 
                                       ],
-                         "finished":  "2026-05-23T04:43:28Z"
+                         "finished":  "2026-05-23T05:58:23Z"
                      }
 }

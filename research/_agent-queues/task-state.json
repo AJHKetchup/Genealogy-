@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-23T05:28:29Z",
+  "updated": "2026-05-23T05:58:27Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -79839,13 +79839,13 @@
     },
     "proof-review:research/_staging/source-packets/chunk-37cac508f847-p0005-01-cv-dario-arturo-pulgar.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T00:38:11Z",
       "started_at": "2026-05-22T00:38:11Z",
       "completed_at": "2026-05-22T00:39:50Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/source-packets/CHUNK-3d3ab761209f-P0001-01-source-packet.md": {
       "status": "released",
@@ -79870,13 +79870,13 @@
     },
     "proof-review:research/_staging/claims/chunk-37cac508f847-p0005-01-occupational-claims.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T00:40:57Z",
       "started_at": "2026-05-22T00:40:58Z",
       "completed_at": "2026-05-22T00:42:10Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/claims/CHUNK-3d3ab761209f-P0001-01-atomic-claims.md": {
       "status": "done",
@@ -79933,43 +79933,43 @@
     },
     "proof-review:research/_staging/relationships/chunk-37cac508f847-p0005-01-relationship-candidates.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T01:02:27Z",
       "started_at": "2026-05-22T01:02:28Z",
       "completed_at": "2026-05-22T01:03:46Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/relationships/CHUNK-3d3ab761209f-P0001-01-relationship-candidates.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T01:02:28Z",
       "started_at": "2026-05-22T01:02:29Z",
       "completed_at": "2026-05-22T01:03:42Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/relationships/REL-STAGE-CHUNK-37cac508f847-P0004-01-no-family-relationship.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T01:04:30Z",
       "started_at": "2026-05-22T01:04:30Z",
       "completed_at": "2026-05-22T01:05:38Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/identity/chunk-37cac508f847-p0005-01-identity-candidates.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T01:04:31Z",
       "started_at": "2026-05-22T01:04:31Z",
       "completed_at": "2026-05-22T01:05:50Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/identity/CHUNK-3d3ab761209f-P0001-01-identity-candidates.md": {
       "status": "done",
@@ -79984,13 +79984,13 @@
     },
     "proof-review:research/_staging/identity/ID-STAGE-CHUNK-37cac508f847-P0004-01-dario-cv-subject.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T01:06:34Z",
       "started_at": "2026-05-22T01:06:35Z",
       "completed_at": "2026-05-22T02:11:54Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/conflicts/chunk-37cac508f847-p0005-01-conflict-candidates.md": {
       "status": "released",
@@ -80004,23 +80004,23 @@
     },
     "proof-review:research/_staging/conflicts/CHUNK-3d3ab761209f-P0001-01-conflict-candidates.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T01:07:52Z",
       "started_at": "2026-05-22T01:07:53Z",
       "completed_at": "2026-05-22T01:09:02Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-37cac508f847-P0004-01-no-direct-conflict.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T01:09:09Z",
       "started_at": "2026-05-22T01:09:09Z",
       "completed_at": "2026-05-22T01:10:21Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "identity-analysis:research/_staging/identity/chunk-37cac508f847-p0005-01-identity-candidates.md": {
       "status": "done",
@@ -80042,23 +80042,23 @@
     },
     "proof-review:research/_staging/identity-analysis/identity-analysis-chunk-37cac508f847-p0005-01-dario-pulgar.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T01:11:44Z",
       "started_at": "2026-05-22T01:11:44Z",
       "completed_at": "2026-05-22T01:12:49Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/identity-analysis/identity-analysis-chunk-3d3ab761209f-p0001-01-birth-register-identity-conflicts.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T01:13:01Z",
       "started_at": "2026-05-22T01:13:01Z",
       "completed_at": "2026-05-23T00:54:46Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-37cac508f847-P0004-01-dario-cv-subject.md": {
       "status": "done",
@@ -80089,23 +80089,23 @@
     },
     "proof-review:research/_staging/source-packets/chunk-37cac508f847-p0006-01-cv-dario-arturo-pulgar.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T01:22:47Z",
       "started_at": "2026-05-22T01:22:47Z",
       "completed_at": "2026-05-22T01:24:36Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/source-packets/chunk-37cac508f847-p0007-01-cv-dario-arturo-pulgar.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T01:24:08Z",
       "started_at": "2026-05-22T01:24:08Z",
       "completed_at": "2026-05-22T01:25:15Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/claims/chunk-37cac508f847-p0006-01-occupational-claims.md": {
       "status": "done",
@@ -80120,13 +80120,13 @@
     },
     "proof-review:research/_staging/claims/chunk-37cac508f847-p0007-01-occupational-claims.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T01:25:30Z",
       "started_at": "2026-05-22T01:25:30Z",
       "completed_at": "2026-05-22T01:26:49Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475:p0472": {
       "status": "held",
@@ -80158,62 +80158,62 @@
     },
     "proof-review:research/_staging/relationships/chunk-37cac508f847-p0006-01-relationship-candidates.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T01:36:51Z",
       "started_at": "2026-05-22T01:36:51Z",
       "completed_at": "2026-05-22T01:38:13Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/relationships/chunk-37cac508f847-p0007-01-relationship-candidates.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T01:36:51Z",
       "started_at": "2026-05-22T01:36:53Z",
       "completed_at": "2026-05-22T01:38:02Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/identity/chunk-37cac508f847-p0006-01-identity-candidates.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T01:38:57Z",
       "started_at": "2026-05-22T01:38:57Z",
       "completed_at": "2026-05-22T01:40:19Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/identity/chunk-37cac508f847-p0007-01-identity-candidates.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T01:38:58Z",
       "started_at": "2026-05-22T01:38:59Z",
       "completed_at": "2026-05-22T01:40:17Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/conflicts/chunk-37cac508f847-p0006-01-conflict-candidates.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T01:41:03Z",
       "started_at": "2026-05-22T01:41:03Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/conflicts/chunk-37cac508f847-p0007-01-conflict-candidates.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T01:41:04Z",
       "started_at": "2026-05-22T01:41:05Z",
       "completed_at": "2026-05-22T01:42:11Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0779-0803-c-mara-de-senadores-de-la-naci-n-1936-pages-779-803:p0795": {
       "status": "held",
@@ -80406,13 +80406,13 @@
     },
     "proof-review:research/_staging/relationships/REL-STAGE-CHUNK-5f9286fc64f6-P0004-01-no-family-relationship.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T05:36:34Z",
       "started_at": "2026-05-22T05:36:34Z",
       "completed_at": "2026-05-22T05:37:56Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/relationships/REL-STAGE-CHUNK-5f9286fc64f6-P0005-01-no-family-relationship.md": {
       "status": "done",
@@ -80425,43 +80425,43 @@
     },
     "proof-review:research/_staging/relationships/REL-STAGE-CHUNK-5f9286fc64f6-P0006-01-no-family-relationship.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T05:41:04Z",
       "started_at": "2026-05-22T05:41:04Z",
       "completed_at": "2026-05-22T05:42:12Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/relationships/REL-STAGE-CHUNK-5f9286fc64f6-P0007-01-no-family-relationship.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T05:43:18Z",
       "started_at": "2026-05-22T05:43:18Z",
       "completed_at": "2026-05-22T05:44:28Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/relationships/REL-STAGE-CHUNK-5f9286fc64f6-P0008-01-no-family-relationship.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T05:44:46Z",
       "started_at": "2026-05-22T05:44:47Z",
       "completed_at": "2026-05-22T05:45:58Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/relationships/REL-STAGE-CHUNK-5f9286fc64f6-P0009-01-no-family-relationship.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T05:46:15Z",
       "started_at": "2026-05-22T05:46:15Z",
       "completed_at": "2026-05-22T05:47:14Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "evidence-extraction:CHUNK-1940bcca99c5-P0001-01": {
       "status": "done",
@@ -80484,20 +80484,35 @@
       "agent": "postconv-proof-review-20260522112159176"
     },
     "evidence-extraction:CHUNK-d6a12b291d94-P0172-01": {
-      "status": "done",
-      "updated_at": "2026-05-22T06:36:48Z",
-      "note": "post-conversion controller start",
+      "status": "released",
+      "updated_at": "2026-05-23T05:31:35Z",
+      "note": "Released because proof review requested staged evidence revision or conversion-QA reconciliation before canonical promotion.",
       "claimed_at": "2026-05-22T06:02:01Z",
       "started_at": "2026-05-22T06:02:02Z",
       "completed_at": "2026-05-22T06:36:48Z",
-      "released_at": "2026-05-22T06:30:48Z",
+      "released_at": "2026-05-23T05:31:35Z",
       "release_reason": "proof_review_revision_request",
-      "proof_revision_fingerprint": "28675edc4853614e",
+      "proof_revision_fingerprint": "47cc272f75dfbfbb",
       "proof_revision_reviews": [
+        "research/_staging/reviews/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-child-name-sex-proof-review.md",
+        "research/_staging/reviews/proof-review-CL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-birth-date-time-postconv-proof-review-20260522154003468.md",
+        "research/_staging/reviews/proof-review-CL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-birth-place-postconv-proof-review-20260522154231372.md",
+        "research/_staging/reviews/proof-review-CL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-child-name-sex-postconv-proof-review-20260522154503628.md",
+        "research/_staging/reviews/proof-review-CL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-declarant-postconv-proof-review-20260522154732359.md",
+        "research/_staging/reviews/proof-review-CL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-father-postconv-proof-review-20260522154959912.md",
+        "research/_staging/reviews/proof-review-CL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-mother-postconv-proof-review-20260522171139451.md",
+        "research/_staging/reviews/proof-review-CL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-registration-date-postconv-proof-review-20260522171504013.md",
+        "research/_staging/reviews/proof-review-CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-birth-date-place-postconv-proof-review-20260522171821776.md",
+        "research/_staging/reviews/proof-review-CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-father-postconv-proof-review-20260522182424242.md",
+        "research/_staging/reviews/proof-review-CL-STAGE-CHUNK-d6a12b291d94-P0172-01-514-mother-postconv-proof-review-20260522182630460.md",
+        "research/_staging/reviews/proof-review-CL-STAGE-CHUNK-d6a12b291d94-P0172-01-515-birth-date-place-postconv-proof-review-20260522184855473.md",
+        "research/_staging/reviews/proof-review-CL-STAGE-CHUNK-d6a12b291d94-P0172-01-515-child-name-sex-postconv-proof-review-20260522185241101.md",
+        "research/_staging/reviews/proof-review-CL-STAGE-CHUNK-d6a12b291d94-P0172-01-515-declarant-postconv-proof-review-20260522185454990.md",
+        "research/_staging/reviews/proof-review-CL-STAGE-CHUNK-d6a12b291d94-P0172-01-515-father-postconv-proof-review-20260522185708598.md",
+        "research/_staging/reviews/proof-review-CL-STAGE-CHUNK-d6a12b291d94-P0172-01-515-registration-date-postconv-proof-review-20260522185919905.md",
         "research/_staging/reviews/proof-review-research-staging-relationships-rel-stage-chunk-d6a12b291d94-p0172-01-515-child-father-postconv-proof-review-20260522062924155.md",
         "research/_staging/reviews/proof-review-research-staging-relationships-rel-stage-chunk-d6a12b291d94-p0172-01-515-child-parents-postconv-proof-review-20260522061147049.md"
-      ],
-      "agent": "postconv-evidence-extraction-20260522063401910"
+      ]
     },
     "evidence-extraction:CHUNK-3661a25ff4f5-P0004-01": {
       "status": "done",
@@ -81048,13 +81063,13 @@
     },
     "proof-review:research/_staging/claims/claim-chunk-3f469b56e502-p0003-01-circulation-range.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T08:59:20Z",
       "started_at": "2026-05-22T08:59:21Z",
       "completed_at": "2026-05-22T09:00:48Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/claims/claim-chunk-3f469b56e502-p0003-01-file-subject.md": {
       "status": "done",
@@ -81833,13 +81848,13 @@
     },
     "proof-review:research/_staging/claims/CL-STAGE-CHUNK-bdb698de8106-P0001-01-515-child-name.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T15:14:47Z",
       "started_at": "2026-05-22T15:14:47Z",
       "completed_at": "2026-05-23T00:08:53Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "evidence-extraction:CHUNK-a048d567968b-P0001-02": {
       "status": "released",
@@ -81914,13 +81929,13 @@
     },
     "proof-review:research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-birth-date-time.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T15:40:03Z",
       "started_at": "2026-05-22T15:40:03Z",
       "completed_at": "2026-05-22T15:41:40Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/claims/CL-STAGE-CHUNK-d6a12b291d94-P0172-01-513-birth-place.md": {
       "status": "done",
@@ -82245,13 +82260,13 @@
     },
     "proof-review:research/_staging/claims/CL-STAGE-CHUNK-fb39e3ba566e-P0004-01-virginio-gomes-born-los-angeles.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-22T20:51:28Z",
       "started_at": "2026-05-22T20:51:28Z",
       "completed_at": "2026-05-22T20:52:51Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "evidence-extraction:CHUNK-2b3819b4138e-P0046-01": {
       "status": "done",
@@ -82483,13 +82498,13 @@
     },
     "proof-review:research/_staging/relationships/chunk-7d3991a78bc8-p0001-01-001-child-father.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:14:47Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-23T00:11:03Z",
       "started_at": "2026-05-23T00:11:03Z",
       "completed_at": "2026-05-23T00:12:21Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:14:47Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "proof-review:research/_staging/relationships/chunk-7d3991a78bc8-p0001-01-002-child-mother.md": {
       "status": "done",
@@ -82727,13 +82742,13 @@
     },
     "proof-review:research/_staging/identity-analysis/identity-analysis-chunk-a048d567968b-p0001-01-dario-pulgar.md": {
       "status": "released",
-      "updated_at": "2026-05-23T04:19:37Z",
+      "updated_at": "2026-05-23T05:30:25Z",
       "note": "restored proof-review page image asset; rerun review",
       "claimed_at": "2026-05-23T04:16:09Z",
       "started_at": "2026-05-23T04:16:10Z",
       "completed_at": "2026-05-23T04:17:50Z",
       "released_by": "post-conversion-review-assets",
-      "released_at": "2026-05-23T04:19:37Z"
+      "released_at": "2026-05-23T05:30:25Z"
     },
     "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-3661a25ff4f5-P0009-01-dario-pulgar.md": {
       "status": "done",
@@ -82869,6 +82884,168 @@
       "claimed_at": "2026-05-23T04:40:21Z",
       "started_at": "2026-05-23T04:40:22Z",
       "completed_at": "2026-05-23T04:42:48Z"
+    },
+    "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-c136e7acf00f-P0001-01-dario-pulgar-a-identity-candidate.md": {
+      "status": "done",
+      "updated_at": "2026-05-23T05:34:26Z",
+      "agent": "postconv-identity-analysis-20260523053151474",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-23T05:31:51Z",
+      "started_at": "2026-05-23T05:31:51Z",
+      "completed_at": "2026-05-23T05:34:26Z"
+    },
+    "identity-analysis:research/_staging/conflicts/chunk-23b2269a97df-p0001-01-conversion-conflict-candidates.md": {
+      "status": "done",
+      "updated_at": "2026-05-23T05:34:18Z",
+      "agent": "postconv-identity-analysis-20260523053152351",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-23T05:31:52Z",
+      "started_at": "2026-05-23T05:31:53Z",
+      "completed_at": "2026-05-23T05:34:18Z"
+    },
+    "proof-review:research/_staging/identity-analysis/identity-analysis-conf-stage-chunk-3661a25ff4f5-p0005-01-dario-cv-conflict.md": {
+      "status": "done",
+      "updated_at": "2026-05-23T05:33:35Z",
+      "agent": "postconv-proof-review-20260523053153899",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-23T05:31:54Z",
+      "started_at": "2026-05-23T05:31:55Z",
+      "completed_at": "2026-05-23T05:33:35Z"
+    },
+    "identity-analysis:research/_staging/conflicts/chunk-b8f4f0490a36-p0001-01-conversion-conflict-candidates.md": {
+      "status": "done",
+      "updated_at": "2026-05-23T05:37:59Z",
+      "agent": "postconv-identity-analysis-20260523053537290",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-23T05:35:37Z",
+      "started_at": "2026-05-23T05:35:37Z",
+      "completed_at": "2026-05-23T05:37:59Z"
+    },
+    "identity-analysis:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-3661a25ff4f5-P0006-01-identity-and-page-qa.md": {
+      "status": "done",
+      "updated_at": "2026-05-23T05:40:16Z",
+      "agent": "postconv-identity-analysis-20260523053755706",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-23T05:37:55Z",
+      "started_at": "2026-05-23T05:37:56Z",
+      "completed_at": "2026-05-23T05:40:16Z"
+    },
+    "identity-analysis:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-5f9286fc64f6-P0005-01-identity-and-continuation.md": {
+      "status": "done",
+      "updated_at": "2026-05-23T05:40:48Z",
+      "agent": "postconv-identity-analysis-20260523053756378",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-23T05:37:56Z",
+      "started_at": "2026-05-23T05:37:57Z",
+      "completed_at": "2026-05-23T05:40:48Z"
+    },
+    "identity-analysis:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-5f9286fc64f6-P0006-01-identity-and-page-qa.md": {
+      "status": "done",
+      "updated_at": "2026-05-23T05:42:29Z",
+      "agent": "postconv-identity-analysis-20260523054011612",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-23T05:40:11Z",
+      "started_at": "2026-05-23T05:40:12Z",
+      "completed_at": "2026-05-23T05:42:29Z"
+    },
+    "identity-analysis:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-5f9286fc64f6-P0007-01-identity-and-continuation.md": {
+      "status": "done",
+      "updated_at": "2026-05-23T05:44:42Z",
+      "agent": "postconv-identity-analysis-20260523054221771",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-23T05:42:21Z",
+      "started_at": "2026-05-23T05:42:22Z",
+      "completed_at": "2026-05-23T05:44:42Z"
+    },
+    "identity-analysis:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-9070adf46a1e-P0004-01-no-direct-conflict.md": {
+      "status": "done",
+      "updated_at": "2026-05-23T05:44:56Z",
+      "agent": "postconv-identity-analysis-20260523054222357",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-23T05:42:22Z",
+      "started_at": "2026-05-23T05:42:24Z",
+      "completed_at": "2026-05-23T05:44:56Z"
+    },
+    "identity-analysis:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-9070adf46a1e-P0006-01-identity-and-page-qa.md": {
+      "status": "done",
+      "updated_at": "2026-05-23T05:46:21Z",
+      "agent": "postconv-identity-analysis-20260523054431936",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-23T05:44:32Z",
+      "started_at": "2026-05-23T05:44:32Z",
+      "completed_at": "2026-05-23T05:46:21Z"
+    },
+    "identity-analysis:research/_staging/identity/chunk-23b2269a97df-p0001-01-identity-candidates.md": {
+      "status": "done",
+      "updated_at": "2026-05-23T05:48:47Z",
+      "agent": "postconv-identity-analysis-20260523054639519",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-23T05:46:39Z",
+      "started_at": "2026-05-23T05:46:39Z",
+      "completed_at": "2026-05-23T05:48:47Z"
+    },
+    "identity-analysis:research/_staging/identity/chunk-8daffb98e793-p0002-02-dario-pulgar-identity-candidate.md": {
+      "status": "done",
+      "updated_at": "2026-05-23T05:49:01Z",
+      "agent": "postconv-identity-analysis-20260523054640100",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-23T05:46:40Z",
+      "started_at": "2026-05-23T05:46:41Z",
+      "completed_at": "2026-05-23T05:49:01Z"
+    },
+    "identity-analysis:research/_staging/identity/chunk-b8f4f0490a36-p0001-01-entry-172-identity-candidates-20260522150707183.md": {
+      "status": "done",
+      "updated_at": "2026-05-23T05:51:00Z",
+      "agent": "postconv-identity-analysis-20260523054849131",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-23T05:48:49Z",
+      "started_at": "2026-05-23T05:48:49Z",
+      "completed_at": "2026-05-23T05:51:00Z"
+    },
+    "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-1940bcca99c5-P0001-01-dario-cv-subject.md": {
+      "status": "done",
+      "updated_at": "2026-05-23T05:53:31Z",
+      "agent": "postconv-identity-analysis-20260523055057199",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-23T05:50:57Z",
+      "started_at": "2026-05-23T05:50:57Z",
+      "completed_at": "2026-05-23T05:53:31Z"
+    },
+    "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-3661a25ff4f5-P0004-01-dario-cv-subject.md": {
+      "status": "done",
+      "updated_at": "2026-05-23T05:53:30Z",
+      "agent": "postconv-identity-analysis-20260523055057806",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-23T05:50:58Z",
+      "started_at": "2026-05-23T05:50:58Z",
+      "completed_at": "2026-05-23T05:53:30Z"
+    },
+    "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-5f9286fc64f6-P0004-01-dario-cv-subject.md": {
+      "status": "done",
+      "updated_at": "2026-05-23T05:56:14Z",
+      "agent": "postconv-identity-analysis-20260523055308110",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-23T05:53:08Z",
+      "started_at": "2026-05-23T05:53:08Z",
+      "completed_at": "2026-05-23T05:56:14Z"
+    },
+    "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-9070adf46a1e-P0004-01-dario-cv-subject.md": {
+      "status": "done",
+      "updated_at": "2026-05-23T05:57:39Z",
+      "agent": "postconv-identity-analysis-20260523055515680",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-23T05:55:15Z",
+      "started_at": "2026-05-23T05:55:16Z",
+      "completed_at": "2026-05-23T05:57:39Z"
+    },
+    "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-bdb698de8106-P0001-01-identity-candidates.md": {
+      "status": "done",
+      "updated_at": "2026-05-23T05:57:51Z",
+      "agent": "postconv-identity-analysis-20260523055516277",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-23T05:55:16Z",
+      "started_at": "2026-05-23T05:55:17Z",
+      "completed_at": "2026-05-23T05:57:51Z"
     }
   }
 }

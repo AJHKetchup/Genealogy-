@@ -8,16 +8,16 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | medium | high | pass | none | Arriagada |
+| 4 | medium | medium | spot-check | explicit_reread_needed | Arriagada |
 | 5 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | high | high | pass | none | Dario, Dario Pulgar, Pulgar |
 | 5 | medium | high | pass | none | Pulgar |
-| 6 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
-| 10 | high | high | pass | none | Dario, Dario Pulgar, Pulgar |
+| 13 | critical | low | reread-page | none | Dario |
 | 14 | critical | low | reread-page | none | Dario, Dario Pulgar, Pulgar |
 | 12 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
