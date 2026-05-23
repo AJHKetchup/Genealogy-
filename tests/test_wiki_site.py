@@ -101,8 +101,11 @@ This page is an evidence-derived record role, not a family-facing profile.
     tree_html = (output / "tree.html").read_text(encoding="utf-8")
     people_html = (output / "people.html").read_text(encoding="utf-8")
     parent_html = (output / "wiki" / "people" / "parent.html").read_text(encoding="utf-8")
+    parent_alias_html = (output / "people" / "parent.html").read_text(encoding="utf-8")
     data_js = (output / "assets" / "site-data.js").read_text(encoding="utf-8")
     assert "Child Person" in parent_html
+    assert "Parent Person" in parent_alias_html
+    assert (output / "people" / "child.html").exists()
     assert "Parent Person" in people_html
     assert "Birth registration entry 172 for Child Person" not in people_html
     assert "Directory Person" not in people_html
@@ -118,6 +121,7 @@ This page is an evidence-derived record role, not a family-facing profile.
     assert "Directory Person" not in index_html
     assert "Dario Pulgar (adult passenger, age 64)" not in index_html
     assert "probable parent of" in tree_html
+    assert 'href="people/parent.html"' in people_html
     assert "../../wiki/people/child.html" in parent_html
     assert "Parent Person" in data_js
     assert '"familyWiki"' in data_js

@@ -1,13 +1,13 @@
 from __future__ import annotations
 
-import html
 import hashlib
+import html
 import json
 import os
 import re
 import shutil
 from collections import Counter
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
@@ -138,6 +138,17 @@ SECTION_LABELS = {
     "trees": "Trees",
 }
 
+PRESENTATION_ROUTE_SECTIONS = {
+    "branches",
+    "events",
+    "families",
+    "narratives",
+    "people",
+    "photos",
+    "places",
+    "relationships",
+}
+
 
 @dataclass
 class SitePage:
@@ -189,6 +200,10 @@ def build_wiki_site(root: Path, output: Path | None = None, include_research: bo
         html_path = output / page.site_rel
         html_path.parent.mkdir(parents=True, exist_ok=True)
         write_text(html_path, render_markdown_page(page, pages, link_map))
+        alias_rel = presentation_alias_rel(page)
+        if alias_rel and alias_rel != page.site_rel:
+            alias_page = replace(page, site_rel=alias_rel)
+            write_text(output / alias_rel, render_markdown_page(alias_page, pages, link_map))
 
     return output
 
@@ -366,6 +381,19 @@ def site_rel_for(source_root: str, vault_rel: str) -> str:
     parts = vault_rel.split("/")
     parts[-1] = slugify(Path(parts[-1]).stem) + ".html"
     return "/".join([source_root, *parts])
+
+
+def presentation_alias_rel(page: SitePage) -> str:
+    if page.source_root != "wiki" or page.section not in PRESENTATION_ROUTE_SECTIONS:
+        return ""
+    stem = Path(page.vault_rel).stem
+    if stem.lower() == "index":
+        return ""
+    return f"{page.section}/{slugify(stem)}.html"
+
+
+def presentation_url_for(page: SitePage) -> str:
+    return presentation_alias_rel(page) or page.site_rel
 
 
 def slugify(value: str) -> str:
@@ -1108,7 +1136,7 @@ def build_family_wiki(
 def family_page_card(page: SitePage) -> dict[str, object]:
     return {
         "title": page.title,
-        "url": page.site_rel,
+        "url": presentation_url_for(page),
         "section": page.section,
         "type": page.page_type,
         "status": page.frontmatter.get("status", ""),
@@ -1218,7 +1246,7 @@ def resolve_page_reference(value: str, link_map: dict[str, SitePage]) -> dict[st
     target, label = split_wikilink(value)
     resolved = link_map.get(normalize_link_key(target))
     if resolved:
-        return {"label": resolved.title, "url": resolved.site_rel, "target": normalize_link_key(target)}
+        return {"label": resolved.title, "url": presentation_url_for(resolved), "target": normalize_link_key(target)}
     return {"label": label or target, "url": "", "target": normalize_link_key(target)}
 
 

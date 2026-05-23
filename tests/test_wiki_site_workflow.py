@@ -16,6 +16,7 @@ def test_wiki_site_workflow_deploys_cloudflare_worker_site() -> None:
     assert "secrets.R2_ACCOUNT_ID" in workflow
     assert "CLOUDFLARE_API_TOKEN" in workflow
     assert "genealogy-wiki-site.ajh-genealogy.workers.dev/tree" in workflow
+    assert "genealogy-wiki-site.ajh-genealogy.workers.dev/people/dario-arturo-pulgar-smith" in workflow
     assert "Alexander John Heinz" in workflow
     assert "gh-pages" not in workflow
     assert "GitHub Pages" not in workflow
