@@ -14,8 +14,19 @@ Use `$genealogy-claim-extraction`.
 - Family relevance: `high`
 - Matched family terms: Pulgar
 - Narrative cues: birth
-- Evidence priority: `822` (family_relevance:high, qc:pass, matched_terms, person_linked_narrative_context)
+- Evidence priority: `122` (family_relevance:high, qc:pass, matched_terms, person_linked_narrative_context, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/identity-analysis-id-stage-chunk-4127185dc97c-p0172-01-person-identity-candidates-proof-review.md` | `research/_staging/identity-analysis/identity-analysis-id-stage-chunk-4127185dc97c-p0172-01-person-identity-candidates.md` | `hold_for_conversion_qa` | Keep this staged identity analysis on **hold_for_conversion_qa**. First reconcile the staging metadata to the current `page-0172-chunk-01.md` and converted checksum, then perform field-level conversion QA against the source image for entry 513 child name/mother surname, entry 514 father field, and entry 515 Leiva/Neira surname. After those readings are settled, create or review separate atomic claims before considering any canonical person or relationship promotion. |
+| `research/_staging/reviews/proof-review-identity-analysis-cf-stage-chunk-4127185dc97c-p0172-01-conversion-conflicts-postconv-proof-review-20260523120150855.md` | `research/_staging/identity-analysis/identity-analysis-cf-stage-chunk-4127185dc97c-p0172-01-conversion-conflicts.md` | `hold_for_conversion_qa` | Revise or supersede the staged analysis to reflect the current page-172 chunk and converted checksum, then perform targeted field-level conversion QA from the source image for entry 513 child name and mother surname, entry 514 father field, and entry 515 Leiva/Neira surname. Keep all affected claims out of canonical folders until that QA is complete. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Person-First Narrative Contract

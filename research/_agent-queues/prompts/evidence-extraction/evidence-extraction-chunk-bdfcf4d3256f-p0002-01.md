@@ -11,9 +11,10 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf`
 - Page range: 2-2
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Anatomy, Medical, Osorio, Teaching, Virginio
-- Evidence priority: `-698` (family_relevance:critical, qc:reread-page, matched_terms, proof_review_revision)
+- Family relevance: `none`
+- Matched family terms: none
+- Narrative cues: born, education, minutes
+- Evidence priority: `3302` (family_relevance:none, qc:pass, proof_review_revision)
 
 
 ## Proof Review Revision Context
@@ -27,6 +28,14 @@ Previous proof review found staged outputs for this chunk were not yet promotion
 
 When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
+
+## Person-First Narrative Contract
+
+- Start with known family members and reviewed family relationships, not source chunks as the main object.
+- Extract claims only when they can support a family member, family relationship, life event, place in a family story, photograph, or narrative question.
+- High-value narrative claims include where a family member stayed, traveled, lived, worked, studied, appeared in a photo, attended a meeting, served as a delegate, spoke, signed, witnessed, or was present for a discussion.
+- Context about a hotel, institution, place, co-delegate, meeting, or historical setting is useful only when it directly explains a family member's experience or a specific family record. Keep broad background as a staged context/research note with an explicit linked family entity, or mark it low relevance.
+- Do not fan out generic claims about all delegates, all places, or all official proceedings unless the chunk ties them to the family member's narrative.
 
 ## Done When
 

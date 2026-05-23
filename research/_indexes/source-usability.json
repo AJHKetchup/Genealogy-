@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-23T10:47:18Z",
+  "created": "2026-05-23T12:05:58Z",
   "purpose": "Source-readiness report for raw source -> LLM-readable source pipeline.",
   "inputs": {
     "source_prep_manifest": "raw/source-prep-manifest.json",
@@ -10,8 +10,8 @@
     "total_sources": 20,
     "status_counts": {
       "usable_for_extraction": 6,
-      "partial_with_page_holds": 9,
-      "partially_usable_for_extraction": 4,
+      "partial_with_page_holds": 8,
+      "partially_usable_for_extraction": 5,
       "usable_with_page_holds": 1
     }
   },
@@ -1158,12 +1158,12 @@
       "id": "SRC-51f62b286f53",
       "raw_path": "raw/sources/El Aguila Nombre Grande Scan.pdf",
       "media_type": "pdf",
-      "status": "partial_with_page_holds",
+      "status": "partially_usable_for_extraction",
       "source_prep_status": "partially_converted",
       "conversion_job_count": 2,
       "converted_file_count": 1,
       "chunk_manifest_count": 1,
-      "qc_hold_count": 1,
+      "qc_hold_count": 0,
       "source_prep_task_counts": {},
       "page_repair_count": 0,
       "conversion_jobs": [
@@ -1188,26 +1188,7 @@
       "chunk_manifests": [
         "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json"
       ],
-      "qc_holds": [
-        {
-          "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
-          "page": 14,
-          "recommended_action": "reread-page",
-          "quality_flags": [],
-          "matched_terms": [
-            "Dario",
-            "Dario Pulgar",
-            "Pulgar"
-          ],
-          "suspicious_readings": [
-            {
-              "literal": "PULGARA",
-              "suspected": "Pulgar",
-              "reason": "near match to known family context term `Pulgar`"
-            }
-          ]
-        }
-      ]
+      "qc_holds": []
     },
     {
       "id": "SRC-72a88105e04d",
