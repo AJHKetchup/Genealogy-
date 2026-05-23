@@ -1516,6 +1516,8 @@ def render_home_page(pages: list[SitePage], data: dict[str, object]) -> str:
     people = render_person_cards(presentation.get("people", []))
     families = render_family_cards(presentation.get("families", []))
     narratives = render_narrative_cards(presentation.get("narratives", []))
+    throughlines = render_throughline_cards(presentation.get("throughlines", []))
+    featured_sources = render_source_cards(presentation.get("featuredSources", []), mode="presentation")
     timeline = render_timeline_preview(presentation.get("timelinePreview", []), empty="No dated family events yet.")
     canonical_count = int(presentation.get("canonicalPageCount", 0) or 0)
     source_count = int(presentation.get("sourceShelfCount", 0) or 0)
@@ -1545,6 +1547,16 @@ def render_home_page(pages: list[SitePage], data: dict[str, object]) -> str:
       <a class="tool-link" href="sources.html"><span>Citations</span><strong>Source Library</strong><small>Records and citations that support the family pages.</small></a>
       <a class="tool-link" href="people.html"><span>Chapters</span><strong>LifeStory Index</strong><small>Narrative chapters, family lines, and profile paths as they become ready.</small></a>
     </section>
+    <section class="section-heading">
+      <h2>Story Threads</h2>
+      <span>Automatically grouped from names, places, dates, and reviewed source usability</span>
+    </section>
+    <section class="throughline-grid">{throughlines}</section>
+    <section class="section-heading">
+      <h2>Records In Context</h2>
+      <span>High-signal source groups feeding the person-first story</span>
+    </section>
+    <section class="source-card-grid story-source-grid">{featured_sources}</section>
     <section class="family-grid">
       <article>
         <div class="panel-head"><h2>People</h2><a href="people.html">All people</a></div>
