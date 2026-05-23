@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-e8e0e87d7af9-P0002-01
+chunk_id: CHUNK-1d08a1215c7d-P0002-01
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md
-converted_sha256: e8e0e87d7af9e68717cb98d4a92a9b20056d274da6b9d4d96d903ce8a2b38b55
+converted_sha256: 1d08a1215c7d87c3662fbbe57f23b3e90115f470a2515d46d8e46c811472ae9f
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json
@@ -12,87 +12,63 @@ part: 1
 ---
 
 ## Page Metadata
-
-- **Page number**: 2
-- **Document type**: File cover / Routing slip
-- **Language(s)**: English, French
-- **Handwritten content**: Yes
-- **Printed content**: Yes
-- **Form**: Yes
+- Page: 2
 
 ## Layout And Reading Order
-
-The page is a pre-printed file cover or routing slip on manila-colored cardstock. The layout consists of:
-1.  A header at the top with the text "GENERAL AND MISCELLANEOUS" and three boxes containing numbers.
-2.  A "Sujet" (Subject) section below the header with several lines of handwritten French text.
-3.  A large, three-column table for routing information, which fills the majority of the page. Each column has sub-columns for "Transmis à / Referred to" and "Date". The table is filled with handwritten entries.
-4.  To the right of the main table, there are three smaller printed boxes for file numbers: "Dossier précédent", "Dossier suivant", and "Dossiers connexes".
-
-The reading order is from top to bottom, starting with the header, then the subject, and then the routing table read row by row, left to right. The file number boxes on the right are read last.
+The document is a pre-printed form on a manila-colored file jacket. The reading order is as follows:
+1.  Header at the top with the title "GENERAL AND MISCELLANEOUS" and handwritten numbers.
+2.  A "Sujet" (Subject) field with a handwritten description in French.
+3.  A large table for tracking circulation, with three sets of columns for "Transmis à / Referred to" and "Date". The table is filled with handwritten entries.
+4.  To the right of the main table, there are three smaller fields: "Dossier précédent", "Dossier suivant", and "Dossiers connexes".
 
 ## Literal Transcription
-
-```text
+**Header**
+```
 GENERAL AND MISCELLANEOUS
-
-[Box 1, printed] 50
-[Box 2, handwritten] 5569
-[Box 3, handwritten] 5569
-
-Sujet:
-Conférence diplomatique (juillet 1929) appelée à revoir la
-Convention de Genève de 1906 pour l'amélioration du sort des
-blessés et malades dans les armées en campagne et d'élaborer
-un code des prisonniers de guerre.
-
-[Routing Table]
-| Transmis à / Referred to | Date | Transmis à / Referred to | Date | Transmis à / Referred to | Date |
-|---|---|---|---|---|---|
-| For previous circulation<br>see within. | | Marquis Paulucci | 7.10.31 | M. Paulucci | 9.2.32 |
-| M. Schwartz<br>Legal Dept | 26.5.31 | XIV M. Schwartz<br>Legal Dept | 19.10.31 | Disarmament | 1.4.32 |
-| M. Walters | 29.5.31 | Marquis Paulucci | 21.10.31 | M. Walters | 6.4.32 |
-| Marquis Paulucci | 30.5.31 | XX M. Schwartz (Legal)<br>J.C.V[?] | 14.11.31 | XXJ[?] M. Schwartz<br>Legal Dept | 17.5.32 |
-| M. Schwartz<br>Legal Dept | 12.6.31 | Marquis Paulucci | 4.11.31 | M. Paulucci | 20.5.32 |
-| XI M. Walters | 1.7.31 | M. Schramm[?] (upl)[?] | 12.11.31 | Disarmament | 21.5.32 |
-| XI M. Schwartz<br>Legal Dept | 2.7.31 | XXI M. Schwartz<br>Legal Dept | 29.12.31 | M. Walters | 23.5.32 |
-| M. Walters | 6.7.31 | M. Paulucci | 4.1.32 | | |
-| XI M. Schwartz<br>Legal Dept | 8.7.31 | XXII M. Schwartz<br>Legal Dept | 5.3.32 | | |
-| M. Walters | 11.7.31 | ~~Disarmament~~ | 8.2.32 | | |
-| XVI M. Schwartz<br>Legal Dept | 11.7.31 | XXIV M. Schwartz<br>Legal Dept | 12.2.32 | | |
-| XI M. Schwartz<br>Legal Dept | 15.7.31 | M. Paulucci | 15.2.32 | | |
-| Marquis Paulucci | 18.7.31 | Disarmament<br>XXV | 15.2.32 | | |
-| M. Schwartz<br>Legal Dept | 30.9.31 | M. Schwartz<br>Legal Dept | 29.3.32 | | |
-
-[Boxes to the right of the table]
-Dossier } No. /
-précédent }
-
-Dossier } No. 7801
-suivant }
-
-Dossiers connexes
+[Box 1] 50
+[Box 2] 5569
+[Box 3] 5569
 ```
 
-## Images, Captions, And Visual Notes
+**Subject**
+```
+Sujet: Conférence diplomatique (Juillet 1929) appelée à revoir la
+Convention de Genève de 1906 pour l'amélioration du sort des
+blessés et malades des armées en campagne et d'élaborer
+un code des prisonniers de guerre.
+```
 
-- The document is a standard office form, likely a file jacket or cover sheet.
-- The handwriting is in ink, with some entries showing different pens or pressure.
-- There are several red pencil checkmarks next to dates in the second column of the routing table (specifically next to 4.1.32, 15.2.32, and 15.2.32).
-- The entry for "Disarmament" dated 8.2.32 in the second column is struck through with a single horizontal line.
-- A handwritten slash "/" is entered in the "No." field for "Dossier précédent".
+**Circulation Table**
+| Transmis à <br> Referred to | Date | Transmis à <br> Referred to | Date | Transmis à <br> Referred to | Date |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **For previous circulation see within.** | | | | | |
+| M. Schwartz <br> Legal Dept | 26.5.31 | <s>Marquis Paulucci</s> | 7.10.31 [blue checkmark] | M. Paulucci | 9.2.32 [red checkmark] |
+| M. Walters | 29.5.31 | <s>M. Schwartz</s> <br> Legal | 19.10.31 [blue checkmark] | Disarmament | 1.4.32 [red checkmark] |
+| Marquis Paulucci | 30.5.31 | <s>Marquis Paulucci</s> | 21.10.31 [blue checkmark] | XXJ <br> M. Walters | 6.4.32 [red checkmark] |
+| M. Schwartz <br> Legal Dept | 12.6.31 | <s>XX In Dir sect (upl) (I.C.V)</s> | 14.11.31 [blue checkmark] | M. Schwartz <br> Legal | 17.5.32 [red checkmark] |
+| XI In Walters | 1.7.31 | <s>Marquis Paulucci</s> | 4.11.31 [blue checkmark] | M. Paulucci | 20.5.32 [red checkmark] |
+| XIX-XIV M. Schwartz <br> Legal Dept | 2.7.31 | <s>M. Schwartz (upl)</s> | 12.11.31 [blue checkmark] | Disarmament | 21.5.32 [red checkmark] |
+| M. Walters <br> by | 6.7.31 | <s>X+I M. Schwartz</s> <br> Legal | 29.12.31 [blue checkmark] | M. Walters | 23.5.32 [red checkmark] |
+| M. Walters <br> by | 11.7.31 | <s>M. Paulucci</s> | 4.1.32 [blue checkmark] | Dossier <br> précédent } No. [handwritten line] | |
+| X M. Schwartz <br> Legal | 8.7.31 | <s>XXII M. Schwartz</s> | 5.3.32 [blue checkmark] | Dossier <br> suivant } No. 7801 | |
+| M. Walters <br> by | 11.7.31 | <s>Disarmament</s> | 8.2.32 [blue checkmark] | Dossiers connexes | |
+| XVI M. Schwartz <br> Legal D[?] | 11.7.31 | XXIII M. Schwartz <br> Legal | 12.2.32 [blue checkmark] | | |
+| XIX M. Schwartz <br> Legal | 15.7.31 | M. Paulucci | 15.2.32 [blue checkmark] | | |
+| Marquis Paulucci | 18.7.31 | Disarmament <br> XXIV | 15.2.32 [blue checkmark] | | |
+| M. Schwartz <br> Legal | 30.9.31 | M. Schwartz <br> Legal | 20.2.32 [blue checkmark] | | |
+
+## Images, Captions, And Visual Notes
+This page is a pre-printed file jacket cover with extensive handwritten entries. The form is titled "GENERAL AND MISCELLANEOUS". The subject of the file is handwritten in French. The main body is a circulation table tracking who the file was referred to and on what date. The entries are handwritten in cursive script. There are various annotations, including Roman numerals, department names (e.g., "Legal Dept"), and other notes. Many entries in the second column of names are struck through with a blue pencil line, and all dates in the second column have a blue checkmark. Several dates in the third column have a red or orange checkmark.
 
 ## Uncertain Or Illegible
-
-- **Column 2, Row 4**: The initials below "M. Schwartz (Legal)" are difficult to read but appear to be `J.C.V[?]`.
-- **Column 2, Row 6**: The name appears to be `M. Schramm[?]` but could be `Schurnh` or similar. The note in parentheses is also unclear, transcribed as `(upl)[?]`.
-- **Column 3, Row 4**: The Roman numeral prefix is unclear, transcribed as `XXJ[?]`. It could be `XXI`, but that numeral appears earlier.
+- Row 5, Col 2: `(upl)` and `(I.C.V)` are uncertain readings of handwritten abbreviations.
+- Row 8, Col 2: `X+I` is an unusual notation, but appears to be what is written.
+- Row 12, Col 1: `Legal D[?]` is likely an abbreviation for "Legal Dept", but only the "D" is clearly written.
 
 ## Completeness Audit
-
-The entire page has been transcribed. All text, including printed and handwritten content, has been captured.
+The entire content of the page has been transcribed.
 
 ## Visual Region Manifest
-
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only textual data in the form of a routing slip. There are no photographs, illustrations, or other significant visual elements that would warrant cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "The page consists of a pre-printed form with handwritten text. There are no standalone images, portraits, maps, or other visual elements that would warrant cropping as separate assets. All meaningful content has been captured in the literal transcription."}
 ```

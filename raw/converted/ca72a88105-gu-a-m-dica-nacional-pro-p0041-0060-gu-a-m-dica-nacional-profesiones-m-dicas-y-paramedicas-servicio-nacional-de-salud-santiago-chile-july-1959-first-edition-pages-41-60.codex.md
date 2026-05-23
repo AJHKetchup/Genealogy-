@@ -1338,27 +1338,27 @@ No interpretation was produced by the Docling basic conversion pass.
 
 ## Page Metadata
 
-- Page number: 56
+- **Page number**: 56
+- **Source page number**: 53
+- **Document title**: Guía Médica Nacional Profesiones Médicas y Paramedicas
+- **Publication**: Servicio Nacional de Salud, Santiago, Chile
+- **Publication date**: July 1959, First Edition
+- **Content type**: Directory
+- **Language**: Spanish
 
 ## Layout And Reading Order
 
-The page contains a directory listing of medical professionals. The content is arranged in a three-column table format. The columns are:
-1.  Name (Surname, First Name)
-2.  Address
-3.  City
-
-The reading order is from left to right, row by row, from the top to the bottom of the page. The page number is located at the bottom left.
+The page contains a directory listing of medical professionals. The content is arranged in a three-column format. The first column lists the names of the individuals (last name, first name). The second column provides their street address. The third column lists the city or locality. The entries are read row by row, from left to right. At the bottom left of the page is the page number "56 —".
 
 ## Literal Transcription
 
-| Name | Address | City |
-| :--- | :--- | :--- |
+| Name | Address | Location |
+| --- | --- | --- |
 | Lara Lara, Gastón | Bascuñán Guerrero 864 | Santiago |
 | Lara Sazo, Carlos | Cochrane 754 | Concepción |
 | Larach Jamiz, César | Av. José P. Alessandri 85 | Santiago |
 | Larach Nazrala, Alejandro | Moneda 720, Of. 205 | Santiago |
-| Larach Nazrala, Elías | Rosa Eguiguren 813, | Santiago |
-| | Of. 47 | |
+| Larach Nazrala, Elías | Rosa Eguiguren 813,<br>Of. 47 | Santiago |
 | Larenas Barrera, Emilio | Igualdad 240 | Parral |
 | Larenas Ovalle, Alberto | O'Higgins 630 | Concepción |
 | Largo Robledo, Alfonso | Prat 225 | Rengo |
@@ -1366,8 +1366,7 @@ The reading order is from left to right, row by row, from the top to the bottom 
 | Larraguibel Moreno, Armando | Ramón Nieto 920, Of. 301 | Santiago |
 | Larraín Aguirre, Camilo | Compañía 1615 | Santiago |
 | Larraín Eyzaguirre, Sergio | República 440 | Santiago |
-| Larraín García, Arturo | Vicuña Mackenna 4, 7º | Santiago |
-| | Piso | |
+| Larraín García, Arturo | Vicuña Mackenna 4, 7º<br>Piso | Santiago |
 | Larraín Marín, Eduardo | Marcoleta 367 | Santiago |
 | Larraín Orrego, Augusto | Avda. Salvador 1231 | Santiago |
 | Larraín Vidal, Adriana | Teatinos 251, Depto. 3 | Santiago |
@@ -1377,7 +1376,7 @@ The reading order is from left to right, row by row, from the top to the bottom 
 | Latorre Blanco, Mariano | Valentín Letelier 1373 | Santiago |
 | Latorre Offermanns, María Josefina | Víctor Lamas 280 | Concepción |
 | Latorre Troncoso, Gustavo | Gertrudis Echenique 49 | Santiago |
-| Lausic Yuricic, Vicente | Constitución 352 | Illapel |
+| Lausic Yuricié, Vicente | Constitución 352 | Illapel |
 | Laval Manríquez, Enrique | Lord Cochrane 309 | Santiago |
 | Laval Román, Enrique | Miguel Claro 278 | Santiago |
 | Lavarello Ramírez, Alfredo | Cáceres 10 A | Rancagua |
@@ -1395,8 +1394,7 @@ The reading order is from left to right, row by row, from the top to the bottom 
 | Leclerc de Vandamme, Claude | Las Bellotas 260 | Santiago |
 | Ledesma Zamora, Arnaldo | Madrid 962 | Santiago |
 | Legarreta Peña, Adela | Agustinas 715, Dep. 302 | Santiago |
-| Legarreta Peña, José | Santo Domingo 594, | Santiago |
-| | Depto. 2 | |
+| Legarreta Peña, José | Santo Domingo 594,<br>Depto. 2 | Santiago |
 | Lehuedé Alvarado, Héctor | Lourdes 749 | Santiago |
 
 56 —
@@ -1407,19 +1405,16 @@ There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this document. The text is clear and well-printed.
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
 
-This page has been transcribed in its entirety. Note that the printed page number is "56", which differs from the page number "53" specified in the job manifest. The transcription reflects the number printed on the source image.
+This page is fully transcribed. All text content, including the page number, has been captured.
 
 ## Visual Region Manifest
 
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text in a directory format with no images, illustrations, or other distinct visual elements."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of text in a directory format. There are no images, illustrations, or other visual elements that would warrant cropping."}
 ```
 
 # Page 54

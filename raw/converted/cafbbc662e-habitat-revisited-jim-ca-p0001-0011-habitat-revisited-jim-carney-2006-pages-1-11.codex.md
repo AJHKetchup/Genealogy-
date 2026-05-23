@@ -438,17 +438,12 @@ All visible text on the page has been transcribed.
 ```
 
 ## Page Metadata
-
-- Task id: `source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0007`
-- Source: `raw/sources/Habitat Revisited, Jim Carney, 2006.pdf`
-- Page: 7
+- Page number: 7
 
 ## Layout And Reading Order
-
-The page consists of a single column of text. A page number, "7", is located in the top right corner. The reading order is linear, from top to bottom.
+The page consists of a single column of text. The page number "7" is located in the top right corner. The reading order is from top to bottom.
 
 ## Literal Transcription
-
 7
 
 The senior Conference officials had a hard time with this. In their view, they had
@@ -480,8 +475,8 @@ produced.
 
 **VISION HABITAT**
 
-In September, 1976, the UN General Assembly ordered the “*maximum world-wide
-utilization of the Habitat films*”. This was “Transfer of Technology” at its best. With
+In September, 1976, the UN General Assembly ordered the “maximum world-wide
+utilization of the Habitat films”. This was “Transfer of Technology” at its best. With
 initial funding from the federal and provincial governments and the forceful ad-
 vocacy of Dr. Peter Oberlander of UBC, “The United Nations Audio Visual Centre
 for Human Settlements” (more sensibly soon known as “Vision Habitat”) was estab-
@@ -500,36 +495,26 @@ distribution system. He had fetched up at “The Board” after fleeing Pinochet
 overthrow of the Allende government in 1973.
 
 ## Images, Captions, And Visual Notes
-
-This page contains only text. There are no images, illustrations, or other visual elements.
+There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
-
-There are no uncertain or illegible words on this page.
+There are no uncertain or illegible parts of this page.
 
 ## Completeness Audit
-
-This page is fully transcribed.
+This page is complete and contains no truncations or omissions.
 
 ## Visual Region Manifest
-
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text and a page number."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of text and contains no images, illustrations, or other visual elements."}
 ```
 
 ## Page Metadata
-
-- **Page number**: 8
+- Page number: 8
 
 ## Layout And Reading Order
-
-The page consists of a single column of text. The page number '8' is located at the top right corner. The reading order is from top to bottom, starting with the first paragraph and proceeding through the subsequent paragraphs and the final section heading.
+This page consists of a single column of text. The page number '8' is located in the top right corner. The reading order is from top to bottom, starting with the first paragraph of text and ending with the final, incomplete paragraph at the bottom of the page. There is one section heading in the lower half of the page.
 
 ## Literal Transcription
-
 8
 
 Dario was one of the most intellectually and physically robust people I’ve ever
@@ -582,23 +567,19 @@ vironment in Stockholm. UNEP (then the only UN headquarters located in a devel-
 oping country) was located at Gigiri, just outside Nairobi. UNCHS initially occupied
 
 ## Images, Captions, And Visual Notes
-
-There are no images, illustrations, or other visual elements on this page.
+There are no images, captions, or other visual elements on this page. The page contains only text.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-The full content of the page, including the page number and all text, has been transcribed.
+The full content of the page, including the page number and all text, has been transcribed. The final paragraph is incomplete in the source document as it continues onto the next page, and it has been transcribed as it appears.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only printed text and a page number, with no images, illustrations, or other significant visual elements suitable for cropping."
+  "no_visual_regions_reason": "This page contains only text and a page number."
 }
 ```
 
@@ -671,12 +652,17 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
 ## Page Metadata
-- **Page number**: 10
+
+- Task id: `source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0010`
+- Source: `raw/sources/Habitat Revisited, Jim Carney, 2006.pdf`
+- Page: 10
 
 ## Layout And Reading Order
-This page follows a single-column layout. The page number is located at the top right corner. The main body of text flows from top to bottom, with a bolded section header, "IN THE END – WHY ?", separating the content into two parts.
+
+The page consists of a single column of text. The reading order is top to bottom. A page number, "10", is located at the top right corner. A bolded, centered heading, "IN THE END – WHY ?", separates the text into two main sections.
 
 ## Literal Transcription
+
 10
 
 By early 1980, with UNCHS more or less operational in Nairobi, Andreas Fuglesang
@@ -704,7 +690,7 @@ wanted the job on a more permanent basis. I remained in the post until April, 19
 when I returned to my hometown, Vancouver, as Commissioner General of the UN
 pavilion at Expo ‘86. And that’s another story !!
 
-**IN THE END – WHY ?**
+IN THE END – WHY ?
 
 I spent a total of thirteen years on the Habitat programme. I was and still am fre-
 quently asked “What is the value of these global UN conferences ?”, “Do they
@@ -728,19 +714,23 @@ form of documents, audio, video tape and film and had to be physically flown
 and shipped across continents and oceans.
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other visual elements on this page. It consists entirely of text.
+
+There are no images, captions, or other visual elements on this page.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible parts of this document.
+
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page is complete and has been fully transcribed.
+
+This page is complete. All text, including the page number and section heading, has been transcribed.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text and a page number."
+  "no_visual_regions_reason": "This page contains only text and a page number."
 }
 ```
 

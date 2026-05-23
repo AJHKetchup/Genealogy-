@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-b6a80f14dd4c-P0012-01
+chunk_id: CHUNK-5a10ffcc339e-P0012-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: b6a80f14dd4ccb8e6cd01bf1d3adeb59105fa5f410eb918dee56ac40c6405f8f
+converted_sha256: 5a10ffcc339ebc8f2e66330d4373da11b5a0133c79ab75ec76a1eca6bdb7b0f5
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -12,70 +12,53 @@ part: 1
 ---
 
 ## Page Metadata
-- Source: `El Aguila Nombre Grande Scan.pdf`
-- Page: `12`
+- Page number: 15
+- Source publication: El Aguila Nombre Grande
+- Publication date: Enero Febrero 1956
 
 ## Layout And Reading Order
-The page contains a single column of typewritten text, with a header at the top and a footer at the bottom. A handwritten page number is present in the bottom right corner.
+The page contains a single column of text, likely an article or news report, with a page number handwritten at the bottom. The text is in Spanish.
 
 ## Literal Transcription
-ERO GIGANTE
-ENERO FEBRERO EL AGUILA
-LEVAN A ENORMES TAMBRES, LUEGO DE ESTOS TAMBORES PASA A OTROS TAMBORES
-ONDE HIERVE POR TIEMPO DETERM NADO LUEGO ENTRA A OTOS ESTANQUES
-ONDE SE ENFRIA LUEGO SE LE ECHA ALMIBAR Y SE REVUELVE DESPUES PASA
-A UNOS COMPARTIMENTOS DONDE SE LLENAN LOS TARROS CON LLECCHE CONDESADA
-YA PREPARADA. LOS TARROS ANTES DE SER LLEBADOS SON DESINFECTADOS POR
-CALOR,LA PIESA DONDE SE LLENAN LOS TARROS HAY QUE MIRARLA DE AFUERA
-PARA NO LLEVAR MICROVIOS, LOS TARROS SON HECHOS DE LATA HAY MISMO
-, LOS TARROS SONL TAPADOS EN EL MIS MO LUGAR DONDE SE LLENAN DESPUES DE
-LO CUAL SON LEVADOS A PONERLE LA ETIQUETA "NESTLE # TERMINADO TODAD
-LA OPERACION SON ENBALADOS Y LUEGO SON LEVADOS AL FERROCARRIL CERCANO,
-LA FABRICA DE TARROS
-6Y
-LSAS
-LAS PLANCHAS DE LATA SON CORTADAS EN TRES PEDASOS POR UNA MAQUINA, LUEGO
-PASAN A OTRA QUE LOS CORTA EN TRES NUEVAMENTE Y DESPUES UNA MAQUINA I
-ITALIANA RECIENTEMENTE EN CHILE HACE EL ENVACESE LAS DOS PARTES SON
-PEGADAS HACIENDO EL TARRO Y DE INMEDIATO OTRA PONE UNA TAPA LA DE ABAJO
-LOS TARROS YA TERMINADOS PASAN POR UN ESTERELISADO Y DEXHXX DE AHI A
-LLENARSE
-LA PANADERIA MODERNA.
-LA ENPRESA VISITO LA PANADERIS MODERNA DE LOS ANGELES DEL SR RINCON
-QUIEN NOS ENSENO SU PANADERIA; UNA MAQUINA REVUELVE EL PANAN U LUEGO
-OTRA LO AMASA; LA MASA PARA LAS AYUYAS PASA A OTRA MAQUINA QUE LA CORTA
-Y LA FESJA CUADRADA DE AHI PASA A UN HORNO A PETROLEO Y SE ENREGA
-AL PUBLICO
-
-CRONICAS POR EL PERIODISTA x
-
-12
+NUMERO GIGANTE
+EL " AGUILA " ENERO FEBRERO 1956
+CENDIO " LE TOCO A LOS FERROCARRILES "
+SABADO 25 DE FEBRERO SE PRODUJO UN INCENDIO DE GRANDES PROPORCIONES.
+TRATA DE NUESTRO ANTIGUO EDIFICIO DE LA ESTACION DE FERROCARRILES
+L ESTADO . ESTE INCENDIO SE PRODUJO POR LA INFLAMACION DE UNA COCINA
+PARAFINA EN LA FUENTE DE SODA DE DICHO EDIFICIO.
+ON LA AYUDA DE LOS BOMBEROS QUE LLEGARON OPORTUNAMENTE Y DEL PERSONAL
+FERROCARRILES , SE PUDO SALVAR EL EQUIPAJE , TELEFONOS , TWLEGRAFO
+FELIZMENTE NO HUBO DESGRACIAS PERSONALES QUE LAMENTAR
+"" LOS INCENDIOS Y TERREMOTOS , TRAEN EL PROGRESO A LOS PUEBLOS ""
+ON LA DESTRUCCION DEL EDIFICIO DE LA ESTACION PODREMOS CONTAR A CORTO PLAS
+CON UN MODERNO Y CONFORTABLE EDIFICIO DIGNO DE LA CAPITAL DE " BIO-BIO "
+DE CADA DIA ESTA TOMANDO MAS IMPORTANCIA EN TODO ORDEN DE COSAS ASI LO
+SPERAMOS AUN QUE LA EMPRESA DE LOS FERROCARRILES SE ENCUENTRA AVOCADA A
+ARIOS COMPROMISOS QUE AFRONTAR DEBIDO A LA COMPLETA DESORGANISACION EN
+ODO ORDEN . DIOS QUIERA QUE ASI SEA Y QUE PRONTO TENGAMOS UN SERV IODO
+ERROVIARIO COMO LO PIDE "CHILE""
+"" PINCHASO ""
+ATASTROFE
+A PRINCIPIOS DE FEBRERO SE PRODUJO UNA CATASTROFE FERROVIARIA SIMILAR
+A LA DE SAN BERNARDO EL SALDO FUE 24 "MUERTOS " Y UN CENTENAR DE HERIDOS
+EN EL KILOMETRO 7 DEL FERROCARRIL A CARTAGENA SE ENCONTRABA DETENIDO
+UN CONVOY REPLETO DE NIÑOS QUE SE DIRIGIAN A APROVECHAR UN DIA DE SOL.
+ACOMPAÑADOS DE SUS PADRES UN DESPERFECTO DE LOS FRENOS IMPIDIO CONTINUAR
+EL TREN A SU DESTINO HABIA UN INTERVALO DE 10 MINUTOS CON OTRO TREN EL
+QUE PRODUJO LA TRAGEDIA " DIJO EL DIRECTOR DE LOS FF CC ES UNA INDISCUTIBLE
+FALLA HUMANA .
+ESCRIBIO WIMO
+15
 
 ## Images, Captions, And Visual Notes
-- The page number "12" is handwritten in red ink at the bottom right corner of the page.
+- A handwritten number "15" is present at the bottom center of the page.
 
 ## Uncertain Or Illegible
-- `DETERM NADO`: The space between "DETERM" and "NADO" might be a typo or an abbreviation.
-- `LLECCHE`: Could be "LECHE" (milk), with an extra 'C'.
-- `MICROVIOS`: Could be "MICROBIOS" (microbes), with a 'V' instead of 'B'.
-- `SONL`: Could be "SON" (are), with an extra 'L'.
-- `TODAD`: Could be "TODA" (all), with an extra 'D'.
-- `ENBALADOS`: Could be "EMBALADOS" (packaged), with an 'N' instead of 'M'.
-- `6Y`: Appears to be a stray character or number.
-- `LSAS`: Appears to be a stray character or abbreviation.
-- `PEDASOS`: Could be "PEDAZOS" (pieces), with an 'S' instead of 'Z'.
-- `DEXHXX`: This word is largely illegible, possibly a technical term or a typo.
-- `PANAN`: Could be "PAN" (bread), with an extra 'AN'.
-- `FESJA`: Could be "FRANJA" (strip) or "REJA" (grate), or another word.
-- `ENREGA`: Could be "ENTREGA" (delivers), with an 'N' instead of 'NT'.
+- No uncertain or illegible text.
 
 ## Completeness Audit
-The transcription is complete for all visible text on the page.
+The transcription is complete and captures all visible text and the handwritten page number.
 
 ## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The handwritten page number is noted in the 'Images, Captions, And Visual Notes' section."
-}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present. The handwritten page number is transcribed in the literal transcription."}
