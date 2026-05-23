@@ -1338,21 +1338,23 @@ No interpretation was produced by the Docling basic conversion pass.
 
 ## Page Metadata
 
-- **Page number**: 56
-- **Source page number**: 53
-- **Document title**: Guía Médica Nacional Profesiones Médicas y Paramedicas
-- **Publication**: Servicio Nacional de Salud, Santiago, Chile
-- **Publication date**: July 1959, First Edition
-- **Content type**: Directory
-- **Language**: Spanish
+- `page_number`: 56
+- `source_filename_page_number`: 53
+- `source_type`: Directory
+- `source_language`: es-CL
 
 ## Layout And Reading Order
 
-The page contains a directory listing of medical professionals. The content is arranged in a three-column format. The first column lists the names of the individuals (last name, first name). The second column provides their street address. The third column lists the city or locality. The entries are read row by row, from left to right. At the bottom left of the page is the page number "56 —".
+The page contains a single block of text formatted into a three-column directory listing. The columns are:
+1.  **Name:** Full name of the individual, listed as "Surname(s), Given Name(s)".
+2.  **Address:** Street address, which may include office (`Of.`) or department (`Depto.`) numbers. Some addresses span two lines.
+3.  **City:** The city or town where the address is located.
+
+The entries are read row by row, from top to bottom. A page number, "56 —", is located at the bottom left of the page.
 
 ## Literal Transcription
 
-| Name | Address | Location |
+| Name | Address | City |
 | --- | --- | --- |
 | Lara Lara, Gastón | Bascuñán Guerrero 864 | Santiago |
 | Lara Sazo, Carlos | Cochrane 754 | Concepción |
@@ -1376,7 +1378,7 @@ The page contains a directory listing of medical professionals. The content is a
 | Latorre Blanco, Mariano | Valentín Letelier 1373 | Santiago |
 | Latorre Offermanns, María Josefina | Víctor Lamas 280 | Concepción |
 | Latorre Troncoso, Gustavo | Gertrudis Echenique 49 | Santiago |
-| Lausic Yuricié, Vicente | Constitución 352 | Illapel |
+| Lausic Yuricić, Vicente | Constitución 352 | Illapel |
 | Laval Manríquez, Enrique | Lord Cochrane 309 | Santiago |
 | Laval Román, Enrique | Miguel Claro 278 | Santiago |
 | Lavarello Ramírez, Alfredo | Cáceres 10 A | Rancagua |
@@ -1401,20 +1403,20 @@ The page contains a directory listing of medical professionals. The content is a
 
 ## Images, Captions, And Visual Notes
 
-There are no images, illustrations, or other visual elements on this page.
+This page contains only text in a directory format. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this document.
+There are no uncertain or illegible portions of this page.
 
 ## Completeness Audit
 
-This page is fully transcribed. All text content, including the page number, has been captured.
+The entire content of the page, including all directory entries and the page number, has been transcribed.
 
 ## Visual Region Manifest
 
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of text in a directory format. There are no images, illustrations, or other visual elements that would warrant cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of typed text in a directory format with no images, illustrations, or other distinct visual elements."}
 ```
 
 # Page 54
