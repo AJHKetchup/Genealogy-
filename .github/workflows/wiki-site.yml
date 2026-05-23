@@ -116,7 +116,8 @@ jobs:
             if [ -z "$token" ]; then
               continue
             fi
-            if page_url="$(configure_pages "$token" 2>/tmp/pages-config-error.log)"; then
+            if candidate_url="$(configure_pages "$token" 2>/tmp/pages-config-error.log)" && [[ "$candidate_url" == http* ]]; then
+              page_url="$candidate_url"
               echo "Configured GitHub Pages with ${token_name}."
               break
             fi

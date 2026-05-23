@@ -11,5 +11,6 @@ def test_wiki_site_workflow_fails_if_pages_cannot_be_enabled() -> None:
     assert "pages: write" in workflow
     assert "id-token: write" in workflow
     assert "GitHub Pages is not enabled" in workflow
+    assert '[[ "$candidate_url" == http* ]]' in workflow
     assert "exit 1" in workflow
     assert "Published gh-pages, but this token cannot enable Pages" not in workflow
