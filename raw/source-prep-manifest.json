@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-22",
+  "created": "2026-05-23",
   "source_root": "raw/sources",
   "purpose": "Inventory raw source files before document-preparation conversion.",
   "pipeline_stage": "source-prep",
@@ -60,13 +60,13 @@
           "path": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md",
           "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json",
-          "sha256": "9dca88bb24bf1d05b5e8f9e6080087e711d58967bb4789c918af3a3668b35db1"
+          "sha256": "c0513cf40e974004c61c2ebd9826b0f5ccf5b5b692d8a0d2f09615eb9c75a7b9"
         },
         {
           "path": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
           "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
-          "sha256": "cb50c081601520f3e252f19e6b313e4e08b15ceff81825de265977f1cf3a886d"
+          "sha256": "1a5feaee83a41869ec0d993b37855d02bbfa10981a45c2020f4c5065379903a0"
         },
         {
           "path": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5.codex.md",
@@ -764,7 +764,7 @@
           "path": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
           "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
-          "sha256": "115bce3ce2e34f097d9cd0801721345fd8c88d662ee95e1d3172ea389467998d"
+          "sha256": "3861236c57bcc94de507031d75f28f1e40196005867c6904e6ab537959e9e8b2"
         }
       ],
       "cloud": {
@@ -1357,7 +1357,7 @@
           "path": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
           "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-          "sha256": "a853ba2002ebd767570cd5574d2c33c4abf68d34b5fc21ab5d3eda1189ffc97f"
+          "sha256": "6c376f37e45dff67d949678a951dc3f73b2edfe62916ffbd1aa8f1afe49cea3d"
         }
       ],
       "cloud": {
@@ -1425,7 +1425,7 @@
           "path": "raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60.codex.md",
           "source": "raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json",
-          "sha256": "193ec3402b39223511df3d62526479834520ee0a3229beb039ce7c93cfd4411c"
+          "sha256": "cf0c7f2c1e58028f2c7cd95435ec6a333684b21abf0ed20ba97e6f672b93362a"
         },
         {
           "path": "raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100.codex.md",
@@ -1482,7 +1482,7 @@
           "path": "raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md",
           "source": "raw/sources/Habitat Revisited, Jim Carney, 2006.pdf",
           "source_manifest": "raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json",
-          "sha256": "afeabe339cdeb92c8c976e51e6210f771447f38484bd9e973054fd6a4c525421"
+          "sha256": "0c5a70ed9d097500f0c26f89af24a728c20f7ea451124dffc83bb0ef53c0eda1"
         }
       ],
       "cloud": {
@@ -1819,7 +1819,7 @@
           "path": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125.codex.md",
           "source": "raw/sources/R3016-11A-2905-950.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/manifest.json",
-          "sha256": "660fa7801c6bb9d78ac9f6759aae8f6034123435fa0d10e1793b0ec9de4c2dfc"
+          "sha256": "28d9ef57c96e666955552047ab19c3aca70f2f3526a57f078c322851d56326d1"
         },
         {
           "path": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375.codex.md",
@@ -2786,7 +2786,7 @@
           "path": "raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md",
           "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json",
-          "sha256": "ad51f87716d75fa0727174cca02062c798feac33ab962a487dbd9b23b16b9d58"
+          "sha256": "84f55c4410843516feefac829251ddf13cdac3950a8d97e9f689a002baff0f98"
         },
         {
           "path": "raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0351-0375-r3578-50-5569-5569-jacket5-pages-351-375.codex.md",
@@ -3324,7 +3324,7 @@
           "path": "raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172.codex.md",
           "source": "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png",
           "source_manifest": "raw/codex-conversion-jobs/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172/manifest.json",
-          "sha256": "01c8a5758a910c1d1d0e299905c9a8113530d0f8dd8fee9742552cce99c1c506"
+          "sha256": "7d3991a78bc8f002318210ab216f0f597953a45a5c2e1dd55903ddc9e85686e3"
         }
       ],
       "cloud": {
@@ -3357,7 +3357,7 @@
           "path": "raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md",
           "source": "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png",
           "source_manifest": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/manifest.json",
-          "sha256": "bdb698de810680fda5a8207dc19746550a2bfbba789d92ab01a18646d925b060"
+          "sha256": "fb0d63eb2b71b8614bb12835873728a85f1a364e1cbe48b3435fbb6c68cbfac9"
         }
       ],
       "cloud": {

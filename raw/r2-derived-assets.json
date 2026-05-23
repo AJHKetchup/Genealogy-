@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-22T23:49:40.482659+00:00",
+  "created": "2026-05-23T00:02:34.568652+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -2884,6 +2884,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0013/page-0013-image-01-p0013-calendar-1956.png",
       "bytes": 2808088,
       "sha256": "35a0749668f86dd858c7ffe9ce1e04befdff852263df0d56343b902679ea4d1d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0013/page-0013-image-01-page-0013-calendar-1.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0013/page-0013-image-01-page-0013-calendar-1.png",
+      "bytes": 2456229,
+      "sha256": "d0f40fcb647ad992da5c8699cb55978b334332db8ea3eee87fe630ff32203a14",
       "media_type": "image/png"
     },
     {
@@ -12173,9 +12180,9 @@
     "action": "asset-upload",
     "dry_run": false,
     "total_files": 8,
-    "total_bytes": 67238504,
-    "uploaded": 3,
-    "skipped": 5,
+    "total_bytes": 69151030,
+    "uploaded": 1,
+    "skipped": 7,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,
@@ -12185,9 +12192,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1739,
+      "scanned": 1740,
       "deleted": 0,
-      "skipped": 1739,
+      "skipped": 1740,
       "errors": []
     }
   }

@@ -1338,26 +1338,22 @@ No interpretation was produced by the Docling basic conversion pass.
 
 ## Page Metadata
 
-- **Source Title**: Guía Médica Nacional Profesiones Médicas y Paramedicas
-- **Publisher**: Servicio Nacional de Salud
-- **Publication City**: Santiago, Chile
-- **Publication Date**: July 1959
-- **Edition**: First Edition
-- **Page Number**: 56
+- **Page number**: 56
+- **Source page number**: 53
+- **Document title**: Guía Médica Nacional Profesiones Médicas y Paramedicas
+- **Publication**: Servicio Nacional de Salud, Santiago, Chile
+- **Publication date**: July 1959, First Edition
+- **Content type**: Directory
+- **Language**: Spanish
 
 ## Layout And Reading Order
 
-The page contains a directory listing of medical professionals. The content is arranged in a three-column table format. The columns are:
-1.  Full Name (Last Name, First Name)
-2.  Address
-3.  City
-
-The entries are read row by row, from left to right. At the bottom left of the page is the page number.
+The page contains a directory listing of medical professionals. The content is arranged in a three-column format. The first column lists the names of the individuals (last name, first name). The second column provides their street address. The third column lists the city or locality. The entries are read row by row, from left to right. At the bottom left of the page is the page number "56 —".
 
 ## Literal Transcription
 
-| Name | Address | City |
-| :--- | :--- | :--- |
+| Name | Address | Location |
+| --- | --- | --- |
 | Lara Lara, Gastón | Bascuñán Guerrero 864 | Santiago |
 | Lara Sazo, Carlos | Cochrane 754 | Concepción |
 | Larach Jamiz, César | Av. José P. Alessandri 85 | Santiago |
@@ -1380,7 +1376,7 @@ The entries are read row by row, from left to right. At the bottom left of the p
 | Latorre Blanco, Mariano | Valentín Letelier 1373 | Santiago |
 | Latorre Offermanns, María Josefina | Víctor Lamas 280 | Concepción |
 | Latorre Troncoso, Gustavo | Gertrudis Echenique 49 | Santiago |
-| Lausic Yuricic, Vicente | Constitución 352 | Illapel |
+| Lausic Yuricié, Vicente | Constitución 352 | Illapel |
 | Laval Manríquez, Enrique | Lord Cochrane 309 | Santiago |
 | Laval Román, Enrique | Miguel Claro 278 | Santiago |
 | Lavarello Ramírez, Alfredo | Cáceres 10 A | Rancagua |
@@ -1409,16 +1405,16 @@ There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible portions of this document.
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
 
-The entire content of the page has been transcribed. The work order specified page 53, but the page number printed on the provided image is "56". The transcription reflects the content of the image.
+This page is fully transcribed. All text content, including the page number, has been captured.
 
 ## Visual Region Manifest
 
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of text in a directory format with no images, illustrations, or other visual elements."}
+{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of text in a directory format. There are no images, illustrations, or other visual elements that would warrant cropping."}
 ```
 
 # Page 54

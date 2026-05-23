@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-a853ba2002eb-P0010-01
+chunk_id: CHUNK-6c376f37e45d-P0010-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: a853ba2002ebd767570cd5574d2c33c4abf68d34b5fc21ab5d3eda1189ffc97f
+converted_sha256: 6c376f37e45dff67d949678a951dc3f73b2edfe62916ffbd1aa8f1afe49cea3d
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -12,45 +12,101 @@ part: 1
 ---
 
 ## Page Metadata
-- Source: `El Aguila Nombre Grande Scan.pdf`
-- Page: `10`
+
+- Page number: 13
 
 ## Layout And Reading Order
-The page contains a single large image of a landscape with cattle and a body of water. There is no text on the page other than a handwritten page number at the bottom.
+
+The page contains a single column of typewritten text. The reading order is from top to bottom. A small printed calendar for February 1956 is affixed to the bottom of the page. The page number "13" is visible at the very bottom center-right. Faint text from the reverse side of the page is visible throughout, but is not part of this page's content.
 
 ## Literal Transcription
-(No literal transcription needed for this page, as it contains only an image and a handwritten page number.)
+
+EDICION GIGANTE ENERO - FEBRERO EL AGUILA
+***
+DE TODO UN POCO
+***
+CONCEPCION
+***
+DURANTE QUE PERMANECIMOS EN EL FUNDO EN EL BARRIO LA COMPAÑIA DE S
+PROSEDIO A CANBIAR A LA VES LA CAÑERIA DE CALLE CASTELLON ENTRE
+VICTOR LAMAS Y COCHRANE
+
+EN CALLE COCRANE UNA ENPRESA CONTRATISTA TOMO A CARG O LA PAVIMENT ION
+DE DICHA CALLE LOS TRABAJOS SE ENCONTRABAN BASTANTE ADELANTADOS
+***
+EL RIO QUE PASA POR LONDRES ES EL THAMES
+G G V PERTENECE AL PARTIDO RADICAL
+LA ISLA DE MALTA SE ENCUENTRA EN EL MEDITERRANEO
+RESPUESTAS DE PAGUINA 3
+666666666666666666666666666666666666666666666666666666666666666666
+
+NOTAS DE LA ENPRESA.
+LA ENPRESA A DESIGNADO A DR DARIO PULGAR A NUESTRO DISTRIBUIDOR
+OFICIAL PAPA NUMEROS ATRASADOS SIRVAN DIRIGIRSE A NUESTRA DIRECCION EN
+CONCEPCION . LUEGO SE HABRIRAN LAS SUSCRIPCIONES PARA LO CUAL
+CONSULTEN CON NUESTRO DISTRIBUIDOR.
+
+CTOR EL DEPARTAMENTO DE PROPAGANDA LO MANTENDRA INFORMADO DE LAS
+CTIVIDADES DE LA ENPRESA
+66666666666666666666666666666666666666666666666666666
+
+CALENDARIO 1956 OBSEQUIO DE LA ENPRESA
+
+[calendar-1]
+
+13
 
 ## Images, Captions, And Visual Notes
-Pipeline-extracted visual crops:
-- ![converter-description: A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-landscape.png)
-  - Kind: photograph; label basis: converter-description; bbox_pct: [6.0, 3.0, 96.0, 97.0]
-  - Source context: A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.
 
-The page features a color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.
+Pipeline-extracted visual crops:
+- ![nearby-text: CALENDARIO 1956 OBSEQUIO DE LA ENPRESA](../extracted-images/page-0013/page-0013-image-01-page-0013-calendar-1.png)
+  - Kind: illustration; label basis: nearby-text; bbox_pct: [22.2, 78.0, 63.5, 95.2]
+  - Source context: The calendar is placed at the bottom of a page with various short news items and notes from a publication called 'EL AGUILA'.
+
+**[calendar-1]** A small, printed calendar for February 1956. It appears to be cut out and affixed to the page. The month "FEBRERO", the year "1956", and the Sundays (5, 12, 19, 26) are printed in red ink. The days of the week and all other dates are printed in black ink. A piece of tape or a tear partially obscures the numbers 12, 19, and 26. The calendar is preceded by the text "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA".
+
+The calendar is laid out as follows:
+```
+   1956      FEBRERO      1956
+Dom. Lun. Mart. Miér. Juev. Vier. Sáb.
+                1    2    3    4
+ 5    6    7    8    9   10   11
+12   13   14   15   16   17   18
+19   20   21   22   23   24   25
+26   27   28   29
+```
 
 ## Uncertain Or Illegible
-- The handwritten number at the bottom of the page appears to be "10", but it is somewhat faded and could potentially be misread.
+
+-   **Illegible text:** Faint text is visible throughout the page, particularly on the right side. This appears to be bleed-through from the reverse side of the page and is not transcribed.
+-   **Calendar damage:** The numbers 12, 19, and 26 on the calendar are partially obscured by what appears to be a tear or a piece of tape. The numbers are still identifiable.
 
 ## Completeness Audit
-The page contains a single image and a handwritten page number. All visible content has been described.
+
+The page has been fully transcribed. All text, including the calendar, has been captured. The faint bleed-through from the reverse page has been noted but not transcribed as it is not part of this page's content.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "region_1",
-      "kind": "photograph",
-      "bbox_pct": [0.06, 0.03, 0.96, 0.97],
-      "caption_literal": null,
-      "caption_type": "converter-description",
-      "identity_basis": null,
-      "source_context": "A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.",
-      "confidence": 0.95,
-      "suggested_filename": "cattle_watering_hole_landscape"
+      "region_id": "calendar-1",
+      "kind": "illustration",
+      "bbox_pct": [
+        22.2,
+        78.0,
+        63.5,
+        95.2
+      ],
+      "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA",
+      "caption_type": "nearby-text",
+      "identity_basis": "none",
+      "source_context": "The calendar is placed at the bottom of a page with various short news items and notes from a publication called 'EL AGUILA'.",
+      "confidence": "high",
+      "suggested_filename": "page-0013-calendar-1.jpg",
+      "inline_anchor": "[calendar-1]"
     }
-  ],
-  "no_visual_regions_reason": null
+  ]
 }
 ```

@@ -649,12 +649,15 @@ All visible text on the page has been transcribed.
 
 ## Page Metadata
 
-- **Page number**: 10
-- **Source file**: `raw/sources/Habitat Revisited, Jim Carney, 2006.pdf`
+- task_id: `source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0010`
+- page_num: `10`
+- source_id: `cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11`
+- source_title: `Habitat Revisited, Jim Carney, 2006`
+- source_page_label: `10`
 
 ## Layout And Reading Order
 
-The page consists of a single column of text. A page number, "10", is located at the top right corner. The reading order is from top to bottom.
+The page contains a single column of text. The page number "10" is located at the top right corner. The reading order is from top to bottom, starting with the main text, followed by a bolded heading, and then the concluding paragraphs.
 
 ## Literal Transcription
 
@@ -711,23 +714,20 @@ and shipped across continents and oceans.
 
 ## Images, Captions, And Visual Notes
 
-There are no images, captions, or other visual elements on this page. The page contains only typeset text.
+This page contains only text. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
 
-All text on the page is clear and legible.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-The full content of the page has been transcribed.
+This page is complete and has been fully transcribed.
 
 ## Visual Region Manifest
 
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typeset text with no images, illustrations, or other visual elements."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and a page number, with no images, illustrations, or other significant visual elements suitable for cropping."}
 ```
 
 ## Page Metadata
