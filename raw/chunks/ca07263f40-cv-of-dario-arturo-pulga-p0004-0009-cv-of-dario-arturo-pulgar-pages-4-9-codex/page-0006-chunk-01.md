@@ -1,24 +1,34 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-e6b0e6245b3c-P0003-01
+chunk_id: CHUNK-7dfacae4fd5b-P0006-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: e6b0e6245b3c2385a4fe4f312b267cfd7fb7db0ec42fd07c19337ee3d669bac3
+converted_sha256: 7dfacae4fd5b1ff85794e1eb8ae308efd75663ae19ca98b28598c126193fadb4
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
-page_start: 3
-page_end: 3
+page_start: 6
+page_end: 6
 part: 1
 ---
 
 ## Page Metadata
-- page_number: 6
-- page_type: CV
-- source_language: en
-- subject_name: Dario Arturo Pulgar
+- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0006`
+- Model route: `pro`
+- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
+- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0006.md`
+- Page: 6
+- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0006.md`
+- External research relevance: `high`
+- External requested treatment: `reread`
+- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
+- Recommended action: ``
+- Quality flags: none
+- Technical reread clues: none
 
 ## Layout And Reading Order
-The document is a single column of typed text. The reading order is from top to bottom. Each entry consists of a date range, an organization, a location, a job title, and a description of duties.
+The document is a single-column text page. The reading order is from top to bottom. The content is structured chronologically, with each entry marked by a date range, followed by the name of the organization, location, job title, and a description of the role.
 
 ## Literal Transcription
 on irrigation districts and transfer of irrigation infrastructure to water user associations.
@@ -34,6 +44,7 @@ institutional strengthening. Participate in the Funding, Personnel and Managemen
 Supervise the institutional strengthening of rural financial institutions.
 
 <u>1996</u>
+
 **SNC Lavalin Agriculture
 Maracaibo, Venezuela
 Consultant**
@@ -53,8 +64,8 @@ and production support components.
 **Instituto Interamericano de Cooperación para la Agricultura (IICA)
 Lima, Perú
 Chief Technical Advisor**
-Provide guidance for implementation of the "Promotion of Technology Transfer to the Peasant
-Communities in the Highland" project funded by IFAD including: a) development and
+Provide guidance for implementation of the “Promotion of Technology Transfer to the Peasant
+Communities in the Highland” project funded by IFAD including: a) development and
 implementation of new methodologies for technology transfer and extension, b) use of
 communications through community radio stations, Participate in project monitoring, evaluation
 and training.
@@ -73,18 +84,15 @@ Agricultural Extension and Communication Advisor**
 Establish a Development Support Communication Centre (DSC) in the city of Dikernis, Dakahlia
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other visual elements on this page.
+This page contains only text. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
-This page has been transcribed in its entirety.
+The entire content of the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other visual elements."
-}
+{"visual_regions": [], "no_visual_regions_reason": "This page consists entirely of typed text and contains no images, illustrations, or other visual elements suitable for cropping."}
 ```

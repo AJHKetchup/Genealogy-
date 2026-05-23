@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-d6a12b291d94-P0172-01
+chunk_id: CHUNK-fb0d63eb2b71-P0172-01
 source_converted: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md
-converted_sha256: d6a12b291d9443069e247b9f8fec1aac0c3a020cb9baac4dd47b6c42664f5967
+converted_sha256: fb0d63eb2b71b8614bb12835873728a85f1a364e1cbe48b3435fbb6c68cbfac9
 source: raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png
 source_sha256: 05d0627a58615e91315e1e9e2da567034b4f324eb0179240e0f4d5cf985e3545
 source_manifest: raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/manifest.json
@@ -14,60 +14,77 @@ part: 1
 ## Page Metadata
 
 - **Page number**: 172
-- **Document type**: Birth Register
-- **Year**: 1889
+- **Record type**: Birth Register (Rejistro de Nacimientos)
 - **Location**: Los Ángeles, La Laja, Chile
-- **Language**: Spanish
+- **Year**: 1889
+- **Certificate numbers**: 513, 514, 515 (partial)
 
 ## Layout And Reading Order
 
-The document is a pre-printed register page with handwritten entries for three birth records, numbered 513, 514, and 515. The page is organized as a table with rows for each record and columns for specific details. The reading order is from left to right, top to bottom, following the records in numerical order. A circular stamp and other official markings are present in the right margin.
+The page is a tabular register of births. The content is organized into a large table with eight columns, spanning the full width of the page. Three birth records are present, numbered 513, 514, and 515, with each record occupying one row. The entries are handwritten in cursive script. A circular stamp is present in the upper right corner. The corresponding entry numbers are also written in the right margin.
+
+The reading order is from top to bottom, left to right, following the table structure.
 
 ## Literal Transcription
 
-**Páj. 172**
+**Top of Page**
+
+Páj. 172
 
 1889.—Rejistro de NACIMIENTOS en la Circunscripcion de Los Anjeles, núm. 1º de La Laja.
 
+**Register Table**
+
 | N.º de la Inscripcion | Fecha de la Inscripcion | Nombre i sexo | Fecha i lugar del nacimiento | Nombre, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados | Nombre, etc., del compareciente | Comprobacion de la identidad del compareciente | Firma del oficial |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **513** | Julio veintidos de mil ochocientos ochenta i nueve | **Nombre.** Tulio Cesar Luis José<br><br>**Sexo** Masculino | **Fecha.** Junio veinte i dos de mil ochocientos ochenta i nueve, a las cuatro i veinte de la mañana<br><br>**Lugar.** Calle Colon | **Nombre del padre.** José del Carmen Pulgar<br>**Nac.** Chileno **Prof.** Agricultor<br>**Domicilio** Calle Colon<br><br>**Nombre de la madre.** Juana de Dios Amagada de Pulgar<br>**Nac.** Chilena **Prof.** Sus labores de casa<br>**Domicilio** Calle Colon | José del C. Pulgar<br>Padre<br>**Edad** Cuarenta i siete Años<br>**Prof.** Agricultor<br>**Dom.** Calle Colon | **Por los testigos:**<br>El compareciente es conocido del oficial.<br><br>**Conocido del oficial.** — | Emilio Lininger<br>O. del R. C. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| **514** | Julio veintidos de mil ochocientos ochenta i nueve | **Nombre.** Rigoberto Juan Bautista<br><br>**Sexo.** Masculino | **Fecha.** Junio veinte i tres de mil ochocientos ochenta i nueve, a las diez de la mañana<br><br>**Lugar.** Calle San Joaquin | **Nombre del padre.** Belisario Riquelme<br>**Nac.** **Prof.**<br>**Domicilio**<br><br>**Nombre de la madre.** Mercedes Riquelme<br>**Nac.** Chilena **Prof.** Costurera<br>**Domicilio** Calle San Joaquin | Mercedes Riquelme<br>Madre<br>Esposa de Juan Soler<br>**Edad** Veintiun Años<br>**Prof.** Costurera<br>**Dom.** Calle San Joaquin | **Por los testigos:**<br>Benjamin Utria<br>Ignacio Jara<br>El primer testigo no sabe firmar<br><br>**Conocido del oficial.** | Emilio Lininger<br>O. del R. C. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| **515** | Julio veintitres de mil ochocientos ochenta i nueve | **Nombre.** Rosa Elvira del Carmen<br><br>**Sexo.** Femenino | **Fecha.** Julio diez i seis de mil ochocientos ochenta i nueve, a las diez de la noche<br><br>**Lugar.** Calle San Joaquin | **Nombre del padre.** Pedro Pablo Leiva<br>**Nac.** Chileno **Prof.** Jornalero<br>**Domicilio** Calle San Joaquin<br><br>**Nombre de la madre.** Carmen Fuentes<br>**Nac.** Chilena **Prof.** Sus labores de casa<br>**Domicilio** Calle San Joaquin | Pedro Pablo Leiva<br>Padre<br>**Edad** Veintiocho Años<br>**Prof.** Jornalero<br>**Dom.** Calle San Joaquin | **Por los testigos:**<br>Jose D. Ramirez<br>Santiago Fuentes<br><br>**Conocido del oficial.** | Emilio Lininger<br>O. del R. C. |
+| **513** | Julio veintidos de mil ochocientos ochenta i nueve. | **Nombre.** Isidoro del Carmen José<br><br>**Sexo** Masculino | **Fecha.** veinte i dos de mil ochocientos ochenta i nueve, a las cuatro i veinte de la mañana.<br><br>**Lugar.** Calle Colon | **Nombre del padre.** José del Carmen Pulgar<br>**Nac** Chileno **Prof** Jornalero<br>**Domicilio** Calle Colon<br>**Nombre de la madre.** Juana de Dios Amador<br>**Nac** Chilena **Prof** Labandera<br>**Domicilio** Calle Colon | José del C. Pulgar<br>Padre<br>**Edad.** Cuarenta i siete Años<br>**Prof** Agricultor<br>**Dom** Calle Colon | **Por los testigos:**<br>---<br>---<br>El compareciente es<br><br>**Conocido del oficial.** — | Emilio Lininger<br>O. del R. C. |
+| **514** | Julio veintidos de mil ochocientos ochenta i nueve. | **Nombre.** Rigoberto Juan Bautista<br><br>**Sexo.** Masculino | **Fecha.** veinte i tres de mil ochocientos ochenta i nueve, a las diez de la mañana.<br><br>**Lugar.** Calle Panegue | **Nombre del padre.** Alejandro Riquelme<br>**Nac** [blank] **Prof** [blank]<br>**Domicilio** [blank]<br>**Nombre de la madre.** Mercedes Riquelme<br>**Nac** Chilena **Prof** Costurera<br>**Domicilio** Calle Panegue | Mercedes Riquelme<br>Madre<br>Esposa de Juan no se lee<br>**Edad.** Veintiun Años<br>**Prof** Costurera<br>**Dom** Calle Panegue | **Por los testigos:**<br>Benjamin Utrosa<br>Ignacio Jara<br>El compareciente no sabe firmar<br><br>**Conocido del oficial.** — | Emilio Lininger<br>O. del R. C. |
+| **515** | Julio veintitres de mil ochocientos ochenta i nueve. | **Nombre.** Rosa Elvira del Carmen | **Fecha.** veinte i seis de julio | **Nombre del padre.** Pedro Pablo Leiva<br>**Nac** Chileno **Prof** Jornalero | Pedro Pablo Leiva<br>Padre | **Por los testigos:**<br>José D. Ramirez<br>Santiago Fuentes | [illegible] |
 
----
 **Right Margin**
 
-| N.º de la Inscripcion |
-| :--- |
-| **513** |
-| **514** |
-| **515** |
-
-[Circular stamp: OFICINA DE LOS ANJELES CHILE with a coat of arms in the center]
-[Rectangular stamp: ANOTACIONES]
+```
+513
+514
+515
+```
 
 ## Images, Captions, And Visual Notes
 
-The page is a standard pre-printed civil registration form. The handwritten entries are in a consistent cursive script. In the right margin, next to each record, the corresponding record number is written. There is a circular official stamp for the "OFICINA DE LOS ANJELES CHILE" and a rectangular stamp for "ANOTACIONES".
-
-For record 514, the note "El primer testigo no sabe firmar" (The first witness does not know how to sign) is written, although there are two distinct signatures above it for "Benjamin Utria" and "Ignacio Jara".
+- **[Image 1]** A circular stamp in the upper right corner of the page. The text around the circumference reads "OFICINA DE LOS ANJELES" at the top and "CHILE" at the bottom. The center contains a national shield emblem.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible portions of the text.
+- **Entry 514, Compareciente column:** The text "Esposa de Juan no se lee" is difficult to read and may be inaccurate. It appears to be a note by the clerk.
+- **Entry 515, Firma del oficial column:** The signature of the official is partially cut off and illegible.
 
 ## Completeness Audit
 
-The entire page, including all three birth records (513, 514, 515) and marginalia, has been transcribed.
+The transcription of this page is complete. All visible text, including the header, table content for three records (one partial), marginalia, and stamps, has been transcribed.
 
 ## Visual Region Manifest
 
 ```json
 {
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains standard official stamps and handwritten signatures which are transcribed or described in the notes. There are no large, standalone visuals like portraits, maps, or illustrations that would warrant individual cropping."
+  "visual_regions": [
+    {
+      "region_id": "stamp-001",
+      "kind": "stamp",
+      "bbox_pct": [
+        87.2,
+        4.9,
+        95.2,
+        13.1
+      ],
+      "caption_literal": "OFICINA DE LOS ANJELES CHILE",
+      "caption_type": "converter-description",
+      "identity_basis": "from-source",
+      "source_context": "A circular official stamp from the civil registry office in Los Ángeles, Chile.",
+      "confidence": "high",
+      "suggested_filename": "stamp-oficina-de-los-anjeles-chile.png",
+      "inline_anchor": "[Image 1]"
+    }
+  ],
+  "no_visual_regions_reason": null
 }
 ```

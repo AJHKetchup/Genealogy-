@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-31a033af0d4e-P0008-01
+chunk_id: CHUNK-a1c3e3a464fd-P0008-01
 source_converted: raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md
-converted_sha256: 31a033af0d4ef5d4bd8e25ef40b9b871d392b83effa12f824ff35393d85bf653
+converted_sha256: a1c3e3a464fde31cefc1ecc62185f7880da3d108a4b277d2eaec2132c6ebead0
 source: raw/sources/Habitat Revisited, Jim Carney, 2006.pdf
 source_sha256: fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9
 source_manifest: raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json
@@ -12,15 +12,21 @@ part: 1
 ---
 
 ## Page Metadata
-- Page number: 8
+
+- **Page number**: 8
+- **Document title**: Habitat Revisited
+- **Author**: Jim Carney
+- **Publication year**: 2006
 
 ## Layout And Reading Order
-This page contains a single column of text. The page number '8' is at the top right. The main text body follows, with a heading "THE UNITED NATIONS CENTRE FOR HUMAN SETTLEMENTS" appearing before the final paragraph.
+
+The page contains a single column of text. The page number "8" is located in the top right corner. The reading order is from top to bottom.
 
 ## Literal Transcription
+
 8
 
-Dario was one of the most intellectually and physically robust people I've ever
+Dario was one of the most intellectually and physically robust people I’ve ever
 met, with a cast eye and a laugh right from his gut. In my office, with his ferocious
 intelligence and apparent ability, despite the off-centre eye, to absorb a docu-
 ment at a glance, I often suspected he was reading the mail in my in-basket, up-
@@ -30,8 +36,8 @@ learned French in Montreal in six weeks, he said.
 Over the next three years, our small group at UBC, perhaps six people in all, worked
 at setting up a non-commercial global distribution system for the Habitat films. One
 of our first tasks was to find, identify, catalogue and store the thousands of different
-AV elements in Vancouver. During the Conference I had calculated that there
-had to be approximately ten thousand separate bits and pieces in various places.
+AV elements in Vancouver. During the Conference I had calculated that there had
+to be approximately ten thousand separate bits and pieces in various places.
 A young Vancouverite, Nigel Hollick, with no previous experience in film or video,
 handled this brilliantly. Nigel was not your typical young Kitsilano hippy, much less
 yuppy. He had been born on a sailboat in Majorca, Spain, of peripatetic and pos-
@@ -51,7 +57,7 @@ Eleazar, who went on to an impressive UN career and to whom I owe much.
 Within a surprisingly short time, we had established Vision Habitat regional offices
 in Amman, Bangkok, Budapest, Dakar (briefly), Geneva, Mexico City, Nairobi and
 Vancouver. Vancouver remained VH headquarters. Many of our regional anima-
-tors were "naturals" to staff the offices; Ali Shabou in Amman, Asthana In Bangkok,
+tors were “naturals” to staff the offices; Ali Shabou in Amman, Asthana In Bangkok,
 Madame Magdalena Medvesky in Budapest, Madame Odette Constantin in Ge-
 neva, Edmundo Palacios in Mexico City, and Ed Moyo in Nairobi. Each office had
 to be supplied with films and video tapes in languages appropriate to the region.
@@ -60,28 +66,32 @@ veloping countries and technical standards varied by region (as between NTSC,
 PAL, and SECAM) and were mutually incompatible. 16mm film remained the only
 truly global AV medium, and it had to be physically shipped everywhere.
 
-THE UNITED NATIONS CENTRE FOR HUMAN SETTLEMENTS
+**THE UNITED NATIONS CENTRE FOR HUMAN SETTLEMENTS**
 
-In the autumn of 1979, the General Assembly created the "United Nations Centre
-for Human Settlements" as a full-fledged UN agency, to be headquartered in Nai-
+In the autumn of 1979, the General Assembly created the “United Nations Centre
+for Human Settlements” as a full-fledged UN agency, to be headquartered in Nai-
 robi, Kenya. It was conceived as a sister agency to the United Nations Environment
 Programme (UNEP), established following the 1972 Conference on the Human En-
 vironment in Stockholm. UNEP (then the only UN headquarters located in a devel-
 oping country) was located at Gigiri, just outside Nairobi. UNCHS initially occupied
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other visual elements on this page.
+
+There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
+
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page is complete. All text has been transcribed.
+
+The transcription of this page is complete and accurate.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text and a page number."
+  "no_visual_regions_reason": "This page consists entirely of text and contains no images, illustrations, or other significant visual elements."
 }
 ```
