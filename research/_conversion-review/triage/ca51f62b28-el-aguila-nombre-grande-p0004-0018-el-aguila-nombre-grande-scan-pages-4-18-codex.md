@@ -17,7 +17,7 @@
 | 10 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
-| 13 | critical | low | reread-page | none | Dario |
+| 13 | high | high | pass | none | Dario, Dario Pulgar, Pulgar |
 | 14 | critical | low | reread-page | none | Dario, Dario Pulgar, Pulgar |
 | 15 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
