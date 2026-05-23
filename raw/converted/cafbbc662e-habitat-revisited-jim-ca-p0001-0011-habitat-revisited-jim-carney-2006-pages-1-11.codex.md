@@ -438,89 +438,42 @@ All visible text on the page has been transcribed.
 ```
 
 ## Page Metadata
-
-*   **Page number**: 7
-*   **Source-assigned page number**: 7
-*   **Document title**: Habitat Revisited
-*   **Author**: Jim Carney
-*   **Publication year**: 2006
-*   **Source type**: Book
-*   **Confidence**: 5/5
+- Page number: 7
 
 ## Layout And Reading Order
-
-The page consists of a single column of text. The page number "7" is located at the top right corner. The content flows linearly from top to bottom. A section heading, "VISION HABITAT", is present about halfway down the page.
+This page consists of a single column of text. The page number "7" is located at the top right corner. The main body of text is divided into several paragraphs. A section heading, "VISION HABITAT", is centered approximately halfway down the page, separating the preceding paragraphs from the ones that follow. The reading order is linear from top to bottom.
 
 ## Literal Transcription
-
 7
 
-The senior Conference officials had a hard time with this. In their view, they had
-organized the Conference, invited the governments, put up much of the money,
-paid the bills; in other words they and/or the UN “owned” the films and could do
-whatever the hell they liked with them.
+The senior Conference officials had a hard time with this. In their view, they had organized the Conference, invited the governments, put up much of the money, paid the bills; in other words they and/or the UN “owned” the films and could do whatever the hell they liked with them.
 
-One memorable scene: I am standing in the men’s washroom of the Queen Eliza-
-beth Theatre during a break in one of the final Plenary sessions. Barney Danson, a
-well-known Canadian federal Liberal, cabinet minister and co-Chair of the Con-
-ference and Jim McNeil, a former senior bureaucrat in NDP (New Democratic
-Party) Saskatchewan and Secretary-General of the Canadian Host Secretariat,
-have their backs to me while they do what men do in washrooms. I am explaining
-to them some of the factors described above. I am in fact remonstrating with
-these two distinguished gentlemen: They can’t simply pass a resolution and expect
-it to happen. Whirling around while zipping up his fly, Jim McNeil glared at me and
-said, “You’re telling me producers tell governments what to do. Wrong. Govern-
-ments tell producers what to do !” NDP to the core, ole Jim !
+One memorable scene: I am standing in the men’s washroom of the Queen Eliza- beth Theatre during a break in one of the final Plenary sessions. Barney Danson, a well-known Canadian federal Liberal, cabinet minister and co-Chair of the Con- ference and Jim McNeil, a former senior bureaucrat in NDP (New Democratic Party) Saskatchewan and Secretary-General of the Canadian Host Secretariat, have their backs to me while they do what men do in washrooms. I am explaining to them some of the factors described above. I am in fact remonstrating with these two distinguished gentlemen: They can’t simply pass a resolution and expect it to happen. Whirling around while zipping up his fly, Jim McNeil glared at me and said, “You’re telling me producers tell governments what to do. Wrong. Govern- ments tell producers what to do !” NDP to the core, ole Jim !
 
-Copyright and distribution rights aside, there were also huge technical challenges.
-The “printing elements” required to produce a film print - what is eventually pro-
-jected or seen - are many and varied: A-B rolls, internegatives, check prints, sound
-tracks (sound effects, narration, music, location sound) and more, would all have
-to be acquired to make the hundreds of additional prints in the five languages to
-stock regional film libraries around the world. Although much of this material was
-in New York, a good deal was in Vancouver and more overseas. Slide presenta-
-tions had to be transferred to film; language-versioned 16 mm film prints had to be
-produced.
+Copyright and distribution rights aside, there were also huge technical challenges. The “printing elements” required to produce a film print - what is eventually pro- jected or seen - are many and varied: A-B rolls, internegatives, check prints, sound tracks (sound effects, narration, music, location sound) and more, would all have to be acquired to make the hundreds of additional prints in the five languages to stock regional film libraries around the world. Although much of this material was in New York, a good deal was in Vancouver and more overseas. Slide presenta- tions had to be transferred to film; language-versioned 16 mm film prints had to be produced.
 
-VISION HABITAT
+**VISION HABITAT**
 
-In September, 1976, the UN General Assembly ordered the “maximum world-wide
-utilization of the Habitat films”. This was “Transfer of Technology” at its best. With
-initial funding from the federal and provincial governments and the forceful ad-
-vocacy of Dr. Peter Oberlander of UBC, “The United Nations Audio Visual Centre
-for Human Settlements” (more sensibly soon known as “Vision Habitat”) was estab-
-lished at the University of British Columbia. The fourth floor of the just completed
-Library Processing Centre, near the Wesbrook Building, would be our home.
+In September, 1976, the UN General Assembly ordered the “maximum world-wide utilization of the Habitat films”. This was “Transfer of Technology” at its best. With initial funding from the federal and provincial governments and the forceful ad- vocacy of Dr. Peter Oberlander of UBC, “The United Nations Audio Visual Centre for Human Settlements” (more sensibly soon known as “Vision Habitat”) was estab- lished at the University of British Columbia. The fourth floor of the just completed Library Processing Centre, near the Wesbrook Building, would be our home.
 
-The UN was insistent that the UNAVCHS be seen as a United Nations operation, not
-a creature of the University. A just-retired Director of Radio-Television Services for
-the UN Department of Public Information in New York, Michael Heyward, was des-
-ignated Director of Vision Habitat and I became, in effect, the Deputy Director.
+The UN was insistent that the UNAVCHS be seen as a United Nations operation, not a creature of the University. A just-retired Director of Radio-Television Services for the UN Department of Public Information in New York, Michael Heyward, was des- ignated Director of Vision Habitat and I became, in effect, the Deputy Director.
 
-A couple of my UN Habitat Secretariat confreres stayed on, notably Dario Pulgar,
-a raspy-voiced, incredibly energetic, dynamic Chilean. In Chile under Allende,
-though still in his twenties, Dario had been the number two man in Chile’s state film
-distribution system. He had fetched up at “The Board” after fleeing Pinochet’s
-overthrow of the Allende government in 1973.
+A couple of my UN Habitat Secretariat confreres stayed on, notably Dario Pulgar, a raspy-voiced, incredibly energetic, dynamic Chilean. In Chile under Allende, though still in his twenties, Dario had been the number two man in Chile’s state film distribution system. He had fetched up at “The Board” after fleeing Pinochet’s overthrow of the Allende government in 1973.
 
 ## Images, Captions, And Visual Notes
-
 There are no images, illustrations, or other visual elements on this page. The content is entirely text.
 
 ## Uncertain Or Illegible
-
-There are no uncertain or illegible words on this page. The text is clear and fully readable.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
 This page has been fully transcribed. All textual content, including the page number and section heading, has been captured.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text and does not have any images, illustrations, or other significant visual elements."
+  "no_visual_regions_reason": "The page contains only text and no images, illustrations, or other visual elements suitable for cropping."
 }
 ```
 
@@ -668,16 +621,12 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
 ## Page Metadata
-
-- **Page number**: 10
-- **Source file**: `raw/sources/Habitat Revisited, Jim Carney, 2006.pdf`
+- Page: 10
 
 ## Layout And Reading Order
-
-The page consists of a single column of text. A page number, "10", is located at the top right corner. The reading order is from top to bottom.
+This page contains a single column of text. The page number "10" is located at the top right corner. The reading order is from top to bottom.
 
 ## Literal Transcription
-
 10
 
 By early 1980, with UNCHS more or less operational in Nairobi, Andreas Fuglesang
@@ -705,7 +654,7 @@ wanted the job on a more permanent basis. I remained in the post until April, 19
 when I returned to my hometown, Vancouver, as Commissioner General of the UN
 pavilion at Expo ‘86. And that’s another story !!
 
-**IN THE END – WHY ?**
+IN THE END – WHY ?
 
 I spent a total of thirteen years on the Habitat programme. I was and still am fre-
 quently asked “What is the value of these global UN conferences ?”, “Do they
@@ -716,7 +665,6 @@ develop and compare solutions to overarching global problems. Responsible min-
 isters gain clout at the cabinet table; issues they represent rise higher on govern-
 ment agendas. Such conferences help establish norms, advancing the goal posts
 of what is considered acceptable behaviour.
-
 The degree to which improvement actually occurs is dependent on the will, prior-
 ities and resources of individual governments – including donor states - who simul-
 taneously must confront and deal with other huge problems.
@@ -730,23 +678,19 @@ form of documents, audio, video tape and film and had to be physically flown
 and shipped across continents and oceans.
 
 ## Images, Captions, And Visual Notes
-
-There are no images, captions, or other visual elements on this page. The page contains only typeset text.
+There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
-
-All text on the page is clear and legible.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-The full content of the page has been transcribed.
+This page is complete. All text has been transcribed.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typeset text with no images, illustrations, or other visual elements."
+  "no_visual_regions_reason": "This page contains only text and a page number."
 }
 ```
 

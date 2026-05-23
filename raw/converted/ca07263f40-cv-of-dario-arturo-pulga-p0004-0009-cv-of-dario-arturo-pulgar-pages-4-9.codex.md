@@ -9,23 +9,11 @@
 - Extracted images: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/extracted-images`
 
 ## Page Metadata
-- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004`
-- Model route: `pro`
-- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
-- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0004.md`
-- Page: 4
-- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0004.md`
-- External research relevance: `high`
-- External requested treatment: `reread`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
-- Quality flags: explicit_reread_needed
-- Technical reread clues: none
+- Page number: 4
+- Source file: `raw/sources/CV of Dario Arturo Pulgar.pdf`
 
 ## Layout And Reading Order
-The document is a single-column text page. The reading order is from top to bottom. The page continues a description from the previous page, followed by two bulleted lists and then two distinct job entries, each with a date, organization, location, title, and description.
+This page is a single column of text. The content is a continuation of a curriculum vitae. The reading order is from top to bottom. The page includes bulleted lists and sections organized by date, with bolded headings for job titles, organizations, and locations.
 
 ## Literal Transcription
 approaches in four different Indian Sates and, (iv) review the communications strategy for
@@ -33,31 +21,31 @@ the Productive Projects component of the Millennium Challenge Account programme 
 northern region of El Salvador while making recommendations for improvements and new
 strategic directions.
 
-- **Social impact analysis and consultation processes** including: (i) preparation of a
-  social impact analysis of extractive industry projects in Peru making recommendations for
-  the drafting of the relevant sections to be included in an Environmental Impact Assessment
-  (EIA) as required by Peruvian legislation, (ii) conduct an institutional assessment of the
-  Ministry of Natural Resources and Environment of Honduras and make recommendations to
-  improve the Ministry's consultation process and citizen involvement and granting of permits
-  for the construction and operation of hydroelectric power generation plants.
+*   **Social impact analysis and consultation processes** including: (i) preparation of a
+    social impact analysis of extractive industry projects in Peru making recommendations for
+    the drafting of the relevant sections to be included in an Environmental Impact Assessment
+    (EIA) as required by Peruvian legislation, (ii) conduct an institutional assessment of the
+    Ministry of Natural Resources and Environment of Honduras and make recommendations to
+    improve the Ministry's consultation process and citizen involvement and granting of permits
+    for the construction and operation of hydroelectric power generation plants.
 
-- **Monitoring and evaluation** including: (i) guiding implementation of an Inter-American
-  Development Bank (IDB) project in Nicaragua to assess the country's Rural Poverty
-  Reduction Strategy and supervise the preparation of documentation materials including
-  audio visual presentation of the work carried out in eleven municipalities with the
-  participation of five Government agencies, (ii) aassessing the impact of the management of
-  Natural Resources Program Initiative of IDRC in Latin America with specific reference to
-  coastal management of natural resources in the Caribbean and watershed management in
-  the Northern provinces of Ecuador including an analysis of local capacities to implement
-  natural resource management improvement practices, (iii) undertake an institutional
-  assessment of the University of Pretoria's Public Health school as part of an overall
-  evaluation of the International Development Research Centre (IDRC's), HELP course
-  including interviews with students, academics and government authorities (iv) assess the
-  impact of the management of Natural Resources Program Initiative of IDRC in Latin America
-  (Mexico. Nicaragua and Ecuador) with specific reference to coastal management of natural
-  resources in the Caribbean and watershed management in the Northern provinces of
-  Ecuador including an analysis of local capacities to implement natural resource
-  management improvement practices.
+*   **Monitoring and evaluation** including: (i) guiding implementation of an Inter-American
+    Development Bank (IDB) project in Nicaragua to assess the country's Rural Poverty
+    Reduction Strategy and supervise the preparation of documentation materials including
+    audio visual presentation of the work carried out in eleven municipalities with the
+    participation of five Government agencies, (ii) aassessing the impact of the management of
+    Natural Resources Program Initiative of IDRC in Latin America with specific reference to
+    coastal management of natural resources in the Caribbean and watershed management in
+    the Northern provinces of Ecuador including an analysis of local capacities to implement
+    natural resource management improvement practices, (iii) undertake an institutional
+    assessment of the University of Pretoria's Public Health school as part of an overall
+    evaluation of the International Development Research Centre (IDRC's), HELP course
+    including interviews with students, academics and government authorities (iv) assess the
+    impact of the management of Natural Resources Program Initiative of IDRC in Latin America
+    (Mexico. Nicaragua and Ecuador) with specific reference to coastal management of natural
+    resources in the Caribbean and watershed management in the Northern provinces of
+    Ecuador including an analysis of local capacities to implement natural resource
+    management improvement practices.
 
 **2000**
 **International Bank for Reconstruction and Development (IBRD)**
@@ -81,42 +69,31 @@ of communities during blasts that could affect them for safety reasons. Represen
 in dealings with local authorities and community organisations.
 
 ## Images, Captions, And Visual Notes
-This page contains only text. There are no images, illustrations, or other visual elements.
+This page is text-only and contains no images, captions, or other visual elements.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible parts of this document.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-The transcription is a complete and accurate representation of all the text on the page.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of text and contains no images, illustrations, or other visual elements suitable for cropping."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page is text-only and contains no meaningful visual regions to crop."
+}
 ```
 
 ## Page Metadata
-
-- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005`
-- Model route: `pro`
-- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
-- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0005.md`
-- Page: 5
-- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0005.md`
-- External research relevance: `high`
-- External requested treatment: `reread`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
-- Quality flags: none
-- Technical reread clues: none
+- **Task id**: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005`
+- **Source**: `raw/sources/CV of Dario Arturo Pulgar.pdf`
+- **Page**: 5
 
 ## Layout And Reading Order
-
-The page consists of a single column of text. The content is a continuation of a curriculum vitae, with entries organized in reverse chronological order. Each entry is a distinct block of text, read from top to bottom.
+The page is a single column of text. It continues a curriculum vitae, listing professional experiences. Each entry is organized with a date or date range, followed by the name of the organization, the location, the role held, and a paragraph describing the work performed. The entries are presented in reverse chronological order, from top to bottom.
 
 ## Literal Transcription
-
 **1999**
 
 **National Trust Fund for Protected Areas in Peru (PROFONANPE)**
@@ -154,6 +131,7 @@ contract between the European Commission, Arca Consulting and the Lesotho Highla
 Development Authority.
 
 **1997-1998**
+
 **Klohn Crippen Consultants**
 **Huaraz, Peru**
 **Socio-economic Consultant**
@@ -168,37 +146,32 @@ Review implementation of a proposed training programme for the Development of th
 Maracaibo Plain Project. Co-ordinate with the World Bank and Canadian agencies a study tour
 
 ## Images, Captions, And Visual Notes
-
-This page contains no images, captions, or other visual elements.
+This page contains only text. There are no images, illustrations, stamps, or other visual elements.
 
 ## Uncertain Or Illegible
-
-There are no uncertain or illegible words on this page.
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
-
-This page is complete and fully transcribed.
+The transcription is a complete and accurate representation of all the text on the page. The last line of the page appears to be cut off mid-sentence.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page consists entirely of typed text and has no images, illustrations, or other visual elements."
+  "no_visual_regions_reason": "The page consists entirely of typed text and contains no images, illustrations, or other significant visual elements."
 }
 ```
 
 ## Page Metadata
-
-- **Page number**: 6
-- **Document type**: Curriculum Vitae
+- page_number: 6
+- page_type: CV
+- source_language: en
+- subject_name: Dario Arturo Pulgar
 
 ## Layout And Reading Order
-
-The page is a single column of text. The content is organized chronologically by employment period, with each entry detailing the employer, location, job title, and a description of responsibilities. The reading order is from top to bottom.
+The document is a single column of typed text. The reading order is from top to bottom. Each entry consists of a date range, an organization, a location, a job title, and a description of duties.
 
 ## Literal Transcription
-
 on irrigation districts and transfer of irrigation infrastructure to water user associations.
 
 <u>1996 - 1997</u>
@@ -251,23 +224,19 @@ Agricultural Extension and Communication Advisor**
 Establish a Development Support Communication Centre (DSC) in the city of Dikernis, Dakahlia
 
 ## Images, Captions, And Visual Notes
-
-There are no images, illustrations, or other visual elements on this page.
+There are no images, captions, or other visual elements on this page.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-This page has been fully and accurately transcribed.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page consists entirely of typed text and contains no images, illustrations, or other visual elements."
+  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other visual elements."
 }
 ```
 
@@ -351,13 +320,23 @@ The entire content of the page has been transcribed.
 ```
 
 ## Page Metadata
-## Layout And Reading Order
+- task_id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0008`
+- page_num: 8
+- source_id: `ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9`
+- source_type: `pdf`
+- source_title: `CV of Dario Arturo Pulgar`
+- source_page_num: 8
+- source_author: 
+- source_date: 
+- source_lang: `en`
+- source_format: `cv`
 
-The page contains a single column of text. The content is a curriculum vitae, with sections for different professional experiences organized chronologically in reverse order. Each experience entry includes a date range, the name of the organization, the location, and the job title, followed by a descriptive paragraph. The final entry on the page is the heading "EDUCATION". The reading order is from top to bottom.
+## Layout And Reading Order
+The page is a single column of text, read from top to bottom. It is a continuation of a curriculum vitae, detailing professional experience in chronological order (from most recent to oldest). Each entry includes a date range, employer, location, job title, and a descriptive paragraph. The final line on the page is a new section heading.
 
 ## Literal Transcription
-
-<u>1979 - 1982</u>
+**1979 - 1982**
+---
 **United Nations Centre for Human Settlements (HABITAT)
 Nairobi, Kenya
 Development Support Communications Officer**
@@ -372,7 +351,8 @@ communication. Carry out pre-feasibility missions in Africa including Uganda, Ta
 Mali and Senegal. Design information and/or training projects using audio-visual means in
 support of rural/urban settlers.
 
-<u>1974 - 1978</u>
+**1974 - 1978**
+---
 **National Film Board of Canada (NFB)
 Montreal, Canada
 Audio Visual Consultant**
@@ -388,7 +368,8 @@ the production of six documentary films and iii) participate as production assis
 of two documentaries: "Waiting for Fidel" and "I Am an Old Tree" and translating the Spanish
 dialogue into English.
 
-<u>1972 - 1973</u>
+**1972 - 1973**
+---
 **Chile Films
 Santiago, Chile
 General Manager Distribution and Exhibition, Head of International Department**
@@ -398,7 +379,8 @@ Latin American Film Festival, Viña del Mar. Organise a 16mm distribution networ
 cinema units. Establish and maintain contacts with international film organisations. Review films
 for possible purchase. Organise film festivals and retrospective.
 
-<u>1970 - 1972</u>
+**1970 - 1972**
+---
 **Cine, Televisión y Comunicaciones (CITELCO)
 Santiago, Chile
 Producer**
@@ -406,47 +388,32 @@ Direct company operations and produce feature theatrical films and documentaries
 co-production of documentaries with Italy. Feature films produced include: "La Colonia Penal"",
 "La Expropiación" and "El Realismo Socialista" directed by Raúl Ruiz.
 
-**EDUCATION**
+EDUCATION
 
 ## Images, Captions, And Visual Notes
-
-There are no images, captions, or other visual elements on this page. The content is entirely text.
+There are no images, captions, or other visual elements on this page.
 
 ## Uncertain Or Illegible
-
-The text on this page is clear and fully legible.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-The full content of the page has been transcribed.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page consists entirely of typed text and contains no images, illustrations, or other visual elements suitable for cropping."
+  "no_visual_regions_reason": "This page contains only typed text and no images, illustrations, or other visual elements suitable for cropping."
 }
 ```
 
 ## Page Metadata
-- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0009`
-- Model route: `pro`
-- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
-- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0009.md`
-- Page: 9
-- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0009.md`
-- External research relevance: `high`
-- External requested treatment: `reread`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
-- Quality flags: none
-- Technical reread clues: none
+- page_number: 9
+- page_type: cv
+- source_language: en, es
 
 ## Layout And Reading Order
-The page consists of a single column of typed text. The content is divided into two sections. The first section continues the educational history from a previous page, formatted as a list with date ranges on the left and institutional details on the right. The second section is titled "LANGUAGES" and lists spoken and written languages in a two-column format. The reading order is top to bottom.
+The page is a single column of typed text. It continues a list of educational history, with date ranges on the left and institutional details on the right. This is followed by a section titled "LANGUAGES" which lists spoken and written languages. The reading order is from top to bottom.
 
 ## Literal Transcription
 ```text
@@ -470,18 +437,18 @@ Written:      Spanish, English, French
 ```
 
 ## Images, Captions, And Visual Notes
-This page contains only typed text. There are no images, illustrations, or other visual elements.
+There are no images, captions, or other visual elements on this page.
 
 ## Uncertain Or Illegible
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-The transcription of this page is complete and accurate.
+This page is complete and fully transcribed.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other significant visual elements."
+  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other visual elements."
 }
 ```

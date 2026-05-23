@@ -9,98 +9,92 @@
 - Extracted images: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images`
 
 ## Page Metadata
-- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0004`
-- Model route: `pro`
-- Route reasons: research_relevance:high, suspicious_readings, requested_reread
-- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/work-orders/page-0004.md`
-- Page: 4
-- Output Markdown target: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0004.md`
-- External research relevance: `high`
-- External requested treatment: `reread`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: `reread-page`
-- Quality flags: explicit_reread_needed
-- Technical reread clues: ARRIGADA -> Arriagada
+```json
+{
+  "task_id": "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0004",
+  "model_route": "pro",
+  "route_reasons": "research_relevance:high, requested_reread",
+  "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
+  "job_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
+  "work_order": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/work-orders/page-0004.md",
+  "page": 4,
+  "output_markdown_target": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0004.md",
+  "external_research_relevance": "high",
+  "external_requested_treatment": "reread",
+  "external_relevance_reasons": "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
+  "recommended_action": "",
+  "quality_flags": [
+    "explicit_reread_needed"
+  ],
+  "technical_reread_clues": []
+}
+```
 
 ## Layout And Reading Order
-The page consists of a single column of typed text. The reading order is from top to bottom.
-
-1.  `region_0`: Header text at the top of the page.
-2.  `region_1`: Handwritten number in the top left corner.
-3.  `region_2`: Main body of text, containing social notes under the headings "NOTAS", "ALMUERSO", and "MATRIMONIO.".
-4.  `region_3`: Handwritten page number at the bottom center.
+The page consists of a single column of typewritten text. The reading order is from top to bottom. The document has a main header, a handwritten number, and a section title "NOTAS". This section is divided into two subsections, "ALMUERSO" and "MATRIMONIO", each followed by descriptive paragraphs. A handwritten page number is at the bottom center.
 
 ## Literal Transcription
-```markdown
-[region_0]
 NUMERO GIGANTE ENERO - FEBRERO
 
-[region_1]
 666
-***
+---
 
-[region_2]
 NOTAS
-***
+
 ALMUERSO
-***
-EL 1.o DE FEBRERO DEL PRESENTE AÑO EN EL FUNDO LOS CUARTOS SE LLEVÓ A
+---
+
+EL 1o.DE FEBRERO DEL PRESENTE AÑO EN EL FUNDO LOS CUARTOS SE LLEVÓ A
 EFECTO UN ALMUERSO AL CUAL CONCURRIERON EL DISTINGUIDO FACULTATIVO
 DE CONCEPCION Y DECANO DE LA FACULTAD DE MEDICINA DE LA UNIVERSIDAD
 DE CONCEPCION DR IVAR HERMANSEN ACOMPAÑADO DE SU ESPOSA SRA ANNIE
 PAVON DE HERMANSEN Y DE SUS HIJOS ENRIQUE Y MARIA TERESA HERMANSEN.
 TANBIEN PUDIMOS APRECIAR LA PRESENCIA DEL EX INTENDENTE DE BIO-BIO
-DR RENÉ PETERSEN Y SU ESPOSA. DESPUES DE UN ESPLENDIDO ALMUERSO EL
+DR RENE PETERSEN Y SU ESPOSA. DESPUES DE UN ESPLENDIDO ALMUERSO EL
 DOCTOR HERMANSEN DURANTE LA TARDE SE DEDICÓ A LA PESCA DE SALMON EN
-EL RIO BIO-BIO PERO LA MALA SUERTE LE ENREDÓ LA LIENSA DE NYLON DEL
+EL RIO BIO-BIO PERO LA MALA SUERTE LE ENREDÓ LA LIENSA DE NMLON DEL
 CARRETE.
 
-EL DOCTOR PETERSEN DEBIÓ MARCHARSE A LOS ANGELES A CUMPLIR ALGUNOS C
-COMPROMISOS MARCHÁNDOSE ANTES DE ONCE. EN CAMBIO EL DOCTOR HERMANSEN
+EL DOUTOR PETERSEN DEBIÓ MARCHARSE A LOS ANGELES A CUNPLIR ALGUNOS C
+COMPROMISOS MARCHÁNDOSE ANTES DE ONVE. EN CANBIO EL DOCTOR HERMANSEN
 SE QUEDÓ A LA ONCE MARCHÁNDOSE APROXIMADAMENTE A LAS 8 DE LA TARDE '
 AL FUNDO DEL DOCTOR PETERSEN DONDE SE HOSPEDABA PARA MARCHARSE DOS
 DIS DESPUES A CONDCEPCION A CUMPLIR SUS OBLIGACIONES
 
 MATRIMONIO.
-***
+---
+
 EL SABADO 14 DE ENERO PASADO SE LLEVO AFECTO, PRIVADAMENTE EN LA CASA DE
 LA NOVIA EL MATRIMONIO DE LA SEÑORITA LUCIA ARRIGADA CON EL SEÑOR
 LEOPOLDO PASCUAL BAILAC. NOTAMOSLEAL PRESENCIA DE DOS ANTIGUOS CABALLER
-DON JOSE MARIXA Y DON CARLOS DE LA JARA.TANBIE AL PRESIDENTE DE LA CORTE
+DON JOSE MARIYA Y DON CARLOS DE LA JARA.TANBIE AL PRESIDENTE DE LA CORTE
 DE APELACIONES DON LUCAS SANHUEZA Y EL MINISTRO DE LA CORTE SEÑOR
 ESPEJO TANBIEN AL INGENIERO DE PROVIN CIA SR PIMENTEL
 
-[region_3]
 4
-```
 
 ## Images, Captions, And Visual Notes
-The document is a typed page on aged, yellowish paper.
+The page is entirely text, typewritten on aged paper. There are no images, photographs, or illustrations.
 
-- A number, `666`, is handwritten in the top left corner.
-- Several words have handwritten accent marks added: `LLEVÓ`, `RENÉ`, `DEDICÓ`, `ENREDÓ`, `DEBIÓ`, `MARCHÁNDOSE` (twice), `QUEDÓ`.
-- The page number, `4`, is handwritten in red ink at the bottom center of the page.
+- A handwritten number `666` appears near the top left.
+- Three horizontal lines, likely typed, are used as separators.
+- The name `MARIYA` has a handwritten `I` written over the typed `Y`.
+- The word `PROVINCIA` appears to be typed as `PROVIN CIA` with a space in the middle.
+- A handwritten page number `4` is at the bottom of the page in red ink.
 
 ## Uncertain Or Illegible
-- `MARIXA`: This appears to be a typo for "MARIA". The character between "I" and "A" is an "X".
-- `NOTAMOSLEAL`: This is typed as a single word. It may be a typo for "NOTAMOS LA".
-- `TANBIEN`: This word appears twice, spelled `TANBIE`. This is likely a typo for "TAMBIEN".
-- `ALGUNOS C COMPROMISOS`: There is a stray letter "C" between "ALGUNOS" and "COMPROMISOS".
-- `TARDE '`: There is a stray apostrophe after the word "TARDE".
-- `DIS`: This is likely a typo for "DIAS".
-- `CONDCEPCION`: This is likely a typo for "CONCEPCION".
-- `PROVIN CIA`: This is typed with a space in the middle. It likely refers to "PROVINCIA".
+- `NOTAMOSLEAL`: This appears to be a single word, likely a typo for "NOTAMOS LA".
+- `MARIYA`: Transcribed as it appears, with a handwritten `I` over the `Y`.
+- `PROVIN CIA`: Transcribed as it appears, with a space. This is likely a typo for `PROVINCIA`.
 
 ## Completeness Audit
-The transcription of this page is complete and includes all visible text and handwritten marks.
+The transcription of this page is complete and accurate, capturing all typewritten and handwritten text, including original spelling, capitalization, and apparent typographical errors.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed and handwritten text. There are no photographs, illustrations, or other significant visual elements that would warrant cropping."
+  "no_visual_regions_reason": "The page contains only typewritten text and minor handwritten marks (page number, a three-digit number, and a single character correction). There are no photographs, illustrations, maps, or other significant visual elements that would warrant cropping."
 }
 ```
 
@@ -590,109 +584,74 @@ The page contains a single image and a handwritten page number. All visible cont
 ```
 
 ## Page Metadata
-- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0011`
-- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
-- Page: 11
+- Source: `El Aguila Nombre Grande Scan.pdf`
+- Page: `11`
 
 ## Layout And Reading Order
-The document is a single-column typed page. The reading order is as follows:
-1. A header at the top of the page reads: `ERO GIGANTE ENERO FEBRERO EL AGUILA`.
-2. A horizontal line separates the header from the main text.
-3. The main body of text consists of three sections, each with a capitalized and underlined heading:
-    - `CONYINUACIO N DE ACTIVIDADES,`
-    - `LA ELECRISAD EN LOS CANPOS.`
-    - `LA LECHE Y LA CHIPRODAL`
-4. At the bottom left, there is a handwritten note in red ink: `Sigue Pag 12`.
-5. At the bottom right, the page number `11` is typed in red.
+The page contains a single column of text, with a header at the top and a handwritten note at the bottom. The text describes activities related to electricity and milk processing.
 
 ## Literal Transcription
-```text
 ERO GIGANTE ENERO FEBRERO EL AGUILA
----
+___
 CONYINUACIO N DE ACTIVIDADES,
-
-Y MARCO´ CON UN ESTACADO. POCOS DIAS DESPUES JEFES DE LA ENDESA
+Y MARCO CON UN ESTACADO. POCOS DIAS DESPUES JEFES DE LA ENDESA
 REVISARON EL ESTACADO DANDO SU VISTO BUENO DESPUES DE LO CUAL
-EL CONTRATISTA ORDENO´ TIRAR LOS POSTES Y UN PESADO CAMION DE LA
-ENDESA PROSEDIÓ A DEJAR LOS POSTES CERCA, O AL LADO DE LOSHPTOS
-QUE ANTERIORMENTE HABIA HECHO UNA CUADRUILKA DE HOMBRES. LUEGO DESPUES
-COMO NOS INFORMO´ UN PERSONERO DE LA ENPRESA UN TRACTOR CON UN CAMARON
-LLEBO´ LOS POSTES QUE ESTABAN LEJOS A SUS RESPECTIVOS HOYOS Y LUEGO
-NOS EXPLICO´ QUE CON UNA PLUMA PROSEDERI AN A LEVANTAR Y COLOCAR DEND
+EL CONTRATISTA ORDENO TIRAR LOS POSTES Y UN PESADO CAMION DE LA
+ENDESA PROBEDIO A DEJAR LOS POSTES CERCA, O AL LADO DE LOSHOYOS
+QUE ANTERIORMENTE HABIA HECHO UNA CUADRUILLA DE HOMBRES. LUEGO DESPUES
+COMO NOS INFORMO UN PERSONERO DE LA ENPRESA UN TRACTOR CON UN CAMARON
+LLEBO LOS POSTES QUE ESTABAN LEJOS A SUS RESPECTIVOS HOYOS Y LUEGO
+NOS EXPLICO QUE CON UNA PLUMA PROSEDERI AN A LEVANTAR Y COLOCAR DEND
 DE LOS HOYOS LOS POSTES MAS ADELANTE DIJO QUE MAESTROS ESPECIALISAD
 COLOCARIAN LAS CRUSETAS Y COLOCARION LOAS CABLES QUE LLEVAN LA
-ELECTRISIDAD.
-
-LA ELECRISAD EN LOS CANPOS.
-
-LA ELECTRISIDAD PRESTA GRANDES USOS A LOS AGUICULTORES YA SEA EN SUS
-CASA COMO EN LAS FAENAS MÚLTIPLES QUE SE PUEDEN REALISAR CON LA
+ELECTRICIDAD.
+LA ELECRISIDAD EN LOS CANPOS.
+LA ELECTRISIDAD PRESTA GRANDES USOS A LOS AGICULTORES YA SEA EN SUS
+CASA COMO EN LAS FAENAS MULTIPLES QUE SE PUEDEN REALISAR CON LA
 ELECTRISIDAD. NUESTRO VECINO QUE OPTUVO LUZ PRIMERO DE LA LINEA A
-MULCHEN TIENE UN MOLINO QUE FUNCIONA ROTALMENTE A ELECTRISIDAD
-SE ESPERA QUE ESTA LINEA ESTE´ LISTA EN MAYO Y QUISAS EN AGOSTO SE
-PODRA DAR LA LUZ. a
-
+MULCHEN TIENE UN MOLINO QUE FUNCIONA TOTALMENTE A ELECTRISIDAD
+SE ESPERA QUE ESTA LINEA ESTE LISTA EN MAYO Y QUISAS EN AGOSTO SE
+PODRA DAR LA LUZ.
 LA LECHE Y LA CHIPRODAL
-
-EN EL FUNDO ES PRIMERA VEZ QUE SE ENTRGA LECHE A LA CHIPRODAL FABRIC@
+EN EL FUNDO ES PRIMERA VEZ QUE SE ENTRGA LECHE A LA CHIPRODAL FABRIC
 DE LECHE NESTRE. LA LECHERIA DEL FUNDO NO ESTA FORMADA POR, LO CUAL LA
-MATERIA GRASA ES POCA ../ VISITAMOS LA CHOPRODAL SA LLEGAN LOS CAMIO
-NES QUE VIENEN DE TODAS PARTES CARGADOS CON LEGHE. SE ACERCAN A UNA
-PLATAFORMA DONDE BAJAN LOS TARROS Y LOS COLOCAN EN UNA ESPEC..L DE CORRE
+MATERIA GRASA ES POCA ../ VISITAMOS LA CHOPRODAL SA LLEGAN LOS CAMIOS
+NES QUE VIENEN DE TODAS PARTES CARGADOS CON LECHE. SE ACERCAN A UNA
+PLATAFORMA DONDE BAJAN LOS TARROS Y LOS COLOCAN EN UNA ESPECI DE CORRE
 SIN FIN PERO DE FIERRO QUE LOS VA MOVIENDO Y LOS LLEVA DENTRO DE L
 EDIFICIO DONDE LA LECHE ES PESADA Y ENTRA EN GRANDES TUVERIAS QUE
-
 Sigue Pag 12 11
-```
 
 ## Images, Captions, And Visual Notes
-The page is a typed document on aged, yellowish paper. The type is from a mechanical typewriter and shows some inconsistencies in ink darkness. There is a handwritten note, `Sigue Pag 12`, at the bottom left in red ink. The page number `11` at the bottom right is typed, possibly with a red typewriter ribbon. There is some faint text visible in the background, likely bleed-through from the reverse side of the page, but it does not interfere with the legibility of the primary text.
+There are no images or captions on this page.
 
 ## Uncertain Or Illegible
-There are no illegible words on this page. The transcription includes numerous apparent typographical errors present in the original source, which have been transcribed literally. These include:
-- `CONYINUACIO N` for `CONTINUACION`
-- `LOSHPTOS` for `LOS HOYOS`
-- `CUADRUILKA` for `CUADRILLA`
-- `ENPRESA` for `EMPRESA`
-- `LLEBO´` for `LLEVÓ`
-- `PROSEDERI AN` for `PROCEDERIAN`
-- `DEND` for `DENTRO`
-- `ESPECIALISAD` for `ESPECIALIZADOS`
-- `COLOCARION LOAS` for `COLOCARIAN LOS`
-- `ELECTRISIDAD` for `ELECTRICIDAD` (appears multiple times)
-- `ELECRISAD` for `ELECTRICIDAD`
-- `CANPOS` for `CAMPOS`
-- `AGUICULTORES` for `AGRICULTORES`
-- `REALISAR` for `REALIZAR`
-- `OPTUVO` for `OBTUVO`
-- `ROTALMENTE` for `TOTALMENTE`
-- `QUISAS` for `QUIZAS`
-- `ENTRGA` for `ENTREGA`
-- `FABRIC@` where `@` is used for `A`
-- `NESTRE` for `NESTLE`
-- `CHOPRODAL` for `CHIPRODAL`
-- `LEGHE` for `LECHE`
-- `ESPEC..L` for `ESPECIAL`
-- `CORRE` for `CORREA`
-- `TUVERIAS` for `TUBERIAS`
+- `CONYINUACIO N`: The "N" might be part of the word or a separate initial.
+- `PROBEDIO`: Could be "procedió".
+- `LOSHOYOS`: Could be "los hoyos" (two words).
+- `DEND`: Could be "dentro".
+- `AGICULTORES`: Could be "agricultores".
+- `ENPRESA`: Could be "empresa".
+- `CAMARON`: Could be "camión".
+- `LOAS`: Could be "los".
+- `FABRIC`: Could be "fabrica".
+- `CHOPRODAL SA`: Could be "Choprodal S.A.".
+- `CAMIOS NES`: Could be "camiones".
+- `ESPECI`: Could be "especie".
+- `L`: Could be "el".
 
 ## Completeness Audit
-The entire page, including the header, main text, and handwritten notes, has been transcribed. The page is complete.
+The transcription is complete and captures all visible text on the page.
 
 ## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed and handwritten text. There are no photographs, illustrations, maps, or other significant visual elements that would warrant cropping as standalone assets."
-}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
 ## Page Metadata
 - Source: `El Aguila Nombre Grande Scan.pdf`
 - Page: `12`
 
 ## Layout And Reading Order
-The page contains a single column of typewritten text, with a header at the top and a footer at the bottom. A handwritten page number is present in the bottom right corner.
+The page contains a single column of typewritten text, with a handwritten page number at the bottom right. The text describes industrial processes related to food production and packaging.
 
 ## Literal Transcription
 ERO GIGANTE
@@ -702,10 +661,10 @@ ONDE HIERVE POR TIEMPO DETERM NADO LUEGO ENTRA A OTOS ESTANQUES
 ONDE SE ENFRIA LUEGO SE LE ECHA ALMIBAR Y SE REVUELVE DESPUES PASA
 A UNOS COMPARTIMENTOS DONDE SE LLENAN LOS TARROS CON LLECCHE CONDESADA
 YA PREPARADA. LOS TARROS ANTES DE SER LLEBADOS SON DESINFECTADOS POR
-CALOR,LA PIESA DONDE SE LLENAN LOS TARROS HAY QUE MIRARLA DE AFUERA
+CALOR, LA PIESA DONDE SE LLENAN LOS TARROS HAY QUE MIRARLA DE AFUERA
 PARA NO LLEVAR MICROVIOS, LOS TARROS SON HECHOS DE LATA HAY MISMO
 , LOS TARROS SONL TAPADOS EN EL MIS MO LUGAR DONDE SE LLENAN DESPUES DE
-LO CUAL SON LEVADOS A PONERLE LA ETIQUETA "NESTLE # TERMINADO TODAD
+LO CUAL SON LEVADOS A PONERLE LA ETIQUETA "NESTLE" TERMINADO TODAD
 LA OPERACION SON ENBALADOS Y LUEGO SON LEVADOS AL FERROCARRIL CERCANO,
 LA FABRICA DE TARROS
 6Y
@@ -714,7 +673,7 @@ LAS PLANCHAS DE LATA SON CORTADAS EN TRES PEDASOS POR UNA MAQUINA, LUEGO
 PASAN A OTRA QUE LOS CORTA EN TRES NUEVAMENTE Y DESPUES UNA MAQUINA I
 ITALIANA RECIENTEMENTE EN CHILE HACE EL ENVACESE LAS DOS PARTES SON
 PEGADAS HACIENDO EL TARRO Y DE INMEDIATO OTRA PONE UNA TAPA LA DE ABAJO
-LOS TARROS YA TERMINADOS PASAN POR UN ESTERELISADO Y DEXHXX DE AHI A
+LOS TARROS YA TERMINADOS PASAN POR UN ESTERELISADOR Y DEXXXX DE AHI A
 LLENARSE
 LA PANADERIA MODERNA.
 LA ENPRESA VISITO LA PANADERIS MODERNA DE LOS ANGELES DEL SR RINCON
@@ -723,115 +682,123 @@ OTRA LO AMASA; LA MASA PARA LAS AYUYAS PASA A OTRA MAQUINA QUE LA CORTA
 Y LA FESJA CUADRADA DE AHI PASA A UN HORNO A PETROLEO Y SE ENREGA
 AL PUBLICO
 
-CRONICAS POR EL PERIODISTA x
+CRONICAS POR EL PERIODISTA X
 
 12
 
 ## Images, Captions, And Visual Notes
-- The page number "12" is handwritten in red ink at the bottom right corner of the page.
+There are no images or captions on this page.
 
 ## Uncertain Or Illegible
-- `DETERM NADO`: The space between "DETERM" and "NADO" might be a typo or an abbreviation.
-- `LLECCHE`: Could be "LECHE" (milk), with an extra 'C'.
-- `MICROVIOS`: Could be "MICROBIOS" (microbes), with a 'V' instead of 'B'.
-- `SONL`: Could be "SON" (are), with an extra 'L'.
-- `TODAD`: Could be "TODA" (all), with an extra 'D'.
-- `ENBALADOS`: Could be "EMBALADOS" (packaged), with an 'N' instead of 'M'.
-- `6Y`: Appears to be a stray character or number.
-- `LSAS`: Appears to be a stray character or abbreviation.
-- `PEDASOS`: Could be "PEDAZOS" (pieces), with an 'S' instead of 'Z'.
-- `DEXHXX`: This word is largely illegible, possibly a technical term or a typo.
-- `PANAN`: Could be "PAN" (bread), with an extra 'AN'.
-- `FESJA`: Could be "FRANJA" (strip) or "REJA" (grate), or another word.
-- `ENREGA`: Could be "ENTREGA" (delivers), with an 'N' instead of 'NT'.
+- `DETERM NADO`: The space between "DETERM" and "NADO" might indicate a missing letter or an abbreviation.
+- `LLECCHE`: Appears to be a misspelling of "LECHE".
+- `LLEBADOS`: Appears to be a misspelling of "LLEVADOS".
+- `MICROVIOS`: Appears to be a misspelling of "MICROBIOS".
+- `SONL`: Appears to be a misspelling of "SON".
+- `TODAD`: Appears to be a misspelling of "TODA".
+- `ENBALADOS`: Appears to be a misspelling of "EMBALADOS".
+- `6Y`: Unclear meaning, possibly a typo or an abbreviation.
+- `LSAS`: Unclear meaning, possibly a typo or an abbreviation.
+- `PEDASOS`: Appears to be a misspelling of "PEDAZOS".
+- `DEXXXX`: Illegible word, possibly "DESPUES" or similar.
+- `ENPRESA`: Appears to be a misspelling of "EMPRESA".
+- `PANADERIS`: Appears to be a misspelling of "PANADERIA".
+- `PANAN U`: Unclear meaning, possibly a typo or an abbreviation.
+- `FESJA`: Appears to be a misspelling of "FRANJA" or "REJA".
+- `ENREGA`: Appears to be a misspelling of "ENTREGA".
 
 ## Completeness Audit
-The transcription is complete for all visible text on the page.
+The transcription is complete and includes all visible text on the page.
 
 ## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The handwritten page number is noted in the 'Images, Captions, And Visual Notes' section."
-}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
 ## Page Metadata
 
-- **Page number**: 13
-- **Document title**: El Aguila
-- **Publication date**: Enero - Febrero 1956
+- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0013`
+- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+- Page: 13
 
 ## Layout And Reading Order
 
-The page consists of a single column of typewritten text. The content includes a header, a main title, and several short articles or notes under subheadings. A small printed calendar for February 1956 is glued to the bottom of the page. The reading order is from top to bottom.
+The page is a single column of typewritten text. The reading order is from top to bottom.
+
+1.  Header line with publication title and date range.
+2.  Section title: "DE TODO UN POCO".
+3.  Subsection title: "CONCEPCION".
+4.  Two short paragraphs of text related to Concepcion.
+5.  A horizontal rule.
+6.  A section of short, unrelated statements, possibly answers to a quiz, ending with a separator line made of the number '6'.
+7.  Section title: "NOTAS DE LA EMPRESA:".
+8.  Two paragraphs of notes from the company, separated by another line of '6's.
+9.  A centered line introducing a calendar.
+10. A small, pasted-on calendar for February 1956.
+11. The page number "13" is stamped at the bottom right.
 
 ## Literal Transcription
 
+```text
 EDICION GIGANTE ENERO - FEBRERO EL AGUILA
-___
+------------------------------------------
 DE TODO UN POCO
-___
-CONCEPCION
-___
 
+CONCEPCION
+----------
 DURANTE QUE PERMANECIMOS EN EL FUNDO EN EL BARRIO LA COMPAÑIA DE S
 PROSEDIO A CANBIAR A LA VES LA CAÑERIA DE CALLE CASTELLON ENTRE
 VICTOR LAMAS Y COCHRANE
 
-EN CALLE COCRANE UNA ENPRESA CONTRATISTA TOMO A CARG O LA PAVIMENT ION
+EN CALLE COCRANE UNA ENPRESA CONTRATISTA TOMO A CARG O LA PAVIMENT[?]ION
 DE DICHA CALLE LOS TRABAJOS SE ENCONTRABAN BASTANTE ADELANTADOS
-___
 
+--------------------------------------------------------------------
 EL RIO QUE PASA POR LONDRES ES EL THAMES
 G G V PERTENECE AL PARTIDO RADICAL
-LA ISLA DE MALTA SE ENCUENTR A EN EL MEDITERRANEO
+LA ISLA DE MALTA SE ENCUENTRA EN EL MEDITERRANEO
 RESPUESTAS DE PAGUINA 3
-66666666666666666666666666666666666666666666666666666666666666666666666666
-___
+6666666666666666666666666666666666666666666666666666666666666666666
 
 NOTAS DE LA EMPRESA:
-LA EMPRESA A DESIGNADO A DR DARIO PULGA R A NUESTRO DISTRIBUIDOR
+LA EMPRESA A DESIGNADO A DR DARIO PULGA´R A NUESTRO DISTRIBUIDOR
 OFICIAL PAPA NUMEROS ATRASADOS SIRVAN DIRIGIRSE A NUESTRA DIRECCION EN
 CONCEPCION . LUEGO SE HABRIRAN LAS SUSCRIPCIONES PARA LO CUAL
 CONSULTEN CON NUESTRO DISTRIBUIDOR.
 
-CTOR EL DEPARTAMENTO DE PROPAGANDA LO MANTENDRA INFORMADO DE LAS
-CTIVIDADES DE LA ENPRESA
-6666666666666666666666666666666666666666666666666666666
+EL DIRECTOR EL DEPARTAMENTO DE PROPAGANDA LO MANTENDRA INFORMADO DE LAS
+ACTIVIDADES DE LA EMPRESA
+66666666666666666666666666666666666666666666666666666
 
-CALENDARIO 1956 OBSEQUIO DE LA ENPRESA
+CALENDARIO 1956 OBSEQUIO DE LA EMPRESA
 
-[vr-01]
-| 1956 | | FEBRERO | | 1956 | | |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Dom. | Lun. | Mart. | Miér. | Juev. | Vier. | Sáb. |
-| | | | 1 | 2 | 3 | 4 |
-| 5 | 6 | 7 | 8 | 9 | 10 | 11 |
-| [12?] | 13 | 14 | 15 | 16 | 17 | 18 |
-| [19?] | 20 | 21 | 22 | 23 | 24 | 25 |
-| [26?] | 27 | 28 | 29 | [30?] | [31?] | |
+[calendar-1956-02-1]
 
 13
+```
 
 ## Images, Captions, And Visual Notes
 
-- **[vr-01]** A small printed calendar for February 1956 is glued to the bottom of the page. The text "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA" appears just above it. The calendar is slightly damaged; a piece of transparent tape covers the first column of dates (5, 12, 19, 26), making them partially obscured. There is a dark mark, possibly from a staple, above the year "1956". The numbers 30 and 31 are very faint.
-- A long, thin, brown stain runs diagonally through the last paragraph of text.
-- Faint text from the reverse side of the page is visible as bleed-through in several areas.
-- The page number "13" is visible at the bottom right corner.
+**`[calendar-1956-02-1]`**
+A small, printed calendar for February 1956, which appears to be cut out and pasted onto the page. The calendar is titled "FEBRERO 1956". The days of the week are abbreviated. Sundays are printed in red ink. A piece of tape or a tear obscures the numbers for the first day of the last three full weeks (12, 19, 26).
+
+The calendar is laid out as follows:
+```
+'1956      FEBRERO      1956
+Dom. Lun. Mart. Miér. Juev. Vier. Sáb.
+                  1    2    3    4
+ 5    6    7    8    9   10   11
+[1]2   13   14   15   16   17   18
+[1]9   20   21   22   23   24   25
+[2]6   27   28   29  [30]  [31]
+```
+The numbers 30 and 31 are very faint and likely bleed-through from an underlying page, as February 1956 had only 29 days.
 
 ## Uncertain Or Illegible
 
-- **[12?]**: The number 12 in the calendar is partially obscured by tape.
-- **[19?]**: The number 19 in the calendar is partially obscured by tape.
-- **[26?]**: The number 26 in the calendar is partially obscured by tape.
-- **[30?]**: The number 30 in the calendar is extremely faint.
-- **[31?]**: The number 31 in the calendar is extremely faint.
+- `PAVIMENT[?]ION`: The word is likely "PAVIMENTACION", but the 'AC' is missing or illegible in the typed text. It appears as `PAVIMENT ION` or `PAVIMEN ION`.
 
 ## Completeness Audit
 
-This page has been transcribed in its entirety. All text, including the glued-on calendar, has been captured. Visual elements and page condition have been described.
+The page has been fully transcribed. All text, including the content of the pasted-on calendar, has been captured.
 
 ## Visual Region Manifest
 
@@ -839,21 +806,21 @@ This page has been transcribed in its entirety. All text, including the glued-on
 {
   "visual_regions": [
     {
-      "region_id": "vr-01",
-      "kind": "table",
+      "region_id": "calendar-1956-02-1",
+      "kind": "calendar",
       "bbox_pct": [
-        25.5,
-        77.5,
-        70.5,
+        28.0,
+        78.5,
+        71.8,
         95.0
       ],
-      "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA",
+      "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA EMPRESA",
       "caption_type": "nearby-text",
       "identity_basis": "none",
-      "source_context": "A small printed calendar for February 1956 is glued to the bottom of the page.",
-      "confidence": "high",
-      "suggested_filename": "p0013-vr-01-calendar-1956.jpg",
-      "inline_anchor": "[vr-01]"
+      "source_context": "A small calendar for February 1956, provided as a gift from the company ('obsequio de la empresa').",
+      "confidence": 100,
+      "suggested_filename": "calendar-1956-02-1.jpg",
+      "inline_anchor": "[calendar-1956-02-1]"
     }
   ],
   "no_visual_regions_reason": null
@@ -1016,15 +983,15 @@ The transcription is complete and accurate, capturing all text and the handwritt
 ```
 
 ## Page Metadata
-- Source: `El Aguila Nombre Grande Scan.pdf`
+- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
 - Page: 16
-- Page type: `Title Page`
+- Page type: `title-page`
 
 ## Layout And Reading Order
-The page contains a hand-drawn illustration at the top, followed by handwritten text in the center and bottom of the page. The text appears to be a title and a date.
+The page contains a hand-drawn illustration at the top, followed by handwritten text in the middle and bottom sections. The text appears to be a title and a date.
 
 ## Literal Transcription
-[Hand-drawn illustration of an eagle-like figure with a circle and "AD" inside its body]
+[Hand-drawn illustration of an eagle-like figure with a circle and a square inside its body]
 
 SuPLEMENTO
 Fotografico
@@ -1033,11 +1000,11 @@ EL AGUILA
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: Hand-drawn illustration of an eagle-like figure with a circle and "AD" inside its body.](../extracted-images/page-0016/page-0016-image-01-hand-drawn-eagle-figure-with-ad-1956.png)
+- ![converter-description: Hand-drawn illustration of an eagle-like figure with a circle and a square inside its body.](../extracted-images/page-0016/page-0016-image-01-illustration-eagle-like-figure-1956.png)
   - Kind: illustration; label basis: converter-description; bbox_pct: [10.0, 23.0, 43.0, 76.0]
-  - Source context: The illustration is at the top of the page, above the handwritten text.
+  - Source context: The illustration appears at the top of the page, above the title text.
 
-- An illustration of an eagle-like figure, drawn in red, is present at the top of the page. Inside its body, there is a large circle and the letters "AD" are visible.
+- An illustration of an eagle-like figure, drawn in red ink, is present at the top of the page. The figure has a head resembling a bird, wings, and a body with a large circle and a square shape inside it.
 
 ## Uncertain Or Illegible
 None.
@@ -1050,27 +1017,27 @@ The transcription is complete and captures all visible text and the significant 
 {
   "visual_regions": [
     {
-      "region_id": "vr_1",
+      "region_id": "region_1",
       "kind": "illustration",
       "bbox_pct": [10.0, 23.0, 43.0, 76.0],
-      "caption_literal": "Hand-drawn illustration of an eagle-like figure with a circle and \"AD\" inside its body.",
+      "caption_literal": "Hand-drawn illustration of an eagle-like figure with a circle and a square inside its body.",
       "caption_type": "converter-description",
       "identity_basis": null,
-      "source_context": "The illustration is at the top of the page, above the handwritten text.",
+      "source_context": "The illustration appears at the top of the page, above the title text.",
       "confidence": 1.0,
-      "suggested_filename": "hand-drawn_eagle_figure_with_ad_1956.png",
-      "inline_anchor": "An illustration of an eagle-like figure, drawn in red, is present at the top of the page. Inside its body, there is a large circle and the letters \"AD\" are visible."
+      "suggested_filename": "illustration_eagle_like_figure_1956.png",
+      "inline_anchor": "An illustration of an eagle-like figure, drawn in red ink, is present at the top of the page. The figure has a head resembling a bird, wings, and a body with a large circle and a square shape inside it."
     }
   ]
 }
 ```
 
 ## Page Metadata
-- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+- Source: `El Aguila Nombre Grande Scan.pdf`
 - Page: 17
 
 ## Layout And Reading Order
-The page contains two photographs, one above the other, each with a caption below it. There is also handwritten text at the top of the page. The reading order is: handwritten text, top photograph, top caption, bottom photograph, bottom caption.
+The page contains two photographs, one above the other, each with a caption below it. There is also a handwritten note at the top of the page.
 
 ## Literal Transcription
 EL "OJOS DEL SALADO"
@@ -1081,63 +1048,50 @@ eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó est
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![source-caption: LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA
-eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.](../extracted-images/page-0017/page-0017-image-01-culmination-of-the-feat-summit-of-el-salado.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [11.66, 44.0, 54.0, 90.0]
-  - Source context: The caption describes this as the culmination of the feat, showing five of the six climbers on the summit of El Salado, the highest mountain in America. The sixth person took the photo.
-- ![source-caption: LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA
-eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.](../extracted-images/page-0017/page-0017-image-02-expedition-group-with-tent-and-mountains.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [57.5, 55.0, 95.0, 90.0]
-  - Source context: This photograph shows a group of eight individuals in cold-weather gear with a tent and mountains in the background. It is part of the same expedition as the top photo, but the caption specifically refers to the top photo.
+- ![source-caption: LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.](../extracted-images/page-0017/page-0017-image-01-culminacion-proeza-cumbre-salado.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [11.6, 40.0, 56.0, 90.0]
+  - Source context: The top photograph shows five individuals on a mountain summit.
+- ![nearby-text: The bottom photograph shows a group of eight individuals and a tent in a mountainous landscape.](../extracted-images/page-0017/page-0017-image-02-expedition-group-tent-mountain.png)
+  - Kind: photograph; label basis: nearby-text; bbox_pct: [57.5, 40.0, 95.0, 90.0]
+  - Source context: The bottom photograph shows a group of eight individuals and a tent in a mountainous landscape.
 
-The page features two black and white photographs related to a mountain climbing expedition.
-
-The top photograph shows five individuals, heavily dressed for cold weather, sitting among rocks on what appears to be a mountain summit. The background is indistinct, suggesting a high altitude or cloudy conditions.
-
-The bottom photograph shows a group of eight individuals, also dressed in cold-weather gear, standing in a line on a relatively flat, barren landscape with mountains in the background. A small tent is visible on the right side of the image.
+- A handwritten note in red and blue ink at the top of the page reads "EL "OJOS DEL SALADO" FUE ESCALADO".
+- The top image shows five individuals in cold-weather gear, partially obscured by rocks, on what appears to be a mountain summit.
+- The caption for the top image reads: "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental."
+- The bottom image shows a group of eight individuals in cold-weather gear standing in a barren, mountainous landscape, with a small tent visible on the right.
 
 ## Uncertain Or Illegible
-None.
+- The beginning of the caption for the top image is slightly cut off on the left side. The visible text starts with "eron seis los que llegaron:". It is likely that the full word was "Fueron".
 
 ## Completeness Audit
-The transcription is complete and accurate.
+The page is fully transcribed and all visual elements are described.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "region_0",
+      "region_id": "region_1",
       "kind": "photograph",
-      "bbox_pct": [
-        11.66,
-        44.0,
-        54.0,
-        90.0
-      ],
-      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA\neron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
+      "bbox_pct": [11.6, 40.0, 56.0, 90.0],
+      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
       "caption_type": "source-caption",
-      "identity_basis": "source-context",
-      "source_context": "The caption describes this as the culmination of the feat, showing five of the six climbers on the summit of El Salado, the highest mountain in America. The sixth person took the photo.",
+      "identity_basis": null,
+      "source_context": "The top photograph shows five individuals on a mountain summit.",
       "confidence": 0.95,
-      "suggested_filename": "culmination_of_the_feat_summit_of_el_salado.png",
+      "suggested_filename": "culminacion_proeza_cumbre_salado.jpg",
       "inline_anchor": null
     },
     {
-      "region_id": "region_1",
+      "region_id": "region_2",
       "kind": "photograph",
-      "bbox_pct": [
-        57.5,
-        55.0,
-        95.0,
-        90.0
-      ],
-      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA\neron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
-      "caption_type": "source-caption",
-      "identity_basis": "converter-description",
-      "source_context": "This photograph shows a group of eight individuals in cold-weather gear with a tent and mountains in the background. It is part of the same expedition as the top photo, but the caption specifically refers to the top photo.",
-      "confidence": 0.9,
-      "suggested_filename": "expedition_group_with_tent_and_mountains.png",
+      "bbox_pct": [57.5, 40.0, 95.0, 90.0],
+      "caption_literal": null,
+      "caption_type": "nearby-text",
+      "identity_basis": null,
+      "source_context": "The bottom photograph shows a group of eight individuals and a tent in a mountainous landscape.",
+      "confidence": 0.95,
+      "suggested_filename": "expedition_group_tent_mountain.jpg",
       "inline_anchor": null
     }
   ]
@@ -1161,15 +1115,15 @@ JUSTICIA / VERDAD
 EL AGUILA. _
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. The entire page consists of handwritten text.
+No images or captions are present on this page.
 
 ## Uncertain Or Illegible
 No uncertain or illegible text.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all visible text on the page.
+The transcription is complete and accurate.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions present."}
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 ```
