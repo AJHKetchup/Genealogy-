@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-7dfacae4fd5b-P0007-01
+chunk_id: CHUNK-e06b38a65156-P0007-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: 7dfacae4fd5b1ff85794e1eb8ae308efd75663ae19ca98b28598c126193fadb4
+converted_sha256: e06b38a651561ee30e6fa26f27590875dfaaafc7a460011ed784da1cd6b2efda
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -12,28 +12,14 @@ part: 1
 ---
 
 ## Page Metadata
-
 - Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0007`
-- Model route: `pro`
-- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
 - Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0007.md`
 - Page: 7
-- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0007.md`
-- External research relevance: `high`
-- External requested treatment: `reread`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
-- Quality flags: none
-- Technical reread clues: none
 
 ## Layout And Reading Order
-
-The page is a single column of text, continuing a curriculum vitae. The content is organized into sections, each representing a period of employment or consultancy. Each section is headed by a date range, organization, location, and job title in bold text. Following the headings is a paragraph describing the work performed. The reading order is from top to bottom.
+The page is a single column of text. The reading order is from top to bottom. The content is a continuation of a curriculum vitae, with entries organized chronologically by date range. Each entry includes the date, organization, location, job title (in bold), and a description of responsibilities.
 
 ## Literal Transcription
-
 Governorate and the design and implementation of a modified Training and Visit System of
 Extension, coordinating the activities of the Government of Egypt (GOE) extension organisation
 with the project. Ensure liaison with governmental organisations in the agricultural field.
@@ -86,22 +72,15 @@ EMBRAFILME Audio Visual Centre, and v) prepare a plan of operations of a health
 communication project with special emphasis on rural areas for CIDA in Islamabad, Pakistan
 
 ## Images, Captions, And Visual Notes
-
-This page contains only text. There are no images, illustrations, or other visual elements.
+There are no images, captions, or other visual elements on this page. The page consists entirely of typed text.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-The transcription of this page is complete and accurate. All text content has been transcribed.
+This page is complete and fully transcribed.
 
 ## Visual Region Manifest
-
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "This page consists entirely of text and has no images, illustrations, or other visual elements suitable for cropping."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other significant visual elements."}
 ```

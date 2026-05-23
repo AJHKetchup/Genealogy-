@@ -13,33 +13,53 @@
 - Page: `1`
 
 ## Layout And Reading Order
-The page is an "Arrival-Departure Record" form, Form I-94 B, with handwritten entries. The form is structured with fields for personal information, travel details, and official endorsements. The reading order follows the form fields from top to bottom, left to right. A vertical text block is present on the right side of the form.
+The page is a form titled "ARRIVAL-DEPARTURE RECORD" (Form I-94 B). It contains fields for personal information, travel details, and official endorsements. The fields are arranged in a standard form layout, with labels followed by blank spaces for entry. Handwritten entries fill most of the fields. A vertical text block on the right edge reads "ANY HANDWRITTEN ENTRIES MUST BE IN CAPITAL LETTERS".
 
 ## Literal Transcription
+
 Surname
 PULGAR
+
 Nationality (Citizenship)
 CHILFAN
+
 United States Address
 TRANSIT TO CHILE
+
 Permanent Address
 Box 1244 CONCEPCION CHILE
+
 Visa Issued At
 I R VIOV
+
 Date Visa Issued
+
+Vessel Name or Airline and Flight No. of Arrival
+BOAC BA 549
+
+Passenger Boarded At
+LONDON ENGLAND
+
+Form I-94 B (Rev. 7-1-57)
+ARRIVAL-DEPARTURE RECORD
 
 Given Name
 DARIO
+
 Birthplace
 CHILE
+
 Initial
 A
+
 Passport Number
-258
+258 K26
+
 Birthdate
 1 JUN 1942
 
-CONTINUOUS TRANSIT
+ANY HANDWRITTEN ENTRIES MUST BE IN CAPITAL LETTERS
+
 Authorized pursuant to agreement under
 Sec. 238(d) of Immigration Act.
 
@@ -47,32 +67,24 @@ MAR 30 '59 NYC
 
 Carrier directed to detain alien during
 transit and remove from United States via
-ANY HANDWRITTEN ENTRIES MUST BE IN CAPITAL LETTERS OR BLOCK
-Vessel Name or Airline and Flight No. of Arrival
-BOAC BA 549
-Passenger Boarded At
-LONDON ENGLAND
-Form I-94 B (Rev. 7-1-57)
-ARRIVAL-DEPARTURE RECORD
-
 KLM 492 NY
 (Carrier) (Departure Port)
-3/30/59 97
-(Date) (Initial) (Officer)
+3/31/59 97
+(Date) (Officer)
 
 ## Images, Captions, And Visual Notes
-There are no substantial images or captions on this page that would be useful as standalone wiki assets.
+There are no substantial images or captions on this page that require cropping. The page is a form with handwritten entries.
 
 ## Uncertain Or Illegible
-- The "Initial" field appears to be "A", but it is somewhat faded.
-- The "Passport Number" field has "258" clearly, followed by what looks like "K26" or "R26", which is uncertain.
-- The "Visa Issued At" field appears to be "I R VIOV", but the last part is somewhat unclear.
-- The handwritten entry "CONTINUOUS TRANSIT" is written over a pre-printed line, making it slightly difficult to read.
-- The handwritten entry "KLM 492 NY" is clear, but the "NY" is written over the pre-printed "(Departure Port)".
-- The handwritten entry "3/30/59 97" is clear, but the "97" is written over the pre-printed "(Officer)".
+- The "Nationality (Citizenship)" field is handwritten as "CHILFAN", which might be a misspelling or an unclear rendering of "CHILEAN".
+- The "Visa Issued At" field is handwritten as "I R VIOV", which is difficult to interpret.
+- The "Permanent Address" field has "CONCEPCION CHILE" but also some unclear text that looks like "CONTINUOUS TRANSIT" written over or next to it.
+- The "Passport Number" field has "258" followed by "K26" which is somewhat unclear.
+- The "Carrier" field for departure is "KLM 492" but the "Departure Port" is "NY" which is clear.
+- The "Date" and "Officer" fields at the bottom right are "3/31/59" and "97" respectively, but the "Officer" entry is somewhat unclear.
 
 ## Completeness Audit
-The transcription is complete for all visible text and form fields on the page.
+The transcription is complete for all visible text and handwritten entries on the page.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected for this page."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected for cropping. The page primarily consists of a form with text and handwritten entries."}

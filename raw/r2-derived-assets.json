@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-23T19:52:05.839759+00:00",
+  "created": "2026-05-23T20:53:41.623422+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -6394,6 +6394,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825/extracted-images/page-0801/page-0801-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825/extracted-images/page-0801/page-0801-docling-image-01.png",
+      "bytes": 63606,
+      "sha256": "cb2450ae9c542b83cac99dd2eb392d177bb75970a1784bef3a0fa119eb6e1d6b",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825/extracted-images/page-0805/page-0805-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825/extracted-images/page-0805/page-0805-docling-image-01.png",
       "bytes": 359751,
@@ -12186,10 +12193,10 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 5,
-    "total_bytes": 62164965,
-    "uploaded": 0,
-    "skipped": 5,
+    "total_files": 8,
+    "total_bytes": 68681221,
+    "uploaded": 1,
+    "skipped": 7,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,
@@ -12199,9 +12206,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1744,
+      "scanned": 1745,
       "deleted": 0,
-      "skipped": 1744,
+      "skipped": 1745,
       "errors": []
     }
   }
