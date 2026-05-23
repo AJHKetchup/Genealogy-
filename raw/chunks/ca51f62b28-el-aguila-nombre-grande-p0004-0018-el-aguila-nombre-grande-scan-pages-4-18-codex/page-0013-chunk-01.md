@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-6e84f7f32ee1-P0013-01
+chunk_id: CHUNK-829caf87374f-P0013-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 6e84f7f32ee13ff0b7e22d5bb647cb0676c57baffc9f51163d0b83561e07e942
+converted_sha256: 829caf87374f78ccd36914559be0247f23604318d0c3ccffdd664caef42a96d5
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -12,115 +12,54 @@ part: 1
 ---
 
 ## Page Metadata
-
-- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0013`
-- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
-- Page: 13
+- Page number: 16
+- Source publication year: 1956
+- Source publication title: El Aguila Nombre Grande
+- Source publication author: Unknown
+- Source publication publisher: Unknown
+- Source publication language: Spanish
 
 ## Layout And Reading Order
-
-The page is a single column of typewritten text. The reading order is from top to bottom.
-
-1.  Header line with publication title and date range.
-2.  Section title: "DE TODO UN POCO".
-3.  Subsection title: "CONCEPCION".
-4.  Two short paragraphs of text related to Concepcion.
-5.  A horizontal rule.
-6.  A section of short, unrelated statements, possibly answers to a quiz, ending with a separator line made of the number '6'.
-7.  Section title: "NOTAS DE LA EMPRESA:".
-8.  Two paragraphs of notes from the company, separated by another line of '6's.
-9.  A centered line introducing a calendar.
-10. A small, pasted-on calendar for February 1956.
-11. The page number "13" is stamped at the bottom right.
+The page contains a hand-drawn illustration at the top, followed by handwritten text in red and blue ink. The text is arranged vertically down the page.
 
 ## Literal Transcription
+[Hand-drawn illustration of an eagle-like figure with a circle and a square on its chest]
 
-```text
-EDICION GIGANTE ENERO - FEBRERO EL AGUILA
-------------------------------------------
-DE TODO UN POCO
-
-CONCEPCION
-----------
-DURANTE QUE PERMANECIMOS EN EL FUNDO EN EL BARRIO LA COMPAÑIA DE S
-PROSEDIO A CANBIAR A LA VES LA CAÑERIA DE CALLE CASTELLON ENTRE
-VICTOR LAMAS Y COCHRANE
-
-EN CALLE COCRANE UNA ENPRESA CONTRATISTA TOMO A CARG O LA PAVIMENT[?]ION
-DE DICHA CALLE LOS TRABAJOS SE ENCONTRABAN BASTANTE ADELANTADOS
-
---------------------------------------------------------------------
-EL RIO QUE PASA POR LONDRES ES EL THAMES
-G G V PERTENECE AL PARTIDO RADICAL
-LA ISLA DE MALTA SE ENCUENTRA EN EL MEDITERRANEO
-RESPUESTAS DE PAGUINA 3
-6666666666666666666666666666666666666666666666666666666666666666666
-
-NOTAS DE LA EMPRESA:
-LA EMPRESA A DESIGNADO A DR DARIO PULGA´R A NUESTRO DISTRIBUIDOR
-OFICIAL PAPA NUMEROS ATRASADOS SIRVAN DIRIGIRSE A NUESTRA DIRECCION EN
-CONCEPCION . LUEGO SE HABRIRAN LAS SUSCRIPCIONES PARA LO CUAL
-CONSULTEN CON NUESTRO DISTRIBUIDOR.
-
-EL DIRECTOR EL DEPARTAMENTO DE PROPAGANDA LO MANTENDRA INFORMADO DE LAS
-ACTIVIDADES DE LA EMPRESA
-66666666666666666666666666666666666666666666666666666
-
-CALENDARIO 1956 OBSEQUIO DE LA EMPRESA
-
-[calendar-1956-02-1]
-
-13
-```
+Suplemento
+Fotografico
+EL AGUILA
+1956
 
 ## Images, Captions, And Visual Notes
+Pipeline-extracted visual crops:
+- ![converter-description: Hand-drawn illustration of an eagle-like figure with a circle and a square on its chest.](../extracted-images/page-0016/page-0016-image-01-hand-drawn-eagle-figure-1956.png)
+  - Kind: illustration; label basis: converter-description; bbox_pct: [19.0, 13.0, 43.0, 50.0]
+  - Source context: The illustration is at the top of the page, above the title 'Suplemento'.
 
-**`[calendar-1956-02-1]`**
-A small, printed calendar for February 1956, which appears to be cut out and pasted onto the page. The calendar is titled "FEBRERO 1956". The days of the week are abbreviated. Sundays are printed in red ink. A piece of tape or a tear obscures the numbers for the first day of the last three full weeks (12, 19, 26).
-
-The calendar is laid out as follows:
-```
-'1956      FEBRERO      1956
-Dom. Lun. Mart. Miér. Juev. Vier. Sáb.
-                  1    2    3    4
- 5    6    7    8    9   10   11
-[1]2   13   14   15   16   17   18
-[1]9   20   21   22   23   24   25
-[2]6   27   28   29  [30]  [31]
-```
-The numbers 30 and 31 are very faint and likely bleed-through from an underlying page, as February 1956 had only 29 days.
+- A hand-drawn illustration in red ink of an eagle-like figure with a stylized body, a head facing left, and what appears to be a circle and a square on its chest. This drawing is centered at the top of the page.
 
 ## Uncertain Or Illegible
-
-- `PAVIMENT[?]ION`: The word is likely "PAVIMENTACION", but the 'AC' is missing or illegible in the typed text. It appears as `PAVIMENT ION` or `PAVIMEN ION`.
+None.
 
 ## Completeness Audit
-
-The page has been fully transcribed. All text, including the content of the pasted-on calendar, has been captured.
+The transcription is complete and captures all visible text and the primary visual element on the page.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "calendar-1956-02-1",
-      "kind": "calendar",
-      "bbox_pct": [
-        28.0,
-        78.5,
-        71.8,
-        95.0
-      ],
-      "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA EMPRESA",
-      "caption_type": "nearby-text",
-      "identity_basis": "none",
-      "source_context": "A small calendar for February 1956, provided as a gift from the company ('obsequio de la empresa').",
-      "confidence": 100,
-      "suggested_filename": "calendar-1956-02-1.jpg",
-      "inline_anchor": "[calendar-1956-02-1]"
+      "region_id": "region_1",
+      "kind": "illustration",
+      "bbox_pct": [19.0, 13.0, 43.0, 50.0],
+      "caption_literal": "Hand-drawn illustration of an eagle-like figure with a circle and a square on its chest.",
+      "caption_type": "converter-description",
+      "identity_basis": null,
+      "source_context": "The illustration is at the top of the page, above the title 'Suplemento'.",
+      "confidence": 0.9,
+      "suggested_filename": "hand_drawn_eagle_figure_1956.png",
+      "inline_anchor": "Hand-drawn illustration of an eagle-like figure with a circle and a square on its chest"
     }
-  ],
-  "no_visual_regions_reason": null
+  ]
 }
 ```

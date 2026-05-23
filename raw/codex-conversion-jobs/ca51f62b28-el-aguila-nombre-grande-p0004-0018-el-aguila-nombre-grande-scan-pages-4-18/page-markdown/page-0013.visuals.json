@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-23T21:49:01Z",
+  "created": "2026-05-23T23:40:05Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -12,11 +12,11 @@
   "visual_regions": [],
   "skipped_regions": [
     {
-      "region_id": "calendar-1956-02-1",
+      "region_id": "calendar-1956-02",
       "kind": "calendar",
       "reason": "low_value_visual_region_not_saved",
       "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA EMPRESA",
-      "source_context": "A small calendar for February 1956, provided as a gift from the company ('obsequio de la empresa')."
+      "source_context": "A small printed calendar for February 1956 is glued to the page."
     }
   ],
   "flags": []

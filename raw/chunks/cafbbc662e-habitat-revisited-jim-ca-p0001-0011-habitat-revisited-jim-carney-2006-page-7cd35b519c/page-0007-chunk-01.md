@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-8497d99aaca8-P0007-01
+chunk_id: CHUNK-879f8da258a2-P0007-01
 source_converted: raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md
-converted_sha256: 8497d99aaca8862b13231aa610e3ae0c7283174a1313b912626252617483abd0
+converted_sha256: 879f8da258a263e628c70a29efbf8dd643726f05e5cf7a1ae5447d653e184f14
 source: raw/sources/Habitat Revisited, Jim Carney, 2006.pdf
 source_sha256: fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9
 source_manifest: raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json
@@ -13,16 +13,17 @@ part: 1
 
 ## Page Metadata
 
-- **page_number**: 7
-- **page_type**: book-page
-- **source_name**: Habitat Revisited, Jim Carney, 2006
-- **source_page_count**: 11
-- **source_author**: Jim Carney
-- **source_year**: 2006
+*   **Page number**: 7
+*   **Source-assigned page number**: 7
+*   **Document title**: Habitat Revisited
+*   **Author**: Jim Carney
+*   **Publication year**: 2006
+*   **Source type**: Book
+*   **Confidence**: 5/5
 
 ## Layout And Reading Order
 
-This page consists of a single column of text. A page number, "7", is located at the top right corner. The main body of text flows from top to bottom. A section heading, "VISION HABITAT", is present about halfway down the page.
+The page consists of a single column of text. The page number "7" is located at the top right corner. The content flows linearly from top to bottom. A section heading, "VISION HABITAT", is present about halfway down the page.
 
 ## Literal Transcription
 
@@ -55,7 +56,7 @@ in New York, a good deal was in Vancouver and more overseas. Slide presenta-
 tions had to be transferred to film; language-versioned 16 mm film prints had to be
 produced.
 
-**VISION HABITAT**
+VISION HABITAT
 
 In September, 1976, the UN General Assembly ordered the “maximum world-wide
 utilization of the Habitat films”. This was “Transfer of Technology” at its best. With
@@ -78,21 +79,21 @@ overthrow of the Allende government in 1973.
 
 ## Images, Captions, And Visual Notes
 
-This page contains only text. There are no images, illustrations, or other visual elements.
+There are no images, illustrations, or other visual elements on this page. The content is entirely text.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible words on this page.
+There are no uncertain or illegible words on this page. The text is clear and fully readable.
 
 ## Completeness Audit
 
-This page has been fully and accurately transcribed.
+This page has been fully transcribed. All textual content, including the page number and section heading, has been captured.
 
 ## Visual Region Manifest
 
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text."
+  "no_visual_regions_reason": "This page contains only text and does not have any images, illustrations, or other significant visual elements."
 }
 ```
