@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-23T17:27:10Z",
+  "created": "2026-05-23T18:33:07Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
@@ -8,7 +8,7 @@
   "page": 5,
   "page_image": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0005.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0005.md",
-  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other visual elements.",
+  "no_visual_regions_reason": "This page consists entirely of text and has no images, illustrations, or other visual elements that would be useful as standalone assets.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

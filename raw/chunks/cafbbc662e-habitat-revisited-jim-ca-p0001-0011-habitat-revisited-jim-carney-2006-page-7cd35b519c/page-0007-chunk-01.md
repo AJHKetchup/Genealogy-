@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-40057e48bc21-P0007-01
+chunk_id: CHUNK-31a033af0d4e-P0007-01
 source_converted: raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md
-converted_sha256: 40057e48bc219f501371f8d1cd0b852f6f3eceee578953a53b39cb24b670f10e
+converted_sha256: 31a033af0d4ef5d4bd8e25ef40b9b871d392b83effa12f824ff35393d85bf653
 source: raw/sources/Habitat Revisited, Jim Carney, 2006.pdf
 source_sha256: fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9
 source_manifest: raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json
@@ -15,7 +15,7 @@ part: 1
 - Page number: 7
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number "7" is located in the top right corner. The reading order is from top to bottom.
+This page consists of a single column of text. The page number "7" is located at the top right corner. The reading order is from top to bottom.
 
 ## Literal Transcription
 7
@@ -47,7 +47,7 @@ in New York, a good deal was in Vancouver and more overseas. Slide presenta-
 tions had to be transferred to film; language-versioned 16 mm film prints had to be
 produced.
 
-**VISION HABITAT**
+VISION HABITAT
 
 In September, 1976, the UN General Assembly ordered the “maximum world-wide
 utilization of the Habitat films”. This was “Transfer of Technology” at its best. With
@@ -72,12 +72,15 @@ overthrow of the Allende government in 1973.
 There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible parts of this page.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page is complete and contains no truncations or omissions.
+This page is complete and has been fully transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of text and contains no images, illustrations, or other visual elements."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page contains only text and a page number, with no images, illustrations, or other significant visual elements suitable for cropping."
+}
 ```
