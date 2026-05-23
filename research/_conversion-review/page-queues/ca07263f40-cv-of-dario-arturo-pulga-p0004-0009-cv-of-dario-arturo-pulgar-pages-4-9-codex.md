@@ -14,7 +14,7 @@
 - Quality flags: explicit_reread_needed
 - Matched family context: Dario, Pulgar
 
-### Page 6
+### Page 5
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
@@ -22,10 +22,10 @@
 - Quality flags: explicit_reread_needed
 - Matched family context: Dario, Pulgar
 
-### Page 6
+### Page 9
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
 - Family relevance: `medium`
-- Quality flags: possible_table_layout_loss
+- Quality flags: explicit_reread_needed
 - Matched family context: Dario, Pulgar

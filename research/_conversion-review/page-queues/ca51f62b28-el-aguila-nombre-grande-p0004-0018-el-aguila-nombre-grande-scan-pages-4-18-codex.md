@@ -10,11 +10,19 @@
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `high`
+- Family relevance: `critical`
 - Quality flags: explicit_reread_needed
-- Matched family context: none
+- Matched family context: Arriagada
 
-### Page 11
+### Page 13
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Dario
+
+### Page 14
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
