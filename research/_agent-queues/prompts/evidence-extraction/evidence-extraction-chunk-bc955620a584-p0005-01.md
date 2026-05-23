@@ -11,20 +11,20 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
 - Page range: 5-5
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Article
-- Evidence priority: `100005` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
-
-## QC Hold
-
-- Status: `blocked_needs_reread`
-- Blocked pages: 5
-- Page reread queue: `research/_conversion-review/page-queues/ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425-codex.md`
-- Suspected readings: `research/_conversion-review/corrections/ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425-codex.md`
-
-Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
+- Family relevance: `none`
+- Matched family terms: none
+- Narrative cues: discussion, minutes, statement
+- Evidence priority: `4005` (family_relevance:none, qc:pass, deferred_until_family_relevant)
 
 
+
+## Person-First Narrative Contract
+
+- Start with known family members and reviewed family relationships, not source chunks as the main object.
+- Extract claims only when they can support a family member, family relationship, life event, place in a family story, photograph, or narrative question.
+- High-value narrative claims include where a family member stayed, traveled, lived, worked, studied, appeared in a photo, attended a meeting, served as a delegate, spoke, signed, witnessed, or was present for a discussion.
+- Context about a hotel, institution, place, co-delegate, meeting, or historical setting is useful only when it directly explains a family member's experience or a specific family record. Keep broad background as a staged context/research note with an explicit linked family entity, or mark it low relevance.
+- Do not fan out generic claims about all delegates, all places, or all official proceedings unless the chunk ties them to the family member's narrative.
 
 ## Done When
 

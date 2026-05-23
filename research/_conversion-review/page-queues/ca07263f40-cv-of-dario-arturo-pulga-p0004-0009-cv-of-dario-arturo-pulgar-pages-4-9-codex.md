@@ -8,40 +8,24 @@
 
 ### Page 4
 
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
+- Recommended action: `spot-check`
+- Conversion confidence: `medium`
+- Family relevance: `medium`
 - Quality flags: explicit_reread_needed
-- Matched family context: Arturo, Dario, Entries, Pulgar
+- Matched family context: Dario, Pulgar
 
 ### Page 5
 
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
+- Recommended action: `spot-check`
+- Conversion confidence: `medium`
+- Family relevance: `medium`
 - Quality flags: explicit_reread_needed
-- Matched family context: Arturo, Dario, Entries, Pulgar, england
+- Matched family context: Dario, Pulgar
 
 ### Page 6
 
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
+- Recommended action: `spot-check`
+- Conversion confidence: `medium`
+- Family relevance: `medium`
 - Quality flags: explicit_reread_needed
-- Matched family context: Arturo, Dario, Pulgar
-
-### Page 8
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Arturo, Dario, Pulgar
-
-### Page 9
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Arturo, Dario, Pulgar
+- Matched family context: Dario, Pulgar

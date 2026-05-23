@@ -9,17 +9,17 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 4 | none | high | pass | none | none |
-| 2 | medium | high | pass | none | Medical |
-| 6 | medium | high | pass | none | Medical |
-| 4 | medium | high | pass | none | Article, Medical |
-| 5 | medium | high | pass | none | Article, intended |
-| 6 | medium | high | pass | none | Article |
-| 7 | medium | high | pass | none | Article |
-| 8 | medium | high | pass | none | Article, Medical |
-| 9 | medium | high | pass | none | Article |
-| 10 | medium | high | pass | none | Article |
-| 11 | medium | high | pass | none | Article |
-| 12 | medium | high | pass | none | Article |
-| 13 | medium | high | pass | none | Article |
-| 14 | medium | high | pass | none | Article, Pulgar |
+| 2 | none | high | pass | none | none |
+| 6 | none | high | pass | none | none |
+| 4 | none | high | pass | none | none |
+| 5 | none | high | pass | none | none |
+| 6 | none | high | pass | none | none |
+| 7 | none | high | pass | none | none |
+| 8 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
+| 10 | none | high | pass | none | none |
+| 11 | none | high | pass | none | none |
+| 12 | none | high | pass | none | none |
+| 13 | none | high | pass | none | none |
+| 14 | high | high | pass | none | Pulgar |
 | 15 | none | high | pass | none | none |

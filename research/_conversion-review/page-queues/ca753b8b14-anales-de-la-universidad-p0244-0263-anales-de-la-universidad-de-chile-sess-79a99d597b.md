@@ -6,34 +6,4 @@
 
 ## Queued Pages
 
-### Page 1
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `high`
-- Quality flags: none
-- Matched family context: none
-
-### Page 255
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: concepcion
-
-### Page 14
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Entries
-
-### Page 258
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `high`
-- Quality flags: none
-- Matched family context: none
+No pages queued for reread.

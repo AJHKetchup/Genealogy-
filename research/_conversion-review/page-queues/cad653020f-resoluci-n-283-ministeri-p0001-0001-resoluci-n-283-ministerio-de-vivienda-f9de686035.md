@@ -12,4 +12,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arriagada, Darío, Expropriation, Pulgar, pulgar arriagada
+- Matched family context: Arriagada, Pulgar

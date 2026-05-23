@@ -8,18 +8,18 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 101 | critical | low | reread-page | none | Darío |
-| 102 | critical | low | reread-page | none | Arturo, García, Smith |
-| 103 | medium | high | pass | none | Riquelme |
+| 101 | none | high | pass | none | none |
+| 102 | medium | high | pass | none | Smith |
+| 103 | none | high | pass | none | none |
 | 104 | none | high | pass | none | none |
-| 105 | medium | high | pass | none | Arturo, Pulgar |
-| 106 | critical | low | reread-page | none | Larraín, Riquelme |
-| 107 | high | high | pass | none | Andes, Arturo, García |
-| 108 | critical | low | reread-page | none | Arturo, García |
+| 105 | medium | high | pass | none | Pulgar |
+| 106 | none | high | pass | none | none |
+| 107 | none | high | pass | none | none |
+| 108 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
-| 10 | medium | high | pass | none | Arturo |
-| 11 | critical | low | reread-page | none | Arriagada, García, Riquelme |
-| 12 | critical | low | reread-page | none | Arriagada, Arturo, Gallegos, García |
-| 13 | medium | high | pass | none | Arriagada, García |
-| 114 | critical | low | reread-page | none | Arturo, Virginio |
+| 10 | none | high | pass | none | none |
+| 11 | medium | high | pass | none | Arriagada |
+| 12 | medium | high | pass | none | Arriagada |
+| 13 | medium | high | pass | none | Arriagada |
+| 114 | none | high | pass | none | none |
 | 115 | none | high | pass | none | none |

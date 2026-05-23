@@ -6,11 +6,6 @@
 
 ## Suspected Readings
 
-- Literal converted text: `resolution`
-  Suspected reading: `Resolucion`
-  Reason: near match to known family context term `Resolucion`
-  Verification target: reread the page image or exact region before using this in a claim.
-
 - Literal converted text: `Darío`
   Suspected reading: `Dario`
   Reason: near match to known family context term `Dario`

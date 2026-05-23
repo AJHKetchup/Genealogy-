@@ -6,42 +6,10 @@
 
 ## Queued Pages
 
-### Page 1
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Arriagada, concepcion
-
-### Page 4
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dario, Pulgar, concepcion
-
-### Page 5
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Article, Pulgar
-
-### Page 10
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dario, Pulgar, concepcion
-
 ### Page 14
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Dario, Pulgar, concepcion
+- Matched family context: Dario, Dario Pulgar, Pulgar

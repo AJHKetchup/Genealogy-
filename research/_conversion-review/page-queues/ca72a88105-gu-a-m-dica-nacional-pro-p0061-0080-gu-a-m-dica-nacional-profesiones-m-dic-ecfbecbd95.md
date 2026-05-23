@@ -6,58 +6,10 @@
 
 ## Queued Pages
 
-### Page 61
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Andes, Gallegos
-
-### Page 63
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Carmen, García
-
-### Page 65
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Arturo, Directory, García, Riquelme
-
-### Page 70
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Arturo, Gallegos, Juana, Osorio
-
-### Page 73
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Arturo, Darío, Directory
-
 ### Page 17
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arriagada, Arturo, Darío, Directory, Entries, Pulgar, pulgar arriagada
-
-### Page 19
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Directory, Entries, Riquelme, listing
+- Matched family context: Arriagada, Pulgar

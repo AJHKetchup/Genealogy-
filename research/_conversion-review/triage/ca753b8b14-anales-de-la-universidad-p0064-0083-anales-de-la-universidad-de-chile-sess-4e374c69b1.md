@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 64 | critical | low | reread-page | none | Arturo, Darío |
-| 65 | medium | high | pass | none | García |
-| 66 | medium | high | pass | none | Arriagada |
-| 67 | medium | high | pass | none | Carmen, Mercedes |
+| 64 | high | low | reread-page | none | none |
+| 65 | none | high | pass | none | none |
+| 66 | high | high | pass | none | Arriagada |
+| 67 | none | high | pass | none | none |
 | 68 | none | high | pass | none | none |
-| 69 | medium | high | pass | none | Arriagada |
-| 70 | critical | low | reread-page | none | Mercedes |
+| 69 | high | high | pass | none | Arriagada |
+| 70 | none | high | pass | none | none |
 | 71 | none | high | pass | none | none |
-| 72 | critical | low | reread-page | none | Arriagada |
-| 73 | medium | high | pass | none | Arturo |
-| 74 | medium | high | pass | none | García |
-| 75 | critical | low | reread-page | none | Arriagada |
-| 76 | medium | high | pass | none | Mercedes |
+| 72 | high | high | pass | none | Arriagada |
+| 73 | none | high | pass | none | none |
+| 74 | none | high | pass | none | none |
+| 75 | high | high | pass | none | Arriagada |
+| 76 | none | high | pass | none | none |
 | 77 | none | high | pass | none | none |
-| 78 | medium | high | pass | none | García |
-| 79 | medium | high | pass | none | Arriagada |
-| 80 | medium | high | pass | none | Arturo |
-| 81 | medium | high | pass | none | García |
+| 78 | none | high | pass | none | none |
+| 79 | high | high | pass | none | Arriagada |
+| 80 | none | high | pass | none | none |
+| 81 | none | high | pass | none | none |
 | 82 | none | high | pass | none | none |
-| 83 | medium | high | pass | none | Arturo |
+| 83 | none | high | pass | none | none |

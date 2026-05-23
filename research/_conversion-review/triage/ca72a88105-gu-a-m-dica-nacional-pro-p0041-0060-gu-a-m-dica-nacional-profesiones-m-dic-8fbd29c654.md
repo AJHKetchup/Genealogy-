@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 41 | medium | high | pass | none | Riquelme |
-| 2 | critical | low | reread-page | none | Carmen, García |
+| 41 | none | high | pass | none | none |
+| 2 | none | high | pass | none | none |
 | 43 | medium | high | pass | none | Arriagada |
-| 44 | medium | high | pass | none | Arturo, Carmen |
-| 45 | medium | high | pass | none | Arturo, Juana |
+| 44 | none | high | pass | none | none |
+| 45 | none | high | pass | none | none |
 | 46 | medium | high | pass | none | Smith |
 | 47 | medium | high | pass | none | Heinz |
-| 48 | medium | high | pass | none | García, Riquelme |
-| 49 | medium | high | pass | none | Arturo, Carmen |
-| 50 | medium | high | pass | none | Arturo |
-| 51 | critical | low | reread-page | none | Arturo, Heinz |
-| 52 | high | high | pass | none | Carmen, Gallegos, Osorio |
-| 56 | critical | low | reread-page | none | Arturo, Directory, Entries, Gallegos, García, Larraín, Lavín, Medical, listing, locality |
-| 54 | critical | low | reread-page | none | Arturo, Darío |
-| 55 | critical | low | reread-page | none | Arturo, Carmen |
-| 16 | high | high | pass | none | Alexander, Directory, Riquelme |
+| 48 | none | high | pass | none | none |
+| 49 | none | high | pass | none | none |
+| 50 | none | high | pass | none | none |
+| 51 | medium | high | pass | none | Heinz |
+| 52 | none | high | pass | none | none |
+| 56 | none | high | pass | none | none |
+| 54 | none | high | pass | none | none |
+| 55 | none | high | pass | none | none |
+| 16 | high | high | pass | none | Alexander |
 | 57 | medium | high | pass | none | Smith |
-| 58 | critical | low | reread-page | none | Darío |
-| 59 | medium | high | pass | none | García, Larraín |
-| 60 | critical | low | reread-page | none | Arturo, Darío |
+| 58 | none | high | pass | none | none |
+| 59 | none | high | pass | none | none |
+| 60 | none | high | pass | none | none |

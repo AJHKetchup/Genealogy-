@@ -11,11 +11,20 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
 - Page range: 1-1
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Andes, Arturo, Carmen, Darío, Directory, Entries, García, Riquelme, Tulio
-- Evidence priority: `1001` (family_relevance:high, matched_terms)
+- Family relevance: `none`
+- Matched family terms: none
+- Narrative cues: address
+- Evidence priority: `4001` (family_relevance:none, deferred_until_family_relevant)
 
 
+
+## Person-First Narrative Contract
+
+- Start with known family members and reviewed family relationships, not source chunks as the main object.
+- Extract claims only when they can support a family member, family relationship, life event, place in a family story, photograph, or narrative question.
+- High-value narrative claims include where a family member stayed, traveled, lived, worked, studied, appeared in a photo, attended a meeting, served as a delegate, spoke, signed, witnessed, or was present for a discussion.
+- Context about a hotel, institution, place, co-delegate, meeting, or historical setting is useful only when it directly explains a family member's experience or a specific family record. Keep broad background as a staged context/research note with an explicit linked family entity, or mark it low relevance.
+- Do not fan out generic claims about all delegates, all places, or all official proceedings unless the chunk ties them to the family member's narrative.
 
 ## Done When
 

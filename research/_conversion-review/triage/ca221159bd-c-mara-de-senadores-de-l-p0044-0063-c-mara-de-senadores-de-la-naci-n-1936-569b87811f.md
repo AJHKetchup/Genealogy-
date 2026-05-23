@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 40 | medium | high | pass | none | Article |
+| 40 | none | high | pass | none | none |
 | 2 | none | high | pass | none | none |
-| 3 | high | low | reread-page | none | none |
-| 4 | critical | low | reread-page | none | García |
-| 5 | high | low | reread-page | none | none |
+| 3 | none | high | pass | none | none |
+| 4 | none | high | pass | none | none |
+| 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
-| 8 | medium | high | pass | none | Segundo |
+| 8 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
-| 15 | medium | high | pass | none | García |
-| 16 | medium | high | pass | none | Arturo |
-| 17 | medium | high | pass | none | García |
+| 15 | none | high | pass | none | none |
+| 16 | none | high | pass | none | none |
+| 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |

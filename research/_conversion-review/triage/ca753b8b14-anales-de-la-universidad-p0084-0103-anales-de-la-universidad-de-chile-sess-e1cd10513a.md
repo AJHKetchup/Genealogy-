@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 84 | medium | high | pass | none | Arturo, García |
+| 84 | none | high | pass | none | none |
 | 85 | none | high | pass | none | none |
 | 86 | none | high | pass | none | none |
 | 87 | none | high | pass | none | none |
-| 88 | medium | high | pass | none | García |
+| 88 | none | high | pass | none | none |
 | 89 | none | high | pass | none | none |
 | 90 | none | high | pass | none | none |
 | 91 | none | high | pass | none | none |
 | 92 | none | high | pass | none | none |
-| 93 | medium | high | pass | none | García |
-| 94 | medium | high | pass | none | Arturo |
+| 93 | none | high | pass | none | none |
+| 94 | none | high | pass | none | none |
 | 95 | none | high | pass | none | none |
-| 96 | critical | low | reread-page | none | Arriagada |
-| 97 | medium | high | pass | none | Arturo, Mercedes |
+| 96 | high | high | pass | none | Arriagada |
+| 97 | none | high | pass | none | none |
 | 98 | none | high | pass | none | none |
-| 99 | medium | high | pass | none | García |
+| 99 | none | high | pass | none | none |
 | 100 | none | high | pass | none | none |
-| 101 | medium | high | pass | none | Arriagada |
-| 102 | medium | high | pass | none | Arturo |
+| 101 | high | high | pass | none | Arriagada |
+| 102 | none | high | pass | none | none |
 | 103 | none | high | pass | none | none |

@@ -8,13 +8,13 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | medium | high | pass | none | Andes |
+| 1 | none | high | pass | none | none |
 | 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 537 | none | high | pass | none | none |
 | 608 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
-| 610 | medium | high | pass | none | Segundo |
+| 610 | none | high | pass | none | none |
 | 611 | none | high | pass | none | none |
 | 612 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |

@@ -8,18 +8,18 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | critical | low | reread-page | none | Arriagada, concepcion |
+| 1 | medium | high | pass | none | Arriagada |
 | 5 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
-| 4 | critical | low | reread-page | none | Dario, Pulgar, concepcion |
-| 5 | critical | low | reread-page | none | Article, Pulgar |
-| 6 | medium | high | pass | none | Andes |
+| 4 | high | high | pass | none | Dario, Dario Pulgar, Pulgar |
+| 5 | medium | high | pass | none | Pulgar |
+| 6 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
-| 10 | critical | low | reread-page | none | Dario, Pulgar, concepcion |
-| 14 | critical | low | reread-page | none | Dario, Pulgar, concepcion |
-| 12 | medium | high | pass | none | Article |
+| 10 | high | high | pass | none | Dario, Dario Pulgar, Pulgar |
+| 14 | critical | low | reread-page | none | Dario, Dario Pulgar, Pulgar |
+| 12 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |

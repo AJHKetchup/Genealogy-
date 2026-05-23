@@ -11,20 +11,20 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
 - Page range: 1-1
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Arriagada, concepcion
-- Evidence priority: `100001` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
-
-## QC Hold
-
-- Status: `blocked_needs_reread`
-- Blocked pages: 1
-- Page reread queue: `research/_conversion-review/page-queues/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex.md`
-- Suspected readings: `research/_conversion-review/corrections/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex.md`
-
-Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
+- Family relevance: `medium`
+- Matched family terms: Arriagada
+- Narrative cues: none
+- Evidence priority: `2001` (family_relevance:medium, qc:pass, matched_terms)
 
 
+
+## Person-First Narrative Contract
+
+- Start with known family members and reviewed family relationships, not source chunks as the main object.
+- Extract claims only when they can support a family member, family relationship, life event, place in a family story, photograph, or narrative question.
+- High-value narrative claims include where a family member stayed, traveled, lived, worked, studied, appeared in a photo, attended a meeting, served as a delegate, spoke, signed, witnessed, or was present for a discussion.
+- Context about a hotel, institution, place, co-delegate, meeting, or historical setting is useful only when it directly explains a family member's experience or a specific family record. Keep broad background as a staged context/research note with an explicit linked family entity, or mark it low relevance.
+- Do not fan out generic claims about all delegates, all places, or all official proceedings unless the chunk ties them to the family member's narrative.
 
 ## Done When
 

@@ -9,7 +9,7 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 779 | none | high | pass | none | none |
-| 780 | medium | high | pass | none | concepcion |
+| 780 | none | high | pass | none | none |
 | 781 | none | high | pass | none | none |
 | 782 | none | high | pass | none | none |
 | 783 | none | high | pass | none | none |
@@ -28,8 +28,8 @@
 | 796 | none | high | pass | none | none |
 | 797 | none | high | pass | none | none |
 | 798 | none | high | pass | none | none |
-| 799 | medium | high | pass | none | Medical |
+| 799 | none | high | pass | none | none |
 | 800 | none | high | pass | none | none |
 | 801 | none | high | pass | none | none |
-| 802 | medium | high | pass | none | Segundo |
+| 802 | none | high | pass | none | none |
 | 803 | none | high | pass | none | none |

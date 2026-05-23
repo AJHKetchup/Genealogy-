@@ -6,42 +6,4 @@
 
 ## Queued Pages
 
-### Page 24
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `high`
-- Quality flags: none
-- Matched family context: none
-
-### Page 25
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `high`
-- Quality flags: none
-- Matched family context: none
-
-### Page 26
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `high`
-- Quality flags: none
-- Matched family context: none
-
-### Page 28
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `high`
-- Quality flags: none
-- Matched family context: none
-
-### Page 33
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: concepcion, larrain
+No pages queued for reread.

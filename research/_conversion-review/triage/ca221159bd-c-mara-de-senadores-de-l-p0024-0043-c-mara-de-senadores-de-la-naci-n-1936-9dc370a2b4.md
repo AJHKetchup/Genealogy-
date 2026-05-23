@@ -9,11 +9,11 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
-| 2 | medium | high | pass | none | Article |
+| 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
-| 4 | medium | high | pass | none | Article |
+| 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
-| 6 | medium | high | pass | none | Cesar |
+| 6 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
@@ -25,6 +25,6 @@
 | 15 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
-| 18 | medium | high | pass | none | Article |
-| 19 | medium | high | pass | none | Segundo |
+| 18 | none | high | pass | none | none |
+| 19 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |

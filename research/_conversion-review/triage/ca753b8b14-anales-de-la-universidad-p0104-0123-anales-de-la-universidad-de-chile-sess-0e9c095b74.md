@@ -9,22 +9,22 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 104 | none | high | pass | none | none |
-| 105 | medium | high | pass | none | Arriagada, Arturo |
+| 105 | high | high | pass | none | Arriagada |
 | 106 | none | high | pass | none | none |
-| 107 | medium | high | pass | none | García |
-| 108 | medium | high | pass | none | Arriagada |
-| 109 | medium | high | pass | none | Arturo |
-| 110 | medium | high | pass | none | Arturo, Mercedes |
-| 111 | medium | high | pass | none | Arturo, García |
+| 107 | none | high | pass | none | none |
+| 108 | high | high | pass | none | Arriagada |
+| 109 | none | high | pass | none | none |
+| 110 | none | high | pass | none | none |
+| 111 | none | high | pass | none | none |
 | 112 | none | high | pass | none | none |
-| 113 | medium | high | pass | none | Arriagada |
-| 114 | medium | high | pass | none | Arturo |
+| 113 | high | high | pass | none | Arriagada |
+| 114 | none | high | pass | none | none |
 | 115 | none | high | pass | none | none |
-| 116 | medium | high | pass | none | García |
+| 116 | none | high | pass | none | none |
 | 117 | none | high | pass | none | none |
 | 118 | none | high | pass | none | none |
-| 119 | medium | high | pass | none | Arturo |
-| 120 | medium | high | pass | none | Arturo |
+| 119 | none | high | pass | none | none |
+| 120 | none | high | pass | none | none |
 | 121 | none | high | pass | none | none |
 | 122 | none | high | pass | none | none |
 | 123 | none | high | pass | none | none |

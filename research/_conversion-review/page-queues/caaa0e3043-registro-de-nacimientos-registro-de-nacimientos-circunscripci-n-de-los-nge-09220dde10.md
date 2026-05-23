@@ -6,10 +6,4 @@
 
 ## Queued Pages
 
-### Page 1
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Carmen, Entries, Osorio
+No pages queued for reread.

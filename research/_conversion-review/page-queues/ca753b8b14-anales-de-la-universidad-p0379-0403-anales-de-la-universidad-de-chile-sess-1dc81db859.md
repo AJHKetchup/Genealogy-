@@ -6,34 +6,4 @@
 
 ## Queued Pages
 
-### Page 8
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `high`
-- Quality flags: none
-- Matched family context: none
-
-### Page 10
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: García
-
-### Page 397
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `high`
-- Quality flags: none
-- Matched family context: none
-
-### Page 22
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Larraín, Mercedes
+No pages queued for reread.

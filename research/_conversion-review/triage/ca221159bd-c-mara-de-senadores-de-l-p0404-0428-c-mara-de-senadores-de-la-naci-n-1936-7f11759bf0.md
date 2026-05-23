@@ -8,13 +8,13 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | medium | high | pass | none | Article |
-| 2 | medium | high | pass | none | Article |
+| 1 | none | high | pass | none | none |
+| 2 | none | high | pass | none | none |
 | 406 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
 | 408 | none | high | pass | none | none |
-| 409 | medium | high | pass | none | Resolucion |
-| 7 | medium | high | pass | none | Article |
+| 409 | none | high | pass | none | none |
+| 7 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
 | 412 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
@@ -27,7 +27,7 @@
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |
-| 20 | medium | high | pass | none | listing |
+| 20 | none | high | pass | none | none |
 | 21 | none | high | pass | none | none |
 | 22 | none | high | pass | none | none |
 | 23 | none | high | pass | none | none |

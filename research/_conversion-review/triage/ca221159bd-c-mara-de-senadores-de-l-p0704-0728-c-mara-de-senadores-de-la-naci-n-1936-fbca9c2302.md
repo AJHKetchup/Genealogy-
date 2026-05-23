@@ -8,12 +8,12 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 704 | critical | low | reread-page | none | Resolucion |
+| 704 | none | high | pass | none | none |
 | 705 | none | high | pass | none | none |
 | 706 | none | high | pass | none | none |
 | 707 | none | high | pass | none | none |
 | 708 | none | high | pass | none | none |
-| 709 | medium | high | pass | none | Segundo |
+| 709 | none | high | pass | none | none |
 | 710 | none | high | pass | none | none |
 | 711 | none | high | pass | none | none |
 | 712 | none | high | pass | none | none |
@@ -21,12 +21,12 @@
 | 714 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 716 | none | high | pass | none | none |
-| 717 | high | low | reread-page | none | none |
+| 717 | none | high | pass | none | none |
 | 718 | none | high | pass | none | none |
 | 719 | none | high | pass | none | none |
-| 720 | medium | high | pass | none | Segundo |
+| 720 | none | high | pass | none | none |
 | 721 | none | high | pass | none | none |
-| 19 | high | low | reread-page | none | none |
+| 19 | none | high | pass | none | none |
 | 723 | none | high | pass | none | none |
 | 724 | none | high | pass | none | none |
 | 725 | none | high | pass | none | none |

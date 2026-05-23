@@ -12,7 +12,7 @@
 | 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
-| 5 | critical | low | reread-page | none | Segundo |
+| 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |

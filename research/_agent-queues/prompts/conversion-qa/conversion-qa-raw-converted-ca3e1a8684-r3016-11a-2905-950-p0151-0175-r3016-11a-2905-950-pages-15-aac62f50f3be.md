@@ -16,6 +16,6 @@ Use `$conversion-qa-triage`.
 ## Done When
 
 - Automatic QC findings have been checked and refined where needed.
-- Family-relevant pages, suspicious readings, likely name drift, table problems, handwriting uncertainty, and missing visual regions are queued under `research/_conversion-review/`.
+- Family-relevant pages, person-linked narrative clues, suspicious readings, likely name drift, table problems, handwriting uncertainty, and missing visual regions are queued under `research/_conversion-review/`.
 - Suspected corrections are documented separately from the converted Markdown.
 - The task does not promote claims or edit canonical wiki pages.

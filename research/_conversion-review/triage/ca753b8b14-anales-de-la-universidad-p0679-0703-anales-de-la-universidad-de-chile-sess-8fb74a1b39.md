@@ -24,12 +24,12 @@
 | 14 | none | high | pass | none | none |
 | 15 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
-| 17 | medium | high | pass | none | Resolucion |
+| 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |
-| 21 | medium | high | pass | none | Gallegos, Segundo |
-| 22 | medium | high | pass | none | Gallegos |
-| 23 | critical | low | reread-page | none | Gallegos |
+| 21 | none | high | pass | none | none |
+| 22 | none | high | pass | none | none |
+| 23 | none | high | pass | none | none |
 | 24 | none | high | pass | none | none |
 | 25 | none | high | pass | none | none |

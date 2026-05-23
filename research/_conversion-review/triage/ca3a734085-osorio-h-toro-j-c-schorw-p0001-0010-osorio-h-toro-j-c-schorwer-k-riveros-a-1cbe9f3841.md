@@ -8,13 +8,13 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | medium | high | pass | none | Teaching |
-| 2 | critical | low | reread-page | none | Anatomy, Medical, Osorio, Teaching, Virginio |
-| 3 | critical | low | reread-page | none | Anatomy, Article, Gomez, Osorio, Teaching, Virginio |
-| 4 | critical | low | reread-page | none | Anatomy, Darío, García, Medical, Osorio, Pulgar, Teaching, Virginio |
-| 5 | critical | low | reread-page | none | Anatomy, Darío, Gomez, Medical, Osorio, Teaching |
-| 6 | high | high | pass | none | Anatomy, Medical, Notice, Osorio, Teaching |
-| 7 | critical | low | reread-page | none | Anatomy, García, Osorio, Teaching |
-| 8 | critical | low | reread-page | none | Anatomy, Arturo, Medical, Osorio, Teaching |
-| 9 | critical | low | reread-page | none | Anatomy, Medical, Osorio, Teaching, england |
-| 10 | critical | low | reread-page | none | Anatomy, García, Medical, Osorio, Teaching, Virginio, concepcion |
+| 1 | none | high | pass | none | none |
+| 2 | none | high | pass | none | none |
+| 3 | none | high | pass | none | none |
+| 4 | critical | low | reread-page | none | Pulgar |
+| 5 | none | high | pass | none | none |
+| 6 | none | high | pass | none | none |
+| 7 | none | high | pass | none | none |
+| 8 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
+| 10 | none | high | pass | none | none |

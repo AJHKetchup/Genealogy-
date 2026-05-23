@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 21 | critical | low | reread-page | none | Darío, García |
-| 22 | medium | high | pass | none | García |
-| 23 | medium | high | pass | none | Arriagada, Arturo |
-| 24 | critical | low | reread-page | none | Andes, Carmen, Darío |
+| 21 | none | high | pass | none | none |
+| 22 | none | high | pass | none | none |
+| 23 | medium | high | pass | none | Arriagada |
+| 24 | none | high | pass | none | none |
 | 25 | none | high | pass | none | none |
-| 26 | medium | high | pass | none | García, Osorio |
-| 27 | high | high | pass | none | Andes, Arturo, García |
-| 28 | critical | low | reread-page | none | Darío, Juana |
-| 29 | medium | high | pass | none | Arturo, Carmen |
-| 30 | medium | high | pass | none | Arturo, García |
-| 31 | critical | low | reread-page | none | Arturo, Darío, García |
-| 32 | medium | high | pass | none | Arturo, García |
-| 33 | medium | high | pass | none | Andes, Carmen |
-| 34 | high | high | pass | none | Directory, Entries, listing |
+| 26 | none | high | pass | none | none |
+| 27 | none | high | pass | none | none |
+| 28 | none | high | pass | none | none |
+| 29 | none | high | pass | none | none |
+| 30 | none | high | pass | none | none |
+| 31 | none | high | pass | none | none |
+| 32 | none | high | pass | none | none |
+| 33 | none | high | pass | none | none |
+| 34 | none | high | pass | none | none |
 | 35 | medium | high | pass | none | Smith |
 | 36 | none | high | pass | none | none |
-| 37 | medium | high | pass | none | Arriagada, Gallegos |
-| 38 | critical | low | reread-page | none | Arturo, García, Riquelme |
-| 39 | critical | low | reread-page | none | Andes, Arturo, Carmen, García, Riquelme |
-| 40 | critical | low | reread-page | none | Darío |
+| 37 | medium | high | pass | none | Arriagada |
+| 38 | none | high | pass | none | none |
+| 39 | none | high | pass | none | none |
+| 40 | none | high | pass | none | none |

@@ -8,26 +8,26 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 529 | medium | high | pass | none | Segundo |
+| 529 | none | high | pass | none | none |
 | 530 | none | high | pass | none | none |
-| 3 | medium | high | pass | none | concepcion |
-| 4 | medium | high | pass | none | concepcion |
-| 533 | medium | high | pass | none | Riquelme |
-| 6 | medium | high | pass | none | Entries, Juana |
+| 3 | none | high | pass | none | none |
+| 4 | none | high | pass | none | none |
+| 533 | none | high | pass | none | none |
+| 6 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
-| 10 | medium | high | pass | none | Resolucion |
-| 11 | medium | high | pass | none | Teaching |
-| 12 | medium | high | pass | none | Resolucion |
+| 10 | none | high | pass | none | none |
+| 11 | none | high | pass | none | none |
+| 12 | none | high | pass | none | none |
 | 541 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
-| 543 | critical | low | reread-page | none | Andes, Dario |
-| 544 | medium | high | pass | none | Segundo |
-| 545 | medium | high | pass | none | concepcion |
+| 543 | high | high | pass | none | Dario |
+| 544 | none | high | pass | none | none |
+| 545 | none | high | pass | none | none |
 | 546 | none | high | pass | none | none |
-| 547 | high | low | reread-page | none | none |
-| 20 | medium | high | pass | none | Entries |
+| 547 | none | high | pass | none | none |
+| 20 | none | high | pass | none | none |
 | 21 | none | high | pass | none | none |
 | 22 | none | high | pass | none | none |
 | 23 | none | high | pass | none | none |

@@ -10,78 +10,22 @@
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
-- Family relevance: `medium`
+- Family relevance: `none`
 - Quality flags: explicit_reread_needed
-- Matched family context: Mercedes
-
-### Page 10
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Directory, listing
-
-### Page 12
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `high`
-- Quality flags: none
 - Matched family context: none
-
-### Page 14
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Entries
-
-### Page 15
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Medical
-
-### Page 36
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Arturo
 
 ### Page 37
 
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
+- Recommended action: `spot-check`
+- Conversion confidence: `medium`
+- Family relevance: `none`
 - Quality flags: explicit_reread_needed
-- Matched family context: Virginio
-
-### Page 18
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Virginio
+- Matched family context: none
 
 ### Page 39
 
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
+- Recommended action: `spot-check`
+- Conversion confidence: `medium`
+- Family relevance: `none`
 - Quality flags: explicit_reread_needed
-- Matched family context: Virginio
-
-### Page 40
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Virginio
+- Matched family context: none

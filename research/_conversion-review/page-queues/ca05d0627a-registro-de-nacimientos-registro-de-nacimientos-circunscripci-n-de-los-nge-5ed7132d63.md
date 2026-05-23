@@ -6,10 +6,4 @@
 
 ## Queued Pages
 
-### Page 172
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Carmen, Entries, Juana, Mercedes, Pulgar, Riquelme, mercedes riquelme
+No pages queued for reread.

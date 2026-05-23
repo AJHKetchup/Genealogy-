@@ -6,10 +6,4 @@
 
 ## Queued Pages
 
-### Page 5
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Segundo
+No pages queued for reread.

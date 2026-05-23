@@ -6,26 +6,4 @@
 
 ## Queued Pages
 
-### Page 3
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `high`
-- Quality flags: none
-- Matched family context: none
-
-### Page 4
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: García
-
-### Page 5
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `high`
-- Quality flags: none
-- Matched family context: none
+No pages queued for reread.

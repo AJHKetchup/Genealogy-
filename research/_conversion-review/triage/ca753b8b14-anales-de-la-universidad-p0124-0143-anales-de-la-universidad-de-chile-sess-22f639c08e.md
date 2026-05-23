@@ -10,7 +10,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 124 | none | high | pass | none | none |
 | 125 | none | high | pass | none | none |
-| 126 | medium | high | pass | none | García, Juana |
+| 126 | none | high | pass | none | none |
 | 127 | none | high | pass | none | none |
 | 128 | none | high | pass | none | none |
 | 129 | none | high | pass | none | none |
@@ -27,4 +27,4 @@
 | 140 | none | high | pass | none | none |
 | 141 | none | high | pass | none | none |
 | 142 | none | high | pass | none | none |
-| 143 | critical | low | reread-page | none | Mercedes |
+| 143 | none | high | pass | none | none |

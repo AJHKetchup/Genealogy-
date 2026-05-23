@@ -6,66 +6,10 @@
 
 ## Queued Pages
 
-### Page 2
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Anatomy, Medical, Osorio, Teaching, Virginio
-
-### Page 3
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Anatomy, Article, Gomez, Osorio, Teaching, Virginio
-
 ### Page 4
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Anatomy, Darío, García, Medical, Osorio, Pulgar, Teaching, Virginio
-
-### Page 5
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Anatomy, Darío, Gomez, Medical, Osorio, Teaching
-
-### Page 7
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Anatomy, García, Osorio, Teaching
-
-### Page 8
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Anatomy, Arturo, Medical, Osorio, Teaching
-
-### Page 9
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Anatomy, Medical, Osorio, Teaching, england
-
-### Page 10
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Anatomy, García, Medical, Osorio, Teaching, Virginio, concepcion
+- Matched family context: Pulgar

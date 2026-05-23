@@ -8,4 +8,4 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 172 | critical | low | reread-page | none | Carmen, Entries, Juana, Mercedes, Pulgar, Riquelme, mercedes riquelme |
+| 172 | high | high | pass | none | Pulgar |

@@ -10,21 +10,21 @@
 | --- | --- | --- | --- | --- | --- |
 | 144 | none | high | pass | none | none |
 | 145 | none | high | pass | none | none |
-| 146 | medium | high | pass | none | Arriagada |
-| 147 | medium | high | pass | none | Mercedes |
-| 148 | medium | high | pass | none | Arriagada, Arturo |
-| 149 | high | high | pass | none | Andes, Arriagada, Juana |
-| 150 | medium | high | pass | none | Juana |
-| 151 | medium | high | pass | none | Arturo, García |
-| 152 | medium | high | pass | none | Arturo |
+| 146 | high | high | pass | none | Arriagada |
+| 147 | none | high | pass | none | none |
+| 148 | high | high | pass | none | Arriagada |
+| 149 | high | high | pass | none | Arriagada |
+| 150 | none | high | pass | none | none |
+| 151 | none | high | pass | none | none |
+| 152 | none | high | pass | none | none |
 | 153 | none | high | pass | none | none |
-| 154 | medium | high | pass | none | García |
+| 154 | none | high | pass | none | none |
 | 155 | none | high | pass | none | none |
 | 156 | none | high | pass | none | none |
 | 157 | none | high | pass | none | none |
-| 158 | medium | high | pass | none | García |
+| 158 | none | high | pass | none | none |
 | 159 | none | high | pass | none | none |
 | 160 | none | high | pass | none | none |
-| 161 | critical | low | reread-page | none | Darío |
-| 162 | critical | low | reread-page | none | Darío |
-| 163 | critical | low | reread-page | none | Darío |
+| 161 | none | high | pass | none | none |
+| 162 | none | high | pass | none | none |
+| 163 | none | high | pass | none | none |

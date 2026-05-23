@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 44 | critical | low | reread-page | none | Arturo, García |
-| 45 | high | low | reread-page | none | none |
-| 46 | critical | low | reread-page | none | Arturo |
-| 47 | high | low | reread-page | none | none |
-| 48 | medium | high | pass | none | García |
+| 44 | none | high | pass | none | none |
+| 45 | none | high | pass | none | none |
+| 46 | none | high | pass | none | none |
+| 47 | none | high | pass | none | none |
+| 48 | none | high | pass | none | none |
 | 49 | none | high | pass | none | none |
-| 50 | medium | high | pass | none | Arturo |
-| 51 | medium | high | pass | none | Andes, Arturo |
+| 50 | none | high | pass | none | none |
+| 51 | none | high | pass | none | none |
 | 52 | none | high | pass | none | none |
-| 53 | medium | high | pass | none | Arturo |
+| 53 | none | high | pass | none | none |
 | 54 | none | high | pass | none | none |
-| 55 | critical | low | reread-page | none | García |
+| 55 | none | high | pass | none | none |
 | 56 | none | high | pass | none | none |
 | 57 | none | high | pass | none | none |
 | 58 | none | high | pass | none | none |
-| 16 | critical | low | reread-page | none | Arriagada, Segundo |
-| 60 | high | high | pass | none | Arturo, Juana, Mercedes, Segundo |
-| 61 | medium | high | pass | none | Segundo |
+| 16 | medium | high | pass | none | Arriagada |
+| 60 | none | high | pass | none | none |
+| 61 | none | high | pass | none | none |
 | 62 | none | high | pass | none | none |
-| 63 | medium | high | pass | none | Segundo |
+| 63 | none | high | pass | none | none |

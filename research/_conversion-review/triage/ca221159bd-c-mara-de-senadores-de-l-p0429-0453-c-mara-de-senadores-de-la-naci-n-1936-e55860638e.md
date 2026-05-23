@@ -13,7 +13,7 @@
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
-| 6 | medium | high | pass | none | Entries |
+| 6 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
@@ -26,10 +26,10 @@
 | 16 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
-| 19 | medium | high | pass | none | Article |
+| 19 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |
 | 21 | none | high | pass | none | none |
 | 22 | none | high | pass | none | none |
-| 23 | medium | high | pass | none | Article |
-| 24 | medium | high | pass | none | Article |
+| 23 | none | high | pass | none | none |
+| 24 | none | high | pass | none | none |
 | 25 | none | high | pass | none | none |

@@ -11,9 +11,10 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png`
 - Page range: 1-1
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Carmen, Entries, Osorio
-- Evidence priority: `-699` (family_relevance:critical, qc:reread-page, matched_terms, proof_review_revision)
+- Family relevance: `none`
+- Matched family terms: none
+- Narrative cues: birth, witness
+- Evidence priority: `3301` (family_relevance:none, qc:pass, proof_review_revision)
 
 
 ## Proof Review Revision Context
@@ -23,6 +24,7 @@ Previous proof review found staged outputs for this chunk were not yet promotion
 | Review | Staged draft | Readiness | Requested follow-up |
 | --- | --- | --- | --- |
 | `research/_staging/reviews/chunk-7d3991a78bc8-p0001-01-001-child-birth-name-proof-review.md` | `research/_staging/claims/chunk-7d3991a78bc8-p0001-01-001-child-birth-name.md` | `hold_for_conversion_qa` | Send to conversion QA to reconcile `raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172.codex.md` and its chunk against the source image for page 58, entry 172. Do not promote this birth-name claim until that reconciliation is recorded. |
+| `research/_staging/reviews/chunk-7d3991a78bc8-p0001-01-005-registration-date-proof-review.md` | `research/_staging/claims/chunk-7d3991a78bc8-p0001-01-005-registration-date.md` | `hold_for_conversion_qa` | Send to conversion QA to reconcile `raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172.codex.md` and its chunk against the source image for page 58, entry 172. After that correction is recorded, this registration-date claim can be reconsidered for canonical promotion. |
 | `research/_staging/reviews/proof-review-research-staging-claims-chunk-7d3991a78bc8-p0001-01-002-child-sex-postconv-proof-review-20260523002215327.md` | `research/_staging/claims/chunk-7d3991a78bc8-p0001-01-002-child-sex.md` | `hold_for_conversion_qa` | Send to conversion QA to reconcile `raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172.codex.md` and `raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-09220dde10/page-0001-chunk-01.md` against the source image for page 58, entry 172. Keep this sex claim staged on hold until that reconciliation is recorded. |
 | `research/_staging/reviews/proof-review-research-staging-claims-chunk-7d3991a78bc8-p0001-01-003-birth-date-time-postconv-proof-review-20260523002508736.md` | `research/_staging/claims/chunk-7d3991a78bc8-p0001-01-003-birth-date-time.md` | `hold_for_conversion_qa` | Send to conversion QA to reconcile `raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172.codex.md` and `raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-09220dde10/page-0001-chunk-01.md` against the original image for page 58, entry 172. Do not promote this birth-date/time claim until that reconciliation is recorded. |
 | `research/_staging/reviews/proof-review-research-staging-claims-chunk-7d3991a78bc8-p0001-01-004-birth-place-postconv-proof-review-20260523002806777.md` | `research/_staging/claims/chunk-7d3991a78bc8-p0001-01-004-birth-place.md` | `hold_for_conversion_qa` | Send to conversion QA to reconcile `raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172.codex.md` and `raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-09220dde10/page-0001-chunk-01.md` against the original image for page 58, entry 172. Do not promote this birth-place claim until that reconciliation is recorded. |
@@ -32,6 +34,14 @@ Previous proof review found staged outputs for this chunk were not yet promotion
 
 When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
+
+## Person-First Narrative Contract
+
+- Start with known family members and reviewed family relationships, not source chunks as the main object.
+- Extract claims only when they can support a family member, family relationship, life event, place in a family story, photograph, or narrative question.
+- High-value narrative claims include where a family member stayed, traveled, lived, worked, studied, appeared in a photo, attended a meeting, served as a delegate, spoke, signed, witnessed, or was present for a discussion.
+- Context about a hotel, institution, place, co-delegate, meeting, or historical setting is useful only when it directly explains a family member's experience or a specific family record. Keep broad background as a staged context/research note with an explicit linked family entity, or mark it low relevance.
+- Do not fan out generic claims about all delegates, all places, or all official proceedings unless the chunk ties them to the family member's narrative.
 
 ## Done When
 

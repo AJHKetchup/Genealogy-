@@ -6,21 +6,13 @@
 
 ## Queued Pages
 
-### Page 2
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Arturo
-
 ### Page 3
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Darío, Pulgar
+- Matched family context: Pulgar
 
 ### Page 86
 
@@ -32,16 +24,8 @@
 
 ### Page 90
 
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
+- Recommended action: `spot-check`
+- Conversion confidence: `medium`
+- Family relevance: `none`
 - Quality flags: explicit_reread_needed
-- Matched family context: Juana, Segundo
-
-### Page 12
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Arturo, Darío, Segundo
+- Matched family context: none

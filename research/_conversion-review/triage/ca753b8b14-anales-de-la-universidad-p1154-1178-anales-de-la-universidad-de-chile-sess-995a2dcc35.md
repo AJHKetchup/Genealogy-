@@ -8,18 +8,18 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1154 | medium | high | pass | none | Segundo |
+| 1154 | none | high | pass | none | none |
 | 1155 | none | high | pass | none | none |
 | 1156 | none | high | pass | none | none |
-| 1157 | medium | high | pass | none | Segundo |
+| 1157 | none | high | pass | none | none |
 | 1158 | none | high | pass | none | none |
 | 1159 | none | high | pass | none | none |
-| 1160 | high | low | reread-page | none | none |
+| 1160 | none | high | pass | none | none |
 | 1161 | none | high | pass | none | none |
 | 1162 | none | high | pass | none | none |
 | 1163 | none | high | pass | none | none |
 | 1164 | none | high | pass | none | none |
-| 1165 | medium | high | pass | none | Segundo |
+| 1165 | none | high | pass | none | none |
 | 1166 | none | high | pass | none | none |
 | 1167 | none | high | pass | none | none |
 | 1168 | none | high | pass | none | none |

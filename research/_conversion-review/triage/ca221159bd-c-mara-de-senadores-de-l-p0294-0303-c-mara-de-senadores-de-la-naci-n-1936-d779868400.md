@@ -14,7 +14,7 @@
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
 | 299 | none | high | pass | none | none |
-| 7 | medium | high | pass | none | Arturo |
+| 7 | none | high | pass | none | none |
 | 301 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
-| 10 | critical | low | reread-page | none | Segundo |
+| 10 | none | high | pass | none | none |

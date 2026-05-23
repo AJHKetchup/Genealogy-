@@ -11,20 +11,20 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
 - Page range: 14-14
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Entries
-- Evidence priority: `100014` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
-
-## QC Hold
-
-- Status: `blocked_needs_reread`
-- Blocked pages: 14
-- Page reread queue: `research/_conversion-review/page-queues/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-sess-79a99d597b.md`
-- Suspected readings: `research/_conversion-review/corrections/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-sess-79a99d597b.md`
-
-Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
+- Family relevance: `none`
+- Matched family terms: none
+- Narrative cues: session
+- Evidence priority: `4014` (family_relevance:none, qc:pass, deferred_until_family_relevant)
 
 
+
+## Person-First Narrative Contract
+
+- Start with known family members and reviewed family relationships, not source chunks as the main object.
+- Extract claims only when they can support a family member, family relationship, life event, place in a family story, photograph, or narrative question.
+- High-value narrative claims include where a family member stayed, traveled, lived, worked, studied, appeared in a photo, attended a meeting, served as a delegate, spoke, signed, witnessed, or was present for a discussion.
+- Context about a hotel, institution, place, co-delegate, meeting, or historical setting is useful only when it directly explains a family member's experience or a specific family record. Keep broad background as a staged context/research note with an explicit linked family entity, or mark it low relevance.
+- Do not fan out generic claims about all delegates, all places, or all official proceedings unless the chunk ties them to the family member's narrative.
 
 ## Done When
 

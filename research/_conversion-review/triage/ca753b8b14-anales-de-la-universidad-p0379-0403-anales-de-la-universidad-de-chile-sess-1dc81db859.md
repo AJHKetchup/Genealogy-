@@ -9,27 +9,27 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
-| 380 | medium | high | pass | none | Segundo |
+| 380 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
-| 385 | medium | high | pass | none | Segundo |
-| 8 | high | low | reread-page | none | none |
+| 385 | none | high | pass | none | none |
+| 8 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
-| 10 | critical | low | reread-page | none | García |
-| 11 | medium | high | pass | none | Segundo |
+| 10 | none | high | pass | none | none |
+| 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
-| 15 | medium | high | pass | none | Larraín |
+| 15 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
-| 395 | medium | high | pass | none | Larraín |
+| 395 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
-| 397 | high | low | reread-page | none | none |
+| 397 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |
 | 399 | none | high | pass | none | none |
-| 22 | critical | low | reread-page | none | Larraín, Mercedes |
+| 22 | none | high | pass | none | none |
 | 23 | none | high | pass | none | none |
 | 24 | none | high | pass | none | none |
 | 25 | none | high | pass | none | none |

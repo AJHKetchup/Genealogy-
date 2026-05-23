@@ -10,18 +10,3 @@
   Suspected reading: `Smith`
   Reason: near match to known family context term `Smith`
   Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `PASSENGERS`
-  Suspected reading: `Passenger`
-  Reason: near match to known family context term `Passenger`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `AGES`
-  Suspected reading: `Andes`
-  Reason: near match to known family context term `Andes`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Dario`
-  Suspected reading: `Darío`
-  Reason: near match to known family context term `Darío`
-  Verification target: reread the page image or exact region before using this in a claim.

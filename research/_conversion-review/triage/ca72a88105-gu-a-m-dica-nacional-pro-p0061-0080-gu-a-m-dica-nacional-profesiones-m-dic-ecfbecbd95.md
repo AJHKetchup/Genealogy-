@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 61 | critical | low | reread-page | none | Andes, Gallegos |
-| 62 | medium | high | pass | none | Andes, Larraín |
-| 63 | critical | low | reread-page | none | Carmen, García |
-| 64 | medium | high | pass | none | Carmen |
-| 65 | critical | low | reread-page | none | Arturo, Directory, García, Riquelme |
-| 66 | high | high | pass | none | Andes, Arturo, Gallegos |
-| 7 | medium | high | pass | none | Osorio, listing |
-| 68 | high | high | pass | none | Arturo, Larraín, Riquelme |
-| 69 | medium | high | pass | none | Arturo, García |
-| 70 | critical | low | reread-page | none | Arturo, Gallegos, Juana, Osorio |
-| 71 | medium | high | pass | none | Carmen |
-| 72 | medium | high | pass | none | Arriagada, Arturo |
-| 73 | critical | low | reread-page | none | Arturo, Darío, Directory |
-| 74 | high | high | pass | none | Arturo, Mercedes, Riquelme |
-| 75 | medium | high | pass | none | Riquelme, Tulio |
-| 76 | medium | high | pass | none | Arturo, García |
-| 17 | critical | low | reread-page | none | Arriagada, Arturo, Darío, Directory, Entries, Pulgar, pulgar arriagada |
-| 78 | high | high | pass | none | Andes, Carmen, García |
-| 19 | critical | low | reread-page | none | Directory, Entries, Riquelme, listing |
-| 80 | medium | high | pass | none | Heinz, Riquelme |
+| 61 | none | high | pass | none | none |
+| 62 | none | high | pass | none | none |
+| 63 | none | high | pass | none | none |
+| 64 | none | high | pass | none | none |
+| 65 | none | high | pass | none | none |
+| 66 | none | high | pass | none | none |
+| 7 | none | high | pass | none | none |
+| 68 | none | high | pass | none | none |
+| 69 | none | high | pass | none | none |
+| 70 | none | high | pass | none | none |
+| 71 | none | high | pass | none | none |
+| 72 | medium | high | pass | none | Arriagada |
+| 73 | none | high | pass | none | none |
+| 74 | none | high | pass | none | none |
+| 75 | none | high | pass | none | none |
+| 76 | none | high | pass | none | none |
+| 17 | critical | low | reread-page | none | Arriagada, Pulgar |
+| 78 | none | high | pass | none | none |
+| 19 | none | high | pass | none | none |
+| 80 | medium | high | pass | none | Heinz |

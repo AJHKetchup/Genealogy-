@@ -10,17 +10,9 @@
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
-- Family relevance: `medium`
+- Family relevance: `none`
 - Quality flags: explicit_reread_needed
-- Matched family context: maternal
-
-### Page 10
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Segundo
+- Matched family context: none
 
 ### Page 71
 
@@ -28,36 +20,4 @@
 - Conversion confidence: `medium`
 - Family relevance: `none`
 - Quality flags: explicit_reread_needed
-- Matched family context: none
-
-### Page 12
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `high`
-- Quality flags: none
-- Matched family context: none
-
-### Page 13
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: concepcion
-
-### Page 15
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `high`
-- Quality flags: none
-- Matched family context: none
-
-### Page 18
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `high`
-- Quality flags: none
 - Matched family context: none

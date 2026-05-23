@@ -14,14 +14,6 @@
 - Quality flags: none
 - Matched family context: none
 
-### Page 741
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Segundo
-
 ### Page 751
 
 - Recommended action: `reread-page`
