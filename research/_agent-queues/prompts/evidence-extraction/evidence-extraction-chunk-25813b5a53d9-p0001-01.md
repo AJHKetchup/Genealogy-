@@ -14,8 +14,18 @@ Use `$genealogy-claim-extraction`.
 - Family relevance: `none`
 - Matched family terms: none
 - Narrative cues: birth
-- Evidence priority: `4001` (family_relevance:none, qc:pass, deferred_until_family_relevant)
+- Evidence priority: `3301` (family_relevance:none, qc:pass, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/proof-review-research-staging-identity-analysis-identity-analysis-chunk-23b2269a97df-p0001-01-identity-candidates-postconv-proof-review-20260523120609953.md` | `research/_staging/identity-analysis/identity-analysis-chunk-23b2269a97df-p0001-01-identity-candidates.md` | `not_ready` | Keep this staged draft on hold with `canonical_readiness: not_ready`. Run targeted conversion QA for the referenced source image, converted Markdown, and chunk. The QA note should settle whether entry 172's controlling transcript is the visible Pulgar/Arriagada row, explain the chunk-id/converted-sha drift, and record the exact father and informant readings. After that, rerun proof review for the identity candidates and dependent claim/relationship drafts before any canonical promotion. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Person-First Narrative Contract
