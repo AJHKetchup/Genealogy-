@@ -5,14 +5,14 @@ Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\sourc
 Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
 source-relevance sync-review-holds | summary
 {
-  "review_count": 239,
+  "review_count": 242,
   "candidate_count": 33,
   "changed_count": 0,
   "feedback_path": "research/_agent-queues/source-relevance-feedback.json"
 }
 source-relevance restore-review-assets | summary
 {
-  "target_count": 10,
+  "target_count": 12,
   "restored_raw": 0,
   "skipped_raw": 0,
   "restored_page_images": 0,
@@ -22,7 +22,7 @@ source-relevance restore-review-assets | summary
 }
 post-conversion-controller | summary
 {
-    "started":  "2026-05-23T04:11:38Z",
+    "started":  "2026-05-23T06:43:07Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "dry_run":  false,
     "allow_promotion":  true,
@@ -41,19 +41,19 @@ post-conversion-controller | summary
                                          "todo":  200
                                      },
                    "evidence-extraction":  {
-                                               "done":  19,
-                                               "todo":  138,
-                                               "deferred_low_relevance":  4655,
-                                               "blocked_needs_reread":  30
+                                               "done":  20,
+                                               "todo":  137,
+                                               "deferred_low_relevance":  4659,
+                                               "blocked_needs_reread":  28
                                            },
                    "identity-analysis":  {
-                                             "todo":  107,
-                                             "done":  19
+                                             "done":  61,
+                                             "todo":  65
                                          },
                    "proof-review":  {
-                                        "done":  157,
-                                        "todo":  464,
-                                        "released":  34
+                                        "done":  158,
+                                        "todo":  503,
+                                        "released":  36
                                     },
                    "wiki-promotion":  {
                                           "blocked_no_reviewed_ready":  1
@@ -67,5 +67,5 @@ post-conversion-controller | summary
     "blockers":  [
 
                  ],
-    "finished":  "2026-05-23T04:13:00Z"
+    "finished":  "2026-05-23T06:44:28Z"
 }
