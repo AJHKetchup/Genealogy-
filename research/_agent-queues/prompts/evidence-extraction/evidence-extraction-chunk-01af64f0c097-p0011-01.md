@@ -14,8 +14,18 @@ Use `$genealogy-claim-extraction`.
 - Family relevance: `critical`
 - Matched family terms: Arriagada, Pulgar
 - Narrative cues: session
-- Evidence priority: `-339` (family_relevance:critical, qc:reread-page, matched_terms, person_linked_narrative_context)
+- Evidence priority: `-1039` (family_relevance:critical, qc:reread-page, matched_terms, person_linked_narrative_context, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/identity-analysis-conflict-chunk-01af64f0c097-p0011-01-middle-initial-watch-proof-review.md` | `research/_staging/identity-analysis/identity-analysis-conflict-chunk-01af64f0c097-p0011-01-middle-initial-watch.md` | `hold` | Complete `research/_staging/research-tasks/chunk-01af64f0c097-p0011-01-reread-page.md`: locate or regenerate the page 11 image, reread the printed line, and verify the name, diacritics, spacing, middle initial, and title heading. If confirmed, submit only the narrow title-conferral/named-person claim for proof review; handle any same-person merge in a separate identity-bridge review. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Person-First Narrative Contract

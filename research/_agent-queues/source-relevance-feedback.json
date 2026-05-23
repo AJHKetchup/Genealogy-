@@ -1,6 +1,6 @@
 {
   "created": "2026-05-22T01:02:23Z",
-  "updated": "2026-05-23T18:40:16Z",
+  "updated": "2026-05-23T21:19:08Z",
   "purpose": "Research-to-conversion relevance hints for source-prep model routing.",
   "hints": [
     {
@@ -362,6 +362,30 @@
       ],
       "agent": "post-conversion-review-feedback",
       "id": "source-relevance:44f4ab03df2c"
+    },
+    {
+      "status": "active",
+      "created": "2026-05-23T21:19:08Z",
+      "updated": "2026-05-23T21:19:08Z",
+      "task_id": "",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/manifest.json",
+      "source": "",
+      "source_sha256": "",
+      "converted_file": "",
+      "page": 11,
+      "relevance": "high",
+      "requested_treatment": "pro_with_crops",
+      "reason": "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
+      "entities": [
+        "Dario Arturo Pulgar",
+        "Dario Arturo Pulgar-Smith"
+      ],
+      "matched_terms": [
+        "proof-review-hold",
+        "missing-page-image"
+      ],
+      "agent": "post-conversion-review-feedback",
+      "id": "source-relevance:4173a5a5f622"
     }
   ]
 }

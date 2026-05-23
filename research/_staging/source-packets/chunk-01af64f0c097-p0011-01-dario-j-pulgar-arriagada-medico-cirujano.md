@@ -17,14 +17,14 @@ family_relevance: critical
 matched_terms:
   - Arriagada
   - Pulgar
-conversion_confidence: medium
-conversion_qa_concern: "Controller flagged qc:reread-page. The chunk reports Docling readability status rough_ok with no readability flags, but also says conversion QA must compare the output with the rendered page image. The referenced page image path could not be found in the conversion job directory during extraction, so the name and title evidence is staged from converted text only."
-promotion_recommendation: hold_for_conversion_qa
+conversion_confidence: high
+conversion_qa_concern: "Resolved for the narrow title-conferral/name line. On 2026-05-23 the rendered page image at raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-images/page-0011.jpg was visually reread and confirms the session heading, title heading, and name line. Identity merging with other Dario/Pulgar candidates remains outside this packet."
+promotion_recommendation: promote_after_review
 ---
 
-# Source Packet: Dario J. Pulgar Arriagada, Medico-Cirujano Title
+# Source Packet: Darío J. Pulgar Arriagada, Médico-Cirujano Title
 
-This packet stages evidence from page 11 of the September 1918 Council of Public Instruction session minutes published in the Anales de la Universidad de Chile. The page lists titles and degrees conferred after formalities and oath; under `Medicos-Cirujanos`, it names `Dario J. Pulgar Arriagada`.
+This packet stages evidence from page 11 of the September 1918 Council of Public Instruction session minutes published in the Anales de la Universidad de Chile. The page lists titles and degrees conferred after formalities and oath; under `Médicos-Cirujanos`, it names `Darío J. Pulgar Arriagada`.
 
 ## Literal Support
 
@@ -33,25 +33,25 @@ Sesion de 2 de Setiembre de 1918
 ```
 
 ```text
-Previas las formalidades reglamentarias i el juramento requerido el señor Rector confirio los siguientes titulos i grados:
+Previas las formalidades reglamentarias i el juramento requerido el señor Rector confirió los siguientes títulos i grados:
 ```
 
 ```text
-Medicos-Cirujanos:
+Médicos-Cirujanos:
 ```
 
 ```text
-» Dario J. Pulgar Arriagada
+» Darío J. Pulgar Arriagada
 ```
 
 ## Conversion Confidence And QA Concern
 
-Conversion confidence is medium. The transcript is printed-text Docling output with no automated readability flags, but the page metadata explicitly requires comparison with the rendered page image before research extraction. The referenced page image `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-images/page-0011.jpg` was not present when checked.
+Conversion confidence is high for the narrow name/title/date reading. The rendered page image `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-images/page-0011.jpg` is now present and was visually reread on 2026-05-23. The image confirms `Sesion de 2 de Setiembre de 1918`, `Médicos-Cirujanos:`, and `Darío J. Pulgar Arriagada`. The converted chunk's broad reading is correct, with diacritics now image-reviewed.
 
 ## Uncertainty
 
-Low-to-moderate uncertainty that the converted text records a person named Dario J. Pulgar Arriagada receiving or being conferred the Medico-Cirujano title. Higher uncertainty remains around exact diacritics, punctuation, and whether the middle initial is definitely `J.` until the page image or PDF page is reread.
+Low uncertainty for the narrow claim that the 2 September 1918 session minutes list `Darío J. Pulgar Arriagada` under `Médicos-Cirujanos` after stating that the Rector conferred the listed titles and degrees. The source does not expand `J.` and does not state a family relationship, residence, age, birth date, spouse, parent, child, or same-person bridge to any other Pulgar candidate.
 
 ## Promotion Recommendation
 
-Keep on `hold_for_conversion_qa`. After the missing page image or another authoritative page view verifies the line, this packet can support proof review for a professional-title or education credential claim.
+Promote after proof review for only the narrow title-conferral/named-person claim. Do not use this packet to merge `Darío J. Pulgar Arriagada` with `Dario Jose Pulgar-Arriagada`, `Dario Pulgar A.`, the 1953 adult `Dario Pulgar`, `Darío Pulgar Arriagada` in later legal notices, or `Dario Arturo Pulgar` / `Dario Arturo Pulgar-Smith` without a separate identity-bridge review.

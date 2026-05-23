@@ -6,7 +6,7 @@
 
 ## Queued Pages
 
-### Page 5
+### Page 4
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
@@ -22,10 +22,10 @@
 - Quality flags: explicit_reread_needed
 - Matched family context: Dario, Pulgar
 
-### Page 7
+### Page 9
 
-- Recommended action: `reread-page`
+- Recommended action: `spot-check`
 - Conversion confidence: `medium`
-- Family relevance: `high`
+- Family relevance: `medium`
 - Quality flags: explicit_reread_needed
 - Matched family context: Dario, Pulgar

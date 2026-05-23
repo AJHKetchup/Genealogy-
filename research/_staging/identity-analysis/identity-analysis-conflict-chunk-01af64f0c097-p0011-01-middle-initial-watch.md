@@ -5,19 +5,19 @@ role: identity_researcher
 task_id: "identity-analysis:research/_staging/conflicts/chunk-01af64f0c097-p0011-01-middle-initial-watch.md"
 worker: postconv-identity-analysis-20260523074233748
 staged_conflict_draft: "research/_staging/conflicts/chunk-01af64f0c097-p0011-01-middle-initial-watch.md"
-subject: "Dario J. Pulgar Arriagada"
+subject: "Darío J. Pulgar Arriagada"
 source_packet: "research/_staging/source-packets/chunk-01af64f0c097-p0011-01-dario-j-pulgar-arriagada-medico-cirujano.md"
 chunk_id: "CHUNK-01af64f0c097-P0011-01"
-promotion_recommendation: hold_for_conversion_qa_and_identity_proof_review
+promotion_recommendation: do_not_promote_identity_merge
 tags: [identity-analysis, conflict-review, pulgar, middle-initial-watch]
 ---
 
-# Identity And Conflict Analysis: Dario J. Pulgar Arriagada
+# Identity And Conflict Analysis: Darío J. Pulgar Arriagada
 
 ## Blockers First
 
 - The exact staged conflict draft reviewed here is `research/_staging/conflicts/chunk-01af64f0c097-p0011-01-middle-initial-watch.md`.
-- The 1918 source packet and staged claim are on `hold_for_conversion_qa`: the converted text is medium confidence, the controller requested `qc:reread-page`, and the referenced rendered page image was missing from the conversion job directory.
+- The 1918 page image was located at `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-images/page-0011.jpg` and visually reread on 2026-05-23. The narrow name/title reading is no longer blocked by conversion QA.
 - The literal source reading supplies a name and professional-title context only. It gives no birth date, age, parents, spouse, child, residence, signature, death date, or explicit family relationship.
 - The middle initial `J.` is not expanded in this source. It cannot be silently normalized to `Jose`, `José`, `Juana`, `Arturo`, `A.`, `Arriagada`, or `Pulgar-Smith`.
 - Existing local Pulgar context contains multiple near-name candidates: `Dario Arturo Pulgar-Smith`, document-level `Dario Arturo Pulgar`, `Dario Jose Pulgar-Arriagada`, `Dario Pulgar A.`, `Darío/Dario Pulgar Arriagada`, adult and child `Dario Pulgar` passenger stubs, and Jose/Juana parent candidates. This draft does not prove a merge with any of them.
@@ -43,16 +43,16 @@ Médicos-Cirujanos:
 » Darío J. Pulgar Arriagada
 ```
 
-Literal reading: a person rendered in the conversion as `Darío J. Pulgar Arriagada` appears in a `Médicos-Cirujanos` list in the 2 September 1918 Council of Public Instruction session minutes.
+Literal reading: a person visually confirmed as `Darío J. Pulgar Arriagada` appears in a `Médicos-Cirujanos` list in the 2 September 1918 Council of Public Instruction session minutes.
 
-Interpretation kept separate: if page reread confirms the line, this can support a narrow professional-title/education credential claim for a named person. It does not itself prove identity with any other Dario Pulgar or Pulgar-Arriagada person.
+Interpretation kept separate: the page reread supports a narrow professional-title/education credential claim for a named person. It does not itself prove identity with any other Dario Pulgar or Pulgar-Arriagada person.
 
-## Hypothesis 1: Separate 1918 Named-Person Cluster `Dario J. Pulgar Arriagada`
+## Hypothesis 1: Separate 1918 Named-Person Cluster `Darío J. Pulgar Arriagada`
 
 Supporting evidence:
 
-- The staged identity candidate records `Dario J. Pulgar Arriagada` as a named person mention.
-- The staged claim says the Rector conferred titles and degrees and then lists `Dario J. Pulgar Arriagada` under `Medico-Cirujano`.
+- The page image confirms `Darío J. Pulgar Arriagada` as a named person mention.
+- The staged claim says the Rector conferred titles and degrees and then lists `Darío J. Pulgar Arriagada` under `Médico-Cirujano`.
 - The relationship candidate explicitly records that no family relationship is stated in this chunk.
 
 Conflicts and limits:
@@ -67,7 +67,7 @@ Scores:
 | identity_confidence | 0.82 | Strong for a local named-person mention if the conversion line is confirmed. |
 | conflict_severity | 0.30 | Low if kept as its own held cluster; higher only if merged prematurely. |
 | evidence_quality | 0.66 | Official printed session minutes are useful, but current extraction is conversion-dependent. |
-| conversion_confidence | 0.55 | Medium conversion confidence with missing page-image reread. |
+| conversion_confidence | 0.88 | Page image reread confirms the narrow name/title reading. |
 | claim_probability | 0.72 | Probable that the page names this person in a medical-title list, pending reread. |
 | relevance | 1.00 | Directly addresses the assigned middle-initial watch. |
 | canonical_readiness | 0.18 | Hold until conversion QA and proof review. |
@@ -109,7 +109,7 @@ Conflicts and limits:
 
 - The 1928 row uses `A.`, not `J.` or full `Arriagada`; the initial is not expanded in that row.
 - The 1928 passenger source has its own image/QA cautions in staged analysis.
-- No proof-reviewed source directly states that `Dario Pulgar A.` and `Dario J. Pulgar Arriagada` are the same person.
+- No proof-reviewed source directly states that `Dario Pulgar A.` and `Darío J. Pulgar Arriagada` are the same person.
 
 Scores:
 
@@ -144,7 +144,7 @@ Scores:
 | identity_confidence | 0.54 | Age and medical occupation fit, but full identity markers are absent. |
 | conflict_severity | 0.66 | Wrong merge could collapse the 1918 medical-title person, 1928 passenger, and 1953 adult cluster. |
 | evidence_quality | 0.56 | Useful but indirect cross-source comparison. |
-| conversion_confidence | 0.62 | 1953 adult row appears usable in prior review; 1918 still needs reread. |
+| conversion_confidence | 0.74 | 1953 adult row appears usable in prior review; the 1918 narrow name/title reading is image-reviewed. |
 | claim_probability | 0.50 | Possible, not proved. |
 | relevance | 0.84 | Required because adult 1953 Dario may be part of the older medical Pulgar cluster. |
 | canonical_readiness | 0.12 | Do not merge without a proof-reviewed bridge. |
@@ -160,7 +160,7 @@ Conflicts and limits:
 
 - The expropriation notice gives no age, occupation, middle initial, parentage, spouse, or birth/death details.
 - If the 1918 medical-title candidate were the same as the 2000 legal-notice person, the event span is 82 years. That is possible only with a long-lived individual and must not be assumed without vital-date evidence.
-- Prior analysis of the 2000/2001 notice already treats same-person identity with `Dario J. Pulgar Arriagada` as unproved.
+- Prior analysis of the 2000/2001 notice already treats same-person identity with `Darío J. Pulgar Arriagada` as unproved.
 
 Scores:
 
@@ -184,7 +184,7 @@ Supporting evidence:
 
 Conflicts and limits:
 
-- The 1918 source says `Dario J. Pulgar Arriagada`, not `Dario Arturo Pulgar`, `Dario Arturo Pulgar-Smith`, or `Pulgar-Smith`.
+- The 1918 source says `Darío J. Pulgar Arriagada`, not `Dario Arturo Pulgar`, `Dario Arturo Pulgar-Smith`, or `Pulgar-Smith`.
 - The CV/Pulgar-Smith cluster is chronologically and contextually closer to the 1953 child passenger and later CV evidence, not to a 1918 medical-title person, unless a source proves otherwise.
 - No source reviewed here connects `J.` or `Arriagada` to `Arturo` or `Pulgar-Smith`.
 
@@ -228,18 +228,18 @@ Scores:
 
 ## Conflict Summary
 
-- Same-person conflict: unresolved between `Dario J. Pulgar Arriagada` and every compared Pulgar candidate. The strongest possible same-person comparison is with older medical clusters, especially `Dario Pulgar A.` and the 1953 adult `Dario Pulgar`, but neither is proven.
-- Duplicate-person risk: high if `Dario J. Pulgar Arriagada` is merged by name alone with `Dario Jose Pulgar-Arriagada`, `Darío/Dario Pulgar Arriagada`, `Dario Arturo Pulgar`, or `Dario Arturo Pulgar-Smith`.
-- Name-variant conflict: this source can support only the literal converted form `Darío/Dario J. Pulgar Arriagada` after reread. It does not prove `Jose`, `Arturo`, `Pulgar-Smith`, or `Pulgar A.` variants.
+- Same-person conflict: unresolved between `Darío J. Pulgar Arriagada` and every compared Pulgar candidate. The strongest possible same-person comparison is with older medical clusters, especially `Dario Pulgar A.` and the 1953 adult `Dario Pulgar`, but neither is proven.
+- Duplicate-person risk: high if `Darío J. Pulgar Arriagada` is merged by name alone with `Dario Jose Pulgar-Arriagada`, `Darío/Dario Pulgar Arriagada`, `Dario Arturo Pulgar`, or `Dario Arturo Pulgar-Smith`.
+- Name-variant conflict: this source can support only the literal image-reviewed form `Darío J. Pulgar Arriagada`. It does not prove `Jose`, `Arturo`, `Pulgar-Smith`, or `Pulgar A.` variants.
 - Relationship conflict: no family relationship is stated. Do not promote parent, spouse, child, sibling, household, grandparent, or maternal-line claims from this source.
 - Chronology conflict: 1918 title evidence is compatible with the 1928 age-39 medical passenger and 1953 age-64 medical adult if later identity bridges exist; it creates a serious caution if attached to the 2000/2001 legal-notice person without vital-date evidence; it is chronologically weak for the later `Dario Arturo Pulgar-Smith`/CV cluster.
-- Conversion-confidence conflict: the principal literal line remains held because the page image is missing and `qc:reread-page` is unresolved.
+- Conversion-confidence conflict: resolved for the principal literal line by page-image reread. Identity-bridge confidence remains unresolved.
 
 ## Ranked Hypotheses
 
 | Rank | Hypothesis | Probability | Action |
 | ---: | --- | ---: | --- |
-| 1 | Separate 1918 named-person cluster `Dario J. Pulgar Arriagada` with medical-title evidence | 0.72 | Reread page 11, then send the narrow title claim to proof review if confirmed. |
+| 1 | Separate 1918 named-person cluster `Darío J. Pulgar Arriagada` with medical-title evidence | 0.86 | Send the narrow title claim to proof review. |
 | 2 | Same as 1928 `Dario Pulgar A.` medical-surgeon passenger | 0.56 | Hold; compare initials, age, occupation, and full-name evidence in a targeted identity bridge review. |
 | 3 | Same as 1953 adult `Dario Pulgar`, age 64, occupation `Medical` | 0.50 | Hold; require a source connecting the adult passenger to `J.` or `Arriagada`. |
 | 4 | Same as `Dario Jose Pulgar-Arriagada` | 0.38 | Hold; verify whether `J.` expands to Jose in a source with direct identity basis. |
@@ -249,6 +249,6 @@ Scores:
 
 ## Recommended Next Action
 
-Complete the existing `research/_staging/research-tasks/chunk-01af64f0c097-p0011-01-reread-page.md` task first: locate or regenerate the page image for source page 11, compare the original page against the converted line `» Darío J. Pulgar Arriagada`, and verify exact diacritics, spacing, middle initial, and whether the 2 September 1918 session date should be treated as the title-conferral event date.
+The reread-page task is complete for the narrow source reading. Send only the staged `Médico-Cirujano` title-conferral claim to proof review.
 
-If the reread confirms the line, send only the narrow `Médico-Cirujano` title claim for proof review. The next identity proof-review step should be a targeted Pulgar medical-cluster bridge review comparing the confirmed 1918 name against the 1928 `Dario Pulgar A.` medical-surgeon passenger and the 1953 adult `Dario Pulgar` medical passenger. Do not merge with `Dario Jose Pulgar-Arriagada`, `Darío/Dario Pulgar Arriagada`, `Dario Arturo Pulgar`, `Dario Arturo Pulgar-Smith`, or Jose/Juana parent candidates unless a reviewed local source supplies explicit identity or relationship evidence.
+Any identity proof-review step should be a separate targeted Pulgar medical-cluster bridge review comparing the confirmed 1918 name against the 1928 `Dario Pulgar A.` medical-surgeon passenger and the 1953 adult `Dario Pulgar` medical passenger. Do not merge with `Dario Jose Pulgar-Arriagada`, `Darío/Dario Pulgar Arriagada`, `Dario Arturo Pulgar`, `Dario Arturo Pulgar-Smith`, or Jose/Juana parent candidates unless a reviewed local source supplies explicit identity or relationship evidence.
