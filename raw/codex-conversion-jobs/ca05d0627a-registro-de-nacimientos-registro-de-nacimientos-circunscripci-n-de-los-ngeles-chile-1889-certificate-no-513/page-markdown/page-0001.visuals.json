@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-23T21:50:02Z",
+  "created": "2026-05-23T22:41:32Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png",
@@ -8,7 +8,7 @@
   "page": 1,
   "page_image": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/page-images/page-0001.png",
   "output_markdown": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/page-markdown/page-0001.md",
-  "no_visual_regions_reason": "The page contains a standard official stamp, but no significant illustrations, photographs, or other visual elements that would require individual cropping and analysis.",
+  "no_visual_regions_reason": "The page contains standard official stamps and handwritten signatures which are transcribed or described in the notes. There are no large, standalone visuals like portraits, maps, or illustrations that would warrant individual cropping.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

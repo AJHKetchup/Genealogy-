@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-96dff2ecc293-P0006-01
+chunk_id: CHUNK-7e5e30d3da85-P0006-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: 96dff2ecc29319bad619ac3bc704aa059b0b29cb49d6912f6f43ceadc1429c26
+converted_sha256: 7e5e30d3da85ec5bc70c98d633a724b927f1d82099755fb1d147b007c38b8cca
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -30,7 +30,7 @@ part: 1
 
 ## Layout And Reading Order
 
-The page contains a single column of text. The content is a continuation of a curriculum vitae, organized chronologically in reverse order. Each entry consists of a date range, an organization name, a location, a job title, and a description of responsibilities. Date ranges are underlined, while organization names, locations, and job titles are in bold. The reading order is from top to bottom.
+The page consists of a single column of text. The reading order is from top to bottom. The content is a continuation of a curriculum vitae, with entries organized chronologically by date ranges. Each entry includes the organization, location, job title, and a description of responsibilities.
 
 ## Literal Transcription
 
@@ -88,7 +88,7 @@ Establish a Development Support Communication Centre (DSC) in the city of Dikern
 
 ## Images, Captions, And Visual Notes
 
-This page contains only text. There are no images, captions, or other visual elements.
+There are no images, captions, or other visual elements on this page.
 
 ## Uncertain Or Illegible
 
@@ -96,7 +96,7 @@ There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-The entire content of the page has been transcribed.
+This page is fully transcribed.
 
 ## Visual Region Manifest
 

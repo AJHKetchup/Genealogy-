@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-23T21:58:19.700765+00:00",
+  "created": "2026-05-23T22:47:10.245064+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -6590,6 +6590,20 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850/extracted-images/page-0842/page-0842-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850/extracted-images/page-0842/page-0842-docling-image-01.png",
+      "bytes": 59703,
+      "sha256": "8c33d9be84285b73838ecda3e6f0db5dabd7301f48caa85031f922ffde08e2d5",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850/extracted-images/page-0842/page-0842-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850/extracted-images/page-0842/page-0842-docling-image-02.png",
+      "bytes": 70021,
+      "sha256": "f80dd7d30c52af53aa895c0f8308acda4219562315dc4da7ee2961db83bd2254",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850/extracted-images/page-0843/page-0843-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850/extracted-images/page-0843/page-0843-docling-image-01.png",
       "bytes": 11732,
@@ -12193,10 +12207,10 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 5,
-    "total_bytes": 62164965,
-    "uploaded": 0,
-    "skipped": 5,
+    "total_files": 9,
+    "total_bytes": 68593523,
+    "uploaded": 2,
+    "skipped": 7,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,
@@ -12206,9 +12220,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1745,
+      "scanned": 1747,
       "deleted": 0,
-      "skipped": 1745,
+      "skipped": 1747,
       "errors": []
     }
   }

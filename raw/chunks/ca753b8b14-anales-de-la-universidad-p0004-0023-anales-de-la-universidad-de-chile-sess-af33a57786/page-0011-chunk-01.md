@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-01af64f0c097-P0011-01
+chunk_id: CHUNK-c3c383bb7b4e-P0011-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23.codex.md
-converted_sha256: 01af64f0c097280e767e19d8bf82839bae25a501da5a8b4352789db032678dfa
+converted_sha256: c3c383bb7b4e241409abc58f697dfbdd88784c617e8f90a0241848564f52cae4
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/manifest.json
@@ -13,70 +13,61 @@ part: 1
 
 ## Page Metadata
 
-- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
-- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
-- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/manifest.json`
-- Source page: 11
-- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-images/page-0011.jpg`
-- Conversion method: Docling basic conversion
-- Docling readability status: `rough_ok`
-- Docling readability flags: none
-- Extracted picture images: 1
+- **Source ID**: `anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23`
+- **Page number**: `11`
+- **Original page number**: Unnumbered, but follows page 10.
+- **Full page image URL**: `https://images.wesolvethecase.com/full/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/p0011.jpg`
 
 ## Layout And Reading Order
 
-Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+The page consists of a single column of text. The reading order is from top to bottom. It begins with a decorative header, followed by a title, a subtitle, the date of a session, a paragraph describing the session, and a list of names under the heading "Médicos-Cirujanos".
 
 ## Literal Transcription
 
-```markdown
-<!-- image -->
+[decorative header]
 
-## BOLETIN  DE  INSTRUCCION PUBLICA
+BOLETIN DE INSTRUCCION PUBLICA
+***
+CONSEJO DE INSTRUCCION PUBLICA
+***
+.
 
-## CONSEJO  DE  INSTRUCCION  PUBLICA
+**Sesion de 2 de Setiembre de 1918**
 
-## Sesion de  2  de  Setiembre  de  1918
+Fué presidida por el señor Rector de la Universidad, don
+Domingo Amunátegui Solar, asistieron los señores Conseje-
+ros Amunátegui Solar don Gregorio, Bahamonde, Concha Cas-
+tillo, Espejo, Matte, Rücker, Salas Lavaqui i Schmidt.
+Previas las formalidades reglamentarias i el juramento re-
+querido el señor Rector confirió los siguientes títulos i grados:
 
-Fué presidida por el  señor Rector.  de  la Universidad, don Domingo Amunátegui Solar, asistieron los  señores Consejeros  Amunátegui Solar  don  Gregorio, Bahamonde,  Concha Castillo,  Espejo, Matte, Rúcker, Salas  Lavaqui  1  Schmidt.
+*Médicos-Cirujanos:*
 
-Previas las formalidades  reglamentarias i  el  juramento requerido  el  señor Rector  confirió los  siguientes  títulos 1 grados:
-
-## Médicos-Cirujanos:
-
-- a  don  Ramon  Almeyda Arroyo
-- » Rodolfo  Barron  Daviu
-- » Darío J.  Pulgar  Arriagada
-- » Isauro Torres Cereceda;  1
-- » Armando  Zagal  Anabalon.
-```
+a don Ramon Almeyda Arroyo
+» Rodolfo Barron Daviu
+» Darío J. Pulgar Arriagada
+» Isauro Torres Cereceda; i
+» Armando Zagal Anabalon.
 
 ## Images, Captions, And Visual Notes
 
-- Docling extracted picture image 1: ![Docling extracted picture image 1](../extracted-images/page-0011/page-0011-docling-image-01.png)
-
-## Translation
-
-No translation was produced by the Docling basic conversion pass.
-
-## Interpretation
-
-No interpretation was produced by the Docling basic conversion pass.
+- **[decorative header]** A decorative rectangular border with intricate patterns at the top of the page.
 
 ## Uncertain Or Illegible
 
-- Automated readability flags: none
-- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
-
-## Extracted Genealogy Leads
-
-- No genealogy leads were asserted by the Docling basic conversion pass.
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
 
-- Basic Docling conversion completed for this page.
-- Rendered page image link recorded.
-- Extracted picture image count: 1.
-- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+This page has been transcribed in its entirety.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains a decorative header, but it is not a substantial visual element suitable for cropping as a standalone asset."
+}
+```
 
 # Page 12
