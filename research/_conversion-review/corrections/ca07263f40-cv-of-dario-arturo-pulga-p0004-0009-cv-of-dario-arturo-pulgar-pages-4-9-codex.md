@@ -26,11 +26,6 @@
   Reason: near match to known family context term `Darío`
   Verification target: reread the page image or exact region before using this in a claim.
 
-- Literal converted text: `dario`
-  Suspected reading: `Darío`
-  Reason: near match to known family context term `Darío`
-  Verification target: reread the page image or exact region before using this in a claim.
-
 - Literal converted text: `Dario`
   Suspected reading: `Darío`
   Reason: near match to known family context term `Darío`

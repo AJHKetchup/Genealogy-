@@ -19,8 +19,8 @@
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Arturo, Dario, Pulgar, england, listing
+- Quality flags: explicit_reread_needed
+- Matched family context: Arturo, Dario, Entries, Pulgar, england
 
 ### Page 6
 
@@ -28,14 +28,6 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: explicit_reread_needed
-- Matched family context: Arturo, Dario, Pulgar
-
-### Page 7
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
 - Matched family context: Arturo, Dario, Pulgar
 
 ### Page 8

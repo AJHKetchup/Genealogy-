@@ -16,6 +16,6 @@ promotion_recommendation: hold_for_conversion_qa
 
 # Relationship Candidate: Parents As A Couple
 
-- Literal support: assigned chunk gives father as `Jose del Carmen Pulgar S.`; earlier image-reread notes support `Jose del Carmen Pulgar` without a clearly visible suffix. Mother is recorded as `Juana Arriagada de Pulgar`. The converted Markdown file instead gives entry 172 as `Oswaldo Burgos` and `Concepcion de la Cruz`.
+- Literal support: assigned chunk gives father as `Jose del Carmen Pulgar S.`; earlier image-reread notes support `Jose del Carmen Pulgar` without a clearly visible suffix. Mother is recorded as `Juana Arriagada de Pulgar`. The converted Markdown file instead gives entry 172 as `Oswaldo Bunster` and `Amelia de la Maza`.
 - Conversion confidence/QA concern: mixed because the converted Markdown file conflicts with the assigned chunk, the original source image/page image could not be located in this checkout for direct verification during this revision, and the father's suffix remains a conversion QA issue.
 - Uncertainty: Medium for the spousal clue in the assigned chunk. They are both recorded as parents of the same child and the mother is styled `de Pulgar`, but the entry does not explicitly state a marriage date or marriage event. Keep this relationship clue on hold until conversion QA resolves the source-image and father-name issues; do not treat it as direct marriage-event evidence.

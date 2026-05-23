@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png`
 - Page range: 1-1
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Arriagada, Carmen, Entries, Juana, Osorio, Pulgar, Riquelme, Segundo, concepcion, pulgar arriagada
-- Evidence priority: `301` (family_relevance:high, qc:pass, matched_terms, proof_review_revision)
+- Family relevance: `critical`
+- Matched family terms: Arriagada, Carmen, Entries, Juana, Osorio, Pulgar, Riquelme, Segundo, pulgar arriagada
+- Evidence priority: `-699` (family_relevance:critical, qc:reread-page, matched_terms, proof_review_revision)
 
 
 ## Proof Review Revision Context

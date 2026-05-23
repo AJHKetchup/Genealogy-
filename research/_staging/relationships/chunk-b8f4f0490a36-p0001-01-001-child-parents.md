@@ -18,6 +18,6 @@ promotion_recommendation: hold_for_conversion_qa
 
 # Relationship Candidate: Child To Parents
 
-- Literal support: `**Nombre.** Jose del Carmen Segundo Pulgar Arriagada`; assigned chunk father field `**Nombre del padre** Jose del Carmen Pulgar S.`; earlier image-reread notes report father field `Jose del Carmen Pulgar`; mother field `**Nombre de la madre** Juana Arriagada de Pulgar`. The converted Markdown file instead gives entry 172 as an Oswaldo Burgos/Concepcion de la Cruz child-parent set.
+- Literal support: `**Nombre.** Jose del Carmen Segundo Pulgar Arriagada`; assigned chunk father field `**Nombre del padre** Jose del Carmen Pulgar S.`; earlier image-reread notes report father field `Jose del Carmen Pulgar`; mother field `**Nombre de la madre** Juana Arriagada de Pulgar`. The converted Markdown file instead gives entry 172 as a Jose Miguel / Oswaldo Bunster / Amelia de la Maza child-parent set.
 - Conversion confidence/QA concern: mixed because the converted Markdown file conflicts with the assigned chunk, the original source image/page image could not be located in this checkout for direct verification during this revision, and the father's suffix in the assigned chunk was not reported as clearly visible in earlier image-reread notes.
 - Uncertainty: Low that both parents are stated in the assigned chunk; high for promotion readiness until conversion QA reconciles the missing image and converted-file mismatch, and moderate for the father's exact recorded name and any identity merge. Keep this combined parent candidate on hold.

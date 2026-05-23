@@ -12,7 +12,7 @@
 | 2 | critical | low | reread-page | none | Anatomy, Medical, Osorio, Teaching, Virginio |
 | 3 | critical | low | reread-page | none | Anatomy, Article, Gomez, Osorio, Teaching, Virginio |
 | 4 | critical | low | reread-page | none | Anatomy, Darío, García, Medical, Osorio, Pulgar, Teaching, Virginio |
-| 5 | critical | low | reread-page | none | Anatomy, Article, Darío, Gomez, Medical, Osorio, Teaching |
+| 5 | critical | low | reread-page | none | Anatomy, Darío, Gomez, Medical, Osorio, Teaching |
 | 6 | high | high | pass | none | Anatomy, Medical, Notice, Osorio, Teaching |
 | 7 | critical | low | reread-page | none | Anatomy, García, Osorio, Teaching |
 | 8 | critical | low | reread-page | none | Anatomy, Arturo, Medical, Osorio, Teaching |

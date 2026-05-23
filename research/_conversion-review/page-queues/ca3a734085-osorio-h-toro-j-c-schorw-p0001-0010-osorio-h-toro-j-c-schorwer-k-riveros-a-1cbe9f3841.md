@@ -36,7 +36,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Anatomy, Article, Darío, Gomez, Medical, Osorio, Teaching
+- Matched family context: Anatomy, Darío, Gomez, Medical, Osorio, Teaching
 
 ### Page 7
 

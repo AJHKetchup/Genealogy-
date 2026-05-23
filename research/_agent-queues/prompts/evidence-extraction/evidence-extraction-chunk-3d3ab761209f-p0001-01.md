@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png`
 - Page range: 1-1
 - Staging area: `research/_staging`
-- Family relevance: `critical`
-- Matched family terms: Amagada, Carmen, Entries, Juana, Mercedes, Pulgar, Riquelme, Soler, juan soler, mercedes riquelme
-- Evidence priority: `-699` (family_relevance:critical, qc:reread-page, matched_terms, proof_review_revision)
+- Family relevance: `high`
+- Matched family terms: Amagada, Carmen, Entries, Juana, Mercedes, Pulgar, Riquelme, mercedes riquelme
+- Evidence priority: `301` (family_relevance:high, matched_terms, proof_review_revision)
 
 
 ## Proof Review Revision Context

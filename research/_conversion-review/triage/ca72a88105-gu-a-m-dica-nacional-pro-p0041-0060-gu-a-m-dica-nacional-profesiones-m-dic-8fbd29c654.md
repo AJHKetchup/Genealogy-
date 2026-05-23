@@ -20,7 +20,7 @@
 | 50 | medium | high | pass | none | Arturo |
 | 51 | critical | low | reread-page | none | Arturo, Heinz |
 | 52 | high | high | pass | none | Carmen, Gallegos, Osorio |
-| 53 | critical | low | reread-page | none | Arturo, Gallegos, García, Larraín, Lavín |
+| 56 | critical | low | reread-page | none | Arturo, Directory, Entries, Gallegos, García, Larraín, Lavín, Medical, listing, locality |
 | 54 | critical | low | reread-page | none | Arturo, Darío |
 | 55 | critical | low | reread-page | none | Arturo, Carmen |
 | 16 | high | high | pass | none | Alexander, Directory, Riquelme |

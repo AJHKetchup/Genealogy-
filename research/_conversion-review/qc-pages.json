@@ -6,7 +6,7 @@
       "converted_file": "raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md",
       "chunk_manifest": "raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/manifest.json",
-      "page": 1,
+      "page": 172,
       "recommended_action": "reread-page",
       "conversion_confidence": "low",
       "family_relevance": "critical",
@@ -18,8 +18,6 @@
         "Mercedes",
         "Pulgar",
         "Riquelme",
-        "Soler",
-        "juan soler",
         "mercedes riquelme"
       ],
       "suspicious_readings": [
@@ -34,7 +32,7 @@
       "converted_file": "raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md",
       "chunk_manifest": "raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/manifest.json",
-      "page": 1,
+      "page": 172,
       "recommended_action": "reread-page",
       "conversion_confidence": "low",
       "family_relevance": "critical",
@@ -46,8 +44,6 @@
         "Mercedes",
         "Pulgar",
         "Riquelme",
-        "Soler",
-        "juan soler",
         "mercedes riquelme"
       ],
       "suspicious_readings": [
@@ -91,13 +87,15 @@
       "recommended_action": "reread-page",
       "conversion_confidence": "low",
       "family_relevance": "critical",
-      "quality_flags": [],
+      "quality_flags": [
+        "explicit_reread_needed"
+      ],
       "matched_terms": [
         "Arturo",
         "Dario",
+        "Entries",
         "Pulgar",
-        "england",
-        "listing"
+        "england"
       ],
       "suspicious_readings": [
         {
@@ -135,23 +133,15 @@
       "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
-      "page": 7,
-      "recommended_action": "reread-page",
-      "conversion_confidence": "low",
-      "family_relevance": "critical",
+      "page": 4,
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
+      "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
-        "Arturo",
-        "Dario",
-        "Pulgar"
+        "listing"
       ],
-      "suspicious_readings": [
-        {
-          "literal": "dario",
-          "suspected": "Darío",
-          "reason": "near match to known family context term `Darío`"
-        }
-      ]
+      "suspicious_readings": []
     },
     {
       "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
@@ -226,20 +216,14 @@
       "chunk_manifest": "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json",
       "page": 2,
-      "recommended_action": "reread-page",
-      "conversion_confidence": "low",
-      "family_relevance": "critical",
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
+      "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
         "Entries"
       ],
-      "suspicious_readings": [
-        {
-          "literal": "sixth",
-          "suspected": "Smith",
-          "reason": "near match to known family context term `Smith`"
-        }
-      ]
+      "suspicious_readings": []
     },
     {
       "converted_file": "raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md",
@@ -20038,42 +20022,30 @@
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json",
       "page": 1,
-      "recommended_action": "reread-page",
-      "conversion_confidence": "low",
-      "family_relevance": "critical",
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
+      "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
         "Entries"
       ],
-      "suspicious_readings": [
-        {
-          "literal": "Some",
-          "suspected": "Soler",
-          "reason": "near match to known family context term `Soler`"
-        }
-      ]
+      "suspicious_readings": []
     },
     {
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md",
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json",
       "page": 2,
-      "recommended_action": "reread-page",
-      "conversion_confidence": "low",
-      "family_relevance": "critical",
+      "recommended_action": "spot-check",
+      "conversion_confidence": "medium",
+      "family_relevance": "medium",
       "quality_flags": [
         "possible_table_layout_loss"
       ],
       "matched_terms": [
         "Entries"
       ],
-      "suspicious_readings": [
-        {
-          "literal": "Some",
-          "suspected": "Soler",
-          "reason": "near match to known family context term `Soler`"
-        }
-      ]
+      "suspicious_readings": []
     },
     {
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
@@ -20155,7 +20127,7 @@
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
-      "page": 1,
+      "page": 6,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "medium",
@@ -20379,7 +20351,6 @@
       "quality_flags": [],
       "matched_terms": [
         "Anatomy",
-        "Article",
         "Darío",
         "Gomez",
         "Medical",
@@ -20655,7 +20626,6 @@
       "quality_flags": [],
       "matched_terms": [
         "Anatomy",
-        "Article",
         "Darío",
         "Gomez",
         "Medical",
@@ -29063,6 +29033,7 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
+        "Arriagada",
         "concepcion"
       ],
       "suspicious_readings": [
@@ -29070,11 +29041,6 @@
           "literal": "ANTES",
           "suspected": "Andes",
           "reason": "near match to known family context term `Andes`"
-        },
-        {
-          "literal": "ARRIGADA",
-          "suspected": "Arriagada",
-          "reason": "near match to known family context term `Arriagada`"
         }
       ]
     },
@@ -29082,7 +29048,7 @@
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
       "chunk_manifest": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 2,
+      "page": 5,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "none",
@@ -29154,14 +29120,13 @@
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
       "chunk_manifest": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 9,
+      "page": 6,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "medium",
       "quality_flags": [],
       "matched_terms": [
-        "Andes",
-        "intended"
+        "Andes"
       ],
       "suspicious_readings": []
     },
@@ -29205,7 +29170,7 @@
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
       "chunk_manifest": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 13,
+      "page": 10,
       "recommended_action": "reread-page",
       "conversion_confidence": "low",
       "family_relevance": "critical",
@@ -29233,17 +29198,11 @@
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
-        "Article",
         "Dario",
         "Pulgar",
         "concepcion"
       ],
       "suspicious_readings": [
-        {
-          "literal": "DIRECTOR",
-          "suspected": "Directory",
-          "reason": "near match to known family context term `Directory`"
-        },
         {
           "literal": "DARIO",
           "suspected": "Darío",
@@ -32800,17 +32759,22 @@
       "converted_file": "raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60.codex.md",
       "chunk_manifest": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dic-8fbd29c654/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json",
-      "page": 53,
+      "page": 56,
       "recommended_action": "reread-page",
       "conversion_confidence": "low",
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
         "Arturo",
+        "Directory",
+        "Entries",
         "Gallegos",
         "García",
         "Larraín",
-        "Lavín"
+        "Lavín",
+        "Medical",
+        "listing",
+        "locality"
       ],
       "suspicious_readings": [
         {
@@ -33155,17 +33119,22 @@
       "converted_file": "raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60.codex.md",
       "chunk_manifest": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json",
-      "page": 53,
+      "page": 56,
       "recommended_action": "reread-page",
       "conversion_confidence": "low",
       "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
         "Arturo",
+        "Directory",
+        "Entries",
         "Gallegos",
         "García",
         "Larraín",
-        "Lavín"
+        "Lavín",
+        "Medical",
+        "listing",
+        "locality"
       ],
       "suspicious_readings": [
         {
@@ -62672,34 +62641,44 @@
       "chunk_manifest": "raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-09220dde10/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172/manifest.json",
       "page": 1,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "high",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
         "Carmen",
         "Entries",
-        "Osorio",
-        "concepcion"
+        "Osorio"
       ],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Cármen",
+          "suspected": "Carmen",
+          "reason": "near match to known family context term `Carmen`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172.codex.md",
       "chunk_manifest": "raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172/manifest.json",
       "page": 1,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "high",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "critical",
       "quality_flags": [],
       "matched_terms": [
         "Carmen",
         "Entries",
-        "Osorio",
-        "concepcion"
+        "Osorio"
       ],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "Cármen",
+          "suspected": "Carmen",
+          "reason": "near match to known family context term `Carmen`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/caab4a1d79-p-stula-maligna-su-trata-p0001-0001-p-stula-maligna-su-tratamiento-por-inyecciones-intravenosas-de-yodo-pages-1.codex.md",

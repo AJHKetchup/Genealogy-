@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 172-172
 - Staging area: `research/_staging`
 - Family relevance: `critical`
-- Matched family terms: Birth, Carmen, Dios, Entry, Juan, Juana, Mercedes, Pulgar, Riquelme, chunk, mercedes riquelme
+- Matched family terms: Carmen, Entries, Juana, Mercedes, Pulgar, Riquelme, mercedes riquelme
 - Evidence priority: `100172` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
 
 ## QC Hold

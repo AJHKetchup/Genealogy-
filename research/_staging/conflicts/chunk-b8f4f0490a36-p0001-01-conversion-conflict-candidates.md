@@ -17,8 +17,8 @@ promotion_recommendation: hold_for_conversion_qa
 ## Reread-page QA Flag
 
 - Literal support reviewed: entry 172 full row.
-- Conversion confidence/QA concern: original image was located and reread on 2026-05-22. The assigned chunk and image support the Pulgar/Arriagada row, but the converted Markdown file's entry 172 is an unrelated Oswaldo Burgos/Concepcion de la Cruz row. Father-name suffix remains a textual QA issue within the Pulgar/Arriagada row.
-- Uncertainty: The prior image-availability blocker is resolved for the child-name claim. Converted-file mismatch and father-name suffix still need conversion QA.
+- Conversion confidence/QA concern: earlier staged notes report that the original image was located and reread on 2026-05-22, supporting the Pulgar/Arriagada row. This 2026-05-23 worker could not locate the source image or manifest page image for direct verification. The assigned chunk supports the Pulgar/Arriagada row, but the converted Markdown file's entry 172 is an unrelated Jose Miguel / Oswaldo Bunster / Amelia de la Maza row. Father-name suffix remains a textual QA issue within the Pulgar/Arriagada row.
+- Uncertainty: Image support is inherited from earlier reread notes rather than freshly verified in this pass. Converted-file mismatch and father-name suffix still need conversion QA.
 - Promotion recommendation: hold_for_conversion_qa for father-name identity decisions.
 
 ## Father Name Suffix Disagreement
@@ -30,9 +30,9 @@ promotion_recommendation: hold_for_conversion_qa
 
 ## Converted File Entry 172 Mismatch
 
-- Literal support: converted Markdown file entry 172 states `**Nombres.** José Miguel`, father `Oswaldo Burgos`, and mother `Concepcion de la Cruz`; assigned chunk and image show entry 172 as `Jose del Carmen Segundo Pulgar Arriagada`, father `Jose del Carmen Pulgar`/`Jose del Carmen Pulgar S.`, and mother `Juana Arriagada de Pulgar`.
+- Literal support: converted Markdown file entry 172 states `**Nombres.** José Miguel`, father `Oswaldo Bunster`, and mother `Amelia de la Maza`; assigned chunk and earlier image-reread notes show entry 172 as `Jose del Carmen Segundo Pulgar Arriagada`, father `Jose del Carmen Pulgar`/`Jose del Carmen Pulgar S.`, and mother `Juana Arriagada de Pulgar`.
 - Conversion confidence/QA concern: material mismatch between the converted Markdown file and both the assigned chunk and source image for the same entry number.
-- Uncertainty: High for using the converted Markdown file as support for this task; low that the source image visible in the workspace is the Pulgar/Arriagada entry named by the task source and chunk.
+- Uncertainty: High for using the converted Markdown file as support for this task; low for the assigned chunk reading, but high for promotion readiness because this worker could not inspect the source image directly.
 - Promotion recommendation: hold_for_conversion_qa for any draft that depends on the converted Markdown text itself; image-supported child, mother, and event facts may proceed only with explicit proof review awareness of this mismatch.
 
 ## Source Path Encoding Variant

@@ -8,4 +8,4 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | high | high | pass | none | Carmen, Entries, Osorio, concepcion |
+| 1 | critical | low | reread-page | none | Carmen, Entries, Osorio |
