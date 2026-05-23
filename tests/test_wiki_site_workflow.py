@@ -13,6 +13,7 @@ def test_wiki_site_workflow_deploys_cloudflare_worker_site() -> None:
     assert 'node-version: "22"' in workflow
     assert "npx wrangler@latest deploy --config cloudflare/wiki-site/wrangler.embedded.jsonc" in workflow
     assert "CLOUDFLARE_ACCOUNT_ID" in workflow
+    assert "secrets.R2_ACCOUNT_ID" in workflow
     assert "CLOUDFLARE_API_TOKEN" in workflow
     assert "genealogy-wiki-site.ajh-genealogy.workers.dev/tree" in workflow
     assert "Alexander John Heinz" in workflow

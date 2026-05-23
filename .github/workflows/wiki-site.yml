@@ -82,12 +82,12 @@ jobs:
       - name: Deploy Cloudflare Worker site
         if: env.SKIP_SITE_PUBLISH != 'true'
         env:
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID || secrets.R2_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
           set -euo pipefail
           if [ -z "${CLOUDFLARE_ACCOUNT_ID:-}" ]; then
-            echo "::error title=Missing Cloudflare account secret::Add CLOUDFLARE_ACCOUNT_ID to repository Actions secrets."
+            echo "::error title=Missing Cloudflare account secret::Add CLOUDFLARE_ACCOUNT_ID or R2_ACCOUNT_ID to repository Actions secrets."
             exit 1
           fi
           if [ -z "${CLOUDFLARE_API_TOKEN:-}" ]; then
