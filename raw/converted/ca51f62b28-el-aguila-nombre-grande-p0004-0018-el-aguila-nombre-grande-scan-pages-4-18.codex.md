@@ -537,25 +537,23 @@ This page has been fully transcribed and all visual elements have been described
 ## Page Metadata
 - Source: `El Aguila Nombre Grande Scan.pdf`
 - Page: `10`
-- Page type: `image`
 
 ## Layout And Reading Order
 The page contains a single large image of a landscape with cattle and a body of water. There is no text on the page other than a handwritten page number at the bottom.
 
 ## Literal Transcription
-(No literal transcription needed for this page, as it is primarily an image.)
+(No literal transcription needed for this page, as it contains only an image and a handwritten page number.)
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hilly-landscape.png)
-  - Kind: photograph; label basis: converter-description; bbox_pct: [6.0, 2.0, 96.0, 98.0]
-  - Source context: The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.
+- ![converter-description: A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-landscape.png)
+  - Kind: photograph; label basis: converter-description; bbox_pct: [6.0, 3.0, 96.0, 97.0]
+  - Source context: A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.
 
-- A color illustration or painting depicts a herd of cattle gathered around a watering hole in a dry, hilly landscape. In the background, a person on horseback is visible on a distant hill.
-- A handwritten number "10" is present at the bottom center of the page.
+The page features a color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.
 
 ## Uncertain Or Illegible
-- The exact medium of the image (painting, illustration, or manipulated photograph) is uncertain without further context.
+- The handwritten number at the bottom of the page appears to be "10", but it is somewhat faded and could potentially be misread.
 
 ## Completeness Audit
 The page contains a single image and a handwritten page number. All visible content has been described.
@@ -567,15 +565,16 @@ The page contains a single image and a handwritten page number. All visible cont
     {
       "region_id": "region_1",
       "kind": "photograph",
-      "bbox_pct": [0.06, 0.02, 0.96, 0.98],
+      "bbox_pct": [0.06, 0.03, 0.96, 0.97],
       "caption_literal": null,
       "caption_type": "converter-description",
       "identity_basis": null,
-      "source_context": "The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.",
+      "source_context": "A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.",
       "confidence": 0.95,
-      "suggested_filename": "cattle_watering_hole_hilly_landscape"
+      "suggested_filename": "cattle_watering_hole_landscape"
     }
-  ]
+  ],
+  "no_visual_regions_reason": null
 }
 ```
 
@@ -667,7 +666,7 @@ This page is complete and fully transcribed.
 - Page: `12`
 
 ## Layout And Reading Order
-The page contains a single column of typewritten text, with a handwritten page number at the bottom right. The text describes industrial processes related to food production and packaging.
+The page contains a single column of typewritten text, with a header at the top and a footer at the bottom. A handwritten page number is present in the bottom right corner.
 
 ## Literal Transcription
 ERO GIGANTE
@@ -677,10 +676,10 @@ ONDE HIERVE POR TIEMPO DETERM NADO LUEGO ENTRA A OTOS ESTANQUES
 ONDE SE ENFRIA LUEGO SE LE ECHA ALMIBAR Y SE REVUELVE DESPUES PASA
 A UNOS COMPARTIMENTOS DONDE SE LLENAN LOS TARROS CON LLECCHE CONDESADA
 YA PREPARADA. LOS TARROS ANTES DE SER LLEBADOS SON DESINFECTADOS POR
-CALOR, LA PIESA DONDE SE LLENAN LOS TARROS HAY QUE MIRARLA DE AFUERA
+CALOR,LA PIESA DONDE SE LLENAN LOS TARROS HAY QUE MIRARLA DE AFUERA
 PARA NO LLEVAR MICROVIOS, LOS TARROS SON HECHOS DE LATA HAY MISMO
 , LOS TARROS SONL TAPADOS EN EL MIS MO LUGAR DONDE SE LLENAN DESPUES DE
-LO CUAL SON LEVADOS A PONERLE LA ETIQUETA "NESTLE" TERMINADO TODAD
+LO CUAL SON LEVADOS A PONERLE LA ETIQUETA "NESTLE # TERMINADO TODAD
 LA OPERACION SON ENBALADOS Y LUEGO SON LEVADOS AL FERROCARRIL CERCANO,
 LA FABRICA DE TARROS
 6Y
@@ -689,7 +688,7 @@ LAS PLANCHAS DE LATA SON CORTADAS EN TRES PEDASOS POR UNA MAQUINA, LUEGO
 PASAN A OTRA QUE LOS CORTA EN TRES NUEVAMENTE Y DESPUES UNA MAQUINA I
 ITALIANA RECIENTEMENTE EN CHILE HACE EL ENVACESE LAS DOS PARTES SON
 PEGADAS HACIENDO EL TARRO Y DE INMEDIATO OTRA PONE UNA TAPA LA DE ABAJO
-LOS TARROS YA TERMINADOS PASAN POR UN ESTERELISADOR Y DEXXXX DE AHI A
+LOS TARROS YA TERMINADOS PASAN POR UN ESTERELISADO Y DEXHXX DE AHI A
 LLENARSE
 LA PANADERIA MODERNA.
 LA ENPRESA VISITO LA PANADERIS MODERNA DE LOS ANGELES DEL SR RINCON
@@ -698,127 +697,140 @@ OTRA LO AMASA; LA MASA PARA LAS AYUYAS PASA A OTRA MAQUINA QUE LA CORTA
 Y LA FESJA CUADRADA DE AHI PASA A UN HORNO A PETROLEO Y SE ENREGA
 AL PUBLICO
 
-CRONICAS POR EL PERIODISTA X
+CRONICAS POR EL PERIODISTA x
 
 12
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+- The page number "12" is handwritten in red ink at the bottom right corner of the page.
 
 ## Uncertain Or Illegible
-- `DETERM NADO`: The space between "DETERM" and "NADO" might indicate a missing letter or an abbreviation.
-- `LLECCHE`: Appears to be a misspelling of "LECHE".
-- `LLEBADOS`: Appears to be a misspelling of "LLEVADOS".
-- `MICROVIOS`: Appears to be a misspelling of "MICROBIOS".
-- `SONL`: Appears to be a misspelling of "SON".
-- `TODAD`: Appears to be a misspelling of "TODA".
-- `ENBALADOS`: Appears to be a misspelling of "EMBALADOS".
-- `6Y`: Unclear meaning, possibly a typo or an abbreviation.
-- `LSAS`: Unclear meaning, possibly a typo or an abbreviation.
-- `PEDASOS`: Appears to be a misspelling of "PEDAZOS".
-- `DEXXXX`: Illegible word, possibly "DESPUES" or similar.
-- `ENPRESA`: Appears to be a misspelling of "EMPRESA".
-- `PANADERIS`: Appears to be a misspelling of "PANADERIA".
-- `PANAN U`: Unclear meaning, possibly a typo or an abbreviation.
-- `FESJA`: Appears to be a misspelling of "FRANJA" or "REJA".
-- `ENREGA`: Appears to be a misspelling of "ENTREGA".
+- `DETERM NADO`: The space between "DETERM" and "NADO" might be a typo or an abbreviation.
+- `LLECCHE`: Could be "LECHE" (milk), with an extra 'C'.
+- `MICROVIOS`: Could be "MICROBIOS" (microbes), with a 'V' instead of 'B'.
+- `SONL`: Could be "SON" (are), with an extra 'L'.
+- `TODAD`: Could be "TODA" (all), with an extra 'D'.
+- `ENBALADOS`: Could be "EMBALADOS" (packaged), with an 'N' instead of 'M'.
+- `6Y`: Appears to be a stray character or number.
+- `LSAS`: Appears to be a stray character or abbreviation.
+- `PEDASOS`: Could be "PEDAZOS" (pieces), with an 'S' instead of 'Z'.
+- `DEXHXX`: This word is largely illegible, possibly a technical term or a typo.
+- `PANAN`: Could be "PAN" (bread), with an extra 'AN'.
+- `FESJA`: Could be "FRANJA" (strip) or "REJA" (grate), or another word.
+- `ENREGA`: Could be "ENTREGA" (delivers), with an 'N' instead of 'NT'.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text on the page.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
-
-## Page Metadata
-- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0013`
-- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
-- Page: 13
-
-## Layout And Reading Order
-The page consists of a single column of typed text. The content is organized under various headings and separated by horizontal rules or decorative lines. At the bottom of the page, a small printed calendar for February 1956 is glued on. The page number "13" is handwritten in the bottom right corner. The reading order is from top to bottom.
-
-## Literal Transcription
-```text
-EDICION GIGANTE ENERO - FEBRERO EL AGUILA
----
-DE TODO UN POCO
-
-CONCEPCION
----
-DURANTE QUE PERMANECIMOS EN EL FUNDO EN EL BARRIO LA COMPAÑIA DE S
-PROSEDIO A CANBIAR A LA VES LA CAÑERIA DE CALLE CASTELLON ENTRE
-VICTOR LAMAS Y COCHRANE
-
-EN CALLE COCRANE UNA ENPRESA CONTRATISTA TOMO A CARG O LA PAVIMENTACION
-DE DICHA CALLE LOS TRABAJOS SE ENCONTRABAN BASTANTE ADELANTADOS
----
-EL RIO QUE PASA POR LONDRES ES EL THAMES
-G G V PERTENECE AL PARTIDO RADICAL
-LA ISLA DE MALTA SE ENCUENTRA EN EL MEDITERRANEO
-RESPUESTAS DE PAGUINA 3
-6666666666666666666666666666666666666666666666666666666666666666666666
-
-NOTAS DE LA EMPRESA:
-LA EMPRESA A DESIGNADO A DR DARIO PULGAR A NUESTRO DISTRIBUIDOR
-OFICIAL PAPA NUMEROS ATRASADOS SIRVAN DIRIGIRSE A NUESTRA DIRECCION EN
-CONCEPCION . LUEGO SE HABRIRAN LAS SUSCRIPCIONES PARA LO CUAL
-CONSULTEN CON NUESTRO DISTRIBUIDOR.
-
-EL DIRECTOR EL DEPARTAMENTO DE PROPAGANDA LO MANTENDRA INFORMADO DE LAS
-ACTIVIDADES DE LA EMPRESA [illegible]
-66666666666666666666666666666666666666666666666666666
-
-CALENDARIO 1956 OBSEQUIO DE LA EMPRESA
-
-[[calendar-1956-02]]
-| 1956 | | FEBRERO | | | | 1956 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Dom. | Lun. | Mart. | Miér. | Juev. | Vier. | Sáb. |
-| | | | 1 | 2 | 3 | 4 |
-| 5 | 6 | 7 | 8 | 9 | 10 | 11 |
-| 12 | 13 | 14 | 15 | 16 | 17 | 18 |
-| 19 | 20 | 21 | 22 | 23 | 24 | 25 |
-| 26 | 27 | 28 | 29 | | | |
-
-13
-```
-
-## Images, Captions, And Visual Notes
-A small printed calendar for February 1956 is glued to the bottom portion of the page. The calendar is titled "FEBRERO 1956". The days of the week are abbreviated. The numbers for Sundays (5, 12, 19, 26) are printed in red ink, while the other days are in black. A piece of transparent tape is affixed over the first column (Sundays), partially obscuring the numbers 12, 19, and 26.
-
-The page number "13" is handwritten in pencil or faded ink in the bottom right corner, below the calendar.
-
-The page has several stains and areas of discoloration. Some typed text is very faint and difficult to read, possibly due to erasure, fading, or bleed-through from the reverse side.
-
-## Uncertain Or Illegible
-- On the line beginning "ACTIVIDADES DE LA EMPRESA", there is faint, illegible text to the right, obscured by a stain.
-- On the line beginning "CONSULTEN CON NUESTRO DISTRIBUIDOR.", there is very faint, illegible text to the right.
-
-## Completeness Audit
-The page has been transcribed in its entirety. All legible text, including the content of the attached calendar, has been captured. Illegible portions of text have been noted.
+The transcription is complete for all visible text on the page.
 
 ## Visual Region Manifest
 ```json
 {
+  "visual_regions": [],
+  "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The handwritten page number is noted in the 'Images, Captions, And Visual Notes' section."
+}
+```
+
+## Page Metadata
+
+- **Page number**: 13
+- **Document title**: El Aguila
+- **Publication date**: Enero - Febrero 1956
+
+## Layout And Reading Order
+
+The page consists of a single column of typewritten text. The content includes a header, a main title, and several short articles or notes under subheadings. A small printed calendar for February 1956 is glued to the bottom of the page. The reading order is from top to bottom.
+
+## Literal Transcription
+
+EDICION GIGANTE ENERO - FEBRERO EL AGUILA
+___
+DE TODO UN POCO
+___
+CONCEPCION
+___
+
+DURANTE QUE PERMANECIMOS EN EL FUNDO EN EL BARRIO LA COMPAÑIA DE S
+PROSEDIO A CANBIAR A LA VES LA CAÑERIA DE CALLE CASTELLON ENTRE
+VICTOR LAMAS Y COCHRANE
+
+EN CALLE COCRANE UNA ENPRESA CONTRATISTA TOMO A CARG O LA PAVIMENT ION
+DE DICHA CALLE LOS TRABAJOS SE ENCONTRABAN BASTANTE ADELANTADOS
+___
+
+EL RIO QUE PASA POR LONDRES ES EL THAMES
+G G V PERTENECE AL PARTIDO RADICAL
+LA ISLA DE MALTA SE ENCUENTR A EN EL MEDITERRANEO
+RESPUESTAS DE PAGUINA 3
+66666666666666666666666666666666666666666666666666666666666666666666666666
+___
+
+NOTAS DE LA EMPRESA:
+LA EMPRESA A DESIGNADO A DR DARIO PULGA R A NUESTRO DISTRIBUIDOR
+OFICIAL PAPA NUMEROS ATRASADOS SIRVAN DIRIGIRSE A NUESTRA DIRECCION EN
+CONCEPCION . LUEGO SE HABRIRAN LAS SUSCRIPCIONES PARA LO CUAL
+CONSULTEN CON NUESTRO DISTRIBUIDOR.
+
+CTOR EL DEPARTAMENTO DE PROPAGANDA LO MANTENDRA INFORMADO DE LAS
+CTIVIDADES DE LA ENPRESA
+6666666666666666666666666666666666666666666666666666666
+
+CALENDARIO 1956 OBSEQUIO DE LA ENPRESA
+
+[vr-01]
+| 1956 | | FEBRERO | | 1956 | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Dom. | Lun. | Mart. | Miér. | Juev. | Vier. | Sáb. |
+| | | | 1 | 2 | 3 | 4 |
+| 5 | 6 | 7 | 8 | 9 | 10 | 11 |
+| [12?] | 13 | 14 | 15 | 16 | 17 | 18 |
+| [19?] | 20 | 21 | 22 | 23 | 24 | 25 |
+| [26?] | 27 | 28 | 29 | [30?] | [31?] | |
+
+13
+
+## Images, Captions, And Visual Notes
+
+- **[vr-01]** A small printed calendar for February 1956 is glued to the bottom of the page. The text "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA" appears just above it. The calendar is slightly damaged; a piece of transparent tape covers the first column of dates (5, 12, 19, 26), making them partially obscured. There is a dark mark, possibly from a staple, above the year "1956". The numbers 30 and 31 are very faint.
+- A long, thin, brown stain runs diagonally through the last paragraph of text.
+- Faint text from the reverse side of the page is visible as bleed-through in several areas.
+- The page number "13" is visible at the bottom right corner.
+
+## Uncertain Or Illegible
+
+- **[12?]**: The number 12 in the calendar is partially obscured by tape.
+- **[19?]**: The number 19 in the calendar is partially obscured by tape.
+- **[26?]**: The number 26 in the calendar is partially obscured by tape.
+- **[30?]**: The number 30 in the calendar is extremely faint.
+- **[31?]**: The number 31 in the calendar is extremely faint.
+
+## Completeness Audit
+
+This page has been transcribed in its entirety. All text, including the glued-on calendar, has been captured. Visual elements and page condition have been described.
+
+## Visual Region Manifest
+
+```json
+{
   "visual_regions": [
     {
-      "region_id": "calendar-1956-02",
-      "kind": "calendar",
+      "region_id": "vr-01",
+      "kind": "table",
       "bbox_pct": [
-        21.8,
-        78.2,
-        65.5,
-        94.9
+        25.5,
+        77.5,
+        70.5,
+        95.0
       ],
-      "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA EMPRESA",
+      "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA",
       "caption_type": "nearby-text",
       "identity_basis": "none",
-      "source_context": "A small printed calendar for February 1956 is glued to the page.",
+      "source_context": "A small printed calendar for February 1956 is glued to the bottom of the page.",
       "confidence": "high",
-      "suggested_filename": "page-0013-calendar-1956-02.jpg",
-      "inline_anchor": "[[calendar-1956-02]]"
+      "suggested_filename": "p0013-vr-01-calendar-1956.jpg",
+      "inline_anchor": "[vr-01]"
     }
-  ]
+  ],
+  "no_visual_regions_reason": null
 }
 ```
 
@@ -951,16 +963,14 @@ The transcription is complete and accurate, capturing all text and the handwritt
 ```
 
 ## Page Metadata
-- Source: `El Aguila Nombre Grande Scan.pdf`
+- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
 - Page: 16
-- Page type: `Title Page`
+- Page type: `title-page`
 
 ## Layout And Reading Order
-The page contains a hand-drawn illustration at the top, followed by handwritten text in the center and bottom of the page. The text appears to be a title and a date.
+The page contains a hand-drawn illustration at the top, followed by handwritten text in two different colors and styles. The text is arranged vertically down the page.
 
 ## Literal Transcription
-[Hand-drawn illustration of an eagle-like figure with a circle and "AD" inside its body]
-
 SuPLEMENTO
 Fotografico
 EL AGUILA
@@ -968,36 +978,20 @@ EL AGUILA
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: Hand-drawn illustration of an eagle-like figure with a circle and "AD" inside its body.](../extracted-images/page-0016/page-0016-image-01-hand-drawn-eagle-figure-with-ad-1956.png)
-  - Kind: illustration; label basis: converter-description; bbox_pct: [10.0, 23.0, 43.0, 76.0]
-  - Source context: The illustration is at the top of the page, above the handwritten text.
+- ![converter-description: A hand-drawn illustration in red ink depicts a stylized bird, possibly an eagle, with a large "D" and "AD" within its body.](../extracted-images/page-0016/page-0016-image-01-stylized-eagle-illustration.png)
+  - Kind: illustration; label basis: converter-description; bbox_pct: [19.8, 13.0, 44.0, 50.0]
 
-- An illustration of an eagle-like figure, drawn in red, is present at the top of the page. Inside its body, there is a large circle and the letters "AD" are visible.
+- A hand-drawn illustration in red ink depicts a stylized bird, possibly an eagle, with a large "D" and "AD" within its body.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-The transcription is complete and captures all visible text and the significant illustration on the page.
+The transcription is complete and captures all visible text and the primary visual element on the page.
 
 ## Visual Region Manifest
 ```json
-{
-  "visual_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "illustration",
-      "bbox_pct": [10.0, 23.0, 43.0, 76.0],
-      "caption_literal": "Hand-drawn illustration of an eagle-like figure with a circle and \"AD\" inside its body.",
-      "caption_type": "converter-description",
-      "identity_basis": null,
-      "source_context": "The illustration is at the top of the page, above the handwritten text.",
-      "confidence": 1.0,
-      "suggested_filename": "hand-drawn_eagle_figure_with_ad_1956.png",
-      "inline_anchor": "An illustration of an eagle-like figure, drawn in red, is present at the top of the page. Inside its body, there is a large circle and the letters \"AD\" are visible."
-    }
-  ]
-}
+{"visual_regions": [{"region_id": "vr0", "kind": "illustration", "bbox_pct": [19.8, 13.0, 44.0, 50.0], "caption_literal": "A hand-drawn illustration in red ink depicts a stylized bird, possibly an eagle, with a large \"D\" and \"AD\" within its body.", "caption_type": "converter-description", "identity_basis": null, "source_context": null, "confidence": 1.0, "suggested_filename": "stylized_eagle_illustration.png", "inline_anchor": "A hand-drawn illustration in red ink depicts a stylized bird, possibly an eagle, with a large \"D\" and \"AD\" within its body."}]}
 ```
 
 ## Page Metadata
@@ -1096,15 +1090,15 @@ JUSTICIA / VERDAD
 EL AGUILA. _
 
 ## Images, Captions, And Visual Notes
-No images or captions are present on this page.
+There are no images or captions on this page. The entire page consists of handwritten text.
 
 ## Uncertain Or Illegible
 No uncertain or illegible text.
 
 ## Completeness Audit
-The transcription is complete and accurate.
+The transcription is complete and accurate, capturing all visible text on the page.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions present."}
 ```

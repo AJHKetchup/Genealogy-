@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-a2c3487e3d87-P0012-01
+chunk_id: CHUNK-528026be7a64-P0012-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: a2c3487e3d87ed326961f1e152480383ffe8b0414766eaffa4b4d4445db5f2f8
+converted_sha256: 528026be7a649749428550a7bbba659a410c5f84083088d7bdabbab926e105ff
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -16,7 +16,7 @@ part: 1
 - Page: `12`
 
 ## Layout And Reading Order
-The page contains a single column of typewritten text, with a handwritten page number at the bottom right. The text describes industrial processes related to food production and packaging.
+The page contains a single column of typewritten text, with a header at the top and a footer at the bottom. A handwritten page number is present in the bottom right corner.
 
 ## Literal Transcription
 ERO GIGANTE
@@ -26,10 +26,10 @@ ONDE HIERVE POR TIEMPO DETERM NADO LUEGO ENTRA A OTOS ESTANQUES
 ONDE SE ENFRIA LUEGO SE LE ECHA ALMIBAR Y SE REVUELVE DESPUES PASA
 A UNOS COMPARTIMENTOS DONDE SE LLENAN LOS TARROS CON LLECCHE CONDESADA
 YA PREPARADA. LOS TARROS ANTES DE SER LLEBADOS SON DESINFECTADOS POR
-CALOR, LA PIESA DONDE SE LLENAN LOS TARROS HAY QUE MIRARLA DE AFUERA
+CALOR,LA PIESA DONDE SE LLENAN LOS TARROS HAY QUE MIRARLA DE AFUERA
 PARA NO LLEVAR MICROVIOS, LOS TARROS SON HECHOS DE LATA HAY MISMO
 , LOS TARROS SONL TAPADOS EN EL MIS MO LUGAR DONDE SE LLENAN DESPUES DE
-LO CUAL SON LEVADOS A PONERLE LA ETIQUETA "NESTLE" TERMINADO TODAD
+LO CUAL SON LEVADOS A PONERLE LA ETIQUETA "NESTLE # TERMINADO TODAD
 LA OPERACION SON ENBALADOS Y LUEGO SON LEVADOS AL FERROCARRIL CERCANO,
 LA FABRICA DE TARROS
 6Y
@@ -38,7 +38,7 @@ LAS PLANCHAS DE LATA SON CORTADAS EN TRES PEDASOS POR UNA MAQUINA, LUEGO
 PASAN A OTRA QUE LOS CORTA EN TRES NUEVAMENTE Y DESPUES UNA MAQUINA I
 ITALIANA RECIENTEMENTE EN CHILE HACE EL ENVACESE LAS DOS PARTES SON
 PEGADAS HACIENDO EL TARRO Y DE INMEDIATO OTRA PONE UNA TAPA LA DE ABAJO
-LOS TARROS YA TERMINADOS PASAN POR UN ESTERELISADOR Y DEXXXX DE AHI A
+LOS TARROS YA TERMINADOS PASAN POR UN ESTERELISADO Y DEXHXX DE AHI A
 LLENARSE
 LA PANADERIA MODERNA.
 LA ENPRESA VISITO LA PANADERIS MODERNA DE LOS ANGELES DEL SR RINCON
@@ -47,33 +47,35 @@ OTRA LO AMASA; LA MASA PARA LAS AYUYAS PASA A OTRA MAQUINA QUE LA CORTA
 Y LA FESJA CUADRADA DE AHI PASA A UN HORNO A PETROLEO Y SE ENREGA
 AL PUBLICO
 
-CRONICAS POR EL PERIODISTA X
+CRONICAS POR EL PERIODISTA x
 
 12
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+- The page number "12" is handwritten in red ink at the bottom right corner of the page.
 
 ## Uncertain Or Illegible
-- `DETERM NADO`: The space between "DETERM" and "NADO" might indicate a missing letter or an abbreviation.
-- `LLECCHE`: Appears to be a misspelling of "LECHE".
-- `LLEBADOS`: Appears to be a misspelling of "LLEVADOS".
-- `MICROVIOS`: Appears to be a misspelling of "MICROBIOS".
-- `SONL`: Appears to be a misspelling of "SON".
-- `TODAD`: Appears to be a misspelling of "TODA".
-- `ENBALADOS`: Appears to be a misspelling of "EMBALADOS".
-- `6Y`: Unclear meaning, possibly a typo or an abbreviation.
-- `LSAS`: Unclear meaning, possibly a typo or an abbreviation.
-- `PEDASOS`: Appears to be a misspelling of "PEDAZOS".
-- `DEXXXX`: Illegible word, possibly "DESPUES" or similar.
-- `ENPRESA`: Appears to be a misspelling of "EMPRESA".
-- `PANADERIS`: Appears to be a misspelling of "PANADERIA".
-- `PANAN U`: Unclear meaning, possibly a typo or an abbreviation.
-- `FESJA`: Appears to be a misspelling of "FRANJA" or "REJA".
-- `ENREGA`: Appears to be a misspelling of "ENTREGA".
+- `DETERM NADO`: The space between "DETERM" and "NADO" might be a typo or an abbreviation.
+- `LLECCHE`: Could be "LECHE" (milk), with an extra 'C'.
+- `MICROVIOS`: Could be "MICROBIOS" (microbes), with a 'V' instead of 'B'.
+- `SONL`: Could be "SON" (are), with an extra 'L'.
+- `TODAD`: Could be "TODA" (all), with an extra 'D'.
+- `ENBALADOS`: Could be "EMBALADOS" (packaged), with an 'N' instead of 'M'.
+- `6Y`: Appears to be a stray character or number.
+- `LSAS`: Appears to be a stray character or abbreviation.
+- `PEDASOS`: Could be "PEDAZOS" (pieces), with an 'S' instead of 'Z'.
+- `DEXHXX`: This word is largely illegible, possibly a technical term or a typo.
+- `PANAN`: Could be "PAN" (bread), with an extra 'AN'.
+- `FESJA`: Could be "FRANJA" (strip) or "REJA" (grate), or another word.
+- `ENREGA`: Could be "ENTREGA" (delivers), with an 'N' instead of 'NT'.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text on the page.
+The transcription is complete for all visible text on the page.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The handwritten page number is noted in the 'Images, Captions, And Visual Notes' section."
+}
+```

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-23T11:37:47.254463+00:00",
+  "created": "2026-05-23T12:24:57.726544+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -2938,8 +2938,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-stylized-eagle-illustration.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-stylized-eagle-illustration.png",
-      "bytes": 2925311,
-      "sha256": "9e7d37cf8c7fbfec5c81fca09ab341c92099a553a7fd0afa293ccbef394e37be",
+      "bytes": 1462577,
+      "sha256": "72d6ad4041af4a84177a47fd3a511a50319860fc8c0e1e09f1bd08c1d6b03e41",
       "media_type": "image/png"
     },
     {
@@ -12186,10 +12186,10 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 4,
-    "total_bytes": 56330699,
+    "total_files": 5,
+    "total_bytes": 58196677,
     "uploaded": 1,
-    "skipped": 3,
+    "skipped": 4,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,

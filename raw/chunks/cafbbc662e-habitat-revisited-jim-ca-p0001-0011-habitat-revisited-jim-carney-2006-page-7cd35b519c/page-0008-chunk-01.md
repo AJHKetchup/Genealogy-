@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-28e5a2c1a24a-P0008-01
+chunk_id: CHUNK-4e6792002f02-P0008-01
 source_converted: raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md
-converted_sha256: 28e5a2c1a24a01c9bc034567b52797322be876fcd2ba85e230c6a39bd020a2dc
+converted_sha256: 4e6792002f02ab8005f62982918ee6da0410fa5858f167f9393b4229d6e9834d
 source: raw/sources/Habitat Revisited, Jim Carney, 2006.pdf
 source_sha256: fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9
 source_manifest: raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json
@@ -14,13 +14,10 @@ part: 1
 ## Page Metadata
 
 - **Page number**: 8
-- **Document title**: Habitat Revisited
-- **Author**: Jim Carney
-- **Publication year**: 2006
 
 ## Layout And Reading Order
 
-The page contains a single column of text. The page number "8" is located in the top right corner. The reading order is from top to bottom.
+The page consists of a single column of text. The page number '8' is located at the top right corner. The reading order is from top to bottom, starting with the first paragraph and proceeding through the subsequent paragraphs and the final section heading.
 
 ## Literal Transcription
 
@@ -36,8 +33,8 @@ learned French in Montreal in six weeks, he said.
 Over the next three years, our small group at UBC, perhaps six people in all, worked
 at setting up a non-commercial global distribution system for the Habitat films. One
 of our first tasks was to find, identify, catalogue and store the thousands of different
-AV elements in Vancouver. During the Conference I had calculated that there had
-to be approximately ten thousand separate bits and pieces in various places.
+AV elements in Vancouver. During the Conference I had calculated that there
+had to be approximately ten thousand separate bits and pieces in various places.
 A young Vancouverite, Nigel Hollick, with no previous experience in film or video,
 handled this brilliantly. Nigel was not your typical young Kitsilano hippy, much less
 yuppy. He had been born on a sailboat in Majorca, Spain, of peripatetic and pos-
@@ -85,13 +82,13 @@ There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-The transcription of this page is complete and accurate.
+The full content of the page, including the page number and all text, has been transcribed.
 
 ## Visual Region Manifest
 
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page consists entirely of text and contains no images, illustrations, or other significant visual elements."
+  "no_visual_regions_reason": "The page contains only printed text and a page number, with no images, illustrations, or other significant visual elements suitable for cropping."
 }
 ```
