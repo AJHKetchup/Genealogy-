@@ -1,6 +1,6 @@
 {
   "created": "2026-05-22T01:02:23Z",
-  "updated": "2026-05-23T14:46:58Z",
+  "updated": "2026-05-23T17:45:13Z",
   "purpose": "Research-to-conversion relevance hints for source-prep model routing.",
   "hints": [
     {
@@ -317,14 +317,14 @@
     {
       "status": "active",
       "created": "2026-05-23T08:03:40Z",
-      "updated": "2026-05-23T14:01:56Z",
+      "updated": "2026-05-23T17:45:13Z",
       "task_id": "",
       "job_manifest": "raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json",
       "source": "",
       "source_sha256": "",
       "converted_file": "",
       "page": 7,
-      "relevance": "critical",
+      "relevance": "high",
       "requested_treatment": "reread",
       "reason": "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
       "entities": [
