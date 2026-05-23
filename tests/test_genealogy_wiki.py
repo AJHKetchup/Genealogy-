@@ -1634,13 +1634,15 @@ def test_cloud_workflow_writes_source_prep_step_summary() -> None:
     assert "source-prep-cloud-report --root . >> \"$GITHUB_STEP_SUMMARY\"" in workflow
 
 
-def test_cloud_workflow_rebases_before_publishing() -> None:
+def test_cloud_workflow_fetches_before_publishing_without_autostash_rebase() -> None:
     workflow_path = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "cloud-source-prep.yml"
     workflow = workflow_path.read_text(encoding="utf-8")
+    final_publish_window = workflow.split("Fetch latest main before publishing conversion outputs", 1)[1].split("Publish conversion outputs", 1)[0]
 
-    assert "Rebase before publishing conversion outputs" in workflow
-    assert "git pull --rebase --autostash origin main" in workflow
-    assert workflow.index("Rebase before publishing conversion outputs") < workflow.index("Publish conversion outputs")
+    assert "Fetch latest main before publishing conversion outputs" in workflow
+    assert "git fetch origin main" in final_publish_window
+    assert "git pull --rebase --autostash origin main" not in final_publish_window
+    assert workflow.index("Fetch latest main before publishing conversion outputs") < workflow.index("Publish conversion outputs")
 
 
 def test_cloud_workflow_publishes_intermediate_source_prep_checkpoints() -> None:

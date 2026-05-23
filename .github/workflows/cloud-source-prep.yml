@@ -334,9 +334,9 @@ jobs:
         if: always() && steps.preflight.outputs.ready == 'true'
         run: python -m historic_doc_ingest.genealogy_wiki source-prep-cloud-report --root . >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Rebase before publishing conversion outputs
+      - name: Fetch latest main before publishing conversion outputs
         if: always() && !cancelled() && steps.preflight.outputs.ready == 'true'
-        run: git pull --rebase --autostash origin main
+        run: git fetch origin main
 
       - name: Publish conversion outputs
         if: always() && !cancelled() && steps.preflight.outputs.ready == 'true'
