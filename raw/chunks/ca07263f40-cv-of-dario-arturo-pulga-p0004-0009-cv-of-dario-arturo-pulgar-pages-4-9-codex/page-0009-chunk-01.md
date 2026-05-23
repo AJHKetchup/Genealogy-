@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f1fd1ec4cb77-P0009-01
+chunk_id: CHUNK-56be215c030b-P0009-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: f1fd1ec4cb7788264d7def404b9a9fbffb34db49fd1a6ee2e96cf5a43b1ce5f9
+converted_sha256: 56be215c030b5a6fc1c359fde9dbf2856d1032c68a9dc0a99851f77c3e0259d3
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -14,12 +14,15 @@ part: 1
 ## Page Metadata
 
 - **Page number**: 9
-- **Document type**: Curriculum Vitae
-- **Person(s) mentioned**: Dario Arturo Pulgar
+- **Source page number**: 9
+- **Document title**: CV of Dario Arturo Pulgar
+- **Document language**: en-US
+- **Work order**: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0009.md`
+- **Task id**: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0009`
 
 ## Layout And Reading Order
 
-The page consists of a single column of typed text. The content is divided into two sections. The first section continues a list of educational history, with date ranges on the left and institutional details on the right. The second section is titled "LANGUAGES" and lists spoken and written language proficiency. The reading order is top to bottom.
+The page consists of a single column of typed text. The content is read from top to bottom. The first section lists educational history, with years on the left and details on the right. The second section, titled "LANGUAGES," lists spoken and written languages.
 
 ## Literal Transcription
 
@@ -49,17 +52,17 @@ There are no images, captions, or other visual elements on this page.
 
 ## Uncertain Or Illegible
 
-All text on this page is clear and legible.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-This page has been fully and accurately transcribed.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
 
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other significant visual elements."
+  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other visual elements suitable for cropping."
 }
 ```

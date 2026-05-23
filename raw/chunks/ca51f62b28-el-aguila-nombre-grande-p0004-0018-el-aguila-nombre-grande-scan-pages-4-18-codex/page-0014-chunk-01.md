@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-50e37421c3f1-P0014-01
+chunk_id: CHUNK-b84806e38e9f-P0014-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 50e37421c3f15ac47affc6c384372bbe5874d80854069106f8a9ad50b708609e
+converted_sha256: b84806e38e9f849f1ca481b7c64b5e54a52bc7be361942dd7d79ea00e2c00ff9
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -12,43 +12,33 @@ part: 1
 ---
 
 ## Page Metadata
-- **Page number**: 14
-- **Document title**: El Aguila Nombre Grande Scan
-- **Document type**: Periodical or newsletter
-- **Language**: Spanish
-- **Page orientation**: Portrait
-- **Handwritten notes**: Yes
-- **Page quality**: Good, but with some fading and minor stains.
+- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0014`
+- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+- Page: 14
 
 ## Layout And Reading Order
-The page is a single column of typewritten text. The reading order is as follows:
-1.  A header at the top of the page with the publication name and date range, separated by a horizontal rule from the body.
-2.  A centered title, "ESCRIBE EL DIRECTOR".
-3.  A centered subtitle, "EL FUNDO LOS CUARTOS".
-4.  A main block of text describing the "Fundo Los Cuartos".
-5.  A horizontal rule separating the main text from the footer.
-6.  A footer section with publication information and a call to action.
-7.  Large handwritten text in red ink, "EL AGUILA", is written across the lower-left portion of the page.
-8.  A handwritten signature in red ink, "DR. DARIO PULGARA", is at the bottom right.
-9.  A handwritten page number, "14", is at the bottom center in red ink.
+The page is a single column of typewritten text. The reading order is from top to bottom.
+
+1.  A header containing the publication name, "EL AGUILA", and the date range "ENERO - FEBRERO".
+2.  An article titled "EL FUNDO LOS CUARTOS", attributed to "EL DIRECTOR".
+3.  A footer section with information about the publishing company, "E NPRESA EDITORA EL AGUILA".
+4.  Handwritten text in red ink is overlaid on the bottom portion of the page, including what appears to be a signature, "DR. DARIO PULGARA", and the page number, "14".
 
 ## Literal Transcription
 ```text
-[header]
 NUMERO GIGANTE ENERO - FEBRERO EL AGUILA
 ***
 ESCRIBE EL DIRECTOR
-
 EL FUNDO LOS CUARTOS
 
 EL FUNDO LOS CUARTOS PERTENECE COMO YA SE SABE AL DR DARIO PULGAR A,
-DISTINGUIDO FACULTATIVO DE CONCEPCION QUIEN HEREDO DE SUS PADRES ESTE
+DISTINGUIDO FACULTATIVO DE CONCEPCION QUIEN HEREDO´ DE SUS PADRES ESTE
 FUNDO ALLA POR EL AÑO 1917 SE CONPONIA SOLAMENTE DE 300 HECTAREAS QUE
 SIRVIERON PARA AGRANDAR SU FUNDO AL COMPRAR 300 MAS Y JUNTAS FORMARON LA
 SUPERFICIE ACTUAL DE 600 HECTAREAS.
 ESTA UBICADO EN LA PROVINCIA DE BIO-BIO A 22 KILOMETROS DE LA CUIDAD
 DE LOS ANGELES, EN EL CAMINO DE SAN CARLOS DE PUREN A SANTA BARBARA;
-DESLINDA AL SUR CON EL RIO BIO-BIO AL NOTE CON EL RIO DUQUILCO OESTE
+DESLINDA AL SUR CON EL RIO BIO-BIO AL NOTE CON EL RIO DUQULCO OESTE
 CON EL FUNDO " NATALIA " Y AL ESTE CON LOS"FUNDOS"SANTA INES"Y " LAS
 GARZAS " EXSISTEN PLANTACIONES DE PINOS QUE ACTUALMENTE SE EXPLOTAN ./
 DESDE EL AÑO 1938 SE RIEGA PARTE CON LAS AGUAS DEL CANAL BIO BIO
@@ -70,32 +60,37 @@ HAGASE LECTOR
 ESCRIBA A NUESTRA ENPRESA O
 PONGASE EN CONTACTO CON NUESTRO AGENTE PARA TODO
 CHILE
-
-[handwritten in red ink across the lower left]
-EL AGUILA
-
-[handwritten in red ink at bottom center]
-14
-
-[handwritten in red ink at bottom right]
-DR. DARIO PULGARA
+[handwritten in red ink] EL AGUILA [/handwritten]
+[handwritten in red ink] 14 [/handwritten]
+[handwritten in red ink] DR. DARIO PULGARA [/handwritten]
 ```
 
 ## Images, Captions, And Visual Notes
-- **Large handwritten text**: In the lower-left quadrant, the words "EL AGUILA" are written in large, stylized red ink, partially obscuring the typed text.
-- **Handwritten signature**: At the bottom right of the page, the name "DR. DARIO PULGARA" is handwritten in red ink.
-- **Handwritten page number**: The number "14" is handwritten in red ink at the bottom center of the page.
+- A large, handwritten text in red ink, possibly "EL AGUILA", is written across the bottom third of the page.
+- The number "14" is handwritten in red ink at the bottom center of the page.
+- A signature, "DR. DARIO PULGARA", is handwritten in red ink at the very bottom of the page.
 
 ## Uncertain Or Illegible
-- The large handwritten text in the lower-left is somewhat stylized and could be interpreted as "EL AGUILA" or just "AGUILA". "EL AGUILA" seems most plausible.
+- The typed text contains several apparent typographical errors which have been transcribed as they appear:
+    - `CONPONIA` instead of `COMPONIA`
+    - `CUIDAD` instead of `CIUDAD`
+    - `NOTE` instead of `NORTE`
+    - `DUQULCO` might be a misspelling.
+    - `EXSISTEN` instead of `EXISTEN`
+    - `PRODUCTIVLES` instead of `PRODUCTIVAS`
+    - `UÑA` instead of `UNA`
+    - `TANBIEN` instead of `TAMBIEN`
+    - `GADPONES` instead of `GALPONES`
+    - `LUS` instead of `LUZ`
+- The handwritten name at the bottom is transcribed as `PULGARA`, which differs from the typed name `PULGAR A,` in the main text. The handwritten version appears to be a single word.
 
 ## Completeness Audit
-This page has been fully transcribed. All text, including headers, footers, and handwritten annotations, has been captured.
+The page is fully transcribed.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text. The handwritten elements are transcribed and described in the notes; they do not qualify as standalone visual assets like photographs or complex diagrams."
+  "no_visual_regions_reason": "The page contains only text. The handwritten elements are transcribed and described in the notes; they do not require cropping as standalone visual assets."
 }
 ```

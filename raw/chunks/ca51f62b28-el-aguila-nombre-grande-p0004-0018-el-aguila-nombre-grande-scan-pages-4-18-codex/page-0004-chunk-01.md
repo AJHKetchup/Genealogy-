@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-50e37421c3f1-P0004-01
+chunk_id: CHUNK-b84806e38e9f-P0004-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 50e37421c3f15ac47affc6c384372bbe5874d80854069106f8a9ad50b708609e
+converted_sha256: b84806e38e9f849f1ca481b7c64b5e54a52bc7be361942dd7d79ea00e2c00ff9
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -13,52 +13,7 @@ part: 1
 
 ## Page Metadata
 - Page number: 7
+- Source page: p0007
 
 ## Layout And Reading Order
-This page contains a single column of typewritten text. A handwritten page number, "7", is at the bottom center of the page. A handwritten insertion is present in the middle of the main text block. The reading order is from top to bottom.
-
-## Literal Transcription
-NUMERO GIGANTE ENERO FEBRERO EL AGUILA
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-ESCRIBEN LOS LECTORES
-LA EMPRESA TIENE EL AGRADO DE PUBLICAR UN ARTICULO ESCRITO PARA
-ESTE DIARIO POR EL DR DARIO PULGAR.
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-_EL_DR_VIRGINIO_GOMES__G__
-EN CIRCUNSTANSTAS QUE VIAJABA ABORDO DEL BUQUE " ALONDRA" DE LA
-" COMPAÑIA MARITIMA DEL ESTADO "CON RUMBO A MAGALLANES A LA ALTURA
-DE PUERTO MONTT, DESAPARECION MISTERIOSAMENTE ESTE DISTINGUIDO
-FACULTATIVO QUE HONRO´ A LA MEDICINA CHILENA POR SU TALENTO Y POR
-SU AMPLIA CULTURA.
-NACIO´ EN LA CUIDAD DE LOS ANGELES, PERTENECIA A UNA RESPETABLE
-FAMILIA .
-EN POSECION DE SU TÍTULO FUÉ A EJERCER SU PROFECION EN IQUQUE Y LUEGO
-DESPUES EN CONCEPCION DONDE TUVO UNA DESTACADA Y BRILLANTE
-ACTUACION COMO MEDICO Y COMO PRINCIPAL FUNDADOR DE LA UNIVERSIDAD
-PENQUISTA . DESIGNADO DIRECTOR DEL ANTIGUO HOSPITAL "SAN JUAN DE DIOS
-ALLA POR EL AÑO 1916 TRATO´ DE MODERNISARLO Y CONVERTIRLO EN UN HOSPITAL
-CLINICO QUE LLEVABA APAREJADA LA IDEA DE LA FUNDACION EDE UNA E
-ESCUELA DE MEDICINA Y DE LA UNIVERSIDAD QUE ERA SU IDEAL Y A LA CUAL
-<ins>que se convirtieron/</ins>
-DEDICO´ SUS MAYORES ENERGIAS Y ENTUSIASMOS HASTA SUS DESEOS/EN UNA
-HERMOSA REALIDAD.
-EL DOCTOR GOMES DEJA UNA HUELLA LUMUNOSA Y UN RECUERDO INPERESEDERO
-POR SUS CONDICIONES DE HOMBRE DE BIEN Y PROFECIONAL DISTINGUIDO Y
-ALTUISTA. NO ANBICIONO FORTUNA ALGUNA; PRODIGIO EL BIEN A MANO LLENA
-ENTRE SU NUMEROSA CLIENTELA DE TODOS LOS CIRCULOS SOCIALES .
-
-7
-
-## Images, Captions, And Visual Notes
-There are no images on this page. The page number "7" is handwritten in red ink at the bottom center. A handwritten insertion, "que se convirtieron/", is present in black ink between two lines of the main text block.
-
-## Uncertain Or Illegible
-- The handwritten insertion `que se convirtieron/` is slightly difficult to read but this is the most plausible transcription.
-
-## Completeness Audit
-This page has been transcribed in its entirety.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and minor handwritten marks which are fully transcribed."}
-```
+This page contains a single column of typewritten text. The reading order is from top to bottom. A handwritten page number is at the bottom center. There is one handwritten insertion in the main body of the text.

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-b986d37e685d-P0002-01
+chunk_id: CHUNK-ad51f87716d7-P0002-01
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md
-converted_sha256: b986d37e685d7788568baf82b8d1c6d9c92b30eda4a02450e64a28471dc92196
+converted_sha256: ad51f87716d75fa0727174cca02062c798feac33ab962a487dbd9b23b16b9d58
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json
@@ -12,64 +12,68 @@ part: 1
 ---
 
 ## Page Metadata
-- page_number: 2
-- task_id: source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25:p0002
-- source_name: raw/sources/R3578-50-5569-5569-Jacket5.pdf
-- source_page_number: 2
+- `page_number`: 2
+- `page_type`: Cover
+- `document_type`: File Jacket
+- `language`: French, English
 
 ## Layout And Reading Order
-The document is a file cover or routing slip made of manila-colored cardstock. The layout is as follows, in reading order:
-1. A header at the top with a printed category, a stamped number, and handwritten numbers.
-2. A "Sujet" (Subject) section below the header, with several lines of handwritten French text.
-3. The main body of the page is a pre-printed three-column table for routing information. Each column has sub-columns for "Transmis à / Referred to" and "Date". The table is filled with handwritten entries.
-4. To the right of the main table, there are printed fields for "Dossier précédent" (Previous file), "Dossier suivant" (Next file), and "Dossiers connexes" (Related files). The "Dossier suivant" field contains a handwritten number.
+The page is a pre-printed manila file jacket. The content is arranged as follows:
+1. A header at the top with the category "GENERAL AND MISCELLANEOUS" and file numbers.
+2. A "Sujet" (Subject) section with a handwritten description in French.
+3. A three-column table for tracking the document's circulation. Each column is subdivided into "Transmis à / Referred to" and "Date". The table is filled with handwritten entries.
+4. To the right of the table are fields for previous, next, and related file numbers.
+
+The reading order is from top to bottom.
 
 ## Literal Transcription
 ```text
 GENERAL AND MISCELLANEOUS
-[In a box] 50
-[Handwritten] 5569 5569
+[Stamped:] 50
+[Handwritten:] 5569 5569
 
 Sujet:
-[Handwritten]
 Conférence Diplomatique (Juillet 1929) appelée à revoir la
 Convention de Genève de 1906 pour l'amélioration du sort des
 blessés et malades dans les armées en campagne et d'élaborer
 un code des prisonniers de guerre.
 
-[Table]
-| Transmis à<br>Referred to | Date | Transmis à<br>Referred to | Date | Transmis à<br>Referred to | Date |
+[A pre-printed table with handwritten entries follows.]
+| Transmis à / Referred to | Date | Transmis à / Referred to | Date | Transmis à / Referred to | Date |
 |---|---|---|---|---|---|
-| For previous circulation<br>see within. | | [Handwritten] Marquis Paulucci | [Handwritten] 7.10.31 | [Handwritten] M. Paulucci | [Handwritten] 9.2.32 |
-| [Handwritten] IX M. Schwartz<br>legal dept | [Handwritten] 26.5.31 | [Handwritten] IX M. Schwartz<br>legal dept | [Handwritten] 19.10.31 | [Handwritten] Disarmament | [Handwritten] 1.4.32 |
-| [Handwritten] M. Walters | [Handwritten] 29.5.31 | [Handwritten] Marquis Paulucci | [Handwritten] 21.10.31 | [Handwritten] M. Walters | [Handwritten] 7.4.32 |
-| [Handwritten] Marquis Paulucci | [Handwritten] 30.5.31 | [Handwritten] X M. Schw artz (leg) I.C.V | [Handwritten] 14.12.31 | [Handwritten] XXJ M. Schwartz<br>legal dept | [Handwritten] 17.5.32 |
-| [Handwritten] M. Schwartz<br>legal dept | [Handwritten] 12.6.31 | [Handwritten] Marquis Paulucci | [Handwritten] 4.11.31 | [Handwritten] M. Paulucci | [Handwritten] 20.5.32 |
-| [Handwritten] XI M. Walters | [Handwritten] 1.7.31 | [Handwritten] M. Schurnik[?] (legal) | [Handwritten] 12.11.31 | [Handwritten] Disarmament | [Handwritten] 21.5.32 |
-| [Handwritten] M. Schwartz<br>legal dept | [Handwritten] 2.7.31 | [Handwritten] X+I M. Schwartz<br>legal dept | [Handwritten] 29.12.31 | [Handwritten] M. Walters | [Handwritten] 23.5.32 |
-| [Handwritten] M. Walters | [Handwritten] 6.7.31 | [Handwritten] M. Paulucci | [Handwritten] 4.1.32 | Dossier<br>précédent } No. [Handwritten line drawn through field] |
-| [Handwritten] X M. Schwartz<br>legal dept | [Handwritten] 8.7.31 | [Handwritten] XXII M. Schwartz (legal) | [Handwritten] 5.3.32 | Dossier<br>suivant } No. [Handwritten] 7801 |
-| [Handwritten] M. Walters | [Handwritten] 11.7.31 | [Handwritten] Disarmament | [Handwritten] 8.2.32 | Dossiers connexes |
-| [Handwritten] XVI M. Schwartz<br>legal dept | [Handwritten] 11.7.31 | [Handwritten] XXIII M. Schwartz<br>again | [Handwritten] 12.2.32 | | |
-| [Handwritten] XIX M. Schwartz<br>legal dept | [Handwritten] 15.7.31 | [Handwritten] M. Paulucci | [Handwritten] 15.2.32 | | |
-| [Handwritten] Marquis Paulucci | [Handwritten] 18.7.31 | [Handwritten] Disarmament | [Handwritten] 15.2.32 | | |
-| [Handwritten] XX M. Schwartz<br>legal dept | [Handwritten] 30.9.31 | [Handwritten] XXIV M. Schwartz<br>legal dept | [Handwritten] 29.3.32 | | |
+| For previous circulation<br>see within. | | Marquis Paulucci | 7.10.31 | M. Paulucci | 9.2.32 |
+| M. Schwartz<br>legal dept | 26.5.31 | XIX M. Schwartz<br>legal | 19.10.31 | Disarmament | 1.4.32 |
+| M. Walters | 29.5.31 | Marquis Paulucci | 21.10.31 | M. Walters | 6u 7.4.32 |
+| Marquis Paulucci | 30.5.31 | XX In Dir art (upl) L.C.V | 14.11.31 | XXJ M. Schwartz<br>legal | 17.5.32 |
+| M. Schwartz<br>legal dept | 12.6.31 | Marquis Paulucci | 4.11.31 | M. Paulucci | 20.5.32 |
+| XI Tu M. Walters | 1.7.31 | M. Schwartz (upl) | 12.11.31 | Disarmament | 21.5.32 |
+| XII Tu M. Schwartz<br>legal dept | 2.7.31 | XXI M. Schwartz<br>legal | 29.12.31 | M. Walters | by 23.5.32 |
+| M. Walters<br>by Mr Floy[?] | 6.7.31 | M. Paulucci | 4.1.32 | Dossier<br>précédent | } No. [handwritten line] |
+| X M. Schwartz<br>legal | 8.7.31 | XXII M. Schwartz (upl) | 5.3.32 | | |
+| M. Walters<br>by Mr Floy[?] | 11.7.31 | Disamt[?] | 8.2.32 | Dossier<br>suivant | } No. 7801 |
+| XVI M. Schwartz<br>legal dpt | 11.7.31 | XXIV M. Schwartz<br>legal | 12.2.32 | Dossiers connexes | |
+| XIX M. Schwartz<br>legal | 15.7.31 | M. Paulucci | 15.2.32 | | |
+| Marquis Paulucci | 18.7.31 | Disarmament | 15.2.32 | | |
+| XXIII M. Schwartz<br>legal | 30.9.31 | XXV M. Schwartz<br>legal | 20.2.32 | | |
 ```
 
 ## Images, Captions, And Visual Notes
-This page is a manila-colored cardstock file cover, also known as a jacket. It contains a mix of printed and handwritten text. The printed text includes the category "GENERAL AND MISCELLANEOUS" and the framework for a routing table in both English and French. The subject of the file and all routing information are filled in by hand. A stamped number `50` appears in a box at the top, next to handwritten file numbers `5569 5569`. The handwriting suggests multiple individuals have handled the file over a period from 1931 to 1932.
+The document is a manila-colored file jacket with pre-printed text in English and French. The majority of the content is handwritten in black ink, detailing the subject of the file and its circulation history.
+
+Several entries in the circulation table are marked with checkmarks or lines in red and blue pencil, likely to track the status of the review. For example, there is a red checkmark next to "Marquis Paulucci 4.11.31" and a blue checkmark next to "M. Paulucci 4.1.32".
 
 ## Uncertain Or Illegible
-- **M. Schurnik[?]**: In the second column of the table, the sixth data row contains a name that is difficult to decipher. "Schurnik" is the most plausible reading of the script, but it could potentially be "Schuman" or a similar name.
-- **I.C.V**: In the second column, fourth data row, the initials following "M. Schw artz (leg)" are hastily written and could be interpreted differently. "I.C.V" is the best reading.
+- `by Mr Floy[?]`: The surname is difficult to read but appears to be "Floy" or similar. This note appears twice.
+- `Disamt[?]`: This appears to be an abbreviation for "Disarmament", which is written out in full elsewhere in the table.
+- `6u 7.4.32`: The "u" after the 6 is small and its meaning is unclear. It could be an abbreviation for "du".
 
 ## Completeness Audit
-The entire page has been transcribed. All printed text, handwritten entries, stamps, and marginal notes are included in the transcription.
+The entire page has been transcribed. All text, including handwritten entries, stamps, and form fields, is included in the transcription.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page is a text-based file cover with routing information. It does not contain any significant images, illustrations, photographs, or maps that would warrant individual cropping."
+  "no_visual_regions_reason": "The page contains no substantial images, illustrations, or photographs. All meaningful content consists of text, which has been transcribed."
 }
 ```

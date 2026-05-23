@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-23T05:25:32Z",
+  "created": "2026-05-23T07:21:12Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
@@ -8,7 +8,7 @@
   "page": 1,
   "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-images/page-0001.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-markdown/page-0001.md",
-  "no_visual_regions_reason": "No meaningful visual regions were detected.",
+  "no_visual_regions_reason": "The page contains only text and minor handwritten annotations that do not warrant separate visual region crops.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []
