@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-23T04:11:57.257542+00:00",
+  "created": "2026-05-23T05:28:19.964538+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -2768,6 +2768,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-capitan-gajardo-drinking-after-climb.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-capitan-gajardo-drinking-after-climb.png",
+      "bytes": 4476439,
+      "sha256": "c051af41a126d80fbb1dad7e1528ca03772a8c8c04612c60dccfd9ae8489ead1",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-capitan-gajardo-recomforta.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-capitan-gajardo-recomforta.png",
       "bytes": 4389406,
@@ -2819,8 +2826,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-portrait.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-portrait.png",
-      "bytes": 4890704,
-      "sha256": "854f9f26180558431a31c29df6090b16054400dee3a425ae2f839c62f219e3c3",
+      "bytes": 5254509,
+      "sha256": "604593841f9a387a43109eff3dd4e9ab819e9516acc102c20894a13c28adda2a",
       "media_type": "image/png"
     },
     {
@@ -12179,9 +12186,9 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 5,
-    "total_bytes": 62164965,
-    "uploaded": 0,
+    "total_files": 7,
+    "total_bytes": 69068453,
+    "uploaded": 2,
     "skipped": 5,
     "planned": 0,
     "errors": [],
@@ -12192,9 +12199,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1743,
+      "scanned": 1744,
       "deleted": 0,
-      "skipped": 1743,
+      "skipped": 1744,
       "errors": []
     }
   }

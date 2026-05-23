@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-23T04:00:21Z",
+  "created": "2026-05-23T05:20:39Z",
   "mode": "source-prep-docling-discovery",
   "dry_run": false,
   "agent": "source-prep-docling-discovery",
@@ -27,15 +27,15 @@
   "extracted_images": 0,
   "skipped": {
     "cached_error": 2,
-    "ocr_limit_reached": 1061
+    "ocr_limit_reached": 1059
   },
   "tasks": [
     {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325:p0320",
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0461",
       "source": "raw/sources/S495-2-2.pdf",
-      "page": 320,
+      "page": 461,
       "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/page-0320.md",
+      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/page-0461.md",
       "readability_flags": [
         "insufficient_text",
         "insufficient_alpha_text",
@@ -48,41 +48,41 @@
       "docling_error": "Docling hard timeout after 45 seconds.",
       "docling_unusable_reason": "local_ocr_timeout",
       "likely_full_page_scan": true,
-      "text_layer_alpha_chars": 27533,
-      "text_layer_flags": [
-        "encoding_mojibake",
-        "fragmented_short_lines"
-      ]
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250:p0243",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 243,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/page-0243.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "docling_error": "Docling hard timeout after 45 seconds.",
-      "docling_unusable_reason": "local_ocr_timeout",
-      "likely_full_page_scan": true,
-      "text_layer_alpha_chars": 27704,
+      "text_layer_alpha_chars": 27405,
       "text_layer_flags": [
         "encoding_mojibake",
         "fragmented_short_lines",
+        "docling_layout_noise"
+      ]
+    },
+    {
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0462",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 462,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/page-0462.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "docling_error": "Docling hard timeout after 45 seconds.",
+      "docling_unusable_reason": "local_ocr_timeout",
+      "likely_full_page_scan": true,
+      "text_layer_alpha_chars": 27368,
+      "text_layer_flags": [
+        "encoding_mojibake",
         "docling_layout_noise"
       ]
     }
   ],
   "blockers": [],
   "discovery_state_path": "research/_agent-queues/source-prep-discovery.json",
-  "checkpointed": "2026-05-23T04:01:16Z",
+  "checkpointed": "2026-05-23T05:21:34Z",
   "state_path": "research/_automation/source-prep-docling-state.json",
-  "finished": "2026-05-23T04:01:15Z"
+  "finished": "2026-05-23T05:21:34Z"
 }

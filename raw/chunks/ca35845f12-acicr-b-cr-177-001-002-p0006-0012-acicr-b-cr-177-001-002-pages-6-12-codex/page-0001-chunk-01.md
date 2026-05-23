@@ -1,24 +1,28 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-0ee05c2f9e1f-P0006-01
+chunk_id: CHUNK-ed7fc3992ced-P0001-01
 source_converted: raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md
-converted_sha256: 0ee05c2f9e1fc161d2e215177830388ad7171bebd5c09c61ccb9fbebc772c8c4
+converted_sha256: ed7fc3992ced0530e69c8eb855c7f5e9ea4d9ae87a69753276314ed4bc702fb6
 source: raw/sources/ACICR_B_CR_177_001_002.pdf
 source_sha256: 35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35
 source_manifest: raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json
-page_start: 6
-page_end: 6
+page_start: 1
+page_end: 1
 part: 1
 ---
 
 ## Page Metadata
-- Source: `raw/sources/ACICR_B_CR_177_001_002.pdf`
-- Page: 6
-- Page type: `text`
-- Page number (source): `6.`
-- Page number (inferred): `6`
+- `task_id`: ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0006
+- `source_page`: 6
+- `source_filepath`: raw/sources/ACICR_B_CR_177_001_002.pdf
+- `conversion_route`: lite
+- `page_type`: text
+- `content_languages`: fr
+- `ocr_quality_notes`: none
+- `visual_elements_notes`: none
+- `visual_elements`: none
 ## Layout And Reading Order
-The page contains a list of numbered entries, each with a date and a description of an action or communication. There are also some handwritten marginal notes. The content is presented in a single column.
+The page contains a list of numbered entries, each with a date and a description. There are also some handwritten marginalia. The reading order is sequential from top to bottom.
 ## Literal Transcription
 CR 177 Conférence diplomatique 6.
 
@@ -78,8 +82,8 @@ plié 120.- 15.6.29. CR de Dantzig demande renseignements
 ## Images, Captions, And Visual Notes
 There are no images or captions on this page.
 ## Uncertain Or Illegible
-None
+- `(10?)` in entry 111 is uncertain.
 ## Completeness Audit
 The transcription is complete and accurate.
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions present."}
+{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual regions. It is primarily text-based with some handwritten marginalia that do not warrant cropping."}

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-22T23:59:54Z",
+  "created": "2026-05-23T05:26:24Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -9,38 +9,15 @@
   "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0013.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0013.md",
   "no_visual_regions_reason": "",
-  "visual_regions": [
+  "visual_regions": [],
+  "skipped_regions": [
     {
-      "region_id": "calendar-1",
-      "kind": "illustration",
+      "region_id": "vr-01",
+      "kind": "table",
+      "reason": "low_value_visual_region_not_saved",
       "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA",
-      "caption_type": "nearby-text",
-      "identity_basis": "none",
-      "source_context": "The calendar is placed at the bottom of a page with various short news items and notes from a publication called 'EL AGUILA'.",
-      "confidence": "high",
-      "inline_anchor": "[calendar-1]",
-      "bbox_pct": [
-        22.2,
-        78.0,
-        63.5,
-        95.2
-      ],
-      "bbox_pixels": [
-        1207,
-        6528,
-        3469,
-        7976
-      ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0013/page-0013-image-01-page-0013-calendar-1.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0013/page-0013-image-01-page-0013-calendar-1.png",
-      "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0013.jpg",
-      "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
-      "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",
-      "job_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 13,
-      "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0013.md"
+      "source_context": "A small printed calendar for February 1956 is glued to the bottom of the page."
     }
   ],
-  "skipped_regions": [],
   "flags": []
 }

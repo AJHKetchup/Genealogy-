@@ -9,23 +9,12 @@
 - Extracted images: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/extracted-images`
 
 ## Page Metadata
-- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004`
-- Model route: `pro`
-- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
-- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0004.md`
-- Page: 4
-- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0004.md`
-- External research relevance: `high`
-- External requested treatment: `reread`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
-- Quality flags: explicit_reread_needed
-- Technical reread clues: none
+- task_id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004`
+- page_no: 4
+- page_type: `cv`
 
 ## Layout And Reading Order
-The document is a single-column text page. The reading order is from top to bottom. The page continues a description from the previous page, followed by two bulleted lists and then two distinct job entries, each with a date, organization, location, title, and description.
+This page is a single column of typed text. The reading order is from top to bottom. The page continues a list from the previous page, followed by two bulleted list items, and then two distinct job experience entries.
 
 ## Literal Transcription
 approaches in four different Indian Sates and, (iv) review the communications strategy for
@@ -33,31 +22,31 @@ the Productive Projects component of the Millennium Challenge Account programme 
 northern region of El Salvador while making recommendations for improvements and new
 strategic directions.
 
-- **Social impact analysis and consultation processes** including: (i) preparation of a
-  social impact analysis of extractive industry projects in Peru making recommendations for
-  the drafting of the relevant sections to be included in an Environmental Impact Assessment
-  (EIA) as required by Peruvian legislation, (ii) conduct an institutional assessment of the
-  Ministry of Natural Resources and Environment of Honduras and make recommendations to
-  improve the Ministry's consultation process and citizen involvement and granting of permits
-  for the construction and operation of hydroelectric power generation plants.
+*   **Social impact analysis and consultation processes** including: (i) preparation of a
+    social impact analysis of extractive industry projects in Peru making recommendations for
+    the drafting of the relevant sections to be included in an Environmental Impact Assessment
+    (EIA) as required by Peruvian legislation, (ii) conduct an institutional assessment of the
+    Ministry of Natural Resources and Environment of Honduras and make recommendations to
+    improve the Ministry's consultation process and citizen involvement and granting of permits
+    for the construction and operation of hydroelectric power generation plants.
 
-- **Monitoring and evaluation** including: (i) guiding implementation of an Inter-American
-  Development Bank (IDB) project in Nicaragua to assess the country's Rural Poverty
-  Reduction Strategy and supervise the preparation of documentation materials including
-  audio visual presentation of the work carried out in eleven municipalities with the
-  participation of five Government agencies, (ii) aassessing the impact of the management of
-  Natural Resources Program Initiative of IDRC in Latin America with specific reference to
-  coastal management of natural resources in the Caribbean and watershed management in
-  the Northern provinces of Ecuador including an analysis of local capacities to implement
-  natural resource management improvement practices, (iii) undertake an institutional
-  assessment of the University of Pretoria's Public Health school as part of an overall
-  evaluation of the International Development Research Centre (IDRC's), HELP course
-  including interviews with students, academics and government authorities (iv) assess the
-  impact of the management of Natural Resources Program Initiative of IDRC in Latin America
-  (Mexico. Nicaragua and Ecuador) with specific reference to coastal management of natural
-  resources in the Caribbean and watershed management in the Northern provinces of
-  Ecuador including an analysis of local capacities to implement natural resource
-  management improvement practices.
+*   **Monitoring and evaluation** including: (i) guiding implementation of an Inter-American
+    Development Bank (IDB) project in Nicaragua to assess the country's Rural Poverty
+    Reduction Strategy and supervise the preparation of documentation materials including
+    audio visual presentation of the work carried out in eleven municipalities with the
+    participation of five Government agencies, (ii) aassessing the impact of the management of
+    Natural Resources Program Initiative of IDRC in Latin America with specific reference to
+    coastal management of natural resources in the Caribbean and watershed management in
+    the Northern provinces of Ecuador including an analysis of local capacities to implement
+    natural resource management improvement practices, (iii) undertake an institutional
+    assessment of the University of Pretoria's Public Health school as part of an overall
+    evaluation of the International Development Research Centre (IDRC's), HELP course
+    including interviews with students, academics and government authorities (iv) assess the
+    impact of the management of Natural Resources Program Initiative of IDRC in Latin America
+    (Mexico. Nicaragua and Ecuador) with specific reference to coastal management of natural
+    resources in the Caribbean and watershed management in the Northern provinces of
+    Ecuador including an analysis of local capacities to implement natural resource
+    management improvement practices.
 
 **2000**
 **International Bank for Reconstruction and Development (IBRD)**
@@ -81,17 +70,17 @@ of communities during blasts that could affect them for safety reasons. Represen
 in dealings with local authorities and community organisations.
 
 ## Images, Captions, And Visual Notes
-This page contains only text. There are no images, illustrations, or other visual elements.
+This page contains only typed text. There are no images, illustrations, photographs, or other visual elements.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible parts of this document.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-The transcription is a complete and accurate representation of all the text on the page.
+This page has been fully and accurately transcribed. It is a complete page from a multi-page document.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of text and contains no images, illustrations, or other visual elements suitable for cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "This page consists entirely of typed text with no images, illustrations, or other visual elements suitable for cropping."}
 ```
 
 ## Page Metadata
@@ -205,7 +194,7 @@ This page is a complete and accurate transcription of the source image.
 - Technical reread clues: none
 
 ## Layout And Reading Order
-The page consists of a single column of typed text. The content is a continuation of a list of professional experiences from a curriculum vitae. Each entry is presented chronologically, starting with an underlined date range, followed by the employer/organization, location, and job title in bold, and concluding with a descriptive paragraph. The reading order is from top to bottom.
+The page consists of a single column of typed text. The content is a continuation of a curriculum vitae, with entries organized chronologically. Each entry begins with an underlined date range, followed by the organization, location, and job title in bold, and then a descriptive paragraph. The reading order is from top to bottom.
 
 ## Literal Transcription
 on irrigation districts and transfer of irrigation infrastructure to water user associations.
@@ -260,19 +249,19 @@ Agricultural Extension and Communication Advisor**
 Establish a Development Support Communication Centre (DSC) in the city of Dikernis, Dakahlia
 
 ## Images, Captions, And Visual Notes
-This page contains only typed text. There are no images, captions, or other visual elements.
+This page contains only typed text. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-The entire content of the page has been transcribed.
+This page has been fully and accurately transcribed.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other distinct visual elements suitable for cropping."
+  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other visual elements suitable for cropping."
 }
 ```
 

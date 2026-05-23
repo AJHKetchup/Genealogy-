@@ -9,32 +9,44 @@
 - Extracted images: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images`
 
 ## Page Metadata
-- Page number: 4
-- Document title: NUMERO GIGANTE
-- Date range: ENERO - FEBRERO
+- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0004`
+- Model route: `pro`
+- Route reasons: research_relevance:high, requested_reread
+- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/work-orders/page-0004.md`
+- Page: 4
+- Output Markdown target: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0004.md`
+- External research relevance: `high`
+- External requested treatment: `reread`
+- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
+- Recommended action: ``
+- Quality flags: none
+- Technical reread clues: none
 
 ## Layout And Reading Order
-The document is a single-column typed page. The reading order is from top to bottom.
+The page contains a single column of typed text. The reading order is sequential from top to bottom.
 
-1.  `region_0`: Header, containing the document title and date range.
-2.  `region_1`: A handwritten number and a horizontal rule.
-3.  `region_2`: A section heading "NOTAS".
-4.  `region_3`: A section titled "ALMUERSO" with a paragraph of text.
-5.  `region_4`: A section titled "MATRIMONIO." with a paragraph of text.
-6.  `region_5`: A handwritten page number at the bottom of the page.
+- `region_0`: Header text at the top of the page.
+- `region_1`: A typed number on the left margin.
+- `region_2`: A section title, "NOTAS".
+- `region_3`: A subsection titled "ALMUERSO" followed by two paragraphs of text.
+- `region_4`: A subsection titled "MATRIMONIO." followed by one paragraph of text.
+- `region_5`: A handwritten page number at the bottom center.
 
 ## Literal Transcription
-```markdown
+```text
 NUMERO GIGANTE ENERO - FEBRERO
 
 666
-----------------------------------------------------------------
+---
 
 NOTAS
 
 ALMUERSO
---------
-EL 1o.DE FEBRERO DEL PRESENTE AÑO EN EL FUNDO LOS CUARTOS SE LLEVÓ A
+---
+
+EL 1.o DE FEBRERO DEL PRESENTE AÑO EN EL FUNDO LOS CUARTOS SE LLEVÓ A
 EFECTO UN ALMUERSO AL CUAL CONCURRIERON EL DISTINGUIDO FACULTATIVO
 DE CONCEPCION Y DECANO DE LA FACULTAD DE MEDICINA DE LA UNIVERSIDAD
 DE CONCEPCION DR IVAR HERMANSEN ACOMPAÑADO DE SU ESPOSA SRA ANNIE
@@ -44,43 +56,45 @@ DR RENE PETERSEN Y SU ESPOSA. DESPUES DE UN ESPLENDIDO ALMUERSO EL
 DOCTOR HERMANSEN DURANTE LA TARDE SE DEDICÓ A LA PESCA DE SALMON EN
 EL RIO BIO-BIO PERO LA MALA SUERTE LE ENREDÓ LA LIENSA DE NYLON DEL
 CARRETE.
-EL DOCTOR PETERSEN DEBIÓ MARCHARSE A LOS ANGELES A CUNPLIR ALGUNOS C
-COMPROMISOS MARCHÁNDOSE ANTES DE ONCE. EN CANBIO EL DOCTOR HERMANSEN
-SE QUEDÓ A LA ONCE MARCHÁNDOSE APROXIMADAMENTE A LAS 8 DE LA TARDE
+
+EL DOCTOR PETERSEN DEBIÓ MARCHARSE A LOS ANGELES A CUMPLIR ALGUNOS C
+COMPROMISOS MARCHÁNDOSE ANTES DE ONCE. EN CAMBIO EL DOCTOR HERMANSEN
+SE QUEDÓ A LA ONCE MARCHÁNDOSE APROXIMADAMENTE A LAS 8 DE LA TARDE '
 AL FUNDO DEL DOCTOR PETERSEN DONDE SE HOSPEDABA PARA MARCHARSE DOS
 DIS DESPUES A CONDCEPCION A CUMPLIR SUS OBLIGACIONES
 
 MATRIMONIO.
-----------
+---
+
 EL SABADO 14 DE ENERO PASADO SE LLEVO AFECTO, PRIVADAMENTE EN LA CASA DE
 LA NOVIA EL MATRIMONIO DE LA SEÑORITA LUCIA ARRIAGADA CON EL SEÑOR
 LEOPOLDO PASCUAL BAILAC. NOTAMOSLEAL PRESENCIA DE DOS ANTIGUOS CABALLER
-DON JOSE MARIXA Y DON CARLOS DE LA JARA.TANBIE AL PRESIDENTE DE LA CORTE
+DON JOSE MARIA Y DON CARLOS DE LA JARA.TANBIE AL PRESIDENTE DE LA CORTE
 DE APELACIONES DON LUCAS SANHUEZA Y EL MINISTRO DE LA CORTE SEÑOR
-ESPEJO TANBIEN AL INGENIERO DE PROVINCIA SR PIMENTEL
+ESPEJO TANBIEN AL INGENIERO DE PROVIN CIA SR PIMENTEL
 
 4
 ```
 
 ## Images, Captions, And Visual Notes
 - The document is typewritten on aged, yellowish paper.
-- At the top left, the number `666` is handwritten in what appears to be pencil or black ink.
-- At the bottom center of the page, the number `4` is handwritten in red ink.
-- In the last paragraph, the name `MARIA` is typed as `MARIXA`, with the 'X' typed over the 'I'.
-- In the last line, the word `PROVINCIA` appears to have been corrected by overtyping; `CIA` is typed over the end of `PROVIN`.
+- There is a handwritten page number "4" in red ink at the bottom center of the page.
+- In the last paragraph, the name "MARIA" has a handwritten 'X' over the letter 'I'.
+- In the last paragraph, the word "PROVINCIA" appears to be overtyped or corrected, transcribed as "PROVIN CIA".
 
 ## Uncertain Or Illegible
-- `NOTAMOSLEAL`: This appears as a single word in the source, likely a typo for "Notamos la leal" or "Notamos la". It has been transcribed literally.
-- `MARIXA`: Transcribed as it appears, with an 'X' typed over the 'I' in `MARIA`.
+- The word `NOTAMOSLEAL` appears to be a typographical error, likely intended as "NOTAMOS LA". It is transcribed as it appears.
+- The word `TANBIE` appears twice and is likely a typographical error for "TAMBIEN". It is transcribed as it appears.
+- The word `CONDCEPCION` is likely a typographical error for "CONCEPCION". It is transcribed as it appears.
 
 ## Completeness Audit
-This page is fully transcribed. All text, including handwritten numbers and headings, has been captured.
+The transcription of this page is complete and accurate, capturing all visible text and noting relevant visual characteristics.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text. The handwritten page number and a small handwritten note are transcribed and described in the Markdown but are not substantial enough to warrant cropping as standalone visual assets."
+  "no_visual_regions_reason": "The page contains only typed text and a handwritten page number. There are no photographs, illustrations, maps, or other significant visual elements that would warrant cropping as standalone assets."
 }
 ```
 
@@ -393,14 +407,58 @@ The transcription is complete and accurate.
 ```
 
 ## Page Metadata
-- Page number: 9
+
+- **Page number**: 9
+- **Document type**: Scrapbook or newsletter page
+- **Language**: Spanish
 
 ## Layout And Reading Order
-The page contains two main columns of text. The left column has a title and then a block of text. The right column has a large image with a caption below it, followed by another block of text. Below the text in the right column is a smaller image.
+
+The page is arranged in a scrapbook style with typed text and photographs pasted onto a backing sheet. The content is organized as follows:
+
+1.  **Header**: A header at the top of the page with the publication name and date range.
+2.  **Sub-header**: A sub-header below the main header.
+3.  **Left Column Text and Photo**: A block of typed text on the upper left, next to a photograph on the upper right.
+4.  **Photo Caption**: A caption for the photograph, located below the first block of text on the left.
+5.  **Lower Left Image**: A portrait illustration in the lower-left quadrant of the page.
+6.  **Lower Right Text**: A block of typed text to the right of the portrait illustration.
+7.  **Page Number**: A handwritten page number at the bottom center.
+
+```
++----------------------------------------------------------------------+
+| 1. Header                                                            |
++----------------------------------------------------------------------+
+| 2. Sub-header                                                        |
++--------------------------------------+-------------------------------+
+| 3. Left Column Text                  | 3. Photo (Capitán Gajardo)    |
+|                                      |                               |
++--------------------------------------+                               |
+| 4. Photo Caption                     |                               |
+|                                      |                               |
++--------------------------------------+-------------------------------+
+| 5. Image (Fray Camilo Henríquez)     | 6. Lower Right Text           |
+|                                      |                               |
+|                                      |                               |
+|                                      |                               |
++----------------------------------------------------------------------+
+| 7. Page Number                                                       |
++----------------------------------------------------------------------+
+```
 
 ## Literal Transcription
-UMERO GIGANTE EL AGUILA ENERO FEBRERO
+
+```text
+[region: header]
+NUMERO GIGANTE EL AGUILA ENERO FEBRERO
+[/region]
+
+---
+
+[region: sub-header]
 VOLVEMOS ATRAS
+[/region]
+
+[region: left-column]
 EL 5 DE FEBRERO 29 HOMBRES AL MANDO DEL CAPITAN GAJARDO , - 6 DE ELLOS
 EL MENCIONADO CAPITAN EL VICESARJENTO PRIMERO NEMESIO ZAMORA EL CABO
 ROLANDO GODOY EL FILMADOR VICENTE
@@ -408,110 +466,139 @@ CHIARANDA Y EL INGENIERO WAYNE MILL ER
 ESCALARON EL MONTE "OJOS DEL SALADO,"
 EN LA CORDILLERA DE LOS ANDES SITUADO
 EN LA PROVINCIA DE ATACAMA DEPARTAMENTO
-DE COPIAPO , EL NEVADO MENCIONADO MIDE
+DE COPIAPÓ ,EL NEVADO MENCIONADO MIDE
 7084 METROS SOBRE PASANDO AL ACONCAGUA
 POR 29 METROS ./
-( EN LA FOTO ) EL CAPITAN GAJARDO SE
-RECONFOR TA DESPUES DE HABER ESCALADO
-LA CUMBRE MAS ALTA DE AMERI DA
 
+( EN LA FOTO ) EL CAPITAN GAJARDO SE
+RECONFORTA DESPUES DE HABER ESCALADO
+LA CUMBRE MAS ALTA DE AMERI DA
+[/region]
+
+[region: right-column]
 LA AURORA DE CHILE
 EL 1º DE FEBRERO DE ESTE AÑO SE
-CELEBRO EL 144 ANIVERSARIO DE LA
-FUNDACION DEL PRIMER PERIODICO NACIONAL
-POR FRAY CAMILO HENRIQUEZ EN EL AÑO
-1812 . EL PUEBLO DE CHILE RECIBIO
+CELEBRÓ EL 144 ANIVERSARIO DE LA
+FUNDACION DEL PRIMER PERIÓDICO NACIONAL
+PORFRAY CAMILO HENRIQUEZ EN EL AÑO
+1812 . EL PUEBLO DE C.HILE RECIBIO
 CON GRAN ESTUCIASMOS EL PRIMER NUMERO
-DE ESE DIARIO PARA ALENTAR A LOS HOMBRES
+DE ESE DIARIO PARA ALENTAR A LOS HONBRES
 HACIA SU LIBERTAD - EL DIARIO EL AGUILA
-CELEBRO CON UN COCTEL EN LA ENPRESA EL
+CELEBRÓ CON U N COCTEL EN LA ENPRESA EL
 DIA DE LA PRENSA
+[/region]
 
-9
+[region: footer]
+<h-red>9</h-red>
+[/region]
+```
 
 ## Images, Captions, And Visual Notes
-Pipeline-extracted visual crops:
-- ![nearby-text: LA AURORA DE CHILE
-EL 1º DE FEBRERO DE ESTE AÑO SE
-CELEBRO EL 144 ANIVERSARIO DE LA
-FUNDACION DEL PRIMER PERIODICO NACIONAL
-POR FRAY CAMILO HENRIQUEZ EN EL AÑO
-1812 . EL PUEBLO DE CHILE RECIBIO
-CON GRAN ESTUCIASMOS EL PRIMER NUMERO
-DE ESE DIARIO PARA ALENTAR A LOS HOMBRES
-HACIA SU LIBERTAD - EL DIARIO EL AGUILA
-CELEBRO CON UN COCTEL EN LA ENPRESA EL
-DIA DE LA PRENSA](../extracted-images/page-0009/page-0009-image-01-la-aurora-de-chile-fray-camilo-henriquez.png)
-  - Kind: photograph; label basis: nearby-text; bbox_pct: [50.0, 54.0, 94.0, 90.0]
-  - Source context: The caption refers to 'LA AURORA DE CHILE' and 'FRAY CAMILO HENRIQUEZ'.
-- ![nearby-text: ( EN LA FOTO ) EL CAPITAN GAJARDO SE
-RECONFOR TA DESPUES DE HABER ESCALADO
-LA CUMBRE MAS ALTA DE AMERI DA](../extracted-images/page-0009/page-0009-image-02-capitan-gajardo-after-climbing.png)
-  - Kind: photograph; label basis: nearby-text; bbox_pct: [17.0, 54.0, 45.0, 94.0]
-  - Source context: The caption identifies the person as 'EL CAPITAN GAJARDO'.
 
-- A black and white photograph shows a man in uniform, identified as Captain Gajardo, seated and drinking from a cup. He is holding a saucer in his left hand.
-- A black and white halftone image shows a portrait of a man, possibly a priest, wearing a dark garment with a cross visible on his chest.
+Pipeline-extracted visual crops:
+- ![source-caption: ( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA](../extracted-images/page-0009/page-0009-image-01-capitan-gajardo-drinking-after-climb.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [52.2, 14.4, 96.2, 58.5]
+  - Source context: A man identified as Capitán Gajardo, drinking from a cup after climbing a mountain.
+- ![nearby-text: LA AURORA DE CHILE ... PORFRAY CAMILO HENRIQUEZ EN EL AÑO 1812 .](../extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-portrait.png)
+  - Kind: illustration; label basis: nearby-text; bbox_pct: [5.2, 55.2, 48.3, 88.4]
+  - Source context: A portrait of a man in clerical attire, next to a text block identifying Fray Camilo Henríquez as the founder of the first national newspaper, "La Aurora de Chile".
+
+[inline_anchor: vr_01]
+![A black and white photograph of a man in uniform, sitting and drinking from a small cup and saucer.](images/page-0009-vr_01.jpg)
+**Caption for the image above:**
+`( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA`
+
+[inline_anchor: vr_02]
+![A halftone portrait of a man in clerical attire with a cross on his chest. The text next to the image identifies him as Fray Camilo Henríquez.](images/page-0009-vr_02.jpg)
+**Text adjacent to the image above:**
+`LA AURORA DE CHILE EL 1º DE FEBRERO DE ESTE AÑO SE CELEBRÓ EL 144 ANIVERSARIO DE LA FUNDACION DEL PRIMER PERIÓDICO NACIONAL PORFRAY CAMILO HENRIQUEZ EN EL AÑO 1812 . EL PUEBLO DE C.HILE RECIBIO CON GRAN ESTUCIASMOS EL PRIMER NUMERO DE ESE DIARIO PARA ALENTAR A LOS HONBRES HACIA SU LIBERTAD - EL DIARIO EL AGUILA CELEBRÓ CON U N COCTEL EN LA ENPRESA EL DIA DE LA PRENSA`
+
+**Other visual notes:**
+- A handwritten red number `9` is at the bottom center of the page.
+- A handwritten accent mark is added to the word `CELEBRÓ` in the lower right text block.
+- A small handwritten mark, possibly an ordinal indicator `º`, is above the number `5` in the first line of text.
 
 ## Uncertain Or Illegible
-- The word "ESTUCIASMOS" in the right column text might be a misspelling of "ENTUSIASMO".
-- The word "ENPRESA" in the right column text might be a misspelling of "EMPRESA".
+
+- **`VICESARJENTO`**: This is likely a misspelling of "VICESARGENTO".
+- **`MILL ER`**: Transcribed with a space as it appears in the source.
+- **`AMERI DA`**: The word appears to be "AMERICA" but is split at the end of the line.
+- **`PORFRAY`**: This is likely a misspelling of "POR FRAY" or "FRAY".
+- **`C.HILE`**: Transcribed with a period as it appears in the source.
+- **`ESTUCIASMOS`**: This is likely a misspelling of "ENTUSIASMOS".
+- **`HONBRES`**: This is likely a misspelling of "HOMBRES".
+- **`U N COCTEL`**: Transcribed with a space as it appears in the source.
+- **`ENPRESA`**: This is likely a misspelling of "EMPRESA".
 
 ## Completeness Audit
-The transcription is complete and captures all visible text and images on the page.
+
+This page has been fully transcribed and all visual elements have been described.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "vr_01",
       "kind": "photograph",
-      "bbox_pct": [50.0, 54.0, 94.0, 90.0],
-      "caption_literal": "LA AURORA DE CHILE\nEL 1º DE FEBRERO DE ESTE AÑO SE\nCELEBRO EL 144 ANIVERSARIO DE LA\nFUNDACION DEL PRIMER PERIODICO NACIONAL\nPOR FRAY CAMILO HENRIQUEZ EN EL AÑO\n1812 . EL PUEBLO DE CHILE RECIBIO\nCON GRAN ESTUCIASMOS EL PRIMER NUMERO\nDE ESE DIARIO PARA ALENTAR A LOS HOMBRES\nHACIA SU LIBERTAD - EL DIARIO EL AGUILA\nCELEBRO CON UN COCTEL EN LA ENPRESA EL\nDIA DE LA PRENSA",
-      "caption_type": "nearby-text",
-      "identity_basis": "source-context",
-      "source_context": "The caption refers to 'LA AURORA DE CHILE' and 'FRAY CAMILO HENRIQUEZ'.",
-      "confidence": 0.8,
-      "suggested_filename": "la_aurora_de_chile_fray_camilo_henriquez"
+      "bbox_pct": [
+        52.2,
+        14.4,
+        96.2,
+        58.5
+      ],
+      "caption_literal": "( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "A man identified as Capitán Gajardo, drinking from a cup after climbing a mountain.",
+      "confidence": "high",
+      "suggested_filename": "capitan-gajardo-drinking-after-climb.jpg",
+      "inline_anchor": "vr_01"
     },
     {
-      "region_id": "region_2",
-      "kind": "photograph",
-      "bbox_pct": [17.0, 54.0, 45.0, 94.0],
-      "caption_literal": "( EN LA FOTO ) EL CAPITAN GAJARDO SE\nRECONFOR TA DESPUES DE HABER ESCALADO\nLA CUMBRE MAS ALTA DE AMERI DA",
+      "region_id": "vr_02",
+      "kind": "illustration",
+      "bbox_pct": [
+        5.2,
+        55.2,
+        48.3,
+        88.4
+      ],
+      "caption_literal": "LA AURORA DE CHILE ... PORFRAY CAMILO HENRIQUEZ EN EL AÑO 1812 .",
       "caption_type": "nearby-text",
-      "identity_basis": "source-context",
-      "source_context": "The caption identifies the person as 'EL CAPITAN GAJARDO'.",
-      "confidence": 0.9,
-      "suggested_filename": "capitan_gajardo_after_climbing"
+      "identity_basis": "name-in-text",
+      "source_context": "A portrait of a man in clerical attire, next to a text block identifying Fray Camilo Henríquez as the founder of the first national newspaper, \"La Aurora de Chile\".",
+      "confidence": "high",
+      "suggested_filename": "fray-camilo-henriquez-portrait.jpg",
+      "inline_anchor": "vr_02"
     }
-  ]
+  ],
+  "no_visual_regions_reason": null
 }
 ```
 
 ## Page Metadata
 - Source: `El Aguila Nombre Grande Scan.pdf`
 - Page: `10`
-- Page type: `image`
 
 ## Layout And Reading Order
 The page contains a single large image of a landscape with cattle and a body of water. There is no text on the page other than a handwritten page number at the bottom.
 
 ## Literal Transcription
-(No literal transcription needed for this page, as it is primarily an image.)
+(No literal transcription needed for this page, as it contains only an image and a handwritten page number.)
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hilly-landscape.png)
-  - Kind: photograph; label basis: converter-description; bbox_pct: [6.0, 2.0, 96.0, 98.0]
-  - Source context: The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.
+- ![converter-description: A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-landscape.png)
+  - Kind: photograph; label basis: converter-description; bbox_pct: [6.0, 3.0, 96.0, 97.0]
+  - Source context: A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.
 
-- A color illustration or painting depicts a herd of cattle gathered around a watering hole in a dry, hilly landscape. In the background, a person on horseback is visible on a distant hill.
-- A handwritten number "10" is present at the bottom center of the page.
+The page features a color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.
 
 ## Uncertain Or Illegible
-- The exact medium of the image (painting, illustration, or manipulated photograph) is uncertain without further context.
+- The handwritten number at the bottom of the page appears to be "10", but it is somewhat faded and could potentially be misread.
 
 ## Completeness Audit
 The page contains a single image and a handwritten page number. All visible content has been described.
@@ -523,15 +610,16 @@ The page contains a single image and a handwritten page number. All visible cont
     {
       "region_id": "region_1",
       "kind": "photograph",
-      "bbox_pct": [0.06, 0.02, 0.96, 0.98],
+      "bbox_pct": [0.06, 0.03, 0.96, 0.97],
       "caption_literal": null,
       "caption_type": "converter-description",
       "identity_basis": null,
-      "source_context": "The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.",
+      "source_context": "A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.",
       "confidence": 0.95,
-      "suggested_filename": "cattle_watering_hole_hilly_landscape"
+      "suggested_filename": "cattle_watering_hole_landscape"
     }
-  ]
+  ],
+  "no_visual_regions_reason": null
 }
 ```
 
@@ -603,7 +691,7 @@ The transcription is complete and captures all visible text on the page.
 - Page: `12`
 
 ## Layout And Reading Order
-The page contains a single column of typewritten text, with a header at the top and a footer at the bottom. A handwritten page number is present in the bottom right corner.
+The page contains a single column of typewritten text, with a handwritten page number at the bottom right. The text describes industrial processes related to food production and packaging.
 
 ## Literal Transcription
 ERO GIGANTE
@@ -613,10 +701,10 @@ ONDE HIERVE POR TIEMPO DETERM NADO LUEGO ENTRA A OTOS ESTANQUES
 ONDE SE ENFRIA LUEGO SE LE ECHA ALMIBAR Y SE REVUELVE DESPUES PASA
 A UNOS COMPARTIMENTOS DONDE SE LLENAN LOS TARROS CON LLECCHE CONDESADA
 YA PREPARADA. LOS TARROS ANTES DE SER LLEBADOS SON DESINFECTADOS POR
-CALOR,LA PIESA DONDE SE LLENAN LOS TARROS HAY QUE MIRARLA DE AFUERA
+CALOR, LA PIESA DONDE SE LLENAN LOS TARROS HAY QUE MIRARLA DE AFUERA
 PARA NO LLEVAR MICROVIOS, LOS TARROS SON HECHOS DE LATA HAY MISMO
 , LOS TARROS SONL TAPADOS EN EL MIS MO LUGAR DONDE SE LLENAN DESPUES DE
-LO CUAL SON LEVADOS A PONERLE LA ETIQUETA "NESTLE # TERMINADO TODAD
+LO CUAL SON LEVADOS A PONERLE LA ETIQUETA "NESTLE" TERMINADO TODAD
 LA OPERACION SON ENBALADOS Y LUEGO SON LEVADOS AL FERROCARRIL CERCANO,
 LA FABRICA DE TARROS
 6Y
@@ -625,7 +713,7 @@ LAS PLANCHAS DE LATA SON CORTADAS EN TRES PEDASOS POR UNA MAQUINA, LUEGO
 PASAN A OTRA QUE LOS CORTA EN TRES NUEVAMENTE Y DESPUES UNA MAQUINA I
 ITALIANA RECIENTEMENTE EN CHILE HACE EL ENVACESE LAS DOS PARTES SON
 PEGADAS HACIENDO EL TARRO Y DE INMEDIATO OTRA PONE UNA TAPA LA DE ABAJO
-LOS TARROS YA TERMINADOS PASAN POR UN ESTERELISADO Y DEXHXX DE AHI A
+LOS TARROS YA TERMINADOS PASAN POR UN ESTERELISADOR Y DEXXXX DE AHI A
 LLENARSE
 LA PANADERIA MODERNA.
 LA ENPRESA VISITO LA PANADERIS MODERNA DE LOS ANGELES DEL SR RINCON
@@ -634,112 +722,113 @@ OTRA LO AMASA; LA MASA PARA LAS AYUYAS PASA A OTRA MAQUINA QUE LA CORTA
 Y LA FESJA CUADRADA DE AHI PASA A UN HORNO A PETROLEO Y SE ENREGA
 AL PUBLICO
 
-CRONICAS POR EL PERIODISTA x
+CRONICAS POR EL PERIODISTA X
 
 12
 
 ## Images, Captions, And Visual Notes
-- The page number "12" is handwritten in red ink at the bottom right corner of the page.
+There are no images or captions on this page.
 
 ## Uncertain Or Illegible
-- `DETERM NADO`: The space between "DETERM" and "NADO" might be a typo or an abbreviation.
-- `LLECCHE`: Could be "LECHE" (milk), with an extra 'C'.
-- `MICROVIOS`: Could be "MICROBIOS" (microbes), with a 'V' instead of 'B'.
-- `SONL`: Could be "SON" (are), with an extra 'L'.
-- `TODAD`: Could be "TODA" (all), with an extra 'D'.
-- `ENBALADOS`: Could be "EMBALADOS" (packaged), with an 'N' instead of 'M'.
-- `6Y`: Appears to be a stray character or number.
-- `LSAS`: Appears to be a stray character or abbreviation.
-- `PEDASOS`: Could be "PEDAZOS" (pieces), with an 'S' instead of 'Z'.
-- `DEXHXX`: This word is largely illegible, possibly a technical term or a typo.
-- `PANAN`: Could be "PAN" (bread), with an extra 'AN'.
-- `FESJA`: Could be "FRANJA" (strip) or "REJA" (grate), or another word.
-- `ENREGA`: Could be "ENTREGA" (delivers), with an 'N' instead of 'NT'.
+- `DETERM NADO`: The space between "DETERM" and "NADO" might indicate a missing letter or an abbreviation.
+- `LLECCHE`: Appears to be a misspelling of "LECHE".
+- `LLEBADOS`: Appears to be a misspelling of "LLEVADOS".
+- `MICROVIOS`: Appears to be a misspelling of "MICROBIOS".
+- `SONL`: Appears to be a misspelling of "SON".
+- `TODAD`: Appears to be a misspelling of "TODA".
+- `ENBALADOS`: Appears to be a misspelling of "EMBALADOS".
+- `6Y`: Unclear meaning, possibly a typo or an abbreviation.
+- `LSAS`: Unclear meaning, possibly a typo or an abbreviation.
+- `PEDASOS`: Appears to be a misspelling of "PEDAZOS".
+- `DEXXXX`: Illegible word, possibly "DESPUES" or similar.
+- `ENPRESA`: Appears to be a misspelling of "EMPRESA".
+- `PANADERIS`: Appears to be a misspelling of "PANADERIA".
+- `PANAN U`: Unclear meaning, possibly a typo or an abbreviation.
+- `FESJA`: Appears to be a misspelling of "FRANJA" or "REJA".
+- `ENREGA`: Appears to be a misspelling of "ENTREGA".
 
 ## Completeness Audit
-The transcription is complete for all visible text on the page.
+The transcription is complete and includes all visible text on the page.
 
 ## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The handwritten page number is noted in the 'Images, Captions, And Visual Notes' section."
-}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
 ## Page Metadata
 
-- Page number: 13
+- **Page number**: 13
+- **Document title**: El Aguila
+- **Publication date**: Enero - Febrero 1956
 
 ## Layout And Reading Order
 
-The page contains a single column of typewritten text. The reading order is from top to bottom. A small printed calendar for February 1956 is affixed to the bottom of the page. The page number "13" is visible at the very bottom center-right. Faint text from the reverse side of the page is visible throughout, but is not part of this page's content.
+The page consists of a single column of typewritten text. The content includes a header, a main title, and several short articles or notes under subheadings. A small printed calendar for February 1956 is glued to the bottom of the page. The reading order is from top to bottom.
 
 ## Literal Transcription
 
 EDICION GIGANTE ENERO - FEBRERO EL AGUILA
-***
+___
 DE TODO UN POCO
-***
+___
 CONCEPCION
-***
+___
+
 DURANTE QUE PERMANECIMOS EN EL FUNDO EN EL BARRIO LA COMPAÑIA DE S
 PROSEDIO A CANBIAR A LA VES LA CAÑERIA DE CALLE CASTELLON ENTRE
 VICTOR LAMAS Y COCHRANE
 
 EN CALLE COCRANE UNA ENPRESA CONTRATISTA TOMO A CARG O LA PAVIMENT ION
 DE DICHA CALLE LOS TRABAJOS SE ENCONTRABAN BASTANTE ADELANTADOS
-***
+___
+
 EL RIO QUE PASA POR LONDRES ES EL THAMES
 G G V PERTENECE AL PARTIDO RADICAL
-LA ISLA DE MALTA SE ENCUENTRA EN EL MEDITERRANEO
+LA ISLA DE MALTA SE ENCUENTR A EN EL MEDITERRANEO
 RESPUESTAS DE PAGUINA 3
-666666666666666666666666666666666666666666666666666666666666666666
+66666666666666666666666666666666666666666666666666666666666666666666666666
+___
 
-NOTAS DE LA ENPRESA.
-LA ENPRESA A DESIGNADO A DR DARIO PULGAR A NUESTRO DISTRIBUIDOR
+NOTAS DE LA EMPRESA:
+LA EMPRESA A DESIGNADO A DR DARIO PULGA R A NUESTRO DISTRIBUIDOR
 OFICIAL PAPA NUMEROS ATRASADOS SIRVAN DIRIGIRSE A NUESTRA DIRECCION EN
 CONCEPCION . LUEGO SE HABRIRAN LAS SUSCRIPCIONES PARA LO CUAL
 CONSULTEN CON NUESTRO DISTRIBUIDOR.
 
 CTOR EL DEPARTAMENTO DE PROPAGANDA LO MANTENDRA INFORMADO DE LAS
 CTIVIDADES DE LA ENPRESA
-66666666666666666666666666666666666666666666666666666
+6666666666666666666666666666666666666666666666666666666
 
 CALENDARIO 1956 OBSEQUIO DE LA ENPRESA
 
-[calendar-1]
+[vr-01]
+| 1956 | | FEBRERO | | 1956 | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Dom. | Lun. | Mart. | Miér. | Juev. | Vier. | Sáb. |
+| | | | 1 | 2 | 3 | 4 |
+| 5 | 6 | 7 | 8 | 9 | 10 | 11 |
+| [12?] | 13 | 14 | 15 | 16 | 17 | 18 |
+| [19?] | 20 | 21 | 22 | 23 | 24 | 25 |
+| [26?] | 27 | 28 | 29 | [30?] | [31?] | |
 
 13
 
 ## Images, Captions, And Visual Notes
 
-Pipeline-extracted visual crops:
-- ![nearby-text: CALENDARIO 1956 OBSEQUIO DE LA ENPRESA](../extracted-images/page-0013/page-0013-image-01-page-0013-calendar-1.png)
-  - Kind: illustration; label basis: nearby-text; bbox_pct: [22.2, 78.0, 63.5, 95.2]
-  - Source context: The calendar is placed at the bottom of a page with various short news items and notes from a publication called 'EL AGUILA'.
-
-**[calendar-1]** A small, printed calendar for February 1956. It appears to be cut out and affixed to the page. The month "FEBRERO", the year "1956", and the Sundays (5, 12, 19, 26) are printed in red ink. The days of the week and all other dates are printed in black ink. A piece of tape or a tear partially obscures the numbers 12, 19, and 26. The calendar is preceded by the text "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA".
-
-The calendar is laid out as follows:
-```
-   1956      FEBRERO      1956
-Dom. Lun. Mart. Miér. Juev. Vier. Sáb.
-                1    2    3    4
- 5    6    7    8    9   10   11
-12   13   14   15   16   17   18
-19   20   21   22   23   24   25
-26   27   28   29
-```
+- **[vr-01]** A small printed calendar for February 1956 is glued to the bottom of the page. The text "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA" appears just above it. The calendar is slightly damaged; a piece of transparent tape covers the first column of dates (5, 12, 19, 26), making them partially obscured. There is a dark mark, possibly from a staple, above the year "1956". The numbers 30 and 31 are very faint.
+- A long, thin, brown stain runs diagonally through the last paragraph of text.
+- Faint text from the reverse side of the page is visible as bleed-through in several areas.
+- The page number "13" is visible at the bottom right corner.
 
 ## Uncertain Or Illegible
 
--   **Illegible text:** Faint text is visible throughout the page, particularly on the right side. This appears to be bleed-through from the reverse side of the page and is not transcribed.
--   **Calendar damage:** The numbers 12, 19, and 26 on the calendar are partially obscured by what appears to be a tear or a piece of tape. The numbers are still identifiable.
+- **[12?]**: The number 12 in the calendar is partially obscured by tape.
+- **[19?]**: The number 19 in the calendar is partially obscured by tape.
+- **[26?]**: The number 26 in the calendar is partially obscured by tape.
+- **[30?]**: The number 30 in the calendar is extremely faint.
+- **[31?]**: The number 31 in the calendar is extremely faint.
 
 ## Completeness Audit
 
-The page has been fully transcribed. All text, including the calendar, has been captured. The faint bleed-through from the reverse page has been noted but not transcribed as it is not part of this page's content.
+This page has been transcribed in its entirety. All text, including the glued-on calendar, has been captured. Visual elements and page condition have been described.
 
 ## Visual Region Manifest
 
@@ -747,23 +836,24 @@ The page has been fully transcribed. All text, including the calendar, has been 
 {
   "visual_regions": [
     {
-      "region_id": "calendar-1",
-      "kind": "illustration",
+      "region_id": "vr-01",
+      "kind": "table",
       "bbox_pct": [
-        22.2,
-        78.0,
-        63.5,
-        95.2
+        25.5,
+        77.5,
+        70.5,
+        95.0
       ],
       "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA",
       "caption_type": "nearby-text",
       "identity_basis": "none",
-      "source_context": "The calendar is placed at the bottom of a page with various short news items and notes from a publication called 'EL AGUILA'.",
+      "source_context": "A small printed calendar for February 1956 is glued to the bottom of the page.",
       "confidence": "high",
-      "suggested_filename": "page-0013-calendar-1.jpg",
-      "inline_anchor": "[calendar-1]"
+      "suggested_filename": "p0013-vr-01-calendar-1956.jpg",
+      "inline_anchor": "[vr-01]"
     }
-  ]
+  ],
+  "no_visual_regions_reason": null
 }
 ```
 
@@ -909,15 +999,15 @@ The transcription is complete and captures all visible text and the handwritten 
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present. The handwritten page number is transcribed in the literal transcription."}
 
 ## Page Metadata
-- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+- Source: `El Aguila Nombre Grande Scan.pdf`
 - Page: 16
-- Page type: `title-page`
+- Page type: `Title Page`
 
 ## Layout And Reading Order
-The page contains a hand-drawn illustration at the top, followed by handwritten text in the middle and bottom sections. The text appears to be a title and a date.
+The page contains a hand-drawn illustration at the top, followed by handwritten text in the center and bottom of the page. The text appears to be a title and a date.
 
 ## Literal Transcription
-[Hand-drawn illustration of an eagle-like figure with a circle and a square inside its body]
+[Hand-drawn illustration of an eagle-like figure with a circle and "AD" inside its body]
 
 SuPLEMENTO
 Fotografico
@@ -926,11 +1016,11 @@ EL AGUILA
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: Hand-drawn illustration of an eagle-like figure with a circle and a square inside its body.](../extracted-images/page-0016/page-0016-image-01-illustration-eagle-like-figure-1956.png)
+- ![converter-description: Hand-drawn illustration of an eagle-like figure with a circle and "AD" inside its body.](../extracted-images/page-0016/page-0016-image-01-hand-drawn-eagle-figure-with-ad-1956.png)
   - Kind: illustration; label basis: converter-description; bbox_pct: [10.0, 23.0, 43.0, 76.0]
-  - Source context: The illustration appears at the top of the page, above the title text.
+  - Source context: The illustration is at the top of the page, above the handwritten text.
 
-- An illustration of an eagle-like figure, drawn in red ink, is present at the top of the page. The figure has a head resembling a bird, wings, and a body with a large circle and a square shape inside it.
+- An illustration of an eagle-like figure, drawn in red, is present at the top of the page. Inside its body, there is a large circle and the letters "AD" are visible.
 
 ## Uncertain Or Illegible
 None.
@@ -943,27 +1033,27 @@ The transcription is complete and captures all visible text and the significant 
 {
   "visual_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "vr_1",
       "kind": "illustration",
       "bbox_pct": [10.0, 23.0, 43.0, 76.0],
-      "caption_literal": "Hand-drawn illustration of an eagle-like figure with a circle and a square inside its body.",
+      "caption_literal": "Hand-drawn illustration of an eagle-like figure with a circle and \"AD\" inside its body.",
       "caption_type": "converter-description",
       "identity_basis": null,
-      "source_context": "The illustration appears at the top of the page, above the title text.",
+      "source_context": "The illustration is at the top of the page, above the handwritten text.",
       "confidence": 1.0,
-      "suggested_filename": "illustration_eagle_like_figure_1956.png",
-      "inline_anchor": "An illustration of an eagle-like figure, drawn in red ink, is present at the top of the page. The figure has a head resembling a bird, wings, and a body with a large circle and a square shape inside it."
+      "suggested_filename": "hand-drawn_eagle_figure_with_ad_1956.png",
+      "inline_anchor": "An illustration of an eagle-like figure, drawn in red, is present at the top of the page. Inside its body, there is a large circle and the letters \"AD\" are visible."
     }
   ]
 }
 ```
 
 ## Page Metadata
-- Source: `El Aguila Nombre Grande Scan.pdf`
+- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
 - Page: 17
 
 ## Layout And Reading Order
-The page contains two photographs, one above the other, each with a caption below it. There is also a handwritten note at the top of the page.
+The page contains two photographs, one above the other, each with a caption below it. There is also handwritten text at the top of the page. The reading order is: handwritten text, top photograph, top caption, bottom photograph, bottom caption.
 
 ## Literal Transcription
 EL "OJOS DEL SALADO"
@@ -974,50 +1064,63 @@ eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó est
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![source-caption: LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.](../extracted-images/page-0017/page-0017-image-01-culminacion-proeza-cumbre-salado.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [11.6, 40.0, 56.0, 90.0]
-  - Source context: The top photograph shows five individuals on a mountain summit.
-- ![nearby-text: The bottom photograph shows a group of eight individuals and a tent in a mountainous landscape.](../extracted-images/page-0017/page-0017-image-02-expedition-group-tent-mountain.png)
-  - Kind: photograph; label basis: nearby-text; bbox_pct: [57.5, 40.0, 95.0, 90.0]
-  - Source context: The bottom photograph shows a group of eight individuals and a tent in a mountainous landscape.
+- ![source-caption: LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA
+eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.](../extracted-images/page-0017/page-0017-image-01-culmination-of-the-feat-summit-of-el-salado.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [11.66, 44.0, 54.0, 90.0]
+  - Source context: The caption describes this as the culmination of the feat, showing five of the six climbers on the summit of El Salado, the highest mountain in America. The sixth person took the photo.
+- ![source-caption: LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA
+eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.](../extracted-images/page-0017/page-0017-image-02-expedition-group-with-tent-and-mountains.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [57.5, 55.0, 95.0, 90.0]
+  - Source context: This photograph shows a group of eight individuals in cold-weather gear with a tent and mountains in the background. It is part of the same expedition as the top photo, but the caption specifically refers to the top photo.
 
-- A handwritten note in red and blue ink at the top of the page reads "EL "OJOS DEL SALADO" FUE ESCALADO".
-- The top image shows five individuals in cold-weather gear, partially obscured by rocks, on what appears to be a mountain summit.
-- The caption for the top image reads: "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental."
-- The bottom image shows a group of eight individuals in cold-weather gear standing in a barren, mountainous landscape, with a small tent visible on the right.
+The page features two black and white photographs related to a mountain climbing expedition.
+
+The top photograph shows five individuals, heavily dressed for cold weather, sitting among rocks on what appears to be a mountain summit. The background is indistinct, suggesting a high altitude or cloudy conditions.
+
+The bottom photograph shows a group of eight individuals, also dressed in cold-weather gear, standing in a line on a relatively flat, barren landscape with mountains in the background. A small tent is visible on the right side of the image.
 
 ## Uncertain Or Illegible
-- The beginning of the caption for the top image is slightly cut off on the left side. The visible text starts with "eron seis los que llegaron:". It is likely that the full word was "Fueron".
+None.
 
 ## Completeness Audit
-The page is fully transcribed and all visual elements are described.
+The transcription is complete and accurate.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "region_0",
       "kind": "photograph",
-      "bbox_pct": [11.6, 40.0, 56.0, 90.0],
-      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
+      "bbox_pct": [
+        11.66,
+        44.0,
+        54.0,
+        90.0
+      ],
+      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA\neron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
       "caption_type": "source-caption",
-      "identity_basis": null,
-      "source_context": "The top photograph shows five individuals on a mountain summit.",
+      "identity_basis": "source-context",
+      "source_context": "The caption describes this as the culmination of the feat, showing five of the six climbers on the summit of El Salado, the highest mountain in America. The sixth person took the photo.",
       "confidence": 0.95,
-      "suggested_filename": "culminacion_proeza_cumbre_salado.jpg",
+      "suggested_filename": "culmination_of_the_feat_summit_of_el_salado.png",
       "inline_anchor": null
     },
     {
-      "region_id": "region_2",
+      "region_id": "region_1",
       "kind": "photograph",
-      "bbox_pct": [57.5, 40.0, 95.0, 90.0],
-      "caption_literal": null,
-      "caption_type": "nearby-text",
-      "identity_basis": null,
-      "source_context": "The bottom photograph shows a group of eight individuals and a tent in a mountainous landscape.",
-      "confidence": 0.95,
-      "suggested_filename": "expedition_group_tent_mountain.jpg",
+      "bbox_pct": [
+        57.5,
+        55.0,
+        95.0,
+        90.0
+      ],
+      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA\neron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
+      "caption_type": "source-caption",
+      "identity_basis": "converter-description",
+      "source_context": "This photograph shows a group of eight individuals in cold-weather gear with a tent and mountains in the background. It is part of the same expedition as the top photo, but the caption specifically refers to the top photo.",
+      "confidence": 0.9,
+      "suggested_filename": "expedition_group_with_tent_and_mountains.png",
       "inline_anchor": null
     }
   ]
