@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-3a2dcf34f6e2-P0009-01
+chunk_id: CHUNK-b6a80f14dd4c-P0009-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 3a2dcf34f6e25bc57213ac41fdc04f26c0338e4f7f561734a1db9a14e0ae0009
+converted_sha256: b6a80f14dd4ccb8e6cd01bf1d3adeb59105fa5f410eb918dee56ac40c6405f8f
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -12,28 +12,58 @@ part: 1
 ---
 
 ## Page Metadata
-- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0009`
-- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
-- Page: 9
+
+- **Page number**: 9
+- **Document type**: Scrapbook or newsletter page
+- **Language**: Spanish
 
 ## Layout And Reading Order
-This is a scrapbook page with typed text and two pasted images. The reading order is as follows:
-1.  A header at the top of the page with the publication name and date range.
-2.  A sub-header "VOLVEMOS ATRAS".
-3.  A horizontal rule.
-4.  A text block on the left side of the page, describing a mountain climbing expedition. This text block includes a caption for the photograph to its right.
-5.  A photograph [vr-01] pasted on the upper right side of the page, showing a man drinking from a cup.
-6.  A portrait [vr-02] pasted on the lower-left side of the page, showing a man in clerical attire.
-7.  A text block on the right side of the page, below the photograph [vr-01] and to the right of the portrait [vr-02], concerning the anniversary of the newspaper "La Aurora de Chile".
-8.  A handwritten page number "9" at the bottom center of the page.
+
+The page is arranged in a scrapbook style with typed text and photographs pasted onto a backing sheet. The content is organized as follows:
+
+1.  **Header**: A header at the top of the page with the publication name and date range.
+2.  **Sub-header**: A sub-header below the main header.
+3.  **Left Column Text and Photo**: A block of typed text on the upper left, next to a photograph on the upper right.
+4.  **Photo Caption**: A caption for the photograph, located below the first block of text on the left.
+5.  **Lower Left Image**: A portrait illustration in the lower-left quadrant of the page.
+6.  **Lower Right Text**: A block of typed text to the right of the portrait illustration.
+7.  **Page Number**: A handwritten page number at the bottom center.
+
+```
++----------------------------------------------------------------------+
+| 1. Header                                                            |
++----------------------------------------------------------------------+
+| 2. Sub-header                                                        |
++--------------------------------------+-------------------------------+
+| 3. Left Column Text                  | 3. Photo (Capitán Gajardo)    |
+|                                      |                               |
++--------------------------------------+                               |
+| 4. Photo Caption                     |                               |
+|                                      |                               |
++--------------------------------------+-------------------------------+
+| 5. Image (Fray Camilo Henríquez)     | 6. Lower Right Text           |
+|                                      |                               |
+|                                      |                               |
+|                                      |                               |
++----------------------------------------------------------------------+
+| 7. Page Number                                                       |
++----------------------------------------------------------------------+
+```
 
 ## Literal Transcription
+
 ```text
+[region: header]
 NUMERO GIGANTE EL AGUILA ENERO FEBRERO
+[/region]
 
 ---
-VOLVEMOS ATRAS
 
+[region: sub-header]
+VOLVEMOS ATRAS
+[/region]
+
+[region: left-column]
 EL 5 DE FEBRERO 29 HOMBRES AL MANDO DEL CAPITAN GAJARDO , - 6 DE ELLOS
 EL MENCIONADO CAPITAN EL VICESARJENTO PRIMERO NEMESIO ZAMORA EL CABO
 ROLANDO GODOY EL FILMADOR VICENTE
@@ -44,14 +74,13 @@ EN LA PROVINCIA DE ATACAMA DEPARTAMENTO
 DE COPIAPÓ ,EL NEVADO MENCIONADO MIDE
 7084 METROS SOBRE PASANDO AL ACONCAGUA
 POR 29 METROS ./
+
 ( EN LA FOTO ) EL CAPITAN GAJARDO SE
 RECONFORTA DESPUES DE HABER ESCALADO
 LA CUMBRE MAS ALTA DE AMERI DA
+[/region]
 
-[vr-01]
-
-[vr-02]
-
+[region: right-column]
 LA AURORA DE CHILE
 EL 1º DE FEBRERO DE ESTE AÑO SE
 CELEBRÓ EL 144 ANIVERSARIO DE LA
@@ -63,75 +92,94 @@ DE ESE DIARIO PARA ALENTAR A LOS HONBRES
 HACIA SU LIBERTAD - EL DIARIO EL AGUILA
 CELEBRÓ CON U N COCTEL EN LA ENPRESA EL
 DIA DE LA PRENSA
+[/region]
 
-9
+[region: footer]
+<h-red>9</h-red>
+[/region]
 ```
 
 ## Images, Captions, And Visual Notes
-Pipeline-extracted visual crops:
-- ![nearby-text: ( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA](../extracted-images/page-0009/page-0009-image-01-captain-gajardo-drinking-after-climb.png)
-  - Kind: photograph; label basis: nearby-text; bbox_pct: [52.5, 14.5, 95.5, 58.5]
-  - Source context: A photograph of a man in uniform drinking from a cup.
-- ![nearby-text: PORFRAY CAMILO HENRIQUEZ](../extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-portrait.png)
-  - Kind: illustration; label basis: nearby-text; bbox_pct: [5.0, 55.0, 48.0, 85.5]
-  - Source context: A halftone portrait of a man in clerical attire.
 
-- **[vr-01]** A black and white photograph of a man in uniform, seated, drinking from a small cup and saucer. The adjacent text identifies him as Captain Gajardo, resting after a mountain climb.
-- **[vr-02]** A halftone portrait of a man, likely from the 19th century, in clerical attire with a cross on his chest. The adjacent text discusses Fray Camilo Henriquez, suggesting this is a portrait of him.
-- A handwritten number `9` is written in red ink at the bottom center of the page.
+Pipeline-extracted visual crops:
+- ![source-caption: ( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA](../extracted-images/page-0009/page-0009-image-01-capitan-gajardo-drinking-after-climb.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [52.2, 14.4, 96.2, 58.5]
+  - Source context: A man identified as Capitán Gajardo, drinking from a cup after climbing a mountain.
+- ![nearby-text: LA AURORA DE CHILE ... PORFRAY CAMILO HENRIQUEZ EN EL AÑO 1812 .](../extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-portrait.png)
+  - Kind: illustration; label basis: nearby-text; bbox_pct: [5.2, 55.2, 48.3, 88.4]
+  - Source context: A portrait of a man in clerical attire, next to a text block identifying Fray Camilo Henríquez as the founder of the first national newspaper, "La Aurora de Chile".
+
+[inline_anchor: vr_01]
+![A black and white photograph of a man in uniform, sitting and drinking from a small cup and saucer.](images/page-0009-vr_01.jpg)
+**Caption for the image above:**
+`( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA`
+
+[inline_anchor: vr_02]
+![A halftone portrait of a man in clerical attire with a cross on his chest. The text next to the image identifies him as Fray Camilo Henríquez.](images/page-0009-vr_02.jpg)
+**Text adjacent to the image above:**
+`LA AURORA DE CHILE EL 1º DE FEBRERO DE ESTE AÑO SE CELEBRÓ EL 144 ANIVERSARIO DE LA FUNDACION DEL PRIMER PERIÓDICO NACIONAL PORFRAY CAMILO HENRIQUEZ EN EL AÑO 1812 . EL PUEBLO DE C.HILE RECIBIO CON GRAN ESTUCIASMOS EL PRIMER NUMERO DE ESE DIARIO PARA ALENTAR A LOS HONBRES HACIA SU LIBERTAD - EL DIARIO EL AGUILA CELEBRÓ CON U N COCTEL EN LA ENPRESA EL DIA DE LA PRENSA`
+
+**Other visual notes:**
+- A handwritten red number `9` is at the bottom center of the page.
+- A handwritten accent mark is added to the word `CELEBRÓ` in the lower right text block.
+- A small handwritten mark, possibly an ordinal indicator `º`, is above the number `5` in the first line of text.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible portions of this page. The text contains several apparent typographical errors, which have been transcribed as they appear in the source:
-- `VICESARJENTO` instead of `VICESARGENTO`
-- `MILL ER` with a space
-- `AMERI DA` with a space
-- `PORFRAY` instead of `POR FRAY`
-- `C.HILE` with a period
-- `ESTUCIASMOS` instead of `ENTUSIASMOS`
-- `HONBRES` instead of `HOMBRES`
-- `ENPRESA` instead of `EMPRESA`
+
+- **`VICESARJENTO`**: This is likely a misspelling of "VICESARGENTO".
+- **`MILL ER`**: Transcribed with a space as it appears in the source.
+- **`AMERI DA`**: The word appears to be "AMERICA" but is split at the end of the line.
+- **`PORFRAY`**: This is likely a misspelling of "POR FRAY" or "FRAY".
+- **`C.HILE`**: Transcribed with a period as it appears in the source.
+- **`ESTUCIASMOS`**: This is likely a misspelling of "ENTUSIASMOS".
+- **`HONBRES`**: This is likely a misspelling of "HOMBRES".
+- **`U N COCTEL`**: Transcribed with a space as it appears in the source.
+- **`ENPRESA`**: This is likely a misspelling of "EMPRESA".
 
 ## Completeness Audit
+
 This page has been fully transcribed and all visual elements have been described.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "vr-01",
+      "region_id": "vr_01",
       "kind": "photograph",
       "bbox_pct": [
-        52.5,
-        14.5,
-        95.5,
+        52.2,
+        14.4,
+        96.2,
         58.5
       ],
       "caption_literal": "( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA",
-      "caption_type": "nearby-text",
+      "caption_type": "source-caption",
       "identity_basis": "caption",
-      "source_context": "A photograph of a man in uniform drinking from a cup.",
+      "source_context": "A man identified as Capitán Gajardo, drinking from a cup after climbing a mountain.",
       "confidence": "high",
-      "suggested_filename": "captain-gajardo-drinking-after-climb.jpg",
-      "inline_anchor": "[vr-01]"
+      "suggested_filename": "capitan-gajardo-drinking-after-climb.jpg",
+      "inline_anchor": "vr_01"
     },
     {
-      "region_id": "vr-02",
+      "region_id": "vr_02",
       "kind": "illustration",
       "bbox_pct": [
-        5.0,
-        55.0,
-        48.0,
-        85.5
+        5.2,
+        55.2,
+        48.3,
+        88.4
       ],
-      "caption_literal": "PORFRAY CAMILO HENRIQUEZ",
+      "caption_literal": "LA AURORA DE CHILE ... PORFRAY CAMILO HENRIQUEZ EN EL AÑO 1812 .",
       "caption_type": "nearby-text",
-      "identity_basis": "contextual-inference",
-      "source_context": "A halftone portrait of a man in clerical attire.",
+      "identity_basis": "name-in-text",
+      "source_context": "A portrait of a man in clerical attire, next to a text block identifying Fray Camilo Henríquez as the founder of the first national newspaper, \"La Aurora de Chile\".",
       "confidence": "high",
       "suggested_filename": "fray-camilo-henriquez-portrait.jpg",
-      "inline_anchor": "[vr-02]"
+      "inline_anchor": "vr_02"
     }
-  ]
+  ],
+  "no_visual_regions_reason": null
 }
 ```

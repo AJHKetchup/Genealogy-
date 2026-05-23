@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-23937a1b0196-P0003-01
+chunk_id: CHUNK-9d599d8152af-P0003-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: 23937a1b01964961582ab01c398a097cf24eaea54191688a4b17a14ea3b478ca
+converted_sha256: 9d599d8152af74d26b3f25e8759af2eb43f91dc7e64ff5e427956e21eb134dc0
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -12,13 +12,22 @@ part: 1
 ---
 
 ## Page Metadata
-- page_number: 6
-- page_type: CV
-- source_language: en
-- subject_name: Dario Arturo Pulgar
+```json
+{
+  "page_number": 6,
+  "page_type": "cv",
+  "job_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
+  "source_file": "raw/sources/CV of Dario Arturo Pulgar.pdf",
+  "dario_pulgar_context": {
+    "is_dario_pulgar_cv": true,
+    "cv_owner": "Dario Arturo Pulgar",
+    "cv_page_number": 6
+  }
+}
+```
 
 ## Layout And Reading Order
-The document is a single column of typed text. The reading order is from top to bottom. Each entry consists of a date range, an organization, a location, a job title, and a description of duties.
+The page consists of a single column of text. The reading order is from top to bottom. Each entry represents a professional experience, typically starting with an underlined date range, followed by the organization, location, and job title in bold, and then a description of the role.
 
 ## Literal Transcription
 on irrigation districts and transfer of irrigation infrastructure to water user associations.
@@ -73,18 +82,18 @@ Agricultural Extension and Communication Advisor**
 Establish a Development Support Communication Centre (DSC) in the city of Dikernis, Dakahlia
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other visual elements on this page.
+There are no images, captions, or other visual elements on this page. The content is entirely text.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
+All text on the page is clear and legible.
 
 ## Completeness Audit
-This page has been transcribed in its entirety.
+The full content of the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other visual elements."
+  "no_visual_regions_reason": "The page consists entirely of typed text and contains no images, illustrations, or other visual elements."
 }
 ```

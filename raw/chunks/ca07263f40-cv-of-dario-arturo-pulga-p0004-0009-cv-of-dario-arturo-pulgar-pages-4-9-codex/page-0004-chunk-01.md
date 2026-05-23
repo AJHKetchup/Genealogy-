@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-23937a1b0196-P0004-01
+chunk_id: CHUNK-9d599d8152af-P0004-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: 23937a1b01964961582ab01c398a097cf24eaea54191688a4b17a14ea3b478ca
+converted_sha256: 9d599d8152af74d26b3f25e8759af2eb43f91dc7e64ff5e427956e21eb134dc0
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -12,66 +12,83 @@ part: 1
 ---
 
 ## Page Metadata
+
+- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004`
+- Model route: `pro`
+- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
+- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0004.md`
+- Page: 4
+- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0004.md`
+- External research relevance: `high`
+- External requested treatment: `reread`
+- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
+- Recommended action: ``
+- Quality flags: none
+- Technical reread clues: none
+
 ## Layout And Reading Order
 
-The page contains a single column of text. The content is a continuation of a curriculum vitae, listing professional experiences in chronological order (most recent first). Each entry is structured with dates, the name of the organization, the location, and the job title, followed by a descriptive paragraph. The reading order is from top to bottom.
+The page consists of a single column of typed text. The reading order is from top to bottom. The content is a continuation of a curriculum vitae from the previous page. It includes two bulleted paragraphs describing professional skills or experiences, followed by two distinct job entries. Each job entry is headed by a date range, employer, location, and job title, all in bold, followed by a descriptive paragraph.
 
 ## Literal Transcription
 
-Governorate and the design and implementation of a modified Training and Visit System of
-Extension, coordinating the activities of the Government of Egypt (GOE) extension organisation
-with the project. Ensure liaison with governmental organisations in the agricultural field.
-Organise farmer groups in the area.
+approaches in four different Indian Sates and, (iv) review the communications strategy for
+the Productive Projects component of the Millennium Challenge Account programme for the
+northern region of El Salvador while making recommendations for improvements and new
+strategic directions.
 
-**1988-1989**
-**Food and Agriculture Organisation of the United Nations (FAO)**
-**Ndola, Zambia**
-**Training and Communication Advisor**
-Provide advisory services in communications and training for the Formulation of a Community
-Forestry Development Strategy and Establishment of Participatory/Extension Centres Project.
-Prepare project inception report, terms of reference for all international consultants and
-contractors, review communication institutions and prepare proposals for their strengthening,
-design village level two-way flow communication programs and prepare monitoring reports of
-projects implementation.
+*   **Social impact analysis and consultation processes** including: (i) preparation of a
+    social impact analysis of extractive industry projects in Peru making recommendations for
+    the drafting of the relevant sections to be included in an Environmental Impact Assessment
+    (EIA) as required by Peruvian legislation, (ii) conduct an institutional assessment of the
+    Ministry of Natural Resources and Environment of Honduras and make recommendations to
+    improve the Ministry's consultation process and citizen involvement and granting of permits
+    for the construction and operation of hydroelectric power generation plants.
 
-**1988**
-**Canadian International Development Agency (CIDA)**
-**Ethiopia**
-**Communication Consultant**
-Provide assistance to the Economic Commission for Africa (ECA) in the field of information and
-communications. Review ECA information and communication programmes. Prepare a project
-document for strengthening ECA capacity in this field.
+*   **Monitoring and evaluation** including: (i) guiding implementation of an Inter-American
+    Development Bank (IDB) project in Nicaragua to assess the country's Rural Poverty
+    Reduction Strategy and supervise the preparation of documentation materials including
+    audio visual presentation of the work carried out in eleven municipalities with the
+    participation of five Government agencies, (ii) aassessing the impact of the management of
+    Natural Resources Program Initiative of IDRC in Latin America with specific reference to
+    coastal management of natural resources in the Caribbean and watershed management in
+    the Northern provinces of Ecuador including an analysis of local capacities to implement
+    natural resource management improvement practices, (iii) undertake an institutional
+    assessment of the University of Pretoria's Public Health school as part of an overall
+    evaluation of the International Development Research Centre (IDRC's), HELP course
+    including interviews with students, academics and government authorities (iv) assess the
+    impact of the management of Natural Resources Program Initiative of IDRC in Latin America
+    (Mexico. Nicaragua and Ecuador) with specific reference to coastal management of natural
+    resources in the Caribbean and watershed management in the Northern provinces of
+    Ecuador including an analysis of local capacities to implement natural resource
+    management improvement practices.
 
-**1986 - 1987**
-**Worldview International Foundation (WIF)**
-**Rome, Italy**
-**Rural Communications and Extension Advisor**
-Implement rural communications projects in The Gambia, Mali, Nicaragua and Peru. In Gambia,
-provide support to the Jahally Pachaar Rural Development Project including development of an
-extension communications component with special reference to the concerns of women
-farmers. In Mali, assist the Village Development Fund Project in the design of methods for
-farmer participation and assist in project implementation start up. In Nicaragua, set up a video
-production and print shop; and in Peru, include in the Alto Mayo Rural Development Project a
-component for bilingual cultural development (Aguaruna - Spanish) and establish a video-print
-radio production unit.
+**2000**
+**International Bank for Reconstruction and Development (IBRD)**
+**Bolivia, Peru**
+**Senior Consultant**
+Participate in the preparation of the Project Appraisal Document (PAD) for the Indigenous
+Management of Protected Areas Project in Peru, Prepare a Project Concept Document (PCD)
+for the Development of Indigenous Communities Learning and Innovation Loan (LIL) in Bolivia.
+Discuss with project preparation teams the scope of the projects and with Government
+implementation modalities and prepare a PCD for a second phase of an IBRD/Global
+Environment Facility (GEF) funded project in favour of the National Trust Fund for Protected
+Areas in Peru (PROFONANPE).
 
-**1982-1985**
-**Independent communications consultant**
-**Canadian International Development Agency**
-As an independent communications consultant: i) head a team of specialists preparing
-communication initiatives on world famine and agricultural production and prepare a proposal
-for the establishment of a communications unit in the Sahel, ii) design procedures for film and
-video production for the Public Information Division of the Canadian International Development
-Agency (CIDA), iii) review African Development Bank (AfDB) projects in Ivory Coast, Kenya,
-Tanzania, Ethiopia, Malawi and Lesotho with reference to their communications, extension
-approaches and public information, iv) establish a communication centre, appraise proposals
-and prepare a detailed plan of operations including equipment specifications for an
-EMBRAFILME Audio Visual Centre, and v) prepare a plan of operations of a health
-communication project with special emphasis on rural areas for CIDA in Islamabad, Pakistan
+**1999 - 2000**
+**Antamina Mining Company**
+**Huarmey, Peru**
+**Head Community Relations**
+Plan and supervise implementation of a community relation's plan. Implement activities in favour
+of communities impacted by the construction of port facilities including supervision of evacuation
+of communities during blasts that could affect them for safety reasons. Represent the company
+in dealings with local authorities and community organisations.
 
 ## Images, Captions, And Visual Notes
 
-This page contains only text. There are no images, captions, or other visual elements.
+This page contains only typed text. There are no images, captions, or other visual elements.
 
 ## Uncertain Or Illegible
 
@@ -79,13 +96,13 @@ There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-The entire content of the page has been transcribed.
+The entire content of the page has been transcribed. The page is fully legible and complete.
 
 ## Visual Region Manifest
 
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page consists entirely of typed text and contains no images, illustrations, or other visual elements."
+  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other visual elements suitable for cropping."
 }
 ```
