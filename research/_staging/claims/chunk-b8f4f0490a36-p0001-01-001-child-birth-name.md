@@ -18,5 +18,5 @@ promotion_recommendation: hold_for_conversion_qa
 # Claim: Birth Name
 
 - Literal support: `**Nombre.** Jose del Carmen Segundo Pulgar Arriagada`
-- Conversion confidence/QA concern: assigned chunk supports this child-name field, but the converted Markdown file's entry 172 is a conflicting Jose Miguel / Oswaldo Bunster / Amelia de la Maza entry, and the original source image/page image could not be located in this checkout for direct verification during this revision.
-- Uncertainty: Low for the assigned chunk reading; high for promotion readiness until conversion QA reconciles the missing image and conflicting converted Markdown. Accents and modern spelling should not be silently normalized before review.
+- Conversion confidence/QA concern: the source image was available and directly reread for this revision; it supports this child-name field. The converted Markdown file's entry 172 remains a conflicting Jose Francisco / Oswaldo Gomez / Emilia de la Cruz entry.
+- Uncertainty: Low for the image and assigned chunk reading; high for promotion readiness until conversion QA reconciles or supersedes the conflicting converted Markdown. Accents and modern spelling should not be silently normalized before review.

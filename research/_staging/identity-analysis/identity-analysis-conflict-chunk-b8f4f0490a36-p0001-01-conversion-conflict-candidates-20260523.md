@@ -19,7 +19,7 @@ canonical_readiness: hold
 ## Blockers
 
 - The exact staged draft analyzed here is `research/_staging/conflicts/chunk-b8f4f0490a36-p0001-01-conversion-conflict-candidates.md`.
-- The assigned chunk and directly inspected source image support entry 172 as a Pulgar/Arriagada birth registration, while the converted Markdown file's entry 172 is an unrelated Jose/Bunster/de la Maza or Gomez/de la Cruz derivative row. This is a material same-entry conversion conflict.
+- The assigned chunk and directly inspected source image support entry 172 as a Pulgar/Arriagada birth registration, while the converted Markdown file's entry 172 is an unrelated Jose Francisco / Gomez / de la Cruz derivative row. This is a material same-entry conversion conflict.
 - The father-name suffix remains unresolved. The assigned chunk reads `Jose del Carmen Pulgar S.`, but the source image supports `Jose del Carmen Pulgar` and does not show a dependable final `S.` suffix in this review.
 - No parent-child relationship, duplicate-person merge, or canonical name normalization should be promoted until conversion QA reconciles the converted Markdown with the source image and records the exact father-name reading.
 - The entry does not name Dario. Existing Dario-line context is relevant only as an anti-conflation guardrail.
@@ -55,19 +55,19 @@ Scores:
 | relevance | 0.98 | Directly relevant to Pulgar-line identity and parent-child evidence. |
 | canonical_readiness | 0.20 | Hold until conversion QA reconciles the derivative files and father suffix. |
 
-## Hypothesis 2: Entry 172 Is The Bunster/de la Maza Or Gomez/de la Cruz Derivative Row
+## Hypothesis 2: Entry 172 Is The Gomez/de la Cruz Derivative Row
 
 Hypothesis: Entry 172 should be represented by the converted Markdown row naming a different child and parents, and the Pulgar/Arriagada row belongs to another source assignment.
 
 Literal evidence:
 
-- The converted Markdown file's entry 172 does not name the Pulgar/Arriagada child. It gives a different child and parents, including `Oswaldo Bunster` / `Amelia de la Maza` in the staged conflict summary and a related `Oswaldo Gomez` / `Emilia de la Cruz` derivative row in the current converted file.
+- The converted Markdown file's entry 172 does not name the Pulgar/Arriagada child. It gives a different child and parents: `Jose Francisco`, `Oswaldo Gomez`, and `Emilia de la Cruz`.
 - The staged conflict draft preserves this as a literal converted-file conflict, not as image-verified evidence.
 
 Interpretation:
 
 - This hypothesis is weak. It is necessary to preserve as a conflict candidate because the converted file is assigned to the task, but direct image inspection of the referenced source supports the Pulgar/Arriagada row instead.
-- Do not create or promote Bunster, Gomez, de la Maza, or de la Cruz people from this entry unless later conversion QA proves the current source-image assignment is wrong.
+- Do not create or promote Gomez or de la Cruz people from this entry unless later conversion QA proves the current source-image assignment is wrong.
 
 Scores:
 
@@ -123,7 +123,7 @@ Scores:
 - Same-entry conflict: source image and assigned chunk support Pulgar/Arriagada; converted Markdown supports unrelated derivative families. Severity: critical.
 - Name-variant conflict: `Jose del Carmen Pulgar` versus `Jose del Carmen Pulgar S.`. Severity: moderate because it affects father identity matching.
 - Relationship conflict: child-father and child-mother relationships are likely correct for the source image but should remain held until derivative conversion QA reconciles the entry. Severity: high for promotion readiness.
-- Duplicate-person risk: high if Bunster/Gomez/de la Maza/de la Cruz people are promoted from the mismatched conversion; moderate if Jose/Juana candidates are merged across Pulgar entries without proof review.
+- Duplicate-person risk: high if Gomez/de la Cruz people are promoted from the mismatched conversion; moderate if Jose/Juana candidates are merged across Pulgar entries without proof review.
 - Chronology conflict: the competing derivative readings carry different birth dates and places. Severity: high for entry 172; low for Dario chronology because no Dario is named.
 
 ## Ranked Hypotheses
@@ -132,7 +132,7 @@ Scores:
 | ---: | --- | ---: | --- |
 | 1 | Entry 172 is the Pulgar/Arriagada birth registration visible in the source image | 0.88 | Hold for conversion QA, then proof-review claims and relationships. |
 | 2 | Entry-172 Jose/Juana parents match other Pulgar-line Jose/Juana candidates | 0.44 | Preserve as possible; require targeted cross-entry parent-candidate proof review. |
-| 3 | Entry 172 is the Bunster/de la Maza or Gomez/de la Cruz derivative row | 0.05 | Treat as conversion mismatch unless QA proves a source-assignment error. |
+| 3 | Entry 172 is the Gomez/de la Cruz derivative row | 0.05 | Treat as conversion mismatch unless QA proves a source-assignment error. |
 | 4 | Entry 172 bridges to any Dario identity | 0.01 | No action; do not attach to Dario-line profiles from this source. |
 
 ## Recommended Next Action

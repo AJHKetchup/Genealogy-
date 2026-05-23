@@ -18,5 +18,5 @@ promotion_recommendation: hold_for_conversion_qa
 # Claim: Birth Date And Time
 
 - Literal support: `**Fecha.** Ocho de Marzo de mil ochocientos ochenta i ocho, a las tres de la tarde`
-- Conversion confidence/QA concern: assigned chunk supports this reading, but the converted Markdown file's entry 172 is a conflicting Jose Miguel / Oswaldo Bunster / Amelia de la Maza entry, and the original source image/page image could not be located in this checkout for direct verification during this revision.
-- Uncertainty: Low for the assigned chunk reading; high for promotion readiness until conversion QA reconciles the missing image and conflicting converted Markdown. Date normalized from Spanish literal to ISO date, time normalized as 3:00 p.m.
+- Conversion confidence/QA concern: the source image was available and directly reread for this revision; it supports this birth date/time. The converted Markdown file's entry 172 remains a conflicting Jose Francisco / Oswaldo Gomez / Emilia de la Cruz entry with a different birth date/time.
+- Uncertainty: Low for the image and assigned chunk reading; high for promotion readiness until conversion QA reconciles or supersedes the conflicting converted Markdown. Date normalized from Spanish literal to ISO date, time normalized as 3:00 p.m.

@@ -19,7 +19,7 @@ matched_terms:
   - Pulgar
   - mother
 conversion_confidence: medium
-conversion_qa_concern: "The proof-review blocker for a missing page-0008.jpg is cleared in this checkout: page-0008.jpg is present and visually supports the mother-tongue/language and Vision Habitat work passages. The manifest still assigns this chunk to page 1 while the body includes literal transcription and page metadata for later converted pages; the authoritative page citation remains unresolved."
+conversion_qa_concern: "The Dario Pulgar text is clear in the converted chunk and prior staged correction notes report image review on rendered page-0007.jpg and page-0008.jpg, but the page-images directory is not present in the current checkout for independent recheck. The manifest still assigns this chunk to page 1 while the body includes literal transcription and page metadata for later converted pages; the authoritative page citation remains unresolved."
 promotion_recommendation: hold_for_conversion_qa
 ---
 
@@ -27,7 +27,7 @@ promotion_recommendation: hold_for_conversion_qa
 
 This packet stages Dario Pulgar evidence in assigned chunk `CHUNK-a048d567968b-P0001-03` from Jim Carney's memoir-style account of Vision Habitat and related UN Habitat audiovisual work.
 
-The chunk provides direct biographical and occupational context for Dario Pulgar: he stayed on with the UN Habitat Secretariat group, was described as a dynamic Chilean, had worked in Chile's state film distribution system under Allende while still in his twenties, fled after Pinochet's 1973 overthrow of the Allende government, and later worked on Vision Habitat distribution rights and off-shore printing materials. It also states that Spanish was his mother tongue and that he was fluent in English and had learned French in Montreal. The Dario full-name/Chile-film/fleeing-1973 paragraph was visually checked on rendered `page-0007.jpg`; the mother-tongue/language and Vision Habitat distribution-rights passages were visually checked on rendered `page-0008.jpg`.
+The chunk provides direct biographical and occupational context for Dario Pulgar: he stayed on with the UN Habitat Secretariat group, was described as a dynamic Chilean, had worked in Chile's state film distribution system under Allende while still in his twenties, fled after Pinochet's 1973 overthrow of the Allende government, and later worked on Vision Habitat distribution rights and off-shore printing materials. It also states that Spanish was his mother tongue and that he was fluent in English and had learned French in Montreal. Prior staged correction notes report that the Dario full-name/Chile-film/fleeing-1973 paragraph was visually checked on rendered `page-0007.jpg`, and that the mother-tongue/language and Vision Habitat distribution-rights passages were visually checked on rendered `page-0008.jpg`. In the current checkout, the conversion job manifest still lists those image paths, but the `page-images` directory itself is not present, so this revision cannot independently repeat the image check.
 
 ## Literal Support
 
@@ -55,7 +55,7 @@ where the off-shore printing materials were.
 
 ## Conversion Confidence And QA Concern
 
-Conversion confidence is medium for extraction purposes because the Dario Pulgar text is clear in the converted chunk and has now been visually checked on rendered page images `page-0007.jpg` and `page-0008.jpg`. The earlier missing-image concern for `page-0008.jpg` is resolved in this checkout, but the chunk/page boundary remains inconsistent with the assigned page metadata.
+Conversion confidence is medium for extraction purposes because the Dario Pulgar text is clear in the converted chunk, and earlier staged correction notes report visual checks on rendered page images `page-0007.jpg` and `page-0008.jpg`. This worker could not independently repeat that image check because the current checkout does not contain the conversion job `page-images` directory, even though the conversion job manifest still lists `page-0007.jpg` and `page-0008.jpg`. The chunk/page boundary also remains inconsistent with the assigned page metadata.
 
 ## Uncertainty
 

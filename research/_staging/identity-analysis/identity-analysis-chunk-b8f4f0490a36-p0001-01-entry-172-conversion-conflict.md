@@ -10,16 +10,16 @@ chunk: raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-cir
 chunk_id: CHUNK-b8f4f0490a36-P0001-01
 analysis_status: hold_for_conversion_qa
 canonical_readiness: hold
-worker: postconv-identity-analysis-20260523005619802
+worker: postconv-evidence-extraction-20260523181508215
 ---
 
 # Identity Analysis: Entry 172 Conversion Conflict
 
 ## Blockers
 
-- The exact staged draft `research/_staging/conflicts/chunk-b8f4f0490a36-p0001-01-entry-172-conversion-conflict-20260522150707183.md` reports a material derivative conflict for entry 172. The assigned chunk/source packet read the child as `Jose del Carmen Segundo Pulgar Arriagada`, father `Jose del Carmen Pulgar S.`, and mother `Juana Arriagada de Pulgar`; the converted Markdown reads `Jose Miguel`, father `Oswaldo Bunster`, and mother `Amelia de la Maza`.
-- The source packet says the original image and manifest page-image file are not available in this checkout for direct verification. Earlier image-reread notes support the Pulgar/Arriagada reading, but this analysis cannot silently treat that as a fresh image check.
-- The father's final abbreviated element is unresolved: the assigned chunk has `Jose del Carmen Pulgar S.`, while earlier image-reread notes report `Jose del Carmen Pulgar` without a clearly visible suffix.
+- The exact staged draft `research/_staging/conflicts/chunk-b8f4f0490a36-p0001-01-entry-172-conversion-conflict-20260522150707183.md` reports a material derivative conflict for entry 172. The source image and assigned chunk/source packet support the child as `Jose del Carmen Segundo Pulgar Arriagada`, father `Jose del Carmen Pulgar` / `Jose del Carmen Pulgar S.`, and mother `Juana Arriagada de Pulgar`; the converted Markdown reads `Jose Francisco`, father `Oswaldo Gomez`, and mother `Emilia de la Cruz`.
+- The source image is now available and was directly reread for this revision. It supports the Pulgar/Arriagada row, so the remaining blocker is not image absence but a conflicting assigned converted Markdown transcript plus an unresolved father-name suffix.
+- The father's final abbreviated element is unresolved: the assigned chunk has `Jose del Carmen Pulgar S.`, while the direct image reread supports `Jose del Carmen Pulgar` without a clearly visible suffix.
 - Existing canonical pages already contain auto-generated evidence from this b8f4 staging for `Jose del Carmen Segundo Pulgar Arriagada`, `Juana Arriagada de Pulgar`, and an entry-registration stub. Because the controlling conversion is conflicted, no additional promotion, merge, or canonical normalization should occur from this draft.
 - The entry does not name Dario. Existing Dario-line context is relevant only as a guardrail against name-based merging.
 
@@ -27,47 +27,47 @@ worker: postconv-identity-analysis-20260523005619802
 
 Literal evidence:
 
-- The assigned chunk transcribes entry 172 as `Jose del Carmen Segundo Pulgar Arriagada`, male, registered 7 April 1888, born 8 March 1888 at 3 p.m. at `Calle de Valdivia`, with father `Jose del Carmen Pulgar S.` and mother `Juana Arriagada de Pulgar`.
-- The source packet repeats that assigned-chunk support and records earlier image-reread context reading the father as `Jose del Carmen Pulgar`, mother as `Juana Arriagada de Pulgar`, and child as `Jose del Carmen Segundo Pulgar Arriagada`.
+- The source image and assigned chunk transcribe entry 172 as `Jose del Carmen Segundo Pulgar Arriagada`, male, registered 7 April 1888, born 8 March 1888 at 3 p.m. at `Calle de Valdivia`, with father `Jose del Carmen Pulgar` / `Jose del Carmen Pulgar S.` and mother `Juana Arriagada de Pulgar`.
+- The source packet now records a direct 2026-05-23 image reread supporting the child, mother, and father as `Jose del Carmen Pulgar` without a clearly visible suffix.
 - Existing wiki pages for `jose-del-carmen-segundo-pulgar-arriagada` and `juana-arriagada-de-pulgar` contain auto-generated evidence from this staged source packet, but those pages label the key relationship as probable/low confidence rather than fully accepted.
 
 Interpretation:
 
 - This is the leading hypothesis for the intended Pulgar-line evidence because two local staged artifacts for this task point to the same Pulgar/Arriagada row and a separate earlier reread note supports the same child and mother.
-- It remains blocked for canonical readiness in this b8f4 pass because the converted Markdown names an unrelated Bunster/de la Maza family and the image is not presently available for re-check.
+- It remains blocked for canonical readiness in this b8f4 pass because the converted Markdown names an unrelated Gomez/de la Cruz family and the father suffix requires explicit conversion QA.
 
 Scores:
 
 | score | value | rationale |
 | --- | ---: | --- |
-| identity_confidence | 0.78 | Strong local staged support for the Pulgar/Arriagada identity cluster, reduced by missing image access and conflicting converted Markdown. |
+| identity_confidence | 0.86 | Strong visible source-image, chunk, and source-packet support for the Pulgar/Arriagada identity cluster, reduced by conflicting converted Markdown and father-suffix uncertainty. |
 | conflict_severity | 0.94 | The competing readings change the child, both parents, birth details, informant, and official context. |
-| evidence_quality | 0.72 | Civil-registration evidence would be high quality, but this note relies on staged/chunk derivatives and prior reread notes, not current image inspection. |
-| conversion_confidence | 0.38 | The chunk supports this reading, but the assigned converted file does not. |
-| claim_probability | 0.76 | More probable than the Bunster/de la Maza reading on current staged evidence, but not promotion-ready. |
+| evidence_quality | 0.84 | Civil-registration image is available and supports the row, but derivative transcript conflict remains. |
+| conversion_confidence | 0.50 | The image and chunk support this reading, but the assigned converted file does not. |
+| claim_probability | 0.86 | More probable than the Gomez/de la Cruz reading on current source-image evidence, but not promotion-ready. |
 | relevance | 0.96 | Directly relevant to Pulgar-line parent-child evidence. |
 | canonical_readiness | 0.15 | Hold for conversion QA and image/page reconciliation. |
 
-## Hypothesis 2: Entry 172 Is The Bunster/de la Maza Birth Registration
+## Hypothesis 2: Entry 172 Is The Gomez/de la Cruz Birth Registration
 
 Literal evidence:
 
-- The converted Markdown reads entry 172 as `Jose Miguel`, male, born 26 March 1888 at 10 p.m., father `Oswaldo Bunster`, mother `Amelia de la Maza`, and informant `Oswaldo Bunster`.
+- The converted Markdown reads entry 172 as `Jose Francisco`, male, born 26 March 1888 at 10 p.m., father `Oswaldo Gomez`, mother `Emilia de la Cruz`, and informant `Oswaldo Gomez`.
 - The staged conflict draft preserves this converted text as a literal derivative reading.
 
 Interpretation:
 
-- This is a necessary competing hypothesis because it is the assigned converted file, but it is weaker than Hypothesis 1 because the assigned chunk and source packet both flag it as a mismatch for this source packet.
-- Do not create or promote Bunster/de la Maza people from this entry unless conversion QA proves the Pulgar/Arriagada chunk/source-packet assignment is wrong.
+- This is a necessary competing hypothesis because it is the assigned converted file, but it is weaker than Hypothesis 1 because the source image, assigned chunk, and source packet all support the Pulgar/Arriagada row.
+- Do not create or promote Gomez/de la Cruz people from this entry unless conversion QA proves the Pulgar/Arriagada chunk/source-packet assignment is wrong.
 
 Scores:
 
 | score | value | rationale |
 | --- | ---: | --- |
-| identity_confidence | 0.20 | Supported by one conflicted derivative transcript only. |
+| identity_confidence | 0.10 | Supported by one conflicted derivative transcript and contradicted by the visible source image. |
 | conflict_severity | 0.94 | Accepting it would displace all Pulgar/Arriagada identity and relationship claims from this entry. |
 | evidence_quality | 0.28 | Derivative-only support in direct conflict with the assigned chunk and source packet. |
-| conversion_confidence | 0.20 | Low because the staging itself identifies the conversion as mismatched. |
+| conversion_confidence | 0.12 | Low because the visible source image and staging identify the conversion as mismatched. |
 | claim_probability | 0.14 | Plausible only if the chunk/source packet is attached to the wrong converted source. |
 | relevance | 0.70 | Relevant chiefly as a false-positive guardrail. |
 | canonical_readiness | 0.01 | Do not promote. |
@@ -108,10 +108,10 @@ Scores:
 
 ## Conflicts
 
-- Same-entry conflict: Pulgar/Arriagada assigned chunk and source packet versus Bunster/de la Maza converted Markdown. Severity: critical.
+- Same-entry conflict: Pulgar/Arriagada source image, assigned chunk, and source packet versus Gomez/de la Cruz converted Markdown. Severity: critical.
 - Name-variant conflict: `Jose del Carmen Pulgar S.` versus `Jose del Carmen Pulgar`. Severity: moderate because it affects father identity matching.
 - Relationship conflict: Parent-child links from this entry are not canonical-ready until conversion QA confirms which row controls. Severity: high.
-- Duplicate-person risk: High if Bunster/de la Maza people are promoted from this mismatched conversion; moderate if Jose/Juana parent candidates are merged across Pulgar records without proof review.
+- Duplicate-person risk: High if Gomez/de la Cruz people are promoted from this mismatched conversion; moderate if Jose/Juana parent candidates are merged across Pulgar records without proof review.
 - Chronology conflict: The two competing readings give different birth dates and places. Severity: high for this entry, low for Dario-line chronology because no Dario is named.
 
 ## Recommended Next Action
