@@ -5,7 +5,7 @@ Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\sourc
 Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
 source-relevance sync-review-holds | summary
 {
-  "review_count": 238,
+  "review_count": 239,
   "candidate_count": 33,
   "changed_count": 0,
   "feedback_path": "research/_agent-queues/source-relevance-feedback.json"
@@ -22,7 +22,7 @@ source-relevance restore-review-assets | summary
 }
 post-conversion-controller | summary
 {
-    "started":  "2026-05-23T01:05:29Z",
+    "started":  "2026-05-23T04:11:38Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "dry_run":  false,
     "allow_promotion":  true,
@@ -47,13 +47,13 @@ post-conversion-controller | summary
                                                "blocked_needs_reread":  30
                                            },
                    "identity-analysis":  {
-                                             "todo":  115,
-                                             "done":  11
+                                             "todo":  107,
+                                             "done":  19
                                          },
                    "proof-review":  {
                                         "done":  157,
-                                        "todo":  457,
-                                        "released":  33
+                                        "todo":  464,
+                                        "released":  34
                                     },
                    "wiki-promotion":  {
                                           "blocked_no_reviewed_ready":  1
@@ -67,5 +67,5 @@ post-conversion-controller | summary
     "blockers":  [
 
                  ],
-    "finished":  "2026-05-23T01:06:41Z"
+    "finished":  "2026-05-23T04:13:00Z"
 }

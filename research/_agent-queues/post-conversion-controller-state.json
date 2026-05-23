@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-05-23T01:06:41Z",
+    "updated":  "2026-05-23T04:13:00Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "max_workers":  1,
     "allow_promotion":  true,
@@ -7,7 +7,7 @@
 
                        ],
     "last_summary":  {
-                         "started":  "2026-05-23T01:05:29Z",
+                         "started":  "2026-05-23T04:11:38Z",
                          "root":  "D:\\a\\Genealogy-\\Genealogy-",
                          "dry_run":  false,
                          "allow_promotion":  true,
@@ -32,13 +32,13 @@
                                                                     "blocked_needs_reread":  30
                                                                 },
                                         "identity-analysis":  {
-                                                                  "todo":  115,
-                                                                  "done":  11
+                                                                  "todo":  107,
+                                                                  "done":  19
                                                               },
                                         "proof-review":  {
                                                              "done":  157,
-                                                             "todo":  457,
-                                                             "released":  33
+                                                             "todo":  464,
+                                                             "released":  34
                                                          },
                                         "wiki-promotion":  {
                                                                "blocked_no_reviewed_ready":  1
@@ -52,6 +52,6 @@
                          "blockers":  [
 
                                       ],
-                         "finished":  "2026-05-23T01:06:41Z"
+                         "finished":  "2026-05-23T04:13:00Z"
                      }
 }
