@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-6c376f37e45d-P0001-01
+chunk_id: CHUNK-a2dc6ad738e3-P0001-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 6c376f37e45dff67d949678a951dc3f73b2edfe62916ffbd1aa8f1afe49cea3d
+converted_sha256: a2dc6ad738e361d2c9e15482d5ac5060ac11d20725065eef1c9887182c7b1c93
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -13,37 +13,30 @@ part: 1
 
 ## Page Metadata
 - Page number: 4
-- Publication: NUMERO GIGANTE
-- Date: ENERO - FEBRERO
+- Document title: NUMERO GIGANTE
+- Date range: ENERO - FEBRERO
 
 ## Layout And Reading Order
-The page is a single column of typed text. The reading order is from top to bottom.
+The document is a single-column typed page. The reading order is from top to bottom.
 
-1.  `region_0`: Header at the top of the page.
-2.  `region_1`: Handwritten number and a horizontal line.
-3.  `region_2`: "NOTAS" section heading.
-4.  `region_3`: "ALMUERSO" section, including a heading and a paragraph.
-5.  `region_4`: "MATRIMONIO" section, including a heading and a paragraph.
-6.  `region_5`: Handwritten page number at the bottom center.
+1.  `region_0`: Header, containing the document title and date range.
+2.  `region_1`: A handwritten number and a horizontal rule.
+3.  `region_2`: A section heading "NOTAS".
+4.  `region_3`: A section titled "ALMUERSO" with a paragraph of text.
+5.  `region_4`: A section titled "MATRIMONIO." with a paragraph of text.
+6.  `region_5`: A handwritten page number at the bottom of the page.
 
 ## Literal Transcription
 ```markdown
-{{region_0}}
 NUMERO GIGANTE ENERO - FEBRERO
-{{/region_0}}
 
-{{region_1}}
 666
-------------------------------------------------------------------------
-{{/region_1}}
+----------------------------------------------------------------
 
-{{region_2}}
 NOTAS
-{{/region_2}}
 
-{{region_3}}
 ALMUERSO
-----------
+--------
 EL 1o.DE FEBRERO DEL PRESENTE AÑO EN EL FUNDO LOS CUARTOS SE LLEVÓ A
 EFECTO UN ALMUERSO AL CUAL CONCURRIERON EL DISTINGUIDO FACULTATIVO
 DE CONCEPCION Y DECANO DE LA FACULTAD DE MEDICINA DE LA UNIVERSIDAD
@@ -59,40 +52,37 @@ COMPROMISOS MARCHÁNDOSE ANTES DE ONCE. EN CANBIO EL DOCTOR HERMANSEN
 SE QUEDÓ A LA ONCE MARCHÁNDOSE APROXIMADAMENTE A LAS 8 DE LA TARDE
 AL FUNDO DEL DOCTOR PETERSEN DONDE SE HOSPEDABA PARA MARCHARSE DOS
 DIS DESPUES A CONDCEPCION A CUMPLIR SUS OBLIGACIONES
-{{/region_3}}
 
-{{region_4}}
 MATRIMONIO.
------------
+----------
 EL SABADO 14 DE ENERO PASADO SE LLEVO AFECTO, PRIVADAMENTE EN LA CASA DE
 LA NOVIA EL MATRIMONIO DE LA SEÑORITA LUCIA ARRIAGADA CON EL SEÑOR
 LEOPOLDO PASCUAL BAILAC. NOTAMOSLEAL PRESENCIA DE DOS ANTIGUOS CABALLER
-DON JOSE MARIYA Y DON CARLOS DE LA JARA.TANBIE AL PRESIDENTE DE LA CORTE
+DON JOSE MARIXA Y DON CARLOS DE LA JARA.TANBIE AL PRESIDENTE DE LA CORTE
 DE APELACIONES DON LUCAS SANHUEZA Y EL MINISTRO DE LA CORTE SEÑOR
-ESPEJO TANBIEN AL INGENIERO DE PROVIN CIA SR PIMENTEL
-{{/region_4}}
+ESPEJO TANBIEN AL INGENIERO DE PROVINCIA SR PIMENTEL
 
-{{region_5}}
 4
-{{/region_5}}
 ```
 
 ## Images, Captions, And Visual Notes
-- The number `666` is handwritten in the upper left corner.
-- The page number `4` is handwritten in red ink at the bottom center of the page.
-- In the name `JOSE MARIYA`, there is a handwritten mark, possibly an 'X' or a correction, over the letter 'I'.
+- The document is typewritten on aged, yellowish paper.
+- At the top left, the number `666` is handwritten in what appears to be pencil or black ink.
+- At the bottom center of the page, the number `4` is handwritten in red ink.
+- In the last paragraph, the name `MARIA` is typed as `MARIXA`, with the 'X' typed over the 'I'.
+- In the last line, the word `PROVINCIA` appears to have been corrected by overtyping; `CIA` is typed over the end of `PROVIN`.
 
 ## Uncertain Or Illegible
-- The word `NOTAMOSLEAL` appears to be a typo, possibly for "NOTAMOS LA". It is transcribed as it appears.
-- The word `PROVIN CIA` is typed with a space in the middle. It is transcribed as it appears.
+- `NOTAMOSLEAL`: This appears as a single word in the source, likely a typo for "Notamos la leal" or "Notamos la". It has been transcribed literally.
+- `MARIXA`: Transcribed as it appears, with an 'X' typed over the 'I' in `MARIA`.
 
 ## Completeness Audit
-This page is fully transcribed.
+This page is fully transcribed. All text, including handwritten numbers and headings, has been captured.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed text and minor handwritten marks (page number, a number in the margin) that are fully described in the transcription and visual notes. There are no photographs, illustrations, or other significant visual elements that would warrant cropping."
+  "no_visual_regions_reason": "The page contains only text. The handwritten page number and a small handwritten note are transcribed and described in the Markdown but are not substantial enough to warrant cropping as standalone visual assets."
 }
 ```

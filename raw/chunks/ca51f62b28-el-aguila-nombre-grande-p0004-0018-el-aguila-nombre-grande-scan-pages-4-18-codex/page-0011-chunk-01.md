@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-6c376f37e45d-P0011-01
+chunk_id: CHUNK-a2dc6ad738e3-P0011-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 6c376f37e45dff67d949678a951dc3f73b2edfe62916ffbd1aa8f1afe49cea3d
+converted_sha256: a2dc6ad738e361d2c9e15482d5ac5060ac11d20725065eef1c9887182c7b1c93
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -12,84 +12,64 @@ part: 1
 ---
 
 ## Page Metadata
-- Page number: 11
-- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0011`
+- Source: `El Aguila Nombre Grande Scan.pdf`
+- Page: `11`
 
 ## Layout And Reading Order
-This page is a single column of typewritten text. The reading order is from top to bottom. A handwritten note is present at the bottom of the page, followed by the typed page number.
+The page contains a single column of text, with a header at the top and a handwritten note at the bottom. The text describes activities related to electricity and milk processing.
 
 ## Literal Transcription
-```markdown
 ERO GIGANTE ENERO FEBRERO EL AGUILA
-***
+___
 CONYINUACIO N DE ACTIVIDADES,
-
 Y MARCO CON UN ESTACADO. POCOS DIAS DESPUES JEFES DE LA ENDESA
 REVISARON EL ESTACADO DANDO SU VISTO BUENO DESPUES DE LO CUAL
 EL CONTRATISTA ORDENO TIRAR LOS POSTES Y UN PESADO CAMION DE LA
-ENDESA PROCEDIÓ A DEJAR LOS POSTES CERCA, O AL LADO DE LOSHPTOS
-QUE ANTERIORMENTE HABIA HECHO UNA CUADRUILKA DE HOMBRES. LUEGO DESPUES
+ENDESA PROBEDIO A DEJAR LOS POSTES CERCA, O AL LADO DE LOSHOYOS
+QUE ANTERIORMENTE HABIA HECHO UNA CUADRUILLA DE HOMBRES. LUEGO DESPUES
 COMO NOS INFORMO UN PERSONERO DE LA ENPRESA UN TRACTOR CON UN CAMARON
 LLEBO LOS POSTES QUE ESTABAN LEJOS A SUS RESPECTIVOS HOYOS Y LUEGO
-NOS EXPLICÓ QUE CON UNA PLUMA PROSEDERI AN A LEVANTAR Y COLOCAR DEND
+NOS EXPLICO QUE CON UNA PLUMA PROSEDERI AN A LEVANTAR Y COLOCAR DEND
 DE LOS HOYOS LOS POSTES MAS ADELANTE DIJO QUE MAESTROS ESPECIALISAD
 COLOCARIAN LAS CRUSETAS Y COLOCARION LOAS CABLES QUE LLEVAN LA
-ELECTRISIDAD.
-
-LA ELECRISAD EN LOS CANPOS.
-
-LA ELECTRISIDAD PRESTA GRANDES USOS A LOS AGIULTORES YA SEA EN SUS
-CASA COMO EN LAS FAENAS MÚLTIPLES QUE SE PUEDEN REALISAR CON LA
+ELECTRICIDAD.
+LA ELECRISIDAD EN LOS CANPOS.
+LA ELECTRISIDAD PRESTA GRANDES USOS A LOS AGICULTORES YA SEA EN SUS
+CASA COMO EN LAS FAENAS MULTIPLES QUE SE PUEDEN REALISAR CON LA
 ELECTRISIDAD. NUESTRO VECINO QUE OPTUVO LUZ PRIMERO DE LA LINEA A
-MULCHEN TIENE UN MOLINO QUE FUNCIONA ROTALMENTE A ELECTRISIDAD
+MULCHEN TIENE UN MOLINO QUE FUNCIONA TOTALMENTE A ELECTRISIDAD
 SE ESPERA QUE ESTA LINEA ESTE LISTA EN MAYO Y QUISAS EN AGOSTO SE
-PODRA DAR LA LUZ. a
-
+PODRA DAR LA LUZ.
 LA LECHE Y LA CHIPRODAL
-
-EN EL FUNDO ES PRIMERA VEZ QUE SE ENTRGA LECHE A LA CHIPRODAL FABRIC@
+EN EL FUNDO ES PRIMERA VEZ QUE SE ENTRGA LECHE A LA CHIPRODAL FABRIC
 DE LECHE NESTRE. LA LECHERIA DEL FUNDO NO ESTA FORMADA POR, LO CUAL LA
 MATERIA GRASA ES POCA ../ VISITAMOS LA CHOPRODAL SA LLEGAN LOS CAMIOS
-NES QUE VIENEN DE TODAS PARTES CARGADOS CON LEGHE. SE ACERCAN A UNA
-PLATAFORMA DONDE BAJAN LOS TARROS Y LOS COLOCAN EN UNA ESPEC..L DE CORRE
+NES QUE VIENEN DE TODAS PARTES CARGADOS CON LECHE. SE ACERCAN A UNA
+PLATAFORMA DONDE BAJAN LOS TARROS Y LOS COLOCAN EN UNA ESPECI DE CORRE
 SIN FIN PERO DE FIERRO QUE LOS VA MOVIENDO Y LOS LLEVA DENTRO DE L
 EDIFICIO DONDE LA LECHE ES PESADA Y ENTRA EN GRANDES TUVERIAS QUE
-
 Sigue Pag 12 11
-```
 
 ## Images, Captions, And Visual Notes
-- There are no images on this page.
-- A handwritten note in red ink at the bottom left reads: `Sigue Pag 12`.
-- The typed page number `11` is at the bottom right.
+There are no images or captions on this page.
 
 ## Uncertain Or Illegible
-- `LOSHPTOS`: This appears to be a typo for `LOS HOYOS`.
-- `CUADRUILKA`: This appears to be a typo for `CUADRILLA`.
-- `PROSEDERI AN`: This appears to be a typo for `PROCEDERIAN`.
-- `ESPECIALISAD`: This appears to be a typo for `ESPECIALIZADOS`.
-- `COLOCARION`: This appears to be a typo for `COLOCARIAN`.
-- `LOAS`: This appears to be a typo for `LOS`.
-- `ELECRISAD`: This appears to be a typo for `ELECTRICIDAD`.
-- `CANPOS`: This appears to be a typo for `CAMPOS`.
-- `AGIULTORES`: This appears to be a typo for `AGRICULTORES`.
-- `OPTUVO`: This appears to be a typo for `OBTUVO`.
-- `ROTALMENTE`: This appears to be a typo for `TOTALMENTE`.
-- `FABRIC@`: The last character is an `@` symbol, likely used in place of an `a`.
-- `NESTRE`: This appears to be a typo for `NESTLE`.
-- `CHOPRODAL`: This appears to be a typo for `CHIPRODAL`.
-- `CAMIOS NES`: This appears to be a typo for `CAMIONES`.
-- `LEGHE`: This appears to be a typo for `LECHE`.
-- `ESPEC..L`: This appears to be a typo for `ESPECIAL`, with the letters `IA` missing or very faint.
-- `CORRE`: The word is cut off by the right margin; it is likely `CORREA`.
+- `CONYINUACIO N`: The "N" might be part of the word or a separate initial.
+- `PROBEDIO`: Could be "procedió".
+- `LOSHOYOS`: Could be "los hoyos" (two words).
+- `DEND`: Could be "dentro".
+- `AGICULTORES`: Could be "agricultores".
+- `ENPRESA`: Could be "empresa".
+- `CAMARON`: Could be "camión".
+- `LOAS`: Could be "los".
+- `FABRIC`: Could be "fabrica".
+- `CHOPRODAL SA`: Could be "Choprodal S.A.".
+- `CAMIOS NES`: Could be "camiones".
+- `ESPECI`: Could be "especie".
+- `L`: Could be "el".
 
 ## Completeness Audit
-This page is complete and fully transcribed.
+The transcription is complete and captures all visible text on the page.
 
 ## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only typewritten text and minor handwritten notes, with no significant images, illustrations, or diagrams to warrant creating visual regions."
-}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-22T23:59:16Z",
+  "created": "2026-05-23T04:08:45Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -8,7 +8,7 @@
   "page": 4,
   "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0004.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0004.md",
-  "no_visual_regions_reason": "The page contains only typed text and minor handwritten marks (page number, a number in the margin) that are fully described in the transcription and visual notes. There are no photographs, illustrations, or other significant visual elements that would warrant cropping.",
+  "no_visual_regions_reason": "The page contains only text. The handwritten page number and a small handwritten note are transcribed and described in the Markdown but are not substantial enough to warrant cropping as standalone visual assets.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

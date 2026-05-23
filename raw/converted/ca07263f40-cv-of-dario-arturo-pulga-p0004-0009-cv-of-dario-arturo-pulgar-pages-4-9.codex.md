@@ -21,11 +21,11 @@
 - External requested treatment: `reread`
 - External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
 - Recommended action: ``
-- Quality flags: none
+- Quality flags: explicit_reread_needed
 - Technical reread clues: none
 
 ## Layout And Reading Order
-The document is a single column of text. The reading order is from top to bottom. The content consists of a continuation of a paragraph from the previous page, followed by two bulleted list items, and then two distinct job/consultancy entries.
+The document is a single-column text page. The reading order is from top to bottom. The page continues a description from the previous page, followed by two bulleted lists and then two distinct job entries, each with a date, organization, location, title, and description.
 
 ## Literal Transcription
 approaches in four different Indian Sates and, (iv) review the communications strategy for
@@ -33,31 +33,31 @@ the Productive Projects component of the Millennium Challenge Account programme 
 northern region of El Salvador while making recommendations for improvements and new
 strategic directions.
 
-*   **Social impact analysis and consultation processes** including: (i) preparation of a
-    social impact analysis of extractive industry projects in Peru making recommendations for
-    the drafting of the relevant sections to be included in an Environmental Impact Assessment
-    (EIA) as required by Peruvian legislation, (ii) conduct an institutional assessment of the
-    Ministry of Natural Resources and Environment of Honduras and make recommendations to
-    improve the Ministry's consultation process and citizen involvement and granting of permits
-    for the construction and operation of hydroelectric power generation plants.
+- **Social impact analysis and consultation processes** including: (i) preparation of a
+  social impact analysis of extractive industry projects in Peru making recommendations for
+  the drafting of the relevant sections to be included in an Environmental Impact Assessment
+  (EIA) as required by Peruvian legislation, (ii) conduct an institutional assessment of the
+  Ministry of Natural Resources and Environment of Honduras and make recommendations to
+  improve the Ministry's consultation process and citizen involvement and granting of permits
+  for the construction and operation of hydroelectric power generation plants.
 
-*   **Monitoring and evaluation** including: (i) guiding implementation of an Inter-American
-    Development Bank (IDB) project in Nicaragua to assess the country's Rural Poverty
-    Reduction Strategy and supervise the preparation of documentation materials including
-    audio visual presentation of the work carried out in eleven municipalities with the
-    participation of five Government agencies, (ii) aassessing the impact of the management of
-    Natural Resources Program Initiative of IDRC in Latin America with specific reference to
-    coastal management of natural resources in the Caribbean and watershed management in
-    the Northern provinces of Ecuador including an analysis of local capacities to implement
-    natural resource management improvement practices, (iii) undertake an institutional
-    assessment of the University of Pretoria's Public Health school as part of an overall
-    evaluation of the International Development Research Centre (IDRC's), HELP course
-    including interviews with students, academics and government authorities (iv) assess the
-    impact of the management of Natural Resources Program Initiative of IDRC in Latin America
-    (Mexico. Nicaragua and Ecuador) with specific reference to coastal management of natural
-    resources in the Caribbean and watershed management in the Northern provinces of
-    Ecuador including an analysis of local capacities to implement natural resource
-    management improvement practices.
+- **Monitoring and evaluation** including: (i) guiding implementation of an Inter-American
+  Development Bank (IDB) project in Nicaragua to assess the country's Rural Poverty
+  Reduction Strategy and supervise the preparation of documentation materials including
+  audio visual presentation of the work carried out in eleven municipalities with the
+  participation of five Government agencies, (ii) aassessing the impact of the management of
+  Natural Resources Program Initiative of IDRC in Latin America with specific reference to
+  coastal management of natural resources in the Caribbean and watershed management in
+  the Northern provinces of Ecuador including an analysis of local capacities to implement
+  natural resource management improvement practices, (iii) undertake an institutional
+  assessment of the University of Pretoria's Public Health school as part of an overall
+  evaluation of the International Development Research Centre (IDRC's), HELP course
+  including interviews with students, academics and government authorities (iv) assess the
+  impact of the management of Natural Resources Program Initiative of IDRC in Latin America
+  (Mexico. Nicaragua and Ecuador) with specific reference to coastal management of natural
+  resources in the Caribbean and watershed management in the Northern provinces of
+  Ecuador including an analysis of local capacities to implement natural resource
+  management improvement practices.
 
 **2000**
 **International Bank for Reconstruction and Development (IBRD)**
@@ -84,20 +84,18 @@ in dealings with local authorities and community organisations.
 This page contains only text. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible portions of this document.
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
-The transcription of this page is complete and accurate. All text content has been captured.
+The transcription is a complete and accurate representation of all the text on the page.
 
 ## Visual Region Manifest
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page consists entirely of typed text and does not contain any images, illustrations, or other visual elements suitable for cropping."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of text and contains no images, illustrations, or other visual elements suitable for cropping."}
 ```
 
 ## Page Metadata
+
 - Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005`
 - Model route: `pro`
 - Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
@@ -110,13 +108,15 @@ The transcription of this page is complete and accurate. All text content has be
 - External requested treatment: `reread`
 - External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
 - Recommended action: ``
-- Quality flags: none
+- Quality flags: explicit_reread_needed
 - Technical reread clues: none
 
 ## Layout And Reading Order
-The page consists of a single column of text. The content is a continuation of a curriculum vitae, with entries organized chronologically. Each entry is headed by a year or date range, followed by the name of the organization, location, the individual's role, and a descriptive paragraph. The reading order is from top to bottom.
+
+The page consists of a single column of text. The content is organized into distinct entries, each marked by a year or date range. The reading order is from top to bottom.
 
 ## Literal Transcription
+
 **1999**
 
 **National Trust Fund for Protected Areas in Peru (PROFONANPE)**
@@ -168,17 +168,24 @@ Review implementation of a proposed training programme for the Development of th
 Maracaibo Plain Project. Co-ordinate with the World Bank and Canadian agencies a study tour
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other visual elements on this page. The content is entirely text.
+
+There are no images, captions, or other visual elements on this page.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
+
+The page is fully legible.
 
 ## Completeness Audit
-This page has been transcribed in its entirety.
+
+This page is a complete and accurate transcription of the source image.
 
 ## Visual Region Manifest
+
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of typed text and contains no images, illustrations, or other visual elements."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other visual elements."
+}
 ```
 
 ## Page Metadata
@@ -270,12 +277,14 @@ The entire content of the page has been transcribed.
 ```
 
 ## Page Metadata
-## Layout And Reading Order
+- **Page number**: 7 (inferred from filename `p0007`)
+- **Document title**: CV of Dario Arturo Pulgar
+- **Document type**: Curriculum Vitae
 
-The page contains a single column of text. The content is a continuation of a curriculum vitae, listing professional experiences in chronological order (most recent first). Each entry is structured with dates, the name of the organization, the location, and the job title, followed by a descriptive paragraph. The reading order is from top to bottom.
+## Layout And Reading Order
+The page is a single column of text. The content is organized chronologically in reverse order, with each entry representing a professional role. Each entry typically includes a date range, the name of the organization, the location, a job title, and a descriptive paragraph. Headings for dates, organizations, locations, and titles are in bold. The reading order is from top to bottom.
 
 ## Literal Transcription
-
 Governorate and the design and implementation of a modified Training and Visit System of
 Extension, coordinating the activities of the Government of Egypt (GOE) extension organisation
 with the project. Ensure liaison with governmental organisations in the agricultural field.
@@ -328,47 +337,38 @@ EMBRAFILME Audio Visual Centre, and v) prepare a plan of operations of a health
 communication project with special emphasis on rural areas for CIDA in Islamabad, Pakistan
 
 ## Images, Captions, And Visual Notes
-
-This page contains only text. There are no images, captions, or other visual elements.
+This page contains only text. There are no images, illustrations, stamps, or other visual elements.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-The entire content of the page has been transcribed.
+The transcription is a complete and accurate representation of all text on the page.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page consists entirely of typed text and contains no images, illustrations, or other visual elements."
+  "no_visual_regions_reason": "The page consists entirely of typed text and does not contain any images, illustrations, photographs, or other significant visual elements that would warrant cropping."
 }
 ```
 
 ## Page Metadata
+
 - task_id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0008`
-- page_num: 8
-- source_id: `ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9`
-- source_type: `pdf`
-- source_title: `CV of Dario Arturo Pulgar`
-- source_page_num: 8
-- source_author: 
-- source_date: 
-- source_lang: `en`
-- source_format: `cv`
+- page_number: 8
+- source_id: `codex:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9`
 
 ## Layout And Reading Order
-The page is a single column of text, read from top to bottom. It is a continuation of a curriculum vitae, detailing professional experience in chronological order (from most recent to oldest). Each entry includes a date range, employer, location, job title, and a descriptive paragraph. The final line on the page is a new section heading.
+
+The page is a single column of text, continuing a curriculum vitae. The content is organized chronologically by employment period, from most recent to oldest. Each entry includes a date range, employer name and location, job title, and a descriptive paragraph. The page concludes with the heading "EDUCATION". The reading order is from top to bottom.
 
 ## Literal Transcription
-**1979 - 1982**
----
-**United Nations Centre for Human Settlements (HABITAT)
+
+<u>1979 - 1982</u>
+United Nations Centre for Human Settlements (HABITAT)
 Nairobi, Kenya
-Development Support Communications Officer**
+**Development Support Communications Officer**
 Establish a worldwide distribution system for films produced for Habitat, United Nations
 Conference on Human Settlements. Supervise the production of language versions and release
 prints for regional distribution. Grant rights for television broadcasting. Design a film library loan
@@ -380,11 +380,10 @@ communication. Carry out pre-feasibility missions in Africa including Uganda, Ta
 Mali and Senegal. Design information and/or training projects using audio-visual means in
 support of rural/urban settlers.
 
-**1974 - 1978**
----
-**National Film Board of Canada (NFB)
+<u>1974 - 1978</u>
+National Film Board of Canada (NFB)
 Montreal, Canada
-Audio Visual Consultant**
+**Audio Visual Consultant**
 As part of the NFB involvement with the United Nations Conference on Human Settlements
 identify suitable locations for filming, describing rural and urban problems and attempted
 solutions while providing technical assistance to national film crews in Central America and the
@@ -397,42 +396,44 @@ the production of six documentary films and iii) participate as production assis
 of two documentaries: "Waiting for Fidel" and "I Am an Old Tree" and translating the Spanish
 dialogue into English.
 
-**1972 - 1973**
----
-**Chile Films
+<u>1972 - 1973</u>
+Chile Films
 Santiago, Chile
-General Manager Distribution and Exhibition, Head of International Department**
+**General Manager Distribution and Exhibition, Head of International Department**
 Develop a national policy for film distribution and exhibition. Purchase films for theatrical
 exhibition. Administer the operation of ten cinemas and a distribution company. Organise the III
 Latin American Film Festival, Viña del Mar. Organise a 16mm distribution network using mobile
 cinema units. Establish and maintain contacts with international film organisations. Review films
 for possible purchase. Organise film festivals and retrospective.
 
-**1970 - 1972**
----
-**Cine, Televisión y Comunicaciones (CITELCO)
+<u>1970 - 1972</u>
+Cine, Televisión y Comunicaciones (CITELCO)
 Santiago, Chile
-Producer**
+**Producer**
 Direct company operations and produce feature theatrical films and documentaries. Organise
 co-production of documentaries with Italy. Feature films produced include: "La Colonia Penal"",
 "La Expropiación" and "El Realismo Socialista" directed by Raúl Ruiz.
 
-EDUCATION
+**EDUCATION**
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other visual elements on this page.
+
+This page contains only text. There are no images, captions, or other visual elements.
 
 ## Uncertain Or Illegible
+
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page has been transcribed in its entirety.
+
+The entire page has been transcribed.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only typed text and no images, illustrations, or other visual elements suitable for cropping."
+  "no_visual_regions_reason": "This page consists entirely of typed text and contains no images, illustrations, photographs, or other significant visual elements."
 }
 ```
 
