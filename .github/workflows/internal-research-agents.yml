@@ -100,9 +100,20 @@ jobs:
                 $updated = [datetimeoffset]::Parse($updatedText)
                 $ageMinutes = ([datetimeoffset]::UtcNow - $updated).TotalMinutes
                 $ageDisplay = [math]::Round($ageMinutes, 1)
-                if ($ageMinutes -lt $freshMinutes) {
+                $promotionWaiting = $false
+                if ([string]$env:ALLOW_PROMOTION -eq "true" -and $null -ne $state.last_summary -and $null -ne $state.last_summary.queues) {
+                  $promotionQueue = $state.last_summary.queues.'wiki-promotion'
+                  if ($null -ne $promotionQueue -and $null -ne $promotionQueue.PSObject.Properties["disabled_requires_allow_promotion"]) {
+                    $disabledPromotionCount = [int]$promotionQueue.disabled_requires_allow_promotion
+                    $promotionWaiting = $disabledPromotionCount -gt 0
+                  }
+                }
+                if ($ageMinutes -lt $freshMinutes -and -not $promotionWaiting) {
                   $runInternal = "false"
                   Write-Host "Skipping scheduled internal-agent run because controller state is $ageDisplay minutes old."
+                }
+                elseif ($promotionWaiting) {
+                  Write-Host "Controller state is $ageDisplay minutes old, but reviewed-ready promotion is waiting; scheduled promotion-capable run will proceed."
                 }
                 else {
                   Write-Host "Controller state is $ageDisplay minutes old; scheduled run will proceed."
