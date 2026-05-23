@@ -6,4 +6,26 @@
 
 ## Queued Pages
 
-No pages queued for reread.
+### Page 4
+
+- Recommended action: `spot-check`
+- Conversion confidence: `medium`
+- Family relevance: `medium`
+- Quality flags: explicit_reread_needed
+- Matched family context: Dario, Pulgar
+
+### Page 5
+
+- Recommended action: `spot-check`
+- Conversion confidence: `medium`
+- Family relevance: `medium`
+- Quality flags: explicit_reread_needed
+- Matched family context: Dario, Pulgar
+
+### Page 9
+
+- Recommended action: `spot-check`
+- Conversion confidence: `medium`
+- Family relevance: `medium`
+- Quality flags: explicit_reread_needed
+- Matched family context: Dario, Pulgar

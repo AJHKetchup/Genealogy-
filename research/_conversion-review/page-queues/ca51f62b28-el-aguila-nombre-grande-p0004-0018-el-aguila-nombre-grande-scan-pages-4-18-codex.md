@@ -27,5 +27,5 @@
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
-- Quality flags: none
+- Quality flags: explicit_reread_needed
 - Matched family context: Dario, Dario Pulgar, Pulgar
