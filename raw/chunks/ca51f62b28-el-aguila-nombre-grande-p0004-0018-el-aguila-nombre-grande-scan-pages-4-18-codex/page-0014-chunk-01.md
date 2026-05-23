@@ -1,0 +1,112 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-1fd1b0c0a78f-P0014-01
+source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
+converted_sha256: 1fd1b0c0a78f993ad3624cc4b04fa0d91e80b18c2fd412f0fe42df63b3b564ca
+source: raw/sources/El Aguila Nombre Grande Scan.pdf
+source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
+source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
+page_start: 14
+page_end: 14
+part: 1
+---
+
+## Page Metadata
+
+- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0014`
+- Model route: `pro`
+- Route reasons: simple_page, prior_max_tokens
+- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/work-orders/page-0014.md`
+- Page: 14
+- Output Markdown target: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0014.md`
+- External research relevance: ``
+- External requested treatment: ``
+- External relevance reasons: none
+- Recommended action: `gemini_fallback`
+- Quality flags: none
+- Technical reread clues: none
+
+## Layout And Reading Order
+
+The page is a single column of typewritten text. The reading order is as follows:
+1. A header at the top of the page with the publication name, "EL AGUILA", and date range, "ENERO - FEBRERO".
+2. A section title, "ESCRIBE EL DIRECTOR".
+3. A main article title, "EL FUNDO LOS CUARTOS".
+4. The body of the article, a single block of text.
+5. A horizontal rule separating the article from the footer.
+6. A footer section with publication information and a call to action.
+7. A handwritten signature, "JR. DARIO PULGARA".
+8. Large handwritten text, "EL AGUILA", and the page number, "14", at the bottom of the page.
+
+## Literal Transcription
+
+```text
+NUMERO GIGANTE ENERO - FEBRERO EL AGUILA
+***
+ESCRIBE EL DIRECTOR
+EL FUNDO LOS CUARTOS
+
+EL FUNDO LOS CUARTOS PERTENECE COMO YA SE SABE AL DR DARIO PULGAR A,
+DISTINGUIDO FACULTATIVO DE CONCEPCION QUIEN HEREDO´ DE SUS PADRES ESTE
+FUNDO ALLA POR EL AÑO 1917 SE CONPONIA SOLAMENTE DE 300 HECTAREAS QUE
+SIRVIERON PARA AGRANDAR SU FUNDO AL COMPRAR 300 MAS Y JUNTAS FORMARON LA
+SUPERFICIE ACTUAL DE 600 HECTAREAS.
+ESTA´ UBICADO EN LA PROVINCIA DE BIO-BIO A 22 KILOMETROS DE LA CUIDAD
+DE LOS ANGELES, EN EL CAMINO DE SAN CARLOS DE PUREN A SANTA BARBARA;
+DESLINDA AL SUR CON EL RIO BIO-BIO AL NOTE CON EL RIO DUQUILCO OESTE
+CON EL FUNDO " NATALIA " Y AL ESTE CON LOS"FUNDOS"SANTA INES"Y " LAS
+GARZAS " EXSISTEN PLANTACIONES DE PINOS QUE ACTUALMENTE SE EXPLOTAN ./
+DESDE EL AÑO 1938 SE RIEGA PARTE CON LAS AGUAS DEL CANAL BIO BIO
+NORTE /
+TIENE PRODUCTIVLES VEGAS A ORILLAS DEL BIO BIO Y UÑA MONTAÑA DE
+ROBLES QUE LE DA UN HERMOSO ASPECTO .
+DESDE 1952 EXISTE UNA CONFORTABLE CASA PATRONAL Y BUENAS CASA PARA
+EL MAYORDOMO E INQUILINOS; UN ESTABLO PARA 50 VACAS ENTERAMENTE DE
+CONCRETO. EN FUNDO TANBIEN CONSTA CON BODEGAS Y GADPONES TANBIEN DE CO
+NCRETO ../
+DENTRO DE POCO EL FUNDO CONSTARA´ CON LUS ELECTRICA DEL ABANICO EL
+PORVENIR DE ESTE FUNDO SON LOS PINOS Y LA LECHERIA .-
+***
+EL PERIODICO DE LA E NPRESA EDITORA
+EL AGUILA
+
+HAGASE LECTOR
+
+ESCRIBA A NUESTRA ENPRESA O
+PONGASE EN CONTACTO CON NUESTRO AGENTE PARA TODO
+CHILE
+[handwritten signature] JR. DARIO PULGARA [/handwritten signature]
+[handwritten] EL AGUILA [/handwritten]
+[handwritten] 14 [/handwritten]
+```
+
+## Images, Captions, And Visual Notes
+
+There are no images on this page suitable for cropping.
+
+The bottom of the page contains a handwritten signature in red ink: "JR. DARIO PULGARA". Below this, also in red ink, is the large handwritten text "EL AGUILA" and the number "14".
+
+Several small handwritten marks appear within the typed text:
+- An accent mark on `HEREDO´`.
+- A slash after the period in `EXPLOTAN ./`.
+- A slash after `NORTE /`.
+- Two dots and a slash after `NCRETO ../`.
+
+## Uncertain Or Illegible
+
+There are no uncertain or illegible portions of text on this page.
+
+## Completeness Audit
+
+This page has been transcribed in its entirety.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only typewritten text with some minor handwritten annotations and a signature. These elements are fully captured by the transcription and do not warrant individual cropping as standalone visual assets."
+}
+```

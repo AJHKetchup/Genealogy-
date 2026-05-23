@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-528026be7a64-P0011-01
+chunk_id: CHUNK-1fd1b0c0a78f-P0011-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 528026be7a649749428550a7bbba659a410c5f84083088d7bdabbab926e105ff
+converted_sha256: 1fd1b0c0a78f993ad3624cc4b04fa0d91e80b18c2fd412f0fe42df63b3b564ca
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -12,74 +12,99 @@ part: 1
 ---
 
 ## Page Metadata
-- Page number: 14
+- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0011`
+- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+- Page: 11
 
 ## Layout And Reading Order
-The page is a single column of typewritten text. The reading order is as follows:
-1.  A header at the top of the page with the publication name, date range, and another name.
-2.  A horizontal line.
-3.  The main body of text, which is an article titled "EL FUNDO LOS CUARTOS".
-4.  A horizontal line.
-5.  A footer section with publication and contact information.
-6.  Handwritten text in red ink is overlaid on the bottom portion of the page, including a large "EL AGUILA", the page number "14", and a signature "DR. DARIO PULGARA".
+The document is a single-column typed page. The reading order is as follows:
+1. A header at the top of the page reads: `ERO GIGANTE ENERO FEBRERO EL AGUILA`.
+2. A horizontal line separates the header from the main text.
+3. The main body of text consists of three sections, each with a capitalized and underlined heading:
+    - `CONYINUACIO N DE ACTIVIDADES,`
+    - `LA ELECRISAD EN LOS CANPOS.`
+    - `LA LECHE Y LA CHIPRODAL`
+4. At the bottom left, there is a handwritten note in red ink: `Sigue Pag 12`.
+5. At the bottom right, the page number `11` is typed in red.
 
 ## Literal Transcription
-```markdown
-NUMERO GIGANTE ENERO - FEBRERO EL AGUILA
-***
-ESCRIBE EL DIRECTOR
-EL FUNDO LOS CUARTOS
+```text
+ERO GIGANTE ENERO FEBRERO EL AGUILA
+---
+CONYINUACIO N DE ACTIVIDADES,
 
-EL FUNDO LOS CUARTOS PERTENECE COMO YA SE SABE AL DR DARIO PULGAR A,
-DISTINGUIDO FACULTATIVO DE CONCEPCION QUIEN HEREDO´ DE SUS PADRES ESTE
-FUNDO ALLA POR EL AÑO 1917 SE CONPONIA SOLAMENTE DE 300 HECTAREAS QUE
-SIRVIERON PARA AGRANDAR SU FUNDO AL COMPRAR 300 MAS Y JUNTAS FORMARON LA
-SUPERFICIE ACTUAL DE 600 HECTAREAS.
-ESTA UBICADO EN LA PROVINCIA DE BIO-BIO A 22 KILOMETROS DE LA CUIDAD
-DE LOS ANGELES, EN EL CAMINO DE SAN CARLOS DE PUREN A SANTA BARBARA;
-DESLINDA AL SUR CON EL RIO BIO-BIO AL NOTE CON EL RIO DUQULCO OESTE
-CON EL FUNDO " NATALIA " Y AL ESTE CON LOS"FUNDOS"SANTA INES"Y " LAS
-GARZAS " EXSISTEN PLANTACIONES DE PINOS QUE ACTUALMENTE SE EXPLOTAN ./
-DESDE EL AÑO 1938 SE RIEGA PARTE CON LAS AGUAS DEL CANAL BIO BIO
-NORTE /
-TIENE PRODUCTIVLES VEGAS A ORILLAS DEL BIO BIO Y UÑA MONTAÑA DE
-ROBLES QUE LE DA UN HERMOSO ASPECTO .
-DESDE 1952 EXISTE UNA CONFORTABLE CASA PATRONAL Y BUENAS CASA PARA
-EL MAYORDOMO E INQUILINOS; UN ESTABLO PARA 50 VACAS ENTERAMENTE DE
-CONCRETO. EN FUNDO TANBIEN CONSTA CON BODEGAS Y GADPONES TANBIEN DE CO
-NCRETO .. /
-DENTRO DE POCO EL FUNDO CONSTARA CON LUS ELECTRICA DEL ABANICO EL
-PORVENIR DE ESTE FUNDO SON LOS PINOS Y LA LECHERIA.-
-***
-EL PERIODICO DE LA E NPRESA EDITORA
-EL AGUILA
+Y MARCO´ CON UN ESTACADO. POCOS DIAS DESPUES JEFES DE LA ENDESA
+REVISARON EL ESTACADO DANDO SU VISTO BUENO DESPUES DE LO CUAL
+EL CONTRATISTA ORDENO´ TIRAR LOS POSTES Y UN PESADO CAMION DE LA
+ENDESA PROSEDIÓ A DEJAR LOS POSTES CERCA, O AL LADO DE LOSHPTOS
+QUE ANTERIORMENTE HABIA HECHO UNA CUADRUILKA DE HOMBRES. LUEGO DESPUES
+COMO NOS INFORMO´ UN PERSONERO DE LA ENPRESA UN TRACTOR CON UN CAMARON
+LLEBO´ LOS POSTES QUE ESTABAN LEJOS A SUS RESPECTIVOS HOYOS Y LUEGO
+NOS EXPLICO´ QUE CON UNA PLUMA PROSEDERI AN A LEVANTAR Y COLOCAR DEND
+DE LOS HOYOS LOS POSTES MAS ADELANTE DIJO QUE MAESTROS ESPECIALISAD
+COLOCARIAN LAS CRUSETAS Y COLOCARION LOAS CABLES QUE LLEVAN LA
+ELECTRISIDAD.
 
-HAGASE LECTOR
+LA ELECRISAD EN LOS CANPOS.
 
-ESCRIBA A NUESTRA ENPRESA O
-PONGASE EN CONTACTO CON NUESTRO AGENTE PARA TODO
-CHILE
+LA ELECTRISIDAD PRESTA GRANDES USOS A LOS AGUICULTORES YA SEA EN SUS
+CASA COMO EN LAS FAENAS MÚLTIPLES QUE SE PUEDEN REALISAR CON LA
+ELECTRISIDAD. NUESTRO VECINO QUE OPTUVO LUZ PRIMERO DE LA LINEA A
+MULCHEN TIENE UN MOLINO QUE FUNCIONA ROTALMENTE A ELECTRISIDAD
+SE ESPERA QUE ESTA LINEA ESTE´ LISTA EN MAYO Y QUISAS EN AGOSTO SE
+PODRA DAR LA LUZ. a
 
-[handwritten in red ink] 
-EL AGUILA
-14
-DR. DARIO PULGARA
-[/handwritten]
+LA LECHE Y LA CHIPRODAL
+
+EN EL FUNDO ES PRIMERA VEZ QUE SE ENTRGA LECHE A LA CHIPRODAL FABRIC@
+DE LECHE NESTRE. LA LECHERIA DEL FUNDO NO ESTA FORMADA POR, LO CUAL LA
+MATERIA GRASA ES POCA ../ VISITAMOS LA CHOPRODAL SA LLEGAN LOS CAMIO
+NES QUE VIENEN DE TODAS PARTES CARGADOS CON LEGHE. SE ACERCAN A UNA
+PLATAFORMA DONDE BAJAN LOS TARROS Y LOS COLOCAN EN UNA ESPEC..L DE CORRE
+SIN FIN PERO DE FIERRO QUE LOS VA MOVIENDO Y LOS LLEVA DENTRO DE L
+EDIFICIO DONDE LA LECHE ES PESADA Y ENTRA EN GRANDES TUVERIAS QUE
+
+Sigue Pag 12 11
 ```
 
 ## Images, Captions, And Visual Notes
-The page is entirely text. In the lower portion of the page, there is large handwriting in red ink. It reads "EL AGUILA", followed by the number "14" below it. At the very bottom of the page, also in red ink, is what appears to be a signature: "DR. DARIO PULGARA".
+The page is a typed document on aged, yellowish paper. The type is from a mechanical typewriter and shows some inconsistencies in ink darkness. There is a handwritten note, `Sigue Pag 12`, at the bottom left in red ink. The page number `11` at the bottom right is typed, possibly with a red typewriter ribbon. There is some faint text visible in the background, likely bleed-through from the reverse side of the page, but it does not interfere with the legibility of the primary text.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
+There are no illegible words on this page. The transcription includes numerous apparent typographical errors present in the original source, which have been transcribed literally. These include:
+- `CONYINUACIO N` for `CONTINUACION`
+- `LOSHPTOS` for `LOS HOYOS`
+- `CUADRUILKA` for `CUADRILLA`
+- `ENPRESA` for `EMPRESA`
+- `LLEBO´` for `LLEVÓ`
+- `PROSEDERI AN` for `PROCEDERIAN`
+- `DEND` for `DENTRO`
+- `ESPECIALISAD` for `ESPECIALIZADOS`
+- `COLOCARION LOAS` for `COLOCARIAN LOS`
+- `ELECTRISIDAD` for `ELECTRICIDAD` (appears multiple times)
+- `ELECRISAD` for `ELECTRICIDAD`
+- `CANPOS` for `CAMPOS`
+- `AGUICULTORES` for `AGRICULTORES`
+- `REALISAR` for `REALIZAR`
+- `OPTUVO` for `OBTUVO`
+- `ROTALMENTE` for `TOTALMENTE`
+- `QUISAS` for `QUIZAS`
+- `ENTRGA` for `ENTREGA`
+- `FABRIC@` where `@` is used for `A`
+- `NESTRE` for `NESTLE`
+- `CHOPRODAL` for `CHIPRODAL`
+- `LEGHE` for `LECHE`
+- `ESPEC..L` for `ESPECIAL`
+- `CORRE` for `CORREA`
+- `TUVERIAS` for `TUBERIAS`
 
 ## Completeness Audit
-This page has been transcribed in its entirety.
+The entire page, including the header, main text, and handwritten notes, has been transcribed. The page is complete.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text and simple decorative lines. The handwritten elements are transcribed and do not warrant individual cropping as standalone visual assets."
+  "no_visual_regions_reason": "The page contains only typed and handwritten text. There are no photographs, illustrations, maps, or other significant visual elements that would warrant cropping as standalone assets."
 }
 ```

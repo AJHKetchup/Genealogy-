@@ -11,7 +11,7 @@
 ## Page Metadata
 - Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0004`
 - Model route: `pro`
-- Route reasons: research_relevance:high, requested_reread
+- Route reasons: research_relevance:high, suspicious_readings, requested_reread
 - Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
 - Job manifest: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json`
 - Work order: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/work-orders/page-0004.md`
@@ -20,79 +20,87 @@
 - External research relevance: `high`
 - External requested treatment: `reread`
 - External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
+- Recommended action: `reread-page`
 - Quality flags: explicit_reread_needed
-- Technical reread clues: none
+- Technical reread clues: ARRIGADA -> Arriagada
 
 ## Layout And Reading Order
-The document is a single-column, typewritten page. The reading order is from top to bottom. The page contains two main sections, "ALMUERSO" and "MATRIMONIO", each preceded by a title. A handwritten page number is at the bottom.
+The page consists of a single column of typed text. The reading order is from top to bottom.
+
+1.  `region_0`: Header text at the top of the page.
+2.  `region_1`: Handwritten number in the top left corner.
+3.  `region_2`: Main body of text, containing social notes under the headings "NOTAS", "ALMUERSO", and "MATRIMONIO.".
+4.  `region_3`: Handwritten page number at the bottom center.
 
 ## Literal Transcription
+```markdown
+[region_0]
 NUMERO GIGANTE ENERO - FEBRERO
-666
----------------------------------
-NOTAS
 
+[region_1]
+666
+***
+
+[region_2]
+NOTAS
+***
 ALMUERSO
----------
+***
 EL 1.o DE FEBRERO DEL PRESENTE AÑO EN EL FUNDO LOS CUARTOS SE LLEVÓ A
 EFECTO UN ALMUERSO AL CUAL CONCURRIERON EL DISTINGUIDO FACULTATIVO
 DE CONCEPCION Y DECANO DE LA FACULTAD DE MEDICINA DE LA UNIVERSIDAD
 DE CONCEPCION DR IVAR HERMANSEN ACOMPAÑADO DE SU ESPOSA SRA ANNIE
 PAVON DE HERMANSEN Y DE SUS HIJOS ENRIQUE Y MARIA TERESA HERMANSEN.
 TANBIEN PUDIMOS APRECIAR LA PRESENCIA DEL EX INTENDENTE DE BIO-BIO
-DR RENE PETERSEN Y SU ESPOSA. DESPUES DE UN ESPLENDIDO ALMUERSO EL
+DR RENÉ PETERSEN Y SU ESPOSA. DESPUES DE UN ESPLENDIDO ALMUERSO EL
 DOCTOR HERMANSEN DURANTE LA TARDE SE DEDICÓ A LA PESCA DE SALMON EN
-EL RIO BIO-BIO PERO LA MALA SUERTE LE ENREDÓ LA LIENSA DE NMLON DEL
+EL RIO BIO-BIO PERO LA MALA SUERTE LE ENREDÓ LA LIENSA DE NYLON DEL
 CARRETE.
 
-EL DOCTOR PETERSEN DEBIÓ MARCHARSE A LOS ANGELES A CUNPLIR ALGUNOS C
-COMPROMISOS MARCHÁNDOSE ANTES DE ONVE. EN CANBIO EL DOCTOR HERMANSEN
+EL DOCTOR PETERSEN DEBIÓ MARCHARSE A LOS ANGELES A CUMPLIR ALGUNOS C
+COMPROMISOS MARCHÁNDOSE ANTES DE ONCE. EN CAMBIO EL DOCTOR HERMANSEN
 SE QUEDÓ A LA ONCE MARCHÁNDOSE APROXIMADAMENTE A LAS 8 DE LA TARDE '
 AL FUNDO DEL DOCTOR PETERSEN DONDE SE HOSPEDABA PARA MARCHARSE DOS
 DIS DESPUES A CONDCEPCION A CUMPLIR SUS OBLIGACIONES
 
 MATRIMONIO.
------------
+***
 EL SABADO 14 DE ENERO PASADO SE LLEVO AFECTO, PRIVADAMENTE EN LA CASA DE
 LA NOVIA EL MATRIMONIO DE LA SEÑORITA LUCIA ARRIGADA CON EL SEÑOR
 LEOPOLDO PASCUAL BAILAC. NOTAMOSLEAL PRESENCIA DE DOS ANTIGUOS CABALLER
 DON JOSE MARIXA Y DON CARLOS DE LA JARA.TANBIE AL PRESIDENTE DE LA CORTE
 DE APELACIONES DON LUCAS SANHUEZA Y EL MINISTRO DE LA CORTE SEÑOR
-ESPEJO TANBIEN AL INGENIERO DE "PROMIN CIA SR PIMENTEL
+ESPEJO TANBIEN AL INGENIERO DE PROVIN CIA SR PIMENTEL
 
+[region_3]
 4
+```
 
 ## Images, Captions, And Visual Notes
-The page is typewritten on aged, yellowish paper.
-- At the top left, the number `666` is handwritten.
-- At the bottom center, the page number `4` is handwritten in what appears to be red ink.
-- In the last paragraph, the name `MARIA` has been corrected by typing an `X` over the `I`, resulting in `MARIXA`.
-- The last line contains the text `"PROMIN CIA`, which appears to be a typo for `PROVINCIA`. It is enclosed in typed quotation marks and has a space in the middle.
+The document is a typed page on aged, yellowish paper.
+
+- A number, `666`, is handwritten in the top left corner.
+- Several words have handwritten accent marks added: `LLEVÓ`, `RENÉ`, `DEDICÓ`, `ENREDÓ`, `DEBIÓ`, `MARCHÁNDOSE` (twice), `QUEDÓ`.
+- The page number, `4`, is handwritten in red ink at the bottom center of the page.
 
 ## Uncertain Or Illegible
-The transcription is certain, but the original document contains numerous apparent typographical errors. These have been transcribed literally as they appear on the page.
-- `TANBIEN`: Likely a typo for `TAMBIEN`. Appears twice.
-- `NMLON`: Likely a typo for `NYLON`.
-- `CUNPLIR`: Likely a typo for `CUMPLIR`.
-- `ONVE`: Likely a typo for `ONCE`.
-- `CANBIO`: Likely a typo for `CAMBIO`.
-- `DIS`: Likely a typo for `DIAS`.
-- `CONDCEPCION`: Likely a typo for `CONCEPCION`.
-- `LLEVO AFECTO`: Likely a typo for `LLEVO A EFECTO`.
-- `NOTAMOSLEAL`: Likely a typo for `NOTAMOS LA`.
-- `MARIXA`: Appears to be a manual correction of `MARIA` by overtyping the `I` with an `X`.
-- `JARA.TANBIE`: A period is used instead of a space between the words. `TANBIE` is likely a typo for `TAMBIEN`.
-- `"PROMIN CIA`: Likely a typo for `PROVINCIA`. It is transcribed as it appears, with quotation marks and a space.
+- `MARIXA`: This appears to be a typo for "MARIA". The character between "I" and "A" is an "X".
+- `NOTAMOSLEAL`: This is typed as a single word. It may be a typo for "NOTAMOS LA".
+- `TANBIEN`: This word appears twice, spelled `TANBIE`. This is likely a typo for "TAMBIEN".
+- `ALGUNOS C COMPROMISOS`: There is a stray letter "C" between "ALGUNOS" and "COMPROMISOS".
+- `TARDE '`: There is a stray apostrophe after the word "TARDE".
+- `DIS`: This is likely a typo for "DIAS".
+- `CONDCEPCION`: This is likely a typo for "CONCEPCION".
+- `PROVIN CIA`: This is typed with a space in the middle. It likely refers to "PROVINCIA".
 
 ## Completeness Audit
-The full content of the page has been transcribed.
+The transcription of this page is complete and includes all visible text and handwritten marks.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typewritten text with minor handwritten numbers and marks, which are described in the transcription and visual notes. There are no photographs, illustrations, or other significant visual elements that would warrant cropping."
+  "no_visual_regions_reason": "The page contains only typed and handwritten text. There are no photographs, illustrations, or other significant visual elements that would warrant cropping."
 }
 ```
 
@@ -292,56 +300,58 @@ The transcription is complete and captures all visible text and handwritten note
 - Page number: 7
 
 ## Layout And Reading Order
-This page contains a single column of typewritten text. The reading order is from top to bottom. A handwritten page number is present at the bottom of the page.
+This page contains a single column of typewritten text. A handwritten page number, "7", is at the bottom center of the page. The text is an article about Dr. Virginio Gomes G. There are two handwritten insertions within the text.
+
+The reading order is from top to bottom.
 
 ## Literal Transcription
-```text
 NUMERO GIGANTE ENERO FEBRERO EL AGUILA
-----------------------------------------------------------------
+---
 ESCRIBEN LOS LECTORES
 LA EMPRESA TIENE EL AGRADO DE PUBLICAR UN ARTICULO ESCRITO PARA
 ESTE DIARIO POR EL DR DARIO PULGAR.
----------------------------------
+---
 _EL_DR_VIRGINIO_GOMES__G__
 
 EN CIRCUNSTANSTAS QUE VIAJABA ABORDO DEL BUQUE " ALONDRA" DE LA
 " COMPAÑIA MARITIMA DEL ESTADO "CON RUMBO A MAGALLANES A LA ALTURA
-DE PUERTO MONTT, DESAPARECION MISTERIOSAMENTE ESTE DISTINGUIDO
-FACULTATIVO QUE HONRO´ A LA MEDICINA CHILENA POR SU TALENTO Y POR
+DE PUERTO MONTT, DESAPARECIÓ MISTERIOSAMENTE ESTE DISTINGUIDO
+FACULTATIVO QUE HONRÓ A LA MEDICINA CHILENA POR SU TALENTO Y POR
 SU AMPLIA CULTURA.
-NACIO´ EN LA CUIDAD DE LOS ANGELES, PERTENECIA A UNA RESPETABLE
+NACIÓ EN LA CUIDAD DE LOS ANGELES, PERTENECIA A UNA RESPETABLE
 FAMILIA .
 EN POSECION DE SU TÍTULO FUÉ A EJERCER SU PROFECION EN IQUQUE Y LUEGO
 DESPUES EN CONCEPCION DONDE TUVO UNA DESTACADA Y BRILLANTE
-ACTUACION COMO MEDICO Y COMO PRINCIPAL FUNDADOR DE LA UNIVERSIDAD
+ACTUACION COMO MÉDICO Y COMO PRINCIPAL FUNDADOR DE LA UNIVERSIDAD
 PENQUISTA . DESIGNADO DIRECTOR DEL ANTIGUO HOSPITAL "SAN JUAN DE DIOS
-ALLA POR EL AÑO 1916 TRATO´ DE MODERNISARLO Y CONVERTIRLO EN UN HOSPITAL
+ALLA POR EL AÑO 1916 TRATÓ DE MODERNISARLO Y CONVERTIRLO EN UN HOSPITAL
 CLINICO QUE LLEVABA APAREJADA LA IDEA DE LA FUNDACION EDE UNA E
-ESCUELA DE MEDICINA Y DE LA UNIVERSIDAD QUE ERA SU IDEAL Y A LA CUAL {handwritten} que se convirtieron {/handwritten}
-DEDICO´ SUS MAYORES ENERGIAS Y ENTUSIASMOS HASTA SUS DESEOS{handwritten}/{/handwritten}EN UNA
+ESCUELA DE MEDICINA Y DE LA UNIVERSIDAD QUE ERA SU IDEAL Y A LA CUAL [handwritten insertion above line] que se convirtieron [/handwritten insertion]
+DEDICÓ SUS MAYORES ENERGIAS Y ENTUSIASMOS HASTA SUS DESEOS[handwritten insertion] /EN UNA [/handwritten insertion]
 HERMOSA REALIDAD.
-EL DOCTOR GOMES DEJA UNA HUELLA LUMUNOSA Y UN RECUERDO INPERESEDERO
+EL DOCTOR GOMES DEJA UNA HUELLA LUMINOSA Y UN RECUERDO INPERESEDERO
 POR SUS CONDICIONES DE HOMBRE DE BIEN Y PROFECIONAL DISTINGUIDO Y
-ALTUISTA. NO ANBICIONO FORTUNA ALGUNA; PRODIGIO´ EL BIEN A MANO LLENA
+ALTUISTA. NO ANBICIONO FORTUNA ALGUNA; PRODIGIO EL BIEN A MANO LLENA
 ENTRE SU NUMEROSA CLIENTELA DE TODOS LOS CIRCULOS SOCIALES .
 
-{handwritten} 7 {/handwritten}
-```
+[centered at bottom of page]
+[handwritten] 7 [/handwritten]
 
 ## Images, Captions, And Visual Notes
-There are no images on this page. The page consists of typewritten text with two handwritten insertions and a handwritten page number at the bottom.
+There are no images on this page. The page number "7" is handwritten in red ink at the bottom center. There are two handwritten insertions in black ink within the main body of text.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible portions of this document.
+- The first handwritten insertion, `que se convirtieron`, is somewhat faint but legible.
+- The second handwritten insertion, `/EN UNA`, is clear.
 
 ## Completeness Audit
-This page has been transcribed in its entirety.
+This page has been fully transcribed.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text and minor handwritten marks, with no significant visual elements like photographs, maps, or illustrations that would warrant cropping."
+  "no_visual_regions_reason": "This page contains only text. There are no photographs, maps, illustrations, or other significant visual elements that would warrant cropping."
 }
 ```
 
@@ -537,23 +547,25 @@ This page has been fully transcribed and all visual elements have been described
 ## Page Metadata
 - Source: `El Aguila Nombre Grande Scan.pdf`
 - Page: `10`
+- Page type: `image`
 
 ## Layout And Reading Order
 The page contains a single large image of a landscape with cattle and a body of water. There is no text on the page other than a handwritten page number at the bottom.
 
 ## Literal Transcription
-(No literal transcription needed for this page, as it contains only an image and a handwritten page number.)
+(No literal transcription needed for this page, as it is primarily an image.)
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-landscape.png)
-  - Kind: photograph; label basis: converter-description; bbox_pct: [6.0, 3.0, 96.0, 97.0]
-  - Source context: A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.
+- ![converter-description: The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hilly-landscape.png)
+  - Kind: photograph; label basis: converter-description; bbox_pct: [6.0, 2.0, 96.0, 98.0]
+  - Source context: The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.
 
-The page features a color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.
+- A color illustration or painting depicts a herd of cattle gathered around a watering hole in a dry, hilly landscape. In the background, a person on horseback is visible on a distant hill.
+- A handwritten number "10" is present at the bottom center of the page.
 
 ## Uncertain Or Illegible
-- The handwritten number at the bottom of the page appears to be "10", but it is somewhat faded and could potentially be misread.
+- The exact medium of the image (painting, illustration, or manipulated photograph) is uncertain without further context.
 
 ## Completeness Audit
 The page contains a single image and a handwritten page number. All visible content has been described.
@@ -565,58 +577,66 @@ The page contains a single image and a handwritten page number. All visible cont
     {
       "region_id": "region_1",
       "kind": "photograph",
-      "bbox_pct": [0.06, 0.03, 0.96, 0.97],
+      "bbox_pct": [0.06, 0.02, 0.96, 0.98],
       "caption_literal": null,
       "caption_type": "converter-description",
       "identity_basis": null,
-      "source_context": "A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.",
+      "source_context": "The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.",
       "confidence": 0.95,
-      "suggested_filename": "cattle_watering_hole_landscape"
+      "suggested_filename": "cattle_watering_hole_hilly_landscape"
     }
-  ],
-  "no_visual_regions_reason": null
+  ]
 }
 ```
 
 ## Page Metadata
-- Page number: 11
 - Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0011`
+- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+- Page: 11
 
 ## Layout And Reading Order
-This page is a single column of typewritten text. The reading order is from top to bottom. A handwritten note is present at the bottom of the page, followed by the typed page number.
+The document is a single-column typed page. The reading order is as follows:
+1. A header at the top of the page reads: `ERO GIGANTE ENERO FEBRERO EL AGUILA`.
+2. A horizontal line separates the header from the main text.
+3. The main body of text consists of three sections, each with a capitalized and underlined heading:
+    - `CONYINUACIO N DE ACTIVIDADES,`
+    - `LA ELECRISAD EN LOS CANPOS.`
+    - `LA LECHE Y LA CHIPRODAL`
+4. At the bottom left, there is a handwritten note in red ink: `Sigue Pag 12`.
+5. At the bottom right, the page number `11` is typed in red.
 
 ## Literal Transcription
-```markdown
+```text
 ERO GIGANTE ENERO FEBRERO EL AGUILA
-***
+---
 CONYINUACIO N DE ACTIVIDADES,
 
-Y MARCO CON UN ESTACADO. POCOS DIAS DESPUES JEFES DE LA ENDESA
+Y MARCO´ CON UN ESTACADO. POCOS DIAS DESPUES JEFES DE LA ENDESA
 REVISARON EL ESTACADO DANDO SU VISTO BUENO DESPUES DE LO CUAL
-EL CONTRATISTA ORDENO TIRAR LOS POSTES Y UN PESADO CAMION DE LA
-ENDESA PROCEDIÓ A DEJAR LOS POSTES CERCA, O AL LADO DE LOSHPTOS
+EL CONTRATISTA ORDENO´ TIRAR LOS POSTES Y UN PESADO CAMION DE LA
+ENDESA PROSEDIÓ A DEJAR LOS POSTES CERCA, O AL LADO DE LOSHPTOS
 QUE ANTERIORMENTE HABIA HECHO UNA CUADRUILKA DE HOMBRES. LUEGO DESPUES
-COMO NOS INFORMO UN PERSONERO DE LA ENPRESA UN TRACTOR CON UN CAMARON
-LLEBO LOS POSTES QUE ESTABAN LEJOS A SUS RESPECTIVOS HOYOS Y LUEGO
-NOS EXPLICÓ QUE CON UNA PLUMA PROSEDERI AN A LEVANTAR Y COLOCAR DEND
+COMO NOS INFORMO´ UN PERSONERO DE LA ENPRESA UN TRACTOR CON UN CAMARON
+LLEBO´ LOS POSTES QUE ESTABAN LEJOS A SUS RESPECTIVOS HOYOS Y LUEGO
+NOS EXPLICO´ QUE CON UNA PLUMA PROSEDERI AN A LEVANTAR Y COLOCAR DEND
 DE LOS HOYOS LOS POSTES MAS ADELANTE DIJO QUE MAESTROS ESPECIALISAD
 COLOCARIAN LAS CRUSETAS Y COLOCARION LOAS CABLES QUE LLEVAN LA
 ELECTRISIDAD.
 
 LA ELECRISAD EN LOS CANPOS.
 
-LA ELECTRISIDAD PRESTA GRANDES USOS A LOS AGIULTORES YA SEA EN SUS
+LA ELECTRISIDAD PRESTA GRANDES USOS A LOS AGUICULTORES YA SEA EN SUS
 CASA COMO EN LAS FAENAS MÚLTIPLES QUE SE PUEDEN REALISAR CON LA
 ELECTRISIDAD. NUESTRO VECINO QUE OPTUVO LUZ PRIMERO DE LA LINEA A
 MULCHEN TIENE UN MOLINO QUE FUNCIONA ROTALMENTE A ELECTRISIDAD
-SE ESPERA QUE ESTA LINEA ESTE LISTA EN MAYO Y QUISAS EN AGOSTO SE
+SE ESPERA QUE ESTA LINEA ESTE´ LISTA EN MAYO Y QUISAS EN AGOSTO SE
 PODRA DAR LA LUZ. a
 
 LA LECHE Y LA CHIPRODAL
 
 EN EL FUNDO ES PRIMERA VEZ QUE SE ENTRGA LECHE A LA CHIPRODAL FABRIC@
 DE LECHE NESTRE. LA LECHERIA DEL FUNDO NO ESTA FORMADA POR, LO CUAL LA
-MATERIA GRASA ES POCA ../ VISITAMOS LA CHOPRODAL SA LLEGAN LOS CAMIOS
+MATERIA GRASA ES POCA ../ VISITAMOS LA CHOPRODAL SA LLEGAN LOS CAMIO
 NES QUE VIENEN DE TODAS PARTES CARGADOS CON LEGHE. SE ACERCAN A UNA
 PLATAFORMA DONDE BAJAN LOS TARROS Y LOS COLOCAN EN UNA ESPEC..L DE CORRE
 SIN FIN PERO DE FIERRO QUE LOS VA MOVIENDO Y LOS LLEVA DENTRO DE L
@@ -626,38 +646,44 @@ Sigue Pag 12 11
 ```
 
 ## Images, Captions, And Visual Notes
-- There are no images on this page.
-- A handwritten note in red ink at the bottom left reads: `Sigue Pag 12`.
-- The typed page number `11` is at the bottom right.
+The page is a typed document on aged, yellowish paper. The type is from a mechanical typewriter and shows some inconsistencies in ink darkness. There is a handwritten note, `Sigue Pag 12`, at the bottom left in red ink. The page number `11` at the bottom right is typed, possibly with a red typewriter ribbon. There is some faint text visible in the background, likely bleed-through from the reverse side of the page, but it does not interfere with the legibility of the primary text.
 
 ## Uncertain Or Illegible
-- `LOSHPTOS`: This appears to be a typo for `LOS HOYOS`.
-- `CUADRUILKA`: This appears to be a typo for `CUADRILLA`.
-- `PROSEDERI AN`: This appears to be a typo for `PROCEDERIAN`.
-- `ESPECIALISAD`: This appears to be a typo for `ESPECIALIZADOS`.
-- `COLOCARION`: This appears to be a typo for `COLOCARIAN`.
-- `LOAS`: This appears to be a typo for `LOS`.
-- `ELECRISAD`: This appears to be a typo for `ELECTRICIDAD`.
-- `CANPOS`: This appears to be a typo for `CAMPOS`.
-- `AGIULTORES`: This appears to be a typo for `AGRICULTORES`.
-- `OPTUVO`: This appears to be a typo for `OBTUVO`.
-- `ROTALMENTE`: This appears to be a typo for `TOTALMENTE`.
-- `FABRIC@`: The last character is an `@` symbol, likely used in place of an `a`.
-- `NESTRE`: This appears to be a typo for `NESTLE`.
-- `CHOPRODAL`: This appears to be a typo for `CHIPRODAL`.
-- `CAMIOS NES`: This appears to be a typo for `CAMIONES`.
-- `LEGHE`: This appears to be a typo for `LECHE`.
-- `ESPEC..L`: This appears to be a typo for `ESPECIAL`, with the letters `IA` missing or very faint.
-- `CORRE`: The word is cut off by the right margin; it is likely `CORREA`.
+There are no illegible words on this page. The transcription includes numerous apparent typographical errors present in the original source, which have been transcribed literally. These include:
+- `CONYINUACIO N` for `CONTINUACION`
+- `LOSHPTOS` for `LOS HOYOS`
+- `CUADRUILKA` for `CUADRILLA`
+- `ENPRESA` for `EMPRESA`
+- `LLEBO´` for `LLEVÓ`
+- `PROSEDERI AN` for `PROCEDERIAN`
+- `DEND` for `DENTRO`
+- `ESPECIALISAD` for `ESPECIALIZADOS`
+- `COLOCARION LOAS` for `COLOCARIAN LOS`
+- `ELECTRISIDAD` for `ELECTRICIDAD` (appears multiple times)
+- `ELECRISAD` for `ELECTRICIDAD`
+- `CANPOS` for `CAMPOS`
+- `AGUICULTORES` for `AGRICULTORES`
+- `REALISAR` for `REALIZAR`
+- `OPTUVO` for `OBTUVO`
+- `ROTALMENTE` for `TOTALMENTE`
+- `QUISAS` for `QUIZAS`
+- `ENTRGA` for `ENTREGA`
+- `FABRIC@` where `@` is used for `A`
+- `NESTRE` for `NESTLE`
+- `CHOPRODAL` for `CHIPRODAL`
+- `LEGHE` for `LECHE`
+- `ESPEC..L` for `ESPECIAL`
+- `CORRE` for `CORREA`
+- `TUVERIAS` for `TUBERIAS`
 
 ## Completeness Audit
-This page is complete and fully transcribed.
+The entire page, including the header, main text, and handwritten notes, has been transcribed. The page is complete.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only typewritten text and minor handwritten notes, with no significant images, illustrations, or diagrams to warrant creating visual regions."
+  "no_visual_regions_reason": "The page contains only typed and handwritten text. There are no photographs, illustrations, maps, or other significant visual elements that would warrant cropping as standalone assets."
 }
 ```
 
@@ -835,19 +861,37 @@ This page has been transcribed in its entirety. All text, including the glued-on
 ```
 
 ## Page Metadata
-- Page number: 14
+
+- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0014`
+- Model route: `pro`
+- Route reasons: simple_page, prior_max_tokens
+- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/work-orders/page-0014.md`
+- Page: 14
+- Output Markdown target: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0014.md`
+- External research relevance: ``
+- External requested treatment: ``
+- External relevance reasons: none
+- Recommended action: `gemini_fallback`
+- Quality flags: none
+- Technical reread clues: none
 
 ## Layout And Reading Order
+
 The page is a single column of typewritten text. The reading order is as follows:
-1.  A header at the top of the page with the publication name, date range, and another name.
-2.  A horizontal line.
-3.  The main body of text, which is an article titled "EL FUNDO LOS CUARTOS".
-4.  A horizontal line.
-5.  A footer section with publication and contact information.
-6.  Handwritten text in red ink is overlaid on the bottom portion of the page, including a large "EL AGUILA", the page number "14", and a signature "DR. DARIO PULGARA".
+1. A header at the top of the page with the publication name, "EL AGUILA", and date range, "ENERO - FEBRERO".
+2. A section title, "ESCRIBE EL DIRECTOR".
+3. A main article title, "EL FUNDO LOS CUARTOS".
+4. The body of the article, a single block of text.
+5. A horizontal rule separating the article from the footer.
+6. A footer section with publication information and a call to action.
+7. A handwritten signature, "JR. DARIO PULGARA".
+8. Large handwritten text, "EL AGUILA", and the page number, "14", at the bottom of the page.
 
 ## Literal Transcription
-```markdown
+
+```text
 NUMERO GIGANTE ENERO - FEBRERO EL AGUILA
 ***
 ESCRIBE EL DIRECTOR
@@ -858,9 +902,9 @@ DISTINGUIDO FACULTATIVO DE CONCEPCION QUIEN HEREDO´ DE SUS PADRES ESTE
 FUNDO ALLA POR EL AÑO 1917 SE CONPONIA SOLAMENTE DE 300 HECTAREAS QUE
 SIRVIERON PARA AGRANDAR SU FUNDO AL COMPRAR 300 MAS Y JUNTAS FORMARON LA
 SUPERFICIE ACTUAL DE 600 HECTAREAS.
-ESTA UBICADO EN LA PROVINCIA DE BIO-BIO A 22 KILOMETROS DE LA CUIDAD
+ESTA´ UBICADO EN LA PROVINCIA DE BIO-BIO A 22 KILOMETROS DE LA CUIDAD
 DE LOS ANGELES, EN EL CAMINO DE SAN CARLOS DE PUREN A SANTA BARBARA;
-DESLINDA AL SUR CON EL RIO BIO-BIO AL NOTE CON EL RIO DUQULCO OESTE
+DESLINDA AL SUR CON EL RIO BIO-BIO AL NOTE CON EL RIO DUQUILCO OESTE
 CON EL FUNDO " NATALIA " Y AL ESTE CON LOS"FUNDOS"SANTA INES"Y " LAS
 GARZAS " EXSISTEN PLANTACIONES DE PINOS QUE ACTUALMENTE SE EXPLOTAN ./
 DESDE EL AÑO 1938 SE RIEGA PARTE CON LAS AGUAS DEL CANAL BIO BIO
@@ -870,9 +914,9 @@ ROBLES QUE LE DA UN HERMOSO ASPECTO .
 DESDE 1952 EXISTE UNA CONFORTABLE CASA PATRONAL Y BUENAS CASA PARA
 EL MAYORDOMO E INQUILINOS; UN ESTABLO PARA 50 VACAS ENTERAMENTE DE
 CONCRETO. EN FUNDO TANBIEN CONSTA CON BODEGAS Y GADPONES TANBIEN DE CO
-NCRETO .. /
-DENTRO DE POCO EL FUNDO CONSTARA CON LUS ELECTRICA DEL ABANICO EL
-PORVENIR DE ESTE FUNDO SON LOS PINOS Y LA LECHERIA.-
+NCRETO ../
+DENTRO DE POCO EL FUNDO CONSTARA´ CON LUS ELECTRICA DEL ABANICO EL
+PORVENIR DE ESTE FUNDO SON LOS PINOS Y LA LECHERIA .-
 ***
 EL PERIODICO DE LA E NPRESA EDITORA
 EL AGUILA
@@ -882,28 +926,37 @@ HAGASE LECTOR
 ESCRIBA A NUESTRA ENPRESA O
 PONGASE EN CONTACTO CON NUESTRO AGENTE PARA TODO
 CHILE
-
-[handwritten in red ink] 
-EL AGUILA
-14
-DR. DARIO PULGARA
-[/handwritten]
+[handwritten signature] JR. DARIO PULGARA [/handwritten signature]
+[handwritten] EL AGUILA [/handwritten]
+[handwritten] 14 [/handwritten]
 ```
 
 ## Images, Captions, And Visual Notes
-The page is entirely text. In the lower portion of the page, there is large handwriting in red ink. It reads "EL AGUILA", followed by the number "14" below it. At the very bottom of the page, also in red ink, is what appears to be a signature: "DR. DARIO PULGARA".
+
+There are no images on this page suitable for cropping.
+
+The bottom of the page contains a handwritten signature in red ink: "JR. DARIO PULGARA". Below this, also in red ink, is the large handwritten text "EL AGUILA" and the number "14".
+
+Several small handwritten marks appear within the typed text:
+- An accent mark on `HEREDO´`.
+- A slash after the period in `EXPLOTAN ./`.
+- A slash after `NORTE /`.
+- Two dots and a slash after `NCRETO ../`.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
+
+There are no uncertain or illegible portions of text on this page.
 
 ## Completeness Audit
+
 This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text and simple decorative lines. The handwritten elements are transcribed and do not warrant individual cropping as standalone visual assets."
+  "no_visual_regions_reason": "The page contains only typewritten text with some minor handwritten annotations and a signature. These elements are fully captured by the transcription and do not warrant individual cropping as standalone visual assets."
 }
 ```
 
@@ -963,14 +1016,16 @@ The transcription is complete and accurate, capturing all text and the handwritt
 ```
 
 ## Page Metadata
-- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+- Source: `El Aguila Nombre Grande Scan.pdf`
 - Page: 16
-- Page type: `title-page`
+- Page type: `Title Page`
 
 ## Layout And Reading Order
-The page contains a hand-drawn illustration at the top, followed by handwritten text in two different colors and styles. The text is arranged vertically down the page.
+The page contains a hand-drawn illustration at the top, followed by handwritten text in the center and bottom of the page. The text appears to be a title and a date.
 
 ## Literal Transcription
+[Hand-drawn illustration of an eagle-like figure with a circle and "AD" inside its body]
+
 SuPLEMENTO
 Fotografico
 EL AGUILA
@@ -978,20 +1033,36 @@ EL AGUILA
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: A hand-drawn illustration in red ink depicts a stylized bird, possibly an eagle, with a large "D" and "AD" within its body.](../extracted-images/page-0016/page-0016-image-01-stylized-eagle-illustration.png)
-  - Kind: illustration; label basis: converter-description; bbox_pct: [19.8, 13.0, 44.0, 50.0]
+- ![converter-description: Hand-drawn illustration of an eagle-like figure with a circle and "AD" inside its body.](../extracted-images/page-0016/page-0016-image-01-hand-drawn-eagle-figure-with-ad-1956.png)
+  - Kind: illustration; label basis: converter-description; bbox_pct: [10.0, 23.0, 43.0, 76.0]
+  - Source context: The illustration is at the top of the page, above the handwritten text.
 
-- A hand-drawn illustration in red ink depicts a stylized bird, possibly an eagle, with a large "D" and "AD" within its body.
+- An illustration of an eagle-like figure, drawn in red, is present at the top of the page. Inside its body, there is a large circle and the letters "AD" are visible.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-The transcription is complete and captures all visible text and the primary visual element on the page.
+The transcription is complete and captures all visible text and the significant illustration on the page.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [{"region_id": "vr0", "kind": "illustration", "bbox_pct": [19.8, 13.0, 44.0, 50.0], "caption_literal": "A hand-drawn illustration in red ink depicts a stylized bird, possibly an eagle, with a large \"D\" and \"AD\" within its body.", "caption_type": "converter-description", "identity_basis": null, "source_context": null, "confidence": 1.0, "suggested_filename": "stylized_eagle_illustration.png", "inline_anchor": "A hand-drawn illustration in red ink depicts a stylized bird, possibly an eagle, with a large \"D\" and \"AD\" within its body."}]}
+{
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "illustration",
+      "bbox_pct": [10.0, 23.0, 43.0, 76.0],
+      "caption_literal": "Hand-drawn illustration of an eagle-like figure with a circle and \"AD\" inside its body.",
+      "caption_type": "converter-description",
+      "identity_basis": null,
+      "source_context": "The illustration is at the top of the page, above the handwritten text.",
+      "confidence": 1.0,
+      "suggested_filename": "hand-drawn_eagle_figure_with_ad_1956.png",
+      "inline_anchor": "An illustration of an eagle-like figure, drawn in red, is present at the top of the page. Inside its body, there is a large circle and the letters \"AD\" are visible."
+    }
+  ]
+}
 ```
 
 ## Page Metadata

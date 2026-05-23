@@ -1,7 +1,7 @@
 {
   "created": "2026-05-23",
   "converted_file": "raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md",
-  "converted_sha256": "4e6792002f02ab8005f62982918ee6da0410fa5858f167f9393b4229d6e9834d",
+  "converted_sha256": "56159bc5510fc89fbf72fc769165c6dbdab2889393021f78db392606f1d1ec1c",
   "source": "raw/sources/Habitat Revisited, Jim Carney, 2006.pdf",
   "source_sha256": "fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9",
   "source_manifest": "raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json",
@@ -12,114 +12,114 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-4e6792002f02-P0001-01",
+      "chunk_id": "CHUNK-56159bc5510f-P0001-01",
       "chunk_number": 1,
       "path": "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-page-7cd35b519c/page-0001-chunk-01.md",
       "page_start": 1,
       "page_end": 1,
       "part": 1,
       "chars": 3716,
-      "sha256": "41819b761630870a587af04fefbede48c993c7f3fe9dcb1997c38d5b68f06373"
+      "sha256": "cd00d15d05237ea99ef33b17bbf9eb0e1c56d5e1e211d288248e5383e1012b5c"
     },
     {
-      "chunk_id": "CHUNK-4e6792002f02-P0002-01",
+      "chunk_id": "CHUNK-56159bc5510f-P0002-01",
       "chunk_number": 2,
       "path": "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-page-7cd35b519c/page-0002-chunk-01.md",
       "page_start": 2,
       "page_end": 2,
       "part": 1,
       "chars": 3840,
-      "sha256": "e91a3912d155166d2811a9f74197aa58d87c78bb835dcc9abd44e706903946c1"
+      "sha256": "b15589783ff154595b098ea871e266cb6866b3915fbc97071650654e774d2dbe"
     },
     {
-      "chunk_id": "CHUNK-4e6792002f02-P0003-01",
+      "chunk_id": "CHUNK-56159bc5510f-P0003-01",
       "chunk_number": 3,
       "path": "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-page-7cd35b519c/page-0003-chunk-01.md",
       "page_start": 3,
       "page_end": 3,
       "part": 1,
       "chars": 3552,
-      "sha256": "42015e6b1a59fc71b5dddf5ba54c10770ea9284d62e56c8d86c049fca3c7a72f"
+      "sha256": "571d61eb225d1ed6b1bbf16bf50ec28cdb733661b875a80ddf19a6a268cfaf65"
     },
     {
-      "chunk_id": "CHUNK-4e6792002f02-P0004-01",
+      "chunk_id": "CHUNK-56159bc5510f-P0004-01",
       "chunk_number": 4,
       "path": "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-page-7cd35b519c/page-0004-chunk-01.md",
       "page_start": 4,
       "page_end": 4,
       "part": 1,
       "chars": 3687,
-      "sha256": "5c87687b4796e010fd30556b874df7fb0bca6864987483790c9d0ed9d6898700"
+      "sha256": "480968a78524e764e02688351aef4af3e238715e5519eedc2c8ad9dde2d69600"
     },
     {
-      "chunk_id": "CHUNK-4e6792002f02-P0005-01",
+      "chunk_id": "CHUNK-56159bc5510f-P0005-01",
       "chunk_number": 5,
       "path": "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-page-7cd35b519c/page-0005-chunk-01.md",
       "page_start": 5,
       "page_end": 5,
       "part": 1,
       "chars": 3947,
-      "sha256": "d1679b7239dcb6bed43f61d707a172bd90fcf29232503d3e00580f6dedb1b05e"
+      "sha256": "5ebca0869ef0c626324608d0607e1f1b9a1de7787aad49c9998c8511265b3252"
     },
     {
-      "chunk_id": "CHUNK-4e6792002f02-P0006-01",
+      "chunk_id": "CHUNK-56159bc5510f-P0006-01",
       "chunk_number": 6,
       "path": "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-page-7cd35b519c/page-0006-chunk-01.md",
       "page_start": 6,
       "page_end": 6,
       "part": 1,
       "chars": 3783,
-      "sha256": "11c0be467e98a7ff9fc69629ae4b7bfba7ff0f2d4bda26dbddcdd51229d0c3cd"
+      "sha256": "fd1e169bf42dd0c56028d6fe3867677197b7646f65e830bbae5e2c6a5ffd11cb"
     },
     {
-      "chunk_id": "CHUNK-4e6792002f02-P0007-01",
+      "chunk_id": "CHUNK-56159bc5510f-P0007-01",
       "chunk_number": 7,
       "path": "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-page-7cd35b519c/page-0007-chunk-01.md",
       "page_start": 7,
       "page_end": 7,
       "part": 1,
       "chars": 4228,
-      "sha256": "9a248a32b2498d65d4639ec17cfdde3340e11dacd64ab6186339bdf552990c2d"
+      "sha256": "562a21216623ba7ea659925429acb09d7f2cc24cee5bcc508f868adc7390c51c"
     },
     {
-      "chunk_id": "CHUNK-4e6792002f02-P0008-01",
+      "chunk_id": "CHUNK-56159bc5510f-P0008-01",
       "chunk_number": 8,
       "path": "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-page-7cd35b519c/page-0008-chunk-01.md",
       "page_start": 8,
       "page_end": 8,
       "part": 1,
-      "chars": 4272,
-      "sha256": "9e9cc990df5d0601d3630ade89f203ffc65e83db697490355116565a9bc3cb4a"
+      "chars": 4075,
+      "sha256": "bfcef2020fae58d988670b11a351394ac56d5ed2f4a1ce2ab234c6ff32022eda"
     },
     {
-      "chunk_id": "CHUNK-4e6792002f02-P0009-01",
+      "chunk_id": "CHUNK-56159bc5510f-P0009-01",
       "chunk_number": 9,
       "path": "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-page-7cd35b519c/page-0009-chunk-01.md",
       "page_start": 9,
       "page_end": 9,
       "part": 1,
       "chars": 3778,
-      "sha256": "4c15557a03bb75e76de1ba167795b83ff8b61eae23594e0eb66b764ef27d8083"
+      "sha256": "70b8a01a5734ce8f97c0da7e34f19639109aeff86a1bb41ca71bf03e4e178d97"
     },
     {
-      "chunk_id": "CHUNK-4e6792002f02-P0010-01",
+      "chunk_id": "CHUNK-56159bc5510f-P0010-01",
       "chunk_number": 10,
       "path": "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-page-7cd35b519c/page-0010-chunk-01.md",
       "page_start": 10,
       "page_end": 10,
       "part": 1,
-      "chars": 3764,
-      "sha256": "b20f4cddbed2fa133770fcddad9f5a5ded75388dc790bd0834da57c561483820"
+      "chars": 3923,
+      "sha256": "8347b1e737fbb2041a1e41fc63ca8ea6e8b80ab44d2f81293faf2ead0ab5b10e"
     },
     {
-      "chunk_id": "CHUNK-4e6792002f02-P0011-01",
+      "chunk_id": "CHUNK-56159bc5510f-P0011-01",
       "chunk_number": 11,
       "path": "raw/chunks/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-page-7cd35b519c/page-0011-chunk-01.md",
       "page_start": 11,
       "page_end": 11,
       "part": 1,
       "chars": 980,
-      "sha256": "28ee03905cdc0f018a38da8ae50fd835d3aa4a3601d51438cee70260facb0ee7"
+      "sha256": "5d49c9b314a16c38bac7e99dfcaaf08f03d2cd781de60b727e897bb2285930ff"
     }
   ]
 }
