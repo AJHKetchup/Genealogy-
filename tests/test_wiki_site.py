@@ -174,6 +174,8 @@ The page records the birth of a Pulgar child in a handwritten civil register.
     assert "Post-Conversion Dashboard" not in timeline_blob
     assert "Registro de Nacimientos" not in timeline_blob
     assert "Alexander John Heinz Family History" in index_html
+    assert "Source-Backed Story" in index_html
+    assert "Research Backroom" not in index_html
     assert "Agent Queues" not in index_html
     assert "Internal Research Operations" in research_html
     assert "Agent Queues" in research_html

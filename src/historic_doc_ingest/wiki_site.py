@@ -1543,7 +1543,7 @@ def render_home_page(pages: list[SitePage], data: dict[str, object]) -> str:
       <a class="tool-link" href="people.html"><span>Profiles</span><strong>People</strong><small>Individual pages, relationship positions, facts, and stories.</small></a>
       <a class="tool-link" href="timeline.html"><span>Life Events</span><strong>Family Timeline</strong><small>Births, marriages, residences, migrations, deaths, and story events.</small></a>
       <a class="tool-link" href="sources.html"><span>Citations</span><strong>Source Library</strong><small>Records and citations that support the family pages.</small></a>
-      <a class="tool-link research-tool" href="research.html"><span>Backroom</span><strong>Research Dashboard</strong><small>QA, staging, proof review, queues, and automation state.</small></a>
+      <a class="tool-link" href="people.html"><span>Chapters</span><strong>LifeStory Index</strong><small>Narrative chapters, family lines, and profile paths as they become ready.</small></a>
     </section>
     <section class="family-grid">
       <article>
@@ -1566,9 +1566,9 @@ def render_home_page(pages: list[SitePage], data: dict[str, object]) -> str:
         <div class="panel-head"><h2>Family Timeline</h2><a href="timeline.html">Timeline</a></div>
         {timeline}
       </article>
-      <article class="research-summary">
-        <div class="panel-head"><h2>Research Backroom</h2><a href="research.html">Dashboard</a></div>
-        <p>{canonical_count} canonical wiki pages are available now. {source_count} supporting record pages are kept as citations and source-library material, not as the narrative itself.</p>
+      <article class="evidence-summary">
+        <div class="panel-head"><h2>Source-Backed Story</h2><a href="sources.html">Sources</a></div>
+        <p>{canonical_count} family-facing wiki pages are available now. {source_count} supporting record pages sit behind the story as citations, context, and proof rather than replacing the narrative.</p>
       </article>
     </section>
     """
