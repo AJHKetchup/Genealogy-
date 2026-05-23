@@ -4,7 +4,7 @@ status: draft
 claim_type: identity
 subject: "entry 513 child identity unresolved"
 predicate: registered_name_and_sex
-object: "converted transcript says Isolina del Carmen Jose; image review favors a Pulgar/Amagada-style child-name field; sex recorded as Masculino"
+object: "converted transcript says Isolina del Carmen Jose; visible image instead appears to show a Pulgar/Amagada-style child-name field ending with a Jose line; sex recorded as Masculino"
 source: raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png
 source_packet: research/_staging/source-packets/SP-STAGE-CHUNK-bdb698de8106-P0001-01-los-angeles-birth-register-1889-page-172.md
 converted_file: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md
@@ -19,13 +19,22 @@ promotion_recommendation: hold_for_conversion_qa
 
 ## Literal Support
 
+Converted/chunk transcript:
+
 ```text
 513 ... Nombre. Isolina del Carmen José ... Sexo. Masculino
 ```
 
+Image-reviewed conflict indicator:
+
+```text
+Nombre. [Pulgar Ama... / ... Dami... / José]
+Sexo. Masculino
+```
+
 ## Conversion Confidence / QA Concern
 
-Low for the converted name. Targeted image review appears closer to a child-name field beginning `Pulgar Ama...` and a given-name line beginning `Jose ...`; `Sexo. Masculino` remains supported. This materially conflicts with the converted `Isolina del Carmen José`.
+Low for the converted name. Targeted image review appears closer to a child-name field beginning `Pulgar Ama...` and ending with a `José` line; `Sexo. Masculino` remains supported. This materially conflicts with the converted `Isolina del Carmen José`.
 
 ## Uncertainty
 

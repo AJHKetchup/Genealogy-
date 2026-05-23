@@ -1,9 +1,9 @@
 ﻿{
-    "created":  "2026-05-22",
+    "created":  "2026-05-23",
     "queue":  "identity-analysis",
-    "task_count":  123,
+    "task_count":  124,
     "status_counts":  {
-                          "todo":  120,
+                          "todo":  121,
                           "done":  3
                       },
     "tasks":  [
@@ -842,6 +842,16 @@
                       "staged_draft":  "research/_staging/conflicts/chunk-c8f91e3920e7-p0046-01-conversion-and-scope-watch.md",
                       "role":  "identity_researcher",
                       "task_id":  "identity-analysis:research/_staging/conflicts/chunk-c8f91e3920e7-p0046-01-conversion-and-scope-watch.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-ec55a7880425-p0001-01-image-identity-and-source-availability-qa-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-ec55a7880425-p0001-01-image-identity-and-source-availability-qa.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-ec55a7880425-p0001-01-image-identity-and-source-availability-qa.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   },

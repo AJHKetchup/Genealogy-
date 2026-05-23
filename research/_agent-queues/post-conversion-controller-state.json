@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-05-22T23:22:10Z",
+    "updated":  "2026-05-23T00:03:12Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "max_workers":  1,
     "allow_promotion":  true,
@@ -7,7 +7,7 @@
 
                        ],
     "last_summary":  {
-                         "started":  "2026-05-22T23:16:17Z",
+                         "started":  "2026-05-23T00:01:40Z",
                          "root":  "D:\\a\\Genealogy-\\Genealogy-",
                          "dry_run":  false,
                          "allow_promotion":  true,
@@ -26,19 +26,19 @@
                                                               "todo":  200
                                                           },
                                         "evidence-extraction":  {
-                                                                    "done":  26,
-                                                                    "todo":  1901,
+                                                                    "done":  27,
+                                                                    "todo":  1900,
                                                                     "deferred_low_relevance":  2762,
                                                                     "blocked_needs_reread":  146
                                                                 },
                                         "identity-analysis":  {
-                                                                  "todo":  120,
+                                                                  "todo":  121,
                                                                   "done":  3
                                                               },
                                         "proof-review":  {
-                                                             "done":  148,
-                                                             "released":  34,
-                                                             "todo":  437
+                                                             "done":  150,
+                                                             "released":  32,
+                                                             "todo":  442
                                                          },
                                         "wiki-promotion":  {
                                                                "blocked_no_reviewed_ready":  1
@@ -47,24 +47,11 @@
                          "active_workers_before":  0,
                          "active_workers_after":  0,
                          "launched":  [
-                                          {
-                                              "worker":  "postconv-wiki-promotion-20260522231818171",
-                                              "pid":  9724,
-                                              "task_ids":  [
-                                                               "wiki-promotion:reviewed-ready:abc69d563d0f"
-                                                           ],
-                                              "queue":  "wiki-promotion",
-                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-wiki-promotion-20260522231818171.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522231818171.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522231818171.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260522231818171.last.md",
-                                              "started":  "2026-05-22T23:18:18Z"
-                                          }
+
                                       ],
                          "blockers":  [
 
                                       ],
-                         "finished":  "2026-05-22T23:22:10Z"
+                         "finished":  "2026-05-23T00:03:12Z"
                      }
 }

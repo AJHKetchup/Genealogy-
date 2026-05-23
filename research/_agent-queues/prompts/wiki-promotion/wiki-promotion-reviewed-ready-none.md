@@ -21,6 +21,7 @@ $Root = "D:\a\Genealogy-\Genealogy-"
 - Promote only staged material with explicit review notes showing strong source support, conservative scores, and promotion-ready canonical_readiness, such as ready, ready_with_caveats, ready_for_canonical_claim, ready_with_scope_note, ready_after_review, or ready_for_scoped_promotion.
 - Preserve probability, source quality, conflicts, and uncertainty in canonical pages; promotion is an operational state, not a truth binary.
 - Preserve the distinction between literal transcription and interpretation. Do not convert a suspected reading into canonical fact unless the review says the visible source supports it.
+- Do not create family-facing person pages from source-role descriptions such as "adult passenger", "age 64", "entry 172", "declarant", or similar record labels. Attach reviewed evidence to an existing resolved person when the review supports identity; otherwise keep it staged or create an identity-review task rather than a new presentation profile.
 - Living-family privacy is not a standalone hold for this internal family project; user approval was recorded in research/_automation/post-conversion-architecture.json. Still require reviewed evidence, source support, and conservative confidence/status labels.
 - Do not promote drafts with missing converted/chunk evidence, open conversion QA holds, unresolved identity conflicts, low claim probability, or canonical_readiness below ready.
 - Run a dry run first and inspect skipped items before any real promotion.

@@ -4,7 +4,7 @@ status: draft
 claim_type: birth
 subject: "entry 513 child identity unresolved"
 predicate: born
-object: "converted transcript says 1889-07-22 at 4:00 a.m.; Calle Colon; image-reviewed birth date/time is disputed"
+object: "converted transcript says 1889-07-22 at 4:00 a.m.; Calle Colon; image review appears closer to Junio veinte i dos and four-thirty in the afternoon; date/time remain disputed"
 source: raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png
 source_packet: research/_staging/source-packets/SP-STAGE-CHUNK-bdb698de8106-P0001-01-los-angeles-birth-register-1889-page-172.md
 converted_file: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md
@@ -19,14 +19,23 @@ promotion_recommendation: hold_for_conversion_qa
 
 ## Literal Support
 
+Converted/chunk transcript:
+
 ```text
 Fecha. El mismo veinte dos de mil ochocientos ochenta i nueve, a las cuatro de la mañana.
 Lugar. Calle Colon
 ```
 
+Image-reviewed conflict indicator:
+
+```text
+Fecha. Junio veinte i dos de mil ochocientos ochenta i nueve, a las cuatro i media de la tarde [reading uncertain]
+Lugar. Calle Colon
+```
+
 ## Conversion Confidence / QA Concern
 
-Low for promotion. The assigned converted/chunk transcript gives the literal support above, but proof-review revision notes and image review conflict on the child identity, birth date, and birth time. Retain `Calle Colon` only as a converted-transcript reading until targeted conversion QA confirms the row.
+Low for promotion. The assigned converted/chunk transcript gives the first literal support above, but proof-review revision notes and direct image review conflict on the child identity, birth date, and birth time. `Calle Colon` appears supported in the row, but should remain a row-level note until targeted conversion QA confirms the subject.
 
 ## Uncertainty
 
