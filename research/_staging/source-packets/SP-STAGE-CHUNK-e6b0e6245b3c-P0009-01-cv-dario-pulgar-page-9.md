@@ -2,7 +2,7 @@
 type: source_packet
 status: draft
 task_id: evidence-extraction:CHUNK-e6b0e6245b3c-P0009-01
-worker: postconv-evidence-extraction-20260523190510524
+worker: postconv-evidence-extraction-20260523200319802
 source_title: CV of Dario Arturo Pulgar
 source_type: curriculum_vitae
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
@@ -18,7 +18,7 @@ page_start: 9
 page_end: 9
 source_identity: Dario Arturo Pulgar, from source title/file identity rather than page-body text
 conversion_confidence: medium-high transcription confidence; page metadata says complete typed text transcription, and this revision found the rendered page image at raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0009.jpg
-conversion_qa_concern: Stale missing-page-image QA note reconciled in this revision; image-reviewed evidence confirms the same education and language entries, with only layout normalization differences in the derivative transcript. Keep held until proof review accepts the QA correction and identity bridge.
+conversion_qa_concern: Stale missing-page-image QA note reconciled in this revision but preserved as a prior derivative disagreement; page image was directly reviewed at raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0009.jpg and confirms the same education and language entries, with only layout normalization differences in the derivative transcript. Keep held until proof review accepts the QA correction and identity bridge.
 identity_bridge_concern: Page 9 does not repeat the CV subject name and does not state Pulgar-Smith, Smith, family relationships, or a bridge to a canonical person.
 proof_review_revision: research/_staging/reviews/proof-review-research-staging-identity-analysis-identity-analysis-conf-stage-chunk-e6b0e6245b3c-p0009-01-page-image-qa-postconv-proof-review-20260523185352116.md
 uncertainty: Moderate for attaching page-9 education and language entries to a canonical person because the page body does not repeat the CV subject name; low for the literal entries after image review.
@@ -61,4 +61,4 @@ This source packet supports only staged CV-reported education and language evide
 
 ## QA Notes
 
-The converted chunk reports no uncertain or illegible text and says the page is complete. The prior proof-review hold said the rendered page image was missing; this revision found `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0009.jpg` and compared it visually against the derivative transcript. The visible page image supports the same education entries and language lists, while the derivative transcript normalizes the page's tabular spacing and colon alignment into prose lines. Keep canonical promotion on hold until proof review accepts this QA reconciliation and a separate identity-bridge review decides whether document-level `Dario Arturo Pulgar` can be attached to a canonical person.
+The converted chunk reports no uncertain or illegible text and says the page is complete. The prior proof-review hold said the rendered page image was missing; this revision found `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0009.jpg` and compared it visually against the derivative transcript. The visible page image supports the same education entries and language lists. The remaining transcript/image difference is layout normalization: the image uses tabular spacing and separated colon columns for year ranges and language labels, while the derivative transcript expresses them as inline prose lines. Keep canonical promotion on hold until proof review accepts this QA reconciliation and a separate identity-bridge review decides whether document-level `Dario Arturo Pulgar` can be attached to a canonical person.

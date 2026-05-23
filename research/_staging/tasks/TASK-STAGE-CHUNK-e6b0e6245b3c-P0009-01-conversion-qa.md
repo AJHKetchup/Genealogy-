@@ -2,7 +2,7 @@
 type: research_task
 status: draft
 task_id: evidence-extraction:CHUNK-e6b0e6245b3c-P0009-01
-worker: postconv-evidence-extraction-20260523190510524
+worker: postconv-evidence-extraction-20260523195847521
 task_type: conversion_qa
 subject: Dario Arturo Pulgar
 source_packet: research/_staging/source-packets/SP-STAGE-CHUNK-e6b0e6245b3c-P0009-01-cv-dario-pulgar-page-9.md

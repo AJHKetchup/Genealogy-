@@ -5,24 +5,26 @@ Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\sourc
 Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
 source-relevance sync-review-holds | summary
 {
-  "review_count": 349,
-  "candidate_count": 77,
-  "changed_count": 1,
+  "review_count": 375,
+  "candidate_count": 93,
+  "changed_count": 0,
   "feedback_path": "research/_agent-queues/source-relevance-feedback.json"
 }
 source-relevance restore-review-assets | summary
 {
-  "target_count": 10,
-  "restored_raw": 0,
+  "target_count": 11,
+  "restored_raw": 1,
   "skipped_raw": 0,
-  "restored_page_images": 0,
-  "released_tasks": [],
+  "restored_page_images": 1,
+  "released_tasks": [
+    "proof-review:research/_staging/identity-analysis/identity-analysis-chunk-8daffb98e793-p0005-01-enrique-gonzalez-pastor-identity-candidate.md"
+  ],
   "errors": [],
   "blockers": []
 }
 post-conversion-controller | summary
 {
-    "started":  "2026-05-23T18:39:22Z",
+    "started":  "2026-05-23T20:08:00Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "dry_run":  false,
     "allow_promotion":  true,
@@ -41,18 +43,18 @@ post-conversion-controller | summary
                                          "todo":  200
                                      },
                    "evidence-extraction":  {
-                                               "done":  41,
-                                               "todo":  118,
-                                               "deferred_low_relevance":  4651,
-                                               "blocked_needs_reread":  28
+                                               "done":  38,
+                                               "todo":  123,
+                                               "deferred_low_relevance":  4654,
+                                               "blocked_needs_reread":  29
                                            },
                    "identity-analysis":  {
-                                             "done":  138
+                                             "done":  141
                                          },
                    "proof-review":  {
-                                        "done":  204,
-                                        "todo":  702,
-                                        "released":  33
+                                        "done":  207,
+                                        "todo":  724,
+                                        "released":  37
                                     },
                    "wiki-promotion":  {
                                           "blocked_no_reviewed_ready":  1
@@ -66,5 +68,5 @@ post-conversion-controller | summary
     "blockers":  [
 
                  ],
-    "finished":  "2026-05-23T18:40:25Z"
+    "finished":  "2026-05-23T20:09:26Z"
 }

@@ -3,7 +3,7 @@ type: identity_conflict_analysis
 role: evidence_extractor
 status: draft
 task_id: evidence-extraction:CHUNK-e6b0e6245b3c-P0009-01
-worker: postconv-evidence-extraction-20260523190510524
+worker: postconv-evidence-extraction-20260523200319802
 source_path: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_packet: research/_staging/source-packets/SP-STAGE-CHUNK-e6b0e6245b3c-P0009-01-cv-dario-pulgar-page-9.md
 converted_file: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
