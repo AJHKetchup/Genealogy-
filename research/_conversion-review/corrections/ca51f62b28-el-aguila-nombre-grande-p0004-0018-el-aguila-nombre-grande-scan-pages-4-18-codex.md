@@ -6,6 +6,11 @@
 
 ## Suspected Readings
 
+- Literal converted text: `ARRIGADA`
+  Suspected reading: `Arriagada`
+  Reason: near match to known family context term `Arriagada`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `PULGA`
   Suspected reading: `Pulgar`
   Reason: near match to known family context term `Pulgar`

@@ -8,11 +8,11 @@
 
 ### Page 4
 
-- Recommended action: `spot-check`
-- Conversion confidence: `medium`
-- Family relevance: `medium`
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `high`
 - Quality flags: explicit_reread_needed
-- Matched family context: Arriagada
+- Matched family context: none
 
 ### Page 13
 

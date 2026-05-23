@@ -3,8 +3,8 @@
     "queue":  "identity-analysis",
     "task_count":  126,
     "status_counts":  {
-                          "done":  61,
-                          "todo":  65
+                          "done":  78,
+                          "todo":  48
                       },
     "tasks":  [
                   {
@@ -790,44 +790,68 @@
                       "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-id-stage-chunk-e3855d490602-p0001-01-victor-manuel-pulgar-arriagada-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-23T07:42:43Z",
+                      "agent":  "postconv-identity-analysis-20260523074019413",
+                      "started_at":  "2026-05-23T07:40:20Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/identity/ID-STAGE-CHUNK-e3855d490602-P0001-01-victor-manuel-pulgar-arriagada.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-id-stage-chunk-e3855d490602-p0001-01-victor-manuel-pulgar-arriagada-md.md",
+                      "completed_at":  "2026-05-23T07:42:43Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-e3855d490602-P0001-01-victor-manuel-pulgar-arriagada.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-23T07:40:19Z",
+                      "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-id-stage-chunk-fb39e3ba566e-p0004-01-dario-pulgar-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-23T07:38:36Z",
+                      "agent":  "postconv-identity-analysis-20260523073552010",
+                      "started_at":  "2026-05-23T07:35:52Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/identity/ID-STAGE-CHUNK-fb39e3ba566e-P0004-01-dario-pulgar.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-id-stage-chunk-fb39e3ba566e-p0004-01-dario-pulgar-md.md",
+                      "completed_at":  "2026-05-23T07:38:36Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-fb39e3ba566e-P0004-01-dario-pulgar.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-23T07:35:52Z",
+                      "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-id-stage-chunk-fb39e3ba566e-p0004-01-virginio-gomes-g-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-23T07:40:35Z",
+                      "agent":  "postconv-identity-analysis-20260523073810194",
+                      "started_at":  "2026-05-23T07:38:10Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/identity/ID-STAGE-CHUNK-fb39e3ba566e-P0004-01-virginio-gomes-g.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-id-stage-chunk-fb39e3ba566e-p0004-01-virginio-gomes-g-md.md",
+                      "completed_at":  "2026-05-23T07:40:35Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-fb39e3ba566e-P0004-01-virginio-gomes-g.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-23T07:38:10Z",
+                      "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-cf-stage-chunk-4127185dc97c-p0172-01-conversion-conflicts-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-23T07:32:28Z",
+                      "agent":  "postconv-identity-analysis-20260523072957430",
+                      "started_at":  "2026-05-23T07:29:57Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/CF-STAGE-CHUNK-4127185dc97c-P0172-01-conversion-conflicts.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-cf-stage-chunk-4127185dc97c-p0172-01-conversion-conflicts-md.md",
+                      "completed_at":  "2026-05-23T07:32:28Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/CF-STAGE-CHUNK-4127185dc97c-P0172-01-conversion-conflicts.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-23T07:29:57Z",
+                      "role":  "identity_researcher"
                   },
                   {
                       "skill":  "genealogy-proof-review",
@@ -846,14 +870,20 @@
                       "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-01af64f0c097-p0011-01-middle-initial-watch-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-23T07:45:00Z",
+                      "agent":  "postconv-identity-analysis-20260523074233748",
+                      "started_at":  "2026-05-23T07:42:34Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/chunk-01af64f0c097-p0011-01-middle-initial-watch.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-01af64f0c097-p0011-01-middle-initial-watch-md.md",
+                      "completed_at":  "2026-05-23T07:45:00Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/chunk-01af64f0c097-p0011-01-middle-initial-watch.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-23T07:42:33Z",
+                      "role":  "identity_researcher"
                   },
                   {
                       "skill":  "genealogy-proof-review",
@@ -1042,34 +1072,52 @@
                       "skill":  "genealogy-proof-review"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-a048d567968b-p0001-01-page-boundary-qa-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-23T07:31:53Z",
+                      "agent":  "postconv-identity-analysis-20260523072958463",
+                      "started_at":  "2026-05-23T07:29:59Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/chunk-a048d567968b-p0001-01-page-boundary-qa.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-a048d567968b-p0001-01-page-boundary-qa-md.md",
+                      "completed_at":  "2026-05-23T07:31:53Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/chunk-a048d567968b-p0001-01-page-boundary-qa.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-23T07:29:58Z",
+                      "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-a048d567968b-p0001-02-page-boundary-and-identity-qa-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-23T07:37:17Z",
+                      "agent":  "postconv-identity-analysis-20260523073341159",
+                      "started_at":  "2026-05-23T07:33:41Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/chunk-a048d567968b-p0001-02-page-boundary-and-identity-qa.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-a048d567968b-p0001-02-page-boundary-and-identity-qa-md.md",
+                      "completed_at":  "2026-05-23T07:37:17Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/chunk-a048d567968b-p0001-02-page-boundary-and-identity-qa.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-23T07:33:41Z",
+                      "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-a048d567968b-p0001-03-page-boundary-and-biographical-qa-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-23T07:36:17Z",
+                      "agent":  "postconv-identity-analysis-20260523073341757",
+                      "started_at":  "2026-05-23T07:33:42Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/chunk-a048d567968b-p0001-03-page-boundary-and-biographical-qa.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-a048d567968b-p0001-03-page-boundary-and-biographical-qa-md.md",
+                      "completed_at":  "2026-05-23T07:36:17Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/chunk-a048d567968b-p0001-03-page-boundary-and-biographical-qa.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-23T07:33:42Z",
+                      "role":  "identity_researcher"
                   },
                   {
                       "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-a048d567968b-p0001-04-no-conflict-candidates-md.md",
@@ -1192,14 +1240,20 @@
                       "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conflict-stage-chunk-1940bcca99c5-p0001-01-no-direct-conflict-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-23T07:47:08Z",
+                      "agent":  "postconv-identity-analysis-20260523074444653",
+                      "started_at":  "2026-05-23T07:44:45Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/CONFLICT-STAGE-CHUNK-1940bcca99c5-P0001-01-no-direct-conflict.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conflict-stage-chunk-1940bcca99c5-p0001-01-no-direct-conflict-md.md",
+                      "completed_at":  "2026-05-23T07:47:08Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-1940bcca99c5-P0001-01-no-direct-conflict.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-23T07:44:44Z",
+                      "role":  "identity_researcher"
                   },
                   {
                       "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conflict-stage-chunk-2b3819b4138e-p0044-01-no-direct-conflict-md.md",
@@ -1238,14 +1292,20 @@
                       "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conflict-stage-chunk-37cac508f847-p0004-01-no-direct-conflict-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-23T07:47:19Z",
+                      "agent":  "postconv-identity-analysis-20260523074445247",
+                      "started_at":  "2026-05-23T07:44:46Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/CONFLICT-STAGE-CHUNK-37cac508f847-P0004-01-no-direct-conflict.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conflict-stage-chunk-37cac508f847-p0004-01-no-direct-conflict-md.md",
+                      "completed_at":  "2026-05-23T07:47:19Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-37cac508f847-P0004-01-no-direct-conflict.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-23T07:44:45Z",
+                      "role":  "identity_researcher"
                   },
                   {
                       "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conflict-stage-chunk-3f469b56e502-p0001-01-no-direct-conflict-md.md",
@@ -1490,24 +1550,36 @@
                       "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conflict-stage-chunk-e3855d490602-p0001-01-image-only-identity-qa-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-23T07:42:30Z",
+                      "agent":  "postconv-identity-analysis-20260523074018819",
+                      "started_at":  "2026-05-23T07:40:19Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/CONFLICT-STAGE-CHUNK-e3855d490602-P0001-01-image-only-identity-qa.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conflict-stage-chunk-e3855d490602-p0001-01-image-only-identity-qa-md.md",
+                      "completed_at":  "2026-05-23T07:42:30Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-e3855d490602-P0001-01-image-only-identity-qa.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-23T07:40:18Z",
+                      "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conf-stage-chunk-3661a25ff4f5-p0004-01-conflict-candidates-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-23T07:49:18Z",
+                      "agent":  "postconv-identity-analysis-20260523074659038",
+                      "started_at":  "2026-05-23T07:46:59Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/CONF-STAGE-CHUNK-3661a25ff4f5-P0004-01-conflict-candidates.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conf-stage-chunk-3661a25ff4f5-p0004-01-conflict-candidates-md.md",
+                      "completed_at":  "2026-05-23T07:49:18Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/CONF-STAGE-CHUNK-3661a25ff4f5-P0004-01-conflict-candidates.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-23T07:46:59Z",
+                      "role":  "identity_researcher"
                   },
                   {
                       "skill":  "genealogy-proof-review",
@@ -1526,24 +1598,36 @@
                       "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conf-stage-chunk-3661a25ff4f5-p0007-01-conflict-candidates-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-23T07:51:42Z",
+                      "agent":  "postconv-identity-analysis-20260523074922010",
+                      "started_at":  "2026-05-23T07:49:22Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/CONF-STAGE-CHUNK-3661a25ff4f5-P0007-01-conflict-candidates.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conf-stage-chunk-3661a25ff4f5-p0007-01-conflict-candidates-md.md",
+                      "completed_at":  "2026-05-23T07:51:42Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/CONF-STAGE-CHUNK-3661a25ff4f5-P0007-01-conflict-candidates.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-23T07:49:22Z",
+                      "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conf-stage-chunk-3661a25ff4f5-p0008-01-conflict-candidates-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-23T07:51:46Z",
+                      "agent":  "postconv-identity-analysis-20260523074922629",
+                      "started_at":  "2026-05-23T07:49:24Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/CONF-STAGE-CHUNK-3661a25ff4f5-P0008-01-conflict-candidates.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conf-stage-chunk-3661a25ff4f5-p0008-01-conflict-candidates-md.md",
+                      "completed_at":  "2026-05-23T07:51:46Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/CONF-STAGE-CHUNK-3661a25ff4f5-P0008-01-conflict-candidates.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-23T07:49:22Z",
+                      "role":  "identity_researcher"
                   },
                   {
                       "skill":  "genealogy-proof-review",
@@ -1562,34 +1646,52 @@
                       "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conf-stage-chunk-5f9286fc64f6-p0004-01-conflict-candidates-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-23T07:53:31Z",
+                      "agent":  "postconv-identity-analysis-20260523075138684",
+                      "started_at":  "2026-05-23T07:51:39Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/CONF-STAGE-CHUNK-5f9286fc64f6-P0004-01-conflict-candidates.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conf-stage-chunk-5f9286fc64f6-p0004-01-conflict-candidates-md.md",
+                      "completed_at":  "2026-05-23T07:53:31Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/CONF-STAGE-CHUNK-5f9286fc64f6-P0004-01-conflict-candidates.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-23T07:51:38Z",
+                      "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conf-stage-chunk-5f9286fc64f6-p0008-01-conflict-candidates-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-23T07:56:01Z",
+                      "agent":  "postconv-identity-analysis-20260523075347150",
+                      "started_at":  "2026-05-23T07:53:47Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/CONF-STAGE-CHUNK-5f9286fc64f6-P0008-01-conflict-candidates.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conf-stage-chunk-5f9286fc64f6-p0008-01-conflict-candidates-md.md",
+                      "completed_at":  "2026-05-23T07:56:01Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/CONF-STAGE-CHUNK-5f9286fc64f6-P0008-01-conflict-candidates.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-23T07:53:47Z",
+                      "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conf-stage-chunk-5f9286fc64f6-p0009-01-conflict-candidates-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-23T07:56:16Z",
+                      "agent":  "postconv-identity-analysis-20260523075347745",
+                      "started_at":  "2026-05-23T07:53:49Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/CONF-STAGE-CHUNK-5f9286fc64f6-P0009-01-conflict-candidates.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conf-stage-chunk-5f9286fc64f6-p0009-01-conflict-candidates-md.md",
+                      "completed_at":  "2026-05-23T07:56:16Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/CONF-STAGE-CHUNK-5f9286fc64f6-P0009-01-conflict-candidates.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-23T07:53:48Z",
+                      "role":  "identity_researcher"
                   },
                   {
                       "skill":  "genealogy-proof-review",
