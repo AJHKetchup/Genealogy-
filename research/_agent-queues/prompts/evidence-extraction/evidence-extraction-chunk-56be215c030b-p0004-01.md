@@ -14,8 +14,18 @@ Use `$genealogy-claim-extraction`.
 - Family relevance: `medium`
 - Matched family terms: Dario, Pulgar
 - Narrative cues: none
-- Evidence priority: `2004` (family_relevance:medium, qc:spot-check, matched_terms)
+- Evidence priority: `1304` (family_relevance:medium, qc:spot-check, matched_terms, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/proof-review-research-staging-identity-analysis-identity-analysis-conf-stage-chunk-5f9286fc64f6-p0004-01-conflict-candidates-postconv-proof-review-20260523080353592.md` | `research/_staging/identity-analysis/identity-analysis-conf-stage-chunk-5f9286fc64f6-p0004-01-conflict-candidates.md` | `hold` | Keep `research/_staging/identity-analysis/identity-analysis-conf-stage-chunk-5f9286fc64f6-p0004-01-conflict-candidates.md` on hold. Reconcile the converted-file SHA, chunk id, source packet id, and staged draft id; then rerun or record conversion QA against the available page image. Only after that, seek an identity-bearing CV page or accepted local bridge that explicitly connects `Dario Arturo Pulgar` to `Dario Arturo Pulgar-Smith` before promoting page-4 occupational claims or attaching them to a canonical person. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Person-First Narrative Contract
