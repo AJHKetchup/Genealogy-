@@ -1,7 +1,7 @@
 {
   "created": "2026-05-23",
   "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
-  "converted_sha256": "56be215c030b5a6fc1c359fde9dbf2856d1032c68a9dc0a99851f77c3e0259d3",
+  "converted_sha256": "1d04e45805497a0d11fc637a974b1d4ca8fcd355e47fba12ff22059929d079f1",
   "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
   "source_sha256": "07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424",
   "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
@@ -12,64 +12,64 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-56be215c030b-P0004-01",
+      "chunk_id": "CHUNK-1d04e4580549-P0004-01",
       "chunk_number": 1,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0004-chunk-01.md",
       "page_start": 4,
       "page_end": 4,
       "part": 1,
-      "chars": 5471,
-      "sha256": "763a201189d9ca3df75fd2cf32086a7186efb97af24f6f1ffc1234148522ac0a"
+      "chars": 4572,
+      "sha256": "0a15c6a854adc817c13ab8568107368daba2d2f507f7bed86d9c685eb601a8e4"
     },
     {
-      "chunk_id": "CHUNK-56be215c030b-P0005-01",
+      "chunk_id": "CHUNK-1d04e4580549-P0005-01",
       "chunk_number": 2,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0005-chunk-01.md",
       "page_start": 5,
       "page_end": 5,
       "part": 1,
-      "chars": 3904,
-      "sha256": "70ba705ce8242a523ff01b2437c262218ca8b4cf835a10923c1cb0280b462127"
+      "chars": 4454,
+      "sha256": "b779b0bf6435d205241ddba7899c21bc5fffe2d6027f9411dbf59814c7eff4de"
     },
     {
-      "chunk_id": "CHUNK-56be215c030b-P0006-01",
+      "chunk_id": "CHUNK-1d04e4580549-P0006-01",
       "chunk_number": 3,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0006-chunk-01.md",
       "page_start": 6,
       "page_end": 6,
       "part": 1,
-      "chars": 4279,
-      "sha256": "d3b3e173dd1927355574c9d81a08ac16f77d6a13d461486eb16e7615b366dcec"
+      "chars": 4137,
+      "sha256": "365d1b733b602ec03ce501b87d7631e79fa6b27598d44f5d545ed39277a93e33"
     },
     {
-      "chunk_id": "CHUNK-56be215c030b-P0007-01",
+      "chunk_id": "CHUNK-1d04e4580549-P0007-01",
       "chunk_number": 4,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0007-chunk-01.md",
       "page_start": 7,
       "page_end": 7,
       "part": 1,
       "chars": 4253,
-      "sha256": "af511668b451f888cd589ccacefd0a1753319ea36b8244c13973ddaa228b96f0"
+      "sha256": "60f2c447c1f22580561cdfbddabeec357919c42c9370c2285c3b7375dec9dfdc"
     },
     {
-      "chunk_id": "CHUNK-56be215c030b-P0008-01",
+      "chunk_id": "CHUNK-1d04e4580549-P0008-01",
       "chunk_number": 5,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0008-chunk-01.md",
       "page_start": 8,
       "page_end": 8,
       "part": 1,
       "chars": 4288,
-      "sha256": "3b329d652abbb122cef0a05d452e5b1406cf6e0829c32730c0b8d92ae27a9ebd"
+      "sha256": "358cbf548b209e2fac39a1e1007d6f326cc5c71697da210b79129bc2bc6e8a07"
     },
     {
-      "chunk_id": "CHUNK-56be215c030b-P0009-01",
+      "chunk_id": "CHUNK-1d04e4580549-P0009-01",
       "chunk_number": 6,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0009-chunk-01.md",
       "page_start": 9,
       "page_end": 9,
       "part": 1,
-      "chars": 1686,
-      "sha256": "6803c69c18f0e2877b8d5d6bd20bb2bb06c5476e1f302728236d1d4a3ec29efd"
+      "chars": 1463,
+      "sha256": "f3132e98b5267418a715369467124007f3401200a7368f3fe538bc4d9a3dc58f"
     }
   ]
 }

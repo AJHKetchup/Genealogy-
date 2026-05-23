@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-5720b2c16bf9-P0010-01
+chunk_id: CHUNK-9a9a2f70e741-P0010-01
 source_converted: raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md
-converted_sha256: 5720b2c16bf9a4d2a87841ab4d24002e701cdcd9ec61f9272632aefe28cb2111
+converted_sha256: 9a9a2f70e741dbc8247ae21859f71bae7b140414302ceb527f387441873e7df2
 source: raw/sources/Habitat Revisited, Jim Carney, 2006.pdf
 source_sha256: fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9
 source_manifest: raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json
@@ -12,12 +12,17 @@ part: 1
 ---
 
 ## Page Metadata
+
+- Task id: `source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0010`
+- Source: `raw/sources/Habitat Revisited, Jim Carney, 2006.pdf`
 - Page: 10
 
 ## Layout And Reading Order
-This page contains a single column of text. The page number "10" is located at the top right corner. The reading order is from top to bottom.
+
+The page consists of a single column of text. The reading order is top to bottom. A page number, "10", is located at the top right corner. A bolded, centered heading, "IN THE END – WHY ?", separates the text into two main sections.
 
 ## Literal Transcription
+
 10
 
 By early 1980, with UNCHS more or less operational in Nairobi, Andreas Fuglesang
@@ -69,15 +74,19 @@ form of documents, audio, video tape and film and had to be physically flown
 and shipped across continents and oceans.
 
 ## Images, Captions, And Visual Notes
-There are no images, illustrations, or other visual elements on this page.
+
+There are no images, captions, or other visual elements on this page.
 
 ## Uncertain Or Illegible
+
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page is complete. All text has been transcribed.
+
+This page is complete. All text, including the page number and section heading, has been transcribed.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],

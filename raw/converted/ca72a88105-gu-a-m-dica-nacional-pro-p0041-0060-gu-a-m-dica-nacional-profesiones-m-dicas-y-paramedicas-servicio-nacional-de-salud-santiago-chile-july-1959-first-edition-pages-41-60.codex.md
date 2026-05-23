@@ -1338,24 +1338,16 @@ No interpretation was produced by the Docling basic conversion pass.
 
 ## Page Metadata
 
-- Task id: `source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60:p0053`
-- Model route: `pro`
-- Route reasons: requested_reread
-- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/work-orders/page-0053.md`
-- Page: 53
-- Output Markdown target: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/page-markdown/page-0053.md`
-- External research relevance: `medium`
-- External requested treatment: `reread`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
-- Quality flags: none
-- Technical reread clues: none
+- Page number: 56
 
 ## Layout And Reading Order
 
-The page contains a directory listing of medical professionals. The content is arranged in a three-column table format. The first column lists the individual's name (last name, first name). The second column provides their address. The third column lists the city. The entries are read row by row from top to bottom. At the bottom left of the page is the page number.
+The page contains a directory listing of medical professionals. The content is arranged in a three-column table format. The columns are:
+1.  Name (Surname, First Name)
+2.  Address
+3.  City
+
+The reading order is from left to right, row by row, from the top to the bottom of the page. The page number is located at the bottom left.
 
 ## Literal Transcription
 
@@ -1365,7 +1357,8 @@ The page contains a directory listing of medical professionals. The content is a
 | Lara Sazo, Carlos | Cochrane 754 | Concepción |
 | Larach Jamiz, César | Av. José P. Alessandri 85 | Santiago |
 | Larach Nazrala, Alejandro | Moneda 720, Of. 205 | Santiago |
-| Larach Nazrala, Elías | Rosa Eguiguren 813,<br>Of. 47 | Santiago |
+| Larach Nazrala, Elías | Rosa Eguiguren 813, | Santiago |
+| | Of. 47 | |
 | Larenas Barrera, Emilio | Igualdad 240 | Parral |
 | Larenas Ovalle, Alberto | O'Higgins 630 | Concepción |
 | Largo Robledo, Alfonso | Prat 225 | Rengo |
@@ -1373,7 +1366,8 @@ The page contains a directory listing of medical professionals. The content is a
 | Larraguibel Moreno, Armando | Ramón Nieto 920, Of. 301 | Santiago |
 | Larraín Aguirre, Camilo | Compañía 1615 | Santiago |
 | Larraín Eyzaguirre, Sergio | República 440 | Santiago |
-| Larraín García, Arturo | Vicuña Mackenna 4, 7º<br>Piso | Santiago |
+| Larraín García, Arturo | Vicuña Mackenna 4, 7º | Santiago |
+| | Piso | |
 | Larraín Marín, Eduardo | Marcoleta 367 | Santiago |
 | Larraín Orrego, Augusto | Avda. Salvador 1231 | Santiago |
 | Larraín Vidal, Adriana | Teatinos 251, Depto. 3 | Santiago |
@@ -1401,7 +1395,8 @@ The page contains a directory listing of medical professionals. The content is a
 | Leclerc de Vandamme, Claude | Las Bellotas 260 | Santiago |
 | Ledesma Zamora, Arnaldo | Madrid 962 | Santiago |
 | Legarreta Peña, Adela | Agustinas 715, Dep. 302 | Santiago |
-| Legarreta Peña, José | Santo Domingo 594,<br>Depto. 2 | Santiago |
+| Legarreta Peña, José | Santo Domingo 594, | Santiago |
+| | Depto. 2 | |
 | Lehuedé Alvarado, Héctor | Lourdes 749 | Santiago |
 
 56 —
@@ -1412,16 +1407,19 @@ There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this document.
+There are no uncertain or illegible parts of this document. The text is clear and well-printed.
 
 ## Completeness Audit
 
-The full content of the page has been transcribed. The page number visible on the image is "56", which differs from the page number "53" specified in the work order. The transcription reflects the number visible on the source image.
+This page has been transcribed in its entirety. Note that the printed page number is "56", which differs from the page number "53" specified in the job manifest. The transcription reflects the number printed on the source image.
 
 ## Visual Region Manifest
 
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text in a directory format and has no images, illustrations, or other visual elements."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only text in a directory format with no images, illustrations, or other distinct visual elements."
+}
 ```
 
 # Page 54

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-ad51f87716d7-P0002-01
+chunk_id: CHUNK-649ea7df3134-P0002-01
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md
-converted_sha256: ad51f87716d75fa0727174cca02062c798feac33ab962a487dbd9b23b16b9d58
+converted_sha256: 649ea7df3134c373f3da5ee9dff58293309e8eb41136078f50292610528c5aae
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json
@@ -12,25 +12,32 @@ part: 1
 ---
 
 ## Page Metadata
-- `page_number`: 2
-- `page_type`: Cover
-- `document_type`: File Jacket
-- `language`: French, English
+
+- **Page number**: 2
+- **Document type**: File cover / Routing slip
+- **Languages**: English, French
+- **Handwriting style**: Cursive
+- **Printing style**: Typeset
+- **Colors**: Black print, brown paper, black, red, and blue handwriting
 
 ## Layout And Reading Order
-The page is a pre-printed manila file jacket. The content is arranged as follows:
-1. A header at the top with the category "GENERAL AND MISCELLANEOUS" and file numbers.
-2. A "Sujet" (Subject) section with a handwritten description in French.
-3. A three-column table for tracking the document's circulation. Each column is subdivided into "Transmis à / Referred to" and "Date". The table is filled with handwritten entries.
-4. To the right of the table are fields for previous, next, and related file numbers.
 
-The reading order is from top to bottom.
+The document is a pre-printed file cover on brown cardstock. The layout is as follows:
+1.  A header at the top with the text "GENERAL AND MISCELLANEOUS" and three numbered boxes.
+2.  A "Sujet" (Subject) section with several lines of handwritten French text.
+3.  A large table for tracking circulation, with three columns of "Transmis à / Referred to" and "Date" pairs. The table is filled with handwritten entries.
+4.  To the right of the main table, there are three smaller form fields: "Dossier précédent", "Dossier suivant", and "Dossiers connexes".
+
+The reading order is from top to bottom, left to right.
 
 ## Literal Transcription
-```text
+
+[Top of form]
+
 GENERAL AND MISCELLANEOUS
-[Stamped:] 50
-[Handwritten:] 5569 5569
+[Box 1, handwritten] 50
+[Box 2, handwritten] 5569
+[Box 3, handwritten] 5569
 
 Sujet:
 Conférence Diplomatique (Juillet 1929) appelée à revoir la
@@ -38,42 +45,40 @@ Convention de Genève de 1906 pour l'amélioration du sort des
 blessés et malades dans les armées en campagne et d'élaborer
 un code des prisonniers de guerre.
 
-[A pre-printed table with handwritten entries follows.]
-| Transmis à / Referred to | Date | Transmis à / Referred to | Date | Transmis à / Referred to | Date |
-|---|---|---|---|---|---|
-| For previous circulation<br>see within. | | Marquis Paulucci | 7.10.31 | M. Paulucci | 9.2.32 |
-| M. Schwartz<br>legal dept | 26.5.31 | XIX M. Schwartz<br>legal | 19.10.31 | Disarmament | 1.4.32 |
-| M. Walters | 29.5.31 | Marquis Paulucci | 21.10.31 | M. Walters | 6u 7.4.32 |
-| Marquis Paulucci | 30.5.31 | XX In Dir art (upl) L.C.V | 14.11.31 | XXJ M. Schwartz<br>legal | 17.5.32 |
-| M. Schwartz<br>legal dept | 12.6.31 | Marquis Paulucci | 4.11.31 | M. Paulucci | 20.5.32 |
-| XI Tu M. Walters | 1.7.31 | M. Schwartz (upl) | 12.11.31 | Disarmament | 21.5.32 |
-| XII Tu M. Schwartz<br>legal dept | 2.7.31 | XXI M. Schwartz<br>legal | 29.12.31 | M. Walters | by 23.5.32 |
-| M. Walters<br>by Mr Floy[?] | 6.7.31 | M. Paulucci | 4.1.32 | Dossier<br>précédent | } No. [handwritten line] |
-| X M. Schwartz<br>legal | 8.7.31 | XXII M. Schwartz (upl) | 5.3.32 | | |
-| M. Walters<br>by Mr Floy[?] | 11.7.31 | Disamt[?] | 8.2.32 | Dossier<br>suivant | } No. 7801 |
-| XVI M. Schwartz<br>legal dpt | 11.7.31 | XXIV M. Schwartz<br>legal | 12.2.32 | Dossiers connexes | |
-| XIX M. Schwartz<br>legal | 15.7.31 | M. Paulucci | 15.2.32 | | |
-| Marquis Paulucci | 18.7.31 | Disarmament | 15.2.32 | | |
-| XXIII M. Schwartz<br>legal | 30.9.31 | XXV M. Schwartz<br>legal | 20.2.32 | | |
-```
+[Start of table]
+
+| Transmis à<br>Referred to | Date | Transmis à<br>Referred to | Date | Transmis à<br>Referred to | Date |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| For previous circulation<br>see within. | | <s>Marquis Paulucci</s> | 7.10.31 | <s>M. Paulucci</s> | 9.2.32 ✓ |
+| <s>M. Schwartz</s><br>Legal Dept | 26.5.31 | <s>XIX M. Schwartz</s><br>Legal | 19.10.31 | <s>Disarmament</s> | 1.4.32 ✓ |
+| <s>M. Walters</s> | 29.5.31 | <s>Marquis Paulucci</s> | 21.10.31 | <s>M. Walters</s> | 6.4.32 ✓ |
+| <s>Marquis Paulucci</s> | 30.5.31 | <s>XX M. Avenol (by L.C.V)</s> | | <s>XXJ M. Schwartz</s><br>Legal | 17.5.32 ✓ |
+| <s>M. Schwartz</s><br>Legal Dept | 12.6.31 | <s>Marquis Paulucci</s> | 4.11.31 | <s>M. Paulucci</s> | 20.5.32 ✓ |
+| <s>XI M. Walters</s><br>by | 1.7.31 | <s>M. Schwartz (upl)</s> | 12.11.31 | <s>Disarmament</s> | 21.5.32 ✓ |
+| <s>XI M. Schwartz</s><br>Legal Dept | 2.7.31 | <s>XXI M. Schwartz</s><br>Legal | 29.12.31 | <s>M. Walters</s><br>by | 23.5.32 ✓ |
+| <s>M. Walters</s><br>by | 6.7.31 | <s>M. Paulucci</s> | 4.1.32 ✓ | Dossier<br>précédent | } No. ~~[blank]~~ |
+| <s>XI M. Schwartz</s><br>Legal | 8.7.31 | <s>XXII M. Schwartz</s><br>Legal | 5.3.32 ✓ | Dossier<br>suivant | No. 1801 |
+| <s>M. Walters</s><br>by | 11.7.31 | <s>Disarmt</s> | 8.2.32 ✓ | Dossiers connexes | |
+| <s>XVI M. Schwartz</s><br>Legal D[?] | 11.7.31 | <s>XXIII M. Schwartz</s><br>Legal | 12.2.32 ✓ | | |
+| <s>XI M. Schwartz</s><br>Legal | 15.7.31 | <s>M. Paulucci</s> | 15.2.32 ✓ | | |
+| <s>Marquis Paulucci</s> | 18.7.31 | <s>Disarmament</s> | 15.2.32 ✓ | | |
+| <s>M. Schwartz</s><br>Legal | 30.9.31 | <s>XXIV M. Schwartz</s><br>Legal | 29.2.32 ✓ | | |
+
+[End of table]
 
 ## Images, Captions, And Visual Notes
-The document is a manila-colored file jacket with pre-printed text in English and French. The majority of the content is handwritten in black ink, detailing the subject of the file and its circulation history.
 
-Several entries in the circulation table are marked with checkmarks or lines in red and blue pencil, likely to track the status of the review. For example, there is a red checkmark next to "Marquis Paulucci 4.11.31" and a blue checkmark next to "M. Paulucci 4.1.32".
+The page is a file cover with handwritten entries tracking its circulation. Most of the handwritten names in the circulation table are struck through with red or blue ink. Many of the dates in the second and third columns are marked with a checkmark (✓), also in red or blue ink. The "No." field for "Dossier précédent" is struck through with a handwritten line.
 
 ## Uncertain Or Illegible
-- `by Mr Floy[?]`: The surname is difficult to read but appears to be "Floy" or similar. This note appears twice.
-- `Disamt[?]`: This appears to be an abbreviation for "Disarmament", which is written out in full elsewhere in the table.
-- `6u 7.4.32`: The "u" after the 6 is small and its meaning is unclear. It could be an abbreviation for "du".
+
+- In the first column of the circulation table, the note under "XVI M. Schwartz" is difficult to read but appears to be "Legal D[?]". It might be an abbreviation for "Legal Dept".
+- In the second column, the entry "M. Avenol (by L.C.V)" is a plausible but uncertain reading of the handwriting.
 
 ## Completeness Audit
-The entire page has been transcribed. All text, including handwritten entries, stamps, and form fields, is included in the transcription.
+
+The entire content of the page has been transcribed.
 
 ## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains no substantial images, illustrations, or photographs. All meaningful content consists of text, which has been transcribed."
-}
-```
+
+{"visual_regions": [], "no_visual_regions_reason": "The page consists of text and tabular data on a form. There are no significant images, illustrations, or photographs that would warrant cropping as standalone visual assets."}
