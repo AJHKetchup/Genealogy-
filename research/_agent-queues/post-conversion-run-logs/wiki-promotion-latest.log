@@ -3,39 +3,32 @@ Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\conversion-q
 Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\evidence-extraction.json
 Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\source-usability.json
 Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
-source-relevance sync-review-holds | summary
-{
-  "review_count": 375,
-  "candidate_count": 93,
-  "changed_count": 0,
-  "feedback_path": "research/_agent-queues/source-relevance-feedback.json"
-}
-source-relevance restore-review-assets | summary
-{
-  "target_count": 11,
-  "restored_raw": 1,
-  "skipped_raw": 0,
-  "restored_page_images": 1,
-  "released_tasks": [
-    "proof-review:research/_staging/identity-analysis/identity-analysis-chunk-8daffb98e793-p0005-01-enrique-gonzalez-pastor-identity-candidate.md"
-  ],
-  "errors": [],
-  "blockers": []
-}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\a\Genealogy-\Genealogy-\src\historic_doc_ingest\genealogy_wiki.py", line 15455, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "D:\a\Genealogy-\Genealogy-\src\historic_doc_ingest\genealogy_wiki.py", line 15254, in main
+    summary = sync_proof_review_hold_feedback(args.root)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\a\Genealogy-\Genealogy-\src\historic_doc_ingest\genealogy_wiki.py", line 6587, in sync_proof_review_hold_feedback
+    relevance = proof_review_feedback_relevance(text)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\a\Genealogy-\Genealogy-\src\historic_doc_ingest\genealogy_wiki.py", line 6979, in proof_review_feedback_relevance
+    value = match.group(1).strip().lower().replace("_", " ").split()[0]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
 post-conversion-controller | summary
 {
-    "started":  "2026-05-23T20:08:00Z",
+    "started":  "2026-05-23T21:56:06Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "dry_run":  false,
     "allow_promotion":  true,
     "promotion_only":  true,
     "fatal":  false,
     "refresh":  [
-                    "conversion-qc",
-                    "agent-queues",
-                    "source-status",
-                    "source-relevance-review-holds",
-                    "source-relevance-review-assets"
+
                 ],
     "queues":  {
                    "conversion-qa":  {
@@ -43,18 +36,19 @@ post-conversion-controller | summary
                                          "todo":  200
                                      },
                    "evidence-extraction":  {
-                                               "done":  38,
-                                               "todo":  123,
-                                               "deferred_low_relevance":  4654,
-                                               "blocked_needs_reread":  29
+                                               "done":  40,
+                                               "todo":  118,
+                                               "deferred_low_relevance":  4652,
+                                               "blocked_needs_reread":  30
                                            },
                    "identity-analysis":  {
-                                             "done":  141
+                                             "done":  143,
+                                             "todo":  1
                                          },
                    "proof-review":  {
-                                        "done":  207,
-                                        "todo":  724,
-                                        "released":  37
+                                        "done":  210,
+                                        "todo":  757,
+                                        "released":  46
                                     },
                    "wiki-promotion":  {
                                           "blocked_no_reviewed_ready":  1
@@ -66,7 +60,7 @@ post-conversion-controller | summary
 
                  ],
     "blockers":  [
-
+                     "refresh: genealogy-wiki failed: source-relevance sync-review-holds --root D:\\a\\Genealogy-\\Genealogy-: raise SystemExit(main()) |                      ^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 15254, in main |     summary = sync_proof_review_hold_feedback(args.root) |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6587, in sync_proof_review_hold_feedback |     relevance = proof_review_feedback_relevance(text) |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6979, in proof_review_feedback_relevance |     value = match.group(1).strip().lower().replace(\"_\", \" \").split()[0] |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^ | IndexError: list index out of range"
                  ],
-    "finished":  "2026-05-23T20:09:26Z"
+    "finished":  "2026-05-23T21:57:24Z"
 }

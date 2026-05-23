@@ -14,8 +14,22 @@ Use `$genealogy-claim-extraction`.
 - Family relevance: `none`
 - Matched family terms: none
 - Narrative cues: none
-- Evidence priority: `4028` (family_relevance:none, qc:pass, deferred_until_family_relevant)
+- Evidence priority: `3328` (family_relevance:none, qc:pass, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/identity-analysis-conflict-chunk-759f8ddf442b-p0028-01-juana-diaz-munoz-proof-review-postconv-proof-review-20260523213139227.md` | `research/_staging/identity-analysis/identity-analysis-conflict-chunk-759f8ddf442b-p0028-01-juana-diaz-munoz.md` | `hold_for_conversion_qa` | Complete `research/_staging/research-tasks/chunk-759f8ddf442b-p0028-01-reread-page.md`: locate or regenerate the rendered page image for source page 28, compare the printed page against the converted row, and verify exact diacritics, address spelling, row alignment, and column headings. If the row is confirmed, route only the directory listing/contact/locality claims for proof review; do not promote any relationship or same-person merge from this draft. |
+| `research/_staging/reviews/identity-analysis-conflict-chunk-759f8ddf442b-p0028-01-juana-diaz-munoz-proof-review-postconv-proof-review-20260523213557496.md` | `research/_staging/identity-analysis/identity-analysis-conflict-chunk-759f8ddf442b-p0028-01-juana-diaz-munoz.md` | `hold_for_conversion_qa` | Complete `research/_staging/research-tasks/chunk-759f8ddf442b-p0028-01-reread-page.md`: locate or regenerate the rendered page image for source page 28, compare the printed page against the converted row, and verify exact diacritics, address spelling, row alignment, and column headings. If confirmed, route only the directory listing/contact/locality claims for proof review; do not promote a relationship, merge, or canonical identity from this draft. |
+| `research/_staging/reviews/identity-analysis-conflict-chunk-759f8ddf442b-p0028-01-juana-diaz-munoz-proof-review-postconv-proof-review-20260523214857765.md` | `research/_staging/identity-analysis/identity-analysis-conflict-chunk-759f8ddf442b-p0028-01-juana-diaz-munoz.md` | `hold_for_conversion_qa` | Keep the staged draft on `hold_for_conversion_qa`. The next action is to locate or regenerate the page 28 image and visually reread the printed source against the converted row, including name diacritics, `Darío Urzúa 1660`, `Santiago`, row alignment, and column headings. After that, the narrow directory listing/contact/locality claims can be proof-reviewed again; do not promote this draft to canonical folders now. |
+| `research/_staging/reviews/identity-analysis-conflict-chunk-759f8ddf442b-p0028-01-juana-diaz-munoz-proof-review-postconv-proof-review-20260523215340586.md` | `research/_staging/identity-analysis/identity-analysis-conflict-chunk-759f8ddf442b-p0028-01-juana-diaz-munoz.md` | `hold_for_conversion_qa` | Keep the staged draft on `hold_for_conversion_qa`. The next required action is a page-28 visual reread against the original source page or regenerated page image, checking the name, diacritics, `Darío Urzúa 1660`, `Santiago`, column headings, and row alignment. After that, rerun proof review for only the narrow directory listing/contact claims; do not create canonical relationships or same-person merges from this row. |
+| `research/_staging/reviews/identity-analysis-conflict-chunk-759f8ddf442b-p0028-01-juana-diaz-munoz-proof-review.md` | `research/_staging/identity-analysis/identity-analysis-conflict-chunk-759f8ddf442b-p0028-01-juana-diaz-munoz.md` | `hold_for_conversion_qa` | Keep `research/_staging/identity-analysis/identity-analysis-conflict-chunk-759f8ddf442b-p0028-01-juana-diaz-munoz.md` on hold. The next action is a page reread of source page 28 against the rendered page image or original PDF to confirm the exact name, accents, address, locality, row alignment, and column headings. Do not promote a canonical claim, relationship, merge, or conflict until that visual QA is complete. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Person-First Narrative Contract
