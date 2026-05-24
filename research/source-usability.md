@@ -1,6 +1,6 @@
 # Source Usability
 
-Generated: 2026-05-23T23:30:28Z
+Generated: 2026-05-24T00:05:00Z
 
 This report answers whether each raw source is ready for LLM extraction, still waiting on conversion, or held only on specific pages that need reread.
 
