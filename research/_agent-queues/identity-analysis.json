@@ -1,9 +1,10 @@
 ﻿{
     "created":  "2026-05-24",
     "queue":  "identity-analysis",
-    "task_count":  171,
+    "task_count":  173,
     "status_counts":  {
-                          "done":  171
+                          "done":  171,
+                          "todo":  2
                       },
     "tasks":  [
                   {
@@ -1893,6 +1894,26 @@
                       "status":  "done",
                       "claimed_at":  "2026-05-24T10:08:16Z",
                       "role":  "identity_researcher"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-dceaf19e5117-p0008-01-metadata-and-identity-hold-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-dceaf19e5117-p0008-01-metadata-and-identity-hold.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-dceaf19e5117-p0008-01-metadata-and-identity-hold.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-dd2b66f37e49-p0007-01-metadata-and-identity-hold-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-dd2b66f37e49-p0007-01-metadata-and-identity-hold.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-dd2b66f37e49-p0007-01-metadata-and-identity-hold.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "skill":  "genealogy-proof-review",
