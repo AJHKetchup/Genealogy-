@@ -3,8 +3,7 @@
     "queue":  "identity-analysis",
     "task_count":  149,
     "status_counts":  {
-                          "done":  148,
-                          "todo":  1
+                          "done":  149
                       },
     "tasks":  [
                   {
@@ -1544,14 +1543,20 @@
                       "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-c8f8ec442186-p0007-01-no-conflict-candidate-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-24T02:11:06Z",
+                      "agent":  "postconv-identity-analysis-20260524020859336",
+                      "started_at":  "2026-05-24T01:43:16Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/chunk-c8f8ec442186-p0007-01-no-conflict-candidate.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-c8f8ec442186-p0007-01-no-conflict-candidate-md.md",
+                      "completed_at":  "2026-05-24T02:11:06Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/chunk-c8f8ec442186-p0007-01-no-conflict-candidate.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-24T01:43:16Z",
+                      "role":  "identity_researcher"
                   },
                   {
                       "skill":  "genealogy-proof-review",
