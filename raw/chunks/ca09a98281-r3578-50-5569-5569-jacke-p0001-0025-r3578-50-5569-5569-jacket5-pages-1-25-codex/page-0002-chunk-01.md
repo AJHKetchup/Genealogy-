@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-680a976324b6-P0002-01
+chunk_id: CHUNK-905ca6e1d899-P0002-01
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md
-converted_sha256: 680a976324b6ee51855475dfb73f9e8054313a600cb9f85cb42f1e578c4fc566
+converted_sha256: 905ca6e1d89923b87274026432bfece21f01e4eadcc4de134c6589ceec4e647b
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json
@@ -12,65 +12,61 @@ part: 1
 ---
 
 ## Page Metadata
-- Task id: `source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25:p0002`
 - Page: 2
 
 ## Layout And Reading Order
-The document is a pre-printed file cover or routing slip on cardstock. The layout is as follows:
-1. A header at the top left reads "GENERAL AND MISCELLANEOUS".
-2. To the right of the header are three boxes. The first is printed with "50". The next two are handwritten with "5569" and "5569".
-3. Below the header is a "Sujet:" (Subject) field with several lines of handwritten French text.
-4. The main body of the page is a large, three-column table for routing information. Each of the three main columns is subdivided into two smaller columns: "Transmis à / Referred to" and "Date".
-5. The table is filled with handwritten names, dates, and annotations. A printed note, "For previous circulation see within.", is located in the first row of the first column.
-6. To the right of the main table, there are three printed fields: "Dossier précédent", "Dossier suivant", and "Dossiers connexes", with some handwritten information.
+The document is a pre-printed routing slip or file cover on manila-colored cardstock. The layout is as follows:
+1. A header at the top with the text "GENERAL AND MISCELLANEOUS" and three boxes containing numbers.
+2. A "Sujet" (Subject) section with several lines of handwritten French text.
+3. A large table for tracking circulation, with three sets of columns for "Transmis à / Referred to" and "Date". This table is filled with handwritten entries.
+4. To the right of the table, there are fields for "Dossier précédent" (Previous file), "Dossier suivant" (Next file), and "Dossiers connexes" (Related files).
 
-The reading order is from top to bottom, and left to right across the columns of the table.
+The reading order is from top to bottom, transcribing the header, the subject, and then the table entries row by row, from left to right.
 
 ## Literal Transcription
-**GENERAL AND MISCELLANEOUS**
-<br>
-[Box 1, printed] `50`
-[Box 2, handwritten] `5569`
-[Box 3, handwritten] `5569`
+**[Header]**
+
+GENERAL AND MISCELLANEOUS
+`50` `5569` `5569`
+
+**[Subject Section]**
 
 Sujet:
 Conférence diplomatique (Juillet 1929) appelée à revoir la
 Convention de Genève de 1906 pour l'amélioration du sort des
-blessés et malades des armées en campagne et d'élaborer
+blessés et malades dans les armées en campagne et d'élaborer
 un code des prisonniers de guerre.
+
+**[Circulation Table]**
 
 | Transmis à<br>Referred to | Date | Transmis à<br>Referred to | Date | Transmis à<br>Referred to | Date |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **For previous circulation**<br>**see within.** | | Marquis Paulucci | 7.10.31 | M. Paulucci | 9.2.32 |
-| M. Schwartz<br>Legal Dept | 26.5.31 | XIX M. Schwartz<br>Legal Dept | 19.10.31 | Disarmament | 1.4.32 |
-| M. Walters by | 29.5.31 | Marquis Paulucci | 21.10.31 | M. Walters by | 7.4.32 |
-| Marquis Paulucci | 30.5.31 | XX M. Averol[?] (upl/I.C.C.) | 14/XI I.C.V[?] | XXJ M. Schwartz<br>Legal Dept | 17.5.32 |
-| M. Schwartz<br>Legal Dept | 12.6.31 | Marquis Paulucci | 4.11.31 | M. Paulucci | 20.5.32 |
-| XI M. Walters by | 8.7.31 | M. Schwartz (upl) | 12.11.31 | Disarmament | 21.5.32 |
-| XIX M. Schwartz<br>Legal Dept | 22.7.31 | XXI M. Schwartz<br>Legal Dept | 29.12.31 | M. Walters by | 23.5.32 |
-| M. Walters by<br>Mr Flaq[?] | 6.8.31 | M. Paulucci | 4.1.32 | Dossier<br>précédent | } No. / |
-| M. Schwartz<br>Legal Dept | 8.7.31 | XXII M. Schwartz (upl) | 5.3.32 | Dossier<br>suivant | } No. 7801 |
-| M. Walters by | 11.7.31 | Disarmt | 8.2.32 | Dossiers connexes | |
-| XVI M. Schwartz<br>Legal Dept | 11.7.31 | XXIII M. Schwartz<br>Legal Dept | 12.2.32 | | |
-| XIX M. Schwartz<br>Legal Dept | 15.7.31 | M. Paulucci | 15.2.32 | | |
-| Marquis Paulucci | 18.7.31 | Disarmament | 15.2.32 | | |
-| M. Schwartz<br>Legal Dept | 30.9.31 | XXIV M. Schwartz<br>Legal Dept | 29.3.32 | | |
+| For previous circulation<br>see within. | | Marquis Paulucci | 7.10.31 | M. Paulucci [checkmark] | 9.2.32 |
+| M. Schwartz<br>Legal Dept | 26.5.31 | XIV M. Schwartz<br>Legal | 19.10.31 | Disarmament | 1.4.32 |
+| M. Walters | 29.5.31 | Marquis Paulucci | 21.10.31 | M. Walters | 6.4.32 |
+| Marquis Paulucci | 30.5.31 | XX M. Av[?]art (Lyt)<br>L.C.V | 12.11.31 | XXJ<br>M. Schwartz<br>Legal | 17.5.32 |
+| M. Schwartz<br>Legal | 12.6.31 | Marquis Paulucci | 4.11.31 | M. Paulucci | 20.5.32 |
+| XI M. Walters | 8.7.31 | M. Schermuly (Lyt) | 12.11.31 | Disarmament | 21.5.32 |
+| X-XI M. Schwartz<br>Legal Dept | 22.3.31 | X+I M. Schwartz<br>Legal | 29.12.31 | M. Walters | 23.5.32 |
+| M. Walters<br>by Mr Floy | 6.7.31 | M. Paulucci [checkmark] | 4.1.32 | Dossier<br>précédent } No. `[handwritten line]` | |
+| X. M. Schwartz<br>Legal | 8.7.31 | XXII M. Schwartz (Lyt) [checkmark] | 5.3.32 | Dossier<br>suivant } No. 7801 | |
+| M. Walters<br>by [illegible] | 11.7.31 | [strikethrough] Disamt H. [/strikethrough] | 8.2.32 | Dossiers connexes | |
+| XVI M. Schwartz<br>Legal D | 11.7.31 | F.M. M. Schwartz<br>Legal | 12.2.32 | | |
+| XI M. Schwartz<br>Legal | 15.7.31 | M. Paulucci | 15.2.32 | | |
+| Marquis Paulucci | 18.7.31 | Disarmament H [checkmark] | 15.2.32 | | |
+| M. Schwartz<br>Legal | 30.9.31 | XXW<br>M. Schwartz<br>Legal | 20.2.32 | | |
 
 ## Images, Captions, And Visual Notes
-This page is a routing slip or file cover, likely from an administrative archive. It is a pre-printed form on tan cardstock, filled in with handwritten entries in ink. The handwriting varies, suggesting multiple individuals handled the document over time. There are various checkmarks and annotations next to the names and dates in the routing table. The top right corner has a printed number "50" and two handwritten numbers "5569".
+The page is a filled-out administrative form, likely a file cover or routing slip. It is made of aged, manila-colored cardstock. The pre-printed text is in English, while the handwritten entries are in French and English. The handwriting is in a consistent cursive script. There are various checkmarks, strikethroughs, and notations associated with the routing entries.
 
 ## Uncertain Or Illegible
-- `Averol[?]`: The name is difficult to read; it could be "Averol" or "Avenol".
-- `14/XI I.C.V[?]`: This entry in the date column is unclear. It may be a date (November 14) combined with an abbreviation or note.
-- `Flaq[?]`: The surname is unclear; it could be "Flaq", "Flay", or something similar.
+- In the third column, fourth row, the name is difficult to read: `M. Av[?]art (Lyt)`. It could possibly be "Avenart".
+- In the first column, tenth row, the note below "M. Walters" is illegible: `by [illegible]`.
 
 ## Completeness Audit
-The entire page has been transcribed. All text, including handwritten entries, stamps, and marginalia, has been captured.
+The entire content of the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page consists of text and a form-based table. There are no photographs, illustrations, or other significant visual elements that would warrant cropping as standalone assets."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page consists of a filled-out form with handwritten text. There are no photographs, illustrations, or other significant visual elements that would warrant cropping as standalone assets."}
 ```

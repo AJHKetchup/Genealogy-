@@ -9,79 +9,59 @@
 - Extracted images: `raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/extracted-images`
 
 ## Page Metadata
-
-- **Page number**: 172
-- **Record type**: Birth Register (Rejistro de Nacimientos)
-- **Location**: Los Ángeles, La Laja, Chile
-- **Year**: 1889
-- **Certificate numbers**: 513, 514, 515 (partial)
+- **Source Type:** Civil Register (Births)
+- **Record Type:** Birth Certificate
+- **Page Number:** 172
+- **Location:** Los Ángeles, La Laja, Chile
+- **Date:** 1889
+- **Language:** Spanish
+- **Source-Specific Identifiers:**
+    - Certificate Numbers: 513, 514, 515
 
 ## Layout And Reading Order
+The document is a pre-printed register page for births. The page is organized as a table with rows for individual birth records and columns for specific details. The reading order is from left to right, top to bottom, following the entries numbered 513, 514, and 515.
 
-The page is a tabular register of births. The content is organized into a large table with eight columns, spanning the full width of the page. Three birth records are present, numbered 513, 514, and 515, with each record occupying one row. The entries are handwritten in cursive script. A circular stamp is present in the upper right corner. The corresponding entry numbers are also written in the right margin.
-
-The reading order is from top to bottom, left to right, following the table structure.
+- A header at the top of the page includes the page number, year, and jurisdiction.
+- The main content is a table with nine columns:
+    1.  `N.º de la Inscripcion` (Inscription Number)
+    2.  `Fecha de la Inscripcion` (Date of Inscription)
+    3.  `Nombre i sexo` (Name and Sex)
+    4.  `Fecha i lugar del nacimiento` (Date and Place of Birth)
+    5.  `Nombre, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados` (Name, nationality, profession, and domicile of the father and mother)
+    6.  `Nombre, etc., del compareciente` (Name, etc., of the declarant)
+    7.  `Comprobacion de la identidad del compareciente` (Verification of the declarant's identity)
+    8.  `Firma del oficial` (Signature of the official)
+- A circular stamp from the civil registry office is located in the top right corner.
+- A column on the far right margin repeats the inscription numbers for each entry.
 
 ## Literal Transcription
+**Page Header**
 
-**Top of Page**
+`Páj. 172`
 
-Páj. 172
-
-1889.—Rejistro de NACIMIENTOS en la Circunscripcion de Los Anjeles, núm. 1º de La Laja.
+`1889.—Rejistro de NACIMIENTOS en la Circunscripcion de Los Anjeles, núm. 1º de La Laja`
 
 **Register Table**
 
-| N.º de la Inscripcion | Fecha de la Inscripcion | Nombre i sexo | Fecha i lugar del nacimiento | Nombre, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados | Nombre, etc., del compareciente | Comprobacion de la identidad del compareciente | Firma del oficial |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **513** | Julio veintidos de mil ochocientos ochenta i nueve. | **Nombre.** Isidoro del Carmen José<br><br>**Sexo** Masculino | **Fecha.** veinte i dos de mil ochocientos ochenta i nueve, a las cuatro i veinte de la mañana.<br><br>**Lugar.** Calle Colon | **Nombre del padre.** José del Carmen Pulgar<br>**Nac** Chileno **Prof** Jornalero<br>**Domicilio** Calle Colon<br>**Nombre de la madre.** Juana de Dios Amador<br>**Nac** Chilena **Prof** Labandera<br>**Domicilio** Calle Colon | José del C. Pulgar<br>Padre<br>**Edad.** Cuarenta i siete Años<br>**Prof** Agricultor<br>**Dom** Calle Colon | **Por los testigos:**<br>---<br>---<br>El compareciente es<br><br>**Conocido del oficial.** — | Emilio Lininger<br>O. del R. C. |
-| **514** | Julio veintidos de mil ochocientos ochenta i nueve. | **Nombre.** Rigoberto Juan Bautista<br><br>**Sexo.** Masculino | **Fecha.** veinte i tres de mil ochocientos ochenta i nueve, a las diez de la mañana.<br><br>**Lugar.** Calle Panegue | **Nombre del padre.** Alejandro Riquelme<br>**Nac** [blank] **Prof** [blank]<br>**Domicilio** [blank]<br>**Nombre de la madre.** Mercedes Riquelme<br>**Nac** Chilena **Prof** Costurera<br>**Domicilio** Calle Panegue | Mercedes Riquelme<br>Madre<br>Esposa de Juan no se lee<br>**Edad.** Veintiun Años<br>**Prof** Costurera<br>**Dom** Calle Panegue | **Por los testigos:**<br>Benjamin Utrosa<br>Ignacio Jara<br>El compareciente no sabe firmar<br><br>**Conocido del oficial.** — | Emilio Lininger<br>O. del R. C. |
-| **515** | Julio veintitres de mil ochocientos ochenta i nueve. | **Nombre.** Rosa Elvira del Carmen | **Fecha.** veinte i seis de julio | **Nombre del padre.** Pedro Pablo Leiva<br>**Nac** Chileno **Prof** Jornalero | Pedro Pablo Leiva<br>Padre | **Por los testigos:**<br>José D. Ramirez<br>Santiago Fuentes | [illegible] |
-
-**Right Margin**
-
-```
-513
-514
-515
-```
+| N.º de la Inscripcion | Fecha de la Inscripcion | Nombre i sexo | Fecha i lugar del nacimiento | Nombre, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados | Nombre, etc., del compareciente | Comprobacion de la identidad del compareciente | Firma del oficial | Marginalia |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 513 | Julio veintidos de mil ochocientos ochenta i nueve | **Nombre.**<br/>Isolina del Carmen<br/>José<br/>**Sexo.**<br/>Masculino | **Fecha.**<br/>El mismo veinte dos de mil ochocientos ochenta i nueve, a las cuatro de la mañana.<br/>**Lugar.**<br/>Calle Colon | **Nombre del padre.**<br/>José del Carmen Pulgar<br/>**Nac.** Chileno **Prof.** Agricultor<br/>**Domicilio.** Calle Colon<br/>**Nombre de la madre.**<br/>Juana de Dios Amador de Pulgar<br/>**Nac.** Chilena **Prof.** Labores de su sexo<br/>**Domicilio.** Calle Colon | José del C. Pulgar<br/>Padre<br/>**Edad.** Cuarenta i siete Años<br/>**Prof.** Agricultor<br/>**Dom.** Calle Colon | **Por los testigos:**<br/>El compareciente es conocido del oficial.<br/>**Conocido del oficial.** — | Emilio Lininger<br/>O. del R. C. | 513 |
+| 514 | Julio veintidos de mil ochocientos ochenta i nueve | **Nombre.**<br/>Riquelme Juan Teodoro<br/>**Sexo.**<br/>Masculino | **Fecha.**<br/>El mismo veinte tres de mil ochocientos ochenta i nueve, a las diez de la mañana.<br/>**Lugar.**<br/>Calle Saneguin | **Nombre del padre.**<br/>Belisario Riquelme<br/>**Nac.** **Prof.**<br/>**Domicilio.**<br/>**Nombre de la madre.**<br/>Mercedes Riquelme<br/>**Nac.** Chilena **Prof.** Costurera<br/>**Domicilio.** Calle Saneguin | Mercedes Riquelme<br/>Madre<br/>Esposa de Juan Soler<br/>**Edad.** Veintiun Años<br/>**Prof.** Costurera<br/>**Dom.** Calle Saneguin | **Por los testigos:**<br/>Benjamin Utrosa<br/>Ignacio Jara<br/>No firmo por no saber<br/>**Conocido del oficial.** — | Emilio Lininger<br/>O. del R. C. | 514 |
+| 515 | Julio veintitres de mil ochocientos ochenta i nueve | **Nombre.**<br/>Rosa Elvira del Carmen<br/>**Sexo.** | **Fecha.**<br/>El mismo veinte tres de mil ochocientos ochenta i nueve, a las diez de la mañana.<br/>**Lugar.** | **Nombre del padre.**<br/>Pedro Pablo Leiva<br/>**Nac.** Chileno **Prof.** Jornalero<br/>**Domicilio.**<br/>**Nombre de la madre.**<br/>**Nac.** **Prof.**<br/>**Domicilio.** | Pedro Pablo Leiva<br/>Padre<br/>**Edad.**<br/>**Prof.**<br/>**Dom.** | **Por los testigos:**<br/>Jose D. Ramirez H.<br/>Santiago Fuentes<br/>**Conocido del oficial.** — | Emilio Lininger<br/>O. del R. C. | 515 |
 
 ## Images, Captions, And Visual Notes
-
-- **[Image 1]** A circular stamp in the upper right corner of the page. The text around the circumference reads "OFICINA DE LOS ANJELES" at the top and "CHILE" at the bottom. The center contains a national shield emblem.
+- **[Stamp]** A circular, purple ink stamp is located in the top right corner of the page. The text around the circumference reads "OFICINA DE LOS ANJELES" at the top and "R. CIVIL" at the bottom. The center contains the Chilean coat of arms.
 
 ## Uncertain Or Illegible
-
-- **Entry 514, Compareciente column:** The text "Esposa de Juan no se lee" is difficult to read and may be inaccurate. It appears to be a note by the clerk.
-- **Entry 515, Firma del oficial column:** The signature of the official is partially cut off and illegible.
+- **Record 514, Place of Birth:** The street name "Calle Saneguin" is transcribed as it appears, but the spelling is uncertain. It could be "Sanequin" or a similar variant.
 
 ## Completeness Audit
-
-The transcription of this page is complete. All visible text, including the header, table content for three records (one partial), marginalia, and stamps, has been transcribed.
+The entire page, including three full birth records (numbers 513, 514, and 515), has been transcribed. All handwritten entries, printed text, signatures, and marginalia are included.
 
 ## Visual Region Manifest
-
 ```json
 {
-  "visual_regions": [
-    {
-      "region_id": "stamp-001",
-      "kind": "stamp",
-      "bbox_pct": [
-        87.2,
-        4.9,
-        95.2,
-        13.1
-      ],
-      "caption_literal": "OFICINA DE LOS ANJELES CHILE",
-      "caption_type": "converter-description",
-      "identity_basis": "from-source",
-      "source_context": "A circular official stamp from the civil registry office in Los Ángeles, Chile.",
-      "confidence": "high",
-      "suggested_filename": "stamp-oficina-de-los-anjeles-chile.png",
-      "inline_anchor": "[Image 1]"
-    }
-  ],
-  "no_visual_regions_reason": null
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains a standard governmental stamp, which is described in the visual notes but does not meet the criteria for a standalone cropped image."
 }
 ```

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-8791cef1980e-P0008-01
+chunk_id: CHUNK-28e5a2c1a24a-P0008-01
 source_converted: raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md
-converted_sha256: 8791cef1980e0752673d5e7d4dcaf6e1be6316108d93a903a0f30e61dedcec18
+converted_sha256: 28e5a2c1a24a01c9bc034567b52797322be876fcd2ba85e230c6a39bd020a2dc
 source: raw/sources/Habitat Revisited, Jim Carney, 2006.pdf
 source_sha256: fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9
 source_manifest: raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json
@@ -12,12 +12,18 @@ part: 1
 ---
 
 ## Page Metadata
-- Page number: 8
+
+- **Page number**: 8
+- **Document title**: Habitat Revisited
+- **Author**: Jim Carney
+- **Publication year**: 2006
 
 ## Layout And Reading Order
-This page consists of a single column of text. The page number '8' is located in the top right corner. The reading order is from top to bottom, starting with the first paragraph of text and ending with the final, incomplete paragraph at the bottom of the page. There is one section heading in the lower half of the page.
+
+The page contains a single column of text. The page number "8" is located in the top right corner. The reading order is from top to bottom.
 
 ## Literal Transcription
+
 8
 
 Dario was one of the most intellectually and physically robust people I’ve ever
@@ -30,8 +36,8 @@ learned French in Montreal in six weeks, he said.
 Over the next three years, our small group at UBC, perhaps six people in all, worked
 at setting up a non-commercial global distribution system for the Habitat films. One
 of our first tasks was to find, identify, catalogue and store the thousands of different
-AV elements in Vancouver. During the Conference I had calculated that there
-had to be approximately ten thousand separate bits and pieces in various places.
+AV elements in Vancouver. During the Conference I had calculated that there had
+to be approximately ten thousand separate bits and pieces in various places.
 A young Vancouverite, Nigel Hollick, with no previous experience in film or video,
 handled this brilliantly. Nigel was not your typical young Kitsilano hippy, much less
 yuppy. He had been born on a sailboat in Majorca, Spain, of peripatetic and pos-
@@ -70,18 +76,22 @@ vironment in Stockholm. UNEP (then the only UN headquarters located in a devel-
 oping country) was located at Gigiri, just outside Nairobi. UNCHS initially occupied
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other visual elements on this page. The page contains only text.
+
+There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
+
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-The full content of the page, including the page number and all text, has been transcribed. The final paragraph is incomplete in the source document as it continues onto the next page, and it has been transcribed as it appears.
+
+The transcription of this page is complete and accurate.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text and a page number."
+  "no_visual_regions_reason": "This page consists entirely of text and contains no images, illustrations, or other significant visual elements."
 }
 ```

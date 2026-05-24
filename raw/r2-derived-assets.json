@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-24T17:02:13.979202+00:00",
+  "created": "2026-05-24T17:39:45.629425+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -2131,6 +2131,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0551-0575-r3016-11a-2905-950-pages-551-575/extracted-images/page-0565/page-0565-docling-image-local-visual-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0551-0575-r3016-11a-2905-950-pages-551-575/extracted-images/page-0565/page-0565-docling-image-local-visual-01.png",
+      "bytes": 155258,
+      "sha256": "34291f95123a712d510e370d471d7d3a39ba2f41669cbd23711c81225ffdc0a8",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0551-0575-r3016-11a-2905-950-pages-551-575/extracted-images/page-0568/page-0568-docling-image-local-visual-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0551-0575-r3016-11a-2905-950-pages-551-575/extracted-images/page-0568/page-0568-docling-image-local-visual-01.png",
       "bytes": 199813,
@@ -2142,6 +2149,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0551-0575-r3016-11a-2905-950-pages-551-575/extracted-images/page-0572/page-0572-docling-image-local-visual-01.png",
       "bytes": 252112,
       "sha256": "5c645507445f032108b85d68d5f2233e84200e9e0bffba212626ceda0e948371",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0551-0575-r3016-11a-2905-950-pages-551-575/extracted-images/page-0573/page-0573-docling-image-local-visual-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0551-0575-r3016-11a-2905-950-pages-551-575/extracted-images/page-0573/page-0573-docling-image-local-visual-01.png",
+      "bytes": 65535,
+      "sha256": "5030dfa2862e376a8642fb73b7cec6c0add0544406013343d6877f17be61daac",
       "media_type": "image/png"
     },
     {
@@ -2233,6 +2247,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0601-0625-r3016-11a-2905-950-pages-601-625/extracted-images/page-0616/page-0616-docling-image-01.png",
       "bytes": 590629,
       "sha256": "d993a7d8630e01b503ee8b52cb8709daf286d754e1778da74dbab332abe90514",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0601-0625-r3016-11a-2905-950-pages-601-625/extracted-images/page-0619/page-0619-docling-image-local-visual-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0601-0625-r3016-11a-2905-950-pages-601-625/extracted-images/page-0619/page-0619-docling-image-local-visual-01.png",
+      "bytes": 48740,
+      "sha256": "7549328b03e263410ce1919591e605332e1981c946db722e26018e0364071253",
       "media_type": "image/png"
     },
     {
@@ -3976,6 +3997,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0954-0978-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-954-978/extracted-images/page-0975/page-0975-docling-image-01.png",
       "bytes": 89263,
       "sha256": "4e856ff0e5e7e6f86b53086175f0bc953c8e88def9592c5d915b25b60a097ce3",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0979-1003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-979-1003/extracted-images/page-0983/page-0983-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0979-1003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-979-1003/extracted-images/page-0983/page-0983-docling-image-01.png",
+      "bytes": 112056,
+      "sha256": "669d8717eb121928886e232f11eb50e2b0066b0d709817f29151172315c3c08d",
       "media_type": "image/png"
     },
     {
@@ -12347,10 +12375,10 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 10,
-    "total_bytes": 71188204,
+    "total_files": 11,
+    "total_bytes": 69627124,
     "uploaded": 4,
-    "skipped": 6,
+    "skipped": 7,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,
@@ -12360,9 +12388,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1767,
+      "scanned": 1771,
       "deleted": 0,
-      "skipped": 1767,
+      "skipped": 1771,
       "errors": []
     }
   }

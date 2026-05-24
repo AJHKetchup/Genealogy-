@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f9382f0677e6-P0006-01
+chunk_id: CHUNK-7bf5ff6de7d9-P0006-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: f9382f0677e672955ad75ec5326a647bb4a058f07f2b196801ee1c8922ab07bf
+converted_sha256: 7bf5ff6de7d942ed6facfcb475dc954045b99e8d5c30c3dd9d66675097cfa9f0
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -12,97 +12,47 @@ part: 1
 ---
 
 ## Page Metadata
-
-- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0006`
-- Model route: `pro`
-- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
-- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0006.md`
-- Page: 6
-- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0006.md`
-- External research relevance: `high`
-- External requested treatment: `reread`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
-- Quality flags: explicit_reread_needed
-- Technical reread clues: none
+- page_number: 9
+- page_type: cv
+- source_language: en, es
 
 ## Layout And Reading Order
-
-The page consists of a single column of text. The reading order is from top to bottom. The content is a continuation of a curriculum vitae, with entries organized chronologically by date ranges. Each entry includes the organization, location, job title, and a description of responsibilities.
+The page is a single column of typed text. It continues a list of educational history, with date ranges on the left and institutional details on the right. This is followed by a section titled "LANGUAGES" which lists spoken and written languages. The reading order is from top to bottom.
 
 ## Literal Transcription
+```text
+1967 - 1968 : Stanford University. Stanford, California
+              Fulbright Scholarship. M.A. Communications
 
-on irrigation districts and transfer of irrigation infrastructure to water user associations.
+1963 - 1966 : Universidad de Concepción, Escuela de Periodismo. Chile
+              Journalism
 
-<u>1996 - 1997</u>
-**Deutsche Gesellschaft für Technische Zusammenarbeit (GTZ) - Fondo de Desarrollo
-Campesino (FDC)
-La Paz, Bolivia
-Senior Technical Advisor**
-Participate in strategic and policy decisions of the Farmer Development Fund. Assist in the
-implementation of rural development projects in infrastructure, production support and
-institutional strengthening. Participate in the Funding, Personnel and Management Committees.
-Supervise the institutional strengthening of rural financial institutions.
+1960 - 1963 : Universidad de Concepción, Escuela de Derecho. Chile
+              Field of Study: Law
 
-<u>1996</u>
+1954 - 1959 : Liceo Enrique Molina. Concepción, Chile
+              Humanities, Baccalaureate
 
-**SNC Lavalin Agriculture
-Maracaibo, Venezuela
-Consultant**
-Establish a training programme for the Empresa Regional Sistema Hidráulico Planicie de
-Maracaibo (PLANIMARA) with emphasis in the management and administration of irrigation
-projects and the transfer of these systems to beneficiaries.
+LANGUAGES
 
-**Ministry of Social Welfare of Ecuador, Rural Development Secretariat
-Quito, Ecuador
-Mission Leader**
-Direct the work of a group of consultants in the preparation of feasibility study for a rural
-development project to be implemented in three areas of the country. The study included
-establishing beneficiary demands and the design of credit, technical assistance, infrastructure,
-and production support components.
+Spoken:       Spanish, English, French, Italian, and Portuguese
 
-<u>1994 - 1995</u>
-**Instituto Interamericano de Cooperación para la Agricultura (IICA)
-Lima, Perú
-Chief Technical Advisor**
-Provide guidance for implementation of the “Promotion of Technology Transfer to the Peasant
-Communities in the Highland” project funded by IFAD including: a) development and
-implementation of new methodologies for technology transfer and extension, b) use of
-communications through community radio stations, Participate in project monitoring, evaluation
-and training.
-
-<u>1992 - 1993</u>
-**United Nations Children Fund (UNICEF)
-Ankara, Turkey
-Rural Development Advisor**
-Provide guidance in the implementation of a rural development project in priority provinces and
-supervise the production of audio-visual materials.
-
-<u>1989-1991</u>
-**SNC Lavalin Incorporated
-Egypt
-Agricultural Extension and Communication Advisor**
-Establish a Development Support Communication Centre (DSC) in the city of Dikernis, Dakahlia
+Written:      Spanish, English, French
+```
 
 ## Images, Captions, And Visual Notes
-
 There are no images, captions, or other visual elements on this page.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-This page is fully transcribed.
+This page is complete and fully transcribed.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text and has no meaningful visual regions to crop."
+  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other visual elements."
 }
 ```
