@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-23T23:47:03.171882+00:00",
+  "created": "2026-05-24T00:58:02.495257+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -2784,8 +2784,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-capitan-gajardo-recomforta.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-capitan-gajardo-recomforta.png",
-      "bytes": 4389406,
-      "sha256": "d16b7cb209769d90d498e001612ae4f432cf96d6fe46abac280801fcb6563f0b",
+      "bytes": 4538815,
+      "sha256": "cbddba76d0a96b02c5b9c0996a7d00e86de0c4f1a58a46560cf8a3d0ef672113",
       "media_type": "image/png"
     },
     {
@@ -2833,8 +2833,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-portrait.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-portrait.png",
-      "bytes": 4890704,
-      "sha256": "854f9f26180558431a31c29df6090b16054400dee3a425ae2f839c62f219e3c3",
+      "bytes": 5268486,
+      "sha256": "4dc7b75cbd3e83b5a055303f306712a255f2dc4d070fc87f54a5870b79fce248",
       "media_type": "image/png"
     },
     {
@@ -12222,9 +12222,9 @@
     "action": "asset-upload",
     "dry_run": false,
     "total_files": 7,
-    "total_bytes": 58286079,
-    "uploaded": 3,
-    "skipped": 4,
+    "total_bytes": 71833903,
+    "uploaded": 2,
+    "skipped": 5,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,

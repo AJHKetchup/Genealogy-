@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-e70d3958eaa9-P0004-01
+chunk_id: CHUNK-c8f8ec442186-P0004-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: e70d3958eaa9458b513d35173c46f3e49467590d7c0d42b37fed344aafa43715
+converted_sha256: c8f8ec44218631e2f88d600c9c5d6f81432986ec3fd4ca21f8c82e4cdf1f3c07
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -12,14 +12,28 @@ part: 1
 ---
 
 ## Page Metadata
-- task_id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004`
-- page_no: 4
-- page_type: `cv`
+
+- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004`
+- Model route: `pro`
+- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
+- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0004.md`
+- Page: 4
+- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0004.md`
+- External research relevance: `high`
+- External requested treatment: `reread`
+- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
+- Recommended action: ``
+- Quality flags: none
+- Technical reread clues: none
 
 ## Layout And Reading Order
-This page is a single column of typed text. The reading order is from top to bottom. The page continues a list from the previous page, followed by two bulleted list items, and then two distinct job experience entries.
+
+The page is a single column of typed text. The reading order is from top to bottom. The page begins with the continuation of a paragraph from the previous page. This is followed by two bulleted list items, each with a bolded heading. The remainder of the page consists of two distinct job entries. Each job entry is structured with bolded headings for the date range, employer, location, and job title, followed by a descriptive paragraph.
 
 ## Literal Transcription
+
 approaches in four different Indian Sates and, (iv) review the communications strategy for
 the Productive Projects component of the Millennium Challenge Account programme for the
 northern region of El Salvador while making recommendations for improvements and new
@@ -73,15 +87,22 @@ of communities during blasts that could affect them for safety reasons. Represen
 in dealings with local authorities and community organisations.
 
 ## Images, Captions, And Visual Notes
-This page contains only typed text. There are no images, illustrations, photographs, or other visual elements.
+
+There are no images, captions, or other visual elements on this page. The page consists entirely of typed text.
 
 ## Uncertain Or Illegible
+
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page has been fully and accurately transcribed. It is a complete page from a multi-page document.
+
+This page is fully transcribed and complete.
 
 ## Visual Region Manifest
+
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "This page consists entirely of typed text with no images, illustrations, or other visual elements suitable for cropping."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other visual elements suitable for cropping."
+}
 ```

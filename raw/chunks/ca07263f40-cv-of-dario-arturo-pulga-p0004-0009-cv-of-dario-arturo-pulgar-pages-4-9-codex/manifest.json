@@ -1,7 +1,7 @@
 {
-  "created": "2026-05-23",
+  "created": "2026-05-24",
   "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
-  "converted_sha256": "e70d3958eaa9458b513d35173c46f3e49467590d7c0d42b37fed344aafa43715",
+  "converted_sha256": "c8f8ec44218631e2f88d600c9c5d6f81432986ec3fd4ca21f8c82e4cdf1f3c07",
   "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
   "source_sha256": "07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424",
   "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
@@ -12,64 +12,64 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-e70d3958eaa9-P0004-01",
+      "chunk_id": "CHUNK-c8f8ec442186-P0004-01",
       "chunk_number": 1,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0004-chunk-01.md",
       "page_start": 4,
       "page_end": 4,
       "part": 1,
-      "chars": 4533,
-      "sha256": "fa0bf69da6de0d2deb301af525089b7f120d15763a7f6932829d092855280ec1"
+      "chars": 5618,
+      "sha256": "856d1ff9cedb4c0e64d8e23d3e4e6d91489dbbbd99f0018f363f2631e0245ada"
     },
     {
-      "chunk_id": "CHUNK-e70d3958eaa9-P0005-01",
+      "chunk_id": "CHUNK-c8f8ec442186-P0005-01",
       "chunk_number": 2,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0005-chunk-01.md",
       "page_start": 5,
       "page_end": 5,
       "part": 1,
-      "chars": 3874,
-      "sha256": "6ba885bf788ecdaf21cdf8c3823bb3904dedabd7ef77f85e152822fafe1243fd"
+      "chars": 4594,
+      "sha256": "6c88d08a2ce1b6487f0646bc7416a9d27518e96254927cfe2d5ef409d7ca4f4b"
     },
     {
-      "chunk_id": "CHUNK-e70d3958eaa9-P0006-01",
+      "chunk_id": "CHUNK-c8f8ec442186-P0006-01",
       "chunk_number": 3,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0006-chunk-01.md",
       "page_start": 6,
       "page_end": 6,
       "part": 1,
-      "chars": 4137,
-      "sha256": "b9d54fd430a6836956d4521fd51c3d75f0a80062bad4e7036eb8e020c25d9d2a"
+      "chars": 4259,
+      "sha256": "c5bc4f6b65d78783ef40ebf1398b5a5eaea2f034153378dc64c45ebbb9726d73"
     },
     {
-      "chunk_id": "CHUNK-e70d3958eaa9-P0007-01",
+      "chunk_id": "CHUNK-c8f8ec442186-P0007-01",
       "chunk_number": 4,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0007-chunk-01.md",
       "page_start": 7,
       "page_end": 7,
       "part": 1,
       "chars": 4253,
-      "sha256": "8dd14c57322392bf0405110d0fdbb62275f9890793d6b91da8f01ea466537d46"
+      "sha256": "00fd90a4e245a0b3d98ed82aed6b4ab7bfadf5d0a1360b70f25dda3d4f920f73"
     },
     {
-      "chunk_id": "CHUNK-e70d3958eaa9-P0008-01",
+      "chunk_id": "CHUNK-c8f8ec442186-P0005-01",
       "chunk_number": 5,
-      "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0008-chunk-01.md",
-      "page_start": 8,
-      "page_end": 8,
+      "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0005-chunk-01.md",
+      "page_start": 5,
+      "page_end": 5,
       "part": 1,
-      "chars": 4377,
-      "sha256": "129992c2610edd4993230b8e560d245dc15869413cf05460526d0a848e9994ba"
+      "chars": 4025,
+      "sha256": "2f5d7a6a11946c785ffa45bf52f3a7e3a799b7d229d23883bbbede240727a642"
     },
     {
-      "chunk_id": "CHUNK-e70d3958eaa9-P0009-01",
+      "chunk_id": "CHUNK-c8f8ec442186-P0009-01",
       "chunk_number": 6,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0009-chunk-01.md",
       "page_start": 9,
       "page_end": 9,
       "part": 1,
-      "chars": 2353,
-      "sha256": "3a50f1b3ffcb7b42cdeaa05c0ccab7f96aced2d4c3d302805dd09eb5c184aec4"
+      "chars": 2555,
+      "sha256": "ec992b06bfa2b4eaa7363c58ad23267e20013fe38d239dd142cebda77ac34a1c"
     }
   ]
 }

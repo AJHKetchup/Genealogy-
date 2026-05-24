@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-23T23:39:51Z",
+  "created": "2026-05-24T00:46:39Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -13,26 +13,26 @@
     {
       "region_id": "region_1",
       "kind": "illustration",
-      "caption_literal": "Hand-drawn illustration of an eagle-like figure with a circle and a square on its chest.",
+      "caption_literal": "Hand-drawn illustration of an eagle-like figure with a circle and a square inside its body.",
       "caption_type": "converter-description",
       "identity_basis": "converter-description",
-      "source_context": "The illustration is at the top of the page, above the title 'Suplemento'.",
-      "confidence": "0.9",
-      "inline_anchor": "Hand-drawn illustration of an eagle-like figure with a circle and a square on its chest",
+      "source_context": "The illustration appears at the top of the page, above the title text.",
+      "confidence": "1.0",
+      "inline_anchor": "An illustration of an eagle-like figure, drawn in red ink, is present at the top of the page. The figure has a head resembling a bird, wings, and a body with a large circle and a square shape inside it.",
       "bbox_pct": [
-        19.0,
-        13.0,
+        10.0,
+        23.0,
         43.0,
-        50.0
+        76.0
       ],
       "bbox_pixels": [
-        906,
-        926,
+        475,
+        1641,
         2063,
-        3581
+        5441
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-hand-drawn-eagle-figure-1956.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-hand-drawn-eagle-figure-1956.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-illustration-eagle-like-figure-1956.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-illustration-eagle-like-figure-1956.png",
       "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0016.jpg",
       "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
       "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-829caf87374f-P0004-01
+chunk_id: CHUNK-8d56d5da4fe1-P0004-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 829caf87374f78ccd36914559be0247f23604318d0c3ccffdd664caef42a96d5
+converted_sha256: 8d56d5da4fe17caa2b6ae7ed6ab53d9949a58f7d371da8d5f94e50ce174ecb8c
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -15,50 +15,57 @@ part: 1
 - Page number: 7
 
 ## Layout And Reading Order
-This page contains a single column of typewritten text. A handwritten page number, "7", is at the bottom center of the page. A handwritten insertion is present in the middle of the main text block. The reading order is from top to bottom.
+This page contains a single column of typewritten text. A handwritten page number, "7", is at the bottom center of the page. The text is an article about Dr. Virginio Gomes G. There are two handwritten insertions within the text.
+
+The reading order is from top to bottom.
 
 ## Literal Transcription
 NUMERO GIGANTE ENERO FEBRERO EL AGUILA
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+---
 ESCRIBEN LOS LECTORES
 LA EMPRESA TIENE EL AGRADO DE PUBLICAR UN ARTICULO ESCRITO PARA
 ESTE DIARIO POR EL DR DARIO PULGAR.
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+---
 _EL_DR_VIRGINIO_GOMES__G__
+
 EN CIRCUNSTANSTAS QUE VIAJABA ABORDO DEL BUQUE " ALONDRA" DE LA
 " COMPAÑIA MARITIMA DEL ESTADO "CON RUMBO A MAGALLANES A LA ALTURA
-DE PUERTO MONTT, DESAPARECION MISTERIOSAMENTE ESTE DISTINGUIDO
-FACULTATIVO QUE HONRO´ A LA MEDICINA CHILENA POR SU TALENTO Y POR
+DE PUERTO MONTT, DESAPARECIÓ MISTERIOSAMENTE ESTE DISTINGUIDO
+FACULTATIVO QUE HONRÓ A LA MEDICINA CHILENA POR SU TALENTO Y POR
 SU AMPLIA CULTURA.
-NACIO´ EN LA CUIDAD DE LOS ANGELES, PERTENECIA A UNA RESPETABLE
+NACIÓ EN LA CUIDAD DE LOS ANGELES, PERTENECIA A UNA RESPETABLE
 FAMILIA .
 EN POSECION DE SU TÍTULO FUÉ A EJERCER SU PROFECION EN IQUQUE Y LUEGO
 DESPUES EN CONCEPCION DONDE TUVO UNA DESTACADA Y BRILLANTE
-ACTUACION COMO MEDICO Y COMO PRINCIPAL FUNDADOR DE LA UNIVERSIDAD
+ACTUACION COMO MÉDICO Y COMO PRINCIPAL FUNDADOR DE LA UNIVERSIDAD
 PENQUISTA . DESIGNADO DIRECTOR DEL ANTIGUO HOSPITAL "SAN JUAN DE DIOS
-ALLA POR EL AÑO 1916 TRATO´ DE MODERNISARLO Y CONVERTIRLO EN UN HOSPITAL
+ALLA POR EL AÑO 1916 TRATÓ DE MODERNISARLO Y CONVERTIRLO EN UN HOSPITAL
 CLINICO QUE LLEVABA APAREJADA LA IDEA DE LA FUNDACION EDE UNA E
-ESCUELA DE MEDICINA Y DE LA UNIVERSIDAD QUE ERA SU IDEAL Y A LA CUAL
-<ins>que se convirtieron/</ins>
-DEDICO´ SUS MAYORES ENERGIAS Y ENTUSIASMOS HASTA SUS DESEOS/EN UNA
+ESCUELA DE MEDICINA Y DE LA UNIVERSIDAD QUE ERA SU IDEAL Y A LA CUAL [handwritten insertion above line] que se convirtieron [/handwritten insertion]
+DEDICÓ SUS MAYORES ENERGIAS Y ENTUSIASMOS HASTA SUS DESEOS[handwritten insertion] /EN UNA [/handwritten insertion]
 HERMOSA REALIDAD.
-EL DOCTOR GOMES DEJA UNA HUELLA LUMUNOSA Y UN RECUERDO INPERESEDERO
+EL DOCTOR GOMES DEJA UNA HUELLA LUMINOSA Y UN RECUERDO INPERESEDERO
 POR SUS CONDICIONES DE HOMBRE DE BIEN Y PROFECIONAL DISTINGUIDO Y
 ALTUISTA. NO ANBICIONO FORTUNA ALGUNA; PRODIGIO EL BIEN A MANO LLENA
 ENTRE SU NUMEROSA CLIENTELA DE TODOS LOS CIRCULOS SOCIALES .
 
-7
+[centered at bottom of page]
+[handwritten] 7 [/handwritten]
 
 ## Images, Captions, And Visual Notes
-There are no images on this page. The page number "7" is handwritten in red ink at the bottom center. A handwritten insertion, "que se convirtieron/", is present in black ink between two lines of the main text block.
+There are no images on this page. The page number "7" is handwritten in red ink at the bottom center. There are two handwritten insertions in black ink within the main body of text.
 
 ## Uncertain Or Illegible
-- The handwritten insertion `que se convirtieron/` is slightly difficult to read but this is the most plausible transcription.
+- The first handwritten insertion, `que se convirtieron`, is somewhat faint but legible.
+- The second handwritten insertion, `/EN UNA`, is clear.
 
 ## Completeness Audit
-This page has been transcribed in its entirety.
+This page has been fully transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and minor handwritten marks which are fully transcribed."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page contains only text. There are no photographs, maps, illustrations, or other significant visual elements that would warrant cropping."
+}
 ```
