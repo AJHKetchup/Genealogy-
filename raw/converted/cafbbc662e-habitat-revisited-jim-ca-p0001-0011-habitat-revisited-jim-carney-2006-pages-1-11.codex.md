@@ -438,28 +438,21 @@ All visible text on the page has been transcribed.
 ```
 
 ## Page Metadata
-- page_number: 7
-- page_type: book-page
-- source_book_title: Habitat Revisited
-- source_author: Jim Carney
-- source_year: 2006
-- source_page_count: 11
-- source_pdf_filename: Habitat Revisited, Jim Carney, 2006.pdf
+
+*   **Page number**: 7
+*   **Source-assigned page number**: 7
+*   **Document title**: Habitat Revisited
+*   **Author**: Jim Carney
+*   **Publication year**: 2006
+*   **Source type**: Book
+*   **Confidence**: 5/5
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number is at the top right. The reading order is sequential from top to bottom.
 
-- text-block-1: Page number `7` at the top right.
-- text-block-2: A paragraph beginning "The senior Conference officials...".
-- text-block-3: A paragraph beginning "One memorable scene:...".
-- text-block-4: A paragraph beginning "Copyright and distribution rights aside,...".
-- text-block-5: A section heading "VISION HABITAT".
-- text-block-6: A paragraph beginning "In September, 1976,...".
-- text-block-7: A paragraph beginning "The UN was insistent...".
-- text-block-8: A paragraph beginning "A couple of my UN Habitat...".
+The page consists of a single column of text. The page number "7" is located at the top right corner. The content flows linearly from top to bottom. A section heading, "VISION HABITAT", is present about halfway down the page.
 
 ## Literal Transcription
-```text
+
 7
 
 The senior Conference officials had a hard time with this. In their view, they had
@@ -509,22 +502,25 @@ a raspy-voiced, incredibly energetic, dynamic Chilean. In Chile under Allende,
 though still in his twenties, Dario had been the number two man in Chile’s state film
 distribution system. He had fetched up at “The Board” after fleeing Pinochet’s
 overthrow of the Allende government in 1973.
-```
 
 ## Images, Captions, And Visual Notes
-This page contains only text. There are no images, illustrations, or other visual elements.
+
+There are no images, illustrations, or other visual elements on this page. The content is entirely text.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
+
+There are no uncertain or illegible words on this page. The text is clear and fully readable.
 
 ## Completeness Audit
-This page has been fully and accurately transcribed.
+
+This page has been fully transcribed. All textual content, including the page number and section heading, has been captured.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text and a page number, with no images, illustrations, or other significant visual elements suitable for cropping."
+  "no_visual_regions_reason": "This page contains only text and does not have any images, illustrations, or other significant visual elements."
 }
 ```
 
@@ -673,12 +669,15 @@ All visible text on the page has been transcribed.
 
 ## Page Metadata
 
-- **Page number**: 10
-- **Source file**: `raw/sources/Habitat Revisited, Jim Carney, 2006.pdf`
+- task_id: `source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0010`
+- page_num: `10`
+- source_id: `cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11`
+- source_title: `Habitat Revisited, Jim Carney, 2006`
+- source_page_label: `10`
 
 ## Layout And Reading Order
 
-The page consists of a single column of text. A page number, "10", is located at the top right corner. The reading order is from top to bottom.
+The page contains a single column of text. The page number "10" is located at the top right corner. The reading order is from top to bottom, starting with the main text, followed by a bolded heading, and then the concluding paragraphs.
 
 ## Literal Transcription
 
@@ -735,23 +734,20 @@ and shipped across continents and oceans.
 
 ## Images, Captions, And Visual Notes
 
-There are no images, captions, or other visual elements on this page. The page contains only typeset text.
+This page contains only text. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
 
-All text on the page is clear and legible.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-The full content of the page has been transcribed.
+This page is complete and has been fully transcribed.
 
 ## Visual Region Manifest
 
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typeset text with no images, illustrations, or other visual elements."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and a page number, with no images, illustrations, or other significant visual elements suitable for cropping."}
 ```
 
 ## Page Metadata
