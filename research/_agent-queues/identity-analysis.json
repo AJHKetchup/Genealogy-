@@ -1,11 +1,22 @@
 ﻿{
     "created":  "2026-05-24",
     "queue":  "identity-analysis",
-    "task_count":  159,
+    "task_count":  161,
     "status_counts":  {
+                          "todo":  2,
                           "done":  159
                       },
     "tasks":  [
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-chunk-0a344364806b-p0008-01-dario-arturo-pulgar-identity-candidate-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/identity/chunk-0a344364806b-p0008-01-dario-arturo-pulgar-identity-candidate.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/identity/chunk-0a344364806b-p0008-01-dario-arturo-pulgar-identity-candidate.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "post-conversion controller start",
@@ -1301,6 +1312,16 @@
                       "status":  "done",
                       "claimed_at":  "2026-05-23T06:37:50Z",
                       "role":  "identity_researcher"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-63c2ae38e2fe-p0014-01-pulgar-a-signature-watch-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-63c2ae38e2fe-p0014-01-pulgar-a-signature-watch.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-63c2ae38e2fe-p0014-01-pulgar-a-signature-watch.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "skill":  "genealogy-proof-review",
