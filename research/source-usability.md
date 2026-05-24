@@ -1,6 +1,6 @@
 # Source Usability
 
-Generated: 2026-05-24T17:18:19Z
+Generated: 2026-05-24T18:09:24Z
 
 This report answers whether each raw source is ready for LLM extraction, still waiting on conversion, or held only on specific pages that need reread.
 
@@ -8,14 +8,14 @@ This report answers whether each raw source is ready for LLM extraction, still w
 
 - partial_with_page_holds: 9
 - partially_usable_for_extraction: 4
-- usable_for_extraction: 6
-- usable_with_page_holds: 1
+- usable_for_extraction: 5
+- usable_with_page_holds: 2
 
 ## Sources
 
 | Source | Status | Converted | Chunks | Pages needing repair | QC-held pages |
 | --- | --- | ---: | ---: | ---: | ---: |
-| raw/sources/ACICR_B_CR_177_001_002.pdf | usable_for_extraction | 5 | 5 | 0 | 0 |
+| raw/sources/ACICR_B_CR_177_001_002.pdf | usable_with_page_holds | 5 | 5 | 0 | 1 |
 | raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf | partial_with_page_holds | 37 | 50 | 0 | 1 |
 | raw/sources/Arrival-Departure Record, Form I-94 B, March 30, 1959.png | usable_for_extraction | 1 | 1 | 0 | 0 |
 | raw/sources/CV of Dario Arturo Pulgar.pdf | partially_usable_for_extraction | 1 | 1 | 0 | 0 |
