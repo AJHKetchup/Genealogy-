@@ -8,7 +8,7 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | medium | high | pass | none | Dario, Pulgar |
+| 4 | medium | medium | spot-check | explicit_reread_needed | Dario, Pulgar |
 | 5 | medium | medium | spot-check | explicit_reread_needed | Dario, Pulgar |
 | 6 | medium | medium | spot-check | explicit_reread_needed | Dario, Pulgar |
 | 7 | high | high | pass | none | Dario, Pulgar |
