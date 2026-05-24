@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-989640e15e2c-P0007-01
+chunk_id: CHUNK-f4f37b8f6574-P0007-01
 source_converted: raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md
-converted_sha256: 989640e15e2c8f2feb877190c60f03072cc68405f5f6d1b19aec71439a508f83
+converted_sha256: f4f37b8f6574e2b9b333569d81e33b17b3a9cbb091032ea8ea4aa18cd1dcc080
 source: raw/sources/Habitat Revisited, Jim Carney, 2006.pdf
 source_sha256: fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9
 source_manifest: raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json
@@ -12,27 +12,20 @@ part: 1
 ---
 
 ## Page Metadata
-- page_number: 7
-- page_type: book-page
-- source_book_title: Habitat Revisited
-- source_author: Jim Carney
-- source_year: 2006
-- source_page_count: 11
-- source_pdf_filename: Habitat Revisited, Jim Carney, 2006.pdf
+
+- **page_number**: 7
+- **source_book_title**: Habitat Revisited
+- **source_author**: Jim Carney
+- **source_publication_year**: 2006
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number is at the top right. The reading order is sequential from top to bottom.
 
-- text-block-1: Page number `7` at the top right.
-- text-block-2: A paragraph beginning "The senior Conference officials...".
-- text-block-3: A paragraph beginning "One memorable scene:...".
-- text-block-4: A paragraph beginning "Copyright and distribution rights aside,...".
-- text-block-5: A section heading "VISION HABITAT".
-- text-block-6: A paragraph beginning "In September, 1976,...".
-- text-block-7: A paragraph beginning "The UN was insistent...".
-- text-block-8: A paragraph beginning "A couple of my UN Habitat...".
+The page contains a single column of text. The reading order is from top to bottom.
+
+- **text_block_1**: The main body of text, including the page number at the top right.
 
 ## Literal Transcription
+
 ```text
 7
 
@@ -86,18 +79,22 @@ overthrow of the Allende government in 1973.
 ```
 
 ## Images, Captions, And Visual Notes
-This page contains only text. There are no images, illustrations, or other visual elements.
+
+There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
+
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page has been fully and accurately transcribed.
+
+This page is fully transcribed.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text and a page number, with no images, illustrations, or other significant visual elements suitable for cropping."
+  "no_visual_regions_reason": "This page consists entirely of text and contains no images, illustrations, or other visual elements."
 }
 ```

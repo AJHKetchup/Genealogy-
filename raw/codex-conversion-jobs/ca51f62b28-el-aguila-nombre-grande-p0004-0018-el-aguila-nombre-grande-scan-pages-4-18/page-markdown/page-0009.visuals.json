@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-24T00:47:24Z",
+  "created": "2026-05-24T08:12:13Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "visual_region_0001",
+      "region_id": "vr_01",
       "kind": "photograph",
-      "caption_literal": "( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI CA",
-      "caption_type": "nearby-text",
+      "caption_literal": "( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA",
+      "caption_type": "source-caption",
       "identity_basis": "caption",
-      "source_context": "The man in the photograph is identified in the adjacent text as \"CAPITAN GAJARDO\".",
+      "source_context": "A man identified as Capitán Gajardo, drinking from a cup after climbing a mountain.",
       "confidence": "high",
-      "inline_anchor": "visual_region_0001",
+      "inline_anchor": "vr_01",
       "bbox_pct": [
-        52.3,
+        52.2,
         14.4,
-        96.1,
-        59.3
+        96.2,
+        58.5
       ],
       "bbox_pixels": [
-        2462,
+        2458,
         1032,
-        4536,
-        4271
+        4541,
+        4214
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-capitan-gajardo-recomforta.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-capitan-gajardo-recomforta.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-capitan-gajardo-drinking-after-climb.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-capitan-gajardo-drinking-after-climb.png",
       "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0009.jpg",
       "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
       "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",
@@ -41,25 +41,25 @@
       "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0009.md"
     },
     {
-      "region_id": "visual_region_0002",
+      "region_id": "vr_02",
       "kind": "illustration",
-      "caption_literal": "PORFRAY CAMILO HENRIQUEZ",
+      "caption_literal": "LA AURORA DE CHILE ... PORFRAY CAMILO HENRIQUEZ EN EL AÑO 1812 .",
       "caption_type": "nearby-text",
-      "identity_basis": "caption",
-      "source_context": "The man in the portrait is identified in the adjacent text as \"FRAY CAMILO HENRIQUEZ\".",
+      "identity_basis": "name-in-text",
+      "source_context": "A portrait of a man in clerical attire, next to a text block identifying Fray Camilo Henríquez as the founder of the first national newspaper, \"La Aurora de Chile\".",
       "confidence": "high",
-      "inline_anchor": "visual_region_0002",
+      "inline_anchor": "vr_02",
       "bbox_pct": [
-        5.3,
-        55.3,
-        49.3,
-        88.2
+        5.2,
+        55.2,
+        48.3,
+        88.4
       ],
       "bbox_pixels": [
-        246,
-        3975,
-        2329,
-        6351
+        241,
+        3968,
+        2282,
+        6365
       ],
       "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-portrait.png",
       "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-portrait.png",
