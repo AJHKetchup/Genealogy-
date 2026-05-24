@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-83c6a3d0848e-P0011-01
+chunk_id: CHUNK-c3c383bb7b4e-P0011-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23.codex.md
-converted_sha256: 83c6a3d0848edc34899071a5546f8857955a95d145f0056212a80cfe28a36c4f
+converted_sha256: c3c383bb7b4e241409abc58f697dfbdd88784c617e8f90a0241848564f52cae4
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/manifest.json
@@ -12,29 +12,25 @@ part: 1
 ---
 
 ## Page Metadata
-- Page: 11
-- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
-- Source page: 11
+
+- **Source ID**: `anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23`
+- **Page number**: `11`
+- **Original page number**: Unnumbered, but follows page 10.
+- **Full page image URL**: `https://images.wesolvethecase.com/full/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/p0011.jpg`
 
 ## Layout And Reading Order
-This page contains a single column of text. The reading order is as follows:
-1. A decorative header element at the top of the page.
-2. The main title, "BOLETIN DE INSTRUCCION PUBLICA".
-3. A subtitle, "CONSEJO DE INSTRUCCION PUBLICA", separated by horizontal rules.
-4. The session date, "Sesion de 2 de Setiembre de 1918".
-5. A paragraph detailing the attendees of the session.
-6. A second paragraph stating that titles and degrees were conferred.
-7. A subheading, "Médicos-Cirujanos:".
-8. A list of five individuals who were granted the title of Médico-Cirujano.
+
+The page consists of a single column of text. The reading order is from top to bottom. It begins with a decorative header, followed by a title, a subtitle, the date of a session, a paragraph describing the session, and a list of names under the heading "Médicos-Cirujanos".
 
 ## Literal Transcription
-[decorative rule]
+
+[decorative header]
 
 BOLETIN DE INSTRUCCION PUBLICA
-
----
+***
 CONSEJO DE INSTRUCCION PUBLICA
----
+***
+.
 
 **Sesion de 2 de Setiembre de 1918**
 
@@ -54,19 +50,23 @@ a don Ramon Almeyda Arroyo
 » Armando Zagal Anabalon.
 
 ## Images, Captions, And Visual Notes
-At the top of the page is a decorative header element. It is a rectangular box with a border of small, pointed shapes. Inside the box are two horizontal lines of a repeating scroll-like pattern. This is a standard typographic ornament and has not been cropped.
+
+- **[decorative header]** A decorative rectangular border with intricate patterns at the top of the page.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
+
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
-This page has been fully and accurately transcribed. All text and visual elements have been accounted for.
+
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The only visual element on the page is a decorative typographic rule at the top, which is not a substantial illustration requiring a separate crop."
+  "no_visual_regions_reason": "The page contains a decorative header, but it is not a substantial visual element suitable for cropping as a standalone asset."
 }
 ```
 

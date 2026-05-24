@@ -439,20 +439,20 @@ All visible text on the page has been transcribed.
 
 ## Page Metadata
 
-- **page_number**: 7
-- **source_book_title**: Habitat Revisited
-- **source_author**: Jim Carney
-- **source_publication_year**: 2006
+*   **Page number**: 7
+*   **Source-assigned page number**: 7
+*   **Document title**: Habitat Revisited
+*   **Author**: Jim Carney
+*   **Publication year**: 2006
+*   **Source type**: Book
+*   **Confidence**: 5/5
 
 ## Layout And Reading Order
 
-The page contains a single column of text. The reading order is from top to bottom.
-
-- **text_block_1**: The main body of text, including the page number at the top right.
+The page consists of a single column of text. The page number "7" is located at the top right corner. The content flows linearly from top to bottom. A section heading, "VISION HABITAT", is present about halfway down the page.
 
 ## Literal Transcription
 
-```text
 7
 
 The senior Conference officials had a hard time with this. In their view, they had
@@ -502,26 +502,25 @@ a raspy-voiced, incredibly energetic, dynamic Chilean. In Chile under Allende,
 though still in his twenties, Dario had been the number two man in Chile’s state film
 distribution system. He had fetched up at “The Board” after fleeing Pinochet’s
 overthrow of the Allende government in 1973.
-```
 
 ## Images, Captions, And Visual Notes
 
-There are no images, illustrations, or other visual elements on this page.
+There are no images, illustrations, or other visual elements on this page. The content is entirely text.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible words on this page.
+There are no uncertain or illegible words on this page. The text is clear and fully readable.
 
 ## Completeness Audit
 
-This page is fully transcribed.
+This page has been fully transcribed. All textual content, including the page number and section heading, has been captured.
 
 ## Visual Region Manifest
 
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page consists entirely of text and contains no images, illustrations, or other visual elements."
+  "no_visual_regions_reason": "This page contains only text and does not have any images, illustrations, or other significant visual elements."
 }
 ```
 

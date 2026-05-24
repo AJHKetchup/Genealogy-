@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-24T08:11:19Z",
+  "created": "2026-05-24T09:56:33Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
@@ -8,7 +8,7 @@
   "page": 11,
   "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-images/page-0011.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0011.md",
-  "no_visual_regions_reason": "The only visual element on the page is a decorative typographic rule at the top, which is not a substantial illustration requiring a separate crop.",
+  "no_visual_regions_reason": "The page contains a decorative header, but it is not a substantial visual element suitable for cropping as a standalone asset.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

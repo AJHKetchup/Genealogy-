@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-24T05:11:07Z",
+  "created": "2026-05-24T09:57:04Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -9,15 +9,38 @@
   "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0013.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0013.md",
   "no_visual_regions_reason": "",
-  "visual_regions": [],
-  "skipped_regions": [
+  "visual_regions": [
     {
-      "region_id": "vr-01",
-      "kind": "table",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA",
-      "source_context": "A small printed calendar for February 1956 is glued to the bottom of the page."
+      "region_id": "p0013-001",
+      "kind": "illustration",
+      "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA EMPRESA",
+      "caption_type": "nearby-text",
+      "identity_basis": "none",
+      "source_context": "A small, pasted-in calendar for February 1956.",
+      "confidence": "high",
+      "inline_anchor": "[[p0013-001]]",
+      "bbox_pct": [
+        27.9,
+        77.9,
+        72.3,
+        95.3
+      ],
+      "bbox_pixels": [
+        1519,
+        6519,
+        3949,
+        7984
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0013/page-0013-image-01-p0013-001-calendar-1956.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0013/page-0013-image-01-p0013-001-calendar-1956.png",
+      "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0013.jpg",
+      "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
+      "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",
+      "job_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
+      "page": 13,
+      "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0013.md"
     }
   ],
+  "skipped_regions": [],
   "flags": []
 }

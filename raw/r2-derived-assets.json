@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-24T08:18:18.335680+00:00",
+  "created": "2026-05-24T10:04:42.385710+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -2901,6 +2901,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0013/page-0013-image-01-p0013-001-calendar-1956.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0013/page-0013-image-01-p0013-001-calendar-1956.png",
+      "bytes": 2490009,
+      "sha256": "9250b5b3b602b71c8a8542679eff91035d1c7f370080d01affc99a4689a5a5eb",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0013/page-0013-image-01-p0013-calendar-1956.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0013/page-0013-image-01-p0013-calendar-1956.png",
       "bytes": 2808088,
@@ -4627,6 +4634,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550/extracted-images/page-0539/page-0539-docling-image-01.png",
       "bytes": 87943,
       "sha256": "58eb440daab148ea86593ad03f3b24e4b86aa875b2bd7ee8408c96e46195ff2d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550/extracted-images/page-0540/page-0540-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550/extracted-images/page-0540/page-0540-docling-image-01.png",
+      "bytes": 57348,
+      "sha256": "d782e1a9c9d475665def9958be196d0e42f7e9ff2b497b338f72a5ec817990fd",
       "media_type": "image/png"
     },
     {
@@ -7714,6 +7728,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1276-1300-s522bis-29-3-pages-1276-1300/extracted-images/page-1279/page-1279-docling-image-01.png",
       "bytes": 39858,
       "sha256": "fbb968311c83fe85fd052ecb6de5971526f4ec91b30fb5d296f9a0bf4fa160f1",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1276-1300-s522bis-29-3-pages-1276-1300/extracted-images/page-1280/page-1280-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1276-1300-s522bis-29-3-pages-1276-1300/extracted-images/page-1280/page-1280-docling-image-01.png",
+      "bytes": 31274,
+      "sha256": "0432a105269d9d4a70555c268b6f4de6096ec70a2a44e0708038864d230dc2c3",
       "media_type": "image/png"
     },
     {
@@ -12228,10 +12249,10 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 7,
-    "total_bytes": 69068453,
-    "uploaded": 1,
-    "skipped": 6,
+    "total_files": 10,
+    "total_bytes": 71824166,
+    "uploaded": 3,
+    "skipped": 7,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,
@@ -12241,9 +12262,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1750,
+      "scanned": 1753,
       "deleted": 0,
-      "skipped": 1750,
+      "skipped": 1753,
       "errors": []
     }
   }

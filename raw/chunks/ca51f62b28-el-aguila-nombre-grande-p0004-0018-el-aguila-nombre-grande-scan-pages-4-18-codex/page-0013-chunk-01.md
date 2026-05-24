@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-96794e9b1b2f-P0013-01
+chunk_id: CHUNK-9c7b81f0cb64-P0013-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 96794e9b1b2f27e2b54b7718c8f025f2c7efdc487595044991038a29dae89c26
+converted_sha256: 9c7b81f0cb64f71df213436ad61f63a18a5c936627bfa7d9d4f4a84873dcb3a1
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -12,103 +12,116 @@ part: 1
 ---
 
 ## Page Metadata
-
-- **Page number**: 13
-- **Document title**: El Aguila
-- **Publication date**: Enero - Febrero 1956
+- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0013`
+- Model route: `pro`
+- Route reasons: suspicious_readings
+- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/work-orders/page-0013.md`
+- Page: 13
+- Output Markdown target: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0013.md`
+- External research relevance: ``
+- External requested treatment: ``
+- External relevance reasons: none
+- Recommended action: `reread-page`
+- Quality flags: none
+- Technical reread clues: PULGA -> Pulgar
 
 ## Layout And Reading Order
+The page is a single column of typed text. The reading order is from top to bottom.
 
-The page consists of a single column of typewritten text. The content includes a header, a main title, and several short articles or notes under subheadings. A small printed calendar for February 1956 is glued to the bottom of the page. The reading order is from top to bottom.
+1.  A header with the publication title and date range, spanning the width of the page.
+2.  A section titled "DE TODO UN POCO".
+3.  A subsection titled "CONCEPCION", followed by two short paragraphs.
+4.  A horizontal separator line.
+5.  A short section with three statements and a reference to answers on another page, followed by a separator line made of the number '6'.
+6.  A section titled "NOTAS DE LA EMPRESA:", followed by two paragraphs and another separator line made of the number '6'.
+7.  A caption for a visual element.
+8.  A small, pasted-in calendar for February 1956.
+9.  A page number, "13", stamped in a circle at the bottom right.
 
 ## Literal Transcription
-
+```text
 EDICION GIGANTE ENERO - FEBRERO EL AGUILA
-___
+---
 DE TODO UN POCO
-___
-CONCEPCION
-___
 
+CONCEPCION
+---
 DURANTE QUE PERMANECIMOS EN EL FUNDO EN EL BARRIO LA COMPAÑIA DE S
 PROSEDIO A CANBIAR A LA VES LA CAÑERIA DE CALLE CASTELLON ENTRE
 VICTOR LAMAS Y COCHRANE
 
-EN CALLE COCRANE UNA ENPRESA CONTRATISTA TOMO A CARG O LA PAVIMENT ION
+EN CALLE COCRANE UNA ENPRESA CONTRATISTA TOMO A CARG O LA PAVIMEN ION
 DE DICHA CALLE LOS TRABAJOS SE ENCONTRABAN BASTANTE ADELANTADOS
-___
-
+---
 EL RIO QUE PASA POR LONDRES ES EL THAMES
 G G V PERTENECE AL PARTIDO RADICAL
-LA ISLA DE MALTA SE ENCUENTR A EN EL MEDITERRANEO
+LA ISLA DE MALTA SE ENCUENTRA EN EL MEDITERRANEO
 RESPUESTAS DE PAGUINA 3
-66666666666666666666666666666666666666666666666666666666666666666666666666
-___
+6666666666666666666666666666666666666666666666666666666666666666666666
 
 NOTAS DE LA EMPRESA:
-LA EMPRESA A DESIGNADO A DR DARIO PULGA R A NUESTRO DISTRIBUIDOR
+LA EMPRESA A DESIGNADO A DR DARIO PULGA´R A NUESTRO DISTRIBUIDOR
 OFICIAL PAPA NUMEROS ATRASADOS SIRVAN DIRIGIRSE A NUESTRA DIRECCION EN
 CONCEPCION . LUEGO SE HABRIRAN LAS SUSCRIPCIONES PARA LO CUAL
 CONSULTEN CON NUESTRO DISTRIBUIDOR.
 
-CTOR EL DEPARTAMENTO DE PROPAGANDA LO MANTENDRA INFORMADO DE LAS
-CTIVIDADES DE LA ENPRESA
-6666666666666666666666666666666666666666666666666666666
+EL DIRECTOR EL DEPARTAMENTO DE PROPAGANDA LO MANTENDRA INFORMADO DE LAS
+ACTIVIDADES DE LA EMPRESA
+6666666666666666666666666666666666666666666666666666666666666
 
-CALENDARIO 1956 OBSEQUIO DE LA ENPRESA
+CALENDARIO 1956 OBSEQUIO DE LA EMPRESA
 
-[vr-01]
-| 1956 | | FEBRERO | | 1956 | | |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+[[p0013-001]]
+| 1956 | FEBRERO | 1956 |
+| :--- | :--- | :--- |
 | Dom. | Lun. | Mart. | Miér. | Juev. | Vier. | Sáb. |
 | | | | 1 | 2 | 3 | 4 |
 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
-| [12?] | 13 | 14 | 15 | 16 | 17 | 18 |
-| [19?] | 20 | 21 | 22 | 23 | 24 | 25 |
-| [26?] | 27 | 28 | 29 | [30?] | [31?] | |
+| [?12] | 13 | 14 | 15 | 16 | 17 | 18 |
+| [?19] | 20 | 21 | 22 | 23 | 24 | 25 |
+| 26 | 27 | 28 | 29 | [?30] | [?31] | |
 
 13
+```
 
 ## Images, Captions, And Visual Notes
+Pipeline-extracted visual crops:
+- ![nearby-text: CALENDARIO 1956 OBSEQUIO DE LA EMPRESA](../extracted-images/page-0013/page-0013-image-01-p0013-001-calendar-1956.png)
+  - Kind: illustration; label basis: nearby-text; bbox_pct: [27.9, 77.9, 72.3, 95.3]
+  - Source context: A small, pasted-in calendar for February 1956.
 
-- **[vr-01]** A small printed calendar for February 1956 is glued to the bottom of the page. The text "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA" appears just above it. The calendar is slightly damaged; a piece of transparent tape covers the first column of dates (5, 12, 19, 26), making them partially obscured. There is a dark mark, possibly from a staple, above the year "1956". The numbers 30 and 31 are very faint.
-- A long, thin, brown stain runs diagonally through the last paragraph of text.
-- Faint text from the reverse side of the page is visible as bleed-through in several areas.
-- The page number "13" is visible at the bottom right corner.
+- **[[p0013-001]]** A small, printed calendar for February 1956 has been pasted onto the page. The calendar is laid out in a grid with days of the week abbreviated at the top. Some numbers are obscured by what appears to be tape. The caption "CALENDARIO 1956 OBSEQUIO DE LA EMPRESA" is typed directly above it.
 
 ## Uncertain Or Illegible
-
-- **[12?]**: The number 12 in the calendar is partially obscured by tape.
-- **[19?]**: The number 19 in the calendar is partially obscured by tape.
-- **[26?]**: The number 26 in the calendar is partially obscured by tape.
-- **[30?]**: The number 30 in the calendar is extremely faint.
-- **[31?]**: The number 31 in the calendar is extremely faint.
+- **Calendar, Row 3:** The number `12` is partially obscured by tape, but its shape is discernible.
+- **Calendar, Row 4:** The number `19` is partially obscured by tape, but its shape is discernible.
+- **Calendar, Row 5:** The numbers `30` and `31` are very faint. These numbers are incorrect for the month of February, even in a leap year like 1956, which had 29 days.
 
 ## Completeness Audit
-
-This page has been transcribed in its entirety. All text, including the glued-on calendar, has been captured. Visual elements and page condition have been described.
+The page has been fully transcribed. All text, visual elements, and marginalia have been accounted for.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "vr-01",
-      "kind": "table",
+      "region_id": "p0013-001",
+      "kind": "illustration",
       "bbox_pct": [
-        25.5,
-        77.5,
-        70.5,
-        95.0
+        27.9,
+        77.9,
+        72.3,
+        95.3
       ],
-      "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA",
+      "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA EMPRESA",
       "caption_type": "nearby-text",
       "identity_basis": "none",
-      "source_context": "A small printed calendar for February 1956 is glued to the bottom of the page.",
+      "source_context": "A small, pasted-in calendar for February 1956.",
       "confidence": "high",
-      "suggested_filename": "p0013-vr-01-calendar-1956.jpg",
-      "inline_anchor": "[vr-01]"
+      "suggested_filename": "p0013-001-calendar-1956.jpg",
+      "inline_anchor": "[[p0013-001]]"
     }
   ],
   "no_visual_regions_reason": null
