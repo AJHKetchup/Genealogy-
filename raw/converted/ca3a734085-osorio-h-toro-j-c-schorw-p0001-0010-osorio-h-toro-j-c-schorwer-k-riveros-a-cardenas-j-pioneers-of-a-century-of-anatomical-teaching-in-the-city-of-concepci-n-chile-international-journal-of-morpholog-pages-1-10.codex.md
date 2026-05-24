@@ -509,35 +509,23 @@ All visible text and images on the page have been transcribed and described.
 ```
 
 ## Page Metadata
-```json
-{
-  "page_number": 5,
-  "page_order_in_source": 5,
-  "source_page_number": "653",
-  "source_type": "journal_article",
-  "source_language": "en",
-  "source_acronym": "IJM",
-  "publication_title": "International Journal of Morphology",
-  "article_title": "Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile",
-  "authors": "Osorio, H.; Toro, J.C.; Schorwer, K.; Riveros, A. & Cardenas, J.",
-  "year": 2020,
-  "volume": 38,
-  "issue": 3,
-  "page_range": "650-658"
-}
-```
-## Layout And Reading Order
-This page is a single-page document with a two-column layout. The text flows from the top to the bottom of the left column, and then continues from the top to the bottom of the right column. A header with publication and article information is at the top of the page, and a page number is at the bottom right.
+- **page_number**: 653
+- **paper_title**: Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile
+- **journal_title**: International Journal of Morphology
+- **author_list**: OSORIO, H.; TORO, JC; SCHORWER, K.; RIVEROS, A. & CARDENAS, J.
+- **publication_info**: Int. J. Morphol., 38(3):650-658, 2020.
+- **page_header**: OSORIO, H.; TORO, JC; SCHORWER, K.; RIVEROS, A. & CARDENAS, J. Pioneers of a century of anatomical teaching in the city of Concepción. Int. J. Morphol., 38(3):650-658, 2020.
+- **page_footer**: 653
 
-The reading order is as follows:
-1.  Header
-2.  Left column, top to bottom
-3.  Right column, top to bottom
-4.  Footer (page number)
+## Layout And Reading Order
+This page consists of a header, a two-column body of text, and a footer. The reading order is the header, followed by the left column from top to bottom, then the right column from top to bottom, and finally the footer.
 
 ## Literal Transcription
-```text
+**Header:**
+
 OSORIO, H.; TORO, JC; SCHORWER, K.; RIVEROS, A. & CARDENAS, J. Pioneers of a century of anatomical teaching in the city of Concepción. Int. J. Morphol., 38(3):650-658, 2020.
+
+**Left Column:**
 
 This pavilion was used solely for Dentistry in 1922 and 1923, under the
 teaching of Dr. Humberto Rojas Troncoso, accompanied by important
@@ -550,7 +538,6 @@ Medicine (Solervicens; Muñoz, 1993).
 milestone for the teaching and development of Chilean medicine took
 place; in fact, the first year of Medicine was created in Concepción, and
 the news was communicated to the country.
-
 While the inauguration of the School was taking place in Concepción, in
 Santiago the high enrollments quadrupled in just a few years. An
 example of this is that in that same year, the number of first-year medical
@@ -589,6 +576,8 @@ taught until his retirement in 1945. It should be noted that during his
 academic life, Dr. Gonzalez also developed research activities where
 his monographs on abdominal pain and vesicovaginal fistulas stood
 out. After a long battle against a chronic disease, Dr. Gonzalez died in September 1957.
+
+**Right Column:**
 
 (Solervicens; Muñoz, 1993; Archives of the Department of Normal
 Anatomy and Legal Medicine, University of Concepción, 2019).
@@ -634,24 +623,26 @@ examining committee was from the Faculty of Medicine of the University
 of Chile.
 
 This anatomy course was taught by Dr. Gonzalez accompanied by
-his prosectors, among whom stood out a young man
+his students, among whom stood out a young man
+
+**Footer:**
 
 653
-```
+
 ## Images, Captions, And Visual Notes
-There are no images on this page. The text refers to "Fig. 1B" in the biographical note for Dr. Enrique Gonzalez Pastor, but the figure itself is not present on this page.
+There are no images, photographs, or illustrations on this page.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible portions of text on this page.
+None.
 
 ## Completeness Audit
-This page has been transcribed in its entirety. The text in both columns is part of a larger article, with content continuing from the previous page and onto the next. The final sentence in the right column is cut off at the bottom of the page.
+The entire page, including the header, two-column body, and footer, has been transcribed.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text in a two-column layout. There are no photographs, illustrations, maps, or other visual elements."
+  "no_visual_regions_reason": "This page contains only text in a two-column layout."
 }
 ```
 

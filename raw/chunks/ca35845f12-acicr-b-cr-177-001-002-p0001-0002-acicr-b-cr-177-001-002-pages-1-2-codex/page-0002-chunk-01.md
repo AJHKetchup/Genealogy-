@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-0bf2b8d93d69-P0002-01
+chunk_id: CHUNK-10ffc355ade8-P0002-01
 source_converted: raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md
-converted_sha256: 0bf2b8d93d696f51ca99722590237fdfb24c4b782ba2212e46f114b40049967e
+converted_sha256: 10ffc355ade8a9712100680ef70f3dae0f87e408d18f55798fbfb9e28e3f2950
 source: raw/sources/ACICR_B_CR_177_001_002.pdf
 source_sha256: 35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35
 source_manifest: raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json
@@ -12,13 +12,16 @@ part: 1
 ---
 
 ## Page Metadata
-- Page number: 2
-- Source file: `ACICR_B_CR_177_001_002.pdf`
-- Source page: 2
+- Source: `ACICR_B_CR_177_001_002.pdf`
+- Page: `2`
+- Page type: `text`
+- Page number: `2`
+- Source language: `fr`
+- Source title: `Conférence diplomatique, juin 1929`
 
 ## Layout And Reading Order
 
-The page contains a two-column layout. The left column contains item numbers and dates, and the right column contains descriptive text. There are also some handwritten annotations in the left margin.
+The page contains a list of numbered entries, each with a date and a description of an action or communication. There is a header at the top right with "Ch. 177 Conférence diplomatique, juin 1929 2.". Some entries have "plié" or "m s" written in the left margin. The entries are presented in a single column.
 
 ## Literal Transcription
 
@@ -26,49 +29,48 @@ Ch. 177 Conférence diplomatique, juin 1929 2.
 
 17.- 1.11.28. Répondons à l/ ci-dessus,
 18.- 31.10.28. M. Decencière fait parvenir à M. Werner les épreuves de son
-cours sur les PG
+                     cours sur les PG
 19.- 27.11.28. A.r. à l/ ci-dessus, retournons épreuves et réclamons mise en
-pages.
+                     pages.
 plié 20.- 7.12.28. Alliance de l'URSS demande 6 exemplaires du projets de la Conven-
-tion de Genève et du Code des PG
+                     tion de Genève et du Code des PG
 21.- 12.12.28. Transmettons demande ci-dessus à M. Dinichert
 22.- 13.12.28. M. Dinichert nous envoie 10 ex, de chacun des projets
 23.- 14.12.28. Répondons à Alliance en envoyant 6 ex. de chacun des projets
-(20)
+                     (20)
 24.- 14.12.28. Remercions M. Dinichert pour les 20 ex. et demandons autorisa-
-tion de publier dans le Bulletin la circ. du 2.7.28 (4)
+                     tion de publier dans le Bulletin la circ. du 2.7.28 (4)
 25.- 21.12.28. Département politique autorise publication de la circ. dans
-Bulletin (24)
+                     Bulletin (24)
 plié 26.- 27.12.28. Alliance a.r. de l'envoi du 14.12. (20)
 27.- 8.1.29. Envoyons à M. Lacroix les épreuves corrigées du tirage à part
-de l'étude de M. Werner sur PG.
+                     de l'étude de M. Werner sur PG.
 28.- 21.1.29. Librairie Hachette informe M. Werner que les 500 tirés à part
-couteront 2000 frs français.
+                     couteront 2000 frs français.
 29.- 23.1.29. M/ l/ à M. Motta au sujet représentation du CI à conférence diplo-
-matique.
+                     matique.
 30.- 24.1.29. M. Werner répond à l/ du 21.1. (30) au sujet de ses tirés à part
 31.- 25.1.29. Librairie répond à l/ ci-dessus. Toutes les indications de M.
-Werner ont été suivie, a envoyé le bon à tirer à l'imprimerie
-m S. 32.- s.d. 29. L/ de l'Académie de droit intern. sur tirage à part de M. Werner
+                     Werner ont été suivie, a envoyé le bon à tirer à l'imprimerie
+m s. 32.- s.d. 29. L/ de l'Académie de droit intern. sur tirage à part de M. Werner
 33.- 29.1.29. A.r. à l' ci-dessus. Prenons note que l'indication relative
-au CI ne pourra figurer sur la couverture des tirés à part.
+                     au CI ne pourra figurer sur la couverture des tirés à part.
 34.- 29.1.29. Remercions librairie Hachette pour l/ du 25.1. (31)
 35.- 11.2.29. Infirmons M. Dinichert que M. Walter Yung pourrait fonctionner
-comme secrétaire avec M. Des Gouttes
+                     comme secrétaire avec M. Des Gouttes
 36.- 13.2.29. Départ. politique nous informe que les Etats Unis s'opposent à
-ce que le CI prenne part à la collaboration du Code des PG
+                     ce que le CI prenne part à la collaboration du Code des PG
 37.- 25.2.29. A.r. de l/ ci-dessus, sommes reconnaissants au Dép. politi. de.
-bien vouloir auprès des Etats-Unis [illegible]
+                     bien vouloir auprès des Etats-Unis [illegible]
 
 ## Images, Captions, And Visual Notes
-- The text "plié" is handwritten in the left margin next to items 20 and 26.
-- The text "m S." is handwritten in the left margin next to item 32.
+There are no images or captions on this page.
 
 ## Uncertain Or Illegible
-- Item 37: The end of the line is illegible.
+- Line 37: The end of the line is illegible after "Etats-Unis".
 
 ## Completeness Audit
-The transcription is complete and represents all visible text on the page.
+The transcription is complete and accurate for all visible text on the page, with the exception of one illegible word at the end of line 37.
 
 ## Visual Region Manifest
-{"visual_regions": []}
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions present."}

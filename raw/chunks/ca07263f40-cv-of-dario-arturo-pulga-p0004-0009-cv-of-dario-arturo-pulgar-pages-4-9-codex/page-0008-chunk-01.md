@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-4368832108c4-P0008-01
+chunk_id: CHUNK-b1951fcc40e2-P0008-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: 4368832108c4b1833d1048e93827052bf23c342dc21c1e534b7ab3ada08460d6
+converted_sha256: b1951fcc40e2c9f239b599bc146e53fa490b4e1313fcb402f33425880b22bba9
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -12,21 +12,26 @@ part: 1
 ---
 
 ## Page Metadata
-
 - task_id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0008`
-- page_number: 8
-- source_id: `CV of Dario Arturo Pulgar.pdf`
+- page_num: 8
+- source_id: `ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9`
+- source_type: `pdf`
+- source_title: `CV of Dario Arturo Pulgar`
+- source_page_num: 8
+- source_author: 
+- source_date: 
+- source_lang: `en`
+- source_format: `cv`
 
 ## Layout And Reading Order
-
-The page is a single column of text, continuing a curriculum vitae. The content is organized chronologically in reverse order, with each professional experience listed under a heading that includes the date range. Each entry consists of the date range (underlined), the employer's name (bold), the location, the job title (bold), and a descriptive paragraph. The page ends with the heading "EDUCATION". The reading order is from top to bottom.
+The page is a single column of text, read from top to bottom. It is a continuation of a curriculum vitae, detailing professional experience in chronological order (from most recent to oldest). Each entry includes a date range, employer, location, job title, and a descriptive paragraph. The final line on the page is a new section heading.
 
 ## Literal Transcription
-
-**<u>1979 - 1982</u>**
-**United Nations Centre for Human Settlements (HABITAT)**
+**1979 - 1982**
+---
+**United Nations Centre for Human Settlements (HABITAT)
 Nairobi, Kenya
-**Development Support Communications Officer**
+Development Support Communications Officer**
 Establish a worldwide distribution system for films produced for Habitat, United Nations
 Conference on Human Settlements. Supervise the production of language versions and release
 prints for regional distribution. Grant rights for television broadcasting. Design a film library loan
@@ -38,10 +43,11 @@ communication. Carry out pre-feasibility missions in Africa including Uganda, Ta
 Mali and Senegal. Design information and/or training projects using audio-visual means in
 support of rural/urban settlers.
 
-**<u>1974 - 1978</u>**
-**National Film Board of Canada (NFB)**
+**1974 - 1978**
+---
+**National Film Board of Canada (NFB)
 Montreal, Canada
-**Audio Visual Consultant**
+Audio Visual Consultant**
 As part of the NFB involvement with the United Nations Conference on Human Settlements
 identify suitable locations for filming, describing rural and urban problems and attempted
 solutions while providing technical assistance to national film crews in Central America and the
@@ -54,43 +60,41 @@ the production of six documentary films and iii) participate as production assis
 of two documentaries: "Waiting for Fidel" and "I Am an Old Tree" and translating the Spanish
 dialogue into English.
 
-**<u>1972 - 1973</u>**
-**Chile Films**
+**1972 - 1973**
+---
+**Chile Films
 Santiago, Chile
-**General Manager Distribution and Exhibition, Head of International Department**
+General Manager Distribution and Exhibition, Head of International Department**
 Develop a national policy for film distribution and exhibition. Purchase films for theatrical
 exhibition. Administer the operation of ten cinemas and a distribution company. Organise the III
 Latin American Film Festival, Viña del Mar. Organise a 16mm distribution network using mobile
 cinema units. Establish and maintain contacts with international film organisations. Review films
 for possible purchase. Organise film festivals and retrospective.
 
-**<u>1970 - 1972</u>**
-**Cine, Televisión y Comunicaciones (CITELCO)**
+**1970 - 1972**
+---
+**Cine, Televisión y Comunicaciones (CITELCO)
 Santiago, Chile
-**Producer**
+Producer**
 Direct company operations and produce feature theatrical films and documentaries. Organise
 co-production of documentaries with Italy. Feature films produced include: "La Colonia Penal"",
 "La Expropiación" and "El Realismo Socialista" directed by Raúl Ruiz.
 
-**EDUCATION**
+EDUCATION
 
 ## Images, Captions, And Visual Notes
-
-This page contains only text. There are no images, illustrations, or other visual elements.
+There are no images, captions, or other visual elements on this page.
 
 ## Uncertain Or Illegible
-
-There are no uncertain or illegible parts of this document.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-The entire content of the page has been transcribed. The page ends with the heading "EDUCATION", indicating that this section likely continues on the following page.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page consists entirely of typed text and does not contain any images, illustrations, or other non-textual visual elements."
+  "no_visual_regions_reason": "This page contains only typed text and no images, illustrations, or other visual elements suitable for cropping."
 }
 ```

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-ad51f87716d7-P0002-01
+chunk_id: CHUNK-1d08a1215c7d-P0002-01
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md
-converted_sha256: ad51f87716d75fa0727174cca02062c798feac33ab962a487dbd9b23b16b9d58
+converted_sha256: 1d08a1215c7d87c3662fbbe57f23b3e90115f470a2515d46d8e46c811472ae9f
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json
@@ -12,68 +12,63 @@ part: 1
 ---
 
 ## Page Metadata
-- `page_number`: 2
-- `page_type`: Cover
-- `document_type`: File Jacket
-- `language`: French, English
+- Page: 2
 
 ## Layout And Reading Order
-The page is a pre-printed manila file jacket. The content is arranged as follows:
-1. A header at the top with the category "GENERAL AND MISCELLANEOUS" and file numbers.
-2. A "Sujet" (Subject) section with a handwritten description in French.
-3. A three-column table for tracking the document's circulation. Each column is subdivided into "Transmis à / Referred to" and "Date". The table is filled with handwritten entries.
-4. To the right of the table are fields for previous, next, and related file numbers.
-
-The reading order is from top to bottom.
+The document is a pre-printed form on a manila-colored file jacket. The reading order is as follows:
+1.  Header at the top with the title "GENERAL AND MISCELLANEOUS" and handwritten numbers.
+2.  A "Sujet" (Subject) field with a handwritten description in French.
+3.  A large table for tracking circulation, with three sets of columns for "Transmis à / Referred to" and "Date". The table is filled with handwritten entries.
+4.  To the right of the main table, there are three smaller fields: "Dossier précédent", "Dossier suivant", and "Dossiers connexes".
 
 ## Literal Transcription
-```text
+**Header**
+```
 GENERAL AND MISCELLANEOUS
-[Stamped:] 50
-[Handwritten:] 5569 5569
-
-Sujet:
-Conférence Diplomatique (Juillet 1929) appelée à revoir la
-Convention de Genève de 1906 pour l'amélioration du sort des
-blessés et malades dans les armées en campagne et d'élaborer
-un code des prisonniers de guerre.
-
-[A pre-printed table with handwritten entries follows.]
-| Transmis à / Referred to | Date | Transmis à / Referred to | Date | Transmis à / Referred to | Date |
-|---|---|---|---|---|---|
-| For previous circulation<br>see within. | | Marquis Paulucci | 7.10.31 | M. Paulucci | 9.2.32 |
-| M. Schwartz<br>legal dept | 26.5.31 | XIX M. Schwartz<br>legal | 19.10.31 | Disarmament | 1.4.32 |
-| M. Walters | 29.5.31 | Marquis Paulucci | 21.10.31 | M. Walters | 6u 7.4.32 |
-| Marquis Paulucci | 30.5.31 | XX In Dir art (upl) L.C.V | 14.11.31 | XXJ M. Schwartz<br>legal | 17.5.32 |
-| M. Schwartz<br>legal dept | 12.6.31 | Marquis Paulucci | 4.11.31 | M. Paulucci | 20.5.32 |
-| XI Tu M. Walters | 1.7.31 | M. Schwartz (upl) | 12.11.31 | Disarmament | 21.5.32 |
-| XII Tu M. Schwartz<br>legal dept | 2.7.31 | XXI M. Schwartz<br>legal | 29.12.31 | M. Walters | by 23.5.32 |
-| M. Walters<br>by Mr Floy[?] | 6.7.31 | M. Paulucci | 4.1.32 | Dossier<br>précédent | } No. [handwritten line] |
-| X M. Schwartz<br>legal | 8.7.31 | XXII M. Schwartz (upl) | 5.3.32 | | |
-| M. Walters<br>by Mr Floy[?] | 11.7.31 | Disamt[?] | 8.2.32 | Dossier<br>suivant | } No. 7801 |
-| XVI M. Schwartz<br>legal dpt | 11.7.31 | XXIV M. Schwartz<br>legal | 12.2.32 | Dossiers connexes | |
-| XIX M. Schwartz<br>legal | 15.7.31 | M. Paulucci | 15.2.32 | | |
-| Marquis Paulucci | 18.7.31 | Disarmament | 15.2.32 | | |
-| XXIII M. Schwartz<br>legal | 30.9.31 | XXV M. Schwartz<br>legal | 20.2.32 | | |
+[Box 1] 50
+[Box 2] 5569
+[Box 3] 5569
 ```
 
-## Images, Captions, And Visual Notes
-The document is a manila-colored file jacket with pre-printed text in English and French. The majority of the content is handwritten in black ink, detailing the subject of the file and its circulation history.
+**Subject**
+```
+Sujet: Conférence diplomatique (Juillet 1929) appelée à revoir la
+Convention de Genève de 1906 pour l'amélioration du sort des
+blessés et malades des armées en campagne et d'élaborer
+un code des prisonniers de guerre.
+```
 
-Several entries in the circulation table are marked with checkmarks or lines in red and blue pencil, likely to track the status of the review. For example, there is a red checkmark next to "Marquis Paulucci 4.11.31" and a blue checkmark next to "M. Paulucci 4.1.32".
+**Circulation Table**
+| Transmis à <br> Referred to | Date | Transmis à <br> Referred to | Date | Transmis à <br> Referred to | Date |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **For previous circulation see within.** | | | | | |
+| M. Schwartz <br> Legal Dept | 26.5.31 | <s>Marquis Paulucci</s> | 7.10.31 [blue checkmark] | M. Paulucci | 9.2.32 [red checkmark] |
+| M. Walters | 29.5.31 | <s>M. Schwartz</s> <br> Legal | 19.10.31 [blue checkmark] | Disarmament | 1.4.32 [red checkmark] |
+| Marquis Paulucci | 30.5.31 | <s>Marquis Paulucci</s> | 21.10.31 [blue checkmark] | XXJ <br> M. Walters | 6.4.32 [red checkmark] |
+| M. Schwartz <br> Legal Dept | 12.6.31 | <s>XX In Dir sect (upl) (I.C.V)</s> | 14.11.31 [blue checkmark] | M. Schwartz <br> Legal | 17.5.32 [red checkmark] |
+| XI In Walters | 1.7.31 | <s>Marquis Paulucci</s> | 4.11.31 [blue checkmark] | M. Paulucci | 20.5.32 [red checkmark] |
+| XIX-XIV M. Schwartz <br> Legal Dept | 2.7.31 | <s>M. Schwartz (upl)</s> | 12.11.31 [blue checkmark] | Disarmament | 21.5.32 [red checkmark] |
+| M. Walters <br> by | 6.7.31 | <s>X+I M. Schwartz</s> <br> Legal | 29.12.31 [blue checkmark] | M. Walters | 23.5.32 [red checkmark] |
+| M. Walters <br> by | 11.7.31 | <s>M. Paulucci</s> | 4.1.32 [blue checkmark] | Dossier <br> précédent } No. [handwritten line] | |
+| X M. Schwartz <br> Legal | 8.7.31 | <s>XXII M. Schwartz</s> | 5.3.32 [blue checkmark] | Dossier <br> suivant } No. 7801 | |
+| M. Walters <br> by | 11.7.31 | <s>Disarmament</s> | 8.2.32 [blue checkmark] | Dossiers connexes | |
+| XVI M. Schwartz <br> Legal D[?] | 11.7.31 | XXIII M. Schwartz <br> Legal | 12.2.32 [blue checkmark] | | |
+| XIX M. Schwartz <br> Legal | 15.7.31 | M. Paulucci | 15.2.32 [blue checkmark] | | |
+| Marquis Paulucci | 18.7.31 | Disarmament <br> XXIV | 15.2.32 [blue checkmark] | | |
+| M. Schwartz <br> Legal | 30.9.31 | M. Schwartz <br> Legal | 20.2.32 [blue checkmark] | | |
+
+## Images, Captions, And Visual Notes
+This page is a pre-printed file jacket cover with extensive handwritten entries. The form is titled "GENERAL AND MISCELLANEOUS". The subject of the file is handwritten in French. The main body is a circulation table tracking who the file was referred to and on what date. The entries are handwritten in cursive script. There are various annotations, including Roman numerals, department names (e.g., "Legal Dept"), and other notes. Many entries in the second column of names are struck through with a blue pencil line, and all dates in the second column have a blue checkmark. Several dates in the third column have a red or orange checkmark.
 
 ## Uncertain Or Illegible
-- `by Mr Floy[?]`: The surname is difficult to read but appears to be "Floy" or similar. This note appears twice.
-- `Disamt[?]`: This appears to be an abbreviation for "Disarmament", which is written out in full elsewhere in the table.
-- `6u 7.4.32`: The "u" after the 6 is small and its meaning is unclear. It could be an abbreviation for "du".
+- Row 5, Col 2: `(upl)` and `(I.C.V)` are uncertain readings of handwritten abbreviations.
+- Row 8, Col 2: `X+I` is an unusual notation, but appears to be what is written.
+- Row 12, Col 1: `Legal D[?]` is likely an abbreviation for "Legal Dept", but only the "D" is clearly written.
 
 ## Completeness Audit
-The entire page has been transcribed. All text, including handwritten entries, stamps, and form fields, is included in the transcription.
+The entire content of the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains no substantial images, illustrations, or photographs. All meaningful content consists of text, which has been transcribed."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page consists of a pre-printed form with handwritten text. There are no standalone images, portraits, maps, or other visual elements that would warrant cropping as separate assets. All meaningful content has been captured in the literal transcription."}
 ```

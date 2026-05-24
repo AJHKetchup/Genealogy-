@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-24T12:46:13Z",
+  "created": "2026-05-24T14:19:17Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -8,7 +8,7 @@
   "page": 18,
   "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0018.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0018.md",
-  "no_visual_regions_reason": "No meaningful visual regions present.",
+  "no_visual_regions_reason": "No meaningful visual regions were detected.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

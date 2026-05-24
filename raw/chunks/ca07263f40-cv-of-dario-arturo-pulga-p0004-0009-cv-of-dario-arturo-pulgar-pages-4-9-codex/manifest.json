@@ -1,7 +1,7 @@
 {
   "created": "2026-05-24",
   "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
-  "converted_sha256": "4368832108c4b1833d1048e93827052bf23c342dc21c1e534b7ab3ada08460d6",
+  "converted_sha256": "b1951fcc40e2c9f239b599bc146e53fa490b4e1313fcb402f33425880b22bba9",
   "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
   "source_sha256": "07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424",
   "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
@@ -12,64 +12,64 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-4368832108c4-P0004-01",
+      "chunk_id": "CHUNK-b1951fcc40e2-P0004-01",
       "chunk_number": 1,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0004-chunk-01.md",
       "page_start": 4,
       "page_end": 4,
       "part": 1,
       "chars": 5442,
-      "sha256": "e4e087441431518292bb64f6df01bc8fa1011aee5c7dc998c23d8a9533c9cb84"
+      "sha256": "3f03ca5bd14b11adced88ff3881ded3a13e33222aa0c9e7d18ac3dcfd58ad2e3"
     },
     {
-      "chunk_id": "CHUNK-4368832108c4-P0005-01",
+      "chunk_id": "CHUNK-b1951fcc40e2-P0005-01",
       "chunk_number": 2,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0005-chunk-01.md",
       "page_start": 5,
       "page_end": 5,
       "part": 1,
-      "chars": 4454,
-      "sha256": "a18767bebdd25c2b1340b7ae4fd7caa441f762d036e4cb56f7b1edbe23cd43ce"
+      "chars": 3874,
+      "sha256": "c5c487dbb5ad86f5f23fcd83d8f97b8f4f7239dff5a16a2b3bf6a1b7d4ccd668"
     },
     {
-      "chunk_id": "CHUNK-4368832108c4-P0006-01",
+      "chunk_id": "CHUNK-b1951fcc40e2-P0006-01",
       "chunk_number": 3,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0006-chunk-01.md",
       "page_start": 6,
       "page_end": 6,
       "part": 1,
-      "chars": 4259,
-      "sha256": "a147cafa43b87dcd70c26d6b5b4620a6b9ec265ff5e6f7fe9c2f85e043225e8c"
+      "chars": 3376,
+      "sha256": "84fcd5580f8e4917294912eb8fc717e40a23e6b4ae394eeef330bef13c67a59c"
     },
     {
-      "chunk_id": "CHUNK-4368832108c4-P0007-01",
+      "chunk_id": "CHUNK-b1951fcc40e2-P0007-01",
       "chunk_number": 4,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0007-chunk-01.md",
       "page_start": 7,
       "page_end": 7,
       "part": 1,
       "chars": 4253,
-      "sha256": "8de73ea3c0e024eb5a72a866934b75026954743be0ce23c9049f4a11912c78b2"
+      "sha256": "2bff3872394706b69f0f7e341895f42eed512234588ce5e4977ab25be733b495"
     },
     {
-      "chunk_id": "CHUNK-4368832108c4-P0008-01",
+      "chunk_id": "CHUNK-b1951fcc40e2-P0008-01",
       "chunk_number": 5,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0008-chunk-01.md",
       "page_start": 8,
       "page_end": 8,
       "part": 1,
-      "chars": 4377,
-      "sha256": "7b13dcc8a9a663d43ebaf19d8dead7697ba239fc4fe7a3cc0596efcd811cd312"
+      "chars": 4288,
+      "sha256": "9eab24e2e54614198e0bc4d978050bfc2138ea73b0b1cd96d319d78d749636fb"
     },
     {
-      "chunk_id": "CHUNK-4368832108c4-P0009-01",
+      "chunk_id": "CHUNK-b1951fcc40e2-P0006-01",
       "chunk_number": 6,
-      "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0009-chunk-01.md",
-      "page_start": 9,
-      "page_end": 9,
+      "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0006-chunk-01.md",
+      "page_start": 6,
+      "page_end": 6,
       "part": 1,
-      "chars": 2353,
-      "sha256": "25a651f97d2e2da586dcefd4d69eb8f999f1ef24c752cf6a9e3170a51e02624e"
+      "chars": 1406,
+      "sha256": "54b70a4d6e7896a6d36a2a0d051cf2d859c1a913a32d0106368b6b0f78c5c7d2"
     }
   ]
 }
