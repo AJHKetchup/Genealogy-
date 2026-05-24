@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-28cf880687a4-P0004-01
+chunk_id: CHUNK-92eb0ff37ce1-P0004-01
 source_converted: raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5.codex.md
-converted_sha256: 28cf880687a40ba71a4297805b2d8d5f58f575a123a5d63e48803b60ed820af7
+converted_sha256: 92eb0ff37ce1d15977f79906c8129ba644c251d8dc18ee53bc5778c4ab5bae15
 source: raw/sources/ACICR_B_CR_177_001_002.pdf
 source_sha256: 35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35
 source_manifest: raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/manifest.json

@@ -1,36 +1,38 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-867e245b9238-P0013-01
+chunk_id: CHUNK-193ec3402b39-P0056-01
 source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60.codex.md
-converted_sha256: 867e245b92388579c2bf921e9fae5a6928420e95351c9ff13aa0631852e7b993
+converted_sha256: 193ec3402b39223511df3d62526479834520ee0a3229beb039ce7c93cfd4411c
 source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
 source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
 source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json
-page_start: 13
-page_end: 13
+page_start: 56
+page_end: 56
 part: 1
 ---
 
 ## Page Metadata
 
-- `page_number`: 56
-- `source_filename_page_number`: 53
-- `source_type`: Directory
-- `source_language`: es-CL
+- **Source Title**: Guía Médica Nacional Profesiones Médicas y Paramedicas
+- **Publisher**: Servicio Nacional de Salud
+- **Publication City**: Santiago, Chile
+- **Publication Date**: July 1959
+- **Edition**: First Edition
+- **Page Number**: 56
 
 ## Layout And Reading Order
 
-The page contains a single block of text formatted into a three-column directory listing. The columns are:
-1.  **Name:** Full name of the individual, listed as "Surname(s), Given Name(s)".
-2.  **Address:** Street address, which may include office (`Of.`) or department (`Depto.`) numbers. Some addresses span two lines.
-3.  **City:** The city or town where the address is located.
+The page contains a directory listing of medical professionals. The content is arranged in a three-column table format. The columns are:
+1.  Full Name (Last Name, First Name)
+2.  Address
+3.  City
 
-The entries are read row by row, from top to bottom. A page number, "56 —", is located at the bottom left of the page.
+The entries are read row by row, from left to right. At the bottom left of the page is the page number.
 
 ## Literal Transcription
 
 | Name | Address | City |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | Lara Lara, Gastón | Bascuñán Guerrero 864 | Santiago |
 | Lara Sazo, Carlos | Cochrane 754 | Concepción |
 | Larach Jamiz, César | Av. José P. Alessandri 85 | Santiago |
@@ -53,7 +55,7 @@ The entries are read row by row, from top to bottom. A page number, "56 —", is
 | Latorre Blanco, Mariano | Valentín Letelier 1373 | Santiago |
 | Latorre Offermanns, María Josefina | Víctor Lamas 280 | Concepción |
 | Latorre Troncoso, Gustavo | Gertrudis Echenique 49 | Santiago |
-| Lausic Yuricić, Vicente | Constitución 352 | Illapel |
+| Lausic Yuricic, Vicente | Constitución 352 | Illapel |
 | Laval Manríquez, Enrique | Lord Cochrane 309 | Santiago |
 | Laval Román, Enrique | Miguel Claro 278 | Santiago |
 | Lavarello Ramírez, Alfredo | Cáceres 10 A | Rancagua |
@@ -78,20 +80,20 @@ The entries are read row by row, from top to bottom. A page number, "56 —", is
 
 ## Images, Captions, And Visual Notes
 
-This page contains only text in a directory format. There are no images, illustrations, or other visual elements.
+There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible portions of this page.
+There are no uncertain or illegible portions of this document.
 
 ## Completeness Audit
 
-The entire content of the page, including all directory entries and the page number, has been transcribed.
+The entire content of the page has been transcribed. The work order specified page 53, but the page number printed on the provided image is "56". The transcription reflects the content of the image.
 
 ## Visual Region Manifest
 
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of typed text in a directory format with no images, illustrations, or other distinct visual elements."}
+{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of text in a directory format with no images, illustrations, or other visual elements."}
 ```
 
 # Page 54
