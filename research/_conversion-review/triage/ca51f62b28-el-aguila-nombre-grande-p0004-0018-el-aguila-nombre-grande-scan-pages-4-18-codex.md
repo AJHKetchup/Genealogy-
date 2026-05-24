@@ -8,7 +8,7 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 4 | high | low | reread-page | explicit_reread_needed | none |
+| 1 | high | low | reread-page | explicit_reread_needed | none |
 | 5 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | high | high | pass | none | Dario, Dario Pulgar, Pulgar |

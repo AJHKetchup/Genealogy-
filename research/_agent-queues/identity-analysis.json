@@ -3,8 +3,7 @@
     "queue":  "identity-analysis",
     "task_count":  171,
     "status_counts":  {
-                          "done":  169,
-                          "todo":  2
+                          "done":  171
                       },
     "tasks":  [
                   {
@@ -1496,24 +1495,36 @@
                       "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-8791cef1980e-p0002-01-no-genealogical-conflict-identified-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-24T23:05:17Z",
+                      "agent":  "postconv-identity-analysis-20260524230311973",
+                      "started_at":  "2026-05-24T22:41:13Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/chunk-8791cef1980e-p0002-01-no-genealogical-conflict-identified.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-8791cef1980e-p0002-01-no-genealogical-conflict-identified-md.md",
+                      "completed_at":  "2026-05-24T23:05:17Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/chunk-8791cef1980e-p0002-01-no-genealogical-conflict-identified.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-24T22:41:12Z",
+                      "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-8791cef1980e-p0007-01-no-genealogical-conflict-identified-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-24T23:05:34Z",
+                      "agent":  "postconv-identity-analysis-20260524230312577",
+                      "started_at":  "2026-05-24T22:41:14Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/chunk-8791cef1980e-p0007-01-no-genealogical-conflict-identified.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-8791cef1980e-p0007-01-no-genealogical-conflict-identified-md.md",
+                      "completed_at":  "2026-05-24T23:05:34Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/chunk-8791cef1980e-p0007-01-no-genealogical-conflict-identified.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-24T22:41:13Z",
+                      "role":  "identity_researcher"
                   },
                   {
                       "skill":  "genealogy-proof-review",
