@@ -18,5 +18,5 @@ promotion_recommendation: hold_for_conversion_qa
 # Claim: Birth Place
 
 - Literal support: `**Lugar.** Calle de Valdivia`
-- Conversion confidence/QA concern: the source image was available and directly reread for this revision; it supports `Calle de Valdivia`. The converted Markdown file's entry 172 remains a conflicting Jose Francisco / Oswaldo Gomez / Emilia de la Cruz entry with a different place field.
+- Conversion confidence/QA concern: the source image was available and directly reread for this revision; it supports `Calle de Valdivia`. The converted Markdown file's entry 172 remains a conflicting Jose Miguel / Oswaldo Bunster / Amelia de la Maza entry with a different place field.
 - Uncertainty: Low for the image and assigned chunk street/place reading; high for promotion readiness until conversion QA reconciles or supersedes the conflicting converted Markdown. Broader jurisdiction is supplied by register header.

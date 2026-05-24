@@ -2,7 +2,7 @@
 type: source_packet
 status: draft
 task_id: evidence-extraction:CHUNK-b8f4f0490a36-P0001-01
-worker: postconv-evidence-extraction-20260523181508215
+worker: postconv-evidence-extraction-20260524044109549
 source_title: "Registro de Nacimientos, Circunscripcion de Los Angeles, Chile, 1888, Entry No. 172"
 source_type: civil_registration_birth
 source_path: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png"
@@ -26,14 +26,14 @@ matched_terms:
   - Pulgar
   - Riquelme
 conversion_confidence: mixed_after_source_image_reread
-conversion_qa_concern: "The source image is present and was reread for this revision. The visible source supports the Pulgar/Arriagada row for entry 172, while the assigned converted Markdown file still gives a conflicting Gomez/de la Cruz row for entry 172. Within the visible Pulgar/Arriagada row, the father field appears to read 'Jose del Carmen Pulgar' with no clear final suffix; the assigned chunk records 'Jose del Carmen Pulgar S.', so conversion QA must explicitly record whether there is no suffix, a clear 'S.', or an uncertain suffix."
-uncertainty: "High for promotion readiness because derivative transcripts disagree; moderate for the father's final abbreviated element and for exact residence spelling/normalization. Low that the visible image supports the Pulgar/Arriagada row rather than the converted Markdown's Gomez/de la Cruz row."
+conversion_qa_concern: "The source image is present and was reread for this revision. The visible source supports the Pulgar/Arriagada row for entry 172, while the assigned converted Markdown file still gives a conflicting Bunster/de la Maza row for entry 172. Within the visible Pulgar/Arriagada row, the father field appears to read 'Jose del Carmen Pulgar' with no clear final suffix; the assigned chunk records 'Jose del Carmen Pulgar S.', so conversion QA must explicitly record whether there is no suffix, a clear 'S.', or an uncertain suffix."
+uncertainty: "High for promotion readiness because derivative transcripts disagree; moderate for the father's final abbreviated element and for exact residence spelling/normalization. Low that the visible image supports the Pulgar/Arriagada row rather than the converted Markdown's Bunster/de la Maza row."
 promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Source Packet: Birth Registration Entry 172
 
-This packet stages evidence from entry 172 of the 1888 Los Angeles, Chile civil birth register. The source image is now present at the expected `raw/sources` path and was reread directly for this revision. The visible image supports the Pulgar/Arriagada row: child Jose del Carmen Segundo Pulgar Arriagada, father Jose del Carmen Pulgar, and mother Juana Arriagada de Pulgar. The converted Markdown file at `raw/converted/...entry-no-172.codex.md` instead gives entry 172 as a Jose Francisco birth registration for parents Oswaldo Gomez and Emilia de la Cruz, so that converted file should not be treated as reliable literal support for this Pulgar/Arriagada entry until conversion QA reconciles or supersedes the mismatch. Within the Pulgar/Arriagada row, the assigned chunk gives the father as `Jose del Carmen Pulgar S.`; this image reread does not show a clear final `S.` suffix.
+This packet stages evidence from entry 172 of the 1888 Los Angeles, Chile civil birth register. The source image is now present at the expected `raw/sources` path and was reread directly for this revision. The visible image supports the Pulgar/Arriagada row: child Jose del Carmen Segundo Pulgar Arriagada, father Jose del Carmen Pulgar, and mother Juana Arriagada de Pulgar. The converted Markdown file at `raw/converted/...entry-no-172.codex.md` instead gives entry 172 as a Jose Miguel birth registration for parents Oswaldo Bunster and Amelia de la Maza, so that converted file should not be treated as reliable literal support for this Pulgar/Arriagada entry until conversion QA reconciles or supersedes the mismatch. Within the Pulgar/Arriagada row, the assigned chunk gives the father as `Jose del Carmen Pulgar S.`; this image reread does not show a clear final `S.` suffix.
 
 ## Literal Support
 
@@ -46,7 +46,7 @@ Assigned chunk literal support:
 Conflicting converted Markdown literal support:
 
 ```text
-| 172 | Siete de Abril de mil ochocientos ochenta i ocho | Nombres. José Francisco<br>Sexo. Varon. | Fecha. El veinte i seis de Marzo de mil ochocientos ochenta i ocho, a las diez de la noche.<br>Lugar. En esta. | Nombre del padre: Oswaldo Gomez<br>Nac.: chileno Prof.: Militar<br>Dom.: En esta<br>Nombre de la madre: Emilia de la Cruz<br>Nac.: chilena Prof.: Su labor<br>Dom.: En esta | Oswaldo Gomez | Edad: Veinte i seis años<br>Prof.: Militar<br>Dom.: En esta<br>Por los testigos:<br>Conocido del oficial: | Camilo Henriquez | |
+| 172 | Siete de Abril de mil ochocientos ochenta i ocho | Nombres. **José Miguel**<br>Sexo. Varon. | Fecha. El veinte i seis de Marzo de mil ochocientos ochenta i ocho, a las diez de la noche.<br>Lugar. En esta Subdelegacion. | Nombre del padre: **Oswaldo Bunster**<br>Nacionalidad: chileno<br>Profesion: Agricultor<br>Domicilio: Ballena<br>Nombre de la madre: **Amelia de la Maza**<br>Nacionalidad: chilena<br>Profesion: su labor<br>Domicilio: Ballena | **Oswaldo Bunster**<br>Edad? Veinte i seis años<br>Prof. Comerciante<br>Dom. Ballena | Por los testigos | Camilo Luis osorio<br>Conocido del oficial | |
 ```
 
 ## Evidence Scope

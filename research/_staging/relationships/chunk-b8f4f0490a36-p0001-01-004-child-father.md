@@ -17,7 +17,7 @@ promotion_recommendation: hold_for_conversion_qa
 
 # Relationship Candidate: Child To Father
 
-- Literal support: `**Nombre.** Jose del Carmen Segundo Pulgar Arriagada`; assigned chunk father field `**Nombre del padre** Jose del Carmen Pulgar S.`; this source-image reread supports father field `Jose del Carmen Pulgar` without a clear final suffix. The converted Markdown file instead gives entry 172 as a Jose Francisco / Oswaldo Gomez / Emilia de la Cruz child-parent set.
+- Literal support: `**Nombre.** Jose del Carmen Segundo Pulgar Arriagada`; assigned chunk father field `**Nombre del padre** Jose del Carmen Pulgar S.`; this source-image reread supports father field `Jose del Carmen Pulgar` without a clear final suffix. The converted Markdown file instead gives entry 172 as a Jose Miguel / Oswaldo Bunster / Amelia de la Maza child-parent set.
 - Conversion confidence/QA concern: mixed. The father-child relationship is stated in the source image and assigned chunk parent column, but the converted Markdown file conflicts with them, and the exact recorded father name differs between the assigned chunk and image reread because the final `S.` suffix is not clearly visible.
 - Uncertainty: Low that a father is stated in the source image and assigned chunk; high for promotion readiness until conversion QA reconciles the converted-file mismatch, and moderate for the father's exact recorded name and any canonical identity merge.
 

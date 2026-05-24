@@ -18,5 +18,5 @@ promotion_recommendation: hold_for_conversion_qa
 # Claim: Mother's Recorded Attributes
 
 - Literal support: `**Nombre de la madre** Juana Arriagada de Pulgar **Nac** Chilena **Prof** Su sexo **Dom** Calle de Colipí`
-- Conversion confidence/QA concern: the source image was available and directly reread for this revision; it supports this mother field. The converted Markdown file's entry 172 remains a conflicting Jose Francisco / Oswaldo Gomez / Emilia de la Cruz entry.
+- Conversion confidence/QA concern: the source image was available and directly reread for this revision; it supports this mother field. The converted Markdown file's entry 172 remains a conflicting Jose Miguel / Oswaldo Bunster / Amelia de la Maza entry.
 - Uncertainty: Low for the image and assigned chunk reading of nationality and residence; high for promotion readiness until conversion QA reconciles or supersedes the conflicting converted Markdown. `Su sexo` is retained literally as the occupation/status field and should not be converted to a modern occupation.

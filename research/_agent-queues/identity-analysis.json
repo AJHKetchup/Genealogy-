@@ -1,9 +1,10 @@
 ﻿{
     "created":  "2026-05-24",
     "queue":  "identity-analysis",
-    "task_count":  149,
+    "task_count":  152,
     "status_counts":  {
-                          "done":  149
+                          "done":  149,
+                          "todo":  3
                       },
     "tasks":  [
                   {
@@ -1461,6 +1462,36 @@
                       "status":  "done",
                       "claimed_at":  "2026-05-23T07:33:42Z",
                       "role":  "identity_researcher"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-a048d567968b-p0001-03-page-boundary-conflict-postconv-evidence-extraction-20260524044909767-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-a048d567968b-p0001-03-page-boundary-conflict-postconv-evidence-extraction-20260524044909767.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-a048d567968b-p0001-03-page-boundary-conflict-postconv-evidence-extraction-20260524044909767.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-a048d567968b-p0001-03-page-boundary-conflict-postconv-evidence-extraction-20260524045535954-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-a048d567968b-p0001-03-page-boundary-conflict-postconv-evidence-extraction-20260524045535954.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-a048d567968b-p0001-03-page-boundary-conflict-postconv-evidence-extraction-20260524045535954.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-a048d567968b-p0001-03-page-boundary-conflict-postconv-evidence-extraction-20260524050225171-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-a048d567968b-p0001-03-page-boundary-conflict-postconv-evidence-extraction-20260524050225171.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-a048d567968b-p0001-03-page-boundary-conflict-postconv-evidence-extraction-20260524050225171.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "skill":  "genealogy-proof-review",

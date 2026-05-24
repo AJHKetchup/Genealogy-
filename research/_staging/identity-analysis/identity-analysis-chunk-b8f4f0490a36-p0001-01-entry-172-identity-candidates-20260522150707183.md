@@ -58,13 +58,13 @@ Scores:
 
 Literal evidence:
 
-- The active converted Markdown file's entry 172 reads `José Francisco`, father `Oswaldo Gomez`, and mother `Emilia de la Cruz`.
-- Neither the converted Markdown's `José Francisco` / `Oswaldo Gomez` / `Emilia de la Cruz` row nor earlier derivative conflict summaries name `Jose del Carmen Segundo Pulgar Arriagada`, `Jose del Carmen Pulgar`, or `Juana Arriagada de Pulgar`.
+- The active converted Markdown file's entry 172 reads `José Francisco`, father `Oswaldo Bunster`, and mother `Amelia de la Maza`.
+- Neither the converted Markdown's `José Miguel` / `Oswaldo Bunster` / `Amelia de la Maza` row nor earlier derivative conflict summaries name `Jose del Carmen Segundo Pulgar Arriagada`, `Jose del Carmen Pulgar`, or `Juana Arriagada de Pulgar`.
 
 Interpretation:
 
 - This hypothesis is preserved only because the assigned converted file is part of the evidence chain and conflicts with the staged draft.
-- It should be treated as a conversion/file-assignment conflict, not as identity evidence for Gomez or de la Cruz people, unless targeted QA proves the Pulgar/Arriagada assignment is wrong.
+- It should be treated as a conversion/file-assignment conflict, not as identity evidence for Bunster or de la Maza people, unless targeted QA proves the Pulgar/Arriagada assignment is wrong.
 
 Scores:
 
@@ -148,7 +148,7 @@ Ranked impact:
 
 ## Conflicts
 
-- Same-entry conflict: source image, assigned chunk, and staged source packet support the Pulgar/Arriagada row; converted Markdown supports an unrelated Gomez/de la Cruz row. Severity: critical.
+- Same-entry conflict: source image, assigned chunk, and staged source packet support the Pulgar/Arriagada row; converted Markdown supports an unrelated Bunster/de la Maza row. Severity: critical.
 - Name-variant conflict: `Jose del Carmen Pulgar S.` versus `Jose del Carmen Pulgar`. Severity: moderate because the suffix affects father matching and canonical identity review.
 - Relationship conflict: child-father and child-mother links depend on confirming the controlling row for entry 172. Severity: high for promotion readiness.
 - Duplicate-person risk: high if unrelated converted-row names are promoted from the mismatch; moderate if Jose/Juana parent candidates are merged across Pulgar entries without proof review.

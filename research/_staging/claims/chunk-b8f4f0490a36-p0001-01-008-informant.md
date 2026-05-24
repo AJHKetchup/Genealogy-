@@ -18,5 +18,5 @@ promotion_recommendation: hold_for_conversion_qa
 # Claim: Informant
 
 - Literal support: `Ernesto Herrera L. Presente al nacimiento **Edad** Veintiseis años **Prof** Empleado **Dom** Calle de Valdivia`
-- Conversion confidence/QA concern: the source image was available and directly reread for this revision; it supports this informant field. The converted Markdown file's entry 172 remains a conflicting Jose Francisco / Oswaldo Gomez / Emilia de la Cruz entry with informant Oswaldo Gomez.
+- Conversion confidence/QA concern: the source image was available and directly reread for this revision; it supports this informant field. The converted Markdown file's entry 172 remains a conflicting Jose Miguel / Oswaldo Bunster / Amelia de la Maza entry with informant Oswaldo Bunster.
 - Uncertainty: Low for the image and assigned chunk informant details; high for promotion readiness until conversion QA reconciles or supersedes the conflicting converted Markdown. No family relationship to the child is stated.

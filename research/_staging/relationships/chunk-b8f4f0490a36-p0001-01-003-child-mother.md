@@ -18,6 +18,6 @@ promotion_recommendation: hold_for_conversion_qa
 # Relationship Candidate: Child To Mother
 
 - Literal support: `**Nombre.** Jose del Carmen Segundo Pulgar Arriagada`; `**Nombre de la madre** Juana Arriagada de Pulgar`.
-- Conversion confidence/QA concern: the source image was available and directly reread for this revision; it supports this relationship. The converted Markdown file's entry 172 remains a conflicting Jose Francisco / Oswaldo Gomez / Emilia de la Cruz entry.
+- Conversion confidence/QA concern: the source image was available and directly reread for this revision; it supports this relationship. The converted Markdown file's entry 172 remains a conflicting Jose Miguel / Oswaldo Bunster / Amelia de la Maza entry.
 - Uncertainty: Low for the stated mother-child relationship in the source image and assigned chunk; high for promotion readiness until conversion QA reconciles or supersedes the conflicting converted Markdown. Review separately whether the canonical mother identity should use the recorded married style `de Pulgar` or a maiden-name form.
 
