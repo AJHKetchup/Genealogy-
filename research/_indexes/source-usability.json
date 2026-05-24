@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-24T00:05:00Z",
+  "created": "2026-05-24T00:33:53Z",
   "purpose": "Source-readiness report for raw source -> LLM-readable source pipeline.",
   "inputs": {
     "source_prep_manifest": "raw/source-prep-manifest.json",
@@ -81,8 +81,8 @@
       ],
       "qc_holds": [
         {
-          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
-          "page": 4,
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md",
+          "page": 2,
           "recommended_action": "spot-check",
           "quality_flags": [
             "possible_table_layout_loss"
@@ -1202,17 +1202,17 @@
       "qc_holds": [
         {
           "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
-          "page": 13,
+          "page": 1,
           "recommended_action": "reread-page",
-          "quality_flags": [],
-          "matched_terms": [
-            "Dario"
+          "quality_flags": [
+            "explicit_reread_needed"
           ],
+          "matched_terms": [],
           "suspicious_readings": [
             {
-              "literal": "PULGA",
-              "suspected": "Pulgar",
-              "reason": "near match to known family context term `Pulgar`"
+              "literal": "ARRIGADA",
+              "suspected": "Arriagada",
+              "reason": "near match to known family context term `Arriagada`"
             }
           ]
         }

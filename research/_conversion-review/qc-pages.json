@@ -35,12 +35,10 @@
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
       "page": 4,
-      "recommended_action": "spot-check",
-      "conversion_confidence": "medium",
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
       "family_relevance": "medium",
-      "quality_flags": [
-        "explicit_reread_needed"
-      ],
+      "quality_flags": [],
       "matched_terms": [
         "Dario",
         "Pulgar"
@@ -52,12 +50,10 @@
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
       "page": 5,
-      "recommended_action": "spot-check",
-      "conversion_confidence": "medium",
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
       "family_relevance": "medium",
-      "quality_flags": [
-        "explicit_reread_needed"
-      ],
+      "quality_flags": [],
       "matched_terms": [
         "Dario",
         "Pulgar"
@@ -116,10 +112,12 @@
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
       "page": 9,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
+      "recommended_action": "spot-check",
+      "conversion_confidence": "medium",
       "family_relevance": "medium",
-      "quality_flags": [],
+      "quality_flags": [
+        "explicit_reread_needed"
+      ],
       "matched_terms": [
         "Dario",
         "Pulgar"
@@ -155,12 +153,18 @@
       "chunk_manifest": "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json",
       "page": 2,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "none",
+      "recommended_action": "reread-page",
+      "conversion_confidence": "low",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [],
-      "suspicious_readings": []
+      "suspicious_readings": [
+        {
+          "literal": "sixth",
+          "suspected": "Smith",
+          "reason": "near match to known family context term `Smith`"
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md",
@@ -17909,10 +17913,12 @@
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json",
       "page": 2,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
+      "recommended_action": "spot-check",
+      "conversion_confidence": "medium",
       "family_relevance": "none",
-      "quality_flags": [],
+      "quality_flags": [
+        "possible_table_layout_loss"
+      ],
       "matched_terms": [],
       "suspicious_readings": []
     },
@@ -18016,13 +18022,11 @@
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
-      "page": 4,
-      "recommended_action": "spot-check",
-      "conversion_confidence": "medium",
+      "page": 9,
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
       "family_relevance": "none",
-      "quality_flags": [
-        "possible_table_layout_loss"
-      ],
+      "quality_flags": [],
       "matched_terms": [],
       "suspicious_readings": []
     },
@@ -18042,7 +18046,7 @@
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
-      "page": 6,
+      "page": 11,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "none",
@@ -25609,7 +25613,7 @@
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
       "chunk_manifest": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 4,
+      "page": 1,
       "recommended_action": "reread-page",
       "conversion_confidence": "low",
       "family_relevance": "high",
@@ -25732,20 +25736,16 @@
       "chunk_manifest": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
       "page": 13,
-      "recommended_action": "reread-page",
-      "conversion_confidence": "low",
-      "family_relevance": "critical",
+      "recommended_action": "pass",
+      "conversion_confidence": "high",
+      "family_relevance": "high",
       "quality_flags": [],
       "matched_terms": [
-        "Dario"
+        "Dario",
+        "Dario Pulgar",
+        "Pulgar"
       ],
-      "suspicious_readings": [
-        {
-          "literal": "PULGA",
-          "suspected": "Pulgar",
-          "reason": "near match to known family context term `Pulgar`"
-        }
-      ]
+      "suspicious_readings": []
     },
     {
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
@@ -25773,7 +25773,7 @@
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
       "chunk_manifest": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 15,
+      "page": 12,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "none",
@@ -25785,7 +25785,7 @@
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
       "chunk_manifest": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 16,
+      "page": 13,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "none",
@@ -28864,11 +28864,13 @@
       "converted_file": "raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60.codex.md",
       "chunk_manifest": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dic-8fbd29c654/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json",
-      "page": 56,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
+      "page": 53,
+      "recommended_action": "spot-check",
+      "conversion_confidence": "medium",
       "family_relevance": "none",
-      "quality_flags": [],
+      "quality_flags": [
+        "explicit_reread_needed"
+      ],
       "matched_terms": [],
       "suspicious_readings": []
     },
@@ -29116,11 +29118,13 @@
       "converted_file": "raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60.codex.md",
       "chunk_manifest": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json",
-      "page": 56,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
+      "page": 53,
+      "recommended_action": "spot-check",
+      "conversion_confidence": "medium",
       "family_relevance": "none",
-      "quality_flags": [],
+      "quality_flags": [
+        "explicit_reread_needed"
+      ],
       "matched_terms": [],
       "suspicious_readings": []
     },
