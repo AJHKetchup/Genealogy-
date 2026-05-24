@@ -1,41 +1,29 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-1e39f696c943-P0053-01
+chunk_id: CHUNK-2319b1c8f618-P0056-01
 source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60.codex.md
-converted_sha256: 1e39f696c943587e6e156f57db2fd3807f256bb1656f1f386aa3732bc6368061
+converted_sha256: 2319b1c8f618eac1bac0b03798beb56ed175b85cc2f71cd9c36ab4546cff6ab4
 source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
 source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
 source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json
-page_start: 53
-page_end: 53
+page_start: 56
+page_end: 56
 part: 1
 ---
 
 ## Page Metadata
 
-- Task id: `source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60:p0053`
-- Model route: `pro`
-- Route reasons: requested_reread
-- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/work-orders/page-0053.md`
-- Page: 53
-- Output Markdown target: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/page-markdown/page-0053.md`
-- External research relevance: `medium`
-- External requested treatment: `reread`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
-- Quality flags: none
-- Technical reread clues: none
+- **Page number**: 56
+- **Note**: The page number printed on the page is "56". The work order identifies this as page 53 of the source PDF.
 
 ## Layout And Reading Order
 
-The page contains a directory listing of medical professionals. The content is arranged in a three-column table format. The first column lists the individual's name (last name, first name). The second column provides their address. The third column lists the city. The entries are read row by row from top to bottom. At the bottom left of the page is the page number.
+The page contains a directory of medical professionals, organized into a three-column table. The columns are: Name, Address, and City. The entries are listed alphabetically by surname. At the bottom left of the page is the page number.
 
 ## Literal Transcription
 
 | Name | Address | City |
-| :--- | :--- | :--- |
+|---|---|---|
 | Lara Lara, Gastón | Bascuñán Guerrero 864 | Santiago |
 | Lara Sazo, Carlos | Cochrane 754 | Concepción |
 | Larach Jamiz, César | Av. José P. Alessandri 85 | Santiago |
@@ -83,20 +71,23 @@ The page contains a directory listing of medical professionals. The content is a
 
 ## Images, Captions, And Visual Notes
 
-There are no images, illustrations, or other visual elements on this page.
+There are no images, captions, or other visual elements on this page.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this document.
+There are no uncertain or illegible portions of this page.
 
 ## Completeness Audit
 
-The full content of the page has been transcribed. The page number visible on the image is "56", which differs from the page number "53" specified in the work order. The transcription reflects the number visible on the source image.
+The entire content of the page has been transcribed.
 
 ## Visual Region Manifest
 
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text in a directory format and has no images, illustrations, or other visual elements."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only text in a directory format. There are no images, illustrations, or other significant visual elements."
+}
 ```
 
 # Page 54

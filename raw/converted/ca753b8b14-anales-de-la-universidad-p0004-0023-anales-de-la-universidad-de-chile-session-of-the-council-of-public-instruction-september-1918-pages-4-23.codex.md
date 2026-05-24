@@ -312,32 +312,38 @@ All visible content on the page, including the stamp and the presence of faint b
 ```
 
 ## Page Metadata
-- **Page number**: 11
-- **Source publication**: Anales de la Universidad de Chile
-- **Source type**: Academic Journal
-- **Publication date**: September 1918
-- **Language**: Spanish
-- **Author(s)**: Council of Public Instruction, University of Chile
-- **Page content**: Minutes of the session of the Council of Public Instruction on September 2, 1918, listing attendees and the names of individuals awarded the title of Physician-Surgeon.
+- Page: 11
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source page: 11
 
 ## Layout And Reading Order
-The page is a single column of text. At the top is a decorative horizontal rule. Below this, the text is centered in three blocks: "BOLETIN DE INSTRUCCION PUBLICA", "CONSEJO DE INSTRUCCION PUBLICA", and "Sesion de 2 de Setiembre de 1918". This is followed by two paragraphs of justified text. Below the paragraphs is a centered subheading, "Médicos-Cirujanos:", followed by an indented list of five names. The reading order is sequential from top to bottom.
+This page contains a single column of text. The reading order is as follows:
+1. A decorative header element at the top of the page.
+2. The main title, "BOLETIN DE INSTRUCCION PUBLICA".
+3. A subtitle, "CONSEJO DE INSTRUCCION PUBLICA", separated by horizontal rules.
+4. The session date, "Sesion de 2 de Setiembre de 1918".
+5. A paragraph detailing the attendees of the session.
+6. A second paragraph stating that titles and degrees were conferred.
+7. A subheading, "Médicos-Cirujanos:".
+8. A list of five individuals who were granted the title of Médico-Cirujano.
 
 ## Literal Transcription
 [decorative rule]
 
-**BOLETIN DE INSTRUCCION PUBLICA**
+BOLETIN DE INSTRUCCION PUBLICA
 
-***
-
-**CONSEJO DE INSTRUCCION PUBLICA**
-
-***
+---
+CONSEJO DE INSTRUCCION PUBLICA
+---
 
 **Sesion de 2 de Setiembre de 1918**
 
-Fué presidida por el señor Rector de la Universidad, don Domingo Amunátegui Solar, asistieron los señores Consejeros Amunátegui Solar don Gregorio, Bahamonde, Concha Castillo, Espejo, Matte, Rücker, Salas Lavaqui i Schmidt.
-Previas las formalidades reglamentarias i el juramento requerido el señor Rector confirió los siguientes títulos i grados:
+Fué presidida por el señor Rector de la Universidad, don
+Domingo Amunátegui Solar, asistieron los señores Conseje-
+ros Amunátegui Solar don Gregorio, Bahamonde, Concha Cas-
+tillo, Espejo, Matte, Rücker, Salas Lavaqui i Schmidt.
+Previas las formalidades reglamentarias i el juramento re-
+querido el señor Rector confirió los siguientes títulos i grados:
 
 *Médicos-Cirujanos:*
 
@@ -348,19 +354,19 @@ a don Ramon Almeyda Arroyo
 » Armando Zagal Anabalon.
 
 ## Images, Captions, And Visual Notes
-- A decorative rule is present at the top of the page. It consists of a rectangular box with a jagged outer border and an inner pattern of stylized floral or scrollwork elements arranged in two rows.
+At the top of the page is a decorative header element. It is a rectangular box with a border of small, pointed shapes. Inside the box are two horizontal lines of a repeating scroll-like pattern. This is a standard typographic ornament and has not been cropped.
 
 ## Uncertain Or Illegible
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page has been transcribed in its entirety.
+This page has been fully and accurately transcribed. All text and visual elements have been accounted for.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text and a minor decorative rule at the top, neither of which qualifies as a substantial visual region for cropping."
+  "no_visual_regions_reason": "The only visual element on the page is a decorative typographic rule at the top, which is not a substantial illustration requiring a separate crop."
 }
 ```
 

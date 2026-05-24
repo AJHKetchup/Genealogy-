@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-2ff9cc4cddcb-P0005-01
+chunk_id: CHUNK-c4c33ca7a4d1-P0005-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: 2ff9cc4cddcb8014b292e19f39bb35a9bf7dc79568e54040e040e4e522fdce07
+converted_sha256: c4c33ca7a4d1c20942e32d9958bc2d85380acd10beb8e6bb87d562495614e014
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -12,28 +12,14 @@ part: 1
 ---
 
 ## Page Metadata
-
 - Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005`
-- Model route: `pro`
-- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
 - Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0005.md`
 - Page: 5
-- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0005.md`
-- External research relevance: `high`
-- External requested treatment: `reread`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
-- Quality flags: explicit_reread_needed
-- Technical reread clues: none
 
 ## Layout And Reading Order
-
-The page consists of a single column of text. The content is organized into distinct entries, each marked by a year or date range. The reading order is from top to bottom.
+This page is a single column of text. It continues a curriculum vitae, listing professional experiences in chronological order (from most recent to oldest). Each entry includes a date or date range, the name of the organization or project, the location, the role held, and a description of the work performed. The reading order is from top to bottom.
 
 ## Literal Transcription
-
 **1999**
 
 **National Trust Fund for Protected Areas in Peru (PROFONANPE)**
@@ -71,6 +57,7 @@ contract between the European Commission, Arca Consulting and the Lesotho Highla
 Development Authority.
 
 **1997-1998**
+
 **Klohn Crippen Consultants**
 **Huaraz, Peru**
 **Socio-economic Consultant**
@@ -85,22 +72,18 @@ Review implementation of a proposed training programme for the Development of th
 Maracaibo Plain Project. Co-ordinate with the World Bank and Canadian agencies a study tour
 
 ## Images, Captions, And Visual Notes
-
-There are no images, captions, or other visual elements on this page.
+This page contains only text. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
-
-The page is fully legible.
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
-
-This page is a complete and accurate transcription of the source image.
+The transcription is a complete and accurate representation of all the text on the page. The final sentence on the page appears to be cut off and likely continues on the next page.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other visual elements."
+  "no_visual_regions_reason": "This page consists entirely of text and has no images, illustrations, or other visual elements that would be useful as standalone assets."
 }
 ```

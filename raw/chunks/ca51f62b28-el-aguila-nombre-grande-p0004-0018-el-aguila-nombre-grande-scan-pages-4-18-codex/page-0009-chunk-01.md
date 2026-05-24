@@ -1,0 +1,154 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-3a644a5ca910-P0009-01
+source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
+converted_sha256: 3a644a5ca91068eeec0d35596ab6aa7c4cf87673111e418da086d10db3fccf4b
+source: raw/sources/El Aguila Nombre Grande Scan.pdf
+source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
+source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
+page_start: 9
+page_end: 9
+part: 1
+---
+
+## Page Metadata
+- task_id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0009`
+- source_id: `el-aguila-nombre-grande-p0004-0018`
+- page_num: 9
+- page_type: `scrapbook_page`
+- source_title: `El Aguila Nombre Grande`
+- original_filename: `El Aguila Nombre Grande Scan.pdf`
+- publication_date: `1956`
+- publication_info: `El Aguila, Enero-Febrero 1956`
+- source_library: `Archivo Histórico de la Compañía de Aceros del Pacífico`
+
+## Layout And Reading Order
+This is a scrapbook page with typed text and two pasted images. The reading order is as follows:
+1. A header at the top of the page with the publication name and date.
+2. A sub-header "VOLVEMOS ATRAS".
+3. A text block on the upper left, which describes a mountain climbing expedition.
+4. A photograph of a man in uniform, pasted on the upper right, corresponding to the text on the left. The text wraps around the top left of the photograph.
+5. A caption for the photograph, located below the main text block and to the left of the photograph.
+6. A portrait illustration of a man in clerical attire, pasted on the lower left.
+7. A text block to the right of the portrait, describing the anniversary of a newspaper.
+8. A handwritten page number "9" in red ink at the bottom center of the page.
+
+## Literal Transcription
+```markdown
+NUMERO GIGANTE EL AGUILA ENERO FEBRERO
+---
+VOLVEMOS ATRAS
+
+EL 5 DE FEBRERO 29 HOMBRES AL MANDO DEL CAPITAN GAJARDO , - 6 DE ELLOS
+EL MENCIONADO CAPITAN EL VICESARJENTO PRIMERO NEMESIO ZAMORA EL CABO
+ROLANDO GODOY EL FILMADOR VICENTE
+CHIARANDA Y EL INGENIERO WAYNE MILL ER
+ESCALARON EL MONTE "OJOS DEL SALADO,"
+EN LA CORDILLERA DE LOS ANDES SITUADO
+EN LA PROVINCIA DE ATACAMA DEPARTAMENTO
+DE COPIAPÓ , EL NEVADO MENCIONADO MIDE
+7084 METROS SOBRE PASANDO AL ACONCAGUA
+POR 29 METROS ./
+
+( EN LA FOTO ) EL CAPITAN GAJARDO SE
+RECONFORTA DESPUES DE HABER ESCALADO
+LA CUMBRE MAS ALTA DE AMERI DA
+
+<hr>
+
+<div class="grid-container" style="grid-template-columns: 1fr 1fr; gap: 1em;">
+<div class="grid-item">
+
+![A halftone portrait of a man in clerical attire, with a cross on his chest.](__IMG_001__)
+
+</div>
+<div class="grid-item">
+
+LA AURORA DE CHILE
+EL 1º DE FEBRERO DE ESTE AÑO SE
+CELEBRÓ EL 144 ANIVERSARIO DE LA
+FUNDACION DEL PRIMER PERIÓDICO NACIONAL
+PORFRAY CAMILO HENRIQUEZ EN EL AÑO
+1812 . EL PUEBLO DE C.HILE RECIBIO
+CON GRAN ESTUCIASMOS EL PRIMER NUMERO
+DE ESE DIARIO PARA ALENTAR A LOS HONBRES
+HACIA SU LIBERTAD - EL DIARIO EL AGUILA
+CELEBRÓ CON U N COCTEL EN LA ENPRESA EL
+DIA DE LA PRENSA
+
+</div>
+</div>
+
+<div style="text-align: center;">
+9
+</div>
+```
+*Note: The photograph of Captain Gajardo is not included in the transcription flow as it is positioned to the right of the first text block and its caption. The transcription follows the textual reading order.*
+
+## Images, Captions, And Visual Notes
+Pipeline-extracted visual crops:
+- ![nearby-text: ( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA](../extracted-images/page-0009/page-0009-image-01-capitan-gajardo-recomforta.png)
+  - Kind: photograph; label basis: nearby-text; bbox_pct: [52.5, 14.5, 95.5, 58.5]
+  - Source context: A man in uniform drinking from a cup after a mountain climb.
+- ![nearby-text: LA AURORA DE CHILE ... PORFRAY CAMILO HENRIQUEZ EN EL AÑO 1812 .](../extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-aurora-de-chile.png)
+  - Kind: illustration; label basis: nearby-text; bbox_pct: [5.5, 55.5, 45.5, 85.5]
+  - Source context: Portrait of a man in clerical attire, identified as Fray Camilo Henriquez.
+
+- **Image 1:** A black and white photograph of a man in a military-style uniform, sitting in an upholstered chair and drinking from a small cup and saucer. The text identifies him as Captain Gajardo. `inline_anchor: __IMG_000__`
+- **Image 2:** A halftone portrait of a man, likely from the 19th century, in what appears to be clerical attire. He has a large cross on his chest. The text identifies him as Fray Camilo Henriquez. `inline_anchor: __IMG_001__`
+- A handwritten page number "9" is written in red ink at the bottom center of the page.
+- The accent marks on both instances of "CELEBRÓ" are handwritten onto the typed text.
+
+## Uncertain Or Illegible
+- `ESTUCIASMOS` is likely a typo for "ENTUSIASMOS".
+- `HONBRES` is likely a typo for "HOMBRES".
+- `ENPRESA` is likely a typo for "EMPRESA".
+- `PORFRAY` is likely a typo for "POR FRAY".
+- `C.HILE` is typed with a period in the middle.
+- `AMERI DA` appears to be cut off or a typo, likely intended to be "AMERICA".
+
+## Completeness Audit
+The transcription of all text and the description of all visual elements on the page are complete.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "IMG_000",
+      "kind": "photograph",
+      "bbox_pct": [
+        52.5,
+        14.5,
+        95.5,
+        58.5
+      ],
+      "caption_literal": "( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA",
+      "caption_type": "nearby-text",
+      "identity_basis": "caption",
+      "source_context": "A man in uniform drinking from a cup after a mountain climb.",
+      "confidence": "high",
+      "suggested_filename": "capitan-gajardo-recomforta.jpg",
+      "inline_anchor": "__IMG_000__"
+    },
+    {
+      "region_id": "IMG_001",
+      "kind": "illustration",
+      "bbox_pct": [
+        5.5,
+        55.5,
+        45.5,
+        85.5
+      ],
+      "caption_literal": "LA AURORA DE CHILE ... PORFRAY CAMILO HENRIQUEZ EN EL AÑO 1812 .",
+      "caption_type": "nearby-text",
+      "identity_basis": "caption",
+      "source_context": "Portrait of a man in clerical attire, identified as Fray Camilo Henriquez.",
+      "confidence": "high",
+      "suggested_filename": "fray-camilo-henriquez-aurora-de-chile.jpg",
+      "inline_anchor": "__IMG_001__"
+    }
+  ],
+  "no_visual_regions_reason": null
+}
+```

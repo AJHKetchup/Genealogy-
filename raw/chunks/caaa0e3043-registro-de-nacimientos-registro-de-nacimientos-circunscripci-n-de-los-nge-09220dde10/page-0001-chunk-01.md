@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-7d3991a78bc8-P0001-01
+chunk_id: CHUNK-23b2269a97df-P0001-01
 source_converted: raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172.codex.md
-converted_sha256: 7d3991a78bc8f002318210ab216f0f597953a45a5c2e1dd55903ddc9e85686e3
+converted_sha256: 23b2269a97df3f6f46f35b0e31112a0c544788f12685bceea234c8bab5504084
 source: raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png
 source_sha256: aa0e304338ce3e1bf5ae9a1c695a405c862eb81fba66361d1874b7ca9da981b2
 source_manifest: raw/codex-conversion-jobs/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172/manifest.json
@@ -13,62 +13,239 @@ part: 1
 
 ## Page Metadata
 
-- **Source Type:** Civil registration (births)
-- **Record Type:** Register book
-- **Location:** Los Ángeles, Chile
-- **Language:** Spanish
+- **Source type:** Civil registration (births)
+- **Source location:** Los Ángeles, Chile
+- **Source language:** Spanish
 - **Date:** 1888
-- **Page Numbers:** 58, 59
-- **Entry Numbers:** 171-176
+- **Page numbers:** 58, 59
+- **Entry numbers:** 171-176
 
 ## Layout And Reading Order
 
-This document is a two-page spread from a birth register. Page 58 is on the left and page 59 is on the right. Each page contains a table with three birth registration entries. The entries are numbered sequentially from 171 to 176 across the two pages. The reading order is from left to right, top to bottom, starting with entry 171 on page 58 and ending with entry 176 on page 59. Each entry is a row in the table, with information recorded in pre-defined columns.
+The document is a two-page spread from a pre-printed birth register. The left page is page 58 and the right page is page 59. Each page contains three birth registration entries, for a total of six entries on the spread (numbers 171 through 176).
+
+The pages are formatted as a table with columns for registration details. The reading order is from left to right, top to bottom, starting with entry 171 on page 58 and ending with entry 176 on page 59. Each entry is read row by row. Handwritten information fills in the pre-printed fields.
 
 ## Literal Transcription
 
-### Page 58
+### **Page 58**
 
 Páj. 58
 
-1888. - Rejistro de NACIMIENTOS en la Circunscripcion de Los Anjeles, núm. 12 de Los Anjeles
+1888. —Rejistro de NACIMIENTOS en la Circunscripcion de Los Anjeles, núm. 12 de Los Anjeles
 
-| N.º de la inscripcion | Fecha de la inscripcion | Nombres i sexo | Fecha i lugar del nacimiento | Rejistro, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados | Nombres, etc., del compareciente | Observaciones de la identidad del compareciente | Firmas del oficial | ANOTACIONES |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 171 | Siete de Abril de mil ochocientos ochenta i ocho | Nombres. **José Daniel Reinaldo**<br>Sexo. Varon. | Fecha. El quince de Febrero de mil ochocientos ochenta i ocho, a las diez de la tarde.<br>Lugar. En esta Subdelegacion. | Nombre del padre: **José Daniel Basualto**<br>Nacionalidad: chileno<br>Profesion: Militar<br>Domicilio: Ballena<br>Nombre de la madre: **Margarita Bernales**<br>Nacionalidad: chilena<br>Profesion: su labor<br>Domicilio: Ballena | **Pedro Basualto**<br>Edad? Veinte i seis años<br>Prof. Comerciante<br>Dom. Ballena | Por los testigos | Camilo Luis osorio<br>Conocido del oficial | |
-| 172 | Siete de Abril de mil ochocientos ochenta i ocho | Nombres. **José Miguel**<br>Sexo. Varon. | Fecha. El veinte i seis de Marzo de mil ochocientos ochenta i ocho, a las diez de la noche.<br>Lugar. En esta Subdelegacion. | Nombre del padre: **Oswaldo Bunster**<br>Nacionalidad: chileno<br>Profesion: Agricultor<br>Domicilio: Ballena<br>Nombre de la madre: **Amelia de la Maza**<br>Nacionalidad: chilena<br>Profesion: su labor<br>Domicilio: Ballena | **Oswaldo Bunster**<br>Edad? Veinte i seis años<br>Prof. Comerciante<br>Dom. Ballena | Por los testigos | Camilo Luis osorio<br>Conocido del oficial | |
-| 173 | Siete de Abril de mil ochocientos ochenta i ocho | Nombres. **Telésforo Alejandro**<br>Sexo. Varon. | Fecha. El dos de Abril de mil ochocientos ochenta i ocho, a las seis de la mañana.<br>Lugar. En esta Subdelegacion. | Nombre del padre: **Rojelio Canales**<br>Nacionalidad: chileno<br>Profesion: su oficio<br>Domicilio: Ballena<br>Nombre de la madre: **Carmen del Pino**<br>Nacionalidad: chilena<br>Profesion: su labor<br>Domicilio: Ballena | **Juan de D. Clark**<br>Edad? Cuarenta i dos años<br>Prof. Comerciante<br>Dom. Ballena | Por los testigos<br>Pedro Valdebenito<br>Benjamin Sepulveda | Camilo Luis osorio<br>Conocido del oficial | |
+| N.o de la inscripcion | Fecha de la inscripcion | Nombres i sexo | Fecha i lugar del nacimiento | Rejion, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados | Nombres, etc., del compareciente | Observaciones de la identidad del compareciente | Firmas del oficial | ANOTACIONES |
+|---|---|---|---|---|---|---|---|---|
 
-### Page 59
+---
+
+**Entry 171**
+
+- **N.o de la inscripcion:** 171
+- **Fecha de la inscripcion:** Siete de Abril de mil ochocientos ochenta i ocho
+- **Nombres i sexo:**
+    - **Nombres.** José Daniel Reinaldo
+    - **Sexo.** Varon
+- **Fecha i lugar del nacimiento:**
+    - **Fecha.** El cinco de Abril de mil ochocientos ochenta i ocho, a las diez de la tarde.
+    - **Lugar.** En esta
+- **Rejion, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados:**
+    - **Nombre del padre:** José Daniel Bascur
+    - **Rejion, nacionalidad, profesion i domicilio:** chileno, soltero, agricultor, de este.
+    - **Nombre de la madre:** Tránsito Valdebenito
+    - **Rejion, nacionalidad, profesion i domicilio:** chilena, soltera, de este.
+- **Nombres, etc., del compareciente:**
+    - **[Name]:** Pedro Bascur
+    - **Edad:** Veinte i seis años
+    - **Prof.:** Agricultor
+    - **Dom.:** En esta
+- **Observaciones de la identidad del compareciente:**
+    - **Por los testigos:** [illegible signature]
+- **Firmas del oficial:**
+    - Camilo Luis osorio
+    - Concilio del oficial
+- **ANOTACIONES:** [blank]
+
+---
+
+**Entry 172**
+
+- **N.o de la inscripcion:** 172
+- **Fecha de la inscripcion:** Siete de Abril de mil ochocientos ochenta i ocho
+- **Nombres i sexo:**
+    - **Nombres.** José Miguel
+    - **Sexo.** Varon
+- **Fecha i lugar del nacimiento:**
+    - **Fecha.** El seis de Abril de mil ochocientos ochenta i ocho, a las diez de la noche.
+    - **Lugar.** En esta
+- **Rejion, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados:**
+    - **Nombre del padre:** Oswaldo Burgos
+    - **Rejion, nacionalidad, profesion i domicilio:** chileno, soltero, agricultor, de este.
+    - **Nombre de la madre:** Concepcion de la Cruz
+    - **Rejion, nacionalidad, profesion i domicilio:** chilena, soltera, de este.
+- **Nombres, etc., del compareciente:**
+    - **[Name]:** Oswaldo Burgos
+    - **Edad:** Veinte i seis años
+    - **Prof.:** Empleado
+    - **Dom.:** En esta
+- **Observaciones de la identidad del compareciente:**
+    - **Por los testigos:** [illegible signature]
+- **Firmas del oficial:**
+    - Camilo Luis osorio
+    - Concilio del oficial
+- **ANOTACIONES:** [blank]
+
+---
+
+**Entry 173**
+
+- **N.o de la inscripcion:** 173
+- **Fecha de la inscripcion:** Siete de Abril de mil ochocientos ochenta i ocho
+- **Nombres i sexo:**
+    - **Nombres.** Telésforo Alejandro
+    - **Sexo.** Varon
+- **Fecha i lugar del nacimiento:**
+    - **Fecha.** El seis de Abril de mil ochocientos ochenta i ocho, a las seis de la mañana.
+    - **Lugar.** En esta
+- **Rejion, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados:**
+    - **Nombre del padre:** Jesus Canales
+    - **Rejion, nacionalidad, profesion i domicilio:** chileno, casado, agricultor, de este.
+    - **Nombre de la madre:** Carmen del Carmen del Pino
+    - **Rejion, nacionalidad, profesion i domicilio:** chilena, casada, de este.
+- **Nombres, etc., del compareciente:**
+    - **[Name]:** Jesus Canales
+    - **Edad:** Cuarenta i seis años
+    - **Prof.:** Agricultor
+    - **Dom.:** En esta
+- **Observaciones de la identidad del compareciente:**
+    - **Por los testigos:** Juan de D. Clark
+- **Firmas del oficial:**
+    - Camilo Luis osorio
+    - Concilio del oficial
+- **ANOTACIONES:** [blank]
+
+---
+
+### **Page 59**
 
 Páj. 59
 
-1888. - Rejistro de NACIMIENTOS en la Circunscripcion de Los Anjeles, núm. 1 de Los Anjeles
+1888. —Rejistro de NACIMIENTOS en la Circunscripcion de Los Anjeles, núm. 1 de Los Anjeles
 
-| N.º de la inscripcion | Fecha de la inscripcion | Nombres i sexo | Fecha i lugar del nacimiento | Rejistro, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados | Nombres, etc., del compareciente | Observaciones de la identidad del compareciente | Firmas del oficial | ANOTACIONES |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 174 | Nueve de Abril de mil ochocientos ochenta i ocho | Nombres. **Maria Erminda**<br>Sexo. Mujer. | Fecha. El veinte i siete de Marzo de mil ochocientos ochenta i ocho, a las diez de la noche.<br>Lugar. En esta Subdelegacion. | Nombre del padre: **José del C. Carrasco**<br>Nacionalidad: chileno<br>Profesion: su oficio<br>Domicilio: Ballena<br>Nombre de la madre: **Maria del T. Hermosilla**<br>Nacionalidad: chilena<br>Profesion: su labor<br>Domicilio: Ballena | **José del C. Carrasco**<br>Edad? Veintidos años<br>Prof. su oficio<br>Dom. Ballena | Por los testigos | Camilo Luis osorio<br>Conocido del oficial | |
-| 175 | Nueve de Abril de mil ochocientos ochenta i ocho | Nombres. **Abel del Cármen**<br>Sexo. Varon. | Fecha. El dos de Abril de mil ochocientos ochenta i ocho, a las diez de la noche.<br>Lugar. En esta Subdelegacion. | Nombre del padre: **Gumercindo Venegas**<br>Nacionalidad: chileno<br>Profesion: su oficio<br>Domicilio: Ballena<br>Nombre de la madre: **Rosario Campos**<br>Nacionalidad: chilena<br>Profesion: su labor<br>Domicilio: Ballena | **Gumercindo Venegas**<br>Edad? Veinte i seis años<br>Prof. Comerciante<br>Dom. Ballena | Por los testigos | Camilo Luis osorio<br>Conocido del oficial | |
-| 176 | Nueve de Abril de mil ochocientos ochenta i ocho | Nombres. **Maria Rafaela del Cármen**<br>Sexo. Mujer. | Fecha. El veinte i seis de Marzo de mil ochocientos ochenta i ocho, a las diez de la noche.<br>Lugar. En esta Subdelegacion. | Nombre del padre: **Eleuterio Cid**<br>Nacionalidad: chileno<br>Profesion: su oficio<br>Domicilio: Ballena<br>Nombre de la madre: **Maria del C. Jaramillo**<br>Nacionalidad: chilena<br>Profesion: su labor<br>Domicilio: Ballena | **Eleuterio Cid**<br>Edad? Veinte i seis años<br>Prof. su oficio<br>Dom. Ballena | Por los testigos<br>Claudio Rojas<br>Manuel [Muñoz?] | Camilo Luis osorio<br>Conocido del oficial | |
+| N.o de la inscripcion | Fecha de la inscripcion | Nombres i sexo | Fecha i lugar del nacimiento | Rejion, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados | Nombres, etc., del compareciente | Observaciones de la identidad del compareciente | Firmas del oficial | ANOTACIONES |
+|---|---|---|---|---|---|---|---|---|
+
+---
+
+**Entry 174**
+
+- **N.o de la inscripcion:** 174
+- **Fecha de la inscripcion:** Nueve de Abril de mil ochocientos ochenta i ocho
+- **Nombres i sexo:**
+    - **Nombres.** Maria Erminda
+    - **Sexo.** Mujer
+- **Fecha i lugar del nacimiento:**
+    - **Fecha.** El ocho de Abril de mil ochocientos ochenta i ocho, a las diez de la noche.
+    - **Lugar.** En esta
+- **Rejion, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados:**
+    - **Nombre del padre:** José del Carmen Carrasco
+    - **Rejion, nacionalidad, profesion i domicilio:** chileno, casado, agricultor, de este.
+    - **Nombre de la madre:** Maria del Tránsito Valdebenito
+    - **Rejion, nacionalidad, profesion i domicilio:** chilena, casada, de este.
+- **Nombres, etc., del compareciente:**
+    - **[Name]:** José del Carmen Carrasco
+    - **Edad:** Veintidos años
+    - **Prof.:** Agricultor
+    - **Dom.:** En esta
+- **Observaciones de la identidad del compareciente:**
+    - **Por los testigos:** [illegible signature]
+- **Firmas del oficial:**
+    - Camilo Luis osorio
+    - Concilio del oficial
+- **ANOTACIONES:** [blank]
+
+---
+
+**Entry 175**
+
+- **N.o de la inscripcion:** 175
+- **Fecha de la inscripcion:** Nueve de Abril de mil ochocientos ochenta i ocho
+- **Nombres i sexo:**
+    - **Nombres.** Abel del Carmen
+    - **Sexo.** Varon
+- **Fecha i lugar del nacimiento:**
+    - **Fecha.** El ocho de Abril de mil ochocientos ochenta i ocho, a las diez de la noche.
+    - **Lugar.** En esta
+- **Rejion, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados:**
+    - **Nombre del padre:** Gumercindo Venegas
+    - **Rejion, nacionalidad, profesion i domicilio:** chileno, soltero, agricultor, de este.
+    - **Nombre de la madre:** Rosario Venegas
+    - **Rejion, nacionalidad, profesion i domicilio:** chilena, soltera, de este.
+- **Nombres, etc., del compareciente:**
+    - **[Name]:** Gumercindo Venegas
+    - **Edad:** Veinte i seis años
+    - **Prof.:** Empleado
+    - **Dom.:** En esta
+- **Observaciones de la identidad del compareciente:**
+    - **Por los testigos:** [illegible signature]
+- **Firmas del oficial:**
+    - Camilo Luis osorio
+    - Concilio del oficial
+- **ANOTACIONES:** [blank]
+
+---
+
+**Entry 176**
+
+- **N.o de la inscripcion:** 176
+- **Fecha de la inscripcion:** Nueve de Abril de mil ochocientos ochenta i ocho
+- **Nombres i sexo:**
+    - **Nombres.** Maria Rafaela del Carmen
+    - **Sexo.** Mujer
+- **Fecha i lugar del nacimiento:**
+    - **Fecha.** El ocho de Abril de mil ochocientos ochenta i ocho, a las diez de la noche.
+    - **Lugar.** En esta
+- **Rejion, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados:**
+    - **Nombre del padre:** Q. Cirilo en C. G.
+    - **Rejion, nacionalidad, profesion i domicilio:** chileno, casado, agricultor, de este.
+    - **Nombre de la madre:** Maria del Carmen Perez
+    - **Rejion, nacionalidad, profesion i domicilio:** chilena, casada, de este.
+- **Nombres, etc., del compareciente:**
+    - **[Name]:** Q. Cirilo en C. G.
+    - **Edad:** Setenta i cinco años
+    - **Prof.:** Agricultor
+    - **Dom.:** En esta
+- **Observaciones de la identidad del compareciente:**
+    - **Por los testigos:** Claudio Rojas
+- **Firmas del oficial:**
+    - Camilo Luis osorio
+    - Concilio del oficial
+- **ANOTACIONES:** [blank]
+
+---
 
 ## Images, Captions, And Visual Notes
 
-- **Page 58:** A circular stamp is present in the top right corner. The text appears to be "REJISTRO CIVIL DE LOS ANJELES".
-- **Page 59:** A circular stamp, similar to the one on page 58, is in the top right corner. The text appears to be "REJISTRO CIVIL DE LOS ANJELES".
+- At the top right of page 58 and page 59, there is a circular stamp. The text around the circumference reads "OFICINA DEL REXISTRO CIVIL" and "LOS ANJELES". In the center is the Chilean coat of arms.
 
 ## Uncertain Or Illegible
 
-- **Page 59, Entry 176, Witness Signature:** The surname of the second witness, `Manuel`, is difficult to read. It has been transcribed as `[Muñoz?]`.
+- **Entry 171:** The witness's signature is illegible.
+- **Entry 172:** The witness's signature is illegible.
+- **Entry 174:** The witness's signature is illegible.
+- **Entry 175:** The witness's signature is illegible.
+- **Entry 176:** The name of the father and the declarant is written as "Q. Cirilo en C. G.". This is an unusual notation, possibly an abbreviation or a legal designation, the meaning of which is unclear. The declarant's age is 75, indicating he is not the father.
+- **All Entries:** Below the signature of the official, `Camilo Luis osorio`, is the phrase `Concilio del oficial`. The first word is somewhat difficult to read but appears consistently across all entries.
 
 ## Completeness Audit
 
-The transcription includes all content from the two-page spread (pages 58 and 59), covering birth registration entries 171 through 176. All columns, handwritten data, signatures, and marginalia have been transcribed.
+The transcription covers all six entries (171-176) present on the two-page spread (pages 58 and 59). All handwritten information within these entries has been transcribed.
 
 ## Visual Region Manifest
 
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only tabular text data. The official stamps are of low quality and their content is described in the transcription notes."
+  "no_visual_regions_reason": "The page contains only textual records in a tabular format. The official stamps are standard and adequately described in the visual notes; they do not require individual cropping."
 }
 ```
