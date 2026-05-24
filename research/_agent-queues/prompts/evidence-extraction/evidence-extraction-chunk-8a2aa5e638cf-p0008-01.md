@@ -14,8 +14,18 @@ Use `$genealogy-claim-extraction`.
 - Family relevance: `high`
 - Matched family terms: Dario, Pulgar
 - Narrative cues: conference, education, geneva
-- Evidence priority: `658` (family_relevance:high, qc:pass, matched_terms, person_linked_narrative_context)
+- Evidence priority: `-42` (family_relevance:high, qc:pass, matched_terms, person_linked_narrative_context, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/identity-analysis-chunk-0a344364806b-p0008-01-dario-arturo-pulgar-identity-candidate-postconv-identity-analysis-20260524180306134-proof-review-postconv-proof-review-20260524201800335.md` | `research/_staging/identity-analysis/identity-analysis-chunk-0a344364806b-p0008-01-dario-arturo-pulgar-identity-candidate-postconv-identity-analysis-20260524180306134.md` | `hold_for_chunk_metadata_reconciliation_and_identity_bridge` | Reconcile the stale `CHUNK-0a344364806b-P0008-01` staged references with the current `CHUNK-8a2aa5e638cf-P0008-01` chunk/manifest state. Keep canonical person attachment and all relationship conclusions on hold until an identity-bearing CV page or separate proof-reviewed source bridges `Dario Arturo Pulgar` to the intended canonical person. After metadata reconciliation, page-8 work-history facts can move forward only as CV-reported document-level evidence. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Person-First Narrative Contract
