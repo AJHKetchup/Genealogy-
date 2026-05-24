@@ -14,8 +14,18 @@ Use `$genealogy-claim-extraction`.
 - Family relevance: `high`
 - Matched family terms: Dario, Pulgar
 - Narrative cues: conference, education, geneva
-- Evidence priority: `658` (family_relevance:high, qc:pass, matched_terms, person_linked_narrative_context)
+- Evidence priority: `-42` (family_relevance:high, qc:pass, matched_terms, person_linked_narrative_context, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/proof-review-research-staging-identity-analysis-identity-analysis-id-stage-chunk-7e5e30d3da85-p0008-01-dario-cv-subject-postconv-identity-analysis-20260523234835946-postconv-proof-review-20260524153737308.md` | `research/_staging/identity-analysis/identity-analysis-id-stage-chunk-7e5e30d3da85-p0008-01-dario-cv-subject-postconv-identity-analysis-20260523234835946.md` | `hold_for_metadata_reconciliation_and_identity_bridge` | Keep the staged identity analysis on hold. Reconcile the `7e5e30d3da85` staged identifiers with the available `b1951fcc40e2` chunk metadata, then review an identity-bearing CV title/front-matter page or other accepted bridge before attaching the page-8 occupational chronology to canonical `wiki/people/dario-arturo-pulgar-smith.md`. If later cleared, promote only the occupational chronology and locations; do not promote family relationships, surname variants, or Pulgar-line merges from this page. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Person-First Narrative Contract
