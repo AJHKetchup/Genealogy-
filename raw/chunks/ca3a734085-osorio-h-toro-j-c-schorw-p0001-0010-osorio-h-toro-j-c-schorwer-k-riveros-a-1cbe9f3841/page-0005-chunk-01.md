@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-873cb49fb329-P0005-01
+chunk_id: CHUNK-bdfcf4d3256f-P0005-01
 source_converted: raw/converted/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10.codex.md
-converted_sha256: 873cb49fb32977092a99b25bb185ed651b58d54ae3dcb6d330c167376bcf5983
+converted_sha256: bdfcf4d3256f3e609480fd7f192e4e8c6368bdd35cb1301570f238808113958f
 source: raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf
 source_sha256: 3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16
 source_manifest: raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json
@@ -12,36 +12,27 @@ part: 1
 ---
 
 ## Page Metadata
-```json
-{
-  "page_number": 5,
-  "page_order_in_source": 5,
-  "source_page_number": "653",
-  "source_type": "journal_article",
-  "source_language": "en",
-  "source_acronym": "IJM",
-  "publication_title": "International Journal of Morphology",
-  "article_title": "Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile",
-  "authors": "Osorio, H.; Toro, J.C.; Schorwer, K.; Riveros, A. & Cardenas, J.",
-  "year": 2020,
-  "volume": 38,
-  "issue": 3,
-  "page_range": "650-658"
-}
-```
-## Layout And Reading Order
-This page is a single-page document with a two-column layout. The text flows from the top to the bottom of the left column, and then continues from the top to the bottom of the right column. A header with publication and article information is at the top of the page, and a page number is at the bottom right.
 
-The reading order is as follows:
-1.  Header
-2.  Left column, top to bottom
-3.  Right column, top to bottom
-4.  Footer (page number)
+- **Page number**: 5
+- **Source publication**: Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog
+- **Source page URL**: `https://www.intjmorphol.com/wp-content/uploads/2020/05/art_1_383.pdf`
+- **Full source citation**: Osorio, H.; Toro, J.C.; Schorwer, K.; Riveros, A. & Cárdenas, J. Pioneers of a century of anatomical teaching in the city of Concepción. Int. J. Morphol., 38(3):650-658, 2020.
+- **Document type**: Scholarly Journal Article
+- **Language**: English
+
+## Layout And Reading Order
+
+This page follows a standard two-column layout for a scholarly article. The reading order begins with the header at the top of the page, proceeds down the left column, then moves to the top of the right column and continues to the bottom. A page number is present in the bottom right corner.
 
 ## Literal Transcription
+
+**Header**
 ```text
 OSORIO, H.; TORO, JC; SCHORWER, K.; RIVEROS, A. & CARDENAS, J. Pioneers of a century of anatomical teaching in the city of Concepción. Int. J. Morphol., 38(3):650-658, 2020.
+```
 
+**Left Column**
+```text
 This pavilion was used solely for Dentistry in 1922 and 1923, under the
 teaching of Dr. Humberto Rojas Troncoso, accompanied by important
 assistants such as Darío Pastene and Oscar Duarte. In 1924, this
@@ -92,7 +83,10 @@ taught until his retirement in 1945. It should be noted that during his
 academic life, Dr. Gonzalez also developed research activities where
 his monographs on abdominal pain and vesicovaginal fistulas stood
 out. After a long battle against a chronic disease, Dr. Gonzalez died in September 1957.
+```
 
+**Right Column**
+```text
 (Solervicens; Muñoz, 1993; Archives of the Department of Normal
 Anatomy and Legal Medicine, University of Concepción, 2019).
 
@@ -111,20 +105,20 @@ inauguration of the course on Medicine in Concepción, held in the
 auditorium of the Men's High School. In the evening, during the honorary
 banquet, Dr. Aguirre Luco in a speech pointed out the joy and satisfaction
 that the inauguration of the new school provokes in the Faculty of
-Medicine of the University of Chile: “... *I greet, on behalf of the Faculty
+Medicine of the University of Chile: “... I greet, on behalf of the Faculty
 of Medicine of Santiago, the distinguished colleagues who will have the
 direction of the medicine courses in Concepción; I know them, they will
 honor the chair and will surely remember with gratitude and affection
 the common mother, the old one, the beloved School of Medicine of the
-University of Chile, who feels proud to have such children.*”
+University of Chile, who feels proud to have such children.”
 
 For his part, Salvador Gálvez, the first Director of the School of
-Medicine of the University of Concepción, said: “... *Five years ago, the
+Medicine of the University of Concepción, said: “... Five years ago, the
 first courses of the schools created by the University of Concepción
 were inaugurated in a modest and silent manner. Today, finding
 ourselves stronger, with more confidence in the future, we have allowed
 ourselves to clap our hands, announcing the birth of a school that was
-the dream of the leaders of the local University and the region.*”
+the dream of the leaders of the local University and the region.”
 
 This new School of Medicine opened with the idea that the first
 two years of the degree would be offered in Concepción, followed by
@@ -137,23 +131,31 @@ examining committee was from the Faculty of Medicine of the University
 of Chile.
 
 This anatomy course was taught by Dr. Gonzalez accompanied by
-his prosectors, among whom stood out a young man
+his two assistants, among whom stood out a young man
+```
 
+**Footer**
+```text
 653
 ```
+
 ## Images, Captions, And Visual Notes
-There are no images on this page. The text refers to "Fig. 1B" in the biographical note for Dr. Enrique Gonzalez Pastor, but the figure itself is not present on this page.
+
+There are no images, photographs, or illustrations on this page. The text refers to "Fig. 1B" in the biographical note about Dr. Enrique Gonzalez Pastor, but the figure itself is not present on this page.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible portions of text on this page.
+
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page has been transcribed in its entirety. The text in both columns is part of a larger article, with content continuing from the previous page and onto the next. The final sentence in the right column is cut off at the bottom of the page.
+
+The transcription is complete. It includes the header, all text from both columns, and the page number in the footer. The final sentence in the right column is transcribed as it appears, cut off at the end of the page.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text in a two-column layout. There are no photographs, illustrations, maps, or other visual elements."
+  "no_visual_regions_reason": "This page consists entirely of text in a two-column layout with a header and footer. There are no photographs, illustrations, maps, or other visual elements to crop."
 }
 ```

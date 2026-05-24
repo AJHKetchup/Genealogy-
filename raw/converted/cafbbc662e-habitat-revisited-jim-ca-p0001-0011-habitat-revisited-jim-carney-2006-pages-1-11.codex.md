@@ -438,21 +438,28 @@ All visible text on the page has been transcribed.
 ```
 
 ## Page Metadata
-
-*   **Page number**: 7
-*   **Source-assigned page number**: 7
-*   **Document title**: Habitat Revisited
-*   **Author**: Jim Carney
-*   **Publication year**: 2006
-*   **Source type**: Book
-*   **Confidence**: 5/5
+- page_number: 7
+- page_type: book-page
+- source_book_title: Habitat Revisited
+- source_author: Jim Carney
+- source_year: 2006
+- source_page_count: 11
+- source_pdf_filename: Habitat Revisited, Jim Carney, 2006.pdf
 
 ## Layout And Reading Order
+The page consists of a single column of text. The page number is at the top right. The reading order is sequential from top to bottom.
 
-The page consists of a single column of text. The page number "7" is located at the top right corner. The content flows linearly from top to bottom. A section heading, "VISION HABITAT", is present about halfway down the page.
+- text-block-1: Page number `7` at the top right.
+- text-block-2: A paragraph beginning "The senior Conference officials...".
+- text-block-3: A paragraph beginning "One memorable scene:...".
+- text-block-4: A paragraph beginning "Copyright and distribution rights aside,...".
+- text-block-5: A section heading "VISION HABITAT".
+- text-block-6: A paragraph beginning "In September, 1976,...".
+- text-block-7: A paragraph beginning "The UN was insistent...".
+- text-block-8: A paragraph beginning "A couple of my UN Habitat...".
 
 ## Literal Transcription
-
+```text
 7
 
 The senior Conference officials had a hard time with this. In their view, they had
@@ -502,38 +509,32 @@ a raspy-voiced, incredibly energetic, dynamic Chilean. In Chile under Allende,
 though still in his twenties, Dario had been the number two man in Chile’s state film
 distribution system. He had fetched up at “The Board” after fleeing Pinochet’s
 overthrow of the Allende government in 1973.
+```
 
 ## Images, Captions, And Visual Notes
-
-There are no images, illustrations, or other visual elements on this page. The content is entirely text.
+This page contains only text. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
-
-There are no uncertain or illegible words on this page. The text is clear and fully readable.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-This page has been fully transcribed. All textual content, including the page number and section heading, has been captured.
+This page has been fully and accurately transcribed.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text and does not have any images, illustrations, or other significant visual elements."
+  "no_visual_regions_reason": "The page contains only text and a page number, with no images, illustrations, or other significant visual elements suitable for cropping."
 }
 ```
 
 ## Page Metadata
 
 - **Page number**: 8
-- **Document title**: Habitat Revisited
-- **Author**: Jim Carney
-- **Publication year**: 2006
 
 ## Layout And Reading Order
 
-The page contains a single column of text. The page number "8" is located in the top right corner. The reading order is from top to bottom.
+The page consists of a single column of text. The page number '8' is located at the top right corner. The reading order is from top to bottom, starting with the first paragraph and proceeding through the subsequent paragraphs and the final section heading.
 
 ## Literal Transcription
 
@@ -549,8 +550,8 @@ learned French in Montreal in six weeks, he said.
 Over the next three years, our small group at UBC, perhaps six people in all, worked
 at setting up a non-commercial global distribution system for the Habitat films. One
 of our first tasks was to find, identify, catalogue and store the thousands of different
-AV elements in Vancouver. During the Conference I had calculated that there had
-to be approximately ten thousand separate bits and pieces in various places.
+AV elements in Vancouver. During the Conference I had calculated that there
+had to be approximately ten thousand separate bits and pieces in various places.
 A young Vancouverite, Nigel Hollick, with no previous experience in film or video,
 handled this brilliantly. Nigel was not your typical young Kitsilano hippy, much less
 yuppy. He had been born on a sailboat in Majorca, Spain, of peripatetic and pos-
@@ -598,14 +599,14 @@ There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-The transcription of this page is complete and accurate.
+The full content of the page, including the page number and all text, has been transcribed.
 
 ## Visual Region Manifest
 
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page consists entirely of text and contains no images, illustrations, or other significant visual elements."
+  "no_visual_regions_reason": "The page contains only printed text and a page number, with no images, illustrations, or other significant visual elements suitable for cropping."
 }
 ```
 
@@ -679,13 +680,15 @@ All visible text on the page has been transcribed.
 
 ## Page Metadata
 
-- Task id: `source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0010`
-- Source: `raw/sources/Habitat Revisited, Jim Carney, 2006.pdf`
-- Page: 10
+- task_id: `source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0010`
+- page_num: `10`
+- source_id: `cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11`
+- source_title: `Habitat Revisited, Jim Carney, 2006`
+- source_page_label: `10`
 
 ## Layout And Reading Order
 
-The page consists of a single column of text. The reading order is top to bottom. A page number, "10", is located at the top right corner. A bolded, centered heading, "IN THE END – WHY ?", separates the text into two main sections.
+The page contains a single column of text. The page number "10" is located at the top right corner. The reading order is from top to bottom, starting with the main text, followed by a bolded heading, and then the concluding paragraphs.
 
 ## Literal Transcription
 
@@ -716,7 +719,7 @@ wanted the job on a more permanent basis. I remained in the post until April, 19
 when I returned to my hometown, Vancouver, as Commissioner General of the UN
 pavilion at Expo ‘86. And that’s another story !!
 
-IN THE END – WHY ?
+**IN THE END – WHY ?**
 
 I spent a total of thirteen years on the Habitat programme. I was and still am fre-
 quently asked “What is the value of these global UN conferences ?”, “Do they
@@ -727,6 +730,7 @@ develop and compare solutions to overarching global problems. Responsible min-
 isters gain clout at the cabinet table; issues they represent rise higher on govern-
 ment agendas. Such conferences help establish norms, advancing the goal posts
 of what is considered acceptable behaviour.
+
 The degree to which improvement actually occurs is dependent on the will, prior-
 ities and resources of individual governments – including donor states - who simul-
 taneously must confront and deal with other huge problems.
@@ -741,7 +745,7 @@ and shipped across continents and oceans.
 
 ## Images, Captions, And Visual Notes
 
-There are no images, captions, or other visual elements on this page.
+This page contains only text. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
 
@@ -749,15 +753,12 @@ There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-This page is complete. All text, including the page number and section heading, has been transcribed.
+This page is complete and has been fully transcribed.
 
 ## Visual Region Manifest
 
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text and a page number."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and a page number, with no images, illustrations, or other significant visual elements suitable for cropping."}
 ```
 
 ## Page Metadata

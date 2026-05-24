@@ -1,7 +1,7 @@
 {
   "created": "2026-05-24",
   "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
-  "converted_sha256": "9c7b81f0cb64f71df213436ad61f63a18a5c936627bfa7d9d4f4a84873dcb3a1",
+  "converted_sha256": "d3cefdb3606e2c442dae11fc6a255c792a23f8345591a9f2cff1417390ae107b",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
   "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",
   "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
@@ -12,194 +12,154 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0001-01",
+      "chunk_id": "CHUNK-d3cefdb3606e-P0001-01",
       "chunk_number": 1,
       "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0001-chunk-01.md",
       "page_start": 1,
       "page_end": 1,
       "part": 1,
       "chars": 4329,
-      "sha256": "8b85712615fc1d8c0ecf53c28fe196a58bb1b1ae95cb575dbb64562f11044c37"
+      "sha256": "3b479a28f78b6be428042614853435d48c41fac18ff5e12e55a2fd3c12715d16"
     },
     {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0005-01",
+      "chunk_id": "CHUNK-d3cefdb3606e-P0005-01",
       "chunk_number": 2,
       "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0005-chunk-01.md",
       "page_start": 5,
       "page_end": 5,
       "part": 1,
       "chars": 6814,
-      "sha256": "aa2486f26d972b9ddd1634deb88073ce2d6a95e85d404406ab3aad22d4a50fd1"
+      "sha256": "fa897328dd2d957fcfad3111a0ab93c39471481a0b4c64721cc1a252bc5530ec"
     },
     {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0003-01",
+      "chunk_id": "CHUNK-d3cefdb3606e-P0003-01",
       "chunk_number": 3,
       "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0003-chunk-01.md",
       "page_start": 3,
       "page_end": 3,
       "part": 1,
       "chars": 2291,
-      "sha256": "5a9a3273c8bc082a26cad3829eaa5e2e8578e625d38019135d4065c6583be64c"
+      "sha256": "12bb1b40a02cee4af6f88987a531c5e71df56640fccc21c0b8585912cbbae7de"
     },
     {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0004-01",
+      "chunk_id": "CHUNK-d3cefdb3606e-P0004-01",
       "chunk_number": 4,
       "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0004-chunk-01.md",
       "page_start": 4,
       "page_end": 4,
       "part": 1,
-      "chars": 296,
-      "sha256": "0e209eb5d173808e836ad994cb857eaf9c0ba1081dd6ecba1fddffef5e24765d"
+      "chars": 2612,
+      "sha256": "fa3203988c0c5ef7471c42b4838f2d2e3791575d7e158b4607fabefa5d98e38d"
     },
     {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0004-02",
+      "chunk_id": "CHUNK-d3cefdb3606e-P0005-01",
       "chunk_number": 5,
-      "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0004-chunk-02.md",
-      "page_start": 4,
-      "page_end": 4,
-      "part": 2,
-      "chars": 9514,
-      "sha256": "4cc5565ebe597f2f41f6d8bbd7172f70895470d7feecf0e3ea9aa42eae93786b"
-    },
-    {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0004-03",
-      "chunk_number": 6,
-      "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0004-chunk-03.md",
-      "page_start": 4,
-      "page_end": 4,
-      "part": 3,
-      "chars": 6515,
-      "sha256": "3441d3b934cd26cb3b0fb6c546cb17ecb58f35fe310630a65837d57b0bb5d582"
-    },
-    {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0004-04",
-      "chunk_number": 7,
-      "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0004-chunk-04.md",
-      "page_start": 4,
-      "page_end": 4,
-      "part": 4,
-      "chars": 1,
-      "sha256": "a62a68f0b801936b83fee44de1b7709edd041ed369622612cdda760f1b7f9445"
-    },
-    {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0004-05",
-      "chunk_number": 8,
-      "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0004-chunk-05.md",
-      "page_start": 4,
-      "page_end": 4,
-      "part": 5,
-      "chars": 1049,
-      "sha256": "d9a0874bf32df49c563a914ae2123ca9ba68488c81d794856103b7529150cabb"
-    },
-    {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0005-01",
-      "chunk_number": 9,
       "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0005-chunk-01.md",
       "page_start": 5,
       "page_end": 5,
       "part": 1,
       "chars": 2520,
-      "sha256": "55b7f66f08339cfadc489b75360befd1359a8da9457fcd5c41d5ba3c7d59b19b"
+      "sha256": "2b04580211d7cb251712ca4400929061c628ce239913d52e29dfacd5b63c47b7"
     },
     {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0006-01",
-      "chunk_number": 10,
+      "chunk_id": "CHUNK-d3cefdb3606e-P0006-01",
+      "chunk_number": 6,
       "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0006-chunk-01.md",
       "page_start": 6,
       "page_end": 6,
       "part": 1,
       "chars": 4366,
-      "sha256": "a6dac21b1f27af52577668150aba48ac7c0d9a275895e0bad7f67039ce412e5a"
+      "sha256": "f09bc63e33a1af03bd1347d9e020a00e718b93bed8223fa045af34459c54fe74"
     },
     {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0010-01",
-      "chunk_number": 11,
+      "chunk_id": "CHUNK-d3cefdb3606e-P0010-01",
+      "chunk_number": 7,
       "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0010-chunk-01.md",
       "page_start": 10,
       "page_end": 10,
       "part": 1,
-      "chars": 2323,
-      "sha256": "5fafc6ef9b91ffa4cdc95f8c57b8f1f9f29d209e8b9d0a6768185966e64d7956"
+      "chars": 2022,
+      "sha256": "18ff0268b2dd61614b38a25dbe069fc5f36234bd1b52feb01e4edaa21c36d797"
     },
     {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0011-01",
-      "chunk_number": 12,
+      "chunk_id": "CHUNK-d3cefdb3606e-P0011-01",
+      "chunk_number": 8,
       "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0011-chunk-01.md",
       "page_start": 11,
       "page_end": 11,
       "part": 1,
-      "chars": 4425,
-      "sha256": "d11be59860c0e4aa24de4eb3950637d221b669e18ba6d292bd8199184058c4a9"
+      "chars": 3089,
+      "sha256": "6964dce7053b8bf3e8597458e19cbbcb5f55ae05b53b288f8f61b66294f7b955"
     },
     {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0012-01",
-      "chunk_number": 13,
+      "chunk_id": "CHUNK-d3cefdb3606e-P0012-01",
+      "chunk_number": 9,
       "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0012-chunk-01.md",
       "page_start": 12,
       "page_end": 12,
       "part": 1,
-      "chars": 3148,
-      "sha256": "7b5f4e6e1471408a01393fd54385f05cb8a62a8651319fe97df5e2929b616f8f"
+      "chars": 3074,
+      "sha256": "f22af8da03844b3cc52fe1b371ebae537aac50b0d79413581b191b33c553a59c"
     },
     {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0013-01",
-      "chunk_number": 14,
+      "chunk_id": "CHUNK-d3cefdb3606e-P0013-01",
+      "chunk_number": 10,
       "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0013-chunk-01.md",
       "page_start": 13,
       "page_end": 13,
       "part": 1,
       "chars": 4869,
-      "sha256": "bcd190621db3a3c58130bd88d235a5b79d6dcd98dd89ee2f1f02cc6931eedb07"
+      "sha256": "d37f75394ca329455786b2f9f3684bf0f1066368362eef85e2ae429f06a949cd"
     },
     {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0011-01",
-      "chunk_number": 15,
+      "chunk_id": "CHUNK-d3cefdb3606e-P0011-01",
+      "chunk_number": 11,
       "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0011-chunk-01.md",
       "page_start": 11,
       "page_end": 11,
       "part": 1,
-      "chars": 3728,
-      "sha256": "57d87ec61bbe77ae8f450b018b90478d55661dc76d982feeb8fe8631ba842870"
+      "chars": 3636,
+      "sha256": "0a9266c5232a80d3c5909bedb49c36b4af429c2533301da4075694493902240b"
     },
     {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0012-01",
-      "chunk_number": 16,
-      "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0012-chunk-01.md",
-      "page_start": 12,
-      "page_end": 12,
+      "chunk_id": "CHUNK-d3cefdb3606e-P0015-01",
+      "chunk_number": 12,
+      "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0015-chunk-01.md",
+      "page_start": 15,
+      "page_end": 15,
       "part": 1,
-      "chars": 2420,
-      "sha256": "53c864f99c3dfabb24f620f0beacb8a5fd16c95a0443f52dbb313cafecb74cbc"
+      "chars": 2439,
+      "sha256": "15a239f45b4e93929034a875aaa37c4a3d002daabb6e051680d9b3b839288598"
     },
     {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0016-01",
-      "chunk_number": 17,
+      "chunk_id": "CHUNK-d3cefdb3606e-P0016-01",
+      "chunk_number": 13,
       "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0016-chunk-01.md",
       "page_start": 16,
       "page_end": 16,
       "part": 1,
       "chars": 2101,
-      "sha256": "984dce70deccde14e03409b1008b9f974293aa36c0b1766533a8f4d7071b7152"
+      "sha256": "1db873be74e7b6f5790a1d9d888dcae916a905a5ba96f4b59230103f675c7c10"
     },
     {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0017-01",
-      "chunk_number": 18,
+      "chunk_id": "CHUNK-d3cefdb3606e-P0017-01",
+      "chunk_number": 14,
       "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0017-chunk-01.md",
       "page_start": 17,
       "page_end": 17,
       "part": 1,
-      "chars": 3585,
-      "sha256": "00edb0eba8abf4cab38bfe8dc79671954879b5311a992745a588dbffb81a2070"
+      "chars": 4372,
+      "sha256": "8ae4fd9e4338ee7ab7ba63ef5189ce86dca7cbcd700dcd6153ff2cf5bd6fad4f"
     },
     {
-      "chunk_id": "CHUNK-9c7b81f0cb64-P0018-01",
-      "chunk_number": 19,
+      "chunk_id": "CHUNK-d3cefdb3606e-P0018-01",
+      "chunk_number": 15,
       "path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0018-chunk-01.md",
       "page_start": 18,
       "page_end": 18,
       "part": 1,
       "chars": 856,
-      "sha256": "8fa7b0f7faf12e489ef1e3b53ba40bd4700b34dd6c2b275bebcd641ba22f5152"
+      "sha256": "99718daa9fc1b3549f3d382b9d06bd86c4663bc4f61b254f018a9c435a44569a"
     }
   ]
 }
