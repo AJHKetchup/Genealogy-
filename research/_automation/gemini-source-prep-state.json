@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-24T15:26:36Z",
+  "created": "2026-05-24T16:35:24Z",
   "mode": "gemini-source-prep",
   "dry_run": false,
   "limit": 8000,
@@ -26,12 +26,12 @@
   "fallback_policy": "large_corpus_relevance",
   "economy_large_source_pages": 50,
   "processed": 48,
-  "completed": 42,
-  "released": 6,
-  "held": 8,
+  "completed": 38,
+  "released": 10,
+  "held": 10,
   "failed": 0,
-  "skipped": 489,
-  "discovery_skipped": 489,
+  "skipped": 479,
+  "discovery_skipped": 479,
   "media_skipped": 0,
   "route_counts": {
     "pro": 14,
@@ -40,84 +40,104 @@
   },
   "tasks": [
     {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0579-0603-c-mara-de-senadores-de-la-naci-n-1936-pages-579-603:p0598",
-      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0579-0603-c-mara-de-senadores-de-la-naci-n-1936-pages-579-603:p0598",
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1154-1178-c-mara-de-senadores-de-la-naci-n-1936-pages-1154-1178:p1172",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p1154-1178-c-mara-de-senadores-de-la-naci-n-1936-pages-1154-1178:p1172",
       "status": "held",
       "reason": "large_corpus_docling_fallback_held_for_relevance",
       "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
       "source_task_count": 1342,
       "economy_large_source_pages": 50,
-      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0579-0603-c-mara-de-senadores-de-la-naci-n-1936-pages-579-603/page-0598.md"
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p1154-1178-c-mara-de-senadores-de-la-naci-n-1936-pages-1154-1178/page-1172.md"
     },
     {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1154-1178-c-mara-de-senadores-de-la-naci-n-1936-pages-1154-1178:p1162",
-      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p1154-1178-c-mara-de-senadores-de-la-naci-n-1936-pages-1154-1178:p1162",
-      "status": "held",
-      "reason": "large_corpus_docling_fallback_held_for_relevance",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_task_count": 1342,
-      "economy_large_source_pages": 50,
-      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p1154-1178-c-mara-de-senadores-de-la-naci-n-1936-pages-1154-1178/page-1162.md"
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1254-1278-c-mara-de-senadores-de-la-naci-n-1936-pages-1254-1278:p1275",
-      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p1254-1278-c-mara-de-senadores-de-la-naci-n-1936-pages-1254-1278:p1275",
-      "status": "held",
-      "reason": "large_corpus_docling_fallback_held_for_relevance",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_task_count": 1342,
-      "economy_large_source_pages": 50,
-      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p1254-1278-c-mara-de-senadores-de-la-naci-n-1936-pages-1254-1278/page-1275.md"
-    },
-    {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0726-0750-r3016-11a-2905-950-pages-726-750:p0743",
-      "batch_task_id": "source-prep-batch:ca3e1a8684-r3016-11a-2905-950-p0726-0750-r3016-11a-2905-950-pages-726-750:p0743",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0626-0650-r3016-11a-2905-950-pages-626-650:p0630",
+      "batch_task_id": "source-prep-batch:ca3e1a8684-r3016-11a-2905-950-p0626-0650-r3016-11a-2905-950-pages-626-650:p0630",
       "status": "held",
       "reason": "large_corpus_docling_fallback_held_for_relevance",
       "source": "raw/sources/R3016-11A-2905-950.pdf",
       "source_task_count": 940,
       "economy_large_source_pages": 50,
-      "discovery_path": "raw/discovery/docling/ca3e1a8684-r3016-11a-2905-950-p0726-0750-r3016-11a-2905-950-pages-726-750/page-0743.md"
+      "discovery_path": "raw/discovery/docling/ca3e1a8684-r3016-11a-2905-950-p0626-0650-r3016-11a-2905-950-pages-626-650/page-0630.md"
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0651-0675-s522bis-29-3-pages-651-675:p0663",
-      "batch_task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p0651-0675-s522bis-29-3-pages-651-675:p0663",
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0954-0978-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-954-978:p0954",
+      "batch_task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0954-0978-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-954-978:p0954",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_task_count": 1194,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0954-0978-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-954-978/page-0954.md"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028:p1009",
+      "batch_task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028:p1009",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_task_count": 1194,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028/page-1009.md"
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475:p0470",
+      "batch_task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475:p0470",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_task_count": 920,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/page-0470.md"
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525:p0520",
+      "batch_task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525:p0520",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_task_count": 920,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525/page-0520.md"
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650:p0632",
+      "batch_task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650:p0632",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_task_count": 920,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650/page-0632.md"
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675:p0675",
+      "batch_task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675:p0675",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_task_count": 920,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675/page-0675.md"
+    },
+    {
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825:p0825",
+      "batch_task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825:p0825",
       "status": "held",
       "reason": "large_corpus_docling_fallback_held_for_relevance",
       "source": "raw/sources/S522bis-29-3.pdf",
       "source_task_count": 1473,
       "economy_large_source_pages": 50,
-      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p0651-0675-s522bis-29-3-pages-651-675/page-0663.md"
+      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825/page-0825.md"
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0751-0775-s522bis-29-3-pages-751-775:p0757",
-      "batch_task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p0751-0775-s522bis-29-3-pages-751-775:p0757",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925:p0925",
+      "batch_task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925:p0925",
       "status": "held",
       "reason": "large_corpus_docling_fallback_held_for_relevance",
       "source": "raw/sources/S522bis-29-3.pdf",
       "source_task_count": 1473,
       "economy_large_source_pages": 50,
-      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p0751-0775-s522bis-29-3-pages-751-775/page-0757.md"
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1226-1250-s522bis-29-3-pages-1226-1250:p1226",
-      "batch_task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p1226-1250-s522bis-29-3-pages-1226-1250:p1226",
-      "status": "held",
-      "reason": "large_corpus_docling_fallback_held_for_relevance",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "source_task_count": 1473,
-      "economy_large_source_pages": 50,
-      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p1226-1250-s522bis-29-3-pages-1226-1250/page-1226.md"
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1426-1450-s522bis-29-3-pages-1426-1450:p1426",
-      "batch_task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p1426-1450-s522bis-29-3-pages-1426-1450:p1426",
-      "status": "held",
-      "reason": "large_corpus_docling_fallback_held_for_relevance",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "source_task_count": 1473,
-      "economy_large_source_pages": 50,
-      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p1426-1450-s522bis-29-3-pages-1426-1450/page-1426.md"
+      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925/page-0925.md"
     },
     {
       "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475:p0457",
@@ -1443,13 +1463,6 @@
       "discovery_path": ""
     },
     {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1154-1178-c-mara-de-senadores-de-la-naci-n-1936-pages-1154-1178:p1172",
-      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p1154-1178-c-mara-de-senadores-de-la-naci-n-1936-pages-1154-1178:p1172",
-      "status": "skipped",
-      "reason": "docling_discovery_missing",
-      "discovery_path": ""
-    },
-    {
       "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1254-1278-c-mara-de-senadores-de-la-naci-n-1936-pages-1254-1278:p1259",
       "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p1254-1278-c-mara-de-senadores-de-la-naci-n-1936-pages-1254-1278:p1259",
       "status": "skipped",
@@ -1515,13 +1528,6 @@
     {
       "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0476-0500-r3016-11a-2905-950-pages-476-500:p0498",
       "batch_task_id": "source-prep-batch:ca3e1a8684-r3016-11a-2905-950-p0476-0500-r3016-11a-2905-950-pages-476-500:p0498",
-      "status": "skipped",
-      "reason": "docling_discovery_missing",
-      "discovery_path": ""
-    },
-    {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0476-0500-r3016-11a-2905-950-pages-476-500:p0500",
-      "batch_task_id": "source-prep-batch:ca3e1a8684-r3016-11a-2905-950-p0476-0500-r3016-11a-2905-950-pages-476-500:p0500",
       "status": "skipped",
       "reason": "docling_discovery_missing",
       "discovery_path": ""
@@ -1718,13 +1724,6 @@
     {
       "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0601-0625-r3016-11a-2905-950-pages-601-625:p0620",
       "batch_task_id": "source-prep-batch:ca3e1a8684-r3016-11a-2905-950-p0601-0625-r3016-11a-2905-950-pages-601-625:p0620",
-      "status": "skipped",
-      "reason": "docling_discovery_missing",
-      "discovery_path": ""
-    },
-    {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0626-0650-r3016-11a-2905-950-pages-626-650:p0630",
-      "batch_task_id": "source-prep-batch:ca3e1a8684-r3016-11a-2905-950-p0626-0650-r3016-11a-2905-950-pages-626-650:p0630",
       "status": "skipped",
       "reason": "docling_discovery_missing",
       "discovery_path": ""
@@ -1940,13 +1939,6 @@
       "discovery_path": ""
     },
     {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0954-0978-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-954-978:p0954",
-      "batch_task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0954-0978-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-954-978:p0954",
-      "status": "skipped",
-      "reason": "docling_discovery_missing",
-      "discovery_path": ""
-    },
-    {
       "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0954-0978-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-954-978:p0959",
       "batch_task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0954-0978-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-954-978:p0959",
       "status": "skipped",
@@ -1991,13 +1983,6 @@
     {
       "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028:p1008",
       "batch_task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028:p1008",
-      "status": "skipped",
-      "reason": "docling_discovery_missing",
-      "discovery_path": ""
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028:p1009",
-      "batch_task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028:p1009",
       "status": "skipped",
       "reason": "docling_discovery_missing",
       "discovery_path": ""
@@ -2087,13 +2072,6 @@
       "discovery_path": ""
     },
     {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475:p0470",
-      "batch_task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475:p0470",
-      "status": "skipped",
-      "reason": "docling_discovery_missing",
-      "discovery_path": ""
-    },
-    {
       "task_id": "source-prep:ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500:p0479",
       "batch_task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500:p0479",
       "status": "skipped",
@@ -2138,13 +2116,6 @@
     {
       "task_id": "source-prep:ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525:p0510",
       "batch_task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525:p0510",
-      "status": "skipped",
-      "reason": "docling_discovery_missing",
-      "discovery_path": ""
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525:p0520",
-      "batch_task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525:p0520",
       "status": "skipped",
       "reason": "docling_discovery_missing",
       "discovery_path": ""
@@ -2304,13 +2275,6 @@
       "discovery_path": ""
     },
     {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650:p0632",
-      "batch_task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650:p0632",
-      "status": "skipped",
-      "reason": "docling_discovery_missing",
-      "discovery_path": ""
-    },
-    {
       "task_id": "source-prep:ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650:p0638",
       "batch_task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650:p0638",
       "status": "skipped",
@@ -2355,13 +2319,6 @@
     {
       "task_id": "source-prep:ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675:p0665",
       "batch_task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675:p0665",
-      "status": "skipped",
-      "reason": "docling_discovery_missing",
-      "discovery_path": ""
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675:p0675",
-      "batch_task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675:p0675",
       "status": "skipped",
       "reason": "docling_discovery_missing",
       "discovery_path": ""
@@ -3151,13 +3108,6 @@
       "discovery_path": ""
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825:p0825",
-      "batch_task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825:p0825",
-      "status": "skipped",
-      "reason": "docling_discovery_missing",
-      "discovery_path": ""
-    },
-    {
       "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850:p0839",
       "batch_task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850:p0839",
       "status": "skipped",
@@ -3188,13 +3138,6 @@
     {
       "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0851-0875-s522bis-29-3-pages-851-875:p0872",
       "batch_task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p0851-0875-s522bis-29-3-pages-851-875:p0872",
-      "status": "skipped",
-      "reason": "docling_discovery_missing",
-      "discovery_path": ""
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925:p0925",
-      "batch_task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925:p0925",
       "status": "skipped",
       "reason": "docling_discovery_missing",
       "discovery_path": ""
@@ -3417,13 +3360,6 @@
       "discovery_path": ""
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1326-1350-s522bis-29-3-pages-1326-1350:p1326",
-      "batch_task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p1326-1350-s522bis-29-3-pages-1326-1350:p1326",
-      "status": "skipped",
-      "reason": "docling_discovery_missing",
-      "discovery_path": ""
-    },
-    {
       "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1451-1473-s522bis-29-3-pages-1451-1473:p1473",
       "batch_task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p1451-1473-s522bis-29-3-pages-1451-1473:p1473",
       "status": "skipped",
@@ -3487,53 +3423,6 @@
       "discovery_path": ""
     },
     {
-      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0002",
-      "batch_task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0002",
-      "route": {
-        "tier": "pro",
-        "model": "gemini-2.5-pro",
-        "use_crops": false,
-        "relevant": false,
-        "complex": true,
-        "reasons": [
-          "complex_quality_flags"
-        ]
-      },
-      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-images/page-0002.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-markdown/page-0002.md",
-      "usage": {
-        "promptTokenCount": 1391,
-        "candidatesTokenCount": 1107,
-        "totalTokenCount": 6877,
-        "promptTokensDetails": [
-          {
-            "modality": "TEXT",
-            "tokenCount": 1133
-          },
-          {
-            "modality": "IMAGE",
-            "tokenCount": 258
-          }
-        ],
-        "thoughtsTokenCount": 4379,
-        "serviceTier": "standard"
-      },
-      "finish_reason": "STOP",
-      "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-markdown/page-0002.visuals.json",
-        "declared": 0,
-        "cropped": 0,
-        "skipped": 0,
-        "flags": []
-      },
-      "review": {
-        "status": "done",
-        "quality_flags": [],
-        "missing_sections": []
-      },
-      "status": "done"
-    },
-    {
       "task_id": "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0004",
       "batch_task_id": "source-prep-batch:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0004",
       "route": {
@@ -3549,39 +3438,9 @@
       },
       "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0004.jpg",
       "output_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0004.md",
-      "usage": {
-        "promptTokenCount": 1342,
-        "candidatesTokenCount": 1427,
-        "totalTokenCount": 4137,
-        "promptTokensDetails": [
-          {
-            "modality": "TEXT",
-            "tokenCount": 1084
-          },
-          {
-            "modality": "IMAGE",
-            "tokenCount": 258
-          }
-        ],
-        "thoughtsTokenCount": 1368,
-        "serviceTier": "standard"
-      },
-      "finish_reason": "STOP",
-      "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0004.visuals.json",
-        "declared": 0,
-        "cropped": 0,
-        "skipped": 0,
-        "flags": []
-      },
-      "review": {
-        "status": "done",
-        "quality_flags": [
-          "explicit_reread_needed"
-        ],
-        "missing_sections": []
-      },
-      "status": "done"
+      "status": "released",
+      "reason": "gemini_error",
+      "error": "Remote end closed connection without response"
     },
     {
       "task_id": "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0014",
@@ -3601,8 +3460,8 @@
       "output_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0014.md",
       "usage": {
         "promptTokenCount": 2408,
-        "candidatesTokenCount": 1074,
-        "totalTokenCount": 5459,
+        "candidatesTokenCount": 1090,
+        "totalTokenCount": 5229,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -3613,7 +3472,7 @@
             "tokenCount": 1290
           }
         ],
-        "thoughtsTokenCount": 1977,
+        "thoughtsTokenCount": 1731,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
@@ -3650,8 +3509,8 @@
       "output_path": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/page-markdown/page-0001.md",
       "usage": {
         "promptTokenCount": 2463,
-        "candidatesTokenCount": 1553,
-        "totalTokenCount": 8849,
+        "candidatesTokenCount": 1346,
+        "totalTokenCount": 7045,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -3662,15 +3521,15 @@
             "tokenCount": 1290
           }
         ],
-        "thoughtsTokenCount": 4833,
+        "thoughtsTokenCount": 3236,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
       "visual_regions": {
         "manifest_path": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/page-markdown/page-0001.visuals.json",
-        "declared": 0,
+        "declared": 1,
         "cropped": 0,
-        "skipped": 0,
+        "skipped": 1,
         "flags": []
       },
       "review": {
@@ -3698,20 +3557,20 @@
       "page_image": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0004.jpg",
       "output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0004.md",
       "usage": {
-        "promptTokenCount": 1370,
-        "candidatesTokenCount": 937,
-        "totalTokenCount": 4287,
+        "promptTokenCount": 1364,
+        "candidatesTokenCount": 1320,
+        "totalTokenCount": 4850,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 1112
+            "tokenCount": 1106
           },
           {
             "modality": "IMAGE",
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 1980,
+        "thoughtsTokenCount": 2166,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
@@ -3724,7 +3583,9 @@
       },
       "review": {
         "status": "done",
-        "quality_flags": [],
+        "quality_flags": [
+          "explicit_reread_needed"
+        ],
         "missing_sections": []
       },
       "status": "done"
@@ -3748,8 +3609,8 @@
       "output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0005.md",
       "usage": {
         "promptTokenCount": 1364,
-        "candidatesTokenCount": 914,
-        "totalTokenCount": 4432,
+        "candidatesTokenCount": 1173,
+        "totalTokenCount": 4302,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -3760,7 +3621,7 @@
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 2154,
+        "thoughtsTokenCount": 1765,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
@@ -3773,7 +3634,9 @@
       },
       "review": {
         "status": "done",
-        "quality_flags": [],
+        "quality_flags": [
+          "explicit_reread_needed"
+        ],
         "missing_sections": []
       },
       "status": "done"
@@ -3796,20 +3659,20 @@
       "page_image": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0006.jpg",
       "output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0006.md",
       "usage": {
-        "promptTokenCount": 1364,
-        "candidatesTokenCount": 1106,
-        "totalTokenCount": 4145,
+        "promptTokenCount": 1370,
+        "candidatesTokenCount": 1080,
+        "totalTokenCount": 4413,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 1106
+            "tokenCount": 1112
           },
           {
             "modality": "IMAGE",
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 1675,
+        "thoughtsTokenCount": 1963,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
@@ -3848,8 +3711,8 @@
       "output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0007.md",
       "usage": {
         "promptTokenCount": 1364,
-        "candidatesTokenCount": 905,
-        "totalTokenCount": 3225,
+        "candidatesTokenCount": 861,
+        "totalTokenCount": 3082,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -3860,7 +3723,7 @@
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 956,
+        "thoughtsTokenCount": 857,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
@@ -3897,8 +3760,8 @@
       "output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0008.md",
       "usage": {
         "promptTokenCount": 1364,
-        "candidatesTokenCount": 965,
-        "totalTokenCount": 3776,
+        "candidatesTokenCount": 1017,
+        "totalTokenCount": 4099,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -3909,7 +3772,7 @@
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 1447,
+        "thoughtsTokenCount": 1718,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
@@ -3945,20 +3808,20 @@
       "page_image": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0009.jpg",
       "output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0009.md",
       "usage": {
-        "promptTokenCount": 1364,
-        "candidatesTokenCount": 762,
-        "totalTokenCount": 2744,
+        "promptTokenCount": 1370,
+        "candidatesTokenCount": 832,
+        "totalTokenCount": 3325,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 1106
+            "tokenCount": 1112
           },
           {
             "modality": "IMAGE",
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 618,
+        "thoughtsTokenCount": 1123,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
@@ -3995,8 +3858,8 @@
       "output_path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/page-markdown/page-0002.md",
       "usage": {
         "promptTokenCount": 2508,
-        "candidatesTokenCount": 1241,
-        "totalTokenCount": 10483,
+        "candidatesTokenCount": 1469,
+        "totalTokenCount": 7302,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -4007,7 +3870,7 @@
             "tokenCount": 1290
           }
         ],
-        "thoughtsTokenCount": 6734,
+        "thoughtsTokenCount": 3325,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
@@ -4019,11 +3882,14 @@
         "flags": []
       },
       "review": {
-        "status": "done",
-        "quality_flags": [],
+        "status": "needs_reread",
+        "quality_flags": [
+          "many_uncertain_readings"
+        ],
         "missing_sections": []
       },
-      "status": "done"
+      "status": "released",
+      "reason": "review_failed"
     },
     {
       "task_id": "source-prep:ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10:p0005",
@@ -4043,8 +3909,8 @@
       "output_path": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-markdown/page-0005.md",
       "usage": {
         "promptTokenCount": 2724,
-        "candidatesTokenCount": 1885,
-        "totalTokenCount": 7941,
+        "candidatesTokenCount": 2016,
+        "totalTokenCount": 8533,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -4055,7 +3921,7 @@
             "tokenCount": 1290
           }
         ],
-        "thoughtsTokenCount": 3332,
+        "thoughtsTokenCount": 3793,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
@@ -4140,8 +4006,8 @@
       "output_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-markdown/page-0020.md",
       "usage": {
         "promptTokenCount": 1389,
-        "candidatesTokenCount": 868,
-        "totalTokenCount": 2257,
+        "candidatesTokenCount": 893,
+        "totalTokenCount": 2282,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -4286,8 +4152,8 @@
       "output_path": "raw/codex-conversion-jobs/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172/page-markdown/page-0001.md",
       "usage": {
         "promptTokenCount": 2459,
-        "candidatesTokenCount": 2465,
-        "totalTokenCount": 8946,
+        "candidatesTokenCount": 1848,
+        "totalTokenCount": 10555,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -4298,7 +4164,7 @@
             "tokenCount": 1290
           }
         ],
-        "thoughtsTokenCount": 4022,
+        "thoughtsTokenCount": 6248,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
@@ -4335,8 +4201,8 @@
       "output_path": "raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/page-markdown/page-0007.md",
       "usage": {
         "promptTokenCount": 1353,
-        "candidatesTokenCount": 1103,
-        "totalTokenCount": 4670,
+        "candidatesTokenCount": 1257,
+        "totalTokenCount": 3514,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -4347,7 +4213,7 @@
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 2214,
+        "thoughtsTokenCount": 904,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
@@ -4360,7 +4226,9 @@
       },
       "review": {
         "status": "done",
-        "quality_flags": [],
+        "quality_flags": [
+          "explicit_reread_needed"
+        ],
         "missing_sections": []
       },
       "status": "done"
@@ -4384,8 +4252,8 @@
       "output_path": "raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/page-markdown/page-0008.md",
       "usage": {
         "promptTokenCount": 1353,
-        "candidatesTokenCount": 930,
-        "totalTokenCount": 4798,
+        "candidatesTokenCount": 991,
+        "totalTokenCount": 4353,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -4396,7 +4264,7 @@
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 2515,
+        "thoughtsTokenCount": 2009,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
@@ -4433,8 +4301,8 @@
       "output_path": "raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/page-markdown/page-0010.md",
       "usage": {
         "promptTokenCount": 1354,
-        "candidatesTokenCount": 861,
-        "totalTokenCount": 4460,
+        "candidatesTokenCount": 905,
+        "totalTokenCount": 4101,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -4445,7 +4313,7 @@
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 2245,
+        "thoughtsTokenCount": 1842,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
@@ -4480,8 +4348,8 @@
       "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-markdown/page-0001.md",
       "usage": {
         "promptTokenCount": 1384,
-        "candidatesTokenCount": 1062,
-        "totalTokenCount": 2446,
+        "candidatesTokenCount": 1040,
+        "totalTokenCount": 2424,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -4508,6 +4376,55 @@
         "missing_sections": []
       },
       "status": "done"
+    },
+    {
+      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0002",
+      "batch_task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0002",
+      "route": {
+        "tier": "lite",
+        "model": "gemini-2.5-flash",
+        "use_crops": false,
+        "relevant": false,
+        "complex": false,
+        "reasons": [
+          "simple_page"
+        ]
+      },
+      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-images/page-0002.jpg",
+      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-markdown/page-0002.md",
+      "usage": {
+        "promptTokenCount": 1384,
+        "candidatesTokenCount": 1126,
+        "totalTokenCount": 2510,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1126
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 258
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "finish_reason": "STOP",
+      "visual_regions": {
+        "manifest_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-markdown/page-0002.visuals.json",
+        "declared": 0,
+        "cropped": 0,
+        "skipped": 0,
+        "flags": []
+      },
+      "review": {
+        "status": "needs_reread",
+        "quality_flags": [
+          "possible_table_layout_loss"
+        ],
+        "missing_sections": []
+      },
+      "status": "released",
+      "reason": "review_failed"
     },
     {
       "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5:p0005",
@@ -4572,8 +4489,8 @@
       "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0006.md",
       "usage": {
         "promptTokenCount": 1388,
-        "candidatesTokenCount": 937,
-        "totalTokenCount": 2325,
+        "candidatesTokenCount": 1072,
+        "totalTokenCount": 2460,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -4618,8 +4535,8 @@
       "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0007.md",
       "usage": {
         "promptTokenCount": 1388,
-        "candidatesTokenCount": 920,
-        "totalTokenCount": 2308,
+        "candidatesTokenCount": 1029,
+        "totalTokenCount": 2417,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -4664,8 +4581,8 @@
       "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0008.md",
       "usage": {
         "promptTokenCount": 1388,
-        "candidatesTokenCount": 1092,
-        "totalTokenCount": 2480,
+        "candidatesTokenCount": 961,
+        "totalTokenCount": 2349,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -4710,8 +4627,8 @@
       "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0009.md",
       "usage": {
         "promptTokenCount": 1388,
-        "candidatesTokenCount": 912,
-        "totalTokenCount": 2300,
+        "candidatesTokenCount": 914,
+        "totalTokenCount": 2302,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -4733,11 +4650,14 @@
         "flags": []
       },
       "review": {
-        "status": "done",
-        "quality_flags": [],
+        "status": "needs_reread",
+        "quality_flags": [
+          "possible_table_layout_loss"
+        ],
         "missing_sections": []
       },
-      "status": "done"
+      "status": "released",
+      "reason": "review_failed"
     },
     {
       "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0010",
@@ -4756,8 +4676,8 @@
       "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0010.md",
       "usage": {
         "promptTokenCount": 1389,
-        "candidatesTokenCount": 1349,
-        "totalTokenCount": 2738,
+        "candidatesTokenCount": 1405,
+        "totalTokenCount": 2794,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -4848,8 +4768,8 @@
       "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0012.md",
       "usage": {
         "promptTokenCount": 1389,
-        "candidatesTokenCount": 621,
-        "totalTokenCount": 2010,
+        "candidatesTokenCount": 582,
+        "totalTokenCount": 1971,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -4894,8 +4814,8 @@
       "output_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/page-markdown/page-0001.md",
       "usage": {
         "promptTokenCount": 1299,
-        "candidatesTokenCount": 661,
-        "totalTokenCount": 1960,
+        "candidatesTokenCount": 563,
+        "totalTokenCount": 1862,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -4999,36 +4919,49 @@
       "task_id": "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0007",
       "batch_task_id": "source-prep-batch:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0007",
       "route": {
-        "tier": "lite",
-        "model": "gemini-2.5-flash",
+        "tier": "pro",
+        "model": "gemini-2.5-pro",
         "use_crops": false,
         "relevant": false,
-        "complex": false,
+        "complex": true,
         "reasons": [
-          "simple_page"
+          "simple_page",
+          "prior_max_tokens"
         ]
       },
       "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0007.jpg",
       "output_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0007.md",
       "usage": {
-        "promptTokenCount": 1303,
-        "candidatesTokenCount": 8192,
-        "totalTokenCount": 9495,
+        "promptTokenCount": 1309,
+        "candidatesTokenCount": 776,
+        "totalTokenCount": 5083,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 1045
+            "tokenCount": 1051
           },
           {
             "modality": "IMAGE",
             "tokenCount": 258
           }
         ],
+        "thoughtsTokenCount": 2998,
         "serviceTier": "standard"
       },
-      "finish_reason": "MAX_TOKENS",
-      "status": "released",
-      "reason": "max_tokens_retry_pro"
+      "finish_reason": "STOP",
+      "visual_regions": {
+        "manifest_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0007.visuals.json",
+        "declared": 0,
+        "cropped": 0,
+        "skipped": 0,
+        "flags": []
+      },
+      "review": {
+        "status": "done",
+        "quality_flags": [],
+        "missing_sections": []
+      },
+      "status": "done"
     },
     {
       "task_id": "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0008",
@@ -5047,8 +4980,8 @@
       "output_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0008.md",
       "usage": {
         "promptTokenCount": 1303,
-        "candidatesTokenCount": 796,
-        "totalTokenCount": 2099,
+        "candidatesTokenCount": 810,
+        "totalTokenCount": 2113,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -5080,36 +5013,49 @@
       "task_id": "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0009",
       "batch_task_id": "source-prep-batch:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0009",
       "route": {
-        "tier": "lite",
-        "model": "gemini-2.5-flash",
+        "tier": "pro",
+        "model": "gemini-2.5-pro",
         "use_crops": false,
         "relevant": false,
-        "complex": false,
+        "complex": true,
         "reasons": [
-          "simple_page"
+          "simple_page",
+          "prior_max_tokens"
         ]
       },
       "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0009.jpg",
       "output_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0009.md",
       "usage": {
-        "promptTokenCount": 1303,
-        "candidatesTokenCount": 8192,
-        "totalTokenCount": 9495,
+        "promptTokenCount": 1309,
+        "candidatesTokenCount": 1683,
+        "totalTokenCount": 4800,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 1045
+            "tokenCount": 1051
           },
           {
             "modality": "IMAGE",
             "tokenCount": 258
           }
         ],
+        "thoughtsTokenCount": 1808,
         "serviceTier": "standard"
       },
-      "finish_reason": "MAX_TOKENS",
-      "status": "released",
-      "reason": "max_tokens_retry_pro"
+      "finish_reason": "STOP",
+      "visual_regions": {
+        "manifest_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0009.visuals.json",
+        "declared": 2,
+        "cropped": 2,
+        "skipped": 0,
+        "flags": []
+      },
+      "review": {
+        "status": "done",
+        "quality_flags": [],
+        "missing_sections": []
+      },
+      "status": "done"
     },
     {
       "task_id": "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0010",
@@ -5128,8 +5074,8 @@
       "output_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0010.md",
       "usage": {
         "promptTokenCount": 1304,
-        "candidatesTokenCount": 396,
-        "totalTokenCount": 1700,
+        "candidatesTokenCount": 418,
+        "totalTokenCount": 1722,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -5220,8 +5166,8 @@
       "output_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0012.md",
       "usage": {
         "promptTokenCount": 1304,
-        "candidatesTokenCount": 1044,
-        "totalTokenCount": 2348,
+        "candidatesTokenCount": 1004,
+        "totalTokenCount": 2308,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -5253,49 +5199,36 @@
       "task_id": "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0013",
       "batch_task_id": "source-prep-batch:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0013",
       "route": {
-        "tier": "pro",
-        "model": "gemini-2.5-pro",
+        "tier": "lite",
+        "model": "gemini-2.5-flash",
         "use_crops": false,
         "relevant": false,
-        "complex": true,
+        "complex": false,
         "reasons": [
-          "simple_page",
-          "prior_max_tokens"
+          "simple_page"
         ]
       },
       "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0013.jpg",
       "output_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0013.md",
       "usage": {
-        "promptTokenCount": 1310,
-        "candidatesTokenCount": 1367,
-        "totalTokenCount": 4602,
+        "promptTokenCount": 1304,
+        "candidatesTokenCount": 8192,
+        "totalTokenCount": 9496,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 1052
+            "tokenCount": 1046
           },
           {
             "modality": "IMAGE",
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 1925,
         "serviceTier": "standard"
       },
-      "finish_reason": "STOP",
-      "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0013.visuals.json",
-        "declared": 1,
-        "cropped": 0,
-        "skipped": 1,
-        "flags": []
-      },
-      "review": {
-        "status": "done",
-        "quality_flags": [],
-        "missing_sections": []
-      },
-      "status": "done"
+      "finish_reason": "MAX_TOKENS",
+      "status": "released",
+      "reason": "max_tokens_retry_pro"
     },
     {
       "task_id": "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0015",
@@ -5314,8 +5247,8 @@
       "output_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0015.md",
       "usage": {
         "promptTokenCount": 1304,
-        "candidatesTokenCount": 763,
-        "totalTokenCount": 2067,
+        "candidatesTokenCount": 771,
+        "totalTokenCount": 2075,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -5360,8 +5293,8 @@
       "output_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0016.md",
       "usage": {
         "promptTokenCount": 1304,
-        "candidatesTokenCount": 446,
-        "totalTokenCount": 1750,
+        "candidatesTokenCount": 459,
+        "totalTokenCount": 1763,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -5406,8 +5339,8 @@
       "output_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0017.md",
       "usage": {
         "promptTokenCount": 1304,
-        "candidatesTokenCount": 819,
-        "totalTokenCount": 2123,
+        "candidatesTokenCount": 759,
+        "totalTokenCount": 2063,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -5452,8 +5385,8 @@
       "output_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0018.md",
       "usage": {
         "promptTokenCount": 1304,
-        "candidatesTokenCount": 221,
-        "totalTokenCount": 1525,
+        "candidatesTokenCount": 206,
+        "totalTokenCount": 1510,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -5498,8 +5431,8 @@
       "output_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-markdown/page-0001.md",
       "usage": {
         "promptTokenCount": 1383,
-        "candidatesTokenCount": 7333,
-        "totalTokenCount": 8716,
+        "candidatesTokenCount": 8192,
+        "totalTokenCount": 9575,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -5512,20 +5445,9 @@
         ],
         "serviceTier": "standard"
       },
-      "finish_reason": "STOP",
-      "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-markdown/page-0001.visuals.json",
-        "declared": 1,
-        "cropped": 0,
-        "skipped": 1,
-        "flags": []
-      },
-      "review": {
-        "status": "done",
-        "quality_flags": [],
-        "missing_sections": []
-      },
-      "status": "done"
+      "finish_reason": "MAX_TOKENS",
+      "status": "released",
+      "reason": "max_tokens_retry_pro"
     },
     {
       "task_id": "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0006",
@@ -5590,8 +5512,8 @@
       "output_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33/page-markdown/page-0031.md",
       "usage": {
         "promptTokenCount": 1388,
-        "candidatesTokenCount": 193,
-        "totalTokenCount": 1581,
+        "candidatesTokenCount": 197,
+        "totalTokenCount": 1585,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -5682,8 +5604,8 @@
       "output_path": "raw/codex-conversion-jobs/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959/page-markdown/page-0001.md",
       "usage": {
         "promptTokenCount": 1287,
-        "candidatesTokenCount": 678,
-        "totalTokenCount": 1965,
+        "candidatesTokenCount": 634,
+        "totalTokenCount": 1921,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -5713,17 +5635,17 @@
     }
   ],
   "usage": {
-    "prompt_tokens": 71997,
-    "candidate_tokens": 66917,
-    "thoughts_tokens": 53074,
-    "total_tokens": 191988
+    "prompt_tokens": 70660,
+    "candidate_tokens": 59711,
+    "thoughts_tokens": 46186,
+    "total_tokens": 176557
   },
   "visual_regions": {
-    "declared": 7,
-    "cropped": 5,
-    "skipped": 2,
-    "manifests": 44
+    "declared": 8,
+    "cropped": 7,
+    "skipped": 1,
+    "manifests": 43
   },
   "fatal_error": "",
-  "finished": "2026-05-24T15:30:50Z"
+  "finished": "2026-05-24T16:56:00Z"
 }

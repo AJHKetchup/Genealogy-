@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-5e6391728666-P0008-01
+chunk_id: CHUNK-8791cef1980e-P0008-01
 source_converted: raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md
-converted_sha256: 5e639172866601eefbbc21db9d3682531a8b1e61c0ec629c5bab70d5f8ccab13
+converted_sha256: 8791cef1980e0752673d5e7d4dcaf6e1be6316108d93a903a0f30e61dedcec18
 source: raw/sources/Habitat Revisited, Jim Carney, 2006.pdf
 source_sha256: fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9
 source_manifest: raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json
@@ -15,12 +15,12 @@ part: 1
 - Page number: 8
 
 ## Layout And Reading Order
-This page contains a single column of text. The page number '8' is at the top right. The main text body follows, with a heading "THE UNITED NATIONS CENTRE FOR HUMAN SETTLEMENTS" appearing before the final paragraph.
+This page consists of a single column of text. The page number '8' is located in the top right corner. The reading order is from top to bottom, starting with the first paragraph of text and ending with the final, incomplete paragraph at the bottom of the page. There is one section heading in the lower half of the page.
 
 ## Literal Transcription
 8
 
-Dario was one of the most intellectually and physically robust people I've ever
+Dario was one of the most intellectually and physically robust people I’ve ever
 met, with a cast eye and a laugh right from his gut. In my office, with his ferocious
 intelligence and apparent ability, despite the off-centre eye, to absorb a docu-
 ment at a glance, I often suspected he was reading the mail in my in-basket, up-
@@ -51,7 +51,7 @@ Eleazar, who went on to an impressive UN career and to whom I owe much.
 Within a surprisingly short time, we had established Vision Habitat regional offices
 in Amman, Bangkok, Budapest, Dakar (briefly), Geneva, Mexico City, Nairobi and
 Vancouver. Vancouver remained VH headquarters. Many of our regional anima-
-tors were "naturals" to staff the offices; Ali Shabou in Amman, Asthana In Bangkok,
+tors were “naturals” to staff the offices; Ali Shabou in Amman, Asthana In Bangkok,
 Madame Magdalena Medvesky in Budapest, Madame Odette Constantin in Ge-
 neva, Edmundo Palacios in Mexico City, and Ed Moyo in Nairobi. Each office had
 to be supplied with films and video tapes in languages appropriate to the region.
@@ -60,23 +60,23 @@ veloping countries and technical standards varied by region (as between NTSC,
 PAL, and SECAM) and were mutually incompatible. 16mm film remained the only
 truly global AV medium, and it had to be physically shipped everywhere.
 
-THE UNITED NATIONS CENTRE FOR HUMAN SETTLEMENTS
+**THE UNITED NATIONS CENTRE FOR HUMAN SETTLEMENTS**
 
-In the autumn of 1979, the General Assembly created the "United Nations Centre
-for Human Settlements" as a full-fledged UN agency, to be headquartered in Nai-
+In the autumn of 1979, the General Assembly created the “United Nations Centre
+for Human Settlements” as a full-fledged UN agency, to be headquartered in Nai-
 robi, Kenya. It was conceived as a sister agency to the United Nations Environment
 Programme (UNEP), established following the 1972 Conference on the Human En-
 vironment in Stockholm. UNEP (then the only UN headquarters located in a devel-
 oping country) was located at Gigiri, just outside Nairobi. UNCHS initially occupied
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other visual elements on this page.
+There are no images, captions, or other visual elements on this page. The page contains only text.
 
 ## Uncertain Or Illegible
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page is complete. All text has been transcribed.
+The full content of the page, including the page number and all text, has been transcribed. The final paragraph is incomplete in the source document as it continues onto the next page, and it has been transcribed as it appears.
 
 ## Visual Region Manifest
 ```json

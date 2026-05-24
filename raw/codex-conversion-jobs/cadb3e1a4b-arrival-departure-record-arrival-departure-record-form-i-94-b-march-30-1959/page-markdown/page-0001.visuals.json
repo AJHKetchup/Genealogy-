@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-24T15:30:00Z",
+  "created": "2026-05-24T16:52:46Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Arrival-Departure Record, Form I-94 B, March 30, 1959.png",
@@ -8,7 +8,7 @@
   "page": 1,
   "page_image": "raw/codex-conversion-jobs/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959/page-images/page-0001.png",
   "output_markdown": "raw/codex-conversion-jobs/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959/page-markdown/page-0001.md",
-  "no_visual_regions_reason": "No substantial visual regions were detected for cropping. The page primarily consists of a form with text and handwritten entries.",
+  "no_visual_regions_reason": "No substantial visual regions were detected for this page.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

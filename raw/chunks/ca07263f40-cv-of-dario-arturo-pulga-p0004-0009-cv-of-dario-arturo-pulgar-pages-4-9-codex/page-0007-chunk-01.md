@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-0a344364806b-P0007-01
+chunk_id: CHUNK-f9382f0677e6-P0007-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: 0a344364806b4e8331822bf041e7b3a32b30d8c08523df9ac182c539309ac72f
+converted_sha256: f9382f0677e672955ad75ec5326a647bb4a058f07f2b196801ee1c8922ab07bf
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -12,12 +12,12 @@ part: 1
 ---
 
 ## Page Metadata
-- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0007`
-- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Page: 7
+- **Page number**: 7 (inferred from filename `p0007`)
+- **Document title**: CV of Dario Arturo Pulgar
+- **Document type**: Curriculum Vitae
 
 ## Layout And Reading Order
-The document is a single-column text page. The content is organized chronologically in reverse order, with each entry representing a period of employment. Each entry begins with a bolded date range, followed by the bolded name of the organization, location, and job title. A descriptive paragraph follows each set of headings. The reading order is from top to bottom.
+The page is a single column of text. The content is organized chronologically in reverse order, with each entry representing a professional role. Each entry typically includes a date range, the name of the organization, the location, a job title, and a descriptive paragraph. Headings for dates, organizations, locations, and titles are in bold. The reading order is from top to bottom.
 
 ## Literal Transcription
 Governorate and the design and implementation of a modified Training and Visit System of
@@ -65,14 +65,14 @@ communication initiatives on world famine and agricultural production and prepar
 for the establishment of a communications unit in the Sahel, ii) design procedures for film and
 video production for the Public Information Division of the Canadian International Development
 Agency (CIDA), iii) review African Development Bank (AfDB) projects in Ivory Coast, Kenya,
-Tanzania, Ethiopia, Malawi, and Lesotho with reference to their communications, extension
+Tanzania, Ethiopia, Malawi and Lesotho with reference to their communications, extension
 approaches and public information, iv) establish a communication centre, appraise proposals
 and prepare a detailed plan of operations including equipment specifications for an
 EMBRAFILME Audio Visual Centre, and v) prepare a plan of operations of a health
 communication project with special emphasis on rural areas for CIDA in Islamabad, Pakistan
 
 ## Images, Captions, And Visual Notes
-This page contains only text. There are no images, illustrations, or other visual elements.
+This page contains only text. There are no images, illustrations, stamps, or other visual elements.
 
 ## Uncertain Or Illegible
 There are no uncertain or illegible words on this page.
@@ -84,6 +84,6 @@ The transcription is a complete and accurate representation of all text on the p
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page consists entirely of typed text and contains no images, illustrations, signatures, or other visual elements that would warrant cropping."
+  "no_visual_regions_reason": "The page consists entirely of typed text and does not contain any images, illustrations, photographs, or other significant visual elements that would warrant cropping."
 }
 ```

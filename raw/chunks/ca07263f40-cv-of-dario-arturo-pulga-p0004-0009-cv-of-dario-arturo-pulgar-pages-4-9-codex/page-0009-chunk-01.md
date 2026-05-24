@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-0a344364806b-P0009-01
+chunk_id: CHUNK-f9382f0677e6-P0009-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: 0a344364806b4e8331822bf041e7b3a32b30d8c08523df9ac182c539309ac72f
+converted_sha256: f9382f0677e672955ad75ec5326a647bb4a058f07f2b196801ee1c8922ab07bf
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -12,7 +12,6 @@ part: 1
 ---
 
 ## Page Metadata
-
 - Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0009`
 - Model route: `pro`
 - Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
@@ -25,47 +24,37 @@ part: 1
 - External requested treatment: `reread`
 - External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
 - Recommended action: ``
-- Quality flags: none
+- Quality flags: explicit_reread_needed
 - Technical reread clues: none
 
 ## Layout And Reading Order
-
-The page is a single column of typed text. The content is organized into two main sections. The first section lists educational history, with date ranges on the left and institutional details on the right. The second section, titled "LANGUAGES," lists spoken and written language proficiencies. The reading order is from top to bottom.
+The page contains a single column of typed text. The content is divided into two sections. The first section lists educational history, with date ranges in a left-hand column and institutional details in a right-hand column. The second section, titled "LANGUAGES," lists spoken and written language proficiency, also in a two-column format. The reading order is from top to bottom.
 
 ## Literal Transcription
-
-1967 - 1968 : Stanford University. Stanford, California
-Fulbright Scholarship. M.A. Communications
-
-1963 - 1966 : Universidad de Concepción, Escuela de Periodismo. Chile
-Journalism
-
-1960 - 1963 : Universidad de Concepción, Escuela de Derecho. Chile
-Field of Study: Law
-
-1954 - 1959 : Liceo Enrique Molina. Concepción, Chile
-Humanities, Baccalaureate
+| | |
+| :--- | :--- |
+| 1967 - 1968 | : | Stanford University. Stanford, California<br>Fulbright Scholarship. M.A. Communications |
+| 1963 - 1966 | : | Universidad de Concepción, Escuela de Periodismo. Chile<br>Journalism |
+| 1960 - 1963 | : | Universidad de Concepción, Escuela de Derecho. Chile<br>Field of Study: Law |
+| 1954 - 1959 | : | Liceo Enrique Molina. Concepción, Chile<br>Humanities, Baccalaureate |
 
 **LANGUAGES**
 
-Spoken: Spanish, English, French, Italian, and Portuguese
-
-Written: Spanish, English, French
+| | |
+| :--- | :--- |
+| Spoken: | Spanish, English, French, Italian, and Portuguese |
+| Written: | Spanish, English, French |
 
 ## Images, Captions, And Visual Notes
-
-This page contains only typed text. There are no images, illustrations, or other visual elements.
+There are no images, captions, or other visual elements on this page.
 
 ## Uncertain Or Illegible
-
-There are no uncertain or illegible parts of this document.
+All text on this page is clear and legible.
 
 ## Completeness Audit
-
 This page has been fully and accurately transcribed.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
