@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-ea6eb178d35b-P0008-01
+chunk_id: CHUNK-03d4d597daab-P0008-01
 source_converted: raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md
-converted_sha256: ea6eb178d35b20c7b4181e1238e5006f05377f4a282a8a639a8d4091476c60ea
+converted_sha256: 03d4d597daabbcc646250a3e90f9106e4e2b025e03cd105f5fcd9a5d50f68797
 source: raw/sources/Habitat Revisited, Jim Carney, 2006.pdf
 source_sha256: fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9
 source_manifest: raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json
@@ -12,15 +12,12 @@ part: 1
 ---
 
 ## Page Metadata
-
-- **Page number**: 8
+- Page number: 8
 
 ## Layout And Reading Order
-
-The page consists of a single column of text. The page number '8' is located at the top right corner. The reading order is from top to bottom, starting with the first paragraph and proceeding through the subsequent paragraphs and the final section heading.
+This page consists of a single column of text. The page number '8' is located in the top right corner. The reading order is from top to bottom, starting with the first paragraph of text and ending with the final, incomplete paragraph at the bottom of the page. There is one section heading in the lower half of the page.
 
 ## Literal Transcription
-
 8
 
 Dario was one of the most intellectually and physically robust people I’ve ever
@@ -73,22 +70,18 @@ vironment in Stockholm. UNEP (then the only UN headquarters located in a devel-
 oping country) was located at Gigiri, just outside Nairobi. UNCHS initially occupied
 
 ## Images, Captions, And Visual Notes
-
-There are no images, illustrations, or other visual elements on this page.
+There are no images, captions, or other visual elements on this page. The page contains only text.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-The full content of the page, including the page number and all text, has been transcribed.
+The full content of the page, including the page number and all text, has been transcribed. The final paragraph is incomplete in the source document as it continues onto the next page, and it has been transcribed as it appears.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only printed text and a page number, with no images, illustrations, or other significant visual elements suitable for cropping."
+  "no_visual_regions_reason": "This page contains only text and a page number."
 }
 ```

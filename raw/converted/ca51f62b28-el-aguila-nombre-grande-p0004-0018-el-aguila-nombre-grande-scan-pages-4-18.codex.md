@@ -351,12 +351,13 @@ This page has been fully transcribed.
 
 ## Page Metadata
 - Page number: 8
-- Source publication year: 1950s (inferred from content)
+- Source publication year: 1950s
 - Source publication title: El Aguila Nombre Grande
-- Source publication date: Enero Febrero (inferred from content)
+- Source publication part: El Aguila
+- Source publication date: Enero Febrero
 
 ## Layout And Reading Order
-The page contains a main article followed by an advertisement. The main article is a narrative account of a trip and acknowledgments. The advertisement promotes a lottery. A handwritten number "8" is present in the bottom right corner.
+The page contains a main article followed by an advertisement. The main article is a narrative account of a trip, signed by "TIMO". The advertisement is for a Chilean benefit agency, promoting a lottery. A handwritten number "8" is present in the bottom right corner.
 
 ## Literal Transcription
 MERO GIGANTE ENERO FEBRERO EL AGUILA
@@ -368,16 +369,16 @@ ERO EL DIRECTOR DECIDIO IRSE ESE MISMO DIA CON SU PRIMA A SU FUNDO
 LA POSADA " TOMAMOS EL NOCTURNO A SANTIAGO Y LUEGO EN SAN ROSENDO
 RANSBORDAMOS A UN AUTOMOTOR DIESEL ,, MIENTRAS TANTO LAS MAQUINAS DE
 SCRIBIR SE ENPAQUETABAN JUNTO CON LOS DEMAS UTILES PARA PRESENTAR E
-STE PERIODICO.LOS MATERIALES PARTIRIAN EN UNA CAMIONETA EL DIA 7 AL
+STE PERIODICO. LOS MATERIALES PARTIRIAN EN UNA CAMIONETA EL DIA 7 AL
 UNDO LOS CUARTOS -- LEGAMOS A LOS ANGELES A LAS 11½ DE LA NOCHE DONDE
 OS ESPERA EL MARIDO DE MI PRIMA EN SU AUTOMOVIL QUIEN BOS TRASLADO A SU
-UNDO YA MENCIONADO,DESPUES DE SUFRIR ALGUNAS DIFICULTADES AUTOMOVILISTIC.
+UNDO YA MENCIONADO, DESPUES DE SUFRIR ALGUNAS DIFICULTADES AUTOMOVILISTIC.
 L FUNDO "LA POSADA" DE 485 HECTAREAS MAS O MENOS EN PARETE REGADO POR
-L CANAL BIO-BIO NORTE.PERMANECI EN ESTE FUNDO DOS DIAS LUEGO ME TRANSLA
+L CANAL BIO-BIO NORTE. PERMANECI EN ESTE FUNDO DOS DIAS LUEGO ME TRANSLA
 ARON AL FUNDO LOS CUARTOS DEL DR PULGAR DONDE ME ESPERABAN LAS MAQUINAS
-PARA LA PREPARACION DE ESTE DIARIO.POR MEDIO DE ESTE SENCILLO ARTICULO
+PARA LA PREPARACION DE ESTE DIARIO. POR MEDIO DE ESTE SENCILLO ARTICULO
 AGO LLEGAR MIS AGRADECIMIENTOS ALOS ESPOSOS BARROS PULGAR POR LAS A
-IONES QUE MW PRESTARON DURANTE LA ESTADIA EN SU FUNDO.
+CIONES QUE MW PRESTARON DURANTE LA ESTADIA EN SU FUNDO.
 TIMO
 ---
 ANUNCIO
@@ -396,7 +397,6 @@ DEL VIGESIMO 100
 NO SE OLVIDE Y HAGALE PUNTA . EL EXITO ES DE LOS DECIDIDOS Y
 CONSTANTES
 ROMO ORMEÑO S. C.
-
 8
 
 ## Images, Captions, And Visual Notes
@@ -406,11 +406,11 @@ A handwritten number "8" is present in the bottom right corner of the page.
 None.
 
 ## Completeness Audit
-The transcription is complete and accurate.
+The transcription is complete and accurate, capturing all text and the handwritten page number.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present on the page. The handwritten page number is transcribed in the literal transcription and noted in visual notes."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present on the page. The handwritten page number is noted in the transcription and visual notes."}
 ```
 
 ## Page Metadata
@@ -696,33 +696,23 @@ The transcription is complete and includes all visible text on the page.
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
 ## Page Metadata
-- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0013`
-- Model route: `pro`
-- Route reasons: suspicious_readings
-- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/work-orders/page-0013.md`
-- Page: 13
-- Output Markdown target: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0013.md`
-- External research relevance: ``
-- External requested treatment: ``
-- External relevance reasons: none
-- Recommended action: `reread-page`
-- Quality flags: none
-- Technical reread clues: PULGA -> Pulgar
+- **page_number**: 13
+- **page_type**: newsletter
+- **source_language**: es
 
 ## Layout And Reading Order
-The page is a single column of typed text. The reading order is from top to bottom.
+The page is a single column of typewritten text. The reading order is from top to bottom.
 
-1.  A header with the publication title and date range, spanning the width of the page.
-2.  A section titled "DE TODO UN POCO".
+1.  A header line at the top of the page.
+2.  A centered section title, "DE TODO UN POCO".
 3.  A subsection titled "CONCEPCION", followed by two short paragraphs.
-4.  A horizontal separator line.
-5.  A short section with three statements and a reference to answers on another page, followed by a separator line made of the number '6'.
-6.  A section titled "NOTAS DE LA EMPRESA:", followed by two paragraphs and another separator line made of the number '6'.
-7.  A caption for a visual element.
-8.  A small, pasted-in calendar for February 1956.
-9.  A page number, "13", stamped in a circle at the bottom right.
+4.  A horizontal rule.
+5.  A section of short, single-line items, possibly trivia answers.
+6.  A decorative line made of the number '6'.
+7.  A subsection titled "NOTAS DE LA EMPRESA:", followed by two paragraphs.
+8.  Another decorative line made of the number '6'.
+9.  A line of text introducing a calendar.
+10. A small, physical calendar for February 1956 is attached to the bottom of the page.
 
 ## Literal Transcription
 ```text
@@ -732,83 +722,80 @@ DE TODO UN POCO
 
 CONCEPCION
 ---
-DURANTE QUE PERMANECIMOS EN EL FUNDO EN EL BARRIO LA COMPAÑIA DE S
+DURANTE QUE PERMANECIMOS EN EL FUNDO EN EL BARRIO LA COMPAÑIA DE S[?]
 PROSEDIO A CANBIAR A LA VES LA CAÑERIA DE CALLE CASTELLON ENTRE
 VICTOR LAMAS Y COCHRANE
 
-EN CALLE COCRANE UNA ENPRESA CONTRATISTA TOMO A CARG O LA PAVIMEN ION
+EN CALLE COCRANE UNA ENPRESA CONTRATISTA TOMO A CARG O LA PAVIMENT[AC]ION
 DE DICHA CALLE LOS TRABAJOS SE ENCONTRABAN BASTANTE ADELANTADOS
+
 ---
 EL RIO QUE PASA POR LONDRES ES EL THAMES
 G G V PERTENECE AL PARTIDO RADICAL
-LA ISLA DE MALTA SE ENCUENTRA EN EL MEDITERRANEO
+LA ISLA DE MALTA SE ENCUENTR A EN EL MEDITERRANEO
 RESPUESTAS DE PAGUINA 3
 6666666666666666666666666666666666666666666666666666666666666666666666
 
 NOTAS DE LA EMPRESA:
-LA EMPRESA A DESIGNADO A DR DARIO PULGA´R A NUESTRO DISTRIBUIDOR
+LA EMPRESA A DESIGNADO A DR DARIO PULGAR A NUESTRO DISTRIBUIDOR
 OFICIAL PAPA NUMEROS ATRASADOS SIRVAN DIRIGIRSE A NUESTRA DIRECCION EN
 CONCEPCION . LUEGO SE HABRIRAN LAS SUSCRIPCIONES PARA LO CUAL
-CONSULTEN CON NUESTRO DISTRIBUIDOR.
+CONSULTEN CON NUESTRO DISTRIBUIDOR. [Y BUENAS COSA PARA?]
 
-EL DIRECTOR EL DEPARTAMENTO DE PROPAGANDA LO MANTENDRA INFORMADO DE LAS
-ACTIVIDADES DE LA EMPRESA
-6666666666666666666666666666666666666666666666666666666666666
+CTOR EL DEPARTAMENTO DE PROPAGANDA LO MANTENDRA INFORMADO DE LAS
+CTIVIDADES DE LA ENPRESA [EN CONSTA CON POEMAS?]
+66666666666666666666666666666666666666666666666666666
 
-CALENDARIO 1956 OBSEQUIO DE LA EMPRESA
+CALENDARIO 1956 OBSEQUIO DE LA ENPRESA
 
-[[p0013-001]]
-| 1956 | FEBRERO | 1956 |
-| :--- | :--- | :--- |
-| Dom. | Lun. | Mart. | Miér. | Juev. | Vier. | Sáb. |
+[vr-01]
+1956 FEBRERO 1956
+| Dom | Lun. | Mart. | Miér. | Juev. | Vier. | Sáb. |
+|---|---|---|---|---|---|---|
 | | | | 1 | 2 | 3 | 4 |
 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
-| [?12] | 13 | 14 | 15 | 16 | 17 | 18 |
-| [?19] | 20 | 21 | 22 | 23 | 24 | 25 |
-| 26 | 27 | 28 | 29 | [?30] | [?31] | |
+| [12?] | 13 | 14 | 15 | 16 | 17 | 18 |
+| [19?] | 20 | 21 | 22 | 23 | 24 | 25 |
+| [26?] | 27 | 28 | 29 | [30?] | [31?] | |
 
-13
 ```
 
 ## Images, Captions, And Visual Notes
-Pipeline-extracted visual crops:
-- ![nearby-text: CALENDARIO 1956 OBSEQUIO DE LA EMPRESA](../extracted-images/page-0013/page-0013-image-01-p0013-001-calendar-1956.png)
-  - Kind: illustration; label basis: nearby-text; bbox_pct: [27.9, 77.9, 72.3, 95.3]
-  - Source context: A small, pasted-in calendar for February 1956.
-
-- **[[p0013-001]]** A small, printed calendar for February 1956 has been pasted onto the page. The calendar is laid out in a grid with days of the week abbreviated at the top. Some numbers are obscured by what appears to be tape. The caption "CALENDARIO 1956 OBSEQUIO DE LA EMPRESA" is typed directly above it.
+- **[vr-01]** A small, single-month calendar for February 1956 is physically attached to the lower portion of the page. It appears to be a small cutout from a larger calendar, possibly held on with tape. The tape or damage obscures the numbers in the "Dom" (Sunday) column. The numbers for the 30th and 31st are very faint and are likely ghost impressions from a generic calendar template, as February 1956 had only 29 days. The text above it reads "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA".
 
 ## Uncertain Or Illegible
-- **Calendar, Row 3:** The number `12` is partially obscured by tape, but its shape is discernible.
-- **Calendar, Row 4:** The number `19` is partially obscured by tape, but its shape is discernible.
-- **Calendar, Row 5:** The numbers `30` and `31` are very faint. These numbers are incorrect for the month of February, even in a leap year like 1956, which had 29 days.
+- **COMPAÑIA DE S[?]**: The character following "S" is unclear.
+- **PAVIMENT[AC]ION**: The letters between "T" and "ION" are obscured. "AC" is a plausible reconstruction for the word "PAVIMENTACION".
+- **[Y BUENAS COSA PARA?]**: The text on the right side of this line is extremely faded and difficult to read. This is a tentative reading.
+- **[EN CONSTA CON POEMAS?]**: The text on the right side of this line is extremely faded and difficult to read. This is a tentative reading.
+- **[12?]**, **[19?]**, **[26?]**: These numbers on the attached calendar are partially obscured by what appears to be tape or damage to the paper.
+- **[30?]**, **[31?]**: These numbers on the attached calendar are very faint.
 
 ## Completeness Audit
-The page has been fully transcribed. All text, visual elements, and marginalia have been accounted for.
+The page has been fully transcribed. The text on the far right is extremely faded, and the best possible readings have been provided but marked as uncertain. The content of the attached calendar has been transcribed, with obscured or faint numbers noted as uncertain.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "p0013-001",
-      "kind": "illustration",
+      "region_id": "vr-01",
+      "kind": "other",
       "bbox_pct": [
-        27.9,
-        77.9,
-        72.3,
-        95.3
+        21.2,
+        77.2,
+        70.0,
+        95.5
       ],
-      "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA EMPRESA",
+      "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA",
       "caption_type": "nearby-text",
       "identity_basis": "none",
-      "source_context": "A small, pasted-in calendar for February 1956.",
+      "source_context": "A small, single-month calendar for February 1956, described as a gift from the company.",
       "confidence": "high",
-      "suggested_filename": "p0013-001-calendar-1956.jpg",
-      "inline_anchor": "[[p0013-001]]"
+      "suggested_filename": "p0013-vr-01-calendar-1956.jpg",
+      "inline_anchor": "[vr-01]"
     }
-  ],
-  "no_visual_regions_reason": null
+  ]
 }
 ```
 
@@ -890,12 +877,12 @@ This page has been transcribed in its entirety. All typewritten text, handwritte
 ```
 
 ## Page Metadata
-- Source: `El Aguila Nombre Grande Scan.pdf`
-- Page: 15
-- Page type: `text`
+- Page number: 15
+- Source publication: El Aguila Nombre Grande
+- Publication date: Enero Febrero 1956
 
 ## Layout And Reading Order
-The page contains a single column of text, likely a newspaper or magazine article, with a header at the top and a page number at the bottom. The text flows continuously from top to bottom.
+The page contains a single column of text, likely an article or news report, with a page number handwritten at the bottom. The text is in Spanish.
 
 ## Literal Transcription
 NUMERO GIGANTE
@@ -904,11 +891,11 @@ CENDIO " LE TOCO A LOS FERROCARRILES "
 SABADO 25 DE FEBRERO SE PRODUJO UN INCENDIO DE GRANDES PROPORCIONES.
 TRATA DE NUESTRO ANTIGUO EDIFICIO DE LA ESTACION DE FERROCARRILES
 L ESTADO . ESTE INCENDIO SE PRODUJO POR LA INFLAMACION DE UNA COCINA
-PARAFINA EN LA FUENTE DE SODA DE DICHO EDIFICIO,
+PARAFINA EN LA FUENTE DE SODA DE DICHO EDIFICIO.
 ON LA AYUDA DE LOS BOMBEROS QUE LLEGARON OPORTUNAMENTE Y DEL PERSONAL
 FERROCARRILES , SE PUDO SALVAR EL EQUIPAJE , TELEFONOS , TWLEGRAFO
 FELIZMENTE NO HUBO DESGRACIAS PERSONALES QUE LAMENTAR
-"" LOS INCENDIOS Y TERREMOTOS , TRAEN EL PROGRESO A LOS PUEBLOS """
+"" LOS INCENDIOS Y TERREMOTOS , TRAEN EL PROGRESO A LOS PUEBLOS ""
 ON LA DESTRUCCION DEL EDIFICIO DE LA ESTACION PODREMOS CONTAR A CORTO PLAS
 CON UN MODERNO Y CONFORTABLE EDIFICIO DIGNO DE LA CAPITAL DE " BIO-BIO "
 DE CADA DIA ESTA TOMANDO MAS IMPORTANCIA EN TODO ORDEN DE COSAS ASI LO
@@ -927,22 +914,19 @@ EL TREN A SU DESTINO HABIA UN INTERVALO DE 10 MINUTOS CON OTRO TREN EL
 QUE PRODUJO LA TRAGEDIA " DIJO EL DIRECTOR DE LOS FF CC ES UNA INDISCUTIBLE
 FALLA HUMANA .
 ESCRIBIO WIMO
-
 15
 
 ## Images, Captions, And Visual Notes
-A handwritten number "15" is present at the bottom center of the page.
+- A handwritten number "15" is present at the bottom center of the page.
 
 ## Uncertain Or Illegible
-None.
+- No uncertain or illegible text.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text and the handwritten page number.
+The transcription is complete and captures all visible text and the handwritten page number.
 
 ## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The handwritten page number is transcribed in the literal transcription."}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present. The handwritten page number is transcribed in the literal transcription."}
 
 ## Page Metadata
 - Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
@@ -995,11 +979,11 @@ The transcription is complete and captures all visible text and the significant 
 ```
 
 ## Page Metadata
-- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+- Source: `El Aguila Nombre Grande Scan.pdf`
 - Page: 17
 
 ## Layout And Reading Order
-The page contains two photographs, one above the other, each with a caption below it. There is also handwritten text at the top of the page. The reading order is: handwritten text, top photograph, top caption, bottom photograph, bottom caption.
+The page contains two photographs, one above the other, each with a caption below it. There is also a handwritten note at the top of the page.
 
 ## Literal Transcription
 EL "OJOS DEL SALADO"
@@ -1010,63 +994,50 @@ eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó est
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![source-caption: LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA
-eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.](../extracted-images/page-0017/page-0017-image-01-culmination-of-the-feat-summit-of-el-salado.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [11.66, 44.0, 54.0, 90.0]
-  - Source context: The caption describes this as the culmination of the feat, showing five of the six climbers on the summit of El Salado, the highest mountain in America. The sixth person took the photo.
-- ![source-caption: LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA
-eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.](../extracted-images/page-0017/page-0017-image-02-expedition-group-with-tent-and-mountains.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [57.5, 55.0, 95.0, 90.0]
-  - Source context: This photograph shows a group of eight individuals in cold-weather gear with a tent and mountains in the background. It is part of the same expedition as the top photo, but the caption specifically refers to the top photo.
+- ![source-caption: LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.](../extracted-images/page-0017/page-0017-image-01-culminacion-proeza-cumbre-salado.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [11.6, 40.0, 56.0, 90.0]
+  - Source context: The top photograph shows five individuals on a mountain summit.
+- ![nearby-text: The bottom photograph shows a group of eight individuals and a tent in a mountainous landscape.](../extracted-images/page-0017/page-0017-image-02-expedition-group-tent-mountain.png)
+  - Kind: photograph; label basis: nearby-text; bbox_pct: [57.5, 40.0, 95.0, 90.0]
+  - Source context: The bottom photograph shows a group of eight individuals and a tent in a mountainous landscape.
 
-The page features two black and white photographs related to a mountain climbing expedition.
-
-The top photograph shows five individuals, heavily dressed for cold weather, sitting among rocks on what appears to be a mountain summit. The background is indistinct, suggesting a high altitude or cloudy conditions.
-
-The bottom photograph shows a group of eight individuals, also dressed in cold-weather gear, standing in a line on a relatively flat, barren landscape with mountains in the background. A small tent is visible on the right side of the image.
+- A handwritten note in red and blue ink at the top of the page reads "EL "OJOS DEL SALADO" FUE ESCALADO".
+- The top image shows five individuals in cold-weather gear, partially obscured by rocks, on what appears to be a mountain summit.
+- The caption for the top image reads: "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental."
+- The bottom image shows a group of eight individuals in cold-weather gear standing in a barren, mountainous landscape, with a small tent visible on the right.
 
 ## Uncertain Or Illegible
-None.
+- The beginning of the caption for the top image is slightly cut off on the left side. The visible text starts with "eron seis los que llegaron:". It is likely that the full word was "Fueron".
 
 ## Completeness Audit
-The transcription is complete and accurate.
+The page is fully transcribed and all visual elements are described.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "region_0",
+      "region_id": "region_1",
       "kind": "photograph",
-      "bbox_pct": [
-        11.66,
-        44.0,
-        54.0,
-        90.0
-      ],
-      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA\neron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
+      "bbox_pct": [11.6, 40.0, 56.0, 90.0],
+      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
       "caption_type": "source-caption",
-      "identity_basis": "source-context",
-      "source_context": "The caption describes this as the culmination of the feat, showing five of the six climbers on the summit of El Salado, the highest mountain in America. The sixth person took the photo.",
+      "identity_basis": null,
+      "source_context": "The top photograph shows five individuals on a mountain summit.",
       "confidence": 0.95,
-      "suggested_filename": "culmination_of_the_feat_summit_of_el_salado.png",
+      "suggested_filename": "culminacion_proeza_cumbre_salado.jpg",
       "inline_anchor": null
     },
     {
-      "region_id": "region_1",
+      "region_id": "region_2",
       "kind": "photograph",
-      "bbox_pct": [
-        57.5,
-        55.0,
-        95.0,
-        90.0
-      ],
-      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA\neron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
-      "caption_type": "source-caption",
-      "identity_basis": "converter-description",
-      "source_context": "This photograph shows a group of eight individuals in cold-weather gear with a tent and mountains in the background. It is part of the same expedition as the top photo, but the caption specifically refers to the top photo.",
-      "confidence": 0.9,
-      "suggested_filename": "expedition_group_with_tent_and_mountains.png",
+      "bbox_pct": [57.5, 40.0, 95.0, 90.0],
+      "caption_literal": null,
+      "caption_type": "nearby-text",
+      "identity_basis": null,
+      "source_context": "The bottom photograph shows a group of eight individuals and a tent in a mountainous landscape.",
+      "confidence": 0.95,
+      "suggested_filename": "expedition_group_tent_mountain.jpg",
       "inline_anchor": null
     }
   ]
