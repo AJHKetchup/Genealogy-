@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-26ad7ff1d173-P0018-01
+chunk_id: CHUNK-41757505a438-P0018-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 26ad7ff1d173e9a9360606fbcd6b15d2003db9e8288f0db5d2dc4963d51b2e96
+converted_sha256: 41757505a438e3687ca804067230b498130a988f25908b4aed7ecb4210794feb
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -28,15 +28,15 @@ JUSTICIA / VERDAD
 EL AGUILA. _
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. The entire page consists of handwritten text.
+No images or captions are present on this page.
 
 ## Uncertain Or Illegible
 No uncertain or illegible text.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all visible text on the page.
+The transcription is complete and accurate.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions present."}
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 ```

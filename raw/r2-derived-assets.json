@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-24T22:35:06.635232+00:00",
+  "created": "2026-05-24T23:08:51.527842+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -224,6 +224,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/extracted-images/page-0457/page-0457-docling-image-02.png",
       "bytes": 212047,
       "sha256": "9f03ef8b07714271c9bae7382ae6975695bc9379e3c439d278a10730078b0202",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/extracted-images/page-0458/page-0458-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/extracted-images/page-0458/page-0458-docling-image-01.png",
+      "bytes": 130805,
+      "sha256": "1ceb77407db4fad5775490b23218593e7e9089aafecd2624745439aca88caca8",
       "media_type": "image/png"
     },
     {
@@ -2453,6 +2460,20 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0601-0625-r3016-11a-2905-950-pages-601-625/extracted-images/page-0615/page-0615-docling-image-local-visual-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0601-0625-r3016-11a-2905-950-pages-601-625/extracted-images/page-0615/page-0615-docling-image-local-visual-01.png",
+      "bytes": 61282,
+      "sha256": "73688260611a2a42d29bc39094b477c3e0a49c2ce1cec8b4ab68f29ff401060e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0601-0625-r3016-11a-2905-950-pages-601-625/extracted-images/page-0615/page-0615-docling-image-local-visual-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0601-0625-r3016-11a-2905-950-pages-601-625/extracted-images/page-0615/page-0615-docling-image-local-visual-02.png",
+      "bytes": 50139,
+      "sha256": "74d901dd000ae49ad350946ea5692776145ff9ca7bddcf706eaa55828d45e61d",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0601-0625-r3016-11a-2905-950-pages-601-625/extracted-images/page-0616/page-0616-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0601-0625-r3016-11a-2905-950-pages-601-625/extracted-images/page-0616/page-0616-docling-image-01.png",
       "bytes": 590629,
@@ -3064,8 +3085,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-capitan-gajardo-recomforta.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-capitan-gajardo-recomforta.png",
-      "bytes": 4389406,
-      "sha256": "d16b7cb209769d90d498e001612ae4f432cf96d6fe46abac280801fcb6563f0b",
+      "bytes": 4538815,
+      "sha256": "cbddba76d0a96b02c5b9c0996a7d00e86de0c4f1a58a46560cf8a3d0ef672113",
       "media_type": "image/png"
     },
     {
@@ -3113,8 +3134,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-portrait.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-portrait.png",
-      "bytes": 5254509,
-      "sha256": "604593841f9a387a43109eff3dd4e9ab819e9516acc102c20894a13c28adda2a",
+      "bytes": 5268486,
+      "sha256": "4dc7b75cbd3e83b5a055303f306712a255f2dc4d070fc87f54a5870b79fce248",
       "media_type": "image/png"
     },
     {
@@ -4928,6 +4949,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575/extracted-images/page-0551/page-0551-docling-image-01.png",
       "bytes": 31144,
       "sha256": "b39652a3024c2cfbacfd1d6b8bba25547f7bc46493c3c93070bc5d1276b60151",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575/extracted-images/page-0555/page-0555-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575/extracted-images/page-0555/page-0555-docling-image-01.png",
+      "bytes": 27379,
+      "sha256": "290d4d6ef4547d4889f126b4d763ef7e754855a9b07432125eb392b4132233b7",
       "media_type": "image/png"
     },
     {
@@ -12592,9 +12620,9 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 5,
-    "total_bytes": 59475868,
-    "uploaded": 0,
+    "total_files": 11,
+    "total_bytes": 72103508,
+    "uploaded": 6,
     "skipped": 5,
     "planned": 0,
     "errors": [],
@@ -12605,9 +12633,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1802,
+      "scanned": 1806,
       "deleted": 0,
-      "skipped": 1802,
+      "skipped": 1806,
       "errors": []
     }
   }

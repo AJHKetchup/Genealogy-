@@ -1338,16 +1338,26 @@ No interpretation was produced by the Docling basic conversion pass.
 
 ## Page Metadata
 
-- **Page number**: 56
+- **Source Title**: Guía Médica Nacional Profesiones Médicas y Paramedicas
+- **Publisher**: Servicio Nacional de Salud
+- **Publication City**: Santiago, Chile
+- **Publication Date**: July 1959
+- **Edition**: First Edition
+- **Page Number**: 56
 
 ## Layout And Reading Order
 
-This page is a single-column, tabular list of medical professionals. The data is organized into three columns: Name, Address, and City. The entries are read row by row. A page number is present at the bottom left of the page.
+The page contains a directory listing of medical professionals. The content is arranged in a three-column table format. The columns are:
+1.  Full Name (Last Name, First Name)
+2.  Address
+3.  City
+
+The entries are read row by row, from left to right. At the bottom left of the page is the page number.
 
 ## Literal Transcription
 
 | Name | Address | City |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | Lara Lara, Gastón | Bascuñán Guerrero 864 | Santiago |
 | Lara Sazo, Carlos | Cochrane 754 | Concepción |
 | Larach Jamiz, César | Av. José P. Alessandri 85 | Santiago |
@@ -1399,19 +1409,16 @@ There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this document.
+There are no uncertain or illegible portions of this document.
 
 ## Completeness Audit
 
-This page has been transcribed in its entirety. There is a discrepancy between the page number visible in the image (56) and the page number indicated in the job manifest and source filename (p0053). The transcription reflects the number visible on the page image.
+The entire content of the page has been transcribed. The work order specified page 53, but the page number printed on the provided image is "56". The transcription reflects the content of the image.
 
 ## Visual Region Manifest
 
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page consists entirely of text in a standard directory format with no images, illustrations, or other distinct visual elements."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of text in a directory format with no images, illustrations, or other visual elements."}
 ```
 
 # Page 54

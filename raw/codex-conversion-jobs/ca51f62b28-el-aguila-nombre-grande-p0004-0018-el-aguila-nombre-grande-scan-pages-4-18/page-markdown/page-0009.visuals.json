@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-24T21:00:47Z",
+  "created": "2026-05-24T23:07:27Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -11,25 +11,25 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "IMG_000",
+      "region_id": "visual_region_0001",
       "kind": "photograph",
-      "caption_literal": "( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA",
+      "caption_literal": "( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI CA",
       "caption_type": "nearby-text",
       "identity_basis": "caption",
-      "source_context": "A man in uniform drinking from a cup after a mountain climb.",
+      "source_context": "The man in the photograph is identified in the adjacent text as \"CAPITAN GAJARDO\".",
       "confidence": "high",
-      "inline_anchor": "__IMG_000__",
+      "inline_anchor": "visual_region_0001",
       "bbox_pct": [
-        52.5,
-        14.5,
-        95.5,
-        58.5
+        52.3,
+        14.4,
+        96.1,
+        59.3
       ],
       "bbox_pixels": [
-        2472,
-        1039,
-        4508,
-        4214
+        2462,
+        1032,
+        4536,
+        4271
       ],
       "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-capitan-gajardo-recomforta.png",
       "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-capitan-gajardo-recomforta.png",
@@ -41,28 +41,28 @@
       "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0009.md"
     },
     {
-      "region_id": "IMG_001",
+      "region_id": "visual_region_0002",
       "kind": "illustration",
-      "caption_literal": "LA AURORA DE CHILE ... PORFRAY CAMILO HENRIQUEZ EN EL AÑO 1812 .",
+      "caption_literal": "PORFRAY CAMILO HENRIQUEZ",
       "caption_type": "nearby-text",
       "identity_basis": "caption",
-      "source_context": "Portrait of a man in clerical attire, identified as Fray Camilo Henriquez.",
+      "source_context": "The man in the portrait is identified in the adjacent text as \"FRAY CAMILO HENRIQUEZ\".",
       "confidence": "high",
-      "inline_anchor": "__IMG_001__",
+      "inline_anchor": "visual_region_0002",
       "bbox_pct": [
-        5.5,
-        55.5,
-        45.5,
-        85.5
+        5.3,
+        55.3,
+        49.3,
+        88.2
       ],
       "bbox_pixels": [
-        255,
-        3990,
-        2150,
-        6157
+        246,
+        3975,
+        2329,
+        6351
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-aurora-de-chile.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-aurora-de-chile.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-portrait.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-portrait.png",
       "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0009.jpg",
       "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
       "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",
