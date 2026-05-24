@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-5e6391728666-P0010-01
+chunk_id: CHUNK-989640e15e2c-P0010-01
 source_converted: raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md
-converted_sha256: 5e639172866601eefbbc21db9d3682531a8b1e61c0ec629c5bab70d5f8ccab13
+converted_sha256: 989640e15e2c8f2feb877190c60f03072cc68405f5f6d1b19aec71439a508f83
 source: raw/sources/Habitat Revisited, Jim Carney, 2006.pdf
 source_sha256: fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9
 source_manifest: raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json
@@ -12,12 +12,16 @@ part: 1
 ---
 
 ## Page Metadata
-- Page: 10
+
+- **Page number**: 10
+- **Source file**: `raw/sources/Habitat Revisited, Jim Carney, 2006.pdf`
 
 ## Layout And Reading Order
-This page contains a single column of text. The page number "10" is located at the top right corner. The reading order is from top to bottom.
+
+The page consists of a single column of text. A page number, "10", is located at the top right corner. The reading order is from top to bottom.
 
 ## Literal Transcription
+
 10
 
 By early 1980, with UNCHS more or less operational in Nairobi, Andreas Fuglesang
@@ -45,7 +49,7 @@ wanted the job on a more permanent basis. I remained in the post until April, 19
 when I returned to my hometown, Vancouver, as Commissioner General of the UN
 pavilion at Expo ‘86. And that’s another story !!
 
-IN THE END – WHY ?
+**IN THE END – WHY ?**
 
 I spent a total of thirteen years on the Habitat programme. I was and still am fre-
 quently asked “What is the value of these global UN conferences ?”, “Do they
@@ -56,6 +60,7 @@ develop and compare solutions to overarching global problems. Responsible min-
 isters gain clout at the cabinet table; issues they represent rise higher on govern-
 ment agendas. Such conferences help establish norms, advancing the goal posts
 of what is considered acceptable behaviour.
+
 The degree to which improvement actually occurs is dependent on the will, prior-
 ities and resources of individual governments – including donor states - who simul-
 taneously must confront and deal with other huge problems.
@@ -69,18 +74,22 @@ form of documents, audio, video tape and film and had to be physically flown
 and shipped across continents and oceans.
 
 ## Images, Captions, And Visual Notes
-There are no images, illustrations, or other visual elements on this page.
+
+There are no images, captions, or other visual elements on this page. The page contains only typeset text.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
+
+All text on the page is clear and legible.
 
 ## Completeness Audit
-This page is complete. All text has been transcribed.
+
+The full content of the page has been transcribed.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text and a page number."
+  "no_visual_regions_reason": "The page contains only typeset text with no images, illustrations, or other visual elements."
 }
 ```

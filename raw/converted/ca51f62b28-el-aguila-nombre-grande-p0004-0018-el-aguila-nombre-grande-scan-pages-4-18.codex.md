@@ -1990,13 +1990,12 @@ This page has been fully transcribed.
 
 ## Page Metadata
 - Page number: 8
-- Source publication year: 1950s
+- Source publication year: 1950s (inferred from content)
 - Source publication title: El Aguila Nombre Grande
-- Source publication part: El Aguila
-- Source publication date: Enero Febrero
+- Source publication date: Enero Febrero (inferred from content)
 
 ## Layout And Reading Order
-The page contains a main article followed by an advertisement. The main article is a narrative account of a trip, signed by "TIMO". The advertisement is for a Chilean benefit agency, promoting a lottery. A handwritten number "8" is present in the bottom right corner.
+The page contains a main article followed by an advertisement. The main article is a narrative account of a trip and acknowledgments. The advertisement promotes a lottery. A handwritten number "8" is present in the bottom right corner.
 
 ## Literal Transcription
 MERO GIGANTE ENERO FEBRERO EL AGUILA
@@ -2008,16 +2007,16 @@ ERO EL DIRECTOR DECIDIO IRSE ESE MISMO DIA CON SU PRIMA A SU FUNDO
 LA POSADA " TOMAMOS EL NOCTURNO A SANTIAGO Y LUEGO EN SAN ROSENDO
 RANSBORDAMOS A UN AUTOMOTOR DIESEL ,, MIENTRAS TANTO LAS MAQUINAS DE
 SCRIBIR SE ENPAQUETABAN JUNTO CON LOS DEMAS UTILES PARA PRESENTAR E
-STE PERIODICO. LOS MATERIALES PARTIRIAN EN UNA CAMIONETA EL DIA 7 AL
+STE PERIODICO.LOS MATERIALES PARTIRIAN EN UNA CAMIONETA EL DIA 7 AL
 UNDO LOS CUARTOS -- LEGAMOS A LOS ANGELES A LAS 11½ DE LA NOCHE DONDE
 OS ESPERA EL MARIDO DE MI PRIMA EN SU AUTOMOVIL QUIEN BOS TRASLADO A SU
-UNDO YA MENCIONADO, DESPUES DE SUFRIR ALGUNAS DIFICULTADES AUTOMOVILISTIC.
+UNDO YA MENCIONADO,DESPUES DE SUFRIR ALGUNAS DIFICULTADES AUTOMOVILISTIC.
 L FUNDO "LA POSADA" DE 485 HECTAREAS MAS O MENOS EN PARETE REGADO POR
-L CANAL BIO-BIO NORTE. PERMANECI EN ESTE FUNDO DOS DIAS LUEGO ME TRANSLA
+L CANAL BIO-BIO NORTE.PERMANECI EN ESTE FUNDO DOS DIAS LUEGO ME TRANSLA
 ARON AL FUNDO LOS CUARTOS DEL DR PULGAR DONDE ME ESPERABAN LAS MAQUINAS
-PARA LA PREPARACION DE ESTE DIARIO. POR MEDIO DE ESTE SENCILLO ARTICULO
+PARA LA PREPARACION DE ESTE DIARIO.POR MEDIO DE ESTE SENCILLO ARTICULO
 AGO LLEGAR MIS AGRADECIMIENTOS ALOS ESPOSOS BARROS PULGAR POR LAS A
-CIONES QUE MW PRESTARON DURANTE LA ESTADIA EN SU FUNDO.
+IONES QUE MW PRESTARON DURANTE LA ESTADIA EN SU FUNDO.
 TIMO
 ---
 ANUNCIO
@@ -2036,6 +2035,7 @@ DEL VIGESIMO 100
 NO SE OLVIDE Y HAGALE PUNTA . EL EXITO ES DE LOS DECIDIDOS Y
 CONSTANTES
 ROMO ORMEÑO S. C.
+
 8
 
 ## Images, Captions, And Visual Notes
@@ -2045,11 +2045,11 @@ A handwritten number "8" is present in the bottom right corner of the page.
 None.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text and the handwritten page number.
+The transcription is complete and accurate.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present on the page. The handwritten page number is noted in the transcription and visual notes."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present on the page. The handwritten page number is transcribed in the literal transcription and noted in visual notes."}
 ```
 
 ## Page Metadata
@@ -2175,23 +2175,25 @@ This page is fully transcribed and all visual elements have been described.
 ## Page Metadata
 - Source: `El Aguila Nombre Grande Scan.pdf`
 - Page: `10`
+- Page type: `image`
 
 ## Layout And Reading Order
 The page contains a single large image of a landscape with cattle and a body of water. There is no text on the page other than a handwritten page number at the bottom.
 
 ## Literal Transcription
-(No literal transcription needed for this page, as it contains only an image and a handwritten page number.)
+(No literal transcription needed for this page, as it is primarily an image.)
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-landscape.png)
-  - Kind: photograph; label basis: converter-description; bbox_pct: [6.0, 3.0, 96.0, 97.0]
-  - Source context: A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.
+- ![converter-description: The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hilly-landscape.png)
+  - Kind: photograph; label basis: converter-description; bbox_pct: [6.0, 2.0, 96.0, 98.0]
+  - Source context: The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.
 
-The page features a color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.
+- A color illustration or painting depicts a herd of cattle gathered around a watering hole in a dry, hilly landscape. In the background, a person on horseback is visible on a distant hill.
+- A handwritten number "10" is present at the bottom center of the page.
 
 ## Uncertain Or Illegible
-- The handwritten number at the bottom of the page appears to be "10", but it is somewhat faded and could potentially be misread.
+- The exact medium of the image (painting, illustration, or manipulated photograph) is uncertain without further context.
 
 ## Completeness Audit
 The page contains a single image and a handwritten page number. All visible content has been described.
@@ -2203,16 +2205,15 @@ The page contains a single image and a handwritten page number. All visible cont
     {
       "region_id": "region_1",
       "kind": "photograph",
-      "bbox_pct": [0.06, 0.03, 0.96, 0.97],
+      "bbox_pct": [0.06, 0.02, 0.96, 0.98],
       "caption_literal": null,
       "caption_type": "converter-description",
       "identity_basis": null,
-      "source_context": "A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.",
+      "source_context": "The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.",
       "confidence": 0.95,
-      "suggested_filename": "cattle_watering_hole_landscape"
+      "suggested_filename": "cattle_watering_hole_hilly_landscape"
     }
-  ],
-  "no_visual_regions_reason": null
+  ]
 }
 ```
 
@@ -2349,123 +2350,133 @@ The transcription is complete for all visible text on the page.
 ```
 
 ## Page Metadata
-- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0013`
-- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
-- Page: 13
+
+- **Page number**: 13
+- **Document title**: El Aguila
+- **Publication date**: Enero - Febrero 1956
 
 ## Layout And Reading Order
-The page consists of a single column of typed text. The content is organized under various headings and separated by horizontal rules or decorative lines. At the bottom of the page, a small printed calendar for February 1956 is glued on. The page number "13" is handwritten in the bottom right corner. The reading order is from top to bottom.
+
+The page consists of a single column of typewritten text. The content includes a header, a main title, and several short articles or notes under subheadings. A small printed calendar for February 1956 is glued to the bottom of the page. The reading order is from top to bottom.
 
 ## Literal Transcription
-```text
-EDICION GIGANTE ENERO - FEBRERO EL AGUILA
----
-DE TODO UN POCO
 
+EDICION GIGANTE ENERO - FEBRERO EL AGUILA
+___
+DE TODO UN POCO
+___
 CONCEPCION
----
+___
+
 DURANTE QUE PERMANECIMOS EN EL FUNDO EN EL BARRIO LA COMPAÑIA DE S
 PROSEDIO A CANBIAR A LA VES LA CAÑERIA DE CALLE CASTELLON ENTRE
 VICTOR LAMAS Y COCHRANE
 
-EN CALLE COCRANE UNA ENPRESA CONTRATISTA TOMO A CARG O LA PAVIMENTACION
+EN CALLE COCRANE UNA ENPRESA CONTRATISTA TOMO A CARG O LA PAVIMENT ION
 DE DICHA CALLE LOS TRABAJOS SE ENCONTRABAN BASTANTE ADELANTADOS
----
+___
+
 EL RIO QUE PASA POR LONDRES ES EL THAMES
 G G V PERTENECE AL PARTIDO RADICAL
-LA ISLA DE MALTA SE ENCUENTRA EN EL MEDITERRANEO
+LA ISLA DE MALTA SE ENCUENTR A EN EL MEDITERRANEO
 RESPUESTAS DE PAGUINA 3
-6666666666666666666666666666666666666666666666666666666666666666666666
+66666666666666666666666666666666666666666666666666666666666666666666666666
+___
 
 NOTAS DE LA EMPRESA:
-LA EMPRESA A DESIGNADO A DR DARIO PULGAR A NUESTRO DISTRIBUIDOR
+LA EMPRESA A DESIGNADO A DR DARIO PULGA R A NUESTRO DISTRIBUIDOR
 OFICIAL PAPA NUMEROS ATRASADOS SIRVAN DIRIGIRSE A NUESTRA DIRECCION EN
 CONCEPCION . LUEGO SE HABRIRAN LAS SUSCRIPCIONES PARA LO CUAL
 CONSULTEN CON NUESTRO DISTRIBUIDOR.
 
-EL DIRECTOR EL DEPARTAMENTO DE PROPAGANDA LO MANTENDRA INFORMADO DE LAS
-ACTIVIDADES DE LA EMPRESA [illegible]
-66666666666666666666666666666666666666666666666666666
+CTOR EL DEPARTAMENTO DE PROPAGANDA LO MANTENDRA INFORMADO DE LAS
+CTIVIDADES DE LA ENPRESA
+6666666666666666666666666666666666666666666666666666666
 
-CALENDARIO 1956 OBSEQUIO DE LA EMPRESA
+CALENDARIO 1956 OBSEQUIO DE LA ENPRESA
 
-[[calendar-1956-02]]
-| 1956 | | FEBRERO | | | | 1956 |
+[vr-01]
+| 1956 | | FEBRERO | | 1956 | | |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Dom. | Lun. | Mart. | Miér. | Juev. | Vier. | Sáb. |
 | | | | 1 | 2 | 3 | 4 |
 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
-| 12 | 13 | 14 | 15 | 16 | 17 | 18 |
-| 19 | 20 | 21 | 22 | 23 | 24 | 25 |
-| 26 | 27 | 28 | 29 | | | |
+| [12?] | 13 | 14 | 15 | 16 | 17 | 18 |
+| [19?] | 20 | 21 | 22 | 23 | 24 | 25 |
+| [26?] | 27 | 28 | 29 | [30?] | [31?] | |
 
 13
-```
 
 ## Images, Captions, And Visual Notes
-A small printed calendar for February 1956 is glued to the bottom portion of the page. The calendar is titled "FEBRERO 1956". The days of the week are abbreviated. The numbers for Sundays (5, 12, 19, 26) are printed in red ink, while the other days are in black. A piece of transparent tape is affixed over the first column (Sundays), partially obscuring the numbers 12, 19, and 26.
 
-The page number "13" is handwritten in pencil or faded ink in the bottom right corner, below the calendar.
-
-The page has several stains and areas of discoloration. Some typed text is very faint and difficult to read, possibly due to erasure, fading, or bleed-through from the reverse side.
+- **[vr-01]** A small printed calendar for February 1956 is glued to the bottom of the page. The text "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA" appears just above it. The calendar is slightly damaged; a piece of transparent tape covers the first column of dates (5, 12, 19, 26), making them partially obscured. There is a dark mark, possibly from a staple, above the year "1956". The numbers 30 and 31 are very faint.
+- A long, thin, brown stain runs diagonally through the last paragraph of text.
+- Faint text from the reverse side of the page is visible as bleed-through in several areas.
+- The page number "13" is visible at the bottom right corner.
 
 ## Uncertain Or Illegible
-- On the line beginning "ACTIVIDADES DE LA EMPRESA", there is faint, illegible text to the right, obscured by a stain.
-- On the line beginning "CONSULTEN CON NUESTRO DISTRIBUIDOR.", there is very faint, illegible text to the right.
+
+- **[12?]**: The number 12 in the calendar is partially obscured by tape.
+- **[19?]**: The number 19 in the calendar is partially obscured by tape.
+- **[26?]**: The number 26 in the calendar is partially obscured by tape.
+- **[30?]**: The number 30 in the calendar is extremely faint.
+- **[31?]**: The number 31 in the calendar is extremely faint.
 
 ## Completeness Audit
-The page has been transcribed in its entirety. All legible text, including the content of the attached calendar, has been captured. Illegible portions of text have been noted.
+
+This page has been transcribed in its entirety. All text, including the glued-on calendar, has been captured. Visual elements and page condition have been described.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "calendar-1956-02",
-      "kind": "calendar",
+      "region_id": "vr-01",
+      "kind": "table",
       "bbox_pct": [
-        21.8,
-        78.2,
-        65.5,
-        94.9
+        25.5,
+        77.5,
+        70.5,
+        95.0
       ],
-      "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA EMPRESA",
+      "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA",
       "caption_type": "nearby-text",
       "identity_basis": "none",
-      "source_context": "A small printed calendar for February 1956 is glued to the page.",
+      "source_context": "A small printed calendar for February 1956 is glued to the bottom of the page.",
       "confidence": "high",
-      "suggested_filename": "page-0013-calendar-1956-02.jpg",
-      "inline_anchor": "[[calendar-1956-02]]"
+      "suggested_filename": "p0013-vr-01-calendar-1956.jpg",
+      "inline_anchor": "[vr-01]"
     }
-  ]
+  ],
+  "no_visual_regions_reason": null
 }
 ```
 
 ## Page Metadata
 - Page number: 14
-- Publication name: EL AGUILA
-- Publication date: ENERO - FEBRERO
 
 ## Layout And Reading Order
-This page is a single-column typed document. The reading order is as follows:
-1.  A header at the top of the page with "NERO GIGANTE" on the left, "ENERO - FEBRERO" in the center, and "EL AGUILA" on the right.
-2.  A sub-header, "ESCRIBE EL DIRECTOR".
-3.  The title of the article, "EL FUNDO LOS CUARTOS".
-4.  The main body of the article, consisting of a single block of text.
-5.  A horizontal line separating the article from the footer.
-6.  A footer section with information about the publication.
-7.  A handwritten signature, "DR. DARIO PULGARA", at the bottom right.
-8.  Handwritten marginalia in the bottom left corner, consisting of "EL AGUILA" and the page number "14".
+The document is a single-column, typewritten page. The reading order is as follows:
+1. A header line at the top of the page with text aligned to the left, center, and right.
+2. A left-aligned line indicating "ESCRIBE EL DIRECTOR".
+3. A centered title for the article: "EL FUNDO LOS CUARTOS".
+4. The main body of the text, consisting of a single block of paragraphs describing the property.
+5. A horizontal dividing line.
+6. A centered block of text identifying the publisher, "EL PERIODICO DE LA E MPRESA EDITORA EL AGUILA".
+7. A centered call to action, "HAGASE LECTOR", followed by contact instructions.
+8. A handwritten signature at the bottom right.
+9. Large handwritten text in red ink at the bottom left, consisting of "EL AGUILA" and the page number "14".
 
 ## Literal Transcription
 ```text
-NERO GIGANTE      ENERO - FEBRERO      EL AGUILA
+MERO GIGANTE      ENERO - FEBRERO      EL AGUIÑA
 
 ESCRIBE EL DIRECTOR
-                        EL FUNDO LOS CUARTOS
+                                EL FUNDO LOS CUARTOS
 
 EL FUNDO LOS CUARTOS PERTENECE COMO YA SE SABE AL DR DARIO PULGAR A,
-DISTINGUIDO FACULTATIVO DE CONCEPCION QUIEN HEREDÓ DE SUS PADRES ESTE
+DISTINGUIDO FACULTATIVO DE CONCEPCION QUIEN HEREDO DE SUS PADRES ESTE
 FUNDO ALLA POR EL AÑO 1917 SE CONPONIA SOLAMENTE DE 300 HECTAREAS QUE
 SIRVIERON PARA AGRANDAR SU FUNDO AL COMPRAR 300 MAS Y JUNTAS FORMARON LA
 SUPERFICIE ACTUAL DE 600 HECTAREAS.
@@ -2476,7 +2487,7 @@ CON EL FUNDO " NATALIA " Y AL ESTE CON LOS"FUNDOS"SANTA INES"Y " LAS
 GARZAS " EXSISTEN PLANTACIONES DE PINOS QUE ACTUALMENTE SE EXPLOTAN ./
 DESDE EL AÑO 1938 SE RIEGA PARTE CON LAS AGUAS DEL CANAL BIO BIO
 NORTE /
-TIENE PRODUCTIVLES VEGAS A ORILLAS DEL BIO BIO Y UÑA MONTAÑA DE
+TIENE PRODUCTIVILES VEGAS A ORILLAS DEL BIO BIO Y UÑA MONTAÑA DE
 ROBLES QUE LE DA UN HERMOSO ASPECTO .
 DESDE 1952 EXISTE UNA CONFORTABLE CASA PATRONAL Y BUENAS CASA PARA
 EL MAYORDOMO E INQUILINOS; UN ESTABLO PARA 50 VACAS ENTERAMENTE DE
@@ -2484,52 +2495,48 @@ CONCRETO. EN FUNDO TANBIEN CONSTA CON BODEGAS Y GADPONES TANBIEN DE CO
 NCRETO ../
 DENTRO DE POCO EL FUNDO CONSTARA CON LUS ELECTRICA DEL ABANICO EL
 PORVENIR DE ESTE FUNDO SON LOS PINOS Y LA LECHERIA.-
-
-________________________________________________________________________
-
+---
                         EL PERIODICO DE LA E MPRESA EDITORA
                                    EL AGUILA
 
-                              HAGASE LECTOR
+                                HAGASE LECTOR
 
                         ESCRIBA A NUESTRA EMPRESA O
                   PONGASE EN CONTACTO CON NUESTRO AGENTE PARA TODO
-                                   CHILE
-                                   [signature] DR. DARIO PULGARA [/signature]
+                                    CHILE
+[handwritten signature] DR. DARIO PULGARA [/handwritten signature]
 
-[handwritten in left margin]
+[handwritten in red ink]
 EL AGUILA
 14
-[/handwritten]
+[/handwritten in red ink]
 ```
 
 ## Images, Captions, And Visual Notes
-- **Handwritten Signature:** At the bottom right of the page is the handwritten signature "DR. DARIO PULGARA".
-- **Handwritten Marginalia:** In the bottom left corner, the words "EL AGUILA" are written in large, red/pink letters. Below this, the number "14" is written, also by hand.
-- **Handwritten Accent:** A handwritten acute accent has been added to the 'O' in "HEREDO" in the second line of the main article.
+- **Handwritten Signature:** At the bottom right of the page is a handwritten signature in blue or black ink that reads "DR. DARIO PULGARA".
+- **Handwritten Annotation:** At the bottom left of the page, written in large red ink, is the text "EL AGUILA" and below it, the number "14".
 
 ## Uncertain Or Illegible
-- The name of the river "DUQULCO" is transcribed as seen, but could be a typo for "DUQUECO".
-- The word "GADPONES" is transcribed as seen, but is likely a typo for "GALPONES".
+- In the header, the name "EL AGUIÑA" appears to be a typo for "EL AGUILA", as the tilde-like mark over the 'N' is inconsistent with the rest of the type and "EL AGUILA" is written elsewhere on the page. The transcription preserves the original text as it appears.
 
 ## Completeness Audit
-This page has been transcribed in its entirety. All typed text, handwritten notes, and the signature have been captured.
+This page has been transcribed in its entirety. All typewritten text, handwritten annotations, and the signature have been captured.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains a handwritten signature and some marginalia, but no photographs, illustrations, or other complex visual elements that would warrant individual cropping."
+  "no_visual_regions_reason": "The page contains no photographs, maps, or other significant illustrations. The handwritten signature and annotations are fully transcribed in the text."
 }
 ```
 
 ## Page Metadata
-- Page number: 15
-- Source publication: El Aguila Nombre Grande
-- Publication date: Enero Febrero 1956
+- Source: `El Aguila Nombre Grande Scan.pdf`
+- Page: 15
+- Page type: `text`
 
 ## Layout And Reading Order
-The page contains a single column of text, likely an article or news report, with a page number handwritten at the bottom. The text is in Spanish.
+The page contains a single column of text, likely a newspaper or magazine article, with a header at the top and a page number at the bottom. The text flows continuously from top to bottom.
 
 ## Literal Transcription
 NUMERO GIGANTE
@@ -2538,11 +2545,11 @@ CENDIO " LE TOCO A LOS FERROCARRILES "
 SABADO 25 DE FEBRERO SE PRODUJO UN INCENDIO DE GRANDES PROPORCIONES.
 TRATA DE NUESTRO ANTIGUO EDIFICIO DE LA ESTACION DE FERROCARRILES
 L ESTADO . ESTE INCENDIO SE PRODUJO POR LA INFLAMACION DE UNA COCINA
-PARAFINA EN LA FUENTE DE SODA DE DICHO EDIFICIO.
+PARAFINA EN LA FUENTE DE SODA DE DICHO EDIFICIO,
 ON LA AYUDA DE LOS BOMBEROS QUE LLEGARON OPORTUNAMENTE Y DEL PERSONAL
 FERROCARRILES , SE PUDO SALVAR EL EQUIPAJE , TELEFONOS , TWLEGRAFO
 FELIZMENTE NO HUBO DESGRACIAS PERSONALES QUE LAMENTAR
-"" LOS INCENDIOS Y TERREMOTOS , TRAEN EL PROGRESO A LOS PUEBLOS ""
+"" LOS INCENDIOS Y TERREMOTOS , TRAEN EL PROGRESO A LOS PUEBLOS """
 ON LA DESTRUCCION DEL EDIFICIO DE LA ESTACION PODREMOS CONTAR A CORTO PLAS
 CON UN MODERNO Y CONFORTABLE EDIFICIO DIGNO DE LA CAPITAL DE " BIO-BIO "
 DE CADA DIA ESTA TOMANDO MAS IMPORTANCIA EN TODO ORDEN DE COSAS ASI LO
@@ -2561,19 +2568,22 @@ EL TREN A SU DESTINO HABIA UN INTERVALO DE 10 MINUTOS CON OTRO TREN EL
 QUE PRODUJO LA TRAGEDIA " DIJO EL DIRECTOR DE LOS FF CC ES UNA INDISCUTIBLE
 FALLA HUMANA .
 ESCRIBIO WIMO
+
 15
 
 ## Images, Captions, And Visual Notes
-- A handwritten number "15" is present at the bottom center of the page.
+A handwritten number "15" is present at the bottom center of the page.
 
 ## Uncertain Or Illegible
-- No uncertain or illegible text.
+None.
 
 ## Completeness Audit
-The transcription is complete and captures all visible text and the handwritten page number.
+The transcription is complete and accurate, capturing all text and the handwritten page number.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present. The handwritten page number is transcribed in the literal transcription."}
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The handwritten page number is transcribed in the literal transcription."}
+```
 
 ## Page Metadata
 - Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`

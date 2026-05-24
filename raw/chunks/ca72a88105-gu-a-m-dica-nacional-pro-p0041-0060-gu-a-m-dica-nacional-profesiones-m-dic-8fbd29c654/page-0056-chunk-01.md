@@ -1,28 +1,33 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-3e3299d35132-P0013-01
+chunk_id: CHUNK-193ec3402b39-P0056-01
 source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60.codex.md
-converted_sha256: 3e3299d35132348c63c9a684827b610fcebb0cd258f1e398cbe72356b8143acf
+converted_sha256: 193ec3402b39223511df3d62526479834520ee0a3229beb039ce7c93cfd4411c
 source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
 source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
 source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json
-page_start: 13
-page_end: 13
+page_start: 56
+page_end: 56
 part: 1
 ---
 
 ## Page Metadata
 
-- Page number: 56
+- **Source Title**: Guía Médica Nacional Profesiones Médicas y Paramedicas
+- **Publisher**: Servicio Nacional de Salud
+- **Publication City**: Santiago, Chile
+- **Publication Date**: July 1959
+- **Edition**: First Edition
+- **Page Number**: 56
 
 ## Layout And Reading Order
 
 The page contains a directory listing of medical professionals. The content is arranged in a three-column table format. The columns are:
-1.  Name (Surname, First Name)
+1.  Full Name (Last Name, First Name)
 2.  Address
 3.  City
 
-The reading order is from left to right, row by row, from the top to the bottom of the page. The page number is located at the bottom left.
+The entries are read row by row, from left to right. At the bottom left of the page is the page number.
 
 ## Literal Transcription
 
@@ -32,8 +37,7 @@ The reading order is from left to right, row by row, from the top to the bottom 
 | Lara Sazo, Carlos | Cochrane 754 | Concepción |
 | Larach Jamiz, César | Av. José P. Alessandri 85 | Santiago |
 | Larach Nazrala, Alejandro | Moneda 720, Of. 205 | Santiago |
-| Larach Nazrala, Elías | Rosa Eguiguren 813, | Santiago |
-| | Of. 47 | |
+| Larach Nazrala, Elías | Rosa Eguiguren 813,<br>Of. 47 | Santiago |
 | Larenas Barrera, Emilio | Igualdad 240 | Parral |
 | Larenas Ovalle, Alberto | O'Higgins 630 | Concepción |
 | Largo Robledo, Alfonso | Prat 225 | Rengo |
@@ -41,8 +45,7 @@ The reading order is from left to right, row by row, from the top to the bottom 
 | Larraguibel Moreno, Armando | Ramón Nieto 920, Of. 301 | Santiago |
 | Larraín Aguirre, Camilo | Compañía 1615 | Santiago |
 | Larraín Eyzaguirre, Sergio | República 440 | Santiago |
-| Larraín García, Arturo | Vicuña Mackenna 4, 7º | Santiago |
-| | Piso | |
+| Larraín García, Arturo | Vicuña Mackenna 4, 7º<br>Piso | Santiago |
 | Larraín Marín, Eduardo | Marcoleta 367 | Santiago |
 | Larraín Orrego, Augusto | Avda. Salvador 1231 | Santiago |
 | Larraín Vidal, Adriana | Teatinos 251, Depto. 3 | Santiago |
@@ -70,8 +73,7 @@ The reading order is from left to right, row by row, from the top to the bottom 
 | Leclerc de Vandamme, Claude | Las Bellotas 260 | Santiago |
 | Ledesma Zamora, Arnaldo | Madrid 962 | Santiago |
 | Legarreta Peña, Adela | Agustinas 715, Dep. 302 | Santiago |
-| Legarreta Peña, José | Santo Domingo 594, | Santiago |
-| | Depto. 2 | |
+| Legarreta Peña, José | Santo Domingo 594,<br>Depto. 2 | Santiago |
 | Lehuedé Alvarado, Héctor | Lourdes 749 | Santiago |
 
 56 —
@@ -82,19 +84,16 @@ There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this document. The text is clear and well-printed.
+There are no uncertain or illegible portions of this document.
 
 ## Completeness Audit
 
-This page has been transcribed in its entirety. Note that the printed page number is "56", which differs from the page number "53" specified in the job manifest. The transcription reflects the number printed on the source image.
+The entire content of the page has been transcribed. The work order specified page 53, but the page number printed on the provided image is "56". The transcription reflects the content of the image.
 
 ## Visual Region Manifest
 
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text in a directory format with no images, illustrations, or other distinct visual elements."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of text in a directory format with no images, illustrations, or other visual elements."}
 ```
 
 # Page 54

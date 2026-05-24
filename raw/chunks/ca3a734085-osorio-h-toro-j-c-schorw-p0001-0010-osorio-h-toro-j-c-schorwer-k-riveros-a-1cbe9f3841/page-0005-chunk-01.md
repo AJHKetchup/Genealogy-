@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-bef9c5d9a1ff-P0005-01
+chunk_id: CHUNK-bdfcf4d3256f-P0005-01
 source_converted: raw/converted/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10.codex.md
-converted_sha256: bef9c5d9a1ff5bb5057129a70f9a3801731aecb5f73d2f3510b23ccb0547fce8
+converted_sha256: bdfcf4d3256f3e609480fd7f192e4e8c6368bdd35cb1301570f238808113958f
 source: raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf
 source_sha256: 3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16
 source_manifest: raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json
@@ -12,25 +12,20 @@ part: 1
 ---
 
 ## Page Metadata
-- `page_number: 5`
-- `printed_page_number: 653`
-- `source_name: Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog`
-- `source_volume: 38`
-- `source_issue: 3`
-- `source_year: 2020`
-- `source_page_range: 650-658`
-- `source_author: OSORIO, H.; TORO, JC; SCHORWER, K.; RIVEROS, A. & CARDENAS, J.`
-- `source_title: Pioneers of a century of anatomical teaching in the city of Concepción`
-- `source_language: English`
+
+- **Page number**: 5
+- **Source publication**: Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog
+- **Source page URL**: `https://www.intjmorphol.com/wp-content/uploads/2020/05/art_1_383.pdf`
+- **Full source citation**: Osorio, H.; Toro, J.C.; Schorwer, K.; Riveros, A. & Cárdenas, J. Pioneers of a century of anatomical teaching in the city of Concepción. Int. J. Morphol., 38(3):650-658, 2020.
+- **Document type**: Scholarly Journal Article
+- **Language**: English
 
 ## Layout And Reading Order
-This page has a two-column layout. The reading order is as follows:
-1. Header, spanning both columns at the top of the page.
-2. Left column, from top to bottom.
-3. Right column, from top to bottom.
-4. Page number, at the bottom right corner.
+
+This page follows a standard two-column layout for a scholarly article. The reading order begins with the header at the top of the page, proceeds down the left column, then moves to the top of the right column and continues to the bottom. A page number is present in the bottom right corner.
 
 ## Literal Transcription
+
 **Header**
 ```text
 OSORIO, H.; TORO, JC; SCHORWER, K.; RIVEROS, A. & CARDENAS, J. Pioneers of a century of anatomical teaching in the city of Concepción. Int. J. Morphol., 38(3):650-658, 2020.
@@ -45,7 +40,7 @@ pavilion was demolished and replaced by a larger one that housed the
 dissection work of the first anatomy course for the nascent School of
 Medicine (Solervicens; Muñoz, 1993).
 
-Beginning of the School of Medicine. In April 1924, an important
+**Beginning of the School of Medicine.** In April 1924, an important
 milestone for the teaching and development of Chilean medicine took
 place; in fact, the first year of Medicine was created in Concepción, and
 the news was communicated to the country.
@@ -57,7 +52,7 @@ students at the University of Chile was 312, of which 271 were recent
 entrants and 41 were repeaters (Wilhelm, 1966; Jaramillo, 1924). This
 milestone presented even greater difficulties than the foundation of the
 University of Concepción itself. Already in 1921 the Rector of the
-University of Concepción, Dr. Enrique Molina sent a telegram to the
+University of Concepción, Mr. Enrique Molina sent a telegram to the
 then Dean of the Faculty of Medicine of the University of Chile, Dr.
 Gregorio Amunátegui, requesting approval of the project to create the
 first two years of the School of Medicine in Concepción; this request
@@ -71,7 +66,7 @@ a) Botany taught by Dr. Alcibíades Santa Cruz, b) Physics taught by Mr.
 Humberto Vergara, c) Chemistry taught by Mr. Salvador Gálvez, and d)
 Medical Zoology taught by Dr. Ottmar Wilhelm, who was then a pupil of
 Dr. Juan Noé. The anatomy course was assigned to Dr. Enrique
-Gonzalez Pastor (Wilhelm, 1966).
+González Pastor (Wilhelm, 1966).
 
 ** Dr. Enrique Gonzalez Pastor (Fig. 1B) was born in Concepción on
 January 2, 1889. In 1913 he graduated with honors as a surgeon from
@@ -136,7 +131,7 @@ examining committee was from the Faculty of Medicine of the University
 of Chile.
 
 This anatomy course was taught by Dr. Gonzalez accompanied by
-[illegible] whom stood out a young man
+his two assistants, among whom stood out a young man
 ```
 
 **Footer**
@@ -145,15 +140,22 @@ This anatomy course was taught by Dr. Gonzalez accompanied by
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images, photographs, or illustrations on this page.
+
+There are no images, photographs, or illustrations on this page. The text refers to "Fig. 1B" in the biographical note about Dr. Enrique Gonzalez Pastor, but the figure itself is not present on this page.
 
 ## Uncertain Or Illegible
-- At the bottom of the right column, the last paragraph begins: `This anatomy course was taught by Dr. Gonzalez accompanied by [illegible] whom stood out a young man`. The illegible portion is obscured by text from the end of the left column (`...in September 1957.`) which has been printed over it due to a layout error in the source document. The underlying text is not readable.
+
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page has been transcribed in its entirety. All text content, including the header and page number, has been captured. The layout issue at the bottom of the page, where text from the two columns overlaps, has been noted.
+
+The transcription is complete. It includes the header, all text from both columns, and the page number in the footer. The final sentence in the right column is transcribed as it appears, cut off at the end of the page.
 
 ## Visual Region Manifest
+
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains only text."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page consists entirely of text in a two-column layout with a header and footer. There are no photographs, illustrations, maps, or other visual elements to crop."
+}
 ```
