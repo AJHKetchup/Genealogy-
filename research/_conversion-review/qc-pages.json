@@ -35,10 +35,12 @@
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
       "page": 4,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
+      "recommended_action": "spot-check",
+      "conversion_confidence": "medium",
       "family_relevance": "medium",
-      "quality_flags": [],
+      "quality_flags": [
+        "explicit_reread_needed"
+      ],
       "matched_terms": [
         "Dario",
         "Pulgar"
@@ -50,10 +52,12 @@
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
       "page": 5,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
+      "recommended_action": "spot-check",
+      "conversion_confidence": "medium",
       "family_relevance": "medium",
-      "quality_flags": [],
+      "quality_flags": [
+        "explicit_reread_needed"
+      ],
       "matched_terms": [
         "Dario",
         "Pulgar"
@@ -96,15 +100,12 @@
       "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
-      "page": 8,
+      "page": 5,
       "recommended_action": "pass",
       "conversion_confidence": "high",
-      "family_relevance": "high",
+      "family_relevance": "none",
       "quality_flags": [],
-      "matched_terms": [
-        "Dario",
-        "Pulgar"
-      ],
+      "matched_terms": [],
       "suspicious_readings": []
     },
     {
@@ -112,10 +113,12 @@
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
       "page": 9,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "medium",
-      "quality_flags": [],
+      "recommended_action": "reread-page",
+      "conversion_confidence": "medium",
+      "family_relevance": "high",
+      "quality_flags": [
+        "explicit_reread_needed"
+      ],
       "matched_terms": [
         "Dario",
         "Pulgar"
@@ -18014,11 +18017,13 @@
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
-      "page": 9,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
+      "page": 4,
+      "recommended_action": "spot-check",
+      "conversion_confidence": "medium",
       "family_relevance": "none",
-      "quality_flags": [],
+      "quality_flags": [
+        "possible_table_layout_loss"
+      ],
       "matched_terms": [],
       "suspicious_readings": []
     },
@@ -18038,7 +18043,7 @@
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
-      "page": 6,
+      "page": 11,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "none",
@@ -25679,7 +25684,7 @@
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
       "chunk_manifest": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 9,
+      "page": 6,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "none",
@@ -25731,9 +25736,12 @@
       "recommended_action": "reread-page",
       "conversion_confidence": "low",
       "family_relevance": "critical",
-      "quality_flags": [],
+      "quality_flags": [
+        "explicit_reread_needed"
+      ],
       "matched_terms": [
-        "Dario"
+        "Dario",
+        "Pulgar"
       ],
       "suspicious_readings": [
         {
@@ -25747,7 +25755,7 @@
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
       "chunk_manifest": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 14,
+      "page": 11,
       "recommended_action": "reread-page",
       "conversion_confidence": "low",
       "family_relevance": "critical",
@@ -25769,7 +25777,7 @@
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
       "chunk_manifest": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 15,
+      "page": 12,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "none",
@@ -28860,7 +28868,7 @@
       "converted_file": "raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60.codex.md",
       "chunk_manifest": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dic-8fbd29c654/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json",
-      "page": 56,
+      "page": 13,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "none",
@@ -29112,7 +29120,7 @@
       "converted_file": "raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60.codex.md",
       "chunk_manifest": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json",
-      "page": 56,
+      "page": 13,
       "recommended_action": "pass",
       "conversion_confidence": "high",
       "family_relevance": "none",

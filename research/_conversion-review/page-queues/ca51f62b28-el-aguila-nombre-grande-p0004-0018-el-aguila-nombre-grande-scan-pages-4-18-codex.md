@@ -19,10 +19,10 @@
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Dario
+- Quality flags: explicit_reread_needed
+- Matched family context: Dario, Pulgar
 
-### Page 14
+### Page 11
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
