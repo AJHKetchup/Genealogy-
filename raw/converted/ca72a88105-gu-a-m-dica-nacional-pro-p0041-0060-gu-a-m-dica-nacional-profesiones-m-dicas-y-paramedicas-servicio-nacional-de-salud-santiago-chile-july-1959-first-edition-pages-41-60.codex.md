@@ -1339,16 +1339,15 @@ No interpretation was produced by the Docling basic conversion pass.
 ## Page Metadata
 
 - **Page number**: 56
-- **Note**: The page number printed on the page is "56". The work order identifies this as page 53 of the source PDF.
 
 ## Layout And Reading Order
 
-The page contains a directory of medical professionals, organized into a three-column table. The columns are: Name, Address, and City. The entries are listed alphabetically by surname. At the bottom left of the page is the page number.
+This page is a single-column, tabular list of medical professionals. The data is organized into three columns: Name, Address, and City. The entries are read row by row. A page number is present at the bottom left of the page.
 
 ## Literal Transcription
 
 | Name | Address | City |
-|---|---|---|
+| --- | --- | --- |
 | Lara Lara, Gastón | Bascuñán Guerrero 864 | Santiago |
 | Lara Sazo, Carlos | Cochrane 754 | Concepción |
 | Larach Jamiz, César | Av. José P. Alessandri 85 | Santiago |
@@ -1396,22 +1395,22 @@ The page contains a directory of medical professionals, organized into a three-c
 
 ## Images, Captions, And Visual Notes
 
-There are no images, captions, or other visual elements on this page.
+There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible portions of this page.
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
 
-The entire content of the page has been transcribed.
+This page has been transcribed in its entirety. There is a discrepancy between the page number visible in the image (56) and the page number indicated in the job manifest and source filename (p0053). The transcription reflects the number visible on the page image.
 
 ## Visual Region Manifest
 
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text in a directory format. There are no images, illustrations, or other significant visual elements."
+  "no_visual_regions_reason": "The page consists entirely of text in a standard directory format with no images, illustrations, or other distinct visual elements."
 }
 ```
 

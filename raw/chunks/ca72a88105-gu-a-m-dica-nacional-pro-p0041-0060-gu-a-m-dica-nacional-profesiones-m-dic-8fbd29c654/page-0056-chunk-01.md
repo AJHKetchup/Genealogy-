@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-2319b1c8f618-P0056-01
+chunk_id: CHUNK-7148e414bf95-P0056-01
 source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60.codex.md
-converted_sha256: 2319b1c8f618eac1bac0b03798beb56ed175b85cc2f71cd9c36ab4546cff6ab4
+converted_sha256: 7148e414bf95d7f54053f89fd8438360eb2d86dc1a1f836d88d6efc4e71639f8
 source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
 source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
 source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json
@@ -14,16 +14,15 @@ part: 1
 ## Page Metadata
 
 - **Page number**: 56
-- **Note**: The page number printed on the page is "56". The work order identifies this as page 53 of the source PDF.
 
 ## Layout And Reading Order
 
-The page contains a directory of medical professionals, organized into a three-column table. The columns are: Name, Address, and City. The entries are listed alphabetically by surname. At the bottom left of the page is the page number.
+This page is a single-column, tabular list of medical professionals. The data is organized into three columns: Name, Address, and City. The entries are read row by row. A page number is present at the bottom left of the page.
 
 ## Literal Transcription
 
 | Name | Address | City |
-|---|---|---|
+| --- | --- | --- |
 | Lara Lara, Gastón | Bascuñán Guerrero 864 | Santiago |
 | Lara Sazo, Carlos | Cochrane 754 | Concepción |
 | Larach Jamiz, César | Av. José P. Alessandri 85 | Santiago |
@@ -71,22 +70,22 @@ The page contains a directory of medical professionals, organized into a three-c
 
 ## Images, Captions, And Visual Notes
 
-There are no images, captions, or other visual elements on this page.
+There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible portions of this page.
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
 
-The entire content of the page has been transcribed.
+This page has been transcribed in its entirety. There is a discrepancy between the page number visible in the image (56) and the page number indicated in the job manifest and source filename (p0053). The transcription reflects the number visible on the page image.
 
 ## Visual Region Manifest
 
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text in a directory format. There are no images, illustrations, or other significant visual elements."
+  "no_visual_regions_reason": "The page consists entirely of text in a standard directory format with no images, illustrations, or other distinct visual elements."
 }
 ```
 
