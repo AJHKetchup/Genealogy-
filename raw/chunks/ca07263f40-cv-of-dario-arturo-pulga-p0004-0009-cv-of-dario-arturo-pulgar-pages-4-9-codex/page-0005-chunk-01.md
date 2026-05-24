@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-b1951fcc40e2-P0005-01
+chunk_id: CHUNK-0a344364806b-P0005-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: b1951fcc40e2c9f239b599bc146e53fa490b4e1313fcb402f33425880b22bba9
+converted_sha256: 0a344364806b4e8331822bf041e7b3a32b30d8c08523df9ac182c539309ac72f
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -12,14 +12,19 @@ part: 1
 ---
 
 ## Page Metadata
-- **Task id**: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005`
-- **Source**: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- **Page**: 5
+
+- task_id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005`
+- page_num: 5
+- source_id: `ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9`
+- source_title: `CV of Dario Arturo Pulgar`
+- source_filename: `CV of Dario Arturo Pulgar.pdf`
 
 ## Layout And Reading Order
-The page is a single column of text. It continues a curriculum vitae, listing professional experiences. Each entry is organized with a date or date range, followed by the name of the organization, the location, the role held, and a paragraph describing the work performed. The entries are presented in reverse chronological order, from top to bottom.
+
+The page consists of a single column of typed text. The content is a continuation of a curriculum vitae, with entries organized chronologically. Each entry is headed by a date or date range, followed by the organization, location, role, and a descriptive paragraph. The reading order is from top to bottom.
 
 ## Literal Transcription
+
 **1999**
 
 **National Trust Fund for Protected Areas in Peru (PROFONANPE)**
@@ -72,18 +77,22 @@ Review implementation of a proposed training programme for the Development of th
 Maracaibo Plain Project. Co-ordinate with the World Bank and Canadian agencies a study tour
 
 ## Images, Captions, And Visual Notes
-This page contains only text. There are no images, illustrations, stamps, or other visual elements.
+
+There are no images, illustrations, or other visual elements on this page. The content is entirely typed text.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible parts of this document.
+
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-The transcription is a complete and accurate representation of all the text on the page. The last line of the page appears to be cut off mid-sentence.
+
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page consists entirely of typed text and contains no images, illustrations, or other significant visual elements."
+  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other visual elements suitable for cropping."
 }
 ```

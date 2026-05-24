@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-55285fb49aba-P0011-01
+chunk_id: CHUNK-db5fe3c5976f-P0011-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23.codex.md
-converted_sha256: 55285fb49abae4b3f79d3872eb912e8d54131bc3d87f92ac9182a2432a9b5a83
+converted_sha256: db5fe3c5976f591f27d030fd1a5f903ce38d74c815a89df4b18bff288c32bf62
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/manifest.json
@@ -12,32 +12,41 @@ part: 1
 ---
 
 ## Page Metadata
+
 - **Page number**: 11
-- **Source publication**: Anales de la Universidad de Chile
-- **Source type**: Academic Journal
+- **Source title**: Anales de la Universidad de Chile
 - **Publication date**: September 1918
+- **Document type**: University bulletin, meeting minutes
 - **Language**: Spanish
-- **Author(s)**: Council of Public Instruction, University of Chile
-- **Page content**: Minutes of the session of the Council of Public Instruction on September 2, 1918, listing attendees and the names of individuals awarded the title of Physician-Surgeon.
+- **Author**: Council of Public Instruction, University of Chile
+- **Topic**: Conferral of academic degrees
 
 ## Layout And Reading Order
-The page is a single column of text. At the top is a decorative horizontal rule. Below this, the text is centered in three blocks: "BOLETIN DE INSTRUCCION PUBLICA", "CONSEJO DE INSTRUCCION PUBLICA", and "Sesion de 2 de Setiembre de 1918". This is followed by two paragraphs of justified text. Below the paragraphs is a centered subheading, "Médicos-Cirujanos:", followed by an indented list of five names. The reading order is sequential from top to bottom.
+
+The page follows a simple, single-column layout. The content is read from top to bottom. It begins with a decorative header, followed by the title of the bulletin, the name of the council, the date of the session, a paragraph describing the session and its attendees, and finally a list of individuals who were granted the title of "Médico-Cirujano" (Surgeon-Physician).
 
 ## Literal Transcription
-[decorative rule]
+
+[decorative header]
 
 **BOLETIN DE INSTRUCCION PUBLICA**
 
-***
+---
 
 **CONSEJO DE INSTRUCCION PUBLICA**
 
-***
+---
+.
 
 **Sesion de 2 de Setiembre de 1918**
 
-Fué presidida por el señor Rector de la Universidad, don Domingo Amunátegui Solar, asistieron los señores Consejeros Amunátegui Solar don Gregorio, Bahamonde, Concha Castillo, Espejo, Matte, Rücker, Salas Lavaqui i Schmidt.
-Previas las formalidades reglamentarias i el juramento requerido el señor Rector confirió los siguientes títulos i grados:
+Fué presidida por el señor Rector de la Universidad, don
+Domingo Amunátegui Solar, asistieron los señores Conseje-
+ros Amunátegui Solar don Gregorio, Bahamonde, Concha Cas-
+tillo, Espejo, Matte, Rücker, Salas Lavaqui i Schmidt.
+
+Previas las formalidades reglamentarias i el juramento re-
+querido el señor Rector confirió los siguientes títulos i grados:
 
 *Médicos-Cirujanos:*
 
@@ -48,19 +57,23 @@ a don Ramon Almeyda Arroyo
 » Armando Zagal Anabalon.
 
 ## Images, Captions, And Visual Notes
-- A decorative rule is present at the top of the page. It consists of a rectangular box with a jagged outer border and an inner pattern of stylized floral or scrollwork elements arranged in two rows.
+
+- **[decorative header]**: A rectangular decorative border with intricate patterns is located at the top of the page.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
+
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
+
 This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text and a minor decorative rule at the top, neither of which qualifies as a substantial visual region for cropping."
+  "no_visual_regions_reason": "The only visual element on the page is a decorative header, which is not substantial enough to be considered a meaningful visual region for cropping."
 }
 ```
 

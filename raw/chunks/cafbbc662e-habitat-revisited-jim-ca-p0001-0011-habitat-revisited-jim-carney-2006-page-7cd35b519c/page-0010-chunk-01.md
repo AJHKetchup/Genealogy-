@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-50546b81a767-P0010-01
+chunk_id: CHUNK-5e6391728666-P0010-01
 source_converted: raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md
-converted_sha256: 50546b81a767c8f3df46da9c3dd2fc5d54cb087a6cc7aab476e2381df847c550
+converted_sha256: 5e639172866601eefbbc21db9d3682531a8b1e61c0ec629c5bab70d5f8ccab13
 source: raw/sources/Habitat Revisited, Jim Carney, 2006.pdf
 source_sha256: fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9
 source_manifest: raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json
@@ -12,17 +12,12 @@ part: 1
 ---
 
 ## Page Metadata
-
-- Task id: `source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0010`
-- Source: `raw/sources/Habitat Revisited, Jim Carney, 2006.pdf`
 - Page: 10
 
 ## Layout And Reading Order
-
-The page consists of a single column of text. The reading order is top to bottom. A page number, "10", is located at the top right corner. A bolded, centered heading, "IN THE END – WHY ?", separates the text into two main sections.
+This page contains a single column of text. The page number "10" is located at the top right corner. The reading order is from top to bottom.
 
 ## Literal Transcription
-
 10
 
 By early 1980, with UNCHS more or less operational in Nairobi, Andreas Fuglesang
@@ -74,19 +69,15 @@ form of documents, audio, video tape and film and had to be physically flown
 and shipped across continents and oceans.
 
 ## Images, Captions, And Visual Notes
-
-There are no images, captions, or other visual elements on this page.
+There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-This page is complete. All text, including the page number and section heading, has been transcribed.
+This page is complete. All text has been transcribed.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-5b60f9cfd929-P0010-01
+chunk_id: CHUNK-63c2ae38e2fe-P0010-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 5b60f9cfd929dd866cddd5cb77a50ba48779de52792df44383f3c52f8f1f4ce5
+converted_sha256: 63c2ae38e2fe8340c1606f3195c8cb8ca2665326e4865b8cae2b6d13e9147cfd
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -12,104 +12,45 @@ part: 1
 ---
 
 ## Page Metadata
-- **page_number**: 13
-- **page_type**: newsletter
-- **source_language**: es
+- Source: `El Aguila Nombre Grande Scan.pdf`
+- Page: `10`
+- Page type: `image`
 
 ## Layout And Reading Order
-The page is a single column of typewritten text. The reading order is from top to bottom.
-
-1.  A header line at the top of the page.
-2.  A centered section title, "DE TODO UN POCO".
-3.  A subsection titled "CONCEPCION", followed by two short paragraphs.
-4.  A horizontal rule.
-5.  A section of short, single-line items, possibly trivia answers.
-6.  A decorative line made of the number '6'.
-7.  A subsection titled "NOTAS DE LA EMPRESA:", followed by two paragraphs.
-8.  Another decorative line made of the number '6'.
-9.  A line of text introducing a calendar.
-10. A small, physical calendar for February 1956 is attached to the bottom of the page.
+The page contains a single large image of a landscape with cattle and a body of water. There is no text on the page other than a handwritten page number at the bottom.
 
 ## Literal Transcription
-```text
-EDICION GIGANTE ENERO - FEBRERO EL AGUILA
----
-DE TODO UN POCO
-
-CONCEPCION
----
-DURANTE QUE PERMANECIMOS EN EL FUNDO EN EL BARRIO LA COMPAÑIA DE S[?]
-PROSEDIO A CANBIAR A LA VES LA CAÑERIA DE CALLE CASTELLON ENTRE
-VICTOR LAMAS Y COCHRANE
-
-EN CALLE COCRANE UNA ENPRESA CONTRATISTA TOMO A CARG O LA PAVIMENT[AC]ION
-DE DICHA CALLE LOS TRABAJOS SE ENCONTRABAN BASTANTE ADELANTADOS
-
----
-EL RIO QUE PASA POR LONDRES ES EL THAMES
-G G V PERTENECE AL PARTIDO RADICAL
-LA ISLA DE MALTA SE ENCUENTR A EN EL MEDITERRANEO
-RESPUESTAS DE PAGUINA 3
-6666666666666666666666666666666666666666666666666666666666666666666666
-
-NOTAS DE LA EMPRESA:
-LA EMPRESA A DESIGNADO A DR DARIO PULGAR A NUESTRO DISTRIBUIDOR
-OFICIAL PAPA NUMEROS ATRASADOS SIRVAN DIRIGIRSE A NUESTRA DIRECCION EN
-CONCEPCION . LUEGO SE HABRIRAN LAS SUSCRIPCIONES PARA LO CUAL
-CONSULTEN CON NUESTRO DISTRIBUIDOR. [Y BUENAS COSA PARA?]
-
-CTOR EL DEPARTAMENTO DE PROPAGANDA LO MANTENDRA INFORMADO DE LAS
-CTIVIDADES DE LA ENPRESA [EN CONSTA CON POEMAS?]
-66666666666666666666666666666666666666666666666666666
-
-CALENDARIO 1956 OBSEQUIO DE LA ENPRESA
-
-[vr-01]
-1956 FEBRERO 1956
-| Dom | Lun. | Mart. | Miér. | Juev. | Vier. | Sáb. |
-|---|---|---|---|---|---|---|
-| | | | 1 | 2 | 3 | 4 |
-| 5 | 6 | 7 | 8 | 9 | 10 | 11 |
-| [12?] | 13 | 14 | 15 | 16 | 17 | 18 |
-| [19?] | 20 | 21 | 22 | 23 | 24 | 25 |
-| [26?] | 27 | 28 | 29 | [30?] | [31?] | |
-
-```
+(No literal transcription needed for this page, as it is primarily an image.)
 
 ## Images, Captions, And Visual Notes
-- **[vr-01]** A small, single-month calendar for February 1956 is physically attached to the lower portion of the page. It appears to be a small cutout from a larger calendar, possibly held on with tape. The tape or damage obscures the numbers in the "Dom" (Sunday) column. The numbers for the 30th and 31st are very faint and are likely ghost impressions from a generic calendar template, as February 1956 had only 29 days. The text above it reads "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA".
+Pipeline-extracted visual crops:
+- ![converter-description: The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hilly-landscape.png)
+  - Kind: photograph; label basis: converter-description; bbox_pct: [6.0, 2.0, 96.0, 98.0]
+  - Source context: The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.
+
+- A color illustration or painting depicts a herd of cattle gathered around a watering hole in a dry, hilly landscape. In the background, a person on horseback is visible on a distant hill.
+- A handwritten number "10" is present at the bottom center of the page.
 
 ## Uncertain Or Illegible
-- **COMPAÑIA DE S[?]**: The character following "S" is unclear.
-- **PAVIMENT[AC]ION**: The letters between "T" and "ION" are obscured. "AC" is a plausible reconstruction for the word "PAVIMENTACION".
-- **[Y BUENAS COSA PARA?]**: The text on the right side of this line is extremely faded and difficult to read. This is a tentative reading.
-- **[EN CONSTA CON POEMAS?]**: The text on the right side of this line is extremely faded and difficult to read. This is a tentative reading.
-- **[12?]**, **[19?]**, **[26?]**: These numbers on the attached calendar are partially obscured by what appears to be tape or damage to the paper.
-- **[30?]**, **[31?]**: These numbers on the attached calendar are very faint.
+- The exact medium of the image (painting, illustration, or manipulated photograph) is uncertain without further context.
 
 ## Completeness Audit
-The page has been fully transcribed. The text on the far right is extremely faded, and the best possible readings have been provided but marked as uncertain. The content of the attached calendar has been transcribed, with obscured or faint numbers noted as uncertain.
+The page contains a single image and a handwritten page number. All visible content has been described.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "vr-01",
-      "kind": "other",
-      "bbox_pct": [
-        21.2,
-        77.2,
-        70.0,
-        95.5
-      ],
-      "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA ENPRESA",
-      "caption_type": "nearby-text",
-      "identity_basis": "none",
-      "source_context": "A small, single-month calendar for February 1956, described as a gift from the company.",
-      "confidence": "high",
-      "suggested_filename": "p0013-vr-01-calendar-1956.jpg",
-      "inline_anchor": "[vr-01]"
+      "region_id": "region_1",
+      "kind": "photograph",
+      "bbox_pct": [0.06, 0.02, 0.96, 0.98],
+      "caption_literal": null,
+      "caption_type": "converter-description",
+      "identity_basis": null,
+      "source_context": "The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.",
+      "confidence": 0.95,
+      "suggested_filename": "cattle_watering_hole_hilly_landscape"
     }
   ]
 }

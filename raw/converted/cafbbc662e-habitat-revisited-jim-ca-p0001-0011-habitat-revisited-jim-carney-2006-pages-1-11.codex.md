@@ -438,23 +438,28 @@ All visible text on the page has been transcribed.
 ```
 
 ## Page Metadata
-
-- **Page number**: 7
-- **Source-provided page number**: 7
-- **Document title**: Habitat Revisited
-- **Author**: Jim Carney
-- **Publication year**: 2006
-- **Page dimensions**: Approximately 8.5 x 11 inches (standard letter size)
-- **Handwritten notes**: No
-- **Stamps or seals**: No
-- **Confidence**: 5/5 (High)
+- page_number: 7
+- page_type: book-page
+- source_book_title: Habitat Revisited
+- source_author: Jim Carney
+- source_year: 2006
+- source_page_count: 11
+- source_pdf_filename: Habitat Revisited, Jim Carney, 2006.pdf
 
 ## Layout And Reading Order
+The page consists of a single column of text. The page number is at the top right. The reading order is sequential from top to bottom.
 
-The page consists of a single column of text. The page number "7" is located at the top right corner. The reading order is linear, from top to bottom. A section heading, "VISION HABITAT", is present in the middle of the page, separating the text into two main sections.
+- text-block-1: Page number `7` at the top right.
+- text-block-2: A paragraph beginning "The senior Conference officials...".
+- text-block-3: A paragraph beginning "One memorable scene:...".
+- text-block-4: A paragraph beginning "Copyright and distribution rights aside,...".
+- text-block-5: A section heading "VISION HABITAT".
+- text-block-6: A paragraph beginning "In September, 1976,...".
+- text-block-7: A paragraph beginning "The UN was insistent...".
+- text-block-8: A paragraph beginning "A couple of my UN Habitat...".
 
 ## Literal Transcription
-
+```text
 7
 
 The senior Conference officials had a hard time with this. In their view, they had
@@ -484,7 +489,7 @@ in New York, a good deal was in Vancouver and more overseas. Slide presenta-
 tions had to be transferred to film; language-versioned 16 mm film prints had to be
 produced.
 
-**VISION HABITAT**
+VISION HABITAT
 
 In September, 1976, the UN General Assembly ordered the “maximum world-wide
 utilization of the Habitat films”. This was “Transfer of Technology” at its best. With
@@ -504,41 +509,35 @@ a raspy-voiced, incredibly energetic, dynamic Chilean. In Chile under Allende,
 though still in his twenties, Dario had been the number two man in Chile’s state film
 distribution system. He had fetched up at “The Board” after fleeing Pinochet’s
 overthrow of the Allende government in 1973.
+```
 
 ## Images, Captions, And Visual Notes
-
 This page contains only text. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-This page has been fully and accurately transcribed. All text content, including the page number and section heading, has been captured.
+This page has been fully and accurately transcribed.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text and a page number. There are no images, illustrations, or other meaningful visual elements to crop."
+  "no_visual_regions_reason": "The page contains only text and a page number, with no images, illustrations, or other significant visual elements suitable for cropping."
 }
 ```
 
 ## Page Metadata
-
-page_number: 8
+- Page number: 8
 
 ## Layout And Reading Order
-
-The page contains a single column of text. The page number, 8, is located in the top right corner. The reading order is from top to bottom.
+This page contains a single column of text. The page number '8' is at the top right. The main text body follows, with a heading "THE UNITED NATIONS CENTRE FOR HUMAN SETTLEMENTS" appearing before the final paragraph.
 
 ## Literal Transcription
-
 8
 
-Dario was one of the most intellectually and physically robust people I’ve ever
+Dario was one of the most intellectually and physically robust people I've ever
 met, with a cast eye and a laugh right from his gut. In my office, with his ferocious
 intelligence and apparent ability, despite the off-centre eye, to absorb a docu-
 ment at a glance, I often suspected he was reading the mail in my in-basket, up-
@@ -548,8 +547,8 @@ learned French in Montreal in six weeks, he said.
 Over the next three years, our small group at UBC, perhaps six people in all, worked
 at setting up a non-commercial global distribution system for the Habitat films. One
 of our first tasks was to find, identify, catalogue and store the thousands of different
-AV elements in Vancouver. During the Conference I had calculated that there had
-to be approximately ten thousand separate bits and pieces in various places.
+AV elements in Vancouver. During the Conference I had calculated that there
+had to be approximately ten thousand separate bits and pieces in various places.
 A young Vancouverite, Nigel Hollick, with no previous experience in film or video,
 handled this brilliantly. Nigel was not your typical young Kitsilano hippy, much less
 yuppy. He had been born on a sailboat in Majorca, Spain, of peripatetic and pos-
@@ -569,7 +568,7 @@ Eleazar, who went on to an impressive UN career and to whom I owe much.
 Within a surprisingly short time, we had established Vision Habitat regional offices
 in Amman, Bangkok, Budapest, Dakar (briefly), Geneva, Mexico City, Nairobi and
 Vancouver. Vancouver remained VH headquarters. Many of our regional anima-
-tors were “naturals” to staff the offices; Ali Shabou in Amman, Asthana In Bangkok,
+tors were "naturals" to staff the offices; Ali Shabou in Amman, Asthana In Bangkok,
 Madame Magdalena Medvesky in Budapest, Madame Odette Constantin in Ge-
 neva, Edmundo Palacios in Mexico City, and Ed Moyo in Nairobi. Each office had
 to be supplied with films and video tapes in languages appropriate to the region.
@@ -580,29 +579,28 @@ truly global AV medium, and it had to be physically shipped everywhere.
 
 THE UNITED NATIONS CENTRE FOR HUMAN SETTLEMENTS
 
-In the autumn of 1979, the General Assembly created the “United Nations Centre
-for Human Settlements” as a full-fledged UN agency, to be headquartered in Nai-
+In the autumn of 1979, the General Assembly created the "United Nations Centre
+for Human Settlements" as a full-fledged UN agency, to be headquartered in Nai-
 robi, Kenya. It was conceived as a sister agency to the United Nations Environment
 Programme (UNEP), established following the 1972 Conference on the Human En-
 vironment in Stockholm. UNEP (then the only UN headquarters located in a devel-
 oping country) was located at Gigiri, just outside Nairobi. UNCHS initially occupied
 
 ## Images, Captions, And Visual Notes
-
 There are no images, captions, or other visual elements on this page.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-This page is fully transcribed and contains no omissions.
+This page is complete. All text has been transcribed.
 
 ## Visual Region Manifest
-
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of typeset text with no images, illustrations, or other visual elements."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page contains only text and a page number."
+}
 ```
 
 ## Page Metadata
@@ -674,17 +672,12 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
 ## Page Metadata
-
-- Task id: `source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0010`
-- Source: `raw/sources/Habitat Revisited, Jim Carney, 2006.pdf`
 - Page: 10
 
 ## Layout And Reading Order
-
-The page consists of a single column of text. The reading order is top to bottom. A page number, "10", is located at the top right corner. A bolded, centered heading, "IN THE END – WHY ?", separates the text into two main sections.
+This page contains a single column of text. The page number "10" is located at the top right corner. The reading order is from top to bottom.
 
 ## Literal Transcription
-
 10
 
 By early 1980, with UNCHS more or less operational in Nairobi, Andreas Fuglesang
@@ -736,19 +729,15 @@ form of documents, audio, video tape and film and had to be physically flown
 and shipped across continents and oceans.
 
 ## Images, Captions, And Visual Notes
-
-There are no images, captions, or other visual elements on this page.
+There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-This page is complete. All text, including the page number and section heading, has been transcribed.
+This page is complete. All text has been transcribed.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],

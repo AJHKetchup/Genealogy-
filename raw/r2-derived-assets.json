@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-24T14:20:52.401223+00:00",
+  "created": "2026-05-24T15:31:31.491644+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -805,6 +805,20 @@
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600/extracted-images/page-0580/page-0580-docling-image-01.png",
       "bytes": 52751,
       "sha256": "d3e8102acb5c5b1b68531e9a5a5230ef20c5720654b4910d03e6e2ac2eac06af",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600/extracted-images/page-0581/page-0581-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600/extracted-images/page-0581/page-0581-docling-image-01.png",
+      "bytes": 13662,
+      "sha256": "c32ab1f5fe262f3d51a258e09d40f97163157ddc4b08f00df7fb0b35b8139ebd",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600/extracted-images/page-0581/page-0581-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600/extracted-images/page-0581/page-0581-docling-image-02.png",
+      "bytes": 210513,
+      "sha256": "eb254f1597c5b05bcc61aadb0d086c02a1a1cf5e85874879257b9e874d92066e",
       "media_type": "image/png"
     },
     {
@@ -12312,10 +12326,10 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 15,
-    "total_bytes": 70751521,
-    "uploaded": 8,
-    "skipped": 7,
+    "total_files": 7,
+    "total_bytes": 59700043,
+    "uploaded": 2,
+    "skipped": 5,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,
@@ -12325,9 +12339,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1762,
+      "scanned": 1764,
       "deleted": 0,
-      "skipped": 1762,
+      "skipped": 1764,
       "errors": []
     }
   }
