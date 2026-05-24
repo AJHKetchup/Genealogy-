@@ -13,13 +13,13 @@
 | 3 | none | high | pass | none | none |
 | 4 | high | high | pass | none | Dario, Dario Pulgar, Pulgar |
 | 5 | medium | high | pass | none | Pulgar |
-| 6 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
-| 8 | none | high | pass | none | none |
+| 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 13 | critical | low | reread-page | none | Dario |
-| 14 | critical | low | reread-page | none | Dario, Dario Pulgar, Pulgar |
-| 15 | none | high | pass | none | none |
+| 11 | critical | low | reread-page | none | Dario, Dario Pulgar, Pulgar |
+| 12 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
