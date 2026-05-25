@@ -1338,24 +1338,29 @@ No interpretation was produced by the Docling basic conversion pass.
 
 ## Page Metadata
 
-- `page_number`: 56
-- `source_filename_page_number`: 53
-- `source_type`: Directory
-- `source_language`: es-CL
+- Task id: `source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60:p0053`
+- Model route: `pro`
+- Route reasons: requested_reread
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/work-orders/page-0053.md`
+- Page: 53
+- Output Markdown target: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/page-markdown/page-0053.md`
+- External research relevance: `medium`
+- External requested treatment: `reread`
+- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
+- Recommended action: ``
+- Quality flags: none
+- Technical reread clues: none
 
 ## Layout And Reading Order
 
-The page contains a single block of text formatted into a three-column directory listing. The columns are:
-1.  **Name:** Full name of the individual, listed as "Surname(s), Given Name(s)".
-2.  **Address:** Street address, which may include office (`Of.`) or department (`Depto.`) numbers. Some addresses span two lines.
-3.  **City:** The city or town where the address is located.
-
-The entries are read row by row, from top to bottom. A page number, "56 —", is located at the bottom left of the page.
+The page contains a directory listing of medical professionals. The content is arranged in a three-column table format. The first column lists the individual's name (last name, first name). The second column provides their address. The third column lists the city. The entries are read row by row from top to bottom. At the bottom left of the page is the page number.
 
 ## Literal Transcription
 
 | Name | Address | City |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | Lara Lara, Gastón | Bascuñán Guerrero 864 | Santiago |
 | Lara Sazo, Carlos | Cochrane 754 | Concepción |
 | Larach Jamiz, César | Av. José P. Alessandri 85 | Santiago |
@@ -1378,7 +1383,7 @@ The entries are read row by row, from top to bottom. A page number, "56 —", is
 | Latorre Blanco, Mariano | Valentín Letelier 1373 | Santiago |
 | Latorre Offermanns, María Josefina | Víctor Lamas 280 | Concepción |
 | Latorre Troncoso, Gustavo | Gertrudis Echenique 49 | Santiago |
-| Lausic Yuricić, Vicente | Constitución 352 | Illapel |
+| Lausic Yuricic, Vicente | Constitución 352 | Illapel |
 | Laval Manríquez, Enrique | Lord Cochrane 309 | Santiago |
 | Laval Román, Enrique | Miguel Claro 278 | Santiago |
 | Lavarello Ramírez, Alfredo | Cáceres 10 A | Rancagua |
@@ -1403,20 +1408,20 @@ The entries are read row by row, from top to bottom. A page number, "56 —", is
 
 ## Images, Captions, And Visual Notes
 
-This page contains only text in a directory format. There are no images, illustrations, or other visual elements.
+There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible portions of this page.
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
 
-The entire content of the page, including all directory entries and the page number, has been transcribed.
+The full content of the page has been transcribed. The page number visible on the image is "56", which differs from the page number "53" specified in the work order. The transcription reflects the number visible on the source image.
 
 ## Visual Region Manifest
 
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of typed text in a directory format with no images, illustrations, or other distinct visual elements."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text in a directory format and has no images, illustrations, or other visual elements."}
 ```
 
 # Page 54

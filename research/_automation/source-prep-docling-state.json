@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-25T14:25:28Z",
+  "created": "2026-05-25T16:42:24Z",
   "mode": "source-prep-docling-discovery",
   "dry_run": false,
   "agent": "source-prep-docling-discovery",
@@ -14,262 +14,263 @@
   "document_timeout": 120.0,
   "hard_timeout": 150.0,
   "queue_scope": "source-prep-batches",
-  "queue_task_count": 396,
+  "queue_task_count": 384,
   "filters": {
     "source": "",
     "source_sha256": ""
   },
   "inspected": 12,
-  "accepted": 12,
-  "unusable": 0,
+  "accepted": 10,
+  "unusable": 2,
   "fast_unusable": 0,
   "errors": 0,
-  "extracted_images": 7,
+  "extracted_images": 2,
   "skipped": {
-    "ocr_limit_reached": 337
+    "ocr_limit_reached": 325
   },
   "tasks": [
     {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900:p0895",
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650:p0638",
       "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 895,
+      "page": 638,
       "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900/page-0895.md",
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650/page-0638.md",
       "readability_flags": [],
       "profile_version": 6,
-      "text_chars": 919,
+      "text_chars": 855,
       "extracted_image_count": 0,
       "docling_ocr": true,
-      "text_layer_alpha_chars": 717,
+      "text_layer_alpha_chars": 654,
       "likely_full_page_scan": true,
       "text_layer_flags": [
         "fragmented_short_lines"
       ],
       "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900/page-markdown/page-0895.md"
+      "basic_output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650/page-markdown/page-0638.md"
     },
     {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0501-0525-r3578-50-5569-5569-jacket5-pages-501-525:p0506",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 506,
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0476-0483-r3577-50-5569-5569-jacket3-pages-476-483:p0476",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 476,
       "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0501-0525-r3578-50-5569-5569-jacket5-pages-501-525/page-0506.md",
+      "discovery_path": "raw/discovery/docling/ca24f561d6-r3577-50-5569-5569-jacke-p0476-0483-r3577-50-5569-5569-jacket3-pages-476-483/page-0476.md",
       "readability_flags": [],
       "profile_version": 6,
-      "text_chars": 811,
-      "extracted_image_count": 5,
-      "extracted_image_methods": [
-        "docling_picture_image"
-      ],
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 721,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "fragmented_short_lines"
-      ],
-      "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0501-0525-r3578-50-5569-5569-jacket5-pages-501-525/page-markdown/page-0506.md"
-    },
-    {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0726-0750-r3016-11a-2905-950-pages-726-750:p0744",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 744,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca3e1a8684-r3016-11a-2905-950-p0726-0750-r3016-11a-2905-950-pages-726-750/page-0744.md",
-      "readability_flags": [],
-      "profile_version": 6,
-      "text_chars": 902,
+      "text_chars": 843,
       "extracted_image_count": 0,
       "docling_ocr": true,
-      "text_layer_alpha_chars": 708,
+      "text_layer_alpha_chars": 658,
       "likely_full_page_scan": true,
       "text_layer_flags": [
-        "fragmented_short_lines"
+        "docling_layout_noise"
       ],
       "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0726-0750-r3016-11a-2905-950-pages-726-750/page-markdown/page-0744.md"
+      "basic_output_path": "raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0476-0483-r3577-50-5569-5569-jacket3-pages-476-483/page-markdown/page-0476.md"
     },
     {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700:p0698",
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550:p0544",
       "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 698,
+      "page": 544,
       "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/page-0698.md",
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550/page-0544.md",
       "readability_flags": [],
       "profile_version": 6,
-      "text_chars": 1576,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 707,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "fragmented_short_lines"
-      ],
-      "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/page-markdown/page-0698.md"
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700:p0696",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 696,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/page-0696.md",
-      "readability_flags": [],
-      "profile_version": 6,
-      "text_chars": 1193,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 705,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "fragmented_short_lines"
-      ],
-      "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/page-markdown/page-0696.md"
-    },
-    {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0651-0675-r3016-11a-2905-950-pages-651-675:p0653",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 653,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca3e1a8684-r3016-11a-2905-950-p0651-0675-r3016-11a-2905-950-pages-651-675/page-0653.md",
-      "readability_flags": [],
-      "profile_version": 6,
-      "text_chars": 951,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 689,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "fragmented_short_lines"
-      ],
-      "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0651-0675-r3016-11a-2905-950-pages-651-675/page-markdown/page-0653.md"
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700:p0693",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 693,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/page-0693.md",
-      "readability_flags": [],
-      "profile_version": 6,
-      "text_chars": 1446,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 684,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "fragmented_short_lines"
-      ],
-      "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/page-markdown/page-0693.md"
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0851-0875-s522bis-29-3-pages-851-875:p0872",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 872,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p0851-0875-s522bis-29-3-pages-851-875/page-0872.md",
-      "readability_flags": [],
-      "profile_version": 6,
-      "text_chars": 860,
+      "text_chars": 805,
       "extracted_image_count": 1,
       "extracted_image_methods": [
         "docling_picture_image"
       ],
       "docling_ocr": true,
-      "text_layer_alpha_chars": 679,
+      "text_layer_alpha_chars": 648,
       "likely_full_page_scan": true,
       "text_layer_flags": [
         "fragmented_short_lines"
       ],
       "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0851-0875-s522bis-29-3-pages-851-875/page-markdown/page-0872.md"
+      "basic_output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550/page-markdown/page-0544.md"
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0751-0775-s522bis-29-3-pages-751-775:p0755",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 755,
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153:p1150",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 1150,
       "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p0751-0775-s522bis-29-3-pages-751-775/page-0755.md",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153/page-1150.md",
       "readability_flags": [],
       "profile_version": 6,
-      "text_chars": 886,
+      "text_chars": 864,
       "extracted_image_count": 0,
       "docling_ocr": true,
-      "text_layer_alpha_chars": 677,
+      "text_layer_alpha_chars": 647,
       "likely_full_page_scan": true,
       "text_layer_flags": [
         "fragmented_short_lines"
       ],
       "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0751-0775-s522bis-29-3-pages-751-775/page-markdown/page-0755.md"
+      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153/page-markdown/page-1150.md"
     },
     {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700:p0683",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 683,
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0604-0628-c-mara-de-senadores-de-la-naci-n-1936-pages-604-628:p0604",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 604,
       "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700/page-0683.md",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0604-0628-c-mara-de-senadores-de-la-naci-n-1936-pages-604-628/page-0604.md",
       "readability_flags": [],
       "profile_version": 6,
-      "text_chars": 860,
+      "text_chars": 850,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 640,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "fragmented_short_lines"
+      ],
+      "text_layer_used_without_ocr": false,
+      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0604-0628-c-mara-de-senadores-de-la-naci-n-1936-pages-604-628/page-markdown/page-0604.md"
+    },
+    {
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950:p0929",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "page": 929,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950/page-0929.md",
+      "readability_flags": [],
+      "profile_version": 6,
+      "text_chars": 1117,
       "extracted_image_count": 1,
       "extracted_image_methods": [
         "docling_picture_image"
       ],
       "docling_ocr": true,
-      "text_layer_alpha_chars": 669,
+      "text_layer_alpha_chars": 636,
       "likely_full_page_scan": true,
       "text_layer_flags": [
-        "fragmented_short_lines"
+        "encoding_mojibake"
       ],
       "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700/page-markdown/page-0683.md"
+      "basic_output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950/page-markdown/page-0929.md"
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0676-0700-s522bis-29-3-pages-676-700:p0680",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 680,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p0676-0700-s522bis-29-3-pages-676-700/page-0680.md",
-      "readability_flags": [],
-      "profile_version": 6,
-      "text_chars": 858,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 661,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "fragmented_short_lines"
-      ],
-      "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0676-0700-s522bis-29-3-pages-676-700/page-markdown/page-0680.md"
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700:p0695",
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550:p0534",
       "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 695,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/page-0695.md",
-      "readability_flags": [],
+      "page": 534,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550/page-0534.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
       "profile_version": 6,
-      "text_chars": 2067,
+      "text_chars": 0,
       "extracted_image_count": 0,
       "docling_ocr": true,
-      "text_layer_alpha_chars": 669,
+      "text_layer_alpha_chars": 641,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "fragmented_short_lines"
+      ],
+      "text_layer_used_without_ocr": false
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625:p0617",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 617,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/page-0617.md",
+      "readability_flags": [],
+      "profile_version": 6,
+      "text_chars": 762,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 627,
       "likely_full_page_scan": true,
       "text_layer_flags": [
         "fragmented_short_lines"
       ],
       "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/page-markdown/page-0695.md"
+      "basic_output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/page-markdown/page-0617.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878:p0864",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 864,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878/page-0864.md",
+      "readability_flags": [],
+      "profile_version": 6,
+      "text_chars": 1714,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 634,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "fragmented_short_lines"
+      ],
+      "text_layer_used_without_ocr": false,
+      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878/page-markdown/page-0864.md"
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700:p0691",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 691,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/page-0691.md",
+      "readability_flags": [],
+      "profile_version": 6,
+      "text_chars": 1398,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 627,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "fragmented_short_lines"
+      ],
+      "text_layer_used_without_ocr": false,
+      "basic_output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/page-markdown/page-0691.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053:p1048",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 1048,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053/page-1048.md",
+      "readability_flags": [],
+      "profile_version": 6,
+      "text_chars": 807,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 619,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "fragmented_short_lines"
+      ],
+      "text_layer_used_without_ocr": false,
+      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053/page-markdown/page-1048.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878:p0868",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 868,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878/page-0868.md",
+      "readability_flags": [
+        "docling_layout_noise"
+      ],
+      "profile_version": 6,
+      "text_chars": 1721,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 625,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "fragmented_short_lines"
+      ],
+      "text_layer_used_without_ocr": false
     }
   ],
   "blockers": [],
   "discovery_state_path": "research/_agent-queues/source-prep-discovery.json",
-  "checkpointed": "2026-05-25T14:31:01Z",
+  "checkpointed": "2026-05-25T16:47:22Z",
   "state_path": "research/_automation/source-prep-docling-state.json",
-  "finished": "2026-05-25T14:31:01Z"
+  "finished": "2026-05-25T16:47:21Z"
 }

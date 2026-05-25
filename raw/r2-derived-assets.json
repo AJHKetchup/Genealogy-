@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-25T14:34:04.796553+00:00",
+  "created": "2026-05-25T16:51:00.414494+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -5099,6 +5099,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550/extracted-images/page-0544/page-0544-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550/extracted-images/page-0544/page-0544-docling-image-01.png",
+      "bytes": 38061,
+      "sha256": "573df79656b1b924e8f7267aa79ec8f902fb9d3c1ba750a47ee79981bcb7703a",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575/extracted-images/page-0551/page-0551-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575/extracted-images/page-0551/page-0551-docling-image-01.png",
       "bytes": 31144,
@@ -7553,6 +7560,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950/extracted-images/page-0926/page-0926-docling-image-02.png",
       "bytes": 16137,
       "sha256": "4480aa7ad893fcc337d1108c4046b8d6ff132ec19bfbcb39c87ced644b5ab288",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950/extracted-images/page-0929/page-0929-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950/extracted-images/page-0929/page-0929-docling-image-01.png",
+      "bytes": 165829,
+      "sha256": "eed9a90354b9b17d27735d24f23086a696f7d036214ebc5ec983e0d83e485508",
       "media_type": "image/png"
     },
     {
@@ -12809,9 +12823,9 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 14,
-    "total_bytes": 69688509,
-    "uploaded": 7,
+    "total_files": 9,
+    "total_bytes": 66760328,
+    "uploaded": 2,
     "skipped": 7,
     "planned": 0,
     "errors": [],
@@ -12822,9 +12836,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1833,
+      "scanned": 1835,
       "deleted": 0,
-      "skipped": 1833,
+      "skipped": 1835,
       "errors": []
     }
   }
