@@ -1,6 +1,6 @@
 # Source Usability
 
-Generated: 2026-05-24T23:39:33Z
+Generated: 2026-05-25T00:44:56Z
 
 This report answers whether each raw source is ready for LLM extraction, still waiting on conversion, or held only on specific pages that need reread.
 
@@ -15,12 +15,12 @@ This report answers whether each raw source is ready for LLM extraction, still w
 
 | Source | Status | Converted | Chunks | Pages needing repair | QC-held pages |
 | --- | --- | ---: | ---: | ---: | ---: |
-| raw/sources/ACICR_B_CR_177_001_002.pdf | usable_with_page_holds | 5 | 5 | 0 | 1 |
+| raw/sources/ACICR_B_CR_177_001_002.pdf | usable_with_page_holds | 5 | 5 | 0 | 2 |
 | raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf | partial_with_page_holds | 37 | 50 | 0 | 1 |
 | raw/sources/Arrival-Departure Record, Form I-94 B, March 30, 1959.png | usable_for_extraction | 1 | 1 | 0 | 0 |
 | raw/sources/CV of Dario Arturo Pulgar.pdf | partially_usable_for_extraction | 1 | 1 | 0 | 0 |
 | raw/sources/Cámara de Senadores de la Nación, 1936.pdf | partial_with_page_holds | 20 | 27 | 0 | 3 |
-| raw/sources/El Aguila Nombre Grande Scan.pdf | partial_with_page_holds | 1 | 1 | 0 | 2 |
+| raw/sources/El Aguila Nombre Grande Scan.pdf | partial_with_page_holds | 1 | 1 | 0 | 1 |
 | raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf | partial_with_page_holds | 5 | 8 | 0 | 1 |
 | raw/sources/Habitat Revisited, Jim Carney, 2006.pdf | usable_for_extraction | 1 | 2 | 0 | 0 |
 | raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf | usable_for_extraction | 1 | 2 | 0 | 0 |
