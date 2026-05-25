@@ -1,10 +1,10 @@
 {
   "created": "2026-05-25",
   "queue": "source-prep-batches",
-  "task_count": 342,
+  "task_count": 335,
   "status_counts": {
-    "needs_reread": 53,
-    "todo": 289
+    "needs_reread": 58,
+    "todo": 277
   },
   "tasks": [
     {
@@ -1151,6 +1151,141 @@
         "insufficient_words"
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-49d1e33d93cf.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0892",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0879-0903",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 879-903",
+      "first_page": 892,
+      "last_page": 892,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0892"
+      ],
+      "pages": [
+        {
+          "page": 892,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0892",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-images/page-0892.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/work-orders/page-0892.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-markdown/page-0892.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/extracted-images/page-0892",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-0bd8ab28f2ea.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0893",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0879-0903",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 879-903",
+      "first_page": 893,
+      "last_page": 893,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0893"
+      ],
+      "pages": [
+        {
+          "page": 893,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0893",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-images/page-0893.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/work-orders/page-0893.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-markdown/page-0893.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/extracted-images/page-0893",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-55e21e647d96.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0894",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0879-0903",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 879-903",
+      "first_page": 894,
+      "last_page": 894,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0894"
+      ],
+      "pages": [
+        {
+          "page": 894,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0894",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-images/page-0894.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/work-orders/page-0894.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-markdown/page-0894.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/extracted-images/page-0894",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-b4357b6cf558.md"
     },
     {
       "task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0001",
@@ -2369,6 +2504,88 @@
         "insufficient_words"
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33-p0033.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775:p0775",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/manifest.json",
+      "job_id": "CA7b784510-s519bis-26-4-p0751-0775",
+      "title": "S519bis-26-4 pages 751-775",
+      "first_page": 775,
+      "last_page": 775,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775:p0775"
+      ],
+      "pages": [
+        {
+          "page": 775,
+          "task_id": "source-prep:ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775:p0775",
+          "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/page-images/page-0775.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/work-orders/page-0775.md",
+          "output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/page-markdown/page-0775.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/extracted-images/page-0775",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "fragmented_short_lines"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "fragmented_short_lines"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775-p0775.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900:p0878",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900/manifest.json",
+      "job_id": "CA7b784510-s519bis-26-4-p0876-0900",
+      "title": "S519bis-26-4 pages 876-900",
+      "first_page": 878,
+      "last_page": 878,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900:p0878"
+      ],
+      "pages": [
+        {
+          "page": 878,
+          "task_id": "source-prep:ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900:p0878",
+          "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900/page-images/page-0878.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900/work-orders/page-0878.md",
+          "output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900/page-markdown/page-0878.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900/extracted-images/page-0878",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "fragmented_short_lines"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "fragmented_short_lines"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900-p0878.md"
     },
     {
       "task_id": "source-prep-batch:cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959:p0001",
@@ -4431,37 +4648,6 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-9f3fe11aefb9.md"
     },
     {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0887",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0879-0903",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 879-903",
-      "first_page": 887,
-      "last_page": 887,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0887"
-      ],
-      "pages": [
-        {
-          "page": 887,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0887",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-images/page-0887.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/work-orders/page-0887.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-markdown/page-0887.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/extracted-images/page-0887",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-cb7babb34b4a.md"
-    },
-    {
       "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0888",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -4524,99 +4710,6 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-829aafb47b6c.md"
     },
     {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0892",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0879-0903",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 879-903",
-      "first_page": 892,
-      "last_page": 892,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0892"
-      ],
-      "pages": [
-        {
-          "page": 892,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0892",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-images/page-0892.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/work-orders/page-0892.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-markdown/page-0892.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/extracted-images/page-0892",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-0bd8ab28f2ea.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0893",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0879-0903",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 879-903",
-      "first_page": 893,
-      "last_page": 893,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0893"
-      ],
-      "pages": [
-        {
-          "page": 893,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0893",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-images/page-0893.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/work-orders/page-0893.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-markdown/page-0893.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/extracted-images/page-0893",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-55e21e647d96.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0894",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0879-0903",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 879-903",
-      "first_page": 894,
-      "last_page": 894,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0894"
-      ],
-      "pages": [
-        {
-          "page": 894,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0894",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-images/page-0894.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/work-orders/page-0894.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-markdown/page-0894.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/extracted-images/page-0894",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-b4357b6cf558.md"
-    },
-    {
       "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0895",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -4677,37 +4770,6 @@
         }
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-dc8a38bbb98c.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0897",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0879-0903",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 879-903",
-      "first_page": 897,
-      "last_page": 897,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0897"
-      ],
-      "pages": [
-        {
-          "page": 897,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0897",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-images/page-0897.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/work-orders/page-0897.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-markdown/page-0897.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/extracted-images/page-0897",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-4a0b459ee6b8.md"
     },
     {
       "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0900",
@@ -7500,37 +7562,6 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575-p0564.md"
     },
     {
-      "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600:p0580",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600/manifest.json",
-      "job_id": "CA7b784510-s519bis-26-4-p0576-0600",
-      "title": "S519bis-26-4 pages 576-600",
-      "first_page": 580,
-      "last_page": 580,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600:p0580"
-      ],
-      "pages": [
-        {
-          "page": 580,
-          "task_id": "source-prep:ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600:p0580",
-          "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600/page-images/page-0580.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600/work-orders/page-0580.md",
-          "output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600/page-markdown/page-0580.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600/extracted-images/page-0580",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600-p0580.md"
-    },
-    {
       "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600:p0583",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -7591,37 +7622,6 @@
         }
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600-p0591.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600:p0593",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600/manifest.json",
-      "job_id": "CA7b784510-s519bis-26-4-p0576-0600",
-      "title": "S519bis-26-4 pages 576-600",
-      "first_page": 593,
-      "last_page": 593,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600:p0593"
-      ],
-      "pages": [
-        {
-          "page": 593,
-          "task_id": "source-prep:ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600:p0593",
-          "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600/page-images/page-0593.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600/work-orders/page-0593.md",
-          "output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600/page-markdown/page-0593.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600/extracted-images/page-0593",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600-p0593.md"
     },
     {
       "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625:p0605",
@@ -7965,37 +7965,6 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725-p0707.md"
     },
     {
-      "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725:p0723",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/manifest.json",
-      "job_id": "CA7b784510-s519bis-26-4-p0701-0725",
-      "title": "S519bis-26-4 pages 701-725",
-      "first_page": 723,
-      "last_page": 723,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725:p0723"
-      ],
-      "pages": [
-        {
-          "page": 723,
-          "task_id": "source-prep:ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725:p0723",
-          "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/page-images/page-0723.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/work-orders/page-0723.md",
-          "output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/page-markdown/page-0723.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0723",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725-p0723.md"
-    },
-    {
       "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0726-0750-s519bis-26-4-pages-726-750:p0749",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -8056,37 +8025,6 @@
         }
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775-p0752.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775:p0775",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/manifest.json",
-      "job_id": "CA7b784510-s519bis-26-4-p0751-0775",
-      "title": "S519bis-26-4 pages 751-775",
-      "first_page": 775,
-      "last_page": 775,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775:p0775"
-      ],
-      "pages": [
-        {
-          "page": 775,
-          "task_id": "source-prep:ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775:p0775",
-          "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/page-images/page-0775.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/work-orders/page-0775.md",
-          "output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/page-markdown/page-0775.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/extracted-images/page-0775",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775-p0775.md"
     },
     {
       "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0776-0800-s519bis-26-4-pages-776-800:p0790",
@@ -9577,37 +9515,6 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0851-0875-s519bis-26-4-pages-851-875-p0870.md"
     },
     {
-      "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900:p0878",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900/manifest.json",
-      "job_id": "CA7b784510-s519bis-26-4-p0876-0900",
-      "title": "S519bis-26-4 pages 876-900",
-      "first_page": 878,
-      "last_page": 878,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900:p0878"
-      ],
-      "pages": [
-        {
-          "page": 878,
-          "task_id": "source-prep:ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900:p0878",
-          "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900/page-images/page-0878.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900/work-orders/page-0878.md",
-          "output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900/page-markdown/page-0878.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900/extracted-images/page-0878",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900-p0878.md"
-    },
-    {
       "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0876-0900-s519bis-26-4-pages-876-900:p0879",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -10569,37 +10476,6 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950-p0928.md"
     },
     {
-      "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950:p0932",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950/manifest.json",
-      "job_id": "CA7e42bb85-s522bis-29-3-p0926-0950",
-      "title": "S522bis-29-3 pages 926-950",
-      "first_page": 932,
-      "last_page": 932,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950:p0932"
-      ],
-      "pages": [
-        {
-          "page": 932,
-          "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950:p0932",
-          "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950/page-images/page-0932.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950/work-orders/page-0932.md",
-          "output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950/page-markdown/page-0932.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950/extracted-images/page-0932",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950-p0932.md"
-    },
-    {
       "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950:p0935",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -10877,37 +10753,6 @@
         }
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p1101-1125-s522bis-29-3-pages-1101-1125-p1118.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p1151-1175-s522bis-29-3-pages-1151-1175:p1160",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1151-1175-s522bis-29-3-pages-1151-1175/manifest.json",
-      "job_id": "CA7e42bb85-s522bis-29-3-p1151-1175",
-      "title": "S522bis-29-3 pages 1151-1175",
-      "first_page": 1160,
-      "last_page": 1160,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca7e42bb85-s522bis-29-3-p1151-1175-s522bis-29-3-pages-1151-1175:p1160"
-      ],
-      "pages": [
-        {
-          "page": 1160,
-          "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1151-1175-s522bis-29-3-pages-1151-1175:p1160",
-          "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1151-1175-s522bis-29-3-pages-1151-1175/page-images/page-1160.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1151-1175-s522bis-29-3-pages-1151-1175/work-orders/page-1160.md",
-          "output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1151-1175-s522bis-29-3-pages-1151-1175/page-markdown/page-1160.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1151-1175-s522bis-29-3-pages-1151-1175/extracted-images/page-1160",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p1151-1175-s522bis-29-3-pages-1151-1175-p1160.md"
     },
     {
       "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p1201-1225-s522bis-29-3-pages-1201-1225:p1203",
