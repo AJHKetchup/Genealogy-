@@ -1,9 +1,10 @@
 ﻿{
     "created":  "2026-05-25",
     "queue":  "identity-analysis",
-    "task_count":  188,
+    "task_count":  189,
     "status_counts":  {
-                          "done":  188
+                          "done":  188,
+                          "todo":  1
                       },
     "tasks":  [
                   {
@@ -2293,6 +2294,16 @@
                       "status":  "done",
                       "claimed_at":  "2026-05-25T16:06:22Z",
                       "role":  "identity_researcher"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-qa-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-qa.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-qa.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "skill":  "genealogy-proof-review",
