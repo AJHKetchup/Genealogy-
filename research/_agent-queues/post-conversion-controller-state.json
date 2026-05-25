@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-05-25T12:41:10Z",
+    "updated":  "2026-05-25T14:54:14Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "max_workers":  1,
     "allow_promotion":  true,
@@ -7,7 +7,7 @@
 
                        ],
     "last_summary":  {
-                         "started":  "2026-05-25T12:39:49Z",
+                         "started":  "2026-05-25T14:52:50Z",
                          "root":  "D:\\a\\Genealogy-\\Genealogy-",
                          "dry_run":  false,
                          "allow_promotion":  true,
@@ -28,12 +28,11 @@
                                                                     "blocked_needs_reread":  30
                                                                 },
                                         "identity-analysis":  {
-                                                                  "done":  182,
-                                                                  "todo":  1
+                                                                  "done":  183
                                                               },
                                         "proof-review":  {
-                                                             "todo":  1879,
-                                                             "done":  264,
+                                                             "todo":  1911,
+                                                             "done":  266,
                                                              "released":  51
                                                          },
                                         "wiki-promotion":  {
@@ -48,6 +47,6 @@
                          "blockers":  [
                                           "refresh: genealogy-wiki failed: source-relevance sync-review-holds --root D:\\a\\Genealogy-\\Genealogy-: raise SystemExit(main()) |                      ^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 15254, in main |     summary = sync_proof_review_hold_feedback(args.root) |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6587, in sync_proof_review_hold_feedback |     relevance = proof_review_feedback_relevance(text) |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6979, in proof_review_feedback_relevance |     value = match.group(1).strip().lower().replace(\"_\", \" \").split()[0] |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^ | IndexError: list index out of range"
                                       ],
-                         "finished":  "2026-05-25T12:41:10Z"
+                         "finished":  "2026-05-25T14:54:14Z"
                      }
 }
