@@ -21,7 +21,7 @@ matched_terms:
   - "Dario Pulgar Arriagada"
   - "Pulgar"
 conversion_confidence: high
-conversion_qa_concern: "None stated in the chunk. The chunk records `Uncertain Or Illegible: None` and `Completeness Audit: All visible text on the page has been transcribed.`"
+conversion_qa_concern: "None stated for this page-8 chunk. The chunk records `Uncertain Or Illegible: None` and `Completeness Audit: All visible text on the page has been transcribed.` Separate proof-review notes for a page-14 Pulgar/Pulgara identity analysis are not page-local evidence for this page and should not be used to alter this transcription."
 promotion_recommendation: promote_after_review
 ---
 
@@ -40,11 +40,13 @@ M. Dario Pulgar-Arriagada, Capitaine du Service de Santé;
 
 ## Conversion Confidence And QA Concern
 
-Conversion confidence is high for this page. The converted chunk reports no uncertain or illegible text and says all visible text on the page was transcribed. No reread or conversion-qa action was requested for this task.
+Conversion confidence is high for this page. The converted chunk reports no uncertain or illegible text and says all visible text on the page was transcribed.
+
+The proof-review revision context supplied with this task concerns a different page-14 identity-analysis item with a Pulgar/Pulgara reading dispute and missing image review. That dispute is not page-local evidence for this page-8 listing. Keep the page-8 claims limited to the literal typed listing unless a separate proof review combines page 7 and page 8 to assess plenipotentiary/delegate wording.
 
 ## Uncertainty
 
-The page gives Dario's name and official title in a Chilean section, but it does not provide his full middle name, age, residence, birth information, family relationships, or explicit identity anchors beyond name and role. Proof review should decide whether broader source context supports a stronger claim such as delegate or plenipotentiary status; this packet keeps the atomic claims tied to the literal page-8 support.
+The page gives Dario's name and official title in a Chilean section, but it does not provide his full middle name, age, residence, birth information, family relationships, or explicit identity anchors beyond name and role. The preceding page in the converted source says the listed governments named their plenipotentiaries, but this packet keeps the atomic claims tied to the literal page-8 support. A cross-page delegate/plenipotentiary claim should be reviewed separately before promotion.
 
 ## Promotion Recommendation
 

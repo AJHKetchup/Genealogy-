@@ -18,6 +18,6 @@ promotion_recommendation: promote_after_review
 # Claim: Dario Pulgar-Arriagada Described As Captain Of The Health Service
 
 - Literal support: `M. Dario Pulgar-Arriagada, Capitaine du Service de Santé;`.
-- Conversion confidence/QA concern: high; the chunk reports no uncertain or illegible text and a complete transcription.
-- Uncertainty: `Capitaine du Service de Santé` is preserved from the French source. Proof review should decide the canonical English rendering, such as `Captain of the Health Service`, `Captain, Health Service`, or `Medical Corps Captain`.
+- Conversion confidence/QA concern: high for page 8; the chunk reports no uncertain or illegible text and a complete transcription. Separate page-14 Pulgar/Pulgara proof-review blockers do not supply evidence for this page-local title claim.
+- Uncertainty: `Capitaine du Service de Santé` is preserved from the French source. Proof review should decide the canonical English rendering, such as `Captain of the Health Service`, `Captain, Health Service`, or `Medical Corps Captain`. This page does not expand Dario's name or state family relationships.
 - Promotion recommendation: promote after review as an occupation/title or public-service role claim.

@@ -1,0 +1,24 @@
+---
+type: claim
+status: draft
+claim_type: employment
+subject: "Dario Arturo Pulgar"
+predicate: "worked as"
+object: "Audio Visual Consultant at the National Film Board of Canada (NFB), Montreal, Canada, 1974-1978"
+source: "raw/sources/CV of Dario Arturo Pulgar.pdf"
+source_packet: "research/_staging/source-packets/chunk-b2e036516c17-p0005-01-cv-dario-arturo-pulgar-work-history.md"
+converted_file: "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md"
+chunk: "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0005-chunk-01.md"
+chunk_id: CHUNK-b2e036516c17-P0005-01
+page_reference: "page 5"
+confidence: medium-high
+promotion_recommendation: promote_after_review
+---
+
+# Claim: NFB Audio Visual Consultant
+
+- Date or date range: 1974-1978.
+- Place: Montreal, Canada.
+- Literal support: `1974 - 1978`; `National Film Board of Canada (NFB)`; `Montreal, Canada`; `Audio Visual Consultant`.
+- Conversion confidence/QA concern: High; the chunk reports no uncertain text, but original page image and manifest duplication should be reviewed.
+- Uncertainty: Low for role, institution, location, and date range as converted; moderate for subject attribution because the page body does not restate the name.

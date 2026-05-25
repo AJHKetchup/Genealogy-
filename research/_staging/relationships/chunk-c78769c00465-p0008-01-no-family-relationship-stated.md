@@ -20,6 +20,6 @@ promotion_recommendation: do_not_promote
 - Converted file: `raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md`.
 - Chunk/page reference: `CHUNK-c78769c00465-P0008-01`, converted page 8, printed page number 3.
 - Literal support reviewed: the page lists `M. Dario Pulgar-Arriagada, Capitaine du Service de Santé;` under the Chile heading and does not name any spouse, parent, child, sibling, or household relation.
-- Conversion confidence/QA concern: high; no uncertain or illegible text is reported for the page.
+- Conversion confidence/QA concern: high for page 8; no uncertain or illegible text is reported for the page. Separate page-14 Pulgar/Pulgara proof-review blockers should remain in conversion/identity review and do not create a family relationship from this page.
 - Uncertainty: Low that this chunk states no family relationship for Dario.
 - Promotion recommendation: do not promote a relationship from this chunk.

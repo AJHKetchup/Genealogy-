@@ -18,6 +18,6 @@ promotion_recommendation: promote_after_review
 # Claim: Dario Pulgar-Arriagada Listed Under Chile
 
 - Literal support: `LE PRÉSIDENT DE LA RÉPUBLIQUE DU CHILI:` followed by `M. Dario Pulgar-Arriagada, Capitaine du Service de Santé;`.
-- Conversion confidence/QA concern: high; the chunk reports no uncertain or illegible text and a complete transcription.
-- Uncertainty: The claim supports a Chile-related official listing. It does not by itself prove citizenship, residence, birth place, delegate status, or family relationship.
+- Conversion confidence/QA concern: high for page 8; the chunk reports no uncertain or illegible text and a complete transcription. Separate page-14 Pulgar/Pulgara proof-review blockers do not supply evidence for this page-local claim.
+- Uncertainty: The claim supports a Chile-related official listing. It does not by itself prove citizenship, residence, birth place, delegate status, or family relationship. A stronger plenipotentiary/delegate claim would require separate cross-page review with the preceding page's wording.
 - Promotion recommendation: promote after review as a public-role or event-context claim.
