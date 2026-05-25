@@ -517,23 +517,25 @@ The transcription is complete and captures all visible text and images on the pa
 ## Page Metadata
 - Source: `El Aguila Nombre Grande Scan.pdf`
 - Page: `10`
+- Page type: `image`
 
 ## Layout And Reading Order
 The page contains a single large image of a landscape with cattle and a body of water. There is no text on the page other than a handwritten page number at the bottom.
 
 ## Literal Transcription
-(No literal transcription needed for this page, as it contains only an image and a handwritten page number.)
+(No literal transcription needed for this page, as it is primarily an image.)
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-landscape.png)
-  - Kind: photograph; label basis: converter-description; bbox_pct: [6.0, 3.0, 96.0, 97.0]
-  - Source context: A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.
+- ![converter-description: The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hilly-landscape.png)
+  - Kind: photograph; label basis: converter-description; bbox_pct: [6.0, 2.0, 96.0, 98.0]
+  - Source context: The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.
 
-The page features a color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.
+- A color illustration or painting depicts a herd of cattle gathered around a watering hole in a dry, hilly landscape. In the background, a person on horseback is visible on a distant hill.
+- A handwritten number "10" is present at the bottom center of the page.
 
 ## Uncertain Or Illegible
-- The handwritten number at the bottom of the page appears to be "10", but it is somewhat faded and could potentially be misread.
+- The exact medium of the image (painting, illustration, or manipulated photograph) is uncertain without further context.
 
 ## Completeness Audit
 The page contains a single image and a handwritten page number. All visible content has been described.
@@ -545,16 +547,15 @@ The page contains a single image and a handwritten page number. All visible cont
     {
       "region_id": "region_1",
       "kind": "photograph",
-      "bbox_pct": [0.06, 0.03, 0.96, 0.97],
+      "bbox_pct": [0.06, 0.02, 0.96, 0.98],
       "caption_literal": null,
       "caption_type": "converter-description",
       "identity_basis": null,
-      "source_context": "A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.",
+      "source_context": "The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.",
       "confidence": 0.95,
-      "suggested_filename": "cattle_watering_hole_landscape"
+      "suggested_filename": "cattle_watering_hole_hilly_landscape"
     }
-  ],
-  "no_visual_regions_reason": null
+  ]
 }
 ```
 
@@ -783,79 +784,91 @@ The transcription is complete for all legible text on the page. The very faint t
 ```
 
 ## Page Metadata
-- Page number: 14
+
+- **Page number**: 14
+- **Source language**: es-ES
 
 ## Layout And Reading Order
-The document is a single-column, typewritten page. The reading order is as follows:
-1. A header line at the top of the page with text aligned to the left, center, and right.
-2. A left-aligned line indicating "ESCRIBE EL DIRECTOR".
-3. A centered title for the article: "EL FUNDO LOS CUARTOS".
-4. The main body of the text, consisting of a single block of paragraphs describing the property.
-5. A horizontal dividing line.
-6. A centered block of text identifying the publisher, "EL PERIODICO DE LA E MPRESA EDITORA EL AGUILA".
-7. A centered call to action, "HAGASE LECTOR", followed by contact instructions.
-8. A handwritten signature at the bottom right.
-9. Large handwritten text in red ink at the bottom left, consisting of "EL AGUILA" and the page number "14".
+
+The page is a single column of typewritten text. The reading order is from top to bottom.
+
+1.  A header at the top of the page with "NERO GIGANTE" on the left, "ENERO - FEBRERO" in the center, and "EL AGUILA" on the right.
+2.  A section heading, "ESCRIBE EL DIRECTOR".
+3.  The title of the article, "EL FUNDO LOS CUARTOS".
+4.  The main body of the article, which describes the property.
+5.  A horizontal line separating the article from the footer.
+6.  A footer section with publisher information and a call to action.
+7.  A handwritten signature, "DR. DARIO PULGARA", at the bottom right.
+8.  Large handwritten text in red, "EL AGUILA" and the page number "14", at the bottom left.
 
 ## Literal Transcription
+
 ```text
-MERO GIGANTE      ENERO - FEBRERO      EL AGUIÑA
+NERO GIGANTE      ENERO - FEBRERO      EL AGUILA
+---
 
 ESCRIBE EL DIRECTOR
-                                EL FUNDO LOS CUARTOS
+                  EL FUNDO LOS CUARTOS
 
 EL FUNDO LOS CUARTOS PERTENECE COMO YA SE SABE AL DR DARIO PULGAR A,
 DISTINGUIDO FACULTATIVO DE CONCEPCION QUIEN HEREDO DE SUS PADRES ESTE
 FUNDO ALLA POR EL AÑO 1917 SE CONPONIA SOLAMENTE DE 300 HECTAREAS QUE
 SIRVIERON PARA AGRANDAR SU FUNDO AL COMPRAR 300 MAS Y JUNTAS FORMARON LA
 SUPERFICIE ACTUAL DE 600 HECTAREAS.
+
 ESTA UBICADO EN LA PROVINCIA DE BIO-BIO A 22 KILOMETROS DE LA CUIDAD
 DE LOS ANGELES, EN EL CAMINO DE SAN CARLOS DE PUREN A SANTA BARBARA;
-DESLINDA AL SUR CON EL RIO BIO-BIO AL NOTE CON EL RIO DUQULCO OESTE
+DESLINDA AL SUR CON EL RIO BIO-BIO AL NOTE CON EL RIO DUQUILCO OESTE
 CON EL FUNDO " NATALIA " Y AL ESTE CON LOS"FUNDOS"SANTA INES"Y " LAS
 GARZAS " EXSISTEN PLANTACIONES DE PINOS QUE ACTUALMENTE SE EXPLOTAN ./
 DESDE EL AÑO 1938 SE RIEGA PARTE CON LAS AGUAS DEL CANAL BIO BIO
 NORTE /
 TIENE PRODUCTIVILES VEGAS A ORILLAS DEL BIO BIO Y UÑA MONTAÑA DE
 ROBLES QUE LE DA UN HERMOSO ASPECTO .
+
 DESDE 1952 EXISTE UNA CONFORTABLE CASA PATRONAL Y BUENAS CASA PARA
 EL MAYORDOMO E INQUILINOS; UN ESTABLO PARA 50 VACAS ENTERAMENTE DE
 CONCRETO. EN FUNDO TANBIEN CONSTA CON BODEGAS Y GADPONES TANBIEN DE CO
 NCRETO ../
+
 DENTRO DE POCO EL FUNDO CONSTARA CON LUS ELECTRICA DEL ABANICO EL
 PORVENIR DE ESTE FUNDO SON LOS PINOS Y LA LECHERIA.-
 ---
-                        EL PERIODICO DE LA E MPRESA EDITORA
-                                   EL AGUILA
 
-                                HAGASE LECTOR
+                  EL PERIODICO DE LA E MPRESA EDITORA
+                               EL AGUILA
 
-                        ESCRIBA A NUESTRA EMPRESA O
-                  PONGASE EN CONTACTO CON NUESTRO AGENTE PARA TODO
-                                    CHILE
-[handwritten signature] DR. DARIO PULGARA [/handwritten signature]
+                  HAGASE LECTOR
 
-[handwritten in red ink]
+                  ESCRIBA A NUESTRA EMPRESA O
+                  PONGASE EN CUNTACTO CON NUESTRO AGENTE PARA TODO
+                               CHILE
+                               [Handwritten signature: DR. DARIO PULGARA]
+
+[Handwritten in red pencil at bottom left:]
 EL AGUILA
 14
-[/handwritten in red ink]
 ```
 
 ## Images, Captions, And Visual Notes
-- **Handwritten Signature:** At the bottom right of the page is a handwritten signature in blue or black ink that reads "DR. DARIO PULGARA".
-- **Handwritten Annotation:** At the bottom left of the page, written in large red ink, is the text "EL AGUILA" and below it, the number "14".
+
+- **Handwritten Signature:** At the bottom right of the page is the handwritten signature of "DR. DARIO PULGARA".
+- **Handwritten Marginalia:** At the bottom left, the words "EL AGUILA" and the number "14" are written in large red pencil or crayon.
 
 ## Uncertain Or Illegible
-- In the header, the name "EL AGUIÑA" appears to be a typo for "EL AGUILA", as the tilde-like mark over the 'N' is inconsistent with the rest of the type and "EL AGUILA" is written elsewhere on the page. The transcription preserves the original text as it appears.
+
+- The word "CONTACTO" in the footer appears to be misspelled as "CUNTACTO". It has been transcribed as it appears.
 
 ## Completeness Audit
-This page has been transcribed in its entirety. All typewritten text, handwritten annotations, and the signature have been captured.
+
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains no photographs, maps, or other significant illustrations. The handwritten signature and annotations are fully transcribed in the text."
+  "no_visual_regions_reason": "The page contains only text. The handwritten signature and marginalia are transcribed and described in the notes; they do not require cropping as standalone visual assets."
 }
 ```
 
@@ -912,15 +925,15 @@ The transcription is complete and captures all visible text and the handwritten 
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present. The handwritten page number is transcribed in the literal transcription."}
 
 ## Page Metadata
-- Source: `El Aguila Nombre Grande Scan.pdf`
+- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
 - Page: 16
-- Page type: `Title Page`
+- Page type: `title-page`
 
 ## Layout And Reading Order
-The page contains a hand-drawn illustration at the top, followed by handwritten text in the center and bottom of the page. The text appears to be a title and a date.
+The page contains a hand-drawn illustration at the top, followed by handwritten text in the middle and bottom sections. The text appears to be a title and a date.
 
 ## Literal Transcription
-[Hand-drawn illustration of an eagle-like figure with a circle and "AD" inside its body]
+[Hand-drawn illustration of an eagle-like figure with a circle and a square inside its body]
 
 SuPLEMENTO
 Fotografico
@@ -929,11 +942,11 @@ EL AGUILA
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: Hand-drawn illustration of an eagle-like figure with a circle and "AD" inside its body.](../extracted-images/page-0016/page-0016-image-01-hand-drawn-eagle-figure-with-ad-1956.png)
+- ![converter-description: Hand-drawn illustration of an eagle-like figure with a circle and a square inside its body.](../extracted-images/page-0016/page-0016-image-01-illustration-eagle-like-figure-1956.png)
   - Kind: illustration; label basis: converter-description; bbox_pct: [10.0, 23.0, 43.0, 76.0]
-  - Source context: The illustration is at the top of the page, above the handwritten text.
+  - Source context: The illustration appears at the top of the page, above the title text.
 
-- An illustration of an eagle-like figure, drawn in red, is present at the top of the page. Inside its body, there is a large circle and the letters "AD" are visible.
+- An illustration of an eagle-like figure, drawn in red ink, is present at the top of the page. The figure has a head resembling a bird, wings, and a body with a large circle and a square shape inside it.
 
 ## Uncertain Or Illegible
 None.
@@ -946,27 +959,27 @@ The transcription is complete and captures all visible text and the significant 
 {
   "visual_regions": [
     {
-      "region_id": "vr_1",
+      "region_id": "region_1",
       "kind": "illustration",
       "bbox_pct": [10.0, 23.0, 43.0, 76.0],
-      "caption_literal": "Hand-drawn illustration of an eagle-like figure with a circle and \"AD\" inside its body.",
+      "caption_literal": "Hand-drawn illustration of an eagle-like figure with a circle and a square inside its body.",
       "caption_type": "converter-description",
       "identity_basis": null,
-      "source_context": "The illustration is at the top of the page, above the handwritten text.",
+      "source_context": "The illustration appears at the top of the page, above the title text.",
       "confidence": 1.0,
-      "suggested_filename": "hand-drawn_eagle_figure_with_ad_1956.png",
-      "inline_anchor": "An illustration of an eagle-like figure, drawn in red, is present at the top of the page. Inside its body, there is a large circle and the letters \"AD\" are visible."
+      "suggested_filename": "illustration_eagle_like_figure_1956.png",
+      "inline_anchor": "An illustration of an eagle-like figure, drawn in red ink, is present at the top of the page. The figure has a head resembling a bird, wings, and a body with a large circle and a square shape inside it."
     }
   ]
 }
 ```
 
 ## Page Metadata
-- Source: `El Aguila Nombre Grande Scan.pdf`
+- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
 - Page: 17
 
 ## Layout And Reading Order
-The page contains two photographs, one above the other, each with a caption below it. There is also a handwritten note at the top of the page.
+The page contains two photographs, one above the other, each with a caption below it. There is also handwritten text at the top of the page. The reading order is: handwritten text, top photograph, top caption, bottom photograph, bottom caption.
 
 ## Literal Transcription
 EL "OJOS DEL SALADO"
@@ -977,50 +990,63 @@ eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó est
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![source-caption: LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.](../extracted-images/page-0017/page-0017-image-01-culminacion-proeza-cumbre-salado.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [11.6, 40.0, 56.0, 90.0]
-  - Source context: The top photograph shows five individuals on a mountain summit.
-- ![nearby-text: The bottom photograph shows a group of eight individuals and a tent in a mountainous landscape.](../extracted-images/page-0017/page-0017-image-02-expedition-group-tent-mountain.png)
-  - Kind: photograph; label basis: nearby-text; bbox_pct: [57.5, 40.0, 95.0, 90.0]
-  - Source context: The bottom photograph shows a group of eight individuals and a tent in a mountainous landscape.
+- ![source-caption: LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA
+eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.](../extracted-images/page-0017/page-0017-image-01-culmination-of-the-feat-summit-of-el-salado.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [11.66, 44.0, 54.0, 90.0]
+  - Source context: The caption describes this as the culmination of the feat, showing five of the six climbers on the summit of El Salado, the highest mountain in America. The sixth person took the photo.
+- ![source-caption: LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA
+eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.](../extracted-images/page-0017/page-0017-image-02-expedition-group-with-tent-and-mountains.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [57.5, 55.0, 95.0, 90.0]
+  - Source context: This photograph shows a group of eight individuals in cold-weather gear with a tent and mountains in the background. It is part of the same expedition as the top photo, but the caption specifically refers to the top photo.
 
-- A handwritten note in red and blue ink at the top of the page reads "EL "OJOS DEL SALADO" FUE ESCALADO".
-- The top image shows five individuals in cold-weather gear, partially obscured by rocks, on what appears to be a mountain summit.
-- The caption for the top image reads: "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental."
-- The bottom image shows a group of eight individuals in cold-weather gear standing in a barren, mountainous landscape, with a small tent visible on the right.
+The page features two black and white photographs related to a mountain climbing expedition.
+
+The top photograph shows five individuals, heavily dressed for cold weather, sitting among rocks on what appears to be a mountain summit. The background is indistinct, suggesting a high altitude or cloudy conditions.
+
+The bottom photograph shows a group of eight individuals, also dressed in cold-weather gear, standing in a line on a relatively flat, barren landscape with mountains in the background. A small tent is visible on the right side of the image.
 
 ## Uncertain Or Illegible
-- The beginning of the caption for the top image is slightly cut off on the left side. The visible text starts with "eron seis los que llegaron:". It is likely that the full word was "Fueron".
+None.
 
 ## Completeness Audit
-The page is fully transcribed and all visual elements are described.
+The transcription is complete and accurate.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "region_0",
       "kind": "photograph",
-      "bbox_pct": [11.6, 40.0, 56.0, 90.0],
-      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
+      "bbox_pct": [
+        11.66,
+        44.0,
+        54.0,
+        90.0
+      ],
+      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA\neron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
       "caption_type": "source-caption",
-      "identity_basis": null,
-      "source_context": "The top photograph shows five individuals on a mountain summit.",
+      "identity_basis": "source-context",
+      "source_context": "The caption describes this as the culmination of the feat, showing five of the six climbers on the summit of El Salado, the highest mountain in America. The sixth person took the photo.",
       "confidence": 0.95,
-      "suggested_filename": "culminacion_proeza_cumbre_salado.jpg",
+      "suggested_filename": "culmination_of_the_feat_summit_of_el_salado.png",
       "inline_anchor": null
     },
     {
-      "region_id": "region_2",
+      "region_id": "region_1",
       "kind": "photograph",
-      "bbox_pct": [57.5, 40.0, 95.0, 90.0],
-      "caption_literal": null,
-      "caption_type": "nearby-text",
-      "identity_basis": null,
-      "source_context": "The bottom photograph shows a group of eight individuals and a tent in a mountainous landscape.",
-      "confidence": 0.95,
-      "suggested_filename": "expedition_group_tent_mountain.jpg",
+      "bbox_pct": [
+        57.5,
+        55.0,
+        95.0,
+        90.0
+      ],
+      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA\neron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
+      "caption_type": "source-caption",
+      "identity_basis": "converter-description",
+      "source_context": "This photograph shows a group of eight individuals in cold-weather gear with a tent and mountains in the background. It is part of the same expedition as the top photo, but the caption specifically refers to the top photo.",
+      "confidence": 0.9,
+      "suggested_filename": "expedition_group_with_tent_and_mountains.png",
       "inline_anchor": null
     }
   ]

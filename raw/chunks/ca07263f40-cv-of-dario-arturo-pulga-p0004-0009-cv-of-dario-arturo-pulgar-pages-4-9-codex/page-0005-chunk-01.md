@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-b2e036516c17-P0005-01
+chunk_id: CHUNK-ca9ecc498063-P0005-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: b2e036516c17cf6c253a84554ca9fccd71944e51ff46121a8549b9ec6904a7a3
+converted_sha256: ca9ecc49806371ef4a8747ab01fbdcbd68230e055ecb85b4c50a58ef2d480c00
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -12,80 +12,78 @@ part: 1
 ---
 
 ## Page Metadata
-## Layout And Reading Order
+- **Task id**: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005`
+- **Source**: `raw/sources/CV of Dario Arturo Pulgar.pdf`
+- **Page**: 5
 
-The page contains a single column of text. The content is a curriculum vitae, with sections for different professional experiences organized chronologically in reverse order. Each experience entry includes a date range, the name of the organization, the location, and the job title, followed by a descriptive paragraph. The final entry on the page is the heading "EDUCATION". The reading order is from top to bottom.
+## Layout And Reading Order
+The page is a single column of text. It continues a curriculum vitae, listing professional experiences. Each entry is organized with a date or date range, followed by the name of the organization, the location, the role held, and a paragraph describing the work performed. The entries are presented in reverse chronological order, from top to bottom.
 
 ## Literal Transcription
+**1999**
 
-<u>1979 - 1982</u>
-**United Nations Centre for Human Settlements (HABITAT)
-Nairobi, Kenya
-Development Support Communications Officer**
-Establish a worldwide distribution system for films produced for Habitat, United Nations
-Conference on Human Settlements. Supervise the production of language versions and release
-prints for regional distribution. Grant rights for television broadcasting. Design a film library loan
-and retrieval system. Supervise film distribution operations at the regional level (Africa, Asia,
-Latin America and Western Asia) and provide training. Supervise operations of five regional
-information offices in Amman, Jordan; Bangkok, Thailand; Dakar, Senegal; Mexico City, Mexico
-and Geneva, Switzerland. Prepare project documents in the field of information/social
-communication. Carry out pre-feasibility missions in Africa including Uganda, Tanzania, Niger,
-Mali and Senegal. Design information and/or training projects using audio-visual means in
-support of rural/urban settlers.
+**National Trust Fund for Protected Areas in Peru (PROFONANPE)**
+**Peru**
+**Consultant**
+Undertake: i) preparation of a draft proposal for a second phase of the World Bank funded
+National Environment Trust Fund project in Peru, ii) prepare a project document for a debt swap
+initiative by the German Government in favour of environmental institution building of the
+Peruvian Institute of Natural Resources for it to manage private investment in natural protected
+areas.
 
-<u>1974 - 1978</u>
-**National Film Board of Canada (NFB)
-Montreal, Canada
-Audio Visual Consultant**
-As part of the NFB involvement with the United Nations Conference on Human Settlements
-identify suitable locations for filming, describing rural and urban problems and attempted
-solutions while providing technical assistance to national film crews in Central America and the
-Caribbean and supervise all production stages from scripting to final print for film projects
-prepared and negotiate film/video rights from producing countries that submitted audio-visual
-presentations to the Conference Earlier: i) responsible for 16mm prints sales representing the
-commercial division at marketing planning committees while supervising commercial distribution
-activities by international and Canadian offices ; ii) coordinate a Mexico-Canada agreement for
-the production of six documentary films and iii) participate as production assistant in the making
-of two documentaries: "Waiting for Fidel" and "I Am an Old Tree" and translating the Spanish
-dialogue into English.
+**Television Trust for the Environment (TVE)**
+**London, England**
+**Consultant**
+Prepare a comprehensive paper on the use of media for development programmes funded by
+the Netherlands Government in the developing world. The main objective of the paper was to
+ascertain the feasibility of establishing a consortium of media organisations including TVE, the
+Panos Institute, the One World Media Service, the Women's Feature Service and the Inter
+Press Service (IPS). Evaluate the impact of the Hands on It Works segment of the World
+Wildlife Fund British Broadcasting Corporation (BBC) Earth Report half-hour programme.
+Compile viewer statistics and design a field-testing project in Asia, Africa and Latin America.
+Review a project proposal for raising environmental awareness in six countries in Latin America
+and prepare an alternative proposal for concentration on the Gran Chaco Region of Argentina,
+Bolivia and Paraguay. Discuss the proposal with donors and other actors.
 
-<u>1972 - 1973</u>
-**Chile Films
-Santiago, Chile
-General Manager Distribution and Exhibition, Head of International Department**
-Develop a national policy for film distribution and exhibition. Purchase films for theatrical
-exhibition. Administer the operation of ten cinemas and a distribution company. Organise the III
-Latin American Film Festival, Viña del Mar. Organise a 16mm distribution network using mobile
-cinema units. Establish and maintain contacts with international film organisations. Review films
-for possible purchase. Organise film festivals and retrospective.
+**1998 - 1999**
+**Arca Consulting/ European Commission**
+**Lesotho**
+**Team Leader**
+Implement an environmental awareness project in the context of the Lesotho Highlands Water
+Project. Participate in the preparation of a Master Programme for project implementation
+including suggestions for use of audio-visual materials and training courses. Supervise the work
+of an administrative assistant and carry out administrative responsibilities inherent in the
+contract between the European Commission, Arca Consulting and the Lesotho Highlands
+Development Authority.
 
-<u>1970 - 1972</u>
-**Cine, Televisión y Comunicaciones (CITELCO)
-Santiago, Chile
-Producer**
-Direct company operations and produce feature theatrical films and documentaries. Organise
-co-production of documentaries with Italy. Feature films produced include: "La Colonia Penal"",
-"La Expropiación" and "El Realismo Socialista" directed by Raúl Ruiz.
+**1997-1998**
 
-**EDUCATION**
+**Klohn Crippen Consultants**
+**Huaraz, Peru**
+**Socio-economic Consultant**
+Undertake a socio-economic impact assessment of the Antamina mining project. Establish the
+need for resettlement of populations in areas surrounding the mine site. Determine the baseline
+data to analyse the economic impact of investments including a road transportation network.
+
+**SNC Lavalin Agriculture**
+**Maracaibo, Venezuela**
+**Training Consultant**
+Review implementation of a proposed training programme for the Development of the
+Maracaibo Plain Project. Co-ordinate with the World Bank and Canadian agencies a study tour
 
 ## Images, Captions, And Visual Notes
-
-There are no images, captions, or other visual elements on this page. The content is entirely text.
+This page contains only text. There are no images, illustrations, stamps, or other visual elements.
 
 ## Uncertain Or Illegible
-
-The text on this page is clear and fully legible.
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
-
-The full content of the page has been transcribed.
+The transcription is a complete and accurate representation of all the text on the page. The last line of the page appears to be cut off mid-sentence.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page consists entirely of typed text and contains no images, illustrations, or other visual elements suitable for cropping."
+  "no_visual_regions_reason": "The page consists entirely of typed text and contains no images, illustrations, or other significant visual elements."
 }
 ```
