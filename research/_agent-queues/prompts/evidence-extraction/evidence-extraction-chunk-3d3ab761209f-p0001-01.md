@@ -14,7 +14,7 @@ Use `$genealogy-claim-extraction`.
 - Family relevance: `high`
 - Matched family terms: Pulgar
 - Narrative cues: birth, witness
-- Evidence priority: `-49` (family_relevance:high, matched_terms, person_linked_narrative_context, proof_review_revision)
+- Evidence priority: `-49` (family_relevance:high, qc:pass, matched_terms, person_linked_narrative_context, proof_review_revision)
 
 
 ## Proof Review Revision Context

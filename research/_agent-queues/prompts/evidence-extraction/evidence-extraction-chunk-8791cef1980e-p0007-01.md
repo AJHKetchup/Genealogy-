@@ -14,8 +14,19 @@ Use `$genealogy-claim-extraction`.
 - Family relevance: `high`
 - Matched family terms: Dario, Dario Pulgar, Pulgar
 - Narrative cues: conference
-- Evidence priority: `657` (family_relevance:high, qc:reread-page, matched_terms, person_linked_narrative_context)
+- Evidence priority: `-43` (family_relevance:high, qc:reread-page, matched_terms, person_linked_narrative_context, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/identity-analysis-conflict-chunk-8791cef1980e-p0007-01-no-genealogical-conflict-identified-postconv-identity-analysis-20260524224614092-proof-review.md` | `research/_staging/identity-analysis/identity-analysis-conflict-chunk-8791cef1980e-p0007-01-no-genealogical-conflict-identified-postconv-identity-analysis-20260524224614092.md` | `hold_for_conversion_qa` | Keep the staged identity analysis out of canonical promotion. Reconcile the referenced chunk metadata with the staged draft/source packet identifiers and clear or update the reread-page/page-image QA hold. After QA reconciliation, the page may support a narrow contextual note about page-local `Dario Pulgar` in the Vision Habitat narrative, but it still should not be used by itself to merge or attach claims to `Dario Arturo Pulgar`, `Dario Arturo Pulgar-Smith`, `Dario Jose Pulgar-Arriagada`, or Jose/Juana parent candidates. |
+| `research/_staging/reviews/proof-review-identity-analysis-conflict-chunk-8791cef1980e-p0007-01-no-genealogical-conflict-identified-postconv-identity-analysis-20260524224614092-postconv-proof-review-20260524232219860.md` | `research/_staging/identity-analysis/identity-analysis-conflict-chunk-8791cef1980e-p0007-01-no-genealogical-conflict-identified-postconv-identity-analysis-20260524224614092.md` | `hold` | Resolve the conversion QA and metadata mismatch first: confirm which converted SHA and chunk id are current for page 7, verify the rendered page image against the converted transcription, and then rerun or update conversion QA before any canonical claim extraction. After that, compare this reviewed Habitat evidence with a separately proof-reviewed identity bridge for `Dario Arturo Pulgar` or `Dario Arturo Pulgar-Smith` before attaching facts to a canonical person. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Person-First Narrative Contract
