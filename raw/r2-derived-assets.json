@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-25T18:55:38.131986+00:00",
+  "created": "2026-05-25T20:15:29.773423+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -4392,6 +4392,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0979-1003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-979-1003/extracted-images/page-0989/page-0989-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0979-1003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-979-1003/extracted-images/page-0989/page-0989-docling-image-01.png",
+      "bytes": 130758,
+      "sha256": "4ff34638e71f3fd3b0979286b2462ce1c2ca93cd404d8bc4d43a43c3c6fea1c0",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028/extracted-images/page-1008/page-1008-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028/extracted-images/page-1008/page-1008-docling-image-01.png",
       "bytes": 3717,
@@ -4431,6 +4438,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1079-1103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1079-1103/extracted-images/page-1097/page-1097-docling-image-01.png",
       "bytes": 89037,
       "sha256": "af0d16c6e8b95cb1ac6e29f6a8777584567235230c24b1ac84d912d74b5b74d2",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1104-1128-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1104-1128/extracted-images/page-1121/page-1121-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1104-1128-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1104-1128/extracted-images/page-1121/page-1121-docling-image-01.png",
+      "bytes": 111972,
+      "sha256": "3f2ae48b6a47fc8f556d2edfea7c39ce669876eaedfcb7f231f63e4475a27dea",
       "media_type": "image/png"
     },
     {
@@ -7878,6 +7892,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/extracted-images/page-0996/page-0996-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/extracted-images/page-0996/page-0996-docling-image-01.png",
+      "bytes": 30519,
+      "sha256": "5e7c422bb054d53d136acbf101cbb2db4c035a82913f59ac6e5caaa6cc0f1ba2",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/extracted-images/page-0998/page-0998-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/extracted-images/page-0998/page-0998-docling-image-01.png",
       "bytes": 28104,
@@ -7952,6 +7973,20 @@
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025/extracted-images/page-1015/page-1015-docling-image-01.png",
       "bytes": 130754,
       "sha256": "104370afdf7fe6fb963b3cf131590fbd55d9b77ab3b1a5963000933944f3ff46",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025/extracted-images/page-1016/page-1016-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025/extracted-images/page-1016/page-1016-docling-image-01.png",
+      "bytes": 130332,
+      "sha256": "37cedf2518bdc79a0315f7669dd33e10839fd8a7e67098fc6adfc1031cd56425",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025/extracted-images/page-1019/page-1019-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025/extracted-images/page-1019/page-1019-docling-image-01.png",
+      "bytes": 107349,
+      "sha256": "e8758b6de61b52149244cbafff2869e99f7a335da9be08756d01eb6871c89d9e",
       "media_type": "image/png"
     },
     {
@@ -12844,10 +12879,10 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 8,
-    "total_bytes": 59877680,
-    "uploaded": 3,
-    "skipped": 5,
+    "total_files": 5,
+    "total_bytes": 510930,
+    "uploaded": 5,
+    "skipped": 0,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,
@@ -12857,9 +12892,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1838,
+      "scanned": 1843,
       "deleted": 0,
-      "skipped": 1838,
+      "skipped": 1843,
       "errors": []
     }
   }
