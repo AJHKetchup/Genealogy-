@@ -14,11 +14,14 @@ canonical_readiness: hold
 
 # Identity Analysis: ID-STAGE-CHUNK-bdb698de8106-P0001-01
 
-## Blockers
+## Revision Note
 
 - Exact staged draft analyzed: `research/_staging/identity/ID-STAGE-CHUNK-bdb698de8106-P0001-01-identity-candidates.md`.
 - This note uses only staged drafts, referenced converted/chunk/source files, reviewed notes, and existing canonical wiki pages. No external research was performed.
-- The staged draft and source packet cite `raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0001-chunk-01.md`, but that file is not present. The same directory contains `page-0172-chunk-01.md`, and another generated chunk exists at `raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513-codex/page-0001-chunk-01.md`. This path conflict blocks clean citation and promotion.
+- Revision on 2026-05-25: the assigned chunk path `raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0001-chunk-01.md` is now present and matches the bdb manifest. The citation-path mismatch should no longer be treated as the controlling blocker for this bdb task.
+
+## Blockers
+
 - Entry 513 has a material child-name conflict. The bdb staged draft reports the converted reading `Isolina del Carmen José`, while reviewed local notes and related chunks variously point to a Pulgar-family row, including `Pulgar...` with a `José` line, `Pulgar Amagada / José Luis`, or `Tulio Cesar Luis José`. None of these complete child-name readings is proof-ready from this task.
 - Entry 513 mother surname is unresolved: converted/chunk evidence in this bdb task says `Juana de Dios Amador de Pulgar`, while image-reviewed local conflict indicators lean toward `Juana de Dios Amagada de Pulgar`; family-context similarity to `Arriagada` is only a double-check lead, not a correction.
 - Entries 514 and 515 have material derivative-vs-image conflicts for child name, father field, street/place, witnesses, and record completeness. Do not promote `Belisario Riquelme`, a two-parent relationship for entry 514, or `Pedro Pablo Leiva` for entry 515 from this held draft.
@@ -47,7 +50,7 @@ Scores:
 | identity_confidence | 0.62 | Good that the page contains real entry-level candidates; low for exact normalized person identities. |
 | conflict_severity | 0.88 | Core names and relationships conflict across derivative layers. |
 | evidence_quality | 0.60 | Civil-register source and local review notes are strong in type, but the decisive readings are unsettled. |
-| conversion_confidence | 0.30 | The assigned bdb chunk path is missing and the conversion conflicts with image-reviewed notes. |
+| conversion_confidence | 0.34 | The assigned bdb chunk path is present again, but the conversion still conflicts with image-reviewed notes. |
 | claim_probability | 0.70 | Probable that the page records these families, but not probable enough for exact promotion. |
 | relevance | 0.96 | Directly addresses the assigned staged identity draft. |
 | canonical_readiness | 0.08 | Hold for conversion QA and later proof review. |
@@ -167,7 +170,7 @@ Scores:
 - Name-variant conflict: `Amador` versus `Amagada` for entry 513 mother, with `Arriagada` as family-context temptation only; `Isolina del Carmen José`, `Pulgar... José`, `Pulgar Amagada / José Luis`, and `Tulio Cesar Luis José` remain competing child-name readings across layers.
 - Relationship conflict: entry 513 parentage cannot be promoted while the child identity is unresolved; entry 514 father should remain a conversion conflict because image-reviewed notes support `Se ignora`, not `Belisario Riquelme`.
 - Chronology conflict: none proved for Dario-line identities because this draft supplies no Dario chronology. Entry-level date/time readings still require conversion QA.
-- Conversion/citation conflict: the assigned chunk path is missing, and related chunks for the same source have different chunk IDs and different transcriptions.
+- Conversion/citation conflict: the assigned bdb chunk path is present, but related chunks for the same source have different chunk IDs and different transcriptions.
 
 ## Ranked Hypotheses
 
@@ -183,4 +186,4 @@ Scores:
 
 Keep `research/_staging/identity/ID-STAGE-CHUNK-bdb698de8106-P0001-01-identity-candidates.md` on hold. Do not promote facts, merge people, rename pages, or attach this register page to any Dario/Pulgar canonical identity.
 
-The exact next step is targeted conversion QA/proof review for the source image and derivative files: resolve the missing bdb chunk citation path; confirm entry 513 child full name, birth date/time, father/declarant form, and mother surname; confirm entry 514 child, father field, mother/declarant, street, and witnesses; and confirm the visible portion of entry 515. Only after that should a focused identity proof review compare the confirmed entry 513 Jose/Juana/child readings against `Jose del Carmen Pulgar`, `Juana de Dios Amagada de Pulgar`, `Juana Arriagada de Pulgar`, and `Jose del Carmen Segundo Pulgar Arriagada`, before any broader Pulgar-line comparison to Dario identities.
+The exact next step is targeted conversion QA/proof review for the source image and derivative files: confirm entry 513 child full name, birth date/time, father/declarant form, and mother surname; confirm entry 514 child, father field, mother/declarant, street, and witnesses; and confirm the visible portion of entry 515. Only after that should a focused identity proof review compare the confirmed entry 513 Jose/Juana/child readings against `Jose del Carmen Pulgar`, `Juana de Dios Amagada de Pulgar`, `Juana Arriagada de Pulgar`, and `Jose del Carmen Segundo Pulgar Arriagada`, before any broader Pulgar-line comparison to Dario identities.

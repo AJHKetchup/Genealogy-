@@ -1,50 +1,45 @@
----
-type: proof_review
-role: claim_reviewer
-task_id: proof-review:research/_staging/identity-analysis/identity-analysis-chunk-b8f4f0490a36-p0001-01-entry-172-pulgar-arriagada-revision-postconv-evidence-extraction-20260524231550559.md
-staged_draft: research/_staging/identity-analysis/identity-analysis-chunk-b8f4f0490a36-p0001-01-entry-172-pulgar-arriagada-revision-postconv-evidence-extraction-20260524231550559.md
-reviewer: postconv-proof-review-20260525002304594
-review_date: 2026-05-25
-review_status: revise
-canonical_readiness: hold_for_conversion_qa
----
-
 # Proof Review: Entry 172 Pulgar/Arriagada Identity Analysis
+
+- Review task id: `proof-review:research/_staging/identity-analysis/identity-analysis-chunk-b8f4f0490a36-p0001-01-entry-172-pulgar-arriagada-revision-postconv-evidence-extraction-20260525051608746.md`
+- Reviewed staged draft: `research/_staging/identity-analysis/identity-analysis-chunk-b8f4f0490a36-p0001-01-entry-172-pulgar-arriagada-revision-postconv-evidence-extraction-20260525051608746.md`
+- Role: claim_reviewer
+- Review status: hold
+- canonical_readiness: hold_for_conversion_qa
 
 ## Blockers
 
-- Revise before any canonical use: the staged draft correctly identifies a material conversion conflict, but it describes the assigned converted Markdown as `Jose Francisco`, father `Oswaldo Gomez`, mother `Rosario de la Cruz de la Maza`, born in `Pellin`. The converted file currently available at review instead transcribes entry 172 as `José Miguel`, father `Oswaldo Burgos`, mother `Concepcion de la Cruz`, born 6 April 1888 `En esta`.
-- Hold for conversion QA: the assigned converted file and its chunk disagree on page 58, entry 172. The converted file gives a non-Pulgar/non-Arriagada entry; the current chunk and visible source image support the Pulgar/Arriagada row. This is a row-level derivative conflict, not a minor reading variance.
-- The father's final suffix or mark after `Pulgar` remains unresolved for canonical identity use. The visible image supports the core father name `Jose del Carmen Pulgar`; the apparent final mark should remain uncertain until targeted conversion QA records it.
-- Do not use this entry to attach any Dario identity or passenger candidate. The source image, current chunk, and source packet do not name Dario.
+- The assigned converted Markdown and the assigned chunk disagree materially for entry 172. The converted file transcribes entry 172 as `Jose Francisco`, father `Oswaldo Gomez`, mother `Rosario de la Cruz de la Maza`, and birthplace `Pellin`; the chunk and visible source image support a different entry 172 naming `Jose del Carmen Segundo Pulgar Arriagada`, father `Jose del Carmen Pulgar S.`, and mother `Juana Arriagada de Pulgar`.
+- This is not a normal spelling or confidence issue. It is a row-level conversion or file-assignment conflict attached to the same source image and chunk id.
+- Canonical promotion should remain blocked until conversion QA reconciles or supersedes the conflicting converted Markdown and records the controlling transcription for page 58, entry 172.
+- The father-name suffix or final mark after `Pulgar` remains a narrow transcription uncertainty. It should not be normalized away in canonical work without a source-visible QA decision.
+- The staged draft correctly warns that the entry does not name Dario. No Dario identity or relationship should be inferred from this entry by surname or family context alone.
 
-## Scores
+## Scoring
 
-- source_quality_score: 0.88
-- conversion_confidence_score: 0.40
-- evidence_quantity_score: 0.62
-- agreement_score: 0.46
-- identity_confidence_score: 0.76
-- claim_probability: 0.80
+- source_quality_score: 0.86
+- conversion_confidence_score: 0.42
+- evidence_quantity_score: 0.64
+- agreement_score: 0.48
+- identity_confidence_score: 0.74
+- claim_probability: 0.82
 - relevance_level: critical
 - relevance_confidence: 0.93
 - canonical_readiness: hold_for_conversion_qa
 
 ## Evidence Strengths
 
-- The cited raw source image is available and shows page 58, entry 172 in the Los Angeles/La Laja civil birth register.
-- Visual review of the source image supports the controlling row as the Pulgar/Arriagada entry, not the non-Pulgar entry in the assigned converted Markdown.
-- The image and current chunk agree on the child as `Jose del Carmen Segundo Pulgar Arriagada`, mother as `Juana Arriagada de Pulgar`, informant as `Ernesto Herrera L.`, registration date as 7 April 1888, and birth date/place as 8 March 1888 at Calle de Valdivia.
-- The staged draft is appropriately cautious on identity risk: it recommends `hold_for_conversion_qa`, avoids promoting relationships, and warns against attaching this entry to Dario by surname or family context alone.
+- The source image is available at the path cited by the staged draft and source packet.
+- Visual review of page 58, entry 172 supports the chunk/source-packet identity cluster: child `Jose del Carmen Segundo Pulgar Arriagada`, father `Jose del Carmen Pulgar S.`, mother `Juana Arriagada de Pulgar`, and informant `Ernesto Herrera L.`.
+- The staged identity analysis accurately preserves the conversion conflict instead of treating the Pulgar/Arriagada reading as already canonical.
+- The staged draft appropriately limits identity conclusions and explicitly blocks attachment to Dario Arturo Pulgar-Smith, Dario Arturo Pulgar, Dario Jose Pulgar-Arriagada, Dario Pulgar Arriagada, or any Dario passenger candidate.
+- The civil birth register is a direct source for the child-parent cluster once the derivative conversion conflict is resolved.
 
 ## Review Judgment
 
-The identity analysis is substantially right in its main conclusion: page 58, entry 172 is relevant to the Pulgar/Arriagada cluster, but the derivative record set is internally inconsistent and not canonically ready. The visible source image provides strong direct support for the Pulgar/Arriagada reading, while the assigned converted Markdown provides contradictory derivative text for the same entry number.
+The Pulgar/Arriagada identity cluster is probably supported by the visible source image and the assigned chunk, but the derivative evidence package is internally inconsistent. The staged analysis is therefore suitable as a hold note and not ready for canonical identity, claim, relationship, person, or family pages.
 
-The staged draft should be revised rather than promoted as-is because it misstates the exact content of the conflicting converted Markdown now present in the workspace. That error does not undermine the hold recommendation, but it must be corrected before the analysis is used as a stable review artifact.
-
-Identity confidence is moderately high for the child-parent cluster shown in the image, but canonical readiness remains blocked by conversion QA. Relationship jumps to Dario or to broader Pulgar candidate merges would be unsupported from this entry alone.
+The negative Dario caution is strongly supported: this entry names a Jose child and Jose/Juana parents, and it does not provide literal support for any Dario identity or Dario relationship conclusion.
 
 ## Next Action
 
-Send this source set to targeted conversion QA. Reconcile or supersede `raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172.codex.md` against the source image and current chunk for page 58, entry 172; explicitly record the father-name suffix as supported, uncertain, or absent. Then revise this identity-analysis draft to describe the actual converted-file conflict and rerun proof review before any canonical promotion.
+Send to conversion QA to reconcile `raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172.codex.md` and `raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172-codex/page-0001-chunk-01.md` against the source image for page 58, entry 172. After QA records the controlling entry text and the father-name suffix decision, rerun proof review before promoting any child identity, birth fact, parent-child relationship, or parent-candidate merge.

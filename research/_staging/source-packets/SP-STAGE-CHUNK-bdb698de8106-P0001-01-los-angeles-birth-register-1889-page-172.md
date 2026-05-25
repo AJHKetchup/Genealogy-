@@ -48,7 +48,9 @@ Targeted review of the original image supports the page heading as `Los Anjeles`
 
 ## Conversion Confidence And QA Concern
 
-Overall confidence is high for source identity, page 172, the heading `Los Anjeles`, `La Laja`, and the presence of records 513, 514, and a partial 515. Confidence is low for the assigned converted transcript's person-name, parentage, witness, street, and record-completeness readings. Preserve the disagreement between derivative transcript and image-reviewed evidence; do not promote claims from this packet until conversion QA reconciles the bdb converted text with the image. The image-reviewed alternatives are conflict indicators, not replacement canonical transcriptions.
+Overall confidence is high for source identity, page 172, the heading `Los Anjeles`, `La Laja`, and the presence of records 513, 514, and a partial 515. The assigned chunk path now exists and matches the manifest for `CHUNK-bdb698de8106-P0001-01`, so the previous citation-path blocker is no longer the primary issue for this packet.
+
+Confidence remains low for the assigned converted transcript's person-name, parentage, witness, street, and record-completeness readings. Preserve the disagreement between derivative transcript and image-reviewed evidence; do not promote claims from this packet until conversion QA reconciles the bdb converted text with the image. The image-reviewed alternatives are conflict indicators, not replacement canonical transcriptions.
 
 ## Uncertainty
 
@@ -56,4 +58,4 @@ Do not normalize names, nineteenth-century spelling, or street names before conv
 
 ## Promotion Recommendation
 
-Hold for conversion QA before proof review or canonical promotion. The packet now cites the correct bdb chunk path and chunk ID, but the converted transcript conflicts materially with the source image.
+Hold for conversion QA before proof review or canonical promotion. The packet cites the correct bdb chunk path and chunk ID, but the converted transcript conflicts materially with the source image.
