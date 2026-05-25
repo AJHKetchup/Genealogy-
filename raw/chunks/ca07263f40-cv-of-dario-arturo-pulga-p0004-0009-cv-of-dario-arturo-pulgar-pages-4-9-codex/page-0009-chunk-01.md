@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-6962aa603110-P0009-01
+chunk_id: CHUNK-1c839b39d83e-P0009-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: 6962aa603110e3a15ff7c6ed4756affbb327ffb7bbceac9aee73feaf45095efe
+converted_sha256: 1c839b39d83e00bd013d4647e8dfbcc350712e3f2aa4a77faf60a770ce12629b
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -13,25 +13,13 @@ part: 1
 
 ## Page Metadata
 - Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0009`
-- Model route: `pro`
-- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
 - Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0009.md`
 - Page: 9
-- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0009.md`
-- External research relevance: `high`
-- External requested treatment: `reread`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
-- Quality flags: none
-- Technical reread clues: none
 
 ## Layout And Reading Order
-The page consists of a single column of typed text. The content is organized into two sections: a continuation of an education list and a section on languages. The reading order is from top to bottom.
+The page contains typed text in a single column, read from top to bottom. The content is divided into two sections. The first section lists educational history, with dates in a left-hand column and the corresponding institution and degree information in a right-hand column. The second section, titled "LANGUAGES," lists spoken and written language proficiencies.
 
 ## Literal Transcription
-```text
 1967 - 1968 : Stanford University. Stanford, California
 Fulbright Scholarship. M.A. Communications
 
@@ -49,21 +37,20 @@ LANGUAGES
 Spoken: Spanish, English, French, Italian, and Portuguese
 
 Written: Spanish, English, French
-```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other visual elements on this page.
+There are no images, captions, or other visual elements on this page. The page consists entirely of typed text.
 
 ## Uncertain Or Illegible
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page is complete and fully transcribed.
+This page has been fully and accurately transcribed. All text content has been captured.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other visual elements."
+  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other significant visual elements."
 }
 ```

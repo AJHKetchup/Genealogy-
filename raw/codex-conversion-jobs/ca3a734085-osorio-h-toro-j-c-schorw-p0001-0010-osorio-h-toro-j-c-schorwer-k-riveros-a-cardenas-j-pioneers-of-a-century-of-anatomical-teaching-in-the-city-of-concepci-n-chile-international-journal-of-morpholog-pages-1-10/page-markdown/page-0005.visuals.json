@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-25T07:45:33Z",
+  "created": "2026-05-25T11:34:25Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf",
@@ -8,7 +8,7 @@
   "page": 5,
   "page_image": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-images/page-0005.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-markdown/page-0005.md",
-  "no_visual_regions_reason": "This page contains only text in a two-column layout. There are no photographs, illustrations, maps, or other visual elements.",
+  "no_visual_regions_reason": "This page consists entirely of text in a two-column layout with a header and footer. There are no photographs, illustrations, maps, or other visual elements to crop.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

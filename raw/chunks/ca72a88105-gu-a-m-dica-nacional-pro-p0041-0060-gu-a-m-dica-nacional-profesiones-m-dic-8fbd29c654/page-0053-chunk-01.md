@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-1e39f696c943-P0053-01
+chunk_id: CHUNK-45de6bfdee7b-P0053-01
 source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60.codex.md
-converted_sha256: 1e39f696c943587e6e156f57db2fd3807f256bb1656f1f386aa3732bc6368061
+converted_sha256: 45de6bfdee7b334a47dc47cd150de25e9ba0e26e4f139440ff6026093c76248d
 source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
 source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
 source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json
@@ -13,24 +13,19 @@ part: 1
 
 ## Page Metadata
 
-- Task id: `source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60:p0053`
-- Model route: `pro`
-- Route reasons: requested_reread
-- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/work-orders/page-0053.md`
-- Page: 53
-- Output Markdown target: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/page-markdown/page-0053.md`
-- External research relevance: `medium`
-- External requested treatment: `reread`
-- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
-- Recommended action: ``
-- Quality flags: none
-- Technical reread clues: none
+- **Source ID**: `Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition`
+- **Page Number**: 53
+- **Description**: This page is a directory listing of medical and paramedical professionals in Chile, from "Lara Lara, Gastón" to "Lehuedé Alvarado, Héctor". It is organized into three columns: Name, Address, and City.
 
 ## Layout And Reading Order
 
-The page contains a directory listing of medical professionals. The content is arranged in a three-column table format. The first column lists the individual's name (last name, first name). The second column provides their address. The third column lists the city. The entries are read row by row from top to bottom. At the bottom left of the page is the page number.
+The page is laid out in a three-column format. The reading order is from left to right, top to bottom, for each entry.
+
+1.  **Column 1**: Name of the professional (Last Name, First Name).
+2.  **Column 2**: Street address, including office or department number where applicable.
+3.  **Column 3**: City.
+
+The page number `56 —` is located at the bottom left corner.
 
 ## Literal Transcription
 
@@ -41,6 +36,7 @@ The page contains a directory listing of medical professionals. The content is a
 | Larach Jamiz, César | Av. José P. Alessandri 85 | Santiago |
 | Larach Nazrala, Alejandro | Moneda 720, Of. 205 | Santiago |
 | Larach Nazrala, Elías | Rosa Eguiguren 813,<br>Of. 47 | Santiago |
+| | | |
 | Larenas Barrera, Emilio | Igualdad 240 | Parral |
 | Larenas Ovalle, Alberto | O'Higgins 630 | Concepción |
 | Largo Robledo, Alfonso | Prat 225 | Rengo |
@@ -49,6 +45,7 @@ The page contains a directory listing of medical professionals. The content is a
 | Larraín Aguirre, Camilo | Compañía 1615 | Santiago |
 | Larraín Eyzaguirre, Sergio | República 440 | Santiago |
 | Larraín García, Arturo | Vicuña Mackenna 4, 7º<br>Piso | Santiago |
+| | | |
 | Larraín Marín, Eduardo | Marcoleta 367 | Santiago |
 | Larraín Orrego, Augusto | Avda. Salvador 1231 | Santiago |
 | Larraín Vidal, Adriana | Teatinos 251, Depto. 3 | Santiago |
@@ -58,7 +55,7 @@ The page contains a directory listing of medical professionals. The content is a
 | Latorre Blanco, Mariano | Valentín Letelier 1373 | Santiago |
 | Latorre Offermanns, María Josefina | Víctor Lamas 280 | Concepción |
 | Latorre Troncoso, Gustavo | Gertrudis Echenique 49 | Santiago |
-| Lausic Yuricic, Vicente | Constitución 352 | Illapel |
+| Lausic Yuricić, Vicente | Constitución 352 | Illapel |
 | Laval Manríquez, Enrique | Lord Cochrane 309 | Santiago |
 | Laval Román, Enrique | Miguel Claro 278 | Santiago |
 | Lavarello Ramírez, Alfredo | Cáceres 10 A | Rancagua |
@@ -77,26 +74,30 @@ The page contains a directory listing of medical professionals. The content is a
 | Ledesma Zamora, Arnaldo | Madrid 962 | Santiago |
 | Legarreta Peña, Adela | Agustinas 715, Dep. 302 | Santiago |
 | Legarreta Peña, José | Santo Domingo 594,<br>Depto. 2 | Santiago |
+| | | |
 | Lehuedé Alvarado, Héctor | Lourdes 749 | Santiago |
 
 56 —
 
 ## Images, Captions, And Visual Notes
 
-There are no images, illustrations, or other visual elements on this page.
+This page contains only text in a directory format. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this document.
+There are no uncertain or illegible portions of this page.
 
 ## Completeness Audit
 
-The full content of the page has been transcribed. The page number visible on the image is "56", which differs from the page number "53" specified in the work order. The transcription reflects the number visible on the source image.
+The transcription of this page is complete and accurate. All text, including the page number, has been transcribed.
 
 ## Visual Region Manifest
 
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text in a directory format and has no images, illustrations, or other visual elements."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page consists entirely of printed text in a directory format. There are no images, illustrations, maps, or other visual elements that would warrant cropping."
+}
 ```
 
 # Page 54

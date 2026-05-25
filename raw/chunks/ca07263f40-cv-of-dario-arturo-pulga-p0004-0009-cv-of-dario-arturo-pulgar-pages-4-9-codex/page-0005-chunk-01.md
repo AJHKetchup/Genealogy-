@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-6962aa603110-P0005-01
+chunk_id: CHUNK-1c839b39d83e-P0005-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: 6962aa603110e3a15ff7c6ed4756affbb327ffb7bbceac9aee73feaf45095efe
+converted_sha256: 1c839b39d83e00bd013d4647e8dfbcc350712e3f2aa4a77faf60a770ce12629b
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json

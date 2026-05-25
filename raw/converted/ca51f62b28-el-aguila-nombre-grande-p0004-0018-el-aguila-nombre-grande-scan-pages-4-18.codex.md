@@ -292,21 +292,21 @@ The transcription is complete and captures all visible text and handwritten note
 
 ## Page Metadata
 - Page number: 7
-- Source page: p0007
 
 ## Layout And Reading Order
-This page contains a single column of typewritten text. The reading order is from top to bottom. A handwritten page number is at the bottom center. There is one handwritten insertion in the main body of the text.
+This page contains a single column of typewritten text. The reading order is from top to bottom. A handwritten page number is present at the bottom of the page.
 
 ## Literal Transcription
+```text
 NUMERO GIGANTE ENERO FEBRERO EL AGUILA
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- - - - - - - - - -- - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - -- - - - - - - - - - - - - - - - -- - - - - - - - -- - - -- - -- - -- - - - - - - - - - - - - - - - - - - - - - -- -- -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - -- - -- - -- - -- - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- - -- - - -- -- -- -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - -- - -- -- - - - - - - - - - - - - - - - - - - - - - - - ---/
-ESCRIBEN LOS LECTAIRES
+----------------------------------------------------------------
+ESCRIBEN LOS LECTORES
 LA EMPRESA TIENE EL AGRADO DE PUBLICAR UN ARTICULO ESCRITO PARA
 ESTE DIARIO POR EL DR DARIO PULGAR.
-- - - - - - -- - - -- - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- - -- - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - -- - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - -- -- - - - - - - - - - - - - - - - - - - - -- -- - - - - - -- - - -- - - - - - - - - - -- - - - - - - - - - - - -- -- - -- - - - - - - - - - -- - - - - - - - -- -- - - - - - - - - - - - - - - - - -- - -- - - - - - -- - - -- -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- -- - -- -- -- - -- -- -- -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- --- -- -- -- - - - - - - - - - - - - - - -- -- --- - - - - - - - - - - - - - - - -- -- - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- --- -- -- -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - -- - -- - - - - - - - - - - - - - -- -- - - - - - - - - - - - - - - - - - - - - - - - - -- - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- - - - - - - - - - - - - - -- -- - - - - - - - - - - - - - - - - - - - - - - - - -- -- - - - - - - - - - - - - - - - - - - - - - - - -- - -- - - - - - - - - - - -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- - - - - - - - - - - - - - -- - -- - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - -- - ---/
-_EL_DR_VIRGINIO__GOMES__G--
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- - -- - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - -- - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- --- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- - -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - -- - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -- -- -- ---/
-EN CIRCUNSTANCIAS QUE VIAJABA ABORDO DEL BUQUE " ALONDRA" DE LA
+---------------------------------
+_EL_DR_VIRGINIO_GOMES__G__
+
+EN CIRCUNSTANSTAS QUE VIAJABA ABORDO DEL BUQUE " ALONDRA" DE LA
 " COMPAÑIA MARITIMA DEL ESTADO "CON RUMBO A MAGALLANES A LA ALTURA
 DE PUERTO MONTT, DESAPARECION MISTERIOSAMENTE ESTE DISTINGUIDO
 FACULTATIVO QUE HONRO´ A LA MEDICINA CHILENA POR SU TALENTO Y POR
@@ -318,38 +318,33 @@ DESPUES EN CONCEPCION DONDE TUVO UNA DESTACADA Y BRILLANTE
 ACTUACION COMO MEDICO Y COMO PRINCIPAL FUNDADOR DE LA UNIVERSIDAD
 PENQUISTA . DESIGNADO DIRECTOR DEL ANTIGUO HOSPITAL "SAN JUAN DE DIOS
 ALLA POR EL AÑO 1916 TRATO´ DE MODERNISARLO Y CONVERTIRLO EN UN HOSPITAL
-CLINICO QUE LLEVABA APAREJADA LA IDEA DE LA FUNDACION BDE UNA E
-ESCUELA DE MEDICINA Y DE LA UNIVERSIDAD QUE ERA SU IDEAL Y A LA CUAL
-<ins>que,</ins> <ins>se convirtieron/</ins>
-DEDICO SUS MAYORES ENERGIAS Y ENTUSIASMOS HASTA SUS DESEOS/EN UNA
+CLINICO QUE LLEVABA APAREJADA LA IDEA DE LA FUNDACION EDE UNA E
+ESCUELA DE MEDICINA Y DE LA UNIVERSIDAD QUE ERA SU IDEAL Y A LA CUAL {handwritten} que se convirtieron {/handwritten}
+DEDICO´ SUS MAYORES ENERGIAS Y ENTUSIASMOS HASTA SUS DESEOS{handwritten}/{/handwritten}EN UNA
 HERMOSA REALIDAD.
-EL DOCTOR GOMES DEJA UNA HUELLA LUMINOSA Y UN RECUERDO INPERESEDERO
+EL DOCTOR GOMES DEJA UNA HUELLA LUMUNOSA Y UN RECUERDO INPERESEDERO
 POR SUS CONDICIONES DE HOMBRE DE BIEN Y PROFECIONAL DISTINGUIDO Y
-ALTUISTA. NO ANBICIONO FORTUNA ALGUNA; PRODIGIO EL BIEN A MANO LLENA
+ALTUISTA. NO ANBICIONO FORTUNA ALGUNA; PRODIGIO´ EL BIEN A MANO LLENA
 ENTRE SU NUMEROSA CLIENTELA DE TODOS LOS CIRCULOS SOCIALES .
 
-7
+{handwritten} 7 {/handwritten}
+```
 
 ## Images, Captions, And Visual Notes
-This page is a single column of typewritten text. There is a handwritten insertion in the middle of the page, and a handwritten page number at the bottom.
+There are no images on this page. The page consists of typewritten text with two handwritten insertions and a handwritten page number at the bottom.
 
 ## Uncertain Or Illegible
-- The word "LECTAIRES" in the first line of the body text is likely a typo for "LECTORES".
-- The word "CUIDAD" is likely a typo for "CIUDAD".
-- The word "PROFECION" is likely a typo for "PROFESION".
-- The word "IQUQUE" is likely a typo for "IQUIQUE".
-- The word "BDE" is likely a typo for "DE".
-- The word "INPERESEDERO" is likely a typo for "IMPERECEDERO".
-- The word "PROFECIONAL" is likely a typo for "PROFESIONAL".
-- The word "ALTUISTA" is likely a typo for "ALTRUISTA".
-- The word "ANBICIONO" is likely a typo for "AMBICIONO".
+There are no uncertain or illegible portions of this document.
 
 ## Completeness Audit
-The page is fully transcribed.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "This page consists of a single block of text with no significant visual elements like photographs, illustrations, or maps that would warrant cropping."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page contains only text and minor handwritten marks, with no significant visual elements like photographs, maps, or illustrations that would warrant cropping."
+}
 ```
 
 ## Page Metadata
@@ -417,33 +412,14 @@ The transcription is complete and accurate, capturing all text and the handwritt
 ```
 
 ## Page Metadata
-- task_id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0009`
-- source_id: `el-aguila-nombre-grande-p0004-0018`
-- page_num: 9
-- page_type: `scrapbook_page`
-- source_title: `El Aguila Nombre Grande`
-- original_filename: `El Aguila Nombre Grande Scan.pdf`
-- publication_date: `1956`
-- publication_info: `El Aguila, Enero-Febrero 1956`
-- source_library: `Archivo Histórico de la Compañía de Aceros del Pacífico`
+- Page number: 9
 
 ## Layout And Reading Order
-This is a scrapbook page with typed text and two pasted images. The reading order is as follows:
-1. A header at the top of the page with the publication name and date.
-2. A sub-header "VOLVEMOS ATRAS".
-3. A text block on the upper left, which describes a mountain climbing expedition.
-4. A photograph of a man in uniform, pasted on the upper right, corresponding to the text on the left. The text wraps around the top left of the photograph.
-5. A caption for the photograph, located below the main text block and to the left of the photograph.
-6. A portrait illustration of a man in clerical attire, pasted on the lower left.
-7. A text block to the right of the portrait, describing the anniversary of a newspaper.
-8. A handwritten page number "9" in red ink at the bottom center of the page.
+The page contains two main columns of text. The left column has a title and then a block of text. The right column has a large image with a caption below it, followed by another block of text. Below the text in the right column is a smaller image.
 
 ## Literal Transcription
-```markdown
-NUMERO GIGANTE EL AGUILA ENERO FEBRERO
----
+UMERO GIGANTE EL AGUILA ENERO FEBRERO
 VOLVEMOS ATRAS
-
 EL 5 DE FEBRERO 29 HOMBRES AL MANDO DEL CAPITAN GAJARDO , - 6 DE ELLOS
 EL MENCIONADO CAPITAN EL VICESARJENTO PRIMERO NEMESIO ZAMORA EL CABO
 ROLANDO GODOY EL FILMADOR VICENTE
@@ -451,133 +427,110 @@ CHIARANDA Y EL INGENIERO WAYNE MILL ER
 ESCALARON EL MONTE "OJOS DEL SALADO,"
 EN LA CORDILLERA DE LOS ANDES SITUADO
 EN LA PROVINCIA DE ATACAMA DEPARTAMENTO
-DE COPIAPÓ , EL NEVADO MENCIONADO MIDE
+DE COPIAPO , EL NEVADO MENCIONADO MIDE
 7084 METROS SOBRE PASANDO AL ACONCAGUA
 POR 29 METROS ./
-
 ( EN LA FOTO ) EL CAPITAN GAJARDO SE
-RECONFORTA DESPUES DE HABER ESCALADO
+RECONFOR TA DESPUES DE HABER ESCALADO
 LA CUMBRE MAS ALTA DE AMERI DA
-
-<hr>
-
-<div class="grid-container" style="grid-template-columns: 1fr 1fr; gap: 1em;">
-<div class="grid-item">
-
-![A halftone portrait of a man in clerical attire, with a cross on his chest.](__IMG_001__)
-
-</div>
-<div class="grid-item">
 
 LA AURORA DE CHILE
 EL 1º DE FEBRERO DE ESTE AÑO SE
-CELEBRÓ EL 144 ANIVERSARIO DE LA
-FUNDACION DEL PRIMER PERIÓDICO NACIONAL
-PORFRAY CAMILO HENRIQUEZ EN EL AÑO
-1812 . EL PUEBLO DE C.HILE RECIBIO
+CELEBRO EL 144 ANIVERSARIO DE LA
+FUNDACION DEL PRIMER PERIODICO NACIONAL
+POR FRAY CAMILO HENRIQUEZ EN EL AÑO
+1812 . EL PUEBLO DE CHILE RECIBIO
 CON GRAN ESTUCIASMOS EL PRIMER NUMERO
-DE ESE DIARIO PARA ALENTAR A LOS HONBRES
+DE ESE DIARIO PARA ALENTAR A LOS HOMBRES
 HACIA SU LIBERTAD - EL DIARIO EL AGUILA
-CELEBRÓ CON U N COCTEL EN LA ENPRESA EL
+CELEBRO CON UN COCTEL EN LA ENPRESA EL
 DIA DE LA PRENSA
 
-</div>
-</div>
-
-<div style="text-align: center;">
 9
-</div>
-```
-*Note: The photograph of Captain Gajardo is not included in the transcription flow as it is positioned to the right of the first text block and its caption. The transcription follows the textual reading order.*
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![nearby-text: ( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA](../extracted-images/page-0009/page-0009-image-01-capitan-gajardo-recomforta.png)
-  - Kind: photograph; label basis: nearby-text; bbox_pct: [52.5, 14.5, 95.5, 58.5]
-  - Source context: A man in uniform drinking from a cup after a mountain climb.
-- ![nearby-text: LA AURORA DE CHILE ... PORFRAY CAMILO HENRIQUEZ EN EL AÑO 1812 .](../extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-aurora-de-chile.png)
-  - Kind: illustration; label basis: nearby-text; bbox_pct: [5.5, 55.5, 45.5, 85.5]
-  - Source context: Portrait of a man in clerical attire, identified as Fray Camilo Henriquez.
+- ![nearby-text: LA AURORA DE CHILE
+EL 1º DE FEBRERO DE ESTE AÑO SE
+CELEBRO EL 144 ANIVERSARIO DE LA
+FUNDACION DEL PRIMER PERIODICO NACIONAL
+POR FRAY CAMILO HENRIQUEZ EN EL AÑO
+1812 . EL PUEBLO DE CHILE RECIBIO
+CON GRAN ESTUCIASMOS EL PRIMER NUMERO
+DE ESE DIARIO PARA ALENTAR A LOS HOMBRES
+HACIA SU LIBERTAD - EL DIARIO EL AGUILA
+CELEBRO CON UN COCTEL EN LA ENPRESA EL
+DIA DE LA PRENSA](../extracted-images/page-0009/page-0009-image-01-la-aurora-de-chile-fray-camilo-henriquez.png)
+  - Kind: photograph; label basis: nearby-text; bbox_pct: [50.0, 54.0, 94.0, 90.0]
+  - Source context: The caption refers to 'LA AURORA DE CHILE' and 'FRAY CAMILO HENRIQUEZ'.
+- ![nearby-text: ( EN LA FOTO ) EL CAPITAN GAJARDO SE
+RECONFOR TA DESPUES DE HABER ESCALADO
+LA CUMBRE MAS ALTA DE AMERI DA](../extracted-images/page-0009/page-0009-image-02-capitan-gajardo-after-climbing.png)
+  - Kind: photograph; label basis: nearby-text; bbox_pct: [17.0, 54.0, 45.0, 94.0]
+  - Source context: The caption identifies the person as 'EL CAPITAN GAJARDO'.
 
-- **Image 1:** A black and white photograph of a man in a military-style uniform, sitting in an upholstered chair and drinking from a small cup and saucer. The text identifies him as Captain Gajardo. `inline_anchor: __IMG_000__`
-- **Image 2:** A halftone portrait of a man, likely from the 19th century, in what appears to be clerical attire. He has a large cross on his chest. The text identifies him as Fray Camilo Henriquez. `inline_anchor: __IMG_001__`
-- A handwritten page number "9" is written in red ink at the bottom center of the page.
-- The accent marks on both instances of "CELEBRÓ" are handwritten onto the typed text.
+- A black and white photograph shows a man in uniform, identified as Captain Gajardo, seated and drinking from a cup. He is holding a saucer in his left hand.
+- A black and white halftone image shows a portrait of a man, possibly a priest, wearing a dark garment with a cross visible on his chest.
 
 ## Uncertain Or Illegible
-- `ESTUCIASMOS` is likely a typo for "ENTUSIASMOS".
-- `HONBRES` is likely a typo for "HOMBRES".
-- `ENPRESA` is likely a typo for "EMPRESA".
-- `PORFRAY` is likely a typo for "POR FRAY".
-- `C.HILE` is typed with a period in the middle.
-- `AMERI DA` appears to be cut off or a typo, likely intended to be "AMERICA".
+- The word "ESTUCIASMOS" in the right column text might be a misspelling of "ENTUSIASMO".
+- The word "ENPRESA" in the right column text might be a misspelling of "EMPRESA".
 
 ## Completeness Audit
-The transcription of all text and the description of all visual elements on the page are complete.
+The transcription is complete and captures all visible text and images on the page.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "IMG_000",
+      "region_id": "region_1",
       "kind": "photograph",
-      "bbox_pct": [
-        52.5,
-        14.5,
-        95.5,
-        58.5
-      ],
-      "caption_literal": "( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORTA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA",
+      "bbox_pct": [50.0, 54.0, 94.0, 90.0],
+      "caption_literal": "LA AURORA DE CHILE\nEL 1º DE FEBRERO DE ESTE AÑO SE\nCELEBRO EL 144 ANIVERSARIO DE LA\nFUNDACION DEL PRIMER PERIODICO NACIONAL\nPOR FRAY CAMILO HENRIQUEZ EN EL AÑO\n1812 . EL PUEBLO DE CHILE RECIBIO\nCON GRAN ESTUCIASMOS EL PRIMER NUMERO\nDE ESE DIARIO PARA ALENTAR A LOS HOMBRES\nHACIA SU LIBERTAD - EL DIARIO EL AGUILA\nCELEBRO CON UN COCTEL EN LA ENPRESA EL\nDIA DE LA PRENSA",
       "caption_type": "nearby-text",
-      "identity_basis": "caption",
-      "source_context": "A man in uniform drinking from a cup after a mountain climb.",
-      "confidence": "high",
-      "suggested_filename": "capitan-gajardo-recomforta.jpg",
-      "inline_anchor": "__IMG_000__"
+      "identity_basis": "source-context",
+      "source_context": "The caption refers to 'LA AURORA DE CHILE' and 'FRAY CAMILO HENRIQUEZ'.",
+      "confidence": 0.8,
+      "suggested_filename": "la_aurora_de_chile_fray_camilo_henriquez"
     },
     {
-      "region_id": "IMG_001",
-      "kind": "illustration",
-      "bbox_pct": [
-        5.5,
-        55.5,
-        45.5,
-        85.5
-      ],
-      "caption_literal": "LA AURORA DE CHILE ... PORFRAY CAMILO HENRIQUEZ EN EL AÑO 1812 .",
+      "region_id": "region_2",
+      "kind": "photograph",
+      "bbox_pct": [17.0, 54.0, 45.0, 94.0],
+      "caption_literal": "( EN LA FOTO ) EL CAPITAN GAJARDO SE\nRECONFOR TA DESPUES DE HABER ESCALADO\nLA CUMBRE MAS ALTA DE AMERI DA",
       "caption_type": "nearby-text",
-      "identity_basis": "caption",
-      "source_context": "Portrait of a man in clerical attire, identified as Fray Camilo Henriquez.",
-      "confidence": "high",
-      "suggested_filename": "fray-camilo-henriquez-aurora-de-chile.jpg",
-      "inline_anchor": "__IMG_001__"
+      "identity_basis": "source-context",
+      "source_context": "The caption identifies the person as 'EL CAPITAN GAJARDO'.",
+      "confidence": 0.9,
+      "suggested_filename": "capitan_gajardo_after_climbing"
     }
-  ],
-  "no_visual_regions_reason": null
+  ]
 }
 ```
 
 ## Page Metadata
 - Source: `El Aguila Nombre Grande Scan.pdf`
 - Page: `10`
+- Page type: `image`
 
 ## Layout And Reading Order
 The page contains a single large image of a landscape with cattle and a body of water. There is no text on the page other than a handwritten page number at the bottom.
 
 ## Literal Transcription
-(No literal transcription needed for this page, as it contains only an image and a handwritten page number.)
+(No literal transcription needed for this page, as it is primarily an image.)
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-landscape.png)
-  - Kind: photograph; label basis: converter-description; bbox_pct: [6.0, 3.0, 96.0, 97.0]
-  - Source context: A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.
+- ![converter-description: The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hilly-landscape.png)
+  - Kind: photograph; label basis: converter-description; bbox_pct: [6.0, 2.0, 96.0, 98.0]
+  - Source context: The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.
 
-The page features a color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.
+- A color illustration or painting depicts a herd of cattle gathered around a watering hole in a dry, hilly landscape. In the background, a person on horseback is visible on a distant hill.
+- A handwritten number "10" is present at the bottom center of the page.
 
 ## Uncertain Or Illegible
-- The handwritten number at the bottom of the page appears to be "10", but it is somewhat faded and could potentially be misread.
+- The exact medium of the image (painting, illustration, or manipulated photograph) is uncertain without further context.
 
 ## Completeness Audit
 The page contains a single image and a handwritten page number. All visible content has been described.
@@ -589,16 +542,15 @@ The page contains a single image and a handwritten page number. All visible cont
     {
       "region_id": "region_1",
       "kind": "photograph",
-      "bbox_pct": [0.06, 0.03, 0.96, 0.97],
+      "bbox_pct": [0.06, 0.02, 0.96, 0.98],
       "caption_literal": null,
       "caption_type": "converter-description",
       "identity_basis": null,
-      "source_context": "A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.",
+      "source_context": "The image depicts a herd of cattle around a watering hole in a hilly landscape, with a person on horseback in the distance.",
       "confidence": 0.95,
-      "suggested_filename": "cattle_watering_hole_landscape"
+      "suggested_filename": "cattle_watering_hole_hilly_landscape"
     }
-  ],
-  "no_visual_regions_reason": null
+  ]
 }
 ```
 
@@ -680,7 +632,7 @@ This page has been fully transcribed. All typewritten text, handwritten addition
 - Page: `12`
 
 ## Layout And Reading Order
-The page contains a single column of typewritten text, with a header at the top and a footer at the bottom. A handwritten page number is present in the bottom right corner.
+The page contains a single column of typewritten text, with a handwritten page number at the bottom right. The text describes industrial processes related to food production and packaging.
 
 ## Literal Transcription
 ERO GIGANTE
@@ -690,10 +642,10 @@ ONDE HIERVE POR TIEMPO DETERM NADO LUEGO ENTRA A OTOS ESTANQUES
 ONDE SE ENFRIA LUEGO SE LE ECHA ALMIBAR Y SE REVUELVE DESPUES PASA
 A UNOS COMPARTIMENTOS DONDE SE LLENAN LOS TARROS CON LLECCHE CONDESADA
 YA PREPARADA. LOS TARROS ANTES DE SER LLEBADOS SON DESINFECTADOS POR
-CALOR,LA PIESA DONDE SE LLENAN LOS TARROS HAY QUE MIRARLA DE AFUERA
+CALOR, LA PIESA DONDE SE LLENAN LOS TARROS HAY QUE MIRARLA DE AFUERA
 PARA NO LLEVAR MICROVIOS, LOS TARROS SON HECHOS DE LATA HAY MISMO
 , LOS TARROS SONL TAPADOS EN EL MIS MO LUGAR DONDE SE LLENAN DESPUES DE
-LO CUAL SON LEVADOS A PONERLE LA ETIQUETA "NESTLE # TERMINADO TODAD
+LO CUAL SON LEVADOS A PONERLE LA ETIQUETA "NESTLE" TERMINADO TODAD
 LA OPERACION SON ENBALADOS Y LUEGO SON LEVADOS AL FERROCARRIL CERCANO,
 LA FABRICA DE TARROS
 6Y
@@ -702,7 +654,7 @@ LAS PLANCHAS DE LATA SON CORTADAS EN TRES PEDASOS POR UNA MAQUINA, LUEGO
 PASAN A OTRA QUE LOS CORTA EN TRES NUEVAMENTE Y DESPUES UNA MAQUINA I
 ITALIANA RECIENTEMENTE EN CHILE HACE EL ENVACESE LAS DOS PARTES SON
 PEGADAS HACIENDO EL TARRO Y DE INMEDIATO OTRA PONE UNA TAPA LA DE ABAJO
-LOS TARROS YA TERMINADOS PASAN POR UN ESTERELISADO Y DEXHXX DE AHI A
+LOS TARROS YA TERMINADOS PASAN POR UN ESTERELISADOR Y DEXXXX DE AHI A
 LLENARSE
 LA PANADERIA MODERNA.
 LA ENPRESA VISITO LA PANADERIS MODERNA DE LOS ANGELES DEL SR RINCON
@@ -711,38 +663,36 @@ OTRA LO AMASA; LA MASA PARA LAS AYUYAS PASA A OTRA MAQUINA QUE LA CORTA
 Y LA FESJA CUADRADA DE AHI PASA A UN HORNO A PETROLEO Y SE ENREGA
 AL PUBLICO
 
-CRONICAS POR EL PERIODISTA x
+CRONICAS POR EL PERIODISTA X
 
 12
 
 ## Images, Captions, And Visual Notes
-- The page number "12" is handwritten in red ink at the bottom right corner of the page.
+There are no images or captions on this page.
 
 ## Uncertain Or Illegible
-- `DETERM NADO`: The space between "DETERM" and "NADO" might be a typo or an abbreviation.
-- `LLECCHE`: Could be "LECHE" (milk), with an extra 'C'.
-- `MICROVIOS`: Could be "MICROBIOS" (microbes), with a 'V' instead of 'B'.
-- `SONL`: Could be "SON" (are), with an extra 'L'.
-- `TODAD`: Could be "TODA" (all), with an extra 'D'.
-- `ENBALADOS`: Could be "EMBALADOS" (packaged), with an 'N' instead of 'M'.
-- `6Y`: Appears to be a stray character or number.
-- `LSAS`: Appears to be a stray character or abbreviation.
-- `PEDASOS`: Could be "PEDAZOS" (pieces), with an 'S' instead of 'Z'.
-- `DEXHXX`: This word is largely illegible, possibly a technical term or a typo.
-- `PANAN`: Could be "PAN" (bread), with an extra 'AN'.
-- `FESJA`: Could be "FRANJA" (strip) or "REJA" (grate), or another word.
-- `ENREGA`: Could be "ENTREGA" (delivers), with an 'N' instead of 'NT'.
+- `DETERM NADO`: The space between "DETERM" and "NADO" might indicate a missing letter or an abbreviation.
+- `LLECCHE`: Appears to be a misspelling of "LECHE".
+- `LLEBADOS`: Appears to be a misspelling of "LLEVADOS".
+- `MICROVIOS`: Appears to be a misspelling of "MICROBIOS".
+- `SONL`: Appears to be a misspelling of "SON".
+- `TODAD`: Appears to be a misspelling of "TODA".
+- `ENBALADOS`: Appears to be a misspelling of "EMBALADOS".
+- `6Y`: Unclear meaning, possibly a typo or an abbreviation.
+- `LSAS`: Unclear meaning, possibly a typo or an abbreviation.
+- `PEDASOS`: Appears to be a misspelling of "PEDAZOS".
+- `DEXXXX`: Illegible word, possibly "DESPUES" or similar.
+- `ENPRESA`: Appears to be a misspelling of "EMPRESA".
+- `PANADERIS`: Appears to be a misspelling of "PANADERIA".
+- `PANAN U`: Unclear meaning, possibly a typo or an abbreviation.
+- `FESJA`: Appears to be a misspelling of "FRANJA" or "REJA".
+- `ENREGA`: Appears to be a misspelling of "ENTREGA".
 
 ## Completeness Audit
-The transcription is complete for all visible text on the page.
+The transcription is complete and includes all visible text on the page.
 
 ## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The handwritten page number is noted in the 'Images, Captions, And Visual Notes' section."
-}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
 ## Page Metadata
 - Page number: 13
@@ -897,12 +847,12 @@ This page has been transcribed in its entirety. All typed text, handwritten note
 ```
 
 ## Page Metadata
-- Page number: 15
-- Source publication: El Aguila Nombre Grande
-- Publication date: Enero Febrero 1956
+- Source: `El Aguila Nombre Grande Scan.pdf`
+- Page: 15
+- Page type: `text`
 
 ## Layout And Reading Order
-The page contains a single column of text, likely an article or news report, with a page number handwritten at the bottom. The text is in Spanish.
+The page contains a single column of text, likely a newspaper or magazine article, with a header at the top and a page number at the bottom. The text flows continuously from top to bottom.
 
 ## Literal Transcription
 NUMERO GIGANTE
@@ -911,11 +861,11 @@ CENDIO " LE TOCO A LOS FERROCARRILES "
 SABADO 25 DE FEBRERO SE PRODUJO UN INCENDIO DE GRANDES PROPORCIONES.
 TRATA DE NUESTRO ANTIGUO EDIFICIO DE LA ESTACION DE FERROCARRILES
 L ESTADO . ESTE INCENDIO SE PRODUJO POR LA INFLAMACION DE UNA COCINA
-PARAFINA EN LA FUENTE DE SODA DE DICHO EDIFICIO.
+PARAFINA EN LA FUENTE DE SODA DE DICHO EDIFICIO,
 ON LA AYUDA DE LOS BOMBEROS QUE LLEGARON OPORTUNAMENTE Y DEL PERSONAL
 FERROCARRILES , SE PUDO SALVAR EL EQUIPAJE , TELEFONOS , TWLEGRAFO
 FELIZMENTE NO HUBO DESGRACIAS PERSONALES QUE LAMENTAR
-"" LOS INCENDIOS Y TERREMOTOS , TRAEN EL PROGRESO A LOS PUEBLOS ""
+"" LOS INCENDIOS Y TERREMOTOS , TRAEN EL PROGRESO A LOS PUEBLOS """
 ON LA DESTRUCCION DEL EDIFICIO DE LA ESTACION PODREMOS CONTAR A CORTO PLAS
 CON UN MODERNO Y CONFORTABLE EDIFICIO DIGNO DE LA CAPITAL DE " BIO-BIO "
 DE CADA DIA ESTA TOMANDO MAS IMPORTANCIA EN TODO ORDEN DE COSAS ASI LO
@@ -934,30 +884,33 @@ EL TREN A SU DESTINO HABIA UN INTERVALO DE 10 MINUTOS CON OTRO TREN EL
 QUE PRODUJO LA TRAGEDIA " DIJO EL DIRECTOR DE LOS FF CC ES UNA INDISCUTIBLE
 FALLA HUMANA .
 ESCRIBIO WIMO
+
 15
 
 ## Images, Captions, And Visual Notes
-- A handwritten number "15" is present at the bottom center of the page.
+A handwritten number "15" is present at the bottom center of the page.
 
 ## Uncertain Or Illegible
-- No uncertain or illegible text.
+None.
 
 ## Completeness Audit
-The transcription is complete and captures all visible text and the handwritten page number.
+The transcription is complete and accurate, capturing all text and the handwritten page number.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present. The handwritten page number is transcribed in the literal transcription."}
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The handwritten page number is transcribed in the literal transcription."}
+```
 
 ## Page Metadata
-- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+- Source: `El Aguila Nombre Grande Scan.pdf`
 - Page: 16
-- Page type: `title-page`
+- Page type: `Title Page`
 
 ## Layout And Reading Order
-The page contains a hand-drawn illustration at the top, followed by handwritten text in the middle and bottom sections. The text appears to be a title and a date.
+The page contains a hand-drawn illustration at the top, followed by handwritten text in the center and bottom of the page. The text appears to be a title and a date.
 
 ## Literal Transcription
-[Hand-drawn illustration of an eagle-like figure with a circle and a square inside its body]
+[Hand-drawn illustration of an eagle-like figure with a circle and "AD" inside its body]
 
 SuPLEMENTO
 Fotografico
@@ -966,11 +919,11 @@ EL AGUILA
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: Hand-drawn illustration of an eagle-like figure with a circle and a square inside its body.](../extracted-images/page-0016/page-0016-image-01-illustration-eagle-like-figure-1956.png)
+- ![converter-description: Hand-drawn illustration of an eagle-like figure with a circle and "AD" inside its body.](../extracted-images/page-0016/page-0016-image-01-hand-drawn-eagle-figure-with-ad-1956.png)
   - Kind: illustration; label basis: converter-description; bbox_pct: [10.0, 23.0, 43.0, 76.0]
-  - Source context: The illustration appears at the top of the page, above the title text.
+  - Source context: The illustration is at the top of the page, above the handwritten text.
 
-- An illustration of an eagle-like figure, drawn in red ink, is present at the top of the page. The figure has a head resembling a bird, wings, and a body with a large circle and a square shape inside it.
+- An illustration of an eagle-like figure, drawn in red, is present at the top of the page. Inside its body, there is a large circle and the letters "AD" are visible.
 
 ## Uncertain Or Illegible
 None.
@@ -983,16 +936,16 @@ The transcription is complete and captures all visible text and the significant 
 {
   "visual_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "vr_1",
       "kind": "illustration",
       "bbox_pct": [10.0, 23.0, 43.0, 76.0],
-      "caption_literal": "Hand-drawn illustration of an eagle-like figure with a circle and a square inside its body.",
+      "caption_literal": "Hand-drawn illustration of an eagle-like figure with a circle and \"AD\" inside its body.",
       "caption_type": "converter-description",
       "identity_basis": null,
-      "source_context": "The illustration appears at the top of the page, above the title text.",
+      "source_context": "The illustration is at the top of the page, above the handwritten text.",
       "confidence": 1.0,
-      "suggested_filename": "illustration_eagle_like_figure_1956.png",
-      "inline_anchor": "An illustration of an eagle-like figure, drawn in red ink, is present at the top of the page. The figure has a head resembling a bird, wings, and a body with a large circle and a square shape inside it."
+      "suggested_filename": "hand-drawn_eagle_figure_with_ad_1956.png",
+      "inline_anchor": "An illustration of an eagle-like figure, drawn in red, is present at the top of the page. Inside its body, there is a large circle and the letters \"AD\" are visible."
     }
   ]
 }
@@ -1094,15 +1047,15 @@ JUSTICIA / VERDAD
 EL AGUILA. _
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. The entire page consists of handwritten text.
+No images or captions are present on this page.
 
 ## Uncertain Or Illegible
 No uncertain or illegible text.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all visible text on the page.
+The transcription is complete and accurate.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions present."}
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 ```

@@ -312,20 +312,30 @@ All visible content on the page, including the stamp and the presence of faint b
 ```
 
 ## Page Metadata
-* Task id: `source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0011`
-* Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
-* Page: 11
+
+- **Page number**: 11
+- **Source title**: Anales de la Universidad de Chile
+- **Publication date**: September 1918
+- **Document type**: University bulletin, meeting minutes
+- **Language**: Spanish
+- **Author**: Council of Public Instruction, University of Chile
+- **Topic**: Conferral of academic degrees
 
 ## Layout And Reading Order
-The page follows a simple, single-column layout. The content is read from top to bottom. It begins with a decorative header, followed by centered titles for the publication, the council, and the session date. Below this, two paragraphs of text describe the session's proceedings. The page concludes with a centered subheading and an indented list of names.
+
+The page follows a simple, single-column layout. The content is read from top to bottom. It begins with a decorative header, followed by the title of the bulletin, the name of the council, the date of the session, a paragraph describing the session and its attendees, and finally a list of individuals who were granted the title of "Médico-Cirujano" (Surgeon-Physician).
 
 ## Literal Transcription
+
 [decorative header]
 
-BOLETIN DE INSTRUCCION PUBLICA
-***
-CONSEJO DE INSTRUCCION PUBLICA
-***
+**BOLETIN DE INSTRUCCION PUBLICA**
+
+---
+
+**CONSEJO DE INSTRUCCION PUBLICA**
+
+---
 .
 
 **Sesion de 2 de Setiembre de 1918**
@@ -334,6 +344,7 @@ Fué presidida por el señor Rector de la Universidad, don
 Domingo Amunátegui Solar, asistieron los señores Conseje-
 ros Amunátegui Solar don Gregorio, Bahamonde, Concha Cas-
 tillo, Espejo, Matte, Rücker, Salas Lavaqui i Schmidt.
+
 Previas las formalidades reglamentarias i el juramento re-
 querido el señor Rector confirió los siguientes títulos i grados:
 
@@ -346,19 +357,23 @@ a don Ramon Almeyda Arroyo
 » Armando Zagal Anabalon.
 
 ## Images, Captions, And Visual Notes
-At the top of the page, there is a decorative rectangular header. It features a border of small, pointed shapes and contains an inner pattern of stylized scrollwork.
+
+- **[decorative header]**: A rectangular decorative border with intricate patterns is located at the top of the page.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
+
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
-This page is complete and fully transcribed.
+
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text and a minor decorative header that does not warrant a separate crop."
+  "no_visual_regions_reason": "The only visual element on the page is a decorative header, which is not substantial enough to be considered a meaningful visual region for cropping."
 }
 ```
 

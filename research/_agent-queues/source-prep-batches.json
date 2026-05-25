@@ -1,10 +1,10 @@
 {
   "created": "2026-05-25",
   "queue": "source-prep-batches",
-  "task_count": 408,
+  "task_count": 396,
   "status_counts": {
     "needs_reread": 47,
-    "todo": 361
+    "todo": 349
   },
   "tasks": [
     {
@@ -54,6 +54,64 @@
         "encoding_mojibake"
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-a317a8662d66.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0011",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
+      "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
+      "job_id": "CA51f62b28-el-aguila-nombre-grande--p0004-0018",
+      "title": "El Aguila Nombre Grande Scan pages 4-18",
+      "first_page": 11,
+      "last_page": 11,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0011"
+      ],
+      "pages": [
+        {
+          "page": 11,
+          "task_id": "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0011",
+          "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0011.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/work-orders/page-0011.md",
+          "output_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0011.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0011",
+          "media_type": "pdf",
+          "family_relevance": "critical",
+          "matched_terms": [
+            "Dario",
+            "Dario Pulgar",
+            "Pulgar"
+          ],
+          "suspicious_readings": [
+            {
+              "literal": "PULGARA",
+              "suspected": "Pulgar",
+              "reason": "near match to known family context term `Pulgar`"
+            }
+          ],
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "post_conversion_qc_hold",
+      "recommended_action": "reread-page",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pag-0eec13be058e.md"
     },
     {
       "task_id": "source-prep-batch:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0014",
@@ -189,9 +247,6 @@
           "output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0004.md",
           "image_output_dir": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/extracted-images/page-0004",
           "media_type": "pdf",
-          "quality_flags": [
-            "explicit_reread_needed"
-          ],
           "research_relevance": "high",
           "requested_treatment": "reread",
           "research_relevance_reasons": [
@@ -394,6 +449,9 @@
           "output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0008.md",
           "image_output_dir": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/extracted-images/page-0008",
           "media_type": "pdf",
+          "quality_flags": [
+            "explicit_reread_needed"
+          ],
           "research_relevance": "high",
           "requested_treatment": "reread",
           "research_relevance_reasons": [
@@ -444,9 +502,6 @@
           "output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0009.md",
           "image_output_dir": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/extracted-images/page-0009",
           "media_type": "pdf",
-          "quality_flags": [
-            "explicit_reread_needed"
-          ],
           "research_relevance": "high",
           "requested_treatment": "reread",
           "research_relevance_reasons": [
@@ -673,9 +728,6 @@
           "output_path": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/page-markdown/page-0053.md",
           "image_output_dir": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/extracted-images/page-0053",
           "media_type": "pdf",
-          "quality_flags": [
-            "explicit_reread_needed"
-          ],
           "research_relevance": "medium",
           "requested_treatment": "reread",
           "research_relevance_reasons": [
@@ -1618,51 +1670,6 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pag-11a37f989bf4.md"
     },
     {
-      "task_id": "source-prep-batch:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0011",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "needs_reread",
-      "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
-      "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "job_id": "CA51f62b28-el-aguila-nombre-grande--p0004-0018",
-      "title": "El Aguila Nombre Grande Scan pages 4-18",
-      "first_page": 11,
-      "last_page": 11,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0011"
-      ],
-      "pages": [
-        {
-          "page": 11,
-          "task_id": "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0011",
-          "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0011.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/work-orders/page-0011.md",
-          "output_path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0011.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0011",
-          "media_type": "pdf",
-          "rough_discovery_status": "rough_unusable",
-          "rough_discovery_flags": [
-            "insufficient_text",
-            "insufficient_alpha_text",
-            "insufficient_words"
-          ]
-        }
-      ],
-      "repair_reason": "docling_discovery_unusable",
-      "recommended_action": "gemini_fallback",
-      "rough_discovery_status": "rough_unusable",
-      "rough_discovery_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pag-0eec13be058e.md"
-    },
-    {
       "task_id": "source-prep-batch:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0012",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -2495,37 +2502,6 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-page-13b0b750f1ef.md"
     },
     {
-      "task_id": "source-prep-batch:ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575:p0561",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "source_sha256": "09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/manifest.json",
-      "job_id": "CA09a98281-r3578-50-5569-5569-jacke-p0551-0575",
-      "title": "R3578-50-5569-5569-Jacket5 pages 551-575",
-      "first_page": 561,
-      "last_page": 561,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575:p0561"
-      ],
-      "pages": [
-        {
-          "page": 561,
-          "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575:p0561",
-          "page_image": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/page-images/page-0561.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/work-orders/page-0561.md",
-          "output_path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/page-markdown/page-0561.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0561",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-page-497b5391af5b.md"
-    },
-    {
       "task_id": "source-prep-batch:ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575:p0564",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -2586,37 +2562,6 @@
         }
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-page-4ec044ae4cfb.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600:p0582",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "source_sha256": "09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600/manifest.json",
-      "job_id": "CA09a98281-r3578-50-5569-5569-jacke-p0576-0600",
-      "title": "R3578-50-5569-5569-Jacket5 pages 576-600",
-      "first_page": 582,
-      "last_page": 582,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600:p0582"
-      ],
-      "pages": [
-        {
-          "page": 582,
-          "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600:p0582",
-          "page_image": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600/page-images/page-0582.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600/work-orders/page-0582.md",
-          "output_path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600/page-markdown/page-0582.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600/extracted-images/page-0582",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-page-408d356ea763.md"
     },
     {
       "task_id": "source-prep-batch:ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600:p0584",
@@ -4138,37 +4083,6 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0829-0853-c-mara-de-senadores-de-la-naci-d54e1a461343.md"
     },
     {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0829-0853-c-mara-de-senadores-de-la-naci-n-1936-pages-829-853:p0846",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0829-0853-c-mara-de-senadores-de-la-naci-n-1936-pages-829-853/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0829-0853",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 829-853",
-      "first_page": 846,
-      "last_page": 846,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0829-0853-c-mara-de-senadores-de-la-naci-n-1936-pages-829-853:p0846"
-      ],
-      "pages": [
-        {
-          "page": 846,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0829-0853-c-mara-de-senadores-de-la-naci-n-1936-pages-829-853:p0846",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0829-0853-c-mara-de-senadores-de-la-naci-n-1936-pages-829-853/page-images/page-0846.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0829-0853-c-mara-de-senadores-de-la-naci-n-1936-pages-829-853/work-orders/page-0846.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0829-0853-c-mara-de-senadores-de-la-naci-n-1936-pages-829-853/page-markdown/page-0846.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0829-0853-c-mara-de-senadores-de-la-naci-n-1936-pages-829-853/extracted-images/page-0846",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0829-0853-c-mara-de-senadores-de-la-naci-4dc35172940a.md"
-    },
-    {
       "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0829-0853-c-mara-de-senadores-de-la-naci-n-1936-pages-829-853:p0847",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -4384,37 +4298,6 @@
         }
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-fa97897e47a1.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878:p0866",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0854-0878",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 854-878",
-      "first_page": 866,
-      "last_page": 866,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878:p0866"
-      ],
-      "pages": [
-        {
-          "page": 866,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878:p0866",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878/page-images/page-0866.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878/work-orders/page-0866.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878/page-markdown/page-0866.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878/extracted-images/page-0866",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-efc8299e58f5.md"
     },
     {
       "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878:p0867",
@@ -7052,37 +6935,6 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca3e1a8684-r3016-11a-2905-950-p0601-0625-r3016-11a-2905-950-pages-601-625-p061-370f7c1595f3.md"
     },
     {
-      "task_id": "source-prep-batch:ca3e1a8684-r3016-11a-2905-950-p0626-0650-r3016-11a-2905-950-pages-626-650:p0632",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0626-0650-r3016-11a-2905-950-pages-626-650/manifest.json",
-      "job_id": "CA3e1a8684-r3016-11a-2905-950-p0626-0650",
-      "title": "R3016-11A-2905-950 pages 626-650",
-      "first_page": 632,
-      "last_page": 632,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca3e1a8684-r3016-11a-2905-950-p0626-0650-r3016-11a-2905-950-pages-626-650:p0632"
-      ],
-      "pages": [
-        {
-          "page": 632,
-          "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0626-0650-r3016-11a-2905-950-pages-626-650:p0632",
-          "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0626-0650-r3016-11a-2905-950-pages-626-650/page-images/page-0632.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0626-0650-r3016-11a-2905-950-pages-626-650/work-orders/page-0632.md",
-          "output_path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0626-0650-r3016-11a-2905-950-pages-626-650/page-markdown/page-0632.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0626-0650-r3016-11a-2905-950-pages-626-650/extracted-images/page-0632",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca3e1a8684-r3016-11a-2905-950-p0626-0650-r3016-11a-2905-950-pages-626-650-p063-b90122c571a2.md"
-    },
-    {
       "task_id": "source-prep-batch:ca3e1a8684-r3016-11a-2905-950-p0626-0650-r3016-11a-2905-950-pages-626-650:p0634",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -7827,37 +7679,6 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0979-1003-anales-de-la-universidad-de-chi-641501d0dd8a.md"
     },
     {
-      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028:p1008",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028/manifest.json",
-      "job_id": "CA753b8b14-anales-de-la-universidad-p1004-1028",
-      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 1004-1028",
-      "first_page": 1008,
-      "last_page": 1008,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028:p1008"
-      ],
-      "pages": [
-        {
-          "page": 1008,
-          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028:p1008",
-          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028/page-images/page-1008.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028/work-orders/page-1008.md",
-          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028/page-markdown/page-1008.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028/extracted-images/page-1008",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chi-801b7106e158.md"
-    },
-    {
       "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028:p1020",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -8509,37 +8330,6 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550-p0544.md"
     },
     {
-      "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575:p0556",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575/manifest.json",
-      "job_id": "CA7b784510-s519bis-26-4-p0551-0575",
-      "title": "S519bis-26-4 pages 551-575",
-      "first_page": 556,
-      "last_page": 556,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575:p0556"
-      ],
-      "pages": [
-        {
-          "page": 556,
-          "task_id": "source-prep:ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575:p0556",
-          "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575/page-images/page-0556.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575/work-orders/page-0556.md",
-          "output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575/page-markdown/page-0556.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575/extracted-images/page-0556",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575-p0556.md"
-    },
-    {
       "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575:p0558",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -9129,37 +8919,6 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700-p0691.md"
     },
     {
-      "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700:p0692",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/manifest.json",
-      "job_id": "CA7b784510-s519bis-26-4-p0676-0700",
-      "title": "S519bis-26-4 pages 676-700",
-      "first_page": 692,
-      "last_page": 692,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700:p0692"
-      ],
-      "pages": [
-        {
-          "page": 692,
-          "task_id": "source-prep:ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700:p0692",
-          "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/page-images/page-0692.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/work-orders/page-0692.md",
-          "output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/page-markdown/page-0692.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/extracted-images/page-0692",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700-p0692.md"
-    },
-    {
       "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700:p0693",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -9251,37 +9010,6 @@
         }
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700-p0696.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700:p0697",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/manifest.json",
-      "job_id": "CA7b784510-s519bis-26-4-p0676-0700",
-      "title": "S519bis-26-4 pages 676-700",
-      "first_page": 697,
-      "last_page": 697,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700:p0697"
-      ],
-      "pages": [
-        {
-          "page": 697,
-          "task_id": "source-prep:ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700:p0697",
-          "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/page-images/page-0697.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/work-orders/page-0697.md",
-          "output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/page-markdown/page-0697.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/extracted-images/page-0697",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700-p0697.md"
     },
     {
       "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700:p0698",
@@ -12105,37 +11833,6 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825-p0818.md"
     },
     {
-      "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825:p0820",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825/manifest.json",
-      "job_id": "CA7e42bb85-s522bis-29-3-p0801-0825",
-      "title": "S522bis-29-3 pages 801-825",
-      "first_page": 820,
-      "last_page": 820,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825:p0820"
-      ],
-      "pages": [
-        {
-          "page": 820,
-          "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825:p0820",
-          "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825/page-images/page-0820.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825/work-orders/page-0820.md",
-          "output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825/page-markdown/page-0820.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825/extracted-images/page-0820",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825-p0820.md"
-    },
-    {
       "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850:p0839",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -12570,37 +12267,6 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000-p0996.md"
     },
     {
-      "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025:p1014",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025/manifest.json",
-      "job_id": "CA7e42bb85-s522bis-29-3-p1001-1025",
-      "title": "S522bis-29-3 pages 1001-1025",
-      "first_page": 1014,
-      "last_page": 1014,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025:p1014"
-      ],
-      "pages": [
-        {
-          "page": 1014,
-          "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025:p1014",
-          "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025/page-images/page-1014.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025/work-orders/page-1014.md",
-          "output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025/page-markdown/page-1014.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025/extracted-images/page-1014",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025-p1014.md"
-    },
-    {
       "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025:p1016",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -12940,37 +12606,6 @@
         }
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p1201-1225-s522bis-29-3-pages-1201-1225-p1224.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p1226-1250-s522bis-29-3-pages-1226-1250:p1228",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1226-1250-s522bis-29-3-pages-1226-1250/manifest.json",
-      "job_id": "CA7e42bb85-s522bis-29-3-p1226-1250",
-      "title": "S522bis-29-3 pages 1226-1250",
-      "first_page": 1228,
-      "last_page": 1228,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca7e42bb85-s522bis-29-3-p1226-1250-s522bis-29-3-pages-1226-1250:p1228"
-      ],
-      "pages": [
-        {
-          "page": 1228,
-          "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1226-1250-s522bis-29-3-pages-1226-1250:p1228",
-          "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1226-1250-s522bis-29-3-pages-1226-1250/page-images/page-1228.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1226-1250-s522bis-29-3-pages-1226-1250/work-orders/page-1228.md",
-          "output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1226-1250-s522bis-29-3-pages-1226-1250/page-markdown/page-1228.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1226-1250-s522bis-29-3-pages-1226-1250/extracted-images/page-1228",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p1226-1250-s522bis-29-3-pages-1226-1250-p1228.md"
     },
     {
       "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p1226-1250-s522bis-29-3-pages-1226-1250:p1233",

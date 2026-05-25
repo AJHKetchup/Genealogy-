@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-5879d5097929-P0007-01
+chunk_id: CHUNK-2f1b4911071c-P0007-01
 source_converted: raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md
-converted_sha256: 5879d5097929cb2f8f7dc624721dd78313bc050137603e30876f20a94cb47060
+converted_sha256: 2f1b4911071c750ab269dddbe53e0db9704bc38cbb2edca399cd87754d656404
 source: raw/sources/Habitat Revisited, Jim Carney, 2006.pdf
 source_sha256: fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9
 source_manifest: raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json
@@ -12,12 +12,21 @@ part: 1
 ---
 
 ## Page Metadata
-- Page number: 7
+
+*   **Page number**: 7
+*   **Source-assigned page number**: 7
+*   **Document title**: Habitat Revisited
+*   **Author**: Jim Carney
+*   **Publication year**: 2006
+*   **Source type**: Book
+*   **Confidence**: 5/5
 
 ## Layout And Reading Order
-This page contains a single column of text. The reading order is from top to bottom. A page number, "7", is located in the top right corner.
+
+The page consists of a single column of text. The page number "7" is located at the top right corner. The content flows linearly from top to bottom. A section heading, "VISION HABITAT", is present about halfway down the page.
 
 ## Literal Transcription
+
 7
 
 The senior Conference officials had a hard time with this. In their view, they had
@@ -57,7 +66,7 @@ for Human Settlements” (more sensibly soon known as “Vision Habitat”) was 
 lished at the University of British Columbia. The fourth floor of the just completed
 Library Processing Centre, near the Wesbrook Building, would be our home.
 
-The UN was insistent that the UNAVHS be seen as a United Nations operation, not
+The UN was insistent that the UNAVCHS be seen as a United Nations operation, not
 a creature of the University. A just-retired Director of Radio-Television Services for
 the UN Department of Public Information in New York, Michael Heyward, was des-
 ignated Director of Vision Habitat and I became, in effect, the Deputy Director.
@@ -69,18 +78,22 @@ distribution system. He had fetched up at “The Board” after fleeing Pinochet
 overthrow of the Allende government in 1973.
 
 ## Images, Captions, And Visual Notes
-There are no images, illustrations, or other visual elements on this page.
+
+There are no images, illustrations, or other visual elements on this page. The content is entirely text.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
+
+There are no uncertain or illegible words on this page. The text is clear and fully readable.
 
 ## Completeness Audit
-This page is fully transcribed.
+
+This page has been fully transcribed. All textual content, including the page number and section heading, has been captured.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page consists entirely of text and contains no images, illustrations, or other visual elements."
+  "no_visual_regions_reason": "This page contains only text and does not have any images, illustrations, or other significant visual elements."
 }
 ```
