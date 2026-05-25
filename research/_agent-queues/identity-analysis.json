@@ -1,9 +1,10 @@
 ﻿{
     "created":  "2026-05-25",
     "queue":  "identity-analysis",
-    "task_count":  183,
+    "task_count":  185,
     "status_counts":  {
-                          "done":  183
+                          "done":  183,
+                          "todo":  2
                       },
     "tasks":  [
                   {
@@ -2183,6 +2184,16 @@
                       "role":  "identity_researcher"
                   },
                   {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-f427d5055744-p0011-01-dario-pulgar-a-name-form-watch-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-f427d5055744-p0011-01-dario-pulgar-a-name-form-watch.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-f427d5055744-p0011-01-dario-pulgar-a-name-form-watch.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
                       "skill":  "genealogy-proof-review",
                       "note":  "post-conversion controller start",
                       "updated_at":  "2026-05-23T09:59:12Z",
@@ -2213,6 +2224,16 @@
                       "status":  "done",
                       "claimed_at":  "2026-05-23T04:36:13Z",
                       "role":  "identity_researcher"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conflict-chunk-5fe435ae94cb-p0008-01-no-direct-conflict-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/conflict-chunk-5fe435ae94cb-p0008-01-no-direct-conflict.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/conflict-chunk-5fe435ae94cb-p0008-01-no-direct-conflict.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "skill":  "genealogy-proof-review",
