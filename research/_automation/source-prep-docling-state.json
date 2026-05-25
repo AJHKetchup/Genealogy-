@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-25T20:05:53Z",
+  "created": "2026-05-25T21:38:19Z",
   "mode": "source-prep-docling-discovery",
   "dry_run": false,
   "agent": "source-prep-docling-discovery",
@@ -14,276 +14,269 @@
   "document_timeout": 120.0,
   "hard_timeout": 150.0,
   "queue_scope": "source-prep-batches",
-  "queue_task_count": 360,
+  "queue_task_count": 350,
   "filters": {
     "source": "",
     "source_sha256": ""
   },
   "inspected": 12,
-  "accepted": 10,
-  "unusable": 2,
+  "accepted": 8,
+  "unusable": 4,
   "fast_unusable": 0,
   "errors": 0,
-  "extracted_images": 5,
+  "extracted_images": 2,
   "skipped": {
-    "ocr_limit_reached": 301
+    "ocr_limit_reached": 289
   },
   "tasks": [
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0551-0575-r3016-11a-2905-950-pages-551-575:p0571",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0476-0500-r3016-11a-2905-950-pages-476-500:p0498",
       "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 571,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca3e1a8684-r3016-11a-2905-950-p0551-0575-r3016-11a-2905-950-pages-551-575/page-0571.md",
-      "readability_flags": [],
+      "page": 498,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca3e1a8684-r3016-11a-2905-950-p0476-0500-r3016-11a-2905-950-pages-476-500/page-0498.md",
+      "readability_flags": [
+        "fragmented_short_lines",
+        "docling_layout_noise"
+      ],
       "profile_version": 6,
-      "text_chars": 694,
+      "text_chars": 1092,
       "extracted_image_count": 0,
       "docling_ocr": true,
-      "text_layer_alpha_chars": 565,
+      "text_layer_alpha_chars": 500,
       "likely_full_page_scan": true,
       "text_layer_flags": [
         "fragmented_short_lines"
       ],
-      "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0551-0575-r3016-11a-2905-950-pages-551-575/page-markdown/page-0571.md"
+      "text_layer_used_without_ocr": false
     },
     {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0979-1003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-979-1003:p0989",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 989,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0979-1003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-979-1003/page-0989.md",
-      "readability_flags": [],
-      "profile_version": 6,
-      "text_chars": 676,
-      "extracted_image_count": 1,
-      "extracted_image_methods": [
-        "docling_picture_image"
-      ],
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 561,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "fragmented_short_lines"
-      ],
-      "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0979-1003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-979-1003/page-markdown/page-0989.md"
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0881",
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0890",
       "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 881,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-0881.md",
-      "readability_flags": [],
+      "page": 890,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-0890.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
       "profile_version": 6,
-      "text_chars": 1331,
+      "text_chars": 0,
       "extracted_image_count": 0,
       "docling_ocr": true,
-      "text_layer_alpha_chars": 572,
+      "text_layer_alpha_chars": 506,
       "likely_full_page_scan": true,
       "text_layer_flags": [
         "fragmented_short_lines"
       ],
-      "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-markdown/page-0881.md"
+      "text_layer_used_without_ocr": false
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0651-0675-r3016-11a-2905-950-pages-651-675:p0651",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 651,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca3e1a8684-r3016-11a-2905-950-p0651-0675-r3016-11a-2905-950-pages-651-675/page-0651.md",
-      "readability_flags": [],
-      "profile_version": 6,
-      "text_chars": 742,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 547,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "fragmented_short_lines"
-      ],
-      "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0651-0675-r3016-11a-2905-950-pages-651-675/page-markdown/page-0651.md"
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p1104-1128-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1104-1128:p1121",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 1121,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p1104-1128-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1104-1128/page-1121.md",
-      "readability_flags": [],
-      "profile_version": 6,
-      "text_chars": 547,
-      "extracted_image_count": 1,
-      "extracted_image_methods": [
-        "docling_picture_image"
-      ],
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 537,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "fragmented_short_lines"
-      ],
-      "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1104-1128-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1104-1128/page-markdown/page-1121.md"
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878:p0872",
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878:p0877",
       "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 872,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878/page-0872.md",
-      "readability_flags": [],
+      "page": 877,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878/page-0877.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
       "profile_version": 6,
-      "text_chars": 1518,
+      "text_chars": 0,
       "extracted_image_count": 0,
       "docling_ocr": true,
-      "text_layer_alpha_chars": 538,
+      "docling_error": "Docling hard timeout after 150 seconds.",
+      "docling_unusable_reason": "local_ocr_timeout",
+      "likely_full_page_scan": true,
+      "text_layer_alpha_chars": 496,
+      "text_layer_flags": [
+        "fragmented_short_lines"
+      ]
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0879",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 879,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-0879.md",
+      "readability_flags": [],
+      "profile_version": 6,
+      "text_chars": 1720,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 495,
       "likely_full_page_scan": true,
       "text_layer_flags": [
         "fragmented_short_lines"
       ],
       "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878/page-markdown/page-0872.md"
+      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-markdown/page-0879.md"
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0996",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 996,
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500:p0496",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 496,
       "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/page-0996.md",
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500/page-0496.md",
       "readability_flags": [],
       "profile_version": 6,
-      "text_chars": 700,
-      "extracted_image_count": 1,
+      "text_chars": 627,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 491,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "fragmented_short_lines"
+      ],
+      "text_layer_used_without_ocr": false,
+      "basic_output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500/page-markdown/page-0496.md"
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0801-0825-s519bis-26-4-pages-801-825:p0809",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 809,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0801-0825-s519bis-26-4-pages-801-825/page-0809.md",
+      "readability_flags": [],
+      "profile_version": 6,
+      "text_chars": 607,
+      "extracted_image_count": 2,
       "extracted_image_methods": [
         "docling_picture_image"
       ],
       "docling_ocr": true,
-      "text_layer_alpha_chars": 531,
+      "text_layer_alpha_chars": 477,
       "likely_full_page_scan": true,
       "text_layer_flags": [
         "fragmented_short_lines"
       ],
       "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/page-markdown/page-0996.md"
+      "basic_output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0801-0825-s519bis-26-4-pages-801-825/page-markdown/page-0809.md"
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025:p1016",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 1016,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025/page-1016.md",
-      "readability_flags": [],
-      "profile_version": 6,
-      "text_chars": 756,
-      "extracted_image_count": 1,
-      "extracted_image_methods": [
-        "docling_picture_image"
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0882",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 882,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-0882.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
       ],
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 515,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "fragmented_short_lines"
-      ],
-      "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025/page-markdown/page-1016.md"
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0978",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 978,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/page-0978.md",
-      "readability_flags": [],
       "profile_version": 6,
-      "text_chars": 649,
+      "text_chars": 0,
       "extracted_image_count": 0,
       "docling_ocr": true,
-      "text_layer_alpha_chars": 511,
+      "docling_error": "Docling hard timeout after 150 seconds.",
+      "docling_unusable_reason": "local_ocr_timeout",
+      "likely_full_page_scan": true,
+      "text_layer_alpha_chars": 482,
+      "text_layer_flags": [
+        "fragmented_short_lines"
+      ]
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0829-0853-c-mara-de-senadores-de-la-naci-n-1936-pages-829-853:p0840",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 840,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0829-0853-c-mara-de-senadores-de-la-naci-n-1936-pages-829-853/page-0840.md",
+      "readability_flags": [],
+      "profile_version": 6,
+      "text_chars": 2963,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 468,
       "likely_full_page_scan": true,
       "text_layer_flags": [
         "docling_layout_noise"
       ],
       "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/page-markdown/page-0978.md"
+      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0829-0853-c-mara-de-senadores-de-la-naci-n-1936-pages-829-853/page-markdown/page-0840.md"
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025:p1019",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 1019,
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0880",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 880,
       "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025/page-1019.md",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-0880.md",
       "readability_flags": [],
       "profile_version": 6,
-      "text_chars": 652,
-      "extracted_image_count": 1,
-      "extracted_image_methods": [
-        "docling_picture_image"
-      ],
+      "text_chars": 1766,
+      "extracted_image_count": 0,
       "docling_ocr": true,
-      "text_layer_alpha_chars": 513,
+      "text_layer_alpha_chars": 459,
       "likely_full_page_scan": true,
       "text_layer_flags": [
         "fragmented_short_lines"
       ],
       "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025/page-markdown/page-1019.md"
+      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-markdown/page-0880.md"
     },
     {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878:p0869",
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0889",
       "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 869,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878/page-0869.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
+      "page": 889,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-0889.md",
+      "readability_flags": [],
       "profile_version": 6,
-      "text_chars": 0,
+      "text_chars": 5772,
       "extracted_image_count": 0,
       "docling_ocr": true,
-      "docling_error": "Docling hard timeout after 150 seconds.",
-      "docling_unusable_reason": "local_ocr_timeout",
+      "text_layer_alpha_chars": 466,
       "likely_full_page_scan": true,
-      "text_layer_alpha_chars": 508,
       "text_layer_flags": [
         "fragmented_short_lines"
-      ]
+      ],
+      "text_layer_used_without_ocr": false,
+      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-markdown/page-0889.md"
     },
     {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878:p0873",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 873,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0854-0878-c-mara-de-senadores-de-la-naci-n-1936-pages-854-878/page-0873.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525:p0503",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 503,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525/page-0503.md",
+      "readability_flags": [],
       "profile_version": 6,
-      "text_chars": 0,
+      "text_chars": 582,
       "extracted_image_count": 0,
       "docling_ocr": true,
-      "docling_error": "Docling hard timeout after 150 seconds.",
-      "docling_unusable_reason": "local_ocr_timeout",
+      "text_layer_alpha_chars": 453,
       "likely_full_page_scan": true,
-      "text_layer_alpha_chars": 507,
       "text_layer_flags": [
         "fragmented_short_lines"
-      ]
+      ],
+      "text_layer_used_without_ocr": false,
+      "basic_output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525/page-markdown/page-0503.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903:p0885",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 885,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-0885.md",
+      "readability_flags": [],
+      "profile_version": 6,
+      "text_chars": 4133,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 456,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "fragmented_short_lines"
+      ],
+      "text_layer_used_without_ocr": false,
+      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0879-0903-c-mara-de-senadores-de-la-naci-n-1936-pages-879-903/page-markdown/page-0885.md"
     }
   ],
   "blockers": [],
   "discovery_state_path": "research/_agent-queues/source-prep-discovery.json",
-  "checkpointed": "2026-05-25T20:14:31Z",
+  "checkpointed": "2026-05-25T21:47:24Z",
   "state_path": "research/_automation/source-prep-docling-state.json",
-  "finished": "2026-05-25T20:14:30Z"
+  "finished": "2026-05-25T21:47:24Z"
 }
