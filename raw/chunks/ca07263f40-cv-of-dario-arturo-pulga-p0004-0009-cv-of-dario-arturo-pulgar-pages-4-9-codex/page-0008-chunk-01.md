@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-1c839b39d83e-P0008-01
+chunk_id: CHUNK-5fe435ae94cb-P0008-01
 source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
-converted_sha256: 1c839b39d83e00bd013d4647e8dfbcc350712e3f2aa4a77faf60a770ce12629b
+converted_sha256: 5fe435ae94cbb56181577b7e451c17142560610e095f5edb6c8b5ad9a5b0b73e
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
 source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
 source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
@@ -24,14 +24,14 @@ part: 1
 - External requested treatment: `reread`
 - External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
 - Recommended action: ``
-- Quality flags: none
+- Quality flags: explicit_reread_needed
 - Technical reread clues: none
 
 ## Layout And Reading Order
-The page consists of a single column of text. The content is a continuation of a curriculum vitae, detailing professional experience in reverse chronological order. Each entry is structured with a date range, organization, location, job title, and a descriptive paragraph. The page concludes with the heading for the next section, "EDUCATION".
+The page consists of a single column of text. The content is a continuation of a curriculum vitae, listing professional experience in reverse chronological order. The reading order is from top to bottom. Each job entry is formatted with an underlined date range, followed by the bolded organization, location, and job title, and then a descriptive paragraph. The page ends with the bolded heading "EDUCATION".
 
 ## Literal Transcription
-<u>**1979 - 1982**</u>
+<u>1979 - 1982</u>
 **United Nations Centre for Human Settlements (HABITAT)**
 **Nairobi, Kenya**
 **Development Support Communications Officer**
@@ -46,7 +46,7 @@ communication. Carry out pre-feasibility missions in Africa including Uganda, Ta
 Mali and Senegal. Design information and/or training projects using audio-visual means in
 support of rural/urban settlers.
 
-<u>**1974 - 1978**</u>
+<u>1974 - 1978</u>
 **National Film Board of Canada (NFB)**
 **Montreal, Canada**
 **Audio Visual Consultant**
@@ -62,7 +62,7 @@ the production of six documentary films and iii) participate as production assis
 of two documentaries: "Waiting for Fidel" and "I Am an Old Tree" and translating the Spanish
 dialogue into English.
 
-<u>**1972 - 1973**</u>
+<u>1972 - 1973</u>
 **Chile Films**
 **Santiago, Chile**
 **General Manager Distribution and Exhibition, Head of International Department**
@@ -72,7 +72,7 @@ Latin American Film Festival, Viña del Mar. Organise a 16mm distribution networ
 cinema units. Establish and maintain contacts with international film organisations. Review films
 for possible purchase. Organise film festivals and retrospective.
 
-<u>**1970 - 1972**</u>
+<u>1970 - 1972</u>
 **Cine, Televisión y Comunicaciones (CITELCO)**
 **Santiago, Chile**
 **Producer**
@@ -83,18 +83,18 @@ co-production of documentaries with Italy. Feature films produced include: "La C
 **EDUCATION**
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other visual elements on this page.
+This page contains only text and has no images, photographs, or other visual elements.
 
 ## Uncertain Or Illegible
-All text on the page is clear and legible.
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
-The full content of the page has been transcribed.
+The entire content of the page has been transcribed. The page ends with the heading "EDUCATION", indicating that the following page will likely contain details about the individual's educational background.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page is text-only and contains no images, illustrations, or other visual elements that would warrant cropping."
+  "no_visual_regions_reason": "This page consists entirely of typed text and contains no images, illustrations, photographs, or other significant visual elements."
 }
 ```

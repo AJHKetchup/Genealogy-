@@ -1,42 +1,41 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-45de6bfdee7b-P0053-01
+chunk_id: CHUNK-867e245b9238-P0013-01
 source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60.codex.md
-converted_sha256: 45de6bfdee7b334a47dc47cd150de25e9ba0e26e4f139440ff6026093c76248d
+converted_sha256: 867e245b92388579c2bf921e9fae5a6928420e95351c9ff13aa0631852e7b993
 source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
 source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
 source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json
-page_start: 53
-page_end: 53
+page_start: 13
+page_end: 13
 part: 1
 ---
 
 ## Page Metadata
 
-- **Source ID**: `Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition`
-- **Page Number**: 53
-- **Description**: This page is a directory listing of medical and paramedical professionals in Chile, from "Lara Lara, Gastón" to "Lehuedé Alvarado, Héctor". It is organized into three columns: Name, Address, and City.
+- `page_number`: 56
+- `source_filename_page_number`: 53
+- `source_type`: Directory
+- `source_language`: es-CL
 
 ## Layout And Reading Order
 
-The page is laid out in a three-column format. The reading order is from left to right, top to bottom, for each entry.
+The page contains a single block of text formatted into a three-column directory listing. The columns are:
+1.  **Name:** Full name of the individual, listed as "Surname(s), Given Name(s)".
+2.  **Address:** Street address, which may include office (`Of.`) or department (`Depto.`) numbers. Some addresses span two lines.
+3.  **City:** The city or town where the address is located.
 
-1.  **Column 1**: Name of the professional (Last Name, First Name).
-2.  **Column 2**: Street address, including office or department number where applicable.
-3.  **Column 3**: City.
-
-The page number `56 —` is located at the bottom left corner.
+The entries are read row by row, from top to bottom. A page number, "56 —", is located at the bottom left of the page.
 
 ## Literal Transcription
 
 | Name | Address | City |
-| :--- | :--- | :--- |
+| --- | --- | --- |
 | Lara Lara, Gastón | Bascuñán Guerrero 864 | Santiago |
 | Lara Sazo, Carlos | Cochrane 754 | Concepción |
 | Larach Jamiz, César | Av. José P. Alessandri 85 | Santiago |
 | Larach Nazrala, Alejandro | Moneda 720, Of. 205 | Santiago |
 | Larach Nazrala, Elías | Rosa Eguiguren 813,<br>Of. 47 | Santiago |
-| | | |
 | Larenas Barrera, Emilio | Igualdad 240 | Parral |
 | Larenas Ovalle, Alberto | O'Higgins 630 | Concepción |
 | Largo Robledo, Alfonso | Prat 225 | Rengo |
@@ -45,7 +44,6 @@ The page number `56 —` is located at the bottom left corner.
 | Larraín Aguirre, Camilo | Compañía 1615 | Santiago |
 | Larraín Eyzaguirre, Sergio | República 440 | Santiago |
 | Larraín García, Arturo | Vicuña Mackenna 4, 7º<br>Piso | Santiago |
-| | | |
 | Larraín Marín, Eduardo | Marcoleta 367 | Santiago |
 | Larraín Orrego, Augusto | Avda. Salvador 1231 | Santiago |
 | Larraín Vidal, Adriana | Teatinos 251, Depto. 3 | Santiago |
@@ -74,7 +72,6 @@ The page number `56 —` is located at the bottom left corner.
 | Ledesma Zamora, Arnaldo | Madrid 962 | Santiago |
 | Legarreta Peña, Adela | Agustinas 715, Dep. 302 | Santiago |
 | Legarreta Peña, José | Santo Domingo 594,<br>Depto. 2 | Santiago |
-| | | |
 | Lehuedé Alvarado, Héctor | Lourdes 749 | Santiago |
 
 56 —
@@ -89,15 +86,12 @@ There are no uncertain or illegible portions of this page.
 
 ## Completeness Audit
 
-The transcription of this page is complete and accurate. All text, including the page number, has been transcribed.
+The entire content of the page, including all directory entries and the page number, has been transcribed.
 
 ## Visual Region Manifest
 
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page consists entirely of printed text in a directory format. There are no images, illustrations, maps, or other visual elements that would warrant cropping."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of typed text in a directory format with no images, illustrations, or other distinct visual elements."}
 ```
 
 # Page 54

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-2f1b4911071c-P0007-01
+chunk_id: CHUNK-d7720d4f50ba-P0007-01
 source_converted: raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md
-converted_sha256: 2f1b4911071c750ab269dddbe53e0db9704bc38cbb2edca399cd87754d656404
+converted_sha256: d7720d4f50bae773d44ce81b27764ff9b94aa178b7de3d72adce7a1c976015db
 source: raw/sources/Habitat Revisited, Jim Carney, 2006.pdf
 source_sha256: fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9
 source_manifest: raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json
@@ -12,21 +12,28 @@ part: 1
 ---
 
 ## Page Metadata
-
-*   **Page number**: 7
-*   **Source-assigned page number**: 7
-*   **Document title**: Habitat Revisited
-*   **Author**: Jim Carney
-*   **Publication year**: 2006
-*   **Source type**: Book
-*   **Confidence**: 5/5
+- page_number: 7
+- page_type: book-page
+- source_book_title: Habitat Revisited
+- source_author: Jim Carney
+- source_year: 2006
+- source_page_count: 11
+- source_pdf_filename: Habitat Revisited, Jim Carney, 2006.pdf
 
 ## Layout And Reading Order
+The page consists of a single column of text. The page number is at the top right. The reading order is sequential from top to bottom.
 
-The page consists of a single column of text. The page number "7" is located at the top right corner. The content flows linearly from top to bottom. A section heading, "VISION HABITAT", is present about halfway down the page.
+- text-block-1: Page number `7` at the top right.
+- text-block-2: A paragraph beginning "The senior Conference officials...".
+- text-block-3: A paragraph beginning "One memorable scene:...".
+- text-block-4: A paragraph beginning "Copyright and distribution rights aside,...".
+- text-block-5: A section heading "VISION HABITAT".
+- text-block-6: A paragraph beginning "In September, 1976,...".
+- text-block-7: A paragraph beginning "The UN was insistent...".
+- text-block-8: A paragraph beginning "A couple of my UN Habitat...".
 
 ## Literal Transcription
-
+```text
 7
 
 The senior Conference officials had a hard time with this. In their view, they had
@@ -76,24 +83,21 @@ a raspy-voiced, incredibly energetic, dynamic Chilean. In Chile under Allende,
 though still in his twenties, Dario had been the number two man in Chile’s state film
 distribution system. He had fetched up at “The Board” after fleeing Pinochet’s
 overthrow of the Allende government in 1973.
+```
 
 ## Images, Captions, And Visual Notes
-
-There are no images, illustrations, or other visual elements on this page. The content is entirely text.
+This page contains only text. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
-
-There are no uncertain or illegible words on this page. The text is clear and fully readable.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-This page has been fully transcribed. All textual content, including the page number and section heading, has been captured.
+This page has been fully and accurately transcribed.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text and does not have any images, illustrations, or other significant visual elements."
+  "no_visual_regions_reason": "The page contains only text and a page number, with no images, illustrations, or other significant visual elements suitable for cropping."
 }
 ```

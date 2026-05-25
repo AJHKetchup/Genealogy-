@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-25T11:34:16Z",
+  "created": "2026-05-25T14:32:49Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Habitat Revisited, Jim Carney, 2006.pdf",
@@ -8,7 +8,7 @@
   "page": 10,
   "page_image": "raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/page-images/page-0010.jpg",
   "output_markdown": "raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/page-markdown/page-0010.md",
-  "no_visual_regions_reason": "The page contains only text and a page number, with no images, illustrations, or other significant visual elements suitable for cropping.",
+  "no_visual_regions_reason": "This page contains only text and a page number.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []
