@@ -1,7 +1,7 @@
 {
-  "created": "2026-05-24",
+  "created": "2026-05-25",
   "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
-  "converted_sha256": "6b97885181f61a6939d085e24bd85d6172139509cad21137bf23796e8af35de2",
+  "converted_sha256": "b2e036516c17cf6c253a84554ca9fccd71944e51ff46121a8549b9ec6904a7a3",
   "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
   "source_sha256": "07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424",
   "source_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
@@ -12,64 +12,64 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-6b97885181f6-P0001-01",
+      "chunk_id": "CHUNK-b2e036516c17-P0004-01",
       "chunk_number": 1,
-      "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0001-chunk-01.md",
-      "page_start": 1,
-      "page_end": 1,
+      "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0004-chunk-01.md",
+      "page_start": 4,
+      "page_end": 4,
       "part": 1,
-      "chars": 4386,
-      "sha256": "9e91b023bf0527e69a6f36c103335c6c29b95dbedd1000b788e4de2639a76fbd"
+      "chars": 5625,
+      "sha256": "d171144d920fabd4e9a67142f7eef3ba6e90154d80dfcae9f4d319082d765f7d"
     },
     {
-      "chunk_id": "CHUNK-6b97885181f6-P0005-01",
+      "chunk_id": "CHUNK-b2e036516c17-P0005-01",
       "chunk_number": 2,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0005-chunk-01.md",
       "page_start": 5,
       "page_end": 5,
       "part": 1,
-      "chars": 3868,
-      "sha256": "f16f8d322aab28c3b7012b88f0caa51f36e8ba8bc7cce6e946ac18b2f3b5f33d"
+      "chars": 4454,
+      "sha256": "15eb9d2db021dd758c297dd314c21d165f2474055ed3968a6861321f56525964"
     },
     {
-      "chunk_id": "CHUNK-6b97885181f6-P0006-01",
+      "chunk_id": "CHUNK-b2e036516c17-P0006-01",
       "chunk_number": 3,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0006-chunk-01.md",
       "page_start": 6,
       "page_end": 6,
       "part": 1,
-      "chars": 4259,
-      "sha256": "09f587e44159e6a0ffe4cbc6bbf9273f243674958be82d02412f2b9c12caeaa8"
+      "chars": 4137,
+      "sha256": "1796cc65a82488b35db4ada309372c6d92dd2e396b45f4cb090da150b7a745be"
     },
     {
-      "chunk_id": "CHUNK-6b97885181f6-P0007-01",
+      "chunk_id": "CHUNK-b2e036516c17-P0007-01",
       "chunk_number": 4,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0007-chunk-01.md",
       "page_start": 7,
       "page_end": 7,
       "part": 1,
       "chars": 4253,
-      "sha256": "c3bcdc216465cb5e5ddee121f8a13b015455c55087e071186ea8b741a2b5af38"
+      "sha256": "5f700a0a8aa3643d56a31609fff662f917ade120812c1a1b656741903cf0963c"
     },
     {
-      "chunk_id": "CHUNK-6b97885181f6-P0005-01",
+      "chunk_id": "CHUNK-b2e036516c17-P0005-01",
       "chunk_number": 5,
       "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0005-chunk-01.md",
       "page_start": 5,
       "page_end": 5,
       "part": 1,
       "chars": 4025,
-      "sha256": "dd34fe0761bd1b24cc94b3b6552688fdc597ef170fbfac7ccc1c67e7381c9b12"
+      "sha256": "2238ea45ddbd0a756933aed42e3e7d6527890a9a5ead4b8c366a33d0b4f9c5f4"
     },
     {
-      "chunk_id": "CHUNK-6b97885181f6-P0006-01",
+      "chunk_id": "CHUNK-b2e036516c17-P0009-01",
       "chunk_number": 6,
-      "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0006-chunk-01.md",
-      "page_start": 6,
-      "page_end": 6,
+      "path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0009-chunk-01.md",
+      "page_start": 9,
+      "page_end": 9,
       "part": 1,
-      "chars": 1406,
-      "sha256": "3fd34aeb7054ca048a7f85bfbc6a13e0107449a37ae2ddc0d4bfefcdeb04f466"
+      "chars": 2353,
+      "sha256": "2252c4ec07ac4fa291d325fce3c6c73a803caca514929c56a0b28119c5aca166"
     }
   ]
 }

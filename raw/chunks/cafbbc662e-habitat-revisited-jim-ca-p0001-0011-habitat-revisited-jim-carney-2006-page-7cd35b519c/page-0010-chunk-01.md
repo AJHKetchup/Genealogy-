@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-03d4d597daab-P0010-01
+chunk_id: CHUNK-02b4e771793d-P0010-01
 source_converted: raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md
-converted_sha256: 03d4d597daabbcc646250a3e90f9106e4e2b025e03cd105f5fcd9a5d50f68797
+converted_sha256: 02b4e771793dfdde35f156531415bad8133365ccd4e6d3f8737d07095e20d067
 source: raw/sources/Habitat Revisited, Jim Carney, 2006.pdf
 source_sha256: fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9
 source_manifest: raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json
@@ -13,15 +13,12 @@ part: 1
 
 ## Page Metadata
 
-- task_id: `source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0010`
-- page_num: `10`
-- source_id: `cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11`
-- source_title: `Habitat Revisited, Jim Carney, 2006`
-- source_page_label: `10`
+- **Page number**: 10
+- **Source file**: `raw/sources/Habitat Revisited, Jim Carney, 2006.pdf`
 
 ## Layout And Reading Order
 
-The page contains a single column of text. The page number "10" is located at the top right corner. The reading order is from top to bottom, starting with the main text, followed by a bolded heading, and then the concluding paragraphs.
+The page consists of a single column of text. A page number, "10", is located at the top right corner. The reading order is from top to bottom.
 
 ## Literal Transcription
 
@@ -78,18 +75,21 @@ and shipped across continents and oceans.
 
 ## Images, Captions, And Visual Notes
 
-This page contains only text. There are no images, illustrations, or other visual elements.
+There are no images, captions, or other visual elements on this page. The page contains only typeset text.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible words on this page.
+All text on the page is clear and legible.
 
 ## Completeness Audit
 
-This page is complete and has been fully transcribed.
+The full content of the page has been transcribed.
 
 ## Visual Region Manifest
 
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and a page number, with no images, illustrations, or other significant visual elements suitable for cropping."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only typeset text with no images, illustrations, or other visual elements."
+}
 ```
