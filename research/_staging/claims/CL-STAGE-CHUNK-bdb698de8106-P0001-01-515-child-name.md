@@ -26,7 +26,7 @@ Sexo.
 
 ## Conversion Confidence / QA Concern
 
-Low for the converted name. Targeted image review shows record 515 is partial and appears closer to `Neira Elvira / Laura de la Cruz...`, conflicting with the converted `Rosa Elvira del Carmen`.
+Low for the converted full name. Targeted image review shows record 515 is partial; the visible name appears to begin `Rosa Elvira` but the following line is unresolved and appears closer to `Laura de Car...`/`Laura de la Cruz...` than the converted `del Carmen`. This conflicts with treating `Rosa Elvira del Carmen` as a settled full-name transcription.
 
 ## Uncertainty
 

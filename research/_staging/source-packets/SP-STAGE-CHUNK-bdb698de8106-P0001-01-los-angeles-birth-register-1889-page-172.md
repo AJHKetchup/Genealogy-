@@ -44,7 +44,7 @@ Targeted review of the original image supports the page heading as `Los Anjeles`
 - Record 513: the image appears to show a child-name field beginning with `Pulgar...` and ending with a `José` line, with `Sexo. Masculino`, not the converted `Isolina del Carmen José`; the full child name remains unresolved.
 - Record 514: the image appears to show child `Riquelme / Juan Bautista`, father field `Se ignora`, mother/declarant `Mercedes Riquelme`, witnesses probably `Benjamin Utrosa` and `Ignacio Jara`, and a street reading closer to `Calle San...`/`Calle Sanegueso` than the converted `Riquelme Juan Teodoro`, `Belisario Riquelme`, and `Calle Saneguin`.
 - Official signature: the image appears consistent with `Emilio Lininger` or a similar reading, but the surname remains difficult and should not be promoted without proof review.
-- Record 515: only the upper portion is visible in the source image. The image appears to show child `Neira Elvira / Laura de la Cruz...`, father/declarant `Pedro Pablo Neira`, and witnesses beginning with `Jose D. Ramirez H.` and `Santiago Fuentes`; this conflicts with the converted `Rosa Elvira del Carmen` and `Pedro Pablo Leiva`.
+- Record 515: only the upper portion is visible in the source image. The image appears to show a child-name field beginning `Rosa Elvira` followed by an unresolved line closer to `Laura de Car...`/`Laura de la Cruz...` than the converted `del Carmen`; the father/declarant surname appears closer to `Neira` than converted `Leiva`. This remains a conflict indicator, not a replacement transcription.
 
 ## Conversion Confidence And QA Concern
 

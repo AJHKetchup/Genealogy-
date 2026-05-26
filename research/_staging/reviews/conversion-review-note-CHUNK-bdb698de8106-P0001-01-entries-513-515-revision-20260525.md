@@ -38,7 +38,7 @@ Existing staged review notes report the following image-reviewed alternatives. T
 - Entry 513: child-name field appears closer to a `Pulgar...` / `... José` reading than to converted `Isolina del Carmen José`; mother surname appears closer to `Amagada` than converted `Amador`; birth date/time may differ from the converted line.
 - Entry 513: father/declarant line has stronger support for `José del Carmen Pulgar` / `José del C. Pulgar`, father, age forty-seven, agriculturist, Calle Colon, but remains part of the disputed row.
 - Entry 514: father field may read `Se ignora` rather than `Belisario Riquelme`; child name, street, and witnesses require direct rereading.
-- Entry 515: only the upper portion is visible in the image-reviewed notes; readings closer to `Neira...` and `Pedro Pablo Neira` conflict with converted `Rosa Elvira del Carmen` and `Pedro Pablo Leiva`.
+- Entry 515: only the upper portion is visible in the image-reviewed notes; visible child text appears to begin `Rosa Elvira` but the following line is unresolved and appears closer to `Laura de Car...`/`Laura de la Cruz...` than converted `del Carmen`; father/declarant surname appears closer to `Neira` than converted `Leiva`.
 
 ## Promotion Recommendation
 
