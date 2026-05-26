@@ -1,47 +1,61 @@
-# Proof Review: identity-analysis-chunk-b8f4f0490a36-p0001-01-entry-172-current-conversion-conflict
+---
+type: proof_review
+status: hold
+role: claim_reviewer
+worker: postconv-proof-review-20260526140738334
+task_id: proof-review:research/_staging/identity-analysis/identity-analysis-chunk-b8f4f0490a36-p0001-01-entry-172-current-conversion-conflict-postconv-identity-researcher-20260526045956374.md
+reviewed_staged_draft: research/_staging/identity-analysis/identity-analysis-chunk-b8f4f0490a36-p0001-01-entry-172-current-conversion-conflict-postconv-identity-researcher-20260526045956374.md
+source_packet: research/_staging/source-packets/chunk-b8f4f0490a36-p0001-01-entry-172-pulgar-arriagada-held-postconv-evidence-extraction-20260526020438864.md
+converted_file: raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172.codex.md
+chunk: raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172-codex/page-0001-chunk-01.md
+chunk_id: CHUNK-b8f4f0490a36-P0001-01
+created: 2026-05-26
+canonical_readiness: hold_for_conversion_qa
+---
 
-- Review task id: `proof-review:research/_staging/identity-analysis/identity-analysis-chunk-b8f4f0490a36-p0001-01-entry-172-current-conversion-conflict-postconv-identity-researcher-20260526044737235.md`
-- Reviewed staged draft: `research/_staging/identity-analysis/identity-analysis-chunk-b8f4f0490a36-p0001-01-entry-172-current-conversion-conflict-postconv-identity-researcher-20260526044737235.md`
+# Proof Review: Entry 172 Current Conversion Conflict
+
+- Review task id: `proof-review:research/_staging/identity-analysis/identity-analysis-chunk-b8f4f0490a36-p0001-01-entry-172-current-conversion-conflict-postconv-identity-researcher-20260526045956374.md`
+- Reviewed staged draft: `research/_staging/identity-analysis/identity-analysis-chunk-b8f4f0490a36-p0001-01-entry-172-current-conversion-conflict-postconv-identity-researcher-20260526045956374.md`
 - Role: claim_reviewer
 - Review status: hold
-- canonical_readiness: blocked_pending_conversion_qa
+- canonical_readiness: hold_for_conversion_qa
 
 ## Blockers
 
-- The staged draft correctly identifies a material row-level conflict for entry 172: the chunk and source packet give a Pulgar/Arriagada birth row, while the current converted Markdown gives a Burgos/de la Cruz row for the same entry number.
-- The conflict affects all identity-bearing fields reviewed here: child name, sex wording, birth date/time, birth place, father, mother, informant, and downstream parent-child relationships.
-- The visible source image broadly supports the Pulgar/Arriagada row on page 58, entry 172, but this review is not a conversion-QA certification of every field. The father field still needs targeted QA before canonical use.
-- Same-cluster derivative materials cannot resolve the conflict. The review should not use existing canonical wiki pages as independent corroboration for this staged draft.
-- No Dario-line bridge, parent merge, duplicate-person resolution, or canonical claim promotion is proof-ready from this evidence set.
+- The same source hash, converted file, chunk id, and entry number carry incompatible derivative readings. The current converted Markdown reads entry `172` as `José Miguel`, child of `Oswaldo Burgos` and `Concepcion de la Cruz`; the current chunk and held source packet read entry `172` as `Jose del Carmen Segundo Pulgar Arriagada`, child of `Jose del Carmen Pulgar S.` and `Juana Arriagada de Pulgar`.
+- This is a row-level conversion conflict, not a name variant. It changes the child identity, sex label, birth date and time, birth place, father, mother, informant, and downstream relationship claims.
+- The father-field reading in the Pulgar row remains uncertified. Preserve `Jose del Carmen Pulgar`, `Jose del Carmen Pulgar S.`, and `Jose del Carmen Pulgar [?]` as review alternatives until targeted conversion QA resolves the source reading.
+- No Dario-line identity bridge is supported by the reviewed evidence. The reviewed artifacts do not name `Dario Arturo Pulgar-Smith`, `Dario Arturo Pulgar`, `Dario Jose Pulgar-Arriagada`, or `Dario/Darío Pulgar Arriagada`.
+- No child identity, birth fact, parent-child relationship, person merge, parent normalization, or Dario-line comparison should be promoted while the derivative conversion conflict remains open.
 
 ## Scoring
 
 - source_quality_score: 0.86
-- conversion_confidence_score: 0.32
-- evidence_quantity_score: 0.60
-- agreement_score: 0.46
-- identity_confidence_score: 0.66 for the Pulgar/Arriagada row; 0.18 for the Burgos/de la Cruz converted-file row
-- claim_probability: 0.76 that page 58 entry 172 is the Pulgar/Arriagada row; 0.18 that the current converted Markdown row is controlling for this source image
-- relevance_level: critical for Pulgar/Arriagada identity and relationship claims; low for any Dario-line bridge
-- relevance_confidence: 0.94 for the row-conflict issue; 0.20 for Dario-line identity linkage
-- canonical_readiness: blocked_pending_conversion_qa
+- conversion_confidence_score: 0.36
+- evidence_quantity_score: 0.62
+- agreement_score: 0.44
+- identity_confidence_score: 0.66
+- claim_probability: 0.84 for the staged claim that a material conversion conflict exists
+- claim_probability: 0.58 for the Pulgar/Arriagada identity row as canonically usable before QA
+- relevance_level: critical
+- relevance_confidence: 0.93
+- canonical_readiness: hold_for_conversion_qa
 
 ## Evidence Strengths
 
-- The staged identity analysis accurately preserves the competing derivative readings rather than normalizing them into a name variant.
-- The source packet is explicit that conversion confidence is low and recommends `hold_for_conversion_qa`.
-- The chunk transcription and source packet agree with each other on the Pulgar/Arriagada row for entry 172.
-- Visual review of the cited source image shows page 58, entry 172 as a Pulgar/Arriagada row at a broad identity level, making the converted Markdown's Burgos/de la Cruz row likely a wrong-source or stale-conversion conflict.
-- The staged draft appropriately treats parent identity, Juana-name variants, and Dario-line comparisons as anti-conflation risks rather than promoted conclusions.
+- The staged identity-analysis draft accurately identifies the controlling problem: two incompatible readings are attached to entry `172` for the same source package and derivative file set.
+- The held source packet explicitly marks conversion confidence as low and recommends `hold_for_conversion_qa`, which matches the observed conflict.
+- The current chunk supports the Pulgar/Arriagada row: child `Jose del Carmen Segundo Pulgar Arriagada`, father `Jose del Carmen Pulgar S.`, mother `Juana Arriagada de Pulgar`, birth on `Ocho de Marzo de mil ochocientos ochenta i ocho`, and informant `Ernesto Herrera L.`
+- Visual review of the cited page image supports the chunk/source-packet row at a broad level for entry `172`, including the Pulgar/Arriagada names and the Calle de Valdivia/Colipi context.
+- The staged draft correctly avoids promotion and correctly treats existing wiki pages as context only, not independent proof for the contested row.
 
 ## Review Judgment
 
-The staged draft is well supported as an identity-conflict analysis and should remain on hold. Its central claim is not that a canonical identity has been proved, but that the workspace contains incompatible readings for the same entry number and that promotion is blocked until targeted conversion QA resolves the controlling row.
+The staged identity-analysis draft is supported as a conflict analysis. Its central claim, that entry `172` is blocked by a material row-level conversion conflict, is well supported by direct comparison of the current converted Markdown, current chunk, held source packet, and page image.
 
-The best current probability favors the Pulgar/Arriagada row because the chunk, source packet, and visible image align at the row level. However, the current converted Markdown remains a direct contradictory derivative transcription, so canonical readiness stays blocked.
+The Pulgar/Arriagada row is plausible and visibly relevant, but not canonically ready because the assigned converted Markdown still preserves a contradictory Burgos/de la Cruz transcription for the same entry number. The evidence supports a hold, not promotion or merge activity.
 
 ## Next Action
 
-Send this source to targeted conversion QA for `CHUNK-b8f4f0490a36-P0001-01`. QA should reconcile the current converted Markdown, chunk, source packet, and source image for page 58, entry 172, then certify the father field only to the visible extent: `Jose del Carmen Pulgar`, `Jose del Carmen Pulgar S.`, or `Jose del Carmen Pulgar [?]`.
-
-After QA, rerun proof review for the child identity, birth facts, father claim, mother claim, and parent-child relationship claims. Do not promote or merge any related Pulgar, Arriagada, Juana, Burgos, de la Cruz, or Dario identities from this staged draft before that review.
+Send this item to targeted conversion QA for `CHUNK-b8f4f0490a36-P0001-01`. QA should reconcile the source image, current converted Markdown, current chunk, and held source packet; decide whether entry `172` is controlled by the Pulgar/Arriagada row or the Burgos/de la Cruz row; and certify the father field before any renewed proof review or canonical promotion.

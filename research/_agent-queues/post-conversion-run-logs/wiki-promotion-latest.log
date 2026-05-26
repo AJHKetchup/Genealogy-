@@ -1,4 +1,4 @@
-Wrote 812 conversion QC artifact(s)
+Wrote 815 conversion QC artifact(s)
 Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\conversion-qa.json
 Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\evidence-extraction.json
 Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\source-usability.json
@@ -21,7 +21,7 @@ Traceback (most recent call last):
 IndexError: list index out of range
 post-conversion-controller | summary
 {
-    "started":  "2026-05-26T09:13:37Z",
+    "started":  "2026-05-26T14:09:24Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "dry_run":  false,
     "allow_promotion":  true,
@@ -33,20 +33,20 @@ post-conversion-controller | summary
     "queues":  {
                    "conversion-qa":  {
                                          "done":  70,
-                                         "todo":  200
+                                         "todo":  201
                                      },
                    "evidence-extraction":  {
                                                "done":  45,
-                                               "todo":  117,
-                                               "deferred_low_relevance":  4669,
+                                               "todo":  118,
+                                               "deferred_low_relevance":  4693,
                                                "blocked_needs_reread":  29
                                            },
                    "identity-analysis":  {
-                                             "done":  199
+                                             "done":  201
                                          },
                    "proof-review":  {
-                                        "todo":  2540,
-                                        "done":  297,
+                                        "todo":  2574,
+                                        "done":  300,
                                         "released":  51
                                     },
                    "wiki-promotion":  {
@@ -61,5 +61,5 @@ post-conversion-controller | summary
     "blockers":  [
                      "refresh: genealogy-wiki failed: source-relevance sync-review-holds --root D:\\a\\Genealogy-\\Genealogy-: raise SystemExit(main()) |                      ^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 15254, in main |     summary = sync_proof_review_hold_feedback(args.root) |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6587, in sync_proof_review_hold_feedback |     relevance = proof_review_feedback_relevance(text) |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6979, in proof_review_feedback_relevance |     value = match.group(1).strip().lower().replace(\"_\", \" \").split()[0] |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^ | IndexError: list index out of range"
                  ],
-    "finished":  "2026-05-26T09:15:05Z"
+    "finished":  "2026-05-26T14:10:48Z"
 }
