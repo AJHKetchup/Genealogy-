@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-26T16:47:04.212900+00:00",
+  "created": "2026-05-26T19:29:41.340965+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -6128,6 +6128,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0776-0800-s519bis-26-4-pages-776-800/extracted-images/page-0790/page-0790-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0776-0800-s519bis-26-4-pages-776-800/extracted-images/page-0790/page-0790-docling-image-01.png",
+      "bytes": 1113499,
+      "sha256": "0aada2a4f214cc6f85c202be63cb18c1220c7c8d317ab9052c73fac01e41c9d7",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0776-0800-s519bis-26-4-pages-776-800/extracted-images/page-0794/page-0794-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0776-0800-s519bis-26-4-pages-776-800/extracted-images/page-0794/page-0794-docling-image-01.png",
       "bytes": 22320,
@@ -7455,6 +7462,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850/extracted-images/page-0837/page-0837-docling-image-01.png",
       "bytes": 55715,
       "sha256": "567616b7d2d9035f2f3d791536da731efd8797b5231b0d455e126a2d428040b0",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850/extracted-images/page-0839/page-0839-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850/extracted-images/page-0839/page-0839-docling-image-01.png",
+      "bytes": 50770,
+      "sha256": "f2cb5eef431bce244f3000c8c2c46a3b9610b4d61fe1385c15f92266d940231b",
       "media_type": "image/png"
     },
     {
@@ -12813,6 +12827,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0476-0481-r3578-50-5569-5569-jacket4-pages-476-481/extracted-images/page-0480/page-0480-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0476-0481-r3578-50-5569-5569-jacket4-pages-476-481/extracted-images/page-0480/page-0480-docling-image-01.png",
+      "bytes": 27218,
+      "sha256": "f761e59b6f4d2d69924ae4c07e9477ea7770308b8d4e60a9d13ad77cc8bf986d",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket1-pages-51-75/extracted-images/page-0055/page-0055-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket1-pages-51-75/extracted-images/page-0055/page-0055-docling-image-01.png",
       "bytes": 10520,
@@ -13187,9 +13208,9 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 13,
-    "total_bytes": 4954492,
-    "uploaded": 13,
+    "total_files": 3,
+    "total_bytes": 1191487,
+    "uploaded": 3,
     "skipped": 0,
     "planned": 0,
     "errors": [],
@@ -13200,9 +13221,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1887,
+      "scanned": 1890,
       "deleted": 0,
-      "skipped": 1887,
+      "skipped": 1890,
       "errors": []
     }
   }
