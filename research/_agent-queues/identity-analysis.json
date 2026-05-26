@@ -3,8 +3,7 @@
     "queue":  "identity-analysis",
     "task_count":  197,
     "status_counts":  {
-                          "done":  195,
-                          "todo":  2
+                          "done":  197
                       },
     "tasks":  [
                   {
@@ -2152,24 +2151,36 @@
                       "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-b8f4f0490a36-p0001-01-entry-172-row-level-conversion-conflict-postconv-evidence-extraction-20260526001440948-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-26T01:56:52Z",
+                      "agent":  "postconv-identity-analysis-20260526015453122",
+                      "started_at":  "2026-05-26T01:32:46Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/chunk-b8f4f0490a36-p0001-01-entry-172-row-level-conversion-conflict-postconv-evidence-extraction-20260526001440948.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-b8f4f0490a36-p0001-01-entry-172-row-level-conversion-conflict-postconv-evidence-extraction-20260526001440948-md.md",
+                      "completed_at":  "2026-05-26T01:56:52Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/chunk-b8f4f0490a36-p0001-01-entry-172-row-level-conversion-conflict-postconv-evidence-extraction-20260526001440948.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-26T01:32:45Z",
+                      "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-b8f4f0490a36-p0001-01-entry-172-row-level-conversion-conflict-postconv-evidence-extraction-20260526002943637-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-26T01:59:30Z",
+                      "agent":  "postconv-identity-analysis-20260526015729976",
+                      "started_at":  "2026-05-26T01:32:47Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/chunk-b8f4f0490a36-p0001-01-entry-172-row-level-conversion-conflict-postconv-evidence-extraction-20260526002943637.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-b8f4f0490a36-p0001-01-entry-172-row-level-conversion-conflict-postconv-evidence-extraction-20260526002943637-md.md",
+                      "completed_at":  "2026-05-26T01:59:30Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/chunk-b8f4f0490a36-p0001-01-entry-172-row-level-conversion-conflict-postconv-evidence-extraction-20260526002943637.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-26T01:32:46Z",
+                      "role":  "identity_researcher"
                   },
                   {
                       "skill":  "genealogy-proof-review",
