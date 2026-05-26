@@ -1,9 +1,9 @@
 ﻿{
-    "created":  "2026-05-25",
+    "created":  "2026-05-26",
     "queue":  "wiki-promotion",
     "task_count":  1,
     "status_counts":  {
-                          "disabled_requires_allow_promotion":  1
+                          "blocked_no_reviewed_ready":  1
                       },
     "tasks":  [
                   {
@@ -13,7 +13,7 @@
                       "ready_review_count":  0,
                       "role":  "wiki_promoter",
                       "task_id":  "wiki-promotion:reviewed-ready:none",
-                      "status":  "disabled_requires_allow_promotion",
+                      "status":  "blocked_no_reviewed_ready",
                       "skill":  "genealogy-proof-review"
                   }
               ]

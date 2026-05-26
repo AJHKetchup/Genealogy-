@@ -1,0 +1,38 @@
+---
+type: identity_analysis
+status: draft
+analysis_type: row_level_conversion_conflict
+subject: "Entry 172 child identity and parent identity evidence"
+source_packet: "research/_staging/source-packets/chunk-b8f4f0490a36-p0001-01-entry-172-pulgar-arriagada-revision-postconv-evidence-extraction-20260525234441526.md"
+source: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png"
+converted_file: "raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172.codex.md"
+chunk: "raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172-codex/page-0001-chunk-01.md"
+chunk_id: "CHUNK-b8f4f0490a36-P0001-01"
+page_reference: "page 1; register page 58; entry 172"
+confidence: low
+promotion_recommendation: hold_for_conversion_qa
+worker: "postconv-evidence-extraction-20260525234402120"
+task_id: "evidence-extraction:CHUNK-b8f4f0490a36-P0001-01"
+---
+
+# Identity Analysis: Entry 172 Conversion Conflict
+
+## Family-Centered Question
+
+Does entry 172 support Jose del Carmen Segundo Pulgar Arriagada as a Pulgar/Arriagada child, with parents Jose del Carmen Pulgar S. and Juana Arriagada de Pulgar?
+
+## Evidence In Favor
+
+The assigned chunk transcribes entry 172 on register page 58 as a Pulgar/Arriagada birth record. It gives the child's name as Jose del Carmen Segundo Pulgar Arriagada, sex Hombre, birth date 8 March 1888 at 3 p.m., birth place Calle de Valdivia, father Jose del Carmen Pulgar S., and mother Juana Arriagada de Pulgar.
+
+## Conflicting Derivative Evidence
+
+The assigned converted Markdown transcribes entry 172 as a different record for Jose Miguel, with father Oswaldo Burgos and mother Concepcion de la Cruz. This is a row-level conflict between derivative artifacts, not a resolved identity conflict.
+
+## Father-Field Issue
+
+The father field must not be normalized or merged yet. Targeted conversion QA should certify whether the field reads `Jose del Carmen Pulgar`, `Jose del Carmen Pulgar S.`, or `Jose del Carmen Pulgar [?]`.
+
+## Recommendation
+
+Keep all dependent identity, birth, parent-name, relationship, parent-merge, and Dario-line comparison work at `hold_for_conversion_qa`. Rerun proof review after targeted conversion QA resolves the controlling row and father-field transcription.
