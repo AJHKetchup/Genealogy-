@@ -2,9 +2,9 @@
 type: claim
 status: draft
 claim_type: appearance
-subject: Pedro Pablo Leiva
+subject: "entry 515 declarant identity unresolved"
 predicate: appeared_as_declarant
-object: "entry 515; father"
+object: "converted transcript says Pedro Pablo Leiva appeared as father/declarant; image-reviewed evidence appears closer to Pedro Pablo Neira"
 source: raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png
 source_packet: research/_staging/source-packets/SP-STAGE-CHUNK-bdb698de8106-P0001-01-los-angeles-birth-register-1889-page-172.md
 converted_file: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md
@@ -15,7 +15,7 @@ confidence: 2.0
 promotion_recommendation: hold_for_conversion_qa
 ---
 
-# Atomic Claim: Entry 515 Declarant
+# Atomic Claim: Entry 515 Declarant Conflict
 
 ## Literal Support
 
