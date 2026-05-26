@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-26T01:54:54.065090+00:00",
+  "created": "2026-05-26T06:14:11.816224+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -1365,6 +1365,27 @@
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700/extracted-images/page-0693/page-0693-docling-image-01.png",
       "bytes": 105566,
       "sha256": "8d29d6cc9680eec1cbbe223fa9e4b141d08db390836bc04f173d1abdbe82885b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0751-0761-r3578-50-5569-5569-jacket5-pages-751-761/extracted-images/page-0759/page-0759-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0751-0761-r3578-50-5569-5569-jacket5-pages-751-761/extracted-images/page-0759/page-0759-docling-image-01.png",
+      "bytes": 31818,
+      "sha256": "83e74e60f10fe54031d8118f458bb80ce9af7efb8d19eae85c03ec5dd3804e6e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0751-0761-r3578-50-5569-5569-jacket5-pages-751-761/extracted-images/page-0759/page-0759-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0751-0761-r3578-50-5569-5569-jacket5-pages-751-761/extracted-images/page-0759/page-0759-docling-image-02.png",
+      "bytes": 2146604,
+      "sha256": "94cf7c030e88ab1ff11c273f7704e78b2791fc4e081f7ce557bd097ad27a9703",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0751-0761-r3578-50-5569-5569-jacket5-pages-751-761/extracted-images/page-0759/page-0759-docling-image-03.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0751-0761-r3578-50-5569-5569-jacket5-pages-751-761/extracted-images/page-0759/page-0759-docling-image-03.png",
+      "bytes": 23142,
+      "sha256": "934d9ceb1e7eaa771741238f81396b2d193fd97e3904ea6ea1cd7606e64afa2b",
       "media_type": "image/png"
     },
     {
@@ -5281,6 +5302,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0605/page-0605-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0605/page-0605-docling-image-01.png",
+      "bytes": 1772261,
+      "sha256": "5a4a02f5d5b0e14e883db7a4a135d7bc8b4f83b69aefd0c54d944ef282d51b1d",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0606/page-0606-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0606/page-0606-docling-image-01.png",
       "bytes": 33954,
@@ -5628,6 +5656,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0703/page-0703-docling-image-01.png",
       "bytes": 24361,
       "sha256": "9533191e5cc2e35aeaf9ab2b17d41d0d0e32d42137639625b0be6e705761cc4f",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0704/page-0704-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0704/page-0704-docling-image-01.png",
+      "bytes": 72358,
+      "sha256": "131457b8d9cf1a87bcdd87ced38f636c33e7546b36ed7247782c9c94fe3dac42",
       "media_type": "image/png"
     },
     {
@@ -12991,9 +13026,9 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
+    "total_files": 5,
+    "total_bytes": 4046183,
+    "uploaded": 5,
     "skipped": 0,
     "planned": 0,
     "errors": [],
@@ -13004,9 +13039,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1859,
+      "scanned": 1864,
       "deleted": 0,
-      "skipped": 1859,
+      "skipped": 1864,
       "errors": []
     }
   }
