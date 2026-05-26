@@ -1,0 +1,83 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2c826ef348db-P0452-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0451-0475-r4749-11c-17499-5398-pages-451-475.codex.md
+converted_sha256: 2c826ef348dbc88a4497c625121a3ed33e8b274caba78409754da1c4e4ffe9da
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0451-0475-r4749-11c-17499-5398-pages-451-475/manifest.json
+page_start: 452
+page_end: 452
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0451-0475-r4749-11c-17499-5398-pages-451-475/manifest.json`
+- Source page: 452
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0451-0475-r4749-11c-17499-5398-pages-451-475/page-images/page-0452.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+- 1 Asesor de Menores.
+- 1 Agente Fiscal.
+
+30 Delegados de libertad vigilada (honorarios, pero con remuneraciôn de gastos extraordinarios y viâtico de 200 pesos m|n.)
+
+Art. 82. --Los Secretarios letrados o Escribanos tienen la funciôn de dar fe en las Actas judiciales, estando a su cargo el despacho, son los Jefes de las respectivas oficinas, con las obligaciones que preceptûen las leyes de organizacidn y procedimientos judiciales.
+
+- Art. 83. - El Inspector General de Libertad Vigilada depende directamente del Juez: resueltos los expedientes sobre abandono material o peligro moral, se encargarâ de la colocaciôn en familia de los meno¬ res, conviniendo con las personas que se interesen por ellos todo cuanto se refiera a su asistencia, protecciôn y trabajo; designarà los delegados que deban informai' periôdicamente; estudiarâ los informes escritos que tenvien los guardadores; visitarâ personalmente los establecimientos pûblicos o privados donde se encuentren menores internados por orden del Tribunal; someterâ al Juez toda cuestiôn que requiera su autoridad o resoluciôn judicial.
+
+## CAPITULO IIP
+
+## DEL PROCEDIMIENTO
+
+- Art. 84. - El procedimiento ante el Tribunal es verbal y actuado, no debiéndose admitir en ninguna oportunidad la presentation de es¬ critos, ni aun como parte de las actas con,cernientes a las audiencias. El Secretario levantarâ las actas consignando lo que ordene el Juez, debiendo concretarse a la identification de las personas, las cuestiones peticionadas, fundadas concisamente y las respuestas sintéticas de los in¬ terrogatories.
+- Art. 85. - Cuando la Policia tenga conocimiento que a un menor se le imputa un delito, falta o en caso de encontrarse en las condiciones de abandono material o peligro moral, remitirâ al Juez en el término de las veinticuatro horas la denuncia y una informaciôn detallada de los hechos, nombres de personas, domicilios y demâs datos utiles a la in-
+- vestigaciôn.
+
+Art. 86. - Si el menor se hallare detenido la autoridad policial te-
+
+legrafiarâ al Juez, quien lo liarâ comparecer a su presencia antes de las
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 453
