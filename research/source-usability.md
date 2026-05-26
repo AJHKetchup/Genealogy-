@@ -1,6 +1,6 @@
 # Source Usability
 
-Generated: 2026-05-26T09:14:50Z
+Generated: 2026-05-26T10:19:21Z
 
 This report answers whether each raw source is ready for LLM extraction, still waiting on conversion, or held only on specific pages that need reread.
 
@@ -29,7 +29,7 @@ This report answers whether each raw source is ready for LLM extraction, still w
 | raw/sources/R3578-50-5569-5569-Jacket4.pdf | partially_usable_for_extraction | 4 | 4 | 0 | 0 |
 | raw/sources/R3578-50-5569-5569-Jacket5.pdf | partially_usable_for_extraction | 19 | 19 | 0 | 0 |
 | raw/sources/R3578-50-7801-5569.pdf | usable_with_page_holds | 2 | 2 | 0 | 1 |
-| raw/sources/R4749-11C-17499-5398.pdf | partial_with_page_holds | 9 | 9 | 0 | 1 |
+| raw/sources/R4749-11C-17499-5398.pdf | partial_with_page_holds | 10 | 10 | 0 | 1 |
 | raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png | usable_for_extraction | 1 | 2 | 0 | 0 |
 | raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png | usable_for_extraction | 1 | 2 | 0 | 0 |
 | raw/sources/S495-2-2.pdf | partially_usable_for_extraction | 3 | 3 | 0 | 0 |

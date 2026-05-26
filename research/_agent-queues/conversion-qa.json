@@ -1,10 +1,10 @@
 {
   "created": "2026-05-26",
   "queue": "conversion-qa",
-  "task_count": 270,
+  "task_count": 271,
   "status_counts": {
     "done": 70,
-    "todo": 200
+    "todo": 201
   },
   "tasks": [
     {
@@ -4994,6 +4994,23 @@
       "auto_qc_page_queue": "research/_conversion-review/page-queues/caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450-codex.md",
       "auto_qc_corrections": "research/_conversion-review/corrections/caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450-codex.md",
       "prompt_path": "research/_agent-queues/prompts/conversion-qa/conversion-qa-raw-converted-caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-page-cbe586525544.md"
+    },
+    {
+      "task_id": "conversion-qa:raw-converted-caf1c3ebcf-r4749-11c-17499-5398-p0451-0475-r4749-11c-17499-5398-pages-451-475-codex-md",
+      "queue": "conversion-qa",
+      "role": "conversion_qa_reviewer",
+      "skill": "conversion-qa-triage",
+      "status": "todo",
+      "converted_file": "raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0451-0475-r4749-11c-17499-5398-pages-451-475.codex.md",
+      "chunk_manifest": "raw/chunks/caf1c3ebcf-r4749-11c-17499-5398-p0451-0475-r4749-11c-17499-5398-pages-451-475-codex/manifest.json",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "source_sha256": "f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d",
+      "source_manifest": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0451-0475-r4749-11c-17499-5398-pages-451-475/manifest.json",
+      "output_dir": "research/_conversion-review",
+      "auto_qc_triage": "research/_conversion-review/triage/caf1c3ebcf-r4749-11c-17499-5398-p0451-0475-r4749-11c-17499-5398-pages-451-475-codex.md",
+      "auto_qc_page_queue": "research/_conversion-review/page-queues/caf1c3ebcf-r4749-11c-17499-5398-p0451-0475-r4749-11c-17499-5398-pages-451-475-codex.md",
+      "auto_qc_corrections": "research/_conversion-review/corrections/caf1c3ebcf-r4749-11c-17499-5398-p0451-0475-r4749-11c-17499-5398-pages-451-475-codex.md",
+      "prompt_path": "research/_agent-queues/prompts/conversion-qa/conversion-qa-raw-converted-caf1c3ebcf-r4749-11c-17499-5398-p0451-0475-r4749-11c-17499-5398-page-29c03a93aa92.md"
     },
     {
       "task_id": "conversion-qa:raw-converted-cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11-codex-md",
