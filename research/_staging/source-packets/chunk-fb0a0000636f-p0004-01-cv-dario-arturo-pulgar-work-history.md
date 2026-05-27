@@ -2,7 +2,9 @@
 type: source_packet
 status: draft
 task_id: evidence-extraction:CHUNK-fb0a0000636f-P0004-01
-worker: postconv-evidence-extraction-20260527050559381
+worker: postconv-evidence-extraction-20260527114912066
+revision_worker: postconv-evidence-extraction-20260527120509718
+revision_at: 2026-05-27T12:06:16Z
 source_title: CV of Dario Arturo Pulgar
 source_type: curriculum_vitae
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
@@ -16,14 +18,14 @@ chunk_manifest: raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-
 page_reference: page 4
 page_start: 4
 page_end: 4
-source_identity: Dario Arturo Pulgar, identified by the source title; this page appears to be a curriculum vitae work-history page for him.
+source_identity: Dario Arturo Pulgar, identified by the source title; this assigned chunk is intended as a curriculum vitae work-history page for him, but page-control QA is unresolved.
 family_relevance: medium
 matched_terms: Dario; Pulgar
 literal_support: "1988-1989 / Food and Agriculture Organisation of the United Nations (FAO) / Ndola, Zambia / Training and Communication Advisor; 1988 / Canadian International Development Agency (CIDA) / Ethiopia / Communication Consultant; 1986 - 1987 / Worldview International Foundation (WIF) / Rome, Italy / Rural Communications and Extension Advisor; 1982-1985 / Independent communications consultant / Canadian International Development Agency"
-conversion_confidence: high; converted chunk reports complete transcription and no uncertain or illegible text.
-conversion_qa_concern: The original page image was not reviewed during this extraction; the chunk manifest contains duplicate page-4 entries with the same chunk id but differing character counts and sha256 values, so page identity and continuity should be verified before promotion.
-uncertainty: Low for the work-history entries as converted; moderate that the page body does not repeat Dario Arturo Pulgar's name and relies on the CV source title and document continuity for subject identity. The opening paragraph is a continuation from a previous entry and lacks a complete heading in this chunk.
-promotion_recommendation: promote_after_review
+conversion_confidence: low for page control; the assigned chunk text is internally readable, but proof review reports that the rendered page-4 image and current converted page 4 show different 1999-2000 text.
+conversion_qa_concern: The chunk manifest contains duplicate page-4 entries with the same chunk id and path but differing character counts and sha256 values, including neither value matching the current chunk file hash observed by proof review. The current converted page 4 supports 2000 IBRD and 1999-2000 Antamina text, while this referenced chunk/source packet support 1982-1989 text. Source-prep/conversion QA must decide which physical page controls the 1982-1989 entries.
+uncertainty: High for using these 1982-1989 entries as page-4 evidence until conversion QA reconciles the manifest and page image conflict; moderate for subject attachment because the page body relies on the CV source title and document continuity for the name.
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Source Packet: CV of Dario Arturo Pulgar, Page 4
@@ -63,8 +65,8 @@ Canadian International Development Agency
 
 ## Evidence Scope
 
-This packet supports staged narrative claims about Dario Arturo Pulgar's professional roles, dates, work locations, and project travel or assignments between 1982 and 1989. It does not state a birth, death, parent, spouse, child, sibling, household, or other kinship relationship.
+This packet preserves derivative chunk support for staged narrative claims about Dario Arturo Pulgar's professional roles, dates, work locations, and project travel or assignments between 1982 and 1989. It should not be promoted as page-4 evidence until source-prep/conversion QA reconciles the page-control conflict. It does not state a birth, death, parent, spouse, child, sibling, household, or other kinship relationship.
 
 ## QA Notes
 
-The converted chunk states that the page is fully transcribed and has no uncertain or illegible text. Promotion should verify the original PDF page image, document title-to-page continuity, and the manifest anomaly in which page 4 appears twice with the same chunk id but different sha256 values.
+Proof review found this packet is not promotion-ready. The referenced chunk contains the 1982-1989 work-history entries above, but the rendered page image for page 4 and current converted page-4 text show 2000 IBRD / Bolivia, Peru and 1999-2000 Antamina / Huarmey, Peru entries. The chunk manifest also lists `CHUNK-fb0a0000636f-P0004-01` twice for the same path/page with different character counts and hashes. Hold all claims from this packet for targeted source-prep/conversion QA, then rerun proof review before canonical promotion.

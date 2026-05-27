@@ -1,6 +1,8 @@
 ---
 type: claim
 status: draft
+revision_worker: postconv-evidence-extraction-20260527120509718
+revision_at: 2026-05-27T12:06:16Z
 claim_type: employment
 subject: "Dario Arturo Pulgar"
 predicate: "worked as"
@@ -15,13 +17,13 @@ date_range: "1982-1985"
 organization: "Canadian International Development Agency"
 role: "Independent communications consultant"
 literal_support: "1982-1985; Independent communications consultant; Canadian International Development Agency; As an independent communications consultant..."
-conversion_confidence: high
-conversion_qa_concern: "The chunk reports complete transcription and no uncertain or illegible words, but the original page image was not reviewed and the manifest has duplicate page-4 entries with the same chunk id."
-uncertainty: "Medium because the heading names Canadian International Development Agency and the paragraph lists several consulting activities, but the exact contractual relationship should be proof-reviewed before canonical promotion."
-confidence: medium
-promotion_recommendation: promote_after_review
+conversion_confidence: low_for_page_control
+conversion_qa_concern: "Proof review and current converted page 4 show 2000 IBRD and 1999-2000 Antamina text, while this referenced chunk/source packet show the 1982-1985 independent consultant text. The manifest duplicates this page-4 chunk id/path with different character counts and hashes, so source-prep QA must determine the physical page for the 1982-1985 consultant text."
+uncertainty: "Medium because the heading names Canadian International Development Agency and the paragraph lists several consulting activities; high for using it as page-4 evidence until source-prep/conversion QA reconciles which physical page controls this text."
+confidence: low_pending_conversion_qa
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Claim: Independent Communications Consultant
 
-Dario Arturo Pulgar is reported in the CV as an independent communications consultant connected with Canadian International Development Agency work during 1982-1985.
+Dario Arturo Pulgar is reported in the derivative chunk as an independent communications consultant connected with Canadian International Development Agency work during 1982-1985. Hold this claim for conversion QA because page-4 image/current converted text conflict with the referenced chunk.
