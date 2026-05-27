@@ -1,43 +1,55 @@
-# Proof Review: Entry 172 Row-Level Conversion Conflict
+---
+type: proof_review
+status: draft
+role: claim_reviewer
+worker: postconv-proof-review-20260527070947952
+task_id: "proof-review:research/_staging/identity-analysis/chunk-b8f4f0490a36-p0001-01-entry-172-row-level-conversion-conflict-postconv-identity-analysis-20260527031003832.md"
+reviewed_staged_draft: "research/_staging/identity-analysis/chunk-b8f4f0490a36-p0001-01-entry-172-row-level-conversion-conflict-postconv-identity-analysis-20260527031003832.md"
+source_packet: "research/_staging/source-packets/chunk-b8f4f0490a36-p0001-01-entry-172-pulgar-arriagada-imageqa-postconv-evidence-extraction-20260527020803650.md"
+conversion_review_note: "research/_staging/conversion-review/chunk-b8f4f0490a36-p0001-01-entry-172-targeted-conversion-qa-note-postconv-evidence-extraction-20260527020803650.md"
+converted_file: "raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172.codex.md"
+chunk: "raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172-codex/page-0001-chunk-01.md"
+source: "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png"
+review_status: hold
+canonical_readiness: hold_for_conversion_qa
+---
 
-- Review task id: `proof-review:research/_staging/identity-analysis/chunk-b8f4f0490a36-p0001-01-entry-172-row-level-conversion-conflict-postconv-identity-analysis-20260527030052086.md`
-- Reviewed staged draft: `research/_staging/identity-analysis/chunk-b8f4f0490a36-p0001-01-entry-172-row-level-conversion-conflict-postconv-identity-analysis-20260527030052086.md`
-- Role: claim_reviewer
-- Review status: hold
-- canonical_readiness: hold_for_conversion_qa
+# Proof Review: Entry 172 Row-Level Conversion Conflict
 
 ## Blockers
 
-- The converted Markdown still assigns entry `172` to a different Burgos/de la Cruz birth entry, while the current chunk, source packet, QA note, and visible source image support physical row `172` as the Pulgar/Arriagada birth registration. This unresolved derivative conflict blocks canonical promotion.
-- The father field should not be promoted with the chunk's terminal `S.`. The image and QA packet support `Jose del Carmen Pulgar` as the bounded reading, with the terminal mark unresolved.
-- The staged analysis correctly rejects a Dario identity bridge. The row does not name Dario, Arturo, Smith, or a later Pulgar-Arriagada adult, so it cannot support same-person or lineage claims to those identities.
-- Parent identity links remain candidate-level only. This row supports parents named `Jose del Carmen Pulgar` and `Juana Arriagada de Pulgar`, but not merges to every same-name Jose/Juana stub or to `Juana de Dios Amagada de Pulgar`.
+- The staged identity analysis is materially supported as a conflict note, but it is not canonically ready because the assigned converted Markdown still records entry `172` as `Jose Miguel`, child of `Oswaldo Burgos` and `Concepcion de la Cruz`, while the source image, source packet, QA note, and current chunk support a Pulgar/Arriagada row.
+- This is a row-control and identity conflict, not a harmless name variant. The competing layers differ on child name, parents, birth date/time, birth place or residence context, informant, and official context.
+- The father field should remain bounded to `Jose del Carmen Pulgar` for proof purposes. The current chunk's terminal `S.` after `Pulgar` is plausible derivative text but is not sufficiently certified by the source packet or QA note.
+- No Dario identity, Smith surname, later Pulgar-Arriagada person, or broader Jose/Juana merge is directly named or proved by this entry. Any lineage or duplicate-person bridge from this row would be a separate proof task.
+- Do not promote any tree-impacting claim from this staged draft until conversion-control repairs, supersedes, or quarantines the conflicting converted Markdown.
 
 ## Scoring
 
-- source_quality_score: 0.88
+- source_quality_score: 0.86
 - conversion_confidence_score: 0.44
-- evidence_quantity_score: 0.72
-- agreement_score: 0.58
+- evidence_quantity_score: 0.68
+- agreement_score: 0.56
 - identity_confidence_score: 0.76
-- claim_probability: 0.82
+- claim_probability: 0.80
 - relevance_level: critical
-- relevance_confidence: 0.95
+- relevance_confidence: 0.94
 - canonical_readiness: hold_for_conversion_qa
 
 ## Evidence Strengths
 
-- The source is a contemporary civil birth register image, a strong source type for birth identity, parent names, registration date, and row-control evidence.
-- The visible page image shows page 58 with physical entry `172` on the Pulgar/Arriagada row, agreeing with the source packet, QA note, and current chunk on the central row-control finding.
-- The staged draft handles uncertainty appropriately by separating the image-supported Pulgar/Arriagada row from the conflicting converted Markdown and by keeping broader Dario/Jose/Juana identity links unpromoted.
-- The draft's hold recommendation is proportionate to the risk: the local row identity is probable, but the conversion layer remains unsafe for canonical use.
+- The original civil birth-register page image is available and was checked for the row-control question.
+- Visual review supports that physical entry `172` on page 58 is the Pulgar/Arriagada row: child `Jose del Carmen Segundo Pulgar Arriagada`, father `Jose del Carmen Pulgar`, mother `Juana Arriagada de Pulgar`, and informant `Ernesto Herrera L.`.
+- The current chunk agrees with the Pulgar/Arriagada row for entry `172`, including the child, mother, birth date/time, birth place, and informant.
+- The source packet and targeted QA note explicitly preserve the derivative conflict and correctly recommend holding promotion pending conversion QA.
+- The staged identity analysis keeps the Dario and broader parent-candidate issues separate from the literal row evidence, which reduces relationship-jump risk.
 
 ## Review Judgment
 
-The staged draft is supported as an identity-conflict analysis. The most probable reading is that physical entry `172` in the assigned source image is the Pulgar/Arriagada birth registration, and the Burgos/de la Cruz text in the converted Markdown is stale, row-shifted, or from a different image context. The father-name suffix remains unresolved and should be bounded to `Jose del Carmen Pulgar` unless a focused review certifies the terminal mark.
+The staged draft is well supported as an identity/conflict analysis. The most probable local reading is that the physical row numbered `172` in the cited source image is the Pulgar/Arriagada birth registration, not the Burgos/de la Cruz entry currently present in the converted Markdown.
 
-This review does not approve promotion to canonical claims, relationships, or person pages. The proper proof decision is `hold_for_conversion_qa`, not rejection of the staged analysis and not canonical readiness.
+The claim probability is moderately high for the row-control conclusion, but canonical readiness remains low because the workspace still contains a direct derivative conflict at the same entry number. This review should be treated as a hold with a narrow conversion-control next step, not as promotion approval.
 
 ## Next Action
 
-Send the converted Markdown and any downstream chunks for conversion-control reconciliation against the source image for page 58, physical entry `172`. After that reconciliation, run a narrower proof review on the birth claim and parent relationship claims before any canonical promotion.
+Send to conversion QA or conversion-control to reconcile `raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172.codex.md` against the source image and current chunk. Carry the father field as `Jose del Carmen Pulgar` unless a focused crop or later proof review certifies the terminal mark after `Pulgar`.
