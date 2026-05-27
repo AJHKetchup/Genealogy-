@@ -1,10 +1,10 @@
 {
   "created": "2026-05-27",
   "queue": "source-prep-batches",
-  "task_count": 297,
+  "task_count": 294,
   "status_counts": {
-    "needs_reread": 164,
-    "todo": 133
+    "needs_reread": 173,
+    "todo": 121
   },
   "tasks": [
     {
@@ -3494,6 +3494,51 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-86806d8f20d9.md"
     },
     {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0942",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0929-0953",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 929-953",
+      "first_page": 942,
+      "last_page": 942,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0942"
+      ],
+      "pages": [
+        {
+          "page": 942,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0942",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-images/page-0942.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/work-orders/page-0942.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-markdown/page-0942.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/extracted-images/page-0942",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-a8ad6acd83e1.md"
+    },
+    {
       "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0943",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -3580,6 +3625,96 @@
         "insufficient_words"
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-cf09913dd810.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0945",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0929-0953",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 929-953",
+      "first_page": 945,
+      "last_page": 945,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0945"
+      ],
+      "pages": [
+        {
+          "page": 945,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0945",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-images/page-0945.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/work-orders/page-0945.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-markdown/page-0945.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/extracted-images/page-0945",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-58facc770961.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0947",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0929-0953",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 929-953",
+      "first_page": 947,
+      "last_page": 947,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0947"
+      ],
+      "pages": [
+        {
+          "page": 947,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0947",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-images/page-0947.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/work-orders/page-0947.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-markdown/page-0947.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/extracted-images/page-0947",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-73761a97ba22.md"
     },
     {
       "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0948",
@@ -3717,6 +3852,94 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-0b38ac544acf.md"
     },
     {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0953",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0929-0953",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 929-953",
+      "first_page": 953,
+      "last_page": 953,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0953"
+      ],
+      "pages": [
+        {
+          "page": 953,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0953",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-images/page-0953.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/work-orders/page-0953.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-markdown/page-0953.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/extracted-images/page-0953",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-f665e31a8d86.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978:p0965",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0954-0978",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 954-978",
+      "first_page": 965,
+      "last_page": 965,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978:p0965"
+      ],
+      "pages": [
+        {
+          "page": 965,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978:p0965",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978/page-images/page-0965.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978/work-orders/page-0965.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978/page-markdown/page-0965.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978/extracted-images/page-0965",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-2ff2c2f3ac13.md"
+    },
+    {
       "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1008",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -3760,6 +3983,51 @@
         "insufficient_words"
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-87ad6cd5bf39.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1009",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p1004-1028",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 1004-1028",
+      "first_page": 1009,
+      "last_page": 1009,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1009"
+      ],
+      "pages": [
+        {
+          "page": 1009,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1009",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028/page-images/page-1009.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028/work-orders/page-1009.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028/page-markdown/page-1009.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028/extracted-images/page-1009",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-663edff81c74.md"
     },
     {
       "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053:p1052",
@@ -3887,6 +4155,141 @@
         "insufficient_text"
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p1104-1128-c-mara-de-senadores-de-la-naci-38d1fe73b4f3.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153:p1147",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p1129-1153",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 1129-1153",
+      "first_page": 1147,
+      "last_page": 1147,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153:p1147"
+      ],
+      "pages": [
+        {
+          "page": 1147,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153:p1147",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153/page-images/page-1147.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153/work-orders/page-1147.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153/page-markdown/page-1147.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153/extracted-images/page-1147",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-0834cf981466.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342:p1340",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p1329-1342",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 1329-1342",
+      "first_page": 1340,
+      "last_page": 1340,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342:p1340"
+      ],
+      "pages": [
+        {
+          "page": 1340,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342:p1340",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/page-images/page-1340.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/work-orders/page-1340.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/page-markdown/page-1340.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/extracted-images/page-1340",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-32995a8a3b03.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342:p1341",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p1329-1342",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 1329-1342",
+      "first_page": 1341,
+      "last_page": 1341,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342:p1341"
+      ],
+      "pages": [
+        {
+          "page": 1341,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342:p1341",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/page-images/page-1341.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/work-orders/page-1341.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/page-markdown/page-1341.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/extracted-images/page-1341",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-bf94347f0444.md"
     },
     {
       "task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0001",
@@ -8090,378 +8493,6 @@
         }
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca09a98281-r3578-50-5569-5569-jacke-p0751-0761-r3578-50-5569-5569-jacket5-page-fa4372fca617.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0904-0928-c-mara-de-senadores-de-la-naci-n-1936-pages-904-928:p0922",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0904-0928-c-mara-de-senadores-de-la-naci-n-1936-pages-904-928/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0904-0928",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 904-928",
-      "first_page": 922,
-      "last_page": 922,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0904-0928-c-mara-de-senadores-de-la-naci-n-1936-pages-904-928:p0922"
-      ],
-      "pages": [
-        {
-          "page": 922,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0904-0928-c-mara-de-senadores-de-la-naci-n-1936-pages-904-928:p0922",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0904-0928-c-mara-de-senadores-de-la-naci-n-1936-pages-904-928/page-images/page-0922.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0904-0928-c-mara-de-senadores-de-la-naci-n-1936-pages-904-928/work-orders/page-0922.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0904-0928-c-mara-de-senadores-de-la-naci-n-1936-pages-904-928/page-markdown/page-0922.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0904-0928-c-mara-de-senadores-de-la-naci-n-1936-pages-904-928/extracted-images/page-0922",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0904-0928-c-mara-de-senadores-de-la-naci-4eb283e5ecbc.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0942",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0929-0953",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 929-953",
-      "first_page": 942,
-      "last_page": 942,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0942"
-      ],
-      "pages": [
-        {
-          "page": 942,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0942",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-images/page-0942.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/work-orders/page-0942.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-markdown/page-0942.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/extracted-images/page-0942",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-a8ad6acd83e1.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0945",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0929-0953",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 929-953",
-      "first_page": 945,
-      "last_page": 945,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0945"
-      ],
-      "pages": [
-        {
-          "page": 945,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0945",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-images/page-0945.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/work-orders/page-0945.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-markdown/page-0945.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/extracted-images/page-0945",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-58facc770961.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0947",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0929-0953",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 929-953",
-      "first_page": 947,
-      "last_page": 947,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0947"
-      ],
-      "pages": [
-        {
-          "page": 947,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0947",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-images/page-0947.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/work-orders/page-0947.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-markdown/page-0947.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/extracted-images/page-0947",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-73761a97ba22.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0950",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0929-0953",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 929-953",
-      "first_page": 950,
-      "last_page": 950,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0950"
-      ],
-      "pages": [
-        {
-          "page": 950,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0950",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-images/page-0950.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/work-orders/page-0950.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-markdown/page-0950.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/extracted-images/page-0950",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-6867a01c8b99.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0953",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0929-0953",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 929-953",
-      "first_page": 953,
-      "last_page": 953,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0953"
-      ],
-      "pages": [
-        {
-          "page": 953,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0953",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-images/page-0953.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/work-orders/page-0953.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-markdown/page-0953.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/extracted-images/page-0953",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-f665e31a8d86.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978:p0965",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0954-0978",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 954-978",
-      "first_page": 965,
-      "last_page": 965,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978:p0965"
-      ],
-      "pages": [
-        {
-          "page": 965,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978:p0965",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978/page-images/page-0965.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978/work-orders/page-0965.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978/page-markdown/page-0965.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978/extracted-images/page-0965",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-2ff2c2f3ac13.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1009",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p1004-1028",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 1004-1028",
-      "first_page": 1009,
-      "last_page": 1009,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1009"
-      ],
-      "pages": [
-        {
-          "page": 1009,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1009",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028/page-images/page-1009.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028/work-orders/page-1009.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028/page-markdown/page-1009.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028/extracted-images/page-1009",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-663edff81c74.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053:p1042",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p1029-1053",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 1029-1053",
-      "first_page": 1042,
-      "last_page": 1042,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053:p1042"
-      ],
-      "pages": [
-        {
-          "page": 1042,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053:p1042",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053/page-images/page-1042.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053/work-orders/page-1042.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053/page-markdown/page-1042.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053/extracted-images/page-1042",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-9d915205c51a.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153:p1147",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p1129-1153",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 1129-1153",
-      "first_page": 1147,
-      "last_page": 1147,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153:p1147"
-      ],
-      "pages": [
-        {
-          "page": 1147,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153:p1147",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153/page-images/page-1147.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153/work-orders/page-1147.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153/page-markdown/page-1147.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153/extracted-images/page-1147",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-0834cf981466.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342:p1340",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p1329-1342",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 1329-1342",
-      "first_page": 1340,
-      "last_page": 1340,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342:p1340"
-      ],
-      "pages": [
-        {
-          "page": 1340,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342:p1340",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/page-images/page-1340.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/work-orders/page-1340.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/page-markdown/page-1340.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/extracted-images/page-1340",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-32995a8a3b03.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342:p1341",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "todo",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/manifest.json",
-      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p1329-1342",
-      "title": "Cámara de Senadores de la Nación, 1936 pages 1329-1342",
-      "first_page": 1341,
-      "last_page": 1341,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342:p1341"
-      ],
-      "pages": [
-        {
-          "page": 1341,
-          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342:p1341",
-          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/page-images/page-1341.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/work-orders/page-1341.md",
-          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/page-markdown/page-1341.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/extracted-images/page-1341",
-          "media_type": "pdf"
-        }
-      ],
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-bf94347f0444.md"
     },
     {
       "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342:p1342",

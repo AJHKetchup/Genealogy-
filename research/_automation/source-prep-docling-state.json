@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-27T11:01:59Z",
+  "created": "2026-05-27T14:31:48Z",
   "mode": "source-prep-docling-discovery",
   "dry_run": false,
   "agent": "source-prep-docling-discovery",
@@ -14,35 +14,87 @@
   "document_timeout": 120.0,
   "hard_timeout": 150.0,
   "queue_scope": "source-prep-batches",
-  "queue_task_count": 299,
+  "queue_task_count": 297,
   "filters": {
     "source": "",
     "source_sha256": ""
   },
   "inspected": 12,
-  "accepted": 2,
-  "unusable": 10,
+  "accepted": 3,
+  "unusable": 9,
   "fast_unusable": 0,
   "errors": 0,
-  "extracted_images": 1,
+  "extracted_images": 4,
   "skipped": {
-    "ocr_limit_reached": 133
+    "ocr_limit_reached": 121
   },
   "tasks": [
     {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0754-0778-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-754-778:p0760",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 760,
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0942",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 942,
       "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0754-0778-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-754-778/page-0760.md",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-0942.md",
       "readability_flags": [
         "insufficient_text",
         "insufficient_alpha_text",
         "insufficient_words"
       ],
       "profile_version": 6,
-      "text_chars": 0,
+      "text_chars": 1,
+      "extracted_image_count": 1,
+      "extracted_image_methods": [
+        "docling_picture_image"
+      ],
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 0,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words",
+        "possible_ocr_garbage"
+      ],
+      "text_layer_used_without_ocr": false
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0904-0928-c-mara-de-senadores-de-la-naci-n-1936-pages-904-928:p0922",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 922,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0904-0928-c-mara-de-senadores-de-la-naci-n-1936-pages-904-928/page-0922.md",
+      "readability_flags": [],
+      "profile_version": 6,
+      "text_chars": 233,
       "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 0,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_layer_used_without_ocr": false,
+      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0904-0928-c-mara-de-senadores-de-la-naci-n-1936-pages-904-928/page-markdown/page-0922.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0947",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 947,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-0947.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 66,
+      "extracted_image_count": 1,
+      "extracted_image_methods": [
+        "docling_picture_image"
+      ],
       "docling_ocr": true,
       "text_layer_alpha_chars": 0,
       "likely_full_page_scan": true,
@@ -54,35 +106,11 @@
       "text_layer_used_without_ocr": false
     },
     {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853:p0840",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 840,
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0945",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 945,
       "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853/page-0840.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 0,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "text_layer_used_without_ocr": false
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853:p0842",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 842,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853/page-0842.md",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-0945.md",
       "readability_flags": [
         "insufficient_text",
         "insufficient_alpha_text",
@@ -105,203 +133,40 @@
       "text_layer_used_without_ocr": false
     },
     {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0851-0875-s519bis-26-4-pages-851-875:p0856",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 856,
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0953",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 953,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-0953.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text"
+      ],
+      "profile_version": 6,
+      "text_chars": 104,
+      "extracted_image_count": 1,
+      "extracted_image_methods": [
+        "docling_picture_image"
+      ],
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 0,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_layer_used_without_ocr": false
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953:p0950",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 950,
       "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0851-0875-s519bis-26-4-pages-851-875/page-0856.md",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-0950.md",
       "readability_flags": [],
       "profile_version": 6,
-      "text_chars": 252,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 1,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0851-0875-s519bis-26-4-pages-851-875/page-markdown/page-0856.md"
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853:p0844",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 844,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853/page-0844.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 0,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "text_layer_used_without_ocr": false
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0929-0953-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-929-953:p0948",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 948,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0929-0953-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-929-953/page-0948.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 0,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "text_layer_used_without_ocr": false
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0979-1003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-979-1003:p0982",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 982,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0979-1003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-979-1003/page-0982.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 0,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "text_layer_used_without_ocr": false
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028:p1020",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 1020,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028/page-1020.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 0,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "text_layer_used_without_ocr": false
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p1179-1194-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1179-1194:p1192",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 1192,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p1179-1194-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1179-1194/page-1192.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 15,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 0,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "text_layer_used_without_ocr": false
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p1179-1194-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1179-1194:p1193",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 1193,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p1179-1194-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1179-1194/page-1193.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 0,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "text_layer_used_without_ocr": false
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0604-0628-c-mara-de-senadores-de-la-naci-n-1936-pages-604-628:p0625",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 625,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0604-0628-c-mara-de-senadores-de-la-naci-n-1936-pages-604-628/page-0625.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 0,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "text_layer_used_without_ocr": false
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0554-0578-c-mara-de-senadores-de-la-naci-n-1936-pages-554-578:p0571",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 571,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0554-0578-c-mara-de-senadores-de-la-naci-n-1936-pages-554-578/page-0571.md",
-      "readability_flags": [],
-      "profile_version": 6,
-      "text_chars": 968,
+      "text_chars": 180,
       "extracted_image_count": 0,
       "docling_ocr": true,
       "text_layer_alpha_chars": 0,
@@ -312,12 +177,153 @@
         "insufficient_words"
       ],
       "text_layer_used_without_ocr": false,
-      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0554-0578-c-mara-de-senadores-de-la-naci-n-1936-pages-554-578/page-markdown/page-0571.md"
+      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0929-0953-c-mara-de-senadores-de-la-naci-n-1936-pages-929-953/page-markdown/page-0950.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978:p0965",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 965,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978/page-0965.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 42,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 0,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_layer_used_without_ocr": false
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1009",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 1009,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028/page-1009.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 0,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_layer_used_without_ocr": false
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153:p1147",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 1147,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153/page-1147.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 0,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_layer_used_without_ocr": false
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053:p1042",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 1042,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053/page-1042.md",
+      "readability_flags": [],
+      "profile_version": 6,
+      "text_chars": 309,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 0,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_layer_used_without_ocr": false,
+      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053/page-markdown/page-1042.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342:p1340",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 1340,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/page-1340.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 0,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_layer_used_without_ocr": false
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342:p1341",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 1341,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342/page-1341.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 0,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_layer_used_without_ocr": false
     }
   ],
   "blockers": [],
   "discovery_state_path": "research/_agent-queues/source-prep-discovery.json",
-  "checkpointed": "2026-05-27T11:04:12Z",
+  "checkpointed": "2026-05-27T14:35:01Z",
   "state_path": "research/_automation/source-prep-docling-state.json",
-  "finished": "2026-05-27T11:04:12Z"
+  "finished": "2026-05-27T14:35:01Z"
 }

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-27T10:57:58Z",
+  "created": "2026-05-27T14:27:51Z",
   "mode": "gemini-source-prep",
   "dry_run": false,
   "limit": 1,
@@ -48,5 +48,5 @@
     "manifests": 0
   },
   "fatal_error": "Gemini preflight failed for all configured API keys: GEMINI_API_KEY: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  ",
-  "finished": "2026-05-27T10:57:58Z"
+  "finished": "2026-05-27T14:27:52Z"
 }
