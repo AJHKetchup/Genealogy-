@@ -1,9 +1,10 @@
 ﻿{
     "created":  "2026-05-27",
     "queue":  "identity-analysis",
-    "task_count":  209,
+    "task_count":  211,
     "status_counts":  {
-                          "done":  209
+                          "done":  209,
+                          "todo":  2
                       },
     "tasks":  [
                   {
@@ -2295,6 +2296,16 @@
                       "role":  "identity_researcher"
                   },
                   {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-bdb698de8106-p0001-01-entry-513-515-conflict-candidates-image-review-hold-postconv-evidence-extraction-20260527045039396-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-bdb698de8106-p0001-01-entry-513-515-conflict-candidates-image-review-hold-postconv-evidence-extraction-20260527045039396.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-bdb698de8106-p0001-01-entry-513-515-conflict-candidates-image-review-hold-postconv-evidence-extraction-20260527045039396.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
                       "skill":  "genealogy-proof-review",
                       "note":  "post-conversion controller start",
                       "updated_at":  "2026-05-26T17:49:05Z",
@@ -2645,6 +2656,16 @@
                       "status":  "done",
                       "claimed_at":  "2026-05-23T06:35:34Z",
                       "role":  "identity_researcher"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conflict-chunk-fb0a0000636f-p0004-01-page-identity-and-manifest-qa-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/conflict-chunk-fb0a0000636f-p0004-01-page-identity-and-manifest-qa.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/conflict-chunk-fb0a0000636f-p0004-01-page-identity-and-manifest-qa.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "skill":  "genealogy-proof-review",
