@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-27T19:58:50.878127+00:00",
+  "created": "2026-05-27T21:54:59.206202+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -1354,6 +1354,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0601-0625-r3578-50-5569-5569-jacket5-pages-601-625/extracted-images/page-0613/page-0613-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0601-0625-r3578-50-5569-5569-jacket5-pages-601-625/extracted-images/page-0613/page-0613-docling-image-01.png",
+      "bytes": 116273,
+      "sha256": "5d0e27985f354f909f1c46e275d61a9d47f4442edd711a202e5c579efac50196",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0601-0625-r3578-50-5569-5569-jacket5-pages-601-625/extracted-images/page-0614/page-0614-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0601-0625-r3578-50-5569-5569-jacket5-pages-601-625/extracted-images/page-0614/page-0614-docling-image-01.png",
       "bytes": 148694,
@@ -1393,6 +1400,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0601-0625-r3578-50-5569-5569-jacket5-pages-601-625/extracted-images/page-0624/page-0624-docling-image-02.png",
       "bytes": 69247,
       "sha256": "b1394efc7631ab46aa791819eaa6248269876adc32c6d575cc12592b240355f0",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0601-0625-r3578-50-5569-5569-jacket5-pages-601-625/extracted-images/page-0625/page-0625-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0601-0625-r3578-50-5569-5569-jacket5-pages-601-625/extracted-images/page-0625/page-0625-docling-image-01.png",
+      "bytes": 458497,
+      "sha256": "275ad0b87252a2eac970aca927f91a5b6cad0057de48af5a41ee629ea329c141",
       "media_type": "image/png"
     },
     {
@@ -13544,9 +13558,9 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 11,
-    "total_bytes": 5018780,
-    "uploaded": 11,
+    "total_files": 2,
+    "total_bytes": 574770,
+    "uploaded": 2,
     "skipped": 0,
     "planned": 0,
     "errors": [],
@@ -13557,9 +13571,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1938,
+      "scanned": 1940,
       "deleted": 0,
-      "skipped": 1938,
+      "skipped": 1940,
       "errors": []
     }
   }

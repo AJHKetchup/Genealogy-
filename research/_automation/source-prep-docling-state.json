@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-27T19:55:26Z",
+  "created": "2026-05-27T21:52:05Z",
   "mode": "source-prep-docling-discovery",
   "dry_run": false,
   "agent": "source-prep-docling-discovery",
@@ -24,17 +24,17 @@
   "unusable": 12,
   "fast_unusable": 0,
   "errors": 0,
-  "extracted_images": 11,
+  "extracted_images": 2,
   "skipped": {
-    "ocr_limit_reached": 97
+    "ocr_limit_reached": 85
   },
   "tasks": [
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0826-0850-r3016-11a-2905-950-pages-826-850:p0847",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 847,
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0601-0625-r3578-50-5569-5569-jacket5-pages-601-625:p0613",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 613,
       "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca3e1a8684-r3016-11a-2905-950-p0826-0850-r3016-11a-2905-950-pages-826-850/page-0847.md",
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0601-0625-r3578-50-5569-5569-jacket5-pages-601-625/page-0613.md",
       "readability_flags": [
         "insufficient_text",
         "insufficient_alpha_text",
@@ -57,17 +57,45 @@
       "text_layer_used_without_ocr": false
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0926-0940-r3016-11a-2905-950-pages-926-940:p0940",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 940,
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0601-0625-r3578-50-5569-5569-jacket5-pages-601-625:p0625",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 625,
       "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca3e1a8684-r3016-11a-2905-950-p0926-0940-r3016-11a-2905-950-pages-926-940/page-0940.md",
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0601-0625-r3578-50-5569-5569-jacket5-pages-601-625/page-0625.md",
       "readability_flags": [
+        "insufficient_text",
         "insufficient_alpha_text",
         "insufficient_words"
       ],
       "profile_version": 6,
-      "text_chars": 121,
+      "text_chars": 0,
+      "extracted_image_count": 1,
+      "extracted_image_methods": [
+        "docling_picture_image"
+      ],
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 0,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_layer_used_without_ocr": false
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0626-0650-r3578-50-5569-5569-jacket5-pages-626-650:p0626",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 626,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0626-0650-r3578-50-5569-5569-jacket5-pages-626-650/page-0626.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 0,
       "extracted_image_count": 0,
       "docling_ocr": true,
       "text_layer_alpha_chars": 0,
@@ -80,18 +108,18 @@
       "text_layer_used_without_ocr": false
     },
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0476-0483-r3577-50-5569-5569-jacket3-pages-476-483:p0483",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 483,
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0626-0650-r3578-50-5569-5569-jacket5-pages-626-650:p0640",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 640,
       "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca24f561d6-r3577-50-5569-5569-jacke-p0476-0483-r3577-50-5569-5569-jacket3-pages-476-483/page-0483.md",
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0626-0650-r3578-50-5569-5569-jacket5-pages-626-650/page-0640.md",
       "readability_flags": [
         "insufficient_text",
         "insufficient_alpha_text",
         "insufficient_words"
       ],
       "profile_version": 6,
-      "text_chars": 109,
+      "text_chars": 31,
       "extracted_image_count": 0,
       "docling_ocr": true,
       "text_layer_alpha_chars": 0,
@@ -104,22 +132,19 @@
       "text_layer_used_without_ocr": false
     },
     {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475:p0460",
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700:p0678",
       "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 460,
+      "page": 678,
       "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/page-0460.md",
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700/page-0678.md",
       "readability_flags": [
         "insufficient_text",
         "insufficient_alpha_text",
         "insufficient_words"
       ],
       "profile_version": 6,
-      "text_chars": 43,
-      "extracted_image_count": 2,
-      "extracted_image_methods": [
-        "docling_picture_image"
-      ],
+      "text_chars": 31,
+      "extracted_image_count": 0,
       "docling_ocr": true,
       "text_layer_alpha_chars": 0,
       "likely_full_page_scan": true,
@@ -131,66 +156,11 @@
       "text_layer_used_without_ocr": false
     },
     {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475:p0465",
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700:p0694",
       "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 465,
+      "page": 694,
       "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/page-0465.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 15,
-      "extracted_image_count": 1,
-      "extracted_image_methods": [
-        "docling_picture_image"
-      ],
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 0,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "text_layer_used_without_ocr": false
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475:p0471",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 471,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/page-0471.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words",
-        "possible_ocr_garbage"
-      ],
-      "profile_version": 6,
-      "text_chars": 9,
-      "extracted_image_count": 1,
-      "extracted_image_methods": [
-        "docling_picture_image"
-      ],
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 0,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "text_layer_used_without_ocr": false
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0501-0525-r3578-50-5569-5569-jacket5-pages-501-525:p0505",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 505,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0501-0525-r3578-50-5569-5569-jacket5-pages-501-525/page-0505.md",
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700/page-0694.md",
       "readability_flags": [
         "insufficient_text",
         "insufficient_alpha_text",
@@ -198,10 +168,7 @@
       ],
       "profile_version": 6,
       "text_chars": 0,
-      "extracted_image_count": 2,
-      "extracted_image_methods": [
-        "docling_picture_image"
-      ],
+      "extracted_image_count": 0,
       "docling_ocr": true,
       "text_layer_alpha_chars": 0,
       "likely_full_page_scan": true,
@@ -213,92 +180,11 @@
       "text_layer_used_without_ocr": false
     },
     {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0526-0550-r3578-50-5569-5569-jacket5-pages-526-550:p0537",
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700:p0695",
       "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 537,
+      "page": 695,
       "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0526-0550-r3578-50-5569-5569-jacket5-pages-526-550/page-0537.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 12,
-      "extracted_image_count": 1,
-      "extracted_image_methods": [
-        "docling_picture_image"
-      ],
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 0,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "text_layer_used_without_ocr": false
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0526-0550-r3578-50-5569-5569-jacket5-pages-526-550:p0530",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 530,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0526-0550-r3578-50-5569-5569-jacket5-pages-526-550/page-0530.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 2,
-      "extracted_image_count": 1,
-      "extracted_image_methods": [
-        "docling_picture_image"
-      ],
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 0,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "text_layer_used_without_ocr": false
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600:p0591",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 591,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600/page-0591.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 11,
-      "extracted_image_count": 1,
-      "extracted_image_methods": [
-        "docling_picture_image"
-      ],
-      "docling_ocr": true,
-      "text_layer_alpha_chars": 0,
-      "likely_full_page_scan": true,
-      "text_layer_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "text_layer_used_without_ocr": false
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575:p0558",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 558,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/page-0558.md",
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700/page-0695.md",
       "readability_flags": [
         "insufficient_text",
         "insufficient_alpha_text",
@@ -306,10 +192,7 @@
       ],
       "profile_version": 6,
       "text_chars": 0,
-      "extracted_image_count": 1,
-      "extracted_image_methods": [
-        "docling_picture_image"
-      ],
+      "extracted_image_count": 0,
       "docling_ocr": true,
       "text_layer_alpha_chars": 0,
       "likely_full_page_scan": true,
@@ -321,18 +204,114 @@
       "text_layer_used_without_ocr": false
     },
     {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0601-0625-r3578-50-5569-5569-jacket5-pages-601-625:p0609",
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700:p0696",
       "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 609,
+      "page": 696,
       "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0601-0625-r3578-50-5569-5569-jacket5-pages-601-625/page-0609.md",
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700/page-0696.md",
       "readability_flags": [
         "insufficient_text",
         "insufficient_alpha_text",
         "insufficient_words"
       ],
       "profile_version": 6,
-      "text_chars": 60,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 0,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_layer_used_without_ocr": false
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700:p0697",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 697,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700/page-0697.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 0,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_layer_used_without_ocr": false
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700:p0698",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 698,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700/page-0698.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 0,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_layer_used_without_ocr": false
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700:p0699",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 699,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700/page-0699.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "text_layer_alpha_chars": 0,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_layer_used_without_ocr": false
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0701-0725-r3578-50-5569-5569-jacket5-pages-701-725:p0718",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 718,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0701-0725-r3578-50-5569-5569-jacket5-pages-701-725/page-0718.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 0,
       "extracted_image_count": 0,
       "docling_ocr": true,
       "text_layer_alpha_chars": 0,
@@ -347,7 +326,7 @@
   ],
   "blockers": [],
   "discovery_state_path": "research/_agent-queues/source-prep-discovery.json",
-  "checkpointed": "2026-05-27T19:58:10Z",
+  "checkpointed": "2026-05-27T21:54:18Z",
   "state_path": "research/_automation/source-prep-docling-state.json",
-  "finished": "2026-05-27T19:58:10Z"
+  "finished": "2026-05-27T21:54:17Z"
 }
