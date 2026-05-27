@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-27T07:12:05.069885+00:00",
+  "created": "2026-05-27T11:04:52.552030+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -4473,6 +4473,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853/extracted-images/page-0841/page-0841-docling-image-01.png",
       "bytes": 20769,
       "sha256": "e99916c9d172553f9dc21d4d4e648926ad5502c871ba5fdd42d76ee93d34f197",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853/extracted-images/page-0842/page-0842-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853/extracted-images/page-0842/page-0842-docling-image-01.png",
+      "bytes": 28950,
+      "sha256": "636638f4fa19104f5d877bf0063dd4409b41e910c8b08c9960d75a5fe3003d2a",
       "media_type": "image/png"
     },
     {
@@ -13404,9 +13411,9 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 5,
-    "total_bytes": 4272308,
-    "uploaded": 5,
+    "total_files": 1,
+    "total_bytes": 28950,
+    "uploaded": 1,
     "skipped": 0,
     "planned": 0,
     "errors": [],
@@ -13417,9 +13424,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1918,
+      "scanned": 1919,
       "deleted": 0,
-      "skipped": 1918,
+      "skipped": 1919,
       "errors": []
     }
   }
