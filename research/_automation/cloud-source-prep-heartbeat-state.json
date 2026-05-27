@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-27T14:35:01Z",
+  "created": "2026-05-27T17:48:48Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "/home/runner/work/Genealogy-/Genealogy-",
   "r2": {
@@ -58,7 +58,7 @@
       "status": "ran",
       "detail": {
         "action": "restore-queued-source-prep-raw",
-        "created": "2026-05-27T14:35:41Z",
+        "created": "2026-05-27T17:49:43Z",
         "queue": "research/_agent-queues/source-prep-batches.json",
         "filters": {
           "source": "",
@@ -85,7 +85,7 @@
         "action": "asset-upload",
         "dry_run": false,
         "total_files": 4,
-        "total_bytes": 3596097,
+        "total_bytes": 1374633,
         "uploaded": 4,
         "skipped": 0,
         "planned": 0,
@@ -97,9 +97,9 @@
             "derived/raw/codex-conversion-jobs/",
             "derived/research/_assets/conversions/"
           ],
-          "scanned": 1923,
+          "scanned": 1927,
           "deleted": 0,
-          "skipped": 1923,
+          "skipped": 1927,
           "errors": []
         }
       }
@@ -111,10 +111,10 @@
       "path": "/home/runner/work/Genealogy-/Genealogy-/research/_agent-queues/source-prep-batches.json",
       "task_count": 294,
       "status_counts": {
-        "needs_reread": 173,
-        "todo": 121
+        "needs_reread": 185,
+        "todo": 109
       }
     }
   },
-  "finished": "2026-05-27T14:35:46Z"
+  "finished": "2026-05-27T17:49:46Z"
 }
