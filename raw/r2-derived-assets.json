@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-27T21:54:59.206202+00:00",
+  "created": "2026-05-27T23:19:42.018514+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -1554,6 +1554,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0751-0761-r3578-50-5569-5569-jacket5-pages-751-761/extracted-images/page-0759/page-0759-docling-image-03.png",
       "bytes": 23142,
       "sha256": "934d9ceb1e7eaa771741238f81396b2d193fd97e3904ea6ea1cd7606e64afa2b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0751-0761-r3578-50-5569-5569-jacket5-pages-751-761/extracted-images/page-0761/page-0761-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0751-0761-r3578-50-5569-5569-jacket5-pages-751-761/extracted-images/page-0761/page-0761-docling-image-01.png",
+      "bytes": 13640,
+      "sha256": "603d4215c68bb718a83cb8019118c16a28fe67b68fd58216a935dc101c13244b",
       "media_type": "image/png"
     },
     {
@@ -5103,6 +5110,27 @@
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0462/page-0462-docling-image-01.png",
       "bytes": 27689,
       "sha256": "be8f5d2574d680e177a0ffd334b38d9e67adffb5c30c2493ead9e11fd5d30bee",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0464/page-0464-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0464/page-0464-docling-image-01.png",
+      "bytes": 147924,
+      "sha256": "ce86553bd70b142e621530def24a1832a4dea01268a1ea315975bc1a8cfddc4b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0464/page-0464-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0464/page-0464-docling-image-02.png",
+      "bytes": 834444,
+      "sha256": "50ba69a48d2facf0abcfc2c485c8448195794010aaf8682f1ba9d5b1605b2510",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0466/page-0466-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0466/page-0466-docling-image-01.png",
+      "bytes": 280840,
+      "sha256": "7556e54a56b160a6bd65a8be125756206faca568f555ab746c38f0696008f722",
       "media_type": "image/png"
     },
     {
@@ -13553,14 +13581,21 @@
       "bytes": 2019706,
       "sha256": "7ceae89d58ce2ae6c412bc6d2da1225d1db541e59bc489d8fdd12df85d56323c",
       "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0476-0494-r4749-11c-17499-5398-pages-476-494/extracted-images/page-0493/page-0493-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0476-0494-r4749-11c-17499-5398-pages-476-494/extracted-images/page-0493/page-0493-docling-image-01.png",
+      "bytes": 20457,
+      "sha256": "3664c98f58eacb31a9239ad4c7a43dc544eefc4eff20f9476ed53e12516236cb",
+      "media_type": "image/png"
     }
   ],
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 2,
-    "total_bytes": 574770,
-    "uploaded": 2,
+    "total_files": 5,
+    "total_bytes": 1297305,
+    "uploaded": 5,
     "skipped": 0,
     "planned": 0,
     "errors": [],
@@ -13571,9 +13606,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1940,
+      "scanned": 1945,
       "deleted": 0,
-      "skipped": 1940,
+      "skipped": 1945,
       "errors": []
     }
   }
