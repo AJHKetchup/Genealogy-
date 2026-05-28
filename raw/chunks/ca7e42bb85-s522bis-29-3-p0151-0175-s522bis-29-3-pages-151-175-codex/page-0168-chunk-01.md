@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-84e2ec81cd36-P0168-01
+chunk_id: CHUNK-2ed10e11587b-P0168-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175.codex.md
-converted_sha256: 84e2ec81cd361b0a39383bc851eb99453457d94ddeb9b2b9470aeee691ef4f29
+converted_sha256: 2ed10e11587be1f37de0911f29bf6a76158a8a6701b2c33c714c8587002b79c5
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175/manifest.json
@@ -18,7 +18,7 @@ part: 1
 - Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175/manifest.json`
 - Source page: 168
 - Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175/page-images/page-0168.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -30,53 +30,215 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-'
-
-articulo 427 que se refieren a esta materia pa¬ ra coronar con elocuencia este breve diseurso: Es de toda necesidad de recompensar el trabajo con la debida remuneraeiôn que le corres¬ ponde en la repartition de la riqueza publica, .- asx dicen las altas partes contratantes. 'Yentre estes métodos y principios parecen a las altas partes contratantes, ser de una importancia particular y urgente, l.°, el principio dirigente arriba meneionado de que el trabajo no debe ser considerado simplemente como una mercancia o como un articulo de comercio.'7
-
-Taies son, senores diputados, los fundamentos principales, decisivos, categôricos, que exigen un eambio de orientation en cuanto a la politica econômica y financiera de la Republica, en presencia de la cuestiôn social ; y no solamente mediante leyes que vayan por medios indirectos a tal fin, como serian los de salario minimo para todos los obreros; o tan solo para los del estado, sino también, con métodos y procedimientos mas eficaces y enérgieos, como la reforma fundamental del sistema impositivo que habrâ de proponer oportunamente la comision, para preparar una nueva vida de bienestar a la democracia argentina.
-
-Me preparo pues a sostener esta tésis en caso que eÛa fuera contradicka. Pero desde ya tan¬ go la convieciôn profunda, y por eso ahorro una exposition doctrinaria, de que el congreso interpretando un anhelo nacional, no solamente ha de votar esta ley que va a remediar la carestîa de la vida, sino que la va a sancionar con un propôsito mas alto y fundamental &gt; el de fijar rumbo certero y .juste a su politica fi¬ nanciera y econômica para mejorar las condiciones de las clases laboriosas, sobre cuyo fecundo esfuerzo, se levanta la grandeza de la Repu-
-
+1776 '
+CAMARA DE DIPUTADOS
+Septiembre 2Ï
+articulo 427 que se refieren a esta materia pa¬
+ra coronar
+con elocuencia este breve diseurso:
+Es de toda necesidad de recompensar el tra-
+bajo con la debida remuneraeiôn que le corres¬
+ponde en la repartition de la riqueza publica,
+.— asx dicen las altas partes contratantes. “Y-
+entre estes métodos y principios parecen a las
+altas partes contratantes, ser de una importan-
+cia particular y urgente, l.°, el principio diri-
+gente arriba meneionado de que el trabajo no
+debe
+ser
+considerado
+simplemente
+como
+una
+mercancia
+o como un articulo de comercio.'7
+Taies son,
+senores diputados, los fundamen-
+tos principales, decisivos, categôricos,
+que exi-
+gen un eambio de orientation en cuanto
+a la
+politica econômica y financiera de la Republica,
+en presencia de la cuestiôn social ; y no solamen-
+te mediante leyes que vayan por medios indi-
+rectos a tal fin, como serian los de salario mi-
+nimo para todos los obreros;
+o tan solo para
+los del estado, sino también, con métodos y pro-
+cedimientos
+mas eficaces y enérgieos, como la
+reforma
+fundamental
+del
+sistema
+impositivo
+que habrâ de proponer oportunamente la comi-
+sion,
+para preparar una nueva vida de bien-
+estar a la democracia argentina.
+Me preparo pues a sostener esta tésis en caso
+que eÛa fuera contradicka. Pero desde ya tan¬
+go la convieciôn profunda, y por
+eso ahorro
+una exposition doctrinaria, de que el congreso
+interpretando un anhelo nacional, no solamen-
+te ha de votar esta ley que va a remediar la ca-
+restîa de la vida, sino que la va a sancionar
+con
+un propôsito mas alto y fundamental > el
+de fijar rumbo certero y .juste a su politica fi¬
+nanciera y econômica para mejorar las condi-
+ciones de las clases laboriosas, sobre cuyo fecun-
+do esfuerzo, se levanta la grandeza de la Repu-
 bliea.
-
-He terminado. ' (/Muy bien! /Mv/y bien!
-
+He
+terminado.
+‘ (/Muy
+bien!
+/Mv/y
+bien!
 Aplausos).
-
-Sr. Dicktnann. - Deseo, senor présidente, con la brevedad que exige la hora, fundar la proposiciôn socialista de que la honorable câmara vote el salario minimo de 150 pesos por mes o
-
-6 pesos diarios.
-
-La comisiôn de presupuesto ha despachado en su proyecto la suma de 130 pesos mensuales o 5.20 pesos diarios. Sostengo que este sa¬ lario minimo es totalmente insuficiente, no ya para me.jorar la vida de las clases laboriosas, sino ni siquiera para colocarlas al nivel en que han estado algunos anos atrâs. No me costarâ mucho esfuerzo demostrarlo. Entraré directamente en las cifras.
-
-El senor diputado Pena, en la réplica que ha hecho al diseurso del senor diputado Just6, afirmô como una impresiôn personal suya que el bienestar de las clases populares era visible y evoeô el pasado de nuestras clases Obreras, hambrientas, andrajosas, mal aloja- das, lo que constrastaba evidentemente con nuestros obreros, ahora bien aliment-ados, mejor vestidos. Y de ello sacaba el senor diputa¬ do la conclusion de que hoy la clase obrera esta mejor que ayer. Ya verâ el senor diputa¬ do lo aventurado, lo equivocado y lo falso de su afirmaciôn, con muclias otras que ha hecho esta noche.
-
-El nivel de vida del pueblo argentino lia deseendido los ultimos anos en una forma alarman¬
-
+Sr. Dicktnann.
+— Deseo,
+senor présidente,
+con la brevedad
+que exige la hora, fundar la
+proposiciôn socialista de que la honorable câ-
+mara vote el salario minimo de 150 pesos por
+mes
+o 6 pesos diarios.
+La comisiôn de presupuesto ha despachado
+en
+su proyecto la suma de 130 pesos mensua-
+les
+o 5.20 pesos diarios. Sostengo que este
+sa¬
+lario minimo
+es totalmente insuficiente, no ya
+para me.jorar la vida de las clases laboriosas,
+sino ni siquiera para colocarlas al nivel en que
+han estado algunos anos atrâs. No me costarâ
+mucho
+esfuerzo
+demostrarlo.
+Entraré
+direc-
+tamente
+en las cifras.
+El
+senor diputado Pena,
+en la réplica
+que
+ha hecho al diseurso del
+senor diputado Jus-
+t6, afirmô como una impresiôn personal suya
+que el bienestar
+de las clases populares
+era
+visible y evoeô
+el pasado
+de
+nuestras
+clases
+Obreras,
+hambrientas,
+andrajosas, mal
+aloja-
+das, lo
+que constrastaba
+evidentemente
+con
+nuestros obreros,
+ahora bien aliment-ados,
+me-
+jor vestidos. Y de ello sacaba el senor diputa¬
+do la
+conclusion
+de
+que hoy la clase obrera
+esta mejor que ayer. Ya verâ el senor diputa¬
+do lo aventurado, lo equivocado y lo falso de
+su afirmaciôn,
+con muclias otras que ha hecho
+esta noche.
+El nivel de vida del pueblo argentino lia des-
+eendido los ultimos anos en una forma alarman¬
 te, y eso se traduce en cifras de origen oficial.
-
-El pan que consumia el pueblo argentino en el ano 1916 se registra en la estadistica oficial como 160 kilos por cabeza y por ano ; en el ano 1919-20 esa cifra baja a 136, es decir, ha dimi-
-
+El pan que consumia el pueblo argentino en
+el ano 1916
+se registra en la estadistica oficial
+como 160 kilos por cabeza y por ano ; en el ano
+1919-20
+esa cifra baja
+a 136,
+es decir, ha dimi-
 nuido en 24 kilos, o sea en el 15 por ciento.
-
-El azucar que en el ano 1916 consumia cada habitante argentino importaba 26 kilos per ca¬ pita ; en el ano 1920, este consumo ha descendido a 20 kilos 800 gramos.
-
-El consumo de la carne, alimento tradicional y popular por excelencia, ha desceildido en for¬ ma alarmante. En 1911 el consumo por habitan¬ te y por ano importaba 156 kilos; en 1912, 139; en 1913, 124; en 1914, 105; en 1915, 106; en 1916, 97 ; en 1920, 80. En los ultimos diez anos el consumo de la carne ha descendido en un tien
-
-por ciento.
-
-En el arroz, alimento popular por excelencia también el consumo ha descendido de 6 kilos por cabeza, que era en 1914, a'3 kilos en 1920.
-
-En cuanto a la vivienda, no se puede demostrar numéricamente, porque no hay en realidad un censo de habitantes por pieza, evidentemen¬ te el hacinamiento es hoy mas que antes, pero el dato numérico mas importante no es el nu¬ méro de habitantes por pieza sino como se ha encarecido la habitaciôn en los ultimos anos. Por lo que se ha pagado en 1914, 100, en 1920 se ha pagado 170. Aun con la ley de alquileres, que retrotrae el precio del alquiler al primero de enero de 1920, todavia résulta muy alto el alquiler en relaciôn con el ano 1914.
-
-i,Y los medios de locomotion? Saben los se¬ nores diputados que el tranvîa ha encarecido en un 20 por ciento y el ferrocandi en un 50 por ciento y hasta 60 por ciento en los ultimos aûos.
-
-Estas cifras, tomadas de doeumentos oficiales todas ellas, demuestran como ha descendido el nivel de la vida en todas sus manifestaciones para el pueblo trabajador.
-
-Pero hay algo mâs. Reeuerdo que el mismo senor diputado Pena, al hablar del salario minimo en otra oportunidad, decîa: No se puede sancionar un salario minimo para toda la repfiblica ; cada region tiens su nivel de vida, sus neeesidades y sobre todo diferencias de precios en el costo de la vida.
-
-El Boletîn oficial del Departamento nacio¬ nal del traba.jo del mes de diciembre de 1920 trae una estadistica muy interesante al respecto, heeha sobre el precio de diez productos ali-
+El azucar que en el ano 1916 consumia cada
+habitante argentino importaba 26 kilos per ca¬
+pita ; en el ano 1920, este consumo ha descendi-
+do
+a 20 kilos 800 gramos.
+El consumo de la carne, alimento tradicional
+y popular por excelencia, ha desceildido en for¬
+ma alarmante. En 1911 el consumo por habitan¬
+te y por ano importaba 156 kilos; en 1912, 139;
+en 1913, 124;
+en 1914, 105;
+en 1915, 106;
+en
+1916, 97 ; en 1920, 80. En los ultimos diez anos
+el
+consumo
+de la
+carne ha descendido
+en
+un
+tien por ciento.
+En el arroz, alimento popular por excelencia
+también el consumo ha descendido
+de 6 kilos
+por cabeza, que era en 1914, a'3 kilos en 1920.
+En cuanto
+a la vivienda, no se puede demos-
+trar numéricamente, porque no hay en realidad
+un censo de habitantes por pieza, evidentemen¬
+te el hacinamiento
+es hoy mas que antes, pero
+el dato numérico mas importante no
+es el nu¬
+méro de habitantes por pieza sino como se ha
+encarecido la habitaciôn
+en los ultimos
+anos.
+Por lo que se ha pagado en 1914, 100, en 1920
+se ha pagado 170. Aun con la ley de alquileres,
+que retrotrae el precio del alquiler al primero
+de
+enero de 1920, todavia résulta muy alto el
+alquiler en relaciôn con el ano 1914.
+i,Y los medios de locomotion? Saben los
+se¬
+nores diputados que el tranvîa ha encarecido
+en un 20 por ciento y el ferrocandi en un 50 por
+ciento y hasta 60 por ciento en los ultimos aûos.
+Estas cifras, tomadas de doeumentos oficia-
+les todas ellas, demuestran como ha descendido
+el nivel de la vida en todas sus manifestaciones
+para el pueblo trabajador.
+Pero hay algo mâs. Reeuerdo
+que el mismo
+senor diputado Pena, al hablar del salario mi-
+nimo en otra oportunidad, decîa: No
+se puede
+sancionar un salario minimo para toda la re-
+pfiblica ; cada region tiens su nivel de vida, sus
+neeesidades y sobre todo diferencias de
+pre-
+cios en el costo de la vida.
+El Boletîn oficial del Departamento nacio¬
+nal del traba.jo del mes de diciembre de 1920
+trae una estadistica muy interesante al respec-
+to, heeha sobre el precio de diez productos ali-
 ```
 
 ## Images, Captions, And Visual Notes

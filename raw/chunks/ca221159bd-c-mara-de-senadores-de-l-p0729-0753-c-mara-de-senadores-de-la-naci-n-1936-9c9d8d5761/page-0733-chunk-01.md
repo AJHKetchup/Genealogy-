@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-085ba051e3d0-P0733-01
+chunk_id: CHUNK-2a99b90d2a4a-P0733-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753.codex.md
-converted_sha256: 085ba051e3d0a0b3d5ce7d106493a250e16fab08cbd6f2b06427ec2e3dc252dc
+converted_sha256: 2a99b90d2a4af941dc0d49cfb92db508763e74cce2cbb2fa0e4a2f41fc5eddaf
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/manifest.json
@@ -18,10 +18,10 @@ part: 1
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/manifest.json`
 - Source page: 733
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/page-images/page-0733.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
-- Extracted picture images: 1
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
@@ -30,74 +30,320 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-tan solo uno de los pârrafos que no ha leido el senor senador por San Lnis, y que expresa cuâl es el eoncepto que hay sobre este proyeeto. Dice asx:
-
-«El proyecto en euestiôn, no contempla la estabilidad de las tarifas ni el destino de los capitales automotores invertidos y eomprometidos en la esperanza de un futuro mejor, sino que centraliza en forma omnimoda a todos los medios de traslaciôn existentes, promoviendo en consecuencia, un amplîsimo privilegio a favor de los capitales tranviarios, en detrimento directo de los capitales menores que esta constituîdo por los transportes automotores, tal como lo es el sistema de autos colectivos que no obstante, es un servicio efi-
-
+de 1936
+CAMARA DE SENADORES DE LA NACTON
+tan solo
+uno
+de los pârrafos
+que no ha leido
+el senor senador por San Lnis, y que expresa
+cuâl
+es
+el
+eoncepto
+que hay sobre
+este
+pro-
+yeeto. Dice
+asx:
+«El proyecto
+en
+euestiôn,
+no contempla la
+estabilidad de las tarifas ni el destino de los
+capitales automotores invertidos y
+eomprome-
+tidos
+en
+la
+esperanza
+de
+un
+futuro
+mejor,
+sino
+que centraliza
+en forma omnimoda
+a to-
+dos
+los medios
+de traslaciôn
+existentes,
+pro-
+moviendo
+en consecuencia,
+un amplîsimo pri-
+vilegio a favor de los capitales tranviarios, en
+detrimento
+directo
+de
+los
+capitales
+menores
+que esta constituîdo por los transportes auto-
+motores,
+tal
+como
+lo
+es el
+sistema
+de
+autos
+colectivos que no obstante,
+es un servicio efi-
 ciente, econômico y de suma utilidad publica.»
-
-Lo que expresa esta nota es la pura verdad; los capitales menores, los omnibus y los colectivos, podrân reeibir a lô sumo la indemnizaeion del valor de los vehiculos menos el deterioro por el uso y los grandes capitales desvalonzados resurgirân de sus cenizas co¬ mo el ave fénix.
-
-Bûsquese en el proyecto un solo articulo, menos que esto, una sola clausula, menos todavia, una sola palabra que pueda ser interpretada como una valla opuesta a un suba excesiva de tarifas, o a la valorizacion de los capitales desvalorizados. No se la eneontrarâ.
-
-El informe dice en la pagina 156: que los àenefieios de la Corporacion estarân limitados de manera «de asegurar a los capitales invertidos y reconocidos un interés suficiente.»
-
-Yo me pregunto si los capitales invertidos en acciones que estén afectados en la actualidad por un enorme quebranto pueden aspi¬ raia ser reconocidos como si fueran capita¬ les invertidos actualmente. Habrîa bastado en¬ fonces decir capitales que se reconozcan, pues la expresiôn complementary «capitales in¬ vertidos» parece indicar los capitales originarios. No teniendo ese signifieado, eoncurre a crear confusiones
-
-hoy, y pleitos manana.
-
-El articulo 2?, inciso c), apartados a) y b), es impreciso y ademâs permitei senor prési¬ dente, una indemnizacion a las empresas que, teniendo concesiones a perpetuidad o de plazo mayor de 56 anos, tengan que césar a los 56 anos. Dice asi, textualmente : «En lo que Se refiere a las empresas que poseen coneesioRes a perpetuidad o a un plazo mayor de 56 anos, ademâs de lo establecido en los ineisos a) y b) la comision especial tendrâ en cuenta cada caso particular de modo equitativo.»
-
-4 Qué quiere decir esa disposiciôn obscura e imprecisa? jCon qué fin tendrâ en cuenta la comision especial de un modo equitativo, cada caso particular? Evidentemente, para indemnizar a las companias o a las concesiones a perpe¬ tuidad o de un plazo mayor que 56 anos, el va¬
-
-<!-- image -->
-
+Lo
+que
+expresa
+esta nota
+es la
+pura
+ver-
+dad; los capitales menores, los omnibus y los
+colectivos, podrân reeibir
+a lô sumo la indem-
+nizaeion
+del valor de
+los vehiculos
+menos
+el
+deterioro
+por
+el
+uso
+y los
+grandes capitales
+desvalonzados resurgirân
+de
+sus
+cenizas
+co¬
+mo el
+ave fénix.
+Bûsquese
+en
+el
+proyecto
+un
+solo
+articulo,
+menos
+que esto, una sola clausula,
+menos to-
+davia, una sola palabra
+que pueda ser inter-
+pretada
+como
+una valla
+opuesta
+a
+un
+suba
+excesiva de tarifas, o a la valorizacion de los
+capitales desvalorizados. No
+se la eneontrarâ.
+El informe dice
+en la pagina 156:
+que los
+àenefieios
+de
+la
+Corporacion
+estarân
+limita-
+dos de manera «de asegurar a los capitales in-
+vertidos
+y
+reconocidos
+un
+interés suficiente.»
+Yo
+me pregunto si los capitales invertidos
+en acciones
+que estén afectados en la actuali-
+dad
+por
+un
+enorme
+quebranto
+pueden
+aspi¬
+rai-
+a
+ser reconocidos
+como
+si fueran capita¬
+les invertidos actualmente. Habrîa bastado
+en¬
+fonces decir capitales que se reconozcan, pues
+la
+expresiôn
+complementary
+«capitales
+in¬
+vertidos»
+parece
+indicar
+los
+capitales
+origi-
+narios.
+No
+teniendo
+ese signifieado,
+eoncurre
+a crear confusiones hoy, y pleitos manana.
+El articulo 2?, inciso c), apartados a)
+y b),
+es impreciso
+y
+ademâs permitei
+senor prési¬
+dente, una indemnizacion
+a las empresas
+que,
+teniendo concesiones
+a perpetuidad
+o
+de pla-
+zo mayor de 56
+anos, tengan
+que
+césar
+a los
+56
+anos.
+Dice
+asi,
+textualmente :
+«En lo
+que
+Se refiere
+a las empresas que poseen coneesio-
+Res
+a perpetuidad
+o
+a un plazo mayor de 56
+anos, ademâs
+de lo
+establecido
+en
+los ineisos
+a) y b)
+la comision especial tendrâ
+en cuenta
+cada
+caso particular de modo equitativo.»
+4 Qué quiere decir
+esa disposiciôn obscura
+e
+1325
+imprecisa? jCon qué fin tendrâ
+en
+cuenta la
+comision especial de un modo equitativo, cada
+caso particular? Evidentemente, para indemni-
+zar a las companias o a las concesiones a perpe¬
+tuidad
+o de un plazo mayor que 56 anos, el va¬
 lor del mayor tiempo de explotacion que pierden.
-
-Tienen concesion a perpetuidad el subterrâneo Lacroze, todas las lineas a nivel de la empresa Lacroze existentes en 1904, la lînea Puer¬ to a Ciudad de Buenos Aires, que fué vendida en subasta pûblica, como lo dije hace un rato, a consecuencia del resultado negativo en su ex¬ plotacion y que fué adquirida por la sociedad actual Buenos Aires Town and Dock Tramways Co., las lineas de la ley numéro 4.113 y las lr neas de la ley numéro 8.160.
-
-Yo desearia saber como interpréta la comision la disposiciôn que he citado, porque la considero obscura y ambigua. Desearia saber si la co¬ mision entiende que corresponderâ indemnizar a las empresas que he enumerado por el menor
-
+Tienen
+concesion
+a perpetuidad el subterrâ-
+neo Lacroze, todas las lineas a nivel de la em-
+presa Lacroze existentes en 1904, la lînea Puer¬
+to
+a Ciudad de Buenos Aires, que fué vendida
+en subasta pûblica,
+como lo dije hace un rato,
+a consecuencia del resultado negativo en su ex¬
+plotacion y que fué adquirida por la sociedad
+actual Buenos Aires Town and Dock Tramways
+Co., las lineas de la ley numéro 4.113 y las lr
+neas de la ley numéro 8.160.
+Yo desearia saber como interpréta la comision
+la disposiciôn que he citado, porque la conside-
+ro obscura y ambigua. Desearia saber si la
+co¬
+mision entiende
+que corresponderâ indemnizar
+a las empresas que he enumerado por el menor
 tiempo de explotacion.
-
-Sr. Sanchez Sorondo. - 4 Es una pregunta? Si el senor senador me permite, se la voy a contestar luego en la oportunidad de rebâtir su diseurso. La dejo anotada.
-
-Sr. de la Torre. - Me extraira la contestaciôn; yo creo que la comision debe dar infor¬ mes a
-
-los senadores, cuando los necesitan.
-
-Sr. Sanchez Sorondo. - El senador quizâs no me ha oido.
-
-Sr. de la Torre. - Si he oido, que va a con¬ testai-
-
-después, pero debe liacerlo ahora.
-
-Sr. Sanchez Sorondo. - Lo karé al eontestar su
-
-diseurso, en la sesiôn de hoy.
-
-Sr. de la Torre. - Séria mejor ahora mismo. Sr. Sanchez Sorondo. - En su oportunidad,
-
+Sr. Sanchez Sorondo.
+—
+4 Es una pregunta?
+Si el senor senador me permite, se la voy a con-
+testar luego
+en la oportunidad de rebâtir su
+diseurso.
+La
+dejo
+anotada.
+Sr. de la Torre.
+— Me extraira la contesta-
+ciôn; yo creo que la comision debe dar infor¬
+mes
+a los senadores, cuando los necesitan.
+Sr.
+Sanchez Sorondo.
+— El senador quizâs
+no
+me ha oido.
+Sr. de la Torre. — Si he oido, que va a con¬
+testai- después, pero
+debe liacerlo ahora.
+Sr. Sanchez Sorondo. — Lo karé al eontestar
+su diseurso, en la sesiôn de hoy.
+Sr. de la Torre. — Séria mejor ahora mismo.
+Sr. Sanchez Sorondo.
+— En su oportunidad,
 senor senador.
-
-Sr. de la Torre. - i,Y por qué no contesta ahora?
-
-Sr' Sanchez Sorondo. - Porque yo soy el juez de la oportunidad, y no el senor senador.
-
-Sr. de la Torre. - La comision debe eontes¬ tar inmediatamente, si créé que corresponde indemnizar...
-
-Sr. Sanchez Sorondo. - Ile dicho que lo haré en su oportunidad y no cuando se le ocurra al senor senador.
-
-Sr. de la Torre. - No es que se me ocurra sino que tengo derecho. Dejo constancy que este articulo-2? esta redaetado de tal modo...
-
-Sr. Sanchez Sorondo. - El senor senador no lo interpréta como debe interpretarlo y yo se lo voy a demostrar porque el senor senador no quiere leer el primer articulo y no es por falta de
-
-tiempo.
+Sr. de la Torre. — i,Y
+por qué
+no
+contesta
+ahora?
+Sr„ Sanchez Sorondo.
+— Porque yo
+soy el
+juez de la oportunidad, y no el senor senador.
+Sr. de la Torre.
+— La comision debe eontes¬
+tar inmediatamente,
+si
+créé
+que
+corresponde
+indemnizar...
+Sr. Sanchez Sorondo.
+— Ile dicho que lo ha-
+ré en su oportunidad y no cuando se le ocurra
+al senor senador.
+Sr. de la Torre.
+— No
+es que se me ocurra
+sino
+que tengo derecho. Dejo constancy
+que
+este articulo-2? esta redaetado de tal modo...
+Sr. Sanchez Sorondo.
+— El senor senador no
+lo interpréta
+como debe interpretarlo y yo
+se
+lo
+voy
+a demostrar
+porque
+el
+senor senador
+no quiere leer el primer articulo y no es por
+falta de tiempo.
 ```
 
 ## Images, Captions, And Visual Notes
 
-- Docling extracted picture image 1: ![Docling extracted picture image 1](../extracted-images/page-0733/page-0733-docling-image-01.png)
+- No Docling picture regions were detected for this page.
 
 ## Translation
 
@@ -120,7 +366,7 @@ No interpretation was produced by the Docling basic conversion pass.
 
 - Basic Docling conversion completed for this page.
 - Rendered page image link recorded.
-- Extracted picture image count: 1.
+- Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 734

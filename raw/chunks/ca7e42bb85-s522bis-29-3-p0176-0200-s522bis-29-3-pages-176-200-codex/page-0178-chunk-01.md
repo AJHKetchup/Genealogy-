@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-ee7e28255dcb-P0178-01
+chunk_id: CHUNK-b23f1f571add-P0178-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0176-0200-s522bis-29-3-pages-176-200.codex.md
-converted_sha256: ee7e28255dcb5492fb07904396a996e675758fbc17c045a7816594daa4b73160
+converted_sha256: b23f1f571addeaa639d09fd18680c45c63b5fc95eb46ffa250c0fb1a020559e5
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0176-0200-s522bis-29-3-pages-176-200/manifest.json
@@ -18,7 +18,7 @@ part: 1
 - Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0176-0200-s522bis-29-3-pages-176-200/manifest.json`
 - Source page: 178
 - Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0176-0200-s522bis-29-3-pages-176-200/page-images/page-0178.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -30,71 +30,292 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-' Y bien, ya actualmente he podido anotar con tristeza, en estadisticas oficiales eomparadas ,que con respecto al ano 14 y con mayor razôn con respeto a los subsiguientes, en plenos altos preeios del trigo, del lino y del maiz, tenemos en lo que a trigo se refiere un millôn de hectâreas menos cultivadas que hace très o cuatro aiios, 500.000 hectâreas de lino menos que en el periodo anterior y un millôn de hectâreas de maiz menos; es decir 2 millones y medio de hectâreas menos en la producciôn de granos o produceiôn agricola de ex¬ portacion en el pais.
-
-La influencia que las elevadas tarifas ferroviarias lian tenido en esta diminueion del cultivo, es algo de fâeil demostraciôn. Sabemos que segûn la tarifa se pueden cultivai* tierras a tal distancia de estaciôn; pero elevando la tarifa ya una parte de la zona cultivada queda abandonada, desierta o en condiciones pésimas. Sabemos que la elevaciôn de tarifas, hasta esta ûltima decretada por el poder ejecutivo, os ocasionada por el gran aumento en los gastos de los ferrocarriles, aumento determinado en mueha parte por la cuestiôn del au¬ mento de los salarios, reformas de reglamen-
-
+1780
+0AMABA DE DIPUTADOS
+Septiembre 21
+'
+Y bien,
+ya actualmente
+he
+podido anotar
+con tristeza,
+en estadisticas oficiales eompara-
+das ,que con respecto al ano 14 y con mayor
+razôn
+con respeto
+a los subsiguientes,
+en ple-
+nos altos preeios del trigo, del lino y del maiz,
+tenemos
+en
+lo
+que
+a trigo
+se refiere
+un
+mi-
+llôn
+de
+hectâreas
+menos cultivadas
+que hace
+très
+o
+cuatro aiios, 500.000 hectâreas de lino
+menos que en el periodo anterior y un millôn
+de hectâreas de maiz menos;
+es decir 2 millo-
+nes y medio de hectâreas menos
+en la produc-
+ciôn
+de
+granos
+o produceiôn agricola
+de
+ex¬
+porta cion en el pais.
+La influencia que las elevadas tarifas ferro-
+viarias lian tenido
+en esta diminueion del cul-
+tivo,
+es algo de fâeil demostraciôn.
+Sabemos
+que segûn la tarifa
+se pueden cultivai* tierras
+a tal distancia
+de estaciôn; pero elevando la
+tarifa ya una parte de la
+zona cultivada que-
+da abandonada, desierta
+o
+en condiciones pé-
+simas.
+Sabemos
+que la elevaciôn
+de
+tarifas,
+hasta
+esta ûltima decretada por el poder eje-
+cutivo,
+os ocasionada por el gran aumento
+en
+los gastos de los ferrocarriles, aumento deter-
+minado en mueha parte por la cuestiôn del au¬
+mento de
+los salarios, reformas
+de reglamen-
 tos, eteétera.
-
-iCuâl va a ser la situaeiôn del pais, senores diputados? Aqui llego a lo fundamental de la cuestiôn; aqui es donde quiero que presten su atenciôn los senores
-
-diputados.
-
-Sr. del Valle. - No podemos ya con el sueno que tenemos. îQué atenciôn vamos a prestar si estamos todos dormidos?
-
-Sr. Per'a. - Es una manera de decir. Com-
-
+iCuâl va
+a
+ser la situaeiôn del
+pais, seno-
+res diputados? Aqui llego
+a lo fundamental de
+la cuestiôn; aqui es donde quiero que presten
+su atenciôn los senores diputados.
+Sr. del Valle.
+— No podemos ya
+con el sue-
+no que tenemos. îQué atenciôn
+vamos
+a pres-
+tar si estamos todos dormidos?
+Sr. Per‘a.
+— Es
+una manera de decir. Com-
 prendo...
-
-Sr. del Valle. - Comprenda el senor dipu¬ tado que estamos todos dormidos. No por las pa¬ labras del senor
-
-diputado...
-
-Sr. Pena. - También comprendo que ya esta tan dormido el senor diputado que no sabe lo
-
+Sr. del Valle.
+— Comprenda el
+senor dipu¬
+tado que estamos todos dormidos. No por las pa¬
+labras del senor diputado...
+Sr. Pena.
+— También comprendo que ya esta
+tan dormido
+el
+senor diputado
+que no sabe lo
 que dice.
-
-Este aumento harxa que los gastos de los fe¬ rrocarriles se eleven a cifras imposibles de mantener o que nos lleven a nuevos aumentos de ta¬ rifas o que provoquen una 'contraeciôn forzosa de la zona agricola del pais. Y todo eso agravana mas el problema: disminuciôn del volumen de eargas a transporter por los ferroearriles con aumento en los gastos, o parâlisis o cri¬ sis del sistema de transporte, que es fundamen¬ tal para la vida industrial y econômica. Si es¬ ta sensilla mirada que arrojamos para poder eomprender lo que quiero enuneiar, la dirigimos a alguna otra sérié de industrias o de eomercio, aqui en la. capital o fuera de ella, no se dan cuenta los senores diputados que si se insistiera en esta proposieiôn, podria llevarse a la clase trabajadora a la situaeiôn en que se encuentra hoy la de Inglaterra, Norte América u otros paises en, que se eneuentran por millones los desocupados. Porque desde el momento en que se ha encarecido o es imposible por razôn del costo una produceiôn remuneratoria para determinados articulos, esa produceiôn se abandona y trae como consecueneia forzosa la des- ocupaciôn.
-
-Como decia, me propongo tan solo hacer la advertencia sobre este punto para que paren el martillo los rematadores del salario minimo en esta câmara.
-
-(Risas).
-
-Es inutil que hagamos un debate. No tendra objeto en razôn de no ser ignorado por nadie el resultado que tendra la votaciôn. La votaciôn esta casi deeidida. Posiblemente los que me hicieran contradicciôn no me van a eonvencer, como yo no convenceria a los diputados que han hecho manifest&lt;*eiones de
-
-opinion adversas.
-
-De modo que il ûnieo propôsito, vuelvo a repetirlo, que me ha-guiado al tomar la palabra ahora es para hacer présente que esta reforma, que estos entusiasmos que yo calificaria politicamente de électorales, pueden crear a la elase a quien desean favorecer una situaeiôn séria y grave para muy en breve ; que pueden ocasionar trastornos econômicos gravisimos para la economia general del pais, y que generalizados co¬ mo deben ser para no importai* el privilegio burocrâtico a que me he referido, disminuiria necesaria y fatalmente la produceiôn agricola del pais, habrân hecho imposibles muchas otras for¬ mas del trabajo nacional y habrân difieultado el poder ajustar o aeomodar los salarios a las exigencias que provengan del fenômeno de la baja general en el precio de todos los articulos que mas consume el obrero.
-
+Este aumento harxa
+que los gastos de los fe¬
+rrocarriles se eleven a cifras imposibles de man-
+tener o que nos lleven
+a nuevos aumentos de ta¬
+rifas
+o
+que provoquen
+una 'contraeciôn forzosa
+de la zona agricola del pais. Y todo
+eso agra-
+vana
+mas
+el problema: disminuciôn
+del volu-
+men de eargas
+a transporter por los ferroearri-
+les con aumento
+en los gastos,
+o parâlisis o cri¬
+sis del sistema de transporte,
+que
+es fundamen¬
+tal para la vida industrial y econômica.
+Si
+es¬
+ta
+sensilla
+mirada
+que
+arrojamos
+para
+poder
+eomprender lo que quiero enuneiar, la dirigimos
+a alguna otra sérié de industrias
+o
+de
+eomer-
+cio, aqui en la. capital o fuera de ella, no se dan
+cuenta los senores diputados que si
+se insistiera
+en
+esta proposieiôn, podria llevarse
+a la clase
+trabajadora
+a la situaeiôn en que se encuentra
+hoy la de Inglaterra, Norte América
+u otros
+paises en, que
+se eneuentran por millones los
+desocupados. Porque desde el momento en que
+se ha encarecido
+o
+es imposible por razôn del
+costo
+una produceiôn remuneratoria
+para de-
+terminados articulos,
+esa produceiôn se aban-
+dona y trae como consecueneia forzosa la des-
+ocupaciôn.
+Como decia,
+me propongo tan solo hacer la
+advertencia
+sobre
+este
+punto
+para
+que
+paren
+el martillo
+los rematadores del salario minimo
+en esta câmara. (Risas).
+Es inutil que hagamos un debate. No tendra
+objeto en razôn de no ser ignorado por nadie el
+resultado
+que tendra la votaciôn. La votaciôn
+esta casi deeidida.
+Posiblemente los que me hi-
+cieran
+contradicciôn
+no
+me
+van
+a
+eonvencer,
+como yo no convenceria a los diputados que han
+hecho manifest<*eiones de opinion adversas.
+De modo que il ûnieo propôsito, vuelvo a re-
+petirlo, que me ha-guiado al tomar la palabra
+ahora
+es para hacer présente que esta reforma,
+que estos entusiasmos
+que yo calificaria politi-
+camente de électorales, pueden crear
+a la elase
+a quien desean favorecer una situaeiôn séria y
+grave para muy en breve ; que pueden ocasionar
+trastornos
+econômicos gravisimos
+para la
+eco-
+nomia general del pais, y que generalizados
+co¬
+mo deben ser para no importai* el privilegio bu-
+rocrâtico
+a
+que me he referido, disminuiria ne-
+cesaria y fatalmente la produceiôn agricola del
+pais, habrân hecho imposibles muchas otras for¬
+mas del trabajo nacional y habrân difieultado el
+poder ajustar o aeomodar los salarios
+a las exi-
+gencias
+que provengan del fenômeno de la ba-
+ja general
+en el precio de todos los articulos
+que mas consume el obrero.
 Nada mâs.
-
-Sr. Rubilar. - Pido la palabra
-
-Sr.
-
-Rodeyro. - Pido la palabra.
-
-Cuando se debatiô ûltimamente la cuestiôn del salario minimo y se pidiô el aumento del mismo a la suma de 350 pesos mensuales, tuve
-
+Sr. Rubilar.
+— Pido la palabra
+Sr. Rodeyro.
+— Pido la palabra.
+Cuando
+se
+debatiô ûltimamente
+la cuestiôn
+del salario minimo y
+se pidiô el aumento del
+mismo
+a la suma de 350 pesos mensuales, tuve
 oportunidad...
-
-Sr. Rubilar. - Yo habia solicitado antes la
-
-palabra. ·
-
-Sr. Rodeyro. - Tengo el uso de la palabra,
-
+Sr. Rubilar.
+— Yo habia solicitado antes la
+palabra.
+•
+Sr. Rodeyro.
+— Tengo el uso de la palabra,
 y pido que se me respete.
-
-Sr. Rubilar. - Tengo el derecho de hablar.
-
-Sr. Rodeyro. - No se trata del derecho de hablar; se trata de que he pedido la palabra, que la presideneia me la ha dado, y uso de ella. De manera que pido a la presideneia me haga respetar en el uso de ella.
-
-Sr. Rubilar. - La pedi antes que el senor
-
+Sr. Rubilar.
+— Tengo el derecho de hablar.
+Sr. Rodeyro.
+— No
+se trata del derecho de
+hablar;
+se trata de
+que he pedido la palabra,
+que la presideneia
+me la ha dado,
+y
+uso
+de
+ella. De
+manera que pido
+a la presideneia me
+haga respetar
+en el uso de ella.
+Sr. Rubilar.
+— La pedi antes
+que el
+senor
 diputado Pena.
-
-Sr. Rodeyro. - Decia que cuando se tratô la cuestiôn del salario a 150 pesos, formulé mi deseo de adherirme a esa mociôn con mi voto. Entendia, senor présidente, que era justa la proposieiôn que se bacia y cuando, en la ûlti¬ ma sesiôn, anterior a esta, el senor diputado Pereyra Rozas insixmô la praposieiôn ,&lt;jue,. lK)yj
+Sr. Rodeyro.
+— Decia
+que cuando
+se tratô
+la cuestiôn del salario
+a 150 pesos, formulé mi
+deseo de adherirme
+a
+esa mociôn con mi voto.
+Entendia,
+senor présidente,
+que
+era justa la
+proposieiôn que se bacia y cuando, en la ûlti¬
+ma sesiôn, anterior
+a esta, el
+senor diputado
+Pereyra Rozas insixmô la praposieiôn ,<jue,. lK)yj
 ```
 
 ## Images, Captions, And Visual Notes

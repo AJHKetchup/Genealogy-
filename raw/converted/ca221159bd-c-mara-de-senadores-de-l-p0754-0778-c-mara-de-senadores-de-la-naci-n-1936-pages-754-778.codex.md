@@ -17,7 +17,7 @@
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/manifest.json`
 - Source page: 754
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/page-images/page-0754.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -30,60 +30,299 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 
 ```markdown
 -4~
-
-espîritu poco conciliador que lo lleva siempre a exagérailos posibles defectos que pueda tener los proyeetos, que no comparte, y que lo lleva a veces, como lo he demostrado, haste no leer los términos textuales de lo que objets. J
-
-Casi toda la argumentaeion del senor senador por Santa Fe ha reposado en una parte sobre la afirmaeion de que la eorporaciôn de transporte solo se preocuparia de desenvolver las lineas tranviarias, que se preocuparian de matailos colectivos. Creo que ha sido esa su expresiôn de «matar» o «éliminai-» a los co¬ lectivos, y que los colectivos no entraban en la coordinacion de transportes. Y critieô el informe escrito del miembro de la mayorîa de la coniisiôn que habla euando este informe se permitiô comparai' la coordinacion de la ca¬ pital eon la coordinacion de Londres, sosteniendo que eran cosas completamente distin¬ tas: que la coordinacion de Londres comprendia los subterrâneos y los omnibus, mientras que la coordinacion argentins comprendia los tranvias
-
-y los subterrâneos.
-
-Ni una ni otra eosa, senor présidente. La coordinacion de Londres comprendia los sub¬ terrâneos, los omnibus y tranvias con un ma¬ terial rodante que aleauxa a mâs de 11.500 vehiculos de los 3.156 coches subterrâneos, 5.177 automotores, 2.518 coches tranvias y 60
-
+1346
+*3*'*—
+~
+•
+*
+••
+•- ".MM*-!-*»
+P*
+W“",fw‘ ■*"’
+v■•
+CAMARA DE SENADOBES DE LA NACIOîT
+Septembre 29 y 30
+espîritu
+poco conciliador
+que lo lleva siem-
+pre a
+exagérai- los posibles defectos que pue-
+da
+tener
+los
+proyeetos,
+que
+no
+comparte,
+y
+que lo lleva
+a
+veces,
+como lo he demostrado,
+haste no leer los términos textuales de lo que
+objets.
+J
+Casi toda la argumentaeion del senor sena-
+dor por Santa Fe ha reposado
+en una parte
+sobre la afirmaeion de
+que la eorporaciôn de
+transporte solo
+se preocuparia de desenvolver
+las lineas tranviarias,
+que
+se preocuparian de
+matai- los colectivos. Creo que ha sido
+esa su
+expresiôn
+de «matar»
+o «éliminai-»
+a los
+co¬
+lectivos, y
+que los colectivos
+no entraban
+en
+la
+coordinacion
+de
+transportes. Y
+critieô
+el
+informe escrito del miembro de la mayorîa de
+la coniisiôn que habla euando este informe se
+permitiô
+comparai’ la coordinacion
+de la
+ca¬
+pital
+eon la coordinacion
+de
+Londres,
+soste-
+niendo
+que
+eran
+cosas completamente
+distin¬
+tas: que la coordinacion de Londres compren-
+dia los subterrâneos
+y los omnibus, mientras
+que la coordinacion argentins comprendia los
+tranvias y los subterrâneos.
+Ni
+una ni
+otra
+eosa,
+senor présidente. La
+coordinacion de Londres comprendia los sub¬
+terrâneos, los omnibus y tranvias
+con un ma¬
+terial rodante
+que aleauxa
+a mâs
+de 11.500
+vehiculos
+de
+los
+3.156
+coches
+subterrâneos,
+5.177 automotores, 2.518 coches tranvias y 60
 trolleybus.
-
-No se si los senores senadores conoeen el sistema de transporte llamado trolleybus. Son coches que se manejan sin vias, llantas de goma y con una elasticidad que les permite maniobrar en las calles como si no estuviesen sujetos por el trolley, a una distancia de 373 ki¬ lomètres lineales.
-
-Seg-un el senor senador por Santa Fe, no era posible comparaila coordinacion de Lon¬ dres con la Argentina, por esta razôn : porque la de Londres no comprende al tranvia, en eambio la de la Argentina, solo se refiere a los tranvias.
-
-Sr, de la Torre. - Yo no he dicho que la coordinacion de Londres no comprenda a los tranvias, sino que los tranvias de Londres tienen una situaciôn secundaria que apenas aleanza al 25 % de transporte de pasajeros y que, por eonsiguiente, es una coordinacion, del servicio de automotores y subterrâneos en
-
-primer término.
-
-Sr. Sanchez Sorondp. - Me place mucho la aelaracion del senor senador. La coordinacion de Londres es una coordinacion de todos los tipos de transporte que se utilizan alli : tran¬
-
-vias, subterrâneos, automotores, trolleybus. La proporciôn, en que cada uno de estos sistemas contribuye al trâfico es una cosa distinta, cuvas eifras acabo de leer, toinada del excelente libro titulado Coordinacion o destruction.
-
-El problema del transporte urbano de pasâjeros en la ciudad de Buenos Aires, editado,' me parece, por la empresa Lacroze. .
-
-Pero la coordinacion de Buenos Aires, eoniprende exactamente lo r.iismo que la de Lon¬ dres, con excepeion de los trolleybus, que aqui no existen. Comprende tranvias, subterrâneos, omnibus
-
-y colectivos. *.
-
-Sr. de la Tone. - Pero los colectivos desaparecerân, y a -les omnibus se les crearân reearridos subordinados al interéS del trànvia, y ahi esta la diferencia. .y
-
-..=j
-
-Sr. Sanchez Sorondo. --El senor senador me pennitirâ que le diga que esa es una afirmaeion suya. El senor senador créé en eso. -
-
-Sr. de la Torrc. - De los hechos no puede résulter otra cosa, y lo prueba el despacho en disidencia de otro miembro de la comisiôn, para amparar a los colectivos. Esa es la mejor demostraciôn.
-
-Sr. Sanchez Sorondo. - La disidencia del senor senador por San Luis no tiene uada que liacer eon este aspecto de la cuestiôn.
-
-Sr. de la Torre. - Ampara a los eolectivos que van a desaparecer, y yo expliqué por que van a
-
-desaparecer. ■%
-
-Sr. Sanchez Sorondo. - El senor senador créé en eso, y ademâs créé que lo que él créé es la verdad, y no admite que otros crean lo con¬ trario, y menos que puedan estaien la verdad en contra de lo que él créé. (Risas). A
-
-Sr. de là Torre. - Aparté de lo que crean unos
-
-y otros, estân los hechos. ;
-
-Sr. Sanchez Sorondo. - No senor senador, los hechos no se bail producido ; se producirân... Como puede decirse ahi estân los hechos, si recién estâmes considerando el proyecto. f
-
-Sr. de la ïorre. ·-El senor senador no ha destruido lo que yo he probado : que un colectivo no puede entrar en la eorporaciôn para recibir un 7 % de interés. Eso esta bueno para los grandes capitales.
-
-Sr. Sanchez Sorondo. - Bien, senor senadoiv Naturalmente que euando se expresa en -una' forma categories, como lo hace el senor senador, que la coordinacion de Buenos Aires solo tiende a matai* el colectivo, y se lee el articulo primero del proyecto do ley que establece que los eo-' leetivos entran en la coordinacion, no hay mâs que decir, y la eorporaciôn, por todas las razones que ha dado el senor senador, para de-
+No
+se
+si los
+senores
+senadores
+conoeen
+el
+sistema
+de transporte llamado trolleybus.
+Son
+coches que se manejan sin vias, llantas de go-
+ma y con una elasticidad
+que les permite ma-
+niobrar en las calles
+como si no estuviesen su-
+jetos por el trolley,
+a una distancia de 373 ki¬
+lomètres lineales.
+Seg-un el
+senor
+senador
+por Santa
+Fe,
+no
+era posible
+comparai- la coordinacion de Lon¬
+dres
+con la Argentina, por esta razôn : porque
+la
+de Londres
+no
+comprende
+al tranvia,
+en
+eambio la
+de la Argentina, solo
+se refiere
+a
+los tranvias.
+Sr,
+de la Torre.
+— Yo
+no he dicho
+que la
+coordinacion de Londres
+no comprenda
+a los
+tranvias, sino que los tranvias de Londres tie-
+nen
+una
+situaciôn secundaria
+que
+apenas al-
+eanza al
+25 %
+de transporte de pasajeros
+y
+que,
+por
+eonsiguiente,
+es
+una
+coordinacion,
+del
+servicio
+de
+automotores
+y
+subterrâneos
+en primer término.
+Sr. Sanchez Sorondp. — Me place mucho la
+aelaracion del senor senador. La coordinacion
+de Londres
+es
+una coordinacion de todos los
+tipos de transporte que
+se utilizan alli : tran¬
+vias,
+subterrâneos,
+automotores, trolleybus.
+La
+proporciôn,
+en
+que cada uno de estos sistemas
+contribuye al trâfico es una cosa distinta, cuvas
+eifras acabo de leer, toinada del excelente libro
+titulado Coordinacion
+o destruction.
+El problema del transporte urbano de pasâ-
+jeros
+en la ciudad
+de Buenos Aires,
+editado,'
+me parece, por la empresa Lacroze.
+.
+Pero la coordinacion de Buenos Aires, eoni-
+prende exactamente lo r.iismo
+que la de Lon¬
+dres,
+con excepeion de los trolleybus, que aqui
+no existen.
+Comprende tranvias, subterrâneos,
+omnibus y colectivos.
+*.
+Sr. de la Tone.
+— Pero los colectivos des-
+aparecerân, y a -les omnibus se les crearân reea-
+rridos subordinados
+al interéS
+del trànvia, y
+ahi esta la diferencia.
+.y..=j
+Sr. Sanchez Sorondo.
+-— El senor senador me
+pennitirâ que le diga que esa es una afirmaeion
+suya. El senor senador créé en eso.
+-
+Sr. de la Torrc.
+— De los hechos
+no puede
+résulter otra cosa, y lo prueba el despacho en
+disidencia de otro miembro de la comisiôn, para
+amparar a los colectivos.
+Esa es la mejor de-
+mostraciôn.
+Sr.
+Sanchez
+Sorondo.
+— La disidencia del
+senor senador por San Luis no tiene uada que
+liacer eon este aspecto de la cuestiôn.
+Sr. de la Torre.
+— Ampara
+a los eolectivos
+que van a desaparecer, y yo expliqué por que
+van a desaparecer.
+■%
+Sr.
+Sanchez
+Sorondo.
+— El
+senor
+senador
+créé en eso, y ademâs créé que lo que él créé es
+la verdad, y no admite que otros crean lo con¬
+trario, y menos que puedan estai- en la verdad
+en contra de lo que él créé.
+(Risas).
+A
+Sr.
+de là Torre.
+— Aparté de lo que crean
+unos y otros, estân los hechos.
+;
+Sr.
+Sanchez Sorondo.
+— No
+senor senador,
+los hechos no se bail producido ; se producirân...
+Como
+puede
+decirse ahi estân
+los hechos, si
+recién estâmes considerando el proyecto.
+f
+Sr. de la ïorre.
+•— El
+senor senador
+no ha
+destruido lo que yo he probado : que un colec-
+tivo
+no puede entrar
+en la eorporaciôn
+para
+recibir un 7 % de interés.
+Eso esta bueno para
+los grandes capitales.
+Sr. Sanchez Sorondo.
+— Bien, senor senadoiv
+Naturalmente
+que euando
+se
+expresa
+en -una’
+forma categories, como lo hace el senor senador,
+que la coordinacion de Buenos Aires solo tiende
+a matai* el colectivo, y se lee el articulo primero
+del proyecto do ley que establece que los eo-'
+leetivos entran en la coordinacion, no hay mâs
+que decir, y la eorporaciôn,
+por todas las ra-
+zones
+que ha dado el senor senador, para de-
 ```
 
 ## Images, Captions, And Visual Notes
@@ -123,7 +362,7 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/manifest.json`
 - Source page: 755
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/page-images/page-0755.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -135,47 +374,270 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-fender a los malos colectivos que hoy existeu, ira transformando paulatinamente sus servicios de tranvîas y omnibus en servicios de colecti¬ vos, al punto de que, cuando pasen los anos que ban pasado en Londres después de la coordinaeiôn, se podrâ repetir la afirmaciôn que acaba de liacer el seiior senador por Santa Fe, de que en primer término, la coordinaeiôn de Londres es de vehiculos automotores y omnibus. Eso mismo sucederâ en Buenos Aires cuando esta corporaeiôn se instale y se desenvuelva eon la capacidad econômica que esta llamada a tener, cuando se levanten las vias, eosa qne esta prevista en la lejr, y que el senor senador por Santa Fc quizâ no ha advertido que tienen que levantar.se en .el centro de la eiudad primero, y poco a poco se vaya eliminando este sistema de trans¬ porte de tranvîas eléctricos, se podrâ afirmar que la Coordinaeiôn de Buenos Aires es...
-
-Sr. de la Torre. - Eso no esta puesto imperativamente en la
-
-lèy.
-
-Sr. Sanchez Sorondo. - ... eomo la de Lon¬ dres, porque se habrâ relegado casi al ultimo término el sistema de los tranvîas, que segûn el senor senador por Santa Fe es lo ûnico que entra en la coordinaeiôn. Enfonces, cuando se esta en polos tan opuestos, en que uno quiere demostrar en base de lo que se lee y es el otro en base de lo que imagina, es muy difîcil con-
-
+de 1936
+JAMARA DE SEN ADORES DE LA NACION
+1347
+fender
+a los malos colectivos que hoy existeu,
+ira transformando paulatinamente sus servicios
+de tranvîas y omnibus
+en servicios de colecti¬
+vos, al punto de que, cuando pasen los anos que
+ban pasado en Londres después de la coordina-
+eiôn, se podrâ repetir la afirmaciôn que acaba
+de liacer el seiior senador por Santa Fe, de que
+en primer término, la coordinaeiôn de Londres
+es
+de vehiculos automotores
+y omnibus.
+Eso
+mismo
+sucederâ
+en Buenos Aires
+cuando
+esta
+corporaeiôn
+se instale y se desenvuelva eon la
+capacidad econômica que esta llamada a tener,
+cuando
+se levanten las vias, eosa qne esta pre-
+vista en la lejr, y que el senor senador por Santa
+Fc quizâ no ha advertido que tienen que levan-
+tar.se en .el centro de la eiudad primero, y poco
+a poco se vaya eliminando este sistema de trans¬
+porte de tranvîas eléctricos,
+se podrâ afirmar
+que la Coordinaeiôn de Buenos Aires es...
+Sr. de la Torre.
+— Eso
+no esta puesto impe-
+rativamente
+en la lèy.
+Sr. Sanchez Sorondo.
+—
+...
+eomo la de Lon¬
+dres, porque
+se habrâ relegado casi al ultimo
+término el sistema de los tranvîas, que segûn el
+senor senador
+por Santa Fe
+es lo ûnico
+que
+entra
+en la coordinaeiôn.
+Enfonces, cuando
+se
+esta
+en polos tan opuestos,
+en que
+uno quiere
+demostrar en base de lo que se lee y es el otro
+en base de lo que imagina, es muy difîcil con-
 vencerse reeîprocamente.
-
-Otro error del senor senador por Santa Fe, â mi juicio, consiste en afirmar que la corpo¬ ration va a fijar las tarifas. Lo ha dicho categôricamente : La' corporaeiôn fijarâ las ta¬ rifas. No, senor présidente, no ha leîdo con atenciôn el senor senador por Santa Fe. No es la corporaeiôn la que va a fijar las tarifas: es la comisiôn
-
-especial.
-
-Sr. de la Torre. - Yo he dicho que se elevarân neeesariamente las tarifas.
-
-Sr. Sanchez Sorondo, -Lo ha dicho también. Sr. de la Torre. - No he dicho por que pro-
-
+Otro error del
+senor senador por Santa Fe,
+â mi juicio, consiste en afirmar que la corpo¬
+ration
+va
+a fijar las tarifas.
+Lo ha dicho
+ca-
+tegôricamente :
+La' corporaeiôn fijarâ las
+ta¬
+rifas.
+No,
+senor présidente,
+no ha leîdo
+con
+atenciôn
+el
+senor
+senador por Santa Fe.
+No
+es la corporaeiôn la que va a fijar las tarifas:
+es la comisiôn especial.
+Sr. de la Torre.
+— Yo he dicho que se eleva-
+rân neeesariamente las tarifas.
+Sr. Sanchez Sorondo, — Lo ha dicho también.
+Sr. de la Torre.
+— No he dicho por que pro-
 cedimiento.
-
-Sr. Sanchez Sorondo. - Me parece que lo ha dicho el senor senador, porque aquî tengo anotado : «La corporaeiôn fijarâ las tarifas y, naturalmente, fijarâ las tarifas mâs elevadas». No es la corporaeiôn; es la comisiôn especial, la que harâ la
-
-regulaciôn.
-
-Sr. de la Torre. -No lie hecho cuestiôn de eso. Esta abriendo puertas abiertâs.
-
-Sr. Sanchez Sorondo. - Tampoco hago
-
+Sr. Sanchez Sorondo.
+— Me parece que lo ha
+dicho el senor senador, porque aquî tengo ano-
+tado :
+«La corporaeiôn fijarâ las tarifas y,
+na-
+turalmente, fijarâ las tarifas mâs elevadas».
+No
+es la corporaeiôn;
+es la comisiôn especial, la
+que harâ la regulaciôn.
+Sr. de la Torre. —No lie hecho cuestiôn de
+eso.
+Esta abriendo puertas abiertâs.
+Sr.
+Sanchez
+Sorondo.
+— Tampoco
+hago
 cuestiôn.
-
-Sr. de la Torre. - La financiaciôn de este proyecto para asegurar el 7 % de dividendo a ■ r ' i empresas que hoy pierden dinero exige elevar las tarifas. Eso es lo que he dicho.
-
-Sr. Sanchez Sorondo. - Y por fin el senor senador se referîa en apoyo de sus argumen¬ tes, a la nota de los carroceros.
-
-Si algo, califica y destaca la îndole de ciertos argumentos, de argumentos que no tienen una relaciôn direeta con el asunto que se de¬ bate y que, al contrario, son la mejor demostraciôn de su falta de fundamento, la nota de los senores carroceros, de la Asociaeiôn Carroceros y Afines puede ser presentada eomo modelo.
-
-Objetivamente, tratando de la cuestiôn de la coordinaeiôn del trâfico en mejor servicio del piiblico de la Capital, j qué tiene que liacer que los carroceros liagan o no liagan negocio componiendo carroeerias? Hay una falta tan absoluta de vinculaciôn entre el negocio que hacen los carroceros y el problema d^ la regu¬ laciôn del trâfico que solamente encuentro yo en ese terreno justificada la intromisiôn de la nota de los carroceros por la siguiente conclu¬ sion: Los carroceros se quejan de que se supriman los colectivos porque ellos viven de la compostura de las carroeerias. Luego, los colectiveros no hacen sino echar a perder las ca¬ rroeerias,, atropellando a todo el mundo y dando, de esta manera, de vivir a los carroceros. (Risas). Es la dnica vinculaciôn que yo encuen¬ tro entre el problema del trâfico y el medio de vida de los carroceros. Y, naturalmentCj los carroceros, montados en ese argumento, hacen todos los demâs referentes al capitalisme, al monopolio, a la concentration, etcetera. Pero, con este mismo dereelio, cualquiera podrîa vineular su honorable profesiôn al problema. del transporte comun de pasajeros, especialmente los médicos, los farmacéuticos, las pom¬ pas funèbres. No puedo, pues, demorarme mâs en este asunto.
-
-Antes de terminai*, senor présidente, quisiera decir dos. palabras acerea de algo que los senores senadores no han toeado y que conceptûo necesario aclarar. Convencida la mayorîa de la comisiôn tan sinceramente de la bonclad de esta ley, que no liace mâs que dar las bases para que se prepare sobre ellas el estudio téenico y econômico de la organizacjôn del trâfico en Buenos Aires, ha encontrado que debe aclarar un artîculo.
-
-Voy a seîialar por su encargo algo que a los senores senadores oponentes se les lia escapado y que es indispensable aclarar, en nuestro concepto, para que no quede esa duda. Me refiero a la clâusula que exime de todo impuesto a la corporaeiôn.
+Sr.
+de la Torre.
+— La financiaciôn
+de
+este
+proyecto para asegurar el 7 % de dividendo
+a
+■
+r
+'
+i
+empresas
+que hoy pierden dinero exige elevar
+las tarifas. Eso
+es lo que he dicho.
+Sr. Sanchez Sorondo.
+— Y por fin el senor
+senador
+se referîa
+en apoyo de
+sus
+argumen¬
+tes, a la nota de los carroceros.
+Si algo, califica y destaca la îndole
+de cier-
+tos argumentos, de argumentos
+que
+no tienen
+una relaciôn direeta
+con el asunto
+que
+se de¬
+bate y que, al contrario, son la mejor demostra-
+ciôn
+de
+su falta de fundamento, la nota de los
+senores carroceros, de la Asociaeiôn Carroceros
+y Afines puede ser presentada eomo modelo.
+Objetivamente, tratando
+de la cuestiôn
+de
+la coordinaeiôn del trâfico
+en mejor
+servicio
+del piiblico de la Capital, j qué tiene que liacer
+que los carroceros liagan
+o no liagan
+negocio
+componiendo carroeerias? Hay una falta
+tan
+absoluta
+de vinculaciôn
+entre
+el negocio
+que
+hacen los carroceros y el problema d^ la regu¬
+laciôn del trâfico
+que solamente encuentro yo
+en
+ese terreno justificada la intromisiôn de la
+nota de los carroceros por la siguiente conclu¬
+sion:
+Los
+carroceros
+se quejan de
+que
+se
+su-
+priman los colectivos porque ellos viven de la
+compostura de las carroeerias.
+Luego, los
+co-
+lectiveros no hacen sino echar
+a perder las ca¬
+rroeerias,, atropellando
+a todo el mundo y dan-
+do, de esta manera, de vivir
+a los carroceros.
+(Risas). Es la dnica vinculaciôn que yo encuen¬
+tro entre el problema
+del
+trâfico
+y el medio
+de vida de los carroceros. Y, naturalmentCj los
+carroceros, montados
+en
+ese argumento, hacen
+todos los demâs referentes
+al capitalisme,
+al
+monopolio,
+a la concentration, etcetera.
+Pero,
+con
+este
+mismo
+dereelio,
+cualquiera
+podrîa
+vineular
+su honorable
+profesiôn
+al problema.
+del transporte
+comun
+de
+pasajeros,
+especial-
+mente los médicos, los farmacéuticos, las pom¬
+pas funèbres. No puedo, pues, demorarme mâs
+en este asunto.
+Antes
+de terminai*,
+senor présidente, quisie-
+ra decir dos. palabras
+acerea
+de algo
+que los
+senores
+senadores
+no
+han
+toeado
+y
+que
+con-
+ceptûo necesario aclarar. Convencida la mayo-
+rîa de la comisiôn tan sinceramente de la bon-
+clad de esta ley,
+que no liace mâs
+que dar las
+bases para que
+se prepare sobre ellas el estu-
+dio téenico y econômico de la organizacjôn del
+trâfico
+en Buenos
+Aires, ha
+encontrado
+que
+debe aclarar un artîculo.
+Voy a seîialar por su encargo algo que a los
+senores senadores oponentes
+se les lia
+escapa-
+do y
+que
+es indispensable aclarar,
+en nuestro
+concepto, para que no quede esa duda. Me re-
+fiero
+a la clâusula que exime de todo impuesto
+a la corporaeiôn.
+cy
 ```
 
 ## Images, Captions, And Visual Notes
@@ -1125,7 +1587,7 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/manifest.json`
 - Source page: 766
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/page-images/page-0766.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -1137,41 +1599,272 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-El estacionamiento de los vehiculos, sin organizaciôn y sin. playas especrales, trae eomo consecnencia otra perturbaciôn. La carga y desearga d'e mercaderias en la zona céntrica, lo misrrro. Y, finalmente, la forma como se ban acordado todas las concesiones. El eonce.jo, el Congreso y el Poder Ejecutivo de la Nacion han acordado concesiones y no lian tenido ningiin eriterio en esta materia ni han tratado de pro¬ céder en forma
-
-orgâniea.
-
-Es asi como ban surgido y como se han construido los tranvias en la cindad de Buenos Ai¬ res. Porque una empresa se presentaba al Concejo Délibérante, al Congreso y al Poder Eje¬ cutivo a solicitai' una coneesiôn, se le acordaba; venia otra empresa también y se le acordaba igualmente ; Inego aparecieron los omnibus, y, mâs tarde, vinieron los «colectivos», y es as! como se ha
-
-producido la situaeiôn actual.
-
-De ràanera que esta situaeiôn ha surgido de esos factores que he senalado. jHa eontemplado alguno de estos factores el proyecto? Absolutamente ninguno. Paso ahora a considerar como ha
-
-surgido este proyecto.
-
-Este proyecto ha surgido como consecnencia de una l'arga Ineha de las eompanias tranviarias para conseguir el aumento de sus tarifas. Es un asunto que viene de lejos y bay una verdad que debo decirla descarnada y crudamente: aqui Io que se busea y ya se ha demostrado en parte y lo he de demostrar mâs adelante, no es la coordinaciôn ; Io que se busea es salvar la situacion de un grupo de empresas tranviarias en detrimento de los interesesde toda la co-
-
+1358
+CAITAKA DE SENABODES BE LA NACION
+Septiembre 2? y 3©
+El estacionamiento de los vehiculos, sin or-
+ganizaciôn y sin. playas especrales, trae eomo
+consecnencia
+otra
+perturbaciôn.
+La
+carga
+y
+desearga d'e mercaderias en la zona céntrica, lo
+misrrro.
+Y, finalmente, la forma como
+se ban
+acordado todas las concesiones. El eonce.jo, el
+Congreso y el Poder Ejecutivo de la Nacion han
+acordado concesiones y no lian tenido ningiin
+eriterio
+en esta materia ni han tratado de pro¬
+céder
+en forma orgâniea.
+Es asi como ban surgido y como se han cons-
+truido los tranvias
+en la cindad de Buenos Ai¬
+res. Porque una empresa se presentaba al Con-
+cejo Délibérante, al Congreso y al Poder Eje¬
+cutivo a solicitai' una coneesiôn, se le acordaba;
+venia otra
+empresa también y
+se le acordaba
+igualmente ; Inego aparecieron los omnibus, y,
+mâs tarde, vinieron los «colectivos», y
+es as!
+como
+se ha producido la situaeiôn actual.
+De ràanera que esta situaeiôn ha surgido de
+esos factores que he senalado. jHa eontemplado
+alguno de estos factores el proyecto?
+Absolu-
+tamente
+ninguno.
+Paso
+ahora
+a
+considerar
+como ha surgido este proyecto.
+Este proyecto ha surgido como consecnencia
+de una l'arga Ineha de las eompanias tranviarias
+para conseguir el aumento de
+sus tarifas.
+Es
+un asunto que viene de lejos y bay una verdad
+que
+debo
+decirla
+descarnada
+y
+crudamente:
+aqui Io que se busea y ya se ha demostrado en
+parte y lo he de demostrar mâs adelante, no es
+la coordinaciôn ; Io que se busea es salvar la si-
+tuacion
+de
+un grupo de
+empresas tranviarias
+en detrimento
+de los intereses- de toda la
+co-
 lectividad.
-
-Las empresas tranviarias y especialmente la Anglo Argentina, que représenta casi eï 60 °/o de! total de loscapitales tranviarios, tuvieron el monopolio de hecho en materia de transpor¬ te en la ciudad de Buenos Aires, hasta que aparecieron los omnibus y los «colectivos». Es elaro, enando apareee la eompetencia, la situa¬ tion se hace mâsdifîeil, y viene entonces la puja. i Por que? ;,Por mejorar los serviciosf, no; $por mejorar laexplotaeiôn?, no; por la. soluciôn mâs- seneilla y productiva : el aumento de las tarifas tranviarias.
-
-Con motivo de las Ieyes que se dictaron de jornada legal y jubilaciôn de los tranviarios, etcetera, ellos encuentran en 1931 la oportunidad magnifica para explotar la situaeiôn de los obreros y aparecer aparentando con un al¬ to criterio de liumanidad defendiendo sus in¬ tereses.
-
-En la presentacTÔn que hicîeron las empre¬ sas tranviarias el 13 de febrero de
-
-1931, al Gobierno Provisional,, se deeferaron me&amp;paebdas para cumplir la ley numéro 11.544, sobre jornada legal de 8 boras y deseanso llebdemadario.
-
-Las empresas quesubseribieron esa presenstaciôn fueron la Anglo Argentina, La-croze, Puerto y Ciudad de Buenos Aires y Eléetrieos del Sud. Eï Ministerro de Obras Piiblicas por decreto de noviembre de 1931 de.jô establecido que desde el lç de noviembre' el Estado contribuirfa, de las sumas que le correspondes des¬ de esas fechas, cou el aparté équivalente del 50 % del aumento del safari# que origin-aria a la eompanîa del puerto la aplieacién del deereto reglamentario de la ley numéro 11.544 y hasta una suma que no excediera de la mitad del
-
-impuesto respective.
-
-Mas tarde, por decreto de fecha 7 de abril de 1931, se nombre nna. eomision compuesta por el doctor David M. Arias, ingeniero Luis Duhau y Américo A. Aliverti para expedirsé sobre el estado de toclos los coneesionarïos y. permisionaiios, incluso sobre el problema del transporte. Esta concision aconsejô se autorfzara a la comuna a contribuir eon una suma que no excediera del 5Q % de los impuestos, de! 5 6 G % de las entradas brutas de las em¬ presas para pago de aumento de salarios.
-
-La municipalidad puso en vigor esa. dispo¬ sition el 30 de octubre de 193-1, peso esc apor¬ te ciel 50 % estaba snjeto a esta condition: Que las empresas deberian justixiear, en la for¬ ma que oportunamente se estabieceria, la in¬ version de ese aporte cuya «fectividad quedaba supeditada a la comprobaciôn ulterior y datos snmmistrad'os por las empresas con refereneia a su estado- financière. Pero aliî las empresas pusieron el grito en el cielo. Confor¬ me se las amenazara eon el examen de su es¬ tado econémico y financiero, allî ya el gobierno no pnede llegar. Tanto era asi que en un informe dirigido por la eomision al entonces ministro del Interior, ingeniero Octavio S. Pico, en enero de 1932, se rnanifiesta que ha sido. im-posible sugerir solucion.es terminantes sobre' el transporte-, porque los estudios heehos en materia de cuentas de les eoneesionarios no dejaban una impresién satisfaetoria, en primer lugar, por la inexisteneia de un contralo-r municipal, y en segundo lugar porque no eoncordaban laeomision y las eompanias en el criterio a
-
-aplicar.
-
-Las empresas se présentai! nuevamente expresando que no pueden aportar el 50 %. El intendente, en diciembre de 1931, dijo al Gobier-
+Las empresas tranviarias y especialmente la
+Anglo Argentina,
+que représenta casi eï 60
+°/o
+de! total de los- capitales tranviarios, tuvieron
+el monopolio de hecho en materia de transpor¬
+te
+en la
+ciudad
+de
+Buenos Aires,
+hasta
+que
+aparecieron los omnibus y los «colectivos». Es
+elaro, enando apareee la eompetencia, la situa¬
+tion
+se
+hace
+mâs- difîeil, y viene entonces la
+puja. i Por que? ;,Por mejorar los serviciosf,
+no; $por mejorar la- explotaeiôn?, no;
+por la.
+soluciôn mâs- seneilla y productiva : el aumento
+de las tarifas tranviarias.
+Con motivo
+de las Ieyes que se dictaron de
+jornada legal y jubilaciôn
+de los tranviarios,
+etcetera, ellos encuentran
+en 1931 la oportuni-
+dad magnifica
+para explotar la situaeiôn
+de
+los obreros y aparecer aparentando con un al¬
+to criterio
+de liumanidad defendiendo
+sus in¬
+tereses.
+En
+la presentacTÔn
+que hicîeron las
+empre¬
+sas tranviarias
+el
+13
+de febrero
+de
+1931,
+al
+Gobierno Provisional,,
+se deeferaron
+me&paeb-
+das para cumplir la ley numéro 11.544, sobre
+jornada legal de 8 boras y deseanso llebdema-
+dario.
+Las
+empresas
+que- subseribieron esa presens-
+taciôn
+fueron
+la
+Anglo
+Argentina,
+La-croze,
+Puerto y Ciudad de Buenos Aires y Eléetrieos
+del Sud. Eï Ministerro
+de Obras Piiblicas por
+decreto de noviembre de 1931 de.jô establecido
+que desde
+el lç de noviembre' el Estado
+con-
+tribuirfa, de las sumas que le correspondes des¬
+de
+esas fechas,
+cou
+el aparté équivalente del
+50
+%
+del aumento del safari# que origin-aria
+a la eompanîa del puerto la aplieacién del de-
+ereto reglamentario de la ley numéro 11.544 y
+hasta una
+suma que no excediera de la mitad
+del impuesto respective.
+Mas tarde, por decreto de fecha 7 de abril
+de
+1931,
+se nombre
+nna. eomision
+compuesta
+por el doctor David M. Arias, ingeniero Luis
+Duhau y Américo A. Aliverti
+para expedirsé
+sobre
+el estado
+de toclos los
+coneesionarïos
+y.
+permisionaiios, incluso sobre el problema del
+transporte. Esta concision aconsejô
+se autorf-
+zara
+a la comuna
+a contribuir
+eon
+una
+suma
+que
+no excediera del 5Q %
+de los impuestos,
+de! 5 6 G % de las entradas brutas de las em¬
+presas para pago de aumento de salarios.
+La municipalidad
+puso
+en vigor
+esa. dispo¬
+sition el 30 de octubre de 193-1, peso esc apor¬
+te
+ciel
+50
+%
+estaba snjeto
+a esta condition:
+Que las empresas deberian justixiear, en la for¬
+ma
+que oportunamente
+se
+estabieceria, la in¬
+version
+de
+ese
+aporte
+cuya «fectividad
+que-
+daba supeditada
+a
+la
+comprobaciôn ulterior
+y datos
+snmmistrad'os
+por
+las
+empresas
+con
+refereneia
+a su estado- financière. Pero aliî las
+empresas pusieron el grito
+en el cielo. Confor¬
+me se las
+amenazara
+eon el
+examen
+de
+su
+es¬
+tado econémico y financiero, allî ya el gobier-
+no
+no pnede llegar. Tanto
+era asi que
+en un
+informe dirigido por la
+eomision
+al
+entonces
+ministro del Interior, ingeniero Octavio S. Pico,
+en
+enero
+de 1932,
+se rnanifiesta
+que ha sido.
+im-posible sugerir solucion.es terminantes sobre'
+el transporte-,
+porque los estudios
+heehos
+en
+materia
+de
+cuentas
+de
+les
+eoneesionarios
+no
+dejaban una impresién satisfaetoria, en primer
+lugar, por la inexisteneia de un contralo-r mu-
+nicipal, y en segundo lugar porque no eoncor-
+daban la- eomision y las eompanias en el crite-
+rio
+a aplicar.
+Las
+empresas
+se présentai!
+nuevamente
+ex-
+presando
+que no pueden aportar el 50 %. El
+intendente, en diciembre de 1931, dijo al Gobier-
 ```
 
 ## Images, Captions, And Visual Notes
@@ -1675,7 +2368,7 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/manifest.json`
 - Source page: 772
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/page-images/page-0772.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -1687,27 +2380,304 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-j Se pucdc afirmar, con los propios balances, que el Anglo Argentino diô a la comisiôn de gobierno defacto, que no han obtenido utilidades? La explotaeion ha dejado una utilidad de 4.000.000 de pesos oro en el ano 1920; 5.000.000 en el ano 1921 ; 6.000.000, en el aiio 1922 ; 6.000.000 en el ano 1933 y 6.000.000 en el ano 1924, etc. Ha dejado pues, dividendo. Y luego agrega: «Veamos ahora cuanto ganaban las empresas tranviarias de Inglaterra segûn el Anuario de Tranvîas de aquel pals del ano 1931; el Metropolitano de Londres ganô el 2 % ; el tranvîa central de Londres, el 5,31 % ; el tranvîa de Londres de la Ciudad y del Sur el 4,72 % ; y el tranvîa eléetrico de Londres el 7,20 % ; el tranvîa a nivel municipal, el 3.73 %. Segûn ese Anuario en toda Inglaterra, tomando las 217 empresas de tranvîas, ellas habrîan dejado una ganancia neta de 87.000.000 de libras, se refieren a 217 empresas de tranvîas, de las cuales 160 eran municipales. En toda In¬ glaterra todos los tranvîas habîan dejado un promedio de 5,70 %.» Las empresas inglesas alla se eallan pero aquî gritan, y grita.n con razôn porque nosotros siempre estamos dispuestos a servirlos con oficiosidad
-
-digna de mejor causa.
-
-En la pagina 24 del diario de Sesiones del Concejo Délibérante del aûo 1924, se registran estas cifras que son elocuentes e interesantes dadas por el concejal Justo: «Que corrobora la neeesidad de las investigaciones citadas, el hecbo documentado ante este Honorable Con¬ cejo de que la companîa de tranvîa de Buenos Aires, con sede en Bruselas y propietaria en 1928 del 70,20 % del capital acciones del An¬ glo Argentino, ha distribuîdo en los ultimos anus los siguientes dividendos: ano 1924-25, el 14,45 %; ano 1925-26, cl 19,13 %; ano 1926-27, el 30,02 %; ano 1927-28, el 39,87 %; ano 19281929, el 39,87 % ; ano 1929-30, cl 15,15 %, (un
-
+1364
+CAMARA DR SENADORES DE LA NACIOM
+Septembre 29 y 30
+j Se pucdc afirmar, con los propios balances, que
+el Anglo Argentino diô a la comisiôn de gobier-
+no
+defacto,
+que
+no
+han obtenido utilidades?
+La
+explotaeion
+ha
+dejado
+una utilidad
+de
+4.000.000 de pesos oro en el ano 1920; 5.000.000
+en
+el
+ano
+1921 ;
+6.000.000,
+en
+el
+aiio
+1922 ;
+6.000.000
+en
+el
+ano 1933
+y 6.000.000
+en el
+ano
+1924, etc. Ha dejado
+pues, dividendo. Y
+luego agrega: «Veamos ahora cuanto ganaban
+las
+empresas tranviarias
+de Inglaterra
+segûn
+el Anuario de Tranvîas de aquel pals del ano
+1931; el
+Metropolitano
+de Londres
+ganô
+el
+2 % ; el tranvîa central de Londres, el 5,31 % ;
+el tranvîa de Londres de la Ciudad y del Sur
+el 4,72 % ; y el tranvîa eléetrico de Londres el
+7,20 % ; el tranvîa a nivel municipal, el 3.73 %.
+Segûn
+ese Anuario en toda Inglaterra, toman-
+do las 217 empresas de tranvîas, ellas habrîan
+dejado
+una ganancia neta
+de 87.000.000
+de
+libras,
+se refieren
+a 217
+empresas de tranvîas,
+de las cuales 160 eran municipales. En toda In¬
+glaterra todos los tranvîas habîan dejado un
+promedio de 5,70 %.» Las empresas inglesas alla
+se eallan pero aquî gritan, y grita.n con razôn
+porque nosotros siempre estamos dispuestos
+a
+servirlos con oficiosidad digna de mejor causa.
+En la pagina 24 del diario de Sesiones del
+Concejo Délibérante del aûo 1924, se registran
+estas cifras
+que
+son elocuentes
+e interesantes
+dadas por el concejal Justo: «Que corrobora
+la neeesidad
+de las investigaciones citadas, el
+hecbo documentado
+ante
+este Honorable
+Con¬
+cejo de que la companîa de tranvîa de Buenos
+Aires,
+con sede
+en Bruselas y propietaria
+en
+1928 del 70,20 % del capital acciones del An¬
+glo Argentino,
+ha distribuîdo
+en los ultimos
+anus los siguientes dividendos: ano 1924-25, el
+14,45 %; ano 1925-26, cl 19,13 %; ano 1926-27,
+el 30,02 %; ano 1927-28, el 39,87 %; ano 1928-
+1929, el 39,87 % ; ano 1929-30, cl 15,15 %, (un
 semestre)».
-
-No pueden darse cifras mâs suculentas, sabrosas y extraordinarias y estas son en realidad las empresas que todavîan daman, se quejan y pretenden mayores benefieios.
-
-I Como han sido fiscalizadas estas empresas por la municipalidad ? Hemos escueliado esta noclie un ataque extraordinario a los pobres colectiveros, que no ticnen mâs capital que su auto, a voces ineompletamente pngo, con su esfuerzo, que en realidad viven en un régimen de licencia absoluta y sin fiscalizacion de ninguna naturaleza. Sin embargo, no creo que las companîas tranviarias liayan sido mejor fisca¬ lizadas y dejo la palabra al propio concejal Justo
-
-que, en presencia del secretam de Obras Pûblicas de la Municipalidad, dijo lo siguiente: «Nosotros reeordâbamos en ese momento todas las oportunidades en que el Concejo ha requerido del Departamento Ejecutivo el cumplimiento estrieto de las ordenanzas de trâfico aquî sancionadas. Por ejemplo, el senor con¬ cejal Inigo Carrera, planted el ano pasado una cuestiôn fundamental sobre el compromiso del Anglo, en cuanto se refiere a las eombinaciones entre las lîneas que terminan en Primera Jun¬ ta y las lîneas a nivel; hoy mismo, en el grupo socialista hemos recibido una queja sobre los abusos de la empresa en ese sentido, sobre la falta de los vehîculos que la empresa se comprometiera a establecer. de acuerdo con la ordenanza que dictara esté Concejo. Recuerdo, también, que a propuesta del senor concejal Penelon, el Concejo sanciono por unanimidad el ano pasado una ordenanza que establecîa que todos los vehîculos, omnibus o colectivos, debîan parar junto a las aceras para el ascenso y descenso de los pasajeros.» Pero nada se ha cumplido.
-
-Y da un dato personal que es interesante. «Nos propusimos, dice, con el concejal Ini¬ go Carrera estudiar, con motivo de ese problema de la combinaciôn de lîneas del An¬ glo Argentino con las lîneas a nivel, los liorarios correspondientes. Empezamos por no saber a dônde dirigirnos por que la Oficina, Fiscalizadora decîa que debîa contrôlai' Trâfieo, y Trâfico decîa que debîa ser la fiscali¬ zadora ; y no se entendîan ; liasta que por fin nos dijeron : sî, es Trâfico la que debe fiscalizar. Fuimos a Trâfico .y dijimos: Ustedes tienen que fiscalizar los liorarios? Sî, senor, nos c.ontestaron. Pero los liorarios no los tenîan,
-
+No pueden darse cifras mâs suculentas,
+sa-
+brosas y extraordinarias y estas
+son en reali-
+dad las empresas que todavîan daman, se que-
+jan y pretenden mayores benefieios.
+I Como han sido fiscalizadas estas empresas
+por
+la municipalidad ?
+Hemos
+escueliado
+esta
+noclie
+un ataque extraordinario
+a los pobres
+colectiveros, que no ticnen mâs capital que su
+auto,
+a
+voces ineompletamente
+pngo,
+con
+su
+esfuerzo, que en realidad viven en un régimen
+de licencia absoluta y sin fiscalizacion de nin-
+guna naturaleza. Sin embargo, no creo que las
+companîas tranviarias liayan sido mejor fisca¬
+lizadas y dejo la
+palabra al
+propio
+concejal
+Justo que, en presencia del secretam de Obras
+Pûblicas de la Municipalidad, dijo lo siguien-
+te:
+«Nosotros
+reeordâbamos
+en
+ese
+momento
+todas las oportunidades
+en
+que el Concejo ha
+requerido del Departamento Ejecutivo el cum-
+plimiento estrieto de las ordenanzas de trâfico
+aquî sancionadas. Por ejemplo, el senor con¬
+cejal Inigo Carrera, planted el ano pasado una
+cuestiôn fundamental sobre el compromiso del
+Anglo, en cuanto se refiere a las eombinaciones
+entre las lîneas que terminan en Primera Jun¬
+ta y las lîneas a nivel; hoy mismo, en el grupo
+socialista hemos recibido
+una queja sobre los
+abusos de la
+empresa en
+ese sentido, sobre la
+falta
+de los vehîculos que la empresa se com-
+prometiera
+a establecer. de acuerdo con la or-
+denanza
+que
+dictara
+esté
+Concejo.
+Recuerdo,
+también,
+que
+a propuesta del
+senor concejal
+Penelon, el Concejo sanciono por unanimidad
+el
+ano
+pasado
+una ordenanza
+que
+establecîa
+que todos los vehîculos, omnibus
+o colectivos,
+debîan parar junto a las aceras para el ascenso
+y descenso de los pasajeros.» Pero nada
+se ha
+cumplido.
+Y
+da
+un
+dato
+personal
+que
+es interesante.
+«Nos
+propusimos,
+dice,
+con el concejal
+Ini¬
+go
+Carrera estudiar,
+con motivo
+de
+ese pro-
+blema
+de
+la
+combinaciôn
+de
+lîneas
+del
+An¬
+glo Argentino
+con las lîneas
+a nivel, los lio-
+rarios
+correspondientes.
+Empezamos
+por
+no
+saber
+a dônde dirigirnos
+por
+que la Oficina,
+Fiscalizadora
+decîa
+que
+debîa contrôlai’ Trâ-
+fieo,
+y Trâfico decîa
+que debîa
+ser la fiscali¬
+zadora ; y no
+se entendîan ; liasta que por fin
+nos dijeron : sî, es Trâfico la que debe fiscali-
+zar. Fuimos
+a Trâfico .y dijimos:
+Ustedes tie-
+nen que fiscalizar los liorarios? Sî, senor, nos
+c.ontestaron.
+Pero los liorarios
+no los tenîan,
 y no los pudimos ver.
-
-«De esa manera es cômo se fiscaliza a las companîas de tranvîas en Buenos Aires».
-
-Pero hay mâs: el seîior ingeniero Christen¬ sen, director general de alumbrado decîa en 1931, en el expediente numéro 45.331, letra C., para demostrar la ineptitud de las ofieinas municipales, su desorganizaciôn y la falta ab¬ soluta de control que habîa por parte del De¬ partamento Ejecutivo sobre las empresas de servicios publiées, lo siguiente: «Senor seerctario : A esta direceiôn le es imposible suministrar la inCormaeiôn soliaitada en el pré¬ sente expediente, por cuanto la ex Oficina Fiscalizadora no ha ejereido en' ningun mo¬ mento control alguno sobre las condiciones de explotaeion de las empresas de transpor¬ te en comün de pasajeros». Y agfegaba : «Por otra parte, la mayorîa de los dates que di-
+«De
+esa
+manera
+es cômo
+se fiscaliza
+a las
+companîas de tranvîas
+en Buenos Aires».
+Pero hay mâs: el seîior ingeniero Christen¬
+sen, director general
+de alumbrado
+decîa
+en
+1931, en el expediente numéro 45.331, letra C.,
+para demostrar
+la ineptitud
+de
+las ofieinas
+municipales,
+su desorganizaciôn y la falta ab¬
+soluta de control que habîa por parte del De¬
+partamento
+Ejecutivo
+sobre
+las
+empresas de
+servicios
+publiées, lo siguiente:
+«Senor
+seerc-
+tario : A
+esta direceiôn le
+es imposible sumi-
+nistrar
+la
+inCormaeiôn
+soliaitada
+en
+el
+pré¬
+sente
+expediente,
+por
+cuanto
+la
+ex
+Oficina
+Fiscalizadora
+no
+ha
+ejereido
+en’ ningun
+mo¬
+mento
+control
+alguno
+sobre
+las
+condiciones
+de explotaeion
+de las
+empresas de transpor¬
+te en comün de pasajeros». Y agfegaba : «Por
+otra parte, la mayorîa
+de los dates
+que di-
 ```
 
 ## Images, Captions, And Visual Notes
@@ -1823,7 +2793,7 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/manifest.json`
 - Source page: 774
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/page-images/page-0774.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -1835,31 +2805,266 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-ixjs presentan ahara ©n el Seuado, que «s de una redaeciôn arebiconfusa, eon repetition de palabras, eon mala piintnaeiôn, eon pé,simas enunciaeio-nes, que résulta en rea'lidad un problema de palabras eruaadas para el que quiera destifrarlo.
-
-Bn el informe subseripto per la mayoria de .la eomision técniea, se dice, lo siguiente, en la pagina 35: «La eomision informa que .al efectuar, eomo puede ser ef.ectnada, la unification de las diuersas clases de. transportes, exception beeba de los automôviles partieular.es y de los vebîeulos para cargos de propiedad de firm as eomereiales para sus propos» fines, se encuentrau euatro solutiones viables, a .saber : 1% na¬ tionalization ; 2", rationalization ; 3'-', una .com¬ bination de snobas, y 4Ç, la formation de un trust
-
-pîibiice.
-
--.Oaupa la Pr.esideueia el près!doute pro-
-
+1366
+CAMARA OB SENADOBES ©E >LA NATION
+Septiembre 29 j 30
+ixjs presentan ahara
+©n el Seuado,
+que «s de
+una redaeciôn arebiconfusa,
+eon repetition de
+palabras,
+eon
+mala piintnaeiôn,
+eon pé,simas
+enunciaeio-nes, que résulta en rea'lidad un pro-
+blema de palabras eruaadas para el que quiera
+destifrarlo.
+Bn el informe subseripto per la mayoria de
+.la eomision técniea,
+se dice, lo siguiente, en la
+pagina 35:
+«La eomision informa que .al efec-
+tuar, eomo puede ser ef.ectnada, la unification
+de las diuersas clases de. transportes, exception
+beeba de los automôviles partieular.es y de los
+vebîeulos para cargos de propiedad de firm as
+eomereiales para
+sus propos» fines,
+se encuen-
+trau euatro solutiones viables,
+a .saber : 1% na¬
+tionalization ; 2", rationalization ;
+3'-’, una .com¬
+bination
+de snobas, y
+4Ç, la formation de un
+trust pîibiice.
+—.Oaupa la Pr.esideueia el près!doute pro-
 visorîo, .doctor Jîobustiano Patrô.n Cestaa.
-
-Mas adelante, diee en forma expresa y «ateg-éarioa: «De lo expuesto surge eomo ûniea so¬ lution rational del problems la monopolization de les tervieios eonjuntos de los tr&amp;méaa, om¬ nibus y mieroômnibus.» Y agrega lue®© que, téenieamente la solution del monopolio es la mâs convenience y destaea la organizaeion del naismo
-
-por la ©stabilization de los servicios.
-
-De maitéra que esa eomision que fine la que le cliô los eiemeutos a este proved o, reeonoce expr.esamente que el sistema de esta ley es el sisienaa del monopolio. Traig.o este referentia para que no se discute ya la. buena o la mala interpretation.
-
-Tampoeo eabe duda de ninguna mataraleza de la lectura del propio proyeeto, que es la mejor, que es la mejor expresion del sistema monopoliste. El ineiso c) del artîculo l9, «lic,e: «La Corporation del Transporte, una vez oonstitiuda, tendra a sa cargo, con exdusiviclod los servicios de transporte coiectivo de pasajeros, en el perimetro de la eiudad de Buenos Aires, y mantendra, en las condieiones, y por el tiempo que le ban side eonccdidos, los que prestan en sus aetuales prolongaeion.es fuera del nrisino.» Y mâs adelante dice,: «Desde la promaigaeion de esta ley, las autoridactes nationales y la Municipatidad de la ei-udad de Bue¬ nos Aires no darân nv-cvas concesiones ni permkm de transporte eoleciivo de pasajeros». Como si esto no fuera sufieiente, el ineiso i) del
-
+Mas adelante, diee en forma expresa y «ate-
+g-éarioa:
+«De lo expuesto surge eomo ûniea so¬
+lution rational del problems la monopolization
+de les tervieios eonjuntos de los tr&méaa, om¬
+nibus
+y mieroômnibus.» Y
+agrega
+lue®©
+que,
+téenieamente
+la
+solution
+del
+monopolio
+es
+la
+mâs convenience
+y destaea la organizaeion del
+naismo por la ©stabilization de los servicios.
+De maitéra que esa eomision que fine la que
+le cliô los eiemeutos a este proved o, reeonoce
+expr.esamente que el sistema de esta ley es el
+sisienaa del monopolio.
+Traig.o este referentia
+para que no se discute ya la. buena o la mala
+interpretation.
+Tampoeo eabe duda de ninguna mataraleza
+de la lectura del propio proyeeto, que es la
+mejor, que es la mejor expresion del sistema
+monopoliste. El ineiso c) del artîculo l9, «lic,e:
+«La Corporation del Transporte, una vez oons-
+titiuda, tendra a sa cargo, con exdusiviclod los
+servicios
+de transporte
+coiectivo
+de
+pasajeros,
+en el perimetro de la eiudad de Buenos Aires,
+y mantendra, en las condieiones, y por el tiem-
+po
+que le ban side eonccdidos, los
+que
+pres-
+tan
+en
+sus
+aetuales
+prolongaeion.es fuera
+del
+nrisino.» Y mâs adelante dice,:
+«Desde la pro-
+maigaeion de
+esta ley, las autoridactes natio-
+nales y la Municipatidad de la ei-udad de Bue¬
+nos Aires
+no darân
+nv-cvas concesiones ni per-
+mkm
+de
+transporte
+eoleciivo
+de
+pasajeros».
+Como si esto no fuera sufieiente, el ineiso i) del
 artîculo 1" dise:
-
-«La Corporaciôn de Transportes tendra la exdnsividad para organizer los servicios a que se refiere esta ley, y .cou .sujétion a las conditiones ya establetidas, par el térmiuo de 56 anos.»
-
-·Como se ve, por .très veees .se répète, en la ley, en forma elara que no déjà lugar a duda, este sistema de exe-lusividacl, y para que no quede la menor ineertidumbre va mâs lejos dentro de este sistema del monopôlio.. El Ferrocarril Central Argen.tin.0, por sjemplo, que La¬ ce un .sorvieio .con el interior del pais, pero que .tiene estaciones dgn.tr© del perimetro de la -Capital, -como ser Palermo y Belgrano, no podxâ ya tcaaisp.or.tar los pasajeros entre esas esteeiojies, se lo prohibe la ley en esta parte que voy a leer: «Las empresas de transporte c.oleetivo de pasajeros entre la eiudad de Bue¬ nos Aires y el interior del pais y vieeversa, no podrân ,transportaipasajeros que 1 viajjen entre dae puntos comprendidos dentro del perimetro de aquélla, salvo que se pongan de acuerdo cou la corporaciôn».
-
-i Si esto no es monopoîio, que ven-ga Dios y lo digal Yo no necesito reçurrir a Escric'he pa¬ ra encontrar la definition de lo que es mono¬ polio, a fin de establecer si lo que esta ley. créa es o no un monopoîio. Xosotr.os .tenemos una definition muebo mâs elara, mâs eategorica y mâs senciïla que nos da una ley nuestra que voyr a leer, la ley numéro 11.210., dietada por el Congreso argentino y prom.ulgada iior el Poder Ejecutivo, nos ,da la definiciôn del mono¬ polio. Por eso yo me sonreîa cuando el sen or miembro informante de la eomisiôn especial reeurfia a la autorida.d de Esericbe para défi¬ nir lo que tenemos .aqui en nuestra pr.opïa legislaeiôn. Dice, el artîculo P: «Déclaras© d-elito todo convenio, pacto, combinaeiôn, amalga¬ ma o fusion de capitales tendientes a estable¬ cer o sostener el monopolio y lucrar con él, en uno o mâs ramos de la pr.oducciôn, del trafic,o terrestre, fluvial o maritime, o del eomercio 'interior o exterior, en una localidad o eu va¬ rias, o en todo el temtor'io nacîonal». Y el artieulo 2' : «Considéranse a etos de monopolio o tendientes a él y pimibles por la ley, los que sin importai- un progreso téenieo» -que no lo importa esta ley«ni un progreso econômieo» -que no lo importa esta ley- «aumentan aefeitrariamente las pruplas gamancias de qui,eu o quienes los ejeenten, sin proporciôn -eon el capital efeetivamente emplea.do», -oorno se ltace aqui, que arbitra ri ameute se le haee producir una ganancia«y los que difieultei: o se propongan dificmlter a oto-as personas vi¬ vo entes o juridicas la liibre eoncurreneia en la pî'odncc.iôn y en el eomercio interne o en el eo¬ mercio exterior».
+«La
+Corporaciôn
+de
+Transportes
+tendra la
+exdnsividad
+para
+organizer
+los
+servicios
+a
+que se refiere
+esta ley, y .cou .sujétion
+a las
+conditiones ya establetidas, par el térmiuo de
+56 anos.»
+•Como
+se
+ve, por .très
+veees .se répète,
+en la
+ley, en forma elara que no déjà lugar a duda,
+este sistema
+de exe-lusividacl,
+y para que
+no
+quede la menor
+ineertidumbre
+va mâs
+lejos
+dentro de este sistema del monopôlio.. El Ferro-
+carril Central Argen.tin.0, por sjemplo, que La¬
+ce
+un .sorvieio .con el interior
+del
+pais,
+pero
+que .tiene estaciones dgn.tr© del perimetro de
+la -Capital, -como
+ser Palermo y Belgrano, no
+podxâ ya tcaaisp.or.tar los pasajeros entre esas
+esteeiojies,
+se lo prohibe la ley en esta parte
+que voy a leer: «Las empresas
+de transporte
+c.oleetivo de pasajeros entre la eiudad de Bue¬
+nos Aires y el interior del pais y vieeversa, no
+podrân ,transportai- pasajeros que
+1 viajjen entre
+dae puntos comprendidos dentro del perimetro
+de aquélla, salvo que
+se
+pongan
+de
+acuerdo
+cou la corporaciôn».
+i Si esto
+no
+es monopoîio,
+que ven-ga Dios y
+lo digal Yo no necesito reçurrir a Esc ric'he pa¬
+ra encontrar la definition de lo que
+es mono¬
+polio,
+a fin de establecer
+si lo que
+esta
+ley.
+créa
+es
+o
+no
+un monopoîio.
+Xosotr.os .tenemos
+una definition muebo mâs elara, mâs eategori-
+ca y mâs senciïla que nos da una ley nuestra
+que voyr a leer, la ley numéro 11.210., dietada por
+el Congreso argentino y prom.ulgada iior el Po-
+der Ejecutivo,
+nos ,da la definiciôn del
+mono¬
+polio. Por
+eso yo me sonreîa cuando el sen or
+miembro
+informante
+de la eomisiôn
+especial
+reeurfia
+a la autorida.d de Esericbe para défi¬
+nir
+lo
+que
+tenemos
+.aqui
+en
+nuestra
+pr.opïa
+legislaeiôn.
+Dice,
+el
+artîculo
+P:
+«Déclaras©
+d-elito todo convenio, pacto, combinaeiôn, amalga¬
+ma
+o fusion de capitales tendientes
+a estable¬
+cer
+o sostener el monopolio y lucrar con él, en
+uno
+o mâs ramos de la pr.oducciôn, del trafic,o
+terrestre, fluvial
+o maritime,
+o del eomercio
+„interior
+o exterior,
+en
+una localidad
+o eu va¬
+rias,
+o
+en todo el temtor'io nacîonal». Y el ar-
+tieulo
+2“ : «Considéranse
+a etos de monopolio
+o
+tendientes
+a él y pimibles por
+la ley, los que
+sin importai- un progreso téenieo» —que no lo
+importa esta ley— «ni un progreso
+econômi-
+eo» —que no lo importa esta ley— «aumentan
+aefeitrariamente las pruplas gamancias de qui,eu
+o quienes los
+ejeenten, sin proporciôn
+-eon
+el
+capital
+efeetivamente
+emplea.do»,
+—oorno
+se
+ltace aqui, que arbitrariameute se le haee pro-
+ducir
+una ganancia—
+«y los que difieultei:
+o
+se propongan dificmlter
+a
+oto-as
+personas
+vi¬
+vo entes
+o juridicas la liibre eoncurreneia en la
+pî'odncc.iôn y en el eomercio interne o en el eo¬
+mercio exterior».
 ```
 
 ## Images, Captions, And Visual Notes
@@ -1981,7 +3186,7 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/manifest.json`
 - Source page: 776
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/page-images/page-0776.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -1993,41 +3198,279 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-Ahora, icuâl sera el resultado de esta lev? El resultado es faltal. No nos podemos hacer ilusiones: el colectivo tiene que desapai-ecer porque la situaciôn del colectivo es ésta: o en¬ tra en la corporaciôn o no entra. Si entra en la corporaciôn, jcuâl es su suerte? Se contesta: esta en condiciones de empresario, gana ese interés del 7 % que ustedes los izquierdistas dieen que es tan subido. Hay que hacer cifras, término medio la unidad de colectivo vale 5.000 pesos, lo que al 7 % représenta un inte¬ rés de 350 pesos al ano, vale decir, de 25 a 27 pesos mensuales. Es posible que ese liombre que actualmente gana 300 pesos mensuales, con mujer e hijos, pueda vivir con la renta de ese capital; pero se contesta: puede entraicoriio chôfer. Magnîfica soluciôn la de la ley que liaee de un pequeno propietario un asalariado, reduciéndole sus entradas y quitândole su independeneiâ, porque. resultarâ que si entra como chôfer puede ganar 150 ô 160 pesos mensuales, mas los 25 ô 27 pesos de intereses de su capital, le proporciona una renta total de 175 a 180
-
+CAMAEA DE SEN A DORÉS DE LA NACION
+Septembre 29 y 30
+1368
+Ahora, icuâl sera el resultado de esta lev?
+El resultado
+es faltal.
+No
+nos podemos hacer
+ilusiones:
+el
+colectivo
+tiene
+que
+desapai-ecer
+porque la situaciôn del colectivo es ésta: o en¬
+tra
+en la corporaciôn
+o no entra. Si entra en
+la corporaciôn, jcuâl es su suerte? Se contesta:
+esta
+en
+condiciones
+de
+empresario,
+gana
+ese
+interés
+del
+7 %
+que ustedes los izquierdistas
+dieen que es tan subido. Hay que hacer cifras,
+término
+medio
+la
+unidad
+de
+colectivo
+vale
+5.000 pesos, lo que al 7 % représenta un inte¬
+rés de 350 pesos al ano, vale decir, de 25
+a 27
+pesos mensuales.
+Es
+posible
+que
+ese liombre
+que actualmente gana 300 pesos mensuales, con
+mujer
+e hijos, pueda vivir con la renta de ese
+capital;
+pero
+se contesta: puede entrai- coriio
+chôfer. Magnîfica soluciôn la de la ley que liaee
+de
+un
+pequeno propietario
+un asalariado,
+re-
+duciéndole
+sus entradas y quitândole su inde-
+pendeneiâ, porque. resultarâ que si entra como
+chôfer puede ganar 150 ô 160 pesos mensuales,
+mas los 25 ô 27 pesos de intereses de su capital,
+le proporciona
+una renta total de 175
+a 180
 pesos.
-
-Ahora nosotros afectamos a 33.000 personas, que son 11.000 familias que viven en esta for¬ ma, solo para defender a los accionistas ingleses que representan el grueso de las companias
-
+Ahora nosotros afectamos
+a 33.000 personas,
+que son 11.000 familias que viven en esta for¬
+ma, solo para defender
+a los accionistas ingle-
+ses que representan el grueso de las companias
 tranviarias.
-
-Pero esto es muy grave, y yo digo si este es el naeionalismo que preconiza la derecha en sus manifestaciones piiblicas, en su propa¬ ganda, al hacer la tan mentada defensa de los intereses nacionales; pero a nosotros, a quien nos tildan de izquierdistas, nos parece que el naeionalismo bien entendido consiste en defen¬ der los intereses locales, los intereses nuestros, sin desmedro del respeto que deben merecernos los capitales extranjeros; pero frente a la si¬ tuaciôn de esos intereses y de ese capital humano, ci'eo conveniente que ademâs de contemplar la situaciôn de los accionistas ingleses, me parece mâs juicioso y conveniente oeuparnos de estos otros intereses nuestros.
-
-Decîa que la soluciôn de los colectiveros es entrar en la Corporaciôn de Transporte, con las çonsecuencias que acabo de senalar, o no en¬ trar. Si no entra, liquida con desventaja, por¬ que los que le van a fijar el valor a su automôvil van a ser los senores de esa comisiôn es¬ pecial.
-
-Esa comisiôn especial, que luego lie de desnudar para poner de manifiesto que no da ninguna scguridad y donde tienen una preponderancia extraordinaria las companias tranÿiarias. Son ellas las que le fijarân el importe, que sera, desde luego, bajo, que podrâ saear ese dueiio de colectivo de 3 a 4 mil pesos y me pongo en las mejores condiciones - y luego tendra que iniciar una nueva era en su vida y buscar un nuevo campo de experimentaciôn para ganarse la subsistencia. Conclu¬ sion extraordinaria y magnîfica. Para defenxler a los accionistas de Inglaterra, que nos estân tratando tan bien en estos momentos con el convenio de las carnes.
-
-Nosotros dejamos en la calle en un momento de crisis en que la desocupaciôn cunde, a once mil trabajadores nuestros. iRealmente es un criterio de
-
-muy buen gobiei-no !
-
-Ya lie demostrado que esta ley perjudica a la municipalidad en su funciôn de administradora del trâfico urbano; la perjudica en su renta y voy a demostrar que perjudica también al pûblieo de la capital, que es lo mâs impor¬ tante.
-
-Cuando en la sesiôn del 20 de julio planteé este asunto, dije que aqui liabîa très grupos de intereses en juego : el primero y mâs impor¬ tante, el de la colectiviclad de Buenos Aires; segundo, el de las empresas, y tercero el de los obreros
-
-y empleados.
-
-El de las empresas, dije entonces, y lo voy a demostrar ahora mâs extensamente, es el in¬ terés que estâ bien legislado, previstb y resguardado : me refiero a las empresas tranvia¬ rias porque los otros grupos 110 han sido tenidos en cuenta. Los obreros tampoco estân bien contemplados, por que la coordinaciôn del transporte, como se proyecta, va a traer como consecuencia la disminuciôn de lineas y servicios y una economia en ese rubro de gente que aumentarâ el grueso de la desocupaciôn. El pueblo de Buenos Aires en definitiva es el que
-
+Pero esto
+es muy grave, y yo digo si este es
+el
+naeionalismo
+que preconiza la derecha
+en
+sus
+manifestaciones
+piiblicas,
+en
+su
+propa¬
+ganda, al hacer la tan mentada defensa de los
+intereses nacionales; pero
+a nosotros,
+a quien
+nos tildan
+de izquierdistas, nos parece que el
+naeionalismo bien entendido consiste
+en defen¬
+der los intereses locales, los intereses nuestros,
+sin desmedro del respeto que deben merecernos
+los capitales extranjeros; pero frente
+a la
+si¬
+tuaciôn de
+esos intereses y de
+ese capital hu-
+mano, ci'eo conveniente que ademâs de contem-
+plar la situaciôn de los accionistas ingleses, me
+parece mâs juicioso y conveniente
+oeuparnos
+de estos otros intereses nuestros.
+Decîa
+que la soluciôn de los colectiveros
+es
+entrar en la Corporaciôn de Transporte, con las
+çonsecuencias que acabo de senalar,
+o
+no
+en¬
+trar. Si
+no entra, liquida
+con desventaja,
+por¬
+que los que le van a fijar el valor a su auto-
+môvil
+van
+a ser los
+senores de
+esa comisiôn
+es¬
+pecial.
+Esa comisiôn especial, que luego lie de des-
+nudar
+para
+poner
+de manifiesto
+que
+no
+da
+ninguna scguridad
+y
+donde
+tienen
+una
+pre-
+ponderancia extraordinaria las companias tran-
+ÿiarias. Son ellas las que le fijarân el importe,
+que
+sera, desde luego, bajo,
+que podrâ saear
+ese dueiio de colectivo de 3
+a 4 mil pesos —
+y
+me pongo
+en las mejores condiciones
+— y
+luego tendra
+que iniciar una nueva era en su
+vida y buscar un nuevo campo de experimen-
+taciôn
+para
+ganarse
+la
+subsistencia.
+Conclu¬
+sion extraordinaria
+y magnîfica. Para defen-
+xler
+a
+los
+accionistas
+de Inglaterra,
+que
+nos
+estân tratando tan bien en estos momentos con
+el convenio de las
+carnes.
+Nosotros dejamos en la calle en un momento
+de crisis
+en que la desocupaciôn cunde, a once
+mil
+trabajadores
+nuestros.
+iRealmente
+es
+un
+criterio de muy buen gobiei-no !
+Ya lie demostrado
+que esta ley perjudica
+a
+la municipalidad
+en su funciôn de administra-
+dora
+del trâfico urbano; la perjudica
+en
+su
+renta y voy a demostrar que perjudica también
+al pûblieo de la capital,
+que
+es lo mâs impor¬
+tante.
+Cuando
+en la sesiôn del 20 de julio planteé
+este asunto, dije que aqui liabîa très grupos de
+intereses
+en juego :
+el primero
+y mâs impor¬
+tante, el de la colectiviclad de Buenos Aires;
+segundo, el de las
+empresas,
+y tercero el
+de
+los obreros y empleados.
+El
+de las empresas, dije entonces, y lo voy
+a demostrar ahora mâs extensamente,
+es el in¬
+terés
+que estâ bien legislado, previstb
+y
+res-
+guardado :
+me refiero
+a las
+empresas tranvia¬
+rias porque los otros grupos
+110 han sido teni-
+dos
+en cuenta. Los obreros tampoco estân bien
+contemplados,
+por
+que
+la
+coordinaciôn
+del
+transporte, como se proyecta, va
+a traer como
+consecuencia la disminuciôn de lineas y servi-
+cios y una economia en ese rubro de gente que
+aumentarâ
+el
+grueso
+de la
+desocupaciôn. El
+pueblo de Buenos Aires en definitiva
+es el que
 va a pagar todo.
-
-Y lo voy a demostrar j por que no se ha cumplido hasta ahora por las empresas tranviarias la ley de jornada mâxima, del descanso liebdomadario y del aporte para la jubilaciôn? No se ha cumplido porque ellas han declarado expresamente que mientras no se aumenten las tarifas no
-
-pueden pagar.
-
-Ahora de aeuerdo al projreeto que se va a saneionar, la tarifa debe cubrir los siguientes rubros: la amortizaciôn del capital empleado en el término de 56 anos; los gastos de explotaeiôn; los fondos de renovaciôn de material y réservas para mantener un buen servicio piiblico, un interés del 7 %, y la contribueiôn a la eaja tranviaria.
-
-Basta esta ligera resena, para darse cuenta que fatalmente tiene que aumentar la tarifa.
+Y lo voy a demostrar j por que no se ha cum-
+plido hasta ahora por las empresas tranviarias
+la ley de jornada mâxima, del descanso liebdo-
+madario y del aporte
+para la jubilaciôn? No
+se ha cumplido porque ellas han declarado ex-
+presamente
+que mientras
+no
+se aumenten las
+tarifas no pueden pagar.
+Ahora
+de aeuerdo al projreeto
+que
+se va
+a
+saneionar, la tarifa debe cubrir los siguientes
+rubros:
+la
+amortizaciôn del capital
+empleado
+en el término de 56 anos; los gastos de explo-
+taeiôn; los fondos de renovaciôn de material
+y réservas para mantener un buen servicio pii-
+blico, un interés del 7 %, y la contribueiôn a la
+eaja tranviaria.
+Basta esta ligera resena, para darse cuenta
+que fatalmente tiene
+que aumentar la tarifa.
 ```
 
 ## Images, Captions, And Visual Notes

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-d5c4d6b19f8e-P0139-01
+chunk_id: CHUNK-39ad11ad844d-P0139-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150.codex.md
-converted_sha256: d5c4d6b19f8e725dfd40b2b382fdf986c1ae9338512b24982e01c19dd6e0f6fb
+converted_sha256: 39ad11ad844d27e83db92e082b2411875edbb46e2dcd3b715ad55196c7f6c251
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/manifest.json
@@ -18,7 +18,7 @@ part: 1
 - Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/manifest.json`
 - Source page: 139
 - Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/page-images/page-0139.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -30,50 +30,221 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-de ordeii electoral o de orden gubernativo que estaban imperando, y ereî que para poder 3ograr este, que era una aspiraciôn comun de la naciôn argentina, habîa que llegar a realizar los idéales de una vida superior democrâtiea, o por la revolueiôu, que era una medida adoptada y seguida por cl partido radical, o por medio de la evoluoibu, trabajaudo afanosamente, dando ejemplo en todo momento de profesar unà adhesion realmeute profunda hacia lo que podian constituir las reformas élec¬ torales, para restablecer cl sufragio por obra de leyes, por obra do eorrecciôn de prâcticas y de eostumbres. Si se iiü'ormara cl seiior di putado Justo de mi situaciôn politica en la provincia de Côrdoba, desde que apareeî eu la escena hasta que vine a radicarme en la Capital de la Republica, se lia de encontrar con esta desautorizaciôn plena de sus aürmacio-
-
+Se 1921
+CAMARA DE DIPUTADOS
+1747
+de ordeii electoral o de orden gubernativo que
+estaban imperando, y ereî que para poder 3o-
+grar este, que era una aspiraciôn comun de la
+naciôn argentina, habîa
+que llegar a realizar
+los idéales
+de
+una vida superior democrâtiea,
+o por la revolueiôu, que era una medida adop-
+tada
+y seguida por cl partido radical, o por
+medio
+de
+la
+evoluoibu,
+trabajaudo
+afanosa-
+mente, dando ejemplo
+en todo momento
+de
+profesar unà adhesion realmeute profunda ha-
+cia lo que podian constituir las reformas élec¬
+torales, para restablecer cl sufragio por obra
+de leyes, por obra do eorrecciôn de prâcticas
+y de eostumbres. Si se iiü'ormara cl seiior di
+putado Justo
+de mi situaciôn politica
+en la
+provincia
+de Côrdoba, desde que apareeî eu
+la
+escena
+hasta
+que vine
+a radicarme en la
+Capital de la Republica, se lia de encontrar con
+esta
+desautorizaciôn plena
+de
+sus aürmacio-
 iies.
-
-Sr. Justo. Siempre en la oposieiôn?
-
-Sr. Pena. - Siempre en la oposieiôn a los gobiernos de mi partido.
-
-Sr. Justo. - jA que gobiernos?
-
-Sr. Pena. - A los de mi partido.
-
-Sr. Justo. - jDe su partido?
-
-Sr. Pena. - Si, de mi partido.
-
-Sr. Justo. - Es interesante.
-
-Sr. Pena. - j Es interesante, nô? Es que yo siempre be mantenido mi independeneia, mi libertad de juicio, sin ser desleal para mis conviccioncs polîticas. Y voy a haeer una referencia tanto nuis dolorosa euanto que es casi de orden întimo. Estas son las consecuencias de las palabras imprcnieditadas y atribuyo a una ligereza - me valgo de sus propios términos a una ligereza del senor diputado Justo, las inculpacioncs que me haee. He e.rcido ver, tainbién, a través de sus palabras el presentarme eomo un hombre interesaclo. Me encontraba radieado en la Capital y eon una posiciôu en el estudio de mi amigo, e.l doctor Manuel Augusto Montes de Oca, que signifieaba para mî un porvenir brillante, euando llcgô por un doloroso azar a la presidencia de la republica, el doctor José Figueroa Alcorta, con quien tonîa. vinculaciones personates muy estree.lias, has¬ ta cierto punto de familia. Yo, senor prési¬ dente, que habîa tornado eomo ley de mi vida, en la carrera politica, si hubiera. de ocupar aïguna posieiôn, que fuera, por mis propios mé¬ rites, por mi propio esfuerzo y uo debido a la influencia extrana, ni apoÿar mi actnaeiôn eu la vida pûbliea. en un centro de gravedad que no fuera el de mi propia personalidad ; yo que me habia propuesto, si en la Jucha por la vida hubiera de conseguir algunos bienes. que ellos quedaran eompletamente libres o a je nos también de que pudicran deberse a ayuda de favor o a una consideraciôn ajena o extrana; a lo que me habia propuesto realiar en la vida, que no fuera obra de mi propio esfuerzo, y me en¬ contre en plena juventud con la situaciôn que me creaba la presidencia del doctor José Fi¬ gueroa Alcorta, ante esto: el doctor Montes de Oca, llamado al ministerio de relaeiones exteriores por el doctor Figueroa Alcorta me hace cl honor de quererme confiar su estudio mientras tante. Y yo contesté al doctor Montes de Oca: Mo brinda usted uua situaciôn envidiable, pero la rcchazo. He resueltô durante la presidencia del doctor Figueroa Alcorta no ejercer ni la profesiôn de abogado, y menos baeerme cargo de un estudio, eu que necesariamente habrâ gestiones de orden administra¬ tive o judicial. Quiero poner mi vida al amparo de toda malevoleneia.
-
-jCuân previsor fui, senor présidente! Mo ha siclo en vano liabcrlo heeho.
-
-Dejô la presidencia el doctor Figueroa Aleorta, y puede eu alguna ocasiôn, en algun re¬ portage heeho a raiz de aetitudes altivas mias, en Côrdoba, afirmar, que ténia la satisfacciôn de no deber absolutamente nada a mi amigo el doctor José Figueroa Alcorta, que habia ejercido la presidencia. de la Republica.
-
-No voy a liaeer uhora rnérito de mi actuaeiôn en esta câmara en las dos oeasiones en qus lie ejereido la representaeiôn popular. Y no es ahora para entrar a recordar la obra sileneiosa mia, reallzada sobre todo en una eampaüa de que me envanezeo, conoeida tan solo por los que l'ueron mis colegas en aquel momento : la de! ano 1911 en favor de la reforma electo¬ ral. ; Con que e.utusiasmo, con que vigor, eontribui dent.ro de la câmara a veneer las dificultades y resistencias que se oponian a esa sanciôn !
-
-Pero, en lin. dejemos cl capitulo personal eon estas insinuaciones que ha heeho sobre mi conducta, en el que me lie propuesto solo poner de manifiésto ante el senor diputado con euanto inelemeneia so lia portado esta noehe para con-
-
+Sr. Justo.
+—
+Siempre en la oposieiôn?
+Sr. Pena.
+— Siempre
+en la oposieiôn a los
+gobiernos de mi partido.
+Sr. Justo.
+— jA que gobiernos?
+Sr. Pena.
+— A los de mi partido.
+Sr. Justo.
+— jDe su partido?
+Sr. Pena.
+— Si, de mi partido.
+Sr. Justo.
+— Es interesante.
+Sr. Pena.
+— j Es interesante, nô? Es que yo
+siempre be mantenido mi independeneia, mi li-
+bertad de juicio, sin ser desleal para mis con-
+viccioncs polîticas. Y voy a haeer una referen-
+cia
+tanto nuis dolorosa euanto que es casi de
+orden întimo.
+Estas son las consecuencias de
+las palabras imprcnieditadas y atribuyo a una
+ligereza — me valgo de sus propios términos —
+a
+una ligereza del senor diputado Justo, las
+inculpacioncs que me haee. He e.rcido ver, tain-
+bién, a través de sus palabras el presentarme
+eomo
+un hombre interesaclo.
+Me encontraba
+radieado
+en la Capital y eon una posiciôu en
+el estudio de mi amigo, e.l doctor Manuel Au-
+gusto Montes de Oca, que signifieaba para mî
+un porvenir brillante, euando llcgô por un do-
+loroso
+azar
+a
+la presidencia de la republica,
+el doctor José Figueroa Alcorta, con quien to-
+nîa. vinculaciones personates muy estree.lias, has¬
+ta
+cierto punto de familia.
+Yo, senor prési¬
+dente, que habîa tornado eomo ley de mi vida,
+en la carrera politica, si hubiera. de ocupar aï-
+guna posieiôn, que fuera, por mis propios mé¬
+rites, por mi propio esfuerzo y uo debido a la
+influencia extrana, ni apoÿar mi actnaeiôn eu
+la vida pûbliea. en un centro de gravedad que
+no fuera el de mi propia personalidad ; yo que
+me habia propuesto, si en la Jucha por la vida
+hubiera de conseguir algunos bienes. que ellos
+quedaran eompletamente libres o a je nos tam-
+bién de que pudicran deberse a ayuda de favor
+o
+a
+una consideraciôn ajena
+o extrana; a
+lo
+que me habia propuesto realiar en la vida, que
+no fuera obra de mi propio esfuerzo, y me en¬
+contre
+en plena juventud con la situaciôn que
+me creaba la presidencia del doctor José Fi¬
+gueroa Alcorta, ante esto: el doctor Montes de
+Oca, llamado al ministerio de relaeiones exte-
+riores por el doctor Figueroa Alcorta me hace
+cl honor de quererme confiar su estudio mien-
+tras tante. Y yo contesté al doctor Montes de
+Oca:
+Mo brinda usted
+uua situaciôn envidia-
+ble, pero la rcchazo.
+He
+resueltô durante la
+presidencia del doctor
+Figueroa
+Alcorta no
+ejercer ni la profesiôn de abogado, y menos
+baeerme
+cargo de
+un estudio, eu que necesa-
+riamente habrâ gestiones de orden administra¬
+tive
+o judicial. Quiero poner mi vida al ampa-
+ro de toda malevoleneia.
+jCuân previsor fui, senor présidente! Mo ha
+siclo
+en vano liabcrlo heeho.
+Dejô la presidencia el doctor Figueroa Al-
+eorta, y puede eu alguna ocasiôn, en algun re¬
+portage heeho
+a raiz de aetitudes altivas mias,
+en Côrdoba, afirmar, que ténia la satisfacciôn
+de no deber absolutamente nada a mi amigo el
+doctor José Figueroa Alcorta, que habia ejer-
+cido
+la presidencia. de
+la Republica.
+No
+voy
+a liaeer uhora rnérito de mi actua-
+eiôn en esta câmara en las dos oeasiones en qus
+lie ejereido
+la representaeiôn popular.
+Y no
+es ahora
+para entrar a recordar la obra silen-
+eiosa mia, reallzada sobre todo en una eampa-
+üa de que me envanezeo, conoeida tan solo por
+los que l’ueron mis colegas en aquel momento :
+la de!
+ano 1911
+en favor de la reforma electo¬
+ral.
+; Con que e.utusiasmo, con que vigor, eon-
+tribui dent.ro
+de
+la
+câmara
+a
+veneer las difi-
+cultades
+y
+resistencias
+que
+se oponian
+a
+esa
+sanciôn !
+Pero, en lin. dejemos cl capitulo personal eon
+estas insinuaciones que ha heeho sobre mi con-
+ducta, en el que me lie propuesto solo poner de
+manifiésto ante el senor diputado con euanto in-
+elemeneia
+so lia portado
+esta noehe
+para
+con-
 migo.
-
-cl diputado?
-
-Sr. Justo. - i Me permite una interrupeiôn senor
-
-Sr. Pena. - Fermilame, senor.
-
-Desprendiéndome de este estado de sensibilidad en que me habian dejado las alusiones del senor diputado, ho de hacer un esfuerzo y recobrar en lo posible mis modos earaeteristicos de cambial1 impresiones y de hacer debates en esta câmara.
-
-Ile do pasar a considérailas apreeiaciones de otro orden, aquellas de mis ideas eeonômieas y finaneieras que tan agraviado lo tienen al seüov
-
+Sr. Justo.
+— i Me permite una interrupeiôn
+cl senor diputado?
+Sr. Pena.
+— Fermi lame, senor.
+Desprendiéndome de este estado de sensibili-
+dad
+en que
+me habian dejado las alusiones del
+senor diputado, ho de hacer un esfuerzo y reco-
+brar en lo posible mis modos earaeteristicos de
+cambial1 impresiones y de hacer debates en esta
+câmara.
+Ile do pasar a considérai- las apreeiaciones de
+otro orden, aquellas de mis ideas eeonômieas y
+finaneieras que tan agraviado lo tienen al seüov
 diputado por la Capital, doctor Justo.
-
--Ocupa la presidencia el senor vice prési¬ dente primero de la honorable câmara, doctor Teôfiio Sanchez de Bustamante.
-
+—Ocupa la presidencia el senor vice prési¬
+dente
+primero
+de
+la
+honorable
+câmara,
+doctor Teôfiio Sanchez de Bustamante.
 Si no estuviera agraviado. no me hubiera apli-
 ```
 

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-085ba051e3d0-P0737-01
+chunk_id: CHUNK-2a99b90d2a4a-P0737-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753.codex.md
-converted_sha256: 085ba051e3d0a0b3d5ce7d106493a250e16fab08cbd6f2b06427ec2e3dc252dc
+converted_sha256: 2a99b90d2a4af941dc0d49cfb92db508763e74cce2cbb2fa0e4a2f41fc5eddaf
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/manifest.json
@@ -18,7 +18,7 @@ part: 1
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/manifest.json`
 - Source page: 737
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/page-images/page-0737.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -30,45 +30,310 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-los que actuamos ante los tribunales, de esos casos de pleitos perdidos, en que en vez de concretarse al asunto, se habla de generalidades, de vaguedades y de aspeetos teôricos para salir del paso.
-
-De manera que, coneretamente, no liabria nada. Supongo y espero que babrâ mas que ese informe escrito y por eso deseo es'cuchar al seiïor senador
-
-por Buenos Aires.
-
-Sr. Présidente. - El asunto esta reglamentariamente resuelto. Si ningun senor senadoi bace uso de la palabra, se va a votaien gene¬ ral el
-
-despaeho de la comisiôn.
-
-Sr. Bravo, - Pido que la votaciôn sea no¬
-
+de 1936
+CAMARA. DE SENADORES DE LA NACION
+1329
+los
+que actuamos
+ante los tribunales,
+de
+esos
+casos
+de pleitos perdidos,
+en
+que
+en
+vez
+de
+concretarse
+al
+asunto,
+se
+habla
+de generali-
+dades,
+de vaguedades y
+de
+aspeetos teôricos
+para salir del paso.
+De
+manera
+que,
+coneretamente,
+no
+liabria
+nada.
+Supongo
+y
+espero
+que babrâ
+mas
+que
+ese informe
+escrito
+y por
+eso
+deseo
+es'cuchar
+al seiïor senador por Buenos Aires.
+Sr. Présidente.
+— El asunto
+esta reglamen-
+tariamente resuelto.
+Si ningun
+senor senadoi
+bace uso de la palabra,
+se va
+a votai-
+en gene¬
+ral el despaeho de la comisiôn.
+Sr. Bravo,
+— Pido
+que la votaciôn
+sea
+no¬
 minal.
-
-## Sr. Garcia Fernandez. - Pido la palabra.
-
-Comprendo que el Senado estarâ fatigado con este debate prolongado, pero como soy unico re¬ présentante de un partido en este recinto, deseo pronuneiar unas breves palabras para fundar nii voto.
-
-El asunto de la coordinaeiôn del transporte, que originariamente deberia ser solamente un problema técnico y administrative, diré asi, se ha convertido, por virtud de las circunstancias, en un problema de proyecciones nacionales, Y si bien en el reeinto se han guardado las for¬ mas, como corresponde a todo debate entre los senores senadores, no podemos mënos de recoger las versiones que eirculan, profusamente, de que los senadores que van a votar el despaeho de la mayorla de la comisiôn, se disponen a èntregar los transportes de la Capital al capita¬ lisme
-
-extranjero.
-
-Yo, senor présidente, perlenezeo a un partido dcmocrâtico, y aun cuando no tengo ningun mandato imperativo, creo que faltaria a mi deber si mi voto, favorable en este caso, importera aseverar lo que se dice.
-
-El capitalisme, senor présidente, para mî es lo mismo, ya sea extranjero o sea naeional, siempre que respete las leyes del pais. Si no las respetara, habria llegado el momento de que es¬ te Congreso y el Poder Ejecutivo lo hieiera encuadrar dentro de la ley. Mientras tanto, no veo ningun peligro eh que se organiee una sociedad, un consorcio que dirija los transportes on la Capital, aunque' en él partieipen capitales ex-
-
+Sr. Garcia Fernandez.
+— Pido la palabra.
+Comprendo que el Senado estarâ fatigado con
+este debate prolongado, pero como soy unico re¬
+présentante de un partido en este recinto, deseo
+pronuneiar
+unas
+breves palabras
+para fundar
+nii voto.
+El asunto
+de la coordinaeiôn del transporte,
+que originariamente
+deberia
+ser solamente
+un
+problema técnico y administrative, diré asi,
+se
+ha convertido, por virtud de las circunstancias,
+en
+un problema de proyecciones nacionales,
+Y
+si bien
+en el reeinto
+se han guardado las for¬
+mas,
+como corresponde
+a todo debate
+entre los
+senores senadores, no podemos mënos de recoger
+las
+versiones que
+eirculan,
+profusamente,
+de
+que los senadores
+que van
+a votar el despaeho
+de la mayorla de la comisiôn, se disponen a èn-
+tregar los transportes
+de la Capital al capita¬
+lisme extranjero.
+Yo, senor présidente, perlenezeo a un partido
+dcmocrâtico,
+y
+aun
+cuando
+no tengo
+ningun
+mandato imperativo, creo que faltaria
+a mi
+de-
+ber si mi voto, favorable en este caso, importera
+aseverar lo que se dice.
+El capitalisme,
+senor présidente, para mî
+es
+lo mismo, ya sea extranjero o sea naeional, siem-
+pre
+que respete las leyes
+del
+pais.
+Si
+no
+las
+respetara, habria llegado el momento de que
+es¬
+te Congreso y el Poder Ejecutivo lo hieiera en-
+cuadrar dentro de la ley. Mientras tanto, no veo
+ningun peligro eh que se organiee una sociedad,
+un
+consorcio
+que dirija
+los transportes
+on
+la
+Capital,
+aunque' en
+él partieipen capitales
+ex-
 tranjeros.
-
-Es evidentemente, senor présidente, un anhelo de todo argentino que nuestro pais pueda independizarse financieramente, pero, desgraciadamente, esto no es por el momento posible, y mientras esto no sea posible los capitales extranjeros no tienen por que ser tratados de diferente manera que los capitales
-
-nacionales, porque clips también contribuyen a la grandeza de nuestrai patria.
-
-Tampoeo creo que esta euestiôn del monopolio de transportes en las capitales pueda encararse bajo el punto de vista del izquierdismo o de las derechas, de la democraeia o de la aristocracia o el faseismo. En Londres, como dice el informe de 1a. mayoria, durante el gobierno laborista se ha heclio el monopolio del transporte en la eiudad de Londres. De manera que bajo ninguno de esos dos aspeetos me siento molesto al votar el despaeho de la comisiôn. Lo que si observo es que la ley es bastante vaga y ambigua; tiene numerosas lagunas, que han destaeado con elocuencia los seiiores senadores por la Capital y por Santa Pe. Pero entiendo que en una ley no se pueden contemplar todos los detalles. El Poder Ejecutivo de la Naciôn, al reglamentarla, tendra en euenta los diferentes puntos que han sido motivo de discusiôn por considerarse que no son suficientemente claros. Al reglamentar con equidad la ley, evitarâ que se cometan las injusticias que se han senalado.
-
-La comisiôn especial a designarse por disposiciôn del articulo 29 de este proyecto, es a mi juicio la que tendra que resolver la parta mâs importante del mismo, ya que deberâ determinar los capitales de las empresas que ingresen a esta eorporaciôn, y tendra que procé¬ der con eriterio ecuânime al fijar el valor de esos capitales, piles de lo contrario podriamos eneontrarnos con que las empresas aparezean aportando capitales demasiado altos, en relaciôri al exacto valor, de los mismos. La tasaciôn que deberâ realizarse para fijar definitivamente su valor ha de ser pues tarea importante y sirniamente delicada.
-
-También deberâ contemplar la situaciôn de los dueûos de automôviles coleetivos. No deberâ limitarse tan solo a expropiar el vehîculo por su valor intrinseco, va que ese vehîculo constituyè no solo un capital, sino a la vez un instru¬ mente de trabajo, y en la indemnizaciôn, tam¬ bién deberâ comprenderse el valor que elle re¬ présenta,
-
-Espero, que el Poder Ejecutivo eu la reglamentaciôn de la ley, al procéder con la ecuanimidad que lo ha caraeterizado hasta ahora en sus actos, se preocuparâ de haeer respectai' todos los dereehos, tanto los del pueblo que se verîa perjudicado con una inflaeiôn injtistificada del capital de las empresas, como los interesés particulares de los que trabajan con automôviles propios en las lineas de colee¬ tivos.
+Es evidentemente, senor présidente, un anhe-
+lo de todo argentino que nuestro pais pueda in-
+dependizarse financieramente,
+pero,
+desgracia-
+damente, esto no
+es por el momento posible, y
+mientras esto no sea posible los capitales extran-
+jeros no tienen por que ser tratados de diferente
+manera que los capitales nacionales, porque clips
+también
+contribuyen
+a la grandeza
+de nuestrai
+patria.
+Tampoeo creo
+que esta euestiôn del monopo-
+lio de transportes
+en las capitales pueda
+enca-
+rarse bajo el punto de vista del izquierdismo
+o
+de las derechas, de la democraeia
+o de la aris-
+tocracia o el faseismo. En Londres, como dice el
+informe
+de
+1a. mayoria, durante el gobierno la-
+borista se ha heclio el monopolio del transporte
+en la eiudad de Londres. De
+manera que bajo
+ninguno de esos dos aspeetos
+me siento molesto
+al votar
+el despaeho de la comisiôn. Lo
+que si
+observo
+es que la ley es bastante vaga y ambi-
+gua; tiene
+numerosas lagunas,
+que han
+desta-
+eado
+con
+elocuencia
+los seiiores
+senadores
+por
+la Capital y por Santa Pe. Pero entiendo que
+en
+una ley no
+se pueden contemplar todos los
+detalles. El Poder Ejecutivo
+de la Naciôn,
+al
+reglamentarla,
+tendra
+en euenta
+los diferentes
+puntos
+que han sido motivo
+de discusiôn
+por
+considerarse que
+no
+son suficientemente claros.
+Al reglamentar con equidad la ley, evitarâ que
+se cometan las injusticias que se han senalado.
+La
+comisiôn especial
+a designarse
+por dis-
+posiciôn del articulo
+29
+de
+este proyecto,
+es
+a
+mi juicio la
+que tendra
+que resolver la parta
+mâs importante del mismo,
+ya
+que deberâ de-
+terminar los capitales de las
+empresas
+que in-
+gresen a esta eorporaciôn, y tendra que procé¬
+der con eriterio ecuânime al fijar el valor de esos
+capitales,
+piles
+de lo contrario
+podriamos
+en-
+eontrarnos
+con
+que
+las
+empresas
+aparezean
+aportando capitales demasiado altos, en relaciôri
+al exacto valor, de los mismos. La tasaciôn
+que
+deberâ realizarse para fijar definitivamente
+su
+valor ha de
+ser pues tarea importante y sirnia-
+mente delicada.
+También
+deberâ
+contemplar la situaciôn
+de
+los dueûos de automôviles coleetivos. No deberâ
+limitarse tan solo
+a expropiar el vehîculo
+por
+su valor intrinseco, va que
+ese vehîculo consti-
+tuyè no solo un capital, sino
+a la vez un instru¬
+mente
+de trabajo, y
+en la indemnizaciôn,
+tam¬
+bién deberâ comprenderse
+el valor
+que elle
+re¬
+présenta,
+Espero,
+que el Poder Ejecutivo
+eu la regla-
+mentaciôn de la ley, al procéder
+con la ecua-
+nimidad
+que lo ha caraeterizado hasta
+ahora
+en
+sus actos,
+se preocuparâ de haeer respectai’
+todos
+los dereehos,
+tanto
+los
+del pueblo
+que
+se verîa perjudicado
+con una inflaeiôn injtis-
+tificada del capital de las empresas,
+como los
+interesés particulares de los que trabajan
+con
+automôviles
+propios
+en
+las
+lineas
+de
+colee¬
+tivos.
 ```
 
 ## Images, Captions, And Visual Notes

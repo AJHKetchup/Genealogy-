@@ -17,7 +17,7 @@
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/manifest.json`
 - Source page: 704
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/page-images/page-0704.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -29,47 +29,238 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-y que produzca tranquilidad momentânea. Malbrân. - Es traducciôn: (Fdo.) : GMa.»
-
-El 29 de diciembre de 1932 el Concejo Déli¬ bérante saneionô la resolucion numéro 4.587, creando la Comisiôn Municipal de Estudios del Transporte Colectivo integrada por représen¬ tantes de las dos ramas del gobierno municipal.
-
-Entre otros puntos, esta comisiôn debîa estudiar los
-
-siguientes:
-
--Capitales invertidos por las empresas, a establecerse mediante los inventarios valorizados
-
+1296
+CAMAEA de senadores de LA NA CION
+Septembre 29 y 30
+y
+que produzca tranquilidad momentânea.
+—
+Malbrân.
+— Es traducciôn:
+(Fdo.) : GMa.»
+El 29 de diciembre de 1932 el Concejo Déli¬
+bérante
+saneionô
+la
+resolucion
+numéro
+4.587,
+creando la Comisiôn Municipal de Estudios del
+Transporte Colectivo integrada por représen¬
+tantes de las dos ramas del gobierno municipal.
+Entre otros puntos, esta comisiôn debîa estu-
+diar los siguientes:
+—Capitales invertidos por las empresas, a es-
+tablecerse
+mediante
+los inventarios
+valorizados
 correspondientes.
-
---Monto de los intereses y amortizaeiones pasados por aguamientos de capitales.
-
--Produeidos-y gastos de explotaeiôn. Legitimidad de los gastos de explotaeiôn declarados por las empresas.
-
-El asunto se planteaba, pues, tal como se debîa plantear, como se ba planteado en todas las naeiones civilizâdas del mundo, Norte America y Gran Bretana, inclusive, pues como muy bien lo dice ese gran ôrgano de opinion que se llama «La Prensa», en su editorial del 15 de febrero de 1935 : «La eiudad puede cargar hasta eierto punto con la tributaeiôn que, justa y razonablemente, imponga la conservaeiôn de los capita¬ les invertidos en la i'ndustria tranviaria, bajo la eondiciôn bien entendida de que se llegue a sa¬ ber con precision, a cuânto alcanzan diclios capitales y bajo condiciones perfectamente determinadas de antemano que aseguren la satisfacciôn de las necesidades eoleetivas. Pero sin estudios financieros y sin un plan técnieo previo, el monopolio de transportes de pasajeros, por 56 anos en la que no bay derecbo a ineurrir, si se eonsidera que va a gravar a dos generaeiones». Nobles y prudentes conceptos son estos, eon los
-
+-—Monto de los intereses y amortizaeiones pa-
+sados por aguamientos de capitales.
+—Produeidos-y gastos de explotaeiôn. Legiti-
+midad
+de
+los gastos de explotaeiôn declarados
+por las empresas.
+El asunto se planteaba, pues, tal como se debîa
+plantear, como se ba planteado en todas las na-
+eiones civilizâdas del mundo, Norte America y
+Gran Bretana, inclusive, pues como muy bien lo
+dice
+ese gran
+ôrgano
+de opinion que
+se llama
+«La Prensa»,
+en
+su editorial del 15 de febrero
+de 1935 : «La eiudad puede cargar hasta eierto
+punto con la tributaeiôn que, justa y razonable-
+mente, imponga la conservaeiôn
+de los capita¬
+les invertidos en la i'ndustria tranviaria, bajo la
+eondiciôn bien entendida de que se llegue a sa¬
+ber
+con precision,
+a
+cuânto
+alcanzan
+diclios
+capitales y bajo condiciones perfectamente de-
+terminadas de antemano que aseguren la satis-
+facciôn de las necesidades eoleetivas. Pero sin
+estudios financieros y sin un plan técnieo previo,
+el monopolio de transportes de pasajeros, por 56
+anos en la que no bay derecbo a ineurrir, si
+se
+eonsidera que va
+a gravar a dos generaeiones».
+Nobles y prudentes conceptos son estos, eon los
 que coincido enteramente.
-
-Pero la resolucion del Honorable Concejo, que tan de trente enearaba el problema tué vetada por el Departamento Ejeeutivo el 12 de enero de 1933.
-
-El 19 enero de 1933, la intendencia désig¬ na una comisiôn especial que eleva su informe y su proyecto de ley de coordinaciôn de trans¬ porte, en diciembre de 1933, propugnando un monopolio a favor de los tranvias, con restricciones.
-
-Quiero detenerme a examinar la memoria de la soluciôn preconizada para el problema de los transportes, en comun, en la eiudad de Buenos Aires, presentada en abril de 1925, por el administrador de la Compania Anglo Argentina, senor Marcelo Rongé. Es un antecedente que conviene modir
-
-y tener présente.
-
-El sistema de tarifas que proyeetaba la com- panîa en esa memoria, era el siguiente: tran* vîas : tarifa uniforme de 12 centavos. Subterrâneos: tarifa uniforme de 15 centavos. Com-, binaciones: tarifa uniforme de 20 centavos. Con taies tarifas, el senor Rongé deeîa que apenas se eubrîan los servicios de los capitales. &amp;Qué tarifas fijarân aliora, que ademâs de sus capitales deben servir los que conceden al fisco y los que se utilicen en expropiaciones, los de organizaciôn de la sociedad y los quebrantos en el cambio ?...
-
-Pero el tema mas interesante de la memoria es el proyecto de establecer por euenta de la Compania Anglo Argentina, un servicio de om¬ nibus. Ante todo, subrayo el pesimismo del senor Rongé, respecto al porvenir de esas companîas. Dice
-
-que no podrân subsistir por mueho tiempo.
-
-«Las empresas de omnibus en Buenos Aires, dice el senor Rongé, en 1925, no alcanzan a equilibrar sus presupuestos y fracasan sueesivamente». Ese pesimismo tan agorero del ilustrado administrador de la Compania Anglo Ar¬ gentina terminantemente desvirtuado por hechos, favorecia el propôsito de fundamentalla suba de tarifas en esos mismos omnibus, enan lo la Anglo Argentina, se hiciese cargo de la exclusividad que solicitaba. Once anos mas tarde, cuando el trâfico de omnibus y colectivos se lia afianzado, el informe de la mayorîa de la comi¬ siôn dice: «la situaciôn financiera de la mayo¬ rîa de las empresas de autobuses no es mâs fa¬ vorable que la de los tranvias». Y agrega«La situaciôn econômica del eonjunto de las lîneasj de colectivos no tardarâ en hacerse preearia».
-
-Si se aprueba el monopolio que propone esta ley, desgraciadamenle, esas expresiones podrân ser utilizadas por la sociedad anônima usufructuaria para elevar las tarifas, arguyendo que las tarifas actuales que han nermitido el desarrollo extraordinario del automotor no son jùstas ni razonables ni rcmuncradoras.
-
-Una simple elevaciôn de tarifas, en un 50 fo, y no es mucho, senores senadores, ante lo que se plantea, costarîa al pueblo de la Capital, anualmente, una contribuciôn de cerca de 30.000.000 de pesos sobre todo el movimiento de pasajeros y en los 56 anos se babrîa extraîdo, indebidamente, 1.680.000.000 de pesos, que pudieron ser aborrados o capitaüzados a favor del pais. Oigan bien los senores senado¬ res. Una suba del 50 % en los pasajes extraeria del pais en los 56 anos de la ley, 1.680.000 de pesos de mâs.
-
-Volvamos a la proposieiôn que el adminis¬ trador de la Compania Anglo Argentina luzo en 1925. Al pedir el monopolio, el senor Ron-
+Pero la resolucion
+del
+Honorable
+Concejo,
+que tan de trente enearaba el problema tué ve-
+tada por el Departamento
+Ejeeutivo el 12
+de
+enero de 1933.
+El
+19
+enero
+de
+1933, la intendencia
+désig¬
+na
+una comisiôn especial que eleva
+su informe
+y su proyecto de ley de coordinaciôn de trans¬
+porte,
+en diciembre de 1933, propugnando un
+monopolio
+a favor de los tranvias, con restric-
+ciones.
+Quiero detenerme
+a examinar la memoria de
+la soluciôn preconizada para el problema de los
+transportes, en comun,
+en la eiudad de Buenos
+Aires, presentada en abril de 1925, por el admi-
+nistrador de la Compania Anglo Argentina, se-
+nor Marcelo
+Rongé.
+Es
+un antecedente
+que
+conviene modir y tener présente.
+El sistema de tarifas
+que proyeetaba la
+com-
+panîa
+en
+esa memoria,
+era el siguiente: tran*
+vîas : tarifa
+uniforme de 12 centavos.
+Subte-
+rrâneos: tarifa uniforme de 15 centavos.
+Com-,
+binaciones:
+tarifa
+uniforme de 20
+centavos.
+Con
+taies tarifas,
+el
+senor
+Rongé
+deeîa
+que
+apenas se eubrîan los servicios de los capitales.
+&Qué tarifas fijarân aliora,
+que ademâs de sus
+capitales deben servir los que
+conceden al fis-
+co y los que se utilicen en expropiaciones, los de
+organizaciôn de la sociedad y los quebrantos en
+el cambio ?...
+Pero el tema
+mas interesante de la memoria
+es el proyecto de
+establecer por euenta de
+la
+Compania Anglo Argentina, un servicio de om¬
+nibus. Ante todo, subrayo el pesimismo del senor
+Rongé, respecto al porvenir de esas companîas.
+Dice que no podrân subsistir por mueho tiempo.
+«Las empresas de omnibus en Buenos Aires,
+dice
+el
+senor Rongé,
+en
+1925,
+no
+alcanzan
+a
+equilibrar
+sus presupuestos
+y fracasan
+sueesi-
+vamente».
+Ese pesimismo tan agorero del ilus-
+trado administrador de la Compania Anglo Ar¬
+gentina terminantemente desvirtuado
+por he-
+chos, favorecia el propôsito de fundamental- la
+suba de tarifas en esos mismos omnibus, enan lo
+la Anglo Argentina, se hiciese cargo de la exclu-
+sividad
+que solicitaba.
+Once
+anos
+mas
+tarde,
+cuando el trâfico de omnibus y colectivos se lia
+afianzado, el informe de la mayorîa de la comi¬
+siôn dice: «la situaciôn financiera de la
+mayo¬
+rîa de las empresas de autobuses no es mâs fa¬
+vorable que la de los tranvias». Y agrega- «La
+situaciôn econômica del eonjunto de las
+lîneasj
+de colectivos
+no tardarâ
+en hacerse preearia».
+Si
+se aprueba el monopolio que propone esta
+ley, desgraciadamenle,
+esas expresiones podrân
+ser utilizadas por la sociedad anônima usufruc-
+tuaria para elevar las tarifas,
+arguyendo
+que
+las tarifas actuales
+que han nermitido el des-
+arrollo
+extraordinario
+del
+automotor
+no
+son
+jùstas ni razonables ni rcmuncradoras.
+Una simple elevaciôn de tarifas, en un 50 fo,
+y no es mucho, senores senadores, ante lo que
+se plantea,
+costarîa al pueblo de la Capital,
+anualmente,
+una
+contribuciôn
+de
+cerca
+de
+30.000.000 de pesos sobre todo el movimiento
+de pasajeros
+y
+en los 56
+anos
+se babrîa
+ex-
+traîdo, indebidamente, 1.680.000.000 de pesos,
+que pudieron ser aborrados
+o capitaüzados
+a
+favor del pais. Oigan bien los senores senado¬
+res. Una suba del 50 % en los pasajes extraeria
+del pais en los 56 anos de la ley, 1.680.000 de
+pesos de mâs.
+Volvamos
+a la proposieiôn
+que
+el adminis¬
+trador de la Compania Anglo Argentina luzo
+en 1925. Al pedir el monopolio, el senor Ron-
 ```
 
 ## Images, Captions, And Visual Notes
@@ -109,7 +300,7 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/manifest.json`
 - Source page: 705
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/page-images/page-0705.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -121,45 +312,229 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-&gt;5
-
+de 1936
+CAMARA DE SEN ADORES DE LA NACION
+1297
 ■
-
-.E.-,v
-
+>5 .E.-,v
 -
-
 ;
-
 '
-
 ■
-
 .
-
 .
-
-·
-
+•
 '
-
-gé pedia, al mismo tiempo, autorizaciôn para fijar las tarifas que hemos indicado y en cuanto al omnibus decia : «Se puede afirmar, teôrica y experimentalmente, que la tarifa de 15 cen¬ tavos para distancias menores de cinco kilomè¬ tres, représenta un minirno estricto y que la tarifa maxima de 20 centavos para las distan¬ cias que exceden los cinco kilomètres, es un cargo y un riesgo...» Véase pagina 19 de la memoria. Eso afirmaba el senor Rongé, en 1925, cuando el numéro de omnibus en circulaciôn era de 596 y el numéro de pasajeros transportados era de 100.000.000 y esas que indica, hubieran sido las tarifas mînimas, que la An¬ glo hubiera aplicado si se hubiera aceedido a darle el monopolio. Digo minimas porque no es dificil que a estos aîios, ya estuviera la An¬ glo pidiendo autorizaciôn para elevar las tari¬ fas, porque con la caida del peso, la compania tenia pérdidas graves. Sin embargo, con la tarifa de 10 centavos y de 15 para las largas distancias, los omnibus se ban desarrollado hasta poseer en 1935, 1.879 coches de gran capacidad y transporter 351.000.000 de pasajeros.
-
-l'or no haber aceedido a las pretensiones de la Compania Anglo Argentina, el publico de Buenos Aires lia ahorrado desde esa fecha en pasajes de tranvias, omnibus y subtertâneos, una cantidad no inferior a 500.000.000 de pesos,
-
+gé pedia, al mismo tiempo, autorizaciôn para
+fijar las tarifas que hemos indicado y en cuan-
+to al omnibus decia : «Se puede afirmar, teôrica
+y experimentalmente, que la tarifa de 15 cen¬
+tavos para distancias menores de cinco kilomè¬
+tres, représenta un minirno estricto y
+que la
+tarifa maxima de 20 centavos para las distan¬
+cias
+que exceden los cinco kilomètres,
+es un
+cargo y un riesgo...» Véase pagina 19 de la
+memoria.
+Eso
+afirmaba
+el
+senor
+Rongé,
+en
+1925, cuando el numéro de omnibus en circula-
+ciôn era de 596 y el numéro de pasajeros trans-
+portados era de 100.000.000 y esas que indica,
+hubieran sido las tarifas mînimas,
+que la An¬
+glo hubiera aplicado si se hubiera aceedido a
+darle
+el monopolio. Digo minimas porque
+no
+es dificil que a estos aîios, ya estuviera la An¬
+glo pidiendo autorizaciôn para elevar las tari¬
+fas, porque con la caida del peso, la compania
+tenia
+pérdidas
+graves.
+Sin
+embargo,
+con la
+tarifa de 10 centavos y de 15 para las largas
+distancias,
+los
+omnibus
+se ban
+desarrollado
+hasta poseer en 1935, 1.879 coches de gran ca-
+pacidad
+y transporter 351.000.000
+de
+pasa-
+jeros.
+l’or no haber aceedido
+a las pretensiones de
+la Compania Anglo Argentina, el
+publico
+de
+Buenos Aires lia ahorrado desde
+esa fecha en
+pasajes
+de tranvias, omnibus y subtertâneos,
+una cantidad no inferior a 500.000.000 de pesos,
 aproximadamente.
-
-Pero bay mâs aun. Hay mas lecciones en la propuesta del senor Rongé, que es preciso que los senores senadores tengan présente para ilustrar su juicio. En 1a parte final de su trabajo, el senor Rongé daba algunas indicaciones so¬ bre la financiaciôn que la Anglo Argentina estableceria. «La obra exige una labor intensisima, decia, y una inversion de capital de cerca de 10.000.000 de libras esterlinas o 120.000.000 de pesos, dentro de los 6 anos venideros, para regularizar la situaciôn, colocândola a la altura que le corresponde. Llegado a este grado de adelanto, el adelanto era, por lo visto, el mono¬ polio de la Anglo y calculando un aumento de poblaciôn anual de aproximadamente el 2 %, se requeriria en conjunto un aumento proporeional de los medios de transporte y, por ende, la inversion de nuevos capitales. Este nuevo programa de expansion al que habria que hacer frente, exigiria un gasto anual que como término medio séria de 1.000.000 de libras es¬ terlinas, es decir, alrededor de 12.000.000 de pesos anuales».
-
-Hagamos unos pequenos eâlculos, senores
-
-senadores., Segun el programa del administra- dor de la Anglo Argentina, de habérsele ooncedido la exclusividad del transporte, la compa¬ nia hubiera invertido de 1925 a 1931, 10.000.000 de libras. De 1931 a abril de 1936, 1.000.000 de libras anuales. En total, 15.000.000 de li¬ bras sobre su capital anterior. Para servir el siete % ese capital de 15.000.000 de libras, el pais hubiera necesitado girar a Inglaterra 1.050.000 libras anuales, que, al cambio de 18 pesos por libra, hacen 18.900.000 pesos anuales, a mâs de los gastos de remisiôn y quebrantos en el cambio que computarian boy.
-
-Bien, senores senadores; 20.000.000 es lo que cuesta aproximadamente la parte del servicio automotor que es preciso eomprar en el extranjero: los chassis de los 1.879 omnibus y de los 2.795 colectivos que circulan por las calles de Buenos Aires. Y esa es la diferencia que yo queria subrayar y exponer al criterio de los senores senadores, la enorme diferencia que existe entre adquirir un bien reproductive que entra a engrosar la economia del pais o la de dejar que esos bienes estén en posesiôn del capitalismo extranjero, a los que bay que servir en forma tan permanente como agotadora.
-
-No quiero terminar este somero anâlisis sin destacar una caracteristica de gran importan¬ ce psicolôgica. Todas las empresas inglesas, cuando se disponen a obrar, lo hacen tras una larga y madurada meditaciôn, tras una preparaciôn cuidadosa del ambiente, pero siempre dieen obrar movidas por urgencias impostergables. Todo lo que ellos presentan es impostergable, debe ser realizado en plazos angustiosos. Es évidente que con esos pretextos quieren impedir la reflexion tranquila y el câlculo de todos los perjuicios que para el pais encierran sus proposiciones, siempre encubiertas bajo fisonomias y palabras simpâticas. La me¬ moria del administrador de la Anglo Argentina, presentada en 1925, no se aparta de esas caraeteristicas. «Se han perdido muchos anos, dice, los medios de transporte estân atrasados en relaciôn al prodigioso desarrollo de la ciudad. La urgencia de una soluciôn del estado actual se hace présente con toda evidencia». Yo no comparto la opinion de la piayoria de la comisiôn respecto a que la soluciôn de esta grave cuestiôn no debe ser retardada. No creo que ella se présente, imperativa, alcanzândose solo por la coordinaciôn de todos los medios de transporte urbano.
-
-No hemos de preeipitarnos para adoptar medidas que van a gravitar sobre el pais, duran¬ te 56 anos. j Como no hemos de debatir y es-
+Pero bay
+mâs aun. Hay mas lecciones en la
+propuesta del senor Rongé, que es preciso que
+los senores senadores tengan présente para ilus-
+trar su juicio. En 1a parte final de su trabajo,
+el
+senor Rongé daba algunas indicaciones
+so¬
+bre la financiaciôn que la Anglo Argentina es-
+tableceria.
+«La obra exige
+una labor intensi-
+sima, decia, y una inversion de capital de cerca
+de 10.000.000 de libras esterlinas
+o 120.000.000
+de pesos, dentro de los 6 anos venideros, para
+regularizar la situaciôn, colocândola a la altura
+que le corresponde. Llegado a este grado de
+adelanto, el adelanto era, por lo visto, el mono¬
+polio de la Anglo y calculando un aumento de
+poblaciôn anual de aproximadamente el 2 %,
+se requeriria en conjunto un aumento propor-
+eional de los medios de transporte y, por en-
+de, la inversion de nuevos capitales. Este nue-
+vo programa de expansion al
+que habria que
+hacer frente, exigiria un gasto anual que como
+término medio séria de 1.000.000 de libras es¬
+terlinas,
+es decir, alrededor de 12.000.000 de
+pesos anuales».
+Hagamos
+unos
+pequenos
+eâlculos,
+senores
+senadores., Segun el programa del administra-
+dor de la Anglo Argentina, de habérsele oonce-
+dido la exclusividad del transporte, la compa¬
+nia hubiera invertido de 1925 a 1931, 10.000.000
+de libras. De 1931
+a abril de 1936, 1.000.000
+de libras anuales. En total, 15.000.000 de li¬
+bras
+sobre
+su capital anterior. Para servir el
+siete % ese capital de 15.000.000 de libras, el
+pais
+hubiera
+necesitado
+girar
+a
+Inglaterra
+1.050.000
+libras
+anuales,
+que,
+al
+cambio
+de
+18
+pesos
+por libra,
+hacen
+18.900.000
+pesos
+anuales, a mâs de los gastos de remisiôn y que-
+brantos en el cambio que computarian boy.
+Bien,
+senores senadores;
+20.000.000
+es
+lo
+que cuesta aproximadamente la parte del ser-
+vicio automotor que
+es preciso eomprar en el
+extranjero: los chassis de los 1.879 omnibus y
+de los 2.795 colectivos que circulan por las ca-
+lles de Buenos Aires. Y esa es la diferencia que
+yo queria subrayar y
+exponer al criterio de
+los
+senores
+senadores,
+la
+enorme
+diferencia
+que existe entre adquirir un bien reproductive
+que entra a engrosar la economia del pais o
+la de dejar que
+esos bienes estén en posesiôn
+del capitalismo extranjero,
+a los que bay que
+servir
+en forma tan permanente
+como agota-
+dora.
+No quiero terminar este somero anâlisis sin
+destacar
+una caracteristica de gran importan¬
+ce psicolôgica.
+Todas las
+empresas inglesas,
+cuando se disponen a obrar, lo hacen tras una
+larga
+y madurada meditaciôn, tras una pre-
+paraciôn cuidadosa del ambiente, pero siempre
+dieen obrar movidas
+por urgencias imposter-
+gables. Todo lo que ellos presentan es impos-
+tergable, debe ser realizado en plazos angus-
+tiosos. Es évidente que con esos pretextos quie-
+ren impedir la reflexion tranquila y el câlculo
+de todos los perjuicios que para el pais encie-
+rran
+sus
+proposiciones,
+siempre
+encubiertas
+bajo fisonomias y palabras simpâticas. La me¬
+moria del administrador de la Anglo Argentina,
+presentada en 1925, no
+se aparta de esas ca-
+raeteristicas.
+«Se
+han perdido
+muchos
+anos,
+dice, los medios de transporte estân atrasados
+en relaciôn al prodigioso desarrollo de la ciu-
+dad. La urgencia de una soluciôn del estado
+actual
+se
+hace
+présente
+con toda evidencia».
+Yo no comparto la opinion de la piayoria de la
+comisiôn
+respecto
+a
+que la soluciôn de esta
+grave cuestiôn no debe ser retardada. No creo
+que ella
+se présente, imperativa, alcanzândose
+solo por la coordinaciôn de todos los medios de
+transporte urbano.
+No hemos de preeipitarnos para adoptar me-
+didas que van a gravitar sobre el pais, duran¬
+te 56
+anos. j Como no hemos de debatir y es-
 ```
 
 ## Images, Captions, And Visual Notes
@@ -199,7 +574,7 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/manifest.json`
 - Source page: 706
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/page-images/page-0706.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -211,45 +586,258 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-tudiar hasta en sus menores resquieios, un proyecto que va a dar concesiones que durarân por lo raenos liasta 1992, es decir, cuando ni nosotros, ni nuestros liijos, posiblemente, estén ya vivos!
-
-En abierta oposicion al despaclio de la mayoria, por sobre todas las diferencias, por sobre todas las prefereneias personales, por so¬ bre todos los gustos y los afectos, por sobre todos los credos, por sobre todas las doctrinas, vo llamo a la reflexion a los senores senadores, yo llamo a la prudencia, a la moderacion, al cotejo tranquilo de los lieclios, al conocimiento de los problemas en juego, a la induceion inteligente del porvenir argentino que vambs a encadenar durante 56 anos eon esta ley. No pido siquiera que se adopten mis ideas y mis conclusiones. Pido tranquila reflexion y presencia en los espiritus, de la mas alta inspiracion argentina. No es muclio pedir a los seno¬ res senadores a quienes respeto y cuyo noble sentimiento
-
-patriotico reconozco.
-
-Al enfrentar el texto del proyecto de ley que viene en revision, no. puedo ocultar mi extrafieza por su rara eonformacion. No es una ley del tipo a la que estamos acostumbrados. Nuestras leyes son claras en su mayoria. Sus ambigüedades son debidas, nada mâs' que a la imprecision del lenguaje del legislador. Su contexto se despliega en articulos que tratan de eompendiar un fragmento del pensamiento motriz de la ley. Van siendo como pequenos ladrillos de un edifieio legal. Son leyes que bus^ can algo preciso, determinado, nitido, -y el le¬ gislador se esfuerza porque su pensamiento sea aecesible e inteligible para quienes deben apli-
-
+1298
+CAMARA DE SEN ADORES DE LA NACION
+tudiar hasta en sus menores resquieios, un pro-
+yecto
+que
+va
+a dar concesiones
+que durarân
+por lo
+raenos liasta 1992,
+es decir, cuando ni
+nosotros, ni nuestros liijos, posiblemente, estén
+y a vivos!
+En abierta oposicion al despaclio de la ma-
+yoria,
+por
+sobre
+todas
+las
+diferencias,
+por
+sobre todas las prefereneias personales, por so¬
+bre
+todos
+los
+gustos
+y
+los
+afectos,
+por
+sobre
+todos los credos, por sobre todas las doctrinas,
+vo llamo
+a la reflexion
+a los
+senores senado-
+res, yo llamo a la prudencia, a la moderacion,
+al cotejo tranquilo de los lieclios, al conocimien-
+to
+de los problemas
+en juego,
+a la induceion
+inteligente del porvenir argentino
+que
+vambs
+a encadenar durante 56
+anos
+eon esta ley. No
+pido siquiera que
+se adopten mis ideas y mis
+conclusiones.
+Pido tranquila reflexion
+y
+pre-
+sencia
+en los espiritus, de la mas alta inspira-
+cion argentina. No
+es muclio pedir
+a los
+seno¬
+res senadores
+a quienes respeto y cuyo noble
+sentimiento patriotico reconozco.
+Al enfrentar el texto del proyecto de ley que
+viene
+en revision,
+no. puedo ocultar mi extra-
+fieza por su rara eonformacion. No
+es una ley
+del tipo a la que estamos acostumbrados. Nues-
+tras leyes son claras
+en
+su mayoria. Sus
+am-
+bigüedades
+son debidas, nada mâs'
+que
+a la
+imprecision del lenguaje del legislador. Su con-
+texto
+se despliega
+en articulos
+que tratan
+de
+eompendiar un fragmento del pensamiento mo-
+triz de la ley. Van siendo
+como
+pequenos la-
+drillos de un edifieio legal. Son leyes que bus^
+can algo preciso, determinado, nitido, -y el le¬
+gislador se esfuerza porque su pensamiento sea
+aecesible
+e inteligible para quienes deben apli-
 earlo.
-
-Esta ley, es todo lo contrario. Su estruetura es confusa. Su disposiciôn abigarrada y falta de orden, su redaeeiôn, aparentemente eontradictoria y con clâusulas tan poco claras que de su lectura desprevenida se desprenden o pueden desprenderse conseeuencias completamente con¬ trarias a las que se deseubren tras una lectura
-
+Esta ley,
+es todo lo contrario. Su estruetura
+es confusa.
+Su disposiciôn abigarrada y falta
+de orden,
+su redaeeiôn, aparentemente eontra-
+dictoria y con clâusulas tan poco claras que de
+su lectura desprevenida se desprenden o pueden
+desprenderse conseeuencias completamente
+con¬
+trarias
+a las que
+se deseubren tras una lectura
 detenida.
-
-El primitivo proyecto de ley, que en diciembre del ano 1933 fué sometido a la aprobaciôn del intendente municipal, doctor Mariano de Vedia y Mitre, para que este funcionario lo elevara por intermedio del Poder Ejecutivo a la aprobaeion del Honorable Congreso, se eomponîa de 49 artieulos. Ese proyecto estaba auspieiado por cl doctor Roberto M. Ortiz, aetualmente mifaistro de Hacienda, el ingeniëro Pablo Nogués, ac¬ tual administrador de los Ferrocarriles del Estado, el ingeniero Manuel F. Castello, exdirec- tor de la Direcciôn General de Ferrocarriles y actual asesor de la gerencia del Ferrocarril del Sud y por el doctor Àgnstin Pestalardo. AM no habia imprecision alguna jPor que fué desecliado ese proyecto estudiado por una comisiôn que integraban dos tôcnicos? Su texto era clai'o ; en él se confesaba abiertamente que el objeto de la coordinaciôn era crear un monopolio de los transportes urbanos que séria manejado internamente - dado su predominio de capi¬ tal - por la Compania de Tranvias Anglo Ar¬ gentina . El articulo 1" de ese proyecto de ley dice: «Autorizase al Poder Ejecutivo de la Naciôn a promover la formaciôn de una entidad que''se denominarâ Corporacion de Transpor¬ tes de Buenos Aires y alrededores, sobre la ba¬ se de las eompanias de subterrâneos y tranyia.s aetualmente en explotaciôn :
-
-Compania de Tranvias Anglo Argentina Limitada.
-
-Compania de Tranvias Lacroze de Bue¬ nos
-
-Aires, Ltda.
-
-Compania de Tranvias Eléctricos del
-
+El primitivo proyecto de ley, que en diciembre
+del
+ano 1933 fué sometido
+a la aprobaciôn del
+intendente municipal, doctor Mariano de Vedia
+y Mitre,
+para
+que
+este funcionario lo
+elevara
+por intermedio del Poder Ejecutivo
+a la apro-
+baeion del Honorable Congreso, se eomponîa de
+49 artieulos. Ese proyecto estaba auspieiado por
+cl doctor Roberto M. Ortiz, aetualmente mifais-
+tro de Hacienda, el ingeniëro Pablo Nogués, ac¬
+tual administrador de los Ferrocarriles del Es-
+tado, el ingeniero Manuel F. Castello, exdirec-
+Septiembre 29 y 30
+tor de la Direcciôn General de Ferrocarriles y
+actual
+asesor de la gerencia del Ferrocarril del
+Sud
+y por el doctor Àgnstin Pestalardo. AM
+no habia imprecision alguna jPor que fué des-
+ecliado ese proyecto estudiado por una comisiôn
+que integraban dos tôcnicos? Su texto
+era cla-
+i’o ; en él se confesaba abiertamente que el ob-
+jeto de la coordinaciôn era crear un monopolio
+de los transportes urbanos que séria manejado
+internamente
+— dado
+su predominio de capi¬
+tal — por la Compania de Tranvias Anglo Ar¬
+gentina
+.
+El articulo 1" de
+ese proyecto de ley
+dice: «Autorizase al Poder Ejecutivo de la Na-
+ciôn
+a promover la formaciôn de una entidad
+que''se denominarâ Corporacion
+de Transpor¬
+tes de Buenos Aires y alrededores, sobre la ba¬
+se
+de
+las eompanias
+de subterrâneos
+y tran-
+yia.s aetualmente en explotaciôn
+:
+Compania de Tranvias Anglo Argentina
+Limitada.
+Compania de Tranvias Lacroze de Bue¬
+nos Aires, Ltda.
+Compania
+de
+Tranvias
+Eléctricos
+del
 Sud.
-
-Compania de Tranvias Ciudad y Puerto de Buenos Aires.
-
+Compania de Tranvias Ciudad y Puerto
+de Buenos Aires.
 Ferrocarril Terminal Central de Buenos
-
-Aires.
-
-Y el articulo 2? del mismo proyecto de ley, agregaba : «La corporacion funcionarâ como soeiedad anônima, de conformidad con las le¬ yes de la materia, en euanto no se opongan a la présente, siendo eondiciôn previa e indispensàble para su constituciôn la aeeptaciôn por parte de las empresas, de las eondiciones que se establecen en la presente lev. La corpora¬ cion tendra su domicilio legal en la Capital
-
+A ires.
+Y
+el articulo
+2? del mismo proyecto
+de ley,
+agregaba :
+«La
+corporacion
+funcionarâ
+como
+soeiedad anônima, de conformidad
+con las le¬
+yes de la materia,
+en euanto no
+se opongan a
+la
+présente, siendo
+eondiciôn previa
+e indis-
+pensàble para su constituciôn la aeeptaciôn por
+parte de las empresas, de las eondiciones
+que
+se
+establecen
+en
+la
+presente lev.
+La
+corpora¬
+cion
+tendra
+su
+domicilio legal
+en la Capital
 Federal».
-
-jlla sido alterado el espiritû de esa ley! iSe ha desbaratado el monopolio planeado? No, se¬ nores senadores. Al contrario. Se lia librado a las empresas que constituirân el nûcleo del mo¬ nopolio, de las exigencias que preveia ese an¬ tigua proyecto. La mayoria de la comisiôn afirmu que el despaclio que discutimos «no establece ningun monopolio en favor de ninguna empresa privada», aunque el proyecto que estamos considerando es de propôsitos absolutamente idéntieos al proyecto desechado, segûu lo demostraré en forma terminante para que los senores senadores no caigan en un error que puede ser funesto.
-
-Segün los senores senadores pueden observai-, este proyecto de ley que pretende eoordinar el transporte, es el texto législative) menos coordi-
+jlla sido alterado el espiritû de esa ley! iSe
+ha desbaratado el monopolio planeado? No,
+se¬
+nores senadores. Al contrario. Se lia librado
+a
+las empresas que constituirân el nûcleo del mo¬
+nopolio, de las exigencias que preveia
+ese
+an¬
+tigua proyecto. La mayoria de la comisiôn afir-
+mu
+que el despaclio
+que discutimos
+«no
+esta-
+blece ningun monopolio
+en favor de ninguna
+empresa privada»,
+aunque el proyecto
+que
+es-
+tamos considerando
+es
+de propôsitos absoluta-
+mente idéntieos al proyecto desechado, segûu
+lo
+demostraré
+en forma terminante
+para
+que
+los
+senores
+senadores
+no
+caigan
+en
+un
+error
+que puede ser funesto.
+Segün los senores senadores pueden observai-,
+este proyecto de ley
+que pretende eoordinar el
+transporte,
+es el texto législative) menos coordi-
 ```
 
 ## Images, Captions, And Visual Notes
@@ -289,10 +877,10 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/manifest.json`
 - Source page: 707
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/page-images/page-0707.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
-- Extracted picture images: 1
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
@@ -301,56 +889,207 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-nador que puede darse. De su texto van a deducirse todas las actividades futuras que se adopten sobre transportes y sin embargo, su tex¬ to solo tiene très' artîculos y uno de forma.. Es un proyecto de ley al que es easi imposible referirse en pocas palabras; es un proyecto de ley en que lo circunstaneial y transitorio esta antepuesto a lo que es fundamental y permanente. El artîculo l9 tiene dos apartad'os, el a) y el 6). El apartado a) del artîculo l9, tiene dos incisos: el l9
-
-y 29.
-
-El artîculo 29 tiene diez apartados: el a), el l), el c), el d), el e), el /), el g), el h), el i), y el
-
-i).
-
-El artîculo 39 tiene siete apartados: el a), el l), el c), el d), el e), el /), y el g). El apartado c) del artîculo 39 tiene siete incisos: el l9, el 29, el
-
-39, el 49, el 59, el 69 y el 79.
-
-El apartado c) del artîculo 29, esta a su vez dividido en siete incisos: el l9, el 29, el 39, el 49, el 59, el 69 y el 79.
-
-El ineiso l9 del apartado c) del artîculo 39 tiene a su vez dos incisos: el a) y el b).
-
-El incisa 49 del apartado c) del artîculo 29, tiene a su vez très incisos: el a), el b) y el c).
-
-I Es posible eoncebir, senores senadores, un galimatias semejante? Y he hecho en homenaje a la pacieneia de la Câmara, omisiôn de los pârrafos y de las clâusulas en que habrâ que dividir los apartados, los incisos y los subineisos.
-
-Los elementos funeionales de la ley, se ocultan en la marana de pârrafos inimportantes so¬ bre los que se legisla minuciosamente. Por ejemplo, la facultad que se concede a esa soeiedad anônima, que se llama Corporaeiôn, para expropiar a sus rivales automotores, esta escondida en los arrabales de la ley. El texto del pro¬ yecto dice : «Los bienes afectados al servicio de omnibus y automôviles colectivos y de empresas o de particulars que no deseen ingresar en la Corporaeiôn, podrân ser expropiados con arreglo a las leyes vigentes y pasados en efectivo.. .» Subrayo el lenguaje arrevesado. £ Los bienes afectados al servicio de omnibus y auto¬ môviles colectivos? jQue significa afectados?
-
-Los .senores senadores querrân saber en que punto de la ley esta el pârrafo que he citado para confrontarlo. Lo voy a indicar. Es la segtinda clausula del apartado d) del artîculo 29. Y esta segunda clausula del apartado b) del ar¬ tîculo 29, es la que se olvida meneionar euando se
-
-afirma que no hay monopolio ninguno.
-
-Confieso, senores senadores, que es penoso estarse rèfiriendo a una ley tan arbitrariamente
-
-redaetada, tan llena .le recovecos, atajos y ligera.
-
-<!-- image -->
-
-obscuridades. Pero trataré de ordenar mi exposiciôn sobre los puntos principales, para iluminar un poeo la comprcnsiôn de los que han leîdo a la
-
-El despacho de la mayorîa de la comisiôn asegura que no hay monopolio. «Se ha insistido, di¬ ce el despacho, acerca de monopolios con motivo de este proyecto. Esta imputaciôn es absolutamente injustificada ; aquî no se estableee ningûn monopolio en favor de ninguna empresa privada». La aseveraciôn es terminante, pero como lo que va a saneionar la Honorable Câmala de Senadores, no es el informe de la mayorîa de la comisiôn, sino el proyecto de ley, es preciso leer con detenciôn la ley misma.
-
-Pero antes de entrer a ese pârrafo, quiero leer una opinion que contradice absolutamente a la mayorîa de la comisiôn. Es un fragmento de un artîculo del «Buenos Aires Herald» del 4 de julio de 1936, en que se transcribe un reeorte del^«The Times» de Londres. Dice asî: «El eorreo de mediados de semana tra.jo un reeorte de un artîculo de «The Times», publicado en la semana pasada en el cual se discute abiertamente la situaeiôn de la companîa An¬ glo Argentina». Dicho reeorte dice asî: «La competencia eon otras formas de transporte que ha continuado en eierto numéro de anos y mâs recientemente la depreeiaciôn del peso argen¬ tine, ha sido una carga séria para la companîa Anglo Argentino de Tranvîas...» Aquî las quejas. Oigamos las soluciones previstas segiin «The Times», que es lo que nos interesa: «El direetorio recuerda a los tenedores de aeciones, que la coordinaciôn de transportes de pasajeros, urbana y de los alrededores de la comuna de Buenos Aires, al cual se le ha dedicado es¬ pecial consideracion y que ha sido bosquejado o preparado para remover los obstâculos y perjuicios sufridos por los tranvîas y subterrâneos es tema de un proyecto de ley despachado ya por la Honorable Câmara de Diputados de la Naciôn Argentina y pasado al Senado en el mes de septiembre proximo pasado, esperândose ansiosamente que obtenga sanciôn legislativa du¬ rante las sesiones del corriente ano».
-
-' No es, pues, tratamiento equitativo lo que se busca eon la aplicaeiôn de este proyecto de ley, sino «remover las dificultades fmanderas» por-
-
+de 1936
+CAMARA. DE SENADOBES DE LA NACIOM
+1299
+nador que puede darse. De su texto van a de-
+ducirse
+todas las
+actividades
+futuras
+que
+se
+adopten sobre transportes y sin embargo, su tex¬
+to solo tiene très' artîculos y uno de forma.. Es
+un proyecto de ley al que es easi imposible refe-
+rirse
+en pocas palabras; es un proyecto de ley
+en que lo circunstaneial y transitorio esta ante-
+puesto a lo que es fundamental y permanente. El
+artîculo l9 tiene dos apartad'os, el a) y el 6). El
+apartado a) del artîculo l9, tiene dos incisos: el
+l9 y 29.
+El artîculo
+29 tiene diez apartados: el a), el
+l), el c), el d), el e), el /), el g), el h), el i), y
+el i).
+El artîculo 39 tiene siete apartados: el a), el
+l), el c), el d), el e), el /), y el g). El apartado
+c) del artîculo 39 tiene siete incisos: el l9, el 29,
+el 39, el 49, el 59, el 69 y el 79.
+El apartado c) del artîculo 29, esta a su vez
+dividido
+en siete incisos: el l9, el 29, el 39, el 49,
+el 59, el 69 y el 79.
+El
+ineiso l9 del apartado c)
+del artîculo
+39
+tiene
+a su vez dos incisos: el a) y el b).
+El incisa 49 del apartado c) del artîculo 29,
+tiene a su vez très incisos: el a), el b) y el c).
+I Es posible eoncebir,
+senores senadores,
+un
+galimatias semejante? Y he hecho en homenaje
+a la pacieneia de la Câmara, omisiôn de los pâ-
+rrafos y de las clâusulas en que habrâ que di-
+vidir los apartados, los incisos y los subineisos.
+Los elementos funeionales de la ley,
+se ocul-
+tan
+en la marana de pârrafos inimportantes so¬
+bre los que se legisla minuciosamente. Por ejem-
+plo, la facultad que se concede a esa soeiedad
+anônima,
+que
+se llama Corporaeiôn,
+para
+ex-
+propiar
+a sus rivales automotores, esta escondi-
+da en los arrabales de la ley. El texto del pro¬
+yecto dice : «Los bienes afectados al servicio de
+omnibus y automôviles colectivos y de empresas
+o de particulars que no deseen ingresar en la
+Corporaeiôn, podrân ser expropiados con arre-
+glo a las
+leyes
+vigentes y
+pasados
+en efecti-
+vo.. .»
+Subrayo el lenguaje
+arrevesado.
+£ Los
+bienes afectados al servicio de omnibus y auto¬
+môviles colectivos? jQue significa afectados?
+Los .senores senadores querrân saber en que
+punto de la ley esta el pârrafo
+que he citado
+para confrontarlo. Lo voy
+a indicar. Es la se-
+gtinda clausula del apartado d) del artîculo 29.
+Y esta segunda clausula del apartado b) del ar¬
+tîculo 29,
+es la que se olvida meneionar euando
+se afirma que no hay monopolio ninguno.
+Confieso,
+senores
+senadores,
+que es
+penoso
+estarse rèfiriendo
+a una ley tan arbitrariamen-
+te redaetada,
+tan llena
+.le
+recovecos,
+atajos y
+obscuridades. Pero trataré de ordenar mi expo-
+siciôn sobre los puntos principales, para ilumi-
+nar un poeo la comprcnsiôn de los que han leîdo
+a la ligera.
+El despacho de la mayorîa de la comisiôn ase-
+gura que no hay monopolio. «Se ha insistido, di¬
+ce el despacho, acerca de monopolios con motivo
+de este proyecto. Esta imputaciôn es absoluta-
+mente injustificada ; aquî no
+se estableee nin-
+gûn monopolio
+en favor de ninguna empresa
+privada».
+La aseveraciôn
+es terminante,
+pero
+como lo que va a saneionar la Honorable Câma-
+la de Senadores, no es el informe de la mayorîa
+de la comisiôn, sino el proyecto de ley, es pre-
+ciso leer con detenciôn la ley misma.
+Pero
+antes
+de entrer
+a
+ese pârrafo, quiero
+leer
+una opinion
+que contradice absolutamen-
+te a la mayorîa de la comisiôn. Es un fragmen-
+to de
+un artîculo del «Buenos Aires Herald»
+del 4 de julio de 1936, en que se transcribe un
+reeorte del^«The Times» de Londres. Dice asî:
+«El
+eorreo
+de mediados de
+semana tra.jo
+un
+reeorte de
+un artîculo de «The Times», publi-
+cado en la semana pasada en el cual se discute
+abiertamente
+la situaeiôn
+de la companîa An¬
+glo
+Argentina».
+Dicho
+reeorte dice asî: «La
+competencia eon otras formas de transporte que
+ha continuado
+en eierto numéro de anos y mâs
+recientemente la depreeiaciôn
+del
+peso
+argen¬
+tine, ha sido una carga séria para la companîa
+Anglo
+Argentino
+de
+Tranvîas...»
+Aquî
+las
+quejas.
+Oigamos las soluciones previstas segiin
+«The Times»,
+que
+es lo que nos interesa: «El
+direetorio recuerda a los tenedores de aeciones,
+que la coordinaciôn de transportes de pasaje-
+ros, urbana y de los alrededores de la comuna
+de Buenos Aires, al cual
+se le ha dedicado es¬
+pecial consideracion y que ha sido bosquejado
+o preparado para remover los obstâculos y per-
+juicios sufridos por los tranvîas y subterrâneos
+es tema
+de
+un proyecto de ley despachado ya
+por la Honorable Câmara de Diputados de la
+Naciôn Argentina y pasado al Senado en el mes
+de septiembre proximo pasado, esperândose an-
+siosamente
+que obtenga sanciôn legislativa du¬
+rante las sesiones del corriente ano».
+” No
+es, pues, tratamiento equitativo lo que se
+busca eon la aplicaeiôn de este proyecto de ley,
+sino «remover las dificultades fmanderas» por-
 que dice atravesar el Anglo.
-
-Es lo que afirmo yo también, senores seuadores. Y en este punto, me complaee declarar que estoy de acuerdo con el grau diario londinenso.
-
-Y yo pregunto : si no hubiera monopolio a fa¬ vor de los capitales tranviarios, jdônde recibi-
+Es lo que afirmo yo también, senores seua-
+dores. Y
+en
+este punto,
+me complaee declarar
+que estoy de acuerdo con el grau diario londi-
+nenso.
+Y yo pregunto : si no hubiera monopolio a fa¬
+vor de los capitales tranviarios, jdônde recibi-
 ```
 
 ## Images, Captions, And Visual Notes
 
-- Docling extracted picture image 1: ![Docling extracted picture image 1](../extracted-images/page-0707/page-0707-docling-image-01.png)
+- No Docling picture regions were detected for this page.
 
 ## Translation
 
@@ -373,7 +1112,7 @@ No interpretation was produced by the Docling basic conversion pass.
 
 - Basic Docling conversion completed for this page.
 - Rendered page image link recorded.
-- Extracted picture image count: 1.
+- Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 708
@@ -696,7 +1435,7 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/manifest.json`
 - Source page: 712
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/page-images/page-0712.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -708,41 +1447,239 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-anual a los capitales que' aetualmente dieen no ganar ningûn interés, euyo
-
+1304
+CAMAEA DE SENADORES DELA NACION
+Septiembre 29 y 30
+anual
+a
+los capitales
+que' aetualmente
+dieen
+no
+ganar
+ningûn
+interés,
+euyo
 monto no se especifica ;
-
-- 1)) Pondos para dar una ganancia del 7 °/o a los capitales que se empleen en expropiar las empresas y veMculos de omnibus y colectivos;
-- c) Pondos para cubrir las difereneias de cambios que se produzcan en la remision a Inglaterra de los intereses;
-- cl) Pondos para amortization de esos ca¬ pitales cuyo monto ni cuyo valor numérico se limitan ;
-- e) Pondos para renovar el material que no se limitan ;
-- f) Pondos de réserva, euyo objetivo, mon¬ to
-- y uso se ignora ;
-- g) Pondos para abonar el 7 % a los capi¬ tales que se le reconozca gratuitamente al gobierno yr a la municipalidad a cambio de la cancelation de las deudas que las companîas tranviarias tienen eon ellos o con sus reparticiones.
-
-Y todo eso deberâ salir del exhausto habi¬ tante porteüo, del empleado nacional, del pequeno eomerciante, del estudiante, del trabajador. Y todo eso se concede a cambio de nada... i, Cômo podrâ establecerse y asegurarse que van a fijarse tarifas razonables y justas? O los términos «razonables y justas» ya ban comenzado a tener la signification que tienen en las tarifas ferroviarias en que significan diserecionalidad de las
-
-empresas para fijarlas a su voluntad.
-
-No seguiré enumerando y detallando las easi infinitas eoncesiones que este proyeeto que tan¬ ta parcialidad transunta, concede a las empresas de tranvîas, ni la forma en que se eoneeden privilegios eontrarios a las conveniencias publicas. Pero debo destaear el earâcter de los argumentos que emplea el informe de la mayorîa para deeidir el ânimo de los seiiores legisladores y de la opinion publica en general. Se habla en el in¬ forme del desorden y la velocidad del trâfieo que es una de las causas de las numerosas vîetimas y déjà sobreentender que la «eoordinaciôn» regularâ ese punto. Ante todo es preciso dècir que el numéro de vîctimas de accidentes de trâfico, es proporcionalmente inferior al de otras grandes eiudades: Londres, Paris, Berlin, Chi¬ cago. Ademâs, ese es, en todo caso, asunto per¬ tinente al régimen municipal y se arregla con una ordenanza
-
-Es claro rigurosa.
-
-que los adversarios de este proyec-to de ley no somos enemigos de la eoordinaciôn, eomo se ha querido sostener ; somos amigos de la eoordinaciôn, pero no del monopolio extranjero. Queremos una reglamentaciôn séria, seve¬ re, que impicla el desorden, la anarquia, la irresponsabilidad de los que manejan automotores; queremos una eoordinaciôn racional, bien estudiada, observando todos los antecedentes que yo presento a la consideration del Senado.
-
-Nadie puede ser cnemigo de la eoordinaciôn. i Cômo habria de serlo ! Eso significaria una torpeza. Somos enemigos de una ley que otorgue privilegios a los capitales extranjeros perjudicando a los intereses nationales... Esa es mi verdadera posiciôn en el Senado y asi lo lie expresado a los sonores miembros de la eomisiôn.
-
-Pli informe de la eomisiôn quiere dar seguridad, ademâs, a las posibles vîctimas de acciden¬ tes, y argumenta con la irresponsabilidad de los uuenos de colectivos. «Cuando un accidente ha sido provoeado por un «colectivo» dice, las vîc¬ timas se cncuentran generalmcnte en presencia de personas insolventes y que no pueden abonar ninguna indemnizaciôn por los danos que les ban causado».
-
-La mayorîa de la eomisiôn no puede ignorar que la responsabilidad de los «colectivos» puede cimentarse con solo obligarlos a asegurar sus coches contra riesgos propios y de terceros, en cualquiera de las grandes companîas de seguros que bay en nuestro paîs. Con ese razonamiento podrîa prohibirse el trânsito de automôviles particulares, que no son mas solventes que los duenos de colectivos. Y en realidad no debîa' ser permitido por la Municipalidad el trânsito de ningûn vehîculo que no estuviera asegurado contra, toda clase de riesgo. jPero nada tiene
-
+1)) Pondos para dar una ganancia del 7 °/o
+a los capitales
+que
+se empleen
+en
+ex-
+propiar
+las
+empresas
+y
+veMculos
+de
+omnibus y colectivos;
+c) Pondos
+para cubrir las difereneias de
+cambios
+que
+se produzcan
+en la remi-
+sion
+a Inglaterra de los intereses;
+cl) Pondos para amortization de
+esos
+ca¬
+pitales
+cuyo
+monto ni
+cuyo valor
+nu-
+mérico
+se limitan ;
+e) Pondos para renovar el material que no
+se limitan ;
+f) Pondos de réserva, euyo objetivo, mon¬
+to y uso se ignora ;
+g) Pondos para abonar el 7 %
+a los capi¬
+tales que
+se le reconozca gratuitamente
+al gobierno yr a la municipalidad a cam-
+bio de la cancelation de las deudas que
+las
+companîas
+tranviarias
+tienen
+eon
+ellos
+o
+con
+sus reparticiones.
+Y
+todo
+eso
+deberâ
+salir
+del
+exhausto
+habi¬
+tante porteüo, del
+empleado nacional,
+del
+pe-
+queno eomerciante, del estudiante, del trabaja-
+dor. Y todo eso se concede a cambio de nada...
+i, Cômo podrâ establecerse y asegurarse que van
+a fijarse tarifas razonables y justas? O los tér-
+minos «razonables y justas» ya ban comenzado
+a tener la signification que tienen en las tarifas
+ferroviarias
+en
+que significan diserecionalidad
+de las empresas para fijarlas a su voluntad.
+No seguiré enumerando y detallando las easi
+infinitas eoncesiones que este proyeeto que tan¬
+ta parcialidad transunta, concede a las empresas
+de tranvîas, ni la forma en que se eoneeden pri-
+vilegios eontrarios
+a las conveniencias publicas.
+Pero debo destaear el earâcter de los argumen-
+tos que emplea el informe de la mayorîa para
+deeidir el ânimo de los seiiores legisladores y de
+la opinion publica en general. Se habla en el in¬
+forme del
+desorden y la
+velocidad
+del trâfieo
+que es una de las causas de las numerosas vîeti-
+mas y déjà sobreentender que la «eoordinaciôn»
+regularâ
+ese punto. Ante todo
+es preciso dècir
+que el numéro de vîctimas de accidentes de trâ-
+fico,
+es proporcionalmente inferior al de otras
+grandes eiudades: Londres, Paris, Berlin, Chi¬
+cago. Ademâs,
+ese es,
+en todo caso, asunto per¬
+tinente
+al régimen municipal y
+se arregla con
+una ordenanza rigurosa.
+Es claro que los adversarios de este proyec-to
+de ley no somos
+enemigos
+de la
+eoordinaciôn,
+eomo
+se ha querido sostener ;
+somos amigos de
+la eoordinaciôn,
+pero
+no del monopolio extran-
+jero. Queremos una reglamentaciôn séria,
+seve¬
+re, que impicla el desorden, la anarquia, la irres-
+ponsabilidad
+de los
+que manejan automotores;
+queremos
+una eoordinaciôn racional, bien estu-
+diada, observando todos los antecedentes que yo
+presento a la consideration del Senado.
+Nadie puede ser cnemigo de la eoordinaciôn.
+i Cômo
+habria de serlo !
+Eso significaria
+una
+torpeza. Somos enemigos de
+una ley que otor-
+gue privilegios
+a los capitales extranjeros per-
+judicando
+a los intereses nationales...
+Esa
+es
+mi verdadera posiciôn en el Senado y asi lo lie
+expresado a los sonores miembros de la eomisiôn.
+Pli informe de la eomisiôn quiere dar seguri-
+dad, ademâs, a las posibles vîctimas de acciden¬
+tes, y argumenta con la irresponsabilidad de los
+uuenos de colectivos.
+«Cuando
+un accidente ha
+sido provoeado por un «colectivo» dice, las vîc¬
+timas
+se cncuentran generalmcnte en presencia
+de personas insolventes y que no pueden abonar
+ninguna indemnizaciôn
+por
+los
+danos
+que les
+ban
+causado».
+La mayorîa de la eomisiôn no puede ignorar
+que la responsabilidad de los «colectivos» puede
+cimentarse
+con
+solo obligarlos
+a
+asegurar
+sus
+coches contra riesgos propios y de terceros, en
+cualquiera de las grandes companîas de seguros
+que bay en nuestro paîs. Con ese razonamiento
+podrîa
+prohibirse
+el
+trânsito
+de
+automôviles
+particulares, que no son mas solventes que los
+duenos
+de
+colectivos.
+Y
+en realidad
+no debîa'
+ser permitido por la Municipalidad el trânsito
+de ningûn vehîculo que no estuviera asegurado
+contra, toda
+clase
+de riesgo. jPero nada tiene
 que ver eso con este proyecto de ley?
-
-Para facilitaila comprensiôn de este anâlisis, que solo tiende a demostrar los graves peligros de adoptaisolueiones precipitadas, lie supuesto no saber mas que lo ha sido puest.o a disposition de la Comision Especial y he omitido todo exa¬ men de las cuentas y datos ofreeidos por las companîas interesadas, limitando el fundamento de mis objeciones a sugerencias y a comparaciones con los valores oficiales de empresas similares de otros
-
-paîses, como Canada.
-
-Pero bay otros informes anteriores a este proyecto de eoordinaciôn que no es posible dejar de considérai-. Detengâmonos un momento en laescudrinaciôn de esos capitales a quienes se nos pide saerifiquemos la libertad de comerciar, el progreso de los medios de traslaciôn y la eeonomîa particular de los ciudadanos portenos.
+Para facilitai- la comprensiôn de este anâlisis,
+que solo tiende a demostrar los graves peligros
+de adoptai- solueiones precipitadas, lie supuesto
+no saber mas que lo ha sido puest.o a disposition
+de la Comision Especial y he omitido todo exa¬
+men
+de
+las
+cuentas
+y datos ofreeidos
+por las
+companîas interesadas, limitando el fundamen-
+to de mis objeciones
+a sugerencias y
+a compa-
+raciones
+con
+los
+valores oficiales
+de empresas
+similares de otros paîses,
+como Canada.
+Pero bay otros informes anteriores a este pro-
+yecto de eoordinaciôn que
+no
+es posible dejar
+de considérai-. Detengâmonos un momento en la-
+escudrinaciôn de
+esos capitales a quienes se nos
+pide saerifiquemos la libertad de comerciar, el
+progreso de los medios de traslaciôn y la eeo-
+nomîa particular
+de los ciudadanos
+portenos.
 ```
 
 ## Images, Captions, And Visual Notes
@@ -1474,7 +2411,7 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/manifest.json`
 - Source page: 719
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/page-images/page-0719.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -1486,53 +2423,278 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-El monopolio privado es prohibido por nuestras leyes, y es también contrario al sentimiento nacional. No queda, entonees, sino la eoordinaciôn de los transportes por la via de la coordinàeiôn de intereses de las empresas que realizan esos servicios, o que podrian realizarlos en el futuro.
-
-Eso es lo que se busca con esta ley, creando una nueva entidad, a la que se eoneeden los servicios actuales y los futuros, acordândole personeria juridica, sometiendo las concesiones a una sola jurisdiceiôn y eolocando por sobre la administraciôn de la nueva entidad, un con¬ trol oficial permanente en su triple aspecto,
-
+de 1936
+CAMARA DE SENADORES DE LA NACION
+1311
+El monopolio privado
+es prohibido por nues-
+tras leyes, y es también contrario al sentimien-
+to nacional. No queda, entonees, sino la eoor-
+dinaciôn
+de
+los transportes por la via de la
+coordinàeiôn
+de intereses de las empresas que
+realizan
+esos servicios,
+o que podrian realizar-
+los
+en el futuro.
+Eso
+es lo que se busca con esta ley, creando
+una
+nueva entidad,
+a la
+que
+se
+eoneeden los
+servicios
+actuales
+y
+los futuros,
+acordândole
+personeria juridica, sometiendo las concesiones
+a una sola jurisdiceiôn y eolocando por sobre
+la administraciôn de la nueva entidad, un con¬
+trol oficial permanente
+en
+su triple
+aspecto,
 financiero, técnico y legal.
-
-La mayoria de la comisiôn ha explicado detalladamente la estructura y la economîa gene¬ ral de la nueva ley. Es conveniente decir que el despaeho de la mayoria, o sea la saneiôn venida de la Câmara de Diputados, sigue en sus lineas generales el camino adoptado en algunos paises extranjeros, para llegar a soluciones de esta clase. Es anâloga a la ley de transportes de Londres, de Méjico y de algunas ciudades imericanas. Es mas similar todavia, al infor¬ me y dictamen presentado por la Comisiôn Especial de Estudios de Transporte Colectivo instituida por la Municipalidad de Buenos Ai¬ res en enero de 1933 y que fué presidida por el doctor Roberto M. Ortiz, actual ministro de Hacienda de la Naeiôn.
-
-Si se tratara de definirla con un concepto sintético yo podria decir, senor présidente, que es una ley de responsabilidad y de confianza para el Poder Ejecutivo, que se caracteriza por la amplitud de atribuciones que se le delegan y cuyo éxito ha de depender, en gran parte, de la equidad y del acierto con que él aplique sus
-
-disposiciones.
-
-E'l informe de la mayoria ha explicado en que consiste la nueva ley. Necesito sin embargo referirme nuevamente a ella, siquiera sea en forma esquemâtiea, para poder expliear mejor mi disidencia
-
-parcial.
-
-Por el articulo 1°, apartado a), se autoriza al Poder Ejecutivo para organizar con persone¬ ria juridica la Corporaciôn de Transportes de la Ciudad de Buenos Aires, encargada de coordinar los actuales servicios y organizar tam¬ bién los servicios futuros que se reputen nece-
-
+La mayoria de la comisiôn ha explicado de-
+talladamente la estructura y la economîa gene¬
+ral
+de la nueva ley. Es conveniente decir que
+el despaeho de la mayoria, o sea la saneiôn ve-
+nida de la Câmara de Diputados, sigue en sus
+lineas generales el camino adoptado en algunos
+paises extranjeros, para llegar a soluciones de
+esta clase. Es anâloga a la ley de transportes
+de Londres, de Méjico y de algunas ciudades
+imericanas.
+Es
+mas similar todavia, al infor¬
+me
+y dictamen
+presentado
+por
+la
+Comisiôn
+Especial
+de Estudios de Transporte
+Colectivo
+instituida por la Municipalidad de Buenos Ai¬
+res
+en
+enero de 1933 y que fué presidida por
+el doctor Roberto M. Ortiz, actual ministro de
+Hacienda de la Naeiôn.
+Si
+se
+tratara
+de
+definirla
+con
+un
+concepto
+sintético yo podria decir,
+senor présidente,
+que
+es
+una ley
+de responsabilidad
+y
+de confianza
+para el Poder Ejecutivo, que
+se caracteriza por
+la amplitud
+de atribuciones
+que
+se le delegan
+y cuyo éxito ha
+de depender,
+en gran parte,
+de la equidad y del acierto
+con que él aplique
+sus disposiciones.
+E'l
+informe
+de
+la mayoria ha explicado
+en
+que consiste la nueva ley. Necesito sin embargo
+referirme
+nuevamente
+a
+ella,
+siquiera
+sea
+en
+forma esquemâtiea,
+para poder expliear mejor
+mi disidencia parcial.
+Por
+el
+articulo 1°, apartado a),
+se autoriza
+al Poder Ejecutivo para organizar con persone¬
+ria juridica la Corporaciôn de Transportes de
+la Ciudad
+de Buenos Aires,
+encargada de
+co-
+ordinar los actuales servicios y organizar tam¬
+bién los servicios futuros
+que se reputen nece-
 sarios.
-
-El Poder Ejecutivo, segûn el articulo 29, pro¬ cédera por intermedio de una comisiôn espe¬ cial que deberâ expedirse en un plazo de seis Bieses, presentando los estatutos y bases para organizar la nueva entidad y la Corporaciôn de Transportes segûn el articulo l9, inciso c) una vez constituida tendra, como he dicho, a su car¬ go la exclusividad de los servicios de trans¬ porte colectivo, actuales y futuros, salvo los casos en que se autorice el régimen autônomo que la misma ley détermina. '
-
-El régimen autônomo esta previsto en el apartado b), articiüo l9. En el apartado c) del mismo articulo se détermina ese régimen en el futuro. Corporaciôn,, de Transportes, una vez constituida, estarâ administrada por un directorio de acuerdo con el articulo l9, apartado f) y tanto ella como las empresas autônomas sujetas al nuevo régimen serân legalmente controladas, bajo un triple aspecto: administrative, fi¬ nanciero y técnico, por una comisiôn de control, segûn el apartado g) comisiôn a la que yo asigno facultades muehos mas amplias que las que le atribuye el senor senador por la Capital.
-
-Esa Comisiôn de Control esta constituida por très ciudadanos argentinos nativos, designados con acuerdo del Senado, lo que basta a dar una idea de la eficaeia y de la independencia con que habrâ de
-
-procéder.
-
-Sin perjuicio del control de esa comisiôn, la municipalidad lo ejerce en lo que se refiere a la higiene, seguridad, reglamentaciôn de
-
+El Poder Ejecutivo, segûn el articulo 29, pro¬
+cédera
+por intermedio
+de
+una
+comisiôn
+espe¬
+cial que deberâ expedirse
+en un plazo
+de seis
+Bieses,
+presentando los estatutos y bases para
+organizar la nueva entidad y la Corporaciôn de
+Transportes segûn el articulo l9, inciso c) una
+vez constituida tendra, como he dicho, a su car¬
+go la exclusividad
+de
+los
+servicios
+de
+trans¬
+porte
+colectivo,
+actuales
+y futuros,
+salvo
+los
+casos
+en
+que
+se autorice el régimen autônomo
+que la misma ley détermina.
+'
+El
+régimen
+autônomo
+esta previsto
+en
+el
+apartado b), articiüo l9. En el apartado c) del
+mismo
+articulo
+se
+détermina
+ese régimen
+en
+el futuro. Corporaciôn,, de Transportes, una vez
+constituida, estarâ administrada
+por un direc-
+torio de acuerdo
+con el articulo l9, apartado f)
+y tanto ella como las empresas autônomas suje-
+tas al nuevo régimen serân legalmente controla-
+das, bajo un triple aspecto: administrative, fi¬
+nanciero y técnico, por una comisiôn de control,
+segûn el apartado g) comisiôn a la que yo asigno
+facultades muehos
+mas amplias
+que las que le
+atribuye el senor senador por la Capital.
+Esa Comisiôn de Control esta constituida por
+très
+ciudadanos argentinos nativos, designados
+con acuerdo del Senado, lo que basta a dar una
+idea de la eficaeia y de la independencia con que
+habrâ de procéder.
+Sin perjuicio
+del
+control
+de
+esa
+comisiôn,
+la municipalidad lo ejerce
+en lo que
+se refiere
+a
+la
+higiene,
+seguridad,
+reglamentaciôn
+de
 trâfico, etcétera.
-
-La corporaciôn tiene la exclusividad de los servicios prestados por 56 anos, al cabo de los cuales todos sus bienes pasan a poder de la Naeiôn o de la municipalidad.
-
-No me referirê senor présidente a otras dis¬ posiciones del despaeho, que aluden a euestiones importantes, pero que no tienen vinculaciôn con el aspecto que en este momento vamos a discutir.
-
-La nueva entidad llamada Corporaciôn de Transportes de la Ciudad de Buenos Aires, se forma por la fusion «voluntaria» o «forzosa» de todas las empresas actuales, con la salvedad de aquellas a las que se reconoce un régimen autônomo.
-
-He dielio fusion voluntaria o forzosa, y 11ego asi a mi disidencia parcial con el despaeho de la comisiôn. La ley prevé, en très o euatro lugares dispersos, la situaciôn de las empresas que no quieran fusionarse ingresando a la cor¬
-
+La corporaciôn tiene la exclusividad
+de
+los
+servicios prestados por 56 anos, al cabo de los
+cuales
+todos
+sus
+bienes
+pasan
+a
+poder
+de la
+Naeiôn
+o de la municipalidad.
+No
+me referirê
+senor présidente
+a otras dis¬
+posiciones del despaeho, que aluden a euestiones
+importantes, pero que no tienen vinculaciôn con
+el aspecto que en este momento vamos a discutir.
+La
+nueva
+entidad
+llamada
+Corporaciôn de
+Transportes de la Ciudad de Buenos Aires,
+se
+forma
+por la fusion «voluntaria»
+o
+«forzosa»
+de todas las empresas actuales, con la salvedad
+de aquellas
+a las
+que
+se
+reconoce un régimen
+autônomo.
+He dielio fusion voluntaria
+o forzosa, y 11e-
+go asi
+a mi disidencia parcial
+con el despaeho
+de la comisiôn. La ley prevé, en très o euatro
+lugares dispersos, la situaciôn de las empresas
+que no quieran fusionarse ingresando a la cor¬
 poraciôn.
-
-Me voy a referir a esas disposiciones procurando destacar las de orden fundamental.
-
-El articulo l9, apartado b), pârrafo 49, dies textualmente : «El régimen autônomo se reconocerâ a aquellas empresas eoncesionarias que lo solieiten, siempre que sus concesiones sean anteriores al ano 1934 y que asi lo acuerde el Poder
-
-Ejecutivo»,
+Me voy
+a referir a
+esas disposiciones procu-
+rando
+destacar
+las
+de
+orden fundamental.
+El articulo l9, apartado b), pârrafo 49, dies
+textualmente : «El régimen autônomo
+se reco-
+nocerâ
+a aquellas empresas eoncesionarias que
+lo solieiten, siempre
+que
+sus concesiones sean
+anteriores al ano 1934 y que asi lo acuerde el
+Poder Ejecutivo»,
 ```
 
 ## Images, Captions, And Visual Notes
@@ -2389,7 +3551,7 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/manifest.json`
 - Source page: 728
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/page-images/page-0728.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -2402,58 +3564,278 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 
 ```markdown
 I
-
+'w
+1320
+CAMARA DE SENADORES DE LA NACION
+Septembre 29 y 30
 £
-
 i "»
-
 ■'h
-
-'w que el monopolio de 56 aüos no se le da a una eompailia privada, se le da a una empresa donde el Estado tiene parte. Efectivamente, el Estado tiene parte, y ya se sabe, senor prési¬
-
+que el monopolio de 56 aüos no se le da a una
+eompailia privada,
+se le
+da a una
+empresa
+donde el Estado tiene parte. Efectivamente, el
+Estado tiene parte, y ya se sabe, senor prési¬
 dente, cômo tiene parte el Estado.
-
+A la municipalidad y a la Naciôn se le han
+reconocido capitales
+que
+no aportan, capita¬
+les irreales,
+capitales
+que
+surgen eomo
+un
+juego malabar, de la creaciôn teôrica de un
+capital
+que corresponde
+a impuestos futuros
+que se obliga a no cobrar. Ese es el capital del
 Estado y por cso no es un monopolio.
-
-A la municipalidad y a la Naciôn se le han reconocido capitales que no aportan, capita¬ les irreales, capitales que surgen eomo un juego malabar, de la creaciôn teôrica de un capital que corresponde a impuestos futuros que se obliga a no cobrar. Ese es el capital del
-
-También se dice en forma de cargo que los automotores se superponen a las lineas de tranvias, dando a entender &lt;iue hay en ello eulpa de la municipalidad y competencia ilc-
-
+También
+se dice
+en forma de cargo que los
+automotores
+se
+superponen
+a
+las
+lineas de
+tranvias, dando
+a entender
+<iue hay en
+ello
+eulpa
+de la municipalidad y competencia ilc-
 gîtima.
-
-que pudieran descubrirse.
-
-Yo no ereo que sea asi, senor présidente. Se trata de sistemas distintos, y cuando la mu¬ nicipalidad dio las concesiones de tranvîa, fueran a sangre o eléctricos, no se inbibiô pa¬ ra acordar otras concesiones a medios de locomociôn
-
-Se aeordô la coneesiôn, por ejemplo, del tranvîa a Belgrano, a sangre, por la calle Santa Fe. Los pasajeros salian de plaza Ma¬ yo por la maiiana y llegaban a la calle Cabildo a la noche. (Risas). Fué después electrificado y, aun asi, el recorrido creo que se realiza en 50 minutos; pero un colectivo que va por la misma calle, hace el mismo recorrido en 15 6 20 minutos; es évidente que no es la misma cosa, y la municipalidad no lia procedido de mala fe al acordar el permiso precario al nuevo sistema de loeomociôn, distinto del anterior y mucho mas conveniente para el pu¬
-
+Yo
+no
+ereo que sea asi, senor présidente. Se
+trata
+de sistemas distintos, y cuando la
+mu¬
+nicipalidad
+dio
+las
+concesiones
+de
+tranvîa,
+fueran
+a sangre
+o eléctricos, no se inbibiô pa¬
+ra acordar otras concesiones a medios de loco-
+mociôn que pudieran descubrirse.
+Se aeordô la
+coneesiôn,
+por
+ejemplo,
+del
+tranvîa
+a Belgrano,
+a
+sangre,
+por la
+calle
+Santa Fe. Los pasajeros salian de plaza Ma¬
+yo por la maiiana y llegaban a la calle Cabil-
+do
+a
+la noche.
+(Risas). Fué después electrifi-
+cado y, aun asi, el recorrido creo que se reali-
+za
+en
+50 minutos;
+pero
+un colectivo
+que va
+por la misma calle, hace el mismo recorrido
+en
+15 6 20 minutos;
+es évidente que
+no
+es la
+misma cosa, y la municipalidad no lia procedi-
+do de mala fe al acordar el permiso precario
+al
+nuevo sistema
+de loeomociôn, distinto del
+anterior y mucho mas conveniente para el pu¬
 blico.
-
-Se quiere que se prescinda del progresô técnieo, que se prescinda del adelanto que todas las naciones aproveclian inmediatamente de producido, por el beebo de que se otorgarou concesiones anteriores de otra clase. Eso no es
-
-posible, no es admisible.
-
-Y eso que ocurre aqui no es una novedad; ha ocurrido en casi todas las grandes eiudades del mundo y se ha resuelto con el levantamiento de las vias de tranvias.
-
-Los senores senadores pueden ir a Paris a buscar tranvias y no los eneontrarân ni con linterna; en Londres, los verân en los suburbios.
-
-En una de las publicaciones en uno u otro sentido, que bemos recibido individualmente, en una que estudia una coordinaciôn de tranportes automotores y de supresion paulatina de los tranvias, esta incluido un recorte del diario «La Naciôn», de 1934, referente a estos temas, que dice asi: «L'Eclaireur» de Niza, Francia, dice: «Se sabe que dentro de pocas semanas un buen numéro de lineas de tranvias de la ciudad, serân suprimidos y substituidos por lineas de omnibus. Asi quedarân liberados de estos antiguos vebiculos, los bulevares Mac Mabon», etcetera; y agrega «La Naciôn»: «En Niza, como se ve, el tranvîa eléctrieo esta ya dentro de la categoria de vehiculo antiguo». (Ju¬ lio 15 de 1934.)
-
-Y en otro recorte, bajo el titulo de «Las lineas ferroviarias y tranviarias son anaerônicas», dice: «En- la memoria de 1933 del Consejo de Administraciôn de la Soeiedad Veneciana de Tranvias y Ferroearriles Secundarios, una de las mâs importantes de Italia, se dijo: «En cuanto a las lineas tranviarias o ferrovia¬ rias, que no tienen mâs razôn de existir por la natural desviaciôn de la corriente de trâfico o por haber sido superadas por otros me¬ dios de transporte frente a los cuales aparecen anacrpnicas y en algunos casos earentes de finalidad, no queda mâs que suprimirlas como ramas secas, no solamente por inutiles, sino también por daiiosas a la economia de la Na¬ ciôn
-
-y de la soeiedad al mismo tiempo».
-
-La misma memoria déclara que «la red ferrotranviaria, regida por la soeiedad, lia sufrido en 1933 una nueva reducciôn de trâfico, no compensada por la reducciôn de gastos». (Ju¬ lio 22 de 1934).
-
-Enfonces, si por imposiciôn de los beebos, los tranvias ban dejado de dar dividendes y no pueden cumplir con sus demâs obligaciones, no es admisible, salvo en este pais, donde floreee como en ningun otro el monopolio, dé¬ claraique el gobierno esta obligado a adquirir las empresas insolventes o a crearles situaciones en las one se les aseguren dividendes permanentes.
-
-Yo pienso todo lo contrario; pienso que si los tranvias ban llegado a ser, por imposiciôn de los beebos, un medio de transporte pasado de moda y no pueden resistir a la competen¬ cia de medios mâs modernos, no bay el derecho de imponer sacrificios al pûblico ni restriccio* nes odiosas a la libertad de trabajo, para mantenerles una situaciôn financiera que ban perdido
-
-por la obra de factores permanentes.
-
-Es estupendo, realmente, que el gobierno se créa obligado a restaurar el valor de aeciones que ya no tienen cotizaciôn, y de capi¬ tales que ban mermado en una proporciôn enorme.
-
-El proyecto dispone que el capital se foi'*
+Se quiere que se prescinda del progresô téc-
+nieo, que
+se prescinda del adelanto que todas
+las
+naciones
+aproveclian
+inmediatamente
+de
+producido, por el beebo de que
+se otorgarou
+concesiones
+anteriores
+de
+otra
+clase.
+Eso
+no
+es posible, no es admisible.
+Y
+eso que ocurre aqui no
+es una novedad;
+ha
+ocurrido
+en casi todas las grandes eiuda-
+des del mundo y se ha resuelto con el levan-
+tamiento de las vias de tranvias.
+Los
+senores senadores pueden ir
+a Paris
+a
+buscar tranvias y
+no los eneontrarân ni
+con
+linterna;
+en Londres, los verân en los subur-
+bios.
+En
+una de las publicaciones en uno u otro
+sentido,
+que
+bemos recibido individualmente,
+en una que estudia una coordinaciôn de tran-
+portes automotores y de supresion paulatina
+de
+los tranvias,
+esta incluido
+un recorte del
+diario
+«La Naciôn», de 1934, referente
+a
+es-
+tos temas, que dice asi: «L’Eclaireur» de Niza,
+Francia, dice:
+«Se sabe
+que dentro de pocas
+semanas un buen numéro de lineas de tranvias
+de la ciudad, serân suprimidos y substituidos
+por lineas de omnibus. Asi quedarân liberados
+de
+estos antiguos vebiculos, los bulevares Mac
+Mabon», etcetera; y agrega «La Naciôn»: «En
+Niza,
+como
+se ve, el tranvîa eléctrieo esta ya
+dentro de la categoria de vehiculo antiguo». (Ju¬
+lio 15 de 1934.)
+Y
+en
+otro
+recorte, bajo
+el titulo
+de
+«Las
+lineas
+ferroviarias
+y tranviarias
+son
+anaerô-
+nicas», dice: «En- la memoria de 1933 del Con-
+sejo de Administraciôn de la Soeiedad Vene-
+ciana de Tranvias y Ferroearriles Secundarios,
+una de las mâs importantes de Italia, se dijo:
+«En cuanto
+a las lineas tranviarias
+o ferrovia¬
+rias,
+que
+no tienen mâs razôn de existir por
+la natural desviaciôn
+de la corriente de trâ-
+fico
+o por haber sido superadas por otros me¬
+dios de transporte frente a los cuales aparecen
+anacrpnicas
+y
+en
+algunos
+casos
+earentes
+de
+finalidad, no queda mâs que suprimirlas como
+ramas
+secas,
+no
+solamente
+por inutiles,
+sino
+también por daiiosas a la economia de la Na¬
+ciôn y de la soeiedad al mismo tiempo».
+La misma memoria déclara que «la red ferro-
+tranviaria, regida por la soeiedad, lia sufrido
+en
+1933
+una
+nueva reducciôn
+de
+trâfico,
+no
+compensada por la reducciôn de gastos». (Ju¬
+lio 22 de 1934).
+Enfonces,
+si
+por imposiciôn
+de los beebos,
+los tranvias ban dejado de dar dividendes y
+no pueden cumplir
+con
+sus demâs obligacio-
+nes, no
+es admisible, salvo en este pais, donde
+floreee
+como
+en ningun otro el monopolio, dé¬
+clarai-
+que el gobierno esta obligado
+a adqui-
+rir las empresas insolventes o a crearles situa-
+ciones
+en las
+one
+se les aseguren dividendes
+permanentes.
+Yo pienso todo lo contrario; pienso
+que si
+los tranvias ban llegado a ser, por imposiciôn
+de los beebos, un medio de transporte pasado
+de moda y no pueden resistir a la competen¬
+cia de medios mâs modernos, no bay el derecho
+de imponer sacrificios al pûblico ni restriccio*
+nes odiosas a la libertad de trabajo, para man-
+tenerles una situaciôn financiera que ban per-
+dido por la obra de factores permanentes.
+Es
+estupendo,
+realmente,
+que
+el
+gobierno
+se
+créa obligado
+a restaurar el valor de ae-
+ciones
+que ya no tienen cotizaciôn, y de capi¬
+tales
+que
+ban mermado
+en
+una proporciôn
+enorme.
+El proyecto dispone
+que el capital
+se foi'*
 ```
 
 ## Images, Captions, And Visual Notes

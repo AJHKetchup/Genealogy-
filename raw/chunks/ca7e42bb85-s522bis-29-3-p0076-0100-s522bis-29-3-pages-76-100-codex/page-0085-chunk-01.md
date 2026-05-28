@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-ce41262ffb14-P0085-01
+chunk_id: CHUNK-ab3bb4a37910-P0085-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100.codex.md
-converted_sha256: ce41262ffb14eb1425584f79293e4c2ce0fb4ab2b849846bb7e81100da1e52f0
+converted_sha256: ab3bb4a37910cedaa7796635791766e1749f6853fe27c4549de208eb22ba0945
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/manifest.json
@@ -18,7 +18,7 @@ part: 1
 - Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/manifest.json`
 - Source page: 85
 - Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/page-images/page-0085.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -30,27 +30,211 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-impugnaciôn del anexo del culto no era oportuna.
-
-El senor diputado Justo, decîa, por su parte: 'Pedimos, lo pido como représentante del pue¬ blo y del partido soeialista, la reduceiôn del presupuesto de eulto a una suma înfima, ûnica, que signifique siûiplemente el acatamiento pro forma al precepto eonstitucional'. Y el senor diputado Demarîa contestaba a un discurso del senor diputado Diekmann en que éste decîa: 'si combatimos el presupuesto de culto no es porque seamos enemigos, en el fondo, del espîritu religioso; somos fundamentalmente respetuosos de todas las creeneias cuando sou atemperadas y sincéras'; los invitaba a reflexionar sobre el hecho de que no es posible desdenar los precept,os eonstitucional es y de que si los dipu¬ tados socialistas presentaban esa. cuestiôn a la câniara y querîan violaila constituciôn, ellos serîan maüana los directamente per.judic.ados. Pero es el caso, senor présidente, que aun cuan¬ do la constituciôn no lo estableciera en el artîculo 2o. el origen de ese presupuesto de culto, no podrîa apareeer el estado dejando de pagar lo que es una deuda a la iglesia catôlica. El ori¬ gen de ese presupuesto de culto radiea en una ley del aüo 22. No es una limosna, no es una dâdiva que cl estado hace a la iglesia. Los bienes de que se incautô el estado por esa ley redituan en la actualidad très millones de pesos, y la iglesia apenas recibe, por el presupuesto, una tercera parte de esos réditos. Asî lo reconocîa en la convenciôn constituyente de Buenos Ai¬ res, el auo 73, uno de los diputados représentan¬ te de la idea liberal, al proponer una emnienda a esa constituciôn, sobre la libertad de eultos.
-
-Decîa el senor conveneioilal Cambacérès : 'Por la ley del auo 22 se quitaron a la iglesia propiedades, bienes muebles e inmuebles, y entonces, en virtud de ese perjuieio real que le irrogaba, el estado contrajo el compromiso de costear el culto, compromiso que fué respetado por la naciôn y que eXpliea el origen de ese artîeulo en la Constituciôn naeional'.
-
-El presupuesto île culto, por otra parte, es insignificante. El senor diputado por Côrdoba doctor Bas, contestando ayer el discurso del se¬ nor diputado por la Capital, doctor Justo, de¬ cîa que ese presupuesto apenas al eau/a a gravitar en una înfima suma sobre cada habitante de la naciôn. Y el senor diputado Bravo en una conferencia ptiblica, en enero de 1918, decîa, con la ecuanimidad que le es habituai, que ese pre¬ supuesto 'era una insignifieancia'.
-
-i Por lo que hace a los subsidios para el eul¬ to, apenas alcanzan a là suma de 103.000 pesos, que distribuîdos en 171 templos, corresponde a
-
+CAMARA DE D1FUTAD09
+%ë 1921
+impugnaciôn del anexo del culto no era opor-
+tuna.
+El senor diputado Justo, decîa, por su parte:
+“Pedimos, lo pido como représentante del pue¬
+blo y del partido soeialista, la reduceiôn del
+presupuesto de eulto a una suma înfima, ûnica,
+que signifique siûiplemente el acatamiento pro
+forma
+al precepto eonstitucional”. Y el senor
+diputado Demarîa contestaba a un discurso del
+senor diputado Diekmann
+en
+que éste decîa:
+“si combatimos el presupuesto de culto no es
+porque seamos enemigos, en el fondo, del espî-
+ritu religioso;
+somos fundamentalmente respe-
+tuosos de todas las creeneias cuando sou atem-
+peradas y sincéras”; los invitaba a reflexionar
+sobre el hecho de que no es posible desdenar los
+precept,os eonstitucional es y de que si los dipu¬
+tados socialistas presentaban
+esa. cuestiôn
+a la
+câniara y querîan violai- la constituciôn, ellos
+serîan
+maüana
+los directamente
+per.judic.ados.
+Pero es el caso, senor présidente, que aun cuan¬
+do la constituciôn
+no lo estableciera en el
+ar-
+tîculo 2o. el origen de ese presupuesto de culto,
+no podrîa apareeer el estado dejando de pagar
+lo que es una deuda a la iglesia catôlica. El ori¬
+gen de ese presupuesto de culto radiea en una
+ley del aüo 22. No
+es una limosna, no es una
+dâdiva que cl estado hace a la iglesia. Los bie-
+nes de que se incautô el estado por esa ley redi-
+tuan
+en la actualidad très millones de pesos, y
+la iglesia apenas recibe, por el presupuesto, una
+tercera parte de esos réditos. Asî lo reconocîa
+en la convenciôn constituyente de Buenos Ai¬
+res, el auo 73, uno de los diputados représentan¬
+te de la idea liberal, al proponer una emnienda
+a
+esa constituciôn, sobre la libertad de eultos.
+Decîa el senor conveneioilal Cambacérès : “Por
+la ley del auo 22 se quitaron a la iglesia pro-
+piedades, bienes muebles e inmuebles, y enton-
+ces, en virtud de ese perjuieio real que le irroga-
+ba, el estado contrajo el compromiso de costear
+el culto, compromiso que fué respetado por la
+naciôn y que eXpliea el origen de ese artîeulo
+en la Constituciôn naeional”.
+El presupuesto île culto, por otra parte,
+es
+insignificante. El senor diputado por Côrdoba
+doctor Bas, contestando ayer el discurso del se¬
+nor diputado por la Capital, doctor Justo, de¬
+cîa que ese presupuesto apenas al eau/a a gravi-
+tar en una înfima suma sobre cada habitante de
+la naciôn. Y el senor diputado Bravo
+en una
+conferencia ptiblica, en enero de 1918, decîa, con
+la ecuanimidad que le es habituai, que ese pre¬
+supuesto “era una insignifieancia”.
+i Por lo que hace a los subsidios para el eul¬
+to, apenas alcanzan a là suma de 103.000 pesos,
+que distribuîdos en 171 templos, corresponde a
 menas de 50 pesos a cada uno !
-
-Quiero llàcer présente que en este caso no vengo a defender el presupuesto del culto, porqhé la igiesld Catôlica neeesite de ese presupues- to para existir. Es un grave error. Cuando se dicté la ley de separaciôn de la iglesia y el es¬ tado en Francia, uno de los espîritus liberales que mâs se han ocupado de estos asuntos, Gus¬ tavo Le Pon, decîa en su obrà 'La psicologîa polîtiea', refiriéndose a ese acto de gobiemo, algo que séria perfeetamente aplicable si ocurriera el mismo caso en la Republiea Argentina : 'Ha sido una eeguera excesiva votar esta ley; de la separaciôn, cuyo verdadero objeto era despojar al clero de modestos sueldos que le hacîan vivir y cuyo resultado sera distinto. Ninguna medida podîa ser mâs peligrosa para la Repûbliea. El clero ha hecho mal de quejarse, por¬ que ella le darâ una libertad y le darâ un poder que el mâs catôlieo de nuestros reyes no hübiera jamas tolerado. j Puédese imaginar medida tan inoportuna como substraer el clero a la autoridad secular, dejar al Papa nombrar los obispos, elegidos antes por el gobierno, que los tëhîa en sus manos gracias a esta elecciôn y al sueldo que les pasaba?'
-
-Y con Gustavo Le Pon coincide el vizconde de Avenell en un artîeulo publicado en la revista 'Deux Mondes' en el mes de agosto de 1921, en que estudia los resultados de la ley de sepa¬ raciôn de la iglesia y el estado en Francia. La iglesia vive en la libertad!
-
-Pero los senores diputados que ban impugnaclo este anexo del presupuesto del eulto, han ido mâs alla y han manifestado que la iglesia catéliea es encmiga del obrero; han dicho que el clero es un elemento de atraso, para no repetir otros eonceptos injustos y agraviantes coti que se le ha califieado. Quiero hacerme cargo ligeramente de esos argumentes sin ânimo de hacer cuestiôn religiosa porque no es esta la oportunidad ni esta preparado para ello el ambiente de la câmara.
-
-La iglesia, senor présidente, no es enemiga del obrero. Como habrîa de serlo, senores diputa¬ dos, si fué fundada precisamente por aquel Divino obrero de Nazareth Cristo Jésus!, quien hablô mâs alto que ella contra todas las miseriæi y contra todos los abusos! Cuando el senor di¬ putado Gonzalez Iramain en su discurso de ayeî recordaba la anécdota de San Francisco Solano, oeurrida alla en la poética provincia de La Rio¬ ja, de la eu al él ha heredado con la simpatîa del aeento la clara inteligencia, como su cielo, cuando recordaba esa anécdota, en que San Francisco Solano invitado a almorzar, al servîi"sele un manjar y notar en esa bandeja una mancha de sangre, se leVantaba indignado \_di-ciendo ciue él no podîa asistir a una comida manchada con sangre de los eselavos, el senor diputado Gonzalez Iramain reconocîa y hacîa la apologia de ese santo y hacîa la apologia de la iglesia catôlica en sus relaeiones con el obre¬ ro.
-
-' Sr. Gonzalez Iramain. - Si me pernnte.. .y.
+Quiero llàcer présente que en este caso no
+vengo a defender el presupuesto del culto, por-
+qhé la igiesld Catôlica neeesite de ese presupues-
+/*m
+to para existir. Es un grave error. Cuando se
+dicté la ley de separaciôn de la iglesia y el es¬
+tado
+en Francia, uno de los espîritus liberales
+que mâs se han ocupado de estos asuntos, Gus¬
+tavo Le Pon, decîa en
+su obrà “La psicologîa
+polîtiea”, refiriéndose
+a
+ese
+acto
+de gobiemo,
+algo
+que séria perfeetamente aplicable si
+ocu-
+rriera el mismo caso en la Republiea Argentina :
+“Ha sido
+una
+eeguera excesiva votar esta ley;
+de la separaciôn, cuyo verdadero objeto era des-
+pojar al clero de modestos sueldos que le hacîan
+vivir y
+cuyo resultado
+sera distinto. Ninguna
+medida podîa ser mâs peligrosa para la Repû-
+bliea. El clero ha hecho mal de quejarse,
+por¬
+que ella le darâ una libertad y le darâ un poder
+que el mâs catôlieo de nuestros reyes no hübie-
+ra jamas tolerado.
+j Puédese imaginar medida
+tan inoportuna como substraer el clero
+a la au-
+toridad secular, dejar al Papa nombrar los obis-
+pos, elegidos antes por el gobierno, que los tëhîa
+en sus manos gracias a esta elecciôn y al sueldo
+que les pasaba?”
+Y con Gustavo Le Pon coincide el vizconde de
+Avenell
+en
+un artîeulo publicado
+en la revista
+“Deux Mondes”
+en el
+mes de agosto de 1921,
+en que estudia los resultados de la ley de sepa¬
+raciôn de la iglesia y el estado en Francia. La
+iglesia vive en la libertad!
+Pero
+los
+senores diputados
+que ban impug-
+naclo este anexo del presupuesto del eulto, han
+ido mâs alla y han manifestado que la iglesia
+catéliea
+es encmiga del obrero; han dicho que
+el clero
+es un elemento de atraso, para no re-
+petir otros eonceptos injustos y agraviantes coti
+que
+se le ha califieado. Quiero hacerme
+cargo
+ligeramente
+de
+esos
+argumentes sin
+ânimo
+de
+hacer cuestiôn religiosa
+porque
+no
+es
+esta la
+oportunidad ni esta preparado para ello el
+am-
+biente de la câmara.
+La iglesia, senor présidente, no es enemiga del
+obrero.
+Como habrîa
+de serlo,
+senores diputa¬
+dos, si fué fundada precisamente por aquel Di-
+vino obrero de Nazareth Cristo Jésus!, quien ha-
+blô mâs alto que ella contra todas las miseriæi
+y contra todos los abusos! Cuando el senor di¬
+putado Gonzalez Iramain en su discurso de ayeî
+recordaba la anécdota de San Francisco Solano,
+oeurrida alla en la poética provincia de La Rio¬
+ja,
+de la
+eu al él ha heredado con la simpatîa
+del aeento la clara inteligencia,
+como su cielo,
+cuando
+recordaba
+esa anécdota,
+en
+que
+San
+Francisco Solano invitado
+a almorzar, al servîi"-
+sele
+un manjar
+y notar
+en
+esa bandeja
+una
+mancha
+de sangre,
+se leVantaba indignado _di-
+ciendo
+ciue
+él
+no podîa asistir
+a
+una comida
+manchada
+con sangre de los eselavos, el senor
+diputado Gonzalez Iramain reconocîa y hacîa
+la apologia de ese santo y hacîa la apologia de
+la iglesia catôlica en sus relaeiones con el obre¬
+ro.
+„
+Sr. Gonzalez Iramain.
+— Si me pernnte.. .y.
 ```
 
 ## Images, Captions, And Visual Notes

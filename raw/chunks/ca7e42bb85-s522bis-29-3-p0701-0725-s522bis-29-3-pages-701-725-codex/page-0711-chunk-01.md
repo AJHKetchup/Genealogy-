@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-842d7ac5d85f-P0711-01
+chunk_id: CHUNK-2179f2616632-P0711-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725.codex.md
-converted_sha256: 842d7ac5d85fd14b857e6cd5874fd5f7bfb5e5ef47e20ba7de490a8839fa6eb4
+converted_sha256: 2179f26166320a6a0d6d327e14e68425e60c5c2ebf1e1d99b3673bffca543e4f
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725/manifest.json
@@ -18,7 +18,7 @@ part: 1
 - Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725/manifest.json`
 - Source page: 711
 - Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725/page-images/page-0711.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -30,32 +30,97 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-De même, réduire le coût du transport rapide des journaux équivaut à combattre les fausses nouvelles, notamment dans le domaine international, car le transport du journal n'est qu'une autre forme de la transmission des nouvelles. Mettre le public en mesure de lire ce que les journaux étrangers, aussi bien que les journaux nationaux, disent au sujet d'une question internationale, c'est placer à sa disposition un correctif très utile. Plus le public pourra lire de journaux étrangers parus le même jour que les journaux nationaux, plus ce correctif sera précieux. Il faut donc en arriver à réduire le tarif aéropostal appliqué aux journaux et, pour les pays éloignés avec lesquels il n'existe pas encore de service de trans¬ ports aériens, à réduire les tarifs ordinaires qui, à l'heure actuelle, sont si élevés qu'ils empêchent même les ressortissants d'un pays d'acheter, en voyage, leurs journaux nationaux, quand ils peuvent les trouver. L'aviation s'est considérablement développée grâce à l'appui financier que les gouvernements se sont empressés de lui accorder pour des fins belliqueuses. On pourrait tout aussi bien lui donner cet encouragement pour des fins pacifiques en faisant assumer par les gouverne¬ ments, sous forme d'une sensible réduction des tarifs de la poste aérienne appliqués à la presse, une partie bien plus considé¬ rable encore de la charge que constitue le transport aérien des journaux, périodiques et livres. Le développement d'un service aéropostal régulier de grande envergure aurait encore un autre avantage. Le journal pourrait, par la voie aérienne, recevoir en plus grand nombre les nouvelles qui doivent actuellement être transmises par la voie électrique, ce qui contribuerait encore à diminuer les frais de transmission des informations.
-
-De plus, une réduction sensible, quant au point 3, est de l'intérêt général, car rendre moins onéreux les voyages du journaliste encouragera le journal qui doit subvenir à ses dépenses, à envoyer sur place un témoin oculaire expérimenté Si à cette réduction s'ajoute celle des frais delà transmission électrique des nouvelles au journal, l'encouragement sera plus grand. Cela est évident, car seul le journal qui cherche dans ses informations à serrer la vérité d'aussi près que possible en envoyant sur place un témoin oculaire peut bénéficier de ces économies. Les mêmes arguments militent en faveur de l'abolition de tous les droits mentionnés au
-
-point 4.
-
-Au surplus, tous ces points se prêtent particulièrement à une action générale par l'intermédiaire de la Société des Nations, comme du reste le point 6 également, au sujet duquel on pourrait conclure une convention, utile à maints égards, qui instituerait le libre-échange pour le papier de journal, l'encre et les machines à imprimer les journaux. Toutefois, ces points laissent toute liberté à une action nationale, à des accords bilatéraux ou régionaux séparés qui précéderaient, accompagneraient ou suivraient l'action universelle. C'est ainsi qu'un pays désireux d'améliorer la qualité et d'augmenter la quantité de ses informations en provenance d'une certaine nation pourrait accorder un tarif de transmission spéciale¬ ment réduit pour les télégrammes de presse qui lui parviennent directement de ladite nation. On peut également concevoir que deux pays ayant la même langue s'entendent pour faciliter tout particulièrement l'échange des journaux entre leurs deux territoires. De même, on peut imaginer l'élaboration d'un système de réduction paneuropéen, panaméricain ou panasiatique.
-
-La station radioélectrique de la Société des Nations offre un nouveau moyen de transmission. Genève est un centre d'information sur toutes sortes de questions internationales. C'est un centre unique en tant que chambre de compensation des statistiques périodiques comparées, relatives à la situation mondiale du commerce, des finances, de l'industrie, du travail, de l'hygiène, des questions sociales, des armements, etc. De plus en plus, toutes les discussions internationales importantes se déroulent à Genève. Pour rendre compte intelligiblement de ces statistiques et équitable¬ ment de ces discussions, il faut employer un nombre de mots que la plupart des journaux, notamment ceux des pays lointains, ne sont pas à l'heure actuelle en mesure de payer. On pourrait très utilement combattre les fausses nouvelles au sujet des affaires internationales si les Etats membres de la Société convenaient de permettre que les télégrammes de presse ayant trait à des informations relatives à la Société des Nations fussent transmis partout par la station radio¬ électrique de la Société à un tarif exceptionnellement réduit. La question de contrôle n'est pas un obstacle insurmontable. Lorsque le Conseil s'est réuni à Madrid en 1929, notre association a instamment demandé que les télégrammes de ses membres contenant uniquement des informations de la Société ne fussent pas soumis à la censure alors appliquée par l'Espagne aux informations espagnoles, et le Gouvernement espagnol y a consenti à condition que nos membres promettent de ne pas mêler les nouvelles espagnoles à celles de la Société. Cet arrangement a été si satisfaisant qu'il n'y a eu de
-
-part et d'autre aucune plainte.
-
-Les remarques qui précèdent indiquent qu'en abordant ainsi le problème des fausses nouvelles, on pénètre dans un domaine riche en possibilités et digne d'être exploré. Toutefois, l'application d'un tarif réduit de presse, pour ce qui est des points 1, 2, 3 et 4 que nous venons de discuter nous paraît d'une sagesse si évidente qu'à notre avis, les études auxquelles pourra donner lieu l'ensemble de nos propositions ne devraient pas retarder les mesures à prendre à cet égard. On pourrait, selon nous, entreprendre assez rapidement une action pratique quant aux plus simples de ces suggestions. Dans cet ordre d'idées, nous demanderons instamment au Conseil de bien vouloir, en particulier, accorder « une » sensible réduction de tarif aux dépêches de presse contenant des informations de la Société et transmises par la station radio¬ électrique de la Société et recommander aux gouvernements des Etats membres de la Société représentés à la Conférence télégraphique de Madrid d'envisager favorablement une réduction sensible du tarif de presse international.
-
-Quelque utile que soit une telle réduction, la proposition de la charge du coût des journaux ainsi transférée serait faible, craignons-nous, même en mettant les choses au mieux, car ces éléments ne constituent pas les principaux éléments de dépense pour la plupart des journaux. Il se peut que la solution exige des mesures plus étendues et plus radicales. Nous demandons en tout cas qu'on commence en attendant à étudier l'ensemble de la question en vue d'aboutir à une solution ou à un plan d'action d'ordre général. Nous proposons donc ce qui suit:
-
-- I. Adopter, comme point de départ, le principe fondamental selon lequel le moyen de développer la liberté et l'indépendance financières de la presse consiste à étendre le principe du tarif de presse d'une manière qui, tout en évitant le contrôle gouvernemental sur la presse, permette le transfert, au trésor public, d'une partie plus
-2. importante du coût du service public qu'assure le journal.
-- II. Instituer un organisme impartial composé d'experts indépendants et non officiels qui examinerait les faits, procéderait à une enquête sur le ou les meilleurs moyens de mettre le principe indiqué en application et établirait un rapport à ce sujet.
-
-L'enquête pourrait comprendre les sujets ci-après:
-
-1. Quels sont les principaux éléments de dépense qui rentrent dans la production d'un journal et quelle
-2. proportion de la dépense totale chacun d'entre eux représente-t-il, approximativement, dans chaque pays ?
-2. Auxquels de ces éléments est-il préférable d'étendre le principe du tarif de presse ? Quels sont ceux qui se
-4. prêtent le mieux à une action internationale et quels sont ceux qui se prêtent à une action nationale ? Quelle
+-1
+De même, réduire le coût du transport rapide des journaux équivaut à combattre les fausses nouvelles, notamment
+dans le domaine international, car le transport du journal n’est qu'une autre forme de la transmission des nouvelles.
+Mettre le public en mesure de lire ce que les journaux étrangers, aussi bien que les journaux nationaux, disent au sujet
+d’une question internationale, c’est placer à sa disposition un correctif très utile. Plus le public pourra lire de journaux
+étrangers parus le même jour que les journaux nationaux, plus ce correctif sera précieux. Il faut donc en arriver à réduire
+le tarif aéropostal appliqué aux journaux et, pour les pays éloignés avec lesquels il n’existe pas encore de service de trans¬
+ports aériens, à réduire les tarifs ordinaires qui, à l’heure actuelle, sont si élevés qu’ils empêchent même les ressortissants
+d’un pays d’acheter, en voyage, leurs journaux nationaux, quand ils peuvent les trouver. L’aviation s’est considérablement
+développée grâce à l’appui financier que les gouvernements se sont empressés de lui accorder pour des fins belliqueuses.
+On pourrait tout aussi bien lui donner cet encouragement pour des fins pacifiques en faisant assumer par les gouverne¬
+ments, sous forme d’une sensible réduction des tarifs de la poste aérienne appliqués à la presse, une partie bien plus considé¬
+rable encore de la charge que constitue le transport aérien des journaux, périodiques et livres. Le développement d’un
+service aéropostal régulier de grande envergure aurait encore un autre avantage. Le journal pourrait, par la voie aérienne,
+recevoir en plus grand nombre
+les
+nouvelles qui doivent actuellement être transmises par la voie électrique,
+ce qui
+contribuerait encore à diminuer les frais de transmission des informations.
+De plus, une réduction sensible, quant au point 3, est de l’intérêt général, car rendre moins onéreux les voyages du
+journaliste encouragera le journal qui doit subvenir à ses dépenses, à envoyer sur place un témoin oculaire expérimenté
+Si à cette réduction s’ajoute celle des frais delà transmission électrique des nouvelles au journal, l’encouragement sera plus
+grand. Cela est évident, car seul le journal qui cherche dans ses informations à serrer la vérité d’aussi près que possible en
+envoyant sur place un témoin oculaire peut bénéficier de ces économies. Les mêmes arguments militent en faveur de
+l’abolition de tous les droits mentionnés au point 4.
+Au surplus, tous ces points se prêtent particulièrement à une action générale par l’intermédiaire de la Société des
+Nations, comme du reste le point 6 également, au sujet duquel on pourrait conclure une convention, utile à maints égards,
+qui instituerait le libre-échange pour le papier de journal, l’encre et les machines à imprimer les journaux. Toutefois,
+ces points laissent toute liberté à une action nationale, à des accords bilatéraux ou régionaux séparés qui précéderaient,
+accompagneraient ou suivraient l’action universelle. C'est ainsi qu’un pays désireux d’améliorer la qualité et d’augmenter
+la quantité de ses informations en provenance d’une certaine nation pourrait accorder un tarif de transmission spéciale¬
+ment réduit pour les télégrammes de presse qui lui parviennent directement de ladite nation. On peut également concevoir
+que deux pays ayant la même langue s’entendent pour faciliter tout particulièrement l’échange des journaux entre leurs
+deux territoires. De même,
+on peut imaginer l’élaboration d’un système de réduction paneuropéen, panaméricain ou
+panasiatique.
+La station radioélectrique de la Société des Nations offre un nouveau moyen de transmission. Genève est un
+centre d’information
+sur toutes
+sortes de questions internationales. C’est un centre unique en tant que chambre de
+compensation des statistiques périodiques comparées, relatives à la situation mondiale du commerce, des finances, de
+l’industrie, du travail, de l’hygiène, des questions sociales, des armements, etc. De plus en plus, toutes les discussions
+internationales importantes se déroulent à Genève. Pour rendre compte intelligiblement de ces statistiques et équitable¬
+ment de ces discussions, il faut employer un nombre de mots que la plupart des journaux, notamment ceux des pays
+lointains, ne sont pas à l’heure actuelle en mesure de payer. On pourrait très utilement combattre les fausses nouvelles
+au sujet des affaires internationales si les Etats membres de la Société convenaient de permettre que les télégrammes
+de presse ayant trait à des informations relatives à la Société des Nations fussent transmis partout par la station radio¬
+électrique de la Société à un tarif exceptionnellement réduit. La question de contrôle n’est pas un obstacle insurmontable.
+Lorsque le Conseil s’est réuni à Madrid
+en 1929, notre association a instamment demandé que les télégrammes de ses
+membres contenant uniquement des informations de la Société ne fussent pas soumis à la censure alors appliquée par
+l'Espagne aux informations espagnoles, et le Gouvernement espagnol y a consenti à condition que nos membres promettent
+de
+ne pas mêler les nouvelles espagnoles à celles de la Société. Cet arrangement a été si satisfaisant qu’il n’y a eu de
+part et d’autre aucune plainte.
+Les remarques qui précèdent indiquent qu’en abordant ainsi le problème des fausses nouvelles, on pénètre dans
+un domaine riche en possibilités et digne d’être exploré. Toutefois, l’application d’un tarif réduit de presse, pour ce qui
+est des points 1, 2, 3 et 4 que nous venons de discuter nous paraît d’une sagesse si évidente qu'à notre avis, les études
+auxquelles pourra donner lieu l’ensemble de nos propositions ne devraient pas retarder les mesures à prendre à cet égard.
+On pourrait, selon nous, entreprendre assez rapidement une action pratique quant aux plus simples de ces suggestions.
+Dans cet ordre d’idées, nous demanderons instamment au Conseil de bien vouloir, en particulier, accorder « une » sensible
+réduction de tarif aux dépêches de presse contenant des informations de la Société et transmises par la station radio¬
+électrique de la Société et recommander aux gouvernements des Etats membres de la Société représentés à la Conférence
+télégraphique de Madrid d’envisager favorablement une réduction sensible du tarif de presse international.
+Quelque utile que soit une telle réduction, la proposition de la charge du coût des journaux ainsi transférée serait
+faible, craignons-nous, même en mettant les choses au mieux, car ces éléments ne constituent pas les principaux éléments
+de dépense pour la plupart des journaux. Il se peut que la solution exige des mesures plus étendues et plus radicales.
+Nous demandons en tout cas qu’on commence en attendant à étudier l’ensemble de la question en vue d’aboutir à une
+solution ou à
+un plan d’action d’ordre général. Nous proposons donc ce qui suit:
+I. Adopter, comme point de départ, le principe fondamental selon lequel le moyen de développer la liberté
+et l’indépendance financières de la presse consiste à étendre le principe du tarif de presse d'une manière qui, tout
+en
+évitant
+le
+contrôle
+gouvernemental
+sur
+la presse, permette le transfert,
+au trésor public, d’une partie plus
+importante du coût du service public qu’assure le journal.
+II. Instituer
+un organisme impartial composé d’experts indépendants et non officiels qui examinerait les
+faits, procéderait à une enquête sur le ou les meilleurs moyens de mettre le principe indiqué en application et établirait
+un rapport à ce sujet.
+L’enquête pourrait comprendre les sujets ci-après:
+1. Quels sont les principaux éléments de dépense qui rentrent dans la production d’un journal et quelle
+proportion de la dépense totale chacun d’entre eux représente-t-il, approximativement, dans chaque pays
+?
+2. Auxquels de ces éléments est-il préférable d’étendre le principe du tarif de presse ? Quels sont ceux qui
+se prêtent le mieux à une action internationale et quels sont ceux qui se prêtent à une action nationale ? Quelle
 ```
 
 ## Images, Captions, And Visual Notes

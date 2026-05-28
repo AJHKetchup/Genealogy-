@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-873cb49fb329-P0007-01
+chunk_id: CHUNK-900cd1cadd5e-P0007-01
 source_converted: raw/converted/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10.codex.md
-converted_sha256: 873cb49fb32977092a99b25bb185ed651b58d54ae3dcb6d330c167376bcf5983
+converted_sha256: 900cd1cadd5e8d96734ea3e181c9f2e8e94524d6092b8ab5165210e37beb910d
 source: raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf
 source_sha256: 3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16
 source_manifest: raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json
@@ -46,8 +46,15 @@ Anatomical   Activity. Entering   the   1930s,   the   Rector   Mr.   Enrique   
 
 Table   I.   Directors   of   the   Department   of   Normal   Anatomy   and   Legal Medicine,   University   of   Concepción,   Chile.
 
-| Dr.   Enrique   Solervicens   Castel   Dr.   Dr.  Edgardo   Enriquez   Fröden   Mario  Echeverría  Monardes   1970   -   1974   Dr.   Eduardo   Bustos   Valdés  1974   -   1982 /   1990   -   1992**  Dr.   Hernan   Tapia   Rubilar   Dr.  Horacio   Osorio   Urbina  Dr.   Nidia   Epelde-Aguirre   Dr.   Luis  Vielma   Bustamante  1998   -   2002  2002   -   to   date  1929   -   1961*  1961   -   1969  Year  Teacher  1992   -   1998  1982   -   1990   |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Teacher                                                                              | Year                                                                                 |
+|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| Dr. Enrique Solervicens Castel Dr. Dr.                                               | 1929 - 1961*                                                                         |
+| Edgardo Enriquez Fröden Mario                                                        | 1961 - 1969                                                                          |
+| EcheverríaMonardes 1970 - 1974 Dr. Eduardo Bustos Valdés 1974 - 1982 / 1990 - 1992** | EcheverríaMonardes 1970 - 1974 Dr. Eduardo Bustos Valdés 1974 - 1982 / 1990 - 1992** |
+| Dr. Nidia Epelde-Aguirre Dr. Luis                                                    | 1982 - 1990                                                                          |
+| Vielma Bustamante                                                                    | 1992 - 1998                                                                          |
+| Dr. Hernan Tapia Rubilar Dr.                                                         | 1998 - 2002                                                                          |
+| Horacio Osorio Urbina                                                                | 2002 - to date                                                                       |
 
 *   The   Department   of   Anatomy   was   created   in   1958.
 

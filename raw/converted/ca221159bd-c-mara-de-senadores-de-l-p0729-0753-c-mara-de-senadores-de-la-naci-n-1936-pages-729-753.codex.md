@@ -271,7 +271,7 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/manifest.json`
 - Source page: 732
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/page-images/page-0732.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -283,93 +283,264 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-ï
-
+1324
+CAMARA
+DE SENADORES
+DE LA
+NACION
+Septiembre 29 y 30
 S\
-
-1&gt;v
-
+1>v
+ï
 -
-
-^vi
-
-■
-
-"v-.-.
-
-:
-
-"-'Vx
-
-;
-
-·
-
-;.
-
-&gt;·
-
-C"
-
-A. i
-
 .
-
+^vi
 -
-
-C :-
-
+"v-.-.
+■
+: "-'Vx
+;
+•
+;.
+>•
+C"
+A. i
+C
+:-
+De
+ese tipo, pues, son las relaeiones entre el
+gobierno
+y
+las
+grandes
+empresas.
+jCômo
+se
+puede tener corfianza, entonees, en que por la
+sola virtud de que este proyecto créa una Co-
+misiôn de Control, se va a impedir que el ser-
+vicio
+de
+transportes urbanos desmejore,
+que
+desaparezcan los colectivos,
+que las tarifas no
+sean
+demasiado
+elevadas?
+La misma disiden-
+cia que ba fundado esta tarde el senor senador
+por San Luis, esta demostrando que la desapa-
+riciôn de los colectivos
+sera inexorable, si no
 -
-
-De ese tipo, pues, son las relaeiones entre el gobierno y las grandes empresas. jCômo se puede tener corfianza, entonees, en que por la sola virtud de que este proyecto créa una Comisiôn de Control, se va a impedir que el servicio de transportes urbanos desmejore, que desaparezcan los colectivos, que las tarifas no sean demasiado elevadas? La misma disidencia que ba fundado esta tarde el senor senador por San Luis, esta demostrando que la desapariciôn de los colectivos sera inexorable, si no se toma una disposieiôn de esa clase, que les acuerde dos aiïos de plazo para que puedan cambiar de situaciôn. La comisiôn no quiere
-
+se toma
+una disposieiôn de
+esa clase,
+que les
+acuerde
+dos
+aiïos
+de plazo
+para
+que puedan
+cambiar
+de situaciôn.
+La comisiôn
+no quiere
 aceptar eso.
-
-Dije que este proyecto déjà pendiente la coordinaeiôn efectiva del transporte en comun, para que la liaga una comisiôn ulterior o la corporaeion misma, y que en su texto el pro¬ yecto no dice nada. Su articulado, fuera de la devoluciôn del capital a las empresas tranviarias, se limita a enunciaciones generales y la coordinaciôn verdaderamente dicha se queda en el cenit. Del proyecto emerge la certidumbre de que los colectivos desaparecerân, para que desaparezca de ese modo la competencia. No se preocupa el proyecto de establecer normas de ' ninguna clase tendientes a mejorar el servicio, cuvas deficiencias pretende, pero no senala.
-
-En los très articulos de que consta, subdivididos en innumerables incisos y apartados de que ya se ha hablado, no adopta una sola disposieiôn concreta de la que deba resultar un ïnejoramiento del servicio, y, en cambio, de la supresiôn total o parcial de los colectivos, resultarâ un empeoramiento que no es posible
-
+Dije que este proyecto déjà pendiente la co-
+ordinaeiôn
+efectiva
+del transporte
+en comun,
+para
+que la liaga una comisiôn ulterior
+o la
+corporaeion misma, y
+que en su texto el pro¬
+yecto no dice nada.
+Su articulado, fuera de la
+devoluciôn del capital
+a las empresas tranvia-
+rias,
+se limita
+a enunciaciones generales y la
+coordinaciôn verdaderamente dicha se queda en
+el cenit.
+Del proyecto emerge la certidumbre
+de que los colectivos desaparecerân, para
+que
+desaparezca de ese modo la competencia. No se
+preocupa el proyecto de establecer normas de '
+ninguna clase tendientes a mejorar el servicio,
+cuvas deficiencias pretende, pero no senala.
+En los très articulos de que consta, subdivi-
+didos
+en innumerables incisos y apartados de
+que ya se ha hablado, no adopta una sola dis-
+posieiôn concreta de la
+que deba resultar un
+ïnejoramiento del servicio, y, en cambio, de la
+supresiôn total o parcial de los colectivos, re-
+sultarâ
+un empeoramiento
+que
+no
+es posible
 negar.
-
-Vuelvo a repetir: salvada la situaciôn financiera de las empresas de tranvîas a costa del piiblico y a costa de los colectivos, lo demâs en el
-
-proyecto queda en una nebulosa.
-
-Para la corporaeion, en ctunbio, hay en el pro¬ yecto ventajas considerables. Dejarân de pagar los impuestos que hoy pagan, tanto los que gravan las entradas brutas, eomo los demâs, y ni siquiera pagarân el impuesto a la renta. Capitalizarân las sumas cuantiosas que adeudan hasta la fecha y podrân aumentar las tarifas, como ya lo dije, hasta el limite que sea neeesario para asegurar el interés del 7 % y la amortizaciôn de su capital en 56 anos y de un por ciento mâs para fondo de réserva y renovacion. Entregarâ la corporaeion a la municipalidad, sin cargo, todas las lineas y materiales a los
-
+Vuelvo a repetir: salvada la situaciôn finan-
+ciera de las empresas de tranvîas
+a costa del
+piiblico y
+a costa de los colectivos, lo demâs
+en el proyecto queda en una nebulosa.
+Para la corporaeion, en ctunbio, hay en el pro¬
+yecto ventajas considerables. Dejarân de pagar
+los impuestos que hoy pagan, tanto los que gra-
+van las entradas brutas, eomo los demâs, y ni si-
+quiera pagarân el impuesto
+a la renta.
+Capi-
+talizarân
+las
+sumas
+cuantiosas
+que
+adeudan
+hasta la fecha y podrân aumentar las tarifas,
+como ya lo dije, hasta el limite que
+sea
+neee-
+sario
+para
+asegurar el interés del
+7 %
+y la
+amortizaciôn de su capital en 56 anos y de un
+por ciento mâs
+para fondo de réserva y reno-
+vacion. Entregarâ la corporaeion a la municipa-
+lidad, sin cargo, todas las lineas y materiales a los
 56 anos, pero, ya lo he dicho, no las regalarâ, por-
-
 ,
-
-que se ha destinado una parte de los beneficios durante los 56 anos
-
-para amortizarlos.
-
-El aumento de las tarifas no es posible en la actualidad por la competencia y se hace po¬ sible.
-
-La mayoria del Congreso que va. a sustituir al Concejo Délibérante en un asunto netamente municipal, yo creo que debiô teuer la franqueza de decirle al pueblo de la Capital que habrâ, por lo menos, tal limite para la suba de las tarifas. Estoy seguro que asi habria procedido él Concejo Délibérante. El proyecto no lo dice; lo déjà para que la Corporaeion lo liaga, y la Corporaeion lo liarâ.
-
-El-transporte urbano de pasajeros asciende por lo menos a 900 millones de personas por ano; un aumento de 3 centavos representaria 27 millones de pesos, que tendria que desembolsar el pueblo de la Capital, por un servicio que sera peor que el de hoy, y hay muehos motivos para temer que el aumento sea de 5 cen¬ tavos y no de 3.
-
-Aparté de este perjuicio general para el pu¬ blico, esta el perjuicio particular para los que necesitan andar ligero; hoy andan en los co¬ lectivos, que hacen competencia al taximetro. El colectivo compile con el taximetro y lo perjudiea, lo que ha dado un carâcter emocionante a la liuelga que Lan heclio los taximetros de^ fendiendo los derechos de sus rivales.
-
-Manana, el pasajero del fondo del nranicipio que no pueda arreglarse con la lentitud del tranvia, tendra que usar como antes el ta¬ ximetro; y la diferencia no sera de centavos, sera de
-
-pesos.
-
-Otra partieularidad de este proyecto, es la de no preoeuparse de los intereses que hiere, cuando no son los intereses de los tranvîas, y puedo remitirme a una parte de la exposiciôn ciel senor senador por San Luis para demostrarlo. El informe de la comisiôn omite que la desapariciôn de los colectivos arruina a los gremios que se lian desenvuelto a la sombra del progreso de la autolocomociôn, aplicada al servicio de los
-
-pasajeros.
-
-Los représentantes de esos gremios han acudido a la comisiôn, han presentado notas. No han sido tornados en cuenta, no han sido rebatidos, y la primera vez que se ha hablado de esas preseutaciones, es esta tarde cuando el senor senador por San Luis llevô dos pârrafos de una nota que yo tenia aqui para leer, y que no lo he de liaeer ahora, por esa razôn.
-
-Se recuerdan en esa presentaciôn los perjuicios que se causan a esos gremios; la in-
-
-justicia con que se procédé» pero he de leei;
-
-\_
-
-\_
+que se ha destinado una parte de los beneficios
+durante los 56
+anos para amortizarlos.
+El aumento de las tarifas no
+es posible en la
+actualidad por la competencia y
+se hace
+po¬
+sible.
+La mayoria del Congreso
+que va. a sustituir
+al Concejo Délibérante en un asunto netamente
+municipal, yo creo que debiô teuer la franqueza
+de decirle al pueblo de la Capital
+que habrâ,
+por lo
+menos, tal limite para la suba de las
+tarifas. Estoy seguro que asi habria procedido
+él Concejo Délibérante. El proyecto no lo dice;
+lo déjà para que la Corporaeion lo liaga, y la
+Corporaeion lo liarâ.
+El-transporte urbano de pasajeros asciende
+por lo
+menos
+a 900 millones de personas por
+ano; un aumento de 3 centavos representaria
+27 millones de
+pesos,
+que tendria
+que desem-
+bolsar el pueblo de la Capital, por un servicio
+que sera peor que el de hoy, y hay muehos mo-
+tivos para temer que el aumento sea de 5 cen¬
+tavos y no de 3.
+Aparté de este perjuicio general para el pu¬
+blico, esta el perjuicio particular para los que
+necesitan andar ligero; hoy andan
+en los
+co¬
+lectivos,
+que hacen competencia al taximetro.
+El colectivo compile con el taximetro y lo per-
+judiea, lo que ha dado un carâcter emocionante
+a la liuelga
+que Lan heclio los taximetros de^
+fendiendo los derechos de sus rivales.
+Manana,
+el pasajero del fondo del nranici-
+pio
+que no pueda arreglarse
+con la lentitud
+del tranvia, tendra que usar como antes el ta¬
+ximetro; y la diferencia no sera de centavos,
+sera de pesos.
+Otra partieularidad de este proyecto,
+es la
+de
+no preoeuparse de los intereses que hiere,
+cuando
+no son los intereses de los tranvîas, y
+puedo remitirme a una parte de la exposiciôn
+ciel
+senor senador por San Luis
+para demos-
+trarlo. El
+informe
+de la comisiôn
+omite
+que
+la desapariciôn de los colectivos arruina a los
+gremios
+que
+se lian desenvuelto
+a la sombra
+del
+progreso
+de la autolocomociôn,
+aplicada
+al servicio de los pasajeros.
+Los représentantes de esos gremios han acu-
+dido
+a la comisiôn, han presentado notas. No
+han sido
+tornados
+en cuenta,
+no han sido re-
+batidos, y la primera
+vez
+que
+se ha hablado
+de
+esas preseutaciones,
+es
+esta tarde cuando
+el senor senador por San Luis llevô dos pârra-
+fos
+de
+una nota que yo tenia aqui para leer,
+y que no lo he de liaeer ahora, por esa razôn.
+Se recuerdan
+en
+esa presentaciôn
+los
+per-
+juicios
+que
+se
+causan
+a
+esos gremios; la in-
+justicia
+con
+que
+se procédé»
+pero he
+de leei;
+____
 ```
 
 ## Images, Captions, And Visual Notes
@@ -409,10 +580,10 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/manifest.json`
 - Source page: 733
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/page-images/page-0733.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
-- Extracted picture images: 1
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
@@ -421,74 +592,320 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-tan solo uno de los pârrafos que no ha leido el senor senador por San Lnis, y que expresa cuâl es el eoncepto que hay sobre este proyeeto. Dice asx:
-
-«El proyecto en euestiôn, no contempla la estabilidad de las tarifas ni el destino de los capitales automotores invertidos y eomprometidos en la esperanza de un futuro mejor, sino que centraliza en forma omnimoda a todos los medios de traslaciôn existentes, promoviendo en consecuencia, un amplîsimo privilegio a favor de los capitales tranviarios, en detrimento directo de los capitales menores que esta constituîdo por los transportes automotores, tal como lo es el sistema de autos colectivos que no obstante, es un servicio efi-
-
+de 1936
+CAMARA DE SENADORES DE LA NACTON
+tan solo
+uno
+de los pârrafos
+que no ha leido
+el senor senador por San Lnis, y que expresa
+cuâl
+es
+el
+eoncepto
+que hay sobre
+este
+pro-
+yeeto. Dice
+asx:
+«El proyecto
+en
+euestiôn,
+no contempla la
+estabilidad de las tarifas ni el destino de los
+capitales automotores invertidos y
+eomprome-
+tidos
+en
+la
+esperanza
+de
+un
+futuro
+mejor,
+sino
+que centraliza
+en forma omnimoda
+a to-
+dos
+los medios
+de traslaciôn
+existentes,
+pro-
+moviendo
+en consecuencia,
+un amplîsimo pri-
+vilegio a favor de los capitales tranviarios, en
+detrimento
+directo
+de
+los
+capitales
+menores
+que esta constituîdo por los transportes auto-
+motores,
+tal
+como
+lo
+es el
+sistema
+de
+autos
+colectivos que no obstante,
+es un servicio efi-
 ciente, econômico y de suma utilidad publica.»
-
-Lo que expresa esta nota es la pura verdad; los capitales menores, los omnibus y los colectivos, podrân reeibir a lô sumo la indemnizaeion del valor de los vehiculos menos el deterioro por el uso y los grandes capitales desvalonzados resurgirân de sus cenizas co¬ mo el ave fénix.
-
-Bûsquese en el proyecto un solo articulo, menos que esto, una sola clausula, menos todavia, una sola palabra que pueda ser interpretada como una valla opuesta a un suba excesiva de tarifas, o a la valorizacion de los capitales desvalorizados. No se la eneontrarâ.
-
-El informe dice en la pagina 156: que los àenefieios de la Corporacion estarân limitados de manera «de asegurar a los capitales invertidos y reconocidos un interés suficiente.»
-
-Yo me pregunto si los capitales invertidos en acciones que estén afectados en la actualidad por un enorme quebranto pueden aspi¬ raia ser reconocidos como si fueran capita¬ les invertidos actualmente. Habrîa bastado en¬ fonces decir capitales que se reconozcan, pues la expresiôn complementary «capitales in¬ vertidos» parece indicar los capitales originarios. No teniendo ese signifieado, eoncurre a crear confusiones
-
-hoy, y pleitos manana.
-
-El articulo 2?, inciso c), apartados a) y b), es impreciso y ademâs permitei senor prési¬ dente, una indemnizacion a las empresas que, teniendo concesiones a perpetuidad o de plazo mayor de 56 anos, tengan que césar a los 56 anos. Dice asi, textualmente : «En lo que Se refiere a las empresas que poseen coneesioRes a perpetuidad o a un plazo mayor de 56 anos, ademâs de lo establecido en los ineisos a) y b) la comision especial tendrâ en cuenta cada caso particular de modo equitativo.»
-
-4 Qué quiere decir esa disposiciôn obscura e imprecisa? jCon qué fin tendrâ en cuenta la comision especial de un modo equitativo, cada caso particular? Evidentemente, para indemnizar a las companias o a las concesiones a perpe¬ tuidad o de un plazo mayor que 56 anos, el va¬
-
-<!-- image -->
-
+Lo
+que
+expresa
+esta nota
+es la
+pura
+ver-
+dad; los capitales menores, los omnibus y los
+colectivos, podrân reeibir
+a lô sumo la indem-
+nizaeion
+del valor de
+los vehiculos
+menos
+el
+deterioro
+por
+el
+uso
+y los
+grandes capitales
+desvalonzados resurgirân
+de
+sus
+cenizas
+co¬
+mo el
+ave fénix.
+Bûsquese
+en
+el
+proyecto
+un
+solo
+articulo,
+menos
+que esto, una sola clausula,
+menos to-
+davia, una sola palabra
+que pueda ser inter-
+pretada
+como
+una valla
+opuesta
+a
+un
+suba
+excesiva de tarifas, o a la valorizacion de los
+capitales desvalorizados. No
+se la eneontrarâ.
+El informe dice
+en la pagina 156:
+que los
+àenefieios
+de
+la
+Corporacion
+estarân
+limita-
+dos de manera «de asegurar a los capitales in-
+vertidos
+y
+reconocidos
+un
+interés suficiente.»
+Yo
+me pregunto si los capitales invertidos
+en acciones
+que estén afectados en la actuali-
+dad
+por
+un
+enorme
+quebranto
+pueden
+aspi¬
+rai-
+a
+ser reconocidos
+como
+si fueran capita¬
+les invertidos actualmente. Habrîa bastado
+en¬
+fonces decir capitales que se reconozcan, pues
+la
+expresiôn
+complementary
+«capitales
+in¬
+vertidos»
+parece
+indicar
+los
+capitales
+origi-
+narios.
+No
+teniendo
+ese signifieado,
+eoncurre
+a crear confusiones hoy, y pleitos manana.
+El articulo 2?, inciso c), apartados a)
+y b),
+es impreciso
+y
+ademâs permitei
+senor prési¬
+dente, una indemnizacion
+a las empresas
+que,
+teniendo concesiones
+a perpetuidad
+o
+de pla-
+zo mayor de 56
+anos, tengan
+que
+césar
+a los
+56
+anos.
+Dice
+asi,
+textualmente :
+«En lo
+que
+Se refiere
+a las empresas que poseen coneesio-
+Res
+a perpetuidad
+o
+a un plazo mayor de 56
+anos, ademâs
+de lo
+establecido
+en
+los ineisos
+a) y b)
+la comision especial tendrâ
+en cuenta
+cada
+caso particular de modo equitativo.»
+4 Qué quiere decir
+esa disposiciôn obscura
+e
+1325
+imprecisa? jCon qué fin tendrâ
+en
+cuenta la
+comision especial de un modo equitativo, cada
+caso particular? Evidentemente, para indemni-
+zar a las companias o a las concesiones a perpe¬
+tuidad
+o de un plazo mayor que 56 anos, el va¬
 lor del mayor tiempo de explotacion que pierden.
-
-Tienen concesion a perpetuidad el subterrâneo Lacroze, todas las lineas a nivel de la empresa Lacroze existentes en 1904, la lînea Puer¬ to a Ciudad de Buenos Aires, que fué vendida en subasta pûblica, como lo dije hace un rato, a consecuencia del resultado negativo en su ex¬ plotacion y que fué adquirida por la sociedad actual Buenos Aires Town and Dock Tramways Co., las lineas de la ley numéro 4.113 y las lr neas de la ley numéro 8.160.
-
-Yo desearia saber como interpréta la comision la disposiciôn que he citado, porque la considero obscura y ambigua. Desearia saber si la co¬ mision entiende que corresponderâ indemnizar a las empresas que he enumerado por el menor
-
+Tienen
+concesion
+a perpetuidad el subterrâ-
+neo Lacroze, todas las lineas a nivel de la em-
+presa Lacroze existentes en 1904, la lînea Puer¬
+to
+a Ciudad de Buenos Aires, que fué vendida
+en subasta pûblica,
+como lo dije hace un rato,
+a consecuencia del resultado negativo en su ex¬
+plotacion y que fué adquirida por la sociedad
+actual Buenos Aires Town and Dock Tramways
+Co., las lineas de la ley numéro 4.113 y las lr
+neas de la ley numéro 8.160.
+Yo desearia saber como interpréta la comision
+la disposiciôn que he citado, porque la conside-
+ro obscura y ambigua. Desearia saber si la
+co¬
+mision entiende
+que corresponderâ indemnizar
+a las empresas que he enumerado por el menor
 tiempo de explotacion.
-
-Sr. Sanchez Sorondo. - 4 Es una pregunta? Si el senor senador me permite, se la voy a contestar luego en la oportunidad de rebâtir su diseurso. La dejo anotada.
-
-Sr. de la Torre. - Me extraira la contestaciôn; yo creo que la comision debe dar infor¬ mes a
-
-los senadores, cuando los necesitan.
-
-Sr. Sanchez Sorondo. - El senador quizâs no me ha oido.
-
-Sr. de la Torre. - Si he oido, que va a con¬ testai-
-
-después, pero debe liacerlo ahora.
-
-Sr. Sanchez Sorondo. - Lo karé al eontestar su
-
-diseurso, en la sesiôn de hoy.
-
-Sr. de la Torre. - Séria mejor ahora mismo. Sr. Sanchez Sorondo. - En su oportunidad,
-
+Sr. Sanchez Sorondo.
+—
+4 Es una pregunta?
+Si el senor senador me permite, se la voy a con-
+testar luego
+en la oportunidad de rebâtir su
+diseurso.
+La
+dejo
+anotada.
+Sr. de la Torre.
+— Me extraira la contesta-
+ciôn; yo creo que la comision debe dar infor¬
+mes
+a los senadores, cuando los necesitan.
+Sr.
+Sanchez Sorondo.
+— El senador quizâs
+no
+me ha oido.
+Sr. de la Torre. — Si he oido, que va a con¬
+testai- después, pero
+debe liacerlo ahora.
+Sr. Sanchez Sorondo. — Lo karé al eontestar
+su diseurso, en la sesiôn de hoy.
+Sr. de la Torre. — Séria mejor ahora mismo.
+Sr. Sanchez Sorondo.
+— En su oportunidad,
 senor senador.
-
-Sr. de la Torre. - i,Y por qué no contesta ahora?
-
-Sr' Sanchez Sorondo. - Porque yo soy el juez de la oportunidad, y no el senor senador.
-
-Sr. de la Torre. - La comision debe eontes¬ tar inmediatamente, si créé que corresponde indemnizar...
-
-Sr. Sanchez Sorondo. - Ile dicho que lo haré en su oportunidad y no cuando se le ocurra al senor senador.
-
-Sr. de la Torre. - No es que se me ocurra sino que tengo derecho. Dejo constancy que este articulo-2? esta redaetado de tal modo...
-
-Sr. Sanchez Sorondo. - El senor senador no lo interpréta como debe interpretarlo y yo se lo voy a demostrar porque el senor senador no quiere leer el primer articulo y no es por falta de
-
-tiempo.
+Sr. de la Torre. — i,Y
+por qué
+no
+contesta
+ahora?
+Sr„ Sanchez Sorondo.
+— Porque yo
+soy el
+juez de la oportunidad, y no el senor senador.
+Sr. de la Torre.
+— La comision debe eontes¬
+tar inmediatamente,
+si
+créé
+que
+corresponde
+indemnizar...
+Sr. Sanchez Sorondo.
+— Ile dicho que lo ha-
+ré en su oportunidad y no cuando se le ocurra
+al senor senador.
+Sr. de la Torre.
+— No
+es que se me ocurra
+sino
+que tengo derecho. Dejo constancy
+que
+este articulo-2? esta redaetado de tal modo...
+Sr. Sanchez Sorondo.
+— El senor senador no
+lo interpréta
+como debe interpretarlo y yo
+se
+lo
+voy
+a demostrar
+porque
+el
+senor senador
+no quiere leer el primer articulo y no es por
+falta de tiempo.
 ```
 
 ## Images, Captions, And Visual Notes
 
-- Docling extracted picture image 1: ![Docling extracted picture image 1](../extracted-images/page-0733/page-0733-docling-image-01.png)
+- No Docling picture regions were detected for this page.
 
 ## Translation
 
@@ -511,7 +928,7 @@ No interpretation was produced by the Docling basic conversion pass.
 
 - Basic Docling conversion completed for this page.
 - Rendered page image link recorded.
-- Extracted picture image count: 1.
+- Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 734
@@ -523,7 +940,7 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/manifest.json`
 - Source page: 734
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/page-images/page-0734.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -535,55 +952,207 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-Pi ■.
-
+P i
+■.
 -
-
 \ ô-
-
-^X ;v
-
+^
+X ;v
 ^ \ \
-
 b'
-
 I
-
 ■
-
-··
-
-Sr. de la Torre. - No contesta.
-
-La posibilidad.de ima indemnizaciôn hnplicarîa una incongrnencia de parte de la eomiBiôn, cou los hechos que ella misma lia admitido. La comisiôn reconoce que las empresas estân en malas eondiciones, que no realizan utiLidades, que no hacen el servicio a que estân obligadas, que no pagan a la municipalidad sus impucstos, que no pagan los aportes a la Caja de Jubilaeiones, que no pagan el pavimento. ,Todo eso lo reconoce la comisiôn.
-
-Y, jentonçes que sentido tiene esta clâusula que admite una indemnizaeiôn? jCômo puede tener dereclio a una indemnizaciôn pot menus tiempo de concesiôn una empresa que haee negocios ruinosos? jCon qué se le va a indemnizar la ittilidad de un negocio que déjà pér-
-
+••
+1326
+CAMARA DE SEX ADORES DE LA NACION
+Septembre 29 y 30
+Sr. de la Torre.
+— No contesta.
+La posibilidad.de ima indemnizaciôn hnpli-
+carîa
+un a incongrnencia de parte de la eomi-
+Biôn, cou los hechos que ella misma lia admiti-
+do. La comisiôn reconoce que las empresas es-
+tân
+en malas eondiciones, que no realizan uti-
+Lidades, que no
+hacen el servicio a que estân
+obligadas, que no pagan a la municipalidad sus
+impucstos, que no pagan los aportes a la Caja
+de Jubilaeiones,
+que
+no pagan el pavimento.
+,Todo eso lo reconoce la comisiôn.
+Y, jentonçes que sentido tiene esta clâusula
+que admite una indemnizaeiôn? jCômo puede
+tener dereclio
+a una indemnizaciôn pot menus
+tiempo de concesiôn una empresa que haee ne-
+gocios ruinosos? jCon qué se le va a indemni-
+zar
+la ittilidad
+de un
+negocio
+que déjà pér-
 didas ?
-
-Si una vez aprobada esta ley la situaciôn de las empresas cambiara, no séria por el valor de la situaciôn de la concesiôn ni por las virtudes de la -concesiôn, séria por las libertades énor¬
-
+Si una vez aprobada esta ley la situaciôn de
+las empresas cambiara, no séria por el valor de
+la situaciôn de la concesiôn ni por las virtudes
+de la -concesiôn, séria por las libertades énor¬
 mes que le acuerda este proyecto.
-
-j Y cntonces, senor présidente, si la munificencia sin precedente del gobierno argentum, si el aumento de las tarifas, si la supresiôn de la competeneia permite que un capital perdido se transforme en un capital vivo, que va a redituar un 7 % y que las acciones desvalorizadas vuelvan a cotizarse a la par o arriba de la par, y a las companias favoreeidas tan excepcionalmente se le déjà un piazo de 56 anos en el cual se le devolverâ integramente su ca¬ pital mediante el tanto por cieuto de la amortizaciôn acumulativa, qué menos que imponerles la caducidad sin cargo de su concesiôn a los 56 anos?
-
-Sin embargo, el proyecto liabla, y bien claro, de indemnizar «equitativamente». Término èlâstico, término peligroso, término obscuro que diseüa desde ya un pleito en perspectiva pa¬ ra la municipalidad y un juicio de ârbitros, en que la municipalidad, como siempre, en juieios de ârbitros sera condenada a pagar 20, 30, 40 6 50.000.000.
-
-La comisiôn podrâ contestai' de cualquier modo la pregunta que he heclio al senor miembro informante, pero la comisiôn no puede pensar que este articulo no deba aclararse. Es absolutamente indispensable aclararlo o suprimirlo. Precisamente, porque el Senado de la Naciôn le arrebata al Coneejo Délibérante el derecho de resolver un gran asunto edilicio, no es posible que exponga a la municipalidad en esta forma, a pleitos peligroso., e indemnizaciones inciertas.
-
-Esta clâusula incoueebible me bastarîa para rechazar de piano este proyecto, aunque no mediara ninguna 'de las otras circunstancias a que me lie referido.
-
-La redaceiôn confusâ no tiene explicaciôn y liace el juego al interés de las companias, que pretenderân, después, ser iudemnizados. No pue¬ de crearse' y mantenerse el peligro de una in¬ demnizaciôn absurda emanada de una redacciôn de mal augurio.
-
-La estimaciôn del monto de los capitales a reconocerse, no puede tampoco quedar en la ineertidumbre, porque eso puede dar lugar a que se reeonozcan capitales a la par, que a lo, sumo podrân representar el 25 %, si lo representan.
-
-Reconoeidos los capitales tranviarios eu todo su valor originario, el provecho de las empre¬ sas séria colosal, y surge por si solo. El capital originario en acciones y sus acrecimientos posteriores en concepto de mejoras, se prétende, en mimeros redondos, que sea de 500.000.000. Esta tarde dijo el senor senador por San Luis que eran 360.000.000; sin embargo, solo la Angio Argentina pretende tener heclias inversiones por 21.140.000 libras, équivalente a 317.000.000 al cambio de quince.
-
-Si el estado precario de los negoeios ha desvalorizado este capital, aunque mâs no sea en un 50 %, lo que es poco, pues las acciones de las empresas tranviarias prâeticamente valen muy poca cosa, la ganancia efectiva e inmediata para las acciones, por obra de esta ley, séria de 250.000.000 de pesos. Las acciones que no valen nada snbirân arriba de la par, al anuncio de una renta segura del 7 % y de una amortizaeiôn del % %, garantizada por el aumento de las tarifas, por la supresiôn de las eompetencias, de los impuestos y las demâs ventajas que aeuerde esta ley.\_
-
-Si el Congreso no détermina de antemano euâl es el valor que ha de reconocerse a los capitales tranviarios que resuciten y lo déjà librado a lo que se arregle mâs adel.ante, cualquier cosa séria posible.
-
-Para eumplir con mi coneieneia, voy a formu¬ lai' una moeiôn de aplazamiento en estos términosi «La comisiôn requerirâ de las empresas la declaraciôn del monto mâximo de los capitales, cuyo reconocimiento pretenden, y lo apreciarâ teniendo en cuenta la desvalorizaciôn de los capitales tranviarios en la Capital de la Repiibliea, causada especialmente por la eompetencia de los automotores. Dictaminarâ también aeerca del sentido y aleanee de la clâusula del articulo 2? del proyecto, que sugiere la posibi-
+j Y cntonces, senor présidente, si la munifi-
+cencia sin precedente del gobierno argentum,
+si el aumento de las tarifas, si la supresiôn de
+la competeneia permite que un capital perdido
+se transforme
+en un capital vivo, que va a re-
+dituar
+un
+7 %
+y
+que las acciones desvalori-
+zadas
+vuelvan
+a
+cotizarse
+a
+la
+par
+o arriba
+de la par, y a las companias favoreeidas tan
+excepcionalmente se le déjà un piazo de 56 anos
+en el cual
+se le devolverâ integramente su ca¬
+pital mediante el tanto por cieuto de la amorti-
+zaciôn
+acumulativa,
+qué
+menos
+que
+imponer-
+les la
+caducidad sin cargo de
+su concesiôn
+a
+los 56 anos?
+Sin embargo, el proyecto liabla, y bien cla-
+ro, de indemnizar «equitativamente».
+Término
+èlâstico,
+término
+peligroso,
+término
+obscuro
+que diseüa desde ya un pleito en perspectiva pa¬
+ra la municipalidad y un juicio de ârbitros, en
+que la municipalidad, como siempre, en juieios
+de ârbitros sera condenada
+a pagar 20, 30, 40
+6
+50.000.000.
+La
+comisiôn podrâ
+contestai'
+de cualquier
+modo la pregunta que he heclio al senor miem-
+bro informante, pero la comisiôn no puede pen-
+sar que este articulo no deba aclararse. Es ab-
+solutamente indispensable
+aclararlo
+o supri-
+mirlo. Precisamente,
+porque
+el Senado
+de la
+Naciôn le arrebata al Coneejo Délibérante
+el
+derecho de resolver un gran asunto edilicio, no
+es posible que exponga
+a la municipalidad en
+esta forma, a pleitos peligroso.,
+e indemnizacio-
+nes inciertas.
+Esta clâusula incoueebible me bastarîa para
+rechazar de piano este proyecto, aunque no me-
+diara
+ninguna 'de
+las
+otras circunstancias
+a
+que me lie referido.
+La redaceiôn confusâ no tiene explicaciôn y
+liace el juego al interés de las companias, que
+pretenderân, después, ser iudemnizados. No pue¬
+de crearse' y mantenerse el peligro de una in¬
+demnizaciôn absurda emanada
+de una redac-
+ciôn de mal augurio.
+La estimaciôn del monto
+de los capitales
+a
+reconocerse,
+no puede tampoco quedar
+en la
+ineertidumbre, porque
+eso puede dar lugar
+a
+que se reeonozcan capitales a la par, que a lo,
+sumo podrân representar el 25 %, si lo repre-
+sentan.
+Reconoeidos los capitales tranviarios eu todo
+su valor originario, el provecho de las empre¬
+sas séria colosal, y surge por si solo. El capital
+originario en acciones y sus acrecimientos pos-
+teriores en concepto de mejoras, se prétende, en
+mimeros redondos, que sea de 500.000.000. Esta
+tarde dijo el senor senador por San Luis que
+eran 360.000.000; sin embargo, solo la Angio
+Argentina
+pretende
+tener heclias inversiones
+por 21.140.000 libras, équivalente a 317.000.000
+al cambio de quince.
+Si el estado precario de los negoeios ha des-
+valorizado este capital, aunque mâs no sea en
+un 50 %, lo que
+es poco, pues las acciones de
+las
+empresas tranviarias prâeticamente valen
+muy
+poca
+cosa, la ganancia efectiva
+e inme-
+diata para las acciones, por obra de esta ley,
+séria de 250.000.000 de pesos. Las acciones que
+no valen nada snbirân arriba de la par, al anun-
+cio de una renta segura del 7 % y de una amor-
+tizaeiôn del % %, garantizada por el aumento
+de las tarifas, por la supresiôn de las eompeten-
+cias, de los impuestos y las demâs ventajas que
+aeuerde esta ley._
+Si el Congreso no détermina de antemano euâl
+es el valor que ha de reconocerse a los capitales
+tranviarios que resuciten y lo déjà librado a lo
+que se arregle mâs adel.ante, cualquier cosa séria
+posible.
+Para eumplir con mi coneieneia, voy a formu¬
+lai' una moeiôn de aplazamiento en estos térmi-
+nosi «La comisiôn requerirâ de las empresas la
+declaraciôn del monto mâximo de los capitales,
+cuyo reconocimiento pretenden, y lo apreciarâ
+teniendo
+en
+cuenta la desvalorizaciôn
+de los
+capitales tranviarios en la Capital de la Repii-
+bliea, causada especialmente por la eompeten-
+cia
+de
+los
+automotores.
+Dictaminarâ también
+aeerca del sentido y aleanee de la clâusula del
+articulo 2? del proyecto, que sugiere la posibi-
 ```
 
 ## Images, Captions, And Visual Notes
@@ -713,7 +1282,7 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/manifest.json`
 - Source page: 736
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/page-images/page-0736.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -725,59 +1294,235 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-tiempo y a danar, de reflejo, la economîa ge¬ neral. Los tranvias son hoy radiados en las grandes ciudades, eomo los barcos viejos son radiados en las grandes escuadras, y en el momento en que eso ocurre, Buenos Aires va a restaurarlos. Es justo deeir que Buenos Aires no va a restaurarlos. El Concejo Délibérante de Buenos Aires celoso de los intereses muni¬ cipales y mas conocedor de ellos que el Congreso, no los habrîa restaurado. Son los senadores y los diputados de las provincias, inmiscuyéndose en un asunto genuinamente comunal, los que van a condenar al munieipio a que durante medio siglo liaga del tranvia anticuado su medio principal de locomotion.
-
-El Concejo Délibérante, he dicho, mas informado que el Congreso en materias edilicias no. lo habrîa hecho nunca, y se ha traido el asun¬ to al Congreso con ese motivo, para rehùir el
-
+1328
+CAMARA de SENADORES DE LA NACION
+Septembre 29 y 30
+tiempo y a danar, de reflejo, la economîa ge¬
+neral.
+Los tranvias
+son hoy radiados
+en las
+grandes ciudades,
+eomo los barcos viejos son
+radiados
+en las
+grandes escuadras, y
+en el
+momento en que eso ocurre, Buenos Aires va a
+restaurarlos. Es justo deeir que Buenos Aires
+no
+va
+a restaurarlos. El Concejo Délibérante
+de Buenos Aires celoso de los intereses muni¬
+cipales y mas conocedor de ellos que el Con-
+greso, no los habrîa restaurado. Son los sena-
+dores y los diputados de las provincias, inmis-
+cuyéndose en un asunto genuinamente comunal,
+los
+que
+van
+a condenar al munieipio a que
+durante medio siglo liaga del tranvia anticua-
+do
+su medio principal de locomotion.
+El Concejo Délibérante, he dicho, mas infor-
+mado que el Congreso en materias edilicias no.
+lo habrîa hecho nunca, y se ha traido el asun¬
+to al Congreso con ese motivo, para rehùir el
 repudio popular.
-
-Y ahora, senor présidente, pido que se vote la motion de aplazamiento que formulé anteriormente.
-
-Con estas observaciones dejo fundado mi voto en contra de un proyecto que considero perjudieial, no solo para los intereses de un gremio determinado de pbopietarios o de conauctores de vehieulos de transporte urbano, sino para los intereses permanentes de la Capital.
-
-Sr. Présidente. - Esta en diseusiôn la mo¬ tion de aplazamiento formulada por el senor
-
+Con
+estas
+observaciones
+dejo fundado mi
+voto
+en contra de un proyecto que considero
+perjudieial,
+no solo para los intereses de un
+gremio determinado de pbopietarios o de con-
+auctores
+de vehieulos
+de transporte urbano,
+sino
+para los
+intereses
+permanentes
+de
+la
+Capital.
+Y ahora, senor présidente, pido que se vote
+la motion de aplazamiento que formulé ante-
+riormente.
+Sr. Présidente.
+— Esta en diseusiôn la mo¬
+tion de aplazamiento formulada por el senor
 senador por Santa Fe.
-
-Si no se hace uso de la palabra se va a
-
+Si
+no
+se
+hace
+uso
+de la palabra
+se va a
 yo'tar.
-
-Sr. Suarez Lago. - Pido la palabra.
-
-Senor présidente: le voy a pedir al senor senador por Santa Fe quiera postergar la vo¬ tation sobre el pedido de aplazamiento que acaba de formular, hasta tanto el miembro in¬ formante de la mayoria de la comision haya replicado a todos los diseursos que se pronuncien impugnando el despacho. Mientras tanto, no es posible pronunciarse sobre el aplazamiento que se propone, desde que no se le ha dado todavîa tiempo al miembro informan¬ te de la mayoria de la comision, - insiste -· para repliear los diseursos promuiciados en contra del despacho de la misma.
-
-Asi es que si se vota ahora, anuncio que voy a votar en contra.
-
-Sr. de la Torre. -· Lo presumia. Que se vote ya mismo.
-
-Sr. Suarez Lago. - jÇomo dice, el senor senador?
-
-Sr. de la Torre. - Que presumia que la ma¬ yoria ha de yotar en .contra.
-
-Sr. Suarez Lago. - 5 El senor senador no puede presumir nada!
-
-Dejo cpnstancia, asi, de las razones por las euales voy a votar en contra del pedido de aplazamiento que ha pi'opuesto el senor sena¬ dor por Santa Fe.
-
-Sr. Présidente. - Si no se liace uso de la palabra se va a votar la motion de aplazamien¬ to formulada por el senor senador por San¬
-
+Sr. Suarez Lago. — Pido la palabra.
+Senor présidente: le voy a pedir al senor
+senador por Santa Fe quiera postergar la vo¬
+tation
+sobre
+el pedido
+de aplazamiento
+que
+acaba de formular, hasta tanto el miembro in¬
+formante
+de la mayoria de la comision haya
+replicado
+a todos los diseursos
+que
+se pro-
+nuncien
+impugnando
+el
+despacho.
+Mientras
+tanto, no es posible pronunciarse sobre el apla-
+zamiento
+que
+se propone, desde que no se le
+ha dado todavîa tiempo al miembro informan¬
+te de la mayoria de la comision, — insiste —•
+para
+repliear
+los
+diseursos promuiciados
+en
+contra del despacho de la misma.
+Asi
+es
+que si
+se vota ahora, anuncio
+que
+voy
+a votar
+en contra.
+Sr.
+de la
+Torre.
+—• Lo presumia.
+Que
+se
+vote
+ya mismo.
+Sr.
+Suarez Lago.
+— jÇomo dice, el senor
+senador?
+Sr. de la Torre.
+— Que presumia que la ma¬
+yoria ha de yotar en .contra.
+Sr.
+Suarez Lago.
+—
+5 El senor senador no
+puede presumir nada!
+Dejo cpnstancia, asi, de las razones por las
+euales
+voy
+a votar en contra del pedido de
+aplazamiento que ha pi’opuesto el senor sena¬
+dor por Santa Fe.
+Sr. Présidente.
+— Si
+no
+se liace uso de la
+palabra se va a votar la motion de aplazamien¬
+to formulada
+por el senor senador por San¬
 ta Fe.
-
-vota y resnlta negativa.
-
--Se
-
-Sr. Sanchez Sorondo. - Senor présidente 1 Como sé que hay algunos sehores senadoreS que van a impugnar el proyecto, deseo habiar después haciendo uso de un derecho que tâcitamente 'me acuerda el reglamento en ese sentido, dado que, hasta ahora, con exception del senor senador por Santa Fe, el debate se ha desarrollado entre miembros de la eomisién, pues al informe escrito de la mayoria ha seguido la objeeion de la minoria y la obser¬ vation del senor senador por San Luis, miem¬ bro también de la comision en disidencia. Co¬ rresponde por esto que si algûn otro senor se¬ nador quiere hacer observaciones en general al proyecto, las haga ahora, para que yo, al final, recoja como pueda, las observaciones que se formulen.
-
-Sr. Eguiguren. - Pido-la palabra.
-
-Comprenderâ el senor senador por Buenos Aires que después de las manifestaeiones que formulé al principio de esta sesion, me resuite violento no poder eomplaeerlo. Ayer se lo expresaba en privado: que deseaba escucliar al senor senador por Buenos Aires previamente; y daba mis razones. El informe escrito presentado - salvando los respetos debidos -&lt; en mi concepto, no dice nada, y entonces interesaba conoeei~ los fundamentos de 1# comi¬ sion. Parte los ha dado el senor senador por San Luis, con eloeuencia y con mucha preci¬ sion, desde su punto de vista; pero, en realidad, el senor miembro informante de la comi¬ sion, me interesa escucharlo. Es posible que pueda variar mi criterio después de escucliar esos datos, y entonces me ha de resultar interesante, desde mi punto de vista, oir a la eomisiôn.
-
-Sr. Sanchez Sorondo. - El informe de la mayoria ha sido dado por escrito. Si ese infor¬ me no satisfaee al senor senador, yo no puedo
-
+—Se
+vota
+y resnlta negativa.
+Sr.
+Sanchez Sorondo.
+— Senor présidente 1
+Como
+sé
+que hay algunos sehores senadoreS
+que van a impugnar el proyecto, deseo habiar
+después haciendo
+uso
+de un derecho que tâ-
+citamente 'me
+acuerda
+el reglamento
+en
+ese
+sentido, dado que, hasta ahora, con exception
+del
+senor senador por Santa Fe, el debate se
+ha
+desarrollado
+entre miembros
+de la eomi-
+sién, pues al informe escrito de la mayoria ha
+seguido la objeeion de la minoria y la obser¬
+vation del senor senador por San Luis, miem¬
+bro también de la comision en disidencia. Co¬
+rresponde por esto que si algûn otro senor se¬
+nador quiere hacer observaciones
+en general
+al proyecto, las haga ahora, para que yo, al
+final, recoja
+como pueda, las
+observaciones
+que se formulen.
+Sr. Eguiguren. — Pido-la palabra.
+Comprenderâ el
+senor senador por Buenos
+Aires
+que después de las manifestaeiones que
+formulé al principio de esta sesion, me resuite
+violento
+no poder eomplaeerlo. Ayer se lo ex-
+presaba
+en privado:
+que deseaba escucliar al
+senor senador por Buenos Aires previamente;
+y daba mis
+razones. El informe escrito pre-
+sentado
+— salvando los respetos debidos
+—<
+en mi concepto, no dice nada, y entonces inte-
+resaba
+conoeei~ los fundamentos
+de
+1# comi¬
+sion. Parte los ha dado el senor senador por
+San Luis,
+con eloeuencia y con mucha preci¬
+sion, desde su punto de vista; pero, en reali-
+dad, el senor miembro informante de la comi¬
+sion,
+me interesa escucharlo. Es posible que
+pueda variar mi criterio después de escucliar
+esos datos, y entonces me ha de resultar inte-
+resante, desde mi punto de vista, oir a la eo-
+misiôn.
+Sr.
+Sanchez Sorondo. — El informe de la
+mayoria ha sido dado por escrito. Si ese infor¬
+me
+no satisfaee al senor senador, yo no puedo
 mejorarlo.
-
-Sr. Eguiguren, - Vuelvo a repetir; lo he dicho con entera sinceridad: el informe por escrito de la comision da la sepsacién, para
+Sr. Eguiguren,
+— Vuelvo
+a repetir; lo he
+dicho
+con
+entera sinceridad:
+el informe por
+escrito
+de la comision da la sepsacién, para
 ```
 
 ## Images, Captions, And Visual Notes
@@ -817,7 +1562,7 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/manifest.json`
 - Source page: 737
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/page-images/page-0737.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -829,45 +1574,310 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-los que actuamos ante los tribunales, de esos casos de pleitos perdidos, en que en vez de concretarse al asunto, se habla de generalidades, de vaguedades y de aspeetos teôricos para salir del paso.
-
-De manera que, coneretamente, no liabria nada. Supongo y espero que babrâ mas que ese informe escrito y por eso deseo es'cuchar al seiïor senador
-
-por Buenos Aires.
-
-Sr. Présidente. - El asunto esta reglamentariamente resuelto. Si ningun senor senadoi bace uso de la palabra, se va a votaien gene¬ ral el
-
-despaeho de la comisiôn.
-
-Sr. Bravo, - Pido que la votaciôn sea no¬
-
+de 1936
+CAMARA. DE SENADORES DE LA NACION
+1329
+los
+que actuamos
+ante los tribunales,
+de
+esos
+casos
+de pleitos perdidos,
+en
+que
+en
+vez
+de
+concretarse
+al
+asunto,
+se
+habla
+de generali-
+dades,
+de vaguedades y
+de
+aspeetos teôricos
+para salir del paso.
+De
+manera
+que,
+coneretamente,
+no
+liabria
+nada.
+Supongo
+y
+espero
+que babrâ
+mas
+que
+ese informe
+escrito
+y por
+eso
+deseo
+es'cuchar
+al seiïor senador por Buenos Aires.
+Sr. Présidente.
+— El asunto
+esta reglamen-
+tariamente resuelto.
+Si ningun
+senor senadoi
+bace uso de la palabra,
+se va
+a votai-
+en gene¬
+ral el despaeho de la comisiôn.
+Sr. Bravo,
+— Pido
+que la votaciôn
+sea
+no¬
 minal.
-
-## Sr. Garcia Fernandez. - Pido la palabra.
-
-Comprendo que el Senado estarâ fatigado con este debate prolongado, pero como soy unico re¬ présentante de un partido en este recinto, deseo pronuneiar unas breves palabras para fundar nii voto.
-
-El asunto de la coordinaeiôn del transporte, que originariamente deberia ser solamente un problema técnico y administrative, diré asi, se ha convertido, por virtud de las circunstancias, en un problema de proyecciones nacionales, Y si bien en el reeinto se han guardado las for¬ mas, como corresponde a todo debate entre los senores senadores, no podemos mënos de recoger las versiones que eirculan, profusamente, de que los senadores que van a votar el despaeho de la mayorla de la comisiôn, se disponen a èntregar los transportes de la Capital al capita¬ lisme
-
-extranjero.
-
-Yo, senor présidente, perlenezeo a un partido dcmocrâtico, y aun cuando no tengo ningun mandato imperativo, creo que faltaria a mi deber si mi voto, favorable en este caso, importera aseverar lo que se dice.
-
-El capitalisme, senor présidente, para mî es lo mismo, ya sea extranjero o sea naeional, siempre que respete las leyes del pais. Si no las respetara, habria llegado el momento de que es¬ te Congreso y el Poder Ejecutivo lo hieiera encuadrar dentro de la ley. Mientras tanto, no veo ningun peligro eh que se organiee una sociedad, un consorcio que dirija los transportes on la Capital, aunque' en él partieipen capitales ex-
-
+Sr. Garcia Fernandez.
+— Pido la palabra.
+Comprendo que el Senado estarâ fatigado con
+este debate prolongado, pero como soy unico re¬
+présentante de un partido en este recinto, deseo
+pronuneiar
+unas
+breves palabras
+para fundar
+nii voto.
+El asunto
+de la coordinaeiôn del transporte,
+que originariamente
+deberia
+ser solamente
+un
+problema técnico y administrative, diré asi,
+se
+ha convertido, por virtud de las circunstancias,
+en
+un problema de proyecciones nacionales,
+Y
+si bien
+en el reeinto
+se han guardado las for¬
+mas,
+como corresponde
+a todo debate
+entre los
+senores senadores, no podemos mënos de recoger
+las
+versiones que
+eirculan,
+profusamente,
+de
+que los senadores
+que van
+a votar el despaeho
+de la mayorla de la comisiôn, se disponen a èn-
+tregar los transportes
+de la Capital al capita¬
+lisme extranjero.
+Yo, senor présidente, perlenezeo a un partido
+dcmocrâtico,
+y
+aun
+cuando
+no tengo
+ningun
+mandato imperativo, creo que faltaria
+a mi
+de-
+ber si mi voto, favorable en este caso, importera
+aseverar lo que se dice.
+El capitalisme,
+senor présidente, para mî
+es
+lo mismo, ya sea extranjero o sea naeional, siem-
+pre
+que respete las leyes
+del
+pais.
+Si
+no
+las
+respetara, habria llegado el momento de que
+es¬
+te Congreso y el Poder Ejecutivo lo hieiera en-
+cuadrar dentro de la ley. Mientras tanto, no veo
+ningun peligro eh que se organiee una sociedad,
+un
+consorcio
+que dirija
+los transportes
+on
+la
+Capital,
+aunque' en
+él partieipen capitales
+ex-
 tranjeros.
-
-Es evidentemente, senor présidente, un anhelo de todo argentino que nuestro pais pueda independizarse financieramente, pero, desgraciadamente, esto no es por el momento posible, y mientras esto no sea posible los capitales extranjeros no tienen por que ser tratados de diferente manera que los capitales
-
-nacionales, porque clips también contribuyen a la grandeza de nuestrai patria.
-
-Tampoeo creo que esta euestiôn del monopolio de transportes en las capitales pueda encararse bajo el punto de vista del izquierdismo o de las derechas, de la democraeia o de la aristocracia o el faseismo. En Londres, como dice el informe de 1a. mayoria, durante el gobierno laborista se ha heclio el monopolio del transporte en la eiudad de Londres. De manera que bajo ninguno de esos dos aspeetos me siento molesto al votar el despaeho de la comisiôn. Lo que si observo es que la ley es bastante vaga y ambigua; tiene numerosas lagunas, que han destaeado con elocuencia los seiiores senadores por la Capital y por Santa Pe. Pero entiendo que en una ley no se pueden contemplar todos los detalles. El Poder Ejecutivo de la Naciôn, al reglamentarla, tendra en euenta los diferentes puntos que han sido motivo de discusiôn por considerarse que no son suficientemente claros. Al reglamentar con equidad la ley, evitarâ que se cometan las injusticias que se han senalado.
-
-La comisiôn especial a designarse por disposiciôn del articulo 29 de este proyecto, es a mi juicio la que tendra que resolver la parta mâs importante del mismo, ya que deberâ determinar los capitales de las empresas que ingresen a esta eorporaciôn, y tendra que procé¬ der con eriterio ecuânime al fijar el valor de esos capitales, piles de lo contrario podriamos eneontrarnos con que las empresas aparezean aportando capitales demasiado altos, en relaciôri al exacto valor, de los mismos. La tasaciôn que deberâ realizarse para fijar definitivamente su valor ha de ser pues tarea importante y sirniamente delicada.
-
-También deberâ contemplar la situaciôn de los dueûos de automôviles coleetivos. No deberâ limitarse tan solo a expropiar el vehîculo por su valor intrinseco, va que ese vehîculo constituyè no solo un capital, sino a la vez un instru¬ mente de trabajo, y en la indemnizaciôn, tam¬ bién deberâ comprenderse el valor que elle re¬ présenta,
-
-Espero, que el Poder Ejecutivo eu la reglamentaciôn de la ley, al procéder con la ecuanimidad que lo ha caraeterizado hasta ahora en sus actos, se preocuparâ de haeer respectai' todos los dereehos, tanto los del pueblo que se verîa perjudicado con una inflaeiôn injtistificada del capital de las empresas, como los interesés particulares de los que trabajan con automôviles propios en las lineas de colee¬ tivos.
+Es evidentemente, senor présidente, un anhe-
+lo de todo argentino que nuestro pais pueda in-
+dependizarse financieramente,
+pero,
+desgracia-
+damente, esto no
+es por el momento posible, y
+mientras esto no sea posible los capitales extran-
+jeros no tienen por que ser tratados de diferente
+manera que los capitales nacionales, porque clips
+también
+contribuyen
+a la grandeza
+de nuestrai
+patria.
+Tampoeo creo
+que esta euestiôn del monopo-
+lio de transportes
+en las capitales pueda
+enca-
+rarse bajo el punto de vista del izquierdismo
+o
+de las derechas, de la democraeia
+o de la aris-
+tocracia o el faseismo. En Londres, como dice el
+informe
+de
+1a. mayoria, durante el gobierno la-
+borista se ha heclio el monopolio del transporte
+en la eiudad de Londres. De
+manera que bajo
+ninguno de esos dos aspeetos
+me siento molesto
+al votar
+el despaeho de la comisiôn. Lo
+que si
+observo
+es que la ley es bastante vaga y ambi-
+gua; tiene
+numerosas lagunas,
+que han
+desta-
+eado
+con
+elocuencia
+los seiiores
+senadores
+por
+la Capital y por Santa Pe. Pero entiendo que
+en
+una ley no
+se pueden contemplar todos los
+detalles. El Poder Ejecutivo
+de la Naciôn,
+al
+reglamentarla,
+tendra
+en euenta
+los diferentes
+puntos
+que han sido motivo
+de discusiôn
+por
+considerarse que
+no
+son suficientemente claros.
+Al reglamentar con equidad la ley, evitarâ que
+se cometan las injusticias que se han senalado.
+La
+comisiôn especial
+a designarse
+por dis-
+posiciôn del articulo
+29
+de
+este proyecto,
+es
+a
+mi juicio la
+que tendra
+que resolver la parta
+mâs importante del mismo,
+ya
+que deberâ de-
+terminar los capitales de las
+empresas
+que in-
+gresen a esta eorporaciôn, y tendra que procé¬
+der con eriterio ecuânime al fijar el valor de esos
+capitales,
+piles
+de lo contrario
+podriamos
+en-
+eontrarnos
+con
+que
+las
+empresas
+aparezean
+aportando capitales demasiado altos, en relaciôri
+al exacto valor, de los mismos. La tasaciôn
+que
+deberâ realizarse para fijar definitivamente
+su
+valor ha de
+ser pues tarea importante y sirnia-
+mente delicada.
+También
+deberâ
+contemplar la situaciôn
+de
+los dueûos de automôviles coleetivos. No deberâ
+limitarse tan solo
+a expropiar el vehîculo
+por
+su valor intrinseco, va que
+ese vehîculo consti-
+tuyè no solo un capital, sino
+a la vez un instru¬
+mente
+de trabajo, y
+en la indemnizaciôn,
+tam¬
+bién deberâ comprenderse
+el valor
+que elle
+re¬
+présenta,
+Espero,
+que el Poder Ejecutivo
+eu la regla-
+mentaciôn de la ley, al procéder
+con la ecua-
+nimidad
+que lo ha caraeterizado hasta
+ahora
+en
+sus actos,
+se preocuparâ de haeer respectai’
+todos
+los dereehos,
+tanto
+los
+del pueblo
+que
+se verîa perjudicado
+con una inflaeiôn injtis-
+tificada del capital de las empresas,
+como los
+interesés particulares de los que trabajan
+con
+automôviles
+propios
+en
+las
+lineas
+de
+colee¬
+tivos.
 ```
 
 ## Images, Captions, And Visual Notes
@@ -907,7 +1917,7 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/manifest.json`
 - Source page: 738
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/page-images/page-0738.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -919,52 +1929,221 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-Sr. de la Torre. - jMe permite el senor senador una interrupciôn? El proyecto de ley en discusiôn establece que la indemnizacion a abonarse eonsistirâ en el valor eorriente del yehiculo expropiado, menos el desgaste causado por el uso. El Poder Ejeeutivo al reglamentar la ley no podrâ apartarse de su texto.
-
-Sr. Garcia Fernandez. - Pero el Poder Ejecutivo podrâ contemplai' la situaciôn especial en que se eneuentran los duenos de automôviles eoleetivos, haciéndoles ingresar en la corporaciôn con .sueldos que le compensen la expropiaeiôn del véhicula propio usado como instrumento de trabajo.
-
-Sr. de la Torre. - Eso es: el salario como uniea compensaeiôn a que tienen derecho millares de hombres, que lograron independizarse y trabajar por cuenta propia.
-
-nor voy a De modo, senor présidente, que teniendo fe en los procedimientos del Poder Ejeeutivo, y creyendo que procédera con el patriotismo que liasta ahora ha- demostrado, es que daré mi yoto en favor de este proyecto, en la convicciôn de que con ello no comprometo la autonomia del pais, ni entrego el sistema de transportes de esta ciudad a los capitales extranjeros; como también que al hacerlo asi, no infrinjo ninguna norma democrâtica, ni ninguno de los principios que sustenta mi
-
-Sr. Garcia Fernandez. - Pennitame el sesenador; continuar.
-
+1330
+CAMARA DE SENADORES DE LA NACION
+Septiembre 29 y 30
+Sr. de la Torre. — jMe permite el senor se-
+nador
+una interrupciôn? El proyecto de ley
+en discusiôn establece que la indemnizacion a
+abonarse eonsistirâ
+en el valor eorriente del
+yehiculo expropiado,
+menos el desgaste cau-
+sado por el uso. El Poder Ejeeutivo al regla-
+mentar la ley no podrâ apartarse de su texto.
+Sr. Garcia Fernandez. — Pero el Poder Eje-
+cutivo podrâ contemplai’ la situaciôn especial
+en que se eneuentran los duenos de automôvi-
+les
+eoleetivos,
+haciéndoles ingresar
+en la cor-
+poraciôn con .sueldos que le compensen la ex-
+propiaeiôn
+del
+véhicula propio
+usado
+como
+instrumento de trabajo.
+Sr. de la Torre.
+— Eso es: el salario como
+uniea compensaeiôn a que tienen derecho mi-
+llares de hombres, que lograron independizar-
+se y trabajar por cuenta propia.
+Sr.
+Garcia Fernandez.
+— Pennitame el
+se-
+nor senador; voy a continuar.
+De modo, senor présidente, que teniendo fe
+en los procedimientos del Poder Ejeeutivo, y
+creyendo
+que
+procédera
+con
+el patriotismo
+que liasta ahora ha- demostrado, es que daré mi
+yoto
+en favor de este proyecto, en la convic-
+ciôn
+de
+que
+con ello
+no comprometo la au-
+tonomia
+del
+pais, ni
+entrego
+el sistema
+de
+transportes de esta ciudad a los capitales ex-
+tranjeros;
+como también
+que al hacerlo asi,
+no
+infrinjo
+ninguna
+norma
+democrâtica, ni
+ninguno
+de
+los
+principios
+que sustenta
+mi
 partido.
-
-Sr. Sanchez Sorondo. - Pido la palabra.
-
-- Sr. Présidente. - Voy a consulter al Ho¬ norable Senado si no desea pasar a euarto intermedio para reanudar después la sesiôn. Co¬ mo la Câmara hace cinco lioras y media que
-
+Sr. Sanchez Sorondo.
+— Pido la palabra.
+Sr.
+Présidente.
+— Voy
+a consulter al Ho¬
+norable Senado si no desea pasar a euarto in-
+termedio para reanudar después la sesiôn. Co¬
+mo la Câmara hace cinco lioras y media que
 sesiona, podria estar fatigada.
-
-Sr. Sanchez Sorondo. - A un breve euarto intermedio.
-
--Ascnliiniento.
-
-Sr. Présidente. - Invito a los seiiores senadores a pasar a ün breve euarto intermedio.
-
--Asi sc liaee siendo las 21 y 30.
-
--Siendo las 22
-
-y 20 dice el
-
-Sr. Présidente. - Continua la sesiôn. Tiene la palabra el senor miembro informante de la comisiôn.
-
-Sr. Sanchez Sorondo. - C'uando el senor présidente de la Comisiôn Especial de Trans¬ portes me pidiô, en nombre de la mayoria, que
-
-fuera el miembro informante de este asunto, accedi de inmediato, creyendo eumplir con un deber.
-
-Son conocidas del Senado las incidencias que determinaron la composiciôn de dicha co¬ misiôn, a la que me incorporé en los ultimes tiempos. Pero no podia excusarme de asumir la responsabilidad a que se me invitaba, por cuanto reivindico, y abora mas elaramente que nunca, después de algunos de los discursos que hemos escuchado, el honor de haber promovido como ministro del Interior del Gobierno Provi¬ sional., el estudio de esta cuestiôn, que boy se viene a resolver en el proyecto de ley que estamos discutiendo.
-
-Aqui se nos quierc présentai' como los defensores interesados del eapitalismo extranjero, como a los que pretendemos entregar el pais maniatado a las eombinaciones arteras de los que quieren comerciar hasta con nuestra dignidad, nuestro decoro y nuestra soberanîa.
-
-Y es bueno dc-cir estas palabras, senor prési¬ dente, para desvirtuar todo lo que hay de sola-, pado en las ircputaciones que se han escu¬ chado. Yo afronto pûblicâmente todas las posiciones que adopto, y cuando tengo que decir alguna cosa, la digo con sus propios términos; no sugiero ni insinuo.
-
-Yo soy, no un defensor del eapitalismo extranjero, como notoriamente lo acredita mi aetuaciôn, y es bien sabido que mi voz lia sido siempre de las primeras en alzarse contra lo que yo eonceptuo los avances de ese eapitalis¬ mo, lo que yo creo que son verdaderos mono¬ polios. Y boy mismo, senor présidente, doy la prueba fehaeiente de ello, babiendo promovido en el seno de la Comisiôn Especial de Trans¬ portes la cuestiôn de que es indispensable priinero, antes de dar la ley de la coordinaeiôn ferroviaria, estudiar la manera de que esas soeiedades se- hagan sociedades argentinas, y doy la segunda prueba con este despaclio, en el que las soeiedades extranjeras se convierten en sociedades argentinas, es decir en una sociedad argentina, no solamente desde el punto de vista legal por su personeria juridica ; no solamente desde el pnnto de vista real porque los capitales estân radicados aqui, sino porque vienen a formai' parte en esa so¬ ciedad la intendencia de la Capital y el go¬ bierno de la Naciôn, y porque esa sociedad es una corporaeiôn controlada por una comisiôn especial compuesta por très ciudadanos nativos argentinos, nombrados por el Poder Eje-
-
-cutivo, con acuerdo del Senado.
-
+Sr. Sanchez Sorondo.
+— A un breve euarto
+intermedio.
+—Ascnliiniento.
+Sr.
+Présidente.
+— Invito
+a los seiiores
+se-
+nadores a pasar a ün breve euarto intermedio.
+—Asi
+sc
+liaee
+siendo
+las
+21
+y
+30.
+—Siendo las 22 y 20 dice el
+Sr. Présidente.
+— Continua la sesiôn. Tiene
+la palabra
+el
+senor miembro informante de
+la comisiôn.
+Sr.
+Sanchez Sorondo.
+— C'uando
+el senor
+présidente de la Comisiôn Especial de Trans¬
+portes me pidiô, en nombre de la mayoria, que
+fuera el miembro informante de este asunto,
+accedi de inmediato, creyendo eumplir con un
+deber.
+Son
+conocidas
+del
+Senado
+las incidencias
+que determinaron la composiciôn de dicha co¬
+misiôn,
+a
+la
+que me incorporé en los ultimes
+tiempos. Pero
+no podia excusarme de asumir
+la responsabilidad
+a que
+se me invitaba, por
+cuanto reivindico, y abora mas elaramente que
+nunca, después de algunos de los discursos que
+hemos escuchado, el honor de haber promovido
+como ministro del Interior del Gobierno Provi¬
+sional., el estudio de esta cuestiôn, que boy se
+viene
+a resolver en el proyecto de ley que es-
+tamos discutiendo.
+Y
+es bueno dc-cir estas palabras, senor prési¬
+dente, para desvirtuar todo lo que hay de sola-,
+pado
+en
+las ircputaciones
+que
+se han
+escu¬
+chado.
+Yo afronto pûblicâmente todas las po-
+siciones que adopto, y cuando tengo que decir
+alguna cosa, la digo con sus propios términos;
+no sugiero ni insinuo.
+Aqui se nos quierc présentai’ como los defen-
+sores
+interesados
+del eapitalismo extranjero,
+como
+a los
+que pretendemos entregar el pais
+maniatado
+a las eombinaciones arteras de los
+que quieren comerciar hasta con nuestra dig-
+nidad, nuestro decoro y nuestra soberanîa.
+Yo soy, no un defensor del eapitalismo ex-
+tranjero,
+como
+notoriamente
+lo acredita mi
+aetuaciôn, y es bien sabido que mi voz lia sido
+siempre
+de las primeras
+en alzarse contra lo
+que yo eonceptuo los avances de ese eapitalis¬
+mo, lo que yo creo que son verdaderos mono¬
+polios. Y boy mismo, senor présidente, doy la
+prueba fehaeiente de ello, babiendo promovido
+en el
+seno
+de la Comisiôn Especial de Trans¬
+portes la cuestiôn de que es indispensable pri-
+inero, antes de dar la ley de la coordinaeiôn
+ferroviaria, estudiar la
+manera de
+que esas
+soeiedades
+se- hagan sociedades argentinas, y
+doy la segunda prueba con este despaclio, en
+el
+que las soeiedades extranjeras se convier-
+ten
+en sociedades argentinas, es decir en una
+sociedad
+argentina,
+no
+solamente
+desde
+el
+punto de vista legal por su personeria juri-
+dica ;
+no solamente desde el pnnto de vista
+real porque los capitales estân radicados aqui,
+sino porque vienen a formai’ parte en esa so¬
+ciedad la intendencia
+de
+la Capital y el
+go¬
+bierno de la Naciôn, y porque esa sociedad es
+una corporaeiôn controlada por una comisiôn
+especial compuesta por très ciudadanos nati-
+vos argentinos, nombrados por el Poder Eje-
+cutivo,
+con acuerdo del Senado.
 Y, caso curioso, la oposiciôn a este proyecto
 ```
 
@@ -1091,7 +2270,7 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/manifest.json`
 - Source page: 740
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/page-images/page-0740.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -1103,43 +2282,222 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-Nada mas dispar, nada mas desordenado, nada mâs inequitativo que las condiciones en que eada uno de estos sistemas de transporte presta sus servicios, desde el punto de vista de las tarifas, desde el punto de vista de los horarios, desde el punto de vista de los impuestos y desde el punto de vista de las responsabili-
-
+1332
+CAMARA DE SENADORES DE LA NACION
+Septiembre 29 y 30
+Nada
+mas
+dispar,
+nada
+mas
+desordenado,
+nada mâs inequitativo
+que las condiciones en
+que eada uno de estos sistemas de transporte
+presta sus servicios, desde el punto de vista de
+las tarifas, desde el punto de vista de los ho-
+rarios, desde el punto de vista de los impuestos
+y desde el punto de vista de las responsabili-
 dades.
-
-Tengo aqui un cuadro comparative, del que voy a dar lectura al Senado, que informa con exaetitud de las diferencias a que acabo de referirme.
-
-Tarifas. Los tranvias eobran diez centavos y a los obreros cineo centavos; los omnibus, diez y quince centavos, sin rebaja para obreros; los coleetivos de diez a cincuenta centavos, sin re¬
-
+Tengo aqui un cuadro comparative, del que
+voy a dar lectura al Senado, que informa con
+exaetitud de las diferencias a que acabo de re-
+ferirme.
+Tarifas. Los tranvias eobran diez centavos y
+a los obreros cineo centavos; los omnibus, diez
+y quince centavos, sin rebaja para obreros; los
+coleetivos de diez a cincuenta centavos, sin re¬
 baja.
-
-Horarios. Los tranvias y los omnibus tienen lierarios rigidos; los coleetivos tienen un servicio flexible, de acuerdo al movimiento; su ûnica obligaciôn es tener un coche por cada kilômetro de recorrido.
-
-Impuestos. Los tranvias el 6 % del ingreso bruto ; el 12 % adicional del ingreso en exceso de 50.000 pesos por ano y por kilômetro de via ; patente anual de 50 y 100 pesos por cuadra de via simple y doble; sueldos de inspeetores municipales; impuesto de coneesiôn de 300 y 500 pesos por cuadra de via y todos los otros impuestos de carâcter general, como contribuciôn territorial, obras sanitarias, impuesto mu¬ nicipal, derechos de aduana, eteétera. Impuesto de pavimentaeiôn : hasta 1932, los tranvias pagaron, de acuerdo con las leyes numéros 4.391 y 7.091, la cuarta parte de los pavimentos construidos en todas las ealles que recorrian ; a par¬ tir de 1933, esta contribuciôn corresponde al ipiporte de una franja de pavimento de 15 centimetros a cada lado de cada riel, de acuerdo a la ley numéro 11 593.
-
-Por impuestos anteriormente enumerados, se abonô en 1928 $ 6.900.000; en 1935, $ 3.477.000; por impuesto de pavimentaeiôn se ha abonado en
-
-1928, $ 539.000 y en 1935, $ 940.000.
-
-Esta es la earga de los tranvias. Los omnibus, nada, absolutamente nada. Los coleetivos, na¬ da, absolutamente nada.
-
-Los tranvias proveen uniformes gratuitamente a todo su personal; los omnibus, por exeepciôn; los coleetivos, jamâs.
-
-Los tranvias cumplen con todas las leyes so¬ ciales: la ley de accidentes numéro 9.688, la ley nûmero 11.544, de jornada legal; tienen mutualidad para el personal y las familias, en cuyos gastos participan. Los omnibus solo cumplen con la ley de accidentes y no tienen jornada legal. Los coleetivos no aeatan ninguna ley so¬ cial, no aeatan la ley de accidentes numéro 9.688, porque los obreros del colectivo son en su mayoria duenos de coches y trabajan de 10 a 14 horas diarias, eon el peligro que estas con¬ diciones onerosas supone para el obrero y pa¬ ra la seguridad de los pasajeros.
-
-En materia de jubilaciôn, los obreros tranviarios gozan de la jubilaciôn de la ley nûme¬ ro 11.110. Los empleados de los omnibus, nin¬ guna ; los empleados de los coleetivos, ninguna. En materia de seguro eontra accidentes, los tranvias responden por todos los danos que causan a personas y cosas; los omnibus, salvo pequenas empresas, que pueden desaparecer a raiz de un accidente grave, también responden por los danos que causan a personas y cosas; los coleetivos jamâs, por tratarse en su mayoria de obreros no solventes, que no responden por las vidas que suprimen y por los danos que causan.
-
-En estas condiciones, a las que hay que agregar la diferente situaciôn juridica de los titulos en virtud de los cuales estas empresas realizan el servicio - una, coneesiôn de ley nacional; otra, coneesiôn de ordenanza muni¬ cipal, y otras, permiso precario - en estas condiciones, repito, se realiza el servicio de
-
-transporte en la capital de la Republica.
-
-En los tranvias hay 2.700 coches a nivel ; 219 subterrâneos, con 12.580 empleados; omnibus hay 1.600 coches, con 8.780 empleados, y colee¬ tivos 3.000 coches, con 6.500 obreros em¬
-
+Horarios. Los tranvias y los omnibus tienen
+lierarios rigidos; los coleetivos tienen un ser-
+vicio flexible,
+de acuerdo al movimiento;
+su
+ûnica obligaciôn
+es tener un coche por cada
+kilômetro de recorrido.
+Impuestos. Los tranvias el 6 % del ingreso
+bruto ; el 12 % adicional del ingreso en exceso
+de 50.000
+pesos por
+ano y por kilômetro de
+via ; patente anual de 50 y 100 pesos por cuadra
+de via simple y doble; sueldos de inspeetores
+municipales; impuesto de coneesiôn de 300 y
+500 pesos por cuadra de via y todos los otros
+impuestos de carâcter general, como contribu-
+ciôn territorial, obras sanitarias, impuesto mu¬
+nicipal, derechos de aduana, eteétera. Impuesto
+de pavimentaeiôn : hasta 1932, los tranvias pa-
+garon, de acuerdo con las leyes numéros 4.391
+y 7.091, la cuarta parte de los pavimentos cons-
+truidos en todas las ealles que recorrian ; a par¬
+tir de 1933, esta contribuciôn corresponde al
+ipiporte de una franja de pavimento de 15 cen-
+timetros a cada lado de cada riel, de acuerdo
+a la ley numéro 11 593.
+Por impuestos anteriormente enumerados, se
+abonô en 1928 $ 6.900.000; en 1935, $ 3.477.000;
+por impuesto de pavimentaeiôn se ha abonado
+en 1928, $ 539.000 y en 1935, $ 940.000.
+Esta es la earga de los tranvias. Los omnibus,
+nada, absolutamente nada. Los coleetivos, na¬
+da, absolutamente nada.
+Los tranvias proveen uniformes gratuitamen-
+te
+a todo su personal; los omnibus, por exeep-
+ciôn; los coleetivos, jamâs.
+Los tranvias cumplen con todas las leyes so¬
+ciales: la ley de accidentes numéro 9.688, la ley
+nûmero 11.544, de jornada legal; tienen mutua-
+lidad para el personal y las familias, en cuyos
+gastos participan. Los omnibus solo cumplen
+con la ley de accidentes y no tienen jornada
+legal. Los coleetivos no aeatan ninguna ley so¬
+cial, no aeatan
+la ley
+de
+accidentes numéro
+9.688, porque los obreros del colectivo son
+en
+su mayoria duenos de coches y trabajan de 10
+a 14 horas diarias, eon el peligro que estas con¬
+diciones
+onerosas supone para el obrero y pa¬
+ra la seguridad de los pasajeros.
+En materia de jubilaciôn, los obreros tran-
+viarios gozan de la jubilaciôn de la ley nûme¬
+ro 11.110. Los empleados de los omnibus, nin¬
+guna ; los empleados de los coleetivos, ninguna.
+En
+materia
+de
+seguro
+eontra accidentes, los
+tranvias responden por todos los danos que cau-
+san
+a personas y cosas; los omnibus, salvo pe-
+quenas empresas, que pueden desaparecer a raiz
+de un accidente grave, también responden por
+los danos que
+causan
+a
+personas y cosas; los
+coleetivos jamâs,
+por tratarse
+en su mayoria
+de obreros no solventes, que no responden por
+las
+vidas
+que suprimen y por los danos
+que
+causan.
+En estas condiciones, a las que hay que agre-
+gar la diferente situaciôn juridica de los titu-
+los
+en
+virtud
+de
+los
+cuales
+estas
+empresas
+realizan el servicio
+—
+una, coneesiôn de ley
+nacional; otra, coneesiôn de ordenanza muni¬
+cipal,
+y otras, permiso precario
+—
+en estas
+condiciones, repito,
+se realiza el servicio
+de
+transporte
+en la capital de la Republica.
+En los tranvias hay 2.700 coches a nivel ; 219
+subterrâneos,
+con 12.580 empleados; omnibus
+hay 1.600 coches, con 8.780 empleados, y colee¬
+tivos
+3.000
+coches,
+con
+6.500
+obreros
+em¬
 pleados.
-
-El eonoeimiento de estas cifras, serior pré¬ sidente, ilustra suficientemente la indole y tendencia de los intereses que, en primer término, aparecen oponiéndose a la ley de coordinaciôn. Los coleetivos, estos coleetivos que hoy existen y que estân en estas condiciones tan privilegiadas, no pueden aceptar, no pueden querer, que verga una ley que los coloque en igualdad de condiciones eon las otras empre¬ sas que hacen el mismo servicio. jNaturalmente! Los colectiveros no pagan absoluta¬ mente nada mâs que la patente por cada coche y tienen una tarifa cuyo minime es igual al mâximo delos tranvias, 10 centavos, y cuyo. mâximo es de 50 centavos, recorriendo exactamente las mismas zonas que los tranvias recorren recibiendo solamente 10 centavos. Y los tranvias, como son empresas del capitalismo inglés, tienen que pagar todas estas dife¬ rencias.
-
-Y a propôsito de la tarifa, y para que no se me olvide, quiero reeordar al Senado que lo ünico que no ha subido. en el pais es el
+El
+eonoeimiento
+de
+estas cifras, serior pré¬
+sidente, ilustra suficientemente la indole y ten-
+dencia de los intereses que, en primer término,
+aparecen oponiéndose
+a la ley
+de coordina-
+ciôn. Los coleetivos,
+estos coleetivos
+que hoy
+existen y
+que estân
+en estas condiciones tan
+privilegiadas,
+no pueden aceptar,
+no pueden
+querer,
+que verga una ley que los coloque en
+igualdad de condiciones
+eon las otras empre¬
+sas
+que
+hacen
+el
+mismo
+servicio.
+jNatural-
+mente!
+Los
+colectiveros
+no
+pagan absoluta¬
+mente nada mâs que la patente por cada coche
+y tienen una tarifa
+cuyo minime
+es igual al
+mâximo
+de- los tranvias, 10 centavos, y
+cuyo.
+mâximo
+es de 50 centavos, recorriendo exacta-
+mente
+las
+mismas
+zonas
+que los tranvias re-
+corren recibiendo solamente 10 centavos. Y los
+tranvias,
+como
+son
+empresas del capitalismo
+inglés,
+tienen
+que
+pagar
+todas
+estas
+dife¬
+rencias.
+Y
+a propôsito de la tarifa, y para que no
+se
+me olvide, quiero reeordar al Senado que
+lo
+ünico
+que
+no ha subido.
+en el pais
+es el
 ```
 
 ## Images, Captions, And Visual Notes

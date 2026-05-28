@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-84e2ec81cd36-P0173-01
+chunk_id: CHUNK-2ed10e11587b-P0173-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175.codex.md
-converted_sha256: 84e2ec81cd361b0a39383bc851eb99453457d94ddeb9b2b9470aeee691ef4f29
+converted_sha256: 2ed10e11587be1f37de0911f29bf6a76158a8a6701b2c33c714c8587002b79c5
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175/manifest.json
@@ -18,7 +18,7 @@ part: 1
 - Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175/manifest.json`
 - Source page: 173
 - Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175/page-images/page-0173.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -30,49 +30,193 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-diputado Dickmaxm: tratândose de estos asuntos nada tenemos que pensar ni menos poner110s a meditar sobre cuâl sera el recurso. Lo urgente, lo indispensable, lo justo es remediar la necesidad de la inmensa mayorîa de los trabajadores que son los que haeen efeetiva la grandeza nacional y la riqueza pûbliea.
-
-Nada mâs.
-
-(Aplatisos).
-
-Sr. Présidente (Sanchez de Bustamante). -
-
+fàe 1921'
+CAMARA DE DIPUTAD03
+1781
+diputado Dickmaxm: tratândose de estos asun-
+tos nada tenemos que pensar ni menos poner-
+110s
+a meditar sobre cuâl sera el recurso. Lo
+urgente, lo indispensable, lo justo es remediar
+la necesidad de la inmensa mayorîa de los tra-
+bajadores
+que
+son los
+que haeen efeetiva la
+grandeza nacional y la riqueza pûbliea.
+Nada mâs. (Aplatisos).
+Sr. Présidente (Sanchez de Bustamante). —
 j. Apepta la eomisiôn?
-
-Sr. Rodriguez (C. J.) - En un asunto tan delicado sobre el cual la eomisiôn ya ha deliberado, muy diflcil es consultarla en este momento.
-
-La eomisiôn se lia decidido por una eircunstaneia finaneiera, del momento, que yo pen-.onalmente no le atribuyo tâmpoco capital importaneia ante la importancia suprema que hay de asegurar esta nueva orientaciôn eeonômica en la Repûblica. Para aquellos que creen que égto va a ejercer una influencia perniciosa en la industria, en el trabajo y en la produccion en general, yo contesto, para mi es precisamente lo benefieioso que tiene: empezar eon esta orien¬ tacion eeonômica moderna para que la indus¬ tria pueda distribuir los bénéficies que le corresponden al trabajo en una nueva orientaeicn; porque ante todo y sobre todo habrâ de retribuirse debidamente el trabajo y correspon¬ de al estado dar el primer ejemplo en este pais para que marche liacia una nueva organizaeion eeonômica y social.
-
+Sr. Rodriguez (C. J.)
+— En un asunto tan
+delicado sobre el cual la eomisiôn ya ha deli-
+berado, muy diflcil es consultarla en este mo-
+mento.
+La eomisiôn se lia decidido por una eircuns-
+taneia finaneiera, del momento, que yo pen-.o-
+nalmente
+no le atribuyo tâmpoco capital im-
+portaneia ante la importancia suprema que hay
+de
+asegurar esta nueva orientaciôn eeonômica
+en la Repûblica. Para aquellos que creen que
+égto
+va
+a ejercer una influencia perniciosa en
+la industria,
+en el trabajo y en la produccion
+en general, yo contesto, para mi es precisamente
+lo benefieioso que tiene: empezar eon esta orien¬
+tacion
+eeonômica moderna para que la indus¬
+tria pueda distribuir los bénéficies que le co-
+rresponden al trabajo en una nueva orienta-
+eicn; porque ante todo y sobre todo habrâ de
+retribuirse debidamente el trabajo y correspon¬
+de al estado dar el primer ejemplo en este pais
+para que marche liacia una nueva organizaeion
+eeonômica y social.
+Esto para mi
+es fundamental, como es fun¬
+damental también
+pagar debidamente
+el
+tra¬
+bajo de los servidores del estado que eonstituye
+una deuda publica, de tal manera que ante esa
+exigencia deben ceder todas las otras exigen¬
 cies de carâcter financière.
-
-Esto para mi es fundamental, como es fun¬ damental también pagar debidamente el tra¬ bajo de los servidores del estado que eonstituye una deuda publica, de tal manera que ante esa exigencia deben ceder todas las otras exigen¬
-
-Bien decîa el senor diputado Dickmann, y yo también lo dije en sesiones anteriores, que en presencias de gastos de esa naturaleza no podia tenerse la consideraciôn de que el estado carezca de recursos, mientras el pais los ten-
-
+Bien decîa el senor diputado Dickmann, y
+yo también lo dije en sesiones anteriores, que
+en
+presencias de gastos de
+esa naturaleza no
+podia tenerse la consideraciôn de que el estado
+carezca
+de recursos, mientras el pais los ten-
 ga, y su riqueza sea suficiente y prospéra.
-
-En ese sentido bay que orientar las ideas; y sin detenerse ante la pobreza del estado, hay que pedir al patrimonio comun, el ôbolo, el saerifieio que sea neeesario para hacer justicia.
-
-La situacion del estado es seguramente de cierta preeariedad en sus finanzas, pero eso es porque no se ha hecho la verdadera refor¬ ma tributaria, la que ha de traer la moderna organizaeion en la industria y la justa. repartieiôn de la riqueza eolectiva, que hace la granIdeza de este pueblo joveu.
-
-Ep realidad, la riqueza argentina puede soportar no digo este presupuesto de quinientos millones sino uno de seis cientos millones. La opinion no es mia, porque careceria de toda autoridad. La lie de justifiear oportunamente, pero por antieipado tengo la opinion favorable del senor director general-de estadistiea, doctor Alejandro Bunge, que en una de sus ilustradas confereneias, calculé que el peso tributario es muy inferior al actual en comparaciôn con el que soportaban otras naeiones antes de la guerra, taies como Francia e Inglaterra.
-
-Por eso he presentado la cuestiôn a la câmar ra como una medida que la eomisiôn ha debido tomar en forma transitais, siquiera fuera al votai'se este presupuesto, que va a durar apenas très meses.
-
-Por eso no asigno gran importancia a esta situacion transiitoria de preeariedad financiera. Eso provocara precisamente la reforma inmediata y urgente de nuestro sistema tributa¬ rio en su integridad, no solo del punto de vista de los gastos por las nuevas funeiones del es¬ tado, sino por la mas equitativa imposieiôn de la capacidad contributiva.
-
-Pero tal no ha sido el espiritu de la comision. Ella piensa que el salario debe elevarse por lo menos a 150 pesos. No lo ha hecho en este mo¬ mento, debido ûnicamente a esa consideraciôn; pero, si la câmara lo créé çonveniente, debe de hacer justicia, pensando que luego es menester contribuir a formar la verdadera renta del es¬ tado y hacer la verdadera distribuciôn de la riqueza pûbliea por una justiciera tributaeion.-
-
-Estas son las eonsideracioues por las euales lamenta no poder accéder a una elevaciôn del salario mâs alla de los 130 pesos que ha pro-
-
+La situacion
+del estado
+es seguramente de
+cierta preeariedad
+en
+sus finanzas,
+pero
+eso
+es porque no se ha hecho la verdadera refor¬
+ma tributaria, la que ha de traer la moderna
+organizaeion en la industria y la justa. repar-
+tieiôn de la riqueza eolectiva, que hace la gran-
+Ideza
+de
+este pueblo joveu.
+En
+ese sentido bay
+que orientar las ideas;
+y sin detenerse ante la pobreza del estado, hay
+que pedir al patrimonio comun, el ôbolo, el sa-
+erifieio que sea neeesario para hacer justicia.
+Ep realidad, la riqueza argentina puede so-
+portar no digo este presupuesto de quinientos
+millones sino uno de seis cientos millones. La
+opinion
+no
+es mia,
+porque careceria de toda
+autoridad. La lie de justifiear oportunamente,
+pero por antieipado tengo la opinion favorable
+del senor director general-de estadistiea, doctor
+Alejandro Bunge, que en una de sus ilustradas
+confereneias, calculé que el peso tributario es
+muy inferior al actual en comparaciôn con el
+que soportaban otras naeiones antes de la gue-
+rra, taies como Francia e Inglaterra.
+Por
+eso
+no asigno gran importancia a esta
+situacion transiitoria de preeariedad financie-
+ra. Eso provocara precisamente la reforma in-
+mediata
+y urgente de nuestro sistema tributa¬
+rio en su integridad, no solo del punto de vista
+de los gastos por las nuevas funeiones del es¬
+tado, sino por la mas equitativa imposieiôn de
+la capacidad contributiva.
+Por eso he presentado la cuestiôn a la câmar
+ra como una medida que la eomisiôn ha debido
+tomar
+en forma transitais, siquiera fuera al
+votai’se
+este presupuesto, que va a durar ape-
+nas très meses.
+Pero tal no ha sido el espiritu de la comision.
+Ella piensa que el salario debe elevarse por lo
+menos
+a 150 pesos. No lo ha hecho en este mo¬
+mento, debido ûnicamente a esa consideraciôn;
+pero, si la câmara lo créé çonveniente, debe de
+hacer justicia, pensando que luego es menester
+contribuir
+a formar la verdadera renta del es¬
+tado
+y hacer la verdadera distribuciôn de la
+riqueza pûbliea por una justiciera tributaeion.-
+Estas
+son las eonsideracioues por las euales
+lamenta
+no poder accéder a una elevaciôn del
+salario mâs alla de los 130 pesos que ha pro-
 yectado.
-
-Sr. Dickmann. - Pido la palabra.
-
-Los djpntados soeialistas podbmos £elieitar-&lt; nos en este asunto del salario minimo, porque hemos conseguido desde el primer momento que lo hemos planteado en el eongreso, interesar1 vivamente la ateneiôn de muehos senores diputados hasta eonvencerlos de la necesidad no solamenfe de fijar un salario mmimo por ley, sin» de elevarlo a medida que sube el eosto de laivida.
-
-Hace très o cuatro anos, en la eomisiôn de presupuesto el senor diputado Justo propuso por primera vez la fijaciôn de un salario minimo. Encontrô aîgunas resistencias, pero debido al espiritu progresista de aquella eomisiôn fué aceptada la proposioiôn, y se votô el salario mi¬ nimo de cien pesos. Desde entonces el eosto de la vida lia ido aumentando cada vez mâs y nosotros bemos querido aumentar el salario mini-, mo por ley, en relaciôn al eosto de la vida. He¬ mos propuesto asi 150 pesos; la eomisiôn de. presupuesto aeeptô 130. Ahora, un senor dipu¬ tado tan prestigioso y de tanta influencia en la. mayorîa radical como el presidepte del bloqueradical, propone el salario minimo de 200 pespsi o 195.50. Encantados aceptamos este nuevo \ aumento, en la esperapza de que la iuflueneia'del seûor diputado Pereyra Êozas decîdira ai la mayorîa de la câmara a votarlo. #or®ie .sî^
+Sr. Dickmann.
+— Pi do la palabra.
+Los djpntados
+soeialistas podbmos £elieitar-<
+nos
+en este asunto del salario minimo, porque
+hemos conseguido desde el primer momento que
+lo
+hemos
+planteado
+en
+el
+eongreso, interesar1
+vivamente la ateneiôn de muehos senores diputa-
+dos hasta eonvencerlos de la necesidad no sola-
+menfe de fijar un salario mmimo por ley, sin»
+de elevarlo
+a medida que sube el eosto de lai-
+vida.
+Hace très
+o
+cuatro
+anos,
+en la eomisiôn de
+presupuesto
+el
+senor diputado Justo propuso
+por primera vez la fijaciôn de un salario mini-
+mo. Encontrô aîgunas resistencias, pero debido
+al espiritu progresista de aquella eomisiôn fué
+aceptada la proposioiôn, y se votô el salario mi¬
+nimo de cien pesos. Desde entonces el eosto de
+la vida lia ido aumentando cada vez mâs y nos-
+otros bemos querido aumentar el salario mini-,
+mo por ley, en relaciôn al eosto de la vida. He¬
+mos propuesto asi
+150 pesos; la eomisiôn de.
+presupuesto aeeptô 130. Ahora, un senor dipu¬
+tado tan prestigioso y de tanta influencia en la.
+mayorîa radical como el presidepte del bloque-
+radical, propone el salario minimo de 200 pespsi
+o 195.50.
+Encantados
+aceptamos
+este
+nuevo \
+aumento, en la esperapza de que la iuflueneia'-
+del
+seûor diputado Pereyra Êozas decîdira ai
+la mayorîa de la câmara a votarlo. #or®ie .sî^
 ```
 
 ## Images, Captions, And Visual Notes

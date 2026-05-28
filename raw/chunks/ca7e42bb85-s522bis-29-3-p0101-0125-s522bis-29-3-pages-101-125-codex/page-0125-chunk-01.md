@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-23999e681865-P0125-01
+chunk_id: CHUNK-995a312c5013-P0125-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125.codex.md
-converted_sha256: 23999e681865e3daac9026bb524932741a1c851e730127814f5a76f6130cf077
+converted_sha256: 995a312c50138ca4be8d88312a341115c3378ca4739ea73fb327e86f7f38e1b6
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125/manifest.json
@@ -12,169 +12,258 @@ part: 1
 ---
 
 ## Page Metadata
-- **Page number**: 125
-- **Source identifier**: S522bis-29-3
-- **Original page number**: 1733
-- **Year**: 1921
-- **Title**: CAMARA DE DIPUTADOS
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125/manifest.json`
+- Source page: 125
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125/page-images/page-0125.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-This page is a two-column document. The reading order is from top to bottom of the left column, followed by the top to bottom of the right column.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-**Left column**
-```text
-de 1921 CAMARA DE DIPUTADOS
 
-entonces más inaccesibles las cosas necesarias
-para la masa popular. Pero tampoco admitimos
-como cierto que la ley se haya humanizado, afir-
-mando que en realidad se ha hecho más extor-
+```markdown
+de 1921
+CAMARA DE DIPUTADOS
+1733
+entonces
+mâs inaccesibles las
+cosas necesarias
+para la masa popular. Pero tampoeo admitimos
+como eierto que la ley se haya humanizado, afir-
+mando que en realidad se lia heclio mâs extor-
 siva.
-
-La ley 8192, de 1910, el famoso año 1910, es-
-tableció un impuesto que se llama adicional de
-2 por ciento, y que todos los señores diputados
-pueden ver que no es un adicional de 2 por
-ciento, sino de mucho más. Para un artículo
+La ley 8192, de 1910, el famoso ano 1910, es-
+tableciô un impuesto que se llama adieional de
+2 por ciento, y que todos los .senores diputados
+pueden ver que no
+es un adieional de 2^ por
+ciento, sino de mucho mâs. Para un articulo
 gravado con un impuesto de 50 por ciento, el
-adicional es de 4 por ciento; para uno de 40
-por ciento es de 5 por ciento, y así sigue para
-las distintas categorías siendo el aumento de
-5,71; 6,16; 8; 10; 13.33 y 20 por ciento y es
-como si se hubieran aumentado los aforos a
-104, 105, 71, 106, 66, 108, 10, 113 y 120, para las
-distintas categorías de artículos sometidos a im-
+adieional ës de 4 por ciento; para uno de 40
+por ciento es de 5 por ciento, y asi sigue para
+las distintas categories siendo el aumento de
+5,71; 0.16; 8; 10; 13.33 y 20 por ciento y es
+como si
+se hubieran aumentado los aforos
+a
+104. 105. 71. 100. 00. 108. 10. 113 y 120. para las
+distintas categories de articulos sometidos a im-
 puestos distintos.
-
-Pero no concluye en eso, el empeoramiento
+Pero
+no coneluye
+en eso, el empeoramiento
 de la ley aduanera vigente, sino que en 1917,
-como ya se ha recordado aquí, ya iniciado el
-nuevo régimen, fué sancionada una ley que
-proyectó la antigua comisión perteneciente a
+como ya
+se lia recordado aqui, ya inieiado el
+nuevo
+régimen, fué sancionada una ley que
+proyectô la antigua comision perteneciente a
 los partidos conservadores, y que no tuvo una
 palabra en contra de parte del actual ejecuti-
 vo radical. Por esa ley se creaba un impuesto
-de 5 por ciento a todo lo que antes entraba
-libre; y entraban libres las cosas más indispen-
+de
+5 por ciento
+a todo lo que antes entraba
+libre; y entraban libres las cosas mâs indispen¬
 sables, entraban libres algunas cosas que se
 acababa de liberar en beneficio de la agricul-
-tura, como las bolsas; entraban libres los im-
-plementos agrícolas, y en aquel momento se
-creyó necesario gravar con 5 por ciento casi
-todos esos artículos.
-
-Se sancionó además ese año algo peor, que
-fué el famoso adicional de 2 y 5 por ciento.
-Si los señores diputados han visto el cálculo de
-recursos o se han tomado la molestia de exami-
-nar el producido de los distintos impuestos,
-se encontrarán con que este adicional del 2 y
-5 por ciento está muy lejos de ser una propor-
-ción pequeña de la entrada: ha producido el
+tura, como las boisas; entraban libres los im-
+plementos agrieolas, y en aquel •momento se
+creyô necesurio gravai1 con 5 por ciento casi
+todos esos articulos.
+Se sancionô ademâs ese ano algo peor, que
+fué el famoso adieional de 2 y 5 por ciento.
+Si los senores diputados han visto el câlculo de
+recursos o se ban tornado la molestia de exami¬
+nai*
+cl producido de los distintos impuestos,
+se encontrarân con qi*e este adieional del 2 y
+5 por ciento esta rnuy lejos de ser una propor-
+cion pequena de la entrada: ha producido el
 20 por ciento de las entradas de aduana, prove-
-nientes de los derechos de importación, lo que
-se explica por la misma razón que dí al ocu-
-parme del adicional de 2 por ciento; porque
-respecto a un artículo que paga 50 por ciento
+nientes de los derechos de importaciôn, lo que
+se expliea por la misma razôn que di al ocu-
+parme del adieional de 2 por ciento; porque
+respecto a un articulo que paga 50 por ciento
 los adicionales importan 14 por ciento, respecto
-a un artículo que paga 40 por ciento los adi-
-cionales importan 17.5 por ciento; los de 35 por
-ciento están recargados en 20 por ciento, los
-de 30 en un 23.33 por ciento; las mercaderías
+a un articulo que paga 40 por ciento los adi¬
+cionales importan 17.5 por ciento ; los de 35 por
+ciento estân recargados en 20 por ciento, los
+de 30 en un 23.33 por ciento; las mercaderias
 generales en 28 por ciento y los que pagaban
 20 por ciento en 35 por ciento. Es como si se
-elevaran los aforos en la misma proporción.
-
-El año pasado, a instancias del señor minis-
-tro de hacienda agravamos nuevamente la ley
-de aduanas. Se arguyó por tercera, cuarta o
-quinta vez la poco monta de los aforos, y el
-ministro vino entonces a gestionar aquel au-
-```
-
-**Right column**
-```text
-1733
-
-mento de 20 por ciento en todos los graváme-
-nes con algunas consideraciones originales.
-Habló de cuatro o cinco artículos suntuarios,
-como las pieles de lujo y la platería y propo-
-nía entonces, porque él mostró que el aforo
-era bajo, que se aumentara en 20 por ciento
-el aforo; pero al mismo tiempo combatió la re-
-forma de esta cámara, que elevaba el impuesto
-al 50 por ciento, es decir que propuso dismi-
-nuir el tributo efectivo que debían pagar esos
-artículos.
-
-La ley 11022, dictada en junio del año pa-
-sado, ha creado, por la combinación de esos
-dos adicionales, el del 2 y 5 por ciento y el
-del 20 por ciento en los aforos ha producido
-los siguientes aumentos: 36.80 para los de la
-primera categoría, que antes pagaban 50 por
-ciento; 41 para los de segunda categoría, y
-sucesivamente 44, 48, 53, 60 para los artícu-
-los generales, y 62 para los que pagaban 20
+elevaran los aforos en la misma proporeion.
+El afio pasado, a instancias del senor minis-
+jtro de hacienda agravamos nuevamente la ley
+(de aduanas. Se arguyô por tercera, euarta o
+quinta vez la poco monta de los aforos, y cl
+minist.ro vino entonces
+a srestionar aauel
+au¬
+mento de 20 por ciento en todos los gravâme-
+nes
+con algunas consideraciones originales.
+Hablo de cuatro
+o cinco articulos suntuarios,
+como las pieles de lujo y la plateria y propo-
+nia
+entonces,
+porque él mostro
+que el aforo
+era bajo,
+que se aumentara
+en 20 por ciento
+el aforo ; pero al mismo tiempo combatiô la re¬
+forma de esta câmara, que elevaba el impuesto
+al
+50 por ciento,
+es decir que propuso dismi-
+nuir el tributo efectivo que debian pagaf esos
+articulos.
+La ley 31022, dictada
+en junio del ano
+pa¬
+sado, ha ereado,
+por la combinaciôn de
+esos
+dos adicionales, el del 2 y 5 por ciento y et
+de!
+20 por ciento
+en los aforos ha producido
+los siguientes aumentos: 30.80 para los de la
+primera catégorie, que antes pagaban 50 por
+ciento;
+41
+para
+los
+de segunda categoria,
+y
+sucesivamente
+44, 48,
+53,
+00 para los articu¬
+los generales,
+y
+02 para los
+que pagaban 20
 por ciento.
-
-No sé si siempre el valor real de los artículos
-ha subido en esa proporción en que se han
-aumentado los tributos, pero las consecuencias
+No sé si siempre el valor real de los articulos
+ha
+subido
+en
+esa proporeion
+en
+que
+se han
+aumentado los tributes, pero las eonsecueneias
 de la reforma son las siguientes que quiero ex-
-poner en el término más breve, por lo cual me
-voy a servir de pocos ejemplos. Las guarnicio-
+poner en el término mâs breve, por lo eual me
+voy a servir de pocos ejemplos. Las guarniei®-
 nes para dos caballos que estaban aforadas en
-100 en la tarifa de avalúos y que pagaban 50
-pesos de derechos, ahora vienen a pagar 68.40,
-que es como si se las aforara a 136.80, mante-
-niendo el mismo derecho; un juego de dormi-
-torio, que no llegue a la categoría de fino, un
-juego de dormitorio para la clase popular, que
-se aforaba en 100 pagaba 40 pesos, y por la
-ley que se proyecta que siga rigiendo paga
-56.40, que es como aforarlo en realidad en
-141; 500 kilos de tornillos, elemento que no
+100
+en la tarifa de avaluos y que pagaban 50
+pesos de derechos, aliora vienen a pagar 08.40,
+que
+es como si se las aforara a 130.80 ; maiitc-
+niendo el mismo derecho ; un juego de dormi-
+torio, que no llegue
+a la categoria de fino, un
+juqgo de dormitorio para la clase popular, que
+se aforaba
+en
+100 pagaba 40 pesos, y por la
+ley
+que
+se proyeeta que siga rigiendo
+paga
+56,40,
+que
+es
+como
+aforarlo
+en realidad
+en
+141 ; 500 kilos de tornillos, elemento
+que no
 puede ser perseguido por nadie, pagaban 35 y
-ahora pagarán 50.40, que es como si se afora-
-ran a 144 manteniendo la vieja tasa; 40 kilos
-de carpetas de lana pagaban 30 pesos y ahora
+aliora pagarân 50,40, que
+es como si se afora-
+ran
+a 144 manteniendo la vieja tasa; 40 kilos
+de carpetas de lana pagaban 30 pesos y aliora
 pagan 44.40, que es como si se aforaran a 148;
-un costurero que no sea fino, cuyo valor de-
-clarado sea de 100 pesos, pagaba 25 pesos por
+un costurero
+que no sea fino, cuyo valor de-
+elarado
+sea de 100 pesos, pagaba 25 pesos por
 la antigua ley, pero por la ley sancionada el
-año pasado con la aquiescencia del poder eje-
-cutivo paga 38.40, que es aforarlo en 153.60
-al tipo de impuesto que antes regía; por fin,
-100 kilos de acero antes pagaban 20 pesos y
-ahora pagan 32.40, que es como si se aforaran
+ano pasado con la aquiesciencia del poder eje-
+cutivo paga 38.40,
+que
+es aforarlo
+en 153.00
+al tipo de impuesto que antes regia ; por fin,
+100 kilos de
+acero
+antes pagaban 20 pesos y
+aliora pagan 32.40, que es como si se aforaran
 a 162.
-
-Ese es el resultado de la hermosa ley de
+Ese
+es
+el
+resultado
+de
+la
+hermosa ley de
 aduana que hoy rige, y respecto de la cual la
-anterior comisión de presupuesto, compuesta
-por diputados de todos los grupos políticos,
-tuvo la oportuna idea de proponer una modi-
-ficación que alguien ha querido presentar en
-la cámara como algo insignificante, pero que
-es, sin embargo, de gran importancia.
+anterior
+comision
+de
+presnpnesto,
+compuesta
+por diputados de todos los grupos politicos,
+tuvo la oportuua idea de proponer una niodi-
+ficaeiôn
+que alguien ha querido présentai*
+en
+la câmara
+como algo iusiguificante, pero
+Que
+es_slu emharso. de cran imnortancia
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images, illustrations, or other visual elements on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all text from the page.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "This page consists entirely of text in a two-column layout with no images, illustrations, or other visual elements."
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
