@@ -1,9 +1,10 @@
 ﻿{
     "created":  "2026-05-28",
     "queue":  "identity-analysis",
-    "task_count":  219,
+    "task_count":  221,
     "status_counts":  {
-                          "done":  219
+                          "done":  219,
+                          "todo":  2
                       },
     "tasks":  [
                   {
@@ -1125,6 +1126,16 @@
                       "status":  "done",
                       "claimed_at":  "2026-05-23T10:40:04Z",
                       "role":  "identity_researcher"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-id-stage-chunk-d5a8b8204fe4-p0175-01-leonidas-arriagada-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/identity/ID-STAGE-CHUNK-d5a8b8204fe4-P0175-01-leonidas-arriagada.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-d5a8b8204fe4-P0175-01-leonidas-arriagada.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "skill":  "genealogy-proof-review",
@@ -3253,6 +3264,16 @@
                       "status":  "done",
                       "claimed_at":  "2026-05-23T10:19:35Z",
                       "role":  "identity_researcher"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conflict-stage-chunk-d5a8b8204fe4-p0175-01-page-image-missing-qa-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/CONFLICT-STAGE-CHUNK-d5a8b8204fe4-P0175-01-page-image-missing-qa.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-d5a8b8204fe4-P0175-01-page-image-missing-qa.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "skill":  "genealogy-proof-review",
