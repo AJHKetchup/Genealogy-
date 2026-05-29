@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-29T19:49:50Z",
+  "created": "2026-05-29T21:39:27Z",
   "purpose": "Source-readiness report for raw source -> LLM-readable source pipeline.",
   "inputs": {
     "source_prep_manifest": "raw/source-prep-manifest.json",
@@ -10,9 +10,9 @@
     "total_sources": 20,
     "status_counts": {
       "usable_with_page_holds": 2,
-      "partially_usable_for_extraction": 6,
+      "partial_with_page_holds": 8,
       "usable_for_extraction": 5,
-      "partial_with_page_holds": 7
+      "partially_usable_for_extraction": 5
     }
   },
   "sources": [
@@ -96,12 +96,12 @@
       "id": "SRC-753b8b140d94",
       "raw_path": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
       "media_type": "pdf",
-      "status": "partially_usable_for_extraction",
+      "status": "partial_with_page_holds",
       "source_prep_status": "partially_converted",
       "conversion_job_count": 53,
       "converted_file_count": 37,
       "chunk_manifest_count": 50,
-      "qc_hold_count": 0,
+      "qc_hold_count": 3,
       "source_prep_task_counts": {},
       "page_repair_count": 0,
       "conversion_jobs": [
@@ -568,7 +568,38 @@
         "raw/chunks/ca753b8b14-anales-de-la-universidad-p1129-1153-anales-de-la-universidad-de-chile-sess-c6c06e58b7/manifest.json",
         "raw/chunks/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-sess-995a2dcc35/manifest.json"
       ],
-      "qc_holds": []
+      "qc_holds": [
+        {
+          "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328.codex.md",
+          "page": 309,
+          "recommended_action": "spot-check",
+          "quality_flags": [
+            "possible_ocr_garbage_token"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": []
+        },
+        {
+          "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328.codex.md",
+          "page": 327,
+          "recommended_action": "spot-check",
+          "quality_flags": [
+            "possible_ocr_garbage_token"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": []
+        },
+        {
+          "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263.codex.md",
+          "page": 263,
+          "recommended_action": "spot-check",
+          "quality_flags": [
+            "possible_ocr_garbage_token"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": []
+        }
+      ]
     },
     {
       "id": "SRC-db3e1a4b1081",

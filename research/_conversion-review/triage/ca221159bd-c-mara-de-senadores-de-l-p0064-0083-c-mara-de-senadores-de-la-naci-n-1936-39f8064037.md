@@ -10,12 +10,12 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
 | 2 | none | high | pass | none | none |
-| 3 | none | high | pass | none | none |
+| 66 | none | high | pass | none | none |
 | 67 | none | high | pass | none | none |
 | 68 | none | high | pass | none | none |
 | 69 | none | high | pass | none | none |
-| 7 | none | high | pass | none | none |
-| 8 | none | high | pass | none | none |
+| 70 | none | high | pass | none | none |
+| 71 | none | high | pass | none | none |
 | 72 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |

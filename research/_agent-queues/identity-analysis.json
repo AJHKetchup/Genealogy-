@@ -1,9 +1,10 @@
 ﻿{
     "created":  "2026-05-29",
     "queue":  "identity-analysis",
-    "task_count":  231,
+    "task_count":  232,
     "status_counts":  {
-                          "done":  231
+                          "done":  231,
+                          "todo":  1
                       },
     "tasks":  [
                   {
@@ -1525,6 +1526,16 @@
                       "status":  "done",
                       "claimed_at":  "2026-05-24T20:27:12Z",
                       "role":  "identity_researcher"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-5bfd003c83f8-p0142-01-no-identity-conflict-detected-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-5bfd003c83f8-p0142-01-no-identity-conflict-detected.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-5bfd003c83f8-p0142-01-no-identity-conflict-detected.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "skill":  "genealogy-proof-review",

@@ -18,8 +18,8 @@
 | 8 | none | high | pass | none | none |
 | 272 | none | high | pass | none | none |
 | 273 | none | high | pass | none | none |
-| 11 | none | high | pass | none | none |
-| 12 | none | high | pass | none | none |
+| 274 | none | high | pass | none | none |
+| 275 | none | high | pass | none | none |
 | 276 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
 | 15 | none | high | pass | none | none |

@@ -6,4 +6,10 @@
 
 ## Queued Pages
 
-No pages queued for reread.
+### Page 263
+
+- Recommended action: `spot-check`
+- Conversion confidence: `medium`
+- Family relevance: `none`
+- Quality flags: possible_ocr_garbage_token
+- Matched family context: none

@@ -13,7 +13,7 @@
 | 306 | none | high | pass | none | none |
 | 307 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
-| 6 | none | high | pass | none | none |
+| 309 | none | medium | spot-check | possible_ocr_garbage_token | none |
 | 310 | none | high | pass | none | none |
 | 311 | none | high | pass | none | none |
 | 312 | none | high | pass | none | none |
@@ -25,11 +25,11 @@
 | 318 | none | high | pass | none | none |
 | 319 | none | high | pass | none | none |
 | 320 | none | high | pass | none | none |
-| 18 | none | high | pass | none | none |
+| 321 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |
 | 324 | none | high | pass | none | none |
 | 22 | none | high | pass | none | none |
 | 23 | none | high | pass | none | none |
-| 327 | none | high | pass | none | none |
+| 327 | none | medium | spot-check | possible_ocr_garbage_token | none |
 | 328 | none | high | pass | none | none |

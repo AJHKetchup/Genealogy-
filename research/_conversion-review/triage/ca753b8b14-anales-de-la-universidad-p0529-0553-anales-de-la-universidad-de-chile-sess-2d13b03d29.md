@@ -13,9 +13,9 @@
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
 | 533 | none | high | pass | none | none |
-| 6 | none | high | pass | none | none |
+| 534 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
-| 8 | none | high | pass | none | none |
+| 536 | none | high | pass | none | none |
 | 537 | none | high | pass | none | none |
 | 538 | none | high | pass | none | none |
 | 539 | none | high | pass | none | none |
@@ -27,9 +27,9 @@
 | 545 | none | high | pass | none | none |
 | 546 | none | high | pass | none | none |
 | 547 | none | high | pass | none | none |
-| 20 | none | high | pass | none | none |
-| 21 | none | high | pass | none | none |
-| 22 | none | high | pass | none | none |
-| 23 | none | high | pass | none | none |
+| 548 | none | high | pass | none | none |
+| 549 | none | high | pass | none | none |
+| 550 | none | high | pass | none | none |
+| 551 | none | high | pass | none | none |
 | 552 | none | high | pass | none | none |
 | 553 | none | high | pass | none | none |
