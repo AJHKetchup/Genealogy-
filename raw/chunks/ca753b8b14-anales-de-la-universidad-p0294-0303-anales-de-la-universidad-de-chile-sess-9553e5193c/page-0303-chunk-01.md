@@ -1,0 +1,99 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e6790e720451-P0303-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303.codex.md
+converted_sha256: e6790e72045185c780dd82969291be1ae2255043d38f0a11c341e42febc5ddfb
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json
+page_start: 303
+page_end: 303
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json`
+- Source page: 303
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-images/page-0303.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+JULIO SAAVEDRA MOLINA 
+283 
+nador). ¿Le toma Ud. el peso a este paralelismo? 
+Igual capacidad para redactar 1 hablar que para leer 
+lo escrito 1 comprender lo hablado. I, como no pode- 
+mos suponer que este propósito envuelva la idea de 
+llegar a medio camino en la habilidad para leer, es- 
+pero que Ud. convenga conmigo en que lo que Ud. 
+llama un «absurdo» no es una fantasía de su servidor. 
+(Pájina 233 todavía): 
+Me objeta Ud. la frase de la pájina 75 «El método 
+directo no mira sino al éxito de hablar»; 1 luego es- 
+plica que el objeto del método directo es, «en fin, 
+colocar al alumno, respecto al idioma estranjero, en 
+una situación aproximadamente parecida a la que 
+tiene en su lengua patria al ingresar a la escuela». 
+Fuera de la diferencia de palabras con que Ud. i yo 
+definimos el propósito en cuestión, no advierto otra. 
+O yo no le cojo el sentido a sus palabras, o Ud. 1 yo 
+decimos lo mismo. Porque estol cierto de que Ud. 
+no habrá querido decir que las primeras letras que 
+un alumno ha podido aprender antes de ingresar a 
+la escuela, no envuelven 
+el proceso de hablar, 
+al 
+quererlas aprender en inglés en el liceo. 
+Por lo demás, si alguna restricción hubiera en esa 
+definición mía del método directo, en los capítulos 
+IX 1 X (pájinas 111 a 156) creo haber dicho lo bas- 
+tante para que Ud. no tenga dudas de lo que pienso 
+sobre este particular. 
+(Pájina 234): 
+Repite Ud. la objeción de la pájina 190 tocante 
+a la 140 de mi libro, i que, ya he dicho (pájina 
+277 
+de esta respuesta), se basa en una opinión que Ud. 
+me atribuye 1 que no tengo. 
+En seguida, afirma Ud. (páj. 235) que «el provecho
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

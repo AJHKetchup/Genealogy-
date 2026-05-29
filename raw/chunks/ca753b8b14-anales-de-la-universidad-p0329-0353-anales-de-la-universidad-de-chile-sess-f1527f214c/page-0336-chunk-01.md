@@ -1,0 +1,107 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2835257d8911-P0336-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353.codex.md
+converted_sha256: 2835257d8911fc755e478b9524ccb3aa4964819860b37b52f7497e987bed1b36
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json
+page_start: 336
+page_end: 336
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json`
+- Source page: 336
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/page-images/page-0336.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+316 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+23 de Febrero salieron del Paposo 1 el 4 de Marzo 
+entraban en Copiapó. 
+Esta misión debió dejar hondas huellas en Copia- 
+pó 1 demás pueblos visitados 
+por los misioneros. 
+Eran esos tiempos de profunda fe i piedad, 1 hacía 
+largos años que no se daban misiones, por lo cual 
+éstas tuvieron todo el atractivo de la novedad para 
+la mayor parte de la población. A este atractivo se 
+añadía el de la ciencia, virtudes 1 distinción de los 
+=misioneros 1 la elocuencia de algunos, entre los cua- 
+les sobresalía con mucho Taforó. 
+En el mismo mes de Marzo regresaron a Santiago 
+los misioneros 
+1 Valdivieso 
+dió cuenta de todo lo * 
+hecho 1 observado al Supremo (Grobierno en un largo 
+1 luminoso oficio. 
+: 
+Syal 
+Comienza 
+a redactar 
+su 
+«Historia 
+Eclesiástica, 
+Po- 
+lítica i Literaria de Chile» 
+Eizaguirre continuó ejerciendo 
+el ministerio sa- 
+cerdotal libremente durante el resto del año 1841 1 
+todo el siguiente, sin desempeñar ningun empleo es- 
+pecial. En 1842 concibió un proyecto audaz para 
+aquellos años, 1 puso inmediatamente manos 
+a la 
+obra. Esta fué su Historia 
+Eclesiástica, Política 
+1 
+Literaria de Chile. Audaz era tal empresa; porque 
+aún no se conocían bastante los documentos 
+que 
+existían para escribir con mediana exactitud la his- 
+J
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 337

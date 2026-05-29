@@ -506,205 +506,355 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 190
+
 ## Page Metadata
-Page number: 187
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json`
+- Source page: 190
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/page-images/page-0190.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page has a single-column layout. The content begins with a page number centered at the top, followed by a list of items, then several articles (Art. 321, Art. 322, Art. 323) each with a preceding bolded heading, and their corresponding text.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 187 —
-
+```markdown
+— 187
+—
 f) Tarifas y premios de oro.
 g) Flete total.
-h) Fecha y número de la carta de porte.
-i) Fecha de puesta a disposición para la descarga.
+h) Fecha y numéro de la earta de porte.
+i) Fecha de puesta a disposiciôn para la descarga.
 j) Fecha de otorgamiento del recibo.
-
-**Nuevo recibo por rectificación de**
-**flete pagado en procedencia.**
-
-Art. 321. — Cuando se hubiere pagado el flete en la esta-
-ción de procedencia y resultare algún error en el peso de la
-carga o en la tarifa aplicada, las empresas darán un nuevo
+Nuevo
+recibo
+por rectificacion de
+flete pagado en procedencia.
+Art.
+321. — Cuando
+se hubiere pagado el flete en la esta-
+ciôn de procedencia y resultare algûn error en el peso de la
+carga
+o
+en la tarifa aplicada, las empresas darân un nuevo
 recibo con el flete rectificado y en la forma establecida en el
-artículo anterior.
-
-**Rectificación del precio y peso de**
-**los bultos.**
-
-Art. 322. — Podrá rectificarse a la llegada de los bultos
+artîculo anterior.
+Rectificacion del precio y peso de
+los
+bultos.
+Art.
+322. —• Podrâ rectifiearse
+a la llegada de los bultos
 cualquier error que en el precio o en el peso hubiere cometido
-la estación expedidora.
-Este derecho es recíproco entre las empresas y el público,
-debiendo abonarse en el acto de la entrega de la mercadería,
+la estaciôn expedidora.
+Este derecho
+es recîproco entre las empresas y el publico,
+debiendo abonarse en el acto de la entrega de la mercaderîa,
 por quien y a quien corresponda, el importe a que ascienda el
 error cometido. (Ley, art. 48.)
-
-**Pago de los gastos de rectificación**
-**del peso.**
-
-Art. 323. — El consignatario pagará los gastos para pesar
-y contar los artículos en el caso que, habiendo pedido recti-
-ficación resultare igual o mayor peso que el expresado en la
-carta de porte.
-Tratándose de cargas a granel, si el peso asignado por la
+Pago de los gastos de rectificacion
+del
+peso.
+Art.
+323. —- El consignatario pagarâ los gastos para pesar
+y contar los articulos en el caso que, habiendo pedido recti¬
+ficacion resultare igual o mayor peso que el expresado en la
+carta
+de porte.
+Tratândose de cargas
+a granel, si el peso asignado por la
 empresa en el aviso de la llegada de la carga, de acuerdo a
-lo dispuesto en el artículo 308, fuera mayor que el declarado
-y el consignatario no lo aceptase, efectuada la verificación de
-peso, la empresa correrá con los gastos, cuando resulte un
-peso menor o igual al declarado en la carta de porte.
+lo dispuesto en el artîculo 308, fuera mayor que el declarado
+y el consignatario no lo aceptase, efectuada la verificaciôn de
+peso, la
+empresa correrâ
+con los gastos, cuando resuite un
+peso menor
+o igual al declarado en la carta de porte.
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None. The page is clear and legible.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
-```
+# Page 191
 
 ## Page Metadata
-Page number: 188
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json`
+- Source page: 191
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/page-images/page-0191.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, primarily legal articles and related subheadings. The page number is centered at the top. The content flows from top to bottom in a standard reading order.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 188 —
-
-En igual forma se procederá en el caso de transporte de
+```markdown
+—
+188
+—
+En igual forma
+se procédera
+en el
+caso de transporte de
 bultos.
-
-Modo de dirimir las cuestiones so-
+Modo
+de dirimir las cuestiones
+so¬
 bre peso y precio, etc.
-
-Art. 324. — Las dudas que surjan sobre el peso y precio,
-insuficiencia del embalaje o cubierta de los bultos y estado
-de la mercadería, deberán someterse en el acto a la resolución
-de la Inspección Nacional.
-Si no estuviese presente en la estación ningún Inspector
-y el remitente no quisiera esperar la intervención de la Di-
-rección General de Ferrocarriles, se someterá la cuestión a
-juicio de dos árbitros designados en el acto, uno por cada
-parte, con facultad para nombrar a un tercero en caso de
-discordia, pagando las partes por mitad los honorarios.
+Art.
+324. — Las dudas
+que surjan sobre el
+peso y precio,
+insuficiencia
+del embalaje
+o cubierta de los bultos y estado
+de la mercaderia, deberân someterse en el acto a la resoluciôn
+de la Inspecciôn Nacional.
+Si
+no
+estuviese présente
+en la estacion ningun Inspector
+y el remitente no quisiera
+esperar la intervenciôn de la Di-
+recciôn
+General
+de Perrocarriles,
+se someterâ la
+cuestion
+a
+juicio de dos ârbitros designados
+en el acto,
+uno por cada
+parte,
+con facultad
+para nombrar
+a
+un tercero
+en
+caso
+de
+discordia,
+pagando
+las
+partes
+por
+mitad
+los
+honorarios.
 (Ley, art. 48.)
-
-Transporte de cargas del Gobierno
+Transporte de
+cargas del Gobierno
 Nacional.
-
-Art. 325. — Para el transporte de toda carga por cuenta
-del Gobierno Nacional deberá presentarse una orden especial,
+Art.
+325. — Para
+el transporte de toda
+carga por euenta
+del Gobierno Nacional deberâ presentarse una orden especial,
 firmada por persona debidamente autorizada por el Departa-
-mento a que pertenezca, la que será presentada indistinta-
-mente en la estación de expedición o de destino de la consig-
-nación, debiendo en este último caso acompañar la guía exten-
-dida a nombre del Gobierno Nacional o endosada al mismo.
+mento
+a
+que pertenezca, la
+que
+sera presentada indistinta-
+mente
+en la estacion de expedicion
+o de destino de la consig-
+naciôn, debiendo en este ultimo caso acompanar la guîa exten-
+dida
+a nombre del Gobierno Nacional
+o endosada al mismo.
 (Ley, art. 19.)
-
-CAPÍTULO IX
-
-TRANSPORTE DE CARGAS DE PELIGRO
-
-Cargas que podrán conducirse con-
+CAPÎTULO
+IX
+TRANSPORTE
+DE
+CARGAS
+DE
+PELIGRO
+Cargas que podrân conducirse con-
 dicionalmente.
-
-Art. 326. — Las empresas podrán aceptar condicionalmente
-para el transporte las cargas de peligro constituídas por só-
-lidos o líquidos explosivos, inflamables, oxidantes o corrosivos
-y gases comprimidos, sean o no inflamables estos últimos.
+Art.
+326. — Las empresas podrân aceptar condicionalmente
+para el transporte las cargas de peligro constituidas por sô-
+lidos
+o liquidos explosivos, inflamables, oxidantes
+o corrosivos
+y gases comprimidos, sean o no inflamables estos ultimos.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 192
 
 ## Page Metadata
-Page number: 189
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json`
+- Source page: 192
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/page-images/page-0192.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page consists of a single column of text. The page number is centered at the top, enclosed by em dashes. The main content is structured with headings and numbered articles. A small number "7" appears at the bottom left.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 189 —
-
-La Dirección General de Ferrocarriles procederá a la enu-
-meración de las sustancias que deben considerarse compren-
-didas en la clasificación especificada, y si fuera necesario, esta-
-blecerá oportunamente las demás condiciones especiales a las
-cuales deberá ajustarse el transporte de las mismas.
-Las empresas quedan facultadas para fijar un día de la
+```markdown
+— 189
+—
+La Direcciôn General de Ferrocarriles procédera a la enu-
+meraciôn
+de
+las sustancias
+que deben eonsiderarse compren-
+didas en la clasificaciôn especificada, y si fuera neeesario, esta-
+blecerâ oportunamente las demâs condiciones espeeiales a las
+cuales deberâ ajustarse el transporte de las mismas.
+Las
+empresas quedan facultadas para fijar un dîa de la
 semana para el transporte de estas cargas.
-
 Embalaje de materias explosivas.
-
-Art. 327. — En general, el embalaje se hará en cajas fuertes
-de madera, que cerrarán perfectamente para que no se de-
-rrame el contenido y no deberán reforzarse con ligaduras de
-hierro. Los envases de pólvora podrán ser de metal, con ex-
-clusión del hierro, y no podrán colocarse tornillos, clavos u
+Art. 327. — En general, el embalaje se harâ en cajas fuertes
+de madera,
+que cerrarân perfectamente para
+que no
+se de-
+rrame el contenido y no deberân reforzarse eon ligaduras de
+hierro.
+Los
+envases de pôlvora podrân ser de metal, con ex¬
+clusion del hierro, y no podrân colocarse tornillos, clavos u
 otros accesorios de hierro.
-
 Cartuchos de dinamita.
-
-Art. 328. — Los cartuchos de dinamita deberán estar bien
-atados en paquetes y no podrán estar provistos del fulminante.
-
-Algodón-pólvora y nitrocelulosas.
-
-Art. 329. — El algodón-pólvora y otras nitrocelulosas de-
-berán regarse con un veinte por ciento de agua, por lo menos,
-y estarán bien embalados en fuertes envases a fin de que su
-contenido no sufra fricción.
-
+Art.
+328. — Los
+cartuchos
+de dinamita deberân estar bien
+atados en paquetes y no podrân estar provistos del fulminante.
+Algodôn-pôlvora y nitrocelulosas.
+Art.
+329. -— El algodôn-pôlvora y otras nitrocelulosas
+de¬
+berân regarse con un veinte por ciento de agua, por lo menos,
+y estarân bien embalados en fuertes envases
+a fin de que su
+contenido
+no sufra fricciôn.
 Rotulado de los envases.
-
-Art. 330. — Los envases con artículos explosivos deberán
-indicar el nombre del contenido en letras claras y con el rótulo
+Art.
+330. — Los
+envases
+con
+artîculos explosivos
+deberân
+indicar el nombre del contenido en letras claras y con el rôtulo
 “Peligro”.
-
-Peso máximo de los bultos.
-
-Art. 331. — El peso bruto de los bultos de pólvora, algodón-
-pólvora, cartuchos y fuegos artificiales, no podrá exceder de
+Peso mâximo de los bultos.
+Art. 331. — El peso bruto de los bultos de pôlvora, algodôn-
+pôlvora, cartuchos y fuegos artificiales, no podrâ exceder de
 noventa kilos, y el peso bruto de los envases de dinamita y
-
 7
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. The page number "189" is centered at the top, enclosed by em dashes. A small number "7" is present at the bottom left corner of the page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and numerical elements on the page have been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The page contains only text and page numbers."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 190
@@ -774,486 +924,805 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
+# Page 194
+
 ## Page Metadata
-Page number: 191
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json`
+- Source page: 194
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/page-images/page-0194.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, primarily legal articles and related headings, presented in a standard top-to-bottom reading order.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 191 —
 
-vías auxiliares más apartadas. Si la parada fuera de más de
-una hora, el jefe de la estación avisará a la policía, para que
-tome las medidas que crea necesarias para el interés público.
-
-Cargas explosivas que recorran va-
-rias líneas.
-
-Art. 338. — Cuando la carga pase de una línea a otra, las
-empresas respectivas se avisarán con anticipación y tomarán
+```markdown
+—
+191
+vîas auxiliares raâs apartadas.
+Si la parada fuera de mâs de
+una hora, el jefe de la estaciôn avisarâ a la policîa, para que
+tome las medidas que créa necesarias para cl iuterés publico.
+Cargas explosivas que recorran
+va-
+rias lmeas.
+Art.
+338. —- Cuando la carga pase de una lînea
+a otra, las
+empresas respectivas
+se avisarân
+con anticipation y tomarân
 las medidas necesarias para su pronto despacho.
-
-Transbordo de cargas explosivas.
-
+Transbordo de
+cargas explosivas.
 Art. 339. — Si durante el transporte se notase alguna irre-
-gularidad en los vagones o en el cargamento, se apartarán con
-todo cuidado o se transbordarán. Fuera de estos casos, el
-transbordo de materias explosivas está prohibido, salvo dife-
-rencia de trocha.
-
-Aviso telegráfico de la llegada de
-cargas explosivas a la estación de
+gularidad en los vagones o en el cargamento, se apartarân con
+todo
+cuidado
+o
+se
+transbordarân.
+Fuera
+de
+estos
+casos,
+el
+transbordo
+de materias explosivas
+esta prohibido, salvo dife-
+rencia de troclia.
+Aviso
+telegrâfico
+de
+la llegada
+de
+cargas explosivas
+a
+la
+estaciôn
+de
 destino.
-
-Art. 340. — El jefe de la estación de procedencia comuni-
-cará por telégrafo al jefe de la de destino, el domicilio del
-consignatario de la carga, para que le dé aviso de la hora pre-
-cisa de la llegada del tren que la conduzca, a fin de que pro-
-ceda inmediatamente a la descarga en cuanto llegue.
-
-Disposiciones que tomará la empre-
-sa si la carga explosiva no es reti-
+Art.
+340. — El jefe de la estaciôn de procedeneia comuni-
+carâ por telégrafo al jefe de la de destino, el domicilio del
+consignatario de la carga, para que le dé aviso de la hora pré¬
+cisa de la llegada del tren que la conduzca, a fin de que pro¬
+céda inmediatamente
+a la descarga en euanto llegue.
+Disposicîones que tomara la empre-
+sa si la
+carga explosiva
+no
+es reti-
 rada.
-
-Art. 341. — Si el consignatario no se presentase a retirar
-la carga en el acto, el jefe deberá dar intervención inmediata
-a la Policía del lugar, para que establezca la necesaria vigi-
-lancia y, mientras ésta llegue, tomará medidas para estable-
-cerla con personal de la empresa.
-
-## Images, Captions, And Visual Notes
-No images, captions, or significant visual notes are present on this page.
-
-## Uncertain Or Illegible
-None. All text is clear and legible.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+Art.
+341. — Si el consignatario
+no
+se presentase
+a retirar
+la carga en el acto, el jefe deberâ dar intervention inmediata
+a la Policîa del lugar, para
+que establezca la necesaria vigi-
+lancia y, mientras esta llegue, tomara medidas para estable-
+cerla
+con personal de la empresa.
 ```
 
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 195
+
 ## Page Metadata
-- Page number: 192
-- Source publication: Cámara de Senadores de la Nación, 1936
-- Document type: Regulations/Articles
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json`
+- Source page: 195
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/page-images/page-0195.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, starting with a page number, followed by several articles (Art. 342 to Art. 346), each with a descriptive heading. The reading order is strictly top-to-bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 192 —
 
-Petardos y cartuchos para señales
-de ferrocarriles.
-
-Art. 342. — Los petardos y cartuchos para señales de los
-ferrocarriles deberán llevarse en fuertes cajones, bien envueltos
-en yeso o serrín, de manera que queden aislados entre sí y
-las paredes. El volumen de los cajones no excederá de se-
-senta decímetros cúbicos cada uno. El remitente deberá acom-
-pañarlos de un certificado, haciendo constar que el embalaje
-ha sido hecho en debida forma y de acuerdo a lo dispuesto
-en este Reglamento.
-
-Transporte de fósforos.
-
-Art. 343. — Los fósforos se transportarán en cajones de
-hierro o de madera, cuyo volumen no excederá de mil dos-
-cientos decímetros cúbicos.
-
-Transporte de ácidos.
-
-Art. 344. — Los ácidos deberán transportarse en fuertes en-
-vases, bien tapados y provistos de manijas cómodas.
-No podrán transportarse junto con otros productos químicos
-en el mismo vagón, y sus envases y contenido no podrán pesar
-más de setenta y cinco kilogramos cada uno.
-
+```markdown
+—
+192
+—
+Petardos
+y cartuchos
+para senales
+de
+ferrocarriles.
+Art.
+342. — Los petardos y cartuchos para senales de los
+ferrocarriles deberân llevarse en fuertes cajones, bien envueltos
+en yeso
+o serrin, de manera que queden aislados entre si y
+las paredes.
+El volumen de los eajones no excederâ de se-
+senta decîmetros cubicos eada uno. El remitente deberâ acom-
+panarlos de un certificado, haciendo constar que el embalaje
+ha sido hecho
+en debida forma y de acuerdo
+a lo dispuesto
+en
+este Beglamento.
+Transporte de fosforos.
+Art.
+343.—Los
+fosforos
+se transportarân
+en
+eajones
+de
+hierro
+o de madera,
+cuyo volumen no excederâ de mil dos-
+cientos decîmetros cubicos.
+Transporte de âcidos.
+Art. 344. — Los âcidos deberân transportarse en fuertes en¬
+vases, bien tapados y provistos de manijas comodas.
+No podrân transportarse junto con otros productos quîmicos
+en el mismo vagôn, y sus envases y contenido no podrân pesai'
+mâs de setenta y cinco kilogramos cada uno.
 Venta de la carga por falta de re-
 tiro.
-
-Art. 345. — En caso de no reclamar el destinatario esta
-clase de cargas dentro de los cinco días desde la llegada a
-destino, la empresa estará facultada para venderlas.
-
-Transporte de petróleo.
-
-Art. 346. — El petróleo bruto, refinado y todos sus deri-
-vados líquidos de uso corriente como combustibles, podrán
-transportarse, cuando no lo sean en vagones especialmente
-construídos para este fin, en cascos fuertes y tambores u otros
+Art.
+345. -— En
+caso
+de
+no
+reclamar
+el destinatario
+esta
+clase de
+cargas dentro de los cinco dîas desde la llegada a
+destino, la empresa estarâ facultada para venderlas.
+Transporte de petroleo.
+Art. 346.— El petroleo bruto, refinado y todos sus deri-
+vados lîquidos de
+uso eorriente
+como combustibles, podrân
+transportarse, cuando
+no lo
+sean
+en vagones especialmente
+construîdos para este fin, en cascos fuertes y tambores u otros
 envases de metal bien cerrados y de consistencia probada.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. All text is clear and legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text on the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 196
 
 ## Page Metadata
-Page number: 193
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json`
+- Source page: 196
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/page-images/page-0196.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, primarily composed of regulations or articles. There's a page number at the top center, followed by several headings and subheadings, and then the main body of text divided into numbered articles. Some subheadings are right-aligned and in bold.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 193 —
-
-Rótulo en los vagones de petróleo.
-
-Art. 347. — Cada vagón deberá tener el rótulo, indicando
+```markdown
+—
+193
+—
+Rotulo
+en los vagones de petroleo.
+Art.
+347. — Cada vagôn deberâ tener el rotulo, indicando
 la clase de carga y la palabra “Peligro”.
-
-CAPÍTULO X
-
-TRANSPORTE DE GANADO
-
-Cargaderos para ganado en las es-
+CAP1TULO
+X
+TRANSPORTE
+DE
+GANADO
+Cargaderos para ganado
+en las
+es-
 taciones.
-
-Art. 348. — Las empresas deberán tener en todas las esta-
-ciones, donde el tráfico de hacienda lo exija, cargaderos para
-animales vivos, ejecutados según planos aprobados previa-
-mente por la Dirección General de Ferrocarriles.
-Estas instalaciones deberán ser construídas en terrenos que
-no sean susceptibles de anegarse, siendo obligatorio para las
+Art. 348.-—-Las empresas deberân tener en todas las esta-
+ciones, donde el trâfico de hacienda lo exija, cargaderos para
+animales
+vivos,
+ejecutados
+segun
+pianos
+aprobados
+previa-
+mente por la Direction General de Ferrocarriles.
+Estas instalaciones deberân ser construîdas en terrenos que
+no
+sean susceptibles de anegarse, siendo obligatorio para las
 empresas conservar en perfecto estado el piso de los corrales,
-los bretes, las mangas y el camino que les sirve de acceso den-
+los bretes, las mangas y el camino que les sirve de aeceso den-
 tro de la propiedad del ferrocarril.
-No se podrán descargar ganados en estaciones que no tengan
-cargaderos, sino con pedido escrito del cargador y a sus ex-
+No se podrân descargar ganados en estaciones que no tengan
+cargaderos, sino
+con pedido escrito del cargador y a sus ex-
 pensas y riesgos.
-Los cargaderos de las estaciones serán formados, cuando
+Los cargaderos
+de las
+estaciones serân formados,
+cuando
 menos, por un corral, manga y brete.
-
-Abrevaderos en los cargaderos. Su
+Abrevaderos
+en los cargaderos.
+Su
 servicio.
-
-Art. 349. — Todos los cargaderos de animales estarán pro-
-vistos de abrevaderos en la cantidad y colocación conveniente,
-y deberán estar siempre completamente secos hasta el mo-
-mento en que vaya a encerrarse el ganado para el cual se
-solicite agua por el cargador o su representante.
-El agua deberá ser perfectamente potable y fresca, que-
-dando autorizadas las empresas a cobrar la tarifa que para
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+Art. 349. ■—• Todos los cargaderos de animales estarân pro-
+vistos de abrevaderos en la cantidad y coloeaciôn conveniente,
+y deberân
+estar
+siempre
+completamente
+secos
+hasta
+el
+mo-
+mento
+en
+que vaya
+a
+encerrarse
+el ganado
+para el cual
+se
+solicite
+agua por el cargador
+o
+su représentante.
+El
+agua deberâ
+ser perfeetamente potable
+y fresca,
+que-
+dando autorizadas las
+empresas
+a cobrar la tarifa que para
 ```
 
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 197
+
 ## Page Metadata
-Page number: 194
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json`
+- Source page: 197
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/page-images/page-0197.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a single column of text, primarily composed of numbered articles and associated subheadings. The page number "194" is centered at the top. The main text is left-aligned, with subheadings often centered or slightly indented.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```
-                                    — 194 —
-
-cada estación se establezca con la Dirección General de Ferro-
-carriles, al ser aprobados los planos.
-
-                      Obligación de usar vagones espe-
-                      ciales para el transporte de ganado.
-
-    Art. 350. — El transporte de ganado se efectuará en vagones
-especiales, cuya construcción se ajustará a las prescripciones
+```markdown
+194
+cada estaciôn se establezca con la Direeciôn General de Ferro-
+carriles, al ser aprobados los pianos.
+Obligacion
+de
+usar
+vagones
+espe-
+ciales para el transporte de ganado.
+Art. 350. — El transporte de ganado se efeetuarâ en vagones
+especiales,
+enya construction
+se ajustarâ
+a las prescripciones
 del Reglamento sobre tren rodante de los ferrocarriles na-
 cionales.
-
-    Llevarán en su parte exterior una raya vertical terminada
-en flecha señalando el límite hasta donde se permitirá cargar
-animales, sirviendo esta señal para que el personal y los car-
+Llevarân
+en
+su parte exterior una raya vertical terminada
+en fleelia senalando el limite liasta donde se permitirâ cargar
+animales, sirviendo esta senal para que el personal y los car-
 gadores se orienten respecto al espacio que debe quedar libre
-para evitar el hacinamiento.
-
-                      Instalaciones para alimentar y abre-
-                      var el ganado.
-
-    Art. 351. — Para los trayectos que por su considerable ex-
-tensión exijan más de 30 horas de marcha, las empresas dis-
-pondrán de instalaciones apropiadas para descargar los ani-
-males, de modo que puedan descansar, comer y beber, siendo
+para évitai’ el hacinamiento.
+Instalaciones para alimentar y abre-
+var el ganado.
+Art.
+351. — Para los trayectos
+que por su considerable ex¬
+tension exijan mas de 30 horas de marcha, las empresas dis-
+pondrân de instalaciones apropiadas para descargar los ani¬
+males, de modo que puedan descansar, corner y beber, siendo
 estas operaciones por cuenta y riesgo de los interesados.
-
-                      Desinfección de vagones y carga-
-                      deros.
-
-    Art. 352. — Las empresas ferroviarias deberán limpiar y
-desinfectar los vagones de transporte de ganado así como los
+Desinfeccion
+de
+vagones
+y
+carga-
+deros.
+Art.
+352. — Las
+empresas ferroviarias deberân limpiar y
+desinfectar los vagones de transporte de ganado as! como los
 cargaderos del mismo, de acuerdo a las prescripciones del de-
-creto del 6 de Octubre de 1928 o las que estableciere en lo
+creto del
+6
+de Octubre de 1928
+o las
+que estableciere
+en lo
 sucesivo el Poder Ejecutivo.
-
-                      Establecimiento de trenes de hora-
-                      rio para el transporte de ganado.
-
-    Art. 353. — Será obligatorio de las empresas establecer
-trenes de horario para la conducción de ganado, cuando las
+Establecimiento de
+trenes
+de
+hoi'a*
+rio
+para
+el
+transporte
+de ganado.
+Art.
+353. — Sera
+obligatorio
+de
+las
+empresas
+establecer
+trenes de horario para la conducciôn de ganado, cuando las
 ```
 
 ## Images, Captions, And Visual Notes
 
-There are no images, captions, or significant visual notes on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-No text was uncertain or illegible.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
-```
+# Page 198
 
 ## Page Metadata
-- Page number: 198
-- Source publication: Cámara de Senadores de la Nación, 1936
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json`
+- Source page: 198
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/page-images/page-0198.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a page number at the top, followed by a main text block with several articles and subheadings. The text flows in a single column.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 195 —
 
-exigencias del tráfico, a juicio de la Dirección General de
-Ferrocarriles, lo requieran.
-
-Conducción de ganado por trenes
-ordinarios de carga.
-
-Art. 354. — Si no hubiere tráfico suficiente para establecer
-trenes de horario, las empresas podrán efectuar la conducción
-de los vagones de ganado por trenes de mercaderías, colocán-
-dolos a la cabeza de los de carga, estando prohibido realizar
-maniobras sin dejarlos previamente en un desvío.
-
-Número de vagones, atalaje y ma-
+```markdown
+—
+195
+—
+exigencies del trâfico,
+a juicio
+de
+la Direcciôn
+General
+dc
+Ferrocarriles, lo reqnieran.
+■
+Conduccion
+de ganado
+por
+trenes
+ordinarios
+de
+carga.
+Art. 354. — Si no liubiere trâfico suficiente para establecer
+trenes de horario, las empresas podrân efectuar la conduccion
+de los vagones de ganado por trenes de mercaderias, colocân-
+dolos
+a la cabeza de los de carga, estando probibido realizar
+maniobras sin dejarlos previamente
+en un desvio.
+Numéro de vagones, atalaje y
+ma¬
 niobras.
-
-Art. 355. — Los trenes de ganado no podrán conducir más
-vagones que el máximo establecido por la Dirección General
-de Ferrocarriles al fijarse los itinerarios de cada línea; de-
-berán llevar perfectamente ajustados los tornillos de atalaje,
-de manera que todo el tren forme un conjunto unido desde
-la locomotora hasta el último vagón; se reducirán sus mani-
-obras al mínimum indispensable para armar el convoy y los
-conductores cuidarán muy especialmente de evitar movimientos
+Art. 355. — Los trenes de ganado no podrân condueir mâs
+vagones que el maximum establecido por la Direcciôn General
+de Ferrocarriles al fijarse los itineraries de cada linea; de-
+berân llevar perfectamente ajustados los tornillos de atalaje,
+de
+manera
+que todo el tren forme un conjunto unido desde
+la locomotora liasta el ultimo vagôn ;
+se reducirân
+sus mani¬
+obras al minimum indispensable para armar el convoy y los
+conductores cuidarân muy especialmente de evitar movimientos
 bruscos con las locomotoras.
-
-Trenes especiales para el transpor-
+Trenes especiales para el transpor¬
 te de ganado.
-
-Art. 356. — Cuando el pedido de vehículos para el trans-
-porte de animales, hecho por el mismo cargador, alcance al
-número correspondiente al máximum de un tren, las empresas
-estarán obligadas a formar un tren especial, que quedará su-
-jeto a las mismas reglas establecidas para los trenes de horario,
-pudiendo, sin embargo, convenirse el plazo para el transporte,
-con tal que las velocidades no sean inferiores a los plazos del
-artículo 366.
+Art.
+356. — Cuando
+el pedido de vehiculos para el trans¬
+porte
+de animales, hecho
+por el mismo cargador, alcance al
+numéro correspondiente al mâximum de un tren, las empresas
+estarân obligadas a formar un tren especial,
+que quedarâ su-
+jeto a las mismas réglas establecidas para los trenes de horario,
+pudiendo, sin embargo, convcnir.se el plazo para el transporte,
+con tal que las velocidades no scan inferiores a los plazos del
+articulo 366.
+```
 
 ## Images, Captions, And Visual Notes
-No images or captions are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text and layout elements from the provided page image.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 199
 
 ## Page Metadata
-Page number: 196
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json`
+- Source page: 199
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/page-images/page-0199.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, primarily composed of numbered articles and subheadings. The content discusses regulations related to the transport of animals.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 196 —
-
-Tiempo máximo de encierro de los
+```markdown
+—
+196
+—
+Tiempo mâximo de encierro de Ios
 animales.
-
-Art. 357.— Las empresas, salvo casos de fuerza mayor, no
-podrán tener animales encerrados por más de 36 horas, en
-vagones que carezcan de las comodidades necesarias para
-darles agua y alimentos.
-Las demoras que se originen por el hecho de suministrar
-agua y alimentos, en los vagones que tengan comodidad para
-ello, se considerarán comprendidas en los tiempos indicados
-por el artículo 366; pero no así las demoras producidas por
-la suspensión del viaje, en el caso del artículo 351.
-
+Art. 357. — Las empresas, salvo
+casos de fuerza mayor, no
+podrân tener animales encerrados por
+mas de 36 horas,
+en
+vagones
+que
+carezcan
+de
+las
+comodidades
+necesarias
+para
+darles
+agua y alimentos.
+Las
+demoras
+que
+se originen por el hecho de snministrar
+agua y alimentos,
+en los vagones que tengan comodidad para
+ello,
+se considerarân comprendidas
+en los tiempos indicados
+por el artîculo 366 ;
+pero no asî las demoras producidas por
+la suspension del viaje, en el caso del artîculo 351.
 Pedido de vagones.
-
-Art. 358.— Las empresas proporcionarán a los interesados
-fórmulas impresas con talón, para el pedido de vagones, las
-que deberán ser llenadas por éstos en cada caso.
-Estas fórmulas de pedido se entregarán al jefe de estación,
+Art. 358. — Las empresas proporcionarân
+a los interesados
+formulas impresas con talon, para el pedido de vagones, las
+que deberân ser llenadas por éstos
+en cada caso.
+Estas formulas de pedido se entregarân al jefe de estacion,
 quien dentro de las 24 horas, a contar desde las 19 horas del
-día de su entrega, devolverá el talón indicando el día para
-el que estarán listos los vagones y la hora en que deberá estar
+dîa
+de
+su entrega, devolverâ el talon indicando el dîa para
+el que estarân listos los vagones y la hora en que deberâ estar
 cargada la hacienda.
-
-Carga y descarga de animales.
-
-Art. 359.— La carga y descarga de animales será por cuenta
-y riesgo del interesado, a menos de convención en contrario.
-
+Carga
+y descarga de vehiculos.
+Art. 359. — La carga y descarga de animales sera por cuenta
+y riesgo del interesado,
+a menos de convenciôn en contrario.
 Registro de animales.
-
-Art. 360.— Las empresas registrarán los transportes de ani-
-males según lo dispone el artículo 218. (Ley, art. 45.)
-
-Tiempo en que deben cargarse los
+Art. 360.-—Las empresas registrarân los transportes de ani¬
+males segun lo dispone el artîculo 218. (Ley, art. 45.)
+Tiempo
+en que deben cargarse les
 animales.
-
-Art. 361.— En ningún caso las empresas podrán exigir que
+Art. 361. — En ningun caso las empresas podrân exigir que
 se carguen los vagones antes de las cuarenta y ocho horas de
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed. The text on the right margin is cut off and not part of the main content of this page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 ```
 
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 200
+
 ## Page Metadata
-Page number: 197
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json`
+- Source page: 200
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/page-images/page-0200.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-— 197 —
-
-haber devuelto dicho talón firmado al interesado o a su repre-
-sentante. Regirá, por lo demás, lo establecido en los artículos
-298 y 318.
-
-Procedimiento en casos de contro-
-versia sobre el número de animales
-a cargarse.
-
-Art. 362. — Cuando el transporte se efectúe por vagón y no
-por cabeza, el jefe de la estación fijará la cantidad máxima
-de animales que puedan caber en cada vehículo, teniendo en
-cuenta la necesidad de evitar el hacinamiento y de asegurar a
-cada animal el espacio suficiente para ir cómodo.
-Si el remitente insistiera en cargar mayor número de ani-
-males, la empresa estará obligada a conducirlos, quedando
-exenta de responsabilidad si hiciera constar en la carta de
-porte su oposición.
-
-Animales de varias especies en un
-mismo vagón. Divisiones a cargo
-del remitente.
-
-Art. 363. — Se permitirá cargar animales de especie dife-
-rente en un mismo vagón, sólo cuando puedan ser colocados
-en espacios divididos.
-La división de los vagones será, en estos casos, por cuenta
-y riesgo del remitente, quien estará obligado a dejar los va-
-gones en destino en las condiciones en que los recibió en pro-
-cedencia.
-
-Anotaciones obligatorias en la car-
-ta de porte.
-
-Art. 364. — Cualesquiera que sean los convenios del trans-
-porte, se anotará en la carta de porte la especie y el número
-de animales a transportarse en cada vehículo.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 197 —
 
-haber devuelto dicho talón firmado al interesado o a su repre-
-sentante. Regirá, por lo demás, lo establecido en los artículos
+```markdown
+— 197
+—
+haber devuelto dicho talon firmado al interesado o a su repré¬
+sentante.
+Régira, por lo demâs, lo establecido en los artîculos
 298 y 318.
-
-Procedimiento en casos de contro-
-versia sobre el número de animales
+Procedimiento
+en
+casos de contro-
+versia sobre el numéro de animales
 a cargarse.
-
-Art. 362. — Cuando el transporte se efectúe por vagón y no
-por cabeza, el jefe de la estación fijará la cantidad máxima
-de animales que puedan caber en cada vehículo, teniendo en
+Art. 362. -— Cuando el transporte se efeetue por vagon y no
+por eabeza, el jefe de la estaciôn fijarâ la eantidad maxima
+de animales que puedan caber en cada vehiculo, teniendo en
 cuenta la necesidad de evitar el hacinamiento y de asegurar a
-cada animal el espacio suficiente para ir cómodo.
-Si el remitente insistiera en cargar mayor número de ani-
-males, la empresa estará obligada a conducirlos, quedando
-exenta de responsabilidad si hiciera constar en la carta de
-porte su oposición.
-
-Animales de varias especies en un
-mismo vagón. Divisiones a cargo
-del remitente.
-
-Art. 363. — Se permitirá cargar animales de especie dife-
-rente en un mismo vagón, sólo cuando puedan ser colocados
+cada animal
+el espacio suficiente para ir cômodo.
+Si el remitente insistiera
+en eargar mayor numéro de ani¬
+males, la
+empresa estarâ obligada
+a conducirlos, quedando
+exenta
+de responsabilidad si liiciera constar
+en la carta de
+porte su oposicion.
+Animales
+de varias especies
+en un
+mismo
+vagon.
+Divisiones
+a
+cargo
+del
+remitente.
+Art.
+363. — Se permitirâ cargar animales de espeeie dife-
+rente
+en
+un mismo vagon, solo cuando puedan ser colocados
 en espacios divididos.
-La división de los vagones será, en estos casos, por cuenta
-y riesgo del remitente, quien estará obligado a dejar los va-
-gones en destino en las condiciones en que los recibió en pro-
+La division de los vagones sera, en estos casos, por cuenta
+y riesgo del remitente, quien estarâ obligado a dejar los va¬
+gones en destino en las condiciones en que los recibiô en pro-
 cedencia.
-
-Anotaciones obligatorias en la car-
+Anotaciones obligatorias en la
+car¬
 ta de porte.
-
-Art. 364. — Cualesquiera que sean los convenios del trans-
-porte, se anotará en la carta de porte la especie y el número
-de animales a transportarse en cada vehículo.
+Art. 364. — Cualesquiera que sean los convenios del trans¬
+porte,
+se anotarâ en la carta de porte la espeeie y el numéro
+de animales a transportarse en cada vehiculo.
+```
 
 ## Images, Captions, And Visual Notes
-No images, captions, or visual notes are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 198

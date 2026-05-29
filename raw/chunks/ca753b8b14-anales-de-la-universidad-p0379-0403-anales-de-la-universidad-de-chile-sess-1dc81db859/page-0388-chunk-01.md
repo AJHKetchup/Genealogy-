@@ -1,0 +1,96 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9f3cb5762758-P0388-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403.codex.md
+converted_sha256: 9f3cb576275878876e05ffdd137c87ad7bbf02a72c4f81b2cf8980ca89c74ba7
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json
+page_start: 388
+page_end: 388
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json`
+- Source page: 388
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/page-images/page-0388.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+368 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+ces gobernada por el enérjico i católico presidente 
+don Gabriel García Moreno, el cual envió un pleni- 
+potenciario a Roma para negociar un concordato. El 
+Papa a su vez acreditó en Quito un delegado apos- 
+tólico, que fué monseñor Francisco Tavani. Este fué 
+solemnemente recibido por García Moreno en Agosto 
+del mismo año 1862, i por tanto no parece que Eiza- 
+oulrre estuviese en ese mismo tiempo ejerciendo en 
+el Ecuador funciones de Ablegado. 
+SOX 
+Regresa a la patria. —Piensa en una nueva edición 
+de su Historia de Chile 
+Hacía ya más de diez años que Eizaguirre viajaba 
+fuera de su patria, donde aún vivía su mádre más 
+que septuajenaria. El Colejio Americano estaba ya 
+definitivamente organizado ¡| seguía una marcha re- 
+lativamente próspera, bien que luchase con dificul- 
+tades pecuniarias que se espéraba subsanar con los - 
+medios dispuestos 
+por el Papa. En Chile había ba- 
+jado del poder don Manuel Montt, su enemigo polí- 
+tico, 1 subido en su lugar don José Joaquín Pérez. 
+mandatario prudente 1 respetuoso de la lejítima li- 
+bertad. 
+Por otra parte, ciertas dificultades con los ¡jesuitas 
+directores del colejio por asuntos de réjimen interno, 
+hacían mui deseable que los alumnos no pudiesen 
+comunicarse fácilmente con él, para evitar hablillas. 
+ií chismes. 
+Todas estas eran razones que le movían a regresar 
+—
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 389

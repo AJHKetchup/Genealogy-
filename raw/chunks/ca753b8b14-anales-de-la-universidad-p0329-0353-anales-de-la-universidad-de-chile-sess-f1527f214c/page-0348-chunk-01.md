@@ -1,0 +1,98 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2835257d8911-P0348-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353.codex.md
+converted_sha256: 2835257d8911fc755e478b9524ccb3aa4964819860b37b52f7497e987bed1b36
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json
+page_start: 348
+page_end: 348
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json`
+- Source page: 348
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/page-images/page-0348.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+328 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+infancia para educarlo en un medio social distinto 
+del de su nacimiento, e infundirle los gustos 1 aspi- 
+raciones propias de los civilizados. 
+Eizaguirre cooperó a esta obra con su palabra, 1 a 
+él se le confió el sermón que se predicó en la cate- 
+dral el día 5 de Agosto, que fué el de la solemnísima 
+instalación de la Sociedad. 
+Pocas 
+veces 
+se habrá 
+visto en nuestro templo metropolitano más lucida 
+concurrencia. Ofició la misa el arzobispo Valdivieso, 
+que había mirado como suya esta obra, 1 le prestaba 
+su más decidido concurso, 1 asistían el presidente 
+Bulnes, rodeado de sus cuatro ministros, los jenera- 
+les Freire, Las Heras, de la Lastra 1 Campino, el 
+intendente de Santiago, la municipalidad, muchos 
+miembros de la Universidad, el clero secular 1 regu- 
+lar 1 numerosísimos fieles. 
+El orador, en un bien pensado discurso, que des- 
+pués se publicó en la Revista Católica (1), hizo el elo- 
+jio de la nueva sociedad, demostrando que estaba 
+destinada a dar grande gloria a Dios 1 ennoblecer al 
+hombre. 
+Eizaguirre no continuó prestando su cooperación 
+a la Sociedad Evanjélica, 
+a la cual profesaba sin 
+duda grande afecto, supuesta su afición a las misio- 
+nes, porque se lo impidieron los acontecimientos que 
+sobrevinieron con motivo de su intervención en la 
+política, que ocurrió en ese mismo año 1849. 
+- 
+(1) Tomo IV núm. 188.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 349

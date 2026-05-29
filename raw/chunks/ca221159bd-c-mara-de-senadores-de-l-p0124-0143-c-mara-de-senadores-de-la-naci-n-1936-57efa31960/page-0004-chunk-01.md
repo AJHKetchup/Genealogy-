@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-38da71adc971-P0004-01
+chunk_id: CHUNK-ac22ece2f759-P0004-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143.codex.md
-converted_sha256: 38da71adc97197757037465dc8e82290d900cb82e956391ca91dfe6f91a630b0
+converted_sha256: ac22ece2f75960541965c9ece224e9d3550b0e8809919b2748d5fe4fa101d469
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json
@@ -83,3 +83,5 @@ All visible text and page elements have been transcribed and noted.
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The page contains only text and minor decorative elements like page numbers."}
 ```
+
+# Page 128

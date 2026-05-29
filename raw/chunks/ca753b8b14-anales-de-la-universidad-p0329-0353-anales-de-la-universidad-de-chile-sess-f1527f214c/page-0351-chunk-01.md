@@ -1,0 +1,106 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2835257d8911-P0351-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353.codex.md
+converted_sha256: 2835257d8911fc755e478b9524ccb3aa4964819860b37b52f7497e987bed1b36
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json
+page_start: 351
+page_end: 351
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json`
+- Source page: 351
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/page-images/page-0351.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+- CARLOS SILVA COTAPOS 
+331 
+simpatizaba con la candidatura presidencial 
+de don 
+Manuel 
+Montt que el nuevo ministerio patrocinaba. 
+Al abrirse las sesiones ordinarias, las 
+fuerzas 
+ go- 
+biernistas 1 las de oposición, estaban - tan 
+ equili- 
+bradas en la cámara de diputados que fué preciso 
+decidir por sorteo la elección de presidente 1 vice. 
+La suerte no favoreció a Kizaguirre, sino a su rival 
+don Borja Solar. En el mes 
+de Julio volvió 
+a ser 
+reelejido por última vez 
+1 desde Agosto 
+dejó de 
+serlo hasta la expiración del período lejislativo. 
+S XVI 
+Luchas políticas de 1850 1 1851 
+En las filas de la oposición figuraban algunos en- 
+fants terribles, como los directores de la famosa So- 
+ciedad de la Igualdad, fundada por Francisco Bilbao 
+y don Santiago Arcos, i el periódico El Amigo del 
+Pueblo, cuyo redactor principal fué don Eusebio Lillo. 
+Todos ellos inspirados en las ideas de los socialistas 
+franceses S. Simon, Fourier, Lamennais 1 comparsas, 
+se permitían ultrajar en su diario a la relijión 1 sus 
+ministros, hiriendo en sus más caros sentimientos a 
+los dirijentes de la oposición, que eran sinceros cató- 
+licos. 
+Habiendo publicado El Amigo del Pueblo dos capí- 
+tulos de Las palabras de un creyente, opúsculo de La- 
+mennais condenado por la iglesia, La Revista Católica, 
+en un artículo intitulado Un avance ¿mpiío, denunció 
+esta publicación como 
+anti-relijiosa. 
+El Amigo del 
+Pueblo 1 El Progreso, otro diario liberal, levantaron 
+el grito al cielo; cubrieron de injurias al presbítero
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 352

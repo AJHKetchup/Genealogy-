@@ -1,0 +1,98 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2835257d8911-P0349-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353.codex.md
+converted_sha256: 2835257d8911fc755e478b9524ccb3aa4964819860b37b52f7497e987bed1b36
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json
+page_start: 349
+page_end: 349
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json`
+- Source page: 349
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/page-images/page-0349.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+CARLOS SILVA COTAPOS 
+329 
+Ss XV 
+Eizaguirre diputado por Putaendo 
+Eizaguirre había vivido, hasta esta fecha, dedicado 
+enteramente a su ministerio. sacerdotal 1 a los estu- 
+dios así sagrados como profanos. Pero era difícil que, 
+perteneciendo a una familia cuyos miembros todos 
+habían tomado activa parte en el gobierno de la 
+república, 
+pudiera desinteresarse en absoluto de la 
+política. No era entonces como ahora costumbre que 
+el clero no tuviese representantes en las cámaras le- 
+jislativas, amtes por el contrario en todos los congre- 
+sos figuraban eclesiásticos, 1 a veces 
+en crecido nú- 
+mero. I pocos clérigos podían creerse tan bien pre- 
+parados como Hizaguirre para desempeñar lucido pa- 
+pel en las cámaras, pues era abogado, sacerdote 1 
+decano de la facultad de teolojía, 1, por las estensas 
+vinculaciones 1 fortuna de su familia, podía contar 
+con el apoyo del gobierno e influencia en el pueblo 
+para resultar electo. 
+I efectivamente fué elejido diputado por Putaendo 
+para el trienio de 1849 a 1852; 1 también elector de 
+senador por el departamento de Rancagua, que en- 
+tonces formaba parte de la provincia de Santiago. 
+Eizaguirre entraba 
+a la cámara como diputado 
+ministerial. La oposición, que luchó con más empeño 
+que en las elecciones anteriores, no pudo hacer triun- 
+far sino a cuatro candidatos: don Miguel Gallo, en 
+Copiapó, don Joaquin Vallejo, en Vallenar ¡ Freirina, 
+don Antonio García Reyes, en Ligua 1 don Manuel 
+Antonio Tocornal, en Valparaíso.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 350

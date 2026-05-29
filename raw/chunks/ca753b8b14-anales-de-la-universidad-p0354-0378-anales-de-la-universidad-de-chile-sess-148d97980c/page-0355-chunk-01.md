@@ -1,0 +1,101 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-4ab84d92929e-P0355-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378.codex.md
+converted_sha256: 4ab84d92929ec9719f2a9c201d8866523de00e6c3c836fd5f3f6b09a527f9600
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json
+page_start: 355
+page_end: 355
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 355
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0355.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+CARLOS SILVA COTAPOS 
+ze 
+335 
+canonjía, sintióse herido en su dignidad por tal 1n- 
+sinuación, pues la consideró como un intento de co- 
+hecho, i hubo de continuar 
+asistiendo 1 figurando 
+como resuelto opositor; 1 su casa era el punto de 
+reunión de algunos diputados que trataban de pro- 
+poner una reforma constitucional, con la cual Kiza- 
+sulrre simpatizaba. 
+ó 
+S XVII 
+Viaje a Lima 
+En Julio de 1850, pensando que va no podía sos- 
+pecharse: de su lealtad al partido, proyectó un viaje 
+al Perú que el doctor Padín le habia aconsejado para 
+curarse de cierta afección 
+a la garganta; pero ha- 
+biendo fallecido el 4 de Agosto siguiente su tío. el 
+deán don Alejo Eizaguirre, que le dejaba de albacea, 
+el viaje se fué demorando hasta fines del año, 1 sólo 
+pudo realizarlo en el mes de Diciembre. 
+La situación política de Chile durante estos últi- 
+mos meses de 1850 había sido tan turbulenta, a causa 
+de la gran oposición que se hacía a la candidatura 
+presidencial de don Manuel Montt, que el gobierno, 
+después del motín de San Felipe 1 las manifestacio- 
+nes públicas de la Sociedad «de la Equaldad. se había 
+visto obligado a declarar en estado 
+de sitio, por se- 
+tenta días, 2 las provincias de Santiago 1 Aconcagua. 
+Todos éstos eran motivos para que Eizaguirre sa- 
+liera del país. 
+Su permanencia en Lima duró unos 
+veinte días, 
+más o menos; pues el 23 de nero de 1851 ya estuvo 
+de regreso en Santiago. Su residencia en la capital
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 356

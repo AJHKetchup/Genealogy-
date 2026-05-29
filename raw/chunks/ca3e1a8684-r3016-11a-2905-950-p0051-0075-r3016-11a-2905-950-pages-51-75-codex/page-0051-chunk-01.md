@@ -1,0 +1,88 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-5c762ed527e9-P0051-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md
+converted_sha256: 5c762ed527e97c22a4aa497e56d80e919dace791e53f30b2e30eed07a04fb9ad
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/manifest.json
+page_start: 51
+page_end: 51
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/manifest.json`
+- Source page: 51
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/page-images/page-0051.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Rouge
+se montreront partout collaboraterus solidaires
+aux fins
+du secours international.
+Les consentements que son effort
+a su réunir, et qu'il con¬
+tinue
+a réunir
+à profit de cette cause de l'éntr'aide, démontrent
+que la thèse d'une action coordonnée commune à tous les Gou¬
+vernements et à la Croix Rouge, dirigée contre les fléaux de la
+nature, est acceptée désormais par la majorité des Etats et de
+l'opinion publique internationale. Et le prodige réalisé avec la
+création de I'll. I. S. — première organisation basée sur la mu¬
+tualité entre les Etats pour des buts unitaires, philanthropiques et
+universels — inspire à tous les serviteurs anciens et nouveaux de
+la Croix Rouge un sentiment de fierté émue.
+Mais il doit aussi leur inspirer le propos viril d'accomplir
+tout leur devoir, pour porter sans relâchement la Croix Rouge à
+l'honneur et au bonheur d'être l'armée mutuelle de paix, servant
+une Fédération d'Etats
+« résolus à développer l'entr'aide dans
+les calamités, à encourager les secours internationaux par l'àmé-
+nagement méthodique des ressources disponibles et à préparer
+tout progrès du droit international dans ce domaine ».
+Sénateur FILIPPO CREMONESI
+Président de la Croix Rouge Italienne.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

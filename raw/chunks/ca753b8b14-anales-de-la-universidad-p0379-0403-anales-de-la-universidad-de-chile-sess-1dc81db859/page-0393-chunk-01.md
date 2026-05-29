@@ -1,0 +1,101 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9f3cb5762758-P0393-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403.codex.md
+converted_sha256: 9f3cb576275878876e05ffdd137c87ad7bbf02a72c4f81b2cf8980ca89c74ba7
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json
+page_start: 393
+page_end: 393
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json`
+- Source page: 393
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/page-images/page-0393.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+CARLOS SILVA COTAPOS 
+373 
+SID 
+Esposicion del Coloniaje i Sociedad Católica 
+de Educacion 
+Por iniciativa del intendente de Santiago don Ben- 
+jamín Vicuña Mackenna se abrió en Santiago, el año 
+1873. la Exposición del Coloniaje, destinada a exhibir 
+todos los objetos antiguos de interés histórico que se 
+conservaban en 
+la república. También correspondió 
+a Hizaguirre presidir la Junta Directiva de esta ex- 
+posición que resultó bastante lucida. 
+Existía en Santiago una Sociedad o Cofradía de 
+San Benito, establecida en la iglesia de San Francis- 
+co, a cuya sombra se había formado una asociación 
+llamada Sociedad Católica de Educación, que sostenía 
+algunas escuelas primarias gratuitas. Eizaguirre, lle- 
+vado de su celo por la instrucción pública, ingresó a 
+olla 1 fué elejido presidente. Algunos jóvenes de las 
+primeras familias 1 de acendrada 
+fe 1 piedad que 
+también entraron 
+a formar parte de esa Sociedad, 
+notaron que su espíritu dejaba algo que desear; 1 por 
+el personal que comenzaba a dirijirla temieron que 
+perdiese su carácter de católica. Para evitarlo mo- 
+vieron a otros jóvenes, tambien católicos militantes, 
+de la Sociedad de Amigos del País, a que se hicieran 
+socios de la Sociedad de Educacion, 1 cuando se re- 
+novó el directorio, en Abril de 1869, elijieron uno 
+casi completamente nuevo, compuesto de monseñor 
+Kizaguirre, don Ramón 
+C. Briceño, don Raimundo 
+Larraín Covarrúbias, don José María Fredes, don 
+Luis Salas 
+Laso, don Santiago 
+Vial Guzmán, don
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 394

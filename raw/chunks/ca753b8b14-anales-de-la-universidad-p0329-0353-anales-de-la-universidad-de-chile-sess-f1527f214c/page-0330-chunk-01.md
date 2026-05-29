@@ -1,0 +1,101 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2835257d8911-P0330-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353.codex.md
+converted_sha256: 2835257d8911fc755e478b9524ccb3aa4964819860b37b52f7497e987bed1b36
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json
+page_start: 330
+page_end: 330
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json`
+- Source page: 330
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/page-images/page-0330.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+310 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+chiller en cánones i leyes por la misma universidad; 
+1 se incorporaba a la Academias de leyes 1 prácticas 
+forense para optar al título de abogado. 
+Los académicos don José Joaquín Tocornal 1 don 
+Manuel Aniceto Rojas, cuyo informe requirió el di- 
+rector de la Academia cuando Hizaguirre solicitó su- 
+admisión, dijeron que lo juzgaban mui digno de ser 
+incorporado «por ser un sujeto que se halla adornado 
+de las mas bellas disposiciones, tanto interiores como 
+exteriores»... 
+Eizaguirre concurrió asiduamente 'a las sesiones de 
+esta Academia durante dos años 1 medio, 1 desempe- 
+- ñó cumplidamente los cargos que se le encomenda- 
+ron, según testimonio del académico secretario don 
+José Victorino Lastarria. 
+El 16 de Mayo de 1838, después del examen de 
+costumbre, previa información de vita et moribus 1 
+patriotismo, 1 pago de seis pesos por el derecho de 
+media anata, Hizaguirre recibía el título de aboga- 
+do, coronando así su carrera literaria iniciada a los 
+seis años de su edad. 
+S 100 
+Abraza 
+el estado 
+eclesiástico. —Primeras 
+pláticas 
+1 
+primeros escritos 
+Pero no se crea en vista de estos estudios que las 
+- 
+inclinaciones de Eizaguirre le llamasen a la vida del 3 
+mundo; pues, antes de ingresar a la Academia de 
+Leyes, ya había elejido para sí el estado clerical, 1 > 
+recibido, a principios de 1834, la tonsura 1 órdenes 
+menores de manos del obispo Vicuña. 
+Y
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 331

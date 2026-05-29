@@ -1,0 +1,106 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9f3cb5762758-P0381-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403.codex.md
+converted_sha256: 9f3cb576275878876e05ffdd137c87ad7bbf02a72c4f81b2cf8980ca89c74ba7
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json
+page_start: 381
+page_end: 381
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json`
+- Source page: 381
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/page-images/page-0381.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+a 
+CARLOS SILVA COTAPOS 
+361 
+conservan tanto en el archivo del seminario como en 
+el de la Biblioteca Nacional; 1, en consecuencia, 
+le 
+repugnaría romper lanzas en su contra. 
+AOS 
+Eizaguírre se informa 
+en este víaje de muchos nego- 
+cios eclesiásticos i contrae numerosísimas relacio- 
+nes. 
+Pero no se limitó a esto el fruto del gran viaje de 
+Eizaguirre por toda la América latina. El le sirvió 
+también para imponerse de las más graves cuestlo- 
+nes 
+eclesiásticas 
+que ocurrían 
+en 
+este 
+continente, 
+acerca de las cuales pudo dar informes precisos al 
+Papa. 
+Entre estas cuestiones le interesó vivamente la ace- 
+falía en que se hallaba desde cuarenta años atrás la 
+diócesis de Salta, por culpa del gobierno civil 1 de 
+parte del clero, que desobedecía a la Santa Sede em- 
+peñada en establecer en esa diócesis una autoridad 
+que ejerciese con 
+lejítimo derecho 
+la ¿jurisdicción 
+eclesiástica. Eizaguirre, a petición de los mas distin- 
+guidos miembros del clero salteño, hizo cuanto pudo 
+para que tal desorden cesara, interponiendo ante el 
+Papa sus buenos oficios. 
+: 
+Fué también su viaje ocasión para que trabase 
+amistad con numerosísimas personas de todas cate- 
+gorías, obispos, canónigos, sacerdotes, relijlosos de 
+ambos sexos 1 seglares, distinguiéndose entre 
+todo 
+el arzobispo de Sucre don Pedro Puch 1 Solona. Con 
+ellos mantuvo durante largos años asidua correspon.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 382

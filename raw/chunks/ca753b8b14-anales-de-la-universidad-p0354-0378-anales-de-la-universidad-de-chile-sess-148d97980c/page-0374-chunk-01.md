@@ -1,0 +1,97 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-4ab84d92929e-P0374-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378.codex.md
+converted_sha256: 4ab84d92929ec9719f2a9c201d8866523de00e6c3c836fd5f3f6b09a527f9600
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json
+page_start: 374
+page_end: 374
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 374
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0374.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+394 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+Bolivia. De esta república, por la via de Tacna _1 
+Arica, pasó a Chile. Su permanencia 
+en la patria 
+duró pocos meses; pues el 17 de nero de 1857 había 
+zarpado de Arica para Valparaíso i el 25 de Abril 
+llegaba a Lima, después de haber visitado 
+a Are- 
+quipa 1 Cuzco. 
+Del Callao se trasladó al Heuador, 1 de esta repú- 
+blica, por Pasto, entró en Colombia. Visitada esta 
+nación se trasladó a Venezuela 1, cumplida en ella su 
+misión, se embarcó en la Guaira para 
+la isla de Santo 
+Tomás, donde tenía su centro la línea de vapores 
+que unía la Europa con los puertos de América. En 
+dicha isla se distribuían los pasajeros para sus dife- 
+rentes destinos. Kizaguirre tomó allí el vapor que 
+debía conducirlo a Veracruz para recorrer a Méjico. 
+A la capital de esta república llegó en Noviembre, 
+1 en el mes siguiente pasó a la isla de Cuba. El 25 de 
+Enero de 1858 hallábase ya de regreso en Roma, 1 
+podía dar cuenta del desempeño de su comisión al 
+Padre Santo. 
+A 
+Dificultades i peripecias de su viaje por América 
+Fácil es dar cuenta en pocas líneas de este largo 
+Itinerario; pero no es igualmente fácil referir las pe- 
+nalidades que el viajero soportó. En el Paragua, que 
+jemía bajo el despotismo de don Carlos Antonio Ló- 
+pez, nada pudo hacer. En Bolivia tropezó con dos 0 
+tres revoluciones, tocándole llegar a Oruro cuando 
+a
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 375

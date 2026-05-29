@@ -1,0 +1,120 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e745d2a6ea7b-P0430-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450.codex.md
+converted_sha256: e745d2a6ea7bc33f8ecf7bb3285284cca169748085efb0caefec4135d30155d0
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450/manifest.json
+page_start: 430
+page_end: 430
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450/manifest.json`
+- Source page: 430
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450/page-images/page-0430.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Bôle
+des Sociétés nationales
+de
+la Croix-Bouge
+A.
+Mise sur pied d'un organe national d'exécution.
+1) Constitution,
+sous les auspices de la Croix-Bouge,
+de Commissions nationales mixtes chargées de mettre en
+vigueur les mesures pratiques de protection telles que :
+a)
+Diffusion des enseignements utiles à la population.
+b)
+Formation d'un personnel de secours et d'équipes
+de désinfection et d'évacuation doués des aptitu¬
+des nécessaires et notamment de l'aptitude phy¬
+sique.
+c)
+Becensement des constructions susceptibles de
+servir d'abris.
+d) Aménagement d'abris collectifs.
+e)
+Approvisionnement d'un matériel de préservation
+et de secours.
+/)
+Organisation des locaux susceptibles d'assurer le
+soin
+des
+gazés
+(postes
+de
+secours,
+hôpitaux,
+établissements de bains, etc.)
+g)
+Mesures visant à s'assurer la disposition, en temps
+de guerre, de laboratoires où pourront être exami¬
+nés les produits toxiques employés par l'ennemi ;
+étude des moyens appropriés à la protection.
+B. Education du public et formation
+d'équipes spéciales.
+1) Instruction à donner à la population civile sur la
+protection contre les gaz et sur les soins à donner aux
+gazés notamment par la diffusion de tracts.
+2) Education des foules pour habituer celles-ci à la dis¬
+cipline en
+cas de calamités publiques.
+3) Instruction à donner aux équipes de désinfection.
+4) Formation des équipes de secours aux gazés.
+5) Formation
+de
+cadres
+d'instructeurs
+chargés
+de
+l'éducation
+de la population.
+— 31
+—
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

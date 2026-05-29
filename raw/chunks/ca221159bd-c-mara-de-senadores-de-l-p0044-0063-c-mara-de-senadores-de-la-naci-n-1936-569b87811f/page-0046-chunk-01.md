@@ -1,0 +1,131 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-4a3b09c1006d-P0046-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63.codex.md
+converted_sha256: 4a3b09c1006de31214a08e884d3a905d9eeb6a3a922ab6ced765a90df6315fa7
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json
+page_start: 46
+page_end: 46
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json`
+- Source page: 46
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/page-images/page-0046.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+— 42
+—
+Por resoluciôn Ministerial
+de
+23
+Junio
+1919,
+comunicada
+por circular
+N9
+45
+de
+31 Agosto 1920,
+se ordena
+que las reparticiones del Ministerio de Obras Publicas,
+que por
+una
+causa
+u otra tengan
+que efectuar obras de carâcter hidrâulico fluvial,
+pasarân
+previamente
+los
+expedientes
+respectivos
+antes
+de
+los
+trâmites
+aprobatorios
+a informe de la Direcciôn General de Irrigaciôn.
+Art. 99. — Queda derogada la Ley de ferrocarriles de 18 de
+Septiembre de 1872 y todas las disposiciones que
+se opongan
+a la presente ley.
+Art. 100. — No obstante lo dispuesto en el artîeulo anterior,
+continuarân vigentes las prescripciones relativas a la formaciôn
+y marcha de los trenes, hasta que el Poder Ejecutivo dicte los
+reglamentos necesarios para cumplir esta ley en esa parte.
+Art. 101. — Mientras
+se dicte una ley especial sobre trans¬
+portes por agua, éstos se regirân por las disposiciones de la pré¬
+sente ley que les fueren aplicables.
+Art.
+102. — Comunîquese al Poder Ejecutivo.
+Dada
+en la
+Sala de
+Sesiones del Congreso Argentino,
+en Buenos Aires,
+a
+18
+de
+Noviembre
+de
+1891.
+Miguel M. Nougués
+Benjamin Zorrilla
+Benigno Ocampo
+Uladislao S. Frias
+Secretario del Senado
+Secretario de la C.
+de DD.
+Por tanto:
+Téngase por Ley de la Naciôn, cûmplase, comunîquese, pu-
+blîquese y dése al Registro Nacional.
+PELLEGRINI.
+José V. Zapata.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 47

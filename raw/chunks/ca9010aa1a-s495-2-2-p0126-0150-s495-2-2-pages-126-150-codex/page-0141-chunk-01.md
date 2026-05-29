@@ -1,0 +1,123 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7ebce86235de-P0141-01
+source_converted: raw/converted/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150.codex.md
+converted_sha256: 7ebce86235ded6130926e2c246e3a956b6b940b13bcdab1a84e362589f32beb9
+source: raw/sources/S495-2-2.pdf
+source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
+source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json
+page_start: 141
+page_end: 141
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S495-2-2.pdf`
+- Source SHA-256: `9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027`
+- Conversion manifest: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json`
+- Source page: 141
+- Page image: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-images/page-0141.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+IIENACIMIENTO
+2"
+quier objeto, puede sueeder que deseuqte-
+ne su rnision correctamente;
+pero puede
+que en su viaje se detenga en 4 cantines
+y al llegar a la calle principal de laciu
+dad liaya olvidado todo lo relati^o a su
+comisidn. ^Podifa confiarse a tal perso¬
+na el llevar una carta, para Garcia?
+En
+los ultimes tiempos es freeuente
+oir hablar eon muchasimpatia del pobre
+trabajador victima de la explotaciôn in
+dustrial y del honbre lionrado, sin tra
+bajo, que por tadas partes busca
+con
+empeno ocupacion, y a todo esto se mtr,
+clan palabrasduras contra los que-eston
+c rriba.
+Nada se dice del Jefe de mdustria que
+envejece prematura mente, Iqchando en
+vano por enseùar a ejecutar intdigente-
+mente un trabajo a personasque niquïe-
+ren, ni les importa apreuder; y
+su larga
+y paciente lucha con colaboradores que
+no
+eolaboran y que solo esperan que
+vuelva la espalda
+para malgastar el
+tiempo.
+En todo alraacén y en toda f&-
+EL LAXANTE TÔNICO DEL DR. BELL
+fLAXANTB
+J.I O.BBU.
+mmm
+M DÎBJEU
+A&iüïLha
+Cura los
+Dolores de Cabeza
+Estrenimiento
+Indigestion
+Vêrtigos
+Pesadez
+En las mejores farmadas
+gS
+ç
+g
+6
+HEinRY T. PANTll\G & SONS.
+OFLCINA PRINCIPAL:
+SAN PEDRO SULA, HONDURaS
+Agenda Comercial
+REPRESENTANTES DE CASAS
+NO RTEAME RICANAS Y EURÔ-
+PEAS PARA CENTRO
+AMERICA
+Tenemos siempre un muestrario complète»
+Especialidad en licores, Artîculos en cuero, Tejidos, Materiales de
+construction. Abarrotes, Maquinarias e imp'ementos para
+la Agricultura, etc. etc.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

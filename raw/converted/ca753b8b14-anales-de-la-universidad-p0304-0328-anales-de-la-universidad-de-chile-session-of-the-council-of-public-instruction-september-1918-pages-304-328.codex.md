@@ -275,65 +275,92 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 307
+
 ## Page Metadata
-Page number: 287
-Running header: JULIO SAAVEDRA MOLINA
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 307
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0307.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a running header at the top, followed by a single column of justified text, divided into five paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-JULIO SAAVEDRA MOLINA 287
 
-principal de mi libro, objeto de su carta i de esta
-respuesta, que todas las soluciones lo dejan incó-
-lume.
-
-Quedan algunos reparos de su carta a los cuales
-nada he replicado: es porque, o los acepto entera-
-mente, o con alguna reserva sin valor.
-
-En consecuencia, me parece que no me equivoco
-al asegurarle que estoi mucho más cerca de sus ideas
-de lo que Ud. mismo se imajinaba al escribirme su
-carta.
-
-La orientación que pido para la enseñanza de idio-
-mas ajenos en nuestros liceos i los procedimientos
-que recomiendo son algo diferentes de la orientación
-i procedimientos que preconizan los programas ofi-
-ciales, pero ello obedece a la introducción de un pun-
-to de vista nuevo o mal discernido anteriormente, a
-saber: que las lenguas estranjeras, francés, inglés, i
-alemán, tienen en la educación secundaria de Chile
-un papel diverso i más importante que en la educa-
-ción europea o yanqui, mayor importancia que es-
-triba en la menor aptitud del castellano como ve-
-hículo de la cultura.
-
-Como este tópico no había sido valorizado ante-
-riormente, los programas no lo habían tomado en
-cuenta. Ahora que se le ve la importancia, los pro-
-gramas deben adaptarse a él, sin que esta evolución
-signifique nada más. Puede afirmarse que, escepto
-los programas de idiomas estranjeros, todos los vi-
-jentes hoi en día son profundamente distintos de los
-de 1893. Pues bien, que, al fin de 25 años, haya lle-
+```markdown
+JULIO SAAVEDRA MOLINA 
+287 
+principal de mi libro, objeto de su carta 1 de esta 
+respuesta, que todas las soluciones 
+lo dejan incó- 
+lume. 
+Quedan algunos reparos de su carta a los cuales 
+nada he replicado: 
+es porque, o los acepto entera- 
+mente, o con alguna reserva sin valor. 
+En consecuencia, Me parece que ho me equivoco 
+al asegurarle que estoi mucho más cerca de sus ideas 
+de lo que Ud. mismo se imajinaba al escribirme su 
+carta. 
+La orientación que pido para la enseñanza de 1dio- 
+mas ajenos en nuestros liceos 1 los procedimientos 
+que recomiendo son algo diferentes de la orientación 
+1 procedimientos que preconizan los programas 
+ofi- 
+ciales, pero ello obedece a la introducción de un pun- 
+to de vista nuevo o mal discernido anteriormente, a 
+saber: que las lenguas estranjeras, francés, inglés, 1 
+alemán, tienen en la educación secundaria de Chile 
+un papel diverso 1 más importante que en la educa- 
+ción europea o yanqui, mayor importancia que es- 
+triba en la menor aptitud del castellano como ve- 
+hículo de la cultura. 
+Como este tópico no había sido valorizado ante- 
+riormente, los programas no lo habían tomado en 
+cuenta. Ahora que se le ve la importancia, los pro- 
+gramas deben adaptarse a él, sin que esta evolución 
+signifique nada más. Puede afirmarse que, escepto 
+los programas de idiomas estranjeros, todos los vi- 
+jentes hoi en día son profundamente distintos de los 
+de 1893. Pues bien, que, al fin de 25 años, haya lle- 
 gado el momento de introducir alguna reforma sus-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last word "sus-" is hyphenated, indicating it continues on the next page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on the page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 288
@@ -1693,58 +1720,86 @@ This page has been transcribed in its entirety.
 }
 ```
 
+# Page 328
+
 ## Page Metadata
-Page number: 308
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 328
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0328.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The content begins with a continuation of a paragraph from the previous page, followed by several paragraphs detailing biographical information about various individuals. A section heading `§ II` introduces a new sub-heading and a final paragraph.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-308 MEMORIAS CIENTÍFICAS I LITERARIAS
-
-virtudes i tantas cualidades intelectuales como las
-que demostraron estos cinco hermanos, todos los cua-
-les vivieron una vida bastante larga.
-Don Agustín fué el conocido prócer de nuestra
-independencia. Don Miguel, graduado en derecho por
-la universidad de S. Felipe, alcanzó el honroso puesto
-de fiscal de la audiencia de Lima. Don Domingo fué
-miembro de nuestros congresos i a sus esfuerzos se
-debió la fundacion de la ciudad de San Bernardo,
-donde se le ha erijido un monumento. Don José Ig-
-nacio fué tambien miembro del congreso i consejero
-de estado.
-Finalmente don José Alejo, que abrazó el estado
-eclesiástico, se distinguió por su talento, ilustracion
-i altísimas virtudes. Honráronle con su confianza el
-obispo Rodríguez Zorrilla i el arzobispo Vicuña; fué
-elejido vicario capitular a la muerte de éste último,
-i presentado para el supremo gobierno para la mitra
-vacante, pero no llegó a ocuparla. Falleció, cargado
-de años i de méritos, en 1850, siendo deán del cabil-
-do metropolitano.
-
-§ II
-
-Nacimiento i educación de don José Ignacio Víctor
-Eizaguirre i Portales
-
-Don José Ignacio Eizaguirre Arechavala casó con
-doña Mercedes Portales Palazuelos, hermana del ilus-
-tre ministro don Diego Portales. De este matrimonio
-nació en Santiago don José Ignacio Víctor Eizagui-
-rre, el 25 de Febrero de 1817.
+```markdown
+308 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+virtudes i tantas cualidades intelectuales como las 
+que demostraron estos cinco hermanos, todos los cua- 
+les vivieron una vida bastante larga. 
+Don Agustín fué el conocido prócer de nuestra 
+independencia. Don Miguel, graduado en derecho por 
+la universidad de $. Felipe, alcanzó el honroso puesto 
+de fiscal de la audiencia de Lima. Don Domingo fué 
+miembro de nuestros congresos ia sus esfuerzos se 
+debió la fundacion de la ciudad de San Bernardo. 
+donde se le ha erijido un monumento. Don José Ig- 
+nacio fué tambien miembro del congreso 1 consejero 
+de estado. 
+Finalmente don José Alejo, que abrazó el estado 
+- 
+eclesiástico, se distinguió por su talento, ilustración 
+- 
+i altísimas virtudes. Honráronle con su confianza el 
+obispo Rodríguez Zorrilla 1 el arzobispo Vicuña; fué 
+elejido vicario capitular a la muerte de éste último, - 
+1 presentado para el supremo gobierno para la mitra 
+vacante, pero no llegó a ocuparla. Falleció, cargado 
+de años 1 de méritos, en 1850, siendo Lets -del copia a 
+do o 
+s H 
+Nacimiento i educación de don José Ignacio Víctor 
+Eizaguirre i Portales 
+Don José lenacio Eizaguirre Arechavala casó con. 
+doña Mercedes Portales Palazuelos, hermana del ilus- 
+tre ministro don Diego Portales. De este matrimonio 
+nació en Santiago don José Ignacio Víctor Eizagul- 
+rre, el 25 de Febrero de 1817
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

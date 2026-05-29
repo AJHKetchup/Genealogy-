@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-41921cbf8256-P0189-01
+chunk_id: CHUNK-116afe5204ca-P0189-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203.codex.md
-converted_sha256: 41921cbf825628b7b475896dc58f9814f29e162e2cfc31121c27906db42753cd
+converted_sha256: 116afe5204ca780682c13c2c46fc232e96905def54a34f4e36c906ed383fab3c
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json
@@ -119,3 +119,5 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 190

@@ -149,121 +149,200 @@ All visible text and visual elements on the page have been transcribed or noted.
 }
 ```
 
-## Page Metadata
-- Page number: 612
-
-## Layout And Reading Order
-The page features a header with the page number "612" on the left and the section title "MEMORIAS CIENTÍFICAS I LITERARIAS" on the right. Below the header, the main content consists of a single column of text, divided into three paragraphs. A short decorative rule appears at the bottom of the text block.
-
-## Literal Transcription
-612 MEMORIAS CIENTÍFICAS I LITERARIAS
-
-La esplicacion la encuentro mas bien en una lei físi-
-ca, aplicada por analojía a la sociedad, que en las leyes
-económicas. En efecto, la base del adelantamiento del
-Territorio está en la Ganadería. Durante muchos años
-todas las utilidades de esta industria se ocuparon por
-sus dueños, no en gastos suntuarios o de lujo, sino en
-cimentar el pedestal en que descansa, construyendo edi-
-ficios, galpones, caminos, alambrados, etc., i en una
-palabra, todas las instalaciones modernas con que hoi
-cuentan las estancias. Una vez terminadas éstas, la ri-
-queza se tradujo en oro, que empezó a llegar en gran-
-des cantidades al territorio, i fué entónces tambien
-cuando se estableció la Aduana.
-
-La ciencia económica dice claramente que este pro-
-greso debiera haberse detenido con tal traba, pero
-la lei física de la inercia que, propia o impropiamen-
-te aplico en este caso, lo impidió: era tan grande la
-fuerza ascensional de ese progreso, que destruyó i
-arrasó todos los obstáculos que se le opusieron.
-
-Pero las leyes económicas del proteccionismo i del
-libre cambio producen, durante su ejercicio, los mis-
-mos efectos que las leyes naturales i ya he insinua-
-do que empiezan a hacer sentir su poder cada año
-mas fuertemente sobre la industria magallánica, no
-directamente hasta hoi sobre ella misma, pero si so-
-bre el brazo productor, el obrero, i sobre la prepon-
-derancia de Punta Arenas en toda la Patagonia chi-
-lena i arjentina.
-— — —
-
-## Images, Captions, And Visual Notes
-A short decorative rule, consisting of three dashes, appears centered below the main text block.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text and the decorative rule on the page have been transcribed.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The decorative rule is too minor to warrant a crop."}
+# Page 682
 
 ## Page Metadata
-Page number: 613
-Running header: ESTUDIO DEL TERRITORIO DE MAGALLANES
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 682
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0682.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page consists of a running header at the top, followed by a main title, a subtitle, and several paragraphs of text. The text is presented in a single column. Some paragraphs are indented.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-ESTUDIO DEL TERRITORIO DE MAGALLANES 613
-
-CAPITULO I
-
-Aduana
-
-En capítulos anteriores he esbozado la idea de que
-todo estudio que se haga sobre Magallánes será siem-
-pre incompleto i erróneo si se le considera aislada i
-localmente, o solo con relacion al resto de la Repú-
-blica, sin tomar en consideracion a la nacion vecina.
--Sobre esta base, que no necesita otras explicacio-
-nes que las ya dadas, paso a estudiar uno de los mas
-importantes problemas locales.
-Mui conocidas son, para reproducirlas aquí, las cues-
-tiones relativas al libre cambio i al proteccionismo
-que ocuparon, ocupan i seguirán ocupando la aten-
-cion de los Gobiernos, por lo cual me limitaré a decir
-en qué consiste cada una de estas cuestiones.
-El proteccionismo consiste en la obstruccion del co-
-mercio internacional por medio de los derechos de
-aduana, principalmente, para fomentar la industria
-nacional; i el libre cambio, en abrir los puertos nacio-
-nales al comercio estranjero sin trabas de ninguna es-
-pecie.
-Naturalmente, en la época actual no se aplica este
-sistema con el rigor que se usaba en los tiempos de
-Cromwell, en Inglaterra, ni de Colbert en Francia, que
-casi cerraron por completo sus puertos al comercio es-
-tranjero. Hoi, aun cuando impera el proteccionismo
-en la mayor parte de los paises mas adelantados, no se
-ha abolido el libre cambio de ciertos artículos, que al-
-gunos paises producen en cantidad enormemente ma-
-yor que la precisa para atender a sus necesidades.
-
-## Images, Captions, And Visual Notes
-
-None.
-
-## Uncertain Or Illegible
-
-None.
-
-## Completeness Audit
-
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
+```markdown
+612 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+La esplicacion la encuentro mas bien en una lel físi- 
+ca, aplicada por analojía a la sociedad, que en las leyes 
+económicas. En efecto, la base del adelantamiento 
+del 
+Territorio está en la Ganadería. Durante 
+muchos años 
+todas las utilidades de esta industria se ocuparon 
+por 
+sus dueños, no en gastos suntuarios o de lujo, sino en 
+cimentar el pedestal en que descansa, construyendo edi- 
+ficios, galpones, caminos, alambrados, etc.,i.en 
+una 
+palabra, todas las instalaciones modernas con que hoi 
+cuentan las estancias. Una vez terminadas éstas, la ri- 
+queza se tradujo en oro, que empezó a llegar en gran- 
+des cantidades 
+al territorio, 
+1 fué entónces tambien 
+cuando se estableció la Aduana. 
+La ciencia económica dice claramente que este pro- 
+greso debiera 
+haberse 
+detenido con tal traba, 
+pero 
+la lei física de la inercia que, propia o impropiamen- 
+te aplico en 
+este caso, lo impidió: era tan grande la 
+fuerza 
+ascensional de ese 
+progreso, 
+que destruyó 1 
+arrasó todos los obstáculos que se le opusieron. 
+Pero las leyes económicas del proteccionismo i del 
+libre cambio producen, durante su ejercicio, los mis- 
+mos efectos que las leyes naturales i ya he insinua- 
+do que empiezan 
+a hacer sentir 
+su 
+poder cada año 
+mas fuertemente sobre 
+la industria magallánica, no 
+directamente hasta hoi sobre ella misma, pero si so- 
+bre el brazo 
+productor, el obrero, isobre Ja prepon- 
+derancia de Punta Arenas en toda la aga chi- 
+lena 1 arjentina.
 ```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 683
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 683
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0683.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+eS 
+200 
+ESTUDIO DEL TERRITORIO DE MAGALLANES 
+613 
+CAPITULO 1 
+Aduana 
+En capítulos anteriores he esbozado la idea de que 
+todo estudio que se haga sobre Magallánes será siem- 
+pre incompleto i erróneo 
+si sele considera 
+aislada i 
+localmente, o solo con relacion al resto 
+de la Repú- 
+blica, sin tomar en consideracion a la - nacion vecina. 
+-Sobre esta base, que no necesita Otras 
+ esplicacio- 
+nes que las ya dadas, paso a estudiar uno de los mas 
+importantes problemas locales. 
+Mu1 conocidas son, para reproducirlas aquí, las cues- 
+tiones 
+relativas al libre cambio 1 al proteccionismo 
+que ocuparon, ocupan 1 seguirán ocupando la aten- 
+cion de los Gobiernos, por lo cual me limitaré a decir 
+en qué consiste cada una de estas cuestiones. 
+El proteccionismo consiste en la obstruccion del.co- 
+mercio 
+internacional por medio de los derechos de 
+aduana, principalmente, para fomentar la industria 
+nacional; 1 el libre cambio, en abrir los puertos nacio- 
+nales al comercio estranjero sin trabas de ninguna es- 
+pecie. 
+y 
+Naturalmente, en la época actual no se aplica este 
+Sistema con el rigor que se usaba en 
+los tiempos de 
+Cromwell, en Inglaterra, ni de Colbert en Francia, que 
+casi cerraron por completo sus puertos al comercio es- 
+tranjero. Hoi, aun cuando impera 
+el proteccionismo 
+en la mayor parte de los paises mas adelantados, no se 
+ha abolido el libre cambio de ciertos artículos, que al- 
+gunos paises producen en cantidad enormemente 
+ma- 
+yor que la precisa para atender 
+a sus necesidades.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 684
 

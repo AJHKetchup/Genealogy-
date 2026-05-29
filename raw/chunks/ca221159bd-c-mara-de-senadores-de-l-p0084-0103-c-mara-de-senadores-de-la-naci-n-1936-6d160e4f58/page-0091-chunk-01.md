@@ -1,0 +1,110 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-54fa251d21cf-P0091-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103.codex.md
+converted_sha256: 54fa251d21cf87129ba145f08a263a8bbd782043b291deb70a722bbc8265bc7f
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json
+page_start: 91
+page_end: 91
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json`
+- Source page: 91
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0091.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—
+88
+—
+cado sera colocado en lugar visible y en él se harâ eonstar qui
+ha sido sometido
+a los ensayos periôdieos reglamentarios.
+Personas habilitadas para
+conducir
+locomotoras y automotores.
+Art. 68. — Solamente las personas designadas por las empre-i
+sas podrân conducir las locomotoras y demâs vehiculos automo-
+tores, después de haber acreditado
+su idoneidad
+de
+acuerdo
+con los reglamentos en vigencia.
+Manejo de locomotoras a vapor por
+foguistas.
+Art.
+69. — Todo foguista deberâ saber, por lo menos, hacei
+maniobrar la loeomotora a vapor en caso de necesidad.
+Personal de locomotoras y autohiO’
+tores.
+Art. 70. — Toda loeomotora
+a vapor en servicio estarâ a car¬
+go,
+a lo menos, de un maquinista y un foguista y toda
+loeo¬
+motora eléctrica, tren eléctrico
+o vehiculo automotor podrâ à'
+a cargo de un solo conductor, siempre que disponga, en un solo
+control, de un dispositivo automâtico de detenciôn.
+Guardias
+en las locomotoras.
+Art. 71. ■— No podrân ausentarse a la vez el maquinista y el
+foguista debiendo quedar siempre uno de los dos de guardia
+en la loeomotora.
+Personas
+que pueden viajar
+en la*
+locomotoras y automotores.
+Art. 72. — En las locomotoras
+a vapor en servicio de trenes
+podrân viajar unicamente los Inspectores Nacionales de ferro-
+carriles y el personal de servicio especialmente acreditado por
+la empresa, pero en ningun caso mas de cinco personas, indu-
+yendo al personal conductor.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 92

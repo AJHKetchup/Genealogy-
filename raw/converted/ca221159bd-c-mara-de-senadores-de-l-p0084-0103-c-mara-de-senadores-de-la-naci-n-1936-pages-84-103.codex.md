@@ -8,141 +8,285 @@
 - Conversion method: Codex local vision workbench
 - Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images`
 
+# Page 84
+
 ## Page Metadata
-Page number: 84
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json`
+- Source page: 84
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0084.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page consists of a single column of text. The page number "— 81 —" is centered at the top. The content includes numbered paragraphs, headings, and articles with sub-numbered points. Text on the left margin is partially visible but not part of the main content block.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```
-                                    — 81 —
-
-salvo
-                                    2º La indicada por el estado de la vía y condiciones de
-                                    protección de la misma.
-os tre
-                                    Contempladas estas condiciones, se podrá tomar, en general,
-                                    como velocidad máxima de marcha por hora en líneas de
-                                    trocha ancha y media: para trenes de pasajeros, 120 kiló-
-como-                             metros; para trenes de carga: 70 kilómetros.
-a la
-                                    En líneas de trocha angosta, la velocidad máxima no será
-                                    mayor de 90 kilómetros por hora.
-es de
-después                             Las locomotoras solas, con excepción de las marchas de
-podrá                             prueba y los casos de socorro, 50 kilómetros.
-ra de
-ecida.                              Solamente podrán aumentarse estas velocidades con auto-
-                                    rización especial de la Dirección General de Ferrocarriles.
-
-ajeros
-a.                                                      Velocidad media mínima de los tre-
-                                                        nes de pasajeros y mixtos.
-
-re un                             Art. 58.—Los trenes de pasajeros y mixtos no podrán
-ciones                            marchar con una velocidad inferior a 30 kilómetros por hora,
-es en-                            sin autorización de la Dirección General de Ferrocarriles.
-
-que el                                                  Limitación de la velocidad máxima.
-
-es de                             Art. 59.—La velocidad máxima de los trenes en cada sec-
-                                    ción será limitada:
-
-in la                               1º Con arreglo a las pendientes y curvas de la línea.
-o de                                2º En aquellas partes de la línea donde no sea posible ob-
-esta                                    servar una suficiente extensión del camino por la topo-
-                                        grafía o por el estado atmosférico.
-                                    3º Al tomar de punta cambios no provistos de aparatos de
-es.                                     seguridad, debiendo en este caso limitarse la velocidad
-rende                                   a 30 kilómetros por hora.
-endo
-                                    4º Al pasar por puentes móviles y empalmes de vías.
-                                    5º Al cruzar centros poblados, cuando la protección y
-n su                                    demás características de la vía justifiquen la adopción
-                                        de precauciones especiales.
+```markdown
+81
+—
+2?
+La indicada por el estado de la via y eondieiones de
+protecciôn de la misma.
+Contempladas estas eondieiones, se podrâ tomar, en general,
+como
+velocidad
+maxima
+de
+marcha
+por hora
+en lîneas de
+trocha
+ancha
+y media :
+para trenes
+de pasajeros, 120 kilo¬
+metres;
+para trenes de. carga: 70 kilomètres.
+En lîneas de trocha angosta, la velocidad maxima no sera
+mayor de 90 kilomètres por hora.
+Las
+locomotoras
+solas,
+con
+excepciôn
+de las marchas
+de
+prueba y los casos de socorro, 50 kilomètres.
+Solamente podrân
+aumentarse estas velocidades
+con auto-
+rizaciôn especial de la Direcciôn General de Ferrocarriles.
+Velocidad media minima de los tre¬
+nes de pasajeros y mixtos.
+Art.
+58. -—■Los
+trenes
+de
+pasajeros
+y mixtos
+no podrân
+marchar
+con una velocidad inferior a 30 kilomètres por hora,
+sin autorizaciôn de la Direcciôn General de Ferrocarriles.
+Limitacion de la velocidad maxima.
+Art. 59.—La velocidad maxima de los trenes en cada
+sec¬
+tion
+sera limitada:
+F
+Con arreglo
+a las pendientes y curvas de la lînea.
+2?
+En aquellas partes de la lînea donde no sea posible ob-
+servar una suficiente extension del camino por la topo-
+grafîa
+o por el estado atmosférico.
+3° Al tomar de punta cambios no provistos de aparatos de
+seguridad, debiendo
+en este
+caso limitarse la velocidad
+a 30 kilomètres por hora.
+4-
+Al pasar por puentes môviles y empalmes de vîas.
+5°
+Al
+cruzar
+centres
+poblados,
+cuando
+la
+protecciôn
+y
+demâs caracterîsticas de la via justifiquen la adopciôn
+de precauciones especiales.
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 85
 
 ## Page Metadata
-Page number: 85
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json`
+- Source page: 85
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0085.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, primarily composed of regulations or articles, with two main headings. The page number "82" is centered at the top.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 82 —
-
-Limitación de la velocidad efectiva.
-
-Art. 60.— La velocidad efectiva de los trenes se reducirá
-en los casos siguientes:
-
-1º Cuando las condiciones atmosféricas disminuyeran la
-visibilidad normal de la vía.
-2º Cuando se trate de trenes empujados por locomotoras,
-o sea, sin locomotora colocada a la cabeza del tren, en
-cuyo caso la velocidad no será superior a veinte kiló-
-metros por hora. Esta limitación no regirá en los casos
-de maniobras en las estaciones o desvíos y entre éstos
-y sus playas anexas.
-3º Cuando las locomotoras solas o titulares de los trenes
+```markdown
+— 82
+—
+Limitacion de la velocidad
+efectiva.
+Art.
+60. — La velocidad efectiva
+de los trenes
+se reducirâ
+en los
+casos siguientes:
+P
+Cuando
+las
+condiciones
+atmosféricas
+disminuyeran
+la
+visibilidad normal de la via.
+2?
+Cnando
+se trate
+de trenes empujados
+por locomotoras,
+o
+sea, sin locomotora colocada
+a la cabeza del tren,
+en
+cuyo
+caso la velocidad
+no
+sera superior
+a veinte
+kilo-
+métros por hora.
+Esta limitacion
+no régira en los
+casos
+de maniobras
+en
+las estaciones
+o desvios y entre
+éstos
+y
+sus playas
+anexas.
+39
+Cuando las locomotoras
+solas
+o titulares
+de
+los
+trenes
 corran con el ténder adelante, en cuyo caso la velocidad
-no podrá ser superior a 40 kilómetros de día y 30 kiló-
-metros de noche.
-
-Si el ténder no estuviere provisto de miriñaque, la
-velocidad en todos los casos de este inciso, no podrá
-exceder de día, de 30 kilómetros y de noche de 20 kiló-
+no podrâ ser superior a 40 kilômetros de dîa y 30 kilo¬
+mètres de noche.
+Si
+el ténder
+no estuviere provisto de mirinaque, la
+velocidad
+en
+todos
+los
+casos
+de
+este Inciso,
+no podrâ
+exceder de dla, de 30 kilômetros y de noche de 20 kilô¬
 metros por hora.
-
-Sin embargo, la Dirección General de Ferrocarriles
-podrá autorizar velocidades mayores que las estable-
-cidas en este inciso y el inciso 2º, si las características
-de la vía consintieren tal aumento sin peligro.
-
-Límites tolerables de atraso.
-
-Art. 61.— En el servicio de trenes de pasajeros, los límites
-tolerables en los atrasos serán los siguientes:
-
-Para un recorrido total entre kilómetros 0 y 50, 5 minutos.
-Para un recorrido total entre 50 y 100 kilómetros, 10 mi-
+Sin
+embargo, la
+Direcciôn
+General
+de
+Ferrocarriles
+podrâ
+autorizar
+velocidades
+mayores
+que
+las
+estable-
+cidas
+en este inciso y el inciso 2Q, si las caracteristicas
+de la via consintieren tal aumento sin peligro.
+Limites tolérables de atraso.
+Art. 61. — En el servicio de trenes de pasajeros, los limites
+tolérables
+en los atrasos serân los siguientes:
+Para
+un recorrido total
+entre kilômetros 0 y 50, 5 minutos.
+Para un recorrido total entre 50 y 100 kilômetros,
+10 mi¬
 nutos.
-Para un recorrido total entre 100 y 300 kilómetros, 15 mi-
+Para un recorrido total entre 100 y 300 kilômetros, 15 mi¬
 nutos.
-Para un recorrido total de más de 300 kilómetros, 20 mi-
+Para
+un recorrido total de
+mas de
+300 kilômetros, 20 mi¬
 nutos.
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains no images, diagrams, or other substantial visual content."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 86
 
@@ -677,70 +821,103 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 91
+
 ## Page Metadata
-- Page number: 91
-- Source publication year: 1936
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json`
+- Source page: 91
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0091.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents text in a single column, with a page number centered at the top. The content consists of regulations, structured with article numbers and subheadings. The reading order is strictly top-to-bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 88 —
 
-cado será colocado en lugar visible y en él se hará constar que
-ha sido sometido a los ensayos periódicos reglamentarios.
-
-Personas habilitadas para conducir
+```markdown
+—
+88
+—
+cado sera colocado en lugar visible y en él se harâ eonstar qui
+ha sido sometido
+a los ensayos periôdieos reglamentarios.
+Personas habilitadas para
+conducir
 locomotoras y automotores.
-
-Art. 68. — Solamente las personas designadas por las empre-
-sas podrán conducir las locomotoras y demás vehículos automo-
-tores, después de haber acreditado su idoneidad de acuerdo
+Art. 68. — Solamente las personas designadas por las empre-i
+sas podrân conducir las locomotoras y demâs vehiculos automo-
+tores, después de haber acreditado
+su idoneidad
+de
+acuerdo
 con los reglamentos en vigencia.
-
 Manejo de locomotoras a vapor por
 foguistas.
-
-Art. 69. — Todo foguista deberá saber, por lo menos, hacer
-maniobrar la locomotora a vapor en caso de necesidad.
-
-Personal de locomotoras y automo-
+Art.
+69. — Todo foguista deberâ saber, por lo menos, hacei
+maniobrar la loeomotora a vapor en caso de necesidad.
+Personal de locomotoras y autohiO’
 tores.
-
-Art. 70. — Toda locomotora a vapor en servicio estará a car-
-go, a lo menos, de un maquinista y un foguista y toda loco-
-motora eléctrica, tren eléctrico o vehículo automotor podrá ir
+Art. 70. — Toda loeomotora
+a vapor en servicio estarâ a car¬
+go,
+a lo menos, de un maquinista y un foguista y toda
+loeo¬
+motora eléctrica, tren eléctrico
+o vehiculo automotor podrâ à'
 a cargo de un solo conductor, siempre que disponga, en un solo
-control, de un dispositivo automático de detención.
-
-Guardias en las locomotoras.
-
-Art. 71. — No podrán ausentarse a la vez el maquinista y el
+control, de un dispositivo automâtico de detenciôn.
+Guardias
+en las locomotoras.
+Art. 71. ■— No podrân ausentarse a la vez el maquinista y el
 foguista debiendo quedar siempre uno de los dos de guardia
-en la locomotora.
-
-Personas que pueden viajar en las
+en la loeomotora.
+Personas
+que pueden viajar
+en la*
 locomotoras y automotores.
-
-Art. 72. — En las locomotoras a vapor en servicio de trenes
-podrán viajar únicamente los Inspectores Nacionales de ferro-
+Art. 72. — En las locomotoras
+a vapor en servicio de trenes
+podrân viajar unicamente los Inspectores Nacionales de ferro-
 carriles y el personal de servicio especialmente acreditado por
-la empresa, pero en ningún caso más de cinco personas, inclu-
+la empresa, pero en ningun caso mas de cinco personas, indu-
 yendo al personal conductor.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or significant visual elements on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 92
 
@@ -952,160 +1129,227 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 94
+
 ## Page Metadata
-Page number: 91
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json`
+- Source page: 94
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0094.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single-column layout with a page number centered at the top. The main content consists of numbered articles (Art. 77 to Art. 81) and several subheadings, all in Spanish. There is also some text partially visible on the left margin, which appears to be a continuation from a previous page or a side column.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 91 —
 
-Locomotora y tren de socorro. Avi-
+```markdown
+—
+91
+Locomotora y tren de socorro. Avi¬
 so al inspector nacional. Atribucio-
 nes del mismo.
-
-Art. 77. — Cuando salga una locomotora o tren de so-
-se comunicará al Inspector Nacional respectivo con la mayor
-anticipación posible, la hora de su salida a fin de que pueda
-trasladarse en ellos.
-
-Los Inspectores Nacionales podrán ordenar por escrito la
+Art. 77. — Cuando saïga una locomotora o tren de socorro,
+se comunicarâ al Inspector Nacional respectivo con la mayor
+anticipaciôn posible, la hora de sn salida a fin de que pueda
+trasladarse
+en ellos.
+Los Inspectores Nacionales podrân ordenar por escrito la
 parada del tren en que viajaren, para bajar en el lugar de
 un siniestro.
-
 Tipos de enganche y paragolpes.
-
 Art. 78. — Los enganches y paragolpes del material rodante
-en todos los ferrocarriles se ajustarán a los tipos que esta-
-blezca o autorice el Poder Ejecutivo.
-
-Enganche de vagones para el trans-
+en todos los ferrocarriles
+se ajustarân a los tipos que esta-
+blezca
+o autorice el Poder Ejecutivo.
+Enganche de vagones para el trans¬
 porte de objetos largos.
-
-Art. 79. — Los objetos largos, que por sus dimensiones nece-
-sitaren cargarse sobre dos vagones, sólo podrán transportarse
-estando éstos provistos de aparatos de apoyo giratorios o
-unidos entre sí con enganches rígidos.
-
-Sistemas de alumbrado permitidos
+Art. 79.—Los objetos largos, que por sus dimensiones neee-
+sitaren cargarse sobre dos vagones, solo podrân transportarse
+estando
+éstos provistos
+de aparatos de
+apoyo giratorios
+o
+unidos entre si
+con enganches rigidos.
+Sistemas
+de alumbrado permitidos
 en los trenes.
-
-Art. 80. — Para el alumbrado de los trenes podrá usarse
-únicamente aceite vegetal, gas o luz eléctrica, quedando abso-
-lutamente prohibido el uso de petróleo u otras materias in-
+Art.
+80. — Para el alumbrado de los trenes podrâ usarse
+unicamente aceite vegetal, gas o luz eléctrica, quedando abso-
+lutamente prohibido el uso de petrôleo u otras materias in-
 flamables.
-
-Autorización necesaria para usar
-otros sistemas de alumbrado.
-
-Art. 81. — Todo nuevo sistema de alumbrado o lámparas
-deberá ser previamente autorizado por la Dirección General
-de Ferrocarriles.
-
-[Left margin, cut off text:]
-for
-e Fé.
-mitir
-y sus
-sonal
+Autorizacion
+necesaria
 para
-es de
-cción
-a de
-siden-
-entes.
-entro
-onal,
-rril
-l de
-ervi-
-dis-
-todo
-que
-pre-
-gase
-los
-esa
-ario
-par-
-
-## Images, Captions, And Visual Notes
-The page contains no images, captions, or other substantial visual elements.
-
-## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
-
-## Completeness Audit
-All visible text on the page, including the page number, headings, article text, and the partially visible text on the left margin, has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains no images, captions, or other substantial visual elements suitable for cropping."}
+usar
+otros sistemas de alumbrado.
+Art.
+81. — Todo
+nuevo
+sistema
+de alumbrado
+o lâmparas
+deberâ
+ser previamente autorizado por la Direcciôn General
+de Ferrocarriles.
 ```
 
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 95
+
 ## Page Metadata
-Page number: 95
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json`
+- Source page: 95
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0095.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, primarily composed of legal articles and subheadings. The content flows from top to bottom, starting with a page number, followed by a main heading, then numbered articles, and finally a chapter heading with subheadings and further numbered points.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 92 —
-
-Alumbrado de los coches y plata-
+```markdown
+92 —
+Alumbrado
+de
+los
+coches
+y
+plata*
 formas.
-
 Art. 82. — El interior de los coches de pasajeros, que circu-
-len de noche, deberán estar bien iluminados.
-Las plataformas de los coches de pasajeros, tanto de pri-
-mera como de segunda clase, estarán dotadas de una lámpara
-de un poder luminoso no inferior a 10 bujías. Estas luces,
-como las de las linternas y faroles de los trenes y máquinas,
-se encenderán desde la puesta del sol.
-Todo tren de pasajeros, que emplease más de cinco minutos
-para atravesar un túnel, deberá tener las luces encendidas.
-
-CAPÍTULO III
-
-SEÑALES
-
-Clases de señales.
-
-Art. 83. — Las señales deberán ser perceptibles, sea por el
-oído o por la vista, y se harán con señales fijas o movibles.
-
-Señales perceptibles por el oído.
-
-Art. 84. — Las señales perceptibles por el oído se harán con
+len de noche, deberân estar bien iluminados.
+Las plataformas de los
+coches
+de pasajeros, tanto
+de pri¬
+mera como de segunda clase, estarân dotadas de una lâmpara
+de
+un poder luminoso
+no inferior
+a
+10 bujîas.
+Estas
+luces,
+como las de las lintemas y faroles de los trenes y mâquinas,
+se encenderân desde la puesta del
+sol.
+Todo tren de pasajeros, que emplease mas de cinco minutes
+para atravesar
+un tunel,
+deberâ tener
+las luces
+encendidas.
+CAP1TULO III
+SENALES
+Clases de senales.
+Art. 83. •— Las senales deberân
+ser perceptibles,
+sea por el
+oîdo
+o por la vista, y se harân con senales fijas o movibles.
+Senales perceptibles por el ofdo.
+Art. 84. — Las senales perceptibles por el oîdo se harân con
 campana, campanillas, pito, silbato, bocina y petardos.
-Art. 85. — Con el silbato de la locomotora o la bocina se
-harán las siguientes señales:
-
-Señales con el silbato o bocina.
-
-1º Hallándose la locomotora, coche motor o automóvil de
-vía parado, o durante las operaciones de maniobras: Un
-toque corto indicará que el vehículo o corte se pondrá
+Art.
+85. — Con el silbato
+de la locomotora
+o la bocina
+se
+harân las siguientes senales:
+Senales con el silbato
+o bocina.
+I9
+Hallândose la locomotora,
+coche motor
+o automôvil
+de
+via parado,
+o durante las operaciones de maniobras: Un
+toque corto indicarâ que el vehlculo
+o corte
+se pondra
 en movimiento.
-
-2º Hallándose el tren en marcha: Un silbato prolongado
-indicará atención y se tocará al aproximarse a la esta-
+29
+Hallândose
+el tren
+en marcha:
+Un silbato prolongado
+indicarâ atenciôn y se toearâ al aproximarse
+a las esta-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 96
 
@@ -1224,68 +1468,135 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 97
+
 ## Page Metadata
-- Page number: 97
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json`
+- Source page: 97
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0097.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents text in a single column, structured with headings and numbered articles. The reading order is top-to-bottom, following the sequence of headings and articles.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 94 —
 
-Uso del silbato o bocina para comu-
-nicarse con el personal del tren o
+```markdown
+—
+U
+—
+Uso del silbato
+o bocina para Côttiil*
+nicarse
+con el personal del tren
+o
 estaciones.
-
-Art. 87. — El conductor del tren se comunicará con el per-
-sonal del mismo, de la vía o de las estaciones, por medio del
-silbato o la bocina.
-
-Supresión de los silbatos en casos
+Art. 87. — El conductor del tren
+se comunicarâ con el per¬
+sonal del mismo, de la via o de las estaciones, por medio del
+silbato
+o la bocina.
+Supresion de los silbatos
+en
+casos
 especiales.
-
-Art. 88. — Los silbatos prescriptos en el artículo anterior
-como señales obligatorias al acercarse un tren a los pasos a
+Art.
+88. — Los silbatos prescriptos
+en
+el articulo anterior
+como senates obligatorias al
+acercarse
+un tren
+a los pasos a
 nivel, pueden ser suprimidos siempre que los pasos estén pro-
-vistos de campanillas eléctricas anunciadoras o luces de des-
-tello accionadas automáticamente por el mismo tren, o dotados
-de barreras enclavadas con las señales y de portezuelas tra-
+vistos
+de campanulas eléctricas anunciadoras
+o luces
+de
+des-
+tello accionadas automâticamente por el mismo tren, o dotados
+de barreras enclavadas
+con
+las senales y de portezuelas tra-
 bables.
-La Dirección General de Ferrocarriles determinará en qué
-casos se han de establecer estos sistemas de anuncios y pro-
-tección y reglamentará su empleo.
-
-Prohibición de usar el silbato o bo-
-cina en ciertos casos.
-
-Art. 89. — Es estrictamente prohibido usar el silbato o la
-bocina para la trasmisión de otros signos que los reglamen-
-tarios o especiales previstos en los reglamentos internos, y
-sobre todo, para pedir entrada a las estaciones o la concu-
+La Direeciôn General de Ferrocarriles determinarâ
+en que
+casos
+se han de estableeer
+estos sistemas de anuncios y pro-
+tecciôn y reglamentarâ su empleo.
+Prohibiciôn de usar el silbato
+o bo-
+cina
+en ciertos casos.
+Art.
+89. — Es estrictamcnte prohibido usar el silbato
+o la
+bocina
+para la trasmisiôn de otros signos
+que los reglamen-
+tarios
+o
+especiales
+previstos
+en
+los reglamentos internos,
+y
+sobre todo,
+para pedir entrada
+a las estaciones
+o la
+concu-
 rrencia de determinado personal por medio de toques prolon-
-gados o repetidos.
-
+gados
+o repetidos.
 Uso de petardos.
-
-Art. 90. — Los petardos se usarán:
-1º En todos los casos en que siendo necesario dar aviso de
+Art.
+90. — Los petardos se usarân :
+P
+En todos los
+casos
+en que siendo necesario dar aviso de
 un peligro inminente a un tren, no se disponga de otro
-medio que ofrezca la certeza de no pasar desapercibido
+medio que ofrezea la certeza de
+no pasar desapercibido
 por el conductor del mismo.
+```
 
 ## Images, Captions, And Visual Notes
-No substantial images or captions are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial images or graphics are present on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 
@@ -1395,63 +1706,116 @@ There are no uncertain or illegible portions of text on this page.
 }
 ```
 
+# Page 99
+
 ## Page Metadata
-Page number: 96
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json`
+- Source page: 99
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0099.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single-column layout with continuous text, including numbered articles and sub-points, and section titles. The reading order is strictly top-to-bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 96 —
-
-señales de precaución, el conductor deberá proceder del mismo
-modo que si fuera señal de peligro. Después de parado el
-tren, si no apareciese ningún agente en la vía y no se advir-
-tiese ningún indicio de peligro, el jefe del tren ordenará se-
-guir la marcha a paso de un hombre, haciéndolo preceder de
-un empleado del mismo, que debe caminar adelante del tren
-a una distancia prudencial para hacer las señales corres-
+```markdown
+— 96
+—
+senales de precaution, el conductor deberâ procéder del mismo
+modo
+que si fuera senal de peligro.
+Después de parado el
+tren, si no apareciese ningun agente en la via y no se advir-
+tiese ningun indicio de peligro, el jefe del tren ordenarâ se-
+guir la marcha a paso de un hombre, haciéndolo précéder de
+un empleado del mismo,
+que debe caminar adelante del tren
+a
+una
+distancia
+prudencial
+para
+hacer
+las
+senales
+corres-
 pondientes.
-
-Si pasado un kilómetro no se encontrase obstáculo ni ningún
-agente, el tren seguirá la marcha con una velocidad que no
-excederá de veinte kilómetros por hora y silbando con fre-
+Si pasado un kilometro no se encontrase obstâculo ni ningun
+agente, el tren seguirâ la marcha
+con una velocidad que no
+excedarâ
+de veinte kilometros por hora y silbando
+con fre-
 cuencia; debiendo todos los empleados prestar la mayor aten-
-ción sobre la vía, y las señales que pudieran hacerse hasta
-llegar a la primera estación.
-
-Señales perceptibles por la vista.
-
-Art. 93. — Las señales perceptibles por medio de la vista
-se harán con semáforos, banderas, discos, señales luminosas
-de color y luminosas de posición y, en caso de necesidad, con
-los brazos simplemente o con cualquier otro objeto.
-
-Semáforos con brazos, tipos, colo-
-cación y uso de los mismos.
-
+ciôn sobre la via, y las senales
+que pudieran hacerse hasta
+llegar
+a la primera estacion.
+Senates perceptibles por la vista.
+Art.
+93. — Las
+senales perceptibles por medio de la vista
+se harân
+con
+semâforos, banderas,
+discos, senales luminosas
+de color y luminosas de posiciôn y, en caso de necesidad, con
+los brazos simplemente
+o con cualquier otro objeto.
+Semâforos
+con brazos,
+tipos, colo-
+cacion y uso de los mismos.
 Art. 94. —
-
-1º En los semáforos podrá emplearse el sistema de dos o
-el de tres posiciones; en ambos sistemas las señales se
-harán con los brazos colocados al lado izquierdo del más-
-til, en la dirección de la marcha de los trenes, o con las
+l9
+En los semâforos podrâ emplearse el sistema de dos o
+el
+de très posiciones;
+en ambos sistemas las senales se
+harân con los brazos colocados al lado izquierdo del mâs-
+til, en la direction de la marcha de los trenes, o con laS
 luces correspondientes.
-2º Los tipos de brazos a emplearse en los semáforos serán
-los indicados en las siguientes figuras:
+29
+Los tipos de brazos a emplearse en los semâforos seran
+los indicados
+en las siguientes figuras:
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions present."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 97

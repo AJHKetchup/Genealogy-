@@ -1,0 +1,115 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-116afe5204ca-P0190-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203.codex.md
+converted_sha256: 116afe5204ca780682c13c2c46fc232e96905def54a34f4e36c906ed383fab3c
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json
+page_start: 190
+page_end: 190
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json`
+- Source page: 190
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/page-images/page-0190.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+— 187
+—
+f) Tarifas y premios de oro.
+g) Flete total.
+h) Fecha y numéro de la earta de porte.
+i) Fecha de puesta a disposiciôn para la descarga.
+j) Fecha de otorgamiento del recibo.
+Nuevo
+recibo
+por rectificacion de
+flete pagado en procedencia.
+Art.
+321. — Cuando
+se hubiere pagado el flete en la esta-
+ciôn de procedencia y resultare algûn error en el peso de la
+carga
+o
+en la tarifa aplicada, las empresas darân un nuevo
+recibo con el flete rectificado y en la forma establecida en el
+artîculo anterior.
+Rectificacion del precio y peso de
+los
+bultos.
+Art.
+322. —• Podrâ rectifiearse
+a la llegada de los bultos
+cualquier error que en el precio o en el peso hubiere cometido
+la estaciôn expedidora.
+Este derecho
+es recîproco entre las empresas y el publico,
+debiendo abonarse en el acto de la entrega de la mercaderîa,
+por quien y a quien corresponda, el importe a que ascienda el
+error cometido. (Ley, art. 48.)
+Pago de los gastos de rectificacion
+del
+peso.
+Art.
+323. —- El consignatario pagarâ los gastos para pesar
+y contar los articulos en el caso que, habiendo pedido recti¬
+ficacion resultare igual o mayor peso que el expresado en la
+carta
+de porte.
+Tratândose de cargas
+a granel, si el peso asignado por la
+empresa en el aviso de la llegada de la carga, de acuerdo a
+lo dispuesto en el artîculo 308, fuera mayor que el declarado
+y el consignatario no lo aceptase, efectuada la verificaciôn de
+peso, la
+empresa correrâ
+con los gastos, cuando resuite un
+peso menor
+o igual al declarado en la carta de porte.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 191

@@ -1,0 +1,130 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-a5b048b1838a-P0211-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225.codex.md
+converted_sha256: a5b048b1838a4662dddb1f7c4e558b6319840e4e2bc1ec43bd88232cf8b438c3
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225/manifest.json
+page_start: 211
+page_end: 211
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225/manifest.json`
+- Source page: 211
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225/page-images/page-0211.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+en Ginebra
+a comienzos del entrante Abril,
+de acuerd\
+con los términos de la Nota de Sir Eric Drummond.
+Me complazco
+en darle,
+à continuacion,
+algunos
+datos relativos
+d mi hermana.que Usted solicité del
+Dr.
+Franco
+y
+que este
+no ha podido envtarle por falta
+de
+ttempo .
+Edad:
+38
+anos. Est ado: soit era.
+Abogado de los Tribunal es de la Pepublica (Primera mu-
+Jer Dominicana graduada
+en Derecho
+y primera,
+tambien,
+en haber obtenido
+el
+exequatur
+para ejercer îa aboga-
+cia).
+,Profesor de Derecho
+y de Moral Social
+en la Escuela
+{Normal Superior de Santo Domingo.
+1Ja formado parte del personal
+de la ofictna del emt-
+jiente Jurisconsulte Domtntcano Don Francisco J. Peyna-
+do,
+autor del Plan de Liberacio'n,
+Candidato d la Pre-
+jsidencia de la Repdblica
+y Présidente de la Delegacion
+Dominicana
+à la Ultima Conferencta Panamericana,
+y de
+la del
+Senador de la Republica Dr. Moisés Garcia Mella.
+Ademàs de los estudlos de Derecho
+ha cursado estudtos
+especial es de Matemàttcas.
+Puedo asegurarle de antemano,
+mi esttmado ami¬
+go,
+que
+su designacion serd bien acojida por parte
+de
+mi Gobiemo, asi
+como tambien en los circulos de
+la
+prensa Nacional.
+Para cualquier otro informe
+çfue le interese
+que_
+do
+a
+su disposicion. Mientras tantp-y—rqxé(f$îe aceptar un
+cordial
+apreton de
+manos.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

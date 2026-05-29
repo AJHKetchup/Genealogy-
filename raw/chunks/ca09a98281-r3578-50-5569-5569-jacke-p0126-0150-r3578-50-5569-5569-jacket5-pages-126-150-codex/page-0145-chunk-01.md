@@ -1,0 +1,122 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-5bfd003c83f8-P0145-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket5-pages-126-150.codex.md
+converted_sha256: 5bfd003c83f807f784d5c46a32438e6318f0d97268d8915f61d6d9809ec52675
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket5-pages-126-150/manifest.json
+page_start: 145
+page_end: 145
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket5-pages-126-150/manifest.json`
+- Source page: 145
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket5-pages-126-150/page-images/page-0145.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+81
+514
+den
+Heer
+Jacob
+Harberts,
+Majoor bij den Generalen Staf,
+Leeraar
+aan de Hoogere Krijgsschool;
+Zijne Keizerlijke Majesteit de Sjah van Perzie:
+Z. Exc. den Heer Anouchirevan Khan Sepahbodi, Buitengewoon
+Gezant
+en Gevolmachtigd Minister van Perzie te Bern;
+De President van de Kepubliek Polen:
+den Heer Joseph Gabriel Pracki, Kolonel
+van den Geneeskun-
+digen Dienst,
+den Heer W. Jerzy Babecki, Luitenant-Kolonel;
+De President van de Portugeesche Republiek:
+Z. Exc. den Heer Vasco de Quevedo, Buitengewoon Gezant en
+Gevolmachtigd Minister van Portugal te Bern,
+den
+Heer
+Francisco
+de
+Calheiros
+e Menezes, Gezantschaps-
+secretaris lste klasse;
+Zijne Majesteit de Koning van Roemenie:
+Z.
+Exc.
+den Heer Michel B. Boeresco, Buitengewoon Gezant
+en Gevolmachtigd Minister van Roemenie te Bern,
+den Heer Eugene Vertejano, Kolonel, Officier van den Generalen
+Staf;
+Zijne
+Majesteit
+de
+Koning
+der
+Serven,
+Croaten
+en
+Slovenen:
+Z. Exc. den Heer Ilija Choumenkovitch, Buitengewoon Gezant
+en Gevolmachtigd Minister van het Koninkrijk der Serven,
+Croaten
+en Slovenen
+te Bern,
+Permanent Gedelegeerde bij
+den Volkenbond;
+Zijne Majesteit de Koning van Siam:
+Zijne Doorluchtige Hoogheid Prins Varnvaidya, Buitengewoon
+Gezant
+en Gevolmachtigd Minister van Siam te Londen;
+Zijne Majesteit de Koning van Zweden:
+Z. Exc.
+den Heer Karl Ivan Westman, Buitengewoon Gezant
+en Gevolmachtigd Minister van Zweden te Bern;
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 146

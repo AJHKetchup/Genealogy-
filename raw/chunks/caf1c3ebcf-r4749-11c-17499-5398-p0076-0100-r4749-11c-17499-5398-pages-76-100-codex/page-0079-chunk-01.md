@@ -1,0 +1,114 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-438e0340b749-P0079-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0076-0100-r4749-11c-17499-5398-pages-76-100.codex.md
+converted_sha256: 438e0340b749e358bf1508b3f33f1d193c4efc2c418c7f89cefa785a455e62e9
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0076-0100-r4749-11c-17499-5398-pages-76-100/manifest.json
+page_start: 79
+page_end: 79
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0076-0100-r4749-11c-17499-5398-pages-76-100/manifest.json`
+- Source page: 79
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0076-0100-r4749-11c-17499-5398-pages-76-100/page-images/page-0079.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—10
+-
+///
+cimiento, el tribunal podrâ anticipar
+su salida, fundando
+la resoluciôn
+en la desapariciôn de las causas
+que motiva-
+ron la internaciôn
+o
+en la reforma moral del menor, la capa
+cidad de las personas
+que lo tendrân a su cargo para dirigir
+su educaciôn,
+y la situacidn de ambiente donde vivirâ, si de
+todo ello résulta conveniente la salida para su salud y adap
+tacidn social;
+c)
+Si el menor, al tiempo de intervenir el tribunal,
+hubiere cumplido quince
+anos de edad y revelare peligrosidad,
+o si
+acusare perversidn moral, impulsiyidad o tendencia a de
+linquir,
+sera internado en un reformatorio
+o en seccidn es¬
+pecial de un establecimiento educativo publico, por tiempo
+indeterminado.-
+Cuando el menor comprendido
+en el inciso anterior ha-
+ya cumplido dieciocho anos de edad y siempre que hubiera trans
+currido,
+por lo menos,
+un ano desde su ingreso, si su conduc
+ta pusiere de manifiesto una reforma moral positiva o una
+modificaciôn favorable de
+su personalidad, visto el informe
+del director del reformatorio,
+sera trasladado
+a un estable¬
+cimiento educativo
+o eximido del régimen de la seccidn espe¬
+cial,
+y permanecerà en él hasta los veintiun anos de edad.-
+En
+caso de inadaptaciôn al ambiente de este establecimiento,
+se procédera conforme
+a lo estatufdo en la disposicidn si-
+guiente.-
+Si al cumplirse la edad y tiempo establecido en el
+///
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 80

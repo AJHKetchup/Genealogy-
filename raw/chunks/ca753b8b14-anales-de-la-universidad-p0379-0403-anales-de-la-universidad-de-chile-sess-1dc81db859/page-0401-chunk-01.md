@@ -1,0 +1,95 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9f3cb5762758-P0401-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403.codex.md
+converted_sha256: 9f3cb576275878876e05ffdd137c87ad7bbf02a72c4f81b2cf8980ca89c74ba7
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json
+page_start: 401
+page_end: 401
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json`
+- Source page: 401
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/page-images/page-0401.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+CARLOS SILVA COTAPOS 
+381 
+El viaje se realizó sin contratiempos. En Roma los 
+superiores ¡“alumnos del Colejio Pío Latino le acojie- 
+ron con gran cariño i agasajos i lo forzaron a alojarse 
+en el establecimiento. Pero no todo aparecía de color 
+de rosa; porque tuvo la amargura de saber que el 
+colejio corría peligro de quedarse sin casa. Los je- 
+—suitas que lo rejían habiam enajenado la casa dada 
+por Eizaguirre, 1 trasladado el colejio a una parte 
+del edificio que ocupaba el noviciado de la Compa- 
+mía, en la plaza del Quirinal, con la esperanza de que 
+el gobierno piamontés, que acababa de apoderarse 
+de Roma. respetase las banderas americanas del cole- 
+JO, 1 no se incautase del noviciado. Pero no sucedió 
+así. El gobierno italiano se declaró dueño 
+de esa 
+casa, 1 cuando Eizaguirre llegó a Roma se negociaba 
+para obtener el uso de ella por algún plazo largo, para 
+tener tiempo de adquirir otra; pero las negociaciones 
+aún no llegaban a feliz término. 
+San 
+Publica en Roma sus «Instrucciones al pueblo 
+cristiano» 
+Los muchos años de vida de predicador que Hiza- 
+gulrre llevaba le habían hecho acumular un crecido 
+Número de sermones o pláticas doctrinales, prepara- 
+dos con todo el estudio 1 perfección de que era capaz. 
+La publicación de estos sermones fué uno de los ob- 
+Jetos que le llevaron a la ciudad eterna; i así, apenas 
+hubo llegado, contrató en la imprenta de la Propa- 
+ganda la impresión de su sermonario, que abrazó seis
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 402

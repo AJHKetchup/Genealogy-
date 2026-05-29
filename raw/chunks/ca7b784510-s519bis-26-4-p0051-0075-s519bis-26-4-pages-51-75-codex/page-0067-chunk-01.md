@@ -1,0 +1,113 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6418466325c5-P0067-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75.codex.md
+converted_sha256: 6418466325c554befc7eb0593684925073f278b218b0eee059c7f99d2ace856d
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75/manifest.json
+page_start: 67
+page_end: 67
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75/manifest.json`
+- Source page: 67
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75/page-images/page-0067.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Ginebra,Julio 4 de 1931.
+Estimado araigo Azcarate:
+Perdone
+que lo iorobé en plenas vaoaoiones,
+Se
+trata
+de México
+eon equis y vera Vd, por la ad^unta copia de la
+carta
+que hoy escribe Plà a Lerroux,asi como por la copia con
+la convereacion que tuve con Castro Leal,que la cosa vale la
+pena.
+Busqué ç Vd. esta maftana para consultarle sobre
+el asunto,pero
+no lo pu&e hacer debido a su ausenciaï Biscutimos
+Comert y yo sobre el proeedimiento y luego de charlar con Buero
+y cambiar ideas con Vigier y con Plà,ll6gamos a la conclusion
+de
+que debïa mandarse el texto de mi convereacion a Lerroux con
+una carta de Plà,enviando copia a Vd, por ai ilega a Madrid en
+tiempo oportuno y créé util apoyar la operacion,
+Como vera Vd.pôr lo dicho en la convereacion
+con Castro Leal.pareoe
+que Paui presentara
+eue oredencialee al
+final
+de la
+semana entrante,es decir hacia el 10
+o el 11 del
+corriente.Ho sé,ni lo sabe Plâ exaotamente,eual serâ el proto¬
+col
+que ha de seguirse y si ha de ser Alcalâ Zamora o ai ser&
+Lerroux quien reciba eoleraneraente las credonoiales del nuevo
+emb&jador.
+31
+es Lerroux,la cosa sera mas fâoll,porque no ten¬
+dra
+que explicar una sérié de detalles a Alcald Zamora que no
+ha estaâo
+en Ginebra y tiene
+que reaccionar normal mente con
+menos soltura
+que Lerroux.Convendra que tenga Vd.
+eso en ouenta,
+si Ilega Vd.
+a tener alguna intervencion en este enjuague esede-
+netsco.
+ue
+sea ésta la sola causa de interrupcion en
+si bien ganado asueto y acepte tu. apreton de manos de su amigo
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 68

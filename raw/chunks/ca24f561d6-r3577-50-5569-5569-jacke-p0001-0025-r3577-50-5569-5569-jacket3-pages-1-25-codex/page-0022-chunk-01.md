@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-c05612b304b4-P0022-01
+chunk_id: CHUNK-4ee7799a050a-P0022-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25.codex.md
-converted_sha256: c05612b304b4c4b1d29ae1f04d671f1bdc7e82569c9e0b678da30f35db108d01
+converted_sha256: 4ee7799a050a5584f2402cc37bba68cded884f95ec1d80c7ec40a912b19140b4
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/manifest.json
@@ -12,75 +12,128 @@ part: 1
 ---
 
 ## Page Metadata
-Page: 22
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/manifest.json`
+- Source page: 22
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/page-images/page-0022.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a header with a page number on the left and a session date on the right. Below this, the main content is presented in a two-column format, listing countries and associated names. This list is followed by two distinct paragraphs, each introduced by a speaker's name and title, presented in a single-column layout at the bottom of the page.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-4 SÉANCE DU 2 JUILLET 1929
-PERSE :
-S. E. M. A. SEPAHBODI, M. A. Hossein Khan SARDARI.
-M. Ali Khan AMINI.
 
-POLOGNE :
-Le Colonel BABECKI, M. Léopol RUTKOWSKI.
-
-PORTUGAL :
-S. E. M. Vasco DE QUEVEDO, M. Francisco DE CALHEIROS E MENEZES.
-
-ROUMANIE :
-S. E. M. Michel B. BOERESCO, Le Colonel Eugène VERTEJANO.
-Le Médecin-Colonel B. Jean BALANESCO.
-
-ROYAUME DES SERBES, CROATES ET SLOVENES :
-Le Général Zarko M. ROUVIDITCH, Le Général Tchéd. DIOURDIEVITCH.
-
-SIAM :
-S. A. S. le Prince VARNVAIDYA.
-
-SUÈDE :
-S. E. M. Axel Erik Mathias SJÖBORG, Le Colonel Eric de VIRGIN.
-
-SUISSE :
-Le Colonel HAUSER, Le Colonel A. ZÜBLIN.
-
-TCHÉCOSLOVAQUIE :
-M. Jean REISSER, Le Colonel Jan KLOUD.
-M. Josef LAZNICKA,
-
-TURQUIE :
-NUSRET Bey, Le Lieutenant-Colonel ABDULKADIR Bey.
-
-URUGUAY :
-S. E. M. Alfredo DE CASTRO.
-
-VÉNÉZUELA :
-S. E. M. C. PARRA-PÉREZ.
-
-M. le Président :
+```markdown
+4
+Séance
+du
+2 Juillet
+1929
+S. E. M. A. Sepahbodi,
+Le Colonel Babecki,
+S. E. M. Vàsco de Quevedo,
+S. E. M. Michel B. Boeresco,
+PERSE
+:
+M. A. Hossein Khan Sardari.
+M. Ali Khan Amini.
+POLOGNE
+:
+PORTUGAL
+:
+M. Léopol Rutkowski-
+M. Francisco de Calheiros e Menèzes.
+ROUMANIE
+:
+Le Colonel Eugène Vertejano<
+Le Médecin-Colonel B. Jean Balanesco.
+ROYAUME DES SERBES, CROATES ET SLOVENES
+:
+Le Général Zarko M. Rouviditch,
+Le Général Tchéd. Diourdievitch.
+SIAM
+:
+S.
+A.
+S.
+le
+Prince
+Varnvaidya.
+S.
+E.
+M.
+Axel Erik Mathias Sjôborg,
+SUÈDE
+:
+SUISSE
+:
+Le Colonel Hauser,
+M. Jean Reisser,
+Nusret Bey,
+TCHÉCOSLOVAQUIE
+:
+M. Josef Laznicka,
+Le Colonel Eric de Virgin.
+Le Colonel A. Zublin.
+Le Colonel Jan Kloud.
+TURQUIE
+:
+Le Lieutenant-Colonel Abdulkadir Bey.
+URUGUAY
+:
+S. E. M. Alfredo de Castro.
+VÉNÉZUELA
+:
+S.
+E.
+M.
+C. Parra-Pérez.
+M. le Président
+:
 Une liste complète des membres de la commission vous sera distribuée ultérieurement.
 S'il y avait des changements à y apporter, ce sera chose facile.
 Je vous prie maintenant de passer au second acte de constitution et de vous donner un
 président.
-
 M. Rhomberg (Allemagne) :
 Je me permets de proposer comme président de la commission M. le Ministre Dinichert.
 Si j'ose présenter cette proposition, c'est que j'espère que M. Dinichert sera prêt à faire encore
 ce sacrifice à la cause pour laquelle il a déjà tant fait. Nous lui en serions tous reconnaissants.
 Je suis donc certain d'être votre interprète en priant M. le Ministre Dinichert d'accepter la
-présidence de la commission. (_Applaudissements_).
+présidence de la commission. {Applaudissements).
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 23

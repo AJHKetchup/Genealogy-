@@ -366,76 +366,124 @@ All visible text and page elements have been transcribed and noted.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The page contains only text and minor decorative elements like page numbers."}
 ```
 
+# Page 128
+
 ## Page Metadata
-Page number: 128
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json`
+- Source page: 128
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/page-images/page-0128.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents text in a single column, primarily consisting of numbered articles and subheadings. Text on the left margin appears to be a continuation from a previous column or page, but is truncated and not fully legible. The main content flows from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-— 125 —
 
-Indicaciones en los boletos.
-
+```markdown
+125
+Indicaciones
+en
+los
+boletos.
 Art. 132. — En los boletos que se expendan a los pasajeros,
-se especificará su precio y clase, estación de origen, número
-del tren, estación de destino y fecha de su expedición.
-
-Boletos condicionales.
-
-Art. 133. — Los boletos que se expendan en las estaciones
-intermedias, donde no existan depósitos de coches, serán con-
-dicionales. Su importe será devuelto por las empresas en el
+se especificarâ su precio y clase, estaciôn de origen, numéro
+del tren, estaciôn de destino y fecha de su expediciôn.
+Boletos
+condicionales.
+Art.
+133. — Los boletos que
+se expendan en las estaciones
+mtermedias, donde no existan depôsitos de coches, serân
+con¬
+dicionales.
+Su importe sera devuelto por las empresas
+en el
 caso que no hubiere lugar en el tren y el pasajero desistiera
-de viajar por ese motivo.
-
-Presentación de los boletos a los
+de viajar por
+ese motivo.
+Presentacion
+de
+los
+boletos
+a
+los
 guardatrenes.
-
-Art. 134. — Los boletos deberán ser presentados y entrega-
+Art. 134. — Los boletos deberân
+ser presentados y entrega-
 dos por los pasajeros, cuando sean pedidos por el guardatrén u
-otro empleado de la empresa, debidamente autorizado al
+°tro
+empleado
+de
+la
+empresa,
+debidamente
+autorizado
+al
 efecto.
-
-Devolución en caso de boletos no
+Devolution
+en
+caso
+de boletos
+no
 utilizados.
-
 Art. 135. — El viajero que por una circunstancia cualquiera
-no hubiere hecho uso de su boleto tendrá derecho a la devo-
-lución de su importe, menos un 10 % hasta un máximum de
-tres pesos, debiendo hacer la reclamación dentro del tiempo
-que el tren empleara para llegar al destino indicado en el
+110 hubiere hecho uso de
+su boleto tendra derecho
+a la devo¬
+lution de
+su importe, menos un 10 % hasta un maximum de
+Ires pesos, debiendo hacer la reclamation dentro del tiempo
+lue el tren empleara para llegar al destino indicado
+en el
 boleto.
-
-Si la reclamación se efectuara antes de la partida del tren,
-el máximum del descuento será de un peso moneda nacional
-de curso legal.
-
+Si la reclamation
+se efectuara antes de la partida del tren,
+el maximum del descuentp sera de un peso moneda national
+'le curso legal.
 Viaje interrumpido en trayecto. De-
-volución parcial del precio del bo-
+volucion parcial del precio del bo¬
 leto.
-
 Art. 136. — Si el pasajero desembarcara voluntariamente en
-una estación intermedia, no tendrá derecho al reembolso de
-proporción alguna del precio del pasaje.
-
+uua estaciôn intermedia,
+no tendra derecho al reembolso de
+Proportion alguna del precio del pasaje.
 5
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. The number "5" at the bottom left appears to be a printer's mark or a continuation of a numbering sequence.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-The text on the far left margin is truncated and not fully legible, but it is not part of the main content flow and appears to be a continuation from a previous page's column. It has been excluded from the transcription as per instructions to transcribe from the visible page image and not invent missing text.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All legible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The page contains only text and minor decorative elements."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 129
 
@@ -873,68 +921,114 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 133
+
 ## Page Metadata
-Page number: 130
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json`
+- Source page: 133
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/page-images/page-0133.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, primarily legal articles and related headings. The page number "— 130 —" is centered at the top. Text flows from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-                                                                — 130 —
 
-lo menos con 24 horas de anticipación y se facilitarán, siem-
+```markdown
+— 130
+—
+lo menos
+con 24 horas de anticipation y
+se facilitarân, siem-
 pre que sea posible.
-
-                                        Anuncio de parada de trenes.
-
-        Art. 150. — Los guardatrenes anunciarán en voz alta y antes
-de llegar a una estación donde el tren tenga parada el nombre
-de la misma y, en caso de empalme, el cambio de tren que in-
+Anuncio de parada de trenes.
+Art. 150. — Los guardatrenes anunciarân en voz alta y antes
+de llegar a una estaciôn donde el tren tenga parada el nombre
+de la misma y, en easo de empalme, el cambio de tren que in¬
 dique el horario respectivo.
-        En la misma forma anunciarán las paradas de los trenes
-de una duración de quince minutos o más.
-
-                                Pasajeros en trenes de carga por
-                                razones de conveniencia pública.
-
-        Art. 151. — En casos urgentes, siendo de necesidad o conve-
-niencia pública, las empresas podrán conducir pasajeros en
+En la misma forma anunciarân las paradas de los trenes
+de
+una duration de quince minutos
+o mas.
+Pasajeros
+en
+trenes
+de
+carga
+Vor
+razones de conveniencia publica.
+Art. 151. — En casos urgentes, siendo de necesidad o conve¬
+niencia publica, las
+empresas podrân conducir pasajeros
+en
 los trenes de carga, sin necesidad de enganchar coches espe-
 ciales de pasajeros.
-        Estos transportes se harán en forma condicional.
-
-                                Pasajeros en trenes de carga por ra-
-                                zones de interés individual.
-
-        Art. 152. — Si alguna persona, por motivos particulares,
-tuviese necesidad de viajar con anticipación al tren de ho-
-rario para pasajeros o mixto, podrá solicitar que la empresa
+Estos transportes se harân en forma conditional.
+Pasajeros en trenes de carga por ra*
+zones de interés individual.
+Art.
+152. — Si
+alguna
+persona,
+por motivos particulares,
+tuviese
+necesidad
+de viajar
+con anticipation al tren de ho¬
+rario para pasajeros
+o mixto, podrâ solicitar que la empress
 lo conduzca por tren de carga.
-        Si el pedido fuese aceptado, el transporte se hará en forma
+Si el pedido fuese aceptado, el transporte se harâ en forma
 condicional.
-
-                                Transporte de pasajeros por tren de
-                                carga en vehículos especiales.
-
-        Art. 153. — La Dirección General de Ferrocarriles podrá
-autorizar en ciertos casos el uso de vehículos especiales, para
+Ja
+Transporte de pasajeros por tren a
+carga en vehiculos especiales.
+Art.
+153.-—La Direction
+General
+de Ferrocarriles
+podra
+autorizar
+en ciertos
+casos el
+uso de vehiculos especiales, para
 el transporte de pasajeros por trenes de carga.
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. The only visual elements are the text and the page number.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. All text is clear and legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The page contains only text."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 134
 
@@ -1192,194 +1286,308 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 136
+
 ## Page Metadata
-- Page number: 136
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json`
+- Source page: 136
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/page-images/page-0136.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single-column layout with a page number centered at the top. The main content consists of numbered articles, each preceded by a heading or sub-heading in bold text, describing regulations related to train travel. The text flows from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 133 —
 
-Cierre de las ventanillas a pedido
+```markdown
+—
+133
+—
+Cierre de
+las ventanillas
+a
+pedido
 de pasajeros.
-
-Art. 160. — A pedido de un pasajero, deberá cerrarse las
+Art.
+160. — A pedido
+de un pasajero, deberâ cerrarse las
 ventanas del lado expuesto al viento o al sol.
-
 Servicio de coches comedores.
-
-Art. 161. — La Dirección General de Ferrocarriles fijará
-la forma y duración que tendrá el servicio en los coches co-
+Art.
+161. — La
+Direccion
+General
+de
+Ferrocarriles fijarâ
+la forma y duraciôn
+que tendra el. servicio en los coches
+co-
 medores, de acuerdo con las épocas y regiones que atraviesen
 los distintos ferrocarriles.
-
-Obligación de respetar el reposo de
-los viajeros en los coches dormi-
+Obligacion de respetar el reposo de
+los
+viajeros
+en
+los
+coches
+dormi-
 torios.
-
-Art. 162. — En los coches dormitorios, los pasajeros deberán
-tener especial cuidado en no perturbar el reposo de los otros
-viajeros, absteniéndose de mantener encendida las luces cen-
+Art. 162. — En los coches dormitorios, los pasajeros deberân
+tener especial cuidado
+en no perturbar el reposo de los otros
+'aajeros, absteniéndose de mantener encendida las luces
+cen¬
 trales de los camarotes, conversar en voz alta, pasearse y fumar
 en horas intempestivas.
-
-Fijación de tarifas y reglamentos en
+Fijacion de tarifas y reglamentos en
 los coches comedores y dormitorios.
-
-Art. 163. — Las tarifas de los servicios de comedor y con-
-fiterías y los reglamentos relativos a coches dormitorios y co-
-medores, serán expuestos a la vista del público en los coches
-correspondientes, previa aprobación de la Dirección General
+Art.
+163. — Las tarifas de los servicios de comedor y con-
+fiterîas y los reglamentos relativos a coches dormitorios y
+co¬
+medores, serân expuestos a la vista del publico en los coches
+eorrespondientes, previa aprobaeiôn de la Direccion
+General
 de Ferrocarriles.
-
-Animales vivos en los coches.
-
-Art. 164. — Está prohibido llevar animales vivos o muertos
+Animales vivos
 en los coches.
-Exceptúanse los pequeños animales encerrados en jaulas,
-que podrán llevarse siempre que por su acondicionamiento o
-naturaleza no sean molestos o repugnantes a los pasajeros.
+Art. 164. — Esta prohibido llevar animales vivos
+o muertos
+en los coches.
+Exceptuanse
+los
+pequenos
+animales encerrados
+en jaulas,
+ine podrân llevarse siempre que por su acondicionamiento
+o
+naturaleza no sean molestos
+o répugnantes a los pasajeros.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 137
 
 ## Page Metadata
-Page number: 137
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json`
+- Source page: 137
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/page-images/page-0137.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, consisting of several numbered articles and subheadings. The content appears to be regulations or rules.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-                                                                — 134 —
 
-                                                                Caza menuda en los coches de ca-
-                                                                zadores.
-
-        Art. 165. — Los cazadores podrán llevar en los coches espe-
-cialmente destinados a ellos, además de sus perros de caza, ani-
-males muertos (aves y caza menuda) en bolsas y carteras de
+```markdown
+—
+134
+Caza menuda
+en los coches de
+ca-
+zadores.
+Art. 165. — Los cazadores podrân llevar en los coches espe-
+cialmente destinados a ellos, ademâs de sus perros de caza, ani¬
+males muertos (aves y caza menuda)
+en boisas y carteras de
 caza.
-        Los expresados coches deberán ser limpiados y desinfectados
-prolijamente al llegar a su destino.
-
-
-                                                                Pedido de trenes especiales.
-
-        Art. 166. — Los pedidos de trenes especiales serán dirigidos
-a la Administración de la empresa respectiva o a sus repre-
-sentantes autorizados, que los proporcionarán siempre que sea
+Los expresados coches deberân ser limpiados y desinfectados
+prolijameute al llegar a su destino.
+Pedido de trenes especiales.
+Art. 166. — Los pedidos de trenes especiales serân dirigidos
+a la Administration de la empresa respectiva
+o a sus repré¬
+sentantes autorizados, que los proporeionarân siempre que sea
 posible, cobrando la tarifa correspondiente.
-
-
-                                                                Transporte de oficiales y tropas por
-                                                                cuenta del Gobierno Nacional.
-
-        Art. 167. — Los oficiales o tropas que viajaren por cuenta del
-Gobierno Nacional deberán, antes de emprender el viaje, en-
-tregar al jefe de la estación una orden oficial debidamente
-firmada por persona competente, y el jefe les hará en cambio
+Transporte de oficiales y tropas por
+cuenta del Gobierno Nacional.
+Art. 167. — Los oficiales o tropas que viajaren por cuenta del
+Gobierno Nacional deberân, antes de emprender el viaje, en-
+tregar al jefe de la estaciôn una orden oficial debidamente
+firmada por persona competente, y el jefe les harâ, en cambio
 los boletos suficientes para el viaje, debiendo el recibo ponerse
 al pie de la orden expresada.
-
-
-                                                                Personas que pueden expedir pa-
-                                                                sajes oficiales.
-
-        Art. 168. — La Dirección General de Ferrocarriles hará co-
-nocer a las empresas los nombres y empleos de las personas
-autorizadas para expedir las órdenes oficiales por pasajes.
+Personas
+que
+pueden
+expedir
+Pa'
+sajes oficiales.
+Art. 168. — La Direcciôn General de Ferrocarriles harâ co-
+nocer
+a las empresas los nombres y empleos de las personas
+autorizadas para expedir las ôrdenes oficiales por pasajes.
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 138
 
 ## Page Metadata
-Page number: 138
-Original page number: 135
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json`
+- Source page: 138
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/page-images/page-0138.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a single-column layout with a page number centered at the top. Below the page number are a chapter heading, a main section heading, and several subheadings, each followed by one or more numbered articles. The text is presented in a standard justified paragraph format.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 135 —
-
-CAPÍTULO VI
-
-TRANSPORTE DE EQUIPAJES Y ENCOMIENDAS
-
-Derecho a la conducción gratuita
+```markdown
+—
+135
+—
+CAP1TUL0
+VI
+TRANSPORTE
+DE EQUIPAJES Y ENCOMIENDAS
+Derecho
+a
+la conducciôn gratuita
 de equipaje.
-
-Art. 169. — Todo pasajero tendrá derecho de llevar gratui-
-tamente, desde la estación de origen hasta la de su destino, en
+Art. 169. — Todo pasajero tendra derecho de llevar gratin?
+tamente, desde la estaciôn de origen hasta la de su destino, en
 calidad de equipaje, bultos cuyo peso total no exceda de 50
-kilogramos, debiendo la empresa darle una contraseña, que
+kilogramos, debiendo la
+empresa darle una contrasena, que
 sirva para la entrega en destino.
-La parte de ese equipaje, consistente en pequeños bultos de
+La parte de ese equipaje, consistente en pequenos bultos de
 mano que por su naturaleza no molesten a los pasajeros y que
 por sus dimensiones puedan ser colocados en las canastillas o
-entre los asientos, podrá ser llevada por el viajero en el coche
+entre los asientos, podrâ ser llevada por el viajero en el coche
 en que viaja.
 Si los bultos no se ajustasen a esas condiciones, el jefe del
-tren podrá disponer el traslado al furgón de los que considere
-inadmisibles, extendiendo al pasajero la contraseña y cobrando
-el exceso en destino, si hubiere lugar.
-Encontrándose en el tren un Inspector Nacional, se le dará
-la intervención que determina el artículo 12 de este Regla-
+tren podrâ disponer el traslado al furgôn de los que considéré
+inadmisibles, extendiendo al pasajero la contrasena y cobrando
+el exceso
+en destino, si bubiere lugar.
+Encontrândose en el tren un Inspector Nacional, se le darâ
+la intervencion
+que détermina el articulo 12 de este Regla-
 mento.
-
-Acumulación de boletos para la
-conducción de equipajes.
-
-Art. 170. — La franquicia a que se refiere el artículo an-
-terior es personal e intransferible. Sólo se permitirá la acu-
-mulación de boletos a los efectos de la conducción del equipaje,
+Acumulaciôn
+de
+boletos
+para
+la
+conducciôn de equipajes.
+Art.
+170.— La franquicia a que
+se refiere el articulo an¬
+terior
+es personal e intransferible.
+Solo se permitirâ la acu-
+mulaciôn de boletos a los efectos de la conducciôn del equipaje,
 cuando sean utilizados por miembros de la misma familia.
-
-Limitación de la franquicia.
-
-Art. 171. — Ningún bulto del equipaje podrá ser descargado
-en trayecto, aunque se trate de bultos que el pasajero haya
-llevado consigo en el coche.
+Limitaciôn
+de la franquicia.
+Art. 171. — Ningûn bulto del equipaje podrâ ser descargado
+en trayecto, aunque se trate de bultos que el pasajero baya
+Uevado consigo en el coche.
+```
 
 ## Images, Captions, And Visual Notes
-- The page number "— 135 —" is centered at the top of the page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that meet the criteria for cropping (e.g., portraits, maps, diagrams). The page number is a minor visual element captured in the transcription."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 139
@@ -1445,69 +1653,113 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 ```
 
+# Page 140
+
 ## Page Metadata
-Page number: 137
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json`
+- Source page: 140
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/page-images/page-0140.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. It begins with a centered page number, followed by a paragraph, then several articles (Art. 176 to Art. 179) each introduced by a subheading. Article 179 includes a two-item numbered list. Text on the far left margin is cut off and not part of the main content of this page.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-<center>— 137 —</center>
 
-En caso de pérdida de la contraseña, la entrega se hará a
-quien acredite ser su dueño.
-
-<center>Publicidad de reglamentos sobre
-conducción de equipajes.</center>
-
-Art. 176.—Las empresas deberán colocar a la vista del
-público en todas las estaciones, los reglamentos concernientes
-a los equipajes, su admisión, los derechos y obligaciones de
+```markdown
+13?
+En
+caso de pérdida de la contrasena, la entrega se harâ a
+quien acredite
+ser
+su dueno.
+Publicidad
+de
+reglamentos
+sobre
+conducciôn de equipajes.
+Art.
+176. — Las
+empresas deberân eolocar
+a la vista del
+publico en todas las estaciones, los reglamentos coneernientes
+a los equipajes, su admisiôn, los derechos y obligaciones de
 los viajeros.
-
-<center>Tarifa y aforo del exceso de equi-
-paje.</center>
-
-Art. 177.—El flete de todo exceso de equipaje será calcu-
-lado según la tarifa en vigencia. El aforo se hará por frac-
+Tarifa y aforo del exceso de equi-
+paje.
+Art. 177. — El flete de todo exceso de equipaje sera calcu-
+lado segun la tarifa en vigencia.
+El aforo se harâ por frac-
 ciones indivisibles que no excedan de 5 kilogramos.
-
-<center>Equivalencia de peso en artículos
-voluminosos.</center>
-
-Art. 178.—Para los artículos de mucho volumen y poco
-peso se considerará un metro cúbico igual a doscientos cin-
+Equivalencia de
+peso
+en artîculos
+voluminosos.
+Art.
+178. — Para los artîculos de mucho volumen y
+poco
+peso
+se considerarâ
+un metro cubico igual
+a doscientos cin-
 cuenta kilogramos.
-
-<center>Responsabilidad de la empresa por
+Responsabilidad de la empresa por
 los equipajes y condiciones para el
-pago en caso de pérdida.</center>
-
-Art. 179.—La responsabilidad por pérdida o extravío de
-equipajes, comenzará desde el momento en que la empresa
-entregue al pasajero la contraseña, y estará sujeta a las reglas
-siguientes:
-
-1º Tratándose de equipaje, cuyo valor no haya sido decla-
-    rado, la empresa pagará por su pérdida una indemni-
-    zación que en ningún caso podrá exceder de $ 100 mo-
-    neda nacional.
-2º Si el valor del equipaje hubiese sido declarado, la em-
-    presa podrá cobrar, como seguro, una tarifa adicional
+pago en caso de pérdida.
+Art.
+179. — La responsabilidad por pérdida
+o extravîo de
+equipajes, comenzarâ desde el momento
+en que la
+empresa
+entregue al pasajero la contrasena, y estarâ sujeta a las réglas
+siguientes :
+l9
+Tratândose de equipaje, cuyo valor no haya sido decla-
+rado, la
+empresa pagarâ por su pérdida una indemni-
+zacion que en ningun caso podrâ exceder de $ 100 mo-
+neda naeional.
+29
+Si el valor del equipaje hubiese sido declarado, la em¬
+presa podrâ cobrar,
+como seguro, una tarifa adicional
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or significant visual elements on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. Partial words on the far left margin are not transcribed as they are incomplete and appear to be remnants from the binding or a previous page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no images or graphics suitable for cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 138
@@ -1568,102 +1820,113 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 
+# Page 142
+
 ## Page Metadata
-Page number: 142
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json`
+- Source page: 142
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/page-images/page-0142.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page features a main content area in a single column, with a page number centered at the top. There is also a narrow, partial column of text running down the left margin, which appears to be the end of a previous column or section. The main content consists of numbered articles and headings.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 139 —
-
-Término para retirar el equipaje.
-
-Art. 182. — Los equipajes deberán ser retirados dentro del
-término de 12 horas de llegados a su destino; pasado este
-plazo, pagarán almacenaje a razón de $ 0,10 m/n. por bulto
-y por día o fracción.
-
+```markdown
+—
+139
+—
+Término para retirar el équipaje.
+Art. 182. — Los equipajes deberân ser retirados dentro del
+término
+de
+12
+horas
+de llegados
+a
+su destino; pasado este
+plazo, pagarân almacenaje a razôn de $ 0,10 m/n. por bulto
+y por dia
+o fracciôn.
 Cambio de destino del equipaje.
-
-Art. 183. — El pasajero que siga viaje más allá de la es-
-tación indicada en su boleto, tendrá que dar aviso al jefe del
-tren para que haga conducir su equipaje hasta ese punto,
+Art.
+183. — El pasajero que siga viaje mas alla de la es-
+taciôn indicada en su boleto, tendra que dar aviso al jefe del
+tren
+para
+que haga eonducir su equipaje hasta
+ese punto,
 debiendo abonar nuevo flete por el exceso de equipaje, si lo
 hubiere.
-
-Depósito de equipajes.
-
-Art. 184. — En las estaciones de alguna importancia habrá
+Deposito de equipajes.
+Art. 1^4. -— En las estaeiones de alguna importancia habrâ
 las comodidades necesarias para que los viajeros puedan depo-
-sitar sus equipajes, abonando el almacenaje correspondiente.
-La responsabilidad de la empresa se regirá por los artícu-
-los 179 y 181.
-
+sitar
+sus equipajes, abonando el almacenaje eorrespondiente.
+La responsabilidad de la empresa se régira por los articu¬
+les 179 y 181.
 Armas de fuego.
-
-Art. 185. — Las armas de fuego no serán admitidas en los
-coches de pasajeros, si no estuvieran debidamente descar-
+Art. 185. — Las armas de fuego no serân admitidas en los
+coches
+de
+pasajeros,
+si
+no estuvieran debidamente descar-
 gadas y desmontadas.
-Los infractores a esta disposición serán penados con multa
-de cinco pesos o, en su defecto, con un día de arresto, lo que
-se hará efectivo en la forma prevista en el artículo 155.
-
-Encomiendas. Definición.
-
-Art. 186. — Por encomiendas se entenderán todos los ob-
-jetos o bultos que no siendo equipajes, se transporten por
-trenes de pasajeros, mixtos o “de encomiendas” y paguen la
-tarifa correspondiente.
-
-**Left Margin Text:**
-es y
-egui
-
-n, la
-o de
-con-
-
-ntre
-o de
-echo
-altro
-o se
-
-even
-e la
-Pam-
-ocu-
-o se
-
-avio
-
-aje,
-encia
-ado
-s a
-
-rdo
-
-en
+Los infractores
+a esta disposiciôn serân penados eon multa
+de cinco pesos o, en su defecto, eon un dîa de arresto, lo que
+se harâ efectivo
+en la forma prevista en el articulo 155.
+Encomiendas. Definicion.
+Art,
+186. — Por encomiendas
+se entenderân todos los ob-
+jetos
+o
+bultos
 que
-las
+no siendo equipajes,
+se transporten por
+Irenes de pasajeros, mixtos o “de encomiendas” y paguen la
+tarifa eorrespondiente.
+```
 
 ## Images, Captions, And Visual Notes
-No substantial images or captions are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page, including the main content and the partial text in the left margin, has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 143
 

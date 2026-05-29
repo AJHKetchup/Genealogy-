@@ -1,0 +1,96 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-4ab84d92929e-P0378-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378.codex.md
+converted_sha256: 4ab84d92929ec9719f2a9c201d8866523de00e6c3c836fd5f3f6b09a527f9600
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json
+page_start: 378
+page_end: 378
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 378
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0378.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+338 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+alumnos para noticiarles la fecha en que debían ha- 
+llarse en Roma. 
+El colejio se abrió de hecho el 21 de Noviembre 
+de 1858, en una ala del convento de San Andrés de- 
+lla Valle; 1 se trasladó poco después a una casa pro- 
+pla que Eizaguirre le compró-en la plaza de la Mi- 
+nerva. La dirección fué confiada 
+a los relijiosos de 
+la Compañía de Jesús. 
+* 
+Al principio la obra tropezó con graves dificulta- 
+des, no sólo pecunlarias sino también de orden in- 
+terno; porque no era empresa fácil amoldar desde 
+luego al severo réjimen de un seminario organizado 
+a la europea, a los indómitos hijos de la libre 1 revol- 
+tosa América Latina, Pero poco a poco las dificul- 
+tades se fueron allanando: los jóvenes levitas apren- 
+dieron a estudiar 1 a vivir bajo la disciplina escolar, 
+1 en el año 1861 los estudiantes del Colejio Latino 
+ganaron en la Universidad Gregoriana premios sin 
+cuento, distinguiéndose entre todos un teólogo que 
+se ganó cinco medallas (1), triunfo que rarísimas ve- 
+ces se ha visto. 
+Yl Papa demostró a Eizaguirre su eratitud por la 
+grande obra que con tan rudos sacrificios había plan- 
+teado i puesto en vías de prosperidad, concediéndole: 
+los honores 
+de prelado doméstico 
+1 Proto-notario 
+Apostólico ad instar participantium. 
+(1) limo. Sr. Montes de Oca. Elojio Fúnebre de los Fundadores 
+i Bienhechoves del Colejio Río Latino Americano, el 21 de Noviembre 
+de 1008.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

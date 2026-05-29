@@ -1,0 +1,105 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9f3cb5762758-P0403-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403.codex.md
+converted_sha256: 9f3cb576275878876e05ffdd137c87ad7bbf02a72c4f81b2cf8980ca89c74ba7
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json
+page_start: 403
+page_end: 403
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json`
+- Source page: 403
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/page-images/page-0403.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+A 
+ANO 
+NN 
+o 
+CARLOS SILVA COTAPOS 
+¿ 
+383 
+SL 
+Ultima peregrinación a Jerusalén.—Su muerte 
+Bizaguirre, cuya salud estaba un tanto quebran- 
+tada por las enfermedades sufridas 
+en los últimos 
+años, previendo tal vez su próximo fin, quiso dejar 
+a su amado Seminario Americano un último recuerdo 
+obsequiándole una casa de campo, donde los estu- 
+diautes pasaran las vacaciones 
+estivales. Para ello 
+elijió un sitio adecuado, cerca de 
+la abadía de Grotta 
+Ferrata, que pensaba comprar i edificar; pero antes 
+de hacerlo emprendió su quinta peregrinación a Je- 
+rusalén. 
+El 2 de Octubre de 1875 zarpaba Fizaguirre de Ná- 
+poles en compañía del presbítero don Camilo Ortúzar, 
+de don Rafael i don Ramón 
+Balmaceda, N. Campi- 
+no, de su secretario don Manuel M. Merino 1 del estu- 
+diante brasileño don José Leorne Menescal: ya orde- 
+nado sacerdote. 
+Hecha la visita de los Santos Lugares, monseñor, 
+acompañado sólo de Ortúzar, Menescal 1 Merino, se 
+embarcó en Jafa a bordo del vapor 
+Niemen de las 
+Messageries Maritimes 1 llegó a Alejandría de Ejipto 
+el Domingo 14 de Noviembre al medio día, habiendo 
+sufrido en el viaje una recia tempestad que 
+hizo 
+bajar la temperatura. 
+Al día siguiente, estando monseñor sobre cubterta 
+expuesto al frío viento que soplaba, comenzó a sen- 
+tir dolor al pecho. El médico del vapor recetó un pa- 
+pel fallar para el pecho 1 una bebida de tilo. A las 
+cuatro de la mañana del dia 16, monseñor llamó a 
+su secretario Merino para ciertos menesteres, 1 le dijo.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

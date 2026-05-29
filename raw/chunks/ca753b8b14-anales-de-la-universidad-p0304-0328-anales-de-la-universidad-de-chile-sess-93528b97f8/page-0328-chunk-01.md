@@ -1,0 +1,94 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-957d5257259c-P0328-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328.codex.md
+converted_sha256: 957d5257259c3149b1fabdb9de598f70423162f21580df85a18c9d87a76583ab
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json
+page_start: 328
+page_end: 328
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 328
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0328.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+308 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+virtudes i tantas cualidades intelectuales como las 
+que demostraron estos cinco hermanos, todos los cua- 
+les vivieron una vida bastante larga. 
+Don Agustín fué el conocido prócer de nuestra 
+independencia. Don Miguel, graduado en derecho por 
+la universidad de $. Felipe, alcanzó el honroso puesto 
+de fiscal de la audiencia de Lima. Don Domingo fué 
+miembro de nuestros congresos ia sus esfuerzos se 
+debió la fundacion de la ciudad de San Bernardo. 
+donde se le ha erijido un monumento. Don José Ig- 
+nacio fué tambien miembro del congreso 1 consejero 
+de estado. 
+Finalmente don José Alejo, que abrazó el estado 
+- 
+eclesiástico, se distinguió por su talento, ilustración 
+- 
+i altísimas virtudes. Honráronle con su confianza el 
+obispo Rodríguez Zorrilla 1 el arzobispo Vicuña; fué 
+elejido vicario capitular a la muerte de éste último, - 
+1 presentado para el supremo gobierno para la mitra 
+vacante, pero no llegó a ocuparla. Falleció, cargado 
+de años 1 de méritos, en 1850, siendo Lets -del copia a 
+do o 
+s H 
+Nacimiento i educación de don José Ignacio Víctor 
+Eizaguirre i Portales 
+Don José lenacio Eizaguirre Arechavala casó con. 
+doña Mercedes Portales Palazuelos, hermana del ilus- 
+tre ministro don Diego Portales. De este matrimonio 
+nació en Santiago don José Ignacio Víctor Eizagul- 
+rre, el 25 de Febrero de 1817
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,102 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9f3cb5762758-P0384-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403.codex.md
+converted_sha256: 9f3cb576275878876e05ffdd137c87ad7bbf02a72c4f81b2cf8980ca89c74ba7
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json
+page_start: 384
+page_end: 384
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json`
+- Source page: 384
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/page-images/page-0384.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+364 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+el tesoro papal, en el momento en que se veía obli- 
+gado a aumentar sus gastos para sostener un ejército 
+capaz de hacerse respetar de las tropas garibaldinas. 
+SOS 
+El Papa le nombra 
+Ablegado suyo ante los gobier- 
+nos del Ecuador, Perú i Bolivia 
+Pío IX, queriendo que también la América latina 
+diese en esta ocasión muestras de su filial adhesión 
+a la Santa Sede, fijó sus ojos 
+en don José Ignacio 
+Víctor Eizaguirre 1 lo nombró su Ablegado para las 
+repúblicas de Ecuador, Perú 1 Bolivia, ante cuyos 
+gobiernos ningún delegado pontificio estaba acredi- 
+tad o. 
+Pero no era éste el único ni el principal objeto del 
+nombramiento de Eizaguirre; pues habiéndose ente- 
+rado éste durante su viaje por América de todos los 
+negocios eclesiásticos más importantes que reguertan 
+la intervención del Papa, 1 siendo por otra parte pre- 
+ciso continuar la propaganda en favor del Seminario 
+Pío Latino Americano, nadie mejor que él podía des- 
+empeñar estas comisiones; pues era mul conocido 1 
+mui querido de numerosas personas influventes 
+en 
+esas repúblicas. 
+: 
+Por letras del Secretario de la Sagrada Congrega- 
+cion de Negocios Eclesiásticos 
+Estraordinarios, 
+fe- 
+chadas a 2 de Enero de 1860, Eizaguirre fué inves- 
+tido del cargo de Abegado del Papa para que, tras- 
+ladándose 
+por brevetiempo 
+¡recorriendo el Perú, 
+Bolivia 1 Ecuador, se informara de lo que conviniese
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 385

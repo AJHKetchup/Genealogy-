@@ -905,132 +905,240 @@ All visible text and images on the page have been transcribed and described.
 }
 ```
 
+# Page 112
+
 ## Page Metadata
-Page number: 109
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json`
+- Source page: 112
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0112.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a single-column layout. It begins with a centered page number. The main content consists of regulations or descriptions related to railway signals, organized into lettered sections (b, c, d). Each of these sections is accompanied by a small illustrative line drawing of a signal board. Following these sections, there is a sub-heading, an article number, and further regulations presented as a main paragraph, two numbered points, and a concluding paragraph.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-— 109 —
 
-b) Tablero de precaución: Se empleará para indi-
-car los extremos de un trecho de vía en el cual
-los trenes deberán observar temporariamente
-una precaución preestablecida.
+```markdown
+—
+109
+—
+b) Tablero de precaution: Se emplearâ para indi-
+ear los extremos de un trecho de vîa en el cual
+los
+trenes
+deberân
+observar
+temporariamente
+una precaution preestablecida.
 De noche, el tablero donde empieza la pre-
-caución llevará luz anaranjada y, el del término
+cauciôn llevarâ luz anaranjada y, el del término
 de la misma, luz verde, proyectadas ambas ha-
-cia el lado de donde se aproximen los trenes.
-
-c) Tableros fijos indicadores de velocidad: Se em-
-plearán para indicar los límites de un trecho de
-vía en el que los trenes deberán observar nor-
-malmente la velocidad en kilómetros por hora,
+eia el lado de donde se aproximen los trenes.
+c)
+Tableros fijos indicadores de velocidad: Se em-
+plearân para indicar los limites de un trecho de
+vîa
+en el que los trenes deberân observar nor-
+malmente la velocidad
+en kilômetros por hora,
 que indica el tablero.
-
-d) Tableros "Silbe": Se emplearán para indicar
-a los conductores de trenes los puntos en los
+d)Tableros “Silbe”:
+Se emplearân para indicar
+a los conduetores
+de trenes los puntos
+en los
 cuales por cualquier motivo fuese indispensable
-tocar un silbato largo de atención.
-
-Utilización de banderas y faroles.
-
-Art. 101. — Con las banderas y faroles podrán hacerse dos
-señales que se distinguirán por el color:
-
-1º Bandera amarilla y negra, o luz verde, indicarán pre-
-caución y usadas en maniobras obligarán a disminuir la
+tocar un silbato largo de atenciôn.
+Utilizacion de banderas y faroles.
+Art.
+101. — Con las banderas y faroles podrân hacerse dos
+seriales que se distinguirân por el color:
+l9
+Bandera amarilla y negra,
+o luz verde, indicarân pre¬
+caution y usadas en maniobras obligarân a disminuir la
 velocidad.
-
-2º Bandera o luz roja indicarán peligro y obligarán a parar
+2°
+Bandera o luz roja indicarân peligro y obligarân a parar
 inmediatamente.
-
-Las banderas y faroles de mano que se usen como señales,
-deberán ser exhibidas teniéndolas en la mano. La luz será
-proyectada fijamente sobre el tren y las banderas se presen-
-tarán desplegadas.
+Las banderas y faroles de mano que
+se usen como senales,
+deberân
+ser exhibidas teniéndolas
+en la
+mano.
+La luz serâ
+Proyectada fijamente sobre el tren y las banderas se presen-
+tarân desplegadas.
 ```
 
 ## Images, Captions, And Visual Notes
--   Next to section `b)`, there is a line drawing of a square signal board rotated 45 degrees, with a cross symbol inside, mounted on a pole.
--   Next to section `c)`, there is a line drawing of a square signal board with the number `15` inside, mounted on a pole.
--   Next to section `d)`, there is a line drawing of a square signal board with the letter `S` inside, mounted on a pole.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The small line drawings are illustrative diagrams of signal boards and are not substantial enough to be considered standalone wiki assets."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 113
 
 ## Page Metadata
-Page number: 113
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json`
+- Source page: 113
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0113.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a centered page number at the top, "— 110 —". The main content consists of a single column of text, structured with main headings, article numbers, and sub-headings, followed by the text of each article, some with lettered or numbered sub-points. The reading order is top-to-bottom, left-to-right.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 110 —
 
-Colocación en casos especiales de
+```markdown
+—
+110
+—
+Colocacion
+en
+casos
+especiales
+de
 las banderas y faroles.
-
-Art. 102. — Cuando sea necesario exhibir señales con ban-
-deras o faroles de mano en un punto entre estaciones y no sea
-posible que permanezca un empleado para hacerlas, podrá
-substituirse con banderas colocadas sobre jalones clavados al
-costado de la vía o faroles colocados en la misma forma, ya
-sea sobre el suelo o sobre postes, a un lado de ella.
-
-Señales con los brazos.
-
-Art. 103. — Faltando bandera, una persona autorizada podrá
-hacer las siguientes señales con los brazos:
-
-a) Los dos brazos extendidos o levantados en alto, signi-
-fican señal de “peligro” y obliga a parar.
+Art.
+102. •— Cuando
+sea necesario exhibir senales
+con
+ban¬
+deras
+o faroles de mano
+en an punto entre estaeiones y no sea
+posible
+qne
+permanezca
+un empleado
+para hacerlas,
+podrâ
+substituirse
+con banderas colocadas
+sobre jalones clavados al
+costado de la via
+o faroles colocados
+en la misma forma, ya
+sea sobre el snelo
+o sobre postes,
+a un lado de ella.
+Senales con los brazos.
+Art. 103. — Faltando bandera, una persona autorizada podrâ
+hacer las siguientes senales con los brazos:
+a) Los
+dos brazos extendidos
+o
+levantados
+en alto, signi-
+fican serial de “peligro” y obliga
+a parar.
 b) Con la cara hacia el tren y un solo brazo levantado en
-alto significa “precaución”.
-c) Con la cara hacia el tren y parado al lado de la vía
-con un brazo extendido horizontalmente, indicará “vía
-libre’’.
-
-Señales especiales durante la noche.
-
-Art. 104. — De noche, si se careciese de faroles apropiados
-para hacer señales, éstas podrán efectuarse agitando cual-
-quier luz o haciendo una fogata en el medio de la vía, la que
-indicará al conductor que debe parar.
-
-Señales que llevarán los trenes, lo-
-comotoras, coches automotores o
-automóviles de vía.
-
-Art. 105. —
-
-1° Todo tren, locomotora o coche automotor que circule de
-noche, deberá llevar en la parte delantera un farol de
+alto significa “precaution”.
+c) Con la
+cara hacia el tren y parado al lado
+de la via
+con
+un brazo extendido horizontalmente, indicarâ “via
+libre”.
+Senales especiales durante la noche.
+Art.
+104. — De noche, si
+se careciese de faroles apropiados
+para
+hacer
+senales,
+estas podrân
+efectuarse
+agitando
+cual-
+quier luz o haciendo una fogata en el medio de la via, la que
+indicarâ al conductor que debe parar.
+Senales que Uevarân los trenes, lo-
+comotoras,
+coches
+automotores
+»
+automoviles de via.
+Art.
+105.—
+1’
+Todo tren, locomotora o coche automotor que circule de
+noche, deberâ llevar
+en la parte delantera un farol de
 cabecera con luz blanca y de una potencia suficiente para
-poder distinguir una persona parada en la vía a una
+poder distinguir
+una
+persona parada
+en la via
+a una
 distancia no menor de 200 metros.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 111
@@ -1371,88 +1479,115 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial images or visual elements are present on this page that would require cropping."}
 ```
 
+# Page 118
+
 ## Page Metadata
-Page number: 118
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json`
+- Source page: 118
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0118.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents legal text in a single column. It includes a page number at the top, followed by a main title, a subtitle, a chapter heading, a section heading, and several articles (Art. 114, Art. 115, Art. 116) each with a preceding sub-heading. There is also some partial text visible on the left margin from the preceding page.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
--- 115 --
 
-TÍTULO II
-
-**Explotación económica**
-
-CAPÍTULO IV
-
-DISPOSICIONES GENERALES
-
-**Uso público de los ferrocarriles.**
-
-Art. 114. — Todo habitante de la República tiene derecho a
-servirse de los ferrocarriles en explotación con arreglo a la Ley
-y Reglamentos respectivos, como también a utilizar los servicios
-auxiliares o complementarios que las empresas establezcan con
-autorización del Poder Ejecutivo o de la Dirección General de
-Ferrocarriles según el caso. (Ley, art. 35.)
-
-**Nulidad de las cláusulas excluyentes
-o limitativas de la responsabilidad
-legal de las empresas.**
-
-Art. 115. — Los reglamentos o estipulaciones de las empresas,
-que excluyan o limiten las obligaciones y responsabilidades im-
-puestas por el Código de Comercio y la Ley General de Ferro-
-carriles, son nulas y sin ningún valor. (C. C., art. 204.)
-
-**Expulsión de personas de las esta-
-ciones y los trenes.**
-
-Art. 116. — Las empresas tienen el deber de no aceptar en las
-estaciones o los trenes, o expulsar de ellos a las personas que
-con su conducta ofendan el orden, el decoro o las buenas cos-
-tumbres, lleven armas de fuego o no quieran sujetarse a los
-reglamentos, justificando el hecho en acta firmada por dos
-pasajeros, a lo menos, como testigos.
-La expulsión del tren, con pérdida del precio del pasaje que
-aún quedare por utilizar, deberá hacerse en la primera estación
-
-*(Partial text on left margin)*
-indente
-drá el
-ore las
-
+```markdown
+idente
+drâ el
+ire las
 ta du-
-actora
-a y ta-
-servar
-
+ictores
+i y ta-
+gervar
 inme-
 trenes
 servar
-er es
-
-olas.
-
+er est
+alas.
 nece-
 ayu-
-
-uncio
-
-atorio
+unciO'
+ltol’10
+—
+115
+—
+TÎTULO II
+Explotaciôn econômica
+CAPÎTULO
+IY
+DISPOSICIONES GENERALES
+Uso pûblico de Ios ferrocarriles.
+Art. 114. — Todo habitante de la Republica tiene derecho a
+servirse de los ferrocarriles en explotaciôn con arreglo a la Ley
+y Reglamentos respectivos, eomo también a utilizar los servicios
+auxiliares o complementarios que las empresas establezcan con
+autorizaciôn del Poder Ejecutivo o de la Direcciôn General de
+Ferrocarriles segun el caso. (Ley, art. 35.)
+Nulidad de las clâusulas excluyentes
+o
+limitativas
+de
+la responsabilidad
+legal de las empresas.
+Art. 115. — Los reglamentos o estipulaciones de las empresas,
+lue excluyan o limiten las obligaciones y responsabilidades im-
+Puestas por el Côdigo de Comercio y la Ley General de Ferro¬
+carriles, son nulas y sin ningun valor. (C. C., art. 204.)
+Expulsion de personas de las esta-
+ciones y los trenes.
+Art. 116. — Las empresas tienen el deber de no aceptar en las
+estaciones
+o los trenes,
+o expulsar de ellos a las personas que
+C°Q su conducta ofendan el orden, el decoro o las buenas cos-
+himbres, lleven
+armas de fuego
+o no quieran sujetarse
+a los
+reglamentos, justificando el hecho
+en acta firmada por dos
+Pasajeros,
+a lo menos,
+como testigos.
+La expulsion del tren, con pérdida del precio del pasaje que
+aun quedare por utilizar, deberâ hacerse en la primera estaciôn
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page, including the partial text in the left margin, has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 119
 

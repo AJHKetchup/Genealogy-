@@ -210,68 +210,141 @@ All visible text on the page, including marginalia, has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 ```
 
+# Page 67
+
 ## Page Metadata
-Page number: 64
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json`
+- Source page: 67
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/page-images/page-0067.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, primarily legal or regulatory articles, with a page number at the top center. There are several section headings in bold.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-— 64 —
 
-ciones del caso, si considerasen que dichas órdenes no se ajus-
-tan a los reglamentos.
-
-**Comportamiento de los empleados**
-**con el público.**
-
-Art. 4º — Los empleados de las empresas observarán la
-mayor atención y cortesía con el público en todos los actos
+```markdown
+—
+64
+—
+eiones del caso, si considerasen que dichas ordenes no se ajus-
+tan
+a los reglamentos.
+Comportamiento
+de
+los
+empleados
+con el pûblico.
+Art.
+49— Los
+empleados
+de
+las
+empresas
+observarân
+la
+mayor atenciôn y cortesia
+con el pûblico
+en todos los
+actos
 del servicio.
-
-**Obligación de hablar el castellano.**
-
-Art. 5º — Los empleados que presten servicio en las esta-
-ciones, en los trenes y todos los que por la naturaleza de sus
-funciones se hallen en comunicación directa con el público y
-las autoridades, deberán hablar en castellano. (Ley, art. 97.)
-
-**Uniforme o distintivo de los em-**
-**pleados.**
-
-Art. 6º — Los empleados en servicio que tengan relación con
-el público, llevarán uniforme o un distintivo que los indivi-
-dualice. La Dirección General de Ferrocarriles podrá auto-
-rizar su sustitución por credenciales emanadas de la empresa
+Obligation de hablar el
+castellano.
+Art.
+59 —Los empleados
+que presten servicio
+en las
+esta-
+ciones,
+en los trenes y todos los que por la naturaleza de
+sus
+funciones
+se hallen
+en comunicaciôn directa
+con el pûblico y
+las autoridades, deberân hablar en castellano. (Ley, art. 97.)
+Uniforme
+o
+distintivo
+de
+los
+em*
+pleados.
+Art. 69 — Los empleados en servicio que tengan relaciôn coü
+el pûblico, llevarân uniforme
+o un distintivo
+que los indivi-
+dualice.
+La Direcciôn
+General
+de Ferrocarriles podrâ
+auto-
+rizar
+su sustituciôn por credenciales emanadas de la empresa
 que acrediten las funciones del empleado.
-
-**Deber del personal de conocer los**
-**reglamentos e instrucciones.**
-
-Art. 7º — Todo empleado, antes de entrar en servicio, de-
-berá enterarse de todas las modificaciones introducidas en los
-reglamentos, horarios y demás instrucciones, pues su igno-
-rancia no será considerada eximente de responsabilidad.
-Los jefes respectivos tendrán la obligación de cerciorarse de
-que sus subalternos están enterados y tienen los reglamentos
+Deber
+del personal
+de
+conocer
+los
+reglamentos
+e instrucciones.
+Art.
+79 — Todo empleado, antes de entrar
+en servicio, de-
+berâ enterarse de todas las modificaciones introducidas
+en los
+reglamentos,
+horarios
+y
+demâs instrucciones,
+pues
+su
+igno-
+rancia
+no
+sera considerada eximente
+de responsabilidad.
+Los jefes respectivos tendrân la obligaciôn de cerciorarse de
+que sus subalternes estân enterados y tienen los reglamentos
 e instrucciones en vigencia, pues en caso contrario una parte
-de la responsabilidad recaerá sobre ellos.
+de la responsabilidad recaerâ sobre ellos.
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. The text is clear and legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 68
 
@@ -683,72 +756,103 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
+# Page 72
+
 ## Page Metadata
-Page number: 69
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json`
+- Source page: 72
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/page-images/page-0072.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a single column of text, primarily legal or regulatory in nature. It begins with a centered page number, followed by a main statement, a two-item list, a descriptive paragraph, a bolded heading, an article number, a four-item list, and a concluding paragraph. Text on the left margin is partially visible but belongs to the preceding page.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 69 —
-
-Las prescripciones que preceden no se aplicarán:
-
+```markdown
+— 69
+—
+Las prescripciones que preceden no se aplicarân:
+\
 a) A los trenes formados y remolcados por coches automo-
-    tores.
-b) En los casos de accidente o socorro.
-
-*Trenes mixtos:* Estos trenes llevarán los coches de pasajeros
-colocados detrás de los vagones de carga.
-
-**Prohibición de conducir cargas de**
-**peligro y otras por trenes de pasa-**
-**jeros y mixtos. Excepción.**
-
+tores.
+I) En los casos de accidente o socorro.
+Trenes mixtos: Estos trenes llevarân los coches de pasajeros
+colocados detrâs de los vagones de carga.
+Prohibiciôn de conducir
+cargas de
+peligro y otras por trenes de pasa¬
+jeros y mixtos. Excepciôn.
 Art. 22. — En los trenes de pasajeros y mixtos queda pro-
-hibido:
-
-a) El transporte de las mercaderías designadas de peligro
-    por la Dirección General de Ferrocarriles, excluyéndose
-    de esta prohibición las pequeñas cantidades de municio-
-    nes que lleven consigo los cazadores y las que lleven las
-    tropas que conduzcan los trenes militares.
-
-b) El transporte de mercaderías que por su naturaleza pue-
-    dan molestar a los pasajeros.
-
-c) El acople de vagones cargados con objetos largos como
-    vigas o tirantes, etc., o con carga que pueda desarre-
-    glarse en trayecto.
-
-d) El acople de vagones con averías que puedan hacer pe-
-    ligrar la marcha del convoy.
-
-Solamente cuando no corran trenes de carga de horario
-podrán conducirse en los trenes mixtos las cargas de peligro,
-en vagones que se colocarán entre dos vehículos no cargados
+hibido :
+a) El transporte de las mercaderîas designadas de peligro
+por la Direcciôn General de Ferrocarriles, exeluyéndosa
+de esta prohibiciôn las pequenas cantidades de municio-
+nes que lleven consigo los cazadores y las que lleven las
+tropas
+que conduzcan los trenes militares.
+h) El transporte de mercaderîas que por su naturaleza pue-
+dan molestar
+a los pasajeros.
+c) El acople de vagones cargados con objetos largos eomo
+vigas
+o tirantes,
+etc.,
+o
+con carga
+que pueda desarre-
+glarse en trayecto.
+d) El acople de vagones con averîas que puedan hacer pe-
+ligrar la marcha del convoy.
+Solamente
+cuando
+no
+corran
+trenes
+de
+carga de horario
+podrân conducirse
+en los trenes mixtos las cargas de peligro,
+en vagones que
+se colocarân entre dos vehîculos no cargados
 con cargas de peligro y con preferencia alejados de la loco-
 motora y de los coches de pasajeros.
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no substantial images or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 70
@@ -935,70 +1039,107 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 ```
 
+# Page 76
+
 ## Page Metadata
-- Page number: 76
-- Source publication year: 1936
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json`
+- Source page: 76
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/page-images/page-0076.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text. At the top center, there is a page number. The content consists of several paragraphs, some introduced by bolded headings, followed by a numbered article and a list of exceptions.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 73 —
-
-En los furgones de los trenes de pasajeros y mixtos, además
-de esos elementos, un botiquín, una camilla plegadiza y un
-teléfono o velocípedo de vía.
-
-La Dirección General de Ferrocarriles determinará qué
-trenes podrán prescindir de algunos de esos elementos.
-
-Es deber del personal verificar la existencia de los útiles
-reglamentarios y señalar a quien corresponda las faltas even-
+```markdown
+— 73
+—
+En los fnrgones de los trenes de pasajeros y mixtos, ademâs
+de
+esos elementos,
+un botiquîn,
+una Camilla plegadiza y un
+teléfono o velocîpedo de vîa.
+La
+Direcciôn
+General
+de
+Ferrocarriles
+determinarâ
+qué
+trenes podrân preseindir de algunos de esos elementos.
+Es deber del personal verificar la existencia de los utiles
+reglamentarios y senalar a quien corresponda las faltas even-
 tuales en las locomotoras y en los trenes, sin que dicha falta
-exima al personal de la obligación de despachar o conducir los
-trenes conforme a lo previsto en el artículo 3º.
-
-**“Locomotora titular”. Definición.**
-
-Art. 32.— La locomotora que remolque un tren se desig-
-nará con el nombre de locomotora titular y, en caso de trac-
-ción múltiple, la locomotora titular será la colocada a la ca-
+exima al personal de la obligation de despachar o conducir los
+trenes conforme
+a lo previsto
+en el artîculo 39.
+“Locomotora titular”. Definicion.
+Art.
+32. — La locomotora
+que remolque un tren
+se desig-
+narâ con el nombre de locomotora titular y, en caso de trac-
+eiôn multiple, la locomotora titular sera la colocada a la ca-
 beza del tren.
-
 Cuando circulen dos locomotoras solas acopladas, la titular
-será la que va adelante.
-
-**Posición de marcha de la locomo-**
-**tora titular.**
-
-Art. 33.— Las locomotoras titulares marcharán con la chi-
-menea hacia adelante y el ténder hacia atrás.
-
-Esta prescripción no se aplicará:
-
+sera la que va adelante.
+Posicion de marcha de la locomo¬
+tora titular.
+Art. 33. — Las locomotoras titulares marcharân con la chi-
+menea hacia adelante y el ténder hacia atrâs.
+Esta prescripciôn no se aplicarâ:
 a) Al efectuar maniobras en las estaciones y entre éstas y
 sus playas anexas.
 b) En los trenes de balasto.
-c) En caso de accidente o socorro.
-d) A las locomotoras-tanque o con ténder de tipo especial.
-e) Para facilitar la corrida de trenes vacíos o de trabajo
+c) En
+caso de accidente o socorro.
+d) A las locomotoras-tanque
+o con ténder de tipo especial.
+e) Para facilitar la corrida de trenes vacîos o de trabajo
 a puntos donde o en cuyas inmediaciones no existan mesas
-giratorias u otros medios equivalentes.
-f) Cuando mediare autorización de la Dirección General de
+giratorias u otros medios équivalentes.
+f)
+Cuando mediare autorizaciôn de la Direcciôn General de
 Ferrocarriles.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on the page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 77
@@ -1063,203 +1204,368 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 
+# Page 78
+
 ## Page Metadata
-- Page number: 75
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json`
+- Source page: 78
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/page-images/page-0078.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single-column layout with a main body of text, followed by several numbered articles (Art. 36, Art. 37, Art. 38, Art. 39). Each article is preceded by a bolded subheading. The text flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 75 —
 
-ticulados, de vehículos con empuje central u otros dis-
+```markdown
+—
+75
+—
+ticulados,
+de vehîculos con empuje central n otros dis-
 positivos que ofrezcan la misma seguridad.
-En tal caso, cuando la locomotora no se encuentre a
-la cabeza del tren, el conductor deberá ubicarse en el pri-
-mer vehículo del mismo.
-También en los trenes remolcados por vehículos auto-
-motores el conductor deberá ubicarse en el primer ve-
-hículo del tren, salvo durante las maniobras en esta-
+En tal caso, cuando la locomotora no se encnentre a
+la cabeza del tren, el cnductor deberâ ubicarse en el pri¬
+mer vehiculo del mismo.
+También en los trenes remolcados por vehîculos auto-
+motores el conductor deberâ ubicarse en el primer ve-
+hiculo
+del tren,
+salvo durante las maniobras en esta-
 ciones y playas anexas y en caso de accidentes o socorro.
-e) Cuando mediare autorización de la Dirección General de
+e) Cuando mediare autorizaciôn de la Direcciôn General de
 Ferrocarriles.
-
-**Remolque y empuje simultáneo de**
-**trenes.**
-
-Art. 36. — Sólo podrá permitirse que los trenes sean remol-
+Remolque y empuje simultâneo de
+trenes.
+Art. 36. -—- Solo podrâ permitirse que los trenes sean remol¬
 cados por una locomotora y al mismo tiempo empujados por
-otra, cuando haya en la línea fuertes rampas, o en las esta-
-ciones, para ponerlos en movimiento.
-
-**Circulación de locomotoras y ve-**
-**hículos automotores.**
-
-Art. 37. — Las locomotoras y vehículos automotores que
-circulen solos, serán considerados como trenes a los efectos
-del presente Reglamento; asimismo las zorras.
-
-**Aparatos de seguridad en los des-**
-**víos y ramales.**
-
-Art. 38. — Todo cambio de vía auxiliar, ramal industrial y
-vías accidentales de servicio que se hallaren en la vía general,
-deberá cerrarse con aparatos de seguridad, aprobados por la
-Dirección General de Ferrocarriles.
-
-**Posición normal de los cambios y**
-**detentores.**
-
-Art. 39. — Los cambios ubicados en la vía principal, de-
-berán, normalmente, estar dispuestos para permitir la libre
-circulación en dicha vía.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+otra, cuando haya en la linea fuertes rampas, o en las esta-
+eiones, para ponerlos en movimiento.
+Circulacion
+de locomotoras
+y
+ve-
+hiculos automotores.
+Art.
+. 37. — Las
+locomotoras
+y vehîculos automotores
+que
+cireulen
+solos, serân considerados como trenes a los efectos
+del présente Reglamento; asimismo las zorras.
+Aparatos de seguridad en los des-
+vfos y ramales.
+Art. 38. — Todo cambio de via auxiliar, ramai industrial y
+vîas accidentales de servicio que se hallaren en la via general,
+deberâ
+cerrarse
+con aparatos de seguridad, aprobados por la
+Direcciôn General de Ferrocarriles.
+Posicion normal de los cambios y
+detentores.
+Art.
+39. — Los cambios ubicados
+en la via principal, de-
+berân, normalmente, estar dispuestos para permitir la libre
+circulacion
+en dicha via.
 ```
 
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 79
+
 ## Page Metadata
-Page number: 76
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json`
+- Source page: 79
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/page-images/page-0079.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page presents a single-column layout with main text, article numbers, and subheadings. The content consists of regulations or articles, with one article containing a numbered list. The page number "76" is centered at the top.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 76 —
-
-Los cambios, trampas y detentores ubicados en las vías auxi-
-liares, que tengan acceso directo a la vía principal, deberán
-normalmente estar dispuestos de modo que impidan el acceso
-a dicha vía.
-
-Tiempo en que debe despejarse la
-vía principal, cuando se espera la
-llegada de un tren.
-
-Art. 40. — Diez minutos antes de la hora marcada para la
-entrada de un tren, la vía correspondiente deberá estar libre y
-cesar en ella todas las operaciones de maniobras, exceptuando
-las estaciones que tengan señales o aparatos de seguridad para
-proteger el movimiento de los trenes.
-
-Ejecución de maniobras.
-
-Art. 41. — Las maniobras se efectuarán con la mayor cele-
+```markdown
+— 76
+Los cambios, trampas y detentores ubicados en las vîas auxi-
+liares,
+que tengan
+acceso directo
+a la
+via principal, deberân
+normalmente estar dispuestos de modo que impidan el
+acceso
+a dicha via.
+Tiempo
+en
+que debe despejarse la
+via principal,
+cuando
+se
+espera
+la
+llegada de
+un tren.
+Art.
+40. — Diez minutos antes de la hora marcada para la
+entrada de un tren, la via correspondiente deberâ estar libre y
+césar
+en ella todas las operaciones de maniobras, exceptuando
+las estaeiones que tengan senales
+o aparatos de seguridad para
+protéger
+el movimiento
+de los trenes.
+Ejecucion de maniobras.
+Art. 41. — Las maniobras
+se efectuarân
+con la mayor eele-
 ridad compatible con la seguridad y eficacia del servicio.
-Queda prohibido empujar vehículos no enganchados a la
-locomotora:
-
-1º Cuando en los mismos haya pasajeros.
-2º Cuando estén cargados con animales.
-3º Cuando contengan materias explosivas.
-4º Cuando los vehículos empujados puedan chocar con
-otros estacionados o puestos a la carga o descarga.
-5º Cuando por la disposición o el perfil de las vías u otras
-circunstancias desfavorables, existiera peligro de acci-
+Queda prohibido empujar vehieulos
+no
+enganchados
+a
+la
+locomotora :
+l9
+Cuando
+en los mismos haya pasajeros.
+29
+Cuando estén cargados
+con animales.
+39
+Cuando contengan materias explosivas.
+49
+Cuando
+los
+vehieulos
+empujados
+puedan
+chocar
+con
+otros estacionados
+o puestos
+a la carga o descarga.
+59
+Cuando por la disposicion o el perfil de las vias u otras
+circunstancias
+desfavorables,
+existiera peligro
+de
+acci¬
 dente.
-6º Cuando los vagones, por el empuje puedan llegar a
-pasos a nivel no cerrados con barreras en los centros
-de población.
-
-Posición de los frenos en los trenes
-desenganchados y estacionados.
-
+69
+Cuando
+los
+vagones,
+por
+el empuje
+puedan llegar
+a
+pasos
+a nivel
+no
+cerrados
+con barreras
+en los
+centros
+de poblaciôn.
+Posiciôn de los frenos
+en los trenes
+desenganchados
+y estacionados.
 Art. 42. — Cuando un tren estacionado no esté enganchado
-a su locomotora, deberá apretarse el número de frenos nece-
+a
+su locomotora, deberâ apretarse el numéro de frenos
+nece-
 sarios.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 80
+
 ## Page Metadata
-Page number: 80
-Source document page number (handwritten or printed): 77
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json`
+- Source page: 80
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/page-images/page-0080.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, structured with headings and numbered articles. The page number is centered at the top.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```
-— 77 —
-
+```markdown
 Estacionamiento de vagones aislados
-en la vía principal.
-
-Art. 43.—Está absolutamente prohibido dejar vagones ais-
-lados en la vía principal, tanto dentro como fuera de las
+en la via principal.
+Art. 43. — Esta absolutamente prohibido dejar vagones ais¬
+lados
+en
+la via principal, tanto dentro
+como fuera de
+las
 estaciones.
 Cuando para cargar o descargar materiales o por cualquier
-otro motivo fuese preciso estacionar un tren en dicha vía,
-se colocarán las señales necesarias a la distancia reglamentaria.
-
+otro
+motivo
+fuese preciso
+estacionar
+un tren
+en dicha via,
+se eolocarân las senates necesarias a la distancia reglamentaria.
 Sistema de gobierno de la marcha
-de los trenes.
-
-Art. 44.—La marcha de los trenes se gobernará por sis-
-temas y reglamentación de vía libre, aprobados por la Di-
-rección General de Ferrocarriles.
-
+de los
+trenes.
+Art. 44. ■— La marcha de
+los
+trenes
+se gobernarâ por sis-
+temas
+y reglamentaciôn
+de via libre,
+aprobados por la Di¬
+rection General
+de Ferrocarriles.
 Salida de trenes.
-
-Art. 45.—Ningún tren podrá salir de una estación sin
-orden del jefe de la misma o de un empleado autorizado al
+Art.
+45. — Ningun
+tren
+podrâ salir
+de
+una
+estaciôn sin
+orden del jefe de la misma
+o de un empleado autorizado al
 efecto por la empresa.
-Los trenes de pasajeros y mixtos no podrán salir antes de
-la hora fijada en el horario.
-En los apeaderos o paradas, la orden de partida será dada
+Los trenes de pasajeros y mixtos no podrân salir antes de
+la hora fijada
+en el horario.
+En los apeaderos o paradas, la orden de partida sera dada
 por el jefe del tren.
-
 Parada de trenes.
-
-Art. 46.—Los trenes sólo podrán parar en las estaciones o
-en los lugares autorizados para el servicio público excepto
-casos de fuerza mayor o autorización especial de la Dirección
+Art. 46. •— Los trenes solo podrân parar en las estaciones o
+en
+los lugares
+autorizados
+para
+el servieio publico excepto
+casos de fuerza mayor o autorizaciôn especial de la Direction
 General de Ferrocarriles.
-
 Procedimiento para el anuncio en el
 despacho de trenes.
-
-Art. 47.—Todos los trenes, tanto de pasajeros como de
-carga, serán anunciados de estación en estación, registrándose
+Art.
+47. — Todos
+los
+trenes,
+tanto
+de pasajeros
+como de
+enrga, serân anunciados de estaciôn en estaciôn, registrândose
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete for all visible text. Article 47 appears to be cut off at the bottom of the page, indicating that the text continues on the next page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present on the page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 81
 

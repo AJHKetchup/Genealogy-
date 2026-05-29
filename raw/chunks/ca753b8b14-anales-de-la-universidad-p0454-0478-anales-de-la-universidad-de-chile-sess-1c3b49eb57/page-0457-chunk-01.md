@@ -1,0 +1,149 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f20fad658ff8-P0457-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478.codex.md
+converted_sha256: f20fad658ff8ae711e7858cd04a6836d706c01e93d29fede2c01c17c6a556837
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json
+page_start: 457
+page_end: 457
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json`
+- Source page: 457
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/page-images/page-0457.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+"ALEJANDRO FUENZALIDA GRANDÓN 
+437" 
+e 
+El humo í polvos finos que'salen de los hornos, 
+pasan a las grandes cámaras 
+o cajas de humo. Es- 
+tas son cónicas 
+en 
+su. parte 
+inferior; lo que per- 
+mite acumular el polvo que es depositado 
+por me- 
+dio de compuertas inclinadas, i que se conglomera 
+de nuevo por un sistema especial («Sintering»), vol- 
+viendo a los hornos para su fundición. El eje que 
+se obtiene de los hornos 
+posee, mas o menos, de 38 
+a 44% de cobre. 
+La sangría de los hornos se hace en un gran crisol 
+en el cual se deposita el eje para ser conducido en 
+seguida 
+a 
+los 
+«convertidores.» 
+; 
+S 7. 
+Los convertidores. 
+—Hai instalados 
+3 con- 
+vertidores, 
+modelo 
+«Pierce 
+Smith», 
+dos de capaci- 
+dad de 40 toneladas, 1 uno de 20. Siempre trabajan 
+dos 1 queda uno de reserva. 
+| 
+El forro interior de los 
+convertidores 
+es de la- 
+drillo 
+de magnesio 
+adherido 
+con 
+una 
+mezcla 
+es- 
+pecial. Á uno de sus lados tiene tubos o «troneras» 
+para la introducción 
+del aire comprimido. 
+El convertidor, 
+previamente 
+calentado 
+con 
+un 
+soplete de aceite, recibe el eje del crisol. Una vez 
+formadas 
+las escorias,se tumba el convertidor 
+por 
+medio de 
+fuerza 
+hidrostática” 
+para 
+dar salida 
+a 
+éstas, las que son recibidas en carros cónicos 
+especia- 
+les arrastrados 
+por 
+una locomotora 
+a vapor. 
+La 
+escorias son llevadas 
+a las «canchas» donde se de- 
+positan para 
+que, 
+una 
+vez 
+enfriadas, 
+se puedan 
+trasportar por un elevador hasta el piso de los hor- 
+IS 
+Las escorias—que 
+son 
+mui 
+buen 
+fundente-— 
+contienen de 2 a 29% de cobre. Quitadas las esco-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

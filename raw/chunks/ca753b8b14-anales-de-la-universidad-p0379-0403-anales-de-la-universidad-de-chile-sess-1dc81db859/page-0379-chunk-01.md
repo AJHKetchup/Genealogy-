@@ -1,0 +1,96 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9f3cb5762758-P0379-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403.codex.md
+converted_sha256: 9f3cb576275878876e05ffdd137c87ad7bbf02a72c4f81b2cf8980ca89c74ba7
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json
+page_start: 379
+page_end: 379
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json`
+- Source page: 379
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/page-images/page-0379.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+CARLOS SILVA COTAPOS 
+[85] Su SS 
+OS 
+«Los Intereses Católicos en América». 
+—Polémica que 
+ocasionan 
+Eizaguirre ocupó el tiempo libre de su viaje en 
+escribir una nueva obra, que denominó Los Intereses 
+Católicos en América, concebida con el mismo plan 
+1 redactada del mismo modo que E! Catolicismo en 
+presencia de sus disidentes, 1 publicada también por 
+la casa de Garnier Hermanos, de París, el año 1859, 
+en una edición igual a la de esta última obra, cuyos 
+méritos 1 defectos tiene. 
+En ella refiere Fizaguirre lo que observó en cada 
+una de las repúblicas del nuevo continente, 1 nos da 
+noticias del estado de la iglesia 1 de las persecuciones 
+que sufría o había sufrido poco antes: 1, como en esos 
+años la mayor parte de los gobiernos americanos 
+tenían dadas muestras de sus tendencias .anti-relijio- 
+sas 1 tiranizaban a la iglesia, la obra de Hizaguirre 
+resulta una verdadera via crucis de la 19lesia ameri- 
+cana, 1 un manual de las persecuciones por ella su- 
+fridas desde la emancipación política. Hállanse en 
+este libro datos preciosos 
+1 curiosos acerca de los 
+excesos que los mandoncillos americanos, exaltados 
+un día por la revolución. 
+se permitían contra los 
+prelados eclesiásticos, el clero 1 las comunidades re- 
+lijiosas. Sólo el Brasil, Chile 1 el Perú aparecen des- 
+empeñando medianamente lucido papel, aunque res- 
+pecto del gobierno chileno recuerda el atropello co-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 380

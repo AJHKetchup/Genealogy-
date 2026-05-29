@@ -1,0 +1,130 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-116afe5204ca-P0197-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203.codex.md
+converted_sha256: 116afe5204ca780682c13c2c46fc232e96905def54a34f4e36c906ed383fab3c
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json
+page_start: 197
+page_end: 197
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json`
+- Source page: 197
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/page-images/page-0197.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+194
+cada estaciôn se establezca con la Direeciôn General de Ferro-
+carriles, al ser aprobados los pianos.
+Obligacion
+de
+usar
+vagones
+espe-
+ciales para el transporte de ganado.
+Art. 350. — El transporte de ganado se efeetuarâ en vagones
+especiales,
+enya construction
+se ajustarâ
+a las prescripciones
+del Reglamento sobre tren rodante de los ferrocarriles na-
+cionales.
+Llevarân
+en
+su parte exterior una raya vertical terminada
+en fleelia senalando el limite liasta donde se permitirâ cargar
+animales, sirviendo esta senal para que el personal y los car-
+gadores se orienten respecto al espacio que debe quedar libre
+para évitai’ el hacinamiento.
+Instalaciones para alimentar y abre-
+var el ganado.
+Art.
+351. — Para los trayectos
+que por su considerable ex¬
+tension exijan mas de 30 horas de marcha, las empresas dis-
+pondrân de instalaciones apropiadas para descargar los ani¬
+males, de modo que puedan descansar, corner y beber, siendo
+estas operaciones por cuenta y riesgo de los interesados.
+Desinfeccion
+de
+vagones
+y
+carga-
+deros.
+Art.
+352. — Las
+empresas ferroviarias deberân limpiar y
+desinfectar los vagones de transporte de ganado as! como los
+cargaderos del mismo, de acuerdo a las prescripciones del de-
+creto del
+6
+de Octubre de 1928
+o las
+que estableciere
+en lo
+sucesivo el Poder Ejecutivo.
+Establecimiento de
+trenes
+de
+hoi'a*
+rio
+para
+el
+transporte
+de ganado.
+Art.
+353. — Sera
+obligatorio
+de
+las
+empresas
+establecer
+trenes de horario para la conducciôn de ganado, cuando las
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 198

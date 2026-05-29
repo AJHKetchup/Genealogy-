@@ -8,67 +8,141 @@
 - Conversion method: Codex local vision workbench
 - Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/extracted-images`
 
+# Page 144
+
 ## Page Metadata
-Page number: 141
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json`
+- Source page: 144
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/page-images/page-0144.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, primarily legal articles and related headings. The page number is centered at the top.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 141 —
 
+```markdown
+141
+—
 kilogramos, salvo los bultos de mucho volumen y poco peso,
-que podrán aforarse como máximum, a razón de 500 kilo-
-gramos por cada metro cúbico.
-
-Guías de encomiendas.
-
-Art. 191. — En las guías de encomiendas se consignarán los
-datos establecidos por el artículo 174, sustituyendo la indi-
-cación del número del boleto por la constancia de la hora de
+que podrân
+aforarse
+como maximum,
+a razôn de 500 kilo¬
+gramos
+por cada metro cubico.
+Gufas de encomiendas.
+Art. 191. — En las guîas de encomiendas se consignarân los
+datos
+estableeidos por el articulo 174, sustituyendo la indi-
+caciôn del numéro del boleto por la constancia de la hora de
 entrega de la encomienda para su despacho.
-
 Irresponsabilidad de la empresa por
-averías si no fuesen comprobadas.
-
-Art. 192. — Las empresas no son responsables por averías,
-deterioro o rotura de muebles, plantas, frutas, legumbres,
-manteca, leche, animales vivos o muertos, carne fresca, aves,
-pescado, queso, cristalería o loza, ni de ninguna cosa frágil
-que por su naturaleza no se pueda guardar más que por corto
-tiempo, si no se probare que la avería, deterioro o rotura, pro-
-viene de su negligencia o culpa. (C. C., Art. 177.)
-
-Pérdida, avería o retardo en la en-
-trega de encomiendas. Indemni-
-zación.
-
-Art. 193. — La responsabilidad de las empresas por pér-
-dida, avería o retardo en el transporte de encomiendas será
-la establecida en los artículos 179 y 181, con la limitación de
-la indemnización a $ 25,00 m/n. en el caso de encomiendas de
-valor no declarado, y sin perjuicio de lo previsto en el ar-
-tículo 192.
-
+averfas si
+no
+fuesen
+comprobadas.
+Art.
+192. — Las
+empresas no son responsables por averîas,
+deterioro
+o
+rotura
+de
+muebles,
+plantas,
+frutas,
+legumbres,
+manteca, leehe, animales vivos
+o muertos,
+carne fresca, aves,
+peseado,
+queso, cristalerîa
+o loza, ni de ninguna cosa frâgil
+que por su naturaleza no se pueda guardar mas que por corto
+tiempo, si no se probare que la averia, deterioro o rotura, pro-
+viene de
+su negligencia o culpa. (C. C., Art. 177.)
+Pérdida,
+averia
+o retardo en la
+en-
+t r e g a
+de
+encomiendas.
+Indemni-
+zaciôn.
+Art.
+193. — La responsabilidad de las
+empresas
+por pér¬
+dida, averia
+o retardo
+en el transporte de encomiendas sera
+la establecida
+en los articulos 179 y 181, con la limitaciôn de
+la indemnizaciôn a $ 25,00 m/n. en el caso de encomiendas de
+valor
+no declarado,
+y sin perjuieio de lo previsto
+en el ar-
+ticulo 192.
 Transporte de valores, alhajas, etc.
-
-Art. 194. — La empresa no será responsable del dinero,
-alhajas o efectos de gran valor y documentos de crédito, si
-al tiempo de la entrega los remitentes no hubiesen decla-
-rado su contenido y acordado las condiciones del transporte.
-(C. C., Art. 173. Ley, Art. 40).
+Art.
+194. — La
+empresa
+no
+sera
+responsable
+del
+dinero,
+alhajas
+o efectos de gran valor y documentos de crédito, si
+al tiempo
+de la
+entrega
+los remitentes
+no hubiesen decla¬
+rado
+su contenido y acordado las condiciones del transporte.
+(C. C., Art. 173.
+Ley, Art. 40).
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. Fragments of text from the preceding page are visible in the left margin but are not part of page 141's content and have been excluded.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 145
@@ -625,67 +699,122 @@ All text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 ```
 
+# Page 151
+
 ## Page Metadata
-Page number: 148
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json`
+- Source page: 151
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/page-images/page-0151.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents text in a single column. It includes a page number at the top, followed by a chapter title, a section title, and several articles (Art. 214-217) with subheadings.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 148 —
-
-CAPÍTULO VIII
-
-TRANSPORTE DE CARGAS
-
-**Deber de las empresas de recibir**
-**toda carga para su transporte.**
-
-Art. 214. — Las empresas de ferrocarriles tienen la obliga-
-ción de recibir, conforme a las leyes y reglamentos vigentes,
-toda la carga que se les entregue para el transporte hasta sus
-estaciones o a las de otras líneas que empalmen con las pro-
-pias. (C. C., art. 204.)
-
-**Cargas excluídas del transporte.**
-
-Art. 215. — Del transporte de cargas quedan excluídos:
-
-1º Las cargas que por su tamaño, peso, forma u otros ca-
-racteres no puedan ser transportadas por el ferrocarril.
-2º Los objetos que legalmente sólo puedan ser transpor-
-tados por el correo.
-3º Las materias explosivas o inflamables, con excepción de
-las indicadas en el capítulo noveno.
-4º Las cargas cuyo transporte haya sido prohibido por dis-
-posiciones de policía.
-
-**Transporte de objetos de peso o vo-**
-**lumen extraordinario.**
-
-Art. 216. — Las empresas no estarán obligadas a transportar
-los objetos, cuyo peso o volumen estuviera fuera de los límites
-aceptados en las prescripciones legales y reglamentarias vi-
-gentes, salvo convenios especiales, dando cuenta a la Dirección
+```markdown
+—
+148
+—
+CAPÎTULO
+VIII
+TRANSPORTE
+DE
+CARGAS
+Deber
+de
+las
+empresas
+de
+recibir
+toda carga para su transporte.
+Art.
+214. — Las empresas de ferrocarriles tienen la obliga¬
+te11 de recibir, conforme
+a las leyes y reglamentos vigentes,
+toda la carga que se les entregue para el transporte hasta
+sus
+estaciones
+o
+a las
+de otras lineas que empalmen
+con las pro-
+pias.
+(C. C., art. 204.)
+Cargas excluîdas del transporte.
+Art. 215. — Del transporte de cargas quedan excluidos :
+l9
+Las cargas
+que por su tamano, peso, forma u otros
+ca¬
+ractères no puedan
+ser transportadas por el ferrocarril.
+29
+Los
+objetos
+que legalmente
+solo puedan
+ser transpor-
+tados por el
+correo.
+39
+Las materias explosivas
+o inflamables,
+con exception de
+las indicadas
+en el capitulo
+noveno.
+49
+Las cargas cuyo transporte haya sido prohibido por dis-
+posiciones
+de polieia.
+Transporte de objetos de peso o vo-
+lumen extraordinario.
+Art. 216. — Las empresas no estarân obligadas a transportai
+los objetos, cuyo peso o volumen estuviera fuera de los limites
+aceptados
+en las preseripciones legales y reglamentarias vi¬
+gentes, salvo convenios espeeiales, dando euenta a la Direction
 General de Ferrocarriles.
-
-**Calidad de acarreador.**
-
-Art. 217. — Si la empresa no efectuase el transporte por sí,
-sino mediante otra empresa, conservará, no obstante, para con
+Calidad de acarreador.
+Art. 217. — Si la empresa no efectuase el transporte por si,
+sino mediante otra empresa, conservarâ, no obstante, para con
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 152
 
@@ -806,73 +935,143 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 153
+
 ## Page Metadata
-Page number: 153
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json`
+- Source page: 153
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/page-images/page-0153.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page consists of a single column of text. The page number is centered at the top. The main body of text is composed of several articles and associated subheadings, with the subheadings right-aligned and the article text left-aligned and indented.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```
-                                  — 150 —
-
-debido, abonará a la empresa el doble del flete que corres-
-ponda, o como mínimum cincuenta centavos, si el doble del
-flete no alcanzare a esta suma.
-
-                                            Sospecha de falsedad. Reconoci-
-                                            miento del contenido de los bultos.
-
-Art. 221. — Si por sospecha de falsedad en la declaración
-del contenido de un bulto, la empresa resolviera proceder a
-su reconocimiento, lo hará ante testigos y con asistencia del
-remitente o del consignatario.
-
-No concurriendo éstos, solicitará la asistencia del Inspector
-Nacional, de la autoridad policial más inmediata, del Juez
-de Paz o de de dos testigos calificados.
-
-                                            Acciones judiciales. Acta de recono-
-                                            cimiento.
-
-Art. 222. — Del reconocimiento y su resultado se extenderá
-el acta correspondiente que será firmada por los presentes y
-la empresa exigirá el pago del doble del flete que debía pa-
+```markdown
+—
+150
+—
+debido, abonarâ
+a la
+empresa el doble del flete
+que
+corres¬
+pondu,
+o
+como minimum cincuenta centavos, si el doble del
+flete
+no alcanzare
+a
+esta
+suma.
+Sospecha
+de
+falsedad.
+Reconoci-
+miento del contenido de los bultos.
+Art.
+221. — Si por sospecha de falsedad
+en la deelaracion
+del contenido de
+un bulto, la
+empresa resolviera procéder
+a
+su reconocimiento, lo hara ante testigos y
+con asistencia del
+remitente
+o del consignatario.
+No concurriendo éstos, solicitarâ la asistencia del Inspector
+Nacional,
+de la autoridad policial
+mas inmediata,
+del
+Juez
+de Paz
+o de dos testigos calificados.
+Acciones judiciales. Acta de recono¬
+cimiento.
+Art. 222. — Del reconocimiento y su resultado se extenderâ
+el acta correspondiente
+que sera firmada por los présentes y
+la empresa exigirâ el pago del doble del flete que debîa pa-
 garse, sin perjuicio del derecho a las acciones penales y civiles
-contra el remitente, por las consecuencias a que hubiera dado
-lugar la falsa declaración.
-
-                                            Gastos a cargo de la empresa resul-
-                                            tando no ser falsa la declaración.
-
-Art. 223. — Si de la verificación practicada no resultase
-falsa la declaración del remitente, serán por cuenta de la
-empresa todos los gastos que se ocasionaren para la reposición
-de los bultos, hasta dejarlos tales como se encontraban antes
+contra el remitente, por las consecuencias
+a que hubiera dado
+lugar la falsa deelaracion.
+Gastos
+a cargo de la empresa resul-
+tando
+no
+ser falsa la deelaracion.
+Art.
+223. — Si
+de
+la verificacion practicada
+no
+resultase
+falsa
+la
+deelaracion
+del remitente,
+serân
+por
+cuenta
+de la
+empresa todos los gàstos que se ocasionaren para la reposiciôn
+de los bultos, hasta dejarlos taies
+como
+se encontraban antes
 de abrirlos.
-
-                                            Acondicionamiento. Marcas y rótu-
-                                            los de las cargas.
-
+Acondicionamiento. Marcas y rotu-
+los de las cargas.
 Art. 224. — Todas las cargas que se entreguen a la empresa
-para ser transportadas, deberán estar bien acondicionadas.
+para
+ser transportadas,
+deberân
+estar
+bien
+acondicionadas.
+in
+y
+o
+si
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 154
 
@@ -1043,194 +1242,348 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}
 
+# Page 156
+
 ## Page Metadata
-Page number: 156
-Source document page number: 153
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json`
+- Source page: 156
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/page-images/page-0156.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a page number at the top, followed by several articles (Art. 226 to Art. 230) each with a preceding heading. The text is presented in a single column.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 153 —
-
+```markdown
+—
+153
+—
 Rechazo de bultos mal acondiciona-
 dos. Transporte sin responsabilidad.
-
-Art. 226.—Las empresas podrán rechazar los bultos que
+Art.
+226. — Las
+empresas podrân rechazar los bultos que
 se presenten mal acondicionados para el transporte.
 Sin embargo, si el remitente insistiese en que se admitan,
-las empresas estarán obligadas a conducirlos y quedarán
+las
+empresas
+estarân
+obligadas
+a conducirlos
+y quedarân
 exentas de toda responsabilidad, si hicieren constar en la carta
-de porte su oposición. (C. C., art. 178.)
-
+de porte su oposiciôn. (C. C.> art. 178.)
 Carga, acondicionamiento y descar-
 ga de objetos de dimensiones o peso
 excesivo.
-
-Art. 227.—La carga, acondicionamiento y descarga de ma-
-quinarias, vehículos y bultos de un peso superior a 500 kilos
-cada uno, y de objetos de volumen extraordinario, será efec-
-tuada por el remitente o el consignatario, según el caso, por
+Art. 227. — La carga, acondicionamiento y descarga de ma-
+quinarias, vehîculos y bultos de un peso superior a 500 kilos
+eada uno, y de objetos de volumen extraordinario, sera efec-
+tuada por el remitente
+o el consignatario, segun el caso, por
 su cuenta y riesgo.
-La empresa podrá realizar esas operaciones, a pedido del
+La
+empresa podrâ realizar
+esas operaciones,
+a pedido del
 interesado, siempre que tenga los medios necesarios, cobrando
-la tasa que corresponda.
-
+la tasa
+que correspondu.
 Transporte condicional para cargas
-de peso o volumen extraordinario.
-
-Art. 228.—Toda carga que por su peso o volumen nece-
-sitase vagones especiales o peonaje extraordinario, se trans-
-portará bajo trato condicional.
-
-Presunción de ausencia de vicios
+de
+peso
+o volumen extraordinario.
+Art.
+228. — Toda carga que 'por su peso
+o volumen nece-
+sitase
+vagones especiales
+o peonaje extraordinario,
+se trans-
+portarâ bajo trato condicional.
+Presuncion
+de
+ausencia
+de
+vicibs
 aparentes de la carga.
-
-Art. 229.—Si la empresa aceptare sin reserva los objetos
-del transporte, se presumirá que no tienen vicios aparentes.
+Art. 229. — Si la
+empresa aceptare sin réserva los objetos
+del transporte,
+se presumirâ que no tienen vicios aparentes.
 (C. C., art. 169.)
-
 Aforo de cargas.
-
-Art. 230.—Salvo disposición distinta de las tarifas, las
-cargas se aforarán en cantidades no menores de 100 kilo-
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed. The last line of Art. 230 is cut off at the bottom of the page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+Art.
+230. — Salvo
+disposiciôn distinta de las tarifas, las
+cargas
+se aforarân
+en cantidades no menores de 100 kilo-
 ```
 
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 157
+
 ## Page Metadata
-- Page number: 154
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json`
+- Source page: 157
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/page-images/page-0157.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, primarily legal articles and related headings. The page number "— 154 —" is centered at the top. The text flows from top to bottom, with headings preceding the articles they describe.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 154 —
 
-gramos y el peso que sobrepasare de 100 kilogramos será divi-
-sible en fracciones de 10 kilogramos, a excepción de los aforos
-por vagón en que éstas serán de 100 kilogramos.
-
-Atribución de peso a cargas volu-
+```markdown
+— 154
+—
+gramos y el peso que sobrepasare de 100 kilogramos sera divi¬
+sible en fracciones de 10 kilogramos, a excepciôn de los aforos
+por vagôn en que estas serân de 100 kilogramos.
+Atribucion de
+peso
+a
+cargas volu-
 minosas.
-
-Art. 231. — Las empresas podrán atribuir un peso mayor
-que el efectivo a toda carga de mucho volumen y poco peso.
-Este aumento se hará en la proporción de dos metros cúbicos
+Art.
+231. — Las
+empresas podrân atribuir
+un
+peso mayor
+que el efectivo
+a toda earga de mucho volumen y
+poeo peso.
+Este aumento
+se harâ en !a proporciôn de dos metros cubieos
 y medio por mil kilogramos.
-
 Transporte de efectos de valor.
-
-Art. 232. — El porteador no será responsable del dinero,
-alhajas o efectos de gran valor y documentos de crédito, si
-al tiempo de la entrega el cargador no hubiere declarado su
-contenido y acordado las condiciones del transporte. (C. C.,
-art. 173. Ley, art. 40.)
-
+Art.
+232. — El porteador
+no
+sera responsable
+del
+dinero,
+alhajas
+o efectos
+de gran valor y documentos de crédito, si
+al tiempo de la entrega el cargador no hubiere declarado
+su
+contenido y acordado las eondiciones del transporte.
+(C. C.,
+art. 173.
+Ley, art. 40.)
 Valor legal de la carta de porte.
-
-Art. 233. — La carta de porte es el título legal del contrato
-entre el cargador y la empresa, y por su contenido se deci-
-dirán todas las cuestiones que ocurran con motivo del trans-
-porte de los efectos, sin admitirse más excepción en contrario
-que la de falsedad o error involuntario de redacción. (C. C., ar-
-tículo 167.)
-
+Art. 233. — La carta de porte es el tîtulo legal del contrato
+entre el cargador y la
+empresa,
+y por
+su contenido
+se deci-
+dirân todas las cuestiones que ocurran
+con motivo del
+trans¬
+porte de los efectos, sin admitirse mas excepciôn
+en contrario
+que la de falsedad o error involuntario de redaction. (C. C., ar-
+tîculo 167.)
 Cartas de porte.
-
-Art. 234. — La carta de porte puede ser nominativa, a la
-orden o al portador.
-El cesionario, endosatario o portador de la carta de porte
+Art.
+234. — La
+carta de porte puede
+ser nominativa,
+a la
+orden
+o al portador.
+El cesionario, endosatario
+o portador de la carta de porte
 se subroga en todas las obligaciones y derechos del cargador.
 (C. C., art. 166.)
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 158
+
 ## Page Metadata
-Page number: 158
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json`
+- Source page: 158
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/page-images/page-0158.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text. It starts with a page number centered at the top, followed by a bolded heading. Below the heading is an article with a main paragraph, which then introduces a numbered list of items. After this list, there's another introductory paragraph followed by a lettered list. The page concludes with a final paragraph.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 155 —
-
-**Datos que debe contener la carta**
-**de porte.**
-
-Art. 235. — La carta de porte será redactada, en duplicado,
-por el cargador, utilizando el formulario pertinente, autori-
-zado al efecto, en el cual anotará con toda claridad los si-
+```markdown
+155
+—
+Datos
+que debe
+contener la carta
+de porte.
+Art. 235. — La carta de porte sera redactada, en duplicado,
+por el cargador, ntilizando el formulario pertinente, autori-
+zado al efecto,
+en el cual anotarâ con toda claridad los si-
 guientes datos:
-
-1º Nombre y domicilio del cargador;
-2º Nombre y domicilio del destinatario, si la carta de porte
-no fuese al portador;
-3º Estación de destino de la carga y ferrocarril a que
-pertenece;
-4º Designación de los efectos, su calidad específica, peso,
-medida o número de bultos, sus marcas o signos exte-
-riores y, si estuviesen embalados, la clase de embalaje;
-5º Los demás datos que exijan los formularios;
-
-Recibidos los efectos, la empresa anotará en la carta de
+1"
+Nombre y domicilio del cai’gador;
+2IJ
+Nombre y domicilio del destinatario, si la carta de porte
+no fuese al portador ;
+3?
+Estacion
+de
+destino
+de la
+carga
+y ferrocarril
+a
+que
+pertenece ;
+49
+Designaciôn de los efectos,
+su calidad especîfica, peso,
+medida
+o
+numéro de bultos,
+sus marcas
+o signos exte¬
+rior es y, si estuviesen embalados, la clase de embalajc;
+5Ç
+Los demâs datos
+que exijan los formularios;
+Recibidos
+los efectos, la
+empresa anotarâ en la carta de
 porte y su duplicado:
-
-a) El número de orden de la misma;
-b) El importe del flete debido, con la indicación de “pa-
-gado o “a cobrar”, según el caso;
+a) El numéro de orden de la misma;
+&El importe del flete debido,
+con la indicaciôn de “pa-
+gado
+o “a cobrar”, segun el easo;
 c) Las convenciones especiales del transporte, si las hubiere;
-d) Las observaciones o reservas acerca del estado de las mer-
-caderías o de su embalaje;
-e) La firma del jefe de la estación o empleado autorizado
+d) Las observaciones o réservas acerca del estado de las mer-
+caderîas o de su embalaje;
+e) La firma del jefe de la estacion
+o empleado autorizado
 al efecto;
-f) La fecha de recepción de la carga por la estación expe-
+f) La fecha de recepciôn de la carga por la estacion expe-
 didora.
-
-Llenados estos recaudos y firmada la carta de porte por
-las partes, el duplicado de la misma será devuelto en el acto
-al remitente o a su representante, quedando en ese momento
-concluído el contrato de transporte.
+Llenados
+estos recaudos y firmada la carta de porte por
+las partes, el duplicado de la misma sera devuelto en el acto
+al remitente
+o
+a
+su représentante, quedando en ese momento
+concluîdo el contrato de transporte.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The page consists entirely of text."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 159
 
@@ -1363,69 +1716,131 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 160
+
 ## Page Metadata
-Page number: 157
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json`
+- Source page: 160
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/page-images/page-0160.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single-column layout containing legal articles and subheadings. The page number "157" is centered at the top. Below it, a main heading "Guías de campaña" is centered, followed by a series of numbered articles (Art. 241 to Art. 245) and smaller, centered subheadings that introduce specific topics related to the articles. The text flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 157 —
-
-Guías de campaña.
-
-Art. 241.—Las empresas se sujetarán a las disposiciones
-nacionales o provinciales, según el caso, respecto de la exhi-
-bición de guías para la extracción de frutos del país, debiendo
-conducir dichas guías en el mismo tren en que el transporte
+```markdown
+—
+157
+—
+Guias de campana.
+Art.
+241. — Las
+empresas
+se sujetarân
+a las disposiciones
+nationales
+o provinciales, segun el caso, respecto de la exhi¬
+bition de guias para la extraction de frutos del pais, debiendo
+conducir dichas guias en el mismo tren en que el transporte
 se realice.
-
 Falta, error o falsedad de carta de
 porte, pruebas admisibles.
-
-Art. 242.—Si no hubiese carta de porte o fuere ella ata-
-cada por alguna de las causas mencionadas en el artículo 233,
-se estará al resultado de las pruebas que presente cada parte,
-en apoyo de sus respectivas pretensiones; pero el cargador,
-ante todo, tendrá que probar la entrega de los efectos a la
-empresa, en caso de que ésta lo negare. (C. C., art. 167.)
-
-Extravío de la carta de porte. Iden-
-tificación del consignatario.
-
-Art. 243.—Si la carta de porte se hubiere extraviado,
-siendo nominativa, podrá entregarse en destino los efectos
-designados en ella, sin su presentación, previa identificación
-del consignatario, a satisfacción de la empresa.
-Si la carta de porte fuese a la orden o al portador, la
-entrega se hará en destino, previa conformidad del cargador.
-
-Omisión en firmar la carta de porte.
+Art. 242. — Si
+no hubiese carta de porte
+o fuere ella ata-
+cada por alguna de las causas mencionadas en el articulo 233,
+se estarâ al resultado de las pruebas que présente cada parte,
+® apoyo de
+sus respectivas pretensiones ;
+pero el cargador,
+ante todo, tendra
+que probar la entrega de los efectos a la
+empresa, en caso de que esta lo negare. (C. C., art. 167.)
+Extravio de la carta de porte. Iden-
+tificacion del consignatario.
+Art.
+243. — Si
+la
+carta
+de
+porte
+se hubiere extraviado,
+siendo
+nominativa, podrâ
+entregarse
+en destino los efectos
+designados
+en ella, sin su presentation, previa identification
+del consignatario,
+a satisfaction de la empresa.
+Si la
+carta
+de porte fuese
+a la orden
+o al portador, la
+entrega
+se harâ en destino, previa conformidad del cargador.
+Omision en firmar la carta de porte.
 Plazos y almacenaje.
-
-Art. 244.—Si el interesado no se presentase a firmar la
-carta de porte, la carga no será despachada y pagará, pasadas
-las veinticuatro horas, almacenaje según tarifa.
-
+Art.
+244. — Si
+el interesado
+no
+se presentase
+a firmar la
+carta de porte, la carga no sera despachada y pagarâ, pasadas
+*as veinticuatro horas, almacenaje segun tarifa.
 Constancia de la fecha de expedi-
-ción de la carga.
-
-Art. 245.—Cuando el remitente lo pida, la empresa le
-otorgará una constancia escrita de la fecha en que fué des-
-pachada la carga.
+cion de la carga.
+Art.
+245. —- Cuando
+el
+remitente
+lo pida,
+la
+empresa
+le
+otorgarâ una constancia escrita de la fecha en
+que fué des-
+i’Schada la carga.
+i
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or significant visual elements on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 161

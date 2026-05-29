@@ -1,0 +1,135 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d41441d39133-P0333-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350.codex.md
+converted_sha256: d41441d39133fb15b6e1bf0fafb0614896c6f645fcfa5f5b1c2546a6628fc2ef
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350/manifest.json
+page_start: 333
+page_end: 333
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350/manifest.json`
+- Source page: 333
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350/page-images/page-0333.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-
+12
+-
+las relaoiones jurldioaa entre la Argentina y la Sociedad de
+las
+Maeionesi
+"Me acuerào
+con auestros precept os const ittusi onale» t
+la adhésion dada por el Poder KJecutivo al Facto
+de la Socied&d
+de las Madones,
+debe
+aer sometida
+a la consideraciôn del
+Con-
+greso.
+Micha adhesién se ha
+operado
+en el momento
+de quedar de-
+positada la coamnleaclôn correspondlente heeha
+a la Seoret&rla
+de la
+sîooiedad el
+18 de Julio 1919 por el Ministro argentine
+en Paris,
+en virtud de las instrucciones del fêlnisterio de
+Re-
+laciones Ejcteriores,
+del
+12 de Julio 1919.
+La âdheeiôn mencio-
+naâa fué ratificada por el Présidente de la Repàbliea el 16 de
+iSnero 19gü,
+en respuesta
+a la invitaci&n que
+1© fué dirigida
+por el Présidente del Conseco Supremo de las Potencies aliadas
+y
+vfiociadas.
+"Il retiro
+4e la àelegaoiôn a la Asamblea,
+que tuvo
+lugar en cumplimiento de las instrucciones del ioder Kjeeutivo,
+represents una aetitud
+que
+no puede significar la separaeién
+o
+el ale^amiento définitive
+de la Pociedad aiema,
+porque,
+de acuer-
+do
+eon el articule primero del Paoto,
+todo Üiembro
+de la Sooie-
+dad puede,
+Radiante un aviso previo de clos aRos, retirarse de
+la Sociedad.
+Solamente después de
+que el Congreso haya aproba-
+do la adhesiôn al Paoto y una ves
+que hayamos regularisado la
+situaeidn finaaeiera, la
+Republica podré hallarse en situsciôn
+de adoptar la resolueiôn que estime
+mas «onveniente.
+*
+... +
+:
+î
+*
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 334

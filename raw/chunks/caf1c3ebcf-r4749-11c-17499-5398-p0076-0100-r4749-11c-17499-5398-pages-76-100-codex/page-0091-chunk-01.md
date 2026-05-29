@@ -1,0 +1,121 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-438e0340b749-P0091-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0076-0100-r4749-11c-17499-5398-pages-76-100.codex.md
+converted_sha256: 438e0340b749e358bf1508b3f33f1d193c4efc2c418c7f89cefa785a455e62e9
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0076-0100-r4749-11c-17499-5398-pages-76-100/manifest.json
+page_start: 91
+page_end: 91
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0076-0100-r4749-11c-17499-5398-pages-76-100/manifest.json`
+- Source page: 91
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0076-0100-r4749-11c-17499-5398-pages-76-100/page-images/page-0091.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+t
+6
+-
+///
+blicidad del hecho y cuanto concierne al raenor,
+sea al hacer
+la averiguaciôn,
+sea al mantenerlo detenido
+o conducirlo
+a
+algdn lugar.- Cuando concurra a alguna comisaria se le aten
+derâ inmediatamente y si debiera quedar detenido se habilita
+râ un local apropiado donde no
+se encuentre con mayores de
+diecisiete
+anos, debiendo
+a la brevedad posible ser remitido
+al asilo, alcaidla
+o institute de observacidn.-
+Art. 17.- A las audiencias del tribunal sdlo podrân asis
+tir las partes y sus représentantes légales, los funcionarios,
+los miembros
+de las sociedades
+de beneficencia y las personas
+que autorice el juez
+a presenciarlas.-
+Art. 18.- Recibida la informaciôn
+a
+que
+se refiere el
+artlculo 12, el juez practicarâ las diligencias
+que sean ne
+cesarias, interrogara a los testigos y peritos para compro-
+bar la existencia del hecho punible y la participacidn del
+menor
+como autor
+o complice del mismo y en todos los
+casos
+establecerâ las condiciones psicopedagdgicas de
+su personal!
+dad y las circunstancias del ambiente
+en que ha vivido.-
+Art. 19.- El juez interrogarâ personalmente al menor so
+bre
+todas las particularidades de la causa, si
+se le imputare
+delito
+o falta,
+pero en todos los
+casos su interrogatorio ten
+derâ
+a
+conocer la capacidad mental, afectividad, tendencias,
+hâbitos, instruccidn y demâs circunstancias de orden moral
+o de ambiente referentes al menor.-
+Art, 20.- En ningdn caso
+se decretara la prisidn preven
+///
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 92

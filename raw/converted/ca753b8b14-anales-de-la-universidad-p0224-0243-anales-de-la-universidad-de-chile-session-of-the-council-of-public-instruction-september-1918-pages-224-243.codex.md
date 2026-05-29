@@ -232,113 +232,182 @@ All visible text and significant visual elements on the page have been transcrib
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present for cropping."}
 
+# Page 227
+
 ## Page Metadata
-- Page number: 513
-- Source publication: Anales de la Universidad de Chile
-- Session: SESION DE 14 DE OCTUBRE DE 1918
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json`
+- Source page: 227
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/page-images/page-0227.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single-column layout with a running header at the top. The main content consists of two distinct decrees, each introduced by a date and a decree number, followed by the body of the text and concluding with names. Headings "ANEXO" and "DOCUMENTOS LESDOS EN LA SESION" precede the first decree.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-SESION DE 14 DE OCTUBRE DE 1918 513
 
-ANEXO.
-
-DOCUMENTOS LESDOS EN LA SESION
-
-Santiago, 5 de Setiembre de 1918.
-
-N.º 3479.—DECRETO:
-
-Concédase a don Guillermo Mann, profesor de Pedagojía i
-Filosofía del Instituto Pedagójico i Director del Laboratorio
-de Psicolojía Esperimental, la jubilacion que solicita, con el go-
-ce de una pension anual de dos mil ochocientos pesos oro de
-18 d. ($ 2,800 oro 18 d), i dos mil cien pesos moneda corriente
-($ 2,100 m/c). sumas equivalentes a las catorce cuarentavas
-partes de sus sueldos de ocho mil pesos oro de 18 d (8,000 oro 18 d)
-i de seis mil pesos moneda corriente ($ 6,000), de que actual-
-mente disfruta como profesor del Instituto Pedagójico i Di-
-rector del Laboratorio en referencia respectivamente. Dicha
-pension le será pagada por la Tesorería Fiscal de Santiago, por
-mensualidades vencidas. La misma Tesorería devolverá al señor
-Mann la suma de sesenta pesos ($ 60), que depositó para res-
-ponder a su exámen médico legal. Impútese el gasto al ítem
-2281, partida 19, del Presupuesto vijente.—(Firmado).—SAN-
-FUENTES.—P. Aguirre Cerda.
-
-Santiago, 5 de Octubre de 1918.
-
-N.º 3868.—DECRETO:
-
-Nómbrase a don Lautaro Benham, propuesto en la terna
-respectiva, para que sirva en propiedad, el puesto de profesor
-de Derecho Internacional del Curso de Leyes de Valparaiso.—
-(Firmado).—SANFUENTES.—Alcibiades Roldan.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no substantial visual elements that would require cropping."}
+```markdown
+e 
+SESION DE 14 DE OCTUBRE DE 1918 
+58) 
+ANEXO. 
+DOCUMENTOS LESDOS EN LA SESION 
+Santiago, 5 de Setiembre de 1918. 
+N.0 3479.—DECRETO: 
+Concédese a don Guillermo Mann, profesor de Pedagojía 1 
+Filosofía del Instituto Pedagójico 1 Director del Laboratorio 
+de Psicolojía Esperimental, la jubilacion que solicita, con el go- 
+ce de una pension anual de dos mil ochocientos pesos oro de 
+18 d. ($ 2,800 oro 18 d), 1 dos mil cien pesos moneda corriente 
+($ 2,100 
+m/c) sumas equivalentes a las catorce cuarentavas 
+partes de sus sueldos de ocho mil pesos oro de18 d (8,000 oro 18 d) 
+1 de seis mil pesos moneda corriente ($ 6,000), de que actual- 
+mente disfruta como profesor del Instituto Pedagójico i D!- 
+rector del Laboratorio 
+en referencia respectivamente. 
+Dicha 
+pension le será pagada por la Tesorería Fiscal de Santiago, por 
+mensualidades vencidas. La misma Tesorería devolverá al señor 
+Mann la suma de sesenta pesos ($ 60), que depositó para res- 
+ponder a su exámen médico legal. Impútese el gasto al ítem 
+2281, partida 
+19, del Presupuesto vijente. a mado).-—SAN- 
+FUENTES. —P. Agwrre Cerda. 
+o 
+Santiago, 5.de Octubre de 1918. 
+N.o 3868.—DECRETO: 
+Nómbrase a don Lautaro Benham, propuesto en 
+la terna 
+respectiva, para que sirva en propiedad, el puesto de profesor 
+de Derecho Internacional del Curso de Leyes de Valparaiso.— 
+(Firmado). —SANFUENTES.—A lcibíades Roldan.
 ```
 
-## Page Metadata
-- Page number: 228
-- Source publication year: 1918
-- Source publication title: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-
-## Layout And Reading Order
-The page contains a header at the top, followed by three distinct entries, each starting with a date and then a block of text. The entries are presented in a single column. The last entry is incomplete, cut off at the bottom of the page.
-
-## Literal Transcription
-514 BOLETIN DE INSTRUCCION PÚBLICA
-Santiago, 28 de Setiembre de 1918.
-N.º 3765.—DECRETO:
-Comisiónase al profesor de Zoolojía Médica, don Juan Noé,
-para que, en compañía de uno de los ayudantes de dicha clase
-se traslade a la zona minera de Lota, Coronel i Curanilahue con
-el objeto de estudiar la enfermedad llamada anquilostomiasis.
-Dicha comision no podrá exceder del término de veinte dias.
-(Firmado).—SANFUENTES.—Alcibiades Roldan.
-Santiago, 30 de Setiembre de 1918.
-N.º 3796.—DECRETO:
-Déjase sin efecto el decreto N.º 444, de 30 de Marzo último,
-espedido por el Ministerio de Instruccion Pública, por el cual se
-concedió permiso a la Fundacion de Beneficencia «Belisario
-Torres» para que construyera el edificio destinado a la Casa de
-Estudiantes en una estension de terrenos ubicada en las riberas
-del Mapocho.—(Firmados).—SANFUENTES.—Alcibiades Roldan
-Santiago, 23 de Agosto de 1918.
-Señor Decano de la Facultad de Leyes:
-Como miembros de la comision especial nombrada el 10 de
-Julio del presente año, para informar a la Facultad sobre la
-importancia i mérito de la obra del profesor señor Daniel Mart-
-ner, titulada «Nuestros Problemas Económicos», tenemos el
-honor de presentar a Ud. nuestro informe.
-Se inicia la obra con un estudio sobre las condiciones jenera-
-les del tráfico en Chile. En seguida se estudian las vias natura-
-les de comunicacion: el mar, los rios i los lagos. Vienen a conti-
-
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. All text is clearly legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete for all visible text on the page. The last entry is cut off at the bottom of the page, indicating that it continues on the next page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 228
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json`
+- Source page: 228
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/page-images/page-0228.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+514 
+BOLETIN DE INSTRUCCION PÚBLICA 
+Santiago, 28 de Setiembre de 1918. 
+a 
+N.0 3765.—DECRETO: 
+Comisiónase al profesor de Zoolojía Médica, don Juan Noé, 
+para que, en compañía de uno de los ayudantes de dicha clase 
+se traslade a la zona minera de Lota, Coronel 1 Curanilahue con 
+el objeto de estudiar la enfermedad llamada anquilostomiasis. 
+Dicha comision no podrá exceder del término de veinte dias. 
+(Firmado). —SANFUENTES.—Alcibíades Roldan. 
+Santiago, 
+30 de Setiembre de 1918. 
+N.o 3796.—DECRETO: 
+Déjase sin efecto el decreto N.% 444, de 30 de Marzo último, 
+espedido por el Ministerio de Instruccion Pública, por el cual se 
+concedió permiso a la Fundacion 
+de Beneficencia 
+«Belisario 
+Torres» para que construyera el edificio destinado a la Casa de 
+Estudiantes en una estension de terrenos ubicada en las riberas 
+del Mapocho.—(Firmados).—SANFUENTES.—A 
+leibíades Roldan 
+Santiago, 23 de Agosto de 1918. 
+Señor Decano de la Facultad de Leyes: 
+Como miembros de la comision especial nombrada el 10 de. 
+Julio del presente año, para informar a la Facultad sobre la 
+importancia i mérito de la obra del profesor señor Daniel Mart- 
+ner, 
+titulada 
+«Nuestros 
+Problemas Económicos» 
+tenemos 
+el 
+honor de presentar a Ud. nuestro informe. 
+- 
+Se inicia la obra con un estudio sobre lás condiciones jenera- 
+les del tráfico en Chile. En seguida se estudian las vias natura- 
+les de comunicacion: el mar, los rios 1 los lagos. Vienen a conti-- 
+.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 229
 
@@ -410,64 +479,101 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 230
+
 ## Page Metadata
-- Page number: 516
-- Source publication: Anales de la Universidad de Chile
-- Session: Session of the Council of Public Instruction, September 1918
-- Page range: 224-243
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json`
+- Source page: 230
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/page-images/page-0230.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a header with the page number and publication title, followed by a single column of text. The text includes a paragraph, a centered heading, another paragraph, and then two lists of names under italicized professional titles, each with a leading "a don" or "don" and then subsequent names prefixed with a guillemet (»).
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-516 BOLETIN DE INSTRUCCION PÚBLICA
-
-de a los profesores universitarios que tratan como tales, es decir,
-como hombres de ciencia, una materia de política económica.
-No dudamos tambien que esta obra será bien recibida en los
-demás cientros de la actividad científica de nuestra América, don-
-de se comienza a conocer debidamente la necesidad que tene-
-mos de dar preferencia al estudio de los problemas americanos
-que mas de cerca nos interesan.—(Firmados).—GUILLERMO
-SUBERCASEAUX, profesor de Economía Política; FRANCISCO
-NOGUERA, profesor de Economía Política i JULIO PHILIPPI,
-profesor de Hacienda Pública.
-
-SESION DE 21 DE OCTUBRE DE 1918.
-
-Fué presidida por el señor Rector de la Universidad don Do-
-mingo Amunátegui Solar, asistieron los señores Consejeros, Amu-
-nátegui Solar don Gregorio, Barros Borgoño, Concha Castillo,
-Matte, Prado Amor, Rücker, Salas Lavaqui, Schmidt, i el se-
-ñor Secretario Jeneral don Octavio Maira. Escusó su inasisten-
-cia el señor Consejero Quezada.
-Previas las formalidades reglamentarias i el juramento reque-
-rido, el señor Rector confirió los siguientes títulos i grados:
-
-*Ingeniero Civil:*
-
-a don Alfredo Armijo Serre,
-
-*Licenciados en Medicina i Farmacia:*
-
-don Pedro Contreras Arancibia,
-» Dagoberto Paredes Palacios,
-» Juan Pardo Martínez,
-» Alejandro Ramírez Roman; i
-» Enrique Salinas Fajardo.
+```markdown
+516 
+BOLETIN DE INSTRUCCION PÚBLICA 
+A 
+de a los profesores universitarios que tratan como tales, es decir, 
+como hombres de ciencia, una materia de política económica. 
+No dudamos tambien que esta obra será bien recibida en los 
+demás cientros de la actividad centífica de nuestra América, don- 
+de se comienza a conocer debidamente la necesidad que tene- 
+“mos de dar preferencia al estudio de los problemas americanos 
+que 
+mas 
+de 
+cerca nos interesan.—(Firmados).—GUILLERMO 
+SUBERCASEAUX, 
+profesor 
+de Economía 
+Política; 
+FRANCISCO 
+NOGUERA, 
+profesor de Economía 
+Política i JuLIO PHILIPPI, 
+profesor de Hacienda Pública. 
+SESION DE 21 DE OCTUBRE DE 1918. 
+Fué presidida por el señor Rector de la Universidad don Do- 
+mingo Amunátegui Solar, asistieron los señores Consejeros, Amu- 
+nátegui Solar don Gregorio, Barros Borgoño, Concha Castillo, 
+Matte, Prado Amor, Riicker, Salas Lavaqui, Schmidt, i el se- 
+“ ñor Secretario Jeneral don Octavio Maira. Escusó su inasisten- 
+cia el señor Consejero Quezada. 
+Previas las formalidades 1eglamentarias 1 el juramento reque- 
+rido, el señor Rector confirió los siguientes títulos i grados: 
+Injemero 
+Civil: 
+a don Alfredo Armijo Serre, 
+Licenciados en Medicina i Farmacia; 
+don Pedro Contreras Arancibia, 
+» 
+Dagoberto Paredes Palacios, 
+» 
+Juan Pardo Martínez, 
+» 
+Alejandro Ramírez Roman; 
+1 
+» 
+Enrique Salinas Fajardo.
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or visual elements other than text.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The page contains no meaningful visual content like images, diagrams, or complex layouts that would require bounding box extraction."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 231
@@ -994,64 +1100,89 @@ The transcription is complete for the visible content of the page. The final doc
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for extraction."}
 
+# Page 238
+
 ## Page Metadata
-- Page number: 524
-- Source publication: Anales de la Universidad de Chile
-- Session: Session of the Council of Public Instruction
-- Date: September 1918
-- Document type: Boletín de Instrucción Pública
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json`
+- Source page: 238
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/page-images/page-0238.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single-column layout with a running header at the top. The content consists of several distinct sections: a continuation of a previous item, a dated communication, another numbered communication, and an excerpt from a will. Each section is separated by a short horizontal rule.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-524 BOLETIN DE INSTRUCCION PÚBLICA
 
-de Ciencias Biológicas i Química i Matemáticas i Física de este
-establecimiento, formarán parte en adelante de la Facultad de
-Humanidades.
-He notificado, por lo tanto, a los dos profesores contratados
-señores Johow i Ziegler.
-Respecto a los señores Poenisch i Servat, sus nombramientos
-(Dto. 2758 de 13 de Junio de 1907 i Dto. 2343, de 22 de Mayo de
-1907 respectivamente) no indican si son interinos o propietarios.
-Por esta razon, ruego al señor Rector se sirva indicarme si están
-o no comprendidos en dicho acuerdo.—(Firmado).—FEDERICO
-HANSSEN.
-
-Santiago, 9 de Octubre de 1918.
-
-N.º 145.
-
-Señor Rector:
-Por fallecimiento de don Raimundo Drouhaut han quedado
-vacantes dieciocho horas semanales de frances en este Liceo,
-para las cuales he propuesto en el carácter de interino, a don
-Luis Villablanca a quien se le ha prevenido que este nombra-
-miento solo se tomará en cuenta para la provisión en propie-
-dad de las clases sino se presenta otro candidato con mejores
-títulos.
-Envío a Ud. esta comunicación por si Ud. estima, como el
-infrascrito, que conviene proveer las clases vacantes en propie-
-dad.—(Firmado).—JULIO MONTEBRUNO.
-
-TESTAMENTO DE DON MARCIAL MARTÍNEZ
-
-CLÁUSULA 7.ª.—Es mi voluntad, fundar un premio pecunia-
-rio que se atribuirá a la que se califique como mejor obra inte-
-lectual, en los vastos campos de la ciencia, de la literatura i del
+```markdown
+24. 
+- 
+[BOLETIN DE INSTRUCCION PÚBLICA 
+(Sl 
+de Ciencias Biolójicas ¿ Química i Matemáticas 1 Física de este 
+establecimiento, formarán parte en adelante de la Facultad de 
+Humanidades. 
+' He notificado, por lo tanto, á los dos profesores contratados 
+señores Johow 1 Ziegler. 
+Respecto a los señores Poenisch 1 Servat, sus nombramientos 
+(Dto. 2758 de 13 de Junio de 1907 1 Dto. 2343, de 22 de Mayo de 
+1907 respectivamente) no indican si son interinos o propietarios. 
+Por esta razon, ruego al señor Rector se sirva indicarme si están 
+o.no comprendidos en dicho acuerdo.—(Firmado).—FEDERICO 
+' HANSSEN. 
+Santiago, 9 de Octubre de 1918. 
+N.o 145. 
+Señor Rector: 
+Por fallecimiento de don Raimundo Drouhaut han quedado 
+vacantes dieciocho horas semanales de frances en este Liceo, 
+para las cuales he propuesto en el carácter de interino a don 
+Luis Villablanca a quien se le ha prevenido que este nombra- 
+miento solo se tomará en cuenta para la provisión en propie- 
+dad de las clases sino se presenta otro candidato con mejores 
+títulos. 
+, 
+Envío a Ud. esta comunicación por si Ud. estima, como el 
+infrascrito, que conviene proveer las clases vacantes en propie- 
+dad.—(Firmado).—JuLio MONTEBRUNO. 
+TESTAMENTO DE DON MARCIAL MARTÍNEZ 
+CLÁUSULA 7.2,—Es mi voluntad, fundar un premio pecunia- 
+rio que se atribuirá a la que se califique como mejor obra inte- 
+lectual, en los vastos campos de la ciencia, de la literatura 1 del
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 239
 

@@ -1269,78 +1269,102 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 302
+
 ## Page Metadata
-Page number: 302
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json`
+- Source page: 302
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0302.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page presents a legislative document in a single-column format. It begins with a title "LEY N° 11308", followed by a date and location. The main body of the text is structured with a "POR CUANTO:" preamble, then the "LEY:" itself, divided into numbered articles. The document concludes with a closing statement, a list of signatories, and a final "POR TANTO:" section with more signatories.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-<br>
-
-<p style="text-align:center">LEY N° 11308</p>
-
-<br>
-
-<p style="text-align:right">Buenos Aires, diciembre 7 de 1928.</p>
-
+```markdown
+LEY
+N°
+11308
+Buenos Aires, diciembre 7 de 1923.
 POR CUANTO:
-
-El Senado y Cámara de Diputados de la Nación Argentina, reunidos en
+El Senado y Camara
+de Diputados de la Nacion Argentina, reunidos
+en
 Congreso, etc., sancionan con fuerza de—
-
-LEY:
-
-Art. 2° — Los obreros que hayan quedado cesantes con motivo de mo-
+ley:
+Art. 2° ■— Los obreros que hayan quedado cesantes con motivo de mo-
 vimientos huelguistas no pueden ser privados por esta causa del derecho de
-devolución de sus aportes o jubilación.
-Art. 3° — La primera elección de los Directores por virtud de esta
-ley, se efectuará en el plazo máximo de tres meses después de su sanción,
-terminando con este motivo todos los miembros del actual Directorio.
-Art. 4° — Las jubilaciones y pensiones decretadas hasta la fecha de
-la promulgación de la presente ley, serán liquidadas en adelante de acuerdo
+devolucion de sus aportes o jubilacion.
+Art. 3° — La primera elecciôn de
+los Directores
+por virtud
+de
+esta
+ley,
+se efectuard en el plazo mdximo de très meses después de su sanciôn,
+terminando
+con este motivo todos los miembros del actual Directorio.
+Art. 4° — Las jubilaciones y pensiones decretadas
+hasta
+la fecha de
+la promulgaciôn de la presente ley, serdn liquidadas en adelante de acuerdo
 a las modificaciones que en la misma se establece.
-Art. 5° — Autorízase al Directorio de la Caja para invertir hasta la
-suma de un millón de pesos moneda nacional (1.000.000 $ m/n.) en la ad-
-quisición de terreno y construcción de edificio en la Capital Federal.
-Art. 6° — Comuníquese al Poder Ejecutivo.
-
-Dada en la Sala de Sesiones del Congreso Argentino, en Buenos Aires a veinticuatro de
+Art. 5° ■— Autorizase al Directorio de la Caja para invertir hasta la
+suma de un millôn de pesos moneda nacional (1.000.000 $ mjn.)
+en la ad-
+quisiciôn de terreno y construcciôn de edificio en la Capital Federal.
+Art. 6° — Comuniquese al Poder Ejecutivo.
+Dada en la Sala de Sesiones del Congreso Argentino, en Buenos Aires
+a veinticuatro de
 noviembre de mil novecientos veintitrés.
-
-<br>
-
-<p style="text-align:left">ELPIDIO GONZÁLEZ.</p>
-<p style="text-align:left">Adolfo J. Labougle.</p>
-
-<p style="text-align:right">R. PEREYRA ROZAS.</p>
-<p style="text-align:right">Carlos G. Bonorino.</p>
-
+Elpidio Gonzalez.
+B. Phreyra Eozas.
+Adolfo J. Labougle.
+Carlos G. Bonorino.
 Registrada bajo el N° 11308.
-
-POR TANTO:
-
-Cúmplase, comuníquese, publíquese, insértese en el Registro Nacional
-y archívese.
-
-<p style="text-align:right">ALVEAR.</p>
-<p style="text-align:right">EUFRACIO S. LOZA.</p>
+Por tanto:
+Cümplase, comuniquese, publiquese, insértese en el Registro Nacional
+y arcMvese.
+ALVEAR.
+Eufracio
+S. Loza.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that meet the criteria for cropping. The page contains only text."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 303
 

@@ -77,70 +77,143 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 455
+
 ## Page Metadata
-- Page number: 435
-- Header: ALEJANDRO FUENZALIDA GRANDÓN
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json`
+- Source page: 455
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/page-images/page-0455.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a running header at the top. The main body text is followed by two paragraphs in a smaller font, indented, with the last one also italicized.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-ALEJANDRO FUENZALIDA GRANDÓN 435
 
-Hai planta para 3,000 toneladas i la contracción
-alcanza casi a 77° u 80% por la acción del aire com-
-primido.
-
-La producción diaria de todos los concentrados
-es 350 toneladas. El término medio es: cobre de
-22%; fierro, 23%; sulfuro, 28%; sílice, 17%; alúmi-
-na 8%.
-
-Todas las maquinarias de la concentración es-
-tán instaladas en un gran edificio de acero de 325
-pies de largo por 270 de ancho, i dispuesto en la
-misma forma que el edificio destinado a las
-chancadoras.
-
-§ 4 El trabajo de «colas» en agua dulce.— Es digno de
-darse a conocer el trabajo que se efectúa en agua
-dulce. Este tiene por objeto filtrar las «colas»
-que vienen del concentrador, fin de que los resi-
-duos queden en la gran represa para aquéllas, i pase
-el agua limpia al río Coya.
-
-Se evita así el perjuicio que podrían ocasionar
-en los campos cultivados las aguas contami-
-nadas.
-
-También tiene otro objeto más práctico: benefi-
-ciar las «colas» trayendo las espumas que han ve-
-nido en ellas. Un ferrocarril eléctrico las lleva
-hasta «La Junta», en donde las toma el ferroca-
-rril a vapor a fin de subirlas a los «buzones» de mate-
-riales para la fundición. Diariamente se colocan
-25 toneladas con lei de 11% de cobre.
-— — —
-de la flotación estriba en el hecho de que es un procedimiento
-por cuyo medio las partículas de mineral valioso, demasiado finas pa-
-ra la concentración eficaz por gravedad, son aprovechadas con altos
-porcentajes de rendimiento».
-*Metallurgical and Chemical Engineering*. New York, N.º del 1.º de
+```markdown
+ALEJANDRO FUENZALIDA GRANDÓN 
+435 
+Hai planta para 3,000 toneladas 1 la contración 
+alcanza casi a 77% u 809% por la acción del aire com- 
+primido. 
+La producción diaria de todos 
+los concentrados 
+es 350 toneladas. El término 
+medio 
+es: 
+cobre 
+de 
+ao erro, 237/09 súlturo, 28%; sílice, 17%; alúmi- 
+na 8%. 
+Todas 
+las maquinarias 
+de la 
+concentración es- 
+tán instaladas en un gran edificio de acero de 325 
+pies de largo por 270 de ancho, i dispuesto 
+en la 
+misma 
+forma 
+que 
+el 
+edificio 
+destinado 
+a 
+las 
+chancadoras. 
+S 4 El trabajo de «colas» en agua dulce.—Es digno de 
+darse a conocer 
+el trabajo que se efectúa en agua 
+dulce. 
+Este tiene 
+por 
+objeto 
+filtrar 
+las «colas» 
+que vienen del concentrador, 
+fin de que 
+los resi- 
+duos queden en la gran represa para aquéllas, 1 pase 
+el agua limpia al río Coya. 
+Se evita así el perjuicio 
+que podrían ocasionar 
+en los 
+campos 
+cultivados 
+las 
+aguas 
+contami- 
+nadas. 
+También tiene otro objeto más práctico: benefi- 
+clar las «colas» trayendo las espumas 
+que han ve- 
+nido en 
+ellas. Un 
+ferrocarril eléctrico 
+las 
+lleva 
+hasta «La Junta», 
+en donde las toma 
+el 
+ferroca- 
+rril a vapor a fin desubirlas a los «buzones» de mate- 
+riales 
+para 
+la fundición. 
+Diariamente 
+se 
+colocan 
+25 toneladas 
+con lei de 11% de cobre. 
+de 
+la 
+flotación 
+estriba 
+en 
+elhecho 
+de que es .un procedimiento 
+por cuyo medio las partículas de mineral valioso, demasiado finas pa- 
+la la concentración eficaz por gravedad, son aprovechadas con altos 
+porcentajes de rendimiento». 
+Metallurgical and Chemical Engineering, 
+New York, N.% del 1.2 de 
 Noviembre de 1916).
+```
 
 ## Images, Captions, And Visual Notes
-None.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 436
@@ -206,62 +279,144 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 ```
 
+# Page 457
+
 ## Page Metadata
-Page number: 437
-Running header: ALEJANDRO FUENZALIDA GRANDÓN
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json`
+- Source page: 457
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/page-images/page-0457.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The running header is at the top, with the author's name on the left and the page number on the right. The main content is a continuous block of text, divided into paragraphs, with one section explicitly numbered.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-ALEJANDRO FUENZALIDA GRANDÓN 437
-
-El humo i polvos finos que salen de los hornos,
-pasan a las grandes cámaras o cajas de humo. Es-
-tas son cónicas en su parte inferior; lo que per-
-mite acumular el polvo que es depositado por me-
-dio de compuertas inclinadas, i que se conglomera
-de nuevo por un sistema especial («Sintering»), vol-
-viendo a los hornos para su fundición. El eje que
-se obtiene de los hornos posee, mas o menos, de 38
-a 44% de cobre.
-La sangría de los hornos se hace en un gran crisol
-en el cual se deposita el eje para ser conducido en
-seguida a los «convertidores.»
-
-§ 7. Los _convertidores_.—Hai instalados 3 con-
-vertidores, modelo «Pierce Smith», dos de capaci-
-dad de 40 toneladas, i uno de 20. Siempre trabajan
-dos i queda uno de reserva.
-El forro interior de los convertidores es de la-
-drillo de magnesio adherido con una mezcla es-
-pecial. A uno de sus lados tiene tubos o «troneras»
-para la introducción del aire comprimido.
-El convertidor, previamente calentado con un
-soplete de aceite, recibe el eje del crisol. Una vez
-formadas las escorias, se tumba el convertidor por
-medio de fuerza hidrostática para dar salida a
-éstas, las que son recibidas en carros cónicos especia-
-les arrastrados por una locomotora a vapor. La
-escorias son llevadas a las «canchas» donde se de-
-positan para que, una vez enfriadas, se puedan
-trasportar por un elevador hasta el piso de los hor-
-nos.
-Las escorias—que son mui buen fundente—
-contienen de 2 a 2½% de cobre. Quitadas las esco-
+```markdown
+"ALEJANDRO FUENZALIDA GRANDÓN 
+437" 
+e 
+El humo í polvos finos que'salen de los hornos, 
+pasan a las grandes cámaras 
+o cajas de humo. Es- 
+tas son cónicas 
+en 
+su. parte 
+inferior; lo que per- 
+mite acumular el polvo que es depositado 
+por me- 
+dio de compuertas inclinadas, i que se conglomera 
+de nuevo por un sistema especial («Sintering»), vol- 
+viendo a los hornos para su fundición. El eje que 
+se obtiene de los hornos 
+posee, mas o menos, de 38 
+a 44% de cobre. 
+La sangría de los hornos se hace en un gran crisol 
+en el cual se deposita el eje para ser conducido en 
+seguida 
+a 
+los 
+«convertidores.» 
+; 
+S 7. 
+Los convertidores. 
+—Hai instalados 
+3 con- 
+vertidores, 
+modelo 
+«Pierce 
+Smith», 
+dos de capaci- 
+dad de 40 toneladas, 1 uno de 20. Siempre trabajan 
+dos 1 queda uno de reserva. 
+| 
+El forro interior de los 
+convertidores 
+es de la- 
+drillo 
+de magnesio 
+adherido 
+con 
+una 
+mezcla 
+es- 
+pecial. Á uno de sus lados tiene tubos o «troneras» 
+para la introducción 
+del aire comprimido. 
+El convertidor, 
+previamente 
+calentado 
+con 
+un 
+soplete de aceite, recibe el eje del crisol. Una vez 
+formadas 
+las escorias,se tumba el convertidor 
+por 
+medio de 
+fuerza 
+hidrostática” 
+para 
+dar salida 
+a 
+éstas, las que son recibidas en carros cónicos 
+especia- 
+les arrastrados 
+por 
+una locomotora 
+a vapor. 
+La 
+escorias son llevadas 
+a las «canchas» donde se de- 
+positan para 
+que, 
+una 
+vez 
+enfriadas, 
+se puedan 
+trasportar por un elevador hasta el piso de los hor- 
+IS 
+Las escorias—que 
+son 
+mui 
+buen 
+fundente-— 
+contienen de 2 a 29% de cobre. Quitadas las esco-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The page ends mid-sentence.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 438
@@ -534,63 +689,117 @@ All visible text and the main image with its caption have been transcribed and d
 }
 ```
 
+# Page 463
+
 ## Page Metadata
-- Page number: 463
-- Source publication: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json`
+- Source page: 463
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/page-images/page-0463.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text with a running header. The header contains the author's name on the left and the page number on the right. The main content is a continuous block of text, divided into paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-ALEJANDRO FUENZALIDA GRANDÓN 443
-
-canal va bordeando los cerros hasta llegar frente
-a Coya a una considerable altura.
-Cuatro grandes cañones de 48" de diámetro con-
-ducen el agua a las turbinas Pelton Francis de una
-potencia de 8,000 Kw., enerjía trasmitida, como
-dijimos, en una estensión de 28 kilómetros, entre
-tres alambres soportados en sólidas torres de ace-
-ro, de las cuales hai 52 hasta llegar a la sub-esta-
-ción de Sewell.
-La planta hidroeléctrica trabajó en la «Casa de
-Fuerza» de Coya a 35% de sobrecarga en el año de
-1917, que fué mantenida hasta Agosto; época en
-que se agregaron jeneradores, maquinarias e ins-
-talaciones nuevas de 4,000 Kilowats más. Se ha cons-
-truido en el mineral «El Teniente», una poderosa sub-es-
-tación subterránea por medio de 4 compresoras de ai-
-re directamente conectadas, de 5,000 pies cúbi-
-cos de capacidad cada una. Un gran túnel para tren
-eléctrico está por terminarse próximamente. Una
-nueva casa de fuerza de 12,000 Klws. efectivos es-
-tá en construcción en el Pangal, afluente del Cacha-
-poal, i se calcula terminarla en el mes de Mayo
-de 1919.
-La fuerza máxima electro-motriz de todo el Mi-
-neral, en sus diversas instalaciones, en la actualidad,
-alcanza a un voltaje de 33,000 Kilowats.
-El conjunto de maquinarias de las poderosas
-instalaciones del mineral está representado por las
-cifras siguientes que son mui sujerentes: Se em-
-plean 3 calderas de 208 HP.; 6 motores hidro-eléc-
-tricos de 33,000 HP.; 66 máquinas de chanca i mo-
-lienda: 99 máquinas de concentración; 2) compre-
+```markdown
+ALEJANDRO FUENZALIDA GRANDÓN 
+443 
+canal va bordeando 
+los cerros 
+hasta llegar frente 
+a Coya a una considerable 
+altura. 
+Cuatro grandes cañones de 48” de diámetro con- 
+ducen el agua a las turbinas Pelton Francis de una 
+potencia de 8,000 
+Kw., enerjía 
+trasmitida, 
+como 
+dijimos, en una estensión de 28 kilómetros, 
+entre 
+tres alambres soportados en sólidas torres de ace- 
+ro, de las cuales hai 52 hasta llegar a la sub-esta- 
+ción de Sewell. 
+La planta hidroeléctrica trabajó en la «Casa de 
+Fuerza» de Coya a 35% desobrecarga en el año de 
+1917, que fué mantenida 
+hasta Agosto; época en 
+que se agregaron jeneradores, 
+maquinarias 
+e 1ns- 
+talaciones nuevas de 4,000 Kilowats más. Se ha cons- 
+truído en el mineral «El Teniente», 
+una poderosa sub-es- 
+tación subterranea por medio de 4 compresoras de al- 
+re directamente 
+conectadas, 
+de 5,000 
+pies 
+cúbl- 
+cos de capacidad cada una. Un gran túnel para tren 
+eléctrico 
+está por terminarse próximamente. 
+Una 
+nueva casa de fuerza de 12,000 Klws. efectivos 
+es- 
+tá en construcción en el Pangal, afluente del Cacha- 
+poal, 1 se calcula 
+terminarla en el mes de Mayo 
+de 1919. 
+La fuerza máxima electro-motriz de todo el Mi- 
+neral, en sus diversas instalaciones, en la actualidad, 
+alcanza a un voltaje de 33,000 
+Kilowats. 
+El conjunto 
+de maquinarias 
+de-las 
+poderosas 
+instalaciones 
+del mineral está representado por las 
+cifras signientes 
+que son 
+mul sujerentes: 
+Se em- 
+plean 3 calderas de 208 HP.: 6 motores hidro-eléc- 
+tricos de 33,000 HP.; 66 máquinas de chanca 1 mo- 
+lienda; 99 máquinas de concentración; 20 compre-
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last line of the page is cut off, ending with "2) compre-".
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual content."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 464

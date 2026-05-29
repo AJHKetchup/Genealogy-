@@ -1,0 +1,101 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-4ab84d92929e-P0362-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378.codex.md
+converted_sha256: 4ab84d92929ec9719f2a9c201d8866523de00e6c3c836fd5f3f6b09a527f9600
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json
+page_start: 362
+page_end: 362
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 362
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0362.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+342 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+pechoso en sus doctrinas. Estos eran motivos más 
+que sobrados para emprender 
+.el proyectado viaje a 
+Europa 1, obtenidas las letras testimoniales, dispuso 
+sin demora lo necesario para realizarlo con felicidad. 
+Don Ramón Luis Irarrázaval, que había llegado ha- 
+cía pocos meses de su misión en Roma, le dió cartas 
+de recomendación para varios personajes europeos, 
+1 para algunas casas de comercio. 
+Antes de su partida envió al arzobispo, como re- 
+cuerdo suyo, 
+un valioso reclinatorio, obsequio que 
+simbolizaba bien su agradecimiento por el sincero 
+cariño que le había demostrado cuando tantos cen- 
+suraban sus actos públicos. 
+XX 
+Itinerario de su viaje 
+Su partida de Valparaíso debió ser a mediados del 
+mes de Marzo de 1852. El viaje lo emprendió en di- 
+rección al istmo, sin otras escalas que las que forzo- 
+samente hacía el vapor en los puertos donde tocaba. 
+De las ciudades del tránsito ya conocía las más im- 
+portantes. por haberlas visitado en-su viaje a Lima 
+a fines de 1850. Durante ese viaje fué sin duda cuan- 
+do presenció en Iquique las fiestas de la Inmaculada 
+Concepcion (8 de Diciembre) 
+de que habla en su 
+obra: El Catolicismo en presencia de sus disidentes. 
+A mediados de Abril llegaba a Panamá 1 atrave- 
+sando el istmo, se embarcó para Cuba. De esta 
+isla 
+pasó a Estado Unidos donde visitó a Charlestown, Bal- 
+timore, Nueva York y Bútfalo. 
+iy 
+].
+e:
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 363

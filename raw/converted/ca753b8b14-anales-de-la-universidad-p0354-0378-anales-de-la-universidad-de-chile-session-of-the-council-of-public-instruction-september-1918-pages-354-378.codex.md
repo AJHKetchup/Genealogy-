@@ -102,172 +102,268 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 355
+
 ## Page Metadata
-- Page number: 335
-- Header: CARLOS SILVA COTAPOS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 355
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0355.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text. The reading order is from top to bottom, following standard Western reading conventions. The page begins with a continuation of a previous section, followed by a new section marked with a Roman numeral and a sub-heading.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-CARLOS SILVA COTAPOS 335
-canonjía, sintióse herido en su dignidad por tal in-
-sinuación, pues la consideró como un intento de co-
-hecho, i hubo de continuar asistiendo i figurando
-como resuelto opositor; i su casa era el punto de
-reunión de algunos diputados que trataban de pro-
-poner una reforma constitucional, con la cual Eiza-
-guirre simpatizaba.
 
-§ XVII
-
-Viaje a Lima
-
-En Julio de 1850, pensando que ya no podía sos-
-pecharse de su lealtad al partido, proyectó un viaje
-al Perú que el doctor Padín le había aconsejado para
-curarse de cierta afección a la garganta; pero ha-
-biendo fallecido el 4 de Agosto siguiente su tío el
-deán don Alejo Eizaguirre, que le dejaba de albacea,
-el viaje se fué demorando hasta fines del año, i sólo
-pudo realizarlo en el mes de Diciembre.
-La situación política de Chile durante estos últi-
-mos meses de 1850 había sido tan turbulenta, a causa
-de la gran oposición que se hacía a la candidatura
-presidencial de don Manuel Montt, que el gobierno,
-después del motín de San Felipe i las manifestacio-
-nes públicas de la *Sociedad de la Igualdad*, se había
-visto obligado a declarar en estado de sitio, por se-
-tenta días, a las provincias de Santiago i Aconcagua.
-Todos éstos eran motivos para que Eizaguirre sa-
-liera del país.
-Su permanencia en Lima duró unos veinte días,
-más o menos; pues el 23 de Enero de 1851 ya estuvo
+```markdown
+CARLOS SILVA COTAPOS 
+ze 
+335 
+canonjía, sintióse herido en su dignidad por tal 1n- 
+sinuación, pues la consideró como un intento de co- 
+hecho, i hubo de continuar 
+asistiendo 1 figurando 
+como resuelto opositor; 1 su casa era el punto de 
+reunión de algunos diputados que trataban de pro- 
+poner una reforma constitucional, con la cual Kiza- 
+sulrre simpatizaba. 
+ó 
+S XVII 
+Viaje a Lima 
+En Julio de 1850, pensando que va no podía sos- 
+pecharse: de su lealtad al partido, proyectó un viaje 
+al Perú que el doctor Padín le habia aconsejado para 
+curarse de cierta afección 
+a la garganta; pero ha- 
+biendo fallecido el 4 de Agosto siguiente su tío. el 
+deán don Alejo Eizaguirre, que le dejaba de albacea, 
+el viaje se fué demorando hasta fines del año, 1 sólo 
+pudo realizarlo en el mes de Diciembre. 
+La situación política de Chile durante estos últi- 
+mos meses de 1850 había sido tan turbulenta, a causa 
+de la gran oposición que se hacía a la candidatura 
+presidencial de don Manuel Montt, que el gobierno, 
+después del motín de San Felipe 1 las manifestacio- 
+nes públicas de la Sociedad «de la Equaldad. se había 
+visto obligado a declarar en estado 
+de sitio, por se- 
+tenta días, 2 las provincias de Santiago 1 Aconcagua. 
+Todos éstos eran motivos para que Eizaguirre sa- 
+liera del país. 
+Su permanencia en Lima duró unos 
+veinte días, 
+más o menos; pues el 23 de nero de 1851 ya estuvo 
 de regreso en Santiago. Su residencia en la capital
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 356
 
 ## Page Metadata
-Page number: 336
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 356
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0356.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a running header, a page number, and several paragraphs of text. There is a section marker "§ XVIII" followed by a sub-heading, and then more body text. The content flows in a single column.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-336 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-del Perú no había sido una ociosa excursión de ve-
-raneo, pues consta que repetidas veces predicó en
-la iglesia del Espíritu Santo.
-    A su regreso de Lima halló impresa ya i encuader-
-nada su *Historia de Chile*, que veía la luz pública
-favorecida con un prólogo del ilustre jeneral e his-
-toriador don Bartolomé Mitre.
-
-§ XVIII
-
-Es sindicado de revolucionario
-
-    La suspensión del estado de sitio que el gobierno
-decretó aun antes que expiraran los setenta días por-
-que fué proclamado, debieron influir en el pronto
-regreso de Eizaguirre, haciéndole creer que Chile re-
-cobraba su habitual tranquilidad. Pero no había sido
-así. La oposición seguía más ardorosa que nunca
-contra Montt: i la proclamación de la candidatura
-del jeneral Cruz, jefe del ejército de la frontera arau-
-cana, vino a revelar al país que los opositores, por
-no retroceder en su empeño de cerrar el paso al can-
-didato oficial, acudirían a la revuelta armada si era
-preciso.
-    Muchos eran, pues, los temores de revolución i
-muchos los sindicados de estar tramándola. El mis-
-mo Eizaguirre se vió acusado por *El Diario*, que pu-
-blicaba en Valparaiso don Juan Carlos Gómez, de
-intervenir en manejos revolucionarios, con motivo
-de cierto viaje que había hecho al fundo de Tango
-a predicar una misión. Para sincerarse le fué preciso
+```markdown
+336 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+del Perú no había sido una ociosa excursión de ve- 
+raneo, 
+pues consta que repetidas veces predicó en 
+la iglesia del Espíritu Santo. 
+| 
+A su regreso de Lima halló impresa ya 1 encuader- 
+nada su Historia de Chile, que veía la luz pública 
+favorecida con un prólogo del ilustre jeneral e his- 
+toriador don Bartolomé Mitre. 
+SAA 
+Es sindicado de revolucionario 
+La suspeusión del estado de sitio'que el gobierno 
+decretó aun antes que expiraran los setenta días por- 
+que fué proclamado, debieron influir en el pronto 
+regreso de Hizaguirre, haciéndole creer que Chile re- 
+cobraba 'su habitual tranquilidad. Pero no había sido 
+así. La oposición seguía más ardorosa que'nunca 
+contra Montt; 1 la proclamación de la candidatura 
+del jeneral Cruz, jefe del ejército de la frontera arau- 
+cama, vino a revelar al pais que los opositores, por 
+no retroceder en su empeño de cerrar el paso al can- 
+didato oficial, acudirían a la revuelta armada si era 
+preciso. 
+: 
+Muchos 
+eran, pues, los temores 
+de revolución 1 
+muchos los sindigados de estar tramándola. El mis- 
+mo Hizaguirre se vió acusado por El Diario, que pu- 
+blicaba en Valparaiso don Juan Carlos Gómez, de 
+Mtervenir 
+en manejos revolucionarios, con motivo 
+de cierto viaje que había hecho al fundo de Tango 
+a predicar una misión. Para sincerarse le fué preciso 
 obtener cartas de las personas con quienes había tra-
+```
 
 ## Images, Captions, And Visual Notes
-No images or captions are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 357
 
 ## Page Metadata
-Page number: 337
-Running header: CARLOS SILVA COTAPOS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 357
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0357.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a running header at the top. The text is divided into paragraphs, with a section heading "§ XIX" and a sub-heading. A footer is present at the bottom left.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-CARLOS SILVA COTAPOS 337
-
-tado en su viaje, las cuales dijeron que Eizaguirre
-se había limitado al ejercicio de su ministerio, i a
-una que otra visita a personas amigas, libres de toda
-sospecha (Febrero de 1851).
-Pero como la ajitación política continuaba aumen-
-tando por grados hasta estallar, el 20 de Abril, la
-sedición del batallón Valdivia, Eizaguirre continua-
-ba sintiéndose incomodado en Santiago i, para evi-
-tarse molestias i ejercer en paz su ministerio, se tras-
-ladó por tres meses a la Serena, cuya sede episcopal
-era ocupada por su viejo amigo don Justo Donoso
-(Abril a Julio de 1851).
-La candidatura Montt triunfó, a pesar de la en-
-carnizada oposición que se le hacía por el partido
-liberal i una importante fracción conservadora. Los
-vencidos no se resignaron con su derrota i acudieron
-a las armas acaudillados por el jeneral Cruz. La suer-
-te continuó siéndoles adversa: pues perdieron la san-
-grienta batalla de Loncomilla (8 de Diciembre de
-1851), en que fué destruido el ejército de Cruz. Con
-esto el país recobró la tranquilidad.
-
-§ XIX
-
-**Decide viajar a Europa.—Incidente con el**
-**arzobispo Valdivieso**
-
-Mas para Eizaguirre no sucedió lo mismo. El triun-
-fo de Montt significaba el fin de su carrera política
-por largos años. Como no desempeñaba ningún cargo
-eclesiástico que exijiera residencia, i a fuer de chi-
-leno gustaba de viajar i tenía fortuna suficiente para
-7.—ANALEs.—SEPTIEMBRE.—OCTUBRE
+```markdown
+CARLOS SILVA COTAPOS 
+337 
+tado en su viaje, las cuales dijeron que Hizaguirre 
+se había limitado al ejercicio de su ministerio, 1 a 
+una que otra visita a personas amigas, libres de toda 
+sospecha (Febrero de 1851). 
+Pero como la ajitación política continuaba aumen- 
+tando por grados hasta estallar, el 20 de Abril, la 
+sedición del batallón Valdivia, Eizaguirre continua- 
+ba sintiéndose incomodado en Santiago 1, para evi- 
+tarse molestias 1 ejercer en paz su ministerio, se tras- 
+ladó por tres meses a la Serena, cuya sede episcopal 
+era ocupada por su viejo amigo don Justo Donoso 
+(Abril a Julio de 1851). 
+La candidatura Montt triunfó, a pesar de la en- 
+carnizada oposición que se le hacía por el partido 
+liberal 1 una importante fracción conservadora. Los 
+vencidos no se resignaron con su derrota 1 acudieron 
+a las armas acaudillados por el jeneral Cruz. La suer- 
+te continuó siéndoles adversa; pues perdieron la san- 
+grienta batalla de Loncomilla (8 de Diciembre de 
+1851), en que fué. destruido el ejército de Cruz. Con 
+esto el país recobró la tranquilidad. 
+S XIX 
+Decide viajar 
+a Europa.—Incidente con el 
+arzobispo 
+Valdivieso 
+Mas para Eizaguirre no sucedió lo mismo. El triun- 
+to de Montt significaba el fin de su carrera política 
+por largos años. Como no desempeñaba ningún cargo 
+eclesiástico que exijiera residencia, 1 a fuer de chi- 
+leno gustaba de viajar 1 tenía fortuna suficiente para 
+7-—ÁXALES.- SETIEMBRE 
+.- OCTUBRE
+```
 
 ## Images, Captions, And Visual Notes
-None.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 358
 
@@ -636,64 +732,94 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 362
+
 ## Page Metadata
-Page number: 342
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 362
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0362.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The content begins with a continuation of a narrative, followed by a section heading and then more narrative text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-342 MEMORIAS CIENTÍFICAS I LITERARIAS
-___
-
-pechoso en sus doctrinas. Estos eran motivos más
-que sobrados para emprender el proyectado viaje a
-Europa i, obtenidas las letras testimoniales, dispuso
-sin demora lo necesario para realizarlo con felicidad.
-Don Ramón Luis Irarrázaval, que había llegado ha-
-cía pocos meses de su misión en Roma, le dió cartas
-de recomendación para varios personajes europeos,
-i para algunas casas de comercio.
-
-Antes de su partida envió al arzobispo, como re-
-cuerdo suyo, un valioso reclinatorio, obsequio que
-simbolizaba bien su agradecimiento por el sincero
-cariño que le había demostrado cuando tantos cen-
-suraban sus actos públicos.
-
-§ XX
-
-Itinerario de su viaje
-
-Su partida de Valparaíso debió ser a mediados del
-mes de Marzo de 1852. El viaje lo emprendió en di-
-rección al istmo, sin otras escalas que las que forzo-
-samente hacía el vapor en los puertos donde tocaba.
-De las ciudades del tránsito ya conocía las más im-
-portantes, por haberlas visitado en su viaje a Lima
-a fines de 1850. Durante ese viaje fué sin duda cuan-
-do presenció en Iquique las fiestas de la Inmaculada
-Concepcion (8 de Diciembre) de que habla en su
-obra: *El Catolicismo en presencia de sus disidentes*.
-
-A mediados de Abril llegaba a Panamá i atrave-
-sando el istmo, se embarcó para Cuba. De esta isla
-pasó a Estado Unidos donde visitó a Charlestown, Bal-
-timore, Nueva York y Búffalo.
+```markdown
+342 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+pechoso en sus doctrinas. Estos eran motivos más 
+que sobrados para emprender 
+.el proyectado viaje a 
+Europa 1, obtenidas las letras testimoniales, dispuso 
+sin demora lo necesario para realizarlo con felicidad. 
+Don Ramón Luis Irarrázaval, que había llegado ha- 
+cía pocos meses de su misión en Roma, le dió cartas 
+de recomendación para varios personajes europeos, 
+1 para algunas casas de comercio. 
+Antes de su partida envió al arzobispo, como re- 
+cuerdo suyo, 
+un valioso reclinatorio, obsequio que 
+simbolizaba bien su agradecimiento por el sincero 
+cariño que le había demostrado cuando tantos cen- 
+suraban sus actos públicos. 
+XX 
+Itinerario de su viaje 
+Su partida de Valparaíso debió ser a mediados del 
+mes de Marzo de 1852. El viaje lo emprendió en di- 
+rección al istmo, sin otras escalas que las que forzo- 
+samente hacía el vapor en los puertos donde tocaba. 
+De las ciudades del tránsito ya conocía las más im- 
+portantes. por haberlas visitado en-su viaje a Lima 
+a fines de 1850. Durante ese viaje fué sin duda cuan- 
+do presenció en Iquique las fiestas de la Inmaculada 
+Concepcion (8 de Diciembre) 
+de que habla en su 
+obra: El Catolicismo en presencia de sus disidentes. 
+A mediados de Abril llegaba a Panamá 1 atrave- 
+sando el istmo, se embarcó para Cuba. De esta 
+isla 
+pasó a Estado Unidos donde visitó a Charlestown, Bal- 
+timore, Nueva York y Bútfalo. 
+iy 
+].
+e:
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 363
 
@@ -783,125 +909,185 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Page Metadata
-Page number: 344
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
-
-## Layout And Reading Order
-The page consists of a single column of text. It begins with a continuation of a previous paragraph, followed by a section number, a sub-heading, and then several paragraphs of main text.
-
-## Literal Transcription
-terra i Tierra Santa. Por Octubre volvió a Roma i,
-pasados seis meses, se trasladó una vez más a París,
-en viaje para regresar a América.
-
-§ XXI
-
-Estudios i publicaciones en Europa
-
-Todos estos viajes no fueron hechos para satisfa-
-cer la vana curiosidad de un mero turista, sino apro-
-vechados en estudiar los paises que recorría, princi-
-palmente en lo relacionado con la relijión, como con-
-venía a un sacerdote instruido i piadoso.
-Su primera permanencia en París la aprovechó
-Eizaguirre para trabar relaciones con la dirección del
-importante diario católico *L'Univers*. entonces en
-todo su auje, gracias a la pluma de su principal re-
-dactor el jenial periodista Luis Veuillot. Dióles no-
-ticia de su *Historia de Chile*, que no tardó por su
-medio en ser bastante conocida en Europa. A fines de
-1853 el presbítero Du Lac, director de *L'Univers*, le es-
-cribía que una persona distinguida deseaba tener un
-ejemplar de esa historia para traducirla al alemán;
-i dos años después se publicaba en Lila la traducción
-francesa de la misma, hecha por Mr. Poillon.
-«Mr. Eizaguirre, decía el *Univers* en su número
-de 1.º de Setiembre de 1855, ha merecido bien de
-su pais i de los aficionados a los estudios serios, por
-su docta i concienzuda *Historia de Chile*. I así era
-en efecto. Nuestra patria hasta estos últimos tiempos
-tan poco conocida de los europeos, era entonces, pue-
-de decirse, ignorada en absoluto. Hacía por lo tanto
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected."}
+# Page 364
 
 ## Page Metadata
+
 - Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
-- Page: 365
-- Page type: `body`
-- Page number: `365`
-- Section: `CARLOS SILVA COTAFOS`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 364
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0364.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a running head with the author's name and page number, followed by a continuation of a paragraph from the previous page. Below this, there is a section heading `§ XXII`, a sub-heading in quotes, and then several paragraphs of body text. The text flows in a single column.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-CARLOS SILVA COTAFOS
-365
-
-obra patriótica Eizaguirre dando a conocer su his-
-toria i procurando que los hombres de letras se preo-
-cupasen de este lejano rincón del mundo.
-
-§ XXII
-
-«El Catolicismo en presencia de sus disidentes»
-
-Pero el deseo de divulgar su _Historia de Chile_, no
-fué el principal objeto de sus frecuentes viajes a
-París. Atraíale a esta ciudad la publicación de una
-nueva obra, fruto de sus largos viajes, i en cuya com-
-posición había consumido los muchos ocios de sus
-navegaciones por mares i ríos, i las estadías en los
-hoteles i hospederías de cuatro continentes. Esta
-obra era _El Catolicismo en presencia de sus disiden-
-tes_. Este título basta para comprender que Eizagui-
-rre, a fuer de sacerdote ilustrado i activo, no había
-perdido su tiempo en satisfacer la curiosidad de ver
-países nuevos, sino ocupado su actividad en prepa-
-rar un libro útil para la iglesia católica de la cual
-era dignísimo ministro.
-
-Casi todos los que saben manejar un poco la plu-
-ma cuando viajan escriben sus viajes o sus impre-
-siones de viaje. Eizaguirre hizo esto mismo: descri-
-bió los países que había recorrido, i refirió lo que le
-había ocurrido; pero, sin limitarse a esto sólo. estu-
-dió también la situación del catolicismo i de las sec-
-tas disidentes en esos países.
-
-He aquí cómo espone él mismo el fin que se pro-
-puso al escribir su Catolicismo:
-
-«¿Cuál es el pensamiento dominante hoi en la so-
-ciedad?
+```markdown
+344 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+eezéáéz>zás» 
+terra 1 Tierra Santa. Por Octubre volvió a Roma i, 
+pasados seis meses, se trasladó una vez más a París, 
+en viaje para regresar a América. 
+NOA! 
+* 
+Estudios 1 publicaciones en Europa 
+Todos estos viajes no fueron hechos para satisfa- 
+cer la vana curiosidad de un mero turista, sino apro- 
+vechados en estudiar los paises que recorría, princi- 
+palmente en lo relacionado con la relijión, como con- 
+venía a un sacerdote instruido 1 piadoso. 
+Su primera permanencia 
+en París la aprovechó 
+Kizaguirre para trabar relaciones con la dirección del 
+importante 
+diario 
+católico 
+L* Univers, 
+entonces 
+en 
+todo su auje, gracias a la pluma de su principal re- 
+dactor el jenial periodista Luis Veuillot. Dióles no- 
+ticia de su Historia de Chile, que no tardó por su 
+medio enser bastante conocida en Europa. A fines de” 
+1853 el presbítero Du Lac, director de L*'Unwers. le es- 
+cribía que una persona distinguida deseaba tener un 
+ejemplar de esa historia para traducirla al alemán; - 
+1 dos años después se publicaba en Lila la traducción 
+- 
+trancesa de la misma, hecha por Mr. Poillon. 
+3 
+«Mr. Eizaguirre, decia el Uniwers 
+en su número * 
+de 1.2 de Setiembre de 1855, ha merecido bien de - 
+su país 1 de los aficionados a los estudios serios, por ' 
+su docta 1 concienzuda Historia de Chile». Y así era | 
+en efecto. Nuestra patria hasta estos últimos tiempos ' 
+tan poco conocida de los europeos, era entonces, pue- 
+pe decirse, ignorada en absoluto. Hacía por lo tanto:
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual content to extract."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 365
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 365
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0365.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+CARLOS SILVA COTAPOS 
+n45 
+obra patriótica Eizaguirre dando a conocer su his- 
+toria 1 procurando que los hombres de letras se preo- 
+cupasen de este lejano rincón del mundo. 
+Ss XXIT 
+«El Catolicismo en presencia de sus disidentes» 
+Pero el deseo de divulgar su Historia de Chale, no 
+fué el principal objeto de sus frecuentes 
+viajes a 
+París. Atraíale a esta ciudad la publicación de una 
+nueva obra, fruto de sus largos viajes, 1 en cuya com- 
+posición había consumido los muchos ocios de sus 
+navegaciones por mares 1 ríos, 1 las estadías en los 
+hoteles 
+1 hospederías 
+de cuatro continentes. 
+Esta 
+obra era El Catolicismo en presencia de sus disiden- 
+tes. ste título basta para comprender que Eizagul- 
+rre, a fuer de sacerdote ilustrado 1 activo, no había 
+perdido su tiempo en satisfacer la curiosidad de ver 
+paises nuevos, sino ocupado su actividad en prepa- 
+rar un libro útil para la iglesia católica de la cual 
+era dignísimo ministro. 
+Casi todos los que saben manejar un poco la plu- 
+ma cuando viajan escriben sus viajes o sus impre- 
+siones de viaje. Hizaguirre hizo esto mismo: deseri- 
+bió los paises que había recorrido, i refirió lo que le 
+había ocurrido; pero, sin limitarse a esto sólo, estu- 
+dió también la situación del catolicismo 1 de las sec- 
+tas disidentes en esos países. 
+He aquí cómo espone él mismo el fin que se pro- 
+puso al escribir su Catolicismo: 
+«¿Cuál es el pensamiento dominante hoi en la so- 
+ciedad?
 ```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 366
 
@@ -1152,61 +1338,89 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected."}
 
+# Page 369
+
 ## Page Metadata
-Page number: 349
-Running header: CARLOS SILVA COTAPOS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 369
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0369.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a running header with the author's name on the left and the page number on the right, followed by a single column of text. The text is divided into paragraphs, with a section heading "§ XXIV" and a sub-heading in bold.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-CARLOS SILVA COTAPOS 349
 
-timientos nobles i caballerescos: lejos de estinguir los
-odios que la fatal política ha criado en las familias
-i la sociedad, los fomentan i reaniman para que no
-se pierdan jamás (Lisboa, 24 de Diciembre de 1855)».
-Esta es una buena muestra de las luchas políticas
-de aquel decenio.
-Los viajes que había realizado Eizaguirre por Amé-
-rica i Europa le permitieron comparar el clero latino
-americano i el clero europeo; los seminarios de Euro-
-pa i los de América; los errores que en esta última
-se diseminaban i el peligro de cisma, temido por mu-
-chos desde la emancipación política de las colonias
-españolas.
-De esta comparación había deducido que era pre-
-ciso trabajar en la buena formación del clero ameri-
-cano, para que no se dejase arrastrar por las doctri-
-nas heterodoxas, ni por la jeneral relajación de cos-
-tumbres.
-
-§ XXIV
-
-**Propone al Papa la fundación en Roma de un Semi-**
-**nario Latino Americano**
-
-En tiempo de la reforma luterana el clero alemán
-corría los mismos peligros, i su formación moral de-
-jaba mucho que desear, como lo demostró su jene-
-ral defección en muchos estados alemanes.
-Para poner remedio a tanto mal San Ignacio de
-Loyola fundó en Roma, con mui buen éxito, el año
-1552, el Colegio Jermánico-Húngarico, destinado a
-educar al clero del imperio en las buenas costumbres
-i la sana doctrina católica.
+```markdown
+CARLOS SILVA COTAPOS 
+349 
+timientos nobles 1 caballerescos: lejos de estinguir los 
+odios que la fatal política ha criado en las familias 
+1 la sociedad, los fomentan 1 reaniman para que 1o 
+se pierdan jamás (Lisboa, 24 de Diciembre de 1855)». 
+Esta es una buena muestra de las luchas políticas 
+de aquel decenio. 
+Los viajes que había realizado Hizaguirre por Amé- 
+rica 1 Europa le permitieron comparar el clero latino 
+americano 1 el clero europeo; los seminarios de Kuro- 
+pa 1 los de América; los errores que en esta última 
+se diseminaban 1 el peligro de cisma, temido por mn- 
+chos desde la emancipación política de las colonias 
+españolas. 
+De esta comparación había deducido que era pre- 
+ciso trabajar en la buena formación del clero ameri- 
+cano, para que no se dejase arrastrar por las doctri- 
+nas heterodoxas, ni por la jeneral relajación de eos- 
+tumbres. 
+EIN 
+Propone al Papa la fundación en Roma de un Semi- 
+nario Latino Americano 
+Ein tiempo de la reforma luterana el clero alemán 
+corría los mismos peligros, 1su formación moral de- 
+jaba mucho que desear, como lo demostró su jene- 
+ral defección en muchos estados alemanes. 
+«Para poner remedio a tanto mal San Ignacio de 
+Loyola fundó en Roma, con mui buen éxito, el año 
+1552, el Colejio Jermánico- Hungárico, destinado 
+a 
+educar al clero del imperio en las buenas costumbres 
+1 la sana doctrina católica.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 370
 
@@ -1499,177 +1713,262 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Page Metadata
-- Page number: 353
-- Header: CARLOS SILVA COTAPOS
-
-## Layout And Reading Order
-The page consists of a single column of text. It begins with a header "CARLOS SILVA COTAPOS" and the page number "353". Below this, there is a continuous block of text, followed by a section marker "§ XXV". Another block of text follows, with a bolded sub-heading. The page concludes with a footer "8.—ANALES.—SETIEMBRE.—OCTUBRE".
-
-## Literal Transcription
-CARLOS SILVA COTAPOS 353
-les que allanaban por sí solas la mayor parte de las
-dificultades que la prudencia podía prever. Se obli-
-gaba a recorrer a sus propias expensas la América
-latina entera, en busca de alumnos i de rentas para
-la fundación de becas, i a contribuir con su dinero
-i el de los suyos para los demás gastos que la funda-
-ción requería. Comprometía, pues, él su bolsa i su
-vida; porque no ignoraba los peligros que había de
-correr en su proyectado viaje, de parte de los hom-
-bres i de los malsanos climas tropicales.
-
-§ XXV
-
-**Acepta el Papa la fundación, i Eizaguirre se traslada**
-**a América**
-
-Esta proposición hacíala Eizaguirre en Enero de
-1856. Acojióla el Papa Pío IX con entusiasmo i, por
-medio de una carta del Cardenal Secretario de Es-
-tado, recomendó la obra a los obispos americanos
-diciéndoles que se harían mui aceptos al Soberano
-Pontífice si en el gravísimo negocio de que había de
-hablarles Eizaguirre, varón sobremanera digno de
-alabanza por su piedad, celo relijioso i ciencia, coad-
-yuvasen con todo el interés, trabajo i celo que a cada
-cual fuese posible (22 de Enero de 1856).
-Premunido de esta credencial Eizaguirre se tras-
-ladó a Inglaterra, i el 9 de Abril de 1856 zarpó con
-rumbo a Pernambuco.
-Después de visitar las diócesis del Brasil pasó al
-Uruguai y República Arjentina. De ésta, por la via
-fluvial, se dirijió al Paraguai; i de aquí, por tierra, a
-8.—ANALES.—SETIEMBRE.—OCTUBRE
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
-```
+# Page 373
 
 ## Page Metadata
-Page number: 354
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
 
-## Layout And Reading Order
-The page consists of a running header at the top, followed by a single column of text. The text includes two paragraphs, a section number, a section title, and a final paragraph.
-
-## Literal Transcription
-354 MEMORIAS CIENTÍFICAS I LITERARIAS
-
-Bolivia. De esta república, por la via de Tacna i
-Arica, pasó a Chile. Su permanencia en la patria
-duró pocos meses; pues el 17 de Enero de 1857 habia
-zarpado de Arica para Valparaíso i el 25 de Abril
-llegaba a Lima, después de haber visitado a Are-
-quipa i Cuzco.
-
-Del Callao se trasladó al Ecuador, i de esta repú-
-blica, por Pasto, entró en Colombia. Visitada esta
-nacion se trasladó a Venezuela i, cumplida en ella su
-mision, se embarcó en la Guaira para la isla de Santo
-Tomás, donde tenia su centro la línea de vapores
-que unia la Europa con los puertos de América. En
-dicha isla se distribuian los pasajeros para sus dife-
-rentes destinos. Eizaguirre tomó allí el vapor que
-debia conducirlo a Veracruz para recorrer a Méjico.
-A la capital de esta república llegó en Noviembre,
-i en el mes siguiente pasó a la isla de Cuba. El 25 de
-Enero de 1858 hallábase ya de regreso en Roma, i
-podia dar cuenta del desempeño de su comision al
-Padre Santo.
-
-§ XXVI
-
-Dificultades i peripecias de su viaje por América
-
-Fácil es dar cuenta en pocas líneas de este largo
-itinerario; pero no es igualmente fácil referir las pe-
-nalidades que el viajero soportó. En el Paraguai, que
-jemia bajo el despotismo de don Carlos Antonio Ló-
-pez, nada pudo hacer. En Bolivia tropezó con dos o
-tres revoluciones, tocándole llegar a Oruro cuando
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed. The last word "cuando" appears to be complete at the bottom right of the page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
-
-## Page Metadata
-- Page number: 375
 - Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 373
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0373.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page begins with a header containing the author's name on the left and the page number on the right, separated by a horizontal line. Below the line, the main content consists of two paragraphs of text. This is followed by a centered section number and a centered subtitle. The page concludes with another paragraph of text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-CARLOS SILVA COTAPOS 355
-—
-aun silbaban las últimas balas de una batalla. En el
-interior de Nueva Granada su vida corrió grave pe-
-ligro; pues enfermó de fiebre sin tener medicinas para
-combatirla ni un techo seguro para guarecerse con-
-tra la intemperie i las mordeduras de las zalaman-
-quesas i otras alimañas ponzoñosas. Por fortuna lle-
-vaba en su equipaje un poco de _cachantlagua_; i una
-infusión de esta planta, preparada en innoble vaso,
-por no haber otro mejor, hizo desaparecer la fiebre.
-La divina Providencia lo protejió i pudo, como se
-ha visto, llevar a feliz término su viaje.
-Estos pocos datos nos ha dejado Eizaguirre de los
-accidentes de sus penosas jornadas por tantas rejio-
-nes malsanas, i por caminos que no tenían de tales
-sino el nombre; pero de los mil pequeños sufrimien-
-tos que soportó nada nos dice: porque no gustaba
-de recordarlos ni les daba mayor importancia, talvez
-por haberse connaturalizado con ellos en sus largas
-peregrinaciones, i por su espíritu de cristiana morti-
-ficación.
-
-§ XXVII
-
-Resultados del viaje a América
-
-El resultado de su visita a los obispos fué bastante
-halagador. Salvo el Paraguai donde, como hemos di-
-cho, la tiranía de López puso insuperable obstáculo
-para todo, en las demás repúblicas encontró eficaz
-cooperación. Muchos obispos ofrecieron enviar estu-
-diantes pagándoles su pensión, i contribuir además
-con algunas sumas para el establecimiento del co-
+```markdown
+CARLOS SILVA COTAPOS 
+395 
+les que allanaban por sí solas la mayor parte de las 
+dificultades que la prudencia podía prever. Se obli- 
+gaba a recorrer 
+a sus proplas expensas la América 
+latina entera, en busca de alumnos 1 de rentas para 
+la fundación de becas, 1 a contribuir con su dinero 
+1 el de los suyos para los demás gastos que la funda- 
+ción requería. Comprometía, pues, él su bolsa 1 su 
+vida; porque no ignoraba los peligros que había de 
+correr en su proyectado viaje, de parte de los hom- 
+bres 1 de los malsanos climas tropicales. 
+SN 
+Acepta el Papa la fundación, i Eizaguirre se traslada 
+a América 
+Esta proposición haciala Eizaguirre en Enero de 
+1856. Acojióla el Papa Pío IX con entusiasmo 1, por 
+medio de una carta del Cardenal Secretario de Es- 
+tado, recomendó la obra a los obispos americanos 
+diciéndoles que se harían mul aceptos al Soberano 
+Pontífice si en el gravísimo negocio de que había de 
+hablarles 
+Eizaguirre, varón sobremanera digno de 
+alabanza por su piedad, celo relijioso 1 ciencia, coad- 
+yuvasen con todo el interés, trabajo 1 celo que a cada 
+cual fuese posible (22 de Enero de 1856). 
+Premunido de esta credencial Hizaguirre se tras- 
+ladó a Inglaterra, 1 el 9 de Abril de 1856 zarpó con 
+rumbo a Pernambuco. 
+Después de visitar las diócesis del Brasil pasó al 
+Urnguai y República Arjentina. De ésta, por la via 
+fluvial,se dirijió al Paraguai; 1 de aquí, por tierra, a 
+8.—ANALES.-SETIEMBRE 
+OCTUBRE
+```
 
 ## Images, Captions, And Visual Notes
-None.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 374
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 374
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0374.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+394 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+Bolivia. De esta república, por la via de Tacna _1 
+Arica, pasó a Chile. Su permanencia 
+en la patria 
+duró pocos meses; pues el 17 de nero de 1857 había 
+zarpado de Arica para Valparaíso i el 25 de Abril 
+llegaba a Lima, después de haber visitado 
+a Are- 
+quipa 1 Cuzco. 
+Del Callao se trasladó al Heuador, 1 de esta repú- 
+blica, por Pasto, entró en Colombia. Visitada esta 
+nación se trasladó a Venezuela 1, cumplida en ella su 
+misión, se embarcó en la Guaira para 
+la isla de Santo 
+Tomás, donde tenía su centro la línea de vapores 
+que unía la Europa con los puertos de América. En 
+dicha isla se distribuían los pasajeros para sus dife- 
+rentes destinos. Kizaguirre tomó allí el vapor que 
+debía conducirlo a Veracruz para recorrer a Méjico. 
+A la capital de esta república llegó en Noviembre, 
+1 en el mes siguiente pasó a la isla de Cuba. El 25 de 
+Enero de 1858 hallábase ya de regreso en Roma, 1 
+podía dar cuenta del desempeño de su comisión al 
+Padre Santo. 
+A 
+Dificultades i peripecias de su viaje por América 
+Fácil es dar cuenta en pocas líneas de este largo 
+Itinerario; pero no es igualmente fácil referir las pe- 
+nalidades que el viajero soportó. En el Paragua, que 
+jemía bajo el despotismo de don Carlos Antonio Ló- 
+pez, nada pudo hacer. En Bolivia tropezó con dos 0 
+tres revoluciones, tocándole llegar a Oruro cuando 
+a
 ```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 375
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 375
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0375.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+os Qu Su 
+CARLOS SIENA COTAPOS 
+aun silbaban las últimas balas de una batalla. En el 
+interior de Nueva Granada su vida corrió grave pe- 
+ligero; pues enfermó de fiebre sin tener medicinas para 
+combatirla ni un techo seguro para guarecerse con- 
+tra la intemperie 1 las mordeduras de las zalaman- 
+quesas + otras alimañas ponzoñosas. Por fortuna Jle- 
+vaba en su equipaje un poco de cachanlagua; 1 una 
+infusión de esta planta, preparada en innoble vaso, 
+por no haber otro mejor, hizo desaparecer la fiebre. 
+La divina Providencia lo protejió 1 pudo, como se 
+ha visto, llevar a feliz término su viaje. 
+Estos pocos datos nos ha dejado Kizaguirre de los 
+accidentes de sus penosas jornadas por tantas rejlo- 
+nes malsanas, 1 por caminos que no tenían de tales 
+sino el nombre; pero de los mil pequeños sufrimien- 
+tos que soportó nada nos dice; porque 
+no 
+gustaba 
+de recordarlos mi les daba mavor importancia, talvez 
+por haberse connaturalizado con ellos en sus largas 
+peregrinaciones, 1 por su espíritu de cristiana morti- 
+ficación. 
+O. A 
+Resultados 
+del viaje a América 
+El resultado de su visita a los obispos fué bastante 
+halagador. Salvo el Paraguai donde, como hemos di- 
+cho, la tiranía de López puso insuperable obstáculo 
+para todo, en las demás repúblicas encontró eficaz 
+cooperación. Muchos obispos ofrecierón enviar estu- 
+diantes pagándoles su pensión, 1 contribuir además 
+con aleunas sumas para el establecimiento del 
+co-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 376
 
@@ -1767,120 +2066,175 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 377
+
 ## Page Metadata
-Page number: 357
-Running header: CARLOS SILVA COTAPOS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 377
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0377.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page consists of a running header at the top, followed by two main paragraphs of text, separated by a centered section number. The text is presented in a single column.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-CARLOS SILVA COTAPOS 357
-
-que le hizo Eizaguirre, manifestó a éste su íntima
-satisfacción por el lisonjero resultado obtenido.
-Eizaguirre no se limitó a su contribución de tra-
-bajo personal i a costear los crecidos gastos de su
-gran viaje, sino que contribuyó también con creci-
-das sumas para el establecimiento del Seminario Pío
-Latino Americano. Ignoramos a cuánto ascendieron
-en su totalidad; pero en cierta exposición que hizo
-al Cardenal Secretario de Estado allá por 1874, dice
-que ha ofrecido cien mil francos al conde de Mérode
-por una casa para el Seminario, i que en ella debe-
-rían invertirse los ciento cincuenta mil francos que
-ya tenía dados, los diez mil francos donados por su
-hermana doña Jesús Eizaguirre, i dos mil quinientos
-francos, donación de la señora boliviana doña Ma-
-nuela Vaca. Como carga de su erogación impuso
-Eizaguirre al colejio la obligación de sostener dos
-becas para alumnos elejidos por él, i algunas misas.
-
-§ XXVIII
-
-Ábrese el Colejio Pío Latino Americano.—Eizaguirre
-es nombrado Proto-notario Apostólico «ad instar
-participantium».
-
-Persuadido el Papa de que ya disponía de los me-
-dios necesarios para mantener el nuevo seminario,
-dispuso que se abriera en Setiembre de 1858, para
-que los estudiantes estuviesen listos al abrirse los
-cursos de la Universidad Gregoriana, que se inician
-en Noviembre. Sin pérdida de tiempo escribió Eiza-
-guirre a los obispos que habían prometido enviar
-
-## Images, Captions, And Visual Notes
-
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-
-None.
-
-## Completeness Audit
-
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+```markdown
+CARLOS SILVA COTAPOS 
+397 
+que le hizo Eizaguirre, manifestó a éste su íntima 
+satisfacción por el lisonjero resultado obtenido. 
+Eizaguirre no se limitó a su contribución de tra- 
+bajo personal i a costear los crecidos gastos de su 
+gran viaje, sino que contribuyó también con creci- 
+das sumas para el establecimiento del Seminario Pío 
+Latino Americano. lgnoramos a cuánto ascendieron 
+en su totalidad; pero en cierta exposición que hizo 
+al Cardenal Secretario de Estado allá por 1874, dice 
+que ha ofrecido cien mil francos al conde de Mérode 
+por una casa para el Seminario, 1 que en ella debe- 
+rían invertirse los ciento cincuenta-mil francos que 
+ya tenía dados, los diez mil francos donados por su 
+hermana doña Jesús Eizaguirre, 1 dos mil quinientos 
+francos, donación de la señora boliviana doña Ma- 
+nuela Vaca. Como carga de su erogación Impuso 
+Eizaguirre al colejio la obligación de sostener 
+dos 
+becas para alumnos elejidos por él, 1 algunas misas. 
+PY) 
+SA 
+Abrese el Colejio Pío Latino 
+Americano. —Eizaguirre 
+es nombrado 
+Proto-notario 
+Apostólico «ad instar 
+participantium». 
+Persuadido el Papa de que ya disponía de los me- 
+dios necesarios para mantener el nuevo seminario, 
+dispuso que se abriera en Setiembre de 1858, para 
+que los estudiantes estuviesen listos al abrirse “los 
+cursos de la Universidad Gregoriana, que se Inician 
+en Noviembre. Sin pérdida de tiempo escribió Eiza- 
+gutre a los obispos que habían prometido enviar
 ```
 
-## Page Metadata
-Page number: 358
-
-## Layout And Reading Order
-The page consists of a running header at the top, followed by a main body of text in a single column, and a footnote at the bottom.
-
-## Literal Transcription
-358 MEMORIAS CIENTÍFICAS I LITERARIAS
-
-alumnos para noticiarles la fecha en que debían ha-
-llarse en Roma.
-
-El colejio se abrió de hecho el 21 de Noviembre
-de 1858, en una ala del convento de San Andrés de
-lla Valle; i se trasladó poco después a una casa pro-
-pia que Eizaguirre le compró en la plaza de la Mi-
-nerva. La dirección fué confiada a los relijiosos de
-la Compañía de Jesús.
-
-Al principio la obra tropezó con graves dificulta-
-des, no sólo pecuniarias sino también de orden in-
-terno; porque no era empresa fácil amoldar desde
-luego al severo réjimen de un seminario organizado
-a la europea, a los indómitos hijos de la libre i revol-
-tosa América Latina. Pero poco a poco las dificul-
-tades se fueron allanando: los jóvenes levitas apren-
-dieron a estudiar i a vivir bajo la disciplina escolar,
-i en el año 1861 los estudiantes del Colejio Latino
-ganaron en la Universidad Gregoriana premios sin
-cuento, distinguiéndose entre todos un teólogo que
-se ganó cinco medallas (1), triunfo que rarísimas ve-
-ces se ha visto.
-
-El Papa demostró a Eizaguirre su gratitud por la
-grande obra que con tan rudos sacrificios había plan-
-teado i puesto en vías de prosperidad, concediéndole
-los honores de prelado doméstico i Proto-notario
-Apostólico ad instar participantium.
-
-(1) Illmo. Sr. Montes de Oca. Elojio Fúnebre de los Fundadores
-i Bienhechores del Colejio Río Latino Americano, el 21 de Noviembre
-de 1908.
-
 ## Images, Captions, And Visual Notes
-There are no images or significant visual elements on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 378
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 378
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0378.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+338 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+alumnos para noticiarles la fecha en que debían ha- 
+llarse en Roma. 
+El colejio se abrió de hecho el 21 de Noviembre 
+de 1858, en una ala del convento de San Andrés de- 
+lla Valle; 1 se trasladó poco después a una casa pro- 
+pla que Eizaguirre le compró-en la plaza de la Mi- 
+nerva. La dirección fué confiada 
+a los relijiosos de 
+la Compañía de Jesús. 
+* 
+Al principio la obra tropezó con graves dificulta- 
+des, no sólo pecunlarias sino también de orden in- 
+terno; porque no era empresa fácil amoldar desde 
+luego al severo réjimen de un seminario organizado 
+a la europea, a los indómitos hijos de la libre 1 revol- 
+tosa América Latina, Pero poco a poco las dificul- 
+tades se fueron allanando: los jóvenes levitas apren- 
+dieron a estudiar 1 a vivir bajo la disciplina escolar, 
+1 en el año 1861 los estudiantes del Colejio Latino 
+ganaron en la Universidad Gregoriana premios sin 
+cuento, distinguiéndose entre todos un teólogo que 
+se ganó cinco medallas (1), triunfo que rarísimas ve- 
+ces se ha visto. 
+Yl Papa demostró a Eizaguirre su eratitud por la 
+grande obra que con tan rudos sacrificios había plan- 
+teado i puesto en vías de prosperidad, concediéndole: 
+los honores 
+de prelado doméstico 
+1 Proto-notario 
+Apostólico ad instar participantium. 
+(1) limo. Sr. Montes de Oca. Elojio Fúnebre de los Fundadores 
+i Bienhechoves del Colejio Río Latino Americano, el 21 de Noviembre 
+de 1008.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,131 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-99098b2835cb-P0434-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450.codex.md
+converted_sha256: 99098b2835cb02a90d9c9aa028c64003eb44614916e29a4c7be5f07f17d1e28c
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/manifest.json
+page_start: 434
+page_end: 434
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/manifest.json`
+- Source page: 434
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/page-images/page-0434.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+GIHEBRA,
+16
+de Kayo de 1930
+Sr.
+I).
+Pablo À. Pizzurno
+11 Septiembre,
+1300
+BUENOS AIRES
+Distinguido Sr.
+y amigo:
+Su carta
+de Abril 4, llegô oportunamente a
+rnis
+rnanos
+y
+con ella la noticia de
+que la Comisiôn de
+Bibliotecae Populares habia resuelto comunicar que ad-
+quiriria mil ejemplares dentro del precio maximum de
+treinta
+centavos argentinos,
+cuanüo
+se haga la reimpre-
+sion.
+Kn
+esa misma carta
+me amincia Vd.
+que 3aldria
+contempoi*âneamente la coraunicacion ofieial relativa a
+los rail ,eeemplares y corao el Dr. Vega Belgrano estaba en-
+fermo, la nota vendra firmada prob&bleaente por el Vice-
+President e Dr. Francisco de Veyga.
+Debo manifestarlo
+que hasta la fecîia no ha
+llegado
+esa corounicaciôn y que he detenido la respue3ta
+a
+su carta
+a la
+espera de ella.
+Creo
+que no debo aguar-
+dar
+mas y por
+eso le eseribo estas lxneas para decirle
+que
+ne sugerido la utilidad de agregar un capitulo al
+manual para los maestros en que se establezca sucinta-
+naente lo realizado por la Sociedad de las Laciones, pues
+me
+parece
+su sugestibn muy atinada.
+Con este
+correo le envio el numéro I del
+"Recueil Pédagogique"
+que Yd.
+me pide en su carta.
+A la
+espera de la coimmicacién ofieial a que
+Yd.
+se
+ha rsferido
+en su carta y deseando que le precio
+del
+manual pericita mandarle mas ejenplares dentro de la
+cantidad
+que Vds. destinen, le envia sus cordiales sa-
+ludos
+su amigo y servidor.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,94 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9f3cb5762758-P0391-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403.codex.md
+converted_sha256: 9f3cb576275878876e05ffdd137c87ad7bbf02a72c4f81b2cf8980ca89c74ba7
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json
+page_start: 391
+page_end: 391
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json`
+- Source page: 391
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/page-images/page-0391.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+CARLOS SILVA COTAPOS 
+371 
+de la Compañía cubrió de luto su hogar, pues cinco 
+miembros de su familia perecieron en él. Algún leni-. 
+tivo recibió con las muestras de condolencia de sus 
+amigos de ambos mundos, espantados de esa gran 
+catástrofe. 
+SAO 
+Restablecida su salud ejercita con celo el ministerio 
+sacerdotal 
+Restablecida su salud, reanudó Hizagulrre sus apos- 
+tólicas tareas dedicándose con el mayor empeño a la 
+predicación, dando misiones 1 ejercicios espirituales 
+en diferentes partes de la diócesis. El número de sus 
+pláticas 1 sermones doctrinales debió ser mui crecido; 
+pues en un corto período llegó a predicar ciento cin- 
+cuenta veces. 
+Ep 
+E 
+Las autoridades civiles solían acudir a él para en- 
+cargarle los sermones de las grandes solemnidades. 
+Así se le pidió la oracion fúnebre que se predicó en 
+los solemnes funerales del ministro don José de Gál- 
+vez ¡ demás víctimas del bombardeo del Callao por 
+la escuadra española de Méndez Núñez, que se hi- 
+cieron en la telesia metropolitana el 15 de Mayo de 
+1866 (1). Predicó también, a petición del intendente 
+Vicuña Mackenna, en la inauguracion del monumen- 
+to a la Santísima Vírjen levantado en el sitio de la 
+incendiada ¡elesta de la Compañía, el 8 de Diciembre 
+/ (1) Este discurso se publicó en El Independiente.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 392

@@ -1,0 +1,107 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6418466325c5-P0052-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75.codex.md
+converted_sha256: 6418466325c554befc7eb0593684925073f278b218b0eee059c7f99d2ace856d
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75/manifest.json
+page_start: 52
+page_end: 52
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75/manifest.json`
+- Source page: 52
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75/page-images/page-0052.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+f
+— *3 ~
+tivo de la justicia social y el espiritu de la
+raza
+— actuando ambas fuerzas en la orga-
+nizaciôn de la vida nacional mexicana como
+causas de violentas, dolorosas
+y a menudo
+calumniadas vicisitudes, e impulsos de gran¬
+des
+esperanzas — saluda
+a la nueva Espa-
+na de hoy, no solo con la emociôn mxstica de
+los recuerdos, sino también — y sobre todo —
+con la simpatia que le inspira su présente si-
+inilitud
+de aspiraciones politicas y sociales
+y el entusiasmo de la posibilidad de una co-
+operaciôn efectiva entre las nuevas democra-
+cias de la Peninsula y las naciones jôvenes de
+America, agrupadas en fraternal anfictionia
+ante el future Templo de la Paz para resol-
+ver, en forma civilizada, todos sus problèmes
+ixiterji.a.ciatxaJlis.
+Al poner en vuestras manos, con la carta de
+retire de mi predecesor, la que acredita mi
+calidad de Embajador Extraordinario y Ple-
+nipotenciario de los Estados
+Unidos
+Me-
+xicanos
+ante
+el
+Gobierno
+de la Repüblica
+Espanola, me es grato transmitir
+a Vuestra
+Excelencia los
+votos que formula el senor
+Présidente de mi pais por vuestra ventura
+personal y el mensaje de entusiasta simpatia
+y renovada amistad que, en estos trascenden-
+tales momentos para el porvenir de los pue¬
+blos de abolengo ibero, envia México
+a Es-
+pafia.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

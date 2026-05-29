@@ -1,0 +1,106 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2b1f751f7059-P0230-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243.codex.md
+converted_sha256: 2b1f751f7059017081f31af6878808744daa7ab2e850e4a915d0af7ec728cfdb
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json
+page_start: 230
+page_end: 230
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json`
+- Source page: 230
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/page-images/page-0230.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+516 
+BOLETIN DE INSTRUCCION PÚBLICA 
+A 
+de a los profesores universitarios que tratan como tales, es decir, 
+como hombres de ciencia, una materia de política económica. 
+No dudamos tambien que esta obra será bien recibida en los 
+demás cientros de la actividad centífica de nuestra América, don- 
+de se comienza a conocer debidamente la necesidad que tene- 
+“mos de dar preferencia al estudio de los problemas americanos 
+que 
+mas 
+de 
+cerca nos interesan.—(Firmados).—GUILLERMO 
+SUBERCASEAUX, 
+profesor 
+de Economía 
+Política; 
+FRANCISCO 
+NOGUERA, 
+profesor de Economía 
+Política i JuLIO PHILIPPI, 
+profesor de Hacienda Pública. 
+SESION DE 21 DE OCTUBRE DE 1918. 
+Fué presidida por el señor Rector de la Universidad don Do- 
+mingo Amunátegui Solar, asistieron los señores Consejeros, Amu- 
+nátegui Solar don Gregorio, Barros Borgoño, Concha Castillo, 
+Matte, Prado Amor, Riicker, Salas Lavaqui, Schmidt, i el se- 
+“ ñor Secretario Jeneral don Octavio Maira. Escusó su inasisten- 
+cia el señor Consejero Quezada. 
+Previas las formalidades 1eglamentarias 1 el juramento reque- 
+rido, el señor Rector confirió los siguientes títulos i grados: 
+Injemero 
+Civil: 
+a don Alfredo Armijo Serre, 
+Licenciados en Medicina i Farmacia; 
+don Pedro Contreras Arancibia, 
+» 
+Dagoberto Paredes Palacios, 
+» 
+Juan Pardo Martínez, 
+» 
+Alejandro Ramírez Roman; 
+1 
+» 
+Enrique Salinas Fajardo.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

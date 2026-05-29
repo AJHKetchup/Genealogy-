@@ -1,0 +1,96 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9f3cb5762758-P0392-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403.codex.md
+converted_sha256: 9f3cb576275878876e05ffdd137c87ad7bbf02a72c4f81b2cf8980ca89c74ba7
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json
+page_start: 392
+page_end: 392
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json`
+- Source page: 392
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/page-images/page-0392.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+312 
+“MEMORIAS CIENTÍFICAS I LITERARIAS 
+de 1873. La municipalidad de Curicó le confió el ser- 
+món de la misa de gracias que se celebró en el an:- 
+versario patrio de uno de estos años. 
+XL 
+o 
+Miembro de la Junta de Beneficencia. —Fiebre ama- 
+rilla en Buenos Aires i viruelas en Santiago 
+El ejercicio de la caridad fué otra de las ocupacio- 
+nes preferentes de Eizaguirre en los últimos años de 
+su vida. El supremo gobierno le nombró miembro 
+de la Junta de Beneficencia de Santiago durante dos 
+bienios desde el año 1870. 
+Al año siguiente Buenos Aires se vió aflijida por 
+una epidemia de fiebre amarilla, que arrebató veinte 
+mil víctimas. Ante tal catástrofe Uruguai 1 Chile 
+acudieron en auxilio de la república hermana, 1 una 
+comisión popular, presidida por Eizaguirre, recojió 
+erogaciones para los lazatetos de Buenos Aires. Don 
+Héctor Varela, presidente de la Junta Popular de 
+aquella capital para combatir la epidemia, agradeció 
+a Hizaguirre dos mil doscientas 
+libras esterlinas 
+1 
+ciento tres cóndores i medio que la comisión chilena 
+le había remitido. 
+La peste viruela aflijió terriblemente a la capital 
+el año 1872. Fué preciso abrir ocho lazaretos para 
+atender al enorme número de variolosos. A cargo de 
+esta magna obra fué puesta una comisión nombrada 
+por el supremo gobierno, cuya presidencia se dió a 
+Hizaguirre.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 393

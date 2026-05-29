@@ -1,0 +1,126 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ac22ece2f759-P0136-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143.codex.md
+converted_sha256: ac22ece2f75960541965c9ece224e9d3550b0e8809919b2748d5fe4fa101d469
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json
+page_start: 136
+page_end: 136
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json`
+- Source page: 136
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/page-images/page-0136.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—
+133
+—
+Cierre de
+las ventanillas
+a
+pedido
+de pasajeros.
+Art.
+160. — A pedido
+de un pasajero, deberâ cerrarse las
+ventanas del lado expuesto al viento o al sol.
+Servicio de coches comedores.
+Art.
+161. — La
+Direccion
+General
+de
+Ferrocarriles fijarâ
+la forma y duraciôn
+que tendra el. servicio en los coches
+co-
+medores, de acuerdo con las épocas y regiones que atraviesen
+los distintos ferrocarriles.
+Obligacion de respetar el reposo de
+los
+viajeros
+en
+los
+coches
+dormi-
+torios.
+Art. 162. — En los coches dormitorios, los pasajeros deberân
+tener especial cuidado
+en no perturbar el reposo de los otros
+'aajeros, absteniéndose de mantener encendida las luces
+cen¬
+trales de los camarotes, conversar en voz alta, pasearse y fumar
+en horas intempestivas.
+Fijacion de tarifas y reglamentos en
+los coches comedores y dormitorios.
+Art.
+163. — Las tarifas de los servicios de comedor y con-
+fiterîas y los reglamentos relativos a coches dormitorios y
+co¬
+medores, serân expuestos a la vista del publico en los coches
+eorrespondientes, previa aprobaeiôn de la Direccion
+General
+de Ferrocarriles.
+Animales vivos
+en los coches.
+Art. 164. — Esta prohibido llevar animales vivos
+o muertos
+en los coches.
+Exceptuanse
+los
+pequenos
+animales encerrados
+en jaulas,
+ine podrân llevarse siempre que por su acondicionamiento
+o
+naturaleza no sean molestos
+o répugnantes a los pasajeros.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 137
