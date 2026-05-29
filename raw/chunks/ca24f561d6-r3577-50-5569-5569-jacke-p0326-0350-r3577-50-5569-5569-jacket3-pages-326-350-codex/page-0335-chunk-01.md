@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-1cc722c10bc1-P0335-01
+chunk_id: CHUNK-53ca8d05c23e-P0335-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0326-0350-r3577-50-5569-5569-jacket3-pages-326-350.codex.md
-converted_sha256: 1cc722c10bc18557a46222f29a6e0696fb232d747fc3e8153c993a0def90ebd6
+converted_sha256: 53ca8d05c23eae593f1d4f0d18e35dc089d11c18cbb3b7d0795ca0b0547ba929
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0326-0350-r3577-50-5569-5569-jacket3-pages-326-350/manifest.json

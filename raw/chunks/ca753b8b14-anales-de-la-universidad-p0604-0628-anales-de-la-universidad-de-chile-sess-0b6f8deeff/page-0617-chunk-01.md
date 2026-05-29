@@ -1,0 +1,102 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-5951a6a80dbd-P0617-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628.codex.md
+converted_sha256: 5951a6a80dbda5a0c141d16b89d33f836ad0e670f7421e35cf160955834c97c4
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json
+page_start: 617
+page_end: 617
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 617
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0617.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+NUESTROS PROBLEMAS ECONÓMICOS 
+547 
+nombrados por el Presidente de la República y por las 
+Cámaras. Esta ley hubo de ser abandonada porque con 
+su espíritu no creaba unidad en la Administración, fa- 
+vorecía en cierto modo las influencias políticas y axmi- 
+noraba en todos respectos la responsabilidad. De 1907 
+21913 los Ferrocarriles estuvieron 
+regidos por un Con- 
+sejo de Ferrocarriles y un Director General que tenía a 
+su inmediata dependencia seis jefes de servicio, corres- 
+pondientes a las secciones en que estaba dividida la Ad- 
+ministración General, y siete administradores, corres- 
+pondientes a las secciones del servicio ferroviario, a saber: 
+cuatro en la Red Central (Primera 
+Sección, de Valpa- 
+raíso a Santiago; Segunda Sección, de Santiago a Talca; 
+Tercera Sección, de Talca a Victoria; y Cuarta Sección, 
+de Victoria a Osorno y Puerto Montt) y tres en la zona 
+"norte (en la provincia de Atacama, los ferrocarriles de 
+Chañaral, Copiapó y Huasco; en la de Coquimbo, los de 
+Coquimbo y Tongoy, y en la de Aconcagua, los de Los 
+Vilos). Esta forma de Administración tuvo un carácter 
+provisional. La organización definitiva se hizo por ley de 
+26 de Enero de 1914, que puso la Administración igual- 
+mente en manos de un Consejo, de un Director General 
+y de Administradores seccionales, 
+pero que deslindó y. 
+acrecentó las responsabilidades. 
+El Consejo de Administración, llamado 
+a velar en 
+general por la unidad administrativa, a despachar el ba- 
+“lance anual de entradas y gastos, aprobar los reglamen- 
+tos de servicio, tarifas, carga, itinerarios, estaciones, 
+material rodante, empleados y sueldos, aprobar los pla- 
+nos de construcción y los contratos de trabajo cuyo 
+valor exceda de 10,000 pesos al año, etc., quedó com- 
+puesto del Director General, de dos Consejeros nombra- 
+dos por el Presidente de la República por cinco años,
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 618

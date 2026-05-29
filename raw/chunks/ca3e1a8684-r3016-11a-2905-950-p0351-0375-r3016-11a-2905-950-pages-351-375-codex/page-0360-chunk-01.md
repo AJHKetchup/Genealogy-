@@ -1,0 +1,145 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-dde6dc6da70e-P0360-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375.codex.md
+converted_sha256: dde6dc6da70e4ad33e41cd47af8dbce16fc9ebe3039d87a29b0ac3110c20514e
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/manifest.json
+page_start: 360
+page_end: 360
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/manifest.json`
+- Source page: 360
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/page-images/page-0360.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+GRANDE-BRETAGNE.
+First Aid Manual No. 1.
+Hygiene and Sanitation Manual No. 4.
+Cookery Manual No. 5.
+Domestic Hygiene Manual No. 7a.
+Manual
+on Tuberculosis No. la.
+Home Visiting.
+Red
+Cross First Aid Note-book.
+Red
+Cross First Aid Lecture Diagrams.
+Junior First Aid Manual.
+Junior Nursing Manual.
+Junior Health (manuel d'hygiène domestique).
+Health Laws Pictures.
+ITALIE.
+Manuale dell' infermiere.
+Regolamenta assistenti sanitarie Croce Rossa Italiana.
+Scuole convitto
+Infermiere della Croce Rossa Italiana, Regolamento.
+Che
+cosa sono le assistenti Sanitarie della Croce Rossa.
+SUISSE.
+Premier secours, guide du samaritain.
+Le petit manuel des mères.
+>
+Le médecin
+de l'infirmière visiteuse dans la lutte contre la tuberculose.
+Les infirmières visiteuses.
+L'infirmière visiteuse d'hygiène sociale.
+La garde-malade d'autrefois et l'infirmière visiteuse d'aujourd'hui.
+Foyers, Pensions,
+de retraite,
+bureaux
+de
+placement
+et activités
+diverses
+allemagne.
+Assurance-maladie.
+—
+Chaque
+« Mutterhaus
+»
+est responsable
+pour ses infirmières en cas de maladie. Celles-ci ont droit à être admises
+dans les services de deuxième classe des hôpitaux. Les « Mutterhâuser »
+ne sont
+pas
+obligés
+d'assurer leurs membres auprès d'une société
+d'assurance ;
+ils
+peuvent
+cependant
+faire
+un contrat
+avec
+une
+société d'assurance afin de
+se protéger contre toute réclamation qui
+pourrait leur être présentée en cas de maladie d'un de leurs membres.
+La loi oblige les infirmières à
+se faire
+assurer
+par l'assurance
+nationale des employés. Le « Mutterhaus » paie les primes d'assurance.
+Dans les
+cas
+de maladie prolongée, l'assurance couvre les frais de
+cures,
+de séjours de
+repos
+ou accorde
+une indemnité de maladie.
+Dans le cas d'invalidité permanente, l'assurance nationale des employés
+accorde
+une pension de retraite.
+Pour les infirmières
+de la Croix-Rouge, il existe une mutualité
+64
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 361

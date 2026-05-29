@@ -1,0 +1,107 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-5951a6a80dbd-P0618-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628.codex.md
+converted_sha256: 5951a6a80dbda5a0c141d16b89d33f836ad0e670f7421e35cf160955834c97c4
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json
+page_start: 618
+page_end: 618
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 618
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0618.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+548 
+_MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+de dos por el Senado y de dos por la Cámara de Diputa- 
+dos, por tres años cada uno. El Director General, nom- 
+brado por el término de seis años por el Presidente de la 
+República y reelegible, es el responsable inmediato de 
+la 
+dirección, inspección y supervigilancia detolos los servi- 
+cios, y representa a la Empresa tanto judicial como extra- 
+judicialmente. A su lado tiene jefes de servicio y adminis- 
+tradores seccionales. La Dirección General se compone, 
+en armonía con esto, de los servicios 
+de Vía y Obras, 
+Transporte, Tracción y Maestranzas. Los jefes de servi- 
+cto son propuestos por el Consejo y nombrados por el 
+Presidente de la República por seis años, con derecho a 
+ser reelegidos. Los administradores seccionales, nombra- 
+dos en la misma forma y por cinco años, son los repre- 
+sentantes inmediatos de la Dirección General en la res- 
+pectiva sección; de ellos depende todo el personal de la 
+sección. 
+La ley de 1914 da a los ferrocarriles del Estado una 
+administración autónoma; como Empresa de transporte, 
+están sometidos a las 
+leyes generales que rigen a tales 
+Empresas. Los ferrocarriles formarán una sección espe- 
+cial de la Administración pública, con 
+contabilidad in- 
+dependiente de las demás ramas 
+de ésta, cubrirán con 
+sus propias entradas los gastos ordinarios 
+y administra- 
+rán por sí mismos los saldos anuales. La supervigilancia 
+de la administración general, de las finanzas y de la ex- 
+plotación, ha correspondido al Ministerio de Ferrocarriles 
+creado en 1912, como Departamento 
+de Ferrocarriles, 
+dependiente del Ministerio de Industria y Obras Públi- 
+cas. Existe, sin embargo, un proyecto del ejecutivo pa- 
+ra suprimir esa repartición. No cabe duda que la ley or- 
+gánica del 14 está bien concebida 
+en cuanto a la inde- 
+pendencia de que en 
+sus finanzas deben gozar nuestros
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 619

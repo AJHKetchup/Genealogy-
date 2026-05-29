@@ -1,0 +1,100 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-66c2a8b5f2aa-P0278-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283.codex.md
+converted_sha256: 66c2a8b5f2aa8f32a74d5ac9c215f627823c5c14ac8733c15c0666cbaa7144a8
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json
+page_start: 278
+page_end: 278
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 278
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0278.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+258 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+las cuestiones jenerales de la vida civilizada que no 
+exijen nociones técnicas especiales. 
+En cuanto a las materias que se enseñan, en pri- 
+mer lugar se trata de diferencias graduales. Todo lo 
+que es objeto de la instruccion primaria, deberá tam- 
+bien aprenderse en la secundaria. De ahí concluyen 
+algunos pedagogos que la secundaria completa debe 
+ser nada mas que la continuacion de la primaria. Es 
+éste el sistema seguido en los Estados Unidos de 
+Norte América. 
+Sus partidarios 
+en Chile piden la 
+supresion de las Preparatorias del Liceo. Creo que 
+con ella se cometeria un error gravísimo. 
+Mi distinguido colega, el señor don Darío Salas, 
+en el Capítulo VI de su majistral libro «El Problema 
+Nacionab (Santiago 1917) ha espuesto con claridad 
+las razones fundamentales que existen para conser- 
+var las Preparatorias 1 esto1 de acuerdo con él en que 
+lo único hacedero en favor de la «democratizacion» 
+es que el alumno que sale del cuarto año de la :es- 
+cuela elemental, pueda ingresar al primer año de hu- 
+manidades. La solucion en que piensa el señor Salas 
+(aunque no la recomienda) de hacer posible que el 
+alumno que salga de la escuela superior (seis años 
+de instruccion primaria) pueda ingresar al tercer año 
+de humanidades enseñando el frances en la escuela 
+superior (dos años) i postergando el segundo idioma 
+estranjero hasta el tercer año del Liceo, es absoluba- 
+mente inaceptable, segun mi opinion. 
+El tiempo asignado en los liceos a los idiomas es- 
+tranjeros escasamente alcanza para obtener un re- 
+sultado útil. Los numerosos alumnos que abandonan 
+ho1 el liceo despues del tercer año, sólo escepcional- 
+mente tienen provecho duradero de las clases de
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 279

@@ -1,0 +1,132 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-0b077d328908-P0437-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450.codex.md
+converted_sha256: 0b077d328908ba1a3e04701e2036fc758cea4f21c273a65230341ddcf177fdf1
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/manifest.json
+page_start: 437
+page_end: 437
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/manifest.json`
+- Source page: 437
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/page-images/page-0437.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+BUKHOS
+.-.IRES,
+la
+4 avril 1930
+Monsieur Julien HoFmeira
+Société
+des dations
+GE1ÎSVE
+Cher Monsieur,
+V03 lettres
+des
+11
+et 19 février
+me parvinrent dans
+des momenta où la Commission Protectrice des Bibliothèques Po¬
+pulaires était
+en vacances. Maintenant cette Commission a déjà
+repris
+ses travaux et dans une réunion qu'elle a tenu hier on
+s’est occupé
+de votre note relative à l'envoi de 300 exemplai¬
+res
+de la brochure "Gué
+es la Socie&ad de las Maciones", les¬
+quelles seront distribuées parmi les principales bibliothèques.
+Mi
+cours
+de cette réunion j’ai fait connaître votre communica¬
+tion du 19
+dans laquelle il est question d’une nouvelle édition
+et,
+sur
+ma proposition on
+a décidé do vous informer que la Com¬
+mission Protectrice achètera mille exemplaires au prix indiqué
+par vous, c’est-à-dire,
+de trente centimes monnaie nationale
+argentine, l’exemplaire.
+Il nous sera donc très agréable de
+collaborer ainsi,
+avec notre concours modeste, à la grande
+oeuvre qu’on accomplie à Genève.
+Puisque vous
+me dites qu’on va introduire dans la
+dite brochure quelques modifications, voulez-vous
+rae permet¬
+tre
+de
+vous suggérer une indication qu’à mon avis serait avan¬
+tageuse?
+Ce serait d’énumérer simplement tout co que la So¬
+ciété
+des Bâtions
+a fait depuis
+sa fondation.
+Je vous avoue
+que, pour moi qui lia dans la presse journalière les travaux
+de la Société,
+a été une vraie surprise la lecture de la pe¬
+tite
+et intéressante brochure "Guide du Militant"
+que vous
+avez bien voulu m’envoyer.
+Je savais déjà que la Société des
+Hâtions avait fait beaucoup dans une période relativement court
+mais je n’imaginais pas
+que
+ce fut autant.
+J’ai
+reçu les deux premiers numéros de "Cuartillas"
+pour la presse, correspondant à janvier et février, ainsi que
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

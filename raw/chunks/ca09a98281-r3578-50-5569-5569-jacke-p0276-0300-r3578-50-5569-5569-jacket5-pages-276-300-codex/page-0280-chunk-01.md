@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-776e730e0cae-P0280-01
+chunk_id: CHUNK-c4aefa907835-P0280-01
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket5-pages-276-300.codex.md
-converted_sha256: 776e730e0cae7a92d0c01a66cc820384b26ba35736fdeae371bb3a022453d65c
+converted_sha256: c4aefa907835fc4f821c39c61fc75299f6c88a6ca2ab664a58fe5fb5b5b0798c
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket5-pages-276-300/manifest.json
@@ -92,3 +92,5 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 281

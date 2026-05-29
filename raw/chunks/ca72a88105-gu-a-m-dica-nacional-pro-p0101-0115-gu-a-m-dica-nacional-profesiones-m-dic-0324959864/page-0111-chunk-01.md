@@ -1,0 +1,129 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-01b36a93c0ed-P0111-01
+source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115.codex.md
+converted_sha256: 01b36a93c0ed8afc46eb7c4af3b8be6f2613001ec824107fbabf67ce6c4b5512
+source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
+source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
+source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115/manifest.json
+page_start: 111
+page_end: 111
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115/manifest.json`
+- Source page: 111
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115/page-images/page-0111.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+NOMINA DE MEDICOS-CIRUJANOS TITULADOS POR LA 
+UNIVERSIDAD DE CHILE, l.er SEMESTRE 1959 
+Abarzúa Rojo, Bruny 
+Acchiardo Montenegro, Sergio 
+Aldunate Noel, Gustavo 
+Alvarez Marín, Jaime 
+Alvarez Vera, Rodrigo Iván 
+Amat Vidal, José 
+Arriagada Lasa, Eduardo 
+Arroyo Pinochet, Alvaro 
+Astorquiza Graf, María Elizabeth 
+Atala Barahona, Gabdán 
+Badiola Broderg, Hugo 
+Barroilhet Amenábar, Guy 
+Bayo Veloso, Francisco 
+Berger Ayala, Fernando 
+Betzhold Purcell, Sergio 
+Bianchi Souter, Jorge 
+Boero Riquelme, Domingo 
+Buvinió Mihovilovió, Mirko 
+Cabrera Reyes, Fernando 
+Campana Bustos, Edgardo 
+Castillo Cerna, Gabriel 
+Cisterna Barbagelata, Hugo 
+Claure Saavedra, Víctor 
+Concha Gutiérrez, Juan Carlos 
+Contador Caballero, Jorge 
+Contreras Alvarez, Raúl 
+Contreras Bahamondes, Carlos 
+Cornejo Bascopé, Gastón 
+Covia Ricotti, Ana 
+Croquevielle Pérez, Javier 
+Cruz Meló, Agustín 
+Díaz Alvarado, Bernardino 
+Durán Moral, Carlos 
+Farrú Albohaire, Odette 
+Fernández Cornejo, Jorge Luis 
+Fernández Puente, Manuel 
+Fischer Ostry, Paulina 
+Franchini Bulzanini, Danich 
+Frías Fernández, Jaime 
+Gálvez Guerra, Enrique Sergio 
+Gallardo Loyola, Enrique 
+García Gallardo, Humberto 
+García Moreno, Nicolás 
+García Silva, Jorge 
+Garrido Miranda, Renato 
+Gatica Guerra, Mario 
+Gayán Arancibia, Jorge 
+Glasinovió Zuleta, Antonio 
+Godoy Carvajal, Nelson 
+Goldenberg Altsman, Ester 
+González Gómez, Julia 
+González Lillo, Fernando 
+Gormaz Saavedra, Gustavo A. 
+Goycolea Chaparro, Mario 
+Guzmán Valdés, Luis Eduardo 
+Guzmán Véliz, Angel 
+Harún Morales, Abdalla A. 
+Hermosilla Contreras, Carlos 
+Hott Prüssing, Santiago 
+Hudson Silva, Henry 
+Inzunza Bascuñán, Iván 
+Jara Avaca, René 
+Jiménez Forero, Daniel 
+Kappés Barrientos, Juan 
+Kong Urbina, Samuel 2? 
+Larco Cabafias, Rafael
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

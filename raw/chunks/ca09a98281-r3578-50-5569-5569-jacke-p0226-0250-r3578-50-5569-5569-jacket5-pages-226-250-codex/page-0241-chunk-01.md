@@ -1,0 +1,138 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-37594e5a0775-P0241-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250.codex.md
+converted_sha256: 37594e5a0775c74f66de627c87cb0cbcfc11eff448ce683eb13814a29b7b3415
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250/manifest.json
+page_start: 241
+page_end: 241
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250/manifest.json`
+- Source page: 241
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250/page-images/page-0241.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+18
+514
+Lea dispositions du deuxieme alinda de l’article prdeddent leur
+seront applicables.
+Article 24.
+L’embleme de la croix rouge sur fond blane et les mots croix
+rouge
+ou croix de
+Geneve
+ne pourront etre employes, soit
+en
+temps de paix, soit en temps de guerre,
+que pour protdger ou
+designer
+les
+formations
+et
+les
+dtablissements
+sanitaires,
+le
+personnel et le materiel protdgds par la Convention.
+II
+en
+sera de meme,
+en
+ce qui concerne les emblemes visds
+a l’article 19, alinda 2, pour les pays qui les emploient.
+D’autre
+part,
+les
+socidtds
+de
+secours volontaires visdes k
+l’article
+10 pourront faire usage, conformdment
+a la legislation
+nationale, de l’embleme distinctif pour leur activity humanitaire
+en temp’s de paix.
+A titre exceptionnel et
+avec l’autorisation expresse de l’une
+des socidtds nationales de la Croix-Rouge (Croissant-Rouge, Lion
+et Soleil-Rouges), il pourra etre fait usage de l’embldme de la
+Convention,
+en temps de paix, pour marquer l’emplacement de
+postes
+de
+secours exelusivement rdservds
+& donner
+de's
+soins
+gratuits a des blessds ou a des malades.
+CHAPITRE VII.
+De l’application et de l’execution de la Convention.
+Article 25.
+Les dispositions de la prdsente Convention seront respectdes
+par les Hautes Parties Contractantes en toutes circonstances.
+Au
+cas
+ou,
+en temps de guerre, un belligdrant ne serait pas
+partie a la Convention,
+ses dispositions demeureront ndanmoins
+obligatoires entre tous les belligdrants qui y participent.
+Article 26.
+Les commandants
+en chef des armdes belligdrantes auront h
+pourvoir aux details d’exdcution des articles prdcddents,
+ainsi
+qu’aux cas non prdvus, d’apres les instructions de leurs Gouver-
+nements
+respectifs
+et conformdment
+aux principes gdndraux
+de la prdsente Convention.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 242

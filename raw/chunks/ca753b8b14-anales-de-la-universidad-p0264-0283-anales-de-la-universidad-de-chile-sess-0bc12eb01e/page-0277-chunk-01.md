@@ -1,0 +1,101 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-66c2a8b5f2aa-P0277-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283.codex.md
+converted_sha256: 66c2a8b5f2aa8f32a74d5ac9c215f627823c5c14ac8733c15c0666cbaa7144a8
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json
+page_start: 277
+page_end: 277
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 277
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0277.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+RODOLFO 
+LENZ 
+ZAS 
+en la mayor parte de los paises cultos se distinguen 
+dos clases de enseñanza: la primaria (o popular) 1 la 
+secundaria (o media); ámbas persiguen únicamente 
+_propósitos educacionales 1 culturales. 
+La diferencia esencial entre las dos categorías de 
+colejios no está normalmente fundada en el número 
+de años escolares, porque todos los niños deberian 
+estar obligados a recibir enseñanza desde los seis o 
+slete hasta los catorce o quince años de edad, ya que 
+el empleo de niños menores de catorce años para 
+trabajos utilitarios deberia prohibirse por razones de 
+hijiene pública 1 la ociosidad completa deberia impe- 
+dirse. por motivos económicos i morales. Efectiva- 
+mente la instruccion primaria obligatoria dura en 
+Alemania ocho años, la secundaria reducida nueve. 
+En Chile (segun la estadística a que he aludido mas 
+arriba) se desea introducir la primaria completa de 
+seis años; la secundaria reducida (liceo de segunda 
+clase) dura seis años 1 deberia elevarse a ocho. 
+Por consiguiente la razon de la diferencia esencial 
+debe buscarse en la situacion económica 1 cultural 
+de los padres. A lo sumo el 1 % de la poblacion per- 
+tenecen a la clase acomodada que produce obreros 
+intelectuales. Por esto opino que la instruccion se- 
+cundaria (por lo ménos normalmente) 
+deberia ser 
+pagada por los padres de los alumnos. 
+La instruccion primaria debe dar la educacion me- 
+ral 1 nacional indispensables 1 el mínimo de los cono- 
+cimientos jenerales; la secundaria deberia comunicar 
+la cultura superior internacional sobre base histórica 
+1 literaria por un lado, 1, por el otro, la suma de co- 
+nocimientos científicos de que ha de disponer el hom.- 
+bre moderno para juzgar con criterio propio todas 
+ANALES,-SPT.-OCT,—2
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 278

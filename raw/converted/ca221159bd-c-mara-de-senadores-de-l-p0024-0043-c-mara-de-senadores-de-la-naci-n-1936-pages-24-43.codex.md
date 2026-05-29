@@ -76,128 +76,243 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 ```
 
+# Page 25
+
 ## Page Metadata
-- Page number: 25
-- Source publication year: 1936
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43/manifest.json`
+- Source page: 25
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43/page-images/page-0025.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents text in a single column. At the top center is the page number. The main content consists of numbered articles (Art. 40 through Art. 43), followed by a chapter heading ("CAPÍTULO II"), a sub-heading ("DEL TRANSPORTE DE MERCADERÍAS"), a list of article titles (Art. 44 through Art. 53), and then the full text of an article also numbered "Art. 44".
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 21 —
-
+```markdown
 Art. 40. — La empresa no responde de los objetos que lleven
-consigo los pasajeros. Tampoco responde por las joyas, pe-
-drerías, dinero, billetes de banco, títulos de la deuda pública o
-hipotecarios, u otros documentos de la misma clase, que con-
-tuvieren en un equipaje que se hubiese entregado para con-
-ducir, si no se manifestasen especial y determinadamente.
-Art. 41. — En cada estación habrá un registro visado men-
-sualmente por el Inspector, en el cual podrán los pasajeros
-consignar sus reclamaciones, contra la empresa o sus empleados,
+consigo los pasajeros.
+Tampoco responde por las joyas, pe-
+drerîas, dinero, billetes de banco, tîtulos de la deuda publica o
+hipoteearios, u otros documentos de la misma clase, que con-
+tuvieren
+en un équipaje que se hubiese entregado para con-
+ducir, si no
+se manifestasen especial y determinadamente.
+Art. 41.-—-En cada estacion habrâ un registro visado men-
+sualmente por el Inspector,
+en el cual podrân los pasajeros
+consignai' sus reclamaciones, contra la empresa o sus empleados,
 como asimismo en los trenes de pasajeros.
-Art. 42. — En cada estación habrá un botiquín provisto de
-medicamentos, vendajes y demás útiles que puedan necesitarse
+Art. 42. — En cada estacion habrâ un botiquîn provisto de
+medicamentos, vendajes y demâs utiles que puedan neeesitarse
 para casos de accidentes.
-Art. 43. — En los trenes que condujeran pasajeros no podrán
-llevarse materias explosivas de ninguna clase. Esta disposición
-no se refiere a las pequeñas cantidades de pólvora que llevan
+Art. 43. — En los trenes que condujeran pasajeros no podrân
+llevarse materias explosivas de ninguna clase. Esta disposiciôn
+no
+se refiere a las pequenas cantidades de pôlvora que llevan
 los cazadores.
-
-CAPÍTULO II
-
-DEL TRANSPORTE DE MERCADERÍAS
-
-Art. 44. — Publicidad de tarifas y reglamentos.
-Art. 45. — Obligaciones de las empresas para el registro y despacho de las
-    mercaderías.
-Art. 46. — Preferencias para la conducción de ciertos artículos y provisiones.
-Art. 47. — Declaración del cargador.
-Art. 48. — Rectificación de precio y peso.—Dudas sobre precio, peso e insu-
-    ficiencia de embalaje.
-Art. 49. — Uniformidad de tarifas. Excepciones.
-Art. 50. — Obligaciones y responsabilidades sobre el transporte: será regido
-    por el Código de Comercio.
-Art. 51. — Objetos olvidados.
-Art. 52. — Avisos sobre objetos olvidados y su venta.
-Art. 53. — Venta de objetos olvidados, de fácil deterioro.
-
-Art. 44. — Las empresas comunicarán a la Dirección de Fe-
-rrocarriles y publicarán las tarifas y reglamentos que estable-
-cieren para el transporte de mercaderías, en la forma indicada
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+CAP1TULO II
+DEL
+TRANSPORTE DE MERCADERÎAS
+Art.
+44.
+—- Publicidad
+de
+tarifas
+y
+reglamentos.
+Art.
+45. — Obligaciones
+de las
+empresas para el registro y despacho de las
+mercaderîas.
+Art. 46.—Preferéncias para la conducciôn de ciertos artîculos y provisiones.
+Art.
+47. —■Declaration
+del cargador.
+Art.
+48. — Rectificaciôn
+de precio
+y peso.—-Dudas sobre precio,
+peso
+e insu-
+ficiencia
+de
+embalaje.
+Art.
+49. — Uniformidad
+de
+tarifas.
+Excepciones.
+Art. 50.—-Obligaciones
+y
+responsabilidades
+sobre el transporte:
+sera regido
+por el Côdigo de Comercio.
+Art.
+51. »— Objetos olvidados.
+Art.
+52.-—-Avisos
+sobre
+objetos
+olvidados
+y
+su venta.
+Art.
+53. — Venta
+de
+objetos
+olvidados,
+de fâcil deterioro.
+Art. 44. — Las empresas comunicarân a la Direcciôn de Fe-
+rrocarriles y publicarân las tarifas y reglamentos que estable-
+cieren para el transporte de mercaderîas, en la forma indicada
 ```
 
-## Page Metadata
-Page number: 26
-
-## Layout And Reading Order
-The page contains a single column of text, primarily legal articles, with a centered page number at the top. The text flows continuously from top to bottom.
-
-## Literal Transcription
-— 22 —
-
-por la tarifa y reglamentos de pasajeros. Los cambios que se
-introdujeren se pondrán en conocimiento del público un mes
-antes de su vigencia.
-Las tarifas relativas al transporte de pasajeros y mercade-
-rías serán razonables y justas.
-Art. 45.—Las empresas deberán registrar los bultos de mer-
-caderías, a medida que se presenten para ser despachados, ex-
-tendiendo carta de porte si la exigiere el cargador, o dando
-simplemente en caso contrario un recibo que indique la natu-
-raleza y peso de los bultos, el importe total del flete y el tiempo
-en que deba hacerse el transporte.
-La expedición de las mercaderías se hará en el mismo orden
-del registro, sin preferencia para nadie, y su transporte será
-continuo desde el punto de despacho hasta el de destino, aun-
-que el trayecto comprenda líneas de distintas empresas.
-Art. 46.—No obstante lo dispuesto en el artículo anterior,
-serán preferidos para la conducción:
-
-1º Los frutos y provisiones destinados al consumo diario
-de las poblaciones que el ferrocarril comunique.
-2º Los equipajes de los pasajeros y los bultos de encomien-
-das cuyo peso no exceda de 50 kilogramos.
-3º Las valijas de correspondencia y encomiendas postales.
-4º Los objetos destinados al servicio público, para los cuales
-el Gobierno Nacional o Provincial reclamase preferente
-despacho por razón de urgencia.
-
-Art. 47.—Todo cargador deberá hacer declaración previa
-del número, peso, clase y calidad de las mercaderías que re-
-mitiese.
-Art. 48.—Puede rectificarse a la llegada de los bultos cual-
-quier error que en el precio o en el peso haya cometido la esta-
-ción expedidora; este derecho es recíproco entre las empresas
-y el público, y deberá abonarse en el acto de entregar la mer-
-cancía, por quien y a quien corresponda el importe a que
-ascienda el error cometido.
-
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 26
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43/manifest.json`
+- Source page: 26
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43/page-images/page-0026.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—
+22
+—
+por la tarifa y reglamentos de pasajeros.
+Los cambios que
+se
+introdujeren
+se pondrân en conoeimiento del publico un mes
+antes de
+su vigencia.
+Las tarifas relativas al transporte de pasajeros y mercade-
+rlas serân razonables y justas.
+Art. 45. — Las empresas deberân registrar los bultos de mer¬
+caderîas, a medida que se presenten para ser despachados, ex-
+tendiendo carta de porte si la exigiere el cargador,
+o dando
+simplemente en caso contrario un recibo que indique la natu-
+raleza y peso de los bultos, el importe total del flete y el tiempo
+en que deba bacerse el transporte.
+La expediciôn de las mercaderîas se harâ en el mismo orden
+del registro, sin preferencia para nadie, y su transporte sera
+continuo desde el punto de despacho hasta el de destino, aun-
+que el trayecto comprenda lîneas de distintas empresas.
+Art. 46. -— No obstante lo dispuesto en el artîculo anterior,
+serân preferidos para la conducciôn:
+l9
+Los frutos y provisiones destinados al
+consumo diario
+de las poblaciones que el ferrocarril comunique.
+29
+Los équipajes de los pasajeros y los bultos de encomien-
+das cuyo peso no exceda de 50 kilogramos.
+39
+Las valijas de correspondencia y encomiendas postales.
+49
+Los objetos destinados al servicio publico, para los cuales
+el Gobierno Nacional
+o Provincial reclamase prefercnte
+despacho por razôn de urgencia.
+Art.
+47. — Todo cargador deberâ hacer declaracion previa
+del numéro,
+peso, clase y calidad de las mercaderîas
+que re-
+mitiese.
+Art. 48. — Puede rectificarse
+a la llegada de los bultos cual-
+quier error que en el precio o en el peso haya cometido la esta-
+ciôn expedidora; este derecho es recîproco entre las empresas
+y el publico, y deberâ abonarse en el acto de entregar la mer-
+cancîa,
+por quien y
+a quien corresponda
+el importe
+a
+que
+ascienda el error cometido.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 27
 
@@ -503,69 +618,120 @@ The transcription is complete and accurate for all visible text on the page. The
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
 
+# Page 31
+
 ## Page Metadata
-Page number: 31
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43/manifest.json`
+- Source page: 31
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43/page-images/page-0031.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number is centered at the top. The content is structured into articles, with a chapter heading and sub-heading.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 27 —
-
+```markdown
 objetos, sin culpa suya o de sus agentes, a consecuencia
 del servicio del ferrocarril.
-
-Art. 62. — Las distancias marcadas en los artículos ante-
-riores se contarán horizontalmente desde la línea inferior de
+Art.
+62. — Las distancias marcadas
+en los artlculos ante-
+riores
+se contarân horizontalmente desde la linea inferior de
 los taludes del terraplén de los ferrocarriles, desde la superior
 de los desmontes y desde el borde exterior de las cunetas, y a
-falta de éstas, se medirán desde una línea trazada a metro y
-medio del carril exterior de la vía.
-
-Art. 63. — Sin perjuicio de la pena respectiva, los contra-
-ventores a los artículos precedentes estarán obligados a resta-
+falta de estas,
+se medirân desde una linea trazada a metro y
+medio del carril exterior de la via.
+Art.
+63. — Sin perjuicio de la pena respectiva, los contra-
+ventores
+a los articulos precedentes estarân obligados a resta-
 blecer las cosas al estado anterior y a responder por todos los
-perjuicios ocasionados. Si en el término señalado por el Juez
+perjuicios ocasionados.
+Si en el término senalado por el Juez
 ante quien se entablare la queja, no hubiera el infractor resta-
-blecido las cosas a su estado anterior, podrá hacerlo la empresa
-a costa de aquél, previa autorización del Juez.
-
-CAPÍTULO IV
-
+bleeido las cosas a su estado anterior, podrâ hacerlo la empresa
+a costa de aquél, previa autorizaciôn del Juez.
+CAPITULO
+IY
 OBLIGACIONES DE LAS EMPRESAS
-
-Art. 64. — Transporte por empresas combinadas.
-Art. 65. — Responsabilidad de las empresas por actos de sus empleados.
-Art. 66. — Nulidad de cláusulas que exoneren de responsabilidades.
-Art. 67. — Prohibición de convenios sobre tarifas y reparto de utilidades.
-Art. 68. — Casos en que no se permite alterar las tarifas.
-
-Art. 64. — Las empresas combinadas deben ser considera-
+Art.
+64. — Transporte
+por
+empresas combinadas.
+Art.
+65. — Responsabilidad
+de las empresas por actos de sus empleados.
+Art.
+66. — Nulidad
+de
+clâusulas
+que exoneren de responsabilidades.
+Art.
+67. — Prohibiciôn
+de
+convenios sobre tarifas y repartu de utilidades.
+Art.
+68. — Casos
+en
+que
+no
+se permite altérai* las tarifas.
+Art.
+64. — Las
+empresas combinadas deben ser considera-
 das como una sola empresa para todos los efectos de la contra-
-tación en materia de transporte, sin perjuicio de las acciones
-que puedan corresponder entre sí a las respectivas compañías,
-por consecuencia de las bases de la combinación.
-
+taciôn
+en materia de transporte, sin perjuicio de las acciones
+que puedan corresponder entre si a las respectivas companias,
+por consecuencia de las bases de la combinaciôn.
 Art. 65. — Es deber de las empresas velar porque todos sus
-empleados sean diligentes e idóneos. Su responsabilidad hacia
-los pasajeros y cargadores por daños resultantes de faltas de
-sus empleados, se extiende a todos los actos ejecutados por
-éstos en desempeño de sus funciones.
+empleados sean diligentes e idoneos.
+Su responsabilidad hacia
+los pasajeros y cargadores por danos résultantes* de faltas de
+sus empleados,
+se extiende
+a todos los actos ejecutados por
+éstos
+en desempeno de sus funciones.
+```
 
 ## Images, Captions, And Visual Notes
-No meaningful visual content was detected on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual content was detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 32
@@ -908,102 +1074,111 @@ All visible text on the page has been transcribed. The last line of item 19 is t
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 
+# Page 37
+
 ## Page Metadata
-- Page number: 33
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43/manifest.json`
+- Source page: 37
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43/page-images/page-0037.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a two-column layout. The left column contains partial text, likely marginalia or a continuation from a previous page, which is largely cut off. The right column contains the main body of text, which consists of a continuation of a paragraph followed by a numbered list of items (20 through 24). The page number "- 33 -" is centered at the top.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-                                  — 33 —
 
-igual
-de
-la
-on el
-
-ados
-via-
-
-ndi-
-ta y
-a las
-
-riles
-las
-egla-
-e, no
-pro-
-
-astos
-esen
-
-riles
-su
-ortu-
-para
-
-ecu-
-acio-
-adas
-esta-
-ndas
-enta
-que
-n de
-
-erro-
-o en
-construcción, acompañada de mapas y documentos ilus-
-trativos que indiquen su traza, longitud, trochas, terri-
-torios que atraviesan y si pertenecen a la Nación, a las
+```markdown
+construeciôn, acompanada de mapas y documentes ilus-
+trativos que indiquen su traza, longitud, trochas, terri¬
+tories que atraviesan y si perteneeen a la Naciôn, a las
 provincias o a empresas particulares, y elevar también
-al Ministerio de Obras Públicas una memoria sobre el
-movimiento administrativo del año anterior, consignando
-los trabajos realizados y proponiendo las mejoras que
-crea conveniente introducir.
-20. Intervenir, mientras no se dicten leyes especiales sobre
-    la materia, en las diferencias entre las empresas y sus
-    empleados en caso de controversia sobre salarios, horas
-    de trabajo o condiciones del mismo, resolviéndolas direc-
-    tamente por medios conciliatorios o mediante la consti-
-    tución de tribunales arbitrales.
-21. Proponer al Ministerio de Obras Públicas el nombra-
-    miento y remoción de los empleados de su dependencia,
-    pudiendo suspenderlos por su propia autoridad por un
-    término que no exceda de dos meses.
-22. Efectuar directamente en caso necesario, la compra de
-    útiles destinados a sus oficinas hasta la suma de un mil
-    pesos moneda nacional ($ 1.000) y dentro de las canti-
-    dades que su presupuesto le asigne.
-23. Presentará en el término de dieciocho meses, desde
-    la promulgación de esta ley, un plan general de las líneas
-    y ramales de ferrocarriles en el territorio argentino, el
-    cual servirá para proyectar las construcciones y conce-
-    siones en lo futuro, teniendo en cuenta las necesidades
-    de población, explotación de las diferentes industrias,
-    estrategia, etc.
-24. Establecer inspecciones seccionales en las capitales de
-    provincias y en las ciudades y localidades que fuera
-    necesario, exigiendo al personal respectivo la investi-
-    gación e información directas de todo lo relativo al
-    servicio de los ferrocarriles, y a las necesidades y con-
-    veniencias de las diversas regiones y localidades de la
-    sección.
+al Ministerio de Obras Publicas una memoria sobre el
+movimiento administrativo del ano anterior, consignando
+los trabajos realizados y proponiendo las mej oras que
+créa conveniente introducir.
+Intervenir, mientras no se dicten leyes especiales sobre
+la materia, en las diferencias entre las empresas y sus
+empleados en caso de controversia sobre salarios, boras
+de trabajo o condiciones del mismo, resolviéndolas direc-
+tamente por medios conciliatorios o mediante la consti-
+tuciôn de tribunales arbitrales.
+Proponer al Ministerio de Obras Publicas el nombra-
+miento y remociôn de los empleados de su dependencia,
+pudiendo suspenderlos por su propia autoridad por un
+término que no exceda de dos meses.
+Efectuar directamente
+en
+caso necesario, la compra de
+utiles destinados a sus oficinas hasta la suma de un mil
+pesos moneda nacional ($ 1.000)
+y dentro de las canti-
+dades que su presupuesto le asigne.
+Presentarâ
+en
+el
+término
+de
+dieciocho
+meses,
+desde
+la promulgacion de esta ley, un plan general de las lineas
+y ramales de ferrocarriles en el territorio argentino, el
+cual servira para proyectar las construcciones y conce-
+siones en lo futuro, teniendo en cuenta las necesidades
+de poblaciôn, explotaciôn de las diferentes industrias,
+estrategia, etc.
+Establecer inspecciones seccionales
+en las capitales de
+provincias y
+en las ciudades y localidades
+que fuera
+necesario,
+exigiendo al personal respectivo la investi¬
+gation
+e
+informaciôn
+directas
+de todo lo relativo al
+servicio de los ferrocarriles, y
+a las necesidades y con-
+veniencias de las diversas regiones y localidades de la
+seeciôn.
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The partial text in the left column has been transcribed as accurately as possible given its truncated nature.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily contains text."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 34

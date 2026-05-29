@@ -1,0 +1,99 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9704a956c3fa-P0695-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703.codex.md
+converted_sha256: 9704a956c3faeba652fbe0adfe7bc9fc6e92a85d54bef26f4afbbd7ea345bbda
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json
+page_start: 695
+page_end: 695
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 695
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0695.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+a O 
+ESTUDIO DEL TERRITORIO DE MAGALLANES 
+625 
+pues ser motejados de anarquistas, porque levantan su 
+voz pidiendo aumento de salario! 
+Nada de esto, estol seguro, lo conoce el Gobierno; por 
+eso es menester que se sepa, para que al dictar medidas 
+proteccionistas, en abstracto 1 desde Santiago excelentes, 
+no vengan a encontrar en su aplicacion práctica circuns- 
+«tancias que en vez de resultar protectoras, destruyan. 
+2.0 Punto.— El comercio magallánico puede decirse 
+que está concentrado en algunas grandes firmas, las prin- 
+cipales de las cuales son: Braun 1 Blanchard, Menéndez, 
+Stubenrauch, Montes, Sara Braun, etc. 
+Estas firmas, como ya lo he demostrado, lo abarcan 
+todo: estancias, hugoríficos, flotas de vapores, minas, fe- 
+rrocarriles, muelles, aserraderos, criaderos de aves, etc. 
+Muchas veces alcanza su pode: hasta un despacho cual. 
+quiera, dirijido por un individuo, o: un taller de herrería, 
+de los que a veces son los dueños absolutos, 
+o ha sido 
+su dinero el que ha servido para formarlos. 
+Cuando se estableció la Aduana, estas firmas hicieron 
+lo posible para obtener su abolicion, haciendo presente 
+al Gobierno que tal medida los perjudicaria enormemen- 
+te, 1 los obligaria a ir abandonando poco a poco el Te- 
+tritorio para radicarse en los campos 1 puertos libres de 
+la Patagonia Arjentina. 
+Dicha resolucion habia sido tomada porque, con 0]os 
+de estadistas, velan la proteccion con que el gobierno 
+arjentino mira sus puertos patagónicos 1 el incremento 
+de la marina de cabotaje, vigorosamente apoyada por él. 
+Comprendieron entonces que si ellos no se adelanta- 
+ban a establecerse en la vecina república, otros ciudada- 
+¡nos les arrulnarian su comercio con ella, pues no podrian 
+competir, ya que el precio de sus artículos está gravado 
+von derechos de aduana, miéntras que los otros eran de 
+ANALES—MAYO-JUNIO.—7,
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,136 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7080fadd830b-P0129-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143.codex.md
+converted_sha256: 7080fadd830bf67e8e59ba0708454d2e4b3c24c6faee4ab4c4d27331ce62966c
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json
+page_start: 129
+page_end: 129
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json`
+- Source page: 129
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/page-images/page-0129.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—
+12(3
+Si por
+caso fortuito
+o fuerza mayor, debidamente
+compro-
+bados, resolviera no proseguir el viaje hasta su destino, tendra
+derecho
+a que se le devuelva la diferencia entre el preeio del
+pasaje tornado y
+el precio
+de un pasaje hasta el punto
+en
+que haya suspendido el viaje,
+menos un 10 %, sobre dicha
+diferencia.
+Condiciones
+para exigir la devolu¬
+tion del importe del pasaje de ida y
+vuelta parcialmente utilizado.
+Art. 137. — Si disponiendo de un boleto de ida y vuelta el
+pasajero solo
+lo utilizare
+para la ida, tendra derecho
+a la
+devoluciôn de la diferencia
+entre el importe de dieho boleto
+y el correspondiente al boleto simple del trayecto recorrido.
+menos un
+10 % de la
+suma
+a devolver.
+Este derecho cadu-
+carâ, si no
+se formulase el reclamo antes que llegue al des¬
+tino indieado
+en el boleto, el ultimo tren del dîa de su ven-
+cimiento.
+Los boletus empleados para recorrer solo una parte del tra¬
+yecto de ida
+a
+que
+se extienden, darân derecho
+a la dévolu-
+cion de la diferencia entre el precio de dicho boleto y el do
+un boleto simple, correspondiente al trayecto recorrido, menos
+un
+10
+°/o del importe de la devoluciôn, siempre que
+se haga
+constar el hecho ante el jefe de la estaciôn,
+en
+que
+se baje
+del tren.
+Si
+a la vuelta
+el pasajero interrumpiese el viaje,
+sera de
+aplicaciôn lo dispuesto en la primera parte del artîculo 136.
+Prolongacion de viaje sin boleto.
+Art. 138. — Si un viajero continuare mas adelante del puni0
+indieado
+en
+su boleto, tendra
+que pagar la parte que corres¬
+pondu por el trayecto para el cual no tuviere boleto, mâs el
+100
+°/o
+de multa,
+a menos
+que haya comunicado anticipada-
+mente al guardatrén que va
+a seguir mâs adelante del punt°
+que indica el boleto, en cuyo caso quedarâ exento de ella.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

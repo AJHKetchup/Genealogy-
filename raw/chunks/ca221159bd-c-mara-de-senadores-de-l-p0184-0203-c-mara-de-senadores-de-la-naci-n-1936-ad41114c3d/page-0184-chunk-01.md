@@ -1,0 +1,102 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-5f420cbdaafb-P0184-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203.codex.md
+converted_sha256: 5f420cbdaafbe1e922567ab8063eda46de332f388561f7a975034c81bb921021
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json
+page_start: 184
+page_end: 184
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json`
+- Source page: 184
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/page-images/page-0184.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+g) Medio utilizado para la transmisiôn.
+h) Peso de la carga, segun carta de porte.
+i) Peso asignado por la empresa.
+j) Observaciones.
+El aviso deberâ ser enviado de manera que llegue al con-
+signatario a mas tardar a las 18 boras del dia anterior a aqnel
+en que la carga se pondra a su disposicion para ser descar-
+gada.
+Las empresas colocarân, ademâs, diariamente en. lugar
+visible de la estaciôn la lista de las cargas por vagon recibidas,
+con expresiôn de los datos consignados en el referido registro
+de comunicaeiôn de cargas llegadas.
+Si el consignatario lo requiriese, las empresas deberân darle,
+ademâs, una constancia escrita del dia y hora en que la carga
+j ha sido puesta a su disposicion.
+El referido registro especial consistirâ en un libro foliado
+y rubricado por la Direcciôn General de Ferrocarriles, y podrâ
+contener liojas duplicadas perforadas, que servirân para sacar
+i
+copias en carbônico de los datos indicados en este artîculo a
+objeto de exponerlas en lugar visible de la estaciôn como aviso
+al publico de las cargas por vagon recibidas.
+Horario de las estaciones de cargas.
+Art. 309.
+Las estaciones de cargas deberân estar abiertas
+los dias hâbiles desde las 6 horas hasta las 18 horas y los sâ-
+bados de 6 a 13 horas, menos aquellas que por las condiciones
+especiales de la localidad que sirven o de su trâfico permitan
+un horario distinto, que serâ autorizado por la Direcciôn Ge¬
+neral de Ferrocarriles, si lo juzgase conveniente.
+Plazo dentro del cual deberân des-
+cargarse los vagones.
+Art.
+310. — El plazo
+en
+que deberân descargarse los va¬
+gones serâ de 48 horas para las cargas ordinarias y de 24 horas
+para las perecederas de F y 2* categoria a que se refiere el ar-
+ticulo 247, a contar desde el momento en que sean puestos a
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 185

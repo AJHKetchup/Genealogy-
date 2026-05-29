@@ -1,0 +1,134 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-dbb55bb83852-P0118-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket5-pages-101-125.codex.md
+converted_sha256: dbb55bb83852d73ee28293aea4b377d00c8dafa024c7b2a9fcde303de53a4f5a
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket5-pages-101-125/manifest.json
+page_start: 118
+page_end: 118
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket5-pages-101-125/manifest.json`
+- Source page: 118
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket5-pages-101-125/page-images/page-0118.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+514
+54
+Article 57.
+Les prisonniers de guerre punis diseiplinairement seront auto¬
+rises
+a lire et
+a ecrire, ainsi qu’a expMier et h recevoir des let-
+tres.
+En revanche, les colis et les envois d’argent pourront n’etre
+deiivres
+aux destinataires qu’a 1’expiration de la peine. Si les
+colis non distribuds contiennent des denies perissables, celles-
+ci seront vers^es
+a l’infirmerie ou h la cuisine du camp.
+Article 58.
+Les
+prisonniers
+de
+guerre
+punis
+diseiplinairement
+seront
+autorises,
+sur leur demande,
+a se presenter a la visite m^dicale
+quotidienne. Ils recevront les
+soins jug^s n^cessaires
+par les
+m^decins et, le cas dchdant, seront 6vacu6s sur l’infirmerie du
+camp ou sur les hopitaux.
+Article 59.
+Bdserve faite de la competence des tribunaux et des autorites
+militaires superieures, les peines disciplinaires ne pourront etre
+prononcees que par un officier muni de pouvoirs disciplinaires
+en
+sa qualite de commandant de camp ou de detachement,
+ou
+par 1’officier responsable qui le remplace.
+3.
+— Poursuites judiciaires.
+Article
+60.
+Lors de l’ouverture d’une procedure judiciaire dirigee contre
+un prisonnier de
+guerre,
+la Puissance detentrice
+en avertira
+aussitot qu’elle pourra le faire, et toujours avant la date fixee
+pour l’ouverture
+des debats,
+le representant
+de la Puissance
+protectrice.
+Cet avis contiendra les indications suivantes:
+a)
+etat civil et grade du prisonnier;
+b)
+lieu de sejour ou de detention;
+c)
+specification du ou des chefs d’accusation,
+avec mention
+des dispositions Idgales applicables.
+S’il n’est
+pas possible de donner dans
+cet avis l’indication
+du tribunal qui jugera l’affaire, celle de la date d’ouverture des
+debats et celle du local oil ils auront lieu,
+ces indications seront
+fournies ulterieurement au representant de la Puissance protec¬
+trice, le plus tot possible, et en tout cas trois semaines au moins
+avant l’ouverture des debats.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 119

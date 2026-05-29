@@ -1,0 +1,102 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-5951a6a80dbd-P0604-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628.codex.md
+converted_sha256: 5951a6a80dbda5a0c141d16b89d33f836ad0e670f7421e35cf160955834c97c4
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json
+page_start: 604
+page_end: 604
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 604
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0604.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+534 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+las evoluciones de la economía universal el período clá- 
+sico de esplendor para Chile de la industria del cobre, 
+cuyos mejores tiempos fueron, como hemos visto de 1860- 
+1880, su explotación empezó a aminorar poco a poco la 
+utilidad y a amenazar con pérdidas, lo cual hizo entrar 
+en negociaciones para que el Estado adquiriera la línea 
+y continuara su explotación, necesaria ya también para 
+los intereses 
+políticos y sociales de la comunidad. De 
+propiedad particular es también el Transandino por el 
+Juncal, en la parte comprendida entre la ciudad de 
+Los Andes y la Cumbre, y uno que otro más, pero pe- 
+queño, como el de Arica a Tacna. 
+Los ferrocarriles del Estado son, con respecto 
+a su 
+categoría, en esencial de orden superior y medio; entre 
+los de tercer orden pueden contarse el de Chillán a Pin- 
+to, el de Puente Alto al Volcán y otros transversales 
+como éstos. Los de particulares, con excepción del de 
+Antofagasta a Ollagie y del Transandino por el Juncal, 
+son de orden medio e inferior. Con la construcción del 
+ferrocarril longitudinal han pasado también algunos par- 
+ticulares a ser líneas principales o de orden superior: por 
+ejemplo, el trazado salitrero de Lagunas a Zapiga tor- 
+ma ya parte de aquél. Dada la importancia que desde 
+el punto de vista nacional ha debido tomar tal trazado, 
+parece no caber duda que con el tiempo pasará a manos 
+del Estado (en todo caso al término 
+de la concesión), 
+como igualmente el Transandino por el Juncal. El trans- 
+paso de aquél dependerá en 
+esencial, según nuestra 
+opinión, de la marcha que siga la hoy riquísima indus- 
+tria salitrera de esa parte; el transpaso de éste, por el 
+contrario, pudiera ser inminente, a causa delos deficien- 
+tes resultados económicos de la Empresa y la mayor slg- 
+nificación internacional que toma el ferrocarril.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 605

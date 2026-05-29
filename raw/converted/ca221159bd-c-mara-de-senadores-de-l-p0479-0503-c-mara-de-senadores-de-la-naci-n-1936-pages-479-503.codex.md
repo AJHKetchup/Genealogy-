@@ -956,142 +956,265 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 492
+
 ## Page Metadata
-Page 492
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Source page: 492
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/page-images/page-0492.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. It begins with a centered page number, followed by a main paragraph and several sub-points labeled with lowercase letters (b, c, d, e, f, g, h). There are two subheadings: "Descansos parciales" and "Descansos grandes".
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 31 —
-
-los servicios, categoría económica), determinará en qué estaciones
-deberá calificarse como intermitente el trabajo, y establecerá las
-condiciones y horarios en que ésta deba efectuarse dentro de las
-normas generales de la Ley 11.544 y del presente reglamento.
-Asimismo tratará, en la medida de lo posible, de que se alterne
-el personal en el trabajo diurno y nocturno.)
-
-b) El servicio de este personal podrá ser continuo o
-discontinuo, y en este último caso el intervalo entre
-las prestaciones parciales no podrá ser inferior a
+```markdown
+-Si¬
+los servicios, categoria econômica), determinarâ en que estaoiones
+deberâ
+calificarse
+como
+intermitente el trabajo,
+y establecerâ las
+oondiciones y horarios
+en
+que ésta deba
+efectuarse dentro de las
+normas generales de la Ley 11.544 y del présente reglamento.
+Asimismo tratarâ, en la medida de lo posible, de que se alterne
+el personal en el trabajo diumo y nocturno.)
+b) El servicio de
+este personal podrâ ser continuo
+o
+discontinue, y en este ultimo caso el intervalo entre
+las prestaciones partiales
+no
+podrâ
+ser inferior a
 una (1) hora y treinta (30) minutos;
-
-c) Para el personal clasificado en la primera categoría,
-podrá establecerse una prestación diaria de diez
+c) Para el personal clasificado en la primera categoria,
+podrâ
+establecerse
+una prestaciôn diaria
+de
+diez
 (10) horas durante una semana, siempre que en la
-semana siguiente o subsiguiente se reduzca dicha
-prestación a seis (6) horas;
-
-d) En el caso en que un personal deba substituir a otro
-durante una jornada de trabajo, deberá ajustarse a
+semana siguiente
+o subsiguiente
+se reduzca dicha
+prestaciôn
+a seis (6) horas;
+d) En el
+caso en que un personal deba substituir a otro
+durante una jornada de trabajo, deberâ ajustarse a
 lo establecido para éste.
-
-Descansos parciales
-
-e) A continuación de cada período continuo de trabajo,
-el personal deberá tener un descanso parcial mínimo
+Descansos partiales.
+e) A continuation de cada periodo continuo de trabajo,
+el personal deberâ tener un descanso parcial minimo
 de diez y seis (16), catorce (14) o doce (12) horas,
-según que esté clasificado en la primera, segunda o
-tercera categoría, respectivamente;
-
-f) A los efectos del cambio de turno, los descansos
-parciales podrán ser reducidos hasta ocho (8) horas,
+segün que esté clasificado en la primera, segunda o
+tercera categoria, respectivamente;
+/) A los efectos del
+cambio
+de turno, los
+descansos
+partiales podrân ser reducidos hasta ocho (8) horas,
 siempre que el tiempo reducido sea agregado a los
 descansos parciales siguientes o subsiguientes.
-
 Descansos grandes.
-
-g) En los servicios continuos, y salvo en aquellos
-casos previstos en el artículo 35, el personal tendrá
-derecho a un descanso hebdomadario de cuarenta
+g) En
+los
+servicios
+continuos,
+y
+salvo
+en
+aquellos
+casos previstos en el articulo 35, el personal tendrâ
+derecho
+a un
+descanso hebdomadario
+de
+cuarenta
 (40), treinta y ocho (38) o treinta y seis (36) horas,
-según que esté clasificado en la primera, segunda
-o tercera categoría, respectivamente;
-
-h) En los servicios discontinuos, el gran descanso será
-igual a la diferencia entre el número de horas
+segun
+que esté
+clasificado
+en la primera, segunda
+o tercera categoria, respectivamente;
+h) En los servicios discontinues, el gran descanso serâ
+igual
+a
+la
+diferencia
+entre
+el
+numéro
+de
+horas
 contenidas en una semana, y el de horas trabajadas
 y de descansos parciales;
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content for region cropping."}
 ```
 
-## Page Metadata
-- Page number: 493
-
-## Layout And Reading Order
-The page presents text in a single column. It begins with a centered page number, followed by a numbered item, a section title (VII) with a descriptive subtitle, and then several articles (Art. 48 to Art. 51), each starting with an article number and a dash. Article 49 contains two sub-points labeled `a)` and `b)`.
-
-## Literal Transcription
-— 32 —
-
-i) A los efectos del cambio de turno, los descansos
-grandes podrán ser reducidos hasta veinticuatro (24)
-horas, siempre que el tiempo reducido sea agregado
-a los descansos grandes siguientes o subsiguientes.
-
-VII
-Disposición transitoria para el personal de conducción de locomotoras
-del Ferrocarril Trasandino Argentino
-
-Art. 48.— La Dirección General de Ferrocarriles, fijará
-en el caso de restablecerse el tráfico regular en el Ferro-
-carril Trasandino Argentino, las condiciones especiales de
-trabajo que deberán regir para el personal de conducción de
-locomotoras de dicha empresa.
-
-Prescripciones sobre la aplicación e interpretación de la Ley 11.544
-y el presente Reglamento
-
-Art. 49.— a) La interpretación de las disposiciones del
-presente reglamento en los casos de duda se hará
-por la Dirección General de Ferrocarriles, sin
-perjuicio de que aquellos en que hubiere discrepan-
-cias en su faz legal sobre la Ley 11.544, deban ser
-sometidas al Departamento Nacional del Trabajo;
-b) Sin perjuicio de las facultades de las autoridades
-de aplicación, tienen personería para denunciar a
-los infractores, además de las personas damnificadas,
-las asociaciones obreras y las empresas patronales.
-
-Art. 50.— La aplicación de la Ley 11.544 y de sus regla-
-mentos en los ferrocarriles de jurisdicción nacional, se hará
-efectiva por la Dirección General de Ferrocarriles en virtud
-de las facultades que corresponden a la misma por la Ley 2873,
-debiendo dicha Dirección formular al Departamento Nacional
-del Trabajo las consultas necesarias en sus aspectos legales
-y solicitarle la cooperación que juzgare conveniente. La
-Dirección General de Ferrocarriles procederá de acuerdo
-con lo dispuesto por dicha Ley 11.544 y disposiciones de la
-Ley 2873 que no se opongan a la misma.
-
-Art. 51.— El presente reglamento entrará a regir desde
-el 1º de noviembre de 1935.
-
 ## Images, Captions, And Visual Notes
-There are no substantial images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 493
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Source page: 493
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/page-images/page-0493.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+— 32
+—
+i) A los efectos del cambio
+de turno,
+los descansos
+grandes podrdn ser reducidos hasta veinticuatro (24)
+horas, siempre que el tiempo reducido sea agregado
+a los descansos grandes siguientes o subsiguientes.
+VII
+Disposiciôn transitoria para el personal de conducciôn de locomotoras
+del
+Ferrocarril Trasandino Argentino
+Art. 48.— La Direccion General
+de Ferrocarriles, fijard
+en el caso de
+restablecerse
+el trdfico regular
+en
+el Ferro¬
+carril
+Trasandino
+Argentino, las condiciones especiales de
+trabajo que deberdn régir para el personal de conducciôn de
+locomotoras de dicha empresa.
+Prescripciones sobre la aplicaciôn
+e interpretaciôn de la Ley 11.544
+y el présente Reglamento
+Art. 49. — a) La interpretaciôn de las disposiciones del
+présente reglamento
+en los casos de duda se hard
+por
+la
+Direccion
+General
+de
+Ferrocarriles;
+sin
+perjuicio de que aquellos en que hubiere discrepan-
+cias
+en
+su faz legal sobre la Ley 11.544, deban ser
+sometidas al Departamento Nacional del Trabajo;
+b) Sin perjuicio
+de las facultades de las autoridades
+de aplicaciôn, tienen
+personeri'a para denunciar a
+los infractores, ademds de las personas damnificadas,
+las asociaciones obreras y las empresas patronales.
+Art. 50. — La aplicaciôn de la Ley 11.544 y de sus regla-
+mentos en los ferrocarriles de jurisdicciôn nacional,
+se hard
+efectiva por la Direcciôn General de Ferrocarriles en virtud
+de las facultades que corresponden a la misma por la Ley 2873,
+debiendo dicha Direcciôn formular al Departamento Nacional
+del Trabajo las consultas necesarias en
+sus aspectos legales
+y solicitarle
+la cooperaciôn
+que
+juzgare
+conveniente.
+La
+Direcciôn
+General
+de
+Ferrocarriles
+procederd
+de
+acuerdo
+con lo dispuesto por dicha Ley 11.544 y disposiciones de la
+Ley 2873 que no se opongan a la misma.
+Art. 51. — El présente reglamento entrard a régir desde
+el 1° de noviembre de 1935.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 494
@@ -1381,63 +1504,119 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 498
+
 ## Page Metadata
-- Page number: 37
-- Source document page number: 498
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Source page: 498
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/page-images/page-0498.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. It includes a page number at the top, followed by several paragraphs, a Roman numeral section heading, a bolded title, and more paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 37 —
 
-refiere a la duración de la jornada de trabajo en los lugares
+```markdown
+—
+37
+—
+refiere
+a la duration de la jornada de trabajo en los lugares
 considerados insalubres.
-    La misma similitud existe en general entre el artículo 4º
-de este reglamento y el inciso a del artículo 2º del regla-
-mento anterior, pero se ha conceptuado lógico agregarle al
-final la frase: «o de las siete (7) horas de trabajo efectivo
-nocturno», ya que este artículo guarda una estrecha relación
-con lo establecido en el inciso d del artículo 2º, que se ha
-analizado en párrafos anteriores.
-
+La misma similitud existe
+en general entre el artfculo 4°
+de este reglamento
+y el inciso a
+del artfculo 2° del regla-
+mento anterior, pero se ha conceptuado ldgico agregarle
+al
+final la frase:
+« o de las siete (7)
+horas
+de
+trabajo efectivo
+nocturno», ya que este artfculo guarda una estrecha relation
+con lo establecido
+en el inciso ci del
+artfculo
+2°,
+que
+se ha
+analizado
+en parrafos anteriores.
 II
-**Servicio diagramado**
-
-    En este capítulo están comprendidas todas las disposi-
+Servicio diagramado
+En este capftulo estân
+comprendidas todas las disposi-
 ciones que, de una manera general y en forma exclusiva, se
-refieren a los servicios diagramados.
-    En el inciso a del artículo 5º se han refundido las pres-
-cripciones contenidas en el artículo 9º y en el primer párrafo
-del artículo 10 del reglamento anterior, eliminándose así una
-infundada repetición de palabras, pero respetándose los con-
-ceptos básicos que emanan de su lectura.
-    El inciso b del mismo artículo 5º es análogo al inciso e
-del artículo 1º del anterior reglamento, y su inclusión en este
-capítulo está justificada por la misma finalidad de sus dispo-
+refieren
+a los servicios diagramados.
+En el inciso
+a del artfculo 5°
+se han refundido las pres-
+cripciones contenidas en el artfculo 9U y en el primer pdrrafo
+del artfculo
+10 del reglamento anterior, eliminândose asf una
+infundada repetition de palabras, pero respetândose los con-
+ceptos bâsicos que emanan de su lectura.
+El inciso b del mismo artfculo 5°
+es anâlogo al inciso e
+del artfculo 1° del anterior reglamento, y su inclusion en este
+capftulo estâ justificada por la misma finalidad de sus dispo-
 siciones, ya que en éstas se establece una de las normas en
-que debe encuadrarse la diagramación de los servicios.
-    En el inciso c se ha previsto una disposición semejante
-a la que figura en el 2º párrafo del artículo 10 del reglamento
-anterior, pero se ha simplificado su redacción y se ha supri-
-mido la fijación del «plazo prudencial» que se menciona en
-el mismo, ya que la aplicación de este requisito ha sido siem-
-pre innecesaria en la práctica.
-    El artículo 6º prevé una excepción que ya estaba en vi-
-gencia, de acuerdo con lo establecido en el artículo 15 del
+que debe encuadrarse la diagramacidn de los servicios.
+En el inciso
+c
+se ha previsto una disposition semejante
+a la que figura en el 2° pârrafo del artfculo 10 del reglamento
+anterior, pero se ha simplificado su redaction y se ha supri-
+mido la fijacion del «plazo prudencial»
+que
+se menciona en
+el mismo, ya que la aplicaciOn de este requisito ha sido siem-
+pre innecesaria en la prâctica.
+El artfculo 6° prevé una excepciOn que ya estaba en vi-
+gencia, de acuerdo con lo establecido
+en el artfculo
+15 del
 anterior reglamento. Sin embargo se ha considerado necesa-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last word "necesa-" is hyphenated, indicating it continues on the next page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 499
 

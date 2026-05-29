@@ -358,67 +358,132 @@ All visible and legible text on the page has been transcribed. The partial margi
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets. The page contains only text."}
 ```
 
+# Page 149
+
 ## Page Metadata
-- Page number: 146
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json`
+- Source page: 149
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/page-images/page-0149.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents content in a single column. It begins with a page number centered at the top, followed by a main heading, a sub-heading, and then a series of articles (Art. 208, Art. 209, Art. 210) each introduced by a heading or sub-heading. The text flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 146 —
 
+```markdown
+—
+146
+—
 Tarifas especiales. Datos que deben
 contener.
-
-Art. 208. — Todas las tarifas especiales irán numeradas.
-Contendrán la fecha en que han sido comunicadas a la Di-
-rección General de Ferrocarriles, la de su vigencia, la de su
-caducidad, y las condiciones de aplicación sin ambigüedad.
-Si una tarifa anula o modifica a otra anterior lo hará constar
-diciendo: Esta tarifa anula la número...
-
-Presentación de ejemplares de las
-tarifas emitidas.
-
-Art. 209. — Las empresas ferroviarias tendrán la obligación
-de presentar de inmediato a la Dirección General de Ferro-
+Art.
+208. — Todas
+las
+tarifas
+especiales irân
+numeradas.
+Contendrân la fecha
+en
+que han sido comunieadas
+a la Di-
+recciôn General de Ferrocarriles, la de su vigencia, la de su
+<3
+caducidad, y las condiciones de aplicaciôii sin ambigüedad.
+1
+Si una tarifa anula o modifica a otra anterior lo harâ constar
+diciendo : Esta tarifa anula la numéro...
+Presentaciôn
+de ejemplares de las
+tarifas
+emitidas.
+Art. 209. — Las empresas ferroviarias tendrân la obligaciôn
+de presentar de inmediato
+a la Direcciôn General de Ferro¬
 carriles los ejemplares impresos reglamentarios de las tarifas,
-sus modificaciones y prórrogas, una vez que fueran aprobadas
-por el Poder Ejecutivo o por aquélla.
+sus modificaciones y prôrrogas, una vez que fueran aprobadas
+por el Poder Ejecutivo
+o por aquélla.
 Si la empresa interesada, después de aprobados, desistiera
-de poner en vigencia cualquiera de los proyectos a que se
-hace referencia precedentemente, o deseara introducir alguna
-modificación, deberá hacerlo saber a la Dirección General de
-Ferrocarriles, por medio de una nueva presentación, dentro
-del plazo máximo de 15 ó de 30 días, según se trate de tarifas
-de pasajeros, equipajes y encomiendas o de tarifas de carga,
-a contar de la fecha en que le fuera notificada la aprobación.
-
-Formas de publicidad de tarifas,
-clasificadores, reglamentos, distan-
-cias, etc.
-
-Art. 210. — Las tarifas con sus reglamentos, clasificadores
-y distancias serán editados en términos claros y con todas
-las indicaciones necesarias para su fácil comprensión en libros
+de
+poner
+en vigencia cualquiera de los proyectos
+a
+que
+se
+haee referenda precedentemente,
+o deseara introducir alguna
+modificaciôn, deberâ hacerlo saber a la Direcciôn General de
+Ferrocarriles,
+por medio de una nueva presentaciôn, dentro
+del plazo mâximo de 15 6 de 30 dîas, segun se trate de tarifas
+de pasajeros, equipajes y encomiendas
+o de tarifas de
+cai'ga,
+a contar de la fecha en que le fuera notificada la aprobacion.
+Formas
+de
+publicidad
+de
+tarifa®,
+clasificadores, reglamentos,
+distan¬
+cias,
+etc.
+Art.
+210. —■Las tarifas
+con
+sus reglamentos, clasificadores
+y distancias serân
+editados
+en términos
+claros y
+con todas
+las indicaciones necesarias para su fâcil comprensiôn en libros
 de igual formato.
-Los reglamentos concernientes a la admisión de pasajeros y
-sus obligaciones, deberán colocarse a la vista en todas las esta-
-ciones. (Ley, art. 33.)
-La reimpresión de los libros de tarifas se hará periódica-
+Los reglamentos concernientes a la admisiôn de pasajeros y
+sus obligaciones, deberân colocarse a la vista en todas las esta-
+ciones.
+(Ley, art. 33.)
+La reimpresiôn de los libros de tarifas
+se harâ periôdica-
 mente.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or significant visual elements on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. All text is clear and legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and layout elements on the page have been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 147
@@ -1255,70 +1320,142 @@ All visible text on the page has been transcribed. The partial right column text
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
 ```
 
+# Page 162
+
 ## Page Metadata
-Page number: 159
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json`
+- Source page: 162
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/page-images/page-0162.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single-column layout with a page number centered at the top. The main content consists of several paragraphs of text, including two numbered articles (Art. 248 and Art. 249) and two bolded subheadings. Text flows from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 159 —
-
+```markdown
+159
+—
 presas y seis horas en total por cada trasbordo entre empresas
-de distinta trocha.
-El tiempo para el transporte comenzará a contarse desde
+de distinta troeha.
+El tiempo
+para el transporte comenzarâ
+a contarse
+desde
 la hora fijada para la salida del respectivo tren.
-Las cargas deberán ser entregadas a más tardar una hora
+Las cargas deberân ser entregadas
+a mas tardai’ una hora
 antes de la salida de los trenes con los cuales deban ser trans-
 portadas.
-Estos transportes se efectuarán por aquellos trenes que las
-empresas determinen para su realización, a cuyo efecto comu-
-nicarán al público el horario de los mismos, previa aproba-
-ción por la Dirección General de Ferrocarriles.
-Cuando las necesidades del tráfico lo requieran, a juicio de
-dicha Dirección, las empresas establecerán trenes especiales
+Estos transportes
+se efectuarân por aquellos trenes que las
+empresas determinen para su realizaciôn, a cuyo efecto eomu-
+nicarân al publico
+el horario de los mismos, previa aproba-
+ciôn por la Direccion General de Ferrocarriles.
+Cuando las necesidades del trâfico lo requieran, a juicio de
+dieha Direccion, las
+empresas
+establecerân
+trenes especiales
 de horario para efectuar esos transportes.
-La clasificación en sustancias de primera y segunda cate-
-goría será dispuesta por el Poder Ejecutivo y las nóminas
-correspondientes podrán ser modificadas de oficio o a ins-
-tancia de parte, previo dictamen de la Dirección General de
-Ferrocarriles.
-
-**Rumbo por el cual deben despa-**
-**charse las cargas.**
-
-Art. 248.— Si varias vías uniesen el punto de expedición
-con el de destino, la empresa despachará la carga por la vía
-que mejor le convenga, siempre que no exista pacto expreso
-con el remitente sobre el camino por donde debe efectuarse
-el transporte; quedando, sin embargo, obligada a hacerlo por
-la vía que tenga las tarifas más bajas y condiciones de trans-
-porte más favorables para el remitente.
-
-**Flete a pagar. Casos en que puede**
-**rechazarse un transporte con esta**
-**condición.**
-
-Art. 249.— Las empresas podrán negarse a conducir cargas
-con flete a pagar, cuando sean de fácil deterioro, o su valor
-en destino no baste a cubrir los gastos del transporte, y en
-otros casos especiales dando cuenta a la Dirección General
-de Ferrocarriles.
+La clasificacion
+en sustancias
+de primera y segunda cate¬
+na
+sera dispuesta por
+el Poder Ejecutiyo
+y las
+nommas
+eorrespondientes podrân
+ser modificadas
+de
+oficio
+o
+a
+ins-
+tancia de parte, previo dictamen de la Direccion General de
+Ferroearriles.
+Rumbo
+por
+el
+cual
+deben
+despa-
+cbarse las cargas.
+Art.
+248. —Si varias vias uniesen el punto de expedicion
+cou el de destino, la empresa despacharâ la carga por la via
+lue mejor le convenga, siempre
+que no exista pacto expreso
+con el remitente sobre
+el camino
+por donde debe efectuarse
+d transporte ; quedando, sin embargo, obligada a hacerlo por
+*a via que tenga las tarifas mas bajas y condiciones de trans¬
+porte mas favorables para el remitente.
+Flete
+a pagar. Casos
+en
+que puede
+rechazarse
+un transporte
+con
+esta
+condiciôn.
+Art. 249. — Las empresas podrân negarse a conducir cargas
+con flete
+a pagar, cuando sean de fâcil deterioro,
+o su valor
+en destino
+no baste
+a cubrir los gastos del transporte,
+y
+en
+ctros
+casos especiales dando
+cuenta
+a
+la
+Direccion
+General
+de Ferroearriles.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 163

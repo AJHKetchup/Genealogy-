@@ -1,0 +1,131 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-4f18b5f39f71-P0145-01
+source_converted: raw/converted/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150.codex.md
+converted_sha256: 4f18b5f39f71ff3c4fa71878d041c5badb3848aab127eec21c0282ad5f66683a
+source: raw/sources/S495-2-2.pdf
+source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
+source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json
+page_start: 145
+page_end: 145
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S495-2-2.pdf`
+- Source SHA-256: `9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027`
+- Conversion manifest: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json`
+- Source page: 145
+- Page image: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-images/page-0145.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+RENACIMIENTO
+31
+taz estâ présente que cuando estâausen-
+te.
+Y el hoinbre que cuando se le entre¬
+ra una carta para Garcia la lleva tran-
+quilamente sin hacer preguntasidiotasy
+sin la intention perversa de arrojarlaen
+la primera alcantarrilla que
+se encuen-
+tre, y sin otro âtiimoqueconducirla a su
+destino, este horabre nunca es despedido
+de
+su trabajo, ni tiene que entrar en
+hnelgas para obtener au men to de su sa-
+lario.
+La civilizacidn es una larga y an
+siosa lucha en busca de taies individuos.
+Todo lo que un hombre de esaclase pi-
+da, lo obtiene; lo necesitan en todas par¬
+tes: en las ciudades, en los pueblos y en-
+los villorios; en las oficinas, fâbricas y
+almacenes. El mundo pide a gritos taies
+hombres, los necetita—y los necesita con
+urgencia, y aquéllos que puedan llevar
+una carta a Garcia, estân regidos por la
+ley de la inflnidad y la cohesion que les
+da forma, dureza y estabilidad;los orga
+nismos sociales requieren y necesitan la
+coopération para consolidarse, para lu¬
+cha r y para alcanzar eficientemente los
+elevados fines de adelanto y de bienes-
+tar comun.
+ELBERT HUBBARD
+:
+ladican un estado
+varicüoO ea plena evo-
+w
+luciôn. La circulaciôn es
+mâs lenta
+U
+a sauge espesa,
+cargada de impuiiezas, dilata las
+venas, que, de un momerdo a otro,
+pueden romperse y engendrar ima ûlcer i de la> niernas
+û
+un
+eczema
+varicoso,
+o
+provocar
+una
+flebius.
+EJ
+Depurativo
+tse potente purificador de la sangre, restablecerâ la cir¬
+culaciôn defectuosa ; ha’ à que des aparezca rà ida
+er te
+la hinchazôn de las vârices. La pierna, descongesti. nada,
+recuperarâ el aspecto no mal que tenia, y la pesadez
+del miembro se cambiarà en un Vi“rdadero bienestar.
+El tratamiento Richelet se encuentra en todas las farmacias
+L. Richelet de Sedan. 6, rue de Belfort Bayonne (Francia).
+LAS
+PIERNAS
+PESADAS
+i
+Jep
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 146

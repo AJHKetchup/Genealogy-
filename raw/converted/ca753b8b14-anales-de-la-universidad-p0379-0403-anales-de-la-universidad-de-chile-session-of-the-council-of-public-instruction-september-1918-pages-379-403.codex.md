@@ -417,64 +417,102 @@ The transcription is complete and accurate, capturing all text and formatting fr
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page contains only text."}
 ```
 
+# Page 386
+
 ## Page Metadata
-- Page number: 366
-- Source publication year: 1918
-- Source publication title: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json`
+- Source page: 386
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/page-images/page-0386.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, with a header at the top indicating the section title and page number. The content flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-366 MEMORIAS CIENTÍFICAS I LITERARIAS
----
-Eizaguirre ocupó parte de su tiempo en el ejercicio
-del ministerio eclesiástico como celoso sacerdote que
-era. I siendo la predicación uno de los ministerios
-más fructíferos, i para el cual se reconocía mejores
-aptitudes, predicó mucho en todas partes, i hasta
-dió ejercicios espirituales al clero de una de las dió-
-cesis de Bolivia.
-Los disturbios políticos de esta república, que tra-
-jeron por resultado la caída del presidente Linares
-i la exaltación del jeneral Achá, i quizás algunas di-
-ficultades con que tropezaría de parte del gobierno
-boliviano, no le permitieron llevar a feliz término
-las negociaciones iniciadas, i así se retiró de Bolivia
-sin concluir nada.
-Encaminóse de La Paz al Cuzco, pasando por
-Puno. En el camino sufrió una caída de la mula el
-señor Waddington, secretario de Eizaguirre i tuvo
-que detenerse quince días en Puno (Marzo de 1861).
-El clero, pueblo i las autoridades civiles del Cuzco
-le hicieron una recepción triunfal, i el vicario capitu-
-lar de la diócesis se prestó con todo entusiasmo para
-ayudarle, enviando al clero i pueblo circulares en que
-recomendaba orar por el Padre Santo i contribuir
-con erogaciones para su sostenimiento, i daba noticia
-del Seminario Pío Latino Americano. También en
-esta diócesis predicó Eizaguirre repetidas veces i al
-parecer con bastante fruto espiritual.
-El gobierno de Achá deseó continuar con Eizagui-
-rre las negociaciones iniciadas por éste con el pre-
-sidente Linares; pero, habiéndole llegado noticias
-poco favorables de la estabilidad i firmeza de propó-
-sitos de las autoridades bolivianas, no quiso Eiza-
-guirre volver a Bolivia, i desde el Cuzco regresó a
+
+```markdown
+. 
+eS 
+2066 
+MEMORIAS CIENTÍFICAS 
+1 LITERARIAS 
+KEizaguirre ocupó parte de su tiempo en el ejercicio 
+del ministerio eclesiástico como celoso sacerdote que 
+era. | siendo la predicación uno de los ministerios 
+más fructíferos, 1 para el cual se reconocía mejores 
+aptitudes, predicó mucho en todas partes. 1 hasta 
+dió ejercicios espirituales al clero de una de las dió- 
+cesis de Bolivia. 
+Los disturbios politicos de esta república, que tra- 
+jeron por resultado la caída del presidente Linares 
+1 la exaltación del ¡eneral Achá, 1 quizás algunas d1- 
+ficultades con que tropezaría de parte del gobierno 
+boliviano, 
+no le permitieron llevar 
+a feliz término 
+las negociaciones iniciadas. i así se retiró de Bolivia 
+sin concluir nada. 
+Encaminóse 
+de La Paz 
+al Cuzco, pasando por 
+Puno. En el camino sufrió una caída de la mula el 
+señor Waddington. secretario de Hizaguirre 1 tuvo 
+«que detenerse quince días en Puno (Marzo de 1861). 
+El clero, pueblo i las autoridades civiles del Cuzco 
+le hicieron una recepción triunfal, 1 el vicario capitu- 
+lar de la diócesis se prestó cón todo entuslasmo para 
+ayudarle, enviando al clero 1 pueblo circulares en que 
+recomendaba orar por el Padre Santo 1 contribuir 
+con erogaciones para su sostenimiento, 1 daba noticia 
+del Seminario Pío Latino Americano. También en- 
+esta diócesis predicó HEizaguirre repetidas veces 1 al 
+parecer con bastante fruto espiritual. 
+El gobierno de Achá deseó continuar con Kizagui- 
+rre las negociaciones iniciadas por éste con el pre- 
+sidente 
+Linares; 
+pero, 
+habiéndole 
+llegado noticias 
+poco favorables de la estabilidad 1 firmeza de propó- 
+sitos de las autoridades bolivianas, no quiso Hiza- 
+gulrre volver a Bolivia, 1 desde el Cuzco regresó a
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. All text is clearly legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions present."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 367

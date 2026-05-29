@@ -382,259 +382,376 @@ The transcription is complete and accurate, capturing all visible text and forma
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page that would be useful as standalone wiki assets."}
 ```
 
+# Page 686
+
 ## Page Metadata
-Page number: 616
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 686
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0686.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The reading order is from top to bottom, left to right.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-616 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-minuian las rentas fiscales, i hacian desgraciada compe-
-tencia al comercio importador honrado. Cabe, desde
-luego, una observacion previa: ¿Cómo podria hacerse la
-afirmacion que antecede, i ademas, cómo pudo saberse
-que tal contrabando procedia del puerto franco de Pun-
-ta Arenas?
-
-Para aseverar ámbas cosas era necesaria una estadís-
-tica de los contrabandos, i conocer el puerto de desem-
-barco de las mercaderías, respectivamente.
-
-Si contrabando es la introduccion oculta i fraudulen-
-ta de mercaderías no sorprendidas ántes del consumo,
-es imposible, materialmente, tener constancia acerca de
-su magnitud. Cuando se ha consumado, es porque ni el
-resguardo ha dado cuenta de él, ni mucho ménos, por
-supuesto, lo ha rejistrado la estadística para conocer su
-número, cuantía o importancia, i poder afirmar que dis-
-minuye las entradas de la nacion, con perjuicio, al mis-
-mo tiempo, del comerciante honrado.
-
-Ahora, si al hablar de contrabando se referian al
-comprobado o sorprendido ántes del consumo, en nin-
-gun caso habria disminucion sino, por el contrario,
-aumento de entradas fiscales, i el comercio estaria mui
-léjos de sufrir la competencia deshonesta de que se le
-hacia víctima.
-
-Segun esto, no podía el Gobierno ordenar la creacion
-de la Aduana en Punta Arenas, pues, en realidad, del
-monto de los supuestos contrabandos nada se sabía, ni
-ménos se tenia la seguridad de que ellos se orijinaran en
-dicho puerto.
-
-Pero, colocándose en el peor de los casos, i suponién-
-dolos efectivos, el remedio no estaria en establecer la
-medida decretada, sino en ordenar una mas estricta vi-
-jilancia en los puertos del Norte que se presumian per-
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+```markdown
+— 
+616 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+_Hminuian las rentas fiscales, 1 hacian desgraciada compe- 
+tencia al comercio importador honrado. 
+Cabe, desde 
+luego, una observacion previa: ¿Cómo podria hacerse la 
+afirmación que antecede, i ademas, cómo pudo saberse 
+que tal contrabando procedia del puerto franco de Pun- 
+ta Arenas? 
+Para aseverar ámbas cosas era necesaria una estadís- 
+tica de los contrabandos, 1 conocer el puerto de desem- 
+barco de las mercaderías, respectivamente. 
+Si contrabando es la introduccion oculta 1 traudulen- 
+ta de mercaderías no sorprendidas ántes del consumo, 
+es imposible, materialmente, tener constancia acerca de 
+su magnitud. Cuando se ha consumado, es porque ni el 
+resguardo ha dado cuenta de él, ni mucho ménos, por 
+supuesto, lo ha rejistrado la estadística para conocer su 
+número, cuantía o importancia, i poder afirmar que dis- 
+minuye las entradas de la nacion, con perjuicio, al mis- 
+mo tiempo, del comerciante honrado. 
+Ahora, si al hablar de contrabando 
+se referian al 
+comprobado o sorprendido ántes del consumo, en nin- 
+gún caso habria disminucion sino, por 
+el contrario, 
+aumento de entradas fiscales, 1 el comercio estaria mul 
+léjos de sufrir la competencia deshonesta de que se le 
+hacia víctima. 
+: 
+Segun esto, no podía el Gobierno ordenar la creacion 
+de la Aduana en Punta Arenas, pues, en realidad, del 
+monto de los supuestos contrabandos nada se sabía, ni 
+ménos se tenia la seguridad de que ellos se orijinaran en 
+dicho puerto. 
+Pero, colocándose en el peor de los casos, i suponién- 
+dolos efectivos, el remedio no estaria en establecer la 
+medida decretada, sino en ordenar una mas estricta vI- 
+Jilancia en los puertos del Norte que se presumian per
 ```
-
-## Page Metadata
-Page number: 617
-
-## Layout And Reading Order
-
-The page presents a single column of text, with a header at the top containing a title and the page number. The main content consists of several paragraphs.
-
-## Literal Transcription
-
-ESTUDIO DEL TERRITORIO DE MAGALLANES 617
-
-judicados por el contrabando, i no en crear para el Te-
-rritorio, con saludable intencion, sin duda, pero con
-absoluto desconocimiento tambien, el mayor de los cas-
-tigos que pudiera habérsele infrinjido.
-Por lo demas, basta mirar durante un momento el
-mapa para convencerse de que si el fin del Gobierno
-era el evitar los contrabandos, no lo ha conseguido
-con la Aduana en la forma en que está establecida,
-pues ni siquiera dispone de una mala lancha para la
-vijilancia, no digo dentro del Territorio, sino aun den-
-tro de la Bahía.
-
-Hai en Magallánes un sinnúmero de caletas, puertos i
-ensenadas fáciles de abordar, i alejadas en absoluto de
-la vista del hombre, en las que fácilmente se pueden des-
-embarcar las mercaderías que se quieran e internarlas
-por tierra en Punta Arenas, sin que la Aduana se perca-
-te de ello.
-
-Se necesitaria para esta vijilancia de una flotilla de
-vapores especialmente dedicada a este objeto en el mar,
-i de un ejército de guardas en tierra para que cerraran
-la entrada abierta i cómoda, formada por las inmensas
-llanuras suavemente onduladas que comunican a Punta
-Arenas con la Costa Arjentina, cuyos puertos están li-
-bres de derechos.
-
-En cambio, la facilidad para efectuar el contrabando,
-ha traido en este caso un perjuicio evidente para el alto
-comercio magallánico.
-
-Este interna sus mercaderías en enormes cantidades
-por Punta Arenas, donde posee muelles propios i donde
-paga los correspondientes derechos de aduana, pero el
-pequeño comercio casi todo lo trae por tierra de los
-puertos arjentinos, i viola los derechos fácilmente, ya
-que no hai un puesto aduanero en el trayecto que se lo im-
 
 ## Images, Captions, And Visual Notes
 
-There are no images, captions, or significant visual notes on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+# Page 687
 
 ## Page Metadata
-- Page number: 618
-- Running head: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 687
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0687.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number and running head are at the top. The main content is a continuous block of text divided into several paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-618 MEMORIAS CIENTÍFICAS I LITERARIAS
+```markdown
+——— 
+ESTUDIO DEL TERRITORIO DE MAGALLANES 
+617 
+judicados por el contrabando, ino en crear para el Te- 
+“rritorio, con saludable intencion, 
+sin duda, pero con 
+absoluto desconocimiento tambien, el mayor de los cas- 
+tigos que pudiera habérsele infrinjido. 
+Por lo demas, basta mirar durante un momento el 
+mapa para convencerse de que si el fin del Gobierno 
+era el “evitar los contrabandos, 
+no lo ha conseguido 
+con la Aduana en la forma en que está establecida, 
+pues ni siquiera dispone de una mala lancha 
+para la 
+vijilancia, no digo dentro del Territorio, sino aun den- 
+tro de la Bahía. 
+Hai en Magallánes un sinnúmero de caletas, puertos 1 
+ensenadas fáciles de abordar, i alejadas en absoluto de 
+la vista del hombre, en las que fácilmente se pueden des- 
+sembarcar las mercaderías que se quieran e internarlas 
+por tierra en Punta Arenas, sin que la Aduana se perca- 
+te de ello. 
+Se necesitaria para esta vijilancia de una flotilla de 
+vapores especialmente dedicada a este objeto en el mar, 
+ide un ejército de guardas en tierra para que cerraran 
+la entrada abierta 1 cómoda, formada por las inmensas 
+llanuras suavemente onduladas que comunican a Punta 
+Arenas con la Costa Arjentina, cuyos puertos están li- 
+bres de derechos. 
+UN 
+En cambio, la facilidad para efectuar el contrabando, 
+ha traido en este caso un perjuicio evidente para el alto 
+comercio magallánico. 
+Este interna sus mercaderías en enormes 
+cantidades 
+por Punta Arenas, donde posee muelles propios i donde 
+. 
+paga los correspondientes derechos de aduana, pero el 
+pequeño comercio casi todo lo trae por tierra de los 
+puertos arjentinos, 1 viola los derechos fácilmente, ya 
+queno hai un puesto aduanero en el trayecto que se lo im-
+```
 
-pida, orijinando para el comercio al por mayor i serio,
-una competencia ruinosa, que constituye para él una
-amenaza de muerte, mas patente toda vez que el réjimen
-aduanero continúa i no hai esperanzas de que el Supremo
-Gobierno piense en abolirlo.
+## Images, Captions, And Visual Notes
 
-Al respecto se ha comparado a Magallánes con un
-gran campo sin cercado pero con una puerta de entrada
-que es la Aduana. Pasando por ella, hai que pagar el
-peaje, pero haciéndolo por otra parte, se le evita.
+- No Docling picture regions were detected for this page.
 
-Puede decirse, con razon, que el impuesto aduanero
-en Punta Arenas no es tal, sino mas bien una facultad,
-cuyo cumplimiento está basado únicamente en la con-
-fianza de que el comercio serio del puerto no ha de que-
-rer enlodarse con un fraude que, como se ve, nada le
-costaria ejecutar.
+## Translation
 
-Por lo que a la proteccion al comercio e industria na-
-cional se refiere, mui poco es lo que se ha ganado.
+No translation was produced by the Docling basic conversion pass.
 
-En efecto, la industria chilena esportable está aun en
-ciernes; sus precios son elevados i su calidad mediocre.
-No ha desalojado a la similar estranjera, ni puede ha-
-cerlo todavía. Esto por lo que se refiere al lugar mismo
-de su produccion; pero considerándola puesta en Maga-
-llánes, las ventajas se convierten en perjuicios.
+## Interpretation
 
-Existe, como he dicho, solo la línea de vapores de
-Braun i Blanchard, que pueda traer acá los productos
-chilenos. Esta falta de competencia hace que dichos ar-
-tículos se recarguen enormemente en su precio de costo,
-valor que no está, ni por la calidad del producto, ni
-por el monto del derecho de aduana que paga el es-
-tranjero, ni por el precio de este último, que es igual
-o inferior al nacional, en condiciones de afrontar con ven-
-taja la competencia.
+No interpretation was produced by the Docling basic conversion pass.
 
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 688
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 688
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0688.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+618 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+pida, orijinando para el comercio al por mayor 1 serio, 
+una competencia ruinosa, que constituye para él una 
+amenaza de muerte, mas patente toda vez que el réjimen 
+aduanero continúa 1 no hai esperanzas de que el Supremo 
+Gobierno piense en abolirlo. 
+Al respecto 
+se ha comparado a Magallánes 
+con un 
+gran campo sin cercado pero con una puerta de entrada 
+que es la Aduana. Pasando por ella, hai que pagar el 
+peaje, pero haciéndolo por otra parte, se le evita. 
+Puede decirse, con razon, que el impuesto aduanero 
+en Punta Arenas no es tal, sino mas bien una facultad, 
+cuyo cumplimiento está basado únicamente en la con- 
+fianza de que el comercio serio del puerto no ha de que- 
+rer enlodarse con un fraude que, como se ve, nada le 
+costaria ejecutar. 
+Por lo que a la proteccion al comercio e industria na- 
+cional se refiere, mui poco es lo que se ha ganado. 
+: 
+En etecto, la industria chilena esportable está aun en 
+ciernes; sus precios son elevados 1 su calidad mediocre. 
+No ha desalojado a la similar estranjera, ni puede ha- 
+cerlo todavía. Esto por lo que se refiere al lugar mismo 
+de su produccion; pero considerándola puesta en Maga- 
+llánes, las ventajas se convierten en perjuicios. 
+| 
+Existe, como he dicho, solo 
+la línea de vapores de 
+Braun 1 Blanchard, que pueda traer acá los productos 
+chilenos. Esta falta de competencia hace que dichos ar- 
+tículos se recarguen enormente en su precio de costo, 
+valor que no está, ni por la calidad del producto, ni 
+por el monto 
+del derecho de aduana que paga el es- 
+tranjero, ni por el precio de este- último, que es igual 
+o inferior al nacional, en condiciones de afrontar conven- 
+taja la competencia. 
+| 
+> 
 Si se agregan las facilidades que existen para inter-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 689
 
 ## Page Metadata
-- Page number: 619
-- Header: ESTUDIO DEL TERRITORIO DE MAGALLANES
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 689
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0689.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a running header and page number at the top. The text is divided into five paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-nar de contrabando durante todo el año, i en forma
-constante, aquellos artículos, sobre todo en materia de
-licores, tabacos i, en jeneral, todos los de poco volú-
-men i alto precio, la proteccion a la industria nacional
-resulta casi nula.
 
-No obstante, la Memoria de la Aduana de 1916 acu-
-sa, debido a la guerra europea, una gran internacion de
-calzado chileno, que si bien proteje el negocio de unos
-dos o tres industriales del centro del pais, causa en mi-
-les de obreros magallánicos un grave perjuicio.
-
-Las botas inglesas, por ejemplo, que usaban ántes,
-estaban hechas en forma tal, que los preservaban de la
-humedad en que permanecen durante todo el dia los
-peones i trabajadores de campo, miéntras que hoi,
-debido a la falta de ellas, o a su elevado precio, se
-ven obligados a usar la bota chilena, cuyassuelas i cue-
-ro no tienen aun las condiciones de impermeabilidad
-de aquéllas, lo que es causa de reumatismos, que en
-edad temprana inutilizan para las faenas del campo
-a muchos trabajadores.
-
-Se dice, jeneralmente, que en esta forma, abriendo
-nuevos mercados, se proteje la industria nacional,
-pero, en lo que a Magallánes respecta, esta razon pare-
-ce mas especiosa que sólida.
-
-Si se aumenta el mercado, no solo dentro de Chile
-sino aun fuera de él, a una industria cuyos productos
-han llegado a un grado aceptable de perfeccion, está
-bien, pero si se procede en esta forma con la que se
-encuentra solo en pañales, con la que produciendo un
-artículo casi de buena calidad, resulta siempre infe-
-rior al estranjero, no se la proteje, segun mi parecer, sino
-que se la espone a caer arruinada por cualquiera com-
+```markdown
+> 
+e 
+cos A 
+A 
+ESTUDIO DEL TERRITORIO DE MAGALLANES 
+619 
+/ 
+¡nar de contrabando durante todo 
+el año, 1 en forma 
+constante, aquellos artículos, sobre todo en materia de 
+licores, tabacos 
+1, en jeneral, todos los de poco volú- 
+men 1alto precio, la proteccion a la industria nacional 
+resulta casi nula. 
+No obstante, la Memoria de la Aduana de 1916 acu- 
+sa, debido a la guerra europea, una gran internación de 
+calzado chileno, que si bien proteje el negocio de unos 
+dos o tres industriales del centro del pais, causa en mi- 
+les de obreros magallánicos un grave perjuicio. 
+Las botas inglesas, por ejemplo, que usaban ántes, 
+estaban hechas en forma tal, que los preservaban de la 
+humedad en que permanecen durante todo el dia los 
+peones 1 trabajadores de campo, miéntras que hoi, 
+debido a la falta de ellas, o a su elevado precio, se 
+ven obligados a usarla bota chilena, cuyassuelas 1 cue- 
+ro no tienen aun las condiciones de impermeabilidad 
+de aquéllas, lo que es causa de reumatismos, que en 
+edad temprana inutilizan para las faenas del campo 
+a muchos trabajadores. 
+Se dice, jeneralmente, que en esta forma, abriendo 
+nuevos mercados, se proteje la industria nacional, 
+¡| pero, en lo que a Magallánes respecta, esta razon pare- 
+ce mas especiosa que sólida. 
+S1 se aumenta el mercado, no solo dentro de Chile 
+sino aun fuera de él, a una industria cuyos productos 
+han llegado a un grado aceptable de perfeccion, está 
+bien, pero si se procede en esta forma con la que se 
+encuentra solo en pañales, con la que produciendo un 
+artículo casi de buena calidad, resulta siempre inte- 
+rior al estranjero, no sela proteje, segun mi parecer, sino 
+que se la espone a caer arruinada por cualquiera com- 
 petencia, pues le falta la base: la calidad del producto.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 690
 
@@ -767,114 +884,179 @@ All visible text on the page has been transcribed. The last word "clande--" is h
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 
+# Page 692
+
 ## Page Metadata
-Page number: 622
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 692
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0692.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number and running header are at the top. The main content is a continuous block of text, with a numbered point (6.º) and a sub-point (1.er PUNTO.—) breaking the flow.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-tina de mercaderías extranjeras dada la estension enor-
-me de las costas magallánicas, sus numerosos puertos,
-caletas i ensenadas, i gastos considerables que deman-
-daria al Fisco un buen servicio aduanero, en relacion
-con las entradas.
-      6.º Pésimo funcionamiento de la Aduana misma.
-      1.er PUNTO.—Cuando traté de la cuestion social, tuve
-oportunidad de estudiar las causas que motivaron la
-separacion de las clases en que está dividida la pobla-
-cion de Magallánes, i establecia como uno de los mo-
-tivos de la lucha establecida entre el capitalista i el
-obrero, el continuo aumento de salarios que el último
-ha estado pidiendo desde 1912, lo que a su vez ha na-
-cido, en gran parte, de la carestía de la vida orijinada
-por el establecimiento de la Aduana. Dije tambien que
-la lucha de las dos clases era constante, lo que impedia
-la iniciacion de nuevas industrias, pues el capitalista
-teme esponer su dinero, por mui brillante que se pre-
-sentara un negocio, los que, ademas de las eventuali-
-dades que por lo jeneral les son inherentes, lleva tam-
-bien envueltas las consecuencias del «paro».
-      Esta carestía repercute naturalmente sobre el mas
-débil, sobre los que precisamente son mas acreedores
-al apoyo del Gobierno, por esta circunstancia, i por la
-de ser chilenos: el empleado público i el obrero.
-      La situacion de los primeros es casi siempre crítica,
-pero en Magallánes toma caractéres alarmantes, ya que
-en el desempeño de sus funciones requieren, sobre todo
-en medio de una sociedad estranjera i rica, cierta hol-
-gura. Lo contrario es esponer a sus conciencias a una
-continua tentacion en la que, por desgracia para el ele-
-mento chileno honrado, han caido ya muchos, dejando
 
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-The transcription is complete and accurate for all visible text on the page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+```markdown
+622 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+tina de mercaderías estranjeras dada la estension enor- 3 
+me de las costas magallánicas, sus numerosos puertos, -4 
+caletas i ensenadas,1 gastos considerables que deman-- 
+daria al Fisco un buen servicio aduanero, en relacion 
+con las entradas. 
+6 Pésimo funcionamiento de la Aduana misma. 
+1.* Punto.—Cuando traté de la cuestion social, tuve 
+oportunidad de estudiar las causas que motivaron la. 
+separacion de las clases en que está dividida la pobla-. 
+cion de Magallánes, 1 establecia como uno de los mo-* 
+tivos de la lucha establecida entre el capitalista 1 el — 
+obrero, el continuo aumento de salarios que el último 
+ha estado pidiendo desde 1912, lo que a su vez ha na= 
+cido, en gran parte, de la carestía de la vida orijinada 
+por el establecimiento de la Aduana. Dije tambien que 
+la lucha de las dos clases era constante, lo que impedia 
+la iniciacion de nuevas industrias, pues el capitalista 
+teme esponer su dinero, por mui brillante que se pre-- 
+sentara un negocio, los que, ademas de las eventuali- 
+dades que por lo jeneral les son inherentes, lleva tam 
+bien envueltas las consecuencias del «paro». 
+Esta carestía repercute naturalmente sobre el mas 
+débil, sobre los que precisamente son mas asreedores 
+al apoyo del Gobierno, por esta circunstancia, 1 por la 
+de ser chilenos: el empleado público 1 el obrero. 
+La situacion de los primeros es casi siempre crítica, 
+pero en Magallánes toma caractéres alarmantes, ya que 
+en el desempeño de sus funciones requieren, sobre todo 
+en medio de una sociedad estranjera 1 rica, cierta hok- 
+gura. Lo contrario es esponer a sus conciencias a una 
+continua tentacion en la que, por desgracia para el ele= 
+mento chileno honrado, han caido ya muchos, dejando.
 ```
 
-## Page Metadata
-Page number: 693
-
-## Layout And Reading Order
-The page presents a single column of text, with a running header at the top indicating "ESTUDIO DEL TERRITORIO DE MAGALLANES" on the left and the page number "623" on the right. The main content consists of several paragraphs of body text.
-
-## Literal Transcription
-ESTUDIO DEL TERRITORIO DE MAGALLANES 623
-tras de sí, no solo el desprestijio personal, sino tambien
-para los chilenos en jeneral.
-El comerciante tiene el capital i con él la libertad de
-trasladarse i arrancar del lugar en que se ponen trabas
-a su industria o, en último caso, aumenta el precio de
-sus artículos hasta compensarse de las pérdidas que
-aquéllas le orijinan, lo que no sucede respecto al em-
-pleado público, ni ménos al obrero: si se van, pierde
-aquél su carrera i éste su pan.
-Las peticiones de aumento de salario han sido siem-
-pre justas. Las resistencias opuestas por sus patrones
-son humanas; i, segun creo, ni una sola vez se han so-
-lucionado pacíficamente sin apelar al último recurso de
-la huelga, que en ocasiones ha durado dos meses, lapso
-de tiempo durante el cual el patron i el obrero han
-perdido mas dinero, con el consiguiente atraso econó-
-mico de la rejion, que los dos millones de pesos que ha
-percibido el Fisco por derechos de internacion desde la
-creacion de la Aduana.
-Por causa de ésta, dos fuerzas poderosas de engran-
-decimiento social, el capital i el trabajo, en vez de unir-
-se, se disyuntan i empiezan a odiarse. Sus actividades,
-igualmente grandes, se anulan en una lucha estéril, en
-la cual tal vez nunca llegarán a entenderse, porque el
-mal en este caso no está en ella sino en la Aduana, que,
-encareciendo la vida, hace que el obrero necesite mas
-salario, aumento que el patron por lo jeneral niega, pues
-no siempre está en situacion de satisfacerlo, i, aunque
-lo esté, siente su amor propio de tal justamente humi-
-llado al ver que sus propios dependientes le imponen
-condiciones que solo él debe regular.
-Ademas de la carestía jeneral de la vida, el gravámen
-que pesa sobre ciertos artículos ha venido a traer conse-
-
 ## Images, Captions, And Visual Notes
-There are no images, captions, or significant visual notes on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 693
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 693
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0693.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+ESTUDIO DEL TERRITORIO DE MAGALLANES 
+623 
+tras de sí, no solo el desprestijio personal, sino tambien 
+para los chilenos en jeneral. 
+: 
+El comerciante tiene el capital i con él la libertad de 
+trasladarse 1 arrancar del lugar en quese ponen trabas 
+a su industria o, en último caso, aumenta el precio de 
+sus artículos hasta compensarse de las pérdidas que 
+aquéllas le orijinan, lo que no sucede respecto al em- 
+_pleado público, ni ménos 
+al obrero: si se van, pierde 
+aquél su carrera 1 éste su pan. 
+Las peticiones de aumento de salario han sido siem- 
+pre justas. Las resistencias opuestas por sus patrones 
+son humanas, 1, segun creo, ni una sola vez se han so- 
+- lucionado pacíficamente sin apelar al último recurso de 
+la huelga, que en ocasiones ha durado dos meses, lapso 
+de tiempo durante el cual el patron 1 el obrero han 
+perdido mas dinero, con el consiguiente atraso econó- 
+mico de la rejion, que los dos millones de pesos que ha 
+percibido el Fisco por derechos de internacion desde la 
+creacion de la Aduana. 
+Por causa de ésta, dos fuerzas poderosas de engran- 
+decimiento social, el capital 1 el trabajo, en vez de unir- 
+se, se disyuntan 1 empiezan a odiarse. Sus actividades, 
+igualmente grandes, 
+se anulan en una lucha estéril, en 
+la cual tal vez nunca llegarán a entenderse, porque el 
+mal en este caso no está en ella sino en la Aduana, que, 
+encareciendo la vida, hace que el obrero necesite mas 
+salario, aumento que el patron por lo jeneral niega, pues 
+no siempre está en situacion de satisfacerlo, 1, aunque 
+lo esté, siente su amor propio de tal justamente humi- 
+llado al ver que sus propios dependientes le imponen 
+condiciones que solo él debe regular. 
+Ademas de la carestía jeneral de la vida, el gravámen 
+que pesa sobre ciertos artículos ha venido a traer conse-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 624
@@ -935,65 +1117,94 @@ All visible text on the page has been transcribed. The last word "des-" is hyphe
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 
+# Page 695
+
 ## Page Metadata
-- Page number: 625
-- Source publication: Anales de la Universidad de Chile
-- Session: Session of the Council of Public Instruction
-- Date: September 1918
-- Running header: ESTUDIO DEL TERRITORIO DE MAGALLANES
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 695
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0695.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a running header at the top and a footer at the bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-ESTUDIO DEL TERRITORIO DE MAGALLANES 625
 
-pues ser motejados de anarquistas, porque levantan su
-voz pidiendo aumento de salario!
-Nada de esto, estoi seguro, lo conoce el Gobierno; por
-eso es menester que se sepa, para que al dictar medidas
-proteccionistas, en abstracto i desde Santiago excelentes,
-no vengan a encontrar en su aplicacion práctica circuns-
-tancias que en vez de resultar protectoras, destruyan.
-2.º PUNTO.— El comercio magallánico puede decirse
-que está concentrado en algunas grandes firmas, las prin-
-cipales de las cuales son: Braun i Blanchard, Menéndez,
-Stubenrauch, Montes, Sara Braun, etc.
-Estas firmas, como ya lo he demostrado, lo abarcan
-todo: estancias, frigoríficos, flotas de vapores, minas, fe-
-rrocarriles, muelles, aserraderos, criaderos de aves, etc.
-Muchas veces alcanza su poder hasta un despacho cual-
-quiera, dirijido por un individuo, o un taller de herrería,
-de los que a veces son los dueños absolutos, o ha sido
-su dinero el que ha servido para formarlos.
-Cuando se estableció la Aduana, estas firmas hicieron
-lo posible para obtener su abolicion, haciendo presente
-al Gobierno que tal medida los perjudicaria enormemen-
-te, i los obligaria a ir abandonando poco a poco el Te-
-rritorio para radicarse en los campos i puertos libres de
-la Patagonia Arjentina.
-Dicha resolucion habia sido tomada porque, con ojos
-de estadistas, veian la proteccion con que el gobierno
-arjentino mira sus puertos patagónicos i el incremento
-de la marina de cabotaje, vigorosamente apoyada por él.
-Comprendieron entonces que si ellos no se adelanta-
-ban a establecerse en la vecina república, otros ciudada-
-nos les arruinarian su comercio con ella, pues no podrian
-competir, ya que el precio de sus artículos está gravado
-con derechos de aduana, miéntras que los otros eran de
-ANALES—MAYO-JUNIO.—7.
+```markdown
+a O 
+ESTUDIO DEL TERRITORIO DE MAGALLANES 
+625 
+pues ser motejados de anarquistas, porque levantan su 
+voz pidiendo aumento de salario! 
+Nada de esto, estol seguro, lo conoce el Gobierno; por 
+eso es menester que se sepa, para que al dictar medidas 
+proteccionistas, en abstracto 1 desde Santiago excelentes, 
+no vengan a encontrar en su aplicacion práctica circuns- 
+«tancias que en vez de resultar protectoras, destruyan. 
+2.0 Punto.— El comercio magallánico puede decirse 
+que está concentrado en algunas grandes firmas, las prin- 
+cipales de las cuales son: Braun 1 Blanchard, Menéndez, 
+Stubenrauch, Montes, Sara Braun, etc. 
+Estas firmas, como ya lo he demostrado, lo abarcan 
+todo: estancias, hugoríficos, flotas de vapores, minas, fe- 
+rrocarriles, muelles, aserraderos, criaderos de aves, etc. 
+Muchas veces alcanza su pode: hasta un despacho cual. 
+quiera, dirijido por un individuo, o: un taller de herrería, 
+de los que a veces son los dueños absolutos, 
+o ha sido 
+su dinero el que ha servido para formarlos. 
+Cuando se estableció la Aduana, estas firmas hicieron 
+lo posible para obtener su abolicion, haciendo presente 
+al Gobierno que tal medida los perjudicaria enormemen- 
+te, 1 los obligaria a ir abandonando poco a poco el Te- 
+tritorio para radicarse en los campos 1 puertos libres de 
+la Patagonia Arjentina. 
+Dicha resolucion habia sido tomada porque, con 0]os 
+de estadistas, velan la proteccion con que el gobierno 
+arjentino mira sus puertos patagónicos 1 el incremento 
+de la marina de cabotaje, vigorosamente apoyada por él. 
+Comprendieron entonces que si ellos no se adelanta- 
+ban a establecerse en la vecina república, otros ciudada- 
+¡nos les arrulnarian su comercio con ella, pues no podrian 
+competir, ya que el precio de sus artículos está gravado 
+von derechos de aduana, miéntras que los otros eran de 
+ANALES—MAYO-JUNIO.—7,
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 626
@@ -1049,289 +1260,468 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
 
+# Page 697
+
 ## Page Metadata
-Page number: 697
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 697
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0697.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a single column of text. At the top, there is a header with "ESTUDIO DEL TERRITORIO DE MAGALLANES" on the left and the page number "627" on the right, separated by a horizontal line. The main content consists of six paragraphs of varying length. The last paragraph is cut off at the bottom of the page.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-ESTUDIO DEL TERRITORIO DE MAGALLANES 627
-Es lo que está sucediendo a Punta Arenas.
-3.º i 4.º PUNTOS.—Las anteriores razones en pro de
-la supresion de la Aduana tienen trascendencia mas bien
-local, pero las comprendidas en estos dos puntos asu-
-men a mi ver una gravedad enorme, pues si no se les
-toma en cuenta pronto, no tardará Chile en sentir frio en
-los pies de la República, así como ha sentido dolores de
-cabeza en la zona Norte.
-
-Punta Arenas, repito, era la metrópoli comercial de
-ambas Patagonias i Territorios de Santa Cruz, Chubut
-i Tierra del Fuego.
-
-Las líneas de vapores inglesas i alemanas venian de
-Buenos Aires directamente, descargaban aquí enormes
-cantidades de mercaderías, que luego los consignatarios
-en Punta Arenas repartian en los pequeños vapores re-
-jionales a todos los lugares nombrados, dejando una so-
-berbia utilidad a los habitantes del Territorio, que sirvió
-para aumentar la riqueza de esta parte de Chile.
-
-Ademas, todos los pobladores de las zonas indicadas,
-cuando querian salir de la soledad de las pampas i darse
-un tiempo de descanso i sociedad, venian a Punta
-Arenas, lo que aumentaba tambien la importancia de
-ésta.
-
-Tres causas han venido a disminuir en forma alarman-
-te esta preponderancia hasta amenazar destruirla: la
-Aduana, la Guerra Europea y la apertura del Canal de
-Panamá, circunstancias las dos últimas fáciles de contra-
-rrestar si no hubiera sido por la primera.
-
-La Aduana, gravando los artículos estranjeros, i las
-mercaderías que forzosamente debian internarse para
-ser reembarcadas a los puertos arjentinos, que no tienen
-condiciones para el fondeo de los trasatlánticos, hizo
+```markdown
+ESTUDIO DEL TERRITORIO DE MAGALLANES 
+627 
+Es lo que está sucediendo a Punta Arenas. 
+3.0 1 4. Punros.—Las anterio:es razones en pro de 
+la supresion de la Aduana tienen trascendencia mas bien 
+local, pero las comprendidas en estos dos puntos asu- 
+men a mi ver una gravedad enorme, pues si no se les 
+toma en cuenta pronto, no tardará Chile en sentir frio en 
+los pies de la República, así como ha sentido dolores de 
+cabeza en la zona Norte. 
+Punta Arenas, repito, era la metrópoli comercial de 
+ambas Patagonias 1 Territorios de Santa Cruz, Chubut 
+1 Tierra del Fuego. 
+: 
+Las líneas de vapores inglesas i alemanas venian de 
+Buenos Aires directamente, descargaban aquí enormes 
+cantidades de mercaderías, que luego los consignatarios 
+en Punta Arenas repartian en los pequeños vapores re- 
+jlonales a todos los lugares nombrados, dejando una so- 
+berbia utilidad a los habitantes del Territorio, que sirvió 
+“para aumentar la riqueza de esta parte de Chile. 
+Ademas, todos los pobladores de las zonas indicadas, 
+cuando querian salir de la soledad de las pampas 1 darse 
+“un tiempo de descanso 1 sociedad, venian a Punta 
+Arenas, lo que aumentaba tambien la importancia de 
+ésta. 
+Tres causas han venido a disminuir en forma alarman - 
+te esta preponderancia 
+hasta amenazar 
+destruirla: la 
+Aduana, la Guerra Europea y la apertura del Canal de 
+Panamá, circunstancias las dos últimas fáciles de contra- 
+rrestar si no hubiera sido por la primera. 
+: 
+La Aduana. gravando los artículos estranjeros, 1 las 
+mercaderías que forzosamente debian internarse para 
+ser reembarcadas a los puertos arjentinos, que no tienen 
+condiciones para 
+el fondeo de los trasatlánticos, hizo 
 que el Gobierno arjentino, miéntras termina la elabora-
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
-
-## Completeness Audit
-All visible text on the page has been transcribed. The last paragraph is incomplete as it is cut off at the bottom of the page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 ```
 
-## Page Metadata
-Page number: 628
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
-
-## Layout And Reading Order
-The page consists of a single column of text, with a running header at the top. The text is organized into several paragraphs.
-
-## Literal Transcription
-cion de los proyectos para la mejora de sus puertos, sal-
-vara estas dificultades protejiendo el cabotaje nacional
-e imponiendo a los vapores chilenos iguales gravámenes
-que a los trasatlánticos ingleses i alemanes, cargas que
-naturalmente aquéllos no podian soportar.
-Mató con estas medidas las carreras periódicas de bar-
-cos chilenos, algunos de los cuales cambiaron su matrí-
-cula i bandera para hacerse arjentinos.
-La guerra interrumpió casi completamente el tránsito
-de vapores ingleses i en absoluto el de los alemanes.
-I por último, la apertura del Canal de Panamá ha
-desviado por aquella via el tráfico que ántes se hacia
-por el estrecho hácia el Pacífico, contribuyendo tambien
-a disminuir las entradas i facilidades de esportar e im-
-portar al comercio e industrias magallánicas.
-Ya he descrito la importancia que cada dia adquieren
-las rejiones arjentinas merced al capital chileno emigra-
-do de Punta Arenas. Sus puertos, constituidos por cua-
-tro o cinco casas ántes de la creacion de la Aduana en
-Punta Arenas, son hoi grandes ciudades en formacion
-con todos los servicios modernos.
-No obstante, los dichos puertos son mui bajos, incon-
-venientes que detendrán aun durante algunos años la
-muerte de Punta Arenas.
-El servicio de vapores por otra parte que hai entre
-Punta Arenas i los puertos arjentinos, i el mismo servi-
-cio a los del pais no admite comparacion.
-Para atender al primero existe la flota de la casa Me-
-néndez, compuesta de buques de gran tonelaje i apro-
-piados para entrar en los puertos arjentinos (son planos
-de quilla, lo que les permite vararse en la arena i efec-
-tuar cómodamente la carga i descarga).
-
 ## Images, Captions, And Visual Notes
-The page contains no images or captions.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 698
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 698
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0698.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+628 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+cion de los proyectos para la mejora de sus puertos, sal- 
+vara estas dificultades protejiendo el cabotaje nacional 
+e imponiendo a los vapores chilenos iguales gravámenes 
+que a los trasatlánticos ingleses 1 alemanes, cargas que + 
+naturalmente aquéllos no podian soportar. 
+3 
+Mató con estas medidas las carreras periódicas de bar- 
+cos Chilenos, algunos de los cuales cambiaron su matrí. 
+cula 1 bandera para hacerse arjentinos. 
+La guerra interrumpió casi completamente el tránsito 
+de vapores ingleses 1 en absoluto el de los alemanes. 
+T por último, la apertura 
+del Canal de Panamá ha 
+desviado por aquella via el tráfico que ántes se hacia 
+por el estrecho hácia el Pacífico, contribuyendo tambien 
+a disminuir las entradas 1 facilidades de esportar e 1m-- 
+portar al comercio e industrias magallánicas. 
+3 
+Ya he descrito la importancia que cada dia adquieren 
+las rejiones arjentinas merced al capital chileno emigra- 
+do de Punta Arenas. Sus puertos, constituidos por cua- 
+tro o cinco casas ántes de la creacion de la Aduana en 
+Punta Arenas, son hoi grandes ciudades en formacion 
+con todos los servicios modernos. - 
+z 
+No obstante, los dichos puertos son mui bajos, incon- 3 
+venientes que detendrán aun durante algunos años la 
+muerte de Punta Arenas. 
+: 
+3 
+El servicio de vapores por otra parte que hai entre 
+Punta Arenas i los puertos arjentinos, 1 el mismo servie — 
+cio a los del pais no admite comparacion. 
+a 
+Para atender al primero existe la flota de la casa Me- : 
+néndez, compuesta de buques de gran tonelaje 1 apro 
+plados para entrar en los puertos arjentinos (son planos 
+de quilla, lo que les permite vararse 
+en la arena 1 efec- 15 
+tuar cómodamente la carga 1 descarga). 
+Eo 
+e
+mm 
+a O 
+A 
+A
 ```
 
-## Page Metadata
-Page number: 699
-
-## Layout And Reading Order
-The page consists of a single column of text. At the top, there is a running header with the section title on the left and the page number on the right. The main content is a continuous block of prose.
-
-## Literal Transcription
-ESTUDIO DEL TERRITORIO DE MAGALLANES 629
-
-Para atender al segundo, hai solo dos buques, cuyo
-viaje demora 23 dias, por lo regular.
-Esta escasez ha causado la victoria de los productos
-arjentinos sobre los nacionales en el mercado puntare-
-nse, pues, a pesar del réjimen proteccionista de Chile,
-el artículo arjentino resulta mas barato por el menor
-recargo en el flete i por su mejor calidad.
-El Ferrocarril de Bahía Blanca a Gallegos está mui
-adelantado i, lo que es peor, se acaban de aprobar por
-el Gobierno vecino los estudios del Ferrocarril que unirá
-a Rio Gallegos con Lago Arjentino, a traves de la enor-
-me pampa patagónica, que se costeará con capitales pun-
-tarenenses. Este Ferrocarril, unido a la construccion del
-puerto de Gallegos, concluirá con la arjentinizacion com-
-pleta de Magallanes.
-Ya no serán los productos arjentinos los que saldrán
-por Punta Arenas, sino que los rejionales ahorrarán la
-vuelta siempre difícil del Estrecho, para ser trasportados
-por tierra, hasta Gallegos, donde los tomarán los trasa-
-tlánticos, para llevarlos a Europa, su mercado.
-Por la inversa, no vendrá ningun producto de Chile
-porque no hai vapores pero sí de Buenos Aires en un
-viaje de 5 o 6 dias, cortísimo en comparacion con los 15
-mínimos que demoran los que vienen del pais.
-En buenas cuentas, Punta Arenas, de centro se trans-
-formará en estremo, i todavía en estremo abandonado,
-porque el dia en que Gallegos tenga puerto, ese será el
-término de la carrera de los trasatlánticos ingleses i
-alemanes, con lo que se ahorrarán la travesía del Es-
-trecho, siempre peligrosa, sobre todo en el lado del Pa-
-cífico.
-El comercio de la costa de este mar se hará por Pa-
-namá. seguramente, p ues así no pagarán falsa marinería
-
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 699
 
 ## Page Metadata
-- Page number: 630
-- Header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 699
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0699.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a running header at the top. The text is divided into five paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-durante los 6 días mínimos que demora el recorrido de
-Gallegos a Corral, ni los elevados derechos de faros i ba-
-lizas por el uso de las luces del Estrecho.
-Punta Arenas quedaria aislada en medio de dos mares,
-sin otros medios de trasporte que los que ella pudiera
-proporcionarse. Muerto su comercio, los capitales se
-irian sin escepecion a Gallegos; una medida proteccionista
-habria concluido con la antigua metrópoli del Estrecho,
-que en adelante no seria sino una estrella sin brillo al
-lado de los riquísimos puertos arjentinos, de quienes iba
-a depender.
-Bajo el punto de vista de la seguridad nacional las
-consideraciones son tan graves que considero mas con-
-veniente no estamparlas, pero sí dejar constancia de que,
-bajo la accion intelijente i callada de la Arjentina, i la
-dulce inaccion de Chile, se jenera un problema que pre-
-senta los mas graves caractéres para este último. La
-aparente tranquilidad e indiferencia actual es como una
-mar bona, de lisa superficie, pero ajitada en el fondo:
-cuando una ondulacion se rompe, la tempestad se desen-
-cadena.
-Cualquiera persona del Norte que me lea creerá que
-soi un triste agorero de desgracias, pero no es tal mi
-ánimo.
-He sentido íntima satisfaccion al esbozar en esta me-
-moria las riquezas enormes que guarda el suelo maga-
-llánico, las que he tenido ocasion de conocer personalmen-
-te, i aquella alegría es igual a la tristeza que ahora sien-
-to al imajinar las desventuras reales, i ya mui tanjibles,
-que aniquilarán a Punta Arenas dentro de pocos años,
-si no se decreta la abolicion de la Aduana i, en jeneral,
-si el Gobierno no se preocupa de conocer i estudiar en
+
+```markdown
+ESTUDIO DEL TERRITORIO DE MAGALLANES 
+629 
+SS 
+Para atender al segundo, hai solo dos buques, cuyo 
+viaje demora 23 dias, por lo regular. 
+Esta escasez ha causado la victoria de los productos 
+arjentinos sobre los nacionales en el mercado puntare- 
+nense, pues, a pesar del réjimen proteccionista de Chile, 
+el artículo arjentino resulta mas barato por el menor 
+recargo en el flete i por su mejor calidad. 
+El Ferrocarril de Bahía Blanca a Gallegos está mui 
+adelantado 1, lo que es peor, se acaban de aprobar por 
+el Gobierno vecino los estudios del Ferrocarril que unirá 
+a Rio Gallegos con Lago Arjentino, a traves de la enor- 
+me pampa patagónica, que se costeará con capitales pun- 
+tarenenses. Este Ferrocarril, unido a la construccion del 
+puerto de Gallegos, concluirá e; 
+con la arjentinizacion com- 
+pleta de Magallánes. 
+Ya no serán los productos arjentinos los que saldrán 
+por Punta A:enas, sino que los rejionales ahorrarán la 
+vuelta siempre difícil del Estrecho, para ser trasportados 
+por tierra, hasta Gallegos, donde los tomarán los trasa- 
+tlánticos, para llevarlos a Europa, su mercado. 
+Por la inversa, no vendrá ningun producto de Chile 
+porque no 
+hai vapores pero sí de Buenos Aires en un 
+viaje de 50 6 dias, cortísimo en comparacion con los 15 
+mínimos que demoran los que vienen del pais. 
+En buenas cuentas, Punta Arenas, de centro se trans- 
+formará en estremo, 1 todavía en estremo abandonado, 
+porque el dia en que Gallegos tenga puerto, ese será el 
+término de la carrera de los trasatlánticos ingleses 1 
+alemanes, con lo que se ahorrarán la travesía del Es- 
+trecho, siempre peligrosa, sobre todo en el lado del Pa- 
+cífico. 
+El comercio de la costa 
+de este mar se hará por Pa- 
+namá, seguramente, pes así no pagarán falsa marinería
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 700
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 700
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0700.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+630 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+duraxite los 6 días mínimos que demora el recorrido de 
+Gallegos a Corral, ni los elevados derechos de faros 1 ba- 
+lizas por el uso de las luces del Estrecho. 
+Punta Arenas quedaila aislada en medio de dos mares, 
+sin otros medios de trasporte que los que ella pudiera 
+proporcionarse. Muerto su comercio, los 
+capitales 
+se 
+iran sin escepcion a Gallegos; una medida proteccionista 
+habria concluido con la antigua metrópoli del Estrecho, 
+que en adelante no seria sino una estrella sin brillo al 
+lado de los riquísimos puertos arjentinos, de quienes iba 
+a depender. 
+Bajo el punto de vista de la seguridad nacional las 
+consideraciones son tan graves que considero mas con- 
+veniente no estamparlas, pero sí dejar constancia de que, 
+bajo 
+la accion intel:jente 1 callada de la Arjentina, 1la 
+dulce inacción de Chile, se jenera un problema que pre- 
+senta los mas graves caractéres para este último. La 
+aparente tranquilidad e indiferencia actual es como una 
+mar boba, de lisa superficie, pero ajitada en el fondo: 
+cuando una ondulacion se rompe, la tempestad se desen- 
+cadena. 
+E 
+Cualquiera persona del Norte que me lea creerá que 
+soi un triste agorero de desgracias, pero no es tal mi 
+ánimo. 
+He sentido íntima satisfaccion al esbozar en esta me- 
+mori2 las riquezas enormes que guarda el suelo maga- 
+llánico, las que he tenido ocasion de conocer personalmen- 
+te, 1 aquella alegría es igual a la tristeza que ahora s en- 
+to al imajinar las desventuras reales, 1 ya mui tanjibles, 
+que aniquilarán a Punta Arenas dentro de pocos años, 
+si no se decreta la abolicion de la Aduana i, en jeneral, 
+si el Gobierno no se preocupa de conocer i estudiar en 
 forma conveniente las disposiciones que le afectan, las
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no substantive visual content."}
 ```
 
-## Page Metadata
-- Page number: 631
-
-## Layout And Reading Order
-The page consists of a single column of text. A running header is present at the top, with the title "ESTUDIO DEL TERRITORIO DE MAGALLANES" on the left and the page number "631" on the right. The main content is a series of paragraphs.
-
-## Literal Transcription
-ESTUDIO DEL TERRITORIO DE MAGALLANES 631
-
-que no pueden ser las mismas que las dictadas para cual-
-quiera otra parte de Chile.
-En efecto, ¿no es real la construccion del ferrocarril
-que unirá á Buenos Aires con Gallegos, i que avanza al
-sur de Bahía Blanca a pasos ajigantados? ¿No es
-real la aprobacion por el Gobierno arjentino de los estu-
-dios del ferrocarril de Gallegos a Lago Arjentino, hecho
-por el injeniero Cobos, i costeado por capitales puntare-
-nenses? ¿No es real la construccion del puerto de Galle-
-gos? i, por último, ¿no es tambien real la emigracion de
-parte de la riqueza magallánica a los puertos i pueblos
-arjentinos de la Patagonia, del Chubut i Santa Cruz?
-I siendo todo esto público i notorio en Magallánes, ¿por
-qué podrian ser falsas las deducciones que, basándo-
-me en aquellos hechos, he estampado?
-No obstante, ninguna de esas obras está terminada i
-todas son de largo aliento.
-Aun es tiempo de consolidar la situacion de Magallá-
-nes bamboleante, suprimiendo la Aduana.
-El progreso de una rejion es lento, pero cuando está
-cimentado sobre bases sólidas como aquí, lento es tam-
-bien su decaimiento i su muerte.
-Punta Arenas tiene el pedestal de acero de su gana-
-dería que siempre producirá, pero, de esta utilidad, ni
-Chile, ni los chilenos **reportarán** ningun beneficio, por-
-que de metrópoli del Estrecho pasará a ser factoría ar-
-jentina, i como sus comerciantes i terratenientes son en
-su inmensa i mas importante mayoría estranjeros, i po-
-see bienes mas considerables en la Arjentina que en
-Chile, no tardarán en inclinarse francamente a favor del
-pais que abre para ellos un horizonte mas amplio facili-
-tando el incremento, en forma estupenda, de sus rique-
-zas i abandonando el pais en que ellas nacieron.
-
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 701
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 701
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0701.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+ESTUDIO DEL TERRITORIO DE MAGALLANES 
+631 
+que no pueden ser las mismas que las dictad: s para cual- 
+quiera otra parte de Chile. 
+En efecto, ¿no es real la construccion del ferrocarril 
+que unirá a Buenos Aires con Gallegos, 1 que avanza al 
+sur 
+de Bahía Blanca 
+a 
+pasos ajigantados? ¿No es. 
+real la aprobacion por el Gobierno arjentino de los estu- 
+dios del ferrocarril de Gallegcs a Lago Arjentino, hecho 
+por el injeniero Cobos, i costeado por capitales puntare- 
+nenses? ¿No es real la construccion del puerto de Galle- 
+gos? 1, por último, ¿no es tambien real la emigracion de 
+“parte de la riqueza magallánica a los puertos i pueblos 
+arjentinos de la Patagonia, del Chubut 1 Santa Cruz? 
+I siendo todo esto público 1 notorio en Magallánes, ¿por 
+qué podrian ser falsas las dedurciones que, basándo- 
+me en aquellos hechos, he estampado? 
+No obstante, ninguna de esas obras está terminada 1 
+todas son de largo aliento. 
+Aun es tiempo de consolidar la situacion de Magallá- 
+nes bamboleante, suprimiendo la Aduana. 
+El progreso de una rejion es lento, pero cuando está 
+-cimentado sobre bases sólidas como 
+aquí, lento es tam- 
+bien su decaimiento 1 su muerte. 
+Punta Arenas tiene el pedestal de acero de su gana- 
+dería que siempre producirá, pero, de esta utilidad, ni 
+Chile, mi los chilenos reportarán ningun beneficio, por- 
+que de metrópoli del Estrecho pasará a ser factoría ar- 
+jentina, 1 como sus comerciantes 1 terratenientes son en 
+su inmensa 1 mas importante mayoría estranjeros, 1 po- 
+see bienes mas considerables 
+en 
+la Arjentina que en 
+Chile, no tardarán en inclinarse francamente a favor del 
+pais que abre para ellos un horizonte mas amplio facili- 
+tando el incremento, en forma estupenda, 
+de sus tique- 
+zas 1 abandonando el pais en que ellas nacieron.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 632

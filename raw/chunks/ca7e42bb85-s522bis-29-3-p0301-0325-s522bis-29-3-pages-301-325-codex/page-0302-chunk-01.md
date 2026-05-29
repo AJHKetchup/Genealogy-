@@ -1,0 +1,140 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-8ac60df27181-P0302-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0301-0325-s522bis-29-3-pages-301-325.codex.md
+converted_sha256: 8ac60df2718179a9d98c378a8a655d0a08305c45b9b77ec0ced05fd44f2e7374
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0301-0325-s522bis-29-3-pages-301-325/manifest.json
+page_start: 302
+page_end: 302
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0301-0325-s522bis-29-3-pages-301-325/manifest.json`
+- Source page: 302
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0301-0325-s522bis-29-3-pages-301-325/page-images/page-0302.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-
+4
+argentin© el
+12 de Kara©.
+He aqui el text©:
+B£1 Gobierno
+de
+Su Exoelencia tiene sin duda eonoci-
+Eiient©
+de
+los términos del
+convenio
+que ha sido sometido re-
+©ientemente
+a la Conferencia
+de Paris para la creaciôn de una
+soeiedad de
+las naeiones.
+"Antes
+de
+que este eonvenio sea definltivamente adop-
+tado,
+la Confereneia desea vlvamente
+que los Gobiernos de los
+paisas neutrales puedan examinarlo y exponer su criteria.
+1» difioil consultar oficialreest©
+a los
+Gobiernos neutrales
+desde el
+raoraento
+que la Confereneia de Paris
+es una reunion
+d©
+naeiones boligerantes,
+pero ell© no iraplde
+que
+s® consul¬
+te privadamente y sin caracter oficial.
+Bn auseneia del Pré¬
+sidente «ilson,
+Présidante fie la Comisién nombrada por las
+Potencies asociadas para cl estudio de la Soeiedad de las $a-
+ciones,
+he side enearg&do de inviter a
+su Gobierno a asistir
+a
+una Gonfereneia privada sin ningdn earaeter oficial,
+quo
+s« celebrara el
+jueves 20 de Parzo.
+Si el
+Gobierno de
+Su
+Kxceleneia desea aeeptar esta invitaeién, tendria rauoho gusto
+en haoerle llegar todos loe detalles referentes
+a la hora y
+al lugar de la reunion"*
+Si Gobierno argentin© al tuner eonoeie&ent© de la in-
+vitaoiôn de House, célébré una rcuniéu privada de legisladores
+para ponerse de acuerdo sobre la aotitud que se debia adoptar;
+se deaidié aplazar el
+examen del trataâo por el Congres© y es*
+perar a
+que el Poder Executive aeeptara en principio la idea
+de la creacién de la
+Gocied&â de las Hteeiones, abrienâo un
+paréntesis
+que permitifcia reunir el mayor numéro de elementos
+para aprecier mas tarde las rentras y desvent&jae de la in*
+oorporaelén definitive
+a la Sooiedad y de la aceptaeiéa del
+tr&taào»
+SI lîi de Karao de 1919, después de una reuni6n priva*
+da de
+los legieladores argentinos, el ï'inistro de Belaoiones
+Sxterlorea ©scribié al Jr. ^Ivear,
+en reapuesta al telegrams en
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 303

@@ -493,59 +493,102 @@ All visible text on the page has been transcribed. The last paragraph is cut off
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
+# Page 662
+
 ## Page Metadata
-Page number: 592
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/manifest.json`
+- Source page: 662
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/page-images/page-0662.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a running header at the top. The content flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-rifas, para obtener que los fletes de los transportes guar-
-den relación con los gastos que éstos originan, que de-
-penden en proporción considerable de las características
-de la rasante, se han considerado entre Río Blanco y Ca-
-racoles distancias calculadas a razón de 1 kilómetro por
-cada 17,2 metros de diferencia de altura, que es el des-
-nivel medio entre Los Andes y Río Blanco. Tenemos así,
-pues, que en la evaluación de los transportes se conside-
-ra la línea en su largo *virtual*. La distancia efectiva y
-el largo virtual son, según el señor Marín Vicuña; de la
-ciudad de Los Andes a Río Blanco, 34 y 34 kilómetros,
-respectivamente; al Juncal, 51 y 82 kms.; al Portillo, 63
-y 119, y a la línea divisoria (túnel de la Cumbre) 71 y
-138 kilómetros. Aquí podemos observar que el largo vir-
-tual, calculado con pendientes de hasta 7,8 por 100, en
-que hubo que recurrir a la cremallera en un trayecto de
-21 kilómetros, como ya vimos, llega casi al doble de la
-distancia efectiva; por lo tanto, los precios de transpor-
-te alcanzan también casi al doble de los que correspon-
-den al cálculo normal. Si hemos de hacer una compara-
-ción de éstos con los de los ferrocarriles del Estado, te-
-nemos que el pasaje de los 71 kilómetros del ferroca-
-rril transandino (sección chilena) importan: en primera
-clase, 62.10 pesos de 12 d, y en segunda, 41.40 pesos de
-12 d. En los ferrocarriles del Estado cuesta el mismo re-
-corrido en los trenes expresos 6.20 pesos m. c. en prime-
-ra clase, y $ 4.10 en segunda. Los precios del transandino
-son, pues, en ese recorrido 10 veces superiores a los de
-los ferrocarriles del Estado, avaluando la moneda co-
-rriente en 12 d. El precio del pasaje desde Santiago o
-Valparaíso hasta Mendoza es actualmente de £ 8.19.2 en
-primera clase, y de £ 5.17.6 en segunda; hasta Buenos
-Aires es de £ 13.15.7 en primera, y £ 8.4.6 en segunda cla-
+
+```markdown
+592 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+rifas, para obtener que los fletes de los transportes guar- 
+den relación con los gastos que éstos originan, que de- 
+A 
+penden en proporción considerable de las características * 
+de la rasante, se han considerado entre Río Blanco y Ca- 
+racoles distancias calculadas a razón de 1 kilómetro por 
+cada 17,2 metros de diferencia de altura, que es el des- 
+nivel medio entre Los Andes y Río Blanco. Tenemos así, 
+pues, que en la avaluación de los transportes se conside- 
+ra la línea en su. largo virtual. La distancia efectiva y 
+el largo virtual son, según el señor Marín Vicuña; de la 
+ciudad de Los Andes a Río Blanco, 34 y 34 kilómetros, 
+respectivamente; al Juncal, 51 y 82 kms.; al Portillo, 63 
+y 119, y a la línea divisoria 
+(túnel de la Cumbre) 71 y 
+138 kilómetros. Aquí podemos observar que el largo vir- 
+tual, calculado con pendientes de hasta 7,8 por 100, en 
+que hubo que recurrir a la cremallera en un trayecto de 
+21 kilómetros, como ya vimos, llega casi al doble de la * 
+distancia efectiva; por lo tanto, los precios de transpor 
+te alcanzan también casi al doble de los que correspon- 
+den al cálculo normal. Si hemos de hacer una compara- 
+ción de éstos con los de los ferrocarriles del Estado, te- 
+* 
+nemos que el pasaje delos 
+71 kilómetros del 
+ferroca- 
+rril transandino (sección chilena) importan: en primera 
+clase, 62.10 pesos de 12 d, y en segunda, 41.40 pesos de 
+12 d. En los ferrocarriles del Estado cuesta 
+el mismo re- 
+corrido en los trenes expresos 6.20 pesos m. 6. en prime- 
+ra clase, y $ 4.10en segunda. Los precios del transandino 
+son, pues, en ese recorrido 10 veces superiores a los de 
+los ferrocarriles 
+del Estado, avaluando 
+la moneda 
+co- | 
+rriente en 12 d. El precio del pasaje desde Santiago o 
+| 
+Valparaíso hasta Mendoza es actualmente de £ 8.19.2€en 
+primera clase, y de £ 5.17.6 
+en segunda; hasta Buenos 
+Aires es de £ 13.15.7 en primera, y £ 8.4.6en segunda ela-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 593
@@ -1046,180 +1089,294 @@ All visible text on the page has been transcribed. The last word is incomplete a
 {"visual_regions": [], "no_visual_regions_reason": "The page contains only text and a minor decorative rule, neither of which are suitable for cropping as standalone visual assets."}
 ```
 
+# Page 672
+
 ## Page Metadata
-- Page number: 602
-- Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/manifest.json`
+- Source page: 672
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/page-images/page-0672.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text. The reading order is from top to bottom, left to right.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-neral de todos los obreros del campo i la ciudad, moti-
-vada, como siempre, por una peticion de aumento de
-salario: se basaba en que las Compañías de Navegacion
-habian obtenido autorizacion para elevar en un 40%, el
-valor de los fletes, lo que habia recargado las mercade-
-rías en igual cantidad, circunstancia que ponia otra vez
-al obrero en situacion crítica; para remediarla pidieron
-por término medio un aumento de 15% en el salario.
 
-Ellos elijen siempre, para dar mayor eficacia a estas
-peticiones, la época de las faenas del campo, algunas de
-las cuales no pueden retrasarse sin grandes pérdidas, co-
-mo ser la esquila. Si al animal no se le quita la lana a
-tiempo, se le cae en gran parte, i, lo que es peor, si la
-oveja pierde por cualquier causa el contacto de sus pa-
-tas, que son mui cortas, con el suelo, ya no puede vol-
-ver a adquirirlo porque el peso de su lana se lo impi-
-de, i allí queda botada en el campo, con las estremida-
-des al aire, hasta que vienen los caranchos i gaviotas i
-les comen los ojos i la lengua.
-
-Se produjo, pues, el conflicto. No habiendo quien in-
-terviniera como mediador, i no pudiendo tampoco po-
-nerse de acuerdo ninguno de los dos bandos, no habia
-esperanzas de que se solucionara en forma amigable.
-
-La Federacion sostenia la huelga tranquila i serena-
-mente, como jamas lo he visto en el Norte en casos se-
-mejantes. Para ello cuenta con fondos propios, que en-
-tonces alcanzaban a mas de $ 100.000 en dinero efec-
-tivo, fuera de la ayuda del pequeño comercio, que en
-jeneral la apoya siempre, no sólo moral, sino tambien
-materialmente, con especies que entrega a los obreros
-para su alimento i vestido.
-
-La autoridad local, con laudable fin seguramente,
+```markdown
+602 
+MEMORIAS CIENTÍFICAS 
+1 LITERARIAS 
+neral de todos los obreros del campo 1 la ciudad, moti- 
+vada, como siempre, por una 
+peticion de aumento de 
+salario: se basaba en que las Compañías de Navegacion 
+habian obtenido autorizacion para elevar en un 40%, el 
+valor de los fletes, lo que habia recargado las mercade- 
+rías en igual cantidad, circunstancia que ponia otra vez 
+al obrero en situacion 
+crítica; para remediarla pidieron 
+por término medio un aumento de 15%, en el salario. 
+Ellos elijen siempre, para dar mayor eficacia a estas 
+Da la época de las faenas del campo, algunas de 
+las cuales no pueden retrasarse sin grandes pérdidas, co- 
+mo ser la esquila. Si al animal no se le quita la lana a 
+tiempo, se le cae en gran parte. 1, lo que es peor, si la 
+oveja pierde por cualquier causa el contacto de sus pa- 
+tas, que son mul cortas, con el suelo, ya no puede vol. 
+ver a adquirirlo porque el peso de su lana se lo impi- 
+de, 1 allí queda botada en el campo, con las estremida- 
+des al aire, hasta que vienen los caranchos 3 gaviotas 1 
+les comen los ojos 1 la lengua. 
+Se produjo, pues, el conflicto. No habiendo quien 1n- 
+terviniera como mediador, 1 no pudiendo tampoco po- 
+nerse de acuerdo ninguno delos dos bandos, no 
+habia 
+esperanzas de que se solucionara en forma amigable. 
+La Federacion sostenia la huelga tranquila 1 serena- 
+mente, como jamas lo he visto en el Norte en casos se- 
+mejantes. Para ello cuenta con tondos propios, que en- 
+tonces alcanzaban a mas de $ 100.000 en dinero 
+etec- 
+tivo, fuera de la ayuda del pequeño 
+comercio, que en 
+jeneral la apoya siempre, no sólo moral, sino tambien 
+materialmente, con 
+especies que entrega los obreros 
+para su alimento 1 vestido. 
+: 
+La autoridad local, con laudable fin seguramente, 
 pero con gran ignorancia al mismo tiempo, temió que
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-The transcription is complete and includes all visible text on the page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content such as photos, illustrations, maps, or diagrams that would require cropping. It consists solely of text."}
 ```
 
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 673
+
 ## Page Metadata
-- Page number: 603
-- Source publication: Anales de la Universidad de Chile
-- Session: Session of the Council of Public Instruction, September 1918
-- Page range: 654-678
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/manifest.json`
+- Source page: 673
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/page-images/page-0673.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text in Spanish, with a header at the top center and a page number at the top right. The text flows continuously in standard reading order.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-ESTUDIO DEL TERRITORIO DE MAGALLANES 603
 
-bajo esa aparente **tranquilidad** se **fraguar**a algun inten-
-to revolucionario para **atentar** contra ella i la propie-
-dad, i quiso **detener** el avance de los obreros en los lar-
-gos caminos patagónicos, pues, como es costumbre en
-casos semejantes, despues de declarada la huelga no se
-les da ni alimento ni alojamiento en las estancias, de
-modo que todos ellos deben replegarse a Punta Arenas;
-pero se produjo un conflicto entre la primera autoridad
-civil i la militar, en la que **esta última** se negó a cum-
-plir semejante **órden** por estimarla atentatoria contra
-el derecho de trasladarse de un punto a otro del terri-
-torio de la República, que la Constitucion reconoce a
-todos los habitantes, miéntras éstos no den motivos pa-
-ra hacer temer por la seguridad pública.
-Unos cuantos dias despues habia en Punta Arenas
-cuatro mil obreros i ocho soldados para su custodia.
-Nada prueba mejor que este hecho el carácter i ten-
-dencias de la Federacion: si hubieran querido, podian
-haber saqueado la ciudad, procurándose en seguida la
-impunidad con solo pasar la frontera Arjentina, para to-
-do lo cual les habrian bastado unas cuantas horas. Los
-auxilios que hubieran podido pedirse no habrian llega-
-do antes de cuatro dias, mínimum.
-Pero nada hicieron; ni siquiera se produjo el menor
-desórden; los obreros se limitaban a pasear tranquila-
-mente por la ciudad, despues de recibir el alimento en
-el local de la Federacion.
-Sin embargo, la autoridad comprendió su deber en
-forma bien orijinal.
-Con desconocimiento absoluto del papel que en los
-conflictos entre patrones i obreros, por causa del salario,
-le corresponde al Estado, pidió cablegráficamente al
+```markdown
+ESTUDIO DEL TERRITORIO DE MAGALLANES 
+603 
+bajo esa aparente tranquilidad se fraguara algun inten- 
+to revolucionario para atentar contra ella 1 la propie- 
+dad, 1 quiso detener el avance de los obreros en los lar- 
+gos caminos patagónicos, pues, como 
+es costumbre en 
+casos semejantes, despues de declarada la huelga no se 
+les da ni alimento ni alojamiento en las estancias, de 
+modo que todos ellos deben" replegarse a Punta Arenas; 
+pero se produjo un conflicto entre la primera autoridad 
+ervil 1 la militar, en la que esta última se negó a cum- 
+plir semejante órden 
+por estimarla atentatoria contra 
+el derecho de trasladarse de un punto a otro del terri- 
+torio de la República, que la Constitucion reconoce a 
+todos los habitantes, miéntras éstos no den motivos pa- 
+ra hacer temer por la seguridad pública. 
+Unos cuantos 
+dias despues habia 
+en Punta Arenas 
+cuatro mil obreros 1 ocho so!dados para su custodia. 
+Nada prueba mejor que este hecho el carácter 
+i ten- 
+dencias de la Federacion: si hubieran querido, podian 
+haber saqueado la ciudad, procurándose 
+en seguida la 
+impunidad con solo pasar la frontera Arjentina, para to- 
+do lo cual les habrian bastado unas cuantas horas. Los 
+auxilios que hubieran podido pedirse no habrian llega- 
+do antes de cuatro dias, minimum. 
+Pero nada hicieron; ni siquiera 
+se produjo el menor 
+desórden; los obreros se limitaban 
+a pasear tranquila- 
+mente por la ciudad, despues de recibir el alimento en 
+el localde la Federacion. 
+Sin embargo, la autoridad comprendió su deber en 
+forma bien orijinal. 
+Con desconocimiento absoluto del papel que en los 
+conflictos entre patrones 1 Obreros, por causa del salario, 
+le corresponde al Estado, pidió cablegráficamente 
+al 
 Gobierno. el inmediato envío de un buque de la Arma-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 674
 
 ## Page Metadata
-- Page number: 674
-- Source publication: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- Document part: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/manifest.json`
+- Source page: 674
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/page-images/page-0674.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a running header with the page number and section title, followed by a single column of body text. The text is continuous and flows from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-604 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-da i tropas del Ejército para resguardar el órden, que
-nadie perturbaba, i que llegaron algunos dias despues.
-No teniendo en qué ocupar esta tropa, ni cómo justifi-
-car su venida, ordenó que los soldados se convirtieran
-en carreros i los marinos en cargadores en el muelle; a
-los oficiales, que naturalmente debian vijilar a su tropa,
-les correspondió el papel de capataces. Los soldados del
-Batallon Magallánes, como habitantes de la rejion, i en-
-tendidos en los negocios de campo, fueron destinados
-a trabajar en las estancias de esquiladores i peones.
-Sentí, no puedo ocultarlo, vergüenza como chileno
-que he cargado tambien el uniforme de la Patria, ver
-que en Magallánes, rejion cosmopolita, a la vista de los
-estranjeros i ante los ojos de la nacion vecina, los ma-
-rinos de la Armada volvian cubiertos de harina a sus
-cuarteles, i los soldados del Ejército pululaban en las
-calles manejando carretones i cargando bultos, para
-todo lo cual ni siquiera se les ordenó cambiar su unifor-
-me militar, que es para mí, como la bandera, una re-
-presentacion de la patria, por el traje de paisanos.
-No sabia, en presencia de tales cosas, qué admirar
-mas, si el desconocimiento absoluto con que la autori-
-dad entendia el cumplimiento de sus deberes, o la tran-
-quilidad estoica i en cierto modo irónica, con que la
-clase obrera recibia estos ataques directos al mas eficaz
-de sus derechos: la huelga.
-Hubo dos soldados del Batallon Magallánes, miembros
-pasivos de la Federacion que, mientras cumplian con la
-patria el deber que les impone el servicio militar, die-
-ron a la autoridad un ejemplo sujestivo i sangriento,
-pues, habiéndoseles ordenado trabajar como esquilado-
-res en el campo, prefirieron quitarse la vida disparán-
+```markdown
+604 
+"MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+dai tropas del Ejército para resguardar el órden, que 
+nadie perturbaba, 1 que llegaron algunos dias despues. 
+No teniendo en qué ocupar esta tropa, ni cómo justifi- 
+car su venida, ordenó 
+que los soldados se convirtieran 
+en carreros 1los marinos en cargadores en el muelle: a 
+los oficiales, que naturalmente debian vijilar a su tropa, 
+les correspondió el papel de capataces. Los soldados del 
+Batallon Magallánes, como habitantes de la rejion, 1 ext- 
+tendidos en los negocios de campo, 
+fueron destinados 
+a trabajar en las estancias de esquiladores 1 peones. 
+Sentí, no puedo ocultarlo, 
+vergienza como 
+chileno 
+que he cargado tambien el uniforme 
+de la Patria, ver 
+que en Magallánes, rejion cosmopolita, a la vista de los 
+estranjeros 1 ante los ojos de la nacion vecina, los ma- 
+rinos de la Armada volvian 
+cubiertos 
+de harima a sus 
+cuarteles, 1 los soldados 
+del Ejército pululaban en las 
+calles manejando carretones 1 cargando bultos, para 
+todo lo cual ni siquiera se les ordenó cambiar su unifor- 
+me militar, que es para mí, como la bandera, una re- 
+presentacion de la patria, por el traje de paisanos. 
+No sabia, en 
+presencia de tales cosas, 
+qué admirar 
+mas, sl el desconocimiento absoluto con que la autori- 
+dad entendia el cumplimiento de sus deberes, o la tran- 
+quilidad estoica 1 en cierto modo irónica, con 
+que la 
+clase obrera recibia estos ataques directos al mas eficaz 
+de sus derechos: la huelga. 
+i 
+Hubo dos soldados del Batallon Magallánes, miembros 
+pasivos de la Federacion que, miéntras cumplian con la 
+patria el deber que les impone el servicio militar, 
+die- 
+ron a la autoridad un ejemplo sujestivo i sanoriento, 
+pues, habiéndoseles ordenad o trabajar 
+como esquilado- 
+res en el campo, prefirieron quitarse la vida disparán- 
 dose un balazo, como lo hicieron, ántes de faltar a una
+```
 
 ## Images, Captions, And Visual Notes
-No substantial images or captions are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text on the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 675
@@ -1277,63 +1434,109 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
 
+# Page 676
+
 ## Page Metadata
-- Page number: 606
-- Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/manifest.json`
+- Source page: 676
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/page-images/page-0676.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number "606" is in the top left corner, and the running header "MEMORIAS CIENTÍFICAS I LITERARIAS" is in the top right. The main content is a continuous block of text, divided into paragraphs. The last sentence on the page is incomplete.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-le corresponde, toda vez que el arreglo de la cuestion
-del salario es un contrato privado, ajeno a su conoci-
-miento.
 
-Los conscriptos que se enrolan en las filas son lla-
-mados por la lei para instruirse en todo lo que se rela-
-ciona con el ramo militar i poder servir, cuando se ne-
-cesite su concurso, para la defensa nacional, tanto inte-
-rior como esterior. Aquí no habia ataque de ninguna
-especie contra la seguridad interior i no podia pensarse
-que pudiera haberlo, dados los antecedentes que sobre
-la
-clase obrera he descrito, antecedentes que la autori-
-dad está en la obligacion de conocer; solo eran hom-
-bres que se reunian pacíficamente para discutir con sus
-patrones al amparo de la Constitucion i de las Leyes,
-que garantizan su derecho —el contrato de salario, que
-se firma anualmente en Punta Arenas— en la época de
-las labores campestres, por representantes de ámbos
-bandos, i que esta vez no hubo acuerdo para celebrarlo.
-La Nacion mantuvo durante cerca de cuatro meses a
-dicha tropa, que no recibió durante todo ese tiempo la
-instruccion a que la lei la llamaba, lo cual encierra tam-
-bien una violacion de ella.
-
-Todas las medidas de seguridad que la autoridad pu-
-do haber tomado para prevenir cualquier conflicto, que
-estaba en la obligacion de prever, debieron haber esta-
-do listas para ejercerse en el momento en que los obre-
-ros hubieran dado motivo para ello, ya sea atacando la
-propiedad o entorpeciendo la libertad de trabajo, pues
-solo entonces nace el derecho de ésta para intervenir
-con la tropa en la forma que lo estime conveniente. No
-habia antecedente alguno, en el caso a que me refiero,
-para considerar comprometida la seguridad interior.
-
+```markdown
+606 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+le corresponde, toda vez que 
+el arreglo de la cuestion 
+del salario es un contrato 
+privado, ajeno a su conoci- 
+miento. 
+Los conscriptos que se enrolan en las filas son 
+ lla- 
+mados por la lei para instruirse en todo lo que se rela- 
+-ciona con el ramo militar 1 poder servir, cuando 
+se ne- 
+cesite su concurso, para la defensa nacional, 
+tanto inte- 
+rior como esterior. 
+Aquíno habia ataque 
+de ninguna 
+especie contra la seguridad interior ino podia pensarse 
+que pudiera haberlo, dados los antecedentes que sobre 
+la clase obrera he descrito, antecedentes que la autori- 
+dad está en la obligacion de conocer; solo eran 
+hom- 
+bres que se reunian pacíficamente para discutir con sus 
+patrones al amparo de la Constitucion i de las Leyes, 
+que garantizan su derecho —el contrato de salario, que 
+se firma anualmente 
+en Punta Arenas—en la época de 
+las labores 
+campestres, por representantes 
+de ámbos 
+bandos, 1 que esta vez no hubo acuerdo para celebrarlo. 
+La Nacion mantuvo 
+durante cerca 
+de cuatro meses 
+a 
+dicha tropa, que no recibió durante todo ese tiempo la 
+instruccion a que la lei la llamaba, lo cual. encierra tam- 
+bien una violacion de ella. 
+Todas las medidas de seguridad que la autoridad pu- 
+do haber tomado para prevenir cualquier 
+conflicto, que 
+estaba en la obligacion de prever, debieron haber esta- 
+do listas para. ejercerse en el momento en que los obre- 
+ros hubieran dado motivo para ello, ya sea atacando la 
+propiedad o entorpeciendo 
+la libertad de trabajo, pues 
+solo entonces nace el derecho 
+de ésta para intervenir 
+con la tropa en la forma que lo estime conveniente. No 
+habia antecedente alguno, en el caso 
+a que me refiero, 
+para considerar comprometida la seguridad interior. 
 Los patrones sufrieron grandes perjuicios, pero éstos
+```
 
 ## Images, Captions, And Visual Notes
-No meaningful visuals are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last sentence is incomplete, ending at the bottom of the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visuals present."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 677
@@ -1391,62 +1594,107 @@ All visible text and visual elements on the page have been transcribed and noted
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The only visual element is a decorative rule, which is transcribed in the text."}
 ```
 
+# Page 678
+
 ## Page Metadata
-Page number: 608
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/manifest.json`
+- Source page: 678
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/page-images/page-0678.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page has a header with the page number "608" on the left and "MEMORIAS CIENTÍFICAS I LITERARIAS" on the right, separated by a horizontal line. Below the header, the main content is presented in a single column of justified text.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-608 MEMORIAS CIENTÍFICAS I LITERARIAS
-___
-
-En todo el curso del presente trabajo he querido de-
-mostrar la situacion escepcional en que se encuentra el
-Territorio dentro de la República, para que se adopten
-las medidas que en cada caso corresponden. Aquí se ha-
-bla de las rejiones arjentinas vecinas, como en Santiago
-se habla de San Bernardo; tal es la comunidad de inte-
-reses que hai entre ellas, i, en cambio, pocas veces se
-oye hablar del resto del pais.
-La riqueza i la tierra está en poder de estranjeros, i
-el único reducto importante en que se reconoce la Pa-
-tria es en la Federacion Obrera, aunque en forma cada
-vez mas débil, precisamente por culpa de la autoridad
-chilena, que en todo caso trata de hostilizarla guiada,
-segun creo, por el temor que enjendra la ignorancia de
-los fines que persigue.
-Todas las medidas autoritarias e inconsultas van,
-pues a repercutir en la nacion vecina, en forma in-
-conveniente para la preponderancia chilena en el
-Territorio.
-Como lo he dicho i voi a comprobarlo mas adelan-
-te al tratar de la Aduana, la Arjentina se ha trazado
-—supongo que deliberadamente— una política velada,
-que tiende a atraer a su Territorio a todos los capi-
-tales de esta rejion, cosa que ya ha conseguido en
-gran parte, i esta atraccion se ejerce tambien sobre
-los individuos, tanto chilenos como estranjeros, a quie-
-nes ofrece enormes facilidades en la colocacion de su
-dinero i en la reparticion de sus tierras, librando a
-los primeros de todo gravámen.
-Si en el Territorio chileno se ataca, en la forma
-ilegal que he detallado, a los habitantes, ellos irán
-dejando poco a poco el lugar en que solo ataques re-
-ciben, para radicarse en la Patagonia arjentina en la
+```markdown
+608 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+En todo el curso del presente trabajo he querido 
+de- 
+mostrar la situacion escepcional en que 'se encuentra el 
+Territorio dentro de la República, para que se adopten 
+las medidas que en cada caso corresponden. Aquí se ha- 
+bla de las rejiones arjentinas vecinas, como en Santiago 
+se habla de San Bernardo; tal es la comunidad 
+de inte- 
+reses que hal entre ellas, 1, en cambio, pocas 
+Veces se 
+oye hablar del resto del pais. 
+La riqueza 1 la tierra está en poder de estranjeros, 1 
+el único reducto importante en que se reconoce. la Pa- 
+tria es en la Federacion Obrera, aunque en forma cada 
+vez mas débil, precisamente por culpa de la autoridad 
+chilena, que en todo caso trata de hostilizarla 
+guiada, 
+segun creo, por el temor que enjendra la ignorancia de 
+los fines que persigue. 
+| 
+Todas las medidas autoritarias 
+e inconsultas van, 
+pues a repercutir en la nacion vecina, 
+en forma in- 
+; 
+conveniente para 
+la preponderancia 
+chilena en el. 
+Territorio. 
+. 
+Como lo he dicho 1 voi a comprobarlo mas adelan- 
+te al tratar de la Aduana, la Arjentina seha trazado - 
+—supongo que deliberadamente—una política velada, 
+que tiende a atraer a su Territorio a todos los capi 
+tales de esta rejion, cosa que ya ha conseguido 
+en 
+gran parte, i esta atraccion se ejerce tambien sobre: 
+los individuos, tanto chilenos como estranjeros, a quie- 
+nes ofrece enormes facilidades en la colocacion de su 
+dinero 1en la reparticion de sus tierras, 
+librando a 
+los primeros de todo gravámen. 
+: 
+Si en el Territorio 
+chileno se ataca, en la forma 
+ilegal que he detallado, 
+a los habitantes, ellos 
+irán 
+dejando poco a poco el lugar en que solo ataques re | 
+ciben, pata radicarse en la Patagonia arjentina en la 
+NA 
+y
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

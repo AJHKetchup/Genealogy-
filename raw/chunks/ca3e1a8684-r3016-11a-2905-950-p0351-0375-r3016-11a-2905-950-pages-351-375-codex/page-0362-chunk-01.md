@@ -1,0 +1,118 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-dde6dc6da70e-P0362-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375.codex.md
+converted_sha256: dde6dc6da70e4ad33e41cd47af8dbce16fc9ebe3039d87a29b0ac3110c20514e
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/manifest.json
+page_start: 362
+page_end: 362
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/manifest.json`
+- Source page: 362
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/page-images/page-0362.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+La Croix-Rouge de Belgique n'entreprend pas la formation des
+infirmières, mais fait de la propagande en faveur de la profession,
+en adressant aux candidates les programmes d'études et les listes des
+écoles d'infirmières du pays.
+La
+Croix-Rouge
+encourage
+l'organisation
+de
+journées
+d'étude
+pour infirmières visiteuses, collabore à l'institution de cours complé¬
+mentaires, accorde des bourses d'études et
+sera bientôt
+en
+mesure
+(grâce aux avantages offerts par le nouveau centre d'hygiène de la
+Fondation
+Depage) d'organiser
+un
+cours
+d'enseignement pratique
+pour les élèves de troisième année des différentes écoles d'infirmières
+du pays.
+ÉTATS-UNIS D'AMÉRIQUE.
+Le Comité de la Croix-Rouge à New-York possède une maison
+de repos et de convalescence pour infirmières.
+FRANCE.
+Société de
+Secours
+aux Blessés Militaires
+Cette société a créé, par l'intermédiaire de l'Association mutuelle
+des infirmières de la Croix-Rouge française, un système d'assurance-
+maladie pour ses infirmières et a fondé à Paris un foyer pour infirmières.
+Association des Dames Françaises
+Cette société possède un club pour
+ses infirmières et participe
+au foyer et
+au système d'assurance de l'Association mutuelle des
+infirmières de la Croix-Rouge française.
+Union
+des Femmes de France
+Cette société possède
+une maison de repos
+pour infirmières et
+participe au foyer et au système d'assurance de l'Association mutuelle
+des infirmières
+de la Croix-Rouge française.
+GRANDE-BRETAGNE.
+Il
+existe quatre foyers et clubs
+pour infirmières et assistantes
+bénévoles. La section des infirmières de la Croix-Rouge britannique
+est représentée sur le comité d'administration du foyer des infirmières
+internationales de la Ligue des Sociétés de la Croix-Rouge à Londres.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 363

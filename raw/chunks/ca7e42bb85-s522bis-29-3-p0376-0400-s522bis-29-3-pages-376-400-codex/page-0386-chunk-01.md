@@ -1,0 +1,146 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-0672d3407f1f-P0386-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400.codex.md
+converted_sha256: 0672d3407f1ff34ab73065c8b976b2b653957a30becce1e5d3c445d7e5663dd7
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400/manifest.json
+page_start: 386
+page_end: 386
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400/manifest.json`
+- Source page: 386
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400/page-images/page-0386.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+19
+-
+DEREOHO
+IHTERHACIOHAL
+Del punto
+de vista del dereoho internaoional, la posiciôn
+de la Argentina
+surge inmediatamenta de los documentos
+que he-
+mos analizado
+en
+su doble aspecto historic© y del derecho
+cons¬
+titue! onal argentine.
+Segun la Constitucion argentina (art. 74) el Poder Execu¬
+tive lo
+asume el Présidente
+de la naeiôn argentina:
+el Présiden¬
+te
+es
+el
+Jefe
+Supremo del Estado y a él incumbe dirigir la ad-
+ministraeiôn general del pals (art. 96, parrafo 1). Seg&n el
+dereoho internaoional,
+el Poder Ejecutivo
+es el représentante
+exterior del Estado.
+Los Mnistros
+de Relaciones Exterior es y
+los plenipotenciarios
+en el extranjero no
+son mas
+que agentes
+âSESgssnsifcéa del Poder Ejecutivo. Por consiguient e, todo arreglo
+conoertado
+con el Poder Ejecutivo
+o
+con
+sus représentantes le¬
+gales,
+debe considerarse internacionalmente vâlido y comporta
+la responsabilidad internaoional del Estado.
+Como tal pueâe
+considerarse la doctrina universal
+que concilia
+a la vez las
+exigencias de la practiea y el respect©
+a la soberanla de los
+Estados.
+A la luz
+de
+este principio podemos decir
+que la Argen¬
+tina,
+por sus telegramas del 1E y 18 de Julio de 1919 y del 16
+de
+Enero 19E0,
+ha adherido sin réserva al Pacto de la Soeiedad
+de las Haoiones.
+Los funcionarios
+que han llevado a cabo el
+acto
+de adhesiôn,
+han sido agentes competentes y calificados
+que han obrado
+en los limites exteriores y visibles de su corn***
+petencia:
+el Ministro Plenipoteneiario de la Argentina en Paris,
+el Ministro
+de
+Relaciobes Exteriores y el Présidente de la Repii-
+blica
+euya autoridad los cubre a todos*
+Por otra parte, la Secretarla de la Soeiedad y la So-
+ciedad misma han interpretado los actos de la Argentina en el
+sentido de
+que ellos implican una adhesiôn sin réserva al Pacto,
+pues sin eso la Argentina no hubiera enviado delegados a la
+.
+En el mecanismo del Pacto (art. primer©) los Estados
+Asambl ea
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 387

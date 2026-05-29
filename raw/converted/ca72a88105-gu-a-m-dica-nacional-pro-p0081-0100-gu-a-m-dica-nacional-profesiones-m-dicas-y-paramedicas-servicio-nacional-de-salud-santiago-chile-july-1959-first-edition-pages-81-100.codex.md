@@ -1173,150 +1173,169 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 93
+
 ## Page Metadata
-Page number: 93
-Source publication year: 1959
-Source publication edition: First Edition
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json`
+- Source page: 93
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/page-images/page-0093.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page presents a two-column directory format. The left column lists names (Last Name, First Name), and the right column provides an address and a city/region. The entries are sorted alphabetically by last name. There is a large capital "T" centered between the two columns, indicating a new alphabetical section. A page number "96 –" is present at the bottom left.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-Steiner Szobel, Alejandro
-Steinsapir Dunowicz, Mendel
-Stevens Bassaletti, Walterio
-Stevenson Rioseco, Carlos
-Stockebrand Iglesias, Sergio
-Stockmeyer Valenzuela, Edgardo
-Strauszer Fautl, Tomás
-Stromilli Cartivelli, Virginia
-Strozzi Vera, Luis A.
-Strube París, Eduardo
-Suárez Drobeck, José
-Suárez González, Juan
-Suárez Guglielmini, Héctor
-Suárez Herreros, Eugenio
-Suárez Ordóñez, Emilio
-Suazo Figueroa, Luis
-Suazo Lagos, Manuel
-Sudy Castro, Emilio
-Depto. 411
-Sudzuki Hili, Gladys
-Sunkel Weil, Walter
-Sunnah Dgmin, Elías
-Swett Claro, Carlos
-Sylvester Rasch, Eduardo
-Symmes Madariaga, Charles H.
-Symon Ojeda, José
-Symon Torres, Fernando
-Szpirman Tuchszneider, Leonardo
-
-T
-
-Taboada Liewald, Erwin
-Taboada Liewald, Hernán
-Taboada Liewald, Jaime
-Taborga Mandiola, Alfredo
-Taborga Mandiola, Nicolás
-Tag Espina, Carlos Fernando
-Tagle Sánchez, Hernán
-Tala Japaz, Jorge
-Talesnick Dulitzky, Jaime
-Talma García, Raúl
-
-96 –
-
-Miraflores 249
-Los Acantos 1534
-Caupolicán 242
-El Cerro 0144
-Santa María s/n
-Victoria 2676
-Chacabuco 1005
-Hospital
-Tocornal 269
-Caupolicán 150
-Avda. El Cerro 0131
-Arturo Prat 427
-Lautaro 659
-Santa Lucía 302
-Penco 260
-Almagro 190
-Hospital
-Alam. B. O'Higgins 2889,
-2.a Avenida 1281
-Profesor Porter 23
-Avda. Lyon 2696
-Salvador Donoso 1461
-Monjitas 298
-Ordóñez 355
-Compañía 2552
-Compañía 2550
-B. Villalobos 1133 C
-
-Placer 1324
-Manuel Montt 1759
-Janequeo 225
-Montenegro 972
-Los Españoles 2610
-Avda. Lyon 127
-Gorbea 1861
-Gran Avenida 6085
-Hamburgo 1838
-Avda. Suecia 2619
-
-Santiago
-Santiago
-Concepción
-Santiago
-Cunco
-Valparaíso
-Concepción
-La Serena
-Santiago
-Angol
-Santiago
-Temuco
-Concepción
-Santiago
-Penco
-Los Angeles
-Chillán
-Santiago
-Santiago
-Santiago
-Santiago
-Valparaíso
-Santiago
-Maipú
-Santiago
-Santiago
-Santiago
-
-Santiago
-Santiago
-Concepción
-Santiago
-Santiago
-Santiago
-Santiago
-Santiago
-Santiago
-Santiago
+```markdown
+éteiner Szobel, Alejandró 
+Steinsapir Dunowicz, Mendel 
+Stevens Bassaletti, Walterio 
+Stevenson Ríoseco, Carlos 
+Stockebrand Iglesias, Sergio 
+Stockmeyer Valenzuela, Edgardo 
+Strauszer Fautl, Tomás 
+Stromilli Cartivelli, Virginia 
+Strozzi Vera, Luis A. 
+Strube París, Eduardo 
+Suárez Drobeck, José 
+Suárez González, Juan 
+Suárez Guglielmini, Héctor 
+Suárez Herreros, Eugenio 
+Suárez Ordóñez, Emilio 
+Suazo Figueroa, Luis 
+Suazo Lagos, Manuel 
+Sudy Castro, Emilio 
+Sudzuki Hili, Gladys 
+Sunkel Weil, Walter 
+Sunnah Dgemin, Elias 
+Swett Claro, Carlos 
+Sylvester Rasch, Eduardo 
+Symmes Madariaga, Charles H. 
+Symon Ojeda, José 
+Symon Torres, Fernando 
+Szpirman Tuchszneider, Leonardo 
+Míraflores 249 
+Santiagó 
+Los Acantos 1534 
+Santiago 
+Caupolicán 242 
+Concepción 
+El Cerro 0144 
+Santiago 
+Santa María s/n 
+Cuneo 
+Victoria 2676 
+Valparaíso 
+Chacabuco 1005 
+Concepción 
+Hospital 
+La Serena 
+Tocornal 269 
+Santiago 
+Caupolicán 150 
+Angol 
+Avda. El Cerro 0131 
+Santiago 
+Arturo Prat 427 
+Temuco 
+Lautaro 659 
+Concepción 
+Santa Lucía 302 
+Santiago 
+Penco 260 
+Penco 
+Almagro 190 
+Los Angeles 
+Hospital 
+Chillán 
+Alam. B. O'Higgins 2889, Santiago 
+Depto. 411 
+2.a Avenida 1281 
+Santiago 
+Profesor Porter 23 
+Santiago 
+Avda. Lyon 2696 
+Santiago 
+Salvador Donoso 1461 
+Valparaíso 
+Monjitas 298 
+Santiago 
+Ordóñez 355 
+Maipú 
+Compañía 2552 
+Santiago 
+Compañía 2550 
+Santiago 
+B. Villalobos 1133 С 
+Santiago 
+T 
+Taboada Liewald, Erwin 
+Placer 1324 
+Santiago 
+Taboada Liewald, Hernán 
+Manuel Montt 1759 
+Santiago 
+Taboada Liewald, Jaime 
+Janequeo 225 
+Concepción 
+Taborga Mandiola, Alfredo 
+Montenegro 972 
+Santiago 
+Taborga Mandiola, Nicolás 
+Los Españoles 2610 
+Santiago 
+Tag Espina, Carlos Fernando 
+Avda. Lyon 127 
+Santiago 
+Tagle Sánchez, Hernán 
+Gorbea 1861 
+Santiago 
+Tala Japaz, Jorge 
+Gran Avenida 6085 
+Santiago 
+Talesnick Dulitzky, Jaime 
+Hamburgo 1838 
+Santiago 
+Taima García, Raúl 
+Avda. Suecia 2619 
+Santiago 
+96 —
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 94
 
@@ -1506,115 +1525,168 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 96
+
 ## Page Metadata
-Page number: 99
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json`
+- Source page: 96
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/page-images/page-0096.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a two-column directory listing. Each entry typically consists of a name, followed by an address, and then a city. The content flows from the top of the left column to the bottom, then continues at the top of the right column. A large capital "U" acts as a section header in both columns. A page number is present at the bottom right.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-Torres Vásquez, Dulia
-Torretti Edwards, Jorge A.
 
-Torrico Rojas, Augusto
-
-Torrico Rojas, Herbert
-Tortello Revello, Nicolás
-
-Torti Lobo, Ester
-Trabuco Stratta, Enrique
-Trautmann Traub, Alberto
-Treuer Araneda, Carlos
-Triantafilo Klotza, Nicolás
-Trivelli Franzolini, Héctor
-Trivelli Rocchi, Orlando
-Troncoso Farías, Juan
-Troncoso Mancilla, Roberto
-Trucco Hinostroza, Víctor
-Trucco Lee, Hugo
-Tschorne Weinstein, Rubén
-
-Tumani Spahie, Eduardo
-
-Turteltaub Krugiac, Rubén
-Tuyl Houtmann, Adrián
-
-U
-
-Uauy Ayub, Nicolás
-Uberall Ehrlich, Enrique
-Ubilla González, Mario
-Ubilla González, Ventura
-Ubilla Lecaros, Abel
-Ugalde Rodríguez, Fernando M.
-Ugarte Avendaño, José M.
-Ugarte Manterola, Guillermo
-
-Ugarte Urzúa, Guillermo
-Ulloa Acuña, Inés
-Ulloa Acuña, Justo
-Ulloa Acuña, Oscar
-Ulloa Muñoz, Octavio
-Unda González, Oscar
-Undurraga Alemparte, Oscar
-Prat 432 Antofagasta
-Avda. Gral. Bustamante Santiago
-72, Depto. 45
-Avda. Gral. Bustamante Santiago
-32, Depto. 3
-Moneda 720, Depto. 711 Santiago
-Eleuterio Ramírez 477, Valparaíso
-3.er Piso
-San Emilio 2106 Santiago
-Pedro Aguirre Cerda 128 Lota
-Avda. Holanda 2350 Santiago
-San Martín 587 Concepción
-Latorre 2580, Depto. 5 Antofagasta
-Matta 2025 Antofagasta
-Miguel Claro 229 Santiago
-Valparaíso 694 Viña del Mar
-Caliche 949 Santiago
-Carmen 979 Santiago
-Colo Colo 222 Concepción
-Valentín Letelier 1381, Santiago
-Depto. 404
-José M. de la Barra 438, Santiago
-Depto. 28
-Victoria 887 Cauquenes
-Blanco 1041 Valparaíso
-
-U
-
-Santa Filomena 476 Santiago
-Santa Isabel 0661 Santiago
-Av. Santos Dumont 999 Santiago
-Alam. B. O'Higgins 3155 Santiago
-Rosas 2853 Santiago
-Las Quilas 4119 Santiago
-Los Araucanos 2218 Santiago
-Vicuña Mackenna 42, Santiago
-Depto. 101
-Agustinas 972, Of. 412 Santiago
-O'Higgins 536 Concepción
-Angol 482 Concepción
-Santa Rita 1168 Santiago
-José M. de la Barra 438 Santiago
-Viana 615 Viña del Mar
-Diagonal Oriente 1704 Santiago
-
-- 99
+```markdown
+forres Vásquez, buiíá 
+Torretti Edwards, Jorge A. 
+Torrico Rojas, Augusto 
+Torrico Rojas, Herbert 
+Tortello Revello, Nicolás 
+Torti Lobo, Ester 
+Trabuco Stratta, Enrique 
+Trautmann Traub, Alberto 
+Treuer Aranedá, Carlos 
+Triantafilo Klotza, Nicolás 
+TriVelli Franzolini, Héctor 
+Trivelli Rocchi, Orlando 
+Troncoso Farías, Juan 
+Troncoso Mancilla, Roberto 
+Trueco Hinostroza, Víctor 
+Trueco Lee, Hugo 
+Tschorne Weinstein, Rubén 
+Tumani Spahie, Eduardo 
+Turteltaub Kruglac, Rubén 
+Tuyl Houtmann, Adrián 
+frat 432 
+Avda. Gral. Bustamante 
+72, Depto. 45 
+Avda. Gral. Bustamante 
+32, Depto. 3 
+Moneda 720, Depto. 711 
+Eleuterio Ramírez 477, 
+З.ег Piso 
+San Emilio 2106 
+Pedro Aguirre Cerda 128 
+Avda. Holanda 2350 
+San Martín 587 
+Latorre 2580, Depto. 5 
+Matta 2025 
+Miguel Claro 229 
+Valparaíso 694 
+Caliche 949 
+Carmen 979 
+Colo Colo 222 
+Valentín Letelier 1381, 
+Depto. 404 
+José M. de la Barra 438, 
+Depto. 28 
+Victoria 887 
+Blanco 1041 
+Ántofagasiá 
+Santiago 
+Santiago 
+Santiago 
+Valparaíso 
+Santiago 
+Lota 
+Santiago 
+Concepción 
+Antofagasta 
+Antofagasta 
+Santiago 
+Viña del Mar 
+Santiago 
+Santiago 
+Concepción 
+Santiago 
+Santiago 
+Cauquenes 
+Valparaíso 
+U 
+Uauy Ayub, Nicolás 
+Uberall Ehrlich, Enrique 
+Ubilla González, Mario 
+Ubilla González, Ventura 
+Ubilla Lecaros, Abel 
+Ugalde Rodríguez, Fernando M. 
+Ugarte Avendaño, José M. 
+Ugarte Manterola, Guillermo 
+Ugarte Urzúa, Guillermo 
+Ulloa Acuña, Inés 
+Ulloa Acuña, Justo 
+Ulloa Acuña, Oscar 
+Ulloa Muñoz, Octavio 
+Unda González, Oscar 
+Undurraga Alemparte, Oscar 
+Santa Filomena 476 
+Santa Isabel 0661 
+Av. Santos Dumont 999 
+Alam. B. O'Higgins 3155 
+Rosas 2853 
+Las Quilas 4119 
+Los Araucanos 2218 
+Vicuña Mackenna 42, 
+Depto. 101 
+Agustinas 972, Of. 412 
+O'Higgins 536 
+Angol 482 
+Santa Rita 1168 
+José M. de la Barra 438 
+Viana 615 
+Diagonal Oriente 1704 
+Santiago 
+Santiago 
+Santiago 
+Santiago 
+Santiago 
+Santiago 
+Santiago 
+Santiago 
+Santiago 
+Concepción 
+Concepción 
+Santiago 
+Santiago 
+Viña del Mar 
+Santiago
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 97
 

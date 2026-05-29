@@ -8,70 +8,176 @@
 - Conversion method: Codex local vision workbench
 - Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/extracted-images`
 
+# Page 404
+
 ## Page Metadata
-Page number: 404
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json`
+- Source page: 404
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/page-images/page-0404.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a single column of text. At the top, centered, is the page number. Below that, the text continues from a previous section, followed by a sub-heading "Turismo" and then a new article with sub-points.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
+```markdown
 — 72 —
-
-personal administrativo, conductores, guardas, etcétera, y sa-
+personal administrative, eonductores, guardas, etcétera, y
+sa-
 larios que perciben.
-    p) Imponer a las empresas la separación de los empleados
-que considere peligrosos para la seguridad de los viajeros o la
-conservación del orden público.
-    q) Proyectar el reglamento de exámenes para conductores
-y guardas; expedir instrucciones al cuerpo de inspectores y
-establecer las normas necesarias para el mejor servicio y
+p)
+Imponer
+a las
+empresas la separaciôn de los empleados
+que considéré peligrosos para la seguridad de los viajeros
+o la
+conservation
+del orden publico.
+q)
+Proyectar el reglamento
+de exâmenes
+para eonductores
+y guardas;
+expedir instrucciones al
+cuerpo
+de inspectores y
+establecer
+las
+normas
+necesarias
+para
+el
+mejor servicio
+y
 contralor.
-    r) Exigir de las empresas, dentro de las 24 horas de ocurrido,
-un informe detallado que suscribirá el técnico encargado de
-la explotación, de los accidentes e interrupciones del servicio
-y sus causas.
-
+r) Exigir de las empresas, dentro de las 24 horas de ocurrido,
+un
+informe
+detallado
+que suseribirâ
+el técnico encargado
+de
+la explotaciôn,
+de los accidentes
+e interrupciones del servicio
+y sus causas..
 Turismo
-
-Art. 73. El Poder Ejecutivo podrá autorizar el estableci-
-miento de líneas de turismo prevista en los artículos 20, 21
+Art.
+73.
+El
+Poder Ejecutivo
+podrâ
+autorizar el estableci-
+miento
+de lineas
+de turismo prevista
+en los articulos
+20,
+21
 y 22 de la ley 4375, en los siguientes casos:
-    a) A las localidades donde no existan servicios regulares
+a)
+A las
+localidades donde
+no existan
+servicios regulares
 de transporte colectivo de pasajeros con concesiones otorgadas
-por la Provincia. Para estas líneas los interesados deberán
-cumplir con todos los requisitos establecidos en este regla-
-mento para la solicitación de líneas regulares de transporte
-colectivo de pasajeros. Estas líneas podrán funcionar en de-
-terminadas épocas del año o de fin de semana. En la solicitud
-deberá expresarse el motivo que justifique el establecimiento
-del servicio que se propone. Las tarifas para esta clase de
-concesiones no podrán ser inferiores a las establecidas por los
-servicios ordinarios. Durante la época de su funcionamiento
-les serán aplicables a estas empresas todas las disposiciones del
-presente reglamento.
-    b) Para servicios de excursión organizada por entidades
-particulares o del Estado; a estos servicios sólo les será apli-
-cable la faz técnica de este reglamento.
+por la Provincia.
+Para
+estas lineas los
+interesados
+deberân
+cumplir
+con
+todos
+los
+requisites
+estableeidos
+en
+este
+regla¬
+mento
+para la solicitaciôn
+de lineas
+regulares
+de transporte
+colectivo
+de pasajeros.
+Estas lineas podrân funcionar
+en de-
+terminadas épocas del ano o de fin de semana.
+En la solicitud
+deberâ
+expresarse el motivo
+que justifique el establecimiento
+del
+servicio
+que
+se
+propone.
+Las tarifas
+para esta clase
+de
+concesiones
+no podrân ser inferiores a las establecidas por los
+servicios ordinarios.
+Durante
+la
+época
+de
+su funcionamiento
+les serân aplicables a estas empresas todas las disposiciones del
+présente reglamento.
+b)
+Para
+servicios
+de
+excursion
+organizada
+por
+entidades
+particulares
+o del Estado;
+a estos servicios solo les sera apli-
+cable la faz técnica
+de
+este reglamento.
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 405
@@ -1642,64 +1748,106 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 ```
 
+# Page 423
+
 ## Page Metadata
-Page number: 423
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json`
+- Source page: 423
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/page-images/page-0423.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a main title followed by a date and expedition number. Below this, there is a block of text structured as a decree, starting with a preamble and then listing several "Considerando" points. The text is presented in a single column. A small number "7" appears at the bottom right corner.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-DECRETO REGLAMENTARIO DE LAS MULTAS
-POR INFRACCIONES A LO DISPUESTO EN LAS
-LEYES Núm. 4247, 4258, 4375 Y DECRETO
+
+```markdown
+DECRETO
+REGLAMENTARIO
+DE
+LAS MULTAS
+POR INFRACCIONES A LO DISPUESTO
+EN
+LAS
+LEYES
+Num.
+4247,
+4258,
+4375
+Y
+DECRETO
 REGLAMENTARIO DE LAS MISMAS.
-
-Exp. T. 178 de 1936. La Plata, noviembre 6 de 1936.
-
-Habiendo sido sancionadas las leyes números 4247, 4258 y
-4375 que regulan el tránsito en los caminos provinciales de ve-
-hículos particulares o de servicio público, leyes que preven la
-aplicación de multas por las infracciones que éstos cometan y
-a las del decreto reglamentario de ellas; y
-Considerando:
-Que si bien la ley 4247 en su artículo 61 enumera infraccio-
-nes y establece sus penalidades, en su artículo 83 faculta al Po-
+Habiendo
+sido sancionadas las leyes
+numéros 4247, 4258
+y
+4375 que regulan el trânsito en los caminos provinciales de ve-
+hiculos partieulares
+o de servicio pûblico, leyes que preven la
+aplicaciôn de multas por las infraeciones que éstos cometan y
+a las del decreto reglamentario de ellas ; y
+Considerando :
+Que si bien la ley 4247 en su articulo 61 enumera infraccio-
+nes y establece sus penalidades, en su articulo 83 faculta al Po-
 der Ejecutivo para establecer multas hasta pesos 200 moneda
-nacional, lo que significa autorizarlo a establecer las penalida-
+nacional, lo que significa autorizarlo a establecer las penalida¬
 des que no estuvieran previstas en la mencionada ley;
-Que el artículo 30 de la ley 4375, sancionada con posteriori-
-dad a las otras dos, faculta al Poder Ejecutivo para establecer
-penalidades por infracción a las disposiciones de las tres leyes
-mencionadas, sin establecer límite en su monto;
-Que la ley 4247 en su artículo 82 establece que dicha ley se-
-rá aplicada: por la dirección de tráfico; por los inspectores ho-
-norarios que designe el Poder Ejecutivo; por la policía de la
+Que el articulo 30 de la ley 4375, sancionada con posteriori-
+dad
+a las otras dos, faculta al Poder Ejecutivo para establecer
+penalidades por infracciôn a las disposiciones de las très leyes
+mencionadas, sin establecer limite en su monto;
+Que la ley 4247 en su articulo 82 establece que dicha ley se¬
+ra aplieada: por la direcciôn de trâfico; por los inspectores ho-
+norarios que désigné el Poder Ejecutivo; por la policia de la
 Provincia y por los municipios;
 Que si bien en las respectivas leyes y decretos reglamenta-
 rios, ha sido prevista la mayor parte de las multas a aplicarse,
 hay disposiciones de las mismas que pueden ser violadas impu-
-nemente o solo requiriendo resoluciones especiales en cada ca-
-so, para ser reprimidas;
-Que es conveniente reunir en un solo decreto, todas las pena-
-lidades ya establecidas por violación de las leyes y resoluciones
-que reglamentan el tráfico y las que se establecen por la pre-
-sente, aclarando al mismo tiempo quienes deben aplicarlas, có-
-
+nemente
+o solo requiriendo resoluciones especiales en cada ca-
+so, para ser reprimidas ;
+Que es conveniente reunir en un solo decreto, todas las pena¬
+lidades ya establecidas por violaciôn de las leyes y resoluciones
+que reglamentan el trâfico y las que se establecen por la pré¬
+sente, aclarando al mismo tiempo quienes deben aplicarlas, cô-
 7
+```
 
 ## Images, Captions, And Visual Notes
-None.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual content found."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 98

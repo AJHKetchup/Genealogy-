@@ -1,0 +1,109 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d0b68aaa1c4f-P0517-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528.codex.md
+converted_sha256: d0b68aaa1c4f2b765936fe74b460eb333e9eb7161a67dda66a4935ef04073974
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528/manifest.json
+page_start: 517
+page_end: 517
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528/manifest.json`
+- Source page: 517
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528/page-images/page-0517.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+a 
+e 
+- 
+OU 
+SESION DE 13 DE MAYO DE 1918 
+12 
+tante que desear: ante todo su disciplina se resiente mucho a 
+causa de su temperamento nervioso, sucediéndose perturbaciones 
+en sus clases 1 continuos conflictos entre el profesor 1 los alumnos 
+que motivan protestas de éstos i quejas de los padres o apodera- 
+dos. 
+Por otra parte, la enseñanza del señor Vielhaber no corresponde 
+a sus esfuerzos, como lo manifiesta el mal resultado obtenido en 
+los exámenes del pasado año escolar: por ejemplo, de 16 alumnos 
+que contaba el tercer año de ingles, solamente se presentaron sie- 
+te1de éstos salieron reprobados dos; i de 16 alumnos del 5.2 año 
+se presentaron 10, saliendo mal 4. 
+En vista dela situacion de las clases se ha hecho presente aj 
+señor Vielhaber que solo puede seguir hasta que se encuentre un 
+- profesor competente. 
+Habiendo ofrecido hace poco sus servicios el profesor de Estado 
+don Edgardo Canales, titulado en el Instituto Pedagójico, el in- 
+frascrito estima que ha llegado el momento de proveer en propie- 
+dad las clases de ingles. 
+Por tanto, a Ud. suplico, que si lo tiene a bien, previó los trá- 
+mites del caso, se proceda a proveer en propiedad las diecisiete 
+horas de clases semanales de ingles desempeñadas interinamente 
+por don Luis Vielhaber. 
+(Firmado). 
+—/, E. Peña 
+Vallalon. 
+Sesion de 13 de Mayo de 1918. 
+Fué presidida por el señor Ministro de Instruccion Pública, don 
+Pedro Aguirre Cerda, asistieron el señor Rector de la Universi- 
+dad, 
+don Domingo Amunátegui Solar, los señores Consejeros 
+Amunátegui Solar don Gregorio, Bahamonde, Espejo, Matte, Sa- 
+las Lavaqui, Trucco 1 el señor Secretario 
+Jeneral, don Octavio 
+Maira. 
+Previas las formalidades reglamentarias i el juramento requeri- 
+do, el señor Rector confirió los siguientes títulos 1 grados: 
+Arquitecto. 
+don Guillermo Schneider Vergara 
+Profesor de Ciencias Físicas 1 Naturales. 
+don Eliseo Soto Villalobos.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 518

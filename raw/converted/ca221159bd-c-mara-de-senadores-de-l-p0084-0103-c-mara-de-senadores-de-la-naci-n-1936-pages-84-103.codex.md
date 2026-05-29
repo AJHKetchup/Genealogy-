@@ -361,171 +361,259 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected."}
 
+# Page 89
+
 ## Page Metadata
-Page number: 89
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json`
+- Source page: 89
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0089.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page consists of a single column of text. The page number "— 86 —" is centered at the top. The main content includes several paragraphs of regulations, with subheadings for specific rules.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 86 —
-
-te al de combinación perdido, la empresa del tren atrasado
-quedará eximida de la obligación de formar el tren indicado
-en las reglas precedentes.
-
-Dicho consentimiento se hará constar por escrito y bajo la
+```markdown
+— 86
+—
+te al
+de combinaciôn perdido, la
+empresa del tren
+atrasado
+quedarâ eximida de la obligaciôn de formar el tren indicado
+en las réglas precedentes.
+Dicho consentimiento
+se harâ constar por escrito y bajo la|
 firma del jefe del tren y la de todos los pasajeros que supie-
-ren firmar en un libro talonario por duplicado denominado
-LIBRO DE ACTAS DE COMBINACION, cuya fórmula será
-determinada por la Dirección General de Ferrocarriles y será
-llevado en cada tren de combinación, anotándose en él el nú-
-mero del tren, la fecha y causa del atraso, el nombre y domi-
-cilio de todos los pasajeros, número de boleto, con especifica-
-ción de la estación de destino y la de partida.
-
+ren firmar
+en un libro talonario por duplicado
+denominado
+LIBRO DE ACTAS DE COMBINACION, cuya formula sera
+determinada por la Direeciôn General de Ferrocarriles y sera
+llevado
+en cada tren de combinaciôn, anotândose
+en él el
+nu¬
+méro del tren, la fecha y causa del atraso, el nombre y domi-
+cilio de todos los pasajeros, numéro de boleto,
+con especifica-
+ciôn de la estaciôn de destino y la de partida.
 Si el recorrido que faltare para completar el viaje de los
-pasajeros con boleto de combinación, fuera corto y pudiera rea-
-lizarse por carretera, la empresa afectada podrá, con el acuer-
-do de los pasajeros, disponer la conducción de los mismos uti-
-lizando automóviles u otros vehículos apropiados.
-
+pasajeros con boleto de combinaciôn, fuera corto y pudiera rea-
+lizarse por carretera, la empresa afectada podrâ, con el acuer-
+do de los pasajeros, disponer la conducciôn de los mismos nti-
+lizando antomôviles u otros vehlculos apropiados.
+su
+Pi
+es
+qi
+m
+lu
+si
+m
+se
 Oportunidad en que debe requerirse
-el consentimiento de los pasajeros.
-
-Regla 6ª: El consentimiento de que habla la regla anterior
-debe ser requerido tan luego que se produzca el accidente que
-causare el atraso, a fin de que, si no llegare a prestarse por
-todos los pasajeros con boletos de combinación, haya tiempo
-suficiente para expedir la orden de que habla la regla 4ª.
-
-Combinación entre tres o más
-líneas.
-
-Regla 7ª: Cuando la combinación tenga lugar entre tres o
-más líneas y el atraso provenga de la primera, las otras espe-
-rarán al tren atrasado con sujeción a lo establecido en las
-reglas 1ª y 2ª.
-
-Además, cuando la línea de combinación inmediata con la
-del tren atrasado reciba de ésta la orden de alistar una loco-
-motora o un tren especial, retransmitirá a la siguiente y así
+d(
+el consentimiento
+de los pasajeros.
+Régla 6*:
+El consentimiento de que habla la regia anterior
+debe ser requerido tan luego que se produzca el accidente qw
+causare el atraso,
+a fin de que, si no llegare
+a prestarse por
+todos los pasajeros
+con boletos de combinacion, haya tiemp»
+suficiente para expedir la orden de que habla la régla P.
+Combinacion
+entre
+très
+o
+mas
+Hneas.
+Régla 7*:
+Cuando la combinaciôn tenga lugar entre très o
+mas lineas y el atraso provenga de la primera, las otras espo-
+rarân al
+tren atrasado
+con sujeciôn
+a lo
+establecido
+en las
+réglas 1" y 2".
+Ademâs, cuando la linea de combinaciôn inmediata
+con la
+del tren atrasado reciba de esta la orden de alistar una loco;
+motora
+o
+un tren especial, retransmitirâ
+a la siguiente y
+a-sl
+ci
+d,
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+# Page 90
 
 ## Page Metadata
-Page number: 90
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json`
+- Source page: 90
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0090.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page presents a single-column layout with a page number centered at the top. The main content consists of legal or regulatory text, structured with headings, numbered rules, and articles, including a two-item list. There is also some partial text visible in the left margin from the preceding page.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```
-— 87 —
-
-casado sucesivamente hasta llegar a la última línea de combinación
-dicado para el punto de destino de los pasajeros de la primera.
-
+```markdown
+—
+87
+—
+•asado
+licado
+ajo la
+supie-
+inado
+i
+sera
+'
+sera
+;1
+nu-
+domi-
+ifica-
+le los
+i rea¬
+dier-
+3
+nti-
+erirse
+jeros.
+erior
+: que
+por
+ompo
+mas
+■es o
+îspe-
+:
+las
+sueesivamente hasta llegar a la ultima lînea de combinaciôn
+para el punto de destino de los pasajeros de la primera.
 Gastos del alistamiento y corrida del
 tren especial.
-
-Regla 8ª: Los gastos que ocasione el alistamiento del tren
-especial indicado y su recorrido serán a cargo de la empresa
+Régla 8Los gastos que oeasione el alistamiento del tren
+especial indicado y su recorrido serân a cargo de la empresa
 que lo hubiera ordenado.
-Esta a su vez cobrará dicho importe y los gastos en que ella
+Esta a su vez cobrarâ dicho importe y los gastos en que ella
 misma hubiera incurrido por igual causa a la empresa de quien
-hubiese recibido la orden de alistar el tren especial y así suce-
+hubiese recibido la orden de alistar el tren especial y asî suce-
 sivamente, de manera que el monto total de los gastos por tre-
-nes especiales que se formen en el caso de la regla precedente,
-sea satisfecho por la empresa cuyo tren sufrió el atraso.
-
+nes especiales que se formen en el caso de la régla precedente,
+sea satisfeclio por la empresa cuyo tren sufriô el atraso.
 Excepciones a lo dispuesto en el ar-
-tículo precedente.
-
-Art. 66.— No regirán las disposiciones del artículo prece-
+ticulo precedente.
+Art.
+66. — No regirân las disposiciones del articulo prece¬
 dente en los siguientes casos:
-
 a) Cuando se trate de trenes o combinaciones internaciona-
 les, aunque hicieran servicio local, si el atraso se hubiere
-producido en líneas extranjeras. A tal efecto los horarios
-para el público deberán llevar las observaciones perti-
-nentes respecto al servicio condicional que esos trenes
-harán en su tráfico local.
-
-b) Cuando en los servicios combinados de ferro-barcos los
-atrasos se produzcan por impedimento en la marcha o
+producido en lineas extranjeras. A tal efecto los horarios
+para el pûblico deberân llevar las observaciones perti¬
+nentes respecto al servicio condicional
+que
+esos trenes
+harân en su trâfico local.
+b)
+Cuando
+en los servicios combinados de ferro-barcos los
+atrasos
+se produzean por impedimiento en la marcha o
 funcionamiento del ferro-barco, debido a temporales, ne-
-blinas o desniveles excepcionales de las vías.
-
-Certificados de inspección de loco-
+blinas
+o desniveles excepcionales de las vias.
+Certificados de inspeccion de loco-
 motoras.
-
-Art. 67.— Toda locomotora y vehículo automotor en servi-
-cio deberá estar provisto del certificado de habilitación otorga-
-do por la Dirección General de Ferrocarriles. Dicho certifi-
+n ]a
+Art. 67. —■Toda locomotora y vehîculo automotor en servi-
+oc0.
+cio deberâ estar provisto del certificado de habilitaciôn otorga-
+. aSi
+do por la Direcciôn General de Ferrocarriles.
+Dicho certifi-
 ```
 
 ## Images, Captions, And Visual Notes
 
-*   **Partial text in left margin**:
-    *   `ajo la`
-    *   `supie-`
-    *   `inado`
-    *   `será`
-    *   `el nú-`
-    *   `domi-`
-    *   `ifica-`
-    *   `de los`
-    *   `a rea-`
-    *   `cuer`
-    *   `s uti-`
-    *   `erirse`
-    *   `jeros.`
-    *   `erior`
-    *   `e que`
-    *   `o por`
-    *   `empo`
-    *   `más`
-    *   `es o`
-    *   `espe`
-    *   `a las`
-    *   `n la`
-    *   `loco-`
-    *   `e así`
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-No uncertain or illegible text.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page, including the page number, headings, articles, and partial marginal text, has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial images or graphics are present on this page. The page consists entirely of text."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 91
@@ -658,63 +746,111 @@ All visible text on the page has been transcribed. The last paragraph is cut off
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily contains text."}
 ```
 
+# Page 93
+
 ## Page Metadata
-Page number: 90
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json`
+- Source page: 93
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0093.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number is centered at the top. The main content is a series of paragraphs, with one bolded heading separating two sections of text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 90 —
-
-del camino, el mismo aviso será transmitido, también en for-
-ma inmediata, por la empresa a la Dirección General de Fe-
+```markdown
+— 90
+—
+del camino, el mismo aviso sera transmitido, también en for¬
+ma inmediata, por la empresa a la Direcciôn General de Fe-
 rrocarriles.
-Dentro de los veinte días la empresa deberá, además, remitir
-a dicha Dirección un informe detallado de lo ocurrido y sus
+Dentro de los veinte dias la empresa deberâ, ademâs, remitir
+a dicha Direction nn informe detallado de lo ocurrido y sus
 causas, consignando las medidas adoptadas contra el personal
 que hubiera resultado culpable y los medios arbitrados para
-impedir la repetición del accidente.
+impedir la repetition del accidente.
 No mediando las circunstancias enunciadas los accidentes de
-referencia serán comunicados periódicamente a la Dirección
-General de Ferrocarriles, en la forma y términos que ésta de-
+referencia
+serân
+comunicados periôdicamente
+a la Direcciôn
+General de Ferrocarriles, en la forma y términos que ésta de¬
 termine.
-
-**Comunicación de hechos o inciden-**
-**tes que no constituyen accidentes.**
-
+Comunicaciôn de hechos
+o inciden¬
+tes
+que
+no constituyen accidentes.
 Art. 76. — Todo otro hecho, incidente, etc., ocurrido dentro
-de la zona ferroviaria y que afectare al público o al personal,
-al material rodante, o a las demás instalaciones del ferrocarril
-será comunicado periódicamente a la Dirección General de
+de la zona ferroviaria y que afectare al publico o al personal
+al material rodante,
+o a las demâs instalaciones del ferrocarril
+sera
+comunicado periôdicamente
+a la
+Direcciôn
+General
+de
 Ferrocarriles.
-Si hubiera entorpecido el normal funcionamiento del servi-
-cio público será comunicado e informado conforme a lo dis-
-puesto en el artículo anterior.
-En esta última forma se procederá también respecto de todo
-incidente entre el personal o entre éste y terceros, siempre que
-por las características o gravedad de los hechos pudiera pre-
+Si hubiera entorpecido el normal funeionamiento del servi-
+eio publico
+sera comunicado
+e informado conforme
+a
+lo
+dis-
+puesto en el articulo anterior.
+En esta ultima forma se procédera también respecto de todo
+incidente entre el personal o entre este y tercero&, siempre que
+por las caracterîsticas
+o gravedad de los hechos pudiera pre-
 sumirse falta de diligencia o idoneidad del personal o se llegase
 a afectar la regularidad de los servicios, la seguridad de los
-pasajeros o el orden público.
-La Dirección General de Ferrocarriles podrá requerir esa
-misma información en todos los casos que lo juzgare necesario
+pasajeros
+o el orden publico.
+La Direcciôn
+General de Ferrocarriles podrâ requérir esa
+misma informaciôn en todos los easos que lo juzgare necesario
 o conveniente.
-Los accidentes del trabajo se comunicarán además al Depar-
+Los accidentes del trabajo se comuniearân ademâs al Depar-
 tamento Nacional del Trabajo.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 91

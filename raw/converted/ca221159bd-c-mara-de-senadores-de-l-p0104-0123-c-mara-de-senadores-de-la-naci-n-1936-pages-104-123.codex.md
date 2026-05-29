@@ -466,67 +466,107 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
+# Page 108
+
 ## Page Metadata
-Page number: 105
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json`
+- Source page: 108
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0108.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text. At the top, centered, is the page number "105". Below that, the main content consists of a continuation of a numbered list (starting with item "e)", then "8º", "9º", and "10."), followed by a sub-heading and an article ("Art. 95.").
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 105 —
 
-del tren, éste podrá seguir la marcha observando pre-
-caución hasta la primera señal que funcione normalmen-
-te, o hasta la primera estación o garita, donde deberá
+```markdown
+—
+105
+—
+del tren, éste podrâ seguir la marcha observando pre¬
+cauciôn hasta la primera serial que funcione normalmen-
+te,
+o hasta la primera estacion o garita, donde debera
 parar para poner el hecho en conocimiento del jefe de
-la estación o del señalero.
-e) Tratándose de una señal de parada absoluta no automá-
+la estacion
+o del senalero.
+e) Tratândose de una serial de parada absoluta no automâ-
 tica descompuesta, y en caso de que el conductor del tren
-no tenga conocimiento de dicha anomalía, deberá dete-
+no tenga conocimiento de dicha anomalia, debera dete-
 nerse hasta que reciba instrucciones verbales o le hagan
-las señales a mano correspondientes.
-8º Las instalaciones semiautomáticas o las del sistema nor-
-mal controladas por un sistema automático, deben ser
-provistas de dispositivos que impidan que una señal pue-
-da ser puesta en posición de vía libre o de precaución,
-hasta tanto no esté desocupado todo el trecho de vía que
-gobiernan; que asegure la colocación de todos los cam-
-bios afectados en su posición correspondiente; que man-
-tenga a peligro todas las señales antagónicas; y que im-
-pida a la vez que sean movidos los cambios afectados,
+las seriales a mano correspondientes.
+8?
+Las instalaciones semiautomâticas o las del sistema nor¬
+mal controladas por
+un sistema automâtico, deben ser
+provistas de dispositivos que impidan que una senal pue-
+da
+ser puesta en posiciôn de via libre o de precauciôn,
+hasta tanto no esté desocupado todo el trecho de via que
+gobiernan; que asegure la colocaciôn de todos los cam-
+bios afectados en su posiciôn correspondiente ; que man-
+tenga a peligro todas las seriales antagônicas; y que im-
+pida
+a la vez que sean movidos los cambios afectados,
 mientras no hayan sido librados por el tren.
-9º Cuando una Sección Block, dotada de señalización auto-
-mática, linde con otra manejada a mano, debe adoptar-
-se un dispositivo que obligue a que la primera señal
+9?
+Cuando una Secciôn Block, dotada de senalizaciôn auto-
+mâtica, linde con otra manejada a mano, debe adoptar-
+se
+un dispositivo
+que obligue
+a que la primera serrai
 manejada a mano sea puesta a peligro antes de que la
-señal automática que la precede pueda ocupar nueva-
-mente la posición de precaución o la de vía libre.
-10. En los circuitos de vía correspondientes a secciones block
-provistas de señalización automática, ya sea de dos, tres
-o cuatro indicaciones, debe emplearse como norma el sis-
+serial automâtica
+que la precede pueda ocupar nueva-
+mente la posiciôn de precauciôn o la de via libre.
+10. En los cireuitos de via correspondientes a secciones block
+provistas de senalizaciôn automâtica, ya sea de dos, très
+o cuatro indicaciones, debe emplearse eomo norma el sis¬
 tema de recubrimiento entero.
-
 Indicaciones de los diferentes brazos
-de los semáforos.
-
-Art. 95. — Cuando un semáforo esté dotado de dos o más
-brazos o luces a diferente altura, el más alto gobernará la vía
-principal y la altura de los demás deberá corresponder a la
-importancia de su respectiva vía.
+de los semâforos.
+Art.
+95. — Cuando un semâforo esté dotado de dos o mas
+brazos o luces a diferente altura, el mas alto gobernarâ la via
+principal y la altura de los demâs debera corresponder a la
+importancia de su respectiva via.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or significant visual elements on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 106
@@ -1141,65 +1181,104 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
 
+# Page 116
+
 ## Page Metadata
-Page number: 113
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json`
+- Source page: 116
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0116.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents content in a single column. It begins with a page number centered at the top, followed by a continuous block of text. This block includes a main paragraph, a list of indented sub-points, and further paragraphs. There are two centered subheadings that break up the main text. The page concludes with another paragraph of text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 113 —
 
-ñales, y no puedan reanudar la marcha, deberán ser protegidos
-con las señales reglamentarias (petardos, banderas, luces) a una
+```markdown
+— 113
+—
+iiales, y no puedan reanudar la marcha, deberân ser protegidos
+conlas senales reglamentarias (petardos, banderas, luces) a una
 distancia de 800 metros.
-Se hará la protección:
-    En vía sencilla: Hacia ambos lados.
-    En vía doble: Hacia atrás, a menos que la vía contraria se
-encuentre obstruída, en cuyo caso se hará la protección, también
-hacia adelante, pero en la vía contraria.
-    En vías múltiples: En todas las vías obstruídas, hacia el lado
+Se harâ la protecciôn:
+En via sencilla: Hacia ambos lados.
+En via doble: Hacia atrâs, a menos que la via contraria se
+encuentre obstruida, en cuyo caso se harâ la protecciôn, también
+hacia adelante, pero en la via contraria.
+En vias multiples: En todas las vîas obstruîdas, hacia el lado
 o lados de donde se aproximen los trenes.
 En todos los casos, si dentro de la distancia de 800 metros
-hubiera una estación o garita de señales, se colocará la pro-
-tección afuera de los cambios de salida en la dirección de la
-parte a proteger. Si no hubiese cambios de salida, se colocarán
-las señales frente a la estación o garita y se advertirá de lo
-que sucede al jefe o señalero para que se mantengan las señales
-fijas correspondientes en la posición de peligro.
-
-Medidas de protección cuando se
-efectúan trabajos en la vía.
-
+hubiera una estaciôn
+o garita de senales,
+se colocarâ la pro¬
+tecciôn afuera de los cambios de salida en la direcciôn de la
+parte a protéger. Si no hubiese cambios de salida, se colocarân
+las senales trente
+a la estaciôn
+o garita y se advertirâ de lo
+que sueede al jefe o senalero para que se mantengan las senales
+fijas correspondientes en la posiciôn de peligro.
+Medidas
+de
+protecciôn
+cuando
+se
+efectuan trabajos en la via.
 Art. 110. — Los capataces de las cuadrillas de camineros o
-sus agentes cuando efectúen reparaciones en la vía o juzguen
-necesario hacer señales a los trenes, las mandarán ejecutar a la
-distancia indicada en el artículo anterior, debiendo proteger sus
-trabajos por ambas direcciones del trayecto.
-
-Señales y avisos de precauciones,
+sus agentes cuando efectuen reparaciones en la via o juzguen
+necesario hacer senales a los trenes, las mandarân ejecutar a la
+distancia indicada en el artîculo anterior, debiendo protéger sus
+trabajos por ambas direcciones del trayeeto.
+Senales
+y
+avisos
+de
+precauciones,
 procedimientos a seguir por los con-
 ductores.
-
-Art. 111. — Todo conductor, al observar una señal de pre-
-caución, deberá adoptar las medidas del caso para llegar al
-punto en que ésta se exhibe con una velocidad no mayor de 12
-kilómetros por hora, si no se hubiera dispuesto ya una velocidad
-distinta, precaución que deberá observar en todo el trayecto
-comprendido entre las dos señales que deberán colocarse en todo
-punto peligroso.
+Art. 111. — Todo conductor, al observar una serial de pre¬
+caution, deberâ adoptar las medidas del caso para llegar al
+Punto en que ésta se exhibe con una velocidad no mayor de 12
+kilometres por hora, si no se hubiera dispuesto ya una velocidad
+distinta, precauciôn que deberâ observar en todo el trayeeto
+comprendido entre las dos senales que deberân colocarse en todo
+Punto peligroso.
+```
 
 ## Images, Captions, And Visual Notes
-- A centered page number "— 113 —" appears at the top of the page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 114
@@ -1532,194 +1611,423 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 121
+
 ## Page Metadata
-Page number: 118
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json`
+- Source page: 121
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0121.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, starting with a centered page number, followed by a paragraph, a centered heading, and then several paragraphs of text, some introduced by article numbers and another centered heading. The reading order is top-to-bottom, left-to-right.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 118 —
-
-El producto de la venta se pondrá a disposición del juez com-
-petente para que ordene su entrega al Fisco, previa deducción
+```markdown
+— 118
+—
+El producto de la venta se pondra a disposicion del juez com¬
+petente para que ordene su entrega al Pisco, previa deduction
 de los gastos ocasionados.
-
-Clasificación de las líneas en dos
-categorías.
-
-Art. 119. — A los efectos de la explotación técnica y co-
-mercial, las líneas y ramales de los ferrocarriles serán clasifi-
-cados, de tiempo en tiempo, por la Dirección General de Ferro-
-carriles en dos categorías, considerándose los puertos como es-
-taciones pertenecientes a líneas de la primera categoría. Tales
-clasificaciones serán sometidas previamente a la aprobación del
+Clasificacion
+de
+las
+lineas
+en
+dos
+categorîas.
+Art. 119. — A
+los efectos
+de la explotaciôn técnica
+y
+co-
+mercial, las lineas y ramales de los ferrocarriles serân clasifi-
+cados, de tiempo en tiempo, por la Direcciôn General de Ferro¬
+carriles en dos categorîas, considerândose los puertos eomo es-
+taciones pertenecientes
+a lineas de la primera eategorîa. Taies
+elasifieaciones serân sometidas previamente a la aprobaciôn del
 Poder Ejecutivo.
-
-En las líneas y ramales de segunda categoría, las exigencias
-de orden técnico, relativas a la construcción y explotación,
-como asimismo las modalidades y condiciones del servicio,
-serán reducidas a un mínimum compatible con la seguridad,
+En las lineas y ramales de segunda eategorîa, las exigences
+de
+orden técnico, relativas
+a la
+construcciôn
+y explotacioi,
+como
+asimismo
+las
+modalidades
+y
+condiciones
+del
+servicio,
+serân reducidas
+a
+un minimum compatible
+con la.seguridad,
 regularidad y eficacia del servicio y su régimen legal.
-
-Si la importancia creciente o decreciente del tráfico lo exi-
-giese, la Dirección General de Ferrocarriles y las empresas
-podrán promover la modificación de las clasificaciones esta-
-blecidas en virtud de lo dispuesto en este artículo.
-
+Si la importancia creciente
+o decreeiente del trâfico lo es-
+giese, la Direcciôn
+General de Ferrocarriles y las
+empresas
+podrân
+promover la modificaciôn
+de las elasifieaciones
+esta-
+blecidas
+en virtud de lo dispuesto en este artîculo.
 Intercambio de material rodante.
-
-Art. 120. — Las empresas deberán convenir entre ellas las
-condiciones a que se someterá el intercambio del material ro-
-dante sobre las líneas de igual trocha, a fin de que los trans-
-portes en tráfico común sean conducidos hasta su destino sin
-inconvenientes e interrupciones.
-
-Dichas condiciones no podrán en manera alguna afectar las
-necesidades propias de cada empresa y, si aumentos conside-
-rables de tráfico en cualquier época del año o el desarrollo im-
-previsto de cualquier industria o comercio, hicieran necesario
-disponer del material sin demora, las empresas que lo remitan
-deberán exigir de las que lo reciban, una cantidad de vehículos
-equivalente a la entregada por ellas.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
-
-## Page Metadata
-Page number: 119
-
-## Layout And Reading Order
-
-The page features a two-column layout, with the left column partially visible and containing truncated text. The main content is in the right column, which is fully visible. The reading order flows from the page number at the top, down through several paragraphs of text, a heading, a sub-heading, and then an article.
-
-## Literal Transcription
-
-— 119 —
-
-Igualmente deberán convenir las condiciones en que se
-efectuará el transbordo de los efectos en los puntos de em-
-palme con líneas de otra trocha; pero tales convenios tendrán
-como condición especial que el material rodante deberá ser
-devuelto en el plazo de 24 horas, aunque el transbordo no se
-efectúe, en cuyo caso la mercadería quedará bajo la respon-
-sabilidad de la empresa recibidora, en planchadas o galpones,
-hasta que sea cargada.
-La falta de cumplimiento de estas prescripciones será pe-
-nada de acuerdo con lo que establece el artículo 94 de la Ley
-General de Ferrocarriles.
-
-Situaciones de emergencia. Inte-
-rrupción del servicio por causa de
-fuerza mayor, servicio condicional.
-
-Art. 121.—Si en una línea el servicio estuviese interrum-
-pido por causa de fuerza mayor y fuera posible, no obstante,
-realizarlo en forma limitada, la empresa, previa comunica-
-ción a la Dirección General de Ferrocarriles, pondrá el hecho
-en conocimiento del público mediante avisos fijados en las
-estaciones y estará facultada para extender pasajes y aceptar
-cargas y encomiendas con carácter condicional.
-Dicha Dirección General podrá, en situaciones de emer-
-gencia, atenuar o eximir a las empresas del cumplimiento de
-las obligaciones impuestas por este Reglamento, en lo que con-
-cierne al tráfico y movimiento de trenes, dando cuenta al Mi-
-nisterio de Obras Públicas.
-
-CAPÍTULO V
-
-PASAJEROS
-
-Publicidad de horarios.
-
-Art. 122.—Los horarios serán establecidos con anuencia
-de la Dirección General de Ferrocarriles que intervendrá al
-efecto de asegurar la comodidad de los pasajeros y el servicio
-de combinación entre los trenes de líneas distintas.
-
-## Images, Captions, And Visual Notes
-
-There are no substantial images or captions on this page.
-
-## Uncertain Or Illegible
-
-No uncertain or illegible text was encountered.
-
-## Completeness Audit
-
-All visible text on the page has been transcribed. The left column contains truncated text that is not fully legible and has not been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+Art.
+120. — Las empresas deberân convenir entre ellas las
+condiciones
+a que
+se someterâ el intercambio del material ro¬
+dante sobre las lineas de igual trocha,
+a fin de que los trans¬
+portes en trâfico comun sean conducidos hasta su destino sin
+inconvenientes
+e interrupciones.
+Dichas condiciones no podrân en manera alguna afectar las
+necesidades propias de cada empresa y, si aumentos conside¬
+rables de trâfico
+en cualquier época del ano o el desarrollo i®'
+previsto de cualquier industria
+o comercio, hicieran necesario
+disponer del material sin demora, las empresas que lo remits"
+deberân exigir de las que lo reciban, una cantidad de vehîculos
+équivalente
+a la entregada por ellas.
 ```
 
-## Page Metadata
-Page number: 120
-
-## Layout And Reading Order
-The page contains a single column of text, primarily composed of paragraphs detailing regulations regarding train schedules. There is a page number at the top right. A section title is centered and slightly indented. One item is presented as a numbered list item.
-
-## Literal Transcription
-— 120 —
-
-Los horarios se llevarán a conocimiento del público me-
-diante avisos colocados en todas las estaciones y lugares que
-dicha Dirección determine.
-Los cambios que se introdujeren en los mismos se harán co-
-nocer del público por avisos en dos diarios con quince días de
-anticipación a la fecha de su vigencia.
-
-Horarios. Término para presentar
-los. Horarios de servicio. Datos que
-deben contener.
-
-Art. 123.— Las empresas establecerán un horario de verano
-y otro de invierno, que comenzará a regir el 1º de diciembre
-y el 1º de mayo, respectivamente, pudiendo la Dirección Ge-
-neral de Ferrocarriles adelantar o retardar esas épocas, si así
-conviniera a las necesidades del servicio público.
-Los horarios deberán ser presentados a consideración de la
-Dirección General de Ferrocarriles sesenta días antes, por lo
-menos, de la fecha en que deberán ponerse en vigencia y se
-considerarán aprobados si veinte días antes del vencimiento
-de aquel término no hubieran sido observados.
-Los horarios expuestos al público serán reemplazados en
-cada temporada, aunque no hubieran sufrido alteraciones.
-Los horarios de servicio de trenes deberán editarse en las
-épocas establecidas para los cambios de horario, menos
-cuando no se introduzcan modificaciones en el servicio, en
-cuyo caso las empresas remitirán a la Dirección General de
-Ferrocarriles los ejemplares de práctica con la leyenda en cada
-uno: *Continuará en vigencia en la temporada de* ............
-de 19.....
-Los horarios de servicio se confeccionarán en el formato de
-12 cms. por 24 cms. y deberán indicar con claridad:
-
-a) Todos los trenes que circulen con horario fijo—incluso
-las locomotoras aisladas o acopladas—, la clase de cada
-uno y su numeración, designando con un número impar
-los Ascendentes y con un número par los Descendentes.
-
 ## Images, Captions, And Visual Notes
-None.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 122
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json`
+- Source page: 122
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0122.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—
+119
+—
+z
+com-
+acciôn
+en
+(toi
+y
+co-
+lasifi-
+ferro-
+no
+es-
+Taies
+in del
+encias
+acion,
+.’vicio,
+t-idad,
+o exi-
+jresas
+esta¬
+te.
+is las
+il ro-
+.rans-
+o sia
+ir las
+iside-
+o iffi-
+sario
+oitan
+eulos
+Igualmente
+deberân
+convenir
+las
+condiciones
+en
+que
+se
+efectuarâ el transbordo de los efectos
+en los puntos de em-
+palme con lîneas de otra trocha; pero taies convenios tendrân
+eomo condiciôn especial
+que el material rodante deberâ ser
+devuelto
+en el plazo de 24 horas, aunque el transbordo no se
+efectûe,
+en cuyo caso la mercaderîa quedarâ bajo la respon-
+sabilidad de la empresa recibidora, en planchadas o galpones,
+hasta que sea cargada.
+La falta de cumplimiento de estas prescripeiones sera pe-
+nada de acuerdo
+con lo que establece el artlculo 94 de la Ley
+General de Ferrocarriles.
+Situaciones
+de
+emergencia.
+Inte-
+rrupcion del servicio por causa de
+fuerza
+mayor, servicio condicionaî.
+Art.
+121. — Si
+en una lînea el servicio estuviese interrum-
+pido por causa de fuerza mayor y fuera posible, no obstante,
+realizarlo
+en
+forma limitada, la
+empresa, previa comunica-
+ciôn a la Direccion General de Ferrocarriles, pondra el hecho
+® conocimiento
+del publico mediante avisos fijados
+en las
+estaciones y estarâ facultada para extender pasajes y aceptar
+cargas y encomiendas con carâcter condicionaî.
+Dicha
+Direccion
+General podrâ,
+en situaciones
+de
+emer-
+"encia, atenuar o eximir a las empresas del cumplimiento de
+las obligaciones impuestas por este Reglamento, en lo que con¬
+cerne al trâfico y movimiento de trenes, dando cuenta al Mi¬
+nisters de Obras Publicas.
+CAPÎTULO
+V
+PASAJEROS
+Publicidad de horarios.
+Art.
+122. — Los
+horarios
+serân
+establecidos
+con anuencia
+de la Direccion General de Ferrocarriles
+que intervendrâ al
+efecto de asegurar la comodidad de los pasajeros y el servicio
+de combinaciôn entre los trenes de lîneas distintas.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 123
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json`
+- Source page: 123
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0123.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+— 120
+—
+Los
+horarios
+se
+llevarân
+a
+conocimiento
+del publico
+me-
+diante avisos colocados
+en todas las estaciones y lugares
+que
+dicha Direccion determine.
+Los cambios que se introdujeren en los mismos se harân co-
+nocer del publico por avisos en dos diarios con quince dias le
+anticipaciôn
+a la fecha de
+su vigencia.
+Horarios.
+Término
+para
+presentar-
+los. Horarios de servicio. Datos que
+deben
+contener.
+Art. 123. — Las empresas establecerân un horario de verano
+y otro de invierno, que comenzarâ
+a régir el 1- de diciembre
+y el l9 de mayo, respectivamente, pudiendo la Direccion Ge¬
+neral de Ferrocarriles adelantar
+o retardar
+esas épocas, si asi
+conviniera
+a las necesidades del servicio publico.
+Los horarios deberân
+ser presentados a consideracion de la
+Direccion General de Ferrocarriles sesenta dias antes, por lo
+menos, de la fecha
+en que deberân ponerse
+en vigencia y se
+considerarân aprobados si veinte dias
+antes del
+vencimiento
+de aquel término no hubieran sido observados.
+Los
+horarios
+expuestos
+al publico
+serân
+reemplazados
+en
+cada temporada, aunque no hubieran sufrido alteraciones.
+Los horarios
+de servicio
+de trenes deberân editarse
+en las
+épocas
+establecidas
+para
+los
+cambios
+de
+horario,
+menos
+cuando
+no
+se introduzcan modificaciones
+en
+el
+servicio.
+en
+cuyo
+caso las
+empresas remitirân
+a la Direccion General de
+Ferrocarriles los ejemplares de prâctica con la leyenda en cada
+uno:
+Continuard en vigencia en la temporada de
+de 19
+Los horarios de servicio
+se confeccionarân en el formato de
+12
+cms. por 24 cms. y deberân indicar
+con claridad:
+a) Todos los trenes que circulen
+con horario fijo—incluse
+las locomotoras aisladas
+o acopladas—, la clase de cada
+uno y su numeraciôn, designando con un numéro impôt
+los Ascendentes y con un numéro par los Descendentos.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

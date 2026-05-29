@@ -1,0 +1,97 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-66c2a8b5f2aa-P0268-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283.codex.md
+converted_sha256: 66c2a8b5f2aa8f32a74d5ac9c215f627823c5c14ac8733c15c0666cbaa7144a8
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json
+page_start: 268
+page_end: 268
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 268
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0268.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+248 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+Estas en efecto tienen en jeneral cada una de ellas 
+su lengua propia, que consideran con razon como 
+patrimonio nacional. La historia de su literatura es 
+sólo uno de los aspectos de su historia jeneral 1 tiene 
+por ello interes para la educacion en toda su esten- 
+sion. Las naciones americanas se encuentran, por su 
+parte, durante los tres primeros siglos de su existen- 
+cia, en situacion especialísima: por un lado son colo- 
+nias de los paises europeos correspondientes; por el 
+otro estas colonias encierran los jérmenes históricos 
+de sus nacionalidades modernas. Creo, sin embargo, 
+que lo que conviene es que el profesor de idiomas 
+aplique el criterio ámplio en favor de la cultura je- 
+neral, es decir, que en la enseñanza del castellano en 
+Chile debe considerarse toda la literatura española e 
+hispano-americana como una unidad, lo que no es- 
+cluye, por supuesto, que se les conceda un lugar pre- 
+ferente a los autores españoles, como Ercilla, por 
+ejemplo, estrechamente relacionados con la historia 
+de Chile, 1 que a un autor chileno, que en España 
+quizá seria uno entre muchos, se le estudie con el 
+mismo detenimiento 1 cariño que los escritores sobre- 
+salientes. 
+Por lo que se refiere a la lectura de autores estran- 
+jeros, su valor nacional específico sólo tiene interes 
+para nosotros en cuanto caracterice al pueblo corres- 
+pondiente en cada época de su vida, contribuyendo 
+así a completar la imájen que da la clase de historia 
+de cada nacion estranjera. Lo que ante todo nos im- 
+porta es su valor objetivo para la cultura humana, 
+en particular 
+para aquellos aspectos jenerales que 
+acaso falten en nuestra literatura nacional. 
+Un ejemplo lo demostrará mejor. El drama clásico
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

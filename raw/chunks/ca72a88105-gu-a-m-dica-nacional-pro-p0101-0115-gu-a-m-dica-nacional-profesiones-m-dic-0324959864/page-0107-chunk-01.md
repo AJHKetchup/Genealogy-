@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-3659b5b97418-P0107-01
+chunk_id: CHUNK-01b36a93c0ed-P0107-01
 source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115.codex.md
-converted_sha256: 3659b5b97418acc214308af5d7de2439466e14475cd951e8e751a9a71ac746c8
+converted_sha256: 01b36a93c0ed8afc46eb7c4af3b8be6f2613001ec824107fbabf67ce6c4b5512
 source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
 source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
 source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115/manifest.json

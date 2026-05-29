@@ -8,67 +8,106 @@
 - Conversion method: Codex local vision workbench
 - Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/extracted-images`
 
+# Page 124
+
 ## Page Metadata
-- Page number: 124
+
 - Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json`
+- Source page: 124
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/page-images/page-0124.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a centered page number at the top, followed by a single column of text. The main content is a numbered list (a through j) detailing various aspects related to train operations and infrastructure. There is some partial text visible in the left margin, which appears to be a continuation from a previous page or column, but it is too incomplete to transcribe meaningfully as part of this page's content.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 121 —
-
-a) Por *Ascendente* se entiende la marcha de los trenes
-desde el kilómetro 0 de la línea principal en dirección al
-término de la vía, y por *Descendentes* la marcha en di-
-rección contraria. En los ramales, *Ascendentes* serán los
-trenes que arranquen del empalme con la vía principal,
-o de una estación en trayecto en dirección a la terminal,
-y *Descendentes* los que circulen en dirección contraria.
+```markdown
+—
+121
+—
+Por
+Ascendante,
+se entiende la marcha de los trenes
+desde el kilômetro 0 de la lînea principal en direction al
+término de la via, y por Descendentes la marcha en di-
+recciôn contraria.
+En los ramales, Ascendentes serân los
+trenes que arranquen del empalme con la via principal,
+o de una estaciôn en trayecto en direecion a la terminal,
+y Descendentes los que circulen en direecion contraria.
 b) El itinerario detallado de cada tren o locomotora con
-horario fijo, debiendo constar respecto a cada estación
-de la línea la hora de llegada y de salida.
-c) El cruce con otros trenes, que se hará constar por medio
-de una X; el paso a otros trenes por medio de una P,
+horario fijo, debiendo constar respecto a cada estaciôn
+de la lînea la hora de llegada y de salida.
+c) El cruce con otros trenes, que se harâ constar por medio
+de
+una X ; el paso a otros trenes por medio de una P,
 y el paso por otros trenes por medio de PP. Estos signos
-serán seguidos del número de cada tren.
+serân seguidos del numéro de cada tren.
 d) La distancia entre las estaciones y acumuladas desde la
-partida—con una cifra decimal—, debiendo incluir los
-empalmes y cruces a nivel con otros ferrocarriles.
-e) La pendiente más importante y su largo, expresado en
-forma de fracción entre cada estación en ambas direc-
+partida—con una cifra decimal—-, debiendo incluir los
+empalmes y cruees
+a nivel con otros ferrocarriles.
+e) La pendiente mas importante y su largo, expresado en
+forma de fraeciôn entre cada estaciôn en ambas direc-
 ciones.
-f) El tonelaje máximo y número máximo de ejes en trenes
-de pasajeros, mixtos, de carga y hacienda correspon-
+t) El tonela.je mâximo y numéro mâximo de ejes en trenes
+de
+pasajeros, mixtos,
+de
+carga y hacienda correspon-
 dientes a cada tipo de locomotora en distintos recorridos
-de las líneas.
-g) La ubicación por medio de signos convencionales, del edi-
-ficio de pasajeros según la marcha del tren, y la exis-
-tencia de galpones, talleres, depósitos de agua, carbón,
-petróleo, etc., guinches, mesas giratorias, básculas, bretes,
-etcétera, en cada estación.
-h) La longitud de los desvíos y vías auxiliares en cada es-
-tación.
-i) La formación ordinaria de los trenes de pasajeros y
-mixtos y sus respectivas combinaciones.
+de las lîneas.
+g) La ubicaciôn por medio de signos convencionales, del edi-
+ficio de pasajeros segun la marcha del tren, y la exis-
+tencia
+de galpones, talleres, depôsitos de agua, carbon,
+petrôleo, etc., guinches, mesas giratorias, basculas, bretes,
+etcétera,
+en cada estaciôn.
+b) La longitud de los desvîos y vîas auxiliares en cada es¬
+taciôn.
+i) La formaciôn ordinaria de los trenes de pasajeros y
+mixtos y
+sus respectivas combinaciones.
 j) Los cuadros con una lista detallada del tren rodante en
-servicio, debiendo contener, entre los demás datos que
+servicio, debiendo contener, entre los demâs datos que
 quieran agregar las empresas, los siguientes:
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images, captions, or other meaningful visual elements beyond the text itself.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered on this page.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible and legible text on the page has been transcribed. The partial text in the left margin was intentionally excluded due to its incompleteness and apparent origin from a different content block.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 122
@@ -398,67 +437,131 @@ All legible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The page contains only text and minor decorative elements."}
 ```
 
+# Page 129
+
 ## Page Metadata
-Page number: 126
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json`
+- Source page: 129
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/page-images/page-0129.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, including a page number at the top, a main paragraph, two subheadings, and two numbered articles with their respective paragraphs. The content flows from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 126 —
-
-Si por caso fortuito o fuerza mayor, debidamente compro-
-bados, resolviera no proseguir el viaje hasta su destino, tendrá
-derecho a que se le devuelva la diferencia entre el precio del
-pasaje tomado y el precio de un pasaje hasta el punto en
-que haya suspendido el viaje, menos un 10 %, sobre dicha
+```markdown
+—
+12(3
+Si por
+caso fortuito
+o fuerza mayor, debidamente
+compro-
+bados, resolviera no proseguir el viaje hasta su destino, tendra
+derecho
+a que se le devuelva la diferencia entre el preeio del
+pasaje tornado y
+el precio
+de un pasaje hasta el punto
+en
+que haya suspendido el viaje,
+menos un 10 %, sobre dicha
 diferencia.
-
-Condiciones para exigir la devolu-
-ción del importe del pasaje de ida y
+Condiciones
+para exigir la devolu¬
+tion del importe del pasaje de ida y
 vuelta parcialmente utilizado.
-
 Art. 137. — Si disponiendo de un boleto de ida y vuelta el
-pasajero sólo lo utilizare para la ida, tendrá derecho a la
-devolución de la diferencia entre el importe de dicho boleto
-y el correspondiente al boleto simple del trayecto recorrido,
-menos un 10 % de la suma a devolver. Este derecho cadu-
-cará, si no se formulase el reclamo antes que llegue al des-
-tino indicado en el boleto, el último tren del día de su ven-
+pasajero solo
+lo utilizare
+para la ida, tendra derecho
+a la
+devoluciôn de la diferencia
+entre el importe de dieho boleto
+y el correspondiente al boleto simple del trayecto recorrido.
+menos un
+10 % de la
+suma
+a devolver.
+Este derecho cadu-
+carâ, si no
+se formulase el reclamo antes que llegue al des¬
+tino indieado
+en el boleto, el ultimo tren del dîa de su ven-
 cimiento.
-
-Los boletos empleados para recorrer sólo una parte del tra-
-yecto de ida a que se extienden, darán derecho a la devolu-
-ción de la diferencia entre el precio de dicho boleto y el de
+Los boletus empleados para recorrer solo una parte del tra¬
+yecto de ida
+a
+que
+se extienden, darân derecho
+a la dévolu-
+cion de la diferencia entre el precio de dicho boleto y el do
 un boleto simple, correspondiente al trayecto recorrido, menos
-un 10 % del importe de la devolución, siempre que se haga
-constar el hecho ante el jefe de la estación, en que se baje
+un
+10
+°/o del importe de la devoluciôn, siempre que
+se haga
+constar el hecho ante el jefe de la estaciôn,
+en
+que
+se baje
 del tren.
-
-Si a la vuelta el pasajero interrumpiese el viaje, será de
-aplicación lo dispuesto en la primera parte del artículo 136.
-
-Prolongación de viaje sin boleto.
-
-Art. 138. — Si un viajero continuare más adelante del punto
-indicado en su boleto, tendrá que pagar la parte que corres-
-ponda por el trayecto para el cual no tuviere boleto, más el
-100 % de multa, a menos que haya comunicado anticipada-
-mente al guardatrén que va a seguir más adelante del punto
-que indica el boleto, en cuyo caso quedará exento de ella.
+Si
+a la vuelta
+el pasajero interrumpiese el viaje,
+sera de
+aplicaciôn lo dispuesto en la primera parte del artîculo 136.
+Prolongacion de viaje sin boleto.
+Art. 138. — Si un viajero continuare mas adelante del puni0
+indieado
+en
+su boleto, tendra
+que pagar la parte que corres¬
+pondu por el trayecto para el cual no tuviere boleto, mâs el
+100
+°/o
+de multa,
+a menos
+que haya comunicado anticipada-
+mente al guardatrén que va
+a seguir mâs adelante del punt°
+que indica el boleto, en cuyo caso quedarâ exento de ella.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on the page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 127
@@ -735,69 +838,125 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The page contains only text."}
 ```
 
+# Page 134
+
 ## Page Metadata
-Page number: 131
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json`
+- Source page: 134
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/page-images/page-0134.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents text in a single column, with a page number centered at the top. There are several headings and numbered articles.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 131 —
-
-**Prohibición de subir o bajar de los**
-**trenes en movimiento, etc.**
-
-Art. 154. — Está prohibido subir o bajar de los trenes en
-movimiento, entrar o salir de los coches por otras portezuelas
+```markdown
+—
+131
+—
+Prohibicion de subir
+o bajar de los
+trenes en movimiento, etc.
+Art.
+154. — Esta prohibido subir
+o bajar de los trenes
+en
+movimiento, entrai’ o salir de los coches por otras portezuelas
 que las que den sobre el andén, viajar en los balcones de los
 coches y trasladarse de uno a otro, cuando no exista una comu-
-nicación especial autorizada.
-Los infractores serán penados con una multa de cinco pesos
-moneda nacional o, en su defecto, con un día de arresto, que
-podrá ser evitado dando al jefe de la estación garantías sa-
-tisfactorias de su pago.
-Sólo podrán estacionarse en las plataformas de los coches
-los empleados, cuya misión sea inspeccionar el servicio admi-
-nistrativo, el de tracción o la vía.
-
-**Cobro de la multa por infracción.**
-
+nicaciôn especial autorizada.
+Los infractores serân penados con una multa de cinco pesos
+moneda nacional
+o,
+en su defecto, con un dia de arresto, que
+podrâ
+ser evitado dando al jefe de la estaciôn garantîas sa-
+tisfactorias de
+su pago.
+Solo podrân estacionarse
+en las plataformas de los coches
+los empleados, cuya misiôn sea inspeccionar el servicio admi-
+nistrativo, el de tracciôn o la via.
+Cobro
+de
+la
+multa
+por infracciôn.
 Art. 155. — Al efectuarse el pago de las multas las empresas
-extenderán el recibo correspondiente en las fórmulas que
-apruebe la Dirección General de Ferrocarriles y formarán un
+extenderân
+el
+recibo
+correspondante
+en
+las
+formulas
+que
+apruebe la Direcciôn General de Ferrocarriles y formarân un
 libro talonario, visado y numerado por la misma, donde que-
-dará registrada cada multa con especificación del nombre del
-infractor, su domicilio y la infracción cometida.
-Dicho libro estará a disposición de la Inspección de Ferro-
+darâ registrada cada multa con especificaciôn del nombre del
+mfraetor, su domicilio y la infracciôn cometida.
+Dicho libro estarâ
+a disposiciôn de la Inspecciôn de Ferro¬
 carriles en todas las estaciones.
-Las empresas comunicarán mensualmente a la Dirección Ge-
-neral de Ferrocarriles las infracciones cometidas, acompa-
-ñando copia del recibo de la multa en papel sellado de igual
+Las empresas comunicarân mensualmente a la Direcciôn Ge¬
+neral
+de
+Ferrocarriles
+las
+infracciones
+cometidas,
+acompa-
+nando copia del recibo de la multa en papel sellado de igual
 valor.
-Si la infracción se hubiese cometido en el tren o por subir
-al tren en movimiento, la multa será aplicada al infractor por
-el jefe de la estación de destino, a pedido del guardatrén.
-
-**Deterioros causados por el público**
-**a la propiedad de la empresa.**
-
-Art. 156. — El pasajero que rompiese, dañase o destruyese
-cualquier objeto de propiedad de la empresa, deberá abonar el
+Si la infracciôn
+se hubiese cometido
+en el tren
+o por subir
+al tren en movimiento, la multa sera aplicada al infractor por
+fil jefe de la estaciôn de destino,
+a pedido del guardatrén.
+Deterioros causados por el publico
+a la propiedad de la empresa.
+Art. 156. —El pasajero que rompiese, danase
+o destruyese
+cualquier objeto de propiedad de la empresa, deberâ abonar el
+```
 
 ## Images, Captions, And Visual Notes
-- The page number "— 131 —" is centered at the top of the page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present that would be useful as standalone wiki assets. The page number is transcribed in the literal transcription."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 132

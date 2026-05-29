@@ -1,0 +1,113 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-757bfe633ac9-P0279-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0276-0300-s522bis-29-3-pages-276-300.codex.md
+converted_sha256: 757bfe633ac9e01d71cac29854892d462d43d64f63b22c0f7b2876b5ee00981b
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0276-0300-s522bis-29-3-pages-276-300/manifest.json
+page_start: 279
+page_end: 279
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0276-0300-s522bis-29-3-pages-276-300/manifest.json`
+- Source page: 279
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0276-0300-s522bis-29-3-pages-276-300/page-images/page-0279.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+argent!no el IE de iarao.
+He aqui el texto:
+MB1 Gobierno
+4® Su Sxeelencia tienc sin duda oonooi-
+miento de las terminas del oomrenio
+que ha sldo sometido re-
+cientesente
+& la Confereneia de Paris para la oreaeiôn de una
+soeiedad
+ae
+las moiones.
+’•Antes
+de
+erne este oonrenio sea definitiTamente adop-
+tado, la Gonferencla desea Yivaaente que loa Gobiernos de los
+palses neutrales puedan examinarlo y exponer su eriterio.
+Bs difleil consultar aflcialmente a los Gobi ernes neutrales
+desde el momento
+que la Confereaeia de Paris es urn reunion
+de naeiones beligerantes, pero ello no lapide que ae consul¬
+te priYadamente y sin oaracter ofioial.
+£n auseneia del Pré¬
+sidente Wilson, Présidente de la Uoalsldn noabrada por las
+Potencies asociadas para el estudio de la Sooiedad de las Sa-
+ciones,
+he sîdo ene&rgado de invitar a su Gobierno a aaiatir
+a urn Confereneia prlvada sin ningun oaraeter ofieial,
+quo
+se celebr&ra el
+jueves EO de taras.
+Gi el Gobierno de
+Ju
+Pxeeleneia desea aoeptar esta InYit&eidn, teadrla isucho gusto
+en hacerle llegar todos los detalles ref©rentes a la hors y
+al lugar de la reunién**
+SI Gobierno argentin© al tener eonoeicdento de la in-
+Yitacidn de House, célébré una reu«i4u prirada da legisladores
+pa penerae de aeuer&o sobre la aotitud que se debla adoptar;
+se deeidiô aplazar el
+examen del trstado por el Uongreso y es-
+perar a que el Poder SJeoutiYO aceptara en prineipio la idea
+de la creaeién de U Sooiedad de 1=s Saoiones, abriendo un
+paréntesis que per©ItiMa reunir el mayor numéro d® element os
+para apreoiar «as tarde las ventajus y desventajas de la in-
+corpor&clén définitIts a la Gociedad y de la acepteolôn del
+trataâe.
+hi
+IG de y&rzo de 1919. despuêa de une reuniôn prive¬
+ra de los legisladores argentin©», el Klnistro de Helaeiones
+Sxterlores oscribio al Dr. -Ivear, en respuosta al telegr&ma e
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 280

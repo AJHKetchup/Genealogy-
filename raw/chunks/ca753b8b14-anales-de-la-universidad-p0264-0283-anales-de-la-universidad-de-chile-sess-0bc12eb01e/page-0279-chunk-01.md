@@ -1,0 +1,101 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-66c2a8b5f2aa-P0279-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283.codex.md
+converted_sha256: 66c2a8b5f2aa8f32a74d5ac9c215f627823c5c14ac8733c15c0666cbaa7144a8
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json
+page_start: 279
+page_end: 279
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 279
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0279.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+ROLOLFO 
+LENZ 
+25 is) 
+frances; el segundo idioma con solo dos años de es- 
+tudios casi seguramente es tiempo perdido. Dos años 
+de frances en la escuela superior serian una carga 
+imútil para todos los alumnos que no continuaran sus 
+estudios en el liceo, 1 éstos constituirian por la fuerza 
+el 90%. El señor Salas insiste con mucha razon en 
+que la enseñanza primaria, aunque sólo tenga seis 
+años, debe tratar de dar algo completo, conocimien- 
+tos redondeados. 
+: 
+Los idiomas estranjeros se distinguen en un rasgo 
+característico de todas las demas ramas de la ense- 
+ñanza pública; conviene llamar 
+la atencion de los 
+pedagogos sobre este hecho. En todas las materias 
+de la enseñanza cabe un mas o ménos, sin que cono- 
+cimientos científicamente incompletos resulten inú- 
+tiles. En todas ellas hai hechos jenerales de impor- 
+tancia práctica, aunque el alumno no alcance a sa- 
+ber todos los detalles. No así en idiomas estranjeros. 
+Haber hecho durante uno o dos años, con tres o cua- 
+tro horas semanales, ejercicios de conversacion en 
+frances o ingles, no puede producir ningun resultado 
+útil si no se continúa la enseñanza o la práctica. Si 
+se desea enseñar frances en los dos años de la ense- 
+ñanza superior, el método deberia ser radicalmente 
+distinto del que seguimos en el Liceo. Deberia sacri- 
+ficarse toda la correccion de la pronunciación, todo 
+cultivo de las habilidades activas de hablar 1 escribir 
+al único propósito provechoso de conseguir el desci- 
+frar un libro, aunque sea con ayuda del diccionario. 
+Que tal resultado sea posible de alcanzar para un 
+profesor mui hábil, no lo quiero negar en absoluto, 
+en vista de la semejanza del frances con el castella- 
+no; pero no me atreveria tampoco a afirmarlo. Ha-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 280

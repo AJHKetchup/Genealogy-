@@ -1,0 +1,102 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f46d8495d094-P0317-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328.codex.md
+converted_sha256: f46d8495d094408c27ec358d9e7947f6c61a222b6355a6f9a6c4d7a4a6d6a5bf
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json
+page_start: 317
+page_end: 317
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 317
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0317.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+RODOLFO LENZ 
+297 
+miñarse trájico, aunque nada tenga que ver con lo 
+que Aristóteles entendió por la particularidad de la 
+trajedia griega. Las palabras greco-latinas se acen- 
+túan ya segun el sistema griego, ya segun el latino 
+(filosofía, academia) (1). Así ciertos literatos chilenos 
+creen que 
+es más «elegante» hablar de la sociabilidad 
+chilena que de la sociedad, ignorando que segun su 
+derivación latina sociabilidad puede sólo designar la 
+posibilidad de formar sociedad, mas no ésta misma. 
+La doctificacion de la pronunciacion de los clásicos, 
+que rimaban preceto con efeto, comienza en el siglo 
+XVI por los «doctos afectados»; por desgracia cuenta 
+ho1 con el favor de la Real Academia, que durante 
+un siglo entero había luchado con tanto éxito contra 
+la rancia escritura etimolójica 1 todavía en 1815 pre- 
+fería la pronunciación «mas blanda» estraño, oscuro, 
+.trasformar. Hoi la ortografía chilena 
+es el último re- 
+ducto en que se defiende esa lejítima pronunciación 
+castellana, que, por mas que digan los preceptistas, 
+aún entre la jente culta de España es la preferida, 
+s1 no la única. Yo creo que no es nunca el pueblo el 
+que corrompe la lengua, aunque introduzca vocablos 
+vulgares para enriquecer 
+el vocabulario académico 
+(lo mismo que lo hizo Víctor Hugo en Francia). Cam- 
+bios que entran desde abajo, son siempre conformes 
+al jenio de la lengua. Verdadera corrupcion puede 
+(1) El uso de los doctos a menudo ha vacilado 1 la decision del 
+Diccionario Oficial i de otras autoridades (p. ej. M. L. AMUN ÁTEGUI, 
+Acentuaciones Viciosas, Santiago, 1887) a menudo carece de tunda- 
+mento cientifico; p. ej. ambos se deciden por adona?, sin embargo 
+tiene razón ALEMANY que imprime adonay, pues en hebreo el acento 
+está en la última vocal larga de la palabra (la a) 1 no en la conso- 
+nante jota en que termina, i que en latín se escribía 
+2.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 318

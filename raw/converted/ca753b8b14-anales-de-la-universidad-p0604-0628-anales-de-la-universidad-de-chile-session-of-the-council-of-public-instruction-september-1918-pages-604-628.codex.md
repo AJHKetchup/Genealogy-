@@ -8,122 +8,184 @@
 - Conversion method: Codex local vision workbench
 - Extracted images: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/extracted-images`
 
+# Page 604
+
 ## Page Metadata
-Page number: 534
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 604
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0604.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number and running header are at the top. The main content is two paragraphs of continuous text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-534 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-las evoluciones de la economía universal el período clá-
-sico de esplendor para Chile de la industria del cobre,
-cuyos mejores tiempos fueron, como hemos visto de 1860-
-1880, su explotación empezó a aminorar poco a poco la
-utilidad y a amenazar con pérdidas, lo cual hizo entrar
-en negociaciones para que el Estado adquiriera la línea
-y continuara su explotación, necesaria ya también para
-los intereses políticos y sociales de la comunidad. De
-propiedad particular es también el Transandino por el
-Juncal, en la parte comprendida entre la ciudad de
-Los Andes y la Cumbre, y uno que otro más, pero pe-
-queño, como el de Arica a Tacna.
-
-Los ferrocarriles del Estado son, con respecto a su
-categoría, en esencial de orden superior y medio; entre
-los de tercer orden pueden contarse el de Chillán a Pin-
-to, el de Puente Alto al Volcán y otros transversales
-como éstos. Los de particulares, con excepción del de
-Antofagasta a Ollagüe y del Transandino por el Juncal,
-son de orden medio e inferior. Con la construcción del
-ferrocarril longitudinal han pasado también algunos par-
-ticulares a ser líneas principales o de orden superior: por
-ejemplo, el trazado salitrero de Lagunas a Zapiga for-
-ma ya parte de aquél. Dada la importancia que desde
-el punto de vista nacional ha debido tomar tal trazado,
-parece no caber duda que con el tiempo pasará a manos
-del Estado (en todo caso al término de la concesión),
-como igualmente el Transandino por el Juncal. El trans-
-paso de aquél dependerá en esencial, según nuestra
-opinión, de la marcha que siga la hoy riquísima indus-
-tria salitrera de esa parte; el traspaso de éste, por el
-contrario, pudiera ser inminente, a causa de los deficien-
-tes resultados económicos de la Empresa y la mayor sig-
+```markdown
+534 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+las evoluciones de la economía universal el período clá- 
+sico de esplendor para Chile de la industria del cobre, 
+cuyos mejores tiempos fueron, como hemos visto de 1860- 
+1880, su explotación empezó a aminorar poco a poco la 
+utilidad y a amenazar con pérdidas, lo cual hizo entrar 
+en negociaciones para que el Estado adquiriera la línea 
+y continuara su explotación, necesaria ya también para 
+los intereses 
+políticos y sociales de la comunidad. De 
+propiedad particular es también el Transandino por el 
+Juncal, en la parte comprendida entre la ciudad de 
+Los Andes y la Cumbre, y uno que otro más, pero pe- 
+queño, como el de Arica a Tacna. 
+Los ferrocarriles del Estado son, con respecto 
+a su 
+categoría, en esencial de orden superior y medio; entre 
+los de tercer orden pueden contarse el de Chillán a Pin- 
+to, el de Puente Alto al Volcán y otros transversales 
+como éstos. Los de particulares, con excepción del de 
+Antofagasta a Ollagie y del Transandino por el Juncal, 
+son de orden medio e inferior. Con la construcción del 
+ferrocarril longitudinal han pasado también algunos par- 
+ticulares a ser líneas principales o de orden superior: por 
+ejemplo, el trazado salitrero de Lagunas a Zapiga tor- 
+ma ya parte de aquél. Dada la importancia que desde 
+el punto de vista nacional ha debido tomar tal trazado, 
+parece no caber duda que con el tiempo pasará a manos 
+del Estado (en todo caso al término 
+de la concesión), 
+como igualmente el Transandino por el Juncal. El trans- 
+paso de aquél dependerá en 
+esencial, según nuestra 
+opinión, de la marcha que siga la hoy riquísima indus- 
+tria salitrera de esa parte; el transpaso de éste, por el 
+contrario, pudiera ser inminente, a causa delos deficien- 
+tes resultados económicos de la Empresa y la mayor slg- 
 nificación internacional que toma el ferrocarril.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 605
 
 ## Page Metadata
-- Page number: 535
-- Source publication: Anales de la Universidad de Chile
-- Session: Session of the Council of Public Instruction
-- Date: September 1918
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 605
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0605.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. There is a running header at the top with the section title on the left and the page number on the right. The main content is two paragraphs of body text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-<small>NUESTROS PROBLEMAS ECONÓMICOS</small>
-535
 
-La construcción de ferrocarriles representa, sin duda
-alguna, el mayor de los progresos hechos por el país en
-la economía nacional durante los últimos años. La esta-
-dística nos da los siguientes datos de existencia de ferro-
-carriles, por quinquenios, durante los últimos treinta
-años: en 1885 había 2,204 kilómetros, de los cuales co-
-rrespondían al Estado 950 y a los particulares 1,254
-kms.; en 1890 había 2,747 kms. (1,106 del Estado y 1,641
-de particulares); en 1895, 3,497 kms. (1,732 del Estado y
-1,765 de particulares); en 1900, 4,354 (2,125 del Estado
-y 2,229 de particulares); en 1905, 4,778 (2,329 del Esta-
-do y 2,449 de particulares); en 1910, 5,944 (2,830 del
-Estado y 3,114 de particulares); en 1915, 8,216 kms.
-(5,122 del Estado y 3,094 de particulares).
-
-Estos datos nos muestran: 1.º, el grande incremento de
-los ferrocarriles chilenos durante el último decenio (1906-
-1915), aumento de casi un 50% en el kilometraje habido
-hasta 1905, y que se explica por la circunstancia de que,
-siendo Chile un país relativamente nuevo, ha debido poner-
-se casi de súbito a la altura de otros países en este ramo,
-dadas sobre todo las exigencias de la vida actual en el
-terreno de la economía nacional y de la defensa comer-
-cial y política del país; 2.º, la preponderancia de los *ferro-
-carriles del Estado sobre los particulares* a partir de 1911;
-tal preponderancia se efectuó con la construcción por el
-Estado del Longitudinal y la compra de ferrocarriles par-
-ticulares; por este último motivo disminuyó, pues, la ci-
-fra de los particulares en los años siguientes al 10.
-Las razones principales del aumento de los *ferrocarriles*
-*fiscales* durante los últimos años están, como en otra par-
-te hemos dejado de manifiesto, en la necesidad de unir
-el centro y Sur del país con el Norte por una línea fé-
+```markdown
+NUESTROS PROBLEMAS ECONÓMICOS 
+585 
+La construcción de ferrocarriles representa, sin duda 
+alguna, el mayor de los progresos hechos por el país en 
+la economía nacional durante los últimos años. La esta- 
+dística nos da los siguientes datos de existencia de ferro- 
+carriles, por quinquenios, durante los últimos treinta 
+años: en 1885 había 2,204 kilómetros, de los cuales co- 
+rrespondían al Estado 950 .y a los particulares 1,254 
+kms.: en 1890 había 2,747 kms. (1,106 del Estado y 1,641 
+de particulares); en 1895, 3,497 kms. (1,732 del Estado y 
+1,765 de particulares); en 1900, 4,354 (2,125 del Estado 
+y 2,229 de particulares); en 1905, 4,778 (2,329 del Esta- 
+do y 2,449 de particulares); en 1910, 5,944 (2,830 del 
+Estado y 3,114 de particulares); en 1915, 8,216 kms. 
+(5,122 del Estado y 3,094 de particulares). 
+Estos datos nos nuestran: 1.?, el grande incremento de 
+los ferrocarriles chilenos durante el último decenio (1906- 
+1915), aumento de casi un 50% en el. kilometraje habido 
+hasta 1905, y que se explica por la circunstancia de que, 
+siendo Chile un país relativamente nuevo, ha debido poner- 
+secasi de súbito a la altura de otros países en este ramo, 
+dadas sobre todo las exigencias de la vida 
+actual en el 
+terreno de la economía nacional y de la defensa 
+comer- 
+cial y política del país; 2.2, la preponderansra de los ferro- 
+carriles del Estado sobre los particulares a partir de 1911; 
+- tal preponderancia se efectuó con la construcción por el 
+Estado del Longitudinal y la compra de ferrocarriles par- 
+ticulares; por este último motivo disminuyó, pues, la ci- 
+fra de los particulares 
+en los años siguientes al 10. 
+Las razones principales del aumento de los ferrocarriles 
+fiscales durante los últimos años están, como en otra par- 
+te hemos dejado de manifiesto, en la necesidad de unir 
+elcentro y Sur del país con el Norte por una línea fé- 
 rrea que posibilitase el transporte rápido hacia el extre-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last word "extre-" is hyphenated, indicating it continues on the next page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 536
@@ -317,59 +379,94 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 609
+
 ## Page Metadata
-- Page number: 539
-- Header: NUESTROS PROBLEMAS ECONÓMICOS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 609
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0609.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a running header and page number at the top. The text flows continuously in standard reading order.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-carga ligera (encomiendas) por ferrocarriles rápidos, que
-son bultos que no exceden de 12 kilogramos de peso y
-que no están sujetos a declaración de su contenido. El
-orden en que se han entregado los efectos determina el
-orden de preferencia para la conducción, salvo que el re-
-mitente convenga en la postergación; no obstante esto,
-serán preferidos en el transporte los artículos destinados
-al consumo diario y los que la autoridad gubernativa
-reclamare como de preferencia. Todo remitente de mer-
-caderías deberá hacer declaración previa de su número,
-peso, clase y calidad; la falsedad de tal declaración exi-
-me a la Empresa de toda responsabilidad.
-La tarifa que una empresa por sí o con intervención
-del Gobierno fijare según la causa, deberá aplicarla gene-
-ralmente a todos los que se sirvan del ferrocarril, sin ha-
-cer ninguna excepción. Las Empresas podrán, sin em-
-bargo, reducir los precios de tarifa en favor de los remi-
-tentes que acepten plazos más largos que los fijados para
-la conducción por trenes de pequeña velocidad; pero la
-concesión hecha a un remitente será extensiva a todos
-los que la pidan. Las tarifas entran en vigencia seis meses
-después de su aprobación; la variación de ellas deberá
-anunciarse con sesenta días de anticipación. Toda Em-
-presa está obligada a conducir gratuitamente las balijas
-de correspondencia, los empleados correspondientes al
-servicio de correos y los funcionarios que el Gobierno
-señale para la inspección, etc., del servicio ferroviario.
-Por la mitad del pasaje conducirán las Empresas a las
-tropas del ejército o a la fuerza de policía en comisión
-del servicio; igualmente las armas y demás pertrechos de
-guerra.
-Se establecen también prescripciones sobre los objetos
+
+```markdown
+NUESTROS PROBLEMAS ECONÓMICOS 
+559 
+carga ligera (encomiendas) por ferrocarriles rápidos, que 
+son bultos que no exceden de 12 kilógramos de peso y 
+que no están sujetos a declaración de su contenido. El 
+orden en que se han entregado los efectos determina el 
+orden de preferencia para la conducción, salvo que el re- 
+mitente convenga en la postergación; no obstante 
+esto, 
+serán preferidos en el transporte los artículos destinados 
+al consumo diarió y los que la autoridad gubernativa 
+reclamare como de preferencia. Todo remitente de mer- 
+caderías deberá hacer declaración previa de su número, 
+peso, clase y calidad; la falsedad de tal declaración exi- 
+me a la Empresa de toda responsabilidad. 
+: 
+La tarifa que una empresa por sí o con intervención 
+del Gobierno fijare según la causa, deberá aplicarla gene- 
+talmente a todos los que se sirvan del ferrocarril, sin ha- 
+cer ninguna excepción. Las Empresas podrán, sin em- 
+bargo, reducir los precios de tarifa en favor de los remi- 
+tentes que acepten plazos más largos que los fijados para 
+la conducción por trenes de pequeña velocidad; pero la 
+concesión hecha a un remitente será extensiva a todos 
+los que la pidan. Las tarifas entran en vigencia seis meses 
+después de su aprobación; la variación de ellas deberá 
+abunciarse con sesenta días de anticipación. Toda Em- 
+presa está obligada a conducir gratuitamente las balijas 
+de correspondencia, los empleados correspondientes 
+al 
+servicio de correos y los funcionarios que el Gobierno 
+señale para la inspección, etc., del servicio ferroviario. 
+Por la mitad del pasaje conducirán las Empresas a las 
+tropas del ejército o a la fuerza de policía en comisión 
+del servicio; igualmente las armas y demás pertrechos de 
+guerra. 
+Se establecen también prescripciones sobre los oh]etos 
 olvidados en los trenes, sobre las reclamaciones de los
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last sentence appears to be cut off at the bottom of the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content such as images, diagrams, or complex layouts that would require bounding box extraction."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 610
 
@@ -431,61 +528,91 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 611
+
 ## Page Metadata
-- Task id: `source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-0628:p0611`
-- Page number: 611
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 611
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0611.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a running header with a title on the left and a page number on the right. Below the header, there is a paragraph of text, followed by a section heading, and then a long paragraph of text that continues to the bottom of the page.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-NUESTROS PROBLEMAS ECONÓMICOS 541
 
-tuales, en que la vida económica sufre alteraciones rápi-
-das que exigen adaptación inmediata y oportuna de las
-tarifas. Se impone, pues, su inmediata reforma.
-
-2. Las concesiones
-
-La Ley general de Ferrocarriles ha sido complementa-
-da en parte con otros decretos y leyes posteriores, como,
-por ejemplo, la ley de 1886, que declara que «las perso-
-nas, sociedades o concesionarios dueños de ferrocarriles,
-aun cuando sean extranjeros y no residan en Chile, se
-consideran como domiciliados en la República y quedan
-sujetos a las leyes del país, con prohibición de recurrir a
-la vía diplomática»; la que declare libre la construc-
-ción de ferrocarriles y los decretos que reglamentan la
-contabilidad de las Empresas y las concesiones. En Chile
-no hay, pues, una ley general de concesiones; éstas se dan
-por decreto del ejecutivo en los ferrocarriles que se de-
-sea construir sin auxilio del Estado, y también por vía
-legislativa, como en Inglaterra. En contraposición por
-ejemplo, a las leyes austriacas, las leyes chilenas, que no
-ponen trabas de ninguna especie en la construcción de fe-
-rrocarriles, no excluyen la aprobación de otra línea que
-una los mismos puntos finales sin tocar puntos nuevos que
-puedan ser estratégica, política o comercialmente impor-
-tantes. En verdad, hasta hoy no se ha presentado el caso
-de construirse dos líneas que unan los mismos puntos y
-establezcan con ello una lucha de competencia, y no se
-ha presentado tal caso a causa de la gran extensión terri-
-torial y la separación completa de las zonas de interés
-privado y de interés público; pero, si observamos que el
-país en sus zonas principales está ya recorrido por una
+```markdown
+NUESTROS PROBLEMAS ECONÓMICOS 
+541 
+tuales, en que la vida económica sufre alteraciones rápi- 
+das que exigen adaptación inmediata y oportuna de las 
+tarifas. Se impone, pues, su inmediata reforma. 
+2. Las concesiones 
+La Ley general de Ferrocarriles ha sido complementa- 
+da en parte con otros decretos y leyes posteriores, como, 
+por ejemplo, la ley de 1886, que declara que «las perso- 
+nas, sociedades o concesionarios dueños de ferrocarriles, 
+aun cuando sean extranjeros y no residan en Chile, se 
+consideran como domiciliados en la República y quedan 
+sujetos a las leyes del país, con prohibición de recurrir a 
+la vía diplomática»; la que 
+declare libre la construc- 
+ción de ferrocarriles y los decretos que reglamentan la 
+contabilidad de las Empresas y las concesiones. En Chile 
+no hay, pues, una ley general de concesiones; éstas se dan 
+por decreto del ejecutivo en los ferrocarriles que se de- 
+sea construir sin auxilio del Estado, y también por vía 
+legislativa, como en Inglaterra. En contraposición por 
+ejemplo, a las leyes austriacas, las leyes chilenas, que no 
+ponen trabas de ninguna especie en la construcción de fe- 
+rrocarriles, no excluyen 
+la aprobación de otra línea que 
+una los mismos puntos finales sin tocar puntos nuevos que 
+puedan ser estratégica, política o comercialmente imper- 
+tantes. En verdad, hasta hoy no se ha presentado el caso 
+de construirse dos líneas que unan los mismos puntos y 
+establezcan con ello una lucha de competencia, y no se 
+ha presentado tal caso a causa de la gran extensión terri- 
+torial y la separación completa de las zonas de interés 
+privado y de interés público; pero, si observamos que el 
+país en sus zonas principales está ya recorrido por una 
 red ferroviaria bastante extensa en relación a su pobla-
+```
 
 ## Images, Captions, And Visual Notes
-No images, captions, or significant visual notes are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 612
 
@@ -545,64 +672,95 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 613
+
 ## Page Metadata
-- Page number: 543
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 613
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0613.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text in Spanish. The header includes a section title and page number. The main content consists of three paragraphs discussing economic problems related to railways.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-NUESTROS PROBLEMAS ECONÓMICOS 543
 
-que atraviesa, de trocha de un metro; razones de diver-
-sa índole, sobre todo económicas, aconsejaban utilizar
-en el curso de éste la línea de aquél, y así se ha chocado
-con las dificultades que ocasionan trochas diferentes en
-una misma línea. Lo mismo sucedió con el ferrocarril em-
-pezado en 1861 y que corre de Norte a Sur entre La Se-
-rena, Coquimbo y Ovalle, en una extensión de 118 kiló-
-metros, que se hizo por una compañía particular, con
-trocha de 1,676 metro (aunque aquí hubo la intención
-de llegar un tiempo a unir la línea con la Red Central) y
-que en 1895 fue comprado por el Estado; éste debió uti-
-lizarlo más tarde en el curso del longitudinal y reducir
-su trocha a un metro.
-
-En lo que toca a los intereses directos de la comunidad
-en los ferrocarriles particulares, no diremos que no siem-
-pre las concesiones de la primera era ferroviaria los ha-
-yan consultado, pero debemos constatar que los vecinos
-y la prensa hicieron en algunos de los ferrocarriles
-particulares campaña activa para que el Gobierno ad-
-quiriera la línea y rebajara las tarifas de transporte, como
-sucedió, por ejemplo, en el ferrocarril recientemente nom-
-brado de La Serena, Coquimbo y Ovalle. Es conveniente
-también, en materia de concesiones, la exigencia estric-
-ta de un anteproyecto ferroviario, para fijar el paso
-exacto de la línea y apreciar los intereses individuales
-del propietario del terreno expropiado. Esos hechos apa-
-recen, sin embargo, justificados por el tiempo y las cir-
-cunstancias en que, como dijimos, nacieron.
-
-La concesión del monopolio de hecho de una vía férrea
-ha ido generalmente acompañada de una ayuda de parte
-del Estado. Ello se explica, no sólo por los beneficios que
-la construcción del respectivo ferrocarril reporta al país
-en general, sino también por la garantía de intereses que
+```markdown
+SHIA 
+NUESTROS PROBLEMAS ECONÓMICOS 
+543 
+que atraviesa, de trocha de un metro; razones de diver- 
+sa índole, sobre todo económicas, aconsejaban utilizar 
+en el curso de éste la línea de aquél, y así se ha chocado 
+¡con las dificultades que ocasionan trochas diferentes en 
+una misma línea. Lo mismo sucedió con el ferrocarril em- 
+''pezado en 1861 y que corre de Norte a Sur entre La Se- 
+rena, Coquimbo y Ovalle, en una extensión de 118 kiló- 
+metros, que se hizo por una compañía particular, con 
+¡| trocha de 1,676 metro (aunque aquí hubo la intención 
+¡de llegar un tiempo a unir la línea con la Red Central) y 
+que en 1895 fue comprado por el Estado; éste debió uti- 
+lizarlo más tarde en el curso del longitudinal y reducir 
+su trocha a un metro. 
+En lo que toca a los intereses directos de la comunidad 
+en los ferrocarriles particulares, no diremos que no slem- 
+pre las concesiones de la primera éra ferroviaria los ha- 
+yan consultado, pero debemos constatar que los vecinos 
+y la prensa 
+hicieron 
+en algunos 
+de los ferrocarriles 
+¡particulares campaña activa para que el Gobierno ad- 
+¡¿quiriera la línea y rebajara las tarifas de transporte, como 
+sucedió, por ejemplo, en el ferrocarril recientemente nom- 
+¡brado de La Serena, Coquimbo y Ovalle. Es conveniente 
+también, en materia de concesiones, la exigencia estric- 
+¡ta de un anteproyecto ferroviario, para fijar el paso 
+exacto de la línea y apreciar los intereses individuales 
+del propietario del terreno expropiado. Esos hechos apa- 
+recen, sin embargo, justificados por el tiempo y las cir- 
+| cunstancias en que, como dijimos, nacieron. 
+La concesión del monopolio de hecho de una vía férrea 
+ha ido generalmente acompañada de una ayuda de parte 
+del Estado. Ello se explica, no sólo por los beneficios que 
+la construcción del respectivo ferrocarril reporta al país 
+| en general, sino también por la garantía de intereses que
+```
 
 ## Images, Captions, And Visual Notes
-No images, captions, or substantial visual notes are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 614
 
@@ -660,67 +818,102 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 615
+
 ## Page Metadata
-Page number: 615
-Source publication: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-Page type: Text page
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 615
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0615.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. There is a running header at the top with a section title and page number. A footer is present at the bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-NUESTROS PROBLEMAS ECONÓMICOS 545
 
-ferrocarriles de Antofagasta (6 por 100 sobre el capital
-invertido), el transandino por el Juncal (5 por 100 du-
-rante veinte años en 1903, sobre un capital de 1.500,000
-libras) y el ferrocarril de Arauco (5 por 100 en 1884 du-
-rante veinte años y al cambio fijo de 36 d., sobre un cos-
-to kilométrico de 30,000 pesos). Primas de construcción
-tiene el ferrocarril en construcción por Antuco, a que se
-concedió en 1903 una subvención a fondo perdido con
-una prima de 120,000 libras (1,000 libras por kilómetro
-de vía entregado a la explotación); una vez convertido
-este ferrocarril en internacional, se le pagarán 80,000 li-
-bras más.
-
-No hace mucho se pensaba dictar una ley general so-
-bre concesión de primas de construcción para los fe-
-rrocarriles. ¿Hay, empero, necesidad de tomar esa me-
-dida legislativa? En las Cámaras se estudiaba, en
-verdad, un proyecto presentado por el Gobierno, que
-otorgaba a los concesionarios una prima kilométrica
-en dinero a fondo perdido, y variable según la trocha:
-en trocha de 0,60 metro, sería de 3,000 pesos; de 0,76,
-4,000; de 1,00, 5,000, y de 1,676, 8,000 pesos oro de 18 d.
-Los concesionarios gozarían, además, de liberación de
-derechos de aduana en algunos artículos para el ferroca-
-rril, el cual pasaría a los noventa años y sin gravamen al-
-guno a propiedad del Estado. El señor Marín Vicuña pro-
-ponía, en un artículo publicado en 1911 en *El Mercurio* de
-Santiago, sobre «La ley de primas a los ferrocarriles par-
-ticulares», que las primas correspondientes se otorgasen
-en especies (rieles, eclisas, pernos y clavos, cuyo costo,
-según sus cálculos, aumentaría apenas en un 5% las
-sumas que consultaba el proyecto anterior), y que se
-hiciese la declaración expresa de que el Fisco no perdía
-el carácter de dueño de las citadas especies. Esta idea
-
-ANALES MAYO...JUN—2
+```markdown
+NUESTROS PROBLEMAS ECONÓMICOS 
+D45 
+ferrocarriles de Antofagasta (6 por 100 sobre el capital 
+invertido), el transandino por el Juncal (5 por 100 du- 
+rante veinte años en 1903, sobre un capital de 1.500,000 
+libras) y el ferrocarril de Arauco (5 por 100 en 1884 du- 
+rante veinte años y al cambio fijo de 36 d., sobre un cos- 
+to kilométrico de 30,000 pesos). Primas de construcción 
+tiene el ferrocarril en construcción por Antuco, a que se 
+concedió en 1903 una subvención a fondo perdido con 
+una prima de 120,000 libras (1,000 libras por kilómetro 
+de vía entregado a la explotación); una vez convertido 
+este ferrocarril en internacional, se le pagarán 80,000 li- 
+bras más. 
+No hace mucho se pensaba dictar una ley general so- 
+bre concesión de primas de construcción para los fe- 
+rrocarriles. ¿Hay, empero, necesidad de tomar esa me- 
+dida 
+legislativa? En las Cámaras 
+se 
+estudiaba, 
+en 
+verdad, un proyecto presentado por el Gobierno, que 
+otorgaba a los concesionarios una 
+prima kilométrica 
+en dinero a fondo perdido, y variable 
+según la trocha: 
+en trocha de 0,60 metro, sería de 3,000 pesos; de 0,76, 
+4.000; de 1,00, 5,000, y de 1,676, 8,000 pesos oro de 18 d. 
+Los concesionarios 
+gozarían, además, de liberación de 
+derechos de aduana en algunos artículos para el ferroca- 
+rril, el cual pasaría a los noventa años y sin gravamen al- 
+guno a propiedad del Estado. El señor Marín Vicuña pro- 
+ponía, en un artículo publicado en 1911 en El Mercurio de 
+Santlago, sobre «La ley de primas a los ferrocarriles par- 
+tioulares», que las primas correspondientes se otorgasen 
+en especies (rieles, eclisas, pernos y clavos, cuyo costo, 
+según sus cálculos, aumentaría apenas 
+en un 5% las 
+sumas que consultaba 
+el proyecto anterior), y que se 
+hiciese la declaración expresa de que 
+el Fisco no perdía 
+el carácter de dueño de las citadas especies. Esta idea 
+ANALES MAYO.-.JUN—2
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images, captions, or significant visual notes.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text from the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 546
@@ -779,121 +972,190 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "This page contains no images or other substantial visual content."}
 ```
 
+# Page 617
+
 ## Page Metadata
-- Page number: 547
-- Source publication: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- Source page range: 604-628
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 617
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0617.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, with a running header at the top right indicating the section title and page number. The main content is a continuous block of prose.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-NUESTROS PROBLEMAS ECONÓMICOS 547
 
-nombrados por el Presidente de la República y por las
-Cámaras. Esta ley hubo de ser abandonada porque con
-su espíritu no creaba unidad en la Administración, fa-
-vorecía en cierto modo las influencias políticas y ami-
-noraba en todos respectos la responsabilidad. De 1907
-a 1913 los Ferrocarriles estuvieron regidos por un Con-
-sejo de Ferrocarriles y un Director General que tenía a
-su inmediata dependencia seis jefes de servicio, corres-
-pondientes a las secciones en que estaba dividida la Ad-
-ministración General, y siete administradores, corres-
-pondientes a las secciones del servicio ferroviario, a saber:
-cuatro en la Red Central (Primera Sección, de Valpa-
-raíso a Santiago; Segunda Sección, de Santiago a Talca;
-Tercera Sección, de Talca a Victoria; y Cuarta Sección,
-de Victoria a Osorno y Puerto Montt) y tres en la zona
-norte (en la provincia de Atacama, los ferrocarriles de
-Chañaral, Copiapó y Huasco; en la de Coquimbo, los de
-Coquimbo y Tongoy, y en la de Aconcagua, los de Los
-Vilos). Esta forma de Administración tuvo un carácter
-provisional. La organización definitiva se hizo por ley de
-26 de Enero de 1914, que puso la Administración igual-
-mente en manos de un Consejo, de un Director General
-y de Administradores seccionales, pero que deslindó y
-acrecentó las responsabilidades.
-El Consejo de Administración, llamado a velar en
-general por la unidad administrativa, a despachar el ba-
-lance anual de entradas y gastos, aprobar los reglamen-
-tos de servicio, tarifas, carga, itinerarios, estaciones,
-material rodante, empleados y sueldos, aprobar los pla-
-nos de construcción y los contratos de trabajo cuyo
-valor exceda de 10,000 pesos al año, etc., quedó com-
-puesto del Director General, de dos Consejeros nombra-
+```markdown
+NUESTROS PROBLEMAS ECONÓMICOS 
+547 
+nombrados por el Presidente de la República y por las 
+Cámaras. Esta ley hubo de ser abandonada porque con 
+su espíritu no creaba unidad en la Administración, fa- 
+vorecía en cierto modo las influencias políticas y axmi- 
+noraba en todos respectos la responsabilidad. De 1907 
+21913 los Ferrocarriles estuvieron 
+regidos por un Con- 
+sejo de Ferrocarriles y un Director General que tenía a 
+su inmediata dependencia seis jefes de servicio, corres- 
+pondientes a las secciones en que estaba dividida la Ad- 
+ministración General, y siete administradores, corres- 
+pondientes a las secciones del servicio ferroviario, a saber: 
+cuatro en la Red Central (Primera 
+Sección, de Valpa- 
+raíso a Santiago; Segunda Sección, de Santiago a Talca; 
+Tercera Sección, de Talca a Victoria; y Cuarta Sección, 
+de Victoria a Osorno y Puerto Montt) y tres en la zona 
+"norte (en la provincia de Atacama, los ferrocarriles de 
+Chañaral, Copiapó y Huasco; en la de Coquimbo, los de 
+Coquimbo y Tongoy, y en la de Aconcagua, los de Los 
+Vilos). Esta forma de Administración tuvo un carácter 
+provisional. La organización definitiva se hizo por ley de 
+26 de Enero de 1914, que puso la Administración igual- 
+mente en manos de un Consejo, de un Director General 
+y de Administradores seccionales, 
+pero que deslindó y. 
+acrecentó las responsabilidades. 
+El Consejo de Administración, llamado 
+a velar en 
+general por la unidad administrativa, a despachar el ba- 
+“lance anual de entradas y gastos, aprobar los reglamen- 
+tos de servicio, tarifas, carga, itinerarios, estaciones, 
+material rodante, empleados y sueldos, aprobar los pla- 
+nos de construcción y los contratos de trabajo cuyo 
+valor exceda de 10,000 pesos al año, etc., quedó com- 
+puesto del Director General, de dos Consejeros nombra- 
 dos por el Presidente de la República por cinco años,
+```
 
 ## Images, Captions, And Visual Notes
-This page contains no images, captions, or visual notes.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 618
 
 ## Page Metadata
-Page number: 548
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 618
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0618.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a running header and page number at the top, followed by two main paragraphs of text presented in a single column. The reading order is from top to bottom, left to right.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-548 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-de dos por el Senado y de dos por la Cámara de Diputa-
-dos, por tres años cada uno. El *Director General*, nom-
-brado por el término de seis años por el Presidente de la
-República y reelegible, es el responsable inmediato de la
-dirección, inspección y supervigilancia de to los los servi-
-cios, y representa a la Empresa tanto judicial como extra-
-judicialmente. A su lado tiene jefes de servicio y adminis-
-tradores seccionales. La Dirección General se compone,
-en armonía con esto, de los servicios de Vía y Obras,
-Transporte, Tracción y Maestranzas. Los *jefes de servi-
-cio* son propuestos por el Consejo y nombrados por el
-Presidente de la República por seis años, con derecho a
-ser reelegidos. Los *administradores seccionales*, nombra-
-dos en la misma forma y por cinco años, son los repre-
-sentantes inmediatos de la Dirección General en la res-
-pectiva sección; de ellos depende todo el personal de la
-sección.
-
-La ley de 1914 da a los ferrocarriles del Estado una
-administración autónoma; como Empresa de transporte,
-están sometidos a las leyes generales que rigen a tales
-Empresas. Los ferrocarriles formarán una sección espe-
-cial de la Administración pública, con contabilidad in-
-dependiente de las demás ramas de ésta, cubrirán con
-sus propias entradas los gastos ordinarios y administra-
-rán por sí mismos los saldos anuales. La supervigilancia
-de la administración general, de las finanzas y de la ex-
-plotación, ha correspondido al Ministerio de Ferrocarriles
-creado en 1912, como Departamento de Ferrocarriles,
-dependiente del Ministerio de Industria y Obras Públi-
-cas. Existe, sin embargo, un proyecto del ejecutivo pa-
-ra suprimir esa repartición. No cabe duda que la ley or-
-gánica del 14 está bien concebida en cuanto a la inde-
-pendencia de que en sus finanzas deben gozar nuestros
+```markdown
+548 
+_MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+de dos por el Senado y de dos por la Cámara de Diputa- 
+dos, por tres años cada uno. El Director General, nom- 
+brado por el término de seis años por el Presidente de la 
+República y reelegible, es el responsable inmediato de 
+la 
+dirección, inspección y supervigilancia detolos los servi- 
+cios, y representa a la Empresa tanto judicial como extra- 
+judicialmente. A su lado tiene jefes de servicio y adminis- 
+tradores seccionales. La Dirección General se compone, 
+en armonía con esto, de los servicios 
+de Vía y Obras, 
+Transporte, Tracción y Maestranzas. Los jefes de servi- 
+cto son propuestos por el Consejo y nombrados por el 
+Presidente de la República por seis años, con derecho a 
+ser reelegidos. Los administradores seccionales, nombra- 
+dos en la misma forma y por cinco años, son los repre- 
+sentantes inmediatos de la Dirección General en la res- 
+pectiva sección; de ellos depende todo el personal de la 
+sección. 
+La ley de 1914 da a los ferrocarriles del Estado una 
+administración autónoma; como Empresa de transporte, 
+están sometidos a las 
+leyes generales que rigen a tales 
+Empresas. Los ferrocarriles formarán una sección espe- 
+cial de la Administración pública, con 
+contabilidad in- 
+dependiente de las demás ramas 
+de ésta, cubrirán con 
+sus propias entradas los gastos ordinarios 
+y administra- 
+rán por sí mismos los saldos anuales. La supervigilancia 
+de la administración general, de las finanzas y de la ex- 
+plotación, ha correspondido al Ministerio de Ferrocarriles 
+creado en 1912, como Departamento 
+de Ferrocarriles, 
+dependiente del Ministerio de Industria y Obras Públi- 
+cas. Existe, sin embargo, un proyecto del ejecutivo pa- 
+ra suprimir esa repartición. No cabe duda que la ley or- 
+gánica del 14 está bien concebida 
+en cuanto a la inde- 
+pendencia de que en 
+sus finanzas deben gozar nuestros
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 619
 
@@ -1171,62 +1433,107 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for region cropping."}
 
+# Page 624
+
 ## Page Metadata
-- Page number: 554
-- Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 624
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0624.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, starting with a running header and page number at the top. The main content is two paragraphs of continuous text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-554 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-que sus sueldos, ya que su labor peculiarísima absorbe
-toda su actividad y *energías*, y «según estudios deteni-
-damente practicados», creía necesario un aumento de,
-por lo menos, 4.000,000 de pesos, (es decir, de un 50 por
-100) para fijar al personal una remuneración convenien-
-te. Las esferas gubernativas, empero, no se sentían in-
-clinadas al aumento en cuestión; la mejor prueba de
-ello es que tal estado debe haber durado mucho tiempo,
-cuando se pedía de una vez un aumento total de 50 por
-100. Si quisiéramos investigar la causa de tal oposición
-por parte del Gobierno, deberíamos encontrarla, más que
-todo, en la circunstancia de que los ferrocarriles del Es-
-tado habían dejado durante el último decenio pérdidas
-anuales más o menos cuantiosas, que le obligaban a pen-
-sar más bien en economías que en aumentos en esta ra-
-ma del servicio público. También las críticas que como
-consecuencia de tales pérdidas se hacían en general a la
-Empresa, debían influir en sentido desfavorable a sus
-empleados, aunque sin fundamento, como veremos al
-estudiar las causas de las pérdidas ferroviarias. Existe
-en países nuevos como el nuestro la tendencia de pagar
-sueldos, o demasiado reducidos, o demasiado elevados.
-Convendría, naturalmente, seguir a este respecto la nor-
-ma de los países viejos, en donde el monto de los sueldos
-se fija únicamente en atención al rango y la importancia
-pública del empleo y a las necesidades efectivas del fun-
-cionario.
-
-Los 15,835 *empleados y obreros a jornal* de la Red Cen-
-tral en 1916, gozaban, a su vez, de una renta total anual
-de $ 24.877,725.26 moneda corriente, cantidad que se
-distribuía en la forma siguiente: Administración Gene-
-ral, incluyendo la Caja de Ahorros y la Policía (248 per-
-sonas), $ 354,748.89 con un jornal medio de $ 3.97;
+```markdown
+594 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+que sus sueldos, ya que su labor peculiarísima 
+absorbe 
+toda su actividad y energías», y «según estudios deteni- 
+damente practicados», creía 
+necesario un aumento de, 
+por lo menos, 4.000,000 de pesos, (es decir, de un 50 por 
+100) para fijar al personal una remuneración convenien- 
+te. Las esferas gubernativas, empero, no se sentían in- 
+clinadas al aumento 
+en cuestión; la mejor prueba de 
+ello es que tal estado debe haber durado mucho tiempo, 
+cuando se pedía de una vez un aumento total de 50 por 
+100. Si quisiéramos investigar 
+la causa de tal oposición 
+por parte del Gobierno, deberíamos encontrarla, más que 
+todo, en la cireunstancia de que los ferrocarriles del Es- 
+tado habían dejado durante el últime decenio pérdidas 
+anuales más o menos cuantiosas, que le obligaban a pen- 
+sar más bien en economías que en aumentos en esta ra- 
+ma del servicio público. También las críticas que como 
+- 
+consecuencia de tales pérdidas se hacían en general a la 
+Empresa, debían influir en sentido desfavorable 
+a sus 
+empleados, aunque 
+sin fundamento, como 
+veremos al 
+estudiar las causas de las pérdidas ferroviarias. Existe 
+en países nuevos como-el nuestro la tendencia de pagar 
+sueldos, 
+o demasiado reducidos, 
+o demasiado elevados. 
+Convendría, naturalmente, seguir a este respecto la nor- 
+ma de los países viejos, en donde el monto de los sueldos 
+se fija únicamente en atención al rango y la importancia 
+: 
+pública del empleo y a las necesidades efectivas del fun-- 
+clonario. 
+Los 15,835 empleados y obreros a jornal de la Red Cen- 
+tral en 1916, vozaban, a su vez, de una renta total anual. 
+de $ 24.877,725.26 moneda 
+corriente, cantidad que se 
+distribuía en la forma siguiente: Administración 
+Grene- 
+| 
+ral, incluyendo 
+la Caja de Ahorros y la Policía (248 per-- 
+sonas), $ 354,748.89 con un jornal medio 
+de $ 3.97;
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text on the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 625

@@ -1,0 +1,114 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7c53426166b0-P0676-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678.codex.md
+converted_sha256: 7c53426166b00c44114cdc54b01ed48a51dbb4f526b537fcdafd05ce00219f3a
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/manifest.json
+page_start: 676
+page_end: 676
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/manifest.json`
+- Source page: 676
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/page-images/page-0676.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+606 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+le corresponde, toda vez que 
+el arreglo de la cuestion 
+del salario es un contrato 
+privado, ajeno a su conoci- 
+miento. 
+Los conscriptos que se enrolan en las filas son 
+ lla- 
+mados por la lei para instruirse en todo lo que se rela- 
+-ciona con el ramo militar 1 poder servir, cuando 
+se ne- 
+cesite su concurso, para la defensa nacional, 
+tanto inte- 
+rior como esterior. 
+Aquíno habia ataque 
+de ninguna 
+especie contra la seguridad interior ino podia pensarse 
+que pudiera haberlo, dados los antecedentes que sobre 
+la clase obrera he descrito, antecedentes que la autori- 
+dad está en la obligacion de conocer; solo eran 
+hom- 
+bres que se reunian pacíficamente para discutir con sus 
+patrones al amparo de la Constitucion i de las Leyes, 
+que garantizan su derecho —el contrato de salario, que 
+se firma anualmente 
+en Punta Arenas—en la época de 
+las labores 
+campestres, por representantes 
+de ámbos 
+bandos, 1 que esta vez no hubo acuerdo para celebrarlo. 
+La Nacion mantuvo 
+durante cerca 
+de cuatro meses 
+a 
+dicha tropa, que no recibió durante todo ese tiempo la 
+instruccion a que la lei la llamaba, lo cual. encierra tam- 
+bien una violacion de ella. 
+Todas las medidas de seguridad que la autoridad pu- 
+do haber tomado para prevenir cualquier 
+conflicto, que 
+estaba en la obligacion de prever, debieron haber esta- 
+do listas para. ejercerse en el momento en que los obre- 
+ros hubieran dado motivo para ello, ya sea atacando la 
+propiedad o entorpeciendo 
+la libertad de trabajo, pues 
+solo entonces nace el derecho 
+de ésta para intervenir 
+con la tropa en la forma que lo estime conveniente. No 
+habia antecedente alguno, en el caso 
+a que me refiero, 
+para considerar comprometida la seguridad interior. 
+Los patrones sufrieron grandes perjuicios, pero éstos
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -8,61 +8,91 @@
 - Conversion method: Codex local vision workbench
 - Extracted images: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/extracted-images`
 
+# Page 264
+
 ## Page Metadata
-Page number: 244
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 264
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0264.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number and running header are at the top. The main content is presented in three paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-que estará encaminada a enriquecer el caudal de co-
-nocimientos jenerales del alumno. Se tendrá sumo
-cuidado en hacerle comprender al alumno chileno el
-aspecto peculiar de la literatura que mejor refleja la
-cultura especial de la nacion cuya lengua se estudia.
-Los Programas aprobados por la Universidad con-
-tienen numerosas indicaciones respecto a los libros
-que conviene emplear para tales propósitos. En ellos
-se recomiendan tambien testos que pueden servir de
-base para que el profesor presente a los alumnos un
-breve resúmen de la literatura estranjera. Tal espo-
-sicion debe naturalmente ser cronolójica, i, en cuan-
-to sea posible, fundada en trozos de los autores co-
-rrespondientes. De ahí, en mi opinion, la necesidad
-imprescindible de las crestomatías. Trozos de auto-
-res anteriores al año 1600 no deben recomendarse al
-estudio detenido de los alumnos, porque su lenguaje
-anticuado influiria desfavorablemente sobre las no-
-ciones prácticas; pero el profesor podrá leer ejemplos
-de ellos a los alumnos.
 
-En frances se leerán en quinto año autores moder-
-nos, sin perjuicio de trazar a grandes rasgos el resú-
-men de la literatura desde la edad media hasta 1600,
-i esbozar las biografías de autores del siglo XIX
-cuyas obras se leen, así como las corrientes literarias
-que representan, aunque la literatura de los siglos
-XVII i XVIII sólo se trate con su lectura respecti-
-va en sesto año.
-
-No hai duda, que es de muchísima importancia
-leer algo mas que trozos fragmentarios tal como los
-que figuran en las crestomatías. Pero el procedimien-
-to propuesto por Ud. (pájs. 171 i 180), que conde-
-na en absoluto la crestomatía i reclama la lectura de
+```markdown
+244 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+que estará encaminada a enriquecer el caudal de co- 
+nocimientos jenerales del alumno. Se tendrá sumo 
+cuidado en hacerle comprender al alumno chileno el 
+aspecto peculiar de la literatura que mejor refleja la 
+cultura especial de la nacion cuya lengua se estudia. 
+Los Programas aprobados por la Universidad con- 
+tienen numerosas indicaciones respecto a los libros 
+que conviene emplear para tales propósitos. En ellos 
+se recomiendan tambien testos que pueden servir de 
+base para que el profesor presente a los alumnos un 
+breve resúmen de la literatura estranjera. Tal espo- 
+sicion debe naturalmente ser cronolójica, 1, en cuan- 
+to sea posible, fundada en trozos de los autores co- 
+rrespondientes. De ahí, en mi opinion, la necesidad 
+imprescindible de las crestomatías. Trozos de auto- 
+res anteriores al año 1600 no deben recomendarse al 
+estudio detenido de los alumnos, porque su lenguaje 
+anticuado influiria desfavorablemente sobre las no- 
+ciones prácticas; pero el profesor podrá leer ejemplos 
+de ellos a los alumnos. 
+En frances se leerán en quinto año autores moder- 
+nos, sin perjuicio de trazar a grandes rasgos el resú- 
+men de la literatura desde la edad media hasta 1600, 
+i esbozar las biografías de autores del siglo XIX 
+cuyas obras se leen, así como las corrientes literarias 
+que representan, aunque la literatura de los siglos 
+XVI1 1 XVIII sólo se trate con su lectura respecti- 
+va en sesto ano. 
+No hai duda, que es de muchísima importancia 
+leer algo mas que trozos fragmentarios tal como los 
+que figuran en las crestomatías. Pero el procedimien- 
+to propuesto por Ud. (pájs. 171 1 180), que conde- 
+na en absoluto la crestomatía 1 reclama la lectura de
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete for all visible text on the page. The last paragraph appears to be cut off at the bottom of the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 245
@@ -120,180 +150,271 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 
+# Page 266
+
 ## Page Metadata
-- Page number: 246
-- Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 266
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0266.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The reading order is from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-ella i en la historia nacional se funda la educacion
-del ciudadano, que se completa debidamente en las
-clases de instruccion cívica. Pero naciones tan jóve-
-nes como Chile no pueden tener una cultura especí-
-fica i tienen que asimilarse la cultura mundial mo-
-derna que se halla espresada de la manera mas per-
-fecta en las literaturas escritas en las tres lenguas
-estranjeras que se estudian en el liceo, ya que no
-tiene a su alcance la profundizacion histórica que se
-da, como lo vimos mas arriba, en Alemania, Francia
-i otros paises, por el estudio directo de la literatura
-clásica greco-romana.
 
-La primera condicion para conseguir tal resultado
-es que toda lectura que se haga en idiomas estran-
-jeros durante los años superiores, sea realmente va-
-liosa, ora en sentido estético, ora en lo moral o en lo
-intelectual. Por este lado se ha resentido la ense-
-ñanza de idiomas estranjeros tal como se ha venido
-efectuando hasta hoi en Chile. Toda la atencion de
-los profesores se concentraba casi esclusivamente en
-el aspecto formal, o sea en el dominio del idioma, i,
-sobre todo, en las cuestiones gramaticales. Apénas
-si en los exámenes de quinto i sesto año, o en el ba-
-chillerato, se atrevia alguna vez un profesor a inte-
-rrogar sobre cuestiones que no fueran de gramática.
-Rara vez versaban las preguntas sobre asuntos
-de vocabulario; i sin embargo, es éste el que espresæ
-la cultura del pais, i no la gramática de su lengua.
-Los únicos asuntos de cultura que se exijian al exa-
-minando eran los puntos principales de la historia
-literaria del pais, reducidos comunmente a series de
-nombres con fechas i listas de obras. Los argumentos
+```markdown
+246 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+- 
+ella 1 en 
+la historia nacional se funda la educacion 
+del ciudadano, que se completa debidamente en las 
+clases de instruccion cívica. Pero naciones tan jóve- 
+nes como Chile no pueden tener una cultura especí- 
+fica i tienen que asimilarse la cultura mundial mo- 
+derna que se halla espresada de la manera mas per- 
+fecta en las literaturas escritas en las tres lenguas 
+estranjeras que se estudian en el liceo, ya que no 
+tiene a su alcance la profundizacion histórica que se 
+da, como lo vimos mas arriba, en Alemania, Francia 
+1 otros paises, por el estudio directo de la literatura 
+clásica greco-romana. 
+La primera condicion para conseguir tal resultado 
+es que toda lectura que se haga en idiomas estran- 
+jeros durante los años superiores, sea realmente va- 
+liosa, ora en sentido estético, ora en lo moral o en lo 
+intelectual. Por este lado se ha resentido la ense- 
+ñanza de idiomas estranjeros tal como se ha venido 
+efectuando hasta hoi en Chile. Toda la atencion de 
+los profesores se concentraba casi esclusivamente en 
+el aspecto formal, o sea en el dominio del idioma, 1, 
+sobre todo, en las cuestiones gramaticales. Apénas 
+s1 en los exámenes de quinto 1 sesto año, o en el ba- 
+chillerato, se atrevia alguna vez un profesor a inte- 
+rrogar 
+sobre cuestiones que no fueran de gramática. 
+Rara vez versaban las 
+preguntas 
+sobre 
+asuntos 
+de vocabulario; 1 sin embargo, es éste el que esprese 
+la cultura del pais, 1 no la gramática de su lengua. 
+Los únicos asuntos de cultura que se exijlan al exa- 
+minando eran los puntos principales de la historia 
+literaria del pais, reducidos comunmente a series de 
+nombres con fechas i listas de obras. Los argumentos 
 de las obras apénas si se tomaban en consideracion,
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no images, diagrams, or other substantial visual content."}
 ```
 
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 267
+
 ## Page Metadata
-Page number: 267
-Header: RODOLFO LENZ
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 267
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0267.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a running header with the author's name on the left and the page number on the right, followed by a single column of main text. The main text is composed of several paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-RODOLFO LENZ 247
-
-porque el profesor, cuando no se trataba de alumnos
-propios, no podia saber lo que los alumnos habian
-leido, i la obligacion de haber leido algunas obras
-completas no se espresaba con claridad en nuestros
-programas. Estimo que es el mérito principal de su
-obra el haber llamado la atencion a este defecto.
-Hagamos, pues, *lectura cultural* en los años supe-
-riores del liceo aprovechándonos de todas las litera-
-turas modernas que estén a nuestro alcance, puesto
-que las antiguas han sido abandonadas. No comparto
-el escepticismo de los entusiastas de la cultura clá-
-sica, como Zielinski (*l. c. pág. 57 i sig.*) de que la lectura
-de autores modernos no pueda tener los mismos efec-
-tos educativos que la de los antiguos. Si bien es ver-
-dad que la cultura antigua, no obstante su elevado
-valor intrínseco, es materialmente mucho mas sen-
-cilla que la de cualquier pueblo moderno de alta
-cultura, i, de consiguiente, mas fácil de comprender
-para el educando jóven, no lo es ménos que la ma-
-yoría de los elementos de la cultura antigua hoi sólo
-tiene valor histórico para comprender la formacion
-i evolucion de la actual. Todo lo que se aprende di-
-rectamente de ésta en la interpretacion de autores
-modernos, se aprovecha inmediatamente para la com-
-prension de los problemas de la vida actual.
-Este punto de vista histórico no debe echarse en
-olvido, si se quiere aquilatar el valor de la lectura
-en lenguas modernas. No cabe duda de que la mayor
-importancia corresponde a la lengua patria; pues en
-ella no sólo se forma el hombre, sino en particular
-el ciudadano. Las naciones nuevas de la América
-están a este respecto en una situacion que en poco
+```markdown
+RODOLFO LENZ 
+247 
+porque el profesor, cuando no se trataba de alumnos 
+propios, no podia saber lo que los alumnos habian 
+leido, 1 la obligacion de haber leido algunas obras 
+completas no se espresaba con claridad en nuestros 
+programas. Estimo que es el mérito principal de su 
+obra el haber llamado la atencion a este defecto. 
+Hagamos, pues, lectura cultural en los años supe- 
+riores del liceo aprovechándonos de todas las litera- 
+turas modernas que estén a nuestro alcance, puesto 
+quelas antiguas han sido abandonadas. No comparto 
+el escepticismo de los entusiastas de la cultura 
+ clá- 
+sica, como Zielinski (1. c. páj. 57 1sig.) de que la lectura 
+de autores modernos no pueda tener los mismos efec- 
+tos educativos que la de los antiguos. Si bien es ver- 
+dad' que la cultura antigua, no obstante su elevado 
+valor intrínseco, es materialmente mucho mas sen- 
+cilla que la de cualquier pueblo moderno de alta 
+cultura, 1, de consiguiente, mas fácil de comprender 
+para el educando jóven, no lo es ménos que la ma- 
+yoría de los elementos de la cultura antigua hoi sólo 
+tiene valor histórico para comprender la formacion 
+1 evolucion de la actual. Todo lo que se aprende di: 
+rectamente de ésta en la interpretacion de autores 
+modernos, se aprovecha inmediatamente para la com- 
+prension de los problemas de la vida actual. 
+Este punto de vista histórico no debe echarse en 
+olvido, si se quiere aquilatar el valor de la lectura 
+en lenguas modernas. No cabe duda de que la: mayor 
+importancia corresponde a la lengua patria; pues en 
+ella no sólo se forma el hombre, sino en particular 
+el ciudadano. Las naciones nuevas de la América 
+están a este respecto en una situacion que en poco 
 se asemeja a la de las antiguas naciones europeas.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text and formatting present on the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on the page that requires cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 268
 
 ## Page Metadata
-Page number: 248
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 268
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0268.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number "248" is in the top left corner, and the running header "MEMORIAS CIENTÍFICAS I LITERARIAS" is in the top center. The main body of text follows in a single block.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-248 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-Estas en efecto tienen en jeneral cada una de ellas
-su lengua propia, que consideran con razon como
-patrimonio nacional. La historia de su literatura es
-sólo uno de los aspectos de su historia jeneral i tiene
-por ello interes para la educacion en toda su esten-
-sion. Las naciones americanas se encuentran, por su
-parte, durante los tres primeros siglos de su existen-
-cia, en situacion especialísima: por un lado son colo-
-nias de los paises europeos correspondientes; por el
-otro estas colonias encierran los jérmenes históricos
-de sus nacionalidades modernas. Creo, sin embargo,
-que lo que conviene es que el profesor de idiomas
-aplique el criterio ámplio en favor de la cultura je-
-neral, es decir, que en la enseñanza del castellano en
-Chile debe considerarse toda la literatura española e
-hispano-americana como una unidad, lo que no es-
-cluye, por supuesto, que se les conceda un lugar pre-
-ferente a los autores españoles, como Ercilla, por
-ejemplo, estrechamente relacionados con la historia
-de Chile, i que a un autor chileno, que en España
-quizá seria uno entre muchos, se le estudie con el
-mismo detenimiento i cariño que los escritores sobre-
-salientes.
-
-Por lo que se refiere a la lectura de autores estran-
-jeros, su valor nacional específico sólo tiene interes
-para nosotros en cuanto caracterice al pueblo corres-
-pondiente en cada época de su vida, contribuyendo
-así a completar la imájen que da la clase de historia
-de cada nacion estranjera. Lo que ante todo nos im-
-porta es su valor objetivo para la cultura humana,
-en particular para aquellos aspectos jenerales que
-acaso falten en nuestra literatura nacional.
-
+```markdown
+248 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+Estas en efecto tienen en jeneral cada una de ellas 
+su lengua propia, que consideran con razon como 
+patrimonio nacional. La historia de su literatura es 
+sólo uno de los aspectos de su historia jeneral 1 tiene 
+por ello interes para la educacion en toda su esten- 
+sion. Las naciones americanas se encuentran, por su 
+parte, durante los tres primeros siglos de su existen- 
+cia, en situacion especialísima: por un lado son colo- 
+nias de los paises europeos correspondientes; por el 
+otro estas colonias encierran los jérmenes históricos 
+de sus nacionalidades modernas. Creo, sin embargo, 
+que lo que conviene es que el profesor de idiomas 
+aplique el criterio ámplio en favor de la cultura je- 
+neral, es decir, que en la enseñanza del castellano en 
+Chile debe considerarse toda la literatura española e 
+hispano-americana como una unidad, lo que no es- 
+cluye, por supuesto, que se les conceda un lugar pre- 
+ferente a los autores españoles, como Ercilla, por 
+ejemplo, estrechamente relacionados con la historia 
+de Chile, 1 que a un autor chileno, que en España 
+quizá seria uno entre muchos, se le estudie con el 
+mismo detenimiento 1 cariño que los escritores sobre- 
+salientes. 
+Por lo que se refiere a la lectura de autores estran- 
+jeros, su valor nacional específico sólo tiene interes 
+para nosotros en cuanto caracterice al pueblo corres- 
+pondiente en cada época de su vida, contribuyendo 
+así a completar la imájen que da la clase de historia 
+de cada nacion estranjera. Lo que ante todo nos im- 
+porta es su valor objetivo para la cultura humana, 
+en particular 
+para aquellos aspectos jenerales que 
+acaso falten en nuestra literatura nacional. 
 Un ejemplo lo demostrará mejor. El drama clásico
+```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or significant visual notes on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text on the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 269
@@ -408,63 +529,92 @@ All visible text on the page has been transcribed. The last word "caste-" is hyp
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 
+# Page 271
+
 ## Page Metadata
-- Task id: `source-prep:ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283:p0271`
-- Page number: 271
-- Source: `Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.`
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 271
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0271.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a header with the author's name on the left and the page number on the right, separated by a horizontal line. Below the header, the main content consists of a single column of text, primarily prose, with one paragraph starting with an italicized phrase.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-RODOLFO LENZ 251
-___
 
-llana. En frances esta diferencia apénas si existe hasta
-el estremo de hacer difícil la comprension. Admito con
-Ud. que es mas útil alcanzar a dominar completa-
-mente la comprension de cualquier libro, que seguir
-sacrificando mucho tiempo en ejercitar la mayor co-
-rreccion de la composicion escrita i de la traduccion
-al idioma estranjero. Debe considerarse como fuera
-del alcance de la enseñanza escolar la tarea de tra-
-ducir por escrito trozos literarios castellanos a len-
-guas estranjeras. Traducciones de frases castellanas
-tienen casi sólo el fin de practicar ciertas reglas gra-
-maticales, tanto en lo oral como en lo escrito. Pero
-no debe descuidarse ninguna ocasion para perfeccio-
-nar al estudiante en el uso escrito del idioma como
-espresion de ideas propias (la composicion libre).
-
-    *El método de lectura mas comun es el siguiente:* el
-alumno lee cada oracion en voz alta i la traduce en
-seguida al castellano. Despues de un par de renglo-
-nes el profesor encarga la tarea a otro alumno para
-evitar que los demas se distraigan cuando no les toca
-el turno. Este método tiene la ventaja de envolver
-la lectura en alta voz i facilitar a toda la clase la
-audicion del trozo, aunque ésta resulta interrumpida
-constantemente por la traduccion. Pero la desven-
-taja mas grave consiste en la pérdida del tiempo que
-se emplea en traducir frases que no ofrecen ninguna
-dificultad. En frances serán tales la gran mayoría.
-Si la idea del orijinal se ha comprendido a la mera
-lectura, no se saca nada con repetirla en castellano,
-a no ser que haya dificultades idiomáticas de len-
-guaje, que mui bien pueden existir aunque la idea
-sea clara. Sobre todo pasando de un idioma jermá-
+```markdown
+RODOLFO 
+LENZ 
+251 
+llana. En frances esta diferencia apénas si :existe hasta 
+el estremo de hacer difícil la comprension. Admito con 
+Ud. que es mas útil alcanzar a dominar completa- 
+mente la comprension de cualquier libro, que seguir 
+sacrificando mucho tiempo en ejercitar la mayor co- 
+rreccion de la composicion escrita 1 de la traduccion 
+al idioma estranjero. Debe considerarse como fuera 
+del alcance de la enseñanza escolar la tarea de tra- 
+ducir por escrito trozos literarios castellanos a len- 
+guas estranjeras. Traducciones de frases castellanas 
+tienen casl sólo el fin de practicar ciertas reglas gra- 
+maticales, tanto en lo oral como en lo escrito. Pero 
+no debe descuidarse ninguna ocasion para 
+perfeccio- 
+nar al estudiante en el uso escrito del idioma como 
+espresion de ideas propias (la composicion libre). 
+El método de lectura mas comun es el siguiente: el 
+alumno lee cada oracion en voz alta 1 la traduce en 
+seguida al castellano. Despues de un par de renglo- 
+nes el profesor encarga la tarea a otro alumno para 
+evitar que los demas se distralgan cuando no les toca. 
+el turno. Este método tiene la ventaja de envolver 
+la lectura en alta voz 1 facilitar a toda la clase la 
+audicion del trozo, aunque ésta resulta interrumpida 
+constantemente por la traduccion. Pero la desven- 
+taja mas grave consiste en la pérdida del tiempo que 
+se emplea en traducir frases que no ofrecen ninguna 
+dificultad. En frances serán tales la gran mayoría. 
+Si la idea del orijinal se ha comprendido a la mera 
+lectura, no se saca nada con repetirla en castellano, 
+a no ser que haya dificultades idiomáticas de len- 
+guaje, que mul bien pueden existir aunque la idea 
+sea Clara. Sobre todo pasando de un idioma jermá-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or substantial visual notes on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 252
@@ -584,60 +734,91 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 ```
 
+# Page 274
+
 ## Page Metadata
-Page number: 254
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 274
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0274.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The reading order is from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-pos elocucionales, _groupes de souffle_), repetido pri-
-mero cada uno, i despues sin repeticion. Mas ade-
-lante se presentará sólo una lectura completa de todo
-el trozo, para dar a conocer el argumento, i se leerá
-en seguida una sola vez cada oracion que no exceda
-de dos o tres renglones. Los alumnos tienen que es-
-forzarse en retener lo esencial de las ideas, pues en
-ningun caso podrian retener todas las palabras, tra-
-tando a continuacion de espresar las ideas retenidas
-con el resto de las palabras que les han quedado en
-el oido. Por supuesto que en la apreciacion del resul-
-tado, se considerará como el mejor trabajo aquel en
-que no se haya omitido nada esencial, i que muestre
-el lenguaje mas correcto. Poco importa que las pala-
-bras no sean las mismas del orijinal; al contrario, es
-de recomendar que se altere la espresion. Tal «dictado
-rápido» permite al profesor formarse conceptos claros
-acerca de las capacidades individuales de sus alum-
-nos. Uno tiene buena memoria mecánica para rete-
-ner las palabras oidas, pero no sabe salir de apuros
-cuando la memoria literal falla. El otro no retiene
-nunca nada literalmente, pero espresa bien la idea
-principal, aprovechando su propio vocabulario. La
-mayoría de los alumnos mezclan con palabras propias
-los elementos retenidos. Poco a poco, aumentando la
-estension de los trozos leidos, se llega hasta la com-
-posicion escrita basada en una lectura repetida, o
-aun simple, de un trozo preparado, o no, por medio
-de la conversacion. Como se ve, las variantes del pro-
-cedimiento son innumerables.
 
-Estoi de acuerdo con Ud. en pedir que la prueba
-final debe en primer lugar ser oral i referirse a la
+```markdown
+254 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+pos elocucionales, groupes de souffle), repetido pri- 
+mero cada uno, i despues sin repeticion. Mas ade - 
+lante se presentará sólo una lectura completa de todo 
+el trozo, para dar a conocer el argumento, 1 se leerá 
+en seguida una sola vez cada oracion que no exceda 
+de dos o tres renglones. Los alumnos tienen que es- 
+forzarse en retener lo esencial de las ideas, pues en 
+ningun caso podrian retener todas las palabras, tra- 
+tando a continuacion de espresar las ideas retenidas 
+con el resto de las palabras que les han quedado en 
+el oido. Por supuesto que en la apreciacion del resyl- 
+tado, se considerará como el mejor trabajo aquel en 
+que no se haya omitido nada esencial, i que muestre 
+el lenguaje mas correcto. Poco importa que las pala- 
+bras no sean las mismas del orijinal; al contrario, es 
+de recomendar que se altere la espresion. Tal «dictado 
+rápido» permite al profesor formarse conceptos claros 
+acerca de las capacidades individuales de sus alum- 
+nos. Uno tiene buena memoria mecánica para rete- 
+ner las palabras oidas, pero no sabe salir de apuros 
+cuando la memoria literal falla. El otro no retiene 
+nunca nada literalmente, pero espresa bien la idea 
+principal, aprovechando su propio vocabulario. La 
+mayoría de los alumnos mezclan con palabras propias 
+los elementos retenidos. Poco a poco, aumentando la 
+estension de los trozos leidos, se llega hasta la com- 
+posicion escrita basada en una lectura repetida, o 
+aun simple, de un trozo preparado, o no, por medio 
+de la conversacion. Como se ve, las variantes del pro- 
+cedimiento son innumerables. 
+Estoi de acuerdo con Ud. en pedir que la prueba 
+final debe en primer lugar ser oral i referirse a la 
 buena comprension de cualquier testo que no ofrezca
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 255
@@ -750,302 +931,454 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 
+# Page 277
+
 ## Page Metadata
-- Page number: 257
-- Source publication: Anales de la Universidad de Chile
-- Session: Session of the Council of Public Instruction
-- Date: September 1918
-- Running header: RODOLFO LENZ
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 277
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0277.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The running header "RODOLFO LENZ" is at the top left, and the page number "257" is at the top right. The main body text is presented in several paragraphs, with some paragraphs indented. A footer-like line "ANALES.—SET.—OCT.—2" appears at the bottom of the text block.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-RODOLFO LENZ 257
 
-en la mayor parte de los paises cultos se distinguen
-dos clases de enseñanza: la primaria (o popular) i la
-secundaria (o media); ámbas persiguen únicamente
-propósitos educacionales i culturales.
-
-    La diferencia esencial entre las dos categorías de
-colejios no está normalmente fundada en el número
-de años escolares, porque todos los niños deberian
-estar obligados a recibir enseñanza desde los seis o
-siete hasta los catorce o quince años de edad, ya que
-el empleo de niños menores de catorce años para
-trabajos utilitarios deberia prohibirse por razones de
-hijiene pública i la ociosidad completa deberia impe-
-dirse por motivos económicos i morales. Efectiva-
-mente la instruccion primaria obligatoria dura en
-Alemania ocho años, la secundaria reducida nueve.
-En Chile (segun la estadística a que he aludido mas
-arriba) se desea introducir la primaria completa de
-seis años; la secundaria reducida (liceo de segunda
-clase) dura seis años i deberia elevarse a ocho.
-
-    Por consiguiente la razon de la diferencia esencial
-debe buscarse en la situacion económica i cultural
-de los padres. A lo sumo el 1 % de la poblacion per-
-tenecen a la clase acomodada que produce obreros
-intelectuales. Por esto opino que la instruccion se-
-cundaria (por lo ménos normalmente) deberia ser
-pagada por los padres de los alumnos.
-
-La instruccion primaria debe dar la educacion mo-
-ral i nacional indispensables i el mínimo de los cono-
-cimientos jenerales; la secundaria deberia comunicar
-la cultura superior internacional sobre base histórica
-i literaria por un lado, i, por el otro, la suma de co-
-nocimientos científicos de que ha de disponer el hom-
-bre moderno para juzgar con criterio propio todas
-ANALES.—SET.—OCT.—2
+```markdown
+RODOLFO 
+LENZ 
+ZAS 
+en la mayor parte de los paises cultos se distinguen 
+dos clases de enseñanza: la primaria (o popular) 1 la 
+secundaria (o media); ámbas persiguen únicamente 
+_propósitos educacionales 1 culturales. 
+La diferencia esencial entre las dos categorías de 
+colejios no está normalmente fundada en el número 
+de años escolares, porque todos los niños deberian 
+estar obligados a recibir enseñanza desde los seis o 
+slete hasta los catorce o quince años de edad, ya que 
+el empleo de niños menores de catorce años para 
+trabajos utilitarios deberia prohibirse por razones de 
+hijiene pública 1 la ociosidad completa deberia impe- 
+dirse. por motivos económicos i morales. Efectiva- 
+mente la instruccion primaria obligatoria dura en 
+Alemania ocho años, la secundaria reducida nueve. 
+En Chile (segun la estadística a que he aludido mas 
+arriba) se desea introducir la primaria completa de 
+seis años; la secundaria reducida (liceo de segunda 
+clase) dura seis años 1 deberia elevarse a ocho. 
+Por consiguiente la razon de la diferencia esencial 
+debe buscarse en la situacion económica 1 cultural 
+de los padres. A lo sumo el 1 % de la poblacion per- 
+tenecen a la clase acomodada que produce obreros 
+intelectuales. Por esto opino que la instruccion se- 
+cundaria (por lo ménos normalmente) 
+deberia ser 
+pagada por los padres de los alumnos. 
+La instruccion primaria debe dar la educacion me- 
+ral 1 nacional indispensables 1 el mínimo de los cono- 
+cimientos jenerales; la secundaria deberia comunicar 
+la cultura superior internacional sobre base histórica 
+1 literaria por un lado, 1, por el otro, la suma de co- 
+nocimientos científicos de que ha de disponer el hom.- 
+bre moderno para juzgar con criterio propio todas 
+ANALES,-SPT.-OCT,—2
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 278
 
 ## Page Metadata
-- Page number: 258
-- Source publication: Anales de la Universidad de Chile
-- Session: Session of the Council of Public Instruction, September 1918
-- Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 278
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0278.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number "258" is in the top left corner, and the running header "MEMORIAS CIENTÍFICAS I LITERARIAS" is in the top center. The main content is presented in three paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-258 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-las cuestiones jenerales de la vida civilizada que no
-exijen nociones técnicas especiales.
-En cuanto a las materias que se enseñan, en pri-
-mer lugar se trata de diferencias graduales. Todo lo
-que es objeto de la instruccion primaria, deberá tam-
-bien aprenderse en la secundaria. De ahí concluyen
-algunos pedagogos que la secundaria completa debe
-ser nada mas que la continuacion de la primaria. Es
-éste el sistema seguido en los Estados Unidos de
-Norte América. Sus partidarios en Chile piden la
-supresion de las Preparatorias del Liceo. Creo que
-con ella se cometeria un error gravísimo.
-Mi distinguido colega, el señor don Darío Salas,
-en el Capítulo VI de su majistral libro «El Problema
-Nacional» (Santiago 1917) ha espuesto con claridad
-las razones fundamentales que existen para conser-
-var las Preparatorias i estoi de acuerdo con él en que
-lo único hacedero en favor de la «democratizacion»
-es que el alumno que sale del cuarto año de la es-
-cuela elemental, pueda ingresar al primer año de hu-
-manidades. La solucion en que piensa el señor Salas
-(aunque no la recomienda) de hacer posible que el
-alumno que salga de la escuela superior (seis años
-de instruccion primaria) pueda ingresar al tercer año
-de humanidades enseñando el frances en la escuela
-superior (dos años) i postergando el segundo idioma
-estranjero hasta el tercer año del Liceo, es absoluta-
-mente inaceptable, segun mi opinion.
-El tiempo asignado en los liceos a los idiomas es-
-tranjeros escasamente alcanza para obtener un re-
-sultado útil. Los numerosos alumnos que abandonan
-hoi el liceo despues del tercer año, sólo escepcional-
+```markdown
+258 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+las cuestiones jenerales de la vida civilizada que no 
+exijen nociones técnicas especiales. 
+En cuanto a las materias que se enseñan, en pri- 
+mer lugar se trata de diferencias graduales. Todo lo 
+que es objeto de la instruccion primaria, deberá tam- 
+bien aprenderse en la secundaria. De ahí concluyen 
+algunos pedagogos que la secundaria completa debe 
+ser nada mas que la continuacion de la primaria. Es 
+éste el sistema seguido en los Estados Unidos de 
+Norte América. 
+Sus partidarios 
+en Chile piden la 
+supresion de las Preparatorias del Liceo. Creo que 
+con ella se cometeria un error gravísimo. 
+Mi distinguido colega, el señor don Darío Salas, 
+en el Capítulo VI de su majistral libro «El Problema 
+Nacionab (Santiago 1917) ha espuesto con claridad 
+las razones fundamentales que existen para conser- 
+var las Preparatorias 1 esto1 de acuerdo con él en que 
+lo único hacedero en favor de la «democratizacion» 
+es que el alumno que sale del cuarto año de la :es- 
+cuela elemental, pueda ingresar al primer año de hu- 
+manidades. La solucion en que piensa el señor Salas 
+(aunque no la recomienda) de hacer posible que el 
+alumno que salga de la escuela superior (seis años 
+de instruccion primaria) pueda ingresar al tercer año 
+de humanidades enseñando el frances en la escuela 
+superior (dos años) i postergando el segundo idioma 
+estranjero hasta el tercer año del Liceo, es absoluba- 
+mente inaceptable, segun mi opinion. 
+El tiempo asignado en los liceos a los idiomas es- 
+tranjeros escasamente alcanza para obtener un re- 
+sultado útil. Los numerosos alumnos que abandonan 
+ho1 el liceo despues del tercer año, sólo escepcional- 
 mente tienen provecho duradero de las clases de
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last line of the third paragraph appears to be cut off at the bottom of the page, ending with "de las clases de".
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 279
 
 ## Page Metadata
-Page number: 279
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 279
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0279.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text. The running head "ROLOLFO LENZ" is centered at the top, with the page number "259" on the right. The main body of text follows below.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-ROLOLFO LENZ 259
 
-frances; el segundo idioma con solo dos años de es-
-tudios casi seguramente es tiempo perdido. Dos años
-de frances en la escuela superior serian una carga
-inútil para todos los alumnos que no continuaran sus
-estudios en el liceo, i éstos constituirian por la fuerza
-el 90%. El señor Salas insiste con mucha razon en
-que la enseñanza primaria, aunque sólo tenga seis
-años, debe tratar de dar algo completo, conocimien-
-tos redondeados.
-
-Los idiomas estranjeros se distinguen en un rasgo
-característico de todas las demas ramas de la ense-
-ñanza pública; conviene llamar la atencion de los
-pedagogos sobre este hecho. En todas las materias
-de la enseñanza cabe un mas o ménos, sin que cono-
-cimientos científicamente incompletos resulten inú-
-tiles. En todas ellas hai hechos jenerales de impor-
-tancia práctica, aunque el alumno no alcance a sa-
-ber todos los detalles. No así en idiomas estranjeros.
-Haber hecho durante uno o dos años, con tres o cua-
-tro horas semanales, ejercicios de conversacion en
-frances o ingles, no puede producir ningun resultado
-útil si no se continúa la enseñanza o la práctica. Si
-se desea enseñar frances en los dos años de la ense-
-ñanza superior, el método deberia ser radicalmente
-distinto del que seguimos en el Liceo. Deberia sacri-
-ficarse toda la correccion de la pronunciacion, todo
-cultivo de las habilidades activas de hablar i escribir
-al único propósito provechoso de conseguir el desci-
-frar un libro, aunque sea con ayuda del diccionario.
-Que tal resultado sea posible de alcanzar para un
-profesor mui hábil, no lo quiero negar en absoluto,
-en vista de la semejanza del frances con el castella-
+```markdown
+ROLOLFO 
+LENZ 
+25 is) 
+frances; el segundo idioma con solo dos años de es- 
+tudios casi seguramente es tiempo perdido. Dos años 
+de frances en la escuela superior serian una carga 
+imútil para todos los alumnos que no continuaran sus 
+estudios en el liceo, 1 éstos constituirian por la fuerza 
+el 90%. El señor Salas insiste con mucha razon en 
+que la enseñanza primaria, aunque sólo tenga seis 
+años, debe tratar de dar algo completo, conocimien- 
+tos redondeados. 
+: 
+Los idiomas estranjeros se distinguen en un rasgo 
+característico de todas las demas ramas de la ense- 
+ñanza pública; conviene llamar 
+la atencion de los 
+pedagogos sobre este hecho. En todas las materias 
+de la enseñanza cabe un mas o ménos, sin que cono- 
+cimientos científicamente incompletos resulten inú- 
+tiles. En todas ellas hai hechos jenerales de impor- 
+tancia práctica, aunque el alumno no alcance a sa- 
+ber todos los detalles. No así en idiomas estranjeros. 
+Haber hecho durante uno o dos años, con tres o cua- 
+tro horas semanales, ejercicios de conversacion en 
+frances o ingles, no puede producir ningun resultado 
+útil si no se continúa la enseñanza o la práctica. Si 
+se desea enseñar frances en los dos años de la ense- 
+ñanza superior, el método deberia ser radicalmente 
+distinto del que seguimos en el Liceo. Deberia sacri- 
+ficarse toda la correccion de la pronunciación, todo 
+cultivo de las habilidades activas de hablar 1 escribir 
+al único propósito provechoso de conseguir el desci- 
+frar un libro, aunque sea con ayuda del diccionario. 
+Que tal resultado sea posible de alcanzar para un 
+profesor mui hábil, no lo quiero negar en absoluto, 
+en vista de la semejanza del frances con el castella- 
 no; pero no me atreveria tampoco a afirmarlo. Ha-
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
 ```
 
-## Page Metadata
-- Page number: 280
-- Source publication: Anales de la Universidad de Chile
-- Session: Session of the Council of Public Instruction, September 1918
-- Running head: MEMORIAS CIENTÍFICAS Y LITERARIAS
-
-## Layout And Reading Order
-The page consists of a single column of text. The page number "280" is in the top left corner, and the running head "MEMORIAS CIENTÍFICAS Y LITERARIAS" is in the top center. The main body of text follows in a standard reading order.
-
-## Literal Transcription
-280 MEMORIAS CIENTÍFICAS Y LITERARIAS
-
-bria que hacer la prueba. Dos años de frances po-
-drian ser convenientes sólo para alumnos que ense-
-guida pudieran pasar a una escuela técnica o profe-
-sional inferior en que se continuara al ménos por
-otros dos años el estudio del mismo idioma. Para
-toda otra lengua (a no ser el portugues o el italiano)
-dos años de enseñanza serian un disparate completo.
-    Creo que con escepcion de rejiones bilingues no se
-hace en ningun pais enseñanza de idiomas estranje-
-ros en la instruccion primaria.
-    Por consiguiente, la enseñanza de idiomas estran-
-jeros es el rasgo característico que distingue la ins-
-truccion secundaria de la primaria. Por la misma
-razon conviene mantener las Preparatorias de los
-Liceos, para que los niños que de antemano están
-destinados al Liceo ganen un año, como de hecho lo
-hacen casi todos. No he sido nunca partidario de co-
-menzar el estudio del frances en la preparatoria, como
-se hacia segun el Plan de Estudios de 1893; no por-
-que eso en sí sea imposible, que no lo es, sino porque
-en Chile todavía no era hacedero rechazar a alumnos
-de doce i mas años que se presentaran sin conoci-
-mientos de frances para ingresar al primer año de
-humanidades. Esa calamidad fué la razon por qué
-en 1897 se alteró el Plan, comenzando el primer idio-
-ma en primer año i el segundo en el segundo.
-    El remedio que los pedagogos bien intencionados
-buscan para aumentar la asistencia en las aulas de
-la enseñanza primaria superior i disminuir la plétora en
-los años inferiores del Liceo, es exijir algun pago, aun-
-que sea módico, a los padres que cuentan con los medios
-necesarios. Dénse con toda liberalidad becas a los
-hijos aplicados de padres pobres, hágase gratuita la
-
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. The text is clear and legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 280
 
 ## Page Metadata
-Page number: 281
-Running header: RODOLFO LENZ
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 280
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0280.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The running header "RODOLFO LENZ" is at the top left, and the page number "261" is at the top right. The main content is continuous prose, divided into three paragraphs, with the last paragraph being incomplete at the bottom of the page.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-RODOLFO LENZ 261
 
-enseñanza en los años superiores del Liceo i aun en
-la Universidad; pero que se pague la enseñanza en
-las Preparatorias i en los tres años inferiores del Li-
-ceo. Sé que esta medida es antipática a la mayoría
-de los pedagogos en Chile; la creo justa i, sobre todo,
-«democrática». Ganaría con ella la instruccion pri-
-maria cuyos cursos superiores se llenarían i ganaría
-la secundaria, librándose de esa masa de alumnos
-que llenan el primero i segundo años de humanidades.
-Ante todo ganarían precisamente estos alumnos, pues
-recibirían una preparacion modesta, pero completa
-i útil para la vida, en vez de quedarse con una edu-
-cacion trunca que no sirve para nada.
+```markdown
+260 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+bria que hacer la prueba. Dos años de frances po- 
+drian ser convenientes sólo para alumnos que ense- 
+guida pudieran pasar a una escuela técnica o profe- 
+sional inferior en que se continuara al ménos por 
+otros dos años el estudio del mismo idioma. Para 
+toda. otra lengua (a no ser el portugues o el italiano) 
+dos años de enseñanza serian un disparate completo. 
+Creo que con escepcion de rejiones bilingues no se 
+hace en ningun pais enseñanza de idiomas estranje- 
+ros en la instruccion primaria. 
+Por consiguiente, la enseñanza de idiomas estran- 
+. 
+jeros es el rasgo característico que distingue la ins- 
+truccion secundaria de la primaria. Por la misma 
+razon conviene mantener 
+las Preparatorias 
+de los 
+Liceos, para que los niños que de antemano están 
+destinados al Liceo ganen un año, como de hecho lo 
+hacen casi todos. No he sido nunca partidario de co- 
+menzar el estudio del frances en la preparatoria, como 
+se hacia segun el Plan de Estudios de 1893; no por- 
+que eso en sí sea imposible, que no lo es, sino porque 
+en Chile todavía no era hacedero rechazar a alumnos 
+de doce i mas años que se- presentaran sin conoci- 
+mientos de frances para ingresar al primer año de 
+humanidades. Esa calamidad fué la razon por qué 
+en 1897 se alteró el Plan, comenzando 
+el primer idio- 
+ma en primer año 1 el segundo en el segundo. 
+El remedio que los pedagogos bien intencionados 
+buscan para aumentar la asistencia en las aulas de 
+la enseñanza primaria superior 1 
+disminuir la plétora en 
+los años inferiores del Liceo, es exijir algun pago, aun- 
+que sea módico, alos padres que cuentan con los medios 
+necesarios. Dénse con toda liberalidad becas a los 
+hijos aplicados de padres pobres, hágase gratuita la 
+D
+a 
+e o
+s
+<
+```
 
-La enseñanza secundaria no puede dar la cultura
-superior jeneral suficiente con sólo tres años; de modo
-que los institutos comerciales, técnicos, etc., que han
-de dar la preparacion especial superior, deben con-
-tinuar las clases de idiomas en la misma forma, mas
-o ménos, que en los liceos, para que no se pierda por
-completo su provecho. Por esto debería, en mi opi-
-nion, hacerse todo lo posible para establecer, cuánto
-ántes, el liceo de segunda clase con cinco años obli-
-gatorios para los alumnos que se dedicaran a los es-
-tudios especiales, i el de primera clase, con ocho años
-igualmente obligatorios, para los alumnos que qui-
-sieran ingresar a la Universidad.
+## Images, Captions, And Visual Notes
 
-Es contrario a toda pedagogía pretender decidir la
-carrera futura del educando ántes que éste haya
-cumplido los quince años por lo ménos. Mucho es
-que a los diez i ocho esté el jóven en condiciones de
-elejir con acierto su verdadera vocacion. Creo que
-es un error funesto anticipar la fecha de los estudios
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 281
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 281
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0281.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+RODOLFO 
+LENZ 
+261 
+enseñanza en los años superiores del Liceo 1 aun en 
+la Universidad; pero que se pague la enseñanza en 
+las Preparatorias i en los tres años inferiores del Li- 
+ceo. Sé que esta medida es antipática a la mayoría 
+delos pedagogos en Chile; la creo justa 1,sobre todo, 
+«democrática». Ganaria con ella la instruccion pri- 
+maria cuyos cursos superiores se llenarian 1 ganaria 
+la secundaria, librándose de esa masa de alumnos 
+que llenan el primero 1 segundo años de humanidades. 
+Ante todo ganarian precisamente estos alumnos, pues 
+recibirian una preparacion modesta, pero completa 
+1útil para la vida, en vez de quedarse con una edu- 
+cacion trunca que no sirve para nada. 
+La enseñanza secundaria no puede dar la cultura 
+superior jeneral suficiente con sólo tres años; de modo 
+que los institutos comerciales, técnicos, etc., que han 
+de dar la preparacion especial superior, deben con- 
+tinuar las clases de idiomas en la misma forma, mas 
+o ménos, que en los liceos, para que no se pierda por 
+completo su provecho. Por esto deberia, en mi opi- 
+nion, hacerse todo lo posible para establecer, cuánto 
+antes, el liceo de segunda clase con cinco años obli- 
+gatorios para los alumnos que se dedicaran a los es- 
+tudios especiales, 1 el de primera clase, con ocho años 
+igualmente obligatorios, para los alumnos que qui- 
+slieran ingresar a la Universidad. 
+Es contrario a toda pedagojía pretender decidir la 
+carrera futura del educando ántes que éste haya 
+cumplido los quince años por lo ménos. Mucho es 
+que a los diez 1 ocho esté el jóven en condiciones de 
+elejir con acierto su verdadera vocacion. Creo que 
+es un error funesto anticipar la fecha de los estudios 
 «prácticos»; la enseñanza, tanto la primaria, como la
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete for all visible text on the page. The last paragraph is cut off at the bottom of the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 262

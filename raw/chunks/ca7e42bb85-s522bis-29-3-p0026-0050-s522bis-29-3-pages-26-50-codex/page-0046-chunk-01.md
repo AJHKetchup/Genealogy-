@@ -1,0 +1,219 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-0801d0235b7b-P0046-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50.codex.md
+converted_sha256: 0801d0235b7b8f7d60d31546bd4e90d765ee1cee0f79c2331d627ad5cade285f
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50/manifest.json
+page_start: 46
+page_end: 46
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50/manifest.json`
+- Source page: 46
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50/page-images/page-0046.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+it,
+FRUKAIiï
+16
+mars
+1932
+Je m’excuse d’avoir mis
+tellement
+de
+temps
+à commenter
+en quelques lignes la note
+que
+vous
+avez adressée à iù.
+Furet
+le
+£6
+janvier,
+et
+que celui-ci
+a
+eu 1‘obligeance
+de m’envoyer
+le
+88
+Janvier avec
+une autre note.
+Je constate
+avec plaisir
+que
+nous
+sommés d’accord dans
+la ligne générale et même
+dans le détail
+en
+ce qui
+concerne la
+distribution géographique
+dans les publications statistiques
+du Secrétariat.
+Vous
+avez tout
+à fait raison de faire
+remar¬
+quer qu’une section statistiques
+ne peut
+pas mettre
+de la
+clarté là
+oà elle n’existe
+pas, maie
+Je
+ms permets d’attirer
+votre attention
+sur
+un
+des
+cas
+que
+vous citez dans votre note
+et qui
+a été l’objet d'un commentaire spécial de
+ma part,
+c'est-à-dire
+sur les
+Grondes
+du
+Suc. qui sont occupées,
+en fait
+/
+u ijihhiimÊKHKtÈÊÊttÊB”1T‘
+I
+par l'Argentine,
+et qui figurent dans les statistiques du
+|
+Secrétariat
+cornue
+uns dépendance
+des îles Falkland.
+Ces îles
+i———
+,,
+~
+|
+Falkland
+se trouvent dans le
+cas
+eue
+vous citez de"manque
+de clarté"
+parce qu'elles
+sont revendiquées par 1’argentine,
+quoiqu’elles soient occupées
+par
+1 * Tl pire britannique.
+Même
+si
+las
+Oroades
+du
+Sud
+étaient revendiquées
+par 1’umpire
+britannique, il faudrait tenir compte
+du fait qu’elles sont
+occupées
+par 1’Argentine
+pour les classer
+comme
+un territoire
+argentin.
+De cette façon,
+on. respecterait la logique pour
+les
+deux parties. Il
+est bien entendu
+que
+J’exclus
+de
+mon
+raisonnement
+Xeo eireanstare
+s techniques auxquelles
+vous
+faites allusion
+dans
+votre note,
+quand
+voue parlez
+de terri¬
+toires douaniers et
+de territoires géographiques.
+Je
+suis tout
+à fait d'accord
+avec
+voue
+qu'on
+ne peut pas
+donner satisfaction
+en même
+temps à 1'Equateur et
+au Pérou,
+ou à la Bolivie
+et
+au Paraguay,
+en
+ce qui
+concerne la
+super¬
+ficie
+de leur territoire,
+puisqu'ils
+ne
+sont
+pas
+encore
+tombés
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

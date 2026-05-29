@@ -998,132 +998,219 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 470
+
 ## Page Metadata
-- Page number: 450
-- Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json`
+- Source page: 470
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/page-images/page-0470.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, primarily paragraphs, with a running header and page number at the top.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-dice, la Compañía emplea un Injeniero de Segu-
-ridad con varios ayudantes, cuyo único deber es
-inspeccionar i estudiar todas nuestras operacio-
 
-mina a otra a través de las chimeneas, caserones o cruzados, pero sí
-por las escaleras i pasadizos que están destinados i que se usan con es-
-te fin.
-
-Los deterioros en las escaleras deben avisarse inmediatamente.
-
-Es una seria violación mover una escalera que está en uso como sa-
-lida.
-
-Los fulminantes, dinamita o pedazos de dinamita no se deben de-
-jar botados, i los que se encuentren deben ser inmediatamente devuel-
-tos al polvorín.
-
-Es estrictamente prohibido fumar, llevar una lámpara encendida o
-una vela cuando se están cargando algunos tiros. La lámpara o ve-
-la se debe dejar en sitio seguro. Las lámparas o velas se deben dejar
-afuera del polvorín i no se debe encender fósforos mientras se está
-adentro.
-
-A ningún empleado se le permitirá sacar, o intentar sacar, explosi-
-vos de un tiro «quedado», pero podrá, cuando sea posible, poner un nue-
-vo fulminante. I en caso que esto no sea posible, hágase un hoyo, a una
-distancia de dos piés, al lado, i paralelo al tiro «quedado». Tómese
-mucho cuidado que los hoyos no se junten.
-
-Para colocar las guías en el fulminante deben usarse solo las tena-
-zas especiales. Se prohibe usar los dientes o cuchillos.
-
-Antes de disparar póngase en completo acuerdo con su compañero
-para saber cuál debe volver a prender las guías después de haber da-
-do el aviso.
-
-Los mineros deben profundizar los hoyos o unas partes de ellos si
-han sido dejados o abandonados i que han sido previamente cargados
-con explosivos.
-
-Ud. debe acuñar todos los pedazos de roca o mineral antes que em-
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed. The last line of text is hyphenated and appears to continue on the next page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions present."}
+```markdown
+450 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+dice, la Compañía enxplea 
+un 
+Injeniero de Segu- 
+ridad 
+con varios 
+ayudantes, 
+cuyo 
+único deber es 
+inspeccionar 
+1 estudiar 
+todas 
+nuestras Operacio- 
+mina a otra a través de las chimeneas, caserones o cruzados, pero sí 
+por las escaleras 1 pasadizos que están destinados i que se usan con es- 
+te fin. 
+Los 
+deterioros en las escaleras deben avisarse inmediatamente. 
+Es una seria violación mover una 
+escalera que está en uso como sa- 
+lida. 
+Los fulminantes, dinamita o pedazos de dinamita no se deben de- 
+jar botados, i los que se encuentren deben ser inmediatamente devuel- 
+tos al polvorín. 
+Es estrictamente prohibido fumar, llevar una lámpara encendida o 
+una vela cuando se están cargando algunos tiros. 
+La lámpara o ve- 
+la se debe dejar en sitio seguro. Las lámparas o velas se deben dejar 
+- afuera del polvorín ino se debe encender fósforos 
+mientras 
+se 
+está 
+adentro. 
+e 
+e 
+0 
+A ningún empleado se le permitirá sacar, o intentar sacar. explosi- 
+- 
+vos de un tiro «quedado», pero podrá, cuando sea posible, poner un nue- 
+vo fulminante. l encaso que esto no sea posible, hágase un hoyo, a una 
+distancia de dos piés, al lado, i paralelo 
+al tiro 
+«quedado». 
+Tómese - 
+mucho cuidado que los hoyos no se junten. 
+Para colocar las guías en el fulminante deben usarse solo las tena- 
+zas especiales. Se prohibe usar los dientes o cuchillos. 
+Antes de disparar pónease en completo acuerdo con su compañero 
+para saber cuál debe volver a prender las vuías después de haber da-=- 
+do el aviso. 
+Los mineros 
+deben profundizar los hoyos o unas partes de ellos si 
+han sido dejados v abandonados i que han sido previamente cargados 
+con eXplosivos. 
+Ud. debe 
+acuñar todos los pedazos de roca o mineral antes que em-
 ```
 
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 471
+
 ## Page Metadata
-- Page number: 471
-- Source publication: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json`
+- Source page: 471
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/page-images/page-0471.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The top of the page contains a running header with the author's name on the left and the page number on the right. The main content is a series of paragraphs, likely instructions or regulations, separated by short horizontal lines.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-ALEJANDRO FUENZALIDA GRANDÓN 451
-nes desde el punto de vista de obtener la seguri-
-dad, disminuyendo los riesgos, enseñando a los
-hombres lo que no deben hacer, tanto como el ver-
----
-piece a sacar la «saca» o a taladrar en su puesto de trabajo. Siempre
-párese a un lado cuando esté botando la roca suelta.
----
-Cuando se trabaja en terreno inseguro i sin enmaderar hai que te-
-ner bastante espacio para una salida rápida. Toda obstrucción, tal co-
-mo carros, carretillas, maderas o cualquier otra cosa debe ser quita-
-da del camino. Les está estrictamente prohibido a los empleados
-llevar al hombro brocas, rieles, cañones u otra cosa por el estilo en
-cualquier túnel donde haya alambres eléctricos.
----
-No se use nunca una guia corta para apresurar la explosión o con la
-idea que esto es más económico.
----
-Un minero no estará nunca solo al hacer un disparo i debe tener a
-lo menos un hombre junto a él. Los mineros que estén preparando un
-tiro deben tener una luz de reserva cerca del camino o en cualquier
-otro sitio conveniente para usarla en caso que su luz se apague des-
-pués de prenderse la mecha.
----
-Los mineros que estén a punto de disparar deben avisar en todas
-direcciones. Todas las entradas al sitio o sitios donde haya cargas en-
-cendidas deben cuidarse mientras no se produzca la explosión.
----
-El número de detonaciones será contado por los mismos mineros
-que están disparando i los tiros que no revienten serán dados a cono-
-cer al jefe. En todo caso, es mucho mejor avisar un «tiro quedado»
-que tener un «tiro quedado» sin avisarlo.
----
-A nadie se le permitirá entrar por lo menos antes de 45 minutos a
-un sitio en que se crea que haya un tiro «quedado».
----
-Toda la dinamita que no usen los mineros en el turno, debe llevar-
-se a los polvorines o al sitio preparado para este objeto. Es estricta-
+
+```markdown
+ALEJANDRO FUENZALIDA GRANDÓN 
+451 
+nes desde el punto de vista de obtener la seguri- 
+dad, 
+disminuyendo 
+los riesgos, 
+enseñando 
+a 
+los 
+hombres lo que no deben hacer, tanto como el ver- 
+piece a sacar la «saca» O a taladrar en su puesto de trabajo. 
+Siempre 
+párese a un lado cuando esté botando la roca suelta. 
+Cuando se trabaja en terreno inseguro i sin enmaderar hai que te- 
+ner bastante espacio para una salida rápida. Toda obstrucción, tal co- 
+mo carros, carretillas, maderas o cualquier otra cosa debe ser quita- 
+da del camino. Les 
+está 
+estrictamente 
+prohibido 
+a 
+los 
+empleados 
+llevar al hombro brocas, rieles, cañones u 
+otra 
+cosa 
+por el estilo 
+en 
+cualquier túnel donde haya 
+alambres eléctricos. 
+No se use nunca una suía corta para apresurar la explosión o con la 
+idea que esto es más económico. 
+Un minero no estará nunca solo al hacer un disparo i debe tener a 
+lo menos un hombre junto a él. Los mineros que estén preparando un 
+tiro deben tener una luz de reserva cerca del camino o en cualquier 
+otro sitio conveniente para usarla en caso que su luz se apague des- 
+pués de prenderse la mecha. 
+Los mineros que estén a punto de disparar deben avisar en todas 
+direcciones. Todas las entradas al sitio o sitios donde haya cargas en- 
+cendidas deben cuidarse mientras no se produzca 
+la explosión. 
+El número de detonaciones 
+será contado por 
+los mismos mineros 
+que están disparando i los tiros que norevienten serán dados a cono- 
+cer al jefe. 
+En todo caso, es mucho mejor avisar un «tiro quedado» 
+que tener un «tiro quedado» sin avisarlo. 
+A nadie se le permitirá entrar por lo menos antes de 45 minutos a 
+un sitio en que se crea que haya un 
+tiro «quedado». 
+Toda la dinamita que no usen los mineros en el turno, debe 
+llevar- 
+se a los polvorines o al sitio preparado para este objeto. Es estricta- 
 mente prohibido dejar dinamita en los lugares donde se trabaja.
----
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. The short horizontal lines serve as visual separators between paragraphs.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. All text is clearly legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found that requires cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 472
 
@@ -1197,70 +1284,98 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 473
+
 ## Page Metadata
-Page number: 473
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json`
+- Source page: 473
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/page-images/page-0473.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The top of the page contains a running header with a name on the left and the page number on the right. The main content is a series of paragraphs, some of which appear to be rules or instructions, with one sub-heading indicated by a letter and a parenthetical title.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-ALEJANDRO FUENZALIDA GRANDÓN 453
 
-tes, pero paga todas las indemnizaciones de un fon-
-do creado, dejando a un lado una reserva para el
-
-i que esté sólidamente sujeto de algo arriba; también el cabo no debe
-abandonar los buzones mientras haya alguien trabajando en ellos.
-
-Nadie, excepto los jefes de piso o cabos, puede dar movimiento a
-un motor o también los molinos Marcy o Hardinge, las mesas Wilfley
-o las dragas.
-
-A ninguna persona le es permitido el colocar una correa mientras
-no haya recibido instrucciones al respecto de su cabo, i el cabo debe es-
-tar presente al tiempo de hacerse ese trabajo.
-
-A ninguna persona le es permitido bajo circunstancia alguna entro-
-meterse, o tocar ácidos, o válvulas de ácidos, excepto la persona espe-
-cialmente designada para ese trabajo.
-
-A ninguna maquinaria en este Molino puede dársele movimiento
-mientras todas las protecciones de seguridad no estén en su lugar.
-
-Toda persona que use las piedras de afilar, desmenuzando, o llenan-
-do con metal blanco o cualquier trabajo peligroso para los ojos, debe
-usar anteojos de seguridad proveídos para ese objeto.
-
-f) Fundición:
-
-A todos los trabajadores se les previene que es prohibido dormir en
-el «llampo» i canchas de escoria.
-
-Al limpiar las «cáscaras» de las paredes de los hornos, ponga una ca-
-dena en la estremidad de la barra, i tírela del lado opuesto del horno;
-no empuje la barra hacia el horno.
-
-A toda persona que trabaje cerca de los hornos se le previene que no
-debe vaciar agua en la escoria o metal caliente; no use barras húme-
-das. Acuérdese que el agua en contacto con el metal caliente siempre
-causa explosiones.
-
-A toda persona se avisa que debe estar a una distancia prudente
+```markdown
+ALEJANDRO FUENZALIDA GRANDÓN 
+453 
+tes, pero paga todas las indemnizaciones de un fon- 
+do creado, dejando a un lado una 
+reserva para el 
+i que esté sólidamente sujeto de algo arriba; también el cabo no debe 
+abandonar los buzones mientras haya alguien trabajando en ellos. 
+Nadie, 
+excepto 
+los jefes de piso o cabos, puede dar movimiento 
+a 
+un motor o también los molinos Marcy o Hardinge, las mesas Wilfley 
+o las dragas. 
+A ninguna persona le es permitido el colocar una correa mientras 
+no hava recibido instrucciones al respecto de su cabo, ¡e! cabo debe es- 
+tar presente al tiempo de hacerse ese trabajo. 
+A ninguna persona le es permitido bajo cireunstancia alguna entro- 
+meterse, o tocar ácidos, o válvulas de ácidos. excepto la persona espe- 
+cialmente designada para ese trabajo. 
+Á ninguna maquinaria en este Molino 
+puede dársele movimiento 
+8 
+1 
+J 
+mientras todas las protecciones de seguridad no estén en su lugar. 
+Toda persona que use las piedras de afilar, desmenuzando, o llenan- 
+do con metal blanco o cualquier trabajo peligroso para los ojos, debe 
+usar anteojos de seguridad proveídos para ese objeto. 
+f) Fundición: 
+A todos los trabajadores se les previene que es prohibido dormir en 
+el «Jlampo» 1 canchas 
+de escoria. 
+Al limpiar las«cáscaras» de las paredes de los hornos, ponga una ca- 
+dena en la estremidad de la barra, i tívela del lado opuesto del horno; 
+no empuje la barra hacia el horno. 
+A toda persona que trabaje cerca de los hornos se le previene que no 
+debe vaciar agua en la escoria o metal caliente; no use barras húme- 
+das. Acuérdese que el agua en contacto con el metal caliente siempre 
+causa explosiones. 
+A toda persona 
+se avisa que debe estar a una distancia prudente 
 de los depósitos de escoria o metal cuando éstos estén en movimiento.
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains no meaningful visual content such as images, diagrams, or complex layouts that would require a visual region."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 454
@@ -1324,66 +1439,94 @@ The transcription is complete and includes all visible text from the page.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
 ```
 
+# Page 475
+
 ## Page Metadata
-455
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json`
+- Source page: 475
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/page-images/page-0475.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a running header at the top right containing the page number and the author's name. The text is organized into several paragraphs, each presenting a rule or instruction related to railway operations.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-ALEJANDRO FUENZALIDA GRANDÓN 455
 
-i mantiene mejores relaciones entre nosotros i nues-
-tra jente, que si sus intereses fueran vendidos a una
-
-Un tren no deberá llegar a una estación antes de la hora indicada en
-el itinerario.
-
-Los conductores deberán exhibir, detrás del último carro del tren,
-una luz roja en la noche i una bandera lacre en el día.
-
-Los conductores i maquinistas a cargo de un tren, son responsables
-de su seguridad i deben tomar las mayores precauciones a fin de evi-
-tar todo accidente, aun cuando estas medidas no estén prescritas en
-los Reglamentos.
-
-En todo caso, i aún cuando haya dudas o incertidumbres, deberán
-optar por lo que estimen de mayor seguridad siempre que las medi-
-das que se tomen no presenten riesgo alguno.
-
-Personas enfermas de la vista i oídos no podrán desempeñar cargos
-en el departamento.
-
-Todo los empleados harán uso de excesivo cuidado a fin de evitar
-accidentes que les dañe a ellos mismos o a otras personas, especialmen-
-te cuando se esté haciendo maniobras u otros movimientos de trenes.
-Los maquinistas no deberán exceder su carrera en más de 5 Klms.
-de bajada o subida al pasar el «Copado».
-
-Los maquinistas tendrán el tren bajo su dominio para que la apli-
-cación de los frenos al cruzar un puente, no sea necesaria.
-
-Cuando un tren va seguido de otro tren, este último no deberá en-
-trar a los «guardanieves» hasta que el que lo precede no haya salido.
-
-Es peligroso presumir que las señales que se hayan dado al maqui-
-nista o fogonero han sido vistas por ellos i si las han visto, presumir
-que hayan sido comprendidas. Es de suma importancia prestar obe-
-diencia a estas señales, tanto de parte del maquinista como de la del
-fogonero, para la seguridad de otros empleados que estén cumplien-
-do sus deberes. El que dé la señal deberá estar seguro de que ha sido
+```markdown
+ALEJANDRO FUENZALIDA GRANDÓN 
+455 
+1 mantiene mejores relaciones entre nosotros 1 nues- 
+tra jente, que si sus intereses fueran vendidos a una 
+Un tren no deberá llegar 9 una estación antes de la hora indicada en 
+el itinerario. 
+Los conductores deberán exhibir, detrás del último carro del tren, 
+una luz roja en la noche i una bandera lacre en el día, 
+Los conductores i maquinistas a cargo de un tren, son responsables 
+de su seguridad i deben tomar las mayores precauciones a fin de evi- 
+tar todo accidente, aún cuando estas medidas no estén prescritas 
+en 
+los Reglamentos. 
+En todo caso, 
+¿aún cuando haya dudas o incertidumbres, 
+deberán 
+optar por lo que estimen de mayor seguridad siempre que las medi- 
+das que se tomen no presenten riesgo aleuno. 
+Personas enfermas de la vista i oidos no podrán desempeñar cargos 
+en el departamento. 
+Todo los empleados harán uso de excesivo cuidado a fin de evitar 
+accidentes que les dañe aellos mismos o a otras personas, especialmen- 
+te cuando se esté haciendo maniobras u otros movimientos de trenes. 
+Los maquinistas no deberán exceder su carrera en más de 5 Klms. 
+de bajada o subida al pasar el «Copado». 
+Los maquinistas tendrán el tren bajo su dominio 
+para que la apli- 
+cación de los frenos al cruzar un puente, no sea necesaria. 
+Cuando un tren va seguido de otro tren, este último no deberá en- 
+trar a los tguardanieves» hasta que el que lo precede no haya salido. 
+Es peligroso presumir que las señales que se hayan dado al maqui- 
+nista o fogonero han sido vistas por ellos; i si las han visto, presumir 
+que hayan sido comprendidas. 
+Es de suma importancia prestar obe- 
+diencia a estas señales, tanto de parte del maquinista como de la del 
+fogonero. para la seguridad de otros empleados que estén cumplien- 
+do sus deberes. 
+El que dé la señal deberá estar seguro de que ha sido
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. The short horizontal lines are decorative separators between paragraphs and do not convey content.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and minor decorative elements, none of which are substantial visuals suitable for cropping."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 476
 

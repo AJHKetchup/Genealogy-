@@ -1,0 +1,112 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-5951a6a80dbd-P0624-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628.codex.md
+converted_sha256: 5951a6a80dbda5a0c141d16b89d33f836ad0e670f7421e35cf160955834c97c4
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json
+page_start: 624
+page_end: 624
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 624
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0624.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+594 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+que sus sueldos, ya que su labor peculiarísima 
+absorbe 
+toda su actividad y energías», y «según estudios deteni- 
+damente practicados», creía 
+necesario un aumento de, 
+por lo menos, 4.000,000 de pesos, (es decir, de un 50 por 
+100) para fijar al personal una remuneración convenien- 
+te. Las esferas gubernativas, empero, no se sentían in- 
+clinadas al aumento 
+en cuestión; la mejor prueba de 
+ello es que tal estado debe haber durado mucho tiempo, 
+cuando se pedía de una vez un aumento total de 50 por 
+100. Si quisiéramos investigar 
+la causa de tal oposición 
+por parte del Gobierno, deberíamos encontrarla, más que 
+todo, en la cireunstancia de que los ferrocarriles del Es- 
+tado habían dejado durante el últime decenio pérdidas 
+anuales más o menos cuantiosas, que le obligaban a pen- 
+sar más bien en economías que en aumentos en esta ra- 
+ma del servicio público. También las críticas que como 
+- 
+consecuencia de tales pérdidas se hacían en general a la 
+Empresa, debían influir en sentido desfavorable 
+a sus 
+empleados, aunque 
+sin fundamento, como 
+veremos al 
+estudiar las causas de las pérdidas ferroviarias. Existe 
+en países nuevos como-el nuestro la tendencia de pagar 
+sueldos, 
+o demasiado reducidos, 
+o demasiado elevados. 
+Convendría, naturalmente, seguir a este respecto la nor- 
+ma de los países viejos, en donde el monto de los sueldos 
+se fija únicamente en atención al rango y la importancia 
+: 
+pública del empleo y a las necesidades efectivas del fun-- 
+clonario. 
+Los 15,835 empleados y obreros a jornal de la Red Cen- 
+tral en 1916, vozaban, a su vez, de una renta total anual. 
+de $ 24.877,725.26 moneda 
+corriente, cantidad que se 
+distribuía en la forma siguiente: Administración 
+Grene- 
+| 
+ral, incluyendo 
+la Caja de Ahorros y la Policía (248 per-- 
+sonas), $ 354,748.89 con un jornal medio 
+de $ 3.97;
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

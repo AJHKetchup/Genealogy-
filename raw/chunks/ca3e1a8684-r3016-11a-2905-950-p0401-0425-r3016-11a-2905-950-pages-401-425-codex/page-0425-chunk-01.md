@@ -1,0 +1,126 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-aaefa2bc4de4-P0425-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425.codex.md
+converted_sha256: aaefa2bc4de4a5f0ba67813ff99f5f5fd2f6e93511eb5d13f0c271f4e9597e7e
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425/manifest.json
+page_start: 425
+page_end: 425
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425/manifest.json`
+- Source page: 425
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425/page-images/page-0425.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+d) Aménagement des abris collectifs.
+e) Approvisionnement du matériel de préservation
+et
+de
+secours.
+/) Organisation des locaux susceptibles d'assurer les
+soins
+aux
+gazés
+(postes
+de
+secours,
+hôpitaux,
+éta¬
+blissements de bain, etc.).
+g) Les Croix-Rouges s'assureront la disposition
+en
+temps de guerre, de laboratoires pour l'étude des pro¬
+duits toxiques employés
+par l'ennemi,
+ainsi
+que des
+moyens appropriés à la protection.
+3) Mesures relatives
+à. renseignement et à la propagande.
+Enseignement.
+a) Les Croix-Rouges nationales ont pour devoir, dès
+le temps de paix, de donner l'instruction aux populations
+civiles et d'entretenir
+ces notions.
+Cet enseignement serait donné avec avantage dans les
+écoles, les institutions diverses, les organisations ouvrières;
+il
+sera complété
+par la publication de tracts, dont la
+diffusion sera aussi étendue que possible.
+Il devra comporter, en particulier, la description d'ap¬
+pareils simples que l'on pourra se procurer dans le com¬
+merce, ou confectionner par ses propres moyens.
+b) Un enseignement relatif aux mesures de protection
+contre les effets de la guerre chimique et les soins à donner
+aux victimes sera donné par les sections des Croix-Rouges
+nationales.
+Le programme de cet enseignement pourra
+être
+uni¬
+formisé par le Comité international.
+Ces Sociétés assureront la diffusion des règles de pro¬
+tection, en offrant leur concours aux services gouverne¬
+mentaux,
+établissements
+d'enseignement,
+groupements
+sociaux, etc.
+g) La
+Commission
+insiste
+pour
+que
+l'enseignement
+universitaire ne soit pas négligé en cette matière. Il paraît
+indispensable que les étudiants, au cours de leurs études,
+soient instruits par leur Faculté.
+— 26
+—
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

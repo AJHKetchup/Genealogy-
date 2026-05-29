@@ -8,68 +8,95 @@
 - Conversion method: Codex local vision workbench
 - Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/extracted-images`
 
+# Page 184
+
 ## Page Metadata
-Page number: 181
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json`
+- Source page: 184
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/page-images/page-0184.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. It begins with a page number centered at the top, followed by a list of items, then several paragraphs of text, and two headings each followed by an article. The page ends mid-sentence.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 181 —
-
-g) Medio utilizado para la transmisión.
-h) Peso de la carga, según carta de porte.
+```markdown
+g) Medio utilizado para la transmisiôn.
+h) Peso de la carga, segun carta de porte.
 i) Peso asignado por la empresa.
 j) Observaciones.
-
-El aviso deberá ser enviado de manera que llegue al con-
-signatario a más tardar a las 18 horas del día anterior a aquel
-en que la carga se pondrá a su disposición para ser descar-
-gada. Las empresas colocarán, además, diariamente en lugar
-visible de la estación la lista de las cargas por vagón recibidas,
-con expresión de los datos consignados en el referido registro
-de comunicación de cargas llegadas.
-Si el consignatario lo requiriese, las empresas deberán darle,
-además, una constancia escrita del día y hora en que la carga
-ha sido puesta a su disposición.
-El referido registro especial consistirá en un libro foliado
-y rubricado por la Dirección General de Ferrocarriles, y podrá
-contener hojas duplicadas perforadas, que servirán para sacar
-copias en carbónico de los datos indicados en este artículo a
-objeto de exponerlas en lugar visible de la estación como aviso
-al público de las cargas por vagón recibidas.
-
+El aviso deberâ ser enviado de manera que llegue al con-
+signatario a mas tardar a las 18 boras del dia anterior a aqnel
+en que la carga se pondra a su disposicion para ser descar-
+gada.
+Las empresas colocarân, ademâs, diariamente en. lugar
+visible de la estaciôn la lista de las cargas por vagon recibidas,
+con expresiôn de los datos consignados en el referido registro
+de comunicaeiôn de cargas llegadas.
+Si el consignatario lo requiriese, las empresas deberân darle,
+ademâs, una constancia escrita del dia y hora en que la carga
+j ha sido puesta a su disposicion.
+El referido registro especial consistirâ en un libro foliado
+y rubricado por la Direcciôn General de Ferrocarriles, y podrâ
+contener liojas duplicadas perforadas, que servirân para sacar
+i
+copias en carbônico de los datos indicados en este artîculo a
+objeto de exponerlas en lugar visible de la estaciôn como aviso
+al publico de las cargas por vagon recibidas.
 Horario de las estaciones de cargas.
-
-Art. 309. — Las estaciones de cargas deberán estar abiertas
-los días hábiles desde las 6 horas hasta las 18 horas y los sá-
+Art. 309.
+Las estaciones de cargas deberân estar abiertas
+los dias hâbiles desde las 6 horas hasta las 18 horas y los sâ-
 bados de 6 a 13 horas, menos aquellas que por las condiciones
-especiales de la localidad que sirven o de su tráfico permitan
-un horario distinto, que será autorizado por la Dirección Ge-
+especiales de la localidad que sirven o de su trâfico permitan
+un horario distinto, que serâ autorizado por la Direcciôn Ge¬
 neral de Ferrocarriles, si lo juzgase conveniente.
-
-Plazo dentro del cual deberán des-
+Plazo dentro del cual deberân des-
 cargarse los vagones.
-
-Art. 310. — El plazo en que deberán descargarse los va-
-gones será de 48 horas para las cargas ordinarias y de 24 horas
-para las perecederas de 1ª y 2ª categoría a que se refiere el ar-
-tículo 247, a contar desde el momento en que sean puestos a
+Art.
+310. — El plazo
+en
+que deberân descargarse los va¬
+gones serâ de 48 horas para las cargas ordinarias y de 24 horas
+para las perecederas de F y 2* categoria a que se refiere el ar-
+ticulo 247, a contar desde el momento en que sean puestos a
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or visual notes on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The page ends mid-sentence.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 185
 
@@ -135,68 +162,102 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 186
+
 ## Page Metadata
-Page number: 183
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/manifest.json`
+- Source page: 186
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203/page-images/page-0186.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text. It begins with a page number centered at the top. The main content consists of several paragraphs, some introduced by bolded subheadings and others by article numbers. The text flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 183 —
-
-dicho artículo, se autoricen horarios distintos al reglamen-
+```markdown
+dicho artîculo,
+se autoricen horarios distintos al reglamen-
 tario.
-Los días domingos, feriados y sábados después de las 13
-horas, que se sucedan inmediatamente después del plazo libre
-reglamentario, no serán computados al efecto de las estadías
-o almacenajes, pero al primer día hábil siguiente a los mismos
-se le aplicará la estadía o almacenaje, de acuerdo con el nú-
-mero de orden corrido que le corresponda, a partir de la ex-
-piración del plazo para la descarga.
-
-**Facultad de las empresas para des-**
-**cargar los vagones a depósito, pla-**
-**ya o terreno.**
-
-Art. 312. — Siempre que las necesidades del servicio lo exi-
-jan, las empresas podrán descargar las cargas a depósito, playa
-o terreno, según la naturaleza de la mercadería, inmediata-
+Los
+dîas domingos, feriados y sâbados después de las 13
+lioras, que se sucedan inmediatamente después del plazo libre
+reglamentario, no serân computados al efecto de las estadîas
+o almacenajes, pero al primer dîa hâbil siguiente a los mismos
+se le aplicarâ la estadîa
+o almacenaje, de acuerdo con el nu¬
+méro de orden corrido que le corresponda, a partir de la ex-
+piraciôn del plazo para la desearga.
+Facultad de las
+empresas para des-
+cargar los vagones
+a deposito, pla-
+ya o terreno.
+Art. 312. — Siempre que las necesidades del servieio lo exi-
+jan, las empresas podrân deseargar las eargas a deposito, playa
+o terreno, segun la naturaleza de la mercaderîa, inmediata¬
 mente que lleguen los vagones a su destino, siendo de cuenta
-de las mismas los gastos que esta operación origine.
-
-**Cargas destinadas a puertos. Plazo**
-**para la descarga.**
-
-Art. 313. — Si la carga fuese destinada a puertos, en los
-cuales la descarga de vagones se efectúa sin la intervención
-de las empresas y fuera de su jurisdicción, éstas deberán co-
+de las mismas los gastos que esta operation origine.
+Cargas destinadas a puertos.
+Plazo
+para la desearga.
+Art.
+313. — Si la
+carga fuese destinada a puertos,
+en los
+cuales la desearga de vagones se efectua sin la intervenciôn
+de las empresas y fuera de su jurisdiction, éstas deberân co-
 municar al consignatario la fecha y hora en que dan aviso
-al puerto de la llegada de los vagones al empalme de sus vías,
-y si dicho empalme estuviera ocupado, a los desvíos o esta-
-ciones más próximos que la Dirección General de Ferrocarriles
-fijará para cada ferrocarril con relación al tráfico con el
-puerto que sirve, cesando en ese instante la responsabilidad
+al puerto de la llegada de los vagones al empalme de sus vîas,
+y si dieho empalme estuviera oeupado, a los desvlos o esta-
+eiones mas prôximos que la Direeeiôn General de Ferroearriles
+fijarâ
+para cada ferroearril eon relation al trâfieo
+con el
+Puerto
+que sirve, eesando en ese instante la responsabilidad
 de la empresa por lo que respecta al tiempo del transporte, si
 la fecha del aviso estuviera dentro del plazo que acuerda el
-Reglamento General de Ferrocarriles para el mismo.
-Los consignatarios deberán descargar los vagones colocados
-en las vías de los diques o instalaciones de la zona portuaria
-dentro de las 48 horas del arrime del primer vagón al vapor
+Reglamento General de Ferroearriles- para el mismo.
+Los consignatarios deberân deseargar los vagones colocados
+en las vîas de los diques o instalaciones de la zona portuaria
+dentro de las 48 horas del arrime del primer vagôn al vapor
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 184

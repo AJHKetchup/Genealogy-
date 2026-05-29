@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-1ed41babc26c-P0008-01
+chunk_id: CHUNK-36b99f4ce44b-P0008-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553.codex.md
-converted_sha256: 1ed41babc26c7a0c97adefb929e8c14d041649b0b33db8a659f425f16176f2d0
+converted_sha256: 36b99f4ce44b50cf77da4328141802974f91e9cf2cd051e9953594beee712260
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/manifest.json
@@ -65,3 +65,5 @@ All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+
+# Page 537

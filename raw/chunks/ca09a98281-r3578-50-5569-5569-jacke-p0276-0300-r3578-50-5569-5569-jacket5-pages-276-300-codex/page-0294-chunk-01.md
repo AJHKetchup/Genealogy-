@@ -1,0 +1,123 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-c4aefa907835-P0294-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket5-pages-276-300.codex.md
+converted_sha256: c4aefa907835fc4f821c39c61fc75299f6c88a6ca2ab664a58fe5fb5b5b0798c
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket5-pages-276-300/manifest.json
+page_start: 294
+page_end: 294
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket5-pages-276-300/manifest.json`
+- Source page: 294
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket5-pages-276-300/page-images/page-0294.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+71
+514
+2°
+Les prisonniers de guerre dont la sante intellectuelle ou
+physique
+parait,
+d’aprfes
+les
+provisions
+medicates,
+menacOe
+sOrieusement par le maintien en captivite, tandis que l’hospi-
+talisation
+en pays, neutre pourrait probablement les soustraire
+& ce risque.
+G.
+— Principes directeurs pour le rapatriement des hospitalises
+en pays neutre.
+Pont rapatries, les prisonniers de guerre hospitalises en pays
+neutre qui appartiennent aux categories suivantes:
+1°
+Ceux dont l’Otat de sante
+se prOsente comme Otant ou
+devenant tel qu’ils rentrent dans les categories des rapatriables
+pour raisons de sante.
+2°
+Les guOris dont l’aptitude intellectuelle ou physique parait
+avoir subi
+une diminution considerable.
+II.
+— PRINCIPES SPECIAUX POUR LE RAPATRIEMENT
+DIRECT OU L’HOSPITALISATION EN PAYS NEUTRE.
+A.
+— Principes speciaux pour le rapatriement.
+Seront rapatries:
+1°
+Tous les prisonniers de guerre atteints
+la suite de lesions
+organiques,
+des
+alterations suivantes, effectives ou fonction-
+nelles: perte de membre, paralysie, alterations artieulaires ou
+autres, pour autant que le defect est d’au moins un pied ou une
+main,
+ou qu’il Oquivaut a la perte d’un pied ou d’une main.
+2°
+Tous les prisonniers de guerre blesses ou leses dont l’etat
+est tel qu’il fait d’eux des infirmes dont on ne peut pas, medi-
+calement, pr4voir la guerison dans le deiai d’un an.
+3°
+Tous les malades dont l’etat est tel qu’il fait d’eux des
+infirmes dont on ne peut pas, medicalement, prevoir la guerison
+dans le deiai d’un an.
+A cette categorie appartiennent en particular:
+a)
+Les tuberculoses progressives d’organes quelconques qui,
+d’apiAs les previsions medicales, ne peuvent plus etre gueries
+ou
+au moins considerablement ameiiorees par une cure en pays
+neutre.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 295

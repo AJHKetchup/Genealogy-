@@ -462,62 +462,96 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful images or diagrams suitable for cropping."}
 ```
 
+# Page 312
+
 ## Page Metadata
-Page number: 292
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 312
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0312.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text. The content begins with a continuation of a previous discussion, followed by two distinct points labeled A) and B).
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-292 MEMORIAS CIENTÍFICAS I LITERARIAS
-nunicacion. Segun el provecho práctico al cual se
-aspira se deben distinguir dos casos:
-A) Se estudian lenguas tanto de alta, como de
-baja cultura, para entenderse con fines prácticos con
-jente que habla esos idiomas. El que quiera hacer
-esploraciones científicas de cualquier especie en Bo-
-livia, el que quiera viajar en ese país con propósitos
-comerciales o industriales, o aun meramente como
-turista que desea ver las hermosuras naturales, hará
-bien en aprender el aimará al lado del castellano, lo
-mismo que el viajero en los Estados Unidos deberá
-saber el inglés, si no quiere verse espuesto a muchí-
-simas dificultades. Respecto al aimará bastará en-
-tenderlo i hablarlo mas o menos perfectamente. Se
-puede hacer este estudio con cualquier natural del
-pais que hable castellano i aimará, si el viajero mis-
-mo es de habla española. Escribir el aimará no será
-necesario; el indio que sólo conoce esa lengua no sa-
-brá escribir i libros impresos, importantes por sus
-ideas, no los hai. El único método adecuado será el
-«método directo», imitación del «natural». Toda len-
-gua de cultura naturalmente conviene saberla en «las
-cuatro habilidades», para poder leer diarios i escribir
-cartas.
-B) Sólo en lenguas muertas i vivas de cultura
-alta, puede tener utilidad limitar el aprendizaje a la
-lectura de libros importantes por el valor de las ideas
-espresadas, sin insistir en comprender la conversa-
-cion, ni hablar o ni escribir. Tal conocimiento es rela-
-tivamente fácil de conseguir por medio del antiguo
-sistema gramatical con profesor, i aun sin profesor
-por medio de un estudio superficial de la gramática
-seguido de lectura de libros con traduccion. Pero am-
+
+```markdown
+292: 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+municacion. Segun el provecho práctico al cual se 
+aspira se deben distinguir dos casos: 
+¿ 
+A) Se estudian lenguas tanto de alta, como de 
+baja cultura, para entenderse con fines prácticos con 
+jente que habla esos idiomas. El que quiera hacer 
+esploraciones científicas de cualquier especie en Bo- 
+livia, el que quiera viajar en ese país con propósitos 
+comerciales 
+o industriales, 
+o aun meramente como 
+turista que desea ver las hermosuras naturales, hará 
+bien en aprender el aimará al lado del castellano, lo 
+mismo que el viajero en los Estados Unidos deberá. 
+saber el inglés, si no quiere verse espuesto a muchí- 
+simas dificultades. Respecto al aimará bastará en- 
+tenderlo 1 hablarlo mas o menos perfectamente. Se 
+puede hacer este estudio con cualquier natural del 
+pais que hable castellano 1 aimará, si el viajero mis- 
+mo es de habla española. Escribir el aimará no será 
+necesario; el indio que sólo conoce esa lengua no sa- 
+brá escribir 1 libros impresos, importantes por sus 
+ideas, no los hai. El único método adecuado será el 
+«método directo», imitación del «natural. Toda len- 
+gua de cultura naturalmente conviene saberla en «las 
+cuatro habilidades», para poder leer diarios 1 escribir 
+cartas. 
+: 
+B) Sólo en lenguas muertas 1 vivas de cultura 
+alta, puede tener utilidad limitar el aprendizaje a la 
+lectura de libros importantes por el valor de las ideas 
+espresadas, sin insistir en comprender la conversa- 
+cion, ni hablar o ni escribir. Tal conocimiento es rela- 
+tivamente fácil de conseguir por medio del antiguo 
+sistema gramatical con profesor, 1 aun sin profesor 
+por medio de un estudio superficial de la gramática 
+seguido de lectura de libros con traduccion. Pero am- 
+A
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text and formatting present on the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 293
@@ -576,66 +610,96 @@ The transcription is complete and accurate, capturing all text, line breaks, and
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
 ```
 
+# Page 314
+
 ## Page Metadata
-- Task id: `source-prep:ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328:p0314`
-- Page number: 314
-- Source: `Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.`
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 314
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0314.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a header with a page number and a running title, followed by a single column of body text. The reading order is from top to bottom, left to right.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-294 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-un profundo error. No concibo otro sistema de ense-
-ñanza razonable que el del método directo hasta lle-
-gar a un conocimiento imperfecto, si se quiere, pero
-jeneral (de las cuatro habilidades). Puede sólo haber
-diferencia en la continuacion del estudio en los años
-superiores. Si el tiempo es escaso, como en los seis
-años del liceo chileno, se puede sacrificar la conti-
-nuacion de los ejercicios activos (hablar i escribir)
-para concentrar todos los esfuerzos en la perfeccion
-de la lectura para adquirir nuevas ideas culturales.
-Considero este procedimiento como «un pis aller»;
-creo posible en todo caso la continuacion del cultivo
-de la conversacion, recomiendo tambien la conti-
-nuacion de los ejercicios escritos (resúmenes, argu-
-mentos, composiciones) i admito sólo la restriccion
-de los ejercicios de traduccion, sobre todo la de tex-
-tos orijinales castellanos, por ser demasiado difíciles.
-    Usted cree que es posible comenzar la enseñanza
-de dos i aun de tres lenguas estranjeras en un mismo
-año, aludiendo a la posibilidad de que un niño chico
-aprenda a la vez dos idiomas. Creo que Ud. está
-equivocado. El niño chico (de dos a cuatro o seis
-años) aprende en tal caso a pensar i a hablar en dos
-lenguas patrias i al principio siempre hace mezclas
-i confusiones; el alumno de mas de diez años ya sabe
-pensar i aprende sólo un nuevo medio para espresar
-los pensamientos. La esperiencia ha probado que es
-inevitable que en tal caso el estudiante confunda
-constantemente las dos lenguas estranjeras, sobre
-todo si se tratan unos mismos argumentos a un mismo
-tiempo en dos idiomas. Por esto el problema de los
-tres idiomas estranjeros con sólo seis años de huma-
-nidades queda mui difícil, i, segun mi opinion, al
+```markdown
+294 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+un profundo error. No concibo otro sistema de ense- 
+ñanza razonable que el del método directo hasta lle- 
+gar a un conocimiento imperfecto, si se quiere, pero 
+jeneral (de las cuatro habilidades). Puede sólo haber 
+diferencia en la continuacion del estudio en los años 
+superiores. Si el tiempo es escaso, como en los seis 
+años del liceo chileno, se puede sacrificar la conti- 
+nuacion de los ejercicios activos (hablar i escribir) 
+para concentrar todos los esfuerzos en la perfeccion 
+de la lectura para adquirir nuevas ideas culturales. 
+Considero 
+este procedimiento como «un pis aller»; 
+creo posible en todo caso la continuacion del cultivo 
+de la conversacion, 
+recomiendo tambien 
+la conti- 
+nuacion de los ejercicios escritos (resúmenes, argu- 
+mentos, composiciones) 1 admito sólo la restriccion 
+de los ejercicios de traduccion, sobre todo la de tex- 
+tos orijinales castellanos, por ser demasiado difíciles. 
+Usted cree que es posible comenzar la enseñanza 
+de dos 1 aun de tres lenguas estranjeras en un mismo 
+año, aludiendo a la posibilidad de que un niño chico 
+aprenda a la vez dos idiomas. Creo que Ud. está 
+equivocado. El niño chico (de dos a cuatro o seis 
+años) aprende en tal caso a pensar 1 a hablar en dos 
+lenguas patrias 1 al principio siempre hace mezclas 
+1 confusiones; el alumno de mas de diez años ya sabe 
+pensar 1 aprende sólo un nuevo medio para espresar 
+los pensamientos. La esperiencia ha probado que es 
+inevitable que en tal caso el estudiante confunda 
+constantemente 
+las dos lenguas estranjeras, sobre 
+todo sise tratan unos mismos argumentos a un mismo 
+tiempo en dos idiomas. Por esto el problema de los 
+tres idiomas estranjeros con sólo seis años de huma- 
+nidades queda mui difícil, 1, segun mi 
+opinion, al
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or visual notes on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 295
@@ -749,123 +813,183 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 317
+
 ## Page Metadata
-- Page number: 317
-- Source publication: Anales de la Universidad de Chile
-- Session of the Council of Public Instruction, September 1918.
-- Running header: RODOLFO LENZ
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 317
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0317.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, with a running header at the top. A footnote is present at the bottom of the main text, indicated by a numerical reference.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-RODOLFO LENZ 297
-minarse trájico, aunque nada tenga que ver con lo
-que Aristóteles entendió por la particularidad de la
-trajedia griega. Las palabras greco-latinas se acen-
-túan ya segun el sistema griego, ya segun el latino
-(filosofía, academia) (1). Así ciertos literatos chilenos
-creen que es más «elegante» hablar de la sociabilidad
-chilena que de la sociedad, ignorando que segun su
-derivacion latina *sociabilidad* puede sólo designar la
-posibilidad de formar sociedad, mas no ésta misma.
-La doctificacion de la pronunciacion de los clásicos,
-que rimaban *preceto* con *efeto*, comienza en el siglo
-XVI por los «doctos afectados»; por desgracia cuenta
-hoi con el favor de la Real Academia, que durante
-un siglo entero había luchado con tanto éxito contra
-la rancia escritura etimolójica i todavía en 1815 pre-
-fería la pronunciacion «mas blanda» *estraño*, *oscuro*,
-*trasformar*. Hoi la ortografía chilena es el último re-
-ducto en que se defiende esa lejítima pronunciacion
-castellana, que, por mas que digan los preceptistas,
-aún entre la jente culta de España es la preferida,
-si no la única. Yo creo que no es nunca el pueblo el
-que corrompe la lengua, aunque introduzca vocablos
-vulgares para enriquecer el vocabulario académico
-(lo mismo que lo hizo Víctor Hugo en Francia). Cam-
-bios que entran desde abajo, son siempre conformes
-al jenio de la lengua. Verdadera corrupcion puede
 
-(1) El uso de los doctos a menudo ha vacilado i la decision del
-Diccionario Oficial i de otras autoridades (p. ej. M. L. AMUNÁTEGUI,
-*Acentuaciones Viciosas*, Santiago, 1887) a menudo carece de funda-
-mento científico; p. ej. ambos se deciden por *adonai*, sin embargo
-tiene razón ALEMANY que imprime *adonay*, pues en hebreo el acento
-está en la última vocal larga de la palabra (la a) i no en la conso-
-nante jota en que termina, i que en latín se escribía *i*.
+```markdown
+RODOLFO LENZ 
+297 
+miñarse trájico, aunque nada tenga que ver con lo 
+que Aristóteles entendió por la particularidad de la 
+trajedia griega. Las palabras greco-latinas se acen- 
+túan ya segun el sistema griego, ya segun el latino 
+(filosofía, academia) (1). Así ciertos literatos chilenos 
+creen que 
+es más «elegante» hablar de la sociabilidad 
+chilena que de la sociedad, ignorando que segun su 
+derivación latina sociabilidad puede sólo designar la 
+posibilidad de formar sociedad, mas no ésta misma. 
+La doctificacion de la pronunciacion de los clásicos, 
+que rimaban preceto con efeto, comienza en el siglo 
+XVI por los «doctos afectados»; por desgracia cuenta 
+ho1 con el favor de la Real Academia, que durante 
+un siglo entero había luchado con tanto éxito contra 
+la rancia escritura etimolójica 1 todavía en 1815 pre- 
+fería la pronunciación «mas blanda» estraño, oscuro, 
+.trasformar. Hoi la ortografía chilena 
+es el último re- 
+ducto en que se defiende esa lejítima pronunciación 
+castellana, que, por mas que digan los preceptistas, 
+aún entre la jente culta de España es la preferida, 
+s1 no la única. Yo creo que no es nunca el pueblo el 
+que corrompe la lengua, aunque introduzca vocablos 
+vulgares para enriquecer 
+el vocabulario académico 
+(lo mismo que lo hizo Víctor Hugo en Francia). Cam- 
+bios que entran desde abajo, son siempre conformes 
+al jenio de la lengua. Verdadera corrupcion puede 
+(1) El uso de los doctos a menudo ha vacilado 1 la decision del 
+Diccionario Oficial i de otras autoridades (p. ej. M. L. AMUN ÁTEGUI, 
+Acentuaciones Viciosas, Santiago, 1887) a menudo carece de tunda- 
+mento cientifico; p. ej. ambos se deciden por adona?, sin embargo 
+tiene razón ALEMANY que imprime adonay, pues en hebreo el acento 
+está en la última vocal larga de la palabra (la a) 1 no en la conso- 
+nante jota en que termina, i que en latín se escribía 
+2.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or significant visual elements on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed, including the running header, the main body of text, and the footnote.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 318
 
 ## Page Metadata
-Page number: 318
-Source: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 318
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0318.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a header with a page number and a running title. Below the header, there is a single column of text, which constitutes the main body of the page. At the bottom of the page, there is a footnote, indicated by a parenthetical number `(1)` in the main text. The reading order is from top to bottom, starting with the header, then the main text, and finally the footnote.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-298 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-sólo venir cuando los que se creen con el derecho de
-gobernar la lengua, quieren imponerle sus caprichos
-como «reglas de la gramática». Ahora, como es inne-
-gable que el escritor, el literato, el poeta, contribu-
-yen constantemente a formar el lenguaje, a amoldar
-el idioma a los progresos del espíritu humano, que
-tambien vienen desde arriba, pues salen de las cabe-
-zas de los sabios, de los filósofos, de los que dirijen
-los movimientos sociales i tambien las empresas in-
-dustriales i comerciales; como es innegable que las
-lenguas romances en esta evolucion no pueden sus-
-traerse a la influencia de su lengua madre, por esto
-creo que es necesario que las clases que por su talento
-i su trabajo orijinal dirijen a la nacion, estudien el
-latin, para comprender la evolucion histórica de su
-idioma. Sólo así el castellano podrá llegar a ponerse
-al lado del frances, del ingles i del aleman como len-
-gua de cultura en su grado mas alto. Sólo en este
-sentido el latin enseña a escribir las lenguas roman-
-ces. El peligro no está en los jenios poéticos que ig-
-noran el latin, pero sí, sienten en su alma la fuerza
-natural del lenguaje nacional, sino que está en los
-falsos profetas, los conocedores a medias, que quie-
-ren enmendarle la plana a la lengua patria (1).
----
-(1) La palabra enmendar es quizás el ejemplo más grotesco de esa
-acción de los falsos profetas. Viene del latín e (ex) i menda (falta,
-defecto, error); emendare significa «sacar la falta». Los pseudosabios
-que recomendaron pronunciar inmenso por lo que se escribía en imi-
-tacion del latin immenso i se pronunciaba en castellano antiguo imen-
-so (como palabra tradicional debería haber dado emeso), cayeron en
-la trampa i recomendaron la escritura i la pronunciación enmendar;
+```markdown
+298 
+MEMORIAS CIENTÍFICAS 
+I LITERARIAS 
+sólo venir cuando los que se creen con el derecho de 
+gobernar la lengua; quieren imponerle sus caprichos 
+como «reglas de la gramática». Ahora, como es inne- 
+gable que el escritor, el literato, el poeta, contribu- 
+yen constantemente a formar el lenguaje, a amoldar 
+el idioma a los progresos del espíritu humano, que 
+tambien vienen desde arriba, pues salen de las cabe- 
+zas de los sabios, de los filósofos, de los que dirijen 
+los movimientos sociales i tambien las empresas in- 
+dustriales i comerciales: como es innegable que las 
+lenguas romances en esta evolucion 
+no pueden sus- 
+traerse a la influencia de su lengua madre, por esto 
+creo que es necesario que las clases que por su talento 
+1 su trabajo orijinal dirijen a la nacion, estudien el 
+latin, para comprender la evolucion histórica de su 
+idioma. Sólo así el castellano podrá llegar a ponerse 
+al lado del frances, del ingles 1 del aleman como len- 
+gua de cultura en su grado mas alto. Sólo en este 
+sentido el latin enseña a escribir las lenguas roman- 
+ces. Kl peligro no está en los jenios poéticos que i2- 
+noran el latin, pero sí, sienten en su alma la fuerza. 
+natural del lenguaje nacional, sino que está en los 
+falsos profetas, los conocedores a medias, que quie- 
+ren enmendarle la plana a la lengua patria (1). 
+(1) La palabra enmendar es quizás el ejemplo más grotesco de esa 
+- 
+acción de los falsos profetas. Viene del latín e (ex) 1 menda (falta, 
+defecto, error); emendare significa «sacar la falta». Los pseudosabios 
+que recomendaron pronunciar ¿mmenso por lo que se escribía en imi- 
+tacion del latín ¿menso 1 se pronunciaba en castellano antiguo imen- 
+so (como palabra tradicional debería haber dado emeso), cayeron en 
+la trampa i recomendaron la escritura i la pronunciación enmendar, 
 pues «enmendaron» la lengua, le pusieron una falta.
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other substantial visual elements on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was found on this page.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page, including the header, main body, and footnote, has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page. The page primarily consists of text."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 299

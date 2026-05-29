@@ -1,0 +1,112 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6d1b69ef54e7-P0445-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450.codex.md
+converted_sha256: 6d1b69ef54e79dfcc244fdf9097573bf4b357db377106af64926acc6b7d58f2c
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450/manifest.json
+page_start: 445
+page_end: 445
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450/manifest.json`
+- Source page: 445
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450/page-images/page-0445.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+séance
+du
+22 juillet 1929
+I
+PROVISOIRE
+CONFÉRENCE
+DIPLOMATIQUE
+DEUXIÈME COMMISSION
+Code des prisonniers de guerre.
+HUITIÈME SÉANCE.
+Mardi 23 juillet 1929, à 15 h.
+Présidence de S. E. M. Harald Scavenius.
+Préambule.
+M. Werner (C. I. C. R.), rapporteur :
+En
+ce qui concerne ce préambule, il n'y a qu'une observation à présenter, à savoir que
+le projet qui vous a été soumis par le Comité international de la Croix-Rouge a été, considéra¬
+blement simplifié dans le texte qui vous est actuellement soumis.
+D'autre part
+vous remarquerez que, dans le deuxième alinéa de
+ce préambule, il est
+dit
+« en particulier la Convention concernant les lois et coutumes de la guerre et le Règlement
+qui y est annexé ».
+Adopté.
+TITRE I.
+Dispositions générales.
+Article premier.
+M. Werner (C. I. C. R.), rapporteur :
+Dans la séance du 4 juillet, votre commission avait décidé de maintenir l'idée d'une réfé¬
+rence expresse aux articles 1,
+2 et 3 du Règlement de la Haye
+en
+ce qui concerne les pri¬
+sonniers participant à une guerre sur terre. Mais de plusieurs côtés et en particulier de la part
+de la délégation italienne et de la délégation roumaine, appuyée par d'autres délégations et
+par M. le président de la Conférence Dinichert, l'avis a été émis que les dispositions de notre
+Convention
+devaient
+être applicables à d'autres catégories de
+personnes, c'est-à-dire
+aux
+personnes appartenant aux forces armées des parties belligérantes, forces armées maritimes
+ou aériennes ; d'où la rédaction du paragraphe 2 de l'article ier qui tient compte de ce vœu
+généralement exprimé. La rédaction de ce numéro 2 a été assez difficile. Plusieurs délégués
+auraient voulu aller même plus loin et ne pas s'arrêter à cette expression de personnes appar¬
+tenant
+aux forces armées des parties belligérantes. Il a paru cependant plus prudent, plus
+sage, de ne pas aller au-delà de cette notion.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 446

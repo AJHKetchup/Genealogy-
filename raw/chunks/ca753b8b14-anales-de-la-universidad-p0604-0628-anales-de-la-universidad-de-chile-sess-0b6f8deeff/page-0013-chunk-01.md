@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-bdc0fb7cf181-P0013-01
+chunk_id: CHUNK-5951a6a80dbd-P0013-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628.codex.md
-converted_sha256: bdc0fb7cf181e6e2a88312d8e4ac04a0fd907bd401516cf4af6727932803ca6f
+converted_sha256: 5951a6a80dbda5a0c141d16b89d33f836ad0e670f7421e35cf160955834c97c4
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json
@@ -67,3 +67,5 @@ All visible text on the page has been transcribed.
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "This page contains no images or other substantial visual content."}
 ```
+
+# Page 617

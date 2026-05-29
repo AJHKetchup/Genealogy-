@@ -1,0 +1,176 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6423bbfd7bea-P0093-01
+source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100.codex.md
+converted_sha256: 6423bbfd7beac08a885c87e964ecaa0cb39f0df92dbf190826a831683da45756
+source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
+source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
+source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json
+page_start: 93
+page_end: 93
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json`
+- Source page: 93
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/page-images/page-0093.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+éteiner Szobel, Alejandró 
+Steinsapir Dunowicz, Mendel 
+Stevens Bassaletti, Walterio 
+Stevenson Ríoseco, Carlos 
+Stockebrand Iglesias, Sergio 
+Stockmeyer Valenzuela, Edgardo 
+Strauszer Fautl, Tomás 
+Stromilli Cartivelli, Virginia 
+Strozzi Vera, Luis A. 
+Strube París, Eduardo 
+Suárez Drobeck, José 
+Suárez González, Juan 
+Suárez Guglielmini, Héctor 
+Suárez Herreros, Eugenio 
+Suárez Ordóñez, Emilio 
+Suazo Figueroa, Luis 
+Suazo Lagos, Manuel 
+Sudy Castro, Emilio 
+Sudzuki Hili, Gladys 
+Sunkel Weil, Walter 
+Sunnah Dgemin, Elias 
+Swett Claro, Carlos 
+Sylvester Rasch, Eduardo 
+Symmes Madariaga, Charles H. 
+Symon Ojeda, José 
+Symon Torres, Fernando 
+Szpirman Tuchszneider, Leonardo 
+Míraflores 249 
+Santiagó 
+Los Acantos 1534 
+Santiago 
+Caupolicán 242 
+Concepción 
+El Cerro 0144 
+Santiago 
+Santa María s/n 
+Cuneo 
+Victoria 2676 
+Valparaíso 
+Chacabuco 1005 
+Concepción 
+Hospital 
+La Serena 
+Tocornal 269 
+Santiago 
+Caupolicán 150 
+Angol 
+Avda. El Cerro 0131 
+Santiago 
+Arturo Prat 427 
+Temuco 
+Lautaro 659 
+Concepción 
+Santa Lucía 302 
+Santiago 
+Penco 260 
+Penco 
+Almagro 190 
+Los Angeles 
+Hospital 
+Chillán 
+Alam. B. O'Higgins 2889, Santiago 
+Depto. 411 
+2.a Avenida 1281 
+Santiago 
+Profesor Porter 23 
+Santiago 
+Avda. Lyon 2696 
+Santiago 
+Salvador Donoso 1461 
+Valparaíso 
+Monjitas 298 
+Santiago 
+Ordóñez 355 
+Maipú 
+Compañía 2552 
+Santiago 
+Compañía 2550 
+Santiago 
+B. Villalobos 1133 С 
+Santiago 
+T 
+Taboada Liewald, Erwin 
+Placer 1324 
+Santiago 
+Taboada Liewald, Hernán 
+Manuel Montt 1759 
+Santiago 
+Taboada Liewald, Jaime 
+Janequeo 225 
+Concepción 
+Taborga Mandiola, Alfredo 
+Montenegro 972 
+Santiago 
+Taborga Mandiola, Nicolás 
+Los Españoles 2610 
+Santiago 
+Tag Espina, Carlos Fernando 
+Avda. Lyon 127 
+Santiago 
+Tagle Sánchez, Hernán 
+Gorbea 1861 
+Santiago 
+Tala Japaz, Jorge 
+Gran Avenida 6085 
+Santiago 
+Talesnick Dulitzky, Jaime 
+Hamburgo 1838 
+Santiago 
+Taima García, Raúl 
+Avda. Suecia 2619 
+Santiago 
+96 —
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 94

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-e132849e6c9c-P0005-01
+chunk_id: CHUNK-db0076422337-P0005-01
 source_converted: raw/converted/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25.codex.md
-converted_sha256: e132849e6c9cce6b1fe7ecc5312c95aa4526675764c051859c19d700d5e7b48b
+converted_sha256: db0076422337ff0b6d76d7102f917e01df385974e44839401b75820bc38363df
 source: raw/sources/R3578-50-5569-5569-Jacket4.pdf
 source_sha256: d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781
 source_manifest: raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25/manifest.json
@@ -12,81 +12,93 @@ part: 1
 ---
 
 ## Page Metadata
-Page 5
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket4.pdf`
+- Source SHA-256: `d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781`
+- Conversion manifest: `raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25/manifest.json`
+- Source page: 5
+- Page image: `raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25/page-images/page-0005.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a chapter title, a main section title, and four articles, each with multiple paragraphs of text. A purple ink stamp is present in the upper right corner. A page number is centered at the bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
+
+```markdown
+*
 CHAPITRE PREMIER.
-
-DES BLESSÉS ET DES MALADES
-
-ARTICLE PREMIER.
-
-Les militaires et les autres personnes officiellement attachées aux armées qui seront
-blessés ou malades devront être respectés et protégés en toutes circonstances; ils seront traités
-avec humanité et soignés, sans distinction de nationalité, par le belligérant qui les aura en
+DES BLESSES ET DES MALADES
+Article
+premier.
+Les militaires
+et les
+autres personnes officiellement attachees aux armees qui seront
+blesses ou malades devront etre respectes et proteges en toutes circonstances; ils seront traites
+avec humanite et soignes, sans distinction de nationality, par le belligerant qui les aura en
 son pouvoir.
-
-Toutefois, le belligérant, obligé d'abandonner des blessés ou des malades à son adversaire
-laissera avec eux, autant que les exigences militaires le permettront, une partie de son
-personnel et de son matériel sanitaires pour contribuer à les soigner.
-
-ARTICLE 2.
-
-Sous réserve des soins à leur fournir en vertu de l'article précédent, les blessés et les ma-
-lades d'une armée tombés au pouvoir de l'autre belligérant seront prisonniers de guerre et
-les règles générales du droit des gens concernant les prisonniers leur seront applicables.
-
-Cependant, les belligérants resteront libres de stipuler, en faveur des prisonniers blessés
-ou malades et au delà des obligations existantes, telles clauses qu'ils jugeront utiles.
-
-ARTICLE 3.
-
-Après chaque combat, l'occupant du champ de bataille prendra des mesures pour re-
-chercher les blessés et les morts et pour les protéger contre le pillage et les mauvais traitements.
-
+Toutefois, le belligerant, oblige d’abandonner des blesses ou des malades a son adversaire
+laissera
+avec
+eux, autant
+que les exigences militaires le permettront, une partie de son
+personnel et de son materiel sanitaires pour contribuer a les soigner.
+Article
+2.
+Sous reserve des soins a leur fournir en vertu de Particle precedent, les blesses et les ma¬
+lades d’une
+armee tombes au pouvoir de l’autre belligerant seront prisonniers de guerre et
+les regies generates du droit des gens concernant les prisonniers leur seront applicables.
+Cependant, les belligerants resteront libres de stipuler, en faveur des prisonniers blesses
+ou malades et
+au dela des obligations existantes, telles clauses qu’ils jugeront utiles.
+Article
+3.
+Apres chaque combat, l’occupant du champ de bataille prendra des mesures pour re-
+chercher les blesses et les morts et pour les proteger contre le pillage et les mauvais traitements.
 Toutes les fois que les circonstances le permettront, un armistice local ou une interruption
-de feu seront convenus pour permettre l'enlèvement des blessés restés entre les lignes.
-
-ARTICLE 4.
-
-Les belligérants se feront connaître réciproquement, dans le plus bref délai possible,
-les noms des blessés, des malades et des morts recueillis ou découverts, ainsi que tous les
-éléments propres à les identifier.
-
-Ils établiront et se transmettront les actes de décès.
-
-— 9 —
+de feu seront convenus pour permettre l’enlevement des blesses restes entre les lignes.
+Article 4.
+Les belligerants
+se feront connaitre reciproquement, dans le plus bref delai possible,
+les
+noms des blesses, des malades et des morts recueillis ou decouverts, ainsi que tous les
+elements propres a les identifier.
+Ils etabliront et
+se transmettront les actes de deces.
+1
+```
 
 ## Images, Captions, And Visual Notes
-A purple ink stamp is present in the upper right corner of the page. The stamp reads "ACTION COPY" at the top, followed by "RECEIVED IN REGISTRY" and the date "14-AUG-1928".
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate. All text and the visual stamp have been captured.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "region_1",
-      "kind": "stamp",
-      "bbox_pct": [69.0, 10.0, 80.0, 20.0],
-      "caption_literal": "ACTION\nCOPY\nRECEIVED IN\nREGISTRY\n14-AUG-1928",
-      "caption_type": "source-caption",
-      "identity_basis": null,
-      "source_context": "A purple ink stamp in the upper right corner of the page.",
-      "confidence": 0.95,
-      "suggested_filename": "stamp_action_copy_received_in_registry_14_aug_1928.png",
-      "inline_anchor": null
-    }
-  ]
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 6

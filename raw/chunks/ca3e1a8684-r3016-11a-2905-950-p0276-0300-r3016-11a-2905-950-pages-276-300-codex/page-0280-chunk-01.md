@@ -1,0 +1,123 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-305f4464c4f5-P0280-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300.codex.md
+converted_sha256: 305f4464c4f5cadc35fe390100fed8d3a1baa11222c6155d9e35bb0a6d2f2ab0
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300/manifest.json
+page_start: 280
+page_end: 280
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300/manifest.json`
+- Source page: 280
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300/page-images/page-0280.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+t
+^
+*>
+Le recrutement des infirmières actuellement ne se fait
+plus aussi facilement que pendant la guerre. La fondation
+Antoine-Marie Depage créera entr'autres une école modèle
+d'Infirmières, à l'hôpital universitaire de Bruxelles.
+Les
+cours pour infirmières bénévoles ont été organisés
+par la Croix-Bouge roumaine dès l'année 1907. Interrom¬
+pus pendant plusieurs années et à diverses reprises, ils
+ont été repris cette année à Bucarest et dans plusieurs
+autres villes.
+Les
+cours théoriques sont donnés par
+des médecins
+militaires, et c'est également dans les hôpitaux militaires
+que les infirmières bénévoles s'exercent à la pratique hospi¬
+talière.
+Pour les infirmières professionnelles, il existe plusieurs
+écoles tant à Bucarest que dans les principales villes de
+province.
+L'éducation du personnel sanitaire en Turquie date de
+l'année 1908. Les premiers cours organisés à cet effet ont
+eu lieu en 1909. Le personnel ainsi formé a rendu de grands
+services pendant la guerre balkanique.
+Pendant la guerre mondiale, des cours organisés à cet
+effet ont fourni à l'armée plus de 10,000 infirmiers.
+Il
+existe
+à
+Constantinople,
+depuis
+1911,
+une
+école
+spéciale
+dépendant
+du
+ministère
+de l'Hygiène
+et
+de
+l'Assistance sociale, qui procure à l'assistance sanitaire
+de petits employés sanitaires. Une autre école semblable
+vient d'être créée à Sivas (Anatolie centrale).
+Le Croissant-Bouge turc a formé des centaines d'infir¬
+mières volontaires par les cours pratiques qu'il a organisés
+en 1911. Ces cours, réorganisés en 1927, sont fréquentés
+surtout par la classe intellectuelle.
+En outre, le Croissant-Bouge d'accord avec la Faculté
+de médecine, a créé en 1925 une école professionnelle d'infir¬
+mières
+en relation avec trois grands hôpitaux. La durée
+des études est de deux années. Les diplômées de cette école
+sont tenues de servir cinq ans au moins. L'école compte
+actuellement 52 élèves.
+—
+16
+—
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 281

@@ -1888,149 +1888,167 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 77
+
 ## Page Metadata
-Page number: 77
-Source document page number: 80
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/manifest.json`
+- Source page: 77
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/page-images/page-0077.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page presents a directory in a three-column format. The first column lists names, the second lists addresses, and the third lists cities. The entries are grouped alphabetically by the first letter of the surname, with large capital letters (Q and R) acting as section dividers. The page number "80 —" is centered at the bottom.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-Pugh Cook, Alfred
-Pulgar Arriagada, Darío
-Pulgar Melgarejo, Pedro
-Pulido Alfonso, Arturo
-Pulido Aroca, Luis
-Pulido Cabrera, José Luis
-Pulido Illanes, David
-Pulido Restrepo, Rubén
-Pumarino Fuentes, Héctor
-Pumarino Fuentes, René
-Purto Yarcho, Bernardo
-
-Q
-
-Quappe Palacios, Gabriela
-Quappe Palacios, Oscar
-Quesney Besa, Pedro P.
-Quesney Langlois, Francisco
-Quezada Romero, Carmela
-Quijada Cerda, Osvaldo
-Quijada Escobar, Arturo
-Quilodrán Vera, Miguel
-Quintana Aylwin, Humberto
-Quintana Aylwin, Juan. J.
-Quintana Mansilla, Bernardo U.
-Quintana Mayorga, Atilio
-Quintana Villar, Carlos R.
-Quintero Lobo, Francisco
-Quinteros Tricot, Guillermo
-Quiñones Torres, Renato
-Quiroga Campos, José Carlos
-Quiroga Campos, Voltaire
-Quiroga Fuentealba, José
-Quiróz Hoces, Augusto
-Quiróz Ravello, Ramón L.
-Quiróz Weber, Ernesto
-
-R
-
-Raab Royer, Eugenio
-Rabah Fárach, Alejandro
-Rabdil Lhoumaud, Alejandro
-
-80 — Dr. Marín s/n
-Hospital
-Orella 1
-Porto Fino 4338
-Avda. Lyon 1925
-Darío Urzúa 1699
-Avda. Los Leones 1088
-Libertad 1114
-Freire 677
-Plaza Justicia 45, Of. 607
-Hospital
-
-Vicuña Mackenna 797
-Vial 470
-Hospital
-California 2462
-Huneeus 70
-Monjitas 421
-Barros Arana 1093
-Blas 999
-1 Norte 966
-Arturo Prat 2737
-San Martín 167
-Avda. Providencia 153
-Buéras 142, Depto. 11
-Domingo Bondi 934
-Pob. Ferroviaria 403
-El Cairo 745
-O'Higgins 476, Of. 201
-Manuel Verbal 1336
-Siglo XX 198 C
-Melinka 2896
-Santa Rosa 1015
-Valdés 136
-
-Almirante Montt 485,
-Depto. 13
-A. Pinto 710
-Dr. Torres Boonen 520 Coquimbo
-Iquique
-Iquique
+```markdown
+Pugh Cook, Alfred 
+Pulgar Arriagada, Darío 
+Pulgar Melgarejo, Pedro 
+Pulido Alfonso, Arturo 
+Pulido Aroca, Luis 
+Pulido Cabrera, José Luis 
+Pulido Illanes, David 
+Pulido Restrepo, Rubén 
+Pumarino Fuentes, Héctor 
+Pumarino Fuentes, René 
+Purto Yarcho, Bernardo 
+Dr. Marín s/n 
+Coquimbo 
+Hospital 
+Iquique 
+Orella 1 
+Iquique 
+Porto Fino 4338 
+Santiago 
+Avda. Lyon 1925 
+Santiago 
+Darío Urzúa 1699 
+Santiago 
+Avda. Los Leones 1088 
+Santiago 
+Libertad 1114 
+Chillán 
+Freire 677 
+Valparaíso 
+Plaza Justicia 45, Of. 607 Valparaíso 
+Hospital 
+Melipilla 
+Q 
+Quappe Palacios, Gabriela 
+Vicuña Mackenna 797 
+Temuco 
+Quappe Palacios, Oscar 
+Vial 470 
+Puerto Montt 
+Quesney Besa, Pedro P. 
+Hospital 
+Sewell 
+Quesney Langlois, Francisco 
+California 2462 
+Santiago 
+Quezada Romero, Carmela 
+Huneeus 70 
+Valparaíso 
+Quijada Cerda, Osvaldo 
+Monjitas 421 
+Santiago 
+Quijada Escobar, Arturo 
+Barros Arana 1093 
+Concepción 
+Quilodrán Vera, Miguel 
+Blas 999 
+Valparaíso 
+Quintana Aylwin, Humberto 
+1 Norte 966 
+Talca 
+Quintana Aylwin, Juan. J. 
+Arturo Prat 2737 
+San Javier 
+Quintana Mansilla, Bernardo U. 
+San Martín 167 
+Puerto Montt 
+Quintana Mayorga, Atilio 
+Avda. Providencia 153 
+Santiago 
+Quintana Villar, Carlos R. 
+Bueras 142, Depto. 11 
+Santiago 
+Quintero Lobo, Francisco 
+Domingo Bondi 934 
+Santiago 
+Quinteros Tricot, Guillermo 
+Pob. Ferroviaria 403 
+Linares 
+Quiñones Torres, Renato 
+El Cairo 745 
+Santiago 
+Quiroga Campos, José Carlos 
+O'Higgins 476, Of. 201 
+Concepción 
+Quiroga Campos, Voltaire 
+Manuel Verbal 1336 
+Antofagasta 
+Quiroga Fuentealba, José 
+Siglo XX 198 С 
+Santiago 
+Quiróz Hoces, Augusto 
+Melinka 2896 
+Santiago 
+Quiróz Ravello, Ramón L. 
+Santa Rosa 1015 
+Santiago 
+Quiróz Weber, Ernesto 
+Valdés 136 
+Valparaíso 
+80 — 
+R 
+Raab Royer, Eugenio 
+Rabah Fárach, Alejandro 
+Rabdil Lhoumaud, Alejandro 
+Almirante Montt 485, 
+Santiago 
+Depto. 13 
+A. Pinto 710 
+Concepción 
+Dr. Torres Boonen 520 
 Santiago
-Santiago
-Santiago
-Santiago
-Chillán
-Valparaíso
-Valparaíso
-Melipilla
-
-Temuco
-Puerto Montt
-Sewell
-Santiago
-Valparaíso
-Santiago
-Concepción
-Valparaíso
-Talca
-San Javier
-Puerto Montt
-Santiago
-Santiago
-Santiago
-Linares
-Santiago
-Concepción
-Antofagasta
-Santiago
-Santiago
-Santiago
-Valparaíso
-
-Santiago
-Concepción
-Santiago
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 78
 

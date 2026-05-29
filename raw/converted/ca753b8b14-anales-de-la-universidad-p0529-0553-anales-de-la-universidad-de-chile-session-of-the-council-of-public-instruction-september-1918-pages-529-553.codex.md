@@ -599,69 +599,97 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 
+# Page 537
+
 ## Page Metadata
-Page number: 537
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/manifest.json`
+- Source page: 537
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/page-images/page-0537.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains two distinct communications, likely letters or official notes, presented sequentially. Each communication includes a date, a salutation, a body of text, and a signature. The first communication is longer and occupies the top half of the page, while the second is shorter and is located in the bottom half. A header with "SESION DE 27 DE MAYO DE 1918" and a page number "145" is at the top.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-SESION DE 27 DE MAYO DE 1918 145
-Santiago, 15 de Mayo de 1918.
-
-Señor Rector:
-
-He tenido la honra de recibir la atenta nota de Ud. de fecha 13
-del presente mes, en la cual, al trascribirme el decreto que acepta
-mi renuncia del cargo de profesor, se ha servido Ud. espresarme
-el pesar con que el personal universitario se ha impuesto de mi
-alejamiento de la enseñanza.
-Mucho agradezco a mis jefes i colegas del profesorado la mani-
-festacion de simpatía que Ud. se ha dignado tributarme en su
-nombre i quedo mui especialmente reconocido a Ud por los be-
-névolos conceptos con que me ha honrado al juzgar mi actuacion
-en las aulas.
-Estas espresiones a la vez bue me enaltecen inmerecidamente,
-mitigan el profundo sentimiento con que me veo obligado a poner
-término a una tarea que si bien materialmente penosa, era la mas
-grata de mi vida; porque la enseñanza i esto lo sabe Ud. tam-
-bien como yo, procura satisfacciones que el espíritu difícilmente
-encuentra en otras ocupaciones mas fáciles i lucrativas.
-Puede, pues, Ud. estar seguro de que en mi retiro no miraré
-con indiferencia cuanto se relacione con el progreso de la Univer-
-sidad, institucion a cuyo personal docente he pertenecido durante
-treinta años i a que vincularé siempre mis mejores recuerdos.
-
-(Firmado).—MIGUEL L. VALDES.
-
-N.º 30. Cauquénes, 24 de Mayo de 1918.
-
-Señor Rector:
-
-Con esta misma fecha he remitido al señor Intendente de la
-Provincia para el señor Ministro de Instruccion Pública la siguien-
-te nota:
-«Tengo el honor de elevar ante US. la renuncia que hace de su
-empleo el profesor de Ciencias Físicas i Naturales del Liceo a mi
-cargo, don Cárlos Stuardo O. i me permito proponer a US. en su
-reemplazo, con veintiuna horas semanales de clases, al profesor de
-Estado don Pedro A. Segura Martínez».
-
+```markdown
+DE” 
+SESION DE 27 DE MAYO DE 1918 
+145 
+Santiago, 15 de Mayo de 1918. 
+Señor Rector: 
+He tenido la honra de recibir la atenta nota de Ud. de fecha 153 
+del presente mes, en la cual, al trascribirme el decreto que acepta 
+mi renuncia del cargo de profesor, se ha servido Ud. espresarme 
+el pesar con que el personal universitario se ha impuesto de mi 
+alejamiento de la enseñanza. 
+Mucho agradezco a mis jefes 1 colegas del profesorado la mani- 
+festacion de simpatía que Ud. 
+se ha dignado tributarme en su 
+nombre i quedo mui especialmente reconocido a Ud por los be- 
+névolos conceptos con que me ha honrado al juzgar mi actuacion 
+en las aulas. 
+Estas espresiones a ,la vez bue me enaltecen inmerecidamente, 
+mitigan el profundo sentimiento con que me veo obligado a poner 
+término a una tarea que si bien materialmente penosa, era la mas 
+grata de mi vida; porque la enseñanza i esto lo sabe Ud. tam- 
+bien como yo, procura satisfacciones que el espíritu difícilmente 
+encuentra en otras ocupaciones mas fáciles 1 lucrativas. 
+Puede, pues, Ud. estar seguro de que en mi retiro 
+no miraré 
+con indiferencia cuanto se relacione con el progreso de la Univer- 
+sidad, institucion a cuyo personal docente he pertenecido durante 
+treinta años1 a que vincularé siempre mis mejores recuerdos. 
+(Firmado).—MIGUEL L. VALDES. 
+No 30. 
+Cauquénes, 24 de Mayo de 1918, 
+Señor Rector: 
+Con esta misma fecha he remitido al señor Intendente de la 
+Provincia para el señor Ministro de Instruccion Pública la siguien- 
+te nota: 
+E 
+«Tengo el honor de elevar ante US. la renuncia que hace de su 
+empleo el profesor de Ciencias Físicas 1 Naturales del Liceo a mi 
+cargo, don Cárlos Stuardo O. 1 me permito proponer a US. en su 
+reemplazo, con veintiuna horas semanales de clases, al profesor de 
+Estado don Pedro A. Segura Martínez». 
 (Firmado).—A. VIVERO.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and layout elements on the page have been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 146
@@ -727,69 +755,101 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 ```
 
+# Page 539
+
 ## Page Metadata
-Page number: 539
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/manifest.json`
+- Source page: 539
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/page-images/page-0539.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. At the top, there's a header with the session date and a page number. The main content includes two distinct letters or reports, each with a signature. The first letter details requirements for a position and is signed by A. Diez. The second, longer letter, addressed to "Señor Rector," discusses difficulties in filling teaching positions and proposes a solution, signed by B. Wolnitzky. A page footer is present at the bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-SESION DE 27 DE MAYO DE 1918 147
 
-siguientes: 1.º Haber recibido un título universitario con anterio-
-ridad a la creacion del Instituto Pedagójico; 2.º Contar con mas
-de veinte años de servicio en un Liceo fiscal; 3.º Haber escrito al-
-guna obra relacionada con la enseñanza secundaria.
-Si estos tres requisitos le parecieren suficientes para suplir la
-carencia del diploma legal, le quedaria mui sinceramente agrade-
-cido, si tuviera a bien propiciar mi insinuacion ante sus honora-
-bles colegas del Consejo de Instruccion Pública.
-Con sentimientos de la mayor consideracion, queda a sus ór-
-denes.
-
-(Firmado).—A. DIEZ.
-
-N.º 44. Iquique, 20 de Mayo de 1918.
-
-Señor Rector:
-
-No encontré ninguna persona medianamente aceptable para
-servir 6 horas semanales de clase de frances en el 4.º i 5.º años de
-humanidades despues de haber sido colocados avisos en la prensa
-i de varias jestiones personales del que suscribe.
-Por consiguiente, aquella asignatura quedará acéfala hasta que
-se encuentre una persona idónea para servirla ya sea en propie-
-dad, como lo orden óel Honorable Consejo de Instruccion Pública,
-o interinamente.
-A pesar de haber permanecido avisos por espacio de un mes en
-la prensa sobre la vacante en la asignatura de Filosofía con 2 ho-
-ras semanales de clases en el 5.º año de humanidades, no se pre-
-sentó nadie para servirla.
-El distinguido abogado don Antonio Viera Gallo, cuyo hijo es
-alumno del 4.º año de humanidades, se ofreció espontáneamente
-para servir dicha asignatura pero sin sueldo, *ad honorem*.
-Teniendo presente que de un momento a otro puede presentar-
-se un profesor de Estado para servir las clases de Castellano, 19
-horas semanales, junto con las de Filosofía, el suscrito estima mui
-conveniente aceptar los servicios del señor Viera Gallo sin nom-
-bramiento del caso.
-Dios guarde a Ud.
-
-(Firmado).—B. WOLNITZKY.
-
-ANALES ACTAS.—MAYO.—JUNIO.—11
+```markdown
+SESION DE 27 DE MAYO DE 1918 
+147 
+siguientes: 1. Haber recibido un título universitario con anterio- 
+ridad a la creacion del Instituto Pedagójico; 2. Contar con mas 
+de veinte años de servicio en un Liceo fiscal; 3.2 Haber escrito al- 
+guna obra relacionada con la enseñanza secundaria. 
+Si estos tres requisitos le parecieren suficientes para suplir la 
+carencia del diploma legal, le quedaria mui sinceramente agrade- 
+cido, si tuviera a bien propiciar mi insinuación ante sus honora- 
+bles colegas del Consejo de Instruccion Pública. 
+Con sentimientos de la mayor consideracion, queda a sus ór- 
+denes- 
+(Firmado).—A. Diez. 
+N. 44. 
+Iquique, 20 de Mayo de 1918. 
+Señor Rector: 
+No encontré ninguna persona medianamente aceptable para 
+servir 6 horas semanales de clase de frances en el 4.2 15. años de 
+humanidades despues de haber sido colocados avisos en la prensa 
+1 de varias jestiones personales del que suscribe. 
+Por consiguiente, aquella asignatura quedará acéfala hasta que 
+se encuentre una persona idónea para servirla ya sea en propie- 
+dad, como lo orden óel Honorable Consejo de Instruccion Pública, 
+o interinamente. 
+' 
+A pesar de haber permanecido avisos por espacio de un mes en 
+la prensa sobre la vacante en la asignatura de Filosofía con 2 ho- 
+ras semanales de clases en el 5.? año de humanidades, 
+no se pre- 
+sentó nadie para ser virla. 
+? 
+El distinguido abogado don Antonio Viera Gallo, 
+cuyo hijo es 
+alumno del 4.0 año de humanidades, 
+se ofreció espontáneamente 
+para servir dicha asignatura pero sin sueldo, ad honorem. 
+Teniendo presente que de un momento a otro puede presentar- 
+se un profesor de Estado para servir 
+las clases de Castellano, 19 
+horas semanales, junto con las de Filosofía, el suscrito estima mui 
+convemente aceptar los servicios del señor Viera Gallo sin nom- 
+bramiento del caso. 
+Dios guarde a Ud. 
+(Firmado).—B. WoLNITZKY. 
+ANALES ACTAS.-MAYO.-JUNIO.—11
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 148
@@ -924,64 +984,95 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 542
+
 ## Page Metadata
-Page number: 542
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/manifest.json`
+- Source page: 542
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/page-images/page-0542.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page begins with a header containing the page number and publication title. Below this is a main block of text, followed by a signature line. A horizontal rule separates this section from the next, which starts with a date subheading. Another block of text follows, leading to a subheading for a list of names, which is presented as a bulleted list using a "»" character.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-150 BOLETIN DE INSTRUCCION PÚBLICA
 
-que en esto debe haber necesariamente algun error u omision,
-pues lo lójico es pensar que, si a este Liceo se le ha permitido cre-
-cer de año en año, hasta darle el 5.º en 1917, ha sido con el fin de
-que este Establecimiento llegue a funcionar con su curso de hu-
-manidades completo.
-La falta del 6.º año significa para nosotros sencillamente que
-nuestros hijos o pupilos deben cortar sus estudios, cuando están
-mas próximos a terminarlos, i despues de haber realizado una lar-
-ga serie de sacrificios. Creemos firmemente, señor Rector, que Ud.
-no habrá contribuido a que esta situacion se produzca, pues co-
-nocemos demasiado su larga i honrosa labor en pro de la juventud
-estudiosa i necesitada, como sabemos que fué Ud. el principal pa-
-trocinador de la creacion de este Liceo, que por lo tanto, le debe
-su existencia: i por esto mismo nos dirijimos a Ud.—casi con la
-seguridad de que nos atenderá—para rogarle encarecidamente se
-sirva ampararnos, patrocinando la peticion que por su interme-
-dio hacemos al Honorable Consejo de Instruccion de que soli-
-cite del señor Ministro de Instruccion la creacion del 6.º año en
-el Liceo de esta ciudad.
-
-VARIAS FIRMAS.
----
-Sesion de 3 de junio de 1918.
-
-Fué presidida por el señor Rector de la Universidad, don Do-
-mingo Amunátegui Solar; asistieron los señores consejeros, Amu-
-nátegui Solar don Gregorio, Bahamonde, Barros Borgoño, Concha
-Castillo, Espejo, Matte, Trucco i el señor Secretario Jeneral don
-Octavio Maira.
-Previas las formalidades reglamentarias i el juramento reque-
-rido el señor Rector confirió los siguientes títulos i grados:
-
-Licenciados en Leves i Ciencias Políticas:
-
-a don José Miguel Alzérreca del Villar
-» Osvaldo Fuenzalida Correa
-» Manuel González Enríquez
+```markdown
+150 
+BOLETIN DE INSTRUCCION PUBLICA 
+que en esto debe haber necesariamente algun error u omision, 
+pues lo lójico es pensar que, si a este Liceo se le ha permitido cre- 
+cer de año en año, hasta darle el 5.2 en 1917, ha sido con el fin de 
+que este Establecimiento llegue a funcionar con su curso de hu- 
+manidades completo. 
+La falta del 6. año significa para nosotros sencillamente que 
+nuestros hijos o pupilos deben cortar sus estudios, cuando están 
+mas próximos a terminarlos, 1 despues de haber realizado una lar- 
+ga serie de sacrificios. Creemos firmemente, señor Rector, que Ud. 
+no habrá contribuido a que esta situacion se produzca, pues co- 
+nocemos demasiado su larga 1 honrosa labor en pro de la juventud 
+estudiosa 
+i necesitada, como sabemos que fué Ud. el principal pa- 
+trocinador de la creacion de este Liceo, que por lo tanto, le debe 
+su existencia; 1 por esto mismo nos dirijimos a Ud.—casi con la 
+seguridad de que nos atenderá—para rogarle encarecidamente se 
+sirva ampararnos, patrocinando la peticion que por su interme- 
+dio hacemos al Honorable Consejo de Instruccion de que sol;- 
+cite del señor Ministro de Instruccion la creacion del 6. año en 
+el Liceo de esta ciudad. 
+VARIAS FIRMAS. 
+Sesion de 3 de junio de 1918. 
+Fué presidida por el señor Rector de la Universidad, don Do- 
+mingo Amunátegui Solar, asistieron los señores consejeros, AÁmu- 
+nátegui Solar don Gregorio, Bahamonde, Barros Borgoño, Concha 
+Castillo, Espejo, Matte, Trucco 1 el señor Secretario Jeneral don 
+Octavio Maira. 
+; 
+Previas las formalidades reglamentarias i el juramento reque- 
+rido el señor Rector confirió los siguientes títulos 1 grados: 
+Licenciados en Leves 1 Ciencias Políticas: 
+a don José Miguel Alzérreca del Villar 
+» 
+Osvaldo Fuenzalida Correa 
+; 
+» 
+Manuel González Enríquez
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. A short horizontal rule is present between the first main text block and the "Sesion de 3 de junio de 1918" subheading.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and structural elements on the page have been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page consists entirely of text and a decorative horizontal rule."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 151
@@ -1597,72 +1688,97 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantive visual content found."}
 
+# Page 552
+
 ## Page Metadata
-- Page number: 160
-- Source: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/manifest.json`
+- Source page: 552
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/page-images/page-0552.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page begins with a header containing the page number and publication title. Below this, there is a main text block structured as a series of points (a through e). This is followed by a concluding paragraph and a signature. A horizontal rule separates this content from the next section, which starts with a Roman numeral heading "VI", followed by a numbered item "N.º 264", a salutation "Señor Rector:", and a final paragraph of text.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-160 BOLETIN DE INSTRUCCION PÚBLICA
-
-dos que paso a esponer; a) Ser efectivo que en el Liceo de Niñas,
-de esta ciudad no funcionan cursos superiores de humanidades, i
-por lo tanto, estas alumnas, por las razones que esponen, no po-
-drán continuar sus estudios i serán para ellas ilusorias las dispo-
-siciones que permiten a la mujer dedicarse a cualquier profesion
-liberal».
-b) Aunque no hai secciones especiales para mantenerlas separa-
-das de los alumnos, se les podrá aceptar por ser un número redu-
-cido (las solicitantes son 4);
-c) Su calidad de oyentes, lo que daría a la concesion un carác-
-ter de estension secundaria, a que todos los liceos estan llamados;
-d) La no aceptacion podria dar márjen a diversas suposiciones,
-por supuesto algunas no favorables para el prestijio del Liceo,
-como si se temiera que las buenas normas del establecimiento en
-órden a la moralidad i disciplina de los educandos, se resintieran
-por la entrada en esta forma del elemento femenino, el cual por
-otra parte, al formular esta peticion, no hace sino ejercitar un
-derecho.
-e) Las garantías de seriedad i repeto de las solicitantes, certi-
-ficadas por la constancia que hai en el establecimiento en que
-han hecho sus estudios inferiores.
-
-Por estas razones estimo que es de justicia conceder a las so-
-licitantes el permiso para asistir al 5.º i 6.º años del Liceo a mi
-cargo.—Cauquenes, 13 de Mayo de 1918.
-
-(Firmado).—A. Vivero.
-—
-VI
-
-N.º 264.
-
-Señor Rector:
-
-Con relacion a su providencia de 7 de los corrientes i oido el
-Rector del Liceo, informo la peticion de las señoritas Elena Urru-
-tia, Esmeralda M. i María Arellano C. Elsa Cáceres A., quienes
-solicitan de esa Rectoría, permiso para asistir como oyentes al
-5.º i 6.º años de humanidades del Liceo de Hombres, porque el de
+```markdown
+160 
+BOLETIN DE INSTRUCCION PÚBLICA 
+dos que paso a esponer; a) Ser efectivo que en el Liceo de Niñas 
+de esta ciudad no funcionan cursos superiores de humanidades, i 
+por lo tanto, estas alumnas, por las razones que esponen, no po 
+drán continuar sus estudios 1 «serán para ellas ilusorias las dispo- 
+siciones que permitena la mujer dedicarse a cualquier profesion 
+liberal». 
+b) Aunque no hai secciones especiales para mantenerlas separa= 
+das de los alumnos, se les podrá aceptar por ser un número redu- 
+cido (las solicitantes son 4); 
+c) Su calidad de oyentes, lo que daría a la concesion 
+un carác- 
+ter de estension secundaria, a que todos los liceos estan llamados; 
+d) La no aceptacion podria dar márjen a diversas suposiciones, 
+por supuesto algunas no favorables para el prestijio del Liceo 
+como si se temiera que las buenas normas del establecimiento en 
+órden a la moralidad 1 disciplina delos educandos, se resintieran 
+por la entrada en esta forma del elemento femenino, el cual por 
+otra parte, al formular esta peticion, no hace sino ejerritar un 
+derecho. 
+e) Las garantías de seriedad 1 repeto de las solicitantes, certl- 
+ficadas por la constancia que hai en el establecimiento 
+en que, 
+han hecho sus estudios inferiores. 
+Por estas razones estimo que es de justicia conceder a las so-= 
+licitantes 
+el permiso para asistir al 5.2 1 6.2 años del Liceo a mi 
+cargo.—Cauquénes, 13 de Mayo de 1918. 
+3 
+(Firmado). 
+—A. Vivero. 
+vI 
+No 264. 
+Señor Rector: 
+Con relacion a su providencia de 7 de los corrientes 1 oido 
+Rector del Liceo, informo la peticion de las señoritas Elena Urru: 
+tia, Esmeralda M.i María Arellano C. Elsa Cáceres A., quienes: 
+solicitan de esa Rectoría, permiso para asistir como oyentes E 
+5.21 6.9 años de humanidades del Liceo de Hombres, porque el de 
 Niñas, es de segunda clase.
+```
 
 ## Images, Captions, And Visual Notes
-- A short horizontal rule appears on the page, separating the first main text block and signature from the subsequent "VI" section.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate for all visible text on the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 553
 

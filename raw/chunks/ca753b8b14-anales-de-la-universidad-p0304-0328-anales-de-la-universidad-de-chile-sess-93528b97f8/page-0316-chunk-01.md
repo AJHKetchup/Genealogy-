@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-07ab3960e6ad-P0316-01
+chunk_id: CHUNK-f46d8495d094-P0316-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328.codex.md
-converted_sha256: 07ab3960e6ad4117ce5ee033cc44d0b5c8cf2159085af2ed6b1f698db9850fe5
+converted_sha256: f46d8495d094408c27ec358d9e7947f6c61a222b6355a6f9a6c4d7a4a6d6a5bf
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json
@@ -64,3 +64,5 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 317

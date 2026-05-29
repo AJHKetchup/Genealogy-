@@ -1,0 +1,126 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-91562fc0e766-P0143-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0126-0150-r4749-11c-17499-5398-pages-126-150.codex.md
+converted_sha256: 91562fc0e7669c6782179c468f1fb5f6cdef3ca9f76dd0e8a8f3d252b07ccbe6
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0126-0150-r4749-11c-17499-5398-pages-126-150/manifest.json
+page_start: 143
+page_end: 143
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0126-0150-r4749-11c-17499-5398-pages-126-150/manifest.json`
+- Source page: 143
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0126-0150-r4749-11c-17499-5398-pages-126-150/page-images/page-0143.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+AHHEXE II.
+PATRONAGE HATIOKAL DES MIBEtmS.
+L'oeuvre intégrale d'éducation de l'enfance et
+de l'adolescence
+a pu être réalisée par le système des
+"maisons-foyers",
+Quand un enfant entre dans une ins¬
+titution, quelle
+que- soit la cause de son admission,
+et qu'il
+se distingue particulièrement par sa conduite
+et
+son Intelligence, le Patronage national lui fait
+suivre
+des
+cours techniques supérieurs, lui donnant les
+moyens d'obtenir une situation indépendante dans l'indus-
+tr%, le commerce ou l'économie du pays.
+Si l'enfant n'est
+<•*-' "
+..."
+'
+que tiédioere, le Patronage peut en faire un bon travailleur
+des champs
+ou de l'industrie urbaine connaissant
+son métier
+.
+v
+v.\
+éi'capable de s'adapter moralement à son milieu.
+Si, par
+feallieur, l'enfant manifeste des tendance* dangereuses, une
+inclination aux délits
+ou
+au vice rendant difficile
+son
+adaptation au système des foyers, il est Interné dans une
+section régie par le système des maisons
+de correction,
+afin d'assurer son éducation par des méthodes scientifiques
+de discipline rigoureuse.
+On pourrait dire,
+en résumé,
+que l'étude de la personnalité
+du mineur, faite à l'aide
+de fiches psycho-pédagogiques, ainsi que la connaissance
+intime
+que le directeur acquiert de chacun des enfants,
+permettent l'orientation de ces derniers
+en ce qui
+concer¬
+ne leur conduite, leurs capacités et leur adaptation au
+milieu social.
+Pour ce qui est
+des femmes, le Patronage possède
+une école, véritable centre de protection et d'éducation
+morale et professionnelle, qui,
+sous une direction atten¬
+tive, les rend aptes au travail dans l'agriculture, dans
+l'industrie
+ou leur enseigne une profession.
+Les principaux établissements dépendant du Patrona¬
+ge national des mineurs sont les suivants:
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 144

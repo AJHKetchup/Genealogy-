@@ -1,0 +1,138 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2abe03496d6d-P0121-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123.codex.md
+converted_sha256: 2abe03496d6d2204e6ab38ad7c7d2f72ebbdc4fe0750e618396e3bf9b1b5a9f8
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json
+page_start: 121
+page_end: 121
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json`
+- Source page: 121
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0121.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+— 118
+—
+El producto de la venta se pondra a disposicion del juez com¬
+petente para que ordene su entrega al Pisco, previa deduction
+de los gastos ocasionados.
+Clasificacion
+de
+las
+lineas
+en
+dos
+categorîas.
+Art. 119. — A
+los efectos
+de la explotaciôn técnica
+y
+co-
+mercial, las lineas y ramales de los ferrocarriles serân clasifi-
+cados, de tiempo en tiempo, por la Direcciôn General de Ferro¬
+carriles en dos categorîas, considerândose los puertos eomo es-
+taciones pertenecientes
+a lineas de la primera eategorîa. Taies
+elasifieaciones serân sometidas previamente a la aprobaciôn del
+Poder Ejecutivo.
+En las lineas y ramales de segunda eategorîa, las exigences
+de
+orden técnico, relativas
+a la
+construcciôn
+y explotacioi,
+como
+asimismo
+las
+modalidades
+y
+condiciones
+del
+servicio,
+serân reducidas
+a
+un minimum compatible
+con la.seguridad,
+regularidad y eficacia del servicio y su régimen legal.
+Si la importancia creciente
+o decreeiente del trâfico lo es-
+giese, la Direcciôn
+General de Ferrocarriles y las
+empresas
+podrân
+promover la modificaciôn
+de las elasifieaciones
+esta-
+blecidas
+en virtud de lo dispuesto en este artîculo.
+Intercambio de material rodante.
+Art.
+120. — Las empresas deberân convenir entre ellas las
+condiciones
+a que
+se someterâ el intercambio del material ro¬
+dante sobre las lineas de igual trocha,
+a fin de que los trans¬
+portes en trâfico comun sean conducidos hasta su destino sin
+inconvenientes
+e interrupciones.
+Dichas condiciones no podrân en manera alguna afectar las
+necesidades propias de cada empresa y, si aumentos conside¬
+rables de trâfico
+en cualquier época del ano o el desarrollo i®'
+previsto de cualquier industria
+o comercio, hicieran necesario
+disponer del material sin demora, las empresas que lo remits"
+deberân exigir de las que lo reciban, una cantidad de vehîculos
+équivalente
+a la entregada por ellas.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 122

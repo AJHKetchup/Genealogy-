@@ -1,0 +1,177 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-fd063c2f866e-P0114-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0101-0125-r4749-11c-17499-5398-pages-101-125.codex.md
+converted_sha256: fd063c2f866e1a61170f1915bf407b764c822cb5bfa09b4192271443ab342e05
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0101-0125-r4749-11c-17499-5398-pages-101-125/manifest.json
+page_start: 114
+page_end: 114
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0101-0125-r4749-11c-17499-5398-pages-101-125/manifest.json`
+- Source page: 114
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0101-0125-r4749-11c-17499-5398-pages-101-125/page-images/page-0114.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-
+2
+-
+dra
+son action
+à
+toute la République; elle établira
+un plan
+général
+de protection
+de l'enfance
+en indiquant les loca¬
+lités
+où devront être
+créées les inrtitutions
+jugées néces¬
+saires pour le fonctionnement
+de
+ce plan. Il faudra
+que
+chaque
+groupe
+de population possède
+au moins
+un centre d'hy¬
+giène maternelle
+et infantile
+avec les
+services nécessaires.
+•>^
+De plus, la loi prévoit
+que la Direction
+de la Mater¬
+nité "et
+de l'Enfance créera aussitôt
+que possible
+dans la
+■' V\
+£apitaie" fédérale
+un Centre modèle d'Hygiène maternelle et
+v V'.
+y
+\
+>
+infantile,
+ainsi qu'une Ecole pratique
+de Puériculture
+>
+'V
+pour médecins, visiteuses d'hygiène,
+infirmières visiteuses
+de l'enfance,
+éleveuses et diététiciennes.
+La Direction
+de la Maternité et
+de l'Enfance exerce¬
+ra
+une
+surveillance
+sur toutes les institutions officielles
+et privées d'assistance et
+de protection
+de la maternité et
+de
+l'enfance qui fonctionnent
+dans la capitale
+rédérale,
+sur les territoires nationaux et
+dans
+toutes les provinces
+qui
+se prévaudront
+du bénécice
+de la loi 12.341.
+r
+Cependant, la Direction
+de la Maternité et
+de l'Enfance
+n'exercera
+pas
+de surveillance
+sur les institutionsyqui relè-
+vent
+de
+la Société
+de Bienfaisance/E^fonctionnftnt
+dans la
+Elle devra^de plus/pr^mer son concours aux institutions
+provinciales, municipales/et privées qui assistent
+et protè¬
+gent la mère et
+1* enfs&i d'une manière quelconque,
+à condition
+d'exercer
+une
+surveillance
+sur
+ces institutions.
+La Direction
+de la Maternité
+et
+de l'Enfance
+a le
+droit d'inspecter toutes les institutions
+ou établissements
+qui, d'un^façon directe
+ou indirecte, assistent, pro.-tègent,
+reçoiveht
+ou emploient
+des mineurs,
+et peut dénoncer
+à l'auto-
+rite
+compétente les irrégularités qu'elle
+constate. Elle possède
+c
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
