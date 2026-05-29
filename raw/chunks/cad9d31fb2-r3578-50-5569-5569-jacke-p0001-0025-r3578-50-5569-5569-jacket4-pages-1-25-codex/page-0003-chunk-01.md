@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-e481c0b9b58b-P0003-01
+chunk_id: CHUNK-670231f87a83-P0003-01
 source_converted: raw/converted/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25.codex.md
-converted_sha256: e481c0b9b58bded7c96ae41057a8ad7220ae8f04feb6fe5749a4de5ec30f45f0
+converted_sha256: 670231f87a83d650076cbff81365a4098138ac680adb7aa0b82314177d634633
 source: raw/sources/R3578-50-5569-5569-Jacket4.pdf
 source_sha256: d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781
 source_manifest: raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25/manifest.json
@@ -12,47 +12,73 @@ part: 1
 ---
 
 ## Page Metadata
-This page appears to be a document related to the "Convention de Genève" (Geneva Convention), specifically a proposed amendment from the "Royaume des Serbes Croates et Slovenes" (Kingdom of Serbs, Croats, and Slovenes). It contains typed text with a handwritten addition and a faint stamp.
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket4.pdf`
+- Source SHA-256: `d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781`
+- Conversion manifest: `raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25/manifest.json`
+- Source page: 3
+- Page image: `raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25/page-images/page-0003.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains typed text, centrally aligned, presenting a proposed amendment to an article of the Geneva Convention. There is a handwritten number next to the article reference. A faint, multi-line stamp is visible in the top right corner. A hole punch is present in the top left corner.
 
-The reading order is:
-1.  The main title "CONVENTION DE GENEVE".
-2.  The country name "Royaume des SERBES CROATES ET SLOVENES".
-3.  The proposition statement, including the handwritten article number.
-4.  The sub-heading "Alinéa 5 bis :".
-5.  The quoted text of the amendment.
-6.  The faint stamp in the top right corner.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-CONVENTION DE GENEVE
-----------
-Royaume des SERBES CROATES ET SLOVENES
-----------
-Proposition d'amendement à l'art. 5. 17 bis
-
-Alinéa 5 bis :
-" Le personnel et l'appareil aérien demeurent au bé-
-néfice des dispositions de la présente convention s'ils ne sont pas
-employés à commettre des actes nuisibles à l'ennemi. " (Art. 7)
-
-[Faint stamp, top right corner:]
-ACTION
-COPIE
-REÇU
-14-XII
+```markdown
+CONVENTION
+DE GENEVE
+Royaume des
+SERBES
+CROATES ET SLOVENES
+Proposition d'amendement
+a I'art. •?>■*,
+Alinea 5 bis
+:
+"
+Le personnel et l'appareil aerien demeurent au be¬
+nefice
+des dispositions
+de la presente convention s’ils
+ne sont pas
+employes
+a commettre
+des actes nuisibles
+a l'ennemi.
+"
+(Art* 7)
+```
 
 ## Images, Captions, And Visual Notes
-- A faint, multi-line stamp is present in the top right corner of the page. The text is partially legible and appears to read "ACTION", "COPIE", "REÇU", and "14-XII".
-- A single hole punch is visible in the top left corner of the page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-- The stamp in the top right corner is faint, but the transcription provided is the most plausible reading. The line below "COPIE" is very faint but appears to be "REÇU". The date "14-XII" is also faint but discernible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and significant visual elements (stamp, hole punch) have been transcribed or noted.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, headshots, group photographs, labeled photographs, substantial maps, large illustrations, or source-meaningful diagrams/charts are present. The stamp is transcribed in the literal transcription section."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 4

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-692cf456e23e-P0007-01
+chunk_id: CHUNK-17058d5aac8e-P0007-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25.codex.md
-converted_sha256: 692cf456e23e5fe566f0eea412bd94196432e825e3a996a23961f8f5f415965a
+converted_sha256: 17058d5aac8e67fd34cabe5015b017d31d6384b270acd7a0ad4366160a6bdc65
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json
@@ -12,76 +12,64 @@ part: 1
 ---
 
 ## Page Metadata
-- Page number: 7
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json`
+- Source page: 7
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/page-images/page-0007.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a formal letter or note, likely from a Senator, printed on letterhead with an embossed seal. The content includes a handwritten signature, typed body text, and a typed recipient address. A small word is handwritten above the typed line.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-<img src="raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/visual_regions/page-0007-visual-region-1.png" alt="Embossed seal of the Argentine coat of arms" width="150"/>
-Senador de la Nación
-
-<img src="raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/visual_regions/page-0007-visual-region-2.png" alt="Handwritten signature: Alfredo Yalaen" width="150"/>
-saluda con su consideración más distinguida al Sr. Julian Nogueira, Conse-
-jero de la Secretaría de la Sociedad de las Naciones, le agradece efusi-
-vamente el envío del documento, <span style="text-decoration: underline;">que</span> leerá con vivo interés.
-
-Sr. Julian Nogueira
-Consejero de la Secretaría
+```markdown
+t_y g\à&&^—~>
+pnTîid a
+con
+su consxderaciou inks dietliquida
+Nogueira,Conse
+jero de ±a Secretaria de la Sociedad de las Naciones, le agradece efusi
+9/b-t.
+vaniente el envio del document.o,-«i u<swmL leerâ con vivo interes.
+3r.Julian Nogmeira
+Consejero de la Secretaria
 de la Sociedad de las Naciones
-<span style="text-decoration: underline;">Ginebra</span>
+Ginebra
+```
 
 ## Images, Captions, And Visual Notes
-1.  **Embossed Seal**: An embossed seal, likely the coat of arms of Argentina, is present in the top-left corner of the page. It features a rising sun, a Phrygian cap on a pike, and two clasped hands, all within an oval laurel wreath.
-2.  **Handwritten Signature**: A handwritten signature appears below the "Senador de la Nación" line. It reads "Alfredo Yalaen".
-3.  **Handwritten Insertion**: A small handwritten word "que" is inserted above the typed line "el envío del documento, leerá con vivo interés."
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible readings.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and meaningful visual elements on the page have been transcribed or described.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "page-0007-visual-region-1",
-      "kind": "seal",
-      "bbox_pct": [
-        10.0,
-        10.0,
-        19.0,
-        15.0
-      ],
-      "caption_literal": "Embossed seal of the Argentine coat of arms",
-      "caption_type": "converter-description",
-      "identity_basis": "visual-elements",
-      "source_context": "Top-left corner of the letterhead.",
-      "confidence": 0.9,
-      "suggested_filename": "embossed_seal_argentina_coat_of_arms"
-    },
-    {
-      "region_id": "page-0007-visual-region-2",
-      "kind": "signature",
-      "bbox_pct": [
-        17.0,
-        23.0,
-        60.0,
-        30.0
-      ],
-      "caption_literal": "Handwritten signature: Alfredo Yalaen",
-      "caption_type": "converter-description",
-      "identity_basis": "transcribed",
-      "source_context": "Signature below 'Senador de la Nación'.",
-      "confidence": 0.95,
-      "suggested_filename": "signature_alfredo_yalaen"
-    }
-  ]
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 8

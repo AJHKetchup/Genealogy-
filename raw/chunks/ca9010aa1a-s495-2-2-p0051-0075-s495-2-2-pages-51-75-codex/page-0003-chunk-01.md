@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-6e4290802247-P0003-01
+chunk_id: CHUNK-c96f5ae1510a-P0003-01
 source_converted: raw/converted/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75.codex.md
-converted_sha256: 6e4290802247f055ed9043a14223d10e1b0a49dd16ae06f390d5fd430ae30b84
+converted_sha256: c96f5ae1510ae01df65a83f14a81cba887f2a7860b8476362997778b947f4361
 source: raw/sources/S495-2-2.pdf
 source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
 source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json
@@ -214,3 +214,5 @@ The entire page, including the complex collage of newspaper clippings and the ma
   "no_visual_regions_reason": null
 }
 ```
+
+# Page 54

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-3cf41b725bb8-P0003-01
+chunk_id: CHUNK-3f694a4a5ff3-P0003-01
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md
-converted_sha256: 3cf41b725bb87464bdcd888447368a0918c119277710d93211a8b2e951528be2
+converted_sha256: 3f694a4a5ff3c30b8bb631ceea98f040b6b7c4c7c826e9863b9fc12e1275f8dc
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json
@@ -80,3 +80,5 @@ The entire page has been transcribed. All text, including pre-printed fields, ha
   "no_visual_regions_reason": "The page contains only textual data in a form/table format. There are no photographs, illustrations, maps, or other significant visual elements that would warrant cropping as standalone assets."
 }
 ```
+
+# Page 4

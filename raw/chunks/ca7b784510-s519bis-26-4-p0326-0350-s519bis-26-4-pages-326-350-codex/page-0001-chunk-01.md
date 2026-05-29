@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f907aa9d1630-P0001-01
+chunk_id: CHUNK-16d8c4aedd75-P0001-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350.codex.md
-converted_sha256: f907aa9d1630d09496bc96d685f684e78ec70cdffb0d2d0afbc36f2e5194c35a
+converted_sha256: 16d8c4aedd7509a81b469e46a29b4fae6a252a69e5aa68b519b34dc2c63a789b
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350/manifest.json
@@ -62,3 +62,5 @@ All visible text on the page has been transcribed.
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. Minor marks like hole punches or small pen lines are not considered substantial for cropping."}
 ```
+
+# Page 327

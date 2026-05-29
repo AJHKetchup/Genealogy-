@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-26d247b022ff-P0145-01
+chunk_id: CHUNK-cd2763985e38-P0145-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163.codex.md
-converted_sha256: 26d247b022ff0e47407aaf3cedf90788354267b3ffc074c72d8a74879a54251f
+converted_sha256: cd2763985e38abaf78402ff95fd5b01f0e3da58eb7a90c434c7eb494c8b189a3
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163/manifest.json
@@ -38,13 +38,13 @@ Cardemil,
 
 Suplentes:
 
-- Santiago Escuti. 《
+- Santiago Escuti.
 
-- Alfonso Chazalon. 《
+- Alfonso Chazalon.
 
-- \_ Dativo del  Canto 《
+- \_ Dativo del  Canto
 
-- Tomás Fleming. 《
+- Tomás Fleming.
 
 ## Inglés
 
@@ -54,13 +54,13 @@ Suplentes:
 
 Tomás Fleming.
 
-- Santiago Escut, 《
+- Santiago Escut,
 
-- Modesto Triat. 《
+- Modesto Triat.
 
-- Dativo del  Canto. 《
+- Dativo del  Canto.
 
-- Alberto Cardemil. 》
+- Alberto Cardemil.
 
 ## Matemáticas
 
@@ -70,13 +70,13 @@ Propietarios:
 
 Alberto Cardemil.
 
-- Dativo del  Canto. 《
+- Dativo del  Canto.
 
-- Luis Tiron. 《
+- Luis Tiron.
 
-- Carlos A. Valenzuela. 》
+- Carlos A. Valenzuela.
 
-- Tomás Fleming. 《
+- Tomás Fleming.
 
 ## Ciencias Naturales
 
@@ -86,13 +86,13 @@ Suplentes:
 
 Francisco Reveco.
 
-- Santiago Escutt. 》
+- Santiago Escutt.
 
-- Alfonso Chazalon. 《
+- Alfonso Chazalon.
 
-- Luis V.  Mardones. 《
+- Luis V.  Mardones.
 
-- Benjamín González. 《
+- Benjamín González.
 
 ## Física ¡ Química
 
@@ -100,9 +100,9 @@ Propietarios:
 
 Francisco Reveco.
 
-- Luis V.:  Mardones. 《
+- Luis V.:  Mardones.
 
-- Modesto Triat. 》
+- Modesto Triat.
 
 a
 ```

@@ -373,13 +373,13 @@ Suplentes:
 
 don Horacio Arce.
 
-- Bernardo Yánez. 《
+- Bernardo Yánez.
 
-- Guillermo Gerwin. 》
+- Guillermo Gerwin.
 
-- Ienacio Rojas. 《
+- Ienacio Rojas.
 
-- Miguel Anglas. 《
+- Miguel Anglas.
 
 ## Alemán
 
@@ -387,9 +387,9 @@ Propietarios
 
 :  don Federico Floto.
 
-- Rómulo Pena. 》
+- Rómulo Pena.
 
-- Pedio Verth. 《
+- Pedio Verth.
 
 ## Francés
 
@@ -399,13 +399,13 @@ Suplentes:
 
 Damián Meléndez.
 
-- Carlos Godo1. 《
+- Carlos Godo1.
 
-- Pedro Veitl. 》
+- Pedro Veitl.
 
-- Delfín Ichazo. 》
+- Delfín Ichazo.
 
-- Alfredo Rojas. 《
+- Alfredo Rojas.
 
 ## Ciencias Físicas  ¡ Naturales
 
@@ -415,11 +415,11 @@ Suplentes:
 
 Luis  Sierra.
 
-- Delfín Ichazo. 《
+- Delfín Ichazo.
 
-- Pablo Maquard. 》
+- Pablo Maquard.
 
-- Crisólogo Céspedes. 》
+- Crisólogo Céspedes.
 
 - : Manuel Castillo.
 
@@ -948,7 +948,7 @@ Florinda C.  de  Duarte.
 
 Alvaro Garín.
 
-- Gustavo Melcherts. 》
+- Gustavo Melcherts.
 
 ## Física ¡ Química
 
@@ -960,11 +960,11 @@ Suplentes:
 
 - » Roberto Nordenfiycht.
 
-- Gustavo Díaz V. 》
+- Gustavo Díaz V.
 
 - Domingo Fuentes.
 
-- Carlos Altaniirano. 》
+- Carlos Altaniirano.
 
 ## Inglés
 
@@ -972,7 +972,7 @@ Propietarios: don Carlos Altamirano.
 
 Suplentes:
 
-- Ernesto Boettger. 》
+- Ernesto Boettger.
 
 Ana Muller.
 

@@ -161,13 +161,13 @@ Cardemil,
 
 Suplentes:
 
-- Santiago Escuti. 《
+- Santiago Escuti.
 
-- Alfonso Chazalon. 《
+- Alfonso Chazalon.
 
-- \_ Dativo del  Canto 《
+- \_ Dativo del  Canto
 
-- Tomás Fleming. 《
+- Tomás Fleming.
 
 ## Inglés
 
@@ -177,13 +177,13 @@ Suplentes:
 
 Tomás Fleming.
 
-- Santiago Escut, 《
+- Santiago Escut,
 
-- Modesto Triat. 《
+- Modesto Triat.
 
-- Dativo del  Canto. 《
+- Dativo del  Canto.
 
-- Alberto Cardemil. 》
+- Alberto Cardemil.
 
 ## Matemáticas
 
@@ -193,13 +193,13 @@ Propietarios:
 
 Alberto Cardemil.
 
-- Dativo del  Canto. 《
+- Dativo del  Canto.
 
-- Luis Tiron. 《
+- Luis Tiron.
 
-- Carlos A. Valenzuela. 》
+- Carlos A. Valenzuela.
 
-- Tomás Fleming. 《
+- Tomás Fleming.
 
 ## Ciencias Naturales
 
@@ -209,13 +209,13 @@ Suplentes:
 
 Francisco Reveco.
 
-- Santiago Escutt. 》
+- Santiago Escutt.
 
-- Alfonso Chazalon. 《
+- Alfonso Chazalon.
 
-- Luis V.  Mardones. 《
+- Luis V.  Mardones.
 
-- Benjamín González. 《
+- Benjamín González.
 
 ## Física ¡ Química
 
@@ -223,9 +223,9 @@ Propietarios:
 
 Francisco Reveco.
 
-- Luis V.:  Mardones. 《
+- Luis V.:  Mardones.
 
-- Modesto Triat. 》
+- Modesto Triat.
 
 a
 ```
@@ -535,13 +535,13 @@ Suplentes:
 
 don Julio  Arriagada.
 
-- Rafael  Cavada. 《
+- Rafael  Cavada.
 
-- Jorje Nitsche. 》
+- Jorje Nitsche.
 
-- Abelardo Viancos. 《
+- Abelardo Viancos.
 
-- Ramón Infanta. 《
+- Ramón Infanta.
 
 ## Watemáticas
 
@@ -551,13 +551,13 @@ Suplentes:
 
 don Vicente Echegaray.
 
-- Eusebio Montes. 《
+- Eusebio Montes.
 
-- Ernesto Salinas. 《
+- Ernesto Salinas.
 
 - Ramón Infanta.
 
-- Manuel Marchant. 《
+- Manuel Marchant.
 
 ## Historia ¡ Jeografía
 
@@ -567,13 +567,13 @@ Suplentes:
 
 Vicente Suau..
 
-- Roberto Humeres. 《
+- Roberto Humeres.
 
-- Jorje Nitsche. 》
+- Jorje Nitsche.
 
-- Ramón Infanta. 《
+- Ramón Infanta.
 
-- Alejandro Cabrera. 》
+- Alejandro Cabrera.
 
 ## Ciencias Naturales
 
@@ -583,13 +583,13 @@ Suplentes:
 
 don Roberto Humeres.
 
-- Félix Fuenzalida. 《
+- Félix Fuenzalida.
 
-- Ernesto Salinas. - 》
+- Ernesto Salinas. -
 
-- Alejandro Cabrera. 》
+- Alejandro Cabrera.
 
-- Eusebio Montes. 》
+- Eusebio Montes.
 ```
 
 ## Images, Captions, And Visual Notes
@@ -1373,8 +1373,8 @@ Don Clodomiro Gutiérrez.
 
 Enrique  Sepúlveda.
 
-- Romeo  Salinas. 《
-- Miguel A.  Espinoza. 》
+- Romeo  Salinas.
+- Miguel A.  Espinoza.
 - Galvarino Valenzuela.
 
 ## RENGO
@@ -1385,7 +1385,7 @@ LICEO SANTA CECILIA
 
 Carlos Morales.
 
-- Manuel Morales. 《
+- Manuel Morales.
 
 Jenoveva Urzúa de  Garretón.
 
@@ -1930,13 +1930,13 @@ Suplentes:
 
 :  don José  Melo Burgos.
 
-- Enrique Vidal. 《
+- Enrique Vidal.
 
-- Teófilo Azpilicueta. 《
+- Teófilo Azpilicueta.
 
-- Mario Vergara de  la  F. 《
+- Mario Vergara de  la  F.
 
-- Carlos Navarro. 《
+- Carlos Navarro.
 
 ## Francés
 
@@ -1946,13 +1946,13 @@ Suplentes:
 
 Jenaro Navarro.
 
-- Luis Miño. 《
+- Luis Miño.
 
-- Adolfo Abaurrea. 《
+- Adolfo Abaurrea.
 
-- Emérito Botello. 《
+- Emérito Botello.
 
-- Carlos Correa. 《
+- Carlos Correa.
 
 ## Inglés
 
@@ -1970,14 +1970,6 @@ Benedicto A. León,
 
 Gustavo Lagos.
 
-- 《
-
-》
-
-《
-
-《
-
 ## Ciencias Físicas ¡ Naturales
 
 Propietarios:
@@ -1986,13 +1978,13 @@ Suplentes:
 
 don Gustavo Lagos.
 
-- José  Melo Burgos. 《
+- José  Melo Burgos.
 
-- Teófilo Azpilicueta. 《
+- Teófilo Azpilicueta.
 
-- Ramón Vidal. 《
+- Ramón Vidal.
 
-- Carlos Correa. 《
+- Carlos Correa.
 
 ## Física 1 Química
 
@@ -2000,9 +1992,9 @@ Propietarios:
 
 Gustavo Lagos.
 
-- José  Melo B. 》
+- José  Melo B.
 
-- Adolfo Abaurrea. 》
+- Adolfo Abaurrea.
 ```
 
 ## Images, Captions, And Visual Notes
@@ -2072,11 +2064,11 @@ Suplentes:
 
 - » Jenaro Navarro.
 
-- Julic Burotto. 》
+- Julic Burotto.
 
 - Martín B.  Ballesteros.
 
-- Mario Vergara. 》
+- Mario Vergara.
 
 ## TALCA
 
@@ -2312,7 +2304,7 @@ doña Sofía Núñez.
 
 Darío Castro.
 
-- Ramón Pérez. 《
+- Ramón Pérez.
 
 ## LICEO  BLANCO ENCALADA
 
@@ -2326,11 +2318,11 @@ Suplentes:
 
 - » Darío Castro.
 
-- Ismael Espina. 《
+- Ismael Espina.
 
 - José  B.  Severino.
 
-- Lorenzo Espinosa. 《
+- Lorenzo Espinosa.
 
 ## Lójica
 
@@ -2342,11 +2334,11 @@ Suplentes:
 
 - » Marcos Tabuenca.
 
-- David C.  Briceño. 《
+- David C.  Briceño.
 
-- Luis Francés. 《
+- Luis Francés.
 
-- Baudilio Lagos. 《
+- Baudilio Lagos.
 
 ## Inglés
 
@@ -2354,9 +2346,9 @@ Propietarios:
 
 don Jorje Le-Bert.
 
-- Darío Castro. 》
+- Darío Castro.
 
-- Gustavo Godard. 《
+- Gustavo Godard.
 ```
 
 ## Images, Captions, And Visual Notes

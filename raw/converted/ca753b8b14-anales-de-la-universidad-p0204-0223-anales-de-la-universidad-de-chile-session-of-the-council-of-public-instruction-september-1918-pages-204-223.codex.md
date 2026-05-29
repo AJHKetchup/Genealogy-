@@ -8,84 +8,91 @@
 - Conversion method: Codex local vision workbench
 - Extracted images: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/extracted-images`
 
+# Page 204
+
 ## Page Metadata
-- **Page number**: 490
-- **Source-provided page number**: 490
-- **Document title**: BOLETIN DE INSTRUCCION PÚBLICA
-- **Document language**: Spanish
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 204
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0204.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page is a single column of text. The reading order is from top to bottom.
 
-The page begins with a header containing the page number "490" on the left and the document title "BOLETIN DE INSTRUCCION PÚBLICA" on the right, separated by a horizontal line.
-
-Below the header, there are several sections of text, each with a centered heading. The sections are:
-1.  "Aritmética Final i Aljebra", followed by a list of three names.
-2.  "Francés", followed by a list of three names.
-3.  "Suplentes Jenerales", followed by a list of five names.
-
-After a short horizontal rule, a new major section begins:
-4.  "VICTORIA", which is a location.
-5.  Under "VICTORIA", there is a subheading "LICEO DE NIÑAS".
-6.  Under "LICEO DE NIÑAS", there is a subject heading "Castellano".
-7.  Under "Castellano", there are two lists: "Propietarios" (three names) and "Suplentes" (two names).
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```text
-490 BOLETIN DE INSTRUCCION PÚBLICA
----
 
-**Aritmética Final i Aljebra**
-
-Don Eduardo Peña.
-» Aurelio Letelier.
-» Fortunato Bertic.
-
-**Francés**
-
-Don Ernesto Torrealba.
-» Ramón Elzo.
-» Carlos Krier.
-
-*Suplentes Jenerales*
-
-Don Víctor Hernández.
-» Juan A. Durán.
-» Alejandro Nolf.
-» Rodolfo Vera.
-» Max. Newmann.
-
----
-
-VICTORIA
-
-LICEO DE NIÑAS
-
-**Castellano**
-
-Propietarios: don Juan A. Durán.
-» Víctor Hernández.
-doña Edelmira Olavarría.
-Suplentes: don Rodolfo Vera.
-» Rodolfo Poblete.
+```markdown
+490 
+BOLETIN DE INSTRUCCION PÚBLICA 
+Aritmética Final i Aljebra 
+Don Eduardo Peña. 
+» 
+Aurelio Letelier. 
+» 
+Fortunato Bertic. 
+Francés 
+Don Ernesto Torrealba. 
+» 
+Ramón Elzo. 
+» 
+Carlos Krier. 
+Suplentes Jenerales 
+Don Víctor Hernández. 
+» 
+Juan A. Durán. 
+» 
+Alejandro Nolf. 
+» 
+Rodolfo Vera. 
+» 
+Max. Newmann. 
+VICTORIA 
+LICEO DE NIÑAS 
+Castellano 
+Propietarios: don Juan A. Durán. 
+» 
+Víctor Hernández. 
+doña Edelmira Olavarría. 
+Suplentes: don Rodolfo Vera. 
+» 
+Rodolfo Poblete. 
+da
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images on this page. The page consists entirely of text. There are two horizontal rules used as separators.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-This page has been transcribed in its entirety.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text and simple decorative rules, with no images, illustrations, or other significant visual elements."
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 205
 
@@ -177,127 +184,198 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 206
+
 ## Page Metadata
-Page number: 492
-Running head: BOLETIN DE INSTRUCCION PÚBLICA
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 206
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0206.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, primarily a list of names categorized under different subjects for a "Liceo de Niñas" (Girls' High School) in "Lautaro". The content is structured with main headings, subheadings (subjects), and indented lists for "Propietarios" (Owners/Proprietors) and "Suplentes" (Substitutes).
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-492 BOLETIN DE INSTRUCCION PÚBLICA
----
-Suplentes: don Rodolfo Poblete.
-» Víctor Hernández.
-
----
-
-LAUTARO
-
-LICEO DE NIÑAS
-
-**Castellano**
-
-Propietarios: don Juan A. Durán.
-» Víctor Hernández.
-doña Carmen Rosa de Campos.
-Suplentes: don Rodolfo Vera Pinto.
-» J. Eduardo Peña.
-
-**Matemáticas**
-
-Propietarios: don J. Eduardo Peña.
-» Víctor Hernández.
-doña Celia Ulloa.
-Suplentes: don Alejandro Nolf.
-» Aurelio Letelier.
-
-**Francés**
-
-Propietarios: don Ernesto Torrealba.
-» Rodolfo Vera P.
-doña Celia Ulloa.
-Suplentes: don Ramón Elzo.
-» Juan A. Durán.
-
-**Inglés**
-
-Propietarios: don Jorje Mac-Ginty.
-» Ernesto Torrealba.
-doña Elena Mora Palacios.
+```markdown
+y 
+8 
+rio 
+499 
+BOLETIN DE INSTRUCCION PÚBLICA 
+Suplentes: don Rodolfo Poblete. 
+» 
+Propietarios: don 
+» 
+doña 
+Suplentes: don 
+» 
+Propietarios: don 
+» 
+doña 
+Suplentes: don 
+» 
+Propietarios: don 
+» 
+doña 
+Suplentes: don 
+» 
+Propietarios: don 
+» 
+doña 
+Víctor Hernández. 
+LAUTARO 
+LICEO DE NIÑAS 
+Castellano 
+Juan A. Durán. 
+Víctor Hernández. 
+Carmen Rosa de Campos. 
+Rodolfo Vera Pinto. 
+J. Eduardo Peña. 
+Matemáticas 
+J. Eduardo Peña. 
+Víctor Hernández. 
+Celia Ulloa. 
+Alejandro Nolf. 
+Aurelio Letelier. 
+Francés 
+Ernesto Torrealba. 
+Rodolfo Vera P. 
+Celia Ulloa. 
+Ramón Elzo. 
+Juan A. Durán. 
+Inglés 
+Jorje Mac-Ginty. 
+Ernesto Torrealba. 
+Elena Mora Palacios.
+```
 
 ## Images, Captions, And Visual Notes
-This page contains no images or captions. There are two horizontal rules, one below the running head and page number, and another shorter one below the first "Suplentes" list, acting as a separator.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was found on this page.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 207
 
 ## Page Metadata
-- Page number: 493
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 207
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0207.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, primarily consisting of lists of names under various headings. The content is structured with main headings for subjects ("Historia i Jeografía", "Ciencias Naturales") and locations ("VALDIVIA"), followed by sub-headings ("LICEO DE NIÑAS", "Castellano"). Within each section, names are listed under categories like "Propietarios" and "Suplentes". A horizontal line separates the page header from the main content, and another short line separates the "Suplentes Jenerales" list from the "VALDIVIA" section.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-SESION DE 14 DE OCTUBRE DE 1918 493
----
-Suplentes: don Marco Aurelio Letelier.
-» Juan A. Durán.
 
-**Historia i Jeografía**
-
-Propietarios: don Rodolfo Vera P.
-» J. Eduardo Peña.
-doña Hortensia de la Cruz.
-- Suplentes: » Elena Mora Palacios.
-don Víctor Hernández.
-
-**Ciencias Naturales**
-
-Propietarios: don Aurelio Letelier.
-» Luis A. Fernández.
-doña Hortensia de la Cruz.
-Suplentes: don Rodolfo Poblete.
-» Víctor Hernández.
-
-*Suplentes Jenerales para Temuco, Victoria i Lautaro*
-
-Don Max. Newmann.
-» Manuel Manquilef.
-» Felimer Riffo.
-» Alejandro Nolf.
-» Froilán Yáñez.
----
-
-**VALDIVIA**
-
-LICEO DE NIÑAS
-
-**Castellano**
-
-Propietarios: don Alamíro Avila.
-» Juan Ignacio Olavarría.
+```markdown
+" 
+SESION DE 14 DE OCTUBRE DE 1918 
+493 
+Suplentes: «don Marco Aurelio Letelier. 
+2» 
+Juan A. Durán. 
+Historia ¡ Jeografía 
+Propietarios: don Rodolto Vera P. 
+» 
+ J. Eduardo Peña. 
+doña Hortensia de la Cruz. 
+- Suplentes: 
+» 
+Elena Mora Palacios. 
+don Víctor Hernández. 
+Ciencias Naturales 
+Stars: don Aurelio Letóler 
+» 
+Luis A. Fernández. 
+doña Hortensia de la Cruz. 
+Suplentes: don Rodolfo Poblete. 
+z 
+» 
+Víctor Hernández. 
+Suplentes Jenerales para T emuco, Victoria 1 Lautaro 
+Don Max. Newmann. 
+» 
+Manuel Manquilef. 
+» 
+ Felimer Riffo. 
+» 
+Alejandro Nolf. 
+» 
+Froilán Yáñez. 
+VALDIVIA 
+LICEO DE NIÑAS 
+Castellano 
+Propietarios: don Alamiro Avila. 
+» 
+Juan Ignacio Olavarría. 
 doña Luz Iglesias.
+```
 
 ## Images, Captions, And Visual Notes
-- A short horizontal rule appears below the page header, separating it from the main content.
-- Another short horizontal rule appears after the list of "Suplentes Jenerales para Temuco, Victoria i Lautaro", acting as a separator before the "VALDIVIA" section.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily contains text and minor decorative lines."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 208
 
@@ -404,267 +482,395 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Page Metadata
-Page number: 209
-Original document language: Spanish
-Document type: Session minutes/report
-
-## Layout And Reading Order
-The page consists of a single column of text, primarily listing names under various categories related to educational subjects and an "Escuela Alemana" (German School). The content is structured with main headings, subheadings, and indented lists for "Propietarios" (Owners/Proprietors) and "Suplentes" (Substitutes). A horizontal rule separates the initial section from the "Escuela Alemana" section. The page number "495" is in the top right corner, and a session date "SESION DE 14 DE OCTUBRE DE 1918" is in the top left.
-
-## Literal Transcription
-SESION DE 14 DE OCTUBRE DE 1918 495
----
-doña Lastenia Bruni.
-Suplentes: don Juan Lara.
-» Luis A. González.
-
-**Historia i Jeografía**
-
-Propietarios: don Pedro A. Troncoso.
-» Antonio H. Córdova.
-doña María M. de Adriasola.
-Suplentes: don Héctor Alvarez.
-doña Elena Martinoli.
-
----
-
-**ESCUELA ALEMANA**
-
-**Castellano**
-
-Propietarios: don José Brahm.
-doña Luz Iglesias.
-don Pedro A. Troncoso.
-Suplentes: » Carlos Barrientos.
-» Juan J. Olavarría.
-
-**Alemán e Inglés**
-
-Propietarios: don Conrado Frundlich.
-doña Julia Cacciali.
-don Jacob Schefer.
-Suplentes: » Theoder Handwerk.
-» Paul Rückold.
-
-**Francés**
-
-Propietarios: don Víctor Capaccini.
-» Juan Frey.
-» Jacob Schefer.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page. The horizontal rules are decorative separators.
-
-## Uncertain Or Illegible
-None. All text is clear and legible.
-
-## Completeness Audit
-All visible text and structural elements on the page have been transcribed.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily contains text and minor decorative elements like horizontal rules."}
+# Page 209
 
 ## Page Metadata
-- Page number: 210
-- Source page number: 496
-- Publication: Anales de la Universidad de Chile
-- Source language: es
-- Source text type: Report
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 209
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0209.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page is a single column of text. The content is a continuation of a list of teachers for various subjects, followed by a new section for a different school, "LICEO ALEMAN DE LONCOCHE". The reading order is top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
+
 ```markdown
-496 BOLETIN DE INSTRUCCION PÚBLICA
------
-
-Suplentes: don Theoder Handwerk.
-» Conrado Frundlich.
-
-**Matemáticas i Física**
-
-Propietarios: don Luis Avendaño.
-» Agustín García B.
-» Juan Frey.
-Suplentes: » Juan Jara.
-» Paul Ruckold.
-
-**Ciencias Biológicas i Química**
-
-Propietarios: don Agustin García B.
-» Abraham Montealegre.
-» Juan Jara.
-Suplentes: » Aníbal González.
-» Héctor Alvarez.
-
-**Historia i Jeografía**
-
-Propietarios: don Pedro A. Troncoso.
-» Antonio H. Córdova.
-» Luis Oyarzún.
-Suplentes: » Luis A. González.
-» Héctor Alvarez.
-
------
-
-LICEO ALEMAN DE LONCOCHE
-
-**Castellano**
-
-Propietarios: don Pedro A. Troncoso.
-» Juan de Dios Barría.
-» El profesor del Liceo de Hombres.
+SESION DE 14 DE OCTUBRE DE 1918 
+doña 
+Suplentes: don 
+» 
+Propietarios: don 
+» 
+doña 
+Suplentes: don 
+doña 
+Propietarios: don 
+doña 
+don 
+Suplentes: 
+» 
+» 
+Propietarios: don 
+doña 
+don 
+Suplentes: 
+» 
+» 
+Propietarios: don 
+» 
+» 
+Lastenia Bruni. 
+Juan Lara. 
+Luis A. González. 
+Historia ¡ Jeogratfía 
+Pedro A. Troncoso. 
+Antonio H. Córdova. 
+María M. de Adriasola. 
+Héctor Alvarez. 
+Elena Martinoli. 
+2 
+ESCUELA ALEMANA 
+Castellano 
+José Brahm. 
+Luz Iglesias. 
+Pedro A. Troncoso. 
+Cárlos Barrientos. 
+Juan J. Olavarría. 
+Alemán e Inglés 
+(Conrado Frundlich. 
+Julia Cacciali. 
+Jacob Schefer. 
+Theoder Handwerk. 
+Paul Rúckold. 
+Francés 
+Víctor Capaccini. 
+Juan Frey. 
+Jacob Schefer. 
+495
 ```
 
 ## Images, Captions, And Visual Notes
-- A thin horizontal rule separates the header from the main body of text.
-- A short, dashed horizontal rule separates the list of teachers for the first school from the section for the "LICEO ALEMAN DE LONCOCHE".
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible parts of this page.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-This page has been transcribed in its entirety.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text and minor decorative rules, with no images, illustrations, or other significant visual elements."
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 210
 
 ## Page Metadata
 
-- **Page number**: 211
-- **Source-provided page number**: 497
-- **Document title**: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- **Document language**: Spanish
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 210
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0210.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page is a single column of printed text. The reading order is from top to bottom. The content is a continuation of a list from the previous page, followed by several sections organized by academic subject: "Matemáticas", "Francés", "Historia i Jeografía", and "Ciencias Naturales". Each section lists "Propietarios" (permanent members) and "Suplentes" (substitutes).
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```text
-SESION DE 14 DE OCTUBRE DE 1918 497
-____
-
-Suplentes: don Luis A. González.
-» Luis Oyarzún.
-
-**Matemáticas**
-
-Propietarios: don Luis A. González.
-» Agustín García.
-El profesor del ramo.
-Suplentes: » Juan de Dios Barría.
-» Luis Oyarzún.
-
-**Francés**
-
-Propietarios: don Juan de Dios Baría.
-» Andrés Bahamonde.
-El profesor del ramo
-Suplentes: don Luis A. González.
-» Luis A. Oyarzún.
-
-**Historia i Jeografía**
-
-Propietarios: don Héctor Alvarez.
-» Agustin García.
-El profesor del ramo.
-Suplentes: » Andrés Bahamonde.
-» Luis Oyarzún.
-
-**Ciencias Naturales**
-
-Propietarios: don Agustín García.
-» Héctor Alvarez.
-El profesor del ramo.
-Suplentes: » Luis A. González.
-» Juan de Dios Barría.
-
------
+```markdown
+496 
+a 
+BOLETIN -DE INSTRUCCION. PÚBLICA 
+Suplentes: don Theoder Handwerk. 
+Propietarios: 
+Suplentes: 
+Propietarios: 
+Suplentes: 
+» 
+Conrado Frundlich. 
+Matemáticas ¡ -Física 
+don Luis Avendaño. 
+» 
+» 
+» 
+» 
+Agustín García B. 
+Juan' Frey. 
+Juan Jara. 
+Paul Ruckold. 
+Ciencias Biolójicas i¡ Química 
+don Agustin García B.* 
+» 
+» 
+» 
+» 
+Abraham Montealegre. 
+Juan Jara. 
+Aníbal González. 
+Héctor Alvarez. 
+Historia ¡ Jeografía 
+Propietarios: don Pedro A. Troncoso. 
+Suplentes: 
+» 
+» 
+» 
+» 
+Antonio H. Córdova. 
+Luis Oyarzún. 
+Luis A. González. 
+Héctor Alvarez. 
+LICEO ALEMAN DE LONCOCHE 
+Castellano 
+Propietarios: don Pedro A. Troncoso. 
+» 
+» 
+El profesor del Liceo de Hombres. 
+Juan de Dios Barría. 
+AN
+GT 
+e
 ```
 
 ## Images, Captions, And Visual Notes
 
-There are no images, illustrations, or significant visual elements on this page. The page consists entirely of printed text.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this page.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-This page has been fully and accurately transcribed.
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Visual Region Manifest
-
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only standard printed text with no images, illustrations, or other significant visual elements."
-}
-```
+# Page 211
 
 ## Page Metadata
-- Page number: 212
-- Source publication year: 1918
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 211
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0211.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, primarily a list of names categorized under different subjects and institutions. A header with a page number and publication title is at the top. The content is structured with main headings (city, institution), subheadings (subjects), and then lists of names, some prefixed with "Don" or "Doña" and others with a quotation mark-like character `»` indicating continuation or similar status.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-498 BOLETIN DE INSTRUCCION PÚBLICA
-OSORNO
-LICEO DE NIÑAS
-**Castellano**
-Don Ernesto Merino.
-» Manuel Andrade.
-Doña Guadalupe Santelices.
-» Eudomilia Gallardo.
 
-**Matemáticas**
-Don Pedro Olivares.
-» Luis A. Bustos.
-Doña Guadalupe Santelices.
-» Emma Grandón.
-
-**Idiomas**
-Don Conrado Pflanz.
-» Bruno Riedel.
-Doña Elena Schurman.
-» Paulina Hinostroza de R.
-
-**Ciencias Naturales i Física**
-Don Abraham Gajardo.
-» Pedro Olivares.
-Doña Dalila Muñoz.
-» Emma Grandón.
-
-**Historia i Jeografía**
-Don Jorje Schwarzenberg.
-» Ernesto Merino.
-Doña Eudomilia Gallardo.
+```markdown
+a 
+SESION DE 14 DE OCTUBRE 
+DLE 1918 
+Suplentes: don Luis A. González. 
+» 
+Luis Oyarzún. 
+Matemáticas 
+Propietarios: don Luis A. González. 
+» 
+Agustín García. 
+El profesor del ramo. 
+Suplentes: 
+» 
+Juan de Dios Barría. 
+» 
+Luis Oyarzún. 
+Francés 
+Propietarios: 
+don Juan de Dios Baría. 
+» 
+Andrés Bahamonde. 
+; 
+El profesor del ramo 
+Suplentes: don Luís A. González. 
+» 
+Luis A. Oyarzún. 
+Historia ¡ Jeografía 
+Propietarios: don Héctor Alvarez. 
+| 
+» 
+Agustin García. 
+El profesor del ramo. 
+Suplentes: 
+.» 
+Andrés Bahamonde. 
+; 
+»_ Luis Oyarzún. 
+Giencias Naturales 
+Propietarios: don Agustín García. 
+» 
+Héctor Alvarez. 
+El profesor del ramo. 
+Suplentes: 
+» 
+Luis A. González. 
+» 
+Juan de Dios Barría. 
+497
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. All text is clear and legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text from the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 212
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 212
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0212.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+498 
+Don 
+» 
+Doña 
+» 
+Don 
+» 
+Doña 
+BOLETIN DE INSTRUCCION PÚBLICA 
+OSORNO 
+LICEO DE NIÑAS 
+Castellano 
+Ernesto Merino. 
+Manuel Andrade. 
+Guadalupe Santelices. 
+Eudomilia Gallardo. 
+Matemáticas 
+Pedro Olivares. 
+Luis A. Bustos. 
+Guadalupe Santelices. 
+Emma Grandón. 
+Idiomas 
+Conrado Pflanz. 
+Bruno Riedel. 
+Elena Schurman. 
+Paulina Hinostroza de R. 
+Ciencias Naturales ¡ Física 
+Abraham Gajardo. 
+Pedro Olivares. 
+Dalila Muñoz. 
+Emma Grandón. 
+Historia ¡ Jeografía 
+Jorje Schwarzenberg. 
+Ernesto Merino. 
+Eudomilia Gallardo,
 ```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 213
 
@@ -765,228 +971,304 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Page Metadata
-
-- **Page number**: 214
-- **Source language**: es
-- **Document title**: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- **Document type**: Periodical
-- **Publisher**: Universidad de Chile
-- **Publication date**: 1918
-- **Record type**: Roster
-- **Record theme**: Education
-
-## Layout And Reading Order
-
-The page is a single column of text. The content is organized into lists of names under subject headings. A new section for "LICEO ALEMAN" begins in the lower half of the page, also with subject headings and lists of names. The reading order is from top to bottom.
-
-## Literal Transcription
-
-500 BOLETIN DE INSTRUCCION PÚBLICA
-___
-
-**Ciencias Naturales**
-
-Don Abraham Gajardo.
-» Pedro Olivares.
-» Otto Urban.
-
-**Francés**
-
-Don Conrado Pflanz.
-» Manuel Andrade.
-Doña Isabel Lanestein.
-
-*Suplentes*
-
-Don Luis Oportus P.
-» Pedro Olivares.
-» Ernesto Merino.
-» Conrado Pflanz.
-» Luis A. Bustos.
-» Otto Urban.
-» Arturo Mutizábal.
-
-___
-
-LICEO ALEMAN
-
-**Castellano**
-
-Don Ernesto Merino.
-» Luis A. Bustos.
-» Alberto Moyano.
-
-**Matemáticas**
-
-Don Pedro Olivares.
-» Manuel Andrade.
-» Agustín Wurtscheid.
-
-## Images, Captions, And Visual Notes
-
-This page contains only text. There are no images, illustrations, or other visual elements.
-
-## Uncertain Or Illegible
-
-There are no uncertain or illegible portions of this page.
-
-## Completeness Audit
-
-This page has been transcribed in its entirety.
-
-## Visual Region Manifest
-
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page consists entirely of text and standard typographic elements with no significant visual content to crop."
-}
-```
+# Page 214
 
 ## Page Metadata
-- Task id: `source-prep:ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223:p0215`
+
 - Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
-- Page: 215
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 214
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0214.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page is a single column of text with a header at the top. The header contains the session date on the left ("SESION DE 14 DE OCTUBRE DE 1918") and the page number on the right ("501").
 
-The main body of the page consists of five distinct sections, each with a centered, bolded title followed by a list of names. The sections are:
-1.  `Historia i Jeografía`
-2.  `Ciencias Naturales`
-3.  `Francés`
-4.  `Alemán`
-5.  `Suplentes`
-
-Within each list, the first name is prefixed with "Don", and subsequent names are indented and prefixed with a right-pointing double angle quotation mark (`»`). The reading order is sequential from top to bottom.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-SESION DE 14 DE OCTUBRE DE 1918 501
 
-***
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&**Historia i Jeografía**
-
-Don Jorje Schwarzenberg.
-» Ernesto Merino.
-» Walterio Horsthemke.
-
-&nbsp;
-
-**Ciencias Naturales**
-
-Don Abraham Gajardo.
-» Pedro Olivares.
-» Walterio Horsthemke.
-
-&nbsp;
-
-**Francés**
-
-Don Conrado Pflanz.
-» Manuel Andrade.
-» José Hillbrand.
-
-&nbsp;
-
-**Alemán**
-
-Don Conrado Pflanz.
-» Bruno Riedel.
-» José Hillebrand.
-
-&nbsp;
-
-*Suplentes*
-
-Don Luis Oportus P.
-» Ernesto Merino.
-» Pedro Olivares.
-» Manuel Andrade.
-» Luis A. Bustos.
-» Alberto Moyano.
-» Agustín Wurtscheid.
-
-***
-
-## Images, Captions, And Visual Notes
-There are no images, illustrations, or other visual elements on this page. The content is entirely textual.
-
-## Uncertain Or Illegible
-All text on the page is clear and legible.
-
-## Completeness Audit
-This page has been fully and accurately transcribed.
-
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text in a standard layout. There are no images, illustrations, or other visual elements that would be useful as standalone assets."
-}
+```markdown
+Ciencias Naturales 
+a 
+y 
+Don Abraham Gajardo. 
+» 
+Pedro Olivares. 
+» 
+Otto” Urban. 
+Francés 
+Don Conrado Pflanz. 
+» 
+Manuel Andrade. 
+Doña Isabel Lanestein. 
+Suplentes 
+Don Luis Oportus P. 
+» 
+Pedro Olivares. 
+-» 
+Ernesto Merino. 
+».- Conrado Pflanz. 
+». 
+Luis A Bustos 
+» 
+Otto Urban. 
+Fs 
+> 
+» 
+Arturo Mutizábal. 
+: 
+LICEO ALEMAN 
+Castellano 
+Don Ernesto Merino. 
+; 
+: 
+8 
+» 
+Luis A. Bustos. 
+|
+-» 
+Alberto Moyano. 
+Matemáticas 
+00 
+Don Pedro Olivares. 
+z 
+8 
+» 
+Manuel Andrade. 
+, 
+» 
+Agustín Wurtscheid. 
+: 
+CN
 ```
 
-## Page Metadata
-- Page number: 216
-- Source publication year: 1918
-
-## Layout And Reading Order
-The page presents a single-column layout, listing staff (Propietarios and Suplente) for various subjects at the "Liceo de Niñas" in "Puerto Montt". The content is structured with subject headings in bold, followed by indented lists of names.
-
-## Literal Transcription
-502 BOLETIN DE INSTRUCCION PÚBLICA
-
-PUERTO MONTT
-
-LICEO DE NIÑAS
-
-**Castellano**
-
-Propietarios: don Pedro A. Bravo.
-» José M. García.
-doña Modesta Herrera (para el 1.º, 2.º i 3.º)
-» Leonila Aguila (para el 4.º).
-Suplente: don Saturnino Andrade.
-
-**Matemáticas**
-
-Propietarios: don Francisco Vivar.
-» Pedro A. Bravo.
-doña Corina Merino.
-Suplente: don Teófilo Bahamonde.
-
-**Ciencias Naturales**
-
-Propietarios: don Francisco Vivar.
-» Teófilo Bahamonde.
-doña Leonila Aguila.
-Suplente: don Juan A. Gallardo.
-
-**Alemán**
-
-Propietarios: don Emilio Winkler.
-doña Elsa Martin.
-» Amelia Schwarzlose.
-
-**Francés**
-
-Propietarios: don Víctor Lafittau.
-» Saturnino Andrade.
-doña Modesta Herrera.
-Suplente: don Francisco Vivar:
-
 ## Images, Captions, And Visual Notes
-This page contains no images or captions.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text and formatting from the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 215
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 215
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0215.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+SESION DE 14 DE OCTUBRE DE ]918 
+501 
+Historia ¡ Jeografía 
+Don Jorje Schwarzenberg. 
+» 
+Ernesto Merino. 
+» 
+ Walterio Horsthemke. 
+Ciencias Naturales 
+Don Abraham Gajardo. 
+» 
+Pedro Olivares. 
+» 
+ Walterio Horsthemke. 
+Francés 
+Don Conrado Pflanz. 
+» 
+Manuel Andrade. 
+» 
+José Hillbrand. 
+Alemán 
+Don Conrado Pflanz. 
+» 
+Bruno Riedel. 
+» 
+José Hillebrand. 
+> 
+Suplentes 
+Don Luis Oportus P. 
+» 
+Ernesto Merino. 
+» 
+Pedro Olivares. 
+» 
+Manuel Andrade. 
+» 
+Luis A. Bustos. 
+» 
+Alberto Moyano. 
+» 
+Agustín Wurtscheid.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 216
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 216
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0216.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+502 
+BOLETIN DE INSTRUCCION PÚBLICA 
+Propietarios: don 
+» 
+doña 
+» 
+Suplente: 
+don 
+Propietarios: don 
+» 
+doña 
+Suplente: 
+don 
+Propietarios: don 
+» 
+doña 
+Suplente: 
+don 
+Propietarios: don 
+doña 
+» 
+Propietarios: don 
+» 
+doña 
+Suplente: 
+don 
+PUERTO MONTT 
+LICEO DE NIÑAS 
+Castellano 
+Pedro A. Bravo. 
+José M. García. 
+Modesta Herrera (para el 1.9, 2.0 1 3.9) 
+Leonila Aguila (para,jel 4.9). 
+Saturnino Andrade. 
+Matemáticas 
+Francisco Vivar. 
+Pedro A. Bravo. 
+Corina Merino. 
+Teófilo Bahamonde. 
+Ciencias Naturales 
+Francisco Vivar. 
+Teófilo Bahamonde. 
+Leonila Aguila. 
+Juan A. Gallardo. 
+Alemán 
+Emilio Winkler. 
+Elsa Martin. 
+Amelia Schwarzlose. 
+Francés 
+Víctor Lafittau. 
+Saturnino Andrade. 
+Modesta Herrera. 
+Francisco Vivar:
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 217
 
@@ -1078,187 +1360,303 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Page Metadata
-- Page number: 504
-- Source publication: BOLETIN DE INSTRUCCION PÚBLICA
-- Document title: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- Document part: pages 204-223
-
-## Layout And Reading Order
-The page contains a header with a page number and publication title, followed by several sections, each detailing "Propietarios" (owners/professors) and "Suplente" (substitute) for different subjects. Each subject title is bolded and centered, followed by indented lists of names.
-
-## Literal Transcription
-504 BOLETIN DE INSTRUCCION PÚBLICA
----
-
-**Gramática Castellana**
-
-Propietarios: doña María Márquez.
-» Modesta Herrera.
-don Juan M. Homs.
-Suplente: » Julio Silva.
-
-**Alemán**
-
-Propietarios: don Emilio Winkler.
-» Norberto Schroer.
-» Juan B. Duschl.
-Suplente: doña Amalia Schwartzlose.
-
-**Francés**
-
-Propietarios: don Saturnino Andrade.
-doña Guillermina Schreiber.
-don Víctor Lafittau.
-Suplente: don Julio Silva.
-
-**Literatura 2.º**
-
-Propietarios: doña María Márquez.
-» Modesta Herrera.
-don Juan M. Homs.
-Suplente: » Julio Silva R.
-
-**Literatura 2.º**
-
-Propietarios: doña María Márquez.
-» Modesta Herrera.
-don Luis Massergur.
-Suplente: » Julio Silva.
-
-## Images, Captions, And Visual Notes
-None.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-The transcription is complete and accurate, capturing all text and layout elements from the source page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily consists of text."}
-```
+# Page 218
 
 ## Page Metadata
-Page number: 505
-Header: SESION DE 14 DE OCTUBRE DE 1918
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 218
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0218.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a list of names organized under subject headings and roles (Propietarios, Suplentes). The content is structured in a single column, with clear headings for subjects and institutions. A horizontal line separates the first subject from the rest.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-SESION DE 14 DE OCTUBRE DE 1918 505
-
-**Aritmética, Aljebra i Jeometría**
-
-Propietarios: don Francisco Vivar.
-doña Edilia Guarda.
-don Juan M. Homs.
-Suplente: » Saturnino Andrade.
-
----
-
-ANCUD
-
-LICEO DE NIÑAS
-
-**Castellano**
-
-Propietarios. don Darío Cavada.
-doña Fidelia Aguila.
-don Nicanor Bahamonde.
-Suplentes: » Carlos Salazar.
-doña Elena Alvarado.
-
-**Francés**
-
-Propietarios: don Darío Cavada.
-doña Blanca D. de Viera.
-don Emilio Peeters.
-Suplentes: » Hugo Fohmann.
-doña Laura González.
-
-**Alemán**
-
-Propietarios: don Darío Cavada.
-» Hugo Fohmann.
-» Emilio Peeters.
-Suplentes: doña Blanca D. de Viera.
-» Fidelia Aguila.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+```markdown
+504 
+BOLETIN DE INSTRUCCION PÚBLICA 
+Propietarios: doña 
+» 
+don 
+Suplente: 
+» 
+Propietarios: 
+don 
+» 
+» 
+Suplente: 
+doña 
+Propietarios: 
+don 
+doña 
+don 
+Suplente: 
+don 
+Propietarios: doña 
+» 
+don 
+Suplente: 
+» 
+Propietarios: doña 
+» 
+don 
+Suplente: 
+» 
+Gramática Castellana 
+María Márquez. 
+Modesta Herrera. 
+Juan M. Homs. 
+Julio Silva. 
+se 
+” 
+Alemán 
+Emilio Winkler, 
+Norberto Sehroer. 
+Juan B. Duschl. 
+Amalia Schwartzlose. 
+Francés 
+Saturnino Andrade. 
+Guillermina Schreiber. 
+Víctor Lafittau. 
+Julio Silva. 
+Literatura 2.0 
+María Márquez. 
+Modesta Herrera. 
+Juaií M. Homs. 
+Julio Silva R. 
+Literatura 2.0 
+María Márquez. 
+Modesta Herrera. 
+Luis Massergur. 
+Julio Silva.
 ```
 
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 219
+
 ## Page Metadata
-Page number: 506
-Running header: BOLETIN DE INSTRUCCION PÚBLICA
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 219
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0219.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, structured into four main sections, each representing a subject area (Matemáticas, Ciencias Naturales, Historia i Jeografía, Física i Química). Within each section, there are two sub-categories: "Propietarios" (Owners/Proprietors) and "Suplentes" (Substitutes). Names are listed under each sub-category, with "don" or "doña" preceding each name. The "»" symbol is used as a ditto mark to indicate the repetition of "don" or "doña" for subsequent names in the "Suplentes" lists.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-506 BOLETIN DE INSTRUCCION PÚBLICA
----
-
-**Matemáticas**
-
-Propietarios: don Hugo Fohmann.
-doña Florinda Alvarado de G.
-don Carlos Salazar.
-Suplentes: » Nicanor Bahamonde.
-doña Mercedes R. Solís.
-
-**Ciencias Naturales**
-
-Propietarios: don Galvarino Ampuero.
-doña Elena Alvarado.
-don Darío Cavada.
-Suplentes: » Emilio Peeters.
-doña Adela Kowoll.
-
-**Historia i Jeografía**
-
-Propietarios: don Carlos Salazar.
-doña Mercedes R. Solís.
-don Darío Cavada.
-Suplentes: » Galvarino Ampuero.
-doña Florinda A. de García.
-
-**Física i Química**
-
-Propietarios: don Galvarino Ampuero.
-doña Elena Alvarado.
-don Darío Cavada.
-Suplentes: » Emilio Peeters.
-doña Flor M. Merino.
+```markdown
+O 
+0 
+SESION DE 14 DE OCTUBRE DE 1918 
+Aritmética, Aljebra i Jeometría 
+Propietarios: don Francisco Vivar. 
+doña Edilia Guarda. 
+don Juan M. Homs. 
+Suplente: 
+ » 
+Saturnino Andrade. 
+ANCUD 
+LICEO DE NIÑAS 
+- Castellano 
+Propietarios, don Darío Cavada. 
+doña Fidelia Aguila. 
+don Nicanor Bahamonde. 
+Suplentes: 
+*» Carlos Salazar. 
+doña Elena Alvarado. 
+Francés 
+Propietarios: don Darío Cavada. 
+doña Blanca D. de Viera. 
+don Emilio Peeters. 
+Suplentes: 
+» 
+Hugo Fohmann. 
+doña Laura González. 
+y 
+Alemán 
+Propietarios: don Darío Cavada, 
+» 
+Hugo Fohmann. 
+» 
+Emilio Peeters. 
+Suplentes: doña Blanca D. de. Viera. 
+» 
+ Fidelia Aguila.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. All text is clear and legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 220
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 220
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0220.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+506 
+BOLETIN DE INSTRUCCION PÚBLICA 
+Propietarios: don 
+doña 
+don 
+Suplentes: 
+» 
+doña 
+Propietarios: don 
+doña 
+don 
+Suplentes: 
+» 
+doña 
+Propietarios: don 
+doña 
+don 
+Suplentes: 
+» 
+doña 
+Propietarios: don 
+doña 
+don 
+Suplentes: 
+ » 
+doña 
+Matemáticas 
+Hugo Fohmann, 
+Florinda Alvarado de G. 
+Carlos Salazar. 
+Nicanor Bahamonde. 
+Mercedes R. Solís. 
+Ciencias Naturales 
+Galvarino Ampuero. 
+Elena Alvarado. 
+Darío Cavada. 
+Emilio Peeters. 
+Adela Kowoll. 
+Historia ¡ Jeografía 
+- 
+Carlos Salazar. 
+Mercedes R. Solís. 
+Darío Cavada. 
+Galvarino Ampuero. 
+Florinda A. de García. 
+Física ¡ Química 
+Galvarino Ampuero. 
+Elena Alvarado. 
+Darío Cavada. 
+Emilio Peeters. 
+Flor M. Merino. 
+.
 ```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 221
@@ -1323,109 +1721,190 @@ The transcription is complete and accurate, capturing all text, formatting, and 
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for region cropping."}
 ```
 
-## Page Metadata
-- Source: `Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.`
-- Page number: `222`
-
-## Layout And Reading Order
-The page contains a header with a page number and publication title, followed by a main section detailing courses and associated names. The main section is structured with a Roman numeral heading, a sub-heading, and then several subject categories, each with a list of names. The names are indented, and some have a quotation mark symbol indicating continuation of the list.
-
-## Literal Transcription
-```
-508 BOLETIN DE INSTRUCCION PÚBLICA
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-```
-## Images, Captions, And Visual Notes
-There are no meaningful images or captions on this page.
-
-## Uncertain Or Illegible
-None
-
-## Completeness Audit
-The transcription is complete and accurate.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present."}
-```
+# Page 222
 
 ## Page Metadata
 
-- **Page number**: 223
-- **Printed page number**: 509
-- **Source language**: es
-- **Source type**: Book section
-- **Document type**: University records
-- **Year**: 1918
-- **Record type**: Appointments, lists
-- **Place**: Chile
-- **Subject**: Law, Social Sciences
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 222
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0222.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page is a single column of text. The reading order is from top to bottom. The page begins with a header containing the session date on the left and the printed page number on the right. The main content consists of several sections, each with a bolded heading indicating a subject of study (e.g., "Derecho Civil," "Derecho Comercial"). Under each heading is a list of names, likely professors or examiners. The first name in each list is typically preceded by "Don," and subsequent names are indented and preceded by a right-pointing double angle quotation mark (`»`).
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-SESION DE 14 DE OCTUBRE DE 1918
-509
-
-**Derecho Civil (1.º, 2.º i 3.er años)**
-
-Don Luis Barahona.
-» Adolfo Infante.
-» Carlos Nebel (para el 1.er año).
-» Hermójenes Toro (para el 2.º año).
-» Francisco A. Concha (para el 3.er año).
-
-**Derecho Comercial**
-
-Don Víctor Bobilier.
-» Luis Garnham.
-» Augusto Wiegand.
-
-**Derecho Procesal (1.º i 2.º años)**
-
-Don Aurelio Cruzat.
-» Aníbal Cruzat.
-» Félix García (para el 1.er año).
-» Enrique Wiegand (para el 2.º año).
-
-**Derecho Penal**
-
-Don Alfredo Guillermo Bravo.
-» Juan Andueza.
-» Carlos Urenda.
-
-**Derecho Administrativo**
-
-Don Manuel Barros C.
-» Víctor Bobilier.
-» José María Pinedo.
-
-**Economía Social e Industrial**
-
-Don Miguel Aylwin.
-» Aurelio Cruzat.
-» Ejidio Poblete.
+```markdown
+508 
+BOLETIN DE INSTRUCCION PÚBLICA 
+INSTRUCCION SUPERIOR 
+[.—PARA EL CURSO DE LEYES QUE FUNCIONA EN EL COLEJIO 
+DE LOS SS. CC. DE VALPARAISO 
+Filosofía del Derecho 
+Don Alberto Toro Arias. 
+» 
+Rafael Luis Barahona 
+» 
+Carlos Monje. 
+Economía Política 
+Don Francisco Araya Bennet. 
+» 
+Luis Garnham. 
+» 
+ Ejidio Poblete. 
+Derecho Constitucional 
+Don Manuel Barros C. 
+» 
+Miguel Aylwin. 
+» 
+Ernesto Viscaya. 
+Derecho Internacional 
+Don Lautaro Benham. 
+» 
+ Amíbal Cruzat. 
+: 
+» 
+Elías González Medina. 
+Historia Jeneral del Derecho 
+Don Ezequiel Cámus. 
+» 
+Salvador Lavarello. 
+» 
+Carlos Monje. 
+Derecho Romano 
+Don Ezequiel Cámus V. 
+» 
+Francisco Araya B. 
+» 
+Rafael Raveau.
+```
 
 ## Images, Captions, And Visual Notes
 
-This page contains only printed text. There are no images, illustrations, stamps, or handwritten annotations.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible portions of this page.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-This page has been transcribed in its entirety.
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Visual Region Manifest
+# Page 223
 
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page consists entirely of printed text with no images, illustrations, or other significant visual elements that would warrant cropping."
-}
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 223
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0223.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+SESION DE l4 DE OCTUBRE DE 1918 
+509 
+Derecho Civil (1.9, 2.2 ¡ 3-er años) 
+Don Luis Barahona. 
+» 
+Adolfo Infante. 
+» 
+Carlos Nebel (para el -1.8r año). 
+» 
+ Hermójenes Toro (para el 2.0 año). 
+» 
+Francisco A. Concha (para el 3-81 año). 
+Derecho Comercial 
+Don Víctor Bobilier. 
+» 
+Luis Garnham. 
+» 
+Augusto Wiegand. 
+E] 
+Derecho Procesal (1.2 ¡ 2.2 años) 
+Don Aurelio Cruzat. 
+» 
+Aníbal Cruzat. 
+» + Félix García (para el 1-“: “año). 
+» 
+Enrique Wiegand (para el 2. año). 
+Derecho Penal 
+Don Alfredo Guillermo Bravo. 
+» 
+Juan Andueza. 
+» 
+Carlos Urenda. 
+Derecho Administrativo 
+Don Manuel Barros C. 
+» 
+Víctor Bobilier. 
+» 
+José María Pinedo. 
+Economía Social e Industrial 
+Don Miguel Aylwin. 
+» 
+Aurelio Cruzat. 
+» 
+ Ejidio Poblete.
 ```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -985,60 +985,78 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 255
+
 ## Page Metadata
-Page 255
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/manifest.json`
+- Source page: 255
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/page-images/page-0255.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page presents text in a single column, with a page number centered at the top. The content consists of legislative text, including articles, dates, and signatures, followed by an instruction and further signatures.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 27 —
-
-mediato a su punto de concurrencia, ni tampoco
-a aquellos trechos que sean obligados por acci-
+```markdown
+mediato
+a su punto de concurrencia, ni tampoco
+a aquellos trechos.que sean obligados por acci¬
 dentes naturales del terreno.
-Art. 8º — Comuníquese al Poder Ejecutivo.
-
-Dada en la Sala de Sesiones del Congreso Argentino, en Buenos
-Aires a veintiséis de septiembre de mil novecientos ocho.
-
-JOSÉ E. URIBURU.
+Art. 8° — Comuniquese al Poder Ejecutivo.
+Dada en la Sala de Sesiones del Congreso Argentino,
+en Buenos
+Aires
+a veintiséis de septembre de mil novecientos ocho.
+José E. Uriburu.
 Adolfo J. Labougle
 Secretario del Senado.
-
-M. PADILLA.
+M. Padilla.
 Alejandro Sorondo
-Secretario de la C. de DD.
-
-(Registrada bajo el Nº 5703).
-
-POR TANTO:
-
-Cúmplase, comuníquese, publíquese y dése al
-Registro Nacional.
-
+Secretario de la O. de DD.
+(Registrada bajo el N° 5703).
+POR
+TANTO:
+Cdmplase, comuniquese, publiquese y dése al
+Registre Nacional.
 FIGUEROA ALCORTA.
-EZEQUIEL RAMOS MEXÍA.
+Ezequiel Ramos MexIa.
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 256
 
@@ -1521,61 +1539,87 @@ All visible text and significant visual elements have been transcribed or noted.
 }
 ```
 
+# Page 261
+
 ## Page Metadata
-Page number: 261
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/manifest.json`
+- Source page: 261
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/page-images/page-0261.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page is a title page with all text centered horizontally. The content includes the country, ministry, and department, followed by the title of the law, its number, and a description of the included content. Below this is the Argentine national coat of arms, followed by publication details (city, publisher, year) and the price.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-<center>REPUBLICA ARGENTINA</center>
 
-<center>M. O. P.</center>
-<center>DIRECCION NACIONAL DE VIALIDAD</center>
-
-<center>LEY NACIONAL DE VIALIDAD</center>
-<center>Nº 11658</center>
-
-<center>SU DECRETO REGLAMENTARIO</center>
-
-<center>Y</center>
-
-<center>MODIFICACION DEL MISMO</center>
-
-<center>BUENOS AIRES</center>
-<center>TALLERES GRÁFICOS ARGENTINOS L. J. ROSSO - DOBLAS 951-965</center>
-<center>1937</center>
-
-<center>PRECIO $ 0.50</center>
+```markdown
+REPUB LICA
+ARGENTINA
+M.
+O.
+P.
+DIRECCION
+N ACIONAL
+DE
+VI ALIDAD
+LEY
+NACIONAL
+DE VIALIDAD
+N°.
+11658
+SU
+DECRETO
+REGLAMENTARIO
+Y
+MQDIFICACION
+DEL
+MfSMO
+BUENOS
+A TB ES
+Tallerbs Cïrâeioos Aiuïentïnos L.
+J
+IlOSSO
+- Doblas 951-96"?
+19
+3
+7
+PRECIO $ 0.50
+```
 
 ## Images, Captions, And Visual Notes
-The Argentine national coat of arms is centered on the page, below the main title and above the publication details.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and the central image have been transcribed and described.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "seal",
-      "bbox_pct": [49.0, 46.0, 54.0, 50.0],
-      "caption_literal": "Argentine national coat of arms",
-      "caption_type": "converter-description",
-      "identity_basis": null,
-      "source_context": "Centered on the page, below the main title and above the publication details.",
-      "confidence": 0.95,
-      "suggested_filename": "argentina_coat_of_arms_1937.png",
-      "inline_anchor": null
-    }
-  ]
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 262
 

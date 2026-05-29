@@ -157,8 +157,6 @@ e
 
 ## DE LA UNIVERSIDAD
 
-## TOMO CXLII.—ANO 77.
-
 ## SUMARIO
 
 Boletin de  Instruccion  Pública. -  Consejo de  Instruccion  Pública:  Sesiones

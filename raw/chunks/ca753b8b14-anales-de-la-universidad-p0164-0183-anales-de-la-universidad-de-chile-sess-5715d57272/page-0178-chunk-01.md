@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-d5a8b8204fe4-P0178-01
+chunk_id: CHUNK-a3cbfa1dd187-P0178-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183.codex.md
-converted_sha256: d5a8b8204fe42ddb850bd02b1ecd7a9131547bb3cafef832ba03ada012c091ac
+converted_sha256: a3cbfa1dd187b3d3fb4a2bf8f4232a9bff1c91acbeeb869d5aa8fa858d5c1737
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183/manifest.json
@@ -58,11 +58,11 @@ Suplentes:
 
 - » Francisco J.  Merino.
 
-- Apolinario Puga. 》
+- Apolinario Puga.
 
-- David Torres. 《
+- David Torres.
 
-- Juan E. Gutiérrez. 》
+- Juan E. Gutiérrez.
 
 ## Inglés
 
@@ -76,9 +76,9 @@ don Edmundo Georgi.
 
 Kuno Habenicht.
 
-- Francisco J.  Briones. 《
+- Francisco J.  Briones.
 
-- Charles Stein. 》
+- Charles Stein.
 
 ## Instruccion Cívica
 
@@ -90,11 +90,11 @@ Suplentes:,
 
 - » Daniel Riveros. *
 
-- Apolinario Puga. 》
+- Apolinario Puga.
 
-- Francisco J.  Merino. 》
+- Francisco J.  Merino.
 
-- Elías Muñoz. 》
+- Elías Muñoz.
 ```
 
 ## Images, Captions, And Visual Notes

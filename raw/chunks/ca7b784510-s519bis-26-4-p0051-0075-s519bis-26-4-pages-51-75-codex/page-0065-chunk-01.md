@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-207a331ac4dd-P0065-01
+chunk_id: CHUNK-abbd6b8b04a1-P0065-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75.codex.md
-converted_sha256: 207a331ac4dddae88ab293969b5617ed034e9f7d0097ee5084622abe509f189d
+converted_sha256: abbd6b8b04a136009f72e0277437bcc1c05b5b375c737be64aeb0b08b77492e9
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75/manifest.json
@@ -103,3 +103,5 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 66

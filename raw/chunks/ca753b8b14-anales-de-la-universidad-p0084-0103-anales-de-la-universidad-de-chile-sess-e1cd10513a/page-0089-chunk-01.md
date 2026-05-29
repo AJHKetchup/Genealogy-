@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-335271cf7e23-P0089-01
+chunk_id: CHUNK-0f2b32bdf3c5-P0089-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103.codex.md
-converted_sha256: 335271cf7e23736fa0a497f7ee5053879366414c30ebabf78964f9cccf4a6176
+converted_sha256: 0f2b32bdf3c53bc8b728ea5c97ed85d171b203166e6531767d323eb2f49af566
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103/manifest.json
@@ -44,13 +44,13 @@ Suplentes:
 
 don Bernardino Ouijada.
 
-- Francisco Lara. 》
+- Francisco Lara.
 
-- José  Auger. 《
+- José  Auger.
 
-- Francisco Fuentes. 》
+- Francisco Fuentes.
 
-- Rafael H. Morales. 《
+- Rafael H. Morales.
 
 ## Jeografía Física
 
@@ -60,13 +60,13 @@ Suplentes:
 
 Luis Puga.
 
-- Enrique O'Ryan 》
+- Enrique O'Ryan
 
-- José  Auger. 《
+- José  Auger.
 
-- Ernesto Escobar. 《
+- Ernesto Escobar.
 
-- Carlos Valdovinos. 《
+- Carlos Valdovinos.
 
 ## Filosofía 1.*"  año
 
@@ -76,13 +76,13 @@ Suplentes:
 
 Daniel Martner.
 
-- Pedro León Loyola. 》
+- Pedro León Loyola.
 
-- Ricardo Soria. 《
+- Ricardo Soria.
 
-- Gullermo Cuadra. 《
+- Gullermo Cuadra.
 
-- Mariano Látorre. 》
+- Mariano Látorre.
 
 ## Filosofía 2.2  año
 
@@ -92,13 +92,13 @@ Suplentes:
 
 Daniel Martner.
 
-- Pedro León Loyola. 《
+- Pedro León Loyola.
 
-- Rafael Román. 》.
+- Rafael Román.
 
-- Guillermo Cuadra. 《
+- Guillermo Cuadra.
 
-- Mariano Latorre. 》
+- Mariano Latorre.
 
 ANALES ACTAS.-SETIEMBRE.-OCTUBRE.-26
 ```

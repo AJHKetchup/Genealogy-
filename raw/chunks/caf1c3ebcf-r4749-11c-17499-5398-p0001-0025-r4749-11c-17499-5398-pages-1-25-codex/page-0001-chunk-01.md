@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-a9e730c53c2c-P0001-01
+chunk_id: CHUNK-f9ecabd83273-P0001-01
 source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25.codex.md
-converted_sha256: a9e730c53c2cd6f9f751a234ee44dc2e7fe0d59ba89568ac77015b6f0ad80346
+converted_sha256: f9ecabd8327311c6c6b13380b9d01a9301a7452b1056de7a6d1f44bacec9d774
 source: raw/sources/R4749-11C-17499-5398.pdf
 source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
 source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/manifest.json
@@ -12,36 +12,41 @@ part: 1
 ---
 
 ## Page Metadata
-- Task id: `source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25:p0001`
-- Page: 1
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/manifest.json`
+- Source page: 1
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/page-images/page-0001.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page is a pre-printed form, likely a file cover or index card, with several sections for categorization and tracking. Handwritten entries fill in specific fields. The layout includes a header section, a main content area with large handwritten notes, and a table for circulation tracking, along with fields for related dossier numbers.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```
-R4749
+```markdown
+u
+i
+/
 ARCHIVES
 1933-1940
-
-SOCIÉTÉ DES NATIONS LEAGUE OF NATIONS
-
-SOCIAL
-
+SOCIÉTÉ DES NATIONS
+LEAGUE OF NATIONS
+SOCIAL.
+Child
+Welfare
 REGISTRY No
-
-CHILD WELFARE
-
-11 C / 17499 5398
-
-Rapports annuels et documentation
-
-Argentine
-
+11e
+jyjy
+e-
 Transmis à
 Referred to
+,/
 Date
 Transmis à
 Referred to
@@ -49,38 +54,56 @@ Date
 Transmis à
 Referred to
 Date
-For previous circulation
-see within.
-X Central 141 7.7.39.
-Social Ch. 141 7.7.39
-
+For previous ^ir
+aee within.
+/
+cutatio R
+C<U^UajtA IHl fiï.fa.
+Ôpcjl cl &L
+1.1. 2 4
+\
+// 7
+DoSir
+1
+No.
+precedent )
+/
 Dossier
-précédent
-} No. 17451
-
-Dossier
+1
+^
+j s,
+No.
 suivant
-} No. 18632
-
-Liechti Mars 1938 15000
+j
+Liediti
+Mars 1938
+18000
 ```
 
 ## Images, Captions, And Visual Notes
-The page is a pre-printed form with various fields.
-- A handwritten number "R4749" is at the top left.
-- A printed box at the top right contains "ARCHIVES" and "1933-1940".
-- The main body of the form includes pre-printed labels like "SOCIÉTÉ DES NATIONS", "LEAGUE OF NATIONS", "SOCIAL", "CHILD WELFARE", and "REGISTRY No".
-- Handwritten entries "11 C", "17499", and "5398" fill the "REGISTRY No" section.
-- Large handwritten text "Rapports annuels et documentation" and "Argentine" are prominent in the center of the page.
-- A table with columns "Transmis à Referred to" and "Date" contains handwritten entries "For previous circulation see within.", "X Central 141 7.7.39.", and "Social Ch. 141 7.7.39".
-- A section at the bottom right contains pre-printed "Dossier précédent No." and "Dossier suivant No." with handwritten numbers "17451" and "18632" respectively.
-- A small printed line "Liechti Mars 1938 15000" is at the bottom left.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and structural elements have been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The page consists of a pre-printed form with handwritten entries. There are no substantial standalone images, photographs, maps, or complex diagrams that would warrant individual cropping."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

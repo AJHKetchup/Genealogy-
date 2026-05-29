@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-d5a8b8204fe4-P0164-01
+chunk_id: CHUNK-a3cbfa1dd187-P0164-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183.codex.md
-converted_sha256: d5a8b8204fe42ddb850bd02b1ecd7a9131547bb3cafef832ba03ada012c091ac
+converted_sha256: a3cbfa1dd187b3d3fb4a2bf8f4232a9bff1c91acbeeb869d5aa8fa858d5c1737
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183/manifest.json
@@ -40,17 +40,17 @@ don  Luis Herrera.
 
 Propietarios
 
-Suplentes: 《
+Suplentes:
 
 :  don Ignacio Herrera.
 
-- Darío Castro. 》
+- Darío Castro.
 
-- Luis Francés F. 》
+- Luis Francés F.
 
 - Baudilio Lagos.
 
-- Jorje  Le-Bert. 《
+- Jorje  Le-Bert.
 
 ## Historia ¡ Jeografía
 
@@ -60,13 +60,13 @@ Suplentes:
 
 Domingo  Maturana.
 
-- Diego  Seaton. 《
+- Diego  Seaton.
 
-- Juan  Cayron. 《
+- Juan  Cayron.
 
-- Lorenzo Espinoza. 《
+- Lorenzo Espinoza.
 
-- Roberto Rojas. 《
+- Roberto Rojas.
 
 ## Ciencias Naturales
 
@@ -76,13 +76,13 @@ Suplentes:
 
 Ramón  Pérez.
 
-- Francisco L.  Méndez. 《
+- Francisco L.  Méndez.
 
-- Juan  Chapel. 《
+- Juan  Chapel.
 
-- Marcos Tabuenca. 《
+- Marcos Tabuenca.
 
-- Luis Arrau. 《
+- Luis Arrau.
 
 ## Física  ¡ Química
 
@@ -92,13 +92,13 @@ Suplentes:
 
 Ramón Pérez.
 
-- Baudilio Lagos. 《
+- Baudilio Lagos.
 
-- Domingo Condé. 《
+- Domingo Condé.
 
-- Francisco Barrientos. 《
+- Francisco Barrientos.
 
-- J.  Fortunato Rojas. 》
+- J.  Fortunato Rojas.
 
 ## Matemáticas
 

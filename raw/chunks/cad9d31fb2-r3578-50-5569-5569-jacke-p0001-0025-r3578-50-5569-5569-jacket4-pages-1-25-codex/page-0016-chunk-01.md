@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-e481c0b9b58b-P0016-01
+chunk_id: CHUNK-670231f87a83-P0016-01
 source_converted: raw/converted/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25.codex.md
-converted_sha256: e481c0b9b58bded7c96ae41057a8ad7220ae8f04feb6fe5749a4de5ec30f45f0
+converted_sha256: 670231f87a83d650076cbff81365a4098138ac680adb7aa0b82314177d634633
 source: raw/sources/R3578-50-5569-5569-Jacket4.pdf
 source_sha256: d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781
 source_manifest: raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25/manifest.json
@@ -12,37 +12,86 @@ part: 1
 ---
 
 ## Page Metadata
-Page number: 16
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket4.pdf`
+- Source SHA-256: `d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781`
+- Conversion manifest: `raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25/manifest.json`
+- Source page: 16
+- Page image: `raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25/page-images/page-0016.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a centered page number at the top, followed by three bulleted paragraphs of text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-                                    - 2 -
 
-     - La Conférence déclare que les dispositions établies par
-la Convention et réglant la condition des Sociétés de secours
-auprès des armées en campagne, sont applicables aussi à l'Ordre
-Souverain et Militaire de Malte.
-     - La Conférence estime que la condition et la protection des
-civils se trouvant exposés aux dégâts de la guerre et aux conséquen-
-ces de l'action des belligérants doit former l'objet d'études ap-
-profondies, en vue d'une troisième Convention internationale.
-     - La Conférence estime aussi qu'une telle Conférence est à sou-
-haiter.
+```markdown
+-
+La Conference
+declare
+que les dispositions etablies par
+la Convention et reglant la condition les Societes
+de
+secours
+aupres dos
+armeus
+on
+campagne,
+sont applicable^ aussi
+a l'Ordre
+Louverain et Militaire
+de Malte.
+-
+La Conference
+estime
+que la condition et la protection des
+civils
+se trouvant
+exposes
+aux degats
+de la guerre et
+aux consequen
+ces
+de 1'action des belligerants doit former I'objet d'etudes
+ap-
+profondies,
+en vue d'une treisieme Convention international,
+La Conference
+estime
+aussi qu'une telle Conference est a sou-
+baiter.
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text on the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for extraction."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 17

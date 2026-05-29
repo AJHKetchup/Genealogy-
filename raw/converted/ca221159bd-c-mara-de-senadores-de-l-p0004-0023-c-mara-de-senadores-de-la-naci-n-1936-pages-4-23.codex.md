@@ -86,7 +86,7 @@ The transcription is complete and includes all visible text, stamps, and handwri
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/manifest.json`
 - Source page: 6
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-images/page-0006.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -98,21 +98,25 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-## LEY
-
+LEY
 Y
-
-## REGLAMENTO GENERAL
-
-DE LOS
-
+REGLAMENTO
+GENERAL
+DE
+LOS
 FERROCARRILES NACIONALES
-
-PUBLICACION OFICIAL
-
-BUENOS AIRES
-
-37024 ' COMPANIA IMPRESORA ARGENTINA, S. A., ALSINA, 2049
+PUBLICACION
+OFICIAL
+BUENOS
+AIRES
+37024 “
+COMPANIA
+IMPRESORA ARGENTINA,
+S. A., ALSINA,
+2049
+19
+3
+6
 ```
 
 ## Images, Captions, And Visual Notes
@@ -1519,54 +1523,69 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 22
+
 ## Page Metadata
-Page number: 22
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/manifest.json`
+- Source page: 22
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-images/page-0022.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a single column of text. A page number is centered at the top. The main content consists of two paragraphs. There is also very faint, partial text visible along the right margin, likely bleed-through from an adjacent page or a watermark.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 18 —
 
-Cuando la ley de concesión no establezca la manera de de-
-terminar los gastos de explotación a los efectos de garantía,
-se entenderá que ellos quedan fijados en el cincuenta por ciento
+```markdown
+—
+18
+Cuando la ley de concesiôn no establezca la manera de de-
+terminar los gastos de explotacion
+a los efectos de garantîa,
+se entenderâ que ellos quedan fij ados en el cincuenta por ciento
 de los productos brutos.
-No se imputará a gastos de explotación los ocasionados por
+No
+se imputarâ a gastos de explotacion los ocasionados por
 trenes expresos que no hayan sido solicitados por el Gobierno
-o el público, salvo los casos de servicio urgente previsto en
+o el publico, salvo los
+casos de servicio urgente previsto en
 los reglamentos del Poder Ejecutivo.
-
-(Faint, partial text along the right margin, likely bleed-through or watermark)
-se
-re
-n
-D
-lo
-y
-
-lo
-sa
-h
-
-d
-lo
-
-e
+```
 
 ## Images, Captions, And Visual Notes
-No substantial images or captions are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-The faint text along the right margin is difficult to read definitively due to its partial and faded nature. The transcription provided for this section represents the most plausible reading of the visible characters.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page, including the page number, the main body paragraphs, and the faint marginal text, has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page 23

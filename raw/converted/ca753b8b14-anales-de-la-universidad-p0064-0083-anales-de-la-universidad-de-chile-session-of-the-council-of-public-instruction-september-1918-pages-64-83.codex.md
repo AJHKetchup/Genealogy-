@@ -33,42 +33,42 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 
 Don Samuel Pavez Araya.
 
-- Edecio Torreblanca. 《
-- Enrique Delucchi. 《
-- Enzo Marmentin1. 《
-- Luciano Claude. 《
+- Edecio Torreblanca.
+- Enrique Delucchi.
+- Enzo Marmentin1.
+- Luciano Claude.
 
 ## Para Castellano
 
 Tomas Gatica Martinez.
 
 - Anastasio Barraza.
-- Mariano Latorre. 》
+- Mariano Latorre.
 
 :
 
-- Guillermo Cuadra Gormaz. 《
-- Pedro Mandiola. 《
-- Carlos Vicuña Fuentes. 《
-- Rigoberto Villablanca. 《
-- juan  N. Durán. 》
+- Guillermo Cuadra Gormaz.
+- Pedro Mandiola.
+- Carlos Vicuña Fuentes.
+- Rigoberto Villablanca.
+- juan  N. Durán.
 
 ## Para Inglés
 
 Carlos Hamilton.
 
-- Alberto Contador. 《
-- Luis A. Berrios. 《
-- Luis del Río. 》
+- Alberto Contador.
+- Luis A. Berrios.
+- Luis del Río.
 
-Wilftrida Buxton. Dona
+Wilftrida Buxton.
 
-Carlos Izquierdo. Don
+Carlos Izquierdo.
 
-- José  Mac-Courtney. 《
-- Antonio Oyarzún. 《
-- Darío Salazar. 》
-- Santiago Husband. 》
+- José  Mac-Courtney.
+- Antonio Oyarzún.
+- Darío Salazar.
+- Santiago Husband.
 
 ## Para Francés
 
@@ -576,11 +576,11 @@ Suplentes:
 
 don Camilo Valenzuela.
 
-- Manuel E.  Aguilera. 《
+- Manuel E.  Aguilera.
 
-- Evaristo Palma. 《
+- Evaristo Palma.
 
-- Francisco A.  Medina Rivera. 《
+- Francisco A.  Medina Rivera.
 
 ## Francés 1.9, 2.0  ¡ 3.9  años
 

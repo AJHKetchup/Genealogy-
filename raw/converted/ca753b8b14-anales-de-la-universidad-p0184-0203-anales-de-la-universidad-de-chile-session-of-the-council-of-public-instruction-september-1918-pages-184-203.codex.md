@@ -106,199 +106,332 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 185
+
 ## Page Metadata
-Page number: 471
-Source publication year: 1918
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/manifest.json`
+- Source page: 185
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-images/page-0185.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, primarily lists of names under various subject headings (Inglés, Historia i Jeografía, Ciencias Físicas i Naturales, Castellano) and institutional headings (CORONEL, LICEO DE NIÑAS). A header at the top indicates the session date and page number. A footer at the bottom provides publication details.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-SESION DE 14 DE OCTUBRE DE 1918 471
-___
 
-**Inglés**
+```markdown
+## Inglés
 
-Propietarios: don Julio Sáez.
-» Pedro Gigoux.
-doña Amelia A. de Elgueta.
-Suplentes: don Guillermo Hobson.
-» Teodoro Loos.
+Propietarios:
 
-**Historia i Jeografía**
+don Julio Sáez.
+
+- » Pedro Gigoux.
+
+doña Amelia A.  de  Elgueta.
+
+'Suplentes: don Guillermo Hobson.
+
+- » Teodoro Loos.
+
+## Historia i Jeografía
 
 Propietarios: don Benicio Troncoso.
-» Joselín de la Maza.
+
+- » Joselín de  la  Maza.
+
 doña Carmela Salinas.
-Suplentes: don Evaristo Muñoz.
-» Marcial Rubio.
 
-**Ciencias Físicas i Naturales**
+Suplentes: don Evaristo Muñoz,
 
-Propietarios: don Humberto Vergara.
-» Horacio Riffo.
+- » Marcial Rubio.
+
+## Ciencias Físicas i Naturales
+
+Propietarios:
+
+don  Humberto Vergara.
+
+- » Horacio Riffo.
+
 doña Edilia Guarda.
-Suplentes: don Pablo Vergara.
-» Mario Galbiatti.
 
------
+Suplentes:
 
-CORONEL
+don Pablo Vergara.
+
+- » Mario Galbiatti.
+
+## CORONEL
 
 LICEO DE NIÑAS
 
-**Castellano**
+## Castellano
 
-Propietarios: don Abraham Melo Peña.
-» Enrique Marshall.
-ANALES ACTAS.—SETIEMBRE-OCTUBRE.—32
+Propietarios: don Abraham Melo Peña, » Enrique Marshall.
 
-## Images, Captions, And Visual Notes
-The page contains no images or captions. There is a short horizontal rule (dashed line) separating the "Ciencias Físicas i Naturales" section from "CORONEL".
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+ANALES ACTAS.-SETIEMBRE-OCTUBRE.-.32
 ```
 
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 186
+
 ## Page Metadata
-Page number: 186
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/manifest.json`
+- Source page: 186
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-images/page-0186.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a header with a page number on the left and a publication title on the right, separated by a horizontal rule. The main content is presented in a single column, listing names under different subject headings (Matemáticas, Francés, Inglés, Historia i Jeografía). Each subject lists "Propietarios" (owners/primary members) and "Suplentes" (substitutes/alternate members), with names indented and some prefixed with "don" or "doña". The "»" character is used as a bullet point for subsequent names under a category.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-472 BOLETIN DE INSTRUCCION PÚBLICA
-doña Berta Acevedo de González.
-Suplentes: don Carlos Soto Ayala.
-» Abraham Valenzuela
 
-**Matemáticas**
+```markdown
+Propietarios:
 
-Propietarios: don Pedro Muñoz.
-» Isaías Encina.
+doña Berta Acevedo de  González.
+
+Suplentes:
+
+don Carlos Soto Ayala.
+
+- » Abraham Valenzuela
+
+## Matemáticas
+
+Propietarios:
+
+don Pedro Muñoz.
+
+- » Isaías Encina.
+
 doña Elia Arenas.
-Suplentes: don Gregorio Medel.
-» Tomás Sepúlveda.
 
-**Francés**
+Suplentes:
 
-Propietarios: don Luis Arellano.
-» Raimundo Lemaitre.
+don Gregorio Medel.
+
+- » Tomás Sepúlveda.
+
+## Francés
+
+don Luis  Arellano.
+
+- » Raimundo Lemaitre.
+
 doña Isaura Beltrán.
+
 Suplentes: don Emilio Joyeux.
-» Teodoro Loos.
 
-**Inglés**
+- » Teodoro Loos.
 
-Propietarios: don Julio Sáez.
-» Pedro Gigoux.
-doña Mercedes Méndez S.
-Suplentes: don Guillermo Hobson.
-» Teodoro Loos.
+## Inglés
 
-**Historia i Jeografía**
+Propietarios:
+
+don Julio Sáez.
+
+- » Pedro Gigoux.
+
+doña Mercedes Méndez $.
+
+Suplentes:
+
+don Guillermo Hobson..
+
+- » Teodoro Loos.
+
+## Historia ¡ Jeografía
 
 Propietarios: don Benicio Troncoso.
-» Joselín de la Maza.
-doña Carmela Varas de R.
+
+- » Joselín de  la  Maza.
+
+doña Carmela Varas de kk.
+
 Suplentes: don Evaristo Muñoz.
-» Tomás Sepúlveda.
+
+- » Tomás Sepúlveda.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for region cropping."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 187
 
 ## Page Metadata
-- Task id: `source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0187`
-- Page: 187
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/manifest.json`
+- Source page: 187
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-images/page-0187.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page is a single column of text. The reading order is from top to bottom. The page contains lists of names under various headings related to educational appointments in Chile.
 
-The structure is as follows:
-1. A header with the session date and page number: "SESION DE 14 DE OCTUBRE DE 1918" and "473".
-2. A subject heading: "Ciencias Físicas i Naturales".
-3. A list of names categorized as "Propietarios" (permanent/tenured) and "Suplentes" (substitutes).
-4. A location heading: "CONCEPCION".
-5. A school heading: "LICEO SANTA FILOMENA".
-6. A student category: "Alumnos privados de otros colejios."
-7. A series of subject headings ("Castellano", "Matemáticas", "Francés"), each followed by lists of names categorized as "Propietarios" and/or "Suplentes".
-
-Indentation and the use of the "»" symbol are used to structure the lists of names.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```text
-SESION DE 14 DE OCTUBRE DE 1918 473
-***
 
-**Ciencias Físicas i Naturales**
+```markdown
+e
 
-Propietarios: don Humberto Vergara.
-» Horacio Riffo.
-doña Carmela Varas de R.
+## Ciencias Físicas ¡ Naturales
+
+Propietarios: don  Humberto Vergara,
+
+- » Horacio Riffo.
+
+doña Carmela Varas de  R.
+
 Suplentes: don Pablo Vergara.
-» Mario Galbiatti.
 
-CONCEPCION
+- » Mario Galbiatti,
 
-LICEO SANTA FILOMENA
+## CONCEPCION
 
-Alumnos privados de otros colejios.
+## LICEO SANTA FILOMENA
 
-**Castellano**
+Alumnos  privados  de  otros colejios.
 
-Propietarios: don Abraham Melo Peña.
-» Enrique Marshall.
-» Carlos Soto Ayala.
-Suplentes: » Abraham Valenzuela.
-» Luis A. Rojas.
+## Castellano
 
-**Matemáticas**
+Propietarios: don  Abraham Melo Peña.
 
-Propietarios: don Isaías Encina.
-» Pedro Muñoz.
-» Aníbal Pincheira.
-Suplentes: » Tomás Sepúlveda.
-» Gregorio Medel.
+- » Enrique Marshall.
 
-**Francés**
+- » Carlos Soto Ayala.
+
+Suplentes:
+
+- » Abraham Valenzuela.
+
+,
+
+- » Luis A. Rojas.
+
+## Matemáticas
+
+Propietarios:
+
+don Isaías Encina.
+
+- » Pedro Muñoz.
+
+- » Aníbal Pincheira.
+
+Suplentes:
+
+- »  -. Tomás  Sepúlveda.
+
+- » Gregorio Medel.
+
+## Francés
 
 Propietarios: don Emilio Joyeux.
-» Raimundo Lemaitre.
-» Luis Arellano.
+
+- » Raimundo Lemaitre.
+- » Luis Arellano.
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images, illustrations, or photographs on this page. The page consists entirely of printed text. A thin horizontal rule separates the main header from the body of the text.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page. The text is clear and fully legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-This page has been fully and completely transcribed. All text content from the original page image is included in the literal transcription.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only structured text and a simple decorative rule. There are no images, illustrations, or other visual elements that would be useful as standalone assets."
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 188
 
@@ -424,80 +557,122 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 189
+
 ## Page Metadata
 
-- **Page number**: 475
-- **Task id**: `source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0189`
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/manifest.json`
+- Source page: 189
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-images/page-0189.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page is a single column of text with a clear top-to-bottom reading order. It begins with a header containing the session date and page number. The main content consists of lists of names, organized under a school name ("LICEO «ELOISA URRUTIA»") and then by subject ("Castellano", "Matemáticas", "Francés", "Inglés"). Within each subject, names are categorized as "Propietarios" (permanent members) or "Suplentes" (substitutes).
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```text
-SESION DE 14 DE OCTUBRE DE 1918 475
-___
+```markdown
+don Julio Sáez.
+
+- » Pablo Vergara:
+- » Luis Arellano.
+
+## LICEO «ELOISA URRUTIA»
+
+## Castellano
+
+Propietarios:
+
+don  Abraham Melo.
+
+- 'y Carlos Soto.
+
+- » Enrique Marshall.
+
+Suplentes:
+
+- » Abraham  Valenzuela.
+
+- » Demetrio Canales.
+
+## Wiatemáticas
+
+Propietarios:
+
+don Isaías Encina.
+
+- y Aníbal Pincheira.
+
+- » Pedro Muñoz.
+
+Suplentes:
+
+- -» Tomás  Sepúlveda.
+
+- » Gregorio Medel.
+
+## Francés
+
+Propietarios:
+
+don  Raimundo Lemaitre.
+
+;
+
+- » Emilio Joyéeux.
+
+- » Luis Arellano.
+
+Suplentes:
+
+- » Teodoro Loos.
+
+- » Luis Vey.
+
+## Inglés
+
+Propietarios:
 
 don Julio Sáez.
-» Pablo Vergara.
-» Luis Arellano.
 
-___
+- » Pedro Gigoux.
 
-LICEO «ELOISA URRUTIA»
-
-**Castellano**
-
-Propietarios: don Abraham Melo.
-» Carlos Soto.
-» Enrique Marshall.
-Suplentes: » Abraham Valenzuela.
-» Demetrio Canales.
-
-**Matemáticas**
-
-Propietarios: don Isaías Encina.
-» Aníbal Pincheira.
-» Pedro Muñoz.
-Suplentes: » Tomás Sepúlveda.
-» Gregorio Medel.
-
-**Francés**
-
-Propietarios: don Raimundo Lemaitre.
-» Emilio Joyeux.
-» Luis Arellano.
-Suplentes: » Teodoro Loos.
-» Luis Vey.
-
-**Inglés**
-
-Propietarios: don Julio Sáez.
-» Pedro Gigoux.
-doña Lina Slaven.
+doña:  Lina Slaven.
 ```
 
 ## Images, Captions, And Visual Notes
 
-This page contains only text. There are two horizontal rules used as separators. The subject headings ("Castellano", "Matemáticas", "Francés", "Inglés") are rendered in bold, centered text.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this page.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-This page has been transcribed in its entirety.
-
-## Visual Region Manifest
-
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page consists entirely of text and does not contain any images, illustrations, or other visual elements suitable for cropping."
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 190
 
@@ -812,9 +987,9 @@ Suplentes:
 
 - » Gabriel Silva.
 
-- Pedro Seguel. 》
+- Pedro Seguel.
 
-- José  Miguel Muñoz. 》
+- José  Miguel Muñoz.
 
 - Arturo Muñoz.
 
@@ -1353,7 +1528,7 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 
 Lúcas Mellado.
 
-- Ricardo Rivas. 《
+- Ricardo Rivas.
 
 Adela Aránguiz R.
 
@@ -1361,11 +1536,11 @@ Adela Aránguiz R.
 
 J.  Guillermo Cid.
 
-- Manuel Contreras. 《
-- Víctor Sánchez. 》
-- Lúcas Mellado. 《
-- Enrique Sánchez. 《
-- Temístocles Riffo. 》
+- Manuel Contreras.
+- Víctor Sánchez.
+- Lúcas Mellado.
+- Enrique Sánchez.
+- Temístocles Riffo.
 
 ## TRAIGUEN
 
@@ -1916,62 +2091,103 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 203
+
 ## Page Metadata
-Page number: 203
-Source publication year: 1918
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/manifest.json`
+- Source page: 203
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-images/page-0203.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a header with session information and a page number. The main content is structured into several sections, each with a bolded subject title, followed by lists of "Propietarios" (owners/members) and "Suplentes" (substitutes). A horizontal rule separates the upper content from a final section detailing a commission for a specific institution in Temuco, also followed by a list of names. The content is presented in a single column.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-SESION DE 14 DE OCTUBRE DE 1918 489
----
-Historia i Jeografía
 
-Propietarios: don Rodolfo Vera P.
-» J. Eduardo Peña.
-» Juan A. Durán.
-Suplentes: » Víctor Hernández.
-» Froilán Yáñez de la B.
-
-Ciencias Naturales
-
-Propietarios: don Aurelio Letelier.
-» Luis A. Fernández.
-» Rodolfo Poblete.
-Suplentes: » Víctor Hernández.
-» J. Eduardo Peña.
-
-Inglés o Alemán
-
-Propietarios: don Jorje Mac-Ginty.
-» Francisco Schenker.
-» Ernesto Torrealba.
-Suplentes: » Max. Newmann.
-» Manuel Manquilef.
-
----
-
-TEMUCO
-
-INSTITUTO SAN JOSE
-
-COMISIÓN EXAMINADORA DE HISTORIA ANTIGUA DE LOS PUEBLOS
-ORIENTALES, HISTORIA GRIEGA I ROMANA E HISTORIA DE LA
-EDAD MEDIA, I MODERNA I CONTEMPORANEA.
-
-Don Rodolfo Vera.
-» Eduardo Peña.
-» Ives le Moëng.
+```markdown
+SESION DE 14 DE OCTUBRE 
+DE 1918 
+489 
+Historia i Jeografía 
+Propietarios: don Rodolfo Vera P. 
+» 
+ J. Eduardo Peña. 
+» 
+Juan A. Durán. 
+Suplentes: 
+» 
+Víctor Hernández. 
+: 
+» 
+Froilán Yáñez de la B. 
+Ciencias Naturales 
+Propietarios: don Aurelio Letelier. 
+» 
+Luis A. Fernández. 
+» 
+Rodolfo Poblete. 
+Suplentes: 
+» 
+Víctor Hernández. 
+y 
+J. Eduardo Peña. 
+Inglés o Alemán 
+Propietarios: don Jorje Mac-Ginty. 
+46 
+» Francisco Schenker. 
+» 
+Ernesto Torrealba, 
+Suplentes: 
+» 
+Max. Newmann. 
+» 
+Manuel Manquilef. 
+> 
+TEMUCO 
+INSTITUTO SAN JOSE 
+COMISIÓN EXAMINADORA 
+DE HISTORIA ANTIGUA DE LOs PUEBLOS 
+ORIENTALES, HISTORIA GRIEGA 1 ROMANA E HISTORIA DE LA 
+EDAD MEDIA, 
+1 MODERNA 1 CONTEMPORANEA. 
+Don Rodolfo Vera. 
+» 
+Eduardo Peña. 
+» 
+Ives le Moeng.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. A short decorative horizontal rule appears below the header and another one below the "Inglés o Alemán" section, serving as a visual separator.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and layout elements have been transcribed and described.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page consists entirely of text and minor decorative rules."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

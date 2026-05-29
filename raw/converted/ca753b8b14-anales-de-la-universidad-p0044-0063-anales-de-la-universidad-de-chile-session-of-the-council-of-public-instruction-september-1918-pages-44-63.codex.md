@@ -1014,9 +1014,9 @@ Suplentes:
 
 - Santiago García Huidob*o
 
-- Baldomero Paima. 》
+- Baldomero Paima.
 
-- Ramón Jiménez. 》
+- Ramón Jiménez.
 
 ## Física
 
@@ -1028,11 +1028,11 @@ Suplentes:'
 
 - » ¿rmmesto Melo.
 
-- Matías González. 《
+- Matías González.
 
-- Diego Berendique. 》
+- Diego Berendique.
 
-- Carlos Llona Reyes. 》
+- Carlos Llona Reyes.
 
 )
 
@@ -1046,11 +1046,11 @@ Suplentes:
 
 - » Diezo  Hernández.
 
-- Francisco Lara. 》
+- Francisco Lara.
 
-- Roberto Burr. 》
+- Roberto Burr.
 
-- Guillermo García. 》
+- Guillermo García.
 
 ## Cosmografía
 
@@ -1134,11 +1134,11 @@ don Bernardino Onijada.
 
 - » Francisco Lara.
 
-- Adrián Soto V. 》
+- Adrián Soto V.
 
-- Francisco Fuentes, 》
+- Francisco Fuentes,
 
-- Rafael H. Morales. 》
+- Rafael H. Morales.
 
 ## Jeografía Física
 
@@ -1164,13 +1164,13 @@ Suplentes:
 
 don Enrique Nercasseau 1  Morán.
 
-- Ernesto Guzmán. 《
+- Ernesto Guzmán.
 
-- Antonio Bórquez Solar. 《
+- Antonio Bórquez Solar.
 
-- Eduardo  Sola  C. 《
+- Eduardo  Sola  C.
 
-- Juan  B.  Gonzalez. 《
+- Juan  B.  Gonzalez.
 
 ## Literatura
 
@@ -1182,11 +1182,11 @@ don Julio Vicuña Ciluentes.
 
 - dona Aída Ascuí.
 
-- Amador Alcayaga. 》
+- Amador Alcayaga.
 
 - Eduardo Solar C.
 
-- Mariano Latorre. 《
+- Mariano Latorre.
 
 R
 
@@ -1843,11 +1843,11 @@ Suplentes:
 
 - José  A. Castillo.
 
-- Luis Pérez. 《
+- Luis Pérez.
 
-- Enrique O'Ryan. 《
+- Enrique O'Ryan.
 
-- Marcial Mora. 《
+- Marcial Mora.
 
 ## Historia ¡ Jeografía
 
@@ -1879,11 +1879,11 @@ Don  Armando Rojas  Richard.
 
 - » Jorje  Brañes.
 - Carlos Valdovinos.
-- Óscar Blanco Viel. 》
-- Pedro A.  Alarcón, 》
-- Carlos Vergara Bravo. 《
-- Luis Merino. 》
-- Luis Santiago Díaz Villalón. 《
+- Óscar Blanco Viel.
+- Pedro A.  Alarcón,
+- Carlos Vergara Bravo.
+- Luis Merino.
+- Luis Santiago Díaz Villalón.
 ```
 
 ## Images, Captions, And Visual Notes

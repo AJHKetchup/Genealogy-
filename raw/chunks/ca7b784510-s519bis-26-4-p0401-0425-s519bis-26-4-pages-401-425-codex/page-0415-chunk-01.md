@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-e40c522fae52-P0415-01
+chunk_id: CHUNK-cac40a530bc3-P0415-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425.codex.md
-converted_sha256: e40c522fae521f8f84c6438a1678006094b95832aabcfdc6a81426a5f1612ac2
+converted_sha256: cac40a530bc3a4aa6d8ca6665f0418467cfbd0e85603478ee8553bed63ff6c4e
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/manifest.json
@@ -57,3 +57,5 @@ This page has been fully and accurately transcribed.
   "no_visual_regions_reason": "The page contains only handwritten text and a signature, with no significant illustrations, photographs, or other visual elements that would warrant cropping as standalone assets."
 }
 ```
+
+# Page 416

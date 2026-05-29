@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-692cf456e23e-P0004-01
+chunk_id: CHUNK-17058d5aac8e-P0004-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25.codex.md
-converted_sha256: 692cf456e23e5fe566f0eea412bd94196432e825e3a996a23961f8f5f415965a
+converted_sha256: 17058d5aac8e67fd34cabe5015b017d31d6384b270acd7a0ad4366160a6bdc65
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json
@@ -12,64 +12,64 @@ part: 1
 ---
 
 ## Page Metadata
-- Page number: 4
-- Source document: S519bis-26-4.pdf
-- Document type: Letter
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json`
+- Source page: 4
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/page-images/page-0004.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a letter with an embossed letterhead, a date, a handwritten signature, and typewritten body text. The reading order is standard: letterhead elements (embossed seal, sender's title, date), then the body of the letter, followed by the recipient's address block.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-Senador de la Nación Buenos Aires 27 de Septiembre de 1937
-
-Alfredo Palacios
-
-saluda muy atentamente al Sr. Julián Neguei-
-ra Consejero de la Secretaría de la Sociedad de las Naciones y se compla-
-ce en acusar recibe de los trabajos realizados por esa entidad.
-
-Sr. Julián Nogueira
-Consejero de la Secretaría de la
-Sociedad de las Naciones.
-Ginebra.-Suiza
+```markdown
+Buen®s Aires
+27
+de Septiembre de 1937
+saluâa muy atentamente al Sr.Juli^n Neguei-
+ra Censejer# te la Seeretarla de larSeeieâaâ te las Nacienes^se cempla*
+ce
+en acusar recibo de les trgbâjes realizades per esa entidaâ.
+Sr*Julidn Negueira
+Censejere de la Secretarla
+de la
+Secieiéâ de las Nacienes,
+Ginebra»-Suiza
+```
 
 ## Images, Captions, And Visual Notes
-- An embossed seal, likely the Coat of Arms of Argentina, is present in the top-left corner of the page.
-- A handwritten signature, "Alfredo Palacios", is present below the sender's title and above the body of the letter.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and visual elements on the page have been transcribed and described.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "seal",
-      "bbox_pct": [9.9, 10.0, 16.0, 15.8],
-      "caption_literal": "Embossed seal, likely the Coat of Arms of Argentina.",
-      "caption_type": "converter-description",
-      "identity_basis": "visual-appearance",
-      "source_context": "Top-left corner, part of the letterhead.",
-      "confidence": "high",
-      "suggested_filename": "embossed_seal_argentina_coat_of_arms"
-    },
-    {
-      "region_id": "vr_2",
-      "kind": "signature",
-      "bbox_pct": [28.9, 22.7, 34.9, 50.0],
-      "caption_literal": "Alfredo Palacios",
-      "caption_type": "nearby-text",
-      "identity_basis": "transcribed",
-      "source_context": "Handwritten signature below 'Senador de la Nación'.",
-      "confidence": "high",
-      "suggested_filename": "signature_alfredo_palacios"
-    }
-  ]
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 5

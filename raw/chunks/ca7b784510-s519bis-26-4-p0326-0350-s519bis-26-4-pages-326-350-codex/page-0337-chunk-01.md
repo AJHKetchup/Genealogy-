@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f907aa9d1630-P0337-01
+chunk_id: CHUNK-16d8c4aedd75-P0337-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350.codex.md
-converted_sha256: f907aa9d1630d09496bc96d685f684e78ec70cdffb0d2d0afbc36f2e5194c35a
+converted_sha256: 16d8c4aedd7509a81b469e46a29b4fae6a252a69e5aa68b519b34dc2c63a789b
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350/manifest.json
@@ -12,92 +12,72 @@ part: 1
 ---
 
 ## Page Metadata
-- Task id: `source-prep:ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350:p0337`
+
 - Source: `raw/sources/S519bis-26-4.pdf`
-- Page: 337
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350/manifest.json`
+- Source page: 337
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350/page-images/page-0337.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The document is a pre-printed telegram form from the Swiss telegraph and telephone administration, titled "Telegramm — Télégramme — Telegramma". The content is arranged in a standard telegram format.
 
-The reading order is as follows:
-1.  The header with the administration's name and document number.
-2.  The title of the form.
-3.  The top section containing the origin (`Genève`), transmission details on a pasted ticker tape, and fields for the telegraphist's signature.
-4.  A section for sending details ("Aufgegeben den"), which includes a handwritten date (`20/7`) and a rectangular stamp (`PARIS BDT.`).
-5.  A section for receiving details ("Erhalten von"), which includes a handwritten time (`21h`) and a circular reception stamp from Geneva dated `20VII15`.
-6.  The main body of the telegram, which includes a control number, the recipient's address, and the message. The address and message are on pasted ticker tape strips.
-7.  A final, unfilled section at the bottom for re-transmission details ("Übertelegraphiert an").
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```text
-Schweiz. Telegraphen- und Telephonverwaltung. — Administration des télégraphes et des téléphones suisses. — Amministrazione dei telegrafi e dei telefoni svizzeri. No. 2.
 
-Telegramm — Télégramme — Telegramma
-
-Genève
-[Pasted ticker tape]
-paris 422/75- 12- 200- 18, 19=
-
-Wörter — Mots
-Parole
-Der Telegraphist: — Le télégraphiste :
-Il telegrafista:
-[illegible signature]
-
-Aufgegeben den — Consigné le [Handwritten:] 20/7 192... um — à Uhr — heures min.
-Consegnato il alle ore
-[Stamped:] PARIS BDT.
-
-[Circular stamp:]
-GENEVE TELEGRAPHES
-20VII15
-* REÇU *
-
-Erhalt[en] von — Reçu de den — le 192... um — à [Handwritten:] 21h Uhr — heures min.
-il alle ore
-
-Event. Angaben
-Indications évent.
-Indicazioni event.
-
-Contr. No. [Handwritten:] 1153
-
-[Vertically printed:] Adresse - Indirizzo
-[Pasted ticker tape address:]
-nogueira.nations:genève
-
-[Pasted ticker tape message:]
-=gutierrez.granier.acepta.afrecimiento.carta.sigue
-saludalo := pinto escalier =
-
-Übertelegraphiert an — Réexpédié à den — le um — à Uhr — heures min. Der Telegraphist: — Le télégraphiste :
-Ritrasmesso a il alle ore Il telegrafista:
+```markdown
+Schweiz. Telegraphen- und Telephonverwaltung. — Administration des télégraphes et des téléphones suisses. — Àmministrazione dei telegrafi
+e dei telefoni svizzeri.
+No. 2.
+>• u ti 8 p p 8 z.. §r a ni; ep
+ax 3, a t a-i ai p. 8' ai ôe nto. c apta- sis u 3
+: s a-lUd a U a
+l=
+. pi a to
+e.sca Li ai*
+;=
+Übertelegraphiert an — Réexpédié à
+Ritrasmesso a
+den —le
+um — à
+Uhr—heures
+il
+aile
+ore
+Der Telegraphist : — Le télégraphiste :
+Il telegrafista :
 ```
 
 ## Images, Captions, And Visual Notes
-The document is a telegram form with a greenish-grey background and faint horizontal lines for writing.
 
-The message itself is composed of strips of ticker tape pasted onto the form.
+- No Docling picture regions were detected for this page.
 
-There are two postal stamps:
-1.  A rectangular stamp reading "PARIS BDT."
-2.  A circular stamp reading "GENEVE TELEGRAPHES 20VII15 * REÇU *".
+## Translation
 
-Handwritten entries include the date of dispatch (`20/7`), the time of receipt (`21h`), a control number (`1153`), and an illegible signature of the telegraphist.
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-- The signature of the telegraphist is illegible and has been transcribed as `[illegible signature]`.
-- The word "Erhalten" in "Erhalten von" is partially obscured by a stamp. The reading is based on the visible letters and the trilingual context of the form. It has been transcribed as `Erhalt[en]`.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The entire content of the page, including all pre-printed text, handwritten entries, stamps, and pasted ticker tape, has been transcribed.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains a standard telegram form with text, stamps, and handwritten notes. There are no substantial, standalone visual elements like photographs, maps, or complex illustrations that would warrant cropping."
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 338

@@ -39,17 +39,17 @@ don  Luis Herrera.
 
 Propietarios
 
-Suplentes: 《
+Suplentes:
 
 :  don Ignacio Herrera.
 
-- Darío Castro. 》
+- Darío Castro.
 
-- Luis Francés F. 》
+- Luis Francés F.
 
 - Baudilio Lagos.
 
-- Jorje  Le-Bert. 《
+- Jorje  Le-Bert.
 
 ## Historia ¡ Jeografía
 
@@ -59,13 +59,13 @@ Suplentes:
 
 Domingo  Maturana.
 
-- Diego  Seaton. 《
+- Diego  Seaton.
 
-- Juan  Cayron. 《
+- Juan  Cayron.
 
-- Lorenzo Espinoza. 《
+- Lorenzo Espinoza.
 
-- Roberto Rojas. 《
+- Roberto Rojas.
 
 ## Ciencias Naturales
 
@@ -75,13 +75,13 @@ Suplentes:
 
 Ramón  Pérez.
 
-- Francisco L.  Méndez. 《
+- Francisco L.  Méndez.
 
-- Juan  Chapel. 《
+- Juan  Chapel.
 
-- Marcos Tabuenca. 《
+- Marcos Tabuenca.
 
-- Luis Arrau. 《
+- Luis Arrau.
 
 ## Física  ¡ Química
 
@@ -91,13 +91,13 @@ Suplentes:
 
 Ramón Pérez.
 
-- Baudilio Lagos. 《
+- Baudilio Lagos.
 
-- Domingo Condé. 《
+- Domingo Condé.
 
-- Francisco Barrientos. 《
+- Francisco Barrientos.
 
-- J.  Fortunato Rojas. 》
+- J.  Fortunato Rojas.
 
 ## Matemáticas
 
@@ -181,11 +181,11 @@ Suplentes:
 
 - » Domingo  Maturana.
 
-- Baudilio Lagos.  ' 《
+- Baudilio Lagos.  '
 
 - José  B.  Severino.
 
-- David C.  Briceño, 《
+- David C.  Briceño,
 
 ## COLEJIO INGLÉS CATÓLICO
 
@@ -199,11 +199,11 @@ Suplentes:
 
 - » Roberto Rojas,
 
-- Ismael  Espina. 《
+- Ismael  Espina.
 
 - Lorenzo Espinoza.
 
-- Luis Arrau. 《
+- Luis Arrau.
 
 ## Frances
 
@@ -804,29 +804,29 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 
 Pedro A,  Segura M.
 
-- Pedro P. Castillo. 《
-- Emilio Hamon. 》
+- Pedro P. Castillo.
+- Emilio Hamon.
 
 ## Historia i Jeografía
 
 Aníbal Vivero.
 
-- Juan  B.  Saavedra. 《
-- Emilio Hamon. 《
+- Juan  B.  Saavedra.
+- Emilio Hamon.
 
 ## Francés
 
 Arturo Morales.
 
-- Guillermo Rojas. 《
-- José  Cunosa. 》
+- Guillermo Rojas.
+- José  Cunosa.
 
 ## Inglés
 
 Arturo Morales.
 
-- Guillermo Rojas  C. 《
-- Francisco Morán. 》
+- Guillermo Rojas  C.
+- Francisco Morán.
 
 Suplentes Jenerales
 
@@ -1044,11 +1044,11 @@ Suplentes:
 
 - » Romilio Gutiérrez.
 
-- María  Luisa  Silva (para  el  3.0  1 4.9  años). 》
+- María  Luisa  Silva (para  el  3.0  1 4.9  años).
 
-- Carlos L.  Campos. 》
+- Carlos L.  Campos.
 
-- Roberto Alarcón.  ; 《
+- Roberto Alarcón.  ;
 
 ## Física
 
@@ -1532,11 +1532,11 @@ Suplentes:
 
 - » Pedro Espinosa.
 
-- José  María Ferrada. 《
+- José  María Ferrada.
 
-- Manuel Rivas G. 》
+- Manuel Rivas G.
 
-- Luis A.  Sepúlveda. 》
+- Luis A.  Sepúlveda.
 
 ## LICEO PEDAGÓJICO
 
@@ -1570,9 +1570,9 @@ doña Josefina C.  de Lara.
 
 '
 
-- Juan  José  Carrillo. 》
+- Juan  José  Carrillo.
 
-- Daniel Riveros. 》
+- Daniel Riveros.
 
 ## Francés
 
@@ -1668,11 +1668,11 @@ Suplentes:
 
 - » Francisco J.  Merino.
 
-- Apolinario Puga. 》
+- Apolinario Puga.
 
-- David Torres. 《
+- David Torres.
 
-- Juan E. Gutiérrez. 》
+- Juan E. Gutiérrez.
 
 ## Inglés
 
@@ -1686,9 +1686,9 @@ don Edmundo Georgi.
 
 Kuno Habenicht.
 
-- Francisco J.  Briones. 《
+- Francisco J.  Briones.
 
-- Charles Stein. 》
+- Charles Stein.
 
 ## Instruccion Cívica
 
@@ -1700,11 +1700,11 @@ Suplentes:,
 
 - » Daniel Riveros. *
 
-- Apolinario Puga. 》
+- Apolinario Puga.
 
-- Francisco J.  Merino. 》
+- Francisco J.  Merino.
 
-- Elías Muñoz. 》
+- Elías Muñoz.
 ```
 
 ## Images, Captions, And Visual Notes

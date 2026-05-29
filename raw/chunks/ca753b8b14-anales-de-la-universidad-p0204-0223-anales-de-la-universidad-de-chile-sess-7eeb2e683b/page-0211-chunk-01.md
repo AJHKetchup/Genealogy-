@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-44e0aeac72c9-P0211-01
+chunk_id: CHUNK-a4de3f993528-P0211-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223.codex.md
-converted_sha256: 44e0aeac72c942f811384f82951367a7d8f78f14c3583524809b9bc24ec65819
+converted_sha256: a4de3f99352867cde52008238987cf485268a2832a6cde58f8fdbfa9564fef91
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json
@@ -13,76 +13,99 @@ part: 1
 
 ## Page Metadata
 
-- **Page number**: 211
-- **Source-provided page number**: 497
-- **Document title**: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- **Document language**: Spanish
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 211
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0211.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page is a single column of printed text. The reading order is from top to bottom. The content is a continuation of a list from the previous page, followed by several sections organized by academic subject: "Matemáticas", "Francés", "Historia i Jeografía", and "Ciencias Naturales". Each section lists "Propietarios" (permanent members) and "Suplentes" (substitutes).
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```text
-SESION DE 14 DE OCTUBRE DE 1918 497
-____
-
-Suplentes: don Luis A. González.
-» Luis Oyarzún.
-
-**Matemáticas**
-
-Propietarios: don Luis A. González.
-» Agustín García.
-El profesor del ramo.
-Suplentes: » Juan de Dios Barría.
-» Luis Oyarzún.
-
-**Francés**
-
-Propietarios: don Juan de Dios Baría.
-» Andrés Bahamonde.
-El profesor del ramo
-Suplentes: don Luis A. González.
-» Luis A. Oyarzún.
-
-**Historia i Jeografía**
-
-Propietarios: don Héctor Alvarez.
-» Agustin García.
-El profesor del ramo.
-Suplentes: » Andrés Bahamonde.
-» Luis Oyarzún.
-
-**Ciencias Naturales**
-
-Propietarios: don Agustín García.
-» Héctor Alvarez.
-El profesor del ramo.
-Suplentes: » Luis A. González.
-» Juan de Dios Barría.
-
------
+```markdown
+a 
+SESION DE 14 DE OCTUBRE 
+DLE 1918 
+Suplentes: don Luis A. González. 
+» 
+Luis Oyarzún. 
+Matemáticas 
+Propietarios: don Luis A. González. 
+» 
+Agustín García. 
+El profesor del ramo. 
+Suplentes: 
+» 
+Juan de Dios Barría. 
+» 
+Luis Oyarzún. 
+Francés 
+Propietarios: 
+don Juan de Dios Baría. 
+» 
+Andrés Bahamonde. 
+; 
+El profesor del ramo 
+Suplentes: don Luís A. González. 
+» 
+Luis A. Oyarzún. 
+Historia ¡ Jeografía 
+Propietarios: don Héctor Alvarez. 
+| 
+» 
+Agustin García. 
+El profesor del ramo. 
+Suplentes: 
+.» 
+Andrés Bahamonde. 
+; 
+»_ Luis Oyarzún. 
+Giencias Naturales 
+Propietarios: don Agustín García. 
+» 
+Héctor Alvarez. 
+El profesor del ramo. 
+Suplentes: 
+» 
+Luis A. González. 
+» 
+Juan de Dios Barría. 
+497
 ```
 
 ## Images, Captions, And Visual Notes
 
-There are no images, illustrations, or significant visual elements on this page. The page consists entirely of printed text.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this page.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-This page has been fully and accurately transcribed.
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Visual Region Manifest
-
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only standard printed text with no images, illustrations, or other significant visual elements."
-}
-```
+# Page 212

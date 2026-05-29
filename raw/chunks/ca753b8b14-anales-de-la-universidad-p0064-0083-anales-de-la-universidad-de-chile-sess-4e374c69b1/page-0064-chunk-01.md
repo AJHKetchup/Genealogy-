@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-74894e1e26ef-P0064-01
+chunk_id: CHUNK-b09afcee6556-P0064-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0064-0083-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-64-83.codex.md
-converted_sha256: 74894e1e26ef790e60bb8b46baa54acf976ac5a2a6f4ba6ac1cb75a591f9a947
+converted_sha256: b09afcee6556ac3153ce540a15ba6c709b35c82632c4bd2ea9066fa0f0dce559
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0064-0083-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-64-83/manifest.json
@@ -34,42 +34,42 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 
 Don Samuel Pavez Araya.
 
-- Edecio Torreblanca. 《
-- Enrique Delucchi. 《
-- Enzo Marmentin1. 《
-- Luciano Claude. 《
+- Edecio Torreblanca.
+- Enrique Delucchi.
+- Enzo Marmentin1.
+- Luciano Claude.
 
 ## Para Castellano
 
 Tomas Gatica Martinez.
 
 - Anastasio Barraza.
-- Mariano Latorre. 》
+- Mariano Latorre.
 
 :
 
-- Guillermo Cuadra Gormaz. 《
-- Pedro Mandiola. 《
-- Carlos Vicuña Fuentes. 《
-- Rigoberto Villablanca. 《
-- juan  N. Durán. 》
+- Guillermo Cuadra Gormaz.
+- Pedro Mandiola.
+- Carlos Vicuña Fuentes.
+- Rigoberto Villablanca.
+- juan  N. Durán.
 
 ## Para Inglés
 
 Carlos Hamilton.
 
-- Alberto Contador. 《
-- Luis A. Berrios. 《
-- Luis del Río. 》
+- Alberto Contador.
+- Luis A. Berrios.
+- Luis del Río.
 
-Wilftrida Buxton. Dona
+Wilftrida Buxton.
 
-Carlos Izquierdo. Don
+Carlos Izquierdo.
 
-- José  Mac-Courtney. 《
-- Antonio Oyarzún. 《
-- Darío Salazar. 》
-- Santiago Husband. 》
+- José  Mac-Courtney.
+- Antonio Oyarzún.
+- Darío Salazar.
+- Santiago Husband.
 
 ## Para Francés
 

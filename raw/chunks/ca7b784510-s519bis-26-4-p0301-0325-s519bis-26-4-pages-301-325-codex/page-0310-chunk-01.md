@@ -1,0 +1,96 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-5e0f706463ae-P0310-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0301-0325-s519bis-26-4-pages-301-325.codex.md
+converted_sha256: 5e0f706463ae83e0e8c010863ae2392dd5d6f2376f63aed0109dc5e3b955fc14
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0301-0325-s519bis-26-4-pages-301-325/manifest.json
+page_start: 310
+page_end: 310
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0301-0325-s519bis-26-4-pages-301-325/manifest.json`
+- Source page: 310
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0301-0325-s519bis-26-4-pages-301-325/page-images/page-0310.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-
+2
+Yd.
+ha escrito sohre este importante tôpico, hara que su
+norrfb rami eut o
+como Del egad.o
+a la Conferencia Eeonémiea Inter-
+nacional le
+sea remitido lo mas pronto, para que tenga tiem-
+po de préparai’ todo lo relativo a la conveniente présenta^
+ci6n del Perd
+en este certamen.
+Mueho le agradezeo
+sus tuenos deseos hacia ml y
+mi far.ilia y
+au interes ^or cue el ano que comienza nos
+sea
+grato,
+y retornandolos dehidamente j con vivos deseos de que
+el
+mas
+sonado éxito
+corone
+sus esfuerzos en esta
+campana
+patriôtiea
+en eue esta emperiado,
+quedo a sus ôrdenes como
+su
+mas adicto amigo j S. S.
+Firmado:
+J.
+Balta
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 311

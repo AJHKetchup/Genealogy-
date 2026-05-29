@@ -1496,75 +1496,78 @@ The page is entirely blank. All visible content (or lack thereof) has been fully
 {"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank and contains no meaningful visual content."}
 ```
 
+# Page 323
+
 ## Page Metadata
-Page number: 323
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 323
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0323.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a decorative header at the top, followed by centered text for a section title, author, and a "PROLOGO" heading. The main body of the text, consisting of two paragraphs, is left-aligned below the headings.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-§ 1
 
-MONSEÑOR JOSÉ IGNACIO VICTOR
-EIZAGUIRRE PORTALES
-
-POR
-
-CARLOS SILVA COTAPOS
-
-PROLOGO
-
-La presente biografía de monseñor José Ignacio
-Víctor Eizaguirre ha sido escrita a petición del señor
-rector de la Universidad de Chile, para conmemorar
-el centésimo aniversario de su nacimiento, por los
-eminentes servicios que prestó a la Universidad i a
-las letras.
-Para su redacción me he servido de los siguientes
-documentos i libros.
-El archivo privado de monseñor, en el cual éste
-conservaba casi todas las cartas que recibió en su
+```markdown
+SIS 
+un =— 
+MONSEÑOR JOSÉ IGNACIO VICTOR 
+EIZAGUIRRE PORTALES 
+POR 
+CARLOS SILVA COTAPOS 
+PROLOGO 
+| 
+La presente biografía de monseñor José lenacio 
+Víctor Eizaguirre ha sido escrita a petición del señor 
+rector de la Universidad de Chile, para conmemorar 
+el centésimo aniversario de su nacimiento, por los 
+eminentes servicios que 
+prestó a la Universidad 1 a 
+las letras. 
+Para su redacción 
+me he servido de los sieutentes 
+documentos 1 libros. 
+: 
+El archivo privado de monseñor, en el cual éste 
+conservaba cast todas 
+las cartas que recibió en su
 ```
 
 ## Images, Captions, And Visual Notes
-Pipeline-extracted visual crops:
-- ![converter-description: Decorative header at the top of the page.](../extracted-images/page-0323/page-0323-image-01-decorative-header-323.png)
-  - Kind: illustration; label basis: converter-description; bbox_pct: [8.0, 6.9, 15.5, 84.9]
-  - Source context: Decorative header at the top of the page.
 
-- A decorative horizontal band with repeating ornate patterns is present at the top of the page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and visual elements on the page have been transcribed and noted.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "illustration",
-      "bbox_pct": [
-        8.0,
-        6.9,
-        15.5,
-        84.9
-      ],
-      "caption_literal": null,
-      "caption_type": "converter-description",
-      "identity_basis": null,
-      "source_context": "Decorative header at the top of the page.",
-      "confidence": 0.95,
-      "suggested_filename": "decorative_header_323.png",
-      "inline_anchor": null
-    }
-  ]
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 324
 
@@ -1664,36 +1667,68 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 325
+
 ## Page Metadata
-Page number: 305
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 325
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0325.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a single-column layout. At the top, there's a running head with the author's name on the left and the page number on the right, separated by a horizontal rule. Below this, a paragraph of body text occupies the upper portion of the page. A short horizontal rule appears in the middle of the page, followed by a large empty space. At the bottom, there is a footer indicating the publication and date.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-CARLOS SILVA COTAPOS 305
-La prueba de los hechos que en ella se contienen
-está en alguno de los documentos o libros antes men-
-cionados, cuando no indico su fuente, cosa que he
-hecho en la mayor parte de los casos por no recar-
-garla de citas que los lectores no podrían comprobar
-por ser de documentos inaccesibles para el público.
 
-5.—ANALES.-SETIEMBRI.-OCTUBRE
+```markdown
+CARLOS SILVA COTAPOS 
+: 
+305 
+dl 
+: 
+prueba de los hechos que en ella se contienen 
+1 alguno de los documentos o libros antes men- 
+os, cuando no indico 
+su fuente, cosa que he 
+o en la mayor parte de los casos por no recar- 
+de citas que los lectores no podrían comprobar 
+- OCTUBRE
+```
 
 ## Images, Captions, And Visual Notes
-A short horizontal rule is present approximately in the middle of the page, serving as a visual separator.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and significant visual elements on the page have been transcribed and noted.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected. The page contains only text and a minor decorative rule."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 ## Layout And Reading Order

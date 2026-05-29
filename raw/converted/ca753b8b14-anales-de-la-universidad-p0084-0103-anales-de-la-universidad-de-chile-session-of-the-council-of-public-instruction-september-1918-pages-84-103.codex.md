@@ -653,13 +653,13 @@ Suplentes:
 
 don Bernardino Ouijada.
 
-- Francisco Lara. 》
+- Francisco Lara.
 
-- José  Auger. 《
+- José  Auger.
 
-- Francisco Fuentes. 》
+- Francisco Fuentes.
 
-- Rafael H. Morales. 《
+- Rafael H. Morales.
 
 ## Jeografía Física
 
@@ -669,13 +669,13 @@ Suplentes:
 
 Luis Puga.
 
-- Enrique O'Ryan 》
+- Enrique O'Ryan
 
-- José  Auger. 《
+- José  Auger.
 
-- Ernesto Escobar. 《
+- Ernesto Escobar.
 
-- Carlos Valdovinos. 《
+- Carlos Valdovinos.
 
 ## Filosofía 1.*"  año
 
@@ -685,13 +685,13 @@ Suplentes:
 
 Daniel Martner.
 
-- Pedro León Loyola. 》
+- Pedro León Loyola.
 
-- Ricardo Soria. 《
+- Ricardo Soria.
 
-- Gullermo Cuadra. 《
+- Gullermo Cuadra.
 
-- Mariano Látorre. 》
+- Mariano Látorre.
 
 ## Filosofía 2.2  año
 
@@ -701,13 +701,13 @@ Suplentes:
 
 Daniel Martner.
 
-- Pedro León Loyola. 《
+- Pedro León Loyola.
 
-- Rafael Román. 》.
+- Rafael Román.
 
-- Guillermo Cuadra. 《
+- Guillermo Cuadra.
 
-- Mariano Latorre. 》
+- Mariano Latorre.
 
 ANALES ACTAS.-SETIEMBRE.-OCTUBRE.-26
 ```
@@ -1369,11 +1369,11 @@ Suplentes:
 
 - » Euis Merino.
 
-- Enrique  Bahamonde. 《
+- Enrique  Bahamonde.
 
-- Alfredo Matte. 》
+- Alfredo Matte.
 
-- Guillermo Franzzan. 《
+- Guillermo Franzzan.
 
 ## Inglés
 
@@ -1385,11 +1385,11 @@ Suplentes:
 
 - » Guillermo  Gamboa.
 
-- Ernesto Coutts. 《
+- Ernesto Coutts.
 
-- Rodolfo Machuca. 《
+- Rodolfo Machuca.
 
-- José  Mac-Courtney. 《
+- José  Mac-Courtney.
 
 ## SISTEMA  CONCENTRICO
 
@@ -1405,11 +1405,11 @@ Suplentes:
 
 - » Almanzor Ureta.
 
-- Carlos R.  Mondaca. 《
+- Carlos R.  Mondaca.
 
 - Juan  N. Durán.
 
-- Juan  C.  Rojas. 》
+- Juan  C.  Rojas.
 
 ## Castellano 2.2  i 3. años
 
@@ -1417,9 +1417,9 @@ Propietarios:
 
 don Samuel Lillo.
 
-- Arcadio Ducoing. 《
+- Arcadio Ducoing.
 
-- Juan N.  Durán. 》
+- Juan N.  Durán.
 ```
 
 ## Images, Captions, And Visual Notes

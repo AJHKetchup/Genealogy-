@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-bab321ead980-P0015-01
+chunk_id: CHUNK-f1dcc96f3442-P0015-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25.codex.md
-converted_sha256: bab321ead980402a59e10b1f32dad3488fc539620ae6ac16ff2fbd9a377efa78
+converted_sha256: f1dcc96f34422ce120d6987a0a70be9e00d4df975a2a3676de8ba7be3b8c955b
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25/manifest.json
@@ -12,64 +12,107 @@ part: 1
 ---
 
 ## Page Metadata
-- Page number: 15
-- Source publication year: 1935
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25/manifest.json`
+- Source page: 15
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25/page-images/page-0015.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a typewritten letter in French, dated March 1935. The text is presented in a standard letter format, with a date and reference number at the top right, a recipient's name on the left, followed by the body of the letter, and a handwritten signature at the bottom right. There is also a handwritten page number in the top right corner.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-20 MARS 1935 /12
-18 mars 1935.
-(4)
 
-M. ABRAHAM
-
-Je vous remets ci-joint un éditorial de "LA PRENSA"
-de Buenos Aires, en date du 24 février, intitulé "La natio-
-nalité des personnes nées aux Iles Falkland".
-
-Le contenu de cet éditorial peut se résumer ainsi:
-
-"Etant donné les faits sur lesquels le
-Ministère de l'Intérieur de la République Argenti-
-ne a basé sa résolution pour annuler les cédules
-d'identité des deux personnes nées aux Iles Fal-
-kland et auxquelles on avait attribué la nationa-
-lité anglaise, le journal signale l'utilité d'évi-
-ter et de corriger des erreurs semblables qui sont
-peut-être fréquentes dans les territoires méridio-
-naux de l'Argentine".
-
-Juliánhoqueira
+```markdown
+20 MARS 1935/^
+' 18
+mars
+1935
+(
+M*
+ABRAHAM
+Je
+vous
+remets ci-joint
+un éditorial
+de
+"LA PRESSA"
+de Buenos Aires,
+en date
+du 24 février, intitulé "La natio¬
+nalité
+des
+personnes nées
+aux Iles Falkland".
+Le
+contenu
+de
+cet éditorial pert
+se
+résumer ainsi:
+"Etant
+donné les faits
+sur lesquels le
+Ministère
+de
+1 intérieur
+de la République Argenti¬
+ne
+a basé
+sa résolution pour annuler les cédules
+d’identité
+des
+deux personnes nées
+aux Iles Fal¬
+kland et auxquelles
+on avait attribué la nationa¬
+lité anglaise,
+le
+journal signale l’utilité d’évi¬
+ter et
+de corriger des
+erreurs
+semblables qui
+sont
+peut-être fréquentes
+dans les territoires méridio¬
+naux
+de 1’Argentine".
+f
+```
 
 ## Images, Captions, And Visual Notes
-A handwritten signature appears at the bottom right of the page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and significant visual elements have been transcribed or noted.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "vis_001",
-      "kind": "signature",
-      "bbox_pct": [60.0, 57.0, 67.0, 80.0],
-      "caption_literal": "Juliánhoqueira",
-      "caption_type": "nearby-text",
-      "identity_basis": "transcribed",
-      "source_context": "The handwritten signature at the bottom right of the letter.",
-      "confidence": 0.95,
-      "suggested_filename": "signature_Julianhoqueira_1935.png",
-      "inline_anchor": "Juliánhoqueira"
-    }
-  ]
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 16

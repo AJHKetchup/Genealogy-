@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-44e0aeac72c9-P0214-01
+chunk_id: CHUNK-a4de3f993528-P0214-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223.codex.md
-converted_sha256: 44e0aeac72c942f811384f82951367a7d8f78f14c3583524809b9bc24ec65819
+converted_sha256: a4de3f99352867cde52008238987cf485268a2832a6cde58f8fdbfa9564fef91
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json
@@ -13,79 +13,103 @@ part: 1
 
 ## Page Metadata
 
-- **Page number**: 214
-- **Source language**: es
-- **Document title**: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- **Document type**: Periodical
-- **Publisher**: Universidad de Chile
-- **Publication date**: 1918
-- **Record type**: Roster
-- **Record theme**: Education
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 214
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0214.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page is a single column of text. The content is organized into lists of names under subject headings. A new section for "LICEO ALEMAN" begins in the lower half of the page, also with subject headings and lists of names. The reading order is from top to bottom.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-500 BOLETIN DE INSTRUCCION PÚBLICA
-___
-
-**Ciencias Naturales**
-
-Don Abraham Gajardo.
-» Pedro Olivares.
-» Otto Urban.
-
-**Francés**
-
-Don Conrado Pflanz.
-» Manuel Andrade.
-Doña Isabel Lanestein.
-
-*Suplentes*
-
-Don Luis Oportus P.
-» Pedro Olivares.
-» Ernesto Merino.
-» Conrado Pflanz.
-» Luis A. Bustos.
-» Otto Urban.
-» Arturo Mutizábal.
-
-___
-
-LICEO ALEMAN
-
-**Castellano**
-
-Don Ernesto Merino.
-» Luis A. Bustos.
-» Alberto Moyano.
-
-**Matemáticas**
-
-Don Pedro Olivares.
-» Manuel Andrade.
-» Agustín Wurtscheid.
+```markdown
+Ciencias Naturales 
+a 
+y 
+Don Abraham Gajardo. 
+» 
+Pedro Olivares. 
+» 
+Otto” Urban. 
+Francés 
+Don Conrado Pflanz. 
+» 
+Manuel Andrade. 
+Doña Isabel Lanestein. 
+Suplentes 
+Don Luis Oportus P. 
+» 
+Pedro Olivares. 
+-» 
+Ernesto Merino. 
+».- Conrado Pflanz. 
+». 
+Luis A Bustos 
+» 
+Otto Urban. 
+Fs 
+> 
+» 
+Arturo Mutizábal. 
+: 
+LICEO ALEMAN 
+Castellano 
+Don Ernesto Merino. 
+; 
+: 
+8 
+» 
+Luis A. Bustos. 
+|
+-» 
+Alberto Moyano. 
+Matemáticas 
+00 
+Don Pedro Olivares. 
+z 
+8 
+» 
+Manuel Andrade. 
+, 
+» 
+Agustín Wurtscheid. 
+: 
+CN
+```
 
 ## Images, Captions, And Visual Notes
 
-This page contains only text. There are no images, illustrations, or other visual elements.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible portions of this page.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-This page has been transcribed in its entirety.
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Visual Region Manifest
-
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page consists entirely of text and standard typographic elements with no significant visual content to crop."
-}
-```
+# Page 215

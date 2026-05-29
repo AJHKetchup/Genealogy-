@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-26d247b022ff-P0160-01
+chunk_id: CHUNK-cd2763985e38-P0160-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163.codex.md
-converted_sha256: 26d247b022ff0e47407aaf3cedf90788354267b3ffc074c72d8a74879a54251f
+converted_sha256: cd2763985e38abaf78402ff95fd5b01f0e3da58eb7a90c434c7eb494c8b189a3
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163/manifest.json
@@ -40,13 +40,13 @@ Suplentes:
 
 :  don José  Melo Burgos.
 
-- Enrique Vidal. 《
+- Enrique Vidal.
 
-- Teófilo Azpilicueta. 《
+- Teófilo Azpilicueta.
 
-- Mario Vergara de  la  F. 《
+- Mario Vergara de  la  F.
 
-- Carlos Navarro. 《
+- Carlos Navarro.
 
 ## Francés
 
@@ -56,13 +56,13 @@ Suplentes:
 
 Jenaro Navarro.
 
-- Luis Miño. 《
+- Luis Miño.
 
-- Adolfo Abaurrea. 《
+- Adolfo Abaurrea.
 
-- Emérito Botello. 《
+- Emérito Botello.
 
-- Carlos Correa. 《
+- Carlos Correa.
 
 ## Inglés
 
@@ -80,14 +80,6 @@ Benedicto A. León,
 
 Gustavo Lagos.
 
-- 《
-
-》
-
-《
-
-《
-
 ## Ciencias Físicas ¡ Naturales
 
 Propietarios:
@@ -96,13 +88,13 @@ Suplentes:
 
 don Gustavo Lagos.
 
-- José  Melo Burgos. 《
+- José  Melo Burgos.
 
-- Teófilo Azpilicueta. 《
+- Teófilo Azpilicueta.
 
-- Ramón Vidal. 《
+- Ramón Vidal.
 
-- Carlos Correa. 《
+- Carlos Correa.
 
 ## Física 1 Química
 
@@ -110,9 +102,9 @@ Propietarios:
 
 Gustavo Lagos.
 
-- José  Melo B. 》
+- José  Melo B.
 
-- Adolfo Abaurrea. 》
+- Adolfo Abaurrea.
 ```
 
 ## Images, Captions, And Visual Notes

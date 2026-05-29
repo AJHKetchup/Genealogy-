@@ -1,0 +1,94 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2c2ff0e30b9b-P0224-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225.codex.md
+converted_sha256: 2c2ff0e30b9bcfaff02a7b627c8377e0e8691a34c0cf5e840a984f698d24c797
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225/manifest.json
+page_start: 224
+page_end: 224
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225/manifest.json`
+- Source page: 224
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225/page-images/page-0224.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+V
+E H
+Z m
+A
+Au
+cours
+de
+mon entretien avec K. PARAk PSEE2* nous
+nous
+sommes "bornés
+a parler de la Conference Interameri
+caine
+de Buenos Aires à laquelle il
+a assisté
+comme dé¬
+légué du Venezuela.
+K, Parra Pérez
+a une «xoellento impression des ré¬
+sultats
+obtenus à Buenos Aires et il est profondément
+convaincu de 1’honnêteté,
+de la
+sagesse de la politique
+que les Stats-ünie poursuivent actuellement vis à vis
+des
+pays
+de l’Amérique latins.
+Il a a ce su^et des Im¬
+pressions très "bonnes de ses entretiens avec %• Cordell
+Hull et surtout
+avec M. Suffiser Celles.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 225

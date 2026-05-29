@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-3cf41b725bb8-P0004-01
+chunk_id: CHUNK-3f694a4a5ff3-P0004-01
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md
-converted_sha256: 3cf41b725bb87464bdcd888447368a0918c119277710d93211a8b2e951528be2
+converted_sha256: 3f694a4a5ff3c30b8bb631ceea98f040b6b7c4c7c826e9863b9fc12e1275f8dc
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json
@@ -12,31 +12,66 @@ part: 1
 ---
 
 ## Page Metadata
-None
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json`
+- Source page: 4
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/page-images/page-0004.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a blue paper strip affixed to the top, with a handwritten number on it. Below this, the main content consists of a block of typed French text, followed by a handwritten date and a stylized handwritten signature. A vertical line divides the page roughly in half, running from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-50 / 95-69 / 55-69
-Les Actes de la Convention de la Conférence
-de Genève, juillet 1929, sur le sort des blessés
-et prisonniers de guerre; ont été placés dans le
-Coffre-Fort du Registry.
-Registry Mai 17, 1930.
-[handwritten signature]
+
+```markdown
+les Actes
+da la
+Convention
+de la Conf^rend^1
+%
+*
+de
+Geneve, juillet 1929,
+sur le sort des Hesses
+et prisonniers
+de
+guerre;
+ont ete places dans le
+Coffre-Fort du Registry,
+Registry Mai 17.
+1920.
+```
 
 ## Images, Captions, And Visual Notes
-- A blue paper strip is affixed horizontally across the top of the page.
-- A stylized handwritten signature appears below the typed date.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and significant visual elements have been transcribed or noted.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, headshots, group photographs, labeled photographs, substantial maps, large illustrations, or source-meaningful diagrams/charts are present. The handwritten signature is noted in the transcription and visual notes."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

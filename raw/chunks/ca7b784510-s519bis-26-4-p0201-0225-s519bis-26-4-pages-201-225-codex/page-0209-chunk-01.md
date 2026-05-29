@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-7f81b63dc283-P0209-01
+chunk_id: CHUNK-2c2ff0e30b9b-P0209-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225.codex.md
-converted_sha256: 7f81b63dc2838ba090ed76053618faeb297d2409bf8437a59d50bd2416194f5f
+converted_sha256: 2c2ff0e30b9bcfaff02a7b627c8377e0e8691a34c0cf5e840a984f698d24c797
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225/manifest.json
@@ -13,67 +13,88 @@ part: 1
 
 ## Page Metadata
 
-- **Page number**: 209
-- **Document type**: Typed Letter
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225/manifest.json`
+- Source page: 209
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225/page-images/page-0209.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The document is a single-column typed letter on a full page. The reading order is as follows:
-1.  Date and location, aligned to the right at the top of the page.
-2.  Recipient's name and address, aligned to the left, below the date.
-3.  Salutation, aligned to the left.
-4.  The body of the letter, consisting of three paragraphs.
-5.  A hole punch is visible on the left margin.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```text
-GINEBRA, 6 de Febrero 1929.
-
-Sr. D. E. Paradas
-Secretario de la Legación de la
-República Dominicana
-17, Avenue Franco-Russe
-P A R I S
-
-Estimado y distinguido amigo:
-
-Recibí hoy su carta de anteayer con los datos que
-gentilmente me envía referentes a su señorita hermana. No
-me dice Vd. en su nota si habla francés o inglés, pero re-
-cuerdo que tanto Vd. como el Sr. Franco manifestaron que
-conoce el francés. Agregué, pues, ese dato a la nota que
-preparé para el Servicio del Personal de esta Secretaría.
-
-Espero que su señorita hermana telegrafiará su
-resolución aceptando la invitación del Secretario General
-y deseo poder presentarle mis respetos si viene a Ginebra
-y si para entonces he vuelto yo de un viaje que pienso
-realizar el 21 del corriente a Montevideo.
-
-Con mis saludos a nuestro estimado amigo Franco,
-acepte un cordial apretón de manos para Vd.
+```markdown
+ôIHÜSB&â,
+6
+de Febrero 1929,
+Sr.
+D,
+s.
+Paradas
+Secretario de la Legaciôn de la
+Republics Dominieana
+Avenue Franco—Russe
+*3? A RIS
+Estimado y distinguido aralgo;
+ffsrs!'SHS ÊSSïsK»: »
+o°Se°
+I1 Sr*
+üSfcÆV'
+préparé
+Para el ^ervielo^ei Sïw^SV&û Seomtrfa?
+resolaoléfïoépt^o^a'îmteeiénersec-ef^f1^ aU
+7 4o»eo poder presentarle S^reepetli ai°Ti.“ a
+y
+s i
+para
+entonces he vuelto yo de un via le
+aue
+DiannA ^
+realizar el
+21 del corriente
+a IfônteVidîof *
+P
+Con mis saludos
+a nuestro
+estimado
+ami^o
+acepte un cordial apretôn de
+manos para ?d?
+** F*anc0’
 ```
 
 ## Images, Captions, And Visual Notes
 
-The page contains a typed letter on light-colored, possibly gray or beige, textured paper. The typewritten text is dark, likely black ink. There is a single, irregularly shaped hole punch in the upper left margin.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this document.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-The entire content of the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typewritten text and a minor hole punch, with no significant visual elements like photographs, illustrations, or maps that would warrant cropping."
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 210
