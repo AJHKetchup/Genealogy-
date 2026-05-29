@@ -19,9 +19,9 @@ family_relevance: critical
 matched_terms:
   - Arriagada
   - Pulgar
-conversion_confidence: high
-conversion_qa_concern: "QC requested reread-page. The local rendered page image at raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-images/page-0011.jpg was visually reread for this extraction and confirms the session date, Medicos-Cirujanos heading, and Darío J. Pulgar Arriagada line. Identity merging remains outside this packet."
-promotion_recommendation: promote_after_review
+conversion_confidence: medium
+conversion_qa_concern: "QC requested reread-page. In this workspace, the task source PDF path and the page-0011 rendered image referenced by page-0011.visuals.json are not present; only the converted page Markdown and assigned chunk are available. The derivative text consistently supports the session date, Medicos-Cirujanos heading, and Darío J. Pulgar Arriagada line, but visual/source verification remains outstanding. Identity merging remains outside this packet."
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Source Packet: Darío J. Pulgar Arriagada, Médico-Cirujano Title
@@ -48,7 +48,7 @@ Médicos-Cirujanos:
 
 ## Conversion Confidence And QA Concern
 
-Conversion confidence is high for the narrow date, title-heading, and name reading. The local page image `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-images/page-0011.jpg` was visually reread during this extraction and confirms the relevant text. The source uses historical spelling, including `Sesion`, `Setiembre`, and `i`.
+Conversion confidence is medium for promotion readiness. The assigned chunk and conversion page Markdown agree on the narrow date, title-heading, and name reading, but the task was flagged `reread-page` and this workspace does not contain either the task source PDF path or the local rendered page image named in `page-0011.visuals.json`. The source uses historical spelling in the derivative text, including `Sesion`, `Setiembre`, and `i`.
 
 ## Uncertainty
 
@@ -56,4 +56,4 @@ Low uncertainty for the narrow claim that the 2 September 1918 session minutes l
 
 ## Promotion Recommendation
 
-Promote after proof review for only the narrow title-conferral/named-person claim. Do not use this packet alone to merge `Darío J. Pulgar Arriagada` with `Dario Jose Pulgar-Arriagada`, `Dario Pulgar A.`, adult or child passenger-list `Dario Pulgar` entries, later `Darío Pulgar Arriagada` legal notices, or `Dario Arturo Pulgar` / `Dario Arturo Pulgar-Smith`.
+Hold for conversion/source QA before canonical promotion because page-image reread was requested but could not be completed from the files present in this workspace. After source/image verification, promote only the narrow title-conferral/named-person claim if proof review accepts the reading. Do not use this packet alone to merge `Darío J. Pulgar Arriagada` with `Dario Jose Pulgar-Arriagada`, `Dario Pulgar A.`, adult or child passenger-list `Dario Pulgar` entries, later `Darío Pulgar Arriagada` legal notices, or `Dario Arturo Pulgar` / `Dario Arturo Pulgar-Smith`.

@@ -24,12 +24,12 @@
 | 14 | none | medium | spot-check | possible_table_layout_loss | none |
 | 418 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
-| 17 | none | high | pass | none | none |
+| 420 | none | high | pass | none | none |
 | 421 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |
 | 423 | none | high | pass | none | none |
 | 21 | none | high | pass | none | none |
 | 22 | none | high | pass | none | none |
 | 23 | none | high | pass | none | none |
-| 24 | none | high | pass | none | none |
+| 427 | none | high | pass | none | none |
 | 25 | none | high | pass | none | none |

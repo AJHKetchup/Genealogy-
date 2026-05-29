@@ -14,7 +14,7 @@ Use `$genealogy-claim-extraction`.
 - Family relevance: `none`
 - Matched family terms: none
 - Narrative cues: discussion, session
-- Evidence priority: `4001` (family_relevance:none, qc:pass, deferred_until_family_relevant)
+- Evidence priority: `4001` (family_relevance:none, deferred_until_family_relevant)
 
 
 

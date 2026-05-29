@@ -23,7 +23,7 @@
 | 13 | none | high | pass | none | none |
 | 54 | none | high | pass | none | none |
 | 55 | none | high | pass | none | none |
-| 16 | high | high | pass | none | Alexander |
+| 56 | medium | high | pass | none | Alexander |
 | 57 | medium | high | pass | none | Smith |
 | 58 | none | high | pass | none | none |
 | 59 | none | high | pass | none | none |

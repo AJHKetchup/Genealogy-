@@ -9,15 +9,15 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
-| 2 | none | high | pass | none | none |
+| 480 | none | high | pass | none | none |
 | 3 | none | medium | spot-check | possible_table_layout_loss | none |
 | 482 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
-| 6 | none | high | pass | none | none |
-| 7 | none | high | pass | none | none |
+| 484 | none | high | pass | none | none |
+| 485 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
 | 487 | none | high | pass | none | none |
-| 10 | none | high | pass | none | none |
+| 488 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 491 | none | high | pass | none | none |

@@ -11,8 +11,8 @@ converted_file: "raw/converted/ca753b8b14-anales-de-la-universidad-p0004-0023-an
 chunk: "raw/chunks/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-sess-af33a57786/page-0011-chunk-01.md"
 chunk_id: CHUNK-c3c383bb7b4e-P0011-01
 page_reference: "source page 11"
-confidence: high
-promotion_recommendation: promote_after_review
+confidence: medium
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Claim: Médico-Cirujano Title
@@ -21,6 +21,6 @@ promotion_recommendation: promote_after_review
 - Converted file: `raw/converted/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23.codex.md`.
 - Chunk/page reference: `CHUNK-c3c383bb7b4e-P0011-01`, source page 11.
 - Literal support: the page says the Rector `confirió los siguientes títulos i grados`, followed by `Médicos-Cirujanos:` and the list entry `» Darío J. Pulgar Arriagada`.
-- Conversion confidence/QA concern: high for this narrow claim after visual reread of the local page image at `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-images/page-0011.jpg`.
+- Conversion confidence/QA concern: medium for promotion readiness. The assigned chunk and conversion page Markdown agree on this narrow reading, but the task was flagged `reread-page` and neither the task source PDF path nor the local page-0011 rendered image is present in this workspace.
 - Uncertainty: the middle initial is printed only as `J.` and is not expanded. This source does not prove a same-person merge with any other Dario/Pulgar candidate and states no family relationship.
-- Promotion recommendation: promote after proof review as a narrow professional-title conferral claim for the literal named person.
+- Promotion recommendation: hold for conversion/source QA. After page-image or source verification, this can be reconsidered as a narrow professional-title conferral claim for the literal named person.

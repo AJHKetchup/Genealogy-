@@ -1,10 +1,10 @@
 ﻿{
     "created":  "2026-05-29",
     "queue":  "proof-review",
-    "task_count":  4392,
+    "task_count":  4407,
     "status_counts":  {
-                          "todo":  3957,
-                          "done":  370,
+                          "todo":  3969,
+                          "done":  373,
                           "released":  65
                       },
     "tasks":  [
@@ -3987,6 +3987,15 @@
                       "skill":  "genealogy-proof-review"
                   },
                   {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-9c09bf855da9-p0014-01-003-dario-pulgar-a-inherited-fundo-from-unnamed-parents-reread-postconv-evidence-extraction-20260529152335225-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/claims/chunk-9c09bf855da9-p0014-01-003-dario-pulgar-a-inherited-fundo-from-unnamed-parents-reread-postconv-evidence-extraction-20260529152335225.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-9c09bf855da9-p0014-01-003-dario-pulgar-a-inherited-fundo-from-unnamed-parents-reread-postconv-evidence-extraction-20260529152335225.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
                       "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-9c09bf855da9-p0014-01-003-dario-pulgar-a-inherited-fundo-from-unnamed-parents-visual-qa-postconv-evidence-extraction-20260529125714482-md.md",
                       "queue":  "proof-review",
                       "staged_draft":  "research/_staging/claims/chunk-9c09bf855da9-p0014-01-003-dario-pulgar-a-inherited-fundo-from-unnamed-parents-visual-qa-postconv-evidence-extraction-20260529125714482.md",
@@ -4073,6 +4082,15 @@
                       "staged_draft":  "research/_staging/claims/chunk-9c09bf855da9-p0014-01-043-dario-pulgar-inherited-fundo-from-unnamed-parents-visual-qa-blocked-postconv-evidence-extraction-20260529123947710.md",
                       "role":  "claim_reviewer",
                       "task_id":  "proof-review:research/_staging/claims/chunk-9c09bf855da9-p0014-01-043-dario-pulgar-inherited-fundo-from-unnamed-parents-visual-qa-blocked-postconv-evidence-extraction-20260529123947710.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-9c09bf855da9-p0014-01-048-dario-pulgar-a-inherited-fundo-from-unnamed-parents-visual-reread-postconv-evidence-extraction-20260529153922240-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/claims/chunk-9c09bf855da9-p0014-01-048-dario-pulgar-a-inherited-fundo-from-unnamed-parents-visual-reread-postconv-evidence-extraction-20260529153922240.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-9c09bf855da9-p0014-01-048-dario-pulgar-a-inherited-fundo-from-unnamed-parents-visual-reread-postconv-evidence-extraction-20260529153922240.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   },
@@ -15673,6 +15691,15 @@
                       "skill":  "genealogy-proof-review"
                   },
                   {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-identity-chunk-c3c383bb7b4e-p0011-01-dario-j-pulgar-arriagada-identity-candidate-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/identity/chunk-c3c383bb7b4e-p0011-01-dario-j-pulgar-arriagada-identity-candidate.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/identity/chunk-c3c383bb7b4e-p0011-01-dario-j-pulgar-arriagada-identity-candidate.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
                       "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-identity-chunk-dd34187523f5-p0005-01-dario-arturo-pulgar-identity-candidate-md.md",
                       "queue":  "proof-review",
                       "staged_draft":  "research/_staging/identity/chunk-dd34187523f5-p0005-01-dario-arturo-pulgar-identity-candidate.md",
@@ -17086,33 +17113,6 @@
                       "skill":  "genealogy-proof-review"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-identity-analysis-conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093428388-md.md",
-                      "queue":  "proof-review",
-                      "staged_draft":  "research/_staging/identity-analysis/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093428388.md",
-                      "role":  "claim_reviewer",
-                      "task_id":  "proof-review:research/_staging/identity-analysis/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093428388.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
-                  },
-                  {
-                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-identity-analysis-conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093429110-md.md",
-                      "queue":  "proof-review",
-                      "staged_draft":  "research/_staging/identity-analysis/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093429110.md",
-                      "role":  "claim_reviewer",
-                      "task_id":  "proof-review:research/_staging/identity-analysis/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093429110.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
-                  },
-                  {
-                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-identity-analysis-conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093649229-md.md",
-                      "queue":  "proof-review",
-                      "staged_draft":  "research/_staging/identity-analysis/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093649229.md",
-                      "role":  "claim_reviewer",
-                      "task_id":  "proof-review:research/_staging/identity-analysis/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093649229.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
-                  },
-                  {
                       "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-identity-analysis-conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093908482-md.md",
                       "queue":  "proof-review",
                       "staged_draft":  "research/_staging/identity-analysis/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093908482.md",
@@ -17199,6 +17199,15 @@
                       "staged_draft":  "research/_staging/identity-analysis/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-qa-revision-postconv-identity-researcher-20260529053554413.md",
                       "role":  "claim_reviewer",
                       "task_id":  "proof-review:research/_staging/identity-analysis/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-qa-revision-postconv-identity-researcher-20260529053554413.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-identity-analysis-conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-reread-postconv-evidence-extraction-20260529152335225-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/identity-analysis/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-reread-postconv-evidence-extraction-20260529152335225.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/identity-analysis/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-reread-postconv-evidence-extraction-20260529152335225.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   },
@@ -20770,7 +20779,7 @@
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-29T12:55:40Z",
+                      "updated_at":  "2026-05-29T15:21:57Z",
                       "started_at":  "2026-05-27T15:19:11Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -20780,13 +20789,13 @@
                       "task_id":  "proof-review:research/_staging/identity-analysis/chunk-29479e7d4e8a-p0001-06-directory-layout-alignment-watch-postconv-identity-analysis-20260527145114300.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-27T15:19:11Z",
-                      "released_at":  "2026-05-29T12:55:40Z",
+                      "released_at":  "2026-05-29T15:21:57Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-29T12:55:40Z",
+                      "updated_at":  "2026-05-29T15:21:57Z",
                       "started_at":  "2026-05-29T05:17:05Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -20796,13 +20805,13 @@
                       "task_id":  "proof-review:research/_staging/identity-analysis/chunk-79c07f59ec3a-p0002-01-no-material-conflict-postconv-identity-analysis-20260529045038018.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-29T05:17:04Z",
-                      "released_at":  "2026-05-29T12:55:40Z",
+                      "released_at":  "2026-05-29T15:21:57Z",
                       "role":  "claim_reviewer"
                   },
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-29T12:55:40Z",
+                      "updated_at":  "2026-05-29T15:21:57Z",
                       "started_at":  "2026-05-29T12:27:25Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -20812,7 +20821,7 @@
                       "task_id":  "proof-review:research/_staging/identity-analysis/chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-postconv-identity-analysis-20260529093909175.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-29T12:27:25Z",
-                      "released_at":  "2026-05-29T12:55:40Z",
+                      "released_at":  "2026-05-29T15:21:57Z",
                       "role":  "claim_reviewer"
                   },
                   {
@@ -20914,7 +20923,7 @@
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-29T12:55:40Z",
+                      "updated_at":  "2026-05-29T15:21:57Z",
                       "started_at":  "2026-05-23T21:09:59Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -20924,7 +20933,7 @@
                       "task_id":  "proof-review:research/_staging/identity-analysis/identity-analysis-chunk-a048d567968b-p0001-03-dario-pulgar.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-23T21:09:59Z",
-                      "released_at":  "2026-05-29T12:55:40Z",
+                      "released_at":  "2026-05-29T15:21:57Z",
                       "role":  "claim_reviewer"
                   },
                   {
@@ -21122,7 +21131,7 @@
                   {
                       "skill":  "genealogy-proof-review",
                       "note":  "restored proof-review page image asset; rerun review",
-                      "updated_at":  "2026-05-29T12:55:40Z",
+                      "updated_at":  "2026-05-29T15:21:57Z",
                       "started_at":  "2026-05-29T01:05:43Z",
                       "queue":  "proof-review",
                       "released_by":  "post-conversion-review-assets",
@@ -21132,7 +21141,7 @@
                       "task_id":  "proof-review:research/_staging/identity-analysis/identity-analysis-conflict-chunk-4177939279cb-p0011-01-page-reference-and-signature-qa-postconv-identity-analysis-20260525092627833.md",
                       "status":  "released",
                       "claimed_at":  "2026-05-29T01:05:42Z",
-                      "released_at":  "2026-05-29T12:55:40Z",
+                      "released_at":  "2026-05-29T15:21:57Z",
                       "role":  "claim_reviewer"
                   },
                   {
@@ -21985,6 +21994,51 @@
                       "task_id":  "proof-review:research/_staging/identity-analysis/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093205616.md",
                       "status":  "done",
                       "claimed_at":  "2026-05-29T13:04:10Z",
+                      "role":  "claim_reviewer"
+                  },
+                  {
+                      "skill":  "genealogy-proof-review",
+                      "agent":  "postconv-proof-review-20260529154711639",
+                      "updated_at":  "2026-05-29T15:49:20Z",
+                      "started_at":  "2026-05-29T15:23:33Z",
+                      "queue":  "proof-review",
+                      "note":  "post-conversion controller start",
+                      "staged_draft":  "research/_staging/identity-analysis/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093428388.md",
+                      "completed_at":  "2026-05-29T15:49:20Z",
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-identity-analysis-conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093428388-md.md",
+                      "task_id":  "proof-review:research/_staging/identity-analysis/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093428388.md",
+                      "status":  "done",
+                      "claimed_at":  "2026-05-29T15:23:32Z",
+                      "role":  "claim_reviewer"
+                  },
+                  {
+                      "skill":  "genealogy-proof-review",
+                      "agent":  "postconv-proof-review-20260529153921608",
+                      "updated_at":  "2026-05-29T15:45:12Z",
+                      "started_at":  "2026-05-29T15:29:51Z",
+                      "queue":  "proof-review",
+                      "note":  "post-conversion controller start",
+                      "staged_draft":  "research/_staging/identity-analysis/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093429110.md",
+                      "completed_at":  "2026-05-29T15:45:12Z",
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-identity-analysis-conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093429110-md.md",
+                      "task_id":  "proof-review:research/_staging/identity-analysis/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093429110.md",
+                      "status":  "done",
+                      "claimed_at":  "2026-05-29T15:29:50Z",
+                      "role":  "claim_reviewer"
+                  },
+                  {
+                      "skill":  "genealogy-proof-review",
+                      "agent":  "postconv-proof-review-20260529154450827",
+                      "updated_at":  "2026-05-29T15:46:54Z",
+                      "started_at":  "2026-05-29T15:34:41Z",
+                      "queue":  "proof-review",
+                      "note":  "post-conversion controller start",
+                      "staged_draft":  "research/_staging/identity-analysis/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093649229.md",
+                      "completed_at":  "2026-05-29T15:46:54Z",
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-identity-analysis-conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093649229-md.md",
+                      "task_id":  "proof-review:research/_staging/identity-analysis/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-name-form-proof-review-revision-postconv-identity-analysis-20260529093649229.md",
+                      "status":  "done",
+                      "claimed_at":  "2026-05-29T15:34:40Z",
                       "role":  "claim_reviewer"
                   },
                   {
@@ -26642,6 +26696,24 @@
                       "skill":  "genealogy-proof-review"
                   },
                   {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-source-packets-chunk-9c09bf855da9-p0014-01-el-aguila-fundo-los-cuartos-dario-pulgar-visual-reread-postconv-evidence-extraction-20260529152335225-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/source-packets/chunk-9c09bf855da9-p0014-01-el-aguila-fundo-los-cuartos-dario-pulgar-visual-reread-postconv-evidence-extraction-20260529152335225.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/source-packets/chunk-9c09bf855da9-p0014-01-el-aguila-fundo-los-cuartos-dario-pulgar-visual-reread-postconv-evidence-extraction-20260529152335225.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-source-packets-chunk-9c09bf855da9-p0014-01-el-aguila-fundo-los-cuartos-dario-pulgar-visual-reread-postconv-evidence-extraction-20260529153922240-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/source-packets/chunk-9c09bf855da9-p0014-01-el-aguila-fundo-los-cuartos-dario-pulgar-visual-reread-postconv-evidence-extraction-20260529153922240.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/source-packets/chunk-9c09bf855da9-p0014-01-el-aguila-fundo-los-cuartos-dario-pulgar-visual-reread-postconv-evidence-extraction-20260529153922240.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
                       "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-source-packets-chunk-9c62869f461b-p0005-01-cv-dario-arturo-pulgar-work-history-md.md",
                       "queue":  "proof-review",
                       "staged_draft":  "research/_staging/source-packets/chunk-9c62869f461b-p0005-01-cv-dario-arturo-pulgar-work-history.md",
@@ -31124,6 +31196,15 @@
                       "skill":  "genealogy-proof-review"
                   },
                   {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-9c09bf855da9-p0014-01-001-dario-pulgar-a-owner-fundo-los-cuartos-reread-postconv-evidence-extraction-20260529152335225-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/claims/chunk-9c09bf855da9-p0014-01-001-dario-pulgar-a-owner-fundo-los-cuartos-reread-postconv-evidence-extraction-20260529152335225.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-9c09bf855da9-p0014-01-001-dario-pulgar-a-owner-fundo-los-cuartos-reread-postconv-evidence-extraction-20260529152335225.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
                       "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-9c09bf855da9-p0014-01-001-dario-pulgar-a-owner-fundo-los-cuartos-visual-qa-postconv-evidence-extraction-20260529125714482-md.md",
                       "queue":  "proof-review",
                       "staged_draft":  "research/_staging/claims/chunk-9c09bf855da9-p0014-01-001-dario-pulgar-a-owner-fundo-los-cuartos-visual-qa-postconv-evidence-extraction-20260529125714482.md",
@@ -31147,6 +31228,15 @@
                       "staged_draft":  "research/_staging/claims/chunk-9c09bf855da9-p0014-01-001-dario-pulgar-owner-fundo-los-cuartos.md",
                       "role":  "claim_reviewer",
                       "task_id":  "proof-review:research/_staging/claims/chunk-9c09bf855da9-p0014-01-001-dario-pulgar-owner-fundo-los-cuartos.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-9c09bf855da9-p0014-01-002-dario-pulgar-a-physician-concepcion-reread-postconv-evidence-extraction-20260529152335225-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/claims/chunk-9c09bf855da9-p0014-01-002-dario-pulgar-a-physician-concepcion-reread-postconv-evidence-extraction-20260529152335225.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-9c09bf855da9-p0014-01-002-dario-pulgar-a-physician-concepcion-reread-postconv-evidence-extraction-20260529152335225.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   },
@@ -31196,6 +31286,15 @@
                       "skill":  "genealogy-proof-review"
                   },
                   {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-9c09bf855da9-p0014-01-004-fundo-los-cuartos-location-size-context-reread-postconv-evidence-extraction-20260529152335225-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/claims/chunk-9c09bf855da9-p0014-01-004-fundo-los-cuartos-location-size-context-reread-postconv-evidence-extraction-20260529152335225.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-9c09bf855da9-p0014-01-004-fundo-los-cuartos-location-size-context-reread-postconv-evidence-extraction-20260529152335225.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
                       "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-9c09bf855da9-p0014-01-004-fundo-los-cuartos-size-location-context-visual-qa-postconv-evidence-extraction-20260529125714482-md.md",
                       "queue":  "proof-review",
                       "staged_draft":  "research/_staging/claims/chunk-9c09bf855da9-p0014-01-004-fundo-los-cuartos-size-location-context-visual-qa-postconv-evidence-extraction-20260529125714482.md",
@@ -31210,6 +31309,15 @@
                       "staged_draft":  "research/_staging/claims/chunk-9c09bf855da9-p0014-01-005-dario-pulgar-a-signature-name-form-visual-qa-postconv-evidence-extraction-20260529125714482.md",
                       "role":  "claim_reviewer",
                       "task_id":  "proof-review:research/_staging/claims/chunk-9c09bf855da9-p0014-01-005-dario-pulgar-a-signature-name-form-visual-qa-postconv-evidence-extraction-20260529125714482.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-9c09bf855da9-p0014-01-005-dario-pulgar-signature-name-form-held-reread-postconv-evidence-extraction-20260529152335225-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/claims/chunk-9c09bf855da9-p0014-01-005-dario-pulgar-signature-name-form-held-reread-postconv-evidence-extraction-20260529152335225.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-9c09bf855da9-p0014-01-005-dario-pulgar-signature-name-form-held-reread-postconv-evidence-extraction-20260529152335225.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   },
@@ -31471,6 +31579,33 @@
                       "staged_draft":  "research/_staging/claims/chunk-9c09bf855da9-p0014-01-045-dario-pulgar-signature-name-form-visual-qa-blocked-postconv-evidence-extraction-20260529123947710.md",
                       "role":  "claim_reviewer",
                       "task_id":  "proof-review:research/_staging/claims/chunk-9c09bf855da9-p0014-01-045-dario-pulgar-signature-name-form-visual-qa-blocked-postconv-evidence-extraction-20260529123947710.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-9c09bf855da9-p0014-01-046-dario-pulgar-a-owner-fundo-los-cuartos-visual-reread-postconv-evidence-extraction-20260529153922240-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/claims/chunk-9c09bf855da9-p0014-01-046-dario-pulgar-a-owner-fundo-los-cuartos-visual-reread-postconv-evidence-extraction-20260529153922240.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-9c09bf855da9-p0014-01-046-dario-pulgar-a-owner-fundo-los-cuartos-visual-reread-postconv-evidence-extraction-20260529153922240.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-9c09bf855da9-p0014-01-047-dario-pulgar-a-physician-concepcion-visual-reread-postconv-evidence-extraction-20260529153922240-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/claims/chunk-9c09bf855da9-p0014-01-047-dario-pulgar-a-physician-concepcion-visual-reread-postconv-evidence-extraction-20260529153922240.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-9c09bf855da9-p0014-01-047-dario-pulgar-a-physician-concepcion-visual-reread-postconv-evidence-extraction-20260529153922240.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-claims-chunk-9c09bf855da9-p0014-01-049-fundo-los-cuartos-property-context-dario-pulgar-a-visual-reread-postconv-evidence-extraction-20260529153922240-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/claims/chunk-9c09bf855da9-p0014-01-049-fundo-los-cuartos-property-context-dario-pulgar-a-visual-reread-postconv-evidence-extraction-20260529153922240.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/claims/chunk-9c09bf855da9-p0014-01-049-fundo-los-cuartos-property-context-dario-pulgar-a-visual-reread-postconv-evidence-extraction-20260529153922240.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   },
@@ -39897,11 +40032,29 @@
                       "skill":  "genealogy-proof-review"
                   },
                   {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-relationships-chunk-9c09bf855da9-p0014-01-dario-pulgar-a-unnamed-parents-no-tree-link-reread-postconv-evidence-extraction-20260529152335225-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/relationships/chunk-9c09bf855da9-p0014-01-dario-pulgar-a-unnamed-parents-no-tree-link-reread-postconv-evidence-extraction-20260529152335225.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/relationships/chunk-9c09bf855da9-p0014-01-dario-pulgar-a-unnamed-parents-no-tree-link-reread-postconv-evidence-extraction-20260529152335225.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
                       "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-relationships-chunk-9c09bf855da9-p0014-01-dario-pulgar-a-unnamed-parents-no-tree-link-visual-qa-postconv-evidence-extraction-20260529125714482-md.md",
                       "queue":  "proof-review",
                       "staged_draft":  "research/_staging/relationships/chunk-9c09bf855da9-p0014-01-dario-pulgar-a-unnamed-parents-no-tree-link-visual-qa-postconv-evidence-extraction-20260529125714482.md",
                       "role":  "claim_reviewer",
                       "task_id":  "proof-review:research/_staging/relationships/chunk-9c09bf855da9-p0014-01-dario-pulgar-a-unnamed-parents-no-tree-link-visual-qa-postconv-evidence-extraction-20260529125714482.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/proof-review/proof-review-research-staging-relationships-chunk-9c09bf855da9-p0014-01-dario-pulgar-a-unnamed-parents-no-tree-link-visual-reread-postconv-evidence-extraction-20260529153922240-md.md",
+                      "queue":  "proof-review",
+                      "staged_draft":  "research/_staging/relationships/chunk-9c09bf855da9-p0014-01-dario-pulgar-a-unnamed-parents-no-tree-link-visual-reread-postconv-evidence-extraction-20260529153922240.md",
+                      "role":  "claim_reviewer",
+                      "task_id":  "proof-review:research/_staging/relationships/chunk-9c09bf855da9-p0014-01-dario-pulgar-a-unnamed-parents-no-tree-link-visual-reread-postconv-evidence-extraction-20260529153922240.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   },

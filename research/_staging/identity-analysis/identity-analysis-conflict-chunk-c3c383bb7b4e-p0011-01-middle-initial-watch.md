@@ -3,7 +3,7 @@ type: identity_conflict_analysis
 status: draft
 role: evidence_extractor
 task_id: "evidence-extraction:CHUNK-c3c383bb7b4e-P0011-01"
-worker: postconv-evidence-extraction-20260523231125625
+worker: postconv-evidence-extraction-20260529152951312
 subject: "Darío J. Pulgar Arriagada"
 source_packet: "research/_staging/source-packets/chunk-c3c383bb7b4e-p0011-01-dario-j-pulgar-arriagada-medico-cirujano.md"
 source_path: "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
@@ -12,7 +12,7 @@ chunk: "raw/chunks/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-u
 chunk_id: CHUNK-c3c383bb7b4e-P0011-01
 page_reference: "source page 11"
 confidence: medium
-promotion_recommendation: do_not_promote_identity_merge
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Identity And Conflict Note: Darío J. Pulgar Arriagada
@@ -23,7 +23,7 @@ The page heading reads `Sesion de 2 de Setiembre de 1918`. The text says the Rec
 
 ## Conversion Confidence And QA Concern
 
-The local page image was visually reread for this task and confirms the narrow name/title/date reading. The conversion confidence is high for the printed text used here. The identity question remains a separate proof problem because this source gives only the middle initial `J.`.
+Revision note, 2026-05-29: the prior statement that a local page image was visually reread is not supported by the current workspace. The assigned chunk and conversion page Markdown consistently give the narrow name/title/date reading, but `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf` is not present and the conversion job has no `page-images/page-0011.jpg` file. Because this task was flagged `reread-page`, promotion should remain held for source/image QA.
 
 ## Identity Limits
 
@@ -33,4 +33,4 @@ Do not merge this mention by name alone with `Dario Jose Pulgar-Arriagada`, `Dar
 
 ## Promotion Recommendation
 
-Promote only the narrow professional-title claim after proof review. Do not promote an identity merge or family relationship from this chunk.
+Hold for conversion/source QA before promoting even the narrow professional-title claim. Do not promote an identity merge, middle-name expansion, or family relationship from this chunk.

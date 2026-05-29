@@ -11,8 +11,8 @@
 | 40 | none | high | pass | none | none |
 | 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
-| 4 | none | high | pass | none | none |
-| 5 | none | high | pass | none | none |
+| 47 | none | high | pass | none | none |
+| 48 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
 | 50 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
@@ -22,9 +22,9 @@
 | 55 | none | high | pass | none | none |
 | 56 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
-| 15 | none | high | pass | none | none |
+| 58 | none | high | pass | none | none |
 | 59 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
-| 18 | none | high | pass | none | none |
+| 61 | none | high | pass | none | none |
 | 62 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |
