@@ -1,0 +1,107 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-59d2dd76cef0-P0143-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150.codex.md
+converted_sha256: 59d2dd76cef084d27de66aad7876839ea26fe7a5d8e0b0babb661a0de8823dd2
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/manifest.json
+page_start: 143
+page_end: 143
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/manifest.json`
+- Source page: 143
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/page-images/page-0143.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Durante el ano 1932, y por la aplicaciôn de esta Ley, se pa-
+garon deudas correspondierites a los anos 1930 y 1831 por la
+suma
+de $290,117.41
+Es évidente que este hecho ha contri-
+buido en parte a mejorar la situaciôn economica imperante por
+la amplia distribution que ha tenido ese dinero al pagar con él
+un numéro apreoiable de pequenas acreeneias que estaban en ma-
+nos de gente realmente necesitada.
+Estoy satisfecho, pues, del resultado que en la prâctica ha
+dado la Ley No. 229 iniciada por mi con el fin de proveer, dentre
+de las dificultades econômicas del momento, un medio efectivo üe
+ir cancelando parte de la deuda flotante.
+Deuda exterior.— La deuda externa de la Repiiblica Domi-
+nicana era de $ 16.597.500.00 bonos a la par; pero a fines de ano
+fué reducida a la cifra de $16.498.500.00 con la remesa de $50.000
+en efectivo ordenada por mi en fecha 13 de septiembre de 1932,
+con cargo al probable sobrante del fondo de Emergencia y con
+cuya cantidad se adquirieron $ 95.000 en bonos dominicanos en
+el mercado de New York.
+El plan de emergencia puesto en vigor por la Ley No. 206
+del 24 de octubre de 1931, ha sido aplicado con absoluta regulati-
+dad en todo el ano 1932, y me es placentero anunciar un sobrante
+en dicho fondo de $ 127.167.82 en adiciôn a los $ 50.000 remesa-
+cios por orden mia y en demostraciôn anticipada de mi buena fé en
+-el cumplimiento de las disposiciones senaladas por dicha Ley.
+La Naciôn conoce perfectamente la estructura de ese plan,
+y vosotros que tuvisteis a bien impartirle vuestra aprobaciôn al.
+proyecto de Ley preparado por mi para darle el carâcter de una
+realidad dentro de la organizaciôn administrativa del Estado, co-
+noceis también su estructura y las circunstancias especiales que
+le dieron vida.
+No es sin embargo inutil que yo aproveche esta
+ocasiôn para hacer un breve relato sobre la ejecucicm del referi-
+do plan y sobre los hechos que originaron su concepciôn por par¬
+te del Poder Ejecutivo.
+A mediados del ano 1931 se produjo una verdadeia crisis que
+tuvo
+su origen en una merma extremada de las renias del Go>
+bierno.
+Desde el 1930 la Hacienda Pûblica venia sufriendo difi¬
+cultades que fueron agravadas por los estragos que ocasionô ei
+huracân que destruyô la ciudad Capital en la tarde del 3 de sep¬
+tiembre.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 144

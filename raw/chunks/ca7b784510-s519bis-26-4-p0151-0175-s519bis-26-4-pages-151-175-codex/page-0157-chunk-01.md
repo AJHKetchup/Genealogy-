@@ -1,0 +1,108 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2b0d49d0c1e2-P0157-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175.codex.md
+converted_sha256: 2b0d49d0c1e26f48bb88fee8eed4e432c5c8b6f0d035bf551d8ceb2a25a4a47b
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/manifest.json
+page_start: 157
+page_end: 157
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/manifest.json`
+- Source page: 157
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/page-images/page-0157.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—34-
+La indole peculiar de nuestra gente, de no concéder impor-
+tancia a las prescriptions sanitarias, va cediendo a la persisten¬
+ce de la actividad de la campana en este nuevo aspecto que se le
+ha trazado.
+Por otra parte, la oportuna acciôn de las Brigadas Sanita¬
+rias ha contenido la existence de ciertas enfermedades que sue-
+len presentarse com carâcter epidémdco en algunos lugares del
+pais.
+Contra la contamination del suelo.— La contamination del
+suelo y sus abastecimientos' de agua la origina principalmente la
+falta de hâbitos higiénicos con que viven nuestros campesinos, a
+quienes se les hace por la via. del consejo y la ensenanza, y por
+medios compulsivos en casos necesarios, eonstruir sus retretes.
+Sin esa prevision, inutiles serian los medios cientifieos1 en
+uso, ya que los curados de uncinariasis y otras enfermedades pa-
+rasiticas serian afectados por ellas nuevamente si persistieran
+las mismas costumbres que favorecieron su desarrollo.
+La profilaxis de estos males que se ceban en la clase traba-
+jadora del campo, esta en manos de la escuela.
+Prédica sanita¬
+ria constante ha sido y sigue siemdo la norma primordial del De-
+partamento de Sanidad y Beneficencia.
+El tifus> que diezmaba
+nuestra poblacion rural ano por ano en la época de lluvia, con el
+arrastre de las tierras contaminadas a las fuentes destinadas al
+consumo humano, ha dejado de ser uno de nuestros graves males1.
+Conjuntamente con esta campana de education higiénica se
+hizo la necesaria provision de equipo.
+Al efecto se proveyô opor-
+tunamente al Departamento
+de Sanidad
+de cimcuenta equipos
+completos para el examen hidrotrimétrico de las aguas de consu¬
+mo, con lo cual se proporciona a los habitantes de las poblaciones
+que se surten de agua de rios o de lagunas cercanas, medios de
+seguridad para su uso.
+Campana de minimization.—■Se hizo la vacunacion general
+antivariolosa, de acuerdo con la ley que la hace obligatoria.
+De
+igual modo se practicd con la solicitud necesaria la immunization
+antitifica, gracias a lo cual han disminuido considerablemente los
+casos de fiebre tifoidea, enfermedad que en otro tiempo constitu-
+yô un verdadero azote de nuestras poblaciones, y especialmente
+en los campos.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 158

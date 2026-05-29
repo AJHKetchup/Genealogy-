@@ -558,70 +558,186 @@ All visible text and the page number have been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visuals present."}
 ```
 
+# Page 272
+
 ## Page Metadata
-Page number: 272
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json`
+- Source page: 272
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/page-images/page-0272.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, primarily legal or administrative articles, followed by a page number at the bottom right.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-c) Para percibir las sumas establecidas en el inciso b) del
-artículo 25° se deberá, además, especificar en qué caminos
-o secciones de caminos se efectuarán las obras que se pro-
-yectan y la naturaleza de las mismas.
-Art. 29° — Las especificaciones establecidas en el artículo pre-
-cedente deberán ser aprobadas por la Dirección Nacional de Via-
-lidad, la que podrá hacer las observaciones que considere con-
-veniente.
-Art. 30° — Todas las obras con ayuda federal deberán esr efec-
-tuadas por licitación pública y los pagos de las sumas establecidas
-en el inciso b) del artículo 25°, se harán contra la presentación de
-certificados de obra terminada, previa conformidad del ingeniero
-representante de la Dirección Nacional de Vialidad en cada pro-
-vincia.
-La Dirección Nacional de Vialidad tendrá el derecho de ins-
-peccionar y fiscalizar en cualquier momento todos los trabajos
-efectuados con ayuda federal.
-Las provincias podrán convenir la construcción y conservación
-de los caminos de ayuda federal por intermedio de la Dirección
-Nacional de Vialidad.
-Art. 31° — Las provincias están obilgadas a mantener en per-
-fecto estado de conservación los caminos provinciales construídos
-con ayuda federal, efectuando todas las reparaciones que sean ne-
-cesarias con sus fondos propios.
-En caso de no cumplirse las disposiciones de este artículo, la
-Dirección Nacional de Vialidad procederá a efectuar directamente
-las reparaciones necesarias, previa intimación perentoria, cargan-
-do el costo de las mismas a la cuota que le corresponda a cada pro-
-vincia según el inciso b) del artículo 25°, y suspenderá la aproba-
-ción de nuevas obras en la misma hasta el reintegro total de esas
-sumas, las que serán de inmediato redistribuídas entre las demás
-provincias acogidas a esta Ley.
-Art. 32° — Las provincias están obligadas a rendir cuenta
-anualmente del desarrollo total del plan de trabajo efectuado con
-ayuda federal. En caso de no cumplirse las disposiciones de este
-artículo, la Dirección Nacional de Vialidad, previa notificación,
-suspenderá la ayuda federal a esa provincia, corriendo mientras
-tanto la prescripción que establece el artículo siguiente.
-Art. 33° — El derecho a las sumas correspondientes a la ayuda
-federal termina a los dos años de haberse hecho la comunicación
-a que se refiere el artículo 27 de esta Ley, aunque se hubiesen
 
+```markdown
+c)
+Para percibir
+las
+ramas establecidas
+en el inciso
+b)
+del
+artieulo
+25-
+se deberâ, ademâs, espeeificar
+en que caminos
+o secciones
+de caminos
+se efeetuarân las obras que se pro-
+yectan y la naturaleza de las niismas.
+Art. 29'
+— Las especificaeiones establecidas en el artieulo pre¬
+cedente
+debei-ân
+ser aprobadas por la Direccion Nacional de Via-
+lidad,
+la
+que
+podrla
+haeer
+las observaciones
+que considéré coin
+veniente.
+Art. 30"
+— Todas las obras con ayuda federal deberân esr efee-
+tuadas por licitacion publica y los pagos de las sumas establecidas
+en el inciso b)
+del artieulo 25",
+se harân contra la presentaciôn de
+certificados
+de
+obra terminada, previa conformidad
+del ingeniero
+représentante
+de la Direccion Nacional
+de Yialidad
+en
+cada pro¬
+vinci a.
+La Direccion Nacional
+de Yialidad tendra el
+derecho
+de ins-
+peecionar
+y fiscalizar
+en
+cualquier momento
+todos
+los
+trabajos
+efectuados
+eon ayuda federal.
+Las provincias podrân convenir la construed onj y conservaciôn
+de
+los cai®Ptios
+de ayuda
+federal
+por intennedio
+de la Direccion
+Nacional
+de Yialidad.
+Art. 319
+— Las provincias estân obilgadas a mantener en per-
+fecto
+estado
+de
+conservacion
+los caminos provinciales construidos
+eon ayuda federal, efectuando todas las reparaciones
+que seau ne-
+cesarias con
+sus fondos propios.
+En
+caso
+de
+no cumplirse las disposiciones
+de este artieulo, la
+Direccion Nacional
+de Vialidad procédera
+a efectuar direetamente
+las reparaciones necesarias, previa intimaciôn perentoria,
+cargan-
+do el costo de las mismas a la cuota que le correspondu
+a cada pro-
+vincia segun el inciso b) del artieulo 25?, y suspendera la aproba-
+eiôn de nuevas obras en la; misma hasta el reintegro total de esas
+sumas, las
+que serân de inmediato redistribuidas entre las demâs
+j'rbvîncias acogidas
+a
+esta Ley.
+Art.
+32"
+—
+Las
+provincias
+estân obligadas
+a, rendir
+cuenta
+anualmente del desarrollo total del plan de trabajo efectuado con
+nyuda federal. Ejn
+caso de no cumplirse las disposiciones de este
+artieulo,
+la
+Direccion. Nacional
+de Vialidad, previa notificaciôn,
+suspendera la
+ayuda federal
+a
+esa provincia, corriendo mientras
+tanto la prescripcion
+que establece el artieulo siguiente.
+Art. 33'
+— El derecho a las sumas correspondientes a la ayuda
+federal
+termina
+a los
+dos anos de haberse hecho la comunicaciôn
+a!
+que
+se refiere
+el artieulo 27 de esta
+Ley, aunque
+se hubiesen
 13
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was found.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected. The page contains only text."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 273
@@ -1000,146 +1116,272 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 
-## Page Metadata
-- Page number: 279
-
-## Layout And Reading Order
-The page contains a series of numbered articles (Art. 14° to Art. 18°) under a main heading "NORMAS GENERALES". The text is presented in a single column. A page number "20" is at the bottom left.
-
-## Literal Transcription
-
-Art. 14° — La Dirección Nacional de Vialidad procederá a pre-
-parar un plan de obras a desarrollar en el primer período quinquenal
-de su funcionamiento, ejecutando de inmediato, por licitación o ad-
-ministración, según corresponda, las consideradas de mayor urgen-
-cia y que se hallen en condiciones de ser iniciadas, sin perjuicio de
-realizar el plan adoptado en el mínimo de tiempo posible.
-Art. 15° — El trazado de los caminos especiales de interés exclu-
-sivamente militar se determinará con la intervención de los Ministe-
-rios de Guerra y Marina, y para su construcción y conservación se
-establecerá en el presupuesto de gastos la cuota con que contribuirán
-dichos Departamentos.
-
-**NORMAS GENERALES**
-
-Art. 16° — La norma general que deberá ajustarse la Dirección
-Nacional de Vialidad para la ejecución de todas las obras, será la
-licitación pública.
-La obra cuyo costo total no exceda de $ 20.000 m|n., podrá eje-
-cutarse por administración, siempre que razones de urgencia o evi-
-dentes conveniencias económicas lo aconsejen.
-En los presupuestos anuales se incluirá una partida global pre-
-ventiva para estas obras y para las adquisiciones que las mismas
-exijan y revistan análogo carácter. El monto total de estas inversio-
-nes no podrá exceder la partida preventiva fijada en el presupuesto
-anual.
-En la reparación y conservación de obras camineras podrá recu-
-rrirse al método de “administración contratada” previsto por el ar-
-tículo 6°, inciso c) de la Ley, de acuerdo con la reglamentación que
-previamente hará el Directorio.
-Art. 17° — La Dirección Nacional de Vialidad publicará semes-
-tralmente un estado de las obras en ejecución, especificando lo inver-
-tido en cada una de ellas y los saldos disponibles, tanto en lo que se
-refiere a los caminos de la red nacional como a los que se ejecuten
-con la ayuda federal. Las provincias acogidas a la Ley deberán faci-
-litar a ese efecto, en su debida oportunidad, los elementos necesarios
-para el cumplimiento de esta disposición.
-Art. 18° — La Dirección Nacional de Vialidad preparará y ele-
-vará al Ministerio de Obras Públicas, anualmente, antes del 1° de
-agosto, el proyecto de Presupuesto para el año siguiente, el que
-estudiado y aprobado por el Poder Ejecutivo será remitido a con-
-sideración del H. Congreso.
-
-20
-
-## Images, Captions, And Visual Notes
-None.
-
-## Uncertain Or Illegible
-- `m|n.` in "20.000 m|n." is a common abbreviation for "moneda nacional" (national currency) and is clearly legible.
-
-## Completeness Audit
-The transcription is complete and includes all visible text and formatting from the page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The page contains only text."}
-```
+# Page 279
 
 ## Page Metadata
-- Task id: `source-prep:ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-0283:p0280`
-- Model route: `lite`
+
 - Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-0283/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-0283/work-orders/page-0280.md`
-- Page: 280
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json`
+- Source page: 279
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/page-images/page-0279.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a main title "AYUDA FEDERAL" followed by several articles (Art. 19° through Art. 25°) of text, presented in a single column. A page number "21" is located at the bottom right.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-Art. 19° — A los efectos del inciso b) del artículo 21° de la Ley,
-la Dirección Nacional de Vialidad dispondrá la conservación de las
-obras por el término que en él se establece.
-
-**AYUDA FEDERAL**
-
-Art. 20° — Queda facultada la Dirección Nacional de Vialidad
-para celebrar los convenios que requiera el cumplimiento de las
-prescripciones del Capítulo V de la Ley N° 11.658.
-Art. 21° — De acuerdo con lo que establece el tercer párrafo del
-artículo 13° de esta Reglamentación y al acogerse a los beneficios de
-la ayuda federal, las provincias presentarán a la Dirección Nacional
-de Vialidad un primer plan general de caminos con las característi-
-cas que permitan establecer su clasificación.
-Determinada la red y su clasificación, cada provincia especifi-
-cará, a los efectos del inciso b) del artículo 28° de la Ley, qué caminos
-propone construir durante el año con la ayuda federal, y a los fines
-del inciso c) del mismo artículo, las obras a realizar.
-En caso de que alguna provincia no se acoja a la Ley N° 11.658,
-la Dirección Nacional de Vialidad procederá por sí a determinar
-cuáles son los caminos nacionales concernientes a la misma.
-Art. 22° — Al celebrar los convenios con las provincias se estu-
-diará, tanto en los caminos nacionales como en los provinciales, las
-situaciones de hecho existentes a la fecha de la sanción de esta Ley,
-por obras o secciones de obras contratadas o no ejecutadas, para
-adoptar, a su respecto, las providencias que se estimen convenientes.
-Art. 23° — A los efectos del inciso c) del artículo 23° de la Ley,
-la Dirección Nacional de Vialidad deberá establecer en los convenios
-a celebrar con las provincias, las bases reglamentarias a las cuales
-deberá ajustarse el tráfico general y el uso de los caminos por con-
-cesionarios de servicios públicos, transportes de carácter comercial,
-privado y servicios auxiliares, permanentes o transitorios, procuran-
-do la uniformidad de la reglamentación en toda la red caminera del
-país. En el caso del artículo 37° de la Ley, los convenios serán some-
-tidos a la aprobación del Poder Ejecutivo.
-Art. 24° — La contribución de mejoras a que se refiere el inci-
-so d) del artículo 23 de la Ley N° 11.658, podrá consistir en un por-
-centaje similar al establecido por el artículo 21° de la misma o no
-inferior al 40 % del costo de la obra.
-Art. 25° — Los recursos para conservación de caminos de la red
-
-21
+```markdown
+Art. 14*
+— La Direction National de Vialidad procédera a pré¬
+parai- un plan de obras a desarrollar en el primer periodo quinquenal
+de
+su fimcionamiento, ejecutando de inmediato, por licitation
+o ad¬
+ministration, segûn corresponda, las eonsideradas de
+mayor urgen-
+eia. y que
+se liallen en condieiones de ser iniciadas, sin perjuicio de
+realizar el plan adoptado en el minirno de tiempo posible.
+Art. 15*
+— El trazado de los caminos espeeiales de inférés exclu-
+sivamente militai- se determinara
+con la intervention de los Ministe-
+rios de Guerra y Marina, y para su construction y conservation se
+establecerâ en el presupuesto de gastos la cuota <-on quo contribuiran
+dichos Departamentos.
+NORMAS GENERALES
+Art. 16*
+— La norma 'general
+que deberâ ajustarse la Direccion
+Nacional de Vialidad para la ejecucion
+de todas las obras, sera la
+licitaeion publica.
+La obra euyo costo total no exceda de'$ 20.000 m|n., podrâ eje-
+cutarse por administration, siempre que razones de urgencia
+o évi¬
+dentes conveniencias economicas lo acônsejen.
+En los presupuestos anuâles
+se induira una partida global pre¬
+vent i va para
+estas obras
+y
+para
+las adquisiciones
+que las mismas
+exijan y revistan amilogo carâcter. El monto total de estas inversio-
+nes
+no podrâ exceder la partida preventiva fijada en el presupuesto
+annal.
+En la reparation y conservation de obras camineras podrâ reeu-
+rrirse al método de “administration eontratada” previsto por el ar-
+tictilo 6°, inciso c) de la Ley, de acnerdo con la reglamentaeion que
+previamente bara el Directorio.
+Art. 17*
+— La Direction National
+de Yialidad publicara se.mes-
+tralmente un estado de las obras en ejecucion. especifieando lo invei--
+tido
+en cada una de ellas y los saldos disponibles, tanto en lo
+que
+s(e
+refiere
+a los caminos de la red nacional
+como
+a los que
+se ejecuten
+con la avuda federal.
+Las provinces acogidas a la Leÿ deberân fafei-
+litar
+a
+esc efecto, en su debida oportunidad, los elementos necesarios
+para el eumplimiento de esta disposicion.
+Art. 18*
+— La Direccion Nacional
+de Vialidad prepararâ y ele-
+varâ
+al
+Ministerio do Obras Publicas, anualmente, antes del
+1° de
+agosto,
+el
+proyecto
+de Presupuesto para
+el
+ano siguiente, el
+que
+estudiado y aprobado
+por el Poder Ejeeutivo
+sera, remitido
+a
+con-
+sideracion
+del
+H. Congreso.
+20
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page. The number "21" appears at the bottom right, indicating the page number.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Visual Region Manifest
+# Page 280
 
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on the page."}
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json`
+- Source page: 280
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/page-images/page-0280.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Art. 19"
+— A los efectos del inciso b) del artieulo 21* de la Ley,
+la Direceion Nacional de Vialidad dispondra la eonservacion de las
+obras por el término que en él se estableee.
+AYUDA FEDERAL
+Art. 20y
+— Queda facultada la Direceion-Nacional de Vialidad
+para
+celebrar los
+convenios
+que requiera
+el
+cumplimiento
+de
+las
+preseripciones del Capitulo V de la Ley N- 11.658.
+Art. 21" — De acuerdo
+eon lo que estableee el tercer pârrafo del
+artieulo 13" de esta Reglamentaciôn y al acogerse a los beneficios de
+la ayuda federal, las provincias presentarân a la Direceion Nacional
+de Vialidad un primer plan general de caminos eon las caraeteristi-
+eas que permitan estableeer
+su clasificacion.
+Déterminada la red y
+su clasificacion, cada provincia ospecifi-
+carâ, a los efectos del inciso b) del artieulo 28" de la Ley, que caminos
+propone construir durante el ano corn la ayuda federal, y a los fines
+del
+inciso c) del mismo artieulo, las obras
+a realizar.
+En
+easo de que alguna provincia no se acoja a la Ley N" 11,658,
+la Direceion Nacional
+de Vialidad procédera
+por si
+a déterminai’
+cuâles
+eon
+los caminos nationales eoneernientes
+a la misma.
+Art. 22"
+— Al
+celebrar los convenios cou las provincias se estu-
+diarâ, tanto en los caminos nacionales coino
+en los provinciales, las
+situaciones de heclio existentes a la fcell a de la sanciôn de esta Ley,
+por
+obras
+o secciones de obras contratada.s y no ejecutadas, para
+adoptai-,
+a su respecto, las providencias que se estimen convenientes.
+Art. 23" — A los efectos del inciso c) del artieulo 23" de la Ley,
+la Direceion Nacional de Vialidad deberâ estableeer en los convenios
+a celebrar
+eon las provincias. las bases reglamentarias
+a las cuales
+cleberâ ajustai-,se el trâfico general y cl uso de los caminos por eon-
+cesjonarios
+de servicios pûblicos,- transportes de carâcter comercial,
+privado y servicios auxiliares, permanentes o transitorios, procuran-
+do la uniformidad de la reglamentaciôn en toda la red caminera del
+pais. En el caso del artieulo 37" cle la Ley, los convenios serân some-
+tidos
+a la aprobaciôu ciel Poder Ejecutivo.
+Art. 24"
+— La contribution de mejoras
+a que se refiere el inti-
+so d) del artieulo 23 de la Ley N" 11.658, podrâ consistir en un por-
+eentaje similar al establecdo por el articule 21" de la msma o no
+inferior al 40
+'
+'<
+ciel costo de la obra.
+Art
+25"
+— Los recursos para eonservacion de caminos cle la red
+1
+21
 ```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 281

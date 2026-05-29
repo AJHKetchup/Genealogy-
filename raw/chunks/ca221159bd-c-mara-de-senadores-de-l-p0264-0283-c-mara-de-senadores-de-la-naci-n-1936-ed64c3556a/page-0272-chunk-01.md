@@ -1,0 +1,191 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6c970f440c7b-P0272-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283.codex.md
+converted_sha256: 6c970f440c7b4a86ca5e1096da556f67f6741c953213087a69074d4b96bb4785
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json
+page_start: 272
+page_end: 272
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json`
+- Source page: 272
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/page-images/page-0272.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+c)
+Para percibir
+las
+ramas establecidas
+en el inciso
+b)
+del
+artieulo
+25-
+se deberâ, ademâs, espeeificar
+en que caminos
+o secciones
+de caminos
+se efeetuarân las obras que se pro-
+yectan y la naturaleza de las niismas.
+Art. 29'
+— Las especificaeiones establecidas en el artieulo pre¬
+cedente
+debei-ân
+ser aprobadas por la Direccion Nacional de Via-
+lidad,
+la
+que
+podrla
+haeer
+las observaciones
+que considéré coin
+veniente.
+Art. 30"
+— Todas las obras con ayuda federal deberân esr efee-
+tuadas por licitacion publica y los pagos de las sumas establecidas
+en el inciso b)
+del artieulo 25",
+se harân contra la presentaciôn de
+certificados
+de
+obra terminada, previa conformidad
+del ingeniero
+représentante
+de la Direccion Nacional
+de Yialidad
+en
+cada pro¬
+vinci a.
+La Direccion Nacional
+de Yialidad tendra el
+derecho
+de ins-
+peecionar
+y fiscalizar
+en
+cualquier momento
+todos
+los
+trabajos
+efectuados
+eon ayuda federal.
+Las provincias podrân convenir la construed onj y conservaciôn
+de
+los cai®Ptios
+de ayuda
+federal
+por intennedio
+de la Direccion
+Nacional
+de Yialidad.
+Art. 319
+— Las provincias estân obilgadas a mantener en per-
+fecto
+estado
+de
+conservacion
+los caminos provinciales construidos
+eon ayuda federal, efectuando todas las reparaciones
+que seau ne-
+cesarias con
+sus fondos propios.
+En
+caso
+de
+no cumplirse las disposiciones
+de este artieulo, la
+Direccion Nacional
+de Vialidad procédera
+a efectuar direetamente
+las reparaciones necesarias, previa intimaciôn perentoria,
+cargan-
+do el costo de las mismas a la cuota que le correspondu
+a cada pro-
+vincia segun el inciso b) del artieulo 25?, y suspendera la aproba-
+eiôn de nuevas obras en la; misma hasta el reintegro total de esas
+sumas, las
+que serân de inmediato redistribuidas entre las demâs
+j'rbvîncias acogidas
+a
+esta Ley.
+Art.
+32"
+—
+Las
+provincias
+estân obligadas
+a, rendir
+cuenta
+anualmente del desarrollo total del plan de trabajo efectuado con
+nyuda federal. Ejn
+caso de no cumplirse las disposiciones de este
+artieulo,
+la
+Direccion. Nacional
+de Vialidad, previa notificaciôn,
+suspendera la
+ayuda federal
+a
+esa provincia, corriendo mientras
+tanto la prescripcion
+que establece el artieulo siguiente.
+Art. 33'
+— El derecho a las sumas correspondientes a la ayuda
+federal
+termina
+a los
+dos anos de haberse hecho la comunicaciôn
+a!
+que
+se refiere
+el artieulo 27 de esta
+Ley, aunque
+se hubiesen
+13
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

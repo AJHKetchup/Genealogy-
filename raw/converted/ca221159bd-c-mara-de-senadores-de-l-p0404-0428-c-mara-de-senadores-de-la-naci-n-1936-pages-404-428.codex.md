@@ -561,136 +561,303 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 413
+
 ## Page Metadata
-- Page number: 84
-- Source publication year: 1936
-- Source publication description: Cámara de Senadores de la Nación
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json`
+- Source page: 413
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/page-images/page-0413.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, primarily a list of numbered regulations or conditions. The page number "— 84 —" is centered at the top. The text flows from paragraph 2° to 8°.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
+```markdown
 — 84 —
-
-2° Autorízase la propaganda comercial en los vehículos des-
-tinados al transporte colectivo de pasajeros y de acuerdo a
-las siguientes condiciones: a) La propaganda se desarrollará
-únicamente en el interior de los coches y en los boletos que se
-expidan a los pasajeros; b) Será limitada a la fijación o pin-
-tura de avisos en los paneles superiores del fondo y laterales
-del vehículo, en los respaldos de los asientos con tablillas adi-
+2"
+Autorizase la propaganda comercial en los vehîculos des-
+tinados
+al transporte
+colectivo
+de pasajeros
+y
+de acuerdo
+a
+las siguientes condiciones:
+à)
+La propaganda
+se desarrollarâ
+ünicamente en el interior de los coches y en los boletos que se
+expidan a los pasajeros; b) Sera limitada a la fijaciôn o pin-
+tura de avisos en los paneles superiores del fondo y latérales
+del vehiculo,
+en los respaldos de los asientos con tablillas adi-
 cionales y en las manijas y parantes de los coches.
-3° Queda prohibida la fijación y anuncios en los cristales,
-vidrios, ventanillas laterales y parabrisas, como asimismo, en
+39
+Queda prohibida la fijaciôn y anuncios
+en los cristales,
+vidrios, ventanillas latérales y parabrisas,
+como asimismo, en
 el exterior de los coches.
-4° Los afiches y avisos serán colocados en marcos de un
-material corriente, o en placas, a fin de que, cuando hubiese
-necesidad de cambiarlos, no se lesione el interior del vehículo;
-y la parte de papel, cartón o material en que se impriman los
-afiches, serán revestidos de una lámina de celuloide o de mate-
+4"
+Los
+afiches
+y avisos
+serân colocados
+en
+marcos
+de
+un
+material corriente,
+o
+en plaças,
+a fin de
+que, cuando hubiese
+necesidad de cambiarlos, no
+se lesione el interior del vehiculo;
+y la parte de papel, carton o material en que se impriman los
+afiches, serân revestidos de una lamina de celuloide o de mate¬
 rial transparente, con el fin de que no se manchen ni se escriba
 en ellos y no desmerezcan la estética del coche.
-5° Para atender la explotación de la propaganda comercial
-en los vehículos destinados al transporte colectivo de pasaje-
-ros, se seguirá el sistema de concesión.
-6° Los interesados en obtener la concesión para explotar la
-propaganda comercial, en los ómnibus, microómnibus y colec-
-tivos, que transitan legalmente por los caminos de jurisdic-
-ción provincial, presentarán al Ministerio de Obras Públicas,
-una solicitud redactada en papel sellado de pesos 5 moneda
-nacional, y que contendrá los siguientes datos: a) Nombre de
-la empresa o de la persona que la represente con poder sufi-
-ciente, en su caso; b) Domicilio legal; c) Línea de transporte
-elegida para la fijación de anuncios; d) Plano demostrativo
-de los modelos de anuncios que se adoptarán y material en que
-estarán construídos; e) Plazo de la concesión.
-7° Los interesados acompañarán con la solicitud a que se
-refiere el artículo anterior, un modelo de contrato suscripto
-entre ellos y las empresas concesionarias de transportes, *ad
-referendum* del Poder Ejecutivo, donde conste especialmente
-la conformidad de dichas empresas, para la explotación de la
+5"
+Para atender la explotaciôn de la propaganda comercial
+en
+los vehîculos destinados al transporte colectivo de pasaje¬
+ros,
+se seguirâ el sistema de concesiôn.
+69
+Los interesados
+en obtener la concesiôn para explotar la
+propaganda comercial,
+en los omnibus, microômnibus y colec-
+tivos,
+que transitan legalmente
+por los caminos de jurisdic-
+ciôn provincial, presentarân al Ministerio
+de Obras Püblicas,
+una solicitud
+redactada
+en
+papel sellado
+de
+pesos
+5 moneda
+nacional, y
+que contendrâ los siguientes datos: a) Nombre de
+la
+empresa
+o de la persona que la représente con poder sufi-
+ciente,
+en su caso;
+b) Domicilio legal; c) Linea de transporte
+elegida para la fijaciôn de anuncios;
+d)
+Piano demostrativo
+de los modelos de anuncios que se adoptarân y material en que
+estarân construldos; e) Plazo de la concesiôn.
+V
+Los
+interesados acompanarân
+con la solicitud
+a
+que
+se
+refiere
+el articulo anterior,
+un modelo
+de contrato suscripto
+entre ellos
+y las
+empresas concesionarias
+de transportes,
+ad
+referendum del Poder Ejecutivo,
+donde
+conste
+especialmente
+la conformidad
+de dichas empresas, para la explotaciôn de la
 propaganda que se solicite y sus condiciones.
-8° Podrán ser concesionarias: las empresas de publicidad;
+89
+Podrân
+ser concesionarias:
+las
+empresas
+de publicidad;
 las casas de comercio y particulares que acrediten técnica, eco-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text from the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 414
 
 ## Page Metadata
-Page number: 85
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json`
+- Source page: 414
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/page-images/page-0414.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, primarily consisting of numbered paragraphs detailing regulations or conditions. The page number "- 85 -" is centered at the top.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 85 —
 
-nómica y moralmente, suficiente capacidad para la explota-
-ción racional de esta industria y siempre que no fueren deudores
-del Fisco de la Provincia. En igualdad de condiciones, se
+```markdown
+—
+85 —
+nomica y moralmente, suficiente capacidad para la explotaciôn
+racional
+de esta industria y siempre que no fueren deudores
+del Fisco de la Provincia.
+En igualdad de condiciones, serân
 preferidas las empresas de publicidad.
-9º Estudiado el pedido de concesión por la Dirección de
-Tráfico de la Provincia, se elevará al Poder Ejecutivo para la
-resolución que corresponda, debiendo en caso de otorgarse la
-concesión, ser reducida a escritura pública, ante la Escribanía
-Mayor de Gobierno, en el término de treinta (30) días.
-10. Los pedidos de concesión, serán acompañados de un depó-
-sito en garantía efectuado en el Banco de la Provincia de Bue-
-nos Aires, a la orden de la Tesorería General, depósito que
-deberá ser de diez pesos moneda nacional por coche y no infe-
-rior, en ningún caso, a 100 pesos. Este depósito deberá tripli-
+99
+Estudiado
+el pedido
+de concesiôn por la Direcciôn
+de
+Trâfico de la Provincia,
+se elevarâ al Poder Ejecutivo para la
+resoluciôn que corresponda, debiendo en caso de otorgarse la
+concesiôn, ser reducida a escritura pûblica, ante la Escribania
+Mayor de Gobierno, en el término de treinta (30) dias.
+10.
+Los pedidos de concesiôn, serân aeompanados de un depô-
+sito en garantia efeetuado en el Banco de la Provincia de Bue¬
+nos Aires,
+a la orden de la Tesoreria General, depôsito que
+deberâ ser de diez pesos moneda nacional por coche y no infe¬
+rior, en ningun caso, a 100 pesos. Este depôsito deberâ tripli-
 carse al otorgarse la escritura, quedando afectado al cumpli-
 miento estricto de las obligaciones del concesionario.
-11. Las concesiones se otorgarán por un plazo mínimo de
-3 años y máximo de 5 años y no podrán acordarse, en ningún
-caso, con carácter exclusivo.
-12. Los concesionarios se obligan a pagar al Fisco una tasa
-por los anuncios que coloquen, de acuerdo con la concesión
-otorgada y conforme al siguiente detalle: En los ómnibus, pe-
-sos 40 moneda nacional, por coche y año; en los microómni-
-bus, pesos 30 moneda nacional por coche y año; en los colec-
-tivos, pesos 20 moneda nacional, por coche y año, y en los
-boletos, pesos 10 moneda nacional, por coche y año.
-13. El pago de la tasa establecida en el artículo anterior,
-se hará en el Banco de la Provincia de Buenos Aires a la orden
-de la Tesorería General de la Provincia y en la cuenta «Fondo
-de Tráfico», previa liquidación practicada por la Dirección de
-Tráfico, por adelantado y dentro de los diez primeros días del
-año. El primer pago lo efectuará el concesionario en el acto
-de firmarse la escritura de concesión.
-14. Cuando los anuncios se refieran a propaganda de bebi-
-das alcohólicas, vinos y cervezas, tabacos, cigarros, cigarrillos
-y perfumes, sufrirán un recargo en la tasa fijada precedente-
-mente, de acuerdo al siguiente detalle: para las bebidas alco-
-hólicas, 100 por ciento; para los vinos y cervezas, 30 por
-ciento; para los tabacos, cigarros, cigarrillos y perfumes,
+11.
+Las concesiones
+se otorgarân por un plazo minimo de
+3 anos y mâximo de 5 anos y no podrân acordarse, en ningun
+caso,
+con carâcter exclusivo.
+12.
+Los concesionarios se obligan a pagar al Fisco una tasa
+por los anuncios
+que coloquen,
+de acuerdo
+con la concesiôn
+otorgada y conforme al siguiente detalle: En los omnibus, pe¬
+sos
+40 moneda nacional,
+por coche y ano;
+en los mieroômni-
+bus, pesos 30 moneda nacional, por coche y ano; en los colee-
+tivos,
+pesos
+20 moneda nacional,
+por coche y
+ano, y en los
+boletos, pesos 10 moneda nacional, por coche y ano.
+13.
+El pago de la tasa establecida en el articulo anterior,
+se harâ en el Banco de la Provincia de Buenos Aires a la orden
+de la Tesoreria General de la Provincia y en la cuenta «Fond.o
+de Trâfiço», previa liquidaciôn practicada por la Direcciôn de
+Trâfico, por adelantado y dentro de los diez primeros dias del
+ano.
+El primer pago lo efectuarâ el concesionario en el acto
+de firmarse la escritura de concesiôn.
+14.
+Cuando los anuncios
+se refieran
+a propaganda de bebi-
+das alcohôlicas, vinos y cervezas, tabacos, cigarros, cigarrillos
+y perfumes, sufrirân un recargo en la tasa fijada precedente-
+mente,
+de acuerdo al siguiente detalle: para las bebidas alco¬
+hôlicas,
+100
+por ciento;
+para los vinos
+y
+cervezas,
+30 por
+ciento;
+para
+los
+tabacos,
+cigarros,
+cigarrillos
+y
+perfumes,
 10 por ciento.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or visual notes on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text and layout elements present on the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 415
@@ -766,77 +933,125 @@ All visible text on the page has been transcribed. The page ends mid-sentence.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
 
+# Page 416
+
 ## Page Metadata
-Page 416
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json`
+- Source page: 416
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/page-images/page-0416.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, primarily legal or regulatory articles, numbered sequentially. The page number "— 89 —" is centered at the top. The text flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 89 —
 
+```markdown
+-
+89 --
 50 por ciento de la primera anualidad calculada en base a las
-cantidades mínimas establecidas en el artículo 9° y que en nin-
-gún caso será inferior a pesos 300 moneda nacional, dicho depó-
-sito será devuelto al interesado a la terminación del contrato,
-salvo lo dispuesto en el artículo 18.
-
-Art. 8°. El plazo de la concesión será mínimo de tres años
-y máximo de seis y comenzará a correr desde el 1° de enero,
-1° de abril, 1° de julio, 1° de octubre. Se tomará de estas fechas
-la que esté comprendida dentro de los 90 días de la fecha de
-la notificación que determina el artículo 6°.
-
-Art. 9°. Los concesionarios deberán colocar un mínimo del
+eantidades minimas establecidas en el artîeulo 9” y que en nin-
+gûn caso sera inferior a pesos 300 moneda nacional, dicho depô-
+sito
+sera devuelto al interesado a la termination del contrato,
+salvo lo dispuesto en el articulo 18.
+Art.
+89.
+El plazo de la concesiôn sera minimo de très anos
+y mâximo de seis y comenzarâ a cor-rer desde el l9 de enero,
+l9 de abril, l9 de julio, l9 de octubre.
+Se tomarâ de estas fechas
+la que esté comprendida dentro de los 90 dias de la fecha de
+la notificaciôn que détermina el articulo 6\
+Art.
+99
+Los concesionarios deberân colocar un minimo del
 50 por ciento de los avisos concedidos en cada camino, durante
-el primer año de vigencia de la autorización. Al iniciarse el
-tercer año se cobrará la tasa sobre la totalidad de los avisos
+el primer ano de vigencia de la autorizaciôn.
+Al iniciarse el
+tercer
+ano
+se cobrarâ la tasa sobre la totalidad de los avisos
 concedidos, hayan o no, sido colocados.
-
-Art. 10. Para fijar la suma a pagar por inspección y por
-unidad de superficie se tendrá en cuenta, además de la impor-
-tancia del camino o playa, la ubicación y demás factores que
-conviniere contemplar partiendo de las siguientes bases:
-
-a) Para caminos pavimentados o playas: base mínima de
-pesos 10 moneda nacional, por año o fracción de año, por
-metro cuadrado o fracción de metro cuadrado de pantalla
-o aviso de otro modelo, medido sobre el rectángulo que
-lo comprende. Si la superficie del anuncio es curva, se
-tomará su desarrollo en plano.
-
-b) Para caminos de tierra: base mínima de pesos 3 moneda
-nacional, por los mismos conceptos e igual período.
-
-Art. 11. El pago se hará en la Tesorería General de la Pro-
-vincia en la cuenta «Fondo de Tráfico», previa liquidación
-correspondiente practicada por la Dirección de Tráfico de la
-Provincia, por semestres adelantados, dentro de los primeros
-15 días, del vencimiento del anterior.
-
-Art. 12. El material de construcción de las pantallas u otros
-modelos avisadores, será: hierro, hormigón, o mampostería solo
-o combinados y su fijación en el suelo se hará por empotra-
+Art. 10.
+Para fijar la suma
+a pagar por inspecciôn y por
+unidad de superficie
+se tendra en cuenta, ademâs de la impor¬
+tance del camino
+o playa, la ubicaciôn y demâs factores que
+eonviniere contemplar partiendo de las siguientes bases:
+a) Para
+caminos pavimentados
+o playas: base minima de
+pesos 10 moneda nacional, por ano o fracciôn de ano, por
+metro cuadrado o fracciôn de metro cuadrado de pantalla
+o aviso de otro modelo, medido sobre el rectângulo que
+lo comprende.
+Si la superficie del anuncio es curva, se
+tomarâ su desarrollo en piano.
+b) Para caminos de tierra: base minima de pesos 3 moneda
+nacional, por los mismos conceptos
+e igual periodo.
+Art. 11.
+El pago se harâ en la Tesoreria General de la Pro-
+vincia
+en
+la
+cuenta
+«Fondo
+de Trâfieo», previa liquidation
+correspondiente practicada por la Direction de Trâfieo de la
+Provincia,
+por semestres adelantados, dentro de los primeros
+15 dias, del vencimiento del anterior.
+Art. 12.
+El material de construction de las pantallas u otros
+modelos avisadores, serâ: hierro, hormigôn, o mamposteria solo
+o combinados y su fijaciôn en el suelo se harâ por empotra-
 miento, en forma que quede garantida su estabilidad.
-
-Art. 13. La superficie de las pantallas anunciadoras no será
+Art. 13.
+La superficie de las pantallas anuneiadoras no serâ
 mayor de 2 metros cuadrados, colocado su parte interior a una
-altura mínima de dos metros sobre el suelo libre. En el caso
+altura minima de dos metros sobre el suelo libre.
+En el caso
 de que el aviso sea colocado en bancos u otros dispositivos, la
+```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other meaningful visual notes on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 417
@@ -1053,72 +1268,145 @@ The transcription is complete and accurate, capturing all text and its formattin
 {"visual_regions": [], "no_visual_regions_reason": "The page contains no images or visual elements suitable for cropping."}
 ```
 
+# Page 421
+
 ## Page Metadata
-- Page number: 94
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json`
+- Source page: 421
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/page-images/page-0421.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text. At the top right, the page number "94" is centered between two hyphens. The main content consists of a continuation of a lettered list (d, e, f, g) followed by a numbered list (4º, 5º, 6º, 7º, 8º, 9º). The text flows continuously from one paragraph to the next in standard reading order.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-— 94 —
 
-d) Se usarán dos aparatos pulverizadores portátiles de reco-
-nocida eficiencia e irán provistos de válvulas de seguri-
-dad; uno se empleará para la solución de creolina y el
-otro para la solución de formol.
-e) Dichos aparatos deberán ser manejados por dos personas;
-la una en el exterior del vehículo, encargada de mantener
-la presión por medio de palancas u otros sistemas y la
-otra, en el interior del vehículo, la cual por medio de una
-manguera de suficiente longitud, se encargará de depo-
-sitar eficientemente los desinfectantes, como indican los
-incisos b) y c).
-f) Una vez efectuadas estas operaciones se cerrarán las puer-
-tas del vehículo por espacio de cinco minutos.
-g) Deberá proveerse al operador de caretas y anteojeras para
-defensa de las mucosas.
-4º El lugar de desinfección será el garage-depósito del con-
-cesionario o donde la Dirección de Tráfico crea más conveniente
-para la mayor eficacia de la desinfección.
-5º El período de desinfección será como mínimo de treinta
-(30) días, pudiendo la Dirección, si lo creyere conveniente en
-casos de pestes o epidemias, acortarlo en la medida necesaria.
-6º La Dirección de Tráfico indicará el día, lugar y hora en
-que el inspector deba controlar la desinfección de los vehículos;
-los concesionarios deberán tener listo su equipo y personal para
-tal fin; si éstos así no lo hicieren, serán apercibidos y en caso
-de reincidencia se harán pasibles de una multa de 100 pesos
+```markdown
+— 94 —
+d)
+Se usarân dos aparatos pulverizadores portâtiles de reco-
+nocida eficiencia
+e irân provistos de vâlvulas de seguri-
+dad;
+uno
+se emplearâ
+para la solution de creolina y el
+otro para la solution de formol.
+e)
+Dichos aparatos deberân ser manejados por dos personas;
+la una en el exterior del vehiculo, encargada de mantener
+la presiôn por medio
+de palancas
+u otros sistemas y la
+otra, en el interior del vehiculo, la cual por medio de una
+manguera de suficiente longitud,
+se encargarâ de depo-
+sitar
+eficientemente
+los
+desifectantes,
+como indican los
+incisos b)
+y c).
+f)
+Una vez efectuadas estas operaciones se cerrarân las puer-
+tas del vehiculo por espacio de cinco minutos.
+g) Deberâ proveerse al operador de caretas y anteojeras para
+defensa de las
+mucosas.
+4"
+El lugar de désinfection sera el garage-depôsito del con-
+cesionario
+o donde la Direction de Trâfico créa mâs conveniente
+para la mayor eficacia de la désinfection.
+59
+El periodo de désinfection
+sera como minimo de treinta
+(30)
+dias, pudiendo la Direction, si lo creyere conveniente en
+casos de pestes
+o epidemias, acortarlo
+en la medida necesaria.
+69
+La Direction de Trâfico indicarâ el dia, lugar y hora en
+que el inspector deba contrôlai’ la désinfection de los vehiculos;
+los concesionarios deberân tener listo su equipo y personal para
+tal fin ; ,si éstos asi no lo hicieren, serân apercibidos y en caso
+de reincidencia
+se harân pasibles de
+una multa de 100
+pesos
 moneda nacional.
-7º En el caso de que apareciera en el futuro un invento o
-sistema que para la desinfección de los vehículos y que a juicio
-de la Dirección de Tráfico, fueran de mayor eficacia para la
-salud pública, los concesionarios quedarán obligados a adoptarlo,
-dentro de un plazo que para tal fin la Dirección establecerá.
-8º Fuera del período que indica el artículo 5º, los concesio-
-narios estarán obligados a mantener sus coches en perfectas
+T
+En
+el
+caso de que apareciera
+en el futuro un invento
+o
+sistema que para la desinfecciôn de los vehiculos y que a juicio
+de la Direction
+de Trâfico, fueran de
+mayor eficacia para la
+salud pûblica, los concesionarios quedarân obligados a adoptarlo,
+dentro
+de
+un plazo
+que
+para tal fin la Direction establecerâ.
+89
+Fuera del periodo que indica el articulo 5", los concesio¬
+narios estarân
+obligados
+a mantener
+sus coches
+en perfectas
 condiciones de higiene y en forma permanente.
-9º Los concesionarios deberán colocar en el interior de los
-vehículos, en parte visible, la planilla de desinfección en la que
-estarán consignados: los números de la concesión, de la patente
-y del coche, en la cual, el inspector de tráfico que controle la
-desinfección dejará constancia con su firma de la fecha en que
+99
+Los
+concesionarios deberân colocar
+en el interior
+de los
+vehiculos, en parte visible, la planilla de desinfecciôn en la que
+estarân consignados : los numéros de la concesiôn, de la patente
+y del coche, en la cual, el inspector de trâfico que contrôle la
+desinfecciôn dejarâ constancia con su firma de la fecha en que
 ésta fué practicada.
 ```
 
 ## Images, Captions, And Visual Notes
-No images or captions are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. All text is clearly legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text from the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 422

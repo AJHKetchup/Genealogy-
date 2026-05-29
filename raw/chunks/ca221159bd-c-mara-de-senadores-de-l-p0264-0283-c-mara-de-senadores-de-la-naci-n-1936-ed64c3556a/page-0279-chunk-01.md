@@ -1,0 +1,150 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6c970f440c7b-P0279-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283.codex.md
+converted_sha256: 6c970f440c7b4a86ca5e1096da556f67f6741c953213087a69074d4b96bb4785
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json
+page_start: 279
+page_end: 279
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json`
+- Source page: 279
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/page-images/page-0279.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Art. 14*
+— La Direction National de Vialidad procédera a pré¬
+parai- un plan de obras a desarrollar en el primer periodo quinquenal
+de
+su fimcionamiento, ejecutando de inmediato, por licitation
+o ad¬
+ministration, segûn corresponda, las eonsideradas de
+mayor urgen-
+eia. y que
+se liallen en condieiones de ser iniciadas, sin perjuicio de
+realizar el plan adoptado en el minirno de tiempo posible.
+Art. 15*
+— El trazado de los caminos espeeiales de inférés exclu-
+sivamente militai- se determinara
+con la intervention de los Ministe-
+rios de Guerra y Marina, y para su construction y conservation se
+establecerâ en el presupuesto de gastos la cuota <-on quo contribuiran
+dichos Departamentos.
+NORMAS GENERALES
+Art. 16*
+— La norma 'general
+que deberâ ajustarse la Direccion
+Nacional de Vialidad para la ejecucion
+de todas las obras, sera la
+licitaeion publica.
+La obra euyo costo total no exceda de'$ 20.000 m|n., podrâ eje-
+cutarse por administration, siempre que razones de urgencia
+o évi¬
+dentes conveniencias economicas lo acônsejen.
+En los presupuestos anuâles
+se induira una partida global pre¬
+vent i va para
+estas obras
+y
+para
+las adquisiciones
+que las mismas
+exijan y revistan amilogo carâcter. El monto total de estas inversio-
+nes
+no podrâ exceder la partida preventiva fijada en el presupuesto
+annal.
+En la reparation y conservation de obras camineras podrâ reeu-
+rrirse al método de “administration eontratada” previsto por el ar-
+tictilo 6°, inciso c) de la Ley, de acnerdo con la reglamentaeion que
+previamente bara el Directorio.
+Art. 17*
+— La Direction National
+de Yialidad publicara se.mes-
+tralmente un estado de las obras en ejecucion. especifieando lo invei--
+tido
+en cada una de ellas y los saldos disponibles, tanto en lo
+que
+s(e
+refiere
+a los caminos de la red nacional
+como
+a los que
+se ejecuten
+con la avuda federal.
+Las provinces acogidas a la Leÿ deberân fafei-
+litar
+a
+esc efecto, en su debida oportunidad, los elementos necesarios
+para el eumplimiento de esta disposicion.
+Art. 18*
+— La Direccion Nacional
+de Vialidad prepararâ y ele-
+varâ
+al
+Ministerio do Obras Publicas, anualmente, antes del
+1° de
+agosto,
+el
+proyecto
+de Presupuesto para
+el
+ano siguiente, el
+que
+estudiado y aprobado
+por el Poder Ejeeutivo
+sera, remitido
+a
+con-
+sideracion
+del
+H. Congreso.
+20
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 280

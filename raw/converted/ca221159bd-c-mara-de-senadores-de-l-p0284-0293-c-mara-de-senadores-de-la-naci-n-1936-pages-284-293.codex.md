@@ -455,76 +455,137 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 290
+
 ## Page Metadata
-- Page number: 290
-- Source publication year: 1936
-- Source publication title: Cámara de Senadores de la Nación
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json`
+- Source page: 290
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-images/page-0290.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page begins with a centered page number at the top. Below that, the main content consists of several paragraphs of text, some of which are labeled as articles (`Art.`). There is a main chapter heading, followed by a subheading, and then another article with a numbered list of items. The text flows in a single column.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 5 —
-
-puestos a los representantes electos por el personal, que los dejaran para
-desempeñar su mandato y éstos seguirán comprendidos en la ley como
-empleados de la Caja durante el tiempo correspondiente. Para ser miembro
-del Directorio se requerirá ser ciudadano argentino y haber cumplido 25
-años de edad. No podrán ser electores los menores de 18 años de edad y los
-empleados con menos de dos años de antigüedad.
-Art. 6º — El Presidente tendrá voz y voto en las deliberaciones del
-Directorio, prevaleciendo su voto en caso de empate. Es el ejecutor de las
-resoluciones del Directorio y su representante legal. Los empleados de la
-Caja estarán bajo sus inmediatas órdenes, pero su nombramiento y remoción
-corresponderá al Directorio.
-Art. 7º — En ausencia del Presidente de la Caja de Jubila-
-siones de empleados ferroviarios, el Directorio será presidido por el de la
+```markdown
+—
+5
+—
+puestos a los représentantes electos por el personal,
+que los dejaran para
+desempenar
+su
+mandate» y éstos seguirân comprendidos en la ley como
+empleados de la Caja durante el tiempo correspondiente. Para
+ser miembro
+del Directorio
+se requerird
+ser ciudadano argentine»
+y haber cumplido 25
+anos de edad. No podrân ser electores los menores de 18 anos de edad y los
+empleados con menos de dos anos de antigüedad.
+Art. 6° — El Presidents tendra
+voz
+y voto
+en las deliberaciones del
+Directorio, prevaleeiendo su voto en caso de empâte.
+Es el ejecutor de las
+resoluciones del
+Directorio y su représentante
+legal.
+Los empleados de la
+Caja estarân bajo sus inmediatas ordenes, pero su nombramiento y remooiôn
+corresponded al Directorio.
+Art. 7° — En ansencia del Presidents de la Caja de Jubilaciones y Pen-
+siones de empleados ferroviarios,
+el Directorio sera presidido por el de la
 Caja de Jubilaciones y Pensiones civiles.
-Art. 8º — El Directorio se regirá por el reglamento interno que dicte
-al efecto, y anualmente fijará su presupuesto de gastos, el que no deberá
-exceder del 3 % de las entradas por contribuciones e intereses
-de las jubilaciones y pensiones que deben ser satisfechas durante el año con
-los fondos de la Caja, los que someterá a la aprobación del Poder Ejecutivo.
+Art. 8° — El Directorio se régira por
+el reglamento interno que dicte
+al efecto,
+y anualmente fî.jard
+su presupuesto
+de gastos, el que no deberâ
+exceder del 3 °/0 de las entradas por contribuciones e intenses y el del monta
+de las jubilaciones y pensiones que deben ser satisfechas durante el ano con
+los fondos de la Caja, los que someterd a la aprobaciôn del Poder Ejecutivo.
 Cuando los recursos calculados no alcanzaran a cubrir el importe total de
-las jubilaciones y pensiones que deberán ser satisfechas durante el año, la
-Nación contribuirá con la diferencia. La Contaduría General de la Nación
-fiscalizará todas las operaciones de la Caja.
-
-CAPÍTULO III
-
-Fondo de la Caja
-
-Art. 9º — El fondo de la Caja se formará con las asignaciones siguientes:
-1º Con los aportes del personal, recaudados de acuerdo con la Ley
-número 9653, hasta la promulgación de la presente ley;
-2º Con el descuento forzoso del cinco por ciento sobre los sueldos
-de las personas comprendidas en el artículo segundo, siempre
+las jubilaciones y pensiones que deberdn
+ser satisfechas durante el ano, la
+Naciôn contribuird con la diferencia. La Contaduria
+General de la Naciôn
+jiscalizard
+todas
+las operaciones de la Caja.
+CAP1TULO III
+Fondo
+de
+la Caja
+Art. 9° — El fondo de la Caja se formarâ con las asignaciones signientes:
+1°
+Con los aportes del personal, recaudados de acuerdo con la Ley
+numéro 9653, hasta la promulgaciôn de la presente ley:
+2°
+Con el descuento forzoso del cinco por ciento sobre los sueldos
+de las
+personas comprendidas
+en el articnlo segundo, siempre
 que no excedan de mil pesos mensuales, en cuyo caso el descuento
-se hará solamente sobre esta última cantidad;
-3º Con el importe del primer mes de sueldo pagadero en veinti-
-cuatro mensualidades continuas, de la persona que por primera
-vez entra a formar parte del personal de las empresas ferrovia-
-rias o se reincorpore a ellas, siempre que no hubiese sufrido ese
-descuento por imperio de esta ley u otra que establezca una dis-
-posición análoga;
-4º Con la diferencia del primer mes de sueldo, cuando el empleado
-u obrero pase a ocupar un empleo mejor rentado o perciba un
-aumento de sueldo;
+se hard solamente sobre esta ultima cantidad;
+3°
+Con
+el importe del primer mes de sueldo pagadero en veinti-
+cuatro mensnalidades continuas, de la persona que por primera
+vez entra
+a formai- parte del personal de las empresas ferrovia-
+rias
+o
+se reincorpore a ellas, siempre que no hubiese sufvido ese
+descuento por imperio de esta ley u otra que establezca una dis¬
+position anâloga:
+4U
+Con la diferencia del primer mes de sueldo, cuando el empleado
+u obrero pase
+a ocupar un empleo mejor rentado o perciba
+un
+aumento de sueldo:
+```
 
 ## Images, Captions, And Visual Notes
-None.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 291
 
@@ -689,75 +750,131 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 292
+
 ## Page Metadata
-Page number: 292
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json`
+- Source page: 292
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-images/page-0292.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, primarily legislative articles and a chapter heading, with a page number centered at the top.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-                                                                — 7 —
 
-        Hasta el cuarenta por ciento de esos fondos podrán ser capitalizados
-en préstamos hipotecarios en efectivo, no superiores a veinte mil pesos mo-
-neda nacional (20.000 $ m/n.), a los empleados y obreros beneficiarios de
-esta ley que durante diez años por lo menos, hayan prestado servicios, a un
-interés que no exceda del uno por ciento sobre el corriente de los títulos de
-renta nacional, y combinados con un seguro temporario de vida, por la
-cantidad decreciente adeudada.
-        Queda autorizada la Caja para organizar una sección especial desti-
-nada a la celebración de estos seguros.
-        Art. 13.— Estos préstamos hipotecarios se regirán de conformidad a
+```markdown
+.
+. .Hasta el cuarenta. por iciento de esos fondos podrdn ser capitalizados
+en préstamos hipot&carios en efectivo, no superiores a vêinte mil pesos mo-
+neda nacional
+(20.000 $ mjn.),
+a
+. los: empleados y obreros bepeficiarios de
+esta ley qae durante dieu anos por lo menos, hayan prestado servicios, a un
+interés que no exceda del uno por ciento sobre el corriente de .los titulos de
+renta nacional,
+y
+combinados
+con
+un segilro temporario
+de vida, por la
+eantidad decreciente adeudada.
+Queda autorizada la Caja para organizar una secciôn especial desti-
+nada
+a la celebraciôn de estos seguros.
+Art. 13. — Estos préstamos hipotecarios
+se regirdn de cpnformidad a
 las leyes Nos. 8172 y 10676, en las condiciones de los autorizados por el ar-
-tículo 2º, inciso 2º, letra h), excepto en los puntos siguientes:
-                a) La Caja podrá acordar en préstamos hasta el valor total de la
-                propiedad, cuando ese valor no excediere de seis mil pesos mo-
-                neda nacional (6.000 $ m/n.), hasta el noventa por ciento cuando
-                fuere de diez mil pesos moneda nacional (10.000 $ m/n.) como
-                máximo, y del ochenta por ciento cuando excediese de este im-
-                porte;
-                b) La Caja podrá establecer diferencias en el interés en el monto
-                y en el plazo de los préstamos, dentro de un máximo de treinta
-                años, según escalas proporcionales al valor de tasación de las
-                propiedades y al monto de los sueldos, tendiendo al fomento de
-                las pequeñas viviendas;
-                c) No podrá recargarse el servicio de los préstamos en más del
-                cinco por ciento por gastos de administración y escrituración;
-                d) En caso de fallecimiento del empleado deudor del préstamo, la
-                Caja aplicará el importe del seguro de vida, a la cancelación
-                del préstamo, intereses y gastos pendientes;
-                e) En caso de jubilación del empleado, la Caja retendrá mensual-
-                mente de su importe, la suma correspondiente para el servicio
-                del préstamo y prima del seguro.
-        Art. 14.— Los bienes que corresponden a esta ley son inembargables
-y asimismo las casas objeto de los préstamos expresados, durante la vida
-del prestatario, su esposa e hijos menores. Estas no podrán enajenarse, gra-
-varse, arrendarse o cederse sin consentimiento del Directorio hasta la can-
-celación del préstamo.
-
-                                                CAPÍTULO IV
-
-                                        De las jubilaciones (*)
-
-        Art. 15.— Los empleados y obreros a que se refiere el artículo segundo
-que hayan contribuido al fondo de la Caja con los descuentos establecidos
-(*) Véanse artículos 2º y 4º de la Ley Nº 11808 página 13.
+ticulo 2°, inciso 2°, letra h), excepto en los puntos siguientes:
+a) La Caja podrd acordar en préstamos hasta pi valor total de la
+propiedad, cuando ese valor no excediere de seis mil pesos mo-
+neda nacional (6.000 $ min.), hasta el noventa por ciento cuando
+fuere de diez mil pesos moneda nacional (10.000 $ min.) como
+mdximo, y del ochenta por ciento cuando excediese de este im¬
+porte;
+b) La Caja podrd establecer diferencias en el interés en el monta
+y en el plazo de los préstamos, dentro de un mdximo de treinta
+anos, segûn escalas proporcionales al valor de tasaciôn
+de
+las
+propiedades y al monto de los sueldos, tendiendo al fomento de
+las pequenas viviendas;
+c) No podrd recargarse el servicio
+de
+los préstamos
+en mds del
+cinco por ciento por gastos dé administraciôn y escrituraciôn;
+d) En caso de fallecimiento del empleado deudor del préstamo, la
+Caja aplicarâ el importe del seguro de vida,
+a la, caricelaciôn
+del préstamo, intereses y gastos pendientes;
+e) En caso de jubilaciôn del empleado, la Caja. retendra yiensual-
+mente de su importe, la suma correspondante pava el servicio
+;
+del préstamo. y prima del seguro.
+Art. 14. — Los bienes que corresponden a esta
+ley
+son inembargables
+y asimismo las casas objeto de
+los préstamos expresados, durante la vida
+del prestatario, su esposa
+e hijos menores. Estas no podrdn enctjenarse, gra-
+varse, arrendarse o cederse sin consentimiento del Divectoriq hasta la can-
+celadon del préstamo.
+capItulo IV
+De
+las jubilaciones (*)
+...
+,
+.CV
+,.T-,
+r
+r
+-
+.
+.
+Art. 15. — Los empleados y,, obreros a que se refiere el articulo segundo
+que hayan ooutriburdo al fondo de la Caja cou
+los
+desouentos establecidos
+(*) Véanse arücnlos 2° y i° de: la Ley N° 11308 pâgina 19.
 ```
 
 ## Images, Captions, And Visual Notes
-None.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements that would require cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 293
 

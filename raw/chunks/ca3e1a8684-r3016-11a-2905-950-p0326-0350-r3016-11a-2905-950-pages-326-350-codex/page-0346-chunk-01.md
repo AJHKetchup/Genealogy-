@@ -1,0 +1,115 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6337d9187a49-P0346-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350.codex.md
+converted_sha256: 6337d9187a49decc8891800a64e9e254a82af41ab04371c7370fade4b307b448
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/manifest.json
+page_start: 346
+page_end: 346
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/manifest.json`
+- Source page: 346
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/page-images/page-0346.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+organisateur officiel. Celui-ci choisit 8 ou 10 centres qui ne sont pas
+trop éloignés l'un de l'autre et nomme un organisateur pour chaque
+centre. Chaque centre est libre de choisir parmi les trois séries de
+sept conférences disponibles, la série qu'il préfère. Les frais sont à la
+charge du centre et la conférencière est rétribuée par la Croix-Rouge ;
+celle-ci, qui est généralement une infirmière visiteuse possédant aussi
+le diplôme de sage-femme, donne une conférence par semaine dans
+chaque centre.
+GRÈCE.
+La Croix-Rouge hellénique possède deux dispensaires d'hygiène
+sociale avec des consultations de médecine, de chirurgie, de gynéco¬
+logie,
+d'ophtalmologie
+et
+pour
+enfants.
+Cette
+société
+possède
+en outre un dispensaire pour les maladies vénériennes au Pirée, des
+dispensaires pour le trachome à Laurium et à Larissa et un dispensaire
+général à Mitylène. Cinq infirmières visiteuses sont rattachées à ces
+dispensaires ; elles font des visites à domicile aux malades atteints de
+paludisme,
+de maladies vénériennes et de tuberculose.
+La Croix-Rouge ne possède pas de centres d'hygiène sociale de
+l'enfance, mais elle prête son concours aux 18 centres appartenant
+à une autre organisation et donne le vaccin Calmette à tous les nou¬
+veau-nés. Les infirmières font des visites à domicile pour donner des
+soins aux enfants malades.
+En 1923, un dispensaire d'hygiène sociale fut ouvert dans le quar¬
+tier de Ryron, habité par 20.000 réfugiés. Ce dispensaire mène une
+lutte active contre le paludisme et soigne 158 familles atteintes de
+tuberculose
+et
+176 atteintes d'autres maladies.
+En
+1927, la Croix-
+Rouge envoya 40 enfants à la mer et organisa des bains pour enfants
+dans le quartier. Le personnel du dispensaire comprend une infirmière
+directrice et quatre assistantes. Les élèves infirmières de l'école de
+la Croix-Rouge y font des stages.
+HONGRIE.
+La Croix-Rouge a mis à la disposition de la municipalité de Buda¬
+pest cinq infirmières scolaires, une infirmière visiteuse et deux infir¬
+mières d'hygiène sociale de la tuberculose qui sont employées dar.s
+les œuvres de la ville.
+INDES
+ANGLAISES.
+Des centres pour nourrissons ont été créés dans la plupart des
+provinces. Une visiteuse d'hygiène et une infirmière sage-femme qui
+50
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 347

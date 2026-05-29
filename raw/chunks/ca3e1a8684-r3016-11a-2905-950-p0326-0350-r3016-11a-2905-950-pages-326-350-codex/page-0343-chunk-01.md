@@ -1,0 +1,133 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6337d9187a49-P0343-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350.codex.md
+converted_sha256: 6337d9187a49decc8891800a64e9e254a82af41ab04371c7370fade4b307b448
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/manifest.json
+page_start: 343
+page_end: 343
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/manifest.json`
+- Source page: 343
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/page-images/page-0343.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+ft
+CHINE.
+Un certain nombre d'infirmières de la Croix-Ronge chinoise sont
+employées dans l'hygiène industrielle et font des visites à domicile
+aux
+familles
+des
+ouvriers.
+La
+Croix-Rouge
+s'occupe
+également
+d'hygiène de l'enfance. Durant l'été, des infirmières de la Croix-Rouge
+prêtent leur concours à l'hôpital pour le soin des malades atteints
+du choléra. Elles sont aussi employées à l'Institut de Nanton pour
+baigner les bébés et vacciner les enfants. Les infirmières travaillent
+aussi dans un dispensaire pour femmes et enfants rattaché à un hôpital
+privé. La direction d'une manufacture de tabac ayant fait appel à
+la Croix-Rouge, cette société a mis une infirmière à sa disposition
+pour le travail du dispensaire et pour donner des cours d'hygiène
+aux employés.
+ÉTATS-UNIS.
+Le service des infirmières visiteuses de la Croix-Rouge américaine,
+désirant développer l'œuvre d'hygiène sociale dans les
+campagnes
+et les petites villes, envoie des infirmières visiteuses dans toutes les
+localités où le besoin s'en fait sentir. Au 1er janvier 1928, 568 services
+d'infirmières visiteuses, comportant 757 infirmières avaient été créés
+et étaient subventionnés,
+en totalité
+ou
+en partie, par les sections
+locales de la Croix-Rouge.
+La Croix-Rouge américaine
+créa
+les
+premiers
+services
+ruraux
+d'infirmières
+visiteuses
+en
+1912
+et,
+cette
+œuvre
+ayant
+donné
+d'excellents résultats,
+elle entreprit,
+en 1919, de la développer sur
+une grande échelle, la considérant comme l'une des plus importantes
+activités du temps de paix.
+Le siège central de la Croix-Rouge américaine indique la ligne de
+conduite à suivre, élabore les programmes, trace les méthodes admi¬
+nistratives à suivre, établit les rapports avec les institutions nationales
+et gouvernementales et conclut avec elles les accords relatifs au travail,
+assure aux sections les services d'un personnel compétent, et exerce
+une surveillance générale.
+Grâce au comité consultatif d'infirmières visiteuses du siège central
+et au personnel composé en grande partie d'infirmières visiteuses, qui
+est chargé de la surveillance des activités extérieures, la Croix-Rouge
+se trouve
+en
+mesure d'aider les infirmières visiteuses
+des sections
+locales, soit par correspondance, ou bien encore par des entrevues au
+siège central, des publications, des visites à la section locale et un
+système de rapports mensuels.
+47
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 344

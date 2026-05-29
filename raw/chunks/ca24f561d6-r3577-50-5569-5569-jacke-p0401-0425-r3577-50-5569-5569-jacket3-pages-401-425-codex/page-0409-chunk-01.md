@@ -1,0 +1,115 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-88aa61936da1-P0409-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425.codex.md
+converted_sha256: 88aa61936da154e70ba743e93a8fa85a768cbbf0621645926b203daad8c9a71e
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425/manifest.json
+page_start: 409
+page_end: 409
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425/manifest.json`
+- Source page: 409
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425/page-images/page-0409.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+SÉANCE
+DU
+22 JUILLET 1929
+3
+Article
+44.
+Le Colonel de La Harpe, rapporteur :
+Il y a deux observations à présenter au sujet de cet article.
+Dans l'alinéa
+1, nous avons spécifié que l'activité des hommes de confiance, comme re¬
+présentants des prisonniers de guerre, devra être comptée dans la durée obligatoire du travail.
+Il fallait en effet qu'il n'y eût aucun doute.
+En ce qui concerne l'alinéa 2, il y a lieu de s'arrêter un instant sur ce membre de phrase :
+« Cette correspondance ne sera pas limitée ».
+L'avis de la Commission qui a préparé ce texte est que c'est seulement la limitation du
+nombre des correspondances qui est interdite. L'expression employée ne doit pas être inter¬
+prétée en ce sens que la censure de ces correspondances serait interdite.
+M.
+Motono
+(Japon) :
+La sous-commission juridique était d'avis que la limitation dont il est question pour la
+correspondance des hommes de confiance avec les autorités militaires et les représentants
+de la Puissance protectrice visât le nombre des lettres.
+Je pense que telle est également l'interprétation de la commission ?
+Je propose de mettre les mots « les représentants » au singulier.
+M. le Président
+:
+Je ne saisis pas très bien pourquoi la délégation japonaise désire ici le singulier.
+M. Yoshida (Japon) :
+Parce qu'il n'y a qu'un seul représentant diplomatique par Etat. Les secrétaires sont
+peut-être des représentants du Ministre, mais non de l'Etat.
+M. le Président
+:
+Les représentants diplomatiques ont la même qualité qu'en temps de paix dans tous
+lés pays. On pourrait, si la commission est d'accord, dire « ...et avec la Puissance protectrice »,
+au lieu de «;...et les représentants de la Puissance protectrice ».
+M. Yoshida (Japon) :
+Nous acceptons.la suppression du mot «représentants».
+M. de Ruelle (Belgique) :
+A l'alinéa 3, nous considérons qu'il faut remplacer l'expression « ne devra être transféré... »
+par
+« ne pourra ».
+L'article 44, ainsi amendé, est adopté.
+Article 45.
+M. Werner (C. I. C. R.l, rapporteur :
+Je dois faire remarquer tout d'abord que nous avons divisé le chapitre en trois parties :
+dispositions générales, peines disciplinaires, poursuites judiciaires. D'autre part, nous avons
+procédé à un regroupement des dispositions qui figuraient dans l'avant-projet afin d'obtenir
+un peu plus de clarté.
+Il n'y a pas d'observation spéciale en ce qui concerne l'article 45 qui est la reproduction
+de l'article 8, alinéa
+1, du Règlement de la Haye, avec une simple modification de rédaction.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 410

@@ -1,0 +1,111 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2b0d49d0c1e2-P0162-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175.codex.md
+converted_sha256: 2b0d49d0c1e26f48bb88fee8eed4e432c5c8b6f0d035bf551d8ceb2a25a4a47b
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/manifest.json
+page_start: 162
+page_end: 162
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/manifest.json`
+- Source page: 162
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/page-images/page-0162.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—39
+tivo, de fecha 28 de noviembre del ano 1914, sobre concesiôn de
+franquicia postal a los periôdicos nacionales, se reglamentô el uso
+de esta concesiôn, exceptuando de ella a los periôdicos que se de-
+dican
+a anuncios
+o al fomento de empresas particulares de ca-
+râcter mercantil
+o industrial.
+Emisiones de sellos.— A principios de octubre el Congreso,
+por una ley derogatoria de la No. 40, ordenô la émision de sellos
+postales con mi vera efigie al rehusar yo, por consideraciones de
+delicadeza personal, expedir dentro de mi capaeidad el decreto. de
+émision correspondiente, teniendo, pues, que intervenir una ley
+de obligatoria promulgation para haeer viable el inmerecido ho-
+menaje con que mis amigos festejaron mi natalitio.
+También
+se hizo otra émision de sellos postales con motivo
+del centenario del nacimiento
+del insigne dominicano Fernando
+Arturo
+de Merino, dispuesta por decreto
+del Poder Ejecutivo,
+expedido el 14 de noviembre, en atenciôn a los méritos de quien
+fué honra y gloria del pais en las Letras, en la vida pûblica y a
+la cabeza de la Iglesia Dominicana.
+CONCLUSION
+He aqui, Senores Représentantes, el resumen de la labor ren-
+dida durante el ano 1932 por el Poder Ejecutivo, cuya represen-
+taciôn
+asumo.
+Constituye
+una considerable
+suma de esfuerzos
+sin paralelo en los anales de la administration pûblica dominica¬
+na, si
+se tiene en cuenta que hubo de tocarme la época de mas
+aguda crisis mundial de la historia, como consecuencia de la mas
+grande guerra habida en el curso de los tiempos, con la agravan-
+te de los desastrosos efectos del mâs terrible huracân que ha a-
+zotado esta isla, y que, por la magnitud de los mismos, no pudie-
+ron conjurarse del todo en el ano 1931.
+No parecia sino que, con taies inconvenientes1, casi imposi-
+ble iba a serle al Gobierno cubrir en el ano sus obligaciones finan-
+oieras; pero contra todos los obstâculos hube de oponer nuevas
+y mayores economias en los servicios publicos; la intensificaciôn
+del trabajo de los empleados, que podia hacerse sin perjuicio de
+los mismos; la escrupulosa recaudaciôn de fondos y su raeional
+aplicaciôn
+a las mâs urgentes necesidades del pueblo; la adop-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

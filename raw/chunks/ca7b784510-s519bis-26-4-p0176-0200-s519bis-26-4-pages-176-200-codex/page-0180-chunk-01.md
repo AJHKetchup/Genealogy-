@@ -1,0 +1,111 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7b99ab4b1f48-P0180-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200.codex.md
+converted_sha256: 7b99ab4b1f48e8325dd52c3547aa054e9008e9c767289e2cd5ecf8c58434ec16
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200/manifest.json
+page_start: 180
+page_end: 180
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200/manifest.json`
+- Source page: 180
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200/page-images/page-0180.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+16
+a esa Camara, quedan evidenciadas las actuaciones realizadas por
+la extinta Camara de Comercio, Industria y Agricultura de Bani
+y continuadas por este organismo, en relacion con ciertos aspec-
+tos agrîcolas y principalmente del cafetero”.
+LA DE MONTE PLATA:
+DISTRIBUCION DE SEMILLAS.— Para las siembras del
+presente ano fueron distribuidas dos mil cuatrocientas sesenta y
+ocho libras de
+arroz Fortuna de semilla, entre 208 agricuitores
+pobres.
+Dicha semilla fué suministrada
+en la forma siguiente:
+el Departamento
+de Agricultura 2043 libras y esta Delegaciôn
+425 libras.
+SENSIBLES PERDIDAS.—El 27 de septiembre de este mis-
+mo ano fué azotada esta comûn por un ciclôn que, aunque de po-
+ca intensidad, no por ello dejô de causar sensib’es pérdidas a la
+agricultura. Como consecuencia de esto, la cosecha de arroz sera
+este ano mucho mâs inferior que la del pasado. Hay actualmente
+escasez de plâtanos y otros frutos menores, debido
+a la misma
+causa.
+CAMINOS.— Con relacion a este interesante tôpico, del cual
+se ha venido hablando mucho ; pero sin que se haya podido llegar
+a nada prâctico, copiaremos parte del informe que en fecha 30 de
+marzo del ano en curso rendimos a esa Câmara de Comercio: ‘‘En
+julio del ano 1925 se comenzaron los estudios para una carretera
+que, partiendo del paraje conocido por Mojarra, en la carretera
+Mella, enlazara las poblaciones de Guerra, Bayaguana y Monte
+Plata, cuyos estudios, no incluyendo
+a Boyâ, que también estaba
+entonces comprendida en el programa nacional de carreteras, a-
+barcaban una extension de 55 kilômetros aproximadamente. Taies
+estudios fueron ejecutados bajo la direction del ingeniero B.
+de
+Trueba; pero cuando apenas se habian concluido unos 23 kilôme¬
+tros de afirmado hubo necesidad de suspender los trabajos inde-
+finidamente, por haberse agotado la apropiaciôn destinada a ese
+fin. La mencionada obra quedô, pues, en estas condiciones: 23 ki¬
+lômetros concluidos,
+9 kilômetros
+de terraplén entre
+el puente
+Yabacao y Bayaguana, y simples trochas entre esta ultima po-
+blaciôn y Monte Plata, cuyo tramo tiene una extension de 22 ki¬
+lômetros mâs o menos. Muchas veces se ha hablado sobre la posi-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 181

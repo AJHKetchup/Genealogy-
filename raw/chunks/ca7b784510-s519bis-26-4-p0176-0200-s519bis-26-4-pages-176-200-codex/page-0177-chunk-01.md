@@ -1,0 +1,105 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7b99ab4b1f48-P0177-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200.codex.md
+converted_sha256: 7b99ab4b1f48e8325dd52c3547aa054e9008e9c767289e2cd5ecf8c58434ec16
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200/manifest.json
+page_start: 177
+page_end: 177
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200/manifest.json`
+- Source page: 177
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200/page-images/page-0177.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+13
+pasional, algunas personas que no tuvieron una cabal compren-
+siôn del alcânce de los trabajos que se iban a realizar.
+Los resultados de la campana agrîcola no solo se han podido
+palpar en la ha’agadora cosecha de arroz de este ano y en el au-
+mento de la production de otros frutos, sino también, y ello produ¬
+ce el mas confortador optimismo, en el nûmero de pequenas ha¬
+ciendas y huertos que se han levantado en esta comun y en toda
+la provincia y en el deseo que palpita en el ânimo de un gran nu¬
+méro de capitalenos de buscar en el campo la riqueza que, por
+motivo de la crisis econômica universal existante y otras causas,
+se aleja cada vez mâs de los centros urbanos. Esa obra transfor-
+madora ha contado siempre, a mâs del pequeno esfuerzo de esta
+Câmara, con las poderosas palancas que mueven desde sus ele-
+vadas posdciones el Honorable Présidente de la Republica y el
+Secretario de Estado de Agricultura y Comercio, secundado éste
+por el competente personal de su Departamento.
+La labor agrîcola de las Delegaciones Comunales ha sido bas-
+tante buena; sobre todo si se consideran los recursos escasos de
+que disponen. Todas merecen encomios, muy sobre todo las de
+Bani, Monte Plata, Bayaguana, La Victoria y Yarnasa, donde su
+personal laborô sin descanso y con amor.
+He aquî lo que dieen algunas de ellas en informes rendidos
+a esta Câmara sobre sus trabajos durante este ano:
+La de BANI:
+“COMERCIO.— La labor comercîal de este organismo ha
+sido provechosa, pues
+se ha tenido en completo conocimiento a
+los comerc’iantes de esta comûn respecto a las distintas informa-
+ciones relacionadas
+con
+su negocîo, tant© del interior como del
+exterior del pais. En relation a ese ramo de la riqueza publica,
+se le expresa que, debido
+a la aguda crisis econômica mundial,
+esta sufriend©; como es natural, los trastornos de ella.
+TNDUSTRIÀS.—El movimiento industrial ha adelantado
+mucho con la implantation de nuevas mâquinas para acondïeionar
+café y descascarar arroz; resultando que en la actualîdad, hay
+seis para la preparation de café, pertenecientes a los sehores Vïr-
+gilio Pimentel, Rodolfo E. Pena, Luis Castillo, José M. Brea, Pa-
+r
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 178

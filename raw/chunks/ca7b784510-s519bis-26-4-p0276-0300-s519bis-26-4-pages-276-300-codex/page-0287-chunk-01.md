@@ -1,0 +1,266 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-fac3da9a016e-P0287-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0276-0300-s519bis-26-4-pages-276-300.codex.md
+converted_sha256: fac3da9a016ed64c5759976ce5076f00d9b62857f2cdea42dacf2dd2dec0ab52
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0276-0300-s519bis-26-4-pages-276-300/manifest.json
+page_start: 287
+page_end: 287
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0276-0300-s519bis-26-4-pages-276-300/manifest.json`
+- Source page: 287
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0276-0300-s519bis-26-4-pages-276-300/page-images/page-0287.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+13 de ^unio,
+1934
+COIS VERS AC 10li
+COH
+L DR.
+OCTAVIO J?ABABâ.Güâ
+El Dr.
+.?àitenegaX vino
+s despedirae antes de partir
+para el Brasil donCe piensa estai- ouatro
+o cinco meses.
+Me reiterd
+su deseo
+de servir
+a la Socieaaû y haeer
+loéo lo
+ou?
+ees dtil
+para faciliter la reineorporacidn del
+Brasil.
+El Dr.
+Paranagud ha vivido trece
+anos
+en Europe y
+cococe perfectamente la
+Soeitdaà
+cuya accidn le interesa y
+sostiene âecididamente.
+SI
+Sr.
+Paranaguâ,
+que
+es Doctor
+en Bereeho,
+se ha de¬
+dicate especialæenta
+a cuestiones econdfflleas y rfinanoieras,
+pero
+oonoce
+también i fonûo 1s polîtioa general de
+au pafa.
+SI
+Dr,
+ParanaguJ fud Cdnsul del Brasil
+en Praga durante
+très
+aüos (1920-1923) ;
+Agrégé«3o Coderais]
+en 'Madrid (1923-192?)
+Delegado del Brasil
+a la Confereneia Eeondmica Internacional
+(192?).
+FJéreid las fancionèe
+do Comisario del gstado de
+San Pablo
+an
+Europe Central
+y
+en los Baloanes,
+ocupdndose
+eepeoialmente del problems del calé.
+Sa
+hombre
+de confiants del
+Dr.
+Juan Carlos
+de aacedo
+Soares y fué él
+en reatidad el iniciaùor y el autor del
+proyeoto
+de
+tratado
+de
+no agresidn y de seguridad territorial
+q
+el Dr.
+da >asedo Soares
+propuso
+en 1932 durante la Confe-
+rencia
+del
+Desarme
+al Dr.
+Boson despué a de haber sido soaifti-
+do
+a la oonsideraoidn del Dr.
+de .elle Franco.
+Ex Dr.
+Bosch
+transmit i-d
+ese proyeoto al Cobierno argentine y pue de consi-
+derarse
+ese
+acte
+ccmo al énspirador del ïrafcado antlbdlico
+del
+Dr.
+Saavedra
+Lamas.
+El Dr.
+Paranagud
+es un horabre ilustra', o,
+auy inteligen te.
+ko inspiré sieiapre confianza por la claridad
+de
+su pensa-
+miento y por la manera 4a
+juzgar
+a los horabre s de
+su pals
+individualise nte
+y al pais coleetivamante.
+SI Dr.
+Paranaguft
+txmo
+para interesar
+a
+lo
+que
+ae refiere
+a la
+yo,
+que
+no dobe darse
+al Brasil
+por ruedio
+de
+convenient© favorecer
+cia
+eoiao ol Dr.
+.-silo
+que hobrXa sido quizds
+pussto
+en el Tribunal
+resultado
+obtsnido
+por
+oree
+que el womento pœde
+ser opor-
+los hombres
+de goblerno brasilefio en
+Sociedal
+4h
+las
+aoiones.
+Créé,
+eomo
+la
+sensacidn
+de
+que
+se quiere atraer
+halagos. Silo
+no impid
+que halle
+a los
+hombroE
+que
+pueden tener influen-
+Fmnco,
+y
+en
+ese sentido
+me insinuaba
+dtil ofrrcer ni Dr, ilello
+Franco
+un
+del Saar,
+e spç cialmente
+e raiz del buen
+él
+en el
+asunto
+de Leticia.
+Lo
+Dr.
+Paransgud estima
+que
+pue de hallarse
+un prooe-
+dimlento
+en el cual est,én
+de
+aouerdo los nombres dirigeâtes
+del Brasil y la Secratarîa de la Sociedad de las Baoiones
+para
+que el Srasil vue1va
+a la Soeiedsd sin tener que rec-
+tifioàr ostenslblemente lo
+que el Gobierao brasilelo hizo y
+di^o
+en Î9£ê,"" Créé
+que po&rfs hallaree una formula convirtien-
+do el "gentlemen agreement" aotual
+de
+que
+très paîses
+latino-amerioi-nos
+ban
+de
+ser
+ieiufcros
+dr.l Consejo,
+en un
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

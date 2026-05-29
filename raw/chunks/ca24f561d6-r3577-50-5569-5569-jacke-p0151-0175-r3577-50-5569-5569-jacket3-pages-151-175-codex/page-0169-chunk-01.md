@@ -1,0 +1,104 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2a39cae76a9e-P0169-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175.codex.md
+converted_sha256: 2a39cae76a9e1557f8f0bfa59aa0ec757f5cebd5c7e2c7c6c34cb17a606f64da
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175/manifest.json
+page_start: 169
+page_end: 169
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175/manifest.json`
+- Source page: 169
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175/page-images/page-0169.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Séance du ii Juillet 1929
+21
+M. le Président
+:
+Nous abordons le dernier alinéa ainsi conçu :
+« Le personnel civil et tous les moyens de
+transport provenant de la réquisition seront soumis aux règles générales du droit des gens ».
+C'est la rédaction proposée par la délégation des Etats-Unis. Y a-t-il des observations ?
+M. Hsiao (Chine) :
+L'expression
+« soumis aux règles générales du droit des gens » ne stipule rien de positif.
+Si nous élaborons une convention, nous devons nous efforcer d'y mettre des clauses positives
+ou ne rien dire du tout. Si l'on estime que les règles du droit des gens sont suffisamment claires
+à ce sujet, il sera logique que les cas prévus soient soumis aux dites règles et dans ces conditions
+il est superflu de le dire expressément. Je propose la suppression pure et simple de cet alinéa.
+M. le Président
+:
+Cette proposition a un caractère de nature générale, puisque nous avons dans la Conven¬
+tion d'autres dispositions qui se réfèrent au droit positif établi ailleurs que dans la Convention
+elle-même.
+M. Hsiao (Chine)
+:
+Ce n'est pas la même chose que les règles générales du droit des gens.
+M. le Président
+:
+Si aucune observation n'est présentée, au sujet de la remarque faite par la délégation
+de la Chine, nous passerons au vote sur le texte de l'alinéa qui serait le suivant :
+« Le personnel civil et tous les moyens de transport provenant de la réquisition seront
+soumis aux règles générales du droit des gens. » Vous avez à vous prononcer, Messieurs, soit
+pour son adoption, soit selon la proposition de M. le délégué de la Chine, pour sa suppression.
+Il est procédé au vote. Le texte proposé est adopté à la majorité.
+M. le Président :
+Nous
+avons ainsi terminé
+avec l'article
+17 et nous aurions par conséquent à aborder,
+immédiatement après, les nouvelles dispositions relatives à l'aviation sanitaire. Ce sera si
+vous le voulez bien le programme de la discussion en séance plénière de demain après-midi.
+Demain matin à
+9 h. 30, la grande sous-commission se réunirait pour discuter le chapitre
+du matériel.
+L'assemblée est-elle d'accord avec cet ordre du jour de demain ?
+Aucune observation n'est présentée, la séance est levée à 13 heures.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

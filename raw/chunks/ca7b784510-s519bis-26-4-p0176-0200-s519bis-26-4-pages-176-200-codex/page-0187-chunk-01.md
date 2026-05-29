@@ -1,0 +1,118 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7b99ab4b1f48-P0187-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200.codex.md
+converted_sha256: 7b99ab4b1f48e8325dd52c3547aa054e9008e9c767289e2cd5ecf8c58434ec16
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200/manifest.json
+page_start: 187
+page_end: 187
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200/manifest.json`
+- Source page: 187
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200/page-images/page-0187.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+A
+22
+agricultores y criadores, dado el caso de que los primeros, un tan-
+to abandonados
+en algunas secciones, mantenîan
+sus labranzas
+sin empalizadas o con éstas en completo deterioro y se introdu-
+cîan asî los animales, tratando entonces los duenos de las labran¬
+zas de cobrar danos.
+La Delegaciôn, después de agotar sus recursos amistosos de
+persuaciôn para que aseguraran taies agricultores sus propieda-
+des, promoviô una reunion en la poblaciôn del Sindico de la comun,
+Juez Alcalde, Comisario de la Policia y varios Pedâneos asî co-
+mo todos sus Colaboradores, para tratar tan preocupante asunto y
+dejarlo resuelto definitivamente, resolviéndose persuadir de
+un
+modo mâs severo a los agricultores a que cercaran sus labranzas
+debidamente, ya que no hay ni conviene por ahora que la haya,
+una zona agricola.
+La incuria
+de
+los
+agricultores
+que
+asî procedian, llegô al
+punto de negarse a cercar, ni aun con plazos extensos que se les
+concedîa, y fué entonces cuando esta Delegaciôn se moviô a diri-
+gir a esa Hon. Câmara la comunicaciôn que ella conoce y que de¬
+bidamente tramitada por élla, obtuvo del Hon.
+Sr.
+Secretario
+de Estado de Agricultura y Comercio, la declaraciôn de que “hay
+que protejer la crianza obligando
+a los agricultores
+a que
+cer-
+quen debidamente sus cultivos”..
+La Delegaciôn ha girado ahora nuevas visitas
+a los campos
+haciendo conocer al elemento agricultor, el criterio de tal Depar-
+tamento sobre el caso, y previniendo los infractores, que serân
+urgidos por la justicia a poner sus cultivos a prueba de seguridad.
+Tratando de darle mayor eficacia a estas recomendaciones, la De¬
+legaciôn nombrô en todas las secciones afectadas con la mala cos-
+tumbre impuesta, lo que ha llamado Inspectores de Empalizadas,
+encargados de vigilar por el buen estado de éstas, y denunciar
+previamente al Pedâneo los que las tengan en mal estado, evitan-
+do asî que los animales
+se introduzcan y causen danos, para lo
+cual el Pedâneo los urgirâ a arreglarlas o serân sancionados ju-
+dicialmente.
+Un grave mal que azoté durante el pasado ano y todo el que
+cursa al ganado caballar de la comun, diezmândolo despiadada-
+mente, ha mantenido también en preocupaciôn la atenciôn de esta
+Delegaciôn. Pasan de 180, sin temor a exajerar, las unidades que
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 188

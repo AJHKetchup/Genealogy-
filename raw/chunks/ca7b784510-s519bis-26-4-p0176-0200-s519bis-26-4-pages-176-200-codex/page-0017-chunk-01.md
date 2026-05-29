@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-ac3ec9a029fa-P0017-01
+chunk_id: CHUNK-7b99ab4b1f48-P0017-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200.codex.md
-converted_sha256: ac3ec9a029fa8bb02b6fe55a047f789c35108b39de832168d895599b43787174
+converted_sha256: 7b99ab4b1f48e8325dd52c3547aa054e9008e9c767289e2cd5ecf8c58434ec16
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200/manifest.json
@@ -81,3 +81,5 @@ The transcription is complete and includes all visible text from the page.
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
+
+# Page 193

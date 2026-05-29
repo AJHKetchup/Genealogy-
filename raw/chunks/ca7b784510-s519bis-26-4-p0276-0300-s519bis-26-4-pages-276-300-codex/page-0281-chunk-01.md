@@ -1,0 +1,208 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-fac3da9a016e-P0281-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0276-0300-s519bis-26-4-pages-276-300.codex.md
+converted_sha256: fac3da9a016ed64c5759976ce5076f00d9b62857f2cdea42dacf2dd2dec0ab52
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0276-0300-s519bis-26-4-pages-276-300/manifest.json
+page_start: 281
+page_end: 281
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0276-0300-s519bis-26-4-pages-276-300/manifest.json`
+- Source page: 281
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0276-0300-s519bis-26-4-pages-276-300/page-images/page-0281.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+13 juin 1934
+fi
+I
+*
+C03VERSATION
+AVEC
+LS Dr.
+OCTAVIO
+PARABAGUA
+Le
+Dr.
+Paranagué est vena me faire
+ses adieux avant de
+partir pour le Brésil
+où. il pense rester quatre
+ou cinq mois.
+Il
+me réitéra
+son désir de servir la Société et de faire
+tout
+ce qui serait utile
+pour faciliter la réincorporation du
+Brésil.
+Le Dr.
+Parana gué
+a vécu treize années
+en Europe et
+il connaît parfaitement la Société dont l’action l’intéresse
+et qu’il soutient
+ardemment.
+M. Paranagud,
+qui sst Docteur en droit, s'est consacré
+tout spécialement
+aux questions économiques et financières,
+mais ii connait également à fond la politique générale de son
+pays.
+Le
+Dr.
+Paranagué fut Consul du Brésil à Prague durant
+trois
+années
+(1920-1923); Attaché commercial à Madrid (1923-
+1927);
+Délégué
+du Brésil à la Conférence Economique internatio¬
+nale
+(1927). Il exerça les fonctions de Commisse re de l’Etat
+de
+San Pablo
+en Europe centrale et dans les Balkans, s’occupant
+spécialement du problème du café.
+Il est l’homme
+de
+confiance
+du Dr.
+Juan Carlos de Macedo
+Soares et
+ce fut lui,
+en réalité, l'initiateur et l'auteur du
+projet de traité
+de non-agression et de sécurité territoriale
+proposé
+pur- le Dr.
+de Macedo Soares
+en 1922, durant la
+Conférence
+du Désarmement,
+au Dr.
+Bosch,
+après avoir été
+soumis
+à 1’approbation du Dr.
+de hello franco.
+Le Dr. Bosch
+transmit
+ce projet
+au Gouvernement argentin et cet acte peut
+être
+considéré
+comme l'inspirateur
+du Traité, anti-belliqueux
+du Dr.
+Saavedra Lamas.
+Le Dr.
+Paranagué est un hommt cultivé
+,
+très intelligent.
+Il m'a toujours inspiré confiance
+par la clar?fté de
+sa pensée
+et par àa manière
+de juger les hommes de son pays, indivi¬
+duellement et
+son pays collectivement.
+Le
+Dr.
+Paransgué croit
+que le moment peut être opportun
+pour intéresser les hommes du gouvernement brésilien en ce qui
+se
+réfère
+à la Société
+des Nations. Il croit,
+comme moi,
+qu’il
+ne faut pas donner l’impression que l'on veut attirer
+ie Brésil pqr des flatteries.
+Cela n'empSche
+pas qu'il pense
+qu’il est opportun dCtre
+agréable
+aux hommes qui peuvent avoir
+de l’influence,
+cornue le
+Dr. Mello Franco, et dans
+ce sens,
+il m’insinua qu’il aurait peut-être été utile d’offrir au
+Dr.
+Mello Franco
+un poste
+au Tribunal
+de la Sarre,
+spécialement
+en raison du bon résultat
+obtenu par lui dans l'affaire de
+Leticia.
+Le
+Dr.
+Paranagué estime
+que l'on peut trouver une procédure
+sur laquelle les hommes dirigeants du Brésil et le Secrétariat
+de la Société
+des Nations
+tomberaient d'accord pour
+que le
+Brésil
+revienne
+dans la Société
+sans avoir à rectifier
+ostensiblement
+ce qu’a fait et dit le Gouvernement brésilien
+èïiÏ926. Il croit
+que l’on pourrait trouver une formule
+convertissant le
+’’gentlemen agreement” actuel par lequel
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 282

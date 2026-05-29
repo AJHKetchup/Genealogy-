@@ -1,0 +1,290 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b3f3d61e44d6-P0268-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0251-0275-s519bis-26-4-pages-251-275.codex.md
+converted_sha256: b3f3d61e44d6df4dc60e43bb6166ba21c42e7db30036bf287122f9d585e2dfb1
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0251-0275-s519bis-26-4-pages-251-275/manifest.json
+page_start: 268
+page_end: 268
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0251-0275-s519bis-26-4-pages-251-275/manifest.json`
+- Source page: 268
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0251-0275-s519bis-26-4-pages-251-275/page-images/page-0268.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+riîica
+es contraria
+a la tendencia politica de admitir
+en
+el
+B. I. T,
+Miembros
+que
+no lo
+son de la
+S.D.N.
+No
+eecapa
+a su perspicacia por
+que llamo
+su atenci<5n
+sobre
+estas
+circunstancias
+que podrïa
+- y ello
+no
+quiere
+de-
+cir
+que
+suceda fatalmente
+- determinar una situacion de
+duda
+en lo
+que
+se refiere al Brasil.
+Le digo
+esto porque puede
+servirle
+de argumento para agragar
+a los
+demâs
+que
+Vd. tiene
+a fin de
+demostrar la
+conveniencia
+de
+una compléta nitidez
+en las relaciones
+del Brasil y la Soeiedad
+de
+las Naciones,
+es decir,
+Usa y llanamente,
+su reincorporaci<5n.
+Podràn hacerle
+a
+Yd»
+desde
+el punto
+de vista politico,
+no juridico, la observaci<5n
+que la reciente actitud asumida
+en lo
+que
+a los
+Estados ünidos
+se refiere,
+es un antecedents
+mas
+en favor
+de la presencia del Brasil
+en el
+B.
+I*
+T»
+sin
+ser
+Miembro
+de la
+Soeiedad.
+Vd.
+sabe
+que tanto
+en materia juridica
+como
+en materia
+politics,
+se tiene contestacién para todo y
+no
+me llamaria la
+atenci<5n
+que
+se argumentara de
+esta
+manera:
+la situaci<5n d el
+Brasil
+y la
+de los Estados ünidos
+son diferentes.
+El Brasil
+fué Miembro
+de
+la
+Soeiedad
+de las Naciones
+y
+se retirà,
+vale
+decir,
+se halla
+en el movimiento negativo del alejamiento,
+luego
+no debe facilitarse
+esa actitud.
+En cambio,
+los Estados
+ünidos
+no han
+sido
+nunca Miembros
+de la
+Soeiedad y
+se hallan
+en el
+movimiento
+de
+acercarse.
+Por lo tanto,
+conviene ayudar
+ese movimiento.
+Con otras palabras:
+debe
+tenderse
+el puente
+para el
+que
+se
+acerca y
+no debe tenderse para el
+que
+se ale^a.
+Pero ademas,
+podra argüirse otro
+elemento importante,
+es decir,
+que el Brasil
+no
+es Miembro
+de la
+Soeiedad
+de las
+Naciones,
+ni siquiera
+en potencia,
+porque ha roto todos
+sus
+lazos politicos
+y juridieos
+con ella.
+En cambio,
+los Estados
+ünidos pueden ser eonsiderados
+un poco
+como Miembro
+en po¬
+tencia porque
+su nombre figura
+en una llamada
+del Pacto,
+cuan-
+do
+se refiere
+a las principales potencias aliadas y asociadas
+que han de
+ser Miembros permanentes del Consejo.
+Podrd
+con-
+testarse
+a
+esto
+que el Brasil también esta citado
+en el mismo
+pasaje del Pacto,
+pero por
+su voluntad ha roto,
+como digo
+an¬
+tes,
+los lazos
+que los Estados ünidos
+no rompieron porque
+no
+existieron nunca,
+aunque siguen existiendo siempre
+en proyecto.
+Estas especulaeiones
+de caracter personal van
+a manera
+de advertencia
+sobre lo
+que puede
+suceder y sobre lo
+que
+con-*x
+viene
+naturalmente
+evitar apercibilndose
+con tiempo para
+comr \
+batirlo,
+y la mejor
+manera
+de combatirlo
+es
+no dar lugar
+a
+queV
+la acciôn
+se produzca,
+?No le
+parece.
+A la
+espera
+de
+sus
+ansiadas noticias, le envia
+un eor^'
+dial apret5n de
+manos
+su amigo
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

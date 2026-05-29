@@ -1,0 +1,156 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-0bb667d7d58d-P0298-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303.codex.md
+converted_sha256: 0bb667d7d58d350c4ab92846aa72c52760b3797ba55793b015bc5db4b12bd671
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json
+page_start: 298
+page_end: 298
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json`
+- Source page: 298
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0298.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+13
+Art. 46. — Las
+personas
+enumeradas
+en
+el
+articulo
+treinta
+y
+oclio
+tendrân derecho
+a una indemnizaciôn igual al einoo por ciento de las sumas
+percibidas en concepto de sueldos
+por
+el
+empleado
+u
+obrero
+fallecido que
+no deje dereoho
+a pension.
+Art. 47. — El derecho de la pension
+se extingue:
+1° Para la yiuda, y viudo o madre enando contrajere naevas nupcias;-
+2° Para Ion hijos, desde que llegaren
+a
+la edad de
+18 anos, salvo
+el
+caso que exista imposibilidad fisica para el trabajo;
+3° Para las hijas
+o hermanas
+solteras
+desde
+que contraigan
+ma-
+trimonio;
+4° En general, por vida deshonesta, vaganoia o por domiciliarse en
+el extranjero sin permiso previo del Congreso.
+CAPÎTULO VI
+□isposiciones especiales
+Art. 48.
+— Los empleados y obreros eon derecho a jubilacion, pero que,
+por haber prestado servicios
+con
+anterioridad a la fecha en que se
+ordeno
+el descuento forzoso
+a que se refiere el
+inoiso
+primero del artionlo
+noveno
+de esta ley o por cualquier otro motivo no hayan oonourrido a la formacion
+del fondo de la Caja con el cinco por ciento de todos los sueldos percibidos
+durante el numéro de
+anos acreditado para acogerse
+a sus benefieios, sufri-
+rân
+un descuento del diez
+por ciento
+en
+sus jubilaciones, basta réintégrai-
+al fondo
+de la Caja una suma igual al cinco por ciento
+de los
+sueldos per¬
+cibidos.
+A este efecto, el Directorio, al acordar las jubilaciones, formularâ
+el
+cargo respectivo; en la misma forma se procédera con las pensiones.
+Art. 49.—Los empleados y obreros que con anterioridad a la vigen-
+.
+cia de esta ley y
+a partir del 1° de enero de mil novecientos trece hubiesen
+sido destituidos por causas no previstas en esta ley, tendrân derecho a los
+benefieios que ella acuerda, con un diez por ciento de descuento.
+En
+las
+mismas
+condiciones podrân obtener pension las personas a
+que se refiere el artionlo treinta y ocho, como también cuando los causantes
+hubiesen fallecido
+con posterioridad al 1° de enero de mil novecientos trece
+y antes de la promulgaciôn de esta ley.
+Queda comprendido en esta disposiciôn el
+caso de pension acordada
+por concepto de fallecimiento del causante en ejercicio de su cargo.
+Arts. 50 y 51. — La Caja Nacional de Jubilaciones y Pensiones de Em¬
+pleados Feri'oviarios, computarâ los servicios prestddos en otras actividàdes,
+siempre que hayan sido reconocidos por las Cajas respectivas. Las dénias
+Cajas computardn los servicios ferroviarios y en las jubilaciones y pensiones
+acordadas con servicios mixtos, cada Caja contnbuird con la parte propor-
+cional que correspondu.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 299

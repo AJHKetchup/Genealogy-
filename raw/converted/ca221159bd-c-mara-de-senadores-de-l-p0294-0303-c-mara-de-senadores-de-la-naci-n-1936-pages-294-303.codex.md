@@ -416,82 +416,165 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 296
+
 ## Page Metadata
-Page number: 296
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json`
+- Source page: 296
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0296.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, primarily legal articles and explanations, with a page number centered at the top. There is a chapter title and subtitle.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 11 —
 
-caso con sujeción a los reglamentos que el Poder Ejecutivo deberá dictar al
+```markdown
+—
+11
+—
+oaso oon sujétion a los reglamentos que el Poder Ejecutivo deberâ dictai- al
 efecto.
-
-Art. 34.—El derecho para pedir la jubilación se extingue a los cinco
-años a contar desde el día que dejó el servicio.
-
-Art. 35.—La jubilación es vitalicia y el derecho a percibirla sólo se
-pierde por las causas expresadas en esta ley. El jubilado perderá todo de-
-recho a la jubilación si se domiciliare en el extranjero sin obtener previa-
-mente autorización del Poder Ejecutivo Nacional.
-
-Art. 36.—La conmutación o el indulto no harán renacer los derechos
-perdidos como consecuencia de lo dispuesto en esta ley.
-
-Art. 37.—No podrá reclamar su jubilación el que tenga causa criminal
-pendiente sobre su persona, cuando el hecho que motiva el proceso merezca
-pena de presidio, penitenciaría o por delito contra la propiedad.
-
-CAPÍTULO V
-De las pensiones
-
-Art. 38.—En los mismos casos en que con arreglo a esta ley haya
-derecho a gozar de jubilación y ocurra el fallecimiento del empleado u obrero,
-tendrán derecho a pedir pensión en la proporción y condiciones establecidas
-en este capítulo: la viuda, el viudo inválido, los hijos o en su defecto los
-padres y a falta de éstos las hermanas solteras del causante hasta la edad
-de veintidós años y las mayores de edad si estuvieran imposibilitadas para
+Art. 34. — El derecho para pedir la jubilation
+se extingue
+a los cinco
+anos
+a contar
+desde el dia que dejo el servicio.
+Art. 35. ■— La jubilation es vitalicia
+y el derecho a pertibirla
+solo
+se
+pierde por las causas expresadas en esta ley. El jubilado perderd
+todo
+de¬
+recho
+a la jubilation si se domitiliare
+en
+el
+extranjero
+sin
+obtener previa-
+mente autorizaciôn del Poder Ejecutivo National.
+Art. 36. — La conmutaciôn
+o el indulto
+no harân renacer los derechos
+perdidos coino consecuencia de lo dispuesto en esta ley.
+Art.
+37. — No podrâ réclamai-
+su jubilation el que tenga causa criminal
+pendiente sobre su persona, cuando el hecho que motiva el proceso
+merezca
+pena de presidio, penitenciaria
+o por delito contra la propiedad.
+CAPITULO V
+De
+las
+pensiones
+Art. 38. — En los
+mismos
+casos
+en que
+con
+arreglo
+a esta ley baya
+derecho
+a go^ar de .jubilation y ocurra el fallecimiento del empleado u obreroj
+tendràn derecho
+a pedir pension en la proportion y condiciones establecidas
+en este capitulo:
+la viuda,
+el viudo invalido,
+los
+hijos o
+en su defecto los
+padres y
+a falta de éstos las hermanas solteras del causante hasta
+la edad
+de veintidos
+anos y las mayores de edad si estuvieran imposibilitadas
+para
 el trabajo.
-
-Si el fallecido hubiese sido ya jubilado, las personas enumeradas en el
-párrafo anterior tendrán derecho a pensión en las condiciones establecidas
-en los artículos siguientes sin más trámite que el de justificar su personería,
-acreditar la existencia de la jubilación de conformidad a esta ley y observar
-los requisitos por ellos establecidos.
-
-Asimismo tendrán derecho a pensión las personas antes enunciadas,
-si el causante falleciese en el ejercicio de su cargo y siempre que tenga más
-de diez años de servicios.
-
-A los efectos del artículo 40, se entenderá que la jubilación a que
-habría tenido derecho el causante, es la jubilación por invalidez.
-
-Art. 39.—El derecho a gozar de la pensión entre las personas mencio-
-nadas en el artículo anterior corresponderá desde el día del fallecimiento del
-causante y se otorgará en la forma y orden siguiente:
-
-1° A la viuda y al viudo incapacitado para el trabajo en concurren-
-cia con los hijos;
+Si el fallecido hubiese sido y a jubilado, las personas enumeradas en el
+pârrafo anterior tendrân derecho
+a pension en las
+condiciones
+establecidas
+en los articulos siguientes sin mâs trâmite que el de justificar su personeria,
+acreditar la existencia de la jubilation de conformidad
+a esta ley y observai-
+los requisites por ellos establecidos.
+Asimismo tendrân derecho
+a pension las personas
+antes enunciadas,
+si el causante falleciese en el ejercicio de su cargo y siempre que tenga mds
+de diez anos de servicios.
+A los efectos del articulo
+40,
+se
+entenderd
+que la jubilation a que
+habria tenido derecho el causante,
+es la jubilation por invalidez.
+Art. 39. — El derecho
+a gozar de la pension entre las personas meneio-
+nadas en el articulo anterior corresponderâ desde el dia del fallecimiento del
+causante y
+se otorgarâ en la forma y orden siguiente:
+1° A la viuda y al viudo incapacitado para el trabajo en concurren¬
+ce
+con los hijos;
 2° A los hijos solamente;
-3° A la viuda en concurrencia con los padres del causante, siempre
-que éstos estuviesen exclusivamente a cargo de aquél;
-4° A los padres que se encuentren en las condiciones del inciso
+3° A la viuda
+en concurrencé
+con los padres del causante, siempre
+que éstos estuviesen exclusivamente
+a cargo de aquél;
+4° A los padres que
+se
+encuentren
+en
+las
+condiciones
+de!
+inciso
 anterior;
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 297
 
@@ -674,73 +757,149 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 298
+
 ## Page Metadata
-Page number: 298
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json`
+- Source page: 298
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0298.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, primarily legal articles and sub-sections, with a centered page number at the top. The text flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-- 13 -
 
-Art. 46. — Las personas enumeradas en el artículo treinta y ocho
-tendrán derecho a una indemnización igual al cinco por ciento de las sumas
-percibidas en concepto de sueldos por el empleado u obrero fallecido que
-no deje derecho a pensión.
-Art. 47. — El derecho de la pensión se extingue:
-1º Para la viuda, y viudo o madre cuando contrajere nuevas nupcias;
-2º Para los hijos, desde que llegaren a la edad de 18 años, salvo
-en el caso que exista imposibilidad física para el trabajo;
-3º Para las hijas o hermanas solteras desde que contraigan ma-
+```markdown
+13
+Art. 46. — Las
+personas
+enumeradas
+en
+el
+articulo
+treinta
+y
+oclio
+tendrân derecho
+a una indemnizaciôn igual al einoo por ciento de las sumas
+percibidas en concepto de sueldos
+por
+el
+empleado
+u
+obrero
+fallecido que
+no deje dereoho
+a pension.
+Art. 47. — El derecho de la pension
+se extingue:
+1° Para la yiuda, y viudo o madre enando contrajere naevas nupcias;-
+2° Para Ion hijos, desde que llegaren
+a
+la edad de
+18 anos, salvo
+el
+caso que exista imposibilidad fisica para el trabajo;
+3° Para las hijas
+o hermanas
+solteras
+desde
+que contraigan
+ma-
 trimonio;
-4º En general, por vida deshonesta, vagancia o por domiciliarse en
+4° En general, por vida deshonesta, vaganoia o por domiciliarse en
 el extranjero sin permiso previo del Congreso.
-
-CAPÍTULO VI
-
-Disposiciones especiales
-
-Art. 48. — Los empleados y obreros con derecho a jubilación, pero que,
-por haber prestado servicios con anterioridad a la fecha en que se ordenó
-el descuento forzoso a que se refiere el inciso primero del artículo noveno
-de esta ley o por cualquier otro motivo no hayan concurrido a la formación
+CAPÎTULO VI
+□isposiciones especiales
+Art. 48.
+— Los empleados y obreros eon derecho a jubilacion, pero que,
+por haber prestado servicios
+con
+anterioridad a la fecha en que se
+ordeno
+el descuento forzoso
+a que se refiere el
+inoiso
+primero del artionlo
+noveno
+de esta ley o por cualquier otro motivo no hayan oonourrido a la formacion
 del fondo de la Caja con el cinco por ciento de todos los sueldos percibidos
-durante el número de años acreditado para acogerse a sus beneficios, sufri-
-rán un descuento del diez por ciento en sus jubilaciones, hasta reintegrar
-al fondo de la Caja una suma igual al cinco por ciento de los sueldos per-
+durante el numéro de
+anos acreditado para acogerse
+a sus benefieios, sufri-
+rân
+un descuento del diez
+por ciento
+en
+sus jubilaciones, basta réintégrai-
+al fondo
+de la Caja una suma igual al cinco por ciento
+de los
+sueldos per¬
 cibidos.
-A este efecto, el Directorio, al acordar las jubilaciones, formulará el
-cargo respectivo; en la misma forma se procederá con las pensiones.
-Art. 49. — Los empleados y obreros que con anterioridad a la vigen-
-cia de esta ley y a partir del 1º de enero de mil novecientos trece hubiesen
-sido destituidos por causas no previstas en esta ley, tendrán derecho a los
-beneficios que ella acuerda, con un diez por ciento de descuento.
-En las mismas condiciones podrán obtener pensión las personas a
-que se refiere el artículo treinta y ocho, como también cuando los causantes
-hubiesen fallecido con posterioridad al 1º de enero de mil novecientos trece
-y antes de la promulgación de esta ley.
-*Queda comprendido en esta disposición el caso de pensión acordada
-por concepto de fallecimiento del causante en ejercicio de su cargo.*
-*Arts. 50 y 51.— La Caja Nacional de Jubilaciones y Pensiones de Em-
-pleados Ferroviarios, computará los servicios prestados en otras actividades,
-siempre que hayan sido reconocidos por las Cajas respectivas. Las demás
-Cajas computarán los servicios ferroviarios y en las jubilaciones y pensiones
-acordadas con servicios mixtos, cada Caja contribuirá con la parte propor-
-cional que corresponda.*
+A este efecto, el Directorio, al acordar las jubilaciones, formularâ
+el
+cargo respectivo; en la misma forma se procédera con las pensiones.
+Art. 49.—Los empleados y obreros que con anterioridad a la vigen-
+.
+cia de esta ley y
+a partir del 1° de enero de mil novecientos trece hubiesen
+sido destituidos por causas no previstas en esta ley, tendrân derecho a los
+benefieios que ella acuerda, con un diez por ciento de descuento.
+En
+las
+mismas
+condiciones podrân obtener pension las personas a
+que se refiere el artionlo treinta y ocho, como también cuando los causantes
+hubiesen fallecido
+con posterioridad al 1° de enero de mil novecientos trece
+y antes de la promulgaciôn de esta ley.
+Queda comprendido en esta disposiciôn el
+caso de pension acordada
+por concepto de fallecimiento del causante en ejercicio de su cargo.
+Arts. 50 y 51. — La Caja Nacional de Jubilaciones y Pensiones de Em¬
+pleados Feri'oviarios, computarâ los servicios prestddos en otras actividàdes,
+siempre que hayan sido reconocidos por las Cajas respectivas. Las dénias
+Cajas computardn los servicios ferroviarios y en las jubilaciones y pensiones
+acordadas con servicios mixtos, cada Caja contnbuird con la parte propor-
+cional que correspondu.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions are present on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 299
 
@@ -1125,61 +1284,190 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that meet the criteria for cropping. The page contains only text."}
 ```
 
+# Page 303
+
 ## Page Metadata
-Page: 303
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json`
+- Source page: 303
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0303.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, starting with a centered title, followed by several numbered articles and sub-points, all in Spanish.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-Reglamentación de la Ley N° 10650
 
-Artículo 1°. — De acuerdo con lo dispuesto por el artículo 58 de la
-Ley 10650, el Directorio de la Caja Nacional de Jubilaciones y Pensiones
-de Empleados y Obreros Ferroviarios iniciará las operaciones de la misma
-a partir del día 15 de agosto de mil novecientos diez y nueve.
-Art. 2°. — A mérito de lo que dispone el artículo 2°, inciso primero de
-la ley, se declara que el personal de los puertos de la República, compren-
-dido en los beneficios de la misma, es aquel que realiza funciones perma-
-nentes inherentes a los trabajos de transporte ferroviario aun cuando las
-empresas que exploten los servicios no sean de esta especialidad y recono-
-cidas oficialmente.
-Art. 3°. — A los efectos de lo estatuído por el artículo 2° de la ley,
-las empresas de ferrocarriles, en el término de treinta días contados desde
-la fecha de este decreto, enviarán a la Caja una nómina del personal afec-
-tado por la misma, incluyendo el comprendido en el inciso segundo del re-
-ferido artículo, con mención del sueldo de cada empleado y de todos los de-
-más antecedentes y circunstancias que sobre los mismos posean.
-Comunicarán también mensualmente, todos los cambios que se pro-
+```markdown
+Reglamentaciôn
+de la Ley N° 10650
+Articulo 1°. — De acuerdo
+con
+lo
+dispuesto
+por el
+articulo
+58 de la
+Ley 10650, el Direotorio de la
+Caja Nacional de Jubilaciones
+y
+Pensiones
+de Empleados y Obreros
+Ferroviarios iniciarâ las operaciones de la misma
+a partir del dia 15 de agosto de mil novecientos diez y nueve.
+Art. 2°. — A mérito
+de lo que dispone el artioulo 2°, inoiso primero de
+la ley, se déclara que el personal de los puertos
+de la Repûblica, compren-
+dido
+en los beneficios
+de la misma,
+es aquel
+que
+realiza
+funeiones
+perma¬
+nentes inhérentes
+a los trabajos
+de
+transporte ferroviario
+ann
+ouando las
+empresas que exploten los servicios no
+sean de esta especialidad y recono-
+cidas
+oficialmente.
+Art. 8°. — A los efeotos de lo
+estatuldo
+por el
+artioulo 2° de
+la ley,
+las empresas de ferrooarriles, en el término
+de treinta
+dlas
+contados desde
+la fecha
+de este decreto,
+enviarân
+a la Caja una
+nômina del personal afec-
+tado por la misma, incluyendô el comprendido
+en el inoiso
+segundo del re-
+ferido artioulo, con menciôn del sueldo de cada empleado y de todos los de-
+mâs anteoedentes y circunstancias que sobre los mismos
+posean.
+Comnnicarân
+también
+mensualmente,
+todos los
+cambios que
+se pro-
 duzcan.
-Los empleados y obreros comprendidos en la ley, enviarán igualmente
-y dentro del mismo término fijado a las empresas, todos los antecedentes que
-sirvan para formar la ficha personal de cada uno, con especificación de la
-edad, estado, nacionalidad, fecha de ingreso al servicio, cargos desempeña-
+Los empleados y obreros comprendidos en la ley, enviarân igualmente
+y dentro del mismo término fijado a las empresas, todos los anteoedentes que
+sirvan para
+formar la ficha
+personal de cada
+uno, con
+espeoificaciôn de la
+edad, estado, naoionalidad,
+feoha de ingreso al servicio,
+cargos
+desempena-
 dos, etc., etc.
-Art. 4°. — A los fines del artículo 3° de la ley, se considerará como
-permanentes a todos los empleados y obreros que presten servicios en los
-ferrocarriles, puertos, etc., a que la misma se refiere, con las siguientes ex-
+Art. 4°. — A
+los fines del
+articulo 8° de la ley,
+se considerarâ
+como
+permanentes
+a todos los
+empleados y obreros
+que
+presten servicios en los
+ferrooarriles, puertos, etc.,
+a que la misma se refiere, con las siguientes ex-
 cepciones:
-1° Los empleados y obreros que presten sus servicios por un tér-
-mino menor de seis meses.
-2° Los que, aun cuando presten servicios por mayor término del
-mencionado en el inciso anterior, lo hagan por haber sido re-
-queridos para aquellos trabajos que por circunstancias extraor-
-dinarias o de carácter transitorio, obliguen a las empresas a
+1° Los
+empleados y obreros que presten
+sus
+serviciod por un tér¬
+mino
+menor de seis meses.
+2° Los que, aun
+cuando
+presten
+servicios
+por mayor término del
+mencionado
+en el inciso
+anterior, lo hagan
+por haber
+sido re-
+queridos para aquellos
+trabajos que por circunstancias
+extraor-
+dinarias
+o de
+carâcter
+transitorio,
+obliguen
+a
+las
+empresas
+a
 aumentar eventualmente el personal.
-En el caso del inciso segundo, las empresas deberán hacer saber al
-empleado u obrero que la función para la cual se le ocupa es meramente
-accidental, y si es posible, con determinación del tiempo de duración de
+En el caso del
+inciso
+segundo, las empresas
+deberân hacer saber al
+empleado u obrero
+que la
+funcién
+para la cual
+se le ocupa es
+meramente
+accidentai, y si
+es posible,
+con
+determination
+del tiempo
+de
+duration
+de
+```
 
 ## Images, Captions, And Visual Notes
-None.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last paragraph appears to be cut off at the bottom of the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,184 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-65e82177b9d5-P0082-01
+source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100.codex.md
+converted_sha256: 65e82177b9d58dcec3dc25057ec11ea7a32532b42627958c043c23f47d6c9399
+source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
+source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
+source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json
+page_start: 82
+page_end: 82
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json`
+- Source page: 82
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/page-images/page-0082.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Rodríguez Arredondo, Tulio 
+Rodríguez Barríentos, Sergio 
+Rodríguez Bascur, Aurora 
+Rodríguez Bravo, Rogelio 
+Rodríguez Bucheli, Héctor 
+Rodríguez Castro, Mario G. 
+Rodríguez Diamante, Jaime 
+Rodríguez Dutra, Manuel 
+Rodríguez Galleguillos, León 
+Rodríguez González, Manuel 
+Rodríguez González, Roberto 
+Rodríguez González, Sergio 
+Rodríguez Henríquez, Aquiles 
+Rodríguez Hernández, Héctor 
+Rodríguez Jauffret, Berta 
+Rodríguez Leiva, Manuel 
+Rodríguez León, Manuel 
+Rodríguez Montebruno, Sergio 
+Rodríguez Moore, Guillermo 
+Rodríguez Morral, Oscar 
+Rodríguez Opitz, Arturo 
+Rodríguez Rodríguez, Arturo C. 
+Rodríguez Rodríguez, René 
+Rodríguez Rosales, Mario R. 
+Rodríguez San Martín, Darío 
+Rodríguez Sanfuentes, Enrique S. 
+Rodríguez Schelli, César 
+Rodríguez Silva, Fernando 
+Rodríguez Vaccaro, Julio 
+Rodríguez Valdés, Raúl 
+Rodríguez Velasco, Aníbal 
+Rodríguez Vélez, José 
+Rodríguez Yhitz, Waldo 
+Roeschmann von Bischoffshausen, 
+Werner 
+Roeters van Lennep, Jochems 
+Cristian 
+Rogat Quintanilla, Carlos 
+Roizblatt Stromwasser, Israel 
+Rojas Astaburuaga, Mario 
+Rojas Baeza, María Paz 
+Rojas Carvajal, Alfredo 
+Rojas Castro, Mario 
+Chacabuco 1994 
+Molina 
+Reñaca 34 
+Santiago 
+Avda. Manuel Montt 1206 Santiago 
+Huérfanos 1117, Of. 632 
+Santiago 
+Santa María 271 
+Santiago 
+Miguel Aguirre 292 
+Ovalle 
+Salvador Sanfuentes 2570 Santiago 
+Avda. Las Condes 6932 
+Santiago 
+Angol 482, Of. 213 
+Concepción 
+Panimávida s/n 
+Panimávida 
+Cáceres 493 
+Rancagua 
+Avda. Antonio Varas 173 Santiago 
+Chacabuco 536 
+Cauquenes 
+San Antonio 385, 
+Santiago 
+Depto. 304 
+Vargas Buston 739 
+Santiago 
+Av. Antonio Varas 2261 
+Santiago 
+Cienfuegos 26 
+Santiago 
+Avda. Holanda 1779 
+Santiago 
+Ver gara 110 
+Santiago 
+Avda. Francia 1743 
+Santiago 
+Rosa Eguiguren 813 
+Santiago 
+San Antonio 510, Of. 304 Santiago 
+Ezequías Alliende 2472 
+Santiago 
+Santa Clara 62 
+Santiago 
+Roble 585 
+Chillán 
+Carmencita 387 
+Santiago 
+Ahumada 6 
+Santiago 
+Amunátegui 75, Of. 1 
+Santiago 
+El Oidor 1910 
+Santiago 
+Gran Avenida 7210 
+Santiago 
+Santo Domingo 1790 
+Santiago 
+Matías Cousiño 150, Of. 
+Santiago 
+440 
+Hospital 
+Concepción 
+San Juan de la Luz 4125 Santiago 
+Hospital Van Burén 
+Valparaíso 
+José Domingo Cañas 1787 Santiago 
+Victoria 2372 
+Valparaíso 
+10 de Julio 1614 
+Santiago 
+Llewellyn Jones 1212 
+Santiago 
+Valentín Letelier 1332 
+Santiago 
+Avda. Rondizzoni 2060 
+Santiago
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 83

@@ -1,0 +1,125 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-db0a88216818-P0040-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50.codex.md
+converted_sha256: db0a882168185d8f294a50b0751fbb52d43bbd38bd76d5e96569881eba4e2092
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50/manifest.json
+page_start: 40
+page_end: 40
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50/manifest.json`
+- Source page: 40
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50/page-images/page-0040.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Séancè
+du
+3 Juillet 1929
+1
+PROVISOIRE
+CONFÉRENCE DIPLOMATIQUE
+PREMIÈRE COMMISSION
+Révision de la Convention de Genève
+DEUXIEME
+SEANCE.
+Mercredi 3 juillet 1929, à 15 heures 30.
+Présidence de M. Paul Demolder, vice-président.
+M. le Président
+:
+En ouvrant cette séance, qu'il me soit permis de vous prier d'agréer mes sincères remercie¬
+ments pour le grand honneur que vous avez fait à la Belgique en désignant son délégué pour
+remplir les fonctions de vice-président. Quant à moi, personnellement, je vous en suis profon¬
+dément reconnaissant. Je puis vous assurer également de mon inlassable désir de bien faire et
+de mon entier dévouement à la poursuite de l'idéal que vous tous cherchez à atteindre
+: une
+humanité plus grande, plus belle et plus charitable. Je n'en dirai pas davantage, voulant me
+conformer au désir exprimé par plusieurs de nos collègues, à savoir que les discours les plus
+courts seront les mieux venus. Le mien n'en est que plus sincère. {Applaudissements).
+Nous reprenons l'examen de l'article premier de la Convention. Il a été décidé hier que
+attendrions, pour continuer notre discussion,
+que la délégation italienne veuille bien
+nous
+présenter le texte de l'amendement qu'elle désirait apporter au ier alinéa de cet article Ier.
+Ce texte a été distribué, vous l'avez sous les yeux ; le voici : « Les militaires et les autres person¬
+nes officiellement attachées aux armées, qui seront malades ou blessés, quelle que soit la nature
+de l'agent vulnérant... » le reste de l'article est sans changement
+:
+M. Castillo Najera (Mexique)
+:
+La délégation mexicaine vous propose le texte qui vient de vous être distribué et qui est
+le suivant
+:
+Article premier: «Les militaires et les autres personnes officiellement attachées aux armées,
+qui seront blessés, malades ou souffrant d'altération de la santé du fait d'un agent nuisible
+quelconque, devront être protégés et respectés sans distinction de nationalité par le belligérant
+qui les aura en son pouvoir. Le même belligérant devra leur procurer des soins médicaux et
+toutes sortes
+de considérations humanitaires ».
+Hier, après que le texte de la délégation italienne eut été présenté, des objections ont été
+soulevées au sujet du mot « malades ». Les gazés, disait-on, ne sont pas des malades ; ils ne sont
+pas non plus des blessés. C'est là une question sur laquelle les médecins même ne sont pas
+d'accord. C'est pourquoi j'ai cherché une formule de conciliation entre les diverses propositions
+qui ont été présentées hier. C'est ce qui m'a conduit à ajouter «...
+ou souffrant d'altération
+de la santé du fait d'un agent nuisible quelconque.
+.
+.
+»
+C'est
+mon premier amendement.
+I'
+,
+I
+-■
+"
+H
+:
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 41

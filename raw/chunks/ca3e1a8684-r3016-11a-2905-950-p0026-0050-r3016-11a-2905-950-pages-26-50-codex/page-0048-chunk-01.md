@@ -1,0 +1,122 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e9a6c100f96b-P0048-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50.codex.md
+converted_sha256: e9a6c100f96b3860036f7a2a54d7dba5b0c38d2894ef35a712f123d7c9a942f3
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/manifest.json
+page_start: 48
+page_end: 48
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/manifest.json`
+- Source page: 48
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/page-images/page-0048.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+ration particulière,
+et les institutions internationales de C. R.,
+ont l'intérêt
+d'établir des accords
+préalables pour
+coordon¬
+ner les oeuvres spécialisées de chacune dans le plan de l'inter¬
+vention eventuelle de toutes. Celle-ci c'est même une des tâches
+les plus délicates surgissant par la Convention et par le Statut,
+pour les organes nationaux et internationaux de la C. R.
+Il faut que les une et les autres se préparent à cette f£che
+d'un point de vue supérieur, avec un ésprit de solidarité cordiale
+et sincère vers les Sociétés similaires, en se proposant de deve¬
+nir pour chacune d'elles les amis, les camarades et, en cas de
+nécéssité, les protecteurs et les soutiens, tout en
+en respectant
+l'indépendance, les buts particulieurs et les susceptibilités morales
+et sociales.
+Avec
+ces sentiments
+et
+ces procédés,
+en
+se basant sur la
+Convention
+et le Statut de l'U. I. S.,
+une grande famille nou¬
+velle, composée de toutes les institutions .dediées à l'assistance
+aux peuples, surgira dans le monde. Et elles pourront accomplir
+glorieusement leur rô,le si,
+au lieu de se laisser diviser par un
+ésprit d'émulation
+excessif
+ou
+de
+défiance
+réciproque, elles
+étendront, bien au-dessus des competions, des rancoeurs et des
+égoismes, un reseau de solidarité, aux mailles faites de services
+rendus
+aux peuples, et produisant ainsi parmi la communion in¬
+ternationale le bénéfice d'un exemple, qui ne sera pas le plus pe¬
+tit de leurs bienfaits.
+En attendant l'entrée en vigueur de la Convention.
+La Convention entrera en viguer lorsque les ratifications ou
+adhésions auront été déposées
+au nom d'au moins douze Etats
+dont les souscriptions réunies atteindront sixcents parts du fond
+inizial prescrit. Les cotisations des trente Etats, souscripteurs de la
+Convention
+au 1er mai
+1928,
+couvriraient déjà
+570
+parts des
+000 prévues. La première ratifications est celle de l'Italie; l'adhé¬
+sion première a été communiquée à la S. d. N. par le Gouverne¬
+ment de la Grande Bretagne au nom du Soudan.
+Il y a lieu de
+croire que les ratifications suivront aux signatures, bien qu'avec
+la lenteur habituelle à ce genre de procédures diplomatiques.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

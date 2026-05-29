@@ -1,0 +1,110 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2b0d49d0c1e2-P0153-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175.codex.md
+converted_sha256: 2b0d49d0c1e26f48bb88fee8eed4e432c5c8b6f0d035bf551d8ceb2a25a4a47b
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/manifest.json
+page_start: 153
+page_end: 153
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/manifest.json`
+- Source page: 153
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/page-images/page-0153.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—30—
+en la provineia de Barahona, con las colonias militares Juan Pa¬
+blo Duarte y la de Ca'beza de Agua, anexas, ocupa una extension de
+veinte kilômetros de iargo por diez de ancho, desde la desembo-
+cadura del rîo Pedernales, donde esta el Batey Central, hasta el
+rîo Mulito, con mas de 150 colonos; la de Capotillo, Mariano Ces-
+tero, Hipôlito Billini y Trinitaria, hacen en conjunto un total de
+76,-540 hectâreas de terreno cultivado, con mas de 100 colonos ;
+la Colonia Militar del Valle tiene 7,44-5 hectâreas, con 90 milita¬
+res y 283 recluses; la del sitio de Maimôn, en el Seibo, con 17,372
+hectâreas; la del sitio de Guayaquia, del Seibo, con 1,954 hectâ¬
+reas ; y la de Estancia del Rey, en San Cristobal, con 830 hectâ¬
+reas, ocupada por concesionarios-.
+Estimulaciôn de las industrias nativas.— Muchos de nues-
+tros productos de buena calidad solian venderse con étiquetas de
+procedencia exotica con el objeto de obtener mejores precios en
+los mercados extranjeros, p-rocedimiento perjudi-cial a las indus-
+trias nativas, de que se valian no pocos comerciantes, contribu-
+yendo de ese modo al estancamiento industrial del pais.
+Habia la necesid-ad de hacer que los efectos industriales do-
+minicanos tuvieran la indication de procedencia como medio de
+estimular su producciôn y poder controlarla.
+Con ese fin os sc-
+meti el proyecto de Ley No. 350, en virtud de la cual todos los
+productos de fabricaciôn nacional, que no tengan marca regis-
+trada, deben llevar el rôtulo: “Fabricado en la Republica Domi-
+nicana”.
+Como era natural, convertisteis en ley ese proyecto, cuyos
+resultados estân favoreciendo la industria nacional, necesitada
+de estimulo y de medidas previsoras que no oeultaran su proce¬
+dencia.
+Restablecimiento de la Escuela Nacional de Agricultura.—
+Una de las' gestiones oficiales de mayor interés fué el restableci¬
+miento de la Escuela Nacional de Agricultura que funcionô en
+Moea
+durante la
+Administraciôn
+de Vâsquez.
+La reorganiza-
+ciôn
+se ha hecho sobre bases p-râcticas que harâ efectiva y ex-
+traordinariamente util su labor, y su funcionamiento ha sido pues-
+to bajo el control y supervigilancia de la Câmara de Comercio de
+Moca, siendo sostenida por contribuciones proponcionales
+de to-
+das las Câmaras de Comercio del pais.
+Prueba la orientaciôn rigurosamente prâctica de esta Escue-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 154

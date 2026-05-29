@@ -1,0 +1,117 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-59d2dd76cef0-P0146-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150.codex.md
+converted_sha256: 59d2dd76cef084d27de66aad7876839ea26fe7a5d8e0b0babb661a0de8823dd2
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/manifest.json
+page_start: 146
+page_end: 146
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/manifest.json`
+- Source page: 146
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/page-images/page-0146.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—23—
+ro en someterme al mandato de la ley, no solo por natural condi¬
+tion de mi temperamento sino para dar ejemplo vivo de acata-
+miento a la autoridad impersonal de la ley, a cuyo amparo se en-
+grandecen los pueblos.
+Me satisface consignar un dato de interés que arroja la es-
+tadlstica nacional, y es la disminuciôn apreciable de la crimina-
+lidad.
+La causa es obvia: la confianza en la Justicia, la efecti-
+vidad de la ley de porte de armas, la garantîa de los intereses pri-
+vados, que aumenta la capacidad de trabajo, y el afianzamiento
+de la paz.
+En comprobaciôn de lo ya expuesto conviene consignar que
+en el ano 1931
+se registrô mayor numéro de causas penales que
+en el ano 1932, a que se contrae este mensaje, babiendo una di-
+ferencia de casi 1500 entre las cifras comparativas de
+los> dos
+anos, reveladora de la disminuciôn de la delincuencia en el pals.
+INSTRUCTION PUBLICA
+Reformas fundamentals.— De acuerdo
+con el plan de re-
+construcciôn en que estoy empenado la Superintendencia Gene¬
+ral de Ensenanza y el Consejo Nacional de Educaciôn vienen es-
+tudiando cuidadosamente las reformas fondamentales
+que sean
+necesarias para dar organizaciôn moderna
+a la instruociôn pu-
+blica nacional, dentro de las limitaciones
+que impone la situa-
+ciôn econômica de estos anos.
+Uno de los resultados de esta la¬
+bor ha sido la
+nueva ley de estudios cuyo proyecto, formulado
+por el Consejo Nacional de Educaciôn, os someti oportunamente.
+Esta nueva ley suprime los pormenores inutiles que contenia la
+anterior en lo relativo
+a planes de estudios, dejando
+en manos
+de las autoridades escolares la tarea de formularies ; permute ma¬
+yor elasticidad en cuanto a exâmenes y demâs pruebas de apro-
+vechamiento; créa el derecho de examen a titulo de suficiencia,
+tanto
+en la
+ensenanza primaria elemental como
+en la primaria
+superior; establece la Facultad de Filosofia y Letras en la Uni-
+versidad, y modiûca otras dispo-siciones en sentido moderno.
+Gomo nuestra ensenanza primaria era demasiado larga y la
+segundaria demasiado corta, el Consejo Nacional de Educaciôn
+ha suprimido un curso de la primera y agregado otro a la segun-
+da.
+En consecuencia,
+se han modificado los planes de estudios
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 147

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-d6729e4693e8-P0149-01
+chunk_id: CHUNK-bb14a6643146-P0149-01
 source_converted: raw/converted/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150.codex.md
-converted_sha256: d6729e4693e8148c9558e598d53979e6a04bb6ea55df524ba2254d7881c87366
+converted_sha256: bb14a6643146566121228355836e6bd8f7ed77b5c2bcdba76fcd6653ca0f3aea
 source: raw/sources/S495-2-2.pdf
 source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
 source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json
@@ -12,153 +12,155 @@ part: 1
 ---
 
 ## Page Metadata
-- Task id: `source-prep:ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150:p0149`
-- Model route: `pro`
-- Route reasons: pdf_profile_complex
+
 - Source: `raw/sources/S495-2-2.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/work-orders/page-0149.md`
-- Page: 149
-- Output Markdown target: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-markdown/page-0149.md`
-- External research relevance: ``
-- External requested treatment: ``
-- External relevance reasons: none
-- Recommended action: ``
-- Quality flags: none
-- Technical reread clues: none
+- Source SHA-256: `9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027`
+- Conversion manifest: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json`
+- Source page: 149
+- Page image: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-images/page-0149.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single article, "RENACIMIENTO," presented in two columns. The page number "35" is in the top right corner. The reading order is the left column, followed by the right column. An advertisement for "Formamint" is embedded at the end of the right column's text. A large, boxed advertisement for "JUAN R. LOPEZ" is located at the bottom of the page, spanning the width of both columns.
 
-1.  Header: "RENACIMIENTO" and page number "35".
-2.  Left column of the article.
-3.  Right column of the article.
-4.  Advertisement for "Formamint". [AD-FORMAMINT]
-5.  Advertisement for "JUAN R. LOPEZ". [AD-JUAN-R-LOPEZ]
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```text
-RENACIMIENTO 35
 
-conte de Lisle, Sully Prudhomme, Teo-
-doro de Banville, Heredia no el cubano,
-el francés, y Catule Mendés.
-No ha faltado neosimbolista furibundo
-en Méjico que, consecuente con sus ten-
-dencias revolucionarias dentro del moder-
-nismo actual, que soy el primero en aplau-
-dir, siempre que no sea exagerado, lan-
-ce clamorosa protesta contra la difusión
-de la poesía de Figueroa, porque ella no
-responde a las exigencias del momento,
-y tilda de vulgar, prosaica y sin interés
-a toda obra de arte que excluya las fan-
-tasmagorías de la tecnica, la figura de-
-corativa y a veces hermosísima del sím-
-bolo, los motivos exóticos importados
-de Francia, de China o del Japón, con
-ese snobismo intolerable en los temas
-rebuscados ex profeso, cuando tenemos
-superabundantes motivos de inspiración
-en nuestro medio vernáculo.
-Creen tambien los neosimbolistas se-
-gún ellos, modernistas por lo que se co-
-lige, a quienes les cuadra muy bien el
-dictado de aristócratas del Verbo, que
-no hay escuela mejor que la suya y que
-el que se aparta de sus procedimientos
-estéticos es un mediocre. Para mejor
-comprensión voy a trasladar aquí las
-
-siguientes consideraciones del literato
-mejicano, Licenciado José López Porti-
+```markdown
+RENACIMIENT'O
+35
+conte de Lisle, Stilly
+Piudhomme, Teo-
+doro de Banville, Heredia no el cubauo,
+el fiancés, y Catule Maudes.
+No ha faltado neosimbolistafuribundo
+en Méjico qne, conseeuents con
+sus ten-
+dencias revoluciouariasdentrodel model-
+nismo actual, que soy el priment en a pian -
+dir, siempre que no sea exagerado, Ian.
+ce damorosa protesta contra la difnsitm
+de la poesfa de Figueroa., porque ella no
+responde a las exigencias del
+momento,
+y tildade vulgar, prosaicay sin interés
+a toda ohm de arte que exc'.uya las fan-
+tasmagonas de la tecnica, la figura de-
+corativa y a veees hernt osfsutta del
+stm-
+holo, los niotivos exôtieos importados
+de Francia, de Chi at o del dapdn,
+con
+ese snobismo intolerable
+en
+los
+tentas
+rebuscados ex juof so, cuando teaemos
+superabundantes m ttiros de inspiracidn
+en nuestro medio veruâculo.
+Creen tambien
+los
+neosimlxtlistas
+se-
+gun ellos, nioderni'tas por lo qua se
+ct -
+lige, a qui aies les cuadra
+may bien el
+dictado de aristocrates del
+Verbo.
+que
+.no hay escuela inejor que la suya y que
+el que se aparta de
+sus procedimientos
+est étions
+es
+un
+mediocre.
+l’ara inejor
+c otnprensiôn
+voy a trasladar aquî las
+|
+JUAN R. LOPEZ
+illllimi|||||||||||llll1lllllll!lllltllllllilllll!llli1!llllllll1111lllilll1Illlllll!1l!llllllllllllIIIIIII11l»IIIUI lllllll
+i
+TELA, SAN PEDRO SULA, SIGUATEPEQUE
+=
+HONDURAS, CENTRO AMERICA
+|
+Importaciôn, Exportaciôn
+- Mercaderlas en
+|“!
+General - Productos del Pals
+|
+llllllllllllllllllllllllllllHllllilllllllllllllllllUIIHIIIIIIin^
+H
+En conexiôn con la firma Laffite, Lôpsz y Cia, de La Ceiba y Trujillo
+^liiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiniiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+siguientes consideraciones del
+literato
+mejicano, Licenciado José Lôpez Porti-
 llo y Rojas:
 “Por lo que a técnica se refiere, reina
-la más franca anarquía entre los versifi-
-cadores de hogaño, porque, según pare-
-ce, todo le es permitido al que se llame
-modernista......” La regresión al culte-
-ranismo, a la confusión más absoluta de
-los métodos se marca todos los días con
-mayor evidencia...... “Hasta la misma
-hipermetría, que pareció siempre repro-
-chable, ha alcanzado en nuestros tiem-
-pos los honores de la restauración. La
-Prosa se hace rimada, se mezcla la ver-
-sificación con la prosa y se dá pasapor-
-te de poesía a la prosa pura”.
+la mds franca auatqnîa entre los versifi-
+cadores de hngano, porque, segün
+pare-
+ce, todo le es perinitido al que
+se Marne
+modernista
+”
+La regresidn al culte-
+ranisrno. a la confusion nids absoluta de
+los métodos se marca todos los dtascon
+mayor evidencia
+“Hasta la
+misma
+hipermetria, que parecid siempre repro-
+cltable, ha alcanzado en nuestros tiern-i
+pos los honores de la restauraciôu.
+La
+Prosa se hac^ riinada, se mezcla la ver-
+siticaciôn con 1a. prosa y se dâ pasapor-
+te de poesta a la prosa pura”.
 Y agrega después:
-“La evolución de la poesía francesa es
-
-[AD-FORMAMINT]
-Los niños no saben hacer
-gárgaras; pero se obtendrán
-mejores resultados dándoles
-Formamint
-PASTILLAS GERMICIDAS PARA
-LA BOCA Y LA GARGANTA
-
-[AD-JUAN-R-LOPEZ]
-JUAN R. LOPEZ
-TELA, SAN PEDRO SULA, SIGUATEPEQUE
-HONDURAS, CENTRO AMERICA
-Importación, Exportación - Mercaderías en
-General - Productos del País
-En conexión con la firma Laffite, López y Cía, de La Ceiba y Trujillo
+“La evoluciôn de la poesta francesa es
+—
+1
+Los
+ninos
+no
+saben
+hacer
+gârgaras ; pero se obtendrân
+majores resultados dândoles
 ```
 
 ## Images, Captions, And Visual Notes
-The page features two distinct advertisements.
 
-- **[AD-FORMAMINT]**: A small, boxed advertisement for "Formamint" pastilles. It includes a slogan and the product name in a stylized font. It is located below the text of the right-hand column.
+- No Docling picture regions were detected for this page.
 
-- **[AD-JUAN-R-LOPEZ]**: A large, prominent advertisement at the bottom of the page for the business of "JUAN R. LOPEZ". The ad is enclosed in a decorative border and uses various font sizes to highlight the name, locations, and business activities.
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible parts of this page.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-This page has been fully and accurately transcribed.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "ad-formamint",
-      "kind": "advertisement",
-      "bbox_pct": [
-        55.5,
-        42.59,
-        94.44,
-        57.41
-      ],
-      "caption_literal": "Los niños no saben hacer\ngárgaras; pero se obtendrán\nmejores resultados dándoles\nFormamint\nPASTILLAS GERMICIDAS PARA\nLA BOCA Y LA GARGANTA",
-      "caption_type": "source-caption",
-      "identity_basis": "none",
-      "source_context": "An advertisement for Formamint pastilles.",
-      "confidence": "high",
-      "suggested_filename": "page-0149-ad-formamint.jpg",
-      "inline_anchor": "[AD-FORMAMINT]"
-    },
-    {
-      "region_id": "ad-juan-r-lopez",
-      "kind": "advertisement",
-      "bbox_pct": [
-        8.89,
-        61.11,
-        94.44,
-        88.89
-      ],
-      "caption_literal": "JUAN R. LOPEZ\nTELA, SAN PEDRO SULA, SIGUATEPEQUE\nHONDURAS, CENTRO AMERICA\nImportación, Exportación - Mercaderías en\nGeneral - Productos del País\nEn conexión con la firma Laffite, López y Cía, de La Ceiba y Trujillo",
-      "caption_type": "source-caption",
-      "identity_basis": "none",
-      "source_context": "An advertisement for the business of Juan R. Lopez.",
-      "confidence": "high",
-      "suggested_filename": "page-0149-ad-juan-r-lopez.jpg",
-      "inline_anchor": "[AD-JUAN-R-LOPEZ]"
-    }
-  ],
-  "no_visual_regions_reason": null
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

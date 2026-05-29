@@ -1,0 +1,111 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6337d9187a49-P0350-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350.codex.md
+converted_sha256: 6337d9187a49decc8891800a64e9e254a82af41ab04371c7370fade4b307b448
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/manifest.json
+page_start: 350
+page_end: 350
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/manifest.json`
+- Source page: 350
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/page-images/page-0350.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+PAYS-BAS.
+Un dispensaire, employant trois infirmières visiteuses, est rattaché
+à l'hôpital de la Croix-Rouge à La Haye. Durant l'année 1927, ces
+infirmières ont fait 7,904 visites à domicile, dont 2.513 pour le compte
+de la municipalité. La Croix-Rouge
+a collaboré à la prophylaxie
+de la diphthérie
+en mettant à la disposition du service d'hygiène
+municipal une infirmière et des assistants bénévoles pour aider à la
+vaccination préventive des enfants et faire de la propagande dans les
+familles.
+SIAM.
+Une section des infirmières visiteuses fut créée en 1923 et depuis
+cette année-là 7 dispensaires d'hygiène sociale ont été ouverts, dont
+3 à Bangkok et 4 dans les provinces. Le personnel du dispensaire
+comprend un médecin, un dentiste, 3 à 5 infirmières, un secrétaire
+et
+un gardien. Les activités des dispensaires embrassent toutes les
+branches de l'hygiène sociale,
+en particulier l'hygiène prénatale et
+infantile, l'hygiène dentaire et la lutte contre la tuberculose. Un
+service d'hygiène scolaire a été organisé récemment dans les écoles
+élémentaires.
+Un
+nouveau dispensaire a été inauguré cette année à Rajpuri
+Les frais de construction, s'élevant à 11.610 baths, ont été couverts
+par souscription locale.
+La section d'hygiène scolaire continue son œuvre, en collaboration
+avec le Ministère de l'instruction publique, pour l'amélioration de la
+santé, la correction
+des défectuosités physiques et la prophylaxie
+des maladies contagieuses parmi les enfants des écoles de Bangkok.
+2.918 enfants de 17 écoles ont subi un examen physique et 83% ont
+eu besoin de traitement médical. Les médecins ont fait 34 causeries
+d'hygiène à plus de 5.000 enfants. Depuis l'introduction d'un service
+d'infirmières
+dans certaines
+écoles,
+on
+a
+pu constater une grande
+amélioration dans les résultats obtenus par les traitements et la cor¬
+rection des infirmités physiques. Durant l'année qui vient de s'écouler,
+6 infirmières visiteuses ont surveillé la santé des enfants et ont col¬
+laboré
+avec les instituteurs et institutrices pour l'enseignement de
+l'hygiène dans 6 écoles du pays. C'est grâce à leur influence que les
+conditions sanitaires et l'hygiène se sont beaucoup améliorés dans
+ces écoles.
+54
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

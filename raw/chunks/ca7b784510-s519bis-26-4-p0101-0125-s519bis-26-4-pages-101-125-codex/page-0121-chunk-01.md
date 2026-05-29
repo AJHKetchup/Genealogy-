@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-daaad40c499c-P0121-01
+chunk_id: CHUNK-bac24cd002c9-P0121-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125.codex.md
-converted_sha256: daaad40c499c46991be02fc240da6a3d7c4ad6801692881fb4e89b7432337f27
+converted_sha256: bac24cd002c93008dc91a8280d4838835e85eb653c31da2c95609e6d5d8e019d
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/manifest.json
@@ -12,83 +12,145 @@ part: 1
 ---
 
 ## Page Metadata
-- Task id: `source-prep:ca7b774510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125:p0121`
-- Page: 121
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/manifest.json`
+- Source page: 121
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/page-images/page-0121.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a typewritten letter in Spanish, formatted as a single column. It includes a header with "PRIVADA" and "CONFIDENCIAL" on the left, and a date and location on the right. Below this, the recipient's name and address are centered. The main body of the letter consists of several paragraphs, followed by a closing statement and a postscript (P.D.) with a handwritten addition.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
+```markdown
 PRIVADA
-CONFIDENCIAL
-
-GINEBRA, 21 Septiembre 1935.
-
-Dr. Salvador E. Paradas
-21, Avenue de Messina
-P A R I S
-
+COHFIDENCIÀI
+GINEBRA,
+21 Septiembre 1935.
+Dr.
+Salvador E. Paradas
+21,
+Avenue de Messina
+PARIS
 Mi querido amigo:
-
-Le escribo estas líneas con el principal objeto de
-comunicarle que se ha distribuido entre algunos funcio-
-narios de la Secretaría la circular de que le transmito
-con la presente una copia.
-
-Observará Vd. que se trata de una acción particular
-y que la contribución debe ser de los funcionarios que en
-forma privada puedan obtener las fotografías en cuestión
-para luego ser sometidas a un jurado y colocadas en los
-corredores del futuro edificio, siempre que todos los paí-
-ses concurran al llamamiento.
-
-Le agradeceré, pues, que vea si puede hacerse algo
-en el sentido indicado, teniendo en cuenta exactamente
-los términos de la circular, y quedo a sus órdenes para
-servir de intermediario entre el donante o los donantes
-dominicanos y el Secretario General. Creo que la mejor
-solución sería la de interesar al Gobierno dominicano
-mismo, y por eso me permito escribirle estas líneas.
-
-Se ha lamentado la ausencia de la República Dominica-
-na en la Asamblea, tanto más cuanto que el actual Ministro
-de Relaciones Exteriores, Dr. Brache, es hombre que conoce
+Le escribo
+estas lfneas
+con el principal objet» *
+corminicarle
+que
+se ha distribuido entre algunos funoio-
+narios
+de la Secretar£a la circular de
+que le transmito
+con la présente una copia.
+Qbservard Yd.
+que
+se trata de una acciôn particular
+y que la contribuera debe ser de los funcionarios que en
+forma privada puedan obtener las fotografias en ouestiôn
+para luego ser sometidaa a un Jurado y colocadas en los
+oorredores del futuro edificio,
+siempre
+que todos los pa£-
+ses
+concurran al llamaœiento.
+Le agradeeeré,
+pues,
+que vea si puede haoerse algo
+en el
+sentido indioado,
+teniendo en cuenta exactemente
+los términos
+de la circular,
+y quedo
+a sus ôrdenes para
+servir de intermediario entre el donante
+o los donantes
+dominicanos y el Secretario General.
+Greo que la mejor
+solucion séria la de interesar al Gobierno dominicano
+mismo,
+y por
+eso
+me permito escribirle estas lfneas.
+Se ha lamentado la ausenoia de la Republica Dominioa-
+na
+en la Asamblea, tanto
+mas ouanto
+que el actual Ministro
+de
+Relaoiones Exteriorea,
+Dr. Braohe,
+es hombre que connee
 personalmente el organismo.
-
-Creo útil comunicarle que se recibió hace unos días
-un telegrama del Ministerio de Relaciones Exteriores de
-Santo Domingo pidiendo la lista de los Miembros de la So-
-ciedad y la de los adherentes al Estatuto de la Corte Per-
-manente de Justicia Internacional y al Protocolo de revi-
-sión del mismo Estatuto. Se contestó enseguida dando la
-lista de los Miembros de la Sociedad y la de los Estados
-que han ratificado y que solamente han firmado los dos
-Estatutos en cuestión.
-
-Hágame el favor de saludar muy atentamente al Sr.
-Ministro Trujillo y acepte para Vd. un cordial apretón
-de manos.
-
-P.D. Creo que le interesará especialmente saber que el General
-Nemours ha tratado de hacer sentir de una manera especial
-que Haití está representado por un haitiano en esta Asam-
-blea, y ha tratado de acentuar su actuación en forma bien
-explícita. Esta mañana en la Sexta Comisión hizo alusión
-al arreglo definitivo de las cuestiones pendientes entre
-la República Dominicana y Haití, con un elogio para su
-Presidente, claro está
+Creo dtil eomunicarle
+que
+se reoibiô haoe unoa d£as
+un telegrama del Ministerio de Relaoiones Exteriorea de
+Santo Domingo pidiendo la lista de loa Miembros de la So-
+oiedad y la de los adhérentes al Estatuto de la Corte Per¬
+manente
+de Justicia Internacional y al Protocolo de revi-
+siôn del mismo Estatuto.
+Se contestô enseguida dando la
+lista
+de los Miembros
+de la Sociedad y la de los Estados
+que han ratifioado y que solamente han firmado los dos
+Êstatutos
+en cuestién.
+Hâgame el favor de saludar muy atentamente al Sr.
+Ministro Trujillo y acepte para Vd. un cordial apretôn
+de
+manos.
+/
+P.D*
+Creo
+que le interesara especialmente saber que el General
+Nemours ha tratado
+de hacer sentir de una manera especial
+que Haiti esta representado por un haitiano
+en esta Asam¬
+blea,
+y ha tratado de acentuar su actuaci6n en forma bien
+explicita.
+Esta maiîana
+en la Sexta Comisiôn hizo alusiôn
+al arreglo définitivo de las ouestiones pendientes entre
+la Republica Dominicans y Haiti,,
+```
 
 ## Images, Captions, And Visual Notes
-- A diagonal blue pen mark is present to the right of "Dr. Salvador E. Paradas".
-- A handwritten note "con un elogio para su Presidente, claro está" is appended to the last paragraph of the P.D. section.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and significant visual marks on the page have been transcribed or noted.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present for cropping. Minor marks are described in 'Images, Captions, And Visual Notes'."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

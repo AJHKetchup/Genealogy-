@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f94569584d46-P0013-01
+chunk_id: CHUNK-59d2dd76cef0-P0013-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150.codex.md
-converted_sha256: f94569584d46431ffa526b7b53136c14d34ea4af9f70f962e215e996313d2c37
+converted_sha256: 59d2dd76cef084d27de66aad7876839ea26fe7a5d8e0b0babb661a0de8823dd2
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/manifest.json
@@ -77,3 +77,5 @@ All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+
+# Page 139

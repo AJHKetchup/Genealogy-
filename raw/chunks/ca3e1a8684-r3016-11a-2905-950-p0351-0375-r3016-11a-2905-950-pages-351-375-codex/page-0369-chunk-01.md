@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-796efe9dec69-P0369-01
+chunk_id: CHUNK-97a353aa76c3-P0369-01
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375.codex.md
-converted_sha256: 796efe9dec69d12b33da0a02254f84ea22c0e2bc5d687e7e37160a7da7e81b32
+converted_sha256: 97a353aa76c347fd3ccb713a49a401546aa2418086590ed7541a2f6ea77a5743
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/manifest.json
@@ -112,3 +112,5 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 370

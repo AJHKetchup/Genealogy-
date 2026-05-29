@@ -1,0 +1,192 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-1078f014da55-P0347-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350.codex.md
+converted_sha256: 1078f014da55304bf1a9dec784f184b068f16fe9ea8d199597d4037ff815098c
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350/manifest.json
+page_start: 347
+page_end: 347
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350/manifest.json`
+- Source page: 347
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350/page-images/page-0347.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-
+3
+-
+vitado
+a exercer la faeultad
+de adherir sin réserva al Pacto
+ya elaborado.
+Para probar la existencia
+de
+este sensible equivoeo,
+basta leer el acta
+4e la sesién sécréta del Parlamento argenti¬
+ne del
+30 de Septiembre 1920.
+En
+osa sesién,
+el Ministro
+de
+Relaciones Exteriores argentino hizo la siguiente declaraeién:
+"La adhesién (de la Argentina)
+era sin réserva
+solamente
+en principio,
+pero
+no implieaba da ningdn modo
+la obligaeién de aceptar los termines del Pacto y
+menos
+aûn
+cuando el
+Gobiorno habiendo sido invitado
+a la
+reu¬
+nion privada presiâida por Ml Sr.
+House,
+el Ministro
+ar¬
+gentino manifesté
+-
+de
+acuerdo
+con las instrucoiones del
+Poder Ejecutivo -
+que daria unioamente
+su opinién a
+ese
+respecto
+en las reuniones pdblicas
+a la3
+ouales lr, Hepdbli-
+ca séria invitada,
+y la Asarablea de Ginebra iba
+a
+ser la
+primera
+de estas
+reuniones piiblioas".
+SI
+error persiste,
+pues,
+con todas
+sus nefastas
+conse-
+euenciss.
+En efecto,
+para el Présidente argentino, la
+Asaniblea
+de Ginebra (1920)
+no
+era
+mas
+que una reuni6h péblica a la eual
+se podia asistir sin contraer el compromis©
+que pudiera signi-
+fioar la incorporacién de la Argentina
+a la Sociedad.
+fin el
+es-
+piritu del Sr. Yrigoyen esta primera reunién péblica permitiria
+a la Argentina exponer su opinién sobre los detalles del Pacto,
+pues ella
+no habia expresado
+su opinién favorable mds
+que
+a los
+prineipios generales
+en los ouales el Pacto
+se insplraba. Y,
+siguienâo el desarrollo
+de la misma tesis,
+el Presidents argen¬
+tino
+se reservaba el saber si convendria deeidir la incorpora¬
+cién de la Argentina
+a la Sociedad de las Haciones para
+una fe-
+cha ulterior.
+Esta incorporacién vendria inraediat ameute, si
+los puntos de vista argentinos
+eran aceptaâos*
+De
+todo ello résulta
+que el Oobierno argentino
+no
+oom-
+prendia
+que el Pacto
+estaba ya concluido y
+que para asistir a
+la Asarablea,
+ôrgano permanente
+de la Sociedad,
+no habia otro
+raedio
+que adherir sin réserva al Pacto
+de la Sociedad
+de las
+'aoiones,
+pasando asi
+a ser feiembro de ella*
+Para completer esta parte histôrica es interesante
+oo-
+nocer el texto de la comunioaoién
+que el Coronel
+House envié al
+Ministro
+de la Argentina
+en Paris
+con fecha
+10 de Marzo
+de 1919*
+Dieha coaunicaeién fué transmitida por el Ministro al Gobierno
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

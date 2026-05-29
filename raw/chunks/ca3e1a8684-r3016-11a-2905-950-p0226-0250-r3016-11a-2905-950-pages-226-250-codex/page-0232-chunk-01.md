@@ -1,0 +1,167 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-289e184323e0-P0232-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0226-0250-r3016-11a-2905-950-pages-226-250.codex.md
+converted_sha256: 289e184323e06e976f24bd8ca22f8242c8ed1234e4430361823084fe600d7905
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0226-0250-r3016-11a-2905-950-pages-226-250/manifest.json
+page_start: 232
+page_end: 232
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0226-0250-r3016-11a-2905-950-pages-226-250/manifest.json`
+- Source page: 232
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0226-0250-r3016-11a-2905-950-pages-226-250/page-images/page-0232.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+#
+Le
+Bureau
+vous
+propose
+de
+renvoyer
+cette question
+à la Commission spéciale des
+délégués
+elle-même, qui pourra,
+à
+ce que nous espérons, présenter son rapport assez vite,
+afin
+que la Conférence puisse en aborder la discussion jeudi ou vendredi. [Adopté).
+Je rappelle aux différentes Commissions qu'il leur appartient de nommer leur Président
+et
+un Rapporteur.
+Nous
+aurons cette après-midi la séance d'ouverture de la Conférence et immédiatement
+après, séance de la Commission spéciale des délégués.
+M.
+Flugi
+d'Aspermont (secrétaire général adjoint). — L'ouverture de la séance de
+cette
+après-midi
+est
+fixée
+à
+2
+heures
+précises dans la Salle des Chevaliers. Je vous
+prie de vous rendre dans cette salle
+quelques minutes avant
+2
+heures, afin que S. A. R.
+le Prince
+des Pays-Bas puisse ouvrir la séance à l'heure prévue.
+Comme
+vient
+de l'indiquer
+M.
+le
+vice-président,
+nous
+aurons immédiatement après
+cette
+séance
+d'ouverture,
+la
+suite
+de
+la séance de la Commission spéciale des
+délégués,
+dans
+cette
+salle-ci,
+afin de discuter la question figurant sous le numéro XVIII de l'ordre
+du jour:
+„Organisation de la Croix-Rouge internationale".
+M. Hammarskjold (Suède). — Pour le cas
+où l'assemblée l'estimerait nécessaire que
+nous
+nous
+réunions
+après
+la séance d'ouverture de la XIIlème Conférence, il serait utile
+que le texte du projet d'accord concernant l'organisation
+de la Croix-Rouge internationale,
+adopté hier par le Conseil des Gouverneurs de la Ligue,
+soit distribué
+encore ce matin,
+afin
+que
+les membres de
+la Commission
+des
+Délégués
+puissent
+étudier
+ce texte et le
+comparer à celui qui a été adressé à toutes les Sociétés nationales. Les délégués pourraient
+ainsi
+déterminer
+l'attitude
+qu'ils
+doivent
+adopter
+à l'égard
+des nouvelles modifications.
+Si cette distribution
+ne peut pas être faite maintenant, il nous serait très difficile de nous
+réunir immédiatement après la séance d'ouverture de la Conférence.
+Son
+Exc.
+le général Roell
+(vice-président).
+—
+Nous allons au-devant de vos vœux
+puisque ce texte est distribué à l'instant même.
+M- Hammarskjold (Suède). — Je vous remercie, Monsieur le président.
+Son Exc. le général Koell (vice-président). —
+Comme il n'est pas encore 11 heures,
+chaque délégué pourra étudier le document qui vient de lui être distribué avant deux heures.
+(La séance est levée à 10 heures 50).
+i
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

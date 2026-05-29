@@ -1,0 +1,117 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6337d9187a49-P0349-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350.codex.md
+converted_sha256: 6337d9187a49decc8891800a64e9e254a82af41ab04371c7370fade4b307b448
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/manifest.json
+page_start: 349
+page_end: 349
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/manifest.json`
+- Source page: 349
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/page-images/page-0349.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+les appointements du médecin et de l'infirmière, les médicaments
+et l'installation seraient à la charge de la Croix-Rouge. Par un arrange¬
+ment plus récent, la Croix-Rouge n'est responsable que des appointe¬
+ments
+de l'infirmière. Celle-ci surveille le dispensaire et fait de la
+propagande
+d'hygiène.
+Dans
+un grand nombre
+de régions,
+ces dispensaires offrent la
+seule possibilité de soins médicaux pour les habitants et tous les
+malades y sont reçus et traités. On cherche cependant à concentrer
+leur activité plus particulièrement sur l'hygiène de l'enfance. Les
+infirmières ont presque toutes fait des études de sage-femme et elles
+maintiennent des rapports étroits avec la Croix-Rouge en envoyant
+des rapports mensuels au siège central de cette société.
+Un dispensaire modèle a été fondé à Riga avec un service d'infir¬
+mières visiteuses comportant toutes les branches de l'hygiène sociale.
+Ce dispensaire sert de centre pour l'enseignement pratique des élèves
+du
+cours
+pour infirmières visiteuses. La Croix-Rouge possède une
+exposition itinérante d'hygiène maternelle et infantile qui circule
+dans toutes les régions du pays ; cette exposition est toujours accom¬
+pagnée d'une infirmière qui fait des causeries et des démonstrations
+aux mères.
+En collaboration
+avec le ministère de l'instruction publique, la
+Croix-Rouge a désigné une infirmière visiteuse pour donner des cours
+sur l'enseignement de l'hygiène aux instituteurs et institutrices dans
+les écoles des communes rurales.
+LUXEMBOURG.
+Cette société a fondé des dispensaires d'hygiène sociale de l'enfance
+et
+des consultations prénatales avec des services d'infirmières visi¬
+teuses.
+NOUVELLE-ZÉLANDE.
+A
+Christchurch
+et
+à Dunedin,
+deux infirmières sont
+engagées
+par la Croix-Rouge pour l'enseignement de l'hygiène. La Croix-Rouge
+a organisé un service d'hygiène scolaire avec inspections médicales
+et causeries d'hygiène dans les écoles. Les infirmières font des visites
+à domicile pour surveiller la santé des enfants suspects de tuber¬
+culose ; ceux-ci sont pesés et mesurés tous les trois mois.
+A Taranaki et à Wellington, deux infirmières visiteuses donnent
+des cours d'hygiène et des conférences dans les écoles et aux assis¬
+tantes
+bénévoles.
+53
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 350

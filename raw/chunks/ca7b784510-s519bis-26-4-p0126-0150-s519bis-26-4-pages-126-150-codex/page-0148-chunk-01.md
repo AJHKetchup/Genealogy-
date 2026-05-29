@@ -1,0 +1,112 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-59d2dd76cef0-P0148-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150.codex.md
+converted_sha256: 59d2dd76cef084d27de66aad7876839ea26fe7a5d8e0b0babb661a0de8823dd2
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/manifest.json
+page_start: 148
+page_end: 148
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/manifest.json`
+- Source page: 148
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/page-images/page-0148.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—25-
+con buenos tîtulos.
+Para complementar la Ley numéro 144 os
+solicité una nueva ley que considéré la situaciôn de los maestros
+que hayan trabajado mâs de diez ahos en escuelas oficiales.
+Se ban modificado también las tarifas de inscripciôn de exa¬
+men, tanto en la Universidad como en las escuelas normales, a
+fin
+de obtener elementos suficientes
+para la reorganization de
+gabinetes, laboratories y bibliotecas.
+En la Escuela Normal Superior de Santo Domingo
+se ha
+creado una escuela primaria elemental de experimentation, ser-
+vida por los alumnos de la misma escuela que aspiran al titulo
+de maestro.
+Esta escuela no le cuesta nada al Estado y es pro-
+metedora de frutos muy valiosos.
+Se pidiô y obtuvo del Congreso la modification de la Ley No.
+72, relativa a los fondos municipales que se destinan a instruc-
+ciôn publica, para permitir que parte de ellos se dediquen a la re-
+muneraciôn de maestros en lugares donde no existen escuelas
+sostenidas por el Estado.
+Asi se va logrando hacer reaparecer
+la escuela en lugares que la necesitaban, y donde habia sido su-
+primida.
+La
+ensenanza agrîcola en las escuelas rurales viene mejo-
+rando desde que se establecieron los huertos escolares.
+En mu-
+chos lugares se han obtenido excelsntes resultados, especialmen-
+te en el Cibao.
+La Superintendencia General de Ensenanza cuen-
+ta para estos fines con la eficaz ayuda de la Secretaria de Estado
+de Agricultura y Comercio, que envia a los maestros rurales un
+curso graduai de ensenanza agrîcola.
+Las escuela® de la ciudad capital
+se hallan bien atendidas
+por el Inspector Médico y el Dentista Escolar.
+A falta de ele¬
+mentos propios para extender este ‘ beneficio a las escuelas del
+interior, se ha obtenido la ayuda, muy eficaz, de la 'Secretaria de
+Estado de Sanidad, Beneficencia y Obras Publicas.
+De acuerdo con la peticiôn que os elevé para la creaciôn de
+una ley que estableciera la Comisiôn Conservadora de Monumen-
+tos Nacionales, se voto dicha ley y la Comisiôn esta estudiando
+la manera de levantar un censo completo de monumentos, obras
+y piezas de importancia histôrica, artistica o arqueolôgica.
+Escuela de Artes y Oficios.— Os someti un proyecto de ley
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 149

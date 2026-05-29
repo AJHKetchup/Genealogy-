@@ -1,0 +1,138 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-26d9ffd81787-P0292-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293.codex.md
+converted_sha256: 26d9ffd8178735008bc65b233967b45209c0621b4dbffee98c252c9bfbdb23a5
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json
+page_start: 292
+page_end: 292
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json`
+- Source page: 292
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-images/page-0292.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+.
+. .Hasta el cuarenta. por iciento de esos fondos podrdn ser capitalizados
+en préstamos hipot&carios en efectivo, no superiores a vêinte mil pesos mo-
+neda nacional
+(20.000 $ mjn.),
+a
+. los: empleados y obreros bepeficiarios de
+esta ley qae durante dieu anos por lo menos, hayan prestado servicios, a un
+interés que no exceda del uno por ciento sobre el corriente de .los titulos de
+renta nacional,
+y
+combinados
+con
+un segilro temporario
+de vida, por la
+eantidad decreciente adeudada.
+Queda autorizada la Caja para organizar una secciôn especial desti-
+nada
+a la celebraciôn de estos seguros.
+Art. 13. — Estos préstamos hipotecarios
+se regirdn de cpnformidad a
+las leyes Nos. 8172 y 10676, en las condiciones de los autorizados por el ar-
+ticulo 2°, inciso 2°, letra h), excepto en los puntos siguientes:
+a) La Caja podrd acordar en préstamos hasta pi valor total de la
+propiedad, cuando ese valor no excediere de seis mil pesos mo-
+neda nacional (6.000 $ min.), hasta el noventa por ciento cuando
+fuere de diez mil pesos moneda nacional (10.000 $ min.) como
+mdximo, y del ochenta por ciento cuando excediese de este im¬
+porte;
+b) La Caja podrd establecer diferencias en el interés en el monta
+y en el plazo de los préstamos, dentro de un mdximo de treinta
+anos, segûn escalas proporcionales al valor de tasaciôn
+de
+las
+propiedades y al monto de los sueldos, tendiendo al fomento de
+las pequenas viviendas;
+c) No podrd recargarse el servicio
+de
+los préstamos
+en mds del
+cinco por ciento por gastos dé administraciôn y escrituraciôn;
+d) En caso de fallecimiento del empleado deudor del préstamo, la
+Caja aplicarâ el importe del seguro de vida,
+a la, caricelaciôn
+del préstamo, intereses y gastos pendientes;
+e) En caso de jubilaciôn del empleado, la Caja. retendra yiensual-
+mente de su importe, la suma correspondante pava el servicio
+;
+del préstamo. y prima del seguro.
+Art. 14. — Los bienes que corresponden a esta
+ley
+son inembargables
+y asimismo las casas objeto de
+los préstamos expresados, durante la vida
+del prestatario, su esposa
+e hijos menores. Estas no podrdn enctjenarse, gra-
+varse, arrendarse o cederse sin consentimiento del Divectoriq hasta la can-
+celadon del préstamo.
+capItulo IV
+De
+las jubilaciones (*)
+...
+,
+.CV
+,.T-,
+r
+r
+-
+.
+.
+Art. 15. — Los empleados y,, obreros a que se refiere el articulo segundo
+que hayan ooutriburdo al fondo de la Caja cou
+los
+desouentos establecidos
+(*) Véanse arücnlos 2° y i° de: la Ley N° 11308 pâgina 19.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 293

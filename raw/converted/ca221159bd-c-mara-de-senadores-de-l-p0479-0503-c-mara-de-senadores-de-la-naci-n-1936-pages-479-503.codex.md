@@ -1191,72 +1191,132 @@ All visible and legible text on the page has been transcribed. The illegible fai
 {"visual_regions": [], "no_visual_regions_reason": "The page contains only text. The faint, inverted text at the top is a bleed-through artifact and not a distinct visual element for cropping."}
 ```
 
+# Page 497
+
 ## Page Metadata
-- Task id: `source-prep:ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503:p0497`
-- Page number: 497
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Source page: 497
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/page-images/page-0497.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text. A page number is present at the top right.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-- 36 -
 
-parte una aclaración muy necesaria para evitar dificultades
-en la interpretación del cómputo de trabajo nocturno, como
-ya ha ocurrido en algunos casos en los cuales el personal
-ha rehusado seguir trabajando en esa clase de prestación al
-llegar a las 56 horas, por entender, erróneamente, que ése es
-el límite máximo de la misma en un ciclo de 21 días.
-    El inciso *d* del citado artículo 2º es nuevo, y se lo ha
-incorporado al presente reglamento por entender que sus dis-
-posiciones están en concordancia con las siguientes conside-
-raciones: 1º Que la Ley 11.544 no ha adoptado un sistema
-distinto para valorar el trabajo, según sea éste diurno o noc-
-turno; por el contrario, ante la ausencia de una disposición
-expresa que los diferencie, lo lógico es presumir que, salvo
-en lo referente al límite de las horas de trabajo efectivo, el
+```markdown
+-
+36
+—
+parte una aclaraciôn muy necesaria para evitar dificultades
+en la interpretation del cômputo de trabajo nocturno, como
+ya ha ocurrido en algunos
+casos
+en los cuales el personal
+ha rehusado seguir trabajando en esa clase de prestacion al
+llegar a las 56 horas, por entender, errôneamente, que ése es
+el limite mâximo de la misma en un ciclo de 21 di'as.
+El inciso
+ci del citado artîculo 2°
+es nuevo, y se lo ha
+incorporado al présente reglamento por entender que sus dis-
+posiciones estan en concordancia cou las siguientes conside-
+raciones:
+1°
+Que la Ley 11.544 no ha adoptado
+un sistema
+distinto para valorar el trabajo, segün sea éste diurno o noc¬
+turno; por el contrario, ante la ausencia de una disposiciôn
+expresa que los diferencie, lo lôgico
+es presumir
+que, salvo
+en lo referente al limite de las horas de trabajo efectivo, el
 criterio para determinar una u otra jornada ha sido el mismo.
-2º Que si bien el artículo 2º de la Ley 11.544 determina que
-la jornada nocturna no podrá exceder de 7 horas, debe in-
-terpretarse que estas horas serán de *trabajo efectivo*, dado
-que el artículo 1º de la misma ley tampoco especifica que la
-jornada diurna será de 8 horas de trabajo efectivo, sin em-
-bargo, así fué entendido en el Decreto reglamentario de 12
-de marzo de 1930, cuyo artículo 1º, en su primera parte, es-
-tablece: «La regla de las 8 horas diurnas o 48 semanales
-establecida en la Ley 11.544, en su artículo 1º, se refiere a la
-duración del trabajo efectivo» (disposición ésta que pasó a
-ser el artículo 1º, inciso *a* de la reglamentación específica
-de los servicios ferroviarios y que ha sido aceptada por los
-obreros cuando se trató la jornada de 10 y 12 horas para el
-personal de estaciones). 3º Que, por consiguiente, el artículo
-1º, inciso *b* de la reglamentación del trabajo, al determinar
-que «la jornada nocturna no podrá exceder de 7 horas de
-trabajo efectivo» está basado en los antecedentes que die-
-ron origen a la Ley 11.544 y en el texto de la misma. Si así
-no fuera no tendría objeto el artículo 4º de esta Ley, cuando
-considera excepciones de carácter permanente a los trabajos
-que sean especialmente intermitentes, dentro de los cuales
-están los de las estaciones cuyo personal está afectado a jor-
-nadas de 10 y 12 horas, diurnas o nocturnas.
-    La disposición prevista en el artículo 3º es análoga a la
-del inciso *g* del artículo 2º del reglamento anterior, que se
+2° Que si bien el artîculo 2° de la Ley 11.544 détermina que
+la jornada nocturna no podrâ exceder de
+7 horas, debe in-
+terpretarse que estas horas serân de trabajo efectivo, dado
+que el artîculo 1° de la misma ley tampoco especifica que la
+jornada diurna serâ de 8 horas de trabajo efectivo, y, sin em¬
+bargo, asî fué entendido
+en el Decreto reglamentario de 12
+de marzo de 1930, cuyo artîculo 1°, en su primera parte, es-
+tablece:
+«La régla de las
+8 horas diurnas
+o 48 semanales
+establecida
+en la Ley 11.544, en su artîculo 1°, se refiere a la
+duration del trabajo efectivo »
+( disposiciôn ésta
+que pasô a
+ser
+el artîculo
+1°,
+inciso
+a de la reglamentaciôn especifica
+de los servicios ferroviarios y que ha sido aceptada
+por los
+obreros cuando
+se tratô la jornada de 10 y 12 horas para el
+personal de estaciones).
+3° Que, por consiguiente, el artîculo
+1°, inciso b de la reglamentaciôn del trabajo, al determinar
+que
+« la jornada nocturna
+no podrâ exceder de
+7 horas de
+trabajo efectivo »
+esta basado en los antecedentes
+que die-
+ron origen a la Ley 11.544 y en el texto de la misma. Si asî
+no fuera
+no tendrîa objeto el artîculo 4° de esta Ley, cuando
+considéra excepciones de carâcter permanente a los trabajos
+que
+sean especialmente intermitentes, dentro de los cuales
+estân los de las estaciones cuyo personal esta afectado a jor-
+nadas de
+10 y 12 horas, diurnas o nocturnas.
+La disposiciôn prevista en el artîculo 3° es anâloga a la
+del inciso g
+del artîculo 2° del reglamento anterior, que se
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. The page number "- 36 -" appears at the top right.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 37
@@ -1316,133 +1376,264 @@ All visible text on the page has been transcribed. The last word "necesa-" is hy
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
 
+# Page 499
+
 ## Page Metadata
-- Page number: 499
-- Source publication year: 1936
-- Source publication title: Cámara de Senadores de la Nación
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Source page: 499
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/page-images/page-0499.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number is centered at the top. The reading order is strictly top-to-bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 38 —
-
-rio modificar la frase que dice: «siempre que a su juicio el
-_recargo impuesto_ esté debidamente compensado con _descan-
-sos_», expresándose en su lugar: «siempre que a su juicio, en
-dichos diagramas, se haya previsto una compensación razona-
-ble». La frase mencionada en primer término restringe apa-
-rentemente el alcance de la excepción prevista en el citado
-artículo, haciéndola en realidad aplicable sólo en aquellos casos
-en que las empresas, por razones especiales, se vieran obli-
-gadas a diagramar una jornada excediéndola del límite má-
-ximo fijado para la misma. Esta aparente restricción ha ori-
-ginado en la práctica ciertas confusiones, especialmente cuando
-las empresas han presentado diagramas en los cuales, y siem-
-pre por razones especiales, en lugar de _recargar_ alguna jor-
-nada, han reducido el límite mínimo de algún descanso o no
-han podido dar cumplimiento a cualquier otra disposición re-
-glamentaria, alternativas éstas que, a los efectos de una au-
-torización excepcional en los casos debidamente justificados,
+```markdown
+—
+38
+—
+rio modificar la frase
+que
+dice:
+«siempre que a su juicio el
+recargo impuesto esté debidamente compensado
+con descan-
+sos», expresândose en su lugar: «siempre que a su juicio, en
+dichos diagramas, se baya previsto una compensation razona-
+ble».
+La frase mencionada en primer término restringe apa-
+rentemente
+el
+alcance de la excepciôn prevista en el citado
+artfculo, haciéndola en realidad aplicable solo en aquellos casos
+en que las empresas, por razones especiales,
+se vieran obli-
+gadas a diagramar
+una jornada excediéndola del limite mâ-
+ximo fijado para la misma.
+Esta aparente restriction ha ori-
+ginado en la prâctica ciertas confusiones, especialmente cuando
+las empresas han presentado diagramas en los cuales, y siem¬
+pre por razones especiales, en lugar de recargar alguna jor¬
+nada, han reducido el limite mlnimo de algün descanso o no
+han podido dar cumplimiento a cualquier otra disposition re-
+glamentaria, alternativas estas que, a los efectos de una au-
+torizacion excepcional en los casos debidamente justificados,
 resultan tan dignas de tenerse en cuenta como la que se re-
-fiere exclusivamente al _recargo_ previsto sobre una jornada.
-Es por tales razones que se ha hecho la mencionada substitu-
-ción de frases, considerando que con ello se da a la prescrip-
-ción de que se trata una lógica y necesaria elasticidad.
-Las disposiciones previstas en el artículo 7º, que es nuevo,
+fiere exclusivamente
+al
+recargo
+previsto sobre una jornada.
+Es por taies razones que se ha hecho la mencionada substitu¬
+tion de frases, considerando que con ello se da a la prescrip¬
+tion de que se trata una logica y necesaria elasticidad.
+Las disposicion es previstas en el artlculo 7°, que es nuevo,
 son aplicables para aquellas estaciones cuyo movimiento sea
-sumamente reducido, y cuyo personal, por tal causa, esté
-afectado a una labor de escasa intensidad. Como se deduce
-del mismo contenido de dichas disposiciones, el objeto de la
-excepción que en ellas se prevé es tratar de obtener una uti-
-lización razonable del personal, especialmente en aquellos casos
-(comprobados y numerosos) en que el trabajo efectivo du-
-rante una prestación no alcanza a veces a una hora, dada la
-gran intermitencia del movimiento de trenes. Parecidas con-
-sideraciones podrán hacerse con respecto al personal de má-
-quinas o de trenes que trabaja en zonas o ramales en que el
-tráfico presenta características análogas a las que se han men-
-cionado; tanto en un caso como en otro resulta justificada la
-aplicación excepcional de este artículo, pues debe tenerse en
-cuenta: 1º, Que la diagramación obligatoria del personal que
-trabaja en condiciones tan especiales implicaría mantener o
-reducir quizá aun más su ya escasa utilización, cuando lo ló-
+sumamente reducido,
+y
+cuyo personal,
+por tal
+causa,
+esté
+afectado
+a una labor de
+escasa intensidad.
+Como
+se deduce
+del mismo
+contenido de dichas disposiciones, el objeto de la
+excepciôn que en ellas se prevé es tratar de obtener una uti¬
+lization razonable del personal, especialmente en aquellos casos
+(comprobados y numerosos)
+en
+que
+el trabajo efectivo du¬
+rante una prestaciôn no alcanza a veces a una hora, dada la
+gran intermitencia del movimiento de trenes.
+Parecidas con-
+sideraciones podrân hacerse con respecta al personal de mâ-
+quinas o de trenes que trabaja en zonas
+o ramales en que el
+trâfico présenta caracterfsticas anâlogas a las que se han men-
+cionado; tanto en un caso como en otro résulta justificada la
+aplicaciôn excepcional de este artfculo, pues debe tenerse en
+cuenta:
+1°, Que la diagramaciôn obligatoria del personal que
+trabaja en condiciones tan especiales implicarfa mantener
+o
+reducir quizâ aun mas su ya escasa utilizaciôn, cuando lo lô-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or substantial visual notes on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate for all visible content on the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 500
 
 ## Page Metadata
-Page number: 500
-Original page number: 39
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Source page: 500
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/page-images/page-0500.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a centered page number at the top, followed by a single block of continuous text in a single column. The reading order is strictly top-to-bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 39 —
 
+```markdown
+—
+39
+—
 gico es precisamente llegar al efecto contrario mediante dis-
-posiciones razonables como las que se han establecido; y 2º
-que resultaría imposible prejuzgar en el sentido de que la
-aplicación del artículo 7º pudiera llegar a tener carácter abu-
-sivo, ya que su control y la autorización de jornadas máximas
-y descansos mínimos no reglamentarios están a cargo de la
-Dirección General en forma expresa.
-En el artículo 8º se ha incluído textualmente la primera
-parte del primer párrafo del artículo 12 del reglamento an-
-terior. Esta separación, así como la del artículo 9º que sigue,
-ha tenido por objeto aclarar el alcance de todo el primer
-párrafo del mencionado artículo 12; aclaración indispensable
-si se tiene en cuenta la disparidad de criterios con que las
-partes han encarado siempre su interpretación.
-En el artículo 9º se ha incluído la segunda parte del
-primer párrafo del artículo 12 del anterior reglamento, pero
-agregando al mismo la frase: «ya sea de pasajeros, mixtos,
-carga, balasto o estaciones». Han sido numerosos los casos
-planteados por las empresas y el personal diagramado de
-carga, a raíz de las diferentes interpretaciones asignadas a
-dicha disposición en su forma anterior, y numerosas también
+posiciones razonables como las que se han establecido; y 2°,
+Que resultarîa imposible prejuzgar en el sentido de que la
+aplicaciôn del artîculo 7° pudiera llegar a tener carâcter abu-
+sivo, ya que su control y la autorizacion de jornadas mâximas
+y descansos mmimos no reglamentarios estân a cargo de la
+Direcciôn General
+en forma expresa.
+En el artîculo 8°
+se ha incluîdo textualmente la primera
+parte del primer pârrafo del artîculo 12 del reglamento an¬
+terior.
+Esta separacidn, asî como la del artîculo 9° que sigue,
+ha tenido por objeto
+aclarar
+el alcance
+de todo el primer
+pârrafo del mencionado artîculo 12; aclaracion indispensable
+si se tiene
+en cuenta la disparidad de criterios
+con
+que las
+partes han encarado siempre su interpretaciôn.
+En el artîculo 9°
+se
+ha
+incluîdo la segunda
+parte del
+primer pârrafo del artîculo 12 del anterior reglamento,
+pero
+agregando al mismo la frase:
+«ya sea de pasajeros, mixtos,
+carga, balasto o estaciones».
+Han sido numerosos los casos
+planteados
+por
+las
+empresas
+y el personal diagramado de
+carga, a raîz
+de las diferentes interpretaciones
+asignadas a
+dicha disposiciôn en su forma anterior, y numerosas también
 han sido las medidas disciplinarias a que han dado lugar esas
-divergencias; medidas esas que las empresas han debido luego
-reconsiderar al comprender que dicho personal no hacía más
-que ajustarse en forma estricta a los términos del citado
-artículo. A efectos de una mayor ilustración, se transcribe
-a continuación el informe que la Inspección General de Con-
-trol del Trabajo Ferroviario elevó oportunamente, proponiendo
-la aclaración que ahora se ha incluído en el presente regla-
-mento: «Expediente Nº 08316-P-1932. Señor Director Ge-
-neral: Tratan las presentes actuaciones sobre la consulta
-formulada por un aspirante a guarda del Ferrocarril Pacífico,
-en el sentido de que se aclare si ha sido correcto su proce-
-dimiento en el caso siguiente: Manifiesta que el día 1º de
+divergences; medidas esas que las empresas han debido luego
+reconsidérai" al comprender que dicho personal no hacîa mâs
+que ajustarse
+en forma estricta
+a los términos del citado
+artîculo.
+A efectos de una mayor ilustraciôn,
+se transcribe
+a continuation el informe que la Inspection General de Con¬
+trol del Trabajo Ferroviario elevô oportunamente, proponiendo
+la aclaracion que ahora se ha incluîdo en el présente regla¬
+mento:
+«Expediente
+N°
+08316-P-1932.
+Senor Director
+Ge¬
+neral:
+Tratan
+las présentes actuaciones sobre la
+consulta
+formulada por un aspirante a guarda del Ferrocarril Pacîfico,
+en el sentido de que se aclare si ha sido
+correcto su proce-
+dimiento
+en
+el caso siguiente:
+Manifiesta
+que el dîa 1° de
 abril de 1932, con motivo de las maniobras realizadas por el
-tren de carga Nº 526, que conducía, dejó servicio en Laboulaye
+tren de carga N° 526, que conducîa, dejô servicio en Laboulaye
 a las 13,28 horas en lugar de las 13,15 como prevé el diagrama
-Nº 135, quedando así reducido a 10 horas 47 minutos el des-
-canso de 11 horas que le correspondía a continuación, y a
-cuyo límite se consideró con derecho a ajustarse estrictamente,
+N° 135, quedando asî reducido a 10 horas 47 minutos el des-
+canso de 11 horas
+que le correspondit
+a continuaciôn, y a
+cuyo limite se considéré con derecho a ajustarse estrictamente,
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate for all visible text on the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 501
@@ -1525,139 +1716,353 @@ All visible text on the page has been transcribed.
 }
 ```
 
+# Page 502
+
 ## Page Metadata
-- Page number: 41
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Source page: 502
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/page-images/page-0502.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a single column of text. A page number is centered at the top. The text flows continuously in two paragraphs.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 41 —
-
-de este informe, esta Inspección General juzga imprescindible
-salvar el error de que se trata, aclarándose el primer párrafo
-del artículo 12 del reglamento vigente. A tal efecto aconseja
-se dicte por quién corresponda un decreto incluyendo al
-personal diagramado de carga, de tracción y trenes, en la
-segunda parte del primer párrafo del artículo 12 de la regla-
-mentación de la Ley 11.544, en el que deberá establecerse
-que queda terminantemente prohibido a la empresa exigir
-la continuación del turno a un personal del servicio diagra-
-mado, ya sea de pasajeros, mixto, carga o estaciones cuyo
-descanso haya quedado reducido a menos de 8 horas.
-
-En el artículo 10 se ha incluído lo dispuesto en la última
-parte del tercer párrafo del artículo 12 del reglamento ante-
-rior, pero variando su redacción y suprimiendo la frase que
+```markdown
+—
+41
+—
+de este informe, esta Inspecciôn General juzga imprescindible
+salvar el error de que se trata, aclarândose el primer pârrafo
+del artlculo
+12 del reglamento vigente. A tal efecto aconseja
+se dicte
+por
+quién
+corresponda
+un
+decreto incluyendo
+al
+personal diagramado
+de
+carga,
+de traccion y trenes,
+en la
+segunda parte del primer pârrafo del artlculo 12 de la regla-
+mentacion de la Ley 11.544,
+en
+el
+que deberâ
+establecerse
+que queda terminantemente prohibido
+a la empresa exigu
+la continuation del tuvno
+a
+un personal del servicio diagra¬
+mado, ya sea de pasajeros, mixto, carga
+o estaciones
+cuyo
+descanso haya quedado reducido a menas de 8 horas.
+En el artlculo
+10
+se ha incluldo lo dispuesto en la ultima
+parte del tercer pârrafo del artlculo 12 del reglamento ante¬
+rior, pero variando su redaccion y suprimiendo la frase que
 dice: «ni se adelante la hora prevista para tomar trabajo, ni
-se postergue la hora de cesación del servicio». Al igual que
-en el caso del artículo anterior, puede aquí también decirse
-que son conocidas las innumerables dificultades que la restric-
-ción prevista en dicha cláusula ha provocado en perjuicio
-del rendimiento que, razonablemente, debe obtenerse del tra-
-bajo del personal; así se deduce, no sólo de los casos que
-oficialmente han planteado las empresas en tal sentido, sino
-también de los antecedentes que en forma oficiosa se poseen.
-Es por ello que resulta admisible suponer que la supresión
-de esa cláusula restrictiva tendrá quizá un efecto bastante
-importante frente a la finalidad prevista en el artículo 8º del
-Laudo Presidencial; y no se incurre en exageración alguna
-al afirmarse tal cosa si se tiene en cuenta que con la modi-
-ficación proyectada se evitará el caso, muy común y notorio,
-de que el personal a quien se le haya anulado total o par-
-cialmente el trabajo indicado en un período diagramado, tenga
-que ser mantenido, a veces, durante varios días en completa
-inactividad hasta tanto no se presente la oportunidad de
-asignarle un servicio cuyo horario coincida exactamente con
-el trabajo anulado. Así también lo han entendido en cierto
-modo las entidades representativas del personal, las cuales,
-y según constancias que existen al respecto, han subscrito
-convenios particulares con algunas empresas en el sentido
-de eludir, en determinadas circunstancias, el cumplimiento
-de aquella restricción.
+se postergue la hora de cesacidn del servicio».
+Al igual que
+en el caso del artlculo anterior, puede
+a qui también decirse
+que son conocidas las innumerables difîcultades que la restric-
+cion prevista
+en dicha
+clâusula ha provocado
+en perjuicio
+del rendimiento que, razonablemente, debe obtenerse del tra¬
+bajo del personal; as!
+se
+deduce,
+no
+solo
+de
+los casos que
+oficialmente han planteado las empresas
+en tal sentido,
+sino
+también de los antecedentes que en forma oüciosa se poseen.
+Es por ello que résulta admisible
+suponer
+que la supresiôn
+de
+esa clâusula
+restrictiva tendra
+quizâ
+un
+efecto bastante
+importante trente a la finalidad prevista en el artlculo 8° del
+Laudo Presidencial;
+y no se incurre
+en exageracidn alguna
+al afirmarse tal
+cosa
+si
+se tiene
+en cuenta que
+con la modi-
+ficaciôn proyectada se evitarâ el caso, muy comün y notorio,
+de que el personal
+a quien se le haya anulado total
+o par-
+cialmente el trabajo indicado en un perlodo diagramado, tenga
+que ser mantenido, a veces, durante varios dlas en compléta
+inactividad
+hasta
+tanto
+no
+se
+présente
+la
+oportunidad
+de
+asignarle un servicio cuyo horario coïncida exactamente con
+el trabajo
+anulado. As! también
+lo han entendido en cierto
+modo las entidades representativas
+del personal,
+las cuales,
+y segün constancias
+que existen
+al
+respecto, han subscrito
+convenios particulars
+con algunas
+empresas
+en
+el sentido
+de
+eludir,
+en
+determinadas circunstancias,
+el cumplimiento
+de aquella restriccidn.
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and a page number, with no substantial visual elements suitable for cropping."}
-```
+# Page 503
 
 ## Page Metadata
-Page number: 503
-Source publication year: 1936
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Source page: 503
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/page-images/page-0503.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. A page number is centered at the top. The text flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 42 —
-
-Por otra parte, y con el objeto de que la supresión
+```markdown
+—
+42
+—
+Por
+otra parte,
+y
+con
+el objeto
+de
+que la supresibn
 proyectada esté garantizada contra cualquier alternativa que
-pueda calificarse de abusiva, se establece, al final del ar-
-tículo 10, una cláusula cuyo cumplimiento es estrictamente
-obligatorio para las empresas, y que dice así: «en tales casos,
-las empresas deberán reincorporar al personal, a la mayor
-brevedad, a su diagrama respectivo».
-El artículo 11 está relacionado con lo establecido en el
-inciso *e* del artículo 14 del reglamento anterior, pero se ha
-introducido en él una modificación substancial en lo que res-
-pecta al cómputo de la hora de iniciación del trabajo indicado
-en un diagrama, en aquellos casos excepcionales de fuerza
-mayor en que el personal deba presentarse más tarde. De la
-forma actual del citado inciso *e* se deduce una restricción
-que no admite excepciones de ninguna naturaleza, y, por
-consiguiente, su aplicación estricta ha originado dificultades
-que han sido planteadas oportunamente ante la Dirección
-General, y cuyos motivos han girado siempre alrededor de
-una cuestión que es fundamental: la utilización razonable del
-personal. En algunas circunstancias el personal ha tomado
+pueda
+calificarse
+de abusiva,
+se
+establece, al final
+del
+ar-
+tîculo
+10, una clâusula cuyo cumplimiento
+es
+estrictamente
+obligatorio para las empresas, y que dice asi:
+«en taies casos,
+las empresas deberân reincorporar
+al personal,
+a la mayor
+brevedad,
+a su diagrama respectivo».
+El artîculo
+11 estfi relacionado
+con lo establecido
+en el
+inciso
+e del artîculo
+14 del reglamento anterior,
+pero
+se ha
+introducido
+en él una modification substancial
+en lo que res¬
+pecta al cômputo de la hora de initiation del trabajo indicado
+en un diagrama,
+en aquellos
+casos
+excepcionales de fuerza
+mayor en que el personal deba presentarse mas tarde. De la
+forma
+actual
+del
+citado
+inciso
+e
+se
+deduce una
+restriction
+que
+no admite excepciones
+de
+ninguna
+naturaleza, y,
+por
+consiguiente,
+su aplicaciôn
+estricta ha originado dificultades
+que
+han
+sido
+planteadas
+oportunamente
+ante
+la
+Direcciôn
+General, y cuyos motivos han girado siempre
+alrededor de
+una cuestiôn que es fundamental: la utilization razonable del
+personal.
+En
+algunas circunstancias
+el personal ha tornado
 servicio varias horas después de la indicada en su diagrama,
-y no obstante las razones de fuerza mayor de este retardo,
-y no obstante, asimismo, habérsele notificado con suficiente
-anticipación, ha rehusado sin embargo seguir trabajando al
+y no obstante las
+razones de
+fuerza mayor de este retardo,
+y no obstante,
+asimismo,
+habérsele
+notificado con suficiente
+anticipation,
+ha rehusado sin embargo
+seguir trabajando al
 llegar a la hora prevista en el diagrama para dejar servicio.
-Son éstas, y muchas otras por el estilo, las dificultades
-que se han considerado necesario eliminar al establecerse
-las disposiciones comprendidas en el artículo 11, redactándolo
+Son estas, y muchas otras por el estilo, las dificultades
+que
+se han
+considerado
+necesario
+éliminai' al establecerse
+las disposiciones comprendidas en el artîculo 11, redactândolo
 de manera tal que su contenido guarde estrecha concordancia
-con las disposiciones del artículo 10 y tratando de que las modi-
+con las disposiciones del artîculo 10 y tratando de que las modi-
 ficaciones proyectadas se guien en lo posible, y como en los de-
-más casos, hacia la finalidad indicada en el artículo 8º del Laudo.
-En el artículo 12 se ha reproducido textualmente el
-último párrafo del artículo 12 del reglamento anterior, pues
-se han considerado que su forma y contenido actual llenan
-un propósito que no admite modificación alguna.
-En el artículo 13 se ha incluído las disposiciones previs-
-tas en el inciso *a* del artículo 14 del anterior reglamento,
-pero variando su redacción y modificando el cómputo esta-
+mâs casos, hacia la finalidad indicada en el artîculo 8° del Laudo.
+En
+el
+artîculo
+12
+se
+ha reproducido
+textualmente
+el
+ultimo pftrrafo del artîculo
+12 del reglamento anterior, pues
+se han considerado
+que
+su forma y contenido actual llenan
+un propôsito que no admite modificacion alguna.
+En el artîculo 13
+se ha incluîdo las disposiciones previs-
+tas
+en el
+inciso
+a
+del
+artîculo
+14
+del
+anterior reglamento,
+pero variando
+su redaction y modificando el cômputo
+esta¬
 blecido para el tiempo ocupado en servicio de maniobras al
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content; it is entirely text."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

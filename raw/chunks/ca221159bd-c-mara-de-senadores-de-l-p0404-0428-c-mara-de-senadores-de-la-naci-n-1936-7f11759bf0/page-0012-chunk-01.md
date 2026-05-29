@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-88a90eb7eeff-P0012-01
+chunk_id: CHUNK-88faf425c2bb-P0012-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428.codex.md
-converted_sha256: 88a90eb7eeffa4681c1ac8e219b0560edeaf4a23aa61a0cde8a0b18c421e7380
+converted_sha256: 88faf425c2bba0ad1512bc8d892d7b1af4a1507a225407158864787b3e72271d
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json
@@ -84,3 +84,5 @@ All visible text on the page has been transcribed. The page ends mid-sentence.
 
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
+
+# Page 416

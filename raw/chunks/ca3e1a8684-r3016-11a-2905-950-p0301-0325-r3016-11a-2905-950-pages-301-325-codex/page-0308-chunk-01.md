@@ -1,0 +1,144 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-74dc76aa820c-P0308-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0301-0325-r3016-11a-2905-950-pages-301-325.codex.md
+converted_sha256: 74dc76aa820c866a4a4eef32f8d53dd2591e2cf412cf7dfeb32ffd535999fb51
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0301-0325-r3016-11a-2905-950-pages-301-325/manifest.json
+page_start: 308
+page_end: 308
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0301-0325-r3016-11a-2905-950-pages-301-325/manifest.json`
+- Source page: 308
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0301-0325-r3016-11a-2905-950-pages-301-325/page-images/page-0308.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Allemagne.
+L'Association des infirmières de la Croix-Rouge allemande désignée
+sous le nom de
+« Mutterhaus
+» forme une organisation basée sur des
+principes professionnels, moraux et économiques, à la tête de laquelle
+se trouve une directrice. Celle-ci est assistée par un comité d'infir¬
+mières choisies parmi les membres et élues par ceux-ci, ainsi que par
+un conseil chargé de la gestion administrative et financière.
+L'association d'infirmières s'occupe de la formation professionnelle
+et complémentaire de ses membres ; elle leur assigne une tâche dans
+toutes les branches du
+« nursing », de l'hygiène sociale, etc., suivant
+leurs qualifications et leurs préférences, et établit des rapports avec
+les différentes organisations.
+Les émoluments payés pour le travail des infirmières sont versés
+au fonds de l'association ;
+ce fonds couvre les frais d'entretien des
+infirmières, les primes d'assurance et les pensions de retraite. Les
+infirmières touchent
+des appointements dont le montant
+est égal
+pour tous les membres de l'association, quel que soit leur genre de
+travail.
+Ces
+appointements
+augmentent proportionnellement
+avec
+les années de service. Les directrices et les infirmières major reçoivent
+une
+allocation
+supplémentaire.
+En
+plus
+de leurs
+appointements,
+les
+infirmières
+sont
+logées,
+nourries
+et
+munies d'uniforme ;
+elles
+reçoivent des indemnités de vacances et sont soignées en cas de maladie
+ainsi que durant leur vieillesse. Les appointements varient, suivant
+les localités de 300 à 1.400 marks par an.
+Pour toutes les questions ayant trait à l'association, les infirmières
+sont soumises à l'autorité de la directrice ; elles sont sous la direction
+des médecins
+en
+ce qui concerne les questions professionnelles.
+L'association protège
+non seulement les intérêts professionnels
+et matériels des infirmières, mais elle s'efforce de leur procurer, dans
+le cadre de la vie
+en
+commun, les divertissements et les relations
+sociales nécessaires.
+Les 56
+« Mutterhseuser
+» de la Croix-Rouge forment l'Association
+des
+« Mutterhseuser
+» allemands.
+Cette
+Association,
+qui
+a
+ses sta¬
+tistiques et possède une personnalité juridique, représente les intérêts
+professionnels des infirmières de la Croix-Rouge allemande.
+L'Association tient annuellement une assemblée générale à laquelle
+sont invités tous ses membres. Ces assemblées, qui se réunissent tour
+à
+tour, dans chacun
+des
+« Mutterhseuser », étudient les questions
+professionnelles et scientifiques ainsi
+que les intérêts matériels des
+infirmières.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 309

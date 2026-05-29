@@ -1,0 +1,165 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-bb14a6643146-P0131-01
+source_converted: raw/converted/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150.codex.md
+converted_sha256: bb14a6643146566121228355836e6bd8f7ed77b5c2bcdba76fcd6653ca0f3aea
+source: raw/sources/S495-2-2.pdf
+source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
+source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json
+page_start: 131
+page_end: 131
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S495-2-2.pdf`
+- Source SHA-256: `9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027`
+- Conversion manifest: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json`
+- Source page: 131
+- Page image: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-images/page-0131.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+R EN ACIM IENTO
+17
+Cuba y los intereses extranjeros
+Cuba se hallo, a principios del
+ano en
+cnr.îo frente
+a una situaeiôn econômica
+verja fiera mente alarmante segûn creye-
+ron algunos importantes elementos de
+«quel Gobierno. Se apeld a Washington
+y ei Gobierno norteamerica'no envio una
+comiaiôn
+de peritos
+a
+re nganizar la,s
+finanza- cubanas.
+Se rodnjo el
+Presu-
+puesto parael ano econdmico 1922-1923
+a $ 55.000 000. y
+se
+despidieron a va-
+rios miles de empleados de la Adminis-
+tracidn que se considéraron eoiuo mâs o
+nienns lunules.
+Al
+mismo tiempo se le
+vantd una estadistica
+de las institucio-
+r.es comerciales,
+bancal ias, industriales,
+mineras, agricoles, etc., para ver en cua-
+les de ellas podian eolocarse esos nume-
+ios'.s ex empleados del Gobierno.
+Dicha e.-ïtadîotica dio
+por resulfado el
+descubrimiento de que casi todo en Cuba
+esta en manos de extranjeros.
+Los îerrocarriles y tranvius pertenecen
+a sindicatos anglo-americanes; el alum-
+brado pertenece a compafnas norteame-
+ricanas; el 60% de la propiedad urbana
+estâ en manos
+de extranj iros, ya sea en
+propiedad va en hi poteen; la propiedad
+rural
+es
+en
+nias
+de 76% norteamerica-
+nos; la industria azucarera,—la inâs im¬
+portante fuente de produocion
+en Cuba,
+—es 56% norteainerieana y 43% euro-
+pea, habiendo solo 1% en manos de cu-
+banos; la production tabacalera es 78%
+norteainerieana; las minas en su tota-
+lidad pertenecen
+a
+sindicatos
+anglo-
+norteamericanos;
+los
+baneos
+son
+de
+extranjeros
+en un 78%; el trâfico mari-
+timo esta totalmente en manos extràn-
+e
+jeras.
+Kn cuanto al comercio al por menor,
+98% es espanol.
+Quedan para los cubanos los empleos
+pûblicos en su totalidad.
+De San Francisco
+Des pu és
+de una temporada pasada
+en San Francisco de California, regresô
+al pais a principios ciel mes el estimable
+caballero don José Walter,
+socio de la
+importante firma Walter Brothers, de
+este- comercio.
+Reciba
+el
+8r.
+Walter
+nuestro salinlo de cordial bienvenida.
+Nuevo Internuncio en Centro America
+Ha sido
+nombrado
+Internuncio
+en
+Centro America
+S.
+S. lima. Monsenor
+Angel Rotta, virtuoso canônigo de Ro-
+ina que es esperado en Costa Rica a me-
+diados del mes de noviembre proximo.
+Agentes Exclusivos:
+WALTER BROTHERS, Tegucigalj a
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 132

@@ -1,0 +1,118 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-59d2dd76cef0-P0131-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150.codex.md
+converted_sha256: 59d2dd76cef084d27de66aad7876839ea26fe7a5d8e0b0babb661a0de8823dd2
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/manifest.json
+page_start: 131
+page_end: 131
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/manifest.json`
+- Source page: 131
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/page-images/page-0131.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—8—
+esfuerzos de los que habia realizado anteriormente desde su Je-
+fatura Superior.
+A este fin concurre la creaciôn del Arma de Aviaciôn, para
+io cual se cuenta con los Oficiales graduados en la escuela de avia¬
+cion militar de Cuba.
+Conocidos
+de vosotros
+son los lamentables encuentros que
+tuvieron con fuerzas1 del Ejército algunos jôvenes mal aconseja-
+dos por los que, habituados
+a las sediciones en que vivieron de
+continue, traspasaron la frontera conjurados contra la paz pû-
+blica, y desde el vecino Estado no dejaron de incitar a la revuelta.
+Dondequiera que b a habido grupos sediciostos, el Ejército ha cai-
+do sobre elles
+con
+mano debeladora, evitando asi el entroniza-
+miento del desorden. Hoy la paz pûblica es un hecho, porque ade-
+mâs de apoyarse en el ambiente de favorable opinion de que go~
+za el Gobierno, tiene la garantia
+de
+un Ejército disciplinado,
+provisto de moderno équipé de guerra, con los medios de trans¬
+porte necesarios para obrar con la rapidez y la eficacia que de-
+manden las circunstaneias.
+La instrupcion militar es atendida con esmero.
+El Ejército
+cuenta con muchos jôvenes que cursan estudios especiales en el
+ramo de taquigrafia
+y mecanografia, y
+en los diversos conoci-
+mientos que determinan la eficiencia del soldado.
+De ta.l modo
+resalta este hecho.
+que muchos jôvenes
+que hicieron
+con muy
+eseasa nociôn de cultura, .su alistamiento en el Ejército, han al-
+canzado ya ima preparaciôn muy apreciable.
+La reorganizaciôn del Cuerpo Médico ha tenido como base
+primordial
+preparar
+un centiro hospitalario
+en el cual todo el
+personal graduado como el carente de titulos, puedan recibir ins-
+trucc'ôn suficiente para ejercer a cabalidad los deberes que le es-
+tân asignados.
+;Se ha hecho la reeonstrucciôn del Hospital, arruinado ;por
+el ciclôn del 3 de septiembre de 1930, con el producto de las eco-
+nomias introducidas en la administraciôn de ese establecimiento.
+Se instalaron veinte dispensarios médicos militares distri-
+buidos en distintas poblaciones de la Republica.
+Como medio de contribuir mejor al alivio de la clase menes-
+terosa, se ha creado en el Consultorio de Pobres del Hospital un
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 132

@@ -1,0 +1,191 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-1e0b2f0a1f7b-P0027-01
+source_converted: raw/converted/cad9d31fb2-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket4-pages-26-50.codex.md
+converted_sha256: 1e0b2f0a1f7b5f2ec9aa4655f2f90a51b5cd0a50a9bc7d94601c34d25c8dc499
+source: raw/sources/R3578-50-5569-5569-Jacket4.pdf
+source_sha256: d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781
+source_manifest: raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket4-pages-26-50/manifest.json
+page_start: 27
+page_end: 27
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket4.pdf`
+- Source SHA-256: `d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781`
+- Conversion manifest: `raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket4-pages-26-50/manifest.json`
+- Source page: 27
+- Page image: `raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket4-pages-26-50/page-images/page-0027.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+(■■
+'
+'
+,1
+‘
+• i
+CONVENTION
+BY.
+GENEVfi
+POUR L* AMELIQRAT'IQN--'
+■y,
+DU
+SORT
+DES
+BLESSES
+ET MALADES
+DANS /LES _ABMEES.--£N i
+CAIPAGNE
+■
+•
+"
+Texte
+des articles
+votes par la Fremiere
+Commission
+(sous
+reserve
+de modifications redactionnelles renvoyees
+au Comite
+de redaction)
+Chapitre Premier
+Des blesses
+et malades
+Art, premier,-
+Les militaires
+et les
+autres
+personnes offi-
+ciellement attachees
+aux
+armees qui seront blesses
+ou malades devront
+etre respectes, proteges et traites
+avec humanite,
+sans distinction
+de nationality,
+par le belligerant qui les
+aura en son pouvoir.
+Toutefois, le belligerant oblige d'abandonner des malades
+ou
+des blesses
+a son ad'-ersaire, laissera avec eux, autant que les cir-
+constances militaires
+le permettront,
+une partie de
+son personnel et
+de
+son materiel sanitaires pour contribue*
+a les soigne*.
+(Seance
+du
+2 juillet de la Commission I. P.V. Iere
+seance, p.7)
+Art. 2.-
+Sous reserve
+des
+soins
+a leur fournir
+en vertu de
+1*article precedent, les blesses
+ou malades d’une
+armee tombes
+au
+pouvcir de
+1Tautre belligerant sont prisonniers
+de guerre et les re¬
+gies generates
+du droit des gens concernant les prisonniers leur sont
+applicables.
+Cependant, les belligerents restent libres de stipuler entre
+eux,
+a 1'egard des prisonniers blesses
+ou malades, telles clauses
+quvils jugeront utiles,
+au dela des obligations existantes.
+(Seance
+de la Commission I,
+8 Juillet, P.V. 5e seance)
+Art. 3.-
+Apres
+chaque combat, l1occupant du champ de bataille
+prendra des mesures pour rechercher les blesses et les morts et pour
+les faire proteger contre le pillage et les mauvais traitements.
+Toutes
+les fois
+que les circonstances militaires le permettront,
+un armistice local
+ou
+une interruption de feu seront convenus peur
+permettre 1’enlevement des blesses restes entre les lignes.
+(Seance
+de la Commission I,
+9 juil.
+PcV.
+6e seance)
+1.
+Noms
+Art. 4.-
+Les belligerents
+se fercnt connaitre reciproquement,
+et ele-
+dang
+le
+lus bref d£iai possible, les
+noms des blesses et des
+ments
+r
+driden- morts recueillis
+ou decouverts, ainsi que tous les elements propres
+tite.
+a
+pes identifier.
+Actes
+Ils etabliror.t et
+se transmettront les actes
+de
+deces.
+de
+de¬
+ces
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -399,73 +399,126 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 ```
 
+# Page 50
+
 ## Page Metadata
-Page number: 46
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json`
+- Source page: 50
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/page-images/page-0050.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a single column of text, with a page number centered at the top. The text flows continuously from top to bottom.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```
-— 46 —
-
-De ahí, pues, que V. E., al analizar el proyecto que acompa-
-ñamos, comprobará que no hay en él alteraciones profundas
-con respecto al vigente. Se ha mantenido su plan y su estruc-
-tura, pero se ha aclarado y mejorado una gran cantidad de
-sus disposiciones. Se han suprimido las más inconvenientes y
+```markdown
+— 46
+—
+De ahî, pues, que Y. E., al analizar el proyeeto que acompa-
+namos, comprobarâ que
+no hay en él alteraeiones profundas
+con respecto al vigente.
+Se ha mantenido su plan y su estruc-
+tura,
+pero se ha aclarado y mejorado una gran cantidad
+de
+sus disposieiones.
+Se han suprimido las mas inconvenientes y
 definido muchos puntos dudosos, que antes daban lugar a con-
-troversias reiteradas en lo judicial o en lo administrativo.
-La Comisión ha puesto especial cuidado en procurar que el
-Reglamento sea lo que debe ser: *un valioso instrumento legal
-para garantizar la regularidad, seguridad y eficacia del ser-
-vicio público a que concierne*. Las variantes y complejas for-
-mas de los servicios ferroviarios, exigen que la regulación legal
-aplicable tenga la suficiente elasticidad para adaptarse a sus
-distintos aspectos a fin de que en ningún caso pueda darse
-el absurdo que el cumplimiento estricto de un reglamento ten-
-ga por resultado la anormalidad del servicio ferroviario o la
-afectación de los intereses del público.
-V. E. comprobará que, con este fin, se ha suprimido la
-rigidez de muchas disposiciones del Reglamento vigente, se ha
-dado lugar a la previsión para casos de emergencia y se han
-caracterizado más las normas tendientes a proteger la seguri-
-dad, continuidad y normalidad del transporte ferroviario.
+troversias reiteradas en lo judicial o en lo administrative.
+La Comisiôn ha puesto especial cuidado
+en procurar que el
+Reglamento sea lo que debe ser: un valioso instrumenta legal
+para garantizar la regularidad, seguridad y eficacia del
+ser-
+vicio pûblico a que concieme.
+Las variantes y complejas for¬
+mas de los servicios ferroviarios, exigen que la regulaciôn legal
+aplicable tenga la suficiente elasticidad para adaptarse
+a sus
+distintos aspectos
+a fin de
+que
+en ningun
+caso pueda darse
+el absurdo que el cumplimiento estricto de un reglamento ten¬
+ga por resultado la anormalidad del servi cio ferroviario
+o la
+afeetaeiôn de los intereses del publico.
+Y.
+E.
+comprobarâ
+que,
+con este fin,
+se ha suprimido la
+rigidez de muchas disposieiones del Reglamento vigente, se ha
+dado lugar
+a la prevision para casos de emergencia y se han
+caracterizado mâs las normas tendientes
+a protéger la seguri¬
+dad, eontinuidad y normalidad del transporte ferroviario.
 En algunos otros puntos, como en lo relativo a los plazos del
-transporte, la Comisión ha creído conveniente atenerse a recien-
-tes decretos del Poder Ejecutivo, en cuanto subsisten, a su
-juicio, en gran parte los factores económicos desfavorables que
+transporte, la Comisiôn ha creîdo conveniente atenerse a recien-
+tes
+decretos
+del
+Poder Ejecutivo,
+en cuanto subsisten,
+a
+su
+juicio, en gran parte los factores econômicos desfavorables que
 le dieron origen.
-El nuevo Reglamento comprende 417 artículos; está dividi-
-do en 4 títulos; subdivididos a su vez, en 14 capítulos.
-Además, y dado que tanto el público como el personal ferro-
-viario tienen el hábito de guiarse por el Reglamento General
-de Ferrocarriles para decidir sus relaciones, la Comisión ha
-mantenido incorporados o ha incorporado a éste varios artícu-
-los de la Ley 2873, del Código de Comercio y del Código Penal,
+El nuevo Reglamento comprende 417 artîculos; esta dividi-
+do en 4 tîtulos ; subdivididos a su vez, en 14 capitulos.
+Ademâs, y dado que tanto el pûblico como el personal ferro¬
+viario tienen el hâbito de guiarse por el Reglamento General
+de Ferrocarriles
+para decidir
+sus relaciones, la Comisiôn
+ha
+mantenido incorporados
+o ha incorporado a éste varios artîcu¬
+los de la Ley 2873, del Côdigo de Comercio y del Côdigo Penal,
 para facilitar a todos el dominio de sus respectivas situaciones.
-Tales artículos, así reproducidos, tienen al final la indicación
+Taies artîculos, asî reproducidos, tienen al final la indication
 de su fuente respectiva. La unidad de la materia lleva, natural
 ```
 
 ## Images, Captions, And Visual Notes
 
-The page contains no images, captions, or other substantial visual elements.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-The transcription is complete and accurate.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page 51
@@ -562,69 +615,122 @@ All visible text on the page has been transcribed. The partial words in the narr
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 
+# Page 52
+
 ## Page Metadata
-Page number: 48
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json`
+- Source page: 52
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/page-images/page-0052.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number "48" is centered at the top of the page, above the main text block. The text is organized into several paragraphs, with some paragraphs starting with an indented first line.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 48 —
 
-Contemplando la extensa función de control que la Ley ha
-asignado a la Dirección General de Ferrocarriles, se ha esta-
-blecido que las empresas la informen sobre todos los acciden-
-tes o incidentes, que puedan producirse dentro de la zona de
-los ferrocarriles. Pero al mismo tiempo, con el propósito de
-evitar tramitaciones y gastos relativos innecesarios, se ha cir-
-cunscripto la obligación de complementar los avisos a los casos
-de gravedad actual o potencial, reservándose a dicha Dirección
-la facultad de requerir informaciones amplias en aquellas cir-
+```markdown
+— 48
+—
+Contemplando la extensa funciôn de control que la Ley ha
+asignado
+a la Direcciôn General de Ferrocarriles,
+se ha esta-
+blecido que las empresas la informen sobre todos los acciden¬
+tes
+o incidentes, que puedan producirse dentro de la zona de
+los ferrocarriles.
+Pero al mismo tiempo,
+con el propôsito de
+evitar tramitaciones y gastos relativos innecesarios,
+se ha cir-
+cunscripto la obligaciôn de complementar los avisos a los casos
+de gravedad actual o potencial, reservândose a dicha Direcciôn
+la facultad de requérir informaciones amplias en aquellas cir-
 cunstancias que lo juzgare necesario.
-
-El tercer capítulo relativo a los medios y sistemas de seña-
-lización y su funcionamiento, ha sido objeto de un atento exa-
-men. Las enmiendas introducidas a las disposiciones actual-
+El tercer capîtulo relativo a los medios y sistemas de sena-
+lizaciôn y su funcionamiento, ha sido objeto de un atento exa¬
+men.
+Las enmiendas introducidas
+a las disposiciones actual-
 mente en vigencia han tenido por objeto modernizarlas y mejo-
-rarlas, acentuando su eficacia para la protección y desarrollo
-rápido y normal del tráfico.
-
-El título II abarca el régimen general del servicio público,
+rarlas, acentuando su eficacia para la protecciôn y desarrollo
+râpido y normal del trâfico.
+El tîtulo II abarca el régimen general del servicio pûblico.
 en cuanto se vincula a las relaciones de las empresas y los usua-
-rios de los ferrocarriles. El aspecto económico asume aquí
-mayor importancia que el técnico, por donde el conjunto de
-disposiciones del título se han reunido bajo el rubro de “Ex-
-plotación económica”.
-
-La importancia y el carácter delicado de las cuestiones, que
-abarca y plantea, es de suyo evidente y la Comisión ha ponde-
+rios
+de
+los ferrocarriles.
+El
+aspecto
+econômico
+asume aqui
+mayor importaneia que el técnico, por donde el conjunto de
+disposiciones del titulo se han reunido bajo el rubro de “Ex-
+plotaciôn econômica”.
+La importaneia y el carâcter delicado de las cuestiones, que
+abarca y plantea, es de suyo évidente y la Comisiôn ha ponde-
 rado cuidadosamente las reformas que ha proyectado, tendien-
-do a respetar los intereses legítimos del público y, simultánea-
-mente, a propender a que no graviten sobre los ferrocarriles
-gravámenes excesivos.
-
-La Comisión ha agrupado en el capítulo I de este título,
-las normas que conciernen al transporte, contemplado en su
-conjunto, es decir, aplicable tanto al servicio de pasajeros como
-a la conducción de las cargas y demás prestaciones accesorias.
-Al proceder así ha juzgado que la ordenación metódica o
-sistemática de las cláusulas reglamentarias sería de utilidad
-para consultas y facilitaría la familiarización del público con
+do
+a respetar los intereses legîtimos del pûblico y, simultânea-
+mente,
+a propender
+a
+que no graviten sobre los ferrocarriles
+gravâmenes excesivos.
+La Comisiôn ha agrupado
+en el capîtulo I de
+este tîtulo,
+las
+normas
+que conciernen al transporte, contemplado
+en
+su
+conjunto, es deeir, aplicable tanto al servicio de pasajeros como
+a la conducciôn de las cargas y demâs prestaciones accesorias.
+Al procéder asî ha juzgado
+que la ordenaciôn metôdica
+o
+sistemâtica de
+las clâusulas reglamentarias séria
+de utilidad
+para consultas y facilitarîa la familiarizaciôn del pûblico con
 cuestiones que afectan de cerca los intereses colectivos.
+```
 
 ## Images, Captions, And Visual Notes
-- The page number "48" is centered at the top of the page, flanked by two short horizontal dashes.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The page number is transcribed in the literal transcription and noted in visual notes."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 49
@@ -720,67 +826,130 @@ All visible text on the page, including the partial left column and the main rig
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 
+# Page 54
+
 ## Page Metadata
-Page number: 50
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json`
+- Source page: 54
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/page-images/page-0054.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a page number centered at the top. The text flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-— 50 —
 
+```markdown
+—
+50
+—
 tunamente las medidas adecuadas para que el servicio se preste
-a satisfacción del público.
-Otro punto importante es el relativo a la responsabilidad por
-pérdida o avería de equipaje.
-El artículo 38 de la Ley General de Ferrocarriles adoptó en
-materia de pérdida o avería de los equipajes, el criterio de la
-responsabilidad objetiva, es decir, independiente de la situa-
-ción personal del pasajero, estableciendo que la indemnización
-se hará efectiva en esos casos “con arreglo a la tarifa de ava-
-lúos que se haya fijado en el Reglamento...”.
-Los ferrocarriles, al percibir por la conducción de pasajeros
-precios idénticos en situaciones idénticas, con prescindencia de
-la posición económica de los usuarios, deben estar sometidos a
-idéntica responsabilidad frente a los mismos.
-Por ello, a falta de declaración de valor, el riesgo queda limi-
-tado a una suma prudencial, fijada en cien pesos, lo que cons-
-tituye el riesgo objetivo ya mencionado. En cambio, con la
-declaración del valor la responsabilidad se hace amplia, dán-
-dose opción a la empresa para efectuar el transporte con o sin
-seguro. La Comisión ha aplicado análogo temperamento a la
-responsabilidad por pérdida, averías o retardo en el transporte
-de encomiendas, lo que se ajusta a lo que fué la mente de
+a satisfacciôn del publico.
+Otro punto importante es el relativo
+a la responsabilidad por
+pérdida o averîa de equipaje.
+El artîeulo 38 de la Ley General de Ferroearriles adopté en
+materia de pérdida
+o averîa de los équipajes, el criterio de la
+responsabilidad objetiva,
+es decir, independiente de la situa-
+cion personal del pasajero, estableciendo que la indemnizaeion
+se harâ efectiva en
+esos casos “con arreglo a la tarifa de ava-
+lûos que se haya fijado en el Reglamento...
+t
+Los ferroearriles, al percibir por la conduccion de pasajeros
+precios idénticos en situaciones idénticas, con preseindeneia de
+la posiciôn econômica de los usuarios, deben estar sometidos
+a
+idéntica responsabilidad frente
+a los mismos.
+Por ello, a falta de deelaraeiôn de valor, el riesgo queda limi-
+tado
+a una suma prudencial, fijada en cien pesos, lo que cons-
+tituye
+el riesgo ob.jetivo ya mencionado.
+En cambio,
+con la
+deelaraeiôn del valor la responsabilidad
+se hace amplia, dan-
+dose opciôn a la empresa para efectuar el transporte con
+o sin
+seguro.
+La Comision ha aplicado anâlogo temperamento
+a la
+responsabilidad por pérdida, averias o retardo en el transporte
+de encomiendas, lo
+que
+se ajusta
+a lo
+que fué la mente
+de
 las disposiciones de la Ley y Reglamento actuales.
-La importancia que reviste el régimen de las tarifas ha
-determinado la formación de un capítulo especial.
-Siguiendo la tendencia de los principales países, que han
-procurado hacer más flexible el régimen tarifario, permitiendo
-a los ferrocarriles una adaptación rápida a las contingencias del
-momento, la Comisión ha abreviado los términos que para la
-comunicación y aprobación de las tarifas ordinarias y espe-
+La importaneia
+que reviste
+el régimen
+de las tarifas
+ha
+determinado la formaciôn de un capîtulo especial.
+Siguiendo la tendencia
+de
+los principales paîses,
+que han
+procurado hacer mas flexible el régimen tarifario, permitiendo
+a los ferroearriles una adaptaciôn râpida a las contingencias del
+momento, la Comision ha abreviado los términos que para la
+comunicaciôn y aprobaciôn
+de las tarifas ordinarias y
+espe-
 ciales fijan las disposiciones actuales.
-Al efecto se ha establecido un distingo entre la implanta-
-ción de un nuevo sistema de tarifas o la modificación total o
-substancial del vigente, y la implantación de una o varias tari-
-fas, teniendo en cuenta que la diversidad de situaciones requie-
-re para los estudios administrativos plazos diversos.
+Al
+efecto
+se ha establecido
+un distingo entre la implanta-
+cion de un nuevo sistema de tarifas
+o la modificaciôn total
+o
+substancial del vigente, y la implantaciôn de una
+o varias tari¬
+fas, teniendo en cuenta que la diversidad de situaciones requiè¬
+re para los estudios administratives plazos diversos.
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. The text is clear and legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 55
@@ -1059,64 +1228,104 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 
+# Page 59
+
 ## Page Metadata
-Page number: 55
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json`
+- Source page: 59
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/page-images/page-0059.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, with a centered page number at the top. The text flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 55 —
 
-na todo el régimen ferroviario: la expedición de las cargas
-por riguroso orden de registro. En consecuencia, su interpre-
-tación debió ser restrictiva, y por ello, las preferencias estable-
-cidas en cuanto al inciso 1º de dicho artículo, no pueden ir
-más allá del concepto de “frutos y provisiones”, necesarios al
+```markdown
+—
+55
+—
+na todo
+el régimen ferroviario:
+la expedition de las eargas
+por riguroso orden de registro. Bn eonsecuencia, su interpre¬
+tation debiô ser restrictiva, y por ello, las preferences estable-
+eidas
+en cuanto al inciso 1-
+de dicho articulo, no pueden ir
+mâs alia del concepto de “frutos y provisiones ’ ’, necesarios al
 consumo diario de las poblaciones.
-Por lo tanto, los artículos 246 y 247 que substituyen al ante-
-rior artículo 220 del Reglamento, se someten a esa base.
-Pero atendiendo a que para algunas de esas sustancias por
-su naturaleza fácilmente perecedera, no es suficiente la prefe-
-rencia en la expedición, sino que además es indispensable fijar-
+Por lo tanto, los articulos 246 y 247 que substituyen al ante¬
+rior articulo 220 del Reglamento, se someten a esa base.
+Pero atendiendo
+a que para algunas de esas sustaneias por
+su naturaleza fâcilmente perecedera, no es suficiente la prefe¬
+rence en la expedition, sino que ademâs es indispensable fijar-
 les menor plazo de transporte para asegurar su llegada a des-
-tino en buenas condiciones para el consumo, se han estableci-
-do dos categorías: las de la primera, se transportarán en los
-tiempos de la tabla del artículo 366 y las de la segunda, que
-lo serán en los mismos tiempos más el 50 %.
-La dificultad mayor se ha presentado en cuanto a la deter-
-minación de las sustancias a incluir o excluir de dichas clases.
-La Comisión ha confeccionado la lista que adjunta, basándose
-en estudios efectuados por una comisión especial designada al
-efecto y que se constituyó de la siguiente manera: Ingenieros,
-Alfonso Amoroso y Arturo Noni, por la Dirección General de
-Ferrocarriles; ingeniero agrónomo Adrián Alivier, por el Mi-
-nisterio de Agricultura de la Nación y los señores Humberto
-Paganini, Hipólito Giardini, Santiago Ferreri y Félix Miotti,
+tino
+en buenas condiciones para el consumo, se han estableci-
+do dos eategorias: las de la primera, se transportarân en los
+tiempos de la tabla del articulo 366 y las de la segunda, que
+lo seran en los mismos tiempos mas el 50 °/o.
+La dificultad mayor se ha presentado en cuanto a la deter¬
+mination de las sustaneias a incluir o excluir de dichas clases.
+La Comisiôn ha confeccionado la lista que adjunta, basândose
+en estudios efectuados por una comision especial designada al
+efecto y que se constituyô de la siguiente manera: Ingenieros,
+Alfonso Amoroso y Arturo Noni, por la Direction General de
+Perrocarriles ; ingeniero agronomo Adrian Alivier, por el Mi-
+nisterio de Agricultura de la Nation y los senores Humberto
+Paganini, Hipôlito Giardini, Santiago Ferreri y Félix Miotti,
 por las empresas ferroviarias y los Ferrocarriles del Estado.
-Dicha Comisión, celebró varias sesiones y en definitiva elevó
-su informe con las actas correspondientes, tomándose del mis-
+Dicha Comision, célébré varias sesiones y en definitiva elevô
+su informe con las actas correspondientes, tomândose del mis-
 mo la lista adjunta, no sin antes resolver el punto relativo a
-los tiempos para ciertas cargas, como papas, cebollas no verdes,
-zapallos, caña de azúcar, etc., en contra de la creación de un
-tercer tiempo de transporte que complicaría enormemente la
-explotación ferroviaria y dejándolas sujetas a los plazos co-
+los tiempos para ciertas eargas, como papas, cebollas no verdes,
+zapallos, caha de azûcar, etc., en contra de la creation de un
+tercer tiempo de transporte que complicaria enormemente la
+explotaciôn ferroviaria y dejândolas sujetas
+a los plazos co-
 munes.
-En cuanto a los frutos incluídos en la lista de sustancias de
-la 2ª categoría, debemos dejar constancia que si se someten
-a otro plazo distinto, al de sustancias análogas de la 1ª cate-
+En cuanto a los frutos incluidos en la lista de sustaneias de
+la
+2? categoria, debemos dejar constancia que si se someten
+a otro plazo distinto, al de sustaneias anâlogas de la 1» cate-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 56

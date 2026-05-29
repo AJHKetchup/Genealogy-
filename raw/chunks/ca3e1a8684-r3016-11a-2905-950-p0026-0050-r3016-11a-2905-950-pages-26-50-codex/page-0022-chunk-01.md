@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-dc822c6ec62a-P0022-01
+chunk_id: CHUNK-e9a6c100f96b-P0022-01
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50.codex.md
-converted_sha256: dc822c6ec62ae8044ca38b52bb50fd43f5d60b06d4065bd8e96f9449d4be2814
+converted_sha256: e9a6c100f96b3860036f7a2a54d7dba5b0c38d2894ef35a712f123d7c9a942f3
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/manifest.json
@@ -72,3 +72,5 @@ All visible text on the page has been transcribed. The last paragraph appears to
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets."}
 ```
+
+# Page 48

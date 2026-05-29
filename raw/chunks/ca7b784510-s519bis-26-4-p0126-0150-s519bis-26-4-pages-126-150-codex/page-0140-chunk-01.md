@@ -1,0 +1,107 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-59d2dd76cef0-P0140-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150.codex.md
+converted_sha256: 59d2dd76cef084d27de66aad7876839ea26fe7a5d8e0b0babb661a0de8823dd2
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/manifest.json
+page_start: 140
+page_end: 140
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/manifest.json`
+- Source page: 140
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/page-images/page-0140.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—17—
+cial del Boletîn de la rnisma, correspondiente a mayo, dedicada
+integramente al concur,so en el que résulté premiado el proyecto
+del Ingeniero Gleave.
+“El faro —dije en el mensaje— no solo ha de ser testimonio
+de eterno reconocimiento al insigne marino, ni agigantada for¬
+ma de su sueno y obra luminosos, sino lo que es mas afin, simbo-
+lo de harmonia internacional por ley suprema del amor, que no
+de otra manera puede llegarse a la confraternidad feliz de las na-
+ciones.”
+El 24 de octubre llegô a esta ciudad el Arquitecto Senor Jo¬
+seph Lea Gleave, triunfador en el Goncurso para la'ereeciôn del
+Faro de Colon.
+El distinguido viajero, que fué objeto de exqui-
+sitas atenciones: comida en el Country Club, exhibiciôn de los
+restos de Colon, invitacion a las fiestas eelebradas en mi honra,
+y puesto en comunicaciôn con los miembros del Comité Ejecutivo
+Permanente del Faro, realizô en el pais diverses e importantes
+estudios y partie luego para Washington con el propôsito de es-
+tablecer contacto directo con la Union Panamericana.
+De sumo interés son las gestiones oficiales que realizan, en
+Argentina, Brasil, Chile y Uruguay el Ministro Cestero, y en Eu-
+ropa el Senor Enrique Deschamps, como Delegado Permanente
+del Comité Ejecutivo del Faro de Colon, por medio de conferen-
+cias', folletos, periôdicos y otros agentes de propaganda universal
+en favor de la gran obra.
+En
+la Memoria
+de la Secretaria de Estado de Relaciones
+Exteriores
+se encuentran detalles acerca de los puntos que he
+senalado y acerca de otros que también recomiendo a vuestra
+elevada atenciôn.
+HACIENDA
+No
+se escapa a vosotros, Sonores Représentantes, lo ardua
+de la labor que he realizado sobre el estudio cientifico de nuestras
+fuentes de producciôn y de trabajo para la aplicaciôn racional
+de los impuestos, desechando, por antieconomica, la vieja poli-
+tica de impremeditadas leyes tributarias, que solian crear difi-
+cultades trastornadoras del orden politico y administrative.
+Co¬
+mo en esto habian andado desorientadas pasadas administracio-
+nes, que no se preocuparon jamâs en la necesidad de un plan ren-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 141

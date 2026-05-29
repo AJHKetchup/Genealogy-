@@ -1,0 +1,141 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2a39cae76a9e-P0171-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175.codex.md
+converted_sha256: 2a39cae76a9e1557f8f0bfa59aa0ec757f5cebd5c7e2c7c6c34cb17a606f64da
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175/manifest.json
+page_start: 171
+page_end: 171
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175/manifest.json`
+- Source page: 171
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175/page-images/page-0171.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Séance
+du
+12 Juillet 1929
+1
+PROVISOIRE
+CONFÉRENCE DIPLOMATIQUE
+PREMIÈRE COMMISSION
+Révision de la Convention de Genève
+NEUVIEME SEANCE.
+Vendredi 12 juillet 1929, à 15 h. 30.
+Présidence de M. Dinichert, Président.
+M. le Président
+:
+Nous
+abordons
+immédiatement
+la
+discussion
+des propositions
+de la sous-commission
+pour l'aviation sanitaire, telles que vous les avez sous les yeux, de même que le rapport im¬
+primé de M. le Médecin Général Marotte.
+Le Lieutenant-Colonel Shimomura (Japon)
+:
+Messieurs les délégués qui ont pris part aux travaux de la sous-commission se souviendront
+sans doute d'une observation présentée par notre délégation. Il s'agissait de la limite en hauteur
+de la zone d'action des appareils aériens sanitaires.
+Je voudrais vous exposer notre point de vue.
+Nous allons inclure pour la première fois dans la Convention de Genève des dispositions
+concernant l'aviation sanitaire. Nous
+sommes conscients de la gravité de cet acte et il paraît
+extrêmement important à la délégation japonaise qu'une clause mûrement délibérée établisse
+nettement
+que la
+zone d'action
+des appareils aériens sanitaires
+ne devra jamais empiéter
+sur celle des armées de ligne.
+A ce propos, comme vous l'avez constaté par le remarquable rapport du Médecin Général
+Marotte, le rôle et la zone d'action des appareils aériens ont été fort heureusement et logique¬
+ment fixés par la sous-commission. Néanmoins, il me paraît qu'aucun combattant
+ne devra
+admettre que des avions
+ou des dirigeables appartenant à l'ennemi, même
+à titre neutre,
+puissent survoler librement à une hauteur permettant de dominer l'intérieur des zones d'o¬
+pérations.
+Je vous propose donc de rétablir une disposition concërnant la limite d'altitude de vol
+dans les zones d'hostilités et je vous serais reconnaissant, Monsieur le Président, de demander
+à la commission si elle ne trouve pas désirable d'inscrire une telle disposition dans notre Con¬
+vention.
+Si vous désirez connaître notre opinion, je vous proposerai de fixer le chiffre
+de
+1.000
+mètres comme limite d'altitude de vol aux abords des champs de batailles.
+M. de Calheiros E. Menèzes (Portugal)
+:
+J'ai entendu dire que cette proposition de la sous-commission pour l'aviation sanitaire
+ferait partie du chapitre V sous forme d'un article séparé.
+Or, le paragraphe 2 a trait au signe distinctif et nous avons, d'autre part, un chapitre VI
+qui se réfère aussi au signe. Je me demande alors s'il ne serait pas préférable de reporter ce
+paragraphe sous le chapitre VI. Ce n'est d'ailleurs pas une proposition que je vous fais ; c'est
+une simple suggestion.
+\
+.p
+*ç* ?
+• -, * t î
+M
+e
+.1
+H I m
+fA
+SV
+?
+Uvf I
+i
+mmwm m j
+■PHIH
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 172

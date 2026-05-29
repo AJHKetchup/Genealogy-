@@ -1,0 +1,227 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-fac3da9a016e-P0290-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0276-0300-s519bis-26-4-pages-276-300.codex.md
+converted_sha256: fac3da9a016ed64c5759976ce5076f00d9b62857f2cdea42dacf2dd2dec0ab52
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0276-0300-s519bis-26-4-pages-276-300/manifest.json
+page_start: 290
+page_end: 290
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0276-0300-s519bis-26-4-pages-276-300/manifest.json`
+- Source page: 290
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0276-0300-s519bis-26-4-pages-276-300/page-images/page-0290.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+13 de
+Junto, 1934
+COfiVERSACIOK
+Cùïi
+L DR.
+OCTAVIO
+PAKANA57A
+El Dr.
+Parana gué vino
+a despeûirse antes de partir
+para el Brasil donde plensa estar Castro
+o cinco meses.
+Me reiterd
+su deseo
+de servir
+a la Sociedad y hacer
+todo lo
+que
+sea dtil para facilitar la reincorporacidn del
+Brasil.
+El Dr.
+Paranaguâ ha viviûo trace aios
+en Europe y
+conoce perfeetafiiente la Soeiedaà
+cuya accidn le interesa y
+sostiene deeididamente.
+El Sr.
+Paranaguâ,
+que
+es Doctor en Bereeho,
+se ha de-
+âicaôo especialmente
+a cueationes eeondmieas y finaneieras,
+pero
+conoce también
+a fondo la politisa general de
+su paîs,
+El Dr.
+Paranaguâ fud Qdnsul del Brasil
+en Praga durante
+très
+ados
+(1920-1923);
+Àgregado Comerclal
+en
+..adrid (1923-1927^
+Delegado del Brasil a la Confereneia Econdmica Internacional
+(1927). ïjcreid las funciones de Comisario del Eetado de
+San Pablo
+en
+Suropa Central y
+en los Baleanes, ocupândose
+especialmente del problems del café.
+Es hombre
+de confianza del Dr.
+Juan Carlos
+de .acedo
+Soares y Xud dl
+en realidad el iniciador y el autor del
+proyeoto de
+tratado de no agresidn y de aeguridad territorial
+c e* el Dr.
+de
+. acedo Soares
+propuso
+en 1932 durante la Confe¬
+rence del Désarmé al Br.
+Bosch despuée
+de haber sido someti-
+do
+a la consiûeracidn del Dr.
+de Melle Franco. El Dr.
+Bosch
+transmit id
+eae proyeoto al Gobierno argentino y puede consi¬
+déreras
+©s©
+acto
+como el Énspirador del îratado antibélico
+del Dr.
+Saavedra
+Lamas.
+El Dr.
+Paranaguâ es
+un hoEibre iluatraào,
+muy inteligente.
+Me Inspiré aiempre confianza por la claridad
+de
+sa pensa-
+miento y por la mariera de
+Juzgar
+a los hombres de
+su paîs
+individualmente y al paîs oolectivamente.
+O
+O
+O
+El Dr.
+Paranagud créé
+que el momento
+pue de ser opor-
+tuno para interesar a loe hocabres de gobierno brastle&o en
+lo
+que
+se refiere
+a la Sociedad
+de las
+acionea.
+Créé*
+como
+yo,
+que
+no debe darse la seneacidn de
+que
+se quiere atraer
+al Brasil
+por medio de halagos. Silo no impide
+que halle
+oonveniente favorecer
+a los hombres
+que
+pueden tener inîluen-
+cia
+como el Dr.
+ello Franco,
+y
+en
+©se sentido ae
+insinuaba
+que hsbrîa sido quizds dtil ofrecer al Dr. Kéllo Franco un
+puesto
+en el Tribunal del
+Saar,
+especiaimente
+a raiz del buen
+resultado obtenido
+por él
+en el asunto de Leticia.
+Le Dr.
+Paranaguâ estima
+que puede hallarse un proce-
+S
+disaient©
+en el euai eatén de acuerdo los horabres dirigentes
+|
+del Brasil y la Secretarîa de la Sociedad de las Baeiones
+para
+que el Brasil vuelva
+a la Sociedad sin tener que rec-
+tifioar ostensiblement© lo
+que el Cobierno braslleüo hlzo y
+dljo
+en 1926.
+Créé
+eue podrfa hallarse
+una fdræula convirtien-
+do el «gentlemen agreement" actual de
+que très paîses
+j
+latico-araericanos
+han de
+ser Miembroe del Conseco,
+en
+un
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 291
