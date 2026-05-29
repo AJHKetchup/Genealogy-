@@ -14,8 +14,18 @@ Use `$genealogy-claim-extraction`.
 - Family relevance: `critical`
 - Matched family terms: Dario, Dario Pulgar, Pulgar
 - Narrative cues: none
-- Evidence priority: `14` (family_relevance:critical, qc:reread-page, matched_terms)
+- Evidence priority: `-686` (family_relevance:critical, qc:reread-page, matched_terms, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/identity-analysis-conflict-chunk-4177939279cb-p0011-01-page-reference-and-signature-qa-postconv-identity-analysis-20260525092627833-proof-review-postconv-proof-review-20260529010542244.md` | `research/_staging/identity-analysis/identity-analysis-conflict-chunk-4177939279cb-p0011-01-page-reference-and-signature-qa-postconv-identity-analysis-20260525092627833.md` | `hold_for_conversion_qa` | Revise or hold the staged draft for conversion QA. The next worker should restore or locate the source PDF/page image, verify whether the article belongs to page/chunk 14 rather than page/chunk 11, reconcile the hash/chunk-id mismatch, and visually reread the typed name and handwritten signature. Until then, keep the evidence as a noncanonical page-local identity watch only. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Person-First Narrative Contract
