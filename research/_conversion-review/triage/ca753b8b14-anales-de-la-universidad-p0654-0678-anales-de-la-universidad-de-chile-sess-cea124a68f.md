@@ -31,5 +31,5 @@
 | 674 | none | high | pass | none | none |
 | 675 | none | high | pass | none | none |
 | 676 | none | high | pass | none | none |
-| 24 | none | high | pass | none | none |
+| 677 | none | high | pass | none | none |
 | 678 | none | high | pass | none | none |

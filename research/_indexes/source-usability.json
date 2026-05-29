@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-29T17:01:59Z",
+  "created": "2026-05-29T19:06:35Z",
   "purpose": "Source-readiness report for raw source -> LLM-readable source pipeline.",
   "inputs": {
     "source_prep_manifest": "raw/source-prep-manifest.json",
@@ -2812,7 +2812,7 @@
       "conversion_job_count": 37,
       "converted_file_count": 16,
       "chunk_manifest_count": 16,
-      "qc_hold_count": 5,
+      "qc_hold_count": 6,
       "source_prep_task_counts": {},
       "page_repair_count": 0,
       "conversion_jobs": [
@@ -3126,6 +3126,16 @@
               "reason": "near match to known family context term `Dario`"
             }
           ]
+        },
+        {
+          "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75.codex.md",
+          "page": 54,
+          "recommended_action": "spot-check",
+          "quality_flags": [
+            "possible_ocr_garbage_token"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": []
         },
         {
           "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250.codex.md",

@@ -12,7 +12,7 @@
 | 480 | none | high | pass | none | none |
 | 3 | none | medium | spot-check | possible_table_layout_loss | none |
 | 482 | none | high | pass | none | none |
-| 5 | none | high | pass | none | none |
+| 483 | none | high | pass | none | none |
 | 484 | none | high | pass | none | none |
 | 485 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |

@@ -16,13 +16,13 @@
 | 6 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
-| 9 | none | high | pass | none | none |
-| 10 | none | high | pass | none | none |
+| 112 | none | high | pass | none | none |
+| 113 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 116 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
-| 15 | none | high | pass | none | none |
+| 118 | none | high | pass | none | none |
 | 119 | none | high | pass | none | none |
 | 120 | high | low | reread-page | none | none |
 | 121 | none | high | pass | none | none |

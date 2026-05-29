@@ -11,10 +11,10 @@
 | 510 | none | high | pass | none | none |
 | 225 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
-| 4 | none | high | pass | none | none |
-| 5 | none | high | pass | none | none |
+| 227 | none | high | pass | none | none |
+| 228 | none | high | pass | none | none |
 | 229 | none | high | pass | none | none |
-| 7 | none | high | pass | none | none |
+| 230 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
 | 232 | high | high | pass | none | Smith |
 | 10 | none | high | pass | none | none |
@@ -22,7 +22,7 @@
 | 235 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
-| 15 | none | high | pass | none | none |
+| 238 | none | high | pass | none | none |
 | 239 | none | high | pass | none | none |
 | 240 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |

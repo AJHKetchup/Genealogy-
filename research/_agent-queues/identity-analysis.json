@@ -1,9 +1,10 @@
 ﻿{
     "created":  "2026-05-29",
     "queue":  "identity-analysis",
-    "task_count":  229,
+    "task_count":  231,
     "status_counts":  {
-                          "done":  229
+                          "done":  229,
+                          "todo":  2
                       },
     "tasks":  [
                   {
@@ -1911,6 +1912,16 @@
                       "role":  "identity_researcher"
                   },
                   {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-a7725d7a5344-p0036-01-page-alignment-and-identity-watch-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-a7725d7a5344-p0036-01-page-alignment-and-identity-watch.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-a7725d7a5344-p0036-01-page-alignment-and-identity-watch.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
                       "skill":  "genealogy-proof-review",
                       "note":  "post-conversion controller start",
                       "updated_at":  "2026-05-24T08:30:11Z",
@@ -2917,6 +2928,16 @@
                       "status":  "done",
                       "claimed_at":  "2026-05-29T05:17:03Z",
                       "role":  "identity_researcher"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-signature-name-form-hold-typed-reread-20260529185214597-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-signature-name-form-hold-typed-reread-20260529185214597.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/conflict-chunk-9c09bf855da9-p0014-01-dario-pulgar-signature-name-form-hold-typed-reread-20260529185214597.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "skill":  "genealogy-proof-review",

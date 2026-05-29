@@ -19,7 +19,7 @@
 | 9 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
 | 111 | medium | high | pass | none | Arriagada |
-| 12 | medium | high | pass | none | Arriagada |
+| 112 | medium | high | pass | none | Arriagada |
 | 113 | medium | high | pass | none | Arriagada |
 | 114 | none | high | pass | none | none |
 | 115 | none | high | pass | none | none |
