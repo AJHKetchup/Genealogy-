@@ -19,8 +19,8 @@ family_relevance: critical
 matched_terms:
   - Arriagada
   - Pulgar
-conversion_confidence: medium
-conversion_qa_concern: "QC requested reread-page. In this workspace, the task source PDF path and the page-0011 rendered image referenced by page-0011.visuals.json are not present; only the converted page Markdown and assigned chunk are available. The derivative text consistently supports the session date, Medicos-Cirujanos heading, and Darío J. Pulgar Arriagada line, but visual/source verification remains outstanding. Identity merging remains outside this packet."
+conversion_confidence: medium_derivative_text_only
+conversion_qa_concern: "QC requested reread-page. Current reconciliation found the canonical raw source PDF path absent, the manifest's local staged source PDF absent, and the manifest's page-0011 rendered image absent. Only the converted page Markdown, assigned chunk, and manifest metadata are available. The derivative text consistently supports the session date, Medicos-Cirujanos heading, and Darío J. Pulgar Arriagada line, but visual/source verification remains outstanding. Identity merging remains outside this packet."
 promotion_recommendation: hold_for_conversion_qa
 ---
 
@@ -48,7 +48,7 @@ Médicos-Cirujanos:
 
 ## Conversion Confidence And QA Concern
 
-Conversion confidence is medium for promotion readiness. The assigned chunk and conversion page Markdown agree on the narrow date, title-heading, and name reading, but the task was flagged `reread-page` and this workspace does not contain either the task source PDF path or the local rendered page image named in `page-0011.visuals.json`. The source uses historical spelling in the derivative text, including `Sesion`, `Setiembre`, and `i`.
+Conversion confidence is medium for derivative-text extraction but not promotion-ready. The assigned chunk and conversion page Markdown agree on the narrow date, title-heading, and name reading. Current reconciliation found that the canonical raw source PDF path is absent, the manifest's local staged source PDF is absent, and the manifest's `page-images/page-0011.jpg` is also absent. The source uses historical spelling in the derivative text, including `Sesion`, `Setiembre`, and `i`.
 
 ## Uncertainty
 

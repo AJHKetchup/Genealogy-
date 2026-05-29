@@ -11,7 +11,7 @@ converted_file: "raw/converted/ca753b8b14-anales-de-la-universidad-p0004-0023-an
 chunk: "raw/chunks/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-sess-af33a57786/page-0011-chunk-01.md"
 chunk_id: CHUNK-c3c383bb7b4e-P0011-01
 page_reference: "source page 11"
-confidence: medium
+confidence: medium_derivative_text_only
 promotion_recommendation: hold_for_conversion_qa
 ---
 
@@ -23,7 +23,7 @@ The page heading reads `Sesion de 2 de Setiembre de 1918`. The text says the Rec
 
 ## Conversion Confidence And QA Concern
 
-Revision note, 2026-05-29: the prior statement that a local page image was visually reread is not supported by the current workspace. The assigned chunk and conversion page Markdown consistently give the narrow name/title/date reading, but `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf` is not present and the conversion job has no `page-images/page-0011.jpg` file. Because this task was flagged `reread-page`, promotion should remain held for source/image QA.
+Revision note, 2026-05-29: the prior statement that a local page image was visually reread is not supported by the current workspace. The assigned chunk and conversion page Markdown consistently give the narrow name/title/date reading, but `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf` is not present. The conversion manifest references a local staged PDF and `page-images/page-0011.jpg`, but those referenced files are also absent. Because this task was flagged `reread-page`, promotion should remain held for source/image QA.
 
 ## Identity Limits
 

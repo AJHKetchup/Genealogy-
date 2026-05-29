@@ -3,8 +3,7 @@
     "queue":  "identity-analysis",
     "task_count":  229,
     "status_counts":  {
-                          "done":  228,
-                          "todo":  1
+                          "done":  229
                       },
     "tasks":  [
                   {
@@ -328,14 +327,20 @@
                       "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-chunk-c3c383bb7b4e-p0011-01-dario-j-pulgar-arriagada-identity-candidate-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-29T16:57:47Z",
+                      "agent":  "postconv-identity-analysis-20260529165536365",
+                      "started_at":  "2026-05-29T16:32:20Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/identity/chunk-c3c383bb7b4e-p0011-01-dario-j-pulgar-arriagada-identity-candidate.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-chunk-c3c383bb7b4e-p0011-01-dario-j-pulgar-arriagada-identity-candidate-md.md",
+                      "completed_at":  "2026-05-29T16:57:47Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/identity/chunk-c3c383bb7b4e-p0011-01-dario-j-pulgar-arriagada-identity-candidate.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-29T16:32:20Z",
+                      "role":  "identity_researcher"
                   },
                   {
                       "skill":  "genealogy-proof-review",
