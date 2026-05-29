@@ -21,7 +21,7 @@ Traceback (most recent call last):
 IndexError: list index out of range
 post-conversion-controller | summary
 {
-    "started":  "2026-05-29T05:12:35Z",
+    "started":  "2026-05-29T09:23:15Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "dry_run":  false,
     "allow_promotion":  true,
@@ -37,18 +37,18 @@ post-conversion-controller | summary
                                      },
                    "evidence-extraction":  {
                                                "done":  64,
-                                               "todo":  101,
-                                               "deferred_low_relevance":  4692,
+                                               "todo":  102,
+                                               "deferred_low_relevance":  4688,
                                                "blocked_needs_reread":  28
                                            },
                    "identity-analysis":  {
-                                             "done":  223,
-                                             "todo":  1
+                                             "done":  224,
+                                             "todo":  3
                                          },
                    "proof-review":  {
-                                        "todo":  3845,
-                                        "done":  366,
-                                        "released":  60
+                                        "todo":  3896,
+                                        "done":  367,
+                                        "released":  63
                                     },
                    "wiki-promotion":  {
                                           "blocked_no_reviewed_ready":  1
@@ -62,5 +62,5 @@ post-conversion-controller | summary
     "blockers":  [
                      "refresh: genealogy-wiki failed: source-relevance sync-review-holds --root D:\\a\\Genealogy-\\Genealogy-: raise SystemExit(main()) |                      ^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 15254, in main |     summary = sync_proof_review_hold_feedback(args.root) |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6587, in sync_proof_review_hold_feedback |     relevance = proof_review_feedback_relevance(text) |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6979, in proof_review_feedback_relevance |     value = match.group(1).strip().lower().replace(\"_\", \" \").split()[0] |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^ | IndexError: list index out of range"
                  ],
-    "finished":  "2026-05-29T05:13:47Z"
+    "finished":  "2026-05-29T09:24:51Z"
 }
