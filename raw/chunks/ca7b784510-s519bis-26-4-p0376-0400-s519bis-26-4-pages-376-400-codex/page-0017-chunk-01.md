@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-621e7ac4b3ba-P0017-01
+chunk_id: CHUNK-ffb513ad0cb0-P0017-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0376-0400-s519bis-26-4-pages-376-400.codex.md
-converted_sha256: 621e7ac4b3bad06440d48da5e0434905d8fb7136ec6e9647c31d1586ced2faf2
+converted_sha256: ffb513ad0cb08d6fbc6e4c5096a92c54962afb625026c3f3133df18c88e9ecbc
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0376-0400-s519bis-26-4-pages-376-400/manifest.json
@@ -66,3 +66,5 @@ All visible text and significant visual elements on the page have been transcrib
 
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present; only text and minor handwritten notes/filing marks which are described in the markdown."}
+
+# Page 393

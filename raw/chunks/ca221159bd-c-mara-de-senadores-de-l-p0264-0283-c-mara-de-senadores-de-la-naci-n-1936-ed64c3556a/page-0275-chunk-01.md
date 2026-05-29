@@ -1,0 +1,102 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-0c6ff3876f9c-P0275-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283.codex.md
+converted_sha256: 0c6ff3876f9cd36b639b7236a3d7c01d23efd63111b3e4c965f0be99b9d16751
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json
+page_start: 275
+page_end: 275
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json`
+- Source page: 275
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/page-images/page-0275.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Reglamên+o de la Ley Nacionaf de Viafidad
+(Decreto N« 14.137)
+Buenos Aires, diciembre 5 de 1932.
+En cumplimiento de lo dispuesto
+en el artîculo 42 de la Ley
+11.658 que ordena la reglamentaciôn dentro de los 60 dîas de haber
+sido promulgada, y.en uso de la facultad conferidà por el articule 86.
+ineiso 2’ de la Oonstituoiôn Nacional;
+El Présidente de la Naciân Argentina en Aeuerdo de Ministros—
+DECRETA
+:
+Artîculo
+1"
+— La Administration
+de la Direction Nac.ional de
+Yialidad sera ejercida por su Directorio. dentro de las prescripciones
+de la Ley 11.658 y de! présente Decreto reglamentario.
+DEL DIRECTORIO
+Art.
+2°
+— El Directorio sesionarâ ordinariamente no nienos de
+una vez por semana y extraordinariamente siempre que sea convoca-
+do por el Présidente en ejercicio, a iniciativa propi a o a pedido de
+dos de sus raiembros.
+El quorum
+se formarâ cou la presencia de cuatro Directores in¬
+cluse
+el Présidente
+o
+su reemplazante. Las resoluciones de! Directo¬
+rio serân adoptadas en todos ]os casos por mayorîa do votos présen¬
+tes. El
+Présidente tendra
+voz y voto en las deliberaciones y doble
+veto
+en
+easo
+de empâte. Producido este y reabierta la discusiôn, el
+lé
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 276

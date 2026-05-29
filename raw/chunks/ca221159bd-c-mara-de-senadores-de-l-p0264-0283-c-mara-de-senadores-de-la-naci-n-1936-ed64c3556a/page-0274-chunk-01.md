@@ -1,0 +1,115 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-0c6ff3876f9c-P0274-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283.codex.md
+converted_sha256: 0c6ff3876f9cd36b639b7236a3d7c01d23efd63111b3e4c965f0be99b9d16751
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json
+page_start: 274
+page_end: 274
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json`
+- Source page: 274
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/page-images/page-0274.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Art.
+40"
+-- Kl Miiiisterio
+de Agricultura facilitarâ sin cargo,
+a
+la Direcciôn Nacional
+de \ ialidad, todos los elementos necesarios y
+posibles para el arbolado
+y embelleciiniento
+de los caminos.
+Art.
+41"
+— En cada pliego de bases y condiciones para los 11a-
+mados
+a iieitacion, la Direcciôn Nacional de Yialidad establecerâ el
+jornal miniino que las empresas deberân abonar
+a sus obreros.
+Art.
+42-
+— El
+Poder Ejecutivo reglamentara la aplicacion de
+esta Ley dentro de los 60 dîas de promulgada.
+Art. 43.
+— Derôganse todas las disposiciones de otras leyes que
+se opongan
+a la presente.
+Art.
+44.
+— Comuniquese al Poder Ejecutivo.
+Dadà en la Sala de Sesiones del Congre,so Argentino, en Buenos Aires,
+a
+treinta
+dias del
+nies
+de septiembre del
+ano mil novecientos
+treinta y dos.
+Julio A.
+Roca
+Juan F. Cafpeeata
+Gustwvo Figueroa
+D. Zambrano
+POR TANTO:
+Téngase por Ley de la Naeion, cûmplase, dése al Registre Na-
+cional
+y archivese.
+JUSTO
+M. R. Alvarado
+*
+/
+•
+15
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 275

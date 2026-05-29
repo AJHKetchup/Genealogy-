@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-079b5739c8a3-P0109-01
+chunk_id: CHUNK-a45ba79e5872-P0109-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123.codex.md
-converted_sha256: 079b5739c8a3fa4b5628c0b2fd1b1c01484aeec1dfd9d4449a2eb5ab40c7063c
+converted_sha256: a45ba79e5872189a76203529acc80db7d32ee5d5a6bf16061dd057db3aab9c2f
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123/manifest.json
@@ -46,15 +46,15 @@ Suplentes:
 
 don  Ricardo Poenisch.
 
-- Francisco Próschle. 》
+- Francisco Próschle.
 
-- Enrique Martínez (para  el  3.0  1 4.2  años). 《
+- Enrique Martínez (para  el  3.0  1 4.2  años).
 
-- Augusto Meltzer (para  el  5.9  1 6.0  años). 》
+- Augusto Meltzer (para  el  5.9  1 6.0  años).
 
-- Francisco A.  Medina Rivera. 《
+- Francisco A.  Medina Rivera.
 
-- Ramón  Jiménez Villagrán. 》
+- Ramón  Jiménez Villagrán.
 
 ## Francés 1.9, 2.2  ¡ 3%-  años
 
@@ -62,27 +62,27 @@ don  Ricardo Poenisch.
 
 Suplentes:
 
-- Carlos Montebruno. 《
+- Carlos Montebruno.
 
-- Agustín Oñate. 《
+- Agustín Oñate.
 
-- Maximiano Flores. 《
+- Maximiano Flores.
 
-- Manuel Molina A.: 《
+- Manuel Molina A.:
 
 ## Francés 4.2  año
 
 ## Propietarios: Antonio Díez.
 
-Suplentes: 》
+Suplentes:
 
-- Francisco Zapata Lillo. 》
+- Francisco Zapata Lillo.
 
-- Agustín Oñate. 《
+- Agustín Oñate.
 
 - Arturo Varela.
 
-- Manuel Molina A. 《
+- Manuel Molina A.
 
 ## Francés 5.  i 6.2  años
 
@@ -92,11 +92,11 @@ Suplentes:
 
 - Francisco Zapata  Lillo.
 
-- Marcelino Masbou. 》
+- Marcelino Masbou.
 
-- Artuo Varela. 》
+- Artuo Varela.
 
-- Manuel Molina A 》
+- Manuel Molina A
 ```
 
 ## Images, Captions, And Visual Notes

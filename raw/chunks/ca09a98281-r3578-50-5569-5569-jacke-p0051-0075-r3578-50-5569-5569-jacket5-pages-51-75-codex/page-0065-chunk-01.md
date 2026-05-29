@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-31b8a881c737-P0065-01
+chunk_id: CHUNK-e123007f5f42-P0065-01
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75.codex.md
-converted_sha256: 31b8a881c73718d393f5cd4e73b145c0faedb4683d8a3ea8235ec9d065ac51ad
+converted_sha256: e123007f5f42846661293236567c1b995afebcf6da998ee181be5142527c9af7
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75/manifest.json
@@ -12,95 +12,102 @@ part: 1
 ---
 
 ## Page Metadata
-- Task id: `source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75:p0065`
-- Page: 65
+
 - Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
-- Quality flags: `possible_table_layout_loss`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75/manifest.json`
+- Source page: 65
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75/page-images/page-0065.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text centered vertically on the left half of the page. The content is a list of signatories, organized by country. Each country's name is followed by the indented name(s) of its representative(s). The page number "60" is centered at the top. Faint text from the reverse side of the page is visible on the right but does not interfere with the primary text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
+
+```markdown
 60
-
+#
 For New Zealand:
-    CLAUD RUSSELL
-
+Claud Russell
 For South Africa:
-    ERIC H. LOUW
-
+Eric H. Louw
 For the Irish Free State:
-    SEAN LESTER
-
+Sean Lester
 For India:
-    CLAUD RUSSELL
-
+Claud Russell
 For Bulgaria:
-    D. MIKOFF
-    STEPHAN N. LAFTCHIEFF
-
+D. Mikoff
+Stephan N. Laftchieff
 For Chile:
-    GMO NOVOA
-    D. PULGAR
-
+Gmo Novoa
+D. Pulgar
 For China:
-    C. Y. HSIAO
-
+C. Y. Hsiao
 For Colombia:
-    FRANCISCO JOSÉ URRUTIA
-
+Francisco Jose Urrutia
 For Cuba:
-    CARLOS DE ARMENTEROS
-    CARLOS BLANCO
-
+Carlos de Armenteros
+Carlos Blanco
 For Denmark:
-    HARALD SCAVENIUS
-    GUSTAV RASMUSSEN
-
+Harald Scavenius
+Gustav Rasmussen
 For the Dominican Republic:
-    CH. ACKERMANN
-
+Ch. Ackermann
 For Egypt:
-    MOHAMMED ABDEL MONEIM RIAD
-
+Mohammed Abdel Moneim Riad
 For Spain:
-    Ad Referendum
-    MAURICIO LOPEZ ROBERTS Y TERRY, MARQUÉS DE
-    LA TORREHERMOSA
-
+Ad Referendum
+-L
+Mauricio Lopez Roberts y Terry, Marques de
+LA TORREHERMOSA
 For Estonia:
-    Dr. LEESMENT
-
+.,
+Dr. Leesment
 For Finland:
-    A. E. MARTOLA
-
+A. E. Martola
 For France:
-    H. DE MARCILLY
-    J. DU SAULT
-
+H. de Marcilly
+J. DU Sault
 For Greece:
-    R. RAPHAËL
-    S. VENISELOS
-
+R. Raphael
+S. Veniselos
 For Hungary:
-    PAUL DE HEVESY
-
+Paul de Hevesy
 For Italy:
-    GIOVANNI CIRAOLO
+Giovanni Ciraolo
+```
 
 ## Images, Captions, And Visual Notes
-The page number "60" is printed at the top center. There is a small, dark circular mark near the top right corner, possibly a hole punch.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-This page is complete and fully transcribed.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed text and a page number, with no significant images, illustrations, or other visual elements that would warrant cropping."
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 66

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-059912eb29df-P0445-01
+chunk_id: CHUNK-1765fca8ded6-P0445-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450.codex.md
-converted_sha256: 059912eb29df62ede45ed1c91c4da59fc53b30fed448bc9a86f1c04d10a57528
+converted_sha256: 1765fca8ded6b93cc8d818a0c14c1f5fbfbc4732c8c2689793d56267c1195fc6
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450/manifest.json

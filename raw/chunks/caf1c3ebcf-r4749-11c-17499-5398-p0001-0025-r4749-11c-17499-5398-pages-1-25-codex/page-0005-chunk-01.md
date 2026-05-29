@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-445309e795a9-P0005-01
+chunk_id: CHUNK-a9e730c53c2c-P0005-01
 source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25.codex.md
-converted_sha256: 445309e795a9234f1b8c26256b7c76da0ecd082ed3f05dffbe7724a377ff6f12
+converted_sha256: a9e730c53c2cd6f9f751a234ee44dc2e7fe0d59ba89568ac77015b6f0ad80346
 source: raw/sources/R4749-11C-17499-5398.pdf
 source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
 source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/manifest.json
@@ -12,54 +12,100 @@ part: 1
 ---
 
 ## Page Metadata
-Page number: 5
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/manifest.json`
+- Source page: 5
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/page-images/page-0005.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a single block of typewritten text, followed by a closing and a printed name, all in a single column layout. A page number is centered at the top.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```
-                                                                - 2 -
-
-                                        Je vous remercie de m'avoir fait parvenir le
-texte de la Loi N° 12.558 sur la protection des enfants
-d'âge scolaire; ce document sera également traduit et publié
-par les soins du Centre d'information. Quant au texte des
-projets de lois soumis actuellement au Congrès national pour
-établir le "régime de protection légale des mineurs" et la
-"protection des mineurs et l'extension de la compétence des
-tribunaux pour mineurs", ils seront déposés aux archives
-du Secrétariat, et il en sera fait mention dans le Rapport
-annuel en matière de protection de l'enfance qui sera publié
-en vue de la session de 1940 de la Commission consultative
-des questions sociales. J'espère que vous voudrez bien me
-prévenir si d'ici là ces projets sont devenus des lois.
-                                        Veuillez agréer, Monsieur le Ministre, les
-assurances de ma haute considération.
-
-                                        Pour le Secrétaire général,
-                                        Le Directeur des Sections du Trafic de l'opium
-                                        et des Questions sociales,
-
-                                        ERIC EINAR EKSTRAND
+```markdown
+Je
+vous remercie
+de m*avoir Tait parvenir 1©
+texte
+de la Loi
+1° la.558 sur la j roteetion des enfants
+d'âge scolairej
+ce document
+©era 6paiement traduit et publié
+per
+les
+oins du centre d'infora tion.
+uant
+au texte dos
+projets de lois soumis actuellement
+au congrès national pour
+établir le "régime de protection légal© des mineure"
+©t la
+"protection des mineurs et l'extension
+de la compétence de®
+tribunaux pour mineurs", ils seront déposé» aux archives
+du secrétariat, et il
+on sera fait mention dans le
+{apport
+annuel
+en mat ère
+de protection de l'enfance qui
+sera publié
+en vue
+ué
+m session de 1940
+de la commission consultative
+des
+vUc-étions sociales. J'espère
+que vous voudrez bien me
+prévenir si a'ici là
+ce® projeta sont
+devenu® des lois.
+Veuillez agréer,
+onsieur le ministre, les
+assurances de
+ma haute consic ration.
+rour le
+Je oré taire générai,
+Le Directeur des
+actions
+du Trafic de 1'opium
+©t des
+uestioae sociales,
+ÏM mis BSïïî
 ```
 
 ## Images, Captions, And Visual Notes
 
-A hole punch is visible on the left margin of the page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate to the visible content of the page.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present on this page. Minor marks like the hole punch are noted in 'Images, Captions, And Visual Notes' but do not warrant cropping."
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

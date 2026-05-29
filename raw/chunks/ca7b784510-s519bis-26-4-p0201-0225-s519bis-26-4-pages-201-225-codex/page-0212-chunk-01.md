@@ -1,0 +1,122 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7f81b63dc283-P0212-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225.codex.md
+converted_sha256: 7f81b63dc2838ba090ed76053618faeb297d2409bf8437a59d50bd2416194f5f
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225/manifest.json
+page_start: 212
+page_end: 212
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225/manifest.json`
+- Source page: 212
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225/page-images/page-0212.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+RBBSSI0HME3TS P2RS0MKE1S
+SUR Mlle.
+AHA TERESA PARADAS
+MEMBRE COfiRESPOHDABT
+DU SECRETARIAT
+A
+SaBTQ-DOMXBGQ
+Age:
+38 ans.
+Célibataire.
+Avocat.
+Mlle Paradas
+est la premiers
+feme domini¬
+caine qui
+a été graduée
+©n Droit,
+et la premier© aussi
+qui
+a obtenu 11 Exequatur pour exercer la profession d’avo¬
+cat
+.
+Professeur de Droit
+et
+de Morale Sociale à l’Ecole
+normale supérieure
+de Ranto-Domingo,
+-lie.
+Paradas
+a fait partie
+du personnel
+du bureau
+de l’éminent 4uri s consulte dominicain
+Francisco
+J.
+1EYJ&D0
+qui
+est l’auteur
+du Plan
+de Libération»
+candidat à la prési¬
+dence
+de
+la République
+et Président
+de la délégation domini¬
+caine
+à la dernière Conférence Panaméricaine.
+Silo
+a fait
+aussi partie du personnel du bureau du Sénateur de la
+Ré¬
+publique Dr.
+Poises üarefa Mella.
+Outre les études
+de droit, Mlle Paradas
+a fait.égale¬
+ment
+des études spéciales de mathématiques.
+Mlle.
+Paradas connaît le français.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

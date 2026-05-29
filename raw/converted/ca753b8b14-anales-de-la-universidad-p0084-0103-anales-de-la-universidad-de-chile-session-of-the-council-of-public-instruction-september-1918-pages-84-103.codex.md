@@ -525,15 +525,11 @@ don Mardoqueo Yáñez.
 
 Teodoro Kausel.
 
-- José  Casas. 《
+- José  Casas.
 
 Enrique Martínez M.
 
-David Poblete. 《
-
-《
-
-《
+David Poblete.
 
 ## Física
 
@@ -543,13 +539,13 @@ Suplentes:
 
 Guillermo Ziegler.
 
-- Matías González. 》
+- Matías González.
 
-- Francisco Javier Galarza. 《
+- Francisco Javier Galarza.
 
-- Diego Berendique. 《
+- Diego Berendique.
 
-- Carlos Llona Reyes. 《
+- Carlos Llona Reyes.
 
 ## Química
 
@@ -559,13 +555,13 @@ Suplentes:
 
 Belisario Díaz Ossa.
 
-- Francisco Lara. 《
+- Francisco Lara.
 
-- Francisco Javier Galarza. 《
+- Francisco Javier Galarza.
 
-- Diego Hernández. 《
+- Diego Hernández.
 
-- Guillermo García. 《
+- Guillermo García.
 
 ## Cosmografía
 
@@ -575,13 +571,13 @@ Suplentes:
 
 Mardoqueo Yáñez.
 
-- Teodoro Kausel. 》
+- Teodoro Kausel.
 
-- José  Auger. 《
+- José  Auger.
 
-- Ismael Gajardo Reyes. 《
+- Ismael Gajardo Reyes.
 
-- Samuel Pavez A. 《
+- Samuel Pavez A.
 
 ## Gramática Castellana
 
@@ -589,9 +585,9 @@ Propietarios:
 
 Enrique Nercasseau 1  Morán.
 
-- Ernesto Guzmán. 《
+- Ernesto Guzmán.
 
-- Calisto Martínez. 》
+- Calisto Martínez.
 ```
 
 ## Images, Captions, And Visual Notes

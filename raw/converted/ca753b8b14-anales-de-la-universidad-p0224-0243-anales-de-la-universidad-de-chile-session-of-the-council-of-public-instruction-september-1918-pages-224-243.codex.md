@@ -8,87 +8,105 @@
 - Conversion method: Codex local vision workbench
 - Extracted images: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/extracted-images`
 
+# Page 224
+
 ## Page Metadata
 
-- **Page number**: 510
-- **Source page number**: 224
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json`
+- Source page: 224
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/page-images/page-0224.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page is a single column of text. The reading order is from top to bottom.
-
-1.  A header at the top of the page contains the page number "510" on the left and the title "BOLETIN DE INSTRUCCION PÚBLICA" on the right, separated by a horizontal line.
-2.  A centered subheading "Suplentes Jenerales" is followed by a list of three names.
-3.  A centered, multi-line title "COMISIONES EXAMINADORAS PARA EL CURSO DE LEYES DEL SEMINARIO DE CONCEPCIÓN".
-4.  The remainder of the page consists of four sections, each with a bold, centered title: "Economía Política", "Filosofía del Derecho", "Derecho Romano", and "Derecho Civil (1.er año)".
-5.  Each of these sections lists names under the categories "Propietarios" and "Suplentes".
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
 ```markdown
-510 BOLETIN DE INSTRUCCION PÚBLICA
-___
-
-*Suplentes Jenerales*
-
-Don Rafael Luis Barahona.
-» Hermójenes Toro.
-» Salvador Lavarello.
-
-COMISIONES EXAMINADORAS PARA EL CURSO DE LEYES
-DEL SEMINARIO DE CONCEPCIÓN
-
-**Economía Política**
-
-Propietarios: don Alberto Coddou.
-» Clodomiro Acuña.
-» Fernando Serrano.
-Suplentes: » Abraham Valenzuela.
-» Benicio Troncoso.
-
-**Filosofía del Derecho**
-
-Propietarios: don Benicio Troncoso.
-» Pablo Vergara.
-» Cipriano Deltor.
-Suplentes: » Edmundo Larénas.
-» Samuel Guzmán.
-
-**Derecho Romano**
-
-Propietarios: don Víctor M. Rioseco.
-» Julio Parada B.
-» Domingo Ocampo
-Suplentes: » Alberto Coddou.
-» Clodomiro Acuña.
-
-**Derecho Civil (1.er año)**
-
-Propietarios: don Samuel Guzmán.
-» Maximiliano Gajardo.
-» Abraham Romero.
+510 
+BOLETIN DE INSTRUCCION PÚBLICA 
+Suplentes Jenerales 
+Don Rafael Luis Barahona. 
+» 
+ Hermójenes Toro. 
+» 
+Salvador Lavarello. 
+COMISIONES EXAMINADORAS PARA EL CURSO DE LEYES 
+DEL SEMINARIO DE CONCEPCIÓN 
+Economía Política 
+Propietarios: don Alberto Coddou. 
+» 
+ Clodomiro Acuña. 
+» 
+Fernando Serrano. 
+Suplentes: 
+» 
+Abraham Valenzuela. 
+» 
+Benicio Troncoso. 
+Filosofía del Derecho 
+Propietarios: don Benicio Troncoso. 
+» 
+Pablo Vergara. 
+» 
+Cipriano Deltor. 
+Suplentes: 
+» 
+Edmundo Larénas. 
+» 
+Samuel Guzmán. 
+Derecho Romano 
+Propietarios: don Víctor M. Rioseco. 
+» 
+Julio Parada B. 
+» 
+Domingo Ocampo 
+Suplentes: 
+» 
+Alberto Coddou. 
+» 
+ Clodomiro Acuña. 
+Derecho Civil (1.er año) 
+Propietarios: don Samuel Guzmán. 
+» 
+Maximiliano Gajardo. 
+» 
+Abraham Romero.
 ```
 
 ## Images, Captions, And Visual Notes
 
-This page consists entirely of printed text. There are no images, illustrations, or other visual elements. A simple horizontal line separates the page number from the bulletin title in the header.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this document.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-This page has been transcribed in its entirety.
-
-## Visual Region Manifest
-
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only printed text and standard typographical elements. There are no images, illustrations, or other visual content suitable for cropping."
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - task_id: `source-prep:ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243:p0225`
@@ -169,68 +187,105 @@ This page has been fully and accurately transcribed.
 }
 ```
 
+# Page 226
+
 ## Page Metadata
-Page number: 226
-Source publication: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json`
+- Source page: 226
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/page-images/page-0226.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page features a header with a page number and publication title. Below a horizontal rule, the main content is presented in a single column, structured into several sections, each with a bold subject heading. Under each heading, there are lists of names categorized as "Propietarios" (Owners/Professors) and "Suplentes" (Substitutes). Each name is preceded by a bullet point or a guillemet (`»`). A short horizontal rule appears at the bottom of the page.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-512 BOLETIN DE INSTRUCCION PÚBLICA
-—
-.. Don Luis David Cruz O.
-Suplentes: » Jorje Salas Bórquez.
-» Abraham Valenzuela T.
-
-**Economía Social e Industrial**
-
-Propietarios: don Clodomiro Acuña.
-» Alberto Coddou.
-» Esteban Iturra Pacheco.
-Suplentes: » Abraham Valenzuela T.
-» Benicio Troncoso.
-
-**Derecho Comercial**
-
-Propietarios: don Edmundo Larenas.
-» Lisandro Búrgos.
-» Pedro Verdugo.
-Suplentes: » Víctor Vargas.
-» Jorje Salas B.
-
-**Derecho Civil (3.er año)**
-
-Propietarios: don Esteban Iturra.
-» Maximiliano Gajardo.
-» Samuel Guzmán G.
-Suplentes: » Edmundo Larenas.
-» Clodomiro Acuña.
-
-**Derecho Procesal (1.er año)**
-
-Propietarios: don Maximiliano Gajardo.
-» Lisandro Búrgos.
-» Abraham Romero.
-Suplentes: » Alberto Coddou.
-» Clodomiro Acuña.
-
-—
+```markdown
+512 
+BOLETIN DE INSTRUCCION PÚBLICA 
+o 
+5 
+5 
+5 
+5 
+Suplentes: 
+Propietarios: 
+Suplentes: 
+Propietarios: 
+Suplentes: 
+Propietarios: 
+Suplentes: 
+- 
+Propietarios: 
+Suplentes: 
+Don Lis David Cruz O. 
+» 
+» 
+don 
+don 
+don 
+Jorje Salas Bórquez. 
+Abraham Valenzuela T. 
+Economía Social e Industrial 
+Clodomiro Acuña. 
+Alberto Coddou. 
+Esteban Iturra Pacheco. 
+Abraham Valenzuela T. 
+Benicio Troncoso. 
+Derecho Comercial 
+Edmundo Larénas. 
+Lisandro Búrgos. 
+Pedro Verdugo. 
+Víctor Vargas. 
+Jorje Salas B. 
+Derecho Civil (3.er año; 
+Esteban Iturra. 
+Maximiliano Gajardo. 
+Samuel Guzmán G. 
+Edmundo Larénas. 
+Clodomiro Acuña. 
+Derecho Procesal (1.t* año) 
+Maximiliano Gajardo. 
+Lisandro Búrgos. 
+Abraham Romero. 
+Alberto Coddou. 
+Clodomiro Acuña.
+```
 
 ## Images, Captions, And Visual Notes
-- A thin horizontal rule separates the header from the main content.
-- A short, centered horizontal rule appears at the bottom of the page, indicating a section break or end.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and significant visual elements on the page have been transcribed or noted.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present for cropping."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 227
 
@@ -575,75 +630,124 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 231
+
 ## Page Metadata
-- Page number: 231
-- Source publication year: 1918
-- Source publication title: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- Running header: SESION DE 21 DE OCTUBRE DE 1918 517
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json`
+- Source page: 231
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/page-images/page-0231.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page presents a single column of text, primarily consisting of lists of names under various academic degree categories. The categories are introduced by italicized headings, followed by names, some prefixed with "a don" or "a doña", and others indented and prefixed with a guillemet (»).
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-<p style="text-align:center">SESION DE 21 DE OCTUBRE DE 1918 517</p>
-<br>
-<p style="text-align:center"><i>Licenciados en Leyes i Ciencias Políticas:</i></p>
-<br>
-<p style="text-align:center">a don Hernán Figueroa Anguita; i</p>
-<p style="text-align:center">» José Antonio Valenzuela Díaz.</p>
-<br>
-<p style="text-align:center"><i>Bachilleres en Leyes i Ciencias Políticas:</i></p>
-<br>
-<p style="text-align:center">a don Roberto Alvarez Chadwick,</p>
-<p style="text-align:center">» José Arancibia Santibáñez,</p>
-<p style="text-align:center">» Alfredo Arenas Aguirre,</p>
-<p style="text-align:center">» Héctor Candia Acuña,</p>
-<p style="text-align:center">» Ramon Ibáñez Muñoz,</p>
-<p style="text-align:center">» Joaquin Olalla Laporta,</p>
-<p style="text-align:center">» Jerman del Sol Valdivieso,</p>
-<p style="text-align:center">» Edecio Torreblanca White,</p>
-<p style="text-align:center">» Humberto Valenzuela García; i</p>
-<p style="text-align:center">» Eduardo Zañartu Eguiguren.</p>
-<br>
-<p style="text-align:center"><i>Bachiller en Medicina i Farmacia:</i></p>
-<br>
-<p style="text-align:center">a don Luis Pavon Ruiz.</p>
-<br>
-<p style="text-align:center"><i>Bachilleres en Humanidades:</i></p>
-<br>
-<p style="text-align:center">a don Enrique Araya Pizarro,</p>
-<p style="text-align:center">» Samuel Bambach Estévez,</p>
-<p style="text-align:center">» Fermin Barrios Marchant,</p>
-<p style="text-align:center">» Cárlos Bolívar Olea,</p>
-<p style="text-align:center">» Federico Bonilla Nicholls,</p>
-<p style="text-align:center">» Juan Jorje Buschmann Garat,</p>
-<p style="text-align:center">a doña María Calderon Alcorta,</p>
-<p style="text-align:center">a don Luis Cotapos Silva,</p>
-<p style="text-align:center">» Ignacio Díaz Campagne,</p>
-<p style="text-align:center">» Eduardo Elguin Morales,</p>
-<p style="text-align:center">» Jorje Figueroa Anguita,</p>
-<p style="text-align:center">» Manuel Fredes Pérez,</p>
-<p style="text-align:center">a doña Amanda Guzman Escobar,</p>
+```markdown
+SESION DE 21 DE OCTUBRE DE 1918 
+517 
+Licenciados en Leyes 1 Ciencias Políticas: 
+a don Hernán Figueroa Anguita; 1 
+» 
+José Antonio Valenzuela Díaz. 
+Bachilleres en Leyes i Ciencias Políticas: 
+a don Roberto Alvarez Chadwick, 
+» 
+José Arancibia Santibáñez, 
+» 
+Alfredo Arenas Aguirre, 
+» 
+Héctor Candia Acuña, 
+» 
+Ramon Ibáñez Munoz, 
+» 
+Joaquin Olalla Laporta, 
+» 
+ Jerman del Sol Valdivieso, 
+» 
+ Edecio Torreblanca White, 
+» 
+Humberto Valenzuela García; 1 
+» 
+Eduardo Zañartu Eguiguren. 
+Bachiller en Medicina 1 Farmacia: 
+a don Luis Pavon Ruiz. 
+Bachilleres en Humamdades: 
+a don Enrique Araya Pizarro, 
+» 
+Samuel Bambach Estévez, 
+» 
+Fermin Barrios Marchant, 
+» 
+ Cárlos Bolívar Olea, 
+» 
+Federico Bonilla Nicholls, 
+» 
+Juan Jorje Buschmann Garat, 
+a doña María Calderon Alcorta, 
+a don Luis Cotapos Silva, 
+» 
+Ignacio Díaz Campagne, 
+» 
+Eduardo Elguin Morales, 
+» 
+ Jorje Figueroa Anguita, 
+Manuel Fredes 
+Pérez, 
+> 
+a doña Amanda Guzman Escoba, 
+IRE 
+ATA 
+F A 
+a 
+A 
+E 
+ESTA 
+ARE 
+ASEO 
+Y 
+al 
+AL 
+ia 
+EA 
+pea 
+ía
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-No uncertain or illegible text was encountered.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 232
 
@@ -986,119 +1090,183 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 236
+
 ## Page Metadata
-- Page number: 236
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json`
+- Source page: 236
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/page-images/page-0236.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single-column layout with several distinct text blocks. It begins with a page number and a publication title at the top. Below this, there's a concluding statement for a previous section, followed by two signatures. A centered heading "ANEXO" introduces a new section, followed by a subheading and a date. The main content is a decree, starting with a number and title, and then two paragraphs of text, concluding with two signatures.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-522 BOLETIN DE INSTRUCCION PÚBLICA
 
-petir las pruebas de la Licenciatura en Leyes, ántes de terminar
-el plazo reglamentario.
-Se levantó la sesion.
-
-DOMINGO AMUNÁTEGUI SOLAR.
-
-Octavio Maira,
-Secretario Jeneral.
-
-ANEXO
-
-DOCUMENTOS LEIDOS EN LA SESION
-
-Santiago, 5 de Octubre de 1918.
-
-N.º 3857.—DECRETO:
-
-Concédese a don Cárlos Rudolph, Rector i profesor del Liceo
-de Hombres de Valparaiso, la jubilacion que solicita, con el go-
-ce de una pension de nueve mil ochocientos veintitres pesos
-setenta centavos ($ 9,823.70) anuales, suma equivalente a las
-veintinueve cuarentavas partes del sueldo de trece mil quinien-
-tos cincuenta pesos ($ 13,550) de que actualmente disfruta,
-en conformidad a la lei de 30 de Agosto de 1857. Dicha pension
-le será pagada por la Tesorería Fiscal de Valparaiso, por mensua-
-lidades iguales i vencidas.
-La misma Tesorería devolverá al señor Rudolph la suma de
-treinta pesos ($ 30), que depositó para responder al exámen mé-
-dico-legal. Impútese el gasto al ítem 2281, partida 13, del Pre-
-supuesto de Instruccion Pública vijente. Refréndese en confor-
-midad al inciso 5.º del artículo 14 de la Lei de 16 de Setiembre
-de 1884.—(Firmado).—SANFUENTES.—Alcibíades Roldan.
+```markdown
+522 
+BOLETIN DE INSTRUCCION PÚBLICA 
+petir las pruebas de la Licenciatura en Leyes, ántes de terminar 
+el plazo reglamentario. 
+Se levantó la sesion. 
+DOMINGO AMUNÁTEGUI SOLAR. 
+Octavio Maira, 
+: 
+» 
+Secretario Jeneral. 
+ANEXO 
+DocuMENTOS LEIDOS EN LA SESION 
+Santiago, 5 de Octubre de 1918. 
+N.o 3857.—DECRETO: 
+Concédese a don Cárlos Rudolph, Rector 1 profesor del Liceo 
+de Hombres de Valparaiso, la jubilacion que solicita, con el go- 
+ce de una pension de nueve mil ochocientos veintitres 
+pesos 
+setenta centavos ($ 9,823.70) anuales, suma equivalente a las 
+veintinueve cuarentavas partes del sueldo de trece mil quinien- 
+tos 
+cincuenta pesos ( $ 13,550) 
+de que actualmente disfruta, 
+en conformidad a la lei de 30 de Agosto de 1857. Dicha pension 
+le será pagada por la Tesorería Fiscal de a por mensua- 
+lidades 
+iguales i vencidas. 
+La misma Tesorería devolverá al señor Rudolph la suma de 
+treinta pesos ($ 30), que depositó para responder al exámen mé- 
+dico-legal. Impútese el gasto al ítem 2281, partida 13, del Pre- 
+supuesto de Instruccion Pública vijente. Retréndese en confor- 
+midad al inciso 5.9 del artículo 14 de la Lei de 16 de Setiembre 
+de 1884.-—(Firmado).—SANFUENTES.—A 
+leibíades Roldan. 
+7
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 237
 
 ## Page Metadata
-- Page number: 523
-- Source publication: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- Document type: Official correspondence/decrees
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json`
+- Source page: 237
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/page-images/page-0237.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a series of official communications or decrees, arranged chronologically by date of issue, in a single column layout.
 
-1.  **Header:** A session date and a page number are at the top.
-2.  **First Document (Decree):** Begins with a date, a decree number, and title, followed by the body of the decree and signatures.
-3.  **Second Document (Letter):** Starts with a date, followed by the body of a letter and a signature.
-4.  **Third Document (Letter, incomplete):** Begins with a number and a date, followed by the recipient and the start of the letter's body, which is cut off at the bottom of the page.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-SESION DE 21 DE OCTUBRE DE 1918 523
 
-Santiago, 14 de Octubre de 1918.
-
-N.º 3961.—DECRETO:
-
-Acéptase la renuncia que hace don Pedro N. Montenegro del
-cargo de miembro del Consejo de Instruccion Pública; i nóm-
-brase para que sirva dicho cargo, por un período legal, a don
-Julio Prado Amor.—(Firmado).—SANFUENTES.—Alcibiades Rol-
-dan.
-
-Santiago, 19 de Octubre de 1918.
-
-Tengo la honra de acusar recibo de la nota de Ud. de 14 del
-actual, en la que Ud. se sirve comunicarme que la Universidad
-de Chile, reunida en Claustro Pleno, el 13 del que rije, acordó
-por unanimidad reelejirme para ocupar el cargo de miembro
-del Consejo de Instruccion Pública, durante el próximo cua-
-drienio.
-
-Al agradecer a la Universidad en la persona de Ud. el alto
-honor con que me ha distinguido, ruego a Ud. espresar al Conse-
-jo, si lo tiene a bien, que procuraré cooperar a sus importantes
-trabajos en la forma mas eficiente que me sea posible.—(Firma-
-do).—ARMANDO QUEZADA A:
-
-N.º 73 Santiago, 16 de Octubre de 1918.
-
-Señor Rector:
-Tengo el gusto de acusar a Ud. recibo de nota N.º 486 en que
-me comunica que el H. Consejo en sesion de 7 del que rije acor-
+```markdown
+SESION DE 21 DE OCTUBRE DE 1918 
+523 
+- 
+Santiago, 14 de Octubre de 1918. 
+-N.9 3961.—DECRETO: 
+-Acéptase la renuncia que hace don Pedro N. Montenegro del 
+8 cargo de miembro del Consejo de Instruccion Pública; 1 nóm- 
+-—brase para que sirva dicho cargo, por un período legal, a don 
+- Julio Prado Amor. —(Firmado).—SANFUENTES.— Alcibíades Rol- 
+dan. 
+¿5 
+da 
+. 
+Santiago, 
+19 de Octubve de 1918 
+Tengo la honra de acusar recibo de la nota de Ud. de 14 del 
+actual, en la que Ud, se sirve comunicarme que la Universidad 
+- de Chile, reunida en O Pleno, el 13 del que rije, acordó 
+del learacjo de Instruccion Pta durante el próximo cua- 
+- drienio. 
+a 
+- Al agradecer a la Universidad en la “persona de Ud. el alto 
+n y 
+pe enor con que me ha distinguido, ruego a Ud. espresar al Conse- 
+Eo jo, si lo tiene a bien, que procularé cooperar a sus importantes 
+trabajos en la forma mas eficiente que me sea posible. —(Firma- 
+do). —ARMANDO QUEZADA 
+A. 
+: 
+- 
+o N.o 73 
+Santiago, 
+16 de Octubre 
+de 
+1918. 
+Senor “Rector: 
+E 
+7 
+Tengo el gusto de acusar a Ud. recibo de nota N.0 486 en que 
+[me comunica que el H. Consejo en sesion de 7 del que rije acor- 
 dó que los profesores contratados o en propiedad de las cátedras
+```
 
 ## Images, Captions, And Visual Notes
-There are no substantial images or captions on this page. Short horizontal lines serve as decorative separators between documents.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-- The last name "Roldan" in the first document is partially visible as "Rol-" at the end of a line, with "dan" on the next line, suggesting the full name "Roldan".
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete for the visible content of the page. The final document on the page is cut off mid-sentence at the bottom of the physical page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for extraction."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 238
 
@@ -1300,130 +1468,197 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Page Metadata
-Page number: 527
-
-## Layout And Reading Order
-The page contains text in a single column. It starts with a heading and page number, followed by a paragraph of text and a date. A horizontal rule separates this section from the next. The second section begins with another heading, followed by a paragraph describing attendees of a session, and then two lists of names under subheadings "Farmacéuticos" and "Licenciados en Medicina i Farmacia".
-
-## Literal Transcription
-SESION DE 14 DE OCTUBRE DE 1918 527
-
-acercarse, probablemente a la verdad. Así es como procede la
-Academia Francesa, que está encargada de distribuir mas de
-ciento cincuenta premios. Entre nosotros la dificultad será mu-
-cho menor, porque el número de producciones es escaso. Si lle-
-gara a resolverse que la Universidad no tiene capacidad para
-aceptar el legado he dispuesto que pase esa asignacion a los
-pobres, al cual fin nombro verdaderos albaceas fiduciarios.—
-(Firmado).—M. MARTÍNEZ.
-
-Agosto 20 de 1913.
-
----
-
-Sesion de 28 de Octubre de 1918
-
-Fué presidida por el señor Rector de la Universidad don Do-
-mingo Amunátegui Solar, asistieron los señores Consejeros Amu-
-nátegui Solar don Gregorio, Barros Borgoño, Concha Castillo.
-Espejo, Matte, Prado Amor, Quezada, Rücker, Salas Lavaqui,
-Schmidt, i el señor Secretario Jeneral don Octavio Maira.
-Previas las formalidades reglamentarias i el juramento re-
-querido, el señor Rector de la Universidad confirió los siguientes
-títulos i grados:
-
-Farmacéuticos:
-
-a don Oscar Pérez Barrera; i
-doña Carmela Tapia Carrasco.
-
-Licenciados en Medicina i Farmacia:
-
-a don Agustín Andrade Salgado,
-» Alberto Caballero Geisse,
-» Osvaldo Correa Cortes,
-» Fernando Delbés Martínez
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None. All text is clearly legible.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+# Page 241
 
 ## Page Metadata
-- Page number: 528
-- Source type: book
-- Language: es
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json`
+- Source page: 241
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/page-images/page-0241.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page is a single column of printed text. The reading order is from top to bottom. The page begins with the page number and a header. Below the header are lists of names categorized under specific academic titles.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```text
-528 BOLETIN DE INSTRUCCION PÚBLICA
----
-» Baldomero Fernández Segura,
-» Ricardo Fonck Andersen,
-» José M. de la Fuente Fuente,
-» Luis A. Pavon Ruiz,
-doña Ernestina Peña Díaz,
-don Juvenal Pozo Zepeda,
-» Manuel Matus Hermosilla,
-» Humberto Núñez Zamora,
-» Daniel Yáñez Garrido; i
-» J. Alberto Santander Leiva.
 
-*Licenciados en Leyes i Ciencias Políticas:*
-
-a don Alberto González Díaz,
-» César de la Cruz Munizaga; i
-» Luis Várgas Bello.
-
-*Bachilleres en Leyes i Ciencias Políticas:*
-
-a don Ignacio Arancibia Miño,
-» Emilio Belmonte Pool,
-» Miguel Luis Bustos Arellano,
-» Luis García Domínguez,
-» Luis Parot Rodríguez,
-» J. Domingo Peña Viel,
-» Lorenzo Sazie Herrera,
-» Miguel Anjel Urzúa Ravanal; i
-» Néstor Valdes Fuentes.
-
-*Bachilleres en Matemáticas:*
-
-a don Eduardo Arrau Alliende,
-» Alfonso Campusano Núñez,
-» Guillermo Tornero Baeza; i
-» René del Rio Gundian.
+```markdown
+SESION DE 14 DE OCTUBRE DE 1918 
+597 
+- acercase, probablemente a la verdad. Así es como procede la 
+Academia Francesa, que está encargada de distribuir mas de 
+ciento cincuenta premios. Entre nosotros la dificultad será mu- 
+- cho menor, porque el número de producciones es escaso. Si lle- 
+gara a resolverse que la Universidad no tiene capacidad para 
+aceptar el legado he dispuesto que pase esa asignacion a los 
+pobres, al cual fin nombro verdaderos albaceas fiduciarios.— 
+- (Firmado). —M. MARTÍNEZ. 
+Agosto 20 de 1915. 
+Sesion de 28 de Octubre de 1918 
+Fué presidida por el señor Rector de la Universidad don Do- 
+mingo Amunátegui Solar, asistieron los señores Consejeros Amu- 
+nátegui Solar don Gregorio, Barros Borgoño, Concha Castillo. 
+, Espejo, Matte, Prado Amor, Quezada, Riicker, Salas Lavaqui, 
+Schmidt, 1 el señor Secretario Jeneral don Octavio Maira. 
+Previas las formalidades reglamentarias 1 el juramento 
+re- 
+querido, el señor Rector de la Universidad confirió los siguientes 
+3 títulos i grados: 
+Farmacéuticos: 
+a don Oscar Pérez Barrera; 1 
+doña Carmela Tapia Carrasco. 
+RAE 
+- 
+Licenciados en 
+Medicina 1 Farmacia: 
+a don Agustin Andrade Salgado, 
+» 
+Alberto Caballero Geisse, 
+» 
+Osvaldo Correa Cortes, 
+» 
+Fernando Delbés Martínez 
+Ú
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other visual elements on this page. The page consists entirely of printed text.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible parts of this page.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-This page has been transcribed in its entirety.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only printed text with no illustrations, photographs, or other significant visual elements."
-}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 242
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json`
+- Source page: 242
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/page-images/page-0242.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+| 
+A 
+BOLETIN DE INSTRUCCION PÚBLICA 
+» 
+Baldomero Fernández Segura, 
+» 
+Ricardo Fonck Andersen, 
+» 
+José M. de la Fuente Fuente, 
+» 
+Luis A. Pavon Ruiz, 
+doña Ernestina Peña Díaz, 
+don Juvenal Pozo Zepeda, 
+» 
+Manuel Matus Hermosilla, 
+» 
+Humberto Núñez Zamora, 
+» 
+Daniel Yáñez Garrido; 1 
+» 
+ J. Alberto Santander Leiva. 
+Licenciados en Leyes 1 Ciencias Políticas: 
+a don Alberto González Díaz, 
+» 
+César de la Cruz Munizaga; 1 
+» 
+Luis Várgas Bello. 
+Bachilleres en Leyes 1 Ciencias Políticas: 
+a don Ignacio Arancibia Miño, 
+¿3 
+» 
+Emilio Belmonte Pool, 
+» 
+Miguel Luis Bustos Arellano, 
+» 
+Luis García Domínguez, 
+» 
+Luis Parot Rodríguez, 
+» 
+ J. Domingo Peña Viel, 
+» 
+Lorenzo Sazie Herrera, 
+» 
+Miguel Anjel Urzúa Ravanal; 1 
+» 
+Néstor Valdes Fuentes. 
+Bachilleres en Matemáticas: 
+a don Eduardo Arrau Alliende, 
+» 
+Alfonso Campusano Núñez, 
+» 
+Guillermo Tornero Baeza; 1 
+» 
+René del Rio- Gundian.
 ```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 243
 

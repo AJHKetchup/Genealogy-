@@ -1,0 +1,100 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-5a8bf119edb4-P0564-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0554-0578-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-554-578.codex.md
+converted_sha256: 5a8bf119edb45698f27298636b6b3b4352f4bf260366c978662317daa686abe9
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0554-0578-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-554-578/manifest.json
+page_start: 564
+page_end: 564
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0554-0578-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-554-578/manifest.json`
+- Source page: 564
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0554-0578-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-554-578/page-images/page-0564.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+172 
+BOLETIN DE INSTRUCCION PÚBLICA 
+Santiago, 31 de Mayo de 1918. 
+N.o 1,261.—Decreto: 
+Nómbranse 
+a las siguientes personas, 
+propuestas por el Rector de la Universidad, para que sirvan 
+en propiedad, en el Liceo de Hombres de Concepcion, los em=- 
+- 
+pleos que se indican: A don Pedro Gigoux, profeso: de Estado, - 
+para que sirva el puesto de profesor de Ingles, con doce horas 
+semanales de clase, 1al Presbítero don Miguel Alvear, para que 
+- 
+sirva el puesto de profesor de Relijion, con dieciseis horas se- 
+| 
+manales de clases. 
+(Firmado).—SANFUENTES. 
+P. Aguirre Cerda. 
+Santiago, 31 de Mayo de 1918. 
+N.o 1,263.—Decreto: Nómbrase a don Arcadio Ducoing, pro= 
+puesto por el Rector de la Universidad, para que sirva interi- 
+namente 
+el empleo de profesor de Castellano en el Instituto 
+- 
+Pedagójico. 
+; 
+(Firmado).—SANFUENTES. 
+P. Aguirre Cerda. 
+Santiago, 4 de Junio de 1918. 
+N.2 1,266. —Decreto: Créanse, a contar desde el 1.2 de Julio 
+próximo, los siguientes cursos ausiliares en los establecimientos Y 
+que se 
+indican: Una primera 
+preparatoria en 
+el Liceo José 
+Victorino Lastarria; i una segunda preparatoria en el Liceo de 
+hombres de Iquique; un primer año de humanidades en el L
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 565

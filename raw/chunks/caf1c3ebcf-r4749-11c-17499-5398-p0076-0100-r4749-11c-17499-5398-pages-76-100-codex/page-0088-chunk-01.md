@@ -1,0 +1,103 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-eea422b9c750-P0088-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0076-0100-r4749-11c-17499-5398-pages-76-100.codex.md
+converted_sha256: eea422b9c7506c737314cb30ba3ae6616322db7e3d641217bc7f1723ee3634a0
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0076-0100-r4749-11c-17499-5398-pages-76-100/manifest.json
+page_start: 88
+page_end: 88
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0076-0100-r4749-11c-17499-5398-pages-76-100/manifest.json`
+- Source page: 88
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0076-0100-r4749-11c-17499-5398-pages-76-100/page-images/page-0088.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+- 3
+-
+///
+CAPITULO II
+De la organizacidn del tribunal
+Art.
+5?- Los tribunales para menores serân unipersonales
+y estarân a cargo de jueces letrados,
+que deberân reunir las
+mismas condiciones exigidas por las leyes para los jueces or
+dinarios,
+tener por lo menos 30 anos de edad y poseer especia
+les conocimientos en la materia.- Su nombramiento y remocidn
+se harâ conforme lo dispone la Constituciôn y las leyes para
+los
+demâs jueces.-
+Art.
+69- Cada tribunal tendra
+como auxiliares
+a los si
+guientes funcionarios y empleados:
+4 Secretarios abogados
+o escribanos;
+1 Inspector general de libertad vigilada;
+1 Subsecretario;
+5 Oficiales primeros;
+5 Auxiliares;
+5 Escribientes;
+15 Inspectores de libertad vigilada;
+1 Ordenanza.-
+Art.
+7?- Ademâs del personal mencionado
+en el articulo
+anterior, prestarân servicios en los diversos tribunales pa
+ra menores:
+2 Médicos especialistas
+en psico-pedagogla;
+1 Asesor de menores;
+2 Agentes fiscales.—
+///
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 89

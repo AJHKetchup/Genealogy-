@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-c8f91e3920e7-P0045-01
+chunk_id: CHUNK-35a5efe98726-P0045-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63.codex.md
-converted_sha256: c8f91e3920e7120d60667772aaeaf534dcac820cde34163e5cf2b7c11d331c64
+converted_sha256: 35a5efe987269d5b6e0ce3651b5f58fefb97989e75409ecdb607ea9b497f0272
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63/manifest.json
@@ -32,42 +32,42 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ```markdown
 ## Señor Arias, Virjinio
 
-- Aylwin,  Miguel 》
-- Barceló Lira, Luis 》
+- Aylwin,  Miguel
+- Barceló Lira, Luis
 - Benavente, David
-- Briggen, Juan 》
+- Briggen, Juan
 - Coll  1 Pi,  Antonio
-- Corbalán Melgarejo,  Ramón. 》
-- Del Canto, Hermójenes 《
-- Díez,  Antonio 》
-- Ducci, José 》
+- Corbalán Melgarejo,  Ramón.
+- Del Canto, Hermójenes
+- Díez,  Antonio
+- Ducci, José
 - Ducoing, Arcadio
-- Espejo, Juan N.: 《
+- Espejo, Juan N.:
 - Forteza, José
 - Gajardo, Maximilizno
-- González, Simón 》
-- Guerra J., Guillermo 》
-- Hanssen, Federico 《
+- González, Simón
+- Guerra J., Guillermo
+- Hanssen, Federico
 - Heymanssen, Róbinson
-- Koeting, Berthold 》
-- Kónig, Ahraham 《
-- Korner, Víctor 》
+- Koeting, Berthold
+- Kónig, Ahraham
+- Korner, Víctor
 - Lastarria, Wáshington
 - Lenz, Rodolfo
-- Letelier, Valentín 《
-- Lillo  Figueroa,  Samuel  A. 《
-- . Mac-Iver, Enrique 《
-- Maira,  Manuel  A.  . 》
-- Maira, Octavio 《
-- \_Malsch, Carlos 》
-- Manterola, Benjamín 《
-- Martner, Daniel 《
-- Matta  Viel,  Enrique 《
-- Medina, José  Toribio 》
+- Letelier, Valentín
+- Lillo  Figueroa,  Samuel  A.
+- . Mac-Iver, Enrique
+- Maira,  Manuel  A.  .
+- Maira, Octavio
+- \_Malsch, Carlos
+- Manterola, Benjamín
+- Martner, Daniel
+- Matta  Viel,  Enrique
+- Medina, José  Toribio
 - Melo Peña, Abraham.
 - Molina, Evaristo
 - Montebruno López, Julio
-- Montero Rodríguez, Juan  E. 》
+- Montero Rodríguez, Juan  E.
 - Montessus de  Ballore, Fernando
 - Moore, Eduerdo
 ```

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-4ee7799a050a-P0021-01
+chunk_id: CHUNK-f24045d4bb2f-P0021-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25.codex.md
-converted_sha256: 4ee7799a050a5584f2402cc37bba68cded884f95ec1d80c7ec40a912b19140b4
+converted_sha256: f24045d4bb2f169f13e52b86ddaf4f3e199112561804bed61d7645f8520e6215
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/manifest.json
@@ -12,77 +12,144 @@ part: 1
 ---
 
 ## Page Metadata
-Page number: 21
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/manifest.json`
+- Source page: 21
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/page-images/page-0021.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a list of countries, each followed by a list of individuals associated with that country. The names are generally presented in a two-column format, with some countries having only one name listed or a more complex multi-name line. The page header includes a session date and a page number.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-SÉANCE DU 2 JUILLET 1920 3
 
-FINLANDE :
-Le Lieutenant-Colonel A. E. MARTOLA, M. H. G. LAVONIUS.
-
-FRANCE :
-M. le Médecin Général Inspecteur MAROTTE.
-
+```markdown
+Séance
+du
+2 Juillet 1929
+3
+FINLANDE
+:
+Le Lieutenant-Colonel A. E. Martola,
+M. H.
+G. Lavonius.
+FRANCE
+:
+M.
+le
+Médecin
+Général Inspecteur Marotte.
 GRANDE-BRETAGNE :
-Le Très Honorable Sir Horace RUMBOLD, M. G. R. WARNER,
-Le Colonel J. H. MACKENZIE, M. W. STRANG.
-
-GRÈCE :
-M. Raphael RAPHAEL,
-Le Lieutenant-Colonel Sophocle VENIZELOS, M. Dimitri BIKELAS.
-
-HONGRIE :
-S. E. M. Paul de HEVESY, Le Médecin Colonel Alexandre KLEIN.
-
-INDE :
-Le Colonel J.C. MAC KENNA.
-
-ÉTAT LIBRE D'IRLANDE :
-M. Sean LESTER.
-
-ITALIE :
-M. le Sénateur Giovanni CIRAOLO,
-Le Lieut.-Colonel Mario PERUZZI, Le Major Médecin Antonio BASILE.
-
-JAPON :
-S. E. M. Isaburo YOSHIDA, Le Lieutenant-Colonel Sadamu SHIMOMURA.
-Le Capitaine de Frégate Seizo MIURA, M. Yoshiharu KAMBAYASHI,
-M. Akira MATSUDA, M. Tokuji AMAGI, Le Vicomte Seiitchi MOTONO.
-
-LETTONIE :
-S. E. M. Charles DUZMANS, S. E. M. Oskar VOIT.
-
-LUXEMBOURG :
-M. Ch. VERMAIRE.
-
-MEXIQUE :
-S. E. M. Francesco CASTILLO NAJERA, Le Colonel Oton LEON.
-
-NICARAGUA :
-M. Antoine SOTTILE.
-
-NORVÈGE :
-S. E. M. Johannes IRGENS, Le Commandant J. C. MEINICH.
-
-NOUVELLE-ZÉLANDE :
-M. S. G. RAYMOND, Le Major C.H. MEAD.
-
-PAYS-BAS :
-M. G. VAN SLOOTEN, Le Major-Général J. C. DIEHL.
+Le Très Honorable Sir Horace Rumbold,
+M. G. R. Warner,
+Le Colonel J. H. Mackenzie,
+M. W. Strang.
+1
+GRÈCE
+:
+M. Raphael Raphael,
+Le Lieutenant-Colonel Sophocle Venizelos,
+M. Dimitri Bikelas.
+HONGRIE
+:
+S.
+E. M. Paul de Hevesy,
+Le Médecin Colonel Alexandre Klein.
+INDE
+:
+Le Colonel J.C. Mac- Kenna.
+ÉTAT
+LIBRE
+D'IRLANDE
+:
+M.
+Sean Lester.
+ITALIE
+:
+M. le Sénateur Giovanni Ciraolo,
+Le Lieut.-Colonel Mario Peruzzi,
+-
+Le Major Médecin Antonio Basile.
+JAPON
+:
+S. E. M. Isaburo Yoshida,
+Le Lieutenant-Colonel Sadamu Shimomura.
+Le Capitaine de Frégate Seizo Miura,
+M. Yoshiharu Kambayashi,
+M. Akira Matsuda,
+M. Tokuji Amagi,
+Le Vicomte Seiitchi Motono.
+LETTONIE
+:
+S.
+E.
+M.
+Charles Duzmans,
+S.
+E.
+M.
+Oskar Voit.
+LUXEMBOURG
+:
+M. Ch. Vermaire.
+MEXIQUE
+:
+S. E. M. Francesco Castillo Najera,
+Le Colonel Oton Leon.
+NICARAGUA
+:
+M.
+Antoine Sottile.
+NORVÈGE
+:
+S.
+E.
+M. Johannes Irgens,
+Le Commandant J.
+C. Meinich.
+NOUVELLE-ZÉLANDE
+:
+M. S. G. Raymond,
+Le Major C.H. Mead.
+PAYS-BAS
+:
+M.
+G. van Slooten,
+Le Major-Général J. C. Diehl.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 22

@@ -1562,62 +1562,104 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 60
+
 ## Page Metadata
-Page number: 56
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json`
+- Source page: 60
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/page-images/page-0060.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a single column of text, starting with a paragraph, followed by several more paragraphs, and concluding with a formal closing and a signature. The page number "— 56 —" is centered at the top.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 56 —
-
-goría, ello responde a las costumbres ya implantadas por los
-cargadores en cuanto al estado de esos frutos al tiempo de
+```markdown
+— 56
+~
+gorîa, ello responde
+a las costumbres ya implantadas por los
+cargadores
+en
+cuanto al estado
+de
+esos frutos al tiempo de
 iniciar los transportes, lo que permite una tolerancia de mayor
-plazo, como lo prueba la implantación y uso de tarifas espe-
-ciales vigentes aplicables con el 50 % de mayor plazo al de
-la tabla del artículo 349 anterior, equivalente al nuevo artícu-
+plazo,
+como lo prueba la implantaciôn y uso de tarifas espe-
+eiales vigentes aplicables
+con el 50 %
+de mayor plazo al de
+la tabla del artîeulo 349 anterior, équivalente al nuevo artîcu-
 lo 366.
-
-Las demás disposiciones particulares del artículo 247 pro-
-yectadas por esta Comisión, se explican de por sí y deter-
-minan la adaptación de esos transportes a las modalidades
-impuestas por la práctica y los hechos.
-
-Como complemento de la reforma es indispensable la sanción
-por Decreto de la lista de clasificaciones adjunta, evitándose
-con ello motivos de controversia y pleitos entre cargadores y
+Las demâs disposiciones particulares
+del artîeulo
+247 pro-
+yectadas
+por
+esta Comisiôn,
+se explican
+de
+por sî
+y
+deter-
+minan la adaptation
+de
+esos transportes
+a las
+modalidades
+impuestas por la prâctica y los hechos.
+Como complemento de la reforma es indispensable la sancion
+por Decreto de la lista de clasificaeiones adjunta, evitândose
+con ello motivos de eontroversia y pleitos entre cargadores y
 empresas.
-
-Se aconseja este temperamento para seguir la práctica esta-
-blecida y por cuanto su inclusión en el Reglamento de Ferro-
-carriles, resultaría inconveniente para los casos de inclusiones
-o exclusiones que a gestión de parte o de oficio, pudieran resol-
-verse más adelante.
-
-Dios guarde a V. E.
-
-M. García Torre.
+Se aconseja este temperamento para seguir la prâctica esta-
+blecida y por cuanto su inclusion
+en el Reglamento de Ferro-
+carriles, resultarîa inconveniente para los casos de inclusiones
+o exclusiones que a gestion de parte o de oficio, pudieran resol-
+verse
+mas adelante.
+Dios guarde
+a Y. E.
+M. Garcia Torre.
+```
 
 ## Images, Captions, And Visual Notes
 
-The page contains no images or captions.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-No uncertain or illegible text.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 61
 
@@ -1832,76 +1874,79 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 63
+
 ## Page Metadata
-Page number: 63
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json`
+- Source page: 63
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/page-images/page-0063.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a main content area with a page number centered at the top. The main content consists of several numbered paragraphs and articles, followed by a closing signature block. A narrow, partial column of text is visible along the left edge of the page, indicating it's a continuation from a previous page or column. The reading order is top-to-bottom, left-to-right, starting with the page number, then the left marginal text, then the main body text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 59 —
-
-4° Los pisos y paramentos de los vagones para animales de-
-berán ser construídos de manera que unidos por sus ex-
-tremidades abiertas a los efectos de la carga, no presenten
-solución de continuidad de más de cinco centímetros, que-
+```markdown
+—
+59
+—
+49
+Los pisos y paramentos de los vagones para animales de-
+berân
+ser construîdos de manera que unidos por sus ex-
+tremidades abiertas a los efectos de la earga, no presenten
+solueiôn de eontinuidad de mas de cinco centîmetros, que-
 dando absolutamente prohibido a las empresas el uso de
-tablas sueltas de unión u otros objetos que no estén per-
+tablas sueltas de union u otros objetos que no estén per-
 fectamente asegurados.
-5° Los vagones que en adelante se construyan para el trá-
-fico de ganado deberán serlo con arreglo a los requisitos
-exigidos en este artículo, y se asentarán sobre bogies u
-otro sistema de suspensión equivalente, aceptado por la
-Dirección General de Ferrocarriles.”
-
-Art. 3°—La Dirección General de Ferrocarriles procederá a
-la revisión del Reglamento de Medidas Unitarias para el tren
-rodante de los Ferrocarriles Nacionales, sometiendo a conside-
-ración del Poder Ejecutivo las conclusiones a que arribe.
-Art. 4°—Publíquese, tómese conocimiento a sus efectos por la
-Dirección General de Ferrocarriles y archívese.
-
+5Ç
+Los vagones que en adelante se construyan para el trâ-
+fico de ganado deberân serlo con arreglo a los requisites
+exigidos en este artîculo, y se asentarân sobre bogies u
+otro sistema de suspension équivalente, aceptado por la
+Direcciôn General de Ferrocarriles.”
+Art. 3°—La Direcciôn General de Ferrocarriles procédera a
+la revision del Reglamento de Medidas Unitarias para el tren
+rodante de los Ferrocarriles Nacionales, sometiendo a' conside-
+raciôn del Poder Ejecutivo las conclusiones a que arribe.
+Art. 49—Publîquese, tômese conocimiento a sus efectos por la
+Direcciôn General de Ferrocarriles y archîvese.
 JUSTO.
-M. R. ALVARADO.
-
-**Left Marginal Text:**
-para
-o pú-
-cluir
-“Re-
-tren
-eberá
-neral
-dispo-
-cual-
-e de
-nes”
-nte:
-berá
-ala-
-fácil
-las
-sin
-los
-pes
-con
-de
-ren
-aso
-to-
-les.
+M. R. Alvarado.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page, including the page number, main body text, and the partial left marginal column, has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets. The page contains only text."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -140,75 +140,107 @@ All visible text on the page, including the partial text in the right margin, ha
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets."}
 
+# Page 66
+
 ## Page Metadata
-Page number: 66
-Original page number: 63
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json`
+- Source page: 66
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/page-images/page-0066.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page presents a single column of text, structured with a main title, a subtitle, a chapter heading, and several section and sub-section headings, followed by numbered articles. There are also two lines of marginal text on the left side of the page. The content flows from top to bottom.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```
-— 63 —
-
-TÍTULO I
-
-Explotación técnica
-
-CAPÍTULO I
-
-FUNCIONES Y DEBERES DEL PERSONAL.
-
-Número y distribución del personal
-de explotación.
-
-Artículo 1º — Toda empresa deberá tener en las estaciones,
-en los trenes y en todo el trayecto del camino, de día y de
-noche, desde que empiece hasta que termine el movimiento
-diario, el número de empleados necesarios para que el servicio
-se preste con regularidad y sin tropiezo, ni peligros de acci-
+```markdown
+—
+63
+—
+TÎTULO
+I
+Explotaciân técnica
+CAP1TUL0
+I
+FUNCIONES
+Y
+DEBERES
+DEL PERSONAL
+Numéro y distribucion del personal
+de explotaciân.
+Artîculo l9 — Toda empresa deberâ tener en las estaciones,
+en los trenes y en todo el trayeeto del camino, de dia y de
+noche,
+desde
+que empiece hasta
+que termine el movimiento
+diario, el numéro de empleados necesarios para que el servicio
+se preste
+eon regularidad y sin tropiezo, ni peligros de acci¬
 dentes. (Ley, art. 11.)
-
 Idoneidad del personal. Responsabi-
-lidad de las empresas por actos de
+lidad de las
+empresas por actos de
 sus empleados.
-
-Art. 2º — Es deber de las empresas velar por que todos sus
-empleados sean diligentes e idóneos. Su responsabilidad hacia
-los pasajeros y cargadores, por daños resultantes de faltas de
-aquéllos, se extiende a todos los actos ejecutados en el des-
-empeño de sus funciones. (Ley, art. 65.)
-
+Art. 29 — Es deber de las empresas velar por que todos sus
+empleados sean diligentes
+e idôneos.
+Su responsabilidad hacia
+l°s pasajeros y cargadores, por danos résultantes de faltas de
+aquéllos,
+se extiende
+a todos los
+actos ejecutados
+en el des-
+empeno de sus funciones. (Ley, art. 65.)
 Acatamiento debido por el personal
-a las órdenes de sus superiores.
-
-Art. 3º — Los empleados deberán acatar de inmediato las
-órdenes que reciban de sus superiores, pudiendo plantear des-
-pués ante las autoridades de la empresa respectiva, con re-
-curso ante la Dirección General de Ferrocarriles, las reclama-
-```
-
-**Marginalia (left side):**
-```
-gs. 210
-gs. 211
+a las ordenes de sus superiores.
+Art.
+39— Los empleados deberân acatar de inmediato
+las
+ordenes que reciban de sus superiores, pudiendo plantear dés¬
+ignés
+ante las autoridades de la
+empresa respectiva,
+con
+re-
+°nrso ante la Direcciôn General de Ferrocarriles, las réclama-
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or significant visual notes on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page, including marginalia, has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 67
 
@@ -595,166 +627,217 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 70
+
 ## Page Metadata
-- Page number: 67
-- Source: `Cámara de Senadores de la Nación, 1936.pdf`
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json`
+- Source page: 70
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/page-images/page-0070.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page features a central column of text with a page number at the top center. On the left side, there is a narrow column of text, likely a continuation from the previous page, running vertically alongside the main content. The main content consists of headings, subheadings, and numbered articles.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```
-                                    — 67 —
-
-                                Jornada y condiciones de trabajo
-                                        del personal.
-
-        Art. 15. — La jornada y condiciones de trabajo del personal
-        se ajustará a lo que establezcan las leyes vigentes y sus re-
-        glamentaciones.
-
-                                Empleados de guardia en las esta-
-                                        ciones.
-
-        Art. 16. — Terminado el movimiento ordinario en una esta-
-        ción, quedarán en su puesto los empleados necesarios para dar
-        cumplimiento a las prescripciones del Reglamento sobre se-
-        guridad de los trenes.
-
-                                Personal de los coches dormitorios.
-
-        Art. 17. — Cada salón dormitorio deberá tener un camarero
-        especialmente afectado a su servicio, salvo casos extraordina-
-        rios o autorización de la Dirección General de Ferrocarriles.
-
-                                Deber del personal de facilitar la
-                                instrucción de sumarios a los ins-
-                                pectores nacionales.
-
-        Art. 18. — Los empleados de las empresas tendrán la obli-
-        gación de prestar todas las declaraciones pedidas por el Ins-
-        pector Nacional, debiendo la empresa facilitarle el desempeño
-        de sus funciones por todos los medios que estuvieran a su
-        alcance y exhibirle todos los documentos relativos al objeto
-        de su investigación. (Ley, art. 73.)
-        .
-```
-
-**Left Marginal Text:**
-```
-ndrá
-obli-
-licía.
-
-es o
-
-iones
-mas,
-jefe
-rres-
-
-dad,
-orpe
-
-onen
-eñen
-tor-
-ades
-digo
-
-s de
+```markdown
+—
+67
+—
+Jornada
+y
+condicîones
+de trabajo
+del personal.
+Art. 15. — La jornada y condicîones de trabajo del personal
+se ajustarâ
+a lo
+que establezcan las leyes vigentes y sus re-
+glamentaciones.
+Empleados de guardia en las esta-
+ciones.
+Art. 16. — Terminado el movimiento ordinario
+en una esta-
+cion, quedarân en su puesto los empleados necesarios para dar
+cumplimiento
+a las prescripciones
+del Reglamento sobre
+se-
+gnridad de los trenes.
+Personal de los coches dormitorios.
+Art. 17. — Cada salon dormitorio deberâ tener un camarero
+especialmente afectado
+a su servicio, salvo casos extraordina-
+rios
+o autorizaciôn de la Direccion General de Ferrocarriles.
+Deber
 del
-
-lose
-con-
-e. —
-la
-úti-
-on-
-
-irá
-en,
+personal
+de facilitar la
+instruccion
+de
+sumarios
+a los ins-
+pectores nacionales.
+Art.
+18. — Los empleados de las empresas tendrân la obli¬
+gation de prestar todas las declaraciones pedidas por el Ins¬
+pector Nacional, debiendo la empresa facilitarle el desempeno
+de
+sus funciones
+por todos los medios
+que estuvieran
+a
+su
+alcance y exhibirle todos los documentes relativos al objeto
+de su investigation. (Ley, art. 73.)
 ```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page, including the page number, main content, and marginalia, has been transcribed.
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present on the page."}
-```
+# Page 71
 
 ## Page Metadata
-Page number: 71
-Original page number: 68
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json`
+- Source page: 71
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/page-images/page-0071.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single-column layout with a page number at the top center. It contains a main chapter heading, a section heading, and several sub-headings, followed by numbered articles with their respective text. The sub-headings are right-aligned, while the main headings are centered. The text within the articles is justified.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 68 —
-
-CAPÍTULO II
-
-FORMACIÓN Y MARCHA DE LOS TRENES
-
-Composición de trenes y depósitos
-de vehículos en la línea.
-
-Art. 19.—Todo convoy de pasajeros deberá componerse de
-un número suficiente de vehículos de cada clase, establecién-
-dose, al efecto, en diversos puntos de la línea, depósitos de
-coches donde puedan completarse los trenes, cuando así lo
-exija el mejor servicio público.
-La Dirección General de Ferrocarriles podrá autorizar la
-corrida de trenes de horario y especiales con vehículos de una
-clase o más.
-
-Depósitos de locomotoras de reser-
-va o auxilio.
-
-Art. 20.—Las empresas estarán obligadas a tener en los
-puntos de la línea, donde el servicio lo exija, locomotoras de
-reserva o de auxilio, listas para prestar servicio.
-
-Formación de los trenes de pasa-
+```markdown
+I
+68
+—
+CAP1TUL0
+II
+FORMACIÔN
+Y MARCHA
+DE
+LOS TRENES
+Composiciôn de trenes
+y depôsitos
+de vehîculos
+en la lînea.
+Art. 19. — Todo convoy de pasajeros deberâ componerse de
+un numéro suficiente
+de vehîculos de eada clase, establecién-
+dose, al efecto,
+en diversos puntos de la lînea, depôsitos de
+coches
+donde
+puedan eompletarse
+los
+trenes,
+cuando
+asî
+lo
+exija el mejor servicio publico.
+La Direcciôn
+General
+de Ferrocarriles podrâ autorizar la
+corrida de trenes de horario y especiales con vehîculos de una
+clase
+o mas.
+Depôsitos de locomotoras de réser¬
+va
+o auxilio.
+Art.
+20. — Las
+empresas estarân obligadas
+a tener
+en los
+puntos de la lînea, donde el servicio lo exija, locomotoras de
+réserva
+o de auxilio, listas para prestar servicio.
+Formacion
+de
+los
+trenes
+de
+pasa¬
 jeros y mixtos.
-
-Art. 21.—La formación de los trenes de pasajeros y mix-
-tos se sujetará a las normas siguientes:
-
-Trenes de pasajeros: Llevarán siempre después de la loco-
-motora por lo menos un vehículo sin pasajeros. En los trenes
-locales y en los demás casos que autorice la Dirección General
-de Ferrocarriles, dicho vehículo podrá ser suprimido, bajo las
+Art. 21. — La formacion de los trenes de pasajeros y mix¬
+tos
+se sujetarâ a las normas siguientes :
+Trenes de pasajeros: Llevarân siempre después de la loco-
+motora por lo menos un vehîculo sin pasajeros.
+En los trenes
+locales y en los demâs casos que autoriee la Direcciôn General
+de Ferrocarriles, dicho vehîculo podrâ ser suprimido, bajo las
 condiciones que ella determine.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 72
 

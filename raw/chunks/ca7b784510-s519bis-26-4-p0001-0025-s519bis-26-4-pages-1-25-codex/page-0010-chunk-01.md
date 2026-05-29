@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-62547f019ff4-P0010-01
+chunk_id: CHUNK-692cf456e23e-P0010-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25.codex.md
-converted_sha256: 62547f019ff4ea9e4cf2bb378a5d314e67a804bed41cf3f96b93b1c7a054c7d2
+converted_sha256: 692cf456e23e5fe566f0eea412bd94196432e825e3a996a23961f8f5f415965a
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json
@@ -13,67 +13,104 @@ part: 1
 
 ## Page Metadata
 
-- **Page number**: 10
-- **Document type**: Typed letter
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json`
+- Source page: 10
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/page-images/page-0010.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The document is a single-column typed letter. The reading order is as follows:
-1. Date and location, top right.
-2. Addressee's name and location, below the date and to the left.
-3. Salutation.
-4. A handwritten note in cursive script, located above the first paragraph.
-5. The body of the letter, consisting of two paragraphs.
-6. The closing.
-
-A single punch hole is present in the left margin.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```text
-Ginebra, 1º de octubre de 1934.
-
-Dr. Alfredo L. Palacios,
+```markdown
+Ginebta,
+1°
+de octubre de 1934.
+Dr.
+Alfredo L. Palacios,
 Buenos Aires.
-
-Mi querido amigo:
-con otros documentos
-Con este correo le envío (las actas de las
-Comisiones I y VI que discutieron la cuestión del
-Chaco durante la reciente Asamblea, así como el
-acta de la sesión plenaria que contiene el
-informe con que el Sr. de Madariaga presentó el
-proyecto de resolución final.
-
-Esos documentos le darán una idea cabal del
-espíritu que reinó en la Asamblea en el sentido de
-terminar con ese conflicto en la esperanza de que
-se contará con la colaboración de todos los países
-americanos que pueden aportar su concurso importante
-y eficaz.
-
-Saluda a Ud. atentamente su servidor y amigo.
+Mi querido amigo :
+^
+cloauMiuJt^
+Con este
+correo le envlo\las actas de las
+Coraisiones I
+y 71
+que dircutieron la ouestipn del
+Chaco durante la reeieate Asamblea,
+as!
+corco el
+acta
+de la sesidn plenaria
+que
+contiene el
+informe
+con
+que el Sr.
+de Madariaga présenté el
+proyecto
+de resolucion final.
+_sos
+documentes le
+daran
+una idea
+cabal del
+espxritu
+que reind
+en la jisamblea
+en el sentifo de
+terminer
+con
+ese conflict»
+en la
+esperanza
+de
+que
+se contarâ
+con la colaboracidn de todes los pals
+s
+americanos
+rue
+pueden apertar
+su concurso importante
+y efioaz.
+Galuda
+a Ud.
+atentameute
+su servidor y amigo.
 ```
 
 ## Images, Captions, And Visual Notes
 
-- A handwritten note in cursive ink reads "con otros documentos". It is located above the first line of the letter's body.
-- A short, diagonal red pencil or ink mark is present under the name "Palacios," in the addressee block.
-- A single circular punch hole is visible in the left margin of the page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible portions of this document.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-This page has been fully and accurately transcribed.
-
-## Visual Region Manifest
-
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains a typed letter with a minor handwritten annotation. There are no significant images, portraits, maps, or other visual elements that would warrant creating a separate cropped image file."
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

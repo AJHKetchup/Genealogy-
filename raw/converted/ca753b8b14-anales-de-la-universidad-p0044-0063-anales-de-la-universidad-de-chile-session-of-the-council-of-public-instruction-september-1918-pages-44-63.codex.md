@@ -117,42 +117,42 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ```markdown
 ## Señor Arias, Virjinio
 
-- Aylwin,  Miguel 》
-- Barceló Lira, Luis 》
+- Aylwin,  Miguel
+- Barceló Lira, Luis
 - Benavente, David
-- Briggen, Juan 》
+- Briggen, Juan
 - Coll  1 Pi,  Antonio
-- Corbalán Melgarejo,  Ramón. 》
-- Del Canto, Hermójenes 《
-- Díez,  Antonio 》
-- Ducci, José 》
+- Corbalán Melgarejo,  Ramón.
+- Del Canto, Hermójenes
+- Díez,  Antonio
+- Ducci, José
 - Ducoing, Arcadio
-- Espejo, Juan N.: 《
+- Espejo, Juan N.:
 - Forteza, José
 - Gajardo, Maximilizno
-- González, Simón 》
-- Guerra J., Guillermo 》
-- Hanssen, Federico 《
+- González, Simón
+- Guerra J., Guillermo
+- Hanssen, Federico
 - Heymanssen, Róbinson
-- Koeting, Berthold 》
-- Kónig, Ahraham 《
-- Korner, Víctor 》
+- Koeting, Berthold
+- Kónig, Ahraham
+- Korner, Víctor
 - Lastarria, Wáshington
 - Lenz, Rodolfo
-- Letelier, Valentín 《
-- Lillo  Figueroa,  Samuel  A. 《
-- . Mac-Iver, Enrique 《
-- Maira,  Manuel  A.  . 》
-- Maira, Octavio 《
-- \_Malsch, Carlos 》
-- Manterola, Benjamín 《
-- Martner, Daniel 《
-- Matta  Viel,  Enrique 《
-- Medina, José  Toribio 》
+- Letelier, Valentín
+- Lillo  Figueroa,  Samuel  A.
+- . Mac-Iver, Enrique
+- Maira,  Manuel  A.  .
+- Maira, Octavio
+- \_Malsch, Carlos
+- Manterola, Benjamín
+- Martner, Daniel
+- Matta  Viel,  Enrique
+- Medina, José  Toribio
 - Melo Peña, Abraham.
 - Molina, Evaristo
 - Montebruno López, Julio
-- Montero Rodríguez, Juan  E. 》
+- Montero Rodríguez, Juan  E.
 - Montessus de  Ballore, Fernando
 - Moore, Eduerdo
 ```
@@ -209,30 +209,30 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Señor Mujica, Alejandro
 
 - » Noé, Juan
-- Noguera, Francisco E. 》
-- Obrecht, Alberto. 《
-- Parada Benavente, Julio 《
-- Pardo Correa, Caupolicán. 》
-- Poenisch, Ricardo 》
-- Puelma Tupper, Francisco 》
-- Puga Borne, Federico 》
-- Puga, Luis 》
-- Ramirez, Iaúl 《
-- Reyes  V.,  Ernesto 》
-- Río, Alejandro del 》
-- Rioseco, Daniel 》
-- Riso-Patrón, Luis 》
-- Salazar, Arturo E. 《
-- Sánchez Cruz, Carlos 》
+- Noguera, Francisco E.
+- Obrecht, Alberto.
+- Parada Benavente, Julio
+- Pardo Correa, Caupolicán.
+- Poenisch, Ricardo
+- Puelma Tupper, Francisco
+- Puga Borne, Federico
+- Puga, Luis
+- Ramirez, Iaúl
+- Reyes  V.,  Ernesto
+- Río, Alejandro del
+- Rioseco, Daniel
+- Riso-Patrón, Luis
+- Salazar, Arturo E.
+- Sánchez Cruz, Carlos
 - Santa María,  Domingo  Victor
-- Schabe, Alberto 》
-- Servat, Francisco 》
-- Toro, Gaspar K
-- Torres, Diego A. 《
-- Trucco, Manuel 》
-- Vicuña C., Julio 《
-- Yánez,  Eliodoro 》
-- Zenteno  Barros, Julio; 1 》
+- Schabe, Alberto
+- Servat, Francisco
+- Toro, Gaspar
+- Torres, Diego A.
+- Trucco, Manuel
+- Vicuña C., Julio
+- Yánez,  Eliodoro
+- Zenteno  Barros, Julio; 1
 - » Z1eglez, Guillermo.
 
 Abierta la  sesión, el  señor  Rector  de  la  Universidad manitfestó'  que había citado al  Claustro Pleno  a  fin  de  elejir  Consejero de  Instrucción Pública,  para el próximo cuadrienio, por haber terminado  su  período  el  señor  don  Armando  Quezada  Acharán.

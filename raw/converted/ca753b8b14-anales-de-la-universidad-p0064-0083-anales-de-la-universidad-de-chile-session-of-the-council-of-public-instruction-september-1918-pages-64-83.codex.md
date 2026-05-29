@@ -1142,11 +1142,11 @@ Belisario Díaz Ossa.
 
 Suplentes: Diego Hernández.
 
-- Francisco Lara. 《
+- Francisco Lara.
 
 Amelia Guzmán.
 
-- Guillermo García. 》
+- Guillermo García.
 
 ## Historia ¡ Jeografía 1.* año
 

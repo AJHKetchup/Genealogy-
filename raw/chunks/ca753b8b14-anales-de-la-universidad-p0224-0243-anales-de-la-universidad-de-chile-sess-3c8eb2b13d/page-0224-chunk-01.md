@@ -1,0 +1,110 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-a1378d9e3c0a-P0224-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243.codex.md
+converted_sha256: a1378d9e3c0a80f551cb49d19ea2322330cdb3a4fdf4feca2caf17cfa88c5b89
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json
+page_start: 224
+page_end: 224
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json`
+- Source page: 224
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/page-images/page-0224.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+510 
+BOLETIN DE INSTRUCCION PÚBLICA 
+Suplentes Jenerales 
+Don Rafael Luis Barahona. 
+» 
+ Hermójenes Toro. 
+» 
+Salvador Lavarello. 
+COMISIONES EXAMINADORAS PARA EL CURSO DE LEYES 
+DEL SEMINARIO DE CONCEPCIÓN 
+Economía Política 
+Propietarios: don Alberto Coddou. 
+» 
+ Clodomiro Acuña. 
+» 
+Fernando Serrano. 
+Suplentes: 
+» 
+Abraham Valenzuela. 
+» 
+Benicio Troncoso. 
+Filosofía del Derecho 
+Propietarios: don Benicio Troncoso. 
+» 
+Pablo Vergara. 
+» 
+Cipriano Deltor. 
+Suplentes: 
+» 
+Edmundo Larénas. 
+» 
+Samuel Guzmán. 
+Derecho Romano 
+Propietarios: don Víctor M. Rioseco. 
+» 
+Julio Parada B. 
+» 
+Domingo Ocampo 
+Suplentes: 
+» 
+Alberto Coddou. 
+» 
+ Clodomiro Acuña. 
+Derecho Civil (1.er año) 
+Propietarios: don Samuel Guzmán. 
+» 
+Maximiliano Gajardo. 
+» 
+Abraham Romero.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

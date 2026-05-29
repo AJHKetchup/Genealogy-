@@ -1,0 +1,102 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-dac21dc56185-P0135-01
+source_converted: raw/converted/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150.codex.md
+converted_sha256: dac21dc56185bb826456eb0e7a1bbca10ec7792be89037b519ce45994352b3e6
+source: raw/sources/S495-2-2.pdf
+source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
+source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json
+page_start: 135
+page_end: 135
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S495-2-2.pdf`
+- Source SHA-256: `9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027`
+- Conversion manifest: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json`
+- Source page: 135
+- Page image: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-images/page-0135.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+RENACIMIÊNTO
+21
+El colmo del progreso, LA CORONA
+lo représenta
+En miles de hogares LA CORONA se considéra tan.indispensable como el
+teléïono.
+Es un aliciente para que los ninos lleguen a ser mejores es-
+tudiantes; sirve a la mamâ para no desatender su correspondence, e
+iinpide al papa tener que trabajar horas extraordinaiias en la oticina. L03 usos de
+LA
+CORONA son innumerables.
+Para ella nq existen restriceiones de tiempo ni de lu-
+gar. y lo mejor de todo, eualquiera puede manejarla.
+Se dobla para ser mâs pe-
+quenà.
+Apenas pesa sois libras.
+LA CORONA se vende con su estuche de viaje -y
+cuesta
+menos
+de
+la
+mitâd
+que mâquinas que no
+bacen nada mâs que ella.
+.
+Servicio de mecànica.
+Todos los ajustes estai) garantizados por noso-
+très y tenemos taller de reparaciôn, bien equipado y a cargo de ex-
+perto para atender este servicio.
+No cobramos a nuestros clientes
+por ajustes hechos en CORONAS compi’adas en la Casa.
+Dobtela Ud.
+- Lléïel
+Dd. consigo. - Escriba Dd. en cualqnier parte.
+Pldanos nna demostraclon gratis
+E. E. HÜBER HONDURAS COMPANY.
+TEGUCIGALPA,
+HONDURAS.
+Agentes exclusives y ûnicos importadores para la RepüMica
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 136

@@ -815,69 +815,123 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 486
+
 ## Page Metadata
-- Page number: 486
-- Source publication year: 1936
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Source page: 486
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/page-images/page-0486.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, primarily composed of numbered articles and sub-sections detailing regulations regarding "Kilometraje" (mileage) for railway personnel. The content flows logically from a main article definition to specific conditions and calculations.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 25 —
-
+```markdown
+—
+25
+—
 Kilometraje.
-
-Art. 41.—a) Para el personal de conducción de loco-
-motoras, el kilometraje medio normal correspon-
-diente a un período de trabajo será el siguiente:
-
-1º Con trenes generales de pasajeros 280 kilómetros
-2º Con trenes mixtos, de encomiendas
-y especiales................ 240 "
-3º Con trenes de carga ............ 200 "
-
-b) Cuando en un período de trabajo el kilometraje ex-
-ceda los límites establecidos en el inciso anterior,
-dicho excedente deberá abonarse computándose en
+Art. 41. — a)
+Para el personal
+de conducciôn de loco-
+motoras,
+el kilometraje
+medio normal
+correspon¬
+dante
+a un periodo de trabajo sera el siguiente:
+1°
+Con trenes generales de pasajeros
+280
+kilomètres
+2°
+Con trenes mixtos, de encomiendas
+y e.speciales
+240
+„
+3°
+Con trenes de carga
+200
+„
+b)
+Cuando
+en un periodo de trabajo el kilometraje
+ex¬
+céda
+los limites establecidos
+en
+el inciso anterior,
+dicho excedente deberd abonarse computdndose en
 la siguiente forma:
-
-1º En el servicio de trenes generales de pasajeros:
-
-Menos de 10 kilómetros, no se tomará en cuenta.
-Entre 10 y 20 kilómetros = media hora.
-Entre 20 y 40 kilómetros = una hora.
-
-2º En el servicio de trenes mixtos:
-
-Menos de 5 kilómetros, no se tomará en cuenta.
-Entre 5 y 15 kilómetros = media hora.
-Entre 15 y 30 kilómetros = una hora.
-
-3º En el servicio de trenes de cargas:
-
-Menos de 5 kilómetros, no se tomará en cuenta.
-Entre 5 y 10 kilómetros = media hora.
-Entre 10 y 20 kilómetros = una hora.
-
-c) La Dirección General de Ferrocarriles establecerá
-en cada caso el tope máximo de kilometraje para el
-personal de conducción de locomotoras y coches
-motores, teniendo en cuenta la naturaleza de los
-servicios, las características de las líneas y del mate-
-rial empleado, así como las condiciones de seguridad.
+1°
+En el servicio de trenes generales de pasajeros:
+Menos de
+10 kilometres, no se tomard en cuenta.
+Entre
+10 y 20 kilometres = media hora.
+Entre 20 y 40 kilometres = una hora.
+2°
+En el servicio de trenes mixtos:
+Menos de 5 kilometres, no se tomard en cuenta.
+Entre 5 y 15 kilômetros ~ media hora.
+Entre
+15 y 30 kilômetros = una hora.
+3°
+En el servicio de trenes de cargos:
+Menos de 5 kilômetros, no se tomard en cuenta.
+Entre 5 y 10 kilômetros = media hora.
+Entre 10 y 20 kilômetros = una hora.
+c)
+La Direcciôn General
+de Ferrocarriles establecerd
+en cada caso el tope mdximo de kilometraje para el
+personal de conducciôn
+de locomotoras y coches
+motores,
+teniendo
+en
+cuenta
+la naturaleza de los
+servicios, las caracteristicas de las lineas y del mate¬
+rial empleado, asi como las condiciones de seguridad.
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The page contains no images, diagrams, or other substantial visual elements suitable for cropping."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 487
 
@@ -1147,73 +1201,124 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No visual regions present on the page."}
 ```
 
+# Page 490
+
 ## Page Metadata
-Page number: 490
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Source page: 490
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/page-images/page-0490.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number is centered at the top. The content is structured with Roman numerals (V and VI) introducing sections, followed by descriptive text, numbered articles, and sub-sections with lettered or numbered points. Some text is bolded for emphasis.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 29 —
-
+```markdown
+29
+—
 V
-
-**Personal de camareros, coches comedores y confiterías, guarda hilos,**
-**revisadores en general, chauffeurs de auto-vía, ajustadores de**
-**vehículos, foguistas de calderas fijas en la línea, engrasadores**
-**en general, repartidores de materiales en la línea, personal de**
-**bombas, básculas, etc., limpieza de coches, cocineros de cua-**
-**drilla, etc.**
-
-**Ciclo.**
-
-Art. 46. — a) Siendo intermitente el trabajo de este per-
-sonal, la prestación de servicio será fijada sobre la
-base de ciento cuarenta y cuatro (144) horas de
-trabajo efectivo en un ciclo de veintiún (21) días.
-
-**Descanso parcial.**
-
-b) Este personal deberá gozar de un descanso parcial
-no menor de ocho (8) horas continuas por cada día
+Personal
+de camareros, coches comedores y confiterias, guarda hilos,
+revisadores
+en general,
+chauffeurs
+de auto-via,
+ajustadores
+de
+vehiculos,
+foguistas de calderas fijas
+en la linea,
+engrasadores
+en general, repartidores de materiales
+en la h'nea,
+personal
+de
+bombas, basculas,
+etc.,
+limpieza
+de
+coches,
+cocineros de cua-
+drilla, etc.
+Ciclo.
+Art. 46.— a) Siendo intermitente el trabajo de este per¬
+sonal, la prestacion de servicio serd fijada sobre la
+base
+de
+ciento
+cuarenta
+y cuatro
+(144)
+horas de
+trabajo efectivo en un ciclo de
+veintiûn
+(21)
+dtas.
+Descanso parcial.
+b) Este personal deberd gozar de un descanso parcial
+no menor de ocho (8) horas continuas por cada dia
 de trabajo.
-
-**Descansos grandes.**
-
-c) A este personal se le acordarán tres (3) descansos
-grandes, cada uno de los cuales no podrá ser infe-
-rior a treinta y dos (32) horas.
-
+Descansos grandes.
+c) A este personal se le acordardn très (3) descansos
+grandes, cada uno de los cuales no podrd ser infe¬
+rior
+a treinta y dos (32) horas.
 VI
-
-**Personal de estaciones y galpones de máquinas**
-
-**Períodos de trabajo.**
-
-Art. 47. — a) La jornada máxima de este personal se
-establecerá según la intensidad de su labor, a cuyo
-efecto ésta se medirá en la siguiente forma:
-
-1º **Servicio de galpón:**
-
-Primera categoría. — Jornada máxima efectiva de
+Personal de estaciones y galpones de màquinas
+Periodos
+de trabajo.
+Art. 47. — a) La jornada mdxima
+de
+este
+personal
+se
+establecerd segun la intensidad de su labor, a cuyo
+efecto ésta se medird
+en la siguiente forma:
+1° Servicio de galpôn:
+Primera categoria. — Jornada
+mdxima
+efectiva
+de
 ocho (8) horas con interrupciones de servicio dentro
-de ella menores de una hora, corresponderá a los
+de ella menores de una hora, corresponderd a los
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 491
 
@@ -1658,59 +1763,114 @@ The page is fully represented. All content is captured as illegible due to the p
 {"visual_regions": [], "no_visual_regions_reason": "The page contains only a single block of illegible text with no separable visual elements."}
 ```
 
+# Page 496
+
 ## Page Metadata
-- Page number: 496
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Source page: 496
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/page-images/page-0496.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page consists of a single column of text. At the top, there is faint, inverted text which appears to be a bleed-through or mirror image of the main body text below. Below this faint text, there is a main title, followed by a section title, a subsection title, and then four paragraphs of body text.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-[Faint, inverted bleed-through text, appearing to be a repetition of the main body text below, in reverse order and inverted. The text is largely illegible due to its faintness and inversion, but discernible words suggest it mirrors the content of the paragraphs below, starting with "así como el mismo título lo indica..." and continuing through the subsequent paragraphs.]
-
-APÉNDICE ACLARATORIO DEL REGLAMENTO
-
+```markdown
+APÉNDICE ACLARATORIO
+DEL
+REGLAMENTO
 DISPOSICIONES GENERALES
-
-Jornada de trabajo
-
-Como el mismo título lo indica, en este primer capítulo
-de las disposiciones generales se han agrupado todas aquellas
-disposiciones que se refieren genéricamente a la duración de
+I
+Jôrnada de trabajo
+Como el mismo tftulo lo indica, en este primer capi'tulo
+de las disposiciones generales
+se han agrupado todas aquellas
+disposiciones que se refieren genéricamente a la duracion de
 la jornada de trabajo.
-El artículo 1º de este capítulo es, en su parte básica,
-igual al artículo 1º del reglamento anterior. Sólo se ha modi-
-ficado en él la redacción con el objeto de darle una estruc-
-tura semejante a la del primer párrafo del artículo 1º de la
+El arti'culo 1° de
+este capîtulo
+es,
+en
+su
+parte bâsica,
+igual al artfculo 1° del reglamento anterior.
+Solo
+se ha modi-
+ficado
+en él la redaccidn
+con el objeto de darle
+una estruc-
+tura semejante a la del primer pârrafo del artfculo 1° de la
 Ley 11.544.
-Las disposiciones establecidas en los incisos *a* y *b* del
-artículo 2º son relativamente semejantes a las de los incisos
-*b* y *c* del artículo 1º del reglamento anterior. Sólo en el
-primero de ellos se ha suprimido la parte final, quedando
-iguales en el resto de su contenido.
-En el inciso *c* del mismo artículo 2º, y que en realidad
-corresponde al inciso *d* del artículo 1º del reglamento anterior,
-se ha introducido una modificación, ya prevista en la Circular
-Nº 7 del 27 de marzo de 1931; y se ha agregado en su última
+Las disposiciones establecidas
+en
+los incisos
+a y b del
+artfculo 2° son relativamente semejantes
+a las de los incisos
+b
+y
+c del artfculo
+1°
+del reglamento anterior.
+Solo
+en el
+primero
+de ellos
+se
+ha
+suprimido
+la
+parte
+final,
+quedando
+iguales en el resto de
+su contenido.
+En el inciso
+c del mismo artfculo 2°, y
+que
+en realidad
+corresponde al inciso ci del artfculo 1° del reglamento anterior,
+se ha introducido una modification, ya prevista en la Circular
+N° 7 del 27 de marzo de
+1931 ; y se ha agregado en su ültima
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no substantial images or captions on this page. The faint, inverted text at the top is a visual artifact (bleed-through/mirror image) rather than intended content.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-- The faint, inverted text at the top of the page is largely illegible due to its nature as bleed-through/mirror image. While the general shape of words is visible, precise character-by-character transcription is not feasible for high accuracy. It has been described as a repetition of the main body text.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible and legible text on the page has been transcribed. The illegible faint text has been noted and described.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text. The faint, inverted text at the top is a bleed-through artifact and not a distinct visual element for cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 497
 

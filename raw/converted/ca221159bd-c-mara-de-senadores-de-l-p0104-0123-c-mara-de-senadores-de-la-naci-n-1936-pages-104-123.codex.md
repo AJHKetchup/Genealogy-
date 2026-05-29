@@ -666,114 +666,104 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The page contains only text."}
 ```
 
+# Page 110
+
 ## Page Metadata
-Page number: 107
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json`
+- Source page: 110
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0110.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a single column of text, with a page number centered at the top. There are several paragraphs, some with specific indentations. Two centered subheadings break up the text. Towards the bottom, there is a numbered list item, followed by two simple line-art illustrations, each with a caption below it.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 107 —
-
-las de la vía correspondiente a la dirección de la
+```markdown
+—
+107
+las
+de
+la
+vîa correspondiente
+a la direccion de la marcha
 del tren.
-Notadas estas señales por los guardas, las repetirán al per-
-sonal conductor y al mismo tiempo aplicarán el freno vacuo,
-o no teniendo éste apretarán y aflojarán repetidas veces el
+Notadas estas senales por los guardas, las repetirân al per¬
+sonal conductor y al mismo tiempo aplicarân el freno vacuo,
+o
+no teniendo
+éste apretarân y aflojarân repetidas veces el
 freno de mano.
-
-Luces y señales nocturnas en las es-
+Luces y senales nocturnas en las es-
 taciones.
-
-Art. 99.—De noche, después de terminado el movimiento
-ordinario, las luces deberán estar encendidas y se harán las
-señales reglamentarias en las estaciones que queden de ser-
-vicio; en las demás el maquinista pasará con mucha precaución.
-
-Discos, señales enanas, indicadores
-de cambios, tipos, colocación y su
-uso.
-
-Art. 100.—Con los discos o señales enanas colocadas cerca
-de los cambios o trampas en desvíos o utilizados para mani-
-obras, se harán las siguientes indicaciones:
-
-1º Discos: Cuando el disco se presenta paralelo a la vía
-o de modo que se vea de perfil o luz verde, indicará que
-la vía correspondiente está libre: “Avance”. (Fig. 1.)
-Cuando el disco se presenta perpendicular a la vía, pre-
-sentando la cara pintada de rojo o una luz roja, indicará
-que la vía correspondiente está obstruída: “Párese”.
+Art.
+99. —- De noche, después de terminado el movimiento
+ordinario, las luces deberân estar encendidas y se harân las
+senales reglamentarias en las estaciones que queden de ser-
+vicio ; en las demâs el maquinista pasarâ con mucha precaucion.
+Discos, senales
+enanas, indicadores
+de cambios, tipos, colocacion y su
+Art.
+100. — Con los discos
+o senales enanas colocadas cerca
+de los cambios
+o trampas en desvîos
+o utilizados para mani-
+obras,
+se harân las siguientes indicaciones :
+l9
+Discos):
+Cuando el
+disco
+se présenta paralelo
+a la vîa
+o de modo que se vea de perfil o luz verde, indicarâ que
+la vîa correspondiente esta libre: “Avance”. (Fig. 1.)
+Cuando el disco se présenta perpendicular a la vîa, pre-
+sentando la cara pintada de rojo o una luz roja, indicarâ
+que
+la
+vîa correspondiente estâ obstruîda: “Pârese”.
 (Fig. 2.)
-
-Figura 1 Figura 2
+Figura 1
+Figura 2
+```
 
 ## Images, Captions, And Visual Notes
 
-Pipeline-extracted visual crops:
-- ![source-caption: Figura 1](../extracted-images/page-0110/page-0110-image-01-figura-1-signal-green-indicator.png)
-  - Kind: illustration; label basis: source-caption; bbox_pct: [67.75, 21.0, 84.95, 33.9]
-  - Source context: The text refers to "(Fig. 1.)" when describing a signal indicating a clear track.
-- ![source-caption: Figura 2](../extracted-images/page-0110/page-0110-image-02-figura-2-signal-red-indicator.png)
-  - Kind: illustration; label basis: source-caption; bbox_pct: [67.75, 58.9, 84.95, 71.8]
-  - Source context: The text refers to "(Fig. 2.)" when describing a signal indicating an obstructed track.
+- No Docling picture regions were detected for this page.
 
-The page contains two simple line-art illustrations of railway signals.
+## Translation
 
-- **Figure 1** shows a signal post with a small, rectangular green indicator positioned horizontally.
-- **Figure 2** shows a signal post with a circular red indicator positioned vertically.
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text and images on the page have been transcribed and described.
-
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "region_1",
-      "kind": "illustration",
-      "bbox_pct": [
-        67.75,
-        21.0,
-        84.95,
-        33.9
-      ],
-      "caption_literal": "Figura 1",
-      "caption_type": "source-caption",
-      "identity_basis": "caption",
-      "source_context": "The text refers to \"(Fig. 1.)\" when describing a signal indicating a clear track.",
-      "confidence": 0.95,
-      "suggested_filename": "Figura_1_Signal_Green_Indicator.png",
-      "inline_anchor": "Figura 1"
-    },
-    {
-      "region_id": "region_2",
-      "kind": "illustration",
-      "bbox_pct": [
-        67.75,
-        58.9,
-        84.95,
-        71.8
-      ],
-      "caption_literal": "Figura 2",
-      "caption_type": "source-caption",
-      "identity_basis": "caption",
-      "source_context": "The text refers to \"(Fig. 2.)\" when describing a signal indicating an obstructed track.",
-      "confidence": 0.95,
-      "suggested_filename": "Figura_2_Signal_Red_Indicator.png",
-      "inline_anchor": "Figura 2"
-    }
-  ]
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 108

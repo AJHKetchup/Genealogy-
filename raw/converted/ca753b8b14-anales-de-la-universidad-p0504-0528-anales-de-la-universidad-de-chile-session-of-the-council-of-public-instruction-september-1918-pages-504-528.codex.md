@@ -31,57 +31,78 @@ The page is entirely blank. All visible content (or lack thereof) has been fully
 {"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank, containing no discernible text, images, or other meaningful visual elements that would warrant cropping."}
 ```
 
+# Page 505
+
 ## Page Metadata
-Page number: 505
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528/manifest.json`
+- Source page: 505
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528/page-images/page-0505.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page is a title or cover page for a publication, featuring the name of the institution, the publication title, volume and year information, a summary of contents, and publication details. All text is centered on the page, with various font sizes and decorative horizontal lines separating sections.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-<center>REPUBLICA DE CHILE</center>
----
-<center>ANALES</center>
-<center>DE LA</center>
-<center>UNIVERSIDAD</center>
----
-<center>TOMO CXLII.—AÑO 77.º</center>
----
-<center>SUMARIO</center>
----
-**Boletin de Instruccion Pública.**—Consejo de Instruccion Pública: Sesiones
-de 6, 13 i 27 de Mayo i 3, 10 i 17 de Junio. Anexo: Memoria del
-Rector de la Universidad de Chile correspondiente al año de 1917.
-**Memorias Científicas i Literarias.**—Nuestros Problemas Económicos, por
-DR. DANIEL MARTNER (Continuacion).—Estudio económico-adminis-
-trativo-social del Territorio de Magallánes, por MANUEL CHAPARRO
-RUMINOT (Continuacion).—La Muerte Presunta, por CARLOS VERGARA
-BRAVO (Continuacion).—Breve reseña histórica de la evolucion de la
-Medicina i la Cirujía en el siglo XIX, por el profesor Dr. LUCAS SIE-
-RRA.—La etnolojía araucana en el poema de Ercilla, por TOMAS GUE-
-VARA (Continuacion).
-
----
-<center>MAYO I JUNIO DE 1918</center>
----
-<center>SOC. IMPRENTA-LITOGRAFIA "BARCELONA"</center>
-<center>SANTIAGO DE CHILE</center>
----
-<center>1918</center>
----
+```markdown
+REPUBLICA DE CHILE 
+ANALES 
+DE 
+LA 
+[VERSIDAD 
+TOMO CXLIL—AÑO 771 
+SUMARIO 
+etin de Instruccion Pública. — Consejo de Instruccion Pública: Sesiones 
+de 6,131 27 de Mayo 1 3, 10 1 17 de Junio. Anexo: Memoria del 
+P. Rector de la Universidad de Chile correspondiente al año de 1917. 
+¡Memorias Científicas i Literarias. —Nuestros Problemas Económicos, por 
+Dr. Dante MarTNER (Continuacion). —Estudio económico-adminis- 
+-trativo-social del Territorio 
+de Magallánes, por MANUEL CHAPARRO 
+A Rumixor (Contínuacion).—La Muerte Presunta, por CÁRLOS VERGARA 
+Bravo (Continuacion).— Breve reseña histórica de la evolucion de la 
+Medicina i la Cirujía en el siglo XIX, por el profesor Dr. Lucas Str- 
+RBA. —La etnolojía araucana en el poema de Ercilla, por Tomas GuE- 
+SOC. IMPRENTA-LITOGRAFIA '*BARCELONA”” 
+SANTIAGO 
+DE CHILE 
+1915
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. The horizontal lines are decorative and serve as visual separators for the text blocks.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. All text is clear and legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and structural elements on the page have been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content like images, maps, or diagrams. The page consists entirely of text and decorative lines."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 506
@@ -261,66 +282,107 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 1.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 510
+
 ## Page Metadata
-- Page number: 118
-- Header: BOLETIN DE INSTRUCCION PÚBLICA
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528/manifest.json`
+- Source page: 510
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528/page-images/page-0510.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, primarily consisting of lists of names categorized by academic degree and field of study. The main body of text is preceded by a header. A short paragraph interrupts the lists towards the bottom of the page, followed by more lists. Indentation is used to distinguish the names within each category.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-Profesora de Castellano:
-
-a doña Emilia Berlendis Stula.
-
-Licenciados en Leyes i Ciencias Políticas:
-
-a doña Filomena Casarino Figueroa,
-don Aurelio Fernández Rocuant,
-» Luis Leopoldo Ortega Noriega,
-» Juan Jerónimo Ortúzar Rojas; i
-» Eduardo Preuss González.
-
-Bachilleres en Medicina i Farmacia:
-
-a don Ramon Vicuña Herboso.
-
-Bachilleres en Leyes i Ciencias Políticas:
-
-a don Guillermo Epple Schwenke,
-» Anjel Fuentes Concha,
-» Gustavo Labatut Clena,
-» Pedro A. Silva Fernández,
-» Jorje Solis de Ovando Bravo,
-» Carlos Toro Baeza; i
-» Abelardo Valderrama Silva.
-
-El mismo señor Rector dió cuenta que, el 25 del mes pasado
-recibieron, en el Liceo de Valparaiso, su título de
-
-Bachilleres en humanidades:
-
-a don Augusto Burton Délano,
-» Cárlos Burton Délano; i
-» Juan Siridey Gana, i de
-
-Bachilleres en Leyes:
-
-a don Jenaro Enrique Bravo Chávez,
-» Manuel Fernández Green,
+```markdown
+118 
+BOLETIN DE INSTRUCCION PÚBLICA 
+Profesora de Castellano: 
+a 
+doña 
+Emilia Berlendis Sturla. 
+Licenciados en Leyes 1 Ciencias Políticas: 
+a 
+doña Filomena Casarino Figueroa, 
+don 
+Aurelio Fernández Rocuant, 
+» 
+Luis Leopoldo Ortega Noriega, 
+» 
+Juan Jerónimo Ortúzar Rojas; 1 
+» 
+Eduardo Preuss González. 
+Bachilleres en Medicina ¡ Farmacia: 
+a 
+don Ramon Vicuña Herboso. 
+tE 
+Bachilleres en Leyes 1 Ciencias Políticas" 
+- 
+a 
+don Guilermo Epple Schwenke, 
+» Anjel Fuentes Concha, 
+» 
+Gustavo Labatut Clena, 
+» 
+Pedro A. Silva Fernández, 
+» 
+ Jorje Solis de Ovando Bravo, 
+» 
+Carlos Toro Baeza; i 
+» 
+Abelardo Valderrama Silva. 
+El mismo señor Rector dió cuenta que, el 25 del mes 
+pas Y 
+recibieron, en el Liceo de Valparaiso, su título de 
+Bachilleres 
+en humanidades: 
+a don Augusto Burton Délano, 
+» 
+ Cárlos Burton Délano; 1 
+» 
+Juan Siridey Gana, i de 
+Bachilleres en Leyes: 
+a don 
+Jenaro Enrique Bravo Chávez, 
+» 
+Manuel Fernández Green,
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. The page features a horizontal rule separating the header from the main content.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. All text is clearly legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 511
 
@@ -1614,71 +1676,94 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 527
+
 ## Page Metadata
-Page number: 135
-Header: SESION DE 27 DE MAYO DE 1918
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528/manifest.json`
+- Source page: 527
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528/page-images/page-0527.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, primarily consisting of lists of names under various academic titles and degrees. The main text is left-aligned, with names and associated titles indented.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-SESION DE 27 DE MAYO DE 1918 135
-___
 
-Profesores de Castellano.
-
-a doña Maria L. Araneda Mangelsdorff; i
-a don José Luis Solis Inostroza.
-
-Profesor de Frances.
-
-a don Ernesto Torrealba Contreras.
-
-Licenciado en Leyes i Ciencias Políticas.
-
-a don Manuel de la Lastra Cruchaga.
-
-Bachiller en Humanidades.
-
-a doña María L. Araneda Mangelsdorff.
-
-El mismo señor Rector dió cuenta de que el 20 del presente ha-
-bia conferido los siguientes grados:
-
-Licenciado en Medicina i Farmacia.
-
-a don Enrique Gabler Herrera.
-
-Bachilleres en Leyes i Ciencias Políticas.
-
-a don Jorje Alemparte Markmann; i
-» Hernan Miranda Prouz; i
-
-que en Valparaíso, con fecha 23 de este mismo mes, se confirió
-el grado de:
-
-Bachiller en Humanidades
-
-a don Armando Alvarez Stiglich
-doña Raquel Palomino Collante; i
-» María Olivares Cosulich.
-
-Leida i aprobada el acta de la sesion de 13 de Mayo se dió
-cuenta:
-1.º De un oficio del señor Ministro de Instruccion Pública, re-
-ferente a la creacion de cursos auxiliares.
+```markdown
+SIÓN DE 27 DE MAYO DE 1918 
+135 
+Profesores de Castellano. 
+a doña 
+Maria L. Araneda Mangelsdortff; 1 
+a don José Luis Solis Inostroza. 
+Profesor de Frances. 
+a don 
+Ernesto Torrealba Contreras. 
+Licenciado en Leyes 1 Ciencias Políticas. 
+a don 
+Manuel de la Lastra Cruchaga. 
+Bachiller 
+en Humanidades. 
+a doña 
+María L. Araneda Mangelsdorff. 
+EE “mismo señor Rector dió cuenta de que el 20 del presente ha- 
+bia conferido los siguientes grados: 
+. 
+Ercenciado en Medicina 1 Farmacia. 
+al 0 Enrique Gabler Herrera. 
+Bachilleres en Leyes ¿+ Ciencias Políticas. 
++ 
+a don Jorje Alemparte Markmanmn; i 
+» 
+Hernan Miranda Prouz; i 
+Ne. 
+Bachiller en Humanidades 
+a don. “Armando Alvarez Stiglich 
+a 
+doña 
+Raquel Palomino Collante; 1. 
+» 
+María Olivares Cosulich. 
+“Leida i aprobada 
+el acta de la sesion de 13 de Mayo se dió 
+0 De un oficio del señor Ministro de Instruccion Pública, re- 
+nte a la creacion de cursos ausiliares.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 528
 

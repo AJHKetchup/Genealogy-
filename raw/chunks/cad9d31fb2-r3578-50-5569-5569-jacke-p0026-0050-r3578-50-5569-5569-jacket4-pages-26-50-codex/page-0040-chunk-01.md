@@ -1,0 +1,160 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-a9a4b83f8b4c-P0040-01
+source_converted: raw/converted/cad9d31fb2-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket4-pages-26-50.codex.md
+converted_sha256: a9a4b83f8b4c2539dffb471670f244d65bd3e0f599ec455c460a6092c67dd26a
+source: raw/sources/R3578-50-5569-5569-Jacket4.pdf
+source_sha256: d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781
+source_manifest: raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket4-pages-26-50/manifest.json
+page_start: 40
+page_end: 40
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket4.pdf`
+- Source SHA-256: `d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781`
+- Conversion manifest: `raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket4-pages-26-50/manifest.json`
+- Source page: 40
+- Page image: `raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket4-pages-26-50/page-images/page-0040.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+V>.v 'i
+CONVENTION bE'.GEMEVdd
+ralre General.
+Projet
+de redaction du Vi
+(selon decision
+de la
+seance
+du 8 iuillet de la Comnission i)
+I
+II
+1.
+Les
+personnes designees dans les
+1.
+Les
+personnes designees dans
+art.
+9,
+10 et 11 sont exemptes
+de
+capture et
+ne peuvent
+pas etre
+re-
+tenues.
+2. Elies doivent etre
+renvoyees
+au
+belligerant dont elles relevent
+des qu'une voie est ouverte pour
+leur retour et
+que les exigences
+mil it?: ires
+le permettent.
+A leur depart,
+elles emporteront les
+les art.
+9,
+10 et
+11 sont
+ex-
+emptes
+de capture et doivent
+etre
+renvoyees,
+sauf
+conven¬
+tion expresse.
+Elles
+seront
+renvoyees
+au bel¬
+ligerant dont elles relevent
+des
+que leur
+concours
+ne
+sera
+dus indispensable,
+qu'une voie
+sera
+ouverte pour leur retour et
+que les exigences militaires lc
+permettront.
+eifets,
+les instruments, les
+armes
+et
+les moyens
+de transport qui leur appartiennent.
+4.
+En attendant leur renvoi, elles
+continueront
+a rcmplir leurs
+fond ions
+sous la direction
+dc
+1’autorite
+au pouvoir
+de laquelle
+elles
+sc
+trouvent.
+En attendant leur renvoi,
+el¬
+les
+continueront
+a remplir
+leurs
+fonctions
+sous la direc¬
+tion
+de l'ennemi,
+et seront de
+preference affcctees
+au soin
+des blesses nationaux
+ou allies.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

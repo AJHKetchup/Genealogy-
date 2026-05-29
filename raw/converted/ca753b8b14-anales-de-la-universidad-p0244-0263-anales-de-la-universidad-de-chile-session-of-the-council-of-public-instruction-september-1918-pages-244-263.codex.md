@@ -566,66 +566,88 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
+# Page 252
+
 ## Page Metadata
-Page number: 538
-Running header: BOLETIN DE INSTRUCCION PÚBLICA
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/manifest.json`
+- Source page: 252
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/page-images/page-0252.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a running header at the top with the page number and publication title. Below this, the main content is presented in a single column, divided into five sections, each marked by a Roman numeral (II, III, IV, V). The text within each section is a standard paragraph. A short decorative rule appears at the bottom of the page, centered.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-538 BOLETIN DE INSTRUCCION PÚBLICA
-
-II.
-
-Se suspenderán las clases los domingos i dias festivos; el
-Jueves, Viernes i Sábado de la Semana Santa; el dia onomástico
-del Presidente de la República; el 21 de Mayo, i el tercer Sábado
-de Octubre, que se destinará a la celebracion de las Fiestas de
-Primavera.
-
-III.
-
-Los exámenes comenzarán el 26 de Diciembre de cada año
-i terminarán el 9 de Enero.
-Cuando el número de alumnos lo exijiere, podrá el Rector del
-establecimiento anticipar la primera de aquellas fechas con
-aprobacion del Consejo de Instruccion Pública.
-Los exámenes atrasados se rendirán dentro de los 10 dias
-anteriores a la fecha inicial de este período de exámenes.
-Habrá otros dos períodos de exámenes; desde el 5 hasta el
-15 de Marzo i en la primera semana de Setiembre.
-
-IV.
-
-El Consejo de Instruccion Pública podrá cambiar las fechas
-fijadas en el número 1 siempre que a su juicio así convenga a
-las condiciones climatolójicas de determinadas zonas del pais.
-Podrá tambien disminuir el período de vacaciones de Se-
-tiembre, aumentando el de Junio, sin alterar el plazo total.
-
-V.
-
-El próximo año escolar de 1919 empezará el 15 de Marzo;
-fecha en la cual entrará a rejir el presente reglamento.
-—
+```markdown
+538 
+BOLETIN DE INSTRUCCION PÚBLICA 
+¡_I--n_É_ÑB 
+IT, 
+Se suspenderán las clases los domingos 1 dias festivos; el 
+Jueves, Viernesi Sábado de la Semana Santa; el día onomástico 
+del Presidente de la República; el 21 de Mayo, 1 el tercer Sábado 
+de Octubre, que se destinará a la celebracion de las Fiestas de 
+Primavera. 
+00 
+> 
+Los exámenes comenzarán 
+el 26 de Diciembre de cada año - 
+1 terminarán el 9 de Enero. 
+Cuando el número de alumnos lo exijiere, podrá el Rector del 
+establecimiento 
+anticipar la primera de aquellas fechas con 
+aprobacion del Consejo de Instruccion Pública. 
+Los exámenes atrasados se rendirán dentro de los 10 dias 
+anteriores a la fecha inicial de este período de exámenes. 
+Habrá otros dos períodos de exámenes; desde el 5 hasta el 
+15 de Marzo i en la primera semana de Setiembre. 
+IV. 
+El Consejo de Instruccion Pública podrá cambiar las fechas 
+fijadas en el número 1 siempre que a su juicio así convenga a 
+las condiciones climatolójicas de determinadas zonas del pais. 
+Podrá tambien disminuir el período de vacaciones de Se- 
+tiembre, aumentando el de Junio, sin alterar el plazo total. 
+v. 
+El próximo año escolar de 1919 empezará el 15 de Marzo; 
+fecha en la cual entrará a rejir el presente reglamento, 
+A E
+```
 
 ## Images, Captions, And Visual Notes
 
-A short, centered horizontal rule appears at the bottom of the page, below the last paragraph.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and the decorative rule have been transcribed and noted.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected. The page contains only text and a minor decorative rule."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 253
 
@@ -868,70 +890,81 @@ This page has been transcribed in its entirety.
 }
 ```
 
+# Page 256
+
 ## Page Metadata
-Page number: 256
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/manifest.json`
+- Source page: 256
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/page-images/page-0256.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, primarily composed of official communications or decrees. It starts with a header, followed by several distinct blocks of text, each containing a main body, a signature, and a date, separated by dashed lines.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-542 BOLETIN DE INSTRUCCION PÚBLICA
-
-ausente del pais en virtud de la comision que le ha conferido
-el Gobierno.
-
-(Firmado).—SANFUENTES.
-
-*Alcibiades Roldan.*
-
-— — — — — —
-
-Santiago, 17 de Octubre de 1918.
-
-N.º 4013.
-
-DECRETO:
-
-Acéptase la renuncia que hace don Pedro Pineda Rios del
-empleo de profesor de Derecho Constitucional del Curso de
-Leyes de Valparaiso; i nómbrase para que sirva interinamente
-dicho puesto a don Manuel Barros C., que ha sido propuesto
-por el jefe respectivo.
-
-(Firmado).—SANFUENTES.
-
-*Alcibiades Roldan.*
-
-— — — — — —
-
-Santiago, 26 de Octubre de 1918.
-
-Señor Rector:
-
-La Facultad de Leyes i Ciencias Políticas, en sesion de ayer,
-acordó nombrar Miembro Honorario de la Facultad al Ministro
-Plenipotenciario i Embajador del Uruguai, don Baltasar Brum.
-Lo que tengo a honra comunicar a Ud. para los fines a que
-haya lugar.
-
-(Firmado).—R. HERMANSSEN, Secretario.
-
-— — — — — —
+```markdown
+542 
+BOLETIN DE INSTRUCCION PÚBLICA 
+ausente del pais en virtud de la comision que le ha conferido 
+el Gobierno. 
+(Firmado).-—SANFUENTES. 
+Alcibíades Roldan. 
+Santiago, 17 de Octubre de 1918. 
+N.0 4013. 
+DECRETO: 
+Acéptase la renuncia que hace don Pedro Pineda Rios del 
+empleo de profesor de Derecho Constitucional 
+del Curso de 
+Leyes de Valparaiso; 1 nómbrase para que sirva interinamente 
+dicho puesto a don Manuel Barros C., que ha sido propuesto 
+por el jefe respectivo. 
+(Firmado).—-SANFUENTES. 
+Alerbíades Roldan. 
+Santiago, 26 de Octubre de 1918. 
+Señor Rector: 
+La Facultad de Leyes i Ciencias Políticas, en sesion de ayer, 
+acordó nombrar Miembro Honorario de la Facultad al Ministro 
+Plenipotenciario i¡ Embajador del Uruguai, don Baltasar Brum. 
+Lo que tengo a honra comunicar a Ud. para los fines a que 
+haya lugar. 
+(Firmado). —R. HERMANSSEN, Secretario,
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content such as images, maps, or diagrams that would require cropping. The content is entirely textual."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 257
 
@@ -1197,72 +1230,82 @@ The page is completely blank. The transcription is complete and accurate as ther
 {"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank and contains no visual content."}
 ```
 
+# Page 263
+
 ## Page Metadata
-Page number: 263
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/manifest.json`
+- Source page: 263
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/page-images/page-0263.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page begins with a decorative border at the top, followed by a centered title, subtitle, author information, and a continuation note. The main content is a single paragraph of text, presented in a single column.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-Sobre el estudio de idiomas
 
-Carta al señor don Julio Saavedra Molina
-
-POR
-
-RODOLFO LENZ
-
-(Continuacion
-
-En los tres años inferiores los trozos que se leen
-en clases de idiomas estranjeros tienen necesaria-
-mente cierto carácter infantil, que escluye todo re-
-finamiento del estilo artístico, cuando no son espre-
-samente preparados para la enseñanza a estranjeros.
-Durante el cuarto año se hace la transicion al estilo
-literario normal. En el quinto año habrá, pues, lle-
-gado el momento de dar a la lectura en lengua es-
-tranjera el carácter literario i cultural que en la len-
-gua patria ya le corresponde desde el tercer año a
-lo ménos; es decir, no quedará limitada a acrecentar
-el dominio práctico del lenguaje (aunque este punto
+```markdown
+GQoovvovovcescconcnnccococorc.”.”—m”o occ. cn.ococor..cpp.cvvcroccocop) 
+o 
+o 
+o 
+o 
+o 
+O) 
+o0o0oro0o0o0oeVceem”mmonocvcoo.Lecnecocc 
+o coc .cocoooo Loc ococaOO LaO.LOLaOoODO 
+Qoocsveo 
+Sobre el estudio de idiomas 
+Carta al señor don Julio Saavedra Molina 
+POR 
+RODOLFO LENZ 
+(Continuacion 
+En los tres años 
+Inferiores los trozos que se leen 
+en clases de idiomas estranjeros tienen necesaria- 
+mente cierto carácter infantil, que escluye todo re- 
+finamiento del estilo artístico, cuando no son espre- 
+samente preparados para la enseñanza a estranjeros. 
+Durante el cuarto año se hace la transicion al estilo 
+literario normal. En el quinto año habrá, pues, lle- 
+gado el momento de dar a la lectura en lengua es- 
+tranjera el carácter literario 1 cultural que en la len- 
+gua patria ya le corresponde desde el tercer'año a 
+lo ménos; es decir, no quedará limitada a acrecentar 
+el dominio práctico del lenguaje (aunque este punto 
 no debe nunca perderse por completo de vista), sino
+```
 
 ## Images, Captions, And Visual Notes
-Pipeline-extracted visual crops:
-- ![converter-description: Decorative border at the top of the page.](../extracted-images/page-0263/page-0263-image-01-decorative-border-floral-dotted.png)
-  - Kind: illustration; label basis: converter-description; bbox_pct: [7.0, 24.0, 16.0, 77.0]
-  - Source context: Decorative border at the top of the page.
 
-A decorative horizontal border with a floral/leaf pattern enclosed by a dotted line is present at the top of the page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and visual elements on the page have been transcribed and noted.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "illustration",
-      "bbox_pct": [
-        7.0,
-        24.0,
-        16.0,
-        77.0
-      ],
-      "caption_literal": null,
-      "caption_type": "converter-description",
-      "identity_basis": null,
-      "source_context": "Decorative border at the top of the page.",
-      "confidence": "high",
-      "suggested_filename": "decorative_border_floral_dotted.png",
-      "inline_anchor": "A decorative horizontal border with a floral/leaf pattern enclosed by a dotted line is present at the top of the page."
-    }
-  ]
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,96 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-5265fdb6af42-P0090-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100.codex.md
+converted_sha256: 5265fdb6af422998c5af92242b1df44869f70e9db8aa342a022fbb0575489a58
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100/manifest.json
+page_start: 90
+page_end: 90
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100/manifest.json`
+- Source page: 90
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100/page-images/page-0090.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+514
+26
+Pour la France:
+H. DE MARCILLY.
+J.
+DU SAULT.
+Pour la Grece:
+R. RAPHAEL.
+S. VENISELOS.
+Pour la Hongrie:
+PAUL DE HEVESY.
+Pour l’ltalie:
+GIOVANNI CIRAOLO.
+Pour le Japon:
+Tout en acceptant en prineipe les dispositions de Particle 28,
+le Japon fait des reserves quant 4 la date de mise en vigueur
+de l’interdiction pr4vue sous lettre b du dit article.
+Le Japon entend que cette interdiction ne s’applique pas aux
+armoiries et signes qui auraient 4t4 en usage ou enregistr4s avant
+son entree
+en vigueur.
+Les d414guds du Japon signent la prdsente Convention moyen-
+nant les reserves susmentionn^es.
+ISABURO YOSHIDA.
+S. SHIMOMURA.
+S. MIURA.
+Pour la Lettonie:
+CHARLES DUZMANS.
+Dr. OSKAR VOIT.
+Pour le Luxembourg:
+Ch. G. VERMAIRE.
+Pour le Mexique:
+Fr. CASTILLO NAJERA.
+Pour le Nicaragua:
+A. SOTTILE.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-62547f019ff4-P0016-01
+chunk_id: CHUNK-692cf456e23e-P0016-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25.codex.md
-converted_sha256: 62547f019ff4ea9e4cf2bb378a5d314e67a804bed41cf3f96b93b1c7a054c7d2
+converted_sha256: 692cf456e23e5fe566f0eea412bd94196432e825e3a996a23961f8f5f415965a
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json
@@ -12,55 +12,109 @@ part: 1
 ---
 
 ## Page Metadata
-Page number: 16
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json`
+- Source page: 16
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/page-images/page-0016.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a typewritten letter in Spanish, presented in a single column. There is a faint watermark visible on the left side of the page and a small handwritten mark near the recipient's name.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-GINEBRA,
-20 de octubre 1930.
 
-Sr. Dr. Alfredo L. Palacios,
+```markdown
+GIIÏ&BRA,
+20
+de
+oetubre 1930.
+Sr. Dr.
+*lfredo L. Palacios,
 Charcas 4741,
-BUENOS AIRES
-
-Mi distinguido amigo:
-
-Le escribo estas líneas para anunciarle que pienso
-estar en ésa en los primeros días de Diciembre, pues,
-como Vd. sabe, el Gobierno del Uruguay ha invitado al
-Secretario General de la Sociedad de las Naciones para
-asistir a las fiestas del Centenario que en la segunda
-quincena de Diciembre deben celebrarse en Montevideo.
-
-Con este motivo iré un poco antes para reunirme con
-el Dr. Juan Antonio Buero que partirá antes que yo.
-
-Espero que el Secretario General pueda detenerse en
-Buenos Aires y abrigo la seguridad de que será allí muy
-bien recibido.
-
-Como tengo la esperanza de estrecharle la mano en
-los primeros días de Diciembre, me permitiré para entonces
-comentar con Vd. los acontecimientos del 6 de Septiembre y
-sus consecuencias probables en las relaciones de la
+J3ÜEB0S
+-1RES
+Mi distinguido amigo;
+Le escribo
+estas lfneas para anunciarle que pienso
+estar
+en ésa
+en los primeros df&s de Diciembre,
+pues,
+Como Vd. sabe,
+el Gobierno del Uruguay ha invitado al
+Secretario General
+de la Sociedad
+de las Baciones para
+asistir
+a las fiestas del Centenario
+que
+en la segunda
+quincena de Diciembre daben celebrarse
+en Montevideo.
+Con
+este motivo iré
+un poco
+antes para reunirme
+oon
+el Dr.
+Juan antonio
+Buero
+que partira antes que yo.
+Espero q.e el Seoretario General pueda detenerse
+en
+Buenos
+Aires
+y abrigo la seguridad de
+que sera allf muy
+bien recibido,
+Como
+tengo la
+esperanza de estrecharle la mano
+en
+Iob primeros dfas de Diciembre,
+me parmi tiré para entonces
+comentar
+con Yd. los acontecimientos ael
+6 de Septiembre y
+sus
+oonsecuenciae probables
+en laB relacionee de la
 Argentina con la Sociedad de las Naciones.
-
-Le ruego acepte las seguridades de mi consideración y
-de mi personal estima.
+Le ruego acepte las seguridades de mi consideracidn y
+de
+mi personal estima.
+```
 
 ## Images, Captions, And Visual Notes
-- A faint watermark, "PERTE", is visible running vertically along the left side of the page.
-- A short, diagonal red handwritten mark is present to the right of "Palacios," in the recipient's address.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all visible text and relevant visual notes.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content present for cropping. The faint watermark and small handwritten mark are described in the 'Images, Captions, And Visual Notes' section."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

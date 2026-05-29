@@ -403,72 +403,83 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 534
+
 ## Page Metadata
-- Page number: 142
-- Header: BOLETIN DE INSTRUCCION PÚBLICA
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/manifest.json`
+- Source page: 534
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/page-images/page-0534.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single-column layout containing a header, a main title, a subtitle, and three distinct entries, each detailing a decree. Each decree entry includes a date, a decree number, the decree text, a signature, and a counter-signature (except for the last entry which is cut off). The content flows in a standard top-to-bottom reading order.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-142 BOLETIN DE INSTRUCCION PÚBLICA
-___
 
-ANEXOS.
-
-DOCUMENTOS LEIDOS EN LA SESION.
-
-Santiago, 16 de Mayo de 1918.
-
-N.º 993.—Decreto:
-
-El Observatorio Sismolójico i el Instituto Superior de Educa-
-cion Física i Manual dependerán, en lo sucesivo, del Consejo de
-Instruccion Pública.
-
-(Firmado).—SANFUENTES.
-
-Pedro Aguirre Cerda.
-
----
-
-Santiago, 6 de Mayo de 1918.
-
-N.º 842.—Decreto:
-
-Acéptase la renuncia que hace doña Enriqueta Mourget de Ja-
-vet, del empleo de profesora de frances, con veintisiete horas se-
-manales de clases, del Liceo de Aplicacion (Seccion Mujeres); i
-nómbrase en su reemplazo a la profesora de Estado en la misma
-asignatura doña Juana Mazzini.
-
-(Firmado).—SANFUENTES.
-
-Pedro Aguirre Cerda.
-
----
-
-Santiago, 17 de Mayo de 1918.
-
-N.º 1,047.—Decreto:
-
-Declárase vacante el empleo de profesor de Relijion, con seis
-horas semanales de clases, que servia el presbítero don Enrique
-Rójas en el Liceo de Hombres de Ovalle; i nómbrase para que
+```markdown
+142 
+BOLETIN DE INSTRUCCION PÚBLICA 
+ANEXOS. 
+DOCUMENTOS LEIDOS EN LA SESION. 
+Santiago, 16 de Mayo de 1918. 
+N.” 993. —Decreto: 
+El Observatorio Sismolójico i el Instituto Superior de Educa- 3 
+cion Física i Manual dependerán, en lo sucesivo, 
+del Consejo de 
+p 
+Instruccion Pública. 
+(Firmado). —SANFUENTES. 
+Pedro Aguirre Cerda- 
+Santiago, 6 de Mayo de 1918. 
+N2 842.—Decreto: 
+Acéptase la renuncia que hace doña Enriqueta Mourget de Ja- 
+vet, del empleo de profesora de frances, con veintisiete horas se-= 
+manales de clases, del Liceo de Aplicacion (Seccion Mujeres); i- 
+nómbrase en su reemplazo a la profesora de Estado en la misma 
+asignatura doña Juana Mazzini. 
+(Firmado) .—SANFUENTES. 
+Pedro Aguirre Cerda. 
+Santiago, 17 de Mayo de 1918. 
+No 1,047. —Decreto: 
+Declárase vacante el empleo de profesor de Relijion, con seis. 3 
+horas semanales de clases, que servia el presbítero don Enrique 
+Rójas en el Liceo de Hombres de Ovalle; i nómbrase para qu
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. The horizontal lines are decorative rules separating entries.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete for all visible text on the page. The last decree entry is cut off at the bottom of the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantive visual content for region extraction."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 143
@@ -544,60 +555,85 @@ All visible text on the page has been transcribed. The last word "teni-" is hyph
 {"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content such as photographs, illustrations, maps, or complex diagrams that would warrant a visual region crop."}
 ```
 
+# Page 536
+
 ## Page Metadata
-Page number: 144
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/manifest.json`
+- Source page: 536
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/page-images/page-0536.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a header with a page number and publication title. Below the header, there are three distinct text blocks, each representing a communication. Each communication includes a main body of text, a signature, and a date. The content is presented in a single column.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-144 BOLETIN DE INSTRUCCION PÚBLICA
 
-do en el mes de Abril último, o del número de alumnos promo-vi-
-dos en el curso inmediatamente inferior al que se trate de crear.
-Desea tambien el infrascrito que Ud. se sirva indicarle cuales
-de esos cursos obedecen, a juicio de Ud., a una necesidad que
-pueda considerarse permanente i que por lo tanto, deban incluirse
-como cursos de planta en el Proyecto de Presupuestos para 1919.
-
-(Firmado).—P. AGUIRRE.
-
-Santiago, 20 de Mayo de 1918.
-
-Señor Rector:
-
-La Facultad de Leyes i Ciencias Políticas, en su sesion de 18
-del que rije, nombró Miembros Académicos en reemplazo de don
-Marcial Martínez, a don Miguel Luis Valdes; i en lugar de don
-Santiago Aldunate Bascuñan, a don Alejandro Alvarez.
-Lo que tengo el honor de comunicar a Su Señoría para los fines
-a que haya lugar.
-
-(Firmado).—RUPERTO BAHAMONDE.
-
-Santiago, 27 de Mayo de 1918.
-
-Señor Rector:
-
-La Facultad de Humanidades, en su sesion de 28 de Diciembre
-de 1917, acordó señalar como tema para el próximo Certámen
-bienal de la Facultad: Un período de la Historia de Chile poste-
-rior al año 23.
-Lo que comunico a Ud. para su conocimiento.
-
-(Firmado).—ARCADIO DUCOING.
+```markdown
+144 
+BOLETIN DE INSTRUCCION PÚBLICA 
+do en el mes de Abril último, o del número de alumnos promovi- 
+dos en el curso inmediatamente inferior al que se trate de crear. 
+Desea tambien el infrascrito que Ud. se sirva indicarle cuales 
+de esos cursos obedecen, ajuicio de Ud., a una necesidad que 
+pueda considerarse permanente 1 que por lo tanto, deban incluirse 
+como cursos de planta en el Proyecto de Presupuestos para 1919. 
+(Firmado).—P. AGUIRRE. 
+Santiago, 20 de Mayo de 1918. 
+Señor Rector: 
+- 
+La Facultad de Leyes 1 Ciencias Políticas, 
+en su sesion de 18 
+del que rije, nombró Miembros Académicos en reemplazo de don 
+Marcial Martínez, a don Miguel Luis Valdes; i en lugar de don 
+Santiago Aldunate Bascuñan, a don Alejandro Alvarez. 
+Lo que tengo el honor de comunicar a Su Señoría para los fines 
+a que haya lugar. 
+(Firmado).—RUPERTO BAHAMONDE:- 
+Saniiago: 27 de Mayo de 1918. 
+Señor Rector; 
+La Facultad de Humanidades, en su sesion de 28 de Diciembre 
+de 1917, acordó señalar como tema para el próximo Certámen 
+- 
+bienal de la Facultad: Un período dela Historia de Chile poste- 
+rior al año 23. 
+Lo que comunico a Ud. para su conocimiento. 
+(Firmado) .—ARCADIO DUCOING.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 537
 
@@ -1529,235 +1565,319 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 548
+
 ## Page Metadata
-Page number: 156
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/manifest.json`
+- Source page: 548
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/page-images/page-0548.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a header with a page number and publication title. Below the header, there are three distinct decree entries, each starting with a date, followed by the decree number and its content, and concluding with two signatures. Each decree entry is separated by a short horizontal line.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-156 BOLETIN DE INSTRUCCION PÚBLICA
-
-Santiago, 28 de Mayo de 1918.
-
-N.º 1135.—Decreto: Nómbrase a don Miguel Aylwin, propuesto
-en la terna respectiva para que sirva en propiedad la asignatura
-de Economía Social e Industrial del Curso de Leyes de Valparaíso.
-
-(Firmado).—SANFUENTES.
-
-P. Aguirre Cerda.
-
----
-
-Santiago, 28 de Mayo de 1918.
-
-N.º 1136.—Decreto: Nómbrase a don Alberto Toro Arias, pro-
-puesto en la terna respectiva, para que sirva en propiedad el pues-
-to de profesor de Filosofía del Derecho en el Curso de Leyes de
-Valparaíso.
-
-(Firmado).—SANFUENTES.
-
-P. Aguirre Cerda.
-
----
-
-Santiago, 28 de Mayo de 1918.
-
-N.º 1139.—Decreto: Nómbrase al profesor de Estado en la asig-
-natura correspondiente, don Pedro Olivares, propuesto en la terna
-respectiva, para que sirva, en propiedad, el empleo de profesor
-de matemáticas, con veintitres horas semanales de clases, en el
-Liceo de Hombres de Osorno.
-
-(Firmado).—SANFUENTES.
-
-P. Aguirre Cerda.
-
----
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-No uncertain or illegible text was found on this page.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The page contains only text."}
+```markdown
+156 
+BOLETIN DE INSTRUCCION PÚBLICA 
+Santiago, 28 de Mayo de 1918. 
+N.2 1135.—Decreto: Nómbrase a don Miguel Aylwin, propuesto : 
+enla tesna ¡espectiva para que sirva en propiedad la asignatura 
+de Economía Social e Industrial del Curso de Leyes de Valparaiso. 
+(Firmado). —SANFUEN IES. 
+P. Agwrre Cerda. 
+Santiago, 28 de Mayo de 1918. 
+N.* 1136.—Decreto: Nómbrase a don Alberto Toro Arias, pro- 
+puesto en la terna respectiva, para que sirva en propiedad el pues- 
+to de profesor de Filosofía del Derecho en el Curso de Es de 
+EEES 
+(Firmado).—SANFUENTES- 
+P. Aguirre Cerda. 
+Santiago, 28 de Mayo de 1918. 
+N o 1159. —Decreto- Nómbrase al profesor de Estado en la asig- 
+natura correspondiente, don Pedro Olivares, propuesto en la terna 
+_—Tespectiva, para que sirva, en propiedad, el empleo de on $1 
+de matemáticas, con veintitres horas. semanales de clases, en la 
+Liceo de Hombres de Osorno. 
+(Firmado). —SANFUENTES, 
+- 
+P. Aguirre Cerda. 
+. 
+ss
 ```
 
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 549
+
 ## Page Metadata
-- Source page number: 157
-- Source document page number: 549
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/manifest.json`
+- Source page: 549
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/page-images/page-0549.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents three distinct text blocks, each representing an official communication or decree. The layout is a single column, with each block starting with a date and then the main content, followed by a signature. The first two blocks are decrees, and the third is a letter addressed to the Rector. A header with "SESION DE 3 DE JUNIO DE 1918" and the page number "157" is at the top.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-SESION DE 3 DE JUNIO DE 1918 157
 
-Santiago, 28 de Mayo de 1918.
-
-N.º 1137.—Decreto: Nómbrase a don José Ducci propuesto en
-la terna respectiva, para que sirva en propiedad el cargo de Secre-
-tario de la Facultad de Medicina i Farmacia de la Universidad.
-
-(Firmado).—SANFUENTES.
-
-P. Aguirre Cerda.
-
-Santiago, 28 de Mayo de 1918.
-
-N.º 1141.—Decreto: Acéptase la renuncia que hace don Enrique
-Rodríguez Mac-Iver del empleo de profesor de Derecho Constitu-
-cional del Curso de Leyes de Valparaíso.
-
-(Firmado).—SANFUENTES.
-
-P. Aguirre Cerda.
-
-N.º 204. Santiago, 1.º de Junio de 1918.
-
-Señor Rector:
-
-Remito a Ud. los cuadros demostrativos de las inasistencias de
-los profesores de las Escuelas de Leyes, Injeniería i Arquitectura
-i del Curso preparatorio de Injeniería de esta Universidad, co-
-rrespondientes a los meses de Abril i Mayo del presente año.
-
+```markdown
+SESION DE 3% DE JUNIO DE 1918 
+157 
+Santiago, 28 de Mayo de 1918. 
+| 
+No 1137.—Decreto: Nómbrase a don José Ducci propuesto en 
+¡la terna respectiva, para que sirva en propiedad el cargo de Sacre- 
+Santiago, 28 de Mayo de 1918. 
+N.* 1141.—Decreto: Acéptase la renuncia que hace don Enrique 
+¡Rodríguez Mac-Iver del empleo de profesor de Derecho Constitu- 
+cional del Curso de Leyes de Valparaiso. 
+(Firmado). —SANFUENTES. 
+P. Aguirre Cerda. 
+[No 204. 
+Santiago, 12 de Junio de 1918. 
+Señor Rector: 
+Remito a Ud. los cuadros demostrativos de las inasistencias de 
+¡los profesores de las Escuelas de Leyes, Injeniería i Arquitectura 
+“¡del Curso preparatorio de Injeniería de esta Universidad, co- 
+¡|rrespondientes a los meses de Abril i Mayo del presente año. 
 (Firmado).—Samuel Lillo.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 550
 
 ## Page Metadata
-Page number: 158
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/manifest.json`
+- Source page: 550
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/page-images/page-0550.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents two distinct communications, each formatted as a letter. The first communication, dated Santiago, June 3, 1918, is addressed to the President of the Council. The second communication, dated La Serena, May 22, 1918, is addressed to the Rector. Both are presented in a single-column layout, with a header "BOLETIN DE INSTRUCCION PÚBLICA" at the top.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-158 BOLETIN DE INSTRUCCION PÚBLICA
 
-Santiago, 3 de Junio de 1918.
-
-Señor Presidente del Consejo:
-
-He tenido el agrado de recibir la atenta nota de Ud. número
-143, de fecha 28 de Mayo último por la cual se ha servido Ud. co-
-municarme que la Facultad de Leyes i Ciencias Políticas me ha
-honrado elijiéndome Miembro Académico, en reemplazo de don
-Marcial Martínez.
-Quedo impuesto, asimismo, de las prescripciones reglamentarias
-que deberé cumplir para incorporarme en dicha Facultad.
-
-(Firmado).—Miguel L. Valdes.
-
-N.º 66. La Serena, 22 de Mayo de 1918.
-
-Señor Rector:
-
-En vista de su nota número 101 de 7 de Mayo del presente año,
-en que me dice: que el Honorable Consejo de Instruccion Pública
-acordó proveer en propiedad la asignatura de ingles con 17 horas
-semanales i que ántes del 31 del presente le remita nómina de
-personas idóneas, tengo el honor de presentar a Ud., para servir la
-indicada asignatura, a don Edgardo Canales profesor titulado de
-ingles en el Instituto Pedagójico i que es el único que se ha pre-
-sentado solicitando dichas clases.
-
-(Firmado).—M. Peña Villalon.
+```markdown
+158 
+BOLETIN DE INSTRUCCION PÚBLICA 
+Santiago, 3 de Jumio de 1918. 
+Señor Presidente del Consejo: 
+He tenido el agrado de recibir la atenta nota de Ud. númerd 
+143, de fecha 28 de Mayo último por la cual se ha servido Ud. 
+co 
+municarme que la Facultad de Leyes i Ciencias Políticas me ha 
+honrado elijiéndome Miembro Académico, en reemplazo de dor 
+Marcial Martínez. 
+Quedo impuesto, asimismo, de las prescripciones reglamentarias 
+que deberé cumplir para incorporarme en dicha Facultad. 
+(Firmado).—Miguel L. Valdes., 
+No 66. 
+La Serena, 22 de Mayo de 1918. 
+Señor Rector: 
+. En vista de su nota número 101de 7 de Mayo de! presente año 
+€n que me dice: que el Honorable Consejo de Instruccion Públi 
+acordó proveer en propiedad la asignatura de ingles con 17 h 
+semanales i que ántes del 31 del presente le remita nómina 
+personas idóneas, tengo el honor de presentar a Ud., para servi 
+indicada asignatura, a don Edgardo Canales profesor titulad 
+ingles en el Instituto Pedagójico i que es el único que se ha 
+sentado solicitando dichas clases. 
+(Firmado).—M. Peña Villalon..
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other substantial visual notes on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. All text is clear and legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text content on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 551
 
 ## Page Metadata
-Page number: 159
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/manifest.json`
+- Source page: 551
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/page-images/page-0551.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a header with the session date and page number. The main content is presented in a single column, structured into three distinct sections, labeled with Roman numerals I, II, and III. Each section contains text, with some paragraphs indented. Section III includes a numbered report, a signature, and a salutation followed by additional text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-SESION DE 3 DE JUNIO DE 1918 159
 
-Solicitan licencia para asistir de oyentes al Liceo de Hombres de
-Cauquenes
-
-I
-
-Elena Urrutia, Esmeralda Arellano, Marina Arellano i Elsa Cá-
-ceres, alumnas del Liceo de Niñas de Cauquenes, al señor Rector
-de la Universidad de Chile esponen:
-Que por ser dicho Liceo de segunda clase i carecer de recursos
-necesarios para continuar sus estudios en la capital, venimos en
-solicitar de Ud. licencia para asistir en calidad de oyentes al 5.º i
-6.º años del Liceo de Hombres.
-Por tanto, a Ud. suplicamos se sirva ordenar lo que dejamos
-espuesto.
-
-II
-
-Santiago, 7 de Mayo de 1918.
-
-Conforme a lo acordado por el Consejo de Instruccion Pública,
-n su sesion de ayer, pase al señor Intendente de Maule para que,
-previa audiencia del Rector del Liceo de Cauquenes se sirva infor-
-mar acerca de la solicitud que precede.
-
-III
-
-Cauquenes, 10 de Mayo de 1918.
-
-N.º 159.—Informe el Rector del Liceo.—Firmado.—GUZMAN.—
-G. del Rio
-
-Señor Intendente:
-
-Al evacuar el informe que US. me pide por nota número 159 de
-10 de Mayo del presente año, acerca de la licencia para asistir en
-calidad de oyentes al 5.º i 6.º años del Liceo, solicitada por algunas
-señoritas de la localidad, he tenido mui en cuenta los consideran-
+```markdown
+SESION DE3 DE JUNIO De 1918 
+159 
+> 
+Solicitan licencia para asistir de oyentes 
+al Liceo de Hombres de 
+Cauquénes 
+E 
+I 
+Elena Urrutia, Esmeralda Arellano, Marina Arellano 1 Elsa Cá- 
+Ceres. alumnas del Liceo de Niñas de Cauquénes, al señor Rector 
+dela Universidad de Chile esponen: 
+¡Que por ser dicho Liceo de segunda clase i carecer de recursos 
+“hecesarios para continuar sus estudios en la capital, venimos en 
+| solicitar de Ud. licencia para asistir en calidad de oyentes al 5." i 
+| 6s años del Liceo de Hombres. 
+1 Por tanto, a Ud. SUpUOS E 
+se sirva ordenar lo que dejamos 
+¡0 espuesto. 
+| éspues 
+j 
+lo 
+00 
+ñ 
+| y 
+Santiago, “ de Mayo de 1918. 
+| E 
+Ec onforme a lo acordado por el Consejo de Instruccion Pública, 
+Ñ a su sesion de ayer, pase al señor Intendente de Maule para que, 
+| 
+previa audiencia del Rector del Liceo de Cauquénes se sirva infor- 
+| q acerca de la solicitud que precede. 
+Cauquénes, 10 de Mayo de 1918. 
+1% N.9 159.—Informe el Rector del Liceo.—Firmado.—GUZMAN.— 
+| G. del Rio 
+Señor Intendente: 
+Al evacuar el informe que US. me pide por nota número 159 de 
+10 de Mayo del presente año, acerca de la licencia para asistir en 
+“calidad de oyentes al5.91 6.0 años del Liceo, solicitada por algunas 
+la señoritas de la localidad, he tenido mui en cuenta los consideran-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantive visual content found."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 552
 

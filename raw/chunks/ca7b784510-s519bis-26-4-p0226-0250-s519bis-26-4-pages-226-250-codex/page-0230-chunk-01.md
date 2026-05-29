@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-4e1cd84d79e9-P0230-01
+chunk_id: CHUNK-2e0ffdd3b2fd-P0230-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250.codex.md
-converted_sha256: 4e1cd84d79e9418e32ea4f6c50a5467c1cb7bb06254d37383ad3139bbd167218
+converted_sha256: 2e0ffdd3b2fd8327ecf4965a486d0ed7a75158b2a09cff1bd2547618aa6fbd07
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250/manifest.json
@@ -12,78 +12,140 @@ part: 1
 ---
 
 ## Page Metadata
-- Page: 230
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250/manifest.json`
+- Source page: 230
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250/page-images/page-0230.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a typewritten letter in Spanish, formatted as a single column. The letterhead is in the top left, the date in the top right. The recipient's name and location are centered below the date. The body of the letter follows, with a closing salutation and a handwritten signature at the bottom right.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-Legación de Venezuela
 
-Personal.
-
-Roma: 28 de marzo de 1930.
-
-Señor Don
-
-JULIAN NOGUEIRA.
-
-GINEBRA.
-
+```markdown
+Roma:
+28
+de
+marzo
+de
+1S30.
+-.s'-ajyx'X-rsrs/.-t
+leœttk
+.
+_
+'
+Personal
+b en or Don
+JULIAN NOGUEIRA
+G I I
+E
+B
+R A.
 Mi estimado amigo:
-
-Quebrantos de salud y otros contratiempos me han im-
-pedido hasta hoy responder a la interesante carta de usted fecha 10
-de los corrientes: ruégole excusar mi retardo y atribuirlo sólo a
-las causas indicadas.
-
-He reflexionado sobre la materia y hallo que, en efec-
-to, los Trece deben ocuparse muy especialmente en estudiar la suerte
-de las mujeres empleadas en la Sociedad de Naciones. Los que conoce-
-mos el mecanismo íntimo de la organización, sabemos cuán ímproba es
-allí la labor femenina y cómo algunas de dichas mujeres son "mucho
-hombre" - para emplear el calificativo que Don Juan Valera aplicaba
-a Santa Teresa.
-
-Puede contarse con mi concurso en el sentido indicado
-por usted. Iré a Ginebra a fines de abril, a la reunión de la Comi-
-sión Interventora, y entonces podremos cambiar ideas sobre el parti-
-cular. La Comisión de Trece se reunirá, según entiendo, el 16 de ju-
+Quebrantos
+de
+salud y otros contratiempos
+me Ran im-
+pedido Rasta Roy responder
+a la interesante
+oarta
+de usted fecRa 10
+de
+los eorrientes:
+rudgole
+exeusar mi retardo
+y atribuirlo sdlo
+a
+las
+causas indicadas.
+He reflexionado
+sobre la materia y Rallo
+que,en efec-
+to,los
+'Irene
+deben oeuparse
+muy especialmente
+en estudiar
+la—suerte
+de
+las mujeres empleadas
+en la bociedad
+de Naeiones.
+Los
+que
+conoce-
+mos el mecanismo
+intimo
+de la organizacidn,sabemos euân
+improba
+es
+alll la labor femenina y
+cdmo algunas
+de diehas mujeres
+son
+"mucRo
+Rornbre"
+- para emplear el califieativo
+que
+Don Juan Yalera aplieaba
+a banta Teresa.
+Puede
+eontarse
+con mi
+concurso
+en el
+sentido indicado
+por usted. Ird
+a Ginebra
+a fines
+de abril,a la reunidn
+de la Comi-
+sidn Interventora,y enfonces podremos cambiar ideas
+sobre el parti¬
+cular.
+La Comisidn
+de
+Trece
+se réunir^,segdn entiendo,el lb
+de
+ju-
 nio.
-
-Saluda a usted cordialmente su afmo. amigo.
-
-APomapeig
+baluda
+a usted cordialmente
+su afmo.amigo
+```
 
 ## Images, Captions, And Visual Notes
-Pipeline-extracted visual crops:
-- ![converter-description: APomapeig](../extracted-images/page-0230/page-0230-image-01-signature-apomapeig.png)
-  - Kind: signature; label basis: converter-description; bbox_pct: [69.9, 54.5, 92.0, 89.9]
-  - Source context: Handwritten signature at the end of the letter.
 
-- A handwritten signature appears at the bottom right of the letter.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-- The handwritten signature is transcribed as "APomapeig", but the last letter could potentially be a 'z' or another similar script character.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and the signature have been transcribed.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "signature",
-      "bbox_pct": [69.9, 54.5, 92.0, 89.9],
-      "caption_literal": "APomapeig",
-      "caption_type": "literal-transcription",
-      "identity_basis": "signature",
-      "source_context": "Handwritten signature at the end of the letter.",
-      "confidence": 0.9,
-      "suggested_filename": "signature_APomapeig"
-    }
-  ]
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

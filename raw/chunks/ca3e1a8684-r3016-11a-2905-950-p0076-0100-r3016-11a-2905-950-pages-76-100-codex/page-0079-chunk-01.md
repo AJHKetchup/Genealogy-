@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-c59f120c11ec-P0079-01
+chunk_id: CHUNK-affbd26c5f68-P0079-01
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100.codex.md
-converted_sha256: c59f120c11ecd6942bc6628fbe3bc164603686feb453b60bd61b17010d82f560
+converted_sha256: affbd26c5f68a720151530d4334103314b4220d6bdeaf93b105d933c6ed223c6
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/manifest.json
@@ -56,3 +56,5 @@ The entire content of the page has been transcribed.
   "no_visual_regions_reason": "The only content on the page is a short handwritten note, which has been fully transcribed. There are no photographs, illustrations, or other distinct visual elements that would warrant cropping."
 }
 ```
+
+# Page 80

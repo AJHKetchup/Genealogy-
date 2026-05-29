@@ -87,68 +87,95 @@ This page has been transcribed in its entirety.
 }
 ```
 
+# Page 205
+
 ## Page Metadata
-Page number: 205
-Source publication year: 1918
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 205
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0205.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, structured into several sections, each with a bold heading for a subject (e.g., "Matemáticas", "Francés"). Under each subject, there are two sub-sections: "Propietarios" (Proprietors) and "Suplentes" (Substitutes), each listing names. The names are indented, with a guillemet (») preceding some of them.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-SESION DE 14 DE OCTUBRE DE 1918 491
----
 
-**Matemáticas**
-
-Propietarios: don J. Eduardo Peña.
-» Víctor Hernández.
-doña Celinda Plaza de los Reyes.
-Suplentes: don Aurelio Letelier.
-» Rodolfo Poblete.
-
-**Francés**
-
-Propietarios: don Ernesto Torrealba.
-» Rodolfo Vera.
-doña Bríjida Arntz.
-Suplentes: don Ramón Elzo.
-» Aurelio Letelier.
-
-**Inglés**
-
-Propietarios: don Jorge Mac-Ginty.
-» Ernesto Torrealba.
-doña Bríjida Arntz.
-Suplentes: don Aurelio Letelier.
-» Juan A. Durán.
-
-**Historia i Jeografía**
-
-Propietarios: don Rodolfo Vera.
-» Eduardo Peña.
+```markdown
+SESION DE 14 DE OCTUBRE DE 1918 
+491 
+Matemáticas 
+Propietarios: don J. Eduardo Peña, 
+: 
+» 
+Víctor Hernández. 
+doña Celinda Plaza de los Reyes. 
+Suplentes: don Aurelio Letelier. 
+» 
+Rodolfo Poblete. 
+Francés 
+Propietarios: don Ernesto Torrealba. 
+» 
+Rodolfo Vera. 
+doña Bríjida Arntz. 
+Suplentes: don Ramón Elzo. 
+» 
+Aurelio Letelier. 
+Inglés 
+Propietarios: don Jorje Mac-Ginty. 
+» 
+Ernesto Torrealba. 
+doña Bríjida Arntz. 
+Suplentes: don Aurelio Letelier. 
+» 
+Juan A. Durán. 
+Historia i Jeografía 
+Propietarios: don Rodolfo Vera. 
+» Eduardo Peña. 
+doña Natalia Goldberg. 
+Suplentes: don Juan A. Durán. 
+» 
+Víctor Hernández. 
+Ciencias Naturales 
+Propietarios: don Aurelio Letelier. 
+» 
+Luis A. Fernández. 
 doña Natalia Goldberg.
-Suplentes: don Juan A. Durán.
-» Víctor Hernández.
-
-**Ciencias Naturales**
-
-Propietarios: don Aurelio Letelier.
-» Luis A. Fernández.
-doña Natalia Goldberg.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text and layout elements from the source page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 492
@@ -272,67 +299,110 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily contains text and minor decorative lines."}
 
+# Page 208
+
 ## Page Metadata
-Page number: 208
-Original page number: 494
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 208
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0208.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a header with a page number and publication title, followed by a series of lists detailing "Propietarios" (Owners/Regulars) and "Suplentes" (Substitutes) for different academic subjects. Each subject title is bolded. The content is presented in a single column.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-494 BOLETIN DE INSTRUCCION PÚBLICA
 
-Suplentes: don Pedro A. Troncoso.
-» José Brahm.
-
-**Alemán**
-
-Propietarios: don José Brahm.
-» Juan Frey.
-doña Julia Caccialli.
-Suplentes: don Conrado Freundlich.
-» Aníbal González.
-
-**Francés**
-
-Propietarios: don Víctor Capaccini.
-» Jacob Schefer.
-» Fridolin Amiot.
-Suplentes: doña Lastenia Bruni.
-don Andrés Bahamonde.
-
-**Matemáticas i Física**
-
-Propietarios: don Luis Avendaño.
-» Agustín García.
-doña Amalia E. de Alvarez.
-Suplentes: » Elena Martinoli.
-don Juan Frey.
-
-**Instrucción Cívica**
-
-Propietarios: don Héctor Alvarez.
-» Antonio Córdoba.
-doña Elena Martinoli.
-Suplentes: don Aníbal González.
-» Andrés Bahamonde.
-
-**Ciencias Naturales**
-
-Propietarios: don Agustín García.
-doña Elena Martinoli.
+```markdown
+494 
+Suplentes: don 
+» 
+Propietarios: don 
+» 
+BOLETIN DE INSTRUCCION PÚBLICA 
+Pedro A. Troncoso. 
+José Brahm. 
+Alemán 
+José Brahm. 
+Juan Frey. 
+doña Julia Caccialli. 
+Suplentes: don Conrado Freundlich. 
+» 
+Propietarios: don 
+» 
+» 
+Suplentes: doña 
+don 
+Propietarios: don 
+» 
+doña 
+Suplentes: 
+» 
+don 
+Propietarios: don 
+» 
+doña 
+Suplentes: don 
+» 
+Propietarios: don 
+doña 
+Aníbal González. 
+Francés 
+Víctor Capaccini. 
+Jacob Schefer. 
+Fridolin Amiot. 
+Lastenia Bruni. 
+Andrés Bahamonde. 
+Matemáticas ¡ Física 
+Luis Avendaño. 
+Agustín García. 
+Amalia E. de Alvarez. 
+Elena Martinoli. 
+Juan Frey. 
+Instrucción Cívica 
+Héctor Alvarez. 
+Antonio Córdoba. 
+Elena Martinoli. 
+Aníbal González. 
+Andrés Bahamonde. 
+Ciencias Naturales 
+Agustín García. 
+Elena Martinoli,
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. All text is clear and legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 209
@@ -918,67 +988,95 @@ The transcription is complete and accurate, capturing all text and formatting fr
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
 
+# Page 217
+
 ## Page Metadata
-Page number: 217
-Original page number: 503
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/manifest.json`
+- Source page: 217
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223/page-images/page-0217.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, structured into several sections, each detailing "Historia" (History) subjects with lists of "Propietarios" (Owners/Professors) and "Suplente" (Substitute) names. The content is organized with bolded subject titles and indented lists of names. A header with a date and page number is at the top, and a footer with publication details is at the bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-SESION DE 14 DE OCTUBRE DE 1918 503
-—
-**Historia i Jeografía**
 
-Propietarios: don Blas Serón Díaz.
-» Juan A. Gallardo.
-doña Ana C. Barría de D.
-Suplente: » Francisca Flores.
-—
-SEMINARIO DEL ESPIRITU SANTO
-
-**Historia Antigua de los Pueblos Orientales i Griega i Romana**
-
-Propietarios: don Blas Serón.
-doña Hortensia Pérez.
-don Ramón Traval.
-Suplente: doña Ana C. Barría de D.
-
-**Historia de la Edad Media**
-
-Propietarios: don Blas Serón.
-doña Hortensia Pérez.
-don Juan H. Homs.
-Suplente: doña Ana C. Barría de D.
-
-**Historia Moderna i Contemporánea**
-
-Propietarios: don Blas Serón.
-doña Hortensia Pérez.
-don Ramón Traval.
-Suplente: doña Ana C. Barría de D.
-
-**Historia de América i Chile**
-
-Propietarios: don Blas Serón D.
-doña Hortensia Pérez.
-don Juan M. Homs.
-Suplente: doña Ana C. Barría de D.
-ANALES ACTAS.—SEPTIEMBRE.—OCTUBRE.—31
+```markdown
+> 
+¿ye 
+- 
+SESION DE 14 DE OCTUBRE DE 1918 
+03 
+¡Sy 
+Historia ¡ Jeografía 
+Propietarios: don Blas Serón Díaz. 
+» 
+Juan A. Gallardo. 
+; 
+doña Ana C. Barría de D. 
+Suplente). 
+Francisca Flores. 
+SEMINARIO 
+DEL ESPIRITU SANTO 
+Historia Antigua de los Pueblos Orientales ¡ Griega i Romana 
+Propietarios: don Blas Serón. 
+doña Hortensia Pérez. 
+don Ramón Traval. 
+Suplente: doña Ana C. Barría de D. 
+E 
+Historia de la Edad Media 
+Propietarios: don Blas Serón. 
+doña Hortensia Pérez. 
+don Juan H. Homs. 
+Suplente: doña Ana C. Barría de D. 
+Historia Moderna ¡ Contemporánea 
+Propietarios: don Blas Serón. 
+doña Hortensia Pérez. 
+: 
+don Ramón Traval. 
+* Suplente: doña Ana C. Barría de D. 
+Historia de América i Chile 
+Propietarios: don Blas Serón D, 
+doña Hortensia Pérez. 
+don Juan M. Homs. 
+Suplente: doña Ana C. Barría de D,. 
+ANALES ACTAS. -SETIEMBRE.- OCTUBRE. -—341
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 504

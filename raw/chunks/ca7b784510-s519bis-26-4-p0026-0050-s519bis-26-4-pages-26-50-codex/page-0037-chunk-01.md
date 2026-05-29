@@ -1,0 +1,121 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-373302c07388-P0037-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50.codex.md
+converted_sha256: 373302c07388cf0375c0edaf3123509567d6bcd54ced04cc6e03a9048d00640a
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50/manifest.json
+page_start: 37
+page_end: 37
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50/manifest.json`
+- Source page: 37
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50/page-images/page-0037.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+5 octobre
+1932
+Après avoir
+eu une conversation avec Mr.
+Walters,
+je viens
+vous prier d’envoyer à M.
+IGNACIO
+de la
+TORRE,
+secrétaire particulier de
+M. Alberto PANI,
+Ministre
+des
+Finances
+du Mexique,
+les publications suivantes:
+Les différentes publications
+sur l’or,
+Etude
+sur les Conseils
+économiques
+dans les
+différents
+pays du monde,
+La situation économique mondiale,
+1931-1933,
+Annuaire Statistique
+de la Société des Nations
+1930-31 et 1931-32.
+La crise agricole Volume I et Volume II.
+Principes et méthodes
+dè l’oeuvre
+de restaura¬
+tion financière entreprise
+sous les auspices
+de
+la Société
+des Nations.
+Les
+questions agricoles
+du point de
+vue inter¬
+national.
+Le catalogue
+des publications
+de la Société
+des Nations.
+J’écrirai
+à M.
+de la
+TORRI pour lui
+annoncer
+l’envoi
+de
+ces publications.
+Avec
+mes remerciements
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 38

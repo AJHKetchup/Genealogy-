@@ -1,0 +1,151 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ffb513ad0cb0-P0393-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0376-0400-s519bis-26-4-pages-376-400.codex.md
+converted_sha256: ffb513ad0cb08d6fbc6e4c5096a92c54962afb625026c3f3133df18c88e9ecbc
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0376-0400-s519bis-26-4-pages-376-400/manifest.json
+page_start: 393
+page_end: 393
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0376-0400-s519bis-26-4-pages-376-400/manifest.json`
+- Source page: 393
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0376-0400-s519bis-26-4-pages-376-400/page-images/page-0393.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+2
+nué que s’il pouvait être
+nommé Vice-Président
+de 1’As¬
+semblée
+en septembre
+ou Président d’une Commission, il
+pourrait utiliser cette possibilité pour agir auprès du
+Président
+de la République qui est
+son ami personnel.
+La suggestion
+de
+M. Paredes peut
+sembler au premier
+abord
+un élément
+sans importance
+au point
+de
+vue général,
+mais le
+cas
+de
+M.
+Guerrero démontre qu’il
+a une très
+grande
+Importance dans
+son pays,
+Htant
+donné
+que
+ce pays
+est le seul de l’Amérique
+Centrale qui n’ait
+pas annoncé
+son retrait
+de la Société
+des Kationa, il serait désirable
+que l'aspiration de
+M.
+Paredes puisse devenir une réalité.
+C’est
+sous l’im¬
+pression favorable
+que je lui ai laissée à
+ce sujet
+que
+U.
+Paredes s’est décidé
+à écrire
+au Président
+du
+Salvador
+et il espère pouvoir venir à
+Genève pour la prochaine
+As¬
+semblée.
+Afin
+de faciliter
+sa tâche
+P.
+Paredes
+m'a dit qu’il
+aurait
+reçu
+avec plaisir une
+demande
+en
+vue
+de donner
+son
+appui
+à la candidature de
+M. Yisscher aux élections
+de
+jure
+qui auront lieu pendant l’Assemblée extraordinaire.
+J’ai écrit
+un mot
+à
+ce sujet
+à
+M.
+Hoden et j’en ai parlé
+à M.Blomleel
+à Londres.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 394

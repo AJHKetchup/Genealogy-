@@ -1,0 +1,110 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-c5c193e2217d-P0109-01
+source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115.codex.md
+converted_sha256: c5c193e2217dc4f31b49f1dd0e8e1b19016cd1850141bdf132421f0b0b3a8927
+source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
+source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
+source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115/manifest.json
+page_start: 109
+page_end: 109
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115/manifest.json`
+- Source page: 109
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115/page-images/page-0109.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+NOMINA DE MEDICOS - CIRUJANOS TITULADOS 
+POR LA UNIVERSIDAD DE CHILE, 1949-1958. SIN 
+INSCRIPCION EN EL COLEGIO MEDICO 
+Abovich Nitrovich, Sonia 
+1957 
+Andino Maldonado, Ernesto 
+1957 
+Bilbao Pérez, Lourdes 
+1957 
+Bon Guzmán, Luciana 
+1956 
+Castaño Medina, Gustavo 
+1949 
+Drobny Olsever, Zunilda 
+1952 
+Escobar Bart, Liliana 
+1958 
+Fabres Gutiérrez, Rubén D. 
+1956 
+Franco Sayas, Elias E. 
+1949 
+González Núñez, Carlos M. 
+1958 
+Goth Mittelmann, Andrés 
+1950 
+Heiremans Despouy, Luis A. 
+1954 
+Hevia Urrutia, Gladys 
+1951 
+Hirsch Neustod, Julián 
+1957 
+Israel Sarkis, Jesús 
+1953 
+Izquierdo Fernández, Luis 
+1953 
+Jaruffe Mazzo, Fuad 
+1956 
+Joñas Oemick, Margot 
+1958 
+Lathrop Emaldia, Liliana 
+1957 
+Lovazzano Canegallo, Carlos 
+1956 
+Marcos Martínez, José 
+1952 
+Miranda Gutiérrez, Guido 
+1945 
+Miranda Gutiérrez, Mario 
+1951
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

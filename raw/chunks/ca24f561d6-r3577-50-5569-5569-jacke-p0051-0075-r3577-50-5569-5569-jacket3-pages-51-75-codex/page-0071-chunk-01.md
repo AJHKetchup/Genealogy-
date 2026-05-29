@@ -1,0 +1,90 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b61ff0ff36dd-P0071-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75.codex.md
+converted_sha256: b61ff0ff36dd91345270564d92ffdc23bcf123a99b07ad5803589fb7bbc26ecb
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75/manifest.json
+page_start: 71
+page_end: 71
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75/manifest.json`
+- Source page: 71
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75/page-images/page-0071.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+i8
+Séance
+du 4 Juillet 1929
+M. le Président
+:
+La commission désire-t-elle
+se prononcer dès maintenant sur la proposition de la déléga¬
+tion roumaine
+?
+M. Wadsworth (Etats-Unis d'Amérique) Traduction :
+Je ne crois pas que le Gouvernement des Etats-Unis désire que son service vétérinaire soit
+protégé par la Convention de la Croix-Rouge. Il me semble difficile de dqnner aux membres
+de ce service le brassard de la Croix-Rouge. Ce que j'ai demandé, c'est que la présence de mem¬
+bres du service vétérinaire dans les formations sanitaires ne privent pas ces formations du
+bénéfice de la Convention.
+M. Le Président
+:
+La proposition de la délégation roumaine est-elle appuyée ?
+Ce n'est pas le cas. Elle est écartée.
+La commission est-elle prête à se prononcer sur la proposition de la délégation des Etats-
+Unis
+?
+Il est procédé au vote par assis et levé.
+La proposition des Etats-Unis est acceptée à
+une grande majorité. Il y a deux avis con¬
+traires.
+Nous sommes arrivés à la fin de l'article 8.
+La prochaine séance aura lieu demain à 15 heures y2.
+Le débat est interrompu et la séance est levée à 18 h. 25.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

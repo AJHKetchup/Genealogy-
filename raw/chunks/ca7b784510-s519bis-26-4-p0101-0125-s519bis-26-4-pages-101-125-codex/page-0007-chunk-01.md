@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-48da1aa96db9-P0007-01
+chunk_id: CHUNK-1d6350280173-P0007-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125.codex.md
-converted_sha256: 48da1aa96db922dc0b9402f347a4648115fe95abbd1b8a11f4fd83d12a28f7e0
+converted_sha256: 1d63502801735e16072fa481833f42f1e6d930d56451ac726a812f4f66996ed5
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/manifest.json
@@ -65,3 +65,5 @@ All visible text on the page has been transcribed.
   "no_visual_regions_reason": "No substantial visuals (portraits, maps, diagrams, etc.) are present on this page. The dark circular mark is not considered a meaningful visual asset for cropping."
 }
 ```
+
+# Page 108

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-b8bf25e9ae4b-P0017-01
+chunk_id: CHUNK-61fef2e9f769-P0017-01
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0451-0475-r3016-11a-2905-950-pages-451-475.codex.md
-converted_sha256: b8bf25e9ae4bd180d4a24422bf53e493411f5ad5eec9d2b7f0a4137f41d2620b
+converted_sha256: 61fef2e9f769ec08a0139e44cc13b77ea7f5da94d8253837166c37f8ebab5c9e
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0451-0475-r3016-11a-2905-950-pages-451-475/manifest.json
@@ -46,3 +46,5 @@ All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+
+# Page 468

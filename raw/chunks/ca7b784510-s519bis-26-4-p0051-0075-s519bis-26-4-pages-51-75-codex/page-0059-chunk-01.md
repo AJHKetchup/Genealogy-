@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-6418466325c5-P0059-01
+chunk_id: CHUNK-207a331ac4dd-P0059-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75.codex.md
-converted_sha256: 6418466325c554befc7eb0593684925073f278b218b0eee059c7f99d2ace856d
+converted_sha256: 207a331ac4dddae88ab293969b5617ed034e9f7d0097ee5084622abe509f189d
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75/manifest.json
@@ -12,55 +12,100 @@ part: 1
 ---
 
 ## Page Metadata
-- Page: 59
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75/manifest.json`
+- Source page: 59
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75/page-images/page-0059.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-This page contains a single column of printed text. The page number "22" is centered at the top. The text consists of three paragraphs, followed by a separator of three asterisks. The second paragraph is enclosed in a hand-drawn blue box. The reading order is from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 22 —
 
+```markdown
+22
+—
+r
 integrar grandes nacionalidades. El desarrollo de
-la civilización se caracteriza por una tendencia a
-la expansión de la solidaridad humana, y en una
-etapa próxima asistiremos a una unión de gran-
-des nacionalidades determinada con vínculos ét-
-nicos, políticos, económicos. Y así nacerá el gran
-conglomerado de pueblos ibéricos que tiene algo
-que hacer. Y España es el tronco común de eso que
-puede llamarse Imperio, pero más exactamente
-fraternal Anfictionía de naciones de lenguas ibé-
-ricas, sin detrimento de soberanía alguna.
-
+la civilizacion se caracteriza por una tendencia a
+la expansion de la solidaridad hnmana, y en una
+etapa prôxima asistiremos
+a una union de gran¬
+des
+nacionalidades determinada
+con vinculos ét-
+nicos, politicos, econômicos. Y asi nacerâ el gren
+conglornerado de pueblos
+ibéricos que tiene algo
+que hacer. Y Espana es el tronco comün de eso que
+puede
+llamarse Imperio,
+pero
+mâs
+exactamente
+fraternal Anfictionia de naciones
+de lenguas ibé-
+ricas, sin detrimento de soberania alguna.
 »Cierto es que enfrente tenemos otros Imperios,
-otras, mejor otra Anfictionía. Hemos de procurar
-que el desenvolvimiento de esa entidad nuestra
-no sea contradictorio, sino complementario del
-de la otra. Todos tenemos que hacer lo nuestro,
+otras, mejor otra Anfictionia. Hemos de procurer
+que el desenvol"/imiento
+de
+esa entidad nuestra
+no
+se a "contir aaictor io,
+sino
+complementary
+del
+de la otra.
+Todos
+tenemos
+que hacer lo nucstro,
 que no es la guerra.
-
-»Para nuestro porvenir, todo está preparado allá.
-Ustedes han visto cómo se ha recibido a su emba-
-jador Alvarez del Vayo. El entusiasmo popular,
-absolutamente sincero y espontáneo, se ha des-
+»Para nuestro porvenir, todo esta prcparado alla.
+Ustedes han visto cômo se ha recibido a su emba-
+jador Alvarez del Vayo. El entasiasmo popular,
+àbsoldtamente sincero
+y espontâneo,
+se ha des-
 bordado.»
-
-\* \* \*
+*
+*
+*
+```
 
 ## Images, Captions, And Visual Notes
-- A hand-drawn blue box surrounds the paragraph that begins "»Cierto es que enfrente tenemos otros Imperios," and ends with "que no es la guerra."
-- There is a single hole-punch mark in the upper right corner of the page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible parts of this page.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-This page has been fully and accurately transcribed. All text and significant visual elements have been recorded.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text. A hand-drawn box marking a paragraph is described in the visual notes but is not a standalone visual asset."
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 60

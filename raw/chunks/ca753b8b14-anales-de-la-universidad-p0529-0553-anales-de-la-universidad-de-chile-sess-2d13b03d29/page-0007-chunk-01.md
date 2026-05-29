@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-535777fd97c8-P0007-01
+chunk_id: CHUNK-612b95e7fc36-P0007-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553.codex.md
-converted_sha256: 535777fd97c86b518b188050db2f241277fff8e9d58dc3da109c87686788c536
+converted_sha256: 612b95e7fc361579066be86a524506aa7362b42643e4c9700484fcf8a6885b98
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/manifest.json
@@ -84,3 +84,5 @@ All visible text on the page has been transcribed. The last word "teni-" is hyph
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content such as photographs, illustrations, maps, or complex diagrams that would warrant a visual region crop."}
 ```
+
+# Page 536

@@ -1,0 +1,120 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ffb513ad0cb0-P0384-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0376-0400-s519bis-26-4-pages-376-400.codex.md
+converted_sha256: ffb513ad0cb08d6fbc6e4c5096a92c54962afb625026c3f3133df18c88e9ecbc
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0376-0400-s519bis-26-4-pages-376-400/manifest.json
+page_start: 384
+page_end: 384
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0376-0400-s519bis-26-4-pages-376-400/manifest.json`
+- Source page: 384
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0376-0400-s519bis-26-4-pages-376-400/page-images/page-0384.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-
+2
+-
+Dr.
+Paredes no puede ser publleado oon la explieecidn
+susodioha, lo mejor es «upriair la causa de une mala
+interpretacidn puy probable*
+He creido oportuno expliearle
+en forma priv&ûa mi
+reoient® intervencldn personal
+en este aeunto, £orJ^e
+por
+su carta
+que ha escrito fd.
+a San Salvador haciendo
+oonooer
+sua impreslones al respeoto y es poeible *ue el
+punto principal que comento en la present© sea mo vivo ae
+ftomiini aaeiones dirigidas
+a /d.
+Antes
+d©
+terminer
+creo conveniente llamar su atencidn
+sobre el hecho
+de
+que
+en la documentaeldn enviada por el
+Br
+Araujo
+no figura la oomunicacidn aiisma del reoonoox-
+rniento,
+de
+modo
+que los periodistas se preguntan si ©se
+reconociaiento
+ha silo hecho
+o si esté en tramite.
+hos
+^
+Chinos
+que desearidn
+que el reconoaimiento no exietiese
+o
+fuee©
+anuledo atribuyen la euseneia del uocumento
+oa ital al propdsito de dejar una puerta abierta para
+un aambio
+en la aetitud salvadoreüa frente al problems*
+’3a
+ouanto
+por ahora creo dtil trasmitirl©,
+en
+vieperas de partir por très
+o euatro setaanas en busca de
+majores aires
+que los ginebrinos.
+Aproveche la oeasidn para reiterarle la eeguridad
+Siü ai mayor estima y de mis cordiales sentiaientos.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

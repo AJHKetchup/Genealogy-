@@ -1,0 +1,111 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-56ddbbe4749a-P0060-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63.codex.md
+converted_sha256: 56ddbbe4749a6983c1e8541a1b9446d55216afb909e3b8195de1487d711681c8
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json
+page_start: 60
+page_end: 60
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json`
+- Source page: 60
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/page-images/page-0060.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+— 56
+~
+gorîa, ello responde
+a las costumbres ya implantadas por los
+cargadores
+en
+cuanto al estado
+de
+esos frutos al tiempo de
+iniciar los transportes, lo que permite una tolerancia de mayor
+plazo,
+como lo prueba la implantaciôn y uso de tarifas espe-
+eiales vigentes aplicables
+con el 50 %
+de mayor plazo al de
+la tabla del artîeulo 349 anterior, équivalente al nuevo artîcu-
+lo 366.
+Las demâs disposiciones particulares
+del artîeulo
+247 pro-
+yectadas
+por
+esta Comisiôn,
+se explican
+de
+por sî
+y
+deter-
+minan la adaptation
+de
+esos transportes
+a las
+modalidades
+impuestas por la prâctica y los hechos.
+Como complemento de la reforma es indispensable la sancion
+por Decreto de la lista de clasificaeiones adjunta, evitândose
+con ello motivos de eontroversia y pleitos entre cargadores y
+empresas.
+Se aconseja este temperamento para seguir la prâctica esta-
+blecida y por cuanto su inclusion
+en el Reglamento de Ferro-
+carriles, resultarîa inconveniente para los casos de inclusiones
+o exclusiones que a gestion de parte o de oficio, pudieran resol-
+verse
+mas adelante.
+Dios guarde
+a Y. E.
+M. Garcia Torre.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 61

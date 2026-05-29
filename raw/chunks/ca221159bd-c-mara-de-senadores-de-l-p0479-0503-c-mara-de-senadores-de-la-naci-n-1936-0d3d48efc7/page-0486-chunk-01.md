@@ -1,0 +1,130 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-01fd4f1196a7-P0486-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503.codex.md
+converted_sha256: 01fd4f1196a79fa8300e4ffd9435c9c1df89bdd40b370ced19e4f15575686dae
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json
+page_start: 486
+page_end: 486
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Source page: 486
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/page-images/page-0486.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—
+25
+—
+Kilometraje.
+Art. 41. — a)
+Para el personal
+de conducciôn de loco-
+motoras,
+el kilometraje
+medio normal
+correspon¬
+dante
+a un periodo de trabajo sera el siguiente:
+1°
+Con trenes generales de pasajeros
+280
+kilomètres
+2°
+Con trenes mixtos, de encomiendas
+y e.speciales
+240
+„
+3°
+Con trenes de carga
+200
+„
+b)
+Cuando
+en un periodo de trabajo el kilometraje
+ex¬
+céda
+los limites establecidos
+en
+el inciso anterior,
+dicho excedente deberd abonarse computdndose en
+la siguiente forma:
+1°
+En el servicio de trenes generales de pasajeros:
+Menos de
+10 kilometres, no se tomard en cuenta.
+Entre
+10 y 20 kilometres = media hora.
+Entre 20 y 40 kilometres = una hora.
+2°
+En el servicio de trenes mixtos:
+Menos de 5 kilometres, no se tomard en cuenta.
+Entre 5 y 15 kilômetros ~ media hora.
+Entre
+15 y 30 kilômetros = una hora.
+3°
+En el servicio de trenes de cargos:
+Menos de 5 kilômetros, no se tomard en cuenta.
+Entre 5 y 10 kilômetros = media hora.
+Entre 10 y 20 kilômetros = una hora.
+c)
+La Direcciôn General
+de Ferrocarriles establecerd
+en cada caso el tope mdximo de kilometraje para el
+personal de conducciôn
+de locomotoras y coches
+motores,
+teniendo
+en
+cuenta
+la naturaleza de los
+servicios, las caracteristicas de las lineas y del mate¬
+rial empleado, asi como las condiciones de seguridad.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 487

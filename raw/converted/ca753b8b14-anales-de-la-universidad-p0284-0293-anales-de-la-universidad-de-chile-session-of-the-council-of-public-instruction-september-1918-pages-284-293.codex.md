@@ -8,56 +8,84 @@
 - Conversion method: Codex local vision workbench
 - Extracted images: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images`
 
+# Page 284
+
 ## Page Metadata
-Page number: 264
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json`
+- Source page: 284
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-images/page-0284.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a running header and page number at the top, followed by a single column of text. The text is a continuation of a letter or article, ending with a closing, signature, and date.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-de lengua literaria de alta cultura. Pero, por lo mé-
-nos, que se haga mucha lectura cultural en la lengua
-patria i en los tres idiomas reglamentarios. Este es
-el método activo por excelencia, el método que for-
-ma el carácter i el criterio i que instiga al alumno a
-la iniciativa personal.
 
-Como Ud. ve, señor Saavedra, estoi de acuerdo
-con Ud. en lo esencial, respecto a la lectura cultural
-en los idiomas modernos. En los detalles hai muchas
-diverjencias. Por lo demas, si esta carta se ha alar-
-gado talvez mas de lo necesario, es porque he que-
-rido aprovechar la oportunidad que me proporcio-
-naba la lectura de su obra para ciertos «descargos de
-conciencias» que tenia yo interes en presentar al pú-
-blico chileno en jeneral i a mis compañeros de tra-
-bajo en particular. No me halago con la ilusion de
-que mis ideas hayan de encontrar aceptacion uni-
-versal; pero, aunque me acompañe sólo una pequeña
-minoría: *Audiatur et altera pars*, como decian los la-
-tinos. I esto me basta.
-
-Con sinceras felicitaciones lo saluda cariñosamente
-su antiguo profesor i afectísimo amigo
-
-R. LENZ.
-
-Santiago, 10 de Agosto de 1918.
+```markdown
+264 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+de lengua literaria de alta cultura. Pero, por lo mé- 
+nos, que se haga mucha lectura cultural en la lengua 
+patria i en los tres idiomas reglamentarios. Este es 
+el método activo por excelencia, el método que for- 
+ma el carácter 1 el criterio 1 que instiga al alumno a 
+la iniciativa personal. 
+Como Ud. ve, señor Saavedra, esto1 de acuerdo 
+con Ud. en lo esencial, respecto a la lectura cultural 
+en los idiomas modernos. En los detalles hai muchas 
+diverjencias. Por lo demas, s1 esta carta se ha alar- 
+gado talvez mas de lo necesario, 
+es porque he que- 
+rido aprovechar la oportunidad que me proporcio- 
+naba la lectura de su obra para ciertos «descargos de 
+conciencias» que tenia yo interes en presentar al pú- 
+blico chileno en jeneral 1 a mis compañeros de tra- 
+bajo en particular. No me halago con la ilusion de 
+que mis ideas hayan de encontrar aceptacion unl- 
+versal; pero, aunque me acompañe sólo una pequeña 
+minoría: Audiatur et altera pars, como decian los la- 
+tinos. I esto me basta. 
+Con sinceras felicitaciones lo saluda Cano 
+ente 
+su antiguo profesor i afectísimo amigo 
+R. Lenz. 
+Santiago, 10 de Agosto de-1918.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on the page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Task id: `source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0285`

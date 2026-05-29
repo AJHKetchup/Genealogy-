@@ -1,0 +1,98 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-1d6350280173-P0101-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125.codex.md
+converted_sha256: 1d63502801735e16072fa481833f42f1e6d930d56451ac726a812f4f66996ed5
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/manifest.json
+page_start: 101
+page_end: 101
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/manifest.json`
+- Source page: 101
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/page-images/page-0101.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+saato Dossing©*
+7 do Morieabre do 1935.
+Al
+Heitor d. Virgilio mtjillo Molina* s. E.
+y Kinlstro rlenipoteneiarlo do la tfep&-
+blica Dominicana
+on Paris*
+Asunto:
+Vacantes
+en la Oort©
+de Justioia Interna»
+clonal.
+Con motive del fallaciaiento de H* Waither
+SchUcking y de la renunoia de Mr.
+Frank b. Kellogg, hay
+dos vacantes
+en la carte de Justioia Internaoional.
+Ya han aido *>edidos los oanüidatoe oorras»
+pondiente» al grupo dominioano de la Carte Permanente
+de Arbitrage.
+detain!-
+dentro
+oitaûo grupo
+eorreo aéieo*
+lista de las
+ciel
+raâs breve têrmino posible*
+_
+candidatures que han aparecido
+en &uropa para cubrir
+taies vacantes.
+b* Bracbe Hljo,
+ocoratario
+de Bstado de nelaoiones
+kxteriores
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 102

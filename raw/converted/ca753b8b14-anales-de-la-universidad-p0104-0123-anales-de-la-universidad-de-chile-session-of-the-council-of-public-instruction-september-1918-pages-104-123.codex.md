@@ -641,15 +641,15 @@ Suplentes:
 
 don  Ricardo Poenisch.
 
-- Francisco Próschle. 》
+- Francisco Próschle.
 
-- Enrique Martínez (para  el  3.0  1 4.2  años). 《
+- Enrique Martínez (para  el  3.0  1 4.2  años).
 
-- Augusto Meltzer (para  el  5.9  1 6.0  años). 》
+- Augusto Meltzer (para  el  5.9  1 6.0  años).
 
-- Francisco A.  Medina Rivera. 《
+- Francisco A.  Medina Rivera.
 
-- Ramón  Jiménez Villagrán. 》
+- Ramón  Jiménez Villagrán.
 
 ## Francés 1.9, 2.2  ¡ 3%-  años
 
@@ -657,27 +657,27 @@ don  Ricardo Poenisch.
 
 Suplentes:
 
-- Carlos Montebruno. 《
+- Carlos Montebruno.
 
-- Agustín Oñate. 《
+- Agustín Oñate.
 
-- Maximiano Flores. 《
+- Maximiano Flores.
 
-- Manuel Molina A.: 《
+- Manuel Molina A.:
 
 ## Francés 4.2  año
 
 ## Propietarios: Antonio Díez.
 
-Suplentes: 》
+Suplentes:
 
-- Francisco Zapata Lillo. 》
+- Francisco Zapata Lillo.
 
-- Agustín Oñate. 《
+- Agustín Oñate.
 
 - Arturo Varela.
 
-- Manuel Molina A. 《
+- Manuel Molina A.
 
 ## Francés 5.  i 6.2  años
 
@@ -687,11 +687,11 @@ Suplentes:
 
 - Francisco Zapata  Lillo.
 
-- Marcelino Masbou. 》
+- Marcelino Masbou.
 
-- Artuo Varela. 》
+- Artuo Varela.
 
-- Manuel Molina A 》
+- Manuel Molina A
 ```
 
 ## Images, Captions, And Visual Notes

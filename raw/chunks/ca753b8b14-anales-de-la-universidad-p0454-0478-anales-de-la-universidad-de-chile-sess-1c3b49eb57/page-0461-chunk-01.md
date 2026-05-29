@@ -1,0 +1,113 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b157b3a97474-P0461-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478.codex.md
+converted_sha256: b157b3a974743a0f543c3126ccc060dcee7c9845453811f62efe33b7741ebc80
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json
+page_start: 461
+page_end: 461
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json`
+- Source page: 461
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/page-images/page-0461.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+¡CABREO + 1V 
+Mas datos 
+sobre 
+el Trabajo en 
+el Mineral 
+SUMARIO. 
+—]. Las casas de fuerza. —?2. 
+La torre de ácidos, —3. 
+Del la- 
+boratorio químico, —d4. Las maestranzas.—5. El taller eléctrico. —6. La 
+Reglamentación: reglas de seguridad e instrucciones para los empleados 
+de la Compañía y sus operarios.-—a) Instrucciones jenerales 
+para 
+los 
+jefes. —b) Reglas jenerales. 
+c) Diversos reglamentos para los hombres 
+que trabajan 
+bajo tierra. 
+d) Para los electricistas.—e) 
+Molino, —f) 
+Fundición. 
+y) Ferrocarriles. 
+—h) Casas, tipo "D”, para obreros. 
+S 1. Las casas de fuerza—Todas las maquinarias, 
+calderas, 
+motores, 
+etc., 
+de la Braden Copper 
+Ce. 
+se mueven por electricidad; 
+tiene su magnífica 
+i 
+principal 
+instalación 
+hidroeléctrica 
+en 
+Coya, 
+co- 
+mo 
+a 28 kilómetros 
+de Sewell. 
+Se aprovecha 
+la 
+fuerza de una caida de agua de 422 pies de altura. 
+El agua desviada del rio Cachapoal, es traida por 
+un canal de 12 pies de ancho, 8 de profundidad 1 
+12 kilómetros 
+de 
+largo. La «bocatoma» 
+o represa 
+está situada en los Chacayes; 
+desde este punto el
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

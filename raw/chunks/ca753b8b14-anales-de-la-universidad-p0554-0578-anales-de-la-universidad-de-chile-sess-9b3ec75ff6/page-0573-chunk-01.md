@@ -1,0 +1,108 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-5a8bf119edb4-P0573-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0554-0578-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-554-578.codex.md
+converted_sha256: 5a8bf119edb45698f27298636b6b3b4352f4bf260366c978662317daa686abe9
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0554-0578-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-554-578/manifest.json
+page_start: 573
+page_end: 573
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0554-0578-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-554-578/manifest.json`
+- Source page: 573
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0554-0578-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-554-578/page-images/page-0573.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+SESION DE 17 DE JUNIO DE 1918 
+181 
+ANEXO. 
+DOCUMENTOS LEIDOS EN LA SESION 
+Santiago, 31 de Mayo de 1918. 
+N.2 1,295.—Decreto: 
+1.2 Comisiónase a 
+don Enrique Moli- 
+na, Rector 
+1 profesor del 
+Liceo de hombres 
+de Concepcion, 
+pa:a que estudie la organizacion 
+de las Universidades de Es- 
+tados Unidos de Norte América. 
+2.0 La Tesorería Fiscal de Santiago pagará al señor Molina, 
+¡previa la fianza de estilo, 
+un trimestre anticipado de la pen- 
+sion que consulta el referido ítem 2,696 del presupuesto vijente, 
+i el resto le será pagado por 
+la Tesorería 
+Fiscal de Chile en 
+Lóndres en la forma acostumbrada. 
+(Firmado), —SANFUENTES. 
+P. Aguwre Cerda. 
+Santiago, 14 de Junio de 1918. 
+Señor Rector: 
+He tenido la honra 
+de recibir su mui atenta comunicacion 
+de 11 del presente, 
+en la que se sirve trasmitirme el acuerdo 
+tomado 
+por el Consejo 
+de Instruccion Pública en su última 
+sesion, de manifestarme el sentimiento de sus miembros por mi 
+alejamiento del seno de esa ilustre Corporacion, i de felicitarme 
+al propio tiempo por mi promocion a la Sede episcopal de Con- 
+cepcion. 
+Ese acuerdo me honra sobremanera, 
+1 compromete una vez 
+mas la gratitud que 
+por muchos 
+títulos debo a cada uno de 
+los miembros del Consejo. 
+J
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 574

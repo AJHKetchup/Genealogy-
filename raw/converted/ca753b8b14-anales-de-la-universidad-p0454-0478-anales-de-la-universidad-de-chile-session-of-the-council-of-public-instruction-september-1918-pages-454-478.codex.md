@@ -532,109 +532,225 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 
+# Page 460
+
 ## Page Metadata
-Page number: 440
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json`
+- Source page: 460
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/page-images/page-0460.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page features a header with a page number on the left and a section title on the right, separated by a horizontal rule. The main content is presented in a single column, followed by two numbered footnotes, also in a single column, separated from the main text by a short horizontal rule. Another short horizontal rule appears near the bottom of the page, indicating a section break.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-440 MEMORIAS CIENTÍFICAS I LITERARIAS
-—
-El Molino, en el que se usa, como hemos visto, el
-sistema de flotación, (de la «Minerals Separation
-Limited»)—agrega el informe—«elaboró 1.799.694 (7)
-de toneladas de mineral, por término medio de
-2.319% de cobre, del cual 81,61% fué sacado en
-concentrados.
-«La fundición redujo 158.275 toneladas de «con-
-centrados» de las que 112.549 toneladas fueron a los
-hornos para ser «nodulizados» antes de fundirlos.
-El total reducido fué 193,290 toneladas, ha-
-biéndose usado 11,67% de cok.
-«Los convertidores hicieron 87.6 toneladas de
-cobre poroso (_blister_) por día contra 57.8 tonela-
-das en 1916. El cobre obtenido fué 31.887 tonela-
-das» (8).
-—
-7. _El Anuario estadístico de Chile, vol. VIII, indica solo 1,633.116_
-_toneladas._
-8. _Al precio standard de 120 £ por tonelada de barras aquellas_
-_31,887 toneladas significarían un rendimiento bruto de 3.816.440 £._
-_El Anuario Estadístico de Chile, cuadro XLV (vol. VIII, Mine-_
-_ría i Metalurjia del año 1916) da, como hemos visto antes, para es-_
-_te año como minerales beneficiados 1,633.116 de 2.32% de lei, que_
-_rindieron como producto final 28,805 toneladas de 99,26% de lei. La_
-_diferencia entre los guarismos de EE. UU. i los de Chile es, pues, de_
-_3,082 toneladas métricas. No me esplico esta diferencia en datos que_
-_son oficiales i deberían ser idénticos._
-—
-
-## Images, Captions, And Visual Notes
-
-- A short horizontal rule separates the main text from the footnotes.
-- A short horizontal rule appears near the bottom of the page, indicating a section break.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text and layout elements have been captured.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets. The page contains only text and decorative horizontal rules."}
-
-## Page Metadata
-- Page number: 461
-
-## Layout And Reading Order
-The page begins with a decorative header, followed by a centered chapter title and subtitle. Below this is a left-aligned summary list. The main body of the text starts with a section heading and continues as a single column of prose, which is truncated at the bottom of the page.
-
-## Literal Transcription
-<pre>
-<span style="text-align:center;">&#x20;</span>
-<span style="text-align:center;">CAPITULO IV</span>
-
-<span style="text-align:center;">Mas datos sobre el Trabajo en el Mineral</span>
-
-SUMARIO.—1. Las casas de fuerza.—2. La torre de ácidos.—3. Del la-
-boratorio químico.—4. Las maestranzas.—5. El taller eléctrico.—6. La
-Reglamentación: reglas de seguridad e instrucciones para los empleados
-de la Compañía y sus operarios.—a) Instrucciones jenerales para los
-jefes.—b) Reglas jenerales. c) Diversos reglamentos para los hombres
-que trabajan bajo tierra.—d) Para los electricistas.—e) Molino.—f)
-Fundición.—g) Ferrocarriles.—h) Casas, tipo "D", para obreros.
-
-§ 1. Las casas de fuerza—Todas las maquinarias,
-calderas, motores, etc., de la Braden Copper Co.
-se mueven por electricidad; tiene su magnífica i
-principal instalación hidroeléctrica en Coya, co-
-mo a 28 kilómetros de Sewell. Se aprovecha la
-fuerza de una caída de agua de 422 pies de altura.
-El agua desviada del rio Cachapoal, es traida por
-un canal de 12 pies de ancho, 8 de profundidad i
-12 kilómetros de largo. La «bocatoma» o represa
-está situada en los Chacayes; desde este punto el
-</pre>
-
-## Images, Captions, And Visual Notes
-- A decorative rule with repeating geometric and floral patterns spans the top of the page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text and visual elements on the page have been transcribed or described. The last paragraph is cut off at the bottom of the page.
-
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The decorative rule at the top is not substantial enough to warrant a crop box; it's a common design element."
-}
+```markdown
+440 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+El Molino, en el que se usa, 
+como hemos visto, el 
+sistema de 
+flotación, 
+(de la «Minerals 
+Separation 
+Limited») —agrega el informe-—<e!laboró 1.799.694 (7) 
+de toneladas 
+de mineral, 
+por término medio da 
+2.319% de cobre, del cual 81, us fué sacado en 
+concentrados. 
+; 
+«La fundición redujo 
+158,275 
+toneladas de «con- 
+centrados» de las que 112.549 toneladas fueron a los 
+hornos 
+para 
+ser «nodulizados» 
+antes de fundirlos. 
+El total 
+reducido 
+fué 
+193,290 
+toneladas, 
+ha- 
+biéndose usado 11,67% de cok. 
+«Los convertidores 
+hicieron 
+S7.6 toneladas 
+de 
+cobre poroso 
+(blaster) 
+por día contra 
+57.8 tonela- 
+das en 
+1916. El cobre obtenido fué 31.887 tonela- 
+das» 
+(8). 
+7. El Anuario estadístico de Chile, 
+vol. VIIL, indica solo 1,633.116 
+toneladas. 
+> 
+' 
+8. Al 
+precio standard de 120 ¡ £ por tonelada 
+de barras 
+aquellas 
+31,587 toneladas significarían un 
+rendimiento bruto de 3.816.440 £. 
+El Anuario Estadístico 
+de Chile, cuadro XLV (vol. VIIL, Mine- 
+ríai Metalurjta del año 
+1916) 
+da, como 
+hemos visto antes, para es- p 
+te año como minerales beneficiados 1,633.116 de 2.32% de lei, 
+que 3 
+rindieron como producto final 28,805 conelfdas de 99,26% de lei. La 
+diferencia entre los guarismos de EE. UU. ilos de Chile es, 
+pues, de - 
+3,082 toneladas métricas. No me esplico esta diferencia en datos ques 13 
+son oficiales 1 deberían ser idénticos.
 ```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 461
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json`
+- Source page: 461
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/page-images/page-0461.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+¡CABREO + 1V 
+Mas datos 
+sobre 
+el Trabajo en 
+el Mineral 
+SUMARIO. 
+—]. Las casas de fuerza. —?2. 
+La torre de ácidos, —3. 
+Del la- 
+boratorio químico, —d4. Las maestranzas.—5. El taller eléctrico. —6. La 
+Reglamentación: reglas de seguridad e instrucciones para los empleados 
+de la Compañía y sus operarios.-—a) Instrucciones jenerales 
+para 
+los 
+jefes. —b) Reglas jenerales. 
+c) Diversos reglamentos para los hombres 
+que trabajan 
+bajo tierra. 
+d) Para los electricistas.—e) 
+Molino, —f) 
+Fundición. 
+y) Ferrocarriles. 
+—h) Casas, tipo "D”, para obreros. 
+S 1. Las casas de fuerza—Todas las maquinarias, 
+calderas, 
+motores, 
+etc., 
+de la Braden Copper 
+Ce. 
+se mueven por electricidad; 
+tiene su magnífica 
+i 
+principal 
+instalación 
+hidroeléctrica 
+en 
+Coya, 
+co- 
+mo 
+a 28 kilómetros 
+de Sewell. 
+Se aprovecha 
+la 
+fuerza de una caida de agua de 422 pies de altura. 
+El agua desviada del rio Cachapoal, es traida por 
+un canal de 12 pies de ancho, 8 de profundidad 1 
+12 kilómetros 
+de 
+largo. La «bocatoma» 
+o represa 
+está situada en los Chacayes; 
+desde este punto el
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 442

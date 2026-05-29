@@ -1,0 +1,150 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e40c522fae52-P0407-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425.codex.md
+converted_sha256: e40c522fae521f8f84c6438a1678006094b95832aabcfdc6a81426a5f1612ac2
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/manifest.json
+page_start: 407
+page_end: 407
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/manifest.json`
+- Source page: 407
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/page-images/page-0407.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+GINEBRA,
+23 Diciembre,
+1931
+Sr.
+D. Pablo
+A. Pizzurno
+Calle
+11
+de Septiembre,
+839
+BUENOS AIRES
+Querido amigo:
+En momentos
+de liar los petat es
+para descansar
+fuera
+de
+Ginebra algunos dias, recibi
+sus afectuosas li-
+neas del
+20
+de
+Koviembre
+con la carta del
+Secretario
+de la
+Comision Protectora
+de Bibliotecas Populares
+que mucho le
+agradezco.
+En efecto,
+el
+cheque aludido llegô oportunamente
+a Ginebra y
+aunque
+no cubria el monto
+de la factura debido
+a la diferencia
+de earabio,
+se cobrô
+como pago fntegro de los
+folletos comprados
+a los
+cuales
+se habian agregado,
+como Yd.
+sabe,
+500 mas en forma gratuit a.
+Lef
+en "La Baci<5n"
+de Buenos Aires
+del l2
+de
+Di-
+ciembre,
+algunos parrafos del discurso pronunciado por Vd*
+en el Rotary Club
+que,
+como siempre,
+refie«ja
+sus sentimien-
+tos
+generosos y
+su
+amor por la concordia entre los hombres.
+Espero tener noticias
+de
+Yd«
+a pesar
+de
+que ha de-
+jado
+de pertenecer
+a las dos Instituciones
+en
+que lo he
+co-
+nocido
+(Conseco
+de Educacion y Comision
+de Bibliotecas)
+y
+le envio
+con mis cordiales
+saludos los votos
+de felieidad
+a
+que
+su vida ejemplar le ha hecho acreedor.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

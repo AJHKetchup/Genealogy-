@@ -1,0 +1,136 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-0d83d96ceb8f-P0438-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450.codex.md
+converted_sha256: 0d83d96ceb8fae61e17ecf24e8d9184abd618a69886e5c3462466b167fe57de4
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/manifest.json
+page_start: 438
+page_end: 438
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/manifest.json`
+- Source page: 438
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/page-images/page-0438.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+2
+le "heeueil iedf-gogique"
+(lïo.
+£,
+janvier 1950). foutes les
+deux publications m’intéressent beaucoup, surtout cette
+dernière.
+Voulez-vous m’envoyer le numéro antérieur et
+me considérer
+comme abonné?
+Je
+vous prie donc
+de
+me dire,
+si
+cela
+est
+de votre compétence,
+comment devrais-je vous
+faire parvenir le montant.
+C’est
+dommage
+que
+nous
+soyons à
+une si
+grande dis¬
+tance!
+31
+vous saviez comment
+je serais heureux si je pou¬
+vais aller moi-même à Genève!
+Presque
+en meme temps
+que cette lettre vous recevrez
+la communication officielle concernant les mille exemplaires
+que
+nous comptons acquérir si vous faites la réimpression
+de la brochure.
+Comme le hr.
+Vega ï elgrano est malade, la
+lettre
+sera signée probablement par le Vice-président,
+Dr.
+Francisco
+ce Veyga.
+Croyez-moi,
+etc. etc.
+3igné :
+Pablo A.
+Pisaurno
+.3.
+Vous
+avez raison quand vou3 dites
+que par inadvertance j’avais
+omis
+de
+me référer à la Société
+des nations dans le résumé
+écrit
+de
+mes conférences,
+mais je
+vous assure
+que
+ce fait
+ne
+s’est
+pas produit
+dans le texte des conférences et moins
+en¬
+core, naturellement,
+dans le livre
+que je suis en train de
+préparer.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

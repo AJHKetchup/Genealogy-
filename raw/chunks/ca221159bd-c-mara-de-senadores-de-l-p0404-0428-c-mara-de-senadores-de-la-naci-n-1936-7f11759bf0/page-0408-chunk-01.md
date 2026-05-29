@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-caf6f9616036-P0408-01
+chunk_id: CHUNK-e00e9df759f3-P0408-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428.codex.md
-converted_sha256: caf6f96160367796cd95fb2dfb9b91b8e68d018cd302e0ac2e751d717fa95edb
+converted_sha256: e00e9df759f3257a034aeaf58c334899e3adec0256a89d2f364db0f0567a1e52
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json
@@ -12,56 +12,100 @@ part: 1
 ---
 
 ## Page Metadata
-- Task id: `source-prep:ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428:p0408`
+
 - Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
-- Page: 408
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json`
+- Source page: 408
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/page-images/page-0408.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a decree with a title, date, decree number, a "Considering" section, a "DECRETA" section with three articles, and two signatures. The content is presented in a single column.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-REGLAMENTO SOBRE EL USO DE DISTINTIVOS
+
+```markdown
+REGLAMENTO
+SOBRE EL USO
+DE DISTINTIVOS
 EN LOS VEHICULOS
-—
 La Plata, 13 de mayo de 1936.
-
-DECRETO NÚM. 20
-
-Considerando:
-Que la Ley número 4247 en su artículo 11, inciso d), pres-
-cribe únicamente para los vehículos que transportan explosivos,
+DECRETO
+NÜM. 20
+Considerando :
+Que la Ley numéro 4247 en su artîculo
+11, inciso d), pres¬
+cribe unicamente para los vehiculos que transportan explosivos,
 el uso de la bandera roja;
-Que el uso generalizado de este distintivo para vehículos que
+Que el uso generalizado de este distintivo para vehiculos que
 transportan otros materiales, da lugar a confusiones y dificulta
 la vigilancia especial de que deben ser objeto los primeros.
-El Poder Ejecutivo, en uso de sus atribuciones, —
-
-DECRETA:
-
-Art. 1º Destínase el distintivo de bandera roja, únicamente
-para los vehículos que transportan armas o explosivos.
-Art. 2º Para los vehículos que transportan combustibles o
-cargas especiales, en los que se crea conveniente establecer
-alguna precaución o por las condiciones de los vehículos, se
-empleará como distintivo un gallardete de forma triangular, con
-los colores amarillo arriba y negro abajo, teniendo como línea
-de separación, la que va del medio de la base sobre el asta a la
+El Poder Ejeeutivo, en uso de sus atribuciones,—
+DECRETA :
+Art. P
+Destinase el distintivo de bandera roja, unicamente
+para los vehiculos que transportan armas
+o explosivos.
+Art.
+29
+Para los vehiculos
+que transportan combustibles
+o
+cargas
+especiales,
+en
+los
+que
+se
+créa conveniente establecer
+alguna precauciôn
+o
+por las condiciones
+de los vehiculos,
+se
+emplearâ como distintivo un gallardete de forma triangular, con
+los colores amarillo arriba y negro abajo, teniendo como linea
+de separaciôn, la que va del medio de la base sobre el asta a la
 punta.
-Art. 3º Comuníquese, etcétera.
-
-M. A. FRESCO.
-J. M. BUSTILLO.
+Art.
+39
+Comuniquese, etcétera.
+M.
+A. FRESCO.
+J. M. Bustillo.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. A short horizontal rule appears under the main title.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for region cropping."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 409

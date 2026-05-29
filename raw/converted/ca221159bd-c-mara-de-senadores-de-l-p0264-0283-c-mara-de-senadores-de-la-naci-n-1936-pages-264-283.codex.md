@@ -1068,112 +1068,198 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 274
+
 ## Page Metadata
-Page number: 274
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json`
+- Source page: 274
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/page-images/page-0274.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, primarily legal or official document content, followed by signatures and a concluding statement. A page number is present in the bottom right corner.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-Art. 40° — El Ministerio de Agricultura facilitará sin cargo, a
-la Dirección Nacional de Vialidad, todos los elementos necesarios y
-posibles para el arbolado y embellecimiento de los caminos.
-Art. 41° — En cada pliego de bases y condiciones para los lla-
-mados a licitación, la Dirección Nacional de Vialidad establecerá el
-jornal mínimo que las empresas deberán abonar a sus obreros.
-Art. 42° — El Poder Ejecutivo reglamentará la aplicación de
-esta Ley dentro de los 60 días de promulgada.
-Art. 43. — Deróganse todas las disposiciones de otras leyes que
-se opongan a la presente.
-Art. 44. — Comuníquese al Poder Ejecutivo.
-
-Dada en la Sala de Sesiones del Congreso Argentino, en Buenos Aires,
-a treinta días del mes de septiembre del año mil novecientos
+```markdown
+Art.
+40"
+-- Kl Miiiisterio
+de Agricultura facilitarâ sin cargo,
+a
+la Direcciôn Nacional
+de \ ialidad, todos los elementos necesarios y
+posibles para el arbolado
+y embelleciiniento
+de los caminos.
+Art.
+41"
+— En cada pliego de bases y condiciones para los 11a-
+mados
+a iieitacion, la Direcciôn Nacional de Yialidad establecerâ el
+jornal miniino que las empresas deberân abonar
+a sus obreros.
+Art.
+42-
+— El
+Poder Ejecutivo reglamentara la aplicacion de
+esta Ley dentro de los 60 dîas de promulgada.
+Art. 43.
+— Derôganse todas las disposiciones de otras leyes que
+se opongan
+a la presente.
+Art.
+44.
+— Comuniquese al Poder Ejecutivo.
+Dadà en la Sala de Sesiones del Congre,so Argentino, en Buenos Aires,
+a
+treinta
+dias del
+nies
+de septiembre del
+ano mil novecientos
 treinta y dos.
-
-JULIO A. ROCA
-Gustavo Figueroa
-
-JUAN F. CAFFERATA
+Julio A.
+Roca
+Juan F. Cafpeeata
+Gustwvo Figueroa
 D. Zambrano
-
 POR TANTO:
-
-Téngase por Ley de la Nación, cúmplase, dése al Registro Na-
-cional y archívese.
-
+Téngase por Ley de la Naeion, cûmplase, dése al Registre Na-
+cional
+y archivese.
 JUSTO
-M. R. ALVARADO
-
+M. R. Alvarado
+*
+/
+•
 15
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and the page number have been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for cropping."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 275
 
 ## Page Metadata
-- Page number: 16
-- Source publication year: 1936
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json`
+- Source page: 275
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/page-images/page-0275.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, primarily legal or regulatory in nature. It begins with a title, followed by a decree number, date, an introductory paragraph, a signature line, a section header, an article, another section header, and a second article which continues onto the next page. A page number "16" is present at the bottom left.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-Reglamento de la Ley Nacional de Vialidad
 
-(Decreto Nº 14.137)
-
+```markdown
+Reglamên+o de la Ley Nacionaf de Viafidad
+(Decreto N« 14.137)
 Buenos Aires, diciembre 5 de 1932.
-
-En cumplimiento de lo dispuesto en el artículo 42 de la Ley
-11.658 que ordena la reglamentación dentro de los 60 días de haber
-sido promulgada, y en uso de la facultad conferida por el artículo 86,
-inciso 2º de la Constitución Nacional:
-
-*El Presidente de la Nación Argentina en Acuerdo de Ministros—*
-
-DECRETA:
-
-Artículo 1º — La Administración de la Dirección Nacional de
-Vialidad será ejercida por su Directorio, dentro de las prescripciones
-de la Ley 11.658 y del presente Decreto reglamentario.
-
+En cumplimiento de lo dispuesto
+en el artîculo 42 de la Ley
+11.658 que ordena la reglamentaciôn dentro de los 60 dîas de haber
+sido promulgada, y.en uso de la facultad conferidà por el articule 86.
+ineiso 2’ de la Oonstituoiôn Nacional;
+El Présidente de la Naciân Argentina en Aeuerdo de Ministros—
+DECRETA
+:
+Artîculo
+1"
+— La Administration
+de la Direction Nac.ional de
+Yialidad sera ejercida por su Directorio. dentro de las prescripciones
+de la Ley 11.658 y de! présente Decreto reglamentario.
 DEL DIRECTORIO
-
-Art. 2º — El Directorio sesionará ordinariamente no menos de
+Art.
+2°
+— El Directorio sesionarâ ordinariamente no nienos de
 una vez por semana y extraordinariamente siempre que sea convoca-
-do por el Presidente en ejercicio, a iniciativa propia o a pedido de
-dos de sus miembros.
-El quórum se formará con la presencia de cuatro Directores in-
-cluso el Presidente o su reemplazante. Las resoluciones del Directo-
-rio serán adoptadas en todos los casos por mayoría de votos presen-
-tes. El Presidente tendrá voz y voto en las deliberaciones y doble
-voto en caso de empate. Producido éste y reabierta la discusión, el
-
-16
+do por el Présidente en ejercicio, a iniciativa propi a o a pedido de
+dos de sus raiembros.
+El quorum
+se formarâ cou la presencia de cuatro Directores in¬
+cluse
+el Présidente
+o
+su reemplazante. Las resoluciones de! Directo¬
+rio serân adoptadas en todos ]os casos por mayorîa do votos présen¬
+tes. El
+Présidente tendra
+voz y voto en las deliberaciones y doble
+veto
+en
+easo
+de empâte. Producido este y reabierta la discusiôn, el
+lé
+```
 
 ## Images, Captions, And Visual Notes
-There are no substantial images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last paragraph of Article 2 is cut off at the bottom of the page, indicating it continues on the subsequent page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 276
 

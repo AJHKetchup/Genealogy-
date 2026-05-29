@@ -1,0 +1,129 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b157b3a97474-P0460-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478.codex.md
+converted_sha256: b157b3a974743a0f543c3126ccc060dcee7c9845453811f62efe33b7741ebc80
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json
+page_start: 460
+page_end: 460
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json`
+- Source page: 460
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/page-images/page-0460.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+440 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+El Molino, en el que se usa, 
+como hemos visto, el 
+sistema de 
+flotación, 
+(de la «Minerals 
+Separation 
+Limited») —agrega el informe-—<e!laboró 1.799.694 (7) 
+de toneladas 
+de mineral, 
+por término medio da 
+2.319% de cobre, del cual 81, us fué sacado en 
+concentrados. 
+; 
+«La fundición redujo 
+158,275 
+toneladas de «con- 
+centrados» de las que 112.549 toneladas fueron a los 
+hornos 
+para 
+ser «nodulizados» 
+antes de fundirlos. 
+El total 
+reducido 
+fué 
+193,290 
+toneladas, 
+ha- 
+biéndose usado 11,67% de cok. 
+«Los convertidores 
+hicieron 
+S7.6 toneladas 
+de 
+cobre poroso 
+(blaster) 
+por día contra 
+57.8 tonela- 
+das en 
+1916. El cobre obtenido fué 31.887 tonela- 
+das» 
+(8). 
+7. El Anuario estadístico de Chile, 
+vol. VIIL, indica solo 1,633.116 
+toneladas. 
+> 
+' 
+8. Al 
+precio standard de 120 ¡ £ por tonelada 
+de barras 
+aquellas 
+31,587 toneladas significarían un 
+rendimiento bruto de 3.816.440 £. 
+El Anuario Estadístico 
+de Chile, cuadro XLV (vol. VIIL, Mine- 
+ríai Metalurjta del año 
+1916) 
+da, como 
+hemos visto antes, para es- p 
+te año como minerales beneficiados 1,633.116 de 2.32% de lei, 
+que 3 
+rindieron como producto final 28,805 conelfdas de 99,26% de lei. La 
+diferencia entre los guarismos de EE. UU. ilos de Chile es, 
+pues, de - 
+3,082 toneladas métricas. No me esplico esta diferencia en datos ques 13 
+son oficiales 1 deberían ser idénticos.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 461

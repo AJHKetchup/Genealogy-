@@ -1,0 +1,113 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f907aa9d1630-P0348-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350.codex.md
+converted_sha256: f907aa9d1630d09496bc96d685f684e78ec70cdffb0d2d0afbc36f2e5194c35a
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350/manifest.json
+page_start: 348
+page_end: 348
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350/manifest.json`
+- Source page: 348
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350/page-images/page-0348.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Roma,Dicbre
+9 de 1924
+SBtimaâo Dr.
+Pinto Escalier:
+La euestton del nombramiento del Miembro
+del pais latino amerieano para la Comision Consultiva Del
+Opio habia sufrido un contratiempo
+que
+ya le explicaré
+de viva
+voz oportona&ente.
+Hablé
+con los miembros del Conseco y;des¬
+pues
+de estudiar el asunto.obtuve dar a las
+oosas
+un giro ne-
+3or y el nombramiento
+no tendra ya el retardo
+que
+se le prepa
+raha.
+Cuaado
+se trato
+de indioar el pais.tanto el Dr.
+Gua
+ni
+Gomo el Dr.
+LIello
+Franco aeeptaron
+que el mejor candidate
+■f
+*y.
+es Bolivia,pues
+es
+de los paises interesados
+(Peru y Bolivia)
+en sspeoial modo,el
+que
+se ha interesado directamente envtando
+a
+Vd.
+a la Conferencia que
+se realiza eif Ginebra. Creo,p
+que ya es
+cosa deeidida^
+que su pais
+sea designado para nombrar
+1
+Aproveeho la ocasion para saludarlo rauy cofedialmente
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 349

@@ -412,50 +412,80 @@ All visible text and minor visual elements have been transcribed or noted.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
 
+# Page 309
+
 ## Page Metadata
-Page number: 309
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 309
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0309.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a decorative header at the top, followed by a centered title, subtitle, author, and date. Below this, there is a standard paragraph of text, followed by a footer at the bottom left. The content is presented in a single column.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-<pre>
-SOBRE EL ESTUDIO DE IDIOMAS. II
 
-(Contestacion a la carta de don Julio Saavedra del
-12 de Octubre)
-
-POR
-
-Rodolfo Lenz
-
-Santiago, 2 de Noviembre de 1918.
-
-Estimado señor Saavedra:
-
-He leido con atencion su carta del 12 de Octubre
-i se la agradezco porque pone en claro algunos pun-
-tos que me habian quedado dudosos despues de la
-lectura de su libro. Puede ser que la culpa haya sido
-en gran parte mia si no he alcanzado a sacar las
-ideas fundamentales con la claridad que tienen en
-su enumeracion, distinta de la mia. Alguna culpa la
-tendrá tambien la composicion de su libro de artícu-
-los publicados en diferentes épocas. Insistiré en lo
-4.—ANALEs.—SETIEMBRE.—OCTUBRE
-</pre>
+```markdown
+MODOS OOOOCOSOGODODOOODODOSODODODOOOGOOOGOONOOOODIONOCOLOLOOO OL ODODODOODOGODODODOOE 
+TOVETVEIESTIIEVESITASNS 
+OOOO 
+OO OOOO OO OOOOOOO O 
+OOOO OOOO OOOO 
+GO OOOO OOOO 
+DOGO OOOO OOOO OOO OO. Y 
+SOBRE EL ESTUDIO DE IDIOMAS. 1l 
+(Contestacion a la carta de don Julio Saavedra del 
+12 de Octubre) 
+POR 
+Rodolfo Lenz 
+Santiago, 2 de Noviembre de 1918. 
+Estimado señor Saavedra: 
+He leido con atencion su carta del 12 de Octubre 
+ise la agradezco porque pone en claro algunos pun- 
+tos que me habian quedado dúdosos despues de la 
+lectura de su libro. Puede ser que la culpa haya sido 
+en gran parte mia si no he alcanzado a sacar las 
+ideas fundamentales con la claridad que tienen en 
+su enumeracion, distinta de la mia. Alguna culpa la 
+tendrá tambien la composicion de su libro de artícu- 
+los publicados en diferentes épocas. Insistiré en lo 
+4 —ÁNALES —SETIEMBRE. OCTUBRE
+```
 
 ## Images, Captions, And Visual Notes
-A decorative header band is present at the top of the page, consisting of three horizontal lines of repeating patterns. The top and bottom lines are simple geometric patterns, while the middle line features a more elaborate floral or scrollwork design.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and decorative elements have been transcribed or noted.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The decorative header is a common repeating pattern, not a unique illustration or photograph, and does not warrant a standalone crop box."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 310
 
@@ -1369,44 +1399,79 @@ All visible text and tabular data on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that meet the criteria for cropping (e.g., portraits, maps, large illustrations, or source-meaningful diagrams/charts)."}
 ```
 
+# Page 321
+
 ## Page Metadata
-Page number: 321
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 321
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0321.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a header with the author's name and page number, followed by two paragraphs of main text. Below the main text, there is a closing salutation and a signature, right-aligned.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-RODOLFO LENZ 301
-superiores un poco mas o menos ejercicios escritos.
-si se leen crestomatías o testos escojidos, éstas son
-cuestiones secundarias que dependen del tiempo dis-
-ponible, del número de lenguas que se piden para
-instruccion secundaria i de otras necesidades. No es
-cuestion de cambio de método, en cuanto yo lo com-
-prenda.
-La única diferencia entre los pasies que hablan
-una de las tres lenguas principales i los demas, es
-que conviene que los españoles, lo mismo que los
-italianos, portugueses, suecos, daneses, rusos, pola-
-cos, etc., aprendan tres idiomas estranjeros, miéntras
-los que hablan ingles, frances i aleman sólo necesitan
-aprender las dos lenguas que les faltan. En esto estoi
-de acuerdo con Ud.
-Saluda a Ud. su affmo.
 
+```markdown
+¿RODOLFO LENZ 
+301 
+l ¡periores un poco mas o menos ejercicios escritos. 
+se leen crestomatías 
+o testos escojidos, éstas son 
+1estiones secundarias que dependen del tiempo dis- 
+mible, del número de lenguas que 
+se piden para 
+nstruccion secundaria 1 de otras necesidades. No es 
+uestion de cambio de método, en cuanto yo lo com- 
+prenda. 
+La única diferencia entre los pasies que hablan 
+una de las tres lenguas principales 1 los demas, es 
+ue conviene que los españoles, lo mismo que los 
+alianos, portugueses, suecos, daneses, rusos, pola- : 
+s, ete., aprendan tres idiomas estranjeros, miéntras 
+s que hablan ingles, frances 1 aleman sólo necesitan 
+render las dos lenguas que les faltan. En esto estol 
+de acuerdo con Ud. 
+Saluda a Ud. su atimo. 
+e 
+UF 
 R. LENZ.
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or visual notes.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The page contains no meaningful visual content such as images, diagrams, or complex layouts that would require bounding box extraction."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 322
@@ -1651,74 +1716,91 @@ The page is entirely blank. There is no content to transcribe or describe.
 {"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank and contains no visual content."}
 ```
 
+# Page 327
+
 ## Page Metadata
 
-- **Page number**: 327
-- **Source-provided numbers**: None
-- **Document title**: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- **Publication**: Anales de la Universidad de Chile
-- **Author(s)**: Not specified on this page
-- **Date**: 1918
-- **Language**: Spanish
-- **Page dimensions**: Approximately 6.1 x 9.6 inches
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 327
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0327.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page consists of a single column of text. The reading order is as follows:
-
-1.  A decorative header at the top of the page.
-2.  A section number and title.
-3.  The main body of text, divided into two paragraphs.
-4.  A footnote at the bottom of the page, separated by a short horizontal rule.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-[decorative header]
-
-§ I
-
-ORÍJENES de la familia Eizaguirre
-
-Singular brillo ha tenido en la sociedad chilena la
-familia Eizaguirre, establecida entre nosotros en el
-último tercio del siglo XVIII. Su fundador, el espa-
-ñol don Domingo de Eizaguirre, oriundo de la villa
-de Marquina (1), unió su suerte, el año 1765, a la
-señora doña Rosa de Arechavala i Alday, sobrina
-mui querida del ilustre obispo Alday, que en esos
-años rejía la diócesis de Santiago.
-
-A su muerte, ocurrida el año 1800, dejaba una
-fortuna bastante considerable, i once hijos: cinco
-varones i seis mujeres. Los varones fueron don Agus-
-tín, don Miguel, don Ignacio, don Domingo i don
-José Alejo de Eizaguirre Arechavala. Pocas veces se
-habrán visto reunidas en una sola familia tantas
-
----
-(1) Hai en España dos pueblos de este nombre: uno en la pro -
+```markdown
+A 
+e a 
+PEJENETEEATTE 
+AAA 
+ODODOGODOOV ODOONOODOCOOOODONDOOONODOO 
+OOOO DODODDUIOOO 
+OOOO LODODOD OO 100000081 
+AAA AA 
+q í(_ _ —___ __— ___  _—_— __>> 
+o 
+—_—_—_— al 
+Yun ca! 
+Oríjenes de la familia 
+Eizaguirre 
+Singular brillo ha tenido en la sociedad chilena la 
+familia Eizaguirre, establecida entre nosotros 
+en el 
+último tercio del siglo XVIII. Su fundador, el espa- 
+ñol don Domingo de Eizaguirre, oriundo de la villa 
+de Marquina (1), unió su suerte, el año 1765, a la 
+señora doña Rosa de Arechavala 1 Alday, sobrina 
+mu querida del ilustre obispo Alday, que en esos 
+años rejía la diócesis de Santiago. 
+Á su muerte, ocurrida 
+el año 1800, dejaba una 
+fortuna bastante considerable, 
+1 once hijos: cinco 
+varones 1 seis mujeres. Los varones fueron don Agus- 
+tín, don Miguel, don Ienacio, don Domingo 1 don 
+José Alejo de Kizaguirre Arechavala. Pocas veces se 
+habrán 
+visto reunidas 
+en una sola familia tantas 
+(1) Hai en España dos pueblos de este nombre: uno en la pro- 
 vincia de Alava i otro en la de Vizcaya.
+```
 
 ## Images, Captions, And Visual Notes
 
-- **[decorative header]** A set of four horizontal decorative lines at the top of the page, featuring floral and geometric patterns.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this page.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-This page has been transcribed in its entirety.
-
-## Visual Region Manifest
-
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only a decorative header which does not convey specific information that would necessitate cropping it as a standalone visual asset."
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 328
 

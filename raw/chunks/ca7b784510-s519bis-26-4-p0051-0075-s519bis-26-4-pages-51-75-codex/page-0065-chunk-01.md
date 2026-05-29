@@ -1,0 +1,105 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-207a331ac4dd-P0065-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75.codex.md
+converted_sha256: 207a331ac4dddae88ab293969b5617ed034e9f7d0097ee5084622abe509f189d
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75/manifest.json
+page_start: 65
+page_end: 65
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75/manifest.json`
+- Source page: 65
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75/page-images/page-0065.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+LA
+DOBLE
+NACI ONALIDAD
+PARA
+ES-
+PAftOLES
+E
+HISPANOAMERICANOS
+Dûs
+jôvenes
+diputados
+radicalsocialistas,
+don
+Manuel Ruiz de Villa y don Leopoldo Alas Argüe-
+lles, preparan una proposiciôn
+a las Cortes, en el
+sentido de
+que en el cuerpo mismo de la Consti-
+tuciôn
+se establezca la internacionalidad para es-
+panoles e hispanoamericanos.
+Una ley especial estableceria las condiciones en
+que la doble nacionalidad habria de ser concedida.
+La proposiciôn
+de
+los
+senores Ruiz de Villa y
+Alas Argüelles llega a reconocer plenitud de dere-
+chos politicos en Espana a los hispanoamericanos,
+con
+la
+unica excepciôn de
+no poder ostentar la
+presidencia de la Repüblica.
+Parece que la minoria radicalsocialista harâ suya
+la proposiciôn, cuyo contenido es conocido
+a estas
+horas
+en las Repüblicas hispânicas, donde habrâ
+producido la natural grata sensaciôn.
+Espana de esta manera ciistalizarâ el ideal bo-
+livariano, y se inaugurarâ con esta original norma
+juridica una era feliz para el porvenir del espiritu
+hispânico.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

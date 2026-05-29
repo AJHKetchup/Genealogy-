@@ -8,59 +8,124 @@
 - Conversion method: Codex local vision workbench
 - Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/extracted-images`
 
+# Page 244
+
 ## Page Metadata
-Page number: 244
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/manifest.json`
+- Source page: 244
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/page-images/page-0244.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, primarily legal or regulatory in nature, with a page number centered at the top. The text includes a main paragraph followed by a nested list structure using letters (a, b, c) and then a number (1º).
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-— 16 —
 
-disminuirá de los productos en el año en que se
-hiciere la rebaja o en el subsiguiente según la
+```markdown
+—
+16 -
+disminuirâ de los productos
+en el ano en que se
+hiciere la rebaja d en el subsiguiente
+segûn
+la
 conveniencia de la empresa.
-    Art. 7º — Para determinar el porcentaje de
-gastos que se señala en los artículos 8º y 9º de
-la citada ley, queda establecido que los gastos
-serán todos los incurridos en cada ejercicio anual
-y que correspondan a la explotación de los sis-
-temas explotados por las empresas y en la re-
-presentación y dirección de las mismas, debida-
-mente comprobados y comprenderán:
-        a) El importe de la contribución del 3 %
-            del producto líquido de que trata el ar-
-            tículo 8º de la citada ley;
-        b) Las sumas que en cada ejercicio se apli-
-            quen a la amortización del capital in-
-            vertido en las concesiones a término,
-            debiendo acreditarse en la cuenta de ca-
-            pital las referidas amortizaciones en las
-            épocas en que éstas se producen;
-        c) Las sumas que en cada ejercicio anual
-            se acrediten en las siguientes cuentas de
-            reservas:
-                1º La renovación de la vía, parte metálica
-                    de los puentes, tramos de alcantarillas,
-                    telégrafos, señales, locomotoras, muelles
-                    e instalaciones de luz o fuerza de tren
-                    rodante y flotante;
+Art. 7° — Pai’a
+déterminai’
+el
+porcentaje
+de
+gastos que
+se seiiala en los articulos 8° y 9° de
+la citada ley, queda establecido
+que
+los
+gastos
+serân todos los incurridos
+en cada ejercicio anual
+y que correspondan a la explotaciôn de los sis-
+temas explotados
+por
+las
+empresas y en la re-
+presentaciôn y clirecciôn de las mismas, debida-
+mente comprobados
+y comprenderân :
+a) El importe de la contribucicm del 3 %
+del produoto liquido de que trata el ar-
+ticulo 8° de la citada ley;
+h) Las sumas que en cada ejercicio se apli-
+quen a la amortizaciôn
+del
+capital in-
+vertido
+en
+las
+concesiones
+a
+ténnino,
+debiendo acreditarse
+en la euenta de
+ca¬
+pital las referidas amortizaciones
+en las
+épocas en que éstas
+se producen;
+c) Las sumas
+que
+en
+cada ejercicio anual
+se acrediten
+en las siguientes orientas de
+réservas :
+1° La renovaeién de la via, parte metâlica
+de los puentes, tramos
+de
+alcantarillas,
+telégrafos,
+senales, locomotoras, muelles
+e instalaciones
+de luz
+o fuerza
+de
+tren
+rodante y flotante;
 ```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page is text-only and contains no meaningful images, diagrams, or other visual elements that would require cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 245
 
@@ -216,58 +281,116 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
+# Page 247
+
 ## Page Metadata
-Page number: 247
-Original document page number: 19
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/manifest.json`
+- Source page: 247
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/page-images/page-0247.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, primarily legal or administrative regulations, with a centered page number at the top. The text includes numbered articles and sub-sections.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 19 —
 
-por las empresas, la que será formada
-por cuotas que se fijarán de acuerdo con
+```markdown
+—
+19
+-
+por las empresas, la
+que
+sera formada
+por cuotas que se fijarân de acuerdo con
 el Poder Ejecutivo.
-Cuando se produzcan gastos imputa-
-bles a estas cuentas serán atendidos con
-los fondos arriba indicados sin afectar
-la explotación, reintegrándose la canti-
-dad máxima fijada por cuotas que serán
+Cuando
+se
+produzcan gastos imputa¬
+bles
+a
+estas cuentas serân atendidos con
+los fondos arriba
+indicados
+sin
+afectar
+la explotaciôn, reintegrândose
+la canti-
+dad maxima fijadà por cuotas que serân
 establecidas por las empresas, de acuerdo
 con el Poder Ejecutivo;
-3º Para el importe correspondiente al fondo
-de seguros contra incendios, se reservará
-el 1/4 % del valor de los materiales y
+3° Para el importe correspondante al fondo
+de seguros contra incendios, se reservarâ
+el
+1U
+% del valor
+de
+los. materiales y
 efectos del sistema explotado por las em-
-presas que esté sujeto a riesgo de fue-
-go, hasta llegar a una cantidad máxima
-que se determinará en cada caso. Los
+i paesas que esté sujeto
+a riesgo de fue-
+go, liasta llegar a una cantidad maxima
+que se determinarâ
+en cada
+caso. Los
 siniestros que ocurran y los premios que
-se paguen por reaseguros, como asimis-
-mo los gastos de precaución, serán aten-
-didos con estos fondos sin afectar a la
-explotación;
-4º Para el importe correspondiente al fon-
-do de pensiones y beneficencias para el
-personal, se reservarán las sumas que las
+se pagnen por reaseguros,
+como asimis-
+mo los gastos de precauciôn, serân aten¬
+didos
+con estos
+fondos
+sin
+afectar
+a la
+explotaciôn;
+.
+4° Para el importe correspondante al fon¬
+do
+de pensiones y beneficencias para el
+personal,
+se reservarân las sumas que las
 empresas apliquen a ese objeto.
-Art. 9º — Los desembolsos de las sumas acre-
-ditadas a las cuentas de reserva, en los térmi-
+Art. 9° — Los desembolsos de las surnas acre-
+ditadas
+a las cuentas de réserva,
+en
+los térmi-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or substantial visual notes on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page consists entirely of text."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 248
@@ -319,58 +442,123 @@ All visible text on the page has been transcribed. The last word "Ejecu-" is hyp
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
+# Page 249
+
 ## Page Metadata
-- Page number: 21
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/manifest.json`
+- Source page: 249
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/page-images/page-0249.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text. The content begins with a continuation of a paragraph, followed by a new paragraph, and then an article (`Art. 12.`) which contains a sub-point `a)` and another indented paragraph.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 21 —
-
-tivo y las empresas serán sometidas a la deci-
-sión de árbitros de derecho, o peritos arbitrado-
-res según los casos. El 30 de junio será la fecha
-en que debe clausurarse el año financiero.
-A objeto de poder establecer la fiscalización
-que se deriva de la Ley Nº 5315, las empresas
-deberán suministrar al Poder Ejecutivo todos
-los datos, estados y documentos que solicite,
-como asimismo a permitir la fiscalización de su
+```markdown
+—
+21
+—
+tivo y las empresas
+serân sometidas
+a la deci¬
+sion de arbitras de dereelio,
+o peritos arbitrado-
+res segün los casos. El 30 de junio sera la fecha
+en que debe clausurarse el aîio financière.
+A objeto
+de pôder establecCr la fiscal izacién
+que se dériva de la Ley N° 5315, las
+empresas
+deberân
+suministrar
+al
+Poder
+Ejecutivo
+todos
+los
+datos,
+estados
+y
+documentes
+que
+solicite,
+como asimismo
+a permitir la fiscalizaciôn de su
 contabilidad.
-Art. 12. — Queda expresamente entendido:
-    a) Que todos los materiales y artículos que
-    se introduzcan al país, para o en relación
-    con la construcción y explotación del sis-
-    tema explotado por la empresa, compren-
-    dido en el capital reconocido por el Poder
-    Ejecutivo y los términos de este decreto,
-    serán libres de derechos de aduana.
-    Que dicho sistema con todas las pro-
-    piedades, terrenos, elevadores, talleres,
-    muelles, canaletas, tren de dragado, plan-
-    tel flotante y rodante, canteras, todo el
-    plantel y equipos movibles y perma-
-    nentes, instalaciones de luz y fuerza y
-    todos los demás accesorios anexos y de-
-    pendencias del mismo, comprendidos en
-    el capital y sujetos por tanto, al im-
-    puesto del 3 % establecido en el artículo
+Art.
+12. — Queda expresamente entendido:
+aj Que todos los materiales y articulos que
+se introduzcan al pais, para o en relaciôn
+con la construcciôn y explotaoion del sis-
+tema explotado por la empresa, compren-
+dido en el capital reconocido por el Poder
+Ejecutivo y los términos de este decreto,
+serân libres de derechos de aduana.
+Que dicho sistema
+con todas las
+pro-
+piedades,
+terrenos,
+elevadores,
+talleres,
+muelles, oanaletas, tren de di’agado, plan-
+tel
+dotante
+y rodante, canteras, todo el
+plantel
+y
+equipos
+movibles
+y
+perma¬
+nentes, instalaciones de luz y fuerza y
+todos los demâs accesorios
+anexos y de¬
+pendences del mismo, comprendidos en
+el
+capital
+y
+sujetos
+po'r
+tanto, al im-
+puesto del 3 % establecido en el articulo
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 250
@@ -429,58 +617,117 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
+# Page 251
+
 ## Page Metadata
-- Page number: 23
-- Source publication year: 1936
-- Source publication title: Cámara de Senadores de la Nación
-- Source document part: pages 244-263
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/manifest.json`
+- Source page: 251
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/page-images/page-0251.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a centered page number at the top, followed by a block of text. The text is structured into paragraphs, some of which are labeled as articles (Art. 13, Art. 14, Art. 15). There is also a preceding point labeled "c)".
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 23 —
 
-bruto o gastos a que se refiere el pre-
+```markdown
+-
+23
+—
+bruto
+o gastos
+a
+que se refîere el pré¬
 sente decreto;
-c) Que los contratos de concesión vigentes
-quedarán subsistentes en todo lo que
+c) Que los contratos de concesiôn vigentes
+quedarân
+subsistentes
+en
+todo
+lo
+que
 no hubiesen sido modificados por la Ley
-Nº 5315 y por el presente Reglamento.
-Art. 13.—Mientras el producto líquido de cada
-año no llegare al 6,8 % del capital reconocido,
-las empresas podrán establecer sus tarifas en los
-términos de la Ley Nº 2873 y sus reglamentos;
-cuando ocurriese el caso de que se establezcan
-tarifas con intervención del Poder Ejecutivo de
-acuerdo con el artículo 9º de la Ley Nº 5315,
-se observarán también las disposiciones pertinen-
-tes de la citada Ley Nº 2873 y su reglamento.
-Para determinar si ha llegado el caso de in-
-tervención en las tarifas, se tomará el promedio
-resultante de los tres años anteriores, empezando
-con los tres años que anteceden a la fecha en que
-cada empresa se haya acogido a la Ley Nº 5315.
-Art. 14.—Para los efectos de la intervención
-en las tarifas, las empresas llevarán su estadís-
-tica a satisfacción de la Dirección General de
-Vías de Comunicación.
-Art. 15.—El presente Reglamento regirá para
+N° 5315 y por el présente Reglamcnto.
+Art. 18.—Mientras el producto liquido de cada
+ano
+no llegare al 6,8 %
+del capital reconocido,
+las empresas podrân establecer sus tarifas en los
+términos de la Ley N° 2873 y sus reglamentos:
+cuando
+ocurriese el
+caso de que se establezcan
+tarifas
+cou intervenciôn del Poder Ejecutivo de
+acuerdo
+cou el articulo 9° de
+la Ley N° 5315,
+se observarân también las disposiciones pertinen¬
+tes
+de la citada Ley N° 2873 y su reglamento.
+Para déterminai' si lia llegado el caso de in¬
+tervenciôn
+en las tarifas, se tomarâ el promedio
+résultante de los très aflos anteriores, empezando
+oon los très anos que anteeeden a la fecha en que
+cada empresa se baya acogido a la Ley N° 5315.
+Art.
+14. — Para los efectos de la intervenciôn
+en
+las tarifas, las empresas llevarân
+su estadis-
+tica
+a satisfacciôn
+de la .Direcciôn
+General
+de
+Yias de Comunicaciôn.
+Ait.
+15. -El présente Reglamento régira para
 cada ferrocarril desde la fecha de su acogimiento
-a la Ley Nº 5315, debiendo correr desde la
-misma la obligación de las empresas de abonar
+a
+la
+Ley N°
+5315,
+debiendo
+correr desde la
+rnisma la obligaciôn de las empresas de abonar
+```
 
 ## Images, Captions, And Visual Notes
-No images or captions are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 24
@@ -518,55 +765,97 @@ All visible and legible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for region cropping."}
 ```
 
+# Page 253
+
 ## Page Metadata
-- Page number: 253
-- Source publication year: 1936
-- Source publication title: Cámara de Senadores de la Nación
-- Document type: Ley (Law)
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/manifest.json`
+- Source page: 253
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/page-images/page-0253.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a legislative text in a single column. The title of the law, its subject, date, and enacting clauses are followed by two articles detailing the provisions of the law.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-LEY N° 5703
-SOBRE CONCESIÓN DE RAMALES
 
-Buenos Aires, octubre 12 de 1908.
-
-POR CUANTO:
-
-El Senado y Cámara de Diputados de la Nación
-Argentina, reunidos en Congreso, etc., sancionan
+```markdown
+LEY N°5703
+SOBRE
+CONCESIÔN
+DE
+RAMALES
+Buenos Aires, octobre 12 de 1908.
+POR
+CUANTO:
+El Senado y Cümam de Diputados de la Naciôn
+Argentina, rennidos en Congneso, etc., sancionan
 con fuerza de —
-
-LEY:
-
-Artículo 1° — Autorízase al Poder Ejecutivo a
-acordar concesiones para construir ramales de
-los ferrocarriles existentes, hasta una extensión
-de setenta y cinco kilómetros.
-Art. 2° — Toda solicitud para la construcción
-de estos ramales deberá ser acompañada de un
-certificado del Banco de la Nación Argentina
-acreditando haberse hecho un depósito de garantía
-de la concesión, a razón de mil pesos moneda
-nacional por kilómetro de vía. Este depósito será
-devuelto al concesionario a medida que avance
-la construcción del ramal, reservándose solamente
+LEY :
+Artîculo 1° — Autorlzase al Poder E.jecutivo a
+acordar
+concesiones
+para construir ramales
+de
+los ferrocarriles existentes, hasta
+una extension
+de setenta y cinco kilomètres.
+Art. 2° — Toda solicitud para la construcciôn
+de estos ramales deberâ ser
+acompanada
+de un
+certificado
+del
+Banco
+de
+la
+Naciôn Argentina
+acreditando haberse hecho un depôsito de garantla
+de la concesiôn,
+a razôn
+de mil
+pesos moneda
+nacional por kilômetro de via. Este depôsito sera
+devuelto al concesionario
+a medida
+que
+avance
+la construcciôn del ramai, reservândose solamente
+```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or substantial visual notes on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 254
 
@@ -751,213 +1040,382 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for cropping."}
 ```
 
+# Page 256
+
 ## Page Metadata
-- Task id: `source-prep:ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-0263:p0256`
-- Page number: 256
+
 - Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/manifest.json`
+- Source page: 256
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/page-images/page-0256.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a legislative text in a single-column format. It begins with the law number and title, followed by the date and location of its enactment. A preamble introduces the legislative bodies responsible, and then the first article of the law is detailed.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-LEY N° 6369
 
-SOBRE EXPROPIACIONES DE TERRENOS
-
-Buenos Aires, septiembre 21 de 1909.
-
-POR CUANTO:
-
-El Senado y Cámara de Diputados de la Nación
-Argentina reunidos en Congreso, etc., sancionan
+```markdown
+LEY N°6369
+SOBRE
+EXPRO PI AC1 ON ES
+DE
+TERRENOS
+Bueno* Aires, septiembre 2L de 19(<9.
+POR
+Cl'ANTO :
+El Senado y Camara de Dipntadox de la Naciôn
+Argentina reunidos en Congreso, etc., mncionan
 con fuerza de—
-
-LEY:
-
-Artículo 1º—Declárase sujetos a expropiación
-por causa de utilidad pública los terrenos nece-
-sarios a los ferrocarriles en explotación del Estado
-y particulares para vías auxiliares, desvíos, gal-
-pones o depósitos, estaciones de clasificación, es-
-tablecimiento de nuevas estaciones y ensanche
-de las existentes, ensanche de vías y talleres,
-casillas de camineros, calles de circunvalación y
-de inmediato acceso a las estaciones, empalme y
-pasos a alto o bajo nivel.
-
-## Images, Captions, And Visual Notes
-There are no substantial images or captions on this page. Faint, illegible background text is visible but not part of the primary document content.
-
-## Uncertain Or Illegible
-No text in the main content is uncertain or illegible. Faint background text is present but not transcribed as it is not part of the document's content.
-
-## Completeness Audit
-The transcription is complete and includes all legible text from the page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily contains text."}
+ley:
+Articulo 1°—Declârase sujetos
+a expropiacion
+por causa de uttlidad publica los terrenos nece-
+sarios a los ferrocarriles en explotacion del Estado
+y particulars para vlas auxiliares, desvios, gal-
+pones o deposit-os, estaciones de clasificaciôn, es-
+tablecimiento
+de
+nue vas
+estaciones
+y
+ensancbe
+de
+las
+existentes, ensanche
+. de vlas y talleres,
+casillas de camineros, calles de circunvalaciôn y
+de inmediato acceso
+a las estaciones, empalme y
+pasos
+a alto
+o bajo nivel.
 ```
 
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 257
+
 ## Page Metadata
-Page number: 257
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/manifest.json`
+- Source page: 257
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/page-images/page-0257.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a single column of text, starting with a page number at the top. The main content consists of numbered articles, followed by a date and location, and then a list of names and titles, concluding with a final instruction and more names.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 30 —
-
-Art. 2º—Decláranse también expropiables los
+```markdown
+-
+30
+—
+Art. 2°—Declâranse también expropiables los
 terrenos de médanos hasta donde constituyen un
-peligro para la seguridad de la vía o del tráfico.
-Art. 3º—En cada caso las empresas justifica-
-rán ante el Poder Ejecutivo, la razón de utilidad
-pública que haga necesaria la expropiación y ésta
-se hará con sujeción a los planos que el Poder
+peligro para la seguridad de la via o del trâfico.
+Art. 3°—En cada
+casd las empresas justifica-
+rân ante el Poder Ejecutivo, la razôn de utilidad
+pûblica que haga necesaria la expropiaciôn y ésta
+se
+harâ
+con sujecion a los pianos que el Poder
 Ejecutivo apruebe y a la ley general de la materia.
-Art. 4º—Los ramales a que se refiere la Ley
-Nº 5703, quedan sujetos a las prescripciones de
-la Ley Nº 5315 contenidas en los artículos 7º
-al 16 y 21.
-Art. 5º—Comuníquese al Poder Ejecutivo.
-
-Dada en la Sala de Sesiones del Congreso Argentino, en Buenos
-Aires, a trece de septiembre de mil novecientos nueve.
-
-BENITO VILLANUEVA. MIGUEL M. PADILLA.
-Adolfo J. Labougle Juan Ovando
-Secretario del Senado. Secretario de la C. de DD.
-
-(Registrada bajo el Nº 6369)
-
-POR TANTO:
-
-Cúmplase, comuníquese, publíquese e insértese
-en el Registro Nacional.
-
+Art. 4°—Los ramai es
+a que
+se refiere la Ley
+N° 5703, quedan sujetos
+a las prescripciones de
+la Ley N° 5315 contenidas
+en
+los articulos
+7°
+al
+16 y 23.
+Art. 5°—Comumquese. al Poder Ejecutivo.
+Dada
+en
+la Sala de Sesiones
+del Congreso Argentino, eu Buenos
+Aires, a trece de septembre de mil novei ientos nueve.
+Benito Villanueva.
+Miguel M. Padilla.
+Adolfo J. Labougle
+Juan Ovando
+Secretario dél Senado.
+Seerelario de la O. de DD.
+(Reglstrada bajo el N° 6369)
+POK
+TANTO:
+Cümplase, comuniquese, publiquese e insértese
+en el Registre Nacional.
 FIGUEROA ALCORTA.
-EZEQUIEL RAMOS MEXIA.
-
-## Images, Captions, And Visual Notes
-
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-
-None.
-
-## Completeness Audit
-
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+Ezequiel Ramos Mexia.
 ```
 
-## Page Metadata
-Page number: 258
-
-## Layout And Reading Order
-The page contains a single column of text, primarily centered, presenting a legal document (Ley N° 10.657). The text begins with the law number and title, followed by the date, a preamble, and the first article of the law, which includes two indented exceptions.
-
-## Literal Transcription
-<center>LEY N° 10.657</center>
-
-<center>SOBRE EXONERACIÓN DE IMPUESTOS ESTABLECIDA</center>
-<center>POR EL ARTÍCULO 8° DE LA LEY N° 5315</center>
-
-<center>Buenos Aires, agosto 22 de 1919.</center>
-
-<center>POR CUANTO:</center>
-
-<p style="text-indent: 3em;">El Senado y Cámara de Diputados de la Nación</p>
-<p style="text-indent: 3em;">Argentina, reunidos en Congreso, etc., sancionan</p>
-<p style="text-indent: 3em;">con fuerza de —</p>
-
-<center>LEY:</center>
-
-<p style="text-indent: 3em;">Artículo 1° — La exoneración de impuestos es-</p>
-<p style="text-indent: 3em;">tablecida por el artículo 8° de la Ley N° 5315,</p>
-<p style="text-indent: 3em;">comprende además de los impuestos propiamente</p>
-<p style="text-indent: 3em;">dichos, las tasas, contribuciones o retribuciones</p>
-<p style="text-indent: 3em;">de servicios, cualquiera que sea su carácter o</p>
-<p style="text-indent: 3em;">denominación, con las siguientes excepciones:</p>
-<p style="text-indent: 6em;">1° Provisión efectiva de agua corriente y</p>
-<p style="text-indent: 6em;">servicio de cloacas, y</p>
-<p style="text-indent: 6em;">2° Contribución de pavimentación en las</p>
-<p style="text-indent: 6em;">plantas urbanas en la proporción que</p>
-<p style="text-indent: 6em;">corresponda por las estaciones.</p>
-
 ## Images, Captions, And Visual Notes
-The page contains no images or visual notes.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 258
 
 ## Page Metadata
-Page number: 32
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/manifest.json`
+- Source page: 258
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/page-images/page-0258.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a page number at the top, followed by several paragraphs of text, including articles, a date/location, a list of names, a registration note, a "POR TANTO" heading, and a final instruction with two more names. The content is presented in a single column.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 32 —
+```markdown
+LEY
+N° 10.657
+SOBRE EXONERACIÔN
+DE IMPUESTOS ESTABLECIDA
+POR EL ARTiCULO 8°
+DE LA LEY N" 5315
+Buenos Aires, cgosto 22 de 1919.
+POR
+CUANTO:
+El Senado y Câmara de Diputados de la Naciôn
+Argentina, reunidos en Congreso, etc., sancionan
+con faerza de —
+ley:
+Articulo
+1° — La exoneraciôn de impuestos es-
+tablecida por el articulo 8° de la Ley N° 5315,
+comprende ademâs de los impuestos propiamente
+clichos,
+las tasas,
+eontribuciones o retribuciones
+de
+servicios,
+cualquiera
+que
+sea su
+carâcter o
+denominaciôn,
+con las siguientes excepciones:
+1° Provision
+efectiva
+de
+agua corriente y
+servicio de cloacas, y
+2° Contribuciôn
+de
+pavimentaciôn
+en
+las
+plantas
+urbanas
+en
+la proporcion
+que
+corresponda por las estaciones.
+```
 
-Respecto de esta última excepción las
-empresas podrán optar por construir con
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 259
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/manifest.json`
+- Source page: 259
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/page-images/page-0259.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Respecte de esta ultima excepciôn las
+empresas podrân optar por construir con
 sus propios medios la parte de pavimento
-que les corresponda, sujetándose a las
-especificaciones respectivas.
-Art. 2º— Estas excepciones no comprenden
-las nuevas tasas y retribuciones de servicios mu-
-nicipales que puedan crearse en el futuro en
-cuanto afecten a las estaciones urbanas de las
-empresas y cuyo monto sea susceptible de me-
-dida y equivalga a la compensación exacta del
+que
+les corresponda,
+sujetândose a
+las
+ospecificaciones respectivas.
+Art. 2° — Estas
+excepciones
+no
+comprenden
+las
+nuevas tasas y retribuciones de servicios mu¬
+nicipales
+que
+puedan
+crearse
+en
+el futuro
+en
+cuanto afecten
+a las
+estaciones
+urbanas
+de las
+empresas y cuyo monte
+sea susceptible de me-
+dida y equivalga a la compensacion
+exacta del
 servicio y siempre que éste se imponga con ca-
-rácter obligatorio general.
-Art. 3º— Comuníquese al Poder Ejecutivo.
-
-Dada en la Sala de Sesiones del Congreso Argentino, en Buenos
-Aires, a trece de agosto de mil novecientos diez y nueve.
-
-BENITO VILLANUEVA. ARTURO GOYENECHE.
-Adolfo J. Labougle. Carlos G. Bonorino.
-
-(Registrada bajo el Nº 10657).
-
-POR TANTO:
-
-Cúmplase, comuníquese, publíquese, insértese
-en el Registro Nacional y archívese.
-
-IRIGOYEN.
+râcter obligatorio general.
+Art. 3° — Comunique.se al Poder Ejecutivo.
+Dada en la Sala de
+Sesiones
+del Congreso
+Argentine,
+en Buenos
+Aires, a trece de agosto de mil novecientos diez y nuevo.
+Benito Villanueva.
+Artuko Goyeneche.
+Adolfo J. Lcibougle.
+Carlos G. Bonorino.
+(Registrada bajo el N° 10657).
+POK
+TANTO:
+Cumplase, comuniquese, publiquese,
+insértese
+en el Registre Nacional y arcliivese.
+IRIGO YEN.
 P. Torello.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text and layout elements from the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for region cropping."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 260

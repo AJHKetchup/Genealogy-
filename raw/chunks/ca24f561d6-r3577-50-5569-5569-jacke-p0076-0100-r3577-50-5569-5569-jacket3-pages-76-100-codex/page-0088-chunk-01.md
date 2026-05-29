@@ -1,0 +1,87 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b82933290c73-P0088-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket3-pages-76-100.codex.md
+converted_sha256: b82933290c734085964e8230c49e8d26c2ed33091045d44633ad18e5a7840b1f
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket3-pages-76-100/manifest.json
+page_start: 88
+page_end: 88
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket3-pages-76-100/manifest.json`
+- Source page: 88
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket3-pages-76-100/page-images/page-0088.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+i6
+Séance
+du
+5 Juillet 1929
+La
+parole
+est-elle
+demandée ?
+Il semble que l'on préfère renvoyer la question immédiatement à une sous-commission.
+Je vous propose de constituer cette sous-commission.
+(La sous-commission est constituée
+comme suit
+: Belgique, Grande-Bretagne, Espagne,
+France, Italie, Pays-Bas, Pologne, Royaume des Serbes, Croates et Slovènes, Suisse, Tchéco¬
+slovaquie).
+Etes-vous d'accord d'envisager que cette sous-commission pourrait se réunir mardi. La
+date définitive de cette réunion serait
+fixée lundi. (Assentiment).
+Rous devons décider si nous voulons nous réunir demain après midi.
+Quelqu un propose-t-il
+que
+nous nous réunissions demain après midi ?
+Ce n est pas le cas. Je vous proposerai donc de nous retrouver lundi après midi à 15 heures %
+La séance est levée à 18 heures 2-,.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 89

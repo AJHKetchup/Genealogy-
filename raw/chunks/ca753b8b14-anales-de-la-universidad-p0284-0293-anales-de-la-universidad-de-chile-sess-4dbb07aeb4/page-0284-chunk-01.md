@@ -1,0 +1,89 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d4b48c5773ef-P0284-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293.codex.md
+converted_sha256: d4b48c5773ef7faba987c931312ced29e893f0a69cf69cfcc48efcfaa4ce8418
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json
+page_start: 284
+page_end: 284
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json`
+- Source page: 284
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-images/page-0284.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+264 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+de lengua literaria de alta cultura. Pero, por lo mé- 
+nos, que se haga mucha lectura cultural en la lengua 
+patria i en los tres idiomas reglamentarios. Este es 
+el método activo por excelencia, el método que for- 
+ma el carácter 1 el criterio 1 que instiga al alumno a 
+la iniciativa personal. 
+Como Ud. ve, señor Saavedra, esto1 de acuerdo 
+con Ud. en lo esencial, respecto a la lectura cultural 
+en los idiomas modernos. En los detalles hai muchas 
+diverjencias. Por lo demas, s1 esta carta se ha alar- 
+gado talvez mas de lo necesario, 
+es porque he que- 
+rido aprovechar la oportunidad que me proporcio- 
+naba la lectura de su obra para ciertos «descargos de 
+conciencias» que tenia yo interes en presentar al pú- 
+blico chileno en jeneral 1 a mis compañeros de tra- 
+bajo en particular. No me halago con la ilusion de 
+que mis ideas hayan de encontrar aceptacion unl- 
+versal; pero, aunque me acompañe sólo una pequeña 
+minoría: Audiatur et altera pars, como decian los la- 
+tinos. I esto me basta. 
+Con sinceras felicitaciones lo saluda Cano 
+ente 
+su antiguo profesor i afectísimo amigo 
+R. Lenz. 
+Santiago, 10 de Agosto de-1918.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

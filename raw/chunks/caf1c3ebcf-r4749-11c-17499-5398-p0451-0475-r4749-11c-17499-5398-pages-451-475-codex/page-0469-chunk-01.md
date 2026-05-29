@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-2c826ef348db-P0469-01
+chunk_id: CHUNK-0a6b947187e6-P0469-01
 source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0451-0475-r4749-11c-17499-5398-pages-451-475.codex.md
-converted_sha256: 2c826ef348dbc88a4497c625121a3ed33e8b274caba78409754da1c4e4ffe9da
+converted_sha256: 0a6b947187e69751c557760a475be1cde98176cc6c1c37416bce66f0609ba16d
 source: raw/sources/R4749-11C-17499-5398.pdf
 source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
 source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0451-0475-r4749-11c-17499-5398-pages-451-475/manifest.json
@@ -32,8 +32,14 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ```markdown
 <!-- image -->
 
-| Sentimientos  Nulos  Débiles  Normales  Exagerados  Familiares  Sociales  Morales  Amor  propio  Pudor  Sentido  moral  (Sîntesis)   |
-|--------------------------------------------------------------------------------------------------------------------------------------|
+| Sentimientos             | Nulos   | Débiles   | Normales   | Exagerados   |
+|--------------------------|---------|-----------|------------|--------------|
+| Familiares               |         |           |            |              |
+| Sociales                 |         |           |            |              |
+| Morales                  |         |           |            |              |
+| Amor propio              |         |           |            |              |
+| Pudor                    |         |           |            |              |
+| Sentido moral (Sîntesis) |         |           |            |              |
 
 Observaciones: (Establecer la (liferencia entre la concepciôn ética y la sinceridad de los sentimientos.)
 
@@ -45,8 +51,9 @@ Observaciones:
 
 <!-- image -->
 
-| Energia  de  la  Voluntad  Nula  Débil  Normal  Exagerada   |
-|-------------------------------------------------------------|
+| Energia de   | Nula   | Débil   | Normal   | Exagerada   |
+|--------------|--------|---------|----------|-------------|
+| la Voluntad  |        |         |          |             |
 
 Observaciones:
 

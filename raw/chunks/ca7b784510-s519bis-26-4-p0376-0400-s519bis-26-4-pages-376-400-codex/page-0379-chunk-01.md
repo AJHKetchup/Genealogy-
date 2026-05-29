@@ -1,0 +1,156 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ffb513ad0cb0-P0379-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0376-0400-s519bis-26-4-pages-376-400.codex.md
+converted_sha256: ffb513ad0cb08d6fbc6e4c5096a92c54962afb625026c3f3133df18c88e9ecbc
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0376-0400-s519bis-26-4-pages-376-400/manifest.json
+page_start: 379
+page_end: 379
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0376-0400-s519bis-26-4-pages-376-400/manifest.json`
+- Source page: 379
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0376-0400-s519bis-26-4-pages-376-400/page-images/page-0379.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+5
+de
+octubre
+de
+1935.
+Muy estimado amigo :
+Respondo
+a
+su grata
+de setiembre 30 y le agradezoo
+su diligente
+y araable intervencion para
+obtener las foto-
+grafias
+de
+pue le hablaba
+en mi ultima carta.
+En lo
+que
+se refiere
+a los
+instrument os
+de ratifi-
+caeién
+de
+que
+me
+informa,
+hay dos maneras
+de depositaries:
+puede Vd.
+hacerlos depositar por una persona aqu£
+en nombre
+del
+Gobierno
+Salvadoreüo
+o puede
+Vd. mandarlps al Seere-
+tario
+General
+con una
+nota
+a la cual
+este contestarâ,
+reemplazando
+ese cambio
+de notas el acta
+que
+se levantarfa
+en
+caso
+de depésito directo.
+Creo
+que lo m4s prâctioo
+es
+que escriba Vd.
+una
+nota
+al Secretario
+General
+enviandole
+esos
+instrumentes
+y puede Vd. llevar el sobre
+que I03 contenga
+a la oficina
+de la
+Sociedad
+en Paris,
+Rue Vernet
+35,
+donde lo colocar£an
+en el
+saco
+de la correspondence oficial
+que
+de alli
+sale
+todos
+los
+dfas
+para Ginebra.
+Si
+en algo puedo servi rie,
+mândeme y acepte un
+cordial apreton de
+manos
+de
+su amigo
+Sr.
+Don Joaquin Paredes,
+Legaciôn de El Salvador,
+Rue
+de l'Université 174,
+PARIS.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

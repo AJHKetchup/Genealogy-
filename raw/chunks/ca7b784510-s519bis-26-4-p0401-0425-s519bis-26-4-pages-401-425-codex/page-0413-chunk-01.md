@@ -1,0 +1,102 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e40c522fae52-P0413-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425.codex.md
+converted_sha256: e40c522fae521f8f84c6438a1678006094b95832aabcfdc6a81426a5f1612ac2
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/manifest.json
+page_start: 413
+page_end: 413
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/manifest.json`
+- Source page: 413
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/page-images/page-0413.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+GIÏKBRA,
+24
+de Octobre, 1931.
+Sr.
+D.
+Pablo A. Pizzurno
+11
+de Septiembre, 1300
+BUENOS
+AIRES
+Cuerido amigo:
+Recibi
+au oarta del 23 de Septiembre en la que me anun-
+cia el envio de un chenue para el pago de una parte de los
+folletoa titulados "Cue es la Sociedad de las Naciones", pues,
+como Vd.
+sabe,
+esta Secretarla dispuso que se obsequiara a la
+Comisiôn Protectora de Bibliotecas Populares eon 500 ejempla-
+res aâsmâs de los que habia adquirido.
+Ko he contestado antes a su carta en espera de la lie-
+gads del cheque mencionado, pero no quiero dilatar mas mi
+respuesta y espero que la surna enviada por Vds. cubrirâ el
+valor de lo adquirido.
+Esta duda se basa en la diferenoia
+de
+oambio
+que
+ae acentiia dia a dia entre el peso argentino
+y el franco suizo, soneda en eue la operacion se realizé.
+Pronto recibira Vd. el segundo numéro del "Recueil
+Pédagogique" correspondante a este ano, y lamento que hasta
+ahora
+no hayamos podido obtener un articulo de alguna perso-
+nalidad argentina para insertar en esa publicaciôn, teniendo
+en cuanta las tendencies y las lineas generales de los ar-
+ticuloa ya publicados.
+&y~.
+^
+Reciba
+un afeotuoso saludo de su amigo y servidor
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

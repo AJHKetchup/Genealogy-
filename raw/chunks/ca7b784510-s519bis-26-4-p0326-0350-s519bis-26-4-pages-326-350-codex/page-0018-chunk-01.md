@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-31462e414092-P0018-01
+chunk_id: CHUNK-f907aa9d1630-P0018-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350.codex.md
-converted_sha256: 31462e414092db416780031a581c6cdf197ffe4ed49b21f72050765064bcd10b
+converted_sha256: f907aa9d1630d09496bc96d685f684e78ec70cdffb0d2d0afbc36f2e5194c35a
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350/manifest.json
@@ -58,3 +58,5 @@ All visible text and significant visual elements have been transcribed or noted.
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "The page contains only text and minor incidental marks (two small dark circular marks in the top-left corner) that do not warrant cropping as standalone visual assets."}
 ```
+
+# Page 344
