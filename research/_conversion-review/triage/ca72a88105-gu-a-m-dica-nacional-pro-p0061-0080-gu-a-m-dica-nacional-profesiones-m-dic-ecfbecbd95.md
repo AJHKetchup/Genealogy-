@@ -14,7 +14,7 @@
 | 64 | none | high | pass | none | none |
 | 65 | none | high | pass | none | none |
 | 66 | none | high | pass | none | none |
-| 7 | none | high | pass | none | none |
+| 67 | none | high | pass | none | none |
 | 68 | none | high | pass | none | none |
 | 69 | none | high | pass | none | none |
 | 70 | none | high | pass | none | none |
@@ -26,5 +26,5 @@
 | 76 | none | high | pass | none | none |
 | 17 | critical | low | reread-page | none | Arriagada, Pulgar |
 | 78 | none | high | pass | none | none |
-| 19 | none | high | pass | none | none |
+| 79 | none | high | pass | none | none |
 | 80 | medium | high | pass | none | Heinz |

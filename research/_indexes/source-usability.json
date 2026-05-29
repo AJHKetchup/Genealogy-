@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-29T09:24:30Z",
+  "created": "2026-05-29T09:52:52Z",
   "purpose": "Source-readiness report for raw source -> LLM-readable source pipeline.",
   "inputs": {
     "source_prep_manifest": "raw/source-prep-manifest.json",
@@ -659,7 +659,7 @@
       "conversion_job_count": 59,
       "converted_file_count": 20,
       "chunk_manifest_count": 27,
-      "qc_hold_count": 3,
+      "qc_hold_count": 2,
       "source_prep_task_counts": {},
       "page_repair_count": 0,
       "conversion_jobs": [
@@ -1129,20 +1129,6 @@
         "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-ffa4bc4dbc/manifest.json"
       ],
       "qc_holds": [
-        {
-          "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123.codex.md",
-          "page": 17,
-          "recommended_action": "reread-page",
-          "quality_flags": [],
-          "matched_terms": [],
-          "suspicious_readings": [
-            {
-              "literal": "daño",
-              "suspected": "Dario",
-              "reason": "near match to known family context term `Dario`"
-            }
-          ]
-        },
         {
           "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503.codex.md",
           "page": 3,

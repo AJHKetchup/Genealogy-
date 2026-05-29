@@ -23,8 +23,8 @@
 | 13 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
 | 15 | none | high | pass | none | none |
-| 16 | none | high | pass | none | none |
-| 17 | high | low | reread-page | none | none |
+| 119 | none | high | pass | none | none |
+| 120 | high | low | reread-page | none | none |
 | 18 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |

@@ -19,8 +19,8 @@
 | 52 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
 | 54 | none | high | pass | none | none |
-| 12 | none | high | pass | none | none |
-| 13 | none | high | pass | none | none |
+| 55 | none | high | pass | none | none |
+| 56 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
 | 15 | none | high | pass | none | none |
 | 59 | none | high | pass | none | none |

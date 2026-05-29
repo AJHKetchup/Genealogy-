@@ -6,7 +6,7 @@
 
 ## Suspected Readings
 
-- Literal converted text: `daño`
+- Literal converted text: `dano`
   Suspected reading: `Dario`
   Reason: near match to known family context term `Dario`
   Verification target: reread the page image or exact region before using this in a claim.
