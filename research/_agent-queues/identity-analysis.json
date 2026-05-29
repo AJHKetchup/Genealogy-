@@ -3,8 +3,7 @@
     "queue":  "identity-analysis",
     "task_count":  232,
     "status_counts":  {
-                          "done":  231,
-                          "todo":  1
+                          "done":  232
                       },
     "tasks":  [
                   {
@@ -1528,14 +1527,20 @@
                       "role":  "identity_researcher"
                   },
                   {
-                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-5bfd003c83f8-p0142-01-no-identity-conflict-detected-md.md",
-                      "output_dir":  "research/_staging/identity-analysis",
+                      "skill":  "genealogy-proof-review",
+                      "note":  "post-conversion controller start",
+                      "updated_at":  "2026-05-29T22:12:51Z",
+                      "agent":  "postconv-identity-analysis-20260529221055487",
+                      "started_at":  "2026-05-29T21:46:39Z",
                       "queue":  "identity-analysis",
                       "staged_draft":  "research/_staging/conflicts/chunk-5bfd003c83f8-p0142-01-no-identity-conflict-detected.md",
-                      "role":  "identity_researcher",
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-5bfd003c83f8-p0142-01-no-identity-conflict-detected-md.md",
+                      "completed_at":  "2026-05-29T22:12:51Z",
+                      "output_dir":  "research/_staging/identity-analysis",
                       "task_id":  "identity-analysis:research/_staging/conflicts/chunk-5bfd003c83f8-p0142-01-no-identity-conflict-detected.md",
-                      "status":  "todo",
-                      "skill":  "genealogy-proof-review"
+                      "status":  "done",
+                      "claimed_at":  "2026-05-29T21:46:38Z",
+                      "role":  "identity_researcher"
                   },
                   {
                       "skill":  "genealogy-proof-review",
