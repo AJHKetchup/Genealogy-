@@ -21,13 +21,13 @@
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 491 | none | high | pass | none | none |
-| 14 | none | high | pass | none | none |
-| 15 | none | high | pass | none | none |
+| 492 | none | high | pass | none | none |
+| 493 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
 | 497 | none | high | pass | none | none |
-| 20 | none | high | pass | none | none |
+| 498 | none | high | pass | none | none |
 | 499 | none | high | pass | none | none |
 | 500 | none | high | pass | none | none |
 | 23 | none | high | pass | none | none |

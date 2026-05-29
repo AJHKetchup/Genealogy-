@@ -16,12 +16,12 @@
 | 6 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
-| 9 | none | high | pass | none | none |
+| 537 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
-| 11 | none | high | pass | none | none |
+| 539 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 541 | none | high | pass | none | none |
-| 14 | none | high | pass | none | none |
+| 542 | none | high | pass | none | none |
 | 543 | high | high | pass | none | Dario |
 | 544 | none | high | pass | none | none |
 | 545 | none | high | pass | none | none |
@@ -31,5 +31,5 @@
 | 21 | none | high | pass | none | none |
 | 22 | none | high | pass | none | none |
 | 23 | none | high | pass | none | none |
-| 24 | none | high | pass | none | none |
+| 552 | none | high | pass | none | none |
 | 553 | none | high | pass | none | none |

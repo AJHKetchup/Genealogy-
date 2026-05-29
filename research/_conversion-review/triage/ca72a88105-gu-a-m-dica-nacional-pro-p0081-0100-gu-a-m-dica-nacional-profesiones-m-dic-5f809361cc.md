@@ -20,10 +20,10 @@
 | 90 | none | high | pass | none | none |
 | 91 | none | high | pass | none | none |
 | 92 | none | high | pass | none | none |
-| 13 | none | high | pass | none | none |
+| 93 | none | high | pass | none | none |
 | 94 | none | high | pass | none | none |
 | 95 | none | high | pass | none | none |
-| 16 | none | high | pass | none | none |
+| 96 | none | high | pass | none | none |
 | 97 | none | high | pass | none | none |
 | 98 | medium | high | pass | none | Arriagada |
 | 99 | none | high | pass | none | none |

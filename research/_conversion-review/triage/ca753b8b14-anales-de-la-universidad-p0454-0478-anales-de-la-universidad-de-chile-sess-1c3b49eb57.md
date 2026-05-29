@@ -24,12 +24,12 @@
 | 467 | none | high | pass | none | none |
 | 468 | none | high | pass | none | none |
 | 469 | none | high | pass | none | none |
-| 17 | none | high | pass | none | none |
-| 18 | none | high | pass | none | none |
+| 470 | none | high | pass | none | none |
+| 471 | none | high | pass | none | none |
 | 472 | none | high | pass | none | none |
-| 20 | none | high | pass | none | none |
+| 473 | none | high | pass | none | none |
 | 21 | none | high | pass | none | none |
-| 22 | none | high | pass | none | none |
+| 475 | none | high | pass | none | none |
 | 476 | none | high | pass | none | none |
 | 24 | none | high | pass | none | none |
 | 25 | none | high | pass | none | none |

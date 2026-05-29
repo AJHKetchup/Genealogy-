@@ -16,13 +16,13 @@
 | 6 | none | high | pass | none | none |
 | 310 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
-| 9 | none | high | pass | none | none |
+| 312 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
 | 314 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 316 | none | high | pass | none | none |
-| 14 | none | high | pass | none | none |
-| 15 | none | high | pass | none | none |
+| 317 | none | high | pass | none | none |
+| 318 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
 | 320 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |

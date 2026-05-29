@@ -26,10 +26,10 @@
 | 569 | none | high | pass | none | none |
 | 570 | none | high | pass | none | none |
 | 571 | none | high | pass | none | none |
-| 19 | none | high | pass | none | none |
+| 572 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |
 | 21 | none | high | pass | none | none |
 | 575 | none | high | pass | none | none |
 | 576 | none | high | pass | none | none |
 | 24 | none | high | pass | none | none |
-| 25 | none | high | pass | none | none |
+| 578 | none | high | pass | none | none |

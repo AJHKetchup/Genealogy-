@@ -24,7 +24,7 @@
 | 74 | none | high | pass | none | none |
 | 75 | none | high | pass | none | none |
 | 76 | none | high | pass | none | none |
-| 17 | critical | low | reread-page | none | Arriagada, Pulgar |
+| 77 | critical | low | reread-page | none | Arriagada, Pulgar |
 | 78 | none | high | pass | none | none |
 | 79 | none | high | pass | none | none |
 | 80 | medium | high | pass | none | Heinz |

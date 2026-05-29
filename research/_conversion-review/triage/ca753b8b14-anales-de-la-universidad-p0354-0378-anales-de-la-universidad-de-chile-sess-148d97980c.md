@@ -24,9 +24,9 @@
 | 14 | none | high | pass | none | none |
 | 15 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
-| 17 | none | high | pass | none | none |
+| 370 | none | high | pass | none | none |
 | 371 | none | high | pass | none | none |
-| 19 | none | high | pass | none | none |
+| 372 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |
 | 21 | none | high | pass | none | none |
 | 22 | none | high | pass | none | none |

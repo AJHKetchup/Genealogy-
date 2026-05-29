@@ -21,13 +21,13 @@
 | 514 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 516 | none | high | pass | none | none |
-| 14 | none | high | pass | none | none |
+| 517 | none | high | pass | none | none |
 | 518 | none | high | pass | none | none |
 | 519 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
 | 521 | none | high | pass | none | none |
 | 522 | none | high | pass | none | none |
-| 20 | none | high | pass | none | none |
+| 523 | none | high | pass | none | none |
 | 21 | none | high | pass | none | none |
 | 525 | none | high | pass | none | none |
 | 526 | none | high | pass | none | none |
