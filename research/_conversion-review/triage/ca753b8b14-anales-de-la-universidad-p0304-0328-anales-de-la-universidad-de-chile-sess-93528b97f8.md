@@ -27,9 +27,9 @@
 | 320 | none | high | pass | none | none |
 | 321 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |
-| 20 | none | high | pass | none | none |
+| 323 | none | high | pass | none | none |
 | 324 | none | high | pass | none | none |
-| 22 | none | high | pass | none | none |
+| 325 | none | high | pass | none | none |
 | 23 | none | high | pass | none | none |
 | 327 | none | medium | spot-check | possible_ocr_garbage_token | none |
 | 328 | none | high | pass | none | none |

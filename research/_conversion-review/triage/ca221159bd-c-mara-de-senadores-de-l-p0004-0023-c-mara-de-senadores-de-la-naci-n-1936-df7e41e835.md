@@ -26,5 +26,5 @@
 | 16 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
 | 21 | none | high | pass | none | none |
-| 19 | none | high | pass | none | none |
+| 22 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |

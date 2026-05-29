@@ -5,9 +5,9 @@ Use `$genealogy-claim-extraction`.
 ## Assignment
 
 - Role: `evidence_extractor`
-- Chunk: `raw/chunks/ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-sess-22f639c08e/page-0132-chunk-01.md`
+- Chunk: `raw/chunks/ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143-codex/page-0132-chunk-01.md`
 - Converted source: `raw/converted/ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143.codex.md`
-- Chunk manifest: `raw/chunks/ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-sess-22f639c08e/manifest.json`
+- Chunk manifest: `raw/chunks/ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143-codex/manifest.json`
 - Original source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
 - Page range: 132-132
 - Staging area: `research/_staging`
