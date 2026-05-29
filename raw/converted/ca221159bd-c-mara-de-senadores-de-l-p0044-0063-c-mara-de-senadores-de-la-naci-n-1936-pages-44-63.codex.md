@@ -197,146 +197,216 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present on the page."}
 
+# Page 47
+
 ## Page Metadata
-Page number: 47
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json`
+- Source page: 47
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/page-images/page-0047.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page features a central block of text, primarily a decree, with a page number centered at the top. There is also a partially visible column of text in the left margin, likely from a preceding or parallel document. The main content flows in a single column.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```
-                                — 43 —
-
-№ 45
-lias,
-vial,
-torios
-
-Exp.: 7489-J-935.
-
-                                                Buenos Aires, Abril 15 de 1935.
-
-3 de
-gan
-ior,
-ción
-los
-
-Visto el informe producido por la Junta Honoraria nombra-
-da para el estudio de la situación económica y financiera de
-los ferrocarriles; atentas “las conclusiones” y “recomendacio-
-nes” formuladas por la misma, una de las cuales aconseja la
-revisión de la ley y reglamentos en vigor: y
-
-CONSIDERANDO:
-
-ans-
-pre-
-
-Que es un deber del Poder Ejecutivo tomar todas las medi-
-das que, a su juicio, puedan concurrir a mejorar la situación
-económico-financiera de las empresas ferroviarias de propie-
-dad particular, sin desmedro para los intereses de la colecti-
-vidad y el servicio público que prestan;
-Que hay verdadera conveniencia en estudiar las reformas
-necesarias a la ley y reglamentos en vigor para amoldar sus
-disposiciones a las exigencias y modalidades del presente;
-
+```markdown
+—
+43
+—
+Exp.:
+7489-J-935.
+Buenos
+Aires,
+Abril
+15
 de
-
-El Presidente de la Nación Argentina,
-
-DECRETA:
-
-ou-
-
-Artículo 1º—Nómbrase una Comisión compuesta por el Di-
-rector General de Ferrocarriles, ingeniero don Manuel García
-Torre; Subadministrador de los Ferrocarriles del Estado, in-
+1935.
+Visto el informe producido por la Junta Honoraria nombra-
+da para el estudio de la situaciôn econômica y financiera de
+los ferroearriles; atentas “las conclusiones’’ y “recomendacio-
+nes” formuladas por la misma, una de las cuales aconseja la
+revision de la ley y reglamentos en vigor : y
+CoNSIDERANIX) :
+Que es un deber del Poder Ejecutivo tomar todas las medi-
+das que,
+a su juicio, puedan concurrir a mejorar la situaciôn
+econômico-financiera
+de las
+empresas ferroviarias de propie-
+dad particular, sin desmedro para los intereses de la colecti-
+vidad y el servicio publico que prestan;
+Que hay verdadera conveniencia en estudiar las reformas
+necesarias
+a la ley y reglamentos en vigor para amoldar sus
+disposiciones a las exigencias y modalidades del presente;
+El Présidente de
+la, Naciôn Argentina,
+Décréta :
+Artîculo l9—Nômbrase una Comisiôn eompuesta por el Di¬
+rector General de Ferroearriles, ingeniero don Manuel Garcia
+Torre; Subadministrador de los Ferroearriles del Estado, in¬
 geniero don Augusto Krause Arnin; Secretario de la Junta
-Consultiva de Abogados de los Ferrocarriles, doctor José Bel-
-trame y Asesor Letrado de la Dirección General de Ferroca-
+Consultiva de Abogados de los Ferroearriles, doctor José Bel-
+trame y Asesor Letrado de la Direcciôn General de Ferroca-
 rriles, doctor Horacio L. Perrando, para el estudio y prepa-
-ración de las reformas que se considere conveniente introdu-
-cir a la ley y reglamentos de ferrocarriles en vigencia.
-Art. 2º—La Comisión de que se trata actuará bajo la presi-
-dencia del ingeniero don Manuel García Torre y secretaría del
+raciôn de las reformas que se considéré conveniente introdu¬
+ce a la ley y reglamentos de ferroearriles en vigencia.
+Art. 29 — La Comisiôn de que se trata actuarâ bajo la presi-
+dencia del ingeniero don Manuel Garcia Torre y secretaria del
 ```
 
 ## Images, Captions, And Visual Notes
 
-The left margin contains fragments of text from a previous column or page, which are transcribed in the "Literal Transcription" section. These fragments are not part of the main document on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page, including marginal fragments, has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements present on the page that would be useful as standalone assets. Marginal text fragments are transcribed inline."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 48
 
 ## Page Metadata
-Page number: 44
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json`
+- Source page: 48
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/page-images/page-0048.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, primarily composed of official correspondence or decrees. It begins with a continuation of a previous text, followed by a signature block, a decree number, a date and location, an address, a salutation, and a lengthy paragraph of text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 44 —
 
+```markdown
+— 44
+—
 doctor Horacio L. Perrando, pudiendo designar subcomisiones
-encargadas de practicar los estudios y preparar los informes
-sobre los diversos aspectos técnicos y económicos del problema.
-Art. 3º — Las conclusiones a que arribe, así como los ante-
-proyectos de reformas que formule, terminado su cometido,
-serán sometidos a consideración del Poder Ejecutivo por inter-
-medio del Ministerio de Obras Públicas.
-Art. 4º — Comuníquese, publíquese, dése al Registro Nacional
-y pase a la expresada Comisión a sus efectos.
-
+encargadas de praeticar los estudios y preparar los informes
+sobre los diversos aspeetos técnicos y econômicos del problema.
+Art.
+39 — Las conchisiones a que arribe, as! como los ante-
+proyeetos
+de reformas
+que formule, terminado
+su eometido,
+serân sometidos a consideraciôn del Poder Ejecutivo por inter-
+medio del Ministerio de Obras Pûblicas.
+Art. 49 — Comunîquese, publîquese, dése al Registre Nacional
+y pase a la expresada Comisiôn
+a sus efeetos.
 JUSTO
-M. R. ALVARADO.
-
-Decreto Nº 59.406.
-
-Buenos Aires, Junio de 1936.
-
-_A S. E. el señor Ministro de Obras Públicas de la Nación,_
-_D. Manuel Alvarado.—S/D._
-
-Excmo. señor:
-
-Esta Comisión, al elevar a V. E. el 15 de agosto del año
-pasado su proyecto de reforma a la Ley General de Ferrocarriles
-Nº 2873, anunció que procedería de inmediato a la revi-
-sión integral del Reglamento General de Ferrocarriles, tarea
-que constituiría la segunda etapa del plan de trabajo, que se
-había trazado. Tal método venía a constituir la consecuencia
-lógica de los motivos que originaron el decreto del 15 de abril
-de 1935, derivados de la necesidad, urgente e impostergable,
-de adoptar la legislación vigente a las nuevas formas de la eco-
-nomía y de la explotación ferroviaria, impuestas, en muchos
-aspectos, por acción directa de la crisis general y por función
-de los modernos adelantos técnicos en materia de transportes.
-Cumplida la labor propuesta, esta Comisión tiene el honor de
-elevar a consideración del Poder Ejecutivo, por vuestro digno
-intermedio, el proyecto de Reglamento General de la Ley núme-
-ro 2873, que se adjunta.
+M.
+R. Alvarado.
+,
+Decreto
+N?
+59.406.
+Buenos Aires,
+Junio
+de
+1936.
+A
+S.
+E.
+el
+ssnor Ministro
+de Obras Pûblicas de
+la Naciôn,
+D. Manuel Alvarado. — S/D.
+Excmo. senor:
+Esta Comisiôn, al elevar
+a Y. E.
+el
+15
+de agosto del
+ano
+pasado su proyecto de reforma
+a la Ley General de Ferroca-
+rriles N9 2873, anunciô que proeederia de inmediato a la revi¬
+sion integral del Reglamento General de Ferrocarriles, tarea
+que constituiria la segunda etapa del plan de trabajo,
+que se
+habia trazado.
+Tal método venîa
+a constituir la eonsecuencia
+lôgica de los motivos que originaron el decreto del 15 de abril
+de 1935, derivados de la necesidad, urgente
+e impostergable,
+de adoptar la legislaciôn vigente a las nuevas formas de la eco-
+nomia y de la explotaeiôn ferroviaria, impuestas,
+en muchos
+aspectos, por acciôn directa de la crisis general y por funciôn
+de los modernos adelantos técnicos
+en materia de transportes.
+Cumplida la labor propuesta, esta Comisiôn tiene el honor de
+elevar
+a consideraciôn del Poder Ejecutivo, por vuestro digno
+intermedio, el proyecto de Reglamento General de la Ley numé¬
+ro 2873, que
+se adjunta.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 49
@@ -1228,65 +1298,110 @@ All visible text on the page has been transcribed. The last word of the page is 
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 
+# Page 58
+
 ## Page Metadata
-Page number: 54
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json`
+- Source page: 58
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/page-images/page-0058.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. It begins with a page number centered at the top. The main content is a series of paragraphs, followed by a list of names and titles, a salutation, and then more paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-— 54 —
 
-pranas no puedan tener acceso para la descarga hasta varias
-horas más tarde.
-    Por lo tanto, la solución del problema deberá buscarse en
-formas bilaterales mediante la contribución que cada parte de-
-berá poner de acuerdo a las situaciones de hecho existentes.
-    Otras reformas interesantes incluídas en este Capítulo, res-
-ponden a necesidades reales y a propósitos que se deducen de
-la redacción dada a los artículos correspondientes.
-    El Título III sobre “Policía Sanitaria” se divide en tres
-capítulos: el primero se denomina “Higiene de los Ferrocarrí-
-les” y comprende disposiciones destinadas a asegurarla; el se-
-gundo trata de “Transporte de Cadáveres” y el tercero versa
-sobre “Policía de los Productos Alimenticios”.
-    Finalmente el último Título del Reglamento reproduce, con-
-cordándolas, disposiciones penales consagradas en la Ley núme-
-ro 2873 y el Código Penal, que con posterioridad ha introdu-
-cido en ella importantes modificaciones.
-    Saludamos a V. E. con nuestra consideración más distinguida.
-
-        Ing. M. García Torre, Presidente.
-        Dr. Horacio L. Perrando, Secretario.
-        Vocales { Dr. J. Beltrame.
-                Ing. A. Krause Arnin.
-
-Señor Ministro de Obras Públicas de la Nación, doctor Manuel
-    M. Alvarado. — S/D.
-
-    Excmo. señor:
-
-    Esta Comisión, al estudiar el régimen de transporte aplica-
-ble a las cargas llamadas “perecederas” de que se ocupa el
-artículo 220 del Reglamento vigente, ha considerado indispen-
-sable proceder a una revisión completa del mismo.
-    Ante todo, se determinó el alcance o la interpretación que
-correspondía dar al artículo 46 de la Ley 2873. Esta norma
-contiene una excepción al principio de orden público que domi-
+```markdown
+—
+54
+—
+pranas
+no puedan tener aeceso para la descarga hasta varias
+horas mas tarde.
+Por
+lo tanto, la solution del problema deberâ buscarse
+en
+formas bilaterales mediante la contribution que cada parte de¬
+berâ poner de acuerdo
+a las situaciones de hecho existentes.
+Otras reformas interesantes incluidas
+en este Capitulo, res-
+ponden
+a necesidades reales y a propôsitos que se deducen de
+la redaction dada a los artieulos correspondientes.
+El Titulo III sobre “Politia Sanitaria”
+se divide
+en très
+capitulos
+: el primero se denomina
+‘ ‘ Higiene de los Ferrocarri-
+les” y eomprende disposiciones destinadas a asegurarla; el se-
+gundo trata de “Transporte de Cadâveres” y el tercero versa
+sobre “Policia de los Productos Alimenticios
+Finalmente el ultimo Titulo del Reglamento reproduce, con-
+cordândolas, disposiciones penales consagradas en la Ley numé¬
+ro 2873 y el Côdigo Penal,- que con posterioridad ha introdu-
+cido
+en ella importantes modificaciones.
+Saludamos a Y. E. con nuestra consideration mas distinguida.
+Ing. M. Garcia Torre, Présidente.
+Dr. Horacio L. Perrando, Secretario.
+Dr. J. Beltrame.
+Ing. A. Krause Arnin.
+Vocales
+Senor Ministro de Obras Pûblicas de la Naciân, doctor Manuel
+M. Alvarado. — S/D.
+Excmo. senor:
+Esta Comisiôn, al estudiar el régimen de transporte aplica-
+ble
+a las eargas llamadas “ perecederas ” de que
+se
+ocupa el
+articulo 220 del Reglamento vigente, ha considerado indispen¬
+sable procéder
+a una revision compléta del mismo.
+Ante todo,
+se determinô el alcance
+o la interpretation que
+correspondia dar al articulo 46 de la Ley 2873.
+Esta norma
+eontiene una exception al principio de orden publico que domi-
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 59
 
@@ -1444,86 +1559,103 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
 ```
 
+# Page 61
+
 ## Page Metadata
-Page number: 61
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json`
+- Source page: 61
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/page-images/page-0061.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a single-column layout with a page number centered at the top. The main content consists of two distinct sections, each with sub-sections or bullet points. There is also a date and an "Exp." number. A partial column of text is visible on the left margin, cut off by the page edge.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-— 57 —
 
-r los
-o de
-mayor
-espe-
-al de
-tícu-
-pro-
-eter-
-ades
-ción
-dose
-es y
-esta-
-rro-
-ones
-esol-
-e.
-
+```markdown
+— 57
+—
 NOMINA DE SUSTANCIAS DE PRIMERA Y SEGUNDA CATEGORIA
-CUYO TRANSPORTE DEBE EFECTUARSE DE ACUERDO A LO
+CUYO
+TRANSPORTE
+DEBE
+EFECTUARSE
+DE
+ACUERDO A LO
 DISPUESTO EN EL ARTICULO 247 DEL REGLAMENTO GENERAL
 DE FERROCARRILES:
-
-PRIMERA CATEGORÍA.—Frutas, verduras y legumbres frescas,
+Primera categoria.—Frutas, verduras y legumbres frescas,
 excepto zapallos, cebollas no verdes, ajo seco, papas, batatas,
-remolacha forrajera o azucarera, cocos y caña de azúcar, que se
-transportarán en los plazos ordinarios.
-
-Leche, crema, manteca, quesos, cuajos y levaduras frescas.
-Pescados y mariscos frescos, carnes frescas o congeladas,
+remolacha forrajera o azucarera, cocos y cana de azûcar, que se
+transportai'ân en los plazos ordinarios.
+Leche, crema, manteca, qnesos, cuajos y levaduras frescas.
+Pescados y mariscos frescos,
+carnes
+frescas
+o congeladas,
 hielo.
-Aves y otros animales, excepto ganado, cuyo transporte se re-
-girá por las disposiciones vigentes.
-
-SEGUNDA CATEGORÍA.—Ananás, bananas, granadas, limones,
-limas, mandarinas, manzanas, melones, membrillos, naranjas,
-pomelos, sandías, árboles y plantas vivas, huevos frescos y tepes.
-
-Exp.: 18.286 - FF - 936
-
-Buenos Aires, Septiembre 12 de 1936.
-
-Visto que la Comisión designada por decreto de 15 de abril
-de 1935 ha dado término a la revisión integral del “Reglamento
-General de Ferrocarriles” concretando sus conclusiones en el
-proyecto que acompaña y que somete a la aprobación del P. E.,
+Aves y otros animales, excepto ganado, cnyo transporte se ré¬
+gira por las disposiciones vigentes.
+Segunda categoria.—Ananas,
+bananas, granadas, limones,
+limas, mandarinas,
+manzanas, melones, membrillos, naranjas,
+pomelos, sandîas, ârboles y plantas vivas, huevos frescos y tepes.
+Exp. : 18.286 - EF - 936
+Buenos Aires,
+Septiembre
+12
+de 1936.
+Visto que la Comisiôn designada por decreto de 15 de abril
+de 1935 ha dado término a la revision integral del ‘ ‘ Reglamento
+General de Ferrocarriles” concretando
+sus conclusiones en el
+proyeeto que acompana y que somete a la aprobaciôn del P. B.,
 Teniendo en cuenta:
-Que, en la labor realizada, se ha procedido con criterio res-
-trictivo y prudente en materia de innovaciones, limitándolas a
+Que, en la labor realizada, se ha procedido con criterio res¬
+trictive y prudente en materia de innovaeiones, limitândolas a
 lo indispensable para hacer que el derecho se adapte a los hechos
-nuevos que han surgido, conservando una regulación cuya efi-
-cacia y buen resultado tiene la confirmación de una larga ex-
-periencia;
+nuevos que han surgido, conservando una regulaciôn cuya efi-
+eacia y buen resultado tiene la confirmaciôn de una larga ex-
+periencia ;
 Que se ha mejorado y aclarado gran cantidad de disposiciones,
 definiendo muchos puntos dudosos y procurado, de un modo
 ```
 
 ## Images, Captions, And Visual Notes
-There are no substantial images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-The text on the left margin is partially visible and cut off by the page edge. It is transcribed as literally as possible, but its full content and context are not available.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The page is complete, with all visible text transcribed. The partial text on the left margin has been noted.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for region cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 62
 

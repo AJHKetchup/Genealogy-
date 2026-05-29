@@ -1,0 +1,99 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-de9d1b8b1189-P0291-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293.codex.md
+converted_sha256: de9d1b8b118977980e6fcfd981cdaa6e0435a41deacef656a74b8ab815ebd075
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json
+page_start: 291
+page_end: 291
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json`
+- Source page: 291
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-images/page-0291.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+JULIO SAAVEDRA MOLINA 
+271 
+Ud. se muestra 
+en desacuerdo conmigo yo no lo 
+estoi con Ud., debido a que Ud. me atribuye opinio- 
+nes que, me parece, no he sustentado, i que, en todo 
+caso, no tengo, me ha parecido que no debo dejarlo 
+a Ud. en este error. Además, me asisten dudas acer- 
+ca de una que otra de las opiniones que Ud. emite. 
+Es lo que paso a decirle brevemente. 
+(Pájina 177 de los ANALES): 
+Sus reflexiones acerca de la parcial correspondencia 
+de los vocablos entre las lenguas son mui interesantes 
+1 atinadas. Yo me contenté con aludir a ese tópico 
+en las pájinas 67 1 150 de mi libro. Como Ud. dice, 
+tal vez debería haber insistido con más detalles. 
+(Pájina 182): 
+Tiene Ud. razón al decir que la consecuencia ló- 
+jica de mi libro es que cada alumno de las human1- 
+dades debería aprender francés, inglés, 1 alemán; 1 
+no decir esto perentoriamente es, sin duda, un de- 
+fecto de él. Tiene igualmente razón cuando observa 
+que en la pájina 106 se habla de preferencias entre 
+el inglés 1 el alemán, lo cual no concuerda con la 
+otra «idea lójica». La esplicación es ésta: Mi libro, 
+como lo digo en la «noticia» que lo encabeza, fué 
+compuesto en parte con fragmentos de artículos pu- 
+blicados en fechas diversas 1 con ocasiones variadas. 
+La pájina 106 es parte de un artículo escrito sobre 
+la base de que se les debe enseñar a los alumnos sólo 
+dos lenguas estranjeras, base todavía vijente, 1 la 
+nota 2 fué agregada después de haberse resuelto no 
+enseñar sino un idioma en primer año. 
+Sin embargo, creo que con los mismos elementos 
+que se hallan en mi libro se puede «resolver el pro- 
+blema» al cual Ud. no le divisa la solución, pues mi
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 292

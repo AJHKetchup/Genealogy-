@@ -66,72 +66,138 @@ The entire content of the page has been transcribed.
 }
 ```
 
+# Page 480
+
 ## Page Metadata
-Page number: 480
-Source publication year: 1936
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Source page: 480
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/page-images/page-0480.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a central page number at the top. The main content is presented in a single column, consisting of a heading, a numbered item with a parenthetical note, and then two sections with subheadings, each containing a numbered list of items. Each item in the lists has a corresponding time value in minutes on the right, separated by dot leaders.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 19 —
-
-Minutos
-que se
-acuerdan
-
-6º Cuando el personal tenga que preparar la locomo-
-tora en una estación de tránsito por haber tomado des-
-canso ahí y al tomar servicio tenga que encender fuego
-y levantar presión, como norma general.................. 120'
-
-(Se entiende por locomotoras de maniobras aquella cuyo rodado
-está constituido exclusivamente por ejes motores.
-Cuando las maniobras se realicen con locomotoras de otro tipo
-que no pertenezca al expresamente especificado, los tiempos de
-preparación serán los que correspondan a la agrupación respectiva.
-Para toda preparación de locomotora que se efectúe en galpones
-cuya altura sea de 3000 metros o más sobre el nivel del mar, los
-tiempos de preparación se calcularán con un aumento de 10 %
-sobre los tiempos establecidos.)
-
-Al dejar servicio:
-
-1º Cuando el personal lleve la locomotora al galpón,
-la revise, anote reparaciones, etc. ........................ 30'
-2º Cuando el personal entregue la locomotora en
-plataforma o en galpón, y sólo firme el registro y deje el
-servicio.................................................. 15'
-3º Cuando el personal, después de viajar como pasa-
-jero, deba concurrir al galpón, firmar el registro de dejar el
-servicio (contándose el tiempo desde la llegada del tren
-señalado para viajar a la estación de destino indicada al
-personal).............................................. 15'
-
-Personal de conducción de trenes eléctricos
-
-Al tomar servicio:
-
-1º Cuando el mismo personal revise y compruebe
-la buena preparación de la locomotora o tren eléctrico
-en galpón................................................ 25'
-2º Cuando un personal recibe en galpón la locomo-
-tora o tren eléctrico preparado y deba sólo firmar el
-registro y cerciorarse de las circulares y avisos en
-vigencia.................................................. 10'
+```markdown
+-
+19
+Minutes
+qne se
+acnerdan
+6° Cuando el personal tenga que preparar la locomo-
+tora en
+una estaciôn de trdnsito por haber tornado des-
+canso ahî y al tomar servicio tenga que encender fuego
+y levantar presiôn, como norma general
+120’
+( Se entiende por locomotoras de maniobras aquella ouyo rodado
+està constituido exclusivamente por ejes motores.
+Cuando las maniobras
+se realicen
+cou locomotoras de otro tipo
+que no pertenezea
+al
+expresamente
+especificado,
+los tiempos
+dé
+preparaciôn serân los que correspondan
+a la agrupaciôn respectiva.
+Para toda preparaciôn de locomotora que se efectue en galpones
+cuya altura sea de 8000 metros o mâs sobre el nivel
+del mar, los
+tiempos
+de preparaciôn
+se
+calcularân
+con
+un aumento de 10
+°/0
+sobre los tiempos establecidos. )
+Al dejar servicio :
+1° Cuando el personal lleve la locomotora al galpon,
+la revise, anote reparaciones, etc
+30’
+2° Cuando
+el personal entregue
+la locomotora en
+plataforma o en galpon, y solo firme el registro y deje
+servicio
+15’
+3° Cuando el personal, después de viajar como pasa-
+jero, deba concurrir al galpon, firmar el registro de dejar
+servicio (contdndose el tiempo desde la llegada del tren
+seflalado para viajar
+a la
+estaciôn de destino indicada
+al personal).
+.
+•
+15’
+Personal de conducciôn
+de trenes eléctricos
+Al tomar servicio :
+1° Cuando el mismo personal revise
+y
+compruebe
+la buena preparaciôn de la locomotora
+o tren eléctrico
+en galpon
+25’
+2° Cuando un personal fecibe en galpon la locomo¬
+tora
+o tren
+eléctrico preparado y
+deba
+solo firmar
+el
+registro
+y
+cerciorarse
+de
+las
+circulaires
+y avisos
+en
+vigëncia.........
+10’
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. The page number "- 19 -" is centered at the top.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and layout elements on the page have been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 481
@@ -414,136 +480,294 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
+# Page 484
+
 ## Page Metadata
-Page number: 484
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Source page: 484
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/page-images/page-0484.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single-column layout with a page number centered at the top. The content consists of numbered and lettered paragraphs, detailing regulations related to work and rest periods. There are sub-points within these main sections, some of which present information in a two-column-like format (e.g., hours and corresponding values).
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 23 —
-
-2° Al personal de conducción de locomotoras afectado
-a servicios locales de pasajeros con trenes de
-tracción a vapor, teniendo en cuenta la mayor
-intensidad de este trabajo y de acuerdo con lo
-expresado en el artículo 40, se le computarán las
-horas totales del mismo dentro del ciclo con un
+```markdown
+—
+23
+—
+2° Al personal de conduccidn de locomotoras afectado
+a
+servicios
+locales
+de
+pasajeros
+con
+trenes
+de
+traccidn
+a
+vapor,
+teniendo
+en
+cuenta la
+mayor
+intensidad
+de
+este
+trabajo
+y
+de
+acuerdo
+con lo
+expresado
+en el artlculo 40,
+se le computardn las
+horas
+totales
+del
+mismo
+dentro
+del ciclo
+con un
 diez por ciento (10 %) de aumento.
-Para el cómputo total de horas de trabajo den-
-tro del ciclo, en aquellos casos en que proceda la
-aplicación del artículo 2°, inciso *b* referente a
-servicio nocturno, no se tendrá en cuenta, sobre
-las jornadas así afectadas, la bonificación del 10 %
+Para el computo total
+de horas de trabajo den¬
+tro del ciclo,
+en aquellos casos
+en que procéda la
+aplicaciôn
+del
+artlculo
+2°, inciso
+b
+referente
+a
+servicio
+nocturno,
+no
+se tendra
+en cuenta, sobre
+las jornadas asî afectadas, la bonificaciôn del 10 %
 antes citada.
-3° En el servicio de balasto no se computará como
+3° En el servicio de
+balasto
+no
+se computard
+como
 trabajo efectivo el intervalo de tiempo destinado a
-comida del personal, si éste es igual o superior a
+comida del personal, si este
+es igual
+o superior a
 cuarenta y cinco (45) minutos.
-
 Descansos parciales.
-
-*c)* Todo período de trabajo deberá ser seguido de los
-siguientes descansos mínimos normales:
-
+c) Todo perfodo de trabajo deberd ser seguido de los
+siguientes descansos minimos normales:
 Horas
-1° Por 8 horas o más de trabajo efectivo....... 12
+1° Por 8 horas
+o mas de trabajo efectivo
+12
 Por menos de 8 horas de trabajo efectivo, hasta
-7 horas................................ 10
-Por menos de 7 horas de trabajo efectivo..... 8
-
-2° Para el personal de conducción de locomotoras
-que trabaja con trenes de carga en servicio sin
-diagrama, el descanso mínimo parcial en residencia
-será de 16 horas. Fuera de la misma, los descansos
-serán iguales a los establecidos precedentemente.
-
+7
+horas
+10
+Por menos de 7 horas de trabajo. efectivo
+8
+2° Para
+el personal de
+conduccidn
+de locomotoras
+que trabaja
+con
+trenes de
+carga en servicio sin
+diagrama, el descanso mi'nimo parcial en residencia
+serd de 16 horas. Fuera de la misma, los descansos
+serdn
+iguales
+a los establecidos precedentemente.
 Descansos grandes.
-
-*d)* La duración de los descansos grandes y su separación
-dentro del ciclo serán las siguientes:
-
-1° En el ciclo de veintiún (21) días el personal ten-
-drá tres grandes descansos, que serán disfrutados
+ci) La duracion de los descansos grandes y su separacion
+dentro del ciclo serdn las siguientes:
+1° En el ciclo
+de veintiün (21) dfas el personal
+ten¬
+dra très grandes descansos, que serdn disfrutados
 siempre en residencia y cada uno de los cuales no
+```
 
 ## Images, Captions, And Visual Notes
-This page contains no images or captions.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The transcription ends mid-sentence as the content continues on the next page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No visual regions present on the page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 485
 
 ## Page Metadata
-- Page number: 485
-- Source publication year: 1936
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Source page: 485
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/page-images/page-0485.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. At the top, there is a page number centered. The main content includes a continuation of a previous section, followed by a new section title and a list of definitions. A footnote appears at the bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-                                  — 24 —
 
-podrá ser inferior a treinta y dos (32) horas; y el
-intervalo de tiempo que los separe no podrá ser
-mayor de 168 horas.
-2º Para el personal afectado a los servicios no diagra-
+```markdown
+—
+24
+—
+podrâ ser inferior a treinta y dos (32) horas;
+y el
+intervalo
+de tiempo
+que
+los
+séparé
+no
+podrâ ser
+mayor de
+168 horas.
+2° Para el personal afeetado
+a los servicios
+no diagra-
 mados de carga, balasto, etc., el intervalo de tiempo
-que separe cada descanso no podrá ser mayor de
-144 horas ni menor de 120.
-3º En los servicios de balasto, teniendo en cuenta que
-la naturaleza de este trabajo origina cambios de
+que séparé cada descanso
+no podrâ
+ser mayor de
+144 horas ni menor de
+120.
+3° En los servicios de balasto, teniendo en cuenta que
+la naturaleza
+de
+este trabajo
+origina
+cambios
+de
 lugar a medida que se va realizando, los descansos
-grandes podrán ser acordados en el punto donde
+grandes podrdn ser acordados
+en
+el
+punto donde
 quede estacionada la locomotora durante la noche,
-o donde quede detenida periódicamente para efec-
-tuar el lavado de caldera, reparaciones, etc., en
-cuyos casos la empresa proporcionará las comodi-
+o donde quede detenida periodicamente
+para efec-
+tuar
+el
+lavado
+de caldera, reparaciones,
+etc.,
+en
+cuyos casos la
+empresa proporcionard las comodi-
 dades necesarias.
-
-Secciones de tráfico intenso.
-
-(*) Art. 40.— Se considerarán secciones de tráfico in-
-tenso, a los efectos de la aplicación de las disposiciones refe-
-rentes al personal de máquinas en servicio local de pasajeros,
+Secciones de trâfico intenso.
+(*) Art. 40.— Se
+considerarân
+secciones
+de
+trâfico
+in¬
+tenso, a los efectos de la aplicaciôn de las disposiciones refe-
+rentes al personal de mâquinas en servicio local de pasajeros,
 las siguientes:
-    a) Las secciones de «vía sencilla» donde la circulación
-    de trenes de pasajeros alcance como mínimo a la
-    cantidad de veinticuatro (24) ascendentes y a veinti-
-    cuatro (24) descendentes en cada veinticuatro (24)
-    horas;
-    b) Las secciones de «vía doble», donde la circulación
-    de trenes de pasajeros alcance como mínimo a la
-    cantidad de cincuenta (50) ascendentes y a cincuenta
-    (50) descendentes en cada veinticuatro (24) horas;
-    c) Las secciones de «vía cuádruple» donde la circula-
-    ción de trenes de pasajeros alcance como mínimo
-    a la cantidad de cien (100) ascendentes y cien (100)
-    descendentes en cada veinticuatro (24) horas.
-
-(*) Decreto de octubre 26 de 1935.
+a) Las seccones de «vfa seneilla» donde la circulaciôn
+de trenes
+de pasajeros alcance
+como
+mx'nimo
+a la
+cantidad de veinticuatro (24) ascendentes y a veinti-
+cuatro (24) descendentes
+en cada veinticuatro (24)
+horas;
+b) Las secciones de «via doble», donde la circulaciôn
+de
+trenes
+de pasajeros alcance
+como mi'nimo
+a la
+cantidad de cincuenta (50) ascendentes y a cincuenta
+(50) descendentes
+en cada veinticuatro (24) horas;
+c) Las secciones de
+«via cuâdruple» donde la circula¬
+ciôn de
+trenes
+de pasajeros alcance
+como minimo
+a la cantidad de cien (100) ascendentes y cien (100)
+descendentes
+en cada veinticuatro (24) horas.
+(*) Decreto de octobre 26 de 1985,
 ```
 
 ## Images, Captions, And Visual Notes
-This page contains no images or captions.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no images or other substantial visual content."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 486
@@ -682,68 +906,133 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 488
+
 ## Page Metadata
-Page 488
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Source page: 488
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/page-images/page-0488.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, primarily composed of regulations or articles. It starts with a page number at the top, followed by a section heading "Descansos grandes." with three sub-points (e, f, g). A Roman numeral "III" acts as a separator, followed by another section heading "Servicio a órdenes en domicilio, galpón o estación" and an article "Art. 44." with four sub-points (a, b, c, d).
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 27 —
 
-**Descansos grandes.**
+```markdown
+—
+27
+—
+Descansos grandes.
 e) En los servicios continuos y después de cada seis
-períodos de trabajo, el personal tendrá un gran des-
-canso igual a veinticuatro (24) horas, más el descanso
-parcial previsto en el inciso *d*; y que, a los efec-
-tos, del cambio de turno, podrá disminuirse a treinta
-y dos (32) horas, siempre que el tiempo reducido
-por tal causa se agregue al descanso grande si-
-guiente o subsiguiente;
-f) En los servicios discontinuos, el gran descanso será
-igual a la diferencia entre el número de horas con-
-tenidas en una semana y el de horas trabajadas y
+penodos de trabajo, el personal tendrâ un gran des-
+canso igual a veinticuatro (24) horas, mâs el descanso
+parcial previsto en el inciso d;
+y
+que,
+a
+los efec-
+tos del cambio de turno, podrâ disminuirse a treinta
+y dos (32) horas, siempre
+que el tiempo reducido
+por tal
+causa
+se
+agregue
+al
+descanso grande si-
+guiente
+o subsiguiente;
+f) En los servicios discontinues, el gran descanso sera
+igual a la diferencia entre el numéro de horas con-
+tenidas
+en
+una semana y el de horas trabajadas y
 de descansos parciales;
-g) A los efectos de los cambios de turno, en los ser-
-vicios de maniobras de dos turnos podrá reducirse
+g) A los efectos de los cambios de turno,
+en los ser¬
+vicios de maniobras de dos turnos podrâ reducirse
 el descanso grande a veinticuatro (24) horas, debién-
-dose agregar dicha reducción, en tales casos, al
+dose
+agregar
+dicha reduccion,
+en taies
+casos,
+al
 descanso grande siguiente.
-
 III
-
-**Servicio a órdenes en domicilio, galpón o estación**
-
-Art. 44. — a) El servicio a órdenes se computará siem-
-pre a partir de la terminación del descanso mínimo
-que acuerda este reglamento para cada clase de
-servicio, ya sea en el domicilio de residencia o en
+Servicio
+a ôrdenes
+en domicilio, galpôn
+o estaciôn
+Art. 44. —a) El servicio
+a ôrdenes
+se computarâ siem¬
+pre a partir de la terminaciôn del descanso minimo
+que acuerda
+este reglamento
+para
+cada
+clase de
+servicio, ya sea en el domicilio de residencia
+o en
 el de afuera.
-b) El personal no podrá estar anotado a órdenes por
-un tiempo mayor de diez (10) horas en galpón o
-estación, y de veinticuatro (24) horas en domicilio;
-c) Si durante el período de servicio a órdenes el per-
-sonal no ha realizado ningún trabajo efectivo, o no
-se le ha notificado la hora en que debe tomar ser-
-vicio, no podrá ser utilizado, a ningún efecto, antes
+b) El personal no podrâ estar anotado a ôrdenes por
+un tiempo mayor de
+diez
+(10)
+horas
+en galpôn o
+estaciôn, y de veinticuatro (24) horas
+en domicilio;
+c) Si durante el perfodo de servicio a ôrdenes el per¬
+sonal
+no ha realizado ningün trabajo efectivo, o no
+se le ha notificado la hora
+en que debe tomar ser¬
+vicio, no podrâ ser utilizado, a ningün efecto, antes
 de haber cumplido un intervalo de tiempo de ocho
 (8) horas;
-d) Cuando el servicio se inicie después del período de
-veinticuatro (24) horas a órdenes en domicilio, la
+d) Cuando el servicio se inicie después del perfodo de
+veinticuatro (24) horas
+a ôrdenes
+en domicilio, la
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on the page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 489

@@ -1,0 +1,103 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ec3c1783696a-P0243-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243.codex.md
+converted_sha256: ec3c1783696a091b5fdb6386c177308002df7a07379097042ea31b784d7fb2d9
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json
+page_start: 243
+page_end: 243
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json`
+- Source page: 243
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/page-images/page-0243.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+SESION DE 28 DE OCTUBRE DE 1918 
+529 
+Bachilleres en Humanidades: 
+a don Luis A. Castro Espinosa Pica, 
+» 
+Julio Fuenzalida Valdivia; 1 
+» 
+Luis A. Riquelme Chávez. 
+a 
+Leida 1 aprobada el acta de la sesion de 21 de Octubre, se 
+dió cuenta: 
+1.0 De dos decretos del Ministerio de Instruccion 
+Pública, 
+que se insertan al final de la presente acta; 
+2.0 De una nota de la Facultad de Leyes 1 Ciencias Políticas 
+en la cual comunica haber elejido Miembro Honorario, al Mi- 
+nistro de Relaciones Esteriores 1 Embajador Estraordinario del 
+Uruguai, Excmo. Señor don Baltasar Brum. 
+Se aprobó por unanimidad esta designacion. 
+3.0 De un oficio de la Comision de Bellas Artes en que pide 
+al Consejo el nombramiento de jurado para el «Certámen Jeneral 
+Maturana». 
+Se acordó rogar a los señores don Luis Dávila Larrain, don 
+Onofre Jarpa 1 don Nicanor González Méndez, se sirvan formar 
+parte del jurado de dicho certámen. 
+4.0 De una comunicacion del ex-Rector del Liceo de Val- 
+paraiso, don Cárlos Rudolph, en que agradece la nota que, con 
+motivo de su jubilacion, le envió el señor Rector de la Univer- 
+sidad, en reconocimiento de los servicios que ha prestado a la 
+instruccion pública del pais. 
+59.0 De dos oficios, uno del Rector del Liceo de Rengo, que 
+solicita la creacion del 6.0 año de Humanidades; 1 el otro del 
+Rector del Liceo de Puerto Montt, que pide la creacion del 
+4.0 año. 
+: 
+Se acordó elevar ámbas peticiones, favorablemente informa- 
+das, a la resolucion del señor Ministro de Instruccion Pública. 
+6. De una nota del Rector del Liceo de Temuco en que co- 
+- munica la vacancia de la asignatura de matemáticas con 20 
+horas semanales de clases. 
+Se acordó proveerla en propiedad. 
+El señor Rector de la Universidad comunicó que no se habia
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

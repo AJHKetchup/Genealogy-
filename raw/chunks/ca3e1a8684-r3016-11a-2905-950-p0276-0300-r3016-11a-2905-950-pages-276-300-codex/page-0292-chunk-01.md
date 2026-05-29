@@ -1,0 +1,122 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ccd25951b5de-P0292-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300.codex.md
+converted_sha256: ccd25951b5de96945eba9c14ce7a48e07e8c306fc17ca53babeae3945db08c70
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300/manifest.json
+page_start: 292
+page_end: 292
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300/manifest.json`
+- Source page: 292
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300/page-images/page-0292.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+En outre, furent institués des cours de répétition de
+deux à trois semaines, tous les cinq ans, pour les infirmières
+diplômées.
+En Allemagne, 341 écoles ou hôpitaux reconnus
+par
+l'Etat forment des infirmières.
+En Autriche le diplôme d'Etat est obtenu après trois ans
+de stage dans une école d'infirmières.
+En Belgique, les examens et le diplôme d'Etat ont été
+institués en 1913.
+La Nouvelle-Zélande possède l'examen d'Etat depuis
+1903.
+En Espagne existent soit les examens d'Etat, soit le
+diplôme d'Etat.
+p
+UEsthonie
+possède
+également
+le
+diplôme
+d'Etat.
+Aux
+Etats-Unis,
+tous
+les Etats
+confédérés,
+sauf
+le
+Nevada, ont institué l'examen d'Etat, mais il n'existe
+pas d'examen fédéral.
+En Grande-Bretagne, depuis le 14 juillet 1923, l'exer¬
+cice de la profession d'infirmière est lié au passage d'un
+examen d'Etat, succédant à trois années d'études dans
+une école autorisée.
+En Italie, l'examen d'Etat a été institué, en août 1925,
+mais n'a pas
+encore été décrété obligatoire. Les écoles
+d'infirmières de la Croix-Eouge italienne organisent les
+études de leurs élèves
+de telle façon que lorsque l'exa¬
+men
+sera devenu obligatoire celles-ci soient aptes à le
+subir avec succès.
+Au Japon, le diplôme d'infirmière est conféré par les
+préfectures locales. Les élèves-infirmières formées dans les
+écoles de la Croix-Eouge japonaise sont enregistrées sans
+avoir à subir l'examen d'Etat.
+Les Pays-Bas possèdent
+le diplôme d'Etat, institué
+par décret royal du 2 mai 1921.
+En France, les examens d'Etat, conduisant à des di¬
+plômes
+. d'Etat
+ont été institués par décret du 22 juin
+1922.
+Aux termes de ce décret, toutes les élèves d'une école
+d'infirmières reconnue par le ministère de l'Hygiène peu-
+— 28
+—
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 293

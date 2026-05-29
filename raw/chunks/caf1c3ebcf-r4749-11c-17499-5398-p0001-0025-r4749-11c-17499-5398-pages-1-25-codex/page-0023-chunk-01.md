@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-93745e64e701-P0023-01
+chunk_id: CHUNK-7f0fbfe548cf-P0023-01
 source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25.codex.md
-converted_sha256: 93745e64e701b058f8d6eead7561c5053cee42e454fe685827bc9ad976452732
+converted_sha256: 7f0fbfe548cfb9d7000cf93a51f23eeedd15fda243b93bf8690cab4aa5c3132e
 source: raw/sources/R4749-11C-17499-5398.pdf
 source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
 source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/manifest.json
@@ -12,58 +12,142 @@ part: 1
 ---
 
 ## Page Metadata
-Page number: 23
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/manifest.json`
+- Source page: 23
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/page-images/page-0023.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a single column of text, primarily legal definitions and articles, presented in a list format. There is a page number "III-" at the top center. The text is organized into two main sections, each with sub-points labeled alphabetically.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-III-
-
+```markdown
 abandonados:
-    a) Los comprendidos en los artículos 106, 107 y 108 del
-    Código Penal;
-    b) Los que no tienen domicilio, ni medios de subsisten-
-    cia por muerte o desaparición de los padres o por no
-    ser éstos conocidos;
-    c) Los que eventualmente se encuentran sin domicilio o
-    medios de subsistencia por enfermedad, extrema indi-
-    gencia o detención de los padres, tutor o guardador;
-    d) Cuando los padres, tutor o guardador, tuviesen a los
-    hijos o pupilos en habitaciones perjudiciales a su
-    salud o en promiscuidad moral;
-    e) Los niños en edad de lactancia y todo menor de 12 a-
-    ños, cuando los padres u otras personas los tengan
-    consigo ejerciendo la mendicidad;
-    f) Cuando el padre, tutor o guardador, que tiene la pa-
-    tria potestad, tutela o guarda, hubiera sido condena-
-    do a más de tres años de prisión o reclusión, confor-
-    me a lo dispuesto en el artículo 12 del Código Penal,
-    y siempre que por cualquier motivo la madre no estu-
-    viere en condiciones de ejercer la patria potestad.
-    Artículo 8º.— Se consideran moralmente abandona-
-dos o en peligro moral:
-    a) Cuando los padres, tutor o guardador, hubieran sido
-    condenados por cualquier delito en perjuicio de algu-
-    no de sus hijos o pupilos o por los delitos de viola-
-    ción, estupro, corrupción, rapto o abuso deshonesto
-    en perjuicio de algún menor; en tales casos, si hubie-
-    re recaído sobreseimiento o absolución, el Tribunal
-    de Menores podrá asimismo resolver sobre la tenencia
-    del menor;
-    b) Cuando los padres, tutor o guardador, sean delincuen-
-    tes habituales, personas viciosas o de mala vida;
+a)
+Los comprendidos
+en Los articulos 106,
+107 y 108 del
+Codigo Penal;
+b)
+Los
+que no tienen domicilio, ni medios
+de subsisten-
+cia por muerte
+o desaparicion de los padres
+o por no
+ser éstos conocidos;
+c)
+Los
+que eventualmente
+se encuentran sin domicilio
+o
+medios
+de subsistencia por enfermedad,
+extrema indi-
+gencia
+o detencion de los padres, tutor
+o guardador;■
+d)°Cuando los padres, tutor
+o guardador, tuviesen
+a los
+hijos
+o pupilos
+en habitaciones perjudiciales
+a su
+.salud
+o
+en promiscuidad moral;
+e)
+Los ninos
+en edad de lactancia y todo menor de 12 a-
+nos, cuando los padres
+u otras personas los tengan
+consigo'e]erciendo la-mendicidad;
+f)
+Cuando el padre, tutor
+o guardador,
+que tiene la pa-
+tria potestad, tutela
+o guarda, hubiera sido condena
+do
+a
+mas
+de très
+anos
+de prision
+o réclusion, confot
+me
+a lo dispuesto
+en el articulo 12 del Codigo Penal,
+y siempre
+que por cualquier motivo la madré no estu-
+viere
+en condiciones de ejercer la patria patestad.
+Articulo 8?.—
+Se consideran moralmente abandona-
+dos
+o
+on peligro moral:.
+a)
+Cuando los padres, tutor
+o guardador, hubieran sido
+condenados por cualquier delito
+en perjuicio de aigu
+no de
+sus hijos
+o pupilos
+o
+por los delitos de viola
+cion, estupro, corrupcion, rapto
+o abuso deshonesto
+en perjuicio de al_nn menor;
+en taies casos, si hubie
+re recaido
+:obreseimiento
+o absolucion, el Tribunal
+de Menores podrâ asimismo resolver sobre la tepencia
+del menor;
+b)
+Cuando los padres, tutor
+o guardador,
+séan delincuen-
+tes habituales,
+personas viciosas
+o de mala vida;
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No text is uncertain or illegible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text from the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements that would require cropping."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

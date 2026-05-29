@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-68945cf6282f-P0023-01
+chunk_id: CHUNK-711ce1a7244d-P0023-01
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25.codex.md
-converted_sha256: 68945cf6282f7f880e9e5bf4e1117189d1fe4f47de7802dc632fa5888bb612c2
+converted_sha256: 711ce1a7244d2833da0c2abb7150901ca8c6c76f90100672f6c9a080d2520016
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25/manifest.json
@@ -12,77 +12,151 @@ part: 1
 ---
 
 ## Page Metadata
-Page Number: 23
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25/manifest.json`
+- Source page: 23
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25/page-images/page-0023.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of typed text presented in a single column. The content includes a title, a page number, an introductory paragraph, two blocks of French text (resolutions), and a structured list of committee items in English. A parenthetical note appears at the bottom right.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-MINUTE SHEET
 
-- 6 -
-
-In connection with Item 11, after comparatively
-little discussion the Committee passed the following
+```markdown
+MINUTE
+SHEET
+-
+6
+-
+In connection with Item 11,
+after comparatively
+little discussion the
+Committee passed the following
 Resolution:
-
 "La Sous-Commission chargée de l'étude
-de l'aviation sanitaire, tout en reconnaissant
-la très grande importance que cette question
-présente en temps de guerre, propose aux
-Sociétés nationales, aussi longtemps que ne sont
+de l'aviation sanitaire,
+tout
+en reconnasissaut
+la très grande importance
+que cette
+question
+présente
+en temps de guerre,
+propose
+aux
+Sociétés nationales,
+aussi longtemps
+que ne
+sont
 pas réglées la question de l'immunisation et
-d'autres questions juridiques, de concentrer
-leur effort sur le développement de l'aviation
-sanitaire civile. Elle est convaincue que tout
-progrès réalisé dans le domaine de l'aviation
-sanitaire civile contribuera grandement à
-celui de l'aviation sanitaire militaire.
-
-"La Commission croit devoir recommander
-aux Sociétés nationales de la Croix-Rouge
-d'entrer en relation avec les organes officiels
-ou privés de leurs pays respectifs pour résoudre
-cet important problème, particulièrement en ce
-qui concerne l'aménagement et l'utilisation
-rationnels d'appareils sanitaires et de champs
-d'atterrissage ainsi que leur emploi pour
+d'autres questions juridiques,
+de concentrer
+leur effort
+sur le développement
+de l'aviation
+sanitaire civile.
+Elle est
+convaincue
+que tout
+progrès réalisé
+dais le domaine
+de l'aviation
+sanitaire civile
+contribuera grandement
+à
+celui
+de l'aviation sanitaire militaire.
+"La
+Commission croit
+devoir
+recommander
+aux Sociétés nationales
+de la Croix-Rouge
+dTentrer
+en relation
+avec les organes officiels
+ou privés
+de leurs pays respectifs pour résoudre
+cet important problème, particulièrement
+en
+ce
+qui
+concerne l'aménagement
+et l'utilisation
+rationnels d'appareils sanitaires
+et
+de
+champs
+d'atterrissage ainsi
+que leur emploi pour
 secours d'urgence."
-
-Committee IV sub-divided into
-
-Sub-Committee A) dealing with Item 12) Inter-
-national Institute for the Study of Sanitary Material;
-
-13) Standardisation of medical equipment, and
-
-17) Method of protecting the Red Cross emblem; and
-
+Committee
+IV
+sub-divided into
+Sub-Committee A) dealing with Item 12j
+Inter¬
+national Institute for
+the Study of Sanitary Material;
+13) Standardisation of medical equipment,
+amd
+17)
+Method of protecting the
+Red Cross emblem;
+and
 Sub-Committee B) dealing with items
-
-14) Study of methods necessary for diminishing the
+14)
+Study of methods necessary for diminishing the
 number of missing in wartime;
-
-15) Recruitment and organisation of the trained
-nurse; and
-
-16) Proposal to apply to the material of the Inter-
-national Red Cross Societies a special mark of identity,
-showing the name and initials of the Society to which
+15)
+Recruitment
+and organisation of the trained
+nurse ;
+and
+16) Proposal to apply to
+the material of the Inter¬
+national
+Red Cross Societies
+a special mark of identity,
+showing the name
+and initials of
+the Society to which
 the material belongs.
-
-(OVER)
+(over)
 ```
 
 ## Images, Captions, And Visual Notes
-No images, captions, or substantial visual notes are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text on the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content present."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 24

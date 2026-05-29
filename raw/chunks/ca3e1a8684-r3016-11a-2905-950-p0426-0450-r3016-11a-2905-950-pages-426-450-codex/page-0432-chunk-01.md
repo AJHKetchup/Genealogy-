@@ -1,0 +1,157 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-af8eab0f98ab-P0432-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450.codex.md
+converted_sha256: af8eab0f98ab01bb40a4d2e7d1b97a793e302fba91f506993dc0c66c0739e5f1
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450/manifest.json
+page_start: 432
+page_end: 432
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450/manifest.json`
+- Source page: 432
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450/page-images/page-0432.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Xl!l" CONFÉRENCE INTERNOTIOMLE DE LR CROIX-ROUGE
+La Haye, octobre
+1928.
+I
+"o.*'
+.
+«
+CROIX-ROUGE
+POLONAISE
+Franchise
+des
+transports
+et
+exemption
+des frais
+de
+douane
+pour le matériel
+expédié
+à l'Institut
+International d'étude de matériel sanitaire et à la
+Commission internationale de
+Standardisation.
+La standardisation des types d'objets essentiels faisant
+partie du matériel sanitaire, destinés surtout
+à servir
+en
+temps de guerre, l'internationalisation pour ainsi dire, de
+ce matériel,
+à quoi tend
+si
+efficacement la Commission
+Internationale
+de Standardisation,
+est d'une telle impor¬
+tance
+pour le Service de Santé, qu'il faut soutenir les
+nobles efforts
+du Comité International
+en aplanissant les
+obstacles obstruant la voie menant
+au but qu'il poursuit
+avec tant
+de persévérance.
+L'une des questions les plus importantes est celle de la
+fourniture
+à l'Institut
+International
+d'études
+du materiel
+sanitaire
+de
+Genève,
+du plus grand nombre possible
+de
+projets et de modèles d'inventions nouvelles, concernant le
+matériel sanitaire.
+En travaillant
+assidûment
+à populariser l'idée
+de la
+standardisation
+du
+matériel
+sanitaire
+et
+en
+stimulant
+l'esprit d'invention, il faut aussi procurer aux inventeurs
+la possibilité d'envoyer leurs
+esquisses,
+dessins, projets
+et modèles à l'Institut d'études de Genève, moyennant des
+frais
+de transport réduits
+au minimum.
+Si
+nous prenons en considération la mise au point des
+descriptions
+et des
+dessins techniques
+qui nécessite
+des
+dépenses
+considérables,
+sans
+parler
+des
+essais
+repétés,
+—
+1
+—
+ocument N° 21
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 433

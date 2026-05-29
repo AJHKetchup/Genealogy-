@@ -1,0 +1,100 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-5b7e4836141d-P0302-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303.codex.md
+converted_sha256: 5b7e4836141d2cf6eb88ff6f32034ce504420054bb04061b204b3ab3f2f415c4
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json
+page_start: 302
+page_end: 302
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json`
+- Source page: 302
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-images/page-0302.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+282 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+programa? 
+El de francés (los otros son análogos), 
+esto: 
+«La enseñanza del francés tiene por objeto: 
+1.2 La lectura 1 la comprensión de cualquier autor 
+moderno que no presente dificultades especiales. 
+2.2 La conversación sobre asuntos de la vida dia- 
+ria 1sobre trozos literarios narrativos 1 descriptivos. 
+3.2 La composición escrita, sin graves 
+incorrec- 
+ciones, acerca de un tema sencillo. 
+4.2 El conocimiento jeneral del desarrollo de la 
+literatura francesa, insistiendo principalmente sobre 
+la historia de la literatura desde 1600, con los datos 
+“más salientes de las vidas 1 principales obras de los 
+autores clásicos». 
+¿Qué diferencia hai entre este programa 1 el de 
+castellano? 
+Una, bastante corta: los alumnos de eeistilado de- 
+ben también leer autores arcalcos, ante-clásicos. Yo 
+querría que Ud. me señalara otra que no fuese de 
+detalle 1 sin importancia. Del curso de francés, como 
+del de castellano, los estudiantes deben salir diestros 
+en las cuatro habilidades: deben poder hablar libre- 
+mente, leer libros modernos, redactar temas sencillos; 
+1 deben conocer la literatura clásica 1 moderna. ¿Qué 
+diferencia hai, fuera de la señalada? 
+¿Que los de 
+francés nunca han llenado i jamás llenarán el pro- 
+grama? Pues, eso mismo es lo que yo he dicho. 
+Pero, si esta demostración no bastase, puedo en- 
+sayar otra. 
+: 
+Apoyada en el programa, la comisión pertinente 
+del bachillerato piensa que los candidatos deben te- 
+ner una preparación «paralela en las cuatro habili- 
+dades» (la fórmula es del señor Díez, actual exami-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

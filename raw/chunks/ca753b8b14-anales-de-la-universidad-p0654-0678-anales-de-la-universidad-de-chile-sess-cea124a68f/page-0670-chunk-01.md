@@ -1,0 +1,117 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-5d9b9be0b8c2-P0670-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678.codex.md
+converted_sha256: 5d9b9be0b8c21d263910e578ef45b9c3675d23de43e073d86da2e3d9b204bc78
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/manifest.json
+page_start: 670
+page_end: 670
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/manifest.json`
+- Source page: 670
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/page-images/page-0670.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+600 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+siempre continúa 
+luchando, 
+1 a 
+elo se deben las 
+huelgas que se producen, por el mejoramiento de su 
+salario, que talvez sea el mas alto de Chile, cosa que 
+nada significa, pues, como dije, ello depende de 
+las 
+condiciones de la vida de cada lugar 1 de la calidad 
+de los obreros. El de Magallánes es el mas instruido 
+de Chile 1 por tanto tiene mayor número de 
+ necesi- 
+dades a que atender. 
+Por otra parte, en cualquiera otra rejion del 
+pais 
+un hombre puede vivir descalzo todo el año, sin que 
+su vida o su salud peligre; aquí no puede hacerlo por- 
+que se espondria a perder sus dedos, con el frío en 
+el invierno, 1a resojer un reumatismo en el verano, a 
+o de las lluvias 1 de los cambios frecuen- 
+es de temperatura. 
+Sa casa debe tener cierto 
+confort i abrigo 
+para 
+contrarrestar los fríos, 1 formar en ella un 
+ambiente 
+agradable que lo aleje de la taberna durante el invier- 
+no, en el que, el trabajador de campo por 
+lo ménos, 
+- 
+está obligado a un paro forzoso. - 
+La ropa debe ser mas abundante 1 de mejor calidad, 
+1 por último, su alimentacion debe ser mas 
+fuerte 1 
+nutritiva, porque el organismo necesita 
+gastar ma- 
+yor cantidad de enerjía para luchar con los elemen- 
+tos naturales. 
+: 
+En cada conflicto que se suscita entre 
+patrones 1 
+obreros, aquéllos alegan que el salario que pagan es 
+debe guardar, ademas, cierta relacion con las enormes 
+ganancias que obtienen, 
+sin que ello signifique una 
+participacion obligada en los beneficios. 
+En efecto, 
+si el empresario en unos pocos años de 
+trabajo ha hecho una enorme 
+fortuna 1 los obreros: 
+y 
+el mas elevado en el pais, olvidando que este valor
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 671

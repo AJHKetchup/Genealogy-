@@ -572,136 +572,155 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 107
+
 ## Page Metadata
-Page number: 107
-Original document title: Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition
-Task ID: `source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115:p0107`
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115/manifest.json`
+- Source page: 107
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115/page-images/page-0107.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a three-column list of names, addresses, and cities. The reading order is top-to-bottom within each logical row, then left-to-right across the columns for each entry. A page number is centered at the bottom.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-Zenteno Berticović, Teodoro
-Zenteno Valencia, Gloria
-
-Zenteno Yáñez, Enrique R.
-Zepeda Olivares, Armida
-Ziede Abud, Edmundo
-Ziegler Scholten, Guillermo
-Zilleruelo Oróstegui, Ricardo
-Zilleruelo Urrutia, César E.
-Zimend Hefter, Marcelo
-Zipper Abragán, Jaime
-
-Zlatar Franulic, Jorge
-Zlatar Ostojić, Drago
-Zorrilla Moreira, Manuel
-Zuelch Clasing, Walter
-Zuleta Guerrero, Arturo
-Zuleta Guerrero, Pedro E.
-Zuleta Peralta, Rigoberto
-Zuleta Saavedra, Francisco
-Zumaeta Faúndez, Alonso
-Zumelzu Acuña, Mario
-Zunzunegui Eggers, Oscar
-Zunzunegui Jiménez, Julio Dionisio
-Zúñiga Cahuana, Gerardo
-Zúñiga Caro, Arístides
-
-Zúñiga Gajardo, Manuel
-Zúñiga García, Claudio
-Zúñiga Guerra, Egidio
-Zúñiga Latorre, Ricardo
-Zúñiga Morales, Enrique
-Zúñiga Ojeda, Gustavo
-Zúñiga Paredes, Sergio
-Zurita Matus, Mario
-
-110 – Avda. Sucre 1389
-Av. J. Pedro Alessandri
-60, Depto. 51
-San Agustín 415
-San Francisco 85
-14 de Febrero 1791
-Ricardo Wagner 2177
-J. Victorino Lastarria 93
-Eduardo Lemus 1485
-Huérfanos 757, Of. 510
-Juan Antonio Ríos 6, Of.
-603
-Monjitas 513, Of. 11
-M. A. Matta 2203
-Gandarillas 160
-Beaucheff 839
-Avda. Argentina 50
-Los Araucanos 2551
-Arturo Prat 1500
-Club Hípico 552
-Avda. Latorre 298
-Carrera Pinto 1929
-Edwards 608
-F. Chacón 1026
-José Santos Ossa 2057
-J. Santiago Montt 258,
-Depto. D
-Arturo Prat 735
-Huérfanos 2748
-Sanatorio
-Agustinas 509
-Miguel Cervantes 2941
-San Martín 730
-Pedro Montt 1810
-Estados Unidos 375 Santiago
-Santiago
-
-Melipilla
-Santiago
-Antofagasta
-Santiago
-Santiago
-Santiago
-Santiago
-Santiago
-
-Santiago
-Antofagasta
-Puente Alto
-Valdivia
-Los Andes
-Santiago
-Vallenar
-Santiago
-La Calera
-Santiago
-Valparaíso
-Talagante
-Antofagasta
-Santiago
-
-Osorno
-Santiago
-Putaendo
-Santiago
-Santiago
-Santiago
-Valparaíso
-Santiago
+```markdown
+Centeno Berticovíd, feodoíó 
+Zenteno Valencia, Gloria 
+Zenteno Yáñez, Enrique R. 
+Zepeda Olivares, Armida 
+Ziede Abud, Edmundo 
+Ziegler Scholten, Guillermo 
+Zilleruelo Oróstegui, Ricardo 
+Zilleruelo Urrutia, César E. 
+Zimend Hefter, Marcelo 
+Zipper Abragán, Jaime 
+Zlatar Franulic, Jorge 
+Zlatar Ostojió, Drago 
+Zorrilla Moreira, Manuel 
+Zuelch Clasing, Walter 
+Zuleta Guerrero, Arturo 
+Zuleta Guerrero, Pedro E. 
+Zuleta Peralta, Rigoberto 
+Zuleta Saa-vedra, Francisco 
+Zumaeta Faúndez, Alonso 
+Zumelzu Acuña, Mario 
+Zunzunegui Eggers, Oscar 
+Zunzunegui Jiménez, Julio Dionisio 
+Zúñiga Cahuana, Gerardo 
+Zúñiga Caro, Arístides 
+Zúñiga Gajardo, Manuel 
+Zúñiga García, Claudio 
+Zúñiga Guerra, Egidio 
+Zúñiga Latorre, Ricardo 
+Zúñiga Morales, Enrique 
+Zúñiga Ojeda, Gustavo 
+Zúñiga Paredes, Sergio 
+Zurita Matus, Mario 
+Avda. §ucre iááé 
+áantiagó 
+Av. J. Pedro Alessandri 
+Santiago 
+60, Depto. 51 
+San Agustín 415 
+Melipilla 
+San Francisco 85 
+Santiago 
+14 de Febrero 1791 
+Antofagasta 
+Ricardo Wagner 2177 
+Santiago 
+J. Victorino Lastarria 93 Santiago 
+Eduardo Lemus 1485 
+Santiago 
+Huérfanos 757, Of. 510 
+Santiago 
+Juan Antonio Ríos 6, Of. Santiago 
+603 
+Monjitas 513, Of. 11 
+Santiago 
+M. A. Matta 2203 
+Antofagasta 
+Gandarillas 160 
+Puente Alto 
+Beaucheff 839 
+Valdivia 
+Avda. Argentina 50 
+Los Andes 
+Los Araucanos 2551 
+Santiago 
+Arturo Prat 1500 
+Vallenár 
+Club Hípico 552 
+Santiago 
+Avda. Latorre 298 
+La Calera 
+Carrera Pinto 1929 
+Santiago 
+Edwards 608 
+Valparaíso 
+F. Chacón 1026 
+Talagante 
+José Santos Ossa 2057 
+Antofagasta 
+J. Santiago Montt 258, 
+Santiago 
+Depto. D 
+Arturo Prat 735 
+Osorno 
+Huérfanos 2748 
+Santiago 
+Sanatorio 
+Putaendo 
+Agustinas 509 
+Santiago 
+Miguel Cervantes 2941 
+Santiago 
+San Martín 730 
+Santiago 
+Pedro Montt 1810 
+Valparaíso 
+Estados Unidos 375 
+Santiago 
+n o 
+-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 108
 
@@ -1112,96 +1131,125 @@ All visible text on the page has been transcribed, preserving the two-column lay
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for extraction."}
 
+# Page 113
+
 ## Page Metadata
-Page number: 113
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115/manifest.json`
+- Source page: 113
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115/page-images/page-0113.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a centered title, subtitle, and date range at the top, followed by two columns of names. A page number is present at the bottom right.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-IN MEMORIAM
-MEDICOS FALLECIDOS
-1948 - 1959
 
-Abud Pérez, Eduardo
-Acharán Henríquez, Jorge
-Acuña Merino, Eduardo
-Aguirre Cerda, Luis
-Aguirre Palma, Flavio
-Albala Camhi, Isaac
-Alcalde Ituarte, Valentín
-Altamirano Pérez, José
-Alvear Espinoza, Hernán
-Amenábar Ossa, Daniel
-Amesti Zurita, Félix de
-Ampuero Villegas, Eugenio
-Anwandter Bonnemeyer, Jorge
-Ansola Jiménez, José
-Araos Díaz, Luis
-Arriagada Rivera, Dagoberto
-Astaburuaga Cienfuegos, José D.
-Astete Bustamante, Hernán
-Auil Atala, Eduardo
-Avaria Delgado, César
-Baecher Müller, Guillermo
-Bahr Stapelfeld, Julio
-Barrera Barrera, Gustavo
-Barrientos Contreras, René
-Beca Soto, Manuel Francisco
-Berman Berman, Natalio
-Bernal Benítez, Alfredo
-Betzhold Hess, Hans
-Biondi Estay, Alfredo
-Bize Ramos, Carlos Roberto
-Blaser Godoy, Federico
-Bonadona Williams, Mauricio T.
-
-Bórquez Silva, Israel
-Briño García, Luis
-Bulnes Cerda, Félix
-Burdach Nicolai, Alberto
-Bustos Almarza, Salvador
-Bustos Nordenflicht, Carlos
-Cáceres Márquez, Guillermo
-Caro Caro, Florentino
-Carrasco Hurtado, Camilo
-Carrasco Toledo, Selim
-Carvajal Rodríguez, René
-Castellón Gajardo, Manuel A.
-Castro Oliveira, Javier
-Castro Toro, Gonzalo
-Cecchi Azócar, Genaro
-Celedón Neculman, Polidoro
-Cerda González, Enzo
-Cienfuegos Bravo, Eugenio
-Cifuentes Solar, Oscar
-Coddou Ortiz, René
-Cooper Mackay, Lionel
-Corcuera Echavarría, Julián
-Cordero Baños, Eduardo
-Coutts Bilwiller, Waldemar
-Cruz Plaza, Hernán
-Chanalet Cadal, Marcelo
-Chonchol Danón, León
-Damianovic Dukic, Juan
-Daneri Neumann, Julio
-Dávila Humeres, Enrique
-Díaz Muñoz Soto, Ignacio
+```markdown
+I N 
+M E M O R I A M 
+M E D I C O S 
+F A L L E C I D O S 
+1 9 4 8 - 1 9 5 9 
+Abud Pérez, Eduardo 
+Acharán Henríquez, Jorge 
+Acuña Merino, Eduardo 
+Aguirre Cerda, Luis 
+Aguirre Palma, Flavio 
+Albala Camhi, Isaac 
+Alcalde Ituarte, Valentín 
+Altamirano Pérez, José 
+Alvear Espinoza, Hernán 
+Amenábar Ossa, Daniel 
+Amesti Zurita, Félix de 
+Ampuero Villegas, Eugenio 
+Anwandter Bonnemeyer, Jorge 
+Ansola Jiménez, José 
+Araos Díaz, Luis 
+Arriagada Rivera, Dagoberto 
+Astaburuaga Cienfuegos, José D. 
+Astete Bustamante, Hernán 
+Auil Atala, Eduardo 
+Avaria Delgado, César 
+Baecher Müller, Guillermo 
+Bahr Stapelfeld, Julio 
+Barrera Barrera, Gustavo 
+Barrientos Contreras, René 
+Beca Soto, Manuel Francisco 
+Berman Berman, Natalio 
+Bernal Benítez, Alfredo 
+Betzhold Hess, Hans 
+Biondi Estay, Alfredo 
+Bize Ramos, Carlos Roberto 
+Blaser Godoy, Federico 
+Bonadona Williams, Mauricio T. 
+Bórquez Silva, Israel 
+Briño García, Luis 
+Bulnes Cerda, Félix 
+Burdach Nicolai, Alberto 
+Bustos Almarza, Salvador 
+Bustos Nordenflicht, Carlos 
+Cáceres Márquez, Guillermo 
+Caro Caro, Florentino 
+Carrasco Hurtado, Camilo 
+Carrasco Toledo, Selim 
+Carvajal Rodríguez, René 
+Castellón Gajardo, Manuel A. 
+Castro Oliveira, Javier 
+Castro Toro, Gonzalo 
+Cecchi Azocar, Genaro 
+Celedón Neculman, Polidoro 
+Cerda González, Enzo 
+Cienfuegos Bravo, Eugenio 
+Cifuentes Solar, Oscar 
+Coddou Ortiz, René 
+Cooper Mackay, Lionel 
+Corcuera Echavarría, Julián 
+Cordero Baños, Eduardo 
+Coutts Bilwiller, Waldemar 
+Cruz Plaza, Hernán 
+Chanalet Cadal, Marcelo 
+Chonchol Danón, León 
+Damianovic Dukic, Juan 
+Daneri Neumann, Julio 
+Dávila Humeres, Enrique 
+Díaz Muñoz Soto, Ignacio 
 Donoso Barthet, Oscar
-
-— 117
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was found on this page.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for cropping. The page primarily consists of text."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 114
 

@@ -1,0 +1,104 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2ce51022ab9a-P0691-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703.codex.md
+converted_sha256: 2ce51022ab9ad153d9879c1a5014bf6d6fd809185fed996cb0939c69b5d99008
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json
+page_start: 691
+page_end: 691
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 691
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0691.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+8 
+ESTUDIO DEL TERRITORIO DE MAGALLANES 
+621 
+llánes han sido erróneos 1 contraproducentes; 1 todo 
+ello se debe a la absoluta 1 jeneral ignorancia que se tie- 
+ne en el Norte del pais sobre las verdaderas convenien- 
+clas del Territorio. 
+5.2 Punro.—Son medidas de órden admistrativo que 
+en ningun caso justifican el mantenimiento de la Adua- 
+na, pues pueden llevarse a cabo tan bien con, como sin 
+ella. 
+Hecho el exámen de las causas que 
+tuvo el Gobier- 
+nO para crear 
+la Aduana, paso a considerar las que, 
+segun.mi entender, 
+debiera haber tomado en cuenta 
+para no crearla, o abolirla inmediatamente de estable- 
+cida. 
+Debo advertir que en Magallánes se cree en su próxi- 
+ma supresion, opinion de que comparte el Administra- 
+dor de la Aduana misma, de lo que oficialmente ha de- 
+jado constancia 
+en las Memorias presentadas a la Su- 
+¡perintendencia desde 1912 en adelante; tan convencidos 
+están de que su permanencia es funesta para el desa- 
+rrollo 1 progreso del Territorio. 
+Voi a agruparlos en la misma forma anterior: 
+1.2 Dificultades económicas i sociales producidas por 
+el encarecimiento de la vida. 
+2.2 Retiro de parte de los capitales con que jiran los 
+principales comerciantes, 
+trasladando sus negocios a 
+los puertos -del Atlántico, 1 dejando aquí «solo la ofici- 
+na centralizadora i sucursales de relativa importancia. 
+3. Retroceso de Magallánes en su desarrolló comer- 
+cial, pues, de metrópoli que era de toda la costa arjen- 
+tina, está pasando a ser subordinada de sus puertos. 
+40 Desarrollo rápido de los puertos arjentinos a es- 
+pensas de la pérdida de la prosperidad de Punta Arenas. 
+5. Imposibilidad de evitar la introduccion clandes-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 692

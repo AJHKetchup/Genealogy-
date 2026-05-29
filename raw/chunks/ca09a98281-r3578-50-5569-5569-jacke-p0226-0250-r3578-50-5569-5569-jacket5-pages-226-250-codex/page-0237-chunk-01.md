@@ -1,0 +1,121 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-4d2a90b9a8ad-P0237-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250.codex.md
+converted_sha256: 4d2a90b9a8ad005089f1bbd2aeb5f12acf0a92e3c5cd9e60b6dd3eee56ab2259
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250/manifest.json
+page_start: 237
+page_end: 237
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250/manifest.json`
+- Source page: 237
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250/page-images/page-0237.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+preference affectees
+aux soins des blesses et des malades du
+belligerent dont elles relevent.
+A leur depart, elles emporteront les effets, les instruments,
+les armes et les moyens de transport qui leur appartiennent.
+Article 13.
+Les belligerents assureront au personnel vise par les articles
+9, 10 et 11, pendant qu’il sera en leur pouvoir, le meme entre-
+tien, le meme logement, les memes allocations et la meme solde
+qu’au personnel correspondant de leur arrede.
+Des le debut des hostilites, ils s’entendront au sujet de la cor-
+respondance des grades de leur personnel sanitaire.
+CHAPITRE IV.
+Des batiments et du materiel.
+Article 14.
+Les
+formations
+sanitaires
+mobiles,
+quelles
+qu’elles
+soient,
+conserveront, si elles tombent au pouvoir de la partie adverse,
+leur materiel, leurs moyens de transport et leur personnel con-
+ducteur.
+Toutefois, l’autorite militaire competente aura la faculte de
+s’en servir pour les soins des blesses et des malades; la resti¬
+tution
+aura lieu dans les conditions pi-evues pour le personnel
+sanitaire et, autant que possible, en meme temps.
+Article 15.
+Les
+batiments
+et
+le
+materiel
+des
+etablissements
+sanitaires
+fixes de l’armee demeureront soumis aux lois de la guerre, mais
+ne pourront etre detournees de leur emploi tant qu’ils seront
+necessaire's
+aux blesses et
+aux malades.
+Toutefois, les commandants des troupes d’operations pourront
+en disposer, en cas de necessites militaires urgentes, en assurant
+au pi-ealable le sort des blesses et des malades qui y sont traites.
+Article
+16.
+Les batiments
+des
+societes
+de
+secours
+admises
+au
+benefice
+de la Convention seront considers comme propriete privee.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 238

@@ -1,0 +1,104 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-c828798511d6-P0270-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283.codex.md
+converted_sha256: c828798511d6e9d1d1775097f721d7470866217e952be2eda1ba6d7d9da04f7e
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json
+page_start: 270
+page_end: 270
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 270
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0270.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+250 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+estética, cosa que no se podria afirmar del teatro clá- 
+sico español. 
+Para la lectura cultural en el colejio hai que colo- 
+car en primer término el valor moral de las obras, 
+en segundo su riqueza en ideas, 1 sólo en tercer lu- 
+gar 
+la hermosura poética. Si a estas cualidades se 
+agrega el elemento patriótico, tendremos la lectura 
+ideal para los educandos. 
+o 
+Estoi seguro de que las ideas que acabo de espre- 
+sar acerca de la lectura cultural, aunque no se hallen 
+todas ellas enunciadas 
+en su libro, cuentan con su 
+plena aprobacion. Paso ahora a decir algunas pala- 
+bras referentes 
+a los procedimientos metodolójicos 
+que conviene aplicar en las clases de lectura de los 
+años superiores. Ud. no entra en muchos detalles al 
+respecto 1 habla casi solamente de lectura 1 tradue- 
+cion. No menciona, si no estoi equivocado, trabajos 
+escritos para este período. 
+En cuanto al método que conviene emplear en los 
+años superiores, todo depende naturalmente del fin 
+que se persigue. Una vez conseguido el resultado, 
+un tanto superficial todavía, pero realmente útil, de 
+habilitar 
+a los alumnos para entender, hablar, leer 
+1 escribir mas 
+o ménos correctamente 
+en el estilo 
+sencillo de la conversacion, conviene concentrar du- 
+rante los últimos años toda la atencion en robustecer 
+la facultad de comprension por medio de la lectura 
+de obras literarias. Lo principal para este efecto, es 
+el enriquecimiento del vocabulario: en segundo lu- 
+gar, sobre todo en ingles i mas aun en aleman, acos- 
+tumbrar al alumno a interpretar frases largas en es- 
+tilo literario, con su sintáxis tan distinta de la caste-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 271

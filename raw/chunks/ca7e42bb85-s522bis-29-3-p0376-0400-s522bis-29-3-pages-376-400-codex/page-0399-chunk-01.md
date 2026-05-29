@@ -1,0 +1,206 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7082977fca84-P0399-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400.codex.md
+converted_sha256: 7082977fca84e0d56c00f39427f9b5fb38ab4f2c7bbbdcfc08acd54f6f4f18f2
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400/manifest.json
+page_start: 399
+page_end: 399
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400/manifest.json`
+- Source page: 399
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400/page-images/page-0399.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+6
+gouvernements
+de
+tous les autres Etats qui,
+soit
+par
+voie
+de ratification
+du traité précité
+ou par voie
+d'adhésion
+au Pacte,
+sont devenus
+des
+membres
+de
+la
+Société,
+que la République Argentine avait
+déposé
+une
+déclaration d’adhésion.
+Le
+Secrétaire
+Général faisait
+allusion,
+dans
+sa réponse du 10 janvier 1920,
+à
+une
+réponse antérieure
+que lui-même avait
+envoyée
+au
+Gouvernement argentin (23 juillet 1919). Il est évident
+qu'à cette
+date du
+23 juillet
+1919 la
+Société
+des
+Nations n'existait
+pas
+encore
+juridiquement
+car cet
+évènement n'a
+eu lieu
+que
+le
+10 janvier 1920,
+date
+de
+l'échange
+des ratifications
+du ïraité
+de Versailles.
+Le
+11 février 1920,
+le Ministre argentin des
+affaires étrangères accusait réception
+de la
+communication
+du Secrétaire
+Général.
+Le Ministre argentin
+se bornait
+à répéter les
+termes
+de la
+communication du Secrétaire
+Général
+sans présenter
+aucune objection.
+Le
+24 janvier
+1920,
+le
+Secrétaire
+Général faisait
+savoir
+au Gouverne¬
+ment argentin
+que "étant
+donné
+que la République
+a adhéré
+officiellement
+au Pacte
+et qu'elle est devenue
+par
+consé¬
+quent
+un
+membre originaire de la Société
+des Nations,
+sa contribution
+aux dépenses
+de la Société serait fixée
+d'après les
+termes
+de l'article 6, etc...".
+De
+tout
+oeoi il ressort
+que le Pacte
+de la
+Société
+des Nations fut
+communiqué deux fois
+au
+Gouvernement
+argentin:' la première fois
+par
+le Ministre Alvear,
+qui
+en
+eut
+connaissance
+à Paris,
+la
+seoonde par le Secrétaire
+~y4
+Général.
+Deux fois
+le
+Gouvernement argentin adhéra
+sans
+réserve:
+la première fois
+en 1919,
+puis
+en janvier 1920,
+■sur
+la
+demande formelle
+de
+M.
+Clemenceau. Malgré cela,
+le
+23 septembre 1920,
+au moment où le
+Gouvernement
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 400

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-568868dd7e2b-P0428-01
+chunk_id: CHUNK-d083a4e3472f-P0428-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450.codex.md
-converted_sha256: 568868dd7e2bec81c404075951dbad2b031b23786f32473fb4ad161880a22fcd
+converted_sha256: d083a4e3472fbbb5113ca5e215a7a8e8b9626818fa6b99cc7049899a703ed552
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450/manifest.json
@@ -133,3 +133,5 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 429

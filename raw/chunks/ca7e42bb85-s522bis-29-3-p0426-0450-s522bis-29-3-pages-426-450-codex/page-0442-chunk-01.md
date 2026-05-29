@@ -1,0 +1,144 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d083a4e3472f-P0442-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450.codex.md
+converted_sha256: d083a4e3472fbbb5113ca5e215a7a8e8b9626818fa6b99cc7049899a703ed552
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450/manifest.json
+page_start: 442
+page_end: 442
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450/manifest.json`
+- Source page: 442
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450/page-images/page-0442.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-
+25
+-
+répondit le 251 juillet I9I9,
+©n disent
+quo "toile est bien
+l'interprétation donnée à
+tna
+note du 19 juillet; le Gouver¬
+nement argentin adhère à la Société
+des Nation*
+at il
+ra¬
+tifiera
+son adhésion dès
+que las Chambres l'auront approivée.
+Le Secrétaire général de la Ligue
+en sera officiellement
+saisi
+on
+son tamps»*'
+L© kinistr© d'/.rgentine à Paris
+avait,
+par ailleurs,
+cosoais une autre oonfusionî il n'avait
+pas fuit
+de distinction entre la situation
+des
+dtats belli¬
+gérants qui avaient élaboré le Pacte,
+et celle des neutres*
+Il
+©ut évident
+que les belligérants,
+signataires du Trd té
+de paix dont le Pacte fuit partie, avaient envoyé leurs
+re¬
+présentants à
+une Conférence diplomatique chargée de prépa¬
+rer le traité*
+Ce traité devait naturellement, après signa¬
+ture, être ratifié
+sous la forme requise par la constitution
+de chaque pays avant d'entrer en vigueur.
+Mets
+jusqu'au
+moment de la signature,
+ou plutôt
+de l'échange des ratifi¬
+cations, le traité ét it pour les neutres
+un "rest interalios
+nota".
+Les neutres, bien que mentionnés
+dans l'annexe,
+n'entrèrent
+en fonction qu'à partir
+d© la date
+de l'entrée
+on vigueur au traité*
+Gi,
+on exécution
+de l'article 1er
+du Pacte,
+un état neutre invité
+à accéder
+au Pacte décidait
+de le faire, il devait
+être bien entendu que
+cctt© acces¬
+sion à
+un traité déjà entré
+en vigueur était définitive et
+ne pouvait être sujette à dos *att fioetiona postérieures.
+L'sta t accédant
+devenait ipso facto
+un membre originaire
+de la société
+des actions
+avec
+tous les droits et obliga¬
+tions y efférents.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 443

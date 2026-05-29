@@ -258,67 +258,105 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 248
+
 ## Page Metadata
-Page number: 534
-Running header: BOLETIN DE INSTRUCCION PÚBLICA
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/manifest.json`
+- Source page: 248
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/page-images/page-0248.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a single column of text. It begins with a running header and page number, followed by several paragraphs of prose. A centered title introduces a set of regulations, which are then presented in two numbered sections (I and II).
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-534 BOLETIN DE INSTRUCCION PÚBLICA
-
-año, concurren puntualmente a la Escuela. Añade el señor
-Secretario que si ha cumplido el encargo de la Corporacion con
-cierta demora, ello se debió a que el Director se encontraba en-
-fermo i no pudo ponerse al habla con él, sino últimamente.
-A continuacion, el señor Rector de la Universidad, puso en
-tabla un PROYECTO DE REGLAMENTO DE ASUETOS I VACACIONES
-PARA LAS ESCUELAS UNIVERSITARIAS, el cual fué aprobado por
-unanimidad i sin modificaciones.
-Con este motivo el señor Consejero Prado Amor manifiesta
-que, siendo, como lo es en casi todas las Repúblicas Americanas
-el doce de Octubre dia de feriado, seria conveniente que, ya
-que no se le declara como tal en el reglamento de que se trata,
-se recomendara a los jefes de establecimientos de enseñanza
-que lo dedicaran a celebrar las glorias i virtudes de la raza,
-por medio de conferencias i otros actos adecuados a la fecha,
-que se ha convenido en llamar «Fiesta de la Raza».
-Se acordó enviar a los Rectores de Liceos una circular en que
-se les recomiende lleven a la práctica la idea propuesta por el
-señor Consejero Prado Amor.
-El Proyecto de Reglamento aprobado dice así:
-
-REGLAMENTO DE ASUETOS I VACACIONES PARA LAS
-ESCUELAS UNIVERSITARIAS
-
-I.
-
-En todas las Escuelas universitarias el período de matrícula
-se abrirá el 10 de Marzo i terminará el 10 de Abril.
-
-II.
-
-Serán de vacaciones los meses de Enero, Febrero, Marzo i
-Setiembre.
-Serán de asueto los domingos i dias festivos; el Jueves,
-Viernes i Sábado de la Semana Santa; el dia onomástico del
+```markdown
+534 
+BOLETIN DE INSTRUCCION PÚBLICA 
+año, concurren puntualmente 
+a la Escuela, Añade el señor 
+Secretario que si ha cumplido el encargo de la Corporacion con 
+cierta demora, ello se debió a que el Director se encontraba en- 
+fermo ino pudo ponerse al habla con él, sino últimamente. 
+A continuacion, el señor Rector de la Universidad, puso en 
+tabla un PROYECTO DE REGLAMENTO DE ASUETOS 1 VACACIONES 
+PARA LAS ESCUELAS UNIVERSITARIAS, el cual fué aprobado por 
+unanimidad 1 sin modificaciones. 
+Con este motivo el señor Consejero Prado Amor manifiesta 
+que, siendo, como lo es en casi todas las Repúblicas Americanas 
+el doce de Octubre dia de feriado, seria conveniente que, ya 
+que no se le declara como tal en el reglamento de que se trata, 
+se recomendara 
+a los jefes de establecimientos de enseñanza 
+que lo dedicaran a celebrar las glorias 1 virtudes de la raza, 
+por medio de conferencias i otros actos adecuados a la fecha, 
+que se ha convenido en llamar «Fiesta de la Raza». 
+Se acordó enviar a los Rectores de Liceos una circular en,que 
+se les recomiende lleven a la práctica la idea propuesta por el 
+señor Consejero Prado Amor. 
+El Proyecto de Reglamento aprobado dice así: 
+REGLAMENTO DE ASUETOS 
+1 VACACIONES PARA LAS 
+ESCUELAS UNIVERSITARIAS 
+En todas las Escuelas universitarias el período de matrícula 
+se abrirá el 10 de Marzo 1 terminará el 10 de Abril. 
+= 
+11. 
+: 
+Serán de vacaciones los meses de Enero, Febrero, Marzo 1 
+Setiembre. 
+: 
+Serán de asueto 
+los domingos i dias festivos; el Jueves, 
+Viérnes i Sábado de la Semana Santa; el dia onomástico del 
+3 E
+3 
+3 
+3 
+“4
+A 
+P
+YOEO
+AIN
+, 
+1 h
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 249
@@ -871,69 +909,92 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content such as images, maps, or diagrams that would require cropping. The content is entirely textual."}
 ```
 
+# Page 257
+
 ## Page Metadata
-- Page number: 543
-- Source publication: Anales de la Universidad de Chile
-- Session: Session of the Council of Public Instruction, September 1918
-- Page range: 244-263
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/manifest.json`
+- Source page: 257
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/page-images/page-0257.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a header with the session date and page number. Below the header are two distinct correspondence entries. The first entry includes a date, a salutation, a body of text, and two signatures. The second entry follows, also with a date, a salutation, and a body of text that appears to be incomplete, ending mid-sentence. A footer with publication details is at the bottom of the page.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-SESION DE 28 DE OCTUBRE DE 1918 543
-___
 
-Santiago, 25 de Octubre de 1918.
-
-Señor Rector:
-
-La Comision de Bellas Artes, en su última sesion, acordó
-enviar a US. una nota pidiéndole se sirva designar las personas
-que formarán el jurado del Certámen Jeneral Maturana a fin
-de que las recompensas de este Certámen puedan ser acordadas
-en tiempo oportuno.
-
-(Firmado).—LUIS BARROS BORGOÑO.
-
-JUAN CASANOVA.
-
-Valparaiso, 25 de Octubre de 1918.
-
-Señor Rector:
-
-«Hai en la vida del hombre momentos en que está mas cerca
-del espíritu del mundo que el demas tiempo i le es lícito dirijir
-una pregunta al destino». Estas hermosas palabras del noble
-vate aleman están resonando en mi conciencia para someter
-los actos de mi vida a un severo exámen, ya que he llegado a
-cierta conclusion de mi carrera profesional.
-En medio de dudas i escrúpulos que en tal prueba me inquie-
-tan, que me obligan a reflexionar si honradamente he corres-
-pondido a mis mismos buenos propósitos i a las esperanzas de
-otros, sean superiores o convivientes, son para mí una gran
-consolacion las demostraciones de cariño i aprecio que tan
-espontáneamente han salido de diferentes círculos i personas
-individuales para agradecerme los modestos servicios que he
-podido prestar a la educacion e instruccion en este hermoso
-pais, patria de mis hijos, i los solícitos cuidados que he empleado
-para asegurar el porvenir de mis queridos alumnos.
-Durante cuarenta i dos años he trabajado, en las dos prin-
-cipales ciudades de la República, en la enseñanza particular i
-
-ANALES ACTAS.—SETIEMBRE-OCTUBRE.—37.
+```markdown
+SESION DE 28 DE OCTUBRE DE 1918 
+543 
+Santiago, 29 de Octubre de 1918. 
+Señor Rector: 
+La Comision de Bellas Artes, en su última sesion, acordó 
+enviar a US. una nota pidiéndole se sirva designar las personas 
+que formarán el jurado del Certámen Jeneral Maturana a fin 
+de que las recompensas de este Certámen puedan ser acordadas 
+en tiempo oportuno. 
+: 
+we 
+(Firmado). —Lvis BARROS BORGOÑO. 
+JUAN CASANOVA. 
+Valparaiso, 25 de Octubre de 1918. 
+Señor Rector: 
+«Hai en la vida del hombre momentos en que está mas cerca 
+del espíritu del mundo que el demas tiempo 1 le es lícito dirijir 
+una pregunta al destino». Estas hermosas palabras del noble 
+vate aleman están resonando en mi conciencia para someter 
+los actos de mi vida a un severo exámen, ya que he llegado a 
+cierta Conclusion de mi carrera profesional. 
+En medio de dudas 1 escrúpulos que en tal prueba me inquie- 
+tan, que me obligan a reflexionar si honradamente he corres- 
+pondido a mis mismos buenos propósitos i a las esperanzas de 
+otros, sean superiores o convivientes, son para mí una gran 
+consolacion 
+las demostraciones 
+de cariño 1 aprecio que tan 
+espontáneamente han salido de diferentes círculos i personas 
+individuales para agradecerme los modestos servicios que he 
+podido prestar a la educacion e instruccion en este hermoso 
+pais, patria de mis hijos, i los solícitos cuidados que he empleado 
+para asegurar el porvenir de mis queridos alumnos. 
+Durante cuarenta i dos años he trabajado, en las dos prin- 
+cipales ciudades de la República, en la enseñanza particular 1 
+ANALES ACTAS.—SETIEM BRE-OCTUBRE.—37»
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The second letter's body text ends mid-sentence, indicating the content continues on the next page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 258
 

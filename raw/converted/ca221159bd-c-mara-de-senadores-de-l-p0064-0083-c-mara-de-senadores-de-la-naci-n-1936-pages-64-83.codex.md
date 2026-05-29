@@ -273,132 +273,254 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
+# Page 68
+
 ## Page Metadata
-Page: 68
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json`
+- Source page: 68
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/page-images/page-0068.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, primarily legal articles, with several centered headings. The page number is centered at the top. The text flows from top to bottom, with headings preceding their respective articles.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 65 —
-
-Requerimiento de la fuerza pública.
-
-Art. 8º — Los jefes de estación, los empleados de trenes y
-demás personal encargado de velar por la seguridad del trá-
-fico, podrán requerir el auxilio de la fuerza pública y de los
-particulares para hacer efectivas las reglas relativas a esa
-misma seguridad, como también para la aprehensión de los
+```markdown
+—
+65
+—
+Requerimiento de la fuerza publica.
+Art.
+89 — Los jefes de estaciôn, los empleados de trenes y
+demâs personal encargado de velar por la seguridad del trâ-
+fico, podrân requérir el auxilio de la fuerza publica y de los
+particulares
+para
+hacer efectivas las réglas relativas
+a
+esa
+misma seguridad,
+como también
+para la aprehensiôn
+de los
 delincuentes. (Ley, art. 88.)
-
-Acatamiento del público a las dis-
+Acatamiento del publico
+a las dis-
 posiciones vigentes.
-
-Art. 9º — El público deberá acatar las disposiciones vigentes
+Art.
+99 — El publico deberâ acatar las disposiciones vigentes
 relativas al servicio y las observaciones basadas en ellas, que
 le sean hechas por el personal superior notoriamente conocido
 o el inferior provisto de los distintivos correspondientes.
-
-Jefe del tren en marcha o en las
+Jefe
+del
+tren
+en
+marcha
+o
+en
+las
 estaciones.
-
-Art. 10. — Todo tren en marcha estará bajo el mando y la
-responsabilidad de un jefe, el que tendrá a su cargo la se-
-guridad, policía y vigilancia del tren, el servicio de transporte
+Art. 10. -— Todo tren
+en marcha estarâ bajo el mando y la
+responsabiiidad
+de un jefe, el
+que tendra
+a
+su cargo la
+se¬
+guridad, policîa y vigilancia del tren, el servicio de transporte
 y el cumplimiento de los reglamentos concernientes.
-Sus órdenes deberán ser acatadas por todos los empleados
-del tren, cualesquiera que sean sus funciones y solamente du-
+Sus ôrdenes deberân
+ser acatadas por todos los empleados
+del tren, cualesquiera que sean sus funeiones y solamente du¬
 rante el tiempo que el convoy permanezca en las estaciones, el
-personal estará bajo el mando y la responsabilidad de los jefes
+personal estarâ bajo el mando y la responsabiiidad de los jefes
 de las mismas.
-
-Delitos cometidos en los trenes.
-
-Art. 11. — Si durante el viaje de un tren se cometiera algún
-delito, el jefe del tren deberá tomar las medidas necesarias
-para asegurar la persona del delincuente, que será puesto a la
-disposición de la autoridad respectiva en la primera estación
-que se tocare, acompañándole de un parte detallado del hecho
-criminal, con expresión de las personas que lo presenciaron.
+Delitos cometidos
+en los trenes.
+Art. 11. — Si durante el viaje de un tren se cometiera algun
+delito,
+el jefe del tren deberâ tomar las medidas necesarias
+Para asegurar la persona del delincuente, que serâ puesto a la
+disposiciôn de la autoridad respectiva en la primera estaciôn
+Que se tocare, acompanândole de un parte detallado del hecho
+criminal,
+con expresiôn de las personas que lo presenciaron.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 69
 
 ## Page Metadata
-Page number: 69
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json`
+- Source page: 69
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/page-images/page-0069.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents text in a single column, with a page number centered at the top. The content consists of legal articles and related explanatory paragraphs, with some headings in bold. The reading order is strictly top-to-bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-— 66 —
 
-Para el cumplimiento de este deber, el jefe del tren tendrá
-la autoridad y facultades inherentes a los agentes de policía.
+```markdown
+— 66
+—
+Para el cumplimiento de este deber, el jefe del tren tendra
+la autoridad y facultades inhérentes
+a los agentes de policîa.
 (Ley, art. 87.)
-
-                     **Controversias en las estaciones o**
-                     **trenes. Quién debe resolverlas.**
-
-Art. 12.—Las controversias suscitadas en las estaciones
-entre el público y el personal de servicio sobre deberes y obli-
-gaciones recíprocas, serán resueltas por el jefe de las mismas,
+Controversias
+en
+las
+estaciones
+o
+trenes. Quién debe resolverlas.
+Art.
+12. — Las
+controversias
+suscitadas
+en
+las
+estaciones
+entre el publico y el personal de servicio sobre deberes y obli-
+gaciones recîprocas, serân resueltas por el jefe de las mismas,
 y las que ocurran en los trenes durante la marcha, por el jefe
-del tren. Cuando esté presente un Inspector Nacional, corres-
-ponde a él entender en la cuestión promovida.
-
-                     **Penas a los empleados. Ebriedad,**
-                     **abandono de sus puestos o entorpe-**
-                     **cimiento del servicio.**
-
-Art. 13.—Los empleados de la explotación que abandonen
-sus puestos, se hallen ebrios durante el servicio o desempeñen
-sus funciones en forma anormal, con el resultado de entor-
-pecer el servicio ferroviario, quedarán sujetos a las penalidades
-establecidas por la Ley General de Ferrocarriles o el Código
-Penal, según el caso.
-
-                     **Útiles que deben llevar los jefes de**
-                     **tren y conductores. Definición del**
-                     **término “conductor”.**
-
-Art. 14.—Los jefes de tren y conductores—designándose
-en este Reglamento como conductores a los maquinistas, con-
-ductores de trenes eléctricos o vehículos automotores, etc.—
-deberán estar provistos, cada uno, de un reloj arreglado a la
-hora oficial, de los itinerarios de los trenes y de los demás úti-
-les reglamentarios, al hacerse cargo del servicio correspon-
+del tren.
+Cuando esté présente un Inspector Nacional, corres¬
+ponde
+a él entender en la cuestiôn promovida.
+Penas
+a
+los
+empleados.
+Ebriedad,
+abandono de sus puestos o entorpe-
+cimiento
+del servicio.
+Art.
+13. ■— Los empleados de la explotaciôn que abandonen
+sus puestos,
+se hallen ebrios durante el servicio
+o desempenen
+sus
+funciones
+en forma anormal,
+con el resultado
+de entor-
+pecer el servicio ferroviario, quedarân sujetos a las penalidades
+establecidas por la Ley General de Ferrocarriles
+o el Côdigo
+Penal, segun el caso.
+Utiles que deben llevar los jefes de
+tren
+y conductores.
+Definition
+del
+término “conductor”.
+Art.
+14. — Los jefes
+de tren
+y conductores—designândose
+en este Reglamento eomo conductores
+a los maquinistas,
+con¬
+ductores
+de
+trenes eléctricos
+o
+vehîculos automotores,
+etc.—
+deberân estar provistos, cada uno, de un reloj arreglado
+a la
+hora oficial, de los itinerarios de los trenes y de los demâs uti¬
+les reglamentarios,
+al
+hacerse
+cargo del
+servicio
+correspon-
 diente.
-
-La falta eventual de uno o más de estos objetos no eximirá
-al personal de la obligación de despachar o conducir el tren,
-si, como lo establece el artículo 3º, recibe orden superior.
+La falta eventual de
+uno
+o mâs de estos objetos no eximirâ
+al personal de la obligaciôn de despachar
+o conducir el tren,
+si,
+eomo lo establece
+el articulo
+39, recibe orden superior.
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. All text is clear and legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text on the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 67
@@ -1139,66 +1261,131 @@ The transcription is complete for all visible text. Article 47 appears to be cut
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present on the page."}
 ```
 
+# Page 81
+
 ## Page Metadata
-Page number: 78
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json`
+- Source page: 81
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/page-images/page-0081.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents text in a single column. It begins with a page number at the top, followed by several paragraphs of text, including two main articles (Art. 48 and Art. 49) and sub-points under Art. 49. There are also two bolded headings within the text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 78 —
 
-el anuncio, con excepción de las secciones de línea dotadas
-del sistema *block*.
-Los despachos se harán por orden escrita de los jefes de
-estación expresando el número del tren, la hora de su salida
-y la estación a que se dé aviso.
-
-**Despacho de trenes. Deberes de los**
-**jefes de estación y conductores.**
-
-Art. 48. — Al despachar un tren después de otro, el jefe
-de la estación de partida deberá entregar al maquinista por
-intermedio del jefe del tren un boleto de precaución en el
-que se avisará que un tren corre adelante.
-El segundo tren no podrá aproximarse al primero a menor
-distancia de mil metros, y si por las condiciones excepcionales
-de la vía no se pudiera distinguir el tren que va adelante,
-deberá marchar con velocidad reducida, a fin de poder parar
+```markdown
+— 78
+el anuncio,
+con excepciôn de las secciones
+de lînea
+dotadas
+del sistema block.
+Los despachos
+se harân por orden escrita de los jefes de
+estacion expresando el numéro del tren, la hora de su salida
+y la estacion a que se dé aviso.
+Despacho de trenes. Deberes de los
+jefes de estacion y conductores.
+Art.
+48. — Al despachar
+un tren después de otro,
+el jefe
+de la estacion de partida deberâ entregar al maquinista poi
+intermedio del jefe del tren un boleto
+de precaueiôn
+en el
+que
+se avisarâ que un tren corre adelante.
+El segundo tren no podrâ aproximarse al primero a menoi
+distancia de mil metros, y si por las eondiciones excepcionales
+de la via
+no
+se pudiera distinguir el tren
+que va adelante,
+deberâ marchar con velocidad reducida,
+a fin de poder parar
 en el momento que fuese necesario.
-Si el tiempo no fuese claro, el jefe de la estación no dará
-salida al tren antes de haber recibido aviso telegráfico de la
-llegada del primero a la estación siguiente.
-Si el primer tren marchara muy despacio, el maquinista
-del segundo se acercará con mucha precaución para prestarle
-auxilio en caso necesario.
-
-**Tiempo que debe mediar en el des-**
-**pacho de trenes en la misma di-**
-**rección.**
-
-Art. 49. — No podrá despacharse de una estación trenes en
-la misma dirección y por la misma vía sino con un intervalo
-de diez minutos. Dicho intervalo podrá reducirse en los casos
-siguientes:
-
-1º Cuando el segundo tren tenga velocidad menor que el
+Si el tiempo no fuese claro, el jefe de la estacion no darâ
+salida al tren antes de haber recibido aviso telegrâfico de la
+llegada del primero
+a la estacion siguiente.
+Si el primer
+tren marchara
+muy despacio,
+el
+maquinista
+del segundo se acercarâ con mucha precaueiôn para prestarle
+auxilio
+en
+caso necesario.
+Tiempo que debe mediar en el des¬
+pacho
+de
+trenes
+en
+la
+misma
+di-
+recciôn.
+Art. 49. — No podrâ despacharse de una estacion trenes en
+la misma direcciôn y por la misma via sino
+con un intervalo
+de diez minutos.
+Dicho intervalo podrâ reducirse en los casos
+siguientes :
+P
+Cuando el segundo tren tenga velocidad menor
+que el
 primero.
-2º Cuando a poca distancia de la estación de salida los
-trenes sigan por rumbos distintos.
-3º Cuando la vía esté protegida por el sistema *block*.
+29
+Cuando
+a
+poca distancia
+de
+la estacion
+de
+salida
+los
+tsenes sigan por rumbos distintos.
+39
+Cuando la via esté protegida por el sistema block.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 82
 

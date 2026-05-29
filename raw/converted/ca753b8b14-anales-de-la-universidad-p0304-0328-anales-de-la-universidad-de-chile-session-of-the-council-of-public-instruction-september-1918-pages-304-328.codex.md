@@ -8,179 +8,272 @@
 - Conversion method: Codex local vision workbench
 - Extracted images: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/extracted-images`
 
+# Page 304
+
 ## Page Metadata
-Page number: 304
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 304
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0304.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, typical of a book or journal article. The reading order is from top to bottom, following standard Western text flow. The page number and a running header are at the top.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-284 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-que pueden acarrear los textos fonéticos depende de
-la habilidad del profesor i de la madurez de los alum-
-nos».
-
-Años atrás, cuando había cursos de tres años que
-empezaban en 4.º, ensayé, durante tres años seguidos
-en el Internado Barros Arana, comenzar la ense-
-ñanza de la lectura, después de una serie de leccio-
-nes esclusivamente orales i de una preparación mi-
-nuciosa, en las *Leçons de choses* de Passy-Tostrup
-(una vez) i en el *Deuxième livre de lecture* de Paul
-Passy (dos veces). Los alumnos eran suficientemente
-maduros i en gran parte descendientes de alemanes
-de Valdivia i Osorno; sin embargo, le hacían ascos
-que no pude vencer a la escritura fonética: la cosecha
-fué mala i no me compensó los inconvenientes del
-paso ulterior a la ortografía corriente. El finado Luis
-Caviedes no fué más feliz que yo en otro ensayo.
-Concluyo, pues, que «los textos fonéticos son perju-
-diciales en nuestra enseñanza de los liceos». En ello
-hai lójica, pero podría ser también lo que Ud. dice:
-incompetencia mía.
-
-(Páginas 245):
-
-Como en otros casos a que ya me he referido, Ud.
-varía el matiz de mi pensamiento cuando dice que
-limito al conocimiento de un literato i de un filósofo
-la materia literaria del examen final de las humani-
-dades. En la pájina 171 de mi libro, en donde se trata
-solamente de las «*líneas jenerales*» de un programa
-i no debe, por consiguiente, buscarse la espresión
-completa de él, digo: «Conocer a lo menos a un litera-
-to i a un filósofo...» I esto significa, en otros términos,
-más de uno por regla jeneral i uno sólo cuando sea
-imposible más. La nota 1 de la pájina 180 deja en-
+```markdown
+284 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+que pueden acarrear los textos fonéticos depende de 
+la habilidad del profesor 1 de la madurez de los alum- 
+nos». 
+E 
+Años atrás, cuando había cursos de tres años que 
+empezaban en 4.”, ensayé, durante tres años seguidos 
+en el Internado Barros Arana, comenzar 
+la ense- 
+ñanza de la lectura, después de una serie de leccio- 
+nes esclusivamente orales i de una preparación 1mi- 
+nuciosa, en las Legoms de choses de Passy-Tostrup 
+(una vez) 1 en el Deuzxieme lúwre de lecture de Paul 
+Passy (dos veces). Los alumnos eran suficientemente 
+maduros 1 en gran parte descendientes de alemanes 
+de Valdivia 1 Osorno; sin embargo, le hacían ascos 
+que no pude vencer a la escritura fonética: la cosecha 
+fué mala 1 no me compensó los inconvenientes del 
+paso ulterior a la ortografía corriente. El finado Luis 
+Caviedes 
+no fué más feliz que yo en otro ensayo. 
+Coneluyo, pues, que «los textos fonéticos som perju- 
+diciales en nuestra enseñanza de los liceos». En ello 
+hai lójica, pero podría ser también lo que Ud. dice: 
+incompetencia mía. 
+(Pájinas 245): 
+Como en otros casos a que ya me he referido, Ud. 
+varía el matiz de mi pensamiento cuando dice que 
+limito al conocimiento de un literato i de un filósofo 
+la materia literaria del examen final de las humani- 
+dades. En la pájina 171 de mi libro, en donde se trata 
+solamente de las «líneas jenerales» de un programa 
+1 no debe, por consiguiente, buscarse 
+la espresión 
+completa de él, digo: «Conocer a lo menos a un litera- 
+to1a un filósofo..» Í esto significa, en otros términos, 
+más de uno por regla jeneral 1 uno sólo cuando sea 
+imposible más. La nota 1 de la pájina 180 deja en- 
 tender lo mismo bajo otra forma aún.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None. All text is clearly legible.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 305
+
 ## Page Metadata
-Page number: 285
-Header: JULIO SAAVEDRA MOLINA
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 305
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0305.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a running header with the author's name on the left and the page number on the right, followed by two paragraphs of main text in a single column. The text is justified.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-JULIO SAAVEDRA MOLINA 285
 
-Pero, donde había que buscar el pensamiento en-
-tero era, claro está, en el programa detallado del
-«período superior». Si Ud. lo relee verá que mi idea
-es que, en torno a un historiador o jeógrafo, en 5.º
-año, i en torno a un filósofo, un cientista, un poeta,
-un novelista..., en 6.º, se haga una especie de curso
-universitario, continuo, completo, seriamente cultu-
-ral, ilustrado con lecturas adyacentes de poetas, dra-
-maturgos, etc., todo lo que le dé relieve i deje en el
-alumno una huella honda de algo más grande i más
-serio de lo que está acostumbrado a ver. Esto supone
-el conocimiento de un escritor a fondo i de otros a
-la lijera.
-
-La diferencia entre un curso de esta suerte i los
-que se vienen haciendo en conformidad a los pro-
-gramas oficiales se puede ilustrar con una compara-
-ción, si bien soi decididamente enemigo de las com-
-paraciones: cuando Ud. recorre una calle, o toma el
-tren, o navega por un río, va pasando revista a una
-infinidad de cosas, advierte que esto es azul i aquello
-rojo, que allí hai una casa, allá un rancho, acullá un
-bosque, etc. Pero, azul, rojo i verde; casa, rancho i
-bosque, se suceden con rapidez i se repiten hasta el
-cansancio. A poco andar, todo es igual i monótono,
-aburrido i mareante; la atención se fatiga i, si Ud.
-no va a pié, opta por dormirse. Si Ud. pudiera dete-
-nerse, i examinar el terreno i los árboles, preguntar
-por sus dueños, conocer sus intimidades,... cada pul-
-gada de terreno sería distinta de las otras, aquí tal
-vez descubriera una mina de diamantes, allí apren-
-diera a ser un héroe, i allá sintiera la emoción más
-imborrable de su vida; pero Ud. va embarcado en
+```markdown
+JULIO SAAVEDRA MOLINA 
+285 
+Pero, donde había que buscar el pensamiento en- 
+tero era, claro está, en el programa detallado del 
+«período superior». Si Ud. lo relee verá que mi idea 
+es que, en torno a un historiador o jeógrafo, en 5.0 
+año, 1 en torno a un filósofo, un cientista, un poeta, 
+un novelista..., en 6.2, se haga una especie de curso 
+universitario, continuo, completo, seriamente cultu- 
+ral, ilustrado con lecturas adyacentes de poetas, dra- 
+maturgos, etc., todo lo que le dé relieve i deje en el 
+alumno una huella honda de algo más grande 1 más 
+serio de lo que está acostumbrado a ver. Esto supone 
+el conocimiento de un escritor a fondo i de otros a 
+la lijera. 
+La diferencia entre un curso de esta suerte 1 los 
+que se vienen haciendo en conformidad a los pro- 
+oramas oficiales se puede ilustrar con una compara- 
+ción, s1 bien soli decididamente enemigo de las com- 
+paraciones: cuando Ud. recorre una calle, o toma el 
+tren, o navega por un río, va pasando revista a una 
+infinidad de cosas, advierte que esto es azul 1 aquello 
+rojo, que allí hai una casa, allá un rancho, acullá un 
+bosque, etc. Pero, azul, rojo 1 verde; casa, rancho 1 
+bosque, se suceden con rapidez 1 se repiten hasta el 
+cansancio. Á poco andar, todo es igual 1 monótono, 
+aburrido 1 mareante; la atención se fatiga 1, s1 Ud. 
+no va a pié, opta por dormirse. S1 Ud. pudiera dete- 
+nerse, 1 examinar el terreno 1 los árboles, preguntar 
+por sus dueños, conocer sus intimidades, ... cada pul. 
+gada de terreno sería distinta de las otras, aquí tal 
+vez descubriera una mina de diamantes, allí apren- 
+diera a ser un héroe, 1 allá sintiera la emoción más 
+imborrable de su vida; pero Ud. va embarcado en 
 un caleidoscopio i depende de la voluntad del con-
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed. The last line of text is cut off at the bottom of the page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
-## Page Metadata
-286
-MEMORIAS CIENTÍFICAS I LITERARIAS
-
-## Layout And Reading Order
-The page consists of a single column of text, with a page number and running header at the top. The text flows continuously from top to bottom.
-
-## Literal Transcription
-ductor. Pues bien, cuando se pasa revista a los auto-
-res de una literatura, leyendo de éste una poesía, de
-ése una pájina en prosa, de aquél una escena, del
-otro nada más que una breve biografía, del siguiente
-una lista de sus obras, del que viene después sólo el
-nombre, i de ninguno nada completo, afirmo que
-nuestros alumnos concluyen por confundirlos a to-
-dos, por disgustarse con todos, i también con el pro-
-fesor. Es lo que yo deseo ver evitado, pidiendo que
-se eche pié a tierra, que se mire con más detenimien-
-to, porque «más vale conocer a un autor a fondo que
-a varios superficialmente o de oídas» (frase de la
-pájina 180, nota 1); lo cual no quiere decir que pre-
-cisamente no debe estudiarse sino un autor.
-    (Pájina 256 i siguientes):
-    Sus objeciones a mi teoría de la «especialización
-universal» no me convencen. Las razones que la abo-
-nan i con que yo la defendería las he dado en mi
-opúsculo *Por qué hai que reformar la educación*; i,
-como sería difícil repetirlas aquí, Ud. me perdonará
-que no lo haga.
-    Tampoco lo acompaño en su idea de la «gratuidad
-de la educación secundaria». En artículos publicados
-en el diario de Santiago *La Mañana*, en Junio de
-1913, con el título de *La educación gratuita* (repro-
-ducidos en parte en la obra *La gratuidad de la edu-
-cación* por don Luis Galdames, publicada en los *Ana-
-les de la Universidad* en 1913) i en una reseña de
-esta obra del señor Galdames, publicada en el nú-
-mero de Mayo de 1914 de la *Revista de Educación
-Nacional*, he dado las principales razones en que me
-apoyaría para sostener mi idea.
-    Por lo demás, todo esto hiere tan de lejos al asunto
-
 ## Images, Captions, And Visual Notes
-None.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 306
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 306
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0306.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+286 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+ductor. Pues bien, cuando se pasa revista a los-auto- 
+res de una literatura, leyendo de éste una poesía, 
+de 
+ése una pájina en prosa, de aquél una escena, del 
+otro nada más que una breve biografía, del siguiente 
+una lista de sus obras, del que viene después sólo el 
+nombre, 1 de ninguno, nada completo, afirmo 
+que. 
+nuestros alumnos concluyen por confundirlos 
+a tc- 
+dos, por disgustarse con todos, 1 también con el pro- 
+fesor. Es lo que yo deseo ver evitado, pidiendo que 
+se eche pié a tierra, que se mire con más detenimien- 
+to, porque «más vale conocer a un autor a fondo que 
+a varios superficialmente 
+o de oídas» (frase de la 
+pájina 180, nota 1); lo cual no quiere decir que pre- 
+cisamente no debe estudiarse sino un autor. 
+(Pájina 256 1 siguientes): 
+Sus objeciones a mi teoría de la «especialización 
+universal no me convencen. Las razones que la abo- 
+nan 1 con que yo la defendería las he dado en mi 
+opúsculo Por qué has que reformar la educación; 1, 
+como sería difícil repetirlas aquí, Ud. me perdonará 
+que no lo haga. 
+Tampoco lo acompaño en su idea de la «gratuidad 
+de la educación secundaria». En artículos publicados 
+en el diario de Santiago La Mañana, en Junio de 
+1913, con el título de La educación gratuita (repro- 
+ducidos en parte en la obra La gratuidad de la edu- 
+cación por don Luis Galdames, publicada en los Ana- 
+les de la Unwersidad en 1913) 1 en una reseña de 
+esta obra del señor Galdames, publicada en el nú- 
+mero de Mayo de 1914 de la Revista de Educación 
+Nacional, he dado las principales razones en que me 
+apoyaría para sostener mi idea. 
+Por lo demás, todo esto hiere tan de lejos al asunto
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 287
@@ -403,64 +496,98 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 311
+
 ## Page Metadata
-* Page number: 291
-* Source publication: Anales de la Universidad de Chile
-* Session: Session of the Council of Public Instruction, September 1918.
-* Document type: Article/Report
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 311
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0311.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text. At the top, there is a running header with the author's name on the left and the page number on the right. The main content consists of continuous prose, divided into numbered paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-RODOLFO LENZ 291
-que son útiles para ensanchar la cultura jeneral del
-educando. Efectivamente creo que no existe ya en
-la práctica pedagójica el estudio de idiomas como
-mera «disciplina formal». Los partidarios razonables
-de los estudios clásicos consideran a lo sumo este
-ejercicio mental de la enseñanza gramatical como un
-provecho secundario; lo principal debe ser el fruto
-cultural que trae la interpretacion de autores va-
-liosos.
-2) Se puede estudiar un idioma solamente con la
-intencion de aprender de qué medios gramaticales se
-vale la nacion para espresar sus pensamientos. Este
-es el punto de vista del lingüista psicólogo. He re-
-visado i estudiado docenas de compendios gramati-
-cales de las lenguas más variadas con tales propósi-
-tos, sin que me importara leer en esas lenguas libros
-que por su contenido pudieran aumentar mis conoci-
-mientos. Lenguas de pueblos de baja cultura se estu-
-dian casi solamente con tal fin. Si hemos de compren-
-der algun dia cuál es la relacion que hai entre el pen-
-samiento en sí i su espresion por medio de una len-
-gua determinada, lo deberemos a libros como los dos
-gruesos tomos dedicados al lenguaje humano en la
-*Psicología Etnica* de WILHELM WUNDT. Esto es lo
-que yo llamaria «estudiar una lengua por sí misma».
-Es claro que tal estudio nunca puede ser el objeto
-de la enseñanza escolar, sino sólo de la universitaria,
-puramente científica..
-3) Como los lingüistas psicólogos apenas son un
-par de docenas de hombres en el mundo entero, re-
-sulta que todos los demas mortales aprenden lenguas
-estranjeras única i esclusivamente para comprender
-i espresar ideas, es decir, como instrumentos de co-
+
+```markdown
+RODOLFO LENZ 
+291 
+- 
+que son útiles para ensanchar la cultura ¡eneral del 
+educando. Efectivamente creo que no existe ya en 
+la práctica pedagójica el estudio de idiomas como 
+mera «disciplina formal. Los partidarios razonables 
+de los estudios clásicos consideran 
+a lo sumo este 
+ejercicio mentai de la enseñanza gramatical como un 
+provecho secundario; lo principal debe ser el fruto 
+cultural que trae la interpretacion de autores 
+va- 
+liosos. 
+2) Se puede estudiar un idioma solamente con la 
+intencion de aprender de qué medios gramaticales se 
+vale la nacion para espresar sus pensamientos. Este 
+es el punto de vista del lingiiista psicólogo. He re- 
+visado 1 estudiado docenas de compendios gramati- 
+cales de las lenguas más variadas con tales propósi- 
+tos, sin; que me importara leer 
+en esas lenguas libros 
+que por su contenido pudieran aumentar mis conocl- 
+mientos. Lenguas de pueblos de baja cultura se estu- 
+dian casisolamente con tal fin. Si hemos de compren- 
+der algun dia cuál es la relacion que hai entre el pen- 
+=samiento en sí 1su espresion por medio de una len- 
+gua determinada, lo deberemos a libros como los dos 
+oruesos tomos dedicados 
+al lenguaje humano en la 
+Psicolojia Etnica de WiLHeLm Wunbr. Esto es lo 
+que yo llamaria «estudiar una lengua por sí misma». 
+ls claro que tal estudio nunca puede ser el objeto 
+de la enseñanza escolar, sino sólo de la universitaria, 
+puramente científica.. 
+3) Como los lingúistas psicólogos apenas son 
+un 
+par de docenas de hombres en el mundo entero, re- 
+sulta que todos los demas mortales aprenden lenguas 
+estranjeras 
+Única 1 esclusivamente para comprender 
+l espresar ideas, es decir, como instrumentos de co-
+```
 
 ## Images, Captions, And Visual Notes
-None.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful images or diagrams suitable for cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 312
 
@@ -553,62 +680,94 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 313
+
 ## Page Metadata
-- Page number: 293
-- Header: RODOLFO LENZ
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 313
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0313.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a running header at the top containing the author's name on the left and the page number on the right. The text flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-RODOLFO LENZ 293
-los métodos son sólo recomendables, i aun el segun-
-do, sólo posible para estudiantes adultos con cierta
-esperiencia en el aprendizaje de lenguas.
-De lo dicho concluyo: como estudiar idiomas por
-el gusto de hacer ejercicios, sin llegar a utilizar el
-conocimiento para comprender i espresar ideas sería
-un mero *sport* de escasísima utilidad (caso 1.º) i, ya
-que el estudio de las gramáticas con fines lingüísticos
-i psicolójicos sólo cabe en la instruccion universita-
-ria (caso 2.º), toda enseñanza escolar de idiomas
-considera las lenguas únicamente como «herramien-
-tas», i, como Ud. lo dice, se debe distinguir entre la
-época de la fabricacion de la herramienta o los 3 o 4
-años inferiores) i la de su utilizacion (los años supe-
-riores, la lectura cultural). Como lo dije en mi pri-
-mera carta, todo aprendizaje escolar de idiomas que
-no llegue al menos hasta la lectura de libros útiles,
-me parece condenable pérdida de tiempo.
-En el punto 6.º de su resumen dice Ud.: «puede
-un individuo comprender lo que otros hablan, sin
-hablar él mismo». No lo creo. Puede uno ser capaz
-de descifrar con ayuda del diccionario un libro es-
-tranjero, sin saber escribir comprensiblemente la len-
-gua, pero el que entiende frases habladas, puede
-siempre tambien contestarlas, aunque sea con pro-
-nunciacion i gramática defectuosas.
-Llega Ud. en la nota al pie a la conclusion de con-
-siderar como el mérito principal de su libro el haber
-probado que, «en la educacion secundaria de los paí-
-ses castellanos, la enseñanza de idiomas ajenos tiene
-que seguir senderos mui diversos a los que sigue o
-pueda seguir la misma enseñanza en los paises de
+
+```markdown
+RODOLFO LENZ 
+293 
+bos métodos son sólo recomendables, 1 aun el segun- 
+do, sólo posible para estudiantes adultos con cierta 
+esperiencia en el aprendizaje de lenguas. 
+De lo dicho concluyo: como estudiar idiomas por 
+el gusto de hacer ejercicios, sin llegar a utilizar el 
+conocimiento para comprender 1 espresar ideas sería 
+un mero sporé de escasísima utilidad (caso 1.9) 1, ya 
+que el estudio de las gramáticas con fines linguísticos 
+1 psicolójicos sólo cabe en la instruccion universita- 
+ria (caso 2.9), toda enseñanza 
+escolar 
+de idiomas 
+considera las lenguas únicamente como «herramien- 
+tas», 1, como Ud. lo dice, se debe distinguir entre la 
+época de la fabricacion de la herramienta o los 3 o 4 
+años inferiores) 1 la de su utilizacion (los años supe- 
+riores, la lectura cultural). Como lo dije en mi pri- 
+mera carta, todo aprendizaje escolar de idiomas que 
+no llegue al menos hasta la lectura de libros útiles, 
+me parece condenable pérdida de tiempo. 
+En el punto 6.2 de su resumen dice Ud.: «puede 
+un individuo comprender lo que otros hablan, sin 
+hablar él mismo». No lo creo. Puede uno ser capaz 
+de descifrar con ayuda del diccionario un libro es- 
+tranjero, sin saber escribir comprensiblemente la len- 
+sua, pero 
+el que entiende frases habladas, puede 
+siempre tambien contestarlas, aunque sea con pro- 
+nunciación 1 gramática defectuosas. 
+Llega Ud. en la nota al pie a la conclusion de con- 
+siderar como el mérito principal de su libro el haber 
+probado que, «en la educacion secundaria de los pal- 
+ses castellanos, la enseñanza de idiomas ajenos tiene 
+que seguir senderos mul diversos a los que sigue oO 
+pueda seguir la misma enseñanza en los paises de 
 habla alemana, inglesa o francesa». Creo que este es
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text, line breaks, and formatting from the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 314
 
@@ -701,61 +860,98 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 315
+
 ## Page Metadata
-Page number: 295
-Running header: RODOLFO LENZ
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 315
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0315.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a running header with the author's name and page number, followed by a single column of justified text in Spanish.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-RODOLFO LENZ 295
-solucion relativamente mejor de estudiar seis años
-el aleman, cinco el ingles i cuatro el frances, no me
-parece recomendable miéntras no haya seguridad de
-que en efecto la gran mayoría de los alumnos que
-entran al primer año de humanidades no abandonen
-el liceo antes de concluir el sesto.
-Lo que Ud. dice mas adelante del espíritu huma-
-nístico i del «hombre lobo» con su «bella animalidad»,
-me parece de una moral mas que dudosa. Yo no ad-
-mito mas que la educacion moral (una sola para to-
-dos los hombres) i la educacion cultural, en un grado
-inferior (enseñanza primaria completa de seis años)
-i en un grado superior (preparatoria i ocho años de
-humanidades), dejando a un lado toda la instruccion
-vocacional, que va aparte, i depende de las dotes
-naturales, las inclinaciones i los medios de fortuna
-de cada individuo.
-Respecto a los grupos de aliento no comprendo
-cómo se le puede escapar que su base es absoluta-
-mente psicolójica, pues corresponden al elemento del
-juicio (la palabra concepcional) junto con sus rela-
-ciones, indicaciones gramaticales de la funcion por
-terminaciones, prefijos, preposiciones, pronombres
-complementarios, verbos auxiliares, etc.) de manera
-que no es de ningun modo posible cambiar «vocablo»
-por «grupo de aliento», o «grupo elocucional», como
-prefiero decir; éste es un elemento real de la «comu-
-nicacion», aquél es sólo un elemento abstracto del
-análisis lójico.
-Ud. desea saber por qué creo necesario el estudio
-del latin para las personas de alta cultura que hablan
-lenguas romances i lo estimo aún mas indispensable
-que el del griego, que sin duda representa mayor cul-
+```markdown
+RODOLFO LENZ 
+A 
+295 
+solucion relativamente mejor de estudiar seis años 
+el aleman, cinco el ingles 1 cuatro el frances, no me 
+parece recomendable miéntras no haya seguridad de 
+que en efecto la gran mayoría de los alumnos que 
+entran al primer año de humanidades no abandonen 
+el liceo antes de concluir el sesto. 
+Lo que Ud. dice mas adelante del espíritu huma- 
+nistico 1 del<hombre lobo» con su<bella animalidad», 
+me parece de una moral mas que dudosa. Yo no ad- 
+mito mas que la educacion moral (una sola para to- 
+dos los hombres) 1 la educacion cultural, en un grado 
+inferior (enseñanza primaria completa de seis años) 
+1en un grado superior (preparatoria 1 ocho años de 
+humanidades), dejando a un lado toda la instruccion 
+vocacional, que va aparte, 1 depende de las dotes 
+naturales, las inclinaciones 1 los medios de fortuna 
+de cada individuo. 
+Respecto a los grupos de aliento no comprendo 
+cómo se le puede escapar que su base es absoluta- 
+mente psicolójica, pues corresponden al elemento del 
+juicio (la palabra qoncepcional) junto con sus rela- 
+ciones, 
+indicaciones gramaticales de la funcion por 
+terminaciones, 
+prefijos, 
+preposiciones, pronombres 
+complementarios, verbos ausiliares, etc.), de manera 
+que no es de ningun modo posible cambiar «vocablo» 
+por «grupo de aliento», o «grupo elocucional», como 
+prefiero decir; éste es un elemento real de la «comu- 
+nicacion», aquél es sólo un 
+elemento 
+abstracto 
+del 
+análisis lójico. 
+Ud. desea saber por qué creo necesario el estudio 
+del latin para las personas de alta cultura que hablan 
+lenguas romances 1 lo estimo aún mas indispensable 
+que el del griego, que sin duda representa mayor cul.
+```
 
 ## Images, Captions, And Visual Notes
-No images or captions are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 316
 
@@ -991,60 +1187,94 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 319
+
 ## Page Metadata
-Page number: 299
-Author: RODOLFO LENZ
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 319
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0319.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a header with the author's name on the left and the page number on the right, separated by a horizontal rule. The main content consists of a single column of justified text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-RODOLFO LENZ 299
 
-Respecto a la cuestion del poligloto renuncio a
-entenderme con Ud. despues de la estraña profesion
-de fe que ha hecho.
-En conclusion, siento mucho que, despues de leer
-su carta, he llegado a un resultado contrario al suyo.
-En vez de admitir que la distancia entre sus opinio-
-nes i las mias haya disminuido, creo que se ha agran-
-dado con sus esplicaciones de los puntos dudosos.
-Creo que entre la enseñanza de idiomas estranjeros
-en Chile i cualquier otro pais de lengua castellana
-por un lado, i Francia, Inglaterra i Alemania por el
-otro, no hai ninguna diferencia esencial. Hai un solo
-método recomendable, el «directo». Yo no he inven-
-tado, hace 25 años, este método; estaba flotando ya
-en el aire en Europa. Si hai algun mérito en que aquí
-se haya declarado oficial antes que en ningun otro
-pais, lo comparto con el profesor de pedagojía de ese
-tiempo, don Jorje Enrique Schneider, quien me apo-
-yó eficazmente, recomendando mi proyecto a don
-Diego Barros Arana i a las demas personas chilenas
-que formaron la comision de cuyo seno salió el plan
-de estudios del año 1893. El mérito principal es de
-ellos i de los fundadores del Instituto Pedagójico. El
-método directo hizo rápidos progresos, se introdujo
-en todos los paises progresistas. Como Ud. sabe, el
-método que empleamos en los liceos chilenos es el
-que recomienda la Asociacion Fonética Internacional,
-fundada en Francia por Paul Passy, el año 1886. La
-evolucion de esta sociedad en las diferentes naciones
-es una buena medida para el progreso de la enseñan-
-za de idiomas estranjeros sobre la base fonética que
+```markdown
+RODOLFO LENZ 
+299 
+Respecto a la cuestion del poligloto renuncio 
+a 
+entenderme con Ud. despues de la estraña profesion 
+de fe que ha hecho. 
+En conclusion, siento mucho que, despues de leer 
+su carta, he llegado a un resultado contrario al suyo. 
+En vez de admitir que la distancia entre sus opinio- 
+nes 1las mias haya disminuido, creo quese ha agran- 
+dado con sus esplicaciones de los puntos dudosos. 
+Creo que entre la enseñanza de idiomas estranjeros 
+en Chile 1 cualquier otro pais de lengua castellana 
+por un lado, 1 Francia, Inglaterra 1 Alemania por el 
+otro, no hai ninguna diferencia esencial. Hai un solo 
+método recomendable, el «directo». Yo no he inven- 
+tado, hace 25 años, este método; estaba flotando ya 
+en el aire en Europa. Si hal algun mérito en que aquí 
+se haya declarado oficial antes que en ningun otro 
+pais, lo comparto con el profesor de pedagojía de ese 
+tiempo, don Jorje Enrique Schneider; quien me apo- 
+yó eficazmente, recomendando 
+mi proyecto 
+a don 
+Diego Barros Arana 1 a las demas personas chilenas 
+que formaron la comision de cuyo seno salió el plan 
+de estudios del año 1893. El mérito principal es de 
+ellos 1 de los fundadores del Instituto Pedagójico. Jl 
+método directo hizo rápidos progresos, se introdujo 
+en todos los paises progresistas. Como Ud. sabe, el 
+método que empleamos en los liceos chilenos 
+es el 
+que recomienda la Asociacion Fonética Internacional, 
+fundada en Francia por Paul Passy, el año 1886. La 
+evolucion de esta sociedad en las diferentes naciones 
+es una buena medida para el progreso de la enseñan- 
+za de idiomas estramjeros sobre la base fonética que 
 Ud. mira tan de reojo. Daré por esto algunos datos
+```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or substantial visual notes on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 320
@@ -1244,64 +1474,103 @@ All visible text and visual elements on the page have been transcribed and noted
 }
 ```
 
+# Page 324
+
 ## Page Metadata
-- Page number: 304
-- Header: MEMORIA CIENTÍFICA I LITERARIA
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 324
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0324.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The header "MEMORIA CIENTÍFICA I LITERARIA" is centered at the top, with the page number "304" aligned to the left above it. The main content is presented in four paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-304 MEMORIA CIENTÍFICA I LITERARIA
 
-vida, los documentos oficiales en que él figuró, sus
-licencias para el ejercicio del ministerio sacerdotal,
-expedientes de negocios particulares en que actuó, al-
-gunos borradores de sus cartas u oficios, i muchos
-otros papeles de menor importancia. Este archivo
-ha pasado al Seminario Conciliar de Santiago, here-
-dero del presbítero don Rafael Eizaguirre, que fué
-uno de los albaceas de monseñor su tío; i una peque-
-ña pero interesante parte, a la Biblioteca Nacional.
-Las colecciones de *El Araucano*, *El Independiente*, la
-*Revista Católica* i el *Boletín Eclesiástico* de Santiago,
-*Las Sesiones de las Cámara Chilena*, *La Vida del*
-*Illmo. Arzobispo Valdivieso*, por el presbítero don
-Rodolfo Vergara Antúnez i las obras del mismo pre-
-lado, *Un decenio de la historia de Chile*, por don Diego
-Barros Arana.
-
-Los escritos impresos del mismo monseñor Eiza-
-guirre: su *necrolójia*, por don Manuel M. Merino; su
-*Oración fúnebre*, por don Francisco Javier Zaldría i
-Orbegozo i el *Elojio Fúnebre* de los fundadores i
-bienhechores del Colejio Pío Latino Americano, pro-
-nunciado en las fiestas jubilares de este colejio el 19
-de Noviembre de 1908, por el obispo de San Luis
-de Potosí, Illmo. señor José Ignacio Montes de Oca,
-amigo de monseñor Eizaguirre i alumno del mismo
-seminario.
-
-Me han sido también útiles los apuntes biográficos
-manuscritos del presbítero don Clemente Pérez Val-
-dés, el cual me los prestó desinteresadamente, como
-también la necrolójia i elojios fúnebres antes men-
-cionados. Sea esta la expresión de mi agradecimiento.
-
-I algunos otros libros i documentos que menciono
+```markdown
+304 
+MEMORIA CIGNTÍFICA 1 LITERARIA 
+vida, los documentos oficiales en que él figuró, sus 
+licencias para el ejercicio del ministerio sacerdotal, 
+expedientes de negocios particulares en que actuó, al- 
+gunos borradores de sus cartas u oficios, 1 muchos 
+otros papeles de menor importancia. Este archivo 
+ha pasado al Seminario Conciliar de Santiago, here- 
+dero del presbítero don Rafael Eizaguirre, que fué 
+uno de los albaceas de monseñor su tío; 1 una peque- 
+ña pero interesante parte, a la Biblioteca Nacional. 
+Las colecciones de El Araucano, El Independiente, la 
+Revista Católica i el Boletín Eclesiástico de Santiago. 
+Las Sesiones de las Cámara 
+Chidena, La Vida 
+del 
+Ilimo. Arzobispo Valdivieso, por el presbítero don 
+Rodolfo Vergara Antúnez 1 las obras del mismo pre- 
+lado, Un decenio de la historia de Chale, por don 
+2 
+Diego 
+Barros Arana. 
+Los escritos 
+impresos del mismo monseñor 
+ Eiza- 
+gunre; su necrolojía, por don Manuel M. Merino; su. 
+Oración fúnebre, por don Francisco Javier Zaldría 1 
+Orbegozo 
+1 el Elojw Fúnebre 
+de los fundadores 1 
+bienhechores del Colejio Pío Latino Americano, pro- 
+nunciado en las fiestas jubilares de este colejio el 19 
+de Noviembre de 1908, por el obispo de San Luis 
+- 
+dePotosí, Illmo. señor José Ignacio Montes de Oca, 
+amigo de monseñor 
+Eizaguirre 1 alumno del mismo 
+seminario. 
+) 
+] 
+Me han sido también útiles los apuntes biográficos 3 
+manuscritos del presbítero don Clemente Pérez Val. 
+dés, el cual me los prestó desinteresadamente, como 
+también la necrolojía 1 elojios fúnebres antes men-. 
+cionados. Sea esta la expresión de mi agradecimiento. 
+I algunos otros libros 1 documentos que menciono 
 en el cuerpo de esta biografía.
+```
 
 ## Images, Captions, And Visual Notes
-No meaningful visuals are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visuals."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 305

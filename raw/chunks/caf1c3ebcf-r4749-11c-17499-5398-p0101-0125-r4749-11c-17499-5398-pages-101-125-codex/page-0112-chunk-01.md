@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-fd063c2f866e-P0112-01
+chunk_id: CHUNK-fc36a230b3f9-P0112-01
 source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0101-0125-r4749-11c-17499-5398-pages-101-125.codex.md
-converted_sha256: fd063c2f866e1a61170f1915bf407b764c822cb5bfa09b4192271443ab342e05
+converted_sha256: fc36a230b3f98f5d21d0c3d1770822c29107f62c73c271f72af9a31f8ed7f571
 source: raw/sources/R4749-11C-17499-5398.pdf
 source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
 source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0101-0125-r4749-11c-17499-5398-pages-101-125/manifest.json
@@ -181,3 +181,5 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 113

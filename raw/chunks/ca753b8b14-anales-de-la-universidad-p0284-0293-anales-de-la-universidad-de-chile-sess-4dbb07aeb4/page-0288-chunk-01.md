@@ -1,0 +1,101 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-de9d1b8b1189-P0288-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293.codex.md
+converted_sha256: de9d1b8b118977980e6fcfd981cdaa6e0435a41deacef656a74b8ab815ebd075
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json
+page_start: 288
+page_end: 288
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json`
+- Source page: 288
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-images/page-0288.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+268 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+der lo que otros hablan o escriben 1 hacer compren- 
+der lo que uno habla o escribe) no son solidarias: se 
+puede poseer la más elemental sin que sea indispen- 
+sable poseer las superiores; puede un individuo com- 
+prender lo que otros hablan, sin saber hablar, leer, 
+ni escribir él mismo (los mudos 
+iletrados, etc.); pue- 
+de comprender lo que otros han escrito, sin saber 
+hablar ni escribir él mismo (Ud. cita casos 1 todos 
+conocemos 
+muchos); etc. Por consiguiente, siendo 
+indispensable aliviar el programa integral, debe aban- 
+donarse la pretensión de que nuestros alumnos apren- 
+dan a redactar 
+los idiomas estranjeros, en primer 
+término, 1 de que aprendan a hablarlos ampliamente, 
+en segundo término, pues estas dos habilidades son 
+las más difíciles, las que quitan más tiempo, 1 las 
+menos necesarias. 
+7.2 Aun reduciendo el programa en la forma ante- 
+dicha, tres horas semanales es tiempo escaso para el 
+inglés 1 mayormente para el alemán: los horarios de- 
+ben guardar relación con la dificultad de los tres 
+idiomas. 
+: 
+Este es en verdad el compendio de las ideas que 
+forman la espina dorsal de mi libro: compruébelo 
+Ud. leyendo en las pájinas 172 a 183 el «programa» 
+que propongo. I, como Ud. ve, las ideas se eslabonan 
+en una sola cadena de proposiciones, ora probables 
+1 probadas, ora ineludibles, como en un teorema de 
+jeometría. Lateralmente a esa argumentación, toco 
+en mi libro, breve o estensamente, según me parece 
+necesario, múltiples cuestiones más o menos enlaza- 
+das con las anteriores; pero, cualesquiera que fuesen 
+las objeciones que a estas cuestiones se hicieren o la
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 289

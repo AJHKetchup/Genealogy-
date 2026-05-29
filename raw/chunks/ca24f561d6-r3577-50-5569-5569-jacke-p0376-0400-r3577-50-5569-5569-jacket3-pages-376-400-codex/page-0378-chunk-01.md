@@ -1,0 +1,116 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7d555230f6a4-P0378-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0376-0400-r3577-50-5569-5569-jacket3-pages-376-400.codex.md
+converted_sha256: 7d555230f6a48205492ba9760ad911722adb86a4ac5bb574eae7cc4bd202e21b
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0376-0400-r3577-50-5569-5569-jacket3-pages-376-400/manifest.json
+page_start: 378
+page_end: 378
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0376-0400-r3577-50-5569-5569-jacket3-pages-376-400/manifest.json`
+- Source page: 378
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0376-0400-r3577-50-5569-5569-jacket3-pages-376-400/page-images/page-0378.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Séance
+du
+4 Juillet
+1929
+1
+PROVISOIRE
+CONFÉRENCE
+DIPLOMATIQUE
+DEUXIEME COMMISSION
+Code des prisonniers de guerre.
+TROISIÈME SÉANCE
+Jeudi
+4 juillet 1929,
+à
+10 h.
+30.
+Présidence de S. E. M. Harald Scavenius.
+Procès-verbal.
+M. Schlemmer, Secrétaire
+:
+I.'erreur commise dans le procès-verbal provisoire au sujet de la participation de la délé¬
+gation colombienne aux deux grandes commissions sera rectifiée dans le procès-verbal définitif.
+Ce n'est pas M. de Urrutia et M. Bernal-Jiménez qui font partie de la commission des
+prisonniers de guerre mais le Colonel Arturo Borrero et M. Victor Vicente Olano.
+M. de Urrutia et M. Bernal-Jiménez font partie de 1a. commission pour la. revision de la
+Convention de Genève.
+Nomination d'un Vice-President.
+M. le Président
+:
+M.
+Parra-Pérez ayant déclaré qu'il ne pouvait pas accepter sa nomination à la vice-
+présidence de cette commission, je vous demande de procéder à une nouvelle nomination.
+M. Sjoborg (Suède)
+:
+Je propose M. Carlos de Armenteros y de Cardenas, ministre de Cuba.
+M.
+de
+Castro (Uruguay) :
+J'appuie cette proposition ; je voulais demander la parole moi-même pour la présenter.
+M. Hurtado-Machado
+(Vénézuéla) :
+J'appuie également cette proposition.
+M.
+le Président
+:
+Je crois pouvoir considérer M. de Armenteros comme élu à la vice-présidence. (Applau¬
+dissements).
+Ordre des Travaux.
+M. le Président
+:
+Il semble qu'il serait utile de répartir le travail entre plusieurs sous-commissions qui
+pourraient siéger simultanément et qui rapporteraient à la commission plénière.
+Celle-ci, sur la base de ges rapports, pourrait discuter beaucoup plus rapidement.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 379

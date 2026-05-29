@@ -1,0 +1,103 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-de9d1b8b1189-P0293-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293.codex.md
+converted_sha256: de9d1b8b118977980e6fcfd981cdaa6e0435a41deacef656a74b8ab815ebd075
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json
+page_start: 293
+page_end: 293
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json`
+- Source page: 293
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-images/page-0293.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+JULIO SAAVEDRA MOLINA 
+273 
+destinado a «alumnos de menos de trece años», 1 to- 
+davía agrego en nota que «esto es un más o menos», 
+porque el momento preciso no es los 13 años sino 
+«la aparición franca de las facultades reflexivas del 
+alumno», cuestión que ya se había tratado en la pá- 
+Jina 15, en donde a los alumnos de nuestras humani- 
+dades les doi 10 a 20 años. Ahora bien, el «período 
+elementalb comprende al 1. 1 2.2 años, 1 «menos de 
+13» quiere decir 12, 11, etc.; luego, lo que yo digo es 
+ni más ni menos lo que Ud. también dice. En cuanto 
+a que admito (en la páj. 77) que en las provincias 
+algunos alumnos de primer año tienen 14 1 15, bas- 
+tará con decirle que se trata de datos oficiales 1 no 
+de opiniones. 
+(Pájina 184): 
+Encuentro, en esta pájina 
+opiniones 
+suyas que 
+no comparto. Primeramente, los «hombres que diri- 
+Jen los destinos del país, etc.» se reclután en Chile 
+casi esclusivamente en la clase rica que llamamos 
+amstocracia, cuyas familias educan 
+a sus 
+hijos en 
+colejios que no son los liceos fiscales, escepción he- 
+cha de una que otra familia que, en los últimos tiem- 
+pos, ha querido«honrar» al medio pupilaje del Insti- 
+tuto Nacional. Segundamente, a mí me parece que 
+el liceo no podrá ni deberá servir nunca de base a 
+la.enseñanza comercial, agrícola, minera, fabril, etc. 
+Aleunas de las razones que tengo para pensar así las 
+he dado en mis opusculos «Reformemos nuestra en- 
+señanza secundaria» 
+1 «Por qué hal que reformar la 
+educación», publicados en la «Revista de Educación 
+Nacionab en 1912 1 1914; pero la principal sería ésta: 
+el espíritu humanistico que débilmente tiene nuestra 
+enseñanza secundaria, (1 que debería fortificarse dán- 
+dole un sesgo más filosófico, más filolójico, más sen- 
+3. —AÁNALES.—SETIEMBRE .— OCTUBRE
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

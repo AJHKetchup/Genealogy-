@@ -144,67 +144,129 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "The page contains no images, diagrams, or other substantial visual content."}
 ```
 
+# Page 86
+
 ## Page Metadata
-Page number: 86
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json`
+- Source page: 86
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0086.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a centered page number at the top, followed by a main body of text presented in a single column. The text includes several numbered articles and bolded subheadings.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 83 —
 
-En el servicio de trenes mixtos, los límites tolerables en los
-atrasos serán los siguientes:
-
-Para un recorrido entre 0 y 50 kilómetros, 10 minutos.
-Para un recorrido entre 50 y 100 kilómetros, 15 minutos.
-Para un recorrido entre 100 y 300 kilómetros, 20 minutos.
-Para un recorrido mayor de 300 kilómetros, 30 minutos.
-
-Estas prescripciones son, no solo aplicables a los puntos
-terminales del recorrido de trenes, sino a los puntos inter-
-medios que en cada caso indicará la Dirección General de
+```markdown
+—
+83
+—
+ictiva.
+ucirâ
+,n
+la
+;oras,
+i,
+en
+kilo-
+casos
+éstos
+renés
+ddad
+kilo-
+e, la
+odrâ
+kilo-
+riles
+ible-
+ticas
+lites
+itos.
+mi-
+mi-
+mi-
+En el servicio de trenes mixtos, los limites tolérables en los
+atrasos serân los siguientes:
+Para
+un reeorrido entre 0 y 50 kilometros, 10 minutos.
+Para un reeorrido entre 50 y 100 kilometros, 15 minutos.
+Para un reeorrido entre 100 y 300 kilometros, 20 minutos.
+Para un reeorrido mayor de 300 kilometros, 30 minutos.
+Estas prescripciones
+son,
+no solo aplicables
+a los puntos
+terminales del reeorrido de trenes, sino
+a los puntos inter-
+medios
+que
+en cada
+caso indicarâ la Direction General de
 Ferrocarriles al aprobar los horarios.
-
-**Atraso de trenes. Aumento de ve-**
-**locidad.**
-
-Art. 62.—Los trenes atrasados podrán aumentar la velo-
-cidad marcada en el horario, a condición de no exceder las
-máximas previstas en este Reglamento y teniendo en cuenta
-las limitaciones del artículo 59.
-
-El atraso podrá recuperarse reduciendo el tiempo de parada
-en las estaciones a lo necesario para dejar expedito el tráfico.
-
-**Atraso de trenes. Su registro y co-**
-**municación a la Dirección General**
-**de Ferrocarriles.**
-
-Art. 63.—Las empresas llevarán un registro de los atrasos
-de los trenes en la forma que prescriba la Dirección General
-de Ferrocarriles, debiendo remitir diariamente a ésta la parte
-correspondiente, con indicación de las causas que originaran
+Atraso de trenes. Aumento de ve-
+locidad.
+Art.
+62. — Los trenes atrasados podrân aumentar la velo-
+cidad marcada
+en el horario,
+a condition de no exceder las
+mâximas previstas en este Reglamento y teniendo en cuenta
+las limitaciones del articulo 59.
+El atraso podrâ recuperarse reduciendo el tiempo de parada
+eu las estaeiones
+a lo neeesario para dejar expedito el trâfico.
+Atraso de trenes. Su registro y co-
+municaciôn
+a la Direcciôn General
+de Ferrocarriles.
+Art. 63. — Las empresas llevarân un registro de los atrasos
+de los trenes
+en la forma que preseriba la Direction General
+de Ferrocarriles, debiendo remitir diariamente a ésta el parte
+correspondante,
+eon indicaciôn de las causas que originaran
 el atraso de cada tren.
-
-**Aviso al público de los atrasos.**
-
-Art. 64.—Cuando el retardo sea mayor de diez minutos en
+Aviso al publico de los atrasos.
+Art. 64. — Cuando el retardo sea mayor de diez minutos en
 los trenes urbanos, y treinta en los generales, los jefes de
-estación deberán poner, en un lugar adecuado de la misma, un
-aviso, indicando al público el atraso y sus causas.
+estatiôn deberân poner, en un lugar adecuado de la misma, un
+aviso, indicando al publico el atraso y sus causas.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 87
@@ -680,71 +742,109 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
 ```
 
+# Page 92
+
 ## Page Metadata
-Page number: 89
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json`
+- Source page: 92
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0092.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page presents a single-column layout with a page number centered at the top. The main content consists of several articles and paragraphs, each preceded by a descriptive heading. The text flows continuously from top to bottom.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```
-                                  — 89 —
-
-En la cabina de conducción de los trenes eléctricos y auto-
-motores, el número de personas queda limitado a tres.
-    Exceptúanse los casos de accidentes o socorro.
-
-                  Pedido de locomotoras de auxilio.
-
-    Art. 73. — Todo tren que hubiese pedido una locomotora de
-auxilio, quedará obligado a esperarla, aun cuando esté en con-
-diciones de proseguir la marcha antes de su llegada.
-    Exceptúase de esta regla el caso en que, siendo de día, la
-topografía del lugar permita dominar la vía por lo menos dos
-kilómetros hacia adelante.
-
-             Desmembramiento de un tren en
-                          marcha.
-
-    Art. 74. — Si, estando un tren en marcha, se desprendiese
-parte de sus vehículos, el personal de guardatrenes que se
-hallase en la parte desprendida, apretará inmediatamente los
-frenos, procurando en seguida dar aviso al maquinista. Una
-vez parados los vehículos desprendidos, se les protegerá con
-señales de peligro, colocadas adelante y atrás.
-
-                 Comunicación de accidentes.
-
-    Art. 75. — El jefe del tren en marcha comunicará de inme-
-diato al jefe de la estación más próxima todo accidente ocasio-
-nado por la circulación del tren o que, derivado de otras cau-
+```markdown
+—
+89
+—
+En la cabina de conducciôn de los trenes eléctricos y auto-
+motores, el numéro de personas queda limitado a très.
+Exeeptuanse los casos de accidentes o socorro.
+Pedido
+de locomotoras
+de auxilio.
+Art. 73. — Todo tren que hubiese pedido una locomotora de
+auxilio, quedarâ obligado a esperarla, aun cuando esté en con-
+dieiones de proseguir la marcha antes de su llegada.
+Exceptuase de esta régla el caso en que, siendo de dîa, la
+topografîa del lugar permita dominar la via por lo menos dos
+kilômetros hacia adelante.
+Desmembramiento
+de
+un
+tren
+en
+marcha.
+Art. 74.—Si, estando un tren en marcha, se desprendiese
+parte
+de
+sus vehîculos,
+el personal de guardatrenes
+que
+se
+hallase
+en la parte desprendida, apretarâ inmediatamente los
+frenos, procurando en seguida dar aviso al maquinista.
+Una
+vez parados los vehîculos desprendidos,
+se les protégera
+con
+senales de peligro, colocadas adelante y atrâs.
+Comunicacion de accidentes.
+Art. 75.— El jefe del tren en marcha comunicarâ de inme-
+diato al jefe de la estaciôn mas prôxima todo accidente ocasio-
+nado por la circulaciôn del tren o que, derivado de otras cau¬
 sas, hubiera afectado o pudiera afectar la marcha normal del
-mismo o de los demás trenes.
-    El jefe de la estación lo comunicará a su vez, en el acto y
-por el medio más rápido, al Inspector Nacional y a la Policía,
-si fuese del caso.
-    El jefe de la estación tendrá las mismas obligaciones del
-jefe del tren, si el accidente hubiera ocurrido dentro del recin-
-to o radio de la estación y sus playas o desvíos anexos.
-    Si el accidente hubiera ocasionado lesiones personales o afec-
+mismo
+o de los demâs trenes.
+El jefe de la estaciôn lo comunicarâ a su vez, en el acto y
+por el medio mâs râpido, al Inspector Nacional y a la Policîa,
+si fuese del
+caso.
+El jefe de la estaciôn tendra las mismas obligaeiones del
+jefe del tren, si el accidente hubiera ocufrido dentro del recin-
+to
+o radio de la estaciôn y sus playas o desvîos anexos.
+Si el accidente hubiera ocasionado lesiones personales o afec¬
 tado seriamente la regularidad y seguridad de los servicios o
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last paragraph is cut off at the bottom of the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily contains text."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 93
 
@@ -1007,70 +1107,122 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
 ```
 
+# Page 96
+
 ## Page Metadata
-- Page number: 96
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json`
+- Source page: 96
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0096.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, primarily regulations or instructions, with a centered heading and a numbered article. The page number is centered at the top.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 93 —
 
-ciones, desvíos o empalmes, curvas, desmontes y pasos a
-nivel; cuando se vean personas o animales en la vía o
-sus proximidades; cuando el estado atmosférico (nebli-
+```markdown
+—
+93
+—
+ciones, desvîos
+o empalmes, curvas, desmontes y pasos a
+nivel; cuando
+se vean
+personas
+o animales en la via
+o
+sus proximidades ; cuando el estado atmosférico
+(nebli-
 nas, fuertes lluvias, nevadas, tormentas de tierra, etcé-
 tera), impidan ver a una persona a una distancia de 200
-metros debiendo en este último caso ser repetido con
+metros
+debiendo
+en
+este ultimo
+caso
+ser repetido
+con
 frecuencia.
-
-En general, el toque de atención será dado a una dis-
-tancia tal del punto de peligro, que aquellos a quienes
-debe servir de advertencia puedan adoptar las medidas
+En general, el toque de ateneiôn sera dado a una dis¬
+tancia tal del punto de peligro,
+que aqucllos a quienes
+debe servir de advertencia puedan adoptai1 las medidas
 necesarias para evitar un accidente.
-
-Dos toques cortos y seguidos indicarán “apliquen fre-
-nos”, y al oírlos, el personal del tren deberá aplicar inme-
-diatamente los frenos de mano y mantenerlos así hasta
-oír la señal “aflojen frenos” o hasta que se haya dete-
+Dos toques cortos y seguidos indicarân “apliquen fre-
+nos”, y al oîrlos, el personal del tren deberâ aplicar inme-
+diatamente los frenos
+de
+mano y mantenerlos asî hasta
+oir la serial “aflojen frenos”
+o hasta que se haya dete-
 nido el tren.
-
-Un toque corto —después de la señal “apliquen fre-
-nos”— indicará “aflojen frenos”.
-
-La señal “aprieten frenos”, repetida varias veces, sig-
+Un toque corto —después de la senal “apliquen fre¬
+nos ”•— indicarâ “aflojen frenos”.
+La senal “aprieten frenos”, repetida varias veces, sig-
 nifica “peligro” y obliga al personal del tren a valerse
 de todos los medios a su alcance para detener la marcha
-lo más pronto posible.
-
-Varios silbatos prolongados y seguidos —dados por un
-tren detenido en la vía— indicará que necesita auxilio.
-
-Señal de partida de los trenes.
-
-Art. 86.— La señal de partida de los trenes será dada por
-el jefe del tren, previa orden del jefe de estación u otro
+lo mas pronto posible.
+Varios silbatos prolemgados y seguidos —dados por un
+tren detenido
+en la via— indicarâ que necesita auxilio.
+Serial de partida de los trenes.
+Art. 86. — La senal de partida de los trenes sera dada por
+el jefe
+del
+tren,
+previa orden
+del jefe de estacion
+u
+otro
 empleado autorizado, mediante un toque prolongado de pito
-y la exhibición de una banderita verde de día y luz verde
-de noche.
-
-Al ponerse el tren en movimiento el personal del mismo
-cambiará contraseñas que serán confirmación de la señal de
-partida.
-
-⧫
+y la exhibition de
+una banderita verde de dîa y luz verde
+de rtoehe.
+Al
+ponerse
+el tren
+en movimiento
+el personal del mismo
+eambiarâ contrasenas
+que serân confirmation de la senal de
+Partida.
+i
+```
 
 ## Images, Captions, And Visual Notes
-- A small decorative diamond/square shape appears at the bottom of the page, centered below the text.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and minor visual elements on the page have been transcribed and noted.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets. The small decorative mark is noted in the 'Images, Captions, And Visual Notes' section."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 97

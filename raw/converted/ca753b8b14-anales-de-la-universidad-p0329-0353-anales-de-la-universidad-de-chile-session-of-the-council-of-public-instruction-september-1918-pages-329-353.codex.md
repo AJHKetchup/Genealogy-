@@ -124,58 +124,95 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
+# Page 331
+
 ## Page Metadata
-Page number: 311
-Running header: CARLÓS SILVA COTAPOS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json`
+- Source page: 331
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/page-images/page-0331.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The running header "CARLÓS SILVA COTAPOS" is centered at the top, with the page number "311" on the right. The main content is a continuous block of text, broken into paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-CARLÓS SILVA COTAPOS 311
 
-Sintiéndose ya con suficiente instrucción teológica
-i con aptitudes para el púlpito, pues la naturaleza
-le había dotado de voz poderosa i bien timbrada, i
-de agrado en el decir por la animación i vida con
-que se expresaba; apenas se hubo ordenado de me-
-nores quiso tomar parte en las misiones que salieron
-para Valdivia i Chiloé en el verano de 1836. Al efecto,
-obtuvo licencia para hacer pláticas doctrinales del
-obispo de Concepción, don José Ignacio Cienfuegos.
-    Estas misiones habían sido organizadas por el
-presbítero don Rafael Valentín Valdivieso, a quien
-había impresionado vivamente la descripción tristí-
-sima que del estado de abandono relijioso en que se
-hallaban las provincias de Valdivia i Chiloé, hizo el
-ministro de lo Interior don Joaquín Tocornal en la
-memoria que presentó al congreso el año 1835. En
-ella el ministro hacía saber que en la provincia de
-Valdivia existían sólo dos curas: el de esa ciudad i
-el de Osorno; i en Chiloé, donde en 1826 había vein-
-tidós sacerdotes que no bastaban para el servicio de
-la población, en dicho año, 1835, sólo quedaban tres.
-    La misión partió de Valparaíso a bordo de la go-
-leta _Colocolo_ el 21 de Diciembre de 1835, i el 2 de
-Enero del año siguiente llegó a Ancud. No sabemos
-si Eizaguirre tuvo lugar a ejercer su ministerio en el
-archipiélago; pero sí sabemos que predicó en Valdi-
-via i en el puerto de Corral.
-    Animado su celo con el buen éxito alcanzado en
-la predicación, se atrevió a pedir licencia al obispo
+```markdown
+CARLOS SILVA COTAPOS 
+311 
+Sintiéndose ya con suficiente instrucción teolójica 
+i con aptitudes para el púlpito, pues la naturaleza 
+le había dotado de voz poderosa 1 bien timbrada, 1 
+de agrado en el decir por la animación 1 vida con 
+que se expresaba; apenas se hubo ordenado de me- 
+nores quiso tomar parte en las misiones que salieron 
+para Valdivia 1 Chiloé en el verano de 1836. Al efecto, 
+obtuvo licencia para hacer pláticas doctrinales 
+del 
+obispo de Concepción, don José Ignacio Cienfuegos. 
+Estas 
+misiones 
+habían sido organizadas 
+por 
+el 
+presbítero 
+don Rafael Valentín Valdivieso, a quien 
+había impresionado vivamente la descripción tristí- 
+sima que del estado de abandono relijioso en que se 
+hallaban las provincias de Valdivia i Chiloé, hizo el 
+ministro de lo Interior don Joaquín Tocornal en la 
+memoria que presentó al congreso el año 1835. En 
+ella el ministro hacía saber que en la provincia de 
+Valdivia existían sólo dos curas: 
+el de esa ciudad 1 
+el de Osorno; 1 en Chiloé, donde en 1826 había vein- 
+tidós sacerdotes que no bastaban para el servicio de 
+la población, en dicho año, 1835, sólo quedaban tres. 
+La misión partió de Valparaíso a bordo de la go- 
+leta Colocolo el 21 de Diciembre de 1835, 1 el 2 de 
+Enero del año siguiente llegó a Ancud. No sabemos 
+s1 Kizaguirre tuvo lugar a ejercer su ministerio en el 
+archipiélago; pero sí sabemos que predicó en Valdi- 
+via 1 en el puerto de Corral. 
+Animado su celo con el buen éxito alcanzado en 
+la predicación, se atrevió a pedir licencia al obispo 
 de Santiago para hacer pláticas en los extramuros
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 332
@@ -288,120 +325,178 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
 ```
 
+# Page 334
+
 ## Page Metadata
-- Page number: 314
-- Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json`
+- Source page: 334
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/page-images/page-0334.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The running header "MEMORIAS CIENTÍFICAS I LITERARIAS" is at the top right, with the page number "314" at the top left. The main content is a continuous narrative in six paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-314 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-colonial por el obispo don Rafael Andreu Guerrero,
-que impetró una mitra para atender a los pescado-
-res de ese lugar, a los cuales supuso completamente
-destituidos de auxilios relijiosos.
-La caravana se componía de los presbíteros don
-Rafael Valentín Valdivieso, don Ignacio Víctor Eiza-
-guirre, don Francisco de Paula Taforó, don Eujenio
-Guzmán, don José Santiago Labarca, don Ramon
-Valentín García, don José Ríos i don Joaquín Vera.
-El Supremo Gobierno tomó de su cuenta los gas-
-tos de los misioneros, i los trasportó a Caldera a
-bordo de la fragata *Chile*, de la armada nacional.
-A pesar de estas facilidades los abnegados sacer-
-dotes de la misión hubieron de soportar no pocas
-mortificaciones. Desde el mismo puerto de Valpa-
-raíso comenzaron éstas: pues en la casa de ejercicios
-del santo frai Andrés Caro, donde se hospedaron,
-tuvieron por todo lecho una tarima de madera.
-La llegada de tan escojida falange de misioneros
-fué acojida por el pueblo de Copiapó con las mayo-
-res muestras de entusiasmo: arcos triunfales i guir-
-naldas de flores adornaban las calles por donde pa-
-saron. Muchos años hacía que en Copiapó no se pre-
-dicaban misiones: i ese pueblo, lleno entonces de viva
-fe i piedad, sentía hondamente su falta.
-Sin pérdida de tiempo se pusieron a la obra los
-ocho misioneros, dando primeramente una misión a
-que concurrió casi todo el pueblo, i después dos co-
-rridas de ejercicios: una para los hombres i otra para
-las mujeres. A ámbas entraron sólo personas de la
+```markdown
+314 
+MEMORIAS CIENTÍFICAS Il LITERARIAS 
+- 
+colonial por el obispo don Rafael Andreu Guerrero. 
+que impetró una mitra para atender a los pescado- 
+res de ese lugar, a los cuales supuso completamente 
+destituidos de auxilios relijiosos. 
+La caravana se componía de los presbíteros don- 
+Rafael Valentín Valdivieso, don Ignacio Víctor Eiza- 
+guirre, don Francisco de Paula Taforó, don Eujenio 
+Guzmán, don José Santiago Labarca, don Ramon 
+Valentín García, don José Ríos 1 don Joaquín Vera. 
+El Supremo Gobierno tomó de su cuenta los gas- 
+tos de los misioneros, 1 los trasportó a Caldera a 
+bordo de la fragata Chile, de la armada nacional. 
+A pesar de estas facilidades los abnegados sacer- 
+dotes de la misión hubieron de soportar no pocas 
+mortificaciones. Desde el mismo puerto de Valpa- 
+raiso comenzaron éstas: pues en la casa de ejercicios 
+del santo frai Andrés Caro, donde se hospedaron, 
+tuvieron por todo lecho una tarima de madera. 
+La llegada de tan escojida falanje de misioneros 
+tué acojida por el pueblo de Copiapó con las mayo- 
+res muestras de entusiasmo: arcos triunfales 1 guir- 
+naldas de flores adornaban las calles por donde pa- 
+saron. Muchos años hacía que en Copiapó no se pre- 
+dicaban misiones; 1 ese pueblo, lleno entonces de viva 
+fe1 piedad, sentía hondamente su falta. 
+Sin pérdida de tiempo se pusieron a la obra los - 
+ocho misioneros, dando primeramente una misión a 
+que concurrió casi todo el pueblo, 1 después dos co- 
+rridas de ejercicios: una para los hombres i otra para 
+las mujeres. A ámbas entraron sólo personas de 129 
 clase pudiente.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all visible text and preserving line breaks, spelling, and punctuation.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 335
 
 ## Page Metadata
-- Page number: 315
-- Running header: CARLOS SILVA COTAPOS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json`
+- Source page: 335
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/page-images/page-0335.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, with a running header at the top. The text flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-CARLOS SILVA COTAPOS 315
 
-Terminados estos trabajos, en los cuales emplea-
-ron casi todo Enero de 1841, dispuso Valdivieso que
-se dividiesen en dos grupos: uno compuesto de los
-presbíteros Ríos, Guzmán, Labarca, García i Taforó
-recibió el encargo de misionar en el mineral de Cha-
-ñarcillo i otros puntos del departamento; al otro
-grupo, compuesto del mismo Valdivieso, de Eiza-
-guirre i Vera, cupo la parte mas pesada, pues tomó
-a su cargo la mision del Paposo, puertecillo situado
-unos dos grados jeográficos al norte de Caldera.
-
-El 31 de Enero, a la puesta de sol, llegaron los
-misioneros, a bordo de la goleta de guerra _Janequeo_,
-al surjidero de Guanillo, i al día siguiente tomaron a
-pié el camino al villorrio de Paposo que dista una
-legua de Guanillo, i se hospedaron en las casas del
-fundo de don Miguel Gallo.
-
-Los sencillos i dóciles habitantes del Paposo, ape-
-nas supieron la llegada de los misioneros, corrieron
-a establecer sus ramadas alrededor de las casas del
-fundo i así fué fácil catequizarlos i administrarles
-los sacramentos. Mas no se limitó a esto la obra de
-los misioneros; pues, notando en los paposinos gran-
-de afición a instruirse, les distribuyeron silabarios i
-les dieron algunas lecciones de lectura con bastante
-provecho.
-
-A fin de evanjelizar a los habitantes establecidos
-entre el Paposo i Copiapó, Valdivieso i sus compa-
-ñeros determinaron regresar a esta ciudad por tie-
-rra. La distancia se calculaba en ciento veinte leguas,
-i los caminos eran mui ásperos; pero estas dificulta-
-des no arredraron a los jóvenes i animosos misione-
-ros, cuyo celo por la salvación de las almas les hizo
+```markdown
+CARLOS SILVA COTAPOS 
+315 
+Terminados estos trabajos, en los cuales emplea- 
+ron casi todo Enero de 1841, dispuso Valdivieso que 
+se dividiesen en dos grupos: uno compuesto de los 
+presbíteros Ríos, Guzmán, Labarca, García 1 Tatforó 
+recibió el encargo de misionar en el mineral de Cha- 
+ñarcillo 1 otros puntos del departamento; 
+al otro 
+grupo, compuesto del mismo Valdivieso, de Kiza- 
+gulrre 1 Vera, cupo la parte mas pesada, pues tomó 
+a su cargo la mision del Paposo, puertecillo situado 
+unos dos grados jeográficos al norte de Caldera. 
+El 31 de Enero, a la puesta de sol, llegaron los 
+misioneros, a bordo de la goleta de guerra Janegueo, 
+al surjidero de Gruanillo, 1 al día siguiente tomaron. a 
+pié el camino al villorrio de Paposo que dista una 
+legua de Guanillo, 1 se hospedaron en las casas del 
+fundo 
+de don Miguel Gallo. 
+Los sencillos 1 dóciles habitantes del Paposo, ape- 
+nas supieron la llegada de los misioneros, corrieron 
+a establecer sus ramadas alrededor de las casas del 
+fundo 1 así fué fácil catequizarlos 1 administrarles 
+los sacramentos. Mas no se limitó a esto la obra de 
+los misioneros; pues, notando en los paposinos gran- 
+de afición a instruirse, les distribuyeron silabarios 1 
+les dieron algunas lecciones de lectura con bastante 
+provecho. 
+A fin de evanjelizar a los habitantes establecidos 
+entre el Paposo 1 Copiapó. Valdivieso 1 sus compa- 
+eros determinaron regresar a esta ciudad por tie- 
+tra. La distancia se calculaba en ciento veinte leguas, 
+1 los caminos eran mul ásperos; pero estas dificulta- 
+des no arredraron a los jóvenes 1 animosos misione- 
+ros, cuyo celo por la salvación de las almas les hizo 
 mirar en poco las fatigas de ese pesado viaje. El
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last word "El" is hyphenated, indicating the sentence continues on the next page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 336
@@ -569,63 +664,103 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
+# Page 339
+
 ## Page Metadata
-Page number: 339
-Running header: CARLOS SILVA COTAPOS 319
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json`
+- Source page: 339
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/page-images/page-0339.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. At the top, there's a running header with the author's name on the left and the page number on the right, separated by a horizontal rule. The main body of text follows, comprising two paragraphs. A footnote is present at the bottom of the page, referenced by a superscript number in the main text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-su decreto le sujería, dando a entender que no es-
-taba dispuesto a cooperar a su observancia. Insistió
-el ministro del culto, don Manuel Montt, en sostener
-el decreto gubernativo, por medio de una nota mui
-terminante que concluía con esta frase: «El presi-
-dente, que debe velar en la observancia de las leyes,
-me ordena decir a US. I. que exprese clara i categó-
-ricamente si está dispuesto a dar, en la parte que le
-toca, exacto cumplimiento al decreto que queda men-
-cionado». El arzobispo electo replicó, usando una
-vieja fórmula de la colonia, que lo obedecería pero
-no lo cumpliría mientras se entablaban los recursos
-del caso al soberano congreso; i concluía insistiendo
-en que se le aceptase la renuncia del arzobispado que
-tenía presentada desde los primeros días de Marzo, i
-se fundaba en los crecientes quebrantos de su salud
-(11 de Abril de 1845). El gobierno, en vista de esta
-insistencia i por poner fin a una situación embara-
-zosa para él, aceptó la renuncia por decreto de 22 de
-Abril, i mandó publicar en _El Araucano_ todas las
-notas cambiadas (1).
-
-El vicario capitular adoptó esta actitud resuelta
-después de consultar a varios eclesiásticos eminen-
-tes, uno de los cuales fué don Rafael Valentín Val-
-divieso, el cual opinó que no quedaban al vicario sino
-dos caminos: o desautorizar al secretario protestan-
-do del decreto o renunciar el cargo, para que el su-
-cesor pudiese protestar con más libertad. A esta opi-
-nión adhirieron los demás consultores. Eizaguirre
-hizo lo primero, i esto aceleró la aceptación de la
-renuncia que tenía presentada con anterioridad. no
-
-(1) _El Araucano_, número del 25 de Abril de 1845.
+```markdown
+CARLOS SILVA COTAPOS 
+319 
+su decreto le sujería, dando a entender que no es- 
+taba dispuesto a cooperar a su observancia. Insistió 
+el ministro del culto, don Manuel Montt, en sostener 
+el decreto gubernativo, por medio de una nota mul 
+terminante que concluía con esta frase: «El presi- 
+dente, que debe velar en la observancia de las leyes, 
+me ordena decir a US. I. que exprese clara 1 categó- 
+ricamente si está dispuesto a dar, en la parte que le 
+toca, exacto cumplimiento al decreto que queda men- 
+cionado». 
+El arzobispo 
+electo replicó, usando 
+una 
+vieja fórmula de la colonia, que lo obedecería pero 
+no lo cumpliría mientras se entablaban los recursos 
+del caso al soberano congreso; 1 concluía insistiendo 
+en que se le aceptase la renuncia del arzobispado que 
+tenía presentada desde los primeros días de Marzo, 1 
+se fundaba en los crecientes quebrantos desu salud 
+(11 de Abril de 1845). El gobierno, en vista _ de esta 
+insistencia 1 por poner fin a una situación embara- 
+zOsa para él, aceptó la renuncia por decreto de 22 de 
+Abril, 1 mandó 
+publicar en El 
+Araucano todas 
+las 
+notas cambiadas 
+(1). 
+El vicario capitular adoptó esta actitud resuelta 
+después de consultar 
+a varios eclesiásticos eminen- 
+tes, uno de los: cuales fué don Rafael Valentín 
+Val- 
+divieso, el cual opinó que no quedaban al vicario sino 
+dos caminos: 
+o desautorizar al secretario protestan- 
+do del decreto o renunciar el cargo, para que el su- 
+cesor pudiese protestar con más libertad. Á esta opi- 
+nión adhirieron 
+los demás 
+consultores. 
+Kizaguirre 
+hizo lo primero, 1 esto aceleró la aceptación de la 
+“y renuncia que tenía presentada con anterioridad, no 
+(1) El Araucano, número del 25 de Abril de 1845.
+```
 
 ## Images, Captions, And Visual Notes
-- A horizontal rule separates the running header from the main text.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The page contains only text and a decorative rule."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 340
@@ -686,63 +821,98 @@ All visible text on the page has been transcribed. The last paragraph is incompl
 {"visual_regions": [], "no_visual_regions_reason": "The page contains no meaningful visual content such as images, diagrams, or complex layouts that would require bounding box extraction."}
 ```
 
+# Page 341
+
 ## Page Metadata
-Page number: 321
-Running header: CARLOS SILVA COTAPOS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json`
+- Source page: 341
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/page-images/page-0341.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The running header "CARLOS SILVA COTAPOS" and page number "321" are at the top. The main content is a continuous narrative, with a section marker "§ X" breaking the flow. A footer "ANALES.-SETIEMBRE-OCTUBRE.—6" is present at the bottom left.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-CARLOS SILVA COTAPOS 321
-
-1843; pero al siguiente año, habiendo ocurrido el sen-
-sible fallecimiento del canónigo don Bernardino Bil-
-bao, sacerdote docto i distinguidísimo, Eizaguirre fué
-elejido en su lugar (18 de Noviembre de 1844). No
-había cumplido aún los veintiocho años de su edad
-cuando se le juzgó digno de este honor. Su discurso
-de incorporación versó sobre la independencia de la
-iglesia en lo espiritual, materia entonces poco cono-
-cida i menos respetada por las autoridades civiles.
-
-§ X
-
-Su labor como miembro de la facultad de teolojía.—
-Academia de ciencias sagradas.—Vicario Jeneral
-suplente.—Sociedad de Agricultura.—Casa de refu-
-jio para eclesiásticos.
-
-En su calidad de miembro de la facultad de teo-
-lojía desempeñó Eizaguirre con acierto varias comi-
-siones que se le confiaron, como la de tomar exáme-
-nes de relijión i derecho canónico; informar, en com-
-pañía de frai Domingo Aracena, acerca del texto de
-historia sagrada que convendría adoptar para la en-
-señanza de la relijión en los establecimientos públicos.
-Contestó también el discurso de incorporacion a la
-facultad del presbítero don Pascual Solís de Ovando,
-que tuvo por materia las órdenes monásticas. Su res-
-puesta fué bastante breve.
-En la misma lei orgánica de la Universidad se es-
-tablecía una Academia de Ciencias Sagradas, cuyo
-principal objeto fué el procurar que los sacerdotes
-se perfeccionasen en el conocimiento de las ciencias
-teolójicas, principalmente en lo relacionado con la
-ANALES.-SETIEMBRE-OCTUBRE.—6
+```markdown
+o 
+- CARLOS SILVA COTAPOS 
+321 
+1843; pero al siguiente año, habiendo ocurrido el sen- 
+sible fallecimiento del canónigo don Bernardino Bil- 
+bao, sacerdote docto i distinguidísimo, Eizaguirre fué 
+elejido en su lugar (18 de Noviembre de 1844). No 
+había cumplido aún los veintiocho años de su edad 
+cuando se le juzgó digno de este honor. Su discurso 
+de incorporación versó sobre la independencia de la 
+iglesia en lo espiritual, materia entonces poco cono- 
+- cida 1 menos respetada por las autoridades civiles. 
+SA 
+Su labor como miembro de la facultad de teolojía. — 
+Academia 
+de ciencias 
+sagradas. —Vicario 
+Jeneral 
+suplente. —Sociedad de Agricultura. —Casa de refu- 
+jio para eclesiásticos. 
+En su calidad de miembro de la facultad de teo- 
+lojía desempeñó Kizaguirre con acierto varias comli- 
+siones que se le confiaron, como la de tomar exáme- 
+nes de relijión 1 derecho canónico; informar, en com- 
+pañía de fra Domingo Aracena, acerca del texto de 
+historia sagrada que convendría adoptar para la en- 
+señanza 
+de la relijión en los establecimientos públicos. 
+Contestó también el discurso de incorporacion a la 
+facultad del presbítero don Pascual Solís de Ovando, 
+que tuvo por materia las órdenes monásticas. Su res- 
+puesta fué bastante breve. 
+En la misma lei orgánica de la Universidad se es- 
+-tablecía una Academia de Ciencias Sagradas. cuyo 
+principal objeto fué el procurar que los sacerdotes 
+se perfeccionasen en el conocimiento de las ciencias 
+teolójicas. principalmente 
+en 
+lo relacionado 
+con 
+la 
+ANALES.-SETIEMRRE-OCTUBRE.—(Ó
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 342
@@ -908,61 +1078,97 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 ```
 
+# Page 345
+
 ## Page Metadata
-Page number: 325
-Running header: CARLOS SILVA COTAPOS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json`
+- Source page: 345
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/page-images/page-0345.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The running header "CARLOS SILVA COTAPOS" is centered at the top, with the page number "325" on the right. The main body text is followed by an indented quote and a footnote at the bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-CARLOS SILVA COTAPOS 325
 
-tegui. El año 1847 la facultad elijió en su lugar a
-Eizaguirre, i en 1849 lo volvió a elejir por un segundo
-período.
-Eizaguirre profesó gran cariño a la Universidad,
-a la cual prestó cuantos servicios pudo. En aquellos
-años el erario público de Chile era mui pobre i mui
-honrado; sus rentas le alcanzaban apenas para pagar
-sus deudas i atender, con suma parsimonia, los más
-imposterglables servicios públicos. En las oficinas del
-estado i en los establecimientos de instrucción se
-carecía de no pocos muebles necesarios. Eizaguirre,
-para remediar una de estas escaseces que él notaría
-en la Universidad, obsequió al Consejo de Instruc-
-ción seis valiosas sillas para que las usara en las fun-
-ciones solemnes. «El Consejo, le decía don Andrés
-Bello en su oficio de agradecimiento, en vista de tan
-lucido i jeneroso obsequio, lo aceptó con gratitud i
-acordó en favor de Ud. un voto de espresivas gra-
-cias » (1).
-En Agosto de 1851 espiró el segundo período del
-decanato de Eizaguirre, i no fué reelejido porque se
-sabía que mui pronto saldria en viaje al viejo mun-
-do, por tiempo indefinido. El Consejo de Instrucción
-acordó darle las gracias por los servicios prestados
-i don Andrés Bello le comunicó este acuerdo por
-medio de la siguiente nota:
-«Me es sumamente grato desempeñar el encargo
-que me hizo el Consejo en su sesión del 30 del próxi-
-mo pasado Agosto, de espresar a Ud. su alta grati-
-tud por los servicios que ha prestado al público i a
-esta Universidad, mientras dignamente ha presidido
----
+```markdown
+CARLOS SILVA COTAPOS 
+325 
+tegul. El año 1847 la facultad 
+elijió en su lugar a 
+Eizaguirre, 
+1en 1849 lo volvió a elejir por un segundo 
+período. 
+| 
+Eizaguirre profesó gran cariño a la Universidad, 
+a la cual prestó cuantos servicios pudo. En aquellos 
+años el erario público de Chile era mui pobre 1 mul 
+honrado; sus rentas le alcanzaban apenas para pagar 
+sus deudas 1 atender, con suma parsimonla, los más 
+impostergables servicios públicos. En las oficinas del 
+estado 1 en los establecimientos 
+de instrucción se 
+carecía de no pocos muebles necesarios. Hizaguirre, 
+para remediar una de estas escaseces que él notaría 
+en la Universidad, obsequió al Consejo de Instruc- 
+ción seis valiosas sillas para que las usara en las fun- 
+ciones solemnes. 
+«El Consejo, le decía don Andrés 
+Bello en su oficio de agradecimiento, en vista de tan 
+lucido 1 jeneroso obsequio, lo aceptó con gratitud 1 
+acordó en favor de Ud. un voto de expresivas gra- 
+cias » (1). 
+En Agosto de 1851 expiró el segundo período del 
+decanato de Eizaguirre, 1 no fué reelejido porque se 
+sabía que mui pronto saldria en viaje al viejo mun- 
+do, por tiempo indefinido. El Consejo de Instrucción 
+acordó darle las gracias por los servicios prestados 
+1 don Andrés 
+Bello le comunicó este acuerdo por 
+medio de la siguiente nota: 
+¿Me es sumamente grato desempeñar 
+el encargo 
+que me hizo el Consejo en su sesión del 30 del próxi- 
+mo pasado Agosto, de espresar a Ud. su alta grati- 
+tud por los servicios que ha prestado al público 1 a 
+esta Universidad, mientras dignamente ha presidido 
 (1) Oficio de 26 de Abril de 1849.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 346
@@ -1185,62 +1391,103 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
 
+# Page 350
+
 ## Page Metadata
-Page number: 350
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json`
+- Source page: 350
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/page-images/page-0350.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a two-column header with the page number "330" on the left and "MEMORIAS CIENTÍFICAS I LITERARIAS" on the right. The main content is presented in a single column of justified text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-330 MEMORIAS CIENTÍFICAS I LITERARIAS
-El ministerio Vial-Sanfuentes. que había ganado
-estas elecciones. aunque triunfante. hubo de abando-
-nar el poder apenas se abrieron las sesiones del con-
-greso; porque el presidente. conociendo que sus mi-
-nistros no contaban con el apoyo de la opinión pú-
-blica. por su mui abusiva intervención electoral. i
-por otros errores cometidos durante su administra-
-ción. rehusó aceptar ciertas medidas gubernativas
-que le propusieron para refrenar la oposición. i pri-
-vados así de la confianza del presidente. hubieron de
-presentar la renuncia de sus carteras.
 
-El ministerio que entró a reemplazarlo se compo-
-nia de don José Joaquin Pérez. ministro del Interior.
-don Manuel Antonio Tocornal. ministro de justicia.
-culto e instruccion pública; don Antonio García Re-
-yes. ministro de hacienda i el coronel don Pedro
-Nolasco Vidal. ministro de guerra i marina.
-
-Este Ministerio tenia en contra suya a la mayoría
-de la cámara de diputados. que era adicta al minis-
-terio caído. como elejida por él; pero siendo com-
-puesto de hombres prudentes. hábiles i mui presti-
-jiosos. supo mantenerse en el poder durante diez
-meses.
-
-Eizaguirre. al abrirse las sesiones ordinarias de
-1849. fué elejido vice-presidente de la cámara. i des-
-empeñó ese cargo durante todo el período de esas
-sesiones i en las estraordinarias del mismo año. Pero
-al siguiente. habiendo sido reemplazado el ministerio
-Pérez-Tocornal por el ministerio encabezado por don
-Antonio Varas. en el cual figuró como ministro de
-hacienda don Jerónimo Urmeneta i conservó el co-
-ronel Vidal la cartera de guerra. Eizaguirre se enco-
-ntró colocado en las filas de la oposición. porque no
+```markdown
+330 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+El ministerio Vial-Sanfuentes. 
+que había ganado 
+estas elecciones, aunque triunfante. hubo de abando- 
+nar el poder apenas se abrieron las sesiones del con- 
+greso; porque el presidente, conociendo que sus mi- 
+nistros no contaban con el apoyo de la opinión pú- 
+blica, por su mui abusiva intervención electoral, 1 
+por otros errores cometidos durante su administra- 
+ción, rehusó aceptar 
+ciertas medidas gubernativas 
+que le propusieron para refrenar la oposición, 1 pri- 
+vados así de la confianza del presidente. hubieron de 
+presentar la renuncia de sus carteras. 
+El ministerio que entró a reemplazarlo se compo- 
+nia de don José Joaquin Pérez, ministro del Interior, 
+don Manuel Antonio Tocornal, ministro de justicia, 
+culto e instruccion pública; don Antonio García Re- 
+ves, ministro de hacienda 1 el coronel don Pedro 
+Nolasco Vidal, ministro de guerra 1 marina. 
+Este Ministerio tenia en contra suya a la mayoría 
+de la cámara de diputados, que era adicta al minis- 
+terio caído, como elejida por él; pero siendo com- 
+puesto de hombres prudentes, hábiles i mui presti- 
+jlosos, supo mantenerse 
+en 
+el poder durante diez 
+meses. 
+Eizaguirre, 
+al abrirse las sesiones 
+ordinarias 
+de 
+1849, fué elejido vice-presidente de la cámara, 1 des- 
+empeñó ese cargo durante todo el período de esas 
+sesiones 1 en las estraordinarias del mismo año. Pero 
+al siguiente, habiendo sido reemplazado el ministerio 
+Pérez- Tocornal por el ministerio encabezado por don 
+Antonio Varas, en el cual figuró como 
+ministro 
+de 
++ 
+hacienda don Jerónimo Urmeneta 1 conservó 
+el co- 
+ronel Vidal la cartera de guerra, Hizaguirre 
+se enco- 
+tró colocado en las filas de la oposición, porque no
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 351
@@ -1299,117 +1546,180 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 ```
 
-## Page Metadata
-Page number: 352
-
-## Layout And Reading Order
-The page presents a single column of text. At the top, there is a running header with the page number on the left and the section title on the right. The main content consists of a continuous narrative paragraph, followed by a footnote at the bottom of the page.
-
-## Literal Transcription
-332 MEMORIAS CIENTÍFICAS I LITERARIAS
-
-don José Hipólito Salas, al cual atribuyeron sin ra-
-zón el artículo de *La Revista Católica* i finjieron una
-condenación de *La Revista* por un supuesto nuncio
-en Rio Janeiro, fundada en que este periódico había
-recomendado en años anteriores una obra perniciosa.
-*La Revista* replicó en dos artículos brillantes i razo-
-nados que intituló: *Contestación a nuestros adversa-
-rios e Impudente i escandalosa impostura*, en el pri-
-mero de los cuales se lee un párrafo de fuego dirijido,
-según se entendió entonces, contra don Ignacio Vic-
-tor Eizaguirre i talvez contra don Francisco de Paula
-Taforó, los dos diputados eclesiásticos; porque se cre-
-yó que sólo aquél podía tener noticias de la reco-
-mendación de una obra impía hecha por la revista
-seis años antes (1).
-    Eizaguirre, que no había querido consentir en la
-publicación de las *Palabras de un creyente*, amonestó
-severamente, a nombre del partido de oposición, a
-los redactores de *El Amigo del Pueblo*, para que no
-continuasen en su campaña anti-relijiosa; i como esto
-no podía bastar, el periódico fué suprimido i reem-
-plazado por otro de igual formato, que se denominó
-*La Barra*, redactado por don Manuel Bilbao, her-
-mano menor de Francisco, el cual recibió orden de
-hacer oposición sin tocar cuestiones relijiosas, orden
-que no siempre obedeció.
-    Eizaguirre durante su asistencia a la cámara, no
-tomó mui activa parte en los debates que se susci-
-taron; pero no dejó de hacerlo cuando se promovie-
-ron cuestiones relacionadas con la iglesia. Así terció
-en la discusión de la lei de instrucción primaria que,
-
-(1) *Revista Católica*, nos. del 3 y del 11 de Mayo de 1850.—*Re-
-vista Chilena*, tomo I páj. 543 y tomo II, páj. 87.
-
-## Images, Captions, And Visual Notes
-No images, captions, or significant visual notes are present on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-The transcription is complete and includes all visible text on the page, including the running header, main body, and footnote.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+# Page 352
 
 ## Page Metadata
-Page number: 353
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json`
+- Source page: 352
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/page-images/page-0352.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The header "CARLOS SILVA COTAPOS" and the page number "333" are at the top. The main content is a continuous block of prose.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-CARLOS SILVA COTAPOS 333
 
-por iniciativa de don Antonio García Reyes, se discutió
-en la cámara de diputados en las sesiones de 1849-
-1850. La lei propuesta imponía a los conventos la
-obligación de mantener escuelas gratuitas. Eizagui-
-rre, con muchísima razon, impugnó este artículo por
-ser inconstitucional: pues lesionaba la igualdad ante
-la lei que la constitución garantiza a todos los chile-
-nos, imponiendo a los relijiosos una verdadera con-
-tribución pecuniaria que no se exijía del estado se-
-glar. El proyecto de lei espresaba que en el plan de
-estudios se comprendía *la doctrina i moral cristianas*.
-Eizaguirre, poco satisfecho de esta expresión, pidió
-que se dijese que debía estudiarse catecismo e his-
-toria sagrada. Pero sus indicaciones no fueron escu-
-chadas por la mayoría de la cámara, i los dos artícu-
-los impugnados quedaron tales como los había pro-
-puesto el autor del proyecto de lei.
-
-Esta lei de instrucción primaria nunca llegó a ser
-aprobada i promulgada, porque tropezó con escollos
-insalvables cuando se trató de señalar los fondos con
-que la instrucción debía costearse.
-
-Intervino también en la discusión de un proyecto
-de lei propuesto por el diputado Infante, que tam-
-poco logró ser aprobado, para otorgar a los párrocos
-una dotación fija i suprimir los derechos parroquia-
-les llamados de estola.
-
-Al tratarse de los aranceles que debían rejir para
-el cementerio jeneral, atacó duramente al ministro,
-porque en esta materia prescindía de la autoridad
-diocesana que tenía derecho de intervenir por tra-
-tarse de un acto relijioso: i llegó a decir que el altar
-de la capilla del cementerio era verdaderamente dig-
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
+```markdown
+332 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+don José Hipólito Salas, al cual atribuyeron sin ra- 
+zón el artículo de La Revista Católica 1 finjleron una 
+condenación de La Revista por un supuesto nuncio 
+en Rio Janeiro, fundada en que este periódico había 
+recomendado en años anteriores una obra perniciosa. 
+La Revista replicó en dos artículos brillantes 1 razo- 
+nados que intituló: Contestación a nuestros adversa- 
+mos e 
+Impudente 1 escandalosa impostura, | en el pri- 
+mero de los cuales se lee un párrafo de fuego dirijido, ++ 
+según se entendió entonces, contra don Ignacio Víe- 
+tor Eizaguirre 1 talvez contra don Francisco de Paula 
+Taforó, los dos diputados eclesiásticos; porque se cre- 
+yó que sólo aquél podía tener noticias de la reco- 
+mendación de una obra impía hecha por la revista 
+sels años antes (1). 
+S 
+Kizaguirre, que no había querido consentir en la 
+publicación de las Palabras de un creyente, amonestó 
+severamente, 
+a nombre del partido de -oposición, a- 
+los redactores de El Amigo del Pueblo, para que no. 
+continuasen en su campaña anti-relijiosa; 1 como esto 
+no podía bastar, el periódico fué suprimido 1 reem- 
+plazado por otro de igual formato, que se denominó ' 
+La Barra, redactado por don Manuel Bilbao, her- 
+mano menor de Francisco, el cual recibió orden de * 
+hacer oposición sin tocar cuestiones relijiosas, orden 
+que no siempre obedeció. 
+E 
+Eizaguirre durante su asistencia a la cámara, no- 
+tomó mul activa parte en los debates que se suscl 
+taron; pero no dejó de hacerlo cuando se promovie- 
+ron cuestiones relacionadas con la iglesia. 
+Así terció- 
+en la discusión de la lei de instrucción primaria que, 
+(1) 
+Revista Católica, nos. del 3 y del 11 de Mayo de 1850.—Re- 3 
+vista Chilena, tomo 1 páj. 543 y tomo Il, páj. 87.
 ```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 353
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json`
+- Source page: 353
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/page-images/page-0353.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+CARLOS SILVA COTAPOS. 
+309 
+por iniciativa de don Antonio García Reyes,se discutió 
+en la cámara de diputados en las sesiones de 1849- 
+1850. La lez propuesta imponía a los conventos la 
+obligación de mantener escuelas gratuitas. Bizagul- 
+rre, con muchísima razon, impugnó este artículo por 
+ser inconstitucional: pues lesionaba la igualdad ante 
+la lez que la constitución garantiza a todos los chile- 
+nos, imponiendo a los relijiosos una verdadera con- 
+bribución pecuniaria que no se exijía del estado se- 
+olar. El proyecto de lei espresaba que en el plan de 
+estudios se comprendía la doctrina + moral cristianas. 
+Kizagulrre, poco satisfecho de esta expresión, pidió 
+que se dijese que debia estudiarse catecismo e his- 
+toria sagrada. Pero sus indicaciones no fueron escu- 
+chadas por la mayoría de la cámara, 1 los dos artícu- 
+los impuenados quedaron tales como los había pro- 
+puesto el autor del proyecto de lei. 
+Esta lei de instrucción primaria nunca llegó a ser 
+aprobada 1 promulgada, porque tropezó con escollos 
+imsalvables cuando se trató de señalar los fondos con 
+que la instrucción debía costearse. 
+: 
+Intervino también en la discusión de un proyecto 
+de lei propuesto por el diputado Infante, que tam- 
+poco logró ser aprobado, para otorgar a los párrocos 
+una dotación fija 1 suprimir los derechos parroquia- 
+les llamados de estola. 
+Al tratarse de los aranceles que debían rejir para 
+el cementerio jeneral, atacó duramente al ministro, 
+porque en esta materia prescindía de la autoridad 
+diocesana que tenía derecho de intervenir por tra- 
+tarse de un acto relijioso; 1 llegó a decir que el altar 
+de la capilla del cementerio era verdaderamente dig-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

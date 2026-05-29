@@ -1,0 +1,99 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-c828798511d6-P0265-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283.codex.md
+converted_sha256: c828798511d6e9d1d1775097f721d7470866217e952be2eda1ba6d7d9da04f7e
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json
+page_start: 265
+page_end: 265
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 265
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0265.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+RODOLFO LENZ 
+245 
+obras completas, va demasiado léjos, si se limita en 
+el exámen final de las humanidades tan solo al cono- 
+cimiento de un literato 1 de un filósofo. Yo creo que 
+la cultura jeneral, ademas de ese conocimiento real. 
+mente valioso, que apruebo como él que mas, exije 
+nociones al ménos someras de la evolucion total de 
+la literatura. ¿Qué diria Ud. de un profesor de histo- 
+ria que se contentara con que:sus alumnos estudia- 
+ran detalladamente la biografía de un jeneral 1 de un 
+estadista, sin conocer el desarrollo jeneral de la his- 
+toria universal? O de un jeógrato a quien le bastara 
+el conocimiento de un departamento, por mas que 
+sea adquirido por inspeccion personal de los alumnos 
+en escursiones escolares, renunciando a la jeografía 
+de toda la patria 1 de los demas paises 1 continentes? 
+Es mul recomendable un estudio minucioso de algu- 
+nos puntos de cualquier ciencia, hecho con investi- 
+gacion propia; pero no puede reemplazar, sino sólo 
+completar, las nociones jenerales. 
+Tanto en castellano, como en los idiomas estran- 
+jeros, la crestomatía suministra los ejemplos para el 
+tratamiento jeneral de la literatura; pero comparto 
+completamente su' opinion de que la lectura de algu- 
+nas obras completas, hecha en clase o en casa, tiene 
+un valor educativo mucho mayor que el tratamiento 
+jeneral. Son mui dignos de imitacion sus procedi- 
+mientos (páj. 181) para estimular la lectura domés- 
+tica. Los Programas (p. ej. Frances, páj. 18) men- 
+cionan esta lectura doméstica; pero talvez no dicen 
+con bastante claridad que ella en efecto debe consi- 
+derarse como obligatoria. 
+No olvidemos que el alumno chileno en su lengua 
+patria tiene sólo acceso 
+a la cultura española; en
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 266

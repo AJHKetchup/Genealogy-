@@ -187,61 +187,92 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 606
+
 ## Page Metadata
-Page number: 536
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 606
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0606.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The top of the page contains a page number and a running header. The main body of the page contains several paragraphs of text, followed by a main section heading, a subsection heading, and another paragraph of text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-mo septentrional de nuestro territorio. Hay, naturalmen-
-te, también razones de carácter administrativo y social en
-la contrucción aludida. El fundamento económico de ella
-es, como igualmente lo hemos dejado ver, de menor im-
-portancia, al menos por lo que hasta ahora se puede
-constatar.
-Como de los 8,216 kilómetros de ferrocarril con que
-contaba Chile a fines de 1915 el 63 por 100 (5,122 kilóme-
-tros), es decir, poco menos de los dos tercios pertenecían
-al Estado y comprendían las líneas principales del país (la
-política ferrocarrilera pública se limita sólo a esas líneas),
-resulta que Chile se cuenta hoy día en el grupo de países
-que tienen _sistema de ferrocarriles del Estado_, sobre
-cuyas ventajas trataremos más adelante, al referirnos a
-los proyectos de arrendamiento y pesar las ventajas y
-desventajas de tal proceder.
-
-B. LA LEGISLACIÓN FERROVIARIA
-
-1. La ley general de ferrocarriles
-
-No sólo el desarrollo de las industrias, de la agricultu-
-ra y del comercio, y con ello de toda la vida económica
-nacional, sino también el desarrollo del poder político,
-militar y espiritual de la nación, están en relación íntima
-con el desarrollo de los ferrocarriles. Por eso es el Estado,
-como encarnación de la comunidad, el que ante todo,
-aparece interesado en los ferrocarriles de su territorio.
-El sistema de ferrocarriles del Estado es el más adecuado
-para un país nuevo que vela celosamente por los intere-
-ses de la generalidad. Así parece haberlo comprendido
-también el Gobierno de Chile, pues desde un principio se
+```markdown
+536 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+moseptentrional de nuestro territorio. Hay, naturalmen- 
+te, también razones de caráter administrativo y social en 
+la contrucción aludida. El fundamento económico de ella, 
+es, como igualmente lo hemos dejado ver, de menor im- 
+portancia, al menos por lo que hasta ahora se puede 
+constatar. 
+; 
+/ 
+Como de los 8,216 kilómetros de ferrocarril con que 
+contaba Chile a fines de 1915 el 63 por 100 (5,122 kilóme- 
+tros), es decir, poco menos de los dos tercios pertenecían 
+al Estado y comprendían las líneas principales del país (la 
+política ferrocarrilera pública se limita sólo a esas líneas), 
+resulta que Chile se cuenta hoy día en el grupo de países 
+que tienen sistema 
+de ferrocarriles del Estado, sobre 
+cuyas ventajas trataremos más adelante, al referirnos a 
+los proyectos de arrendamiento y pesar las ventajas y 
+desventajas de tal proceder. 
+B. LA LEGISLACIÓN 
+FERROVIARIA 
+1. La ley general de ferrocarriles 
+No sólo el desarrollo de las industrias, de la agricultu- 
+ra y del comercio, y con ello de toda la vida económica 
+nacional, sino también el desarrollo del poder político, 
+militar y espiritual de la nación, están en relación íntima 
+- 
+con el desarrollo de los ferrocarriles. Por eso es el Estado, - 
+como encarnación de la comunidad, el que ante todo, 
+aparece interesado en los ferrocarriles de su territorio. 
+El sistema de ferrocarriles del Estado es el más adecuado 
+para un país nuevo que vela celosamente por los intere-. 
+ses de la generalidad. Así parece haberlo comprendido 
+también el Gobierno de Chile, pues desde un principio se '
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 
@@ -915,62 +946,92 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 616
+
 ## Page Metadata
-Page number: 546
-Header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 616
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0616.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text. The reading order is from top to bottom, starting with the page number and header, followed by a main text block, then a section heading, a sub-section heading, and finally another text block.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-546 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-consultaba, sin duda alguna, mejor que el proyecto de
-Gobierno los intereses fiscales; pero, a consecuencia de
-ello mismo, no podía ser la más propicia para atraer a
-los concesionarios, lo que a su vez redunda en perjuicio
-de los intereses económico-nacionales, pues la construc-
-ción de toda nueva línea envuelve un beneficio para el
-país. Si consideramos que Chile presenta, no sólo econó-
-mica, sino geográfica y técnicamente, condiciones dema-
-siado variadas para la construcción de ferrocarriles, la
-legislación sobre primas no conduciría, según nuestra
-opinión, a nada práctico ni definitivo; habría que salirse
-constantemente de lo establecido por la ley. Esa medida
-legislativa encontraría, sin duda, justificación en algu-
-nos años más, en que el país mismo se hallase más ex-
-plotado; y se dirigiría en todo caso sólo a ferrocarriles
-de tercer orden, afluentes de líneas de mayor importancia.
-
-C. LA ADMINISTRACIÓN DE LOS FERROCARRILES
-Y EL PERSONAL EN SERVICIO
-
-1. El problema administrativo en los Ferrocarriles
-del Estado
-
-El desarrollo histórico de los ferrocarriles chilenos nos
-muestra un incremento irregular de las líneas del Esta-
-do: éste ha sido, como vimos, casi repentino en los últimos
-años. Fácil es comprender las dificultades correspondien-
-tes de Administración. No parecerá extraño que la or-
-ganización administrativa de los ferrocarriles haya
-sufrido diversos cambios. En 1884 se había dictado la
-*Ley Orgánica de Ferrocarriles*, que ponía la Administra-
+```markdown
+546 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+consultaba, sin duda alguna, mejor que el proyecto de 
+Gobierno los intereses fiscales; pero, a consecuencia de 
+ello mismo, no podía ser la más propicia para atraer a 
+los concesionarios, lo que a su vez redunda en perjuicio 
+de los intereses económico-nacionales, pues la construc- 
+ción de toda nueva línea envuelve un beneficio para el 
+país. S1 consideramos que Chile presenta, no sólo econó- 
+mica, sino geográfica y técnicamente, condiciones dema- 
+siado variadas para la construcción de ferrocarriles, la 
+legislación sobre primas no conduciría, según nuestra 
+opinión, a nada práctico ni definitivo; habría que salirse 
+constantemente de lo establecido por la ley. Esa medida 
+legislativa encontraría, sin duda, justificación en algu- 
+nos años más, en que el país mismo se hallase más ex- 
+plotado; y se dirigiría en todo caso sólo a ferrocarriles 
+de tercer orden, afluentes de líneas de mayor importancia. 
+C. La ADMINISTRACIÓN DE LOS FERROCARRILES 
+Y EL PERSONAL EN SERVICIO 
+1. El problema administrativo en los Ferrocarriles 
+- del Estado 
+El desarrollo histórico de los ferrocarriles chilenos nos 
+muestra un incremento irregular de las líneas del Esta- 
+do: éste ha sido, como vimos, casi repentino en los últimos 
+años. Fácil es comprender las dificultades correspondien- 
+tes de Administración. 
+No parecerá extraño que la or- 
+ganización 
+administrativa 
+de los 
+ferrocarriles 
+haya 
+sufrido diversos cambios. En 1884 se había dictado la 
+Ley Orgánica de Ferrocarriles, que ponía la Administra- 
 ción en manos de un Director y de varios consejeros
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no images or other substantial visual content."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 617
 
@@ -1705,58 +1766,97 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 628
+
 ## Page Metadata
-Page number: 558
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 628
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0628.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. It begins with a continuation of a paragraph from the previous page, followed by a section heading, a main body paragraph, and a footnote at the bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-lómetros, total **1,723** kilómetros (1), no viene anotado en
-la Memoria que corresponde al año **1916**, lo que nos im-
-pide fijar la proporción de empleados, de operarios y su
-renta media anual.
 
-2. En los **ferrocarriles particulares**
-
-En la legislación ferroviaria general no hay prescrip-
-ciones que regulen la administración de los ferrocarriles
-particulares; por eso es imposible darse cuenta de la dis-
-tribución y situación económica del personal de ellos. La
-*Sinopsis Estadística* registra el número de éste en los
-ferrocarriles particulares de **1915**, con **7,707**. Como el
-kilometraje total de estas líneas era de **3,094**, tenemos
-un personal medio de **2,5** por kilómetro. Vemos así que
-en los ferrocarriles particulares el personal medio por ki-
-lómetro de vía llega aproximadamente a la tercera parte
-del de los ferrocarriles de la Red Central. La diferencia
-se comprende fácilmente: el tráfico de los ferrocarriles
-particulares de Chile se limita, en esencial, al transporte
-de carga, como hemos visto, y la operación de cargar y
-descargar se hace con personal que, por lo común, no
-pertenece a los ferrocarriles mismos. Hay entre ellos fe-
-rrocarriles de transporte exclusivo de carga, en las sali-
-treras, que no necesitan sino un número escasísimo de
-personas para su explotación. En las líneas de mayor trá-
-fico de pasajeros, el caso es diverso. En el ferrocarril de
-Antofagasta, que, por su carácter de internacional, per-
-tenece a los principales, aparece necesariamente un per-
-sonal medio mayor que en los demás particulares. En
-
-(1) *Trigésimo-tercera Memoria del Director General de los Ferrocarriles del*
-*Estado.—Santiago de Chile, 1917.*
+```markdown
+558 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+lómetros, total 1,723 kilómetros (1), no viene anotado en 
+la Memoria que corresponde al año 1916, lo que nos 
+im- 
+pide fijar la proporción de empleados, de operarios y su 
+renta media anual. 
+2. En los ferrocarriles particulares 
+En la legislación ferroviaria general 
+no hay prescrip- 
+ciones que regulen la administración de los ferrocarriles 
+particulares; por eso es imposible darse cuenta de la dis- 
+tribución y situación económica del personal de ellos. La 
+Sinopsis Estadistica regis tra 
+el número de éste en los 
+ferrocarriles 
+particulares de 1915, 
+con 7,707. Como el 
+kilometraje total de estas líneas era 
+de 3,094, tenemos 
+un personal medio de 2,5 por kilómetro. Vemos así que 
+en los ferrocarriles particulares el personal medio por ki- 
+lómetro de vía llega aproximadamente a la tercera parte 
+del de los ferrocarriles de la Red Central. La diferencia 
+- 
+se comprende fácilmente: el tráfico de los ferrocarriles — 
+particulares de Chile se limita, en esencial, al transporte 
+de carga, como hemos visto, y la operación de cargar y 
+descargar se hace con 
+personal que, por lo común, no 
+pertenece a los ferrocarriles mismos. Hay entre ellos fe- 
+rrocarriles de transporte exclusivo de carga, en las sali- 
+treras, que no necesitan 
+sino un número escasísimo de 
+personas parasu explotación. En las líneas de mayor trá- 
+fico de pasajeros, el caso es diverso. En el ferrocarril de 
+Antofagasta, que, por su carácter de internacional, per- 
+tenece a los principales, aparece necesariamente un pel- E 
+sonal medio mayor que en los demás particulares. En 
+PGA 
+- 
+(1) Trigésimo-tercera Memoria del Director General de los Ferrocarriles del 
+Estado —Santiago de Chile, 1917. 
+|
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or significant visual elements on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

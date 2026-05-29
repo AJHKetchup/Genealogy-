@@ -1,0 +1,106 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-de9d1b8b1189-P0289-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293.codex.md
+converted_sha256: de9d1b8b118977980e6fcfd981cdaa6e0435a41deacef656a74b8ab815ebd075
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json
+page_start: 289
+page_end: 289
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json`
+- Source page: 289
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-images/page-0289.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+JULIO SAAVEDRA MOLINA 
+269 
+solución que se les diere, el resultado no heriría sen- 
+siblemente a la construcción principal. 
+“Así, por ejemplo, Ud. i otros profesores disienten 
+del parecer de los psicólogos que, como Locke, Ja 
+mes, Meumann 1 los demás citados en la pájina 199 
+de mi libro, limitan la disciplina formal o trasferen- 
+cia de los hábitos (Ud. me hace decir que la niegan). 
+Supongamos un caso estremo. Demos por incondi- 
+ciónalmente demostrado que la tenacidad, la obser- 
+- vación, el discernimiento, 
+etc., que requiere la eje- 
+cución de los temas gramaticales 1 las retroversiones 
+no fuesen posibilidades o virtudes ya existentes en 
+el estudiante 1 que el ejercicio pone en juego, sino 
+hábitos en abstracto que el estudio hace nacer, de 
+tal modo que todo el que estudie idiomas gramati- 
+calmente los tendrá, i no, el que no los estudie así. 
+¿Cómo afectaría esta proposición a mis argumen- 
+vos ia 7? 
+Me imajino que Ud. mismo no me podrá señalar 
+otra modificación que la de intensificar los ejercicios 
+gramaticales. 
+¿ 
+¿Se atrevería Ud. a afirmar que, a trueque de ha- 
+cer estos ejercicios convendría robarle el tiempo al 
+estudio cultural de los años 5. 1 6.2 1 a la positiva 
+habilidad 
+de 
+leer, 
+que 
+debe 
+adquirirse 
+de 
+1.2 
+a 4.0? 
+S1 yo fuera alemán, francés, o inglés, 1 escribiera 
+para mis compatriotas, yo, antes que Ud., lo afirma- 
+ría sin vacilar. Pero, siendo un castellano que escribe 
+para castellanos, no puedo desentenderme de la ne- 
+cesidad' vital que los castellanos tenemos de entrar 
+en posesión del tesoro de la cultura europea, apren-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 290

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-3ca5f3853ad2-P0002-01
+chunk_id: CHUNK-493db44941b1-P0002-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250.codex.md
-converted_sha256: 3ca5f3853ad2b7da583dde3c33c045716f4366fc5acbd082f0d1581c9a9e85d5
+converted_sha256: 493db44941b175da06f42d4800e277072cdaad1604e6bde70a56aaf1782e3e2c
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250/manifest.json
@@ -60,3 +60,5 @@ All visible text and significant visual elements on the page have been transcrib
 
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals for cropping. The handwritten word 'Vener' is minor and described in the 'Images, Captions, And Visual Notes' section."}
+
+# Page 228

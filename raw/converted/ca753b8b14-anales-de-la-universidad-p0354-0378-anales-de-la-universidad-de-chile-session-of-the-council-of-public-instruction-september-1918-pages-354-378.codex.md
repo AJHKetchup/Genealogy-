@@ -8,63 +8,99 @@
 - Conversion method: Codex local vision workbench
 - Extracted images: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/extracted-images`
 
+# Page 354
+
 ## Page Metadata
-Page number: 334
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 354
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0354.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a running header at the top, followed by a single column of main text. A footnote is present at the bottom of the page, referenced within the main text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-334                               MEMORIAS CIENTÍFICAS I LITERARIAS
 
-no de un templo protestante, porque no contenía
-sino una desnuda cruz.
-     La contestación del ministro fué victoriosa; pues
-había procedido de acuerdo con la autoridad dioce-
-sana.
-     No fué, pues, mui brillante su actuación en las
-discusiones de los negocios que durante su mandato
-ocuparon la atención de la cámara; pero en cambio
-tuvo activa participación en el tejemaneje político
-de la oposición, empeñada en derribar el ministerio
-Pérez i cerrar el paso a la candidatura Montt. Don
-José Victorino Lastarria, en su Diario desde Junio
-de 1849 hasta Marzo de 1852, después de quejarse de
-la inercia i pusilanimidad de no pocos diputados
-opositores, dice lo siguiente: «Eizaguirre, el clérigo,
-es vivo, ajitador, enérjico, i no hai ninguno como él
-para mover a estos hombres tortugas que tanto
-abundan; su autoridad, su carácter sacerdotal, le dan
-mucho prestijio ante ellos». Su activísima participa-
-ción en la política pura era adversamente juzgada
-por el clero i daba motivo a sus enemigos políticos
-para calificarlo de intrigante (1). También uno de sus
-colegas de cámara, Jotabeche, solía fustigarlo desde
-las columnas de El Mercurio con esa pluma acerada
-que tan diestramente manejaba.
-     Eizaguirre se sentía molesto por los desagrados
-que le ocasionaba la oposición al ministerio, i los
-conflictos de conciencia que las ideas de sus amigos
-solían ocasionarle, i por eso pensó dejar de asistir a
-la cámara; pero habiéndole insinuado una persona
-de influjo en el gobierno que se trataba de darle una
----
-(1) Revista Chilena, tomo II, páj. 230 i páj. 87.
+```markdown
+334 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+vo de un templo protestante, porque no contenía 
+sino una desnuda cruz. 
+: 
+k 
+La eontestación del ministro fué victoriosa; pues 
+había procedido de acuerdo con la autoridad dioce- 
+sana. 
+No fué, pues, mui brillante si actuación 
+en las 
+discusiones de los negocios que durante su mandato. 
+ocuparon la atención de la cámara; pero en cambio 
+tuvo activa participación en el tejemaneje político 
+de la oposición, empeñada en derribar el ministerio 
+Pérez 1 cerrar el paso a la candidatura Montt. Don 
+José Victorino Lastarria, en su Diario desde Junio 
+de 1849 hasta Marzo de 1852, después de quejarse de 
+la inercia í pusilanmidad de no pocos diputados - 
+opositores, dice lo siguiente: «Bizaguirre, el clérigo, 
+- 
+es vivo, ajitador, enérjico, ino hal ninguno como él - 
+- para mover 
+a estos 
+hombres 
+tortugas 
+que tanto 
+abundan; su autoridad, su carácter sacerdotal, le dan — 
+mucho prestijio ante ellos». Su activísima participa- 
+ción en la política pura era adversamente juzgada ' 
+por el clero 1 daba motivo a sus enemigos políticos - 
+para calificarlo de intrigante (1). También uno desus 
+colegas de cámara, Jotabeche. solía fustigarlo desde 
+las columnas de El Mereurio con esa pluma acerada 
+que tan diestramente manejaba. 
+y 
+Eizaguirre se sentía molesto por los desagrados 
+que le ocasionaba la oposición al ministerio, 1 los 
+conflictos de conciencia que las ideas de sus amigos 
+solían ocasionarle, 1 por eso pensó dejar de asistir a 
+la cámara; pero habiéndole insinuado una persona 
+de influjo en el gobierno que se trataba de darle una 
+(1) Revista Chilena, tomo II, páj. 230 1 páj. 87.
 ```
 
 ## Images, Captions, And Visual Notes
-None.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page, including the running header, main body text, and footnote, has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for region cropping."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 335
@@ -233,245 +269,372 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
 
+# Page 358
+
 ## Page Metadata
-Page number: 338
-Running head: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 358
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0358.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The reading order is from top to bottom, paragraph by paragraph.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-darse este dispendioso gusto que podía serle mui
-útil, resolvió emprender viaje a Europa. Al efecto
-solicitó del arzobispo Valdivieso las letras testimonia-
-les que debía llevar.
 
-La conducta observada por Eizaguirre durante los
-últimos tres o cuatro años, tenía bastante preocu-
-pado al arzobispo, que le profesaba sincero afecto
-por haberlo conocido desde su más tierna infancia i
-cultivado con él i su familia estrecha amistad. Apro-
-vechó, pues, la oportunidad que la solicitud de tes-
-timoniales le ofrecía para abrirle el fondo de su cora-
-zon, i hacerle una paternal monición.
-
-Comenzó el arzobispo por enviarle testimoniales
-que contenían esta frase: _ob adjuncta rerum politi-
-carum Reipublicae exeuntem_. que puede traducirse:
-_que sale de Chile por causa de la situación política
-de la república_. Eizaguirre, pensando que esta frase
-podía entenderse en el sentido de que el salía de
-Chile por revolucionario, pidió al arzobispo que la
-eliminara.
-
-En contestación el prelado le envió una larga car-
-ta, escrita de su puño, verdadera obra maestra de
-ciencia, de lójica, de celo pastoral i de afectuosa ca-
-ridad, que sentimos no reproducir íntegra. El arzo-
-bispo deseó que este negocio fuese mui reservado, i
-por eso no se valió de secretario para escribir su
-carta. Pero Eizaguirre no guardó la misma reserva,
-i luego se supo algo de lo ocurrido i se le revistió de
-circunstancias odiosas i falsas.
-
-El principal cargo que se hacía a Eizaguirre era
-su complicidad con los revolucionarios. Esta com-
-plicidad, si hubiese existido realmente, acarreaba
-
-## Images, Captions, And Visual Notes
-No images, captions, or significant visual notes are present on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-The transcription is complete and includes all visible text on the page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
+```markdown
+338 
+MEMORIAS CIENTÍFICAS 
+I LITERARIAS 
+darse este dispendioso gusto que podía serle 
+mui 
+útil, resolvió emprender viaje a Europa. Al efecto 
+solicitó del arzobispo Valdivieso las letras testimonia- 
+les que debía lievar. 
+La conducta observada por EKizaguirre durante los 
+últimos tres 
+o cuatro años, tenía bastante preocu- 
+pado al arzobispo, que le profesaba sincero afecto 
+por haberlo conocido desde su más tierna infancia 1 
+cultivado con él 1 su familia estrecha amistad. Apro- 
+vechó, pues, la oportunidad que la solicitud de tes- 
+timoniales le ofrecía para abrirle el fondo de su cora- 
+zon, 1 hacerle una paternal monición. 
+Comenzó 
+el arzobispo por enviarle testimoniales 
+que contenian esta frase: ob 
+ adjuncta rerum polata- 
+carum Rewpublicue exeuntem, que puede traducirse: 
+que sale de Chile por causa de la situación 
+política 
+de la república. Kizagutrre, pensando 
+que esta frase 
+podía entenderse en el sentido de «que el salía de 
+Chile por revolucionario, pidió al arzobispo que la 
+eliminara. 
+: 
+Kn contestación el prelado le envió una larga cat- 
+ta, escrita de su puño, verdadera obra maestra de 
+ciencia, de lójica. de celo pastoral 1 de afectuosa ca- 
+ridad, que sentimos no reproducir íntegra. El arzo- 
+bispo deseó que este negocio fuese mul reservado, 1 
+por eso no se valió de secretario para escribir su 
+carta. Pero Kizaguirre no guardó la misma reserva, 
+1 luego se supo algo de lo ocurrido i se le revistió de 
+circunstancias odiosas 1 falsas. 
+El principal cargo que se hacía a Eizaguirre era 
+su complicidad con los revolucionarios. Esta com- 
+plicidad, 
+si hubiese 
+existido 
+realmente, 
+acarreaba
 ```
 
-## Page Metadata
-- Page number: 359
-- Source publication: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- Source page range: 354-378
-
-## Layout And Reading Order
-
-The page contains a running head with the author's name and page number, followed by a continuous block of text, which includes several quoted paragraphs and ends with a footnote.
-
-## Literal Transcription
-
-CARLOS SILVA CÓTAPOS
-339
-
-irregularidad, i por lo tanto inhabilidad para el ejer-
-cicio del sagrado ministerio.
-
-Sobre la parte que hubiera podido caberle en la
-revolución el arzobispo pedía explicaciones a Eiza-
-guirre. A mas de esto el prelado le hacía los siguien-
-tes cargos:
-
-«Se agrega a lo dicho que tengo datos para juzgar
-que la compañía de hombres de malas ideas le han
-pegado, quizá sin que Ud. lo entienda, algunos resa-
-bios de peligrosa doctrina i sobre esto era mui prin-
-cipalmente sobre lo que yo quería hacerle mis amis-
-tosas moniciones.
-
-«No me parecía bien que Ud. mantuviese relaciones
-íntimas con los que escriben en los periódicos que
-apoyaron a Bilbao cuando escribió contra la relijión.
-Sin hacer Ud. una manifestación pública de que con-
-denaba su liga podía atribuírsele alguna connivencia:
-mas entonces no le quise decir nada, porque oí que
-Ud. había protestado a otros eclesiásticos que repro-
-baba, como era de esperarse, tales publicaciones.
-
-«Lo mismo me sucedió cuando Federico Errázuriz
-lanzó su filípica contra el ministerio sacerdotal, en
-la persona de los párrocos (1), i avanzó algunas pro-
-posiciones de mal sabor en el discurso de su recep-
-ción; i mui principalmente cuando, proponiendo te-
-mas para el premio, quiso hacer alarde de sus perni-
-ciosas creencias acerca del matrimonio de los protes-
-tantes con los católicos. No era posible que una he-
-chura de Ud. en su carrera teolójica i política como
-el dicho Federico, se atreviese a proclamar tales
-ideas contra la voluntad de Ud. Mas, apenas me dijo
-
-(1) Discurso de incorporación a la facultad de teolojía: *Anales
-de la Universidad*, tomo VI, pág. 95.
-
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 359
 
 ## Page Metadata
-- Page number: 360
-- Source publication year: 1918
-- Source publication session: September
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 359
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0359.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The top of the page contains a header with the page number on the left and a section title on the right. The main content is a continuous block of text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-340 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-don Joaquín Larraín que Ud. había declinado toda
-participación en las dichas cosas, cuando quise con-
-vencerme de que debía deponer toda sospecha.
-«Esta facilidad para justificar a Ud. apenas abría
-la boca en su defensa, ha parecido ante algunos como
-una falta de enerjía para reconvenirle a Ud., según
-ahora me lo han dicho personas respetables; pero
-ellas no han contado con mi corazón, i se lo digo a
-Ud. por si Ud. mismo ha recibido con ello algún es-
-cándalo. Decía que no han contado con mi corazón:
-porque habiéndolo a Ud. manoseado como a niño de
-mi casa en su niñez, habiéndolo visto crecer i for-
-marse en la piedad, habiéndolo tratado con intimi-
-dad i cercanía durante un largo período de mi vida,
-no podía menos que haberle cobrado afición estre-
-cha i una predisposición mui pronunciada para re-
-putarlo inespugnable en sus sanos principios i vieja
-ortodojia. Debo sin embargo confesar que había mo-
-tivo para amonestar a Ud. i que siento no haberlo
-hecho, porque no dudo de que su docilidad le habría
-hecho advertir el peligro que seguramente corría Ud.
-sin conocerlo.
-«La prueba de esto la deduzco de que mui formal-
-mente un sujeto respetable de Lima, que no me co-
-noce personalmente, ex-profeso me ha escrito par-
-ticipándome, movido sólo de su conciencia i de la
-necesidad que había de que yo conociese a Ud. como
-sacerdote que creía ser de mi confianza, el que, cuan-
-do Ud. estuvo en el Perú, entre ciertas personas hizo
-Ud. el papel de hombre liberal, defendiendo a cara
-descubierta la utilidad de promover los matrimonios
-entre católicos i protestantes.
-«Igualmente, otros que han leído íntegra la histo-
+```markdown
+CARLOS SILVA COTAPOS 
+3039 
+irregularidad, 1 por lo tanto inhabilidad para el ejer- 
+ciclo del sagrado ministerio. 
+Sobre la parte que hubiera podido caberle en la- 
+revolución el arzobispo pedía explicaciones 
+a Kiza- 
+eurrre. Á mas de esto el prelado le. hacia los siguten- 
+tes Cargos: 
+«Se agrega a lo dicho que tengo datos para juzgar 
+que la compañía de hombres de malas ideas le han 
+pegado, quizá sin que Ud. lo entienda, algunos resa- 
+bios de peligrosa doctrina 1 sobre esto era mul prin- 
+cipalmente sobre lo que yo quería hacerle mis amis- 
+tosas moviciones. 
+«No me parecía bien que Ud. mantuviese relaciones 
+intimas con los que escriben en los periódicos que 
+apoyaron a Bilbao cuando escribió contra la relijión. 
+Sim hacer Ud. una manifestación pública de que con- 
+denaba su liga podía atribuírsele alguna connivencia: 
+mas entonces no le quise decir nada, porque oí que 
+Ud. había protestado a otros eclesiásticos que repro- 
+baba, como era de esperarse, tales publicaciones. 
+«Lo mismo me sucedió cuando Federico Errázuriz 
+lanzó su filípica contra el ministerio sacerdotal, en 
+la persona de los párrocos (1), 1 avanzó algunas pro- 
+posiciones de mal sabor en el discurso de su recep- 
+ción; 1. mui principalmente cuando, propomiendo te- 
+mas para el premio, quiso hacer alarde de sus pern1- 
+closas creencias acerca del matrimonio de los protes- 
+tantes con los católicos. No era posible que una he- 
+chura de Ud. en su carrera teolójica 1 política como 
+el dicho Federico, 
+se atreviese 
+a proclamar 
+tales 
+ideas contra la voluntad de Ud. Mas, apenas me dijo 
+(1) Discurso de incorporación a la facultad de 
+teología: 
+Anales 
+de la Universidad, tomo VI, pág. 95.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. The text is clear and legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for extraction."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 360
 
 ## Page Metadata
-Page number: 341
-Header: CARLOS SILVA COTAPOS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 360
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0360.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The header includes the author's name on the left and the page number on the right. The main content is continuous prose, divided into several paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-ria escrita por Ud., me han hecho notar proposicio-
-nes que en rigor teolójico no escapan de ser notadas,
-acerca de los cuerpos relijiosos i de la institución en
-sí misma.
-«Repito que en todo esto no creo que hai designio
-depravado, sino simplemente contajio de malos hom-
-bres que se lo pegan aun sin conocerlo».
-Eizaguirre acojió esta monición con la respetuosa
-docilidad que el arzobispo esperaba de él: i le con-
-testó una carta en que se manifestaba de acuerdo
-con el prelado en varias de las reflexiones que éste
-le hacía; excusaba su conducta política asegurando
-que siempre había reprobado lo malo que sostenían
-algunas personas del partido liberal; que a Bilbao ni
-siquiera lo conocía, i había escrito un artículo con-
-tra los *Boletines del espíritu*, artículo que no se pu-
-blicó por cierto accidente; i predicado contra las doc-
-trinas de Bilbao en la iglesia de Santo Domingo; que
-el discurso de don Federico Errázuriz no lo había
-conocido antes que éste lo pronunciara: i que lo que
-al arzobispo escribían de Lima era absolutamente
-falso.
-Quejábase tambien Eizaguirre, en su carta, de que
-era víctima de injustas censuras, formuladas aun en
-público por algunos sacerdotes.
-El arzobispo acojió benignamente las escusas i
-protestas de docilidad i ortodoxia de ideas que Eiza-
-guirre le hacía, i le otorgó letras testimoniales en la
-forma usual i corriente (14 de Enero de 1852).
-Pesada atmósfera rodeaba, pues, a Eizaguirre en
-su patria. No sólo el partido político triunfante lo
-miraba con malos ojos, sino tambien entre el clero
+```markdown
+340 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+don Joaquín Larraín que Ud. había declinado toda 
+participación en las dichas cosas, cuando quise con- 
+vencerme de que debía deponer toda sospecha. 
+«Esta facilidad para justificar a Ud. apenas abría 
+la boca en su defensa, ha parecido ante algunos como 
+una falta de enerjía para reconvenirle a Ud.. según 
+ahora me lo han dicho personas respetables: pero 
+ellas 'no han contado con mi corazón, 1 se lo digo a 
+Ud. por si Ud. mismo ha recibido con ello algún es- 
+-cándalo. Decía que no han contado con mi corazón; 
+porque habiéndolo 
+a Ud. manoseado como a niño de 
+mi Casa en su niñez, habiéndolo visto crecer 1 for- 
+marse en la piedad, habiéndolo tratado con intimi- 
+dad i cercanía durante un largo período de mi vida, 
+no podía menos que haberle cobrado afición estre- 
+cha 1 una predisposición mui pronunciada para re- 
+putarlo inespugnable en sus sanos principios 1 vieja. 
+ ortodojía. Debo sin embargo confesar que había mo- 
+tivo para amonestar a Ud. 1 que siento no haberlo 
+hecho, porque no dudo de que su docilidad le habría 
+hecho advertir el peligro que seguramente corría Ud. 
+sin conocerlo, 
+«La prueba de esto la deduzco de que mul formal: 
+mente un sujeto respetable de Lima, que no me co- 
+noce personalmente, ex-profeso me ha escrito pat- + 
+ticipándome, movido sólo de su conciencia 1 de la 
+necesidad que había de que yo conociese a Ud. como. 
+sacerdote que creía ser de mi confianza, el que, cuan- 3 
+do Ud. estuvo en el Perú, entre ciertas personas hizo 
+Ud. el papel de hombre liberal, defendiendo a cara. 
+descubierta la utilidad de promover los matrimonios * 
+entre católicos 1 protestantes. 
+«Igualmente, otros que han leído íntegra la histo- 
+A
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 361
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 361
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0361.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+CARLOS SILVA COTAPOS 
+341 
+n= 
+ria escrita por Ud., me han hecho notar proposicio- 
+nes que en rigor teólójico no escapan de ser notadas, 
+acerca de los cuerpos relijiosos 1 de la institución en 
+sí misma. 
+«Repito que en todo esto no creo que hal designio 
+depravado, sino simplemente contajio de malos hom- 
+bres que se lo pegan aun sin conocerlo». 
+Hizaguirre acojló esta monición con la respetuosa. 
+docilidad que el arzobispo esperaba de él: 1 le con- 
+testó una carta en que se manifestaba de acuerdo 
+von el prelado en varias de las reflexiones que éste 
+le hacía; excusaba su conducta política asegurando 
+que siempre había reprobado lo imalo que sostenían 
+algunas personas del partido liberal; que a Bilbao ni 
+“siquiera lo conocía, 1 había escrito un artículo con- 
+tra los Boletines del espiritu, artículo que no se pu- 
+blicó por cierto accidente; 1 predicado contra las doc- 
+trinas de Bilbao en la iglesia de Santo Domingo; que 
+el discurso de don Federico Errázuriz no lo había 
+conocido antes que éste lo pronunciara: i que lo que 
+al arzobispo escribían de Lima era 
+absolutamente 
+falso. 
+Quejábase tambien Fizaguirre, en su carta, de que 
+era víctima de injustas censuras, formuladas aun en 
+público por algunos sacerdotes. 
+El arzobispo acojió benignamente 
+las escusas 
+1 
+protestas de docilidad 1 ortodoxia de ideas que Kiza- 
+eurre le hacía, 1 le otorgó letras testimoniales en la 
+forma usual i corriente (14 de Enero de 1852). 
+Pesada atmósfera rodeaba, pues, a EKizaguirre en 
+su patria. No sólo el partido político triunfante lo 
+miraba con malos ojos, sino también entre el clero 
 había personas de importancia que le tenían por sos-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 342
@@ -532,60 +695,93 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
 
+# Page 363
+
 ## Page Metadata
-Page number: 363
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 363
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0363.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a running head with the author's name on the left and the page number on the right, followed by a single column of body text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-CARLOS SILVA COTAPOS 343
 
-De Estados Unidos se trasladó a Europa, a bordo
-de un vapor que lo dejó en Liverpool, de donde pasó
-a Irlanda, i se detuvo principalmente en Maynooth,
-para visitar su célebre colejio. De Irlanda pasó a
-Inglaterra, en cuya capital le hallamos a principios
-de Julio de 1852. De Londres se trasladó a París, i
-siguiendo su camino por Lyon hacia Italia, en Se-
-tiembre se hallaba en Nápoles, de donde pasó a Mal-
-ta, i de esta isla a Grecia. Costeó en seguida el Asia
-Menor haciendo escala en Beiruth i otros puertos i el
-11 de Octubre llegaba a Jerusalem. Su piedad debió
-detenerle más de un mes en la Tierra Santa; porque
-sólo a fines de Noviembre se le encuentra en Ejipto.
-Monseñor José Valerga, patriarca latino de Jeru-
-salem, le acojió con mucho afecto i confianza, i le
-nombró su representante i apoderado en Chile.
-Del Ejipto se trasladó nuevamente a Italia i llegó
-a Roma en Diciembre del año 1852.
-Su permanencia en la ciudad eterna, donde tuvo
-que evacuar algunas comisiones que había recibido
-en Chile, duró hasta el mes de Abril de 1853. En esta
-fecha volvió a comenzar su vida de peregrino. Flo-
-rencia, Sena, Bolonia, Padua, Venecia i otras ciu-
-dades de Italia le vieron entonces; i en seguida Aus-
-tria i los paises del Danubio, Polonia, Rusia i Ale-
-mania; por segunda vez París i a fines del mismo año
-España fueron visitados.
-El año siguiente 1854, visitó nuevamente la In-
-glaterra i durante el verano pasó a Holanda i de allí
-a Suecia, volviendo por Dinamarca a París, a donde
-le atraian importantes negocios de que luego habla-
-remos.
-En 1855 visitó por segunda vez a España. Ingla-
+```markdown
+CARLOS SILVA COTAPOS 
+345 
+De Estados Unidos se trasladó a Europa, a bordo 
+de un vapor que lo dejó en Liverpool, de donde pasó 
+a Irlanda, ise detuvo principalmente en Maynootl, 
+para visitar su célebre colejio. De Irlanda pasó a 
+Inglaterra. en cuya capital le hallamos a principios 
+de Julio de 1852. De Londres se trasladó a París, 1 
+siguiendo su camino por Lyon hacia Italia, 
+en 
+Se- 
+tiembre se hallaba en Nápoles, de donde pasó a Mal- 
+ta, 1 de esta isla a Grecia. Costeó en seguida el Asia 
+Menor haciendo escala en Beiruth 1 otros puertos 1 el 
+11 de Octubre llegaba a Jerusalem. Su piedad debió 
+detenerle más de un mes en la Tierra Santa; porque 
+sólo a fines de Noviembre se le encuentra en Ejipto. 
+Monseñor José Valerga, patriarca latino de Jeru- 
+salem, le acojió con mucho afecto 1 confianza, 1 le 
+nombró su representante 1 apoderado en Chile. 
+Del Ejipto se trasladó nuevamente a Italia 1 llegó 
+a Roma en Diciembre del año 1852. 
+Su permanencia en la ciudad eterna, donde tuvo 
+que evacuar algunas comisiones que había recibido 
+en Chile, duró hasta el mes de Abril de 1853. En esta 
+fecha volvió a comenzar su vida de peregrino. lo- 
+rencia, Sena, Bolonia, Padua, Venecia 1 otras 
+clu- 
+dades de Italia le vieron entonces; 1 en seguida Aus- 
+tria 1 los paises del Danubio, Polonia, Rusia 1 Ale- 
+mania; por segunda vez París 1a fines del mismo año 
+España fueron visitados. 
+El año siguiente 1854, visitó nuevamente la ln- 
+elaterra 1 durante el verano pasó a Holanda 1 de allí 
+a Suecia, volviendo” por Dinamarca a París, a donde 
+le atraían importantes negocios de que luego habla- 
+En 1855 visitó por segunda vez a España, Ingla-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 344
@@ -707,127 +903,196 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual content to extract."}
 ```
 
+# Page 366
+
 ## Page Metadata
-Page number: 346
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 366
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0366.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a header with a page number and section title, followed by a single column of main text. The main text consists of several quoted questions, followed by a continuous narrative paragraph.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-346 MEMORIAS CIENTÍFICAS I LITERARIAS
-«¿Qué hace ahora mismo el Catolicismo en todos
-los paises?
-«¿Qué suerte vemos correr a sus disidentes?
-«En la presente obrita he consignado la respuesta
-a estas tres cuestiones, cuya averiguación es de tanto
-interés para nuestras jóvenes repúblicas...
-«Al emprender mi larga travesía no me propuse
-mas objeto que conocer por mí mismo las tendencias
-del movimiento relijioso que se realiza en el viejo
-continente; i, al dirijir mis observaciones a mis com-
-patriotas de las repúblicas americanas, nada me pro-
-pongo fuera de rectificar la opinión equívoca que
-alguno pudiera abrigar sobre aquellas tres grandes
-cuestiones, cuya solución tanto importa a la ven-
-tura social».
 
-Esta obra fué mui favorablemente acojida en Eu-
-ropa. *L'Univers* i *Il Giornale di Roma* dieron cuenta
-de su aparecimiento en eljiosos artículos; i perso-
-najes eminentes de ambos mundos la encomiaron
-también: i así la segunda edición española pudo ser
-encabezada con cartas del conde de Montalembert i
-del R. P. Lacordaire. El canónigo chileno don Ramón
-Valentín García, i el ilustre ecuatoriano don Gabriel
-García Moreno coincidieron en estimar *El Catolis-
-mo* de Eizaguirre como un digno complemento de
-*El Protestantismo* del gran Balmes, que tanta boga
-tenía entonces i ha conservado hasta ahora.
-
-Eizaguirre debió tener concluída su obra a fines de
-1854; pues el prólogo lo fechó el 15 de Octubre de
-ese año en la ciudad de Londres; i salió a luz en París,
-en una cómoda i elegante edición, por la librería de
-Garnier, a mediados de 1855. Dos años después, esta
+```markdown
+346 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+«¿Qué hace ahora mismo el Catolicismo en todos 
+los paises? 
+| 
+«¿Qué suerte vemos correr a sus disidentes? 
+«En la presente obrita he consignado la respuesta 
+a estas tres cuestiones, cuva averiguación es de tanto 
+interés para nuestras jóvenes repúblicas... 
+«Al emprender mi larga travesía no me propuse 
+mas objeto que conocer por mí mismo las tendencias 
+del movimiento relijioso que se realiza en el viejo 
+continente: 1, al dir1jir mis observaciones a mis com- 
+patriotas de las repúblicas americanas, nada me pro- 
+pongo fuera de rectificar 
+la opinión equívoca que 
+alguno pudiera abrigar sobre aquellas tres grandes 
+cuestiones, cuya solución tanto importa a la ven- 
+tura social». 
+Esta obra fué mui favorablemente acojida en Hu- 
+ropa. L'Umwers 1 1l Grornale di Roma dieron cuenta 
+de su aparecimiento en elojiosos artículos; 1 perso- 
+najes eminentes 
+de ambos mundos 
+la encomiaron 
+también; i así la segunda edición española pudo ser 
+encabezada con cartas del conde de Montalembert 1 
+del R. P. Lacordaire. El canónigo chileno don Ramón 
+Valentín trarcía, 1 el ilustre ecuatoriano don Gabriel 
+García Moreno coincidieron 
+en estimar 
+El Catolas- 
+mo de Fizaguirre 
+como 
+un digno complemento 
+de 
+El Protestantismo del gran 
+Balmes, que tanta 
+boga 
+tenía entonces + ha conservado hasta ahora. 
+Hizaguirre debió tener concluída su obra a fines de 
+1854; pues el prólogo lo fechó 
+el 15 de Octubre de 
+ese año en la ciudad de Londres; i salió a luz en París, 
+en una cómoda i elegante edición, por la librería 
+de 
+Garnier, 
+a mediados de 1855. Dos años después, esta 
 misma casa imprimía la segunda edición.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 367
 
 ## Page Metadata
-Page number: 347
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 367
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0367.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a single column of text. At the top, there's a centered heading, followed by the page number on the right. The main content is a continuous block of text.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-CARLOS SILVA COTAPOS
-347
-
-Apenas apareció la edición castellana el pbo. P. F.
-Verdot, párroco de San Mauricio de Besançon, lo
-tradujo al francés.
-
-Fué también traducido al inglés i se han hecho
-diecinueve ediciones en varias lenguas hasta la muer-
-te del autor.
-
-Tan favorable acojida se explica fácilmente por el
-interés que entonces tenían todas las noticias con-
-signadas en la obra de Eizaguirre. Este aparecía a
-los ojos de sus lectores católicos como un testigo,
-mayor de toda excepción, que venía a referirle lo que
-era el catolicismo i lo que eran sus disidentes en los
-numerosos países que en su inmenso viaje había vi-
-sitado. La comparación resultaba mui ventajosa para
-la iglesia católica, siempre una, siempre abnegada,
-siempre heroica en sus virtudes i activa en su pro-
-paganda; i siempre hostilizada i perseguida por los
-herejes i cismáticos de mil i mil sectas, sin cesar
-renacientes, divididas i subdivididas, i cuyas virtu-
-des aparecían como pálidos remedos de las virtudes
-católicas. Aun ahora *El Catolicismo* conserva su mé-
-rito por los interesantes datos que en él se encuen-
-tran reunidos respecto del estado relijioso de Europa
-i países del Oriente. Pero este es un mérito apreciado
-sólo por los estudiosos. El gran público ya no le lee:
-porque trata de cosas antiguas, sustituidas ahora por
-otras en gran parte diferentes; i porque no está re-
-dactado en conformidad al gusto moderno. El estilo
-de Eizaguirre no es el de un historiador ni publicista,
-sino el de un orador; es el estilo declamatorio imita-
-do de Chateaubriand i Lamartine, insoportable en
-una obra de largo aliento, que trata de asuntos for-
-zosamente poco variados i contiene reflexiones que
+```markdown
+347 
+e 
+CARLOS SILVA COTAPOS 
+Apenas apareció la edición castellana el pbo. P. F. 
+Verdot, párroco de San Mauricio 
+de Bésancon, 
+lo 
+tradujo al francés. 
+Fué también traducido 
+al inglés 1 se han hecho 
+diecinueve ediciones en varias lenguas hasta la muer- 
+te del autor. 
+Tan favorable acojida se explica fácilmente por el 
+interés que entonces tenían todas las noticias con- 
+sienadas en la obra de Eizaguirre. Este aparecía a 
+los ojos de sus lectores católicos como un testigo, 
+mayor de toda excepción, que venía a referirle lo que 
+era el catolicismo 1 lo que eran sus disidentes en los 
+numerosos países que en su inmenso viaje había vi- 
+sitado. La comparación resultaba mul ventajosa para 
+la iglesia católica, siempre una, siempre abnegada, 
+siempre heroica en sus virtudes 1 activa en su pro- 
+paganda: 1 siempre hostilizada 1 perseguida por los 
+herejes 1 cismáticos 
+de mil 1 mil sectas, sin cesar 
+renacientes. divididas 1 subdivididas, 1 cuyas virtu- 
+des aparecían como pálidos remedos de las virtudes 
+católicas. Aún ahora El Catolucismo conserva su mé- 
+rito por los interesantes datos que en él se encuen- 
+tran reunidos respecto del estado relijioso de Europa 
+1 paises del Oriente. Pero este es un mérito apreciado 
+sólo por los estudiosos. El gran público ya no le lee: 
+porque trata de cosas antiguas, sustituidas ahora por 
+otras en gran parte diferentes; 1 porque no está re- 
+dactado en conformidad al gusto moderno. El estilo 
+de Eizaguirre no es el de un historiador ni publicista. 
+sino el de un orador; es el estilo declamatorio imita- 
+do de Chateaubriand 1 Lamartine, insoportable en 
+una obra de largo aliento, que trata de asuntos tor- 
+Zosamente poco variados 1 contiene reflexiones que
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-No uncertain or illegible text was found on this page.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 368
@@ -1040,73 +1305,98 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 371
+
 ## Page Metadata
-- Task id: `source-prep:ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-0378:p0371`
-- Model route: `lite`
+
 - Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-0378/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-0378/work-orders/page-0371.md`
-- Page: 371
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 371
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0371.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page features a running head with the author's name on the left and the page number on the right. The main content consists of a single column of text, divided into several paragraphs, some of which begin with an opening quotation mark.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-CARLOS SILVA COTAPOS 351
-
-vida laboriosa i morijerada, tal cual conviene al sa-
-cerdote.
-«Mas no sería éste solamente el bien que ha de pro-
-ducir tal establecimiento: hai otro todavía i de mu-
-cha trascendencia: tal es la colocación que los obis-
-pos darían en los seminarios diocesanos a los educa-
-dos en Roma, los cuales amoldarían la doctrina,
-opiniones i costumbres del clero por las que ellos
-mismos habían aprendido en la escuela de Roma. De
-suerte que poco a poco ese clero, que ahora vemos,
-en gran parte, no tal como debería ser, vendría a ser
-docto i morijerado; i la guerra de principios que el
-espíritu anti-católico, los indiferentistas i la corrup-
-ción misma de costumbres, hoi hacen a la iglesia en
-aquellos países lejanos, vendrá a estrellarse contra
-un clero dispuesto a rechazar victoriosamente sus
-ataques, manejando unas mismas armas, i adoptan-
-do un mismo plan.
-«Si algún país en el mundo necesita estrechar más
-i más sus vínculos de unión con el centro de la uni-
-dad católica, es sin duda alguna la América, por ser
-la más distante por su situación jeográfica, i la más
-expuesta a recibir las influencias de las malas pasio-
-nes, por encontrarse con menos arbitrios para resis-
-tirlas.
-«Por lo mismo, si la Santa Sede ha protejido i fo-
-mentado, en la capital del mundo cristiano, semina-
-rios eclesiásticos para diversos países de Europa i de
-Asia, la erección de uno para la América Española
-i Portuguesa no parecerá menos acreedor a su pia-
-dosa consideración.
-«Si este pensamiento que el exponente humilde-
+```markdown
+CARLOS SILVA COTAPOS 
+351 
+vida laboriosa 1 morijerada, tal cual conviene al sa- 
+cerdote. 
+«Mas no sería éste solamente el bien que ha de pro- 
+ducir tal establecimiento: hai otro todavía 1 de mu- 
+cha trascendencia: tal es la colocación que los obis- 
+pos darían en los seminarios diocesanos a los educa- 
+dos 
+en Roma, 
+los cuales 
+amoldarían 
+la doctrina, 
+opiniones i costumbres 
+del clero por las que ellos 
+mismos habían aprendido en la escuela de Roma. De 
+suerte «que poco a poco ese clero, que ahora vemos, 
+en gran parte, no tal como debería ser, vendría a ser 
+docto 1 morijerado; 1 la guerra de principios que el 
+espíritu anti-católico, los indiferentistas 1 la corrup- 
+ción misma de costumbres, hoi hacen a la iglesia en 
+aquellos paises lejanos, vendrá a estrellarse contra 
+un clero dispuesto 
+a rechazar victoriosamente sus 
+ataques, manejando unas mismas armas, 1 adoptan- 
+do un mismo plan. 
+| 
+«Si aleún país en el mundo necesita estrechar más 
+1 más sus vínculos de unión con el centro de la un1- 
+dad católica, es sin duda alguna la América, por ser 
+la más distante por su situación ¡eográfica, 1 la más 
+expuesta a recibir las influencias de las malas pasio- 
+nes, por encontrarse con menos arbitrios para resis- 
+tirlas. 
+«Por lo mismo, si la Santa Sede ha protejido 1 fo- 
+mentado, en la capital del mundo cristiano, semina- 
+Tios eclesiásticos para diversos paises de Europa 1 de 
+Asia, la erección de uno para la América Española 
+1 Portuguesa no parecerá menos acreedor a su pla- 
+dosa consideración. 
+«SI este pensamiento que el exponente humilde- 
 mente somete a vuestra Santidad merece su aproba-
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-The transcription is complete and includes all visible text from the page.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 372
 
@@ -1381,65 +1671,101 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
 ```
 
+# Page 376
+
 ## Page Metadata
-Page number: 356
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 376
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0376.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a running header at the top and a footnote at the bottom. The main text flows continuously, followed by the footnote.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-lejio. El jeneral Urquiza, presidente de la República
-Arjentina, ofreció costear el viaje a Roma de los es-
-tudiantes arjentinos.
 
-A este buen resultado contribuyó en gran parte
-el celo con que los delegados apostólicos en América,
-obedeciendo a los instrucciones recibidas del Exmo.
-Cardenal Antonelli, Secretario de Estado del Papa,
-recomendaron a los obispos cooperar a la fundación
-del Seminario Latino Americano.
-
-Por fatales coincidencias los obispos de Santiago
-de Chile i Concepción no pudieron contribuir con
-sumas apreciables a esta fundación, obra de un chi-
-leno. El arzobispo de Santiago se hallaba en ese mis-
-mo año 1857 gravado con fuertes deudas contraídas
-para la construcción del seminario diocesano, i así,
-sólo como manifestación de buena voluntad, ofreció
-dos mil francos; pero no se comprometió a enviar
-desde luego estudiantes a Europa para ocupar las
-becas gratuitas que Eizaguirre ofrecía, porque care-
-cía de medios para sufragar los gastos del viaje, más
-pesados para los chilenos que para casi todos los
-americanos (1).
-
-El obispo de Concepción que acababa de organi-
-zar su seminario, no tenía aún alumnos preparados
-para el curso de filosofía, i se limitó a ofrecer mil
-quinientos francos.
-
-Pero otras diócesis más ricas que las de Chile
-pudieron contribuir con más larga mano, i no falta-
-ron personas piadosas que ofrecieron también su
-óbolo. Por esto Pío IX, después de imponerse de las
-respuestas de los obispos americanos, i de la relación
----
-(1) Valdivieso, Obras, tomo II, páj. 273.
+```markdown
+356 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+lejio. El jeneral Urquiza, presidente de la República 
+Arjentina, ofreció costear el viaje a Roma de los es- 
+tudiantes arjentinos. 
+: 
+A este buen resultado contribuyó en gran parte 
+el celo con que los delegados apostólicos en América, 
+obedeciendo a los instrucciones recibidas del Exmo. 
+Cardenal Antonelli, Secretario de Estado del Papa, 
+recomendaron a los obispos cooperar a la fundación 
+del Seminario Latino Americano. 
+€ 
+Por fatales coincidencias los obispos de Santiago 
+de Chile 1 Concepción no pudieron contribuir con 
+sumas apreciables a esta fundación, obra de un chi- 
+leno. El arzobispo de Santiago se hallaba en ese mis- 
+mo año 1857 gravado con fuertes deudas contraídas 
+para la construcción del seminario diocesano, 1 así, 
+sólo como manifestación de buena voluntad, ofreció 
+dos mil francos; pero no se comprometió a enviar 
+desde luego estudiantes 
+a Europa para ocupar las 
+becas gratuitas que Eizaguirre ofrecía, porque care- 
+cía de medios para sufragar los gastos del viaje, más 
+pesados para los chilenos que para casi todos los 
+americanos (1). 
+El obispo de Concepción que acababa de organi- 
+Zar su seminario, no tenía aún alumnos preparados 
+para el curso de filosofía, 1 se limitó a ofrecer mil 
+quinientos francos. 
+Pero otras 
+diócesis 
+más ricas que las de Chile 
+pudieron contribuir con más larga mano, 1 no falta- 
+ron personas 
+pladosas 
+que ofrecieron también su 
+óbolo. Por esto Pío IX, después de imponerse de las 
+respuestas de los obispos americanos, i de la relación 
+(1) Valdivieso, Obras, tomo 
+TI, páj. 273. 
+ob 
+silo
+Ed
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page, including the running header, main body text, and footnote, has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no images or other substantial visual content."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 357

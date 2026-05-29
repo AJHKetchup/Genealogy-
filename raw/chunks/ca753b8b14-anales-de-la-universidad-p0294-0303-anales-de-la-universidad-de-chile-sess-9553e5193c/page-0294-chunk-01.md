@@ -1,0 +1,118 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-5b7e4836141d-P0294-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303.codex.md
+converted_sha256: 5b7e4836141d2cf6eb88ff6f32034ce504420054bb04061b204b3ab3f2f415c4
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json
+page_start: 294
+page_end: 294
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json`
+- Source page: 294
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-images/page-0294.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-274 
+- 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+timental, en una palabra, más greco-judío, 1 por tan- 
+to, más 
+humano), 
+es un espíritu que, cuando real- 
+mente 
+lo impregna a uno, le arrebata las mejores 
+cualidades que dan el éxito 
+en los negocios. No se 
+puede ser un meditativo 1 un sanguljuela al mismo 
+tiempo. El hábito de la introspección, 
+del análisis, 
+el cultivo del ideal (moralidad, 
+abnegación, etc.), el 
+gusto de lo intelectual... atan las manos al hombre 
+de acción, roban la iniciativa al empresario, trasfor- 
+man al lobo en hombre. No pretendo negar la posibi- 
+lidad de un Carnegie, bajo cuya piel de lobo se ocul- 
+taba un hombre; tampoco, la necesidad de los lobos 
+en el Estado moderno; ni siquiera, la hermosura 1 
+encanto del tipo animal que realizan; tanto no lo pre- 
+tendo 
+que 
+concibo 
+perfectamente la seducción, la 
+atracción, que un estado de bella animalidad pro- 
+duce, 1 que, si yo no estuviera ya, como estoi, defi- 
+nitivamente avasallado por el ideal greco-judío 1 aún 
+latino (en lo tocante al derecho), 1.s1 me dieran 
+a 
+elejir nuevamente mi camino, creo que vacilaría al- 
+gunos minutos antes de volver a tomar 
+E 
+ba «la escondida 
+senda por donde han ido 
+los pocos sabios que en el mundo han sido». 
+Pero, no ha sido mi ánimo armarle a Ud. camo- 
+rra sobre este estremo, 
+ni en 
+ello tengo 
+empeño. 
+Quédese 
+Ud. 
+con 
+su 
+opinión 1 yo con la mía, 1 a 
+quien Dios le dé la razón San Pedro se la bendiga. 
+(Pájina 185): 
+Finalmente, asegura Ud. que la organización qúe 
+propone para el liceo evitaría la deserción 
+de las 
+ulas. No veo claramente qué sería lo que impediría 
+esta deserción. I temo que, subsistiendo en el liceo
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 295

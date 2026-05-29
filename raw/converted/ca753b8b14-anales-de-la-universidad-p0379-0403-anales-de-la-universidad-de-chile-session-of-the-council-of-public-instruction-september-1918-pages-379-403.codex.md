@@ -239,66 +239,96 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
 
+# Page 383
+
 ## Page Metadata
-Page number: 363
-Running header: CARLOS SILVA COTAPOS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json`
+- Source page: 383
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/page-images/page-0383.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The running header "CARLOS SILVA COTAPOS" is centered at the top, with the page number "363" aligned to the right. The main content is presented in four paragraphs, with the last paragraph appearing to be incomplete and continuing on a subsequent page.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-CARLOS SILVA COTAPOS 363
 
-Villafranca a ceder estos estados al rei de Cerdeña,
-cuyo sueño dorado era realizar bajo su cetro la uni-
-dad italiana.
-
-Con la complicidad del emperador, se apoderó ese
-mismo año Víctor Manuel de los ducados de Tosca-
-na, Parma i Módena, i de la porción más septentrio-
-nal de los Estados Pontificios denominada las Le-
-gaciones, sin que ningún soberano de Europa protes-
-tase de este despojo, estando vencida el Austria que
-con Francia eran los protectores de los pequeños es-
-tados italianos.
-
-A fines del mismo año se publicó un opúsculo in-
-titulado *Le Pape et le Congrès*, que causó inmensa
-sensación; porque se comprendió que, si no era es-
-crito por el emperador de los franceses, reflejaba a
-lo menos mui fielmente su pensamiento. Dicho opúscu-
-lo, calificado con razón por Pío IX de monumento
-insigne de hipocresía, i vil tejido de contradicciones,
-dejaba entrever que el emperador aceptaba el despojo
-del Papa i la reducción de sus estados a una porción
-mínima, la precisa para que pudiese llamarse sobe-
-rano, algo así como un presidente de San Marino. I
-todo esto se decía entre mil protestas de que el poder
-temporal era necesario i mil zalamerías al Pontífice.
-
-Desde este momento comprendieron los católicos
-que el emperador entregaba al Papa en manos de los
-revolucionarios italianos, i que, no contando éste con
-el auxilio de la Francia, era preciso que se defendiera
-por sí mismo. Con este fin se inició en Europa un
-gran movimiento de opinión; muchos católicos de
-todos los países corrieron a enrolarse en los *zuavos*
-pontificios i los ricos abrieron su bolsa para llenar
-el vacío que la pérdida de las Legaciones dejaba en
+```markdown
+CARLOS SILVA COTAPOS 
+3653 
+Villafranca a ceder estos estados al rei de Cerdeña, 
+cuyo sueño dorado era realizar bajo su cetro la un1- 
+dad italiana. 
+| 
+Con la complicidad del emperador, se apoderó ese 
+mismo año Víctor Manuel de los ducados de Tosca- 
+na, Parma 1 Módena, 1 de la porción más septentrio- 
+nal de los Estados Pontificios denominada las Le- 
+gaciones, sin que ningún soberano de Europa protes- 
+tase de este despojo, estando vencida el Austria que 
+con Francia eran los protectores de los pequeños es- 
+tados italianos. 
+| 
+A fines del mismo año se publicó un opúsculo in- 
+titulado Le Pape et le Congrés, que causó inmensa 
+sensación; porque se comprendió que, si no era es- 
+erito por el emperador de los franceses, reflejaba a 
+lo menos mul fielmente su pensamiento. Dicho opúscu- 
+lo, calificado con razón por Pío IX de monumento 
+asigne de hipocresia, 1 vil tejido de contradicciones, 
+dejaba entrever que el emperador aceptaba el despojo 
+del Papa 1 la reducción de sus estados a una porción 
+mínima. la precisa para que pudiese llamarse sobe- 
+rano, algo así como un presidente de San Marino. 1 
+todo esto se decía entre mil protestas de que el poder 
+temporal era necesario 1 mil zalamerías 
+al Pontífice. 
+Desde este momento comprendieron los católicos 
+que el emperador entregaba al Papa en manos de los 
+revolucionarios italianos, 1 que, no contando éste con 
+el auxilio de la Francia, era preciso que se defendiera 
+por sí mismo. Con este fin se inició en Enropa un 
+gran movimiento de opinión; muchos 
+católicos 
+de 
+todos los países corrieron a enrolarse en los 2408 
+pontificios 1 los ricos abrieron su bolsa para llenar 
+el vacío -que la pérdida de las Legaciones dejaba en
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last paragraph ends mid-sentence, indicating continuation on the next page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 364
@@ -631,62 +661,107 @@ All visible text on the page has been transcribed. The last paragraph appears to
 {"visual_regions": [], "no_visual_regions_reason": "This page contains no images or other substantial visual content."}
 ```
 
+# Page 389
+
 ## Page Metadata
-- Page number: 389
-- Source publication: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- Source page range: 379-403
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json`
+- Source page: 389
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/page-images/page-0389.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, with a running head at the top right and a section title at the top center. There are also two footnotes at the bottom of the page.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-CARLOS SILVA COTAPOS
-369
-a su patria, como lo efectuó en el mes de Abril de
-1863, siguiendo la ruta de Panamá.
-En su viaje hizo talvez escala en Guayaquil para
-verse con el delegado apostólico monseñor Francisco
-Tavani, que mucho deseaba tratar con él graves
-negocios eclesiásticos. El 10 de Mayo se hallaba en
-Cobija i pocos días después en Valparaíso.
-Apenas hubo llegado a Chile, pensó Eizaguirre ha-
-cer una nueva edición de su *Historia de Chile*, i como
-el arzobispo Valdivieso le había hablado en la carta
-reservada que mencionamos en el párrafo XIX de
-ciertos errores que en esa Historia se notaban, es-
-cribió al prelado rogándole se sirviese comunicarle
-sus observaciones para tenerlas presentes en la nue-
-va edición. El arzobispo le contestó que no había
-tenido tiempo de hacer un estudio prolijo de la His-
-toria de Chile, i así se limitaría a enumerarle unas
-cuantas apreciaciones sujeridas por la simple lectura
-de esa obra, i le comunicaría las críticas que le hi-
-ciera una persona docta a quien había pedido el ser-
-vicio de examinarla (1).
-La crítica del arzobispo es admirable por su buen
-juicio, su moderación, los atinadísimos consejos que
-da i los sanos principios en que la funda.
-Uno de los puntos notados por Valdivieso fué el
-aserto de que el P. Lainez, segundo jeneral de los
-Jesuitas, había introducido modificaciones sustan-
-ciales en las constituciones dadas por San Ignacio a
-la Compañía. Tal aserción, históricamente falsa, era
-tomada por Eizaguirre de la edición española de la
 
-(1) Valdivieso, Obras, tomo II, páj. 351.
+```markdown
+A 
+A A 
+ci AS 
+A 
+ES 
+di 
+ci. 
+O 
+A 
+CARLOS SILVA COTAPOS 
+369 
+a su patria, como lo efectuó en el mes de Abril de 
+1863, siguiendo la ruta de Panamá. 
+En su viaje hizo talvez escala en Guayaquil para 
+verse con el delegado apostólico monseñor Francisco 
+Tavani, que mucho deseaba tratar 
+con 
+él graves 
+negocios eclesiásticos. El 10 de Mayo se hallaba en 
+Cobija 1 pocos días después em Valparaíso. 
+Apenas hubo llegado a Chile. pensó Eizaguirre ha- 
+cer una nueva edición de su Historia de Chile, 1 como 
+el arzobispo Valdivieso le había hablado en la carta 
+reservada que mencionamos en el párrafo 
+XIX de 
+ciertos errores que en esa Historia se notaban, es- 
+cribió al prelado rogándole se sirviese comunicarle 
+sus observaciones para tenerlas presentes en la nue- 
+va edición. El arzobispo le contestó que no había 
+tenido tiempo de hacer un estudio prolijo de la His- 
+toria de Chile, 1 así se limitaría a enumerarle unas 
+cuantas apreciaciones sujeridas por la simple lectura 
+de esa obra, 1 le comunicaría las críticas que le h1- 
+ciera una persona docta a quien había pedido el ser- 
+vicio de examinarla (1). 
+E 
+La crítica del arzobispo es admirable por su buen 
+juicio, su moderación, los atinadísimos consejos que 
+da 1 los sanos principios en que la funda. 
+Uno de los puntos notados por Valdivieso fué el 
+aserto de que el P. Lainez, segundo jeneral de los 
+Jesuitas, 
+había 
+introducido 
+modificaciones 
+sustan- 
+ciales en las constituciones dadas por San Ignacio a 
+la Compañía. Tal aserción, históricamente falsa, era 
+tomada por Eizaguirre de la edición española de la 
+(1) Valdivieso, Obras, tomo 1I, páj. Sie 
 9.—ANALES.—SETIEMBRE-OCTUBRE.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text and formatting from the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 390
@@ -915,60 +990,104 @@ The transcription is complete for all visible text on the page. The last line of
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 
+# Page 394
+
 ## Page Metadata
-- Page number: 374
-- Source publication: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- Document part: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json`
+- Source page: 394
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/page-images/page-0394.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a page number and a running header at the top, followed by a single column of body text. The text flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-374 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-Rafael B. Gumucio, don Ramón Domínguez, don
-Pacífico Jiménez, don Máximo R. Lira, don Erasmo
-Rodríguez, don Servando Briseño, don Abdón Ci-
-fuentes, don Benito Fernández, don Enrique del So-
-lar, don Rafael Márquez de la Plata, don Francisco
-González Errázuriz, don Antonio Carmona, don
-Eduardo Fabres, i don Tomás R. Torres.
-Esto se había hecho a espaldas de Eizaguirre el
-cual, llevándolo mui a mal, renunció su cargo de di-
-rector; pero prometió entregar los libros i papeles de
-la sociedad al nuevo directorio dentro del plazo de
-cinco días. Vencido este plazo, los ex-directores i el
-presidente dijeron de nulidad de la elección, rehusa-
-ron instalar al nuevo directorio i entregarle los libros
-i papeles. Este protestó de que la minoría, con abier-
-ta infracción de los estatutos, se atribuyese faculta-
-des que no le pertenecían: avisó por la prensa lo que
-ocurría para evitar errores del público, i se consti-
-tuyó separadamente. Así hubo dos sociedades que
-llevaron el mismo nombre de Sociedad Católica de
-Educación. La presidida por el directorio lejítimo,
-por evitar confusiones perjudiciales, lo sustituyó poco
-después por el de Sociedad de Escuelas Católicas de
-Santo Tomás de Aquino, que hasta el día conserva.
-Este incidente, pequeño si se quiere, dañó mucho
-a Eizaguirre; pues lo hizo aparecer como divorciado
-de la juventud católica militante, e inclinado a la
-juventud liberal, cosa mui chocante en un prelado
-de su importancia, i que tanto había escrito contra
-los disidentes de Europa i contra los gobiernos libe-
-rales i radicales de América.
+```markdown
+MEMORIAS CIENTÍFICAS 
+1 LITERARIAS 
+9 = pS 
+Rafael 
+B. Gumucio, 
+don Ramón 
+- Domínguez. 
+don 
+Pacífico Jiménez, don Máximo R. Lira. don Erasmo 
+Rodríguez, don Servando Briseño, 
+don Abdón 
+C1- 
+fuentes, don Benito Fernández, don Enrique del So- 
+lar, don Rafael Márquez de la Plata, don Francisco 
+González 
+Errázuriz, 
+don 
+Antonio 
+Carmona, 
+don 
+Eduardo Fabres, 1 don Tomás R. Torres. 
+Esto se había hecho a espaldas de Hizaguirre el 
+cual, llevándolo mur a mal, renunció su cargo 
+de di- 
+rector; pero prometió entregar los libros 1 papeles de 
+la sociedad al nuevo directorio dentro del plazo de 
+cinco días. Vencido este plazo, los ex-directores 1. el 
+presidente dijeron de nulidad de la elección, rehusa- 
+ron instalar al nuevo directorio 1 entregarle los libros 
+1 papeles. Este protestó de que la minoría, con abier- 
+ta infracción de los estatutos, se atribuyese faculta- 
+des que no le pertenecían; avisó por la prensa lo que 
+ocurría para evitar errores del público, 1 se consti- 
+tuyó separadamente. 
+Así hubo dos sociedades que 
+llevaron el mismo nombre de Sociedad Católica de 
+Educación. 
+Lia presidida por el directorio lejítimo, 
+por evitar confusiones perjudiciales, lo sustituyó poco 
+después por el de Sociedad de Escuelas Católicas de 
+Santo Tomás de Aquino, que hasta el día conserva. 
+Este incidente, pequeño si se quiere, dañó mucho 
+a Hizaguirre; pues lo hizo aparecer como divorciado 
+de la juventud católica militante, e inclinado a la 
+juventud liberal, cosa mui chocante en un prelado 
+de su importancia, 1 que tanto había escrito contra 
+los disidentes de Europa 1 contra los gobiernos libe- 
+rales 1 radicales de América.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text and layout elements present on the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 395
 
@@ -1036,59 +1155,97 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 396
+
 ## Page Metadata
-Page number: 376
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json`
+- Source page: 396
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/page-images/page-0396.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number "376" is in the top left corner, and the running header "MEMORIAS CIENTÍFICAS I LITERARIAS" is in the top right. The main content is a continuous narrative, broken into several paragraphs. The last paragraph appears to be cut off at the bottom of the page.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-este desmentido no bastaba al arzobispo que se veía
-injuriado, i trató de averiguar el orijen del chisme
-para dejar bien en claro su falsedad. Una carta del
-obispo Orrego, escrita desde Serena al secretario del
-arzobispado don José Ramón Astorga, vino a reve-
-lárselo.
-Decía el obispo que don José Antonio Julio, vica-
-rio foráneo de Copiapó i el presbítero don Guillermo
-Juan Cárter, pasando por Serena de regreso de San-
-tiago, le habían referido como oida de labios de mon-
-señor Eizaguirre la especie referente al obispado *in
-partibus* de Arístegui, el cual, ofendido por la acti-
-tud del arzobispo, se manifestaba resuelto a rehusar
-la mitra que se le ofrecía; pero había cedido a las
-influencias del mismo Eizaguirre i de otros amigos
-suyos.
-Con estas noticias el arzobispo escribió a Eizagui-
-rre para pedirle que, en caso de ser cierto lo que se
-le atribuía, lo confesase francamente i, en caso de
-no serlo, lo desmintiese de un modo fidedigno.
-Eizaguirre negó todo, i escribió a don Guillermo
-Juan Cárter, que era el que aseguraba haber oído
-de boca de Eizaguirre el tal chisme, pidiéndole que
-refrescase sus recuerdos i rectificase la imputación
-que le hacía. Cárter, lejos de rectificarse, confirmó,
-añadiendo algunos detalles, lo sustancial del relato
-hecho al obispo Orrego, advirtiendo que ciertos in-
-cidentes no los recordaba ya bien; pero que serían
-verdaderos; pues el obispo aseguraba habérselos oído,
-cosa nada estraña tratándose de hechos ocurridos
-algunos meses antes que para Cárter tendrían mui
-poca importancia.
-Como Eizaguirre había manifestado deseo de dar
+
+```markdown
+376 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+este desmentido no bastaba al arzobispo que se veía 
+injuriado, i trató de averiguar el orijen del chisme 
+para dejar bien en claro su falsedad. Una carta del 
+obispo Orrego, escrita desde Serena al secretario del 
+arzobispado don José Ramón Astorga, vino a reve- 
+lárselo. 
+Decía el obispo que don José Antonio Julio, vica- 
+rio foráneo de Copiapó 1 el presbítero don Guillermo 
+Juan Cárter, pasando, por Serena de regreso de San- 
+tiago, le habían referido como oida de labios de mon- 
+señor Fizaguirre la especie referente al obispado ¿n 
+partabus de Arístegui, el cual, ofendido por la acti- 
+tud del arzobispo, se manifestaba resuelto a rehúsar 
+la mitra que se le ofrecía; pero habia cedido a las 
+influencias del mismo Kizaguirre 1 de otros amigos 
+suyos. 
+Con estas noticias el arzobispo escribió a Eizagul- 
+rre para pedirle que, en caso de ser cierto lo que se 
+le atribuía, lo confesase francamente 1, en caso de 
+no serlo, lo desmintiese de un modo fidedigno. 
+Eizaguirre negó todo, 1 escribió 
+a don Guillermo 
+Juan Cárter, que era el que aseguraba haber oído 
+de boca de Hizaguirre el tal chisme, pidiéndole que 
+refrescase sus recuerdos 1 rectificase la imputación 
+que le hacía. Cárter, lejos de rectificarse. confirmó, 
+añadiendo algunos detalles, lo sustancial del relato 
+hecho al obispo Orrego, advirtiendo que ciértos 1n- 
+cidentes no los recordaba ya bien; pero que serían 
+verdaderos; pues el obispo aseguraba habérselos oído, 
+cosa nada estraña tratándose de hechos 
+ocurridos 
+algunos meses antes que para Cárter tendrían mui 
+poca importancia. 
+Como Eizaguirre había manifestado deseo de dar 
+A 
+ds 
+Ap
++.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete for all visible text on the page. The last paragraph is cut off at the bottom of the page, indicating the content continues on the next page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content. It is composed entirely of text."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 397
 
@@ -1368,62 +1525,97 @@ All visible text on the page has been transcribed. The last paragraph is cut off
 {"visual_regions": [], "no_visual_regions_reason": "This page contains no images or other substantial visual content."}
 ```
 
+# Page 402
+
 ## Page Metadata
-- Page number: 382
-- Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/manifest.json`
+- Source page: 402
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0379-0403-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-379-403/page-images/page-0402.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a running header at the top and a footnote at the bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-volúmenes. Los cuatro primeros contienen ciento do-
-ce instrucciones doctrinales, sermones sobre misterios
-i panejíricos de santos. Un tomo contiene dieciocho
-pláticas de ejercicios espirituales para sacerdotes i el
-último otras dieciocho instrucciones para ejercicios
-de relijiosos. Los cuatro primeros volúmenes fueron
-dedicados a los alumnos del seminario americano,
-cuyas tareas apostólicas el autor declaraba querer
-facilitar con esas instrucciones sobre la doctrina cris-
-tiana, que los párrocos i misioneros están obligados
-a enseñar al pueblo.
 
-La impresion se hizo tan rápidamente que esa obra
-pudo salir a luz, con el título de *Instrucciones al Pue-
-blo Cristiano*, el año 1875.
-
-Desde Roma Eizaguirre mantuvo correspondencia
-con el presidente Errázuriz, al cual informaba de lo
-que podía interesarle, que en esos años no era poco,
-pues habían ocurrido evoluciones políticas que ale-
-jaron del poder al partido conservador i encendie-
-ron luchas doctrinarias bastante agrias, tales como
-la del Código Penal i la supresión del fuero eclesiás-
-tico. A Roma llegaban a veces las noticias de estas
-luchas en informes apasionados i aun inexactos. Eiza-
-guirre daba cuenta a Errázuriz de estos informes i
-el presidente le contestaba sincerándose, cuando po-
-día, i haciendo por su parte cargos a los católicos i
-aun a los obispos, para que Eizaguirre trasmitiese
-sus quejas al cardenal Antonelli, secretario de Es-
-tado (1). Excusado es decir que el presidente exponía
-algunos hechos de un modo mui tendencioso.
----
-(1) Cartas de 28 de Setiembre de 1874 i 15 de Mayo de 1875.
+```markdown
+382 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+volúmenes. Los cuatro primeros contienen ciento de 
+ce instrucciones doctrinales, sermones sobre misteric 
+1 panejíricos de santos. Un tomo contiene 
+diecioch 
+pláticas de ejercicios espirituales para sacerdotes 1 «
+ultimo otras dieciocho instrucciones para ejercicio 
+de relijiosos. Los cuatro primeros voltmenes fuero 
+dedicados 
+a los aluimnos 
+del seminario american 
+cuyas tareas 
+apostólicas 
+el autor declaraba quere 
+facilitar con esas instrucciones sobre la doctrina cris 
+tiana, que los párrocos 1 misioneros están obligadc 
+a enseñar al pueblo. 
+La impresion se hizo tan rápidamente que esa obr 
+pudo salir a luz, con el título de Instrucciones al Pue 
+blo Cristiano, el año 1875. 
+Desde Roma Kizagutrre mantuvo correspondenci 
+con el presidente Errázuriz, al cual informaba de 1
+que podía interesarle, que en esos años no era poc 
+pues habían ocurrido evoluciones políticas que ale 
+jaron del poder al partido conservador i encendie 
+ron luchas doctrinarias bastante agrias, tales com 
+la del Código Penal 1 la supresión del fuero eclesiás 
+tico. 
+A Roma llegaban a veces las noticias de esta 
+luchas en informes apasionados 1 aun inexactos. Eiza 
+guirre daba cuenta a Errázuriz de estos informes 
+el presidente le contestaba sincerándose, cuando pc 
+día, 1 haciendo por su parte cargos a los católicos 
+aún a los obispos, para que Kizaguirre trasmities 
+sus quejas al cardenal Antonelli, 
+secretario de 
+Es 
+tado (1). Excusado es decir que el presidente exponí 
+algunos hechos de un modo mul tendencioso. 
+(1) Cartas de 28 de Setiembre de 1874 1 15 de Mayo de 1875.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual regions."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 403

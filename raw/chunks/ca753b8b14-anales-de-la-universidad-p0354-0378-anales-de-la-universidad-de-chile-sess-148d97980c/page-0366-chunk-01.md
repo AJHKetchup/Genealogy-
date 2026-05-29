@@ -1,0 +1,112 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-534bc040aed0-P0366-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378.codex.md
+converted_sha256: 534bc040aed0b270740139b64af0276f1aaa516bcc0c331c6e44d86638549495
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json
+page_start: 366
+page_end: 366
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/manifest.json`
+- Source page: 366
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0354-0378-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-354-378/page-images/page-0366.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+346 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+«¿Qué hace ahora mismo el Catolicismo en todos 
+los paises? 
+| 
+«¿Qué suerte vemos correr a sus disidentes? 
+«En la presente obrita he consignado la respuesta 
+a estas tres cuestiones, cuva averiguación es de tanto 
+interés para nuestras jóvenes repúblicas... 
+«Al emprender mi larga travesía no me propuse 
+mas objeto que conocer por mí mismo las tendencias 
+del movimiento relijioso que se realiza en el viejo 
+continente: 1, al dir1jir mis observaciones a mis com- 
+patriotas de las repúblicas americanas, nada me pro- 
+pongo fuera de rectificar 
+la opinión equívoca que 
+alguno pudiera abrigar sobre aquellas tres grandes 
+cuestiones, cuya solución tanto importa a la ven- 
+tura social». 
+Esta obra fué mui favorablemente acojida en Hu- 
+ropa. L'Umwers 1 1l Grornale di Roma dieron cuenta 
+de su aparecimiento en elojiosos artículos; 1 perso- 
+najes eminentes 
+de ambos mundos 
+la encomiaron 
+también; i así la segunda edición española pudo ser 
+encabezada con cartas del conde de Montalembert 1 
+del R. P. Lacordaire. El canónigo chileno don Ramón 
+Valentín trarcía, 1 el ilustre ecuatoriano don Gabriel 
+García Moreno coincidieron 
+en estimar 
+El Catolas- 
+mo de Fizaguirre 
+como 
+un digno complemento 
+de 
+El Protestantismo del gran 
+Balmes, que tanta 
+boga 
+tenía entonces + ha conservado hasta ahora. 
+Hizaguirre debió tener concluída su obra a fines de 
+1854; pues el prólogo lo fechó 
+el 15 de Octubre de 
+ese año en la ciudad de Londres; i salió a luz en París, 
+en una cómoda i elegante edición, por la librería 
+de 
+Garnier, 
+a mediados de 1855. Dos años después, esta 
+misma casa imprimía la segunda edición.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 367

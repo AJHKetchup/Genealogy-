@@ -1,0 +1,105 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2f2c599622ef-P0137-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150.codex.md
+converted_sha256: 2f2c599622ef41e574b62763eb24451018dc8de25f996f9b164c1f0b4ca7f9a7
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/manifest.json
+page_start: 137
+page_end: 137
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/manifest.json`
+- Source page: 137
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/page-images/page-0137.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+r
+—14—
+4)
+Convention para limitar las horas de trabajo en los es-
+tablecimientos industriales.
+Panamericanismo.— He procurado con sincero entusiasmo
+que la Republica aporte un concurso apreeiable a la obra del pan¬
+américanisme y es asi como se ha hecho un detenido estudio de
+las Convenciones
+suscritas en las
+Conferencia©
+Internationales
+Americanas.
+De esas Convenciones han sido aprohadas por el Congres»
+National y ratificadas por mi las siguientes:
+1.— Convenciôn sobre funcionarios diplomâticos.
+2.— Convenciôn sobre deberes y derechos de los Estados en
+casos de luchas civiles.
+3.—Convenciôn sobre agentes consulares.
+4.— Convenciôn sobre Asilo.
+5.— Convenciôn sobre Aviation Comercial.
+6.— Convenciôn sobre Tratados.
+7.—Convenciôn sobre condition de los extranjeros.
+8.— Convenciôn sobre neutralidad maritima.
+Esas ocho convenciones habian sido firmadas por los Dele-
+gados de la Republica en la Sexta Conferencia International A-
+mericana, celebrada en La Habana en 1928; mas ha sido en este
+ano cuando, por virtud de la aprobaciôn y ratification de que se
+ha hecho mérito y por el depôsito de los actos de ratification,
+esas convenciones han venido a constituir realmente vinculos in¬
+ternacionales para la Republica.
+Cûmpleme, igualmente, senalar que después de haber obte-
+nido la aprobaciôn legislativa he ratificado en este ano los siguien¬
+tes importantes instrumentes internacionales1:
+1.— Convenciôn
+General
+de
+Conciliation
+Interamericana
+que habia sido firmado por los Delegados Dominicanos en la Con¬
+ferencia International celebrada al efecto en Washington en di-
+ciembre de 1928;
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 138

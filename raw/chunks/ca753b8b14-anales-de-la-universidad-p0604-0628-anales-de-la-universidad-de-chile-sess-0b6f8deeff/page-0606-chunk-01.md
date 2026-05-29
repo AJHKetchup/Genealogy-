@@ -1,0 +1,97 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-82295e6b6db5-P0606-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628.codex.md
+converted_sha256: 82295e6b6db51dcce2e848aa70f183978c14a73e623ba7b53eb6ae35d8c89611
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json
+page_start: 606
+page_end: 606
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 606
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0606.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+536 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+moseptentrional de nuestro territorio. Hay, naturalmen- 
+te, también razones de caráter administrativo y social en 
+la contrucción aludida. El fundamento económico de ella, 
+es, como igualmente lo hemos dejado ver, de menor im- 
+portancia, al menos por lo que hasta ahora se puede 
+constatar. 
+; 
+/ 
+Como de los 8,216 kilómetros de ferrocarril con que 
+contaba Chile a fines de 1915 el 63 por 100 (5,122 kilóme- 
+tros), es decir, poco menos de los dos tercios pertenecían 
+al Estado y comprendían las líneas principales del país (la 
+política ferrocarrilera pública se limita sólo a esas líneas), 
+resulta que Chile se cuenta hoy día en el grupo de países 
+que tienen sistema 
+de ferrocarriles del Estado, sobre 
+cuyas ventajas trataremos más adelante, al referirnos a 
+los proyectos de arrendamiento y pesar las ventajas y 
+desventajas de tal proceder. 
+B. LA LEGISLACIÓN 
+FERROVIARIA 
+1. La ley general de ferrocarriles 
+No sólo el desarrollo de las industrias, de la agricultu- 
+ra y del comercio, y con ello de toda la vida económica 
+nacional, sino también el desarrollo del poder político, 
+militar y espiritual de la nación, están en relación íntima 
+- 
+con el desarrollo de los ferrocarriles. Por eso es el Estado, - 
+como encarnación de la comunidad, el que ante todo, 
+aparece interesado en los ferrocarriles de su territorio. 
+El sistema de ferrocarriles del Estado es el más adecuado 
+para un país nuevo que vela celosamente por los intere-. 
+ses de la generalidad. Así parece haberlo comprendido 
+también el Gobierno de Chile, pues desde un principio se '
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

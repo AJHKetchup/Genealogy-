@@ -1,0 +1,129 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-86925b0841b0-P0420-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425.codex.md
+converted_sha256: 86925b0841b06e23e1c4659962c9227ba529bd24ec745fb76035624ddf60a4fa
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425/manifest.json
+page_start: 420
+page_end: 420
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425/manifest.json`
+- Source page: 420
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425/page-images/page-0420.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+II.
+— Dispositions tactiques.
+1) Division du
+pays
+en zones dangereuses.
+D'une manière générale, en raison de l'incertitude où
+l'on
+se trouve quant à l'étendue des zones du territoire
+où les populations pourraient être soumises aux attaques,
+il n'y a pas lieu d'établir à priori, la division d'un pays en
+zones dangereuses, tous les points pouvant être également
+vulnérables.
+Pour l'Europe
+en particulier, cette distinction serait
+absolument vaine.
+2) Organisation d'un système d'alerte
+et
+de signalement.
+Tout pays étant dans la nécessité d'organiser un sys¬
+tème d'alerte, la Commission estime superflu de prévoir
+l'organisation, par la Croix-Eouge, d'un système particu¬
+lier d'alerte.
+3) Organisation
+des
+transports
+(matériel
+et
+personnel)
+en
+vue
+de l'évacuation d'une partie de la population
+au
+mom-ent
+de l'alerte.
+La Commission, après avoir examiné avec le plus grand
+soin l'importante question de l'organisation des trans¬
+ports
+en
+vue de l'évacuation de certaines parties de la
+population, est arrivée à conclure, qu'actuellement cette
+résolution dépasse la compétence des Croix-Eouges, et
+est du ressort des gouvernements. Elle se borne à recom¬
+mander
+que la
+Croix-Eouge
+se
+mette,
+avec
+tous
+ses
+moyens, à la disposition des gouvernements qui prépare¬
+raient l'évacuation.
+4) Formation
+des
+équipes
+de
+secours
+aux victimes.
+Les équipes de secours devront être constituées, prin¬
+cipalement, à l'aide
+du personnel des Sociétés de secours
+volontaires, possédant les aptitudes physiques, et ayant
+reçu une instruction spéciale.
+_
+21
+—
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 421

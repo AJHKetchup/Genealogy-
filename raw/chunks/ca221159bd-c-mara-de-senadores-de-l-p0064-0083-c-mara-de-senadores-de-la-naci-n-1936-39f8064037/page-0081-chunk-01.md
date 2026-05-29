@@ -1,0 +1,138 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-646781b9b3c1-P0081-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83.codex.md
+converted_sha256: 646781b9b3c178596e273f5d8faf5345f76139bddd3c09892d140a444cde7b44
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json
+page_start: 81
+page_end: 81
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json`
+- Source page: 81
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/page-images/page-0081.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+— 78
+el anuncio,
+con excepciôn de las secciones
+de lînea
+dotadas
+del sistema block.
+Los despachos
+se harân por orden escrita de los jefes de
+estacion expresando el numéro del tren, la hora de su salida
+y la estacion a que se dé aviso.
+Despacho de trenes. Deberes de los
+jefes de estacion y conductores.
+Art.
+48. — Al despachar
+un tren después de otro,
+el jefe
+de la estacion de partida deberâ entregar al maquinista poi
+intermedio del jefe del tren un boleto
+de precaueiôn
+en el
+que
+se avisarâ que un tren corre adelante.
+El segundo tren no podrâ aproximarse al primero a menoi
+distancia de mil metros, y si por las eondiciones excepcionales
+de la via
+no
+se pudiera distinguir el tren
+que va adelante,
+deberâ marchar con velocidad reducida,
+a fin de poder parar
+en el momento que fuese necesario.
+Si el tiempo no fuese claro, el jefe de la estacion no darâ
+salida al tren antes de haber recibido aviso telegrâfico de la
+llegada del primero
+a la estacion siguiente.
+Si el primer
+tren marchara
+muy despacio,
+el
+maquinista
+del segundo se acercarâ con mucha precaueiôn para prestarle
+auxilio
+en
+caso necesario.
+Tiempo que debe mediar en el des¬
+pacho
+de
+trenes
+en
+la
+misma
+di-
+recciôn.
+Art. 49. — No podrâ despacharse de una estacion trenes en
+la misma direcciôn y por la misma via sino
+con un intervalo
+de diez minutos.
+Dicho intervalo podrâ reducirse en los casos
+siguientes :
+P
+Cuando el segundo tren tenga velocidad menor
+que el
+primero.
+29
+Cuando
+a
+poca distancia
+de
+la estacion
+de
+salida
+los
+tsenes sigan por rumbos distintos.
+39
+Cuando la via esté protegida por el sistema block.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 82

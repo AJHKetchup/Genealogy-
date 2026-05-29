@@ -1,0 +1,107 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-c828798511d6-P0283-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283.codex.md
+converted_sha256: c828798511d6e9d1d1775097f721d7470866217e952be2eda1ba6d7d9da04f7e
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json
+page_start: 283
+page_end: 283
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 283
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0283.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+RODOLFO LENZ 
+263 
+gua (1). Mas de un profesor universitario que se de- 
+dica en Alemania a las ciencias médicas, a la física- 
+a la química o a la filolojía moderna 
+ha declarado 
+que prefiere jeneralmente como alumnos 
+a los que 
+proceden de los jimnasios, 1 no a los «realistas» aun- 
+que éstos traen mayor cantidad de conocimientos 
+efectivos para esas ramas. El hecho es que los cono- 
+cimientos de ciertas materias científicas secundarias 
+pueden adquirirse en corto tiempo, en tanto que la 
+madurez del criterio no puede alcanzarse por el mero 
+estudio de detalles técnicos. 
+He gastado los mejores años de mi viúa trabajan- 
+do, a la medida de mis fuerzas, en la mejora de la 
+enseñanza superior i secundaria de Chile; tengo sin- 
+cero interes por el porvenir del pais donde han na- 
+cido mis hijos 1 mis nietos: pues bien, esa esperiencia 
+¡ ese interes me dicen a una que el progreso del por- 
+venir 
+no se conseguirá aumentando la enseñanza es- 
+pecial en detrimento de la cultura jeneral, sino por 
+el incremento de ésta, tanto entre las clases trabaja- 
+doras (instruccion primaria obligatoria de seis años, 
+con buenas 
+escuelas 
+vocacionales sobre 
+esa 
+base), 
+como entre las clases dirijentes (cinco años de hu- 
+manidades 
+obligatorios para la enseñanza especial 
+superior, 1 ocho años delrliceo como preparacion para 
+los estudios universitarios). 
+7 
+No pretendo que se vuelva a la enseñanza clásica, 
+aunque ereo, sí, que el estudio del latin es indispen- 
+sable, si ha de. elevarse un dia'el castellano al rango 
+(1) Sin embargo, también en las escuelas reales superiores se leen 
+autores antiguos, como Homero, 
+Sófocles i otros, 
+en 
+traducciones 
+alemanas, lo mismo que Shakespeare en los jimnasios.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

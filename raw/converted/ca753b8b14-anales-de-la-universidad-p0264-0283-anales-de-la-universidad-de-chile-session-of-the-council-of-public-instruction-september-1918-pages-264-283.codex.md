@@ -94,61 +94,92 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 265
+
 ## Page Metadata
-Page number: 245
-Running header: RODOLFO LENZ
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 265
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0265.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The running header "RODOLFO LENZ" is centered at the top, with the page number "245" aligned to the right. The main content is a continuous block of text, divided into paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-RODOLFO LENZ 245
 
-obras completas, va demasiado léjos, si se limita en
-el exámen final de las humanidades tan solo al cono-
-cimiento de un literato i de un filósofo. Yo creo que
-la cultura jeneral, ademas de ese conocimiento real-
-mente valioso, que apruebo como él que mas, exije
-nociones al ménos someras de la evolucion total de
-la literatura. ¿Qué diria Ud. de un profesor de histo-
-ria que se contentara con que sus alumnos estudia-
-ran detalladamente la biografía de un jeneral i de un
-estadista, sin conocer el desarrollo jeneral de la his-
-toria universal? O de un jeógrafo a quien le bastara
-el conocimiento de un departamento, por mas que
-sea adquirido por inspeccion personal de los alumnos
-en escursiones escolares, renunciando a la jeografía
-de toda la patria i de los demas paises i continentes?
-Es mui recomendable un estudio minucioso de algu-
-nos puntos de cualquier ciencia, hecho con investi-
-gacion propia; pero no puede reemplazar, sino sólo
-completar, las nociones jenerales.
-Tanto en castellano, como en los idiomas estran-
-jeros, la crestomatía suministra los ejemplos para el
-tratamiento jeneral de la literatura; pero comparto
-completamente su opinion de que la lectura de algu-
-nas obras completas, hecha en clase o en casa, tiene
-un valor educativo mucho mayor que el tratamiento
-jeneral. Son mui dignos de imitacion sus procedi-
-mientos (páj. 181) para estimular la lectura domés-
-tica. Los Programas (p. ej. Frances, páj. 18) men-
-cionan esta lectura doméstica; pero talvez no dicen
-con bastante claridad que ella en efecto debe consi-
-derarse como obligatoria.
-No olvidemos que el alumno chileno en su lengua
-patria tiene sólo acceso a la cultura española; en
+```markdown
+RODOLFO LENZ 
+245 
+obras completas, va demasiado léjos, si se limita en 
+el exámen final de las humanidades tan solo al cono- 
+cimiento de un literato 1 de un filósofo. Yo creo que 
+la cultura jeneral, ademas de ese conocimiento real. 
+mente valioso, que apruebo como él que mas, exije 
+nociones al ménos someras de la evolucion total de 
+la literatura. ¿Qué diria Ud. de un profesor de histo- 
+ria que se contentara con que:sus alumnos estudia- 
+ran detalladamente la biografía de un jeneral 1 de un 
+estadista, sin conocer el desarrollo jeneral de la his- 
+toria universal? O de un jeógrato a quien le bastara 
+el conocimiento de un departamento, por mas que 
+sea adquirido por inspeccion personal de los alumnos 
+en escursiones escolares, renunciando a la jeografía 
+de toda la patria 1 de los demas paises 1 continentes? 
+Es mul recomendable un estudio minucioso de algu- 
+nos puntos de cualquier ciencia, hecho con investi- 
+gacion propia; pero no puede reemplazar, sino sólo 
+completar, las nociones jenerales. 
+Tanto en castellano, como en los idiomas estran- 
+jeros, la crestomatía suministra los ejemplos para el 
+tratamiento jeneral de la literatura; pero comparto 
+completamente su' opinion de que la lectura de algu- 
+nas obras completas, hecha en clase o en casa, tiene 
+un valor educativo mucho mayor que el tratamiento 
+jeneral. Son mui dignos de imitacion sus procedi- 
+mientos (páj. 181) para estimular la lectura domés- 
+tica. Los Programas (p. ej. Frances, páj. 18) men- 
+cionan esta lectura doméstica; pero talvez no dicen 
+con bastante claridad que ella en efecto debe consi- 
+derarse como obligatoria. 
+No olvidemos que el alumno chileno en su lengua 
+patria tiene sólo acceso 
+a la cultura española; en
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 266
 
@@ -416,118 +447,184 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 269
+
 ## Page Metadata
-- Page number: 269
-- Source publication: Anales de la Universidad de Chile
-- Session: Session of the Council of Public Instruction, September 1918
-- Author: Rodolfo Lenz
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 269
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0269.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. At the top, there is a running header with the author's name on the left and the page number on the right. The main content is a continuous block of text, divided into two paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-RODOLFO LENZ 249
 
-español es típicamente nacional. El valor cultural
-que tiene para la humanidad no puede compararse
-con el teatro de Shakespeare, quien a la vez es na-
-cional ingles i mundial. De ahí que los alemanes lo
-aprecien tanto como si fuera uno de los suyos. Re-
-cuerdo que en el jimnasio leimos «Julio César» i «Co-
-riolano»—la seleccion de los dramas romanos es ca-
-racterística para el jimnasio—traducidos al aleman
-con el mismo detenimiento con que estudiábamos
-los dramas de Schiller i Goethe. De la literatura es-
-pañola no mereció semejante honor ningun drama,
-pero sí el Cancionero del Cid, en la traduccion de
-Herder.
-
-Las trajedias de Corneille i Racine forman un es-
-traño contraste con el teatro español, por carecer en
-absoluto de carácter nacional frances. Sus héroes son
-hombres abstractos que no pertenecen a ningun pais
-ni a ninguna época; pues no tienen tampoco nada
-de griegos ni romanos, con escepcion de sus nombres.
-Para su lectura en un liceo chileno éste no es ningun
-defecto, sino mas bien una ventaja. Schiller i Goethe,
-en cambio, son en su produccion dramática tan na-
-cionales i mundiales a la vez como Shakespeare: res-
-piran en ciertas obras el mas puro clasicismo griego
-i aventajan a todos los autores mencionados porque,
-como los mas modernos que son de todos los clásicos,
-están ademas llenas sus obras de ideas modernas. Es
-ésta una enorme ventaja de que goza Alemania, en
-comparacion con Francia, Inglaterra i España: nin-
-guna literatura clásica tiene tanto valor educativo,
-pedagójico, como la alemana. Su elevacion moral i
+```markdown
+RODOLFO 
+LENZ 
+249 
+español es típicamente nacional. El valor cultural 
+que tiene para la humanidad no puede compararse 
+con el teatro de Shakespeare, quien a la vez es na- 
+cional ingles 1 mundial. De ahí que los alemanes lo 
+aprecien tanto como si fuera uno de los suyos. Ke- 
+cuerdo que en el jimnasio leimos «Julio César» i «Co- 
+riolano»—la seleccion de los dramas romanos 
+es Ca- 
+racterística para el jimnasio—traducidos al aleman 
+con el mismo detenimiento con que estudiábamos 
+los dramas de Schiller 1 Goethe. De la literatura es- 
+pañola no mereció semejante honor ningun drama, 
+pero sí el Cancionero del Cid, en la traduccion de 
+Herder. 
+“Las trajedias de Corneille 1 Racine forman un es- 
+traño contraste con el teatro español, por carecer en 
+absoluto de carácter nacional frances. Sus héroes son 
+hombres abstractos que no pertenecen a ningun pais 
+ni a ninguna época; pues no tienen tampoco nada 
+de griegos ni romanos, con escepcion de sus nombres. 
+Para su lectura en un liceo chileno éste no es ningun 
+defecto, sino mas bien una ventaja. Schiller i Goethe, 
+en cambio, son en su produccion dramática tan na- 
+cionales 1 mundiales a la vez como Shakespeare: res- 
+piran en ciertas obras el mas puro clasicismo griego 
+1 aventajan a todos los autores mencionados porque, 
+como los mas modernos que son de todos los clásicos, 
+están ademas llenas sus obras de ideas modernas. Es 
+ésta una enorme ventaja de que goza Alemania, en 
+comparacion con Francia, Inglaterra 1 España: nin- 
+guna literatura clásica tiene tanto valor educativo, 
+pedagójico, como la alemana. Su elevacion moral 1 
 filosófica está a la misma altura que su hermosura
-
-## Images, Captions, And Visual Notes
-The page contains no images, captions, or other substantial visual elements.
-
-## Uncertain Or Illegible
-None. All text is clearly legible.
-
-## Completeness Audit
-The transcription is complete and includes all visible text from the page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
-## Page Metadata
-- Page number: 250
-- Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
-
-## Layout And Reading Order
-The page consists of a single column of text. The running header and page number are at the top. The main content flows continuously from top to bottom.
-
-## Literal Transcription
-estética, cosa que no se podria afirmar del teatro clá-
-sico español.
-Para la lectura cultural en el colejio hai que colo-
-car en primer término el valor moral de las obras,
-en segundo su riqueza en ideas, i sólo en tercer lu-
-gar la hermosura poética. Si a estas cualidades se
-agrega el elemento patriótico, tendremos la lectura
-ideal para los educandos.
-Estoi seguro de que las ideas que acabo de espre-
-sar acerca de la lectura cultural, aunque no se hallen
-todas ellas enunciadas en su libro, cuentan con su
-plena aprobacion. Paso ahora a decir algunas pala-
-bras referentes a los procedimientos metodolójicos
-que conviene aplicar en las clases de lectura de los
-años superiores. Ud. no entra en muchos detalles al
-respecto i habla casi solamente de lectura i traduc-
-cion. No menciona, si no estoi equivocado, trabajos
-escritos para este período.
-En cuanto al método que conviene emplear en los
-años superiores, todo depende naturalmente del fin
-que se persigue. Una vez conseguido el resultado,
-un tanto superficial todavía, pero realmente útil, de
-habilitar a los alumnos para entender, hablar, leer
-o ménos correctamente en el estilo
-sencillo de la conversacion, conviene concentrar du-
-rante los últimos años toda la atencion en robustecer
-la facultad de comprension por medio de la lectura
-de obras literarias. Lo principal para este efecto, es
-el enriquecimiento del vocabulario; en segundo lu-
-gar, sobre todo en ingles i mas aun en aleman, acos-
-tumbrar al alumno a interpretar frases largas en es-
-tilo literario, con su sintáxis tan distinta de la caste-
-
 ## Images, Captions, And Visual Notes
-There are no images, captions, or significant visual notes on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last word "caste-" is hyphenated at the end of the page, indicating it continues on the next page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 270
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 270
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0270.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+250 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+estética, cosa que no se podria afirmar del teatro clá- 
+sico español. 
+Para la lectura cultural en el colejio hai que colo- 
+car en primer término el valor moral de las obras, 
+en segundo su riqueza en ideas, 1 sólo en tercer lu- 
+gar 
+la hermosura poética. Si a estas cualidades se 
+agrega el elemento patriótico, tendremos la lectura 
+ideal para los educandos. 
+o 
+Estoi seguro de que las ideas que acabo de espre- 
+sar acerca de la lectura cultural, aunque no se hallen 
+todas ellas enunciadas 
+en su libro, cuentan con su 
+plena aprobacion. Paso ahora a decir algunas pala- 
+bras referentes 
+a los procedimientos metodolójicos 
+que conviene aplicar en las clases de lectura de los 
+años superiores. Ud. no entra en muchos detalles al 
+respecto 1 habla casi solamente de lectura 1 tradue- 
+cion. No menciona, si no estoi equivocado, trabajos 
+escritos para este período. 
+En cuanto al método que conviene emplear en los 
+años superiores, todo depende naturalmente del fin 
+que se persigue. Una vez conseguido el resultado, 
+un tanto superficial todavía, pero realmente útil, de 
+habilitar 
+a los alumnos para entender, hablar, leer 
+1 escribir mas 
+o ménos correctamente 
+en el estilo 
+sencillo de la conversacion, conviene concentrar du- 
+rante los últimos años toda la atencion en robustecer 
+la facultad de comprension por medio de la lectura 
+de obras literarias. Lo principal para este efecto, es 
+el enriquecimiento del vocabulario: en segundo lu- 
+gar, sobre todo en ingles i mas aun en aleman, acos- 
+tumbrar al alumno a interpretar frases largas en es- 
+tilo literario, con su sintáxis tan distinta de la caste-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 271
 
@@ -616,62 +713,95 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 272
+
 ## Page Metadata
-Page number: 252
-Running head: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 272
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0272.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The running head "MEMORIAS CIENTÍFICAS I LITERARIAS" is at the top right, and the page number "252" is at the top left. The main content is a continuous block of text, followed by a new paragraph indented.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-nico a otro neolatino cuesta a menudo trabajo en-
-contrar el jiro correspondiente mas adecuado: este
-ejercicio es instructivo, pero favorece casi esclusiva-
-mente al manejo del idioma patrio. Basta con con-
-trolar que el alumno entienda la lectura i se la
-asimile.
-    Si resulta la seguridad, despues de la simple lec-
-tura de un párrafo, de que los alumnos lo han com-
-prendido, sin dar la traduccion completa, hai que
-prescindir de ésta, porque así se acostumbra el estu-
-diante a pensar en la lengua estranjera. Para este
-efecto bastan a menudo unas pocas preguntas refe-
-rentes al argumento, que dan la oportunidad a un
-ejercicio de conversacion en el que figuran necesa-
-riamente, pero en forma alterada, los mismos elemen-
-tos lingüísticos contenidos en el orijinal. Esto con-
-tribuye a fijarlos en la memoria i a darles vida. El
-sistema del análisis material, despues de una sola
-lectura en voz alta (que en caso de necesidad, natu-
-ralmente, tambien puede repetirse), es sumamente
-elástico. Permite, si no hai muchas dificultades, avan-
-zar rápidamente, e insistir en los puntos mas com-
-plicados respecto a la forma o al fondo de los pensa-
-mientos, ofreciendo ademas la ventaja de mantener
-en tension a toda la clase. Es un método «activo» que
-ayuda al estudiante a hacer la digestion intelectual
-de las ideas. No obsta ello para que el profesor exija
-despues la traduccion de una que otra frase que en-
-trañara cierto interes lexicolójico o gramatical.
 
-    El tercer procedimiento consiste en hacer prepa-
-rar la lectura en casa, o destinar en la clase algunos
+```markdown
+252 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+nico a otro neolatino cuesta a menudo trabajo en- 
+contrar el jiro correspondiente mas adecuado; este 
+ejercicio es instructivo, pero favorece casi esclusiva- 
+mente al manejo del idioma patrio. Basta con con- 
+trolar que el alumno 
+entienda la lectura ise 
+la 
+asimile. 
+Si resulta la seguridad, despues de la simple lec- 
+tura de un párrafo, de que los alumnos lo han com- 
+prendido, sin dar la traduccion completa, hai que 
+prescindir de ésta, porque así se acostumbra el estu- 
+diante a pensar en la lengua estranjera. Para este 
+efecto bastan a menudo unas pocas preguntas refe- 
+rentes al argumento, que dan la oportunidad a un 
+ejercicio de conversacion en el que figuran necesa- 
+riamente, pero en forma alterada, los mismos elemen- 
+tos lingisísticos contenidos en el orijinal. Esto con- 
+tribuye a fijarlos en la memoria i a darles vida. El 
+sistema del análisis material, despues de una sola 
+lectura en voz alta (que en caso de necesidad, natu- 
+ralmente, tambien puede repetirse), 
+es sumamente 
+elástico. Permite, si no hal muchas dificultades. avan- 
+zar rápidamente, e insistir en los puntos mas com- 
+plicados respecto a la forma o al fondo de los pensa- 
+mientos, ofreciendo ademas 
+la ventaja de mantener 
+en tension a toda la clase. Es un método «activo» que 
+ayuda al estudiante a hacer la digestion intelectual 
+de las ideas. No obsta ello para que el profesor exija 
+despues la traduccion de una que otra frase que en- 
+trañara cierto interes lexicolójico o gramatical. 
+El tercer procedimiento consiste en hacer prepa- 
+rar la lectura en casa, o destinar en la clase algunos 
+- 
 momentos a la lectura mental del párrafo, pasando
-.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 253
@@ -820,116 +950,176 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 275
+
 ## Page Metadata
-Page number: 255
-Author: RODOLFO LENZ
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 275
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0275.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a running head with the author's name on the left and the page number on the right. The main content consists of two paragraphs of text, presented in a single column.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-RODOLFO LENZ 255
-
-dificultades estraordinarias. Importa mucho que el
-alumno no sólo se fije en las palabras, sino que se dé
-cuenta del fondo i posea nociones sólidas respecto a
-la vida particular i a la cultura de la nacion respec-
-tiva; pero no renunciaria, por mi parte, nunca com-
-pletamente a la prueba final escrita. No es necesario,
-ni deseable, que consista en la traduccion de una
-serie de frases sueltas con dificultades gramaticales
-mas o ménos acumuladas, como ha sido el caso hasta
-hoi con frecuencia. Bastará una pequeña composi-
-cion cuyas ideas se pueden suministrar en castellano
-o en la lengua estranjera, un corto resúmen de un
-trozo leido, en fin cualquier trabajito que muestre
-que el candidato es capaz de espresar ideas sencillas
-en la lengua estranjera, de una manera intelijible,
-aunque no sea completamente correcta. Cuando mé-
-nos, debe exijirse un dictado de un trocito no estu-
-diado anticipadamente.
-
-Termino aquí esta esposicion referente al método
-de la enseñanza, que me ha salido tres veces mas
-larga de lo que habia calculado. No he creido nunca
-que haya un solo sistema de hacer buena enseñanza
-segun recetas universales. Ojalá que otros profesores
-sigan el ejemplo de Ud. i den cuenta de sus esperien-
-cias profesionales a sus colegas. De la discusion sal-
-drá la luz, el progreso, que es lo único a lo que aspi-
-ramos. Creo haber probado que en todo lo esencial
-nuestros Programas oficiales están en buen camino
-i que sólo conviene insistir mas en hacer trabajar a
-los alumnos, no sólo en las pequeñas tareas contro-
+```markdown
+RODOLFO 
+LENZ 
+255 
+dificultades estraordinarias. Importa mucho que el 
+alumno 
+no sólo se fije en las palabras, sino que se dé 
+cuenta del fondo 1 posea nociones sólidas respecto a 
+la vida particular 1 a la cultura de la nacion respec- 
+tiva; pero no renunciaria, por mi parte, nunca com- 
+pletamente a la prueba final escrita. No es necesario, 
+ni deseable, que consista en la traduccion de una 
+serie de frases sueltas con dificultades gramaticales 
+mas o ménos acumuladas, como ha sido el caso hasta 
+hoi con frecuencia. Bastará una pequeña composi- 
+- clon cuyas ideas se pueden suministrar en castellano 
+o en la lengua estranjera, un corto resúmen de un 
+trozo leido, en fin cualquier trabajito que muestre 
+que el candidato es capaz de espresar ideas sencillas 
+en la lengua estranjera, de una manera intelijible, 
+aunque no sea completamente correcta. Cuando mé- 
+nos, debe exijirse un dictado de un trocito no estu- 
+diado anticipadamente. 
+Termino aquí esta esposicion referente al método 
+de la enseñanza, que me ha salido tres veces mas 
+larga de lo que habia calculado. No he creido nunca 
+que haya un solo sistema de hacer buena enseñanza 
+segun recetas universales. Ojalá que otros profesores 
+sigan el ejemplo de Ud. i den cuenta de sus esperien- 
+clas profesionales a sus colegas. De la discusion sal- 
+drá la luz, el progreso, que es lo único a lo que aspi- 
+ramos. Creo haber probado que en todo lo esencial 
+nuestros Programas oficiales están en buen camino 
+1 que sólo conviene insistir mas en hacer trabajar a 
+los alumnos, no sólo en las pequeñas tareas contro- 
 ladas por el profesor en cada clase, sino en estimular
+```
 
 ## Images, Captions, And Visual Notes
-No images or captions are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 276
 
 ## Page Metadata
-Page number: 256
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 276
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0276.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a running header and page number at the top, followed by a single column of text. There is a decorative separator (`***`) between the first and second main paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-la iniciativa personal en la lectura doméstica de tro-
-zos escojidos i de obras enteras.
-
-***
-
-6) En cuanto a las cuestiones jenerales de educa-
-cion, que Ud. desearia ver orientadas en el sentido
-de la _especializacion universal_ unida siempre con un
-oficio productivo, en vez de la _educacion uniforme,
-integral_ («el ciudadano amorfo», véase pajs. 108 i si-
-guiente), creo que su modo de pensar parte de un
-error fundamental, confundiendo dos cosas que de-
-ben mantenerse cuidadosamente separadas: la edu-
-cacion e instruccion jenerales, i la preparacion espe-
-cial, técnica o profesional, con fines utilitarios.
-    Por mas que digan los demócratas idealistas i los
-socialistas estremos, la division de clases sociales es
-una consecuencia imprescindible del desarrollo mul-
-tiforme tan característico de la cultura moderna. La
-«igualdad» de todos los individuos respecto al trabajo,
-bienes de fortuna i la cultura intelectual apénas si
-puede existir en una tribu de negros o de indios sal-
-vajes. La sociedad de todas las naciones cultas com-
-prende por lo ménos dos grupos principales: el de los
-obreros manuales, que se dedican a trabajos esencial-
-mente físicos, i el de los obreros intelectuales que diri-
-jen a la sociedad. Entre los dos hai un grupo medio,
-que recibe la misma educacion—aunque un poco mé-
-nos estensa—que el superior i corresponde a los
-empleados superiores del trabajo manual (jefes de
-talleres, por ejemplo) i las tareas mecánicas del tra-
-bajo intelectual (empleados subalternos de oficinas i
+```markdown
+256 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+la iniciativa personal en la lectura doméstica de tro- 
+zos escojidos 1 de obras enteras. 
+HRR 
+6) En cuanto a las cuestiones jenerales de educa- 
+cion, que Ud. desearia ver orientadas en el sentido 
+de la especializacion umiversal unida siempre con un 
+oficio productivo, en vez de la educacion umforme, 
+integral («el ciudadano amorfo», véase pajs. 108 1 si- 
+guiente), creo que su modo de pensar parte de un 
+error fundamental, confundiendo dos cosas que de- 
+ben mantenerse cuidadosamente separadas: la edu- 
+cacion e instruccion jenerales, 1 la preparacion espe- 
+cial, técnica o profesional, con fines, utilitarios. 
+Por mas que digan los demócratas idealistas 1 los 
+socialistas estremos, la division de clases sociales es 
+una consecuencia imprescindible del desarrollo mul- 
+tiforme tan característico de la cultura moderna. La 
+«igualdad» de todos los individuos respecto al trabajo, 
+bienes de fortuna 1 la cultura intelectual apénas si 
+puede existir en una tribu de negros o de indios sal. 
+vajes. La sociedad de todas las naciones cultas com- 
+prende por lo ménos dos grupos principales: el de los 
+obreros manuales, que se dedican a trabajos esencial- 
+mente físicos, 1 el de los obreros intelectuales que diri- 
+jen a la sociedad. Entre los dos hai un grupo medio, 
+que recibe la misma educacion—aunque un poco mé- 
+nos estensa 
+— que el superior i corresponde a los 
+empleados superiores del trabajo manual (jefes de 
+talleres, por ejemplo) 1 las tareas, mecánicas del tra- 
+bajo intelectual (empleados subalternos de oficinas 1 
 negocios). Conforme a esta division de la sociedad,
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. The `***` is a decorative text separator.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 277
 
@@ -1380,124 +1570,189 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 282
+
 ## Page Metadata
-- Page number: 262
-- Source publication year: 1918
-- Source publication title: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 282
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0282.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number and running header are at the top.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-262 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-secundaria, debe perseguir rumbos idealistas. cul-
-turales, es decir, tratar de formar hombres de carác-
-ter, con criterio jeneral bien desarrollado, ya sea para
-la esfera inferior del trabajo esencialmente físico, ya
-sea para la superior del órden intelectual. La prepa-
-racion especial técnica o profesional sólo debe darse
-cuando el jóven ha llegado a su plena madurez i tra-
-baja ya por iniciativa propia i nó porque su padre lo
-manda.
-
-La especializacion prematura dará sólo frutos apa-
-rentes. Miéntras mas sólido sea el fondo de la cul-
-tura jeneral, miéntras mejor formada esté la inicia-
-tiva personal para el trabajo, miéntras mayor sea
-la madurez intelectual i moral, mas lijero progresará
-la enseñanza especial, cualquiera que sea ella. Se ha
-hablado mucho del progreso enorme que la Alema-
-nia ha hecho en todas las esferas de la actividad hu-
-mana entre los años de 1871 i 1914: no debe olvi-
-darse que las tres cuartas partes de las personas que
-han dirijido este progreso, no sólo en las ciencias,
-sino tambien en la industria i el comercio, han salido
-del jimnasio clásico i sólo una cuarta parte de los
-colejios reales. I aun éstos no deben considerarse
-como escuelas técnicas, sino como establecimientos
-que forman hombres maduros i de cultura jeneral.
-La única diferencia fundamental que hai entre éstos
-i los jimnasios es que en los colejios reales (parecidos
-a los liceos nuestros, pero con nueve años de huma-
-nidades) se da mayor estension al estudio de las len-
-guas modernas i de las ciencias matemáticas i natu-
-rales, miéntras que en los jimnasios clásicos los es-
+```markdown
+262 
+MEMORIAS CIENTÍFICAS l LITERARIAS 
+secundaria, 
+debe 
+perseguir rumbos 
+idealistas, 
+cul- 
+turales, es decir, tratar de formar hombres de carác - 
+ter, con eriterio jeneral bien desarrollado, ya sea para 
+la esfera inferior del trabajo esencialmente físico. ya 
+sea para la superior del órden intelectual. La prepa- 
+racion especial técnica o profesional sólo debe darse 
+cuando el jóven ha llegado a su plena madurez 1 tra- 
+baja ya por iniciativa propia 1 nó porque su padre lo 
+manda. 
+La especializacion prematura dará sólo frutos apa- 
+rentes. Miéntras mas sólido sea el fondo de la eul. 
+tura jeneral, miéntras mejor formada esté la inicia- 
+tiva personal para el trabajo, miéntras mayor sea 
+la madurez intelectual 1 moral, mas lijero progresará 
+la enseñanza especial, cualquiera que sea ella. Se ha 
+hablado mucho del progreso enorme que la Alema- 
+nia ha hecho en todas las esferas de la actividad hu- 
+mana entre los años de 1871 1 1914; no debe olvi- 
+darse que las tres cuartas partes de las personas que 
+han dirijido este progreso, no sólo en las ciencias, 
+sino tambien en la industria 1 el comercio, han salido 
+del jimnasio clásico 1 sólo una cuarta parte de los 
+colejios reales. 
+I aun éstos no deben considerarse 
+como escuelas técnicas, sino como establecimientos 
+que forman hombres maduros 1 de cultura jeneral. 
+La única diferencia fundamental que ha1 entre éstos 
+i los jimnasios es que en los colejios reales (parecidos 
+a los liceos nuestros, pero con nueve años de huma- 
+nidades) se da mayor estension al estudio de las len- 
+guas modernas i de las ciencias matemáticas i natu- 
+rales, miéntras que en los jimnasios clásicos los es- 
 tudios se basan con preferencia en la cultura anti-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate for all visible text on the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content such as images, maps, or diagrams that would require cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 283
 
 ## Page Metadata
-- Source: `Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.`
-- Page number: `283`
-- Original page dimensions: `6.3 in x 9.4 in`
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 283
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0283.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a running head with the author's name on the left and the page number on the right, followed by a horizontal rule. Below this, there are three main paragraphs of text, with the first paragraph containing a footnote reference. The footnote itself is located at the bottom of the page, separated by a short horizontal rule.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-RODOLFO LENZ 263
-___
 
-gua (1). Mas de un profesor universitario que se de-
-dica en Alemania a las ciencias médicas, a la física
-a la química o a la filolojía moderna ha declarado
-que prefiere jeneralmente como alumnos a los que
-proceden de los jimnasios, i no a los «realistas» aun-
-que éstos traen mayor cantidad de conocimientos
-efectivos para esas ramas. El hecho es que los cono-
-cimientos de ciertas materias científicas secundarias
-pueden adquirirse en corto tiempo, en tanto que la
-madurez del criterio no puede alcanzarse por el mero
-estudio de detalles técnicos.
-
-He gastado los mejores años de mi vida trabajan-
-do, a la medida de mis fuerzas, en la mejora de la
-enseñanza superior i secundaria de Chile; tengo sin-
-cero interes por el porvenir del pais donde han na-
-cido mis hijos i mis nietos: pues bien, esa esperiencia
-i ese interes me dicen a una que el progreso del por-
-venir no se conseguirá aumentando la enseñanza es-
-pecial en detrimento de la cultura jeneral, sino por
-el incremento de ésta, tanto entre las clases trabaja-
-doras (instruccion primaria obligatoria de seis años,
-con buenas escuelas vocacionales sobre esa base),
-como entre las clases dirijentes (cinco años de hu-
-manidades obligatorios para la enseñanza especial
-superior, i ocho años del liceo como preparacion para
-los estudios universitarios).
-
-No pretendo que se vuelva a la enseñanza clásica,
-aunque creo, sí, que el estudio del latin es indispen-
-sable, si ha de elevarse un dia el castellano al rango
-___
-(1) Sin embargo, también en las escuelas reales superiores se leen
-autores antiguos, como Homero, Sófocles i otros, en traducciones
+```markdown
+RODOLFO LENZ 
+263 
+gua (1). Mas de un profesor universitario que se de- 
+dica en Alemania a las ciencias médicas, a la física- 
+a la química o a la filolojía moderna 
+ha declarado 
+que prefiere jeneralmente como alumnos 
+a los que 
+proceden de los jimnasios, 1 no a los «realistas» aun- 
+que éstos traen mayor cantidad de conocimientos 
+efectivos para esas ramas. El hecho es que los cono- 
+cimientos de ciertas materias científicas secundarias 
+pueden adquirirse en corto tiempo, en tanto que la 
+madurez del criterio no puede alcanzarse por el mero 
+estudio de detalles técnicos. 
+He gastado los mejores años de mi viúa trabajan- 
+do, a la medida de mis fuerzas, en la mejora de la 
+enseñanza superior i secundaria de Chile; tengo sin- 
+cero interes por el porvenir del pais donde han na- 
+cido mis hijos 1 mis nietos: pues bien, esa esperiencia 
+¡ ese interes me dicen a una que el progreso del por- 
+venir 
+no se conseguirá aumentando la enseñanza es- 
+pecial en detrimento de la cultura jeneral, sino por 
+el incremento de ésta, tanto entre las clases trabaja- 
+doras (instruccion primaria obligatoria de seis años, 
+con buenas 
+escuelas 
+vocacionales sobre 
+esa 
+base), 
+como entre las clases dirijentes (cinco años de hu- 
+manidades 
+obligatorios para la enseñanza especial 
+superior, 1 ocho años delrliceo como preparacion para 
+los estudios universitarios). 
+7 
+No pretendo que se vuelva a la enseñanza clásica, 
+aunque ereo, sí, que el estudio del latin es indispen- 
+sable, si ha de. elevarse un dia'el castellano al rango 
+(1) Sin embargo, también en las escuelas reales superiores se leen 
+autores antiguos, como Homero, 
+Sófocles i otros, 
+en 
+traducciones 
 alemanas, lo mismo que Shakespeare en los jimnasios.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate for all visible text on the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual regions. It is primarily text."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

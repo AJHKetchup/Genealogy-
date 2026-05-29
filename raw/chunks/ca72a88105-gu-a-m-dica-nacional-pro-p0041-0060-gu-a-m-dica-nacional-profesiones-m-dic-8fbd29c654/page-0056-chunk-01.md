@@ -1,0 +1,172 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-5ba1eac1d939-P0056-01
+source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60.codex.md
+converted_sha256: 5ba1eac1d9396145b9b104e0f1c5de5222690ee23de50def32a2f574ddfaa98d
+source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
+source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
+source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json
+page_start: 56
+page_end: 56
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json`
+- Source page: 56
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/page-images/page-0056.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+López Reverditto, Raúl 
+López Salinas, Carlos 
+López Smithe, Oscar 
+López Vargas, Ramón 
+López Villarroel, Roberto 
+López Villegas, Alfonso 
+López Vitta, Gastón 
+Lorca Ortiz, Rafael 
+Lorent Arroyo, Marina 
+Losada Losada, Antonio 
+Losada Losada, Manuel 
+Loyola Barros, Sergio 
+Loyola Toledo, Rafael 
+Loyola Vidal, Manuel 
+Lozada Vargas, Primo 
+Lucchini Albertalli, Alberto 
+Lucchini Manfe, Aldo 
+Lucero González, Alcides 
+Lucht Liebusch, Juan 
+Lüer González, Ricardo 
+Luna Aedo, Mohamed 
+Luna Pérez, Santiago 
+Lund Espinoza, Carlos 
+Lynch Flanagán, María B. 
+Lyon Navarrete, Jorge 
+Teatinos 251 
+Avda. P. Montt 2053 
+San Martín 730 
+Sargento Aldea 692 
+Buin 350 
+Ramón Subercaseaux 
+1404 
+8 Norte 930 
+Centro de Salud 
+Colo Colo 293 
+Catedral 1655 
+San Isidro 401 
+Angamos s/n 
+Miguel Claro 998 
+Maira 1636 
+Valentín Zúñiga 98 
+Marcoleta 367 
+3 Poniente 420 
+General Las Heras 1522 
+Avda. Tajamar 2281 
+Cruz 425 
+Catedral 1893 
+Recinto Hospital 
+Las Violetas 2057 
+Presidente Errázuriz 3155 
+Silva Chávez 485 
+Santiago 
+Valparaíso 
+Santiago 
+Peñablanca 
+Parral 
+Santiago 
+Viña del Mar 
+Viña del Mar 
+Concepción 
+Santiago 
+Santiago 
+Yungay 
+Santiago 
+Concepción 
+Requínoa 
+Santiago 
+Viña del Mar 
+Santiago 
+Santiago 
+Concepción 
+Santiago 
+Collipulli 
+Santiago 
+Santiago 
+Melipilla 
+LL 
+Llodrá Bauzá, Guillermo 
+Llorens Roige, Pedro 
+Llórente Rodrigo, Julio 
+Riquelme 363 
+San Diego 1970 
+Prat 664 
+Santiago 
+Santiago 
+Osorno 
+M 
+Mass Jensen, Mario 
+Mac-Cowley Matthews, Alexander 
+Mac-Cowley Matthews, Norman 
+Mac-Ginty Dinator, Adriana 
+Mac-Iver Covarrubias, Enrique 
+Mac-Nab Erwing, Yan 
+Macaya Martínez, Juan E. 
+Av. Gral. Bust'amante 
+Santiago 
+176, Depto. 207 
+Marcoleta 347 
+Santiago 
+Victoria 2632, Depto. 22 
+Valparaíso 
+Los Plátanos 2967 
+Santiago 
+Almirante Pastene 259 
+Santiago 
+Prat 205 
+La Serena 
+Hospital 
+Lumaco
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 57

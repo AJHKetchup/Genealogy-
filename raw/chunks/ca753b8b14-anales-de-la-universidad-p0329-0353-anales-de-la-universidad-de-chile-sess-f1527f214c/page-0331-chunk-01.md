@@ -1,0 +1,100 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-cb313791f88e-P0331-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353.codex.md
+converted_sha256: cb313791f88e47f770c9a189fc2df2c8fdce9af1c334ffa8a6378e505cae294e
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json
+page_start: 331
+page_end: 331
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json`
+- Source page: 331
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/page-images/page-0331.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+CARLOS SILVA COTAPOS 
+311 
+Sintiéndose ya con suficiente instrucción teolójica 
+i con aptitudes para el púlpito, pues la naturaleza 
+le había dotado de voz poderosa 1 bien timbrada, 1 
+de agrado en el decir por la animación 1 vida con 
+que se expresaba; apenas se hubo ordenado de me- 
+nores quiso tomar parte en las misiones que salieron 
+para Valdivia 1 Chiloé en el verano de 1836. Al efecto, 
+obtuvo licencia para hacer pláticas doctrinales 
+del 
+obispo de Concepción, don José Ignacio Cienfuegos. 
+Estas 
+misiones 
+habían sido organizadas 
+por 
+el 
+presbítero 
+don Rafael Valentín Valdivieso, a quien 
+había impresionado vivamente la descripción tristí- 
+sima que del estado de abandono relijioso en que se 
+hallaban las provincias de Valdivia i Chiloé, hizo el 
+ministro de lo Interior don Joaquín Tocornal en la 
+memoria que presentó al congreso el año 1835. En 
+ella el ministro hacía saber que en la provincia de 
+Valdivia existían sólo dos curas: 
+el de esa ciudad 1 
+el de Osorno; 1 en Chiloé, donde en 1826 había vein- 
+tidós sacerdotes que no bastaban para el servicio de 
+la población, en dicho año, 1835, sólo quedaban tres. 
+La misión partió de Valparaíso a bordo de la go- 
+leta Colocolo el 21 de Diciembre de 1835, 1 el 2 de 
+Enero del año siguiente llegó a Ancud. No sabemos 
+s1 Kizaguirre tuvo lugar a ejercer su ministerio en el 
+archipiélago; pero sí sabemos que predicó en Valdi- 
+via 1 en el puerto de Corral. 
+Animado su celo con el buen éxito alcanzado en 
+la predicación, se atrevió a pedir licencia al obispo 
+de Santiago para hacer pláticas en los extramuros
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

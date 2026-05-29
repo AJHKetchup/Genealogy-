@@ -1,0 +1,99 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-c828798511d6-P0269-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283.codex.md
+converted_sha256: c828798511d6e9d1d1775097f721d7470866217e952be2eda1ba6d7d9da04f7e
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json
+page_start: 269
+page_end: 269
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json`
+- Source page: 269
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/page-images/page-0269.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+RODOLFO 
+LENZ 
+249 
+español es típicamente nacional. El valor cultural 
+que tiene para la humanidad no puede compararse 
+con el teatro de Shakespeare, quien a la vez es na- 
+cional ingles 1 mundial. De ahí que los alemanes lo 
+aprecien tanto como si fuera uno de los suyos. Ke- 
+cuerdo que en el jimnasio leimos «Julio César» i «Co- 
+riolano»—la seleccion de los dramas romanos 
+es Ca- 
+racterística para el jimnasio—traducidos al aleman 
+con el mismo detenimiento con que estudiábamos 
+los dramas de Schiller 1 Goethe. De la literatura es- 
+pañola no mereció semejante honor ningun drama, 
+pero sí el Cancionero del Cid, en la traduccion de 
+Herder. 
+“Las trajedias de Corneille 1 Racine forman un es- 
+traño contraste con el teatro español, por carecer en 
+absoluto de carácter nacional frances. Sus héroes son 
+hombres abstractos que no pertenecen a ningun pais 
+ni a ninguna época; pues no tienen tampoco nada 
+de griegos ni romanos, con escepcion de sus nombres. 
+Para su lectura en un liceo chileno éste no es ningun 
+defecto, sino mas bien una ventaja. Schiller i Goethe, 
+en cambio, son en su produccion dramática tan na- 
+cionales 1 mundiales a la vez como Shakespeare: res- 
+piran en ciertas obras el mas puro clasicismo griego 
+1 aventajan a todos los autores mencionados porque, 
+como los mas modernos que son de todos los clásicos, 
+están ademas llenas sus obras de ideas modernas. Es 
+ésta una enorme ventaja de que goza Alemania, en 
+comparacion con Francia, Inglaterra 1 España: nin- 
+guna literatura clásica tiene tanto valor educativo, 
+pedagójico, como la alemana. Su elevacion moral 1 
+filosófica está a la misma altura que su hermosura
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 270

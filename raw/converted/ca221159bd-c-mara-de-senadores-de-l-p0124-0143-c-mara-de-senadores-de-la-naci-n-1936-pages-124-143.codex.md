@@ -563,79 +563,129 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 130
+
 ## Page Metadata
-Page number: 127
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json`
+- Source page: 130
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/page-images/page-0130.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a single column of text, primarily legal or regulatory articles, with a page number centered at the top. The text is structured with article numbers and headings.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```
-— 127 —
-
-Pasajeros en tren sin parada en la
-estación indicada en su boleto.
-
-Art. 139. — Todo pasajero que tomare un tren que no tu-
-viere parada en la estación indicada en su boleto, deberá dar
-aviso al guardatrén antes de la última estación anterior a la
-misma. En este caso se aplicará lo dispuesto en el artículo
+```markdown
+—
+127
+—
+Pasajeros
+en tren sin parada
+en la
+estacion
+indicada
+en
+su
+boleto.
+Art. 139.—Todo pasajero que tomare un tren que
+no tu-
+™re parada en la estacion indicada
+en su boleto, deberâ dar
+aviso al guardatrén antes de la ultima estacion anterior
+a la
+misma.
+En
+este
+caso
+se aplicarâ lo dispuesto
+en el artîculo
 precedente.
-
-En caso contrario, abonará el importe del pasaje entre la
-estación indicada en el boleto y la primera posterior en que se
-detenga el tren, más el 100 % de recargo.
-
+En
+caso contrario, abonarâ el importe del pasaje entre la
+estacion indicada en el boleto y la primera posterior en que se
+detenga el tren, mas el 100 %
+de recargo.
 Cambio de clase.
-
-Art. 140. — Los pasajeros de segunda clase podrán viajar
-en coches de primera, siempre que comuniquen previamente
-al guardatrén su intención de hacerlo, y abonen la diferencia
-del valor del pasaje desde la estación, donde cambiasen de
+Art.
+140. — Los pasajeros de segunda clase podrân viajar
+en coches
+de primera, siempre
+que comuniquen previamente
+al guardatrén
+sir intenciôn de hacerlo, y abonen la diferencia
+del valor
+del pasaje desde la estacion,
+donde cambiasen
+de
 clase.
-
-Si el pasajero no cumpliera con el requisito de avisar al
-guardatrén, abonará el importe de la diferencia desde la es-
-tación mencionada en su boleto, más el recargo del 100 % sobre
+Si el pasajero
+no cumpliera
+con el requisite de avisar al
+guardatrén, abonarâ el importe de la diferencia desde la
+es¬
+tacion mencionada en su boleto, mas cl recargo del 100 % sobre
 el importe de la diferencia.
-
-Pasajeros sin boleto o con boleto
+Pasajeros
+sin
+boleto
+o
+con
+boleto
 vencido. Procedimiento.
-
-Art. 141. — Todo pasajero deberá proveerse de su respectivo
-boleto antes de subir al tren.
-
-El pasajero que infrinja esta disposición, viajando sin bo-
-leto o con boleto de fecha vencida, abonará el pasaje desde el
-punto donde haya subido hasta la primera estación donde se
-detenga el tren, más el recargo del 100 % del importe del
-boleto correspondiente a este trayecto. Al llegar a dicha es-
-tación el pasajero deberá abonar un boleto hasta la estación
+Art. 141. — Todo pasajero deberâ proveerse de su respectivo
+b°leto antes de subir al tren.
+El pasajero que infrinja esta disposiciôn, viajando sin bo-
+eto o con boleto de fecha vencida, abonarâ el pasaje desde el
+Punto donde haya subido hasta la primera estacion donde se
+detenga el tren, mâs
+el recargo del 100 % del importe del
+boleto eorrespondiente
+a este trayeeto.
+Al llegar
+a dicha
+es-
+tacién el pasajero deberâ abonar
+un boleto hasta la estacion
 de destino.
-
-Si el precio del pasaje hasta la primera estación de parada
+Si el precio del pasaje hasta la primera estacion de parada
 del tren fuese igual al de la siguiente o subsiguiente, los dere-
 ```
 
 ## Images, Captions, And Visual Notes
 
-None.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 128
@@ -709,71 +759,119 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 ```
 
+# Page 132
+
 ## Page Metadata
-Page number: 132
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json`
+- Source page: 132
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/page-images/page-0132.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents text in a single column, primarily consisting of numbered articles and associated paragraphs, along with section headings. Text on the left margin appears to be from the preceding page and is truncated.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-— 129 —
 
+```markdown
+129
+—
 Reembolso por cambio de domicilio
 o muerte del abonado.
-
-Art. 146. — En el caso comprobado de cambio de domi-
-cilio, que no permitiera hacer uso del boleto de abono, se podrá
-exigir de la empresa la devolución de la mitad del importe
-correspondiente a los días que falten para su vencimiento,
-siempre que sean más de seis.
-    El mismo temperamento se adoptará en caso de muerte del
+Art.
+146. — En
+el
+caso comprobado
+de
+eambio
+de
+domi¬
+cilio, que no permitiera hacer uso del boleto de abono, se podrâ
+exigir de la empresa la devoluciôn de la mitad del importe
+correspondiente
+a
+los
+dias
+que falten
+para
+su vencimiento,
+siempre que sean mâs de seis.
+El mismo temperamento se adoptarâ en easo de muerte del
 abonado.
-
-Derecho de ocupación de asientos
+Derecho
+de
+ocupacion de
+asientos
 en los trenes.
-
 Art. 147. — Todo boleto da al pasajero derecho a ocupar un
-asiento en un coche de la clase correspondiente.
-    Si por falta de coches el viajero se viera en la necesidad
-de entrar en uno de clase superior al designado en su boleto,
-o tuviese que ocupar un asiento de clase inferior, o si por
-ocupación de todos los asientos de la clase que exprese su bo-
-leto, tuviese que ir de pie, será de aplicación lo dispuesto en
-el artículo 37 de la Ley General de Ferrocarriles.
-
-Reserva de asientos.
-
-Art. 148. — Todo objeto dejado como señal por los pasajeros
-en sus respectivos asientos, les confiere el derecho de ocupa-
-ción del mismo, debiendo los guardas hacer respetar por los
-demás viajeros esa forma de retención.
-    En casos especiales y cuando las necesidades del servicio lo
-requieran y previa autorización de la Dirección General de
-Ferrocarriles, las empresas podrán emitir pasajes que expresen
-el número del coche y del asiento, que ocupará el pasajero.
-
+asiento
+en
+un coche de la clase correspondiente.
+Si por falta de coches el viajero
+se viera en la necesidad
+de entrar
+en uno de clase superior al designado en su boleto,
+.o tuviese
+que ocupar
+un asiento de clase inferior,
+o si
+por
+ocupacion de todos los asientos de la clase que exprese su bo¬
+leto, tuviese que ir de pie,
+sera de aplicaeiôn lo dispuesto en
+el artîculo 37 de la Ley General de Ferrocarriles.
+Réserva de asientos.
+Art. 148. — Todo objeto dejado como serial por los pasajeros
+en sus respectivos asientos, les confiere el derecho de ocupa¬
+cion del mismo, debiendo los guardas hacer respetar por los
+demâs viajeros esa forma de retenciôn.
+En casos espeeiales y cuando las necesidades del servicio lo
+requieran y previa autorizaciôn de la Direcciôn
+General
+de
+Ferrocarriles, las empresas podrân emitir pasajes que expresen
+el numéro del coche y del asiento, que ocuparâ el pasajero.
 Pedido de coches o compartimientos
 reservados.
-
-Art. 149. — La reserva de los coches o de compartimientos
-en coches de primera, deberá pedirse al jefe de la estación por
+Art. 149. — La
+réserva de los coches
+o de compartimientos
+en coches de primera, deberâ pedirse al jefe de la estaeiôn por
 ```
 
 ## Images, Captions, And Visual Notes
-The page number "— 129 —" is centered at the top of the page.
-There are some truncated words on the left margin, likely from the previous page's content, which are not part of the main text block of this page. These include "hasta", "eden-", "punto", "mino", "más el", "do en", "Fe de", "er el", "el im-", "boleto.", "perse", "guarda", "o del", "esta-", "r en", "139.", "cen", "abo-", "co.", "os de", "día".
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page, including the page number and main content, has been transcribed. Truncated text from the previous page's margin has been noted.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets. The page number is transcribed in the literal transcription."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 130
@@ -958,68 +1056,141 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 135
+
 ## Page Metadata
-Page number: 132
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json`
+- Source page: 135
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/page-images/page-0135.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a centered page number at the top. The main content consists of several articles (Art. 157, Art. 158, Art. 159) with their respective text, interspersed with bold, centered subheadings. The text flows in a single column.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 132 —
-
-monto del perjuicio ocasionado o dará al jefe de la estación
-garantía satisfactoria de su pago. En su defecto será entre-
-gado a la autoridad policial.
-
-**Compartimientos para no fumadores.**
-
-Art. 157. — En cada tren habrá, por lo menos, un compar-
-timiento de coches de cada clase destinados a pasajeros no fu-
-madores, y las señoras tendrá derecho preferente para ocupar
+```markdown
+— 132
+monto del perjuicio ocasionado
+o darâ al jefe de la estacion
+garantîa satisfaetoria de
+su pago.
+En su defecto sera entre-
+gado
+a la autoridad policial.
+Compartimientos para no fumadores.
+Art. 157. -— En eada tren habrâ, por lo menos, un compar-
+timiento de coches de cada clase destinados
+a pasajeros no fu¬
+madores, y laS senoras tendra derecho preferente para ocupar
 sus asientos.
-En los trenes livianos compuestos de coches mixtos, o de
-clase única o en los automotores de riel no regirá esta dis-
-posición, pero estará prohibido fumar, si algún pasajero se
+En los
+trenes livianos
+compuestos de coches mixtos,
+o de
+clase unica
+o
+en
+los
+automotores
+de riel
+no régira
+esta dis-
+posiciôn,
+pero estarâ prohibido fumar, si algun pasajero
+se
 opusiese.
-Si alguna persona se hallare en infracción a este artículo
-y no acatare la indicación del guarda, será pasible de una
+Si alguna
+persona
+se hallare
+en infracciôn
+a este articule
+y
+no acatare la indicaciôn
+del guarda,
+sera pasible
+de
+una
 multa de pesos cinco moneda nacional.
-
-**Vendedores ambulantes, limosneros,**
-**cocheros y mozos de cordel en los**
-**coches.**
-
-Art. 158. — Se prohibe la presencia de vendedores ambu-
-lantes en los coches de pasajeros, si no estuvieran debida-
-mente autorizados por las empresas, y de una manera abso-
+Vendedores ambulantes, limosneros,
+cocheros
+y
+mozos de cordel
+en los
+coches.
+Art.
+158. — Se prohibe la presencia de vendedores ambu¬
+lantes
+en
+los
+coches
+de pasajeros,
+si
+no estuvieran
+debida-
+mente autorizados
+por las empresas, y de una manera abso-
 luta la de agentes de hotel o de otra clase de propaganda co-
-mercial, cocheros, mozos de cordel o limosneros.
-Esta prohibición rige también en los andenes, plataformas y
-demás dependencias de las estaciones, donde sólo se permitirá
+mercial,
+cocheros,
+mozos
+de cordel
+o lismoneros.
+Esta prohibicion rige también en los andenes, plataformas y
+demâs dependencias de las estaeiones, donde solo se permitira
 la presencia de vendedores ambulantes y mozos de cordel, es-
 pecialmente autorizados por las empresas.
-Los infractores serán pasibles de una multa de pesos cinco
-moneda nacional y de pesos diez moneda nacional en caso de
+Los infractores serân pasibles de una multa de pesos cinco
+moneda nacional y de pesos diez moneda nacional
+en caso de
 reincidencia.
-
-**Uso de calentadores y lámparas**
-**particulares en los coches.**
-
-Art. 159. — Está absolutamente prohibido hacer uso, dentro
-de los coches, de calentadores o lámparas particulares.
+Uso
+de
+calentadores
+y
+lâmpara5
+particulares
+en
+los
+coches.
+Art. 159. —■Esta absolutamente prohibido hacer uso, dentro
+de los coches, de calentadores o lâmparas particulares.
+```
 
 ## Images, Captions, And Visual Notes
-None.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 136
@@ -1494,68 +1665,145 @@ All visible text on the page, including the main content and the partial text in
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
+# Page 143
+
 ## Page Metadata
-Page number: 140
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json`
+- Source page: 143
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/page-images/page-0143.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a page number at the top center, followed by a main title, and then several articles (Art. 187, Art. 188, Art. 189, Art. 190) with their respective subheadings and text. The text is presented in a single column.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 140 —
-
-Trenes en que deben transportarse
+```markdown
+—
+140
+—
+Trenes
+en que deben transportai
 las encomiendas.
-
-Art. 187.—Las encomiendas deberán transportarse por el
+Art.
+187. — Las encomiendas
+deberân transportarse por el
 primer tren de pasajeros, mixto o de encomienda, subsiguiente
-a su entrega y continuarán hasta su destino por los trenes de
-combinación, si los hubiere, siempre que dichos trenes trans-
+a su entrega y continuarân hasta su destino por los trenes de
+combination, si los hubiere, siempre
+que dichos trenes trans-
 porten encomiendas.
-Cuando fuera limitado o excluído ese transporte en los
+Cuando
+fuera
+limitado
+o
+excluido
+ese
+transporte
+en
+los
 trenes de pasajeros o resultaran insuficientes los trenes mixtos
-para ese servicio, podrán emplearse trenes especiales o trenes
-de horario de encomiendas que se ajustarán a las prescrip-
+para ese servicio, podrân emplearse trenes especiales
+o trenes
+de horario
+de
+encomiendas
+que
+se ajustarân
+a las preserip-
 ciones vigentes para los trenes mixtos.
-
-Rótulo de las encomiendas.
-
-Art. 188.—Toda encomienda deberá llevar el nombre y la
-dirección de la persona a quien va consignada, rigiendo a los
-efectos del embalaje y acondicionamiento las disposiciones
-del artículo 225.
-
-Recepción de las encomiendas.
-
-Art. 189.—Las encomiendas deberán entregarse para su
-despacho:
-a) En los trenes generales, con una hora de anticipación
+Rôtulo de las encomiendas.
+Art.
+188. — Toda encomienda deberâ llevar el nombre y la
+direcciôn de la persona
+a quien va consignada, rigiendo a los
+efectos
+del
+embalaje
+y
+acondicionamiento
+las
+disposiciones
+del artîculo 225.
+Recepcion
+de las encomiendas.
+Art.
+189. — Las
+encomiendas
+deberân
+entregarse
+para
+su
+despacho :
+a) En los trenes generales,
+con
+una hora
+de anticipaciôn
 por lo menos a la marcada en los horarios para la salida
-de aquéllos, si se tratase de estaciones principales; con
-treinta minutos de anticipación en las demás estaciones;
-b) En los trenes urbanos, con treinta minutos de anticipa-
-ción a la salida de cada tren.
-En las estaciones principales, que la Dirección General de
-Ferrocarriles determine, la recepción de encomiendas quedará
-clausurada a las 18 horas.
-
-Aforo de encomiendas y máximum
+de aquéllos, si
+se tratase de estaciones principales;
+con
+treinta minutos de anticipaciôn en las demâs estaciones;
+b) En los trenes urbanos, con treinta minutos de anticipa¬
+ciôn
+a la salida de cada tren.
+En las estaciones principales,
+que la Direcciôn General de
+Ferrocarriles determine, la recepcion de encomiendas quedarâ
+clausurada
+a las 18 horas.
+Aforo de encomiendas
+y maximum
 de peso.
-
-Art. 190.—El aforo de encomiendas se regirá por lo dis-
-puesto en el artículo 177.
-Las empresas no estarán obligadas a recibir en calidad de
-encomiendas, bultos que pesen más de doscientos cincuenta
+Art.
+190. — El aforo de encomiendas
+se régira por lo dis-
+puesto
+en el artîculo
+177.
+Las empresas no estarân obligadas
+a recibir
+en calidad de
+encomiendas,
+bultos
+que
+pesen
+mas
+de doscientos
+cincuenta
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

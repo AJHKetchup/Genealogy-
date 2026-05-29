@@ -1,0 +1,120 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-0e0ee6a3b3a3-P0154-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163.codex.md
+converted_sha256: 0e0ee6a3b3a3d114f469bcfa131260a357a0629c9287c9009090a056979509c6
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json
+page_start: 154
+page_end: 154
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json`
+- Source page: 154
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/page-images/page-0154.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+— 151
+indicândose en los envases el numéro y marca correspondientes
+y la estacion de destino, debiéndose saear o borrar toda marca
+o rôtulo existente con anterioridad.
+Embalajes.
+Art.
+225. — Para el embalaje regirân las siguientes dispo-
+siciones :
+l9
+Los tejidos, calzados, comestibles, cigarrillos, artîculos
+de armerîa o droguerîa o cualquiera otra mercaderîa de
+valor,
+deberân despaeharse
+en embalajes sellados con
+lacre o plomo o precintos, de tal manera que su conte-
+nido no pueda ser sustraido sin violar los sellos o pre¬
+cintos.
+29
+Los
+eascos deben tener los tapones bien asegurados y
+no derramar el contenido.
+Los
+eascos
+con mosto u otros liquidos en fermenta-
+ciôn,
+no podrân estar cerrados herméticamente y de¬
+berân ir provistos de un tubo, que permita el escape
+de los
+gases.
+39
+Los
+eascos vacios
+que liubieren contenido liquidos co-
+rrosivos, causticos, âcidos o de mal olor, deberân estar
+bien
+secos exteriormente y cerrados.
+49
+El pescado fresco, conservado en hielo, se admitirâ sola-
+mente en cajones agujereados en la parte inferior para
+permitir la filtracion del agua, al derretirse el hielo.
+59
+La leche y la crema deberân conducirse en tarros fuertes
+o estanques adecuados.
+69
+Los cueros lanares se transportarân en bultos bien ase¬
+gurados, respondiendo la empresa por su peso ûnica-
+mente
+si los bultos hubieran sido abiertos hallândose
+en su poder.
+79
+Los
+cueros
+de
+venado
+y nutria deberân presentarse
+enfardelados.
+La cerda no enfardelada y la pluma se
+recibirân solamente en cajones, boisas, chiguas o emba-
+lados de manera segura.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

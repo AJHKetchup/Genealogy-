@@ -400,71 +400,102 @@ All text and visual elements on the page have been transcribed and described.
 }
 ```
 
+# Page 107
+
 ## Page Metadata
-Page number: 104
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json`
+- Source page: 107
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0107.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a single column of text, primarily consisting of two numbered sections, each with several lettered sub-items. Some sub-items contain further indented paragraphs. The reading order is top-to-bottom, left-to-right.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 104 —
-
-6º Posición normal de las señales:
-
-a) La indicación normal de las señales no automáticas será
-    la de “peligro” y sólo serán cambiadas para dar paso a
-    los trenes. Tratándose de estaciones, garitas, etc., clau-
-    suradas durante determinados días u horas del día, en
-    vía doble las señales pueden quedar con la indicación de
-    “vía libre”.
-    En vía sencilla los semáforos deben permanecer en la
-    posición de “peligro” y sin luz. En este caso los trenes
-    deben pasar con precaución.
-b) En la señalización automática las señales normalmente
-    deben indicar “vía libre”.
-    Cuando pase el primer vehículo de un tren deben cam-
-    biar automáticamente a la indicación “peligro” y per-
-    manecer así hasta que el tren haya librado la sección de
-    recubrimiento.
-
-7º Falta de luz o luz o luces mal exhibidas:
-
-a) En una estación, desvío, empalme o sección block en ser-
-    vicio, la falta de una señal donde ordinariamente se exhi-
-    be una señal con luz apagada, una señal dudosa o im-
-    perfectamente exhibida, o la exhibición de una luz blanca
-    en lugar de una roja, anaranjada o verde, debe ser con-
-    siderada como una señal de peligro y obliga a parar.
+```markdown
+— 104
+69 Position normal de las seriales:
+a) La indicacion normal de las senales no automâticas sera
+la de “peligro” y solo serân eambiadas para dar paso a
+los trenes.
+Tratândose de estaciones, garitas, etc., clau-
+suradas durante determinados dîas u horas del dla,
+en
+via doble las senales pueden quedar con la indicacion de
+“via libre”.
+En via sencilla los semâforos deben permanecer en la
+posiciôn de “peligro” y sin lnz. En este caso los trenes
+deben pasar con precauciôn.
+b) En la senalizaciôn automâtica las senales normalmente
+deben indicar “via libre”.
+Cuando pase el primer vehiculo de un tren deben cam-
+biar automâticamente
+a la indicacion “peligro” y
+per¬
+manecer asi hasta que el tren haya librado la secciôn de
+recubrimiento.
+79 Falta de luz o luz o luees mal exhibidas:
+a) En una estaciôn, desvio, empalme o secciôn block en ser-
+vicio, la falta de una senal donde ordinariamente se exhi¬
+be
+una senal
+con luz apagada, una senal dudosa
+o im-
+perfectamente exhibida, o la exhibiciôn de una luz blanca
+en lugar de una roja, anaranjada
+o verde, debe ser con-
+siderada como una senal de peligro y obliga a parar.
 b) Asimismo obliga a parar la falta de una de las luces de
-    las señales de un semáforo dotado de varios brazos, siem-
-    pre que dichas señales correspondan a la vía por la cual
-    marcha el tren.
-c) Comprobado por el conductor del tren, conjuntamente
-    con el jefe del mismo, que se trata de una señal con la
-    luz apagada o un vidrio roto, el tren podrá reanudar
-    la marcha siempre que la posición del brazo de la señal
-    lo permita.
-d) Tratándose de una señal automática descompuesta, y pre-
-    via comprobación o presunción por el conductor y jefe
+las senales de un semâforo dotado de varios brazos, siem-
+pre que dichas senales correspondan a la via par la cual
+marcha el tren.
+c) Comprobado
+por el conductor del tren, eonjuntamente
+con el jefe del mismo, que se trata de una senal con la
+luz apagada
+o un vidrio roto, el tren podrâ reanudar
+la marcha siempre que la posiciôn del brazo de la seiial
+lo permita.
+d) Tratândose de una seiial automâtica descompuesta, y pre¬
+via comprobaciôn
+o presunciôn por el conductor y jefe
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-No uncertain or illegible text was found on this page.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 108
 

@@ -1,0 +1,110 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2c1963cc3710-P0061-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63.codex.md
+converted_sha256: 2c1963cc37103957d0968f83fda93f31b979e40ae6c6f8fdfc90913b46fbad5b
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json
+page_start: 61
+page_end: 61
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json`
+- Source page: 61
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/page-images/page-0061.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+— 57
+—
+NOMINA DE SUSTANCIAS DE PRIMERA Y SEGUNDA CATEGORIA
+CUYO
+TRANSPORTE
+DEBE
+EFECTUARSE
+DE
+ACUERDO A LO
+DISPUESTO EN EL ARTICULO 247 DEL REGLAMENTO GENERAL
+DE FERROCARRILES:
+Primera categoria.—Frutas, verduras y legumbres frescas,
+excepto zapallos, cebollas no verdes, ajo seco, papas, batatas,
+remolacha forrajera o azucarera, cocos y cana de azûcar, que se
+transportai'ân en los plazos ordinarios.
+Leche, crema, manteca, qnesos, cuajos y levaduras frescas.
+Pescados y mariscos frescos,
+carnes
+frescas
+o congeladas,
+hielo.
+Aves y otros animales, excepto ganado, cnyo transporte se ré¬
+gira por las disposiciones vigentes.
+Segunda categoria.—Ananas,
+bananas, granadas, limones,
+limas, mandarinas,
+manzanas, melones, membrillos, naranjas,
+pomelos, sandîas, ârboles y plantas vivas, huevos frescos y tepes.
+Exp. : 18.286 - EF - 936
+Buenos Aires,
+Septiembre
+12
+de 1936.
+Visto que la Comisiôn designada por decreto de 15 de abril
+de 1935 ha dado término a la revision integral del ‘ ‘ Reglamento
+General de Ferrocarriles” concretando
+sus conclusiones en el
+proyeeto que acompana y que somete a la aprobaciôn del P. B.,
+Teniendo en cuenta:
+Que, en la labor realizada, se ha procedido con criterio res¬
+trictive y prudente en materia de innovaeiones, limitândolas a
+lo indispensable para hacer que el derecho se adapte a los hechos
+nuevos que han surgido, conservando una regulaciôn cuya efi-
+eacia y buen resultado tiene la confirmaciôn de una larga ex-
+periencia ;
+Que se ha mejorado y aclarado gran cantidad de disposiciones,
+definiendo muchos puntos dudosos y procurado, de un modo
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 62

@@ -249,62 +249,100 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
+# Page 658
+
 ## Page Metadata
-- Page number: 588
-- Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/manifest.json`
+- Source page: 658
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/page-images/page-0658.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a running header, a page number, and two main text paragraphs, separated by a bold, centered section heading. The text is presented in a single column.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-588 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-tarifas en éste pueden favorecer a la agricultura y a la
-industria nacional, en aquél no favorecen sino al indivi-
-duo remisor del equipaje. Tampoco cabe duda que las
-rebajas de tarifas de carga posibilitan la competencia de
-los ferrocarriles con vías más baratas de transporte. Las
-rebajas en las de equipaje, por el contrario, no producen
-cambio alguno al respecto, pues aquí entra en considera-
-ción por lo común sólo la rapidez del transporte. Por lo
-tanto, las tarifas diferenciales en la conducción de equi-
-paje no tienen fundamento político-económico, sino polí-
-tico-social, y como tal debe juzgárselas aquí en armonía
-con las tarifas de pasajeros.
-
-**4. El problema de las tarifas en los ferrocarriles**
-**particulares**
-
-Los ferrocarriles particulares de Chile aparecen favo-
-recidos en la formación de sus tarifas, tanto respecto a
-las restricciones económicas con que en general tropie-
-zan las Empresas ferroviarias, como respecto a las res-
-tricciones legales. En efecto, sujetos al principio de la
-estricta rentabilidad, reconocen como límite inferior
-en su tarificación, como toda empresa particular, sólo
-los costos (gastos de explotación, amortización e inte-
-reses del capital invertido), y como límite superior, na-
-turalmente, el punto en que el transporte cesa 'de ser
-útil o ventajoso para el remisor del objeto respectivo, o
-el momento en que entra en consideración la competen-
-cia de otro medio de conducción. Como los ferrocarriles
-particulares chilenos carecen de competencia por parte
-de otra vía de transporte, pues están construídos, en
-general, como hemos visto, en dirección Este-Oeste, esto
+```markdown
+588 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+tarifas en éste pueden favorecer a la agricultura y a la 
+industria nacional, en aquél no favorecen sino al indivi- 
+duo remisor del equipaje. Tampoco cabe duda que las 
+rebajas de tarifas de carga posibilitan la competencia de 
+los ferrocarriles con vías más baratas de transporte. Las 
+rebajas en las de equipaje, por el contrario, no producen 
+cambio alguno al respecto, pues aquí entra en considera- 
+ción por lo común sólo la rapidez del transporte. Por lo 
+tanto, las tarifas diferenciales en la conducción de equi- 
+paje no tienen fundamento político-económico, sino polí- 
+tico-social, y como tal debe juzgárselas aquí en armonía 
+con las tarifas de pasajeros. 
+4. El problema de las tarifas en los ferrocarriles 
+particulares 
+Los ferrocarriles particulares de Chile aparecen 
+favo- 
+recidos en la formación de sus 
+tarifas, tanto respecto a 
+las restricciones económicas 
+con que en general tropie- 
+zan las Empresas ferroviarias, 
+como respecto a las res- 
+tricciones legales. En efecto, sujetos al principio de la 
+estricta 
+rentabilidad, 
+reconocen como 
+límite 
+inferior 
+en su tarificación, como toda 
+empresa particular, sólo 
+los costos (gastos de explotación, amortización 
+e inte- 
+reses del capital invertido), y como límite superior, na- 
+turalmente, el punto en 
+que el transporte cesa 'de ser 
+útil o ventajoso para el remisor del objeto respectivo, 0 
+el momento en que entra en consideración la competen- 
+cia de otro medio de conducción. Como los ferrocarriles 
+particulares chilenos carecen de competencia por parte 
+de otra vía de transporte, pues 
+están construídos, en 
+general, como hemos visto, en dirección Este- Oeste, esto:
+```
 
 ## Images, Captions, And Visual Notes
-This page contains no images or captions.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no images or other substantial visuals."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 659
 
@@ -590,61 +628,93 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 663
+
 ## Page Metadata
-593
-NUESTROS PROBLEMAS ECONÓMICOS
-ANALES.—MAYO.—JUNIO.—5
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/manifest.json`
+- Source page: 663
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/page-images/page-0663.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The running header "NUESTROS PROBLEMAS ECONÓMICOS" is at the top left, and the page number "593" is at the top right. A footer "ANALES.—MAYO.—JUNIO.—5" is at the bottom center.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-se. El elevadísimo nivel de las tarifas de pasajes del
-transandino hace posible, como dijimos, la competencia
-por parte del transporte marítimo vía Magallanes, so-
-bre todo en los casos en que no se trata de ganar tiem-
-po, como sucede, por ejemplo, en los viajes de familias
-que desean hacer una estada más o menos larga en el
-extranjero.
-Las tarifas de equipajes y carga por gran velocidad
-son de $ 0,075 por quintal y kilómetro. En cuanto al
-transporte de carga por pequeña velocidad, debemos
-observar, finalmente, que en armonía con los grandes
-costos del ferrocarril, las tarifas son igualmente eleva-
-das. Los precios por tonelada-kilómetro son: primera
-categoría, $ 0.25 oro de 18d.; segunda categoría, $ 0.20
-y tercera categoría, $ 0.15. Claro está que estas tarifas
-posibilitan la conducción sólo de carga de transporte ur-
-gente, e impiden el acarreo de materia prima. En el
-transporte de animales, base importante de tráfico, se
-cobra hoy por animales vacunos, caballares, cabríos, la-
-nares y porcinos, en trenes completos con mínimun de
-cinco wagones de 16 toneladas, $ 1.05 por wagón y por
-kilómetro; por los mismos animales en wagón completo
-de 16 toneladas $ 2.10 por wagón y por kilómetro; por
-animales vacunos y caballares sueltos, por una expedi-
-ción inferior a cinco animales, $ 0.43 por animal y kiló-
-metro; por animales cabríos, lanares y porcinos, por una
-expedición inferior a 21 animales, $ 0.10 por animal y
-kilómetro. Las tarifas correspondientes al transporte de
-animales facilita este tráfico, sujeto, por lo demás, a
-una grande e inevitable competencia por parte de la
-vía pedestre, como en realidad sucede en casi toda la
-cordillera.
+
+```markdown
+NT 
+NUESTROS PROBLEMAS ECONÓMICOS 
+593 
+se. El elevadísimo nivel de las tarifas de pasajes del 
+transandino hace posible, como dijimos, la competencia 
+por parte del transporte marítimo vía Magallanes, so- 
+bre todo en los casos en que no se trata de ganar tiem- 
+po, como sucede, por ejemplo, en los viajes de familias 
+que desean hacer una estada más o menos larga en el 
+extranjero. 
+Las tarifas de equipajes y carga por gran velocidad 
+son de $ 0,075 por quintal y kilómetro. En cuanto al 
+transporte de carga por pequeña velocidad, debemos 
+observar, finalmente, que en armonía con los grandes 
+costos del ferrocarril, las tarifas son 1gualmente eleva- 
+das. Los precios por tonelada-kilómetro son: primera 
+categoría, $ 0.25 oro de 18d.; segunda categoría, $ 0.20 
+y tercera categoría, $ 0.15. Claro está que estas tarifas 
+posibilitan la conducción sólo de carga de transporte u- 
+gente, 
+e impiden el acarreo de materia prima. En el 
+transporte de animales, base importante de tráfico, se 
+cobra hoy por animales vacunos, caballares, cabríos, la- 
+nares y porcinos, en trenes completos con mínimun de 
+cinco wagones de 16 toneladas, $ 1.05 por wagón y por 
+kilómetro; por los mismos animales en wagón completo 
+de 16 toneladas $ 2.10 por wagón y por kilómetro; por 
+animales vacunos y caballares sueltos, por una expedi- 
+ción inferior a cinco animales, $0.43 por animal y kiló- 
+metro; por animales cabríos, lanares y porcinos, por una 
+expedición inferior a 21 animales, $ 0.10 por animal y 
+kilómetro. Las tarifas correspondientes al transportede 
+animales facilita este tráfico, sujeto, por lo demás, a 
+una grande e inevitable competencia por parte de la 
+vía pedestre, como en realidad sucede en casi toda la 
+cordillera. 
+ANALES.-MAYO.-JUNIO.—5
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and layout elements have been captured.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 594
@@ -846,248 +916,419 @@ The transcription is complete and accurate for all visible text and visual eleme
 }
 ```
 
+# Page 668
+
 ## Page Metadata
-- Page number: 598
-- Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/manifest.json`
+- Source page: 668
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/page-images/page-0668.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a running header at the top. The text is divided into three paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-598 MEMORIAS CIENTÍFICAS I LITERARIAS
----
-A mi entender, es casi imposible dar una solucion
-absoluta. porque ella debe depender necesariamente
-de las circunstancias especiales de la rejion en que
-se aplique. Así, no puede ser el mismo salario que se
-pague en una parte en que la vida sea cara, al que
-se pague en otra en que sea barata. Deben, ademas,
-tomarse en cuenta las necesidades de la vida del tra-
-bajador, su preparacion e intelijencia, porque las ne-
-cesidades que tiene que satisfacer serán mayores o
-menores segun esas circunstancias.
 
-Reconocer al obrero solo un salario que baste pa-
-ra sustentar la vida, esto es, su comida i su vestido,
-es condenarlo para siempre a la categoría de obrero,
-negándole todo derecho de prosperidad. Ya han pa-
-sado los tiempos en que era considerado como un sér
-inferior por haber nacido pobre; hoi es un ciudada-
-no en las repúblicas igual a cualquier otro, i nin-
-gun ascenso, ningun deseo de mejoramiento puede
-estarle, no digo impedido, sino aun trabado o entor-
-pecido, debiendo por el contrario, facilitársele en
-cuanto sea posible aquellos medios para que mejore
-su condicion. Así lo reclaman los principios de igual-
-dad de que todos usufructuamos i que, aun cuando
-mera teoría en muchas partes, deben ser convertidos
-en realidad para el bien i el progreso de las nacio-
-nes, dentro de las cuales el obrero es el elemento
-mas numeroso.
-
-La base de todo mejoramiento en el obrero estri-
-ba en su bienestar económico. Por eso la Economía
-Social, al tratar de mejorar al proletario, tiende a
-reconocerle mayores salarios que los precisos para
-su subsistencia, i dejarle, de esta manera, la puerta
-abierta para futuros progresos.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements that would require cropping."}
+```markdown
+598 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+A mi entender, es casi imposible dar una solucion 
+absoluta, porque ella debe depender necesariamente 
+de las circunstancias especiales de la rejion 
+en que 
+se aplique. Así, no puede ser el mismo salario que se 
+pague en una parte en que la vida sea cara, al que 
+se pague en otra en que sea barata. Deben, ademas, 
+tomarse en cuenta las necesidades de la vida del tra- * 
+bajador, su preparacion e intelijencia, porque las ne-- 
+cesidades que tiene que satisfacer 
+serán 
+mayores 
+0 
+menores segun esas circunstancias. 
+Reconocer al obrero solo un salario que ste pa- 
+ra sustentar la vida, esto es, su comida 1su vestido, 
+es condenarlo para siempre a la categoría de obrero, 
+_negándole todo derecho de prosperidad. Ya han pa- 
+sado los tiempos en que era considerado como un sér 
+inferior por haber nacido pobre; hoi es un ciudada- 
+no en las repúblicas igual a cualquier 
+otro, i nin. 
+gun ascenso, ningun deseo de mejoramiento 
+puede 
+estarle, no digo impedido, sino aun trabado o entor- 
+pecido, debiendo por el contrario, 
+facilitársele 
+en 
+cuanto sea posible aquellos medios para que mejore 
+su condicion. Así lo reclaman los principios de igual. 
+dad de que todos usufructuamos i que, 
+aun cuando 
+mera teoría en muchas partes, deben ser convertidos. 
+en realidad para el bien i el progreso de las nacio- 
+nes, dentro de las cuales 
+el obrero 
+es 
+el elemento 
+mas NUMEroso. 
+La base de todo mejoramiento en el obrero estri- 
+ba en su bienestar económico. Por 
+eso la Economía 
+Social, al tratar de mejorar al proletario, 
+tiende a 
+reconocerle mayores salarios que 
+los 
+precisos para | 
+su subsistencia, 1 dejarle, de esta manera, la puerta 
+abierta para futuros progresos. 
+5
 ```
 
-## Page Metadata
-- Page number: 599
-- Source publication: Anales de la Universidad de Chile
-- Session: Session of the Council of Public Instruction, September 1918
-- Running header: ESTUDIO DEL TERRITORIO DE MAGALLANES
-
-## Layout And Reading Order
-The page presents a single column of text, with a running header at the top. The content flows continuously from top to bottom.
-
-## Literal Transcription
-ESTUDIO DEL TERRITORIO DE MAGALLANES 599
-
-Fija tambien un límite al descenso en el valor de
-la mercadería-trabajo, que se conoce con el nombre
-de costo de produccion de esta mercadería, i que
-comprende: 1.º Lo que ha costado la preparacion
-del obrero; 2.º el valor que representa su manten-
-cion física e intelectual; i 3.º la remuneracion mis-
-ma del obrero.
-
-La exijencia determinada en el número 1.º se to-
-ma en cuenta en cualquier otro trabajo: un aboga-
-do, por ejemplo, al hacer un escrito i fijar su valor,
-considera no solo el trabajo material que le ha cos-
-tado su escritura i redaccion, sino el interes que re-
-presenta el capital invertido en su preparacion para
-adquirir el título, i aun ese precio será tanto mas
-alto cuanto mayores sean su competencia i conoci-
-mientos. Seria, pues, injusto desconocérselo al obre-
-ro, por esto, i porque el aumento que esperimenta su
-jornal por tal capítulo es casi insignificante, ya que,
-por lo jeneral, poco ha costado su preparacion.
-
-La exijencia del número 2.º tiende a sacar al obrero
-de su triste condicion de trabajador físico, diré, para
-darle márjen a un cultivo psíquico, indispensable si
-se desea su progreso.
-
-Pero, por desgracia, todavía en Chile no se toman en
-cuenta, para fijar los salarios, las dos circunstancias
-anteriores; un obrero se siente feliz si, trabajando
-regularmente, puede asegurarse su alimento i ves-
-tido.
-
-Todas las luchas entre patrones i obreros se pro-
-ducen por el tercero de los factores indicados.
-
-En Magallanes el elemento trabajador, si bien ha
-obtenido por intermedio de la Federacion el mejora-
-miento de sus habitaciones, alimento i otras cosas,
-
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete for all visible text on the page. The last paragraph appears to be cut off at the bottom of the page, but all visible text has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 669
 
 ## Page Metadata
-- Page number: 670
-- Source publication: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- Document part: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/manifest.json`
+- Source page: 669
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/page-images/page-0669.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a running header at the top. The text flows continuously from one paragraph to the next.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-600 MEMORIAS CIENTÍFICAS I LITERARIAS
-siempre continúa luchando, i a ello se deben las
-huelgas que se producen, por el mejoramiento de su
-salario, que talvez sea el mas alto de Chile, cosa que
-nada significa, pues, como dije, ello depende de las
-condiciones de la vida de cada lugar i de la calidad
-de los obreros. El de Magallánes es el mas instruido
-de Chile i por tanto tiene mayor número de necesi-
-dades a que atender.
-Por otra parte, en cualquiera otra rejion del pais
-un hombre puede vivir descalzo todo el año, sin que
-su vida o su salud peligre; aquí no puede hacerlo por-
-que se espondria a perder sus dedos, con el frío en
-el invierno, i a recojer un reumatismo en el verano, a
-consecuencia de las lluvias i de los cambios frecuen-
-tes de temperatura.
-Su casa debe tener cierto confort i abrigo para
-contrarrestar los fríos, i formar en ella un ambiente
-agradable que lo aleje de la taberna durante el invier-
-no, en el que, el trabajador de campo por lo ménos,
-está obligado a un paro forzoso.
-La ropa debe ser mas abundante i de mejor calidad,
-i por último, su alimentacion debe ser mas fuerte i
-nutritiva, porque el organismo necesita gastar ma-
-yor cantidad de enerjía para luchar con los elemen-
-tos naturales.
-En cada conflicto que se suscita entre patrones i
-obreros, aquéllos alegan que el salario que pagan es
+
+```markdown
+ESTUDIO DEL TERRITORIO DE MAGALLANES 
+599 
+Fija tambien un límite al descenso en el valor de 
+la mercadería-trabajo, que se conoce con el nombre 
+de costo de produccion de esta 
+mercadería, 
+1 que 
+comprende: 1.2 Lo que 
+ha 
+costado la preparacion 
+del obrero; 2.2 el valor que 
+representa su manten- 
+cion física e intelectual; 1 3.2 la remuneracion mis- 
+ma del obrero. 
+La exijencia determinada en el número 1.2 
+se to- 
+ma en cuenta en cualquier otro trabajo: un aboga- 
+do, por ejemplo, al hacer un escrito 1 fijar su valor, 
+considera no solo el trabajo material que le ha cos- 
+tado su escritura 1 redaccion, sino el interes que re- 
+presenta el capital invertido en su 
+preparacion para 
+adquirir el título, 1 aun ese precio 
+será 
+tanto "mas 
+alto cuanto mayores sean su competencia 
+1 conoci- 
+mientos. Seria, pues, injusto desconocérselo al obre- 
+ro, por esto, 1 porque el aumento 'que esperimenta su 
+jornal por tal capítulo es casl insignificante, ya que, 
+por lojeneral, poco ha costado su vbreparacion. 
+La exijencia del número 2." tiende a sacar al obrero 
+¡de su triste condicion de trabajador físico, diré, para 
+darle márjen a un cultivo psíquico, indispensable si 
+se desea su progreso. 
+Pero, por desgracia, todavía en Chile no se toman en 
+¡ cuenta, para fijar los salarios, las dos circunstancias 
+anteriores; un obrero se siente 
+feliz 
+si, trabajando 
+regularmente, 
+puede asegurarse su alimento 1 ves- 
+| 
+Todas las luchas 
+entre patrones i obreros se pro- 
+ducen por el tercero de los factores indicados. 
+En Magallánes el elemento trabajador, 
+si bien ha 
+obtenido por intermedio de la Federacion el mejora- 
+“miento de sus habitaciones, 
+alimento 1 otras cosas,
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 670
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/manifest.json`
+- Source page: 670
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/page-images/page-0670.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+600 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+siempre continúa 
+luchando, 
+1 a 
+elo se deben las 
+huelgas que se producen, por el mejoramiento de su 
+salario, que talvez sea el mas alto de Chile, cosa que 
+nada significa, pues, como dije, ello depende de 
+las 
+condiciones de la vida de cada lugar 1 de la calidad 
+de los obreros. El de Magallánes es el mas instruido 
+de Chile 1 por tanto tiene mayor número de 
+ necesi- 
+dades a que atender. 
+Por otra parte, en cualquiera otra rejion del 
+pais 
+un hombre puede vivir descalzo todo el año, sin que 
+su vida o su salud peligre; aquí no puede hacerlo por- 
+que se espondria a perder sus dedos, con el frío en 
+el invierno, 1a resojer un reumatismo en el verano, a 
+o de las lluvias 1 de los cambios frecuen- 
+es de temperatura. 
+Sa casa debe tener cierto 
+confort i abrigo 
+para 
+contrarrestar los fríos, 1 formar en ella un 
+ambiente 
+agradable que lo aleje de la taberna durante el invier- 
+no, en el que, el trabajador de campo por 
+lo ménos, 
+- 
+está obligado a un paro forzoso. - 
+La ropa debe ser mas abundante 1 de mejor calidad, 
+1 por último, su alimentacion debe ser mas 
+fuerte 1 
+nutritiva, porque el organismo necesita 
+gastar ma- 
+yor cantidad de enerjía para luchar con los elemen- 
+tos naturales. 
+: 
+En cada conflicto que se suscita entre 
+patrones 1 
+obreros, aquéllos alegan que el salario que pagan es 
+debe guardar, ademas, cierta relacion con las enormes 
+ganancias que obtienen, 
+sin que ello signifique una 
+participacion obligada en los beneficios. 
+En efecto, 
+si el empresario en unos pocos años de 
+trabajo ha hecho una enorme 
+fortuna 1 los obreros: 
+y 
 el mas elevado en el pais, olvidando que este valor
-debe guardar, ademas, cierta relacion con las enormes
-ganancias que obtienen, sin que ello signifique una
-participacion obligada en los beneficios.
-En efecto, si el empresario en unos pocos años de
-trabajo ha hecho una enorme fortuna i los obreros
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
 ```
 
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 671
+
 ## Page Metadata
-Page number: 671
-Header: ESTUDIO DEL TERRITORIO DE MAGALLANES 601
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/manifest.json`
+- Source page: 671
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/page-images/page-0671.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. There is a running header at the top with the title of the study and the page number. A short horizontal rule separates two sections of the main text. The text flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-ESTUDIO DEL TERRITORIO DE MAGALLANES 601
-
-desmejoran (los hijos nacen raquíticos i enclenques,
-sin que estos defectos nazcan de los vicios de los
-padres) puede decirse que, a ojos vistas, hai una
-desproporcion injusta, entre el beneficio del empre-
-sario i el salario que paga al obrero, al cual se le
-puede calificar inmediatamente de insuficiente. Pues
-bien, ámbas cosas se pueden ver con frecuencia en
-Magallánes, i ya he dicho que basta hacer un paseo
-por Punta Arenas, para constatar un enorme porcen-
-taje de niños con los huesos torcidos i la espina
-dorsal desviada.
-
-Otra circunstancia fundamental, que ha venido a
-trastornar las relaciones entre patrones i obreros en
-Magallánes, i a hacer mas cruda la lucha por causa
-del salario, ha sido la implantacion del réjimen
-aduanero, materia que trataré en el capítulo siguiente.
-
-De lo dicho anteriormente se desprende, claro como
-luz del dia, que la Federacion Obrera de Magallánes es
-una asociacion de resistencia i de mejoramiento mutuo,
-que no tiene, ni puede tener, el carácter subversivo que
-se le achaca, aun por el elemento oficial, que es el que
-precisamente debiera conocerla mejor, i por aquellas ra-
-zones aun protejerla.
-
-Sin embargo, es mui triste constatar que dicho ele-
-mento no asume en las luchas entre el capital i el tra-
-bajo por causa del salario, el papel que le corresponde;
-por el contrario, ataca a quien nada hace, provocando,
-al mismo tiempo, con medidas inconsultas, la tranquili-
-dad del obrero magallánico.
-
+```markdown
+ESTUDIO DEL TERRITORIO DE MAGALLANES 
+601 
+desmejoran (los hijos nacen raquíticos 1 enclenques, 
+sin que estos defectos 
+nazcan de los vicios de los 
+padres) puede decirse que, a 
+ojos vistas, 
+hal 
+una 
+desproporcion injusta, entre el beneficio del 
+empre- 
+sario 1 el salario que paga al obrero, al cual se 
+le 
+puede calificar inmediatamente de insuficiente. Pues 
+- bien, ámbas cosas 
+se pueden ver con frecuencia en 
+Magallánes, 1 ya he dicho que basta hacer un paseo 
+por Punta Arenas, para constatar un enorme porcen- 
+taje de niños con 
+los huesos 
+torcidos 
+1 la espina 
+dorsal desviada. 
+Otra circunstancia fundamental, que ha 
+venido a 
+trastornar las relaciones entre patrones 1 obreros 
+en 
+Magallánes, i a hacer mas cruda la lucha por causa 
+del salario, ha sido 
+la 
+¡implantacion 
+del 
+réjimen 
+aduanero, materia que trataré en el capítulo siguiente. 
+De lo dicho anteriormente 
+se desprende, claro como 
+luz del dia. que la Federacion Obrera de Magallánes es 
+una asociacion de resistencia i de mejoramiento mutuo, 
+que no tiene, ni puede tener, el carácter subversivo que 
+se le achaca, aun por el elemento 
+oficial, que es el que 
+precisamente debiera conocerla mejor, ADOS aquellas ra- 
+¡zones aun protejerla. 
+Sin embargo, es mul triste constatar que dicho 
+ele- 
+mento no asume en las luchas entre el capital 1 el tra- 
+1 
+bajo por causa del salario, el papel «que le corresponde; 
+por el contrax.o, ataca a quien nada hace, provocando, 
+al mismo tiempo, con medidas inconsultas, 
+la tranquili- 
+dad del obrero magallánico. 
 Me correspondió presenciar el año último la huelga je-
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions. There is a short horizontal rule separating two paragraphs, which serves as a visual divider.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-The last word on the page, "je-", is cut off and incomplete.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last word is incomplete as it is cut off at the bottom of the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and a minor decorative rule, neither of which are suitable for cropping as standalone visual assets."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 672
 
@@ -1378,61 +1619,112 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 675
+
 ## Page Metadata
-Page number: 675
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/manifest.json`
+- Source page: 675
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/page-images/page-0675.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. At the top, there is a header with the title of the section and the page number. The main content is a continuous block of prose, which includes a numbered list of points.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-ESTUDIO DEL TERRITORIO DE MAGALLANES 605
 
-órden del servicio que atacaba a sus compañeros, pues
-desconocía su derecho de huelga.
-No pretendo hacer en este estudio la defensa de la
-clase obrera; si describo los actos de la autoridad, que
-ya por su frecuencia constituyen una norma de con-
-ducta en estos casos, es para mostrar la forma en que
-por lo jeneral se procede cada vez que se trata de un
-problema que requiere conocimiento de las condiciones
-especiales de la vida magallánica, conocimiento que
-las autoridades públicas no tratan de adquirir, guián-
-dose solo en sus actos por viejos prejuicios, que consi-
-deran revolucionarios a los obreros que se unen i de-
-claran no querer trabajar, cuando el salario no les sa-
-tisface.
-
-Yo considero censurable en este caso la actuacion
-de la autoridad:
-1.º Porque desconoce el lejítimo derecho de huel-
-ga.
-Ningun individuo puede ser obligado a trabajar
-cuando él no lo quiera, circunstancia que no varía por
-ser muchos los que se niegan a hacerlo. La Federa-
-cion de Magallanes forma un núcleo compacto i disci-
-plinado, consciente de que su fuerza reside en la union
-mas absoluta; decretado por la cabeza directiva de ella
-el paro jeneral, todos se adhieren. La actuacion de la
-autoridad cabria desde el momento en que alguno de
-los miembros de la Federacion pretendiera, por medio
-de la fuerza, impedir que algun obrero trabajara, o que
-se atentara en cualquier forma contra la propiedad o
-la seguridad interior.
-2.º Porque empleó para reemplazar a los obreros a
-las tropas del Ejército i la Armada, con lo cual se de-
+```markdown
+ESTUDIO DEL TERRITORIO DE MAGALLANES 
+605 
+órden del servicio que atacaba a sus compañeros, pues 
+desconocia su derecho de huelga. 
+No pretendo hacer en 
+este estudio la defensa 
+de la 
+clase obrera; si describo los actos de la autoridad, que 
+ya por su frecuencia 
+constituyen una norma 
+de con- 
+ducta en estos casos, es para mostrar 
+la forma en que 
+por lo jeneral se procede cada vez que se trata de un 
+problema que requiere conocimiento de las condiciones 
+especiales de la vida magallánica, 
+conocimiento 
+que 
+las autoridades públicas no tratan de adquirir, guián- 
+dose solo en sus actos por viejos prejuicios, que consi- 
+deran revolucionarios a los obreros que se unen 1 de- 
+claran no querer trabajar, cuando el salario no les sa- 
+tisface. 
+Yo considero censurable 
+en este caso la actuacion 
+de la autoridad : 
+: 
+1.0 Porque desconoce el lejítimo derecho de 
+ huel- 
+ga. 
+Ningun 
+individuo 
+puede ser 
+obligado 
+a trabajar 
+cuando él no lo quiera, circunstancia que no varía por 
+ser muchos los 
+que se niegan a hacerlo. La 
+ Federa- 
+cion de Magallánes forma un núcleo compacto 1 disci- 
+plinado, consciente de que su tuerza reside en 
+la union 
+mas absoluta; decretado por la cabeza directiva de ella 
+el paro jeneral, todos se adhieren. 
+La actuacion 
+de la 
+autoridad cabria desde el momento en que alguno de 
+los miembros de la Federacion pretendiera, por medio 
+de la fuerza, impedir que algun obrero trabajara, o que 
+se atentara en 
+cualquier forma contra la propiedad o 
+la seguridad interior. 
+2.0 Porque empleó para reemplazar a los obreros a 
+las tropas del Ejército 1 la Armada, con lo cual 
+se de- 
 claró partidaria de los capitalistas, intervencion que no
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 676
 

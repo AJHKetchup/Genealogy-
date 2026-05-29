@@ -1,0 +1,104 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-cb313791f88e-P0352-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353.codex.md
+converted_sha256: cb313791f88e47f770c9a189fc2df2c8fdce9af1c334ffa8a6378e505cae294e
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json
+page_start: 352
+page_end: 352
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json`
+- Source page: 352
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/page-images/page-0352.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+332 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+don José Hipólito Salas, al cual atribuyeron sin ra- 
+zón el artículo de La Revista Católica 1 finjleron una 
+condenación de La Revista por un supuesto nuncio 
+en Rio Janeiro, fundada en que este periódico había 
+recomendado en años anteriores una obra perniciosa. 
+La Revista replicó en dos artículos brillantes 1 razo- 
+nados que intituló: Contestación a nuestros adversa- 
+mos e 
+Impudente 1 escandalosa impostura, | en el pri- 
+mero de los cuales se lee un párrafo de fuego dirijido, ++ 
+según se entendió entonces, contra don Ignacio Víe- 
+tor Eizaguirre 1 talvez contra don Francisco de Paula 
+Taforó, los dos diputados eclesiásticos; porque se cre- 
+yó que sólo aquél podía tener noticias de la reco- 
+mendación de una obra impía hecha por la revista 
+sels años antes (1). 
+S 
+Kizaguirre, que no había querido consentir en la 
+publicación de las Palabras de un creyente, amonestó 
+severamente, 
+a nombre del partido de -oposición, a- 
+los redactores de El Amigo del Pueblo, para que no. 
+continuasen en su campaña anti-relijiosa; 1 como esto 
+no podía bastar, el periódico fué suprimido 1 reem- 
+plazado por otro de igual formato, que se denominó ' 
+La Barra, redactado por don Manuel Bilbao, her- 
+mano menor de Francisco, el cual recibió orden de * 
+hacer oposición sin tocar cuestiones relijiosas, orden 
+que no siempre obedeció. 
+E 
+Eizaguirre durante su asistencia a la cámara, no- 
+tomó mul activa parte en los debates que se suscl 
+taron; pero no dejó de hacerlo cuando se promovie- 
+ron cuestiones relacionadas con la iglesia. 
+Así terció- 
+en la discusión de la lei de instrucción primaria que, 
+(1) 
+Revista Católica, nos. del 3 y del 11 de Mayo de 1850.—Re- 3 
+vista Chilena, tomo 1 páj. 543 y tomo Il, páj. 87.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 353

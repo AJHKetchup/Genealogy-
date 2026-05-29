@@ -1484,63 +1484,133 @@ All legible text on the page has been transcribed. The faint text at the bottom 
 }
 ```
 
+# Page 420
+
 ## Page Metadata
-Page number: 420
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json`
+- Source page: 420
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/page-images/page-0420.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a title, a date and expedition number, a block of introductory text, and then a resolution with numbered and lettered points. The text is presented in a single column.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-REGLAMENTO DE DESINFECCION PARA
-VEHICULOS DE TRANSPORTE DE PASAJEROS
-—
+
+```markdown
+REGLAMENTO
+DE
+DESINFECCION
+PARA
+VEHICULOS
+DE
+TRANSPORTE
+DE
+PASAJEROS
 Exp. T. 175/1936.
-La Plata, septiembre 17 de 1936.
-
-Visto este expediente en el que la Dirección de Tráfico de la
-Provincia de Buenos Aires, acompaña para su aprobación el
-proyecto de «Reglamento de desinfección para vehículos de
-transporte de pasajeros»; de acuerdo a lo dictaminado por el
-señor Asesor de Gobierno y vista del señor Fiscal de Estado.
+La
+Plata,
+septiembre
+17
+de
+1936.
+Yisto este expediente en el que la Direcciôn de Tïâfieo de la
+Provincia
+de
+Buenos Aires,
+acompana para
+su aprobaciôn el
+proyecto
+de
+«Reglamento
+de desinfecciôn para vehiculos
+ae
+transporte
+de pasajeros»;
+de acuerdo a lo dictaminado por el
+senior Asesor de Gobierno y vista del senor Fiscal de Estado.
 El Poder Ejecutivo —
-RESUELVE:
-
-1º Establecer que, de acuerdo a la reglamentación que se
-aprueba por la presente, los concesionarios para el transporte
-colectivo de pasajeros quedarán obligados a efectuar por su
-exclusiva cuenta y bajo la vigilancia de la Dirección de Trá-
-fico, la desinfección de todos sus vehículos.
-2º Deberán proveerse de todo el material necesario, de acuerdo
-a la técnica moderna y que la práctica haya establecido; v. gr.:
-aparatos pulverizadores con sus accesorios, líquidos desinfec-
-tantes, probetas graduadas, etcétera, que deberán ser aprobados
-por la Dirección de Higiene de la Provincia y revisados anual-
+resuelve:
+l9
+Establecer
+que,
+de acuerdo
+a la reglamentaciôn
+que
+se
+aprueba por la présente, los concesionarios para el transporte
+colectivo
+de pasajeros
+quedarân obligados
+a efectuar por
+su
+exclusiva cuenta y bajo la vigilancia de la Direcciôn de Trâ-
+fico, la desinfecciôn de todos sus vehiculos.
+2° Deberân proveerse de todo el material necesario, de acuerdo
+a la técnica moderna y que la prâctica haya establecido; v. gr. ;
+aparatos pulverizador'es
+con
+sus accesorios, liquidos desinfec¬
+tantes, probetas graduadas, etcétera, que deberân ser aprobados
+por la Direcciôn de Higiene de la Provincia y revisados anual-
 mente.
-3º La desinfección y limpieza se practicará en el siguiente
+39
+La desinfecciôn y limpieza
+se practicarâ en el siguiente
 orden:
-a) Lavado previo, perfecto del interior y exterior de los
-vehículos.
-b) Desinfección previa del piso, con una solución de creolina
-que contenga un 25 por ciento de fenoles al 3 por ciento
-en agua finamente pulverizada.
-c) Desinfección de techos, paredes, ventanillas, pasamanos y
-asientos, con una solución de formol comercial (del 40 por
-ciento de formaldehido) diluido al 5 por ciento en agua
+a)
+Lavado
+previo,
+perfecto
+del interior
+y exterior
+de los
+vehiculos.
+b) Desinfecciôn previa del piso, con una soluciôn de creolina
+que contenga un 25 por ciento de fenoles al 3 por eiento
+en
+agua finamente pulverizada.
+c) Desinfecciôn de techos, paredes, ventanillas, pasamanos y
+asientos, con una soluciôn de formol comereial (del 40 por
+ciento de formaldehido)
+diluido al 5 por ciento en agua
 finamente pulverizada.
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or visual elements other than text.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text and its formatting from the provided page image.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains no images or visual elements suitable for cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 421
 
@@ -2053,67 +2123,143 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 ```
 
+# Page 427
+
 ## Page Metadata
-Page number: 427
-Source publication year: 1936
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json`
+- Source page: 427
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/page-images/page-0427.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, primarily a numbered list of regulations or penalties, preceded by a page number and a section heading. The reading order is top-to-bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 101 —
 
-e) VELOCIDAD
-
+```markdown
+101 —
 18. Por transitar de noche conduciendo materiales inflama-
-bles. Obtener permiso y pesos 100.
-19. Por exceder la velocidad de 10 kilómetros por hora los
-vehículos que conducen materiales inflamables, pesos 100.
-20. Por detenerse un vehículo en cualquier punto que no
-sea el de expedición o destino, cuando se conduzca materia-
-les inflamables (salvo caso de fuerza mayor), pesos 100.
-21. Por no llevar sobre la carga, como señal de precaución,
+bles.
+Obtener permiso y
+pesos 100.
+19. Por exceder la velocidad de
+10 kilômetros por hora los
+vehîculos
+que condueen materiales inflamables, pesos 100.
+20.
+Por
+detenerse
+un vehîculo
+en cualquier punto
+que no
+sea el de expediciôn
+o destino, cuando se conduzca materiales
+inflamables
+(salvo
+caso de fuerza mayor), pesos 100.
+21. Por
+no llevar sobre la carga, como serial de preeauciôn,
 una bandera amarilla y negra cuando se conduzcan materiales
 inflamables, pesos 100.
-22. Por no tener los vehículos de transportes de inflamables
-una libreta especial otorgada por la Policía y no llevar el
+22. Por no tener los vehîculos de transportes de inflamables
+una
+libreta
+especial otorgada
+por la Policia y
+no llevar el
 conductor una boleta de la casa expedidora, pesos 100.
-
-23. Por exceder de 80 kilómetros en campo abierto, pesos 20.
-24. Por exceder de 30 kilómetros en zonas pobladas, pesos 20.
-25. Por exceder de 15 kilómetros en cruces, pasos a nivel y
+c)
+VELOCIDAD
+23. Por exceder de 80 kilômetros en campo abierto, pesos 20.
+24. Por exceder de 30 kilômetros en zonas pobladas, pesos 20.
+25. Por exceder de 15 kilômetros en cruces, pasos a nivel y
 puentes, pesos 20.
-26. Por exceder de 50 kilómetros en campo abierto con ca-
-miones o vehículos con capacidad de transporte de más de 7 pasaje-
-ros, pesos 20.
-27. Por exceder de 20 kilómetros en zonas pobladas con
-camiones o vehículos con capacidad de transporte de más de 7
+26.
+Por exceder
+de 50 kilômetros en campo abierto con ca-
+miones o vehîculos con capacidad de transporte de mas 7 pasaje-
+ros,
+pesos 20.
+27.
+Por
+exceder
+de
+20 kilômetros
+en
+zonas
+pobladas
+con
+camiones
+o vehîculos con capacidad de transporte de mâs de 7
 pasajeros, pesos 20.
-28. Por circular con vehículo acoplado en forma no rígida
-o deficiente, pesos 20.
-29. Por exceder de 30 kilómetros en campo abierto con ve-
-hículos de llanta maciza, pesos 20.
-30. Por exceder de 20 kilómetros en zonas pobladas con
-vehículos de llanta maciza, pesos 20.
-31. Por exceder de 12 kilómetros en cruces, pasos a nivel
-y puentes, con vehículos de llanta maciza, pesos 20.
-32. Por exceder con vehículos de tracción a sangre una velo-
-cidad mayor al trote de un animal, o no hacerlo al paso en
-los cruces, pasos a nivel y puentes, pesos 20.
+28.
+Por circular
+con vehîculo acoplado en forma no rîgida
+o déficiente, pesos 20.
+29. Por exceder de 30 kilômetros en campo abierto con ve¬
+hîculos de llanta maciza, pesos 20.
+30.
+Por
+exceder
+de
+20 kilômetros
+en
+zonas
+pobladas
+con
+vehîculos
+de llanta maciza, pesos 20.
+31.
+Por exceder
+de
+12 kilômetros
+en cruces,
+pasos
+a nivel
+y puentes, con vehîculos de llanta maciza, pesos 20.
+32. Por exceder con vehîculos de tracciôn a sangre una velo¬
+cidad
+mayor al trote de un animal, o no hacerlo al paso en
+los
+cruces,
+pasos
+a nivel y puentes, pesos 20.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 428

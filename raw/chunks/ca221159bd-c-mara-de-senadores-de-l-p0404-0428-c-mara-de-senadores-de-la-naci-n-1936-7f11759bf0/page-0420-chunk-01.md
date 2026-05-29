@@ -1,0 +1,140 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d878d2cf24ed-P0420-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428.codex.md
+converted_sha256: d878d2cf24ed9613b4f98cd9060e26cdac76d411d7644455a31f429ae07f6e3d
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json
+page_start: 420
+page_end: 420
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json`
+- Source page: 420
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/page-images/page-0420.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+REGLAMENTO
+DE
+DESINFECCION
+PARA
+VEHICULOS
+DE
+TRANSPORTE
+DE
+PASAJEROS
+Exp. T. 175/1936.
+La
+Plata,
+septiembre
+17
+de
+1936.
+Yisto este expediente en el que la Direcciôn de Tïâfieo de la
+Provincia
+de
+Buenos Aires,
+acompana para
+su aprobaciôn el
+proyecto
+de
+«Reglamento
+de desinfecciôn para vehiculos
+ae
+transporte
+de pasajeros»;
+de acuerdo a lo dictaminado por el
+senior Asesor de Gobierno y vista del senor Fiscal de Estado.
+El Poder Ejecutivo —
+resuelve:
+l9
+Establecer
+que,
+de acuerdo
+a la reglamentaciôn
+que
+se
+aprueba por la présente, los concesionarios para el transporte
+colectivo
+de pasajeros
+quedarân obligados
+a efectuar por
+su
+exclusiva cuenta y bajo la vigilancia de la Direcciôn de Trâ-
+fico, la desinfecciôn de todos sus vehiculos.
+2° Deberân proveerse de todo el material necesario, de acuerdo
+a la técnica moderna y que la prâctica haya establecido; v. gr. ;
+aparatos pulverizador'es
+con
+sus accesorios, liquidos desinfec¬
+tantes, probetas graduadas, etcétera, que deberân ser aprobados
+por la Direcciôn de Higiene de la Provincia y revisados anual-
+mente.
+39
+La desinfecciôn y limpieza
+se practicarâ en el siguiente
+orden:
+a)
+Lavado
+previo,
+perfecto
+del interior
+y exterior
+de los
+vehiculos.
+b) Desinfecciôn previa del piso, con una soluciôn de creolina
+que contenga un 25 por ciento de fenoles al 3 por eiento
+en
+agua finamente pulverizada.
+c) Desinfecciôn de techos, paredes, ventanillas, pasamanos y
+asientos, con una soluciôn de formol comereial (del 40 por
+ciento de formaldehido)
+diluido al 5 por ciento en agua
+finamente pulverizada.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 421

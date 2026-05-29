@@ -1,7 +1,7 @@
 {
   "created": "2026-05-29",
   "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123.codex.md",
-  "converted_sha256": "2abe03496d6d2204e6ab38ad7c7d2f72ebbdc4fe0750e618396e3bf9b1b5a9f8",
+  "converted_sha256": "5b35080a04aa731cf19cb669e3a47a2684a2bd65c5c6d0709746b17cff101a71",
   "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
   "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
   "source_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
@@ -12,204 +12,204 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0001-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0001-01",
       "chunk_number": 1,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0001-chunk-01.md",
       "page_start": 1,
       "page_end": 1,
       "part": 1,
       "chars": 10906,
-      "sha256": "8372419cf7ccc9e17db6cc62eaabe763716f7c04be51df2d35254c418136c1dd"
+      "sha256": "df22eb82c57981728a6628c9966274e054331b9e35d74baa6a04fc2d8e961023"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0002-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0002-01",
       "chunk_number": 2,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0002-chunk-01.md",
       "page_start": 2,
       "page_end": 2,
       "part": 1,
       "chars": 2810,
-      "sha256": "a39519fb4d1fff5cf2f64f838ce433ce98a11abf8d549f80bb2257788f00fcbb"
+      "sha256": "9afa870e10f01fc4f3af02a128b7524c70e1e47f97bad692b1f2602945e9c4d2"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0003-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0003-01",
       "chunk_number": 3,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0003-chunk-01.md",
       "page_start": 3,
       "page_end": 3,
       "part": 1,
-      "chars": 3251,
-      "sha256": "17cf6dcb2b7c04c39c96673ff9c5fd4b041bdfff0365396fe6e9973804bb2a0d"
+      "chars": 3263,
+      "sha256": "d21a76bbe926ccfbb181df7fbbe8e0566b4e20a1ed45dbbb1661332bcf4d8c79"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0004-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0107-01",
       "chunk_number": 4,
-      "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0004-chunk-01.md",
-      "page_start": 4,
-      "page_end": 4,
+      "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0107-chunk-01.md",
+      "page_start": 107,
+      "page_end": 107,
       "part": 1,
-      "chars": 2495,
-      "sha256": "0a5038068463ba3796554eec632c5a3de79d4f25fbd709102dca18d459aa7477"
+      "chars": 3387,
+      "sha256": "6f7600dc5bfb6503a297ba4703f05a9522966c06cb497383e5ceb4fc2ee6e97d"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0108-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0108-01",
       "chunk_number": 5,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0108-chunk-01.md",
       "page_start": 108,
       "page_end": 108,
       "part": 1,
       "chars": 3586,
-      "sha256": "469fc16ecd637b48a58407c2bf6c6f5e1144b6a37811547f57b67aef9a1ddb4e"
+      "sha256": "7ebcbee7c778c58f230bac96e18dd91264be25b81caf31161d26c423f66ddfbd"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0006-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0006-01",
       "chunk_number": 6,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0006-chunk-01.md",
       "page_start": 6,
       "page_end": 6,
       "part": 1,
       "chars": 2386,
-      "sha256": "2533e88446a1bc3eaaec8f23235d76cafc4692b296904c70956dbe76c119675c"
+      "sha256": "10a11ae581832962bb679caefd6152de1dddbff7bad2675e62e3efefb2770839"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0007-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0007-01",
       "chunk_number": 7,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0007-chunk-01.md",
       "page_start": 7,
       "page_end": 7,
       "part": 1,
       "chars": 3753,
-      "sha256": "0e77dda93c4cf0e0a2d53057e86da8cb6305ca0ac63ce83b44e8e5e543810476"
+      "sha256": "a0cb35307369b79d5b2bb25d25e52ec67838b92ff9ac0f4daa6c5dcca21b37e4"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0008-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0008-01",
       "chunk_number": 8,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0008-chunk-01.md",
       "page_start": 8,
       "page_end": 8,
       "part": 1,
       "chars": 7027,
-      "sha256": "6fe3f9880a99fef0ee22940c6d9be0c56a484989667bb3de5329e38901fa5e45"
+      "sha256": "c88841fb74e5bd4ac9242714b950815eea8b465b3af76cc6723285979adcfb9e"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0009-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0009-01",
       "chunk_number": 9,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0009-chunk-01.md",
       "page_start": 9,
       "page_end": 9,
       "part": 1,
       "chars": 2632,
-      "sha256": "b9b860d3bb500849e1e0713680e0312a1b7a37a0a5dc206c4ac959e5e6dd024e"
+      "sha256": "840081556c00612becdc692bccfcb570ea32af3bffdcd8b50f84fa2bbd18b63c"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0010-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0010-01",
       "chunk_number": 10,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0010-chunk-01.md",
       "page_start": 10,
       "page_end": 10,
       "part": 1,
       "chars": 2245,
-      "sha256": "d7b3cb75faa44d117dcbffd74fe29fa9378530ceed3fb54138cf0296e1e6b3fc"
+      "sha256": "cfb2fe16db3e82ab9f081baeca0eb09354813c9fbcac6e2717c0764dbe2d43f5"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0011-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0011-01",
       "chunk_number": 11,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0011-chunk-01.md",
       "page_start": 11,
       "page_end": 11,
       "part": 1,
       "chars": 6275,
-      "sha256": "7f19f0aee792e316327cdf6ed0c6ae9bf08a90142c3be71e49af7d03a7e8a6b4"
+      "sha256": "b88c67ee4088f2103e78f11d501bf67cc2d980f2db9844ddf86233e57fcda3bc"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0012-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0012-01",
       "chunk_number": 12,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0012-chunk-01.md",
       "page_start": 12,
       "page_end": 12,
       "part": 1,
       "chars": 2308,
-      "sha256": "35d6f981c48e1d0891589789f837438748373a4ceb6d5a00f64f3ee152d7408f"
+      "sha256": "d130a1faad424b0bae6f2d77d04f88ffd8c876e212b104000f5df609d675f83a"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0116-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0116-01",
       "chunk_number": 13,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0116-chunk-01.md",
       "page_start": 116,
       "page_end": 116,
       "part": 1,
       "chars": 3454,
-      "sha256": "3275dce6031601075c6ae692a1827b15c4933510152a702c762a6863af8ee251"
+      "sha256": "394a5ea64ba35505cb6d0367d77cfa03b5a78f56bcd1accfbde43c768c4378b4"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0014-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0014-01",
       "chunk_number": 14,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0014-chunk-01.md",
       "page_start": 14,
       "page_end": 14,
       "part": 1,
       "chars": 1898,
-      "sha256": "43366f3d5082a6b46aafcafa38f287a645f0055de99029925aa0a1ef83556473"
+      "sha256": "14a0dc2c92b7111fdf4fc4e7bf9a98debc73379e920df438e58ee65b537e0e3c"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0015-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0015-01",
       "chunk_number": 15,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0015-chunk-01.md",
       "page_start": 15,
       "page_end": 15,
       "part": 1,
       "chars": 2317,
-      "sha256": "9327668746aa721fcb28c460e09aaee48f9f5d735f7d3d1dd01126d6816eb468"
+      "sha256": "ba28996731b5b8b42835d560fea2174837ee14a6641859693448523b9aa32f09"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0119-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0119-01",
       "chunk_number": 16,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0119-chunk-01.md",
       "page_start": 119,
       "page_end": 119,
       "part": 1,
       "chars": 3719,
-      "sha256": "bd96698734457ae87457f9073b68a50a1d3a08fecb3e00190b301b4fa3d29e0d"
+      "sha256": "db0eb8720d8f891bc0eb728dca0d3c51088b979a309b479aaf37115986ec3b0d"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0120-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0120-01",
       "chunk_number": 17,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0120-chunk-01.md",
       "page_start": 120,
       "page_end": 120,
       "part": 1,
       "chars": 3592,
-      "sha256": "7bbcdc19af6f1960a8d067061b7d378193f4e2e34a9efca0cfe6ce9071d7d6c7"
+      "sha256": "49bb04a44ce84a373090856e6af1a45861fc96d611c2f195218f101f52754408"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0121-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0121-01",
       "chunk_number": 18,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0121-chunk-01.md",
       "page_start": 121,
       "page_end": 121,
       "part": 1,
       "chars": 3577,
-      "sha256": "4905b8047ca9fd604bb991e734c20b05861143feda676c19a398d5b1ac792850"
+      "sha256": "8c5c7436ea66a5f85147a71eb45207549653da3ba90bd8e3f42222303f83e7f8"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0122-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0122-01",
       "chunk_number": 19,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0122-chunk-01.md",
       "page_start": 122,
       "page_end": 122,
       "part": 1,
       "chars": 3563,
-      "sha256": "cbbd694fa128cb2a42828738112c34e59522f1b2760093702850fc150d81e0b5"
+      "sha256": "d79257da48dc6391c84751aaa188905d4940506b0559eafe25f41ec4d177d99a"
     },
     {
-      "chunk_id": "CHUNK-2abe03496d6d-P0123-01",
+      "chunk_id": "CHUNK-5b35080a04aa-P0123-01",
       "chunk_number": 20,
       "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0123-chunk-01.md",
       "page_start": 123,
       "page_end": 123,
       "part": 1,
       "chars": 3491,
-      "sha256": "d88db5f45a72066112ab201669a1d435793be987d9af1cce4fbfe5cda7f921db"
+      "sha256": "d050f0cdb1aa4f715d4eef83c6d6ca1ccd196214142a52878a6898b0bbeb981a"
     }
   ]
 }

@@ -691,69 +691,97 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 538
+
 ## Page Metadata
-Page number: 146
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/manifest.json`
+- Source page: 538
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/page-images/page-0538.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a header with a page number and publication title. Below this, there are two distinct official communications, each formatted as a letter or memo, with dates, recipients, and senders, followed by the body text. The first communication is shorter, followed by a signature. The second communication is longer, with its body text continuing to the end of the page.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-146 BOLETIN DE INSTRUCCION PÚBLICA
----
-N.º 14 Los Anjeles, 24 de Mayo de 1918.
 
-Señor Rector:
-
-Debiendo trasladarse a Cauquénes, con igual cargo, el profesor
-de Ciencias Físicas i Naturales de este Liceo don Pedro Segura
-Martínez, con 30 horas semanales de clases ha presentado la re-
-nuncia a estas clases.
-Como no es posible encontrar un profesor interino de dicha
-asignatura en esta localidad, ruego al señor Rector se sirva llamar
-a la brevedad posible a concurso, a fin de que no sufran tanto
-perjuicio los alumnos.
-
-(Firmado).—SALUSTIO CALDERON.
-Rector.
----
-Santiago, 20 de Mayo de 1918.
-
-Señor Domingo Amunátegui S.
-
-Rector de la Universidad.
-
-Señor Rector:
-
-Por una disposicion gubernativa, emanada del Ministerio de
-Instruccion Pública i sancionada por la Lei de Presupuestos, re-
-cien promulgada, el personal docente masculino de instruccion se-
-cundaria ha quedado dividido en tres categorías, con asignaciones
-distintas. Pertenecen segun la mencionada disposicion, a la pri-
-mera categoría los profesores provistos de diploma de «profesor
-de Estado»; a la segunda, los que sin estar provistos del referido
-diploma, cuentan con mas de diez años de servicio, i desempeñan
-un mínimum de doce horas semanales de clase; i a la tercera, los
-que no tienen los requisitos anteriores.
-No es mi ánimo, señor Rector, discutir ni criticar la aludida
-resolucion, inspirada, como la creo, en un alto espíritu de justicia.
-Estimo, sin embargo, que el Honorable Consejo de Instruccion
-Pública podria completar tan meritoria obra de justicia, dispo-
-niendo que fueran incluidos en la primera categoría aquellos pro-
-fesores, contadísimos, por cierto, que reunieran los tres requisitos
+```markdown
+146 
+BOLETIN DE INSTRUCCION PÚBLICA 
+N. 14 
+Los Anjeles, 24 de Mayo de 1918. 
+Señor Rector: 
+Debiendo trasladarse a 
+Cauquénes, con igual cargo, el profesor 
+de Ciencias Físicas 1 Naturales de este Liceo don Pedro Segura 
+Martínez, con 30 horas semanales de clases ha presentado la re- 
+nuncia a estas clases. 
+Como no 
+es posible encontrar un auoliso interino de dicha 
+asignatura en esta localidad, 1uego al señor Rector se sirva llamar 
+a la brevedad posible a concurso, a fin de que no sufran tanto 
+perjuicio los alumnos. 
+(Firmado).—SALUSTIO CALDERON. 
+Rector.- 
+Santiago, 20 de Mayo de 1918. 
+Señor Domingo Amunátegui $. 
+Rector de la Universidad. 
+Señor Rector: 
+Por una 
+disposicion gubernativa, emanada 
+del Ministerio de 
+Instruccion Phblica 1 sancionada por la Lei de Presupuestos, re- 
+cien promulgada, el personal docente masculino de instruccion se- 
+cundaria ha quedado dividido en tres categorías, con asignaciones 
+distintas. Pertenecen segun la mencionada disposicion, a la pri- 
+mera categoría los profesores provistos de diploma de «profesor 
+de Estado»; a la segunda, los que sin estar provistos del referido 
+diploma, cuentan con mas de diez años de servicio, 1 desempeñan 
+un mínimum de doce horas semanales de clase; ¡a la tercera, los 
+que no tienen los requisitos anteriores. 
+No es mi ánimo, señor Rector, discutir ni criticar la aludida 
+resolucion, inspirada, como la creo, en un alto espiritu de justicia. 
+Estimo, sin embargo, que el Honorable Consejo de Instruccion 
+Habs 
+Pública podria completar tan meritoria obra de justicia, dispo- 
+niendo que fueran incluidos en la primera categoría aquellos pro- 
+fesores, contadísimos, por cierto, que reunieran los tres requisitos 
+- 3
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 539
 
@@ -1074,75 +1102,98 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 543
+
 ## Page Metadata
-- Page number: 151
-- Source publication: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- Task ID: `source-prep:ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-0553:p0543`
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/manifest.json`
+- Source page: 543
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/page-images/page-0543.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page consists of a single column of text. At the top, there is a header with the session date and page number. Below this, there are lists of names categorized by academic degrees, followed by a main body of text detailing meeting minutes, presented as a series of numbered points.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-SESION DE 3 DE JUNIO DE 1918 151
-a don Alfonso Quintana Burgos
-» Gustavo Rivera Baeza
-» Dario Zalazar Jáuregui
-
-Bachilleres en Leyes i Ciencias Políticas:
-
-a don Luis Baquedano Lira
-» Javier Errázuriz Letelier
-
-Bachiller en Humanidades;
-
-a don Roberto Goldenberg Godoi
-
-Leida i aprobada el acta de la sesion de 27 de Mayo,
-Se dió cuenta:
-1.º De siete decretos del Ministerio de Instruccion Pública, que
-se insertan al final de la presente acta.
-Con motivo del decreto número 1141 de 28 de Mayo, se acordó
-proveer en propiedad, a propuesta en terna del Cuerpo de Profe-
-sores de la Facultad, la clase de Derecho Constitucional del Curso
-de Leyes de Valparaiso.
-2.º De una nota del Pro-Rector de la Universidad con la que
-remite los estados de inasistencias, correspondientes a los meses
-de Marzo i Abril, de los profesores de las Escuelas de Leyes, Inje-
-niería, Arquitectura i Curso Preparatorio de Injeniería.
-Se acordó enviar los estados a los señores Decanos de Matemá-
-ticas i de Leyes, por si tuvieren alguna observacion que hacer.
-3.º De una comunicacion de don Miguel Luis Valdes en la que
-agradece su designacion como Miembro Academico de la Facul-
-tad de Leyes.
-4.º De una nota del Rector del Liceo de la Serena en que pro-
-pone al profesor de estado, don Edgardo Canales para que desem-
-peñe en propiedad 17 horas semanales de clases de Ingles; i de
-una comunicacion del mismo señor Canales en la cual se desiste
-de su oposicion a dichas clases.
-Se acordó que continuaran servidas interinamente.
-5.º De un oficio del Rector del Liceo de Los Andes en que co-
-munica la vacancia de la asignatura de Ingles, con 8 horas sema-
-nales de clases.
+```markdown
+SESION DE % DE JUNIO DE 1918 
+151 
+a don Alfonso Quintana Burgos 
+» 
+Gustavo Rivera Baeza 
+» 
+Dario Zalazar Jáuregui 
+Bachilleres en Leyes ¡ Ciencias Políticas: 
+a don Luis Baquedano Lira 
+» 
+Javier Errázuriz Letelier 
+Bachiller en Humanidades; 
+a don Roberto Goldenberg Godoi 
+Leida i aprobada el acta de la sesion de 27 de Mayo; 
+Se- dió cuenta: 
+1.2 De siete decretos del Ministerio de Instruccion Pública, que 
+se insertan al final de la presente acta. 
+Con motivo del decreto número 1141 de 28 de Mayo, se acordó 
+proveer en propiedad, a propuesta en terna del Cuerpo de Profe- 
+sores de la Facultad, la clase de Derecho Constitucional del Curso 
+de Leyes de Valparaiso. 
+2.2 De una nota del Pro-Rector de la Universidad con la que 
+remite los estados de inasistencias, correspondientes 
+a los meses 
+de Marzo i Abril, de los profesores de las Escuelas de Leyes, Inje- 
+niería, Arquitectura ¡Curso Preparatorio de Injeniería. 
+Se acordó enviar los estados a los señores Decanos de Matemá- 
+ticas ide Leyes, por si tuvieren alguna observacion que hacer. 
+3 De una comunicacion de don Migue! Luis Valdes en la que 
+agradece su designacion como Miembro Academico de la Facul- 
+tad de Leyes. 
+4.2 De una nota del Rector del Liceo de la Serena en que pro- 
+pone al profesor de estado, don Edgardo Canales para que desem- 
+peñe en propiedad 17 horas semanales de clases de Ingles: i de 
+una comunicacion del mismo señor Canales en 
+la cual se desiste 
+de su oposicion a dichas clases. 
+Se acordó que continuaran servidas interinamente. 
+52 De un oficio del Rector del Liceo de Los Andes en que co- 
+munica la vacancia de la asignatura de Ingles, con 8 horas sema- 
+nales .de clases. 
 Se acordó proveerlas en propiedad.
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None. All text is clear and legible.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 544
 

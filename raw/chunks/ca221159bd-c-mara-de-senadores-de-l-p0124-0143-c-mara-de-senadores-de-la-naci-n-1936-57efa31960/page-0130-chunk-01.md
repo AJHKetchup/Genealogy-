@@ -1,0 +1,134 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-38da71adc971-P0130-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143.codex.md
+converted_sha256: 38da71adc97197757037465dc8e82290d900cb82e956391ca91dfe6f91a630b0
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json
+page_start: 130
+page_end: 130
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json`
+- Source page: 130
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/page-images/page-0130.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—
+127
+—
+Pasajeros
+en tren sin parada
+en la
+estacion
+indicada
+en
+su
+boleto.
+Art. 139.—Todo pasajero que tomare un tren que
+no tu-
+™re parada en la estacion indicada
+en su boleto, deberâ dar
+aviso al guardatrén antes de la ultima estacion anterior
+a la
+misma.
+En
+este
+caso
+se aplicarâ lo dispuesto
+en el artîculo
+precedente.
+En
+caso contrario, abonarâ el importe del pasaje entre la
+estacion indicada en el boleto y la primera posterior en que se
+detenga el tren, mas el 100 %
+de recargo.
+Cambio de clase.
+Art.
+140. — Los pasajeros de segunda clase podrân viajar
+en coches
+de primera, siempre
+que comuniquen previamente
+al guardatrén
+sir intenciôn de hacerlo, y abonen la diferencia
+del valor
+del pasaje desde la estacion,
+donde cambiasen
+de
+clase.
+Si el pasajero
+no cumpliera
+con el requisite de avisar al
+guardatrén, abonarâ el importe de la diferencia desde la
+es¬
+tacion mencionada en su boleto, mas cl recargo del 100 % sobre
+el importe de la diferencia.
+Pasajeros
+sin
+boleto
+o
+con
+boleto
+vencido. Procedimiento.
+Art. 141. — Todo pasajero deberâ proveerse de su respectivo
+b°leto antes de subir al tren.
+El pasajero que infrinja esta disposiciôn, viajando sin bo-
+eto o con boleto de fecha vencida, abonarâ el pasaje desde el
+Punto donde haya subido hasta la primera estacion donde se
+detenga el tren, mâs
+el recargo del 100 % del importe del
+boleto eorrespondiente
+a este trayeeto.
+Al llegar
+a dicha
+es-
+tacién el pasajero deberâ abonar
+un boleto hasta la estacion
+de destino.
+Si el precio del pasaje hasta la primera estacion de parada
+del tren fuese igual al de la siguiente o subsiguiente, los dere-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

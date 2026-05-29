@@ -1,0 +1,102 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-cb313791f88e-P0345-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353.codex.md
+converted_sha256: cb313791f88e47f770c9a189fc2df2c8fdce9af1c334ffa8a6378e505cae294e
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json
+page_start: 345
+page_end: 345
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json`
+- Source page: 345
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/page-images/page-0345.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+CARLOS SILVA COTAPOS 
+325 
+tegul. El año 1847 la facultad 
+elijió en su lugar a 
+Eizaguirre, 
+1en 1849 lo volvió a elejir por un segundo 
+período. 
+| 
+Eizaguirre profesó gran cariño a la Universidad, 
+a la cual prestó cuantos servicios pudo. En aquellos 
+años el erario público de Chile era mui pobre 1 mul 
+honrado; sus rentas le alcanzaban apenas para pagar 
+sus deudas 1 atender, con suma parsimonla, los más 
+impostergables servicios públicos. En las oficinas del 
+estado 1 en los establecimientos 
+de instrucción se 
+carecía de no pocos muebles necesarios. Hizaguirre, 
+para remediar una de estas escaseces que él notaría 
+en la Universidad, obsequió al Consejo de Instruc- 
+ción seis valiosas sillas para que las usara en las fun- 
+ciones solemnes. 
+«El Consejo, le decía don Andrés 
+Bello en su oficio de agradecimiento, en vista de tan 
+lucido 1 jeneroso obsequio, lo aceptó con gratitud 1 
+acordó en favor de Ud. un voto de expresivas gra- 
+cias » (1). 
+En Agosto de 1851 expiró el segundo período del 
+decanato de Eizaguirre, 1 no fué reelejido porque se 
+sabía que mui pronto saldria en viaje al viejo mun- 
+do, por tiempo indefinido. El Consejo de Instrucción 
+acordó darle las gracias por los servicios prestados 
+1 don Andrés 
+Bello le comunicó este acuerdo por 
+medio de la siguiente nota: 
+¿Me es sumamente grato desempeñar 
+el encargo 
+que me hizo el Consejo en su sesión del 30 del próxi- 
+mo pasado Agosto, de espresar a Ud. su alta grati- 
+tud por los servicios que ha prestado al público 1 a 
+esta Universidad, mientras dignamente ha presidido 
+(1) Oficio de 26 de Abril de 1849.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

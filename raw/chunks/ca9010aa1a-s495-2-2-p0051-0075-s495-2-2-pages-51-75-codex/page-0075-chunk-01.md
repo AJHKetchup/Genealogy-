@@ -1,0 +1,174 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6e4290802247-P0075-01
+source_converted: raw/converted/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75.codex.md
+converted_sha256: 6e4290802247f055ed9043a14223d10e1b0a49dd16ae06f390d5fd430ae30b84
+source: raw/sources/S495-2-2.pdf
+source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
+source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json
+page_start: 75
+page_end: 75
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S495-2-2.pdf`
+- Source SHA-256: `9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027`
+- Conversion manifest: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json`
+- Source page: 75
+- Page image: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0075.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+PLANTIO
+DE
+ALGODON
+VISTA
+Pel
+rancho
+‘U>
+HECHICERA"
+DRaola
+ruth
+Para
+LIMPIAR
+CANALCS
+■ONDUCCION
+DEL
+A.LÛODOW
+EK
+VASONES
+rt
+LA
+DSSPEPITADOWA
+IMPERIAL DEVELOPMENT CO5. A.
+CODES:
+^
+c.
+£ffiàfigFOURTH EDITION
+EPPERSONS 1878
+El Rancho “La Hechicera”
+esté
+ubicado
+en Mexicali.
+Antano
+estos
+terrenos
+estaban
+completamente
+abandonados.
+; "Y
+era una lâstima!
+La tierra—aquellas
+tierras—fe-
+cundas y nobles, ansiaban la mano
+de un hombre que bifurcara sus en-
+traitas y las hiciera brotar los ricos
+frutos..
+.
+Hoy en dia los lugares que ocupa
+este rancho son famosos en todo el
+territorio de la Baja California. Es
+fama que todos los productos
+que
+74
+CUDAHY RANCH
+COTTON AND LIVE STOCK
+VENDEMOS SEMILLA DE ALGO¬
+DON “ACALA” PARA PLANTAR
+en ellos se cultivan son excelentes y
+abundantes.
+Cierto es que se ha trabajado con
+verdadero interés, con gran ahinco,
+que sus organizadores no han des*
+cansado
+en
+sus propésitos de
+que
+esta Compania llegara a ser lo que
+hoy
+es:
+modelo entre las
+de
+su
+clase.
+En el Rancho “La Hechicera” son
+empleados los ültimos procedimien-
+tos, los
+mas modernos y prâcticos,
+lo cual da lugar
+a que rinda
+una
+RANCH
+HEADQUARTERS AT
+HECHICERA,
+BAJA CAL.,
+MEXICO
+produccion inestimable, y
+sea
+su-
+mamente estimada,
+cosa
+que
+se
+comprueba
+con la
+gran
+demanda
+que tiene.
+Son dignos de felicitaciôn los di-
+rectores
+de
+esta organizaciôn,
+que
+con tanto celo y acierto han sabido
+llevar por sendas de éxito y prospe-
+ridad
+a la
+Imperial
+Development
+Co.
+Que asi es como
+se conquista la
+admiracién y el carino de los pue¬
+blos:
+con la honradez y el trabajo.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

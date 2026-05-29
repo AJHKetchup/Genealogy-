@@ -265,61 +265,103 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
 ```
 
+# Page 684
+
 ## Page Metadata
-Page number: 614
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 684
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0684.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number "614" is in the top left corner, and the running header "MEMORIAS CIENTÍFICAS I LITERARIAS" is in the top right corner. The main body of text follows in a standard reading order from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-614 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-Usan un sistema mixto: proteccionista para algunas co-
-sas, i libre cambista para otras, segun la conveniencia
-particular de cada uno.
-Fluye lójicamente de aquí que si una nacion adopta
-este sistema mixto, la reciprocidad se impone con res-
-pecto a los demas paises, no pudiendo, por lo tanto,
-existir un estado absolutamente proteccionista o libre
-cambista.
-Si aceptamos esta hipótesis, ¿cuándo i mediando cuá-
-les circunstancias i para qué artículos debe un pais ser
-libre cambista o, recíprocamente, proteccionista?
-A mi entender, la base de la cuestion, reside en esta
-pregunta, que depende de los variadísimos factores eco-
-nómicos i políticos que dejan sentir su influencia natu-
-ral i constante, sobre el progreso i la vida de las na-
-ciones.
-Punta Arenas era hasta 1912, como he dicho, un puer-
-to franco que recibia todas las mercaderías destinadas
-a esta parte sur chilena i arjentina, i por la que salia
-tambien lo que las mismas rejiones producen. El Go-
-bierno dictó una medida proteccionista i creó la Adua-
-na.
-Tiene tal importancia este acto, que en un estudio
-de Magallánes, como el presente, no pueden faltar al-
-gunas consideraciones sobre la Aduana. Su permanen-
-cia, segun mi opinion, cambiará el porvenir grandioso
-del Territorio en otro que diviso oscuro i plagado, co-
-mo las noches australes, de luces i destellos, que cons-
-tituirán en el futuro, otras tantas preocupaciones gra-
-ves para el Gobierno de Chile.
-De la historia i discusion de la lei en el Congreso se
-desprende que los móviles **que guiaron** al Gobierno a
-dictarla, fueron mas o ménos los siguientes, que agru-
+```markdown
+614 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+Usan un sistema misto: proteccionista para algunas co- 
+sas, 1 libre cambista para otras, segun la conveniencia 
+particular de cada uno. 
+Fluye lójicamente de aquí que si una nacion adopta 
+este sistema misto, la reciprocidad se impone con res- 
+pecto a los demas paises, no pudiendo, 
+por lo tanto, 
+existir 
+un estado absolutamente proteccionista 
+o libre 
+cambista. 
+Si aceptamos esta hipótesis, ¿cuándo 1 mediando cuá- 
+leg circunstancias 1 para qué artículos debe un pals ser 
+libre cambista o, recíprocamente, proteccionista ? 
+A mi entender, la base de la cuestion, reside en esta 
+pregunta, que depende de los variadísimos factores eco- 
+nómicos i políticos que dejan sentir su influencia natu- 
+ral i constante, sobre 
+el progreso 1 la vida de las na- 
+ciones. 
+Punta Arenas era hasta 1912, como he dicho, un puer- 
+to franco que recibia todas las mercaderías 
+destinadas 
+a esta parte sur chilena 1 arjentina,i por la que salia 
+tambien lo que las mismas rejiones producen. El Go- 
+bierno dictó una medida proteccionista i creó la Adua- 
+na. 
+Tiene tal importancia este acto, que en un 
+estudio 
+de Magallánes, como el presente, 
+no pueden faltar al- 
+gunas consideraciones sobre la Aduana. Su permanen- 
+cia, segun mi opinion, cambiará el porvenir grandioso 
+del Territorio en otro que diviso oscuro 
+1 plagado, co- 
+mo las noches australes, de luces 1 destellos, quecons- 
+tituirán en el futuro, otras tantas 
+preocupaciones gra- 
+ves para el Gobierno de Chile. 
+De la historia 1 discusion de la lei en el Congreso se 
+desprende que los móviles que guiaron al Gobierno a 
+dictarla, fueron mas o ménos los siguientes, 
+que agru- 
+y) 
+ts
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text on the page. The last paragraph ends mid-word, indicating continuation on the next page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Task id: `source-prep:ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703:p0685`
@@ -829,60 +871,97 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 691
+
 ## Page Metadata
-- Page number: 691
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 691
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0691.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. At the top, there's a running header with the title "ESTUDIO DEL TERRITORIO DE MAGALLANES" on the left and the page number "621" on the right. The main content is a continuous block of text, including a numbered point and a subsequent numbered list.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-ESTUDIO DEL TERRITORIO DE MAGALLANES 621
 
-llanes han sido erróneos i contraproducentes; i todo
-ello se debe a la absoluta i jeneral ignorancia que se tie-
-ne en el Norte del pais sobre las verdaderas convenien-
-cias del Territorio.
-5.º PUNTO.—Son medidas de órden admistrativo que
-en ningun caso justifican el mantenimiento de la Adua-
-na, pues pueden llevarse a cabo tan bien con, como sin
-ella.
-Hecho el exámen de las causas que tuvo el Gobier-
-no para crear la Aduana, paso a considerar las que,
-segun mi entender, debiera haber tomado en cuenta
-para no crearla, o abolirla inmediatamente de estable-
-cida.
-Debo advertir que en Magallánes se cree en su próxi-
-ma supresion, opinion de que comparte el Administra-
-dor de la Aduana misma, de lo que oficialmente ha de-
-jado constancia en las Memorias presentadas a la Su-
-perintendencia desde 1912 en adelante; tan convencidos
-están de que su permanencia es funesta para el desa-
-rrollo i progreso del Territorio.
-Voi a agruparlos en la misma forma anterior:
-1.º Dificultades económicas i sociales producidas por
-el encarecimiento de la vida.
-2.º Retiro de parte de los capitales con que jiran los
-principales comerciantes, trasladando sus negocios a
-los puertos del Atlántico, i dejando aquí solo la ofici-
-na centralizadora i sucursales de relativa importancia.
-3.º Retroceso de Magallánes en su desarrollo comer-
-cial, pues, de metrópoli que era de toda la costa arjen-
-tina, está pasando a ser subordinada de sus puertos.
-4.º Desarrollo rápido de los puertos arjentinos a es-
-pensas de la pérdida de la prosperidad de Punta Arenas.
-5.º Imposibilidad de evitar la introduccion clande--
+```markdown
+8 
+ESTUDIO DEL TERRITORIO DE MAGALLANES 
+621 
+llánes han sido erróneos 1 contraproducentes; 1 todo 
+ello se debe a la absoluta 1 jeneral ignorancia que se tie- 
+ne en el Norte del pais sobre las verdaderas convenien- 
+clas del Territorio. 
+5.2 Punro.—Son medidas de órden admistrativo que 
+en ningun caso justifican el mantenimiento de la Adua- 
+na, pues pueden llevarse a cabo tan bien con, como sin 
+ella. 
+Hecho el exámen de las causas que 
+tuvo el Gobier- 
+nO para crear 
+la Aduana, paso a considerar las que, 
+segun.mi entender, 
+debiera haber tomado en cuenta 
+para no crearla, o abolirla inmediatamente de estable- 
+cida. 
+Debo advertir que en Magallánes se cree en su próxi- 
+ma supresion, opinion de que comparte el Administra- 
+dor de la Aduana misma, de lo que oficialmente ha de- 
+jado constancia 
+en las Memorias presentadas a la Su- 
+¡perintendencia desde 1912 en adelante; tan convencidos 
+están de que su permanencia es funesta para el desa- 
+rrollo 1 progreso del Territorio. 
+Voi a agruparlos en la misma forma anterior: 
+1.2 Dificultades económicas i sociales producidas por 
+el encarecimiento de la vida. 
+2.2 Retiro de parte de los capitales con que jiran los 
+principales comerciantes, 
+trasladando sus negocios a 
+los puertos -del Atlántico, 1 dejando aquí «solo la ofici- 
+na centralizadora i sucursales de relativa importancia. 
+3. Retroceso de Magallánes en su desarrolló comer- 
+cial, pues, de metrópoli que era de toda la costa arjen- 
+tina, está pasando a ser subordinada de sus puertos. 
+40 Desarrollo rápido de los puertos arjentinos a es- 
+pensas de la pérdida de la prosperidad de Punta Arenas. 
+5. Imposibilidad de evitar la introduccion clandes-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other substantial visual notes on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last word "clande--" is hyphenated, indicating it continues on the next page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 692
 
@@ -1058,64 +1137,96 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 694
+
 ## Page Metadata
-- Page number: 624
-- Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 694
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0694.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a page number and running header at the top. The text flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-cuencias que atañen ya, no solo a la satisfaccion de las
-necesidades, sino a la existencia misma de los niños, los
-pobladores de mañana, i esto entre el elemento chileno,
-que es el pobre. Me refiero al impuesto sobre la leche
-condensada.
 
-En el Territorio no hai lecherías, puede decirse, por-
-que no es económico mantener vacas, cuyo forraje, para
-que den leche, debe venir del norte, pues el raquítico
-pasto que aquí crece no es lo suficientemente alimenti-
-cio, sobre todo en invierno; ademas, no siempre se en-
-cuentran buques que lo trasporten.
-
-La lei gravó la leche condensada estranjera, que án-
-tes valia $ 0.40 el tarro, para abrir el mercado a los in-
-dustriales del norte. Los gastos de trasporte del artícu-
-lo nacional lo recargan en tal forma, que el comercio lo
-espende a $ 1.20 el tarro, que es precisamente el precio
-actual del estranjero, cuya calidad es mejor que la del
-nacional, lo que hace que este último se venda solo
-cuando aquél escasea.
-
-Una familia pobre i numerosa, como son por lo jene-
-ral las chilenas, debe dedicar, pues, gran parte de su
-salario diario a la compra de leche para sus vástagos.
-Es preciso advertir, ademas, que las condiciones del cli-
-ma en Magallánes cortan la leche de la madre, en abso-
-luto a veces, i en el mejor de los casos, nunca puede
-durar mas de 3 meses el amamantamiento de la cria-
-tura.
-
-Las consecuencias de esta situacion pueden observar-
-se en el enorme número de párvulos atacados de raqui-
-tismo, con sus huesos torcidos i sus columnas vertebra-
-les desviadas.
-
-I son chilenos los que soportan este martirio en su
+```markdown
+624 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+cuencias que atañen ya, no solo a la satisfaccion de las 
+necesidades, sino a la existencia misma de los niños, los 
+pobladores de mañana, 1esto entre el elemento chileno, 
+que es el pobre. Me refiero 
+al impuesto sobre la leche 
+condensada. 
+En el Territorio no hai lecherías, puede decirse, por- 
+que no es económico mantener vacas, cuyo forraje, para 
+que den leche, debe venir del norte, pues el raquítico 
+pasto que aquí crece no es lo suficientemente alimenti- 
+cio, sobre todo en invierno; ademas, no siempre se en- 
+cuentran buques que lo trasporten. 
+La lei gravó la leche condensada estranjera, que án- 
+tes valia $ 0.40 el tarro, para abrir el mercado a los in- 
+dustriales del norte. Los gastos de trasporte del artícu- 
+lo nacional lo recargan en tal forma, que el comercio lo 
+espende a $ 1.20 el tarro, que es precisamente el precio 
+actual del estranjero, cuya calidad es mejor que la del 
+nacional, 
+lo que hace que este último se venda solo 
+cuando aquél escasea. 
+Una familia pobre 1 numerosa, como son por lo jene- 
+ral las chilenas, debe dedicar, pues, gran parte. de su 
+salario diario a la compra de leche para sus vástagos. 
+Es preciso advertir, ademas, que las condiciones del cli- 
+ma en Magallánes cortan la leche de la madre, en abso- 
+luto a veces, i en el mejor de los casos, núnca puede 
+durar mas de 3 meses el amamantamiento de la cria- 
+- 
+tura. 
+; 
+: 
+Las consecuencias de esta situacion pueden observar- 
+se en el enorme número de párvulos atacados de raqui- 
+tismo, con sus huesos torcidos 1 sus columnas vertebra- 
+les desviadas. 
+I son chilenos los que soportan este martirio en su 
 propia patria, a la vista del estranjero, para luego des-
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images, captions, or other substantial visual content.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last word "des-" is hyphenated and continues on the next page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 695
 
@@ -1206,59 +1317,102 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 696
+
 ## Page Metadata
-Page number: 626
-Running header: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 696
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0696.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a running header at the top. The text is organized into several paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-libre internacion. De proveedores que eran, se iban a
-convertir en proveidos. Urjia, pues, trasladar gran parte
-de sus capitales a la Arjentina i lo hicieron.
-Este proceder es humano. Ellos son estranjeros, sus
-fortunas las han formado con su trabajo i sin la ayuda
-del Gobierno, por lo que no guardan mayor motivo de
-agradecimiento para con el pais.
-Los chilenos que miraban con orgullo el grandioso
-porvenir de Magallánes, observan con tristeza su paula-
-tina decadencia.
-Las casas Braun i Blanchard i Menéndez fundieron
-gran parte de los capitales con que jiran en Punta Are-
-nas, i fundaron la Sociedad Anónima Importadora i Es-
-portadora de la Patagonia, que cuenta con 17 casas co-
-merciales en la Patagonia Arjentina, cada una de las
-cuales es un verdadero emporio, i cuyo mercado total,
-sin competencia aun, comprende una estension de
-500,000 Km.
-La casa Stubenrauch fundó 4 sucursales en la costa
-arjentina. La casa Braun i Blanchard, por su parte, hizo
-igual cosa.
-Todas estas firmas tienen su asiento en Punta Arenas
-donde están radicadas, como he dicho, las oficinas cen-
-tralizadoras, que pagan aquí una patente menor i donde
-han conservado, tres de ellas, sendas casas comerciales
-para atender a sus antiguos clientes, los habitantes del
-Territorio.
-No puede ser mas evidente el mal si se le contempla
-por este lado. Cuando el capital se va, el lugar que deja
-se empobrece, la propiedad pierde su valor, el crédito
-restrinjido impide el desarrollo de la industria, la vida
-se torna lánguida, i en una palabra, el progreso desa-
+
+```markdown
+626 
+MEMORIAS CIENTÍFICAS I LITERARIAS 
+, 
+ES 
+0 El 
+libre internacion. De proveedores que eran, se. iban a 4 
+convertir en proveidos. Urjia, pues, trasladar gran parte 
+de sus capitales a la Arjentina 1 lo hicieron. 
+E 
+Este proceder es humano. Ellos son estranjeros, sus 
+fortunas las han formado con su trabajo 1 sin la ayuda 
+del Gobierno, por lo que no guardan mayor motivo de 
+agradecimiento para con el pals. 
+Los chilenos que miraban con orgullo el grandioso - 
+porvenir de Magallánes, observan con tristeza su paula- 
+tina decadencia. 
+Las casas Braun 1 Blanchard + Menéndez fundieron 
+gran parte de los capitales con que jiran en Punta Are- 
+nas, i fundaron la Sociedad Anónima Importadora ¡ Es- 
+portadora de la Patagonia, que cuenta con 17 casas co- 
+merciales en la Patagonia Arjentina, cada una de las 
+cuales 
+es un verdadero emporio, 1 cuyo mercado total, 
+sin competencia 
+aun, comprende una 
+estension de 
+500,000 Km. 
+z 
+a 
+La casa Stubenrauch fundó 4'sucursales en la costa 
+arjentina. Lacasa Braun 1 Blanchard, por su parte, hizo 
+7 
+igual cosa. 
+Todas estas firmas tienen su asiento en -Punta Arenas 
+donde están radicadas, como he dicho, las oficinas cen- 
+tralizadoras, que pagan aquí una patente menor 1 donde 
+han conservado, tres de ellas, sendas casas comerciales 
+para atender a sus antiguos clientes, los habitantes del 
+Territorio. 
+EN 
+No puede ser mas evidente el mal si se le contempla 
+por este lado. Cuando el capital se va, el lugar que deja — 
+se empobrece, la propiedad pierde su valor, el crédito 
+restrinjido impide el desarrollo de la industria, la de ' 
+se torna lánguida, 1 en una palabra, el progreso desa= 
 parece.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 697
 
@@ -1723,65 +1877,99 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 702
+
 ## Page Metadata
-- Page number: 632
-- Source publication: Anales de la Universidad de Chile
-- Session: Session of the Council of Public Instruction, September 1918
-- Page range: 679-703
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json`
+- Source page: 702
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0702.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a running header at the top, followed by a main body of text. The main text is structured into numbered points and paragraphs. The reading order is strictly top-to-bottom, left-to-right.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-632 MEMORIAS CIENTÍFICAS I LITERARIAS
 
-5.º PUNTO.—Ya he tratado sobre esta materia.
-6.º PUNTO.—Como si todas las razones anteriores fue-
-sen pocas, réstame hablar de otra que no podria tomar-
-se como motivo para suprimir la Aduana propiamente,
-sino para mejorar su funcionamiento, si se la quiere
-dejar en forma que no constituya un verdadero ataque
-al comercio de Punta Arenas, como pasa actualmente.
-Toda persona que visite el territorio quedará asom-
-brado al ver, que en un centro de la importancia de
-Punta Arenas, se ha establecido este servicio en un se-
-gundo piso de una casa edificada sobre postes, con una
-plazoleta de unos 70 metros cuadrados al frente, sin
-un muelle para el desembarco de las mercaderías, ni un
-galpon para resguardarlas de las inclemencias del tiem-
-po, en que la escepcion es ver el sol i lo corriente, en
-verano la lluvia, i en invierno la nieve i la escarcha.
-Las mercaderías, despues de ser desembarcadas por
-el muelle de Braun i Stubenrauch, van a quedar depo-
-sitadas en el patio de la Aduana. Aquí esperan un plazo
-que puede durar de quince dias a seis meses a que el
-vista las avalúe, recibiendo durante todo este tiempo las
-lluvias, la escarcha i la nieve, que a veces cuesta trabajo
-remover.
-Los empleados de la Aduana tienen que esperar, i es
-natural que así sea, un buen tiempo para proceder al
-avalúo, tanto para que la mercadería no se destruya,
-como para conservar su propia salud, que podria resen-
-tirse gravemente con una estadía de pié, durante varias
-horas, sobre la nieve i la escarcha, o bajo el agua.
-A veces el mal tiempo se prolonga i las mercaderías
-forman hacinamientos de cinco o mas metros de alto i,
-como es preciso abrir cajon por cajon, los vistas tienen
-que ejercitar su ajilidad ántes de subir a esas piras.
+```markdown
+632 
+- 
+- 
+MEMORIAS CIENTÍFICAS 1 LITERARIAS 
+5.2 Punro.—Ya he tratado sobre esta materia. 
+6.0 PuNTO.—Como s1 todas las razones anteriores fue- 
+sen pocas, réstame hablar de otra que no podria tomar-' 
+se como motivo para suprimir la Aduana propiamente, * 
+- sino para mejorar su funcionamiento, si se la quiere 
+dejar en forma que no constituya un verdadero ataque 
+al comercio de-Punta Arenas, como pasa actualmente. 
+Toda persona que visite el territorio quedará asom- 
+brado al ver, que en un centro de la importancia de - 
+Punta Arenas, se ha establecido este servicio en un se- 
+gundo piso de una casa edificada sobre postes, con una 
+plazoleta de unos 
+70 ¿metros cuadrados al frente, sin. ] 
+un muelle para el desembarco de las mercaderías, ni un 
+galpon para resguardarlas de las inclemencias del tiem- 
+po, en que la escepcion es ver el sol 1 lo corriente, en ¿ 
+verano la lluvia, 1 en invierno la nieve 1 la escarcha. 
+3 
+Las mercaderías, despues de ser desembarcadas por. 
+el muelle de Braun 1 Stubenrauch, van a quedar depo- 
+sitadas en el patio de la Aduana. Aquí esperan un plazo - 
+que puede durar de quince dias a seis meses a que el | 
+vista las avalúe, recibiendo durante todo este tiempo las 
+lluvias, la escarcha 1 la nieve, que a veces cuesta 3 
+remover. 
+Los empleados de la Aduana tienen que esperar, 1 es 
+natural que así sea, un buen tiempo para proceder al 
+avalúo, tanto para que la mercadería no se destruya, 
+como para conservar su propia salud, que podria resen- 
+tirse gravemente con una estadía de pié, durante varias. 
+horas, sobre la nieve i la escarcha, o bajo el agua. 
+A veces el mal tiempo se prolonga i las mercaderías 
+torman O de cinco 0 mas metros de alto 4 
+AA
+A 
+en 
+AR 
+ii
+SN
+```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other substantial visual elements on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text on the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 633

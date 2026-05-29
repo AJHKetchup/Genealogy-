@@ -1,0 +1,96 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-cb313791f88e-P0353-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353.codex.md
+converted_sha256: cb313791f88e47f770c9a189fc2df2c8fdce9af1c334ffa8a6378e505cae294e
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json
+page_start: 353
+page_end: 353
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/manifest.json`
+- Source page: 353
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0329-0353-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-329-353/page-images/page-0353.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+CARLOS SILVA COTAPOS. 
+309 
+por iniciativa de don Antonio García Reyes,se discutió 
+en la cámara de diputados en las sesiones de 1849- 
+1850. La lez propuesta imponía a los conventos la 
+obligación de mantener escuelas gratuitas. Bizagul- 
+rre, con muchísima razon, impugnó este artículo por 
+ser inconstitucional: pues lesionaba la igualdad ante 
+la lez que la constitución garantiza a todos los chile- 
+nos, imponiendo a los relijiosos una verdadera con- 
+bribución pecuniaria que no se exijía del estado se- 
+olar. El proyecto de lei espresaba que en el plan de 
+estudios se comprendía la doctrina + moral cristianas. 
+Kizagulrre, poco satisfecho de esta expresión, pidió 
+que se dijese que debia estudiarse catecismo e his- 
+toria sagrada. Pero sus indicaciones no fueron escu- 
+chadas por la mayoría de la cámara, 1 los dos artícu- 
+los impuenados quedaron tales como los había pro- 
+puesto el autor del proyecto de lei. 
+Esta lei de instrucción primaria nunca llegó a ser 
+aprobada 1 promulgada, porque tropezó con escollos 
+imsalvables cuando se trató de señalar los fondos con 
+que la instrucción debía costearse. 
+: 
+Intervino también en la discusión de un proyecto 
+de lei propuesto por el diputado Infante, que tam- 
+poco logró ser aprobado, para otorgar a los párrocos 
+una dotación fija 1 suprimir los derechos parroquia- 
+les llamados de estola. 
+Al tratarse de los aranceles que debían rejir para 
+el cementerio jeneral, atacó duramente al ministro, 
+porque en esta materia prescindía de la autoridad 
+diocesana que tenía derecho de intervenir por tra- 
+tarse de un acto relijioso; 1 llegó a decir que el altar 
+de la capilla del cementerio era verdaderamente dig-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

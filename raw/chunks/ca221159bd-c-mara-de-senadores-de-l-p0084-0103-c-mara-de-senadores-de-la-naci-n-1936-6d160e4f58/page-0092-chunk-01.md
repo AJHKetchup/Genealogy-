@@ -1,0 +1,116 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-732bd1a84925-P0092-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103.codex.md
+converted_sha256: 732bd1a84925bfdc9c864e4097f6889fcf50098a59f1488f3ea61f6e5c1701d6
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json
+page_start: 92
+page_end: 92
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json`
+- Source page: 92
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0092.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—
+89
+—
+En la cabina de conducciôn de los trenes eléctricos y auto-
+motores, el numéro de personas queda limitado a très.
+Exeeptuanse los casos de accidentes o socorro.
+Pedido
+de locomotoras
+de auxilio.
+Art. 73. — Todo tren que hubiese pedido una locomotora de
+auxilio, quedarâ obligado a esperarla, aun cuando esté en con-
+dieiones de proseguir la marcha antes de su llegada.
+Exceptuase de esta régla el caso en que, siendo de dîa, la
+topografîa del lugar permita dominar la via por lo menos dos
+kilômetros hacia adelante.
+Desmembramiento
+de
+un
+tren
+en
+marcha.
+Art. 74.—Si, estando un tren en marcha, se desprendiese
+parte
+de
+sus vehîculos,
+el personal de guardatrenes
+que
+se
+hallase
+en la parte desprendida, apretarâ inmediatamente los
+frenos, procurando en seguida dar aviso al maquinista.
+Una
+vez parados los vehîculos desprendidos,
+se les protégera
+con
+senales de peligro, colocadas adelante y atrâs.
+Comunicacion de accidentes.
+Art. 75.— El jefe del tren en marcha comunicarâ de inme-
+diato al jefe de la estaciôn mas prôxima todo accidente ocasio-
+nado por la circulaciôn del tren o que, derivado de otras cau¬
+sas, hubiera afectado o pudiera afectar la marcha normal del
+mismo
+o de los demâs trenes.
+El jefe de la estaciôn lo comunicarâ a su vez, en el acto y
+por el medio mâs râpido, al Inspector Nacional y a la Policîa,
+si fuese del
+caso.
+El jefe de la estaciôn tendra las mismas obligaeiones del
+jefe del tren, si el accidente hubiera ocufrido dentro del recin-
+to
+o radio de la estaciôn y sus playas o desvîos anexos.
+Si el accidente hubiera ocasionado lesiones personales o afec¬
+tado seriamente la regularidad y seguridad de los servicios o
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 93

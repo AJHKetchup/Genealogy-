@@ -993,60 +993,137 @@ All visible text and the central image have been transcribed and described.
 }
 ```
 
+# Page 262
+
 ## Page Metadata
-Page number: 262
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/manifest.json`
+- Source page: 262
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/page-images/page-0262.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a legal document in a single-column format. It begins with a title, followed by a date and location, a preamble, a chapter heading, sub-headings, and then the articles of the law. The page number is at the bottom right.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
+
+```markdown
 Ley N°. 11.658 Nacional de Vialidad
-
 Buenos Aires, octubre 5 de 1932.
-
-Por cuanto: El Senado y Cámara de Diputados de la Nación
-Argentina, reunidos en Congreso, etc., sancionan con fuerza de LEY:
-
-CAPITULO 1
-
-CREACION — DENOMINACION — OBJETO
-
-Artículo 1° — Desde la promulgación de la presente Ley, la
-actual Repartición denominada Dirección General de Vialidad, cons-
-tituirá una institución que será regida por las disposiciones de
-esta Ley.
-Esta Repartición se denominará Dirección Nacional de Vialidad
-y tendrá su asiento en la Capital de la República.
-Art. 2° — La Dirección Nacional de Vialidad funcionará con la
-autonomía que le acuerde esta Ley, pero el Poder Ejecutivo podrá
-intervenirla cuando las exigencias del buen servicio lo hicieran indis-
-pensable, con cargo de dar cuenta de inmediato al Congreso.
-Será una institución de derecho público que tendrá capacidad
-para actuar privada y públicamente de acuerdo a lo que establezcan
-las leyes generales de la Nación y las especiales que afecten su fun-
-cionamiento, siendo sus miembros responsables, personal y solidaria-
-mente, por los actos del Directorio, salvo expresa constancia en actas
-de quien estuviera en contra de sus resoluciones.
-Art. 3° — Crease un sistema troncal de caminos nacionales en
-todo el territorio de la República.
-La Dirección Nacional de Vialidad hará un estudio general de
-las necesidades viales del país y proyectará la red a construirse.
-Al estudiar la red troncal de caminos, la Dirección tendrá espe-
-cialmente en cuenta y dará preferencia a la construcción de los ra-
-
+.
+i
+Por
+cuanto:
+El
+Senado
+y Camara de Diputados de la Nacion
+Argentina, reunidos en Congreso, etc., sancionan con fuerza de LEY :
+CAPITULO
+I
+t
+CREACION'
+— DENOMINACION
+—
+OBJETO
+Articulo
+1Q
+— De’sde
+la
+promulgaeiôn
+de la
+présente
+Ley,
+In
+actual Reparticion denominada Direccion General de Vialidad. cons-
+tituirâ
+un a
+instituciôn
+que
+sera, regida
+por
+Ins
+disposiciones
+<le
+esta Lev.
+Esta Reparticion
+se dénommarâ Direccion Nacional de Vialidad
+y tendra su asiento en la Capital de la Republica.
+Art. 2"
+—
+La
+Direccion Nacional de Vialidad Funcionarâ
+con la
+autonomie
+que le acuerde esta Ley, pero el
+Poder Ejecutivo podrâ
+intervenirla cuando las exigencias del buen servicio lo hieieran indis¬
+pensable. con cargo de dar en enta de inmediato al Congreso.
+Sera
+una
+instituciôn
+de derecho publico
+que tendra cnpacidad
+para actuar privada y publicamente de acuerdo
+a lo que establezean
+las leyes generales de la Naciôn y las ('spéciales que afeeten su fun-
+cionamiento, siendo
+sus miembros responsables, personal
+y solidaria-
+ment.e, por los ac'tos del Direetorio, salvo expresa eonstancia en notas
+de quien estuviera
+en contra de sus resolueiones.
+Art.
+3"
+— Crease
+un sistema troncal
+de eaminos nacional es en
+todo el territorio cle la Republica.
+La Direccion
+Nacional
+de Vialidad harâ
+un çstudio general de
+las necesidades viales del pais y proyectarâ la red
+a construirse.
+Al estudiar la red troncal de eaminos, la Direccion tendra espe-
+cialmente
+en euenta y darâ prefereneia
+a la constmcciôn de los ra-
 3
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 263
 

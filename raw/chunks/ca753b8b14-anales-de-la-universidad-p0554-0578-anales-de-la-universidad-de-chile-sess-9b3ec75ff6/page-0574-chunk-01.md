@@ -1,0 +1,106 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e447ff680328-P0574-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0554-0578-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-554-578.codex.md
+converted_sha256: e447ff6803285b812ab676cda8f88a2422cf3f4bff492f6ef336e25c0252f9eb
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0554-0578-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-554-578/manifest.json
+page_start: 574
+page_end: 574
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0554-0578-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-554-578/manifest.json`
+- Source page: 574
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0554-0578-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-554-578/page-images/page-0574.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+182 
+BOLETIN DE INSTRUCCION PÚBLICA 
+Ruego 
+al señor 
+Rector se digne ser mi intérprete ante la 
+Corporacion 1 espresarle de mi parte mis mas sinceros i pro- 
+fundos 
+agradecimientos, 
+así como los votos 
+que hago por el 
+éxito de sus labores y por la prosperidad personal de sus miem- 
+bros. 
+Conservaré siempre el grato recuerdo de las sesiones sema- 
+nales, a las que tuve 
+el gusto de concurrir por mas de trece 
+años 1 en las que debatíamos las altas cuestiones relativas a la 
+enseñanza, con diversidad si se quiere de apreciacion 1 criterio, 
+pero siempre con 
+tal elevacion 
+de miras, tal respeto de las 
+ajenas opiniones 1 tan benévola 1 cariñosa cortesía, que hacian 
+esas reuniones sobremanera agradables. 
+De un modo especial quiero manifestar mi gratitud al señor 
+Rector por las benévolas atenciones con que me hontó 1 favo- 
+reció durante todo el tiempo de mi decanato. 
+Con sentimientos de la mas distinguida consideracion i estima, 
+me es grato ofrecerme del señor Rector como Affmo. S. S. 1 C. 
+(Firmado).—JILBERTO, Obispo de Concepcion. 
+NOOO: 
+Valparaiso, 13 de Junio de 1918. 
+Señor Rector: 
+Por la renuncia del señor Eduardo Barredo Condell, profesor 
+de Derecho Internacional del Curso del Liceo, ha quedado tam- 
+bien vacante 
+un puesto de miembro de la comision examina- 
+dora para el Bachillerato de 
+Leyes. Para reemplazar al señor 
+Barredo me permito proponer al señor Ezequiel Cámus, profe- 
+sor dle Derecho Romano. 
+La participacion de este profesor en 
+esta comision será de mucho provecho por las muchas cédulas 
+que se 1efieren o su asignatura. 
+(Firmado).—CÁRLOS RUDOLPH.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 575

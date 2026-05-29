@@ -1,0 +1,100 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-5b7e4836141d-P0301-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303.codex.md
+converted_sha256: 5b7e4836141d2cf6eb88ff6f32034ce504420054bb04061b204b3ab3f2f415c4
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json
+page_start: 301
+page_end: 301
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json`
+- Source page: 301
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-images/page-0301.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+JULIO SAAVEDRA MOLINA 
+281 
+Pero, queda todavía una casta de poliglotas de la 
+cual no he hablado. 
+Es la única verdaderamente 
+numerosa, la más pagada de su arte, 1 la menos po- 
+liglota de todas. Se compone de individuos que, sin 
+duda alguna, han aprendido, pero en edad adulta, 
+menos o más bien, una lengua estraña, 1 que a duras 
+penas 1 a fuerza de atención consiguen espresarse en 
+parla estranjera. Necesitan, cuando posan el perso- 
+naje poligloto, vijilarse con esmero, lo que arrebata 
+a su discurso la espontaneidad del hombre que habla 
+libremente, máxime s1 el lenguaraz de marras es. un 
+profesor de la parla que está hilvanando. 
+Si tiene 
+mucha práctica, hilvana mejor que el que tiene me- 
+nos; pero siempre tan desabridamente, tan artificio- 
+samente, que el tal lenguaraz me merece el más so- 
+berano desprecio. Á estos poliglotos pertenezco yo; 1 
+no tengo empacho en declararlo bien alto, a ver sl 
+mi franqueza abre la vía a la sinceridad 1 otros que 
+tendrían más motivos que yo para hacer su confesión 
+se atreven a rezar su «yo, pecador». 
+Pues bien, niego que estos farsantes piensen es- 
+pontáneamente (note el adverbio) en otra lengua que 
+la suya propia. 
+(Pájina 233): 
+Cree Ud. equivocadas mis apreciaciones de la pá- 
+jlma 131 tocantes a que, tanto los programas oficiales 
+como la comisión examinadora del bachillerato, exi- 
+jen que en las lenguas estranjeras se llegue a un 
+conocimiento semejante al que los estudiantes 
+ad- 
+quieren en el idioma materno. 
+Yo me felicito de que Ud. juzgue «absurda» esa 
+pretensión. Pero, vamos a las cuentas. ¿Qué dice el
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 302

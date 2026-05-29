@@ -132,66 +132,114 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected."}
 
+# Page 146
+
 ## Page Metadata
-Page number: 143
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json`
+- Source page: 146
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/page-images/page-0146.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text. The page number "— 143 —" is centered at the top. There are three main sections, each introduced by a centered heading, followed by one or more articles (Art. 199, Art. 200, Art. 201). Each article begins with "Art. [number]. —" and is followed by a block of justified text. Article 199 contains two indented sub-paragraphs.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 143 —
 
-Comunicación y aprobación de las
-tarifas ordinarias.
-
-Art. 199. — Las tarifas ordinarias y sus modificaciones serán
-comunicadas a la Dirección General de Ferrocarriles con 90
-días de anticipación a la fecha en que hayan de ser puestas
-en conocimiento del público, si se tratase de la implantación
-de un nuevo sistema de tarifas o de una modificación total
-o substancial del sistema vigente, y con 40 días de antici-
-pación en los demás casos.
-
+```markdown
+—
+143
+—
+Comunicacion
+y aprobacion de las
+tarifas
+ordinarias.
+Art. 199. -—• Las tarifas ordinarias y sus modifieaciones serân
+comunicadas
+a la Direccion General de Ferroearriles
+eon 90
+dias de anticipaciôn a la fecha en que hayan de ser puestas
+en conocimiento del publico, si se tratase de la implantaciôn
+de
+un
+nuevo sistema de tarifas
+o de una modificaciôn total
+o substancial del
+sistema vigente,
+y
+eon 40 dias de antici-
+pacion en los demâs casos.
 Las tarifas no observadas dentro de dichos plazos, se consi-
-derarán aprobadas provisionalmente, y lo serán con carácter
-definitivo, si no hubieran sido rechazadas dentro de los 90 días
+derarân aprobadas provisionalmente, y lo serân con carâcter
+definitivo, si no hubieran sido rechazadas dentro de los 90 dias
 subsiguientes.
-
-En los términos que anteceden no se computará el mayor
-plazo con que las empresas evacuen las vistas conferidas por
-la Dirección General de Ferrocarriles durante la tramitación
-de la homologación de la tarifa.
-
-Comunicación y aprobación de las
+En los términos
+que anteceden no
+se computarâ el mayor
+plazo con ([lie las empresas evaeuen las vistas conferidas por
+la Direccion General de Ferroearriles durante la tramitaciôn
+de la homologaciôn de la tarifa.
+Comunicacion
+y aprobacion de las
 tarifas especiales.
-
-Art. 200. — La comunicación y aprobación de las tarifas
-especiales y sus modificaciones se ajustarán a las normas esta-
-blecidas en el artículo precedente, salvo el plazo de 40 días,
-que en este caso será de 30.
-
+Art.
+200. — La comunicacion
+y aprobacion de las tarifas
+especiales y sus modifieaciones se ajustarân a las normas esta-
+blecidas
+en el articulo precedente, salvo el plazo de 40 dias,
+que en este caso sera de 30.
 Publicidad de las tarifas ordinarias
 y especiales.
-
 Art. 201. — Las tarifas ordinarias y especiales y sus modi-
-ficaciones, una vez aprobadas por el Poder Ejecutivo o la
-Dirección General de Ferrocarriles, según el caso, se pondrán
-en vigencia, previa exhibición de avisos al público en las esta-
-ciones durante 15 días, si se tratase de tarifas de pasajeros,
-equipajes y encomiendas y de 30 días si fuesen tarifas de
+ficaciones,
+una
+vez aprobadas
+por el Poder Ejecutivo
+o la
+Direccion General de Ferroearriles, segun el caso, se pondrân
+en vigencia, previa exhibiciôn de avisos al publico en las esta-
+ciones durante
+15 dias, si
+se tratase de tarifas de pasajeros,
+equipajes
+y encomiendas y de 30 dias si fuesen tarifas dq
 carga.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on the page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 144
@@ -266,97 +314,123 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
+# Page 148
+
 ## Page Metadata
-Page number: 145
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json`
+- Source page: 148
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/page-images/page-0148.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page presents a single column of text, primarily composed of legal articles and subheadings, in a standard top-to-bottom reading order. There is some marginal text on the left side, partially visible.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```
-— 145 —
-
-bli-
-de
-o
-rés
-
-re-
-ea-
-el
-Di
-la
-jo-
-os
-r-
-m-
-la
-go
-
-que
-el
-a
-el
-po-
-
-La vigencia de la tarifa será anunciada al pú-
-cinco días de anticipación, término que la Dirección General
-de Ferrocarriles podrá reducir o suprimir, si conviniere al
+```markdown
+— 145
+La vigencia
+de la tarifa
+sera anunciada al publico
+con
+einco dîas de anticipacion, término que la Dîrecciôn General
+de Ferrocarriles podrâ reducir
+o suprimir, si conviniere al
 interés general.
-
-Caducidad de las tarifas especiales
-sin fecha de vencimiento.
-
-Art. 205. — Toda tarifa especial que no tenga fecha de ven-
-cimiento, no podrá ser dejada sin efecto sin previo anuncio
-al público con 90 días de anticipación.
-El Poder Ejecutivo o la Dirección General de Ferrocarriles,
-según el caso, podrán autorizar la reducción o supresión de
+Caducidad
+de las tarifas especiales
+sin fecha
+de vencimiento.
+Art. 205. — Toda tarifa especial que no tenga fecha de ven¬
+cimiento,
+no podrâ
+ser dejada sin efecto sin previo anuneio
+al publico
+eon 90 dîas de anticipacion.
+El Poder Ejecutivo o la Direction General de Ferrocarriles,
+segun el
+caso, podrân autorizar la réduction o supresiôn de
 dicho término, cuando conviniere al interés general.
-
-Tarifas de servicios accesorios o
+Tarifas
+de
+servicios
+accesorios
+o
 complementarios.
-
-Art. 206. — Las tarifas para almacenaje, peonaje, acarreo
-y remolque en desvío, alquiler de guinches o grúas, etc., po-
-drán ser de aplicación general o sólo aplicables en puntos
-determinados de la línea y tener o no fecha de caducidad,
-según el carácter o naturaleza del servicio.
-La comunicación, aprobación y publicidad de las mismas
-estará regida por las disposiciones pertinentes de este capítulo.
-
-Derecho a cobrar servicios adicio-
-nales excluídos de las tarifas.
-
-Art. 207. — Además de los fletes y precios establecidos en
-las tarifas y reglamentos, por los servicios incluídos en los
-mismos, las empresas tendrán el derecho de percibir el pago
+Art.
+206. — Las tarifas
+para almacenaje, peonaje, acarreo
+y remolque
+en desvîo, alquiler de guinches
+o gruas, etc., po¬
+drân
+ser
+de aplicacion general
+o
+solo aplicables
+en •puntos
+determinados
+de la lînea y tener
+o no fecha de caducidad,
+segun el carâcter
+o naturaleza del servieio.
+La comunicacion,
+aprobaciôn
+y publieidad de las mismas
+estarâ regida por las disposiciones pertinentes de este capîtulo.
+Derecho
+a
+cobrar servicios adicio-
+nales excluidos de las tarifas.
+Art.
+207. — Ademâs de los fletes y precios establecidos en
+las tarifas y reglamentos,
+por los servicios incluîdos en los
+nûsmos, las
+empresas tendrân el derecho de percibir el pago
 de otros servicios adicionales que hubieran prestado, como ser:
-el servicio de peonaje solicitado por los interesados, el tras-
-bordo de cargas despachadas cuando el remitente tuvo cono-
-cimiento de hallarse la línea cortada al tiempo de la entrega
-de los efectos a la empresa, alquileres, etcétera.
+el servieio de peonaje solieitado por los interesados, el tras-
+bordo
+de cargas despachadas cuando el remitente tuvo eono-
+eimiento de haliarse la lînea cortada al tiempo de la entrega
+de los efectos
+a la empresa, alquileres, etcétera.
 ```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-The marginal text on the left is partially cut off and not fully legible. It appears to be a continuation of text from a previous page or column, but its content is not complete enough to transcribe meaningfully.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible and legible text on the page has been transcribed. The partial marginal text on the left is noted as incomplete.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets. The page contains only text."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 149
 
@@ -613,69 +687,124 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 
+# Page 152
+
 ## Page Metadata
-Page number: 149
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json`
+- Source page: 152
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/page-images/page-0152.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents text in a single column, primarily consisting of legal articles and related explanatory text. The reading order is sequential from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 149 —
-
-el cargador, su calidad de acarreador y asumirá, a su vez, la
-de cargador para con la empresa encargada del transporte.
+```markdown
+—
+149
+—
+el cargador, su calidad de acarreador y asumirâ, a su vez, la
+de cargador
+para
+con la empresa encargada del transporte.
 (C. C., art. 163.)
-
-Registro de mercaderías y cartas de
+Registro de mercaderîas y cartas de
 porte.
-
-Art. 218. — Las empresas deberán registrar los bultos de
-mercaderías a medida que se presenten para ser despachados,
+Art.
+218. — Las
+empresas deberân registrar los bultos de
+mercaderîas
+a medida que se presenten para ser despachados,
 extendiendo carta de porte, si lo exigiese el cargador, o dando
 simplemente, en caso contrario, un recibo que indique la natu-
-raleza y peso de los bultos, el importe total del flete y el
-tiempo en que deba efectuarse el transporte. (Ley, art. 45.)
-
-Declaración de calidad, peso, clase,
-etcétera, de la carga a transportar.
-
-Art. 219. — El cargador deberá hacer declaración previa de
-la calidad específica, peso, clase, medida o número de las
+raleza y
+peso de los bultos, el importe total del flete y el
+tiempo
+en
+que deba efectuarse el transporte. (Ley, art. 45.)
+Declaraciôn de calidad, peso, clase,
+etcetera, de la carga a transportar.
+Art. 219. — El cargador deberâ hacer declaraciôn previa de
+la
+calidad especifica,
+peso,
+clase, medida
+o
+numéro
+de las
 cargas a transportar.
-Tratándose de cargas a granel, si en el punto de proce-
-dencia de la carga no hubiera sido pesada por falta de báscula
-apropiada, las empresas deberán verificar el peso de la misma
-en el primer punto donde la hubiese, y comunicarlo en el
-día por carta o por telegrama al cargador o al consignatario,
-salvo que alguno de ellos hubiera presenciado o controlado
-dicha operación, lo que podrán hacer siempre que lo creyeran
+Tratândose
+de
+cargas
+a granel, si
+en el punto de
+proce-
+dencia de la carga no hubiera sido pesada por falta de bascula
+apropiada, las empresas deberân verificar el peso de la misma
+en
+el primer punto donde la hubiese,
+y comunicarlo
+en el
+dia por carta o por telegrama al cargador o al consignatario,
+salvo
+que alguno de ellos hubiera presenciado
+o controlado
+dicha operaciôn, lo que podrân hacer siempre que lo creyeran
 conveniente.
-Dicha verificación de peso no excluye la que puedan hacer
+Dicha verificaeiôn de peso no excluye la que puedan hacer
 las empresas en los empalmes de intercambio.
-La empresa no estará obligada a dar el aviso al consigna-
-tario sino cuando así lo hubiere estipulado el cargador al
+La empresa no estarâ obligada
+a dar el aviso al consigna¬
+tario sino
+cuando
+asî
+lo hubiere estipulado el cargador al
 otorgar la carta de porte.
-
-Falsa declaración de las cargas. Pe-
+Falsa declaraciôn de las cargas. Pe-
 nalidad.
-
-Art. 220. — El cargador que hiciere una declaración falsa
-al remitir sus cargas, a fin de pagar un flete menor que el
+Art.
+220. — El cargador
+que hiciere una declaraciôn falsa
+al remitir
+sus cargas,
+a fin de pagar un flete menor que el
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 153
@@ -745,73 +874,115 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
 ```
 
+# Page 154
+
 ## Page Metadata
-Page number: 154
-Original document page number: 151
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json`
+- Source page: 154
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/page-images/page-0154.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page presents a single column of text. At the top, centered, is the page number "— 151 —". Below this is a paragraph, followed by a centered heading "Embalajes.". The main content consists of an article introduction "Art. 225. — Para el embalaje regirán las siguientes dispo- siciones:" followed by a numbered list from 1º to 7º, with some items containing multiple paragraphs.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 151 —
-
-indicándose en los envases el número y marca correspondientes
-y la estación de destino, debiéndose sacar o borrar toda marca
-o rótulo existente con anterioridad.
-
+```markdown
+— 151
+indicândose en los envases el numéro y marca correspondientes
+y la estacion de destino, debiéndose saear o borrar toda marca
+o rôtulo existente con anterioridad.
 Embalajes.
-
-Art. 225. — Para el embalaje regirán las siguientes dispo-
-siciones:
-
-1º Los tejidos, calzados, comestibles, cigarrillos, artículos
-de armería o droguería o cualquiera otra mercadería de
-valor, deberán despacharse en embalajes sellados con
+Art.
+225. — Para el embalaje regirân las siguientes dispo-
+siciones :
+l9
+Los tejidos, calzados, comestibles, cigarrillos, artîculos
+de armerîa o droguerîa o cualquiera otra mercaderîa de
+valor,
+deberân despaeharse
+en embalajes sellados con
 lacre o plomo o precintos, de tal manera que su conte-
-nido no pueda ser sustraído sin violar los sellos o pre-
+nido no pueda ser sustraido sin violar los sellos o pre¬
 cintos.
-2º Los cascos deben tener los tapones bien asegurados y
+29
+Los
+eascos deben tener los tapones bien asegurados y
 no derramar el contenido.
-Los cascos con mosto u otros líquidos en fermenta-
-ción, no podrán estar cerrados herméticamente y de-
-berán ir provistos de un tubo, que permita el escape
-de los gases.
-3º Los cascos vacíos que hubieren contenido líquidos co-
-rrosivos, cáusticos, ácidos o de mal olor, deberán estar
-bien secos exteriormente y cerrados.
-4º El pescado fresco, conservado en hielo, se admitirá sola-
+Los
+eascos
+con mosto u otros liquidos en fermenta-
+ciôn,
+no podrân estar cerrados herméticamente y de¬
+berân ir provistos de un tubo, que permita el escape
+de los
+gases.
+39
+Los
+eascos vacios
+que liubieren contenido liquidos co-
+rrosivos, causticos, âcidos o de mal olor, deberân estar
+bien
+secos exteriormente y cerrados.
+49
+El pescado fresco, conservado en hielo, se admitirâ sola-
 mente en cajones agujereados en la parte inferior para
-permitir la filtración del agua, al derretirse el hielo.
-5º La leche y la crema deberán conducirse en tarros fuertes
+permitir la filtracion del agua, al derretirse el hielo.
+59
+La leche y la crema deberân conducirse en tarros fuertes
 o estanques adecuados.
-6º Los cueros lanares se transportarán en bultos bien ase-
-gurados, respondiendo la empresa por su peso única-
-mente si los bultos hubieran sido abiertos hallándose
+69
+Los cueros lanares se transportarân en bultos bien ase¬
+gurados, respondiendo la empresa por su peso ûnica-
+mente
+si los bultos hubieran sido abiertos hallândose
 en su poder.
-7º Los cueros de venado y nutria deberán presentarse
-enfardelados. La cerda no enfardelada y la pluma se
-recibirán solamente en cajones, bolsas, chiguas o emba-
+79
+Los
+cueros
+de
+venado
+y nutria deberân presentarse
+enfardelados.
+La cerda no enfardelada y la pluma se
+recibirân solamente en cajones, boisas, chiguas o emba-
 lados de manera segura.
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content such as portraits, headshots, group photographs, labeled photographs, substantial maps, large illustrations, or source-meaningful diagrams/charts."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 155
@@ -1061,105 +1232,136 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The page consists entirely of text."}
 ```
 
+# Page 159
+
 ## Page Metadata
-Page number: 156
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json`
+- Source page: 159
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/page-images/page-0159.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a main column of text, centered with a page number at the top. This column contains several headings and numbered articles. To the right of the main text, a very narrow, mostly cut-off column of text fragments is visible. The reading order proceeds from top to bottom, with the main text column read before the fragmented right-hand column.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-                                    — 156 —
 
-                                Correcciones en las cartas de porte.
-
-        Art. 236. — La carta de porte no podrá contener raspa-
-duras, debiendo salvarse bajo firma las correcciones que se
-hicieren, repitiéndose en palabras los números rectificados.
-
-                                  Forma de la carta de porte.
-
-        Art. 237. — Los duplicados de las cartas de porte deberán
+```markdown
+—
+156
+—
+Correcciones
+en las cartas de porte.
+Art.
+236. — La
+carta
+de
+porte
+no podrâ
+contener
+raspa-
+duras,
+debiendo
+salvarse bajo firma las
+correcciones
+que
+se
+hicieren, repitiéndose en palabras los numéros rectificados.
+Forma de la
+carta de porte.
+Art.
+237. — Los duplieados de las cartas de porte deberân
 ser de los siguientes colores:
-            Cargas generales, azul. Cargas de peligro, rosada. Hacienda,
-        verde. Carga a tarifa especial, amarilla.
-            Los ejemplares para las empresas podrán ser todos blancos,
-        distinguiéndose en lo que respecta al transporte, por una le-
-        yenda en letras coloradas, colocada en sentido transversal.
-            Se indicará con tinta roja: En la carta de porte rosada,
-        las palabras “Carga de peligro”; en la amarilla, las palabras
-        “Transporte a tarifa especial” y la leyenda “Acepto la tarifa
-        especial Nº... y me acojo a sus beneficios y condiciones”.
-            En el dorso de la carta de porte sólo se reproducirá el
-        artículo 253 ó el 366 de este Reglamento, según el caso.
-
-                                Aprobación de las cartas de porte.
-
-        Art. 238. — Las empresas no podrán usar ejemplares de
-        cartas de porte, cuyo texto original no haya sido previamente
-        aprobado por la Dirección General de Ferrocarriles.
-
-                                Otros formularios que utilizarán las
-                                          empresas.
-
-        Art. 239. — La Dirección General de Ferrocarriles determi-
-        nará los formularios de las empresas, utilizados o a utilizarse
-        en sus relaciones con el público, que deberán ser sometidos a
-        su aprobación.
-
-                                Ineficacia de las estipulaciones que
-                                  no constan en la carta de porte.
-
-        Art. 240. — Cualquier estipulación particular que no conste
-        en la carta de porte, será de ningún efecto para con el tercer
-        destinatario o legítimo tenedor. (C. C., art. 168.)
-```
-**Right-hand column fragments:**
-```
-A
-nacio
-bicie
-cond
-se r
-
-A
-cada
-se e
-el d
-ante
-empr
-
-A
-sien
-desi
-del
-Se
-entr
-
-A
-cart
-las c
-
-A
-otor
-pago
-
-6
+Cargas generales, azul.
+Cargas de peligro, rosada. Hacienda,
+verde.
+Carga
+a tarifa especial, amarilla.
+Los ejemplares para las empresas podrân ser todos blancos,
+distinguiéndose en lo que respecta al transporte, por una le-
+yenda en letras coloradas, colocada en sentido transversal.
+Se indicara,
+con tinta roja: En la carta de porte rosada,
+las palabras “Carga de peligro”; en la amarilla, las palabras
+“Transporte a tarifa especial” y la leyenda “Acepto la tarifa
+especial N9...
+y me acojo a sus beneficios y eondieiones”.
+En
+el
+dorso
+de la
+carta
+de
+porte solo
+se reproducirâ el
+articulo 253
+ô el 366 de este Reglamento,
+segun el
+caso.
+Aprobacion de las cartas de porte.
+Art.
+238.
+■—■Las
+empresas
+no podrân
+usar ejemplares
+de
+cartas de porte, cuyo texto original no haya sido previamente
+aprobado por la Direccion General
+de Ferrocarriles.
+Otros formularios que utilizarân las
+empresas.
+Art. 239. — La Direccion General de Ferrocarriles determi-
+narâ los formularios de las empresas, utilizados
+o
+a utilizarse
+en
+sus relaciones
+con el publico,
+que deberân ser sometidos a
+su aprobacion.
+Ineficacia de las estipulaciones que
+no constan en la carta de porte.
+Art. 240. -— Cualquier estipulacion particular que no conste
+en la carta de porte, sera de ningun efecto para con el tercer
+destinatario
+o legîtimo tenedor.
+(C. C., art. 168.)
 ```
 
 ## Images, Captions, And Visual Notes
-No substantial images or captions are present on this page. The page contains only text.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-The text fragments in the right-hand column are incomplete due to the page being cropped, but the visible characters themselves are legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page, including the main body and the fragmented right-hand column, has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial images or visual elements are present on this page. The page primarily consists of text."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 157
@@ -1457,70 +1659,126 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 163
+
 ## Page Metadata
-- Page number: 163
-- Source publication year: 1936
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json`
+- Source page: 163
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/page-images/page-0163.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, primarily composed of numbered articles and subheadings. The page number is centered at the top.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-— 160 —
 
+```markdown
+— 160
+—
 Término para el pago del flete.
-
-Art. 250. — Los consignatarios no podrán diferir el pago
-del flete de los efectos que recibieren, después de transcu-
-rridas las 24 horas siguientes a su entrega.
-En caso de retardo ulterior, no mediando reclamación sobre
-daño o avería, la empresa podrá exigir la venta judicial de
-los efectos transportados, hasta la cantidad suficiente para
+Art.
+250. — Los eonsignatarios
+no podrân diferir el pago
+del flete
+de los
+efectos
+que recibieren, después de transcu-
+rridas las 24 horas siguientes
+a su entrega.
+En caso de retardo ulterior, no mediando reclamaeiôn sobre
+dano
+o averîa, la empresa podrâ exigir la venta judicial de
+los
+efectos transportados, hasta la cantidad suficiente
+para
 cubrir el monto del flete y los gastos que se hayan ocasionado.
 (C. C., art. 202.)
-
-Aforo de bultos con mercaderías de
+Aforo de bultos con mercaderîas de
 diversas clases.
-
-Art. 251. — Si un bulto contuviera mercaderías de diversas
-clases sujetas a tarifas diferentes, será aforada aplicando al
-total la tarifa más elevada.
-
-Los artículos de igual clase remi-
+Art. 251. — Si un bulto contuviera mercaderîas de diversas
+clases
+sujetas a tarifas diferentes, sera aforada aplicando al
+total la tarifa mas elevada.
+Los articulos
+de igual clase
+remi-
 tidos bajo la misma carta de porte
 forman una sola partida.
-
-Art. 252. — Todos los artículos de la misma clase, especi-
-ficados en la misma carta de porte, serán considerados en con-
-junto como una sola partida, al efecto del cómputo del flete.
-
+Art.
+252. — Todos los artîculos
+de la misma clase,
+especi-
+ficados en la misma earta de porte, serân considerados en con-
+junto como una sola partida, al efecto del compute del flete.
 Plazos para el transporte.
-
-Art. 253. — Las cargas serán transportadas en el tiempo
-de 24 horas, indivisibles, hasta los primeros 80 kilómetros o
-fracción, en el tiempo de 6 horas indivisibles para cada pe-
-ríodo siguiente de 40 kilómetros o fracción hasta 640 kiló-
-metros, y en el tiempo de 6 horas indivisibles para cada
-período siguiente de 60 kilómetros o fracción, a partir de
-641 kilómetros en adelante.
-Se agregará al tiempo así computado 24 horas por cada
-empalme que cruce la carga, siempre que sea con vías de otras
-empresas; otras 24 horas cuando se verifique transbordo por
-diferencia de trocha o se emplee ferro-barco; el total de las
-horas correspondientes a los días domingos y feriados nacio-
-nales que estuvieren comprendidos y 48 u 84 horas más para
+Art.
+253. •— Las
+cargas serân transportadas
+en el tiempo
+de 24 horas, indivisibles, hasta los primeros 80 kilometros o
+fracciôn,
+en el tiempo de 6 horas indivisibles para cada PÇ-
+rîodo siguiente de 40 kilometros
+o fracciôn hasta 640 kilo¬
+mètres,
+y
+en
+el tiempo
+de
+6
+horas indivisibles
+para
+cada
+perîodo siguiente
+de 60 kilometros
+o fracciôn,
+a partir de
+641 kilometros
+en adelante.
+Se agregarâ al tiempo
+asî computado 24 horas por cada
+empalme que cruce la carga, siempre que sea con vîas de otras
+empresas; otras 24 horas cuando
+se verifique transbordo p»1'
+diferencia de trocha
+o
+se emplee ferro-barco; el total de lilS
+horas correspondientes
+a los dîas domingos y feriados nacio-
+nales que estuvieren comprendidos y 48 u 84 horas mas para
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last line of the page, part of Art. 253, is cut off at the bottom.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
