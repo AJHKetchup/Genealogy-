@@ -1,0 +1,191 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e3bf1d249058-P0297-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303.codex.md
+converted_sha256: e3bf1d249058a75e6f236685c0b5469ed718f9cfbaf10510a7b6df8ae198d465
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json
+page_start: 297
+page_end: 297
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json`
+- Source page: 297
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0297.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—
+12
+—
+5° A las hermanas solteras del causante que se
+encueûtren
+en las
+condiciones
+de los padres.
+Los hijos naturales reconocidos o declarados taies por sentencia
+judicial gozarân de la parte de pension a que tengan derecho
+con
+arreglo
+a la legislaciôn civil.
+Art. 40. — El importe de la pension sera équivalente al' 50 % del total
+de la jubilaciôn que percibia
+o que tenia derecho
+a, percibir el
+causante; la
+pension minima correspondiente a una jubilaciôn ordinana
+o por invalidez
+sera de 100 pesos. La initad de la pension sera de la viuda si concurren los
+hijos o los padres del causante; la otra mitad se distributed entre
+éstos «per
+capitei>. A falta de padres
+e hijos, la totalidad de la pension
+correspondent
+a la viuda.
+En los
+casos de los incisas 1° y 2° del
+articulo 39,
+si
+se
+extingue el
+derecho
+a la pension
+de
+alguna
+de
+las
+personas mencionadas en ellos, la
+parte de la
+misma acrecerd sucesivamente
+a
+los
+hijos
+o cônyuge sobrevi-
+viente, comprendidos en los beneficios dé esta ley.
+Art. 41. •— Si la esposa del empleado quedase viuda hallândose
+divor-
+ciada por su culpa o hubiese estado separada de hecho sin voluntad de unirse,
+no tendra derecho
+a pension, y ésta pasarâ
+a las personas que
+con
+arreglo
+a esta ley tengan derecho
+a ella.
+Art. 42. — Si
+a la muerte del
+causante de
+una pension qSedaran hijos
+huérfanos de distintos matrimonios. la pension se distribuirâ en
+la
+propor¬
+tion que corresponda
+a los mismos
+y
+sera
+entregada
+a sus
+respectivos re¬
+présentantes legales.
+Art. 4B. — Las
+pensiones vitalicias y el derecho
+a percibirlas
+solo
+se
+pierden por las causas
+establecidas
+en esta ley sobre la pérdida
+de la jubi¬
+lation.
+Art. 44. — No
+se
+acumularân
+dos
+o mâs
+pensiones
+o jubilaciones
+en
+la misma persona.
+Al interesado le corresponde
+optar
+por
+la que
+le
+con-
+venga, y, hecha la option, quedarâ extinguido el derecho
+a las otras.
+Art. 45. — Las jubilaciones y pensiones serdn acordadas por el
+Direc-
+torio de la Caja, ante el cual deberdn solicitasse, acompanando los recaudos
+necesarios para justificar que el postulante esta en las condiciones de esta ley.
+Los expedientes se tramitardn en papel comùn y el Pirectorio acordard
+o desecharà
+en definitiva la solicitud, siendo sus resoluciones apelables en los
+términos del articulo
+32.
+La
+Administraciôn
+de
+la
+Caja podrd
+constitute
+agentes en los centros ferroviarios de mayor importancia.
+a) Para que reciban
+las
+solicitudes, verifiquen
+los trdmites hasta
+el momento de la resoluciôn del Directorio y hagan conocer las
+resoluciones del ûltimo,
+en todos los
+expedientes que inicien in-
+teresados cuyo domicilio se encuentre dentro del radio que se fije
+a cada
+una de las agendas;
+b) Para evacuar, verbalmente
+o por escrito, todos los informes que
+se solicitaren a los efectos del trdmite de los expedientes o el re-
+conocimiento de los derechos acordados por las leyes de jubilaciôn.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

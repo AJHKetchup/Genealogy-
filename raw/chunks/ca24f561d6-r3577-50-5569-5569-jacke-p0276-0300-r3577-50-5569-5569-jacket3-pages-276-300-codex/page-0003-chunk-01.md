@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-0512402dec49-P0003-01
+chunk_id: CHUNK-a67496e95fc0-P0003-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0276-0300-r3577-50-5569-5569-jacket3-pages-276-300.codex.md
-converted_sha256: 0512402dec49cb30e08d053737587fc95c043f0bfa4014cb20995c11f4f8ab8b
+converted_sha256: a67496e95fc034678a283e66b93395e5640a549a63c9a102955f3c5a817a2f82
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0276-0300-r3577-50-5569-5569-jacket3-pages-276-300/manifest.json
@@ -39,3 +39,5 @@ All visible text and significant visual elements have been transcribed or descri
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "The page is a simple cover with only text and decorative lines. No substantial images, portraits, maps, or diagrams are present that would warrant cropping."}
 ```
+
+# Page 279

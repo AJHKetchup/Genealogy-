@@ -1,0 +1,268 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-158c9fa90e6c-P0195-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0176-0200-s522bis-29-3-pages-176-200.codex.md
+converted_sha256: 158c9fa90e6cc0709770174d95d7df4577f859ee5d3a0bb3ecafe0f54b65123c
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0176-0200-s522bis-29-3-pages-176-200/manifest.json
+page_start: 195
+page_end: 195
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0176-0200-s522bis-29-3-pages-176-200/manifest.json`
+- Source page: 195
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0176-0200-s522bis-29-3-pages-176-200/page-images/page-0195.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+CAMARA DE DIPUTADOS
+fde 1921
+Sr. Présidente (Goyeneche). — Se va a vo-
+tar la proposieion del sefior diputado por Cor¬
+doba :
+los mismos sueldos del despaeho de la
+comisiôn pero doblando el porcentaje de
+au¬
+mento.,
+—Résulta aflrmativa.
+Sr.
+Présidente
+(Goyeneche).
+—
+Se votarâ
+'ahora el segundo parâgrafo del despaeho
+de
+la comisiôn, y si fuera rechazado, entraria la
+proposieion
+del sefior diputado Demaria
+que
+se
+va
+a leer.
+Sr. Demaria. — Entiendo que dadas las ma-
+nifestaciones
+que
+ha hecho la comisiôn
+no
+puede negarse
+a incorporai-
+a su despaeho la
+misma escala. De manera que no habria para
+qué votarlo.
+Sr.
+de Tomaso.
+— Ya
+no hay despaeho si
+la comisiôn no lo vota ni lo sostiene.
+Sr. Rodriguez C. J.). — Como la comisiôn
+no puede tomar aqui una resoluciôn, el despa-
+cho
+esta
+a la consideraciôn
+de la câmara y
+debe votarse
+en primer lugar.
+Sr. Présidente (Goyeneche). — Se va a vo¬
+tai- el despaeho de la comisiôn y en
+caso de
+que fuera rechazado
+se votarâ la proposieion
+del
+senor diputado Demaria, de
+que
+se darâ
+lectura.
+•—Se
+lee:
+-Los
+aumentos
+sancionados
+en
+este
+presupuesto
+para los ernpleados y obreros de la administraciôn se
+harân
+extensivos
+al ejército
+y
+a la armada, redu-
+ciéndose
+en
+la
+proporciôn
+del
+aumento
+efectuado
+e<h
+esas instituciones
+en el presupuesto del
+ano pa-
+sado”.
+“Este aumento en la remuneraciôn de los ofieia-
+fes,
+ernpleados
+u
+obreros
+sera reducido al
+50
+por
+clento cuando el estado les proporeiona alojamiento
+y
+alimentaciôn.
+En
+caso
+de
+que
+por vigencia
+de
+esta
+disposiciôn
+résultera
+un
+inferior
+con
+mayor
+sueldo que un superior, el aumento se aplicarâ. man-
+teniendo
+siempre
+una
+diferencia
+de
+veinte
+pesos
+q.e sueldo
+a favor del sueldo del superior”.
+Sr. Présidente (Goyeneche).
+— Se va a vo-
+tar el despaeho de la comisiôn en el segundo
+parâgrafo.
+t—Résulta afirmativa de 44 votos.
+votaciôn.
+—Rectificada
+résulta
+nuevamente
+afirma¬
+tiva.
+Sr.
+Demaria.
+— Hago constar,
+senor pré¬
+sidente,
+aunque
+no
+sea parlamentario,
+que lo
+que la câmara acaba de sancionar muestra que
+prestar servicios en el ejército y en la escua-
+dra
+es un delito que se castiga pagando menos
+que a iguales funciones en la administraciôn.
+Sr.
+Fernandez (D.).
+— Pido
+que
+se haga
+constar mi voto en contra.
+Sr. Bravo. — La comisiôn de presupuesto no
+ha sabido informai- con la suficiente doeumen-
+taeiôn partidas eseneiales y de la mayor im-
+portancia.
+Sr,
+de
+Tomaso.
+— Para
+la
+cual lo mismo
+son dos millones que cuatro millones de pesos.
+—Varios senores diputados hablan a la vez.
+Sr. Demaria. — Lo unico que habria que ha-
+cer constar es el criterio de clase de la diputa-
+ciôn socialista, que vota en contra de aumen¬
+tos de sueldos por igualdad de servicios cuan¬
+do
+se trata de sueldos del ejército; lo mismo
+ocurre
+con
+mucha parte de la diputaciôn ra¬
+dical.
+Sr. Présidente (Goyeneche). — Se va a leer
+la proposieion del sefior diputado, por La Rio¬
+ja, doctor Moreno
+—Se
+lee.
+Sr. Gonzalez.
+— jEs con erecto retroactdvo ?
+■Quiere el sefior secretario vol ver a leer la se-
+gunda parte?
+■—Se repite la lectura.
+Sr. de Tomaso.
+— jCuânta plata represents
+todo
+eso para très meses?
+Sr. Pena.
+— ;Para que vengan
+a sacar las
+euentas !
+Sr. Quinteros.
+— Para
+que représente mâs.
+lo podriamos haeer desde principios de siglo.
+Sr. de Tomaso.
+— He pedido el dato a la co
+misiôn y si la comisiôn no lo sabe, que es lo mâs
+probable, al autor de la proposieion.
+Sr. Moreno. — Lo que puedo decir es que ca-
+da câtedra représenta. 31 pesos de aumento. No
+tengo a la mano el numéro de câtedras de esos
+Î803
+Sr,
+Demaria,
+— Pido
+que
+se rectifique la
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 196

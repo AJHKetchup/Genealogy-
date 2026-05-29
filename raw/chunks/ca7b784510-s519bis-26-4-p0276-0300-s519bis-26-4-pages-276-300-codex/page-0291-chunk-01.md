@@ -1,0 +1,257 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-eb6704d42d9f-P0291-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0276-0300-s519bis-26-4-pages-276-300.codex.md
+converted_sha256: eb6704d42d9f9b3d4993e64713eb2bc1ad6ec2a8504a7240aee5f4fa1b7d0581
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0276-0300-s519bis-26-4-pages-276-300/manifest.json
+page_start: 291
+page_end: 291
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0276-0300-s519bis-26-4-pages-276-300/manifest.json`
+- Source page: 291
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0276-0300-s519bis-26-4-pages-276-300/page-images/page-0291.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-
+2
+-
+compromise» mds formai
+die
+saanera que
+parezea
+que el
+Bras 11 ha
+obtenido
+una cierta satisfaocidn
+en
+sas pretensiones de 1926
+aunque
+an el fonde
+eso
+no
+sea absolutamente exacte,
+Llegamos
+a esta soluoidn un poco vaga,
+deopués de
+dlseutir
+un largo rato y despuds de recordarle
+yo
+que la
+fdr ula presentada par el Dr.
+Guani
+en 1926
+as probablement©
+el mdximo
+que
+puede obtenerse. Ademâs, le recordé
+que es
+muy diffeil crear una posicidn privllegiaâa para el Brasil,
+ni siquiera la
+promesa de
+una tal poacidn sin tener en oaenta
+por lo menos
+a la Republics Argentina dentro de imérica y
+en fin/ que el Brasil encontrarîa
+una reaisteneia auy
+decidida
+en los
+rsismos paîses latinoamerioanos contra el
+privilegio,
+por e^emplo,
+de tener un presto seal permanente
+en el Conseco
+eomo Polonia y Sspada.
+En efecto, aumos de
+los paîaessraéricapos
+se opohdrîan
+a un tal privilegio
+en
+favor
+de ouaiquier pais latino de Amériea,
+por una razdn de
+principle democrdtico,
+de prestigio o de lo que fuere,
+que
+s<51o
+se sienten dlspuestos
+a abandonar
+en el continente
+cuando
+se
+trata
+do
+los
+Estados Unidos.
+Por otro
+lado llamé
+su atencidn sobre la tesls argentins,
+de la demooratizaddn del Conseco,
+cosa
+que Epitacio Pessoa
+habfa ya defendido
+en les disousiones de Paris sobre la
+redaocidn del Pacto.
+le advert! tasbién el cambio operado
+en Mello Franco
+quien
+me di^o el
+10 de Marxo
+en Rio de Janeiro
+que el Brasil
+no puede volver
+a la Soeiedad si
+no
+se démocratisa el
+Conseco, después
+de haber sosteniào algo may difersate
+en
+1926,
+es decir que al Brasil debfa ooupar
+©1 puesto
+perma¬
+nente
+de
+los Estaàos tîniios mientraa este pals
+no entre
+en
+la Sodedad
+de las Saoiones,
+aunque
+es verdad
+que
+esa tesis
+era opuesta al otorgaæiento de
+un puesto permanente ,a
+Alemania,
+pudiendo dejar la iapresidn aparente de
+que
+se defendfa el principio democrdtico.
+J)e
+todos aodos,
+el
+recho
+es
+que mello Franco sostuvo el 10 de marzo dltim.
+la tesis
+de la democratizacidn.
+Co.no tango la conviccidn de
+que
+en el Brasil
+se
+oomienza
+a pensar
+en el regreso
+a la Sodiedad de las Saoiones,
+al recordar yo al Dr.
+Paranaguâ estos antecedentes, le
+insinué le posibilidad de
+que
+p .drfa hellarse una formula
+que, sin llegar a ser un privilégie incii .ic.ua!
+ccmo el de
+la semipermenenciB,
+pudiese sifniiicar une medio semi-
+pertcanencia,
+llegdndose
+a on compromise eonildeneial de
+las Potencies
+Permanentes y de algunos pafses ads,
+para
+asegurar
+un puesto semipermanente
+que ocuparian la Argentina
+y Brasil suoesivamente,
+de modo
+que
+an.
+de los dos estuvisse
+aierapre
+en el
+Conseco.
+El Dr.
+Paranagud halld
+que esta formula, si era viable,
+séria
+de
+gran efecto
+en Rio y podrl
+ser deoieiva.
+Agregud entonnes
+que la presends de
+.«llo Franco en
+la Asarablea
+de
+setiembre
+como observador eventual del Brasil
+para el asunto del Chaco
+y la presencia de Saavedra Lamas
+facilitarît» la adopcidn de
+esa
+o de otra fdmula para la
+que podrla obtenerse la adhesidn de varios
+o de
+todos los
+palses anericanos présentes,
+cuya aooida politisa construc¬
+tive ^ustificaria'por primera vez un aouerdo entre elles
+ante
+un problems concrete de interéc general,
+pa^ra lie par
+a esta
+soïucidn habria'qüe
+vencer la dificuïtâa
+sentimiento democratlco international americano
+a
+que antes
+aludl;
+pero podrla hdlarae quizds
+una formula temporal
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 292

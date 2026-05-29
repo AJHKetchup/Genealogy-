@@ -1,0 +1,148 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-22b585fb21aa-P0307-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0301-0325-s519bis-26-4-pages-301-325.codex.md
+converted_sha256: 22b585fb21aa3bbc2d1953bc3a23333922a381303db753f859a76aa345341f3c
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0301-0325-s519bis-26-4-pages-301-325/manifest.json
+page_start: 307
+page_end: 307
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0301-0325-s519bis-26-4-pages-301-325/manifest.json`
+- Source page: 307
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0301-0325-s519bis-26-4-pages-301-325/page-images/page-0307.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Delegacion del Peru
+ANTE LA OFICINA INTERNACIONAL DEL
+NICE (A.M. )
+- FRANCIA -,
+111
+rue
+de France,
+TRABAJO.
+Marzo
+9
+de 1927.
+Seîior Don Julian NOGUEIRA,
+Sooiedad de Naeiones.-GINEBRA.
+Muy distinguido SeSor:
+Ruego
+a Ud.dispense
+el retardo
+de mi respuesta,debido
+a que he est ado de viaje en
+Roma,a su muy atenta del 24 del pasado,de euyo oontenido me
+he impuesto
+con el mayor interés.
+Créa Ud.que»desde hacen très meses,apenas supe que la Con-
+ferenoia Econdmica Internaoional debla inaugurarse el 4 de Ma¬
+yo proximo,me he ocupado
+con el mejor celo de procurar que mi
+pais
+oonourra a tan importante reunion y con una delegacidn
+compléta.Con tal motivo,fuera de oficios y cartas especiales
+a
+los seSores Ministres de Relaoiones Exteriores y de Hacienda
+del Peru,me dirijf al més oapaoitado,a mi juicio,de mis oonciu-
+dadanos,el ingeniero don José Balt a , ex-Ministro de Hacienda y
+de Fomento y aotual présidente de nuestra Comision carbonera y
+siderurgica.Ad^unto
+su respuesta,que ruego
+a Ud.devolverme^Por
+ella Ud.verâ que no hab£a oposioidn de prinoipio,por lo que es-
+toy muy sorprendido
+que nada sepa de esos nombramientos*por lo
+menos.hasta la fecha.Ademàs
+de
+esa mi solioitud a prinoipios de
+Dioiembre,he renovado mis gestlones
+a prinoipios de Enero y,no
+reoibiendo respuesta en Febrero,he vuelto
+a esoribir al respeo-
+to recientemente desde Roma.Espero
+pues que,salvo motivo poli¬
+tico
+de mi Gobiemo
+que
+se oponga a esta partioipacion,ella se
+llevara
+a efecto y con la importancia que debe tener.
+Mientras tanto deseando que tal participation sea util,estoy
+ocupado
+en redaotar/en francés y en inglés/una '/Memoria sobre
+los recursos y posibilidades eoonémieas del Peru" que,por mi
+parte^hago lo posible para que pueda ser distribuida a los con¬
+currentes
+a esa Conferenoia y,ésto,sea o no nombrado delegado
+a ella.E inneoesario
+es deoirle que en este tiltimo caso,cuento
+con la benevolencia de Ud,o
+de la adecuada persona que Ud.se sir
+va indiearme,para haoer tal distribuoién.
+Con la atenta de Ud.que tengo el agrado
+de contester,he reoi-
+bido el"0atâlogo de docimentos",la "Orden del dia de la Conferen
+cia",las très noticias
+de su Secoio'n de Informaoion sobre el
+"Memorandum de las Balanzas de Pagos",el "Memorandum sobre la
+froduccidn y el Comeroio" y el "Movimiento^de las poblaoiones" y
+los folletos correspondantes
+a estas dos ultimas noticias,por
+todo lo eual le agradezeo.
+Igualmente le quedo muy reoonocido por el envio hecho al Exmo
+Sr.Freyre y Santander,quien espero que se impondra con el mayor
+interés
+de cuanto Ud.se digne enviarle.
+Por mi parte,me permito reiterarle mi pedido de otro exemplar
+del
+"Memorandum sobre las Balanzas de Pages",que me es muy neoe-
+\
+■
+|
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

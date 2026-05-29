@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-9e421c25767c-P0014-01
+chunk_id: CHUNK-081c0657b87c-P0014-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25.codex.md
-converted_sha256: 9e421c25767c189b22fd03aff672b2653e85acd48bafd39c746be68e93d5d491
+converted_sha256: 081c0657b87ccb44759a0ef78955c1fd9ca92d929d19edf49c6031cb4f6471d7
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json
@@ -12,92 +12,182 @@ part: 1
 ---
 
 ## Page Metadata
-Page number: 14
-Source publication: S519bis-26-4
-Source type: Letter
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json`
+- Source page: 14
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/page-images/page-0014.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a typewritten letter in Spanish. The layout includes a header with "PRIVADA" on the left and a date/location on the right, followed by an addressee block, a salutation, and several paragraphs of body text. The text flows in a single column from top to bottom.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-PRIVADA GINEBRA, 25 de Junio, 1934.
-
-Sr. Dr. Alfredo L. Palacios
-Senado de la Nación
+```markdown
+PRIVADA
+GIHSBRA,
+25 de Junio,
+1934
+Sr.
+Dr.
+Alfredo L. Palacios
+Sehado
+de la Naciôn
 BUENOS AIRES
-
-Mi distinguido y muy estimado amigo:
-
-Oportunamente leí en los diarios de Buenos Aires el
-proyecto presentado por Vd. al Senado y la discusión a que
-dió lugar, referente a la publicación de la obra de Groussac
-sobre las Islas Malvinas. Acabó de leer ahora que el Senado
-aprobó ese proyecto por cuya iniciativa le felicito.
-
-Su loable propósito consiste en hacer conocer por el
-pueblo argentino la obra de Groussac. Comprendo perfectamen-
-te la finalidad que Vd. persigue, pero colocado en el medio
-internacional en que yo me encuentro, se me ocurre que quizás
-sería por lo menos tan interesante a los efectos que Vd. per-
-sigue, difundir la obra en los ambientes que un día puedan
-tener que estudiar ese problema. Por eso pienso que, si no
-hay dificultades de orden financiero, la edición sería más
-completa y más eficaz si pudiese publicarse el texto en fran-
-cés y en inglés. El primero, para la difusión en los princi-
-pales centros internacionales, y el segundo, para conocimien-
-to de los más directamente interesados y de los norteamerica-
-nos. Si la causa que Vd. defiende es justa y si los elementos
-que Groussac expone son buenos, recogerá Vd. mayores frutos
-con los textos francés e inglés que con el texto español.
-Este último ha de servirle probablemente para crear un espí-
-ritu colectivo reivindicador que pueda respaldar un día una
-acción oficial pero, repito, si la causa es justa, lo mejor
-a mi ver es sensibilizar la opinión pública de los dos pue-
-blos anglo-sajones donde esa fuerza tiene ya arraigo y produce
+Mi distinguido y
+rauy estimado amigo:
+Oportunamente lef
+en los diarios de Buenos Aires el
+proyecto presentado por Vd. al Senado y la diseusién a que
+dié lugar, referente a la publieaeion de la obra de Groussao
+'
+sobre las Islas Malvinas.
+Acabl? de leer ahora
+que el Senado
+aprobé
+ese proyecto por euya iniciativa le felioito.
+Su loable propésito consiste
+en hacer conooer por el
+pueblo argentino la obra de Groussac.
+Comprendo perfeetamen-
+te la finalidad
+que Yd. persigue,
+pero colocado en el medio
+internaeional
+en
+que yo
+me encuentro,
+se
+me ocurre
+que quizas
+séria por lo menos tan interesante a los efectos que Yd. per¬
+sigue, difundir la obra en los ambiantes
+que un dia puedan
+tener
+que estudiar ese problems.
+Por eso pienso que, si
+no
+hay diflcultades
+de orden financiero, la edicién séria mas
+compléta y mas efieaz si pudiese publiearse el texto en fron¬
+cés y
+en inglés.
+El primero,
+para la difusién en los princi¬
+pales centres internacionales,
+y el segundo, para conocimien-
+to
+de los
+mas directemente interesados y de los norteamerica-
+nos.
+Si la
+causa
+que Vd. defiende
+es justa y si los elementos
+que Groussac expone son buenos,
+reeogera Yd. mayores frutos
+con los textes francés
+e inglés
+que
+con el texto espa?.ol.
+Este dltimo ha
+de servirle probablemente para crear un esp£-
+ritu colectivo reivindicador que pueda respaldar un d£a una
+accion oficial pero, repito, si la causa
+es justa, lo mejor
+a mi
+ver
+es 3ensibilizar la opinion publica de los dos pue¬
+blos anglo-sajones donde
+esa fuerza tiene ya arraigo y produce
 los mejores resultados.
-
-Dejo apuntada esta sugestión y desde ya le quedaré gra-
-to si hace enviar a esta Secretaría algunos ejemplares de la
-obra, aunque sea en español, de los cuales dedicaré dos o
-tres a la Biblioteca de la Sociedad, distribuiré entre las
-personas que Vd. juzgue conveniente unos pocos y conservaré
+Dejo apuntada esta sugestién y desde ya le quedaré gra-
+to si
+hace enviar
+a esta Seeretaria algunos ejeraplares de la
+obra,
+aunque
+sea
+en espa’ol,
+de
+los cuales dedicaré d03 o
+très
+a la Biblioteca de la Sociedad, distribuiré entre las^
+personas
+que Vd.
+juzgue conveniente unos pocos y oonservaré
 uno para mi personal conocimiento.
-
-Hace poco leí en "La Vanguardia" un artículo sobre el
-conflicto del Chaco del Dr. Bravo a quien escribí últimamen-
-te comentando ese delicado problema. En pocos casos como en
-éste se justifica aquello de que "los unos por los otros, y
-la casa sin barrer". Los países tratan de escudarse en la
-actitud del vecino para adoptar la actitud propia, y dentro
-de los países, los poderes del Estado se miran con un respe-
+Hace poco le£
+en ’’La Vanguardia" un artüoulo^sobre el
+conflioto del
+Chaco del Dr. Bravo
+a quien esoribl illtimamen-
+te comentando
+ese delicado problema.
+En pocos casos
+como en
+éste
+se justifies aquello de que "los unos por los otros, y
+la
+casa sin barrer".
+Los pa£ses tratan de escudarse en la >■
+actitud del vecino para adoptar la actitud propia, y dentre
+de los pafses,
+los poderes del Estado se miran con un respè-
 to singular que no mantienen entre ellos cuando se trata de
-cuestiones menos importantes y cuando no están en juego la vi-
-da de millares de hombres y el destino de dos pueblos, y tan-
-to los países en su esfera internacional como los poderes
-públicos en su esfera nacional, tratan de hacer recaer sobre
-una entidad al parecer abstracta o extra terrena - la Sociedad
-de las Naciones - la responsabilidad final de la inacción.
-Esos países y esos poderes públicos que así razonan, olvidan
-que la Sociedad de las Naciones es simplemente un instrumento
-puesto en sus manos y que mientras esos países o esos poderes
-públicos no asuman la actitud necesaria para poner en marcha
+cuestiones
+menos importante
+y cuando no estan en juego la vi¬
+da
+de millares de hombres y il destino de dos pueblos, y tan-
+to los pafses
+en su
+esfera .nternacional como los poderes
+publioos
+en su esfera naciox.il, tratan de hacer recaer sobre
+una entidad al parecer abstracts
+o extra terrena - la Sod. edat
+de las Haciones
+- la responsabilidad final#de la inaccion.
+Esos palses y
+es os poderes publioos que asf razonan, olvidan
+que la Sociedad de las Haciones es simplemente un instrumento
+puesto
+en sus manos y que mientras esos pa£ses o esos poderes
+publioos no asuman la actitud necesaria para poner en marcha
+m
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no substantial images, diagrams, or other visual elements on this page that require cropping or detailed description beyond the textual content. The page contains only typewritten text.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-No uncertain or illegible text was encountered.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-The transcription is complete and accurate, capturing all visible text and maintaining the original layout and line breaks. The page is a single-column typewritten letter. There are two small, dark circular marks on the left margin, likely from a hole punch, but they do not obscure any text.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page consists entirely of text."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

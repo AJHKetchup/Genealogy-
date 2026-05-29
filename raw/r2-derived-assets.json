@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-28T23:30:53.798580+00:00",
+  "created": "2026-05-29T00:53:37.933109+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -2208,6 +2208,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1179-1203-c-mara-de-senadores-de-la-naci-n-1936-pages-1179-1203/extracted-images/page-1203/page-1203-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p1179-1203-c-mara-de-senadores-de-la-naci-n-1936-pages-1179-1203/extracted-images/page-1203/page-1203-docling-image-01.png",
+      "bytes": 93104,
+      "sha256": "1d5197bcd3688fc0c859512941cb2fb49fb4b4633d30a6eed4e01d92cde93988",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/extracted-images/page-0002/page-0002-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/extracted-images/page-0002/page-0002-docling-image-01.png",
       "bytes": 63714,
@@ -2408,6 +2415,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0008/page-0008-image-01-fig-4-anatomy-building-university-district-university-of-concepc.png",
       "bytes": 431,
       "sha256": "e3f28c4d8f968425f0eef76fcd4a108f0a5f1007163cda3022e82943b9b8da03",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0009/page-0009-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0009/page-0009-docling-image-01.png",
+      "bytes": 487930,
+      "sha256": "573ed19524879b95b7f4e4d286571287e9b6e438d47cee35152fa970da77abb1",
       "media_type": "image/png"
     },
     {
@@ -9355,6 +9369,48 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-docling-image-01.png",
+      "bytes": 1123992,
+      "sha256": "df0fc9c93ded9dfdf301ebbe04e86e61a7aaf7417d58068cc2298cc7c642e853",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-docling-image-02.png",
+      "bytes": 46138,
+      "sha256": "56b62435703e3fde197ef590fe4df7c3c38bd012ee426d85d8c37aff71349525",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-docling-image-03.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-docling-image-03.png",
+      "bytes": 24627,
+      "sha256": "b7f3b7670ce24bfab16f50c7c840daaa24a828b610496e6dc54e804a27d3d3b8",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-docling-image-04.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-docling-image-04.png",
+      "bytes": 275086,
+      "sha256": "a048b7ce914b1e070407cad0d8a52401ad60924cef298c534c5c5da3d7b8c3a6",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-docling-image-05.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-docling-image-05.png",
+      "bytes": 44339,
+      "sha256": "4e860313289a1301a2ed95a116406791fbae14d86e55a468eedfbaf882527fcc",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-docling-image-06.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-docling-image-06.png",
+      "bytes": 457692,
+      "sha256": "f90c46ddd103227d79cb15bddf08b0f5bf318eae08230e157d8fafa03ddcb349",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-01-illustration-woman-window-door.png",
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-01-illustration-woman-window-door.png",
       "bytes": 70106,
@@ -13831,10 +13887,10 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 3,
-    "total_bytes": 111228,
-    "uploaded": 0,
-    "skipped": 3,
+    "total_files": 16,
+    "total_bytes": 3657799,
+    "uploaded": 8,
+    "skipped": 8,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,
@@ -13844,9 +13900,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1979,
+      "scanned": 1987,
       "deleted": 0,
-      "skipped": 1979,
+      "skipped": 1987,
       "errors": []
     }
   }

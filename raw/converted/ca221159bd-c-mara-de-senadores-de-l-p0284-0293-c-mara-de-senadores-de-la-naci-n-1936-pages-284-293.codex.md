@@ -336,75 +336,124 @@ The transcription is complete and includes all visible text on the page.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
 
+# Page 289
+
 ## Page Metadata
-Page number: 289
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json`
+- Source page: 289
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-images/page-0289.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, primarily legal or administrative articles, with a page number at the top and a footnote at the bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-- 4 -
-
-El Directorio de la Caja deberá computar en todos los ser-
-vicios anteriores a la vigencia de la presente ley, la que regirá igualmente
-para todas las empresas que en adelante se establezcan, ya sea por la Na-
-ción o por empresas de capital privado.
-Art. 3º — Las disposiciones de esta ley no comprenden a los empleados
-y obreros que desempeñan funciones accidentales o de carácter transitorio.
-Se considera empleado permanente, a los efectos de ley, a los emplea-
-dos que tengan más de seis meses de servicios continuos en una empresa.
-
-CAPÍTULO II
-
-Administración de la Caja
-
-Art. 4º — La Administración de la Caja instituida por esta ley, estará
-a cargo de un Directorio formado por un Presidente designado por el Poder
-Ejecutivo con acuerdo del Senado, cuatro representantes titulares de las em-
+```markdown
+— 4
+—
+El Directorio de la Caja deberd computar en todos los casos
+los ser-
+vicios antenores
+a la viyencia de la presente ley, la
+que régira igualmente
+para todas las empresas que en adelante
+se establezcan, ya sea por la Na¬
+tion
+o por empresas de capital privado.
+Art. 3° — Las disposiciones de esta ley no comprenden a los empleados
+y obreros que desempenan funciones aocidentales o de carâcter transitorio.
+Se considéra empleado permanente, a los efectos de ley, a los emplea¬
+dos que tengan mâs de seis meses de servicios continuos en una empresa.
+CAPITULO II
+Administraciôn de la Caja
+Art. 4° — La Administration de la Caja instituida por esta ley, estard
+a cargo de un Directorio formado por un Présidente designado por el Poder
+Ejecwtivo con acuerdo del Senado, cuatro représentantes titulares de las em¬
 presas y cuatro del personal y otros tantos suplentes de unos y otros.
-Para la elección de sus representantes, cada una de las empresas dis-
-pondrá de un número de votos proporcional al total de sueldos y salarios
-abonados en el año inmediato anterior.
-Los representantes del personal serán designados por votación secreta
-en una asamblea de delegados que se reunirá en la Capital Federal, los
-cuales serán elegidos a simple pluralidad y votación secreta, en comicios
-distribuidos en los distritos electorales que establezca la reglamentación, no
-pudiéndose acordar intervención a las empresas en los trámites a que haya
+Para la election de sus représentantes, cada una de las empresas dis-
+pondrd de un numéro de votos proportional al total de sueldos y salanos
+abonados
+en el ano inmediato anterior.
+Los représentantes del personal serdn designados por votation sécréta
+en una asamblea de delegados
+que
+se réunira
+en la
+Capital Federal, los
+cuales serdn elegidos
+a
+simple pluralidad y votation sécréta,
+en comicios
+distribuidos en los distntos électorales que establezca
+la reglamentaciôn, no
+pudiéndose acordar intervention a las empresas en los trdmites a que baya
 lugar.
-El número de delegados a elegir en cada distrito será proporcional
-al de afiliados de la Caja del mismo, y cada delegado tendrá en la asamblea
-un número de votos igual a aquel con que ha sido electo.
-El Poder Ejecutivo reglamentará los trámites electorales y de escruti-
-nio de acuerdo con estas bases y presidirá la primera elección por intermedio
-del Departamento Nacional de Trabajo y de la Inspección General de Jus-
-ticia, estando la dirección de las siguientes a cargo de la Caja con interven-
-ción de la Inspección de Justicia.
-Art. 5º — Los representantes llamados a formar parte del Directorio
-de la Caja, deberán pertenecer a distintas empresas ferroviarias.
-El mandato de los representantes durará cuatro años, renovándose la
-representación por mitad cada dos años. El Presidente durará igual tiempo,
-pudiendo ser reelecto. El Presidente y Directores gozarán del estipendio que
+El nümero de delegados a elegir
+en
+cada distrito
+sera proportional
+al de afiliados de la Caja del mismo, y cada delegado tendra en la asamblea
+un nümero de votos igual a aquél con que lia sido electo.
+El Poder Ejecutivo reglamentard los trdmites électorales y de escruti-
+nio de acuerdo con estas bases y presidird la primera election por intermedio
+del Departamento National de Trabajo y de la Inspection General de Jus-
+ticia, estando la direction de las siguientes a cargo de la Caja con interven¬
+tion de la Inspection de Justicia.
+Art. 5° — Los représentantes llamados a formar parte del Directorio
+de la Caja, deberdn pertenecer a distintas empresas ferroviarias.
+El mandato de los représentantes durarâ cuatro anos,
+renovândose la
+representation por mitad cada dos anos. El Présidente, durarâ igual tiempo,
+pudiendo ser reelecto. El Présidente y Directores gozarân del estipendio que
 les fije el presupuesto de la Caja, no pudiéndose acumular el estipendio al
-sueldo o salario que actualmente perciba un representante. (*)
-Los aumentos del estipendio no podrán ser aprovechados por los miem-
-bros del Directorio que los sancione. Las empresas deberán reservar sus
-
-(*) Véase artículo 3º de la Ley Nº 11808 página 19.
+sueldo
+o salario que actualmente perciba un représentante. (*)
+Los aumentos del estipendio no podrdn ser aprovechados por los miem-
+bros del Directorio
+que
+los sancione.
+Las
+emp>resas deberdn
+reservar
+sus
+(*) Yéase actfcalo 3° de la Ley N» 11808 pâgina 19.
+```
 
 ## Images, Captions, And Visual Notes
-None.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 290
@@ -477,85 +526,168 @@ The transcription is complete and accurate.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page."}
 ```
 
+# Page 291
+
 ## Page Metadata
-Page number: 291
-Original page number: 6
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json`
+- Source page: 291
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-images/page-0291.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page presents a single column of text, primarily consisting of numbered articles and sub-sections, continuing from a previous page. A page number is centered at the top.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```
-                                                                — 6 —
-
-        5° Con la suma mensual que las empresas ferroviarias y demás
-        incorporadas al régimen de esta ley, aportarán como única con-
-        tribución equivalente al 8 % sobre los sueldos y jornales de todos
-        sus empleados y obreros, siempre que no excedan de mil pesos
-        (1.000 $ m/n.) mensuales, en cuyo caso la contribución se pagará
-        solamente sobre esta última cantidad.
-            La contribución a que se refiere este inciso deberá ser apor-
-        tada por las empresas también con respecto al personal ocupado
-        por contratistas. La correspondiente al personal de la Caja queda
-        a cargo de la misma;
-        6° Con el importe de las sumas pagadas de más y no reclamadas
-        por el público dentro del término de un año, quedando prescrip-
-        tos los derechos de los cargadores al vencer ese término;
-        7° Con las multas impuestas con arreglo a esta ley;
-        8° Con las donaciones y legados hechos a la Caja;
-        9° Con los intereses de los fondos acumulados;
-        10. Con el remanente que actualmente existe acumulado y el que
-        en adelante hubiera proveniente del aumento de tarifas que en
-        virtud del artículo 59 autorice el Poder Ejecutivo y que resulte
-        después que las empresas hayan abonado la contribución men-
-        cionada en el inciso 5°.
-
-        Art. 10.— Las empresas ferroviarias cuyo personal esté comprendido
-        en los beneficios de esta ley, están obligadas a practicar los descuentos a
-        que se refieren los incisos 2°, 3° y 4° del artículo anterior, y los que exige
-        el servicio de los préstamos autorizados por los artículos 12 y 13 de esta ley
-        y del seguro de vida determinado por el artículo 12 en los sueldos del per-
-        sonal de su dependencia y a depositarlos todos los meses conjuntamente con
-        las contribuciones fijadas por los incisos 5° y 6° del artículo 9°, en dinero
-        efectivo en el Banco de la Nación Argentina a la orden de la Caja, dentro
-        de los diez primeros días siguientes a cada mes vencido, sin deducir canti-
-        dad alguna por ningún concepto.
-        Art. 11.— Los fondos y las rentas que se obtengan por esta ley serán
-        de exclusiva propiedad de las personas comprendidas en sus disposiciones y
-        con ello se atenderá al pago de las jubilaciones y pensiones que se acuerden
-        en lo sucesivo de conformidad a la misma.
-
-            En ningún caso podrá disponerse de ellos para otros fines, bajo la res-
-        ponsabilidad personal de los miembros del Directorio, que se hará efectiva
-        judicialmente en sus bienes.
-        Art. 12.— Todos los fondos de la Caja estarán depositados en cuenta
-        especial en el Banco de la Nación Argentina, salvo las sumas que fije el
-        Directorio como indispensables para los pagos corrientes. Esos fondos serán
-        invertidos, previa resolución del Directorio en cada caso, en la adquisición
-        de títulos de renta nacional o que tengan la garantía subsidiaria de la
-        Nación, de manera que produzcan el mayor interés y la más frecuente ca-
-        pitalización.
+```markdown
+—
+6
+—
+5° Con la suma mensual
+qice
+las
+empresas ferroviarias
+y demds
+incorporadas al régimen de esta ley, aportardn como ünica con¬
+tribution équivalente al 8 °/0 sobre los sueldos y jornales de todos
+sus empleados y obreros, siempre que no excedan
+de mil
+pesos
+(1.000 $ min.) mensuales, en cuyo caso la contribution se pagard
+solamente sobre esta ultima cantidad.
+La contribucion
+a que se référé este
+inciso
+deberd
+ser
+apor-
+tada por las émpresas también con
+respecto al personal ocupado
+por contratistas. La correspondiente al personal de la Caja queda
+a cargo de la misma;
+6°
+Con el importe de las sumas pagadas de mâs y
+no
+reclamadas
+por el publico dentro del término de un ano, quedando prescrip-
+tos los derechos de los cargadores al veneer
+ese término;
+7° Con las multas impuestas con arreglo
+a esta ley;
+8°
+Con las donacioiies y legados hechos
+a la Caja;
+9° Con los intereses de los fondos aonmulados;
+10.
+Con el rémanente que actualmente
+existe
+acumulado
+y
+el
+que
+en adelante hubiera proveniente del aumento de
+tarifas
+que
+en
+virtud del articulo '59 autorice el Poder Ejecutivo y
+que resuite
+después que las empresas hayan abonado
+la contribucion
+men-
+cionada
+en el inciso 5°.
+Art. 10. — Las empresas ferroviarias cuyo personal
+esté comprendido
+en los beneficios de esta ley, estdn
+obligadas
+a practical•
+los
+descuentos
+a
+que se refieren los incisos 2°, 3° y 4° del articulo anterior,
+y los que exige
+el servicio de los prêstamos autorizados por los articulos 12 y 13 de esta ley
+y del seguro de vida determinado por el articulo 12 en los sueldos del per¬
+sonal de su dependencia y a depositarlos todos los meses conjuntamente con
+las contrïbuciones fijadas por los incisos 5° y 6° del articulo 9°,
+en
+dinero
+efectivo en el Banco de la Naciôn Argentina a la orden de la
+Caja, dentro
+de los diez primeros dias siguientes a cada mes vencido, sin deducir canti¬
+dad alguna por ningùn concepto.
+Art. 11. — Los fondos y las rentas que
+se obtengan por esta ley serân
+de exclusiva propiedad de las personas comprendidas en
+sus disposiciones y
+eon ello
+se atenderâ al pago de las jubilaeiones y pensiones que se acuerden
+en lo. sucesivo
+de conformidad
+a la misma.
+En ningun oaso podrâ disponerse de ellos para otros fines, bajo la res-
+ponsabilidad personal de los
+miembros del Directorio,
+que
+se harâ
+efectiva
+judicialmente en sus bienes.
+Art. 12. — Todos los fondos de la Caja estardn depositados en cuenta
+especial en el Banco de la Naciôn Argentina,
+salvo
+las sumas
+que fije
+el
+Directorio como indispensables para los pagos corrientes. Esos fondos serân
+invertidos, previa resoluciôn del Directorio
+en cada
+caso, en la adquisiciôn
+de titulos
+de
+renta
+nacional
+o
+que tengan
+la
+garantia subsidiaria de la
+Naciôn, de manera que produzcan el mayor inférés y la mds frecuente ca¬
+pitalisation.
 ```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page. The page number "— 6 —" is centered at the top.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 292
@@ -627,78 +759,177 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements that would require cropping."}
 ```
 
+# Page 293
+
 ## Page Metadata
-Page number: 293
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json`
+- Source page: 293
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-images/page-0293.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a centered page number at the top, followed by a single column of text. The text is structured into articles, each with numbered sub-points. The reading order is strictly top-to-bottom.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-<center>— 8 —</center>
-
-en el artículo noveno, salvo las excepciones que más adelante se determinan,
-tendrán derecho a la jubilación que les acuerda esta ley.
-Art. 16. — La jubilación que acuerda esta ley es:
+```markdown
+—
+8
+en el articnlo noveno, salvo las excepciones que mas adelante se determinan,
+tendrân derecho
+a la jubilaoiôn que les acuerda esta ley.
+Art. 16. — La jubilaoiôn que acuerda esta ley es:
 1° Ordinaria;
 2° Por invalidez;
 3° Por retiro voluntario.
-Art. 17. — El monto de la jubilación ordinaria se calculará con rela-
-ción al promedio de los sueldos percibidos durante los cinco últimos años de
-servicios y con sujeción a la siguiente escala: 1° Hasta ciento veinte pesos
-de promedio, el importe del promedio de sueldo. 2° Promedio de sueldos en-
-tre más de 120 y 300 pesos, 120 pesos, más el 80 % de la diferencia entre
-120 pesos y el promedio. 3° Promedio de sueldos entre 300 y 1.000 pesos,
-264 pesos, más el 70 % de la diferencia entre 300 pesos y el promedio.
-Será considerado parte integrante del sueldo o salarios, a los efectos
-del descuento y de la jubilación, el valor locativo de la casa habitación que
-las empresas proporcionan a determinados empleados u obreros, o en su de-
+Art. 17. — El monto de la jubilation ordinaria
+se calculard
+con
+rela¬
+tion al prornedio de los sueldos percibidos durante los cinco ùltimos anos de
+servicios y con sujétion a la siguiente cscala:
+1° Hasta ciento
+veinte
+pesos
+de prornedio, el importe del prornedio de sueldo. 2° Prornedio de sueldos
+en¬
+tre nids de 120 y 300 pesos, 120 pesos, mds el 80 °/0 de
+la
+diferencia
+entre
+120 pesos y el prornedio. 3° Prornedio de sueldos
+entre
+300
+y
+1.000
+pesos,
+264 pesos, mds el 70 °/0 de la. diferencia entre 300 pesos y el prornedio.
+Sera considerado parte intégrante del sueldo
+o salanos,
+a los efectos
+del descuento y de la jubilation, el valor locatiro de
+la
+casa habitation
+que
+las empresas proporcionan a determinados empleados u obreros,
+o en su de-
 fecto, el sobresueldo que con ese mismo fin les asignen.
-Art. 18. — Corresponde la jubilación ordinaria, dentro de las condicio-
-nes establecidas en el artículo anterior:
-1° Integra: al empleado u obrero que habiendo prestado treinta
-años de servicios como mínimum tenga cincuenta años de edad;
-2° Reducida en un veinticinco por ciento al empleado u obrero que,
-habiendo prestado treinta años de servicios como mínimum ten-
-ga más de cuarenta y cinco y menos de cincuenta de edad y
+Art. 18. — Corresponde la jubilaoiôn ordinaria,
+dentro de las condicio-
+nes estableoidas
+en el artioulo anterior:
+1° Integra:
+al
+empleado u obrero
+que
+habiendo
+prestado
+treinta
+anos
+de servicios
+como minimum tenga cincuenta anos de edad:
+2° Reducida
+en
+un veintioinoo por ciento al empleado u obrero que,
+habiendo prestado treinta anos de servicios como minimum ten¬
+ga
+mâs
+de
+euarenta y cinco y menos de cincuenta
+de
+edad y
 desee jubilarse.
-Art. 19. — El monto de la jubilación por invalidez se calculará con
-relación al promedio de los sueldos percibidos durante los últimos cinco años
-de servicios y con sujeción a la escala de la jubilación ordinaria, a razón
-de un 10 % del monto de dicha jubilación por cada año de servicio hasta
-su máximum.
-Art. 20. — Corresponde la jubilación por invalidez, dentro de las con-
-diciones establecidas en el artículo anterior:
-1° Al empleado u obrero que después de cinco años de servicios
-fuese declarado física o intelectualmente imposibilitado para
-continuar en el ejercicio de su empleo o de otro compatible con
-su actividad habitual o su preparación comprobada;
-2° Al empleado u obrero que, cualquiera que fuere el tiempo de
-servicios prestados, se incapacite en cualquier forma permanente
-en algún acto de servicio y por causa evidente y exclusivamente
+Art. 19. ■— El monto de la jubilation por invalidez
+se
+calculard con
+relaciôn al prornedio de los sueldos percibidos durante los ûltimos cinco anos
+de servicios y con sujétion a la escala de la jubilation ordinaria,
+a razôn
+de un 10 % del monto de dicha jubilation por cada
+ano
+de servicio
+hasta
+su
+maximum.
+Art. 20. -— Corresponde la jubilaoiôn
+por invalidez, dentro de las
+con-
+diciones estableoidas
+en el articulo anterior:
+1° Al empleado u obrero
+que
+despuës
+de
+cinco
+anos
+de
+servicios
+fuese
+declarado fisica
+o intelectualmente imposïbilitado para
+continuar
+en el ejercicio de su empleo o de otro compatible
+con
+su actividad habituai
+o su preparation comprobada;
+2° Al empleado u obrero
+que,
+cualquiera
+que
+fuere
+el
+tiempo de
+servicios prestados, se incapacité en cualquier forma permanente
+en algiin acto de servicio y por causa évidente y exclusivamente
 imputable al mismo servicio.
-Art. 21. — En ningún caso se podrá acordar jubilación por invalidez
-a quien la gestione después de seis meses de haber dejado de formar parte
-del personal de las empresas ferroviarias, salvo el caso de imposibilidad fí-
-sica o moral para gestionarla.
-Art. 22. — Corresponde la jubilación por retiro voluntario al empleado
-u obrero que teniendo más de diez años de servicios y cincuenta de edad
+Art. 21. — En ningûn caso se podrd acordar jubilation por
+invalidez
+a quien la gestione después de seis meses de haber dejado
+de formai• parte
+del personal de las empresas ferroviarias, salvo el
+caso de imposibilidad fi¬
+sica
+o moral para gestionarla.
+Art. 22. — Corresponde la jubilaoiôn por retiro voluntario al empleado
+u obrero que teniendo mâs
+de
+diez
+anos de servicios y cincuenta
+de
+edad
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page. The only visual element is the page number at the top.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected. The page contains only text and a page number."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-e1e408645170-P0236-01
+chunk_id: CHUNK-6e7b87295544-P0236-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250.codex.md
-converted_sha256: e1e40864517076e07b98bdf0090cb592d417ddcf2e92eb00bbf725b8529a1bb5
+converted_sha256: 6e7b872955443b4df1de149ff406301b5f4a2ff86ab6293f3e87fd066c2b1eb8
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250/manifest.json
@@ -60,3 +60,5 @@ This page has been transcribed in its entirety. The letter continues on a subseq
   "no_visual_regions_reason": "The only visual element on this page is a small handwritten annotation, which has been transcribed and described in the markdown. There are no photographs, illustrations, or other significant visual elements that would warrant cropping."
 }
 ```
+
+# Page 237

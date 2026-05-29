@@ -387,126 +387,118 @@ All visible text and images on the page have been transcribed and described.
 }
 ```
 
+# Page 4
+
 ## Page Metadata
-Page 4
+
+- Source: `raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf`
+- Source SHA-256: `3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json`
+- Source page: 4
+- Page image: `raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-images/page-0004.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page begins with a header containing author names and publication information, followed by a "Machine Translated by Google" banner. Below this, the main content is presented in two columns. The left column contains text describing the Anatomy for Dentistry course, while the right column discusses the practical training for Dentistry students in 1920 and the First Anatomy Pavilion. The text flows from the top of the left column to the bottom, then from the top of the right column to the bottom. Below the main text columns, there is a large image spanning both columns, accompanied by a caption. A page number "652" is at the bottom left.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-Machine Translated by Google
-
-OSORIO, H.; TORO, JC; SCHORWER, K.; RIVEROS, A. & CARDENAS, J. Pioneers of a century of anatomical teaching in the city of Concepción. Int. J. Morphol., 38(3):650-658, 2020.
-
-Medical School that would cover the growing need to train excellent
-surgeons, a demand that at that time was exclusively met by the
-University of Chile (Muñoz, 1993).
-
-The Anatomy for Dentistry course, which had an
-enrollment of 34 students, operated together with the
-Schools of Pharmacy and Industrial Chemistry in a small
-building on O'Higgins Street 850 (Fig. 2A) (Da Costa,
-2000). Of the 34 students who completed this course, 29
-passed the final exam administered by an examining
-committee of professors from the University of Chile. This
-theoretical-practical course included lectures illustrated
-with previously drawn plates, in addition to diagrams made
-by the teacher on the blackboard. The practical component
-was associated with demonstrations with cadaveric material
-and a number of dissections guided by assistants. These
-activities were carried out in a small room at the San Juan
-de Dios Hospital, under the supervision of Dr. Gómez and
-accompanied by the surgeons Nicanor Durán, Darío Pulgar,
-Enrique González Pastor and the dentist Víctor Villalobos
-(Solervicens, 1964). The following year, Dr. Gómez would
-leave the anatomy course in the hands of Dr. Ladislao
-Labra Letelier, to assume the chair of physiology, which he
-also left two years later. In 1924, Dr. Gómez presented his
-irrevocable resignation to the Board of Directors of the
-University of Concepción, moving to Valparaíso where he
-would work at the Compañía Sudamericana de Vapores.
-In 1956, Dr. Virginio Gómez drowned at sea when he was
-traveling to Valparaíso on the steamship Alondra (Muñoz,
+```markdown
+First  Anatomy  Pavilion.  Started  in  1921,  the  anatomy  
+course  for  dentists  was  taught  by  Dr.
+The  Anatomy  for  Dentistry  course,  which  had  an  
+enrollment  of  34  students,  operated  together  with  the  
+Schools  of  Pharmacy  and  Industrial  Chemistry  in  a  small  
+building  on  O'Higgins  Street  850  (Fig.  2A)  (Da  Costa,  
+2000).  Of  the  34  students  who  completed  this  course,  29  
+passed  the  final  exam  administered  by  an  examining  
+committee  of  professors  from  the  University  of  Chile.  This  
+theoretical-practical  course  included  lectures  illustrated  
+with  previously  drawn  plates,  in  addition  to  diagrams  made  
+by  the  teacher  on  the  blackboard.  The  practical  component  
+was  associated  with  demonstrations  with  cadaveric  material  
+and  a  number  of  dissections  guided  by  assistants.  These  
+activities  were  carried  out  in  a  small  room  at  the  San  Juan  
+de  Dios  Hospital,  under  the  supervision  of  Dr.  Gómez  and  
+accompanied  by  the  surgeons  Nicanor  Durán,  Darío  Pulgar,  
+Enrique  González  Pastor  and  the  dentist  Víctor  Villalobos  
+(Solervicens,  1964).  The  following  year,  Dr.  Gómez  would  
+leave  the  anatomy  course  in  the  hands  of  Dr.  Ladislao  
+Labra  Letelier,  to  assume  the  chair  of  physiology,  which  he  
+also  left  two  years  later.  In  1924,  Dr.  Gómez  presented  his  
+irrevocable  resignation  to  the  Board  of  Directors  of  the  
+University  of  Concepción,  moving  to  Valparaíso  where  he  
+would  work  at  the  Compañía  Sudamericana  de  Vapores.  
+In  1956,  Dr.  Virginio  Gómez  drowned  at  sea  when  he  was  
+traveling  to  Valparaíso  on  the  steamship  Alondra  (Muñoz,  
 2015).
-
-In 1920, the new students of Dentistry carried out
-their practical training in a facility located on the corner of
-Tucapel and San Martín streets (Fig. 2B). The cadaveric
-preparations had to be transported from the hospital in
-buckets, which made the execution of said tasks difficult;
-that is why, before leaving his duties at the University
-Board, Dr. Gómez managed the resources to build a
-dissection pavilion that would be attached to the San Juan
-de Dios Hospital, specifically on land ceded by the
-Concepción Charity Board, in the "La Toma" neighborhood
-(Luvel; Muñoz, 1993).
-
-**First Anatomy Pavilion.** Started in 1921, the anatomy
-course for dentists was taught by Dr.
-Labra, which took place in a small wooden house in front
-of the beginning of Janequeo Street, corner of Chacabuco
-(Muñoz, 1993, García, 1994). Dr. Solervicens would
-describe it: "It had two rooms, a large one of approximately
-20 m2 that had two cement tables and three or four wooden
-stools. The second room was only 6 m2 and had a sink.
-The access path is formed by a row of stones half buried
-in the mud." To get to this pavilion on rainy days, it was
-necessary for the professors, assistants and students to
-travel from the corner of Janequeo and Cochrane streets
-by means of carts pulled by skinny horses, after paying 20
-cents per person (Luvel). It should be remembered that
-Janequeo Street was covered by cobblestones only up to
-the corner of Cochrane Street, where there was the only
-access door to the San Juan de Dios Hospital, and from
-there to the pavilion there was a mudhole. This
-
-A
-B
-Fig. 2. First installations of anatomy courses for Dentistry. A: O'Higgins 850, B: Tucapel Street corner San Martín.
-652
+In  1920,  the  new  students  of  Dentistry  carried  out  
+their  practical  training  in  a  facility  located  on  the  corner  of  
+Tucapel  and  San  Martín  streets  (Fig.  2B).  The  cadaveric  
+preparations  had  to  be  transported  from  the  hospital  in  
+buckets,  which  made  the  execution  of  said  tasks  difficult;  
+that  is  why,  before  leaving  his  duties  at  the  University  
+Board,  Dr.  Gómez  managed  the  resources  to  build  a  
+dissection  pavilion  that  would  be  attached  to  the  San  Juan  
+de  Dios  Hospital,  specifically  on  land  ceded  by  the  
+Concepción  Charity  Board,  in  the  “La  Toma”  neighborhood  
+(Luvel;  Muñoz,  1993).
+Labra,  which  took  place  in  a  small  wooden  house  in  front  
+of  the  beginning  of  Janequeo  Street,  corner  of  Chacabuco  
+(Muñoz,  1993,  García,  1994).  Dr.  Solervicens  would  
+describe  it:  “It  had  two  rooms,  a  large  one  of  approximately  
+20  m2  that  had  two  cement  tables  and  three  or  four  wooden  
+stools.  The  second  room  was  only  6  m2  and  had  a  sink.  
+The  access  path  is  formed  by  a  row  of  stones  half  buried  
+in  the  mud.”  To  get  to  this  pavilion  on  rainy  days,  it  was  
+necessary  for  the  professors,  assistants  and  students  to  
+travel  from  the  corner  of  Janequeo  and  Cochrane  streets  
+by  means  of  carts  pulled  by  skinny  horses,  after  paying  20  
+cents  per  person  (Luvel).  It  should  be  remembered  that  
+Janequeo  Street  was  covered  by  cobblestones  only  up  to  
+the  corner  of  Cochrane  Street,  where  there  was  the  only  
+access  door  to  the  San  Juan  de  Dios  Hospital,  and  from  
+there  to  the  pavilion  there  was  a  mudhole.  This
+Fig.  2.  First  installations  of  anatomy  courses  for  Dentistry.  A:  O`Higgins  850,  B:  Tucapel  Street  corner  San  Martín.
+Medical  School  that  would  cover  the  growing  need  to  train  excellent  
+surgeons,  a  demand  that  at  that  time  was  exclusively  met  by  the  
+University  of  Chile  (Muñoz,  1993).
+OSORIO,  H.;  TORO,  JC;  SCHORWER,  K.;  RIVEROS,  A.  &  CARDENAS,  J.  Pioneers  of  a  century  of  anatomical  teaching  in  the  city  of  Concepción.  Int.  J.  Morphol.,  38(3):650-658,  2020.
+652  
+Machine Translated by Google
+```
 
 ## Images, Captions, And Visual Notes
 
-Pipeline-extracted visual crops:
-- ![source-caption: Fig. 2. First installations of anatomy courses for Dentistry. A: O'Higgins 850, B: Tucapel Street corner San Martín.](../extracted-images/page-0004/page-0004-image-01-first-installations-anatomy-dentistry-ohiggins-tucapel.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [91.7, 88.9, 93.1, 90.9]
-  - Source context: Fig. 2. First installations of anatomy courses for Dentistry. A: O'Higgins 850, B: Tucapel Street corner San Martín.
+- No Docling picture regions were detected for this page.
 
-The page contains one image, a composite of two historical photographs labeled A and B, with a shared caption.
+## Translation
 
-**Image 1: First installations of anatomy courses for Dentistry**
-The image displays two black and white photographs side-by-side.
-Photograph A shows a multi-story building with classical architectural elements, including columns, arched windows, and a decorative pediment at the roofline. It appears to be a substantial institutional building.
-Photograph B shows a single-story, more modest building with multiple windows and a visible utility pole in front. It has a simpler, more utilitarian appearance.
+No translation was produced by the Docling basic conversion pass.
 
-Caption: Fig. 2. First installations of anatomy courses for Dentistry. A: O'Higgins 850, B: Tucapel Street corner San Martín.
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and images on the page have been transcribed and described.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "region_1",
-      "kind": "photograph",
-      "bbox_pct": [91.7, 88.9, 93.1, 90.9],
-      "caption_literal": "Fig. 2. First installations of anatomy courses for Dentistry. A: O'Higgins 850, B: Tucapel Street corner San Martín.",
-      "caption_type": "source-caption",
-      "identity_basis": null,
-      "source_context": "Fig. 2. First installations of anatomy courses for Dentistry. A: O'Higgins 850, B: Tucapel Street corner San Martín.",
-      "confidence": "high",
-      "suggested_filename": "first_installations_anatomy_dentistry_ohiggins_tucapel"
-    }
-  ]
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 ```json
@@ -655,150 +647,96 @@ This page has been transcribed in its entirety. The text in both columns is part
 }
 ```
 
+# Page 6
+
 ## Page Metadata
-Page number: 654
+
+- Source: `raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf`
+- Source SHA-256: `3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json`
+- Source page: 6
+- Page image: `raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-images/page-0006.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page begins with a header containing a machine translation notice and publication details. Below this, the main content is presented in two columns of text. Following the text columns, there is a block of four black and white photographs arranged in a 2x2 grid, labeled A, B, C, and D. A single caption describes all four images. The page number "654" is located at the bottom left.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
+```markdown
+In  1927,  the  Board  of  Directors  of  the  University  of  Concepción  
+approved  the  organization  of  the  Schools  into  Faculties,  and  Dr.
+Venetian  Pavilion.  Once  the  anatomy  course  for  Medicine  had  begun,  the  
+new  pavilion  allowed  for  the  correct  development  of  these  courses.  Dr.  
+Solervicens  described  it  as  follows:  “This  new  pavilion  already  offered  
+certain  working  comforts,  since  it  had  a  stepped  classroom,  a  large  
+dissection  room,  a  small  professor's  room,  a  small  dissection  room  for  
+assistants,  a  concrete  storage  room  for  the  corpses,  hygienic  facilities  and  
+washrooms”  (Fig.  3).  Despite  the  comforts  already  described,
+Alejandro  Lipschütz,  the  above  did  not  consider  the  interruption  of  his  
+relationship  with  the  University  of  Chile.  From  that  year  onwards,  a  process  
+of  consolidation  of  academic  activity  by  the  nascent  anatomy  unit  began.  A  
+key  man  in  this  development  was  Dr.  Enrique  Solervicens  Castel,  who,  as  
+a  result  of  the  departure  of  Dr.
+Professor  Dr.  Gonzalez  christened  this  pavilion  as  the  “Venetian  Pavilion.”  
+This  baptism  was  evidence  of  the  winter  in  Concepción,  as  the  rains  caused  
+the  property  to  be  completely  surrounded  by  water,  so  the  professor,  his  
+assistant  and  the  students  had  to  be  rescued  by  horse-drawn  carriages.  
+The  water  flooded  the  outside  of  the  pavilion,  rising  up  to  60  cm  because  
+there  were  two  open  channels;  the  one  that  came  from  Ecuador  Park  on  
+Victor  Lamas  Street  and  the  one  that  ran  on  Edmundo  Larenas  Street.
+Gonzalez  was  in  charge  of  the  anatomy  course  for  Medicine,  adding  the  
+anatomy  course  for  Dentistry  that  he  had  already  been  teaching  since  1924  
+(Muñoz,  1993).
+Fig.  3.  Anatomy  Pavilion  1924  –  1933,  christened  as  the  “Venetian  Pavilion”.  A:  Facade,  B:  Classroom,  C:  Dissection  room,  D:  
+Dissection  performed  by  students  and  supervised  by  assistants  (Photographic  archive  of  the  University  of  Concepción  AFUdeC).
+Enrique  Solervicens,  a  medical  student  from  Santiago  who  was  in  his  
+final  year  at  the  San  Juan  de  Dios  Hospital.  As  this  course  was  biannual,  
+it  occupied  a  significant  part  of  the  timetable  of  the  first  and  second  year  
+of  the  degree  (Muñoz,  1993).  In  the  first  year,  the  musculoskeletal  
+system  was  studied  and  in  the  second  year,  the  remaining  systems  and  
+apparatus  were  studied.  This  course  also  included  theoretical  and  
+practical  activities.  The  former  consisted  of  lectures  accompanied  by  
+slides,  drawings  and  cadaver  preparations  made  by  assistants.  The  
+practical  part  of  this  course  was  controlled  by  assistants  and  consisted  
+of  each  student  making  a  minimum  of  25  cadaver  preparations  for  each  
+year  of  this  course  (Solervicens).
+OSORIO,  H.;  TORO,  JC;  SCHORWER,  K.;  RIVEROS,  A.  &  CARDENAS,  J.  Pioneers  of  a  century  of  anatomical  teaching  in  the  city  of  Concepción.  Int.  J.  Morphol.,  38(3):658-658,  2020.
+654  
 Machine Translated by Google
-OSORIO, H.; TORO, JC; SCHORWER, K.; RIVEROS, A. & CARDENAS, J. Pioneers of a century of anatomical teaching in the city of Concepción. Int. J. Morphol., 38(3):658-658, 2020.
-
-Enrique Solervicens, a medical student from Santiago who was in his
-final year at the San Juan de Dios Hospital. As this course was biannual,
-it occupied a significant part of the timetable of the first and second year
-of the degree (Muñoz, 1993). In the first year, the musculoskeletal
-system was studied and in the second year, the remaining systems and
-apparatus were studied. This course also included theoretical and
-practical activities. The former consisted of lectures accompanied by
-slides, drawings and cadaver preparations made by assistants. The
-practical part of this course was controlled by assistants and consisted
-of each student making a minimum of 25 cadaver preparations for each
-year of this course (Solervicens).
-
-**Venetian Pavilion.** Once the anatomy course for Medicine had begun, the
-new pavilion allowed for the correct development of these courses. Dr.
-Solervicens described it as follows: “*This new pavilion already offered
-certain working comforts, since it had a stepped classroom, a large
-dissection room, a small professor’s room, a small dissection room for
-assistants, a concrete storage room for the corpses, hygienic facilities and
-washrooms*” (Fig. 3). Despite the comforts already described,
-
-Professor Dr. Gonzalez christened this pavilion as the “Venetian Pavilion.”
-This baptism was evidence of the winter in Concepción, as the rains caused
-the property to be completely surrounded by water, so the professor, his
-assistant and the students had to be rescued by horse-drawn carriages.
-The water flooded the outside of the pavilion, rising up to 60 cm because
-there were two open channels; the one that came from Ecuador Park on
-Victor Lamas Street and the one that ran on Edmundo Larenas Street.
-
-In 1927, the Board of Directors of the University of Concepción
-approved the organization of the Schools into Faculties, and Dr.
-
-Alejandro Lipschütz, the above did not consider the interruption of his
-relationship with the University of Chile. From that year onwards, a process
-of consolidation of academic activity by the nascent anatomy unit began. A
-key man in this development was Dr. Enrique Solervicens Castel, who, as
-a result of the departure of Dr.
-
-Gonzalez was in charge of the anatomy course for Medicine, adding the
-anatomy course for Dentistry that he had already been teaching since 1924
-(Muñoz, 1993).
-
-Fig. 3. Anatomy Pavilion 1924 – 1933, christened as the “Venetian Pavilion”. A: Facade, B: Classroom, C: Dissection room, D:
-Dissection performed by students and supervised by assistants (Photographic archive of the University of Concepción AFUdeC).
-654
+```
 
 ## Images, Captions, And Visual Notes
 
-Pipeline-extracted visual crops:
-- ![source-caption: Fig. 3. Anatomy Pavilion 1924 – 1933, christened as the “Venetian Pavilion”. A: Facade, B: Classroom, C: Dissection room, D: Dissection performed by students and supervised by assistants (Photographic archive of the University of Concepción AFUdeC).](../extracted-images/page-0006/page-0006-image-01-anatomy-pavilion-facade.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [8.87, 34.35, 49.19, 48.89]
-  - Source context: A: Facade
-- ![source-caption: Fig. 3. Anatomy Pavilion 1924 – 1933, christened as the “Venetian Pavilion”. A: Facade, B: Classroom, C: Dissection room, D: Dissection performed by students and supervised by assistants (Photographic archive of the University of Concepción AFUdeC).](../extracted-images/page-0006/page-0006-image-02-anatomy-pavilion-classroom.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [51.21, 34.35, 91.53, 48.89]
-  - Source context: B: Classroom
-- ![source-caption: Fig. 3. Anatomy Pavilion 1924 – 1933, christened as the “Venetian Pavilion”. A: Facade, B: Classroom, C: Dissection room, D: Dissection performed by students and supervised by assistants (Photographic archive of the University of Concepción AFUdeC).](../extracted-images/page-0006/page-0006-image-03-anatomy-pavilion-dissection-room.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [8.87, 49.46, 49.19, 63.44]
-  - Source context: C: Dissection room
-- ![source-caption: Fig. 3. Anatomy Pavilion 1924 – 1933, christened as the “Venetian Pavilion”. A: Facade, B: Classroom, C: Dissection room, D: Dissection performed by students and supervised by assistants (Photographic archive of the University of Concepción AFUdeC).](../extracted-images/page-0006/page-0006-image-04-anatomy-pavilion-dissection-students.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [51.21, 49.46, 91.53, 63.44]
-  - Source context: D: Dissection performed by students and supervised by assistants
+- No Docling picture regions were detected for this page.
 
-The page contains four black and white photographs, labeled A, B, C, and D, arranged in a 2x2 grid. They share a common caption.
+## Translation
 
-*   **Image A:** A black and white photograph showing the exterior facade of a building, likely the "Venetian Pavilion." It features a central entrance with steps, multiple windows, and a porch area. The letter "A" is visible in the bottom left corner of the image.
-*   **Image B:** A black and white photograph depicting a classroom filled with students seated in rows, facing the front. A person, presumably a professor, stands at the front next to a skeletal model. The letter "B" is visible in the bottom left corner of the image.
-*   **Image C:** A black and white photograph showing a dissection room. Several students in white coats are gathered around multiple dissection tables, appearing to work on cadavers. The letter "C" is visible in the bottom left corner of the image.
-*   **Image D:** A black and white photograph showing a close-up view of several individuals, likely students and assistants, in white coats and caps, performing a dissection on a cadaver laid out on a table. The letter "D" is visible in the bottom left corner of the image.
+No translation was produced by the Docling basic conversion pass.
 
-**Caption for Fig. 3 (Images A, B, C, D):**
-Fig. 3. Anatomy Pavilion 1924 – 1933, christened as the “Venetian Pavilion”. A: Facade, B: Classroom, C: Dissection room, D: Dissection performed by students and supervised by assistants (Photographic archive of the University of Concepción AFUdeC).
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and images on the page have been transcribed and described.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "region_0",
-      "kind": "photograph",
-      "bbox_pct": [8.87, 34.35, 49.19, 48.89],
-      "caption_literal": "Fig. 3. Anatomy Pavilion 1924 – 1933, christened as the “Venetian Pavilion”. A: Facade, B: Classroom, C: Dissection room, D: Dissection performed by students and supervised by assistants (Photographic archive of the University of Concepción AFUdeC).",
-      "caption_type": "source-caption",
-      "identity_basis": "source-text-label",
-      "source_context": "A: Facade",
-      "confidence": 0.95,
-      "suggested_filename": "anatomy-pavilion-facade.jpg",
-      "inline_anchor": "Image A"
-    },
-    {
-      "region_id": "region_1",
-      "kind": "photograph",
-      "bbox_pct": [51.21, 34.35, 91.53, 48.89],
-      "caption_literal": "Fig. 3. Anatomy Pavilion 1924 – 1933, christened as the “Venetian Pavilion”. A: Facade, B: Classroom, C: Dissection room, D: Dissection performed by students and supervised by assistants (Photographic archive of the University of Concepción AFUdeC).",
-      "caption_type": "source-caption",
-      "identity_basis": "source-text-label",
-      "source_context": "B: Classroom",
-      "confidence": 0.95,
-      "suggested_filename": "anatomy-pavilion-classroom.jpg",
-      "inline_anchor": "Image B"
-    },
-    {
-      "region_id": "region_2",
-      "kind": "photograph",
-      "bbox_pct": [8.87, 49.46, 49.19, 63.44],
-      "caption_literal": "Fig. 3. Anatomy Pavilion 1924 – 1933, christened as the “Venetian Pavilion”. A: Facade, B: Classroom, C: Dissection room, D: Dissection performed by students and supervised by assistants (Photographic archive of the University of Concepción AFUdeC).",
-      "caption_type": "source-caption",
-      "identity_basis": "source-text-label",
-      "source_context": "C: Dissection room",
-      "confidence": 0.95,
-      "suggested_filename": "anatomy-pavilion-dissection-room.jpg",
-      "inline_anchor": "Image C"
-    },
-    {
-      "region_id": "region_3",
-      "kind": "photograph",
-      "bbox_pct": [51.21, 49.46, 91.53, 63.44],
-      "caption_literal": "Fig. 3. Anatomy Pavilion 1924 – 1933, christened as the “Venetian Pavilion”. A: Facade, B: Classroom, C: Dissection room, D: Dissection performed by students and supervised by assistants (Photographic archive of the University of Concepción AFUdeC).",
-      "caption_type": "source-caption",
-      "identity_basis": "source-text-label",
-      "source_context": "D: Dissection performed by students and supervised by assistants",
-      "confidence": 0.95,
-      "suggested_filename": "anatomy-pavilion-dissection-students.jpg",
-      "inline_anchor": "Image D"
-    }
-  ]
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 7
 
@@ -884,118 +822,108 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 8
+
 ## Page Metadata
-- Page number: 8
-- Source: Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.
+
+- Source: `raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf`
+- Source SHA-256: `3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json`
+- Source page: 8
+- Page image: `raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-images/page-0008.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page begins with a "Machine Translated by Google" watermark at the top left. Below this, the header contains author names and journal citation information. A large composite figure (Fig. 4) occupies the upper half of the page, featuring four sub-images labeled A, B, C, and D. A multi-line caption for Fig. 4 is placed directly below the image. The remainder of the page content consists of two columns of text. The left column contains a continuous narrative. The right column also contains narrative text, followed by two distinct footnotes, each marked with a double asterisk (`**`). The page number "656" is located at the bottom left of the page.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
+
+```markdown
+Regarding  the  modernization  of  anatomy  courses,  in  the  
+case  of  medical  and  dentistry  students,  since  1936  an  extension  
+of  practical  work  to  the  entire  cadaver  was  established,  which  
+meant  that  every  four  students  had  to  organize  themselves  to  
+dissect  a  complete  cadaver  (Solervicens).  A  reflection  of  this  
+modernization  is  the  diversification  of  resources  for  teaching  
+anatomy,  among  which  the  use  of  anatomical  plates  made  by  the  
+teachers  or  assistants  themselves  stood  out,  as  happened  in  
+other  study  centers;  more  than  a  hundred  cadaveric  preparations  
+and  schematic  drawings  on  the  blackboard,  among  others  (Fig.  
+5)  (Cárdenas  et  al.,  2017;  Cárdenas-Valenzuela,  2019).
+The  anatomy  course  for  the  School  of  Obstetrics  was  started  
+under  the  direction  of  the  Director  of  the  Department  of  Normal  
+Anatomy  and  Legal  Medicine.  In  the  following  years,  six  professors  
+have  served  as  Directors  of  the  Department  of  Normal  Anatomy  
+and  Legal  Medicine  (Table  I).  Another  reflection  of  the  intense  
+academic  activity  is  that  this  school  has  been  the  organizer  of  the  
+V  National  Anatomy  Meeting  in  1983,  the  XI  National  Anatomy  
+Meeting  in  1989  and  the  XVII  Chilean  Congress  of  Anatomy  in  
+1996  (Cárdenas-Valenzuela  &  Rodríguez-Torres,  2018).
+Student  assistants  were  replaced  by  professional  assistants  
+(surgeons  and  dentists),  who  were  exclusively  dedicated  to  the  
+work;  this  led  to  the  creation  of  a  fruitful  breeding  ground  for  
+professionals  and  researchers.  Among  these  professional  
+assistants  in  the  following  decades,  Drs.  Edgardo  Enríquez  
+Fröden  and  Mario  Echeverria  Monardes  (Solervicens)  stood  out.
+After  38  years  of  dedication  to  anatomy,  Dr.  Solervicens  
+retired  in  1961  and  left  the  Department  of  Anatomy  in  the  hands  
+of  Dr.  Edgardo  Enríquez  Fröden,  who  worked  there  until  1969.  
+During  his
+That  same  year  he  began  his  career  in  the  Chilean  Navy  as  a  Medical  Officer,  from  which  
+he  retired  30  years  later  with  the  rank  of  Captain.  During  his  professional  life  in  the  Navy  
+he  also  served  as  Director  of  the  “Almirante  Adriazola”  Naval  Hospital  at  the  Talcahuano  
+Naval  Base.
+**  Dr.  Edgardo  Enríquez  Fröden  (Fig.  1D)  is  one  of  the  most  influential  people  
+from  Concepción  in  the  second  half  of  the  20th  century.  He  was  born  in  Concepción  on  
+February  9,  1912.  He  studied  at  the  Liceo  de  Hombres  de  Concepción  and  was  the  best  
+student  of  his  class.  Later,  between  1930  and  1936,  he  studied  medicine  at  the  University  
+of  Concepción.  During  his  university  studies  he  received  the  Arturo  L.  de  Ambroccy  Award  
+for  being  the  best  student  of  his  generation.  In  1936  he  began  his  academic  activities  as  
+a  student  assistant  at  the  Institute  of  Anatomy  at  the  University  of  Concepción.  Three  
+years  later  he  was  appointed  Head  of  Practical  Work.
+Between  1955  and  1956,  and  as  a  result  of  having  obtained  a  scholarship  from  
+the  Kellogg  Foundation,  he  followed  advanced  courses  in  human  anatomy  taught  by  
+Professor  Charles  Mayo  Goss  of  the  Loussiana  State  University,  United  States.  Upon  
+returning  to  the  country,  in  the
+Fig.  4.  Anatomy  Building,  University  District,  University  of  Concepción.  A:  Construction  of  the  building  in  1932,  B:  Location  of  the  
+building  (1:  Anatomy  Building,  2:  Venetian  Pavilion),  C:  Building  delivered  in  1933,  D:  Practical  activity  in  the  dissection  pavilion  
+(Photographic  archive  of  the  University  of  Concepción  AFUdeC).
+OSORIO,  H.;  TORO,  JC;  SCHORWER,  K.;  RIVEROS,  A.  &  CARDENAS,  J.  Pioneers  of  a  century  of  anatomical  teaching  in  the  city  of  Concepción.  Int.  J.  Morphol.,  38(3):658-658,  2020.
+656  
 Machine Translated by Google
-OSORIO, H.; TORO, JC; SCHORWER, K.; RIVEROS, A. & CARDENAS, J. Pioneers of a century of anatomical teaching in the city of Concepción. Int. J. Morphol., 38(3):658-658, 2020.
-
-Fig. 4. Anatomy Building, University District, University of Concepción. A: Construction of the building in 1932, B: Location of the
-building (1: Anatomy Building, 2: Venetian Pavilion), C: Building delivered in 1933, D: Practical activity in the dissection pavilion
-(Photographic archive of the University of Concepción AFUdeC).
-
-Student assistants were replaced by professional assistants
-(surgeons and dentists), who were exclusively dedicated to the
-work; this led to the creation of a fruitful breeding ground for
-professionals and researchers. Among these professional
-assistants in the following decades, Drs. Edgardo Enríquez
-Fröden and Mario Echeverría Monardes (Solervicens) stood out.
-
-Regarding the modernization of anatomy courses, in the
-case of medical and dentistry students, since 1936 an extension
-of practical work to the entire cadaver was established, which
-meant that every four students had to organize themselves to
-dissect a complete cadaver (Solervicens). A reflection of this
-modernization is the diversification of resources for teaching
-anatomy, among which the use of anatomical plates made by the
-teachers or assistants themselves stood out, as happened in
-other study centers; more than a hundred cadaveric preparations
-and schematic drawings on the blackboard, among others (Fig.
-5) (Cárdenas *et al*., 2017; Cárdenas-Valenzuela, 2019).
-
-After 38 years of dedication to anatomy, Dr. Solervicens
-retired in 1961 and left the Department of Anatomy in the hands
-of Dr. Edgardo Enríquez Fröden, who worked there until 1969.
-During his
-
-The anatomy course for the School of Obstetrics was started
-under the direction of the Director of the Department of Normal
-Anatomy and Legal Medicine. In the following years, six professors
-have served as Directors of the Department of Normal Anatomy
-and Legal Medicine (Table I). Another reflection of the intense
-academic activity is that this school has been the organizer of the
-V National Anatomy Meeting in 1983, the XI National Anatomy
-Meeting in 1989 and the XVII Chilean Congress of Anatomy in
-1996 (Cárdenas-Valenzuela & Rodríguez-Torres, 2018).
-
-** Dr. Edgardo Enríquez Fröden (Fig. 1D) is one of the most influential people
-from Concepción in the second half of the 20th century. He was born in Concepción on
-February 9, 1912. He studied at the Liceo de Hombres de Concepción and was the best
-student of his class. Later, between 1930 and 1936, he studied medicine at the University
-of Concepción. During his university studies he received the Arturo L. de Ambroccy Award
-for being the best student of his generation. In 1936 he began his academic activities as
-a student assistant at the Institute of Anatomy at the University of Concepción. Three
-years later he was appointed Head of Practical Work.
-
-That same year he began his career in the Chilean Navy as a Medical Officer, from which
-he retired 30 years later with the rank of Captain. During his professional life in the Navy
-he also served as Director of the "Almirante Adriazola" Naval Hospital at the Talcahuano
-Naval Base.
-
-Between 1955 and 1956, and as a result of having obtained a scholarship from
-the Kellogg Foundation, he followed advanced courses in human anatomy taught by
-Professor Charles Mayo Goss of the Louissiana State University. United States. Upon
-returning to the country, in the
-
-656
+```
 
 ## Images, Captions, And Visual Notes
-Pipeline-extracted visual crops:
-- ![source-caption: Fig. 4. Anatomy Building, University District, University of Concepción. A: Construction of the building in 1932, B: Location of the
-building (1: Anatomy Building, 2: Venetian Pavilion), C: Building delivered in 1933, D: Practical activity in the dissection pavilion
-(Photographic archive of the University of Concepción AFUdeC).](../extracted-images/page-0008/page-0008-image-01-fig-4-anatomy-building-university-district-university-of-concepc.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [90.9, 89.9, 100.0, 100.0]
-  - Source context: Fig. 4. Anatomy Building, University District, University of Concepción. A: Construction of the building in 1932, B: Location of the building (1: Anatomy Building, 2: Venetian Pavilion), C: Building delivered in 1933, D: Practical activity in the dissection pavilion (Photographic archive of the University of Concepción AFUdeC).
 
-The page contains one large composite image, Fig. 4, which is divided into four sub-images labeled A, B, C, and D.
-- **Image A** shows a building under construction, with scaffolding covering its exterior.
-- **Image B** presents an aerial or elevated view of a city landscape, with two buildings prominently numbered '1' and '2'. Building '1' appears to be the same building as in image C.
-- **Image C** displays a completed, multi-story building with architectural details, possibly the "Anatomy Building."
-- **Image D** depicts a group of students, dressed in lab coats, engaged in practical dissection work in a laboratory setting.
+- No Docling picture regions were detected for this page.
 
-The caption for the figure is:
-"Fig. 4. Anatomy Building, University District, University of Concepción. A: Construction of the building in 1932, B: Location of the building (1: Anatomy Building, 2: Venetian Pavilion), C: Building delivered in 1933, D: Practical activity in the dissection pavilion (Photographic archive of the University of Concepción AFUdeC)."
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was found on this page.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text, including the header, main body text, footnotes, figure caption, and page number, has been transcribed. The composite image has been identified and its caption transcribed.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "photograph",
-      "bbox_pct": [90.9, 89.9, 899.1, 479.9],
-      "caption_literal": "Fig. 4. Anatomy Building, University District, University of Concepción. A: Construction of the building in 1932, B: Location of the\nbuilding (1: Anatomy Building, 2: Venetian Pavilion), C: Building delivered in 1933, D: Practical activity in the dissection pavilion\n(Photographic archive of the University of Concepción AFUdeC).",
-      "caption_type": "source-caption",
-      "identity_basis": "caption",
-      "source_context": "Fig. 4. Anatomy Building, University District, University of Concepción. A: Construction of the building in 1932, B: Location of the building (1: Anatomy Building, 2: Venetian Pavilion), C: Building delivered in 1933, D: Practical activity in the dissection pavilion (Photographic archive of the University of Concepción AFUdeC).",
-      "confidence": 0.95,
-      "suggested_filename": "Fig_4_Anatomy_Building_University_District_University_of_Concepcion.png",
-      "inline_anchor": "Fig. 4."
-    }
-  ]
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 9
 

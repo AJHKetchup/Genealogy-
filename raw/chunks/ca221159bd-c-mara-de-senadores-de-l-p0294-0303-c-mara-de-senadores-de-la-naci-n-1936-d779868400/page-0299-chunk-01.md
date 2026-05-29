@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-3b80db2410d0-P0299-01
+chunk_id: CHUNK-e3bf1d249058-P0299-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303.codex.md
-converted_sha256: 3b80db2410d0d04f4ded8f4b82c59054f79e57a63a6a8a7a17c73af592401c82
+converted_sha256: e3bf1d249058a75e6f236685c0b5469ed718f9cfbaf10510a7b6df8ae198d465
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json
@@ -12,86 +12,159 @@ part: 1
 ---
 
 ## Page Metadata
-- Task id: `source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0299`
-- Page number: 299
+
 - Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json`
+- Source page: 299
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0299.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page features a centered page number at the top, followed by a single column of text. The text consists of several articles and explanatory paragraphs, presented in a continuous block.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 14 —
-
-A los efectos de este artículo, la Caja decretará la jubilación o pensión
-de acuerdo a su ley, y las demás Cajas reintegrarán dicha parte proporcio-
-nal. En todos los casos el cómputo se hará sin bonificación de tiempo.
-
-Art. 52. — Los empleados y obreros de la Nación sujetos al régimen
-de la Ley 4349, comprendidos en las disposiciones de la 10659, que se encon-
-traban en servicio a la fecha de la sanción de la última, se considerará que
-optan por los beneficios de esta si en el término de seis meses no declaran
-expresamente y por escrito, ante la Dirección de los Ferrocarriles del Es-
-tado, su opción por la primera. La Administración de los referidos ferroca-
-rriles deberá proceder dentro de los tres meses subsiguientes al vencimiento
-del plazo fijado por el artículo anterior: 1º A remitir a la Caja de Jubilacio-
-nes y a la Ferroviaria, según corresponda, una nómina de los empleados y
-obreros que quedan sujetos a uno y otro régimen. 2º A depositar, a la orden
+```markdown
+—
+14
+—
+A los efectos de este articulo, la Caja decretard la jubilation o pensiôn
+de acuerdo
+a
+su ley, y las demds Cajas reintegrardn dicha parte proportio¬
+nal. En todos los
+casos el cômputo se hard sin bonification de tiempo.
+Art. 52.
+— Los empleados y obreros
+de
+la Nation sujetos
+al régimen
+de la Ley 4349, comprendidos en las disposiciones de la 10650, que se encon-
+traban
+en servicio
+a la fecha de la sancion de la ultima,
+se eonsiderard que
+optan por los benefitios de ésta si en el término
+de
+seis
+meses
+no declaran
+expresamente y por escrito, ante la Direction
+de
+los
+Ferrocarriles
+del
+Es-
+tado, su option por la primera. La Administration de los referidos
+ferroca¬
+rriles deberd procéder dentro de los très meses subsiguientes
+al
+vencimiento
+del plazo fijado por el articulo anterior: 1° A remitir a la Caja de Jubilacio-
+nes y a la Fenvviaria, segûn correspondu, una nômina de los empleados
+y
+obreros que quedan sujetos a uno y otro régimen. 2° A depositor,
+a la orden
 de la Caja de Jubilaciones de Ferroviarios, el aporte que le corresponde por
-u obreros colocados bajo el régimen de la Ley 10650 de acuerdo
-al artículo 9º, inciso 5º de la misma.
-
-La Caja Nacional de Jubilaciones y Pensiones Civiles transferirá a la
-de Ferroviarios, dentro de los noventa días de la comunicación del inciso 1º,
-los aportes del personal que de acuerdo con el párrafo primero del presente
-artículo, queda sometido al régimen de la última.
-
-Art. 53. — Las jubilaciones y pensiones son inembargables e inaliena-
-bles. Será nula toda venta, cesión o constitución de derecho que recaiga
-sobre ellas y que impida su libre disposición por el titular de la misma.
-
-Art. 54. — Las empresas ferroviarias estarán obligadas a suministrar
+los empleados u obreros colocados bajo el régimen de la Ley 10650 de acuerdo
+al aHiculo 9°, inciso 5° de la misma.
+La Caja National de Jubilaciones y Pensiones Civiles transferird a la
+de Ferroviarios, dentro de los noventa dias de la comunication del inciso 1°,
+los aportes del personal que de acuerdo con el pàrrafo primero
+del présente
+articulo, queda sometido al régimen de la ultima.
+Art. 53. — Las jubilaciones y pensiones son inembargables e inaliéna¬
+bles.
+Sera nula toda venta,
+cesiôn
+o
+constitution
+de
+derecho
+que recaiga
+sobre ellas y que impida su libre disposition por el titular de la misma.
+Art. 54. — Las empresas ferroviarias estarân obligadas
+a
+suministrar
 al Directorio de la Caja todas las informaciones que solicite sobre el personal
 y a permitir las comprobaciones que juzgue pertinentes bajo apercibimiento
 y pena de multa variable entre quinientos y dos mil pesos.
-
 Art. 55. — Las empresas ferroviarias que no depositaran en el tiempo
-y forma estatuidas por el artículo décimo de esta ley, las sumas a que están
-obligadas con sujeción a la misma, previa intimación del Presidente del Di-
-rectorio de la Caja, incurrirán en una multa de mil pesos por cada día de
-demora hasta tanto efectúen el depósito, con el interés del siete por ciento
-anual a contar desde el primer día de la mora.
-
-El Presidente del Directorio tendrá personería suficiente para promover
-ante el Poder Ejecutivo o los tribunales de justicia, por vía de apremio, las
-acciones ejecutivas que correspondan hasta hacer efectivas las obligaciones
+y forma estatuidas por el articulo décimo de esta ley, las sumas
+a que estân
+obligadas con sujétion
+a la misma, previa intimation del Présidente del Di¬
+rectorio de la Caja, incurrirân en
+una
+multa de mil pesos por cada dia
+de
+demora liasta tanto efectûen el depôsito, con el interés del siete por
+ciento
+anual
+a contar desde el primer dia de la mora.
+El Presidents del Directorio tendra personeria suficiente para promover
+ante el Poder Ejecutivo o los tribunales de justicia, por via de apremio, las
+acciones ejecutivas que correspondan hasta hacer efectivas
+las
+obligaciones
 y penalidades de esta ley.
-
-Las resoluciones del Directorio asentadas en el libro de actas y apro-
-badas, constituyen instrumento público.
-
-Art. 56. — Podrán acogerse a los beneficios y obligaciones de la pre-
-sente ley los empleados y obreros de las empresas ferroviarias de jurisdic-
-ción provincial cuyos representantes lo solicitasen con intervención de los
-respectivos gobiernos locales, siempre que las empresas, los empleados y
-dichos gobiernos hagan los aportes y se sujeten a las condiciones fijadas
+Las resoluciones del Directorio asentadas
+en el libro de actas y apro-
+badas, constituyen instrumento pûblico.
+Art. 56. — Podrân acogerse
+a los benefitios y obligaciones
+de la
+pré¬
+sente ley los empleados y obreros de las
+empresas
+ferroviarias de jurisdic¬
+tion provincial cuyos représentantes lo
+solicitasen
+con intervention
+de los
+respectivos
+gobiernos
+locales,
+siempre que las empresas,
+los
+empleados
+y
+dichos gobiernos bagan
+los
+aportes y se sujeten a las
+conditiones fijadas
 en esta ley.
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images, captions, or substantial visual notes on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-The transcription is complete and accurate, capturing all visible text and layout elements on the page.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

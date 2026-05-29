@@ -8,157 +8,413 @@
 - Conversion method: Codex local vision workbench
 - Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/extracted-images`
 
+# Page 294
+
 ## Page Metadata
-Page number: 294
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json`
+- Source page: 294
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0294.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, primarily composed of numbered articles (Art. 23 through Art. 28) and related paragraphs. The page number "— 9 —" is centered at the top. The text flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 9 —
 
-no alcance al número de años de servicios exigidos por el artículo diez y
-ocho, ordinaria, por cada año de servicios.
-
-Art. 23. — Los empleados u obreros que teniendo menos de diez años
-de servicios alcancen los cincuenta de edad y deseen retirar-
-se, tendrán derecho a una indemnización igual a las sumas aportadas por
-al fondo de la Caja, más los intereses a razón del cinco por ciento anual
-capitalizados por año. En ningún caso se calcularán estos intereses con
-posterioridad a la fecha del retiro.
-
-Art. 24. — Los empleados u obreros que fuesen declarados cesantes
-por no requerirse sus servicios o por razones de economía, tendrán derecho
-a una indemnización igual a la fijada en el artículo anterior, sin intereses.
-
-Cuando en este caso el empleado u obrero optase por renunciar a la
-indemnización y reingresara posteriormente al servicio ferroviario tendrá
-derecho, a los efectos de esta ley, a que se le computen los servicios pres-
-tados con anterioridad a la cesantía.
-
-Los empleados u obreros comprendidos en la Ley 9653 que hubieran
-sido declarados cesantes por no requerirse sus servicios o por razones de
-economía y retirado sus aportes de la Caja con anterioridad a la sanción de
-la presente ley, podrán acogerse a los beneficios de la misma, siempre que
-cumplieren las condiciones para obtener la jubilación dentro del servicio fe-
-rroviario y previa restitución de una sola vez de las sumas que hubieran
+```markdown
+—
+9
+—
+no aloance al numéro de
+anos de servicios
+exigidos por el articulo
+diez
+y
+ocho.
+Esta jubilacion
+se calcularâ
+a razôn de dos por oiento de la jubilacion
+ordinaria, por cada ano de servicios.
+Art. 23. — Los empleados u obreros que teniendo
+menos
+de diez anos
+de servicios alcancen los eincuenta
+de
+edad y deseen retirarse, tendrân de-
+recho
+a
+una indemnizaciôn igual
+a las
+snmas aportadas por ellos al fondo de
+la Caja. mâs los intereses
+a razôn del cinco por ciento
+anual capitalizados
+por ano.
+En ningun caso se calcularân
+estos intereses con posterioridad a
+la fecha del retiro.
+Art. 24. -- Los
+empleados
+u obreros
+que
+fuesen
+declarados
+cesantes
+por no requerirse sus servicios
+o por razones de economia,
+tendrân derecho
+a
+una indemnizaciôn igual a la fijada en el articulo
+anterior,
+sin intereses.
+Cnando
+en este caso el empleado u obrero
+optase
+por renunciar a la
+indemnizaciôn y reingresara
+posteriormente
+al
+servicio
+ferroviario
+tendra
+derecho, a los efectos de esta ley, a que
+se le computen los
+servicios
+pr'es-
+tados
+con anterioridad
+a la cesantia.
+Los empleados
+u obreros comprendidos en la Ley 9653
+que
+hubieran
+sido
+declarados cesantes por
+no
+requerirse sus
+servicios
+o por
+razones
+de
+economia y retirado sus aportes de la Caja con anterioridad a la sanciôn de
+la présente ley, podrân acogerse
+a los beneficios de la misma,
+siempre
+que
+cumplieren las condiciones para obtener la jubilacion dentro del servicio fe-
+rroviario y previa restituciôn de una sola
+vez
+de las
+snmas
+que
+hubieran
 retirado anteriormente.
-
-Art. 25. — Los derechos acordados por los dos artículos anteriores que-
-dan prescriptos para quienes no los hagan valer expresamente dentro del
-término de tres años a contar de la fecha de su retiro o separación del
+Art. 25. — Los derechos acordados por los dos articulos anteriores que-
+dan prescriptos para quienes no los hagan valer
+expresamente
+dentro
+del
+término de très
+anos
+a contai- de
+la
+fecha
+de
+su
+retiro
+o
+separaciôn
+del
 servicio.
-
-Los derechos acordados por el último apartado del artículo anterior
-se prescribirán a los dos años a partir de la promulgación de la presente ley.
-
-Art. 26. — A los efectos de la jubilación sólo se tomarán en cuenta los
-servicios efectivos, aunque fuesen discontinuos, durante el número de años
+Los derechos acordados por el ultimo apartado
+del
+articulo
+anterior
+se prescribirân a los dos anos a partir de la promnlgaciôn de la presente lev.
+Art. 26. — A los efectos
+de la jubilacion solo
+se tomarân en cuenta los
+servicios efectivos, aunque fuesen discontinues,
+durante el numéro
+de
+aîios
 requeridos.
-
-Cuando la retribución del trabajo haya sido total o parcialmente por
-jornal, se computará un año de servicio por cada doscientos cincuenta días
-de trabajo efectivo, y si hubiese sido por hora, se dividirá por ocho el nú-
-mero de horas para establecer el número de días de trabajo efectivo.
-
-Art. 27. — La fracción que en el término total de antigüedad exceda
-de seis meses será computada por un año entero.
-
-Art. 28. — Las jubilaciones por invalidez se acordarán con carácter
-definitivo cuando la invalidez tenga este carácter. En los demás casos, los
-beneficiarios quedarán sujetos a las revisiones que en número de dos anua-
-les, como máximum, disponga el Directorio de la Caja dentro de los cinco
-años posteriores a su otorgamiento, a partir de cuya fecha se considerarán
+Cuando la retribueiôn del trabajo haya sido total o parcialmente
+por
+jornal,
+se computarâ un ano de servicio por cada doscientos
+eincuenta dias
+de trabajo efectivo, y si hubiese
+sido por hora, se dividirâ
+por ocho el nu¬
+méro de horas para establecer el numéro de dias de trabajo efectivo.
+Art. 27. — La fracciôn que en el término
+total
+de antigtiedad
+exceda
+de seis
+meses
+sera computada por un ano entero.
+Art. 28. — Las jubilaciones por invalidez
+se
+aeordardn
+con
+cardcter
+definitivo cuando la invalidez tenga este
+cardcter.
+En los
+demds
+casos,
+los
+beneficiarios quedardn sujetos a las revisiones que en numéro de
+dos
+anna¬
+les,
+como maximum, disponga el Directorio de la Caja dentro
+de
+los
+cinco
+anos posteriores a su otorgamiento,
+a partir de cuya feclia se considerardm
 definitivos.
-
-## Images, Captions, And Visual Notes
-The page contains no images or captions.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains no meaningful visual content such as images, diagrams, or complex layouts that would require bounding box extraction."}
 ```
 
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 295
+
 ## Page Metadata
-Page number: 295
-Internal document page number: 10
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json`
+- Source page: 295
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0295.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, primarily composed of numbered articles (Art. 29 through Art. 33) detailing regulations related to retirement, pensions, and employee benefits. Some articles contain indented sub-paragraphs. The text flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 10 —
-
-Art. 29.— No se podrá acordar jubilación por invalidez sin previo in-
-forme del Departamento Nacional de Higiene o del médico o médicos desig-
-nados al efecto por el Directorio, respecto de las causales de imposibilidad
-física o intelectual alegadas. Sin perjuicio de esto, el Directorio ordenará
+```markdown
+— 10
+Art.
+29. — No
+se podrâ acordar jubilaciôn por invalidez sin previo in¬
+forme del Departamento Nacional de Higiene o del medico
+o médicos desig-
+nados al efeoto por el Directorio, respecte de las causales
+de
+imposibilidad
+fisica
+o intelectual alegadas.
+Sin perjnicio de esto,
+el
+Directorio
+ordenarâ
 todas las averiguaciones que estime pertinentes.
-
-Art. 30.— Unicamente los que hayan obtenido jubilación ordinaria
-podrán volver al servicio ferroviario. En este caso, el jubilado cesará en el
-goce de la jubilación y percibirá solamente el sueldo asignado al nuevo em-
-pleo. Abandonado éste, volverá al goce de la jubilación sin que pueda in-
-terponer reclamo alguno para que le sea aumentada, por cuya causa no se
-le exigirán los aportes establecidos en el artículo noveno con relación al
+Art. 30.
+— TJnicamente
+los
+que hayan
+obtenido jubilaciôn
+ordinaria
+podrân volver al servicio ferroviario.
+En
+este caso, el jubilado cesarâ
+en el
+goce de la jubilaciôn y percibirâ solamente el sueldo asignado al nuevo em-
+pleo.
+Abandonado este, volverâ al goce de la jubilaciôn sin
+que
+pueda in-
+terponer reclamo alguno para que le
+sea aumentada,
+por cuya
+causa no se
+le exigirân los
+aportes
+establecidos en el
+articulo
+noveno
+con
+relaciôn
+al
 nuevo empleo.
-
-Art. 31.— Exceptúase de lo dispuesto en el artículo anterior al jubi-
-lado por invalidez cuyos servicios fuesen utilizados en otro empleo; en este
-caso percibirá además del sueldo, la fracción de la jubilación por invalidez
-que acuerde el Directorio de la Caja proporcionalmente a la diminución su-
-frida en su capacidad de trabajo. Si alcanzasen los años de servicio para
-obtener jubilación ordinaria, le será acordada jubilación definitiva igual al
-monto de la ordinaria que corresponde al sueldo de su nuevo empleo, más
-la fracción de la jubilación por invalidez que haya percibido.
-
-Art. 32.— Las jubilaciones, pensiones, devoluciones de aporte y demás
-beneficios que acuerda la presente ley, serán acordadas por el Directorio de
-la Caja ante la cual deberán solicitarse.
-    Las jubilaciones, una vez concedidas, serán pagadas desde el día en
+Art. 31. ■— Exceptdase de lo dispuesto
+en el articulo
+anterior
+al jubi¬
+lado por invalidez cuyos servioios fuésen utilizados
+en otro empleo;
+en este
+caso percibirâ ademâs del sueldo, la fracciôn de la jubilaciôn
+por invalidez
+que acuerde el Directorio
+de la Caja proporcionalmente
+a la diminuciôn
+su-
+frida en
+su
+capacidad de trabajo.
+Si alcanzasen
+los
+anos de
+servicio para
+obtener jubilaciôn ordinaria. le sera acordada jubilaciôn
+definitiva
+igual al
+monto de la ordinaria
+que
+corresponde al sueldo de su-nuevo empleo,
+mas
+la fracciôn de la jubilaciôn por invalidez que haya percibido.
+Art. 32. — Las jubilaciones, pensiones, devoluciones de aporte y demds
+benefieios que acuerda la presente ley, serein acordadas por el Directorio de
+la Caja ante la cual deberdn solicitarse.
+Las jubilaciones, una vez concedidas, serein pagadas desde
+el
+dia
+en
 que el interesado deje el servicio. En caso de disconformidad del interesado,
-la resolución del Directorio será apelable por el mismo dentro de los noventa
-días de serle aquélla notificada en forma auténtica, para ante la Cámara
-Federal de la Capital, la cual, oyendo al apelante y al representante que
-designe la Caja, resolverá, sin ulterior recurso, a base de las constancias del
-expediente administrativo, sin perjuicio de cualquier otro informe que de
-oficio resolviera solicitar para mejor proveer.
-
-Art. 33.— Los empleados u obreros que no tuvieran familia que sos-
-tener, que hubieran llenado las condiciones exigidas para tener derecho a ser
-jubilados, y que antes de serlo fueran destituidos por mal desempeño de los
-deberes de sus cargos o por abuso de bebidas alcohólicas durante el ejercicio
-del mismo o condenados por sentencia judicial por delito que haya merecido
-pena de presidio o penitenciaría no serán jubilados, pero se les devolverá el
-importe de los descuentos hechos a sus sueldos, siempre que no hubiera
-lugar a aplicarlo a la indemnización civil del daño causado.
-    En caso de tener familia que sostener, no se devolverá al penado el
-importe del descuento hecho a sus sueldos, pero gozarán de la pensión que
-corresponda a la jubilación perdida, las personas que tengan derecho a ella
-con arreglo a esta ley.
-    Las circunstancias de la destitución deberán ser comprobadas en los
-expedientes, — ante el Directorio de la Caja — que se promuevan en cada
+la resoluciôn del Directorio sera apelable por el mismo dentro de los noventa
+dias
+de serle aquélla notificada en forma auténtica, jiara
+ante
+la
+Cdmara
+Federal de la Capital, la cual, oyendo al apelante
+y
+al
+représentante
+que
+désigné la Caja, resolverd, sin ulterior recurso, a base de las constancias del
+expediente administrative, sin perjuicio de cualquier
+otro informe
+que
+de
+oficio
+resolviera solicitai• para mejor proveer.
+Art. 33. — Los empleados u obreros que no tuvieran
+familia
+que sos-
+tener, que hubieran llenado las condiciones exigidas para tener dereebo a ser
+jubilados, y que antes de serlo fueran destituidos por mal desempeno de los
+deberes de sus cargos
+o por abuso de bebidas alcohôlicas durante el ejercicio
+del mismo
+o condenados por sentencia judicial por delito que baya merecido
+pena de presidio
+o penitenciaria no serân jubilados, pero
+se les devolverâ el
+importe
+de
+los
+descuentos
+beebos
+a
+sus
+sueldos, siempre
+que
+no
+hubiera
+lugar
+a aplicarlo a la indemnizaciôn civil del dano causado.
+En
+caso de tener familia que
+sostener,
+no
+se devolverâ al
+penado el
+importe del descuento beebo
+a
+sus sueldos,
+pero gozarân de la pension
+que
+correspondu
+a la jubilaciôn perdida, las personas que tengan dereebo
+a ella
+con arreglo
+a esta ley.
+Las circunstancias de la destituciôn
+deberân
+ser comprobadas
+en los
+expedientes, •—ante
+el
+Directorio
+de
+la
+Caja — que ge promuevan
+en
+cada
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last line of text appears to be cut off, indicating continuation on the next page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 296
@@ -237,81 +493,186 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 ```
 
+# Page 297
+
 ## Page Metadata
-Page number: 297
-Source publication year: 1936
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json`
+- Source page: 297
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0297.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page features a single-column layout with a centered page number at the top. The main content consists of numbered articles and sub-points, presented as continuous text blocks.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 12 —
-
-5º A las hermanas solteras del causante que se encuentren en las
-condiciones de los padres.
-Los hijos naturales reconocidos o declarados tales por sentencia
-judicial gozarán de la parte de pensión a que tengan derecho con
-arreglo a la legislación civil.
-Art. 40.— El importe de la pensión será equivalente al 50 % del total
-de la jubilación que percibía o que tenía derecho a percibir el causante; la
-pensión mínima correspondiente a una jubilación ordinaria o por invalidez
-será de 100 pesos. La mitad de la pensión será de la viuda si concurren los
-hijos o los padres del causante; la otra mitad se distribuirá entre éstos «per
-cápite». A falta de padres e hijos, la totalidad de la pensión corresponderá
+```markdown
+—
+12
+—
+5° A las hermanas solteras del causante que se
+encueûtren
+en las
+condiciones
+de los padres.
+Los hijos naturales reconocidos o declarados taies por sentencia
+judicial gozarân de la parte de pension a que tengan derecho
+con
+arreglo
+a la legislaciôn civil.
+Art. 40. — El importe de la pension sera équivalente al' 50 % del total
+de la jubilaciôn que percibia
+o que tenia derecho
+a, percibir el
+causante; la
+pension minima correspondiente a una jubilaciôn ordinana
+o por invalidez
+sera de 100 pesos. La initad de la pension sera de la viuda si concurren los
+hijos o los padres del causante; la otra mitad se distributed entre
+éstos «per
+capitei>. A falta de padres
+e hijos, la totalidad de la pension
+correspondent
 a la viuda.
-En los casos de los incisos 1º y 2º del artículo 39, si se extingue el
-derecho a la pensión de alguna de las personas mencionadas en ellos, la
-parte de la misma acrecerá sucesivamente a los hijos o cónyuge sobrevi-
-viente, comprendidos en los beneficios de esta ley.
-Art. 41.— Si la esposa del empleado quedase viuda hallándose divor-
+En los
+casos de los incisas 1° y 2° del
+articulo 39,
+si
+se
+extingue el
+derecho
+a la pension
+de
+alguna
+de
+las
+personas mencionadas en ellos, la
+parte de la
+misma acrecerd sucesivamente
+a
+los
+hijos
+o cônyuge sobrevi-
+viente, comprendidos en los beneficios dé esta ley.
+Art. 41. •— Si la esposa del empleado quedase viuda hallândose
+divor-
 ciada por su culpa o hubiese estado separada de hecho sin voluntad de unirse,
-no tendrá derecho a pensión, y ésta pasará a las personas que con arreglo
-a esta ley tengan derecho a ella.
-Art. 42.— Si a la muerte del causante de una pensión quedaran hijos
-huérfanos de distintos matrimonios, la pensión se distribuirá en la propor-
-ción que corresponda a los mismos y será entregada a sus respectivos re-
-presentantes legales.
-Art. 43.— Las pensiones vitalicias y el derecho a percibirlas sólo se
-pierden por las causas establecidas en esta ley sobre la pérdida de la jubi-
-lación.
-Art. 44.— No se acumularán dos o más pensiones o jubilaciones en
-la misma persona. Al interesado le corresponde optar por la que le con-
-venga, y, hecha la opción, quedará extinguido el derecho a las otras.
-Art. 45.— Las jubilaciones y pensiones serán acordadas por el Direc-
-torio de la Caja, ante el cual deberán solicitarse, acompañando los recaudos
-necesarios para justificar que el postulante está en las condiciones de esta ley.
-Los expedientes se tramitarán en papel común y el Directorio acordará
-o desechará en definitiva la solicitud, siendo sus resoluciones apelables en los
-términos del artículo 32. La Administración de la Caja podrá constituir
+no tendra derecho
+a pension, y ésta pasarâ
+a las personas que
+con
+arreglo
+a esta ley tengan derecho
+a ella.
+Art. 42. — Si
+a la muerte del
+causante de
+una pension qSedaran hijos
+huérfanos de distintos matrimonios. la pension se distribuirâ en
+la
+propor¬
+tion que corresponda
+a los mismos
+y
+sera
+entregada
+a sus
+respectivos re¬
+présentantes legales.
+Art. 4B. — Las
+pensiones vitalicias y el derecho
+a percibirlas
+solo
+se
+pierden por las causas
+establecidas
+en esta ley sobre la pérdida
+de la jubi¬
+lation.
+Art. 44. — No
+se
+acumularân
+dos
+o mâs
+pensiones
+o jubilaciones
+en
+la misma persona.
+Al interesado le corresponde
+optar
+por
+la que
+le
+con-
+venga, y, hecha la option, quedarâ extinguido el derecho
+a las otras.
+Art. 45. — Las jubilaciones y pensiones serdn acordadas por el
+Direc-
+torio de la Caja, ante el cual deberdn solicitasse, acompanando los recaudos
+necesarios para justificar que el postulante esta en las condiciones de esta ley.
+Los expedientes se tramitardn en papel comùn y el Pirectorio acordard
+o desecharà
+en definitiva la solicitud, siendo sus resoluciones apelables en los
+términos del articulo
+32.
+La
+Administraciôn
+de
+la
+Caja podrd
+constitute
 agentes en los centros ferroviarios de mayor importancia.
-a) Para que reciban las solicitudes, verifiquen los trámites hasta
-el momento de la resolución del Directorio y hagan conocer las
-resoluciones del último, en todos los expedientes que inicien in-
+a) Para que reciban
+las
+solicitudes, verifiquen
+los trdmites hasta
+el momento de la resoluciôn del Directorio y hagan conocer las
+resoluciones del ûltimo,
+en todos los
+expedientes que inicien in-
 teresados cuyo domicilio se encuentre dentro del radio que se fije
-a cada una de las agencias;
-b) Para evacuar, verbalmente o por escrito, todos los informes que
-se solicitaren a los efectos del trámite de los expedientes o el re-
-conocimiento de los derechos acordados por las leyes de jubilación.
+a cada
+una de las agendas;
+b) Para evacuar, verbalmente
+o por escrito, todos los informes que
+se solicitaren a los efectos del trdmite de los expedientes o el re-
+conocimiento de los derechos acordados por las leyes de jubilaciôn.
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 298
@@ -381,90 +742,165 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions are present on this page."}
 ```
 
+# Page 299
+
 ## Page Metadata
-- Task id: `source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0299`
-- Page number: 299
+
 - Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json`
+- Source page: 299
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0299.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page features a centered page number at the top, followed by a single column of text. The text consists of several articles and explanatory paragraphs, presented in a continuous block.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 14 —
-
-A los efectos de este artículo, la Caja decretará la jubilación o pensión
-de acuerdo a su ley, y las demás Cajas reintegrarán dicha parte proporcio-
-nal. En todos los casos el cómputo se hará sin bonificación de tiempo.
-
-Art. 52. — Los empleados y obreros de la Nación sujetos al régimen
-de la Ley 4349, comprendidos en las disposiciones de la 10659, que se encon-
-traban en servicio a la fecha de la sanción de la última, se considerará que
-optan por los beneficios de esta si en el término de seis meses no declaran
-expresamente y por escrito, ante la Dirección de los Ferrocarriles del Es-
-tado, su opción por la primera. La Administración de los referidos ferroca-
-rriles deberá proceder dentro de los tres meses subsiguientes al vencimiento
-del plazo fijado por el artículo anterior: 1º A remitir a la Caja de Jubilacio-
-nes y a la Ferroviaria, según corresponda, una nómina de los empleados y
-obreros que quedan sujetos a uno y otro régimen. 2º A depositar, a la orden
+```markdown
+—
+14
+—
+A los efectos de este articulo, la Caja decretard la jubilation o pensiôn
+de acuerdo
+a
+su ley, y las demds Cajas reintegrardn dicha parte proportio¬
+nal. En todos los
+casos el cômputo se hard sin bonification de tiempo.
+Art. 52.
+— Los empleados y obreros
+de
+la Nation sujetos
+al régimen
+de la Ley 4349, comprendidos en las disposiciones de la 10650, que se encon-
+traban
+en servicio
+a la fecha de la sancion de la ultima,
+se eonsiderard que
+optan por los benefitios de ésta si en el término
+de
+seis
+meses
+no declaran
+expresamente y por escrito, ante la Direction
+de
+los
+Ferrocarriles
+del
+Es-
+tado, su option por la primera. La Administration de los referidos
+ferroca¬
+rriles deberd procéder dentro de los très meses subsiguientes
+al
+vencimiento
+del plazo fijado por el articulo anterior: 1° A remitir a la Caja de Jubilacio-
+nes y a la Fenvviaria, segûn correspondu, una nômina de los empleados
+y
+obreros que quedan sujetos a uno y otro régimen. 2° A depositor,
+a la orden
 de la Caja de Jubilaciones de Ferroviarios, el aporte que le corresponde por
-u obreros colocados bajo el régimen de la Ley 10650 de acuerdo
-al artículo 9º, inciso 5º de la misma.
-
-La Caja Nacional de Jubilaciones y Pensiones Civiles transferirá a la
-de Ferroviarios, dentro de los noventa días de la comunicación del inciso 1º,
-los aportes del personal que de acuerdo con el párrafo primero del presente
-artículo, queda sometido al régimen de la última.
-
-Art. 53. — Las jubilaciones y pensiones son inembargables e inaliena-
-bles. Será nula toda venta, cesión o constitución de derecho que recaiga
-sobre ellas y que impida su libre disposición por el titular de la misma.
-
-Art. 54. — Las empresas ferroviarias estarán obligadas a suministrar
+los empleados u obreros colocados bajo el régimen de la Ley 10650 de acuerdo
+al aHiculo 9°, inciso 5° de la misma.
+La Caja National de Jubilaciones y Pensiones Civiles transferird a la
+de Ferroviarios, dentro de los noventa dias de la comunication del inciso 1°,
+los aportes del personal que de acuerdo con el pàrrafo primero
+del présente
+articulo, queda sometido al régimen de la ultima.
+Art. 53. — Las jubilaciones y pensiones son inembargables e inaliéna¬
+bles.
+Sera nula toda venta,
+cesiôn
+o
+constitution
+de
+derecho
+que recaiga
+sobre ellas y que impida su libre disposition por el titular de la misma.
+Art. 54. — Las empresas ferroviarias estarân obligadas
+a
+suministrar
 al Directorio de la Caja todas las informaciones que solicite sobre el personal
 y a permitir las comprobaciones que juzgue pertinentes bajo apercibimiento
 y pena de multa variable entre quinientos y dos mil pesos.
-
 Art. 55. — Las empresas ferroviarias que no depositaran en el tiempo
-y forma estatuidas por el artículo décimo de esta ley, las sumas a que están
-obligadas con sujeción a la misma, previa intimación del Presidente del Di-
-rectorio de la Caja, incurrirán en una multa de mil pesos por cada día de
-demora hasta tanto efectúen el depósito, con el interés del siete por ciento
-anual a contar desde el primer día de la mora.
-
-El Presidente del Directorio tendrá personería suficiente para promover
-ante el Poder Ejecutivo o los tribunales de justicia, por vía de apremio, las
-acciones ejecutivas que correspondan hasta hacer efectivas las obligaciones
+y forma estatuidas por el articulo décimo de esta ley, las sumas
+a que estân
+obligadas con sujétion
+a la misma, previa intimation del Présidente del Di¬
+rectorio de la Caja, incurrirân en
+una
+multa de mil pesos por cada dia
+de
+demora liasta tanto efectûen el depôsito, con el interés del siete por
+ciento
+anual
+a contar desde el primer dia de la mora.
+El Presidents del Directorio tendra personeria suficiente para promover
+ante el Poder Ejecutivo o los tribunales de justicia, por via de apremio, las
+acciones ejecutivas que correspondan hasta hacer efectivas
+las
+obligaciones
 y penalidades de esta ley.
-
-Las resoluciones del Directorio asentadas en el libro de actas y apro-
-badas, constituyen instrumento público.
-
-Art. 56. — Podrán acogerse a los beneficios y obligaciones de la pre-
-sente ley los empleados y obreros de las empresas ferroviarias de jurisdic-
-ción provincial cuyos representantes lo solicitasen con intervención de los
-respectivos gobiernos locales, siempre que las empresas, los empleados y
-dichos gobiernos hagan los aportes y se sujeten a las condiciones fijadas
+Las resoluciones del Directorio asentadas
+en el libro de actas y apro-
+badas, constituyen instrumento pûblico.
+Art. 56. — Podrân acogerse
+a los benefitios y obligaciones
+de la
+pré¬
+sente ley los empleados y obreros de las
+empresas
+ferroviarias de jurisdic¬
+tion provincial cuyos représentantes lo
+solicitasen
+con intervention
+de los
+respectivos
+gobiernos
+locales,
+siempre que las empresas,
+los
+empleados
+y
+dichos gobiernos bagan
+los
+aportes y se sujeten a las
+conditiones fijadas
 en esta ley.
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images, captions, or substantial visual notes on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-The transcription is complete and accurate, capturing all visible text and layout elements on the page.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 300

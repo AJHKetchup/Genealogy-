@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-00c775aaad88-P0011-01
+chunk_id: CHUNK-79c07f59ec3a-P0011-01
 source_converted: raw/converted/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11.codex.md
-converted_sha256: 00c775aaad88cbcd9f36cd1f76b6df69c0f92687903bcd83db9c3478907efe17
+converted_sha256: 79c07f59ec3a92631d9dc5e0e5fa6fcc728650eb60aefd7b888b992ba02cd415
 source: raw/sources/Habitat Revisited, Jim Carney, 2006.pdf
 source_sha256: fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9
 source_manifest: raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json

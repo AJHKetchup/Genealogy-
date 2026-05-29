@@ -1,0 +1,136 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-796efe9dec69-P0373-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375.codex.md
+converted_sha256: 796efe9dec69d12b33da0a02254f84ea22c0e2bc5d687e7e37160a7da7e81b32
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/manifest.json
+page_start: 373
+page_end: 373
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/manifest.json`
+- Source page: 373
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/page-images/page-0373.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+d'hygiène sociale de la tuberculose et les œuvres pour la lutte contre
+le paludisme est dirigé par des infirmières diplômées.
+Les premières écoles pour infirmières bénévoles furent établies
+en 1907 dans plusieurs villes, mais elles n'étaient pas toutes organi¬
+sées sur le même modèle. Depuis cette époque, les infirmières diplômées
+après deux années d'études et des stages dans les hôpitaux militaires,
+ont été employées à l'occasion des calamités publiques.
+Au
+commencement
+de
+la
+guerre mondiale, il
+y avait environ
+5.000 infirmières bénévoles. Pendant les premiers temps de la guerre,
+des
+cours intensifs furent
+organisés et les infirmières atteignirent
+en peu de temps le nombre de 10.000. Elles furent élevées au rang
+des officiers,
+Aussitôt après la guerre, un décret du Gouvernement donna droit
+aux infirmières bénévoles d'être enrôlées au service de l'armée en temps
+de guerre et au service de l'État en temps de calamité publique,
+Au Japon,
+les membres
+de l'Association
+des volontaires,
+qui
+sont
+au nombre de 17.152 et dont la formation comporte les soins
+aux malades, prêtent service dans les hôpitaux en cas de désastre;
+elles rendent également d'importants services dans la préparation
+des pansements, bandages, etc.
+Les
+« Voluntary Aid Detachments » existent dans tout l'Empire
+britannique ; institués primitivement pour le temps de guerre, ils
+sont aujourd'hui employés par les diverses sociétés
+pour l'œuvre
+du temps de paix. Ces volontaires sont instruites par des infirmières
+diplômées et leur formation comporte des stages dans des services
+de médecine et de chirurgie. En Angleterre, les volontaires prêtent
+service
+dans
+les
+hôpitaux
+pour
+anciens combattants,
+les
+centres
+d'hygiène sociale de l'enfance, les crèches et les consultations. Des
+équipes de volontaires sont formées à l'occasion des défilés, des fêtes,
+des expositions agricoles, des réunions publiques, etc. et se tiennent
+prêtes à intervenir en cas de besoin.
+En
+Nouvelle Zélande,
+des certificats sont accordés
+à trois
+des
+candidates
+au
+cours supérieur pour
+« Voluntary Aid Detachments »
+qui passent un examen devant le directeur des services d'hygiène
+publique et une infirmière diplômée du Ministère de l'Hygiène. Il est
+fait appel à leur concours en cas d'incendie, d'inondation, d'épidémie,
+etc. ; tous les groupes d'auxiliaires sont sous la direction et la surveil¬
+lance
+d'infirmières diplômées.
+Dans l'Union sud-africaine, les cours de soins aux malades et de
+premiers secours sont obligatoires, ceux d'hygiène et de cuisine sont
+facultatifs. Les volontaires sont, pour la plupart, formées dans les
+hôpitaux et
+ce ne'st qu'après avoir obtenu leur diplôme qu'elles
+77
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 374

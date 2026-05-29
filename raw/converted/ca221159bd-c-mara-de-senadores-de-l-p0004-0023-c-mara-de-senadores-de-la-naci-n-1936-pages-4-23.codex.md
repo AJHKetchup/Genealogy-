@@ -232,7 +232,7 @@ No interpretation was produced by the Docling basic conversion pass.
 - Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/manifest.json`
 - Source page: 8
 - Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-images/page-0008.jpg`
-- Conversion method: Docling basic conversion
+- Conversion method: PDF text-layer fallback after Docling baseline error
 - Docling readability status: `rough_ok`
 - Docling readability flags: none
 - Extracted picture images: 0
@@ -244,28 +244,161 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-Art. 3° - Considéranse nacionales :
-
-- 1°
-- Los ferrocarriles de propiedad de la Naciôn.
-- 29 Los que fueren garantidos, subvencionados o autorizados
-- por ella.
-- S9 Los que liguen la capital o un territorio federal con una o mas provincias o territories ; y los que comuniquen una provincia con otra o un punto cualquiera del terri¬
-- torio de la Naciôn con un estado extranjero.
-
-Art. 49 -Son ferrocarriles provinciales, los construîdos o autorizados por las provincias dentro de los limites de sus te¬ rritories
-
-respectivos.
-
-El deslinde de las jurisdicciones nacional, provincial y municipal, en materia ferroviaria, es un punto de Derecho aun muy discutido. Recordaremos como an¬ técédentes :
-
-A propôsito de la intervenciôn municipal:
-
-Un Decreto de 25 Abril de 1897, comunicado por circular N? 22 de 13 Mayo 1897, relativo a las atribuciones de la Direcciôn General de Ferrocarriles Nacio¬ nales y de la Intendencia Municipal de la Capital, en las estaciones de ferrocarril existentes dentro del perimetro del Municipio, y en el cual Decreto se déclara que:
-
-El Poder Ejecutivo, por si o por intermedio de la Direcciôn de Ferrocarriles Na¬ cionales, es la unica autoridad con jurisdicciôn sobre éstos ,y todas sus dependencias, con arreglo a la ley, aun cuando se trate de ordenànzas municipales. En los casos que versen sobre aplicaciôn de éstas en las estâcionpS^jyuas de ferro¬ carriles nacionales existentes en la Capital, la Intendencia MunicipâUBfiggj&amp;rigirse a la Direcciôn General de los mismos. Y si ésta encontrara incon-^pB^ para darles cumplimiento, informarâ inmediatamente al Ministerio del Interior para que el Gobierno adopte la resoluciôn definitiva que corresponda. Un Decreto de 4 Diciembre de 1923, comunicado por circular N9 53 de 19 Diciembre de 1923, a propôsito de una intervenciôn municipal en obras construîdas dentro de la zona de explotaciôn de un ferrocarril, establece que: Toda obra debidamente incorporada al sistema que explota una empresa ferroviaria de jurisdicciôn nacional, queda exclusivamente sujeta a esta ultima para todos los efectos de orden administrative que se deriven de la existencia y de la
-
-utilizaciôn de taies construcciones. Las concesiones provinciales son desconocidas por la autoridad nacional. Asî, por Decreto de 15 de Octubre de 1909, comunicado por circular N? 32 de 20 de Octubre de 1909, y publicado en Boletin Oficial N? 4765, dictado a propôsito de una solicitud del Gobierno de la Provincia de Jujuy, para que los materiales destinados a un ramai concedido por la legislatura de dieba provincia, sean transportados por los ferrocarriles nacionales con la rebaja del 50 % de las tarifas ordinarias, se resuelve declarar que al Gobierno no le es posible reconocer como vâlida la concesiôn acordada por la legislatura de dicha provincia a una Sociedad Anônima para construir un ramai del Ferrocarril Central Norte. Se dispone también hacer saber a todas las empresas ferroviarias, sometidas a la jurisdicciôn' Federal, que el Go¬ bierno de la Naciôn no reconocerâ como validas las concesiones de ramales o prolongaciones de lineas en las redes de los ferrocarriles de su jurisdicciôn, acordadas por otras autoridades y dard, aviso al Ministerio del ramo de cualquier obra que se intente ejecutar en oposiciôn a lo resuelto.
+Art.
+3° — Considéranse nacionales :
+1°
+Los ferrocarriles de propiedad de la Naciôn.
+29
+Los
+que fueren garantidos, subvencionados
+o autoriza-
+dos por ella.
+S9
+Los que liguen la capital o un territorio federal con una
+o
+mas provincias
+o territories ; y los que comuniquen
+una provincia con otra o un punto cualquiera del terri¬
+torio de la Naciôn con un estado extranjero.
+Art.
+49 — Son ferrocarriles provinciales, los construîdos
+o
+autorizados por las provincias dentro de los limites de sus te¬
+rritories respectivos.
+El
+deslinde
+de
+las jurisdicciones nacional, provincial y municipal,
+en materia
+ferroviaria,
+es
+un punto
+de Derecho
+aun muy discutido. Recordaremos como an¬
+técédentes :
+A propôsito
+de la intervenciôn municipal:
+Un Decreto
+de
+25 Abril de 1897, comunicado por circular N? 22 de 13 Mayo
+1897,
+relativo
+a las atribuciones de la Direcciôn General de Ferrocarriles Nacio¬
+nales y
+de la Intendencia Municipal de la Capital,
+en las estaciones de ferrocarril
+existentes dentro del perimetro del Municipio, y en el cual Decreto se déclara que:
+El Poder Ejecutivo, por si o por intermedio de la Direcciôn de Ferrocarriles Na¬
+cionales,
+es la
+unica
+autoridad
+con jurisdicciôn sobre
+éstos ,y todas
+sus depen-
+dencias,
+con arreglo
+a la ley,
+aun cuando
+se trate de ordenànzas municipales. En
+los
+casos
+que
+versen
+sobre
+aplicaciôn de éstas
+en las estâcionpS^jyuas de ferro¬
+carriles nacionales existentes
+en la Capital,
+la Intendencia MunicipâUBfiggj&rigirse
+a
+la
+Direcciôn
+General
+de
+los
+mismos. Y
+si
+ésta
+encontrara incon-^pB^ para
+darles cumplimiento, informarâ inmediatamente al Ministerio del Interior para que
+el Gobierno adopte la resoluciôn definitiva que corresponda.
+Un Decreto
+de 4 Diciembre de 1923, comunicado por circular N9 53 de 19 Di-
+ciembre
+de
+1923,
+a propôsito de una intervenciôn municipal en obras construîdas
+dentro
+de la
+zona
+de explotaciôn de un ferrocarril, establece que:
+Toda obra debidamente incorporada
+al sistema que explota una empresa ferro-
+viaria
+de
+jurisdicciôn
+nacional,
+queda exclusivamente sujeta
+a esta ultima para
+todos
+los
+efectos
+de
+orden administrative
+que
+se deriven de la existencia y de la
+utilizaciôn de taies construcciones.
+Las
+concesiones provinciales
+son desconocidas
+por la autoridad nacional. Asî,
+por
+Decreto
+de
+15
+de
+Octubre
+de
+1909, comunicado por circular N? 32
+de 20
+de
+Octubre
+de
+1909,
+y publicado
+en Boletin Oficial N? 4765, dictado a propôsito
+de una solicitud del Gobierno de la Provincia de Jujuy, para que los materiales des-
+tinados
+a
+un ramai concedido por la legislatura de dieba provincia, sean transpor-
+tados por los ferrocarriles nacionales con la rebaja del 50 % de las tarifas ordinarias,
+se resuelve declarar
+que al Gobierno no le es posible reconocer como vâlida la con-
+cesiôn acordada por la legislatura de dicha provincia a una Sociedad Anônima para
+construir
+un ramai del Ferrocarril Central Norte.
+Se dispone también hacer saber
+a todas las
+empresas ferroviarias,
+sometidas
+a la jurisdicciôn' Federal,
+que el Go¬
+bierno de la Naciôn no reconocerâ como validas las concesiones de ramales o prolon-
+gaciones de lineas en las redes de los ferrocarriles de su jurisdicciôn, acordadas por
+otras
+autoridades
+y
+dard,
+aviso
+al Ministerio
+del
+ramo
+de cualquier obra que
+se
+intente ejecutar
+en oposiciôn
+a lo resuelto.
 ```
 
 ## Images, Captions, And Visual Notes
