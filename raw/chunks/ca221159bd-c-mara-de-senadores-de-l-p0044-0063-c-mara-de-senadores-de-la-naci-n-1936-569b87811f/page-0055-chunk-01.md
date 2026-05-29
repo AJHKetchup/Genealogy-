@@ -1,0 +1,122 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-28f415d52eae-P0055-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63.codex.md
+converted_sha256: 28f415d52eae22a729d35c63e21dc6f15bb9fdf33e853adddcb4d5bb13c41e77
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json
+page_start: 55
+page_end: 55
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json`
+- Source page: 55
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/page-images/page-0055.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—
+51
+—
+En la primera hipôtesis se ha fijado para la eomunicaciôn
+el plazo de 90 dîas de anticipaciôn a la fecha en que las tarifas
+hayan de
+ser
+puestas
+en conocimiento del publico
+y
+en la
+segunda los plazos de 40 y 30 dias, segun se trate de tarifas
+ordinarias
+o especiales.
+Ademâs se ha consignado que los términos legales de publi-
+cidad podrân ser reducidos por el Poder Ejecutivo o la Direc-
+ciôn General de Ferrocarriles, segun el caso, si fuera de inte-
+rés publico.
+Se ha incorporado también al Reglamento el sistema de la
+vigencia provisional de las tarifas cuando no fueran observa-
+das dentro de esos plazos y se ha confirmado el régimen de la
+aprobacion tâcita por el mero transcurso de los mismos.
+Dos disposiciones han sido dedicadas al régimen de las tari¬
+fas
+de competencia: la primera para el caso de eompeteneia
+entre empresas de ferrocarriles y la segunda para el de com¬
+petencia entre los ferrocarriles y otros medios de transporte.
+Para
+esta ultima situaciôn
+se ha establecido que,
+a fin de
+evitar la pérdida de trâfico, las empresas podrân proponer la
+émision de una tarifa especial respecto de la cual la Direcciôn
+deberâ pronunciarse dentro del plazo de 15 dîas, pudiendo, sin
+autorizaciôn expresa, ponerse en vigor la tarifa provisionalmen-
+te por un plazo de 30 dîas, si no hubiera sido observada. Y
+si dentro
+de
+este plazo no
+se dictare resoluciôn aprobândola
+o rechazândola
+se considerarâ tâcita y definitivamente apro-
+bada.
+La Comisiôn ha proyectado, ademâs, un articulo segun el
+cual toda tarifa especial que no tenga fecha de vencimiento
+no podrâ, en principio, ser dejada sin efecto sin previo aviso
+al publico con 90 dîas de anticipaciôn. Pero, teniendo présente
+que lo categôrico de ese precepto podrîa resultar en determi-
+nados casos incompatible con las necesidades reales, se ha agre-
+gado que el P. E.
+o la Direcciôn General podrân autorizar la
+réduction
+o supresiôn
+de dicho término si fuese de interés
+publico.
+Mediante
+otra disposition
+se ha legalizado dândole eabida
+en el Reglamento, la aplicaciôn de las tarifas que las empresas
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 56

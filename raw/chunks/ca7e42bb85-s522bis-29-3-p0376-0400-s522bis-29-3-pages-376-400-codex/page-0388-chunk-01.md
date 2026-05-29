@@ -1,0 +1,163 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-0f7d44e9d8d3-P0388-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400.codex.md
+converted_sha256: 0f7d44e9d8d3dfc414839c12563418474682984d8592b38a7f02983772569939
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400/manifest.json
+page_start: 388
+page_end: 388
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400/manifest.json`
+- Source page: 388
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400/page-images/page-0388.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+21
+-
+principle sin ninguna especie de compromise sino con el sôlo
+fin de
+enviar delegados
+que tomaran parte
+en la Asamblea para
+discutir eventualmente la creaei<5n de la Soeiedad,
+es proba-
+ble
+que ésta hubiera rechazado una adhesiOn dada
+en esas eon-
+diciones.
+Pero la Argentina,
+Estado
+que figura
+en el anexo
+del Pacto
+como invitado,
+habiendo adherido
+de manera formal
+y sin réserva y habiendo ratificado esta adhesion por media-
+ciOn directa de
+su Presidents, debia
+ser -
+como de heeho lo
+fu4
+- considerada Miembro originario de la Soeiedad su^eto
+a
+todâs
+sus
+obligaciones,
+El Secretario General
+de la Soeiedad
+de las
+Eaciones
+que recibiO la comunicaciOn del
+18 de Julio 1919 dirigida por
+el Ministro Alvear,
+respondio
+que la Soeiedad
+de las Naciones
+no estaba todavia legalmente constituida y
+que por
+esa razén
+no podia exercer sus funciones de Secretario General antes
+de la
+entrada
+en vigor del tratado.
+Es por eso por lo
+que
+pregunt<5 al Sr, Alvear si "la eomunicaciOn que le habia sido
+dirigida significaba
+que la Republica Argentina deseaba rea-
+lizar
+su adhésion tan rapidamente
+como la conclusion de las
+ratificaciones necesarias del Tratado de Paz le proeurara for-
+malmente
+el
+medio de hacerlo”.
+El Dr. Alvear contesté el 29
+de Julio
+1919 dieiendo
+que "tal
+es
+en efecto la g»»fe8Hsién.
+interpretacién dada a mi nota del
+19
+de Julio; el Gobierno
+argentino adhiere
+a la Soeiedad de las Naeiones y ratificara su
+adhesiOn tan pronto
+como las Camaras la hayan aprobado* El
+Secretario
+General
+de la Soeiedad sera de ello informado ofi-
+cialmente
+en tiempo oportuno",
+El Ministro
+de la Argentina
+en Paris habia,
+por otra
+parte,
+cometido otro error:
+no habia hecho distinoién entre
+la situacién de los Estados beligerantes
+que habian elabora-
+do
+el Pacto y la de los neutrales.
+Es verdad
+que los belige¬
+rantes,
+signatarios del Tratado de Paz de
+que forma parte el
+Pacto, habian enviado
+sus représentantes a una Conferencia
+diplomatica encargada de preparar el Tratado el cual debia,
+naturalmente,
+después de firmado,
+ser ratificado
+en la forma
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

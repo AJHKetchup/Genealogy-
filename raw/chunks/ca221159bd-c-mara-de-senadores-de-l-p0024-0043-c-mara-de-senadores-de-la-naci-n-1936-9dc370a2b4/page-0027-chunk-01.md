@@ -1,0 +1,114 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-add59495897e-P0027-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43.codex.md
+converted_sha256: add59495897e9e0ecd350b0eb37977f27618b5ebcd67a628329fd020dacc5301
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43/manifest.json
+page_start: 27
+page_end: 27
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43/manifest.json`
+- Source page: 27
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43/page-images/page-0027.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—
+23
+—
+Las dudas que surj an sobre el preeio y peso, insuficiencia
+del embalaje o cubierta de los bultos y estado de la mercancîa,
+deben
+someterse
+en el acto
+a la resoluciôn de la inspecciôn
+gubernativa.
+Si
+no hubiese présente en la estaciôn ningun
+inspector y el remitente no quisiera esperar la intervenciôn de
+la Direcciôn de Ferroearriles, se someterâ la cuestiôn al juicio
+de dos arbitradores designados en el acto, uno por cada parte,
+con facultad de nombrar tercero en caso de discordia, pagando
+ambas partes por mitad los honorarios.
+Art. 49. — Las tarifas serân uniformes para todos los que
+se sirvan del ferrocarril.
+Sin embargo, la empresa podrâ reducir los precios de la tarifa
+en favor de los cargadores que acepten plazos mâs largos que
+los que correspondiesen segun el orden del registro o de los que
+se obliguen a proporcionar, en perîodos dados, un minimum de
+toneladas de carga.
+La concesiôn a uno o muchos remitentes,
+sera extensiva
+a todos los que la pidan, sujetândose a iguales
+condiciones, y no podrâ hacerse sin previa aprobaciôn de la Di¬
+recciôn de Ferrocarriles.
+Art. 50. — Las obligaciones o responsabilidades de las em-
+presas respecto a los cargadores, por pérdidas, averias o retardo
+en la expedition o entrega de las mercaderias, serân regidas
+por las disposiciones del Côdigo de Comercio. Serân también
+aplieables a las empresas de Ferrocarriles las disposiciones de
+las leyes generales sobre transportes,
+en todos los puntos no
+previstos por la presente ley.
+Art.
+51. — Los objetos olvidados
+en los carruajes,
+en las
+estaciones o en la via, o aquellos cuyos duenos, consignatarios
+o remitentes
+se ignore, se mantendrân en depôsito por la em¬
+presa, y se anotarân en un registro especial, con designaciôn
+del dia y lugar
+en que fueron encontrados y de sus princi¬
+pales senas.
+Art. 52. — El depôsito de dichos objetos se pondrâ en cono-
+cimiento del publico por medio de avisos fijados en las esta¬
+ciones de la linea.
+Si nadie se presentase a reclamarlos dentro
+de très meses, contados desde la fijaciôn de los avisos, se pro-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

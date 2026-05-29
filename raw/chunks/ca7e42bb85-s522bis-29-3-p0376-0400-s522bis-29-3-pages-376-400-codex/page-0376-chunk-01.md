@@ -1,0 +1,130 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-0f7d44e9d8d3-P0376-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400.codex.md
+converted_sha256: 0f7d44e9d8d3dfc414839c12563418474682984d8592b38a7f02983772569939
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400/manifest.json
+page_start: 376
+page_end: 376
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400/manifest.json`
+- Source page: 376
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400/page-images/page-0376.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-
+9
+-
+reproducida su las paginas precedentes* Como conseeuencia de
+las declaraciones heehas por el Ministre en el momento de nom-
+trar
+a la delegaciôn, la Comisiôn de asuntos constitncionales
+del
+Senado cayé igualmente
+en el mismo error de principio.
+La Comisipn dice,
+en efecto,
+en su informe: "Por consiguien-
+te,
+el Sr. Ministro de Relaciones Exteriores estima que sola-
+mente después de
+que haya tenido lugar la ^.samblea,
+que de"be
+celebrarse el 15
+de Eoviembre,
+y
+en el caso de que los emba-
+Jadores
+que representen a la Republica suscriban un tratado,
+séria oportuno someter la cuestiôn al Congreso".
+La designa-
+ci6n de "embajadores"
+y el acuercio
+a este efecto son inter-
+pretados por el Poder Ejecutivo con el mismo eriterio y el
+mismo alcance
+que cuando
+se trata generalmente de enviar cerca
+de naciones amigas emba^adores
+que puedan estar dispuestos a
+discutir un tratado, sin
+que
+su nombramiento signifique que
+se ha emitido de antemano una opinion sobre la aceptaei<$n o
+repuisa de algun tratado que fuese firmado".
+Résulta curioso el hecho de
+que el negociador argen-
+tino
+no tenia una idea muy clara a e3te respecto en el momen¬
+to
+de la diseusién presidida por Lord Cecil.
+En efecto,
+cuan¬
+do los neutrales supieron que el Pacto estaba ya en vigor con
+las pocas enmiendas
+que la Comisiôn habia aceptado, el Dr,
+Alvear pregunté al Présidente Lord Cecil "cuando creia él que
+los parses neutrales serian invitados a tomar parte en la fun-
+daciôn de la Sociedad de las lactones", pregunta a la cual el
+Présidente raspondié "que ignoraba el procedimiento que séria
+seguido para dirigir tal invitacién, aunque a su juicio y se-
+gdn el conocimiento
+que él tenia del texto del Pacto, basta-
+Ha
+con la adhesién del pais neutral por medio de su représen¬
+tante acreditado
+a ese efecto",
+El
+29
+de Abril, el Dr. Alvear hace saber a su Gobierno
+que la Conferencia de la Paz ha adoptado por unanimidad el Pac¬
+to del cual transmite el texto integro por cable, y en su de-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 377

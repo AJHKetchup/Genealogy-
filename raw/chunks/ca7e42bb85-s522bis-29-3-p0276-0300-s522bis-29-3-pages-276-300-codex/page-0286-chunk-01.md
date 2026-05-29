@@ -1,0 +1,131 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-55a42c421809-P0286-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0276-0300-s522bis-29-3-pages-276-300.codex.md
+converted_sha256: 55a42c4218099b53440a15bb8acfffc01345604d30257ad5ed38546e451beb83
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0276-0300-s522bis-29-3-pages-276-300/manifest.json
+page_start: 286
+page_end: 286
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0276-0300-s522bis-29-3-pages-276-300/manifest.json`
+- Source page: 286
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0276-0300-s522bis-29-3-pages-276-300/page-images/page-0286.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+11
+-
+’’ConocXamos si Facto
+de la iiociedad de las Ifeeionea y
+loa términos
+oint os de la adhssldn argentins; sabiamos
+que
+la Argentina hab£a retirado su delegsciôn de la /isamblea de Si-
+nebra y que esta medida
+no arrastæeria a la Kep&bliea a retir&r-
+se de la
+aoiedad de las
+Haetones porque las oont1clones esta»
+blecidas de antemsno
+en el Facto no hab£an si do cuisplidas: avi¬
+so previo de dos aüos por escrito.
+° ira por lo tanto any natural
+que la beeretaria de la So-
+oledad
+de las Kaelones
+se dirigiera en varias oe&siones al Go-
+bierno argentino para reolaaar el pago de la ouota que le era
+debida.
+"H©
+es el inteneidn 4*»sgar la aotitud del Gobierno ar¬
+gentine que iiB
+c ejado sln respuesta aie te comunieaoiones que
+le fueron &irigides por la ..s&ablea que congregaba en su sens
+a todas las
+naoiones civil!aadas del mundo,
+con muy
+escas&s ex-
+oepeiones.
+faspoco deseo deteaerme en los ooment&rios que
+se
+ha- heoho sobre la aâhesida argentins a la üocteâad de las
+11a-
+ciones;
+pronto fcendrâ lug&r uns âîscusiân a
+ese respecto y que
+se
+haee necesaria
+en vista de la manlfestaoién del Présidente
+de la Republics en el mensaje de apertura del Côngreso anun-
+eiando el envio del expedients relatibo a esta ouesti4n.w
+Conviens haeer noter que
+en la
+Cdmara no se levant6 nin¬
+guna vos para oomprobar la exaotitud de los principle© expxies¬
+tes por el 3r. de la Torre; la Câaara, hay que reeonocerlo,
+voté la
+sum sol&mente para las deuàas atr&a&âa©, paradent o
+con elle querer mostrar su deseo te no eoraprometerse para el
+parvenir,
+Ha diputado, sin embargo, âecl&rô que daba su apro-
+baoién al page de la inâicada sum, pero que no estais de aeuer-
+do
+con que
+se la hîoieae figurar en el presupuesto de una msne-
+ra permanente.
+Por otra parte*
+el i>r. Àlvear, elegido Presidents de la
+Repâbliea,
+pareoe reotiftear sus eonoeptos primitives en el men-
+s&Je presidenoiâl
+que dirige a las Camaras en X92S. He &qu£ al-
+ganos passées de
+ese documente que peraiten suponer que el ex¬
+il ni stro
+en Paris habla reflexionado largaraente con respecte a
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

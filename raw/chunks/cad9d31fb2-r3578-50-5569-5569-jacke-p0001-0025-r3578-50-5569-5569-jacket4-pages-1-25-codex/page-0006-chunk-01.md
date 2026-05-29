@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-11441f34f680-P0006-01
+chunk_id: CHUNK-e132849e6c9c-P0006-01
 source_converted: raw/converted/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25.codex.md
-converted_sha256: 11441f34f6807cca4e0c52db2f2cb287c362fcf8035a684c095b18e8e82f505b
+converted_sha256: e132849e6c9cce6b1fe7ecc5312c95aa4526675764c051859c19d700d5e7b48b
 source: raw/sources/R3578-50-5569-5569-Jacket4.pdf
 source_sha256: d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781
 source_manifest: raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25/manifest.json
@@ -12,74 +12,95 @@ part: 1
 ---
 
 ## Page Metadata
-Page number: 6
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket4.pdf`
+- Source SHA-256: `d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781`
+- Conversion manifest: `raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25/manifest.json`
+- Source page: 6
+- Page image: `raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25/page-images/page-0006.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains several paragraphs of text, organized into articles and a chapter. The content flows in a single column from top to bottom. A horizontal line separates Article 5 from Chapter II. A page number is centered at the bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-Ils recueilleront et s'enverront également tous les objets d'un usage personnel trouvés
-sur les champs de bataille ou sur les morts, notamment la moitié de leur plaque d'identité,
-l'autre moitié devant rester attachée au cadavre.
 
-Ils veilleront à ce que l'inhumation ou l'incinération des morts soit précédée d'un examen
-attentif et, si possible, médical des corps, en vue de constater la mort, d'établir l'identité et
+```markdown
+Ils recueilleront et s’enverront egalement tous les objets d’un usage personnel trouves
+sur les champs de bataille ou sur les morts, notamment la moitie de leur plaque d’identite,
+l’autre moitie devant rester attachee
+au cadavre.
+Ils veilleront a ce que 1’inhumation ou l’incineration des morts soit precedee d’un examen
+attentif et, si possible, medical des corps, en vue de constater la mort, d’etablir l’identite et
 de pouvoir en rendre compte.
-
-Ils veilleront, en outre, à ce qu'ils soient enterrés honorablement, que leurs tombes soient
-respectées et puissent toujours être retrouvées.
-
-A cet effet et au début des hostilités, ils organiseront officiellement un service des tombes
-en vue de rendre possible des exhumations éventuelles et d'assurer l'identification des cada-
-vres, quel que soit l'emplacement successif des tombes.
-
-Dès la fin des hostilités, ils échangeront la liste des tombes et celle des morts ensevelis
-dans leurs cimetières et ailleurs.
-
-ARTICLE 5.
-
-L'autorité militaire pourra faire appel au zèle charitable des habitants pour recueillir
-et soigner, sous son contrôle, des blessés ou des malades des armées, en accordant aux per-
-sonnes ayant répondu à cet appel une protection spéciale et certaines facilités.
-
----
-
+Ils veilleront, en outre, a ce qu’ils soient enterres honorablement, que leurs tombes soient
+respectees et puissent toujours etre retrouvees.
+A cet effet et au debut des hostilites, ils organiseront officiellement un service des tombes
+en vue de rendre possible des exhumations eventuelles et d’assurer 1’identification des cada-
+vres, quel que soit l’emplacement successif des tombes.
+Des la fin des hostilites, ils echangeront la liste des tombes et celle des morts ensevelis
+dans leurs cimetieres et ailleurs.
+Article
+5.
+L’autorite militaire pourra faire appel au zele charitable des habitants pour recueillir
+et soigner, sous son controle, des blesses ou des malades des armees, en accordant aux per-
+sonnes ayant repondu a cet appel une protection speciale et certaines facilites.
 CHAPITRE II.
-
-DES FORMATIONS ET DES ÉTABLISSEMENTS SANITAIRES.
-
-ARTICLE 6.
-
-Les formations sanitaires mobiles, c'est-à-dire celles qui sont destinées à accompagner
-e s armées en campagne, et les établissements fixes du service de santé seront respectés et
-protégés par les belligérants.
-
-ARTICLE 7.
-
-La protection due aux formations et établissements sanitaires cessera si l'on en use pour
-commettre des actes nuisibles à l'ennemi.
-
-ARTICLE 8.
-
-Ne seront pas considérés comme étant de nature à priver une formation ou un établisse-
-ment sanitaire de la protection assurée par l'article 6 :
-1) le fait que le personnel de la formation ou de l'établissement est armé et qu'il use
-de ses armes pour sa propre défense ou celle de ses blessés et de ses malades ;
-
-— 10 —
+DES FORMATIONS
+ET
+DES ETABLISSEMENTS SANITAIRES.
+Article
+6.
+Les formations sanitaires mobiles, c’est-a-dire celles qui sont destinees
+a accompagner
+e s
+armees
+en campagne, et les etablissements fixes du service de sante seront respectes et
+proteges par les belligerants.
+Article
+7.
+La protection due aux formations et etablissements sanitaires cessera si Ton en use pour
+commettre des actes nuisibles a l’ennemi.
+i
+Article
+8.
+Ne seront pas consideres comme etant de nature a priver une formation ou un etablisse-
+ment sanitaire de la protection assuree par Particle 6 :
+1) le fait que le personnel de la formation ou de l’etablissement est arme et qu’il use
+de ses armes pour sa propre defense ou celle de ses blesses et de ses malades ;
+10
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. A horizontal rule separates two sections of text.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. All text is clearly legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and structural elements on the page have been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 7

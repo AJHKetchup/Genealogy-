@@ -1,0 +1,103 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-286811ff9f9a-P0138-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150.codex.md
+converted_sha256: 286811ff9f9adf1e9cd6a7e71ed00123104231c05016c64f40f30966dee25b55
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/manifest.json
+page_start: 138
+page_end: 138
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/manifest.json`
+- Source page: 138
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0126-0150-s519bis-26-4-pages-126-150/page-images/page-0138.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—15—
+2.— Côdigo Sanitario Panamericano, que habia sido firma-
+do por el Delegado dominicano en la Conferencia celebrada al
+efecto en La Haba-na en noviembre de 1924 ;
+3.— Convention sobre la Reglamentacion del Trâfico Auto-
+motor, que habia sido firmada en Washington,
+en oetubre
+de
+1930, por el Delegado dominicano, en la Conferencia celebrada al
+efecto.
+De la fervorosa manera como se asociô la nacibn a los ho-
+menajes que se rindieron a George Washington, en ocasiôn del
+bicentenario de su natalicio, se hace relation separada, por lo que
+para cerrar este capitule no haré sino una breve menciôn de que
+me fué isingularmente grato dirigir a la Union Panamericana el
+14 de abril, con motivo del Dia Panamericano, un mensaje que
+fué leido en la tumba de Washington por nuestro Enviado Ex-
+traordinario y Ministre Plenipotenciario en los Estados Unidos
+de Amériea; asi como que en todas las ocasiones felices o peno-
+sas que se han presentado a las naciones americanas les he hecho
+llegar, por medio de sus Jefes de Estado, la expresiôn de nuestra
+fraternal simpatia.
+Finalmente consignaré que por mediation de nuestro En¬
+viado Extraordinario y Ministro Plenipotenciario en Washington
+el Gobiemo ha venido solidarizândose calurosamente con todos
+los esfuerzos con que la Comisiôn de Neutrales propugna por la
+pacifica soluciôn del conflicto que existe entre Bolivia y el Para¬
+guay.
+Gtros convenios internacionales.— Ademâs de los citados,
+han sido aprobados por el Congreso National y ratificados por
+mi, en el curso de este ano, los siguientes convenios internationa¬
+les, de los cuales la Cancilleria ha hecho los depôsitos de los co-
+rrespondientes actes de ratifteacion:
+1.— Convenio de la Union Postal de las Americas y Espana;
+2.— Acuerdo sobre encomiendas postales;
+3.— Acuerdo relativo a Giros Postales.
+Est o s très instrumentes fueron firmados por los Delegados
+de la Repûblica en el Tercer Congreso Postal Panamericano cele-
+brado en Madrid en noviembre de 1931.
+4.— Convention International Radiotelegrâfica, Reglamento
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 139

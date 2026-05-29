@@ -1,0 +1,111 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-5e1f7af9b45d-P0199-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200.codex.md
+converted_sha256: 5e1f7af9b45d0927ec101a0d8eedc7e6f045e443629b74ef9c962f7ca2b259c2
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200/manifest.json
+page_start: 199
+page_end: 199
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200/manifest.json`
+- Source page: 199
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200/page-images/page-0199.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+r
+34
+este ano, esta Camara invité al Comercio capitaleno a cerrar sus
+puertas, para celebrar dos sucesos: el primero, la llégada a este
+puerto del crucero inglés “DANAE”, que presto inolvidables ser¬
+vices durante la dolorosa tragedia del 3 de Setiembre de 1930,
+y la celebracién de una jugada de foot-ball entre sus marinos y un
+equipo nacional; y el segundo, el Dia Panamericano, consagrado
+al mantenimiento de la union cordial de todas las naciones de A-
+mérica.
+La ültima fecha coincidiô con la celebracién del primer
+aniversario de la instalaciôn de la Republica en Espana, nuestra
+gloriosa Madré Patria,
+a la cual estamos unidos. por los vinculos
+eternos de la sangre, del idioma y de la cultura.
+El
+Comercio capitaleno atendiô
+cortesmente
+a la invita-
+cién que se le hizo.
+BIBLIOTECA
+La biblioteca de esta Câmara ha sido aumentada este ano
+con numerosas
+e importantes obras, en su mayoria de indole co-
+mercial y agricola.
+Ultimamente adquiriô por compra la Guia
+“Thomas”,
+o registro general de todas las casas manufactureras
+americanas, obra utilisima de 4500 paginas.
+Tambien posee la
+Câmara, en obras especiales, las listas de todas las casas exporta-
+doras de casi todas las naciones europeas que estân en relaciones
+comerciales con nuestra Republica.
+Durante el ano la biblioteca de là Câmara recibiô diariamen-
+te la visita de muchos lectores.
+LABOR DE SECRETARIA
+La labor de la Secretaria General ha sido este ano mâs volu-
+minosa que todos los anos anteriores. A mâs del despacho de su
+correspondence oficial, que hasta el dia de ayer llevaba el numéro
+anual de 1392 y sus Circulares el No. 68, rindiô siempre cuantos
+informes le fueron solicitados por casas comerciales, oficinas
+e
+individuos nacionales y extranjeros.
+Entre
+los
+informes provinciales rendidos
+al diligente Jefe
+del Departamento de Comercio, Industria y Estadistica figuran
+el de pesca, el de fabricaciôn de chocolate, el de plantas oleagino-
+sas, el Calendario Agricola, el de producciôn de leche etc.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

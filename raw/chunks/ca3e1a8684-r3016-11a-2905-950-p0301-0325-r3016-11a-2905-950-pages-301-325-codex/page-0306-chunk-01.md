@@ -1,0 +1,126 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-0084b8a7dc83-P0306-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0301-0325-r3016-11a-2905-950-pages-301-325.codex.md
+converted_sha256: 0084b8a7dc83f4b72e086bd4044a5793964445fe88488a70702f38218b9e3c44
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0301-0325-r3016-11a-2905-950-pages-301-325/manifest.json
+page_start: 306
+page_end: 306
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0301-0325-r3016-11a-2905-950-pages-301-325/manifest.json`
+- Source page: 306
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0301-0325-r3016-11a-2905-950-pages-301-325/page-images/page-0306.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+c
+4° Œuvres d'hygiène sociale.
+5° Rapports des sociétés de la Croix-Rouge avec les associations
+d'infirmières.
+6° Activités diverses ; publications ; pensions de retraite et foyers ;
+bureaux de placement ;
+cours de soins
+aux malades ;
+associations
+d'infirmières.
+Mme Chaponnière-Chaix s'occupe
+au
+nom
+du Comité
+Interna¬
+tional, du recrutement des infirmières par les sociétés de la Croix-
+Rouge en temps de guerre et de leurs rapports avec les autorités
+militaires, ainsi que de la formation et du recrutement du personnel
+auxiliaire ; ces questions ne rentrent donc pas dans le cadre du présent
+rapport. Cependant, lorsque les infirmières enrôlées et le personnel
+auxiliaire collaborent au développement du programme du temps de
+paix, leurs services sont dûment signalés.
+I
+Organisation des sections d'infirmières et constitution
+de comités d'infirmières
+Le regretté président du Comité International de la Croix-Rouge,
+M. Gustave Ador,
+a dit dans le rapport dont il a donné lecture au
+cours
+de
+la
+Conférence intérimaire
+du
+Conseil
+International
+des
+Infirmières, qui eut lieu à Genève en 1927 : « La Croix-Rouge n'est-elle
+pas, en effet, symbolisée en toutes circonstances par une infirmière?
+Est-ce qu'aux yeux du public l'infirmière n'est pas toute la Croix-
+Rouge? »
+Il
+est certain que le
+« nursing » est devenu l'une des principales
+activités de la plupart des sociétés de la Croix-Rouge qui ont créé
+des
+écoles
+d'infirmières
+et entrepris
+des
+œuvres d'hygiène sociale.
+Dès que
+l'on
+a compris
+que ces écoles constituaient de véritables
+centres d'enseignement, avec un programme d'études dûment établi,
+le besoin d'une collaboration plus étroite avec les autorités de l'ins¬
+truction publique s'est fait sentir. Le développement des œuvres
+d'hygiène sociale dans les villes et les campagnes a démontré la néces¬
+sité de resserrer les rapports avec les autorités sanitaires, les institu¬
+tions publiques et privées et le corps médical.
+En conséquence, un grand nombre de sociétés de la Croix-Rouge
+procèdent à la création de Comités d'infirmières ou de Comités de
+10
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 307

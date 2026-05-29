@@ -1,0 +1,192 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-c8b14a16359b-P0042-01
+source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60.codex.md
+converted_sha256: c8b14a16359b0a708acff2af58de410c229d8ef15395d6d7c86beb43b06e701b
+source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
+source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
+source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json
+page_start: 42
+page_end: 42
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json`
+- Source page: 42
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/page-images/page-0042.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+González Plata, Tiburcío 
+González Reyes, Juan Luis 
+González Ríoseco, Héctor 
+González Rodríguez, Alejandro 
+González Rodríguez, Oscar 
+González Rojas, Mario 
+González Salas, Carmen 
+González Salvatierra, Augusto 
+González Schulz, Orlando 
+González Silva, Eliana 
+González Simón, Fernando 
+González Stuardo, Manuel 
+González Tillería, Evadió 
+González Verdugo, Felipe 
+González Vilos, Juan 
+González Villablanca, Eugenio 
+González von Marées, Marcial 
+González Wood, Hernán A. 
+Goñi Luque, Fernando 
+Gopfert Seinecke, Pablo 
+Gordillo Cortés, Héctor 
+Goren Rapaport, Abraham 
+Gorena Núfiez, Mamerto 
+Gorgewsky Silverang, Arnold 
+Gorigoytía Suárez, Raúl 
+Gormáz Balieiro, Alberto 
+Gostín Pérez, Luis 
+Goudeau Negrier, Enrique 
+Gouet Vallet-Cendre, Hernán 
+Goyeneche Petit, Alberto de 
+Graf Axt, René 
+Granados García, Miguel 
+Granic Jorquera, Juan 
+Grant Benavente, Guillermo 
+Grant Pimentel, Guillermo 
+Grant Pimentel, Roberto 
+Grau Vilarrubias, Juan José 
+Gray Gray, Jorge 
+Grebe Hernández, Guillermo 
+Greene Ortega, Ernesto 
+Greiber Vugman, Rosa 
+Greppi Sadino, Antonio 
+Greve Uria, Erna 
+Grez Valdovinos, Aníbal 
+Carmen 
+Santiago 
+J. Díaz Garcés 090 
+Santiago 
+Bellavista 0195 
+Santiago 
+Esmeralda 611 
+Santiago 
+Abdón Cifuentes 284 
+Santiago 
+Vergara 74 
+Santiago 
+Compañía 2211 
+Santiago 
+Huérfanos 578 
+Santiago 
+Traslaviña 130 
+Viña del Mar 
+Mahuzier 31 
+Concepción 
+Plaza Perú 133 
+Concepción 
+Sucre 2593 
+Santiago 
+Carrascal 4315 
+Santiago 
+21 de Mayo 617 
+Santiago 
+General Gana 1733 
+Santiago 
+Campoamor 3113 
+Santiago 
+Dávila 727 
+Santiago 
+Hospital Regional 
+Temuco 
+Marcoleta 367 
+Santiago 
+Prof. Carlos Porter 23 
+Santiago 
+San Diego 245, Dep. 305 Santiago 
+Los Serenos 475, Dep. 305 Santiago 
+Prat 690, Of. 5 
+Antofagasta 
+Compañía 2211 
+Santiago 
+Victoria 2632 
+Valparaíso 
+Huérfanos 521 В 
+Santiago 
+Ochandía s/n 
+Vallenar 
+Consultorio 
+Llay-Llay 
+Diagonal 1254 
+Concepción 
+Compañía 1467 D 
+Santiago 
+V. Reyes s/n 
+Villarrica 
+S^n Marcos 364 
+Arica 
+San Isidro 229 
+Santiago 
+San Martín 658 
+Concepción 
+San Martín 658 
+Concepción 
+San Martín 487 
+Concepción 
+Agustinas 641 
+Santiago 
+Serrano 720 
+Vallenar 
+Jesuítas 658 
+Santiago 
+Alam. B. O'Higgins 776, Santiago 
+Depto. 33 
+Huelén 309, Depto. 2 
+Santiago 
+Maule 875 
+Santiago 
+Londres 56 
+Santiago 
+José M. de la Barra 536 Santiago
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 43

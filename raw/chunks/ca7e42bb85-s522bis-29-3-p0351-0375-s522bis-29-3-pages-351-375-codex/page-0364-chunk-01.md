@@ -1,0 +1,228 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7bc46dbbfb6d-P0364-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0351-0375-s522bis-29-3-pages-351-375.codex.md
+converted_sha256: 7bc46dbbfb6d02a2e1a26dc633754e3dded3b6711682672e675de9e19b742bde
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0351-0375-s522bis-29-3-pages-351-375/manifest.json
+page_start: 364
+page_end: 364
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0351-0375-s522bis-29-3-pages-351-375/manifest.json`
+- Source page: 364
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0351-0375-s522bis-29-3-pages-351-375/page-images/page-0364.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-
+so
+-
+citados
+en el
+anexo
+one adhiriersn al
+Paeto
+sin ninguna réser¬
+va, podrfan hacerlo mediante
+una declaracion depositada
+en la
+*• ecretarfa,
+en el plazo do
+d03
+rneses
+a contar de la entrada
+en vigor del Pacto.
+La
+rgentina adhirio,
+como
+queda dicho,
+el
+10
+de
+«Julio
+1919
+a un Pacto
+que
+no
+estaba todavfa,
+an vigor.
+La respuesta del
+Secretario General hace resaltar
+este iiecho.
+7.s sôlo
+a partir del
+10
+de
+finer©
+1920
+euanSo
+esta adhesién ad-
+quiere un valor juridleo.
+Desde
+el punto
+de vista international
+el Paoto,
+es decir,
+la Carta constitutive
+de la
+Cociedad
+de las Madones,
+es
+suscep¬
+tible
+de
+enœiendas
+como lo
+son
+en general todaa las constitu-
+clones,
+pero estas
+enmiendas
+deben haoerse
+on la
+forma prevista
+en
+su mlsmo Kstatuto.
+ïodo Miembro
+de la
+Socie&ad
+de las Naoio-
+nes puede proposer enmiendas,
+pero ello
+no quiere deeir
+que
+es¬
+tas proposiciones puedan constituir la cuestidn previa
+a la ad¬
+hesion.
+La adhesiôn significa la aceptaciOn del Pacto tal
+como
+ha sido redaetado,
+esto
+es, la voluntad firme
+de incorporarse
+a la
+'-oeiedad sometiéndose
+a todas las obligaoiones
+que alio
+lleva consigo.
+ueda fuera de ûuda
+que si
+un l«iembro propone
+una
+enmienda y esta enmienda
+es rechazada,
+ane Miembro tiene
+el
+dereoho
+de retirarse
+de la Codedad de las Madones,
+pero no
+podra hacerlo
+m?s
+que
+en su ealidad
+de iliembro
+de la Sooiedad
+de las Madones, vale decir,
+cumpliendo
+sus obligaoiones inter-
+nacionales y dando el aviso
+p revio
+de dos afos,
+Mo
+creeraos
+deber lnsistir
+mas
+acerea del equfvoco
+a
+que
+ha
+dado lugar el heeho
+de
+que el
+Goblerno
+argentino
+pareee haber
+erapleado, al dirigirse al Congreso,
+un lenguaje
+que
+no
+es
+exac-
+tamente el
+aismo
+que ha
+tenido
+con las autoridades intern&cio»
+nales
+que prepararon la organizaciôn de la
+Coeiedad
+de l&s
+Ma¬
+dones* fil language
+empleado ante la 3oeiedad
+de las
+Madones
+es elaro y no da lugar a ninguna duda.
+Si,
+por el contrario,
+se hubiera usado
+en la
+>ociedad el language
+que pareoe haberse
+tenido
+en el Congreso,
+es decir, si
+se hubiese dioho
+a la
+So¬
+oiedad
+que la adhesiôn del Gobierno argentino era simpleaente de
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 365

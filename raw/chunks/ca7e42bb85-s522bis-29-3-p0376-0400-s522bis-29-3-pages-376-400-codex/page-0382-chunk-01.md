@@ -1,0 +1,176 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-0f7d44e9d8d3-P0382-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400.codex.md
+converted_sha256: 0f7d44e9d8d3dfc414839c12563418474682984d8592b38a7f02983772569939
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400/manifest.json
+page_start: 382
+page_end: 382
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400/manifest.json`
+- Source page: 382
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0376-0400-s522bis-29-3-pages-376-400/page-images/page-0382.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+15
+de
+fecha
+13
+de Marzo 1919.
+El Poder E^ecutivo fué
+en aquel
+momento autorizado
+a dar
+su aceptaci6n
+en principio
+a la idea
+de la formacién de la Sociedad
+"abriendo un paréntesis
+que
+permitiria reunir mayor numéro
+de elementos
+de juicio para
+poder apreciar mas tarde las venta^as
+o desventajas
+de la in-
+eorporaeién definitiva
+a la Sociedad y de la aeeptaei<5n del
+tratado".
+En razén de
+esta autorizaeién general dada
+en mo-
+mentos
+en
+que el Pacte
+de la Sociedad
+de las
+Eaciones
+no
+es¬
+taba
+aun
+en vigor, fué por lo
+que el Poder Executive dirigio
+al Ministro Alvear el telegrama fechado el
+13 de Marzo.
+En
+estas circunstancias el
+Gobierno argentino podia
+muy bien con-
+siderar el Pacto
+como
+un simple proyecto y era lôgico
+que el
+Gobierno diera instruceiones
+a
+su Ministro para formular ob-
+servaciones
+ante la reunién
+en
+que debia
+ser discutida la
+cuestién*
+Esto oeurr£a
+en Marzo
+de 1919,
+pero el 12
+de Julio
+el Pacto, definitivamente redaetado
+con las
+observaciones pre-
+sentadas por los neutrales,
+fué aprobado por unanimidad
+en
+sesién plenaria por la Oonfereneia de la Paz.
+Huelga decir
+que todavia no estaba
+en vigor porque faltaba la formalidad
+esencial
+de la ratifieacién por parte
+de los signatarios,
+pero
+desde luego el tratad© estaba eoncluldo y
+a titulo
+de tal fué
+considerad® por el Gobierno argentino quien ordené
+a
+su Minis-
+tro
+en Paris
+que hiciera una declaraeién de adiiesién»
+Sin
+em¬
+bargo, las Camaras
+no dieron su eonformidad
+a esta adhesién;
+dichas
+Camaras habian ya
+expresado
+su voluntad muoho antes de
+la conclusién del tratado y especialmente
+con motivo de un
+asunto diferente*
+La anomalia eonstitucional fué
+muy bien comprendida por
+el Dr, Alvear,
+miembro de la delegacién argentina
+a la Primera
+Asamblea,
+cuando discutié con sus colegas las instruceiones
+de
+que
+era portador el Sr, Pueyrredén, Ministro de Relaeiones Ex-
+teriores y primer delegado
+a la Asamblea*
+El artieulo
+6
+de las instruceiones argentinas estaba
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 383

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-2828ca0c157a-P0010-01
+chunk_id: CHUNK-a8beed3e5add-P0010-01
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0351-0375-r3578-50-5569-5569-jacket5-pages-351-375.codex.md
-converted_sha256: 2828ca0c157a528160459b9ba060687b937e94ebbfdf3832baba71943aed2e31
+converted_sha256: a8beed3e5adda986246d4f43a0e22240df9d88ce1c0131ecf693240a0add5528
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0351-0375-r3578-50-5569-5569-jacket5-pages-351-375/manifest.json
@@ -81,3 +81,5 @@ All visible text on the page has been transcribed.
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
 ```
+
+# Page 361

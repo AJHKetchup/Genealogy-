@@ -1,0 +1,203 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ecbd584403e4-P0306-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0301-0325-s522bis-29-3-pages-301-325.codex.md
+converted_sha256: ecbd584403e48d7be3ca7e51cce6187bfe1faeee4952af9c136e635be74a73d3
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0301-0325-s522bis-29-3-pages-301-325/manifest.json
+page_start: 306
+page_end: 306
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0301-0325-s522bis-29-3-pages-301-325/manifest.json`
+- Source page: 306
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0301-0325-s522bis-29-3-pages-301-325/page-images/page-0306.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—
+8
+•»
+bia notlficaào
+ea débita
+forma
+a los
+Gobiernos
+de log demâs
+Estados
+que pasaban a
+s@r Miembroa
+de la
+.ioeieàad, bien sea
+par haber ratifieaào dicho ïrataâo
+o
+por haber aciherido al
+Facto,
+sue la Hepébllca Argentina h&bla depositado una de-
+claraoidn
+de adhesidn.
+Fl Pecretario General,
+en su respues-
+ta del
+10 de
+Fnero UEO, hacfa aluaiôn a
+une respuesta ante*
+rior
+que êl tsisao habla enviado al
+Gobierno argentin©
+(23
+de
+Julio 1919).
+Ttm évidente
+que
+a la fecha del
+23 de
+Julio 1919
+la
+-ociedad
+de las
+Gaelones
+no existla
+aun juridioamente pues
+ese aoonteeimlento sdlo tuvo lugar el 10 de
+Snero 1920,
+fecha
+de la entrega de las rutificaoiones del
+Jratado
+cte Versalles*
+El 11
+de
+Febrero
+de 1920,
+el Minlatro argentine de
+Helaoiones $xteriores acusaba reeibo
+ae la coisiuiioaciôn del
+• ecretario General.
+ill Minlstro argentine
+se limitaba
+a
+transcribir los termines
+de la comunieaciôn del
+■.ecretario
+General sin presentar niuguna objeoion.
+Pii £4 de
+iSnero
+19 20,
+el Jecretario General oxpresaba al
+Gobierno argentino
+que
+”teniendo
+en cuenta
+que la
+Jepublica ha adherido oflei&lmettte
+al Pacto y
+que pass,
+por
+ese heeho,
+b
+ser
+. iercbro de la
+?o-
+ciedcd
+de las Ifeeiones,
+su contribueion a los gastos de la
+Fociedad que&arXa i'ijaàa aegdu los termines del artfeulo 6,
+etc • ••••*'.
+De
+toào elle
+ee deduce
+que el Pacto
+ae la
+aooiedad
+de las
+ifeeiones fué
+comunicado
+dos
+voces al
+Gobierno argenti¬
+ne:
+lu primers
+vez por medio del Ministro nlvear qulen tuvo
+de ello
+eonoeimiento
+en Paris,
+ÿ la
+segunda,
+por el Seereta-
+rio General.
+Dos
+vaees
+el
+Gobierno argentino adhirié sin ré¬
+serva:
+la primera vez
+en 1919,
+después,
+en Enero 1920,
+a peti»
+oi6n express del 3r,
+Clemenceau,
+a peser de
+eso,
+el
+23 de
+Ceptiembre 1920,
+en el
+momento
+en que el Gobierno argentino
+pecLla al Jenaào la autorizacidn de nombrar la deleg&ciôn que
+debfa represent&r a la
+ïepubllea ante la asamblea de Ginebra,
+el Finistro
+de
+àelaciones Ëxteriores hizo
+en la sesiôn sécréta
+del
+30
+de Septieabre la àeclaracion ambigus
+que h»
+quedad©
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

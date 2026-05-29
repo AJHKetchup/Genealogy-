@@ -1,0 +1,140 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-4fffdaa4cbfe-P0327-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350.codex.md
+converted_sha256: 4fffdaa4cbfe2bc6a69e7e90ed08a5681091c0ab14b9cda2d9c6d76c94dca3b5
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350/manifest.json
+page_start: 327
+page_end: 327
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350/manifest.json`
+- Source page: 327
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350/page-images/page-0327.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-
+6
+-
+rable
+corao le ereacion de la
+oeiedad da las Kaoiones. ~e ve
+aparccer aqui el mismo error ouyas eonsecuenci&s se vieron
+después,
+esto es, el error 4e erear que la
+rgentina tendria
+\mu interveneHJn creadora eerca de las i otenolas ouyo compro¬
+mise plurilateral constituyô la base del j acto tie la
+>ooledad
+de
+las
+.'aeiones*
+ué el
+IE de Julio de 1919 cu&ncio el liinistro de Rela-
+ciones
+Exteriores autorizô por c&blegr&raa al
+iniatro argenti-
+no
+en Paris
+a adherir al Pacto de la
+>ocied&ü de las Haoiones.
+El texto del telegraraa era el algutente.
+lj)e conforiaid&d con
+el art!ouio primer© del Pacto de la
+oeiedad de las ><&clonest
+al
+roder
+Jeoutivo ha resuelto adherir a aquél sin reserve
+alguna.
+Su
+, xeelenoia puede depositar en la :ecretarxa la co-
+munieaciôn correspond!ente.
+ïongo el honor de mnifestar a
+u
+bccelencla
+que he conaultado de antemano a titulo privado a
+las dos
+Cameras
+que
+se han mostra&o favorables a la adhesiôa.-
+Firssado: rueyrredôn, Minlatro de Relacionea Kxteriores".
+3i
+se
+observa con cierta atancien el text© de este te¬
+legrams,
+se ve enseguida que el Kinistro se propone hacer una
+consults privada a las dos Camaras las cualea se mostrarian
+dispuestas
+a la adhesiôn.
+Pero, teniendo en cuenta la fecha
+en que veroaimilmente pudo ser heoha la consulta a las Camaras,
+se llega a la conclusion 4e que estas 30laiaente han podido
+mostrarse favorables
+a una adhesion al prineipio ü© la orea—
+ci6n de la Coeiedad de las JSaeiones.
+Sin embargo, el telegra¬
+ms del iJiniatro ordena clararaente la adhesion al Paoto, en
+virtud y de acuerdo con lea ténainos de su artfoulo primer©.
+Kl Pacto,
+entre paréntesis,
+no estaba aun en vigoe en aquel
+moment©»
+Desde el punto de viata juridioo se coaprobô también
+el
+error eoœetido por el Ministro argentino; este error oon-
+sistia
+en adherir
+a un tratado que no estaba todavia en vigor.
+La terminologie del liinistro argentino de Relaeiones lîxterio-
+res
+no
+se presta a ningun equivoco.
+urclena adherir al iaoto
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 328

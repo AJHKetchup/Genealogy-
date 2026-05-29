@@ -1,0 +1,106 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-86b66d76f62d-P0119-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123.codex.md
+converted_sha256: 86b66d76f62d864fe437405079f0539bafa261f0f97672dd66ba56382547b0d1
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json
+page_start: 119
+page_end: 119
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json`
+- Source page: 119
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0119.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+— 116
+donde tenga parada, devolviéndose el equipaje al pasajero-y
+pudiendo, entretanto, aislârsele en un compartimiento especial.
+Si la infracciôn
+se cometiera después de salir el tren de la
+estaciôn anterior al punto de destino del pasajero infractor, éste
+sera pasible de una multa de $ .10 %, que se harâ efectiva de
+acuerdo a lo previsto en el art. 155. (Ley, art. 35.)
+Quejas del publico.
+Art.
+117..— Las
+empresas atenderân sin demora
+cualquier
+queja u observaeiôn que se les dirija respecto al servicio o pro¬
+céder de sus empleados.
+Las quejas deberân presentarse con los detalles del
+caso, o
+anotarse en los libros que con ese objeto existirân en todas las
+estaciones y en los trenes de pasajeros, con excepciôn de los lo¬
+cales. En este ultimo caso la queja podrâ asentarse en cualquier
+estaciôn.
+Estos libros
+se sujetarân al formulario que la Direccion Ge¬
+neral de Ferrocarriles determine y revestirân un formato de ta-
+lonario, de modo que las quejas queden asentadas por dupli
+cado. Las paginas serân numeradas y rubricadas por la expre-
+sada Direccion General.
+El querellante llenarâ el formulario del talon, consignando la
+fecha y lugar en que se produjo el hecho motivo de la queja, el
+nombre y domicilio del querellante y testigos, si los hubiere, la
+firma de aquél y de éstos al pie de la queja, una l’elaciôn de 1°
+ocurrido con los datos indispensables para la investigaeiôn y la
+indicaciôn, si fuere posible, de las pruebas condueentes
+a la
+mejor comprobaciôn de los liechos.
+Estos datos serân anotados por el quejante de su puno y letra
+o por un tercero, a su ruego, si no supiere o no pudiere escribir,
+utilizando lâpiz comun o de tinta, a fin de reproducir la queja
+en duplicado mediante el empleo de papel carbônico.
+La empresa remitirâ dentro de las cuarenta y ocho boras el
+original de la queja a la Direccion General de Ferrocarriles, )'
+una copia al Inspector del Distrito correspondiente. Dicho plaZ°
+empezarâ a contar desde la llegada a la estaciôn principal del
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 120

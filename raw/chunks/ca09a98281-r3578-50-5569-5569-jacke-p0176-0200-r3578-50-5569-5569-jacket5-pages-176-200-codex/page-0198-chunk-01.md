@@ -1,0 +1,160 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-51df5552b725-P0198-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0176-0200-r3578-50-5569-5569-jacket5-pages-176-200.codex.md
+converted_sha256: 51df5552b72582b523d2cacf4109fa0e88ce78b4a5243baeabdac1f1d73f82d6
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0176-0200-r3578-50-5569-5569-jacket5-pages-176-200/manifest.json
+page_start: 198
+page_end: 198
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0176-0200-r3578-50-5569-5569-jacket5-pages-176-200/manifest.json`
+- Source page: 198
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0176-0200-r3578-50-5569-5569-jacket5-pages-176-200/page-images/page-0198.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+134
+514
+kunnen worden achtergehouden tot het einde van het geding
+en eventueel tot het einde der straf. Hetzelfde zal het geval zijn
+ten aanzien van hen, die voor een misdrijf of een vergrijp tegen
+het gemeene recht mochten zijn veroordeeld.
+In
+gemeen overleg tusschen de oorlogvoerenden zullen com-
+missies ingesteld kunnen worden om de verspreide gevangenen
+op te zoeken en hunne terugzending te verzekeren.
+TITEL V.
+Van het overlijden van krijgsgevangenen.
+Artikel 76.
+De
+testamenten
+van krijgsgevangenen zullen worden
+opge-
+nomen
+en
+opgemaakt
+onder
+dezelfde
+voorwaarden
+als
+voor
+militairen van het nationale leger.
+Men zal
+eveneens dezelfde regels volgen ten aanzien van de
+stukken betreffende het vaststellen van het overlijden.
+De oorlogvoerenden
+zullen
+er
+voor waken,
+dat
+de in
+ge-
+vangenschap overleden krijgsgevangenen eervol zullen worden
+begraven
+en dat de graven alle nuttige aanduidingen dragen,
+worden ontzien
+en behoorlijk worden onderhouden.
+TITEL VI.
+Van
+de bureaux tot hulpbetoon
+en tot het verstrekken
+van inlichtingen betreffende de krijgsgevangenen.
+Artikel 77.
+Dadelijk bij
+het begin
+van
+de vijandelijkheden zullen
+alle
+oorlogvoerende
+mogendheden
+evenals
+de
+onzijdige
+mogend-
+heden,
+die oorlogvoerenden mochten hebben
+opgenomen,
+een
+officieel
+bureau
+instellen
+voor
+inlichtingen
+over
+de
+krijgs¬
+gevangenen, die zich op hun gebied bevinden.
+In
+den
+kortst mogelijken tijd
+zal ieder der oorlogvoerende
+mogendheden haar inlichtingsbureau in kennis stellen met elke
+door haar legers verrichte gevangenneming,
+zulks
+onder
+ver-
+strekking van alle haar ten dienste
+staande inlichtingen
+over
+identiteit,
+welke
+het mogelijk maken,
+spoedig
+de betrokken
+families
+te
+verwittigen
+en
+onder mededeeling der officieele
+adressen, waaronder de families aan de gevangenen zullen kun¬
+nen schrijven.
+Het inlichtingsbureau zal met spoed al deze gegevens aan de
+betrokken mogendheden doen toekomen door bemiddeling eener-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 199

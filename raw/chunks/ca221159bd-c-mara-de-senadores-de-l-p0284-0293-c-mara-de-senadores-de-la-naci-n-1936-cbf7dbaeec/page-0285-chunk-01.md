@@ -1,0 +1,148 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-33147be639c2-P0285-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293.codex.md
+converted_sha256: 33147be639c28066c45a7335aa4d10838def3c2a3b85093889044e32932c2e2f
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json
+page_start: 285
+page_end: 285
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json`
+- Source page: 285
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-images/page-0285.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+que
+cada contaduria provincial deberâ ajustai1
+sus plan illas infor-
+mativas de la inversion detallada de los gastos efectuados.
+La distribueiôn anual definitiva de Ayuda Federal
+sera puesta
+en conocimiento
+de las provincias antes de su
+aprobaciôn por
+el
+Directorio.
+Los crédites
+no utilizados dentro del ejercicio
+■o
+en los plazos
+que fija el articule 33" de la Ley o en los que el Directorio estipule,
+se liarân figurai- en el câleulo de recursos de la Direccion Nacionai
+de Vialidad de
+ano inniediato siguiente.
+Art.
+2"
+— lia entrega
+de fondos de Ayuda
+Federal
+sera
+efee-
+tuada después de présentante el plan anual de trabajos, el que ser¬
+vira para la rendiciôn de euentas prevista en el articule 32" de la Ley.
+Art.
+3"
+—• La Direccion Nacionai de Vialidad cerrarâ el ejer¬
+cicio
+del presupuesto
+anual administrative el
+31
+de diciembre de
+cada aiïo y eancelarâ las euentas del mismo, el 31 de marzo, elevan-
+do, .dentro del primer trimestre siguiente, al F. S. la Memoria del
+ejercicio terminado. el Balance G-eneral y la rendiciôn compléta y
+detallada de las euentas.
+.Cerrado el ejercicio y cou posterioridad al 31 de marzo, no se
+ixidrân efectuar pagos basta el ejercicio subsiguiente, en que se im-
+putarân los sueldos, gastos y eonservaciôn a una partida especial
+para cuent.a de ejercicios vencidos y las de obras de construcciôn a
+las euentas respectivas.
+Art.
+4'1’
+— Los caminos provinciales construidos con fondos de
+la Ley N" 5315, deberân ser conservados por las provincias de acuer-
+do al articulo
+31 de la Lev N" 11.658, una vez que les seau entre¬
+ga dos
+a las mismas.
+Art.
+5"
+— Las propiedades y saldo de existencias de materia -
+les, bouquinas, herramientas, rezagos. etc., (pie fueron incorpora dos;
+a la Direccion Nacionai de Vialidad,
+se regiran por las disposicio-
+nes de la Ley N" 11.658.
+Los saldos actuales
+que arroja la cuenta de! sobreprecio
+a la
+nafta, por provincia
+o territorio,
+se incorpora ran, en lo posible,
+a
+las euentas respectivas de la Red Nacionai.
+Art.
+6°
+— Comunîquese. publiquese, y pase a la Direccion Na-
+cional
+de Vialidad
+a
+sus ofectos.
+JUS,TO
+.1/. Alvarado.
+— - F. Pinedo.
+'■—
+E.
+Videla,
+—
+M.
+de
+IHondo.
+— L. Mêla.
+26
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

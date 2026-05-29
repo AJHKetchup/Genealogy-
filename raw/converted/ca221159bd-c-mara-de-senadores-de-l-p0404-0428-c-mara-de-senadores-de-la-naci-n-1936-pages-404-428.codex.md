@@ -354,74 +354,149 @@ The transcription is complete and accurate for all visible text on the page.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content for region cropping."}
 ```
 
+# Page 410
+
 ## Page Metadata
-Page 410
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json`
+- Source page: 410
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/page-images/page-0410.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a single column of text, primarily composed of numbered articles, followed by a section title and another numbered article. A page number is centered at the top.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 80 —
-
-uno de ellos estará constituído por una lanza de tipo rígido
-que no podrá tener un largo mayor de dos (2) metros, y el
-otro lo constituirán cables o cadenas de seguridad. El conjunto
-asegurará en lo posible que el remolque conserve la huella del
-vehículo motor.
-Art. 3º El tren constituído por el vehículo motor y su aco-
-plado, se mantendrá en su marcha lo más próximo posible al
-cordon del camino que corresponda a su mano.
-Art. 4º La velocidad de marcha no podrá exceder de veinte
-(20) kilómetros por hora, velocidad que deberá reducirse en
-los cruces, curvas, pasos a nivel y puentes. Bien entendido
-que el tráfico de cargas por su lentitud, volumen e inercia de
-los vehículos, es de gran peligrosidad; en los caminos de
-tráfico mixto, los conductores de camiones con acoplados debe-
-rán facilitar el tráfico ligero, recostándose lo más posible sobre
-el cordon de su izquierda, no cerrando el paso, obligando a
-frenar a los vehículos de tráfico ligero, todo ello so pretexto
+```markdown
+—
+80 —
+uno
+de
+ellos estarâ constituîdo
+por
+una lanza de tipo rigido
+que no podrâ tener un largo mayor de dos (2) metros, y el
+otro lo constituirân cables o cadenas de seguridad. El conjunto
+asegurarâ en lo posible que el remolque conserve la huella del
+vehîculo motor.
+Art. 39
+El tren constituîdo por el vehîculo motor y su aco-
+plado,
+se mantendrâ en su marcha lo mâs proximo posible al
+cordon del camino
+que corresponda a su mano.
+Art.
+49
+La velocidad de marcha no podrâ exceder de veinte
+(20) kilômetros
+por hora, velocidad que deberâ redueirse en
+los
+cruces,
+curvas,
+pasos
+a nivel
+y puentes. Bien entendido
+que el trâfico de cargas por su lentitud, volumen e inercia de
+los vehiculos,
+es
+de
+gran peligrosidad;
+en los caminos He
+trâfico mixto, los conductores de camiones con acoplados debe-
+rân facilitai’ el trâfico ligero, recostândose lo mâs posible sobre
+el cordon de
+su izquierda,
+no cerrando el paso, obligando a
+frenar
+a los vehiculos de trâfico ligero, todo ello
+so pretexto
 o a favor de la superioridad de masa.
-Art. 5º Las cargas largas deberán acondicionarse sobre el
-vehículo motor y el acoplado, de manera que no sobrepase el
-ancho de los mismos, no pudiendo sobresalir más de un metro
-cincuenta centímetros de la parte posterior del acoplado, y
-ofrecer el máximun de garantías a juicio de la Inspección de
-Tráfico.
-Art. 6º Cuando se transporten cargas en las condiciones
-del artículo anterior, se colocarán dos (2) banderas coloradas,
-una frente del vehículo motor y la otra en el extremo poste-
-rior de las cargas. Estas banderas tendrán altura y tamaño
-adecuado para que sean claramente visibles a cien metros de
+Art.
+59
+Las cargas largas deberân acondicionarse sobre el
+vehîculo motor y el acoplado, de manera que no sobrepase el
+ancho de los mismos, no pudiendo sobresalir mâs de un metro
+cincuenta
+centimetros
+de
+la parte posterior del acoplado,
+y
+ofrecer el mâximun de garantias a juicio de la Inspecciôn de
+' Trâfico.
+Art.
+69
+Cuando
+se transporten
+cargas
+en las condiciones
+del articulo anterior,
+se colocarân dos (2) banderas coloradas,
+una trente del vehîculo motor y la otra en el extremo poste¬
+rior de las
+cargas.
+Estas banderas tendrân altura y tamano
+adecuado para que
+sean claramente visibles a cien metros de
 distancia.
-
-Circulación nocturna
-
-Art. 7º En el período comprendido entre el 1º de noviembre
-y el 28 de febrero, queda terminantemente prohibida la circu-
-lación con acoplados que transporten cargas que sobresalgan
-del ancho y largo del o los vehículos que la transporten du-
-rante las horas 19 a 4; y desde el 1º de marzo al 30 de
-octubre, esta prohibición regirá de 18 a 6 horas.
+Circulation nocturna
+Art. 79
+En el perîodo comprendido entre el l9 de noviembre
+y el 28 de febrero, queda terminantemente prohibida la circu¬
+laciôn
+con acoplados
+que transporten cargas que sobresalgan
+del ancho y largo del
+o los vehiculos que la transporten du¬
+rante
+las
+horas
+19
+a 4;
+y desde el l9
+de
+marzo al 30 de
+octubre,
+esta prohibition regirâ
+de
+18
+a
+6 horas.
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 411
@@ -859,79 +934,131 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 415
+
 ## Page Metadata
-Page number: 415
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json`
+- Source page: 415
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/page-images/page-0415.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, starting with a page number and a main heading, followed by several numbered articles and sub-points. The content flows in a standard top-to-bottom, left-to-right reading order.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 88 —
-
-Concesión
-
-Art. 4º Las autorizaciones para fijación de avisos de propa-
-ganda serán objeto de concesiones especiales que en cada caso
-otorgará el Poder Ejecutivo a los interesados que las soliciten
-en base a los siguientes requisitos:
-
-1º Podrán ser concesionarios: Empresas de publicidad, casas
-de comercio y particulares, que acrediten técnica, económica y
-moralmente, suficiente capacidad para la explotación racional
-de este comercio y siempre que no fueren deudores del Fisco
-de la Provincia. En igualdad de condiciones, serán preferidas
+```markdown
+—
+88 —
+Concesiôn
+Art.
+4-
+Las autorizaciones para fijacion de avisos de propa¬
+ganda serân objeto de coneesiones especiales que
+en cada caso
+otorgarâ el Poder Ejecutivo
+a los interesados
+que las soliciten
+en base
+a los siguientes requisitos:
+l9
+Podrân ser concesionarios : Empresas de publicidad, casas
+de comercio y particulares,
+que acrediten técnica, econômica y
+moralmente, suficiente eapacidad
+para la explotaciôn racional
+de
+este comercio y siëmpre
+que
+no fueren deudores del Fisco
+de la Provincia. En igualdad de condiciones, serân preferidas
 las Empresas de Publicidad.
-
-2º Los pedidos que se formulen deberán presentarse en la
-Mesa de Entradas del Ministerio de Obras Públicas. Cada cami-
-no, tramo del mismo, longitud de playa, deberá ser objeto de
-solicitud por separado que contendrá los datos siguientes:
-
-a) Denominación y ubicación del camino y tramo del mismo
+29
+Los pedidos
+que
+se formulen deberân presentarse
+en la
+Mesa de Entradas del Ministerio de Obras Publicas.
+Cada cami-
+no, tramo del mismo, longitud de playa, deberâ ser objeto de
+solicitud por separado que contendrâ los datos siguientes :
+a) Denominaciôn y ubicaciôn del camino y tramo del mismo
 que se solicite.
-
-b) Kilometraje del camino y total del tramo o área aproxi-
-mada de la playa que abarcaría la explotación.
-
-c) Acompañar plano indicativo de los lugares de los mismos
-en que aproximadamente, se ubicarían los avisos y su
-número.
-
+b) Kilometraje del camino y total del tramo
+o ârea aproxi-
+mada de la playa que abarcaria la explotaciôn.
+c) Acompanar piano indicativo de los lugares de los mismos
+en
+que aproximadamente,
+se
+ubicarian
+los
+avisos
+y
+su
+numéro.
 d) Plano descriptivo del modelo de pantalla u otra estructura
-para la fijación de los avisos, especificando dimensiones,
-cortes y material de construcción, los que deben ser apro-
-bados por el Poder Ejecutivo.
-
-e) Plazo de la concesión.
-
-f) En general todo otro dato que se conceptúe de mayor ilus-
-tración.
-
-Art. 5º Los pedidos de concesiones para caminos, serán estu-
-diados e informados por la Dirección de Tráfico de la Provincia
-y los que conciernen a las playas por la Dirección de Geodesia,
+para la fijacion de los avisos, especificando dimensiones,
+cortes y material de construcciôn, los que deben ser apro-
+bados por el Poder Ejecutivo..
+e) Plazo de la concesiôn.
+f) En general todo otro dato que se conceptue de mayor ilus-
+traciôn.
+,
+Art. 59
+Los pedidos de coneesiones para caminos, serân estu-
+diados
+e informados por la Direcciôn de Trâfico de la Provincia
+y los que coneiernen a las playas por la Direcciôn de Geodesia,
 Catastro y Mapa.
-
-Art. 6º Acordada la concesión, se notificará al interesado
-personalmente o por cédula en el domicilio legal constituído al
+Art.
+69
+Acordada
+la concesiôn,
+se notificarâ al interesado
+personalmente o por cédula
+en el domicilio legal constit.uido al
 efecto.
-
-Art. 7º Dentro de los ocho días hábiles posteriores al acto de
-la notificación, el concesionario deberá efectuar en la Tesorería
-General de la Provincia, un depósito de garantía equivalente al
+Art. 79
+Dentro de los ocho dias hâbiles posteriores al acto de
+la notificaciôn, el concesionario deberâ efectuar en la Tesoreria
+General de la Provincia, un depôsito de garantia équivalente al
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The page ends mid-sentence.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 416
 
@@ -1118,68 +1245,109 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
 
+# Page 418
+
 ## Page Metadata
-Page number: 418
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json`
+- Source page: 418
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/page-images/page-0418.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, consisting of several paragraphs and a section title, followed by a numbered list within one of the paragraphs. The content flows from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 91 —
 
-estudio de parte del Superior Gobierno, reservándose el derecho
-de consentimiento o negativa, una vez munido de los funda-
+```markdown
+—
+91 —
+estudio de parte del Superior Gobierno, reservândose el derecho
+de consentimiento
+o negativa, una vez munido de los funda-
 mentos necesarios.
-Mientras durase ese trámite el concesionario mantiene ínte-
-gramente sus obligaciones contractuales, so pena de caducidad
-de su concesión. En caso de ser aprobada una transferencia
-deberá abonar un canon del cincuenta por ciento (50 %) del
-precio de la ocupación anual por partes iguales entre cedente
-y concesionario.
-Art. 20. La Dirección de Tráfico llevará un padrón de con-
-cesiones y anuncios en los caminos y la Dirección de Geodesia,
-Catastro y Mapa, llevará el padrón de las concesiones acordadas
-en las playas. Ambas Direcciones mantendrán un servicio de
-inspección para el debido cumplimiento de esta reglamentación
-y para disponer el retiro de los anuncios carentes de concesión.
-
-Licitación
-
-Art. 21. Cuando existan dos o más solicitudes de concesión
-de publicidad sobre un mismo camino, la Dirección de Tráfico,
-licitará públicamente la explotación de la propaganda comercial
+Mientras durase
+ese trâmite el coneesionario mantiene inte-
+gramente sus obligaeiones contractuales, so pena de caducidad
+de
+su concesiôn.
+En
+caso de
+ser aprobada una transferencia
+deberâ abonar
+un canon del cincuenta por ciento (50 %) del
+precio de la ocupaciôn anual por partes iguales entre cedente
+y coneesionario.
+Art. 20.
+La Direcciôn de Trâfico llevarâ un padrôn de con-
+cesiones y anuncios en los caminos y la Direcciôn de Geodesia,
+Catastro y Mapa, llevarâ el padrôn de las concesiones acordadas
+en
+las playas. Ambas Direcciones mantendrân un servicio de
+inspecciôn para el debido cumplimiento de esta reglamentaciôn
+y para disponer el retiro de los anuncios carentes de concesiôn.
+Licitaciôn
+Art. 21.
+Cuando existan dos o mâs solicitudes de concesiôn
+de publicidad sobre un mismo camino, la Direcciôn de Trâfico,
+licitarâ publicamente la explotaciôn de la propaganda comercial
 en los caminos y playas, determinando en cada caso, los tramos
-que se destinarán a dicha explotación y preparando para su
-aprobación ulterior para el Poder Ejecutivo, los pliegos de bases
+que
+se destinarân a dicha explotaciôn y preparando para su
+aprobaciôn ulterior para el Poder Ejecutivo, los pliegos de bases
 y condiciones correspondientes.
-Art. 22. La licitación será pública o privada con arreglo a
-las disposiciones que ya rigen al respecto y sus bases se ajusta-
-rán a los siguientes principios:
-a) Fijación de una tasa de publicidad como base a mejorar
+Art. 22.
+La licitaciôn serâ publica o privada con arreglo a
+las disposiciones que ya rigen al resp’ecto y sus bases se ajusta-
+rân a los siguientes principios:
+a) Fijaciôn de una tasa de publicidad como base a mejorar
 por las propuestas.
-b) Depósito en garantía previa al acto de la licitación y a
-reforzarse en caso de adjudicación.
+b) Depôsito
+en garantia previa al acto de la licitaciôn y a
+reforzarse en caso de adjudicaciôn.
 c) Modelos y tipos de anuncios, y
-d) Plazo de la explotación.
-Art. 23. Los llamados a licitación pública, se efectuarán por
-ocho días y los avisos se publicarán únicamente en el Boletín
-Oficial, sin perjuicio de que la Dirección de Tráfico lo haga
+d) Plazo de la explotaciôn.
+Art. 23.
+Los llamados a licitaciôn publica, se efectuarân por
+ocho dias y los avisos se publicarân unicamente en el Boletin
+Oficial, sin perjuicio de que la Direcciôn de Trâfico lo haga
 por carteles si lo creyere conveniente, o por circulares entre las
 empresas de notoria responsabilidad.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no images or other visual elements that meet the criteria for region extraction."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 92

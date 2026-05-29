@@ -1,0 +1,105 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-52e6027bf312-P0326-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350.codex.md
+converted_sha256: 52e6027bf3125449c67fbcb5ef5dbd01c78675e6bf80c7101de6e56915e44187
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/manifest.json
+page_start: 326
+page_end: 326
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/manifest.json`
+- Source page: 326
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/page-images/page-0326.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+LETTONIE.
+L'école d'infirmières de Riga est sous la surveillance de la Croix-
+Rouge lettone. La durée des études est de deux années, comprenant
+un cours préparatoire et des stages dans tous les services de malades.
+La limite d'âge est fixée de 18 à 30 ans et les candidates doivent avoir
+terminé leurs études secondaires. Les élèves sont logées à l'école et
+n'ont
+aucun frais pendant leurs études, mais paient une certaine
+somme à l'entrée.
+Les cours sont donnés par des médecins et des infirmières, et les
+stages pratiques sont effectués à l'hôpital et dans les centres d'hygiène
+sociale de la Croix-Rouge.
+LITHUANIE.
+La Croix-Rouge possède une école d'infirmières donnant un cours
+de deux ans. Les cours théoriques sont donnés par des médecins et
+les stages pratiques sont effectués à l'hôpital de la Croix-Rouge,
+à la Maternité et à la clinique générale rattachées à l'Université de
+Kovno. En 1928, 15 élèves faisaient leurs études à l'école.
+LUXEMBOURG.
+La Croix-Rouge du Luxembourg ne possède pas d'école d'infir¬
+mières,
+mais elle dispose d'un certain nombre de bourses lui per¬
+mettant
+d'envoyer des candidates faire des études d'infirmière à
+l'étranger.
+NORVÈGE.
+La
+Croix-Rouge norvégienne possède sept écoles d'infirmières,
+six pour la formation d'infirmières hospitalières et une pour infii-
+mières visiteuses. Le programme d'enseignement, qui
+a été établi
+par la Croix-Rouge norvégienne, est identique pour les six écoles.
+La durée des études est de trois ans ; elles commencent par une
+période de probation de six mois, suivie dans certaines écoles par un
+cours préparatoire de six à huit semaines, comprenant la technique
+élémentaire du soin des malades, des éléments d'anatomie, d'hygiène
+générale, de diététique et du soin des malades mentaux, ainsi que des
+notions pratiques d'économie domestique.
+Le programme comprend également des cours théoriques et des
+stages pratiques en hygiène sociale. Afin d'obtenir une subvention du
+gouvernement, les écoles doivent comprendre dans leur programme
+30
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 327

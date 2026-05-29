@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f6f40978bbb9-P0021-01
+chunk_id: CHUNK-36cfedfbe71e-P0021-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450.codex.md
-converted_sha256: f6f40978bbb9d5e286a230feaa3a9fc15a422c321902e8f52dc289dbb221bd63
+converted_sha256: 36cfedfbe71e7ce4a47a69448aff199c9b718aae2edaad95c5dc0b1d2508bc1a
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/manifest.json
@@ -65,3 +65,5 @@ All visible text and significant visual elements on the page have been transcrib
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "The page is a postcard with handwritten and printed text. There are no distinct images, portraits, maps, or diagrams that would warrant separate cropping. The holes and the 'LEONAR' box are noted in the 'Images, Captions, And Visual Notes' section."}
 ```
+
+# Page 447

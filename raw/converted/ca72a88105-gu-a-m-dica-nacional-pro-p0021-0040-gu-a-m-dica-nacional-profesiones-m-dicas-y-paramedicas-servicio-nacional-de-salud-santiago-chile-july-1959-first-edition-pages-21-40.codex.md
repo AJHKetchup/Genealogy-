@@ -1544,78 +1544,175 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 34
+
 ## Page Metadata
-- Task id: `source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40:p0034`
+
 - Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
-- Page: 34
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/manifest.json`
+- Source page: 34
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/page-images/page-0034.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-This page is a directory listing presented in a three-column format. The columns are:
-1.  **Name:** Last name(s) followed by first name(s) and middle initial.
-2.  **Address:** Street name and number, and sometimes an apartment or office number.
-3.  **Location:** City or municipality.
 
-The entries are read row by row, from left to right. The page number "37" is located at the bottom right corner.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-| Name | Address | Location |
-| --- | --- | --- |
-| Fernández Suárez, Francisco J. | Colo Colo 585 | Concepción |
-| Fernández Tapia, Franklin | Gral. del Canto 575 | Santiago |
-| Fernández Thomas, Néstor | Rivera 1427 | Santiago |
-| Fernández Torrini, Jorge | Marcoleta 412 | Santiago |
-| Fernández Ulibarry, Ignacio | Avda. Suecia 155 B | Santiago |
-| Fernández Villa, Víctor | Magallanes 671 | Punta Arenas |
-| Fernández Walker, Sergio | Fidel Oteyza 1946 | Santiago |
-| Ferrada Acuña, Claudio | Av. Bulnes 139, Depto. 22 | Santiago |
-| Ferrada Suárez, Sergio | Avda. Bulnes 166 | Santiago |
-| Ferrada Urzúa, Luis | Avda. Pajaritos 2356 | Maipú |
-| Ferrari Boccone, Juan | Dr. Maira 1628 | Concepción |
-| Ferrer Barrera, Rafael | Linares 2160 | Antofagasta |
-| Ferrer Ducaud, Sergio | José M. de la Barra 508, <br> Depto. 2 | Santiago |
-| Ferrer Reyes, Pedro L. | Rancagua 0377 | Santiago |
-| Ferreira Arias, Luis | Andrés de Hurtado 4263 | Santiago |
-| Ferreira Cavanagh, Ruperto | Avda. Sur 171 | S. José de Maipo |
-| Ferreira Guzmán, Manuel | Los Carrera 1006 | Ancud |
-| Ferreira Martínez, Carlos | Avda. Bilbao 2303 | Santiago |
-| Ferreira Serrano, Mario | Avda. Suecia 187 | Santiago |
-| Ferreti Daneri, Ricardo | 1 Norte 899 | Viña del Mar |
-| Fich Goldjar, Benjamín | Vicuña Mackenna 58, <br> Depto. 102 | Santiago |
-| Fiedler Reiche, Hans | Santa Victoria 366, Cerro <br> Alegre | Valparaíso |
-| Fierro Fehrenberg, Mario del | Luis Thayer Ojeda 1106 | Santiago |
-| Fierro Morales, Juan | Avda. Suecia 1521 | Santiago |
-| Figueroa Aguirre, Santiago | Seminario 641 | Santiago |
-| Figueroa Alvarado, Eduardo | Santa Isabel 0753 | Santiago |
-| Figueroa Alvarez, Mario | Almirante Barroso 76 | Santiago |
-| Figueroa Body, Ernesto | Independencia 1725, 2º P. | Valparaíso |
-| Figueroa Carrasco, Crescente | San Antonio 378, Depto. <br> 709 | Santiago |
-| Figueroa Castro, Jorge | Condell 1231 | Viña del Mar |
-| Figueroa Echaiz-Vidal, Fernando | Namur 67, Depto. 14 | Santiago |
-| Figueroa Echaiz-Vidal, Moisés | Alam. B. O’Higgins 776, <br> Depto. 42 | Santiago |
-| Figueroa Gajardo, Ernesto | Nataniel 1054 | Santiago |
-| Figueroa Galecio, Eugenio | Lira 485 | Santiago |
-| Figueroa Geisse, Luis | Biarritz 1988 | Santiago |
-| Figueroa González, Ricardo | Villagrán s/n | Cañete |
-| Figueroa Jeria, Manuel | Guacolda 281 | Valparaíso |
-| Figueroa Moreira, Miguel | Avda. Tobalaba 555 | Santiago |
-| Figueroa Palacios, Ramón | Maruri 461 | Santiago |
-| Figueroa Pradenas, Luis O. | San Ignacio 560 | Santiago |
 
+```markdown
+Fernández Suárez, Francisco J. 
+Fernández Tapia, Franklin 
+Fernández Thomas, Néstor 
+Fernández Torrini, Jorge 
+Fernández Ulibarry, Ignacio 
+Fernández Villa, Víctor 
+Fernández Walker, Sergio 
+Ferrada Acuña, Claudio 
+Ferrada Suárez, Sergio 
+Ferrada Urzúa, Luis 
+Ferrari Boccone, Juan 
+Ferrer Barrera, Rafael 
+Ferrer Ducaud, Sergio 
+Ferrer Reyes, Pedro L. 
+Ferreira Arias, Luis 
+Ferreira Cavanagh, Ruperto 
+Ferreira Guzmán, Manuel 
+Ferreira Martínez, Carlos 
+Ferreira Serrano, Mario 
+Ferreti Daneri, Ricardo 
+Fich Goldjar, Benjamín 
+Fiedler Reiche, Hans 
+Fierro Fehrenberg, Mario del 
+Fierro Morales, Juan 
+Figueroa Aguirre, Santiago 
+Figueroa Alvarado, Eduardo 
+Figueroa Alvarez, Mario 
+Figueroa Body, Ernesto 
+Figueroa Carrasco, Crescente 
+Figueroa Castro, Jorge 
+Figueroa Echaiz-Vidal, Fernando 
+Figueroa Echaiz-Vidal, Moisés 
+Figueroa Gajardo, Ernesto 
+Figueroa Galecio, Eugenio 
+Figueroa Geisse, Luis 
+Figueroa González, Ricardo 
+Figueroa Jeria, Manuel 
+Figueroa Moreira, Miguel 
+Figueroa Palacios, Ramón 
+Figueroa Pradeñas, Luis O. 
+Colo Colo 585 
+Concepción 
+Gral. del Canto 575 
+Santiago 
+Rivera 1427 
+Santiago 
+Marcoleta 412 
+Santiago 
+Avda. Suecia 155 В 
+Santiago 
+Magallanes 671 
+Punta Arenas 
+Fidel Otayza 1946 
+Santiago 
+Av. Bulnes 139, Depto. 22 Santiago 
+Avda. Bulnes 166 
+Santiago 
+Avda. Pajaritos 2356 
+Maipú 
+Dr. Maira 1628 
+Concepción 
+Linares 2160 
+Antofagasta 
+José M. de la Barra 508, Santiago 
+Depto. 2 
+Rancagua 0377 
+Santiago 
+Andrés de Hurtado 4263 Santiago 
+Avda. Sur 171 
+S. José de Maipo 
+Los Carrera 1006 
+Ancud 
+Avda. Bilbao 2303 
+Santiago 
+Avda. Suecia 187 
+Santiago 
+1 Norte 899 
+Viña del Mar 
+Vicuña Mackenna 58, 
+Santiago 
+Depto. 102 
+Santa Victoria 366, Cerro Valparaíso 
+Alegre 
+Luis Thayer Ojeda 1106 
+Santiago 
+Avda. Suecia 1521 
+Santiago 
+Seminario 641 
+Santiago 
+Santa Isabel 0753 
+Santiago 
+Almirante Barroso 76 
+Santiago 
+Independencia 1725, 2? P. Valparaíso 
+San Antonio 378, Depto. Santiago 
+709 
+Condell 1231 
+Viña del Mar 
+Namur 67, Depto. 14 
+Santiago 
+Alam. B. O'Higgins 776, Santiago 
+Depto. 42 
+Nataniel 1054 
+Santiago 
+Lira 485 
+Santiago 
+Biarritz 1988 
+Santiago 
+Villagrán s/n 
+Cañete 
+Guacolda 281 
+Valparaíso 
+Avda. Tobalaba 555 
+Santiago 
+Maruri 461 
+Santiago 
+San Ignacio 560 
+Santiago 
 — 37
+```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other visual elements on this page. It consists entirely of printed text.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-This page has been fully and accurately transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains only printed text in a directory format. There are no images, illustrations, or other visual elements."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 35
 

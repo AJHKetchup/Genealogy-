@@ -1,0 +1,134 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-4fffdaa4cbfe-P0328-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350.codex.md
+converted_sha256: 4fffdaa4cbfe2bc6a69e7e90ed08a5681091c0ab14b9cda2d9c6d76c94dca3b5
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350/manifest.json
+page_start: 328
+page_end: 328
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350/manifest.json`
+- Source page: 328
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350/page-images/page-0328.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+sin réserva (y
+no
+en principle,
+como
+ae dljo).
+En cniapliislen-
+to del telegr&ma raenoionado el Pinistro de la Argentina en
+Paris,
+r*r« alvear, cUrigié a Sir Eric Drummond uns eomunioa-
+ciôn segun la que tenia atribuciones para adherir sin réserva
+a la
+Aocieâad de las Haciones,
+en nombre de la Republics Ar¬
+gentina, ^conforme
+a los térrainos del artieulo prlmero del
+Paeto*. Seguraraente ha ^e notarse aqu£ la misas Imprecision
+en las palabras.
+^Cual
+es la significaoién exacts de la fra¬
+se "adherir
+a la Sociedad de las Madones?
+. uiere ello de-
+cir adherir al Pacto sin réserva y en cuapliœiento del articu-
+lo priirero del citado Pacto? o, por el contrario, Blgnifiea
+tma simple aprobaciOn de principle a la idea general de orga-
+nlzaci6n de la Soeledad de las iîacionesV
+La duda tiene donde
+asentarse y el equivoeo subsiste.
+Después
+que el Tratado de Versalles entré en vigor
+(10 de Enero 1920) y
+en cuapliœiento de üieho Trataâo, el
+Presidents del Consejo de los Aliados
+■r. Clemenceau, dirigiô
+al Présidante de la Republics Argentina la invitaoién para
+adherir al Pacto.
+Si Sr. Clemenceau recibié del Présidente
+de la Republics Argentina la respuesta siguiente fechada el
+1€
+de
+Sner© 1920;
+"îengo el honor de reeibir de Vuestra Excelencia de
+eonformidaâ
+cou el
+"r&tado
+de paz, la invitaciOn para la Re-
+piibliea Argentina de adherir al Pacto de la iooiedad de las
+Saciones,
+y
+me
+es grato transmitir a Fuestra Sxcelenoia la
+ratifieaclôn por el
+Gobierno argentino d© los térainos de
+adhesiôn expresados
+en la nota diriglda el 18 de Julio 1919
+al Sr.
+Secretario General de la Sooiedaâ de las Madones por
+nuestro Représentante en Francia,
+Su Lxcelenoia el
+' inistro
+Alvear.- Finaado: Hipôlito Yrigoyen".
+Ya el 10 de
+Enero 1920, facha ds la entrada en vigor
+del Tratado
+d© ïersalles, el Secretario General de la Sociedad
+de las Haolonee haeia saber al Gobierno argentin© que, de
+acuerdo
+oon
+su respuesta del 83 de Julio 1919 a la oommica-
+cidn del
+Gobierno argentin© feohada el 18 de Julio 1919, ha-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 329

@@ -1,0 +1,116 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-4ff0d20630ad-P0287-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300.codex.md
+converted_sha256: 4ff0d20630ad8a8ac08bc11f78ad7f85eba0b2bf440c2a3e3973873ad71dc194
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300/manifest.json
+page_start: 287
+page_end: 287
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300/manifest.json`
+- Source page: 287
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300/page-images/page-0287.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+■&)
+ne pouvait
+exercer de fonctions dans les hôpitaux et
+ambulances de l'armée.
+Lorsqu'en 1918 fut fondé l'Etat letton, les infirmières
+qui se trouvaient dans le pays avaient été formées de bien
+des manières différentes. Les unes étaient diplômées des
+écoles d'infirmières de l'ancienne Eussie, d'autres étaient
+des diaconesses, d'autres encore avaient été formées dans les
+différents cours organisés en temps de guerre et pour les
+besoins de la guerre.
+Ce fut la Croix-Bouge lettone qui fut chargée
+par le
+gouvernement de contrôler les aptitudes de ce personnel
+infirmier si divers, et de s'assurer que les infirmières possé¬
+daient bien les qualifications nécessaires et avaient fait les
+études suffisantes pour les fonctions de gardes-malades.
+Il fallut pour cela procéder à l'enregistrement de toutes les
+infirmières et poser les bases des conditions requises pour
+l'exercice de la profession d'infirmière.
+En 1922, fut fondée l'Association des infirmières de la
+Croix-Eouge lettone, à laquelle se rattachèrent toutes les
+infirmières
+reconnues
+par
+la
+Croix-Eouge.
+Seules
+les
+infirmières appartenant
+à l'Association des infirmières
+de la Croix-Eouge ont le droit de porter l'insigne de la
+Croix-Eouge.
+L'Association travaille dans le contact le plus étroit
+avec la Croix-Eouge, qui la subventionne largement.
+Les écoles d'infirmières existantes, dont la plus grande
+et la plus importante est celle de la Croix-Eouge à Eiga,
+n'arrivent pas encore à former toutes les infirmières récla¬
+mées par le pays.
+La
+Croix-Bouge canadienne
+ne possède
+pas
+d'écoles
+d'infirmières. Elle demande à l'Association des infirmières
+canadiennes, qui possède des écoles très bien organisées,
+le personnel sanitaire dont elle a besoin soit
+pour les
+cas d'urgence, comme incendies de forêts, accidents de
+mines, épidémies, soit pour les postes de secours, au nom¬
+bre de 39, qu'elle a établis sur toute l'étendue du territoire.
+— 23
+—
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 288

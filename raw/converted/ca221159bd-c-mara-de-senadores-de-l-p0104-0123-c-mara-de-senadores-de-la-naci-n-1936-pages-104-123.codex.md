@@ -1344,125 +1344,193 @@ All visible text on the page, including the partial text in the left margin, has
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
 
+# Page 119
+
 ## Page Metadata
-Page number: 116
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json`
+- Source page: 119
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0119.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text. At the top, centered, is the page number "— 116 —". The main content consists of several paragraphs, with a sub-heading "Quejas del público." and an article number "Art. 117.—" introducing a section.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-— 116 —
-
-donde tenga parada, devolviéndose el equipaje al pasajero y
-pudiendo, entretanto, aislársele en un compartimiento especial.
-Si la infracción se cometiera después de salir el tren de la
-estación anterior al punto de destino del pasajero infractor, éste
-será pasible de una multa de $ 10 m/n, que se hará efectiva de
+```markdown
+— 116
+donde tenga parada, devolviéndose el equipaje al pasajero-y
+pudiendo, entretanto, aislârsele en un compartimiento especial.
+Si la infracciôn
+se cometiera después de salir el tren de la
+estaciôn anterior al punto de destino del pasajero infractor, éste
+sera pasible de una multa de $ .10 %, que se harâ efectiva de
 acuerdo a lo previsto en el art. 155. (Ley, art. 35.)
-
-Quejas del público.
-
-Art. 117.— Las empresas atenderán sin demora cualquier
-queja u observación que se les dirija respecto al servicio o pro-
-ceder de sus empleados.
-Las quejas deberán presentarse con los detalles del caso, o
-anotarse en los libros que con ese objeto existirán en todas las
-estaciones y en los trenes de pasajeros, con excepción de los lo-
-cales. En este último caso la queja podrá asentarse en cualquier
-estación.
-Estos libros se sujetarán al formulario que la Dirección Ge-
-neral de Ferrocarriles determine y revestirán un formato de ta-
-lonario, de modo que las quejas queden asentadas por dupli-
-cado. Las páginas serán numeradas y rubricadas por la expre-
-sada Dirección General.
-El querellante llenará el formulario del talón, consignando la
+Quejas del publico.
+Art.
+117..— Las
+empresas atenderân sin demora
+cualquier
+queja u observaeiôn que se les dirija respecto al servicio o pro¬
+céder de sus empleados.
+Las quejas deberân presentarse con los detalles del
+caso, o
+anotarse en los libros que con ese objeto existirân en todas las
+estaciones y en los trenes de pasajeros, con excepciôn de los lo¬
+cales. En este ultimo caso la queja podrâ asentarse en cualquier
+estaciôn.
+Estos libros
+se sujetarân al formulario que la Direccion Ge¬
+neral de Ferrocarriles determine y revestirân un formato de ta-
+lonario, de modo que las quejas queden asentadas por dupli
+cado. Las paginas serân numeradas y rubricadas por la expre-
+sada Direccion General.
+El querellante llenarâ el formulario del talon, consignando la
 fecha y lugar en que se produjo el hecho motivo de la queja, el
 nombre y domicilio del querellante y testigos, si los hubiere, la
-firma de aquél y de éstos al pie de la queja, una relación de lo
-ocurrido con los datos indispensables para la investigación y la
-indicación, si fuere posible, de las pruebas conducentes a la
-mejor comprobación de los hechos.
-Estos datos serán anotados por el quejante de su puño y letra
+firma de aquél y de éstos al pie de la queja, una l’elaciôn de 1°
+ocurrido con los datos indispensables para la investigaeiôn y la
+indicaciôn, si fuere posible, de las pruebas condueentes
+a la
+mejor comprobaciôn de los liechos.
+Estos datos serân anotados por el quejante de su puno y letra
 o por un tercero, a su ruego, si no supiere o no pudiere escribir,
-utilizando lápiz común o de tinta, a fin de reproducir la queja
-en duplicado mediante el empleo de papel carbónico.
-La empresa remitirá dentro de las cuarenta y ocho horas el
-original de la queja a la Dirección General de Ferrocarriles, y
-una copia al Inspector del Distrito correspondiente. Dicho plazo
-empezará a contar desde la llegada a la estación principal del
+utilizando lâpiz comun o de tinta, a fin de reproducir la queja
+en duplicado mediante el empleo de papel carbônico.
+La empresa remitirâ dentro de las cuarenta y ocho boras el
+original de la queja a la Direccion General de Ferrocarriles, )'
+una copia al Inspector del Distrito correspondiente. Dicho plaZ°
+empezarâ a contar desde la llegada a la estaciôn principal del
+```
 
 ## Images, Captions, And Visual Notes
-- The page number "— 116 —" is centered at the top of the page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 120
 
 ## Page Metadata
-- Page number: 117
-- Source publication year: 1936
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json`
+- Source page: 120
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0120.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a centered page number at the top, followed by a continuous block of text. A sub-heading is centered within the text block, followed by more text, including an article number. The text is presented in a single column.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-— 117 —
 
-primer tren que hubiere pasado por la estación respectiva, con
-posterioridad a la interposición del reclamo. Un informe rela-
-tivo a la queja será enviado por la empresa a la Dirección Ge-
-neral de Ferrocarriles dentro de los quince días.
-Los informes con que la empresa acompañará las copias de
-las quejas, deberán contener los datos suficientes para que pueda
-apreciarse la razón o lo infundado de la misma, así como las
-medidas adoptadas para evitar la repetición de los hechos que
-la motivaron, si ésta fuese justificada, como asimismo si reparó
-el daño, indicando además el nombre del personal que intervino
+```markdown
+—
+117
+primer tren que hubiere pasado por la estaciôn respeetiva, con
+posterioridad a la interposicion del reclamo. Un informe rela-
+tivo a la queja sera enviado por la empresa a la Direcciôn Ge¬
+neral de Perrocarriles dentro de los quince dîas.
+Los informes
+con que la empresa acompanarâ las copias de
+las quejas, deberân contener los datos suficientes para que pueda
+apreciarse la razôn o lo infundado de la misma, asî como las
+medidas adoptadas para evitar la repeticiôn de los hechos que
+la motivaron, si ésta fuese justificada, como asimismo si réparé
+el dano, indicando ademâs el nombre del personal que intervino
 y el castigo que se le hubiere impuesto.
-En la cubierta exterior del libro de quejas se consignarán
-estas disposiciones reglamentarias para guía del reclamante,
-además del nombre de la empresa del ferrocarril y de la es-
-tación a que pertenece el libro.
-
-Objetos olvidados o abandonados
+En la cubierta exterior del libro de quejas se consignarân
+estas disposieiones reglamentarias para guîa del réclamante,
+ademâs del nombre de la empresa del ferrocarril y de la es-
+taeiôn
+a que pertenece el libro.
+Objetos
+olvidados
+o
+abandonados
 por los pasajeros.
-
-Art. 118. — Los objetos a que se refiere el artículo 51 de la
-Ley General de Ferrocarriles serán anotados en un registro es-
-pecial y puestos en conocimiento del público por medio de avisos
-fijados en las estaciones durante ocho días consecutivos, dentro
+Art. 118. — Los objetos a que se refiere el articulo 51 de la
+Eey General de Ferrocarriles serân anotados en un registro es¬
+pecial y puestos en conocimiento del publico por medio de avisos
+fijados en las estaciones durante oeho dîas consecutivos, dentro
 de los dos meses de encontrados.
-Transcurridos tres meses, a contar desde que venció el tér-
-mino de fijación de dichos avisos, sin que tales objetos hubieran
-sido reclamados, las empresas procederán a su venta en remate
-público con intervención de un Inspector Nacional de ferro-
-carriles.
-La venta será anunciada por los diarios con quince días de
-anticipación y tendrá lugar después de seis meses de hallados
-los objetos y dentro de un plazo máximo de un año.
-Si aquéllos fueran de fácil deterioro, serán inmediatamente
-vendidos, previa autorización de la Inspección Nacional o dando
-cuenta a la misma.
-Las empresas no podrán percibir almacenaje por más tiempo
-que el de seis meses.
+Transcurridos très meses, a contar desde que venciô el tér-
+niino de fijaciôn de dichos avisos, sin que taies objetos hubieran
+sido reclamados, las empresas procederân a su venta en remate
+pûblico
+con intervenciôn de un Inspector Nacional de ferro-
+earriles.
+La venta sera anunciada por los diarios con quince dîas de
+anticipaciôn y tendra lugar después de seis meses de hallados
+les objetos y dentro de un plazo mâximo de un ano.
+Si aquéllos fueran de fâcil deterioro, serân inmediatamente
+vendidos, previa autorizaciôn de la Inspecciôn Nacional o dando
+euenta a la misma.
+Las empresas no podrân percibir almacenaje por mâs tiempo
+lue el de seis meses.
+```
 
 ## Images, Captions, And Visual Notes
-No images or captions are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 118

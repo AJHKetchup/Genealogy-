@@ -1,0 +1,136 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-4fffdaa4cbfe-P0338-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350.codex.md
+converted_sha256: 4fffdaa4cbfe2bc6a69e7e90ed08a5681091c0ab14b9cda2d9c6d76c94dca3b5
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350/manifest.json
+page_start: 338
+page_end: 338
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350/manifest.json`
+- Source page: 338
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0326-0350-s522bis-29-3-pages-326-350/page-images/page-0338.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-
+17
+-
+instrucolOn direeta del President* Yrigoyen.
+Era quizas el unico
+que conocla
+su verd&dero alcanoe.
+Cuande el 3r. PueyrredOn de*
+olarô
+que
+(,si las proposiclones argentlnas eran reohazadas en el
+seno
+de las Comislones
+o de la Asaablea, la DelegaoiOn se varia
+en la obligaciOn de retirarse, el Br. Alvear le hizo observar
+que
+”la Argentina habla adherido al Pacte y
+que el hecho de re¬
+tirarse de la Sociedad era de Indole
+a producir una impresiOn dea-
+favorable
+que era précisa evitar a toda eosta”. lué entoncea euan-
+do el 3r. PueyrredOn arguyO que ,!el Congreso no habla ratifioado
+la adhesiOn y
+que el Gobierao no deseaba que fuera hacha Bin antes
+haber obteniào satisfaoeion en lo tocante al principle fundamen¬
+tal,
+esto es,
+a la inclusiOn de todos los palses del ©undo”,
+i odemos, pues,
+eoaprosar una vez ®as
+ue, pars los Sres* Yrigoyen
+y PueyrredOn, el Congreso no habla dado su asentimiento a la ad¬
+hésion y menos aun a la ratifieaciOn.
+Las relaeiones entre la
+Argentina y la Sociedad de les Laciones se desarrollaban - se
+ve por deœas •
+por la mediaeion exolusiva del Présidente, eon
+exclusiôn del Congreso.
+Kl Dr. Alvear respondié a su vez al
+Sr. PueyrredOn que, puesto que la intenoiOn del Gobierno era re-
+tlrar
+& la argentins de la Sociedad de las Kaciones, eso no podrla
+haoerlo sin la autoriaaoiOn del Congreso.
+Ks esta,
+pues, la doc¬
+trine
+eue
+nos parece
+stas ortodoxa del punto de vista constituoio-
+nal argentino.
+En fin, despuis del oambio de telegramas entre el Prési¬
+dante Yrigoyen y el $*•
+alvear, Iste, elegido Présidente de la
+Republica, precisô en los térainos sigulentes su punto de vista
+sobre la cuestiôn constitueional.
+En su mensaje presideneial di¬
+rigé a las Camaras,
+se pueden leer est os parrafos;
+"De acuerdo
+con las disposiciones constitucionales, la
+adhesiOn dada por el Poder lyecutivo al Pacta de la Sociedad de
+las
+HaeioneB debe
+ser sometida al
+exaœen del Congreso de la naeiôn.
+La adhesiOn
+en cuestiOn se efeotuo œediante el depôslto de la oo-
+œunicaciOn correspond!ente
+a la Becretarla de la Sociedad eon fe-
+eha
+18 de Julio 1919,
+por el Ünistro argentin© en Paris, de con*
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 339

@@ -1,0 +1,116 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d06d718c67d8-P0068-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75.codex.md
+converted_sha256: d06d718c67d8996768f83319ee4230514f269ff6500f8c945cd525d59d5490d2
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75/manifest.json
+page_start: 68
+page_end: 68
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75/manifest.json`
+- Source page: 68
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75/page-images/page-0068.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+[Translation 3]
+ANNEX TO THE CONVENTION OF JULY 27, 1929, RELATIVE
+TO THE TREATMENT OF PRISONERS OF WAR.
+Model Agreement Concerning Direct Repatriation and Hos¬
+pitalization in a Neutral Country of Prisoners of War for
+Reasons of Health.
+I.Governing Principles for Direct Repatriation and Hospitalization in
+a Neutral Country.
+A.DIRECT REPATRIATION.
+There shall be repatriated directly:
+1. Sick and wounded who, according to medical opinion, are not
+likely to recover in one year, their condition requiring treatment and
+their mental or physical fitness appearing to have suffered considerable
+diminution;
+2. Incurable sick and wounded whose mental
+or physical fitness
+appears to have suffered considerable diminution;
+3. Cured sick and wounded whose mental or physical fitness appears
+to have suffered considerable diminution.
+B.HOSPITALIZATION IN A NEUTRAL COUNTRY.
+There shall be placed in hospitals:
+1. Sick and wounded whose cure within a period of one year is to
+be expected, such cure appearing more certain and more rapid if the
+sick and wounded
+are given the benefit of the resources offered by
+the
+neutral country than if their captivity properlv so-called
+is
+prolonged;
+2. Prisoners
+of
+war
+whose
+mental
+or physical health
+appears,
+according to medical opinion, to be seriously menaced by continuance
+in captivity, while hospitalization in a neutral country would probably
+remove this danger.
+C.REPATRIATION OF
+THOSE HOSPITALIZED IN A NEUTRAL COUNTRY.
+There shall be repatriated the prisoners of war hospitalized in
+a
+neutral country who belong to the following categories:
+1. Those whose state of health appears to be or to be becoming
+such that they fall within the categories of persons eligible to
+re¬
+patriation for reasons of health;
+2.
+The recovered whose mental or physical fitness seems to have
+suffered a considerable diminution.
+Prepared in the Department of State.
+(63)
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 69

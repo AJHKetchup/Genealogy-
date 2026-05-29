@@ -1,0 +1,149 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-aca10c7e42f9-P0404-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425.codex.md
+converted_sha256: aca10c7e42f97ec1e2361d34b3a6706bbdebaab40f8288062a1c928edddd43ac
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425/manifest.json
+page_start: 404
+page_end: 404
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425/manifest.json`
+- Source page: 404
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425/page-images/page-0404.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Une sous-commission B., qui fut chargée d'examiner le
+problème
+de
+la protection individuelle,
+notamment
+la
+confection
+des masques et vêtemeDts protecteurs ;
+elle
+fut présidée successivement par M. le général Schryver,
+des Pays-Bas, et par M. le professeur Erculisse, de Bel¬
+gique.
+Une sous-commission C., qui devait étudier la question
+de l'organisation générale de
+1a. protection des popula¬
+tions civiles contre la guerre chimique ; elle fut composée
+de représentants de la Croix-Bouge, des représentants des
+villes et des communes, des organisations ouvrières, de
+l'industrie, etc... sous la présidence du lieutenant général
+médecin Wilmaers, de la Croix-Bouge de Belgique.
+Une série de questions d'ordre technique, qui intéres¬
+saient autant les membres de la sous-commission A. que
+ceux de la. sous-commission B., furent examinées conjoin¬
+tement par
+ces deux sous-commissions, réunies
+sous la
+présidence du professeur Mayer.
+Le
+programme
+comprenant
+en
+outre
+une
+série de
+dispositions tactiques
+de la plus haute importance,
+le
+Bureau de la Commission jugea nécessaire de les soumettre
+d'abord à une petite Commission préparatoire, présidée
+par
+le
+professeur
+Erculisse
+et
+composée
+de
+quelques
+experts chimistes,
+de représentants de la Croix-Bouge,
+d'un médecin, d'un représentant
+des organisations
+ou¬
+vrières,
+d'un pompier,
+d'un représentant
+des villes
+et
+communes
+et d'un aviateur.
+Cette Commission soumit
+dans la suite
+son rapport aux sous-commissions B. et C.
+réunies, siégeant sous la présidence de M. Velghe.
+Les
+sous-commissions travaillèrent pendant
+les jour¬
+nées des 16 et 17 et le matin du 18 janvier. L'après-midi
+du 18 janvier, la Commission se réunit en séance plénière
+pour examiner les rapports des sous-commissions. Après
+une
+dernière
+discussion
+et
+certaines modifications,
+ces
+rapports furent définitivement adoptés. Une Commission
+de rédaction fut nommée
+en
+vue de la préparation du
+texte définitif des résolutions. (Voir Annexe V.).
+La
+Commission ayant
+reconnu
+les
+services
+signalés
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 405

@@ -1,0 +1,146 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-55a42c421809-P0281-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0276-0300-s522bis-29-3-pages-276-300.codex.md
+converted_sha256: 55a42c4218099b53440a15bb8acfffc01345604d30257ad5ed38546e451beb83
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0276-0300-s522bis-29-3-pages-276-300/manifest.json
+page_start: 281
+page_end: 281
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0276-0300-s522bis-29-3-pages-276-300/manifest.json`
+- Source page: 281
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0276-0300-s522bis-29-3-pages-276-300/page-images/page-0281.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-
+6
+-
+râble
+eomo la ereaciôn de la -Sociedad de las «aeiones.
+e ve
+aparecer »qu£ el mismo error euyas consecueneias se vieron
+despuée,
+esto
+es,
+el error de oreer que la
+i*gentin& tendr£a
+una intervenciôn creadora cerca de las
+i oteneias cuyo eoc:pro-
+Eiiso plurilateral constituyô la base del
+- acto
+t e la
+ociedad
+de las 3acloues.
+>ué el
+12
+de Julio de 1*19
+euanbo el Pinistro de Hela-
+eioaes
+Æxteriores autorisé por cablegrams al
+; inistro argenti-
+no
+en Parfs a adherir al Pacto de la Oooiedad de las Kacloues.
+31 texto del telegraaa «ra el slguiente:
+3>e coafomldad con
+el artieulo prl&ero del Pacto de la
+ocledad de las
+-.Reloues,
+el
+roder
+jeeutivo ha resuelto adherir a aquél sln réserva
+alguna.
+u
+xeelencia puede depositar en la décrétar£& la oo-
+munie&cién correspond!ente. ïengo el honor de manifester a
+u
+fxceleneia
+que he consulted© de antemano a t£t%ilo privaâo a
+las
+dos Caoaras
+que ae han æostrado favorables a la adhealôn.-
+Flrsmdo; Fueyrredén, Kinistro de Kelaeiones iSxteriores'1.
+Si
+se observa
+oon olerta atenciôn el texto de este te»
+legrama,
+se
+ve enseguiâa que el kinistro se propone haeer una
+consulta privada a las dos Camaras las euales se mostrarfan
+dispuestas
+a la adhesién.
+Pero, tenlendo en ouenta la feoha
+en
+que verosimlla*ente pudo ser heeha la consulta a las Camaras,
+se llega a la conclusion de que estas solaiaente han podido
+jaoetrarse favorables
+a una adhesion al principle de la créa-
+ci6n de la Sociedad de las Baciones.
+Si» embargo, el telegra-
+ma tel ministre ordena elaramente la achesidn al Paoto,
+en
+virtud y de acuerdo eon les termines de su artlculo primero.
+£1 Pacto,
+entre paréntesis,
+no estaba aun en vigoe en aquel
+mettente»
+Desde el punto de vista Jurldioo se ooaprobO también
+el
+error eometido por el Ministro argentino: este error oon-
+slstia
+en adherir a un tratado
+que no estaba todavia en vigor.
+La tenæinologla del
+1 inistro argentino de Eelaeiones JÊxterio-
+ycg
+na
+se presta a ningun equ£voeo.
+ordena adherir al Pacto
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 282

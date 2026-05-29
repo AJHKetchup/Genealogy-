@@ -60,78 +60,185 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 42
+
 ## Page Metadata
-Page number: 42
-Printed page number: 45
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json`
+- Source page: 42
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/page-images/page-0042.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page presents a three-column list of names, addresses, and cities. The content is read from left to right, top to bottom.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```
-González Plata, Tiburcio                 Carmen 78                               Santiago
-González Reyes, Juan Luis                J. Diaz Garcés 090                      Santiago
-González Rioseco, Héctor                 Bellavista 0195                         Santiago
-González Rodríguez, Alejandro            Esmeralda 611                           Santiago
-González Rodríguez, Oscar                Abdón Cifuentes 284                     Santiago
-González Rojas, Mario                    Vergara 74                              Santiago
-González Salas, Carmen                   Compañía 2211                           Santiago
-González Salvatierra, Augusto            Huérfanos 578                           Santiago
-González Schulz, Orlando                 Traslaviña 130                          Viña del Mar
-González Silva, Eliana                   Mahuzier 31                             Concepción
-González Simón, Fernando                 Plaza Perú 133                          Concepción
-González Stuardo, Manuel                 Sucre 2593                              Santiago
-González Tillería, Evadio                Carrascal 4315                          Santiago
-González Verdugo, Felipe                 21 de Mayo 617                          Santiago
-González Vilos, Juan                     General Gana 1733                       Santiago
-González Villablanca, Eugenio            Campoamor 3113                          Santiago
-González von Marées, Marcial             Dávila 727                              Santiago
-González Wood, Hernán A.                 Hospital Regional                       Temuco
-Goñi Luque, Fernando                     Marcoleta 367                           Santiago
-Göpfert Seinecke, Pablo                  Prof. Carlos Porter 23                  Santiago
-Gordillo Cortés, Héctor                  San Diego 245, Dep. 305                 Santiago
-Goren Rapaport, Abraham                  Los Serenos 475, Dep. 305               Santiago
-Gorena Núñez, Mamerto                    Prat 690, Of. 5                         Antofagasta
-Gorgewsky Silverang, Arnold              Compañía 2211                           Santiago
-Gorigoytía Suárez, Raúl                  Victoria 2632                           Valparaíso
-Gormáz Balieiro, Alberto                 Huérfanos 521 B                         Santiago
-Gostín Pérez, Luis                       Ochandía s/n                            Vallenar
-Goudeau Negrier, Enrique                 Consultorio                             Llay-Llay
-Gouet Vallet-Cendre, Hernán              Diagonal 1254                           Concepción
-Goyeneche Petit, Alberto de              Compañía 1467 D                         Santiago
-Graf Axt, René                           V. Reyes s/n                            Villarrica
-Granados García, Miguel                  San Marcos 364                          Arica
-Granic Jorquera, Juan                    San Isidro 229                          Santiago
-Grant Benavente, Guillermo               San Martín 658                          Concepción
-Grant Pimentel, Guillermo                San Martín 658                          Concepción
-Grant Pimentel, Roberto                  San Martín 487                          Concepción
-Grau Vilarrubias, Juan José              Agustinas 641                           Santiago
-Gray Gray, Jorge                         Serrano 720                             Vallenar
-Grebe Hernández, Guillermo               Jesuítas 658                            Santiago
-Greene Ortega, Ernesto                   Alam. B. O'Higgins 776,                 Santiago
-                                         Depto. 33
-Greiber Vugman, Rosa                     Huelén 309, Depto. 2                    Santiago
-Greppi Sadino, Antonio                   Maule 875                               Santiago
-Greve Uria, Ema                          Londres 56                              Santiago
-Grez Valdovinos, Aníbal                  José M. de la Barra 536                 Santiago
-                                                                                 — 45
+```markdown
+González Plata, Tiburcío 
+González Reyes, Juan Luis 
+González Ríoseco, Héctor 
+González Rodríguez, Alejandro 
+González Rodríguez, Oscar 
+González Rojas, Mario 
+González Salas, Carmen 
+González Salvatierra, Augusto 
+González Schulz, Orlando 
+González Silva, Eliana 
+González Simón, Fernando 
+González Stuardo, Manuel 
+González Tillería, Evadió 
+González Verdugo, Felipe 
+González Vilos, Juan 
+González Villablanca, Eugenio 
+González von Marées, Marcial 
+González Wood, Hernán A. 
+Goñi Luque, Fernando 
+Gopfert Seinecke, Pablo 
+Gordillo Cortés, Héctor 
+Goren Rapaport, Abraham 
+Gorena Núfiez, Mamerto 
+Gorgewsky Silverang, Arnold 
+Gorigoytía Suárez, Raúl 
+Gormáz Balieiro, Alberto 
+Gostín Pérez, Luis 
+Goudeau Negrier, Enrique 
+Gouet Vallet-Cendre, Hernán 
+Goyeneche Petit, Alberto de 
+Graf Axt, René 
+Granados García, Miguel 
+Granic Jorquera, Juan 
+Grant Benavente, Guillermo 
+Grant Pimentel, Guillermo 
+Grant Pimentel, Roberto 
+Grau Vilarrubias, Juan José 
+Gray Gray, Jorge 
+Grebe Hernández, Guillermo 
+Greene Ortega, Ernesto 
+Greiber Vugman, Rosa 
+Greppi Sadino, Antonio 
+Greve Uria, Erna 
+Grez Valdovinos, Aníbal 
+Carmen 
+Santiago 
+J. Díaz Garcés 090 
+Santiago 
+Bellavista 0195 
+Santiago 
+Esmeralda 611 
+Santiago 
+Abdón Cifuentes 284 
+Santiago 
+Vergara 74 
+Santiago 
+Compañía 2211 
+Santiago 
+Huérfanos 578 
+Santiago 
+Traslaviña 130 
+Viña del Mar 
+Mahuzier 31 
+Concepción 
+Plaza Perú 133 
+Concepción 
+Sucre 2593 
+Santiago 
+Carrascal 4315 
+Santiago 
+21 de Mayo 617 
+Santiago 
+General Gana 1733 
+Santiago 
+Campoamor 3113 
+Santiago 
+Dávila 727 
+Santiago 
+Hospital Regional 
+Temuco 
+Marcoleta 367 
+Santiago 
+Prof. Carlos Porter 23 
+Santiago 
+San Diego 245, Dep. 305 Santiago 
+Los Serenos 475, Dep. 305 Santiago 
+Prat 690, Of. 5 
+Antofagasta 
+Compañía 2211 
+Santiago 
+Victoria 2632 
+Valparaíso 
+Huérfanos 521 В 
+Santiago 
+Ochandía s/n 
+Vallenar 
+Consultorio 
+Llay-Llay 
+Diagonal 1254 
+Concepción 
+Compañía 1467 D 
+Santiago 
+V. Reyes s/n 
+Villarrica 
+S^n Marcos 364 
+Arica 
+San Isidro 229 
+Santiago 
+San Martín 658 
+Concepción 
+San Martín 658 
+Concepción 
+San Martín 487 
+Concepción 
+Agustinas 641 
+Santiago 
+Serrano 720 
+Vallenar 
+Jesuítas 658 
+Santiago 
+Alam. B. O'Higgins 776, Santiago 
+Depto. 33 
+Huelén 309, Depto. 2 
+Santiago 
+Maule 875 
+Santiago 
+Londres 56 
+Santiago 
+José M. de la Barra 536 Santiago
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. The page number "— 45" is present at the bottom right.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text and the page number.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 43
 

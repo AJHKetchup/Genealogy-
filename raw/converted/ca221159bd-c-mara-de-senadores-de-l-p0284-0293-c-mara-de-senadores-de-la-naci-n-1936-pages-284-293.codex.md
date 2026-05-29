@@ -62,69 +62,143 @@ All visible text on the page has been transcribed. The last line of text is inco
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 
+# Page 285
+
 ## Page Metadata
-- Page number: 285
-- Source publication year: 1936
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json`
+- Source page: 285
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-images/page-0285.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, primarily legal or administrative articles, followed by a list of names under the heading "JUSTO". A page number "26" is present at the bottom left.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-que cada contaduría provincial deberá ajustar sus planillas infor-
-mativas de la inversión detallada de los gastos efectuados.
-La distribución anual definitiva de Ayuda Federal será puesta
-en conocimiento de las provincias antes de su aprobación por el
+
+```markdown
+que
+cada contaduria provincial deberâ ajustai1
+sus plan illas infor-
+mativas de la inversion detallada de los gastos efectuados.
+La distribueiôn anual definitiva de Ayuda Federal
+sera puesta
+en conocimiento
+de las provincias antes de su
+aprobaciôn por
+el
 Directorio.
-Los créditos no utilizados dentro del ejercicio o en los plazos
-que fija el artículo 33° de la Ley o en los que el Directorio estipule,
-se harán figurar en el cálculo de recursos de la Dirección Nacional
-de Vialidad de año inmediato siguiente.
-Art. 2° — La entrega de fondos de Ayuda Federal será efec-
-tuada después de presentado el plan anual de trabajos, el que ser-
-virá para la rendición de cuentas prevista en el artículo 32° de la Ley.
-Art. 3° — La Dirección Nacional de Vialidad cerrará el ejer-
-cicio del presupuesto anual administrativo el 31 de diciembre de
-cada año y cancelará las cuentas del mismo, el 31 de marzo, elevan-
-do, dentro del primer trimestre siguiente, al P. E. la Memoria del
-ejercicio terminado, el Balance General y la rendición completa y
-detallada de las cuentas.
-Cerrado el ejercicio y con posterioridad al 31 de marzo, no se
-podrán efectuar pagos hasta el ejercicio subsiguiente, en que se im-
-putarán los sueldos, gastos y conservación a una partida especial
-para cuenta de ejercicios vencidos y las de obras de construcción a
-las cuentas respectivas.
-Art. 4° — Los caminos provinciales construídos con fondos de
-la Ley N° 5315, deberán ser conservados por las provincias de acuer-
-do al artículo 31 de la Ley N° 11.658, una vez que les sean entre-
-gados a las mismas.
-Art. 5° — Las propiedades y saldo de existencias de materia-
-les, máquinas, herramientas, rezagos, etc., que fueron incorporados
-a la Dirección Nacional de Vialidad, se regirán por las disposicio-
-nes de la Ley N° 11.658.
-Los saldos actuales que arroja la cuenta del sobreprecio a la
-nafta, por provincia o territorio, se incorporarán, en lo posible, a
-las cuentas respectivas de la Red Nacional.
-Art. 6° — Comuníquese, publíquese, y pase a la Dirección Na-
-cional de Vialidad a sus efectos.
-
-JUSTO
-M. Alvarado. — F. Pinedo.
-— E. Videla. — M. de
-Iriondo. — L. Melo.
-
+Los crédites
+no utilizados dentro del ejercicio
+■o
+en los plazos
+que fija el articule 33" de la Ley o en los que el Directorio estipule,
+se liarân figurai- en el câleulo de recursos de la Direccion Nacionai
+de Vialidad de
+ano inniediato siguiente.
+Art.
+2"
+— lia entrega
+de fondos de Ayuda
+Federal
+sera
+efee-
+tuada después de présentante el plan anual de trabajos, el que ser¬
+vira para la rendiciôn de euentas prevista en el articule 32" de la Ley.
+Art.
+3"
+—• La Direccion Nacionai de Vialidad cerrarâ el ejer¬
+cicio
+del presupuesto
+anual administrative el
+31
+de diciembre de
+cada aiïo y eancelarâ las euentas del mismo, el 31 de marzo, elevan-
+do, .dentro del primer trimestre siguiente, al F. S. la Memoria del
+ejercicio terminado. el Balance G-eneral y la rendiciôn compléta y
+detallada de las euentas.
+.Cerrado el ejercicio y cou posterioridad al 31 de marzo, no se
+ixidrân efectuar pagos basta el ejercicio subsiguiente, en que se im-
+putarân los sueldos, gastos y eonservaciôn a una partida especial
+para cuent.a de ejercicios vencidos y las de obras de construcciôn a
+las euentas respectivas.
+Art.
+4'1’
+— Los caminos provinciales construidos con fondos de
+la Ley N" 5315, deberân ser conservados por las provincias de acuer-
+do al articulo
+31 de la Lev N" 11.658, una vez que les seau entre¬
+ga dos
+a las mismas.
+Art.
+5"
+— Las propiedades y saldo de existencias de materia -
+les, bouquinas, herramientas, rezagos. etc., (pie fueron incorpora dos;
+a la Direccion Nacionai de Vialidad,
+se regiran por las disposicio-
+nes de la Ley N" 11.658.
+Los saldos actuales
+que arroja la cuenta de! sobreprecio
+a la
+nafta, por provincia
+o territorio,
+se incorpora ran, en lo posible,
+a
+las euentas respectivas de la Red Nacionai.
+Art.
+6°
+— Comunîquese. publiquese, y pase a la Direccion Na-
+cional
+de Vialidad
+a
+sus ofectos.
+JUS,TO
+.1/. Alvarado.
+— - F. Pinedo.
+'■—
+E.
+Videla,
+—
+M.
+de
+IHondo.
+— L. Mêla.
 26
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. The page number "26" is present at the bottom left.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and the page number have been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 

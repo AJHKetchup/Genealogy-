@@ -1,0 +1,149 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7bc46dbbfb6d-P0358-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0351-0375-s522bis-29-3-pages-351-375.codex.md
+converted_sha256: 7bc46dbbfb6d02a2e1a26dc633754e3dded3b6711682672e675de9e19b742bde
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0351-0375-s522bis-29-3-pages-351-375/manifest.json
+page_start: 358
+page_end: 358
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0351-0375-s522bis-29-3-pages-351-375/manifest.json`
+- Source page: 358
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0351-0375-s522bis-29-3-pages-351-375/page-images/page-0358.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-
+14
+-
+Primero, htibiera podido, al dar amplio conooicilento del
+asunto al Gongreso,
+obtener de este la autoriz&eiôn previa pa»
+ra adherir al Pacto,
+seg&n les términos del artleulo primero
+del
+raismo.
+La adhesiôn dada
+en estas condiciones habrla tenido
+el valor de
+un comproœiso definltivo
+e incontestable entre la
+Soeiedad de las Haciones y el Cobierno argentino.
+Cohjo segunda solueiôn, hubiera también podido someter al
+Parlamento todo el asunto "ex post facto"•
+Estimâmes,
+sin embargo
+que, del punto de vista constitue!o»
+nal,
+el primero de estos dos caminos hubiera sido el mejor por»
+que,
+no hay
+que olvidar
+que el Gobierno argentino,
+en su comu-
+nicaciôn del
+16
+de
+Enero 19£û ha
+empleaào las palabras "ratifi»
+caciôn por el Gobierno argentino"
+en la respuesta que el Presi»
+dente Yrigoyen diô a la invitaeiôn del Présidente del Conseco
+Supremo Interaliado, Sr. Clemenceau.
+à naestro parecer el Gobierno argentino
+no ténia el dereoho
+de emplear la palabra "ratificaciôn"
+no habiendo obtenido una
+decisiôn favorable del Poder Législative.
+Esta era también la
+opiniôn del Sr. Alvear, i inistro de la Argentina en Paris,
+euan-
+do,
+respondiendo al telegrama de
+su Pinistro de Relaciones Ex»
+teriores reproduciendo los términos de la ratificaciôn expresa
+del Gobierno argentino al iacto de la Soeiedad de las Haeiones,
+le manifiesta
+su satisfaeciôn y a*ade:
+"A fin de
+que esta Lega-
+ciôn tenga un conocimiento mas amplio del asunto, le ruego me
+telegrafle la fecha y los clet&lles de las sesiones en el trans-
+curso
+de las
+cuales la cuestiôn ha sido diseutida en el Congre»
+so",
+iste telegrama
+es elocuente,
+pero quedô sin respuesta.
+Es innegable
+que el iinistro Alvear, antiguo parlamentario,
+es-
+timaba,
+a nuestro ^uicio con rasôn,
+que el asentimiento expreso
+del Congreso
+era indispensable para dar a la ratificaciôn su
+complet© valor jurldico.
+iîo séria exacto deeir que las Camaras
+legislativas
+que fueron consultadas de una manera privada, die»
+ron
+su aquiescencia a la adhesion que le fué solicitada. Esto
+reBlllta a.!
+1. la
+a. aonntoo oonctltnolona!»
+;
+-
+—-
+■-
+•
+—■—;’Pr
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 359

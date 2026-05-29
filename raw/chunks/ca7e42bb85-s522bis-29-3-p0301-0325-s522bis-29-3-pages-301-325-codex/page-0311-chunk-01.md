@@ -1,0 +1,166 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ecbd584403e4-P0311-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0301-0325-s522bis-29-3-pages-301-325.codex.md
+converted_sha256: ecbd584403e48d7be3ca7e51cce6187bfe1faeee4952af9c136e635be74a73d3
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0301-0325-s522bis-29-3-pages-301-325/manifest.json
+page_start: 311
+page_end: 311
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0301-0325-s522bis-29-3-pages-301-325/manifest.json`
+- Source page: 311
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0301-0325-s522bis-29-3-pages-301-325/page-images/page-0311.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+13
+-
+DERECHO
+COJSTITUCIOBaL
+aRGSHTIBQ
+Legun la Constituciàn argentin» y conforme igualinente
+a la jurisprudence y
+a la doctrina, la direcciôn de los asuntos
+♦
+exteriores
+es,
+en priaeipio,
+de la competence excluslva del
+Pre¬
+sidents
+de
+la n&ciôn.
+SI Présidente
+(art.
+86, pérrafo 14)
+con-
+cierta y firma los tratados de paz,
+de comereio,
+de navegaciôn,
+de alianza,
+de limites y de r.eutralidad,
+pero la sanoiân defini¬
+tive de estes
+tratados
+es
+de la
+incumbencia del
+Gongreso (art.67,
+pârrafo 19).
+SI Présidente puede negociar public»
+o seeretamen-
+te.
+Durante la preparaoién de los tratados,
+el poder del Prési¬
+dente
+es absoluto,
+pero los tratados
+no llegan a ser ley de la
+naciôn sino después de la aprobaeidn del
+Gongreso; éste bôIo
+puede,
+a nuestro juicio, aprobar
+o rechazar
+en bloque los trata¬
+dos
+que le
+son sometidos pero
+no puede introdueir
+en ellos
+mo¬
+difi caci ones.
+La accès!6n
+o adhesidn al
+Pacte
+de la
+Sooiedad de las
+Saciones
+(considérâmes los términos
+como sinônimos) constituye
+sin ninguna duàa un compromiso internacional
+de caracter contrac¬
+tual del
+que
+Be derivan àerechos y obligaciones para toda la na-
+cidn.
+Por consign!ente,
+«1 Presidents ha obr&do dentro de los
+limites
+de
+sus poderes al negociar y llevar
+a término la adhesi6n
+o aceesiôn.
+Sin embargo,
+desde el punto ta vista del derecho inter¬
+ne (y esta
+es la oplnidn que hs llegado a imponerse en los deba¬
+tes de la
+Asaablea legislativa argentin»), la adhesidn seri per¬
+fects solamente el dla
+en que el Congreso argentine haya aproba-
+do los aotos del Poder Ejeoutivo P* han dado lugar a este
+com¬
+promise internacional de Indole tan espeoial.
+Partiendo siempre del punto de vista del derecho cons-
+tituoional argentino,
+creemos
+que el Poder Ejecutivo hubiera po-
+dldo
+-
+en los limites
+que le
+son asignados por los textos cons¬
+titue! onales
+- eseoger dos
+maneras de regularizar la situacidn
+ponidndola
+en armonla con las exigencies de la Conatitucidn fun¬
+damental del pals:
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 312

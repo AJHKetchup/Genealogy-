@@ -1,0 +1,138 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d3a0d0d096b6-P0415-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428.codex.md
+converted_sha256: d3a0d0d096b6c3a13cf550bf3f94a3dd50dc1ee46cfae87bb85a4c685bffa628
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json
+page_start: 415
+page_end: 415
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json`
+- Source page: 415
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/page-images/page-0415.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+—
+88 —
+Concesiôn
+Art.
+4-
+Las autorizaciones para fijacion de avisos de propa¬
+ganda serân objeto de coneesiones especiales que
+en cada caso
+otorgarâ el Poder Ejecutivo
+a los interesados
+que las soliciten
+en base
+a los siguientes requisitos:
+l9
+Podrân ser concesionarios : Empresas de publicidad, casas
+de comercio y particulares,
+que acrediten técnica, econômica y
+moralmente, suficiente eapacidad
+para la explotaciôn racional
+de
+este comercio y siëmpre
+que
+no fueren deudores del Fisco
+de la Provincia. En igualdad de condiciones, serân preferidas
+las Empresas de Publicidad.
+29
+Los pedidos
+que
+se formulen deberân presentarse
+en la
+Mesa de Entradas del Ministerio de Obras Publicas.
+Cada cami-
+no, tramo del mismo, longitud de playa, deberâ ser objeto de
+solicitud por separado que contendrâ los datos siguientes :
+a) Denominaciôn y ubicaciôn del camino y tramo del mismo
+que se solicite.
+b) Kilometraje del camino y total del tramo
+o ârea aproxi-
+mada de la playa que abarcaria la explotaciôn.
+c) Acompanar piano indicativo de los lugares de los mismos
+en
+que aproximadamente,
+se
+ubicarian
+los
+avisos
+y
+su
+numéro.
+d) Plano descriptivo del modelo de pantalla u otra estructura
+para la fijacion de los avisos, especificando dimensiones,
+cortes y material de construcciôn, los que deben ser apro-
+bados por el Poder Ejecutivo..
+e) Plazo de la concesiôn.
+f) En general todo otro dato que se conceptue de mayor ilus-
+traciôn.
+,
+Art. 59
+Los pedidos de coneesiones para caminos, serân estu-
+diados
+e informados por la Direcciôn de Trâfico de la Provincia
+y los que coneiernen a las playas por la Direcciôn de Geodesia,
+Catastro y Mapa.
+Art.
+69
+Acordada
+la concesiôn,
+se notificarâ al interesado
+personalmente o por cédula
+en el domicilio legal constit.uido al
+efecto.
+Art. 79
+Dentro de los ocho dias hâbiles posteriores al acto de
+la notificaciôn, el concesionario deberâ efectuar en la Tesoreria
+General de la Provincia, un depôsito de garantia équivalente al
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 416

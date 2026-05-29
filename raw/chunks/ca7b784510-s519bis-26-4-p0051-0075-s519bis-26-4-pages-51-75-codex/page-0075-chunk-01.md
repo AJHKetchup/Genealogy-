@@ -1,0 +1,208 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-dda7ac65e099-P0075-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75.codex.md
+converted_sha256: dda7ac65e0998178958c7ab2bfed7ffa016aeb1338b055aa28aa3d4b001f5f4a
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75/manifest.json
+page_start: 75
+page_end: 75
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75/manifest.json`
+- Source page: 75
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0051-0075-s519bis-26-4-pages-51-75/page-images/page-0075.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Ginebra.Febrero
+23 de 1930.
+5r. Ing. Alberto Pani
+Ministro
+de México
+P
+A RIS.
+Distinguido Ministro
+Quizes
+en el||PMPPHHifiiP|R|PHKP[
+habrâ hablado ya
+con Vd.
+el Dr. Buero.a
+uien comuniqué ano-
+ohe, 13000 antes de partir paraésa.las xiltimas noticias
+que la
+Sra.
+de Castro Leal
+me aoababa de trasmitir y
+que
+eran algo
+tranquiliz&doras por
+venir del
+’rof. Kummer.muy pareo
+en
+manifestaciones optimistas.
+iïoy
+rae informé varias
+veces
+sobre el estado
+de
+nuestro
+enfermo.
+El estado general
+es estaoionario
+res-
+pecto de ayer.
+Hoy
+no
+se le hizo
+examen de la sangre y el
+&ltimo analisis dié 2.75 de urea.0.25
+menos
+que anteayer y
+la fiebre
+se
+ha mantenido alta.
+El paoiente ha orinado 1500
+gramos
+eît las ultimo 24 horas.lo
+que
+es
+muy satisfaotorio.
+Maflana
+veremos
+cual serà el resultado del analisis
+de la
+sangre.abrigando la
+esperanza de
+que
+sea promiso*.
+La Sra.
+de Castro Leal
+me dijo hoy
+que
+su
+marido
+se résisté al tratamiento
+y
+que
+son neeesarios gran¬
+des eafuersos
+de persuacion.porque
+opone,en su semi
+inoons-
+ciencia de oiertos ®omentos#el deseo de levantarse
+para des-
+paohar
+sus asuntos ofieiales
+y leer la prensa.En esta situa*
+cion.oree la Sra.
+de Castro
+Leal
+que séria de gran utilidad
+dar al
+enfermo la
+sensacion
+de
+que
+sus superiores desean que
+ante todo
+se despreooupe de ouanto pueda ser trabajo y
+que
+le ordenan.si
+es neeesario.que abandon® toda tarea hasta ha-
+llar8e completamente restableoido.La Sefiora
+oree
+que séria,
+pues.de gran utilidad para devolver la calma al
+enfermo y
+haeer
+mas
+efioaz el tratamiento,si
+Vd.
+se dignara haoerme
+un telegraœa-pxies Castro Leal
+sabe
+que yo estoy
+en comuniea-
+cion
+con Vd.-diciendo
+que la superioridad express el deseo
+de
+que
+no
+se ocupe de
+nada hasta hallarse bien del todo.
+Vd. resolver^ si
+no
+es
+aâs oportuno haoer
+ese telegrama
+a
+Castro Leal
+o
+a
+su se*ora.
+Sspero
+que
+no han de importunarle
+mucho los
+pedidos
+que la Sra.
+de Castro Leal le
+hace por mi
+interme¬
+dia y,siempre
+a
+sus gratas érdenes,quedo
+de
+Vd.
+atento
+ser-
+viâor y amigo
+y amigo:
+œomento
+de eseribir la present®
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,125 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-aca10c7e42f9-P0403-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425.codex.md
+converted_sha256: aca10c7e42f97ec1e2361d34b3a6706bbdebaab40f8288062a1c928edddd43ac
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425/manifest.json
+page_start: 403
+page_end: 403
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425/manifest.json`
+- Source page: 403
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425/page-images/page-0403.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+de
+la Croix-Rouge
+et
+à
+2 Unions internationales, tut
+joint
+un
+court
+memorandum
+exposant l'objet de la
+réunion. (Voir Annexe II.)
+La convocation du Comité international de la Croix-
+Rouge trouva un accueil très favorable dans les pays
+qui avaient été sollicités par lui, ainsi qu'en témoigne
+la liste des experts désignés par les Croix-Rouges conte¬
+nant des noms connus dans le monde savant et dans les
+milieux qui s'intéressent spécialement au problème de la
+guerre chimique. La Commission était composée de 7 chi¬
+mistes, 4 ingénieurs, 9 médecins militaires, 3 ingénieurs
+pompiers, 1 aviateur, 9 représentants de la Croix-Rouge,
+5 administrateurs, 3 représentants ouvriers, 2 industriels.
+(Voir Annexe III.)
+La séance d'ouverture de la Commission eut lieu le
+16 janvier à
+11
+heures,
+au Palais des Académies de
+Bruxelles. Après un discours de bienvenue, prononcé par
+le professeur Nolf, ancien ministre, président de la Croix-
+Rouge de Belgique, M. Lucien Cramer, docteur en droit,
+membre
+du
+Comité
+international
+de
+la
+Croix-Rouge,
+remercia les experts d'avoir bien voulu venir à la présente
+réunion. Sur sa proposition, la Commission nomma par
+acclamations M. Velghe, vice-président de la Croix-Rouge
+de Belgique, président, et sir Edward Stewart, vice-prési¬
+dent du Comité exécutif de la Croix-Rouge britannique,
+vice-président de la Commission. Le bureau étant ainsi
+constitué, le président donna lecture du projet d'un pro¬
+gramme de travaux qui avait été préparé par le Comité
+international
+de
+la
+Croix-Rouge ;
+il
+fut
+adopté
+à
+l'unanimité. (Voir Annexe IV.)
+En raison de la diversité du programme, la Commission
+nomma 3 sous-commissions :
+Une sous-commission A., qui fut chargée d'étudier la
+question de la protection collective, notamment l'aména¬
+gement de différentes constructions comme abris ; cette
+sous-commission, qui comprenait un nombre très restreint
+de chimistes et d'ingénieurs, fut présidée par le professeur
+Mayer, du Collège de France.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 404

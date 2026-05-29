@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-26d9ffd81787-P0004-01
+chunk_id: CHUNK-33147be639c2-P0004-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293.codex.md
-converted_sha256: 26d9ffd8178735008bc65b233967b45209c0621b4dbffee98c252c9bfbdb23a5
+converted_sha256: 33147be639c28066c45a7335aa4d10838def3c2a3b85093889044e32932c2e2f
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json

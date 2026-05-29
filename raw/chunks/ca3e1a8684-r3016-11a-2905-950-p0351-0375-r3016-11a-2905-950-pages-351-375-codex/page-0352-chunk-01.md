@@ -1,0 +1,132 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b3ca60b0bb6c-P0352-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375.codex.md
+converted_sha256: b3ca60b0bb6c43e6fa31b97a98e1e37cdfc521c3cf04e27048ecd24a409dd837
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/manifest.json
+page_start: 352
+page_end: 352
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/manifest.json`
+- Source page: 352
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/page-images/page-0352.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Démonsiraiion d'hygiène rurale à Kladno et à Lany.
+Cette œuvre
+a été réalisée avec la collaboration du ministère de
+l'hygiène et des institutions d'hygiène sociale. Une enquête appro¬
+fondie a été faite sur les logements, l'alimentation et les statistiques
+sanitaires,
+à
+la suite
+de laquelle
+une démonstration comportant
+toutes les branches de l'hygiène a été organisée : l'hygiène domestique,
+l'hygiène scolaire, la lutte contre la tuberculose et les maladies véné¬
+riennes font partie des activités de la démonstration.
+Moravie el Silésie.
+L'enseignement
+populaire
+de l'hygiène
+est confié,
+dans cette
+partie du pays, à une équipe itinérante. L'une des sections locales
+de la Croix-Rouge a créé un service d'hygiène sociale et organise des
+cours d'hygiène domestique. Une infirmière et une assistante sociale
+travaillent
+en collaboration
+avec les autorités locales.
+Slovaquie.
+Ce district possède 55 centres de protection de l'enfance et 7 dis¬
+pensaires
+antituberculeux.
+La plupart
+de
+ces
+centres s'occupent
+également de la lutte contre les maladies vénériennes et le trachome
+et
+de l'hygiène scolaire.
+Ils organisent
+des conférences populaires
+d'hygiène à l'intention des parents, des instituteurs et des écoliers,
+ainsi
+que
+des
+cours
+d'hygiène domestique
+pour les groupements
+de la Croix-Rouge de la Jeunesse. Les activités des centres sont diri¬
+gés par une infirmière visiteuse compétente,
+secondée
+par trente
+assistantes, dont
+10 sont infirmières.
+Ces centres sont tous subven¬
+tionnés par les sections locales, les appointements de la surveillante
+sont payés par le comité central.
+Ruthénie.
+Un service analogue à celui qui est décrit ci-dessus fonctionne
+dans
+ce district ;
+12 infirmières y sont employées dans 12 centres.
+Amérique Latine.
+argentine.
+Un
+certain
+nombre
+de
+dispensaires d'hygiène sociale ont été
+créés par les comités locaux de la Croix-Rouge.
+bolivie.
+Le comité central de la Croix-Rouge à La Paz a organisé un dis¬
+pensaire général. Des infirmières diplômées y sont rattachées et les
+56
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,107 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-52e6027bf312-P0334-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350.codex.md
+converted_sha256: 52e6027bf3125449c67fbcb5ef5dbd01c78675e6bf80c7101de6e56915e44187
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/manifest.json
+page_start: 334
+page_end: 334
+part: 1
+---
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/manifest.json`
+- Source page: 334
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0326-0350-r3016-11a-2905-950-pages-326-350/page-images/page-0334.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Association
+des Dames Françaises.
+Cette société dirige une école,
+en collaboration avec la Société
+de Secours aux Blessés Militaires, préparant des infirmières visiteuses
+au diplôme d'État d'hygiène sociale de l'enfance. Cette école a formé
+21 infirmières depuis 1924.
+Union des Femmes de France.
+Cette société possède
+une école préparant des infirmières visi¬
+teuses pour le diplôme d'État d'hygiène sociale de l'enfance.
+HONGRIE.
+En 1927, un cours complémentaire de six mois fut donné par la
+Croix-Rouge. Il y eut 12 inscriptions.
+ITALIE.
+Le cours pour infirmières hospitalières, d'une durée de deux ans,
+est suivi par une troisième année de spécialisation pour infirmières
+visiteuses. L'enseignement théorique
+est donné par des médecins
+et des monitrices, et les stages sont effectués dans les dispensaires
+de l'Université et dans les centres d'hygiène sociale de la Croix-Rouge.
+Il existe six écoles donnant des cours pour infirmières visiteuses :
+à Milan, Naples, Rome, Bologne, Florence et Turin, les trois premières
+étant annexées aux écoles pour infirmières professionnelles. 2.093 infir¬
+mières ont obtenu le diplôme d'infirmière visiteuse. En rapport avec
+ces cours, la Croix-Rouge a organisé des cours sur des sujets spéciaux,
+un
+sur la puériculture préparant au diplôme d'État et l'autre sur
+le service social préparant au diplôme de la caisse nationale d'assu¬
+rance (Cassa Nazionale Assicurazioni Sociali). Des cours préparant
+les infirmières pour la lutte contre le paludisme sont organisés chaque
+année.
+22 infirmières visiteuses ont été diplômées en 1928, ce qui fait un
+total de 283 infirmières visiteuses, dont 177 sont au service de la
+Croix-Rouge.
+JAPON.
+En octobre 1928, la Croix-Rouge japonaise a institué un cours
+d'un
+an pour infirmières visiteuses. Ce cours est destiné aux infir¬
+mières
+ou infirmières-chefs de la Croix-Rouge qui font partie des
+équipes de secours. Les candidates doivent avoir moins de 30 ans
+et avoir terminé leurs études secondaires.
+38
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 335

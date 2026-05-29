@@ -8,76 +8,167 @@
 - Conversion method: Codex local vision workbench
 - Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/extracted-images`
 
+# Page 264
+
 ## Page Metadata
-Page number: 264
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json`
+- Source page: 264
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/page-images/page-0264.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a single column of text, primarily a continuation of a numbered list, followed by a heading and a final article. A page number "5" is present in the bottom right corner.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-ferir poderes para las tramitaciones judiciales y administra-
-tivas que sean necesarias;
-b) Llevar el inventario general de todos los valores pertene-
-cientes a la institución y tener los fondos depositados en el
-Banco de la Nación, en efectivo o en títulos de la deuda
-pública nacional;
-c) Celebrar convenios de compraventa o locación de bienes
-inmuebles. Celebrar contratos para adquisición de mate-
-riales o ejecución de obras con licitación pública; y sin ella
-hasta un máximo de veinte mil pesos moneda nacional. En
-las reparaciones y conservación de pavimentos y caminos
-la Dirección Nacional de Vialidad podrá realizar las obras
-o trabajos por vía administrativa, por administración con-
-tratada o por licitación pública.
-En la adquisición de materiales se dará preferencia a
-los de producción nacional en igualdad de condiciones, ca-
-lidad y precio;
-d) Preparar anualmente el presupuesto general de gastos y
-cálculo de recursos, que elevará al Poder Ejecutivo, el que
-lo remitirá al Congreso, para su aprobación, y en caso de
-que el Congreso, antes del 1º de enero, no pudiera aprobar
-el presupuesto, quedará en vigencia por la sola aprobación
-del Poder Ejecutivo;
-e) No podrá invertir en remuneración del Directorio y sueldos
-del personal técnico y administrativo más del 8 % del pre-
-supuesto de la institución;
-f) No podrá apartarse de las autorizaciones de gastos conte-
-nidas en el presupuesto aprobado;
-g) Nombrar, ascender y remover en los casos de mala con-
-ducta o mal desempeño de sus funciones o necesidades del
-servicio al personal administrativo o técnico, previo informe
+```markdown
+férir poderes para las tramitaciones judicial es y administra
+tivas que sean nec.esariasj
+b)
+Llevar
+el inventario general
+de todos los val ores
+pertenc-
+cientes
+a la instituciôn y tener los fondos depositados
+en
+e.l
+Banco
+de la Naciôn,
+en efectivo
+o
+en titulos
+de la
+deuda
+pûblica nacional;
+c)
+Celebrar
+convenios
+de
+compraventa
+o locaciôn
+de. bienes
+inmuebles.
+Celebrar
+contratos
+para,
+adquisiciôn
+de
+mate¬
+rials
+o ejecueiôn de obras cou licitaciôn pûblica ; y sin ella
+basta un mâximo de veinte mil
+pesos moneda nacional. En
+las reparaciones
+y
+conservaciôn
+de pavimentos y
+eaminos
+la Direcciôn Nacional de Yialidad podrâ realizar las obras
+o trabajos
+por via administrative,, por administraciôn
+con-
+tratada
+o por licitaciôn pûblica.
+En la adquisiciôn
+de materiales,
+se darâ preferencia a
+los de producciôn nacional
+en iguaidad de condiciones, ca-
+lidad y precio ;
+rl)
+Préparai* anualmente
+el
+presupuesto general
+de
+gastos y
+câlculo de recursos,
+que
+clevarâ al Poder Ejecutivo. el que
+lo remitirâ al Congreso, para
+su aprobaciôn,
+y
+en caso de
+que el Congreso, antes del
+19 de enero, no pudiera aprobar
+el presupuesto, quedarâ
+en vigencia por la sola aprobaciôn
+del Poder Ejecutivo ;
+e)
+,No podrâ invertir en remuaeraeiôn del Direçtorio y sueldos
+del personal técnico y administrativo mas del 8 % del pre¬
+supuesto de la instituciôn ;
+f)
+No podrâ apartarse de
+las autorizaciones
+de gastos conte-
+nidas
+en
+el presupuesto aprobado;
+g)
+Nombrar, ascender
+y remover
+en los
+casols de mala
+cOn-
+ducta
+o mal desempeno de sus funciones
+o necesidades del
+servicio al personal administrative o técnico, previo informe
 del ingeniero Jefe.
-Establecerá el escalafón para sus empleados, aseguran-
-do en el reglamento respectivo su estabilidad. Las vacantes
-de los cargos técnicos de todas las oficinas serán provistas
-por concurso.
-
+Estabjecerâ
+el escalafôn para
+sus empleados, aseguran-
+do
+en
+el reglamento respeetivo su estabilidad. Las vacantes
+de
+los cargos técnicos de todas las ofieinas serân provistas
+por
+concursfo.
 INGENIERO JEFE
-
-Art. 7º — El Ingeniero Jefe será un funcionario cuyo nombra-
-miento y remoción estarán a cargo del Poder Ejecutivo a propuesta
-
+Art. 7°
+— El Ingeniero Jefe sera un funcionario cuyo nombra-
+miento y remoeiôn estarân
+a cargo de! Poder Ejecutivo
+a propuesta
 5
+```
 
 ## Images, Captions, And Visual Notes
 
-The page number "5" is present in the bottom right corner.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text and the page number have been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The page number is a minor mark and not cropped."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 6
@@ -267,78 +358,150 @@ All visible text and the page number have been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page that would require cropping."}
 
+# Page 268
+
 ## Page Metadata
-Page number: 268
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json`
+- Source page: 268
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/page-images/page-0268.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a main heading, a subheading, and several numbered articles with sub-points, all presented in a single column. There is a page number at the bottom right.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
+```markdown
 CAPITULO IV
-
-TRAZADO. — INVERSION Y DISTRIBUCION DE FONDOS
-
-Art. 16º — De acuerdo con lo que establece el artículo 3º de la
-presente Ley, la Dirección Nacional de Vialidad proyectará la red
-troncal de caminos nacionales y sus ampliaciones sucesivas. Declá-
-rase de utilidad pública todos los terrenos necesarios para la cons-
-trucción de dicha red, quedando facultada la Dirección Nacional de
-Vialidad para entablar los juicios de expropiación correspondientes,
-pudiendo celebrar arreglos directos con los propietarios para la ad-
-quisición de los terrenos indispensables a ese fin.
-
-Art. 17º — La Dirección Nacional de Vialidad establecerá las
-condiciones generales de trazado y ancho de los caminos nacionales
-de acuerdo con los siguientes principios:
-
-a) Los caminos de la red troncal tendrán un ancho uniforme y
-    mínimo de 30 metros donde las condiciones topográficas y
-    económicas lo permitan.
-b) El trazado de los caminos se hará, en lo posible, siguiendo
-    la menor distancia entre los puntos extremos o entre las lo-
-    calidades intermedias de importancia, con las desviaciones
-    impuestas por la topografía del suelo y conveniencia del
-    transporte.
-
-Art. 18º — Los caminos nacionales así como los ensanches y
-obras anexas a los mismos serán de propiedad exclusiva de la Na-
-ción, a cuyo efecto la Dirección Nacional de Vialidad obtendrá la
-escrituración correspondiente de las tierras necesarias, previa cesión
-o expropiación de las mismas y la demolición de las construcciones
-existentes. Este derecho de propiedad no afectará el derecho de las
-provincias y municipalidades dentro de sus respectivas jurisdicciones.
-
-Art. 19º — El 60 % del fondo nacional de vialidad se destinará
-a los caminos nacionales y se invertirá, previa deducción de los gas-
-tos de administración, servicio de títulos y recursos para conserva-
-ción de caminos, en cuenta separada para la Capital, Provincias y
-Territorios Nacionales en la siguiente forma:
-
-    20 % en proporción a la superficie
-    40 „ „ „ „ población; y
-    40 „ „ al consumo de nafta.
-
+TRAZADO.
+—
+INVERSION Y
+DISTRIEUCION
+DE
+FONDOS
+Art. 16*
+— De acuerdo
+eon lo
+que estableee el articulo 3* de ia
+presente Ley, la Direction Nacional de Vialidad proyectarâ la red
+troneal
+de
+cainiiios naeionales y
+sus ampliaciones sucesivas.
+Declâ-
+rase de utilidad publiea todos los terrenos necesarios para la
+cons¬
+truction de dicha red, quedando faeultada la Direeeion Nacional
+de
+Vialidad para entablar los juicios de expropiaeion correspondientés,
+pudiendo célébrai- arreglos directes
+cou los propietarios para la ad-
+quisicion de los terrenos indispensables a
+ese fin.
+Art.
+17*
+— La
+Direeeion Nacional
+de Vialidad establecerâ las
+condieioues generales de trazado y aneho de los caininos naeionales
+de acuerdo
+eon los siguientes principios :
+a)
+Los caminos de la red troneal tendrân un audio uniforme y
+nimiiiio de 30 métros donde las condiciones topo'grâfieas y
+eeonomicas lo permitan;
+b)
+El trazado de los caminos
+se liara,
+en lo posible, siguiendo
+la menor distancia entre los puntos extremos
+o entre las lo-
+calidades intermedias
+de importancia,
+eon las desviaciones
+impuestas por la topografia
+del
+suelo
+y eonvenieneia del
+transporte.
+Art.
+18*
+— Los caminos naeionales
+asi
+como
+los
+ensanclies y
+obi-as
+anexas
+a los mismos serân
+de propiedacl exclusive
+de la Na¬
+tion,
+a euyo efecto la Direeeion Nacional
+de Vialidad obtendrâ la
+eserituraeiôn correspondiente de las tierras necesarias, previa cesioti
+o expropiaeion de las mismas y la demoliciôn de las construcciones
+existentes. Este dereclio de propiedad no afectarâ el derecho de las
+provincias y municipalidades dentro de sus respectivas jui isdicciones
+Art. 19*
+— El 60 % del fondo nacional de vialidad se destinara
+a los caminos naeionales y se invertira, previa deducciôn de los gas-
+tos de administration, servicio de tftuios y
+recursos para conserva-
+cion de caminos,
+en euenta séparada para la Capital,
+Provincias y
+Territories Naeionales en la siguiente forma :
+20 %
+en proportion a la superficie
+40
+„
+„
+„
+„
+„ poblacion; y
+40
+,,
+.
+,,
+al consume de nafta.
 9
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 
@@ -739,70 +902,171 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 273
+
 ## Page Metadata
-Page number: 273
-Source publication year: 1936
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json`
+- Source page: 273
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/page-images/page-0273.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, continuing a paragraph from the previous page, followed by several articles (`Art. 34°` to `Art. 39°`) under the heading `CAPITULO VI.` and subheading `Disposiciones generales`. A page number `14` is present at the bottom center.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-percibido parcialmente. Si en el transcurso de dos años las provin-
-cias no hubieran utilizado los fondos de ayuda federal que le co-
-rrespondieren pasarán nuevamente al fondo general de vialidad.
-    Art. 34° — La Dirección Nacional de Vialidad sólo podrá in-
-vertir fondos en territorios provinciales, en los caminos pertene-
-cientes a la red troncal nacional y en los de ayuda federal de
-acuerdo a lo que se establece en el capítulo respectivo de esta Ley
-o en la ejecución de lo dispuesto en el artículo 8° de la Ley 5315.
-
+```markdown
+pereibido; pareialmente. Si
+en
+el transcurso de dos
+anos Jas provin-
+cias
+no hubieran utilizado los f .nidos de ayuda federal
+que le
+co-
+rrespondieren pasarân
+nuevamente
+al
+fondo
+general
+de
+vialidad.
+Art.
+34"
+— La Direcciôn Naeional
+de Vialidad
+solo podrâ in¬
+vertir fondos
+en
+territories provinciales,
+en los
+caminos pertene-
+eientes
+a
+la
+red troneal
+naeional
+y
+en los de ayuda
+federal
+de
+acuerdo
+a lo que se establece en
+el capitulo respectivo de esta Ley
+o
+en la ejecuciôn de lo dispuesto
+en el artîculo 8'
+de la Ley 5315.
 CAPITULO VI.
-
 Disposiciones generales
-
-    Art. 35° — La Dirección Nacional de Vialidad efectuará el se-
-ñalamiento y numeración de los caminos nacionales y propenderá a
-la adopción para todo el país de un sistema uniforme.
-    Art. 36° — La Dirección Nacional de Vialidad hará levantar
-y publicar un plano general y los planos detallados que considere
-necesarios de los caminos de la República, haciendo constar sus ca-
-racterísticas de mayor importancia. A ese efecto podrá ponerse de
-acuerdo con las instituciones públicas o privadas que crea conve-
+Art. 35*
+— La Direcciôn Naeional de Vialidad efectuarâ
+el
+se-
+nalamiento y numeraciôn de los caminos nacionales y propenderâ a
+la adopciôn
+para
+todo
+el pais de
+un si sterna uniforme.
+Art.
+36''
+—
+La Direcciôn Naeional
+de
+Vialidad
+barra
+levantar
+y publicar un piano general y los pianos detallados
+que considéré
+necesarios de los caminos de la Repiiblica, haciendo constar
+sus ca-
+racteristicas de mayor importancia. A
+ese efecto podrâ ponerse de
+acuerdo
+con
+las instituciones
+pûblicas b privadas
+que
+créa
+conve-
 niente.
-    Art. 37° — La Dirección Nacional de Vialidad preparará la re-
-glamentación general del tráfico para los caminos nacionales y pro-
-penderá a la adopción para toda la Nación de los principios que la
-informen, poniéndose de acuerdo para ello con los organismos pro-
+Art. 37"
+— La Direcciôn Naeional de Vialidad .prepararâ la re-
+glamentaciôn general del trâfico para los caminos nacionales y pro-
+penderâ
+a la adopciôn para toda la Naciôn de los prineipios que la
+informen, poniéndose de acuerdo para ello
+con los organismos
+pro¬
 vinciales de vialidad.
-    Esta reglamentación será sometida a la aprobación del Poder
-Ejecutivo.
-    Art. 38° — Cuando los Ministerios de Guerra y Marina crean
-conveniente la construcción o estudio de un camino de interés mili-
-tar, podrán confiar estas tareas a la Dirección Nacional de Vialidad
-y las inversiones que se hagan en este concepto serán provistas con
+Esta reglamentaciôn
+sera sometida
+a la
+aprobaciôn
+del
+Poder
+E.jeeutivo.
+Art.
+38"
+— Cuando los Ministerios
+de
+Guerra y Marina
+crean
+conveniente la construcciôn
+o estudio de un caniino de interés mili-
+lar. podrân confiai' estas tareas
+a la Direcciôn Naeional de Vialidad
+y las inversiones que se hagan
+en este concepto serait provistas con
 fondos del Ministerio respectivo.
-    Art. 39° — Todas las maquinarias y equipos para la construc-
-ción y conservación de caminos, puentes y demás obras de arte nece-
-sarias, que se adquieran en el extranjero por la Dirección Nacional
-de Vialidad o los gobiernos de provincias y municipios, estarán exen-
-tos de derechos de aduana.
-
+Art. 39"
+— iTodas las maqidnarias y equip os para la construc¬
+ciôn y conservaciôn de caminos. puenles y demâs obras de arte neee-
+sarias,
+que
+se adquieran
+en el extranjero jior la Direcciôn Naeional
+de Vialidad
+o los gobiernos de provincias y municipios, estaran exen-
+tos de dereebos de aduana.
 14
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 274

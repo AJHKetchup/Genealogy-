@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-1a1cc468d463-P0006-01
+chunk_id: CHUNK-7bc46dbbfb6d-P0006-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0351-0375-s522bis-29-3-pages-351-375.codex.md
-converted_sha256: 1a1cc468d4632623eaa7c3474f4808fe0c2acd8e1eadd615c34521dfe8d3ecd0
+converted_sha256: 7bc46dbbfb6d02a2e1a26dc633754e3dded3b6711682672e675de9e19b742bde
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0351-0375-s522bis-29-3-pages-351-375/manifest.json
@@ -64,3 +64,5 @@ All visible text and decorative elements on the page have been transcribed.
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for cropping. The page contains only text and minor decorative elements (asterisks) which are fully captured by transcription."}
 ```
+
+# Page 357
