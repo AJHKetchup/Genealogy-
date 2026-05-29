@@ -20,7 +20,7 @@
 | 763 | none | high | pass | none | none |
 | 764 | none | high | pass | none | none |
 | 765 | none | high | pass | none | none |
-| 766 | high | low | reread-page | none | none |
+| 766 | critical | low | reread-page | none | Dario |
 | 767 | none | high | pass | none | none |
 | 768 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |

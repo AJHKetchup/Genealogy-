@@ -1,6 +1,6 @@
 # Source Usability
 
-Generated: 2026-05-28T22:39:25Z
+Generated: 2026-05-29T00:00:20Z
 
 This report answers whether each raw source is ready for LLM extraction, still waiting on conversion, or held only on specific pages that need reread.
 
@@ -34,4 +34,4 @@ This report answers whether each raw source is ready for LLM extraction, still w
 | raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png | usable_for_extraction | 1 | 2 | 0 | 0 |
 | raw/sources/S495-2-2.pdf | partially_usable_for_extraction | 3 | 3 | 0 | 0 |
 | raw/sources/S519bis-26-4.pdf | partial_with_page_holds | 16 | 16 | 0 | 5 |
-| raw/sources/S522bis-29-3.pdf | partial_with_page_holds | 22 | 22 | 0 | 6 |
+| raw/sources/S522bis-29-3.pdf | partial_with_page_holds | 22 | 22 | 0 | 5 |
