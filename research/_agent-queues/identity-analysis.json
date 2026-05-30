@@ -1,9 +1,10 @@
 ﻿{
     "created":  "2026-05-30",
     "queue":  "identity-analysis",
-    "task_count":  238,
+    "task_count":  240,
     "status_counts":  {
-                          "done":  238
+                          "done":  238,
+                          "todo":  2
                       },
     "tasks":  [
                   {
@@ -2917,6 +2918,26 @@
                       "status":  "done",
                       "claimed_at":  "2026-05-27T08:51:50Z",
                       "role":  "identity_researcher"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-ff8bc4b91301-p0004-01-no-material-conflict-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-ff8bc4b91301-p0004-01-no-material-conflict.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-ff8bc4b91301-p0004-01-no-material-conflict.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-ff8bc4b91301-p0005-01-no-material-conflict-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-ff8bc4b91301-p0005-01-no-material-conflict.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-ff8bc4b91301-p0005-01-no-material-conflict.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "skill":  "genealogy-proof-review",

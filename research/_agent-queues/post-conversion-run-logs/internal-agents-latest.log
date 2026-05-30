@@ -119,31 +119,6 @@ Traceback (most recent call last):
 IndexError: list index out of range
 Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
 Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Wrote 815 conversion QC artifact(s)
-Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\conversion-qa.json
-Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\evidence-extraction.json
-Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\source-usability.json
-Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
-Traceback (most recent call last):
-  File "<frozen runpy>", line 198, in _run_module_as_main
-  File "<frozen runpy>", line 88, in _run_code
-  File "D:\a\Genealogy-\Genealogy-\src\historic_doc_ingest\genealogy_wiki.py", line 15455, in <module>
-    raise SystemExit(main())
-                     ^^^^^^
-  File "D:\a\Genealogy-\Genealogy-\src\historic_doc_ingest\genealogy_wiki.py", line 15254, in main
-    summary = sync_proof_review_hold_feedback(args.root)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\a\Genealogy-\Genealogy-\src\historic_doc_ingest\genealogy_wiki.py", line 6587, in sync_proof_review_hold_feedback
-    relevance = proof_review_feedback_relevance(text)
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\a\Genealogy-\Genealogy-\src\historic_doc_ingest\genealogy_wiki.py", line 6979, in proof_review_feedback_relevance
-    value = match.group(1).strip().lower().replace("_", " ").split()[0]
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
-IndexError: list index out of range
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
 Wrote 815 conversion QC artifact(s)
 Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\conversion-qa.json
 Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\evidence-extraction.json
@@ -190,31 +165,6 @@ Traceback (most recent call last):
     value = match.group(1).strip().lower().replace("_", " ").split()[0]
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
 IndexError: list index out of range
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Wrote 815 conversion QC artifact(s)
-Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\conversion-qa.json
-Wrote agent queue D:\a\Genealogy-\Genealogy-\research\_agent-queues\evidence-extraction.json
-Wrote source usability report D:\a\Genealogy-\Genealogy-\research\_indexes\source-usability.json
-Wrote source usability report D:\a\Genealogy-\Genealogy-\research\source-usability.md
-Traceback (most recent call last):
-  File "<frozen runpy>", line 198, in _run_module_as_main
-  File "<frozen runpy>", line 88, in _run_code
-  File "D:\a\Genealogy-\Genealogy-\src\historic_doc_ingest\genealogy_wiki.py", line 15455, in <module>
-    raise SystemExit(main())
-                     ^^^^^^
-  File "D:\a\Genealogy-\Genealogy-\src\historic_doc_ingest\genealogy_wiki.py", line 15254, in main
-    summary = sync_proof_review_hold_feedback(args.root)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\a\Genealogy-\Genealogy-\src\historic_doc_ingest\genealogy_wiki.py", line 6587, in sync_proof_review_hold_feedback
-    relevance = proof_review_feedback_relevance(text)
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\a\Genealogy-\Genealogy-\src\historic_doc_ingest\genealogy_wiki.py", line 6979, in proof_review_feedback_relevance
-    value = match.group(1).strip().lower().replace("_", " ").split()[0]
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
-IndexError: list index out of range
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
 Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
 Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
 Wrote 815 conversion QC artifact(s)
@@ -309,13 +259,11 @@ Traceback (most recent call last):
     value = match.group(1).strip().lower().replace("_", " ").split()[0]
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
 IndexError: list index out of range
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
-Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
 Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
 Updated agent task state D:\a\Genealogy-\Genealogy-\research\_agent-queues\task-state.json (1 task(s))
 post-conversion-controller | summary
 {
-    "started":  "2026-05-30T12:22:34Z",
+    "started":  "2026-05-30T13:44:33Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "dry_run":  false,
     "allow_promotion":  false,
@@ -330,319 +278,250 @@ post-conversion-controller | summary
                                          "todo":  201
                                      },
                    "evidence-extraction":  {
-                                               "done":  64,
-                                               "todo":  111,
+                                               "done":  65,
+                                               "todo":  110,
                                                "deferred_low_relevance":  4756,
                                                "blocked_needs_reread":  30
                                            },
                    "identity-analysis":  {
-                                             "done":  238
+                                             "done":  238,
+                                             "todo":  2
                                          },
                    "proof-review":  {
-                                        "todo":  4363,
-                                        "done":  407,
+                                        "todo":  4397,
+                                        "done":  409,
                                         "released":  66
                                     },
                    "wiki-promotion":  {
                                           "disabled_requires_allow_promotion":  1
                                       }
                },
-    "active_workers_before":  1,
+    "active_workers_before":  2,
     "active_workers_after":  0,
     "launched":  [
                      {
-                         "worker":  "postconv-identity-analysis-20260530122346003",
-                         "pid":  6288,
+                         "worker":  "postconv-proof-review-20260530134603641",
+                         "pid":  8872,
                          "task_ids":  [
-                                          "identity-analysis:research/_staging/conflicts/chunk-b8f4f0490a36-p0001-01-entry-172-derivative-transcript-conflict-source-image-missing-postconv-evidence-extraction-20260530115033211.md"
-                                      ],
-                         "queue":  "identity-analysis",
-                         "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260530122346003.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530122346003.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530122346003.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530122346003.last.md",
-                         "started":  "2026-05-30T12:23:47Z"
-                     },
-                     {
-                         "worker":  "postconv-proof-review-20260530122347566",
-                         "pid":  9436,
-                         "task_ids":  [
-                                          "proof-review:research/_staging/identity-analysis/identity-analysis-conflict-stage-chunk-8791cef1980e-p0002-01-no-genealogical-conflict-identified-postconv-identity-analysis-20260524224613453.md"
+                                          "proof-review:research/_staging/identity-analysis/chunk-b8f4f0490a36-p0001-01-entry-172-derivative-transcript-conflict-source-image-missing-postconv-identity-analysis-20260530124059453.md"
                                       ],
                          "queue":  "proof-review",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530122347566.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530122347566.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530122347566.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530122347566.last.md",
-                         "started":  "2026-05-30T12:23:49Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530134603641.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530134603641.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530134603641.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530134603641.last.md",
+                         "started":  "2026-05-30T13:46:04Z"
                      },
                      {
-                         "worker":  "postconv-evidence-extraction-20260530122349049",
-                         "pid":  1760,
+                         "worker":  "postconv-evidence-extraction-20260530134604511",
+                         "pid":  1156,
+                         "task_ids":  [
+                                          "evidence-extraction:CHUNK-ff8bc4b91301-P0005-01"
+                                      ],
+                         "queue":  "evidence-extraction",
+                         "codex":  "C:\\npm\\prefix\\codex.cmd",
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-evidence-extraction-20260530134604511.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260530134604511.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260530134604511.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260530134604511.last.md",
+                         "started":  "2026-05-30T13:46:06Z"
+                     },
+                     {
+                         "worker":  "postconv-evidence-extraction-20260530134606193",
+                         "pid":  7580,
+                         "task_ids":  [
+                                          "evidence-extraction:CHUNK-ff8bc4b91301-P0004-01"
+                                      ],
+                         "queue":  "evidence-extraction",
+                         "codex":  "C:\\npm\\prefix\\codex.cmd",
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-evidence-extraction-20260530134606193.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260530134606193.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260530134606193.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260530134606193.last.md",
+                         "started":  "2026-05-30T13:46:08Z"
+                     },
+                     {
+                         "worker":  "postconv-proof-review-20260530134910436",
+                         "pid":  3500,
+                         "task_ids":  [
+                                          "proof-review:research/_staging/identity-analysis/chunk-b8f4f0490a36-p0001-01-entry-172-derivative-transcript-conflict-source-image-missing-postconv-identity-analysis-20260530124059453.md"
+                                      ],
+                         "queue":  "proof-review",
+                         "codex":  "C:\\npm\\prefix\\codex.cmd",
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530134910436.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530134910436.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530134910436.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530134910436.last.md",
+                         "started":  "2026-05-30T13:49:11Z"
+                     },
+                     {
+                         "worker":  "postconv-proof-review-20260530135126736",
+                         "pid":  1552,
+                         "task_ids":  [
+                                          "proof-review:research/_staging/identity-analysis/chunk-b8f4f0490a36-p0001-01-entry-172-derivative-transcript-conflict-source-image-missing-postconv-identity-analysis-20260530124454140.md"
+                                      ],
+                         "queue":  "proof-review",
+                         "codex":  "C:\\npm\\prefix\\codex.cmd",
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530135126736.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530135126736.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530135126736.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530135126736.last.md",
+                         "started":  "2026-05-30T13:51:27Z"
+                     },
+                     {
+                         "worker":  "postconv-evidence-extraction-20260530135127386",
+                         "pid":  5396,
                          "task_ids":  [
                                           "evidence-extraction:CHUNK-b8f4f0490a36-P0001-01"
                                       ],
                          "queue":  "evidence-extraction",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-evidence-extraction-20260530122349049.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260530122349049.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260530122349049.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260530122349049.last.md",
-                         "started":  "2026-05-30T12:23:50Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-evidence-extraction-20260530135127386.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260530135127386.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260530135127386.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260530135127386.last.md",
+                         "started":  "2026-05-30T13:51:28Z"
                      },
                      {
-                         "worker":  "postconv-proof-review-20260530122718156",
-                         "pid":  972,
+                         "worker":  "postconv-proof-review-20260530135345959",
+                         "pid":  9140,
                          "task_ids":  [
-                                          "proof-review:research/_staging/identity-analysis/identity-analysis-conflict-stage-chunk-8791cef1980e-p0002-01-no-genealogical-conflict-identified-postconv-identity-analysis-20260524224613453.md"
+                                          "proof-review:research/_staging/identity-analysis/chunk-b8f4f0490a36-p0001-01-entry-172-derivative-transcript-conflict-source-image-missing-postconv-identity-analysis-20260530124059453.md"
                                       ],
                          "queue":  "proof-review",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530122718156.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530122718156.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530122718156.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530122718156.last.md",
-                         "started":  "2026-05-30T12:27:18Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530135345959.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530135345959.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530135345959.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530135345959.last.md",
+                         "started":  "2026-05-30T13:53:46Z"
                      },
                      {
-                         "worker":  "postconv-identity-analysis-20260530122914419",
-                         "pid":  2668,
+                         "worker":  "postconv-proof-review-20260530135602100",
+                         "pid":  8460,
                          "task_ids":  [
-                                          "identity-analysis:research/_staging/conflicts/chunk-b8f4f0490a36-p0001-01-entry-172-derivative-transcript-conflict-source-image-missing-postconv-evidence-extraction-20260530115033211.md"
-                                      ],
-                         "queue":  "identity-analysis",
-                         "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260530122914419.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530122914419.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530122914419.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530122914419.last.md",
-                         "started":  "2026-05-30T12:29:14Z"
-                     },
-                     {
-                         "worker":  "postconv-proof-review-20260530122914926",
-                         "pid":  6256,
-                         "task_ids":  [
-                                          "proof-review:research/_staging/identity-analysis/identity-analysis-conflict-stage-chunk-8791cef1980e-p0002-01-no-genealogical-conflict-identified-postconv-identity-analysis-20260524225039283.md"
+                                          "proof-review:research/_staging/identity-analysis/chunk-b8f4f0490a36-p0001-01-entry-172-derivative-transcript-conflict-source-image-missing-postconv-identity-analysis-20260530124454140.md"
                                       ],
                          "queue":  "proof-review",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530122914926.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530122914926.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530122914926.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530122914926.last.md",
-                         "started":  "2026-05-30T12:29:16Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530135602100.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530135602100.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530135602100.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530135602100.last.md",
+                         "started":  "2026-05-30T13:56:02Z"
                      },
                      {
-                         "worker":  "postconv-proof-review-20260530123112531",
-                         "pid":  8056,
+                         "worker":  "postconv-proof-review-20260530135818675",
+                         "pid":  7580,
                          "task_ids":  [
-                                          "proof-review:research/_staging/identity-analysis/identity-analysis-conflict-stage-chunk-8791cef1980e-p0002-01-no-genealogical-conflict-identified-postconv-identity-analysis-20260524224613453.md"
+                                          "proof-review:research/_staging/identity-analysis/chunk-b8f4f0490a36-p0001-01-entry-172-derivative-transcript-conflict-source-image-missing-postconv-identity-analysis-20260530124059453.md"
                                       ],
                          "queue":  "proof-review",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530123112531.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530123112531.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530123112531.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530123112531.last.md",
-                         "started":  "2026-05-30T12:31:13Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530135818675.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530135818675.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530135818675.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530135818675.last.md",
+                         "started":  "2026-05-30T13:58:19Z"
                      },
                      {
-                         "worker":  "postconv-identity-analysis-20260530123308745",
-                         "pid":  2920,
+                         "worker":  "postconv-evidence-extraction-20260530135819337",
+                         "pid":  8660,
                          "task_ids":  [
-                                          "identity-analysis:research/_staging/conflicts/chunk-b8f4f0490a36-p0001-01-entry-172-derivative-transcript-conflict-source-image-missing-postconv-evidence-extraction-20260530115033211.md"
+                                          "evidence-extraction:CHUNK-b8f4f0490a36-P0001-01"
                                       ],
-                         "queue":  "identity-analysis",
+                         "queue":  "evidence-extraction",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260530123308745.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530123308745.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530123308745.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530123308745.last.md",
-                         "started":  "2026-05-30T12:33:09Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-evidence-extraction-20260530135819337.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260530135819337.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260530135819337.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260530135819337.last.md",
+                         "started":  "2026-05-30T13:58:20Z"
                      },
                      {
-                         "worker":  "postconv-proof-review-20260530123309248",
-                         "pid":  8588,
+                         "worker":  "postconv-proof-review-20260530140038847",
+                         "pid":  1892,
                          "task_ids":  [
-                                          "proof-review:research/_staging/identity-analysis/identity-analysis-conflict-stage-chunk-8791cef1980e-p0002-01-no-genealogical-conflict-identified-postconv-identity-analysis-20260524225039283.md"
-                                      ],
-                         "queue":  "proof-review",
-                         "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530123309248.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530123309248.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530123309248.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530123309248.last.md",
-                         "started":  "2026-05-30T12:33:10Z"
-                     },
-                     {
-                         "worker":  "postconv-proof-review-20260530123507928",
-                         "pid":  5672,
-                         "task_ids":  [
-                                          "proof-review:research/_staging/identity-analysis/identity-analysis-conflict-stage-chunk-8791cef1980e-p0002-01-no-genealogical-conflict-identified-postconv-identity-analysis-20260524224613453.md"
+                                          "proof-review:research/_staging/identity-analysis/chunk-b8f4f0490a36-p0001-01-entry-172-derivative-transcript-conflict-source-image-missing-postconv-identity-analysis-20260530124454140.md"
                                       ],
                          "queue":  "proof-review",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530123507928.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530123507928.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530123507928.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530123507928.last.md",
-                         "started":  "2026-05-30T12:35:08Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530140038847.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530140038847.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530140038847.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530140038847.last.md",
+                         "started":  "2026-05-30T14:00:39Z"
                      },
                      {
-                         "worker":  "postconv-identity-analysis-20260530123704317",
-                         "pid":  5164,
+                         "worker":  "postconv-proof-review-20260530140256881",
+                         "pid":  8772,
                          "task_ids":  [
-                                          "identity-analysis:research/_staging/conflicts/chunk-b8f4f0490a36-p0001-01-entry-172-derivative-transcript-conflict-source-image-missing-postconv-evidence-extraction-20260530115033211.md"
-                                      ],
-                         "queue":  "identity-analysis",
-                         "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260530123704317.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530123704317.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530123704317.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530123704317.last.md",
-                         "started":  "2026-05-30T12:37:04Z"
-                     },
-                     {
-                         "worker":  "postconv-proof-review-20260530123704829",
-                         "pid":  2016,
-                         "task_ids":  [
-                                          "proof-review:research/_staging/identity-analysis/identity-analysis-conflict-stage-chunk-8791cef1980e-p0002-01-no-genealogical-conflict-identified-postconv-identity-analysis-20260524225039283.md"
+                                          "proof-review:research/_staging/identity-analysis/chunk-b8f4f0490a36-p0001-01-entry-172-derivative-transcript-conflict-source-image-missing-postconv-identity-analysis-20260530124059453.md"
                                       ],
                          "queue":  "proof-review",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530123704829.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530123704829.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530123704829.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530123704829.last.md",
-                         "started":  "2026-05-30T12:37:05Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530140256881.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530140256881.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530140256881.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530140256881.last.md",
+                         "started":  "2026-05-30T14:02:57Z"
                      },
                      {
-                         "worker":  "postconv-proof-review-20260530123903183",
-                         "pid":  6616,
+                         "worker":  "postconv-proof-review-20260530140513518",
+                         "pid":  7276,
                          "task_ids":  [
-                                          "proof-review:research/_staging/identity-analysis/identity-analysis-conflict-stage-chunk-8791cef1980e-p0002-01-no-genealogical-conflict-identified-postconv-identity-analysis-20260524224613453.md"
+                                          "proof-review:research/_staging/identity-analysis/chunk-b8f4f0490a36-p0001-01-entry-172-derivative-transcript-conflict-source-image-missing-postconv-identity-analysis-20260530124454140.md"
                                       ],
                          "queue":  "proof-review",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530123903183.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530123903183.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530123903183.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530123903183.last.md",
-                         "started":  "2026-05-30T12:39:03Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530140513518.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530140513518.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530140513518.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530140513518.last.md",
+                         "started":  "2026-05-30T14:05:14Z"
                      },
                      {
-                         "worker":  "postconv-identity-analysis-20260530124059453",
-                         "pid":  6312,
+                         "worker":  "postconv-evidence-extraction-20260530140514180",
+                         "pid":  4816,
                          "task_ids":  [
-                                          "identity-analysis:research/_staging/conflicts/chunk-b8f4f0490a36-p0001-01-entry-172-derivative-transcript-conflict-source-image-missing-postconv-evidence-extraction-20260530115033211.md"
+                                          "evidence-extraction:CHUNK-b8f4f0490a36-P0001-01"
                                       ],
-                         "queue":  "identity-analysis",
+                         "queue":  "evidence-extraction",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260530124059453.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530124059453.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530124059453.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530124059453.last.md",
-                         "started":  "2026-05-30T12:40:59Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-evidence-extraction-20260530140514180.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260530140514180.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260530140514180.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-evidence-extraction-20260530140514180.last.md",
+                         "started":  "2026-05-30T14:05:15Z"
                      },
                      {
-                         "worker":  "postconv-proof-review-20260530124059960",
-                         "pid":  4160,
+                         "worker":  "postconv-proof-review-20260530140733176",
+                         "pid":  4636,
                          "task_ids":  [
-                                          "proof-review:research/_staging/identity-analysis/identity-analysis-conflict-stage-chunk-8791cef1980e-p0002-01-no-genealogical-conflict-identified-postconv-identity-analysis-20260524225039283.md"
-                                      ],
-                         "queue":  "proof-review",
-                         "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530124059960.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530124059960.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530124059960.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530124059960.last.md",
-                         "started":  "2026-05-30T12:41:01Z"
-                     },
-                     {
-                         "worker":  "postconv-proof-review-20260530124257645",
-                         "pid":  6012,
-                         "task_ids":  [
-                                          "proof-review:research/_staging/identity-analysis/identity-analysis-conflict-stage-chunk-8791cef1980e-p0002-01-no-genealogical-conflict-identified-postconv-identity-analysis-20260524224613453.md"
+                                          "proof-review:research/_staging/identity-analysis/chunk-b8f4f0490a36-p0001-01-entry-172-derivative-transcript-conflict-source-image-missing-postconv-identity-analysis-20260530124059453.md"
                                       ],
                          "queue":  "proof-review",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530124257645.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530124257645.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530124257645.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530124257645.last.md",
-                         "started":  "2026-05-30T12:42:58Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530140733176.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530140733176.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530140733176.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530140733176.last.md",
+                         "started":  "2026-05-30T14:07:33Z"
                      },
                      {
-                         "worker":  "postconv-identity-analysis-20260530124454140",
-                         "pid":  3764,
+                         "worker":  "postconv-proof-review-20260530140951704",
+                         "pid":  5420,
                          "task_ids":  [
-                                          "identity-analysis:research/_staging/conflicts/chunk-b8f4f0490a36-p0001-01-entry-172-derivative-transcript-conflict-source-image-missing-postconv-evidence-extraction-20260530115033211.md"
-                                      ],
-                         "queue":  "identity-analysis",
-                         "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260530124454140.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530124454140.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530124454140.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530124454140.last.md",
-                         "started":  "2026-05-30T12:44:54Z"
-                     },
-                     {
-                         "worker":  "postconv-proof-review-20260530124454645",
-                         "pid":  9316,
-                         "task_ids":  [
-                                          "proof-review:research/_staging/identity-analysis/identity-analysis-conflict-stage-chunk-8791cef1980e-p0002-01-no-genealogical-conflict-identified-postconv-identity-analysis-20260524225039283.md"
+                                          "proof-review:research/_staging/identity-analysis/chunk-b8f4f0490a36-p0001-01-entry-172-derivative-transcript-conflict-source-image-missing-postconv-identity-analysis-20260530124454140.md"
                                       ],
                          "queue":  "proof-review",
                          "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530124454645.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530124454645.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530124454645.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530124454645.last.md",
-                         "started":  "2026-05-30T12:44:55Z"
-                     },
-                     {
-                         "worker":  "postconv-proof-review-20260530124652320",
-                         "pid":  2256,
-                         "task_ids":  [
-                                          "proof-review:research/_staging/identity-analysis/identity-analysis-conflict-stage-chunk-8791cef1980e-p0002-01-no-genealogical-conflict-identified-postconv-identity-analysis-20260524224613453.md"
-                                      ],
-                         "queue":  "proof-review",
-                         "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530124652320.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530124652320.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530124652320.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530124652320.last.md",
-                         "started":  "2026-05-30T12:46:52Z"
-                     },
-                     {
-                         "worker":  "postconv-identity-analysis-20260530124851565",
-                         "pid":  5572,
-                         "task_ids":  [
-                                          "identity-analysis:research/_staging/conflicts/chunk-b8f4f0490a36-p0001-01-entry-172-derivative-transcript-conflict-source-image-missing-postconv-evidence-extraction-20260530115033211.md"
-                                      ],
-                         "queue":  "identity-analysis",
-                         "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-identity-analysis-20260530124851565.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530124851565.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530124851565.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-identity-analysis-20260530124851565.last.md",
-                         "started":  "2026-05-30T12:48:52Z"
-                     },
-                     {
-                         "worker":  "postconv-proof-review-20260530124852075",
-                         "pid":  7028,
-                         "task_ids":  [
-                                          "proof-review:research/_staging/identity-analysis/identity-analysis-conflict-stage-chunk-8791cef1980e-p0002-01-no-genealogical-conflict-identified-postconv-identity-analysis-20260524225039283.md"
-                                      ],
-                         "queue":  "proof-review",
-                         "codex":  "C:\\npm\\prefix\\codex.cmd",
-                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530124852075.md",
-                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530124852075.jsonl",
-                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530124852075.err.log",
-                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530124852075.last.md",
-                         "started":  "2026-05-30T12:48:53Z"
+                         "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-proof-review-20260530140951704.md",
+                         "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530140951704.jsonl",
+                         "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530140951704.err.log",
+                         "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-proof-review-20260530140951704.last.md",
+                         "started":  "2026-05-30T14:09:52Z"
                      }
                  ],
     "blockers":  [
@@ -656,9 +535,7 @@ post-conversion-controller | summary
                      "refresh: genealogy-wiki failed: source-relevance sync-review-holds --root D:\\a\\Genealogy-\\Genealogy-: raise SystemExit(main()) |                      ^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 15254, in main |     summary = sync_proof_review_hold_feedback(args.root) |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6587, in sync_proof_review_hold_feedback |     relevance = proof_review_feedback_relevance(text) |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6979, in proof_review_feedback_relevance |     value = match.group(1).strip().lower().replace(\"_\", \" \").split()[0] |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^ | IndexError: list index out of range",
                      "refresh: genealogy-wiki failed: source-relevance sync-review-holds --root D:\\a\\Genealogy-\\Genealogy-: raise SystemExit(main()) |                      ^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 15254, in main |     summary = sync_proof_review_hold_feedback(args.root) |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6587, in sync_proof_review_hold_feedback |     relevance = proof_review_feedback_relevance(text) |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6979, in proof_review_feedback_relevance |     value = match.group(1).strip().lower().replace(\"_\", \" \").split()[0] |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^ | IndexError: list index out of range",
                      "refresh: genealogy-wiki failed: source-relevance sync-review-holds --root D:\\a\\Genealogy-\\Genealogy-: raise SystemExit(main()) |                      ^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 15254, in main |     summary = sync_proof_review_hold_feedback(args.root) |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6587, in sync_proof_review_hold_feedback |     relevance = proof_review_feedback_relevance(text) |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6979, in proof_review_feedback_relevance |     value = match.group(1).strip().lower().replace(\"_\", \" \").split()[0] |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^ | IndexError: list index out of range",
-                     "refresh: genealogy-wiki failed: source-relevance sync-review-holds --root D:\\a\\Genealogy-\\Genealogy-: raise SystemExit(main()) |                      ^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 15254, in main |     summary = sync_proof_review_hold_feedback(args.root) |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6587, in sync_proof_review_hold_feedback |     relevance = proof_review_feedback_relevance(text) |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6979, in proof_review_feedback_relevance |     value = match.group(1).strip().lower().replace(\"_\", \" \").split()[0] |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^ | IndexError: list index out of range",
-                     "refresh: genealogy-wiki failed: source-relevance sync-review-holds --root D:\\a\\Genealogy-\\Genealogy-: raise SystemExit(main()) |                      ^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 15254, in main |     summary = sync_proof_review_hold_feedback(args.root) |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6587, in sync_proof_review_hold_feedback |     relevance = proof_review_feedback_relevance(text) |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6979, in proof_review_feedback_relevance |     value = match.group(1).strip().lower().replace(\"_\", \" \").split()[0] |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^ | IndexError: list index out of range",
                      "refresh: genealogy-wiki failed: source-relevance sync-review-holds --root D:\\a\\Genealogy-\\Genealogy-: raise SystemExit(main()) |                      ^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 15254, in main |     summary = sync_proof_review_hold_feedback(args.root) |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6587, in sync_proof_review_hold_feedback |     relevance = proof_review_feedback_relevance(text) |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"D:\\a\\Genealogy-\\Genealogy-\\src\\historic_doc_ingest\\genealogy_wiki.py\", line 6979, in proof_review_feedback_relevance |     value = match.group(1).strip().lower().replace(\"_\", \" \").split()[0] |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^ | IndexError: list index out of range"
                  ],
-    "finished":  "2026-05-30T12:51:27Z"
+    "finished":  "2026-05-30T14:12:31Z"
 }
