@@ -14,8 +14,19 @@ Use `$genealogy-claim-extraction`.
 - Family relevance: `high`
 - Matched family terms: Pulgar
 - Narrative cues: convention
-- Evidence priority: `1061` (family_relevance:high, qc:pass, matched_terms, person_linked_narrative_context)
+- Evidence priority: `361` (family_relevance:high, qc:pass, matched_terms, person_linked_narrative_context, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/chunk-2faa60e38062-p0411-01-initialed-pulgar-identity-watch-postconv-identity-analysis-20260530175415492-proof-review-postconv-proof-review-20260530190148761.md` | `research/_staging/identity-analysis/chunk-2faa60e38062-p0411-01-initialed-pulgar-identity-watch-postconv-identity-analysis-20260530175415492.md` | `hold` | Keep the staged draft on hold. Restore or retrieve the missing rendered page image or source PDF, then verify the Chile block directly against the source image. If the image confirms the line, promote only a narrow source-local claim that a person rendered as `D. Pulgar` appears under the Chile signature/list block on page 411. Any same-person merge requires separate identity-bearing evidence with a full name or strong bridge facts. |
+| `research/_staging/reviews/chunk-2faa60e38062-p0411-01-initialed-pulgar-identity-watch-postconv-identity-analysis-20260530175415492-proof-review-postconv-proof-review-20260530190945103.md` | `research/_staging/identity-analysis/chunk-2faa60e38062-p0411-01-initialed-pulgar-identity-watch-postconv-identity-analysis-20260530175415492.md` | `hold` | Hold the staged draft from canonical promotion. Retrieve or generate the deferred page image through the normal conversion/QA workflow, then compare `page-0411.jpg` against the text-layer reading. If the image confirms the line, a downstream worker may stage only the narrow `D. Pulgar` Chile signatory claim and should keep all same-person merges or relationship conclusions pending separate full-name identity-bridge evidence. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Person-First Narrative Contract

@@ -11,6 +11,8 @@ chunk_id: CHUNK-209967debfb4-P0001-01
 page_reference: "page 1"
 confidence: low
 promotion_recommendation: do_not_promote
+revision_task_id: evidence-extraction:CHUNK-209967debfb4-P0001-01
+revision_worker: postconv-evidence-extraction-20260530185053474
 ---
 
 # Identity Conflict Review: No Conflict Staged

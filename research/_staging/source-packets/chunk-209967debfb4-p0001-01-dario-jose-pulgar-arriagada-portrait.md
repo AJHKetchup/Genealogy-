@@ -19,8 +19,10 @@ matched_terms:
   - Dario
   - Pulgar
 conversion_confidence: low
-conversion_qa_concern: "The converted page contains no literal text or visible caption naming Dario Jose Pulgar-Arriagada. The family identification comes from the source title/path context. The original source image path listed in metadata was not present locally during extraction, so a direct visual reread could not be completed."
+conversion_qa_concern: "The converted page contains no literal text or visible caption naming Dario Jose Pulgar-Arriagada. The family identification comes from the source title/path context. In this revision pass, the original source PNG and conversion-job extracted image directory were not present locally, so a direct image reread could not be completed."
 promotion_recommendation: hold_for_conversion_qa
+revision_task_id: evidence-extraction:CHUNK-209967debfb4-P0001-01
+revision_worker: postconv-evidence-extraction-20260530185424344
 ---
 
 # Source Packet: Dario Jose Pulgar-Arriagada Portrait
@@ -47,11 +49,13 @@ raw/sources/Portrait Dario Jose Pulgar-Arriagada 2.png
 
 ## Conversion Confidence And QA Concern
 
-Conversion confidence is low for identity extraction. The visual description supports a portrait of a man, but the page itself has no visible caption or label naming him. The name Dario Jose Pulgar-Arriagada is present in source path/title context only. The original PNG listed as the source path was not present locally during extraction, which prevents direct reread of the source image.
+Conversion confidence is low for identity extraction. The visual description supports a portrait of a man, but the page itself has no visible caption or label naming him. The name Dario Jose Pulgar-Arriagada is present in source path/title context only. During this revision pass, `raw/sources/Portrait Dario Jose Pulgar-Arriagada 2.png` was absent locally, and the conversion job directory contained page Markdown/work-order files but no extracted image directory, preventing direct image reread.
 
 ## Uncertainty
 
 This source may support a family portrait lead after source availability and identity review. It does not independently prove the sitter's identity, date, place, age, occupation, or any family relationship.
+
+The proof-review notes supplied with this task concern a different page-local convention speaker issue on page 135. They reinforce the need for identity-bridge review before attaching weak or derivative identity evidence to a canonical Dario/Jose candidate, but they do not add literal support to this portrait chunk.
 
 ## Promotion Recommendation
 
