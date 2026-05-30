@@ -3,6 +3,10 @@ type: relationship_candidate
 status: draft
 revision_worker: postconv-evidence-extraction-20260530104410124
 revision_at: 2026-05-30T10:45:10Z
+latest_revision_worker: postconv-evidence-extraction-20260530114926285
+latest_revision_at: 2026-05-30T11:50:18Z
+current_revision_worker: postconv-evidence-extraction-20260530115723693
+current_revision_at: 2026-05-30T11:58:38Z
 relationship_type: no_family_relationship_stated
 person_a: "Dario Arturo Pulgar"
 person_b: ""
@@ -17,7 +21,7 @@ manifest_chunk_sha256_values: "5e6aed90f2420572473987255df4bbec4de8750bd2f9701a9
 page_reference: "page 4"
 literal_support: "The referenced derivative chunk lists professional experience entries for the CV subject, including FAO, CIDA, WIF, and independent communications consulting roles; those entries do not state any kinship relationship."
 conversion_confidence: low_for_page_control
-conversion_qa_concern: "Proof review found a page-control conflict: image-reviewed page-4 control evidence shows 2000 IBRD and 1999-2000 Antamina entries, while this referenced derivative chunk/source packet show 1982-1989 entries. The manifest also duplicates this page-4 chunk id/path with different character counts and hashes, neither manifest hash matches the current on-disk chunk hash, the converted file hash has changed from the hash recorded in chunk front matter, and the expected page-4 image was not present during this revision."
+conversion_qa_concern: "Proof review found a page-control conflict: image-reviewed page-4 control evidence shows 2000 IBRD and 1999-2000 Antamina entries, while this referenced derivative chunk/source packet show 1982-1989 entries. The current converted Markdown preserves both text clusters in the same converted source. The manifest also duplicates this page-4 chunk id/path with different character counts and hashes, neither manifest hash matches the current on-disk chunk hash, the converted file hash has changed from the hash recorded in chunk front matter, and the expected page-4 image was not present during this revision."
 uncertainty: "Low that the derivative chunk states no spouse, parent, child, sibling, grandparent, household, or other kinship relationship for Dario Arturo Pulgar; high for relying on the assigned page number until conversion QA is complete."
 confidence: high
 promotion_recommendation: do_not_promote

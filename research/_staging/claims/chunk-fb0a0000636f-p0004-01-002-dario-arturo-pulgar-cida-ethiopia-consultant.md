@@ -3,6 +3,10 @@ type: claim
 status: draft
 revision_worker: postconv-evidence-extraction-20260530104410124
 revision_at: 2026-05-30T10:45:10Z
+latest_revision_worker: postconv-evidence-extraction-20260530114926285
+latest_revision_at: 2026-05-30T11:50:18Z
+current_revision_worker: postconv-evidence-extraction-20260530115723693
+current_revision_at: 2026-05-30T11:58:38Z
 claim_type: employment
 subject: "Dario Arturo Pulgar"
 predicate: "worked as"
@@ -22,7 +26,7 @@ organization: "Canadian International Development Agency (CIDA)"
 role: "Communication Consultant"
 literal_support: "1988; Canadian International Development Agency (CIDA); Ethiopia; Communication Consultant"
 conversion_confidence: low_for_page_control
-conversion_qa_concern: "Proof review reports physical page-4 image/control evidence showing 2000 IBRD and 1999-2000 Antamina text, while this referenced derivative chunk/source packet show the 1988 CIDA Ethiopia text. The manifest duplicates this page-4 chunk id/path with different character counts and hashes, neither manifest hash matches the current on-disk chunk hash, the converted file hash has changed from the hash recorded in chunk front matter, and the expected page-4 image was not present during this revision. Source-prep QA must determine the physical page for the CIDA Ethiopia entry."
+conversion_qa_concern: "Proof review reports physical page-4 image/control evidence showing 2000 IBRD and 1999-2000 Antamina text, while this referenced derivative chunk/source packet show the 1988 CIDA Ethiopia text. The current converted Markdown preserves both text clusters in the same converted source, the manifest duplicates this page-4 chunk id/path with different character counts and hashes, neither manifest hash matches the current on-disk chunk hash, the converted file hash has changed from the hash recorded in chunk front matter, and the expected page-4 image was not present during this revision. Source-prep QA must determine the physical page for the CIDA Ethiopia entry."
 uncertainty: "Low for the role, organization, location, and year as preserved in the derivative chunk; high for using it as page-4 evidence until source-prep/conversion QA reconciles which physical page controls this text. Subject attachment also relies on the CV source title and document continuity."
 confidence: low_pending_conversion_qa
 promotion_recommendation: hold_for_conversion_qa

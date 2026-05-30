@@ -3,6 +3,10 @@ type: claim
 status: draft
 revision_worker: postconv-evidence-extraction-20260530104410124
 revision_at: 2026-05-30T10:45:10Z
+latest_revision_worker: postconv-evidence-extraction-20260530114926285
+latest_revision_at: 2026-05-30T11:50:18Z
+current_revision_worker: postconv-evidence-extraction-20260530115723693
+current_revision_at: 2026-05-30T11:58:38Z
 claim_type: work_travel
 subject: "Dario Arturo Pulgar"
 predicate: "implemented rural communications projects in"
@@ -21,7 +25,7 @@ place: "The Gambia; Mali; Nicaragua; Peru"
 organization: "Worldview International Foundation (WIF)"
 literal_support: "Implement rural communications projects in The Gambia, Mali, Nicaragua and Peru."
 conversion_confidence: low_for_page_control
-conversion_qa_concern: "Proof review reports physical page-4 image/control evidence showing 2000 IBRD and 1999-2000 Antamina text, while this referenced derivative chunk/source packet show the WIF project-countries text. The manifest duplicates this page-4 chunk id/path with different character counts and hashes, neither manifest hash matches the current on-disk chunk hash, the converted file hash has changed from the hash recorded in chunk front matter, and the expected page-4 image was not present during this revision. Source-prep QA must determine the physical page for the WIF project-country text."
+conversion_qa_concern: "Proof review reports physical page-4 image/control evidence showing 2000 IBRD and 1999-2000 Antamina text, while this referenced derivative chunk/source packet show the WIF project-countries text. The current converted Markdown preserves both text clusters in the same converted source, the manifest duplicates this page-4 chunk id/path with different character counts and hashes, neither manifest hash matches the current on-disk chunk hash, the converted file hash has changed from the hash recorded in chunk front matter, and the expected page-4 image was not present during this revision. Source-prep QA must determine the physical page for the WIF project-country text."
 uncertainty: "Moderate because the text lists project countries within the WIF role and does not separately state exact residence or travel dates for each country; high for using it as page-4 evidence until source-prep/conversion QA reconciles which physical page controls this text."
 confidence: low_pending_conversion_qa
 promotion_recommendation: hold_for_conversion_qa

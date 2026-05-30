@@ -2,6 +2,8 @@
 type: research_task
 status: draft
 task_type: conversion_qa
+latest_revision_worker: postconv-evidence-extraction-20260530114926285
+latest_revision_at: 2026-05-30T11:50:18Z
 subject: "Dario Arturo Pulgar"
 source_packet: "research/_staging/source-packets/chunk-fb0a0000636f-p0004-01-cv-dario-arturo-pulgar-work-history.md"
 source: "raw/sources/CV of Dario Arturo Pulgar.pdf"
