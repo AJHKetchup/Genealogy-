@@ -3,7 +3,7 @@ type: source_packet
 status: draft
 task_id: evidence-extraction:CHUNK-27856e440ba9-P0135-01
 worker: postconv-evidence-extraction-20260530013333369
-revision_worker: postconv-evidence-extraction-20260530202705234
+revision_worker: postconv-evidence-extraction-20260530213421362
 source_id: r3577-50-5569-5569-jacket3-page-135-pulgar-arriagada-convention-intervention
 source_title: "R3577-50-5569-5569 Jacket3, page 135, convention proceedings intervention by M. Pulgar-Arriagada"
 source_path: raw/sources/R3577-50-5569-5569-Jacket3.pdf
@@ -65,7 +65,7 @@ The useful family-narrative evidence concerns the named Chilean speaker, `M. Pul
 
 Conversion confidence is low-to-medium until page-image QA is completed. The speaker heading and statement are readable in the converted chunk, but the expected rendered page image was not available in the current workspace. The page has OCR artifacts in the derivative transcript, especially `jjas` where French context suggests a likely `pas`, and line-break artifacts elsewhere.
 
-Do not treat the transcript text above as image-reviewed evidence. A conversion-review note has been staged at `research/_staging/conversion-review/chunk-27856e440ba9-p0135-01-pulgar-arriagada-image-unavailable-20260530202825446.md`.
+Do not treat the transcript text above as image-reviewed evidence. Conversion-review notes have been staged at `research/_staging/conversion-review/chunk-27856e440ba9-p0135-01-pulgar-arriagada-image-unavailable-20260530202825446.md` and `research/_staging/conversion-review/chunk-27856e440ba9-p0135-01-pulgar-arriagada-image-unavailable-20260530213421362.md`.
 
 ## Uncertainty
 
