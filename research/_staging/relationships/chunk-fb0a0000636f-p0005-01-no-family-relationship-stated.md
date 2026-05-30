@@ -17,6 +17,6 @@ promotion_recommendation: do_not_promote
 # Relationship Candidate Review: No Family Relationship Stated
 
 - Literal support reviewed: Page 5 lists professional experience entries for the CV subject, including HABITAT, NFB, Chile Films, and CITELCO roles.
-- Conversion confidence/QA concern: High; the converted chunk reports complete transcription and no uncertain or illegible text, but the original page image was not reviewed and the manifest has a duplicate page-5 chunk entry.
-- Uncertainty: Low that this page states no spouse, parent, child, sibling, grandparent, household, or other kinship relationship for Dario Arturo Pulgar.
+- Conversion confidence/QA concern: Blocked for page control; derivative transcripts disagree about page 5, the manifest has duplicate page-5 records with differing hashes, and no checked `page-0005.jpg` was available for image proof review.
+- Uncertainty: Low that the reviewed chunk text states no spouse, parent, child, sibling, grandparent, household, or other kinship relationship for Dario Arturo Pulgar; high that this should not be used beyond negative evidence until conversion QA resolves the page mapping.
 - Promotion recommendation: Do not promote a relationship from this chunk.

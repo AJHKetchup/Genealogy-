@@ -2,7 +2,7 @@
 type: source_packet
 status: draft
 task_id: evidence-extraction:CHUNK-fb0a0000636f-P0005-01
-worker: postconv-evidence-extraction-20260525190044567
+worker: postconv-evidence-extraction-20260530204246348
 source_title: CV of Dario Arturo Pulgar
 source_type: curriculum_vitae
 source: raw/sources/CV of Dario Arturo Pulgar.pdf
@@ -19,10 +19,11 @@ page_end: 5
 source_identity: Dario Arturo Pulgar, identified by the source title; this page appears to be a curriculum vitae work-history page for him.
 family_relevance: high
 matched_terms: Dario; Pulgar
-conversion_confidence: high; converted chunk reports complete transcription and no uncertain or illegible text.
-conversion_qa_concern: The original page image was not reviewed during this extraction; the chunk manifest contains duplicate page-5 chunk entries with the same chunk id but differing char counts and sha256 values, so page continuity and chunk identity should be verified before promotion.
-uncertainty: Low for the listed work-history entries as converted; moderate that the page body does not repeat Dario Arturo Pulgar's name and relies on the CV source title and document continuity for subject identity.
-promotion_recommendation: promote_after_review
+conversion_confidence: blocked; the chunk text is internally legible, but derivative transcripts disagree about what page 5 contains.
+conversion_qa_concern: Hold for conversion QA. The current chunk and aggregate converted file section for page 5 contain 1979-1970 work-history entries, while the conversion job page Markdown at raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0005.md contains 1999/1998 entries. The chunk manifest also lists the same page-5 chunk id twice with different char counts and sha256 values, and no page-0005.jpg was found in the checked image locations.
+uncertainty: High for page control and canonical promotion because the controlling transcription for page 5 is unresolved; moderate for subject attachment because the page body does not repeat Dario Arturo Pulgar's name and relies on the CV source title and document continuity.
+promotion_recommendation: hold_for_conversion_qa
+revision_note: Updated after proof-review revision request; evidence remains blocked pending page-image restoration, page-5 transcript reconciliation, manifest repair, and a separate identity-bridge review.
 ---
 
 # Source Packet: CV of Dario Arturo Pulgar, Page 5
@@ -67,8 +68,8 @@ Producer
 
 ## Evidence Scope
 
-This packet supports staged narrative claims about Dario Arturo Pulgar's professional roles, dates, work locations, regional assignments, travel, conference-related film work, and film-production context between 1970 and 1982. It does not state a birth, death, parent, spouse, child, sibling, household, or other kinship relationship.
+If the page mapping is reconciled to this chunk text, this packet may support narrow staged narrative claims about Dario Arturo Pulgar's professional roles, dates, work locations, regional assignments, travel, conference-related film work, and film-production context between 1970 and 1982. It does not state a birth, death, parent, spouse, child, sibling, household, or other kinship relationship.
 
 ## QA Notes
 
-The converted chunk states that the page is fully transcribed and has no uncertain or illegible text. Promotion should verify the original PDF page image, document title-to-page continuity, and the manifest anomaly in which page 5 appears twice with the same chunk id but different sha256 values.
+The converted chunk states that the page is fully transcribed and has no uncertain or illegible text, but it cannot be treated as promotion-ready. The conversion job page Markdown for page 5 gives different work-history content from the chunk/aggregate text, the chunk manifest has duplicate page-5 entries with differing hashes, and the checked page-image paths did not contain `page-0005.jpg`. Resolve page control and rerun proof review before promoting any claims from this packet.

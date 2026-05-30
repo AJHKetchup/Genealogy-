@@ -3,6 +3,7 @@ type: source_packet
 status: draft
 task_id: evidence-extraction:CHUNK-27856e440ba9-P0135-01
 worker: postconv-evidence-extraction-20260530013333369
+revision_worker: postconv-evidence-extraction-20260530202705234
 source_id: r3577-50-5569-5569-jacket3-page-135-pulgar-arriagada-convention-intervention
 source_title: "R3577-50-5569-5569 Jacket3, page 135, convention proceedings intervention by M. Pulgar-Arriagada"
 source_path: raw/sources/R3577-50-5569-5569-Jacket3.pdf
@@ -23,10 +24,10 @@ matched_terms:
   - Pulgar
 narrative_cues:
   - convention
-conversion_confidence: medium
-conversion_qa_concern: "Docling readability status is `rough_ok` with no automated readability flags, but this extraction did not reread the rendered page image. The relevant passage has OCR artifacts, especially `jjas` for likely `pas`, and should be proofed before canonical quotation or translation."
+conversion_confidence: low_to_medium_pending_page_image_qa
+conversion_qa_concern: "Proof review requested targeted page-image QA for source page 135. The expected rendered image path `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket3-pages-126-150/page-images/page-0135.jpg` is referenced by the work order and visuals metadata but is not present in the current workspace. The derivative transcript therefore remains unverified, including the speaker heading and `jjas`/likely `pas` reading."
 uncertainty: "The page identifies the speaker only as `M. Pulgar-Arriagada (Chili)` and does not state a given name, age, residence, family relationship, or explicit delegate title. Linkage to Dario Jose Pulgar-Arriagada or another fuller identity requires identity proof review using other convention records."
-promotion_recommendation: revise_before_review
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Source Packet: Pulgar-Arriagada Convention Intervention, Source Page 135
@@ -54,7 +55,7 @@ Nous nous heurtons à des difficultés, parce que les brancardiers n'ont jjas pa
 
 ## Working Translation
 
-`M. Pulgar-Arriagada (Chile)` said that the discussion faced difficulties because stretcher-bearers did not have the same function everywhere; in his country, stretcher-bearers were combatants and were naturally exposed to enemy fire.
+Provisional only, based on the unverified derivative transcript: `M. Pulgar-Arriagada (Chile)` said that the discussion faced difficulties because stretcher-bearers did not have the same function everywhere; in his country, stretcher-bearers were combatants and were naturally exposed to enemy fire.
 
 ## Person-First Extraction Notes
 
@@ -62,7 +63,9 @@ The useful family-narrative evidence concerns the named Chilean speaker, `M. Pul
 
 ## Conversion Confidence And QA Concern
 
-Conversion confidence is medium for the family-relevant passage. The speaker heading and statement are readable in the converted chunk, but the page has visible OCR artifacts, including `jjas`, and line-break artifacts elsewhere. Page-image proofing is recommended before promotion.
+Conversion confidence is low-to-medium until page-image QA is completed. The speaker heading and statement are readable in the converted chunk, but the expected rendered page image was not available in the current workspace. The page has OCR artifacts in the derivative transcript, especially `jjas` where French context suggests a likely `pas`, and line-break artifacts elsewhere.
+
+Do not treat the transcript text above as image-reviewed evidence. A conversion-review note has been staged at `research/_staging/conversion-review/chunk-27856e440ba9-p0135-01-pulgar-arriagada-image-unavailable-20260530202825446.md`.
 
 ## Uncertainty
 
@@ -70,4 +73,4 @@ This page does not expand `M.` into a given name and does not state that `M. Pul
 
 ## Promotion Recommendation
 
-`revise_before_review` for the source packet and related claims until page-image QA and identity review are complete. Do not promote any family relationship from this page.
+`hold_for_conversion_qa` for the source packet and related claims until page-image QA confirms the heading and intervention text, including the `jjas`/`pas` issue. After conversion QA, run a separate identity-bridge proof review against identity-bearing convention records before attaching this page-local speaker to a fuller Dario or Jose candidate. Do not promote any family relationship from this page.

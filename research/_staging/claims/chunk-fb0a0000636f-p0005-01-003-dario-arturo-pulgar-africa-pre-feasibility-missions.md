@@ -12,7 +12,7 @@ chunk: "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-ar
 chunk_id: CHUNK-fb0a0000636f-P0005-01
 page_reference: "page 5"
 confidence: medium-high
-promotion_recommendation: promote_after_review
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Claim: African Pre-Feasibility Missions
@@ -20,5 +20,5 @@ promotion_recommendation: promote_after_review
 - Date or date range: Within the 1979-1982 HABITAT entry.
 - Places: Uganda, Tanzania, Niger, Mali, and Senegal.
 - Literal support: `Carry out pre-feasibility missions in Africa including Uganda, Tanzania, Niger, Mali and Senegal.`
-- Conversion confidence/QA concern: High; the converted chunk reports clear text, but the page image and duplicate manifest entry should be checked before promotion.
-- Uncertainty: Moderate because specific mission dates are not supplied.
+- Conversion confidence/QA concern: Blocked; the chunk text is legible, but derivative transcripts disagree. The conversion job page Markdown for page 5 contains 1999/1998 entries instead of this Africa pre-feasibility mission statement, the manifest lists duplicate page-5 chunk records with differing hashes, and no checked `page-0005.jpg` was available for image proof review.
+- Uncertainty: High for page control and promotion. If the chunk is later confirmed, uncertainty remains moderate because specific mission dates are not supplied.

@@ -12,7 +12,7 @@ chunk: "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-ar
 chunk_id: CHUNK-fb0a0000636f-P0005-01
 page_reference: "page 5"
 confidence: medium-high
-promotion_recommendation: promote_after_review
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Claim: HABITAT Regional Information Offices
@@ -20,5 +20,5 @@ promotion_recommendation: promote_after_review
 - Date or date range: Within the 1979-1982 HABITAT entry.
 - Places: Amman, Jordan; Bangkok, Thailand; Dakar, Senegal; Mexico City, Mexico; Geneva, Switzerland.
 - Literal support: `Supervise operations of five regional information offices in Amman, Jordan; Bangkok, Thailand; Dakar, Senegal; Mexico City, Mexico and Geneva, Switzerland.`
-- Conversion confidence/QA concern: High; the chunk reports no illegible text, but the original page image and duplicate page-5 manifest entry should be checked.
-- Uncertainty: Moderate because the statement describes supervisory scope, not necessarily physical residence or travel to each office.
+- Conversion confidence/QA concern: Blocked; the chunk text is legible, but derivative transcripts disagree. The conversion job page Markdown for page 5 contains 1999/1998 entries instead of this HABITAT regional-office statement, the manifest lists duplicate page-5 chunk records with differing hashes, and no checked `page-0005.jpg` was available for image proof review.
+- Uncertainty: High for page control and promotion. If the chunk is later confirmed, the statement still describes supervisory scope, not necessarily physical residence or travel to each office.
