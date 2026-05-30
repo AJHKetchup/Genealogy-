@@ -13,8 +13,8 @@ promotion_recommendation: do_not_promote
 
 - Source path: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`.
 - Converted file: `raw/converted/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23.codex.md`.
-- Chunk/page reference: `CHUNK-01af64f0c097-P0011-01`, source page 11.
-- Literal support reviewed: visually confirmed `Médicos-Cirujanos:` list entry `» Darío J. Pulgar Arriagada`.
-- Conversion confidence/QA concern: high for the narrow page reading; the page image was located and reread on 2026-05-23.
-- Uncertainty: Low that this page states no parent, spouse, child, sibling, household, or other family relationship for Darío J. Pulgar Arriagada.
+- Chunk/page reference: `raw/chunks/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23-codex/page-0011-chunk-01.md`, `CHUNK-01af64f0c097-P0011-01`, source page 11.
+- Literal support reviewed: assigned chunk and page Markdown list `Médicos-Cirujanos:` entry `» Darío J. Pulgar Arriagada`.
+- Conversion confidence/QA concern: medium for this revision. Prior staged notes say the page image was reread on 2026-05-23, but this 2026-05-30 pass could not repeat image QA because the local page image and local source PDF are absent.
+- Uncertainty: Low that the derivative page text states no parent, spouse, child, sibling, household, or other family relationship for Darío J. Pulgar Arriagada; the name/title line itself remains held for conversion QA.
 - Promotion recommendation: do not promote a relationship from this chunk.

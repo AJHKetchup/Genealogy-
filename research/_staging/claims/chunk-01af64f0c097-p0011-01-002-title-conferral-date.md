@@ -8,16 +8,16 @@ object: "1918-09-02"
 source: "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
 source_packet: "research/_staging/source-packets/chunk-01af64f0c097-p0011-01-dario-j-pulgar-arriagada-medico-cirujano.md"
 converted_file: "raw/converted/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23.codex.md"
-chunk: "raw/chunks/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-sess-af33a57786/page-0011-chunk-01.md"
+chunk: "raw/chunks/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23-codex/page-0011-chunk-01.md"
 chunk_id: CHUNK-01af64f0c097-P0011-01
 page_reference: "source page 11"
-confidence: high
+confidence: medium
 promotion_recommendation: do_not_promote
 ---
 
 # Claim: Title Conferral Date
 
-- Literal support: the visually reread page heading reads `Sesion de 2 de Setiembre de 1918`; the same page says the Rector conferred the listed titles and degrees, including under `Médicos-Cirujanos` the entry `» Darío J. Pulgar Arriagada`.
-- Conversion confidence/QA concern: high for the date/name/title reading after page-image reread on 2026-05-23.
-- Uncertainty: Low for the session date as printed, but this separate date-only claim should not be promoted independently because proof review requested only the narrow title-conferral/named-person claim. The date belongs as support/context for claim `chunk-01af64f0c097-p0011-01-001-medico-cirujano-title.md`.
+- Literal support: the assigned chunk and evidence-grade page Markdown heading read `Sesion de 2 de Setiembre de 1918`; the same page says the Rector conferred the listed titles and degrees, including under `Médicos-Cirujanos` the entry `» Darío J. Pulgar Arriagada`.
+- Conversion confidence/QA concern: medium for this revision because page-image QA could not be repeated on 2026-05-30; the local page image and local source PDF are absent.
+- Uncertainty: Moderate until image QA is repeatable, and this separate date-only claim should not be promoted independently because proof review requested only the narrow title-conferral/named-person claim. The date belongs as support/context for claim `chunk-01af64f0c097-p0011-01-001-medico-cirujano-title.md`.
 - Promotion recommendation: do not promote this separate date-only claim; use the date within the narrow title-conferral claim review.
