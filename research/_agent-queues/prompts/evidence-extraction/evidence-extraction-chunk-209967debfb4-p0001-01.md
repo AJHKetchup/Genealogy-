@@ -14,8 +14,19 @@ Use `$genealogy-claim-extraction`.
 - Family relevance: `high`
 - Matched family terms: Arriagada, Dario, Pulgar
 - Narrative cues: photograph
-- Evidence priority: `651` (family_relevance:high, qc:pass, matched_terms, person_linked_narrative_context)
+- Evidence priority: `-49` (family_relevance:high, qc:pass, matched_terms, person_linked_narrative_context, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/identity-analysis-id-stage-chunk-27856e440ba9-p0135-01-pulgar-arriagada-postconv-identity-analysis-20260530032230860-proof-review-postconv-proof-review-20260530175416524.md` | `research/_staging/identity-analysis/identity-analysis-id-stage-chunk-27856e440ba9-p0135-01-pulgar-arriagada-postconv-identity-analysis-20260530032230860.md` | `hold_for_page_image_qa_and_identity_bridge_review` | Keep this item on hold. First, perform page-image QA for page 135, including the speaker heading and the `jjas`/likely `pas` reading. Then run a separate identity-bridge proof review comparing this page-local speaker with identity-bearing convention listings, especially any record that explicitly names `M. Dario Pulgar-Arriagada` with Chile and health-service context. Only after that bridge is accepted should claims from page 135 attach to a fuller Dario/Jose candidate or any canonical person page. |
+| `research/_staging/reviews/identity-analysis-id-stage-chunk-27856e440ba9-p0135-01-pulgar-arriagada-postconv-identity-analysis-20260530032230860-proof-review-postconv-proof-review-20260530180038601.md` | `research/_staging/identity-analysis/identity-analysis-id-stage-chunk-27856e440ba9-p0135-01-pulgar-arriagada-postconv-identity-analysis-20260530032230860.md` | `hold_for_conversion_qa_and_identity_bridge` | Hold for targeted conversion QA. The next action is to make the deferred page image available or otherwise visually inspect source page 135, confirm the speaker heading and the `jjas`/`pas` reading, then run a separate identity-bridge proof review against identity-bearing convention-list records before attaching this intervention to a fuller Dario Pulgar-Arriagada candidate. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Person-First Narrative Contract
