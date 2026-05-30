@@ -1,9 +1,10 @@
 ﻿{
     "created":  "2026-05-30",
     "queue":  "identity-analysis",
-    "task_count":  233,
+    "task_count":  234,
     "status_counts":  {
-                          "done":  233
+                          "done":  233,
+                          "todo":  1
                       },
     "tasks":  [
                   {
@@ -485,6 +486,16 @@
                       "status":  "done",
                       "claimed_at":  "2026-05-23T15:34:39Z",
                       "role":  "identity_researcher"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-identity-id-stage-chunk-27856e440ba9-p0135-01-pulgar-arriagada-identity-review-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/identity/ID-STAGE-CHUNK-27856e440ba9-P0135-01-pulgar-arriagada-identity-review.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-27856e440ba9-P0135-01-pulgar-arriagada-identity-review.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "skill":  "genealogy-proof-review",
