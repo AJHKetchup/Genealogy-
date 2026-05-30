@@ -1,7 +1,7 @@
 ---
 type: research_task
 status: draft
-task_type: identity_and_source_context_verification
+task_type: identity_bridge_verification
 subject: "D. Pulgar in Chile convention signature block"
 source_packet: "research/_staging/source-packets/chunk-2faa60e38062-p0411-01-d-pulgar-chile-convention-signature.md"
 source: "raw/sources/R3578-50-5569-5569-Jacket5.pdf"
@@ -13,11 +13,11 @@ confidence: medium
 promotion_recommendation: do_not_promote
 ---
 
-# Research Task: Verify D. Pulgar Signature Context
+# Research Task: Identify Page-Local D. Pulgar Before Any Merge
 
-- Task: During proof review, compare page 411 to the rendered page image, then review surrounding pages for the convention title, signing date, place, and any fuller identification of the Chilean signatories `Gmo Novoa` and `D. Pulgar`.
+- Task: The rendered page image now confirms the narrow `D. Pulgar` Chile listing. Before any same-person merge, review identity-bearing convention pages or independent records for a full-name bridge between this page-local `D. Pulgar` and any Dario Pulgar candidate.
 - Literal support: `For Chile: / Gmo Novoa / D. Pulgar`.
-- Conversion confidence/QA concern: Medium-high for the converted text; the chunk's own QA note says page-image comparison is required before research use.
+- Conversion confidence/QA concern: High for the narrow Chile block after visual comparison with `page-0411.jpg`; broader source context still requires normal source review.
 - Uncertainty: The assigned chunk does not give `D. Pulgar`'s full given name, official role, age, residence, family relationship, or direct connection to a known canonical family member.
 - Promotion recommendation: Do not promote this task; use it to guide proof review and identity matching.
 

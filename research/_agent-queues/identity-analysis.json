@@ -1,9 +1,10 @@
 ﻿{
     "created":  "2026-05-30",
     "queue":  "identity-analysis",
-    "task_count":  246,
+    "task_count":  247,
     "status_counts":  {
-                          "done":  246
+                          "done":  246,
+                          "todo":  1
                       },
     "tasks":  [
                   {
@@ -2965,6 +2966,16 @@
                       "status":  "done",
                       "claimed_at":  "2026-05-30T22:06:07Z",
                       "role":  "identity_researcher"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-fb0a0000636f-p0005-01-page-control-conflict-postconv-evidence-extraction-20260530224457988-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-fb0a0000636f-p0005-01-page-control-conflict-postconv-evidence-extraction-20260530224457988.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-fb0a0000636f-p0005-01-page-control-conflict-postconv-evidence-extraction-20260530224457988.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "skill":  "genealogy-proof-review",

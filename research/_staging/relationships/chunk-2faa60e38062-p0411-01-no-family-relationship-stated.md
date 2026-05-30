@@ -17,7 +17,7 @@ promotion_recommendation: do_not_promote
 # Relationship Candidate Review: No Family Relationship Stated
 
 - Literal support reviewed: Page 411 lists `D. Pulgar` under `For Chile` in a convention signature sequence.
-- Conversion confidence/QA concern: Medium-high; the printed name and country block are straightforward in the converted text, but page-image review was not performed during this extraction.
+- Conversion confidence/QA concern: High for the narrow Chile block after visual comparison with `page-0411.jpg`; the image confirms `For Chile: / Gmo Novoa / D. Pulgar`.
 - Uncertainty: Low that this page states no spouse, parent, child, sibling, household, or other kinship relationship for `D. Pulgar`.
 - Promotion recommendation: Do not promote a family relationship from this chunk.
 
