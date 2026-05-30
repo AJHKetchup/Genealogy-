@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-30T22:15:46Z",
+  "created": "2026-05-30T23:14:03Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "/home/runner/work/Genealogy-/Genealogy-",
   "r2": {
@@ -58,7 +58,7 @@
       "status": "ran",
       "detail": {
         "action": "restore-queued-source-prep-raw",
-        "created": "2026-05-30T22:22:11Z",
+        "created": "2026-05-30T23:21:34Z",
         "queue": "research/_agent-queues/source-prep-batches.json",
         "filters": {
           "source": "",
@@ -109,11 +109,11 @@
   "queues": {
     "source_prep_batches": {
       "path": "/home/runner/work/Genealogy-/Genealogy-/research/_agent-queues/source-prep-batches.json",
-      "task_count": 570,
+      "task_count": 582,
       "status_counts": {
-        "needs_reread": 570
+        "needs_reread": 582
       }
     }
   },
-  "finished": "2026-05-30T22:22:18Z"
+  "finished": "2026-05-30T23:21:41Z"
 }
