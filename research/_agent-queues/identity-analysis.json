@@ -1,9 +1,10 @@
 ﻿{
     "created":  "2026-05-30",
     "queue":  "identity-analysis",
-    "task_count":  240,
+    "task_count":  241,
     "status_counts":  {
-                          "done":  240
+                          "done":  240,
+                          "todo":  1
                       },
     "tasks":  [
                   {
@@ -2949,6 +2950,16 @@
                       "status":  "done",
                       "claimed_at":  "2026-05-30T14:16:04Z",
                       "role":  "identity_researcher"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-ff8bc4b91301-p0005-01-pulgar-identity-bridge-hold-postconv-evidence-extraction-20260530154508254-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-ff8bc4b91301-p0005-01-pulgar-identity-bridge-hold-postconv-evidence-extraction-20260530154508254.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-ff8bc4b91301-p0005-01-pulgar-identity-bridge-hold-postconv-evidence-extraction-20260530154508254.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "skill":  "genealogy-proof-review",
