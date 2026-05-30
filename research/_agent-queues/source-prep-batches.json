@@ -1,9 +1,9 @@
 {
   "created": "2026-05-30",
   "queue": "source-prep-batches",
-  "task_count": 534,
+  "task_count": 546,
   "status_counts": {
-    "needs_reread": 534
+    "needs_reread": 546
   },
   "tasks": [
     {
@@ -3904,6 +3904,51 @@
         "insufficient_words"
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-40408c5c3710.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0727",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0704-0728",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 704-728",
+      "first_page": 727,
+      "last_page": 727,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0727"
+      ],
+      "pages": [
+        {
+          "page": 727,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0727",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/page-images/page-0727.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/work-orders/page-0727.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/page-markdown/page-0727.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/extracted-images/page-0727",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-c06f2a1718b8.md"
     },
     {
       "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753:p0729",
@@ -7839,6 +7884,51 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-3841656461a5.md"
     },
     {
+      "task_id": "source-prep-batch:ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200:p0183",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/manifest.json",
+      "job_id": "CA3e1a8684-r3016-11a-2905-950-p0176-0200",
+      "title": "R3016-11A-2905-950 pages 176-200",
+      "first_page": 183,
+      "last_page": 183,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200:p0183"
+      ],
+      "pages": [
+        {
+          "page": 183,
+          "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200:p0183",
+          "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/page-images/page-0183.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/work-orders/page-0183.md",
+          "output_path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/page-markdown/page-0183.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/extracted-images/page-0183",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200-p018-702fe6eaff20.md"
+    },
+    {
       "task_id": "source-prep-batch:ca3e1a8684-r3016-11a-2905-950-p0476-0500-r3016-11a-2905-950-pages-476-500:p0498",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -8328,6 +8418,51 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca3e1a8684-r3016-11a-2905-950-p0701-0725-r3016-11a-2905-950-pages-701-725-p071-a6ebf477cf52.md"
     },
     {
+      "task_id": "source-prep-batch:ca3e1a8684-r3016-11a-2905-950-p0701-0725-r3016-11a-2905-950-pages-701-725:p0724",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0701-0725-r3016-11a-2905-950-pages-701-725/manifest.json",
+      "job_id": "CA3e1a8684-r3016-11a-2905-950-p0701-0725",
+      "title": "R3016-11A-2905-950 pages 701-725",
+      "first_page": 724,
+      "last_page": 724,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca3e1a8684-r3016-11a-2905-950-p0701-0725-r3016-11a-2905-950-pages-701-725:p0724"
+      ],
+      "pages": [
+        {
+          "page": 724,
+          "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0701-0725-r3016-11a-2905-950-pages-701-725:p0724",
+          "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0701-0725-r3016-11a-2905-950-pages-701-725/page-images/page-0724.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0701-0725-r3016-11a-2905-950-pages-701-725/work-orders/page-0724.md",
+          "output_path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0701-0725-r3016-11a-2905-950-pages-701-725/page-markdown/page-0724.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0701-0725-r3016-11a-2905-950-pages-701-725/extracted-images/page-0724",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca3e1a8684-r3016-11a-2905-950-p0701-0725-r3016-11a-2905-950-pages-701-725-p072-280506c9197e.md"
+    },
+    {
       "task_id": "source-prep-batch:ca3e1a8684-r3016-11a-2905-950-p0726-0750-r3016-11a-2905-950-pages-726-750:p0745",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -8461,6 +8596,51 @@
         "insufficient_words"
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca3e1a8684-r3016-11a-2905-950-p0826-0850-r3016-11a-2905-950-pages-826-850-p084-db4d3d1ed3ca.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca3e1a8684-r3016-11a-2905-950-p0901-0925-r3016-11a-2905-950-pages-901-925:p0924",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0901-0925-r3016-11a-2905-950-pages-901-925/manifest.json",
+      "job_id": "CA3e1a8684-r3016-11a-2905-950-p0901-0925",
+      "title": "R3016-11A-2905-950 pages 901-925",
+      "first_page": 924,
+      "last_page": 924,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca3e1a8684-r3016-11a-2905-950-p0901-0925-r3016-11a-2905-950-pages-901-925:p0924"
+      ],
+      "pages": [
+        {
+          "page": 924,
+          "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0901-0925-r3016-11a-2905-950-pages-901-925:p0924",
+          "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0901-0925-r3016-11a-2905-950-pages-901-925/page-images/page-0924.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0901-0925-r3016-11a-2905-950-pages-901-925/work-orders/page-0924.md",
+          "output_path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0901-0925-r3016-11a-2905-950-pages-901-925/page-markdown/page-0924.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0901-0925-r3016-11a-2905-950-pages-901-925/extracted-images/page-0924",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca3e1a8684-r3016-11a-2905-950-p0901-0925-r3016-11a-2905-950-pages-901-925-p092-3de835eaba6f.md"
     },
     {
       "task_id": "source-prep-batch:ca3e1a8684-r3016-11a-2905-950-p0926-0940-r3016-11a-2905-950-pages-926-940:p0940",
@@ -10210,6 +10390,51 @@
         "insufficient_words"
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100-p0096.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0412",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/manifest.json",
+      "job_id": "CA7b784510-s519bis-26-4-p0401-0425",
+      "title": "S519bis-26-4 pages 401-425",
+      "first_page": 412,
+      "last_page": 412,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0412"
+      ],
+      "pages": [
+        {
+          "page": 412,
+          "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0412",
+          "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/page-images/page-0412.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/work-orders/page-0412.md",
+          "output_path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/page-markdown/page-0412.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/extracted-images/page-0412",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425-p0412.md"
     },
     {
       "task_id": "source-prep-batch:ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475:p0453",
@@ -16699,6 +16924,51 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975-p0971.md"
     },
     {
+      "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975:p0974",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/manifest.json",
+      "job_id": "CA7e42bb85-s522bis-29-3-p0951-0975",
+      "title": "S522bis-29-3 pages 951-975",
+      "first_page": 974,
+      "last_page": 974,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975:p0974"
+      ],
+      "pages": [
+        {
+          "page": 974,
+          "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975:p0974",
+          "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/page-images/page-0974.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/work-orders/page-0974.md",
+          "output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/page-markdown/page-0974.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/extracted-images/page-0974",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975-p0974.md"
+    },
+    {
       "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0976",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -16742,6 +17012,51 @@
         "insufficient_words"
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000-p0976.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0977",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/manifest.json",
+      "job_id": "CA7e42bb85-s522bis-29-3-p0976-1000",
+      "title": "S522bis-29-3 pages 976-1000",
+      "first_page": 977,
+      "last_page": 977,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0977"
+      ],
+      "pages": [
+        {
+          "page": 977,
+          "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0977",
+          "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/page-images/page-0977.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/work-orders/page-0977.md",
+          "output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/page-markdown/page-0977.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/extracted-images/page-0977",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000-p0977.md"
     },
     {
       "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0985",
@@ -16832,6 +17147,51 @@
         "insufficient_words"
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000-p0990.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0995",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/manifest.json",
+      "job_id": "CA7e42bb85-s522bis-29-3-p0976-1000",
+      "title": "S522bis-29-3 pages 976-1000",
+      "first_page": 995,
+      "last_page": 995,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0995"
+      ],
+      "pages": [
+        {
+          "page": 995,
+          "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0995",
+          "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/page-images/page-0995.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/work-orders/page-0995.md",
+          "output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/page-markdown/page-0995.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/extracted-images/page-0995",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000-p0995.md"
     },
     {
       "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0997",
@@ -19129,6 +19489,51 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275-p1264.md"
     },
     {
+      "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275:p1267",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275/manifest.json",
+      "job_id": "CA7e42bb85-s522bis-29-3-p1251-1275",
+      "title": "S522bis-29-3 pages 1251-1275",
+      "first_page": 1267,
+      "last_page": 1267,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275:p1267"
+      ],
+      "pages": [
+        {
+          "page": 1267,
+          "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275:p1267",
+          "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275/page-images/page-1267.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275/work-orders/page-1267.md",
+          "output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275/page-markdown/page-1267.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275/extracted-images/page-1267",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275-p1267.md"
+    },
+    {
       "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275:p1269",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -20925,6 +21330,51 @@
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400-p1378.md"
     },
     {
+      "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400:p1380",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400/manifest.json",
+      "job_id": "CA7e42bb85-s522bis-29-3-p1376-1400",
+      "title": "S522bis-29-3 pages 1376-1400",
+      "first_page": 1380,
+      "last_page": 1380,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400:p1380"
+      ],
+      "pages": [
+        {
+          "page": 1380,
+          "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400:p1380",
+          "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400/page-images/page-1380.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400/work-orders/page-1380.md",
+          "output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400/page-markdown/page-1380.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400/extracted-images/page-1380",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400-p1380.md"
+    },
+    {
       "task_id": "source-prep-batch:ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400:p1381",
       "queue": "source-prep-batches",
       "role": "source_converter",
@@ -21823,6 +22273,51 @@
         "insufficient_words"
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-p0041.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50:p0046",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "job_id": "CA9010aa1a-s495-2-2-p0026-0050",
+      "title": "S495-2-2 pages 26-50",
+      "first_page": 46,
+      "last_page": 46,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50:p0046"
+      ],
+      "pages": [
+        {
+          "page": 46,
+          "task_id": "source-prep:ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50:p0046",
+          "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0046.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/work-orders/page-0046.md",
+          "output_path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0046.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0046",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-p0046.md"
     },
     {
       "task_id": "source-prep-batch:ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50:p0049",
@@ -23533,6 +24028,51 @@
         "insufficient_words"
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350-p0333.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350:p0335",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "needs_reread",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "media_type": "pdf",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350/manifest.json",
+      "job_id": "CA9010aa1a-s495-2-2-p0326-0350",
+      "title": "S495-2-2 pages 326-350",
+      "first_page": 335,
+      "last_page": 335,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350:p0335"
+      ],
+      "pages": [
+        {
+          "page": 335,
+          "task_id": "source-prep:ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350:p0335",
+          "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350/page-images/page-0335.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350/work-orders/page-0335.md",
+          "output_path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350/page-markdown/page-0335.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350/extracted-images/page-0335",
+          "media_type": "pdf",
+          "rough_discovery_status": "rough_unusable",
+          "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ]
+        }
+      ],
+      "repair_reason": "docling_discovery_unusable",
+      "recommended_action": "gemini_fallback",
+      "rough_discovery_status": "rough_unusable",
+      "rough_discovery_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350-p0335.md"
     },
     {
       "task_id": "source-prep-batch:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0470",
