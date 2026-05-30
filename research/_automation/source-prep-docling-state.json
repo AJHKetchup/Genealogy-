@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-30T20:53:24Z",
+  "created": "2026-05-30T21:59:26Z",
   "mode": "source-prep-docling-discovery",
   "dry_run": false,
   "agent": "source-prep-docling-discovery",
@@ -14,7 +14,7 @@
   "document_timeout": 120.0,
   "hard_timeout": 150.0,
   "queue_scope": "materialized-backlog",
-  "queue_task_count": 546,
+  "queue_task_count": 558,
   "filters": {
     "source": "",
     "source_sha256": ""
@@ -26,62 +26,16 @@
   "errors": 0,
   "extracted_images": 0,
   "skipped": {
-    "ocr_limit_reached": 868,
+    "ocr_limit_reached": 856,
     "raw_source_not_restored": 527
   },
   "tasks": [
     {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0776-0800-s519bis-26-4-pages-776-800:p0785",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 785,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0776-0800-s519bis-26-4-pages-776-800/page-0785.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "docling_error": "Docling hard timeout after 150 seconds.",
-      "docling_unusable_reason": "local_ocr_timeout",
-      "likely_full_page_scan": true,
-      "text_layer_alpha_chars": 3617,
-      "text_layer_flags": [
-        "fragmented_short_lines"
-      ]
-    },
-    {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0376-0400-r3577-50-5569-5569-jacket3-pages-376-400:p0393",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 393,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca24f561d6-r3577-50-5569-5569-jacke-p0376-0400-r3577-50-5569-5569-jacket3-pages-376-400/page-0393.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "docling_error": "Docling hard timeout after 150 seconds.",
-      "docling_unusable_reason": "local_ocr_timeout",
-      "likely_full_page_scan": true,
-      "text_layer_alpha_chars": 3629,
-      "text_layer_flags": [
-        "docling_layout_noise"
-      ]
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100:p0078",
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0435",
       "source": "raw/sources/S495-2-2.pdf",
-      "page": 78,
+      "page": 435,
       "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-0078.md",
+      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450/page-0435.md",
       "readability_flags": [
         "insufficient_text",
         "insufficient_alpha_text",
@@ -94,17 +48,17 @@
       "docling_error": "Docling hard timeout after 150 seconds.",
       "docling_unusable_reason": "local_ocr_timeout",
       "likely_full_page_scan": true,
-      "text_layer_alpha_chars": 3616,
+      "text_layer_alpha_chars": 3547,
       "text_layer_flags": [
-        "fragmented_short_lines"
+        "encoding_mojibake"
       ]
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200:p0177",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0376-0400-r3016-11a-2905-950-pages-376-400:p0391",
       "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 177,
+      "page": 391,
       "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/page-0177.md",
+      "discovery_path": "raw/discovery/docling/ca3e1a8684-r3016-11a-2905-950-p0376-0400-r3016-11a-2905-950-pages-376-400/page-0391.md",
       "readability_flags": [
         "insufficient_text",
         "insufficient_alpha_text",
@@ -117,63 +71,17 @@
       "docling_error": "Docling hard timeout after 150 seconds.",
       "docling_unusable_reason": "local_ocr_timeout",
       "likely_full_page_scan": true,
-      "text_layer_alpha_chars": 3598,
+      "text_layer_alpha_chars": 3538,
       "text_layer_flags": [
         "fragmented_short_lines"
       ]
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0901-0925-r3016-11a-2905-950-pages-901-925:p0918",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 918,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca3e1a8684-r3016-11a-2905-950-p0901-0925-r3016-11a-2905-950-pages-901-925/page-0918.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "docling_error": "Docling hard timeout after 150 seconds.",
-      "docling_unusable_reason": "local_ocr_timeout",
-      "likely_full_page_scan": true,
-      "text_layer_alpha_chars": 3598,
-      "text_layer_flags": [
-        "fragmented_short_lines"
-      ]
-    },
-    {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0151-0175-r3016-11a-2905-950-pages-151-175:p0171",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 171,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca3e1a8684-r3016-11a-2905-950-p0151-0175-r3016-11a-2905-950-pages-151-175/page-0171.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "docling_error": "Docling hard timeout after 150 seconds.",
-      "docling_unusable_reason": "local_ocr_timeout",
-      "likely_full_page_scan": true,
-      "text_layer_alpha_chars": 3596,
-      "text_layer_flags": [
-        "fragmented_short_lines"
-      ]
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400:p1387",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1326-1350-s522bis-29-3-pages-1326-1350:p1334",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 1387,
+      "page": 1334,
       "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400/page-1387.md",
+      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p1326-1350-s522bis-29-3-pages-1326-1350/page-1334.md",
       "readability_flags": [
         "insufficient_text",
         "insufficient_alpha_text",
@@ -186,86 +94,18 @@
       "docling_error": "Docling hard timeout after 150 seconds.",
       "docling_unusable_reason": "local_ocr_timeout",
       "likely_full_page_scan": true,
-      "text_layer_alpha_chars": 3587,
+      "text_layer_alpha_chars": 3534,
       "text_layer_flags": [
-        "fragmented_short_lines"
-      ]
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75:p0052",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 52,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-0052.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "docling_error": "Docling hard timeout after 150 seconds.",
-      "docling_unusable_reason": "local_ocr_timeout",
-      "likely_full_page_scan": true,
-      "text_layer_alpha_chars": 3591,
-      "text_layer_flags": [
-        "fragmented_short_lines"
-      ]
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0776-0800-s519bis-26-4-pages-776-800:p0780",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 780,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0776-0800-s519bis-26-4-pages-776-800/page-0780.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "docling_error": "Docling hard timeout after 150 seconds.",
-      "docling_unusable_reason": "local_ocr_timeout",
-      "likely_full_page_scan": true,
-      "text_layer_alpha_chars": 3584,
-      "text_layer_flags": [
-        "fragmented_short_lines"
-      ]
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0779-0803-c-mara-de-senadores-de-la-naci-n-1936-pages-779-803:p0791",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 791,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0779-0803-c-mara-de-senadores-de-la-naci-n-1936-pages-779-803/page-0791.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 6,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_ocr": true,
-      "docling_error": "Docling hard timeout after 150 seconds.",
-      "docling_unusable_reason": "local_ocr_timeout",
-      "likely_full_page_scan": true,
-      "text_layer_alpha_chars": 3570,
-      "text_layer_flags": [
+        "fragmented_short_lines",
         "docling_layout_noise"
       ]
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400:p1389",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 1389,
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0680",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 680,
       "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400/page-1389.md",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703/page-0680.md",
       "readability_flags": [
         "insufficient_text",
         "insufficient_alpha_text",
@@ -278,17 +118,41 @@
       "docling_error": "Docling hard timeout after 150 seconds.",
       "docling_unusable_reason": "local_ocr_timeout",
       "likely_full_page_scan": true,
-      "text_layer_alpha_chars": 3564,
+      "text_layer_alpha_chars": 3527,
+      "text_layer_flags": [
+        "fragmented_short_lines",
+        "docling_layout_noise"
+      ]
+    },
+    {
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1276-1300-s522bis-29-3-pages-1276-1300:p1287",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "page": 1287,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p1276-1300-s522bis-29-3-pages-1276-1300/page-1287.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "docling_error": "Docling hard timeout after 150 seconds.",
+      "docling_unusable_reason": "local_ocr_timeout",
+      "likely_full_page_scan": true,
+      "text_layer_alpha_chars": 3526,
       "text_layer_flags": [
         "fragmented_short_lines"
       ]
     },
     {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0710",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 710,
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0926-0940-r3016-11a-2905-950-pages-926-940:p0927",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "page": 927,
       "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/page-0710.md",
+      "discovery_path": "raw/discovery/docling/ca3e1a8684-r3016-11a-2905-950-p0926-0940-r3016-11a-2905-950-pages-926-940/page-0927.md",
       "readability_flags": [
         "insufficient_text",
         "insufficient_alpha_text",
@@ -301,15 +165,153 @@
       "docling_error": "Docling hard timeout after 150 seconds.",
       "docling_unusable_reason": "local_ocr_timeout",
       "likely_full_page_scan": true,
-      "text_layer_alpha_chars": 3556,
+      "text_layer_alpha_chars": 3518,
       "text_layer_flags": [
-        "docling_layout_noise"
+        "fragmented_short_lines"
+      ]
+    },
+    {
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200:p0186",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "page": 186,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/page-0186.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "docling_error": "Docling hard timeout after 150 seconds.",
+      "docling_unusable_reason": "local_ocr_timeout",
+      "likely_full_page_scan": true,
+      "text_layer_alpha_chars": 3517,
+      "text_layer_flags": [
+        "fragmented_short_lines"
+      ]
+    },
+    {
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0176-0200-s522bis-29-3-pages-176-200:p0197",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "page": 197,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p0176-0200-s522bis-29-3-pages-176-200/page-0197.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "docling_error": "Docling hard timeout after 150 seconds.",
+      "docling_unusable_reason": "local_ocr_timeout",
+      "likely_full_page_scan": true,
+      "text_layer_alpha_chars": 3511,
+      "text_layer_flags": [
+        "fragmented_short_lines"
+      ]
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0526-0550-r3578-50-5569-5569-jacket5-pages-526-550:p0547",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 547,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0526-0550-r3578-50-5569-5569-jacket5-pages-526-550/page-0547.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "docling_error": "Docling hard timeout after 150 seconds.",
+      "docling_unusable_reason": "local_ocr_timeout",
+      "likely_full_page_scan": true,
+      "text_layer_alpha_chars": 3509,
+      "text_layer_flags": [
+        "fragmented_short_lines"
+      ]
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753:p0749",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 749,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/page-0749.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "docling_error": "Docling hard timeout after 150 seconds.",
+      "docling_unusable_reason": "local_ocr_timeout",
+      "likely_full_page_scan": true,
+      "text_layer_alpha_chars": 3504,
+      "text_layer_flags": [
+        "fragmented_short_lines"
+      ]
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575:p0554",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 554,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/page-0554.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "docling_error": "Docling hard timeout after 150 seconds.",
+      "docling_unusable_reason": "local_ocr_timeout",
+      "likely_full_page_scan": true,
+      "text_layer_alpha_chars": 3493,
+      "text_layer_flags": [
+        "fragmented_short_lines"
+      ]
+    },
+    {
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1026-1050-s522bis-29-3-pages-1026-1050:p1049",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "page": 1049,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p1026-1050-s522bis-29-3-pages-1026-1050/page-1049.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 6,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "docling_error": "Docling hard timeout after 150 seconds.",
+      "docling_unusable_reason": "local_ocr_timeout",
+      "likely_full_page_scan": true,
+      "text_layer_alpha_chars": 3483,
+      "text_layer_flags": [
+        "fragmented_short_lines"
       ]
     }
   ],
   "blockers": [],
   "discovery_state_path": "research/_agent-queues/source-prep-discovery.json",
-  "checkpointed": "2026-05-30T21:09:55Z",
+  "checkpointed": "2026-05-30T22:15:43Z",
   "state_path": "research/_automation/source-prep-docling-state.json",
-  "finished": "2026-05-30T21:09:50Z"
+  "finished": "2026-05-30T22:15:39Z"
 }
