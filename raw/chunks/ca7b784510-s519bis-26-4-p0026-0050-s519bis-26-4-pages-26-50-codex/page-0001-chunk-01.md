@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-b9a1f100f738-P0001-01
+chunk_id: CHUNK-509bc8fd447c-P0001-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50.codex.md
-converted_sha256: b9a1f100f73813cbe6ec18f59306f5e6466fad418dae70c9c99e94057f6b7758
+converted_sha256: 509bc8fd447c593d0fbbc5167d2c58f370b077a81a2d687280777a51dbf7626d
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50/manifest.json
@@ -41,3 +41,5 @@ This page has been fully transcribed.
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "The page contains only a handwritten note, which has been fully transcribed. There are no significant images, illustrations, or photographs to crop."}
 ```
+
+# Page 27

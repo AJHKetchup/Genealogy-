@@ -1115,50 +1115,107 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 259
+
 ## Page Metadata
-Page number: 259
-Source publication year: 1918
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/manifest.json`
+- Source page: 259
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/page-images/page-0259.jpg`
+- Conversion method: PDF text-layer fallback after Docling baseline error
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text, starting with a header, followed by a date and place, a document number, a salutation, a main body paragraph, and a signature block. A short horizontal rule appears below the signature.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-<pre>
-SESION DE 28 DE OCTUBRE DE 1918 545
-</pre>
-<pre>
-Temuco, 30 de Agosto de 1918.
-</pre>
-<pre>
-N.º 85.
 
-Señor Rector:
-
-Por haber sido propuesto don Fernando Navarrete Lira como
-profesor de Preparatoria de este Liceo, han quedado vacantes
-20 horas de Matemáticas, de lo que doi cuenta a la Univer-
-sidad para que se sirva solicitar del Honorable Consejo de
-Instruccion la provision en concurso de las espresadas horas
-de Matemáticas.
-</pre>
-<pre>
-(Firmado).—AURELIO LETELIER.
-</pre>
-<pre>
-—
-</pre>
+```markdown
+Ef 
+(Firmado). —AURELIO LETELIER. 
+. 
+2 
+X 
+EJ 
+ña 
+2 
+HACE 
+/ 
+ñ 
+A 
+X 
+, 
+" 
+E 
+- 
+t 
+4 
+4 
+- 
+ÁS 
+> 
+S 
+» 
+A 
+ES 
+la 
+* 
+A 
+e 
+A 
+ES 
+La 
+. 
+> 
+- 
+pl 
+e 
+Ps 
+z 
+de 
+Y 
+o 
+É 
+r 
+Se 
+É 
+E 
+ES 
+A
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions. A short horizontal rule is present below the signature.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and the horizontal rule have been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page 260
