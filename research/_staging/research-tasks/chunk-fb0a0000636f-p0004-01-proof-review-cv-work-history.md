@@ -11,10 +11,10 @@ chunk: "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-ar
 chunk_id: CHUNK-fb0a0000636f-P0004-01
 page_reference: "page 4"
 literal_support: "Page 4 lists Dario Arturo Pulgar CV work-history entries by document continuity: FAO Ndola 1988-1989; CIDA Ethiopia 1988; WIF Rome 1986-1987; independent communications consultant 1982-1985."
-conversion_confidence: high
-conversion_qa_concern: "The page image was not reviewed in this extraction, and the chunk manifest contains duplicate page-4 entries with the same chunk id but different sha256 values."
-uncertainty: "Low for the converted text; moderate for subject attribution until document continuity and manifest metadata are proof-reviewed."
-confidence: medium
+conversion_confidence: low_for_page_control
+conversion_qa_concern: "Proof review and later revision checks preserve a page-control blocker: derivative chunk text contains 1982-1989 work-history entries, while prior image-reviewed page-4 control evidence was reported as 2000 IBRD and 1999-2000 Antamina text. The manifest contains duplicate page-4 entries with the same chunk id and path but different character counts and sha256 values; neither manifest hash matches the current on-disk chunk hash c8536868c8f59d4340eb31173302f11866a5475823353b2409109b0574980f15. The converted file current hash is da9ec0c3a0f604b4c0e827a2a733a0ba013dd60d86abea2b46490d9f8820d288, not the hash recorded in the chunk front matter. The expected page-4 image was not present during the revision pass."
+uncertainty: "Low for the derivative text as transcribed in the assigned chunk; high for page assignment and physical page control until source-prep/conversion QA restores or regenerates the page image and reconciles the duplicate manifest records."
+confidence: low_pending_conversion_qa
 promotion_recommendation: do_not_promote
 ---
 
