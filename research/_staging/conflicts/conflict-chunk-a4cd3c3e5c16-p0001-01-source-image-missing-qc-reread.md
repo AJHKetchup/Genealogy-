@@ -2,13 +2,13 @@
 type: conflict_candidate
 status: draft
 conflict_type: conversion_qa_blocker
-subject: "Andes passenger list, page 1, child Dario Pulgar last UK address"
+subject: "Andes passenger list, page 1, missing source image and child Dario Pulgar last UK address"
 source_packet: "research/_staging/source-packets/sp-chunk-a4cd3c3e5c16-p0001-01-andes-pulgar-passenger-list.md"
 confidence: high
 promotion_recommendation: hold_for_conversion_qa
 ---
 
-# Conflict Candidate: Child Dario Pulgar Address Ditto Requires Reread
+# Conflict Candidate: Source Image Missing And Child Dario Pulgar Address Ditto Requires Reread
 
 Source path: `raw/sources/Passenger List, Royal Mail Lines Limited, August 7, 1953.png`
 
@@ -18,7 +18,9 @@ Chunk/page reference: `raw/chunks/ca5a5078ab-passenger-list-royal-mai-passenger-
 
 ## Issue
 
-The controller marked this extraction with `qc:reread-page`, and the prior proof review found that the composite child-row claim was not promotion-ready. Local image review now confirms the source image is present, but the child Dario row's column 6 last-UK-address cell is still not clear enough to promote as a ditto mark for `Bedford Corner Hotel, London.`
+The controller marked this extraction with `qc:reread-page`, and the prior proof review found that the composite child-row claim was not promotion-ready. In this revision pass, the source image is not present at `raw/sources/Passenger List, Royal Mail Lines Limited, August 7, 1953.png`, and the conversion manifest's rendered page image is not present at `raw/codex-conversion-jobs/ca5a5078ab-passenger-list-royal-mai-passenger-list-royal-mail-lines-limited-august-7-1953/page-images/page-0001.png`.
+
+Prior proof reviews report visible-image support for the split child-row England and Chile fields. They do not clear the child Dario row's column 6 last-UK-address cell for promotion as a ditto mark for `Bedford Corner Hotel, London.`
 
 ## Literal Support
 
@@ -27,7 +29,7 @@ Task metadata:
 ```text
 qc_recommended_actions: reread-page
 family_relevance: critical
-matched_terms: Dario, John, Juan, Mercedes, Pulgar
+matched_terms: Dario, Pulgar
 ```
 
 Prior proof review:
@@ -38,7 +40,7 @@ The source image does not clearly show a column 6 ditto mark on the child Dario 
 
 ## Conversion Confidence And QA Concern
 
-This is a QA blocker for the child last-UK-address claim only. Draft claims can preserve the image-supported England and Chile fields separately.
+This is a QA blocker for the source packet and the child last-UK-address claim. Draft claims can preserve the proof-reviewed England and Chile fields separately, but this note should travel with the packet until the image path is restored or the rendered page is regenerated.
 
 ## Uncertainty
 

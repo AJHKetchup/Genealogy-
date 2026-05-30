@@ -10,7 +10,7 @@ converted_file: "raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3
 chunk: "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25-codex/page-0008-chunk-01.md"
 chunk_id: "CHUNK-3f694a4a5ff3-P0008-01"
 page_reference: "PDF page 8; converted page metadata says page number 3; task page range 8-8"
-confidence: high
+confidence: medium
 promotion_recommendation: do_not_promote
 ---
 
@@ -20,6 +20,6 @@ promotion_recommendation: do_not_promote
 - Converted file: `raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md`.
 - Chunk/page reference: `CHUNK-3f694a4a5ff3-P0008-01`, PDF page 8, converted page metadata page number 3.
 - Literal support reviewed: the page lists `M. Dario Pulgar-Arriagada, Capitaine du Service de Santé;` under the Chile heading and does not name any spouse, parent, child, sibling, or household relation.
-- Conversion confidence/QA concern: high; no uncertain or illegible text is reported for the page.
-- Uncertainty: Low that this chunk states no family relationship for Dario.
+- Conversion confidence/QA concern: medium. The text-layer chunk and conversion job page Markdown agree and report no uncertain text, but the referenced rendered page image is not present in the workspace for visual confirmation.
+- Uncertainty: Low that this text-layer chunk states no family relationship for Dario; still, the no-relationship finding should remain a negative staging note only.
 - Promotion recommendation: do not promote a relationship from this chunk.

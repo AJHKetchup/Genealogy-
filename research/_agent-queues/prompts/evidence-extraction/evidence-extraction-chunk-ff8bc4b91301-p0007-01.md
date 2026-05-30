@@ -14,8 +14,19 @@ Use `$genealogy-claim-extraction`.
 - Family relevance: `high`
 - Matched family terms: Dario, Dario Pulgar, Pulgar
 - Narrative cues: conference
-- Evidence priority: `657` (family_relevance:high, qc:pass, matched_terms, person_linked_narrative_context)
+- Evidence priority: `-43` (family_relevance:high, qc:pass, matched_terms, person_linked_narrative_context, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/chunk-8791cef1980e-p0007-01-dario-pulgar-postconv-identity-analysis-20260524214723282-proof-review-postconv-proof-review-20260530193920696.md` | `research/_staging/identity-analysis/identity-analysis-id-stage-chunk-8791cef1980e-p0007-01-dario-pulgar-postconv-identity-analysis-20260524214723282.md` | `not_ready` | Keep the staged draft on hold for canonical promotion. Reconcile the chunk-id/converted-sha metadata drift, then perform targeted page-image or PDF proof review for page 7 and any same-document bridge passage used from page 2. Only after that should a separate identity bridge review compare the proof-reviewed Habitat evidence against proof-reviewed CV evidence for `Dario Arturo Pulgar` and any proposed canonical `Dario Arturo Pulgar-Smith` attachment. |
+| `research/_staging/reviews/proof-review-research-staging-identity-analysis-identity-analysis-id-stage-chunk-8791cef1980e-p0007-01-dario-pulgar-postconv-proof-review-20260530192335584.md` | `research/_staging/identity-analysis/identity-analysis-id-stage-chunk-8791cef1980e-p0007-01-dario-pulgar.md` | `hold` | Keep the staged identity-analysis draft on hold. Reconcile the `CHUNK-8791cef1980e-P0007-01` versus current `CHUNK-ff8bc4b91301-P0007-01` metadata and converted-SHA drift, then run or update conversion QA to record that `page-0007.jpg` visibly supports the paragraph. After provenance is stable, a separate identity-bridge review can compare this page-local `Dario Pulgar` evidence with proof-reviewed CV or family evidence before any canonical attachment. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Person-First Narrative Contract

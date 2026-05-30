@@ -2,7 +2,7 @@
 type: claim
 status: draft
 claim_type: occupation
-confidence: 6.0
+confidence: 7.5
 subject: "Dario Pulgar (child passenger, age 11)"
 predicate: had_occupation_or_calling
 object: "Student"
@@ -13,8 +13,8 @@ source_packet: "research/_staging/source-packets/sp-chunk-a4cd3c3e5c16-p0001-01-
 chunk: "raw/chunks/ca5a5078ab-passenger-list-royal-mai-passenger-list-royal-mail-lines-limited-august-7-1953-codex/page-0001-chunk-01.md"
 chunk_id: "CHUNK-a4cd3c3e5c16-P0001-01"
 page_reference: "image page 1; passenger list page P.M. 25; Pulgar rows"
-conversion_confidence: low
-promotion_recommendation: hold_for_conversion_qa
+conversion_confidence: medium
+promotion_recommendation: promote_after_review
 tags: [claim, staging, occupation, student, pulgar]
 ---
 
@@ -32,7 +32,7 @@ Dario Pulgar, the child passenger aged 11, was listed as a student.
 
 ## Conversion Confidence And QA Concern
 
-Low for promotion pending page-image reread.
+Medium. Prior proof review of the child passenger-event claim reports visible-image support for the child row and occupation/calling `Student`. The current revision pass could not locate the source image at the manifest path, so preserve the prior image-reviewed scope and do not use this claim to establish school identity or family relationship.
 
 ## Uncertainty
 
@@ -40,4 +40,4 @@ The source column is `Profession, Occupation, or Calling of Passengers`; `Studen
 
 ## Promotion Recommendation
 
-Hold for conversion QA.
+Promote after proof review.

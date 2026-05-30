@@ -18,7 +18,7 @@ departure_date: "1953-08-07"
 departure_port: "Southampton"
 destination_region: "South America"
 family_relevance: critical
-promotion_recommendation: promote_after_review
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Source Packet Draft: Andes Passenger List, Pulgar Rows
@@ -57,9 +57,9 @@ The table header identifies the repeated ditto in column 2 as port contracted to
 
 ## Conversion Confidence And QA Concern
 
-Conversion confidence is mixed. Local image review of `raw/sources/Passenger List, Royal Mail Lines Limited, August 7, 1953.png` confirms the page identity and the main Pulgar row structure, including the child row name by ditto, age `11`, occupation `Student`, the `+` mark in the England subcolumn, and ditto marks in columns 9 and 10 following `Chile`.
+Conversion confidence is mixed. Prior staged proof reviews report visible-image confirmation for the narrow child-row fields: child row name by ditto, age `11`, occupation `Student`, the `+` mark in the England subcolumn, and ditto marks in columns 9 and 10 following `Chile`. In this revision pass, however, the source image named by the manifest is not present at `raw/sources/Passenger List, Royal Mail Lines Limited, August 7, 1953.png`, and the rendered page image named by the conversion manifest is not present under `raw/codex-conversion-jobs/.../page-images/page-0001.png`.
 
-The child row's column 6 last-address cell remains a QA concern. The conversion renders a ditto mark for the child Dario address, but the image does not make that mark sufficiently clear for a promotable address claim. Preserve this disagreement instead of silently normalizing the child address to the adult Pulgar address.
+The child row's column 6 last-address cell remains a QA concern. The conversion renders a ditto mark for the child Dario address, but the proof-review revision notes state that image-reviewed evidence did not make that mark sufficiently clear for a promotable address claim. Preserve this disagreement instead of silently normalizing the child address to the adult Pulgar address.
 
 ## Uncertainty
 
@@ -67,4 +67,4 @@ Do not infer canonical relationships from this passenger list alone. The adult r
 
 ## Promotion Recommendation
 
-`promote_after_review` for the source packet only. Promote individual child-row claims selectively: age, student occupation, England last-permanent-residence mark, and Chile ditto-mark fields can move after proof review; the child last-UK-address reading should remain held for targeted conversion QA.
+`hold_for_conversion_qa` for the source packet until the missing source/page image is restored or regenerated through the normal conversion QA workflow. Promote individual child-row claims selectively only where separate proof review has already confirmed the visible field and preserved scope: age, student occupation, England last-permanent-residence mark, and Chile ditto-mark fields. The child last-UK-address reading should remain held for targeted conversion QA.
