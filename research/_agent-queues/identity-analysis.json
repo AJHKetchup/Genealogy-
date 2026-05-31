@@ -1,9 +1,10 @@
 ﻿{
     "created":  "2026-05-31",
     "queue":  "identity-analysis",
-    "task_count":  255,
+    "task_count":  257,
     "status_counts":  {
-                          "done":  255
+                          "done":  255,
+                          "todo":  2
                       },
     "tasks":  [
                   {
@@ -1413,6 +1414,16 @@
                       "status":  "done",
                       "claimed_at":  "2026-05-31T10:35:33Z",
                       "role":  "identity_researcher"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-27415e031382-p0075-01-federico-arriagada-identity-watch-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-27415e031382-p0075-01-federico-arriagada-identity-watch.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-27415e031382-p0075-01-federico-arriagada-identity-watch.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "skill":  "genealogy-proof-review",
@@ -3109,6 +3120,16 @@
                       "status":  "done",
                       "claimed_at":  "2026-05-31T04:56:55Z",
                       "role":  "identity_researcher"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-chunk-fb0a0000636f-p0005-01-page-control-conflict-postconv-evidence-extraction-20260531110937491-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/chunk-fb0a0000636f-p0005-01-page-control-conflict-postconv-evidence-extraction-20260531110937491.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/chunk-fb0a0000636f-p0005-01-page-control-conflict-postconv-evidence-extraction-20260531110937491.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
                   },
                   {
                       "skill":  "genealogy-proof-review",
