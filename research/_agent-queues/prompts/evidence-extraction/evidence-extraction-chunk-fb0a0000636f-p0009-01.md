@@ -14,8 +14,19 @@ Use `$genealogy-claim-extraction`.
 - Family relevance: `high`
 - Matched family terms: Dario, Pulgar
 - Narrative cues: education
-- Evidence priority: `659` (family_relevance:high, qc:reread-page, matched_terms, person_linked_narrative_context)
+- Evidence priority: `-41` (family_relevance:high, qc:reread-page, matched_terms, person_linked_narrative_context, proof_review_revision)
 
+
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/identity-analysis-id-stage-chunk-a485f4030ce7-p0009-01-dario-cv-subject-postconv-identity-analysis-20260524120432731-proof-review-postconv-proof-review-20260531123600706.md` | `research/_staging/identity-analysis/identity-analysis-id-stage-chunk-a485f4030ce7-p0009-01-dario-cv-subject-postconv-identity-analysis-20260524120432731.md` | `hold` | Hold this staged analysis. Reconcile the current chunk id against the source packet and staged draft, restore or regenerate the page-9 image if visual QA is required, and review an identity-bearing CV page or accepted local bridge source before attaching page-9 education/language facts to any canonical person. |
+| `research/_staging/reviews/review-identity-analysis-id-stage-chunk-a485f4030ce7-p0009-01-dario-cv-subject-postconv-proof-review-20260531122903020.md` | `research/_staging/identity-analysis/identity-analysis-id-stage-chunk-a485f4030ce7-p0009-01-dario-cv-subject-postconv-identity-analysis-20260524120432731.md` | `not_ready` | Hold this staged draft. Restore or locate the source PDF or rendered page image for page 9, then reconcile `a485f4030ce7`, `c25ee050e822`, and `fb0a0000636f` chunk/provenance identifiers against the current manifest and files. After page-source alignment is verified, review an identity-bearing CV page or other accepted local source that explicitly connects document-level `Dario Arturo Pulgar` to any canonical `Dario Arturo Pulgar-Smith` profile before promoting the page-9 education or language facts. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
 
 
 ## Person-First Narrative Contract
